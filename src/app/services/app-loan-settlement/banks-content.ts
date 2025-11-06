@@ -139,7 +139,7 @@ function generateKeywords(bankName: string): string[] {
 
 // Generate content for a bank (with fallback)
 export function getBankContentWithFallback(bankSlug: string): BankContent {
-  const generatedContent = generateBankContent(bankSlug);
+  const generatedContent = generateBankContent(bankSlug) as Partial<BankContent>;
   
   // Find bank name from slug
   const bankEntry = allBankNames.find(

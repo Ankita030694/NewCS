@@ -167,7 +167,7 @@ function generateKeywords(bankName: string): string[] {
 // Generate content for a bank (with fallback)
 export function getBankContentWithFallback(bankSlug: string): BankContent {
   const safeSlug = typeof bankSlug === 'string' && bankSlug.length > 0 ? bankSlug : 'bank';
-  const generatedContent = generateBankContent(safeSlug);
+  const generatedContent = generateBankContent(safeSlug) as Partial<BankContent>;
   
   // Find bank name from slug
   const bankEntry = allBankNames.find(
