@@ -1,0 +1,25 @@
+# robots.txt for CredSettle Website
+# https://www.credsettle.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas (if any)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+# Sitemap location
+Sitemap: https://www.credsettle.com/sitemap.xml
+
+# Crawl-delay for aggressive bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+

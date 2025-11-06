@@ -1,0 +1,698 @@
+'use client';
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
+
+export default function ContactPage() {
+  const router = useRouter();
+  const [isFirefox, setIsFirefox] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [numberError, setNumberError] = useState('');
+  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [formData, setFormData] = useState({
+    name: '',
+    number: '',
+    email: '',
+    city: '',
+    employmentStatus: '',
+    monthlyIncome: '',
+    harassment: '',
+    creditCardDues: '',
+    personalLoanDues: '',
+    canPay: '',
+    queries: ''
+  });
+
+  useEffect(() => {
+    // Detect Firefox browser
+    const userAgent = navigator.userAgent.toLowerCase();
+    setIsFirefox(userAgent.includes('firefox'));
+  }, []);
+
+  const handleNameInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setFormData(prev => ({ ...prev, name: value }));
+    if (errors.name) {
+      setErrors(prev => ({ ...prev, name: '' }));
+    }
+  };
+
+  const handleNumberInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    let value = e.target.value.replace(/\D/g, ''); // Remove non-numeric characters
+    
+    if (value.length > 10) {
+      value = value.slice(0, 10); // Restrict input to 10 digits
+    }
+    
+    setFormData(prev => ({ ...prev, number: value }));
+    setNumberError('');
+    if (errors.number) {
+      setErrors(prev => ({ ...prev, number: '' }));
+    }
+  };
+
+  const handleEmailInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+    
+    setFormData(prev => ({ ...prev, email: value }));
+    
+    if (value === '' || gmailRegex.test(value)) {
+      setErrors(prev => ({ ...prev, email: '' }));
+    } else {
+      setErrors(prev => ({ ...prev, email: 'Please enter a valid Gmail address.' }));
+    }
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    if (errors[name]) {
+      setErrors(prev => ({ ...prev, [name]: '' }));
+    }
+  };
+
+  const getDebtRange = (amount: number) => {
+    if (amount >= 1000000) return "10,00,000 or above";
+    if (amount >= 500000) return "5,00,000 - 10,00,000";
+    if (amount >= 400000) return "4,00,000 - 5,00,000";
+    if (amount >= 300000) return "3,00,000 - 4,00,000";
+    if (amount >= 200000) return "2,00,000 - 3,00,000";
+    return "1,00,000 - 2,00,000";
+  };
+
+  const validateForm = () => {
+    const newErrors: Record<string, string> = {};
+
+    if (!formData.name.trim()) {
+      newErrors.name = 'Name is required';
+    }
+
+    if (!formData.number) {
+      newErrors.number = 'Mobile number is required';
+    } else if (formData.number.length !== 10) {
+      setNumberError('Please enter a valid 10-digit number.');
+      return false;
+    }
+
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required';
+    } else {
+      const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+      if (!gmailRegex.test(formData.email)) {
+        newErrors.email = 'Please enter a valid Gmail address.';
+      }
+    }
+
+    if (!formData.city) {
+      newErrors.city = 'City is required';
+    }
+
+    if (!formData.employmentStatus) {
+      newErrors.employmentStatus = 'Employment status is required';
+    }
+
+    if (!formData.monthlyIncome) {
+      newErrors.monthlyIncome = 'Monthly income is required';
+    }
+
+    if (!formData.harassment) {
+      newErrors.harassment = 'Harassment status is required';
+    }
+
+    if (!formData.creditCardDues) {
+      newErrors.creditCardDues = 'Credit card dues are required';
+    }
+
+    if (!formData.personalLoanDues) {
+      newErrors.personalLoanDues = 'Personal loan dues are required';
+    }
+
+    if (!formData.canPay) {
+      newErrors.canPay = 'This field is required';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  const onSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    if (loading) return;
+
+    if (!validateForm()) {
+      return;
+    }
+
+    setNumberError('');
+    setLoading(true);
+
+    const today = new Date();
+    const formattedDate = `${String(today.getDate()).padStart(2, '0')}-${String(
+      today.getMonth() + 1
+    ).padStart(2, '0')}-${today.getFullYear()}`;
+
+    const submitData = {
+      ...formData,
+      created: Date.now(),
+      date: formattedDate
+    };
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(submitData),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to submit form');
+      }
+
+      if (process.env.NODE_ENV !== 'production') {
+        console.log('Data Submitted!', result);
+      }
+      
+      // Redirect to thank-you page on successful submission
+      router.push('/thank-you');
+    } catch (error: any) {
+      console.error('Error Submitting form:', error);
+      alert(error.message || 'Failed to submit the form!');
+    } finally {
+      setTimeout(() => setLoading(false), 10000); // Enable button after 10 seconds
+    }
+  };
+  return (
+    <div className="relative min-h-screen bg-white mt-6">
+      {/* Background Circle Effect - Chrome/Safari */}
+      {!isFirefox && (
+        <div 
+          className="absolute top-0 left-0 w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[757px] lg:h-[757px] blur-[100px] md:blur-[200px] lg:blur-[400px]"
+          style={{
+            borderRadius: '50%',
+            background: '#007AFF',
+            transform: 'translate(-50%, -50%)',
+            zIndex: 0,
+            opacity: 0.6,
+            willChange: 'filter', // Optimize for animations
+            backfaceVisibility: 'hidden' // Force hardware acceleration
+          }}
+        />
+      )}
+      
+      {/* Firefox-specific blur effect */}
+      {isFirefox && (
+        <div 
+          className="absolute top-0 left-0 w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[757px] lg:h-[757px]"
+          style={{
+            borderRadius: '50%',
+            background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
+            transform: 'translate(-50%, -50%)',
+            zIndex: 0,
+            opacity: 0.9
+          }}
+        />
+      )}
+      
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Main Content */}
+      <div className="relative z-10 pt-16 md:pt-20 lg:pt-[100px] px-4 md:px-6 lg:px-[16.2px]">
+        <div className="w-full max-w-8xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-start lg:justify-around gap-8 lg:gap-10">
+            {/* Left Sidebar - Contact Information */}
+            <div className="w-full lg:flex-shrink-0 lg:w-[700px] lg:mr-10">
+              <div 
+                className="inline-block px-4 md:px-6 py-2 md:py-3 mb-4 md:mb-6"
+                style={{
+                  borderRadius: '38px',
+                  background: '#BFEEFF'
+                }}
+              >
+                <h2 
+                  className="text-[11px] md:text-[13px]"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontStyle: 'normal',
+                    fontWeight: '400',
+                    lineHeight: '18px'
+                  }}
+                >
+                  Contact Us
+                </h2>
+              </div>
+              <h3 
+                className="mb-3 md:mb-4 text-2xl md:text-3xl lg:text-[45px] leading-tight md:leading-tight lg:leading-[65px]"
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontStyle: 'normal',
+                  fontWeight: '400'
+                }}
+              >
+                Let's Get in Touch
+              </h3>
+              <p 
+                className="mb-4 md:mb-6 text-base md:text-lg lg:text-[20px] leading-5 md:leading-6 lg:leading-[25px]"
+                style={{
+                  color: 'rgba(12, 39, 86, 0.70)',
+                  fontFamily: 'Poppins',
+                  fontStyle: 'normal',
+                  fontWeight: '400'
+                }}
+              >
+                Or just reach out manually at info@credsettle.com
+              </p>
+            </div>
+
+            {/* Right Side - Contact Form */}
+            <div className="w-full lg:flex-shrink-0 lg:w-[600px]">
+              <div 
+                className="flex flex-col p-4 md:p-8 lg:p-[52px_40px] gap-4 md:gap-6 lg:gap-[10px] rounded-2xl md:rounded-3xl lg:rounded-[40px]"
+                style={{
+                  background: '#EFF7FF',
+                  boxShadow: '0 4px 10.3px 0 rgba(255, 255, 255, 0.25) inset, 4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+                  width: '100%',
+                  maxWidth: '600px'
+                }}
+              >
+                <form onSubmit={onSubmit} className="space-y-4 md:space-y-6 w-full">
+                  <div>
+                    <label htmlFor="name" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Name
+                    </label>
+                    <input 
+                      type="text"
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleNameInput}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      placeholder="Name"
+                    />
+                    {errors.name && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.name}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="number" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Number
+                    </label>
+                    <input 
+                      type="text"
+                      id="number"
+                      name="number"
+                      value={formData.number}
+                      onChange={handleNumberInput}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      placeholder="Number"
+                    />
+                    {errors.number && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.number}</p>
+                    )}
+                    {numberError && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{numberError}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Email ID
+                    </label>
+                    <input 
+                      type="text"
+                      id="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleEmailInput}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      placeholder="example@gmail.com"
+                    />
+                    {errors.email && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.email}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="city" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> City
+                    </label>
+                    <select
+                      id="city"
+                      name="city"
+                      value={formData.city}
+                      onChange={handleInputChange}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                    >
+                      <option value="">Select City</option>
+                      {[
+                        'Andaman and Nicobar Islands',
+                        'Andhra Pradesh',
+                        'Arunachal Pradesh',
+                        'Assam',
+                        'Bihar',
+                        'Chandigarh',
+                        'Chhattisgarh',
+                        'Dadra and Nagar Haveli and Daman and Diu',
+                        'Delhi',
+                        'Goa',
+                        'Gujarat',
+                        'Haryana',
+                        'Himachal Pradesh',
+                        'Jharkhand',
+                        'Karnataka',
+                        'Kerala',
+                        'Lakshadweep',
+                        'Madhya Pradesh',
+                        'Maharashtra',
+                        'Manipur',
+                        'Meghalaya',
+                        'Mizoram',
+                        'Nagaland',
+                        'Odisha',
+                        'Puducherry',
+                        'Punjab',
+                        'Rajasthan',
+                        'Sikkim',
+                        'Tamil Nadu',
+                        'Telangana',
+                        'Tripura',
+                        'Uttar Pradesh',
+                        'Uttarakhand',
+                        'West Bengal',
+                        'Mumbai',
+                        'Pune',
+                        'Bangalore',
+                        'Chennai',
+                        'Hyderabad',
+                        'Other',
+                      ].map((city) => (
+                        <option key={city} value={city}>
+                          {city}
+                        </option>
+                      ))}
+                    </select>
+                    {errors.city && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.city}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="employmentStatus" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Employment Status
+                    </label>
+                    <select
+                      id="employmentStatus"
+                      name="employmentStatus"
+                      value={formData.employmentStatus}
+                      onChange={handleInputChange}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                    >
+                      <option value="">Select</option>
+                      {[
+                        'Not employed',
+                        'Working as salaried employee',
+                        'Self employed',
+                        'Business with more than 10 employees',
+                      ].map((status) => (
+                        <option key={status} value={status}>
+                          {status}
+                        </option>
+                      ))}
+                    </select>
+                    {errors.employmentStatus && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.employmentStatus}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="monthlyIncome" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Monthly Income
+                    </label>
+                    <select
+                      id="monthlyIncome"
+                      name="monthlyIncome"
+                      value={formData.monthlyIncome}
+                      onChange={handleInputChange}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                    >
+                      <option value="">Select</option>
+                      {[
+                        '10,000 - 50,000',
+                        '50,000 - 1,00,000',
+                        '1,00,000 - 3,00,000',
+                        '3,00,000 - 5,00,000',
+                        '5,00,000 or above',
+                      ].map((status) => (
+                        <option key={status} value={status}>
+                          {status}
+                        </option>
+                      ))}
+                    </select>
+                    {errors.monthlyIncome && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.monthlyIncome}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="harassment" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Facing Harassment?
+                    </label>
+                    <select
+                      id="harassment"
+                      name="harassment"
+                      value={formData.harassment}
+                      onChange={handleInputChange}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                    >
+                      <option value="">Select</option>
+                      {['Yes', 'No'].map((harassment) => (
+                        <option key={harassment} value={harassment}>
+                          {harassment}
+                        </option>
+                      ))}
+                    </select>
+                    {errors.harassment && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.harassment}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="creditCardDues" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Total Credit Card Dues?
+                    </label>
+                    <select
+                      id="creditCardDues"
+                      name="creditCardDues"
+                      value={formData.creditCardDues}
+                      onChange={handleInputChange}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                    >
+                      <option value="">Select</option>
+                      {[
+                        '1,00,000 - 2,00,000',
+                        '2,00,000 - 3,00,000',
+                        '3,00,000 - 4,00,000',
+                        '4,00,000 - 5,00,000',
+                        '5,00,000 - 10,00,000',
+                        '10,00,000 or above',
+                      ].map((status) => (
+                        <option key={status} value={status}>
+                          {status}
+                        </option>
+                      ))}
+                    </select>
+                    {errors.creditCardDues && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.creditCardDues}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="personalLoanDues" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Total Personal Loan Dues?
+                    </label>
+                    <select
+                      id="personalLoanDues"
+                      name="personalLoanDues"
+                      value={formData.personalLoanDues}
+                      onChange={handleInputChange}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                    >
+                      <option value="">Select</option>
+                      {[
+                        '1,00,000 - 2,00,000',
+                        '2,00,000 - 3,00,000',
+                        '3,00,000 - 4,00,000',
+                        '4,00,000 - 5,00,000',
+                        '5,00,000 - 10,00,000',
+                        '10,00,000 or above',
+                      ].map((status) => (
+                        <option key={status} value={status}>
+                          {status}
+                        </option>
+                      ))}
+                    </select>
+                    {errors.personalLoanDues && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.personalLoanDues}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="canPay" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      <span style={{ color: 'red' }}>*</span> Can you pay 2,000 to 5,000 to start the process?
+                    </label>
+                    <select
+                      id="canPay"
+                      name="canPay"
+                      value={formData.canPay}
+                      onChange={handleInputChange}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                    >
+                      <option value="">Select</option>
+                      {['Yes', 'No'].map((option) => (
+                        <option key={option} value={option}>
+                          {option}
+                        </option>
+                      ))}
+                    </select>
+                    {errors.canPay && (
+                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.canPay}</p>
+                    )}
+                  </div>
+                  <div>
+                    <label htmlFor="queries" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                      Your Queries
+                    </label>
+                    <textarea 
+                      id="queries"
+                      name="queries"
+                      value={formData.queries}
+                      onChange={handleInputChange}
+                      rows={3}
+                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 resize-none placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      placeholder="Your Queries"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="w-full text-white font-medium py-2.5 md:py-3 px-4 md:px-6 text-sm md:text-base hover:bg-[#0056CC] transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed rounded-[37px]"
+                    style={{
+                      background: '#007AFF',
+                      boxShadow: '0 1px 6.8px 0 rgba(0, 0, 0, 0.35), 0 -4px 4px 0 rgba(255, 255, 255, 0.25) inset, 0 4px 4px 0 rgba(255, 255, 255, 0.25) inset'
+                    }}
+                  >
+                    {loading ? 'Submitting...' : 'SUBMIT'}
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Reach Out to Us Section */}
+        <div className="w-full max-w-8xl mx-auto px-4 md:px-6 lg:px-10 mt-8 md:mt-12 lg:mt-16">
+          <div className="flex flex-col lg:flex-row items-start lg:justify-around gap-6 lg:gap-10">
+            {/* Left Side - Title */}
+            <div className="w-full lg:flex-shrink-0 lg:w-[700px] lg:mr-10">
+              <h3 
+                className="mb-3 md:mb-4 text-2xl md:text-3xl lg:text-[45px] leading-tight md:leading-tight lg:leading-[45px]"
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontStyle: 'normal',
+                  fontWeight: '400'
+                }}
+              >
+                Reach Out to us
+              </h3>
+            </div>
+
+            {/* Right Side - Contact Cards */}
+            <div className="w-full lg:flex-1">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-4">
+                {/* First Row - Email Card */}
+                <div 
+                  className="p-4 md:p-6 relative min-h-[150px] md:min-h-[180px]"
+                  style={{
+                    borderRadius: '40px',
+                    background: '#EFF7FF',
+                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+                  }}
+                >
+                  <div className="absolute bottom-2 md:bottom-4 right-1 md:right-2 opacity-50 md:opacity-100">
+                    <img 
+                      src="/contact1.png" 
+                      alt="Email CredSettle for Loan Settlement Consultation" 
+                      className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px]"
+                    />
+                  </div>
+                  <div className="pt-4 md:pt-8 pr-20 md:pr-28 lg:pr-32">
+                    <h4 className="font-semibold text-black mb-1 md:mb-2 text-sm md:text-base">Email Us</h4>
+                    <p className="text-gray-600 text-xs md:text-sm mb-1 md:mb-2">General Inquiries</p>
+                    <p className="text-black text-xs md:text-sm break-words">info@credsettle.com</p>
+                  </div>
+                </div>
+
+                {/* First Row - Call Card */}
+                <div 
+                  className="p-4 md:p-6 relative min-h-[150px] md:min-h-[180px]"
+                  style={{
+                    borderRadius: '40px',
+                    background: '#EFF7FF',
+                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+                  }}
+                >
+                  <div className="absolute bottom-2 md:bottom-4 right-1 md:right-2 opacity-50 md:opacity-100">
+                    <img 
+                      src="/contact2.png" 
+                      alt="Call CredSettle for Loan Settlement Support" 
+                      className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px] rotate-90"
+                    />
+                  </div>
+                  <div className="pt-4 md:pt-8 pr-20 md:pr-28 lg:pr-32">
+                    <h4 className="font-semibold text-black mb-1 md:mb-2 text-sm md:text-base">Call Us</h4>
+                    <p className="text-gray-600 text-xs md:text-sm mb-1 md:mb-2">Customer Support</p>
+                    <p className="text-black text-xs md:text-sm">+91 8800226635</p>
+                  </div>
+                </div>
+
+                {/* Second Row - Address Card (spans 2 columns) */}
+                <div 
+                  className="col-span-1 md:col-span-2 p-4 md:p-6 relative min-h-[150px] md:min-h-[180px]"
+                  style={{
+                    borderRadius: '40px',
+                    background: '#EFF7FF',
+                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+                  }}
+                >
+                  <div className="absolute bottom-2 md:bottom-4 right-1 md:right-2 opacity-50 md:opacity-100">
+                    <img 
+                      src="/contact3.png" 
+                      alt="CredSettle Office Address in Gurugram" 
+                      className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px]"
+                    />
+                  </div>
+                  <div className="flex items-center justify-between pr-20 md:pr-28 lg:pr-32">
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-black mb-1 md:mb-2 text-sm md:text-base">Our Address</h4>
+                      <p className="text-gray-600 text-xs md:text-sm mb-2 md:mb-4">Visit Our Hub</p>
+                      <p className="text-black text-xs md:text-sm leading-relaxed">
+                        4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="mt-12 md:mt-16 lg:mt-[100px]">
+        <Footer />
+      </div>
+    </div>
+  );
+}
