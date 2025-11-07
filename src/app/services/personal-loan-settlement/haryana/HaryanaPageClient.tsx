@@ -47,7 +47,7 @@ export default function HaryanaPageClient() {
     },
     {
       question: 'Will settlement affect my job in Gurgaon corporates?',
-      answer: 'Settlement itself doesn't affect employment. But we stop recovery harassment at workplace immediately (within 3 days). Critical for corporate professionals worried about HR or manager finding out about debt issues.'
+      answer: "Settlement itself doesn't affect employment. But we stop recovery harassment at workplace immediately (within 3 days). Critical for corporate professionals worried about HR or manager finding out about debt issues."
     },
     {
       question: 'What is Haryana Debt Conciliation Board?',
