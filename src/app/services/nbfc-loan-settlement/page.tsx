@@ -90,6 +90,235 @@ export default function NBFCLoanSettlementPage() {
           </div>
         </section>
 
+        {/* Comprehensive Content Section - Understanding NBFC Loan Settlement */}
+        <section
+          className="w-full mx-auto px-4 md:px-6 lg:px-4"
+          style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '36px' }}
+        >
+          <div className="bg-gradient-to-br from-blue-50/30 via-white to-blue-50/20 rounded-3xl p-6 md:p-8 lg:p-12" style={{ boxShadow: '0 4px 20px rgba(0, 122, 255, 0.08)', border: '1px solid rgba(0, 122, 255, 0.1)' }}>
+            <h2
+              style={{
+                color: '#0C2756',
+                fontFamily: 'Poppins',
+                fontSize: 'clamp(24px, 5vw, 32px)',
+                fontWeight: 700,
+                lineHeight: '1.3',
+                marginBottom: '32px',
+                textAlign: 'center'
+              }}
+            >
+              Understanding NBFC Loan Settlement in India
+            </h2>
+            
+            {/* What is NBFC Loan Settlement */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                What is NBFC Loan Settlement and How NBFCs Differ from Banks
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                NBFC loan settlement is a legally recognized debt resolution mechanism in India where borrowers negotiate with <strong>Non-Banking Financial Companies</strong> to pay a reduced amount to settle their outstanding loan obligations. But what exactly makes NBFCs different from traditional banks, and why do these differences matter for your settlement strategy? Understanding this distinction is crucial for navigating the settlement process effectively.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                NBFCs are financial institutions regulated by the Reserve Bank of India (RBI) that provide banking-like services—loans, credit facilities, asset financing, and investment products—but cannot accept <strong>demand deposits</strong> (savings/current accounts) like traditional banks. Under the RBI Act, 1934, NBFCs are classified into several categories: <strong>Asset Finance Companies</strong> (AFCs), <strong>Loan Companies</strong>, <strong>Investment Companies</strong>, <strong>Infrastructure Finance Companies</strong> (IFCs), and <strong>Microfinance Institutions</strong> (MFIs). Each category operates under specific regulatory frameworks that influence their lending policies, interest rate structures, and most importantly, their settlement approaches.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Here's what makes NBFC settlements unique: NBFCs typically have <strong>higher operational flexibility</strong> than scheduled commercial banks. While banks follow stringent internal audit processes and centralized decision-making protocols mandated by Basel III norms, NBFCs often have faster turnaround times for settlement approvals. Additionally, many NBFCs demonstrate higher risk appetite, which historically allowed them to lend to borrowers with lower credit scores or minimal documentation. This same risk tolerance often translates into more pragmatic settlement negotiations. At CredSettle, we leverage our deep understanding of NBFC-specific <strong>compromise settlement policies</strong>, board-mandated provisioning norms, and sector-wise operational frameworks to secure favorable One-Time Settlement (OTS) outcomes that typically reduce your outstanding liability by 30-70%.
+              </p>
+            </div>
+
+            {/* How NBFC Loan Settlement Process Works */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                How the NBFC Loan Settlement Process Works: Technical Framework
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                The NBFC settlement journey begins with <strong>regulatory classification verification</strong>. We first confirm your lender's RBI registration status by checking the official RBI list of registered NBFCs. This verification is critical because only RBI-regulated NBFCs follow the Fair Practices Code (FPC) mandated under Master Direction - Non-Banking Financial Company Returns (Reserve Bank) Directions, 2016. This FPC compliance ensures your settlement will follow transparent processes, documented communication channels, and legal grievance redressal mechanisms.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Once CredSettle assumes responsibility for your case, we conduct a <strong>comprehensive loan portfolio analysis</strong>. This involves examining your loan agreement for compliance with RBI disclosure requirements: all-in-cost breakup (principal, interest rate, processing fees, prepayment charges, and GST), loan classification (secured or unsecured), repayment schedule, and penalty charge structure. We analyze whether your account has crossed the 90-day overdue threshold that classifies it as a <strong>Non-Performing Asset (NPA)</strong>. NBFC NPA classification follows the same timeline as banks—when EMI payments are overdue by 90 days or more—but NBFCs face different provisioning requirements based on their asset classification (Standard, Sub-Standard, Doubtful, or Loss).
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Our negotiation strategy leverages the <strong>NBFC's internal policy framework</strong>. According to RBI guidelines, NBFCs must have board-approved policies for compromise settlements, especially for loans classified as Sub-Standard or Doubtful assets. We present your financial hardship documentation—income loss proof, medical emergency bills, or business closure certificates—along with a realistic settlement proposal based on your repayment capacity. The key technical aspect here is understanding <strong>provisioning economics</strong>: NBFCs must maintain Capital Adequacy Ratios (CAR) mandated by RBI (minimum 15% for systemically important NBFCs). When loans turn into NPAs, they tie up capital and increase provisioning requirements. A settlement offer that recovers 30-70% of the outstanding becomes financially attractive compared to prolonged recovery litigation that may yield even less after years of legal proceedings.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Once we reach a mutually agreeable settlement amount, we ensure proper documentation aligned with RBI's Master Direction on Asset Classification and Provisioning. The NBFC must provide a formal <strong>OTS letter</strong> (One-Time Settlement letter) on company letterhead, clearly stating: the original loan amount, total outstanding (including principal, interest, and charges), the agreed settlement amount, payment terms (lump sum or structured), and most importantly, confirmation that upon payment, the loan will be marked as "settled" and no further claims will be made. We also ensure compliance with RBI's directive requiring NBFCs to release all property documents or hypothecation endorsements within 30 days of settlement payment completion, with penalty provisions of ₹5,000 per day for delays.
+              </p>
+            </div>
+
+            {/* RBI's Regulatory Framework for NBFC Settlements */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                RBI's Regulatory Framework for NBFC Loan Settlements
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                The Reserve Bank of India maintains stringent oversight of NBFC operations through a multi-layered regulatory framework that directly impacts loan settlement processes. Under the <strong>Master Direction – Non-Banking Financial Company – Systemically Important Non-Deposit taking Company and Deposit taking Company (Reserve Bank) Directions, 2016</strong>, NBFCs are mandated to follow specific guidelines for asset classification, income recognition, and provisioning for bad debts. This framework ensures that settlement practices remain fair, transparent, and legally compliant.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                One critical RBI guideline that protects borrowers seeking NBFC loan settlement is the <strong>Fair Practices Code</strong>. This code requires NBFCs to: clearly disclose loan terms and charges before disbursal, provide transparent information about settlement options when borrowers face genuine financial distress, follow dignified recovery practices without harassment or coercion, and maintain a structured grievance redressal mechanism. If any NBFC violates these norms during your loan term or settlement discussions, you have legal recourse through the RBI's Banking Ombudsman Scheme (which was extended to cover certain NBFC activities) or through direct complaints to RBI's Complaints Management System.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                At CredSettle, we ensure every NBFC loan settlement strictly adheres to these RBI guidelines. We verify that the settlement offer includes proper accounting treatment—NBFCs must report settled accounts accurately to credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark) with the status "settled," not "written off." We also ensure compliance with RBI's <strong>document release timeline</strong>: NBFCs must release all collateral documents, hypothecation endorsements, or encumbrance certificates within 30 days of settlement payment. If the NBFC delays document release, they are liable for compensation at ₹5,000 per day of delay as per RBI Master Direction on Customer Service in Banks. Our legal team provides complete documentation—settlement letters, payment acknowledgments, NOC (No Objection Certificate), and document release confirmations—ensuring you have legally binding proof that permanently resolves your NBFC loan obligation.
+              </p>
+            </div>
+
+            {/* Benefits of NBFC Settlement with CredSettle */}
+            <div style={{ marginBottom: '0' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Why Choose CredSettle for NBFC Loan Settlement
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Navigating NBFC loan settlement requires specialized expertise because NBFCs operate under distinct regulatory frameworks and employ varied settlement policies based on their business models. At CredSettle, our legal and financial experts possess deep knowledge of NBFC-specific compromise settlement frameworks across all categories—Asset Finance Companies, Loan Companies, Infrastructure Finance Companies, and Microfinance Institutions. We understand that a gold loan settlement with an NBFC requires different strategies than settling an unsecured personal loan or a two-wheeler loan.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Our approach focuses on <strong>immediate harassment protection</strong>. Many borrowers approach us after facing aggressive recovery practices from NBFC-appointed collection agencies. Once CredSettle takes over your case, we legally intervene by issuing formal communication to the NBFC, citing the Fair Practices Code and relevant RBI Master Directions. This legal intervention typically stops direct recovery calls and harassment within 3-5 business days. We become your single point of contact, handling all communication with the NBFC while you focus on arranging the settlement amount without constant stress and intimidation.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Beyond financial savings (typically 30-70% reduction in outstanding amount), CredSettle provides <strong>complete legal closure</strong>. We ensure the NBFC provides proper settlement documentation, updates credit bureau records accurately, releases all security documents within the mandated 30-day timeline, and provides a formal No Objection Certificate (NOC). Our post-settlement support includes verifying that your CIBIL report correctly reflects the "settled" status and that no encumbrances remain on hypothecated assets. This comprehensive approach ensures your NBFC loan settlement isn't just a temporary relief but a permanent, legally binding resolution that restores your financial freedom and protects your credit profile for future financial planning.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Why section */}
         <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '28.8px' }}>
           <div className="w-full flex flex-col items-center text-center" style={{ gap: '9.6px', marginBottom: '19.2px' }}>
@@ -290,208 +519,6 @@ export default function NBFCLoanSettlementPage() {
                   <button className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90" style={{ boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset' }}><span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal" style={{ color: '#0C2756' }}>Get Your Free Consultation</span></button>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Comprehensive Content Section */}
-        <section
-          className="w-full mx-auto"
-          style={{ maxWidth: '1280px', paddingLeft: '16px', paddingRight: '16px', marginTop: '60px', marginBottom: '40px' }}
-        >
-          <div className="bg-white rounded-2xl p-6 md:p-10" style={{ boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)' }}>
-            <h2
-              style={{
-                color: '#0C2756',
-                fontFamily: 'Poppins',
-                fontSize: '28px',
-                fontWeight: 700,
-                lineHeight: '36px',
-                marginBottom: '24px'
-              }}
-            >
-              Understanding NBFC Loan Settlement in India
-            </h2>
-            
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                What is NBFC Loan Settlement?
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                NBFC loan settlement is a legal debt resolution process that allows borrowers to
-                negotiate with Non-Banking Financial Companies (NBFCs) to pay a reduced amount to
-                settle outstanding NBFC loan debt. This debt settlement process is completely legal
-                in India and follows RBI guidelines for NBFC loan settlement. When you're struggling
-                with NBFC loan repayment, settlement offers a way to resolve debt without facing
-                continuous harassment from recovery agents or legal action.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                CredSettle specializes in NBFC loan settlement services across India, helping
-                borrowers negotiate with NBFCs to achieve significant reductions in their
-                outstanding NBFC loan amounts. Our legal team ensures all settlements comply with RBI
-                regulations, providing you with a legitimate debt resolution solution.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                How NBFC Loan Settlement Works
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The NBFC loan settlement process begins with a comprehensive analysis of your
-                financial situation and outstanding NBFC loan debt. Our expert negotiators then
-                contact your NBFC to initiate settlement discussions. We leverage our knowledge of
-                RBI guidelines and banking regulations to negotiate the best possible settlement terms
-                for you, typically achieving 30-70% reductions in outstanding amounts.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Once a settlement amount is agreed upon, we help you obtain a formal settlement
-                letter from the NBFC, which legally documents the agreed-upon terms. This
-                settlement letter protects you from future claims and ensures the debt is
-                permanently resolved. Throughout this process, CredSettle also provides harassment
-                protection, stopping illegal recovery agent calls and threats.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                Benefits of NBFC Loan Settlement with CredSettle
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Choosing CredSettle for your NBFC loan settlement offers numerous advantages.
-                Our debt settlement company provides complete legal protection, ensuring all
-                negotiations follow RBI-compliant processes. We help NBFC loan borrowers achieve
-                financial freedom through legal NBFC loan settlement, reducing outstanding balances
-                while protecting your legal rights.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Beyond financial savings, our NBFC loan settlement services include immediate
-                harassment protection. Once CredSettle takes over your case, we legally intervene
-                to stop all recovery agent harassment, giving you peace of mind. Our expert legal
-                team handles all communication with NBFCs, allowing you to focus on rebuilding
-                your financial future without the stress of constant calls and threats.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                RBI Guidelines for NBFC Loan Settlement
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The Reserve Bank of India (RBI) has established clear guidelines for NBFC loan
-                settlement processes in India. These RBI guidelines ensure that debt settlement
-                procedures are fair, transparent, and legally compliant. At CredSettle, we strictly
-                adhere to all RBI regulations, ensuring your NBFC loan settlement is legitimate
-                and protects your legal rights as a borrower.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Our loan settlement company ensures that all NBFC loan settlements are properly
-                documented with formal settlement letters, protecting you from future disputes. We
-                also help you understand your rights under Indian banking regulations, including
-                protection from illegal harassment by recovery agents. This RBI-compliant approach
-                ensures your NBFC loan settlement is legally sound and provides permanent
-                resolution to your financial challenges.
-              </p>
             </div>
           </div>
         </section>

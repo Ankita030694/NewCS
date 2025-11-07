@@ -5,7 +5,6 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
-import Link from 'next/link';
 import { BankContent } from '../../banks-content';
 
 interface BankPageClientProps {
@@ -340,117 +339,6 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 </section>
               )}
 
-          </div>
-        </section>
-
-        {/* States & Union Territories Grid Section */}
-        <section
-          className="w-full py-12"
-          style={{
-            scrollMarginTop: '100px'
-          }}
-        >
-          <div className="w-full max-w-7xl mx-auto px-4">
-            {/* Centered Heading */}
-            <div className="w-full flex flex-col items-center text-center" style={{ gap: '6px', marginBottom: '20px' }}>
-              <h2
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '28px',
-                  fontWeight: 700,
-                  lineHeight: '32px'
-                }}
-              >
-                We Serve Across India
-              </h2>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '13px',
-                  lineHeight: '18px'
-                }}
-              >
-                Credit card settlement services in all states and union territories
-              </p>
-            </div>
-
-            {/* States & UT Grid */}
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-3" style={{ gap: '12px' }}>
-              {[
-                'Andaman and Nicobar Islands',
-                'Andhra Pradesh',
-                'Arunachal Pradesh',
-                'Assam',
-                'Bihar',
-                'Chandigarh',
-                'Chhattisgarh',
-                'Dadra and Nagar Haveli and Daman and Diu',
-                'Delhi',
-                'Goa',
-                'Gujarat',
-                'Haryana',
-                'Himachal Pradesh',
-                'Jammu and Kashmir',
-                'Jharkhand',
-                'Karnataka',
-                'Kerala',
-                'Ladakh',
-                'Lakshadweep',
-                'Madhya Pradesh',
-                'Maharashtra',
-                'Manipur',
-                'Meghalaya',
-                'Mizoram',
-                'Nagaland',
-                'Odisha',
-                'Puducherry',
-                'Punjab',
-                'Rajasthan',
-                'Sikkim',
-                'Tamil Nadu',
-                'Telangana',
-                'Tripura',
-                'Uttar Pradesh',
-                'Uttarakhand',
-                'West Bengal'
-              ].map((state, index) => {
-                const slug = state.toLowerCase().replace(/\s+/g, '-');
-                return (
-                  <Link
-                    key={index}
-                    href={`/services/credit-card-settlement/banks/${content.slug}/${slug}`}
-                    className="cursor-pointer transition-all duration-200 hover:opacity-80"
-                    style={{
-                      borderRadius: '24px',
-                      background: 'rgba(239, 247, 255, 0.30)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      padding: '12px 10px',
-                      minHeight: '60px',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      textAlign: 'center',
-                      textDecoration: 'none'
-                    }}
-                  >
-                    <p
-                      style={{
-                        color: '#0C2756',
-                        fontFamily: 'Poppins',
-                        fontSize: '12px',
-                        fontWeight: 500,
-                        lineHeight: '16px',
-                        margin: 0
-                      }}
-                    >
-                      {state}
-                    </p>
-                  </Link>
-                );
-              })}
-            </div>
           </div>
         </section>
 

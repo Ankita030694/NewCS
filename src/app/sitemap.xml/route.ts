@@ -11,7 +11,6 @@
  *   - Main page: /services/{service-type}
  *   - State pages: /services/{service-type}/{state}
  *   - Bank pages: /services/{service-type}/banks/{bank}
- *   - Bank + State pages: /services/{service-type}/banks/{bank}/{state}
  * - Resource/Blog pages: /resources/{slug}
  * 
  * PAGE COUNT CALCULATION:
@@ -29,10 +28,9 @@
  * - Loan settlement main pages: 6 (one per service type)
  * - Loan settlement state pages: 6 × 36 = 216 (one per service × state)
  * - Loan settlement bank pages: 6 × 115 = 690 (one per service × bank)
- * - Loan settlement bank+state pages: 6 × 115 × 36 = 24,840 (one per service × bank × state)
  * - Resource/Blog pages: Dynamic (fetched from Firebase Firestore 'blogs' collection)
  * 
- * TOTAL PAGES: ~25,768+ pages (varies based on number of blog posts)
+ * TOTAL PAGES: ~950+ pages (varies based on number of blog posts)
  * 
  * Note: The actual count may vary slightly based on:
  * - The exact number of states and banks in getAllStateSlugs() and getAllBankSlugs()
@@ -58,7 +56,6 @@ const baseUrl = 'https://www.credsettle.com';
  * - /services/{service-type} (main page)
  * - /services/{service-type}/{state} (state-specific pages)
  * - /services/{service-type}/banks/{bank} (bank-specific pages)
- * - /services/{service-type}/banks/{bank}/{state} (bank + state combination pages)
  */
 const loanSettlementServices = [
   'personal-loan-settlement',
@@ -205,7 +202,6 @@ async function countSitemapPages(): Promise<{
   const loanSettlementMainPages = loanSettlementServices.length; // 6
   const loanSettlementStatePages = loanSettlementServices.length * stateCount; // 6 services × 36 states
   const loanSettlementBankPages = loanSettlementServices.length * bankCount; // 6 services × 115 banks
-  const loanSettlementBankStatePages = loanSettlementServices.length * bankCount * stateCount; // 6 services × 115 banks × 36 states
   const resourcePages = blogCount; // Dynamic count from Firebase
 
   const total =
@@ -214,7 +210,6 @@ async function countSitemapPages(): Promise<{
     loanSettlementMainPages +
     loanSettlementStatePages +
     loanSettlementBankPages +
-    loanSettlementBankStatePages +
     resourcePages;
 
   return {
@@ -225,7 +220,6 @@ async function countSitemapPages(): Promise<{
       loanSettlementMainPages,
       loanSettlementStatePages,
       loanSettlementBankPages,
-      loanSettlementBankStatePages,
       resourcePages,
     },
   };
@@ -300,7 +294,6 @@ async function generateSitemap(): Promise<string> {
   // 1. Main service page
   // 2. State-specific pages (for all Indian states/UTs)
   // 3. Bank-specific pages (for all banks/NBFCs)
-  // 4. Bank + State combination pages (for all combinations)
 
   // First, get all available states and banks dynamically
   let allStates: string[] = [];
@@ -356,19 +349,6 @@ async function generateSitemap(): Promise<string> {
         changefreq: 'weekly',
         lastmod: today
       });
-
-      // 3.4: Bank + State combination pages
-      // Example: /services/personal-loan-settlement/banks/hdfc/andhra-pradesh
-      // These pages provide highly specific information about settling loans
-      // with a specific bank in a specific state
-      for (const state of allStates) {
-        urls.push({
-          loc: `${baseUrl}/services/${serviceType}/banks/${bank}/${state}`,
-          priority: 0.7, // Lower priority - very specific pages
-          changefreq: 'monthly',
-          lastmod: today
-        });
-      }
     }
   }
 

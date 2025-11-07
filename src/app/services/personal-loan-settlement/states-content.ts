@@ -16,6 +16,7 @@ export interface StateContent {
   process?: string;
   legalAspects?: string;
   // New comprehensive blog sections
+  stateIntroduction?: string; // Unique state-specific introduction with statistics
   whyLoanSettlement?: string; // H2: Why Loan Settlement Is a Smart Financial Step
   commonLoanProblems?: string; // H2: Common Loan Problems Faced in [STATE]
   credsettleOverview?: string; // H2: CredSettle – India's Trusted Loan Settlement Company

@@ -5,22 +5,22 @@ const Testimonials = () => {
     {
       image: "https://api.builder.io/api/v1/image/assets/TEMP/59ce5c31d29889152fc4b10012357360245f5760?width=820",
       text: "CredSettle stopped the constant harassment immediately. They negotiated a Personal Loan settlement for far less than I owed, restoring my peace of mind and dignity.",
-      name: "Ravi k.",
+      name: "Ravi K.",
       type: "Personal Loan Settlement",
       imageHeight: "390px"
     },
     {
       image: "https://api.builder.io/api/v1/image/assets/TEMP/cf1255e48575a7e20767bade3db63105f80d5938?width=820",
-      text: "CredSettle stopped the constant harassment immediately. They negotiated a Personal Loan settlement for far less than I owed, restoring my peace of mind and dignity.",
-      name: "Ravi k.",
-      type: "Personal Loan Settlement",
+      text: "After months of stress from credit card debt, CredSettle helped me settle my outstanding balance at 40% of the original amount. The process was smooth and professional.",
+      name: "Prakash S.",
+      type: "Credit Card Settlement",
       imageHeight: "390px"
     },
     {
       image: "https://api.builder.io/api/v1/image/assets/TEMP/d213786399b8442ae836c6d1917c81e93a1c9722?width=820",
-      text: "CredSettle stopped the constant harassment immediately. They negotiated a Personal Loan settlement for far less than I owed, restoring my peace of mind and dignity.",
-      name: "Ravi k.",
-      type: "Personal Loan Settlement",
+      text: "I was struggling with my car loan payments. CredSettle negotiated a settlement that saved me thousands and helped me get back on track financially. Highly recommended!",
+      name: "Amit R.",
+      type: "Car Loan Settlement",
       imageHeight: "482px"
     }
   ];
@@ -65,16 +65,18 @@ const Testimonials = () => {
             key={index}
             className="testimonial-card w-full max-w-[287px] h-auto lg:h-[550px] rounded-[28px] bg-[rgba(239,247,255,0.7)] shadow-[3px_3px_11px_0_rgba(0,0,0,0.1)] relative overflow-hidden"
           >
-            {/* Image */}
-            <img
-              src={testimonial.image}
-              alt={`${testimonial.name} testimonial`}
-              className="w-full h-auto lg:h-[390px] object-cover rounded-t-[28px] lg:rounded-t-[28px] lg:rounded-b-none"
-              style={{ 
-                flexShrink: 0,
-                maxHeight: testimonial.imageHeight 
-              }}
-            />
+            {/* Image Container */}
+            <div className="w-full h-auto lg:h-[390px] overflow-hidden rounded-t-[28px] lg:rounded-t-[28px] lg:rounded-b-none bg-[rgba(239,247,255,0.3)] flex items-center justify-center">
+              <img
+                src={testimonial.image}
+                alt={`${testimonial.name} testimonial`}
+                className="w-full h-full object-contain"
+                style={{ 
+                  flexShrink: 0,
+                  maxHeight: testimonial.imageHeight 
+                }}
+              />
+            </div>
 
             {/* Simple Blur Gradient at Bottom of Image */}
             <div

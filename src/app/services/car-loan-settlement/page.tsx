@@ -89,7 +89,234 @@ export default function CarLoanSettlementPage() {
             </div>
           </div>
         </section>
+  {/* Comprehensive Content Section */}
+  <section
+          className="w-full mx-auto px-4 md:px-6 lg:px-4"
+          style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '36px' }}
+        >
+          <div className="bg-gradient-to-br from-blue-50/30 via-white to-blue-50/20 rounded-3xl p-6 md:p-8 lg:p-12" style={{ boxShadow: '0 4px 20px rgba(0, 122, 255, 0.08)', border: '1px solid rgba(0, 122, 255, 0.1)' }}>
+            <h2
+              style={{
+                color: '#0C2756',
+                fontFamily: 'Poppins',
+                fontSize: 'clamp(24px, 5vw, 32px)',
+                fontWeight: 700,
+                lineHeight: '1.3',
+                marginBottom: '32px',
+                textAlign: 'center'
+              }}
+            >
+              Understanding Car Loan Settlement in India
+            </h2>
+            
+            {/* What is Car Loan Settlement */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                What is Car Loan Settlement?
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Car loan settlement is a legally recognized debt resolution mechanism in India that enables vehicle owners to negotiate with their lender—whether a bank or NBFC—to pay a <strong>reduced lump sum amount</strong> instead of the full outstanding loan balance. What makes car loans fundamentally different from personal loans or credit cards is their <strong>secured nature</strong>: your vehicle serves as collateral through a hypothecation agreement, giving the lender legal rights to repossess the asset if payments default.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                This secured status means car loan settlements require understanding of <strong>vehicle depreciation dynamics</strong> and the Loan-to-Value (LTV) ratio. When you financed your vehicle, the lender approved the loan based on the car's on-road price. However, vehicles depreciate rapidly—typically 15-20% in the first year, and 10-15% annually thereafter. By the time you're seeking settlement, the vehicle's current market value (often assessed through platforms like CarDekho or OLX resale values) may be significantly lower than your outstanding loan principal, especially if you're in the early years of the loan tenure.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                At CredSettle, our car loan settlement specialists understand these technical nuances. We leverage the depreciated vehicle value, your financial hardship documentation, and the lender's provisioning requirements (cost of repossession, storage, auction, and potential loss) to negotiate settlements that typically reduce your payoff obligation by 30-70%. Our legal team ensures all settlements comply with RBI guidelines and properly address the <strong>hypothecation release process</strong>, ensuring you receive a clear Registration Certificate (RC) with the lender's charge mark removed.
+              </p>
+            </div>
 
+            {/* How Car Loan Settlement Process Works */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                How the Car Loan Settlement Process Works
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                The settlement journey begins with a <strong>comprehensive secured loan audit</strong>. We analyze your loan agreement to identify the principal borrowed, the interest rate structure (flat rate vs. reducing balance method—most car loans use reducing balance), any processing fees or charges, accumulated interest, and penalty charges. Importantly, we calculate your current <strong>outstanding principal-to-vehicle-value ratio</strong>. If your outstanding amount exceeds the vehicle's current market value (creating a "negative equity" situation), this significantly strengthens our negotiation position.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Once CredSettle assumes responsibility for your case, we <strong>initiate strategic communication</strong> with your lender's vehicle loan recovery or NPA (Non-Performing Asset) division. Here's where technical knowledge becomes crucial: when your EMIs are overdue for 90 days or more, your account is classified as an NPA. At this stage, lenders face increased provisioning requirements—they must set aside capital against potential loss. A settlement offer becomes attractive because repossession involves significant costs: hiring recovery agents, transporting and storing the vehicle, auctioning it (often at 20-40% below market value), and accounting for legal costs if the borrower contests seizure.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Our negotiation strategy addresses the <strong>hypothecation agreement</strong> head-on. Under the Motor Vehicles Act, 1988, and the Central Motor Vehicles Rules, 1989, your vehicle's Registration Certificate (Form 23) includes the lender's name as the hypothecation holder. This legal charge prevents you from selling or transferring the vehicle without the lender's No Objection Certificate (NOC). We negotiate settlements that include explicit hypothecation removal—ensuring the lender provides a NOC and submits Form 35 (Notice of Removal/Satisfaction of Hypothecation) to the Regional Transport Office (RTO) within the RBI-mandated 30-day period after settlement payment.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Crucially, CredSettle also protects you from repossession attempts during negotiations. Under Section 13 of the SARFAESI Act (Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002), lenders have the right to take possession of secured assets without court intervention—but only after issuing a 60-day demand notice. Our legal team ensures proper notice periods are followed, and we challenge any illegal seizure attempts. If recovery agents threaten immediate repossession without proper notice, we file formal complaints with the RBI Ombudsman and local law enforcement, as such actions violate both SARFAESI procedures and RBI's Fair Practices Code.
+              </p>
+            </div>
+
+            {/* Benefits of Car Loan Settlement */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Benefits of Settling Your Car Loan with CredSettle
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                The primary advantage of professional car loan settlement is <strong>asset protection combined with debt reduction</strong>. In many cases, we successfully negotiate settlements that allow you to retain vehicle ownership. This is particularly feasible when the settlement amount we secure is less than the vehicle's current market value—the lender realizes more value by accepting the settlement payment than by repossessing, auctioning, and potentially selling the vehicle at a steep discount while bearing all associated costs.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Beyond financial savings, CredSettle provides <strong>immediate protection from repossession threats and harassment</strong>. The moment we take over your case, we legally intervene to stop all direct contact between the lender and you. Recovery agents are notorious for aggressive tactics: showing up at your workplace, contacting family members, threatening immediate vehicle seizure, or using tracker devices installed in vehicles to locate and repossess them. Our legal team files formal complaints against any violations of the RBI's Fair Practices Code or SARFAESI procedural requirements, creating a documented record that strengthens your position and often halts illegal recovery actions immediately.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Additionally, CredSettle ensures you receive <strong>complete documentation for hypothecation removal</strong>. Many borrowers who settle independently receive the settlement letter but struggle for months to get the lender to file Form 35 with the RTO, leaving the hypothecation active on the RC book. Our team tracks this process end-to-end, ensuring compliance with the RBI's September 2023 mandate requiring lenders to release all security documents and remove registered charges within 30 days of settlement payment—or face penalties of ₹5,000 per day of delay. This ensures you receive a clean, unencumbered RC, allowing you to sell, transfer, or refinance the vehicle in the future without restrictions.
+              </p>
+            </div>
+
+            {/* RBI Guidelines Specific to Car Loan Settlement */}
+            <div style={{ marginBottom: '0' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                RBI Guidelines Governing Car Loan Settlement
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                The Reserve Bank of India has established comprehensive frameworks specifically protecting secured loan borrowers. The most critical recent development is the <strong>30-day document release mandate</strong> (effective December 1, 2023), which requires lenders to release all original security documents—including the RC book original (if held) and submit the hypothecation removal form (Form 35) to the RTO—within 30 days of receiving the settlement payment. Non-compliance triggers automatic penalties of ₹5,000 per day attributable to the lender, providing strong enforcement leverage for borrowers.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Another significant protection is the <strong>abolition of penal interest on overdue EMIs</strong> (effective June 15, 2025). Previously, lenders could charge penalty interest rates as high as 24-36% annually on overdue amounts, compounding your debt burden exponentially. Under the new RBI directive, lenders can only charge a one-time <strong>penal charge</strong> (flat fee, not compounding interest) on the overdue principal. This reform significantly reduces the outstanding amount accumulating while you negotiate settlement, making settlements more affordable and fair.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Finally, the RBI's <strong>Fair Practices Code for Lenders</strong> and <strong>Guidelines on Managing Risks and Code of Conduct in Outsourcing of Financial Services</strong> establish strict conduct requirements for recovery agents. Lenders are fully responsible for agent behavior and cannot disclaim liability. Prohibited practices include: visiting borrowers without prior notice, contacting third parties (employers, neighbors, family not co-signed on the loan), using abusive language or threats, repossessing vehicles without issuing the mandatory 60-day SARFAESI notice, and using physical force or intimidation. At CredSettle, we meticulously document any violations and file complaints with the RBI Ombudsman, Banking Ombudsman, and local law enforcement, often resulting in immediate cessation of harassment and strengthening our settlement negotiation position significantly.
+              </p>
+            </div>
+          </div>
+        </section>
         {/* Why section */}
         <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '28.8px' }}>
           <div className="w-full flex flex-col items-center text-center" style={{ gap: '9.6px', marginBottom: '19.2px' }}>
@@ -294,208 +521,7 @@ export default function CarLoanSettlementPage() {
           </div>
         </section>
 
-        {/* Comprehensive Content Section */}
-        <section
-          className="w-full mx-auto"
-          style={{ maxWidth: '1280px', paddingLeft: '16px', paddingRight: '16px', marginTop: '60px', marginBottom: '40px' }}
-        >
-          <div className="bg-white rounded-2xl p-6 md:p-10" style={{ boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)' }}>
-            <h2
-              style={{
-                color: '#0C2756',
-                fontFamily: 'Poppins',
-                fontSize: '28px',
-                fontWeight: 700,
-                lineHeight: '36px',
-                marginBottom: '24px'
-              }}
-            >
-              Understanding Car Loan Settlement in India
-            </h2>
-            
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                What is Car Loan Settlement?
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Car loan settlement is a legal debt resolution process that allows vehicle owners to
-                negotiate with lenders to pay a reduced amount to settle outstanding car loan debt.
-                This debt settlement process is completely legal in India and follows RBI guidelines
-                for car loan settlement. When you're struggling with car loan repayment, settlement
-                offers a way to resolve debt without losing your vehicle or facing continuous
-                harassment from recovery agents.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                CredSettle specializes in car loan settlement services across India, helping vehicle
-                owners negotiate with banks and NBFCs to achieve significant reductions in their
-                outstanding car loan amounts. Our legal team ensures all settlements comply with RBI
-                regulations, providing you with a legitimate debt resolution solution that protects
-                your vehicle.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                How Car Loan Settlement Works
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The car loan settlement process begins with a comprehensive analysis of your
-                financial situation and outstanding car loan debt. Our expert negotiators then
-                contact your lender to initiate settlement discussions. We leverage our knowledge of
-                RBI guidelines and banking regulations to negotiate the best possible settlement terms
-                for you, typically achieving 30-70% reductions in outstanding amounts.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Once a settlement amount is agreed upon, we help you obtain a formal settlement
-                letter from the lender, which legally documents the agreed-upon terms. This
-                settlement letter protects you from future claims and ensures the debt is
-                permanently resolved. Throughout this process, CredSettle also provides harassment
-                protection, stopping illegal recovery agent calls and threats.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                Benefits of Car Loan Settlement with CredSettle
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Choosing CredSettle for your car loan settlement offers numerous advantages.
-                Our debt settlement company provides complete legal protection, ensuring all
-                negotiations follow RBI-compliant processes. We help car owners achieve financial
-                freedom through legal car loan settlement, protecting vehicles while significantly
-                reducing financial burden.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Beyond financial savings, our car loan settlement services include immediate
-                harassment protection. Once CredSettle takes over your case, we legally intervene
-                to stop all recovery agent harassment, giving you peace of mind. Our expert legal
-                team handles all communication with lenders, allowing you to focus on rebuilding
-                your financial future without the stress of constant calls and threats.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                RBI Guidelines for Car Loan Settlement
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The Reserve Bank of India (RBI) has established clear guidelines for car loan
-                settlement processes in India. These RBI guidelines ensure that debt settlement
-                procedures are fair, transparent, and legally compliant. At CredSettle, we strictly
-                adhere to all RBI regulations, ensuring your car loan settlement is legitimate
-                and protects your legal rights as a borrower.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Our loan settlement company ensures that all car loan settlements are properly
-                documented with formal settlement letters, protecting you from future disputes. We
-                also help you understand your rights under Indian banking regulations, including
-                protection from illegal harassment by recovery agents. This RBI-compliant approach
-                ensures your car loan settlement is legally sound and provides permanent resolution
-                to your financial challenges.
-              </p>
-            </div>
-          </div>
-        </section>
+      
       </div>
 
       <div style={{ marginTop: '100px' }}>

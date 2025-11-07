@@ -89,7 +89,414 @@ export default function BusinessLoanSettlementPage() {
             </div>
           </div>
         </section>
+{/* Comprehensive Content Section */}
+<section
+          className="w-full mx-auto"
+          style={{ maxWidth: '1280px', paddingLeft: '16px', paddingRight: '16px', marginTop: '60px', marginBottom: '40px' }}
+        >
+          <div className="bg-gradient-to-br from-blue-50/30 via-white to-blue-50/20 rounded-3xl p-6 md:p-8 lg:p-12" style={{ boxShadow: '0 4px 20px rgba(0, 122, 255, 0.08)', border: '1px solid rgba(0, 122, 255, 0.1)' }}>
+            <h2
+              style={{
+                color: '#0C2756',
+                fontFamily: 'Poppins',
+                fontSize: 'clamp(24px, 5vw, 32px)',
+                fontWeight: 700,
+                lineHeight: '1.3',
+                marginBottom: '32px',
+                textAlign: 'center'
+              }}
+            >
+              Understanding Business Loan Settlement in India
+            </h2>
+            
+            {/* What is Business Loan Settlement */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                What is Business Loan Settlement?
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Business loan settlement is a legally sanctioned debt resolution mechanism in India that enables business owners and entrepreneurs to negotiate with lenders—including banks, NBFCs, and financial institutions—to repay a <strong>reduced lump sum amount</strong> instead of the full outstanding loan balance. This process is particularly crucial for businesses facing cash flow challenges, operational disruptions, or market downturns that have impaired their ability to service debt through regular EMI payments.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Unlike personal loans where the impact is limited to individual creditworthiness, business loans directly affect your company's operational continuity, credit rating, and ability to secure future financing. Business loans can be <strong>secured</strong> (backed by collateral like property, machinery, or inventory) or <strong>unsecured</strong> (based solely on business creditworthiness). Understanding this distinction is critical because it determines the settlement strategy, negotiation leverage, and asset protection approach.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                At CredSettle, we specialize in business loan settlements across all business loan categories—working capital loans, term loans, machinery loans, SME loans, MSME loans, overdraft facilities, and bill discounting facilities. Our legal and financial experts understand the unique challenges facing business owners and structure settlement strategies that prioritize <strong>business continuity, asset protection, and operational cash flow restoration</strong>.
+              </p>
+            </div>
 
+            {/* How Business Loan Settlement Works */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                How the Business Loan Settlement Process Works
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                The settlement journey begins with a <strong>comprehensive business debt audit</strong>. Our team analyzes your outstanding loan principal, accumulated interest, penal interest charges, processing fees, and any additional charges. For businesses with multiple loans, we create a consolidated debt picture to understand total exposure and prioritize which loans to settle first based on interest rates, security status, and legal exposure risk.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Once CredSettle assumes responsibility for your case, we <strong>initiate formal communication</strong> with your lender's corporate loan settlement desk or Non-Performing Asset (NPA) recovery division. Here's where technical knowledge becomes crucial: loans are classified as NPAs when EMI payments are overdue by 90 days or more. Once your account reaches NPA status, lenders become more willing to negotiate settlements, as their internal provisioning requirements increase and recovery becomes uncertain.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Our negotiators present a detailed <strong>One-Time Settlement (OTS) proposal</strong> backed by your business's financial hardship documentation—P&L statements, cash flow analysis, balance sheets, and repayment capacity assessment. We leverage RBI's prudential framework guidelines, which encourage lenders to consider OTS proposals that maximize recovery while minimizing legal and administrative costs. The typical settlement range is 30-70% of outstanding principal, depending on account age, loan type, security status, and lender policies.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Upon agreement, we secure a formal <strong>OTS sanction letter</strong> that specifies the reduced settlement amount, payment terms (lump sum or structured payments), and account closure timeline. After you make the agreed payment, the lender issues a <strong>No Dues Certificate (NDC)</strong> and updates your account status with credit bureaus. For secured loans, we ensure lien removal and property document release as mandated by RBI's 30-day release guideline.
+              </p>
+            </div>
+
+            {/* NPA Classification and Settlement Timing */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Understanding NPA Classification and Settlement Timing
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                When your business loan EMI remains unpaid for 90 consecutive days, your loan is classified as a <strong>Non-Performing Asset (NPA)</strong> by the lender. This classification triggers several consequences: your business credit score (CIBIL, Equifax, Experian, CRIF High Mark) begins to deteriorate, lenders report the default to credit bureaus, and recovery agents may initiate contact. For businesses, this also affects your ability to secure credit limits from suppliers or access trade credit facilities.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                However, NPA classification creates a <strong>settlement opportunity</strong>. Under RBI guidelines, once a loan becomes NPA, banks must set aside provisions (funds reserved for potential loss). As these provisions increase over time, banks become increasingly motivated to recover whatever amount they can through settlements rather than lengthy legal proceedings. This is where CredSettle's expertise becomes invaluable—we time settlement negotiations to coincide with maximum lender flexibility.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                The optimal settlement window typically occurs between 6-18 months post-default. Too early, and lenders are still hopeful of full recovery; too late, and they may have already initiated legal action through SARFAESI Act proceedings or filed suit under Section 138 of the Negotiable Instruments Act. Our team monitors your account status and initiates negotiations at the strategically optimal moment to secure maximum reduction while protecting your business assets.
+              </p>
+            </div>
+
+            {/* Secured vs Unsecured Business Loans */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Secured vs. Unsecured Business Loan Settlements
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                <strong>Secured business loans</strong> are backed by collateral—commercial property, residential property pledged against business loan, machinery, inventory, or receivables. When you default on a secured loan, the lender has the legal right to invoke the <strong>SARFAESI Act, 2002</strong> (Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest) to take possession of your pledged assets without court intervention. This makes secured loan settlements more complex but also provides unique negotiation leverage.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                At CredSettle, our secured loan settlement strategy focuses on <strong>asset protection</strong>. We negotiate settlements that prevent asset seizure while securing substantial principal reductions. Because lenders know that asset liquidation involves lengthy procedures, auction discounts, and uncertain recovery values, they're often willing to accept 40-60% of outstanding amounts through OTS rather than pursue asset enforcement. We ensure all settlements include explicit lien release clauses and property document handover timelines.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                <strong>Unsecured business loans</strong>—including working capital loans, business credit cards, and overdraft facilities—don't have asset backing. While this means your assets aren't at immediate seizure risk, lenders can still pursue legal action through civil suits, recovery tribunals, or criminal proceedings under Section 138 (cheque bounce cases). Unsecured loan settlements typically achieve higher reduction percentages (50-70%) because lenders recognize that recovery without collateral is uncertain and expensive.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                For businesses with both secured and unsecured loans, we develop a <strong>strategic settlement sequence</strong>. Generally, we prioritize settling secured loans first to protect physical assets critical for business operations, then negotiate unsecured loan settlements to maximize overall debt reduction. This approach ensures business continuity while achieving comprehensive debt resolution.
+              </p>
+            </div>
+
+            {/* Impact on Business Credit and Future Financing */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Impact on Business Credit Score and Future Financing
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                It's essential to understand how settlement affects your business's creditworthiness. When a loan is settled, credit bureaus mark your account as <strong>"Settled"</strong> rather than "Closed," which indicates that you paid less than the agreed amount. This notation remains on your business credit report (and the promoter's personal credit report for sole proprietorships and partnerships) for up to 7 years from the settlement date.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                However, this is where perspective matters: defaulting on a business loan <strong>already damages</strong> your credit score severely. Continued defaults, NPA classification, and potential legal action cause far more damage than a "Settled" status. Through settlement, you're converting an indefinite negative spiral into a <strong>time-bound recovery path</strong>. After settlement, your credit score begins gradual improvement as the account shows "zero balance" and no ongoing defaults.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                CredSettle provides <strong>post-settlement credit rebuilding guidance</strong>. We advise clients on timeline-appropriate strategies: maintaining consistent payments on any remaining active loans, gradually building business savings, securing small credit limits (business credit cards with lower limits), and demonstrating improved cash flow management. Typically, businesses can begin accessing limited financing 18-24 months post-settlement, with full financing capabilities returning within 3-4 years.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                For businesses requiring immediate operational financing post-settlement, we guide you toward <strong>alternative financing options</strong>: invoice discounting, supply chain financing, peer-to-peer business lending, and fintech platforms that evaluate creditworthiness based on current cash flows rather than historical credit reports. This ensures your business maintains operational momentum during the credit recovery period.
+              </p>
+            </div>
+
+            {/* SME and MSME Specific Considerations */}
+            <div style={{ marginBottom: '32px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Special Considerations for SME and MSME Businesses
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Small and Medium Enterprises (SMEs) and Micro, Small & Medium Enterprises (MSMEs) face unique challenges during financial distress. Many SME/MSME loans are guaranteed by business promoters through <strong>personal guarantees</strong>, meaning loan defaults can impact both business and personal assets. Additionally, SME loans often involve multiple facilities—term loans, working capital limits, bill discounting—creating complex debt structures.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                The RBI has issued specific guidelines encouraging banks to support viable SME/MSME businesses through restructuring and settlement mechanisms. Under the <strong>RBI's Prudential Framework for Resolution of Stressed Assets</strong>, lenders are directed to work with stressed MSME borrowers to find sustainable solutions. CredSettle leverages these regulatory provisions to secure favorable settlement terms for SME/MSME clients.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                For businesses registered under the <strong>Udyam Registration (MSME registration)</strong>, we explore government-backed resolution schemes like the Emergency Credit Line Guarantee Scheme (ECLGS) extensions or restructuring programs offered through SIDBI (Small Industries Development Bank of India). When restructuring isn't viable, we negotiate settlements that protect both business operations and promoter assets.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                Our SME/MSME settlement approach also addresses <strong>inter-creditor agreements</strong>. When your business has loans from multiple lenders, we coordinate simultaneous settlement negotiations to prevent one lender from blocking resolution while others agree. This comprehensive approach ensures complete debt resolution and genuine business recovery.
+              </p>
+            </div>
+
+            {/* Legal Protection and Compliance */}
+            <div style={{ marginBottom: '0' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Legal Protection and RBI Compliance
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                Throughout the settlement process, CredSettle ensures <strong>strict adherence to RBI guidelines</strong> and banking regulations. The RBI's Fair Practices Code mandates that lenders and their recovery agents must treat borrowers with dignity and respect, prohibiting harassment, threats, or intimidation. When you engage our services, we immediately invoke these protections, directing all lender communication through our legal team.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '16px'
+                }}
+              >
+                We ensure every settlement is <strong>properly documented</strong> with formal OTS sanction letters that specify the exact settlement amount, payment deadline, interest waiver details, and account closure procedures. After payment, we verify that lenders provide No Dues Certificates, update credit bureau records accurately, and release all security documents within the RBI-mandated 30-day timeline.
+              </p>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '0'
+                }}
+              >
+                For businesses facing legal notices—SARFAESI Act notices (Section 13(2)), Demand Recovery Tribunal (DRT) notices, or civil court summons—our legal team provides immediate <strong>response and representation services</strong>. We draft legally sound responses, file necessary applications, and negotiate settlements even after legal proceedings have commenced. Our goal is to achieve debt resolution while protecting your business from asset seizure, auction proceedings, and operational disruption.
+              </p>
+            </div>
+          </div>
+        </section>
         {/* Reused Why, Stats, Partner, FAQ, CTA from credit card with copy tweaks */}
         <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '28.8px' }}>
           <div className="w-full flex flex-col items-center text-center" style={{ gap: '9.6px', marginBottom: '19.2px' }}>
@@ -300,208 +707,7 @@ export default function BusinessLoanSettlementPage() {
           </div>
         </section>
 
-        {/* Comprehensive Content Section */}
-        <section
-          className="w-full mx-auto"
-          style={{ maxWidth: '1280px', paddingLeft: '16px', paddingRight: '16px', marginTop: '60px', marginBottom: '40px' }}
-        >
-          <div className="bg-white rounded-2xl p-6 md:p-10" style={{ boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)' }}>
-            <h2
-              style={{
-                color: '#0C2756',
-                fontFamily: 'Poppins',
-                fontSize: '28px',
-                fontWeight: 700,
-                lineHeight: '36px',
-                marginBottom: '24px'
-              }}
-            >
-              Understanding Business Loan Settlement in India
-            </h2>
-            
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                What is Business Loan Settlement?
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Business loan settlement is a legal debt resolution process that allows business
-                owners to negotiate with lenders to pay a reduced amount to settle outstanding
-                business loan debt. This debt settlement process is completely legal in India and
-                follows RBI guidelines for business loan settlement. When your business is struggling
-                with loan repayment, settlement offers a way to resolve debt without facing legal
-                action or continuous harassment from recovery agents.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                CredSettle specializes in business loan settlement services across India, helping
-                business owners negotiate with banks and NBFCs to achieve significant reductions in
-                their outstanding business loan amounts. Our legal team ensures all settlements
-                comply with RBI regulations, providing you with a legitimate debt resolution solution
-                that protects your business assets.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                How Business Loan Settlement Works
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The business loan settlement process begins with a comprehensive analysis of your
-                business financial situation and outstanding loan debt. Our expert negotiators then
-                contact your lender to initiate settlement discussions. We leverage our knowledge of
-                RBI guidelines and banking regulations to negotiate the best possible settlement terms
-                for your business, typically achieving 30-70% reductions in outstanding amounts.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Once a settlement amount is agreed upon, we help you obtain a formal settlement
-                letter from the lender, which legally documents the agreed-upon terms. This
-                settlement letter protects your business from future claims and ensures the debt is
-                permanently resolved. Throughout this process, CredSettle also provides harassment
-                protection, stopping illegal recovery agent calls and threats.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                Benefits of Business Loan Settlement with CredSettle
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Choosing CredSettle for your business loan settlement offers numerous advantages.
-                Our debt settlement company provides complete legal protection, ensuring all
-                negotiations follow RBI-compliant processes. We help business owners achieve
-                financial freedom through legal business loan settlement, protecting business assets
-                while significantly reducing financial burden.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Beyond financial savings, our business loan settlement services include immediate
-                harassment protection. Once CredSettle takes over your case, we legally intervene
-                to stop all recovery agent harassment, giving you peace of mind to focus on
-                rebuilding your business operations. Our expert legal team handles all
-                communication with lenders, allowing you to concentrate on business growth.
-              </p>
-            </div>
-
-            <div style={{ marginBottom: '24px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '20px',
-                  fontWeight: 600,
-                  lineHeight: '28px',
-                  marginBottom: '12px'
-                }}
-              >
-                RBI Guidelines for Business Loan Settlement
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The Reserve Bank of India (RBI) has established clear guidelines for business loan
-                settlement processes in India. These RBI guidelines ensure that debt settlement
-                procedures are fair, transparent, and legally compliant. At CredSettle, we strictly
-                adhere to all RBI regulations, ensuring your business loan settlement is legitimate
-                and protects your legal rights as a borrower.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Our loan settlement company ensures that all business loan settlements are properly
-                documented with formal settlement letters, protecting you from future disputes. We
-                also help you understand your rights under Indian banking regulations, including
-                protection from illegal harassment by recovery agents. This RBI-compliant approach
-                ensures your business loan settlement is legally sound and provides permanent
-                resolution to your financial challenges.
-              </p>
-            </div>
-          </div>
-        </section>
+        
       </div>
 
       <div style={{ marginTop: '100px' }}>

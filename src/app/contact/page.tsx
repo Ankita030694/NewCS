@@ -271,6 +271,73 @@ export default function ContactPage() {
               >
                 Or just reach out manually at info@credsettle.com
               </p>
+              <h4 
+                className="mb-3 md:mb-4 text-xl md:text-2xl lg:text-[28px] leading-tight"
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontStyle: 'normal',
+                  fontWeight: '500'
+                }}
+              >
+                Reach Out to us
+              </h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
+                <div 
+                  className="relative overflow-hidden flex gap-4 md:gap-5 p-5 md:p-8 rounded-[30px] min-h-[160px]"
+                  style={{
+                    background: '#EFF7FF',
+                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+                  }}
+                >
+                  <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
+                    <img src="/contact1.png" alt="Email CredSettle for Loan Settlement Consultation" className="w-20 h-20 md:w-24 md:h-24" />
+                  </div>
+                  <div className="flex flex-col relative z-10">
+                    <span className="text-xs md:text-sm text-[rgba(12,39,86,0.70)]">Email Us</span>
+                    <span className="text-sm md:text-base text-[#0C2756] font-medium">General Inquiries</span>
+                    <a href="mailto:info@credsettle.com" className="text-xs md:text-sm text-[#0C2756] underline-offset-2 hover:underline mt-2">
+                      info@credsettle.com
+                    </a>
+                  </div>
+                </div>
+                <div 
+                  className="relative overflow-hidden flex gap-4 md:gap-5 p-5 md:p-8 rounded-[30px] min-h-[160px]"
+                  style={{
+                    background: '#EFF7FF',
+                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+                  }}
+                >
+                  <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
+                    <img src="/contact2.png" alt="Call CredSettle for Loan Settlement Support" className="w-20 h-20 md:w-24 md:h-24 rotate-90" />
+                  </div>
+                  <div className="flex flex-col relative z-10">
+                    <span className="text-xs md:text-sm text-[rgba(12,39,86,0.70)]">Call Us</span>
+                    <span className="text-sm md:text-base text-[#0C2756] font-medium">Customer Support</span>
+                    <a href="tel:+918800226635" className="text-xs md:text-sm text-[#0C2756] underline-offset-2 hover:underline mt-2">
+                      +91 8800226635
+                    </a>
+                  </div>
+                </div>
+                <div 
+                  className="relative overflow-hidden flex gap-4 md:gap-5 p-5 md:p-8 rounded-[30px] sm:col-span-2 min-h-[160px]"
+                  style={{
+                    background: '#EFF7FF',
+                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+                  }}
+                >
+                  <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
+                    <img src="/contact3.png" alt="CredSettle Office Address in Gurugram" className="w-20 h-20 md:w-24 md:h-24" />
+                  </div>
+                  <div className="flex flex-col relative z-10 max-w-[360px]">
+                    <span className="text-xs md:text-sm text-[rgba(12,39,86,0.70)]">Our Address</span>
+                    <span className="text-sm md:text-base text-[#0C2756] font-medium">Visit Our Hub</span>
+                    <p className="text-xs md:text-sm text-[#0C2756] leading-relaxed mt-2">
+                      4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Right Side - Contact Form */}
@@ -590,104 +657,6 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Reach Out to Us Section */}
-        <div className="w-full max-w-8xl mx-auto px-4 md:px-6 lg:px-10 mt-8 md:mt-12 lg:mt-16">
-          <div className="flex flex-col lg:flex-row items-start lg:justify-around gap-6 lg:gap-10">
-            {/* Left Side - Title */}
-            <div className="w-full lg:flex-shrink-0 lg:w-[700px] lg:mr-10">
-              <h3 
-                className="mb-3 md:mb-4 text-2xl md:text-3xl lg:text-[45px] leading-tight md:leading-tight lg:leading-[45px]"
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontStyle: 'normal',
-                  fontWeight: '400'
-                }}
-              >
-                Reach Out to us
-              </h3>
-            </div>
-
-            {/* Right Side - Contact Cards */}
-            <div className="w-full lg:flex-1">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-4">
-                {/* First Row - Email Card */}
-                <div 
-                  className="p-4 md:p-6 relative min-h-[150px] md:min-h-[180px]"
-                  style={{
-                    borderRadius: '40px',
-                    background: '#EFF7FF',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
-                  }}
-                >
-                  <div className="absolute bottom-2 md:bottom-4 right-1 md:right-2 opacity-50 md:opacity-100">
-                    <img 
-                      src="/contact1.png" 
-                      alt="Email CredSettle for Loan Settlement Consultation" 
-                      className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px]"
-                    />
-                  </div>
-                  <div className="pt-4 md:pt-8 pr-20 md:pr-28 lg:pr-32">
-                    <h4 className="font-semibold text-black mb-1 md:mb-2 text-sm md:text-base">Email Us</h4>
-                    <p className="text-gray-600 text-xs md:text-sm mb-1 md:mb-2">General Inquiries</p>
-                    <p className="text-black text-xs md:text-sm break-words">info@credsettle.com</p>
-                  </div>
-                </div>
-
-                {/* First Row - Call Card */}
-                <div 
-                  className="p-4 md:p-6 relative min-h-[150px] md:min-h-[180px]"
-                  style={{
-                    borderRadius: '40px',
-                    background: '#EFF7FF',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
-                  }}
-                >
-                  <div className="absolute bottom-2 md:bottom-4 right-1 md:right-2 opacity-50 md:opacity-100">
-                    <img 
-                      src="/contact2.png" 
-                      alt="Call CredSettle for Loan Settlement Support" 
-                      className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px] rotate-90"
-                    />
-                  </div>
-                  <div className="pt-4 md:pt-8 pr-20 md:pr-28 lg:pr-32">
-                    <h4 className="font-semibold text-black mb-1 md:mb-2 text-sm md:text-base">Call Us</h4>
-                    <p className="text-gray-600 text-xs md:text-sm mb-1 md:mb-2">Customer Support</p>
-                    <p className="text-black text-xs md:text-sm">+91 8800226635</p>
-                  </div>
-                </div>
-
-                {/* Second Row - Address Card (spans 2 columns) */}
-                <div 
-                  className="col-span-1 md:col-span-2 p-4 md:p-6 relative min-h-[150px] md:min-h-[180px]"
-                  style={{
-                    borderRadius: '40px',
-                    background: '#EFF7FF',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
-                  }}
-                >
-                  <div className="absolute bottom-2 md:bottom-4 right-1 md:right-2 opacity-50 md:opacity-100">
-                    <img 
-                      src="/contact3.png" 
-                      alt="CredSettle Office Address in Gurugram" 
-                      className="w-16 h-16 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px]"
-                    />
-                  </div>
-                  <div className="flex items-center justify-between pr-20 md:pr-28 lg:pr-32">
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-black mb-1 md:mb-2 text-sm md:text-base">Our Address</h4>
-                      <p className="text-gray-600 text-xs md:text-sm mb-2 md:mb-4">Visit Our Hub</p>
-                      <p className="text-black text-xs md:text-sm leading-relaxed">
-                        4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
-                      </p>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       
       <div className="mt-12 md:mt-16 lg:mt-[100px]">

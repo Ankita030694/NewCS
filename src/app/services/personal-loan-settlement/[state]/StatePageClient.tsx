@@ -130,22 +130,38 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
           }}
         >
           <div 
-            className="flex flex-col lg:flex-row gap-4 lg:gap-8" 
+            className="flex flex-col gap-4 lg:gap-8" 
             style={{ 
               alignItems: 'flex-start',
               position: 'relative'
             }}
           >
             {/* Table of Contents */}
-            <div className="w-full lg:w-auto lg:flex-shrink-0">
+            <div className="w-full">
               <TableOfContents headings={headings} />
             </div>
 
             {/* Main Content */}
-            <div className="flex-1 w-full lg:w-auto" style={{ minWidth: '0', minHeight: '100vh' }}>
+            <div className="w-full" style={{ minWidth: '0', minHeight: '100vh' }}>
               {/* Check if using new comprehensive format or old format */}
               {content.whyLoanSettlement ? (
                 <>
+                  {/* State-Specific Introduction */}
+                  {content.stateIntroduction && (
+                    <section style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                      <div
+                        className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                        style={{
+                          color: 'rgba(12, 39, 86, 0.80)',
+                          fontFamily: 'Poppins',
+                          lineHeight: '28px'
+                        }}
+                      >
+                        <p style={{ marginBottom: '16px' }}>{content.stateIntroduction}</p>
+                      </div>
+                    </section>
+                  )}
+
                   {/* H2: Why Loan Settlement Is a Smart Financial Step */}
                   {content.whyLoanSettlement && (
                     <section id="why-loan-settlement" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
