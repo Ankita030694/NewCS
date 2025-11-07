@@ -290,4 +290,312 @@ export default function AndhraPradeshPageClient() {
                 </div>
               </section>
 
-... (rest of lengthy content) ...
+              <section id="credsettle-process" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  How CredSettle Handles Andhra Cases
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}>
+                    Our Andhra settlement desk combines legal notices, negotiation expertise and document support. Case managers map every credit card, gather hardship proof and coordinate directly with bank teams in Visakhapatnam and Vijayawada to accelerate approvals.</p>
+
+                  <div id="settlement-strategy" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
+                    <h3
+                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
+                      style={{
+                        color: '#0C2756',
+                        fontFamily: 'Poppins',
+                        fontWeight: 600,
+                        lineHeight: '32px',
+                        marginBottom: '16px'
+                      }}
+                    >
+                      Our Settlement Strategy for Andhra Clients
+                    </h3>
+                    <p style={{ marginBottom: '16px' }}>
+                      <strong>Step 1:</strong> Map every card, EMI and overdue month. <strong>Step 2:</strong> Send RBI-backed notices that pause harassment. <strong>Step 3:</strong> Compile evidence like bench emails, aquaculture invoices or medical bills to prove hardship. <strong>Step 4:</strong> Negotiate all banks together so offers land in one window. <strong>Step 5:</strong> Vet letters, schedule discounted payments and collect acknowledgements. <strong>Step 6:</strong> Secure NOCs, monitor CIBIL updates and coach you on rebuilding credit.</p>
+                  </div>
+
+                  <div id="legal-protection" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
+                    <h3
+                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
+                      style={{
+                        color: '#0C2756',
+                        fontFamily: 'Poppins',
+                        fontWeight: 600,
+                        lineHeight: '32px',
+                        marginBottom: '16px'
+                      }}
+                    >
+                      RBI Rules That Protect You
+                    </h3>
+                    <p style={{ marginBottom: '16px' }}>
+                      Recovery agents must call only between 8 am and 7 pm, cannot threaten arrest and cannot speak to your employer without consent. After settlement payment, banks must issue NOCs within 30 days. We escalate to the Andhra Banking Ombudsman if any lender disregards these protections.</p>
+                  </div>
+                </div>
+              </section>
+
+              <section id="multiple-cards" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  Managing Multiple Cards Together
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}>
+                    Andhra households usually juggle four to six cards across HDFC, SBI, ICICI, Axis, Kotak and RBL. We coordinate all lenders simultaneously so you prepare documents once, receive similar reduction percentages and close every account within the same month.</p>
+                </div>
+              </section>
+
+              <section id="ap-cities" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  Andhra City Credit Card Snapshot
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}><strong>Visakhapatnam:</strong> IT, PSU and port employees carry ₹5-7 lakh across premium cards; bench periods are the main trigger.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Vijayawada & Guntur:</strong> Traders stock inventory ahead of festivals; rain-affected seasons leave cards maxed.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Tirupati & Rayalaseema:</strong> Tourism off-season pushes hoteliers and cab operators toward cash withdrawals and EMI conversions.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Nellore & West Godavari:</strong> Aquaculture disruptions force families to pay feed suppliers via cards until exports resume.</p>
+                </div>
+              </section>
+
+              <section id="benefits" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  Five Major Benefits of Settlement
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}>1. Save 40-75% and close every card with legal proof.</p>
+                  <p style={{ marginBottom: '16px' }}>2. Stop calls, WhatsApp spam and doorstep visits within days.</p>
+                  <p style={{ marginBottom: '16px' }}>3. Finish in 50-90 days rather than paying minimums for years.</p>
+                  <p style={{ marginBottom: '16px' }}>4. Coordinate all lenders with one Andhra-focused team.</p>
+                  <p style={{ marginBottom: '16px' }}>5. Receive settlement letters, NOCs and a credit rebuilding roadmap.</p>
+                </div>
+              </section>
+
+              <section id="your-rights" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  Your Rights Against Harassment
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}>
+                    RBI mandates respectful recovery. Agents cannot threaten police cases, use abusive language or discuss dues with neighbours or employers. If harassment continues after our notice, we escalate with call recordings until lenders issue written apologies and halt improper contact.</p>
+                </div>
+              </section>
+
+              <section id="settlement-steps" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  Complete Settlement Timeline
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}><strong>Day 1-3:</strong> Consultation, hardship review and document checklist.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Day 4-7:</strong> Legal notices dispatched, harassment drops sharply.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Weeks 2-6:</strong> Negotiations with every bank and NBFC.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Weeks 6-8:</strong> Offers vetted, payment plans finalised.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Weeks 8-10:</strong> Discounted payments executed, acknowledgements collected.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>Weeks 10-14:</strong> NOCs received, credit report monitored.</p>
+                </div>
+              </section>
+
+              <section id="real-case" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  Real Story: Vizag Tech Lead Saved 59%
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}>
+                    A 36-year-old IT tech lead from Vizag carried four cards totalling ₹6.8 lakh after a three-month bench period cut income by 45%. Parents' medical expenses added another ₹1 lakh and recovery agents began calling his office.</p>
+                  <p style={{ marginBottom: '16px' }}>
+                    We compiled bench letters, hospital bills and dependent expenses. Settlements between 34-42% reduced the payout to ₹2.8 lakh, saving ₹4 lakh (59%). Harassment stopped within a week, cards closed in 68 days and all NOCs arrived within the next month.</p>
+                </div>
+              </section>
+
+              <section id="start-today" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '36px',
+                    marginBottom: '20px'
+                  }}
+                >
+                  Start Your Andhra Credit Card Settlement Today
+                </h2>
+                <div
+                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
+                  style={{
+                    color: 'rgba(12, 39, 86, 0.80)',
+                    fontFamily: 'Poppins',
+                    lineHeight: '28px'
+                  }}
+                >
+                  <p style={{ marginBottom: '16px' }}>
+                    Whether you are in Visakhapatnam, Vijayawada, Tirupati or any Andhra town, one conversation starts the process. We analyse dues, share savings estimates, list documents and assign a dedicated case manager. Consultation is free and there are no upfront fees—pay only after banks approve discounted settlements and you receive legal closure.</p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
+          <div className="w-full max-w-7xl mx-auto px-4">
+            <div className="flex flex-col items-center gap-8 md:gap-14">
+              <FAQWithSchema faqs={faqs} title="Andhra Pradesh Credit Card Settlement FAQs" />
+
+              <div
+                className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
+                style={{
+                  background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
+                  boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
+                }}
+              >
+                <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
+                  <div className="flex flex-col items-center gap-[28px] w-full">
+                    <h2
+                      className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
+                      style={{ color: '#0C2756' }}
+                    >
+                      Break Free from Andhra Credit Card Debt
+                    </h2>
+                    <p
+                      className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
+                      style={{ color: 'rgba(12, 39, 86, 0.70)' }}
+                    >
+                      Join 3,900+ Andhra households who already became debt-free with CredSettle. We manage multiple cards, stop harassment fast and deliver legal closure.</p>
+
+                    <button
+                      className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90"
+                      style={{
+                        boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset'
+                      }}
+                    >
+                      <span
+                        className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal"
+                        style={{ color: '#0C2756' }}
+                      >
+                        Get Your Free Consultation Now
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div style={{ marginTop: '100px' }}>
+        <Footer />
+      </div>
+    </div>
+  );
+}
