@@ -38,8 +38,18 @@
  */
 
 import { NextResponse } from 'next/server';
-import { getAllStateSlugs } from '@/app/services/personal-loan-settlement/states-content';
-import { getAllBankSlugs } from '@/app/services/personal-loan-settlement/banks-content';
+import { getAllStateSlugs as getPersonalStateSlugs } from '@/app/services/personal-loan-settlement/states-content';
+import { getAllStateSlugs as getBusinessStateSlugs } from '@/app/services/business-loan-settlement/states-content';
+import { getAllStateSlugs as getCarStateSlugs } from '@/app/services/car-loan-settlement/states-content';
+import { getAllStateSlugs as getCreditCardStateSlugs } from '@/app/services/credit-card-settlement/states-content';
+import { getAllStateSlugs as getAppStateSlugs } from '@/app/services/app-loan-settlement/states-content';
+import { getAllStateSlugs as getNbfcStateSlugs } from '@/app/services/nbfc-loan-settlement/states-content';
+import { getAllBankSlugs as getPersonalBankSlugs } from '@/app/services/personal-loan-settlement/banks-content';
+import { getAllBankSlugs as getBusinessBankSlugs } from '@/app/services/business-loan-settlement/banks-content';
+import { getAllBankSlugs as getCarBankSlugs } from '@/app/services/car-loan-settlement/banks-content';
+import { getAllBankSlugs as getCreditCardBankSlugs } from '@/app/services/credit-card-settlement/banks-content';
+import { getAllBankSlugs as getAppBankSlugs } from '@/app/services/app-loan-settlement/banks-content';
+import { getAllBankSlugs as getNbfcBankSlugs } from '@/app/services/nbfc-loan-settlement/banks-content';
 import { db } from '@/lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
@@ -74,6 +84,139 @@ const simpleServices = [
   'anti-harassment',
   'credit-score-builder'
 ];
+
+const STATE_SLUG_FALLBACKS = [
+  'andaman-and-nicobar-islands',
+  'andhra-pradesh',
+  'arunachal-pradesh',
+  'assam',
+  'bihar',
+  'chandigarh',
+  'chhattisgarh',
+  'dadra-and-nagar-haveli-and-daman-and-diu',
+  'delhi',
+  'goa',
+  'gujarat',
+  'haryana',
+  'himachal-pradesh',
+  'jammu-and-kashmir',
+  'jharkhand',
+  'karnataka',
+  'kerala',
+  'ladakh',
+  'lakshadweep',
+  'madhya-pradesh',
+  'maharashtra',
+  'manipur',
+  'meghalaya',
+  'mizoram',
+  'nagaland',
+  'odisha',
+  'puducherry',
+  'punjab',
+  'rajasthan',
+  'sikkim',
+  'tamil-nadu',
+  'telangana',
+  'tripura',
+  'uttar-pradesh',
+  'uttarakhand',
+  'west-bengal'
+];
+
+const serviceStateSlugGetters: Record<string, () => string[]> = {
+  'personal-loan-settlement': getPersonalStateSlugs,
+  'business-loan-settlement': getBusinessStateSlugs,
+  'car-loan-settlement': getCarStateSlugs,
+  'credit-card-settlement': getCreditCardStateSlugs,
+  'app-loan-settlement': getAppStateSlugs,
+  'nbfc-loan-settlement': getNbfcStateSlugs
+};
+
+const serviceBankSlugGetters: Record<string, () => string[]> = {
+  'personal-loan-settlement': getPersonalBankSlugs,
+  'business-loan-settlement': getBusinessBankSlugs,
+  'car-loan-settlement': getCarBankSlugs,
+  'credit-card-settlement': getCreditCardBankSlugs,
+  'app-loan-settlement': getAppBankSlugs,
+  'nbfc-loan-settlement': getNbfcBankSlugs
+};
+
+const stateSlugCache = new Map<string, string[]>();
+const bankSlugCache = new Map<string, string[]>();
+
+function dedupeSlugs(slugs: string[]): string[] {
+  return Array.from(
+    new Set(
+      slugs.filter(
+        (slug) => typeof slug === 'string' && slug.trim() !== ''
+      )
+    )
+  );
+}
+
+const personalBankFallbackSlugs = (() => {
+  try {
+    return dedupeSlugs(getPersonalBankSlugs());
+  } catch (error) {
+    console.error('Error getting default personal bank slugs:', error);
+    return [];
+  }
+})();
+
+const DEFAULT_BANK_FALLBACK_COUNT = personalBankFallbackSlugs.length || 115;
+
+function getStateSlugsForService(serviceType: string): string[] {
+  const cached = stateSlugCache.get(serviceType);
+  if (cached) {
+    return cached;
+  }
+
+  const getter = serviceStateSlugGetters[serviceType];
+  let serviceSlugs: string[] = [];
+
+  if (getter) {
+    try {
+      serviceSlugs = getter();
+    } catch (error) {
+      console.error(`Error getting state slugs for ${serviceType}:`, error);
+    }
+  } else {
+    console.warn(`No state slug getter configured for service: ${serviceType}`);
+  }
+
+  const merged = dedupeSlugs([...STATE_SLUG_FALLBACKS, ...serviceSlugs]);
+  stateSlugCache.set(serviceType, merged);
+  return merged;
+}
+
+function getBankSlugsForService(serviceType: string): string[] {
+  const cached = bankSlugCache.get(serviceType);
+  if (cached) {
+    return cached;
+  }
+
+  const getter = serviceBankSlugGetters[serviceType];
+  let slugs: string[] = [];
+
+  if (getter) {
+    try {
+      slugs = getter();
+    } catch (error) {
+      console.error(`Error getting bank slugs for ${serviceType}:`, error);
+    }
+  } else {
+    console.warn(`No bank slug getter configured for service: ${serviceType}`);
+  }
+
+  if (!slugs.length && serviceType !== 'personal-loan-settlement') {
+    slugs = personalBankFallbackSlugs;
+  }
+
+  const deduped = dedupeSlugs(slugs);
+  bankSlugCache.set(serviceType, deduped);
+  return deduped;
+}
 
 /**
  * Helper function to generate slug from title (matching client-side logic)
@@ -169,24 +312,7 @@ async function countSitemapPages(): Promise<{
     resourcePages: number;
   };
 }> {
-  // Get dynamic counts
-  let stateCount = 0;
-  let bankCount = 0;
   let blogCount = 0;
-
-  try {
-    stateCount = getAllStateSlugs().length;
-  } catch (error) {
-    // If this fails, use default count (36 Indian states/UTs)
-    stateCount = 36;
-  }
-
-  try {
-    bankCount = getAllBankSlugs().length;
-  } catch (error) {
-    // If this fails, use approximate count
-    bankCount = 115;
-  }
 
   try {
     const blogSlugs = await getAllBlogSlugs();
@@ -200,8 +326,24 @@ async function countSitemapPages(): Promise<{
   const mainStaticPages = 5; // Home, About, Contact, Services, Resources
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
-  const loanSettlementStatePages = loanSettlementServices.length * stateCount; // 6 services × 36 states
-  const loanSettlementBankPages = loanSettlementServices.length * bankCount; // 6 services × 115 banks
+
+  let loanSettlementStatePages = 0;
+  let loanSettlementBankPages = 0;
+
+  for (const serviceType of loanSettlementServices) {
+    loanSettlementStatePages += getStateSlugsForService(serviceType).length;
+    loanSettlementBankPages += getBankSlugsForService(serviceType).length;
+  }
+
+  if (!loanSettlementStatePages) {
+    loanSettlementStatePages = STATE_SLUG_FALLBACKS.length * loanSettlementServices.length;
+  }
+
+  if (!loanSettlementBankPages) {
+    loanSettlementBankPages = DEFAULT_BANK_FALLBACK_COUNT * loanSettlementServices.length;
+  }
+
+  const loanSettlementBankStatePages = 0; // Combined bank/state pages not currently generated
   const resourcePages = blogCount; // Dynamic count from Firebase
 
   const total =
@@ -210,6 +352,7 @@ async function countSitemapPages(): Promise<{
     loanSettlementMainPages +
     loanSettlementStatePages +
     loanSettlementBankPages +
+    loanSettlementBankStatePages +
     resourcePages;
 
   return {
@@ -220,6 +363,7 @@ async function countSitemapPages(): Promise<{
       loanSettlementMainPages,
       loanSettlementStatePages,
       loanSettlementBankPages,
+      loanSettlementBankStatePages,
       resourcePages,
     },
   };
@@ -295,26 +439,6 @@ async function generateSitemap(): Promise<string> {
   // 2. State-specific pages (for all Indian states/UTs)
   // 3. Bank-specific pages (for all banks/NBFCs)
 
-  // First, get all available states and banks dynamically
-  let allStates: string[] = [];
-  let allBanks: string[] = [];
-
-  try {
-    // Get all state slugs (e.g., 'andhra-pradesh', 'maharashtra', etc.)
-    allStates = getAllStateSlugs();
-  } catch (error) {
-    console.error('Error getting state slugs:', error);
-    // If this fails, the sitemap will still work but won't include state pages
-  }
-
-  try {
-    // Get all bank slugs (e.g., 'hdfc', 'icici', 'sbi', etc.)
-    allBanks = getAllBankSlugs();
-  } catch (error) {
-    console.error('Error getting bank slugs:', error);
-    // If this fails, the sitemap will still work but won't include bank pages
-  }
-
   // Loop through each loan settlement service type
   for (const serviceType of loanSettlementServices) {
     
@@ -330,7 +454,8 @@ async function generateSitemap(): Promise<string> {
     // 3.2: State-specific pages
     // Example: /services/personal-loan-settlement/andhra-pradesh
     // These pages provide information about loan settlement in specific states
-    for (const state of allStates) {
+    const states = getStateSlugsForService(serviceType);
+    for (const state of states) {
       urls.push({
         loc: `${baseUrl}/services/${serviceType}/${state}`,
         priority: 0.8, // Medium priority - important for local SEO
@@ -342,7 +467,8 @@ async function generateSitemap(): Promise<string> {
     // 3.3: Bank-specific pages
     // Example: /services/personal-loan-settlement/banks/hdfc
     // These pages provide information about settling loans with specific banks
-    for (const bank of allBanks) {
+    const banks = getBankSlugsForService(serviceType);
+    for (const bank of banks) {
       urls.push({
         loc: `${baseUrl}/services/${serviceType}/banks/${bank}`,
         priority: 0.8, // Medium priority - important for bank-specific searches
