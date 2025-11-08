@@ -23,7 +23,14 @@ export async function POST(request: NextRequest) {
 
     // Check if all required fields are present
     for (const field of requiredFields) {
-      if (!body[field] || body[field].trim() === '') {
+      const value = body[field];
+      const isMissing =
+        value === undefined ||
+        value === null ||
+        (typeof value === 'string' && value.trim() === '') ||
+        (typeof value === 'number' && Number.isNaN(value));
+
+      if (isMissing) {
         return NextResponse.json(
           { error: `Missing required field: ${field}` },
           { status: 400 }
