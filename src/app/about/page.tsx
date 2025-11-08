@@ -2,6 +2,7 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { useEffect, useState, useRef } from 'react';
+import Script from 'next/script';
 
 export default function AboutPage() {
   const [isFirefox, setIsFirefox] = useState(false);
@@ -33,6 +34,23 @@ export default function AboutPage() {
       answer: "CredSettle combines legal expertise with compassionate service. We're India's leader in dignified debt resolution, offering RBI-compliant settlements, immediate harassment protection, and a proven track record of helping clients achieve financial stability through ethical and legal means."
     }
   ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutFAQPage",
+    "@id": "https://credsettle.in/about#faq",
+    "name": "CredSettle Debt Resolution FAQs",
+    "description": "Answers to common questions about CredSettle's RBI-compliant debt resolution services and legal loan settlements.",
+    "mainEntity": faqs.map((faq, index) => ({
+      "@type": "Question",
+      "@id": `https://credsettle.in/about#faq-question-${index + 1}`,
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -76,6 +94,9 @@ export default function AboutPage() {
 
   return (
     <div className="relative min-h-screen bg-white mt-6">
+      <Script id="faq-schema-about" type="application/ld+json">
+        {JSON.stringify(faqSchema)}
+      </Script>
       {!isFirefox && (
         <div
           className="absolute top-0 left-0"
