@@ -204,11 +204,57 @@ export default async function BlogPostPage({ params }: PageProps) {
     }
   };
 
+  const faqItems =
+    blog.faqs && blog.faqs.length > 0
+      ? blog.faqs
+      : [
+          {
+            question:
+              'What is a One-Time Settlement (OTS), and how does CredSettle help me achieve it?',
+            answer:
+              'A One-Time Settlement (OTS) is a negotiated agreement where you pay a reduced lump sum to settle your debt. CredSettle negotiates with lenders on your behalf to secure the best possible settlement terms while ensuring RBI compliance.'
+          },
+          {
+            question: 'Is debt settlement legal? Does it adhere to RBI guidelines?',
+            answer:
+              'Yes, debt settlement is completely legal in India. CredSettle ensures all settlements are conducted in accordance with RBI guidelines and regulatory frameworks, protecting your rights throughout the process.'
+          },
+          {
+            question: 'How does CredSettle stop harassment from recovery agents?',
+            answer:
+              'CredSettle provides legal intervention and communication services to stop harassment from recovery agents. We file formal complaints with RBI, NCH, and Cyber Police when necessary, and issue cease and desist notices to protect your rights.'
+          }
+        ];
+
+  const faqStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': `https://www.credsettle.com/resources/${canonicalSlug}#faq`,
+    name: `${blog.title} FAQs | CredSettle`,
+    description:
+      blog.metaDescription ||
+      blog.subtitle ||
+      'Frequently asked questions about CredSettle’s RBI-compliant debt settlement services.',
+    mainEntity: faqItems.map((faq, index) => ({
+      '@type': 'Question',
+      '@id': `https://www.credsettle.com/resources/${canonicalSlug}#faq-question-${index + 1}`,
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer
+      }
+    }))
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
       <BlogPostPageClient
         blog={clientBlog}

@@ -197,21 +197,27 @@ export default function ThankYouPage() {
                     </h1>
                   </div>
 
-                  {/* Get Instant Access Button */}
+                  {/* Pay Now Button */}
                   <div className="text-center mb-3 md:mb-4">
-                    <a
-                      href="https://u.payu.in/VrqKjNFWqiOB"
-                      className="inline-block px-4 md:px-6 lg:px-[25px] py-2 md:py-3 rounded-[35px] text-sm md:text-base font-bold transition-colors duration-200 hover:opacity-90"
-                      style={{
-                        backgroundColor: '#28a745',
-                        color: 'white',
-                        fontFamily: 'Poppins',
-                        boxShadow: '0 4px 12px rgba(40, 167, 69, 0.3)',
-                        textDecoration: 'none'
-                      }}
-                    >
-                      Get Instant Access
-                    </a>
+                    <div>
+                      <a
+                        href="https://u.payu.in/VrqKjNFWqiOB"
+                        style={{
+                          width: '135px',
+                          backgroundColor: '#1065B7',
+                          textAlign: 'center',
+                          fontWeight: 800,
+                          padding: '11px 0px',
+                          color: 'white',
+                          fontSize: '12px',
+                          display: 'inline-block',
+                          textDecoration: 'none',
+                          borderRadius: '3.229px'
+                        }}
+                      >
+                        Pay Now
+                      </a>
+                    </div>
                   </div>
 
                   {/* 100% Secure Payment */}
