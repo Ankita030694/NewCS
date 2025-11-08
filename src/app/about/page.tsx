@@ -37,7 +37,7 @@ export default function AboutPage() {
 
   const faqSchema = {
     "@context": "https://schema.org",
-    "@type": "AboutFAQPage",
+    "@type": "FAQPage",
     "@id": "https://credsettle.in/about#faq",
     "name": "CredSettle Debt Resolution FAQs",
     "description": "Answers to common questions about CredSettle's RBI-compliant debt resolution services and legal loan settlements.",
