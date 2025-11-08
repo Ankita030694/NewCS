@@ -240,14 +240,11 @@ export default function HeroSection() {
           style={{
           }}
         >
-          <p className="text-white font-bold text-center max-w-5xl text-xl md:text-4xl" style={{ fontWeight: 500, wordSpacing: '0.15em', lineHeight: '1.7' }}>
+          <p className="text-white font-bold text-center max-w-5xl text-xl md:text-4xl" style={{ fontWeight: 500, lineHeight: '1.7' }}>
             Facing <span 
               className="inline-block rounded-[32.4px] px-2 py-[0.1px] md:px-[13.2px] md:py-[0.48px]"
               style={{ 
                 color: 'rgb(226, 48, 28)',
-                background: '#FFFFFF',
-                boxShadow: '0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.10) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.10) inset, 0 0.9px 15.93px 0 rgba(12, 39, 86, 0.70)',
-                backdropFilter: 'blur(11.16px)'
               }}
             >Loan Recovery calls? </span> Get peace of mind with CredSettle, India's most trusted <br /> Loan Settlement Company.
           </p>

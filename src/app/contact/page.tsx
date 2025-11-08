@@ -351,6 +351,48 @@ export default function ContactPage() {
                   maxWidth: '480px'
                 }}
               >
+                <div className="lg:hidden flex flex-col gap-2 mb-2">
+                  <h1
+                    className="text-2xl font-semibold leading-snug"
+                    style={{
+                      color: '#0C2756',
+                      fontFamily: 'Poppins'
+                    }}
+                  >
+                    Contact Our Experts Now
+                  </h1>
+                  <p
+                    className="text-sm leading-5"
+                    style={{
+                      color: 'rgba(12, 39, 86, 0.70)',
+                      fontFamily: 'Poppins'
+                    }}
+                  >
+                    Submit the details below to get a call back from our team.
+                  </p>
+                  <p
+                    className="text-xs leading-4"
+                    style={{
+                      color: '#0C2756',
+                      fontFamily: 'Poppins',
+                      fontWeight: 500
+                    }}
+                  >
+                   <span className="text-red-500">*</span> We do not provide Loans. We only help in Loan Settlement.
+                  </p>
+                </div>
+                <div className="hidden lg:flex justify-between items-center mb-3 px-2">
+                  <span
+                    className="text-sm leading-5"
+                    style={{
+                      color: '#0C2756',
+                      fontFamily: 'Poppins',
+                      fontWeight: 500
+                    }}
+                  >
+                   <span className="text-red-500">*</span> We do not provide Loans. We only help in Loan Settlement.
+                  </span>
+                </div>
                 <form onSubmit={onSubmit} className="space-y-3 md:space-y-4 w-full">
                   <div>
                     <label htmlFor="name" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
@@ -656,7 +698,7 @@ export default function ContactPage() {
                     <span className="text-xs md:text-sm lg:text-base font-medium tracking-wide" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>
                       Powered by
                     </span>
-                    <img src="/payu.png" alt="PayU" className="w-24 h-5 md:w-24 md:h-20 object-contain -ml-7" />
+                    <img src="/payu.png" alt="PayU" className="w-24 h-24f md:w-24 md:h-20 object-contain -ml-7" />
                   </div>
                 </form>
               </div>
