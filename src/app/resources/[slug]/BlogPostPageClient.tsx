@@ -60,7 +60,7 @@ const defaultFaqs: FAQ[] = [
 const author = {
   name: 'Legal Expert Team',
   title: 'CredSettle Legal Advisory',
-  image: '/man1.jpg',
+  image: '/credsettle-logo-black.png',
   bio: 'Our team of experienced legal professionals, financial advisors, and debt settlement experts is dedicated to helping individuals navigate debt settlement challenges. With years of combined experience in RBI compliance, debt negotiation, and legal protection, we ensure that every client receives expert guidance tailored to their unique financial situation.'
 };
 
@@ -353,7 +353,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                   <img
                     src={author.image}
                     alt={author.name}
-                    className="w-20 h-20 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px] rounded-full object-cover"
+                    className="w-20 h-20 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px] rounded-full object-contain"
                   />
                 </div>
                 <div className="flex-1 text-center md:text-left">
