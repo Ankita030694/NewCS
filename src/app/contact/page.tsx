@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Script from 'next/script';
 
 export default function ContactPage() {
   const router = useRouter();
@@ -137,6 +138,46 @@ export default function ContactPage() {
     return Object.keys(newErrors).length === 0;
   };
 
+  const contactFaqs = [
+    {
+      question: "How can I contact CredSettle?",
+      answer:
+        "You can email us at info@credsettle.com, call +91 8800226635 for customer support, or visit our hub at 4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001."
+    },
+    {
+      question: "Do you provide loans?",
+      answer:
+        "No. CredSettle does not provide loans; we exclusively help clients settle existing loans through RBI-compliant legal processes."
+    },
+    {
+      question: "What information should I include in the contact form?",
+      answer:
+        "Please share your basic details including name, mobile number, Gmail address, city, employment status, monthly income, current credit card and personal loan dues, whether you are facing harassment, your ability to pay an initial amount, and any specific queries."
+    },
+    {
+      question: "What happens after I submit the form?",
+      answer:
+        "Once you submit the form, our experts review the details and get back to you with a call to guide you through the loan settlement process."
+    }
+  ];
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://credsettle.in/contact#faq",
+    "name": "CredSettle Contact FAQs",
+    "description": "Answers to common questions about contacting CredSettle for RBI-compliant debt settlement support.",
+    "mainEntity": contactFaqs.map((faq, index) => ({
+      "@type": "Question",
+      "@id": `https://credsettle.in/contact#faq-question-${index + 1}`,
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -190,6 +231,9 @@ export default function ContactPage() {
   };
   return (
     <div className="relative min-h-screen bg-white mt-5">
+      <Script id="faq-schema-contact" type="application/ld+json">
+        {JSON.stringify(faqSchema)}
+      </Script>
       {/* Background Circle Effect - Chrome/Safari */}
       {!isFirefox && (
         <div 
