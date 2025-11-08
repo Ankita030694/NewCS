@@ -105,6 +105,7 @@ export default function HeroSection() {
                 
                 {/* Right Column - Desktop Register Button / Mobile Hamburger */}
                 <div className="flex-shrink-0 flex items-center gap-4">
+                  <a href="/contact" className="hidden md:flex">
                   {/* Desktop Register Button - Hidden on Mobile */}
                   <button
                     className="hidden md:flex bg-[#FFFFFF] text-[#0C2756] font-medium transition-colors duration-200 hover:bg-gray-100"
@@ -127,6 +128,7 @@ export default function HeroSection() {
                   >
                     Register now
                   </button>
+                  </a>
 
                   {/* Mobile Hamburger Menu Button */}
                   <button

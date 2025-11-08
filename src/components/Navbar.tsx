@@ -88,6 +88,7 @@ export default function ContactNavbar() {
               {/* Right Column - Desktop Register Button / Mobile Hamburger */}
               <div className="flex-shrink-0 flex items-center gap-4">
                 {/* Desktop Register Button - Hidden on Mobile */}
+                <a href="/contact" className="hidden md:flex">
                 <button
                   className="hidden md:flex bg-[#007AFF] text-white font-light transition-colors duration-200 hover:bg-[#0056CC] items-center justify-center"
                   style={{
@@ -104,6 +105,7 @@ export default function ContactNavbar() {
                 >
                   Register now
                 </button>
+                </a>
 
                 {/* Mobile Hamburger Menu Button */}
                 <button
