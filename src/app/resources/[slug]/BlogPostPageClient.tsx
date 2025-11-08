@@ -365,7 +365,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                       fontWeight: '600'
                     }}
                   >
-                    {author.name}
+                    {author.name} 
                   </h3>
                   <p
                     className="text-sm md:text-base mb-2 md:mb-3"
