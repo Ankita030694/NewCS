@@ -1,13 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/firebase';
-import { collection, getDocs, query, where } from 'firebase/firestore';
+import { collection, getDocs } from 'firebase/firestore';
+import { canonicaliseSlug, ensureBlogSlug } from '@/lib/slug';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: Promise<{ slug: string }> }
+  { params }: { params: { slug: string } }
 ) {
   try {
-    const { slug } = await params;
+    const { slug } = params;
 
     if (!slug) {
       return NextResponse.json(
@@ -16,66 +17,11 @@ export async function GET(
       );
     }
 
-    // Decode the slug from URL
-    const decodedSlug = decodeURIComponent(slug);
+    const targetSlug = canonicaliseSlug(slug);
 
-    // Helper function to generate slug from title (must match client-side generation)
-    const generateSlugFromTitle = (title: string): string => {
-      return title
-        .toLowerCase()
-        .trim()
-        .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-        .replace(/\s+/g, '-') // Replace spaces with hyphens
-        .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
-        .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
-    };
-
-    // Get blog by slug from Firestore
-    const blogsRef = collection(db, 'blogs');
-    let q = query(blogsRef, where('slug', '==', decodedSlug));
-    let querySnapshot = await getDocs(q);
-
-    // If not found by slug, try to find by matching generated slug from title
-    if (querySnapshot.empty) {
-      // Fetch all blogs to find by generated slug
-      const allBlogsSnapshot = await getDocs(blogsRef);
-      
-      // Find blog where generated slug from title matches
-      for (const doc of allBlogsSnapshot.docs) {
-        const data = doc.data();
-        const title = data.title || '';
-        const generatedSlug = generateSlugFromTitle(title);
-        const existingSlug = data.slug || '';
-        
-        // Match if generated slug matches OR existing slug matches
-        if (generatedSlug === decodedSlug || existingSlug === decodedSlug) {
-          const blog = {
-            id: doc.id,
-            created: data.created || null,
-            date: data.date || '',
-            description: data.description || '',
-            faqs: data.faqs || [],
-            image: data.image || '',
-            metaDescription: data.metaDescription || '',
-            metaTitle: data.metaTitle || '',
-            slug: existingSlug || generatedSlug,
-            subtitle: data.subtitle || '',
-            title: data.title || '',
-          };
-
-          return NextResponse.json(
-            {
-              success: true,
-              blog,
-            },
-            { status: 200 }
-          );
-        }
-      }
-      
-      // Still not found
+    if (!targetSlug) {
       return NextResponse.json(
-        { 
+        {
           success: false,
           error: 'Blog not found'
         },
@@ -83,29 +29,45 @@ export async function GET(
       );
     }
 
-    const doc = querySnapshot.docs[0];
-    const data = doc.data();
+    const blogsSnapshot = await getDocs(collection(db, 'blogs'));
 
-    const blog = {
-      id: doc.id,
-      created: data.created || null,
-      date: data.date || '',
-      description: data.description || '',
-      faqs: data.faqs || [],
-      image: data.image || '',
-      metaDescription: data.metaDescription || '',
-      metaTitle: data.metaTitle || '',
-      slug: data.slug || '',
-      subtitle: data.subtitle || '',
-      title: data.title || '',
-    };
+    for (const doc of blogsSnapshot.docs) {
+      const data = doc.data() ?? {};
+      const title = typeof data.title === 'string' ? data.title : '';
+      const slugFromDoc = ensureBlogSlug(data.slug, title, doc.id);
+      const idSlug = canonicaliseSlug(doc.id);
+
+      if (canonicaliseSlug(slugFromDoc) === targetSlug || idSlug === targetSlug) {
+        const blog = {
+          id: doc.id,
+          created: data.created || null,
+          date: data.date || '',
+          description: data.description || '',
+          faqs: Array.isArray(data.faqs) ? data.faqs : [],
+          image: data.image || '',
+          metaDescription: data.metaDescription || '',
+          metaTitle: data.metaTitle || '',
+          slug: slugFromDoc,
+          subtitle: data.subtitle || '',
+          title,
+        };
+
+        return NextResponse.json(
+          {
+            success: true,
+            blog,
+          },
+          { status: 200 }
+        );
+      }
+    }
 
     return NextResponse.json(
       {
-        success: true,
-        blog,
+        success: false,
+        error: 'Blog not found'
       },
-      { status: 200 }
+      { status: 404 }
     );
   } catch (error: any) {
     console.error('Error fetching blog:', error);

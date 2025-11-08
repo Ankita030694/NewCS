@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
+import { canonicaliseSlug, ensureBlogSlug } from '@/lib/slug';
 
 interface BlogPost {
   id: string;
@@ -45,28 +46,9 @@ export default function BlogPage() {
         const data = await response.json();
         
         if (data.success && data.blogs) {
-          // Helper function to generate slug from title
-          const generateSlugFromTitle = (title: string): string => {
-            return title
-              .toLowerCase()
-              .trim()
-              .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-              .replace(/\s+/g, '-') // Replace spaces with hyphens
-              .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
-              .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
-          };
-          
           const formattedBlogs = data.blogs.map((blog: any) => {
-            // Generate slug from title if missing
-            let slug = blog.slug && blog.slug.trim() !== '' 
-              ? blog.slug.trim() 
-              : generateSlugFromTitle(blog.title || '');
-            
-            // If still no slug, use blog ID as fallback
-            if (!slug) {
-              slug = blog.id || `blog-${Date.now()}`;
-            }
-            
+            const slug = ensureBlogSlug(blog.slug, blog.title, blog.id || `blog-${Date.now()}`);
+
             return {
               id: blog.id,
               title: blog.title || '',
@@ -125,6 +107,39 @@ export default function BlogPage() {
       
       // Then set the page which will trigger the fetch
       setCurrentPage(page);
+    }
+  };
+
+  const handleBlogCardClick = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    post: BlogPost,
+    cleanSlug: string
+  ) => {
+    console.debug('[Resources] Blog card click detected', {
+      postId: post.id,
+      title: post.title,
+      originalSlug: post.slug,
+      canonicalSlug: cleanSlug,
+      targetHref: `/resources/${cleanSlug}`,
+      metaKey: event.metaKey,
+      ctrlKey: event.ctrlKey,
+      shiftKey: event.shiftKey
+    });
+
+    if (!cleanSlug) {
+      console.error('[Resources] Missing canonical slug. Preventing navigation.', {
+        postId: post.id,
+        title: post.title,
+        originalSlug: post.slug
+      });
+      event.preventDefault();
+      return;
+    }
+
+    if (process.env.NODE_ENV !== 'production') {
+      console.info('[Resources] Navigating to blog slug page', {
+        href: `/resources/${cleanSlug}`
+      });
     }
   };
 
@@ -219,19 +234,21 @@ export default function BlogPage() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                 {blogPosts.map((post, idx) => {
+                  const cleanSlug = canonicaliseSlug(post.slug);
+
                   // Ensure slug is valid
-                  if (!post.slug || post.slug.trim() === '') {
+                  if (!cleanSlug) {
                     if (process.env.NODE_ENV !== 'production') {
                       console.warn('Blog post missing slug:', post);
                     }
                     return null;
                   }
-                  const cleanSlug = post.slug.trim();
                   return (
                   <Link 
                     key={post.id} 
                     href={`/resources/${cleanSlug}`}
                     className="flex flex-col gap-3 md:gap-4 no-underline hover:opacity-90 transition-opacity cursor-pointer"
+                    onClick={(event) => handleBlogCardClick(event, post, cleanSlug)}
                   >
                     <div className="w-full h-48 md:h-56 lg:h-64 relative">
                       <Image

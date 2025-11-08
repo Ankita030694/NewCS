@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { collection, getDocs, type QueryDocumentSnapshot, type DocumentData } from 'firebase/firestore';
 import BlogPostPageClient from './BlogPostPageClient';
 import { db } from '@/lib/firebase';
+import { canonicaliseSlug, ensureBlogSlug, generateSlugFromTitle } from '@/lib/slug';
 
 type FAQ = {
   question: string;
@@ -31,25 +32,14 @@ type RelatedBlog = {
 };
 
 type PageProps = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export const revalidate = 300; // Revalidate every 5 minutes
 
 const blogsRef = collection(db, 'blogs');
-
-const generateSlugFromTitle = (title: string): string =>
-  title
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-+|-+$/g, '');
-
-const normaliseSlug = (value: string): string => value.trim().toLowerCase();
 
 const stripHtml = (value: string): string =>
   value.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
@@ -57,8 +47,11 @@ const stripHtml = (value: string): string =>
 const mapDocToBlog = (doc: QueryDocumentSnapshot<DocumentData>): BlogRecord => {
   const data = doc.data() ?? {};
   const rawTitle = typeof data.title === 'string' ? data.title : '';
-  const fallbackSlug = generateSlugFromTitle(rawTitle || doc.id);
-  const rawSlug = typeof data.slug === 'string' && data.slug.trim() !== '' ? data.slug : fallbackSlug;
+  const slug = ensureBlogSlug(
+    typeof data.slug === 'string' ? data.slug : '',
+    rawTitle,
+    doc.id
+  );
 
   return {
     id: doc.id,
@@ -70,7 +63,7 @@ const mapDocToBlog = (doc: QueryDocumentSnapshot<DocumentData>): BlogRecord => {
     faqs: Array.isArray(data.faqs) ? (data.faqs as FAQ[]) : [],
     metaTitle: typeof data.metaTitle === 'string' ? data.metaTitle : '',
     metaDescription: typeof data.metaDescription === 'string' ? data.metaDescription : '',
-    slug: rawSlug.trim()
+    slug
   };
 };
 
@@ -80,27 +73,34 @@ const fetchAllBlogs = cache(async (): Promise<BlogRecord[]> => {
 });
 
 const findBlogBySlug = cache(async (slugParam: string): Promise<BlogRecord | null> => {
-  const cleanSlug = normaliseSlug(decodeURIComponent(slugParam));
+  const targetSlug = canonicaliseSlug(slugParam);
+  if (!targetSlug) {
+    return null;
+  }
   const blogs = await fetchAllBlogs();
 
-  const exactMatch = blogs.find((blog) => normaliseSlug(blog.slug) === cleanSlug);
+  const exactMatch = blogs.find((blog) => canonicaliseSlug(blog.slug) === targetSlug);
   if (exactMatch) {
     return exactMatch;
   }
 
   const generatedMatch = blogs.find(
-    (blog) => normaliseSlug(generateSlugFromTitle(blog.title)) === cleanSlug
+    (blog) => canonicaliseSlug(generateSlugFromTitle(blog.title)) === targetSlug
   );
 
-  return generatedMatch ?? null;
+  const idMatch = blogs.find((blog) => canonicaliseSlug(blog.id) === targetSlug);
+
+  return generatedMatch ?? idMatch ?? null;
 });
 
 const getRelatedBlogs = async (slugParam: string, limit = 3): Promise<RelatedBlog[]> => {
-  const currentSlug = normaliseSlug(slugParam);
+  const currentSlug = canonicaliseSlug(slugParam);
   const blogs = await fetchAllBlogs();
 
   const filtered = blogs.filter((blog) => {
-    const blogSlug = blog.slug ? normaliseSlug(blog.slug) : normaliseSlug(generateSlugFromTitle(blog.title));
+    const blogSlug = blog.slug
+      ? canonicaliseSlug(blog.slug)
+      : canonicaliseSlug(generateSlugFromTitle(blog.title));
     return blogSlug !== currentSlug;
   });
 
@@ -118,7 +118,8 @@ const getRelatedBlogs = async (slugParam: string, limit = 3): Promise<RelatedBlo
 };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const blog = await findBlogBySlug(params.slug);
+  const { slug } = await params;
+  const blog = await findBlogBySlug(slug);
 
   if (!blog) {
     return {
@@ -131,7 +132,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const canonicalSlug = blog.slug || generateSlugFromTitle(blog.title) || params.slug;
+  const canonicalSlug = canonicaliseSlug(blog.slug || generateSlugFromTitle(blog.title) || slug);
   const canonicalUrl = `https://www.credsettle.com/resources/${canonicalSlug}`;
   const descriptionFallback =
     blog.metaDescription || blog.subtitle || stripHtml(blog.description).slice(0, 160);
@@ -159,13 +160,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function BlogPostPage({ params }: PageProps) {
-  const blog = await findBlogBySlug(params.slug);
+  const { slug } = await params;
+  const blog = await findBlogBySlug(slug);
 
   if (!blog) {
     notFound();
   }
 
-  const canonicalSlug = blog.slug || generateSlugFromTitle(blog.title) || params.slug;
+  const canonicalSlug =
+    canonicaliseSlug(blog.slug) ||
+    canonicaliseSlug(generateSlugFromTitle(blog.title)) ||
+    canonicaliseSlug(slug) ||
+    canonicaliseSlug(blog.id) ||
+    blog.id;
   const relatedBlogs = await getRelatedBlogs(canonicalSlug, 3);
 
   const clientBlog = {

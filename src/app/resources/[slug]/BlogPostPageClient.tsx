@@ -160,6 +160,16 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
   }, []);
 
   useEffect(() => {
+    console.debug('[BlogPostPageClient] Page mounted', {
+      canonicalSlug,
+      blogSlug: blog.slug,
+      blogId: blog.id,
+      hasDescription: Boolean(blog.description),
+      relatedCount: relatedBlogs.length
+    });
+  }, [canonicalSlug, blog.slug, blog.id, blog.description, relatedBlogs.length]);
+
+  useEffect(() => {
     if (!blog.description) {
       setProcessedDescription('');
       setHeadings([]);
