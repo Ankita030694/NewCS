@@ -17,7 +17,9 @@ export default function Home() {
     "name": "CredSettle",
     "url": "https://www.credsettle.com",
     "logo": "https://www.credsettle.com/credsettle-logo.svg",
+    "image": "https://www.credsettle.com/credsettle-logo-black.png",
     "description": "India's leading legal loan settlement company specializing in RBI-compliant debt resolution",
+    "telephone": "+91-8800226635",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+91-8800226635",
@@ -65,6 +67,9 @@ export default function Home() {
     },
     "description": "RBI-compliant loan settlement services for credit cards, personal loans, business loans, car loans, app loans, and NBFC loans",
     "serviceType": "Debt Settlement",
+    "priceRange": "INR1500-INR25000",
+    "telephone": "+91-8800226635",
+    "image": "https://www.credsettle.com/hero-bg.png",
     "areaServed": {
       "@type": "Country",
       "name": "India"
