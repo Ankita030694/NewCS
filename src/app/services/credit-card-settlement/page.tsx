@@ -451,7 +451,21 @@ export default function CreditCardSettlementPage() {
 
           {/* States & UT Grid */}
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-3" style={{ gap: '12px' }}>
-            {[
+            {(() => {
+              const stateSpecificRoutes: Record<string, string> = {
+                'Andhra Pradesh': '/services/credit-card-settlement/andhra-pradesh',
+                'Delhi': '/services/credit-card-settlement/delhi',
+                'Gujarat': '/services/credit-card-settlement/gujarat',
+                'Haryana': '/services/credit-card-settlement/haryana',
+                'Karnataka': '/services/credit-card-settlement/karnataka',
+                'Maharashtra': '/services/credit-card-settlement/maharashtra',
+                'Rajasthan': '/services/credit-card-settlement/rajasthan',
+                'Tamil Nadu': '/services/credit-card-settlement/tamil-nadu',
+                'Telangana': '/services/credit-card-settlement/telangana',
+                'Uttar Pradesh': '/services/credit-card-settlement/uttar-pradesh',
+                'West Bengal': '/services/credit-card-settlement/west-bengal'
+              };
+              return [
               'Andaman and Nicobar Islands',
               'Andhra Pradesh',
               'Arunachal Pradesh',
@@ -490,12 +504,13 @@ export default function CreditCardSettlementPage() {
               'West Bengal'
             ].map((state, index) => {
               const slug = state.toLowerCase().replace(/\s+/g, '-');
+              const href = stateSpecificRoutes[state] ?? `/services/credit-card-settlement/${slug}`;
               const metroCities = ['Maharashtra', 'Andhra Pradesh', 'Telangana', 'Karnataka', 'Uttar Pradesh', 'Delhi', 'West Bengal', 'Gujarat', 'Haryana', 'Tamil Nadu', 'Rajasthan'];
               const isMetroCity = metroCities.includes(state);
               return (
                 <a
                   key={index}
-                  href={`/services/credit-card-settlement/${slug}`}
+                  href={href}
                   className="cursor-pointer transition-all duration-200 hover:opacity-80"
                   style={{
                     borderRadius: '24px',
@@ -526,7 +541,8 @@ export default function CreditCardSettlementPage() {
                   </p>
                 </a>
               );
-            })}
+            });
+            })()}
           </div>
         </section>
 

@@ -405,7 +405,21 @@ export default function NBFCLoanSettlementPage() {
 
           {/* States & UT Grid */}
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-3" style={{ gap: '12px' }}>
-            {[
+            {(() => {
+              const stateSpecificRoutes: Record<string, string> = {
+                'Andhra Pradesh': '/services/nbfc-loan-settlement/andhra-pradesh',
+                'Delhi': '/services/nbfc-loan-settlement/delhi',
+                'Gujarat': '/services/nbfc-loan-settlement/gujarat',
+                'Haryana': '/services/nbfc-loan-settlement/haryana',
+                'Karnataka': '/services/nbfc-loan-settlement/karnataka',
+                'Maharashtra': '/services/nbfc-loan-settlement/maharashtra',
+                'Rajasthan': '/services/nbfc-loan-settlement/rajasthan',
+                'Tamil Nadu': '/services/nbfc-loan-settlement/tamil-nadu',
+                'Telangana': '/services/nbfc-loan-settlement/telangana',
+                'Uttar Pradesh': '/services/nbfc-loan-settlement/uttar-pradesh',
+                'West Bengal': '/services/nbfc-loan-settlement/west-bengal'
+              };
+              return [
               'Andaman and Nicobar Islands',
               'Andhra Pradesh',
               'Arunachal Pradesh',
@@ -444,12 +458,13 @@ export default function NBFCLoanSettlementPage() {
               'West Bengal'
             ].map((state, index) => {
               const slug = state.toLowerCase().replace(/\s+/g, '-');
+              const href = stateSpecificRoutes[state] ?? `/services/nbfc-loan-settlement/${slug}`;
               const metroCities = ['Maharashtra', 'Andhra Pradesh', 'Telangana', 'Karnataka', 'Uttar Pradesh', 'Delhi', 'West Bengal', 'Gujarat', 'Haryana', 'Tamil Nadu', 'Rajasthan'];
               const isMetroCity = metroCities.includes(state);
               return (
                 <a
                   key={index}
-                  href={`/services/nbfc-loan-settlement/${slug}`}
+                  href={href}
                   className="cursor-pointer transition-all duration-200 hover:opacity-80"
                   style={{
                     borderRadius: '24px',
@@ -480,7 +495,8 @@ export default function NBFCLoanSettlementPage() {
                   </p>
                 </a>
               );
-            })}
+            });
+            })()}
           </div>
         </section>
 

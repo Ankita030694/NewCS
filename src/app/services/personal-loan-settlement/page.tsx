@@ -858,7 +858,21 @@ export default function PersonalLoanSettlementPage() {
 
           {/* States & UT Grid */}
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-3" style={{ gap: '12px' }}>
-            {[
+            {(() => {
+              const stateSpecificRoutes: Record<string, string> = {
+                'Andhra Pradesh': '/services/personal-loan-settlement/andhra-pradesh',
+                'Delhi': '/services/personal-loan-settlement/delhi',
+                'Gujarat': '/services/personal-loan-settlement/gujarat',
+                'Haryana': '/services/personal-loan-settlement/haryana',
+                'Karnataka': '/services/personal-loan-settlement/karnataka',
+                'Maharashtra': '/services/personal-loan-settlement/maharashtra',
+                'Rajasthan': '/services/personal-loan-settlement/rajasthan',
+                'Tamil Nadu': '/services/personal-loan-settlement/tamil-nadu',
+                'Telangana': '/services/personal-loan-settlement/telangana',
+                'Uttar Pradesh': '/services/personal-loan-settlement/uttar-pradesh',
+                'West Bengal': '/services/personal-loan-settlement/west-bengal'
+              };
+              return [
               'Andaman and Nicobar Islands',
               'Andhra Pradesh',
               'Arunachal Pradesh',
@@ -897,12 +911,13 @@ export default function PersonalLoanSettlementPage() {
               'West Bengal'
             ].map((state, index) => {
               const slug = generateSlug(state);
+              const href = stateSpecificRoutes[state] ?? `/services/personal-loan-settlement/${slug}`;
               const metroCities = ['Maharashtra', 'Andhra Pradesh', 'Telangana', 'Karnataka', 'Uttar Pradesh', 'Delhi', 'West Bengal', 'Gujarat', 'Haryana', 'Tamil Nadu', 'Rajasthan'];
               const isMetroCity = metroCities.includes(state);
               return (
                 <Link
                   key={index}
-                  href={`/services/personal-loan-settlement/${slug}`}
+                  href={href}
                   className="cursor-pointer transition-all duration-200 hover:opacity-80"
                   style={{
                     borderRadius: '24px',
@@ -933,7 +948,8 @@ export default function PersonalLoanSettlementPage() {
                   </p>
                 </Link>
               );
-            })}
+            });
+            })()}
           </div>
         </section>
 
