@@ -78,9 +78,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mx-auto mt-4 md:mt-8 mb-0 pb-0 relative overflow-x-hidden">
+      <div className="w-full max-w-7xl mx-auto mt-4 md:mt-8 mb-0 pb-0 relative overflow-hidden">
         <h2 
-          className="text-center text-5xl md:text-7xl lg:text-[200px] font-normal leading-none -mb-5 md:-mb-12 lg:-mb-[50px] overflow-x-hidden"
+          className="text-center text-[clamp(48px,15vw,200px)] font-normal leading-none -mb-5 md:-mb-12 lg:-mb-[50px] overflow-hidden whitespace-normal break-words w-full max-w-full mx-auto px-4 select-none"
           style={{ 
             background: 'linear-gradient(180deg, #007AFF 0%, #EFF7FF 72.39%)',
             WebkitBackgroundClip: 'text',
@@ -91,7 +91,8 @@ export default function Footer() {
             position: 'relative',
             bottom: 0,
             wordBreak: 'break-word',
-            overflowWrap: 'break-word'
+            overflowWrap: 'anywhere',
+            overflow: 'hidden'
           }}
         >
           CredSettle

@@ -189,11 +189,11 @@ export default function ContactPage() {
     }
   };
   return (
-    <div className="relative min-h-screen bg-white mt-6">
+    <div className="relative min-h-screen bg-white mt-5">
       {/* Background Circle Effect - Chrome/Safari */}
       {!isFirefox && (
         <div 
-          className="absolute top-0 left-0 w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[757px] lg:h-[757px] blur-[100px] md:blur-[200px] lg:blur-[400px]"
+          className="absolute top-0 left-0 w-[240px] h-[240px] md:w-[400px] md:h-[400px] lg:w-[606px] lg:h-[606px] blur-[80px] md:blur-[160px] lg:blur-[320px]"
           style={{
             borderRadius: '50%',
             background: '#007AFF',
@@ -209,7 +209,7 @@ export default function ContactPage() {
       {/* Firefox-specific blur effect */}
       {isFirefox && (
         <div 
-          className="absolute top-0 left-0 w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[757px] lg:h-[757px]"
+          className="absolute top-0 left-0 w-[240px] h-[240px] md:w-[400px] md:h-[400px] lg:w-[606px] lg:h-[606px]"
           style={{
             borderRadius: '50%',
             background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
@@ -224,20 +224,20 @@ export default function ContactPage() {
       <Navbar />
 
       {/* Main Content */}
-      <div className="relative z-10 pt-16 md:pt-20 lg:pt-[100px] px-4 md:px-6 lg:px-[16.2px]">
-        <div className="w-full max-w-8xl mx-auto">
-          <div className="flex flex-col lg:flex-row items-start lg:justify-around gap-8 lg:gap-10">
+      <div className="relative z-10 pt-12 md:pt-16 lg:pt-[80px] px-3 md:px-5 lg:px-[13px]">
+        <div className="w-full max-w-6xl mx-auto relative">
+          <div className="flex flex-col lg:flex-row items-start lg:justify-around gap-6 lg:gap-8">
             {/* Left Sidebar - Contact Information */}
-            <div className="w-full lg:flex-shrink-0 lg:w-[700px] lg:mr-10">
+            <div className="order-2 lg:order-1 w-full lg:flex-shrink-0 lg:w-[560px] lg:mr-8">
               <div 
-                className="inline-block px-4 md:px-6 py-2 md:py-3 mb-4 md:mb-6"
+                className="inline-block px-3 md:px-5 py-1.5 md:py-2.5 mb-3 md:mb-5"
                 style={{
                   borderRadius: '38px',
                   background: '#BFEEFF'
                 }}
               >
                 <h2 
-                  className="text-[11px] md:text-[13px]"
+                  className="text-[9px] md:text-[11px]"
                   style={{
                     color: '#0C2756',
                     fontFamily: 'Poppins',
@@ -250,7 +250,7 @@ export default function ContactPage() {
                 </h2>
               </div>
               <h3 
-                className="mb-3 md:mb-4 text-2xl md:text-3xl lg:text-[45px] leading-tight md:leading-tight lg:leading-[65px]"
+                className="mb-2.5 md:mb-3 text-xl md:text-2xl lg:text-[36px] leading-tight md:leading-tight lg:leading-[52px]"
                 style={{
                   color: '#0C2756',
                   fontFamily: 'Poppins',
@@ -261,7 +261,7 @@ export default function ContactPage() {
                 Let's Get in Touch
               </h3>
               <p 
-                className="mb-4 md:mb-6 text-base md:text-lg lg:text-[20px] leading-5 md:leading-6 lg:leading-[25px]"
+                className="mb-3 md:mb-5 text-sm md:text-base lg:text-[16px] leading-5 md:leading-6 lg:leading-[20px]"
                 style={{
                   color: 'rgba(12, 39, 86, 0.70)',
                   fontFamily: 'Poppins',
@@ -272,7 +272,7 @@ export default function ContactPage() {
                 Or just reach out manually at info@credsettle.com
               </p>
               <h4 
-                className="mb-3 md:mb-4 text-xl md:text-2xl lg:text-[28px] leading-tight"
+                className="mb-2.5 md:mb-3 text-lg md:text-xl lg:text-[22px] leading-tight"
                 style={{
                   color: '#0C2756',
                   fontFamily: 'Poppins',
@@ -282,57 +282,57 @@ export default function ContactPage() {
               >
                 Reach Out to us
               </h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                 <div 
-                  className="relative overflow-hidden flex gap-4 md:gap-5 p-5 md:p-8 rounded-[30px] min-h-[160px]"
+                  className="relative overflow-hidden flex gap-3 md:gap-4 p-4 md:p-6 rounded-[24px] min-h-[128px]"
                   style={{
                     background: '#EFF7FF',
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
-                    <img src="/contact1.png" alt="Email CredSettle for Loan Settlement Consultation" className="w-20 h-20 md:w-24 md:h-24" />
+                    <img src="/contact1.png" alt="Email CredSettle for Loan Settlement Consultation" className="w-16 h-16 md:w-20 md:h-20" />
                   </div>
                   <div className="flex flex-col relative z-10">
-                    <span className="text-xs md:text-sm text-[rgba(12,39,86,0.70)]">Email Us</span>
-                    <span className="text-sm md:text-base text-[#0C2756] font-medium">General Inquiries</span>
-                    <a href="mailto:info@credsettle.com" className="text-xs md:text-sm text-[#0C2756] underline-offset-2 hover:underline mt-2">
+                    <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Email Us</span>
+                    <span className="text-xs md:text-sm text-[#0C2756] font-medium">General Inquiries</span>
+                    <a href="mailto:info@credsettle.com" className="text-[10px] md:text-xs text-[#0C2756] underline-offset-2 hover:underline mt-1.5">
                       info@credsettle.com
                     </a>
                   </div>
                 </div>
                 <div 
-                  className="relative overflow-hidden flex gap-4 md:gap-5 p-5 md:p-8 rounded-[30px] min-h-[160px]"
+                  className="relative overflow-hidden flex gap-3 md:gap-4 p-4 md:p-6 rounded-[24px] min-h-[128px]"
                   style={{
                     background: '#EFF7FF',
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
-                    <img src="/contact2.png" alt="Call CredSettle for Loan Settlement Support" className="w-20 h-20 md:w-24 md:h-24 rotate-90" />
+                    <img src="/contact2.png" alt="Call CredSettle for Loan Settlement Support" className="w-16 h-16 md:w-20 md:h-20 rotate-90" />
                   </div>
                   <div className="flex flex-col relative z-10">
-                    <span className="text-xs md:text-sm text-[rgba(12,39,86,0.70)]">Call Us</span>
-                    <span className="text-sm md:text-base text-[#0C2756] font-medium">Customer Support</span>
-                    <a href="tel:+918800226635" className="text-xs md:text-sm text-[#0C2756] underline-offset-2 hover:underline mt-2">
+                    <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Call Us</span>
+                    <span className="text-xs md:text-sm text-[#0C2756] font-medium">Customer Support</span>
+                    <a href="tel:+918800226635" className="text-[10px] md:text-xs text-[#0C2756] underline-offset-2 hover:underline mt-1.5">
                       +91 8800226635
                     </a>
                   </div>
                 </div>
                 <div 
-                  className="relative overflow-hidden flex gap-4 md:gap-5 p-5 md:p-8 rounded-[30px] sm:col-span-2 min-h-[160px]"
+                  className="relative overflow-hidden flex gap-3 md:gap-4 p-4 md:p-6 rounded-[24px] sm:col-span-2 min-h-[128px]"
                   style={{
                     background: '#EFF7FF',
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
-                    <img src="/contact3.png" alt="CredSettle Office Address in Gurugram" className="w-20 h-20 md:w-24 md:h-24" />
+                    <img src="/contact3.png" alt="CredSettle Office Address in Gurugram" className="w-16 h-16 md:w-20 md:h-20" />
                   </div>
-                  <div className="flex flex-col relative z-10 max-w-[360px]">
-                    <span className="text-xs md:text-sm text-[rgba(12,39,86,0.70)]">Our Address</span>
-                    <span className="text-sm md:text-base text-[#0C2756] font-medium">Visit Our Hub</span>
-                    <p className="text-xs md:text-sm text-[#0C2756] leading-relaxed mt-2">
+                  <div className="flex flex-col relative z-10 max-w-[288px]">
+                    <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Our Address</span>
+                    <span className="text-xs md:text-sm text-[#0C2756] font-medium">Visit Our Hub</span>
+                    <p className="text-[10px] md:text-xs text-[#0C2756] leading-relaxed mt-1.5">
                       4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
                     </p>
                   </div>
@@ -341,19 +341,19 @@ export default function ContactPage() {
             </div>
 
             {/* Right Side - Contact Form */}
-            <div className="w-full lg:flex-shrink-0 lg:w-[600px]">
+            <div className="order-1 lg:order-2 w-full lg:flex-shrink-0 lg:w-[480px]">
               <div 
-                className="flex flex-col p-4 md:p-8 lg:p-[52px_40px] gap-4 md:gap-6 lg:gap-[10px] rounded-2xl md:rounded-3xl lg:rounded-[40px]"
+                className="flex flex-col p-3 md:p-6 lg:p-[42px_32px] gap-3 md:gap-4 lg:gap-[8px] rounded-xl md:rounded-2xl lg:rounded-[32px]"
                 style={{
                   background: '#EFF7FF',
-                  boxShadow: '0 4px 10.3px 0 rgba(255, 255, 255, 0.25) inset, 4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+                  boxShadow: '0 3px 8.2px 0 rgba(255, 255, 255, 0.25) inset, 3px 3px 12.3px 0 rgba(0, 0, 0, 0.10)',
                   width: '100%',
-                  maxWidth: '600px'
+                  maxWidth: '480px'
                 }}
               >
-                <form onSubmit={onSubmit} className="space-y-4 md:space-y-6 w-full">
+                <form onSubmit={onSubmit} className="space-y-3 md:space-y-4 w-full">
                   <div>
-                    <label htmlFor="name" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="name" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Name
                     </label>
                     <input 
@@ -362,15 +362,15 @@ export default function ContactPage() {
                       name="name"
                       value={formData.name}
                       onChange={handleNameInput}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-xs md:text-sm"
                       placeholder="Name"
                     />
                     {errors.name && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.name}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.name}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="number" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="number" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Number
                     </label>
                     <input 
@@ -379,18 +379,18 @@ export default function ContactPage() {
                       name="number"
                       value={formData.number}
                       onChange={handleNumberInput}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-xs md:text-sm"
                       placeholder="Number"
                     />
                     {errors.number && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.number}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.number}</p>
                     )}
                     {numberError && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{numberError}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{numberError}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="email" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="email" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Email ID
                     </label>
                     <input 
@@ -399,15 +399,15 @@ export default function ContactPage() {
                       name="email"
                       value={formData.email}
                       onChange={handleEmailInput}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-xs md:text-sm"
                       placeholder="example@gmail.com"
                     />
                     {errors.email && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.email}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.email}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="city" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="city" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> City
                     </label>
                     <select
@@ -415,7 +415,7 @@ export default function ContactPage() {
                       name="city"
                       value={formData.city}
                       onChange={handleInputChange}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
                     >
                       <option value="">Select City</option>
                       {[
@@ -466,11 +466,11 @@ export default function ContactPage() {
                       ))}
                     </select>
                     {errors.city && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.city}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.city}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="employmentStatus" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="employmentStatus" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Employment Status
                     </label>
                     <select
@@ -478,7 +478,7 @@ export default function ContactPage() {
                       name="employmentStatus"
                       value={formData.employmentStatus}
                       onChange={handleInputChange}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
                     >
                       <option value="">Select</option>
                       {[
@@ -493,11 +493,11 @@ export default function ContactPage() {
                       ))}
                     </select>
                     {errors.employmentStatus && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.employmentStatus}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.employmentStatus}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="monthlyIncome" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="monthlyIncome" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Monthly Income
                     </label>
                     <select
@@ -505,7 +505,7 @@ export default function ContactPage() {
                       name="monthlyIncome"
                       value={formData.monthlyIncome}
                       onChange={handleInputChange}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
                     >
                       <option value="">Select</option>
                       {[
@@ -521,11 +521,11 @@ export default function ContactPage() {
                       ))}
                     </select>
                     {errors.monthlyIncome && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.monthlyIncome}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.monthlyIncome}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="harassment" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="harassment" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Facing Harassment?
                     </label>
                     <select
@@ -533,7 +533,7 @@ export default function ContactPage() {
                       name="harassment"
                       value={formData.harassment}
                       onChange={handleInputChange}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
                     >
                       <option value="">Select</option>
                       {['Yes', 'No'].map((harassment) => (
@@ -543,11 +543,11 @@ export default function ContactPage() {
                       ))}
                     </select>
                     {errors.harassment && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.harassment}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.harassment}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="creditCardDues" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="creditCardDues" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Total Credit Card Dues?
                     </label>
                     <select
@@ -555,7 +555,7 @@ export default function ContactPage() {
                       name="creditCardDues"
                       value={formData.creditCardDues}
                       onChange={handleInputChange}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
                     >
                       <option value="">Select</option>
                       {[
@@ -572,11 +572,11 @@ export default function ContactPage() {
                       ))}
                     </select>
                     {errors.creditCardDues && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.creditCardDues}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.creditCardDues}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="personalLoanDues" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="personalLoanDues" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Total Personal Loan Dues?
                     </label>
                     <select
@@ -584,7 +584,7 @@ export default function ContactPage() {
                       name="personalLoanDues"
                       value={formData.personalLoanDues}
                       onChange={handleInputChange}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
                     >
                       <option value="">Select</option>
                       {[
@@ -601,11 +601,11 @@ export default function ContactPage() {
                       ))}
                     </select>
                     {errors.personalLoanDues && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.personalLoanDues}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.personalLoanDues}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="canPay" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="canPay" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       <span style={{ color: 'red' }}>*</span> Can you pay 2,000 to 5,000 to start the process?
                     </label>
                     <select
@@ -613,7 +613,7 @@ export default function ContactPage() {
                       name="canPay"
                       value={formData.canPay}
                       onChange={handleInputChange}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
                     >
                       <option value="">Select</option>
                       {['Yes', 'No'].map((option) => (
@@ -623,11 +623,11 @@ export default function ContactPage() {
                       ))}
                     </select>
                     {errors.canPay && (
-                      <p className="text-xs md:text-sm mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.canPay}</p>
+                      <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.canPay}</p>
                     )}
                   </div>
                   <div>
-                    <label htmlFor="queries" className="block mb-1 text-sm md:text-base" style={{ color: '#0C2756' }}>
+                    <label htmlFor="queries" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
                       Your Queries
                     </label>
                     <textarea 
@@ -636,21 +636,28 @@ export default function ContactPage() {
                       value={formData.queries}
                       onChange={handleInputChange}
                       rows={3}
-                      className="w-full px-1 py-1 md:py-2 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 resize-none placeholder-[rgba(12,39,86,0.70)] text-black text-sm md:text-base"
+                      className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 resize-none placeholder-[rgba(12,39,86,0.70)] text-black text-xs md:text-sm"
                       placeholder="Your Queries"
                     />
                   </div>
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full text-white font-medium py-2.5 md:py-3 px-4 md:px-6 text-sm md:text-base hover:bg-[#0056CC] transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed rounded-[37px]"
+                    className="w-full text-white font-medium py-2 md:py-2.5 px-3 md:px-4 text-xs md:text-sm hover:bg-[#0056CC] transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed rounded-[30px]"
                     style={{
                       background: '#007AFF',
-                      boxShadow: '0 1px 6.8px 0 rgba(0, 0, 0, 0.35), 0 -4px 4px 0 rgba(255, 255, 255, 0.25) inset, 0 4px 4px 0 rgba(255, 255, 255, 0.25) inset'
+                      boxShadow: '0 0.8px 5.4px 0 rgba(0, 0, 0, 0.35), 0 -3.2px 3.2px 0 rgba(255, 255, 255, 0.25) inset, 0 3.2px 3.2px 0 rgba(255, 255, 255, 0.25) inset'
                     }}
                   >
                     {loading ? 'Submitting...' : 'SUBMIT'}
                   </button>
+                  <div className="flex items-center justify-center gap-2 mt-4 md:mt-5">
+                    
+                    <span className="text-xs md:text-sm lg:text-base font-medium tracking-wide" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>
+                      Powered by
+                    </span>
+                    <img src="/payu.png" alt="PayU" className="w-24 h-5 md:w-24 md:h-20 object-contain -ml-7" />
+                  </div>
                 </form>
               </div>
             </div>
@@ -659,7 +666,7 @@ export default function ContactPage() {
 
       </div>
       
-      <div className="mt-12 md:mt-16 lg:mt-[100px]">
+      <div className="mt-10 md:mt-12 lg:mt-[80px]">
         <Footer />
       </div>
     </div>
