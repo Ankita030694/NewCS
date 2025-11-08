@@ -4,6 +4,38 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/react-splide/css';
 
+const BANK_LOGO_FILENAMES = [
+  '83',
+  '79',
+  '74',
+  '65',
+  '63',
+  '62',
+  '61',
+  '60',
+  '55',
+  '46',
+  '45',
+  '44',
+  '43',
+  '42',
+  '41',
+  '40',
+  '37',
+  '34',
+  '22',
+  '21',
+  '20',
+  '17',
+  '16',
+  '13',
+  '9',
+  '7',
+  '5',
+  '4',
+  '2'
+] as const;
+
 // Hamburger Icon Component
 const HamburgerIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" viewBox="0 0 32 20" fill="none">
@@ -43,13 +75,7 @@ export default function HeroSection() {
   }, [isMenuOpen]);
 
   // Generate sequential bank indices initially (for SSR)
-  const generateBankIndices = () => {
-    const indices = [];
-    for (let i = 1; i <= 83; i++) {
-      indices.push(i);
-    }
-    return indices;
-  };
+  const generateBankIndices = () => [...BANK_LOGO_FILENAMES];
   
   const [bankIndices, setBankIndices] = useState(generateBankIndices());
   

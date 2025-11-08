@@ -159,7 +159,7 @@ export default function ServicesPageClient() {
                   </div>
                   
                   {/* View More Button - Bottom Right */}
-                  <div className="flex justify-end mt-6">
+                  <div className="flex justify-end mt-1">
                     <a 
                       href="/services/anti-harassment"
                       className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"

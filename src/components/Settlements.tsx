@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback } from 'react';
 
+const settlementLetters = ['/letter1.png', '/letter2.png', '/letter3.png', '/letter4.png'] as const;
+
 export default function Settlements() {
   const [selectedBank, setSelectedBank] = useState<string | null>(null);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -11,29 +13,29 @@ export default function Settlements() {
   const [isHovering, setIsHovering] = useState(false);
 
   const bankCards = [
-    { id: 'bank1', x: 130, y: 23, src: '/banks/2.svg' },
-    { id: 'bank2', x: 0, y: 67, src: '/banks/7.svg' },
-    { id: 'bank3', x: 0, y: 198, src: '/banks/3.svg' },
-    { id: 'bank4', x: 261, y: 243, src: '/banks/4.svg' },
-    { id: 'bank5', x: 130, y: 153, src: '/banks/6.svg' },
-    { id: 'bank6', x: 130, y: 284, src: '/banks/8.svg' },
-    { id: 'bank7', x: 261, y: 113, src: '/banks/11.svg' }
+    { id: 'bank1', src: '/banks/7.svg', letter: settlementLetters[0] },
+    { id: 'bank2', src: '/banks/40.svg', letter: settlementLetters[1] },
+    { id: 'bank3', src: '/banks/37.svg', letter: settlementLetters[2] },
+    { id: 'bank4', src: '/banks/74.svg', letter: settlementLetters[3] },
+    { id: 'bank5', src: '/banks/60.svg' },
+    { id: 'bank6', src: '/banks/41.svg' },
+    { id: 'bank7', src: '/banks/45.svg' }
   ];
 
   const handleBankClick = (bankId: string) => {
     if (isAnimating) return;
     
+    const bank = bankCards.find((card) => card.id === bankId);
+    const selectedLetter =
+      bank?.letter ?? settlementLetters[Math.floor(Math.random() * settlementLetters.length)];
+
     setSelectedBank(bankId);
     setIsAnimating(true);
     setShowLetter(false); // Hide letter initially
     
-    // Randomly select a settlement letter
-    const letters = ['/letter1.png', '/letter2.png', '/letter3.png', '/letter4.png'];
-    const randomLetter = letters[Math.floor(Math.random() * letters.length)];
-    
     // Show letter after all line animations complete (2400ms total: 1200ms left lines + 1200ms right line)
     setTimeout(() => {
-      setSettlementLetter(randomLetter);
+      setSettlementLetter(selectedLetter);
       setShowLetter(true);
     }, 2400);
     
@@ -141,7 +143,7 @@ export default function Settlements() {
             onClick={() => handleBankClick('bank1')}
           >
             <img 
-              src="/banks/2.svg" 
+              src={bankCards[0].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               style={{ width: '100px', height: '54px' }}
             />
@@ -162,7 +164,7 @@ export default function Settlements() {
             onClick={() => handleBankClick('bank2')}
           >
             <img 
-              src="/banks/7.svg" 
+              src={bankCards[1].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               style={{ width: '100px', height: '54px' }}
             />
@@ -257,7 +259,7 @@ export default function Settlements() {
             onClick={() => handleBankClick('bank3')}
           >
             <img 
-              src="/banks/3.svg" 
+              src={bankCards[2].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               style={{ width: '100px', height: '54px' }}
             />
@@ -278,7 +280,7 @@ export default function Settlements() {
             onClick={() => handleBankClick('bank4')}
           >
             <img 
-              src="/banks/4.svg" 
+              src={bankCards[3].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               style={{ width: '92px', height: '18px' }}
             />
@@ -299,7 +301,7 @@ export default function Settlements() {
             onClick={() => handleBankClick('bank5')}
           >
             <img 
-              src="/banks/6.svg" 
+              src={bankCards[4].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               style={{ width: '100px', height: '54px' }}
             />
@@ -320,7 +322,7 @@ export default function Settlements() {
             onClick={() => handleBankClick('bank6')}
           >
             <img 
-              src="/banks/8.svg" 
+              src={bankCards[5].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               style={{ width: '100px', height: '54px' }}
             />
@@ -368,7 +370,7 @@ export default function Settlements() {
             onClick={() => handleBankClick('bank7')}
           >
             <img 
-              src="/banks/11.svg" 
+              src={bankCards[6].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               style={{ width: '151px', height: '81px', marginLeft: '8px', marginTop: '0' }}
             />
@@ -397,6 +399,7 @@ export default function Settlements() {
             {showLetter ? (
               <>
                 <img 
+                  draggable={false}
                   src={settlementLetter} 
                   alt="Settlement Letter" 
                   className="letter-image"
@@ -410,7 +413,8 @@ export default function Settlements() {
                     transform: isHovering ? `scale(2.2)` : 'scale(1)',
                     transformOrigin: mousePosition.x > 0 && mousePosition.y > 0 ? `${mousePosition.x}px ${mousePosition.y}px` : 'center',
                     willChange: 'transform',
-                    pointerEvents: 'none'
+                    pointerEvents: 'none',
+                    userSelect: 'none'
                   }}
                 />
                 <div 
@@ -541,7 +545,10 @@ export default function Settlements() {
             Settled & Debt-Free: Client Proof
           </h2>
 
-          <div className="relative w-full max-w-[400px] mx-auto overflow-x-hidden" style={{ height: '635px' }}>
+          <div
+            className="relative w-full max-w-[400px] mx-auto overflow-x-hidden"
+            style={{ height: '635px', overflow: 'hidden' }}
+          >
             {/* Bank Logo 1 - Top Left */}
             <div
               className="bank-card-mobile absolute flex items-center justify-center cursor-pointer active:scale-95 transition-transform duration-200"
@@ -558,7 +565,7 @@ export default function Settlements() {
               onClick={() => handleBankClick('bank1')}
             >
               <img
-                src="/banks/2.svg"
+                src={bankCards[0].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 style={{ width: '94px', height: '51px' }}
               />
@@ -580,7 +587,7 @@ export default function Settlements() {
               onClick={() => handleBankClick('bank2')}
             >
               <img
-                src="/banks/7.svg"
+                src={bankCards[1].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 style={{ width: '74px', height: '40px' }}
               />
@@ -602,7 +609,7 @@ export default function Settlements() {
               onClick={() => handleBankClick('bank3')}
             >
               <img
-                src="/banks/4.svg"
+                src={bankCards[2].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 style={{ width: '75px', height: '40px' }}
               />
@@ -624,7 +631,7 @@ export default function Settlements() {
               onClick={() => handleBankClick('bank4')}
             >
               <img
-                src="/banks/3.svg"
+                src={bankCards[3].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 style={{ width: '75px', height: '14px' }}
               />
@@ -646,7 +653,7 @@ export default function Settlements() {
               onClick={() => handleBankClick('bank5')}
             >
               <img
-                src="/banks/6.svg"
+                src={bankCards[4].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 style={{ width: '75px', height: '40px' }}
               />
@@ -668,11 +675,33 @@ export default function Settlements() {
               onClick={() => handleBankClick('bank6')}
             >
               <img
-                src="/banks/11.svg"
+                src={bankCards[5].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 style={{ width: '92px', height: '50px' }}
               />
             </div>
+
+          {/* Bank Logo 7 - Bottom Right */}
+          <div
+            className="bank-card-mobile absolute flex items-center justify-center cursor-pointer active:scale-95 transition-transform duration-200"
+            style={{
+              width: '100px',
+              height: '100px',
+              left: '220px',
+              top: '210px',
+              borderRadius: '25px',
+              background: '#FFF',
+              boxShadow: '4px 4px 20.7px 0 rgba(0, 0, 0, 0.20)',
+              padding: '24px 8px'
+            }}
+            onClick={() => handleBankClick('bank7')}
+          >
+            <img
+              src={bankCards[6].src}
+              alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+              style={{ width: '85px', height: '48px' }}
+            />
+          </div>
 
             {/* SVG Lines - Right Side */}
             <svg
@@ -786,12 +815,15 @@ export default function Settlements() {
               {showLetter ? (
                 <>
                   <img
+                    draggable={false}
                     src={settlementLetter}
                     alt="Settlement Letter"
                     className="w-full h-full object-cover"
                     style={{
                       borderRadius: '30px',
-                      animation: 'fadeInLetter 0.3s ease-out forwards'
+                      animation: 'fadeInLetter 0.3s ease-out forwards',
+                      pointerEvents: 'none',
+                      userSelect: 'none'
                     }}
                   />
                   <div

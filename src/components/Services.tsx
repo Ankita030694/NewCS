@@ -7,6 +7,7 @@ export default function Services() {
         {/* Desktop Version - Top Section: Badge and Heading */}
         <div className="hidden md:flex justify-between items-start mb-8">
           {/* Left: Badge with Breathing Dot Inside */}
+          <a href="/services">
           <div 
             className="px-4 py-2 rounded-full text-sm font-medium flex items-center gap-3"
             style={{ 
@@ -26,6 +27,7 @@ export default function Services() {
             ></div>
             See All services
           </div>
+          </a>
 
           {/* Right: Heading and Description */}
           <div className="flex-1 ml-8">
