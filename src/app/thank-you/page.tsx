@@ -103,7 +103,7 @@ export default function ThankYouPage() {
                     }}
                   >
                     Jump the queue and get a response in just<br />
-                    4 hours instead of <strong>24</strong> — for only <strong>₹11!</strong>
+                    4 hours instead of <strong>24 hours</strong> - for only <strong>₹11!</strong>
                   </p>
 
                   {/* Benefits with checkmarks and Priority processing box side by side */}
@@ -173,12 +173,12 @@ export default function ThankYouPage() {
                         }}
                       >
                         <div
-                          className="text-[10px] md:text-xs font-medium"
+                          className="text-[10px] md:text-xl font-medium"
                           style={{ color: '#2D2D2D' }}
                         >
                           Priority processing<br />
                           available for<br />
-                          the next <strong style={{ color: 'red', fontSize: '13px' }}>{formatTime(timeLeft)}</strong>
+                          the next <strong style={{ color: 'red', fontSize: '22px' }}>{formatTime(timeLeft)}</strong>
                         </div>
                       </div>
                     </div>
