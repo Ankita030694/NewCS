@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import CTAButton from './CTAButton';
 import { FAQItem, homeFaqItems } from '@/data/faq';
 
 interface FAQProps {
@@ -117,16 +118,9 @@ const FAQ = ({ items = homeFaqItems }: FAQProps) => {
               </div>
 
               {/* CTA Button */}
-              <button
-                className="px-6 md:px-[28px] py-3 md:py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90 w-full max-w-[280px] md:max-w-none"
-                style={{
-                  boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset'
-                }}
-              >
-                <span className="text-[12px] md:text-[13px] lg:text-[14px] leading-[12px] md:leading-[13px] lg:leading-[14px] font-normal" style={{ color: '#0C2756' }}>
-                  Get Your Free Consultation
-                </span>
-              </button>
+              <CTAButton className="w-full max-w-[280px] md:max-w-none">
+                Get Your Free Consultation
+              </CTAButton>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BanksGrid from '@/components/BanksGrid';
 import FAQWithSchema from '@/components/FAQWithSchema';
+import CTAButton from '@/components/CTAButton';
 import { useEffect, useState } from 'react';
 
 export default function CreditCardSettlementPage() {
@@ -586,7 +587,9 @@ export default function CreditCardSettlementPage() {
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>Ready to Close Your Credit Card Legally?</h2>
                     <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Secure an RBI-compliant One-Time Settlement and end compounding interest—start today.</p>
                   </div>
-                  <button className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90" style={{ boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset' }}><span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal" style={{ color: '#0C2756' }}>Get Your Free Consultation</span></button>
+                  <CTAButton>
+                    Get Your Free Consultation
+                  </CTAButton>
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   return (
@@ -13,19 +13,26 @@ export default function Footer() {
                 Settle your loans and credit card debt easily with CredSettle. Get debt relief, loan waivers & protection from harassment by recovery agents in India.
               </p>
               <div className="flex items-center gap-3 md:gap-4">
-                <FontAwesomeIcon 
-                  icon={faXTwitter} 
-                  className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity" 
-                />
+                <a href="https://www.linkedin.com/company/credsettle/" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon 
+                    icon={faLinkedin} 
+                    className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity" 
+                  />
+                </a>
+                <a href="https://www.facebook.com/people/CredSettle/61572589389799/">
                 <FontAwesomeIcon 
                   icon={faFacebook} 
                   className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity" 
                 />
+                </a>
+                <a href="https://www.instagram.com/credsettle/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon 
                   icon={faInstagram} 
                   className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity" 
                 />
+                </a>
               </div>
+
             </div>
 
             <div className="flex flex-col sm:flex-row gap-8 md:gap-12 lg:gap-[60px] w-full lg:w-auto">

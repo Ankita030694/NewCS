@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
+import CTAButton from '@/components/CTAButton';
 
 export default function WestBengalPageClient() {
   const [isFirefox, setIsFirefox] = useState(false);
@@ -662,19 +663,9 @@ export default function WestBengalPageClient() {
                     </p>
                   </div>
 
-                  <button
-                    className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90"
-                    style={{
-                      boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset'
-                    }}
-                  >
-                    <span
-                      className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal"
-                      style={{ color: '#0C2756' }}
-                    >
-                      Get Your Free Consultation Now
-                    </span>
-                  </button>
+                  <CTAButton>
+                    Get Your Free Consultation Now
+                  </CTAButton>
                 </div>
               </div>
             </div>

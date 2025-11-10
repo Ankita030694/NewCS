@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -114,6 +115,7 @@ export default function RootLayout({
           />
         </noscript>
         {children}
+        {/* <WhatsAppWidget /> */}
       </body>
     </html>
   );

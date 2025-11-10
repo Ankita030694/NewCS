@@ -337,6 +337,7 @@ export default function ContactPage() {
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
                     <img src="/contact1.png" alt="Email CredSettle for Loan Settlement Consultation" className="w-16 h-16 md:w-20 md:h-20" />
                   </div>
+                  <a href="mailto:info@credsettle.com" target="_blank" rel="noopener noreferrer">
                   <div className="flex flex-col relative z-10">
                     <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Email Us</span>
                     <span className="text-xs md:text-sm text-[#0C2756] font-medium">General Inquiries</span>
@@ -344,6 +345,7 @@ export default function ContactPage() {
                       info@credsettle.com
                     </a>
                   </div>
+                  </a>
                 </div>
                 <div 
                   className="relative overflow-hidden flex gap-3 md:gap-4 p-4 md:p-6 rounded-[24px] min-h-[128px]"
@@ -355,6 +357,7 @@ export default function ContactPage() {
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
                     <img src="/contact2.png" alt="Call CredSettle for Loan Settlement Support" className="w-16 h-16 md:w-20 md:h-20 rotate-90" />
                   </div>
+                  <a href="tel:+918800226635" target="_blank" rel="noopener noreferrer">
                   <div className="flex flex-col relative z-10">
                     <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Call Us</span>
                     <span className="text-xs md:text-sm text-[#0C2756] font-medium">Customer Support</span>
@@ -362,6 +365,7 @@ export default function ContactPage() {
                       +91 8800226635
                     </a>
                   </div>
+                  </a>
                 </div>
                 <div 
                   className="relative overflow-hidden flex gap-3 md:gap-4 p-4 md:p-6 rounded-[24px] sm:col-span-2 min-h-[128px]"
@@ -595,11 +599,11 @@ export default function ContactPage() {
                     >
                       <option value="">Select</option>
                       {[
-                        '10,000 - 50,000',
-                        '50,000 - 1,00,000',
-                        '1,00,000 - 3,00,000',
-                        '3,00,000 - 5,00,000',
-                        '5,00,000 or above',
+                        '₹10,000 - ₹50,000',
+                        '₹50,000 - ₹1,00,000',
+                        '₹1,00,000 - ₹3,00,000',
+                        '₹3,00,000 - ₹5,00,000',
+                        '₹5,00,000 or above',
                       ].map((status) => (
                         <option key={status} value={status}>
                           {status}
@@ -645,12 +649,12 @@ export default function ContactPage() {
                     >
                       <option value="">Select</option>
                       {[
-                        '1,00,000 - 2,00,000',
-                        '2,00,000 - 3,00,000',
-                        '3,00,000 - 4,00,000',
-                        '4,00,000 - 5,00,000',
-                        '5,00,000 - 10,00,000',
-                        '10,00,000 or above',
+                        '₹1,00,000 - ₹2,00,000',
+                        '₹2,00,000 - ₹3,00,000',
+                        '₹3,00,000 - ₹4,00,000',
+                        '₹4,00,000 - ₹5,00,000',
+                        '₹5,00,000 - ₹10,00,000',
+                        '₹10,00,000 or above',
                       ].map((status) => (
                         <option key={status} value={status}>
                           {status}
@@ -674,12 +678,12 @@ export default function ContactPage() {
                     >
                       <option value="">Select</option>
                       {[
-                        '1,00,000 - 2,00,000',
-                        '2,00,000 - 3,00,000',
-                        '3,00,000 - 4,00,000',
-                        '4,00,000 - 5,00,000',
-                        '5,00,000 - 10,00,000',
-                        '10,00,000 or above',
+                        '₹1,00,000 - ₹2,00,000',
+                        '₹2,00,000 - ₹3,00,000',
+                        '₹3,00,000 - ₹4,00,000',
+                        '₹4,00,000 - ₹5,00,000',
+                        '₹5,00,000 - ₹10,00,000',
+                        '₹10,00,000 or above',
                       ].map((status) => (
                         <option key={status} value={status}>
                           {status}
@@ -692,7 +696,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <label htmlFor="canPay" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-                      <span style={{ color: 'red' }}>*</span> Can you pay 2,000 to 5,000 to start the process?
+                      <span style={{ color: 'red' }}>*</span> Can you pay ₹2,000 to ₹5,000 to start the process?
                     </label>
                     <select
                       id="canPay"

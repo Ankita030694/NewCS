@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
+import CTAButton from '@/components/CTAButton';
 import { BankContent } from '../../banks-content';
 
 interface BankPageClientProps {
@@ -383,17 +384,9 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     </div>
 
                     {/* CTA Button */}
-                    <button
-                      className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90 cursor-pointer"
-                      style={{
-                        boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset'
-                      }}
-                      onClick={() => window.location.href = '/contact'}
-                    >
-                      <span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal" style={{ color: '#0C2756' }}>
-                        Talk to a Legal Expert Today
-                      </span>
-                    </button>
+                    <CTAButton>
+                      Talk to a Legal Expert Today
+                    </CTAButton>
                   </div>
                 </div>
               </div>

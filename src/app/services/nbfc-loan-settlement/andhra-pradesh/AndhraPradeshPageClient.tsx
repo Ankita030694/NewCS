@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import TableOfContents from '@/components/TableOfContents';
 import FAQWithSchema from '@/components/FAQWithSchema';
+import CTAButton from '@/components/CTAButton';
 
 const heroCopy = {
   title: 'NBFC Loan Settlement in Andhra Pradesh – Coastal Clarity, Legal Closure',
@@ -357,17 +358,9 @@ function AndhraPradeshPageClient() {
                     </p>
                   </div>
 
-                  <button
-                    className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90"
-                    style={{ boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset' }}
-                  >
-                    <span
-                      className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal"
-                      style={{ color: '#0C2756' }}
-                    >
-                      Book a Free Consultation
-                    </span>
-                  </button>
+                  <CTAButton>
+                    Book a Free Consultation
+                  </CTAButton>
                 </div>
               </div>
             </div>

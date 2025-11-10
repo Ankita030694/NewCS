@@ -6,6 +6,7 @@ import BanksGrid from '@/components/BanksGrid';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedContent from '@/components/RelatedContent';
 import FAQWithSchema from '@/components/FAQWithSchema';
+import CTAButton from '@/components/CTAButton';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { generateSlug } from './states-content';
@@ -1012,16 +1013,9 @@ export default function PersonalLoanSettlementPageClient() {
                   </div>
 
                   {/* CTA Button */}
-                  <button
-                    className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90"
-                    style={{
-                      boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset'
-                    }}
-                  >
-                    <span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal" style={{ color: '#0C2756' }}>
-                      Get Your Free Consultation
-                    </span>
-                  </button>
+                  <CTAButton>
+                    Get Your Free Consultation
+                  </CTAButton>
                 </div>
               </div>
             </div>

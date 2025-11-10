@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import TableOfContents from '@/components/TableOfContents';
 import RelatedContent from '@/components/RelatedContent';
+import CTAButton from '@/components/CTAButton';
 
 type FAQ = {
   question: string;
@@ -493,21 +494,9 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                     </p>
                   </div>
 
-                  <button
-                    type="button"
-                    className="px-6 md:px-7 lg:px-[28px] py-3 md:py-3.5 lg:py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90 cursor-pointer"
-                    style={{ boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset' }}
-                    onClick={() => {
-                      window.location.href = '/contact';
-                    }}
-                  >
-                    <span
-                      className="text-xs md:text-sm lg:text-[14px] leading-normal font-normal"
-                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                    >
-                      Get Your Free Consultation
-                    </span>
-                  </button>
+                  <CTAButton className="px-6 md:px-7 lg:px-[28px] py-3 md:py-3.5 lg:py-[14px]">
+                    Get Your Free Consultation
+                  </CTAButton>
                 </div>
               </div>
             </div>
