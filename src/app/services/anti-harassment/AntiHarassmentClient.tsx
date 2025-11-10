@@ -560,26 +560,6 @@ export default function AntiHarassmentClient() {
 
   return (
     <>
-      {/* FAQ Schema Markup */}
-      <Script
-        id="faq-schema-anti-harassment"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: faqs.map((faq) => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer
-              }
-            }))
-          })
-        }}
-      />
-
       <div className="relative min-h-screen bg-white mt-6">
         {/* Background Circle Effect - Chrome/Safari */}
         {!isFirefox && (

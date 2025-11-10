@@ -133,7 +133,7 @@ const Testimonials = () => {
                   <img
                     src={testimonial.image}
                     alt={`${testimonial.name} testimonial`}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
 
