@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import Image from 'next/image';
+import type { SyntheticEvent } from 'react';
 import { useEffect, useState, useRef } from 'react';
 import { canonicaliseSlug, ensureBlogSlug } from '@/lib/slug';
 import Script from 'next/script';
@@ -266,23 +266,29 @@ export default function BlogPage() {
                     return null;
                   }
                   return (
-                  <Link 
-                    key={post.id} 
+                  <Link
+                    key={post.id}
                     href={`/resources/${cleanSlug}`}
                     className="flex flex-col gap-3 md:gap-4 no-underline hover:opacity-90 transition-opacity cursor-pointer"
                     onClick={(event) => handleBlogCardClick(event, post, cleanSlug)}
                   >
-                    <div className="w-full h-48 md:h-56 lg:h-64 relative">
-                      <Image
+                    <div className="w-full h-48 md:h-56 lg:h-64 relative overflow-hidden rounded-xl bg-[rgba(239,247,255,0.6)]">
+                      <img
                         src={post.image}
                         alt={post.title}
-                        fill
-                        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                        className="object-cover rounded-xl"
-                        placeholder="blur"
-                        blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjQwJyBoZWlnaHQ9JzE2MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cmVjdCB3aWR0aD0nMjQwJyBoZWlnaHQ9JzE2MCcgZmlsbD0nI2VmZjknLz48L3N2Zz4="
-                        priority={currentPage === 1 && idx < 3}
-                        crossOrigin="anonymous"
+                        className="w-full h-full object-cover"
+                        loading={currentPage === 1 && idx < 3 ? 'eager' : 'lazy'}
+                        referrerPolicy="no-referrer"
+                        onError={(event: SyntheticEvent<HTMLImageElement>) => {
+                          const target = event.currentTarget;
+                          if (target.dataset?.fallbackApplied) {
+                            return;
+                          }
+                          if (target.dataset) {
+                            target.dataset.fallbackApplied = 'true';
+                          }
+                          target.src = '/sample.png';
+                        }}
                       />
                     </div>
                     <div className="flex flex-col gap-2">
