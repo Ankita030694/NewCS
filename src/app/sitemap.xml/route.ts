@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 5; // Home, About, Contact, Services, Resources
+  const mainStaticPages = 7; // Home, About, Contact, Services, Resources, Terms and Conditions, Privacy Policy
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -414,6 +414,20 @@ async function generateSitemap(): Promise<string> {
     loc: `${baseUrl}/resources`,
     priority: 0.9, // High priority - resources/blog listing
     changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/terms-and-conditions`,
+    priority: 0.6, // Legal page - reviewed periodically
+    changefreq: 'yearly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/privacy-policy`,
+    priority: 0.6, // Legal page - reviewed periodically
+    changefreq: 'yearly',
     lastmod: today
   });
 

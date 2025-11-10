@@ -17,9 +17,9 @@ export default function Settlements() {
     { id: 'bank2', src: '/banks/40.svg', letter: settlementLetters[1] },
     { id: 'bank3', src: '/banks/37.svg', letter: settlementLetters[2] },
     { id: 'bank4', src: '/banks/74.svg', letter: settlementLetters[3] },
-    { id: 'bank5', src: '/banks/60.svg' },
-    { id: 'bank6', src: '/banks/41.svg' },
-    { id: 'bank7', src: '/banks/22.svg' }
+    { id: 'bank5', src: '/banks/65.svg' },
+    { id: 'bank6', src: '/banks/55.svg' },
+    { id: 'bank7', src: '/banks/46.svg' }
   ];
 
   const handleBankClick = (bankId: string) => {
