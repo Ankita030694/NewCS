@@ -1,11 +1,8 @@
-'use client';
-
-import { useMemo } from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
-import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FAQ from '@/components/FAQ';
+import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement Guide India | Complete Debt Resolution Playbook',
@@ -87,81 +84,75 @@ const faqItems = [
 ];
 
 export default function LoanSettlementGuidePage() {
-  const today = useMemo(
-    () =>
-      new Date().toLocaleDateString('en-IN', {
-        day: '2-digit',
-        month: 'long',
-        year: 'numeric',
-      }),
-    []
-  );
+  const today = new Date().toLocaleDateString('en-IN', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+  });
 
-  const faqSchema = useMemo(
-    () => ({
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      '@id': 'https://www.credsettle.com/loan-settlement-guide#faq',
-      mainEntity: faqItems.map((faq, index) => ({
-        '@type': 'Question',
-        '@id': `https://www.credsettle.com/loan-settlement-guide#faq-question-${index + 1}`,
-        name: faq.question,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: faq.answer,
-        },
-      })),
-    }),
-    []
-  );
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': 'https://www.credsettle.com/loan-settlement-guide#faq',
+    mainEntity: faqItems.map((faq, index) => ({
+      '@type': 'Question',
+      '@id': `https://www.credsettle.com/loan-settlement-guide#faq-question-${index + 1}`,
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
 
-  const howToSchema = useMemo(
-    () => ({
-      '@context': 'https://schema.org',
-      '@type': 'HowTo',
-      name: 'How to complete a loan settlement in India',
-      description:
-        'Step by step instructions for Indian borrowers to plan, negotiate, and close an RBI compliant loan settlement with CredSettle support.',
-      totalTime: 'P6M',
-      step: [
-        {
-          '@type': 'HowToStep',
-          name: 'Assess financial hardship',
-          text: 'Compile bank statements, income loss evidence, and expense ledgers to demonstrate genuine inability to maintain contractual EMIs.',
-        },
-        {
-          '@type': 'HowToStep',
-          name: 'Engage a settlement specialist',
-          text: 'Partner with CredSettle to validate eligibility, benchmark waiver ranges, and prepare structured proposal paperwork.',
-        },
-        {
-          '@type': 'HowToStep',
-          name: 'Submit settlement dossier',
-          text: 'Deliver the hardship letter, repayment plan, and supporting annexures to the lender credit committee for review.',
-        },
-        {
-          '@type': 'HowToStep',
-          name: 'Negotiate and confirm approval',
-          text: 'Respond to counter offers, align on final waiver percentage, and secure a duly signed settlement letter.',
-        },
-        {
-          '@type': 'HowToStep',
-          name: 'Complete payment and close accounts',
-          text: 'Transfer the sanctioned settlement amount through traceable banking channels and collect No Due Certificates.',
-        },
-      ],
-    }),
-    []
-  );
+  const howToSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'How to complete a loan settlement in India',
+    description:
+      'Step by step instructions for Indian borrowers to plan, negotiate, and close an RBI compliant loan settlement with CredSettle support.',
+    totalTime: 'P6M',
+    step: [
+      {
+        '@type': 'HowToStep',
+        name: 'Assess financial hardship',
+        text: 'Compile bank statements, income loss evidence, and expense ledgers to demonstrate genuine inability to maintain contractual EMIs.',
+      },
+      {
+        '@type': 'HowToStep',
+        name: 'Engage a settlement specialist',
+        text: 'Partner with CredSettle to validate eligibility, benchmark waiver ranges, and prepare structured proposal paperwork.',
+      },
+      {
+        '@type': 'HowToStep',
+        name: 'Submit settlement dossier',
+        text: 'Deliver the hardship letter, repayment plan, and supporting annexures to the lender credit committee for review.',
+      },
+      {
+        '@type': 'HowToStep',
+        name: 'Negotiate and confirm approval',
+        text: 'Respond to counter offers, align on final waiver percentage, and secure a duly signed settlement letter.',
+      },
+      {
+        '@type': 'HowToStep',
+        name: 'Complete payment and close accounts',
+        text: 'Transfer the sanctioned settlement amount through traceable banking channels and collect No Due Certificates.',
+      },
+    ],
+  };
 
   return (
     <div className="relative min-h-screen bg-white">
-      <Script id="loan-settlement-guide-faq-schema" type="application/ld+json">
-        {JSON.stringify(faqSchema)}
-      </Script>
-      <Script id="loan-settlement-guide-howto-schema" type="application/ld+json">
-        {JSON.stringify(howToSchema)}
-      </Script>
+      <script
+        id="loan-settlement-guide-faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        id="loan-settlement-guide-howto-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
 
       <Navbar />
 
@@ -611,33 +602,10 @@ export default function LoanSettlementGuidePage() {
                   <li>Engage with credit score improvement or anti-harassment programs if needed.</li>
                   <li>Keep all correspondence from lenders and agents safely archived.</li>
                 </ul>
-
-                <span className="block mt-8 text-2xl font-semibold text-[#0C2756] md:text-3xl" id="faqs">
-                  Frequently Asked Questions
-                </span>
               </p>
 
-              <div className="mt-6 divide-y divide-[rgba(12,39,86,0.1)] border-t border-[rgba(0,122,255,0.14)]">
-                {faqItems.map((faq, idx) => (
-                  <details key={idx} className="py-6 group" open={idx === 0}>
-                    <summary
-                      className="cursor-pointer select-none text-base font-semibold text-[#0C2756] outline-none focus:ring-2 focus:ring-[#007AFF] flex items-center justify-between group-open:text-[#007AFF] transition-colors"
-                      aria-controls={`faq-answer-${idx}`}
-                      tabIndex={0}
-                    >
-                      {faq.question}
-                      <span
-                        className="ml-2 transition-transform group-open:rotate-180"
-                        aria-hidden="true"
-                      >
-                        ▼
-                      </span>
-                    </summary>
-                    <div id={`faq-answer-${idx}`} className="mt-4 text-[rgba(12,39,86,0.8)] text-base md:text-lg leading-7">
-                      {faq.answer}
-                    </div>
-                  </details>
-                ))}
+              <div id="faqs" className="mt-10">
+                <FAQ items={faqItems} />
               </div>
             </section>
           </div>
