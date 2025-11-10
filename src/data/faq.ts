@@ -48,14 +48,14 @@ export const resourcesFaqItems: FAQItem[] = [
       "Our resources provide general information. For tailored legal strategy, schedule a consultation with our settlement specialists."
   },
   {
-    question: "Do I need to pay to download checklists or templates?",
+    question: "Are CredSettle's online resources free to access?",
     answer:
-      "No. All worksheets, checklists, and templates in the resource library are free to download for personal use."
+      "Yes, all guides, articles, and downloadable materials in our resource library are available at no cost for personal use."
   },
   {
-    question: "How can I stay updated on new debt relief insights?",
+    question: "How can I access the latest debt relief resources and information?",
     answer:
-      "Subscribe to our newsletter or follow CredSettle on LinkedIn to receive alerts when we publish new playbooks, webinars, and case studies."
+      "You can visit our website regularly or follow us on social media to find new guides, articles, and updates."
   }
 ];
 
