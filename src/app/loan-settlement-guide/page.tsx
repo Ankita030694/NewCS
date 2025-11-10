@@ -390,44 +390,46 @@ export default function LoanSettlementGuidePage() {
                 hard copies ensures credibility. Borrowers who attempt settlement without this discipline often endure
                 multiple rejection cycles simply because paperwork was missing or mismatched.
               </p>
-              <table className="mt-6 w-full overflow-hidden rounded-2xl border border-[rgba(0,122,255,0.18)] bg-white text-sm text-[#0C2756] shadow-sm md:text-base">
-                <thead className="bg-[#EFF7FF] text-left">
-                  <tr>
-                    <th className="px-4 py-3">Document Category</th>
-                    <th className="px-4 py-3">Why It Matters</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    ['Identity and Address Proof', 'Validates KYC and ensures the lender deals with the legitimate borrower.'],
-                    [
-                      'Income and Bank Statements',
-                      'Demonstrate cash flow reduction, verify existing obligations, and strengthen hardship claims.',
-                    ],
-                    [
-                      'Expense Ledger',
-                      'Tracks essential expenses and showcases genuine inability to divert funds toward overdue EMIs.',
-                    ],
-                    [
-                      'Medical or Legal Evidence',
-                      'Supports hardship narratives such as health crises, litigation, or business shutdown directives.',
-                    ],
-                    [
-                      'Loan Statements and Notices',
-                      'Confirms outstanding balance, recovery stage, and any legal escalation already initiated.',
-                    ],
-                    [
-                      'Settlement Funding Proof',
-                      'Shows availability of lump sum resources, increasing lender confidence in timely completion.',
-                    ],
-                  ].map(([category, reason]) => (
-                    <tr key={category} className="border-t border-[rgba(0,122,255,0.12)]">
-                      <td className="px-4 py-3 align-top font-semibold">{category}</td>
-                      <td className="px-4 py-3 text-[rgba(12,39,86,0.75)]">{reason}</td>
+              <div className="mt-6 overflow-x-auto rounded-2xl border border-[rgba(0,122,255,0.18)] bg-white shadow-sm">
+                <table className="min-w-[640px] w-full text-left text-sm text-[#0C2756] md:min-w-0 md:text-base">
+                  <thead className="bg-[#EFF7FF]">
+                    <tr>
+                      <th className="px-4 py-3">Document Category</th>
+                      <th className="px-4 py-3">Why It Matters</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {[
+                      ['Identity and Address Proof', 'Validates KYC and ensures the lender deals with the legitimate borrower.'],
+                      [
+                        'Income and Bank Statements',
+                        'Demonstrate cash flow reduction, verify existing obligations, and strengthen hardship claims.',
+                      ],
+                      [
+                        'Expense Ledger',
+                        'Tracks essential expenses and showcases genuine inability to divert funds toward overdue EMIs.',
+                      ],
+                      [
+                        'Medical or Legal Evidence',
+                        'Supports hardship narratives such as health crises, litigation, or business shutdown directives.',
+                      ],
+                      [
+                        'Loan Statements and Notices',
+                        'Confirms outstanding balance, recovery stage, and any legal escalation already initiated.',
+                      ],
+                      [
+                        'Settlement Funding Proof',
+                        'Shows availability of lump sum resources, increasing lender confidence in timely completion.',
+                      ],
+                    ].map(([category, reason]) => (
+                      <tr key={category} className="border-t border-[rgba(0,122,255,0.12)]">
+                        <td className="px-4 py-3 align-top font-semibold">{category}</td>
+                        <td className="px-4 py-3 text-[rgba(12,39,86,0.75)]">{reason}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </section>
 
             <section id="negotiation" className="py-10">

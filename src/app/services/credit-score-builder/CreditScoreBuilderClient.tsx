@@ -817,21 +817,21 @@ export default function CreditScoreBuilderClient() {
         <Navbar />
 
         {/* Main Content */}
-        <div className="relative z-10" style={{ paddingTop: '100px', paddingLeft: '16.2px', paddingRight: '16.2px' }}>
-          <div className="w-full max-w-7xl mx-auto px-4">
+        <div className="relative z-10 pt-24 px-4 md:px-6 lg:px-8">
+          <div className="mx-auto w-full max-w-7xl">
             {/* Hero Section: Heading Left, Image Right */}
             <section className="w-full py-6 mb-8">
-              <div className="flex items-center justify-between gap-8">
+              <div className="flex flex-col-reverse items-center gap-8 text-center lg:flex-row lg:items-center lg:justify-between lg:text-left">
                 {/* Left: Heading */}
                 <div className="flex-1" style={{ maxWidth: '640px' }}>
                   <h1
                     style={{
                       color: '#0C2756',
                       fontFamily: 'Poppins',
-                      fontSize: '45px',
+                      fontSize: 'clamp(28px, 7vw, 45px)',
                       fontStyle: 'normal',
                       fontWeight: '400',
-                      lineHeight: '65px',
+                      lineHeight: 'clamp(38px, 8vw, 65px)',
                       marginBottom: '20px'
                     }}
                   >
@@ -841,8 +841,8 @@ export default function CreditScoreBuilderClient() {
                     style={{
                       color: 'rgba(12, 39, 86, 0.70)',
                       fontFamily: 'Poppins',
-                      fontSize: '18px',
-                      lineHeight: '28px'
+                      fontSize: 'clamp(16px, 4.5vw, 18px)',
+                      lineHeight: 'clamp(24px, 6vw, 28px)'
                     }}
                   >
                     Expert insights on credit score improvement, CIBIL score building, credit report analysis, and proven strategies to boost your creditworthiness in India.
@@ -856,7 +856,7 @@ export default function CreditScoreBuilderClient() {
                     alt="Credit Score Builder"
                     style={{
                       width: '100%',
-                      maxWidth: '500px',
+                      maxWidth: '400px',
                       height: 'auto'
                     }}
                   />
@@ -866,288 +866,282 @@ export default function CreditScoreBuilderClient() {
 
             {/* Table of Contents */}
             {headings.length > 0 && (
-              <div className="mb-8">
+              <section className="mb-8">
                 <TableOfContents headings={headings} />
-              </div>
+              </section>
             )}
 
             {/* Main Content Section */}
             <section className="w-full py-6">
-              <div className="w-full max-w-7xl mx-auto px-4">
-                <div
-                  className="bg-gradient-to-br from-blue-50/40 via-white to-blue-100/20 rounded-3xl p-6 md:p-8 lg:p-12"
-                  style={{
-                    boxShadow: '0 12px 48px rgba(0, 122, 255, 0.08)',
-                    border: '1px solid rgba(0, 122, 255, 0.12)'
-                  }}
-                >
-                  <div className="space-y-6 md:space-y-8">
-                    <div>
-                      <h2
-                        className="text-2xl md:text-3xl lg:text-[32px] font-semibold leading-tight"
-                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '42px' }}
-                      >
-                        Master Your CIBIL Credit Score with CredSettle
-                      </h2>
-                      <div className="mt-4 space-y-4">
-                        {introductionParagraphs.map((paragraph, index) => (
-                          <p key={index} className="text-sm md:text-base" style={bodyTextStyle}>
-                            {paragraph}
-                          </p>
-                        ))}
-                      </div>
-                  </div>
-
-                    <div className="rounded-2xl border border-blue-100/70 bg-white/80 p-6 md:p-7 shadow-[0px_10px_30px_rgba(0,122,255,0.08)]">
-                      <div className="flex flex-col gap-4 md:flex-row md:items-start md:gap-6">
-                        <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/15 text-blue-600">
-                          <FontAwesomeIcon icon={faArrowTrendUp} className="h-5 w-5" />
-                        </span>
-                        <div className="flex-1">
-                          <h3
-                            className="text-lg md:text-xl font-semibold"
-                            style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '28px' }}
-                          >
-                            CredSettle Credit Score Builder Advantage
-                          </h3>
-                          <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                            We combine legal muscle, data-driven analytics, and disciplined coaching to deliver compounding credit score gains that hold up with every bureau and lender in India.
-                          </p>
-                          <ul className="mt-4 space-y-2">
-                            {highlightPoints.map((point) => (
-                              <li key={point} className="flex items-start gap-3">
-                                <span className="mt-1 h-2.5 w-2.5 flex-shrink-0 rounded-full bg-blue-500/80" />
-                                <span className="text-sm md:text-base" style={cardTextStyle}>
-                                  {point}
-                                </span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
+              <div
+                className="bg-gradient-to-br from-blue-50/40 via-white to-blue-100/20 rounded-3xl p-6 md:p-8 lg:p-12"
+                style={{
+                  boxShadow: '0 12px 48px rgba(0, 122, 255, 0.08)',
+                  border: '1px solid rgba(0, 122, 255, 0.12)'
+                }}
+              >
+                <div className="space-y-6 md:space-y-8">
+                  <div>
+                    <h2
+                      className="text-2xl md:text-3xl lg:text-[32px] font-semibold leading-tight"
+                      style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '42px' }}
+                    >
+                      Master Your CIBIL Credit Score with CredSettle
+                    </h2>
+                    <div className="mt-4 space-y-4">
+                      {introductionParagraphs.map((paragraph, index) => (
+                        <p key={index} className="text-sm md:text-base" style={bodyTextStyle}>
+                          {paragraph}
+                        </p>
+                      ))}
                     </div>
                   </div>
 
-                  <div className="mt-10 md:mt-12 space-y-12 md:space-y-14">
-                    {guideSections.map((section, index) => (
-                      <article
-                        key={section.id}
-                        className="rounded-3xl border border-blue-100/60 bg-white/75 p-6 md:p-7 lg:p-8 shadow-[0px_12px_35px_rgba(0,122,255,0.05)] backdrop-blur-sm"
-                      >
-                        <div className="flex items-start gap-4">
-                          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-100 text-base font-semibold text-blue-600">
-                            {String(index + 1).padStart(2, '0')}
-                          </div>
-                          <div className="flex-1">
-                            <h2
-                              id={section.id}
-                              className="text-xl md:text-2xl font-semibold leading-tight"
-                              style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '32px' }}
-                            >
-                              {section.title}
-                  </h2>
+                  <div className="rounded-2xl border border-blue-100/70 bg-white/80 p-6 md:p-7 shadow-[0px_10px_30px_rgba(0,122,255,0.08)]">
+                    <div className="flex flex-col gap-4 md:flex-row md:items-start md:gap-6">
+                      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/15 text-blue-600">
+                        <FontAwesomeIcon icon={faArrowTrendUp} className="h-5 w-5" />
+                      </span>
+                      <div className="flex-1">
+                        <h3
+                          className="text-lg md:text-xl font-semibold"
+                          style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '28px' }}
+                        >
+                          CredSettle Credit Score Builder Advantage
+                        </h3>
+                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                          We combine legal muscle, data-driven analytics, and disciplined coaching to deliver compounding credit score gains that hold up with every bureau and lender in India.
+                        </p>
+                        <ul className="mt-4 space-y-2">
+                          {highlightPoints.map((point) => (
+                            <li key={point} className="flex items-start gap-3">
+                              <span className="mt-1 h-2.5 w-2.5 flex-shrink-0 rounded-full bg-blue-500/80" />
+                              <span className="text-sm md:text-base" style={cardTextStyle}>
+                                {point}
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-                            {section.paragraphs && (
-                              <div className="mt-4 space-y-4">
-                                {section.paragraphs.map((paragraph, paragraphIndex) => (
-                                  <p key={paragraphIndex} className="text-sm md:text-base" style={bodyTextStyle}>
-                                    {paragraph}
-                                  </p>
+                <div className="mt-10 md:mt-12 space-y-12 md:space-y-14">
+                  {guideSections.map((section, index) => (
+                    <article
+                      key={section.id}
+                      className="rounded-3xl border border-blue-100/60 bg-white/75 p-6 md:p-7 lg:p-8 shadow-[0px_12px_35px_rgba(0,122,255,0.05)] backdrop-blur-sm"
+                    >
+                      <div className="flex flex-col items-center gap-4 text-center md:flex-row md:items-start md:gap-4 md:text-left">
+                        <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-100 text-base font-semibold text-blue-600 md:mt-1">
+                          {String(index + 1).padStart(2, '0')}
+                        </div>
+                        <div className="flex-1 w-full">
+                          <h2
+                            id={section.id}
+                            className="text-xl md:text-2xl font-semibold leading-tight"
+                            style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '32px' }}
+                          >
+                            {section.title}
+                          </h2>
+
+                          {section.paragraphs && (
+                            <div className="mt-4 space-y-4">
+                              {section.paragraphs.map((paragraph, paragraphIndex) => (
+                                <p key={paragraphIndex} className="text-sm md:text-base" style={bodyTextStyle}>
+                                  {paragraph}
+                                </p>
+                              ))}
+                            </div>
+                          )}
+
+                          {section.bullets && (
+                            <div className="mt-6 w-full rounded-2xl border border-blue-100/70 bg-blue-50/40 p-5 md:p-6">
+                              <h3
+                                className="text-sm font-semibold uppercase tracking-wide text-blue-600 mb-4"
+                                style={{ fontFamily: 'Poppins', letterSpacing: '0.08em' }}
+                              >
+                                {section.bulletTitle ?? 'Key Takeaways'}
+                              </h3>
+                              <ul className="space-y-3">
+                                {section.bullets.map((bullet) => (
+                                  <li key={bullet} className="flex items-start gap-3">
+                                    <span className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/15 text-blue-600">
+                                      <FontAwesomeIcon icon={faCircleExclamation} className="h-4 w-4" />
+                                    </span>
+                                    <span className="flex-1 text-sm md:text-base" style={bodyTextStyle}>
+                                      {bullet}
+                                    </span>
+                                  </li>
                                 ))}
-                              </div>
-                            )}
+                              </ul>
+                            </div>
+                          )}
 
-                            {section.bullets && (
-                              <div className="mt-6 rounded-2xl border border-blue-100/70 bg-blue-50/40 p-5 md:p-6">
-                                <h3
-                                  className="text-sm font-semibold uppercase tracking-wide text-blue-600 mb-4"
-                                  style={{ fontFamily: 'Poppins', letterSpacing: '0.08em' }}
+                          {section.cards && (
+                            <div className="mt-6 grid gap-4 md:grid-cols-2 md:gap-6">
+                              {section.cards.map((card) => (
+                                <div
+                                  key={card.title}
+                                  className="h-full w-full rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] transition-shadow duration-200 hover:shadow-[0px_12px_30px_rgba(0,122,255,0.12)]"
                                 >
-                                  {section.bulletTitle ?? 'Key Takeaways'}
-                                </h3>
-                                <ul className="space-y-3">
-                                  {section.bullets.map((bullet) => (
-                                    <li key={bullet} className="flex items-start gap-3">
-                                      <span className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/15 text-blue-600">
-                                        <FontAwesomeIcon icon={faCircleExclamation} className="h-4 w-4" />
-                                      </span>
-                                      <span className="flex-1 text-sm md:text-base" style={bodyTextStyle}>
-                                        {bullet}
-                                      </span>
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                            )}
-
-                            {section.cards && (
-                              <div className="mt-6 grid gap-4 md:grid-cols-2 md:gap-6">
-                                {section.cards.map((card) => (
-                                  <div
-                                    key={card.title}
-                                    className="h-full rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] transition-shadow duration-200 hover:shadow-[0px_12px_30px_rgba(0,122,255,0.12)]"
-                                  >
-                                    <div className="flex items-start gap-4">
-                                      <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
-                                        <FontAwesomeIcon icon={card.icon} className="h-5 w-5" />
-                                      </span>
-                                      <div>
-                                        <h3
-                                          className="text-base md:text-lg font-semibold"
-                                          style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}
-                                        >
-                                          {card.title}
-                                        </h3>
-                                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                                          {card.description}
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                ))}
-                              </div>
-                            )}
-
-                            {section.lists && (
-                              <div className="mt-6 grid gap-4 md:grid-cols-2">
-                                {section.lists.map((list) => (
-                                  <div
-                                    key={list.title}
-                                    className="rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)]"
-                                  >
-                                    <div className="mb-4 flex items-start gap-3">
-                                      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
-                                        <FontAwesomeIcon icon={list.icon} className="h-5 w-5" />
-                                      </span>
-                                      <h3
-                                        className="text-base font-semibold"
-                                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
-                                      >
-                                        {list.title}
-                                      </h3>
-                                    </div>
-                                    <ul className="space-y-3">
-                                      {list.items.map((item) => (
-                                        <li key={item} className="flex items-start gap-3">
-                                          <span className="mt-[7px] h-2 w-2 rounded-full bg-blue-500/80" />
-                                          <span className="flex-1 text-sm md:text-base" style={cardTextStyle}>
-                                            {item}
-                                          </span>
-                                        </li>
-                                      ))}
-                                    </ul>
-                                  </div>
-                                ))}
-                              </div>
-                            )}
-
-                            {section.callouts && (
-                              <div className="mt-6 grid gap-4 md:grid-cols-2">
-                                {section.callouts.map((callout) => (
-                                  <div
-                                    key={callout.title}
-                                    className="rounded-2xl border border-blue-100/80 bg-gradient-to-br from-blue-500/10 via-white to-blue-100/10 p-5 md:p-6"
-                                  >
-                                    <div className="flex items-start gap-3">
-                                      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white">
-                                        <FontAwesomeIcon icon={callout.icon} className="h-5 w-5" />
-                                      </span>
-                                      <div>
-                                        <h3
-                                          className="text-base font-semibold"
-                                          style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
-                                        >
-                                          {callout.title}
-                                        </h3>
-                                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                                          {callout.description}
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                ))}
-                              </div>
-                            )}
-
-                            {section.steps && (
-                              <div className="mt-6 space-y-4">
-                                {section.steps.map((step) => (
-                                  <div
-                                    key={step.title}
-                                    className="flex flex-col gap-3 rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] md:flex-row md:items-start"
-                                  >
-                                    <div className="flex h-10 w-24 items-center justify-center rounded-full bg-blue-600 text-sm font-semibold uppercase text-white">
-                                      {step.label}
-                                    </div>
-                                    <div className="flex-1">
+                                  <div className="flex items-start gap-4">
+                                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
+                                      <FontAwesomeIcon icon={card.icon} className="h-5 w-5" />
+                                    </span>
+                                    <div>
                                       <h3
                                         className="text-base md:text-lg font-semibold"
                                         style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}
                                       >
-                                        {step.title}
+                                        {card.title}
                                       </h3>
                                       <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                                        {step.description}
+                                        {card.description}
                                       </p>
                                     </div>
                                   </div>
-                                ))}
-                              </div>
-                            )}
-                          </div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                          {section.lists && (
+                            <div className="mt-6 grid gap-4 md:grid-cols-2">
+                              {section.lists.map((list) => (
+                                <div
+                                  key={list.title}
+                                  className="w-full rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)]"
+                                >
+                                  <div className="mb-4 flex items-start gap-3">
+                                    <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
+                                      <FontAwesomeIcon icon={list.icon} className="h-5 w-5" />
+                                    </span>
+                                    <h3
+                                      className="text-base font-semibold"
+                                      style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
+                                    >
+                                      {list.title}
+                                    </h3>
+                                  </div>
+                                  <ul className="space-y-3">
+                                    {list.items.map((item) => (
+                                      <li key={item} className="flex items-start gap-3">
+                                        <span className="mt-[7px] h-2 w-2 rounded-full bg-blue-500/80" />
+                                        <span className="flex-1 text-sm md:text-base" style={cardTextStyle}>
+                                          {item}
+                                        </span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                          {section.callouts && (
+                            <div className="mt-6 grid gap-4 md:grid-cols-2">
+                              {section.callouts.map((callout) => (
+                                <div
+                                  key={callout.title}
+                                  className="w-full rounded-2xl border border-blue-100/80 bg-gradient-to-br from-blue-500/10 via-white to-blue-100/10 p-5 md:p-6"
+                                >
+                                  <div className="flex items-start gap-3">
+                                    <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white">
+                                      <FontAwesomeIcon icon={callout.icon} className="h-5 w-5" />
+                                    </span>
+                                    <div>
+                                      <h3
+                                        className="text-base font-semibold"
+                                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
+                                      >
+                                        {callout.title}
+                                      </h3>
+                                      <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                        {callout.description}
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                          {section.steps && (
+                            <div className="mt-6 w-full space-y-4">
+                              {section.steps.map((step) => (
+                                <div
+                                  key={step.title}
+                                  className="flex w-full flex-col gap-3 rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] md:flex-row md:items-start"
+                                >
+                                  <div className="flex h-10 w-24 items-center justify-center rounded-full bg-blue-600 text-sm font-semibold uppercase text-white">
+                                    {step.label}
+                                  </div>
+                                  <div className="flex-1">
+                                    <h3
+                                      className="text-base md:text-lg font-semibold"
+                                      style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}
+                                    >
+                                      {step.title}
+                                    </h3>
+                                    <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                      {step.description}
+                                    </p>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          )}
                         </div>
-                      </article>
-                    ))}
-                  </div>
+                      </div>
+                    </article>
+                  ))}
                 </div>
               </div>
             </section>
 
             {/* FAQ Section */}
             <section className="w-full py-12">
-              <div className="w-full max-w-7xl mx-auto px-4">
-                <div className="flex flex-col items-center gap-8 md:gap-14">
-                    <FAQWithSchema
-                      faqs={faqs}
-                      title="Credit Score Builder FAQs —"
-                    />
-                </div>
+              <div className="flex flex-col items-center gap-8 md:gap-14">
+                  <FAQWithSchema
+                    faqs={faqs}
+                    title="Credit Score Builder FAQs —"
+                  />
               </div>
             </section>
 
             {/* CTA Section */}
             <section className="w-full py-12">
-              <div className="w-full max-w-7xl mx-auto px-4">
-                <div className="flex flex-col items-center gap-8 md:gap-14">
-                  <div
-                    className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
-                    style={{
-                      background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
-                      boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
-                    }}
-                  >
-                    <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
-                      {/* Text Content */}
-                      <div className="flex flex-col items-center gap-[28px] w-full">
-                        <h2
-                          className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
-                          style={{ color: '#0C2756' }}
-                        >
-                          Ready to Improve Your CIBIL Credit Score?
-                        </h2>
-                        <p
-                          className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
-                          style={{ color: 'rgba(12, 39, 86, 0.70)' }}
-                        >
-                          Get professional credit score building assistance from CredSettle's expert team. Improve your CIBIL credit score through proven strategies and personalized guidance—start your path to better credit today.
-                        </p>
-                      </div>
-
-                      {/* CTA Button */}
-                      <CTAButton>
-                        Get Your Free Consultation
-                      </CTAButton>
+              <div className="flex flex-col items-center gap-8 md:gap-14">
+                <div
+                  className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
+                  style={{
+                    background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
+                    boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
+                  }}
+                >
+                  <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
+                    {/* Text Content */}
+                    <div className="flex flex-col items-center gap-[28px] w-full">
+                      <h2
+                        className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
+                        style={{ color: '#0C2756' }}
+                      >
+                        Ready to Improve Your CIBIL Credit Score?
+                      </h2>
+                      <p
+                        className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
+                        style={{ color: 'rgba(12, 39, 86, 0.70)' }}
+                      >
+                        Get professional credit score building assistance from CredSettle's expert team. Improve your CIBIL credit score through proven strategies and personalized guidance—start your path to better credit today.
+                      </p>
                     </div>
+
+                    {/* CTA Button */}
+                    <CTAButton>
+                      Get Your Free Consultation
+                    </CTAButton>
                   </div>
                 </div>
               </div>
