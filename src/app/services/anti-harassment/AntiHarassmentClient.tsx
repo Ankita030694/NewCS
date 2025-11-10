@@ -429,7 +429,7 @@ export default function AntiHarassmentClient() {
                 <div className="flex flex-col items-center gap-8 md:gap-14">
                   <FAQWithSchema
                     faqs={faqs}
-                    title="Anti-Harassment FAQs —"
+                    title="Anti-Harassment"
                   />
                 </div>
               </div>

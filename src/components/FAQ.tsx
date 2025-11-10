@@ -1,24 +1,17 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
+import { FAQItem, homeFaqItems } from '@/data/faq';
 
-const FAQ = () => {
+interface FAQProps {
+  items?: FAQItem[];
+}
+
+const FAQ = ({ items = homeFaqItems }: FAQProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const faqs = [
-    {
-      question: "What is a One-Time Settlement (OTS), and how does CredSettle help me achieve it?",
-      answer: "A One-Time Settlement (OTS) is a negotiated agreement where you pay a reduced lump sum to settle your debt. CredSettle negotiates with lenders on your behalf to secure the best possible settlement terms while ensuring RBI compliance."
-    },
-    {
-      question: "Is debt settlement legal? Does it adhere to RBI guidelines?",
-      answer: "Yes, debt settlement is completely legal in India. CredSettle ensures all settlements are conducted in accordance with RBI guidelines and regulatory frameworks, protecting your rights throughout the process."
-    },
-    {
-      question: "How does CredSettle stop harassment from recovery agents?",
-      answer: "CredSettle provides legal intervention and communication services to stop harassment from recovery agents. We file formal complaints with RBI, NCH, and Cyber Police when necessary, and issue cease and desist notices to protect your rights."
-    }
-  ];
+  const faqs = items;
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -38,7 +31,9 @@ const FAQ = () => {
               </h2>
               <p className="text-[12px] md:text-[13px] lg:text-[15px] leading-[12px] md:leading-[13px] lg:leading-[15px] font-normal">
                 <span style={{ color: '#0C2756' }}>Still have questions? </span>
-                <span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span>
+                <Link href="/contact" className="underline" style={{ color: '#007AFF' }}>
+                  Contact us
+                </Link>
                 <span style={{ color: '#0C2756' }}> anytime.</span>
               </p>
             </div>
@@ -48,7 +43,7 @@ const FAQ = () => {
               <div className="flex flex-col gap-3 md:gap-4">
                 {faqs.map((faq, index) => (
                   <div
-                    key={index}
+                    key={faq.question}
                     className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden"
                     onClick={() => toggleFAQ(index)}
                     >

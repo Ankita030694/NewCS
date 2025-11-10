@@ -57,7 +57,7 @@ export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaPr
             <span style={{ color: '#0C2756' }}>
               {title || 'Personal Loan Settlement'}
               {`\n`}
-              <br /> FAQs —{' '}
+              <br /> FAQs -{' '}
             </span>
             <span style={{ color: '#007AFF' }}>Answered.</span>
           </h2>

@@ -6,6 +6,7 @@ import Settlements from "@/components/Settlements";
 import Testimonials from "@/components/Testimonials";
 import Blogs from "@/components/Blogs";
 import FAQ from "@/components/FAQ";
+import { homeFaqItems } from "@/data/faq";
 import Footer from "@/components/Footer";
 import Script from "next/script";
 
@@ -87,48 +88,14 @@ export default function Home() {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is RBI compliant loan settlement?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "RBI compliant loan settlement follows Reserve Bank of India guidelines to help you close delinquent accounts with documented agreements that protect your credit profile."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does CredSettle negotiate with banks?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our legal team reviews your case, prepares evidence of financial stress, and negotiates directly with the bank to secure the most favorable waiver possible."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I settle multiple loans together?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we create a unified strategy that prioritizes high risk accounts, coordinates timelines, and delivers consolidated settlements for credit cards and personal or business loans."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Will settlement hurt my credit score?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A negotiated settlement may affect your credit score temporarily, but it prevents legal escalation and sets the stage for faster score recovery once liabilities are closed."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long does the settlement process take?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most clients see first negotiation outcomes within 30 to 45 days, depending on creditor responsiveness and how quickly documentation is provided."
-        }
+    "mainEntity": homeFaqItems.map((faq) => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
       }
-    ]
+    }))
   };
 
   return (

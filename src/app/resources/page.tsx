@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
 import { canonicaliseSlug, ensureBlogSlug } from '@/lib/slug';
 import Script from 'next/script';
+import { resourcesFaqItems } from '@/data/faq';
 
 interface BlogPost {
   id: string;
@@ -144,25 +145,6 @@ export default function BlogPage() {
     }
   };
 
-
-  const faqItems = [
-    {
-      question: "What is a One-Time Settlement (OTS), and how does CredSettle help me achieve it?",
-      answer:
-        "A One-Time Settlement (OTS) is a negotiated agreement where you pay a reduced lump sum to settle your debt. CredSettle negotiates with lenders on your behalf to secure the best possible settlement terms while ensuring RBI compliance."
-    },
-    {
-      question: "Is debt settlement legal? Does it adhere to RBI guidelines?",
-      answer:
-        "Yes, debt settlement is completely legal in India. CredSettle ensures all settlements are conducted in accordance with RBI guidelines and regulatory frameworks, protecting your rights throughout the process."
-    },
-    {
-      question: "How does CredSettle stop harassment from recovery agents?",
-      answer:
-        "CredSettle provides legal intervention and communication services to stop harassment from recovery agents. We file formal complaints with RBI, NCH, and Cyber Police when necessary, and issue cease and desist notices to protect your rights."
-    }
-  ];
-
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -170,7 +152,7 @@ export default function BlogPage() {
     "name": "CredSettle Resources FAQs",
     "description":
       "Answers to common questions about CredSettle's RBI-compliant debt settlement services and resource library.",
-    "mainEntity": faqItems.map((faq, index) => ({
+    "mainEntity": resourcesFaqItems.map((faq, index) => ({
       "@type": "Question",
       "@id": `https://credsettle.in/resources#faq-question-${index + 1}`,
       "name": faq.question,
@@ -444,7 +426,7 @@ export default function BlogPage() {
 
         {/* FAQ */}
         <div className="mt-12 md:mt-16 lg:mt-[100px]">
-          <FAQ />
+        <FAQ items={resourcesFaqItems} />
         </div>
       </div>
 
