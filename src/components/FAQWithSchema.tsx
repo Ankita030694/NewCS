@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Script from 'next/script';
+import Link from 'next/link';
 
 interface FAQItem {
   question: string;
@@ -63,7 +64,9 @@ export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaPr
           </h2>
           <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
             <span style={{ color: '#0C2756' }}>Need more details? </span>
-            <span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span>
+            <Link href="/contact" className="underline" style={{ color: '#007AFF' }}>
+              Contact us
+            </Link>
             <span style={{ color: '#0C2756' }}> anytime.</span>
           </p>
         </div>
