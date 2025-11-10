@@ -377,6 +377,7 @@ export default function ContactPage() {
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
                     <img src="/contact3.png" alt="CredSettle Office Address in Gurugram" className="w-16 h-16 md:w-20 md:h-20" />
                   </div>
+                  <a href="https://maps.app.goo.gl/JCgKrU6LZSb2BDpS8" target="_blank" rel="noopener noreferrer">
                   <div className="flex flex-col relative z-10 max-w-[288px]">
                     <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Our Address</span>
                     <span className="text-xs md:text-sm text-[#0C2756] font-medium">Visit Our Hub</span>
@@ -384,6 +385,7 @@ export default function ContactPage() {
                       4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
                     </p>
                   </div>
+                  </a>
                 </div>
               </div>
             </div>
