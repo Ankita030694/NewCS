@@ -113,7 +113,7 @@ export default function AboutUsSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 mb-6 sm:mb-8 md:mb-10 -mt-2 sm:-mt-3">
           {/* Card 1 - Gradient with Glassmorphism */}
           <div 
-            className="group relative overflow-hidden p-6 sm:p-7 md:p-8 min-h-[280px] sm:min-h-[320px] md:min-h-[380px] transition-all duration-500 ease-out hover:scale-[1.02] hover:-translate-y-2 cursor-pointer"
+            className="group relative overflow-hidden p-6 sm:p-7 md:p-8 min-h-[280px] sm:min-h-[320px] md:min-h-[380px] transition-all duration-500 ease-out hover:scale-[1.02] hover:-translate-y-2"
             style={{
               borderRadius: '32px',
               background: 'linear-gradient(135deg, #EFF7FF 0%, #D4F1F4 50%, #B8E6D3 100%)',
@@ -172,7 +172,7 @@ export default function AboutUsSection() {
 
           {/* Card 2 - Enhanced with shimmer effect */}
           <div 
-            className="group relative overflow-hidden p-6 sm:p-7 md:p-8 min-h-[280px] sm:min-h-[320px] md:min-h-[380px] transition-all duration-500 ease-out hover:scale-[1.02] hover:-translate-y-2 cursor-pointer"
+            className="group relative overflow-hidden p-6 sm:p-7 md:p-8 min-h-[280px] sm:min-h-[320px] md:min-h-[380px] transition-all duration-500 ease-out hover:scale-[1.02] hover:-translate-y-2"
             style={{
               borderRadius: '32px',
               background: 'linear-gradient(135deg, #EFF7FF 0%, #E8F5E9 50%, #F1F8E9 100%)',
@@ -231,7 +231,7 @@ export default function AboutUsSection() {
 
           {/* Card 3 - Premium gradient design */}
           <div 
-            className="group relative overflow-hidden p-6 sm:p-7 md:p-8 min-h-[280px] sm:min-h-[320px] md:min-h-[380px] transition-all duration-500 ease-out hover:scale-[1.02] hover:-translate-y-2 cursor-pointer"
+            className="group relative overflow-hidden p-6 sm:p-7 md:p-8 min-h-[280px] sm:min-h-[320px] md:min-h-[380px] transition-all duration-500 ease-out hover:scale-[1.02] hover:-translate-y-2"
             style={{
               borderRadius: '32px',
               background: 'linear-gradient(135deg, #EFF7FF 0%, #FFF3E0 50%, #FFE0B2 100%)',
@@ -380,7 +380,7 @@ export default function AboutUsSection() {
               ].map((item, index) => (
                 <div 
                   key={index}
-                  className="transition-all duration-300 hover:scale-110 hover:rotate-3"
+                  className="transition-all duration-300 hover:scale-110"
                   style={{ filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))' }}
                 >
                   <img 

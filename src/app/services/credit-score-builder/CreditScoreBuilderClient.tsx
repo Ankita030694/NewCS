@@ -1,6 +1,42 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
+import type { IconDefinition } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faArrowTrendUp,
+  faCalendarCheck,
+  faGaugeHigh,
+  faLayerGroup,
+  faClockRotateLeft,
+  faMagnifyingGlassPlus,
+  faFileLines,
+  faBug,
+  faScaleBalanced,
+  faChartLine,
+  faPercent,
+  faChartColumn,
+  faFileSignature,
+  faShieldHalved,
+  faBuilding,
+  faArrowsRotate,
+  faUserTie,
+  faCube,
+  faChartSimple,
+  faHandshakeSimple,
+  faClipboardCheck,
+  faBell,
+  faWallet,
+  faFolderOpen,
+  faBan,
+  faSitemap,
+  faCircleExclamation,
+  faKey,
+  faSeedling,
+  faMagnifyingGlassChart,
+  faStar
+} from '@fortawesome/free-solid-svg-icons';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import TableOfContents from '@/components/TableOfContents';
@@ -66,6 +102,674 @@ export default function CreditScoreBuilderClient() {
     {
       question: 'Can I improve my credit score after loan settlement?',
       answer: 'Yes, you can improve your credit score after loan settlement. While settlement initially impacts your credit score, you can rebuild it through credit score building strategies such as making timely payments on other accounts, maintaining low credit utilization, diversifying your credit mix, and monitoring your credit report regularly. A credit score builder service can provide a personalized plan to help you recover and improve your credit score post-settlement.'
+    }
+  ];
+
+  const bodyTextStyle: CSSProperties = {
+    color: 'rgba(12, 39, 86, 0.80)',
+    fontFamily: 'Poppins',
+    lineHeight: '26px'
+  };
+
+  const cardTextStyle: CSSProperties = {
+    color: 'rgba(12, 39, 86, 0.75)',
+    fontFamily: 'Poppins',
+    lineHeight: '24px'
+  };
+
+  type GuideSection = {
+    id: string;
+    title: string;
+    paragraphs?: ReactNode[];
+    bullets?: string[];
+    bulletTitle?: string;
+    cards?: Array<{ icon: IconDefinition; title: string; description: ReactNode }>;
+    lists?: Array<{ title: string; icon: IconDefinition; items: string[] }>;
+    callouts?: Array<{ title: string; description: ReactNode; icon: IconDefinition }>;
+    steps?: Array<{ label: string; title: string; description: ReactNode }>;
+  };
+
+  const introductionParagraphs: ReactNode[] = [
+    <>
+      Your <strong>CIBIL credit score</strong> is one of the most important financial metrics in India, determining your ability to secure loans, credit cards, and other financial products. Whether you are building credit from scratch, repairing past mistakes, or aiming for elite <strong>creditworthiness</strong>, understanding <strong>credit score building</strong> is essential. This guide explains everything about the <strong>CIBIL credit score builder</strong>, <strong>credit score improvement</strong>, and evidence-backed strategies to strengthen your profile.
+    </>,
+    <>
+      A strong <strong>credit score</strong> unlocks better interest rates, higher credit limits, and greater financial flexibility. With CIBIL scores ranging from <strong>300</strong> to <strong>900</strong>, crossing the <strong>750</strong> threshold signals excellent credit health. The CredSettle approach combines <strong>credit report analysis</strong>, targeted dispute resolution, and disciplined <strong>credit score building</strong> routines to help you reach and sustain that range.
+    </>
+  ];
+
+  const highlightPoints = [
+    'Personalized score recovery blueprints aligned with your financial goals.',
+    'RBI-compliant dispute management handled by CredSettle’s legal experts.',
+    'Monthly score tracking with proactive adjustments to maintain momentum.'
+  ];
+
+  const keyFactorsCards = [
+    {
+      icon: faCalendarCheck,
+      title: 'Payment History • 35%',
+      description: (
+        <>
+          On-time EMI and credit card payments form the backbone of your <strong>CIBIL score</strong>. Missed or delayed payments trigger score drops and stay on record for years, making disciplined repayment the fastest route to improvement.
+        </>
+      )
+    },
+    {
+      icon: faGaugeHigh,
+      title: 'Credit Utilization • 30%',
+      description: (
+        <>
+          Using less than <strong>30%</strong> of total credit limits signals financial stability. Allow balances to hover near limits and lenders assume stress. We coach you to maintain sub-10% utilization for optimal score traction.
+        </>
+      )
+    },
+    {
+      icon: faLayerGroup,
+      title: 'Credit Mix • 15%',
+      description: (
+        <>
+          A healthy blend of revolving credit (cards) and installment loans demonstrates portfolio maturity. We help diversify responsibly so you showcase competence without over-leveraging.
+        </>
+      )
+    },
+    {
+      icon: faClockRotateLeft,
+      title: 'Credit History Length • 15%',
+      description: (
+        <>
+          Older accounts boost average age and prove long-term reliability. Keep legacy credit lines active even with minimal usage to preserve this high-impact metric.
+        </>
+      )
+    },
+    {
+      icon: faMagnifyingGlassPlus,
+      title: 'New Credit Inquiries • 5%',
+      description: (
+        <>
+          Too many hard pulls in quick succession raise red flags. Strategic spacing of applications protects your <strong>CIBIL score</strong> while still giving room to access new credit when truly needed.
+        </>
+      )
+    }
+  ];
+
+  const processSteps = [
+    {
+      label: 'Step 1',
+      title: 'Deep-Dive Credit Report Analysis',
+      description: (
+        <>
+          Retrieve the latest CIBIL report, audit every account, and pinpoint derogatory marks, utilization spikes, and score-impacting anomalies. Our experts convert this data into a prioritized action list.
+        </>
+      )
+    },
+    {
+      label: 'Step 2',
+      title: 'Set Measurable Score Targets',
+      description: (
+        <>
+          Define a score goal and time horizon—often a <strong>50–100 point</strong> gain across <strong>6–12 months</strong>. Align strategy with upcoming financial milestones like home loans or balance transfers.
+        </>
+      )
+    },
+    {
+      label: 'Step 3',
+      title: 'Create a Personalized Playbook',
+      description: (
+        <>
+          Outline tactics covering timely repayment routines, utilization restructuring, dispute filings, and credit mix enhancements. Each task is sequenced for maximum score velocity.
+        </>
+      )
+    },
+    {
+      label: 'Step 4',
+      title: 'Execute Credit-Building Actions',
+      description: (
+        <>
+          Automate payments, deploy balance reduction plans, initiate disputes, and deploy responsible new credit where needed. Consistency converts tactics into lasting score gains.
+        </>
+      )
+    },
+    {
+      label: 'Step 5',
+      title: 'Monitor, Measure, and Refine',
+      description: (
+        <>
+          Track score changes monthly, recheck reports quarterly, and adjust actions based on results. Rapid feedback loops ensure momentum and protect against regression.
+        </>
+      )
+    }
+  ];
+
+  const reportCards = [
+    {
+      icon: faFileLines,
+      title: 'Know Every Line Item',
+      description: (
+        <>
+          Decode your <strong>CIBIL report</strong>—from account statuses to days past due—so nothing surprises you. Understanding the data is the first safeguard against score erosion.
+        </>
+      )
+    },
+    {
+      icon: faBug,
+      title: 'Spot Reporting Errors',
+      description: (
+        <>
+          Duplicate accounts, incorrect late payment tags, or accounts that are not yours silently depress scores. Regular audits surface these mistakes before they snowball.
+        </>
+      )
+    },
+    {
+      icon: faScaleBalanced,
+      title: 'Dispute with Legal Precision',
+      description: (
+        <>
+          CredSettle drafts RBI-compliant disputes complete with documentation, ensuring bureaus resolve inaccuracies swiftly and permanently.
+        </>
+      )
+    },
+    {
+      icon: faMagnifyingGlassChart,
+      title: 'Monitor Progress Quarterly',
+      description: (
+        <>
+          Schedule report reviews every 90 days to validate corrections, track momentum, and lock in new positive trade lines.
+        </>
+      )
+    }
+  ];
+
+  const benefitsCards = [
+    {
+      icon: faPercent,
+      title: 'Preferential Interest Rates',
+      description: (
+        <>
+          Boosting a home loan offer by just <strong>1%</strong> can save ₹50,000–₹1,00,000 over the tenure. High scores unlock these elite lending slabs.
+        </>
+      )
+    },
+    {
+      icon: faChartColumn,
+      title: 'Higher Credit Limits',
+      description: (
+        <>
+          Enjoy expanded credit lines that enhance your utilization ratio while providing greater purchasing flexibility.
+        </>
+      )
+    },
+    {
+      icon: faFileSignature,
+      title: 'Seamless Loan Approvals',
+      description: (
+        <>
+          Strong scores fast-track approvals for personal, auto, and business loans—often with reduced documentation and quicker disbursement.
+        </>
+      )
+    },
+    {
+      icon: faShieldHalved,
+      title: 'Lower Insurance Premiums',
+      description: (
+        <>
+          Insurers increasingly factor credit health into premium calculations. Better scores can convert into tangible yearly savings.
+        </>
+      )
+    },
+    {
+      icon: faBuilding,
+      title: 'Stronger Rental Negotiation Power',
+      description: (
+        <>
+          Landlords and co-living platforms favor applicants with a clean credit track record. Use your score as leverage for better housing options.
+        </>
+      )
+    },
+    {
+      icon: faArrowsRotate,
+      title: 'Emergency Financial Flexibility',
+      description: (
+        <>
+          Secure credit quickly during critical moments—medical emergencies, business opportunities, or travel—without punitive rates.
+        </>
+      )
+    }
+  ];
+
+  const selectionCards = [
+    {
+      icon: faUserTie,
+      title: 'Specialized Expertise',
+      description: (
+        <>
+          Choose advisors fluent in <strong>CIBIL methodologies</strong>, RBI regulations, and Indian lender expectations—not generic credit coaches.
+        </>
+      )
+    },
+    {
+      icon: faCube,
+      title: 'Comprehensive Service Suite',
+      description: (
+        <>
+          Ensure support covers analysis, dispute drafting, utilization planning, settlement recovery, and long-term monitoring in one place.
+        </>
+      )
+    },
+    {
+      icon: faChartSimple,
+      title: 'Proven Success Metrics',
+      description: (
+        <>
+          Look for transparent case studies and clear timelines showing actual score lift achieved for Indian borrowers just like you.
+        </>
+      )
+    },
+    {
+      icon: faHandshakeSimple,
+      title: 'Transparent Engagements',
+      description: (
+        <>
+          Avoid aggressive up-front fees or unrealistic promises. CredSettle documents every deliverable, timeline, and escalation path.
+        </>
+      )
+    },
+    {
+      icon: faClipboardCheck,
+      title: 'Customized Playbooks',
+      description: (
+        <>
+          No two credit profiles are identical. Demand individualized action plans that target your specific score suppressors.
+        </>
+      )
+    }
+  ];
+
+  const strategyCards = [
+    {
+      icon: faBell,
+      title: 'Automate Every Payment',
+      description: (
+        <>
+          Set up auto-pay or reminders across loans, credit cards, and utilities. One missed EMI can undo months of diligent work.
+        </>
+      )
+    },
+    {
+      icon: faWallet,
+      title: 'Slash Utilization Ratios',
+      description: (
+        <>
+          Aggressively pay down revolving balances mid-cycle and request limit enhancements to keep utilization under <strong>30%</strong>, preferably <strong>10%</strong>.
+        </>
+      )
+    },
+    {
+      icon: faFolderOpen,
+      title: 'Preserve Legacy Accounts',
+      description: (
+        <>
+          Keep long-standing accounts open with minimal activity to preserve average age and showcase credit longevity.
+        </>
+      )
+    },
+    {
+      icon: faBan,
+      title: 'Throttle New Credit Requests',
+      description: (
+        <>
+          Clustered applications create score dips. Space hard inquiries by several months unless a major financing goal is imminent.
+        </>
+      )
+    },
+    {
+      icon: faSitemap,
+      title: 'Balance Your Credit Mix',
+      description: (
+        <>
+          Blend secured and unsecured credit responsibly. Consider secured cards or small-ticket loans to demonstrate diversity without overextending.
+        </>
+      )
+    },
+    {
+      icon: faCircleExclamation,
+      title: 'Dispute Errors Immediately',
+      description: (
+        <>
+          Audit reports quarterly and escalate inaccuracies without delay. Early disputes prevent compounding damage to your score.
+        </>
+      )
+    }
+  ];
+
+  const challengeCards = [
+    {
+      icon: faArrowTrendUp,
+      title: 'Starting from a Low Score',
+      description: (
+        <>
+          Focus on perfect payment discipline and utilization control. Documented progress within 90 days builds momentum and confidence.
+        </>
+      )
+    },
+    {
+      icon: faBug,
+      title: 'Correcting Legacy Errors',
+      description: (
+        <>
+          Historic inaccuracies can be stubborn. CredSettle pursues regulator escalation when bureaus or lenders delay rightful corrections.
+        </>
+      )
+    },
+    {
+      icon: faGaugeHigh,
+      title: 'Managing High Utilization',
+      description: (
+        <>
+          Deploy balance transfer loans, structured repayment plans, or debt consolidation to reset utilization ratios sustainably.
+        </>
+      )
+    },
+    {
+      icon: faSeedling,
+      title: 'Limited Credit History',
+      description: (
+        <>
+          Build depth with secured credit cards, small-ticket personal loans, or co-signed facilities that report every month.
+        </>
+      )
+    },
+    {
+      icon: faKey,
+      title: 'Recovering from Past Defaults',
+      description: (
+        <>
+          Closed settlements do not mean game over. Layer fresh positive trade lines, maintain spotless behavior, and document hardship narratives.
+        </>
+      )
+    }
+  ];
+
+  const buildScratchSteps = [
+    {
+      label: 'Step 1',
+      title: 'Open a Secured Credit Line',
+      description: (
+        <>
+          Use a secured card or credit-builder loan to create the very first positive repayment cycle without risking overspending.
+        </>
+      )
+    },
+    {
+      label: 'Step 2',
+      title: 'Leverage Trusted Connections',
+      description: (
+        <>
+          Become an authorized user on a family member’s well-managed card. Their positive history begins reflecting on your profile.
+        </>
+      )
+    },
+    {
+      label: 'Step 3',
+      title: 'Borrow Small, Repay Perfectly',
+      description: (
+        <>
+          Take manageable installment loans, repay ahead of schedule, and establish a proven track record within the first 6–12 months.
+        </>
+      )
+    },
+    {
+      label: 'Step 4',
+      title: 'Track Every Payment',
+      description: (
+        <>
+          Log payments digitally and set auto-reminders. Several bureaus now include utility and telecom histories that reward punctuality.
+        </>
+      )
+    },
+    {
+      label: 'Step 5',
+      title: 'Let Time Compound Your Efforts',
+      description: (
+        <>
+          Credit building is a marathon. Stay patient, stay consistent, and watch your score climb steadily as positive history accumulates.
+        </>
+      )
+    }
+  ];
+
+  const successCards = [
+    {
+      icon: faChartLine,
+      title: '580 ➜ 750 in 18 Months',
+      description: (
+        <>
+          Strategic disputes, utilization drops from <strong>85%</strong> to <strong>25%</strong>, and automated payments helped our client secure a home loan at premium rates.
+        </>
+      )
+    },
+    {
+      icon: faScaleBalanced,
+      title: 'Defaults to Approval',
+      description: (
+        <>
+          After multiple charge-offs, structured repayments and fresh tradelines lifted a score from <strong>520</strong> to <strong>680</strong>, unlocking personal loan eligibility.
+        </>
+      )
+    },
+    {
+      icon: faStar,
+      title: 'From No History to 720',
+      description: (
+        <>
+          A young professional used secured cards, low utilization, and guided credit diversification to hit a <strong>720</strong> CIBIL score within a year.
+        </>
+      )
+    }
+  ];
+
+  const bestPracticeBullets = [
+    'Review your CIBIL report monthly or at least every quarter to validate progress and catch issues early.',
+    'Automate EMI and credit card payments so one oversight never reverses months of disciplined work.',
+    'Track utilization across every card—keep totals below 30%, with 10% as the stretch goal for rapid gains.',
+    'Apply for credit only when necessary; cluster-free inquiries protect your score during rebuilding phases.',
+    'Partner with trusted professionals when you need tailored strategies, accountability, or dispute support.',
+    'Stay patient and consistent—credit score building is cumulative, not instantaneous.'
+  ];
+
+  const scamCards = [
+    {
+      icon: faCircleExclamation,
+      title: 'Spot Unrealistic Promises',
+      description: (
+        <>
+          Walk away from anyone guaranteeing overnight improvements, fixed score jumps, or new identities. Credibility is rooted in transparency.
+        </>
+      )
+    },
+    {
+      icon: faMagnifyingGlassChart,
+      title: 'Verify Credentials Thoroughly',
+      description: (
+        <>
+          Check registrations, licenses, reviews, and complaint histories. Trust providers who welcome scrutiny and provide references.
+        </>
+      )
+    },
+    {
+      icon: faWallet,
+      title: 'Understand Every Fee',
+      description: (
+        <>
+          Legitimate services detail pricing structures up front. Avoid opaque contracts, hefty advance payments, or shifting fee schedules.
+        </>
+      )
+    },
+    {
+      icon: faFileSignature,
+      title: 'Insist on Written Agreements',
+      description: (
+        <>
+          Document scope, timelines, and deliverables. Signed agreements protect you if expectations are not met.
+        </>
+      )
+    },
+    {
+      icon: faStar,
+      title: 'Choose Reputed Specialists',
+      description: (
+        <>
+          CredSettle’s RBI-compliant framework and documented success stories offer peace of mind while you rebuild credit responsibly.
+        </>
+      )
+    }
+  ];
+
+  const conclusionParagraphs: ReactNode[] = [
+    <>
+      Strengthening your <strong>CIBIL credit score</strong> is a journey grounded in knowledge, structure, and discipline. Whether you are recovering from financial setbacks, preparing for a major loan, or starting from zero, a guided <strong>credit score building</strong> strategy positions you for lasting success.
+    </>,
+    <>
+      CredSettle’s <strong>credit score builder</strong> methodology combines forensic credit report analysis, proven dispute protocols, utilization engineering, and long-term coaching to deliver sustainable score growth.
+    </>,
+    <>
+      Stay the course—consistent payments, careful credit usage, and vigilant monitoring transform your profile over time. The rewards include better rates, stronger negotiating power, and true financial flexibility.
+    </>,
+    <>
+      Ready to accelerate your <strong>credit score improvement</strong>? Schedule a free consultation with CredSettle. Our legal-financial experts will craft a personalized blueprint that protects your rights and maximizes your score potential.
+    </>
+  ];
+
+  const guideSections: GuideSection[] = [
+    {
+      id: 'understanding-cibil-credit-score',
+      title: 'Understanding CIBIL Credit Score: A Comprehensive Overview',
+      paragraphs: [
+        <>
+          Your <strong>CIBIL credit score</strong> condenses your repayment behavior, credit mix, and borrowing history into a three-digit verdict ranging from <strong>300</strong> to <strong>900</strong>. Lenders reference it to decide approvals, rates, and limits almost instantly.
+        </>,
+        <>
+          Sustained <strong>credit score building</strong> focuses on disciplined repayment, optimized utilization, and proactive monitoring. Think long-term: unlike a one-time settlement, a strong score requires ongoing, responsible credit behavior.
+        </>,
+        <>
+          CredSettle maps each component influencing your score, translating numbers into a prioritized action plan that fits your financial timeline.
+        </>
+      ]
+    },
+    {
+      id: 'factors-affecting-credit-score',
+      title: 'Factors Affecting Your CIBIL Credit Score',
+      paragraphs: [
+        <>
+          Mastering the five primary rating factors is the fastest path to <strong>credit score improvement</strong>. Each lever can be optimized with targeted habits and guidance.
+        </>
+      ],
+      cards: keyFactorsCards
+    },
+    {
+      id: 'credit-score-building-process',
+      title: 'The Credit Score Building Process: Step-by-Step Guide',
+      paragraphs: [
+        <>
+          Successful <strong>credit score building</strong> is systematic. Follow this sequencing to engineer consistent gains and guard against backsliding.
+        </>
+      ],
+      steps: processSteps
+    },
+    {
+      id: 'credit-report-analysis',
+      title: 'Credit Report Analysis and Dispute Resolution',
+      paragraphs: [
+        <>
+          Proactive <strong>credit report analysis</strong> prevents quiet errors from derailing your progress. Document everything, escalate strategically, and keep bureaus accountable.
+        </>
+      ],
+      cards: reportCards
+    },
+    {
+      id: 'benefits-of-credit-score-building',
+      title: 'Benefits of Credit Score Building: Why It Matters',
+      paragraphs: [
+        <>
+          A formidable <strong>CIBIL score</strong> is more than a number—it is negotiating power, cost savings, and financial freedom rolled into one.
+        </>
+      ],
+      cards: benefitsCards
+    },
+    {
+      id: 'choosing-credit-score-builder',
+      title: 'Choosing the Right Credit Score Builder Service',
+      paragraphs: [
+        <>
+          Selecting the right partner determines how smoothly—and legally—your score rebounds. Use these benchmarks before trusting any advisor with your data.
+        </>
+      ],
+      cards: selectionCards
+    },
+    {
+      id: 'credit-score-improvement-strategies',
+      title: 'Proven Credit Score Improvement Strategies',
+      paragraphs: [
+        <>
+          Turn these foundational habits into non-negotiables. Together they create compounding score momentum month after month.
+        </>
+      ],
+      cards: strategyCards
+    },
+    {
+      id: 'challenges-solutions',
+      title: 'Common Challenges in Credit Score Building and Solutions',
+      paragraphs: [
+        <>
+          Every credit journey carries obstacles. Anticipate the big five roadblocks and deploy targeted remedies before they slow you down.
+        </>
+      ],
+      cards: challengeCards
+    },
+    {
+      id: 'building-credit-from-scratch',
+      title: 'Building Credit from Scratch: A Beginner’s Blueprint',
+      paragraphs: [
+        <>
+          New to credit? Follow this structured roadmap to create a spotless foundation the bureaus will reward with steady score gains.
+        </>
+      ],
+      steps: buildScratchSteps
+    },
+    {
+      id: 'success-stories',
+      title: 'Credit Score Improvement Success Stories',
+      paragraphs: [
+        <>
+          Real clients, real transformations. These milestones showcase what disciplined execution plus expert guidance makes possible.
+        </>
+      ],
+      cards: successCards
+    },
+    {
+      id: 'tips-best-practices',
+      title: 'Credit Score Building Tips and Best Practices',
+      paragraphs: [
+        <>
+          Keep these high-impact reminders front and centre as you sustain your score climb over the months ahead.
+        </>
+      ],
+      bullets: bestPracticeBullets,
+      bulletTitle: 'Staying Consistent Pays Off'
+    },
+    {
+      id: 'avoiding-scams',
+      title: 'Avoiding Credit Score Building Scams',
+      paragraphs: [
+        <>
+          The credit repair space attracts bad actors. Use this checklist to safeguard your identity, money, and time.
+        </>
+      ],
+      cards: scamCards
+    },
+    {
+      id: 'conclusion',
+      title: 'Conclusion: Your Path to Better Credit Starts Today',
+      paragraphs: conclusionParagraphs
     }
   ];
 
@@ -190,316 +894,230 @@ export default function CreditScoreBuilderClient() {
             <section className="w-full py-6">
               <div className="w-full max-w-7xl mx-auto px-4">
                 <div
+                  className="bg-gradient-to-br from-blue-50/40 via-white to-blue-100/20 rounded-3xl p-6 md:p-8 lg:p-12"
                   style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontSize: '16px',
-                    lineHeight: '28px',
-                    opacity: 0.9
+                    boxShadow: '0 12px 48px rgba(0, 122, 255, 0.08)',
+                    border: '1px solid rgba(0, 122, 255, 0.12)'
                   }}
                 >
-                  {/* Introduction */}
-                  <div className="mb-8">
-                    <p className="mb-4">
-                      Your <strong>CIBIL credit score</strong> is one of the most important financial metrics in India, determining your ability to secure loans, credit cards, and other financial products. Whether you're looking to build credit from scratch, improve an existing <strong>credit score</strong>, or recover from past financial setbacks, understanding <strong>credit score building</strong> is essential for financial success. This comprehensive guide covers everything you need to know about <strong>CIBIL credit score builder</strong>, <strong>credit score improvement</strong>, and proven strategies to boost your creditworthiness.
-                    </p>
-                    <p className="mb-4">
-                      A good <strong>credit score</strong> opens doors to better interest rates, higher credit limits, and more financial opportunities. In India, <strong>CIBIL credit score</strong> ranges from 300 to 900, with scores above 750 considered excellent. This guide covers <strong>credit score building</strong> strategies, <strong>credit report analysis</strong>, <strong>credit score improvement</strong> techniques, and how professional <strong>credit score builder services</strong> like CredSettle can help you achieve your financial goals.
-                    </p>
+                  <div className="space-y-6 md:space-y-8">
+                    <div>
+                      <h2
+                        className="text-2xl md:text-3xl lg:text-[32px] font-semibold leading-tight"
+                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '42px' }}
+                      >
+                        Master Your CIBIL Credit Score with CredSettle
+                      </h2>
+                      <div className="mt-4 space-y-4">
+                        {introductionParagraphs.map((paragraph, index) => (
+                          <p key={index} className="text-sm md:text-base" style={bodyTextStyle}>
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
                   </div>
 
-                  {/* Understanding CIBIL Credit Score */}
-                  <h2 id="understanding-cibil-credit-score" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Understanding CIBIL Credit Score: A Comprehensive Overview
-                  </h2>
-                  <p className="mb-4">
-                    Your <strong>CIBIL credit score</strong> is a three-digit number ranging from 300 to 900 that represents your creditworthiness in India. Calculated by CIBIL (Credit Information Bureau India Limited), this score is based on your credit history, payment behavior, credit utilization ratio, credit mix, and length of credit history. A higher <strong>credit score</strong> indicates better creditworthiness and makes it easier to secure loans, credit cards, and other financial products at favorable terms.
-                  </p>
-                  <p className="mb-4">
-                    The <strong>CIBIL credit score builder</strong> process involves understanding how your score is calculated, identifying factors affecting your score, and implementing strategies to improve it. Key components of <strong>credit score building</strong> include maintaining timely payments, keeping credit utilization low, diversifying your credit mix, and regularly monitoring your credit report. Each of these factors plays a crucial role in determining your overall <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    When working on <strong>credit score improvement</strong>, it's important to understand that building credit is a long-term process. Unlike <strong>loan settlement</strong> which is a one-time event, <strong>credit score building</strong> requires consistent, responsible financial behavior over time. A <strong>credit score builder service</strong> can help you develop a personalized strategy to improve your score systematically and sustainably.
-                  </p>
+                    <div className="rounded-2xl border border-blue-100/70 bg-white/80 p-6 md:p-7 shadow-[0px_10px_30px_rgba(0,122,255,0.08)]">
+                      <div className="flex flex-col gap-4 md:flex-row md:items-start md:gap-6">
+                        <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/15 text-blue-600">
+                          <FontAwesomeIcon icon={faArrowTrendUp} className="h-5 w-5" />
+                        </span>
+                        <div className="flex-1">
+                          <h3
+                            className="text-lg md:text-xl font-semibold"
+                            style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '28px' }}
+                          >
+                            CredSettle Credit Score Builder Advantage
+                          </h3>
+                          <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                            We combine legal muscle, data-driven analytics, and disciplined coaching to deliver compounding credit score gains that hold up with every bureau and lender in India.
+                          </p>
+                          <ul className="mt-4 space-y-2">
+                            {highlightPoints.map((point) => (
+                              <li key={point} className="flex items-start gap-3">
+                                <span className="mt-1 h-2.5 w-2.5 flex-shrink-0 rounded-full bg-blue-500/80" />
+                                <span className="text-sm md:text-base" style={cardTextStyle}>
+                                  {point}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-                  {/* Factors Affecting Credit Score */}
-                  <h2 id="factors-affecting-credit-score" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Factors Affecting Your CIBIL Credit Score
+                  <div className="mt-10 md:mt-12 space-y-12 md:space-y-14">
+                    {guideSections.map((section, index) => (
+                      <article
+                        key={section.id}
+                        className="rounded-3xl border border-blue-100/60 bg-white/75 p-6 md:p-7 lg:p-8 shadow-[0px_12px_35px_rgba(0,122,255,0.05)] backdrop-blur-sm"
+                      >
+                        <div className="flex items-start gap-4">
+                          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-100 text-base font-semibold text-blue-600">
+                            {String(index + 1).padStart(2, '0')}
+                          </div>
+                          <div className="flex-1">
+                            <h2
+                              id={section.id}
+                              className="text-xl md:text-2xl font-semibold leading-tight"
+                              style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '32px' }}
+                            >
+                              {section.title}
                   </h2>
-                  <p className="mb-4">
-                    Understanding what affects your <strong>CIBIL credit score</strong> is crucial for effective <strong>credit score building</strong>. Several key factors determine your score:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Payment History (35%)</strong> - This is the most important factor in your <strong>credit score</strong> calculation. Making timely payments on all credit accounts, including credit cards, loans, and other debts, is essential for <strong>credit score improvement</strong>. Late payments, defaults, or missed payments can significantly damage your <strong>CIBIL credit score</strong>. A <strong>credit score builder service</strong> can help you identify and address payment issues.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Credit Utilization Ratio (30%)</strong> - This refers to the percentage of your available credit that you're using. Keeping your <strong>credit utilization</strong> below 30% is ideal for <strong>credit score building</strong>. High utilization indicates financial stress and can negatively impact your <strong>credit score</strong>. Managing credit card balances and keeping them low relative to credit limits is crucial for <strong>credit score improvement</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Credit Mix (15%)</strong> - Having a diverse mix of credit types, such as credit cards, personal loans, and other credit products, can positively impact your <strong>credit score</strong>. However, this doesn't mean you should take unnecessary loans. A healthy <strong>credit mix</strong> shows lenders that you can manage different types of credit responsibly, which is important for <strong>credit score building</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Length of Credit History (15%)</strong> - A longer credit history generally improves your <strong>credit score</strong>. This factor considers the age of your oldest account and the average age of all accounts. Keeping old accounts open and active is beneficial for <strong>credit score improvement</strong>, even if you don't use them frequently.
-                  </p>
-                  <p className="mb-4">
-                    <strong>New Credit Inquiries (5%)</strong> - Multiple hard inquiries in a short period can negatively impact your <strong>CIBIL credit score</strong>. Each time you apply for credit, a hard inquiry is recorded on your credit report. Too many inquiries suggest financial stress and can lower your <strong>credit score</strong>. Limiting credit applications is important for <strong>credit score building</strong>.
-                  </p>
-                  <p className="mb-4">
-                    Understanding these factors helps you develop an effective <strong>credit score builder</strong> strategy. A professional <strong>credit score builder service</strong> can analyze your credit report and provide personalized recommendations to improve each of these factors.
-                  </p>
 
-                  {/* Credit Score Building Process */}
-                  <h2 id="credit-score-building-process" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    The Credit Score Building Process: Step-by-Step Guide
-                  </h2>
-                  <p className="mb-4">
-                    Understanding the <strong>credit score building</strong> process is essential for improving your <strong>CIBIL credit score</strong>. Here's a detailed breakdown of how <strong>credit score improvement</strong> works:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 1: Credit Report Analysis</strong> - The first step in any <strong>credit score builder</strong> process involves obtaining and analyzing your credit report from CIBIL. This includes checking for errors, identifying negative factors, understanding your current <strong>credit score</strong>, and reviewing payment history. Professional <strong>credit score builder services</strong> conduct comprehensive <strong>credit report analysis</strong> to identify specific issues affecting your score.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 2: Identify Issues and Set Goals</strong> - Once you understand your credit report, identify specific issues affecting your <strong>credit score</strong>. This may include late payments, high credit utilization, errors in your credit report, or lack of credit history. Set realistic goals for <strong>credit score improvement</strong>, such as increasing your score by 50-100 points within 6-12 months. A <strong>credit score builder service</strong> can help you set achievable targets.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 3: Develop a Personalized Strategy</strong> - Create a customized <strong>credit score building</strong> strategy based on your specific situation. This may include paying down debts, disputing errors, improving payment habits, or diversifying your credit mix. The strategy should address all factors affecting your <strong>CIBIL credit score</strong> and provide a clear action plan for <strong>credit score improvement</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 4: Implement Credit-Building Actions</strong> - Start implementing your <strong>credit score builder</strong> strategy. This includes making all payments on time, reducing credit card balances, keeping credit utilization low, and avoiding unnecessary credit applications. Consistency is key to successful <strong>credit score building</strong>. Small, consistent actions can lead to significant <strong>credit score improvement</strong> over time.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 5: Monitor Progress and Adjust</strong> - Regularly monitor your <strong>credit score</strong> and track your progress. Check your <strong>CIBIL credit score</strong> monthly and review your credit report quarterly. Adjust your strategy as needed based on your progress and any changes in your financial situation. A <strong>credit score builder service</strong> can provide ongoing monitoring and guidance.
-                  </p>
+                            {section.paragraphs && (
+                              <div className="mt-4 space-y-4">
+                                {section.paragraphs.map((paragraph, paragraphIndex) => (
+                                  <p key={paragraphIndex} className="text-sm md:text-base" style={bodyTextStyle}>
+                                    {paragraph}
+                                  </p>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* Credit Report Analysis and Dispute Resolution */}
-                  <h2 id="credit-report-analysis" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Credit Report Analysis and Dispute Resolution
-                  </h2>
-                  <p className="mb-4">
-                    Regular <strong>credit report analysis</strong> is essential for effective <strong>credit score building</strong>. Understanding your credit report helps you identify errors, negative factors, and opportunities for <strong>credit score improvement</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Understanding Your Credit Report</strong> - Your <strong>CIBIL credit report</strong> contains detailed information about your credit history, including payment history, credit accounts, inquiries, and negative marks. A thorough <strong>credit report analysis</strong> helps you understand what's affecting your <strong>credit score</strong> and identify areas for improvement. A professional <strong>credit score builder service</strong> can provide comprehensive <strong>credit report analysis</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Identifying Errors</strong> - Credit reports can contain errors that negatively impact your <strong>credit score</strong>. Common errors include incorrect payment information, accounts that don't belong to you, duplicate entries, or outdated information. Regular <strong>credit report analysis</strong> helps identify these errors so they can be disputed and corrected.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Dispute Resolution</strong> - If you find errors in your credit report, you can dispute them with CIBIL. The dispute resolution process involves submitting a formal complaint with supporting documentation. A <strong>credit score builder service</strong> can help you file effective disputes to correct errors and improve your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Monitoring Your Credit Report</strong> - Regular monitoring of your <strong>credit report</strong> is crucial for <strong>credit score building</strong>. Check your <strong>CIBIL credit report</strong> at least quarterly to track your progress, identify new issues, and ensure accuracy. Many <strong>credit score builder services</strong> offer credit monitoring as part of their packages.
-                  </p>
+                            {section.bullets && (
+                              <div className="mt-6 rounded-2xl border border-blue-100/70 bg-blue-50/40 p-5 md:p-6">
+                                <h3
+                                  className="text-sm font-semibold uppercase tracking-wide text-blue-600 mb-4"
+                                  style={{ fontFamily: 'Poppins', letterSpacing: '0.08em' }}
+                                >
+                                  {section.bulletTitle ?? 'Key Takeaways'}
+                                </h3>
+                                <ul className="space-y-3">
+                                  {section.bullets.map((bullet) => (
+                                    <li key={bullet} className="flex items-start gap-3">
+                                      <span className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/15 text-blue-600">
+                                        <FontAwesomeIcon icon={faCircleExclamation} className="h-4 w-4" />
+                                      </span>
+                                      <span className="flex-1 text-sm md:text-base" style={bodyTextStyle}>
+                                        {bullet}
+                                      </span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
 
-                  {/* Benefits of Credit Score Building */}
-                  <h2 id="benefits-of-credit-score-building" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Benefits of Credit Score Building: Why Improve Your Credit Score?
-                  </h2>
-                  <p className="mb-4">
-                    Improving your <strong>CIBIL credit score</strong> offers numerous benefits for your financial well-being:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Better Interest Rates</strong> - A higher <strong>credit score</strong> qualifies you for better interest rates on loans and credit cards. This can save you thousands of rupees over the life of a loan. For example, a 1% difference in interest rate on a ₹10 lakh home loan can save you ₹50,000-₹100,000 over the loan term.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Higher Credit Limits</strong> - Good <strong>credit scores</strong> help you qualify for higher credit limits on credit cards and other credit products. This provides more financial flexibility and can help improve your <strong>credit utilization ratio</strong>, which further benefits your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Easier Loan Approval</strong> - Lenders are more likely to approve loan applications from borrowers with good <strong>credit scores</strong>. A high <strong>CIBIL credit score</strong> makes it easier to get approved for personal loans, home loans, car loans, and other credit products.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Lower Insurance Premiums</strong> - Some insurance companies use <strong>credit scores</strong> to determine premiums. A good <strong>credit score</strong> can help you qualify for lower insurance premiums, saving you money on car insurance, home insurance, and other policies.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Better Rental Opportunities</strong> - Landlords often check <strong>credit scores</strong> when evaluating rental applications. A good <strong>credit score</strong> can help you secure better rental properties and negotiate favorable lease terms.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Financial Flexibility</strong> - A good <strong>credit score</strong> provides financial flexibility by making it easier to access credit when needed. This can be crucial during emergencies or when opportunities arise that require quick access to funds.
-                  </p>
+                            {section.cards && (
+                              <div className="mt-6 grid gap-4 md:grid-cols-2 md:gap-6">
+                                {section.cards.map((card) => (
+                                  <div
+                                    key={card.title}
+                                    className="h-full rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] transition-shadow duration-200 hover:shadow-[0px_12px_30px_rgba(0,122,255,0.12)]"
+                                  >
+                                    <div className="flex items-start gap-4">
+                                      <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
+                                        <FontAwesomeIcon icon={card.icon} className="h-5 w-5" />
+                                      </span>
+                                      <div>
+                                        <h3
+                                          className="text-base md:text-lg font-semibold"
+                                          style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}
+                                        >
+                                          {card.title}
+                                        </h3>
+                                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                          {card.description}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* Choosing a Credit Score Builder Service */}
-                  <h2 id="choosing-credit-score-builder" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Choosing the Right Credit Score Builder Service
-                  </h2>
-                  <p className="mb-4">
-                    Selecting the right <strong>credit score builder service</strong> is crucial for successful <strong>credit score improvement</strong>. Here are key factors to consider:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Experience and Expertise</strong> - Look for <strong>credit score builder services</strong> with extensive experience in credit improvement and <strong>credit report analysis</strong>. CredSettle specializes in <strong>CIBIL credit score builder</strong> services, helping clients improve their scores through proven strategies.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Comprehensive Services</strong> - Choose a <strong>credit score builder service</strong> that offers comprehensive services including <strong>credit report analysis</strong>, dispute resolution, personalized improvement strategies, and ongoing monitoring. The best services provide end-to-end support for <strong>credit score building</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Success Rate</strong> - Research the success rate of <strong>credit score builder services</strong>. Look for services with proven track records of helping clients improve their <strong>credit scores</strong>. CredSettle has helped thousands of clients improve their <strong>CIBIL credit scores</strong> through effective strategies.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Transparency</strong> - Choose <strong>credit score builder services</strong> that are transparent about fees, processes, and expected outcomes. Avoid services that make unrealistic promises or charge excessive fees upfront.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Personalized Approach</strong> - The best <strong>credit score builder services</strong> provide personalized strategies based on your specific credit situation. A one-size-fits-all approach rarely works for <strong>credit score improvement</strong>. Look for services that analyze your credit report and create customized action plans.
-                  </p>
+                            {section.lists && (
+                              <div className="mt-6 grid gap-4 md:grid-cols-2">
+                                {section.lists.map((list) => (
+                                  <div
+                                    key={list.title}
+                                    className="rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)]"
+                                  >
+                                    <div className="mb-4 flex items-start gap-3">
+                                      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
+                                        <FontAwesomeIcon icon={list.icon} className="h-5 w-5" />
+                                      </span>
+                                      <h3
+                                        className="text-base font-semibold"
+                                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
+                                      >
+                                        {list.title}
+                                      </h3>
+                                    </div>
+                                    <ul className="space-y-3">
+                                      {list.items.map((item) => (
+                                        <li key={item} className="flex items-start gap-3">
+                                          <span className="mt-[7px] h-2 w-2 rounded-full bg-blue-500/80" />
+                                          <span className="flex-1 text-sm md:text-base" style={cardTextStyle}>
+                                            {item}
+                                          </span>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* Credit Score Improvement Strategies */}
-                  <h2 id="credit-score-improvement-strategies" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Proven Credit Score Improvement Strategies
-                  </h2>
-                  <p className="mb-4">
-                    Effective <strong>credit score improvement</strong> requires implementing proven strategies consistently over time:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Pay Bills on Time</strong> - Making timely payments on all credit accounts is the most important factor in <strong>credit score building</strong>. Set up automatic payments or reminders to ensure you never miss a payment. Even one late payment can significantly impact your <strong>CIBIL credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Reduce Credit Utilization</strong> - Keep your <strong>credit utilization</strong> below 30% of your available credit limit. If possible, pay down balances to below 10% for optimal <strong>credit score improvement</strong>. This single change can significantly boost your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Don't Close Old Accounts</strong> - Keep old credit accounts open, even if you don't use them frequently. The length of your credit history is an important factor in <strong>credit score</strong> calculation. Closing old accounts can shorten your credit history and lower your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Limit New Credit Applications</strong> - Avoid applying for multiple credit products in a short period. Each application creates a hard inquiry on your credit report, which can temporarily lower your <strong>credit score</strong>. Space out credit applications to minimize their impact on your <strong>CIBIL credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Diversify Your Credit Mix</strong> - Having a mix of credit types, such as credit cards, personal loans, and other credit products, can positively impact your <strong>credit score</strong>. However, only take on credit you need and can manage responsibly.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Dispute Errors</strong> - Regularly check your credit report for errors and dispute any inaccuracies. Correcting errors can quickly improve your <strong>credit score</strong>. A <strong>credit score builder service</strong> can help you identify and dispute errors effectively.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Be Patient and Consistent</strong> - <strong>Credit score improvement</strong> takes time. Be patient and consistent with your efforts. Small, consistent actions over time lead to significant <strong>credit score improvement</strong>. A <strong>credit score builder</strong> service can help you stay on track and monitor your progress.
-                  </p>
+                            {section.callouts && (
+                              <div className="mt-6 grid gap-4 md:grid-cols-2">
+                                {section.callouts.map((callout) => (
+                                  <div
+                                    key={callout.title}
+                                    className="rounded-2xl border border-blue-100/80 bg-gradient-to-br from-blue-500/10 via-white to-blue-100/10 p-5 md:p-6"
+                                  >
+                                    <div className="flex items-start gap-3">
+                                      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white">
+                                        <FontAwesomeIcon icon={callout.icon} className="h-5 w-5" />
+                                      </span>
+                                      <div>
+                                        <h3
+                                          className="text-base font-semibold"
+                                          style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
+                                        >
+                                          {callout.title}
+                                        </h3>
+                                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                          {callout.description}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* Common Challenges in Credit Score Building */}
-                  <h2 id="challenges-solutions" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Common Challenges in Credit Score Building and Solutions
-                  </h2>
-                  <p className="mb-4">
-                    The <strong>credit score building</strong> process can present various challenges, but understanding these challenges helps in successful <strong>credit score improvement</strong>:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Low Credit Score</strong> - Starting with a low <strong>CIBIL credit score</strong> can be discouraging, but it's not impossible to improve. Focus on making all payments on time, reducing credit utilization, and avoiding new credit applications. A <strong>credit score builder service</strong> can help you develop a personalized strategy to improve your score systematically.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Errors in Credit Report</strong> - Credit reports can contain errors that negatively impact your <strong>credit score</strong>. These errors can be disputed and corrected, but the process requires patience and persistence. A <strong>credit score builder service</strong> can help you identify errors and file effective disputes to correct them.
-                  </p>
-                  <p className="mb-4">
-                    <strong>High Credit Utilization</strong> - High <strong>credit utilization</strong> is one of the most common reasons for low credit scores. Reducing credit card balances and keeping utilization below 30% is crucial for <strong>credit score improvement</strong>. This may require paying down debts or increasing credit limits.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Limited Credit History</strong> - Having limited credit history can make it difficult to build a good <strong>credit score</strong>. Building credit history requires time and responsible credit usage. Consider using secured credit cards or becoming an authorized user on someone else's account to build credit history.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Past Mistakes</strong> - Past mistakes like late payments or defaults can negatively impact your <strong>credit score</strong> for years. While you can't change the past, you can improve your future credit behavior. Making consistent timely payments and maintaining good credit habits can help improve your <strong>CIBIL credit score</strong> over time.
-                  </p>
-
-                  {/* Building Credit from Scratch */}
-                  <h2 id="building-credit-from-scratch" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Building Credit from Scratch: A Beginner's Guide
-                  </h2>
-                  <p className="mb-4">
-                    If you're new to credit or have no credit history, building credit from scratch requires specific strategies:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Start with Secured Credit Cards</strong> - Secured credit cards are an excellent way to start building credit. These cards require a security deposit but function like regular credit cards. Using a secured credit card responsibly and making timely payments helps build your <strong>credit history</strong> and improve your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Become an Authorized User</strong> - Becoming an authorized user on someone else's credit card account can help you build credit history. Make sure the primary account holder has good credit habits, as their payment history will affect your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Take a Small Loan</strong> - Taking a small loan, such as a personal loan or credit builder loan, and making timely payments can help build your <strong>credit history</strong>. Make sure you can afford the payments and only borrow what you need.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Pay Bills on Time</strong> - While utility bills don't typically appear on credit reports, some credit bureaus now include this information. Making timely payments on all bills helps establish good payment habits and can contribute to your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Be Patient</strong> - Building credit from scratch takes time. It typically takes 6-12 months of responsible credit usage to establish a good <strong>credit score</strong>. Be patient and consistent with your efforts. A <strong>credit score builder service</strong> can help you stay on track and monitor your progress.
-                  </p>
-
-                  {/* Credit Score Success Stories */}
-                  <h2 id="success-stories" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Credit Score Improvement Success Stories: Real Results
-                  </h2>
-                  <p className="mb-4">
-                    Understanding how others have improved their <strong>credit scores</strong> can provide insight into what you can achieve:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Case Study 1: Credit Score Improvement from 580 to 750</strong> - A client with a <strong>CIBIL credit score</strong> of 580 improved it to 750 within 18 months. The client worked with a <strong>credit score builder service</strong> to identify issues, dispute errors, reduce credit utilization from 85% to 25%, and establish consistent payment habits. The improved <strong>credit score</strong> helped the client qualify for a home loan at favorable interest rates.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Case Study 2: Recovering from Defaults</strong> - A borrower with multiple defaults improved their <strong>credit score</strong> from 520 to 680 within two years. The borrower worked with a <strong>credit score builder</strong> to dispute errors, pay down debts, and establish new positive credit history. The improved <strong>credit score</strong> enabled the borrower to qualify for a personal loan.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Case Study 3: Building Credit from Scratch</strong> - A young professional with no credit history built a <strong>credit score</strong> of 720 within 12 months. The client started with a secured credit card, made all payments on time, kept credit utilization low, and gradually diversified their credit mix. The <strong>credit score builder service</strong> provided guidance throughout the process.
-                  </p>
-                  <p className="mb-4">
-                    These success stories demonstrate that <strong>credit score improvement</strong> is achievable with the right strategy and consistent effort. Working with a professional <strong>credit score builder service</strong> can significantly improve your chances of success.
-                  </p>
-
-                  {/* Credit Score Building Tips and Best Practices */}
-                  <h2 id="tips-best-practices" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Credit Score Building Tips and Best Practices
-                  </h2>
-                  <p className="mb-4">
-                    Following best practices can significantly improve your <strong>credit score building</strong> efforts:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Check Your Credit Report Regularly</strong> - Regularly checking your <strong>CIBIL credit report</strong> helps you identify errors, track your progress, and understand what's affecting your <strong>credit score</strong>. Check your report at least quarterly, if not monthly, for effective <strong>credit score building</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Set Up Payment Reminders</strong> - Missing payments is one of the biggest mistakes in <strong>credit score building</strong>. Set up automatic payments or reminders to ensure you never miss a payment. Even one late payment can significantly damage your <strong>CIBIL credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Monitor Your Credit Utilization</strong> - Keep track of your <strong>credit utilization</strong> across all credit cards. Aim to keep total utilization below 30%, and ideally below 10% for optimal <strong>credit score improvement</strong>. High utilization indicates financial stress and can lower your <strong>credit score</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Limit Credit Applications</strong> - Avoid applying for multiple credit products in a short period. Each application creates a hard inquiry that can temporarily lower your <strong>credit score</strong>. Space out credit applications and only apply when necessary.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Work with Professionals</strong> - Consider working with a professional <strong>credit score builder service</strong> for personalized guidance and support. Professional services can help you identify issues, develop strategies, and monitor your progress more effectively than doing it alone.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Be Patient and Consistent</strong> - <strong>Credit score improvement</strong> takes time. Be patient and consistent with your efforts. Small, consistent actions over time lead to significant <strong>credit score improvement</strong>. Don't expect overnight results, but trust the process.
-                  </p>
-
-                  {/* Avoiding Credit Score Building Scams */}
-                  <h2 id="avoiding-scams" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Avoiding Credit Score Building Scams: Protecting Yourself
-                  </h2>
-                  <p className="mb-4">
-                    Unfortunately, there are fraudulent <strong>credit score builder services</strong> that prey on vulnerable consumers. Here's how to protect yourself:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Red Flags to Watch For</strong> - Be wary of services that promise instant <strong>credit score improvement</strong>, guarantee specific score increases, charge excessive upfront fees, or ask you to create a new credit identity. Legitimate <strong>credit score builder services</strong> are transparent about fees, realistic about outcomes, and focus on legal, ethical methods.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Verify Credentials</strong> - Check that the <strong>credit score builder service</strong> is legitimate, registered, and has proper licenses. Verify their track record, read client reviews, and check for any complaints with regulatory authorities. Legitimate companies are transparent about their credentials and experience.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Understand Fees</strong> - Legitimate <strong>credit score builder services</strong> are transparent about fees and typically charge reasonable fees for their services. Be suspicious of services that charge large upfront fees, promise unrealistic results, or make fees difficult to understand.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Get Everything in Writing</strong> - Always get agreements in writing, including fee structures, services provided, and expected outcomes. Avoid services that are reluctant to provide written agreements or use high-pressure tactics to get you to sign quickly.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Work with Reputable Services</strong> - CredSettle is a trusted <strong>credit score builder service</strong> with a proven track record of helping clients improve their <strong>CIBIL credit scores</strong>. We provide transparent, ethical, and effective <strong>credit score building</strong> services that help clients achieve their financial goals.
-                  </p>
-
-                  {/* Conclusion */}
-                  <h2 id="conclusion" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Conclusion: Your Path to Better Credit Score Through Credit Score Building
-                  </h2>
-                  <p className="mb-4">
-                    Improving your <strong>CIBIL credit score</strong> is a journey that requires patience, consistency, and the right strategies. Whether you're building credit from scratch, recovering from past mistakes, or looking to improve an existing <strong>credit score</strong>, understanding <strong>credit score building</strong> is essential for financial success.
-                  </p>
-                  <p className="mb-4">
-                    The key to successful <strong>credit score improvement</strong> is understanding what affects your score, implementing proven strategies consistently, and working with professionals when needed. CredSettle provides comprehensive <strong>CIBIL credit score builder</strong> services that help you improve your score through proven strategies, personalized guidance, and ongoing support.
-                  </p>
-                  <p className="mb-4">
-                    Remember, <strong>credit score building</strong> is a long-term process that requires consistent effort. By making timely payments, keeping credit utilization low, monitoring your credit report, and working with professional <strong>credit score builder services</strong>, you can achieve significant <strong>credit score improvement</strong> and unlock better financial opportunities.
-                  </p>
-                  <p className="mb-4">
-                    If you're looking to improve your <strong>credit score</strong>, reach out to CredSettle for a free consultation. Our expert team will analyze your credit report, identify improvement opportunities, and provide a personalized <strong>credit score builder</strong> strategy to help you achieve your financial goals.
-                  </p>
+                            {section.steps && (
+                              <div className="mt-6 space-y-4">
+                                {section.steps.map((step) => (
+                                  <div
+                                    key={step.title}
+                                    className="flex flex-col gap-3 rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] md:flex-row md:items-start"
+                                  >
+                                    <div className="flex h-10 w-24 items-center justify-center rounded-full bg-blue-600 text-sm font-semibold uppercase text-white">
+                                      {step.label}
+                                    </div>
+                                    <div className="flex-1">
+                                      <h3
+                                        className="text-base md:text-lg font-semibold"
+                                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}
+                                      >
+                                        {step.title}
+                                      </h3>
+                                      <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                        {step.description}
+                                      </p>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </article>
+                    ))}
+                  </div>
                 </div>
               </div>
             </section>

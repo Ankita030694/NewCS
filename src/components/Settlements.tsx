@@ -32,17 +32,17 @@ export default function Settlements() {
     setSelectedBank(bankId);
     setIsAnimating(true);
     setShowLetter(false); // Hide letter initially
-    
-    // Show letter after all line animations complete (2400ms total: 1200ms left lines + 1200ms right line)
+
+    // Show letter quickly after interaction (reduced to 1000ms for faster feedback)
     setTimeout(() => {
       setSettlementLetter(selectedLetter);
       setShowLetter(true);
-    }, 2400);
-    
+    }, 1000);
+
     // Reset animation after completion
     setTimeout(() => {
       setIsAnimating(false);
-    }, 2600);
+    }, 1200);
   };
 
   const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
@@ -98,7 +98,7 @@ export default function Settlements() {
               strokeDasharray="200"
               strokeDashoffset={isAnimating && selectedBank ? "0" : "200"}
               style={{
-                transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
+                transition: 'stroke-dashoffset 0.2s ease-in-out, opacity 0.2s ease-in-out',
                 transitionDelay: '0s',
                 opacity: isAnimating && selectedBank ? 1 : 0
               }}
@@ -125,8 +125,8 @@ export default function Settlements() {
               strokeDasharray="200"
               strokeDashoffset={isAnimating && selectedBank ? "0" : "200"}
               style={{
-                transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
-                transitionDelay: '0s',
+                transition: 'stroke-dashoffset 0.2s ease-in-out, opacity 0.2s ease-in-out',
+                transitionDelay: '0.2s',
                 opacity: isAnimating && selectedBank ? 1 : 0
               }}
             />
@@ -194,8 +194,8 @@ export default function Settlements() {
               strokeDasharray="100"
               strokeDashoffset={isAnimating && selectedBank ? "0" : "100"}
               style={{
-                transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
-                transitionDelay: '1.2s',
+                transition: 'stroke-dashoffset 0.2s ease-in-out, opacity 0.2s ease-in-out',
+                transitionDelay: '0.4s',
                 opacity: isAnimating && selectedBank ? 1 : 0
               }}
             />
@@ -241,8 +241,8 @@ export default function Settlements() {
               strokeDasharray="150"
               strokeDashoffset={isAnimating && selectedBank ? "0" : "150"}
               style={{
-                transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
-                transitionDelay: '1.2s',
+                transition: 'stroke-dashoffset 0.2s ease-in-out, opacity 0.2s ease-in-out',
+                transitionDelay: '0.6s',
                 opacity: isAnimating && selectedBank ? 1 : 0
               }}
             />
@@ -352,8 +352,8 @@ export default function Settlements() {
               strokeDasharray="100"
               strokeDashoffset={isAnimating && selectedBank ? "0" : "100"}
               style={{
-                transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
-                transitionDelay: '1.2s',
+                transition: 'stroke-dashoffset 0.2s ease-in-out, opacity 0.2s ease-in-out',
+                transitionDelay: '0.8s',
                 opacity: isAnimating && selectedBank ? 1 : 0
               }}
             />
@@ -733,7 +733,7 @@ export default function Settlements() {
                 strokeDasharray="200"
                 strokeDashoffset={isAnimating && selectedBank ? "0" : "200"}
                 style={{
-                  transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
+                  transition: 'stroke-dashoffset 0.3s ease-in-out, opacity 0.3s ease-in-out',
                   transitionDelay: '0s',
                   opacity: isAnimating && selectedBank ? 1 : 0
                 }}
@@ -745,8 +745,8 @@ export default function Settlements() {
                 strokeDasharray="200"
                 strokeDashoffset={isAnimating && selectedBank ? "0" : "200"}
                 style={{
-                  transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
-                  transitionDelay: '0s',
+                  transition: 'stroke-dashoffset 0.3s ease-in-out, opacity 0.3s ease-in-out',
+                  transitionDelay: '0.35s',
                   opacity: isAnimating && selectedBank ? 1 : 0
                 }}
               />
@@ -794,8 +794,8 @@ export default function Settlements() {
                 strokeDasharray="300"
                 strokeDashoffset={isAnimating && selectedBank ? "0" : "300"}
                 style={{
-                  transition: 'stroke-dashoffset 1.2s ease-in-out, opacity 1.2s ease-in-out',
-                  transitionDelay: '1.2s',
+                  transition: 'stroke-dashoffset 0.3s ease-in-out, opacity 0.3s ease-in-out',
+                  transitionDelay: '0.7s',
                   opacity: isAnimating && selectedBank ? 1 : 0
                 }}
               />

@@ -252,10 +252,38 @@ export default function AboutPage() {
                     Our media coverages
                   </h3>
                   <div className="flex flex-row items-center justify-center gap-2 w-full" style={{ flexWrap: 'wrap' }}>
-                    <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
-                    <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
-                    <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
-                    <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
+                    <a
+                      href="https://yourstory.com/companies/credsettle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on YourStory"
+                    >
+                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
+                    </a>
+                    <a
+                      href="https://medium.com/@credsettle/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on Medium"
+                    >
+                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
+                    </a>
+                    <a
+                      href="https://yourstory.com/companies/credsettle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on YourStory"
+                    >
+                      <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
+                    </a>
+                    <a
+                      href="https://medium.com/@credsettle/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on Medium"
+                    >
+                      <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
+                    </a>
                   </div>
                 </div>
 
@@ -337,16 +365,44 @@ export default function AboutPage() {
                 </h3>
                 <div className="flex flex-col w-full mt-5" style={{ gap: '9.72px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingBottom: '12.96px' }}>
                   <div className="flex items-center justify-center mb-5">
-                    <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '35.92px' }} />
+                    <a
+                      href="https://yourstory.com/companies/credsettle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on YourStory"
+                    >
+                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '35.92px' }} />
+                    </a>
                   </div>
                   <div className="flex items-center justify-center mb-5">
-                    <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '35.92px' }} />
+                    <a
+                      href="https://medium.com/@credsettle/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on Medium"
+                    >
+                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '35.92px' }} />
+                    </a>
                   </div>
                     <div className="flex items-center justify-center mb-5">
-                    <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '35.92px' }} />
+                    <a
+                      href="https://yourstory.com/companies/credsettle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on YourStory"
+                    >
+                      <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '35.92px' }} />
+                    </a>
                   </div>
                   <div className="flex items-center justify-center mb-5">
-                    <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '35.92px' }} />
+                    <a
+                      href="https://medium.com/@credsettle/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle on Medium"
+                    >
+                      <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '35.92px' }} />
+                    </a>
                   </div>
                 </div>
               </div>

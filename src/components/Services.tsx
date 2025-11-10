@@ -89,54 +89,54 @@ export default function Services() {
         {/* Desktop Version - Middle Section: Anti-Harassment (Left) + 3 Services (Right) */}
         <div className="hidden md:flex relative items-center mb-8" style={{ minHeight: '420px', gap: '80px' }}>
           {/* Left: Main Anti-Harassment Container */}
+          {/* Left: Main Anti-Harassment Container */}
           <div 
-            className="p-8 flex flex-col"
-            style={{
-              width: '52%',
-              height: '420px',
-              borderRadius: '40px',
-              background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-              boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-              position: 'relative',
-              zIndex: 1
-            }}
-          >
-            <div className="flex-1">
-              <h3 
-                className="font-bold text-left text-2xl mb-4" 
-                style={{ color: '#0C2756' }}
-              >
-                Stop Loan Recovery Agent Harassment – Protect Your Rights with CredSettle
-              </h3>
-              <p 
-                className="text-left text-sm mb-4" 
-                style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
-              >
-                Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India's leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
-              </p>
-              <p 
-                className="text-left text-sm" 
-                style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
-              >
-                Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
-              </p>
-            </div>
-            
-            {/* View More Button - Bottom Right */}
-            <div className="flex justify-end mt-6">
-              <Link href = "/services/anti-harassment"> 
-              <button 
-                className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
-                style={{ background: '#007AFF' }}
-              >
-                View More
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </button>
-              </Link>
-            </div>
-          </div>
+                  className="p-6 flex flex-col"
+                  style={{
+                    width: '52%',
+                    height: '300px',
+                    borderRadius: '40px',
+                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+                    position: 'relative',
+                    zIndex: 1
+                  }}
+                >
+                  <div className="flex-1">
+                    <h3 
+                      className="font-bold text-left text-2xl mb-4" 
+                      style={{ color: '#0C2756' }}
+                    >
+                      Stop Loan Recovery Agent Harassment – Protect Your Rights with CredSettle
+                    </h3>
+                    <p 
+                      className="text-left text-sm mb-4" 
+                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
+                    >
+                      Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India's leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
+                    </p>
+                    <p 
+                      className="text-left text-sm" 
+                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
+                    >
+                      Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
+                    </p>
+                  </div>
+                  
+                  {/* View More Button - Bottom Right */}
+                  <div className="flex justify-end mt-1">
+                    <a 
+                      href="/services/anti-harassment"
+                      className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
+                      style={{ background: '#007AFF' }}
+                    >
+                      View More
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
 
           {/* Right: 3 Service Containers in Column */}
           <div className="flex flex-col gap-2.5" style={{ flex: 1, height: '300px', position: 'relative', zIndex: 1 }}>
@@ -463,7 +463,7 @@ export default function Services() {
         </div>
 
         {/* Desktop Version - Bottom Section: 2x3 Grid of Loan Settlement Services */}
-        <div className="hidden md:grid grid-cols-3 gap-4 mb-8">
+        <div className="hidden md:grid grid-cols-3 gap-4 mb-8 -mt-15">
           {/* Personal Loan Settlement */}
           <Link href = "/services/personal-loan-settlement"> 
           <div 
@@ -1027,7 +1027,7 @@ export default function Services() {
         </div>
 
         {/* Desktop Version - Credit Score Container */}
-        <Link href = "/services/credit-score-builder" className="hidden md:block"> 
+        <div className="hidden md:block">
         <div 
           className="p-8 flex items-center gap-8 relative"
           style={{
@@ -1062,7 +1062,8 @@ export default function Services() {
             
             {/* View More Button - Bottom Right */}
             <div className="flex justify-end mt-6">
-              <button 
+              <Link
+                href="/services/credit-score-builder"
                 className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
                 style={{ background: '#007AFF' }}
               >
@@ -1070,14 +1071,14 @@ export default function Services() {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
-        </Link>
+        </div>
 
         {/* Mobile Version - Credit Score Container */}
-        <Link href = "/services/credit-score-builder" className="block md:hidden px-4"> 
+        <div className="block md:hidden px-4">
         <div 
           className="p-5 relative w-full overflow-hidden"
           style={{
@@ -1115,7 +1116,8 @@ export default function Services() {
             </p>
           </div>
           <div className="flex justify-end mt-2">
-            <button 
+            <Link
+              href="/services/credit-score-builder"
               className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
               style={{ background: '#007AFF' }}
             >
@@ -1123,10 +1125,10 @@ export default function Services() {
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
-        </Link>
+        </div>
       </div>
     </section>
   );

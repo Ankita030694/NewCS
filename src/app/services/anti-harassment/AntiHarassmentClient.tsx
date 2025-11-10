@@ -1,6 +1,26 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
+import type { IconDefinition } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faShieldHalved,
+  faScaleBalanced,
+  faHandshakeSimple,
+  faFileLines,
+  faBullhorn,
+  faUserShield,
+  faPhoneVolume,
+  faEnvelopeOpenText,
+  faBuildingColumns,
+  faGavel,
+  faHeadset,
+  faListCheck,
+  faTriangleExclamation,
+  faCircleCheck,
+  faLocationDot
+} from '@fortawesome/free-solid-svg-icons';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import TableOfContents from '@/components/TableOfContents';
@@ -54,6 +74,487 @@ export default function AntiHarassmentClient() {
     {
       question: 'How do I file a complaint against loan recovery agent harassment?',
       answer: 'You can file complaints against loan recovery agent harassment through multiple channels: RBI Banking Ombudsman for banking violations, RBI Consumer Education and Protection Department for regulatory violations, local police for criminal harassment, Cyber Crime Cell for digital harassment, and National Consumer Helpline. CredSettle handles all complaint filing on your behalf, ensuring proper documentation and follow-up for maximum protection.'
+    }
+  ];
+
+  const bodyTextStyle: CSSProperties = {
+    color: 'rgba(12, 39, 86, 0.80)',
+    fontFamily: 'Poppins',
+    lineHeight: '26px'
+  };
+
+  const cardTextStyle: CSSProperties = {
+    color: 'rgba(12, 39, 86, 0.75)',
+    fontFamily: 'Poppins',
+    lineHeight: '24px'
+  };
+
+  type GuideSection = {
+    id: string;
+    title: string;
+    paragraphs?: ReactNode[];
+    bullets?: string[];
+    bulletTitle?: string;
+    cards?: Array<{ icon: IconDefinition; title: string; description: ReactNode }>;
+    lists?: Array<{ title: string; icon: IconDefinition; items: string[] }>;
+    callouts?: Array<{ title: string; description: ReactNode; icon: IconDefinition }>;
+    steps?: Array<{ label: string; title: string; description: ReactNode }>;
+  };
+
+  const introductionParagraphs: ReactNode[] = [
+    <>
+      <strong>Loan recovery agent harassment</strong> has become a serious problem for millions of borrowers in India, with recovery agents using illegal tactics including threatening calls, abusive language, unauthorized visits, and privacy violations. Understanding your <strong>legal rights against harassment</strong> and accessing professional <strong>anti-harassment services</strong> is essential for protecting yourself and your family. This comprehensive guide covers everything you need to know about <strong>stopping loan recovery agent harassment</strong>, <strong>RBI guidelines</strong>, <strong>anti-harassment protection</strong>, and how CredSettle provides immediate legal protection.
+    </>,
+    <>
+      Under <strong>RBI guidelines</strong> and Indian laws, recovery agents must follow strict <strong>Fair Practices Code</strong> that prohibits harassment, threats, and illegal collection tactics. <strong>Loan recovery agent harassment</strong> violates these guidelines and can result in severe penalties for lenders and recovery agencies. This guide covers <strong>anti-harassment services</strong>, <strong>legal protection against harassment</strong>, <strong>RBI complaint filing</strong>, and proven strategies to stop harassment immediately.
+    </>
+  ];
+
+  const harassmentForms: string[] = [
+    'Threatening calls at odd hours with abusive language and intimidation tactics.',
+    'Unauthorized visits to your home or workplace without permission or proper notice.',
+    'Contacting your family members, friends, or colleagues about your debt.',
+    'Using intimidation, false claims, or public shaming to pressure repayment.',
+    'Sharing your personal information publicly or violating your privacy in any way.'
+  ];
+
+  const legalRightsCards = [
+    {
+      icon: faUserShield,
+      title: 'Right to Privacy',
+      description: (
+        <>
+          Recovery agents cannot contact your family members, friends, colleagues, or neighbors about your debt. They can only contact you directly, and only at reasonable hours. Any contact with third parties violates your privacy rights and <strong>RBI guidelines</strong>. Professional anti-harassment services help enforce this right.
+        </>
+      )
+    },
+    {
+      icon: faScaleBalanced,
+      title: 'Right to Dignity',
+      description: (
+        <>
+          Recovery agents must treat you with respect and dignity. They cannot use abusive language, threats, intimidation, or any form of harassment. All communications must remain professional. Violations of your right to dignity can result in severe penalties for lenders and recovery agencies.
+        </>
+      )
+    },
+    {
+      icon: faHandshakeSimple,
+      title: 'Right to Fair Treatment',
+      description: (
+        <>
+          <strong>RBI Fair Practices Code</strong> requires recovery agents to contact you only during reasonable hours (9 AM to 6 PM), provide proper identification, avoid unauthorized visits, and never use threatening behavior. Any violation of these rights can be reported to regulators, police, or consumer authorities.
+        </>
+      )
+    },
+    {
+      icon: faFileLines,
+      title: 'Right to Proper Documentation',
+      description: (
+        <>
+          You have the right to proper documentation for every interaction. Recovery agents must maintain accurate records and provide written communication when requested. This documentation protects you and creates evidence for complaints, legal action, and RBI investigations.
+        </>
+      )
+    },
+    {
+      icon: faBullhorn,
+      title: 'Right to File Complaints',
+      description: (
+        <>
+          You can file complaints against <strong>loan recovery agent harassment</strong> with RBI Banking Ombudsman, RBI Consumer Education Department, local police, Cyber Crime Cell, and National Consumer Helpline. CredSettle handles complaint drafting, submission, and follow-up on your behalf.
+        </>
+      )
+    }
+  ];
+
+  const rbiLists = [
+    {
+      title: 'What Recovery Agents CAN Do',
+      icon: faCircleCheck,
+      items: [
+        'Contact you during reasonable hours (9 AM to 6 PM) to discuss repayment options professionally.',
+        'Visit your registered address with prior notice, proper identification, and documented authorization.',
+        'Provide accurate information about your loan status, repayment calculations, and settlement options.',
+        'Maintain respectful communication while following RBI-approved processes and documentation.'
+      ]
+    },
+    {
+      title: 'What Recovery Agents CANNOT Do',
+      icon: faTriangleExclamation,
+      items: [
+        'Use abusive language, repeated calls, or harassment to coerce repayment.',
+        'Visit your workplace or residence without permission, prior notice, or proper authorization.',
+        'Contact your family members, friends, or colleagues to disclose or discuss your debt.',
+        'Make false claims, intimidate you with threats of arrest, or violate your privacy in any way.'
+      ]
+    }
+  ];
+
+  const rbiCallouts = [
+    {
+      title: 'RBI Fair Practices Code',
+      icon: faListCheck,
+      description: (
+        <>
+          The <strong>RBI Fair Practices Code</strong> mandates respectful treatment, transparent communication, proper identification, and strict privacy standards. Lenders must ensure compliance, monitor recovery agents, and respond promptly to borrower complaints.
+        </>
+      )
+    },
+    {
+      title: 'Consequences of Violations',
+      icon: faGavel,
+      description: (
+        <>
+          Violating <strong>RBI guidelines</strong> can lead to penalties, license suspension, criminal complaints, and civil litigation. Documenting harassment strengthens your case, and CredSettle ensures every violation is escalated to regulators and law enforcement.
+        </>
+      )
+    }
+  ];
+
+  const antiHarassmentServicesCards = [
+    {
+      icon: faPhoneVolume,
+      title: 'Call Forwarding Services',
+      description: (
+        <>
+          Divert all recovery calls directly to CredSettle’s legal helpline. Our team handles every conversation, ends abusive calls, and documents violations while you regain peace of mind.
+        </>
+      )
+    },
+    {
+      icon: faEnvelopeOpenText,
+      title: 'Cease-and-Desist Notices',
+      description: (
+        <>
+          We issue formal legal notices to lenders and recovery agencies demanding an immediate halt to harassment, citing specific <strong>RBI guideline</strong> breaches and legal consequences for non-compliance.
+        </>
+      )
+    },
+    {
+      icon: faBuildingColumns,
+      title: 'RBI Complaint Filing',
+      description: (
+        <>
+          CredSettle prepares and files detailed complaints with RBI Banking Ombudsman and Consumer Education Department, ensuring every harassment incident is recorded and penalized.
+        </>
+      )
+    },
+    {
+      icon: faGavel,
+      title: 'Police Complaint Support',
+      description: (
+        <>
+          For severe threats or intimidation, our legal team files police and cyber-crime complaints, ensuring immediate action against offending recovery agents and complete protection for you.
+        </>
+      )
+    },
+    {
+      icon: faHeadset,
+      title: '24/7 Legal Protection',
+      description: (
+        <>
+          Receive round-the-clock legal support, rapid escalation, and continuous monitoring. We remain on call to intervene the moment harassment resumes.
+        </>
+      )
+    }
+  ];
+
+  const stepsToStopHarassment = [
+    {
+      label: 'Step 1',
+      title: 'Engage Anti-Harassment Services',
+      description: (
+        <>
+          Activate professional protection immediately. CredSettle sends legal notices, files RBI complaints, sets up call forwarding, and establishes a legal shield within hours.
+        </>
+      )
+    },
+    {
+      label: 'Step 2',
+      title: 'Document Every Incident',
+      description: (
+        <>
+          Record calls (with consent), save messages, note visit details, and gather witness statements. Comprehensive documentation strengthens complaints and legal action.
+        </>
+      )
+    },
+    {
+      label: 'Step 3',
+      title: 'File Regulatory Complaints',
+      description: (
+        <>
+          Submit formal complaints to RBI, police, and consumer authorities. CredSettle drafts, files, and follows up on each submission to ensure swift enforcement.
+        </>
+      )
+    },
+    {
+      label: 'Step 4',
+      title: 'Implement Call Forwarding',
+      description: (
+        <>
+          Route every recovery call to our legal helpline. We document harassment attempts, respond professionally, and prevent agents from contacting you directly.
+        </>
+      )
+    },
+    {
+      label: 'Step 5',
+      title: 'Monitor and Escalate',
+      description: (
+        <>
+          Continue monitoring. If harassment persists, we escalate through additional RBI complaints, police action, and litigation to secure a complete, permanent ceasefire.
+        </>
+      )
+    }
+  ];
+
+  const harassmentTactics = [
+    {
+      icon: faPhoneVolume,
+      title: 'Threatening Calls',
+      description: (
+        <>
+          Recovery agents may call repeatedly at odd hours using abusive language. CredSettle routes calls to our helpline, documents threats, and files immediate complaints for every violation.
+        </>
+      )
+    },
+    {
+      icon: faLocationDot,
+      title: 'Unauthorized Visits',
+      description: (
+        <>
+          Agents may arrive unannounced at your home or workplace. We issue cease-and-desist notices, alert local authorities, and ensure any unlawful visits trigger police action.
+        </>
+      )
+    },
+    {
+      icon: faUserShield,
+      title: 'Contacting Family Members',
+      description: (
+        <>
+          Sharing debt details with family or colleagues is illegal. We prohibit third-party contact, file privacy complaints, and secure written acknowledgements from lenders.
+        </>
+      )
+    },
+    {
+      icon: faBullhorn,
+      title: 'Intimidation and False Claims',
+      description: (
+        <>
+          Agents often threaten arrest or public exposure. CredSettle counters every false claim with legal notices, regulatory complaints, and, when needed, defamation action.
+        </>
+      )
+    },
+    {
+      icon: faEnvelopeOpenText,
+      title: 'Digital Harassment',
+      description: (
+        <>
+          Threatening texts, social media harassment, and data privacy violations are prosecutable offences. We coordinate cyber-crime complaints and ensure digital evidence is preserved.
+        </>
+      )
+    }
+  ];
+
+  const complaintOptions = [
+    {
+      icon: faBuildingColumns,
+      title: 'RBI Banking Ombudsman',
+      description: (
+        <>
+          File complaints for harassment, privacy violations, and unfair recovery practices. RBI investigations can impose penalties, compensation, and strict directives on lenders.
+        </>
+      )
+    },
+    {
+      icon: faBuildingColumns,
+      title: 'RBI Consumer Education Department',
+      description: (
+        <>
+          Report systemic or repeated violations. CredSettle supplies detailed evidence packages to trigger regulator audits, fines, and binding corrective orders.
+        </>
+      )
+    },
+    {
+      icon: faGavel,
+      title: 'Police & Cyber Crime Complaints',
+      description: (
+        <>
+          For threats, intimidation, or digital abuse, our legal team files FIRs and cyber-crime reports, ensuring immediate police intervention and legal protection.
+        </>
+      )
+    },
+    {
+      icon: faBullhorn,
+      title: 'National Consumer Helpline',
+      description: (
+        <>
+          Access government-backed mediation and complaint escalation. We coordinate submissions to secure swift relief and regulatory follow-up.
+        </>
+      )
+    },
+    {
+      icon: faFileLines,
+      title: 'Documented Legal Notices',
+      description: (
+        <>
+          Every complaint is backed by detailed legal notices and evidence logs, creating a strong paper trail that compels lenders to stop harassment permanently.
+        </>
+      )
+    }
+  ];
+
+  const benefitsCards = [
+    {
+      icon: faShieldHalved,
+      title: 'Immediate Protection',
+      description: (
+        <>
+          Cease harassment within 24–48 hours through rapid legal intervention, formal notices, and regulator-backed enforcement.
+        </>
+      )
+    },
+    {
+      icon: faScaleBalanced,
+      title: 'Expert Legal Strategy',
+      description: (
+        <>
+          Leverage specialists in <strong>RBI guidelines</strong>, complaint drafting, and litigation strategy to safeguard every legal right you hold.
+        </>
+      )
+    },
+    {
+      icon: faHeadset,
+      title: 'Complete Coverage',
+      description: (
+        <>
+          Protect against calls, visits, digital harassment, and privacy violations with a single integrated legal response team.
+        </>
+      )
+    },
+    {
+      icon: faCircleCheck,
+      title: 'Verified Closure',
+      description: (
+        <>
+          Ensure every harassment incident is documented, escalated, and resolved with written acknowledgements from lenders and agencies.
+        </>
+      )
+    },
+    {
+      icon: faGavel,
+      title: 'Peace of Mind',
+      description: (
+        <>
+          Rely on 24/7 legal monitoring, fast escalations, and long-term compliance checks that keep you protected even after harassment stops.
+        </>
+      )
+    }
+  ];
+
+  const conclusionParagraphs: ReactNode[] = [
+    <>
+      <strong>Loan recovery agent harassment</strong> is illegal and violates your rights under <strong>RBI guidelines</strong> and Indian laws. Understanding your <strong>legal rights against harassment</strong> and accessing professional <strong>anti-harassment services</strong> is essential for protecting yourself and your family.
+    </>,
+    <>
+      CredSettle provides comprehensive <strong>anti-harassment services</strong> that stop harassment immediately, protect your rights, and ensure complete legal protection. Our services include call forwarding, cease-and-desist notices, RBI complaint filing, police complaint filing, and 24/7 legal protection.
+    </>,
+    <>
+      Remember, you do not have to face <strong>harassment</strong> alone. Professional <strong>anti-harassment services</strong> provide immediate protection and ongoing support, ensuring harassment stops completely and permanently. By working with CredSettle, you can stop harassment, protect your rights, and achieve peace of mind.
+    </>,
+    <>
+      If you are facing <strong>loan recovery agent harassment</strong>, reach out to CredSettle immediately. Our expert legal team will assess your situation, provide immediate protection, and ensure harassment stops within 24–48 hours. Do not suffer in silence—get the protection you deserve today.
+    </>
+  ];
+
+  const guideSections: GuideSection[] = [
+    {
+      id: 'understanding-harassment',
+      title: 'Understanding Loan Recovery Agent Harassment: What You Need to Know',
+      paragraphs: [
+        <>
+          <strong>Loan recovery agent harassment</strong> refers to illegal and abusive practices used by recovery agents to collect debts. These practices violate <strong>RBI guidelines</strong> and Indian laws, including the use of threatening language, abusive calls, unauthorized visits, workplace harassment, contacting family members, and intimidation tactics. Understanding what constitutes harassment is the first step in protecting yourself.
+        </>,
+        <>
+          The <strong>Reserve Bank of India (RBI)</strong> has established comprehensive guidelines for debt recovery, including the <strong>Fair Practices Code</strong> that strictly prohibits harassment. These guidelines ensure debt recovery remains legal and ethical, protecting borrowers’ rights and dignity. <strong>Anti-harassment services</strong> help enforce these guidelines and deliver immediate protection.
+        </>
+      ],
+      bullets: harassmentForms,
+      bulletTitle: 'Common Harassment Behaviours to Watch For'
+    },
+    {
+      id: 'legal-rights-against-harassment',
+      title: 'Your Legal Rights Against Loan Recovery Agent Harassment',
+      paragraphs: [
+        <>
+          You have extensive <strong>legal rights against harassment</strong> under <strong>RBI guidelines</strong> and Indian laws. Understanding and asserting these rights is crucial for staying protected and holding violators accountable.
+        </>
+      ],
+      cards: legalRightsCards
+    },
+    {
+      id: 'rbi-guidelines-debt-recovery',
+      title: 'RBI Guidelines on Debt Recovery: What Recovery Agents Can and Cannot Do',
+      paragraphs: [
+        <>
+          The <strong>Reserve Bank of India</strong> enforces strict guidelines that govern every interaction between recovery agents and borrowers. These guardrails prevent harassment, safeguard dignity, and ensure transparent communication.
+        </>
+      ],
+      lists: rbiLists,
+      callouts: rbiCallouts
+    },
+    {
+      id: 'anti-harassment-services',
+      title: 'Anti-Harassment Services: How to Stop Harassment Immediately',
+      paragraphs: [
+        <>
+          Professional <strong>anti-harassment services</strong> provide immediate protection against <strong>loan recovery agent harassment</strong>. CredSettle deploys a multi-layered response that eliminates harassment while building a strong legal position.
+        </>
+      ],
+      cards: antiHarassmentServicesCards
+    },
+    {
+      id: 'stop-harassment-immediately',
+      title: 'How to Stop Loan Recovery Agent Harassment Immediately',
+      paragraphs: [
+        <>
+          If you are facing <strong>loan recovery agent harassment</strong>, follow a structured response to restore control quickly and permanently.
+        </>
+      ],
+      steps: stepsToStopHarassment
+    },
+    {
+      id: 'common-harassment-tactics',
+      title: 'Common Harassment Tactics and How to Stop Them',
+      paragraphs: [
+        <>
+          Recognizing common harassment tactics empowers you to respond faster and document evidence that regulators and law enforcement can act upon.
+        </>
+      ],
+      cards: harassmentTactics
+    },
+    {
+      id: 'filing-complaints',
+      title: 'Filing Complaints Against Loan Recovery Agent Harassment',
+      paragraphs: [
+        <>
+          Filing effective complaints is crucial for stopping harassment and compelling lenders to comply with <strong>RBI mandates</strong>. CredSettle manages every step, from drafting to follow-up.
+        </>
+      ],
+      cards: complaintOptions
+    },
+    {
+      id: 'benefits-anti-harassment',
+      title: 'Benefits of Anti-Harassment Services: Why Choose Professional Protection',
+      paragraphs: [
+        <>
+          Choosing professional protection unlocks strategic, legal, and emotional benefits that ad-hoc responses can not match.
+        </>
+      ],
+      cards: benefitsCards
+    },
+    {
+      id: 'conclusion',
+      title: 'Conclusion: Your Path to Freedom from Loan Recovery Agent Harassment',
+      paragraphs: conclusionParagraphs
     }
   ];
 
@@ -201,212 +702,222 @@ export default function AntiHarassmentClient() {
             <section className="w-full py-6">
               <div className="w-full max-w-7xl mx-auto px-4">
                 <div
+                  className="bg-gradient-to-br from-blue-50/40 via-white to-blue-100/20 rounded-3xl p-6 md:p-8 lg:p-12"
                   style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontSize: '16px',
-                    lineHeight: '28px',
-                    opacity: 0.9
+                    boxShadow: '0 12px 48px rgba(0, 122, 255, 0.08)',
+                    border: '1px solid rgba(0, 122, 255, 0.12)'
                   }}
                 >
-                  {/* Introduction */}
-                  <div className="mb-8">
-                    <p className="mb-4">
-                      <strong>Loan recovery agent harassment</strong> has become a serious problem for millions of borrowers in India, with recovery agents using illegal tactics including threatening calls, abusive language, unauthorized visits, and privacy violations. Understanding your <strong>legal rights against harassment</strong> and accessing professional <strong>anti-harassment services</strong> is essential for protecting yourself and your family. This comprehensive guide covers everything you need to know about <strong>stopping loan recovery agent harassment</strong>, <strong>RBI guidelines</strong>, <strong>anti-harassment protection</strong>, and how CredSettle provides immediate legal protection.
-                    </p>
-                    <p className="mb-4">
-                      Under <strong>RBI guidelines</strong> and Indian laws, recovery agents must follow strict <strong>Fair Practices Code</strong> that prohibits harassment, threats, and illegal collection tactics. <strong>Loan recovery agent harassment</strong> violates these guidelines and can result in severe penalties for lenders and recovery agencies. This guide covers <strong>anti-harassment services</strong>, <strong>legal protection against harassment</strong>, <strong>RBI complaint filing</strong>, and proven strategies to stop harassment immediately.
-                    </p>
+                  <div className="space-y-6 md:space-y-8">
+                    <div>
+                      <h2
+                        className="text-2xl md:text-3xl lg:text-[32px] font-semibold leading-tight"
+                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '42px' }}
+                      >
+                        Stop Loan Recovery Agent Harassment: Complete Legal Protection Guide
+                      </h2>
+                      <div className="mt-4 space-y-4">
+                        {introductionParagraphs.map((paragraph, index) => (
+                          <p key={index} className="text-sm md:text-base" style={bodyTextStyle}>
+                            {paragraph}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="rounded-2xl border border-blue-100/70 bg-white/80 p-5 md:p-6 lg:p-7 shadow-[0px_10px_30px_rgba(0,122,255,0.08)]">
+                      <div className="flex items-start gap-4">
+                        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/15 text-blue-600">
+                          <FontAwesomeIcon icon={faShieldHalved} className="h-5 w-5" />
+                        </span>
+                        <div>
+                          <h3
+                            className="text-lg md:text-xl font-semibold"
+                            style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '28px' }}
+                          >
+                            Immediate Legal Shield from CredSettle
+                          </h3>
+                          <p className="mt-3 text-sm md:text-base" style={cardTextStyle}>
+                            Engage CredSettle to stop harassment within 24–48 hours using RBI-compliant notices, regulator complaints, and 24/7 legal monitoring that keeps recovery agents away from you.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
-                  {/* Understanding Loan Recovery Agent Harassment */}
-                  <h2 id="understanding-harassment" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Understanding Loan Recovery Agent Harassment: What You Need to Know
-                  </h2>
-                  <p className="mb-4">
-                    <strong>Loan recovery agent harassment</strong> refers to illegal and abusive practices used by recovery agents to collect debts. These practices violate <strong>RBI guidelines</strong> and Indian laws, including the use of threatening language, abusive calls, unauthorized visits, workplace harassment, contacting family members, and intimidation tactics. Understanding what constitutes <strong>harassment</strong> is the first step in protecting yourself.
-                  </p>
-                  <p className="mb-4">
-                    The <strong>Reserve Bank of India (RBI)</strong> has established comprehensive guidelines for debt recovery, including the <strong>Fair Practices Code</strong> that strictly prohibits <strong>recovery agent harassment</strong>. These guidelines ensure that debt recovery is conducted legally and ethically, protecting borrowers' rights and dignity. <strong>Anti-harassment services</strong> help enforce these guidelines and provide immediate protection against violations.
-                  </p>
-                  <p className="mb-4">
-                    Common forms of <strong>loan recovery agent harassment</strong> include: threatening calls at odd hours, abusive language and threats, unauthorized visits to home or workplace, contacting family members or friends, using intimidation tactics, sharing personal information publicly, and making false claims. All of these practices violate <strong>RBI guidelines</strong> and are illegal. Professional <strong>anti-harassment services</strong> can help you stop these practices immediately.
-                  </p>
+                  <div className="mt-10 md:mt-12 space-y-12 md:space-y-14">
+                    {guideSections.map((section, index) => (
+                      <article
+                        key={section.id}
+                        className="rounded-3xl border border-blue-100/60 bg-white/75 p-5 md:p-7 lg:p-8 shadow-[0px_12px_35px_rgba(0,122,255,0.05)] backdrop-blur-sm"
+                      >
+                        <div className="flex items-start gap-4">
+                          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-100 text-base font-semibold text-blue-600">
+                            {String(index + 1).padStart(2, '0')}
+                          </div>
+                          <div className="flex-1">
+                            <h2
+                              id={section.id}
+                              className="text-xl md:text-2xl font-semibold leading-tight"
+                              style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '32px' }}
+                            >
+                              {section.title}
+                            </h2>
 
-                  {/* Your Legal Rights Against Harassment */}
-                  <h2 id="legal-rights-against-harassment" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Your Legal Rights Against Loan Recovery Agent Harassment
-                  </h2>
-                  <p className="mb-4">
-                    You have extensive <strong>legal rights against harassment</strong> under <strong>RBI guidelines</strong> and Indian laws. Understanding these rights is crucial for protecting yourself:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Right to Privacy</strong> - Recovery agents cannot contact your family members, friends, colleagues, or neighbors about your debt. They can only contact you directly, and only at reasonable hours. Any contact with third parties violates your <strong>privacy rights</strong> and <strong>RBI guidelines</strong>. <strong>Anti-harassment services</strong> help enforce this right.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Right to Dignity</strong> - Recovery agents must treat you with respect and dignity. They cannot use abusive language, threats, intimidation, or any form of harassment. All communications must be professional and respectful. Violations of your <strong>right to dignity</strong> can result in severe penalties for lenders.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Right to Fair Treatment</strong> - Recovery agents must follow <strong>RBI Fair Practices Code</strong>, which includes: contacting you only during reasonable hours (9 AM to 6 PM), providing proper identification, not making unauthorized visits, not using threatening behavior, and maintaining professional conduct. Any violation of these rights can be reported to <strong>RBI</strong> or other authorities.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Right to Proper Documentation</strong> - All communications from recovery agents must be properly documented. You have the right to request written documentation of all interactions, and recovery agents must maintain proper records. This helps protect you and provides evidence if you need to file complaints.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Right to File Complaints</strong> - You have the right to file complaints against <strong>recovery agent harassment</strong> with multiple authorities, including RBI Banking Ombudsman, RBI Consumer Education Department, local police, Cyber Crime Cell, and National Consumer Helpline. <strong>Anti-harassment services</strong> help you file effective complaints that result in action.
-                  </p>
+                            {section.paragraphs && section.paragraphs.length > 0 && (
+                              <div className="mt-4 space-y-4">
+                                {section.paragraphs.map((paragraph, paragraphIndex) => (
+                                  <p key={paragraphIndex} className="text-sm md:text-base" style={bodyTextStyle}>
+                                    {paragraph}
+                                  </p>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* RBI Guidelines on Debt Recovery */}
-                  <h2 id="rbi-guidelines-debt-recovery" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    RBI Guidelines on Debt Recovery: What Recovery Agents Can and Cannot Do
-                  </h2>
-                  <p className="mb-4">
-                    The <strong>Reserve Bank of India</strong> has established comprehensive <strong>RBI guidelines</strong> for debt recovery that strictly regulate what recovery agents can and cannot do:
-                  </p>
-                  <p className="mb-4">
-                    <strong>What Recovery Agents CAN Do</strong> - Recovery agents can: contact you during reasonable hours (9 AM to 6 PM), visit your registered address with prior notice, discuss your loan and repayment options professionally, provide information about your debt and settlement options, and maintain professional communication. All of these must be done respectfully and legally.
-                  </p>
-                  <p className="mb-4">
-                    <strong>What Recovery Agents CANNOT Do</strong> - Recovery agents cannot: use abusive language or threats, make calls at odd hours or repeatedly, visit your workplace without permission, contact family members or friends, use intimidation tactics, share your personal information publicly, make false claims or threats, or violate your privacy in any way. All of these violate <strong>RBI guidelines</strong> and are illegal.
-                  </p>
-                  <p className="mb-4">
-                    <strong>RBI Fair Practices Code</strong> - The <strong>Fair Practices Code</strong> requires lenders and recovery agents to: treat borrowers with respect and dignity, maintain professional conduct at all times, provide proper identification, respect privacy rights, follow proper procedures, and maintain proper documentation. Violations of this code can result in severe penalties, including license cancellation and criminal action.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Consequences of Violations</strong> - Lenders and recovery agencies that violate <strong>RBI guidelines</strong> face severe consequences, including: penalties and fines from RBI, license cancellation or suspension, criminal complaints for harassment, legal action from borrowers, and damage to reputation. These consequences make it clear that <strong>harassment</strong> is not acceptable and will be punished.
-                  </p>
+                            {section.bullets && section.bullets.length > 0 && (
+                              <div className="mt-6">
+                                <div className="rounded-2xl border border-blue-100/70 bg-blue-50/40 p-5 md:p-6">
+                                  <h3
+                                    className="text-sm font-semibold uppercase tracking-wide text-blue-600 mb-4"
+                                    style={{ fontFamily: 'Poppins', letterSpacing: '0.08em' }}
+                                  >
+                                    {section.bulletTitle ?? 'Key Points'}
+                                  </h3>
+                                  <ul className="space-y-3">
+                                    {section.bullets.map((bullet, bulletIndex) => (
+                                      <li key={bulletIndex} className="flex items-start gap-3">
+                                        <span className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/15 text-blue-600">
+                                          <FontAwesomeIcon icon={faTriangleExclamation} className="h-4 w-4" />
+                                        </span>
+                                        <span className="flex-1 text-sm md:text-base" style={bodyTextStyle}>
+                                          {bullet}
+                                        </span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              </div>
+                            )}
 
-                  {/* Anti-Harassment Services */}
-                  <h2 id="anti-harassment-services" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Anti-Harassment Services: How to Stop Harassment Immediately
-                  </h2>
-                  <p className="mb-4">
-                    Professional <strong>anti-harassment services</strong> provide immediate protection against <strong>loan recovery agent harassment</strong>. These services include:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Call Forwarding Services</strong> - <strong>Call forwarding</strong> diverts all recovery calls directly to CredSettle's legal helpline, preventing you from receiving harassing calls. When recovery agents call your number, the call is automatically forwarded to our legal team, who handle all communications professionally and legally. This provides immediate relief from constant <strong>harassment calls</strong> and ensures all communications are handled properly.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Cease and Desist Notices</strong> - A <strong>cease and desist notice</strong> is a formal legal document sent to lenders and recovery agencies demanding they immediately stop all harassment and illegal recovery practices. This notice cites specific violations of <strong>RBI guidelines</strong> and Indian laws, warns of legal consequences for continued harassment, and establishes a legal record. CredSettle's legal team sends these notices immediately upon engagement.
-                  </p>
-                  <p className="mb-4">
-                    <strong>RBI Complaint Filing</strong> - <strong>RBI complaint filing</strong> involves submitting formal complaints to RBI Banking Ombudsman and Consumer Education Department documenting <strong>harassment violations</strong>. These complaints result in RBI investigation, penalties for lenders, and immediate cessation of harassment. CredSettle handles all <strong>complaint filing</strong> on your behalf, ensuring proper documentation and follow-up.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Police Complaint Filing</strong> - For severe <strong>harassment</strong> involving threats, intimidation, or criminal behavior, <strong>police complaints</strong> can be filed. CredSettle helps you file effective police complaints that result in action against recovery agents and protection for you and your family. This provides additional legal protection beyond <strong>RBI guidelines</strong>.
-                  </p>
-                  <p className="mb-4">
-                    <strong>24/7 Legal Protection</strong> - CredSettle provides <strong>24/7 legal protection</strong> against harassment, ensuring you have immediate support whenever harassment occurs. Our legal team is available around the clock to handle emergencies, send immediate legal notices, and provide protection. This ensures you never face harassment alone.
-                  </p>
+                            {section.cards && section.cards.length > 0 && (
+                              <div className="mt-6 grid gap-4 md:grid-cols-2 md:gap-6">
+                                {section.cards.map((card) => (
+                                  <div
+                                    key={card.title}
+                                    className="h-full rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] transition-shadow duration-200 hover:shadow-[0px_12px_30px_rgba(0,122,255,0.12)]"
+                                  >
+                                    <div className="flex items-start gap-4">
+                                      <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
+                                        <FontAwesomeIcon icon={card.icon} className="h-5 w-5" />
+                                      </span>
+                                      <div>
+                                        <h3
+                                          className="text-base md:text-lg font-semibold"
+                                          style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}
+                                        >
+                                          {card.title}
+                                        </h3>
+                                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                          {card.description}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* How to Stop Harassment Immediately */}
-                  <h2 id="stop-harassment-immediately" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    How to Stop Loan Recovery Agent Harassment Immediately
-                  </h2>
-                  <p className="mb-4">
-                    If you're facing <strong>loan recovery agent harassment</strong>, here's how to stop it immediately:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 1: Engage Anti-Harassment Services</strong> - The first step in stopping <strong>harassment</strong> is engaging professional <strong>anti-harassment services</strong> like CredSettle. Our legal team immediately sends cease-and-desist notices, files RBI complaints, sets up call forwarding, and establishes legal protection. This typically stops <strong>harassment</strong> within 24-48 hours.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 2: Document All Harassment</strong> - Document all instances of <strong>harassment</strong>, including: recording threatening calls (with consent), saving text messages and emails, noting dates and times of visits, documenting abusive language used, and collecting witness statements. This documentation provides evidence for complaints and legal action. CredSettle helps you organize this documentation effectively.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 3: File Complaints</strong> - File complaints with appropriate authorities, including RBI Banking Ombudsman for banking violations, RBI Consumer Education Department for regulatory violations, local police for criminal harassment, and Cyber Crime Cell for digital harassment. CredSettle handles all <strong>complaint filing</strong> on your behalf, ensuring proper documentation and follow-up.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 4: Set Up Call Forwarding</strong> - Set up <strong>call forwarding</strong> to divert all recovery calls to CredSettle's legal helpline. This prevents you from receiving harassing calls and ensures all communications are handled professionally. Our legal team handles all communications with recovery agents, protecting you from further harassment.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Step 5: Monitor and Escalate</strong> - Monitor the situation and escalate if harassment continues. CredSettle provides ongoing monitoring and escalates through RBI complaints, police complaints, and legal action if necessary. We ensure harassment stops completely and permanently.
-                  </p>
+                            {section.lists && section.lists.length > 0 && (
+                              <div className="mt-6 grid gap-4 md:grid-cols-2">
+                                {section.lists.map((list) => (
+                                  <div
+                                    key={list.title}
+                                    className="rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)]"
+                                  >
+                                    <div className="mb-4 flex items-start gap-3">
+                                      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
+                                        <FontAwesomeIcon icon={list.icon} className="h-5 w-5" />
+                                      </span>
+                                      <h3
+                                        className="text-base font-semibold"
+                                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
+                                      >
+                                        {list.title}
+                                      </h3>
+                                    </div>
+                                    <ul className="space-y-3">
+                                      {list.items.map((item, itemIndex) => (
+                                        <li key={itemIndex} className="flex items-start gap-3">
+                                          <span className="mt-[7px] h-2 w-2 rounded-full bg-blue-500/80" />
+                                          <span className="flex-1 text-sm md:text-base" style={cardTextStyle}>
+                                            {item}
+                                          </span>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* Common Harassment Tactics and How to Stop Them */}
-                  <h2 id="common-harassment-tactics" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Common Harassment Tactics and How to Stop Them
-                  </h2>
-                  <p className="mb-4">
-                    Understanding common <strong>harassment tactics</strong> helps you recognize and stop them:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Threatening Calls</strong> - Recovery agents often make threatening calls at odd hours, using abusive language and threats. To stop this, set up <strong>call forwarding</strong> to divert all calls to CredSettle's legal helpline. Our team handles all communications professionally, and we file RBI complaints for any threatening behavior.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Unauthorized Visits</strong> - Recovery agents may visit your home or workplace without permission or proper notice. To stop this, CredSettle sends cease-and-desist notices prohibiting unauthorized visits. We file police complaints for any unauthorized visits, and our legal protection ensures agents cannot visit without proper authorization.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Contacting Family Members</strong> - Recovery agents may contact family members, friends, or colleagues about your debt. This violates your <strong>privacy rights</strong> and <strong>RBI guidelines</strong>. CredSettle sends legal notices prohibiting contact with third parties, files RBI complaints for privacy violations, and ensures complete protection for you and your family.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Intimidation Tactics</strong> - Recovery agents may use intimidation tactics including threats, false claims, and public shaming. All of these violate <strong>RBI guidelines</strong> and are illegal. CredSettle provides immediate legal protection against intimidation, files complaints for threats, and ensures you're protected from all forms of intimidation.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Digital Harassment</strong> - Recovery agents may use digital harassment including threatening messages, social media harassment, and data privacy violations. CredSettle helps you file cyber crime complaints, protects your digital privacy, and ensures complete protection against digital harassment.
-                  </p>
+                            {section.callouts && section.callouts.length > 0 && (
+                              <div className="mt-6 grid gap-4 md:grid-cols-2">
+                                {section.callouts.map((callout) => (
+                                  <div
+                                    key={callout.title}
+                                    className="rounded-2xl border border-blue-100/80 bg-gradient-to-br from-blue-500/10 via-white to-blue-100/10 p-5 md:p-6"
+                                  >
+                                    <div className="flex items-start gap-3">
+                                      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white">
+                                        <FontAwesomeIcon icon={callout.icon} className="h-5 w-5" />
+                                      </span>
+                                      <div>
+                                        <h3
+                                          className="text-base font-semibold"
+                                          style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}
+                                        >
+                                          {callout.title}
+                                        </h3>
+                                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                          {callout.description}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
 
-                  {/* Filing Complaints Against Harassment */}
-                  <h2 id="filing-complaints" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Filing Complaints Against Loan Recovery Agent Harassment
-                  </h2>
-                  <p className="mb-4">
-                    Filing effective complaints against <strong>recovery agent harassment</strong> is crucial for stopping harassment and holding violators accountable:
-                  </p>
-                  <p className="mb-4">
-                    <strong>RBI Banking Ombudsman Complaint</strong> - The <strong>RBI Banking Ombudsman</strong> handles complaints against banks and their recovery agents for violations of <strong>RBI guidelines</strong>. This includes harassment, privacy violations, and unfair practices. CredSettle helps you file effective <strong>RBI complaints</strong> that result in investigation and penalties for violators.
-                  </p>
-                  <p className="mb-4">
-                    <strong>RBI Consumer Education Department Complaint</strong> - The <strong>RBI Consumer Education Department</strong> handles complaints about regulatory violations and unfair practices. CredSettle files complaints documenting all <strong>harassment violations</strong>, ensuring proper investigation and action against violators.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Police Complaint</strong> - For severe <strong>harassment</strong> involving threats, intimidation, or criminal behavior, <strong>police complaints</strong> can be filed. CredSettle helps you file effective police complaints with proper documentation, ensuring action against recovery agents and protection for you and your family.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Cyber Crime Complaint</strong> - For digital harassment including threatening messages, social media harassment, and data privacy violations, <strong>cyber crime complaints</strong> can be filed. CredSettle helps you file cyber crime complaints and protects your digital privacy.
-                  </p>
-                  <p className="mb-4">
-                    <strong>National Consumer Helpline</strong> - The <strong>National Consumer Helpline</strong> provides assistance for consumer complaints including harassment. CredSettle helps you access this helpline and file effective complaints that result in action.
-                  </p>
-
-                  {/* Benefits of Anti-Harassment Services */}
-                  <h2 id="benefits-anti-harassment" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Benefits of Anti-Harassment Services: Why Choose Professional Protection
-                  </h2>
-                  <p className="mb-4">
-                    Professional <strong>anti-harassment services</strong> provide numerous benefits for borrowers facing <strong>loan recovery agent harassment</strong>:
-                  </p>
-                  <p className="mb-4">
-                    <strong>Immediate Protection</strong> - <strong>Anti-harassment services</strong> provide immediate protection against harassment, typically stopping harassment within 24-48 hours. This includes sending cease-and-desist notices, filing RBI complaints, setting up call forwarding, and establishing legal protection. You get immediate relief from constant harassment.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Legal Expertise</strong> - Professional <strong>anti-harassment services</strong> have legal expertise in <strong>RBI guidelines</strong>, Indian laws, and complaint filing procedures. This ensures effective protection and proper handling of all harassment cases. CredSettle's legal team has extensive experience in stopping harassment and protecting borrowers.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Complete Protection</strong> - <strong>Anti-harassment services</strong> provide complete protection against all forms of harassment, including calls, visits, digital harassment, and privacy violations. This comprehensive protection ensures you're protected from all harassment tactics.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Peace of Mind</strong> - Knowing that professional <strong>anti-harassment services</strong> are handling all communications and providing protection gives you peace of mind. You can focus on your life without constant worry about harassment calls or visits.
-                  </p>
-                  <p className="mb-4">
-                    <strong>Ongoing Support</strong> - Professional <strong>anti-harassment services</strong> provide ongoing support and monitoring, ensuring harassment doesn't resume. CredSettle provides 24/7 protection and immediate response to any harassment incidents.
-                  </p>
-
-                  {/* Conclusion */}
-                  <h2 id="conclusion" className="text-3xl font-bold mb-4 mt-8" style={{ color: '#0C2756' }}>
-                    Conclusion: Your Path to Freedom from Loan Recovery Agent Harassment
-                  </h2>
-                  <p className="mb-4">
-                    <strong>Loan recovery agent harassment</strong> is illegal and violates your rights under <strong>RBI guidelines</strong> and Indian laws. Understanding your <strong>legal rights against harassment</strong> and accessing professional <strong>anti-harassment services</strong> is essential for protecting yourself and your family.
-                  </p>
-                  <p className="mb-4">
-                    CredSettle provides comprehensive <strong>anti-harassment services</strong> that stop harassment immediately, protect your rights, and ensure complete legal protection. Our services include call forwarding, cease-and-desist notices, RBI complaint filing, police complaint filing, and 24/7 legal protection.
-                  </p>
-                  <p className="mb-4">
-                    Remember, you don't have to face <strong>harassment</strong> alone. Professional <strong>anti-harassment services</strong> provide immediate protection and ongoing support, ensuring harassment stops completely and permanently. By working with CredSettle, you can stop harassment, protect your rights, and achieve peace of mind.
-                  </p>
-                  <p className="mb-4">
-                    If you're facing <strong>loan recovery agent harassment</strong>, reach out to CredSettle immediately. Our expert legal team will assess your situation, provide immediate protection, and ensure harassment stops within 24-48 hours. Don't suffer in silence—get the protection you deserve today.
-                  </p>
+                            {section.steps && section.steps.length > 0 && (
+                              <div className="mt-6 space-y-4">
+                                {section.steps.map((step) => (
+                                  <div
+                                    key={step.title}
+                                    className="flex flex-col gap-3 rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] md:flex-row md:items-start"
+                                  >
+                                    <div className="flex h-10 w-20 items-center justify-center rounded-full bg-blue-600 text-sm font-semibold uppercase text-white">
+                                      {step.label}
+                                    </div>
+                                    <div className="flex-1">
+                                      <h3
+                                        className="text-base md:text-lg font-semibold"
+                                        style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}
+                                      >
+                                        {step.title}
+                                      </h3>
+                                      <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
+                                        {step.description}
+                                      </p>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </article>
+                    ))}
+                  </div>
                 </div>
               </div>
             </section>

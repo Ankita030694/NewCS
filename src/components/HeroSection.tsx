@@ -347,6 +347,7 @@ export default function HeroSection() {
         {/* 1st Column - 25% width - Reviews */}
         <div className="w-1/4" style={{display: 'flex', flexDirection: 'column', gap: '12.96px'}}>
           {/* First Review Row */}
+          <a href="https://share.google/UGjkJ5UCd6UiyJ7A6" target="_blank" rel="noopener noreferrer">
           <div className="bg-white flex" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
             <div className="w-1/2 flex justify-center items-center">
               <img src="/ggle.png" alt="Google Reviews - CredSettle" style={{height: '29.16px'}} />
@@ -361,8 +362,10 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
+          </a>
           
           {/* Second Review Row */}
+          <a href="https://www.trustpilot.com/" target="_blank" rel="noopener noreferrer">
           <div className="bg-white flex" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
             <div className="w-1/2 flex justify-center items-center">
                 <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{height: '29.16px'}} />
@@ -377,7 +380,9 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-        </div>
+          </a>
+          </div>
+
 
         {/* 2nd Column - 50% width - Settlements */}
         <div 
@@ -454,16 +459,33 @@ export default function HeroSection() {
           </h3>
           <div className="grid grid-cols-2 w-full" style={{gap: '9.72px', paddingLeft: '12.96px', paddingRight: '12.96px', paddingBottom: '12.96px'}}>
             <div className="flex items-center justify-center">
-              <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{height: '25.92px'}} />
+              
+                <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{height: '25.92px'}} />
+              
             </div>
             <div className="flex items-center justify-center">
-              <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{height: '25.92px'}} />
+              <a
+                href="https://yourstory.com/companies/credsettle"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="CredSettle on Medium"
+              >
+                <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{height: '25.92px'}} />
+              </a>
             </div>
             <div className="flex items-center justify-center">
-              <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{height: '25.92px'}} />
+              <a
+                href="https://medium.com/@credsettle/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="CredSettle on YourStory"
+              >
+                <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{height: '25.92px'}} />
+              </a>
             </div>
             <div className="flex items-center justify-center">
-              <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{height: '25.92px'}} />
+              
+                <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{height: '25.92px'}} />
             </div>
           </div>
         </div>

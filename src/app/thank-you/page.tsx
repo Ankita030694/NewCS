@@ -384,30 +384,30 @@ export default function ThankYouPage() {
                   </h3>
                   <div className="marquee-container">
                     <div className="marquee-content marquee-reverse">
-                      <a href="https://medium.com/@credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media1.svg" alt="Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                        <img src="/media/media1.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://www.mid-day.com/" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media2.svg" alt="Mid Day" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                        <img src="/media/media2.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://yourstory.com/" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media3.svg" alt="YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                        <img src="/media/media3.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://www.livemint.com/" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media4.svg" alt="Mint" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                        <img src="/media/media4.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       {/* Duplicate for seamless loop */}
-                      <a href="https://medium.com/@credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media1.svg" alt="Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                        <img src="/media/media1.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://www.mid-day.com/" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media2.svg" alt="Mid Day" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                        <img src="/media/media2.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://yourstory.com/" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media3.svg" alt="YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                        <img src="/media/media3.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://www.livemint.com/" target="_blank" rel="noopener noreferrer" className="marquee-item">
-                        <img src="/media/media4.svg" alt="Mint" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                        <img src="/media/media4.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                     </div>
                   </div>

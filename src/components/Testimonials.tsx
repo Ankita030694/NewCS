@@ -3,23 +3,23 @@ import Link from 'next/link';
 const Testimonials = () => {
   const testimonials = [
     {
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/59ce5c31d29889152fc4b10012357360245f5760?width=820",
+      image: "/man1.jpg",
       text: "CredSettle stopped the constant harassment immediately. They negotiated a Personal Loan settlement for far less than I owed, restoring my peace of mind and dignity.",
-      name: "Ravi K.",
+      name: "Ram Badhoriya",
       type: "Personal Loan Settlement",
       imageHeight: "390px"
     },
     {
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/cf1255e48575a7e20767bade3db63105f80d5938?width=820",
+      image: "/man2.jpg",
       text: "After months of stress from credit card debt, CredSettle helped me settle my outstanding balance at 40% of the original amount. The process was smooth and professional.",
-      name: "Prakash S.",
+      name: "Prabhdeep Singh.",
       type: "Credit Card Settlement",
       imageHeight: "390px"
     },
     {
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/d213786399b8442ae836c6d1917c81e93a1c9722?width=820",
+      image: "/man3.png",
       text: "I was struggling with my car loan payments. CredSettle negotiated a settlement that saved me thousands and helped me get back on track financially. Highly recommended!",
-      name: "Amit R.",
+      name: "Venugopal K.",
       type: "Car Loan Settlement",
       imageHeight: "482px"
     }
@@ -70,7 +70,7 @@ const Testimonials = () => {
               <img
                 src={testimonial.image}
                 alt={`${testimonial.name} testimonial`}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover" 
                 style={{ 
                   flexShrink: 0,
                   maxHeight: testimonial.imageHeight 
