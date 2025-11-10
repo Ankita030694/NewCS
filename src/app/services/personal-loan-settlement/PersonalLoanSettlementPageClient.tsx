@@ -5,18 +5,46 @@ import Footer from '@/components/Footer';
 import BanksGrid from '@/components/BanksGrid';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedContent from '@/components/RelatedContent';
+import FAQWithSchema from '@/components/FAQWithSchema';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { generateSlug } from './states-content';
 
 export default function PersonalLoanSettlementPageClient() {
   const [isFirefox, setIsFirefox] = useState(false);
-  const [faqOpenIndex, setFaqOpenIndex] = useState<number | null>(null);
 
   useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
   }, []);
+
+  const personalLoanFaqs = [
+    {
+      question: 'How does personal loan settlement differ from credit card settlement?',
+      answer:
+        'Personal loans are closed-ended term loans. We negotiate a One-Time Settlement with the lending bank or NBFC to reduce the principal and interest burden while ensuring the account is legally closed with proper documentation.'
+    },
+    {
+      question: 'Will my CIBIL score be affected during the settlement process?',
+      answer:
+        'A temporary dip is possible because the account is reported as “settled.” However, this is preferable to a charge-off. We provide a credit rehabilitation roadmap so you can rebuild your score within 12-18 months.'
+    },
+    {
+      question: 'Can CredSettle stop harassment from recovery agents for personal loans?',
+      answer:
+        'Yes. We route all communications through our legal desk, document violations, and escalate to RBI or police authorities when required so harassment ceases quickly.'
+    },
+    {
+      question: 'What documents will I receive after the OTS is completed?',
+      answer:
+        'You receive the formal settlement sanction letter, payment acknowledgments, and the lender’s closure letter or No Objection Certificate confirming that no further dues remain.'
+    },
+    {
+      question: 'How much can the principal typically be reduced?',
+      answer:
+        'The reduction depends on lender policies, delinquency stage, and your negotiation leverage. Our cases typically achieve 40-60% reductions while keeping the agreement fully RBI-compliant.'
+    }
+  ];
 
   return (
     <div className="relative min-h-screen bg-white mt-6">
@@ -953,102 +981,12 @@ export default function PersonalLoanSettlementPageClient() {
           </div>
         </section>
 
-        {/* FAQ + CTA (mirrors home page styling, tailored to this service) */}
-        <section className="w-full py-12">
+        {/* FAQ + CTA */}
+        <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex flex-col items-center gap-8 md:gap-14">
-              {/* Header and FAQ Items Container */}
-              <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
-                {/* Left: Header Section */}
-                <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
-                  <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold">
-                    <span style={{ color: '#0C2756' }}>Personal Loan Settlement{`\n`}<br /> FAQs — </span>
-                    <span style={{ color: '#007AFF' }}>Answered.</span>
-                  </h2>
-                  <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
-                    <span style={{ color: '#0C2756' }}>Need more details? </span>
-                    <span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span>
-                    <span style={{ color: '#0C2756' }}> anytime.</span>
-                  </p>
-                </div>
+              <FAQWithSchema faqs={personalLoanFaqs} title="Personal Loan Settlement" />
 
-                {/* Right: FAQ Items - Aligned to right end */}
-                <div className="w-full lg:w-[800px] lg:ml-auto p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
-                  <div className="flex flex-col gap-4">
-                    {[
-                      {
-                        q: 'How does personal loan settlement differ from credit card settlement?',
-                        a:
-                          'Personal loans are term loans with fixed schedules and agreements. Our team negotiates an OTS with the lender for a reduced principal or lump-sum closure, ensuring full RBI compliance and proper closure letters.'
-                      },
-                      {
-                        q: 'Will my CIBIL score be affected during the settlement process?',
-                        a:
-                          'Scores can be impacted in the short term with a “settled” remark, but we focus on legally closing the account and guiding you on credit rehabilitation so your creditworthiness improves over time.'
-                      },
-                      {
-                        q: 'Can CredSettle stop harassment from recovery agents for personal loans?',
-                        a:
-                          'Yes. We intervene legally, route communications through us, and file formal complaints with the appropriate authorities when needed to stop harassment immediately.'
-                      },
-                      {
-                        q: 'What documents will I receive after the OTS is completed?',
-                        a:
-                          'You receive formal OTS letters, payment acknowledgments, and a loan closure letter/NOC from the lender to confirm the finality of the settlement.'
-                      },
-                      {
-                        q: 'How much can the principal typically be reduced?',
-                        a:
-                          'Reduction varies by lender and case strength. Our goal is always a significantly reduced principal, and we negotiate based on your financials, payment capacity, and the lender’s policies.'
-                      }
-                    ].map((item, index) => (
-                      <div
-                        key={index}
-                        className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden"
-                        onClick={() => setFaqOpenIndex(faqOpenIndex === index ? null : index)}
-                      >
-                        <div className="flex justify-between items-start gap-[49px] p-[21px_28px]">
-                          <p className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal flex-1" style={{ color: '#0C2756' }}>
-                            {item.q}
-                          </p>
-                          <div className="flex-shrink-0 w-[16px] h-[16px] relative">
-                            <svg
-                              width="16"
-                              height="16"
-                              viewBox="0 0 23 23"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="transition-all duration-500 ease-in-out"
-                              style={{ transform: faqOpenIndex === index ? 'rotate(45deg)' : 'rotate(0deg)' }}
-                            >
-                              <path d="M11.5 0C12.3284 0 13 0.671573 13 1.5V10H21.5C22.3284 10 23 10.6716 23 11.5C23 12.3284 22.3284 13 21.5 13H13V21.5C13 22.3284 12.3284 23 11.5 23C10.6716 23 10 22.3284 10 21.5V13H1.5C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10H10V1.5C10 0.671573 10.6716 0 11.5 0Z" fill="black" />
-                            </svg>
-                          </div>
-                        </div>
-                        <div
-                          className="transition-all duration-500 ease-in-out overflow-hidden"
-                          style={{
-                            maxHeight: faqOpenIndex === index ? '200px' : '0px',
-                            opacity: faqOpenIndex === index ? 1 : 0,
-                            paddingTop: faqOpenIndex === index ? '12px' : '0px',
-                            paddingBottom: faqOpenIndex === index ? '21px' : '0px',
-                            paddingLeft: '28px',
-                            paddingRight: '28px'
-                          }}
-                        >
-                          <div className="border-t border-gray-200 pt-3">
-                            <p className="text-[11px] md:text-[13px] leading-[14px] md:leading-[15px] font-normal" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
-                              {item.a}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              {/* CTA Section */}
               <div
                 className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
                 style={{

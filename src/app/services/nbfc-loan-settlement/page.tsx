@@ -3,7 +3,36 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BanksGrid from '@/components/BanksGrid';
+import FAQWithSchema from '@/components/FAQWithSchema';
 import { useEffect, useState } from 'react';
+
+const nbfcFaqs = [
+  {
+    question: 'Do NBFCs settle differently than banks?',
+    answer:
+      'Often yes. Our team maps each NBFC’s settlement framework, provisioning economics, and approval hierarchy so negotiations align with their policy and close faster.'
+  },
+  {
+    question: 'What documentation do I receive once we settle?',
+    answer:
+      'You receive the official One-Time Settlement letter, payment acknowledgments, and a No Objection Certificate (NOC). We also ensure lien release or hypothecation cancellation and credit bureau updates.'
+  },
+  {
+    question: 'Will NBFC settlement impact my credit score long term?',
+    answer:
+      'There is a short-term dip after settlement, but it is far better than a charge-off. With our credit rehabilitation plan, most clients rebuild scores above 650 within 12-18 months.'
+  },
+  {
+    question: 'How long does an NBFC settlement typically take?',
+    answer:
+      'Most cases complete within 45-75 days depending on lender responsiveness and complexity. Harassment usually stops within 3-5 business days after our legal notices go out.'
+  },
+  {
+    question: 'Can I bundle multiple NBFC loans into one settlement plan?',
+    answer:
+      'Yes. We coordinate multi-loan negotiations either with the same NBFC or across portfolios, sequencing offers so you receive consolidated closure and aligned payment schedules.'
+  }
+];
 
 export default function NBFCLoanSettlementPage() {
   const [isFirefox, setIsFirefox] = useState(false);
@@ -501,38 +530,46 @@ export default function NBFCLoanSettlementPage() {
         </section>
 
         {/* FAQ + CTA */}
-        <section className="w-full py-12">
+        <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex flex-col items-center gap-8 md:gap-14">
-              <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
-                <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
-                  <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold"><span style={{ color: '#0C2756' }}>NBFC Loan Settlement{`\n`}<br /> FAQs — </span><span style={{ color: '#007AFF' }}>Answered.</span></h2>
-                  <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal"><span style={{ color: '#0C2756' }}>Need more details? </span><span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span><span style={{ color: '#0C2756' }}> anytime.</span></p>
-                </div>
-                <div className="w-full lg:w-[800px] lg:ml-auto p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
-                  <div className="flex flex-col gap-4">
-                    {[
-                      { q: 'Do NBFCs settle differently than banks?', a: 'Often yes. We align with each NBFC’s internal policy to secure legal, favorable closures.' },
-                      { q: 'What documentation do I receive?', a: 'Official OTS letters, acknowledgments, and closure/NOC upon completion.' },
-                      { q: 'Will settlement affect my credit?', a: 'Short-term impact is possible; we advise on rehabilitation after legal closure.' }
-                    ].map((item, i) => (
-                      <div key={i} className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden">
-                        <details>
-                          <summary className="flex justify-between items-start gap-[49px] p-[21px_28px] cursor-pointer list-none"><span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal flex-1" style={{ color: '#0C2756' }}>{item.q}</span></summary>
-                          <div className="px-[28px] pb-[21px] pt-3 border-t border-gray-200"><p className="text-[11px] md:text-[13px] leading-[14px] md:leading-[15px] font-normal" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>{item.a}</p></div>
-                        </details>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{ background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)', boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)' }}>
+              <FAQWithSchema faqs={nbfcFaqs} title="NBFC Loan Settlement" />
+
+              <div
+                className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
+                style={{
+                  background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
+                  boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
+                }}
+              >
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">
-                    <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>Ready to Close Your NBFC Loan Legally?</h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Use our NBFC policy expertise to secure a compliant, final OTS.</p>
+                    <h2
+                      className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
+                      style={{ color: '#0C2756' }}
+                    >
+                      Ready to Close Your NBFC Loan Legally?
+                    </h2>
+                    <p
+                      className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
+                      style={{ color: 'rgba(12, 39, 86, 0.70)' }}
+                    >
+                      Use our NBFC policy expertise to secure a compliant, final OTS.
+                    </p>
                   </div>
-                  <button className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90" style={{ boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset' }}><span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal" style={{ color: '#0C2756' }}>Get Your Free Consultation</span></button>
+                  <button
+                    className="px-[28px] py-[14px] rounded-xl bg-white transition-opacity duration-200 hover:opacity-90"
+                    style={{
+                      boxShadow: '0 -3px 7px 0 rgba(9, 9, 9, 0.30) inset, 0 3px 7px 0 rgba(9, 9, 9, 0.30) inset'
+                    }}
+                  >
+                    <span
+                      className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal"
+                      style={{ color: '#0C2756' }}
+                    >
+                      Get Your Free Consultation
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>

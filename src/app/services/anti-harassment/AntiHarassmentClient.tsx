@@ -54,18 +54,6 @@ export default function AntiHarassmentClient() {
     {
       question: 'How do I file a complaint against loan recovery agent harassment?',
       answer: 'You can file complaints against loan recovery agent harassment through multiple channels: RBI Banking Ombudsman for banking violations, RBI Consumer Education and Protection Department for regulatory violations, local police for criminal harassment, Cyber Crime Cell for digital harassment, and National Consumer Helpline. CredSettle handles all complaint filing on your behalf, ensuring proper documentation and follow-up for maximum protection.'
-    },
-    {
-      question: 'What is call forwarding service and how does it stop harassment?',
-      answer: 'Call forwarding service diverts all recovery calls directly to CredSettle\'s legal helpline, preventing you from receiving harassing calls. When recovery agents call your number, the call is automatically forwarded to our legal team, who handle all communications professionally and legally. This ensures you never receive threatening or abusive calls, while our team negotiates with lenders on your behalf. This service provides immediate relief from constant harassment calls.'
-    },
-    {
-      question: 'What is a cease and desist notice and how does it work?',
-      answer: 'A cease and desist notice is a formal legal document sent to lenders and recovery agencies demanding they immediately stop all harassment and illegal recovery practices. This notice cites specific violations of RBI guidelines and Indian laws, warns of legal consequences for continued harassment, and establishes a legal record of the harassment. CredSettle\'s legal team sends these notices immediately upon engagement, typically stopping harassment within 24-48 hours.'
-    },
-    {
-      question: 'How long does it take for anti-harassment services to stop harassment?',
-      answer: 'CredSettle\'s anti-harassment services typically stop harassment within 24-48 hours of engagement. Immediate actions include sending cease-and-desist notices, filing RBI complaints, setting up call forwarding, and establishing legal protection. In most cases, harassment stops completely within 48 hours. For persistent harassment, our escalation procedures (RBI complaints, police complaints) typically achieve complete cessation within 7-14 days. We provide ongoing protection until harassment stops permanently.'
     }
   ];
 

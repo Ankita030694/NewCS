@@ -3,6 +3,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BanksGrid from '@/components/BanksGrid';
+import FAQWithSchema from '@/components/FAQWithSchema';
 import { useEffect, useState } from 'react';
 
 export default function CarLoanSettlementPage() {
@@ -11,6 +12,34 @@ export default function CarLoanSettlementPage() {
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
   }, []);
+
+  const carLoanFaqs = [
+    {
+      question: 'Can a secured car loan be settled without losing the vehicle?',
+      answer:
+        'Yes, provided we align with the lender’s asset recovery policy. We negotiate for settlements that prioritize legal closure while working to retain possession wherever feasible.'
+    },
+    {
+      question: 'What happens once a car loan OTS is executed?',
+      answer:
+        'Collections stop and you receive the sanctioned OTS letter, payment receipts, and the lender’s closure/NOC. If the vehicle was hypothecated, we ensure the lien is removed promptly.'
+    },
+    {
+      question: 'How quickly can harassment from field agents be stopped?',
+      answer:
+        'Immediately after engagement. We route communication through our legal team, log violations, and escalate to compliance officers so coercive visits cease.'
+    },
+    {
+      question: 'Do I still owe interest or penalties after settlement?',
+      answer:
+        'No. Once the OTS amount is paid within the agreed timeline, waived interest and penalties cannot be revived. We verify the account reflects zero balance.'
+    },
+    {
+      question: 'Will settlement damage my credit long term?',
+      answer:
+        'A short-term credit impact is expected, but it is preferable to repossession or charge-off. We provide a credit rebuild strategy to restore your score over the next 12-24 months.'
+    }
+  ];
 
   return (
     <div className="relative min-h-screen bg-white mt-6">
@@ -483,31 +512,10 @@ export default function CarLoanSettlementPage() {
         </section>
 
         {/* FAQ + CTA */}
-        <section className="w-full py-12">
+        <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex flex-col items-center gap-8 md:gap-14">
-              <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
-                <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
-                  <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold"><span style={{ color: '#0C2756' }}>Car Loan Settlement{`\n`}<br /> FAQs — </span><span style={{ color: '#007AFF' }}>Answered.</span></h2>
-                  <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal"><span style={{ color: '#0C2756' }}>Need more details? </span><span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span><span style={{ color: '#0C2756' }}> anytime.</span></p>
-                </div>
-                <div className="w-full lg:w-[800px] lg:ml-auto p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
-                  <div className="flex flex-col gap-4">
-                    {[
-                      { q: 'Can a secured car loan be settled without losing the car?', a: 'We work to minimize asset risk; outcomes depend on lender policy and dues. We negotiate to settle legally and protect you.' },
-                      { q: 'What happens after OTS?', a: 'Collections stop and you receive settlement/closure letters from the lender upon compliance with terms.' },
-                      { q: 'How fast can harassment stop?', a: 'Immediately after engagement, we route communications and file complaints against illegal practices.' }
-                    ].map((item, i) => (
-                      <div key={i} className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden">
-                        <details>
-                          <summary className="flex justify-between items-start gap-[49px] p-[21px_28px] cursor-pointer list-none"><span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal flex-1" style={{ color: '#0C2756' }}>{item.q}</span></summary>
-                          <div className="px-[28px] pb-[21px] pt-3 border-t border-gray-200"><p className="text-[11px] md:text-[13px] leading-[14px] md:leading-[15px] font-normal" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>{item.a}</p></div>
-                        </details>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+              <FAQWithSchema faqs={carLoanFaqs} title="Car Loan Settlement" />
               <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{ background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)', boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)' }}>
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">

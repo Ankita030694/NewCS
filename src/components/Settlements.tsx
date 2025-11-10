@@ -19,7 +19,7 @@ export default function Settlements() {
     { id: 'bank4', src: '/banks/74.svg', letter: settlementLetters[3] },
     { id: 'bank5', src: '/banks/60.svg' },
     { id: 'bank6', src: '/banks/41.svg' },
-    { id: 'bank7', src: '/banks/45.svg' }
+    { id: 'bank7', src: '/banks/22.svg' }
   ];
 
   const handleBankClick = (bankId: string) => {
@@ -69,7 +69,11 @@ export default function Settlements() {
             className="text-center font-semibold text-4xl leading-[34px]"
             style={{ color: '#0C2756', fontWeight: 500 }}
           >
-            Settled & Debt-Free: Client Proof
+            Loan Settlement Success Stories:
+            <br style={{ lineHeight: '44px', marginBottom: '0.1em' }} />
+            <span style={{ color: '#007AFF', marginTop: '0.02em', display: 'inline-block', lineHeight: '44px' }}>
+              Real Results, Real Proof
+            </span>
           </h2>
 
         <div className="relative w-full max-w-[1146px] h-[426px]" style={{ transform: 'scale(1.1)' }}>

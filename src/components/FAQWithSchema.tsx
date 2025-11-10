@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Script from 'next/script';
 import Link from 'next/link';
 
@@ -18,13 +18,14 @@ interface FAQWithSchemaProps {
 export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [schemaMarkup, setSchemaMarkup] = useState<string>('');
+  const faqsToRender = useMemo(() => faqs.slice(0, 5), [faqs]);
 
   useEffect(() => {
     // Generate FAQPage schema markup
     const schema = {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: faqs.map((faq) => ({
+      mainEntity: faqsToRender.map((faq) => ({
         '@type': 'Question',
         name: faq.question,
         acceptedAnswer: {
@@ -34,7 +35,7 @@ export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaPr
       }))
     };
     setSchemaMarkup(JSON.stringify(schema));
-  }, [faqs]);
+  }, [faqsToRender]);
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -74,7 +75,7 @@ export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaPr
         {/* Right: FAQ Items */}
         <div className="w-full lg:w-[800px] lg:ml-auto p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
           <div className="flex flex-col gap-4">
-            {faqs.map((faq, index) => (
+            {faqsToRender.map((faq, index) => (
               <div
                 key={index}
                 className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden"

@@ -100,7 +100,7 @@ const Testimonials = () => {
                 <h3 className="text-[#0C2756] font-normal text-lg md:text-[18px] leading-tight md:leading-[18px] tracking-[-0.18px]">
                   {testimonial.name}
                 </h3>
-                <p className="text-[#0C2756] text-center font-normal text-xs md:text-[13px] leading-tight md:leading-[13px] tracking-[-0.13px]">
+                <p className="text-[#0C2756] text-left font-normal text-xs md:text-[13px] leading-tight md:leading-[13px] tracking-[-0.13px]">
                   {testimonial.type}
                 </p>
               </div>

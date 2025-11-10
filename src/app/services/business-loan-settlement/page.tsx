@@ -3,6 +3,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BanksGrid from '@/components/BanksGrid';
+import FAQWithSchema from '@/components/FAQWithSchema';
 import { useEffect, useState } from 'react';
 
 export default function BusinessLoanSettlementPage() {
@@ -11,6 +12,34 @@ export default function BusinessLoanSettlementPage() {
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
   }, []);
+
+  const businessLoanFaqs = [
+    {
+      question: 'Can secured business loans be settled without losing collateral?',
+      answer:
+        'Yes, subject to lender approval. We negotiate structured settlements or restructures while working to protect pledged assets and formalize release terms in writing.'
+    },
+    {
+      question: 'What documentation is required for a business loan OTS proposal?',
+      answer:
+        'We compile financial statements, cash-flow projections, hardship evidence, and a viable settlement offer. Our legal team crafts submissions that align with the lender’s risk committee requirements.'
+    },
+    {
+      question: 'How does settlement affect the company’s credit profile?',
+      answer:
+        'There can be a short-term dip, but settling legally is preferable to defaults or insolvency proceedings. We provide guidance on post-settlement credit rebuilding and compliance.'
+    },
+    {
+      question: 'Do you support notice replies and litigation management?',
+      answer:
+        'Yes. We draft legal responses, appear through partner advocates, and coordinate negotiations so the matter shifts from litigation to a compliant settlement track.'
+    },
+    {
+      question: 'Can multiple business loans be negotiated together?',
+      answer:
+        'Absolutely. We prioritize lenders based on exposure, security, and timelines to create a coordinated settlement roadmap across banks, NBFCs, and fintech lenders.'
+    }
+  ];
 
   return (
     <div className="relative min-h-screen bg-white mt-6">
@@ -668,32 +697,10 @@ export default function BusinessLoanSettlementPage() {
           </div>
         </section>
 
-        <section className="w-full py-12">
+        <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex flex-col items-center gap-8 md:gap-14">
-              <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
-                <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
-                  <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold"><span style={{ color: '#0C2756' }}>Business Loan Settlement{`\n`}<br /> FAQs — </span><span style={{ color: '#007AFF' }}>Answered.</span></h2>
-                  <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal"><span style={{ color: '#0C2756' }}>Need more details? </span><span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span><span style={{ color: '#0C2756' }}> anytime.</span></p>
-                </div>
-                <div className="w-full lg:w-[800px] lg:ml-auto p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
-                  <div className="flex flex-col gap-4">
-                    {[
-                      { q: 'Can secured business loans be settled?', a: 'Yes, subject to lender policy. We negotiate settlements and restructures while protecting assets where possible.' },
-                      { q: 'What’s required for an OTS?', a: 'Financials, proposed amount/timeline, and case background. We prepare a compliant strategy and handle lender discussions.' },
-                      { q: 'Will this impact my company’s credit?', a: 'Short-term impact is possible. Our focus is legal finality and a plan to rebuild creditworthiness.' },
-                      { q: 'Do you assist with notices and litigation?', a: 'We provide legal representation, draft responses, and coordinate with lender teams to resolve matters.' }
-                    ].map((item, i) => (
-                      <div key={i} className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden">
-                        <details>
-                          <summary className="flex justify-between items-start gap-[49px] p-[21px_28px] cursor-pointer list-none"><span className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal flex-1" style={{ color: '#0C2756' }}>{item.q}</span></summary>
-                          <div className="px-[28px] pb-[21px] pt-3 border-t border-gray-200"><p className="text-[11px] md:text-[13px] leading-[14px] md:leading-[15px] font-normal" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>{item.a}</p></div>
-                        </details>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+              <FAQWithSchema faqs={businessLoanFaqs} title="Business Loan Settlement" />
               <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{ background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)', boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)' }}>
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">
