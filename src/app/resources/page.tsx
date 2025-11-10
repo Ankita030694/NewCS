@@ -282,6 +282,7 @@ export default function BlogPage() {
                         placeholder="blur"
                         blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjQwJyBoZWlnaHQ9JzE2MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cmVjdCB3aWR0aD0nMjQwJyBoZWlnaHQ9JzE2MCcgZmlsbD0nI2VmZjknLz48L3N2Zz4="
                         priority={currentPage === 1 && idx < 3}
+                        crossOrigin="anonymous"
                       />
                     </div>
                     <div className="flex flex-col gap-2">
