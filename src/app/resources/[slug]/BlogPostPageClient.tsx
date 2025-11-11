@@ -8,11 +8,8 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
-
-type FAQ = {
-  question: string;
-  answer: string;
-};
+import type { BlogFaq } from '@/data/blogDefaults';
+import { defaultBlogFaqs } from '@/data/blogDefaults';
 
 type BlogPost = {
   id: string;
@@ -21,7 +18,7 @@ type BlogPost = {
   date: string;
   image: string;
   description: string;
-  faqs: FAQ[];
+  faqs: BlogFaq[];
   slug: string;
 };
 
@@ -37,25 +34,6 @@ type BlogPostPageClientProps = {
   relatedBlogs: RelatedBlog[];
   canonicalSlug: string;
 };
-
-const defaultFaqs: FAQ[] = [
-  {
-    question:
-      'What is a One-Time Settlement (OTS), and how does CredSettle help me achieve it?',
-    answer:
-      'A One-Time Settlement (OTS) is a negotiated agreement where you pay a reduced lump sum to settle your debt. CredSettle negotiates with lenders on your behalf to secure the best possible settlement terms while ensuring RBI compliance.'
-  },
-  {
-    question: 'Is debt settlement legal? Does it adhere to RBI guidelines?',
-    answer:
-      'Yes, debt settlement is completely legal in India. CredSettle ensures all settlements are conducted in accordance with RBI guidelines and regulatory frameworks, protecting your rights throughout the process.'
-  },
-  {
-    question: 'How does CredSettle stop harassment from recovery agents?',
-    answer:
-      'CredSettle provides legal intervention and communication services to stop harassment from recovery agents. We file formal complaints with RBI, NCH, and Cyber Police when necessary, and issue cease and desist notices to protect your rights.'
-  }
-];
 
 const author = {
   name: 'Legal Expert Team',
@@ -148,22 +126,27 @@ const processDescription = (html: string): ProcessedDescriptionResult => {
   };
 };
 
+const PLACEHOLDER_BLUR_DATA_URL =
+  'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2NzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjcwIiBmaWxsPSIjZWZmN2ZmIi8+PC9zdmc+';
+
 const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageClientProps) => {
   const [isFirefox, setIsFirefox] = useState(false);
-  const [processedDescription, setProcessedDescription] = useState<string>('');
-  const [headings, setHeadings] = useState<Heading[]>([]);
   const [expandedFaqs, setExpandedFaqs] = useState<string[]>([]);
-  const [isLoaded, setIsLoaded] = useState(false);
   const [sidebarsFixed, setSidebarsFixed] = useState(true);
   const [shareUrl, setShareUrl] = useState('');
+
+  const processedContent = useMemo<ProcessedDescriptionResult>(() => {
+    if (!blog.description) {
+      return { processedHtml: '', headings: [] };
+    }
+    return processDescription(blog.description);
+  }, [blog.description]);
+
+  const { processedHtml, headings } = processedContent;
 
   useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
-  }, []);
-
-  useEffect(() => {
-    setIsLoaded(true);
   }, []);
 
   useEffect(() => {
@@ -172,30 +155,8 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
     }
   }, []);
 
-  useEffect(() => {
-    console.debug('[BlogPostPageClient] Page mounted', {
-      canonicalSlug,
-      blogSlug: blog.slug,
-      blogId: blog.id,
-      hasDescription: Boolean(blog.description),
-      relatedCount: relatedBlogs.length
-    });
-  }, [canonicalSlug, blog.slug, blog.id, blog.description, relatedBlogs.length]);
-
-  useEffect(() => {
-    if (!blog.description) {
-      setProcessedDescription('');
-      setHeadings([]);
-      return;
-    }
-
-    const { processedHtml, headings: generatedHeadings } = processDescription(blog.description);
-    setProcessedDescription(processedHtml);
-    setHeadings(generatedHeadings);
-  }, [blog.description]);
-
   const faqs = useMemo(() => {
-    return blog.faqs && blog.faqs.length > 0 ? blog.faqs : defaultFaqs;
+    return blog.faqs && blog.faqs.length > 0 ? blog.faqs : defaultBlogFaqs;
   }, [blog.faqs]);
 
   const related = useMemo(() => {
@@ -291,9 +252,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
       <div className="relative z-10 pt-24 pb-24 px-3 sm:px-6 lg:px-8">
         <div className="mx-auto w-full max-w-7xl">
           <div
-            className={`text-center mb-10 lg:mb-14 transition-all duration-700 ${
-              isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-            }`}
+            className="text-center mb-10 lg:mb-14 transition-all duration-700 opacity-100 translate-y-0"
           >
             <div className="flex items-center justify-center gap-1.5 text-[10px] md:text-xs mb-4 font-medium">
               <span className="text-sky-800/90">Home</span>
@@ -368,9 +327,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
 
           {blog.image && (
             <div
-              className={`relative mx-auto mb-10 lg:mb-16 overflow-hidden rounded-[26px] shadow-lg transition duration-700 ${
-                isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-              }`}
+              className="relative mx-auto mb-10 lg:mb-16 overflow-hidden rounded-[26px] shadow-lg transition duration-700 opacity-100 translate-y-0"
               style={{ aspectRatio: '16/9', maxWidth: '960px' }}
             >
               <Image
@@ -380,6 +337,8 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                 sizes="(min-width: 1024px) 60vw, (min-width: 768px) 80vw, 100vw"
                 className="object-cover"
                 priority
+                placeholder="blur"
+                blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
               />
             </div>
           )}
@@ -392,9 +351,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
             <div
-              className={`lg:col-span-8 transition duration-700 ${
-                isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-              }`}
+              className="lg:col-span-8 transition duration-700 opacity-100 translate-y-0"
             >
               <div
                 className="rounded-3xl p-6 md:p-8 lg:p-10 shadow-[0_18px_60px_rgba(12,39,86,0.08)] border border-sky-900/10 backdrop-blur-xl"
@@ -405,7 +362,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                 <div
                   className="blog-content"
                 dangerouslySetInnerHTML={{
-                  __html: processedDescription || blog.description || ''
+                  __html: processedHtml || blog.description || ''
                 }}
               />
               </div>
@@ -487,10 +444,15 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
             >
                 <div className="flex flex-col gap-5 sm:flex-row sm:gap-6">
                 <div className="flex-shrink-0">
-                  <img
+                  <Image
                     src={author.image}
                     alt={author.name}
-                      className="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-sky-900/10 object-contain bg-white p-2"
+                    width={96}
+                    height={96}
+                    className="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-sky-900/10 object-contain bg-white p-2"
+                    priority={false}
+                    placeholder="blur"
+                    blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
                   />
                 </div>
                   <div>
@@ -598,9 +560,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
             </div>
 
             <div
-              className={`lg:col-span-4 transition duration-700 ${
-                isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-              }`}
+              className="lg:col-span-4 transition duration-700 opacity-100 translate-y-0"
             >
               <div className={`${sidebarsFixed ? 'lg:sticky lg:top-32' : ''} space-y-6`}>
                 <div
@@ -669,7 +629,12 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                     </div>
                     <div className="space-y-4">
                       {related.map((relatedBlog) => (
-                        <Link key={relatedBlog.slug} href={`/resources/${relatedBlog.slug}`} className="block group">
+                        <Link
+                          key={relatedBlog.slug}
+                          href={`/resources/${relatedBlog.slug}`}
+                          className="block group"
+                          prefetch={false}
+                        >
                           <div className="rounded-2xl border border-transparent bg-white/80 p-4 transition group-hover:border-[#007AFF]/40 group-hover:shadow-md">
                             <h4
                               className="text-sm font-semibold mb-2 transition"
