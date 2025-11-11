@@ -189,9 +189,9 @@ export default function AboutPage() {
               >
                 We don't just negotiate; we secure RBI-compliant settlements that stop harassment in its tracks and provide a fast, structured path to financial freedom.
               </p>
-
+              <a href="/contact" className='cursor-pointer' style={{ textDecoration: 'none', cursor: 'pointer' }}>
               <button
-                className="bg-[#007AFF] text-white font-light"
+                className="bg-[#007AFF] text-white font-light cursor-pointer"
                 style={{
                   paddingLeft: '39.44px',
                   paddingRight: '39.44px',
@@ -205,10 +205,11 @@ export default function AboutPage() {
               >
                 Get Started Today
               </button>
-
-              {/* Mobile Version - Google, Media, Trustpilot */}
+              </a>
+                {/* Mobile Version - Google, Media, Trustpilot */}
               <div className="flex flex-col gap-4 mt-8 lg:hidden w-full">
                 {/* Google Review Card */}
+                <a href="https://share.google.com/UGjkJ5UCd6UiyJ7A6" target="_blank" rel="noopener noreferrer">
                 <div className="flex mx-auto" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '10px', gap: '8px', maxWidth: '320px', width: '100%' }}>
                   <div className="w-1/2 flex justify-center items-center">
                     <img src="/ggle.png" alt="Google Reviews - CredSettle" style={{ height: '32px' }} />
@@ -233,6 +234,7 @@ export default function AboutPage() {
                     </div>
                   </div>
                 </div>
+                </a>
 
                 {/* Media Coverages - Single Row */}
                 <div
@@ -261,7 +263,7 @@ export default function AboutPage() {
                       <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
                     </a>
                     <a
-                      href="https://medium.com/@credsettle/"
+                      href="https://yourstory.com/companies/credsettle"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="CredSettle on Medium"
@@ -269,7 +271,7 @@ export default function AboutPage() {
                       <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
                     </a>
                     <a
-                      href="https://yourstory.com/companies/credsettle"
+                      href="https://medium.com/@credsettle/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="CredSettle on YourStory"
@@ -288,6 +290,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Trustpilot Review Card */}
+                <a href="https://www.trustpilot.com/" target="_blank" rel="noopener noreferrer">
                 <div className="flex mx-auto" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '10px', gap: '8px', maxWidth: '320px', width: '100%' }}>
                   <div className="w-1/2 flex justify-center items-center">
                       <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{ height: '32px' }} />
@@ -312,94 +315,103 @@ export default function AboutPage() {
                     </div>
                   </div>
                 </div>
+                </a>
               </div>
             </div>
 
             {/* Desktop Right Column - Google, Media, Trustpilot */}
             <div className="hidden lg:flex flex-shrink-0 flex flex-col items-end" style={{ width: '600px', gap: '12.96px' }}>
               {/* Google Review Card */}
-              <div className="flex" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '12.96px', gap: '9.72px', width: '70%' }}>
-                <div className="w-1/2 flex justify-center items-center">
-                  <img src="/ggle.png" alt="Google Reviews - CredSettle" style={{ height: '39.16px' }} />
-                </div>
-                <div className="w-1/2 flex flex-col" style={{ gap: '9.48px' }}>
-                  <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                    <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '15.96px' }} />
-                    <span className="font-medium text-gray-900" style={{ fontSize: '12.72px' }}>4.6/5</span>
+              <a
+                href="https://share.google/UGjkJ5UCd6UiyJ7A6"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ width: '100%', display: 'flex', justifyContent: 'end', textDecoration: 'none' }}
+              >
+                <div className="flex" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '12.96px', gap: '9.72px', width: '70%' }}>
+                  <div className="w-1/2 flex justify-center items-center">
+                    <img src="/ggle.png" alt="Google Reviews - CredSettle" style={{ height: '39.16px' }} />
                   </div>
-                  <div className="text-center">
-                    <div
-                      className="text-gray-600"
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: '4px',
-                        fontSize: '8.72px'
-                      }}
-                    >
-                      <b style={{ fontSize: '13.72px' }}>Excellent</b>{' '}
-                      <span style={{ fontSize: '12.72px' }}>|</span>{' '}
-                      <span style={{ fontSize: '13px' }}>2000+ reviews</span>
+                  <div className="w-1/2 flex flex-col" style={{ gap: '9.48px' }}>
+                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '15.96px' }} />
+                      <span className="font-medium text-gray-900" style={{ fontSize: '12.72px' }}>4.6/5</span>
+                    </div>
+                    <div className="text-center">
+                      <div
+                        className="text-gray-600"
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          gap: '4px',
+                          fontSize: '8.72px'
+                        }}
+                      >
+                        <b style={{ fontSize: '13.72px' }}>Excellent</b>{' '}
+                        <span style={{ fontSize: '12.72px' }}>|</span>{' '}
+                        <span style={{ fontSize: '13px' }}>2000+ reviews</span>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
 
               {/* Media Coverages */}
               <div
-                className="flex flex-col items-center justify-center"
-                style={{
-                  borderRadius: '32.4px',
-                  background:
-                    'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%), #EFF7FF',
-                  boxShadow: '3.6px 3.6px 22.41px 0 rgba(12, 39, 86, 0.25)',
-                  maxWidth: '296px'
-                }}
+                className="w-full flex flex-col items-end"
+                style={{ textDecoration: 'none' }}
               >
-                <h3
-                  className="font-semibold text-gray-800 text-center"
-                  style={{ fontSize: '18.58px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingTop: '12.96px' }}
+                <div
+                  className="flex flex-col items-center justify-center"
+                  style={{
+                    borderRadius: '32.4px',
+                    background:
+                      'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%), #EFF7FF',
+                    boxShadow: '3.6px 3.6px 22.41px 0 rgba(12, 39, 86, 0.25)',
+                    maxWidth: '296px'
+                  }}
                 >
-                  Our media <br /> coverages
-                </h3>
-                <div className="flex flex-col w-full mt-5" style={{ gap: '9.72px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingBottom: '12.96px' }}>
-                  <div className="flex items-center justify-center mb-5">
+                  <h3
+                    className="font-semibold text-gray-800 text-center"
+                    style={{ fontSize: '18.58px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingTop: '12.96px' }}
+                  >
+                    Our media <br /> coverages
+                  </h3>
+                  <div className="flex flex-col w-full mt-5" style={{ gap: '9.72px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingBottom: '12.96px' }}>
                     <a
                       href="https://yourstory.com/companies/credsettle"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="CredSettle on YourStory"
+                      aria-label="CredSettle Media Coverage - YourStory"
+                      className="flex items-center justify-center mb-5"
                     >
                       <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '35.92px' }} />
                     </a>
-                  </div>
-                  <div className="flex items-center justify-center mb-5">
-                    <a
-                      href="https://medium.com/@credsettle/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="CredSettle on Medium"
-                    >
-                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '35.92px' }} />
-                    </a>
-                  </div>
-                    <div className="flex items-center justify-center mb-5">
                     <a
                       href="https://yourstory.com/companies/credsettle"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="CredSettle on YourStory"
+                      aria-label="CredSettle Media Coverage - YourStory"
+                      className="flex items-center justify-center mb-5"
+                    >
+                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '35.92px' }} />
+                    </a>
+                    <a
+                      href="https://medium.com/@credsettle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="CredSettle Media Coverage - Medium"
+                      className="flex items-center justify-center mb-5"
                     >
                       <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '35.92px' }} />
                     </a>
-                  </div>
-                  <div className="flex items-center justify-center mb-5">
                     <a
-                      href="https://medium.com/@credsettle/"
+                      href="https://medium.com/@credsettle"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="CredSettle on Medium"
+                      aria-label="CredSettle Media Coverage - Medium"
+                      className="flex items-center justify-center mb-5"
                     >
                       <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '35.92px' }} />
                     </a>
@@ -408,33 +420,40 @@ export default function AboutPage() {
               </div>
 
               {/* Trustpilot Review Card */}
-              <div className="flex" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '12.96px', gap: '9.72px', width: '70%' }}>
-                <div className="w-1/2 flex justify-center items-center">
-                    <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{ height: '39.16px' }} />
-                </div>
-                <div className="w-1/2 flex flex-col" style={{ gap: '9.48px' }}>
-                  <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                    <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '15.96px' }} />
-                    <span className="font-medium text-gray-900" style={{ fontSize: '12.72px' }}>4.6/5</span>
+              <a
+                href="https://www.trustpilot.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ width: '100%', display: 'flex', justifyContent: 'end', textDecoration: 'none' }}
+              >
+                <div className="flex" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '12.96px', gap: '9.72px', width: '70%' }}>
+                  <div className="w-1/2 flex justify-center items-center">
+                      <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{ height: '39.16px' }} />
                   </div>
-                  <div className="text-center">
-                    <div
-                      className="text-gray-600"
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: '4px',
-                        fontSize: '8.72px'
-                      }}
-                    >
+                  <div className="w-1/2 flex flex-col" style={{ gap: '9.48px' }}>
+                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '15.96px' }} />
+                      <span className="font-medium text-gray-900" style={{ fontSize: '12.72px' }}>4.6/5</span>
+                    </div>
+                    <div className="text-center">
+                      <div
+                        className="text-gray-600"
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          gap: '4px',
+                          fontSize: '8.72px'
+                        }}
+                      >
                         <b style={{ fontSize: '13.72px' }}>Excellent</b>{' '}
-                      <span style={{ fontSize: '12.72px' }}>|</span>{' '}
-                      <span style={{ fontSize: '13px' }}>2000+ reviews</span>
+                        <span style={{ fontSize: '12.72px' }}>|</span>{' '}
+                        <span style={{ fontSize: '13px' }}>2000+ reviews</span>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
