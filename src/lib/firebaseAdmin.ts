@@ -16,7 +16,7 @@ const coercePrivateKey = (raw?: string | null): string | undefined => {
   }
 
   const trimmed = raw.trim();
-  if (!trimmed) {
+  if (!trimmed) { 
     return undefined;
   }
 
