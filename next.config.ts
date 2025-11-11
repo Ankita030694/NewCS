@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ["image/webp"],
-    unoptimized: true,
+    unoptimized: false,
     remotePatterns: [
       {
         protocol: "https",
