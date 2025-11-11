@@ -1,7 +1,7 @@
 import { cert, getApps, initializeApp, type AppOptions } from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
 
-type ServiceAccountJSON = {
+type ServiceAccountJSON = { 
   project_id?: string;
   client_email?: string;
   private_key?: string;
