@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 
-const settlementLetters = ['/letter1.png', '/letter2.png', '/letter3.png', '/letter4.png'] as const;
+const settlementLetters = ['/letter1.png', '/letter2.png', '/letter3.png', '/letter4.png', '/letter6.png', '/letter7.png', '/letter5.png'] as const;
 
 export default function Settlements() {
   const [selectedBank, setSelectedBank] = useState<string | null>(null);
@@ -17,9 +17,9 @@ export default function Settlements() {
     { id: 'bank2', src: '/banks/40.svg', letter: settlementLetters[1] },
     { id: 'bank3', src: '/banks/37.svg', letter: settlementLetters[2] },
     { id: 'bank4', src: '/banks/74.svg', letter: settlementLetters[3] },
-    { id: 'bank5', src: '/banks/65.svg' },
-    { id: 'bank6', src: '/banks/55.svg' },
-    { id: 'bank7', src: '/banks/46.svg' }
+    { id: 'bank5', src: '/banks/65.svg', letter: settlementLetters[4] },
+    { id: 'bank6', src: '/banks/83.svg', letter: settlementLetters[5] },
+    { id: 'bank7', src: '/banks/46.svg', letter: settlementLetters[6] }
   ];
 
   const handleBankClick = (bankId: string) => {
