@@ -57,19 +57,7 @@ export default function AuthorityLayout({ children }: AuthorityLayoutProps) {
 
         <div className="space-y-4">
           <LogoutButton />
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-white/80">
-            <p className="mb-3 font-semibold">Need the public site?</p>
-            <p className="mb-4 text-white/60">
-              Head back to credsettle.com to review landing content, product explainers, and marketing assets.
-            </p>
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 rounded-xl bg-white/20 px-3 py-2 text-sm font-semibold text-white transition hover:bg-white/30"
-            >
-              Open main site
-              <FontAwesomeIcon icon={faArrowRightFromBracket} className="h-4 w-4" />
-            </Link>
-          </div>
+         
         </div>
       </aside>
 

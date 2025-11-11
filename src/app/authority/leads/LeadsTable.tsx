@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import type { LeadRecord } from './types';
 import { DEFAULT_PAGE_SIZE } from './types';
 
@@ -62,6 +64,8 @@ const LeadsTable = () => {
   const [pageIndex, setPageIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [deleteError, setDeleteError] = useState<string | null>(null);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
   const [activeNote, setActiveNote] = useState<{ title: string; note: string } | null>(null);
 
   const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
@@ -218,6 +222,48 @@ const LeadsTable = () => {
     setPageIndex((prev) => prev + 1);
   };
 
+  const handleDeleteLead = async (leadId: string) => {
+    if (!leadId) {
+      return;
+    }
+    const confirmed = window.confirm('Delete this lead permanently? This action cannot be undone.');
+    if (!confirmed) {
+      return;
+    }
+    setDeleteError(null);
+    setDeletingId(leadId);
+    try {
+      const response = await fetch('/api/authority/leads', {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ id: leadId })
+      });
+
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        const message =
+          typeof payload.error === 'string'
+            ? payload.error
+            : `Failed to delete lead (status ${response.status})`;
+        throw new Error(message);
+      }
+
+      setLeads((prev) => prev.filter((lead) => lead.id !== leadId));
+      setPageInfo((prev) => ({
+        ...prev,
+        count: Math.max(0, prev.count - 1),
+        totalCount: Math.max(0, prev.totalCount - 1)
+      }));
+    } catch (err) {
+      console.error('Error deleting lead:', err);
+      setDeleteError(err instanceof Error ? err.message : 'Unknown error deleting lead');
+    } finally {
+      setDeletingId(null);
+    }
+  };
+
   const handlePrev = () => {
     if (!hasPrev) {
       return;
@@ -268,6 +314,12 @@ const LeadsTable = () => {
         </div>
       </div>
 
+      {deleteError && (
+        <div className="rounded-lg border border-red-200 bg-red-50 px-4 py-2 text-xs text-red-700">
+          {deleteError}
+        </div>
+      )}
+
       <div className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full table-fixed text-[11px]">
@@ -286,24 +338,25 @@ const LeadsTable = () => {
                 <Th className="w-[5%]">Pay?</Th>
                 <Th className="w-[5%]">Harass.</Th>
                 <Th className="w-[8%]">Notes</Th>
+                <Th className="w-[6%]">Actions</Th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
               {isLoading ? (
                 <tr>
-                  <td colSpan={13} className="px-4 py-12 text-center text-sm text-slate-500">
+                  <td colSpan={14} className="px-4 py-12 text-center text-sm text-slate-500">
                     Loading leads…
                   </td>
                 </tr>
               ) : error ? (
                 <tr>
-                  <td colSpan={13} className="px-4 py-12 text-center text-sm text-red-500">
+                  <td colSpan={14} className="px-4 py-12 text-center text-sm text-red-500">
                     {error}
                   </td>
                 </tr>
               ) : leads.length === 0 ? (
                 <tr>
-                  <td colSpan={13} className="px-4 py-12 text-center text-sm text-slate-500">
+                  <td colSpan={14} className="px-4 py-12 text-center text-sm text-slate-500">
                     No leads match the current criteria.
                   </td>
                 </tr>
@@ -375,6 +428,17 @@ const LeadsTable = () => {
                         }
                       >
                         {lead.queries?.trim() ? lead.queries : '—'}
+                      </button>
+                    </Td>
+                    <Td className="text-right">
+                      <button
+                        type="button"
+                        className="flex gap-1 rounded-md border border-red-200 bg-red-50 px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-red-600 transition hover:border-red-300 hover:bg-red-100 disabled:cursor-not-allowed disabled:opacity-60 text-right"
+                        onClick={() => handleDeleteLead(lead.id)}
+                        disabled={deletingId === lead.id || isLoading}
+                      >
+                        <FontAwesomeIcon icon={faTrash} className="text-[10px] text-right" />
+                        {deletingId === lead.id ? '' : ''}
                       </button>
                     </Td>
                   </tr>

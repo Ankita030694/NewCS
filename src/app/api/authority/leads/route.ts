@@ -240,3 +240,31 @@ export async function GET(request: NextRequest) {
   }
 }
 
+export async function DELETE(request: NextRequest) {
+  try {
+    const payload = await request.json().catch(() => null);
+    const leadId = typeof payload?.id === 'string' ? payload.id.trim() : '';
+
+    if (!leadId) {
+      return NextResponse.json({ error: 'Lead id is required' }, { status: 400 });
+    }
+
+    const docRef = leadsRef.doc(leadId);
+    const snapshot = await docRef.get();
+
+    if (!snapshot.exists) {
+      return NextResponse.json({ error: 'Lead not found' }, { status: 404 });
+    }
+
+    await docRef.delete();
+
+    return NextResponse.json({ success: true }, { status: 200 });
+  } catch (error) {
+    console.error('Error deleting lead:', error);
+    return NextResponse.json(
+      { error: error instanceof Error ? error.message : 'Failed to delete lead' },
+      { status: 500 }
+    );
+  }
+}
+
