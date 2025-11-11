@@ -102,60 +102,75 @@ export default function TableOfContents({ headings }: TableOfContentsProps) {
   if (headings.length === 0) return null;
 
   return (
-    <div
-      className="flex justify-center"
-      style={{
-        background: 'rgba(239, 247, 255, 0.98)',
-        backdropFilter: 'blur(10px)',
-        WebkitBackdropFilter: 'blur(10px)',
-        padding: '16px 0',
-        boxShadow: '0 2px 8px 0 rgba(0, 0, 0, 0.10)',
-        marginBottom: '24px',
-        width: '100%',
-        borderRadius: '12px',
-      }}
-    >
-      <div style={{ width: '100%' }}>
-      {/* Title */}
-      <h3
-        style={{
-          color: '#0C2756',
-          fontFamily: 'Poppins',
-          fontSize: '16px',
-          fontWeight: 600,
-          marginBottom: '12px',
-          paddingLeft: '16px',
-          paddingRight: '16px'
-        }}
-      >
-        Table of Contents
-      </h3>
-      
-      {/* Horizontal Scrollable Navigation */}
-      <div className="w-full overflow-x-auto">
-        <nav className="flex gap-3 px-4" style={{ minWidth: 'max-content' }}>
-          {headings.filter(h => h.id && h.id.trim() !== '').map((heading, index) => (
-            <button
-              key={heading.id || `heading-${index}`}
-              onClick={() => scrollToHeading(heading.id)}
-              className="flex-shrink-0 px-4 py-2 rounded-full transition-all duration-200 whitespace-nowrap"
-              style={{
-                color: activeId === heading.id ? '#FFFFFF' : 'rgba(12, 39, 86, 0.70)',
-                background: activeId === heading.id ? '#007AFF' : 'rgba(239, 247, 255, 0.80)',
-                fontFamily: 'Poppins',
-                fontSize: heading.level === 2 ? '14px' : '13px',
-                fontWeight: activeId === heading.id ? 600 : 400,
-                border: activeId === heading.id ? 'none' : '1px solid rgba(12, 39, 86, 0.20)',
-                cursor: 'pointer',
-                transition: 'all 0.2s ease'
-              }}
-            >
-              {heading.text}
-            </button>
-          ))}
-        </nav>
+    <div className="toc-wrapper">
+      <div className="toc-container">
+        <div style={{ width: '100%' }}>
+          <h3 className="toc-title">Table of Contents</h3>
+          <div className="w-full overflow-x-auto">
+            <nav className="flex gap-3 px-4" style={{ minWidth: 'max-content' }}>
+              {headings
+                .filter((h) => h.id && h.id.trim() !== '')
+                .map((heading, index) => (
+                  <button
+                    key={heading.id || `heading-${index}`}
+                    onClick={() => scrollToHeading(heading.id)}
+                    className="flex-shrink-0 px-4 py-2 rounded-full transition-all duration-200 whitespace-nowrap"
+                    style={{
+                      color: activeId === heading.id ? '#FFFFFF' : 'rgba(12, 39, 86, 0.70)',
+                      background: activeId === heading.id ? '#007AFF' : 'rgba(239, 247, 255, 0.80)',
+                      fontFamily: 'Poppins',
+                      fontSize: heading.level === 2 ? '14px' : '13px',
+                      fontWeight: activeId === heading.id ? 600 : 400,
+                      border: activeId === heading.id ? 'none' : '1px solid rgba(12, 39, 86, 0.20)',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s ease'
+                    }}
+                  >
+                    {heading.text}
+                  </button>
+                ))}
+            </nav>
+          </div>
+        </div>
       </div>
-      </div>
+
+      <style jsx>{`
+        .toc-wrapper {
+          width: 100%;
+          margin-bottom: 24px;
+        }
+
+        .toc-container {
+          background: rgba(239, 247, 255, 0.98);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          padding: 16px 0;
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+          width: 100%;
+          border-radius: 12px;
+          position: sticky;
+          top: 96px;
+          z-index: 20;
+        }
+
+        .toc-title {
+          color: #0c2756;
+          font-family: 'Poppins', sans-serif;
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 12px;
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+
+        @media (max-width: 767px) {
+          .toc-container {
+            position: relative;
+            top: auto;
+            z-index: auto;
+          }
+        }
+      `}</style>
     </div>
   );
 }

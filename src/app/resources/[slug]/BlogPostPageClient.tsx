@@ -7,7 +7,6 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import TableOfContents from '@/components/TableOfContents';
-import RelatedContent from '@/components/RelatedContent';
 import CTAButton from '@/components/CTAButton';
 
 type FAQ = {
@@ -151,13 +150,26 @@ const processDescription = (html: string): ProcessedDescriptionResult => {
 
 const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageClientProps) => {
   const [isFirefox, setIsFirefox] = useState(false);
-  const [openFAQIndex, setOpenFAQIndex] = useState<number | null>(null);
   const [processedDescription, setProcessedDescription] = useState<string>('');
   const [headings, setHeadings] = useState<Heading[]>([]);
+  const [expandedFaqs, setExpandedFaqs] = useState<string[]>([]);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [sidebarsFixed, setSidebarsFixed] = useState(true);
+  const [shareUrl, setShareUrl] = useState('');
 
   useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
+  }, []);
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setShareUrl(window.location.href);
+    }
   }, []);
 
   useEffect(() => {
@@ -187,98 +199,164 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
   }, [blog.faqs]);
 
   const related = useMemo(() => {
-    return relatedBlogs.filter((relatedBlog) => relatedBlog.slug && relatedBlog.slug.trim() !== '');
+    return relatedBlogs.filter((relatedBlog) => relatedBlog.slug && relatedBlog.slug.trim() !== '').slice(0, 4);
   }, [relatedBlogs]);
 
-  const toggleFAQ = (index: number) => {
-    setOpenFAQIndex((prev) => (prev === index ? null : index));
+  const shareLinks = useMemo(() => {
+    if (!shareUrl) return null;
+
+    const encodedUrl = encodeURIComponent(shareUrl);
+    const encodedTitle = encodeURIComponent(blog.title);
+
+    return {
+      facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+      twitter: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`,
+      linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
+      whatsapp: `https://api.whatsapp.com/send?text=${encodedTitle}%20${encodedUrl}`
+    };
+  }, [blog.title, shareUrl]);
+
+  const toggleFAQ = (question: string) => {
+    setExpandedFaqs((prev) =>
+      prev.includes(question) ? prev.filter((q) => q !== question) : [...prev, question]
+    );
   };
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const updateSidebarPosition = () => {
+      const footer = document.querySelector('footer');
+      if (!footer) return;
+
+      const scrollY = window.scrollY;
+      const footerTop = footer.getBoundingClientRect().top + scrollY;
+      const shouldRelease = footerTop < scrollY + 480;
+      setSidebarsFixed(!shouldRelease);
+    };
+
+    let ticking = false;
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          updateSidebarPosition();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    updateSidebarPosition();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('resize', updateSidebarPosition);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', updateSidebarPosition);
+    };
+  }, []);
 
   const breadcrumbsSlug = canonicalSlug || blog.slug;
 
   return (
-    <div className="relative min-h-screen bg-white mt-6">
-      {!isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: 'clamp(300px, 50vw, 757px)',
-            height: 'clamp(300px, 50vw, 757px)',
-            borderRadius: '50%',
-            background: '#007AFF',
-            filter: 'blur(400px)',
-            WebkitFilter: 'blur(400px)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.6,
-            willChange: 'filter',
-            backfaceVisibility: 'hidden'
-          }}
-        />
-      )}
-
-      {isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: 'clamp(300px, 50vw, 757px)',
-            height: 'clamp(300px, 50vw, 757px)',
-            borderRadius: '50%',
-            background:
-              'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.9
-          }}
-        />
-      )}
-
+    <div
+      className="relative min-h-screen overflow-x-hidden"
+      style={{
+        background:
+          'linear-gradient(180deg, #F7FBFF 0%, #FFFFFF 45%, #E7F3FF 100%)'
+      }}
+    >
       <Navbar />
 
-      <div className="relative z-10" style={{ paddingTop: '60px', paddingLeft: '16px', paddingRight: '16px' }}>
-        <div className="w-full max-w-8xl px-2 md:px-4 mx-auto">
-          <div className="text-center mb-6 md:mb-8">
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ contain: 'layout style paint' }}
+      >
+      {!isFirefox && (
+          <div
+            className="absolute -top-32 -left-32 w-[480px] h-[480px] opacity-70 rounded-full blur-3xl"
+            style={{ background: 'radial-gradient(circle, rgba(0, 122, 255, 0.35) 0%, transparent 70%)' }}
+          />
+        )}
+        <div
+          className="absolute top-[40%] -right-48 w-[420px] h-[420px] opacity-40 rounded-full blur-3xl"
+          style={{ background: 'radial-gradient(circle, rgba(12, 39, 86, 0.25) 0%, transparent 65%)' }}
+        />
+        <div
+          className="absolute bottom-[-120px] left-1/2 -translate-x-1/2 w-[560px] h-[560px] opacity-30 rounded-full blur-3xl"
+          style={{ background: 'radial-gradient(circle, rgba(0, 178, 241, 0.3) 0%, transparent 70%)' }}
+        />
+      </div>
+
+      <div className="relative z-10 pt-24 pb-24 px-3 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-7xl">
+          <div
+            className={`text-center mb-10 lg:mb-14 transition-all duration-700 ${
+              isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+            }`}
+          >
+            <div className="flex items-center justify-center gap-1.5 text-[10px] md:text-xs mb-4 font-medium">
+              <span className="text-sky-800/90">Home</span>
+              <i className="fas fa-chevron-right text-sky-700/60 text-[8px]" aria-hidden="true"></i>
+              <span className="text-sky-800/90">Resources</span>
+              <i className="fas fa-chevron-right text-sky-700/60 text-[8px]" aria-hidden="true"></i>
+              <span className="text-[#007AFF]">{blog.title}</span>
+            </div>
+
             <h1
-              className="font-bold text-2xl md:text-4xl lg:text-5xl mb-3 md:mb-4"
+              className="font-semibold text-[28px] md:text-[40px] lg:text-[52px] leading-tight mb-3"
               style={{
-                color: '#0C2756',
                 fontFamily: 'Poppins',
-                fontWeight: '400',
-                lineHeight: '1.2'
+                background: 'linear-gradient(120deg, #0C2756 0%, #0E5AD0 45%, #007AFF 90%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text'
               }}
             >
               {blog.title}
             </h1>
+
             {blog.subtitle && (
               <p
-                className="text-base md:text-lg mb-2 px-4 md:px-0"
+                className="max-w-3xl mx-auto text-sm md:text-base lg:text-lg mb-4"
                 style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
+                  color: 'rgba(12, 39, 86, 0.75)',
                   fontFamily: 'Poppins',
-                  fontSize: 'clamp(16px, 4vw, 20px)',
-                  fontStyle: 'normal',
-                  fontWeight: '400',
-                  lineHeight: '1.4'
+                  fontWeight: 400,
+                  lineHeight: 1.6
                 }}
               >
                 {blog.subtitle}
               </p>
             )}
-            <p
-              className="text-sm md:text-base"
+
+            <div className="flex flex-wrap items-center justify-center gap-3 text-xs md:text-sm">
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-sky-900/10 bg-white/70 backdrop-blur">
+                <i className="fas fa-calendar-alt text-[#007AFF]" aria-hidden="true"></i>
+                <span
               style={{
-                color: 'rgba(12, 39, 86, 0.70)',
-                fontFamily: 'Poppins',
-                fontSize: 'clamp(14px, 3vw, 16px)',
-                fontStyle: 'normal',
-                fontWeight: '400'
+                    color: '#0C2756',
+                    fontFamily: 'Poppins'
               }}
             >
               {blog.date}
-            </p>
+                </span>
+              </div>
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-sky-900/10 bg-white/70 backdrop-blur">
+                <i className="fas fa-bookmark text-[#007AFF]" aria-hidden="true"></i>
+                <span
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins'
+                  }}
+                >
+                  {blog.slug.replace(/-/g, ' ')}
+                </span>
+              </div>
+            </div>
           </div>
 
-          <div className="mb-4 md:mb-6 flex justify-center">
+          <div className="flex justify-center mb-8 lg:mb-12">
             <Breadcrumbs
               items={[
                 { name: 'Home', url: '/' },
@@ -288,261 +366,487 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
             />
           </div>
 
-          <div className="flex justify-center mb-4 md:mb-6">
-            <div className="w-full md:w-[80%] relative" style={{ maxHeight: '50vh', aspectRatio: '16/9' }}>
+          {blog.image && (
+            <div
+              className={`relative mx-auto mb-10 lg:mb-16 overflow-hidden rounded-[26px] shadow-lg transition duration-700 ${
+                isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+              }`}
+              style={{ aspectRatio: '16/9', maxWidth: '960px' }}
+            >
               <Image
                 src={blog.image || '/sample.png'}
                 alt={blog.title}
                 fill
-                sizes="(min-width: 768px) 80vw, 100vw"
-                className="object-cover rounded-[20px]"
+                sizes="(min-width: 1024px) 60vw, (min-width: 768px) 80vw, 100vw"
+                className="object-cover"
                 priority
-                quality={75}
-                placeholder="blur"
-                blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nODAwJyBoZWlnaHQ9JzQ1MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cmVjdCB3aWR0aD0nODAwJyBoZWlnaHQ9JzQ1MCcgZmlsbD0nI2VmZjknLz48L3N2Zz4="
-                loading="eager"
-                fetchPriority="high"
               />
-            </div>
-          </div>
-
-          {headings.length > 0 && (
-            <div className="flex justify-center mb-8 md:mb-12">
-              <div className="w-full md:w-[80%]">
-                <TableOfContents headings={headings} />
-              </div>
             </div>
           )}
 
-          <div className="flex justify-center mb-12 md:mb-16">
+          {headings.length > 0 && (
+            <div className="mb-10 lg:mb-14">
+                <TableOfContents headings={headings} />
+            </div>
+          )}
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
             <div
-              className="w-full md:w-[80%] rounded-[20px] md:rounded-[30px] p-5 md:p-8"
-              style={{
-                background:
-                  'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.20) 49.48%, rgba(239, 247, 255, 0.80) 94.92%)',
-                boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
-              }}
+              className={`lg:col-span-8 transition duration-700 ${
+                isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+              }`}
             >
               <div
-                className="text-left prose prose-lg"
+                className="rounded-3xl p-6 md:p-8 lg:p-10 shadow-[0_18px_60px_rgba(12,39,86,0.08)] border border-sky-900/10 backdrop-blur-xl"
                 style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: 'clamp(16px, 4vw, 18px)',
-                  fontStyle: 'normal',
-                  fontWeight: '400',
-                  lineHeight: '1.6'
+                  background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(231, 243, 255, 0.8) 100%)'
                 }}
+              >
+                <div
+                  className="blog-content"
                 dangerouslySetInnerHTML={{
                   __html: processedDescription || blog.description || ''
                 }}
               />
+              </div>
+
+              <div
+                className="mt-8 rounded-2xl border border-sky-900/10 bg-white/90 backdrop-blur px-6 py-5 shadow-[0_10px_35px_rgba(12,39,86,0.08)]"
+                style={{
+                  background: 'linear-gradient(135deg, rgba(0, 178, 241, 0.12) 0%, rgba(255, 255, 255, 0.9) 100%)'
+                }}
+              >
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-[#007AFF]/10 flex items-center justify-center text-[#007AFF]">
+                      <i className="fas fa-share-alt" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                      <p
+                        className="text-sm font-semibold"
+                        style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+                      >
+                        Share this insight
+                      </p>
+                      <p
+                        className="text-xs"
+                        style={{ color: 'rgba(12, 39, 86, 0.65)', fontFamily: 'Poppins' }}
+                      >
+                        Help someone else stay informed about debt relief
+                      </p>
+                    </div>
+                  </div>
+                  {shareLinks && (
+                    <div className="flex gap-2">
+                      <a
+                        href={shareLinks.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#1877F2] transition hover:bg-[#1877F2] hover:text-white flex items-center justify-center"
+                        aria-label="Share on Facebook"
+                      >
+                        <i className="fab fa-facebook-f" aria-hidden="true"></i>
+                      </a>
+                      <a
+                        href={shareLinks.twitter}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#1DA1F2] transition hover:bg-[#1DA1F2] hover:text-white flex items-center justify-center"
+                        aria-label="Share on X"
+                      >
+                        <i className="fab fa-twitter" aria-hidden="true"></i>
+                      </a>
+                      <a
+                        href={shareLinks.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#0A66C2] transition hover:bg-[#0A66C2] hover:text-white flex items-center justify-center"
+                        aria-label="Share on LinkedIn"
+                      >
+                        <i className="fab fa-linkedin-in" aria-hidden="true"></i>
+                      </a>
+                      <a
+                        href={shareLinks.whatsapp}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#128C7E] transition hover:bg-[#128C7E] hover:text-white flex items-center justify-center"
+                        aria-label="Share on WhatsApp"
+                      >
+                        <i className="fab fa-whatsapp" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  )}
             </div>
           </div>
 
-          <section className="flex justify-center mb-12 md:mb-16">
             <div
-              className="p-4 md:p-6 lg:p-8 rounded-xl md:rounded-2xl w-full md:w-[80%]"
+                className="mt-8 rounded-3xl border border-sky-900/10 bg-white/90 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
               style={{
-                background:
-                  'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+                  background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(239, 247, 255, 0.85) 100%)'
               }}
             >
-              <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-6">
+                <div className="flex flex-col gap-5 sm:flex-row sm:gap-6">
                 <div className="flex-shrink-0">
                   <img
                     src={author.image}
                     alt={author.name}
-                    className="w-20 h-20 md:w-24 md:h-24 lg:w-[120px] lg:h-[120px] rounded-full object-contain"
+                      className="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-sky-900/10 object-contain bg-white p-2"
                   />
                 </div>
-                <div className="flex-1 text-center md:text-left">
-                  <h3
-                    className="text-lg md:text-xl lg:text-2xl font-semibold mb-2"
-                    style={{
-                      color: '#0C2756',
-                      fontFamily: 'Poppins',
-                      fontWeight: '600'
-                    }}
+                  <div>
+                    <h3
+                      className="text-lg md:text-xl font-semibold mb-1"
+                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
                   >
                     {author.name} 
                   </h3>
                   <p
-                    className="text-sm md:text-base mb-2 md:mb-3"
-                    style={{
-                      color: '#007AFF',
-                      fontFamily: 'Poppins',
-                      fontWeight: '500'
-                    }}
+                      className="text-sm font-medium mb-3"
+                      style={{ color: '#007AFF', fontFamily: 'Poppins' }}
                   >
                     {author.title}
                   </p>
                   <p
-                    className="text-xs md:text-sm leading-relaxed"
-                    style={{
-                      color: 'rgba(12, 39, 86, 0.70)',
-                      fontFamily: 'Poppins',
-                      lineHeight: '1.5'
-                    }}
+                      className="text-sm leading-relaxed mb-4"
+                      style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins' }}
                   >
                     {author.bio}
                   </p>
+                    <Link
+                      href="/contact"
+                      className="inline-flex items-center gap-2 text-[#007AFF] font-medium transition hover:text-[#0E5AD0]"
+                      style={{ fontFamily: 'Poppins' }}
+                    >
+                      Talk to our legal desk <i className="fas fa-arrow-right text-xs" aria-hidden="true"></i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="mt-8 rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
+                style={{
+                  background: 'linear-gradient(180deg, rgba(239, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%)'
+                }}
+              >
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-11 h-11 rounded-xl bg-[#007AFF]/12 text-[#007AFF] flex items-center justify-center">
+                    <i className="fas fa-question-circle text-lg" aria-hidden="true"></i>
+            </div>
+                  <div>
+                    <h2
+                      className="text-xl font-semibold"
+                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+                    >
+                      Frequently Asked Questions
+                    </h2>
+                    <p
+                      className="text-xs"
+                      style={{ color: 'rgba(12, 39, 86, 0.65)', fontFamily: 'Poppins' }}
+                    >
+                      Answers from RBI-compliant debt settlement experts
+                    </p>
+                  </div>
+                  </div>
+
+                <div className="space-y-3">
+                  {faqs.map((faq) => {
+                    const isOpen = expandedFaqs.includes(faq.question);
+                    return (
+                      <div
+                        key={faq.question}
+                        className="rounded-2xl border border-sky-900/10 bg-white/90 shadow-sm transition hover:shadow-md"
+                      >
+                        <button
+                          type="button"
+                          onClick={() => toggleFAQ(faq.question)}
+                          className="w-full flex items-start justify-between gap-4 px-5 py-4 text-left"
+                        >
+                          <span
+                            className="text-sm font-medium"
+                            style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: 1.5 }}
+                          >
+                            {faq.question}
+                          </span>
+                          <span
+                            className={`mt-1 inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border border-sky-900/10 bg-blue-50/80 text-[#007AFF] transition-transform ${
+                              isOpen ? 'rotate-45' : ''
+                            }`}
+                          >
+                            <i className="fas fa-plus" aria-hidden="true"></i>
+                          </span>
+                        </button>
+                        <div
+                          className={`px-5 pb-5 overflow-hidden transition-[max-height,opacity] duration-300 ${
+                            isOpen ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0'
+                          }`}
+                        >
+                          <div className="border-t border-sky-900/10 pt-4">
+                            <p
+                              className="text-sm leading-relaxed"
+                              style={{ color: 'rgba(12, 39, 86, 0.7)', fontFamily: 'Poppins' }}
+                            >
+                              {faq.answer}
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>
-          </section>
 
-          <section className="w-full py-8 md:py-12 mt-10 md:mt-[60px] mb-10 md:mb-[60px]">
-            <div className="w-full max-w-7xl mx-auto px-4">
-              <div className="flex flex-col items-center gap-6 md:gap-8 lg:gap-14">
-                <div className="flex flex-col lg:flex-row items-start gap-4 md:gap-6 lg:gap-[76px] w-full">
-                  <div className="flex flex-col items-start gap-4 md:gap-[21px] w-full lg:w-[365px]">
-                    <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight font-bold">
-                      <span style={{ color: '#0C2756' }}>
-                        Have Question?
-                        <br className="hidden md:block" /> We've Got
+            <div
+              className={`lg:col-span-4 transition duration-700 ${
+                isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+              }`}
+            >
+              <div className={`${sidebarsFixed ? 'lg:sticky lg:top-32' : ''} space-y-6`}>
+                <div
+                  className="rounded-3xl border border-sky-900/10 bg-white/90 backdrop-blur p-6 shadow-[0_16px_40px_rgba(12,39,86,0.08)]"
+                style={{
+                    background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(239, 247, 255, 0.9) 100%)'
+                  }}
+                >
+                  <h3
+                    className="text-xl font-semibold mb-2"
+                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+                    >
+                    Need urgent legal help?
+                  </h3>
+                  <p
+                    className="text-sm mb-5"
+                    style={{ color: 'rgba(12, 39, 86, 0.7)', fontFamily: 'Poppins' }}
+                  >
+                    Our RBI-compliant legal experts negotiate with lenders, stop harassment, and secure faster
+                    settlements.
+                  </p>
+                  <div className="flex flex-col gap-3 text-sm" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>
+                    <div className="flex items-center gap-3">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#007AFF]/12 text-[#007AFF]">
+                        <i className="fas fa-headset" aria-hidden="true"></i>
                       </span>
-                      <span style={{ color: '#007AFF' }}> Answers.</span>
-                    </h2>
-                    <p className="text-xs md:text-sm lg:text-[15px] leading-relaxed font-normal">
-                      <span style={{ color: '#0C2756' }}>Still have questions? </span>
-                      <span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span>
-                      <span style={{ color: '#0C2756' }}> anytime.</span>
-                    </p>
+                      Speak to an RBI-compliant negotiator
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#007AFF]/12 text-[#007AFF]">
+                        <i className="fas fa-shield-alt" aria-hidden="true"></i>
+                      </span>
+                      Get legal protection from recovery agents
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#007AFF]/12 text-[#007AFF]">
+                        <i className="fas fa-file-signature" aria-hidden="true"></i>
+                      </span>
+                      Custom settlement plan within 24 hours
+                    </div>
                   </div>
+                  <div className="mt-6">
+                    <CTAButton className="w-full justify-center py-3">
+                      Book your free consultation
+                  </CTAButton>
+                  </div>
+                </div>
 
-                  <div className="w-full lg:w-[800px] lg:ml-auto p-3 md:p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
-                    <div className="flex flex-col gap-3 md:gap-4">
-                      {faqs.map((faq, index) => (
-                        <div
-                          key={`${faq.question}-${index}`}
-                          className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden"
-                          onClick={() => toggleFAQ(index)}
-                        >
-                          <div className="flex justify-between items-start gap-3 md:gap-[49px] p-4 md:p-[21px_28px]">
-                            <p
-                              className="text-xs md:text-sm lg:text-[14px] leading-relaxed font-normal flex-1"
-                              style={{ color: '#0C2756' }}
+                {related.length > 0 && (
+                  <div
+                    className="rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur p-6 shadow-[0_16px_40px_rgba(12,39,86,0.08)]"
+                    style={{
+                      background: 'linear-gradient(180deg, rgba(239, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.92) 100%)'
+                    }}
+                  >
+                    <div className="flex items-center gap-3 mb-5">
+                      <div className="w-10 h-10 rounded-full bg-[#007AFF]/12 text-[#007AFF] flex items-center justify-center">
+                        <i className="fas fa-newspaper" aria-hidden="true"></i>
+                      </div>
+                      <h3
+                        className="text-lg font-semibold"
+                        style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+                      >
+                        Related Articles
+                      </h3>
+                    </div>
+                    <div className="space-y-4">
+                      {related.map((relatedBlog) => (
+                        <Link key={relatedBlog.slug} href={`/resources/${relatedBlog.slug}`} className="block group">
+                          <div className="rounded-2xl border border-transparent bg-white/80 p-4 transition group-hover:border-[#007AFF]/40 group-hover:shadow-md">
+                            <h4
+                              className="text-sm font-semibold mb-2 transition"
+                              style={{ color: '#0C2756', fontFamily: 'Poppins' }}
                             >
-                              {faq.question}
+                              {relatedBlog.title}
+                            </h4>
+                            <p
+                              className="text-xs"
+                              style={{ color: 'rgba(12, 39, 86, 0.6)', fontFamily: 'Poppins' }}
+                            >
+                              {relatedBlog.date}
                             </p>
-                            <div className="flex-shrink-0 w-[14px] h-[14px] md:w-[16px] md:h-[16px] relative">
-                              <svg
-                                width="16"
-                                height="16"
-                                viewBox="0 0 23 23"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="transition-all duration-500 ease-in-out"
-                                style={{ transform: openFAQIndex === index ? 'rotate(45deg)' : 'rotate(0deg)' }}
-                              >
-                                <path
-                                  d="M11.5 0C12.3284 0 13 0.671573 13 1.5V10H21.5C22.3284 10 23 10.6716 23 11.5C23 12.3284 22.3284 13 21.5 13H13V21.5C13 22.3284 12.3284 23 11.5 23C10.6716 23 10 22.3284 10 21.5V13H1.5C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10H10V1.5C10 0.671573 10.6716 0 11.5 0Z"
-                                  fill="black"
-                                />
-                              </svg>
-                            </div>
                           </div>
-                          <div
-                            className={`transition-all duration-500 ease-in-out overflow-hidden ${openFAQIndex === index ? 'pt-2 md:pt-3 pb-4 md:pb-5 px-4 md:px-7' : ''}`}
-                            style={{
-                              maxHeight: openFAQIndex === index ? '300px' : '0px',
-                              opacity: openFAQIndex === index ? 1 : 0
-                            }}
-                          >
-                            <div className="border-t border-gray-200 pt-3">
-                              <p
-                                className="text-[10px] md:text-xs lg:text-[13px] leading-relaxed font-normal"
-                                style={{ color: 'rgba(12, 39, 86, 0.7)' }}
-                              >
-                                {faq.answer}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
+                        </Link>
                       ))}
                     </div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
-          </section>
-
-          <section className="w-full py-8 md:py-12">
-            <div className="w-full max-w-7xl mx-auto px-4">
-              <div
-                className="flex justify-center items-center w-full rounded-xl px-4 md:px-6 lg:px-3 py-6 md:py-8 lg:py-[63px]"
-                style={{
-                  background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
-                  boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
-                }}
-              >
-                <div className="flex flex-col items-center gap-6 md:gap-8 lg:gap-[35px] w-full max-w-[644px]">
-                  <div className="flex flex-col items-center gap-4 md:gap-6 lg:gap-[28px] w-full">
-                    <h2
-                      className="text-center text-lg md:text-xl lg:text-[28px] leading-tight font-normal w-full px-2"
-                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                    >
-                      Ready to End Your Debt Struggle?
-                    </h2>
-                    <p
-                      className="text-center text-sm md:text-base lg:text-[18px] leading-relaxed font-normal w-full px-2"
-                      style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins' }}
-                    >
-                      Stop harassment and secure your RBI-compliant settlement for a debt-free future.
-                    </p>
-                  </div>
-
-                  <CTAButton className="px-6 md:px-7 lg:px-[28px] py-3 md:py-3.5 lg:py-[14px]">
-                    Get Your Free Consultation
-                  </CTAButton>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section
-            className="w-full mx-auto"
-            style={{
-              maxWidth: '1280px',
-              paddingLeft: '16px',
-              paddingRight: '16px',
-              marginTop: '60px'
-            }}
-          >
-            <RelatedContent
-              title="Related Articles"
-              items={[
-                {
-                  title: 'Home Credit Loan Settlement in India: A Complete Legal Guide',
-                  url: '/resources/home-credit-loan-settlement-guide',
-                  description: 'Learn about home credit loan settlement process and legal requirements'
-                },
-                {
-                  title: 'How to Stop Loan Recovery Harassment: Legal Remedies',
-                  url: '/resources/stop-loan-recovery-harassment',
-                  description: 'Protect yourself from illegal recovery agent harassment'
-                },
-                {
-                  title: 'Personal Loan Settlement',
-                  url: '/services/personal-loan-settlement',
-                  description: 'Expert personal loan settlement services'
-                },
-                {
-                  title: 'Anti-Harassment Protection',
-                  url: '/services/anti-harassment',
-                  description: 'Stop recovery agent harassment immediately'
-                }
-              ]}
-            />
-          </section>
+          </div>
         </div>
       </div>
 
-      <div className="mt-12 md:mt-16 lg:mt-[100px]">
         <Footer />
-      </div>
+
+      <style jsx global>{`
+        .blog-content {
+          color: rgba(12, 39, 86, 0.85);
+          line-height: 1.8;
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .blog-content h1,
+        .blog-content h2,
+        .blog-content h3,
+        .blog-content h4,
+        .blog-content h5,
+        .blog-content h6 {
+          color: #0c2756;
+          font-weight: 600;
+          margin-top: 2.5rem;
+          margin-bottom: 1.25rem;
+        }
+
+        .blog-content h2 {
+          font-size: clamp(1.75rem, 2.2vw, 2rem);
+          border-bottom: 2px solid rgba(0, 122, 255, 0.2);
+          padding-bottom: 0.75rem;
+        }
+
+        .blog-content h3 {
+          font-size: clamp(1.35rem, 2vw, 1.6rem);
+        }
+
+        .blog-content p {
+          margin: 1.5rem 0;
+          color: rgba(12, 39, 86, 0.78);
+        }
+
+        .blog-content a {
+          color: #007aff;
+          text-decoration: underline;
+          text-decoration-color: rgba(0, 122, 255, 0.25);
+          transition: all 0.2s ease;
+        }
+
+        .blog-content a:hover {
+          color: #0e5ad0;
+          text-decoration-color: rgba(14, 90, 208, 0.6);
+        }
+
+        .blog-content blockquote {
+          border-left: 4px solid rgba(0, 122, 255, 0.35);
+          margin: 2rem 0;
+          padding: 1rem 1.5rem;
+          background: rgba(239, 247, 255, 0.8);
+          border-radius: 0.75rem;
+          font-style: italic;
+          color: rgba(12, 39, 86, 0.8);
+        }
+
+        .blog-content code {
+          background: rgba(0, 122, 255, 0.08);
+          color: #0c2756;
+          padding: 0.2rem 0.45rem;
+          border-radius: 0.35rem;
+          font-size: 0.9em;
+          font-family: 'Fira Code', 'Courier New', monospace;
+        }
+
+        .blog-content pre {
+          background: rgba(12, 39, 86, 0.88);
+          color: #eff7ff;
+          padding: 1.75rem;
+          border-radius: 1rem;
+          overflow-x: auto;
+          margin: 2rem 0;
+          border: 1px solid rgba(0, 122, 255, 0.25);
+        }
+
+        .blog-content pre code {
+          background: transparent;
+          color: inherit;
+          padding: 0;
+        }
+
+        .blog-content ul,
+        .blog-content ol {
+          margin: 1.75rem 0;
+          padding-left: 1.75rem;
+        }
+
+        .blog-content ul {
+          list-style: disc;
+        }
+
+        .blog-content ol {
+          list-style: decimal;
+        }
+
+        .blog-content li {
+          margin: 0.75rem 0;
+          color: rgba(12, 39, 86, 0.78);
+        }
+
+        .blog-content li::marker {
+          color: #007aff;
+        }
+
+        .blog-content img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 1.25rem;
+          margin: 2.5rem 0;
+          box-shadow: 0 18px 40px rgba(12, 39, 86, 0.12);
+        }
+
+        .blog-content table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 2.5rem 0;
+          border-radius: 1rem;
+          overflow: hidden;
+          background: rgba(255, 255, 255, 0.9);
+        }
+
+        .blog-content table th,
+        .blog-content table td {
+          padding: 0.9rem 1.1rem;
+          border: 1px solid rgba(0, 122, 255, 0.12);
+          text-align: left;
+        }
+
+        .blog-content table th {
+          background: rgba(0, 122, 255, 0.08);
+          color: #0c2756;
+          font-weight: 600;
+        }
+
+        .blog-content table tbody tr:hover {
+          background: rgba(239, 247, 255, 0.7);
+        }
+
+        .blog-content strong {
+          color: #0c2756;
+          font-weight: 600;
+        }
+
+        .blog-content hr {
+          border: none;
+          height: 1px;
+          background: linear-gradient(90deg, transparent, rgba(0, 122, 255, 0.3), transparent);
+          margin: 3rem 0;
+        }
+      `}</style>
     </div>
   );
 };
