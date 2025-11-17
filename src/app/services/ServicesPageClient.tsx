@@ -92,7 +92,7 @@ export default function ServicesPageClient() {
           {/* Desktop Page Heading */}
           <div className="hidden md:block text-center mb-12">
             <h1 
-              className="font-bold text-5xl mb-4"
+              className="font-medium text-5xl mb-4"
               style={{ 
                 color: '#0C2756',
                 fontFamily: 'Poppins',
@@ -107,7 +107,7 @@ export default function ServicesPageClient() {
           {/* Mobile Page Heading */}
           <div className="block md:hidden text-center mb-6 px-4">
             <h1 
-              className="font-bold text-2xl mb-4"
+              className="font-medium text-2xl mb-4"
               style={{ 
                 color: '#0C2756',
                 fontFamily: 'Poppins',
@@ -140,7 +140,7 @@ export default function ServicesPageClient() {
                 >
                   <div className="flex-1">
                     <h3 
-                      className="font-bold text-left text-2xl mb-4" 
+                      className="font-medium text-left text-2xl mb-4" 
                       style={{ color: '#0C2756' }}
                     >
                       Stop Loan Recovery Agent Harassment – Protect Your Rights with CredSettle
@@ -163,11 +163,11 @@ export default function ServicesPageClient() {
                   <div className="flex justify-end mt-1">
                     <a 
                       href="/services/anti-harassment"
-                      className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
+                      className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
                       style={{ background: '#007AFF' }}
                     >
                       View More
-                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </a>
@@ -187,7 +187,7 @@ export default function ServicesPageClient() {
                     }}
                   >
                     <h4 
-                      className="font-bold text-left mb-1" 
+                      className="font-medium text-left mb-1" 
                       style={{ color: '#0C2756', fontSize: '14px' }}
                     >
                       Call Forwarding Services
@@ -211,7 +211,7 @@ export default function ServicesPageClient() {
                     }}
                   >
                     <h4 
-                      className="font-bold text-left mb-1" 
+                      className="font-medium text-left mb-1" 
                       style={{ color: '#0C2756', fontSize: '14px' }}
                     >
                       Complaint Filing
@@ -235,7 +235,7 @@ export default function ServicesPageClient() {
                     }}
                   >
                     <h4 
-                      className="font-bold text-left mb-1" 
+                      className="font-medium text-left mb-1" 
                       style={{ color: '#0C2756', fontSize: '14px' }}
                     >
                       Cease & Desist Notices
@@ -525,7 +525,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned heading */}
                   <h4 
-                    className="font-bold text-left mb-2" 
+                    className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Personal Loan Settlement
@@ -533,7 +533,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p 
-                    className="text-left mb-5" 
+                    className="text-left mb-3" 
                     style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
                   >
                     We recognize that life's financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
@@ -586,7 +586,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned heading */}
                   <h4 
-                    className="font-bold text-left mb-2" 
+                    className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Credit Card Settlement
@@ -647,7 +647,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned heading */}
                   <h4 
-                    className="font-bold text-left mb-2" 
+                    className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Business Loan Settlement
@@ -655,7 +655,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p 
-                    className="text-left mb-5" 
+                    className="text-left mb-3" 
                     style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
                   >
                     Business loan defaults can threaten your company's future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
@@ -708,7 +708,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned heading */}
                   <h4 
-                    className="font-bold text-left mb-2" 
+                    className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Car Loan Settlement
@@ -717,7 +717,7 @@ export default function ServicesPageClient() {
                   {/* Left aligned description */}
                   <p 
                     className="text-left mb-5" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '15.6px' }}
+                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
                   >
                     Since car loans are secured, a default risks asset loss. We negotiate reduced balances and manageable payments, easing the fear of losing your vehicle while restoring stability.
                   </p>
@@ -769,7 +769,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned heading */}
                   <h4 
-                    className="font-bold text-left mb-2" 
+                    className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     App Loan Settlement
@@ -830,7 +830,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned heading */}
                   <h4 
-                    className="font-bold text-left mb-2" 
+                    className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     NBFC Loan Settlement
@@ -894,7 +894,7 @@ export default function ServicesPageClient() {
                     
                     {/* Heading */}
                     <h4 
-                      className="font-bold text-left mb-2" 
+                      className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Personal Loan Settlement
@@ -967,7 +967,7 @@ export default function ServicesPageClient() {
                     
                     {/* Heading */}
                     <h4 
-                      className="font-bold text-left mb-2" 
+                      className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Credit Card Settlement
@@ -1040,7 +1040,7 @@ export default function ServicesPageClient() {
                     
                     {/* Heading */}
                     <h4 
-                      className="font-bold text-left mb-2" 
+                      className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Business Loan Settlement
@@ -1113,7 +1113,7 @@ export default function ServicesPageClient() {
                     
                     {/* Heading */}
                     <h4 
-                      className="font-bold text-left mb-2" 
+                      className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Car Loan Settlement
@@ -1186,7 +1186,7 @@ export default function ServicesPageClient() {
                     
                     {/* Heading */}
                     <h4 
-                      className="font-bold text-left mb-2" 
+                      className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       App Loan Settlement
@@ -1259,7 +1259,7 @@ export default function ServicesPageClient() {
                     
                     {/* Heading */}
                     <h4 
-                      className="font-bold text-left mb-2" 
+                      className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       NBFC Loan Settlement
@@ -1311,7 +1311,7 @@ export default function ServicesPageClient() {
               {/* Desktop Section Heading */}
               <div className="hidden md:block mb-4">
                 <h2 
-                  className="font-bold text-center text-3xl py-4" 
+                  className="font-medium text-center text-3xl py-4" 
                   style={{ color: '#0C2756', fontWeight: 500 }}
                 >
                   Improve your Credit Score
@@ -1321,7 +1321,7 @@ export default function ServicesPageClient() {
               {/* Mobile Section Heading */}
               <div className="block md:hidden mb-6">
                 <h2 
-                  className="font-bold text-center text-2xl py-4" 
+                  className="font-medium text-center text-2xl py-4" 
                   style={{ color: '#0C2756', fontWeight: 500 }}
                 >
                   Improve your Credit Score
@@ -1348,7 +1348,7 @@ export default function ServicesPageClient() {
                 <div className="flex-1 flex flex-col h-full">
                   <div className="flex-1">
                     <h3 
-                      className="font-bold text-left text-2xl mb-4" 
+                      className="font-medium text-left text-2xl mb-4" 
                       style={{ color: '#0C2756' }}
                     >
                       Boost Your Credit Score Now
@@ -1365,11 +1365,11 @@ export default function ServicesPageClient() {
                   <div className="flex justify-end mt-6">
                     <a href="/services/credit-score-builder" className="block no-underline" style={{ color: 'inherit' }}>
                     <button 
-                      className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
+                      className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
                       style={{ background: '#007AFF' }}
                     >
                       View More
-                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </button>
@@ -1391,7 +1391,7 @@ export default function ServicesPageClient() {
                 <div className="flex items-start justify-between mb-3 gap-3 flex-wrap">
                   <div className="flex-1 min-w-0">
                     <h3 
-                      className="font-bold text-left text-lg mb-2" 
+                      className="font-medium text-left text-lg mb-2" 
                       style={{ color: '#0C2756', textAlign: 'center' }}
                     >
                       Boost Your Credit Score Now
@@ -1437,16 +1437,19 @@ export default function ServicesPageClient() {
                 <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
                   {/* Left: Header Section */}
                   <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
-                    <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold">
+                    <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-medium">
                       <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We've Got </span>
                       <span style={{ color: '#007AFF' }}>Answers.</span>
                     </h2>
+                    <a href="/contact" className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
                     <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
                       <span style={{ color: '#0C2756' }}>Still have questions? </span>
                       <span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span>
                       <span style={{ color: '#0C2756' }}> anytime.</span>
                     </p>
+                    </a>
                   </div>
+
 
                   {/* Right: FAQ Items - Aligned to right end */}
                   <div className="w-full lg:w-[800px] lg:ml-auto p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
@@ -1527,7 +1530,7 @@ export default function ServicesPageClient() {
                         Ready to Take Control of Your Debt?
                       </h2>
                       <p
-                        className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
+                        className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
                         Don't let debt control your life. Our expert team is ready to help you settle your debts, stop harassment, and rebuild your financial future. Get started today with a free consultation.
@@ -1535,7 +1538,7 @@ export default function ServicesPageClient() {
                     </div>
 
                     {/* CTA Button */}
-                    <CTAButton>
+                    <CTAButton className="w-full max-w-[280px] md:max-w-[300px]">
                       Get Your Free Consultation
                     </CTAButton>
                   </div>

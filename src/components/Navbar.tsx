@@ -62,7 +62,7 @@ export default function ContactNavbar() {
         }}
       >
         <nav className="w-full bg-transparent">
-          <div className="container mx-auto px-3 md:px-[12.96px] py-3 md:py-[12.96px]">
+          <div className="px-3 md:px-[130px] py-3 md:py-[12.96px]">
             <div className="flex justify-between items-center">
               {/* Left Column - Logo */}
               <div className="flex-shrink-0">

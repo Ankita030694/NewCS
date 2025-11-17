@@ -341,9 +341,9 @@ export default function ContactPage() {
                   <div className="flex flex-col relative z-10">
                     <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Email Us</span>
                     <span className="text-xs md:text-sm text-[#0C2756] font-medium">General Inquiries</span>
-                    <a href="mailto:info@credsettle.com" className="text-[10px] md:text-xs text-[#0C2756] underline-offset-2 hover:underline mt-1.5">
+                    <span className="text-[10px] md:text-xs text-[#0C2756] underline-offset-2 hover:underline mt-1.5">
                       info@credsettle.com
-                    </a>
+                    </span>
                   </div>
                   </a>
                 </div>
@@ -361,9 +361,9 @@ export default function ContactPage() {
                   <div className="flex flex-col relative z-10">
                     <span className="text-[10px] md:text-xs text-[rgba(12,39,86,0.70)]">Call Us</span>
                     <span className="text-xs md:text-sm text-[#0C2756] font-medium">Customer Support</span>
-                    <a href="tel:+918800226635" className="text-[10px] md:text-xs text-[#0C2756] underline-offset-2 hover:underline mt-1.5">
+                    <span className="text-[10px] md:text-xs text-[#0C2756] underline-offset-2 hover:underline mt-1.5">
                       +91 8800226635
-                    </a>
+                    </span>
                   </div>
                   </a>
                 </div>
@@ -433,11 +433,12 @@ export default function ContactPage() {
                 </div>
                 <div className="hidden lg:flex justify-between items-center mb-3 px-2">
                   <span
-                    className="text-sm leading-5"
+                    className="text-sm leading-5 -ml-2"
                     style={{
                       color: '#0C2756',
                       fontFamily: 'Poppins',
-                      fontWeight: 500
+                      fontWeight: 500,
+                      fontSize: '20px'
                     }}
                   >
                    <span className="text-red-500">*</span> We do not provide Loans. We only help in Loan Settlement.

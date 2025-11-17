@@ -1,6 +1,7 @@
 'use client';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
+import CTAButton from '@/components/CTAButton';
 import { useEffect, useState, useRef } from 'react';
 import Script from 'next/script';
 
@@ -551,7 +552,7 @@ export default function AboutPage() {
                               background: 'rgba(239, 247, 255, 0.95)',
                               boxShadow: '0 2px 10px rgba(0,0,0,0.08)',
                               color: '#0C2756',
-                              fontFamily: 'Inter',
+                              fontFamily: 'Poppins',
                               fontSize: '12px',
                               lineHeight: '16px',
                               whiteSpace: 'nowrap',
@@ -586,10 +587,10 @@ export default function AboutPage() {
                   maxWidth: '535px' // 764 * 0.7
                 }}
               >
-                <span className="text-xl font-medium font-['Inter'] leading-6" style={{ color: '#0C2756' }}>
+                <span className="text-xl font-medium font-['Poppins'] leading-6" style={{ color: '#0C2756' }}>
                   {yearDescriptions[selectedYear].title}
                 </span>
-                <span className="text-xl font-normal font-['Inter'] leading-6" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
+                <span className="text-xl font-normal font-['Poppins'] leading-6" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
                   {' '}{yearDescriptions[selectedYear].description}
                 </span>
               </div>
@@ -668,10 +669,10 @@ export default function AboutPage() {
                             boxShadow: '0 2px 10px rgba(0,0,0,0.08)'
                           }}
                         >
-                          <span className="text-base font-medium font-['Inter'] leading-6 block mb-2" style={{ color: '#0C2756' }}>
+                          <span className="text-base font-medium font-['Poppins'] leading-6 block mb-2" style={{ color: '#0C2756' }}>
                             {yearDescriptions[year].title}
                           </span>
-                          <span className="text-sm font-normal font-['Inter'] leading-5 block" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
+                          <span className="text-sm font-normal font-['Poppins'] leading-5 block" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
                             {yearDescriptions[year].description}
                           </span>
                         </div>
@@ -910,11 +911,13 @@ export default function AboutPage() {
                   <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We've Got </span>
                   <span style={{ color: '#007AFF' }}>Answers.</span>
                 </h2>
+                  <a href="/contact" className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
                 <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
                   <span style={{ color: '#0C2756' }}>Still have questions? </span>
                   <span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span>
                   <span style={{ color: '#0C2756' }}> anytime.</span>
                 </p>
+                </a>
               </div>
 
               {/* Right: FAQ Items - Aligned to right end */}
@@ -969,6 +972,44 @@ export default function AboutPage() {
                     </div>
                   ))}
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="w-full py-12">
+        <div className="w-full max-w-7xl mx-auto px-4">
+          <div className="flex flex-col items-center gap-8 md:gap-14">
+            <div
+              className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
+              style={{
+                background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
+                boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
+              }}
+            >
+              <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
+                {/* Text Content */}
+                <div className="flex flex-col items-center gap-[28px] w-full">
+                  <h2
+                    className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
+                    style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+                  >
+                    Ready to Start Your Journey to Financial Freedom?
+                  </h2>
+                  <p
+                    className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full"
+                    style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins' }}
+                  >
+                    At CredSettle, we're committed to helping you achieve financial freedom through dignified, RBI-compliant debt resolution. Our proven track record and foundational values ensure you receive the best possible support. Get started today with a free consultation.
+                  </p>
+                </div>
+
+                {/* CTA Button */}
+                <CTAButton className="w-full max-w-[280px] md:max-w-[300px]">
+                  Get Your Free Consultation
+                </CTAButton>
               </div>
             </div>
           </div>
