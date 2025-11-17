@@ -62,7 +62,7 @@ export default function PersonalLoanSettlementPageClient() {
             WebkitFilter: 'blur(400px)',
             transform: 'translate(-50%, -50%)',
             zIndex: 0,
-            opacity: 0.6,
+            opacity: 0.3,
             willChange: 'filter',
             backfaceVisibility: 'hidden'
           }}
@@ -203,34 +203,50 @@ export default function PersonalLoanSettlementPageClient() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '28px' }}>
+          
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '28px' }}
+          >
             {/* Reviews column (similar to HeroSection small cards) */}
-            <div className="flex flex-col lg:flex-col gap-4 lg:gap-3 w-full lg:w-auto lg:justify-start" style={{ maxWidth: '100%' }}>
-              <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
-                <div className="w-1/2 flex justify-center items-center">
-                  <img src="/ggle.png" alt="Google Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
-                </div>
-                <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
-                  <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                    <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
-                    <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
+            <div className="flex w-full lg:w-auto lg:justify-start items-start gap-3 lg:gap-0" style={{ maxWidth: '100%' }}>
+              {/* Divider on left for mobile */}
+              <div
+                className="lg:hidden flex-shrink-0"
+                style={{
+                  width: '8px',
+                  height: '120%',
+                  minHeight: '100px',
+                  borderRadius: '30px',
+                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)',
+                  marginTop: '14px',
+                }}
+              />
+              <div className="flex flex-col lg:flex-col gap-4 lg:gap-3 flex-1">
+                <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
+                  <div className="w-1/2 flex justify-center items-center">
+                    <img src="/ggle.png" alt="Google Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
                   </div>
-                  <div className="text-center">
-                    <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
+                  <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
+                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
+                      <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
-                <div className="w-1/2 flex justify-center items-center">
-                  <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
-                </div>
-                <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
-                  <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                    <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
-                    <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
+                <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
+                  <div className="w-1/2 flex justify-center items-center">
+                    <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
                   </div>
-                  <div className="text-center">
-                    <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
+                  <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
+                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
+                      <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -255,10 +271,10 @@ export default function PersonalLoanSettlementPageClient() {
                 className="lg:hidden flex-shrink-0"
                 style={{
                   width: '8px',
-                  height: '100%',
-                  minHeight: '60px',
+                  height: '120%',
+                  minHeight: '100px',
                   borderRadius: '30px',
-                  background: 'linear-gradient(90deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
+                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
                 }}
               />
               <div className="flex-1">
@@ -290,10 +306,10 @@ export default function PersonalLoanSettlementPageClient() {
                 className="lg:hidden flex-shrink-0"
                 style={{
                   width: '8px',
-                  height: '100%',
-                  minHeight: '60px',
+                    height: '120%',
+                  minHeight: '100px',
                   borderRadius: '30px',
-                  background: 'linear-gradient(90deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
+                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
                 }}
               />
               <div className="flex-1">
@@ -717,6 +733,23 @@ export default function PersonalLoanSettlementPageClient() {
           style={{ maxWidth: '1280px', marginTop: '36px', marginBottom: '24px' }}
         >
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
+          <h2
+                  className="text-xl md:text-2xl lg:text-[32px] leading-tight text-center"
+                  style={{
+                    color: '#0C2756',
+                    fontFamily: 'Poppins',
+                    fontWeight: 700,
+                    lineHeight: '26px'
+                  }}
+                >
+                  Why CredSettle is Your Best Resolution Partner
+                </h2>
+                <p
+                  className="text-xs md:text-sm lg:text-[14px] text-center"
+                  style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}
+                >
+                  The six core benefits that ensure a protected, successful, and final debt settlement.
+                </p>
             {/* Left: 2x2 stat cards with central radial gradient */}
             <div className="relative">
               {/* Radial gradient at the intersection */}
@@ -745,7 +778,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>12,500+</h3>
+                  <h3 className="text-[30px] md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>12,500+</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     Successful Settlements Secured  Families and businesses transitioned from debt struggle to financial freedom.
                   </p>
@@ -759,7 +792,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>4.9/5</h3>
+                  <h3 className="text-[30px] md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>4.9/5</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     Client Satisfaction Rating  Our commitment to dignity, transparency, and legal excellence is reflected in our client reviews.
                   </p>
@@ -773,7 +806,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>₹ 680 Cr+</h3>
+                  <h3 className="text-[30px] md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>₹ 680 Cr+</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     Debt Principal Reduced  Total principal debt negotiated down and saved for our clients via strategic OTS.
                   </p>
@@ -787,7 +820,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>100%</h3>
+                  <h3 className="text-[30px] md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>100%</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     RBI Compliance Guaranteed  Every negotiation strictly follows regulatory guidelines, ensuring legal protection for you.
                   </p>
@@ -795,43 +828,7 @@ export default function PersonalLoanSettlementPageClient() {
               </div>
             </div>
 
-            {/* Right: partner heading, description, and image */}
-            <div className="flex flex-col items-center lg:items-end justify-between mt-8 lg:mt-0" style={{ gap: '16px' }}>
-              <div className="w-full text-center lg:text-right">
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px'
-                  }}
-                >
-                  Why CredSettle is Your Best Resolution Partner
-                </h2>
-                <p
-                  className="text-xs md:text-sm lg:text-[14px] mt-2"
-                  style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}
-                >
-                  The six core benefits that ensure a protected, successful, and final debt settlement.
-                </p>
-              </div>
 
-              <div className="w-full flex justify-center lg:justify-end lg:-mt-20" style={{ marginRight: '0' }}>
-                <img
-                  src="/belowservices/Personal%20Loan.png"
-                  alt="Personal Loan"
-                  className="w-full max-w-[280px] md:max-w-[340px] lg:max-w-[380px]"
-                  style={{
-                    height: 'auto',
-                    borderRadius: '0px',
-                    transform: 'none',
-                    display: 'block',
-                    objectFit: 'contain'
-                  }}
-                />
-              </div>
-            </div>
           </div>
         </section>
 

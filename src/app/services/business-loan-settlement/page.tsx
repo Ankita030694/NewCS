@@ -45,7 +45,7 @@ export default function BusinessLoanSettlementPage() {
   return (
     <div className="relative min-h-screen bg-white mt-6">
       {!isFirefox && (
-        <div className="absolute top-0 left-0" style={{ width: '757px', height: '757px', borderRadius: '757px', background: '#007AFF', filter: 'blur(400px)', WebkitFilter: 'blur(400px)', transform: 'translate(-50%, -50%)', zIndex: 0, opacity: 0.6 }} />
+        <div className="absolute top-0 left-0" style={{ width: '757px', height: '757px', borderRadius: '757px', background: '#007AFF', filter: 'blur(400px)', WebkitFilter: 'blur(400px)', transform: 'translate(-50%, -50%)', zIndex: 0, opacity: 0.3 }} />
       )}
       {isFirefox && (
         <div className="absolute top-0 left-0" style={{ width: '757px', height: '757px', borderRadius: '757px', background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)', transform: 'translate(-50%, -50%)', zIndex: 0, opacity: 0.9 }} />
@@ -79,38 +79,111 @@ export default function BusinessLoanSettlementPage() {
               </a>
             </div>
           </div>
-        </section>
-
-        {/* Reviews + dividers + value props */}
-        <section className="w-full mx-auto px-4 md:px-6 lg:px-4" style={{ maxWidth: '1280px', marginTop: '28px' }}>
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '28px' }}>
-            <div className="flex flex-col gap-4 lg:gap-3 w-full lg:w-auto lg:justify-start" style={{ maxWidth: '100%' }}>
-              <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
-                <div className="w-1/2 flex justify-center items-center"><img src="/ggle.png" alt="Google Reviews - CredSettle" className="h-6 lg:h-[29.16px]" /></div>
-                <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
-                  <div className="flex justify-center items-center" style={{ gap: '6.48px' }}><img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" /><span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span></div>
-                  <div className="text-center"><div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div></div>
+          
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '28px' }}
+          >
+            {/* Reviews column (similar to HeroSection small cards) */}
+            <div className="flex w-full lg:w-auto lg:justify-start items-start gap-3 lg:gap-0" style={{ maxWidth: '100%' }}>
+              {/* Divider on left for mobile */}
+              <div
+                className="lg:hidden flex-shrink-0"
+                style={{
+                  width: '8px',
+                  height: '120%',
+                  minHeight: '100px',
+                  borderRadius: '30px',
+                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)',
+                  marginTop: '14px',
+                }}
+              />
+              <div className="flex flex-col lg:flex-col gap-4 lg:gap-3 flex-1">
+                <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
+                  <div className="w-1/2 flex justify-center items-center">
+                    <img src="/ggle.png" alt="Google Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
+                  </div>
+                  <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
+                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
+                      <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
-                <div className="w-1/2 flex justify-center items-center"><img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" className="h-6 lg:h-[29.16px]" /></div>
-                <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
-                  <div className="flex justify-center items-center" style={{ gap: '6.48px' }}><img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" /><span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span></div>
-                  <div className="text-center"><div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div></div>
+                <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
+                  <div className="w-1/2 flex justify-center items-center">
+                    <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
+                  </div>
+                  <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
+                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
+                      <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="hidden lg:block" style={{ width: '8px', height: '228px', flexShrink: 0, borderRadius: '30px', background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)' }} />
+
+            {/* Divider - Vertical for desktop only */}
+            <div
+              className="hidden lg:block"
+              style={{
+                width: '8px',
+                height: '228px',
+                flexShrink: 0,
+                borderRadius: '30px',
+                background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
+              }}
+            />
+
+            {/* Enterprise-Grade Compliance */}
             <div className="flex-1 w-full lg:w-auto flex items-start gap-3 lg:gap-0" style={{ maxWidth: '420px' }}>
-              <div className="lg:hidden flex-shrink-0" style={{ width: '8px', height: '100%', minHeight: '60px', borderRadius: '30px', background: 'linear-gradient(90deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)' }} />
+              {/* Divider on left for mobile */}
+              <div
+                className="lg:hidden flex-shrink-0"
+                style={{
+                  width: '8px',
+                  height: '120%',
+                  minHeight: '100px',
+                  borderRadius: '30px',
+                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
+                }}
+              />
               <div className="flex-1">
                 <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Enterprise-Grade Compliance</h3>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We structure every negotiation within RBI rules and lender policies to protect assets and directors.</p>
               </div>
             </div>
-            <div className="hidden lg:block" style={{ width: '8px', height: '228px', flexShrink: 0, borderRadius: '30px', background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)' }} />
+
+            {/* Divider - Vertical for desktop only */}
+            <div
+              className="hidden lg:block"
+              style={{
+                width: '8px',
+                height: '228px',
+                flexShrink: 0,
+                borderRadius: '30px',
+                background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
+              }}
+            />
+
+            {/* Cash-Flow Focused Outcomes */}
             <div className="flex-1 w-full lg:w-auto flex items-start gap-3 lg:gap-0" style={{ maxWidth: '420px' }}>
-              <div className="lg:hidden flex-shrink-0" style={{ width: '8px', height: '100%', minHeight: '60px', borderRadius: '30px', background: 'linear-gradient(90deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)' }} />
+              {/* Divider on left for mobile */}
+              <div
+                className="lg:hidden flex-shrink-0"
+                style={{
+                  width: '8px',
+                  height: '120%',
+                  minHeight: '100px',
+                  borderRadius: '30px',
+                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
+                }}
+              />
               <div className="flex-1">
                 <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Cash-Flow Focused Outcomes</h3>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Reduce principal, restructure dues, and restore working capital for business continuity.</p>
@@ -552,7 +625,9 @@ export default function BusinessLoanSettlementPage() {
         <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{ maxWidth: '1280px', marginTop: '36px', marginBottom: '24px' }}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
             <div className="relative">
-              <div aria-hidden className="w-[180px] h-[180px] lg:w-[260px] lg:h-[260px]" style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', borderRadius: '9999px', background: 'radial-gradient(closest-side, rgba(0,122,255,0.30), rgba(0,122,255,0.16) 55%, rgba(0,122,255,0.0) 80%)', filter: 'blur(4px)', pointerEvents: 'none', zIndex: 0 }} />
+            <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight text-center" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 700, lineHeight: '36px' }}>Why CredSettle is Your Best Resolution Partner</h2>
+            <p className="text-xs md:text-sm lg:text-[14px] text-center" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six benefits that ensure protection and final settlement.</p>
+              <div aria-hidden className="w-[180px] h-[180px] lg:w-[260px] lg:h-[260px]" style={{ position: 'absolute', left: '50%', top: '62%', transform: 'translate(-50%, -50%)', borderRadius: '9999px', background: 'radial-gradient(closest-side, rgba(0,122,255,0.30), rgba(0,122,255,0.16) 55%, rgba(0,122,255,0.0) 80%)', filter: 'blur(4px)', pointerEvents: 'none', zIndex: 0 }} />
               <div className="grid grid-cols-2 gap-4 relative z-10">
                 {['8,500+','4.8/5','₹ 450 Cr+','100%'].map((stat, idx) => (
                   <div key={idx} className="px-4 md:px-5 lg:px-[22px] py-6 md:py-8 lg:py-12" style={{ borderRadius: '40px', background: 'rgba(239, 247, 255, 0.30)', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)' }}>
@@ -569,12 +644,9 @@ export default function BusinessLoanSettlementPage() {
             </div>
             <div className="flex flex-col items-center lg:items-end justify-between mt-8 lg:mt-0" style={{ gap: '16px' }}>
               <div className="w-full text-center lg:text-right">
-                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 700, lineHeight: '36px' }}>Why CredSettle is Your Best Resolution Partner</h2>
-                <p className="text-xs md:text-sm lg:text-[14px] mt-2" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six benefits that ensure protection and final settlement.</p>
+                
               </div>
-              <div className="w-full flex justify-center lg:justify-end lg:mt-2" style={{ marginRight: '0' }}>
-              <img src="/belowservices/Business%20Loan.png" alt="Business Loan" className="w-full max-w-[280px] md:max-w-[340px] lg:max-w-[380px]" style={{ height: 'auto', borderRadius: '0px', transform: 'none', display: 'block', objectFit: 'contain' }} />
-              </div>
+            
             </div>
           </div>
         </section>

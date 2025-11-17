@@ -575,7 +575,7 @@ export default function AntiHarassmentClient() {
               WebkitFilter: 'blur(400px)',
               transform: 'translate(-50%, -50%)',
               zIndex: 0,
-              opacity: 0.6,
+              opacity: 0.3,
               willChange: 'filter',
               backfaceVisibility: 'hidden'
             }}
@@ -706,7 +706,7 @@ export default function AntiHarassmentClient() {
 
                   <div className="rounded-2xl border border-blue-100/70 bg-white/80 p-5 md:p-6 lg:p-7 shadow-[0px_10px_30px_rgba(0,122,255,0.08)]">
                     <div className="flex items-start gap-4">
-                      <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/15 text-blue-600">
+                      <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-500/15 text-blue-600 p-5">
                         <FontAwesomeIcon icon={faShieldHalved} className="h-5 w-5" />
                       </span>
                       <div>
@@ -787,7 +787,7 @@ export default function AntiHarassmentClient() {
                                 >
                                   <div className="flex items-start gap-4">
                                     <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
-                                      <FontAwesomeIcon icon={card.icon} className="h-5 w-5" />
+                                      <FontAwesomeIcon icon={card.icon} className="h-5 w-5 p-2" />
                                     </span>
                                     <div>
                                       <h3
@@ -815,7 +815,7 @@ export default function AntiHarassmentClient() {
                                 >
                                   <div className="mb-4 flex items-start gap-3">
                                     <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
-                                      <FontAwesomeIcon icon={list.icon} className="h-5 w-5" />
+                                      <FontAwesomeIcon icon={list.icon} className="h-5 w-5 p-2" />
                                     </span>
                                     <h3
                                       className="text-base font-semibold"
@@ -848,7 +848,7 @@ export default function AntiHarassmentClient() {
                                 >
                                   <div className="flex items-start gap-3">
                                     <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 text-white">
-                                      <FontAwesomeIcon icon={callout.icon} className="h-5 w-5" />
+                                      <FontAwesomeIcon icon={callout.icon} className="h-5 w-5 p-2" />
                                     </span>
                                     <div>
                                       <h3

@@ -243,7 +243,7 @@ export default function ContactPage() {
             background: '#007AFF',
             transform: 'translate(-50%, -50%)',
             zIndex: 0,
-            opacity: 0.6,
+            opacity: 0.3,
             willChange: 'filter', // Optimize for animations
             backfaceVisibility: 'hidden' // Force hardware acceleration
           }}
