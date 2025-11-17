@@ -93,7 +93,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <div className="relative min-h-screen overflow-x-hidden" style={{paddingTop: '16.2px', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'contain', backgroundPosition: 'center'}}>
+    <div className="relative min-h-screen overflow-x-hidden bg-cover md:bg-contain bg-center" style={{paddingTop: '16.2px', backgroundImage: 'url(/hero-bg.png)'}}>
       <div
         style={{
           position: 'relative',
