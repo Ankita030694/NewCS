@@ -987,7 +987,7 @@ export default function CreditScoreBuilderClient() {
                                   className="h-full w-full rounded-2xl border border-blue-100/70 bg-white p-5 md:p-6 shadow-[0px_8px_25px_rgba(0,122,255,0.05)] transition-shadow duration-200 hover:shadow-[0px_12px_30px_rgba(0,122,255,0.12)]"
                                 >
                                   <div className="flex items-start gap-4">
-                                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600">
+                                    <span className="flex h-8 w-14 items-center justify-center rounded-xl bg-blue-500/12 text-blue-600 p-2">
                                       <FontAwesomeIcon icon={card.icon} className="h-5 w-5" />
                                     </span>
                                     <div>
@@ -1106,7 +1106,7 @@ export default function CreditScoreBuilderClient() {
               <div className="flex flex-col items-center gap-8 md:gap-14">
                   <FAQWithSchema
                     faqs={faqs}
-                    title="Credit Score Builder FAQs —"
+                    title="Credit Score Builder"
                   />
               </div>
             </section>
