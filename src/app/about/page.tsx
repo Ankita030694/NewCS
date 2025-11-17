@@ -94,7 +94,7 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="relative min-h-screen bg-white mt-6">
+    <div className="relative min-h-screen bg-white mt-6 overflow-x-hidden">
       <Script id="faq-schema-about" type="application/ld+json">
         {JSON.stringify(faqSchema)}
       </Script>
@@ -110,7 +110,7 @@ export default function AboutPage() {
             WebkitFilter: 'blur(400px)',
             transform: 'translate(-50%, -50%)',
             zIndex: 0,
-            opacity: 0.6,
+            opacity: 0.3,
             willChange: 'filter',
             backfaceVisibility: 'hidden'
           }}
@@ -135,20 +135,19 @@ export default function AboutPage() {
 
       <Navbar />
 
-      <div className="relative z-10">
+      <div className="relative z-10" style={{ paddingTop: '100px' }}>
         <div
           className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20"
           style={{
-            paddingTop: '100px',
             paddingBottom: '12.96px'
           }}
         >
           <div className="flex flex-col lg:flex-row items-start justify-between">
             {/* Left Column - Heading, Copy, CTA */}
-            <div className="flex-shrink-0 w-full lg:w-auto" style={{width: 'clamp(400px, 50%, 600px)'}}>
+            <div className="flex-shrink-0 w-full lg:w-auto" style={{width: 'clamp(100%, 50%, 600px)', maxWidth: '100%'}}>
             
               <h3
-                className="mb-4"
+                className="mb-4 -mt-10"
                 style={{
                   color: '#0C2756',
                   fontFamily: 'Poppins',
@@ -705,7 +704,7 @@ export default function AboutPage() {
             <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {/* Card 1 - Integrity and Compliance */}
               <div 
-                className="p-6 relative"
+                className="p-6 relative overflow-hidden"
                 style={{
                   borderRadius: '40px',
                   background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
@@ -715,8 +714,8 @@ export default function AboutPage() {
                   flexDirection: 'column'
                 }}
               >
-                <div className="absolute top-0 left-0 -ml-5">
-                  <img src="/aboutcard1.png" alt="Integrity and Compliance" style={{ width: '180px', height: '180px' }} />
+                <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
+                  <img src="/aboutcard1.png" alt="Integrity and Compliance" style={{ width: '180px', height: '180px', maxWidth: '100%' }} />
                 </div>
                 <div className="mt-36">
                   <h3 
@@ -736,7 +735,7 @@ export default function AboutPage() {
 
               {/* Card 2 - Client Dignity First */}
               <div 
-                className="p-6 relative"
+                className="p-6 relative overflow-hidden"
                 style={{
                   borderRadius: '40px',
                   background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
@@ -746,8 +745,8 @@ export default function AboutPage() {
                   flexDirection: 'column'
                 }}
               >
-                <div className="absolute top-0 left-0 -ml-5">
-                  <img src="/aboutcard2.png" alt="Client Dignity First" style={{ width: '180px', height: '180px' }} />
+                <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
+                  <img src="/aboutcard2.png" alt="Client Dignity First" style={{ width: '180px', height: '180px', maxWidth: '100%' }} />
                 </div>
                 <div className="mt-36">
                   <h3 
@@ -767,7 +766,7 @@ export default function AboutPage() {
 
               {/* Card 3 - Expert Negotiation */}
               <div 
-                className="p-6 relative"
+                className="p-6 relative overflow-hidden"
                 style={{
                   borderRadius: '40px',
                   background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
@@ -777,8 +776,8 @@ export default function AboutPage() {
                   flexDirection: 'column'
                 }}
               >
-                <div className="absolute top-5 left-0">
-                  <img src="/aboutcard3.png" alt="Expert Negotiation" style={{ width: '150px', height: '150px' }} />
+                <div className="absolute top-5 left-0" style={{ maxWidth: '100%' }}>
+                  <img src="/aboutcard3.png" alt="Expert Negotiation" style={{ width: '150px', height: '150px', maxWidth: '100%' }} />
                 </div>
                 <div className="mt-36">
                   <h3 
@@ -798,7 +797,7 @@ export default function AboutPage() {
 
               {/* Card 4 - Transparency */}
               <div 
-                className="p-6 relative"
+                className="p-6 relative overflow-hidden"
                 style={{
                   borderRadius: '40px',
                   background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
@@ -808,8 +807,8 @@ export default function AboutPage() {
                   flexDirection: 'column'
                 }}
               >
-                <div className="absolute top-0 left-0 -ml-5">
-                  <img src="/aboutcard4.png" alt="Transparency" style={{ width: '180px', height: '180px' }} />
+                <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
+                  <img src="/aboutcard4.png" alt="Transparency" style={{ width: '180px', height: '180px', maxWidth: '100%' }} />
                 </div>
                 <div className="mt-36">
                   <h3 
@@ -829,7 +828,7 @@ export default function AboutPage() {
 
               {/* Card 5 - Financial Empowerment */}
               <div 
-                className="p-6 relative"
+                className="p-6 relative overflow-hidden"
                 style={{
                   borderRadius: '40px',
                   background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
@@ -839,8 +838,8 @@ export default function AboutPage() {
                   flexDirection: 'column'
                 }}
               >
-                <div className="absolute top-0 left-0 -ml-5">
-                  <img src="/aboutcard5.png" alt="Financial Empowerment" style={{ width: '180px', height: '180px' }} />
+                <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
+                  <img src="/aboutcard5.png" alt="Financial Empowerment" style={{ width: '180px', height: '180px', maxWidth: '100%' }} />
                 </div>
                 <div className="mt-36">
                   <h3 
@@ -860,7 +859,7 @@ export default function AboutPage() {
 
               {/* Card 6 - Results-Oriented */}
               <div 
-                className="p-6 relative"
+                className="p-6 relative overflow-hidden"
                 style={{
                   borderRadius: '40px',
                   background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
@@ -870,8 +869,8 @@ export default function AboutPage() {
                   flexDirection: 'column'
                 }}
               >
-                <div className="absolute top-0 left-0 ml-5">
-                  <img src="/aboutcard6.png" alt="Results-Oriented" style={{ width: '180px', height: '180px' }} />
+                <div className="absolute top-0 left-0" style={{ marginLeft: '20px', maxWidth: 'calc(100% - 20px)' }}>
+                  <img src="/aboutcard6.png" alt="Results-Oriented" style={{ width: '180px', height: '180px', maxWidth: '100%' }} />
                 </div>
                 <div className="mt-36">
                   <h3 

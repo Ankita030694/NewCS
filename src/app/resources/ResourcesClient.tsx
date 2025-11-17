@@ -327,7 +327,7 @@ export default function ResourcesClient({
             WebkitFilter: 'blur(400px)',
             transform: 'translate(-50%, -50%)',
             zIndex: 0,
-            opacity: 0.6,
+            opacity: 0.3,
             willChange: 'filter',
             backfaceVisibility: 'hidden',
           }}

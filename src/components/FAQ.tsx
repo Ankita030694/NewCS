@@ -26,7 +26,7 @@ const FAQ = ({ items = homeFaqItems }: FAQProps) => {
           <div className="flex flex-col lg:flex-row items-start gap-4 md:gap-6 lg:gap-[76px] w-full">
             {/* Left: Header Section */}
             <div className="flex flex-col items-start gap-4 md:gap-[21px] w-full lg:w-[365px]">
-              <h2 className="text-3xl leading-[1.2] md:leading-[1.3] lg:leading-[1.4] font-bold" style={{ whiteSpace: 'pre-line' }}>
+              <h2 className="text-3xl leading-[1.2] md:leading-[1.3] lg:leading-[1.4] font-regular" style={{ whiteSpace: 'pre-line' }}>
                 <span style={{ color: '#0C2756' }}>Have Question?</span>
                 <br />
                 <span style={{ color: '#0C2756' }}>We've Got </span>

@@ -251,17 +251,19 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
 
       <div className="relative z-10 pt-24 pb-24 px-3 sm:px-6 lg:px-8">
         <div className="mx-auto w-full max-w-7xl">
+          <div className="flex justify-center mb-6 lg:mb-8">
+            <Breadcrumbs
+              items={[
+                { name: 'Home', url: '/' },
+                { name: 'Resources', url: '/resources' },
+                { name: blog.title, url: `/resources/${breadcrumbsSlug}` }
+              ]}
+            />
+          </div>
+
           <div
             className="text-center mb-10 lg:mb-14 transition-all duration-700 opacity-100 translate-y-0"
           >
-            <div className="flex items-center justify-center gap-1.5 text-[10px] md:text-xs mb-4 font-medium">
-              <span className="text-sky-800/90">Home</span>
-              <i className="fas fa-chevron-right text-sky-700/60 text-[8px]" aria-hidden="true"></i>
-              <span className="text-sky-800/90">Resources</span>
-              <i className="fas fa-chevron-right text-sky-700/60 text-[8px]" aria-hidden="true"></i>
-              <span className="text-[#007AFF]">{blog.title}</span>
-            </div>
-
             <h1
               className="font-semibold text-[28px] md:text-[40px] lg:text-[52px] leading-tight mb-3"
               style={{
@@ -313,16 +315,6 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                 </span>
               </div>
             </div>
-          </div>
-
-          <div className="flex justify-center mb-8 lg:mb-12">
-            <Breadcrumbs
-              items={[
-                { name: 'Home', url: '/' },
-                { name: 'Resources', url: '/resources' },
-                { name: blog.title, url: `/resources/${breadcrumbsSlug}` }
-              ]}
-            />
           </div>
 
           {blog.image && (
