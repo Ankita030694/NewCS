@@ -354,9 +354,9 @@ export default function ResourcesClient({
 
       <div
         id="blog-content-top"
-        className="relative z-10 pt-10 md:pt-[50px] pl-4 md:pl-[12.96px] pr-4 md:pr-[12.96px]"
+        className="relative z-10 pt-10 md:pt-[50px] px-4 md:px-6 lg:px-8 xl:px-12 2xl:px-16"
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto max-w-7xl">
           <div className="flex-shrink-0 w-full md:w-[700px]">
             <h3
               className="mb-4 md:mb-6"
@@ -389,7 +389,7 @@ export default function ResourcesClient({
         </div>
 
         <section ref={blogSectionRef} className="w-full mt-8 md:mt-12 lg:mt-[60px]">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto max-w-7xl">
             {loading ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                 {Array.from({ length: PAGE_SIZE }).map((_, index) => (

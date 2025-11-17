@@ -4,7 +4,7 @@ export default function WhyCredSettle() {
       <div className="w-full max-w-7xl mx-auto py-7 px-4 md:px-0 overflow-x-hidden">
         {/* Desktop Version */}
         <div className="hidden md:block">
-          {/* Main Heading */}
+          {/* Main Heading */} 
           <h2 
             className="font-bold text-left text-3xl mb-2" 
             style={{color: '#0C2756'}}
@@ -54,7 +54,7 @@ export default function WhyCredSettle() {
                     className="text-left" 
                     style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                   >
-                    We exclusively follow Reserve Bank of India guidelines for legal loan settlements, ensuring every step is compliant, secure, and protects your consumer rights and wallet.
+                    We exclusively follow Reserve Bank of India guidelines for legal loan settlements, ensuring every step is compliant, secure, and protects your consumer rights and wallet. We provide you with complete transparency and adherence to all regulatory requirements.
                   </p>
                 </div>
                   <img 
@@ -68,7 +68,7 @@ export default function WhyCredSettle() {
                 />
               </div>
 
-              {/* Row 2 - Image left, Text right */}
+              {/* Row 2 - Text left, Image right */}
               <div 
                 className="flex items-center justify-between overflow-hidden flex-1"
                 style={{
@@ -78,6 +78,20 @@ export default function WhyCredSettle() {
                   padding: '25px'
                 }}
               >
+                <div style={{ flex: 1, paddingRight: '18px' }}>
+                  <h4 
+                    className="font-bold text-left mb-2" 
+                    style={{ fontSize: '22px', color: '#0C2756' }}
+                  >
+                    Expert Negotiation
+                  </h4>
+                  <p 
+                    className="text-left" 
+                    style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
+                  >
+                    Our experienced legal team negotiates directly with banks and financial institutions to reduce your debt burden by up to 70%, securing the best possible settlement terms. We provide you with the best possible settlement terms and conditions.
+                  </p>
+                </div>
                 <img 
                   src="/why2.png" 
                   alt="Expert Negotiation" 
@@ -87,20 +101,6 @@ export default function WhyCredSettle() {
                     flexShrink: 0
                   }}
                 />
-                <div style={{ flex: 1, paddingLeft: '18px' }}>
-                  <h4 
-                    className="font-bold text-right mb-2" 
-                    style={{ fontSize: '22px', color: '#0C2756' }}
-                  >
-                    Expert Negotiation
-                  </h4>
-                  <p 
-                    className="text-right" 
-                    style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
-                  >
-                    Our experienced legal team negotiates directly with banks and financial institutions to reduce your debt burden by up to 70%, securing the best possible settlement terms. We provide you with the best possible settlement terms and conditions.
-                  </p>
-                </div>
               </div>
             </div>
 
@@ -145,7 +145,7 @@ export default function WhyCredSettle() {
 
             {/* Column 3 - 30% width, 2 rows */}
             <div className="flex flex-col gap-3" style={{ width: '30%', height: '100%' }}>
-              {/* Row 1 - Heading left, Image right, Text below */}
+              {/* Row 1 - Image left, Heading right, Text below both */}
               <div 
                 className="overflow-hidden flex-1"
                 style={{
@@ -155,19 +155,13 @@ export default function WhyCredSettle() {
                   padding: '0'
                 }}
               >
-                {/* Top row: Heading and Image */}
+                {/* Top row: Image left, Heading right */}
                 <div className="flex items-start justify-between" style={{ padding: '0 0 7px 0', margin: '0' }}>
-                  <h4 
-                    className="font-bold mt-4 ml-4" 
-                    style={{ fontSize: '22px', color: '#0C2756'}}
-                  >
-                    Zero Harassment Policy
-                  </h4>
                   <img 
                     src="/why4.png" 
                     alt="Zero Harassment" 
                     style={{ 
-                      maxWidth: '65px',
+                      maxWidth: '102px',
                       height: 'auto',
                       flexShrink: 0,
                       margin: '0',
@@ -175,10 +169,16 @@ export default function WhyCredSettle() {
                       display: 'block'
                     }}
                   />
+                  <h4 
+                    className="font-bold mr-4 mt-4 text-right" 
+                    style={{ fontSize: '22px', color: '#0C2756'}}
+                  >
+                    Zero Harassment Policy
+                  </h4>
                 </div>
-                {/* Text below */}
+                {/* Text below both */}
                 <p 
-                  className="text-left p-4" 
+                  className="text-right p-4" 
                   style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6'}}
                 >
                   Once CredSettle takes over, we legally step in to stop all recovery agent harassment, restoring your peace of mind immediately.
@@ -278,7 +278,7 @@ export default function WhyCredSettle() {
                   className="text-left" 
                   style={{ fontSize: '13px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                 >
-                  We exclusively follow Reserve Bank of India guidelines for legal loan settlements, ensuring every step is compliant, secure, and protects your consumer rights and wallet.
+                  We exclusively follow Reserve Bank of India guidelines for legal loan settlements, ensuring every step is compliant, secure, and protects your consumer rights and wallet. We provide you with complete transparency and adherence to all regulatory requirements.
                 </p>
               </div>
               <img 

@@ -89,7 +89,7 @@ export default function PersonalLoanSettlementPageClient() {
       <Navbar />
 
       {/* Main viewport-fit wrapper */}
-      <div className="relative z-10" style={{ paddingTop: '84px' }}>
+      <div className="relative z-10" style={{ paddingTop: '24px' }}>
         {/* Breadcrumbs */}
         <section
           className="w-full mx-auto px-4 md:px-6 lg:px-4"
@@ -188,23 +188,9 @@ export default function PersonalLoanSettlementPageClient() {
                 specializes in personal loan settlement services, working directly with banks and
                 NBFCs to secure the best possible settlement terms for our clients.
               </p>
-              <p
-                className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  lineHeight: '28px',
-                  marginBottom: '20px'
-                }}
-              >
-                Our legal team negotiates a formal, affordable One-Time Settlement (OTS) that
-                strictly adheres to RBI guidelines. We empower you to reclaim control, stop
-                harassment from recovery agents, and secure a debt-free future. Our debt settlement
-                company ensures all negotiations follow Indian banking regulations, providing you
-                with complete legal protection throughout the settlement process.
-              </p>
+              <a href="/contact" className='cursor-pointer' style={{ textDecoration: 'none', cursor: 'pointer' }}>
               <button
-                className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]"
+                className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px] cursor-pointer"
                 style={{
                   borderRadius: '32.4px',
                   background: '#007AFF',
@@ -214,6 +200,7 @@ export default function PersonalLoanSettlementPageClient() {
               >
                 Get Started Today
               </button>
+              </a>
             </div>
           </div>
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '28px' }}>
@@ -758,7 +745,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[24px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>12,500+</h3>
+                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>12,500+</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     Successful Settlements Secured  Families and businesses transitioned from debt struggle to financial freedom.
                   </p>
@@ -772,7 +759,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[24px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>4.9/5</h3>
+                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>4.9/5</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     Client Satisfaction Rating  Our commitment to dignity, transparency, and legal excellence is reflected in our client reviews.
                   </p>
@@ -786,7 +773,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[24px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>₹ 680 Crores+</h3>
+                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>₹ 680 Cr+</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     Debt Principal Reduced  Total principal debt negotiated down and saved for our clients via strategic OTS.
                   </p>
@@ -800,7 +787,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-lg md:text-xl lg:text-[24px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>100%</h3>
+                  <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>100%</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     RBI Compliance Guaranteed  Every negotiation strictly follows regulatory guidelines, ensuring legal protection for you.
                   </p>
@@ -1013,7 +1000,7 @@ export default function PersonalLoanSettlementPageClient() {
                   </div>
 
                   {/* CTA Button */}
-                  <CTAButton>
+                  <CTAButton className="max-w-[300px] md:max-w-[300px]">
                     Get Your Free Consultation
                   </CTAButton>
                 </div>

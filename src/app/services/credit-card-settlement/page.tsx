@@ -72,12 +72,11 @@ export default function CreditCardSettlementPage() {
               <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '28px', marginBottom: '12px' }}>
                 At CredSettle, our expert legal team specializes in credit card settlement services, working directly with card issuers to negotiate reduced payoff amounts. Our debt settlement company ensures all credit card settlements follow RBI guidelines and Indian banking regulations, providing you with complete legal protection.
               </p>
-              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '28px', marginBottom: '20px' }}>
-                Our RBI-compliant approach protects your rights, stops harassment from recovery agents, and secures a debt-free future. We help thousands of Indians achieve financial freedom through legal credit card settlement, reducing outstanding balances by 30-70% while ensuring all settlements are properly documented and legally binding.
-              </p>
-              <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{ borderRadius: '32.4px', background: '#007AFF', boxShadow: '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset' }}>
+              <a href="/contact" className='cursor-pointer' style={{ textDecoration: 'none', cursor: 'pointer' }}>
+              <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px] cursor-pointer" style={{ borderRadius: '32.4px', background: '#007AFF', boxShadow: '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset' }}>
                 Get Started Today
               </button>
+              </a>
             </div>
           </div>
         </section>
@@ -417,9 +416,9 @@ export default function CreditCardSettlementPage() {
             <div className="relative">
               <div aria-hidden className="w-[180px] h-[180px] lg:w-[260px] lg:h-[260px]" style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', borderRadius: '9999px', background: 'radial-gradient(closest-side, rgba(0,122,255,0.30), rgba(0,122,255,0.16) 55%, rgba(0,122,255,0.0) 80%)', filter: 'blur(4px)', pointerEvents: 'none', zIndex: 0 }} />
               <div className="grid grid-cols-2 gap-4 relative z-10">
-                {['15,000+','4.9/5','₹ 850 Crores+','100%'].map((stat, idx) => (
+                {['15,000+','4.9/5','₹ 850 Cr+','100%'].map((stat, idx) => (
                   <div key={idx} className="px-4 md:px-5 lg:px-[22px] py-6 md:py-8 lg:py-12" style={{ borderRadius: '40px', background: 'rgba(239, 247, 255, 0.30)', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)' }}>
-                    <h3 className="text-lg md:text-xl lg:text-[24px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>{stat}</h3>
+                    <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>{stat}</h3>
                     <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                       {idx===0 && 'Successful Settlements Secured for cardholders across India.'}
                       {idx===1 && 'Client Satisfaction Rating from verified reviews and testimonials.'}
