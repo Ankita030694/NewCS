@@ -692,7 +692,7 @@ export default function Settlements() {
               width: '100px',
               height: '100px',
               left: '220px',
-              top: '210px',
+              top: '215px',
               borderRadius: '25px',
               background: '#FFF',
               boxShadow: '4px 4px 20.7px 0 rgba(0, 0, 0, 0.20)',
@@ -710,7 +710,7 @@ export default function Settlements() {
             {/* SVG Lines - Right Side */}
             <svg
               className="absolute"
-              style={{ width: '48px', height: '289px', left: '308px', top: '50px' }}
+              style={{ width: '48px', height: '289px', left: '318px', top: '50px' }}
               width="51"
               height="292"
               viewBox="0 0 51 292"
@@ -758,12 +758,13 @@ export default function Settlements() {
               style={{
                 width: '100px',
                 height: '100px',
-                left: '260px',
-                top: '318px',
+                left: '280px',
+                top: '328px',
                 borderRadius: '25px',
                 background: '#FFF',
                 boxShadow: '4px 4px 20.7px 0 rgba(0, 0, 0, 0.20)',
-                padding: '0 12px 0 13px'
+                padding: '0 12px 0 13px',
+                zIndex: 1000,
               }}
             >
               <img
