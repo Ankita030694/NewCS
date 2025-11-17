@@ -137,10 +137,8 @@ export default function AboutPage() {
 
       <div className="relative z-10">
         <div
-          className="container mx-auto"
+          className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20"
           style={{
-            paddingLeft: '12.96px',
-            paddingRight: '12.96px',
             paddingTop: '100px',
             paddingBottom: '12.96px'
           }}
@@ -464,10 +462,8 @@ export default function AboutPage() {
       {/* Timeline Section */}
       <div className="relative z-10">
         <div
-          className="container mx-auto"
+          className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20"
           style={{
-            paddingLeft: '12.96px',
-            paddingRight: '12.96px',
             paddingTop: '50px',
             paddingBottom: '50px'
           }}
@@ -688,10 +684,8 @@ export default function AboutPage() {
       {/* Our Foundational Values Section */}
       <div className="relative z-10">
         <div
-          className="container mx-auto"
+          className="container mx-auto px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20"
           style={{
-            paddingLeft: '12.96px',
-            paddingRight: '12.96px',
             paddingTop: '50px',
             paddingBottom: '12.96px'
           }}
@@ -901,7 +895,7 @@ export default function AboutPage() {
 
       {/* FAQ Section */}
       <section className="w-full py-12">
-        <div className="w-full max-w-7xl mx-auto px-4">
+        <div className="w-full max-w-7xl mx-auto px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20">
           <div className="flex flex-col items-center gap-8 md:gap-14">
             {/* Header and FAQ Items Container */}
             <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
@@ -980,7 +974,7 @@ export default function AboutPage() {
 
       {/* CTA Section */}
       <section className="w-full py-12">
-        <div className="w-full max-w-7xl mx-auto px-4">
+        <div className="w-full max-w-7xl mx-auto px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20">
           <div className="flex flex-col items-center gap-8 md:gap-14">
             <div
               className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
