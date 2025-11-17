@@ -107,12 +107,13 @@ export default function ServicesPageClient() {
           {/* Mobile Page Heading */}
           <div className="block md:hidden text-center mb-6 px-4">
             <h1 
-              className="font-medium text-2xl mb-4"
+              className="font-medium mb-4"
               style={{ 
                 color: '#0C2756',
                 fontFamily: 'Poppins',
-                fontWeight: '400',
-                lineHeight: '28px'
+                fontWeight: '500',
+                lineHeight: '28px',
+                fontSize: '26px'
               }}
             >
               Our High-Impact Services
@@ -1421,7 +1422,7 @@ export default function ServicesPageClient() {
                 <div className="flex flex-col lg:flex-row items-start gap-4 md:gap-6 lg:gap-[76px] w-full">
                   {/* Left: Header Section */}
                   <div className="flex flex-col items-start gap-4 md:gap-[21px] w-full lg:w-[365px]">
-                    <h2 className="text-[28px] leading-[26px] md:leading-[32px] font-medium">
+                    <h2 className="text-[28px] leading-[26px] md:leading-[32px] font-regular">
                       <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We've Got </span>
                       <span style={{ color: '#007AFF' }}>Answers.</span>
                     </h2>
