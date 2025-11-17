@@ -6,7 +6,7 @@ export default function AboutUsSection() {
       <div className="w-full max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-24 py-6 sm:py-8 md:py-12 overflow-x-hidden">
         {/* About Us Heading */}
         <h2 
-          className="font-bold text-center text-2xl sm:text-3xl md:text-4xl lg:text-3xl mb-2 sm:mb-3 md:mb-4" 
+          className="font-bold text-center text-3xl mb-2 sm:mb-3 md:mb-4" 
           style={{color: '#0C2756'}}
         >
           About Us
@@ -23,7 +23,7 @@ export default function AboutUsSection() {
               letterSpacing: '-0.3px',
               marginBottom: '2rem', // manually match mb-8 (md), override below margin classes
             }}
-            className="mb-4 sm:mb-6 md:mb-8 lg:mb-10 text-lg"
+            className="mb-4 sm:mb-6 md:mb-8 lg:mb-10 text-base"
           >
             See How <span className="font-bold">CredSettle</span>  Turns Debt into a Done Deal.
           </h5>

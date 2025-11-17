@@ -66,7 +66,7 @@ export default function Settlements() {
       <section className="w-full py-14 hidden md:block">
         <div className="w-full max-w-7xl mx-auto flex flex-col items-center gap-14">
           <h2 
-            className="text-center font-semibold text-4xl leading-[34px]"
+            className="text-center font-semibold text-3xl leading-[34px]"
             style={{ color: '#0C2756', fontWeight: 500 }}
           >
             Loan Settlement Success Stories:
@@ -543,8 +543,8 @@ export default function Settlements() {
       <section className="w-full py-8 px-5 md:hidden overflow-x-hidden">
         <div className="w-full mx-auto flex flex-col items-center gap-8 overflow-x-hidden">
           <h2
-            className="text-center font-semibold leading-tight"
-            style={{ color: '#0C2756', fontSize: '25px', lineHeight: '25px' }}
+            className="text-center font-semibold leading-tight text-3xl"
+            style={{ color: '#0C2756', lineHeight: '25px' }}
           >
             Settled & Debt-Free: Client Proof
           </h2>

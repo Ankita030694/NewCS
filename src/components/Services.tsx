@@ -72,13 +72,13 @@ export default function Services() {
           {/* Right Aligned Heading and Description */}
           <div className="w-full text-right">
             <h2 
-              className="font-bold text-right text-2xl mb-3" 
+              className="font-bold text-right text-3xl mb-3" 
               style={{ color: '#0C2756' }}
             >
               Our Comprehensive Debt Settlement Services
             </h2>
             <p 
-              className="text-right text-sm" 
+              className="text-right text-base" 
               style={{ color: '#0C2756', opacity: 0.7 }}
             >
               Professional assistance to legally reduce harassment, handle recovery agents, and settle your outstanding debts.
@@ -1019,7 +1019,7 @@ export default function Services() {
         {/* Section Heading */}
         <div className="mb-6">
           <h2 
-            className="font-bold text-center text-2xl md:text-4xl py-4 md:py-8" 
+            className="font-bold text-center text-3xl py-4 md:py-8" 
             style={{ color: '#0C2756', fontWeight: 500 }}
           >
             Improve your Credit Score

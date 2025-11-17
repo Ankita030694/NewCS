@@ -50,10 +50,10 @@ const Testimonials = () => {
     <section className="flex flex-col items-center gap-8 md:gap-14 py-12 px-4 overflow-x-hidden w-full max-w-full">
       {/* Header Section */}
       <div className="flex flex-col items-center gap-4 md:gap-[21px] w-full max-w-[610px]">
-        <h2 className="text-[#0C2756] text-center font-semibold text-2xl md:text-[34px] leading-tight md:leading-[34px]" style={{ fontWeight: 500 }}>
+        <h2 className="text-[#0C2756] text-center font-semibold text-3xl leading-tight md:leading-[34px]" style={{ fontWeight: 500 }}>
           What Our Clients Say
         </h2>
-        <p className="text-[rgba(12,39,86,0.7)] text-center font-normal text-base md:text-[21px] leading-tight md:leading-[21px] tracking-[-0.21px]">
+        <p className="text-[rgba(12,39,86,0.7)] text-center font-normal text-base leading-tight md:leading-[21px] tracking-[-0.21px]">
           Real stories. Real settlements. Real relief from debt harassment.
         </p>
       </div>

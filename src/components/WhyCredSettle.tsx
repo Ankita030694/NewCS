@@ -15,7 +15,7 @@ export default function WhyCredSettle() {
           
           {/* Subheading */}
           <h3 
-            className="font-semibold text-left mb-2 text-lg" 
+            className="font-semibold text-left mb-2 text-base" 
             style={{color: '#0C2756'}}
           >
             Save 50% or More on Your Outstanding Debts <br /> and Achieve Legal Protection.
@@ -232,7 +232,7 @@ export default function WhyCredSettle() {
         <div className="block md:hidden">
           {/* Main Heading - Left Aligned */}
           <h2 
-            className="font-bold text-left text-2xl mb-2" 
+            className="font-bold text-left text-3xl mb-2" 
             style={{color: '#0C2756'}}
           >
             Why CredSettle is India's Most Trusted Loan Settlement Company

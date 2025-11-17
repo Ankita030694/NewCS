@@ -26,11 +26,11 @@ const FAQ = ({ items = homeFaqItems }: FAQProps) => {
           <div className="flex flex-col lg:flex-row items-start gap-4 md:gap-6 lg:gap-[76px] w-full">
             {/* Left: Header Section */}
             <div className="flex flex-col items-start gap-4 md:gap-[21px] w-full lg:w-[365px]">
-              <h2 className="text-[20px] md:text-[24px] lg:text-[32px] leading-[20px] md:leading-[24px] lg:leading-[32px] font-bold">
+              <h2 className="text-3xl leading-[20px] md:leading-[24px] lg:leading-[32px] font-bold">
                 <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We've Got </span>
                 <span style={{ color: '#007AFF' }}>Answers.</span>
               </h2>
-              <p className="text-[12px] md:text-[13px] lg:text-[15px] leading-[12px] md:leading-[13px] lg:leading-[15px] font-normal">
+              <p className="text-base leading-[12px] md:leading-[13px] lg:leading-[15px] font-normal">
                 <span style={{ color: '#0C2756' }}>Still have questions? </span>
                 <Link href="/contact" className="underline" style={{ color: '#007AFF' }}>
                   Contact us
