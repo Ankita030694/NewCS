@@ -106,8 +106,8 @@ export default function HeroSection() {
         }}
       >
           <nav className="w-full bg-transparent">
-            <div className="py-3 md:py-[12.96px]">
-              <div className="flex justify-around items-center">
+            <div className="py-3 md:py-[12.96px] md:px-[70px]">
+              <div className="flex justify-between items-center">
                 {/* Left Column - Logo */}
                 <div className="flex-shrink-0">
                   <a href="/" onClick={closeMenu}>
