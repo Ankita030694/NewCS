@@ -397,7 +397,7 @@ export default function WhyCredSettle() {
                 alt="Zero Harassment" 
                 className="absolute bottom-0 right-0"
                 style={{ 
-                  width: '60px',
+                  width: '100px',
                   height: 'auto',
                   objectFit: 'contain'
                 }}
@@ -434,7 +434,7 @@ export default function WhyCredSettle() {
                 alt="Peace of Mind" 
                 className="absolute bottom-0 right-0"
                 style={{ 
-                  width: '80px',
+                  width: '100px',
                   height: 'auto',
                   objectFit: 'contain'
                 }}

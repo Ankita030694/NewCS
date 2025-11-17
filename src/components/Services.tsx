@@ -57,16 +57,7 @@ export default function Services() {
             }}
           >
             {/* Breathing Blue Dot */}
-            <div 
-              className="rounded-full animate-pulse"
-              style={{
-                width: '12px',
-                height: '12px',
-                background: '#007AFF',
-                animation: 'breathe 2s ease-in-out infinite'
-              }}
-            ></div>
-            See All services
+            <a href="/services" className="flex items-center gap-3"><div className="rounded-full animate-pulse" style={{width:'12px',height:'12px',background:'#007AFF',animation:'breathe 2s ease-in-out infinite'}}></div>See All services</a>
           </div>
 
           {/* Right Aligned Heading and Description */}
@@ -331,7 +322,7 @@ export default function Services() {
                     height: '35px'
                   }}
                 >
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 ml-3">
                     <span
                       style={{
                         color: '#FFF',
@@ -345,7 +336,7 @@ export default function Services() {
                     >
                       View More
                     </span>
-                    <svg width="14" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="10" height="10" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.3137 0.999123V10.6966M12.3137 0.999123H2.61623M12.3137 0.999123L0.999989 12.3128" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                   </div>
