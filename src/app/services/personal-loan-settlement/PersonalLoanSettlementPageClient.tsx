@@ -778,7 +778,7 @@ export default function PersonalLoanSettlementPageClient() {
                     boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
                   }}
                 >
-                  <h3 className="text-[30px] md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>12,500+</h3>
+                  <h3 className="text-[30px] md:text-xl lg:text-[30px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>12,500+</h3>
                   <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                     Successful Settlements Secured  Families and businesses transitioned from debt struggle to financial freedom.
                   </p>

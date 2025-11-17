@@ -587,7 +587,7 @@ export default function CreditCardSettlementPage() {
               <div className="grid grid-cols-2 gap-4 relative z-10">
                 {['15,000+','4.9/5','₹ 850 Cr+','100%'].map((stat, idx) => (
                   <div key={idx} className="px-4 md:px-5 lg:px-[22px] py-6 md:py-8 lg:py-12" style={{ borderRadius: '40px', background: 'rgba(239, 247, 255, 0.30)', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)' }}>
-                    <h3 className="text-lg md:text-xl lg:text-[34px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>{stat}</h3>
+                    <h3 className="text-lg md:text-xl lg:text-[30px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>{stat}</h3>
                     <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
                       {idx===0 && 'Successful Settlements Secured for cardholders across India.'}
                       {idx===1 && 'Client Satisfaction Rating from verified reviews and testimonials.'}
