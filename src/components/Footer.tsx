@@ -66,6 +66,7 @@ export default function Footer() {
                 <h3 className="text-[#0C2756] text-sm md:text-base font-bold leading-tight">
                   Contact
                 </h3>
+                <a href = "https://maps.app.goo.gl/Uqcz1TTYyiqjcQC7A" target="_blank" rel="noopener noreferrer">
                 <div className="flex flex-col gap-2 md:gap-3">
                   <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-relaxed">
                     4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
@@ -73,6 +74,7 @@ export default function Footer() {
                   <a href="/terms-and-conditions" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Terms & Conditions</a>
                   <a href="/privacy-policy" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Privacy Policy</a>
                 </div>
+                </a>
               </div>
             </div>
           </div>
@@ -85,9 +87,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mx-auto mt-4 md:mt-8 mb-0 pb-0 relative overflow-hidden">
+      <div className="w-full mt-4 md:mt-8 mb-0 pb-0 relative overflow-hidden">
         <h2 
-          className="text-center text-[clamp(48px,15vw,200px)] font-normal leading-none -mb-5 md:-mb-12 lg:-mb-[50px] overflow-hidden whitespace-normal break-words w-full max-w-full mx-auto px-4 select-none"
+          className="text-center text-[clamp(58px,16vw,350px)] font-normal leading-none -mb-5 md:-mb-12 lg:-mb-[50px] overflow-hidden whitespace-normal break-words w-full max-w-full mx-auto px-4 select-none"
           style={{ 
             background: 'linear-gradient(180deg, #007AFF 0%, #EFF7FF 72.39%)',
             WebkitBackgroundClip: 'text',

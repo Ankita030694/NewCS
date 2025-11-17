@@ -118,7 +118,7 @@ const FAQ = ({ items = homeFaqItems }: FAQProps) => {
               </div>
 
               {/* CTA Button */}
-              <CTAButton className="w-full max-w-[280px] md:max-w-none">
+              <CTAButton className="w-full max-w-[280px] md:max-w-[300px]">
                 Get Your Free Consultation
               </CTAButton>
             </div>

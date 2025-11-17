@@ -167,7 +167,7 @@ export default function WhyCredSettle() {
                     src="/why4.png" 
                     alt="Zero Harassment" 
                     style={{ 
-                      maxWidth: '45px',
+                      maxWidth: '65px',
                       height: 'auto',
                       flexShrink: 0,
                       margin: '0',
@@ -201,7 +201,7 @@ export default function WhyCredSettle() {
                     src="/why5.png" 
                     alt="Peace of Mind" 
                     style={{ 
-                      maxWidth: '72px',
+                      maxWidth: '102px',
                       height: 'auto',
                       flexShrink: 0,
                       margin: '0',

@@ -12,12 +12,22 @@ export default function AboutUsSection() {
           About Us
         </h2>
           {/* Bottom Heading */}
-          <h5 
-          className="font-bold text-center mb-4 sm:mb-6 md:mb-8 lg:mb-10 text-sm sm:text-base md:text-lg" 
-          style={{color: '#0C2756'}}
-        >
-          See How CredSettle Turns Debt into a Done Deal.
-        </h5>
+          <h5
+            style={{
+              color: 'rgba(12, 39, 86, 0.70)',
+              textAlign: 'center',
+              fontFamily: 'Poppins, sans-serif',
+              fontSize: '20px',
+              fontStyle: 'normal',
+              fontWeight: 500,
+              lineHeight: '30px',
+              letterSpacing: '-0.3px',
+              marginBottom: '2rem', // manually match mb-8 (md), override below margin classes
+            }}
+            className="mb-4 sm:mb-6 md:mb-8 lg:mb-10"
+          >
+            See How <span className="font-bold">CredSettle</span>  Turns Debt into a Done Deal.
+          </h5>
 
         {/* 3 Cards Grid - CURRENT VERSION (COMMENTED) */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-4 sm:mb-5 md:mb-6 -mt-2 sm:-mt-3">

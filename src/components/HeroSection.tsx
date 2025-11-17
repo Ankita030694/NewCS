@@ -93,7 +93,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <div className="relative min-h-screen overflow-x-hidden" style={{paddingTop: '16.2px', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <div className="relative min-h-screen overflow-x-hidden" style={{paddingTop: '16.2px', backgroundImage: 'url(/hero-bg.png)', backgroundSize: 'contain', backgroundPosition: 'center'}}>
       <div
         style={{
           position: 'relative',
@@ -279,10 +279,16 @@ export default function HeroSection() {
         </div>
         <a
           href="/contact"
-          className="bg-[#0044bc] text-white font-light px-9 py-3 md:px-[19.44px] md:py-[6.48px] text-lg md:text-lg rounded-[32.4px] inline-block"
+          className="bg-[#0044bc] text-white font-light px-[2.925rem] py-[1.0125rem] md:px-[25.272px] md:py-[8.424px] text-[1.5625rem] md:text-[1.5625rem] rounded-[42.12px] inline-block"
           style={{
             boxShadow:
-              "0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset"
+              "0 1.17px 7.956px 0 rgba(0, 0, 0, 0.35), 0 -4.68px 4.68px 0 rgba(255, 255, 255, 0.25) inset, 0 4.68px 4.68px 0 rgba(255, 255, 255, 0.25) inset",
+            fontSize: "1.5625rem", // 30% larger than 1.2rem/text-lg (~1.25rem)
+            paddingLeft: "2.925rem", // 30% larger than 2.25rem (9 * 1.3 = 11.7px * 1.3 = 15.21px; but since px-9 ~2.25rem, 2.25*1.3 ≈ 2.925rem)
+            paddingRight: "2.925rem",
+            paddingTop: "1.0125rem", // 30% larger than 0.75rem
+            paddingBottom: "1.0125rem",
+            borderRadius: "42.12px" // 30% larger than 32.4px
           }}
         >
           Register Now

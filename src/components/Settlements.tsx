@@ -80,7 +80,7 @@ export default function Settlements() {
           {/* Animated SVG paths */}
           <svg 
             className="absolute"
-            style={{ width: '114px', height: '69px', left: '400px', top: '180px' }}
+            style={{ width: '220px', height: '69px', left: '350px', top: '180px' }}
             width="114" 
             height="74" 
             viewBox="0 0 149 95" 
@@ -107,7 +107,7 @@ export default function Settlements() {
 
           <svg 
             className="absolute"
-            style={{ width: '114px', height: '75px', left: '400px', top: '250px' }}
+            style={{ width: '220px', height: '75px', left: '350px', top: '250px' }}
             width="114" 
             height="78" 
             viewBox="0 0 149 102" 
@@ -223,7 +223,7 @@ export default function Settlements() {
 
           <svg 
             className="absolute"
-            style={{ width: '124px', height: '4px', left: '635px', top: '250px' }}
+            style={{ width: '200px', height: '4px', left: '597px', top: '250px' }}
             width="124" 
             height="4" 
             viewBox="0 0 113 4" 
@@ -376,7 +376,7 @@ export default function Settlements() {
             <img 
               src={bankCards[6].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
-              style={{ width: '151px', height: '81px', marginLeft: '8px', marginTop: '0' }}
+              style={{ width: '101px', height: '71px', marginLeft: '4px', marginTop: '0' }}
             />
           </div>
 
@@ -487,8 +487,8 @@ export default function Settlements() {
             style={{ 
               width: '176px', 
               height: '227px', 
-              left: '970px', 
-              top: '0px',
+              left: '995px', 
+              top: '-50px',
               borderRadius: '23px',
               background: '#FFF',
               boxShadow: '3px 3px 16px 0 rgba(0, 0, 0, 0.20)',

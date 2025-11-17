@@ -127,11 +127,11 @@ export default function Services() {
                   <div className="flex justify-end mt-1">
                     <a 
                       href="/services/anti-harassment"
-                      className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
+                      className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
                       style={{ background: '#007AFF' }}
                     >
                       View More
-                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </a>
@@ -498,10 +498,10 @@ export default function Services() {
             </p>
             <div className="flex justify-end mt-4">
               <div 
-                className="w-8 h-8 rounded-full flex items-center justify-center"
+                className="w-10 h-10 rounded-md flex items-center justify-center"
                 style={{ background: '#007AFF' }}
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
@@ -543,10 +543,10 @@ export default function Services() {
             </p>
             <div className="flex justify-end mt-4">
               <div 
-                className="w-8 h-8 rounded-full flex items-center justify-center"
+                className="w-10 h-10 rounded-md flex items-center justify-center"
                 style={{ background: '#007AFF' }}
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
@@ -587,10 +587,10 @@ export default function Services() {
             </p>
             <div className="flex justify-end mt-4">
               <div 
-                className="w-8 h-8 rounded-full flex items-center justify-center"
+                className="w-10 h-10 rounded-md flex items-center justify-center"
                 style={{ background: '#007AFF' }}
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
@@ -631,10 +631,10 @@ export default function Services() {
             </p>
             <div className="flex justify-end mt-4">
               <div 
-                className="w-8 h-8 rounded-full flex items-center justify-center"
+                className="w-10 h-10 rounded-md flex items-center justify-center"
                 style={{ background: '#007AFF' }}
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
@@ -675,10 +675,10 @@ export default function Services() {
             </p>
             <div className="flex justify-end mt-4">
               <div 
-                className="w-8 h-8 rounded-full flex items-center justify-center"
+                className="w-10 h-10 rounded-md flex items-center justify-center"
                 style={{ background: '#007AFF' }}
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
@@ -719,10 +719,10 @@ export default function Services() {
             </p>
             <div className="flex justify-end mt-4">
               <div 
-                className="w-8 h-8 rounded-full flex items-center justify-center"
+                className="w-10 h-10 rounded-md flex items-center justify-center"
                 style={{ background: '#007AFF' }}
               >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
@@ -1064,11 +1064,11 @@ export default function Services() {
             <div className="flex justify-end mt-6">
               <Link
                 href="/services/credit-score-builder"
-                className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
+                className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
                 style={{ background: '#007AFF' }}
               >
                 View More
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </Link>
