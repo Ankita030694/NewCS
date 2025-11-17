@@ -60,7 +60,7 @@ export default function ServicesPageClient() {
             WebkitFilter: 'blur(400px)', // Safari/Chrome compatibility
             transform: 'translate(-50%, -50%)',
             zIndex: 0,
-            opacity: 0.6,
+            opacity: 0.3,
             willChange: 'filter', // Optimize for animations
             backfaceVisibility: 'hidden' // Force hardware acceleration
           }}
@@ -367,7 +367,7 @@ export default function ServicesPageClient() {
                           height: '35px'
                         }}
                       >
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-2 ml-3">
                           <span
                             style={{
                               color: '#FFF',
@@ -391,29 +391,13 @@ export default function ServicesPageClient() {
 
                   {/* Services Container with SVG Lines */}
                   <div
-                    className="relative w-full mt-4 pl-8"
+                    className="relative w-full mt-4"
                     style={{
                       minHeight: '331px'
                     }}
                   >
                     {/* Connecting Lines SVG */}
-                    <svg
-                      className="absolute"
-                      style={{
-                        width: '31px',
-                        height: '100%',
-                        left: '0px',
-                        top: '0px'
-                      }}
-                      viewBox="0 0 32 285"
-                      fill="none"
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M1 0V68C1 76.2843 7.71573 83 16 83H32" stroke="#0C2756" strokeOpacity="0.4" strokeWidth="2"/>
-                      <path d="M1 66V166C1 174.284 7.71573 181 16 181H32" stroke="#0C2756" strokeOpacity="0.4" strokeWidth="2"/>
-                      <path d="M1 149V269C1 277.284 7.71573 284 16 284H32" stroke="#0C2756" strokeOpacity="0.4" strokeWidth="2"/>
-                    </svg>
+                
 
                     {/* Service Cards */}
                     <div
@@ -931,10 +915,10 @@ export default function ServicesPageClient() {
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
                       <div 
-                        className="w-8 h-8 rounded-full flex items-center justify-center"
+                        className="w-8 h-8 rounded-md flex items-center justify-center"
                         style={{ background: '#007AFF' }}
                       >
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                       </div>
@@ -1004,10 +988,10 @@ export default function ServicesPageClient() {
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
                       <div 
-                        className="w-8 h-8 rounded-full flex items-center justify-center"
+                        className="w-8 h-8 rounded-md flex items-center justify-center"
                         style={{ background: '#007AFF' }}
                       >
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                       </div>
@@ -1077,10 +1061,10 @@ export default function ServicesPageClient() {
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
                       <div 
-                        className="w-8 h-8 rounded-full flex items-center justify-center"
+                        className="w-8 h-8 rounded-md flex items-center justify-center"
                         style={{ background: '#007AFF' }}
                       >
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                       </div>
@@ -1150,10 +1134,10 @@ export default function ServicesPageClient() {
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
                       <div 
-                        className="w-8 h-8 rounded-full flex items-center justify-center"
+                        className="w-8 h-8 rounded-md flex items-center justify-center"
                         style={{ background: '#007AFF' }}
                       >
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                       </div>
@@ -1223,10 +1207,10 @@ export default function ServicesPageClient() {
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
                       <div 
-                        className="w-8 h-8 rounded-full flex items-center justify-center"
+                        className="w-8 h-8 rounded-md flex items-center justify-center"
                         style={{ background: '#007AFF' }}
                       >
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                       </div>
@@ -1296,10 +1280,10 @@ export default function ServicesPageClient() {
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
                       <div 
-                        className="w-8 h-8 rounded-full flex items-center justify-center"
+                        className="w-8 h-8 rounded-md flex items-center justify-center"
                         style={{ background: '#007AFF' }}
                       >
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                       </div>
@@ -1415,11 +1399,11 @@ export default function ServicesPageClient() {
                 <div className="flex justify-end mt-2">
                   <a href="/services/credit-score-builder" className="block no-underline" style={{ color: 'inherit' }}>
                     <button 
-                      className="px-6 py-3 rounded-full text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
+                      className="px-6 py-3 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
                       style={{ background: '#007AFF' }}
                     >
                       View More
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                       </svg>
                     </button>
@@ -1430,19 +1414,19 @@ export default function ServicesPageClient() {
           </section>
 
           {/* FAQ Section */}
-          <section className="w-full py-12">
+          <section className="w-full py-8 md:py-12">
             <div className="w-full max-w-7xl mx-auto px-4">
-              <div className="flex flex-col items-center gap-8 md:gap-14">
+              <div className="flex flex-col items-center gap-6 md:gap-14">
                 {/* Header and FAQ Items Container */}
-                <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
+                <div className="flex flex-col lg:flex-row items-start gap-4 md:gap-6 lg:gap-[76px] w-full">
                   {/* Left: Header Section */}
-                  <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
-                    <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-medium">
+                  <div className="flex flex-col items-start gap-4 md:gap-[21px] w-full lg:w-[365px]">
+                    <h2 className="text-[28px] leading-[26px] md:leading-[32px] font-medium">
                       <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We've Got </span>
                       <span style={{ color: '#007AFF' }}>Answers.</span>
                     </h2>
-                    <a href="/contact" className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
-                    <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
+                    <a href="/contact" className="text-[12px] md:text-[15px] leading-[14px] md:leading-[15px] font-normal">
+                    <p className="text-[12px] md:text-[15px] leading-[14px] md:leading-[15px] font-normal">
                       <span style={{ color: '#0C2756' }}>Still have questions? </span>
                       <span style={{ color: '#007AFF', textDecoration: 'underline' }}>Contact us</span>
                       <span style={{ color: '#0C2756' }}> anytime.</span>
@@ -1452,16 +1436,16 @@ export default function ServicesPageClient() {
 
 
                   {/* Right: FAQ Items - Aligned to right end */}
-                  <div className="w-full lg:w-[800px] lg:ml-auto p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
-                    <div className="flex flex-col gap-4">
+                  <div className="w-full lg:w-[800px] lg:ml-auto p-3 md:p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
+                    <div className="flex flex-col gap-3 md:gap-4">
                       {faqs.map((faq, index) => (
                         <div
                           key={index}
                           className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden"
                           onClick={() => toggleFAQ(index)}
                           >
-                          <div className="flex justify-between items-start gap-[49px] p-[21px_28px]">
-                            <p className="text-[13px] md:text-[14px] leading-[13px] md:leading-[14px] font-normal flex-1" style={{ color: '#0C2756' }}>
+                          <div className="flex justify-between items-start gap-3 md:gap-[49px] p-3 md:p-[21px_28px]">
+                            <p className="text-[12px] md:text-[14px] leading-[14px] md:leading-[14px] font-normal flex-1" style={{ color: '#0C2756' }}>
                               {faq.question}
                             </p>
                             <div className="flex-shrink-0 w-[16px] h-[16px] relative">
@@ -1484,18 +1468,16 @@ export default function ServicesPageClient() {
                             </div>
                           </div>
                           <div 
-                            className="transition-all duration-500 ease-in-out overflow-hidden"
+                            className={`transition-all duration-500 ease-in-out overflow-hidden px-3 md:px-7 ${
+                              openIndex === index ? 'pt-2 pb-3 md:pt-3 md:pb-[21px]' : 'pt-0 pb-0'
+                            }`}
                             style={{
                               maxHeight: openIndex === index ? '200px' : '0px',
-                              opacity: openIndex === index ? 1 : 0,
-                              paddingTop: openIndex === index ? '12px' : '0px',
-                              paddingBottom: openIndex === index ? '21px' : '0px',
-                              paddingLeft: '28px',
-                              paddingRight: '28px'
+                              opacity: openIndex === index ? 1 : 0
                             }}
                           >
-                            <div className="border-t border-gray-200 pt-3">
-                              <p className="text-[11px] md:text-[13px] leading-[14px] md:leading-[15px] font-normal" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
+                            <div className="border-t border-gray-200 pt-2 md:pt-3">
+                              <p className="text-[10px] md:text-[13px] leading-[13px] md:leading-[15px] font-normal" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
                                 {faq.answer}
                               </p>
                             </div>

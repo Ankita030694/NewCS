@@ -125,8 +125,8 @@ export default function Home() {
       <HeroSection />
       <AboutUsSection />
       <WhyCredSettle />
-      <Services />
       <Settlements />
+      <Services />
       <Testimonials />
       <Blogs />
       <FAQ />

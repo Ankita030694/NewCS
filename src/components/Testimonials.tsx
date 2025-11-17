@@ -125,15 +125,24 @@ const Testimonials = () => {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-[280px] rounded-[28px] bg-[rgba(239,247,255,0.7)] shadow-[3px_3px_11px_0_rgba(0,0,0,0.1)] overflow-hidden"
+                className="flex-shrink-0 w-[280px] rounded-[28px] bg-[rgba(239,247,255,0.7)] shadow-[3px_3px_11px_0_rgba(0,0,0,0.1)] overflow-hidden relative"
                 style={{ scrollSnapAlign: 'start' }}
               >
                 {/* Image */}
-                <div className="w-full h-[250px] overflow-hidden flex items-center justify-center bg-[rgba(239,247,255,0.3)]">
+                <div className="w-full h-[250px] overflow-hidden flex items-center justify-center bg-[rgba(239,247,255,0.3)] relative">
                   <img
                     src={testimonial.image}
                     alt={`${testimonial.name} testimonial`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
+                  />
+                  
+                  {/* Gradient Blur at Bottom of Image */}
+                  <div
+                    className="absolute w-full h-[80px] bottom-0"
+                    style={{
+                      background: 'linear-gradient(to bottom, rgba(239, 247, 255, 0) 0%, rgba(239, 247, 255, 0.6) 50%, rgba(239, 247, 255, 1) 100%)',
+                      zIndex: 1
+                    }}
                   />
                 </div>
 
