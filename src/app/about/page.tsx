@@ -142,9 +142,9 @@ export default function AboutPage() {
             paddingBottom: '12.96px'
           }}
         >
-          <div className="flex flex-col lg:flex-row items-start justify-between">
+          <div className="flex flex-col lg:flex-row items-start justify-between gap-6">
             {/* Left Column - Heading, Copy, CTA */}
-            <div className="flex-shrink-0 w-full lg:w-auto" style={{width: 'clamp(100%, 50%, 600px)', maxWidth: '100%'}}>
+            <div className="flex-shrink-0 w-full lg:w-auto lg:max-w-[600px] lg:flex-1">
             
               <h3
                 className="mb-4 -mt-10"
