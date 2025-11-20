@@ -69,7 +69,7 @@ const BlogsDashboard = () => {
     metaDescription: '',
     slug: '',
     faqs: [],
-    author: 'Anuj Anand Malik',
+    author: 'CredSettle Team',
   });
   const [uploading, setUploading] = useState(false);
   const [uploadProgress, setUploadProgress] = useState(0);
@@ -151,7 +151,7 @@ const BlogsDashboard = () => {
             metaDescription: docData.metaDescription || '',
             slug: docData.slug || '',
             faqs: docData.faqs || [],
-            author: docData.author || 'Anuj Anand Malik',
+            author: docData.author || 'CredSettle Team',
           };
         });
 
@@ -427,7 +427,7 @@ const BlogsDashboard = () => {
           metaDescription: docData.metaDescription || '',
           slug: docData.slug || '',
           faqs: [],
-          author: docData.author || 'Anuj Anand Malik',
+          author: docData.author || 'CredSettle Team',
         };
       });
       setBlogs(updatedBlogs);
@@ -517,7 +517,7 @@ const BlogsDashboard = () => {
       metaDescription: '',
       slug: '',
       faqs: [],
-      author: 'Anuj Anand Malik',
+      author: 'CredSettle Team',
     });
     setFormMode('add');
     setShowBlogForm(false);
@@ -820,8 +820,7 @@ const BlogsDashboard = () => {
                         required
                         className="w-full px-4 py-3 bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all"
                       >
-                        <option value="Anuj Anand Malik">Anuj Anand Malik</option>
-                        <option value="Shrey Arora">Shrey Arora</option>
+                        <option value="CredSettle Team">CredSettle Team</option>
                       </select>
                     </div>
                   </div>
