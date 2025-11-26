@@ -92,6 +92,9 @@ export default function ContactPage() {
 
     if (!formData.number) {
       newErrors.number = 'Mobile number is required';
+    } else if (formData.number.startsWith('0')) {
+      setNumberError('Mobile number cannot start with 0.');
+      return false;
     } else if (formData.number.length !== 10) {
       setNumberError('Please enter a valid 10-digit number.');
       return false;
