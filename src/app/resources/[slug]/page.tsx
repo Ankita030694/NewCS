@@ -47,14 +47,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const descriptionFallback =
     blog.metaDescription || blog.subtitle || stripHtml(blog.description).slice(0, 160);
 
+  const DEFAULT_META_TITLE = 'CredSettle Blog | Expert Debt Relief Insights';
+  const effectiveTitle =
+    blog.metaTitle && blog.metaTitle.trim() !== '' && blog.metaTitle !== DEFAULT_META_TITLE
+      ? blog.metaTitle
+      : blog.title;
+
   return {
-    title: blog.metaTitle || blog.title,
+    title: effectiveTitle,
     description: descriptionFallback,
     alternates: {
       canonical: canonicalUrl
     },
     openGraph: {
-      title: blog.metaTitle || blog.title,
+      title: effectiveTitle,
       description: descriptionFallback,
       type: 'article',
       url: canonicalUrl,
@@ -62,7 +68,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: blog.metaTitle || blog.title,
+      title: effectiveTitle,
       description: descriptionFallback,
       images: blog.image ? [blog.image] : undefined
     }
