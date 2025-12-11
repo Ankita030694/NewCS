@@ -240,7 +240,7 @@ export default function WestBengalPageClient() {
                     Kolkata blends Salt Lake technology salaries, Park Street services, Burrabazar wholesale trade and Howrah industries. Families borrow for marriages, higher education, medical care and home upgrades. When layoffs, business slowdowns or health expenses hit, most households juggle multiple personal loans at once.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Once an account crosses 90 days overdue, recovery calls start daily and visits follow. Settlement breaks that cycle—banks prefer a 40-70% recovery today over years of litigation. Our legal desk knows Bengal lending culture and negotiates using sector data plus hardship proof so you regain financial stability.
+                    Once an account crosses 90 days overdue, recovery calls start daily and visits follow. Settlement breaks that cycle - banks prefer a 40-70% recovery today over years of litigation. Our legal desk knows Bengal lending culture and negotiates using sector data plus hardship proof so you regain financial stability.
                   </p>
                 </div>
               </section>
@@ -594,7 +594,7 @@ export default function WestBengalPageClient() {
                     <strong>Our Intervention:</strong> Legal notices halted harassment within five days. Negotiations with Bandhan Bank, two NBFCs and card issuers closed at 42-48% of dues using sales data and lockdown evidence.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Outcome:</strong> Final payout was ₹11.8 lakh—saving ₹14.2 lakh. All lenders issued NOCs within 30 days and Debashis rebuilt his CIBIL score to 665 in a year.
+                    <strong>Outcome:</strong> Final payout was ₹11.8 lakh - saving ₹14.2 lakh. All lenders issued NOCs within 30 days and Debashis rebuilt his CIBIL score to 665 in a year.
                   </p>
                 </div>
               </section>

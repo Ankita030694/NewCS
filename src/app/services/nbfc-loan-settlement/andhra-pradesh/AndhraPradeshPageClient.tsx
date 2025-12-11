@@ -129,7 +129,7 @@ const sections = [
     title: 'Payment Architecture & Compliance',
     level: 2,
     content: [
-      "We build settlement schedules aligned with seasonal inflows—paddy auctions, festival retail peaks, export remittances, or pilgrimage tourism cycles.",
+      "We build settlement schedules aligned with seasonal inflows-paddy auctions, festival retail peaks, export remittances, or pilgrimage tourism cycles.",
       "Payments move via NEFT/RTGS or demand drafts from Andhra Bank/Union Bank, SBI, or cooperative banks. Acknowledgement letters are demanded within 24 hours to prevent disputes.",
       "Post-dated cheques, if unavoidable, include destruction clauses in the settlement letter. We ensure TDS implications on waivers are documented and Form 26AS matches the NBFC’s reporting."
     ]

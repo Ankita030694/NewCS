@@ -169,15 +169,15 @@ function generateKeywords(bankName: string): string[] {
 // Generate content for a bank (with fallback)
 export function getBankContentWithFallback(bankSlug: string): BankContent {
   const generatedContent = generateBankContent(bankSlug) as Partial<BankContent>;
-  
+
   // Find bank name from slug
   const bankEntry = allBankNames.find(
     bank => generateBankSlug(bank) === bankSlug
   );
-  
+
   const bankName = bankEntry || bankSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
   const slug = bankSlug;
-  
+
   // Default/fallback content structure
   const defaultContent: BankContent = {
     bankName,
@@ -189,10 +189,10 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     heroDescription: `Expert legal assistance to settle your ${bankName} car loan dues through RBI-compliant One-Time Settlement (OTS). Stop harassment, prevent vehicle repossession, and achieve debt freedom with CredSettle's lawyer panel.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `Car loan debt can become overwhelming when EMIs become unmanageable. When ${bankName} car loan dues accumulate, settlement offers a legal, dignified path to debt freedom while protecting your vehicle. CredSettle helps borrowers across India negotiate RBI-compliant settlements with ${bankName}, typically reducing outstanding dues by 30-70% while ensuring complete legal protection and preventing vehicle repossession.`,
     understandingSettlement: generatedContent?.understandingSettlement || `${bankName} car loan settlement follows RBI's One-Time Settlement (OTS) framework, allowing borrowers to negotiate reduced lump-sum payments to permanently close car loan accounts. CredSettle's legal team initiates formal settlement discussions with ${bankName}, presenting financial hardship cases supported by documentation. Settlement involves formal negotiation, legal documentation, structured payment schedules, and issuance of final closure letters confirming zero balance and vehicle hypothecation removal.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides end-to-end legal support for ${bankName} car loan settlements through our experienced lawyer panel. We analyze your financial situation, prepare structured OTS proposals, handle all negotiations, and guide you through payment execution and documentation. Importantly, CredSettle assists you to settle your car loan dues for up to 50% of your outstanding amount—including our fees. This means genuine debt relief with complete legal protection and vehicle ownership preservation.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settlement with ${bankName} will impact your CIBIL score—CredSettle provides transparent information upfront. The account status changes to "Settled," typically reducing scores by 50-150 points temporarily. However, this impact is manageable: with CredSettle's credit rehabilitation guidance, scores typically recover to 650-700+ within 2-3 years. The alternative—continuing defaults or vehicle repossession—keeps scores below 400-500 indefinitely, making recovery impossible.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides end-to-end legal support for ${bankName} car loan settlements through our experienced lawyer panel. We analyze your financial situation, prepare structured OTS proposals, handle all negotiations, and guide you through payment execution and documentation. Importantly, CredSettle assists you to settle your car loan dues for up to 50% of your outstanding amount-including our fees. This means genuine debt relief with complete legal protection and vehicle ownership preservation.`,
+    cibilImpact: generatedContent?.cibilImpact || `Settlement with ${bankName} will impact your CIBIL score-CredSettle provides transparent information upfront. The account status changes to "Settled," typically reducing scores by 50-150 points temporarily. However, this impact is manageable: with CredSettle's credit rehabilitation guidance, scores typically recover to 650-700+ within 2-3 years. The alternative-continuing defaults or vehicle repossession-keeps scores below 400-500 indefinitely, making recovery impossible.`,
     whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle stands apart through legal expertise, RBI compliance, and client-focused service. Our lawyer panel includes experienced attorneys specializing in banking law and debt resolution. We've successfully negotiated hundreds of ${bankName} car loan settlements, achieving average principal reductions of 40-55% while ensuring complete legal closure and vehicle hypothecation removal. Our end-to-end assistance means you don't deal with recovery agents or complex documentation alone.`,
-    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Initial Inquiry & Consultation — Contact CredSettle for free preliminary consultation. Step 2: Lawyer Panel Assignment & Case Analysis — Comprehensive review of your ${bankName} car loan details. Step 3: OTS Proposal Preparation & Submission — Structured proposal to ${bankName}. Step 4: Negotiation & OTS Approval — Professional negotiation handling. Step 5: Payment Execution & Settlement Completion — Guided payment and documentation. Step 6: Post-Settlement Support & Credit Rehabilitation — Credit rebuilding guidance and vehicle hypothecation removal.`,
+    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Initial Inquiry & Consultation - Contact CredSettle for free preliminary consultation. Step 2: Lawyer Panel Assignment & Case Analysis - Comprehensive review of your ${bankName} car loan details. Step 3: OTS Proposal Preparation & Submission - Structured proposal to ${bankName}. Step 4: Negotiation & OTS Approval - Professional negotiation handling. Step 5: Payment Execution & Settlement Completion - Guided payment and documentation. Step 6: Post-Settlement Support & Credit Rehabilitation - Credit rebuilding guidance and vehicle hypothecation removal.`,
     documentsRequired: generatedContent?.documentsRequired || `Essential documents include: original car loan agreement, latest loan statement, vehicle RC copy, identity proof, address proof, income proof, default notices, hardship documentation, bank statements, employment proof, and any previous settlement proposals. CredSettle's legal team reviews all documents and prepares them in formats preferred by ${bankName}.`,
     faqs: generatedContent?.faqs || [
       {

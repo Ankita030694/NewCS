@@ -363,7 +363,7 @@ export default function CreditCardSettlementPage() {
                 <li style={{ marginBottom: '8px' }}><strong>Month 1:</strong> You have ₹1,00,000 outstanding. Interest rate is 3.5% per month (42% annually). Interest charged: ₹3,500. You pay minimum due ₹5,000. New balance: ₹98,500.</li>
                 <li style={{ marginBottom: '8px' }}><strong>Month 2:</strong> Interest on ₹98,500 = ₹3,447. You pay ₹5,000. New balance: ₹96,947.</li>
                 <li style={{ marginBottom: '8px' }}><strong>After 12 months</strong> of minimum payments: You've paid ₹60,000 total, but your balance is still ₹79,000 because ₹39,000 went to interest alone.</li>
-                <li><strong>The problem:</strong> At this rate, it would take 8+ years to clear the debt while paying nearly ₹2,50,000 total—2.5X the original amount!</li>
+                <li><strong>The problem:</strong> At this rate, it would take 8+ years to clear the debt while paying nearly ₹2,50,000 total-2.5X the original amount!</li>
               </ul>
             </div>
 
@@ -745,7 +745,7 @@ export default function CreditCardSettlementPage() {
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>Ready to Close Your Credit Card Legally?</h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Secure an RBI-compliant One-Time Settlement and end compounding interest—start today.</p>
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Secure an RBI-compliant One-Time Settlement and end compounding interest-start today.</p>
                   </div>
                   <CTAButton>
                     Get Your Free Consultation

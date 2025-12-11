@@ -267,7 +267,7 @@ export function getAllStateSlugs(): string[] {
 export function generateDefaultContent(stateName: string, slug: string): StateContent {
   const comprehensiveContent = generateNBFCLoanContent(slug) as Partial<StateContent>;
   const cityName = stateName.split(' ')[0];
-  
+
   const defaultContent: StateContent = {
     stateName,
     slug,
@@ -306,7 +306,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
       },
       {
         question: `How much does NBFC settlement cost in ${stateName}?`,
-        answer: `We charge success-based fees only after settlement is achieved—no upfront costs. Contact us for a free consultation specific to your ${stateName} NBFC loan situation.`
+        answer: `We charge success-based fees only after settlement is achieved-no upfront costs. Contact us for a free consultation specific to your ${stateName} NBFC loan situation.`
       }
     ],
     keywords: comprehensiveContent.keywords || [`NBFC loan settlement in ${stateName}`, `NBFC debt settlement ${stateName}`, `settle NBFC loan ${stateName}`, `RBI compliant NBFC settlement ${stateName}`],

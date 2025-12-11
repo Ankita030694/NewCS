@@ -240,7 +240,7 @@ export default function UttarPradeshPageClient() {
                     Lucknow salaries, Kanpur factory cycles, Agra tourism swings and Varanasi pilgrim seasons feed very different repayment risks. Families routinely juggle wedding loans, medical borrowing and business capital; once income slows, every EMI becomes a burden and recovery teams start calling relatives or visiting workplaces.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We combine hardship evidence with local data—government salary delays, industrial output drops, tourism statistics—to win 40-70% settlements before lenders pursue crowded UP courts. Results: harassment stops, debt shrinks and you restart finances with clean paperwork.
+                    We combine hardship evidence with local data - government salary delays, industrial output drops, tourism statistics - to win 40-70% settlements before lenders pursue crowded UP courts. Results: harassment stops, debt shrinks and you restart finances with clean paperwork.
                   </p>
                 </div>
               </section>
@@ -329,7 +329,7 @@ export default function UttarPradeshPageClient() {
                       How We Handle UP Loan Cases
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      <strong>Phase 1:</strong> Free consultation maps every loan, income stream and hardship proof. <strong>Phase 2:</strong> Legal notices halt recovery within a week. <strong>Phase 3:</strong> We negotiate with state-specific data—salary calendars, leather export trends, tourism indices—to win 30-70% reductions. <strong>Phase 4:</strong> Lawyers verify OTS letters, supervise payment and design your credit rebuild plan.
+                      <strong>Phase 1:</strong> Free consultation maps every loan, income stream and hardship proof. <strong>Phase 2:</strong> Legal notices halt recovery within a week. <strong>Phase 3:</strong> We negotiate with state-specific data - salary calendars, leather export trends, tourism indices - to win 30-70% reductions. <strong>Phase 4:</strong> Lawyers verify OTS letters, supervise payment and design your credit rebuild plan.
                     </p>
                   </div>
 
@@ -347,7 +347,7 @@ export default function UttarPradeshPageClient() {
                       RBI Protection and Legal Security
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      We enforce RBI Master Directions at each step—written offers, fixed payment schedules, 30-day document delivery and immediate legal intervention if a lender deviates.
+                      We enforce RBI Master Directions at each step - written offers, fixed payment schedules, 30-day document delivery and immediate legal intervention if a lender deviates.
                     </p>
                   </div>
                 </div>
@@ -441,7 +441,7 @@ export default function UttarPradeshPageClient() {
                     <strong>Agra and Varanasi:</strong> Tourism-driven incomes rise and fall with visitor flows, so we time settlements around peak seasons and present occupancy data to banks for 1,400+ clients.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Meerut, Ghaziabad and Prayagraj:</strong> Manufacturing, trading and administrative hubs need customised strategies—whether it is aligning payments with factory cycles or coordinating with local courts.
+                    <strong>Meerut, Ghaziabad and Prayagraj:</strong> Manufacturing, trading and administrative hubs need customised strategies - whether it is aligning payments with factory cycles or coordinating with local courts.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Rest of UP:</strong> Through district partners we cover Bareilly, Gorakhpur, Jhansi, Mathura and every other region with the same documented process and Lok Adalat support.
@@ -519,7 +519,7 @@ export default function UttarPradeshPageClient() {
                     <strong>Settlement rights:</strong> Genuine hardship means lenders must discuss restructuring. After payment, RBI rules force them to issue closure letters and NOCs within 30 days.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Escalation paths:</strong> Consumer Commission, Lok Adalat and police support remain available—we activate them whenever harassment or unfair charges persist.
+                    <strong>Escalation paths:</strong> Consumer Commission, Lok Adalat and police support remain available - we activate them whenever harassment or unfair charges persist.
                   </p>
                 </div>
               </section>
@@ -618,7 +618,7 @@ export default function UttarPradeshPageClient() {
                     Struggling with personal loan dues anywhere in Uttar Pradesh? Settlement is legal, RBI-backed and already helped 15,000+ local families reclaim peace of mind.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Book a free consultation:</strong> No upfront fees—just a clear plan to stop harassment, save 30-70% and close every account legally, whether you are a government employee, trader or MSME owner.
+                    <strong>Book a free consultation:</strong> No upfront fees - just a clear plan to stop harassment, save 30-70% and close every account legally, whether you are a government employee, trader or MSME owner.
                   </p>
                 </div>
               </section>

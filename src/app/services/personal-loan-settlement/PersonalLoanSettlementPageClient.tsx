@@ -992,7 +992,7 @@ export default function PersonalLoanSettlementPageClient() {
                       className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                       style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                     >
-                      Secure an RBI-compliant One-Time Settlement and end harassment—start your path to freedom today.
+                      Secure an RBI-compliant One-Time Settlement and end harassment - start your path to freedom today.
                     </p>
                   </div>
 

@@ -241,7 +241,7 @@ export default function WestBengalPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    A common West Bengal story: one spouse works in another metro, the other stays in Kolkata with parents and children. Two rents, two utility sets, flights every month, plus parental healthcare. Credit cards fill the monthly gap. Add foreign education expenses—application fees, IELTS prep, university deposits, flight tickets—and card totals hit five to seven lakhs quickly.</p>
+                    A common West Bengal story: one spouse works in another metro, the other stays in Kolkata with parents and children. Two rents, two utility sets, flights every month, plus parental healthcare. Credit cards fill the monthly gap. Add foreign education expenses-application fees, IELTS prep, university deposits, flight tickets-and card totals hit five to seven lakhs quickly.</p>
                   <p style={{ marginBottom: '16px' }}>
                     Settlement consolidates this burden. Instead of juggling multiple EMI plans, we negotiate a reduced lump sum, close all cards and help you focus on core responsibilities like education EMIs and medical insurance.</p>
                 </div>
@@ -315,7 +315,7 @@ export default function WestBengalPageClient() {
                       Our Settlement Strategy for Bengal Clients
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1:</strong> Map every card, EMI and overdue month. <strong>Step 2:</strong> Issue legal notices referencing RBI Fair Practices Code to halt harassment. <strong>Step 3:</strong> Compile evidence—salary slips, rent agreements, tuition receipts, medical papers—to prove hardship. <strong>Step 4:</strong> Negotiate collectively with all banks so offers arrive within the same window. <strong>Step 5:</strong> Verify letters, manage lump sum payment and gather acknowledgements. <strong>Step 6:</strong> Collect NOCs, monitor credit report updates and advise on rebuilding habits.</p>
+                      <strong>Step 1:</strong> Map every card, EMI and overdue month. <strong>Step 2:</strong> Issue legal notices referencing RBI Fair Practices Code to halt harassment. <strong>Step 3:</strong> Compile evidence-salary slips, rent agreements, tuition receipts, medical papers-to prove hardship. <strong>Step 4:</strong> Negotiate collectively with all banks so offers arrive within the same window. <strong>Step 5:</strong> Verify letters, manage lump sum payment and gather acknowledgements. <strong>Step 6:</strong> Collect NOCs, monitor credit report updates and advise on rebuilding habits.</p>
                   </div>
 
                   <div id="legal-protection" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -500,7 +500,7 @@ export default function WestBengalPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     A 34-year-old advertising director from Ballygunge had five credit cards totalling ₹7.6 lakh. She funded a short film, supported parents’ medical treatments and paid rent for her partner working in Mumbai. Client payments delayed for six months during pandemic recovery. Interest and late fees pushed dues beyond control.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    We gathered invoices showing delayed client payments, medical bills and rent agreements. Negotiated 38-45% settlements across all cards. Final payout ₹3.2 lakh—she saved ₹4.4 lakh (58%). Harassment ended within a week, cards closed in 72 days, NOCs issued in another 30 days. She now uses a secured card and pays in full every month while rebuilding her CIBIL score.</p>
+                    We gathered invoices showing delayed client payments, medical bills and rent agreements. Negotiated 38-45% settlements across all cards. Final payout ₹3.2 lakh-she saved ₹4.4 lakh (58%). Harassment ended within a week, cards closed in 72 days, NOCs issued in another 30 days. She now uses a secured card and pays in full every month while rebuilding her CIBIL score.</p>
                 </div>
               </section>
 

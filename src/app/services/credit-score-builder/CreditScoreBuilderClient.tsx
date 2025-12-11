@@ -208,7 +208,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Set Measurable Score Targets',
       description: (
         <>
-          Define a score goal and time horizon—often a <strong>50–100 point</strong> gain across <strong>6–12 months</strong>. Align strategy with upcoming financial milestones like home loans or balance transfers.
+          Define a score goal and time horizon-often a <strong>50–100 point</strong> gain across <strong>6–12 months</strong>. Align strategy with upcoming financial milestones like home loans or balance transfers.
         </>
       )
     },
@@ -247,7 +247,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Know Every Line Item',
       description: (
         <>
-          Decode your <strong>CIBIL report</strong>—from account statuses to days past due—so nothing surprises you. Understanding the data is the first safeguard against score erosion.
+          Decode your <strong>CIBIL report</strong>-from account statuses to days past due-so nothing surprises you. Understanding the data is the first safeguard against score erosion.
         </>
       )
     },
@@ -304,7 +304,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Seamless Loan Approvals',
       description: (
         <>
-          Strong scores fast-track approvals for personal, auto, and business loans—often with reduced documentation and quicker disbursement.
+          Strong scores fast-track approvals for personal, auto, and business loans-often with reduced documentation and quicker disbursement.
         </>
       )
     },
@@ -331,7 +331,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Emergency Financial Flexibility',
       description: (
         <>
-          Secure credit quickly during critical moments—medical emergencies, business opportunities, or travel—without punitive rates.
+          Secure credit quickly during critical moments-medical emergencies, business opportunities, or travel-without punitive rates.
         </>
       )
     }
@@ -343,7 +343,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Specialized Expertise',
       description: (
         <>
-          Choose advisors fluent in <strong>CIBIL methodologies</strong>, RBI regulations, and Indian lender expectations—not generic credit coaches.
+          Choose advisors fluent in <strong>CIBIL methodologies</strong>, RBI regulations, and Indian lender expectations-not generic credit coaches.
         </>
       )
     },
@@ -571,10 +571,10 @@ export default function CreditScoreBuilderClient() {
   const bestPracticeBullets = [
     'Review your CIBIL report monthly or at least every quarter to validate progress and catch issues early.',
     'Automate EMI and credit card payments so one oversight never reverses months of disciplined work.',
-    'Track utilization across every card—keep totals below 30%, with 10% as the stretch goal for rapid gains.',
+    'Track utilization across every card-keep totals below 30%, with 10% as the stretch goal for rapid gains.',
     'Apply for credit only when necessary; cluster-free inquiries protect your score during rebuilding phases.',
     'Partner with trusted professionals when you need tailored strategies, accountability, or dispute support.',
-    'Stay patient and consistent—credit score building is cumulative, not instantaneous.'
+    'Stay patient and consistent-credit score building is cumulative, not instantaneous.'
   ];
 
   const scamCards = [
@@ -633,7 +633,7 @@ export default function CreditScoreBuilderClient() {
       CredSettle’s <strong>credit score builder</strong> methodology combines forensic credit report analysis, proven dispute protocols, utilization engineering, and long-term coaching to deliver sustainable score growth.
     </>,
     <>
-      Stay the course—consistent payments, careful credit usage, and vigilant monitoring transform your profile over time. The rewards include better rates, stronger negotiating power, and true financial flexibility.
+      Stay the course-consistent payments, careful credit usage, and vigilant monitoring transform your profile over time. The rewards include better rates, stronger negotiating power, and true financial flexibility.
     </>,
     <>
       Ready to accelerate your <strong>credit score improvement</strong>? Schedule a free consultation with CredSettle. Our legal-financial experts will craft a personalized blueprint that protects your rights and maximizes your score potential.
@@ -691,7 +691,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Benefits of Credit Score Building: Why It Matters',
       paragraphs: [
         <>
-          A formidable <strong>CIBIL score</strong> is more than a number—it is negotiating power, cost savings, and financial freedom rolled into one.
+          A formidable <strong>CIBIL score</strong> is more than a number-it is negotiating power, cost savings, and financial freedom rolled into one.
         </>
       ],
       cards: benefitsCards
@@ -701,7 +701,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Choosing the Right Credit Score Builder Service',
       paragraphs: [
         <>
-          Selecting the right partner determines how smoothly—and legally—your score rebounds. Use these benchmarks before trusting any advisor with your data.
+          Selecting the right partner determines how smoothly-and legally-your score rebounds. Use these benchmarks before trusting any advisor with your data.
         </>
       ],
       cards: selectionCards
@@ -1134,7 +1134,7 @@ export default function CreditScoreBuilderClient() {
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional credit score building assistance from CredSettle's expert team. Improve your CIBIL credit score through proven strategies and personalized guidance—start your path to better credit today.
+                        Get professional credit score building assistance from CredSettle's expert team. Improve your CIBIL credit score through proven strategies and personalized guidance-start your path to better credit today.
                       </p>
                     </div>
 

@@ -224,9 +224,9 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     From Gachibowli tech parks to Banjara Hills fine dining, Hyderabad’s lifestyle expenses often rely on credit cards. Professionals swipe for fuel, rentals, children’s schooling, subscription services, short-notice flights and weekend getaways to Goa or Araku. Secunderabad households support elderly parents and siblings, so monthly spend frequently crosses salary inflows.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    Add to that the city’s booming dining, wedding, and shopping scenes—cards make it easy to host events at Taj Krishna, book destination weddings in Falaknuma, or shop at Sarath City Capital Mall. When bonus payouts delay or startups switch to stock options, the same cards convert to EMIs with interest above 36% annually. Settlement steps in to close the chapter safely.</p>
+                    Add to that the city’s booming dining, wedding, and shopping scenes-cards make it easy to host events at Taj Krishna, book destination weddings in Falaknuma, or shop at Sarath City Capital Mall. When bonus payouts delay or startups switch to stock options, the same cards convert to EMIs with interest above 36% annually. Settlement steps in to close the chapter safely.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    Hyderabad parents also shoulder school fee spikes, coaching class costs and competitive exam travel. International schools in Gachibowli and Kokapet expect quarterly fees, while college admissions in Bengaluru or the US demand deposits overnight. Credit cards appear as the quickest bridge but quietly stack finance charges each day. We help you shift that timeline—moving from revolving interest to one negotiated settlement that aligns with your real cash flow.</p>
+                    Hyderabad parents also shoulder school fee spikes, coaching class costs and competitive exam travel. International schools in Gachibowli and Kokapet expect quarterly fees, while college admissions in Bengaluru or the US demand deposits overnight. Credit cards appear as the quickest bridge but quietly stack finance charges each day. We help you shift that timeline-moving from revolving interest to one negotiated settlement that aligns with your real cash flow.</p>
                   <p style={{ marginBottom: '16px' }}>
                     Secunderabad’s defence families and PSU retirees face different pressures. Medical procedures at Apollo, Continental and Care hospitals may not be fully reimbursed. Children working in Gurgaon or Singapore often remit money late due to currency controls. Our settlement plans account for these realities by scheduling payments after confirmed remittances, preventing cheque bounces and legal notices.</p>
                   <p style={{ marginBottom: '16px' }}>
@@ -239,7 +239,7 @@ export default function TelanganaPageClient() {
                     <li style={{ marginBottom: '12px' }}>Healthcare expenses at private hospitals where insurance approval lags behind.</li>
                   </ul>
                   <p style={{ marginBottom: '16px' }}>
-                    Recognising these spending categories helps us negotiate realistically with banks. We demonstrate that your expenses were tied to family welfare, professional growth or unavoidable lifestyle costs—not reckless swiping. This perspective softens the bank’s stance and opens the door to better settlements.</p>
+                    Recognising these spending categories helps us negotiate realistically with banks. We demonstrate that your expenses were tied to family welfare, professional growth or unavoidable lifestyle costs-not reckless swiping. This perspective softens the bank’s stance and opens the door to better settlements.</p>
                 </div>
               </section>
 
@@ -318,7 +318,7 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     Telangana’s card usage also spikes during festival seasons like Bathukamma, Bonalu and Sankranti when travel, gifts and charitable donations multiply. Planning for these peaks is part of our post-settlement coaching, ensuring future celebrations happen within savings, not credit limits.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    By identifying the exact pattern your family falls into, we tailor the credit card settlement strategy to Telangana realities—whether that means timing payments after crop sales or aligning them with corporate bonus schedules.</p>
+                    By identifying the exact pattern your family falls into, we tailor the credit card settlement strategy to Telangana realities-whether that means timing payments after crop sales or aligning them with corporate bonus schedules.</p>
                 </div>
               </section>
 
@@ -350,7 +350,7 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     We also coordinate with local police stations when required. Many clients file diary entries at Cyberabad, Rachakonda or Hyderabad Commissionerate against abusive agents. Referencing these complaints in settlement talks puts pressure on collection managers to follow RBI timelines and issue clean letters swiftly.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    Our in-house CRM tracks every milestone—from notice dispatch to letter receipt—so you always know the live status of your case. You gain access to weekly summaries documenting calls, emails and pending actions. This transparency reassures families who have previously dealt with agents offering vague promises and no written updates.</p>
+                    Our in-house CRM tracks every milestone-from notice dispatch to letter receipt-so you always know the live status of your case. You gain access to weekly summaries documenting calls, emails and pending actions. This transparency reassures families who have previously dealt with agents offering vague promises and no written updates.</p>
 
                   <div id="settlement-strategy" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
                     <h3
@@ -418,7 +418,7 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     We also guide you on sequencing payments around salary credit dates, mutual fund redemptions or property sale proceeds. The aim is to protect regular living expenses while finishing settlements decisively. Many clients choose to park funds in an escrow account so disbursements happen on agreed dates without last-minute stress.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    Once settlements conclude, we monitor credit bureaus for six months. If a bank forgets to update “settled” status to “closed,” or reintroduces stale balances, we raise disputes immediately. Clean bureau reports are essential for future home loans or business capital, and we treat that as the final deliverable—not just the negotiated percentage.</p>
+                    Once settlements conclude, we monitor credit bureaus for six months. If a bank forgets to update “settled” status to “closed,” or reintroduces stale balances, we raise disputes immediately. Clean bureau reports are essential for future home loans or business capital, and we treat that as the final deliverable-not just the negotiated percentage.</p>
                 </div>
               </section>
 
@@ -577,7 +577,7 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     A 36-year-old product manager from Madhapur held five cards totalling ₹8.4 lakh. Layoffs cut his salary by 35% and on-site travel reimbursements stopped. He used cards for his child’s international school fees, parents’ health insurance and rent in a gated community.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    CredSettle compiled salary revision letters, school fee receipts and medical insurance renewals. Negotiations delivered settlements between 38-45% across all banks. Final payout ₹3.2 lakh—he saved ₹5.2 lakh (62%). Harassment ended within a week, cards closed in 68 days, and NOCs arrived within the next month. He now follows a secured card rebuild plan with automated payments.</p>
+                    CredSettle compiled salary revision letters, school fee receipts and medical insurance renewals. Negotiations delivered settlements between 38-45% across all banks. Final payout ₹3.2 lakh-he saved ₹5.2 lakh (62%). Harassment ended within a week, cards closed in 68 days, and NOCs arrived within the next month. He now follows a secured card rebuild plan with automated payments.</p>
                   <p style={{ marginBottom: '16px' }}>
                     The success of this case rested on preparation. We drafted a hardship letter explaining the layoffs in Hyderabad’s product ecosystem, attached email confirmations from HR about revised salaries, and presented fee schedules from the school. Banks saw a responsible borrower hit by macro changes, not a defaulter. That narrative shift is what opens doors to favourable settlement percentages.</p>
                 </div>

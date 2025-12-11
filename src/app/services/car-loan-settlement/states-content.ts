@@ -107,7 +107,7 @@ export function getAllStateSlugs(): string[] {
 export function generateDefaultContent(stateName: string, slug: string): StateContent {
   const comprehensiveContent = generateCarLoanContent(slug) as Partial<StateContent>;
   const cityName = stateName.split(' ')[0];
-  
+
   const defaultContent: StateContent = {
     stateName,
     slug,
@@ -116,7 +116,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     metaDescription: `Expert car loan settlement services in ${stateName}. Get RBI-compliant vehicle loan settlements, protect your car, and achieve financial freedom with CredSettle.`,
     heroTitle: `Car Loan Settlement in ${stateName} - Drive Toward Financial Freedom with CredSettle`,
     heroDescription: `Professional car loan settlement services for vehicle owners in ${stateName}. Reduce debt, prevent repossession, and restore financial stability.`,
-    whyCarLoanSettlement: comprehensiveContent.whyCarLoanSettlement || `For vehicle owners in ${stateName} facing unmanageable car loan EMIs, settlement isn't just about reducing debt—it's about preventing repossession and preserving your vehicle ownership. CredSettle offers a strategic, RBI-compliant path to One-Time Settlement (OTS) that typically reduces outstanding vehicle loan debt by 40-65%.`,
+    whyCarLoanSettlement: comprehensiveContent.whyCarLoanSettlement || `For vehicle owners in ${stateName} facing unmanageable car loan EMIs, settlement isn't just about reducing debt-it's about preventing repossession and preserving your vehicle ownership. CredSettle offers a strategic, RBI-compliant path to One-Time Settlement (OTS) that typically reduces outstanding vehicle loan debt by 40-65%.`,
     commonCarLoanProblems: comprehensiveContent.commonCarLoanProblems || `Car loan borrowers in ${stateName} face unique challenges including income volatility affecting EMI payments, rapid vehicle depreciation creating negative equity, recovery agent harassment, and the risk of vehicle repossession. CredSettle addresses all these issues systematically.`,
     credsettleOverview: comprehensiveContent.credsettleOverview || `CredSettle stands as ${stateName}'s trusted car loan settlement specialist, offering comprehensive RBI-compliant debt resolution services. We've successfully resolved hundreds of vehicle loan cases, achieving average debt reductions of 45-65% while preventing repossession in 90%+ of cases.`,
     rbiCompliantProcess: comprehensiveContent.rbiCompliantProcess || `Our settlement process follows strict RBI guidelines: comprehensive case analysis, immediate harassment cessation, direct lender negotiations, structured payment planning, and complete legal closure documentation including vehicle hypothecation removal.`,

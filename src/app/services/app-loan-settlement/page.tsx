@@ -235,7 +235,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                App loan settlement is a legally recognized debt resolution mechanism specifically designed for loans obtained through <strong>digital lending platforms</strong> and instant loan applications. Unlike traditional bank loans that involve physical documentation and branch visits, app-based loans are disbursed entirely through mobile applications—often within minutes of application. This digital-first nature creates unique challenges that make app loan settlement fundamentally different from settling bank personal loans or credit cards.
+                App loan settlement is a legally recognized debt resolution mechanism specifically designed for loans obtained through <strong>digital lending platforms</strong> and instant loan applications. Unlike traditional bank loans that involve physical documentation and branch visits, app-based loans are disbursed entirely through mobile applications-often within minutes of application. This digital-first nature creates unique challenges that make app loan settlement fundamentally different from settling bank personal loans or credit cards.
               </p>
               <p
                 style={{
@@ -246,7 +246,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Here's what makes app loans distinct: most app-based lenders operate through <strong>Non-Banking Financial Companies (NBFCs)</strong> or as Digital Lending Platforms (DLPs) registered with the RBI. These lenders typically offer small-ticket, short-tenure loans (₹5,000 to ₹5,00,000 for 3-12 months) with minimal documentation requirements. The approval process relies heavily on automated credit scoring algorithms that analyze your phone data, banking transactions, and digital footprint—often requiring access to your contacts, SMS, photos, and location.
+                Here's what makes app loans distinct: most app-based lenders operate through <strong>Non-Banking Financial Companies (NBFCs)</strong> or as Digital Lending Platforms (DLPs) registered with the RBI. These lenders typically offer small-ticket, short-tenure loans (₹5,000 to ₹5,00,000 for 3-12 months) with minimal documentation requirements. The approval process relies heavily on automated credit scoring algorithms that analyze your phone data, banking transactions, and digital footprint-often requiring access to your contacts, SMS, photos, and location.
               </p>
               <p
                 style={{
@@ -284,7 +284,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                The settlement journey for app loans requires a <strong>specialized approach</strong> because these lenders operate differently from traditional banks. Step one involves verification: we confirm whether your app lender is RBI-regulated or operating illegally. According to RBI guidelines, only regulated entities (REs) like banks, NBFCs, and authorized DLPs can legally lend in India. Unregulated apps—often those demanding excessive permissions or charging exorbitant processing fees—have no legal standing to pursue recovery.
+                The settlement journey for app loans requires a <strong>specialized approach</strong> because these lenders operate differently from traditional banks. Step one involves verification: we confirm whether your app lender is RBI-regulated or operating illegally. According to RBI guidelines, only regulated entities (REs) like banks, NBFCs, and authorized DLPs can legally lend in India. Unregulated apps-often those demanding excessive permissions or charging exorbitant processing fees-have no legal standing to pursue recovery.
               </p>
               <p
                 style={{
@@ -295,7 +295,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                For regulated app lenders, CredSettle initiates <strong>strategic documentation review</strong>. We analyze your loan agreement for compliance with the Key Fact Statement (KFS) mandate—a requirement under RBI digital lending norms. The KFS must disclose: all-in-cost (Annual Percentage Rate including processing fees, GST, insurance), exact repayment schedule, cooling-off period details, and grievance redressal mechanism. If your lender failed to provide a compliant KFS before disbursement, it strengthens our negotiation leverage significantly.
+                For regulated app lenders, CredSettle initiates <strong>strategic documentation review</strong>. We analyze your loan agreement for compliance with the Key Fact Statement (KFS) mandate-a requirement under RBI digital lending norms. The KFS must disclose: all-in-cost (Annual Percentage Rate including processing fees, GST, insurance), exact repayment schedule, cooling-off period details, and grievance redressal mechanism. If your lender failed to provide a compliant KFS before disbursement, it strengthens our negotiation leverage significantly.
               </p>
               <p
                 style={{
@@ -306,7 +306,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Our legal experts then engage with the lender's designated settlement desk or collections department. We present a comprehensive settlement proposal backed by your financial hardship documentation—bank statements showing income disruption, medical bills, or unemployment proof. Because app lenders prioritize quick portfolio turnarounds and have higher operational costs for prolonged recovery, they're often more amenable to settlements ranging from <strong>30-70% of the outstanding principal</strong>.
+                Our legal experts then engage with the lender's designated settlement desk or collections department. We present a comprehensive settlement proposal backed by your financial hardship documentation-bank statements showing income disruption, medical bills, or unemployment proof. Because app lenders prioritize quick portfolio turnarounds and have higher operational costs for prolonged recovery, they're often more amenable to settlements ranging from <strong>30-70% of the outstanding principal</strong>.
               </p>
               <p
                 style={{
@@ -317,7 +317,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Once settlement terms are agreed, we ensure you receive a formal settlement letter on the lender's letterhead with authorized digital signature or physical stamp. This letter must explicitly state: the original outstanding amount, the agreed settlement amount, payment deadline, confirmation that all dues will be considered "settled" upon payment, and commitment to issue a No Objection Certificate (NOC). Payment is always routed through official channels—NEFT/RTGS to the lender's registered business account—never to personal accounts or third-party recovery agents.
+                Once settlement terms are agreed, we ensure you receive a formal settlement letter on the lender's letterhead with authorized digital signature or physical stamp. This letter must explicitly state: the original outstanding amount, the agreed settlement amount, payment deadline, confirmation that all dues will be considered "settled" upon payment, and commitment to issue a No Objection Certificate (NOC). Payment is always routed through official channels-NEFT/RTGS to the lender's registered business account-never to personal accounts or third-party recovery agents.
               </p>
             </div>
 
@@ -359,7 +359,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '12px'
                 }}
               >
-                <strong>What happens when you default:</strong> Recovery agents access your contacts and begin calling family members, friends, and colleagues—often with threats, morphed images, and false legal claims. They send bulk SMS/WhatsApp messages to your entire contact list, causing public humiliation and social stigma.
+                <strong>What happens when you default:</strong> Recovery agents access your contacts and begin calling family members, friends, and colleagues-often with threats, morphed images, and false legal claims. They send bulk SMS/WhatsApp messages to your entire contact list, causing public humiliation and social stigma.
               </p>
               <p
                 style={{
@@ -490,7 +490,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Data Privacy Protection and Deletion:</strong> Beyond settlement, CredSettle ensures your personal data is permanently deleted from the lender's systems. Under the Digital Personal Data Protection Act 2023 (DPDP Act), you have the "Right to Erasure"—meaning lenders must delete your contact list, photos, SMS history, and location data once the loan relationship ends. We obtain written confirmation of data deletion and server-level erasure certificates, preventing future misuse.
+                <strong>Data Privacy Protection and Deletion:</strong> Beyond settlement, CredSettle ensures your personal data is permanently deleted from the lender's systems. Under the Digital Personal Data Protection Act 2023 (DPDP Act), you have the "Right to Erasure"-meaning lenders must delete your contact list, photos, SMS history, and location data once the loan relationship ends. We obtain written confirmation of data deletion and server-level erasure certificates, preventing future misuse.
               </p>
               <p
                 style={{

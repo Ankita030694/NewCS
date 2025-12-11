@@ -70,7 +70,7 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'Do you handle startup loan settlements in Bangalore?',
-        answer: 'Yes, CredSettle specializes in startup loan settlements across Bangalore\'s tech ecosystem. We understand unique startup challenges—funding cycles, burn rates, and pivot necessities—presenting these factors credibly to lenders familiar with Karnataka\'s startup landscape for favorable settlement terms.'
+        answer: 'Yes, CredSettle specializes in startup loan settlements across Bangalore\'s tech ecosystem. We understand unique startup challenges-funding cycles, burn rates, and pivot necessities-presenting these factors credibly to lenders familiar with Karnataka\'s startup landscape for favorable settlement terms.'
       },
       {
         question: 'Can working capital facilities be settled along with term loans?',
@@ -112,7 +112,7 @@ export function getAllStateSlugs(): string[] {
 export function generateDefaultContent(stateName: string, slug: string): StateContent {
   // Use comprehensive content generator
   const comprehensiveContent = generateBusinessLoanContent(slug) as Partial<StateContent>;
-  
+
   // Fallback content if generator doesn't have state info
   const cityName = stateName.split(' ')[0];
   const defaultContent: StateContent = {
@@ -133,7 +133,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI regulations provide comprehensive protection for ${stateName} businesses, establishing clear frameworks for stressed asset resolution. The Master Direction on Resolution of Stressed Assets mandates fair treatment and reasonable settlement consideration. Fair Practices Code prohibits harassment and requires respectful communication. Businesses have rights to request settlement terms, receive clear documentation, and appeal unreasonable decisions through Banking Ombudsman. CredSettle ensures ${stateName} businesses understand and exercise these rights effectively throughout settlement.`,
     stepByStepGuide: comprehensiveContent.stepByStepGuide || `Business loan settlement with CredSettle in ${stateName} follows a structured process: Step 1: Initial Consultation assessing debt situation. Step 2: Business Analysis reviewing loans, securities, and guarantees. Step 3: Documentation Collection gathering financial statements and hardship evidence. Step 4: Legal Protection stopping harassment and asset seizure. Step 5: Strategic Negotiation presenting comprehensive hardship cases. Step 6: Agreement Review ensuring RBI compliance and protection. Step 7: Payment Coordination facilitating structured payments. Step 8: Closure Documentation obtaining releases, discharges, and NOCs. Step 9: Revival Planning providing post-settlement business guidance.`,
     caseStudy: comprehensiveContent.caseStudy || `Consider a ${stateName} manufacturing business that approached CredSettle with ₹80 lakhs debt across multiple lenders. Facing revenue decline from market challenges, the business struggled with fixed EMIs while maintaining operations. Recovery harassment threatened business viability. CredSettle intervened, stopping harassment within 48 hours and coordinating multi-lender negotiations. After 5 months, settlements achieved 60% overall debt reduction. The business paid through structured installments, received complete closure documentation including security releases and guarantee discharge, and today operates debt-free with improved cash flow enabling operational expansion.`,
-    finalThoughts: comprehensiveContent.finalThoughts || `Business loan settlement through CredSettle offers ${stateName} enterprises a strategic path to debt resolution that protects assets, discharges guarantees, and enables continuity or dignified exits. Our track record demonstrates that professional settlement consistently delivers optimal outcomes for businesses facing genuine distress. The first step begins with contacting CredSettle for confidential assessment. We handle all complexities—stopping harassment, negotiating with lenders, protecting assets, ensuring RBI compliance, and securing complete closure. Don't let debt destroy businesses and entrepreneurial futures. Contact CredSettle today for professional, dignified debt resolution.`,
+    finalThoughts: comprehensiveContent.finalThoughts || `Business loan settlement through CredSettle offers ${stateName} enterprises a strategic path to debt resolution that protects assets, discharges guarantees, and enables continuity or dignified exits. Our track record demonstrates that professional settlement consistently delivers optimal outcomes for businesses facing genuine distress. The first step begins with contacting CredSettle for confidential assessment. We handle all complexities-stopping harassment, negotiating with lenders, protecting assets, ensuring RBI compliance, and securing complete closure. Don't let debt destroy businesses and entrepreneurial futures. Contact CredSettle today for professional, dignified debt resolution.`,
     faqs: comprehensiveContent.faqs || [
       {
         question: `Can secured business loans be settled in ${stateName}?`,

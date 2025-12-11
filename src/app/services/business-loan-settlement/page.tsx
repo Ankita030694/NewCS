@@ -234,7 +234,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Business loan settlement is a legally sanctioned debt resolution mechanism in India that enables business owners and entrepreneurs to negotiate with lenders—including banks, NBFCs, and financial institutions—to repay a <strong>reduced lump sum amount</strong> instead of the full outstanding loan balance. This process is particularly crucial for businesses facing cash flow challenges, operational disruptions, or market downturns that have impaired their ability to service debt through regular EMI payments.
+                Business loan settlement is a legally sanctioned debt resolution mechanism in India that enables business owners and entrepreneurs to negotiate with lenders-including banks, NBFCs, and financial institutions-to repay a <strong>reduced lump sum amount</strong> instead of the full outstanding loan balance. This process is particularly crucial for businesses facing cash flow challenges, operational disruptions, or market downturns that have impaired their ability to service debt through regular EMI payments.
               </p>
               <p
                 style={{
@@ -256,7 +256,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                At CredSettle, we specialize in business loan settlements across all business loan categories—working capital loans, term loans, machinery loans, SME loans, MSME loans, overdraft facilities, and bill discounting facilities. Our legal and financial experts understand the unique challenges facing business owners and structure settlement strategies that prioritize <strong>business continuity, asset protection, and operational cash flow restoration</strong>.
+                At CredSettle, we specialize in business loan settlements across all business loan categories-working capital loans, term loans, machinery loans, SME loans, MSME loans, overdraft facilities, and bill discounting facilities. Our legal and financial experts understand the unique challenges facing business owners and structure settlement strategies that prioritize <strong>business continuity, asset protection, and operational cash flow restoration</strong>.
               </p>
             </div>
 
@@ -305,7 +305,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Our negotiators present a detailed <strong>One-Time Settlement (OTS) proposal</strong> backed by your business's financial hardship documentation—P&L statements, cash flow analysis, balance sheets, and repayment capacity assessment. We leverage RBI's prudential framework guidelines, which encourage lenders to consider OTS proposals that maximize recovery while minimizing legal and administrative costs. The typical settlement range is 30-70% of outstanding principal, depending on account age, loan type, security status, and lender policies.
+                Our negotiators present a detailed <strong>One-Time Settlement (OTS) proposal</strong> backed by your business's financial hardship documentation-P&L statements, cash flow analysis, balance sheets, and repayment capacity assessment. We leverage RBI's prudential framework guidelines, which encourage lenders to consider OTS proposals that maximize recovery while minimizing legal and administrative costs. The typical settlement range is 30-70% of outstanding principal, depending on account age, loan type, security status, and lender policies.
               </p>
               <p
                 style={{
@@ -354,7 +354,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                However, NPA classification creates a <strong>settlement opportunity</strong>. Under RBI guidelines, once a loan becomes NPA, banks must set aside provisions (funds reserved for potential loss). As these provisions increase over time, banks become increasingly motivated to recover whatever amount they can through settlements rather than lengthy legal proceedings. This is where CredSettle's expertise becomes invaluable—we time settlement negotiations to coincide with maximum lender flexibility.
+                However, NPA classification creates a <strong>settlement opportunity</strong>. Under RBI guidelines, once a loan becomes NPA, banks must set aside provisions (funds reserved for potential loss). As these provisions increase over time, banks become increasingly motivated to recover whatever amount they can through settlements rather than lengthy legal proceedings. This is where CredSettle's expertise becomes invaluable-we time settlement negotiations to coincide with maximum lender flexibility.
               </p>
               <p
                 style={{
@@ -392,7 +392,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Secured business loans</strong> are backed by collateral—commercial property, residential property pledged against business loan, machinery, inventory, or receivables. When you default on a secured loan, the lender has the legal right to invoke the <strong>SARFAESI Act, 2002</strong> (Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest) to take possession of your pledged assets without court intervention. This makes secured loan settlements more complex but also provides unique negotiation leverage.
+                <strong>Secured business loans</strong> are backed by collateral-commercial property, residential property pledged against business loan, machinery, inventory, or receivables. When you default on a secured loan, the lender has the legal right to invoke the <strong>SARFAESI Act, 2002</strong> (Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest) to take possession of your pledged assets without court intervention. This makes secured loan settlements more complex but also provides unique negotiation leverage.
               </p>
               <p
                 style={{
@@ -414,7 +414,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Unsecured business loans</strong>—including working capital loans, business credit cards, and overdraft facilities—don't have asset backing. While this means your assets aren't at immediate seizure risk, lenders can still pursue legal action through civil suits, recovery tribunals, or criminal proceedings under Section 138 (cheque bounce cases). Unsecured loan settlements typically achieve higher reduction percentages (50-70%) because lenders recognize that recovery without collateral is uncertain and expensive.
+                <strong>Unsecured business loans</strong>-including working capital loans, business credit cards, and overdraft facilities-don't have asset backing. While this means your assets aren't at immediate seizure risk, lenders can still pursue legal action through civil suits, recovery tribunals, or criminal proceedings under Section 138 (cheque bounce cases). Unsecured loan settlements typically achieve higher reduction percentages (50-70%) because lenders recognize that recovery without collateral is uncertain and expensive.
               </p>
               <p
                 style={{
@@ -512,7 +512,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Small and Medium Enterprises (SMEs) and Micro, Small & Medium Enterprises (MSMEs) face unique challenges during financial distress. Many SME/MSME loans are guaranteed by business promoters through <strong>personal guarantees</strong>, meaning loan defaults can impact both business and personal assets. Additionally, SME loans often involve multiple facilities—term loans, working capital limits, bill discounting—creating complex debt structures.
+                Small and Medium Enterprises (SMEs) and Micro, Small & Medium Enterprises (MSMEs) face unique challenges during financial distress. Many SME/MSME loans are guaranteed by business promoters through <strong>personal guarantees</strong>, meaning loan defaults can impact both business and personal assets. Additionally, SME loans often involve multiple facilities-term loans, working capital limits, bill discounting-creating complex debt structures.
               </p>
               <p
                 style={{
@@ -594,7 +594,7 @@ export default function BusinessLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                For businesses facing legal notices—SARFAESI Act notices (Section 13(2)), Demand Recovery Tribunal (DRT) notices, or civil court summons—our legal team provides immediate <strong>response and representation services</strong>. We draft legally sound responses, file necessary applications, and negotiate settlements even after legal proceedings have commenced. Our goal is to achieve debt resolution while protecting your business from asset seizure, auction proceedings, and operational disruption.
+                For businesses facing legal notices-SARFAESI Act notices (Section 13(2)), Demand Recovery Tribunal (DRT) notices, or civil court summons-our legal team provides immediate <strong>response and representation services</strong>. We draft legally sound responses, file necessary applications, and negotiate settlements even after legal proceedings have commenced. Our goal is to achieve debt resolution while protecting your business from asset seizure, auction proceedings, and operational disruption.
               </p>
             </div>
           </div>
@@ -608,7 +608,7 @@ export default function BusinessLoanSettlementPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10" style={{ gap: '19.2px' }}>
             {[
               { title: 'Sector-Specific Expertise', body: 'Experience with SME/MSME, secured and unsecured business facilities.' },
-              { title: 'End-to-End Protection', body: 'From notices to OTS to closure—compliance and documentation guaranteed.' },
+              { title: 'End-to-End Protection', body: 'From notices to OTS to closure-compliance and documentation guaranteed.' },
               { title: 'Dignity for Promoters', body: 'Shield leadership from harassment; maintain brand credibility.' },
               { title: 'Proven Results', body: 'Substantial principal reductions and workable terms achieved.' },
               { title: 'Strategic Negotiation', body: 'We align terms with business realities and repayment capacity.' },
@@ -777,7 +777,7 @@ export default function BusinessLoanSettlementPage() {
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>Ready to Legally Settle Your Business Loan?</h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Achieve an RBI-compliant OTS or restructure—protect your assets and restart growth.</p>
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Achieve an RBI-compliant OTS or restructure-protect your assets and restart growth.</p>
                   </div>
                   <CTAButton>
                     Get Your Free Consultation

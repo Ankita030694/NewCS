@@ -462,7 +462,7 @@ export default function AntiHarassmentClient() {
       Remember, you do not have to face <strong>harassment</strong> alone. Professional <strong>anti-harassment services</strong> provide immediate protection and ongoing support, ensuring harassment stops completely and permanently. By working with CredSettle, you can stop harassment, protect your rights, and achieve peace of mind.
     </>,
     <>
-      If you are facing <strong>loan recovery agent harassment</strong>, reach out to CredSettle immediately. Our expert legal team will assess your situation, provide immediate protection, and ensure harassment stops within 24–48 hours. Do not suffer in silence—get the protection you deserve today.
+      If you are facing <strong>loan recovery agent harassment</strong>, reach out to CredSettle immediately. Our expert legal team will assess your situation, provide immediate protection, and ensure harassment stops within 24–48 hours. Do not suffer in silence-get the protection you deserve today.
     </>
   ];
 
@@ -933,7 +933,7 @@ export default function AntiHarassmentClient() {
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional anti-harassment protection from CredSettle's expert legal team. Stop harassment immediately with call forwarding, cease-and-desist notices, and RBI complaint filing—protect your rights today.
+                        Get professional anti-harassment protection from CredSettle's expert legal team. Stop harassment immediately with call forwarding, cease-and-desist notices, and RBI complaint filing-protect your rights today.
                       </p>
                     </div>
 

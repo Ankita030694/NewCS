@@ -53,7 +53,7 @@ export const statesContent: Record<string, StateContent> = {
       },
       {
         question: 'How much does app loan settlement cost in Maharashtra?',
-        answer: 'We charge success-based fees only after harassment stops and settlements are negotiated—no upfront costs. Our transparent fee structure is based on debt reduction achieved. Contact us for a free consultation specific to your Maharashtra case.'
+        answer: 'We charge success-based fees only after harassment stops and settlements are negotiated-no upfront costs. Our transparent fee structure is based on debt reduction achieved. Contact us for a free consultation specific to your Maharashtra case.'
       }
     ],
     keywords: ['app loan settlement Maharashtra', 'instant loan settlement Mumbai', 'digital lending settlement Pune', 'stop app harassment Maharashtra', 'RBI compliant app loan settlement']
@@ -85,7 +85,7 @@ export const statesContent: Record<string, StateContent> = {
       },
       {
         question: 'How much does app loan settlement cost in Karnataka?',
-        answer: 'We charge success-based fees only after harassment stops and settlements are negotiated—no upfront costs. Our transparent fee structure is based on debt reduction achieved. Contact us for a free consultation specific to your Karnataka case.'
+        answer: 'We charge success-based fees only after harassment stops and settlements are negotiated-no upfront costs. Our transparent fee structure is based on debt reduction achieved. Contact us for a free consultation specific to your Karnataka case.'
       }
     ],
     keywords: ['app loan settlement Karnataka', 'instant loan settlement Bangalore', 'digital lending settlement Mysore', 'stop app harassment Karnataka', 'RBI compliant app loan settlement']
@@ -107,7 +107,7 @@ export function getAllStateSlugs(): string[] {
 export function generateDefaultContent(stateName: string, slug: string): StateContent {
   const comprehensiveContent = generateAppLoanContent(slug) as Partial<StateContent>;
   const cityName = stateName.split(' ')[0];
-  
+
   const defaultContent: StateContent = {
     stateName,
     slug,
@@ -116,7 +116,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     metaDescription: `Expert instant loan app settlement services in ${stateName}. Stop harassment in 48 hours, protect data privacy, and achieve RBI-compliant debt resolution with CredSettle.`,
     heroTitle: `App Loan Settlement in ${stateName} - Stop Harassment, Settle Legally with CredSettle`,
     heroDescription: `Professional instant loan app settlement services for borrowers in ${stateName}. Stop harassment in 48 hours, reduce debt significantly, and restore peace of mind.`,
-    whyAppLoanSettlement: comprehensiveContent.whyAppLoanSettlement || `For instant loan app borrowers in ${stateName} facing harassment, morphed photos, and contact list exploitation, immediate settlement intervention isn't just about reducing debt—it's about stopping psychological terrorism. CredSettle offers RBI-compliant settlement that halts harassment within 48 hours and reduces debt by 50-75% typically.`,
+    whyAppLoanSettlement: comprehensiveContent.whyAppLoanSettlement || `For instant loan app borrowers in ${stateName} facing harassment, morphed photos, and contact list exploitation, immediate settlement intervention isn't just about reducing debt-it's about stopping psychological terrorism. CredSettle offers RBI-compliant settlement that halts harassment within 48 hours and reduces debt by 50-75% typically.`,
     commonAppLoanProblems: comprehensiveContent.commonAppLoanProblems || `App loan borrowers in ${stateName} face unique challenges including illegal harassment tactics, contact list exploitation, morphed photos sent to family, fake legal notices, workplace reputation damage, and predatory interest rates often exceeding RBI limits. CredSettle addresses all these systematically.`,
     credsettleOverview: comprehensiveContent.credsettleOverview || `CredSettle stands as ${stateName}'s specialized app loan crisis intervention service, offering immediate harassment cessation and RBI-compliant debt resolution. We've helped hundreds of borrowers stop digital terrorism, achieve 60%+ debt reductions, and restore normal life within weeks.`,
     rbiCompliantProcess: comprehensiveContent.rbiCompliantProcess || `Our settlement process follows strict RBI and legal frameworks: immediate harassment cessation through legal notices, data privacy protection under IT Act, multi-app negotiation leveraging illegal operations, and complete legal closure with harassment cessation guarantees.`,
@@ -126,7 +126,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines mandate fair treatment of borrowers and prohibit harassment. Many instant loan apps violate these regulations through illegal interest rates, data privacy breaches, and recovery tactics. CredSettle ensures your rights under these frameworks are protected throughout settlement.`,
     stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and crisis assessment. Step 2: Immediate legal intervention stopping harassment (24-48 hours). Step 3: Complete app loan documentation and illegal operation identification. Step 4: Simultaneous multi-app settlement negotiation (45-90 days). Step 5: Final closure with harassment cessation guarantees and data protection.`,
     caseStudy: comprehensiveContent.caseStudy || `A ${cityName} resident owing ₹120,000 across 6 apps faced severe harassment including morphed photos sent to family and fake legal notices to employer. CredSettle stopped all harassment within 48 hours, negotiated ₹38,000 settlement (68% reduction), and delivered complete legal closure. Today, the client lives harassment-free with family relationships restored.`,
-    finalThoughts: comprehensiveContent.finalThoughts || `If you're struggling with app loan harassment in ${stateName}, facing contact list exploitation, morphed photos, or workplace threats, recognize that immediate professional intervention offers escape you might not know exists. CredSettle stops harassment within 48 hours and reduces debt by 50-75% typically. Contact us today for your free consultation—your life can be normal again.`,
+    finalThoughts: comprehensiveContent.finalThoughts || `If you're struggling with app loan harassment in ${stateName}, facing contact list exploitation, morphed photos, or workplace threats, recognize that immediate professional intervention offers escape you might not know exists. CredSettle stops harassment within 48 hours and reduces debt by 50-75% typically. Contact us today for your free consultation-your life can be normal again.`,
     faqs: comprehensiveContent.faqs || [
       {
         question: `How does app loan settlement work in ${stateName}?`,
@@ -146,7 +146,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
       },
       {
         question: `How much does app loan settlement cost in ${stateName}?`,
-        answer: `We charge success-based fees only after harassment stops and settlements are negotiated—no upfront costs. Our transparent fee structure is based on debt reduction achieved. Contact us for a free consultation specific to your ${stateName} case.`
+        answer: `We charge success-based fees only after harassment stops and settlements are negotiated-no upfront costs. Our transparent fee structure is based on debt reduction achieved. Contact us for a free consultation specific to your ${stateName} case.`
       }
     ],
     keywords: comprehensiveContent.keywords || [`app loan settlement in ${stateName}`, `instant loan settlement ${stateName}`, `stop app harassment ${stateName}`, `digital lending settlement ${stateName}`, `RBI compliant app loan settlement ${stateName}`],

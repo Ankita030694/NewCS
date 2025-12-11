@@ -540,7 +540,7 @@ export default function AndhraPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Whether you are in Visakhapatnam, Vijayawada, Tirupati or any Andhra town, one conversation starts the process. We analyse dues, share savings estimates, list documents and assign a dedicated case manager. Consultation is free and there are no upfront fees—pay only after banks approve discounted settlements and you receive legal closure.</p>
+                    Whether you are in Visakhapatnam, Vijayawada, Tirupati or any Andhra town, one conversation starts the process. We analyse dues, share savings estimates, list documents and assign a dedicated case manager. Consultation is free and there are no upfront fees-pay only after banks approve discounted settlements and you receive legal closure.</p>
                 </div>
               </section>
             </div>

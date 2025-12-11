@@ -240,7 +240,7 @@ export default function UttarPradeshPageClient() {
                     UP’s joint families stretch incomes across education, weddings and healthcare. Government employees and MSME owners often swipe 3-5 cards to cover hostel fees, medical deposits or festival obligations, only to watch minimum dues exceed their salary.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We accept these obligations as genuine and turn them into a structured hardship case, proving why settlement—not endless minimum payments—is the lawful exit.
+                    We accept these obligations as genuine and turn them into a structured hardship case, proving why settlement-not endless minimum payments-is the lawful exit.
                   </p>
                 </div>
               </section>
@@ -297,7 +297,7 @@ export default function UttarPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1.</strong> Education add-ons—hostel, devices, coaching—stack 2-5 lakhs per child on cards.
+                    <strong>1.</strong> Education add-ons-hostel, devices, coaching-stack 2-5 lakhs per child on cards.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2.</strong> Medical emergencies leave ₹3-8 lakhs outstanding while income drops.
@@ -377,7 +377,7 @@ export default function UttarPradeshPageClient() {
                       RBI Rules That Protect You
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      We enforce RBI Master Directions—written offers, clear closure terms, 30-day document delivery and accurate bureau updates.
+                      We enforce RBI Master Directions-written offers, clear closure terms, 30-day document delivery and accurate bureau updates.
                     </p>
                   </div>
                 </div>
@@ -606,7 +606,7 @@ export default function UttarPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Credit card pressure across Lucknow, Kanpur, Noida or Agra is solvable—settlement is legal, fast and already proven for 6,200+ UP families.
+                    Credit card pressure across Lucknow, Kanpur, Noida or Agra is solvable-settlement is legal, fast and already proven for 6,200+ UP families.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Book a free consultation:</strong> We tailor a 40-75% savings plan around your education, medical or family commitments and close every card with full documentation.
