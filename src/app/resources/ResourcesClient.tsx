@@ -459,6 +459,7 @@ export default function ResourcesClient({
                           }}
                           loading={pagination.page === 1 && idx < 3 ? 'eager' : 'lazy'}
                           referrerPolicy="no-referrer"
+                          unoptimized
                         />
                       </div>
                       <div className="flex flex-col gap-2">

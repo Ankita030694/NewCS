@@ -268,14 +268,17 @@ export default function HeroSection() {
           style={{
           }}
         >
-          <h1 className="text-white font-bold text-center max-w-5xl text-xl md:text-4xl" style={{ fontWeight: 500, lineHeight: '1.7' }}>
+          <h1 className="text-white font-bold text-center max-w-5xl text-xl md:text-5xl mb-4" style={{ fontWeight: 600, lineHeight: '1.2' }}>
+            India's Most Trusted Loan Settlement Company
+          </h1>
+          <p className="text-white font-medium text-center max-w-4xl text-lg md:text-2xl opacity-90" style={{ fontWeight: 400, lineHeight: '1.6' }}>
             Facing <span 
               className="inline-block rounded-[32.4px] px-2 py-[0.1px] md:px-[13.2px] md:py-[0.48px]"
               style={{ 
                 color: 'rgb(226, 48, 28)',
               }}
-            >Loan Recovery calls? </span> Get peace of mind with CredSettle, India's most trusted <br /> Loan Settlement Company.
-          </h1>
+            >Loan Recovery calls? </span> Get peace of mind with CredSettle.
+          </p>
         </div>
         <a
           href="/contact"

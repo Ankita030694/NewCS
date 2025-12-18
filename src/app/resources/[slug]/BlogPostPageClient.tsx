@@ -366,6 +366,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 priority
                 placeholder="blur"
                 blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
+                unoptimized
               />
             </div>
           )}

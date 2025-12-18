@@ -109,14 +109,15 @@ export default async function Blogs() {
                   style={{ scrollSnapAlign: 'start' }}
                 >
                   <div className="relative w-full h-48">
-                    <Image
-                      src={post.image}
-                      alt={post.title}
-                      fill
-                      className="object-cover rounded-xl"
-                      sizes="(max-width: 768px) 280px"
-                      priority
-                    />
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        className="object-cover rounded-xl"
+                        sizes="(max-width: 768px) 280px"
+                        priority
+                        unoptimized
+                      />
                   </div>
                   <div className="flex flex-col gap-2">
                     <h3 className="text-[#0C2756] font-semibold text-lg leading-tight text-left">
@@ -145,6 +146,7 @@ export default async function Blogs() {
                     fill
                     className="object-cover rounded-xl"
                     sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    unoptimized
                   />
                 </div>
                 <div className="flex flex-col gap-2">
