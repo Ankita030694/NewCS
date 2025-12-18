@@ -167,12 +167,12 @@ export default function ContactPage() {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "@id": "https://credsettle.in/contact#faq",
+    "@id": "https://www.credsettle.com/contact#faq",
     "name": "CredSettle Contact FAQs",
     "description": "Answers to common questions about contacting CredSettle for RBI-compliant debt settlement support.",
     "mainEntity": contactFaqs.map((faq, index) => ({
       "@type": "Question",
-      "@id": `https://credsettle.in/contact#faq-question-${index + 1}`,
+      "@id": `https://www.credsettle.com/contact#faq-question-${index + 1}`,
       "name": faq.question,
       "acceptedAnswer": {
         "@type": "Answer",

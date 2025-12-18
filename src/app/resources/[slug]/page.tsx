@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import BlogPostPageClient from './BlogPostPageClient';
 import { canonicaliseSlug, generateSlugFromTitle } from '@/lib/slug';
-import { getBlogBySlug, getRelatedBlogs } from '@/lib/blogs';
+import { getBlogBySlug, getRelatedBlogs, getBlogReviews, type Review } from '@/lib/blogs';
 import { defaultBlogFaqs, type BlogFaq } from '@/data/blogDefaults';
 
 type PageParams = {
@@ -90,6 +90,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     canonicaliseSlug(blog.id) ||
     blog.id;
   const relatedBlogs = await getRelatedBlogs(canonicalSlug, 3);
+  const reviews = await getBlogReviews(blog.id);
 
   const clientBlog = {
     id: blog.id,
@@ -117,7 +118,56 @@ export default async function BlogPostPage({ params }: PageProps) {
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://www.credsettle.com/resources/${canonicalSlug}`
-    }
+    },
+    ...(reviews.length > 0 && {
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: (reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length).toFixed(1),
+        reviewCount: reviews.length,
+        bestRating: '5',
+        worstRating: '1'
+      },
+      review: reviews.map(review => ({
+        '@type': 'Review',
+        author: {
+          '@type': 'Person',
+          name: review.author
+        },
+        datePublished: review.date,
+        reviewBody: review.comment,
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: review.rating,
+          bestRating: '5',
+          worstRating: '1'
+        }
+      }))
+    })
+  };
+
+  const breadcrumbStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.credsettle.com'
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Resources',
+        item: 'https://www.credsettle.com/resources'
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: blog.title,
+        item: `https://www.credsettle.com/resources/${canonicalSlug}`
+      }
+    ]
   };
 
   const faqItems: BlogFaq[] =
@@ -153,8 +203,13 @@ export default async function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
+      />
       <BlogPostPageClient
         blog={clientBlog}
+        reviews={reviews}
         relatedBlogs={relatedBlogs.map(({ title, slug: relatedSlug, date, image }) => ({
           title,
           slug: relatedSlug,

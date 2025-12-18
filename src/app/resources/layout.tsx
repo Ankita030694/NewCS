@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Resources - CredSettle | Debt Settlement Guides, Articles & Legal Information",
+  title: "CredSettle Resources - Debt Settlement & Legal Guides",
   description: "Access free resources on loan settlement, debt resolution, RBI guidelines, and legal information. Expert guides, articles, and FAQs to help you understand debt settlement in India.",
   keywords: [
     "loan settlement guides",
@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     "debt settlement legal information"
   ],
   openGraph: {
-    title: "Resources - CredSettle | Debt Settlement Guides, Articles & Legal Information",
+    title: "CredSettle Resources - Debt Settlement & Legal Guides",
     description: "Access free resources on loan settlement, debt resolution, RBI guidelines, and legal information. Expert guides and articles.",
     url: "https://www.credsettle.com/resources",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Resources - CredSettle | Debt Settlement Guides, Articles & Legal Information",
+    title: "CredSettle Resources - Debt Settlement & Legal Guides",
     description: "Access free resources on loan settlement, debt resolution, RBI guidelines, and legal information.",
   },
   alternates: {

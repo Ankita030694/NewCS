@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "CredSettle - India's Leading Legal Loan Settlement Company | RBI Compliant Debt Resolution",
+  title: "CredSettle - India's Trusted Loan Settlement Company",
   description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop harassment, get RBI-compliant OTS solutions. Achieve debt freedom legally.",
   keywords: [
     "loan settlement",
@@ -32,16 +32,25 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.credsettle.com",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/credsettle-logo.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/credsettle-logo.svg", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "https://www.credsettle.com",
     siteName: "CredSettle",
-    title: "CredSettle - India's Leading Legal Loan Settlement Company",
+    title: "CredSettle - India's Trusted Loan Settlement Company",
     description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop harassment, get RBI-compliant OTS solutions.",
     images: [
       {
-        url: "https://www.credsettle.com/credsettle-logo.svg",
+        url: "/credsettle-logo.svg",
         width: 1200,
         height: 630,
         alt: "CredSettle - Legal Loan Settlement Services",
@@ -50,9 +59,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CredSettle - India's Leading Legal Loan Settlement Company",
+    title: "CredSettle - India's Trusted Loan Settlement Company",
     description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop harassment, get RBI-compliant OTS solutions.",
-    images: ["https://www.credsettle.com/credsettle-logo.svg"],
+    images: ["/credsettle-logo.svg"],
   },
   robots: {
     index: true,

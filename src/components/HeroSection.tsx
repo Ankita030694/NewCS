@@ -260,22 +260,22 @@ export default function HeroSection() {
             backdropFilter: 'blur(11.16px)'
           }}
         >
-          <h1 className="text-black font-medium text-center text-[15px] md:text-[12.96px]">Expert Loan Settlement Company in India 🇮🇳
-          </h1>
+          <span className="text-black font-medium text-center text-[15px] md:text-[12.96px]">Expert Loan Settlement Company in India 🇮🇳
+          </span>
         </div>
         <div
           className="rounded-[32.4px] px-3 py-2 md:px-[16.2px] md:py-[12.96px]"
           style={{
           }}
         >
-          <p className="text-white font-bold text-center max-w-5xl text-xl md:text-4xl" style={{ fontWeight: 500, lineHeight: '1.7' }}>
+          <h1 className="text-white font-bold text-center max-w-5xl text-xl md:text-4xl" style={{ fontWeight: 500, lineHeight: '1.7' }}>
             Facing <span 
               className="inline-block rounded-[32.4px] px-2 py-[0.1px] md:px-[13.2px] md:py-[0.48px]"
               style={{ 
                 color: 'rgb(226, 48, 28)',
               }}
             >Loan Recovery calls? </span> Get peace of mind with CredSettle, India's most trusted <br /> Loan Settlement Company.
-          </p>
+          </h1>
         </div>
         <a
           href="/contact"

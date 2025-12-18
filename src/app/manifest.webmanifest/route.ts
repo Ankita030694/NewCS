@@ -18,9 +18,9 @@ export function GET() {
           type: 'image/svg+xml'
         },
         {
-          src: '/favicon.ico',
-          sizes: '48x48',
-          type: 'image/x-icon'
+          src: '/credsettle-logo.svg',
+          sizes: '512x512',
+          type: 'image/svg+xml'
         }
       ]
     }),

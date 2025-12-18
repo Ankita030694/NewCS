@@ -89,31 +89,15 @@ export default function ServicesPageClient() {
       {/* Main Content */}
       <div className="relative z-10" style={{paddingTop: '100px', paddingLeft: '16.2px', paddingRight: '16.2px'}}>
         <div className="w-full max-w-8xl px-2">
-          {/* Desktop Page Heading */}
-          <div className="hidden md:block text-center mb-12">
+          {/* Page Heading */}
+          <div className="text-center mb-6 md:mb-12 px-4 md:px-0">
             <h1 
-              className="font-medium text-5xl mb-4"
-              style={{ 
-                color: '#0C2756',
-                fontFamily: 'Poppins',
-                fontWeight: '400',
-                lineHeight: '65px'
-              }}
-            >
-              Our High-Impact Services
-            </h1>
-          </div>
-
-          {/* Mobile Page Heading */}
-          <div className="block md:hidden text-center mb-6 px-4">
-            <h1 
-              className="font-medium mb-4"
+              className="font-medium text-[26px] md:text-5xl mb-4"
               style={{ 
                 color: '#0C2756',
                 fontFamily: 'Poppins',
                 fontWeight: '500',
-                lineHeight: '28px',
-                fontSize: '26px'
+                lineHeight: '1.2'
               }}
             >
               Our High-Impact Services

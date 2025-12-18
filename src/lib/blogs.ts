@@ -10,6 +10,7 @@ import {
   type QueryDocumentSnapshot,
 } from 'firebase/firestore';
 import type { Timestamp } from 'firebase/firestore';
+import { addDoc, serverTimestamp } from 'firebase/firestore';
 import { unstable_cache } from 'next/cache';
 import { canonicaliseSlug, ensureBlogSlug, generateSlugFromTitle } from '@/lib/slug';
 import type { BlogFaq } from '@/data/blogDefaults';
@@ -26,6 +27,14 @@ export interface BlogDocument {
   slug: string;
   subtitle: string;
   title: string;
+}
+
+export interface Review {
+  id: string;
+  author: string;
+  rating: number;
+  comment: string;
+  date: string;
 }
 
 export interface RelatedBlogSummary {
@@ -219,6 +228,31 @@ export async function getRelatedBlogs(
         ? blog.image
         : '/sample.png',
   }));
+}
+
+export async function getBlogReviews(blogId: string): Promise<Review[]> {
+  const reviewsRef = collection(db, 'blogs', blogId, 'reviews');
+  const q = query(reviewsRef, orderBy('date', 'desc'));
+  const snapshot = await getDocs(q);
+
+  return snapshot.docs.map(doc => {
+    const data = doc.data();
+    return {
+      id: doc.id,
+      author: data.author || 'Anonymous',
+      rating: data.rating || 5,
+      comment: data.comment || '',
+      date: data.date ? new Date(data.date.toDate()).toLocaleDateString() : new Date().toLocaleDateString()
+    };
+  });
+}
+
+export async function addBlogReview(blogId: string, review: { author: string; rating: number; comment: string }) {
+  const reviewsRef = collection(db, 'blogs', blogId, 'reviews');
+  await addDoc(reviewsRef, {
+    ...review,
+    date: serverTimestamp()
+  });
 }
 
 

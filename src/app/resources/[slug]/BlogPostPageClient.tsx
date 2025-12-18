@@ -10,6 +10,8 @@ import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
 import type { BlogFaq } from '@/data/blogDefaults';
 import { defaultBlogFaqs } from '@/data/blogDefaults';
+import { addBlogReview, type Review } from '@/lib/blogs';
+import { useTransition } from 'react';
 
 type BlogPost = {
   id: string;
@@ -33,6 +35,7 @@ type BlogPostPageClientProps = {
   blog: BlogPost;
   relatedBlogs: RelatedBlog[];
   canonicalSlug: string;
+  reviews: Review[];
 };
 
 const author = {
@@ -129,7 +132,39 @@ const processDescription = (html: string): ProcessedDescriptionResult => {
 const PLACEHOLDER_BLUR_DATA_URL =
   'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2NzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjcwIiBmaWxsPSIjZWZmN2ZmIi8+PC9zdmc+';
 
-const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageClientProps) => {
+
+
+const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initialReviews }: BlogPostPageClientProps) => {
+  const [reviews, setReviews] = useState<Review[]>(initialReviews);
+  const [isPending, startTransition] = useTransition();
+  const [newReview, setNewReview] = useState({ author: '', rating: 5, comment: '' });
+  const [reviewStatus, setReviewStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleReviewSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!newReview.author || !newReview.comment) return;
+
+    startTransition(async () => {
+      try {
+        await addBlogReview(blog.id, newReview);
+        setReviews(prev => [
+          {
+            id: Date.now().toString(),
+            ...newReview,
+            date: new Date().toLocaleDateString()
+          },
+          ...prev
+        ]);
+        setNewReview({ author: '', rating: 5, comment: '' });
+        setReviewStatus('success');
+        setTimeout(() => setReviewStatus('idle'), 3000);
+      } catch (error) {
+        console.error('Failed to submit review:', error);
+        setReviewStatus('error');
+      }
+    });
+  };
+
   const [isFirefox, setIsFirefox] = useState(false);
   const [expandedFaqs, setExpandedFaqs] = useState<string[]>([]);
   const [sidebarsFixed, setSidebarsFixed] = useState(true);
@@ -547,6 +582,114 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug }: BlogPostPageC
                     </div>
                     );
                   })}
+                </div>
+              </div>
+
+              <div
+                className="mt-8 rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
+                style={{
+                  background: 'linear-gradient(180deg, rgba(239, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%)'
+                }}
+              >
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-11 h-11 rounded-xl bg-[#007AFF]/12 text-[#007AFF] flex items-center justify-center">
+                    <i className="fas fa-star text-lg" aria-hidden="true"></i>
+                  </div>
+                  <div>
+                    <h2
+                      className="text-xl font-semibold"
+                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+                    >
+                      Reader Reviews
+                    </h2>
+                    <p
+                      className="text-xs"
+                      style={{ color: 'rgba(12, 39, 86, 0.65)', fontFamily: 'Poppins' }}
+                    >
+                      See what others are saying
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mb-8 p-6 rounded-2xl bg-white border border-sky-900/10">
+                  <h3 className="text-lg font-semibold mb-4" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>Write a Review</h3>
+                  <form onSubmit={handleReviewSubmit} className="space-y-4">
+                    <div>
+                      <label className="block text-sm font-medium mb-1" style={{ color: '#0C2756' }}>Name</label>
+                      <input
+                        type="text"
+                        required
+                        value={newReview.author}
+                        onChange={e => setNewReview(prev => ({ ...prev, author: e.target.value }))}
+                        className="w-full px-4 py-2 rounded-xl border border-sky-900/10 focus:outline-none focus:ring-2 focus:ring-[#007AFF]/20"
+                        placeholder="Your name"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-1" style={{ color: '#0C2756' }}>Rating</label>
+                      <div className="flex gap-2">
+                        {[1, 2, 3, 4, 5].map(star => (
+                          <button
+                            key={star}
+                            type="button"
+                            onClick={() => setNewReview(prev => ({ ...prev, rating: star }))}
+                            className={`text-2xl transition-colors ${star <= newReview.rating ? 'text-yellow-400' : 'text-gray-300'}`}
+                          >
+                            ★
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium mb-1" style={{ color: '#0C2756' }}>Comment</label>
+                      <textarea
+                        required
+                        value={newReview.comment}
+                        onChange={e => setNewReview(prev => ({ ...prev, comment: e.target.value }))}
+                        className="w-full px-4 py-2 rounded-xl border border-sky-900/10 focus:outline-none focus:ring-2 focus:ring-[#007AFF]/20 min-h-[100px]"
+                        placeholder="Share your thoughts..."
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      disabled={isPending}
+                      className="px-6 py-2 rounded-full bg-[#007AFF] text-white font-medium hover:bg-[#0E5AD0] transition disabled:opacity-50"
+                    >
+                      {isPending ? 'Submitting...' : 'Submit Review'}
+                    </button>
+                    {reviewStatus === 'success' && (
+                      <p className="text-green-600 text-sm mt-2">Review submitted successfully!</p>
+                    )}
+                    {reviewStatus === 'error' && (
+                      <p className="text-red-600 text-sm mt-2">Failed to submit review. Please try again.</p>
+                    )}
+                  </form>
+                </div>
+
+                <div className="space-y-4">
+                  {reviews.length === 0 ? (
+                    <p className="text-center text-gray-500 py-8">No reviews yet. Be the first to review!</p>
+                  ) : (
+                    reviews.map((review) => (
+                      <div
+                        key={review.id}
+                        className="p-5 rounded-2xl bg-white border border-sky-900/10"
+                      >
+                        <div className="flex justify-between items-start mb-2">
+                          <div>
+                            <p className="font-semibold text-[#0C2756]">{review.author}</p>
+                            <p className="text-xs text-gray-500">{review.date}</p>
+                          </div>
+                          <div className="flex text-yellow-400 text-sm">
+                            {Array.from({ length: 5 }).map((_, i) => (
+                              <span key={i}>{i < review.rating ? '★' : '☆'}</span>
+                            ))}
+                          </div>
+                        </div>
+                        <p className="text-sm text-gray-600 leading-relaxed">{review.comment}</p>
+                      </div>
+                    ))
+                  )}
                 </div>
               </div>
             </div>

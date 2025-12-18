@@ -88,13 +88,13 @@ function readPageFromSession(page: number): { blogs: BlogPost[]; pagination: Pag
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  '@id': 'https://credsettle.in/resources#faq',
+  '@id': 'https://www.credsettle.com/resources#faq',
   name: "CredSettle Resources FAQs",
   description:
     "Answers to common questions about CredSettle's RBI-compliant debt settlement services and resource library.",
   mainEntity: resourcesFaqItems.map((faq, index) => ({
     '@type': 'Question',
-    '@id': `https://credsettle.in/resources#faq-question-${index + 1}`,
+    '@id': `https://www.credsettle.com/resources#faq-question-${index + 1}`,
     name: faq.question,
     acceptedAnswer: {
       '@type': 'Answer',
@@ -358,7 +358,7 @@ export default function ResourcesClient({
       >
         <div className="container mx-auto max-w-7xl">
           <div className="flex-shrink-0 w-full md:w-[700px]">
-            <h3
+            <h1
               className="mb-4 md:mb-6"
               style={{
                 color: '#0C2756',
@@ -372,7 +372,7 @@ export default function ResourcesClient({
               The Debt-Free Knowledge
               <br className="hidden md:block" />
               Hub
-            </h3>
+            </h1>
             <p
               className="mb-4 md:mb-6 text-base md:text-lg lg:text-xl"
               style={{

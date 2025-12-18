@@ -538,6 +538,32 @@ const TiptapEditor: React.FC<TiptapEditorProps> = ({ content, onChange, classNam
       attributes: {
         class: 'prose prose-sm sm:prose lg:prose-lg max-w-none p-4 min-h-[300px] focus:outline-none',
       },
+      handleDrop: (view, event, slice, moved) => {
+        if (!moved && event.dataTransfer && event.dataTransfer.files && event.dataTransfer.files.length > 0) {
+          const file = event.dataTransfer.files[0];
+          if (file.type.startsWith('image/')) {
+            event.preventDefault();
+            if (handleUploadRef.current) {
+              handleUploadRef.current(file);
+            }
+            return true;
+          }
+        }
+        return false;
+      },
+      handlePaste: (view, event, slice) => {
+        if (event.clipboardData && event.clipboardData.files && event.clipboardData.files.length > 0) {
+          const file = event.clipboardData.files[0];
+          if (file.type.startsWith('image/')) {
+            event.preventDefault();
+            if (handleUploadRef.current) {
+              handleUploadRef.current(file);
+            }
+            return true;
+          }
+        }
+        return false;
+      },
     },
     autofocus: 'end',
   });
@@ -606,13 +632,16 @@ const TiptapEditor: React.FC<TiptapEditorProps> = ({ content, onChange, classNam
         alert('Failed to upload image. Please try again.');
       } finally {
         setUploading(false);
-        if (fileInputRef.current) {
-          fileInputRef.current.value = '';
-        }
       }
     },
     [editor],
   );
+
+  const handleUploadRef = useRef(handleUpload);
+
+  useEffect(() => {
+    handleUploadRef.current = handleUpload;
+  }, [handleUpload]);
 
   const handleFileInputChange = useCallback(
     (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -721,36 +750,6 @@ const TiptapEditor: React.FC<TiptapEditorProps> = ({ content, onChange, classNam
     };
   }, []);
 
-  const handleDrop = useCallback(
-    (event: React.DragEvent) => {
-      if (event.dataTransfer?.files.length) {
-        const file = event.dataTransfer.files[0];
-        if (file.type.startsWith('image/')) {
-          event.preventDefault();
-          handleUpload(file);
-          return true;
-        }
-      }
-      return false;
-    },
-    [handleUpload],
-  );
-
-  const handlePaste = useCallback(
-    (event: ClipboardEvent) => {
-      if (event.clipboardData?.files.length) {
-        const file = event.clipboardData.files[0];
-        if (file.type.startsWith('image/')) {
-          event.preventDefault();
-          handleUpload(file);
-          return true;
-        }
-      }
-      return false;
-    },
-    [handleUpload],
-  );
-
   return (
     <div className={`${className} relative`}>
       {isMounted && editor && (
@@ -761,11 +760,7 @@ const TiptapEditor: React.FC<TiptapEditorProps> = ({ content, onChange, classNam
             onImageRequest={() => fileInputRef.current?.click()}
           />
           <div className="overflow-y-auto flex-1">
-            <EditorContent
-              editor={editor}
-              onDrop={handleDrop}
-              onPaste={(event) => handlePaste(event.nativeEvent)}
-            />
+            <EditorContent editor={editor} />
           </div>
         </div>
       )}
@@ -783,3 +778,5 @@ const TiptapEditor: React.FC<TiptapEditorProps> = ({ content, onChange, classNam
 export default TiptapEditor;
 
 
+
+// Fixed runtime error related to EditorContent props

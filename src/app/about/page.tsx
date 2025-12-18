@@ -39,12 +39,12 @@ export default function AboutPage() {
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "@id": "https://credsettle.in/about#faq",
+    "@id": "https://www.credsettle.com/about#faq",
     "name": "CredSettle Debt Resolution FAQs",
     "description": "Answers to common questions about CredSettle's RBI-compliant debt resolution services and legal loan settlements.",
     "mainEntity": faqs.map((faq, index) => ({
       "@type": "Question",
-      "@id": `https://credsettle.in/about#faq-question-${index + 1}`,
+      "@id": `https://www.credsettle.com/about#faq-question-${index + 1}`,
       "name": faq.question,
       "acceptedAnswer": {
         "@type": "Answer",
@@ -146,7 +146,7 @@ export default function AboutPage() {
             {/* Left Column - Heading, Copy, CTA */}
             <div className="flex-shrink-0 w-full lg:w-auto lg:max-w-[600px] lg:flex-1">
             
-              <h3
+              <h1
                 className="mb-4 -mt-10"
                 style={{
                   color: '#0C2756',
@@ -158,7 +158,7 @@ export default function AboutPage() {
                 }}
               >
                 India's Leader in Dignified Debt Resolution
-              </h3>
+              </h1>
 
               <p
                 className="mb-4"
