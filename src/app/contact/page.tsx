@@ -244,6 +244,13 @@ function ContactPageContent() {
 
       // Explicitly track Lead event with value and currency
       if (typeof window !== 'undefined' && (window as any).fbq) {
+        // Re-initialize with user data for Advanced Matching
+        (window as any).fbq('init', '477133588597367', {
+          em: formData.email.trim().toLowerCase(),
+          ph: formData.number.trim(),
+          ct: formData.city.trim().toLowerCase(),
+        });
+
         const pixelParams: any = {
           value: 0.00,
           currency: 'INR'

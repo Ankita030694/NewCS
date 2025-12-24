@@ -75,6 +75,8 @@ export async function POST(request: NextRequest) {
         eventName: 'Lead',
         eventSourceUrl: request.headers.get('referer') || 'https://www.credsettle.com/contact',
         testEventCode: body.testEventCode,
+        value: 0.00,
+        currency: 'INR',
         clientIpAddress: request.headers.get('x-forwarded-for')?.split(',')[0] || undefined,
         clientUserAgent: request.headers.get('user-agent') || undefined,
       });
