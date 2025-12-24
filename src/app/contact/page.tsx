@@ -198,10 +198,22 @@ export default function ContactPage() {
       today.getMonth() + 1
     ).padStart(2, '0')}-${today.getFullYear()}`;
 
+    const getCookie = (name: string) => {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop()?.split(';').shift();
+      return '';
+    };
+
+    const fbc = getCookie('_fbc');
+    const fbp = getCookie('_fbp');
+
     const submitData = {
       ...formData,
       created: Date.now(),
-      date: formattedDate
+      date: formattedDate,
+      fbc,
+      fbp
     };
 
     try {

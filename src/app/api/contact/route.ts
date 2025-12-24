@@ -57,6 +57,8 @@ export async function POST(request: NextRequest) {
       number: body.number,
       personalLoanDues: body.personalLoanDues,
       queries: body.queries || '',
+      fbc: body.fbc || '',
+      fbp: body.fbp || '',
     };
 
     // Save to Firestore
