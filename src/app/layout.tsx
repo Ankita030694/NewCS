@@ -110,7 +110,14 @@ export default function RootLayout({
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '477133588597367');
+            
+            const userEmail = localStorage.getItem('credsettle:user_email');
+            const userPhone = localStorage.getItem('credsettle:user_phone');
+            const userData = {};
+            if (userEmail) userData.em = userEmail;
+            if (userPhone) userData.ph = userPhone;
+
+            fbq('init', '477133588597367', userData);
             fbq('track', 'PageView');
           `}
         </Script>

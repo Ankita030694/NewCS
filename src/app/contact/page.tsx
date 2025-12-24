@@ -234,6 +234,10 @@ export default function ContactPage() {
       if (process.env.NODE_ENV !== 'production') {
         console.log('Data Submitted!', result);
       }
+
+      // Save user data for Meta Pixel Advanced Matching
+      localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
+      localStorage.setItem('credsettle:user_phone', formData.number.trim());
       
       // Redirect to thank-you page on successful submission
       router.push('/thank-you');

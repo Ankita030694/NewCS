@@ -48,6 +48,9 @@ export default function LoginPageClient() {
       localStorage.setItem('credsettle:sessionToken', data?.token || '');
       localStorage.setItem('credsettle:refreshToken', data?.refreshToken || '');
 
+      // Save user data for Meta Pixel Advanced Matching
+      localStorage.setItem('credsettle:user_email', email.trim().toLowerCase());
+
       setStatus({
         type: 'success',
         message: 'You are logged in. Redirecting to the dashboard...',

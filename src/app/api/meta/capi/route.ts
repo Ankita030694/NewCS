@@ -12,7 +12,7 @@ function hashData(data: string) {
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
-        let { email, phone, fbc, fbp, eventName = 'Lead', eventSourceUrl } = body;
+        let { email, phone, fbc, fbp, eventName = 'Lead', eventSourceUrl, testEventCode } = body;
 
         if (!ACCESS_TOKEN) {
             console.error('META_ACCESS_TOKEN is not defined');
@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
         if (fbc) userData.fbc = fbc;
         if (fbp) userData.fbp = fbp;
 
-        const eventData = {
+        const eventData: any = {
             data: [
                 {
                     event_name: eventName,
@@ -60,6 +60,10 @@ export async function POST(request: NextRequest) {
                 },
             ],
         };
+
+        if (testEventCode) {
+            eventData.test_event_code = testEventCode;
+        }
 
         const response = await fetch(`https://graph.facebook.com/v18.0/${PIXEL_ID}/events?access_token=${ACCESS_TOKEN}`, {
             method: 'POST',
