@@ -1,11 +1,11 @@
 'use client';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Script from 'next/script';
 
-export default function ContactPage() {
+function ContactPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const testEventCode = searchParams.get('test_event_code');
@@ -797,5 +797,17 @@ export default function ContactPage() {
         <Footer />
       </div>
     </div>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-white">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#007AFF]"></div>
+      </div>
+    }>
+      <ContactPageContent />
+    </Suspense>
   );
 }
