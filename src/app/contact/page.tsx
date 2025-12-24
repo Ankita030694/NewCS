@@ -2,11 +2,13 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Script from 'next/script';
 
 export default function ContactPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const testEventCode = searchParams.get('test_event_code');
   const [isFirefox, setIsFirefox] = useState(false);
   const [loading, setLoading] = useState(false);
   const [numberError, setNumberError] = useState('');
@@ -213,7 +215,8 @@ export default function ContactPage() {
       created: Date.now(),
       date: formattedDate,
       fbc,
-      fbp
+      fbp,
+      testEventCode
     };
 
     try {
@@ -241,10 +244,14 @@ export default function ContactPage() {
 
       // Explicitly track Lead event with value and currency
       if (typeof window !== 'undefined' && (window as any).fbq) {
-        (window as any).fbq('track', 'Lead', {
+        const pixelParams: any = {
           value: 0.00,
           currency: 'INR'
-        });
+        };
+        if (testEventCode) {
+          pixelParams.test_event_code = testEventCode;
+        }
+        (window as any).fbq('track', 'Lead', pixelParams);
       }
       
       // Redirect to thank-you page on successful submission

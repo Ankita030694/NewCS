@@ -64,6 +64,25 @@ export async function POST(request: NextRequest) {
     // Save to Firestore
     const docRef = await addDoc(collection(db, 'Form'), formData);
 
+    // Trigger Meta CAPI event
+    try {
+      const { sendMetaCAPIEvent } = await import('@/lib/meta');
+      await sendMetaCAPIEvent({
+        email: body.email,
+        phone: body.number,
+        fbc: body.fbc,
+        fbp: body.fbp,
+        eventName: 'Lead',
+        eventSourceUrl: request.headers.get('referer') || 'https://www.credsettle.com/contact',
+        testEventCode: body.testEventCode,
+        clientIpAddress: request.headers.get('x-forwarded-for')?.split(',')[0] || undefined,
+        clientUserAgent: request.headers.get('user-agent') || undefined,
+      });
+    } catch (capiError) {
+      console.error('Failed to trigger Meta CAPI from contact API:', capiError);
+      // We don't fail the request if CAPI fails
+    }
+
     // Return success response
     return NextResponse.json(
       {
