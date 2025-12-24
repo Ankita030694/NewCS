@@ -12,7 +12,7 @@ function hashData(data: string) {
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
-        let { email, phone, fbc, fbp, eventName = 'Lead', eventSourceUrl, testEventCode } = body;
+        let { email, phone, fbc, fbp, eventName = 'Lead', eventSourceUrl, testEventCode, value, currency } = body;
 
         if (!ACCESS_TOKEN) {
             console.error('META_ACCESS_TOKEN is not defined');
@@ -57,6 +57,10 @@ export async function POST(request: NextRequest) {
                     action_source: 'website',
                     event_source_url: eventSourceUrl || request.headers.get('referer') || 'https://www.credsettle.com',
                     user_data: userData,
+                    custom_data: {
+                        value: value || 0.00,
+                        currency: currency || 'INR',
+                    },
                 },
             ],
         };

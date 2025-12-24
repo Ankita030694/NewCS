@@ -238,6 +238,14 @@ export default function ContactPage() {
       // Save user data for Meta Pixel Advanced Matching
       localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
       localStorage.setItem('credsettle:user_phone', formData.number.trim());
+
+      // Explicitly track Lead event with value and currency
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'Lead', {
+          value: 0.00,
+          currency: 'INR'
+        });
+      }
       
       // Redirect to thank-you page on successful submission
       router.push('/thank-you');
