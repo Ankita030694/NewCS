@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const WHATSAPP_NUMBER = '8800226635';
-const WHATSAPP_URL = `https://wa.me/91${WHATSAPP_NUMBER}`;
+const WHATSAPP_URL = `https://wa.me/91${WHATSAPP_NUMBER}?text=${encodeURIComponent('I want to settle my loans')}`;
 
 export default function WhatsAppWidget() {
   return (

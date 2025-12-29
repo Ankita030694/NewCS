@@ -44,6 +44,10 @@ function ContactPageContent() {
   const handleNumberInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     let value = e.target.value.replace(/\D/g, ''); // Remove non-numeric characters
     
+    if (value.startsWith('0')) {
+      value = value.slice(1); // Remove leading 0
+    }
+
     if (value.length > 10) {
       value = value.slice(0, 10); // Restrict input to 10 digits
     }
@@ -57,14 +61,14 @@ function ContactPageContent() {
 
   const handleEmailInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
-    const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     
     setFormData(prev => ({ ...prev, email: value }));
     
-    if (value === '' || gmailRegex.test(value)) {
+    if (value === '' || emailRegex.test(value)) {
       setErrors(prev => ({ ...prev, email: '' }));
     } else {
-      setErrors(prev => ({ ...prev, email: 'Please enter a valid Gmail address.' }));
+      setErrors(prev => ({ ...prev, email: 'Please enter a valid email address.' }));
     }
   };
 
@@ -105,9 +109,9 @@ function ContactPageContent() {
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
     } else {
-      const gmailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
-      if (!gmailRegex.test(formData.email)) {
-        newErrors.email = 'Please enter a valid Gmail address.';
+      const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      if (!emailRegex.test(formData.email)) {
+        newErrors.email = 'Please enter a valid email address.';
       }
     }
 
@@ -157,7 +161,7 @@ function ContactPageContent() {
     {
       question: "What information should I include in the contact form?",
       answer:
-        "Please share your basic details including name, mobile number, Gmail address, city, employment status, monthly income, current credit card and personal loan dues, whether you are facing harassment, your ability to pay an initial amount, and any specific queries."
+        "Please share your basic details including name, mobile number, email address, city, employment status, monthly income, current credit card and personal loan dues, whether you are facing harassment, your ability to pay an initial amount, and any specific queries."
     },
     {
       question: "What happens after I submit the form?",
@@ -534,7 +538,7 @@ function ContactPageContent() {
                       value={formData.email}
                       onChange={handleEmailInput}
                       className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 placeholder-[rgba(12,39,86,0.70)] text-black text-xs md:text-sm"
-                      placeholder="example@gmail.com"
+                      placeholder="example@email.com"
                     />
                     {errors.email && (
                       <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.email}</p>
