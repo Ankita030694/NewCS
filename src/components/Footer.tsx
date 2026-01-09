@@ -45,6 +45,8 @@ export default function Footer() {
                   <a href="/services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Services</a>
                   <a href="/contact" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Contact Us</a>
                   <a href="/resources" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Resources</a>
+                  <a href="/how-to-get-freed-from-debt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Get Freed Guide</a>
+                  <a href="/how-to-settle-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Settle Loan</a>
                 </div>
               </div>
 

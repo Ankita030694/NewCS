@@ -431,9 +431,17 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Generic SEO Educational Pages
   urls.push({
-    loc: `${baseUrl}/freed-alternative-credsettle`,
-    priority: 0.9, // High priority - landing page
+    loc: `${baseUrl}/how-to-get-freed-from-debt`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-settle-loan`,
+    priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
   });
