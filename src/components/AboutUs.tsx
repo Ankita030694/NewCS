@@ -380,16 +380,19 @@ export default function AboutUsSection() {
             </h3>
             <div className="grid grid-cols-3 grid-rows-2 md:grid-cols-6 md:grid-rows-1 gap-6 sm:gap-7 md:gap-8 place-items-center">
               {[
-                { src: '/guideline1.svg', alt: 'RBI Guidelines Compliance' },
-                { src: '/guideline2.svg', alt: 'Financial Regulations Compliance' },
-                { src: '/guideline3.svg', alt: 'Legal Compliance Standards' },
-                { src: '/guideline4.svg', alt: 'Banking Regulations Compliance' },
-                { src: '/guideline5.svg', alt: 'Consumer Protection Guidelines' },
-                { src: '/guideline6.svg', alt: 'Debt Settlement Regulations' },
+                { src: '/guideline1.svg', alt: 'Bar Council of India', href: 'http://www.barcouncilofindia.org/' },
+                { src: '/guideline2.svg', alt: 'Banking Codes and Standards Board of India', href: 'http://www.bcsbi.org.in/' },
+                { src: '/guideline3.svg', alt: 'Ministry of Law and Justice', href: 'https://lawmin.gov.in/' },
+                { src: '/guideline4.svg', alt: 'Ministry of Micro, Small and Medium Enterprises', href: 'https://msme.gov.in/' },
+                { src: '/guideline5.svg', alt: 'National Human Rights Commission', href: 'https://nhrc.nic.in/' },
+                { src: '/guideline6.svg', alt: 'Telecom Regulatory Authority of India', href: 'https://www.trai.gov.in/' },
               ].map((item, index) => (
-                <div 
+                <a 
                   key={index}
-                  className="transition-all duration-300 hover:scale-110"
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-all duration-300 hover:scale-110 block"
                   style={{ filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))' }}
                 >
                   <img 
@@ -397,7 +400,7 @@ export default function AboutUsSection() {
                     alt={item.alt} 
                     className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto transition-all duration-300"
                   />
-                </div>
+                </a>
               ))}
             </div>
           </div>

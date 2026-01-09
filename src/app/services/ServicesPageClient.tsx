@@ -1513,6 +1513,18 @@ export default function ServicesPageClient() {
               </div>
             </div>
           </section>
+
+          {/* Quick Links Section */}
+          <section className="w-full pb-12">
+             <div className="w-full max-w-7xl mx-auto px-4 text-center">
+                <h3 className="text-xl font-medium text-[#0C2756] mb-6">Explore More Pages</h3>
+                <div className="flex flex-col items-center gap-4">
+                    <p className="text-sm text-gray-600 bg-gray-50 px-6 py-3 rounded-full hover:bg-gray-100 transition-colors">
+                        Looking for alternatives? <a href="/freed-alternative-credsettle" className="text-blue-600 font-medium hover:underline ml-1">Compare CredSettle vs Freed</a>
+                    </p>
+                </div>
+             </div>
+          </section>
         </div>
       </div>
       

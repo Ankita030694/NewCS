@@ -241,29 +241,29 @@ async function getAllBlogSlugs(): Promise<string[]> {
   try {
     const blogsRef = collection(db, 'blogs');
     const querySnapshot = await getDocs(blogsRef);
-    
+
     const slugs: string[] = [];
-    
+
     querySnapshot.docs.forEach((doc) => {
       const data = doc.data();
       const title = data.title || '';
-      
+
       // Use existing slug if available, otherwise generate from title
-      let slug = data.slug && data.slug.trim() !== '' 
-        ? data.slug.trim() 
+      let slug = data.slug && data.slug.trim() !== ''
+        ? data.slug.trim()
         : generateSlugFromTitle(title);
-      
+
       // If still no slug, use blog ID as fallback
       if (!slug) {
         slug = doc.id || `blog-${Date.now()}`;
       }
-      
+
       // Only add non-empty slugs
       if (slug && slug.trim() !== '') {
         slugs.push(slug);
       }
     });
-    
+
     // Remove duplicates
     return [...new Set(slugs)];
   } catch (error) {
@@ -381,7 +381,7 @@ async function generateSitemap(): Promise<string> {
   // SECTION 1: MAIN STATIC PAGES
   // ========================================================================
   // These are the most important pages on the website (highest priority)
-  
+
   urls.push({
     loc: `${baseUrl}/`,
     priority: 1.0, // Highest priority - homepage
@@ -431,11 +431,18 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  urls.push({
+    loc: `${baseUrl}/freed-alternative-credsettle`,
+    priority: 0.9, // High priority - landing page
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
   // These services don't have nested routes - just single pages
-  
+
   for (const service of simpleServices) {
     urls.push({
       loc: `${baseUrl}/services/${service}`,
@@ -455,7 +462,7 @@ async function generateSitemap(): Promise<string> {
 
   // Loop through each loan settlement service type
   for (const serviceType of loanSettlementServices) {
-    
+
     // 3.1: Main service page
     // Example: /services/personal-loan-settlement
     urls.push({
@@ -497,10 +504,10 @@ async function generateSitemap(): Promise<string> {
   // ========================================================================
   // These are blog posts and articles under /resources/{slug}
   // Dynamically fetch all blog slugs from Firebase
-  
+
   try {
     const blogSlugs = await getAllBlogSlugs();
-    
+
     for (const slug of blogSlugs) {
       urls.push({
         loc: `${baseUrl}/resources/${slug}`,
@@ -518,18 +525,18 @@ async function generateSitemap(): Promise<string> {
   // GENERATE XML SITEMAP
   // ========================================================================
   // Convert the URL array into proper XML sitemap format
-  
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
-  .map(
-    (url) => `  <url>
+      .map(
+        (url) => `  <url>
     <loc>${url.loc}</loc>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>${url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ''}
   </url>`
-  )
-  .join('\n')}
+      )
+      .join('\n')}
 </urlset>`;
 
   return sitemap;
