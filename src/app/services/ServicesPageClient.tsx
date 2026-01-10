@@ -1516,12 +1516,36 @@ export default function ServicesPageClient() {
 
           {/* Quick Links Section */}
           <section className="w-full pb-12">
-             <div className="w-full max-w-7xl mx-auto px-4 text-center">
-                <h3 className="text-xl font-medium text-[#0C2756] mb-6">Explore More Pages</h3>
-                <div className="flex flex-col items-center gap-4">
-                    <p className="text-sm text-gray-600 bg-gray-50 px-6 py-3 rounded-full hover:bg-gray-100 transition-colors">
-                        Looking for alternatives? <a href="/freed-alternative-credsettle" className="text-blue-600 font-medium hover:underline ml-1">Compare CredSettle vs Freed</a>
-                    </p>
+             <div className="w-full max-w-7xl mx-auto px-4">
+                <h3 className="text-xl font-medium text-[#0C2756] mb-6 text-center">Explore More Guides</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    {/* How to Get Freed Card */}
+                    <a href="/how-to-get-freed-from-debt" className="group block no-underline">
+                        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col items-center text-center group-hover:-translate-y-1">
+                            <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mb-4 text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            </div>
+                            <h4 className="text-lg font-medium text-[#0C2756] mb-2 group-hover:text-[#007AFF] transition-colors">How to Get Freed from Debt</h4>
+                            <p className="text-sm text-gray-600 mb-4 px-4">Understand the legal ways to break free from debt traps and harassment.</p>
+                            <span className="text-[#007AFF] text-sm font-medium mt-auto flex items-center gap-1 group-hover:gap-2 transition-all">
+                                Read Guide <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                            </span>
+                        </div>
+                    </a>
+
+                    {/* How to Settle Loan Card */}
+                    <a href="/how-to-settle-loan" className="group block no-underline">
+                        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col items-center text-center group-hover:-translate-y-1">
+                            <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mb-4 text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1v22m-9-9h18m-9-9a9 9 0 0 1 0 18"></path></svg>
+                            </div>
+                            <h4 className="text-lg font-medium text-[#0C2756] mb-2 group-hover:text-[#007AFF] transition-colors">How to Settle Loan Online</h4>
+                            <p className="text-sm text-gray-600 mb-4 px-4">A complete step-by-step guide to loan settlement, timeline, and process.</p>
+                            <span className="text-[#007AFF] text-sm font-medium mt-auto flex items-center gap-1 group-hover:gap-2 transition-all">
+                                Read Guide <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                            </span>
+                        </div>
+                    </a>
                 </div>
              </div>
           </section>
