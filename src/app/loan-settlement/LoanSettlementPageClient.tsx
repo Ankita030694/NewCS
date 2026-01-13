@@ -412,6 +412,18 @@ export default function LoanSettlementPageClient() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/loan-settlement/icici" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      ICICI Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/idfc" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      IDFC Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
                       Credit Card Settlement

@@ -59,6 +59,7 @@ export async function POST(request: NextRequest) {
       queries: body.queries || '',
       fbc: body.fbc || '',
       fbp: body.fbp || '',
+      eventId: body.eventId || '',
     };
 
     // Save to Firestore
@@ -73,6 +74,7 @@ export async function POST(request: NextRequest) {
         fbc: body.fbc,
         fbp: body.fbp,
         eventName: 'Lead',
+        eventId: body.eventId,
         eventSourceUrl: request.headers.get('referer') || 'https://www.credsettle.com/contact',
         testEventCode: body.testEventCode,
         value: 0.00,

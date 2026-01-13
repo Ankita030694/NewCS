@@ -13,6 +13,7 @@ export interface MetaEventParams {
     fbc?: string;
     fbp?: string;
     eventName?: string;
+    eventId?: string;
     eventSourceUrl?: string;
     testEventCode?: string;
     value?: number;
@@ -54,6 +55,7 @@ export async function sendMetaCAPIEvent(params: MetaEventParams) {
             {
                 event_name: eventName,
                 event_time: Math.floor(Date.now() / 1000),
+                event_id: params.eventId,
                 action_source: 'website',
                 event_source_url: eventSourceUrl || 'https://www.credsettle.com',
                 user_data: userData,

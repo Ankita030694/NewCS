@@ -214,13 +214,16 @@ function ContactPageContent() {
     const fbc = getCookie('_fbc');
     const fbp = getCookie('_fbp');
 
+    const eventId = `lead_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+
     const submitData = {
       ...formData,
       created: Date.now(),
       date: formattedDate,
       fbc,
       fbp,
-      testEventCode
+      testEventCode,
+      eventId
     };
 
     try {
@@ -262,7 +265,7 @@ function ContactPageContent() {
         if (testEventCode) {
           pixelParams.test_event_code = testEventCode;
         }
-        (window as any).fbq('track', 'Lead', pixelParams);
+        (window as any).fbq('track', 'Lead', pixelParams, { eventID: eventId });
       }
       
       // Redirect to thank-you page on successful submission

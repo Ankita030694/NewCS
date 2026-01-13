@@ -478,6 +478,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Kotak Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/kotak`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
