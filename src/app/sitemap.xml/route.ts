@@ -462,6 +462,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // ICICI Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/icici`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // IDFC Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/idfc`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
