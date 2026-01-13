@@ -1,31 +1,91 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import FAQWithSchema from '@/components/FAQWithSchema';
-import TableOfContents from '@/components/TableOfContents';
-import CTAButton from '@/components/CTAButton';
+import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 
 export default function LoanSettlementPageClient() {
-  const [isFirefox, setIsFirefox] = useState(false);
+  const [activeId, setActiveId] = useState<string>('');
+  const [isMobile, setIsMobile] = useState(false);
+  const mobileNavRef = useRef<HTMLDivElement>(null);
 
+  // Check if mobile for specific behaviors
   useEffect(() => {
-    const userAgent = navigator.userAgent.toLowerCase();
-    setIsFirefox(userAgent.includes('firefox'));
+    const checkMobile = () => setIsMobile(window.innerWidth < 1024);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const headings = [
-    { id: 'introduction', text: 'Comprehensive Guide to Loan Settlement', level: 2 },
-    { id: 'what-is-settlement', text: 'What is Loan Settlement?', level: 2 },
-    { id: 'consolidation-vs-settlement', text: 'Debt Consolidation vs. Debt Settlement', level: 2 },
-    { id: 'debt-collectors', text: 'Dealing with Debt Collectors and Agencies', level: 2 },
-    { id: 'types-of-debt', text: 'Types of Debt We Resolve', level: 2 },
-    { id: 'debt-management', text: 'Debt Management Plans and Relief Options', level: 2 },
-    { id: 'financial-freedom', text: 'The Path to Becoming Debt Free', level: 2 },
-    { id: 'global-debt', text: 'Understanding National and Global Debt Context', level: 2 },
-    { id: 'reviews', text: 'Client Reviews', level: 2 },
-    { id: 'faqs', text: 'Frequently Asked Questions', level: 2 }
+  // Intersection Observer for Active Section
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveId(entry.target.id);
+          }
+        });
+      },
+      {
+        rootMargin: '-100px 0px -35% 0px', // Adjust trigger point
+        threshold: 0.1
+      }
+    );
+
+    const headings = document.querySelectorAll('h2[id], h3[id]');
+    headings.forEach((heading) => observer.observe(heading));
+
+    return () => {
+      headings.forEach((heading) => observer.unobserve(heading));
+    };
+  }, []);
+
+  // Scroll active item into view on mobile
+  useEffect(() => {
+    if (isMobile && activeId && mobileNavRef.current) {
+      const activeLink = mobileNavRef.current.querySelector(`[href="#${activeId}"]`);
+      if (activeLink) {
+        activeLink.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+        });
+      }
+    }
+  }, [activeId, isMobile]);
+
+  /* 
+    Helper class for links 
+  */
+  const getLinkClass = (id: string, isMobileLink: boolean) => {
+    const isActive = activeId === id;
+    if (isMobileLink) {
+      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${
+        isActive 
+          ? 'border-blue-600 text-blue-600 font-semibold' 
+          : 'border-transparent text-gray-600 hover:text-blue-600'
+      }`;
+    } else {
+      // Desktop vertical style
+      return `block transition-all duration-200 pl-3 border-l-2 ${
+        isActive
+          ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
+          : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
+      }`;
+    }
+  };
+
+  const navLinks = [
+    { id: 'introduction', label: 'Introduction' },
+    { id: 'what-is-settlement', label: 'What is Settlement?' },
+    { id: 'consolidation-vs-settlement', label: 'Consolidation vs Settlement' },
+    { id: 'debt-collectors', label: 'Debt Collectors' },
+    { id: 'types-of-debt', label: 'Types of Debt' },
+    { id: 'debt-management', label: 'Debt Management' },
+    { id: 'financial-freedom', label: 'Path to Freedom' },
+    { id: 'global-debt', label: 'Global Context' },
+    { id: 'reviews', label: 'Reviews' },
+    { id: 'faqs', label: 'FAQs' },
   ];
 
   const faqs = [
@@ -56,528 +116,321 @@ export default function LoanSettlementPageClient() {
   ];
 
   return (
-    <div className="relative min-h-screen bg-white mt-6">
-      {/* Background Circle Effect */}
-      {!isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background: '#007AFF',
-            filter: 'blur(400px)',
-            WebkitFilter: 'blur(400px)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.6,
-            willChange: 'filter',
-            backfaceVisibility: 'hidden'
-          }}
-        />
-      )}
+    <>
+      {/* Breadcrumb Section */}
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
+            <ol className="inline-flex items-center space-x-1 md:space-x-3">
+              <li className="inline-flex items-center">
+                <Link href="/" className="inline-flex items-center hover:text-blue-600">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <div className="flex items-center">
+                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
+                  </svg>
+                  <span className="ml-1 font-medium text-gray-500 md:ml-2">
+                    Loan Settlement
+                  </span>
+                </div>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
 
-      {isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background:
-              'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.9
-          }}
-        />
-      )}
-
-      <Navbar />
-
-      <div className="relative z-10" style={{ paddingTop: '84px' }}>
-        {/* Hero Section */}
-        <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-4"
-          style={{ maxWidth: '1280px', marginBottom: '48px' }}
-        >
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '24px' }}>
-            <div className="flex-1 flex items-center justify-center w-full lg:w-auto order-1 lg:order-2" style={{ minWidth: '0', position: 'relative' }}>
-              <img
-                src="/personalhero.png"
-                alt="Loan Settlement Services"
-                className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]"
-                style={{
-                  height: 'auto',
-                  transform: 'rotate(335deg)',
-                  transformOrigin: 'center'
-                }}
-              />
-            </div>
-            <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
-              <h1
-                className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[65px]"
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontStyle: 'normal',
-                  fontWeight: '400',
-                  marginBottom: '12px'
+      {/* Main Content Layout - 3 Column */}
+      <div className="max-w-[1440px] mx-auto px-4 py-12">
+        
+        {/* Mobile: Sticky Horizontal Scroll Table of Contents */}
+        <div className="lg:hidden sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm -mx-4 px-4 py-3 mb-8 flex items-center overflow-x-auto no-scrollbar" ref={mobileNavRef}>
+          <nav className="flex gap-6 text-sm font-medium">
+            {navLinks.map((link) => (
+              <a 
+                key={link.id} 
+                href={`#${link.id}`} 
+                className={getLinkClass(link.id, true)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.querySelector(`#${link.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                  setActiveId(link.id);
                 }}
               >
-                Loan Settlement Services – Your Path to Being Debt Free
-              </h1>
-              <p
-                className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  lineHeight: '28px',
-                  marginBottom: '20px'
-                }}
-              >
-                Are you overwhelmed by credit card debt, personal loans, or calls from a debt collector? CredSettle offers professional debt relief and loan settlement services. We negotiate with collection agencies to reduce your debt by up to 50%, helping you avoid bankruptcy and regain financial control. Whether you are looking for debt consolidation or a way to manage bad debts, we are here to help.
-              </p>
-              <button
-                className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]"
-                style={{
-                  borderRadius: '32.4px',
-                  background: '#007AFF',
-                  boxShadow:
-                    '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset'
-                }}
-              >
-                Get Free Consultation Now
-              </button>
-            </div>
-          </div>
-        </section>
+                {link.label}
+              </a>
+            ))}
+          </nav>
+        </div>
 
-        {/* Main Content Section with TOC */}
-        <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-5"
-          style={{
-            maxWidth: '1280px',
-            marginBottom: '48px',
-            position: 'relative'
-          }}
-        >
-          <div 
-            className="flex flex-col gap-4 lg:gap-8" 
-            style={{ 
-              alignItems: 'flex-start',
-              position: 'relative'
-            }}
-          >
-            {/* Table of Contents */}
-            <div className="w-full">
-              <TableOfContents headings={headings} />
-            </div>
-
-            {/* Main Content */}
-            <div className="w-full" style={{ minWidth: '0', minHeight: '100vh' }}>
-              
-              {/* Introduction */}
-              <section id="introduction" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  Comprehensive Guide to Loan Settlement
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    In today's volatile economic climate, managing finances can be a daunting task. Many individuals find themselves trapped in a cycle of <strong>debt</strong>, struggling to make minimum payments on <strong>credit card debt</strong>, personal loans, and other financial obligations. The stress of dealing with a <strong>debt collector</strong> or receiving notices from a <strong>collection agency</strong> can be overwhelming. However, there are viable solutions available. <strong>Loan settlement</strong>, also known as <strong>debt settlement</strong> or <strong>debt relief</strong>, is a powerful strategy for those who are unable to repay their debts in full.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    This comprehensive guide will explore the intricacies of loan settlement, compare it with <strong>debt consolidation</strong> and <strong>bankruptcy</strong>, and provide actionable advice on how to navigate the process. We will also touch upon related concepts such as <strong>debt management plans</strong>, <strong>credit counseling</strong>, and the role of regulations like the <strong>FDCPA</strong> (Fair Debt Collection Practices Act) in protecting consumers. Whether you are dealing with <strong>bad debts</strong>, looking for <strong>national debt relief</strong>, or simply want to understand the <strong>cost of debt</strong>, this page is your ultimate resource.
-                  </p>
-                </div>
-              </section>
-
-              {/* What is Loan Settlement */}
-              <section id="what-is-settlement" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  What is Loan Settlement?
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Loan settlement</strong> is a financial negotiation process where a debtor negotiates with a creditor (such as a bank, credit card company, or <strong>debt collection agency</strong>) to pay a lump sum amount that is less than the total outstanding balance. Once this agreed-upon amount is paid, the creditor considers the debt fully satisfied and closes the account. This is often the best option for individuals who are facing severe financial hardship and are at risk of <strong>bankruptcy</strong>.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    For example, if you have a <strong>credit card debt</strong> of ₹5,00,000 that you cannot repay due to job loss or medical emergency, a settlement company like CredSettle might negotiate with the bank to accept ₹2,50,000 as a full and final settlement. This provides immediate <strong>debt relief</strong> and allows you to become <strong>debt free</strong> much faster than making minimum payments for years.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    It is important to distinguish settlement from other forms of debt management. Unlike a <strong>debt management plan</strong> where you pay the full amount over time (often with reduced interest), settlement actually reduces the principal amount you owe. This reduction is what makes it such an attractive option for those drowning in <strong>bad debts</strong>.
-                  </p>
-                </div>
-              </section>
-
-              {/* Consolidation vs Settlement */}
-              <section id="consolidation-vs-settlement" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  Debt Consolidation vs. Debt Settlement
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    Two of the most common terms you will hear when looking for financial help are <strong>debt consolidation</strong> and <strong>debt settlement</strong>. While they sound similar, they work very differently.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Debt Consolidation:</strong> This involves taking out a new loan, often called a <strong>debt consolidation loan</strong>, to pay off multiple smaller debts. The goal is to <strong>consolidate debt</strong> into a single monthly payment, ideally with a lower interest rate. <strong>Consolidated credit</strong> can simplify your finances, but it does not reduce the total amount you owe. You are simply moving the debt from one place to another. If you have good credit and a steady income, <strong>consolidation loans</strong> can be a great tool.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Debt Settlement:</strong> As explained earlier, this involves negotiating to pay <em>less</em> than what you owe. This is typically for people who cannot afford a <strong>debt consolidation loan</strong> or whose credit score has already been impacted by missed payments. While consolidation is about restructuring, settlement is about <strong>debt relief</strong> and reduction.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    When searching for "<strong>how to get out of debt</strong>," it is crucial to assess your financial situation honestly. If you can afford the payments but are just disorganized, <strong>consolidate</strong>. If you are insolvent and cannot pay, settle.
-                  </p>
-                </div>
-              </section>
-
-              {/* Dealing with Debt Collectors */}
-              <section id="debt-collectors" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  Dealing with Debt Collectors and Agencies
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    One of the most stressful aspects of having <strong>bad debts</strong> is dealing with a <strong>debt collector</strong>. Whether it is a bank\'s internal team or a third-party <strong>collection agency</strong> (like <strong>Moorcroft Group</strong> in the UK or various agencies in India), the harassment can be relentless.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    It is important to know your rights. In the United States, the <strong>FDCPA</strong> (Fair Debt Collection Practices Act) strictly regulates what <strong>the debt collector</strong> can and cannot do. They cannot call you at odd hours, threaten you, or lie to you. In India, the RBI has similar Fair Practices Codes for <strong>credit collection services</strong>.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    When you engage a professional settlement service like CredSettle, we take over the communication with the <strong>debt collection agency</strong>. We inform them that you are represented by us, which typically stops the direct calls to you. We then negotiate directly with them to reach a settlement. This layer of protection is invaluable for your peace of mind.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Remember, a <strong>debt collector</strong> is often paid a commission on what they collect. They are motivated to get as much as possible from you. Our job is to counter that and protect your interests.
-                  </p>
-                </div>
-              </section>
-
-              {/* Types of Debt */}
-              <section id="types-of-debt" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  Types of Debt We Resolve
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    We specialize in settling unsecured debts. The most common types include:
-                  </p>
-                  <ul className="list-disc pl-6 mb-4 space-y-2">
-                    <li><strong>Credit Card Debt:</strong> This is often the most expensive debt due to high interest rates. It is also the easiest to settle.</li>
-                    <li><strong>Personal Loans:</strong> Unsecured loans from banks and NBFCs.</li>
-                    <li><strong>Medical Bills:</strong> Often a cause of sudden financial distress.</li>
-                    <li><strong>Business Loans:</strong> Unsecured business lines of credit.</li>
-                  </ul>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>A Note on Student Loans:</strong> Many people search for "<strong>federal student loan forgiveness</strong>" or help with "<strong>AES student loans</strong>". It is important to understand that federal student loans (especially in the US) have specific government programs for forgiveness and income-driven repayment. They are generally not eligible for private debt settlement in the traditional sense. However, private student loans can sometimes be settled if they are in default. If you are struggling with student debt, we recommend exploring <strong>consolidation loans</strong> or specific government relief programs first.
-                  </p>
-                </div>
-              </section>
-
-              {/* Debt Management */}
-              <section id="debt-management" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  Debt Management Plans and Relief Options
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    Apart from settlement and consolidation, there are other avenues for <strong>debt relief</strong>.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Debt Management Plan (DMP):</strong> This is usually arranged by a <strong>credit counseling</strong> agency. You make one monthly payment to the agency, and they distribute it to your creditors. They may negotiate lower interest rates but usually do not reduce the principal.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>IVA (Individual Voluntary Arrangement):</strong> This is a formal agreement in the UK where you pay back a portion of your debts over a set period. It is an alternative to bankruptcy.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Debt Relief Order:</strong> Another UK-specific option for those with low income and few assets.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Bankruptcy:</strong> This is the legal process of declaring that you cannot pay your debts. It has severe long-term consequences on your credit. Settlement is often seen as the last alternative before bankruptcy.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    At CredSettle, we help you evaluate all these options. While we specialize in settlement, we believe in holistic <strong>debt management</strong>. We want to ensure you choose the path that leads you to become <strong>debt free</strong> with the least amount of long-term damage.
-                  </p>
-                </div>
-              </section>
-
-              {/* Financial Freedom */}
-              <section id="financial-freedom" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  The Path to Becoming Debt Free
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    Becoming <strong>debt free</strong> is not just about money; it is about reclaiming your life. The mental burden of debt can affect your health, relationships, and career. By taking proactive steps—whether through <strong>debt consolidation</strong>, settlement, or a <strong>debt management plan</strong>—you are taking control of your future.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Our process is simple:
-                    1. <strong>Consultation:</strong> We analyze your <strong>net debt</strong> and <strong>debt to income ratio</strong>.
-                    2. <strong>Strategy:</strong> We decide if settlement, consolidation, or counseling is best.
-                    3. <strong>Action:</strong> We stop the harassment from the <strong>collection agency</strong> and start negotiations.
-                    4. <strong>Freedom:</strong> You pay the reduced amount and walk away free.
-                  </p>
-                </div>
-              </section>
-
-              {/* Global Debt Context */}
-              <section id="global-debt" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  Understanding National and Global Debt Context
-                </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
-                  <p style={{ marginBottom: '16px' }}>
-                    Debt is not just a personal issue; it is a global one. Terms like <strong>national debt</strong>, <strong>US debt</strong>, and <strong>US national debt</strong> frequently make headlines. The <strong>US debt clock</strong> and <strong>national debt clock</strong> are constantly ticking upwards, showing the trillions of dollars owed by governments. This macroeconomic environment affects interest rates, inflation, and ultimately, the <strong>cost of debt</strong> for individuals.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    While <strong>national debt relief</strong> is a complex macroeconomic topic involving <strong>freedom debt relief</strong> programs and international policy, personal debt operates on a smaller but equally critical scale. Just as nations must manage their <strong>cost of debt</strong> to avoid default, individuals must manage their <strong>net debt</strong> to maintain financial health. When the <strong>debt to income ratio</strong> becomes unsustainable, whether for a country or a person, drastic measures like restructuring or settlement become necessary.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Understanding the <strong>debt meaning</strong> in a broader context helps realize that borrowing is a tool, but one that must be managed carefully. Whether it is the <strong>the debt</strong> of a nation or a household, the principles of responsible management and timely repayment (or settlement) remain the same. The concept of a <strong>debt clock</strong> serves as a stark reminder of how quickly interest can accumulate if left unchecked.
-                  </p>
-                </div>
-              </section>
-
-              {/* Client Reviews */}
-              <section id="reviews" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
-                  What Our Clients Say
-                </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 flex">
-                        {'★'.repeat(5)}
-                      </div>
-                    </div>
-                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
-                      "I was drowning in credit card debt and harassment from collection agencies. CredSettle stopped the calls immediately. They negotiated a 50% reduction on my outstanding balance. I am finally debt free!"
-                    </p>
-                    <p className="font-semibold text-[#0C2756]">- Rahul S., Mumbai</p>
-                  </div>
-                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 flex">
-                        {'★'.repeat(5)}
-                      </div>
-                    </div>
-                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
-                      "I tried a debt consolidation loan but got rejected. Settlement was my only option. The team explained everything about the process and legal protection. Highly recommend their services."
-                    </p>
-                    <p className="font-semibold text-[#0C2756]">- Priya M., Pune</p>
-                  </div>
-                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 flex">
-                        {'★'.repeat(5)}
-                      </div>
-                    </div>
-                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
-                      "Dealing with recovery agents was a nightmare. CredSettle handled the debt collectors professionally. I saved lakhs on my personal loan settlement."
-                    </p>
-                    <p className="font-semibold text-[#0C2756]">- Amit K., Nagpur</p>
-                  </div>
-                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 flex">
-                        {'★'.repeat(5)}
-                      </div>
-                    </div>
-                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
-                      "Professional, transparent, and effective. They helped me understand my rights under RBI guidelines and FDCPA concepts. Best decision I made for my financial future."
-                    </p>
-                    <p className="font-semibold text-[#0C2756]">- Vikram R., Thane</p>
-                  </div>
-                </div>
-              </section>
-
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ + CTA Section */}
-        <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
-          <div className="w-full max-w-7xl mx-auto px-4">
-            <div className="flex flex-col items-center gap-8 md:gap-14">
-              {/* FAQ */}
-              <FAQWithSchema
-                faqs={faqs}
-                title="Frequently Asked Questions About Loan Settlement"
-              />
-
-              {/* CTA Section */}
-              <div
-                className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
-                style={{
-                  background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
-                  boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
-                }}
-              >
-                <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
-                  <div className="flex flex-col items-center gap-[28px] w-full">
-                    <h2
-                      className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
-                      style={{ color: '#0C2756' }}
+        <div className="flex flex-col lg:flex-row gap-8">
+          
+          {/* Left Column: Table of Contents */}
+          <div className="lg:w-1/6 hidden lg:block">
+            
+            {/* Desktop: Sticky Vertical Sidebar */}
+            <div className="sticky top-24 space-y-4">
+              <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <nav className="space-y-2 text-sm">
+                  {navLinks.map((link) => (
+                    <a 
+                      key={link.id}
+                      href={`#${link.id}`} 
+                      className={getLinkClass(link.id, false)}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        document.querySelector(`#${link.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                        setActiveId(link.id);
+                      }}
                     >
-                      Ready to Settle Your Debt?
-                    </h2>
-                    <p
-                      className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
-                      style={{ color: 'rgba(12, 39, 86, 0.70)' }}
-                    >
-                      Contact CredSettle today for a free analysis. Stop the calls, reduce your debt, and start your journey to financial freedom.
-                    </p>
-                  </div>
-
-                  <CTAButton>
-                    Get Your Free Consultation Now
-                  </CTAButton>
-                </div>
+                      {link.label}
+                    </a>
+                  ))}
+                </nav>
               </div>
             </div>
           </div>
-        </section>
-      </div>
 
-      <div style={{ marginTop: '100px' }}>
-        <Footer />
+          {/* Middle Column: Main Content */}
+          <div className="lg:w-2/3 w-full">
+            <article className="prose prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
+              
+              {/* Introduction */}
+              <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Comprehensive Guide to Loan Settlement</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">
+                  In today&apos;s volatile economic climate, managing finances can be a daunting task. Many individuals find themselves trapped in a cycle of <strong>debt</strong>, struggling to make minimum payments on <strong>credit card debt</strong>, personal loans, and other financial obligations. The stress of dealing with a <strong>debt collector</strong> or receiving notices from a <strong>collection agency</strong> can be overwhelming. However, there are viable solutions available. <strong>Loan settlement</strong>, also known as <strong>debt settlement</strong> or <strong>debt relief</strong>, is a powerful strategy for those who are unable to repay their debts in full.
+                </p>
+                <p>
+                  This comprehensive guide will explore the intricacies of loan settlement, compare it with <strong>debt consolidation</strong> and <strong>bankruptcy</strong>, and provide actionable advice on how to navigate the process. We will also touch upon related concepts such as <strong>debt management plans</strong>, <strong>credit counseling</strong>, and the role of regulations like the <strong>FDCPA</strong> (Fair Debt Collection Practices Act) in protecting consumers. Whether you are dealing with <strong>bad debts</strong>, looking for <strong>national debt relief</strong>, or simply want to understand the <strong>cost of debt</strong>, this page is your ultimate resource.
+                </p>
+              </div>
+
+              {/* What is Loan Settlement */}
+              <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">What is Loan Settlement?</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">
+                  <strong>Loan settlement</strong> is a financial negotiation process where a debtor negotiates with a creditor (such as a bank, credit card company, or <strong>debt collection agency</strong>) to pay a lump sum amount that is less than the total outstanding balance. Once this agreed-upon amount is paid, the creditor considers the debt fully satisfied and closes the account. This is often the best option for individuals who are facing severe financial hardship and are at risk of <strong>bankruptcy</strong>.
+                </p>
+                <p className="mb-4">
+                  For example, if you have a <strong>credit card debt</strong> of ₹5,00,000 that you cannot repay due to job loss or medical emergency, a settlement company like CredSettle might negotiate with the bank to accept ₹2,50,000 as a full and final settlement. This provides immediate <strong>debt relief</strong> and allows you to become <strong>debt free</strong> much faster than making minimum payments for years.
+                </p>
+                <p>
+                  It is important to distinguish settlement from other forms of debt management. Unlike a <strong>debt management plan</strong> where you pay the full amount over time (often with reduced interest), settlement actually reduces the principal amount you owe. This reduction is what makes it such an attractive option for those drowning in <strong>bad debts</strong>.
+                </p>
+              </div>
+
+              {/* Consolidation vs Settlement */}
+              <h2 id="consolidation-vs-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Consolidation vs. Debt Settlement</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">
+                  Two of the most common terms you will hear when looking for financial help are <strong>debt consolidation</strong> and <strong>debt settlement</strong>. While they sound similar, they work very differently.
+                </p>
+                <p className="mb-4">
+                  <strong>Debt Consolidation:</strong> This involves taking out a new loan, often called a <strong>debt consolidation loan</strong>, to pay off multiple smaller debts. The goal is to <strong>consolidate debt</strong> into a single monthly payment, ideally with a lower interest rate. <strong>Consolidated credit</strong> can simplify your finances, but it does not reduce the total amount you owe. You are simply moving the debt from one place to another. If you have good credit and a steady income, <strong>consolidation loans</strong> can be a great tool.
+                </p>
+                <p className="mb-4">
+                  <strong>Debt Settlement:</strong> As explained earlier, this involves negotiating to pay <em>less</em> than what you owe. This is typically for people who cannot afford a <strong>debt consolidation loan</strong> or whose credit score has already been impacted by missed payments. While consolidation is about restructuring, settlement is about <strong>debt relief</strong> and reduction.
+                </p>
+                <p>
+                  When searching for &quot;<strong>how to get out of debt</strong>,&quot; it is crucial to assess your financial situation honestly. If you can afford the payments but are just disorganized, <strong>consolidate</strong>. If you are insolvent and cannot pay, settle.
+                </p>
+              </div>
+
+              {/* Dealing with Debt Collectors */}
+              <h2 id="debt-collectors" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Dealing with Debt Collectors and Agencies</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">
+                  One of the most stressful aspects of having <strong>bad debts</strong> is dealing with a <strong>debt collector</strong>. Whether it is a bank&apos;s internal team or a third-party <strong>collection agency</strong> (like <strong>Moorcroft Group</strong> in the UK or various agencies in India), the harassment can be relentless.
+                </p>
+                <p className="mb-4">
+                  It is important to know your rights. In the United States, the <strong>FDCPA</strong> (Fair Debt Collection Practices Act) strictly regulates what <strong>the debt collector</strong> can and cannot do. They cannot call you at odd hours, threaten you, or lie to you. In India, the RBI has similar Fair Practices Codes for <strong>credit collection services</strong>.
+                </p>
+                <p className="mb-4">
+                  When you engage a professional settlement service like CredSettle, we take over the communication with the <strong>debt collection agency</strong>. We inform them that you are represented by us, which typically stops the direct calls to you. We then negotiate directly with them to reach a settlement. This layer of protection is invaluable for your peace of mind.
+                </p>
+                <p>
+                  Remember, a <strong>debt collector</strong> is often paid a commission on what they collect. They are motivated to get as much as possible from you. Our job is to counter that and protect your interests.
+                </p>
+              </div>
+
+              {/* Types of Debt */}
+              <h2 id="types-of-debt" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Types of Debt We Resolve</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">We specialize in settling unsecured debts. The most common types include:</p>
+                <ul className="list-disc pl-6 mb-4 space-y-2">
+                  <li><strong>Credit Card Debt:</strong> This is often the most expensive debt due to high interest rates. It is also the easiest to settle.</li>
+                  <li><strong>Personal Loans:</strong> Unsecured loans from banks and NBFCs.</li>
+                  <li><strong>Medical Bills:</strong> Often a cause of sudden financial distress.</li>
+                  <li><strong>Business Loans:</strong> Unsecured business lines of credit.</li>
+                </ul>
+                <p>
+                  <strong>A Note on Student Loans:</strong> Many people search for &quot;<strong>federal student loan forgiveness</strong>&quot; or help with &quot;<strong>AES student loans</strong>&quot;. It is important to understand that federal student loans (especially in the US) have specific government programs for forgiveness and income-driven repayment. They are generally not eligible for private debt settlement in the traditional sense. However, private student loans can sometimes be settled if they are in default. If you are struggling with student debt, we recommend exploring <strong>consolidation loans</strong> or specific government relief programs first.
+                </p>
+              </div>
+
+              {/* Debt Management */}
+              <h2 id="debt-management" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Management Plans and Relief Options</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">Apart from settlement and consolidation, there are other avenues for <strong>debt relief</strong>.</p>
+                <ul className="space-y-4">
+                  <li>
+                    <strong>Debt Management Plan (DMP):</strong> This is usually arranged by a <strong>credit counseling</strong> agency. You make one monthly payment to the agency, and they distribute it to your creditors. They may negotiate lower interest rates but usually do not reduce the principal.
+                  </li>
+                  <li>
+                    <strong>IVA (Individual Voluntary Arrangement):</strong> This is a formal agreement in the UK where you pay back a portion of your debts over a set period. It is an alternative to bankruptcy.
+                  </li>
+                  <li>
+                    <strong>Debt Relief Order:</strong> Another UK-specific option for those with low income and few assets.
+                  </li>
+                  <li>
+                    <strong>Bankruptcy:</strong> This is the legal process of declaring that you cannot pay your debts. It has severe long-term consequences on your credit. Settlement is often seen as the last alternative before bankruptcy.
+                  </li>
+                </ul>
+                <p className="mt-4">
+                  At CredSettle, we help you evaluate all these options. While we specialize in settlement, we believe in holistic <strong>debt management</strong>. We want to ensure you choose the path that leads you to become <strong>debt free</strong> with the least amount of long-term damage.
+                </p>
+              </div>
+
+              {/* Financial Freedom */}
+              <h2 id="financial-freedom" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Path to Becoming Debt Free</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">
+                  Becoming <strong>debt free</strong> is not just about money; it is about reclaiming your life. The mental burden of debt can affect your health, relationships, and career. By taking proactive steps—whether through <strong>debt consolidation</strong>, settlement, or a <strong>debt management plan</strong>—you are taking control of your future.
+                </p>
+                <p className="mb-4">Our process is simple:</p>
+                <ol className="list-decimal pl-6 space-y-2">
+                  <li><strong>Consultation:</strong> We analyze your <strong>net debt</strong> and <strong>debt to income ratio</strong>.</li>
+                  <li><strong>Strategy:</strong> We decide if settlement, consolidation, or counseling is best.</li>
+                  <li><strong>Action:</strong> We stop the harassment from the <strong>collection agency</strong> and start negotiations.</li>
+                  <li><strong>Freedom:</strong> You pay the reduced amount and walk away free.</li>
+                </ol>
+              </div>
+
+              {/* Global Debt Context */}
+              <h2 id="global-debt" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding National and Global Debt Context</h2>
+              <div className="text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">
+                  Debt is not just a personal issue; it is a global one. Terms like <strong>national debt</strong>, <strong>US debt</strong>, and <strong>US national debt</strong> frequently make headlines. The <strong>US debt clock</strong> and <strong>national debt clock</strong> are constantly ticking upwards, showing the trillions of dollars owed by governments. This macroeconomic environment affects interest rates, inflation, and ultimately, the <strong>cost of debt</strong> for individuals.
+                </p>
+                <p className="mb-4">
+                  While <strong>national debt relief</strong> is a complex macroeconomic topic involving <strong>freedom debt relief</strong> programs and international policy, personal debt operates on a smaller but equally critical scale. Just as nations must manage their <strong>cost of debt</strong> to avoid default, individuals must manage their <strong>net debt</strong> to maintain financial health. When the <strong>debt to income ratio</strong> becomes unsustainable, whether for a country or a person, drastic measures like restructuring or settlement become necessary.
+                </p>
+                <p>
+                  Understanding the <strong>debt meaning</strong> in a broader context helps realize that borrowing is a tool, but one that must be managed carefully. Whether it is the <strong>the debt</strong> of a nation or a household, the principles of responsible management and timely repayment (or settlement) remain the same. The concept of a <strong>debt clock</strong> serves as a stark reminder of how quickly interest can accumulate if left unchecked.
+                </p>
+              </div>
+
+              {/* Client Reviews */}
+              <section id="reviews" className="scroll-mt-28 mb-12">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">What Our Clients Say</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <div className="flex items-center mb-4">
+                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    </div>
+                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
+                      &quot;I was drowning in credit card debt and harassment from collection agencies. CredSettle stopped the calls immediately. They negotiated a 50% reduction on my outstanding balance. I am finally debt free!&quot;
+                    </p>
+                    <p className="font-semibold text-blue-900">- Rahul S., Mumbai</p>
+                  </div>
+                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <div className="flex items-center mb-4">
+                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    </div>
+                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
+                      &quot;I tried a debt consolidation loan but got rejected. Settlement was my only option. The team explained everything about the process and legal protection. Highly recommend their services.&quot;
+                    </p>
+                    <p className="font-semibold text-blue-900">- Priya M., Pune</p>
+                  </div>
+                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <div className="flex items-center mb-4">
+                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    </div>
+                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
+                      &quot;Dealing with recovery agents was a nightmare. CredSettle handled the debt collectors professionally. I saved lakhs on my personal loan settlement.&quot;
+                    </p>
+                    <p className="font-semibold text-blue-900">- Amit K., Nagpur</p>
+                  </div>
+                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
+                    <div className="flex items-center mb-4">
+                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    </div>
+                    <p className="text-sm md:text-base text-gray-700 italic mb-4">
+                      &quot;Professional, transparent, and effective. They helped me understand my rights under RBI guidelines and FDCPA concepts. Best decision I made for my financial future.&quot;
+                    </p>
+                    <p className="font-semibold text-blue-900">- Vikram R., Thane</p>
+                  </div>
+                </div>
+              </section>
+
+              {/* FAQs */}
+              <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Frequently Asked Questions</h2>
+              <div className="space-y-4">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="border-b border-gray-100 pb-4 last:border-0">
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                    <p className="text-gray-600">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+
+            </article>
+          </div>
+
+          {/* Right Column: CTA & Related (Sticky) */}
+          <div className="lg:w-1/6 hidden lg:block">
+            <div className="sticky top-24 space-y-6">
+              
+              {/* Main CTA Card */}
+              <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
+                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="text-sm text-gray-600 mb-6">Don&apos;t face the bank alone. Get expert legal support today.</p>
+                <Link 
+                  href="/contact"
+                  className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
+                >
+                  Request Call Back
+                </Link>
+                <div className="mt-4 text-xs text-gray-500">
+                  <p>✓ 100% Confidential</p>
+                  <p className="mt-1">✓ RBI Compliant Process</p>
+                </div>
+              </div>
+
+              {/* Related Pages Info */}
+              <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <ul className="space-y-3 text-sm">
+                  <li>
+                    <Link href="/loan-settlement/hdfc" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      HDFC Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      Credit Card Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/personal-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      Personal Loan Settle
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
+    </>
   );
 }

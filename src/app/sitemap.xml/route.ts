@@ -446,6 +446,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Main Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement`,
+    priority: 0.95, // Very high priority
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // HDFC Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/hdfc`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
