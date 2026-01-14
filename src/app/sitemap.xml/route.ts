@@ -446,6 +446,8 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+
+
   // Main Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement`,
@@ -497,6 +499,70 @@ async function generateSitemap(): Promise<string> {
   // Axis Bank Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement/axis-bank`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // DMI Finance Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/dmi-finance`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // RBL Bank Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/rbl-bank`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Bajaj Finserv Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/bajaj-finserv`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Hero Fincorp Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/hero-fincorp`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Aditya Birla Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/aditya-birla`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Federal Bank Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/federal-bank`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Union Bank Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/union-bank`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Bank of Baroda Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/bank-of-baroda`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today

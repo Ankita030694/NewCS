@@ -443,8 +443,56 @@ export default function LoanSettlementPageClient() {
                   </li>
                   <li>
                     <Link href="/loan-settlement/axis-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Axis Bank Loan Settlement
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      Axis Bank
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/rbl-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      RBL Bank
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/bajaj-finserv" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      Bajaj Finserv
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/hero-fincorp" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      Hero Fincorp
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/bank-of-baroda" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      Bank of Baroda
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/union-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      Union Bank
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/federal-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      Federal Bank
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/aditya-birla" className="text-gray-600 hover:text-red-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      Aditya Birla Capital
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/dmi-finance" className="text-gray-600 hover:text-teal-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
+                      DMI Finance
                     </Link>
                   </li>
                 </ul>
