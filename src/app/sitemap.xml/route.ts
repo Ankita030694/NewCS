@@ -486,6 +486,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Yes Bank Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/yes-bank`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Axis Bank Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/axis-bank`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================

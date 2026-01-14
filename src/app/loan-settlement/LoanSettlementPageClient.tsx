@@ -435,6 +435,18 @@ export default function LoanSettlementPageClient() {
                       Personal Loan Settle
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/loan-settlement/yes-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      Yes Bank Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/loan-settlement/axis-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      Axis Bank Loan Settlement
+                    </Link>
+                  </li>
                 </ul>
               </div>
 
