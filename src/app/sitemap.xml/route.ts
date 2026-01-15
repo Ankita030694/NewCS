@@ -464,6 +464,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // SBI Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/sbi`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // IndusInd Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/indusind`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ICICI Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement/icici`,
@@ -563,6 +579,46 @@ async function generateSitemap(): Promise<string> {
   // Bank of Baroda Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement/bank-of-baroda`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Kisetsu Saison Finance Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/kisetsu`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // SMFG India Credit Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/smfg-india-credit`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Fibe Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/fibe`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Poonawalla Fincorp Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/poonawalla`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Tata Capital Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/tata-capital`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today

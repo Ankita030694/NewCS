@@ -402,105 +402,51 @@ export default function LoanSettlementPageClient() {
               </div>
 
               {/* Related Pages Info */}
-              <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
-                <ul className="space-y-3 text-sm">
-                  <li>
-                    <Link href="/loan-settlement/hdfc" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      HDFC Loan Settlement
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/icici" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      ICICI Loan Settlement
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/idfc" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      IDFC Loan Settlement
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Credit Card Settlement
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/personal-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Personal Loan Settle
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/yes-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Yes Bank Loan Settlement
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/axis-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Axis Bank
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/rbl-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      RBL Bank
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/bajaj-finserv" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Bajaj Finserv
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/hero-fincorp" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Hero Fincorp
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/bank-of-baroda" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Bank of Baroda
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/union-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Union Bank
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/federal-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Federal Bank
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/aditya-birla" className="text-gray-600 hover:text-red-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Aditya Birla Capital
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/dmi-finance" className="text-gray-600 hover:text-teal-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      DMI Finance
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+
 
             </div>
           </div>
 
+
+        </div>
+      </div>
+
+      {/* Bank Settlement Directory Grid */}
+      <div className="max-w-[1440px] mx-auto px-4 py-12 border-t border-gray-200 mt-12">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Settlement Services by Bank</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {[
+            { name: 'HDFC Bank', href: '/loan-settlement/hdfc' },
+            { name: 'SBI (State Bank of India)', href: '/loan-settlement/sbi' },
+            { name: 'ICICI Bank', href: '/loan-settlement/icici' },
+            { name: 'IndusInd Bank', href: '/loan-settlement/indusind' },
+            { name: 'Axis Bank', href: '/loan-settlement/axis-bank' },
+            { name: 'Kotak Mahindra Bank', href: '/loan-settlement/kotak' },
+            { name: 'IDFC First Bank', href: '/loan-settlement/idfc' },
+            { name: 'Yes Bank', href: '/loan-settlement/yes-bank' },
+            { name: 'RBL Bank', href: '/loan-settlement/rbl-bank' },
+            { name: 'Bajaj Finserv', href: '/loan-settlement/bajaj-finserv' },
+            { name: 'Aditya Birla Capital', href: '/loan-settlement/aditya-birla' },
+            { name: 'Hero Fincorp', href: '/loan-settlement/hero-fincorp' },
+            { name: 'Union Bank', href: '/loan-settlement/union-bank' },
+            { name: 'Federal Bank', href: '/loan-settlement/federal-bank' },
+            { name: 'Bank of Baroda', href: '/loan-settlement/bank-of-baroda' },
+            { name: 'DMI Finance', href: '/loan-settlement/dmi-finance' },
+            { name: 'Kisetsu Saison Finance', href: '/loan-settlement/kisetsu' },
+            { name: 'SMFG India Credit', href: '/loan-settlement/smfg-india-credit' },
+            { name: 'Fibe (EarlySalary)', href: '/loan-settlement/fibe' },
+            { name: 'Poonawalla Fincorp', href: '/loan-settlement/poonawalla' },
+            { name: 'Tata Capital', href: '/loan-settlement/tata-capital' },
+          ].map((bank) => (
+            <Link 
+              key={bank.href}
+              href={bank.href}
+              className="flex items-center p-4 bg-white border border-gray-200 rounded-xl hover:shadow-md hover:border-blue-300 transition-all group"
+            >
+              <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 group-hover:scale-125 transition-transform"></span>
+              <span className="text-gray-700 font-medium group-hover:text-blue-700">{bank.name}</span>
+            </Link>
+          ))}
         </div>
       </div>
     </>
