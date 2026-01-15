@@ -440,6 +440,7 @@ export default function LoanSettlementPageClient() {
             { name: 'KrazyBee (KreditBee)', href: '/loan-settlement/krazybee' },
             { name: 'Piramal Finance', href: '/loan-settlement/piramal-finance' },
             { name: 'Stashfin (Akara Capital)', href: '/loan-settlement/stashfin' },
+            { name: 'AU Small Finance Bank', href: '/loan-settlement/au-small-finance-bank' },
           ].map((bank) => (
             <Link 
               key={bank.href}
