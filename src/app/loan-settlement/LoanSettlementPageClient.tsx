@@ -437,6 +437,9 @@ export default function LoanSettlementPageClient() {
             { name: 'Fibe (EarlySalary)', href: '/loan-settlement/fibe' },
             { name: 'Poonawalla Fincorp', href: '/loan-settlement/poonawalla' },
             { name: 'Tata Capital', href: '/loan-settlement/tata-capital' },
+            { name: 'KrazyBee (KreditBee)', href: '/loan-settlement/krazybee' },
+            { name: 'Piramal Finance', href: '/loan-settlement/piramal-finance' },
+            { name: 'Stashfin (Akara Capital)', href: '/loan-settlement/stashfin' },
           ].map((bank) => (
             <Link 
               key={bank.href}

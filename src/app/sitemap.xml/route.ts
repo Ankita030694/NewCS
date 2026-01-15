@@ -624,6 +624,38 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // KrazyBee Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/krazybee`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // AU Small Finance Bank Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/au-small-finance-bank`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Piramal Finance Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/piramal-finance`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Stashfin Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/stashfin`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
