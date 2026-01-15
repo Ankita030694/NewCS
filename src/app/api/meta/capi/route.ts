@@ -5,7 +5,7 @@ import { sendMetaCAPIEvent } from '@/lib/meta';
 export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
-        let { email, phone, fbc, fbp, eventName = 'Lead', eventSourceUrl, testEventCode, value, currency } = body;
+        let { email, phone, fbc, fbp, eventName = 'Lead', eventId, eventSourceUrl, testEventCode, value, currency } = body;
 
         // If fbc or fbp are missing, try to look them up in Firestore
         if (!fbc || !fbp) {
@@ -36,6 +36,7 @@ export async function POST(request: NextRequest) {
             fbc,
             fbp,
             eventName,
+            eventId,
             eventSourceUrl: eventSourceUrl || request.headers.get('referer') || undefined,
             testEventCode,
             value,

@@ -29,6 +29,7 @@ export async function sendMetaCAPIEvent(params: MetaEventParams) {
         fbc,
         fbp,
         eventName = 'Lead',
+        eventId,
         eventSourceUrl,
         testEventCode,
         value = 0.00,
@@ -55,7 +56,7 @@ export async function sendMetaCAPIEvent(params: MetaEventParams) {
             {
                 event_name: eventName,
                 event_time: Math.floor(Date.now() / 1000),
-                event_id: params.eventId,
+                event_id: eventId,
                 action_source: 'website',
                 event_source_url: eventSourceUrl || 'https://www.credsettle.com',
                 user_data: userData,
