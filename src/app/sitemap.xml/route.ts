@@ -656,6 +656,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // PayU Finance Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/payu-finance`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================

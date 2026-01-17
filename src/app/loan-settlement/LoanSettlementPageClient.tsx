@@ -441,6 +441,7 @@ export default function LoanSettlementPageClient() {
             { name: 'Piramal Finance', href: '/loan-settlement/piramal-finance' },
             { name: 'Stashfin (Akara Capital)', href: '/loan-settlement/stashfin' },
             { name: 'AU Small Finance Bank', href: '/loan-settlement/au-small-finance-bank' },
+            { name: 'PayU Finance', href: '/loan-settlement/payu-finance' },
           ].map((bank) => (
             <Link 
               key={bank.href}
