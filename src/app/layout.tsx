@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 const poppins = Poppins({
@@ -131,6 +132,7 @@ export default function RootLayout({
           />
         </noscript>
         {children}
+        <Analytics />
         <WhatsAppWidget />
       </body>
     </html>
