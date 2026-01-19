@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -18,8 +17,13 @@ export default function SuccessPage() {
               Thank you for your payment
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-base text-[#0C2756]/70 md:text-lg">
-              We’ve successfully processed your payment. If you need any assistance, our team is here to help.
+              We’ve successfully processed your payment.
             </p>
+            
+            <p className="mx-auto mt-4 max-w-2xl text-base text-[#0C2756]/70 md:text-lg">
+              If you need any assistance, our team is here to help.
+            </p>
+
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <Link
                 href="/"
@@ -42,4 +46,3 @@ export default function SuccessPage() {
     </div>
   );
 }
-

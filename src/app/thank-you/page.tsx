@@ -96,15 +96,21 @@ export default function ThankYouPage() {
                   <p
                     className="text-center mb-3 md:mb-4 text-sm md:text-base leading-relaxed"
                     style={{
-                      color: '#2D2D2D',
+                      color: 'red',
                       fontFamily: 'Poppins',
                       fontStyle: 'normal',
-                      fontWeight: '400'
+                      fontWeight: '800'
                     }}
                   >
-                    Jump the queue and get a response in just<br />
-                    4 hours instead of <strong>24 hours</strong> - for only <strong>₹11!</strong>
+                    Pay ₹11 to avail <strong>Exclusive Discounts</strong> on our services + get our executive's phone number to call immediately
                   </p>
+
+                  {/* Executive Details */}
+                  <div className="text-center mb-4">
+                    <p className="font-medium text-[#0C2756] mb-1">Here is your assigned executive from our team</p>
+                    <p className="font-bold text-lg text-[#0C2756]">Laxman Ray</p>
+                    <a href="tel:9599045632" className="text-xl font-bold text-blue-600 hover:underline">95990 45632</a>
+                  </div>
 
                   {/* Benefits with checkmarks and Priority processing box side by side */}
                   <div className="flex flex-col md:flex-row justify-between items-start mb-3 md:mb-4 gap-3 md:gap-4">
