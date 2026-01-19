@@ -454,8 +454,8 @@ export default function FreedAlternativePageClient() {
                      <h3 className="text-lg font-bold text-[#0C2756] mb-4">Popular Guides</h3>
                      <ul className="space-y-3 text-sm font-medium text-gray-600">
                          <li><Link href="/how-to-settle-loan" className="hover:text-[#007AFF] transition-colors">How to Settle Loan</Link></li>
-                         <li><Link href="/services/loan-settlement/hdfc-bank" className="hover:text-[#007AFF] transition-colors">HDFC Settlement</Link></li>
-                         <li><Link href="/services/loan-settlement/sbi-card" className="hover:text-[#007AFF] transition-colors">SBI Card Settlement</Link></li>
+                         <li><Link href="/loan-settlement/hdfc" className="hover:text-[#007AFF] transition-colors">HDFC Settlement</Link></li>
+                         <li><Link href="/loan-settlement/sbi" className="hover:text-[#007AFF] transition-colors">SBI Card Settlement</Link></li>
                          <li><Link href="/services/credit-card-settlement" className="hover:text-[#007AFF] transition-colors">Credit Card Review</Link></li>
                      </ul>
                 </div>

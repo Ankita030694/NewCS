@@ -389,8 +389,8 @@ export default function SettleLoanPageClient() {
                      <h3 className="text-lg font-bold text-[#0C2756] mb-4">Compare More</h3>
                      <ul className="space-y-3 text-sm font-medium text-gray-600">
                          <li><Link href="/how-to-get-freed-from-debt" className="hover:text-[#007AFF] transition-colors">How to Get Freed</Link></li>
-                         <li><Link href="/services/loan-settlement/hdfc-bank" className="hover:text-[#007AFF] transition-colors">HDFC Settlement Guide</Link></li>
-                         <li><Link href="/services/loan-settlement/sbi-card" className="hover:text-[#007AFF] transition-colors">SBI Settlement Guide</Link></li>
+                         <li><Link href="/loan-settlement/hdfc" className="hover:text-[#007AFF] transition-colors">HDFC Settlement Guide</Link></li>
+                         <li><Link href="/loan-settlement/sbi" className="hover:text-[#007AFF] transition-colors">SBI Settlement Guide</Link></li>
                          <li><Link href="/services/credit-card-settlement" className="hover:text-[#007AFF] transition-colors">Credit Card Default</Link></li>
                      </ul>
                 </div>
