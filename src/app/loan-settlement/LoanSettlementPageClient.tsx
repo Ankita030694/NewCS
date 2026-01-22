@@ -468,6 +468,7 @@ export default function LoanSettlementPageClient() {
             { name: 'Maharashtra', href: '/loan-settlement/maharashtra' },
             { name: 'Rajasthan', href: '/loan-settlement/rajasthan' },
             { name: 'Tamil Nadu', href: '/loan-settlement/tamil-nadu' },
+            { name: 'Telangana', href: '/loan-settlement/telangana' },
             { name: 'Uttar Pradesh', href: '/loan-settlement/uttar-pradesh' },
             { name: 'West Bengal', href: '/loan-settlement/west-bengal' },
           ].map((area) => (
