@@ -672,6 +672,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Delhi Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/delhi`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Karnataka Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/karnataka`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
@@ -685,6 +701,14 @@ async function generateSitemap(): Promise<string> {
       lastmod: today
     });
   }
+
+  // Cheque Bounce Lawyer Page
+  urls.push({
+    loc: `${baseUrl}/services/cheque-bounce-lawyer`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
 
   // ========================================================================
   // SECTION 3: LOAN SETTLEMENT SERVICES (WITH NESTED ROUTES)
