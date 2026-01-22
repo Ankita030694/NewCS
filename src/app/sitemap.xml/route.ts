@@ -664,6 +664,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Maharashtra Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/maharashtra`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
