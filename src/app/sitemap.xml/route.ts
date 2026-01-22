@@ -688,6 +688,62 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Rajasthan Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/rajasthan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Haryana Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/haryana`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Gujarat Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/gujarat`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // West Bengal Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/west-bengal`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Tamil Nadu Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/tamil-nadu`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Uttar Pradesh Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/uttar-pradesh`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Andhra Pradesh Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement/andhra-pradesh`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
