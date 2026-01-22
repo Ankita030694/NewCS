@@ -454,6 +454,34 @@ export default function LoanSettlementPageClient() {
           ))}
         </div>
       </div>
+
+      {/* Areas We Serve In Grid */}
+      <div className="max-w-[1440px] mx-auto px-4 py-12 border-t border-gray-200">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Areas We Serve In</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {[
+            { name: 'Andhra Pradesh', href: '/loan-settlement/andhra-pradesh' },
+            { name: 'Delhi', href: '/loan-settlement/delhi' },
+            { name: 'Gujarat', href: '/loan-settlement/gujarat' },
+            { name: 'Haryana', href: '/loan-settlement/haryana' },
+            { name: 'Karnataka', href: '/loan-settlement/karnataka' },
+            { name: 'Maharashtra', href: '/loan-settlement/maharashtra' },
+            { name: 'Rajasthan', href: '/loan-settlement/rajasthan' },
+            { name: 'Tamil Nadu', href: '/loan-settlement/tamil-nadu' },
+            { name: 'Uttar Pradesh', href: '/loan-settlement/uttar-pradesh' },
+            { name: 'West Bengal', href: '/loan-settlement/west-bengal' },
+          ].map((area) => (
+            <Link 
+              key={area.href}
+              href={area.href}
+              className="flex items-center p-4 bg-white border border-gray-200 rounded-xl hover:shadow-md hover:border-blue-300 transition-all group"
+            >
+              <span className="w-2 h-2 bg-green-500 rounded-full mr-3 group-hover:scale-125 transition-transform"></span>
+              <span className="text-gray-700 font-medium group-hover:text-blue-700">{area.name}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
