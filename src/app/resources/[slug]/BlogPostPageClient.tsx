@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
@@ -139,6 +139,88 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
   const [isPending, startTransition] = useTransition();
   const [newReview, setNewReview] = useState({ author: '', rating: 5, comment: '' });
   const [reviewStatus, setReviewStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [activeId, setActiveId] = useState<string>('');
+
+  const processedContent = useMemo<ProcessedDescriptionResult>(() => {
+    if (!blog.description) {
+      return { processedHtml: '', headings: [] };
+    }
+    return processDescription(blog.description);
+  }, [blog.description]);
+
+  const { processedHtml, headings } = processedContent;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const headingElements = Array.from(document.querySelectorAll('.blog-content h2[id], .blog-content h3[id]'));
+      if (headingElements.length === 0) return;
+
+      // Header offset (height of navbar + some breathing room)
+      const offset = 150;
+      const scrollPosition = window.scrollY + offset;
+
+      // Find the current section
+      let currentId = '';
+      
+      // If we are at the very top, clear active ID or set first one? 
+      // Usually users want to see the first context.
+      
+      // Loop to find the last heading that is above the "scrolled past" line
+      for (const heading of headingElements) {
+        if (heading instanceof HTMLElement) {
+          // We use offsetTop because it's absolute position on page (assuming no transforming parents, which is mostly true)
+          // Actually, getBoundingClientRect is safer relative to viewport
+          const top = heading.getBoundingClientRect().top + window.scrollY;
+          
+          if (scrollPosition >= top) {
+            currentId = heading.id;
+          } else {
+            // Once we find a heading that is below our scroll point, we stop cause we want the *previous* one
+            break; 
+          }
+        }
+      }
+
+      // Fallback: if we haven't passed any heading but there are headings, 
+      // and we are reasonably close to the first one, highlight it? 
+      // Or if scrolled to bottom, highlight last?
+      
+      if (!currentId && headingElements.length > 0 && window.scrollY > 100) {
+         // If we are passed the hero but haven't hit first H2, maybe keep empty or highlight first?
+         // Let's stick to strict "passed the header" logic. 
+         // But LoanSettlement uses IO which triggers early. 
+         // Let's check if we are near the first one.
+         const first = headingElements[0] as HTMLElement;
+         if (first.getBoundingClientRect().top + window.scrollY < scrollPosition + 200) {
+            currentId = first.id;
+         }
+      }
+
+      if (currentId !== activeId) {
+        setActiveId(currentId);
+      }
+    };
+
+    // Throttle slightly or just use rAF
+    let ticking = false;
+    const scrollListener = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          handleScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    window.addEventListener('scroll', scrollListener, { passive: true });
+    // Initial check
+    handleScroll();
+
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    };
+  }, [headings]);
 
   const handleReviewSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -170,14 +252,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
   const [sidebarsFixed, setSidebarsFixed] = useState(true);
   const [shareUrl, setShareUrl] = useState('');
 
-  const processedContent = useMemo<ProcessedDescriptionResult>(() => {
-    if (!blog.description) {
-      return { processedHtml: '', headings: [] };
-    }
-    return processDescription(blog.description);
-  }, [blog.description]);
 
-  const { processedHtml, headings } = processedContent;
 
   useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
@@ -256,7 +331,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
   return (
     <div
-      className="relative min-h-screen overflow-x-hidden"
+      className="relative min-h-screen"
       style={{
         background:
           'linear-gradient(180deg, #F7FBFF 0%, #FFFFFF 45%, #E7F3FF 100%)'
@@ -284,8 +359,8 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         />
       </div>
 
-      <div className="relative z-10 pt-24 pb-24 px-3 sm:px-6 lg:px-8">
-        <div className="mx-auto w-full max-w-7xl">
+      <div className="relative z-10 pt-24 pb-24 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-[95%] xl:max-w-[90%] 2xl:max-w-[1600px]">
           <div className="flex justify-center mb-6 lg:mb-8">
             <Breadcrumbs
               items={[
@@ -372,14 +447,47 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
           )}
 
           {headings.length > 0 && (
-            <div className="mb-10 lg:mb-14">
+            <div className="mb-10 lg:hidden">
                 <TableOfContents headings={headings} />
             </div>
           )}
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+          <div className="flex flex-col lg:flex-row gap-8">
+            {/* Left Column - Sticky TOC */}
+            <div className="lg:w-1/6 hidden lg:block">
+              <div className="sticky top-24 space-y-4">
+                 {headings.length > 0 && (
+                   <div className="bg-white/90 backdrop-blur p-5 rounded-2xl shadow-[0_8px_30px_rgba(12,39,86,0.04)] border border-sky-900/10">
+                      <h3 className="font-semibold text-sm text-[#0C2756] mb-4 border-b border-sky-900/10 pb-2">
+                         On this page
+                      </h3>
+                      <nav className="space-y-1">
+                         {headings.map((heading) => (
+                            <a
+                               key={heading.id}
+                               href={`#${heading.id}`}
+                               onClick={(e) => {
+                                  e.preventDefault();
+                                  document.querySelector(`#${heading.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                                  setActiveId(heading.id);
+                               }}
+                               className={`block text-[13px] leading-snug transition-all duration-200 pl-3 border-l-2 py-1.5 ${
+                                  activeId === heading.id
+                                     ? 'border-[#007AFF] text-[#007AFF] font-medium bg-blue-50/50 rounded-r'
+                                     : 'border-transparent text-gray-500 hover:text-[#007AFF] hover:pl-4'
+                               }`}
+                            >
+                               {heading.text}
+                            </a>
+                         ))}
+                      </nav>
+                   </div>
+                 )}
+              </div>
+            </div>
+
             <div
-              className="lg:col-span-8 transition duration-700 opacity-100 translate-y-0"
+              className="lg:w-2/3 w-full transition duration-700 opacity-100 translate-y-0"
             >
               <div
                 className="rounded-3xl p-6 md:p-8 lg:p-10 shadow-[0_18px_60px_rgba(12,39,86,0.08)] border border-sky-900/10 backdrop-blur-xl"
@@ -586,119 +694,13 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 </div>
               </div>
 
-              <div
-                className="mt-8 rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
-                style={{
-                  background: 'linear-gradient(180deg, rgba(239, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%)'
-                }}
-              >
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-11 h-11 rounded-xl bg-[#007AFF]/12 text-[#007AFF] flex items-center justify-center">
-                    <i className="fas fa-star text-lg" aria-hidden="true"></i>
-                  </div>
-                  <div>
-                    <h2
-                      className="text-xl font-semibold"
-                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                    >
-                      Reader Reviews
-                    </h2>
-                    <p
-                      className="text-xs"
-                      style={{ color: 'rgba(12, 39, 86, 0.65)', fontFamily: 'Poppins' }}
-                    >
-                      See what others are saying
-                    </p>
-                  </div>
-                </div>
-
-                <div className="mb-8 p-6 rounded-2xl bg-white border border-sky-900/10">
-                  <h3 className="text-lg font-semibold mb-4" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>Write a Review</h3>
-                  <form onSubmit={handleReviewSubmit} className="space-y-4">
-                    <div>
-                      <label className="block text-sm font-medium mb-1" style={{ color: '#0C2756' }}>Name</label>
-                      <input
-                        type="text"
-                        required
-                        value={newReview.author}
-                        onChange={e => setNewReview(prev => ({ ...prev, author: e.target.value }))}
-                        className="w-full px-4 py-2 rounded-xl border border-sky-900/10 focus:outline-none focus:ring-2 focus:ring-[#007AFF]/20"
-                        placeholder="Your name"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium mb-1" style={{ color: '#0C2756' }}>Rating</label>
-                      <div className="flex gap-2">
-                        {[1, 2, 3, 4, 5].map(star => (
-                          <button
-                            key={star}
-                            type="button"
-                            onClick={() => setNewReview(prev => ({ ...prev, rating: star }))}
-                            className={`text-2xl transition-colors ${star <= newReview.rating ? 'text-yellow-400' : 'text-gray-300'}`}
-                          >
-                            ★
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium mb-1" style={{ color: '#0C2756' }}>Comment</label>
-                      <textarea
-                        required
-                        value={newReview.comment}
-                        onChange={e => setNewReview(prev => ({ ...prev, comment: e.target.value }))}
-                        className="w-full px-4 py-2 rounded-xl border border-sky-900/10 focus:outline-none focus:ring-2 focus:ring-[#007AFF]/20 min-h-[100px]"
-                        placeholder="Share your thoughts..."
-                      />
-                    </div>
-                    <button
-                      type="submit"
-                      disabled={isPending}
-                      className="px-6 py-2 rounded-full bg-[#007AFF] text-white font-medium hover:bg-[#0E5AD0] transition disabled:opacity-50"
-                    >
-                      {isPending ? 'Submitting...' : 'Submit Review'}
-                    </button>
-                    {reviewStatus === 'success' && (
-                      <p className="text-green-600 text-sm mt-2">Review submitted successfully!</p>
-                    )}
-                    {reviewStatus === 'error' && (
-                      <p className="text-red-600 text-sm mt-2">Failed to submit review. Please try again.</p>
-                    )}
-                  </form>
-                </div>
-
-                <div className="space-y-4">
-                  {reviews.length === 0 ? (
-                    <p className="text-center text-gray-500 py-8">No reviews yet. Be the first to review!</p>
-                  ) : (
-                    reviews.map((review) => (
-                      <div
-                        key={review.id}
-                        className="p-5 rounded-2xl bg-white border border-sky-900/10"
-                      >
-                        <div className="flex justify-between items-start mb-2">
-                          <div>
-                            <p className="font-semibold text-[#0C2756]">{review.author}</p>
-                            <p className="text-xs text-gray-500">{new Date(review.date).toLocaleDateString()}</p>
-                          </div>
-                          <div className="flex text-yellow-400 text-sm">
-                            {Array.from({ length: 5 }).map((_, i) => (
-                              <span key={i}>{i < review.rating ? '★' : '☆'}</span>
-                            ))}
-                          </div>
-                        </div>
-                        <p className="text-sm text-gray-600 leading-relaxed">{review.comment}</p>
-                      </div>
-                    ))
-                  )}
-                </div>
-              </div>
+             
             </div>
 
             <div
-              className="lg:col-span-4 transition duration-700 opacity-100 translate-y-0"
+              className="lg:w-1/6 hidden lg:block transition duration-700 opacity-100 translate-y-0"
             >
-              <div className={`${sidebarsFixed ? 'lg:sticky lg:top-32' : ''} space-y-6`}>
+              <div className="sticky top-24 space-y-6">
                 <div
                   className="rounded-3xl border border-sky-900/10 bg-white/90 backdrop-blur p-6 shadow-[0_16px_40px_rgba(12,39,86,0.08)]"
                 style={{
@@ -815,6 +817,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
           font-weight: 600;
           margin-top: 2.5rem;
           margin-bottom: 1.25rem;
+          scroll-margin-top: 150px;
         }
 
         .blog-content h2 {
