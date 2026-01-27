@@ -10,6 +10,7 @@ import {
   faEdit,
   faTrash,
   faUpload,
+  faMagic,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   collection,
@@ -26,6 +27,8 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';
 
 import { db, auth, storage } from '../../../lib/firebase';
+
+const BLOG_DRAFT_KEY = 'credsettle:blogDraft';
 
 const TiptapEditor = dynamic(() => import('./TiptapEditor'), {
   ssr: false,
@@ -79,7 +82,32 @@ const BlogsDashboard = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
   const [rssDebugInfo, setRssDebugInfo] = useState('');
+
   const [isLoadingRss, setIsLoadingRss] = useState(false);
+  const [primaryKeyword, setPrimaryKeyword] = useState('');
+  const [secondaryKeyword, setSecondaryKeyword] = useState('');
+  const [isGenerating, setIsGenerating] = useState(false);
+
+  // Draft Saving Logic
+  useEffect(() => {
+    if (showBlogForm && newBlog) {
+      // Only save if we have some meaningful content to save
+      const hasContent = 
+        newBlog.title || 
+        newBlog.subtitle || 
+        newBlog.description || 
+        (newBlog.faqs && newBlog.faqs.length > 0) ||
+        newBlog.image;
+
+      if (hasContent) {
+        localStorage.setItem(BLOG_DRAFT_KEY, JSON.stringify({
+          blog: newBlog,
+          mode: formMode,
+          timestamp: Date.now()
+        }));
+      }
+    }
+  }, [newBlog, showBlogForm, formMode]);
 
   const totalPages = Math.ceil(blogs.length / itemsPerPage);
   const currentBlogs = blogs.slice(
@@ -374,6 +402,11 @@ const BlogsDashboard = () => {
     }
   };
 
+
+  const clearDraft = () => {
+    localStorage.removeItem(BLOG_DRAFT_KEY);
+  };
+
   const handleSubmitBlog = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
@@ -411,6 +444,7 @@ const BlogsDashboard = () => {
       }
 
       resetForm();
+      clearDraft(); // Clear draft on successful submit
 
       const querySnapshot = await getDocs(collection(db, 'blogs'));
       const updatedBlogs = querySnapshot.docs.map((firestoreDoc) => {
@@ -524,7 +558,10 @@ const BlogsDashboard = () => {
   };
 
   const handleCancelForm = () => {
-    resetForm();
+    if (window.confirm('Are you sure you want to cancel? Any unsaved changes will be lost.')) {
+      resetForm();
+      clearDraft(); // Clear draft on cancel
+    }
   };
 
   const handleNextPage = () => {
@@ -536,6 +573,68 @@ const BlogsDashboard = () => {
   const handlePreviousPage = () => {
     if (currentPage > 1) {
       setCurrentPage((prevPage) => prevPage - 1);
+    }
+  };
+
+  const handleGenerate = async () => {
+    if (!primaryKeyword) {
+      alert('Please enter a primary keyword');
+      return;
+    }
+
+    try {
+      setIsGenerating(true);
+      const response = await fetch('/api/generate-blog', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          primaryKeyword,
+          secondaryKeyword,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+
+      const reader = response.body?.getReader();
+      const decoder = new TextDecoder();
+      let result = '';
+
+      if (reader) {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          result += decoder.decode(value, { stream: true });
+        }
+      }
+
+      // Parse JSON
+      const generatedData = JSON.parse(result);
+
+      // Update state
+      setNewBlog((prev) => ({
+        ...prev,
+        title: generatedData.title || prev.title,
+        subtitle: generatedData.subtitle || prev.subtitle,
+        description: generatedData.description || prev.description,
+        metaTitle: generatedData.metaTitle || prev.metaTitle,
+        metaDescription: generatedData.metaDescription || prev.metaDescription,
+        slug: generatedData.slug || prev.slug,
+        faqs: generatedData.faqs || prev.faqs,
+      }));
+
+      // Optionally handle reviews if your schema supports it
+      // if (generatedData.reviews) { ... }
+
+      alert('Blog generated successfully!');
+    } catch (error) {
+      console.error('Generation failed:', error);
+      alert('Failed to generate blog. Please try again.');
+    } finally {
+      setIsGenerating(false);
     }
   };
 
@@ -625,8 +724,35 @@ const BlogsDashboard = () => {
               <motion.button
                 onClick={() => {
                   if (showBlogForm) {
-                    resetForm();
+                    // When going back to list, ask if they want to discard if there are changes
+                    if (newBlog.title || newBlog.description) {
+                       if(window.confirm('You have unsaved changes. Do you want to discard them?')) {
+                         resetForm();
+                         clearDraft();
+                       }
+                    } else {
+                      resetForm();
+                    }
                   } else {
+                    // Check for draft when opening form
+                    const savedDraft = localStorage.getItem(BLOG_DRAFT_KEY);
+                    if (savedDraft) {
+                      try {
+                        const { blog, mode } = JSON.parse(savedDraft);
+                        if (window.confirm('We found an unsaved blog draft. Would you like to restore it?')) {
+                          setNewBlog(blog);
+                          setFormMode(mode || 'add');
+                          setShowBlogForm(true);
+                          return;
+                        } else {
+                          clearDraft();
+                        }
+                      } catch (e) {
+                        console.error('Error parsing draft:', e);
+                        clearDraft();
+                      }
+                    }
+                    
                     setFormMode('add');
                     setShowBlogForm(true);
                   }
@@ -650,6 +776,57 @@ const BlogsDashboard = () => {
                   onSubmit={handleSubmitBlog}
                   className="space-y-6"
                 >
+                  {/* AI Generator Section */}
+                  <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200 mb-6">
+                    <h3 className="text-indigo-800 font-medium mb-2 flex items-center">
+                      <FontAwesomeIcon icon={faMagic} className="mr-2" />
+                      AI Magic Generator
+                    </h3>
+                    <div className="flex flex-col gap-4">
+                      <div>
+                          <label className="block text-xs text-indigo-800 mb-1">Primary Keyword (Must be specific)</label>
+                          <input
+                            type="text"
+                            value={primaryKeyword}
+                            onChange={(e) => setPrimaryKeyword(e.target.value)}
+                            placeholder="e.g., 'Get freed from loan'"
+                            className="w-full px-4 py-2 border border-indigo-200 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400 text-black"
+                            disabled={isGenerating}
+                          />
+                      </div>
+                      <div>
+                          <label className="block text-xs text-indigo-800 mb-1">Secondary Keyword (Optional)</label>
+                          <input
+                            type="text"
+                            value={secondaryKeyword}
+                            onChange={(e) => setSecondaryKeyword(e.target.value)}
+                            placeholder="e.g., 'loan settlement process'"
+                            className="w-full px-4 py-2 border border-indigo-200 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400 text-black"
+                            disabled={isGenerating}
+                          />
+                      </div>
+                      <button
+                        type="button"
+                        onClick={handleGenerate}
+                        disabled={isGenerating}
+                        className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 disabled:bg-indigo-400 transition-colors flex items-center justify-center"
+                      >
+                        {isGenerating ? (
+                          <>
+                            <span className="animate-spin mr-2">💫</span>
+                            Generating...
+                          </>
+                        ) : (
+                          <>
+                            Generate Blog
+                          </>
+                        )}
+                      </button>
+                    </div>
+                    <p className="text-xs text-indigo-600 mt-2">
+                      This will auto-fill the form with SEO-optimized title, description, content, FAQs, and more (Indian Context).
+                    </p>
+                  </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
