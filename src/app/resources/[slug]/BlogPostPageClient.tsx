@@ -694,8 +694,50 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 </div>
               </div>
 
-             
-            </div>
+               {/* Reviews Section */}
+                <div
+                  className="mt-8 rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
+                  style={{
+                    background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(239, 247, 255, 0.9) 100%)'
+                  }}
+                >
+                  <h2
+                    className="text-2xl font-semibold mb-6"
+                    style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+                  >
+                    Client Reviews
+                  </h2>
+
+                  {/* Reviews List */}
+                  <div className="space-y-6 mb-10">
+                    {reviews.map((review) => (
+                      <div key={review.id || review.date} className="p-5 rounded-2xl bg-white border border-sky-900/10 shadow-sm">
+                         <div className="flex items-center justify-between mb-3">
+                            <h4 className="font-semibold text-[#0C2756]">{review.author}</h4>
+                            <span className="text-xs text-gray-400">{new Date(review.date).toLocaleDateString()}</span>
+                         </div>
+                         <div className="flex items-center mb-3">
+                            {[...Array(5)].map((_, i) => (
+                              <i 
+                                key={i}
+                                className={`fas fa-star text-sm ${i < review.rating ? 'text-yellow-400' : 'text-gray-200'}`}
+                                aria-hidden="true"
+                              ></i>
+                            ))}
+                         </div>
+                         <p className="text-sm text-gray-600 italic">
+                            &quot;{review.comment}&quot;
+                         </p>
+                      </div>
+                    ))}
+                    {reviews.length === 0 && (
+                      <p className="text-center text-gray-500 py-4">No reviews yet. Be the first to share your experience!</p>
+                    )}
+                  </div>
+
+                 
+                </div>
+              </div>
 
             <div
               className="lg:w-1/6 hidden lg:block transition duration-700 opacity-100 translate-y-0"

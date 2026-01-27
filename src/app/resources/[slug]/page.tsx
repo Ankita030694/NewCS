@@ -127,7 +127,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     name: 'CredSettle',
     url: 'https://credsettle.com',
     image: 'https://credsettle.com/credsettle-logo.svg',
-    fixed_address: {
+    address: {
         '@type': 'PostalAddress',
         addressCountry: 'IN'
     },
