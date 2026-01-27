@@ -118,32 +118,43 @@ export default async function BlogPostPage({ params }: PageProps) {
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://www.credsettle.com/resources/${canonicalSlug}`
+    }
+  };
+
+  const serviceSchema = reviews.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FinancialService',
+    name: 'CredSettle',
+    url: 'https://credsettle.com',
+    image: 'https://credsettle.com/credsettle-logo.svg',
+    fixed_address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'IN'
     },
-    ...(reviews.length > 0 && {
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: (reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length).toFixed(1),
-        reviewCount: reviews.length,
+    priceRange: 'Consultation Free',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: (reviews.reduce((acc, r) => acc + r.rating, 0) / reviews.length).toFixed(1),
+      reviewCount: reviews.length,
+      bestRating: '5',
+      worstRating: '1'
+    },
+    review: reviews.map(review => ({
+      '@type': 'Review',
+      author: {
+        '@type': 'Person',
+        name: review.author
+      },
+      datePublished: review.date,
+      reviewBody: review.comment,
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: review.rating,
         bestRating: '5',
         worstRating: '1'
-      },
-      review: reviews.map(review => ({
-        '@type': 'Review',
-        author: {
-          '@type': 'Person',
-          name: review.author
-        },
-        datePublished: review.date,
-        reviewBody: review.comment,
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: review.rating,
-          bestRating: '5',
-          worstRating: '1'
-        }
-      }))
-    })
-  };
+      }
+    }))
+  } : null;
 
   const breadcrumbStructuredData = {
     '@context': 'https://schema.org',
@@ -199,6 +210,12 @@ export default async function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      {serviceSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
