@@ -151,7 +151,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
           {
             id: Date.now().toString(),
             ...newReview,
-            date: new Date().toLocaleDateString()
+            date: new Date().toISOString()
           },
           ...prev
         ]);
@@ -679,7 +679,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                         <div className="flex justify-between items-start mb-2">
                           <div>
                             <p className="font-semibold text-[#0C2756]">{review.author}</p>
-                            <p className="text-xs text-gray-500">{review.date}</p>
+                            <p className="text-xs text-gray-500">{new Date(review.date).toLocaleDateString()}</p>
                           </div>
                           <div className="flex text-yellow-400 text-sm">
                             {Array.from({ length: 5 }).map((_, i) => (

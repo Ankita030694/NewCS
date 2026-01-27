@@ -242,7 +242,7 @@ export async function getBlogReviews(blogId: string): Promise<Review[]> {
       author: data.author || 'Anonymous',
       rating: data.rating || 5,
       comment: data.comment || '',
-      date: data.date ? new Date(data.date.toDate()).toLocaleDateString() : new Date().toLocaleDateString()
+      date: data.date ? (data.date.toDate ? data.date.toDate().toISOString() : new Date(data.date).toISOString()) : new Date().toISOString()
     };
   });
 }
