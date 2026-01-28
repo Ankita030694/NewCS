@@ -751,6 +751,13 @@ async function generateSitemap(): Promise<string> {
     changefreq: 'weekly',
     lastmod: today
   });
+  // Telangana Loan Settlement Page
+  urls.push({
+    loc: `${baseUrl}/what-is-npa`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
 
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
