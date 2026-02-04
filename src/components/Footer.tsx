@@ -83,6 +83,24 @@ export default function Footer() {
             </div>
           </div>
 
+          <div className="flex flex-col gap-4 md:gap-5 mb-8 border-t border-[rgba(12,39,86,0.10)] pt-8">
+            <h3 className="text-[#0C2756] text-sm md:text-base font-bold leading-tight">
+              Queries
+            </h3>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              <a href="/cheque-bounce-case-in-kolkata" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Kolkata</a>
+            </div>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              <a href="/cheque-bounce-case-in-ahmedabad" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Ahmedabad</a>
+            </div>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              <a href="/cheque-bounce-case-in-delhi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Delhi</a>
+            </div>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              <a href="/cheque-bounce-case-in-noida" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Noida</a>
+            </div>
+          </div>
+
           <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
 
           <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-tight">

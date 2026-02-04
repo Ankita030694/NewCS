@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 7; // Home, About, Contact, Services, Resources, Terms and Conditions, Privacy Policy
+  const mainStaticPages = 12; // Home, About, Contact, Services, Resources, Terms and Conditions, Privacy Policy, SEO educational pages
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -751,9 +751,41 @@ async function generateSitemap(): Promise<string> {
     changefreq: 'weekly',
     lastmod: today
   });
-  // Telangana Loan Settlement Page
+  // what-is-npa page
   urls.push({
     loc: `${baseUrl}/what-is-npa`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Cheque Bounce Case in Kolkata page
+  urls.push({
+    loc: `${baseUrl}/cheque-bounce-case-in-kolkata`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Cheque Bounce Case in Ahmedabad page
+  urls.push({
+    loc: `${baseUrl}/cheque-bounce-case-in-ahmedabad`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Cheque Bounce Case in Delhi page
+  urls.push({
+    loc: `${baseUrl}/cheque-bounce-case-in-delhi`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Cheque Bounce Case in Noida page
+  urls.push({
+    loc: `${baseUrl}/cheque-bounce-case-in-noida`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
