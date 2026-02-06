@@ -791,6 +791,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // How to Handle Recovery Agent Harassment page
+  urls.push({
+    loc: `${baseUrl}/how-to-handle-recovery-agent-harrasement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
