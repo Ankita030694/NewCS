@@ -97,6 +97,12 @@ const BlogsDashboard = () => {
   const [primaryKeyword, setPrimaryKeyword] = useState('');
   const [secondaryKeyword, setSecondaryKeyword] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
+  const [imagePrompt, setImagePrompt] = useState('');
+  const [isGeneratingImage, setIsGeneratingImage] = useState(false);
+  const [expansionPrompt, setExpansionPrompt] = useState('');
+  const [isExpanding, setIsExpanding] = useState(false);
+  const [isChecking, setIsChecking] = useState(true);
+  const [isAuthorized, setIsAuthorized] = useState(false);
 
   // Draft Saving Logic
   useEffect(() => {
@@ -132,13 +138,18 @@ const BlogsDashboard = () => {
 
     const hasSessionToken = !!localStorage.getItem('credsettle:sessionToken');
     if (hasSessionToken) {
+      setIsAuthorized(true);
+      setIsChecking(false);
       return;
     }
 
     const unsubscribe = onAuthStateChanged(auth, (user) => {
-      if (!user) {
+      if (user) {
+        setIsAuthorized(true);
+      } else {
         router.replace('/nullify');
       }
+      setIsChecking(false);
     });
 
     return () => {
@@ -149,7 +160,7 @@ const BlogsDashboard = () => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      router.push('/login');
+      router.push('/nullify');
     } catch (error) {
       console.error('Error logging out:', error);
     }
@@ -718,6 +729,89 @@ const BlogsDashboard = () => {
     }
   };
 
+  const handleGenerateImage = async () => {
+    if (!imagePrompt) {
+      alert('Please enter an image prompt');
+      return;
+    }
+
+    try {
+      setIsGeneratingImage(true);
+      const response = await fetch('/api/generate-image', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ prompt: imagePrompt }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to generate image');
+      }
+
+      const data = await response.json();
+      setNewBlog((prev) => ({
+        ...prev,
+        image: data.url,
+      }));
+      setImagePreview(data.url);
+      alert('AI image generated and uploaded successfully!');
+    } catch (error) {
+      console.error('Image generation failed:', error);
+      alert('Failed to generate image. Please try again.');
+    } finally {
+      setIsGeneratingImage(false);
+    }
+  };
+
+  const handleExpandContent = async () => {
+    if (!newBlog.description) {
+      alert('Please enter some initial content to expand.');
+      return;
+    }
+
+    try {
+      setIsExpanding(true);
+      const response = await fetch('/api/expand-content', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          currentContent: newBlog.description,
+          expansionPrompt: expansionPrompt,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to expand content');
+      }
+
+      const reader = response.body?.getReader();
+      const decoder = new TextDecoder();
+      let result = '';
+
+      if (reader) {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          result += decoder.decode(value, { stream: true });
+        }
+      }
+
+      setNewBlog((prev) => ({
+        ...prev,
+        description: result,
+      }));
+      alert('Content expanded successfully to 5000+ words!');
+    } catch (error) {
+      console.error('Content expansion failed:', error);
+      alert('Failed to expand content. Please try again.');
+    } finally {
+      setIsExpanding(false);
+    }
+  };
+
   const testRssFeed = async () => {
     try {
       setIsLoadingRss(true);
@@ -760,6 +854,21 @@ const BlogsDashboard = () => {
       setIsLoadingRss(false);
     }
   };
+
+  if (isChecking) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <div className="animate-spin inline-block w-8 h-8 border-4 border-gray-900 border-t-transparent rounded-full mb-4"></div>
+          <p className="text-gray-600 font-medium">Checking your access...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!isAuthorized) {
+    return null;
+  }
 
   return (
     <div className="min-h-screen overflow-hidden relative bg-gray-50">
@@ -1041,6 +1150,33 @@ const BlogsDashboard = () => {
                           </div>
                         )}
 
+                        {/* AI Image Generator Box */}
+                        <div className="mt-4 p-3 bg-purple-50 border border-purple-200 rounded-lg">
+                          <label className="block text-xs font-semibold text-purple-800 mb-2 flex items-center">
+                            <FontAwesomeIcon icon={faMagic} className="mr-2" />
+                            AI Image Generator (DALL-E 3)
+                          </label>
+                          <div className="flex gap-2">
+                            <input
+                              type="text"
+                              value={imagePrompt}
+                              onChange={(e) => setImagePrompt(e.target.value)}
+                              placeholder="Describe the image you want..."
+                              className="flex-1 px-3 py-2 text-sm border border-purple-200 rounded-md focus:outline-none focus:ring-1 focus:ring-purple-400 text-black"
+                              disabled={isGeneratingImage}
+                            />
+                            <button
+                              type="button"
+                              onClick={handleGenerateImage}
+                              disabled={isGeneratingImage}
+                              className="px-4 py-2 bg-purple-600 text-white text-xs font-bold rounded-md hover:bg-purple-700 disabled:bg-purple-400 transition-colors"
+                            >
+                              {isGeneratingImage ? 'Generating...' : 'Generate'}
+                            </button>
+                          </div>
+                          <p className="mt-1 text-[10px] text-purple-600">The generated image will be uploaded to Firebase automatically.</p>
+                        </div>
+
                         <input type="hidden" id="image" name="image" value={newBlog.image} />
                       </div>
                     </div>
@@ -1213,6 +1349,41 @@ const BlogsDashboard = () => {
                       {typeof window !== 'undefined' && (
                         <TiptapEditor content={newBlog.description} onChange={handleEditorChange} className="bg-white text-black h-[500px]" />
                       )}
+                    </div>
+                    {/* AI Content Expander Box */}
+                    <div className="mt-4 p-4 bg-emerald-50 border border-emerald-200 rounded-lg">
+                      <label className="block text-sm font-semibold text-emerald-800 mb-3 flex items-center">
+                        <FontAwesomeIcon icon={faMagic} className="mr-2" />
+                        AI Content Expander (5000+ Words)
+                      </label>
+                      <div className="flex flex-col gap-3">
+                        <textarea
+                          value={expansionPrompt}
+                          onChange={(e) => setExpansionPrompt(e.target.value)}
+                          placeholder="What specific sections or details should be expanded? (e.g. 'Add more details about RBI 2025 guidelines and NBFC rules')"
+                          rows={2}
+                          className="w-full px-4 py-2 text-sm border border-emerald-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400 text-black"
+                          disabled={isExpanding}
+                        />
+                        <button
+                          type="button"
+                          onClick={handleExpandContent}
+                          disabled={isExpanding || !newBlog.description}
+                          className="w-full md:w-auto self-end px-6 py-2 bg-emerald-600 text-white text-sm font-bold rounded-lg hover:bg-emerald-700 disabled:bg-emerald-400 transition-colors shadow-sm"
+                        >
+                          {isExpanding ? (
+                            <span className="flex items-center justify-center">
+                              <span className="animate-spin mr-2">💫</span>
+                              Expanding Content...
+                            </span>
+                          ) : (
+                            'Expand to 5000+ Words'
+                          )}
+                        </button>
+                      </div>
+                      <p className="mt-2 text-xs text-emerald-600 font-medium italic">
+                        Tip: GPT-4o will intelligently expand your existing content while maintaining SEO and professional tone.
+                      </p>
                     </div>
                     <p className="mt-2 text-xs text-gray-500">Use the toolbar above to format your content.</p>
                   </div>

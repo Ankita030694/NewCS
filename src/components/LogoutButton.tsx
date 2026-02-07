@@ -28,7 +28,7 @@ export default function LogoutButton() {
       }
 
       await signOut(auth);
-      router.push('/login');
+      router.push('/nullify');
     } catch (error) {
       console.error('Error during logout:', error);
       setErrorMessage('We could not log you out. Please try again.');

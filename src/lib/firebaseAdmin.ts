@@ -1,7 +1,7 @@
 import { cert, getApps, initializeApp, type AppOptions } from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
 
-type ServiceAccountJSON = { 
+type ServiceAccountJSON = {
   project_id?: string;
   client_email?: string;
   private_key?: string;
@@ -16,7 +16,7 @@ const coercePrivateKey = (raw?: string | null): string | undefined => {
   }
 
   const trimmed = raw.trim();
-  if (!trimmed) { 
+  if (!trimmed) {
     return undefined;
   }
 
@@ -73,8 +73,12 @@ const appOptions: AppOptions = {
     clientEmail,
     privateKey,
   }),
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET ?? 'credsettlee.firebasestorage.app',
 };
+
+import { getStorage } from 'firebase-admin/storage';
 
 const app = getApps().length > 0 ? getApps()[0] : initializeApp(appOptions);
 
 export const adminDb = getFirestore(app);
+export const adminStorage = getStorage(app);
