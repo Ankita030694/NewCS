@@ -105,6 +105,9 @@ export default function Footer() {
             <div className="flex flex-wrap gap-x-6 gap-y-2">
               <a href="/bank-calling-references-and-family-members" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Calling References & Family Members</a>
             </div>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              <a href="/can-i-settle-loan-for-free" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Settle Loan for Free</a>
+            </div>
           </div>
 
           <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>

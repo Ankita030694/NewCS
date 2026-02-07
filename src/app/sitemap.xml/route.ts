@@ -799,6 +799,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Can I Settle Loan For Free page
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-loan-for-free`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
