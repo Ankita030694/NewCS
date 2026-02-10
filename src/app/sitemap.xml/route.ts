@@ -799,6 +799,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // How to ask bank for settlement page
+  urls.push({
+    loc: `${baseUrl}/how-to-ask-bank-for-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // Can I Settle Loan For Free page
   urls.push({
     loc: `${baseUrl}/can-i-settle-loan-for-free`,

@@ -87,26 +87,20 @@ export default function Footer() {
             <h3 className="text-[#0C2756] text-sm md:text-base font-bold leading-tight">
               Queries
             </h3>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
               <a href="/cheque-bounce-case-in-kolkata" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Kolkata</a>
-            </div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
               <a href="/cheque-bounce-case-in-ahmedabad" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Ahmedabad</a>
-            </div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
               <a href="/cheque-bounce-case-in-delhi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Delhi</a>
-            </div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
               <a href="/cheque-bounce-case-in-noida" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Noida</a>
-            </div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
               <a href="/how-to-handle-recovery-agent-harrasement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Handle Recovery Agent Harassment</a>
-            </div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
               <a href="/bank-calling-references-and-family-members" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Calling References & Family Members</a>
-            </div>
-            <div className="flex flex-wrap gap-x-6 gap-y-2">
               <a href="/can-i-settle-loan-for-free" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Settle Loan for Free</a>
+              <a href="/can-I-settle-my-home-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Settle My Home Loan</a>
+              <a href="/what-kind-of-loans-can-not-be-settled" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What Kind of Loans Can Not Be Settled</a>
+              <a href="/what-are-the-consequences-of-not-paying-emi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consequences of Not Paying EMI</a>
+              <a href="/what-is-the-best-way-to-negotiate-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What is the Best Way to Negotiate Loan Settlement</a>
+              <a href="/how-to-ask-bank-for-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Ask Bank for Settlement</a>
+              <a href="/how-to-stop-recovery-agent-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Stop Recovery Agent Harassment</a>
             </div>
           </div>
 
