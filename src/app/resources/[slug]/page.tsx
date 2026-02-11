@@ -184,6 +184,14 @@ export default async function BlogPostPage({ params }: PageProps) {
   const faqItems: BlogFaq[] =
     blog.faqs && blog.faqs.length > 0 ? blog.faqs : defaultBlogFaqs;
 
+  const validFaqItems = faqItems.filter(
+    (faq) =>
+      typeof faq.question === 'string' &&
+      faq.question.trim() !== '' &&
+      typeof faq.answer === 'string' &&
+      faq.answer.trim() !== ''
+  );
+
   const faqStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -193,14 +201,14 @@ export default async function BlogPostPage({ params }: PageProps) {
       blog.metaDescription ||
       blog.subtitle ||
       'Frequently asked questions about CredSettle’s RBI-compliant debt settlement services.',
-    mainEntity: faqItems.map((faq, index) => ({
+    mainEntity: validFaqItems.map((faq, index) => ({
       '@type': 'Question',
       '@id': `https://www.credsettle.com/resources/${canonicalSlug}#faq-question-${index + 1}`,
       name: faq.question,
-      acceptedAnswer: {
+      acceptedAnswer: [{
         '@type': 'Answer',
         text: faq.answer
-      }
+      }]
     }))
   };
 
@@ -216,10 +224,12 @@ export default async function BlogPostPage({ params }: PageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
         />
       )}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
-      />
+      {validFaqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
