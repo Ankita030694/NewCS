@@ -192,6 +192,17 @@ export default async function BlogPostPage({ params }: PageProps) {
       faq.answer.trim() !== ''
   );
 
+  // Helper to safely serialize JSON-LD, escaping characters that can break script tags
+  const safeJsonLdReplacer = (_key: string, value: any) => {
+    if (typeof value === 'string') {
+      return value
+        .replace(/</g, '\\u003c')
+        .replace(/>/g, '\\u003e')
+        .replace(/&/g, '\\u0026');
+    }
+    return value;
+  };
+
   const faqStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -207,6 +218,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       name: faq.question,
       acceptedAnswer: [{
         '@type': 'Answer',
+        '@id': `https://www.credsettle.com/resources/${canonicalSlug}#faq-answer-${index + 1}`,
         text: faq.answer
       }]
     }))
@@ -227,7 +239,9 @@ export default async function BlogPostPage({ params }: PageProps) {
       {validFaqItems.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqStructuredData, safeJsonLdReplacer)
+          }}
         />
       )}
       <script
