@@ -468,12 +468,7 @@ export default function GujaratLoanSettlementClient() {
                       Rajasthan Guide
                     </Link>
                   </li>
-                   <li>
-                    <Link href="/loan-settlement/madhya-pradesh" className="text-gray-600 hover:text-blue-600 flex items-center group">
-                      <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span>
-                      MP Guide
-                    </Link>
-                  </li>
+
                 </ul>
               </div>
 

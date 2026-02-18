@@ -7,7 +7,7 @@ import RecoveryAgentClient from './RecoveryAgentClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Handle Recovery Agent Harassment | RBI Rules 2025 | CredSettle',
+  title: 'Handle Recovery Harassment: RBI Rules 2025',
   description: 'Learn how to handle recovery agent harassment with RBI rules 2024-2025. Know your legal rights, how to file a complaint, and stop illegal collection calls today.',
   keywords: [
     'how to handle recovery agent harassment',

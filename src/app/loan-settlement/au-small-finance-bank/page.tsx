@@ -7,7 +7,7 @@ import AUSmallFinanceBankLoanSettlementClient from './AUSmallFinanceBankLoanSett
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'AU Small Finance Bank Loan Settlement | Fake Arbitration Notice Check',
+  title: 'AU Bank Loan Settlement | Fake Notice Check',
   description: 'Received a legal notice from AU Small Finance Bank? Check if it is FAKE. Download settlement letter format, stop harassment, and save 50% on dues.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/au-small-finance-bank',

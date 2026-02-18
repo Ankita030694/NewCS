@@ -7,7 +7,7 @@ import MaharashtraLoanSettlementClient from './MaharashtraLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Maharashtra: Legal Process & Lok Adalat Guide 2026',
+  title: 'Loan Settlement in Maharashtra: Legal Guide',
   description: 'Struggling with debt in Mumbai or Pune? Learn how to legally settle loans in Maharashtra through Lok Adalat & DRT. Stop harassment and save up to 50% on dues.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/maharashtra',

@@ -36,6 +36,17 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "credsettle.com",
+          },
+        ],
+        destination: "https://www.credsettle.com/:path*",
+        permanent: true,
+      },
+      {
         source: "/services/businessloan/:path*",
         destination: "/services/business-loan-settlement/:path*",
         permanent: true,

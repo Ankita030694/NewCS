@@ -7,7 +7,7 @@ import AndhraPradeshLoanSettlementClient from './AndhraPradeshLoanSettlementClie
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Andhra Pradesh: Legal Process, Laws & Guidelines',
+  title: 'Loan Settlement in Andhra Pradesh: Legal Guide',
   description: 'Struggling with debt in Visakhapatnam, Vijayawada or anywhere in Andhra Pradesh? Learn how to legally settle loans. Stop harassment, save up to 50% & avoid legal action.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/andhra-pradesh',

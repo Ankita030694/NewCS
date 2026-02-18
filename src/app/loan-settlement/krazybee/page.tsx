@@ -7,7 +7,7 @@ import KrazyBeeLoanSettlementClient from './KrazyBeeLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'KrazyBee (KreditBee) Loan Settlement | Fake Notice Check & Letter Format',
+  title: 'KrazyBee Loan Settlement | Fake Notice Check',
   description: 'Expert guide to settling KrazyBee / KreditBee loans. Check if your legal notice is FAKE or REAL. Download settlement letter format and stop harassment today.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/krazybee',

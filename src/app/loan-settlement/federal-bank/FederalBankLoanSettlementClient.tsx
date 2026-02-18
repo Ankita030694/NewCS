@@ -383,12 +383,7 @@ export default function FederalBankLoanSettlementClient() {
                       ICICI Bank
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/loan-settlement/karnataka-bank" className="text-gray-600 hover:text-amber-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span>
-                      Karnataka Bank
-                    </Link>
-                  </li>
+
                 </ul>
               </div>
 

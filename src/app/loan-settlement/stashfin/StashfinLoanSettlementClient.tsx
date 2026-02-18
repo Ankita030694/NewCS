@@ -453,23 +453,13 @@ export default function StashfinLoanSettlementClient() {
                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
                 <ul className="space-y-3 text-sm">
                    <li>
-                    <Link href="/loan-settlement/kreditbee" className="text-gray-600 hover:text-blue-600 flex items-center">
+                    <Link href="/loan-settlement/krazybee" className="text-gray-600 hover:text-blue-600 flex items-center">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
                       KreditBee Settlement
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/loan-settlement/mpokket" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      mPokket Settlement
-                    </Link>
-                  </li>
-                   <li>
-                    <Link href="/loan-settlement/kissht" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Kissht / Ring App
-                    </Link>
-                  </li>
+
+
                 </ul>
               </div>
 

@@ -7,7 +7,7 @@ import ICICILoanSettlementClient from './ICICILoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'ICICI Loan Settlement Process 2026 | Settle Credit Card & Personal Loan',
+  title: 'ICICI Loan Settlement Process 2026 | Guide',
   description: 'Expert guide on ICICI Bank loan settlement. Learn how to settle ICICI personal loan and credit card dues with up to 50% waiver. Stop harassment now.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/icici',

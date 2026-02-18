@@ -7,7 +7,7 @@ import HDFCLoanSettlementClient from './HDFCLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'HDFC Loan Settlement Process 2026 | Settle HDFC Credit Card & Personal Loan',
+  title: 'HDFC Loan Settlement Process 2026 | Guide',
   description: 'Expert guide on HDFC loan settlement. Learn how to settle HDFC personal loan and credit card dues with up to 50% waiver. Stop harassment and get legal protection.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/hdfc',

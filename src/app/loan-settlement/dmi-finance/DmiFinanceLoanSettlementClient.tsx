@@ -348,14 +348,9 @@ export default function DmiFinanceLoanSettlementClient() {
                       Bajaj Finserv
                     </Link>
                   </li>
+
                   <li>
-                    <Link href="/loan-settlement/home-credit" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Home Credit
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/idfc-first-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
+                    <Link href="/loan-settlement/idfc" className="text-gray-600 hover:text-blue-600 flex items-center">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
                       IDFC First Bank
                     </Link>

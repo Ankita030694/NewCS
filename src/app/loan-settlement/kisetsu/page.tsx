@@ -7,7 +7,7 @@ import KisetsuLoanSettlementClient from './KisetsuLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Kisetsu Saison Finance Loan Settlement | Privo App & Credit Saison OTS',
+  title: 'Kisetsu Saison Loan Settlement | Privo OTS',
   description: 'Complete guide to Kisetsu Saison Finance (Credit Saison) & Privo App loan settlement. Download NOC, find customer care email, and stop harassment. Save 50%.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/kisetsu',

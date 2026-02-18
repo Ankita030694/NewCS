@@ -7,7 +7,7 @@ import KotakLoanSettlementClient from './KotakLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Kotak Loan Settlement Process 2026 | Settle Kotak Credit Card & Loan',
+  title: 'Kotak Loan Settlement Process 2026 | Guide',
   description: 'Complete guide to Kotak Mahindra Bank loan settlement. Learn how to settle Kotak personal loans and credit cards with up to 50% waiver. Stop harassment today.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/kotak',

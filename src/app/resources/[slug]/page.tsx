@@ -27,6 +27,44 @@ const isPromise = (value: PageProps['params']): value is Promise<PageParams> =>
 const resolveParams = async (params: PageProps['params']): Promise<PageParams> =>
   (isPromise(params) ? await params : params);
 
+const IGNORED_DESCRIPTIONS = [
+  "Loan settlement, Anti-harassment, lawyer support, legal help",
+  "Loan Settlement Services | Credit Card Loan Settlement | Personal Loan Settlement | Vehicle Loan Settlement | Debt Settlement in India | Loan Restructuring Solutions | Reduce Loan Burden | Get Rid of Loan Harassment | Settle Loans Quickly | Loan Negotiation Experts",
+  "Loan Settlement Services | Credit Card Loan Settlement | Personal Loan Settlement | Vehicle Loan Settlement"
+];
+
+const OPTIMIZED_TITLES: Record<string, string> = {
+  "a-complete-guide-to-loan-settlement-in-india-how-to-become-debt-free": "Complete Guide to Loan Settlement in India",
+  "best-loan-settlement-debt-relief-solutions-how-to-settle-your-debt-easily": "Best Loan Settlement & Debt Relief Solutions",
+  "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "Dealing with Recovery Agents: Rights & Tips",
+  "escape-debt-stress-the-best-debt-settlement-and-relief-programs-in-2025": "Best Debt Settlement Programs in 2025",
+  "hdfc-credit-card-settlement-procedure-and-recourse-against-recovery-agents": "HDFC Credit Card Settlement Procedure & Tips",
+  "how-lawyer-and-expert-panels-efficiently-handle-multi-bank-loan-settlements": "Expert Panels for Multi-Bank Loan Settlements",
+  "how-to-lodge-a-complaint-against-a-credit-card-collection-agency-in-india": "Complaint Against Collection Agency in India",
+  "how-to-negotiate-a-credit-card-settlement-in-india-a-step-by-step-guide": "Negotiate Credit Card Settlement in India",
+  "how-to-negotiate-a-loan-settlement-without-affecting-your-cibil-score": "Loan Settlement Without Affecting CIBIL Score",
+  "icici-bank-credit-card-settlement-a-complete-guide-to-resolving-your-debt": "ICICI Credit Card Settlement Guide",
+  "indusind-bank-credit-card-settlement-the-smart-way-to-reduce-your-debt": "IndusInd Bank Credit Card Settlement Guide",
+  "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours | Fast & Legal",
+  "one-card-credit-card-repayment-smart-ways-to-clear-your-debt-faster": "One Card Repayment: Clear Debt Faster",
+  "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Recovery Agents Rogue: Your RBI Defences",
+  "sbi-credit-card-debt-relief-smart-strategies-to-reduce-your-financial-burden": "SBI Credit Card Debt Relief Strategies",
+  "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Ultimate Guide to Loan Settlement"
+};
+
+const getValidDescription = (blog: { metaDescription?: string; subtitle?: string; description: string }) => {
+  const isInvalid = (text: string | undefined) => 
+    !text || 
+    IGNORED_DESCRIPTIONS.some(ignored => text.trim() === ignored.trim()) ||
+    text.startsWith("Loan Settlement Services | Credit Card Loan Settlement");
+
+  if (!isInvalid(blog.metaDescription)) return blog.metaDescription!;
+  if (!isInvalid(blog.subtitle)) return blog.subtitle!;
+
+  const content = stripHtml(blog.description);
+  return content.slice(0, 160) + (content.length > 160 ? '...' : '');
+};
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await resolveParams(params);
   const blog = await getBlogBySlug(slug);
@@ -44,14 +82,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const canonicalSlug = canonicaliseSlug(blog.slug || generateSlugFromTitle(blog.title) || slug);
   const canonicalUrl = `https://www.credsettle.com/resources/${canonicalSlug}`;
-  const descriptionFallback =
-    blog.metaDescription || blog.subtitle || stripHtml(blog.description).slice(0, 160);
+  const descriptionFallback = getValidDescription(blog);
 
   const DEFAULT_META_TITLE = 'CredSettle Blog | Expert Debt Relief Insights';
+  const optimizedTitle = OPTIMIZED_TITLES[canonicalSlug] || OPTIMIZED_TITLES[slug];
+
   const effectiveTitle =
-    blog.metaTitle && blog.metaTitle.trim() !== '' && blog.metaTitle !== DEFAULT_META_TITLE
+    optimizedTitle ||
+    (blog.metaTitle && blog.metaTitle.trim() !== '' && blog.metaTitle !== DEFAULT_META_TITLE
       ? blog.metaTitle
-      : blog.title;
+      : blog.title);
 
   return {
     title: effectiveTitle,
@@ -107,8 +147,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: blog.title,
-    description:
-      blog.metaDescription || blog.subtitle || stripHtml(blog.description).slice(0, 160),
+    description: getValidDescription(blog),
     image: blog.image ? [blog.image] : undefined,
     datePublished: blog.date || undefined,
     author: {
@@ -208,10 +247,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     '@type': 'FAQPage',
     '@id': `https://www.credsettle.com/resources/${canonicalSlug}#faq`,
     name: `${blog.title} FAQs | CredSettle`,
-    description:
-      blog.metaDescription ||
-      blog.subtitle ||
-      'Frequently asked questions about CredSettle’s RBI-compliant debt settlement services.',
+    description: getValidDescription(blog),
     mainEntity: validFaqItems.map((faq, index) => ({
       '@type': 'Question',
       '@id': `https://www.credsettle.com/resources/${canonicalSlug}#faq-question-${index + 1}`,

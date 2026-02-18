@@ -7,7 +7,7 @@ import SBILoanSettlementClient from '@/app/loan-settlement/sbi/SBILoanSettlement
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'SBI Loan Settlement Process 2026 | Settle SBI Credit Card & Personal Loan',
+  title: 'SBI Loan Settlement Process 2026 | Guide',
   description: 'Complete guide on State Bank of India (SBI) loan settlement. Learn about SBI OTS schemes 2026, arbitration, and how to settle credit card dues with up to 50% waiver.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/sbi',

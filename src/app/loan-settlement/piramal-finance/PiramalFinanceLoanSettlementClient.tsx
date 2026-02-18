@@ -446,7 +446,7 @@ export default function PiramalFinanceLoanSettlementClient() {
                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
                 <ul className="space-y-3 text-sm">
                    <li>
-                    <Link href="/loan-settlement/bajaj-finance" className="text-gray-600 hover:text-blue-600 flex items-center">
+                    <Link href="/loan-settlement/bajaj-finserv" className="text-gray-600 hover:text-blue-600 flex items-center">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
                       Bajaj Finance
                     </Link>
@@ -458,7 +458,7 @@ export default function PiramalFinanceLoanSettlementClient() {
                     </Link>
                   </li>
                    <li>
-                    <Link href="/loan-settlement/aditya-birla-capital" className="text-gray-600 hover:text-blue-600 flex items-center">
+                    <Link href="/loan-settlement/aditya-birla" className="text-gray-600 hover:text-blue-600 flex items-center">
                       <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
                       Aditya Birla Capital
                     </Link>

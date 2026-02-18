@@ -7,7 +7,7 @@ import UttarPradeshLoanSettlementClient from './UttarPradeshLoanSettlementClient
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Uttar Pradesh: Legal Process & Lok Adalat Guide',
+  title: 'Loan Settlement in Uttar Pradesh: Legal Guide',
   description: 'Struggling with debt in Noida, Lucknow or Kanpur? Learn how to settle loans legally in UP. Stop police complaints & harassment. Save up to 50%.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/uttar-pradesh',

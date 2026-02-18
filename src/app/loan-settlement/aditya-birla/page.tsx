@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import AdityaBirlaLoanSettlementClient from './AdityaBirlaLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Aditya Birla Finance Loan Settlement | Stop Arbitration & Harassment',
+  title: 'Aditya Birla Loan Settlement | Stop Harassment',
   description: 'Expert legal help for Aditya Birla Finance loan settlement. Stop sole arbitrator notices, agent harassment, and settle your personal or business loan effectively.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/aditya-birla',

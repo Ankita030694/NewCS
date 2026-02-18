@@ -7,7 +7,7 @@ import KarnatakaLoanSettlementClient from './KarnatakaLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Karnataka: Legal Process, Lok Adalat & Guidelines',
+  title: 'Loan Settlement in Karnataka: Legal Process',
   description: 'Struggling with debt in Bengaluru or Karnataka? Learn how to legally settle loans in Karnataka. Stop harassment, save up to 50% & avoid legal action.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/karnataka',

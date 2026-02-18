@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import DmiFinanceLoanSettlementClient from './DmiFinanceLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'DMI Finance Loan Settlement | Unlock Samsung Phone & Settle GPay Loans',
+  title: 'DMI Finance Loan Settlement | Unlock Samsung',
   description: 'Expert legal help for DMI Finance loan settlement. Resolve Samsung Finance+ device locks (Knox), GPay loan defaults, and digital arbitration notices.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/dmi-finance',

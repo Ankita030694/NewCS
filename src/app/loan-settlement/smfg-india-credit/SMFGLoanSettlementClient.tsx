@@ -397,12 +397,7 @@ export default function SMFGLoanSettlementClient() {
                       Tata Capital Settlement
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/loan-settlement/lt-finance" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      L&T Finance Settlement
-                    </Link>
-                  </li>
+
                 </ul>
               </div>
 

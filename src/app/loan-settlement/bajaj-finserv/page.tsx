@@ -7,7 +7,7 @@ import BajajFinservLoanSettlementClient from './BajajFinservLoanSettlementClient
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Bajaj Finserv Loan Settlement Policy 2026 | Settle Personal Loan & EMI',
+  title: 'Bajaj Finserv Loan Settlement Policy 2026',
   description: 'Expert guide on Bajaj Finserv loan settlement. Learn how to settle Bajaj Finserv personal loan and EMI dues with up to 50% waiver. Stop harassment and get legal protection.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/bajaj-finserv',
