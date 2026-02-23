@@ -7,12 +7,13 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const page = parseInt(searchParams.get('page') || '1', 10);
     const limit = parseInt(searchParams.get('limit') || '9', 10);
-    
+    const search = searchParams.get('search') || undefined;
+
     // Validate pagination parameters
     const validPage = Math.max(1, page);
     const validLimit = Math.min(100, Math.max(1, limit)); // Limit between 1 and 100
-    
-    const { blogs, pagination } = await getPaginatedBlogs(validPage, validLimit);
+
+    const { blogs, pagination } = await getPaginatedBlogs(validPage, validLimit, search);
     const responseHeaders = new Headers({
       'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=900',
     });

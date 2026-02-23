@@ -322,7 +322,7 @@ function ContactPageContent() {
                   Contact Us
                 </h2>
               </div>
-              <h3 
+              <h1 
                 className="mb-2.5 md:mb-3 text-xl md:text-2xl lg:text-[36px] leading-tight md:leading-tight lg:leading-[52px]"
                 style={{
                   color: '#0C2756',
@@ -332,7 +332,7 @@ function ContactPageContent() {
                 }}
               >
                 Let's Get in Touch
-              </h3>
+              </h1>
               <p 
                 className="mb-3 md:mb-5 text-sm md:text-base lg:text-[16px] leading-5 md:leading-6 lg:leading-[20px]"
                 style={{
@@ -431,7 +431,7 @@ function ContactPageContent() {
                 }}
               >
                 <div className="lg:hidden flex flex-col gap-2 mb-2">
-                  <h1
+                  <h2
                     className="text-2xl font-semibold leading-snug"
                     style={{
                       color: '#0C2756',
@@ -439,7 +439,7 @@ function ContactPageContent() {
                     }}
                   >
                     Contact Our Experts Now
-                  </h1>
+                  </h2>
                   <p
                     className="text-sm leading-5"
                     style={{
@@ -794,11 +794,16 @@ function ContactPageContent() {
             
           {/* Left Column: Office Details */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-[#0C2756] mb-6 font-poppins">Visit Our Headquarters</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#0C2756] mb-6 font-poppins">Visit Our Headquarters & Speak to Experts</h2>
+            <p className="text-gray-600 mb-6 leading-relaxed text-lg">
+              Our main office is strategically located in Gurugram's bustling business district, making it easily accessible for clients seeking in-person assistance. 
+              Whether you are currently facing intense harassment from aggressive recovery agents, struggling with mounting credit card dues, or simply need professional legal advice on navigating a complex loan settlement, our dedicated team of financial and legal experts is available for comprehensive, face-to-face consultations. 
+              We know that dealing with overwhelming debt can be incredibly stressful and isolating. Taking that very first step to reach out for professional help is often the hardest part of the journey. At CredSettle, we are deeply committed to providing a safe, completely secure, and judgment-free environment where you can openly discuss the specifics of your financial situation without fear.
+            </p>
             <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-              Our main office is strategically located in Gurugram's business district. 
-              Whether you're facing harassment from recovery agents or need legal advice on loan settlement, 
-              our team of experts is available for consultations.
+              Our specialized advisory team brings years of proven expertise in effectively negotiating with prominent banks and Non-Banking Financial Companies (NBFCs) across India. 
+              We strictly employ a 100% RBI-compliant, legally robust approach to help you potentially reduce your principal outstanding amount by up to 50%, immediately stop unwanted harassment calls, and ultimately close your loans with proper legal documentation and No Dues Certificates (NDCs). 
+              When you visit our Gurugram office or contact us through our online portal, we conduct a thorough, customized evaluation of your accounts—whether they involve unmanageable personal loans, credit card debt, or business loans. Based on this thorough assessment, we tailor a personalized, actionable settlement strategy that realistically fits your current repayment capacity and long-term financial goals. Regain your peace of mind, protect your legal rights, and start your journey towards total financial freedom by getting in touch with CredSettle today.
             </p>
             
             <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm mb-8">

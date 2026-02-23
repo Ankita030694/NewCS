@@ -113,11 +113,40 @@ function sortBlogsByDateDesc(blogs: BlogDocument[]): BlogDocument[] {
   });
 }
 
-async function fetchBlogsPage(page: number, limit: number): Promise<PaginatedBlogs> {
+async function fetchBlogsPage(page: number, limit: number, searchQuery?: string): Promise<PaginatedBlogs> {
   const validPage = Math.max(1, page);
   const validLimit = Math.min(100, Math.max(1, limit));
-  const blogsRef = collection(db, 'blogs');
 
+  if (searchQuery) {
+    const allBlogs = await getAllBlogs();
+    const queryLower = searchQuery.toLowerCase();
+
+    const filteredBlogs = allBlogs.filter((blog) =>
+      blog.title.toLowerCase().includes(queryLower) ||
+      blog.subtitle.toLowerCase().includes(queryLower) ||
+      blog.description.toLowerCase().includes(queryLower)
+    );
+
+    const totalBlogsSearch = filteredBlogs.length;
+    const startIndexSearch = (validPage - 1) * validLimit;
+    const endIndexSearch = startIndexSearch + validLimit;
+    const paginatedBlogsSearch = filteredBlogs.slice(startIndexSearch, endIndexSearch);
+    const totalPagesSearch = Math.ceil(totalBlogsSearch / validLimit);
+
+    return {
+      blogs: paginatedBlogsSearch,
+      pagination: {
+        page: validPage,
+        limit: validLimit,
+        total: totalBlogsSearch,
+        totalPages: totalPagesSearch,
+        hasNextPage: validPage < totalPagesSearch,
+        hasPreviousPage: validPage > 1,
+      },
+    };
+  }
+
+  const blogsRef = collection(db, 'blogs');
   const effectiveLimit = validLimit * validPage;
 
   let querySnapshot;
@@ -158,7 +187,7 @@ async function fetchBlogsPage(page: number, limit: number): Promise<PaginatedBlo
 }
 
 export const getPaginatedBlogs = unstable_cache(
-  async (page: number, limit: number) => fetchBlogsPage(page, limit),
+  async (page: number, limit: number, searchQuery?: string) => fetchBlogsPage(page, limit, searchQuery),
   ['blogs-paginated'],
   {
     revalidate: 300,

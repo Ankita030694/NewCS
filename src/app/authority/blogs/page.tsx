@@ -91,6 +91,7 @@ const BlogsDashboard = () => {
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
+  const [searchQuery, setSearchQuery] = useState('');
   const [rssDebugInfo, setRssDebugInfo] = useState('');
 
   const [isLoadingRss, setIsLoadingRss] = useState(false);
@@ -125,8 +126,14 @@ const BlogsDashboard = () => {
     }
   }, [newBlog, showBlogForm, formMode]);
 
-  const totalPages = Math.ceil(blogs.length / itemsPerPage);
-  const currentBlogs = blogs.slice(
+  const filteredBlogs = blogs.filter((blog) => 
+    (blog.title && blog.title.toLowerCase().includes(searchQuery.toLowerCase())) ||
+    (blog.subtitle && blog.subtitle.toLowerCase().includes(searchQuery.toLowerCase())) ||
+    (blog.description && blog.description.toLowerCase().includes(searchQuery.toLowerCase()))
+  );
+
+  const totalPages = Math.ceil(filteredBlogs.length / itemsPerPage);
+  const currentBlogs = filteredBlogs.slice(
     (currentPage - 1) * itemsPerPage,
     currentPage * itemsPerPage,
   );
@@ -540,7 +547,13 @@ const BlogsDashboard = () => {
           author: docData.author || 'CredSettle Team',
         };
       });
-      setBlogs(updatedBlogs);
+      const sortedUpdatedBlogs = updatedBlogs.sort((a, b) => {
+        const dateA = new Date(a.date).getTime();
+        const dateB = new Date(b.date).getTime();
+        return dateB - dateA;
+      });
+
+      setBlogs(sortedUpdatedBlogs);
     } catch (error) {
       console.error('Error processing blog:', error);
     }
@@ -1421,15 +1434,28 @@ const BlogsDashboard = () => {
                 </motion.form>
               </AnimatePresence>
             ) : (
-              <AnimatePresence mode="wait">
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -20 }}
-                  transition={{ duration: 0.3 }}
-                  className="overflow-x-auto rounded-lg"
-                >
-                  <table className="min-w-full divide-y divide-gray-200">
+              <div className="space-y-4">
+                <div className="flex justify-between items-center bg-gray-50 p-4 rounded-lg border border-gray-200">
+                  <input
+                    type="text"
+                    placeholder="Search blogs..."
+                    value={searchQuery}
+                    onChange={(e) => {
+                      setSearchQuery(e.target.value);
+                      setCurrentPage(1);
+                    }}
+                    className="w-full sm:max-w-xs px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all text-sm text-gray-900"
+                  />
+                </div>
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    transition={{ duration: 0.3 }}
+                    className="overflow-x-auto rounded-lg"
+                  >
+                    <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-gray-100">
                       <tr>
                         <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
@@ -1537,6 +1563,7 @@ const BlogsDashboard = () => {
                   </div>
                 </motion.div>
               </AnimatePresence>
+              </div>
             )}
 
             {!showBlogForm && (

@@ -57,6 +57,26 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/nbfc-loan-settlement",
+        destination: "/services/nbfc-loan-settlement",
+        permanent: true,
+      },
+      {
+        source: "/nbfc-loan-settlement/:path*",
+        destination: "/services/nbfc-loan-settlement/:path*",
+        permanent: true,
+      },
+      {
+        source: "/personal-loan-settlement",
+        destination: "/services/personal-loan-settlement",
+        permanent: true,
+      },
+      {
+        source: "/personal-loan-settlement/:path*",
+        destination: "/services/personal-loan-settlement/:path*",
+        permanent: true,
+      },
+      {
         source: "/services/creditloan/:path*",
         destination: "/services/credit-card-settlement/:path*",
         permanent: true,
@@ -139,6 +159,61 @@ const nextConfig: NextConfig = {
       {
         source: "/admin/:path*",
         destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/best-apps-for-managing-loan-settlement-offers-in-India",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/best-apps-for-managing-loan-settlement-offers-in-india",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/ignoring-calls-of-recovery-agent",
+        destination: "/how-to-handle-recovery-agent-harrasement",
+        permanent: true,
+      },
+      {
+        source: "/legal-services-near-me",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/resources/how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/resources/how-to-get-loan-or-is-it-time-to-learn-how-to-settle-loan-instead",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/resources/is-your-bank-account-under-lien-heres-everything-you-need-to-know",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/resources/loan-settlement-kaise-kare-puri-jankari-step-by-step",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/resources/www.credsettle.com",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/services/loan-settlement",
+        destination: "/loan-settlement",
+        permanent: true,
+      },
+      {
+        source: "/what-is-ots",
+        destination: "/loan-settlement",
         permanent: true,
       },
     ];

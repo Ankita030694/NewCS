@@ -118,6 +118,8 @@ export default function ResourcesClient({
   const [error, setError] = useState<string | null>(null);
   const [currentPage, setCurrentPage] = useState(initialPagination.page);
   const [pagination, setPagination] = useState(initialPagination);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const blogSectionRef = useRef<HTMLElement>(null);
   const prefetchedPagesRef = useRef<Map<number, BlogPost[]>>(new Map());
   const abortControllerRef = useRef<AbortController | null>(null);
@@ -168,6 +170,17 @@ export default function ResourcesClient({
   }, [initialPagination.page]);
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery);
+      if (searchQuery !== debouncedSearchQuery) {
+        setCurrentPage(1); // Reset to page 1 on search change
+      }
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, [searchQuery, debouncedSearchQuery]);
+
+  useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
 
@@ -179,29 +192,31 @@ export default function ResourcesClient({
   }, []);
 
   useEffect(() => {
-    if (currentPage === initialPagination.page) {
+    if (currentPage === initialPagination.page && !debouncedSearchQuery) {
       setLoading(false);
       return;
     }
 
-    const cachedBlogs = prefetchedPagesRef.current.get(currentPage);
-    if (cachedBlogs) {
-      setBlogPosts(cachedBlogs);
-      setPagination((prev) => ({
-        ...prev,
-        page: currentPage,
-      }));
-      setLoading(false);
-      return;
-    }
+    if (!debouncedSearchQuery) {
+      const cachedBlogs = prefetchedPagesRef.current.get(currentPage);
+      if (cachedBlogs) {
+        setBlogPosts(cachedBlogs);
+        setPagination((prev) => ({
+          ...prev,
+          page: currentPage,
+        }));
+        setLoading(false);
+        return;
+      }
 
-    const cachedSession = readPageFromSession(currentPage);
-    if (cachedSession) {
-      prefetchedPagesRef.current.set(currentPage, cachedSession.blogs);
-      setBlogPosts(cachedSession.blogs);
-      setPagination(cachedSession.pagination);
-      setLoading(false);
-      return;
+      const cachedSession = readPageFromSession(currentPage);
+      if (cachedSession) {
+        prefetchedPagesRef.current.set(currentPage, cachedSession.blogs);
+        setBlogPosts(cachedSession.blogs);
+        setPagination(cachedSession.pagination);
+        setLoading(false);
+        return;
+      }
     }
 
     const controller = new AbortController();
@@ -211,8 +226,16 @@ export default function ResourcesClient({
 
     const fetchBlogs = async () => {
       try {
+        const queryParams = new URLSearchParams({
+          page: currentPage.toString(),
+          limit: PAGE_SIZE.toString(),
+        });
+        if (debouncedSearchQuery) {
+          queryParams.append('search', debouncedSearchQuery);
+        }
+
         const response = await fetch(
-          `/api/blogs?page=${currentPage}&limit=${PAGE_SIZE}`,
+          `/api/blogs?${queryParams.toString()}`,
           {
             cache: 'force-cache',
             signal: controller.signal,
@@ -226,11 +249,13 @@ export default function ResourcesClient({
         const data = await response.json();
         if (data.success && Array.isArray(data.blogs)) {
           const normalisedBlogs = data.blogs.map(normaliseBlog);
-          prefetchedPagesRef.current.set(currentPage, normalisedBlogs);
-          storePageInSession(currentPage, {
-            blogs: normalisedBlogs,
-            pagination: data.pagination,
-          });
+          if (!debouncedSearchQuery) {
+            prefetchedPagesRef.current.set(currentPage, normalisedBlogs);
+            storePageInSession(currentPage, {
+              blogs: normalisedBlogs,
+              pagination: data.pagination,
+            });
+          }
 
           setBlogPosts(normalisedBlogs);
           setPagination(data.pagination);
@@ -257,7 +282,7 @@ export default function ResourcesClient({
     return () => {
       controller.abort();
     };
-  }, [currentPage, initialPagination.page]);
+  }, [currentPage, initialPagination.page, debouncedSearchQuery]);
 
   useEffect(() => {
     if (!pagination.hasNextPage) {
@@ -390,6 +415,17 @@ export default function ResourcesClient({
 
         <section ref={blogSectionRef} className="w-full mt-8 md:mt-12 lg:mt-[60px]">
           <div className="container mx-auto max-w-7xl">
+            <div className="mb-8 flex md:justify-end">
+              <input
+                type="text"
+                placeholder="Search resources..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full md:w-80 px-4 py-2 md:py-3 rounded-lg border border-[rgba(12,39,86,0.2)] focus:outline-none focus:ring-2 focus:ring-[#007AFF] text-[#0C2756] shadow-sm transition-all"
+                style={{ fontFamily: 'Poppins' }}
+              />
+            </div>
+
             {loading ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                 {Array.from({ length: PAGE_SIZE }).map((_, index) => (
