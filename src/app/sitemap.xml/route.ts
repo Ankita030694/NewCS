@@ -855,13 +855,6 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
-  // Does Foreclosure of Loan Affect CIBIL page
-  urls.push({
-    loc: `${baseUrl}/does-foreclosure-of-loan-affect-cibil`,
-    priority: 0.95,
-    changefreq: 'weekly',
-    lastmod: today
-  });
 
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
