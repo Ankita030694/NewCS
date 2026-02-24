@@ -246,17 +246,17 @@ export default function RecoveryHarassmentPage() {
   };
 
   return (
-    <div className=\"bg-gray-50 min-h-screen\">
+    <div className="bg-gray-50 min-h-screen">
       <Navbar />
-      <Script id=\"org-schema\" type=\"application/ld+json\" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
-      <Script id=\"breadcrumb-schema\" type=\"application/ld+json\" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <Script id=\"article-schema\" type=\"application/ld+json\" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id=\"service-review-schema\" type=\"application/ld+json\" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceReviewSchema) }} />
-      <Script id=\"faq-schema\" type=\"application/ld+json\" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <Script id="service-review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceReviewSchema) }} />
+      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero Section */}
       <section 
-        className=\"relative text-white pt-32 pb-20 px-4 md:px-8\"
+        className="relative text-white pt-32 pb-20 px-4 md:px-8"
         style={{
           background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #2F6CE2 0%, #001235 100%)',
           minHeight: '60vh',
@@ -265,20 +265,20 @@ export default function RecoveryHarassmentPage() {
           justifyContent: 'center'
         }}
       >
-        <div className=\"max-w-6xl mx-auto text-center z-10\">
-          <h1 className=\"text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight\">
+        <div className="max-w-6xl mx-auto text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
             How to Stop Recovery Agent Harassment<br />
-            <span className=\"text-blue-300\">Know Your Legal Rights & RBI Guidelines 2025</span>
+            <span className="text-blue-300">Know Your Legal Rights & RBI Guidelines 2025</span>
           </h1>
-          <p className=\"text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light\">
+          <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
             Stop the endless calls and doorstep intimidation. Our comprehensive guide 
             reveals exactly how to use Indian laws to protect your family and 
             regain your peace of mind from aggressive recovery agents.
           </p>
-          <div className=\"flex flex-col sm:flex-row gap-4 justify-center\">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href=\"/contact\"
-              className=\"bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1\"
+              href="/contact"
+              className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Get Legal Protection Now
             </Link>
