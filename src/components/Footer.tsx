@@ -100,7 +100,12 @@ export default function Footer() {
               <a href="/what-are-the-consequences-of-not-paying-emi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consequences of Not Paying EMI</a>
               <a href="/what-is-the-best-way-to-negotiate-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What is the Best Way to Negotiate Loan Settlement</a>
               <a href="/how-to-ask-bank-for-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Ask Bank for Settlement</a>
-              <a href="/how-to-handle-recovery-agent-harrasement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Stop Recovery Agent Harassment</a>
+              <a href="/how-to-handle-recovery-agent-harrasement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Handle Recovery Agent Harassment</a>
+              <a href="/how-to-stop-recovery-agent-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Stop Recovery Agent Home Visit</a>
+              <a href="/how-to-stop-recovery-agent-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Stop Recovery Agent Harassment</a>
+              <a href="/does-loan-settlement-affect-cibil" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Does Loan Settlement Affect CIBIL</a>
+              <a href="/bajaj-finance-recovery-agent-harrasement-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bajaj Finance Recovery Agent Harassment Home Visit</a>
+              <a href="/rbl-bank-harrasement-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBL Bank Harassment Home Visit</a>
             </div>
           </div>
 

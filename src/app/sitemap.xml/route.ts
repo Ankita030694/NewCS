@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 12; // Home, About, Contact, Services, Resources, Terms and Conditions, Privacy Policy, SEO educational pages
+  const mainStaticPages = 13; // Home, About, Contact, Services, Resources, Terms and Conditions, Privacy Policy, SEO educational pages, Harassment page
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -799,6 +799,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // How to Stop Recovery Agent Home Visit page
+  urls.push({
+    loc: `${baseUrl}/how-to-stop-recovery-agent-home-visit`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // How to Stop Recovery Agent Harassment page
+  urls.push({
+    loc: `${baseUrl}/how-to-stop-recovery-agent-harassment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // How to ask bank for settlement page
   urls.push({
     loc: `${baseUrl}/how-to-ask-bank-for-settlement`,
@@ -810,6 +826,38 @@ async function generateSitemap(): Promise<string> {
   // Can I Settle Loan For Free page
   urls.push({
     loc: `${baseUrl}/can-i-settle-loan-for-free`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Does Loan Settlement Affect CIBIL page
+  urls.push({
+    loc: `${baseUrl}/does-loan-settlement-affect-cibil`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Bajaj Finance Recovery Agent Harassment Home Visit page
+  urls.push({
+    loc: `${baseUrl}/bajaj-finance-recovery-agent-harrasement-home-visit`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // RBL Bank Harassment Home Visit page
+  urls.push({
+    loc: `${baseUrl}/rbl-bank-harrasement-home-visit`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Does Foreclosure of Loan Affect CIBIL page
+  urls.push({
+    loc: `${baseUrl}/does-foreclosure-of-loan-affect-cibil`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
