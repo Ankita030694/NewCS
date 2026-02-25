@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/lib/firebase';
-import { collection, addDoc } from 'firebase/firestore';
+import { collection, addDoc, query, where, getDocs, limit } from 'firebase/firestore';
 
 export async function POST(request: NextRequest) {
   try {
@@ -38,17 +38,40 @@ export async function POST(request: NextRequest) {
       }
     }
 
+    // Check if user has already submitted a form today (based on phone number)
+    const today = new Date().toLocaleDateString('en-GB', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    }).replace(/\//g, '-');
+
+    const formsRef = collection(db, 'Form');
+    const q = query(
+      formsRef,
+      where('number', '==', body.number),
+      where('date', '==', today),
+      limit(1)
+    );
+
+    const querySnapshot = await getDocs(q);
+
+    if (!querySnapshot.empty) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: 'You have already submitted a form today. Our team will contact you soon.'
+        },
+        { status: 429 }
+      );
+    }
+
     // Prepare the data structure matching the provided format
     const formData = {
       canPay: body.canPay,
       city: body.city,
       created: body.created || Date.now(),
       creditCardDues: body.creditCardDues,
-      date: body.date || new Date().toLocaleDateString('en-GB', {
-        day: '2-digit',
-        month: '2-digit',
-        year: 'numeric'
-      }).replace(/\//g, '-'),
+      date: body.date || today,
       email: body.email,
       employmentStatus: body.employmentStatus,
       harassment: body.harassment,

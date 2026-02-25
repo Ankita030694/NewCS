@@ -27,10 +27,24 @@ function ContactPageContent() {
     queries: ''
   });
 
+  const [alreadySubmittedToday, setAlreadySubmittedToday] = useState(false);
+
   useEffect(() => {
     // Detect Firefox browser
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
+
+    // Check if user has already submitted today
+    const lastSubmissionDate = localStorage.getItem('credsettle:last_submission_date');
+    const today = new Date().toLocaleDateString('en-GB', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric'
+    }).replace(/\//g, '-');
+
+    if (lastSubmissionDate === today) {
+      setAlreadySubmittedToday(true);
+    }
   }, []);
 
   const handleNameInput = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -192,6 +206,11 @@ function ContactPageContent() {
     
     if (loading) return;
 
+    if (alreadySubmittedToday) {
+      alert('You have already submitted a form today. Our team will contact you soon.');
+      return;
+    }
+
     if (!validateForm()) {
       return;
     }
@@ -232,6 +251,8 @@ function ContactPageContent() {
       // Save user data for Meta Pixel Advanced Matching
       localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
       localStorage.setItem('credsettle:user_phone', formData.number.trim());
+      localStorage.setItem('credsettle:last_submission_date', formattedDate);
+      setAlreadySubmittedToday(true);
 
       // Explicitly track Lead event with value and currency
       if (typeof window !== 'undefined' && (window as any).fbq) {
@@ -764,15 +785,20 @@ function ContactPageContent() {
                   </div>
                   <button
                     type="submit"
-                    disabled={loading}
+                    disabled={loading || alreadySubmittedToday}
                     className="w-full text-white font-medium py-2 md:py-2.5 px-3 md:px-4 text-xs md:text-sm hover:bg-[#0056CC] transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed rounded-[30px]"
                     style={{
                       background: '#007AFF',
                       boxShadow: '0 0.8px 5.4px 0 rgba(0, 0, 0, 0.35), 0 -3.2px 3.2px 0 rgba(255, 255, 255, 0.25) inset, 0 3.2px 3.2px 0 rgba(255, 255, 255, 0.25) inset'
                     }}
                   >
-                    {loading ? 'Submitting...' : 'SUBMIT'}
+                    {loading ? 'Submitting...' : alreadySubmittedToday ? 'SUBMITTED TODAY' : 'SUBMIT'}
                   </button>
+                  {alreadySubmittedToday && (
+                    <p className="text-center text-[10px] md:text-xs mt-2 text-[#0C2756] font-medium">
+                      You've already submitted today. We'll be in touch!
+                    </p>
+                  )}
                   <div className="flex items-center justify-center gap-2 mt-4 md:mt-5">
                     
                     <span className="text-xs md:text-sm lg:text-base font-medium tracking-wide" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>
