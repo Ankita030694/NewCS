@@ -151,12 +151,36 @@ export default function CheckBounceLawyerClient() {
         }))
     };
 
+    const reviewSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        'name': 'Check Bounce Lawyer Legal Aid',
+        'aggregateRating': {
+            '@type': 'AggregateRating',
+            'ratingValue': '4.9',
+            'reviewCount': '3120',
+            'bestRating': '5',
+            'worstRating': '1'
+        },
+        'review': reviews.map(review => ({
+            '@type': 'Review',
+            'author': { '@type': 'Person', 'name': review.name },
+            'reviewBody': review.comment,
+            'reviewRating': { '@type': 'Rating', 'ratingValue': review.stars.toString() }
+        }))
+    };
+
     return (
         <div className="min-h-screen bg-white">
             <Script
                 id="faq-schema-bounce"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <Script
+                id="review-schema-bounce"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
 
             {/* Hero Section */}

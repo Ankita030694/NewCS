@@ -60,7 +60,7 @@ export default function CheckBounceLawyerPage() {
         "logo": "https://www.credsettle.com/credsettle-logo-black.png",
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXXXXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service"
         }
     };
