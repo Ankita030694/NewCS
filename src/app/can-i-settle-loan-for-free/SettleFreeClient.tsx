@@ -160,6 +160,26 @@ export default function SettleFreeClient() {
     }))
   };
 
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    'name': 'CredSettle',
+    'url': 'https://www.credsettle.com',
+    'logo': 'https://www.credsettle.com/logo.png',
+    'sameAs': [
+      'https://www.facebook.com/credsettle',
+      'https://www.twitter.com/credsettle',
+      'https://www.linkedin.com/company/credsettle'
+    ],
+    'contactPoint': {
+      '@type': 'ContactPoint',
+      'telephone': '+91-XXXX-XXXXXX',
+      'contactType': 'customer service',
+      'areaServed': 'IN',
+      'availableLanguage': 'English'
+    }
+  };
+
   const reviewSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -177,6 +197,7 @@ export default function SettleFreeClient() {
     <>
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+      <Script id="org-schema-settle-free" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
       {/* Hero Section */}
       <section
