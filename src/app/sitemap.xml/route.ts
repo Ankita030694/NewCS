@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 13; // Home, About, Contact, Services, Resources, Terms and Conditions, Privacy Policy, SEO educational pages, Harassment page
+  const mainStaticPages = 17; // Incremented for Steps Before Negotiating Loan Settlement
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -432,6 +432,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   // Generic SEO Educational Pages
+  urls.push({
+    loc: `${baseUrl}/what-is-loan-settlement-and-how-does-it-work-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   urls.push({
     loc: `${baseUrl}/how-to-get-freed-from-debt`,
     priority: 0.9,
@@ -831,6 +838,30 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Is Loan Settlement a Good Option page
+  urls.push({
+    loc: `${baseUrl}/is-loan-settlement-a-good-option`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Advantages and Disadvantages of Loan Settlement page
+  urls.push({
+    loc: `${baseUrl}/what-are-the-advantages-and-disadvantages-of-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // How Does Loan Settlement Affect Your Financial Health in the Long Term page
+  urls.push({
+    loc: `${baseUrl}/how-does-loan-settlement-affect-your-financial-health-in-long-term`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // Does Loan Settlement Affect CIBIL page
   urls.push({
     loc: `${baseUrl}/does-loan-settlement-affect-cibil`,
@@ -850,6 +881,14 @@ async function generateSitemap(): Promise<string> {
   // RBL Bank Harassment Home Visit page
   urls.push({
     loc: `${baseUrl}/rbl-bank-harrasement-home-visit`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Steps Before Negotiating Loan Settlement page
+  urls.push({
+    loc: `${baseUrl}/what-steps-should-i-take-before-negotiating-a-loan-settlement-with-my-lender`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

@@ -14,22 +14,22 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-3 md:gap-4">
                 <a href="https://www.linkedin.com/company/credsettle/" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon 
-                    icon={faLinkedin} 
-                    className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity" 
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
                   />
                 </a>
                 <a href="https://www.facebook.com/people/CredSettle/61572589389799/">
-                <FontAwesomeIcon 
-                  icon={faFacebook} 
-                  className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity" 
-                />
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
+                  />
                 </a>
                 <a href="https://www.instagram.com/credsettle/" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon 
-                  icon={faInstagram} 
-                  className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity" 
-                />
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
+                  />
                 </a>
               </div>
 
@@ -46,7 +46,7 @@ export default function Footer() {
                   <a href="/contact" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Contact Us</a>
                   <a href="/resources" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Resources</a>
                   <a href="/loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement</a>
-                  
+
                 </div>
               </div>
 
@@ -68,13 +68,13 @@ export default function Footer() {
                 <h3 className="text-[#0C2756] text-sm md:text-base font-bold leading-tight">
                   Contact
                 </h3>
-                
+
                 <div className="flex flex-col gap-2 md:gap-3">
-                <a href = "https://maps.app.goo.gl/Uqcz1TTYyiqjcQC7A" target="_blank" rel="noopener noreferrer">
-                  <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-relaxed hover:text-[#0C2756] transition-colors">
-                    4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
-                  </p>
-                </a>
+                  <a href="https://maps.app.goo.gl/Uqcz1TTYyiqjcQC7A" target="_blank" rel="noopener noreferrer">
+                    <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-relaxed hover:text-[#0C2756] transition-colors">
+                      4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
+                    </p>
+                  </a>
 
                   <a href="/terms-and-conditions" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Terms & Conditions</a>
                   <a href="/privacy-policy" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Privacy Policy</a>
@@ -104,8 +104,13 @@ export default function Footer() {
               <a href="/how-to-stop-recovery-agent-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Stop Recovery Agent Home Visit</a>
               <a href="/how-to-stop-recovery-agent-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Stop Recovery Agent Harassment</a>
               <a href="/does-loan-settlement-affect-cibil" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Does Loan Settlement Affect CIBIL</a>
+              <a href="/is-loan-settlement-a-good-option" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Is Loan Settlement a Good Option</a>
+              <a href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What is Loan Settlement and How Does it Work in India</a>
+              <a href="/what-are-the-advantages-and-disadvantages-of-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Advantages and Disadvantages of Loan Settlement</a>
+              <a href="/how-does-loan-settlement-affect-your-financial-health-in-long-term" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Long-Term Impact of Loan Settlement</a>
               <a href="/bajaj-finance-recovery-agent-harrasement-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bajaj Finance Recovery Agent Harassment Home Visit</a>
               <a href="/rbl-bank-harrasement-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBL Bank Harassment Home Visit</a>
+              <a href="/what-steps-should-i-take-before-negotiating-a-loan-settlement-with-my-lender" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Steps Before Negotiating Loan Settlement</a>
             </div>
           </div>
 
@@ -118,9 +123,9 @@ export default function Footer() {
       </div>
 
       <div className="w-full mt-4 md:mt-8 mb-0 pb-0 relative overflow-hidden">
-        <h2 
+        <h2
           className="text-center text-[clamp(58px,16vw,350px)] font-normal leading-none -mb-5 md:-mb-12 lg:-mb-[50px] overflow-hidden whitespace-normal break-words w-full max-w-full mx-auto px-4 select-none"
-          style={{ 
+          style={{
             background: 'linear-gradient(180deg, #007AFF 0%, #EFF7FF 72.39%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
