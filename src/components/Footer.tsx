@@ -111,6 +111,16 @@ export default function Footer() {
               <a href="/bajaj-finance-recovery-agent-harrasement-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bajaj Finance Recovery Agent Harassment Home Visit</a>
               <a href="/rbl-bank-harrasement-home-visit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBL Bank Harassment Home Visit</a>
               <a href="/what-steps-should-i-take-before-negotiating-a-loan-settlement-with-my-lender" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Steps Before Negotiating Loan Settlement</a>
+              <a href="/best-lawyer-for-home-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Home Loan Settlement</a>
+              <a href="/best-check-bounce-lawyer-for-loan-case" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Check Bounce Lawyer for Loan Case</a>
+              <a href="/best-lawyer-for-loan-contract" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Contract</a>
+              <a href="/best-lawyer-for-bank-harassment-for-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Bank Harassment</a>
+              <a href="/best-lawyer-for-loan-recovery-cases" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Recovery Cases</a>
+              <a href="/best-lawyer-for-loan-and-mortgage-agreements" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan and Mortgage Agreements</a>
+              <a href="/best-lawyer-for-education-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Education Loan Settlement</a>
+              <a href="/best-lawyer-for-loan-against-property-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Against Property Settlement</a>
+              <a href="/best-lawyer-for-business-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Business Loan Settlement</a>
+              <a href="/best-lawyer-for-car-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Car Loan Settlement</a>
             </div>
           </div>
 

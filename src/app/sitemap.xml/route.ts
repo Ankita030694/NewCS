@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 17; // Incremented for Steps Before Negotiating Loan Settlement
+  const mainStaticPages = 20; // Incremented for Best Lawyer for Loan Recovery Cases
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -798,6 +798,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Best Lawyer for Car Loan Settlement page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-car-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Check Bounce Lawyer for Loan Case page
+  urls.push({
+    loc: `${baseUrl}/best-check-bounce-lawyer-for-loan-case`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // How to Handle Recovery Agent Harassment page
   urls.push({
     loc: `${baseUrl}/how-to-handle-recovery-agent-harrasement`,
@@ -889,6 +905,69 @@ async function generateSitemap(): Promise<string> {
   // Steps Before Negotiating Loan Settlement page
   urls.push({
     loc: `${baseUrl}/what-steps-should-i-take-before-negotiating-a-loan-settlement-with-my-lender`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Loan Recovery Cases page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-recovery-cases`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Bank Harassment for Loan page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-bank-harassment-for-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Loan Contract page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-contract`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Home Loan Settlement page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-home-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Loan and Mortgage Agreements page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-and-mortgage-agreements`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Education Loan Settlement page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-education-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Loan Against Property Settlement page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-against-property-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-business-loan-settlement`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
