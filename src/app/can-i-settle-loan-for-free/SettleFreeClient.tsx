@@ -101,7 +101,7 @@ export default function SettleFreeClient() {
       answer: 'Be wary of any entity promising 100% debt forgiveness or asking for upfront fees for "free" services. Genuine debt relief involves negotiation with the lender and usually requires a written settlement letter.'
     },
     {
-      question: 'Does "settled for free" mean my credit score won\'t be affected?',
+      question: 'Does "settled for free" mean my credit score will not be affected?',
       answer: 'No. Regardless of whether you paid a fee for the service or not, the "settled" status on your credit report will negatively impact your score for several years.'
     },
     {

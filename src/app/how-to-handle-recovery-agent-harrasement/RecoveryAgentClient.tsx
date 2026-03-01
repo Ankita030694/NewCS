@@ -99,15 +99,15 @@ export default function RecoveryAgentClient() {
     },
     {
       question: 'Can a recovery agent visit my home or office without notice?',
-      answer: 'Agents can visit but must respect the borrower\'s privacy and professional environment. They must provide official identification and a valid authorization letter from the lending institution. Unannounced visits intended to shame the borrower are prohibited.'
+      answer: 'Agents can visit but must respect the borrowers privacy and professional environment. They must provide official identification and a valid authorization letter from the lending institution. Unannounced visits intended to shame the borrower are prohibited.'
     },
     {
       question: 'Is it legal for recovery agents to call my family or neighbors?',
-      answer: 'Absolutely not. RBI guidelines strictly forbid agents from discussing a borrower\'s financial defaults with third parties, including family members, friends, or employers. This is a violation of the Right to Privacy.'
+      answer: 'Absolutely not. RBI guidelines strictly forbid agents from discussing a borrowers financial defaults with third parties, including family members, friends, or employers. This is a violation of the Right to Privacy.'
     },
     {
       question: 'What should I do if a recovery agent uses abusive language?',
-      answer: 'Record the conversation immediately. This recording is vital evidence. File a formal complaint with the bank\'s Grievance Redressal Officer. If the issue isn\'t resolved in 30 days, escalate to the RBI Ombudsman portal.'
+      answer: 'Record the conversation immediately. This recording is vital evidence. File a formal complaint with the banks Grievance Redressal Officer. If the issue is not resolved in 30 days, escalate to the RBI Ombudsman portal.'
     },
     {
       question: 'Can recovery agents threaten me with immediate arrest?',
@@ -250,10 +250,10 @@ export default function RecoveryAgentClient() {
               <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Navigating the Storm: A Master Class on How to Handle Recovery Agent Harassment</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
-                  Financial instability is a harsh reality that can strike anyone, anywhere. In the high-pressure economic environment of modern India, falling behind on a loan installment or a credit card payment is not just a financial hurdle; it often becomes a psychological and social battle. When you default on a payment, you might expect a polite reminder call or a formal letter. However, the reality for millions of borrowers is the sudden onset of aggressive, unrelenting, and often illegal tactics used by third-party collection agencies. Knowing <strong>how to handle recovery agent harassment</strong> is a survival skill in today\'s financial world. It is about more than just numbers; it is about reclaiming your constitutional right to live with dignity and peace of mind.
+                  Financial instability is a harsh reality that can strike anyone, anywhere. In the high-pressure economic environment of modern India, falling behind on a loan installment or a credit card payment is not just a financial hurdle; it often becomes a psychological and social battle. When you default on a payment, you might expect a polite reminder call or a formal letter. However, the reality for millions of borrowers is the sudden onset of aggressive, unrelenting, and often illegal tactics used by third-party collection agencies. Knowing <strong>how to handle recovery agent harassment</strong> is a survival skill in today's financial world. It is about more than just numbers; it is about reclaiming your constitutional right to live with dignity and peace of mind.
                 </p>
                 <p>
-                  The Reserve Bank of India (RBI), the guardian of India\'s financial stability, has consistently mandated that recovery processes must be humanized. The law is clear: a borrower is a customer who has failed to meet a commercial obligation, not a criminal who has forfeited their human rights. Despite these clear legal and ethical boundaries, the ground reality often involves midnight calls, public shaming, threats of violence, and unauthorized workplace visits. These actions are not just "part of the job" for recovery agents; they are flagrant violations of the law. This guide is your ultimate resource, providing an 8000-word deep dive into the legal, psychological, and practical frameworks you need to stop harassment and resolve your debts with honor.
+                  The Reserve Bank of India (RBI), the guardian of India's financial stability, has consistently mandated that recovery processes must be humanized. The law is clear: a borrower is a customer who has failed to meet a commercial obligation, not a criminal who has forfeited their human rights. Despite these clear legal and ethical boundaries, the ground reality often involves midnight calls, public shaming, threats of violence, and unauthorized workplace visits. These actions are not just "part of the job" for recovery agents; they are flagrant violations of the law. This guide is your ultimate resource, providing an 8000-word deep dive into the legal, psychological, and practical frameworks you need to stop harassment and resolve your debts with honor.
                 </p>
                 <p>
                   Why do recovery agents behave this way? The simple answer is target-based compensation. These agencies are often paid a commission on what they recover, leading to a culture where aggression is mistaken for efficiency. However, their commission structures do not override the laws of the land. Whether you are dealing with a personal loan, a credit card debt, or a home loan, the rules of engagement are strictly defined. By the end of this guide, you will have the confidence to face any collection agent, knowing exactly what they can and cannot do, and how to use the legal machinery to put them in their place.
@@ -378,7 +378,7 @@ export default function RecoveryAgentClient() {
                   With the rise of "App-based lending," harassment has moved from the doorstep to the smartphone. This is the new frontier in learning <strong>how to handle recovery agent harassment</strong>. Modern fintech apps often use permissions to read your contact list and subsequently use it to shame you.
                 </p>
                 <p>
-                  The RBI\'s "Digital Lending Guidelines" (2022) specifically prohibit lenders from accessing a borrower's contact list, photos, or location purely for recovery purposes. If an agent creates a "WhatsApp Group" including you and your relatives to discuss your loan, they are committing a severe regulatory breach. Use the "Report and Block" feature on WhatsApp, but only *after* taking full-screen screenshots showing the agent's number and the message content.
+                  The RBI's "Digital Lending Guidelines" (2022) specifically prohibit lenders from accessing a borrower's contact list, photos, or location purely for recovery purposes. If an agent creates a "WhatsApp Group" including you and your relatives to discuss your loan, they are committing a severe regulatory breach. Use the "Report and Block" feature on WhatsApp, but only *after* taking full-screen screenshots showing the agent's number and the message content.
                 </p>
                 <p>
                   Social Media shaming—posting your photo on Facebook or Instagram labeling you a fraud—is a crime under the IT Act as well as the IPC. You can report these posts to the platform for "harassment" and "invasion of privacy." Additionally, you should report these to the National Cyber Crime Reporting Portal (cybercrime.gov.in). Digital evidence is immutable and very hard for banks to contest in court.
@@ -435,7 +435,7 @@ export default function RecoveryAgentClient() {
                 <ul className="list-disc pl-6 space-y-4">
                   <li><strong>Credit Cards:</strong> These are the most aggressive. Recovery is often outsourced to low-level agencies. Remember: persistent calling is their main weapon. Use the DND (Do Not Disturb) and TCC (Targeted Communication) rules.</li>
                   <li><strong>Home Loans:</strong> Here, the bank usually focuses on SARFAESI. Harassment at the doorstep is less common, but "intimidation via notices" is high. Ensure every notice has a <strong>DIN (Document Identification Number)</strong> or is verifiable.</li>
-                  <li><strong>App-Based Personal Loans:</strong> These are the highest risk for digital shaming. If they call your contacts, report them to the RBI\'s Sachet portal immediately. This is a violations of the <strong>LSP (Lending Service Provider)</strong> guidelines.</li>
+                  <li><strong>App-Based Personal Loans:</strong> These are the highest risk for digital shaming. If they call your contacts, report them to the RBI's Sachet portal immediately. This is a violations of the <strong>LSP (Lending Service Provider)</strong> guidelines.</li>
                 </ul>
               </div>
 
@@ -498,7 +498,7 @@ export default function RecoveryAgentClient() {
                   Learning <strong>how to handle recovery agent harassment</strong> by yourself is brave, but it is also exhausting. CredSettle was built on the foundation of "Pro-Borrower Justice." We are not just agents; we are your legal and tactical shield.
                 </p>
                 <p>
-                  When you join the CredSettle family, we don\'t just give you advice; we act on your behalf.
+                  When you join the CredSettle family, we don't just give you advice; we act on your behalf.
                   - **The Legal Firewall:** We send a formal intimation to your banks, informing them that you are now represented by our legal team. From that moment, any contact by a recovery agent is a violation of our "Agent-Client" privilege.
                   - **Negotiation Mastery:** Banks take us seriously because they know we are experts in the law. We negotiate for the lowest possible settlement amounts, ensuring you get a clean exit without the stress of daily calls.
                   - **Holistic Relief:** We provide financial counseling and mental health support, ensuring that you don't just clear your debt, but you also rebuild your life.

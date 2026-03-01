@@ -102,7 +102,7 @@ export default function WhatIsLoanSettlementClient() {
         },
         {
             question: 'What is the typical discount offered in a personal loan settlement?',
-            answer: 'Discounts vary drastically based on the age of the debt and the borrower\'s hardship. For unsecured personal loans, lenders might waive between 50% and 75% of the total outstanding amount in extreme cases.'
+            answer: 'Discounts vary drastically based on the age of the debt and the borrowers hardship. For unsecured personal loans, lenders might waive between 50% and 75% of the total outstanding amount in extreme cases.'
         },
         {
             question: 'Is it better to restructuring a loan or settle it?',

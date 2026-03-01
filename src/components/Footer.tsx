@@ -98,6 +98,9 @@ export default function Footer() {
               <a href="/can-I-settle-my-home-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Settle My Home Loan</a>
               <a href="/what-kind-of-loans-can-not-be-settled" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What Kind of Loans Can Not Be Settled</a>
               <a href="/what-are-the-consequences-of-not-paying-emi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consequences of Not Paying EMI</a>
+              <a href="/best-lawyer-for-loan-agreement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Agreement</a>
+              <a href="/best-lawyer-for-trading-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Trading Loan Settlement</a>
+              <a href="/best-lawyer-for-msme-loan-disputes" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for MSME Loan Disputes</a>
               <a href="/what-is-the-best-way-to-negotiate-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What is the Best Way to Negotiate Loan Settlement</a>
               <a href="/how-to-ask-bank-for-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Ask Bank for Settlement</a>
               <a href="/how-to-handle-recovery-agent-harrasement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Handle Recovery Agent Harassment</a>
@@ -121,6 +124,8 @@ export default function Footer() {
               <a href="/best-lawyer-for-loan-against-property-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Against Property Settlement</a>
               <a href="/best-lawyer-for-business-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Business Loan Settlement</a>
               <a href="/best-lawyer-for-car-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Car Loan Settlement</a>
+              <a href="/best-lawyer-for-secured-loan-litigation-drt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Secured Loan Litigation DRT</a>
+              <a href="/best-lawyer-for-loan-agreement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Agreement</a>
             </div>
           </div>
 

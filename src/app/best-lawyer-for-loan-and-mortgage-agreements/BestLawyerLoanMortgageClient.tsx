@@ -190,7 +190,7 @@ export default function BestLawyerLoanMortgageClient() {
                         <span className="text-blue-300">Protect Your Financial Assets Today</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Expert legal counsel to draft, review, and negotiate complex financial contracts. Secure your property and commercial interests with India\'s top banking law advocates.
+                        Expert legal counsel to draft, review, and negotiate complex financial contracts. Secure your property and commercial interests with India's top banking law advocates.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link

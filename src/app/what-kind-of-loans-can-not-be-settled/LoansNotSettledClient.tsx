@@ -94,7 +94,7 @@ export default function LoansNotSettledClient() {
     { id: 'tax-implications', label: 'Tax Implications' },
     { id: 'case-studies', label: 'Case Studies' },
     { id: 'consolidation-vs-settlement', label: 'Consolidation vs Settlement' },
-    { id: 'dos-and-donts', label: 'Dos and Don\'ts' },
+    { id: 'dos-and-donts', label: 'Dos and Donts' },
     { id: 'glossary', label: 'Banking Glossary' },
     { id: 'faqs', label: 'FAQs' },
   ];

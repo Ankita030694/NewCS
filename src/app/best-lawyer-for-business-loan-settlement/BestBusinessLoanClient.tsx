@@ -70,7 +70,7 @@ export default function BestBusinessLoanClient() {
         },
         {
             question: 'Can a lawyer stop a bank from seizing my factory or machinery?',
-            answer: 'Yes, a specialized lawyer can file a Securitization Application (SA) in the DRT to challenge the bank’s possession notice. By identifying procedural flaws in the Section 13(2) or 13(4) notices, or by challenging the property valuation, a lawyer can obtain a stay order to prevent asset seizure.'
+            answer: 'Yes, a specialized lawyer can file a Securitization Application (SA) in the DRT to challenge the banks possession notice. By identifying procedural flaws in the Section 13(2) or 13(4) notices, or by challenging the property valuation, a lawyer can obtain a stay order to prevent asset seizure.'
         },
         {
             question: 'What is the role of the RBI 2026 framework in business loan relief?',
@@ -86,7 +86,7 @@ export default function BestBusinessLoanClient() {
         },
         {
             question: 'Can a lawyer protect corporate guarantors in a business loan default?',
-            answer: 'Yes, guarantors have specific rights under the Indian Contract Act. A lawyer can challenge the bank if they attempt to invoke the guarantee without following proper statutory procedures or if the original loan terms were modified without the guarantor’s consent.'
+            answer: 'Yes, guarantors have specific rights under the Indian Contract Act. A lawyer can challenge the bank if they attempt to invoke the guarantee without following proper statutory procedures or if the original loan terms were modified without the guarantors consent.'
         },
         {
             question: 'What happens if my business loan is unsecured?',
@@ -130,7 +130,7 @@ export default function BestBusinessLoanClient() {
             name: 'Anita Desai',
             location: 'Mumbai',
             stars: 5,
-            comment: 'Process was transparent and highly professional. They audited my company\'s loan account and discovered over 12 lakhs in overcharged interest, which we used as leverage for settlement.'
+            comment: 'Process was transparent and highly professional. They audited my company loan account and discovered over 12 lakhs in overcharged interest, which we used as leverage for settlement.'
         },
         {
             name: 'Karthik Raja',
@@ -186,7 +186,7 @@ export default function BestBusinessLoanClient() {
                         <span className="text-blue-400">Elite MSME Debt Defense 2026</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-                        Scale the legal walls of banking recovery with India’s most successful business debt advocates. Master the SARFAESI Act, DRT litigation, and RBI 2026 mandates to protect your enterprise.
+                        Scale the legal walls of banking recovery with India'\''s most successful business debt advocates. Master the SARFAESI Act, DRT litigation, and RBI 2026 mandates to protect your enterprise.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link href="/contact" className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-xl">
@@ -276,7 +276,7 @@ export default function BestBusinessLoanClient() {
                                 In 2026, the Reserve Bank of India has issued a landmark circular regarding "Compromise Settlements and Technical Write-offs." This framework mandates that all regulated entities must have a board approved policy for settlements that is transparent and non discriminatory. This means a bank cannot offer a 50% waiver to one factory owner and deny it to another in similar financial distress.
                             </p>
                             <p className="mb-6">
-                                Your lawyer will use this framework to demand "Uniform Treatment." If the bank’s rejection of your OTS offer is arbitrary, it can be challenged before the Banking Ombudsman or through a Writ Petition. The 2026 framework also provides a "Cooling Off Period," ensuring that once you settle, you have a clear path back to credit eligibility after a specified duration.
+                                Your lawyer will use this framework to demand "Uniform Treatment." If the bank'\''s rejection of your OTS offer is arbitrary, it can be challenged before the Banking Ombudsman or through a Writ Petition. The 2026 framework also provides a "Cooling Off Period," ensuring that once you settle, you have a clear path back to credit eligibility after a specified duration.
                             </p>
 
                             <h2 id="technical-audit-process" className="text-3xl font-bold text-gray-900 mb-6">The Forensic Account Audit: Finding Legal Leverage</h2>
@@ -289,7 +289,7 @@ export default function BestBusinessLoanClient() {
 
                             <h2 id="drt-litigation-strategy" className="text-3xl font-bold text-gray-900 mb-6">Litigation Strategy in DRT and High Courts</h2>
                             <p className="mb-6">
-                                The Debts Recovery Tribunal (DRT) is a specialized court designed for speed; but speed can be a double edged sword. A business loan lawyer uses "Tactical Litigation" to slow down the bank’s recovery machine. By filing a Securitization Application (SA) under Section 17, your lawyer creates a legal barrier that the bank cannot cross without a judicial order.
+                                The Debts Recovery Tribunal (DRT) is a specialized court designed for speed; but speed can be a double edged sword. A business loan lawyer uses "Tactical Litigation" to slow down the bank'\''s recovery machine. By filing a Securitization Application (SA) under Section 17, your lawyer creates a legal barrier that the bank cannot cross without a judicial order.
                             </p>
                             <p className="mb-6">
                                 In cases of extreme bank overreach, such as the freezing of "Current Accounts" needed for employee salaries, a lawyer can move the High Court under Article 226 for a "Writ of Mandamus." The High Courts in India have repeatedly held that the "Right to Livelihood" includes the right to run a business, and banks cannot use recovery as a tool of corporate extinction.
@@ -297,7 +297,7 @@ export default function BestBusinessLoanClient() {
 
                             <h2 id="negotiation-psychology" className="text-3xl font-bold text-gray-900 mb-6">The Psychology of Banking Negotiations</h2>
                             <p className="mb-6">
-                                Negotiating a business loan settlement is 40% law and 60% psychology. A bank’s recovery officer is incentivized by "Collection Targets." A lawyer knows how to play on the "Fear of a Failed Auction." If a property is put up for auction three times and doesn’t sell, it becomes a "Stigmatized Asset," and the bank has to further "Provision" against it.
+                                Negotiating a business loan settlement is 40% law and 60% psychology. A bank'\''s recovery officer is incentivized by "Collection Targets." A lawyer knows how to play on the "Fear of a Failed Auction." If a property is put up for auction three times and doesn'\''t sell, it becomes a "Stigmatized Asset," and the bank has to further "Provision" against it.
                             </p>
                             <p className="mb-6">
                                 Your advocate will present your settlement offer as a "Sure Win" for the bank. By showing the bank a "Net Present Value" (NPV) calculation, the lawyer proves that taking 60 Lakhs today is better than waiting for a potential 90 Lakhs after 5 years of litigation. This data driven approach is the "Secret Sauce" of the best debt settlement firms in India.
@@ -308,7 +308,7 @@ export default function BestBusinessLoanClient() {
                                 In almost every business loan, directors or third parties provide "Personal Guarantees." Banks often use these guarantors as hostages to pressure the business owner. However, guarantors have extensive rights under the Indian Contract Act. For example, if the bank changed the interest rate or the loan tenure without the guarantor's written consent, the guarantor can be "Discharged" from their liability.
                             </p>
                             <p className="mb-6">
-                                Furthermore, the 2026 legal landscape has seen a shift in "Guarantor Insolvency" rules. A specialized lawyer will ensure that the settlement agreement includes a "Release of Guarantee" clause, ensuring that the bank cannot come after your personal assets or your family’s property once the business debt is settled.
+                                Furthermore, the 2026 legal landscape has seen a shift in "Guarantor Insolvency" rules. A specialized lawyer will ensure that the settlement agreement includes a "Release of Guarantee" clause, ensuring that the bank cannot come after your personal assets or your family'\''s property once the business debt is settled.
                             </p>
 
                             <h2 id="insolvency-vs-settlement" className="text-3xl font-bold text-gray-900 mb-6">IBC vs Settlement: Which is Better for Your Business?</h2>
@@ -340,7 +340,7 @@ export default function BestBusinessLoanClient() {
                                 </ul>
                             </div>
                             <p className="mb-6">
-                                At <strong>CredSettle</strong>, we have built a reputation as the premier destination for business loan settlement in India. We combine the aggression of trial lawyers with the sophistication of financial consultants. We don’t just close files; we save enterprises.
+                                At <strong>CredSettle</strong>, we have built a reputation as the premier destination for business loan settlement in India. We combine the aggression of trial lawyers with the sophistication of financial consultants. We don'\''t just close files; we save enterprises.
                             </p>
 
                             {/* Reviews Section */}

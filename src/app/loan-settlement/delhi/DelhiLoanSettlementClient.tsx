@@ -242,7 +242,7 @@ export default function DelhiLoanSettlementClient() {
 
               <h3 className="text-xl font-bold text-gray-800 mb-3">3. Protection Against Usury</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                While Delhi does not have a specific money lending act as stringent as Maharashtra\'s, the Punjab Registration of Money Lenders Act (applicable to Delhi) and various Supreme Court judgments protect borrowers from exorbitant interest rates charged by unlicensed private lenders. If you are dealing with loan sharks, police protection is your primary recourse.
+                While Delhi does not have a specific money lending act as stringent as Maharashtra's, the Punjab Registration of Money Lenders Act (applicable to Delhi) and various Supreme Court judgments protect borrowers from exorbitant interest rates charged by unlicensed private lenders. If you are dealing with loan sharks, police protection is your primary recourse.
               </p>
 
               <h2 id="lok-adalat-delhi" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Settling Through Delhi Lok Adalat</h2>

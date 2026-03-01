@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 20; // Incremented for Best Lawyer for Loan Recovery Cases
+  const mainStaticPages = 21; // Incremented for Best Lawyer for Secured Loan Litigation DRT
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -798,6 +798,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Best Lawyer for Secured Loan Litigation DRT page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-secured-loan-litigation-drt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // Best Lawyer for Car Loan Settlement page
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-car-loan-settlement`,
@@ -918,6 +926,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Best Lawyer for MSME Loan Disputes page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-msme-loan-disputes`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // Best Lawyer for Bank Harassment for Loan page
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-bank-harassment-for-loan`,
@@ -968,6 +984,22 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-business-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Loan Agreement page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-agreement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for Trading Loan Settlement page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-trading-loan-settlement`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

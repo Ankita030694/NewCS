@@ -92,7 +92,7 @@ export default function LoanSettlementGoodOptionClient() {
         },
         {
             question: 'What documents should I insist on receiving from the bank for a settlement?',
-            answer: 'You must receive a formal "Settlement Offer Letter" on the bank\'s letterhead before making any payment. After payment, you must receive a "No Dues Certificate" (NDC) or "No Objection Certificate" (NOC) which confirms the account is closed and no further money is owed.'
+            answer: 'You must receive a formal "Settlement Offer Letter" on the banks letterhead before making any payment. After payment, you must receive a "No Dues Certificate" (NDC) or "No Objection Certificate" (NOC) which confirms the account is closed and no further money is owed.'
         },
         {
             question: 'Is settlement better than restructuring for my credit score?',
@@ -100,7 +100,7 @@ export default function LoanSettlementGoodOptionClient() {
         },
         {
             question: 'How much discount can I normally expect in a personal loan settlement?',
-            answer: 'Discounts vary based on the age of the debt and the severity of the hardship. For unsecured loans, banks might waive between 40% and 75% of the total outstanding amount. However, this is always subject to negotiation and the bank\'s internal policies.'
+            answer: 'Discounts vary based on the age of the debt and the severity of the hardship. For unsecured loans, banks might waive between 40% and 75% of the total outstanding amount. However, this is always subject to negotiation and the banks internal policies.'
         },
         {
             question: 'Can a bank settle a secured loan like a home or car loan?',
@@ -391,7 +391,7 @@ export default function LoanSettlementGoodOptionClient() {
                                 Furthermore, the RBI has strictly defined the "Cooling-Off Period." For anyone who settles a loan after it has been classified as a wilful default or fraud, there is a mandatory wait of 12 months before they can seek new credit. For genuine hardship cases, while there is no fixed legal bar, the market reality of credit scores acts as a natural cooling off period. The 2025 rules also emphasize the need for lenders to explain the credit score consequences to the borrower in writing before the settlement is finalized. This ensures that no borrower enters a settlement "blind" to the future implications.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Finally, the RBI has empowered the <strong>Integrated Ombudsman</strong> to handle complaints where banks are refusing to follow their own settlement policies or are using illegal recovery tactics despite a borrower\'s willingness to negotiate. This oversight mechanism ensures that even the smallest borrower has a voice against the largest financial institutions. If you are being mistreated or if the bank is ignoring your genuine hardship plea, the Ombudsman is a free and effective tool for justice. In 2025, the Ombudsman has also been given the power to penalize banks for "Negotiation Bad Faith," a significant win for consumer rights.
+                                Finally, the RBI has empowered the <strong>Integrated Ombudsman</strong> to handle complaints where banks are refusing to follow their own settlement policies or are using illegal recovery tactics despite a borrower's willingness to negotiate. This oversight mechanism ensures that even the smallest borrower has a voice against the largest financial institutions. If you are being mistreated or if the bank is ignoring your genuine hardship plea, the Ombudsman is a free and effective tool for justice. In 2025, the Ombudsman has also been given the power to penalize banks for "Negotiation Bad Faith," a significant win for consumer rights.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Another critical aspect of the 2025 framework is the <strong>Digital Lending Guidelines</strong>. With the explosion of fintech apps, the RBI has made it clear that "Settlement" through an app must follow the same rigorous data reporting standards as a traditional bank. This prevents shadow lenders from promising a "Clean Closure" while secretly reporting a "Settled" status to bureaus without the borrower's informed consent.
@@ -652,7 +652,7 @@ export default function LoanSettlementGoodOptionClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don\'t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"

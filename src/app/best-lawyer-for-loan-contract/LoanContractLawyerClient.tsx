@@ -234,7 +234,7 @@ export default function LoanContractLawyerClient() {
                                     <li><strong>3. Disbursement Conditions:</strong> The "Conditions Precedent" (CPs) that you must meet before the bank releases a single rupee.</li>
                                     <li><strong>4. Interest and Fees:</strong> Detailed breakdown of ROI, calculating method, and processing fees.</li>
                                     <li><strong>5. Security and Collateral:</strong> The legal link between the loan and your assets (mortgage, hypothecation, etc.).</li>
-                                    <li><strong>6. Covenants:</strong> The "Dos and Don\'ts" that you must follow during the tenure of the loan.</li>
+                                    <li><strong>6. Covenants:</strong> The "Dos and Don'ts" that you must follow during the tenure of the loan.</li>
                                     <li><strong>7. Events of Default:</strong> A list of situations that allow the bank to demand immediate full repayment.</li>
                                     <li><strong>8. Dispute Resolution:</strong> How and where any legal battles will be fought.</li>
                                 </ul>
@@ -267,7 +267,7 @@ export default function LoanContractLawyerClient() {
                                 Borrower Rights vs. Bank Rights: Balancing the Scales
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Under Indian law, specifically the RBI's Fair Practices Code and various Supreme Court judgments, borrowers are not powerless. The contract you sign exists within a broader legal ecosystem that grants you inherent rights, even if they aren\'t explicitly written in the bank's document.
+                                Under Indian law, specifically the RBI's Fair Practices Code and various Supreme Court judgments, borrowers are not powerless. The contract you sign exists within a broader legal ecosystem that grants you inherent rights, even if they aren't explicitly written in the bank's document.
                             </p>
                             <div className="bg-[#f9fafb] p-10 rounded-3xl border border-gray-100 mb-10 font-light text-lg">
                                 <h4 className="font-bold text-gray-900 mb-6">Current Indian Legal Framework (2025 Updates)</h4>
@@ -392,13 +392,13 @@ export default function LoanContractLawyerClient() {
                             </div>
 
                             <h2 id="final-verdict" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">
-                                Final Verdict: Don\'t Sign Blindly
+                                Final Verdict: Don't Sign Blindly
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your loan contract is not a formality; it is a life defining commitment. In the haste to get funds, many borrowers ignore the very document that will dictate their future. Whether it is a "Floating Rate" clause that could double your interest or a "Termination" clause that could allow the bank to recall the loan on a whim, the risks are real.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                By engaging the best lawyer for a loan contract, you are not just buying legal review; you are buying an insurance policy against financial ruin. A few thousands spent on a review today can save you lakhs in litigation and crores in lost assets tomorrow. Take the time to understand the fine print, negotiate for your rights, and never sign a document that you don\'t fully comprehend.
+                                By engaging the best lawyer for a loan contract, you are not just buying legal review; you are buying an insurance policy against financial ruin. A few thousands spent on a review today can save you lakhs in litigation and crores in lost assets tomorrow. Take the time to understand the fine print, negotiate for your rights, and never sign a document that you don't fully comprehend.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 At CredSettle, we represent the interests of the borrower. We have seen the patterns of banking litigation and we know exactly where the cracks are. Our goal is to ensure that your relationship with your bank is one of mutual respect and legal clarity, not one of fear and confusion. Stay informed, stay vigilant, and always protect your signature.
@@ -406,7 +406,7 @@ export default function LoanContractLawyerClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan or signing a new contract is a major life decision. You don\'t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan or signing a new contract is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"

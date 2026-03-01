@@ -82,7 +82,7 @@ export default function BestLawyerHomeLoanClient() {
         },
         {
             question: 'Can a lawyer stop a bank from auctioning my home?',
-            answer: 'Yes, a specialized lawyer can file a Securitization Application in the DRT to challenge the bank\'s auction process. If the lawyer finds any procedural error in the bank\'s notices or property valuation, the tribunal can grant an immediate stay on the auction, providing a crucial window for settlement negotiations.'
+            answer: 'Yes, a specialized lawyer can file a Securitization Application in the DRT to challenge the banks auction process. If the lawyer finds any procedural error in the banks notices or property valuation, the tribunal can grant an immediate stay on the auction, providing a crucial window for settlement negotiations.'
         },
         {
             question: 'What are the charges of the best lawyer for home loan settlement?',
@@ -98,7 +98,7 @@ export default function BestLawyerHomeLoanClient() {
         },
         {
             question: 'Can a lawyer help if I am being harassed by recovery agents?',
-            answer: 'Absolutely. Harassment is a violation of the RBI Fair Practices Code. A lawyer can send a legal notice to the bank\'s nodal officer, document the harassment, and even move the consumer court or the banking ombudsman to seek compensation and an immediate stop to such illegal tactics.'
+            answer: 'Absolutely. Harassment is a violation of the RBI Fair Practices Code. A lawyer can send a legal notice to the banks nodal officer, document the harassment, and even move the consumer court or the banking ombudsman to seek compensation and an immediate stop to such illegal tactics.'
         },
         {
             question: 'Will my credit score recover after a home loan settlement?',
@@ -134,7 +134,7 @@ export default function BestLawyerHomeLoanClient() {
         },
         {
             question: 'What is the "Right of Redemption" in home loan law?',
-            answer: 'This is a borrower\'s right to pay the full dues (or a settled amount) and reclaim their property at any time before the final sale is completed. A specialized lawyer uses this right as a final shield to stop an auction at the very last second.'
+            answer: 'This is a borrowers right to pay the full dues (or a settled amount) and reclaim their property at any time before the final sale is completed. A specialized lawyer uses this right as a final shield to stop an auction at the very last second.'
         }
     ];
 

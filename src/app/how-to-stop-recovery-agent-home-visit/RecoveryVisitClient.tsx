@@ -109,7 +109,7 @@ export default function RecoveryVisitClient() {
     },
     {
       question: 'Can I record a video of the recovery agent at my door?',
-      answer: 'Yes. In India, recording for self-protection and evidence gathering is legal. Video evidence of an agent\'s behavior, identification, and language used is extremely powerful in legal complaints.'
+      answer: 'Yes. In India, recording for self-protection and evidence gathering is legal. Video evidence of an agents behavior, identification, and language used is extremely powerful in legal complaints.'
     },
     {
       question: 'Can agents enter my house if I am not there?',
@@ -121,7 +121,7 @@ export default function RecoveryVisitClient() {
     },
     {
       question: 'Can they wait outside my house for hours?',
-      answer: 'Persistent loitering outside a borrower\'s premises is considered a form of harassment and intimidation. You can report this to the police as it violates your right to privacy.'
+      answer: 'Persistent loitering outside a borrowers premises is considered a form of harassment and intimidation. You can report this to the police as it violates your right to privacy.'
     },
     {
       question: 'What should I do if they threaten to seize my household items?',
@@ -129,7 +129,7 @@ export default function RecoveryVisitClient() {
     },
     {
       question: 'How do I file a complaint against an aggressive agent?',
-      answer: 'First, file a written complaint with the bank\'s Grievance Redressal Officer. If you don\'t get a satisfactory response within 30 days, file an online complaint with the RBI Ombudsman.'
+      answer: 'First, file a written complaint with the banks Grievance Redressal Officer. If you dont get a satisfactory response within 30 days, file an online complaint with the RBI Ombudsman.'
     },
     {
       question: 'Is loan default a criminal offense?',
@@ -475,7 +475,7 @@ export default function RecoveryVisitClient() {
                   <strong>Private Sector Giants:</strong> Large private banks often outsource their recovery to multiple third-party agencies. This creates a highly competitive environment between agencies, leading to increased aggression as they fight for commissions. However, these banks are also the most sensitive to direct complaints to their Nodal Officers.
                 </p>
                 <p>
-                  <strong>Digital Lending Apps:</strong> These are often the most aggressive and least compliant with RBI norms. Many use "WhatsApp Shaming" and "Contact List Access" alongside doorstep visits. Reporting them to the RBI\'s Sachet portal is often the most effective way to stop them.
+                  <strong>Digital Lending Apps:</strong> These are often the most aggressive and least compliant with RBI norms. Many use "WhatsApp Shaming" and "Contact List Access" alongside doorstep visits. Reporting them to the RBI's Sachet portal is often the most effective way to stop them.
                 </p>
                 <p>
                   <strong>Public Sector Banks:</strong> While generally more professional, public sector banks rely heavily on formal legal procedures. They might not harass you daily at your door, but they will be very regular with sending formal notices that have actual legal weight.

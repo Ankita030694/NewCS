@@ -100,7 +100,7 @@ export default function CarLoanLawyerClient() {
         },
         {
             question: 'How much discount can I expect in a car loan settlement negotiation?',
-            answer: 'Discounts depend on the age of the default and the valuation of the vehicle. Since a car is a depreciating asset, banks might be willing to waive off significant portions of the interest and penalties, sometimes between 30% to 50% of the total outstanding, if they believe the vehicle itself won\'t fetch a good price in an auction.'
+            answer: 'Discounts depend on the age of the default and the valuation of the vehicle. Since a car is a depreciating asset, banks might be willing to waive off significant portions of the interest and penalties, sometimes between 30% to 50% of the total outstanding, if they believe the vehicle itself will not fetch a good price in an auction.'
         },
         {
             question: 'Will settling my car loan prevent me from getting future loans?',
