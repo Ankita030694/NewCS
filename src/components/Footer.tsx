@@ -125,7 +125,8 @@ export default function Footer() {
               <a href="/best-lawyer-for-business-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Business Loan Settlement</a>
               <a href="/best-lawyer-for-car-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Car Loan Settlement</a>
               <a href="/best-lawyer-for-secured-loan-litigation-drt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Secured Loan Litigation DRT</a>
-              <a href="/best-lawyer-for-loan-agreement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Agreement</a>
+              <a href="/best-lawyer-for-unsecured-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Unsecured Loan</a>
+              <a href="/best-lawyer-to-challenge-loan-assignment-to-arc" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer to Challenge ARC Assignment</a>
             </div>
           </div>
 

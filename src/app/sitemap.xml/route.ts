@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 21; // Incremented for Best Lawyer for Secured Loan Litigation DRT
+  const mainStaticPages = 23; // Incremented for Unsecured Loan and ARC Challenge pages
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -1005,6 +1005,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+
+  // Best Lawyer for Unsecured Loan page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-unsecured-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer to Challenge Loan Assignment to ARC page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-to-challenge-loan-assignment-to-arc`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
 
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
