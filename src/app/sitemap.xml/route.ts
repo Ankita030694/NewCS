@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 23; // Incremented for Unsecured Loan and ARC Challenge pages
+  const mainStaticPages = 26; // Incremented for Unsecured Loan, ARC Challenge, MSME Recovery, MSME Personal Loan, and Personal Loan pages
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -611,6 +611,28 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/loan-settlement/fibe`,
     priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // MSME and Personal Loan Legal Defence Pages
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-MSME-loan-recovery-defence`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-MSME-personal-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-personal-loans`,
+    priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -1017,6 +1039,22 @@ async function generateSitemap(): Promise<string> {
   // Best Lawyer to Challenge Loan Assignment to ARC page
   urls.push({
     loc: `${baseUrl}/best-lawyer-to-challenge-loan-assignment-to-arc`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for MSME Loan Recovery Defence page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-MSME-loan-recovery-defence`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Lawyer for MSME Personal Loan page
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-MSME-personal-loan`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

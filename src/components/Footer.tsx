@@ -127,6 +127,9 @@ export default function Footer() {
               <a href="/best-lawyer-for-secured-loan-litigation-drt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Secured Loan Litigation DRT</a>
               <a href="/best-lawyer-for-unsecured-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Unsecured Loan</a>
               <a href="/best-lawyer-to-challenge-loan-assignment-to-arc" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer to Challenge ARC Assignment</a>
+              <a href="/best-lawyer-for-MSME-loan-recovery-defence" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for MSME Loan Recovery Defence</a>
+              <a href="/best-lawyer-for-MSME-personal-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for MSME Personal Loan</a>
+              <a href="/best-lawyer-for-personal-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Personal Loans</a>
             </div>
           </div>
 
