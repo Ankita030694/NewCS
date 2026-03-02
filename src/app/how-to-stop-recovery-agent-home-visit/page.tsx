@@ -119,44 +119,6 @@ export default function RecoveryVisitPage() {
     }
   };
 
-  const serviceReviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Service',
-    'name': 'Recovery Agent Harassment Protection',
-    'description': 'Professional legal consultation and debt relief services to stop illegal recovery agent home visits and settle loans legally.',
-    'provider': {
-      '@type': 'FinancialService',
-      'name': 'CredSettle',
-      'url': 'https://www.credsettle.com'
-    },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '15400',
-      'bestRating': '5',
-      'worstRating': '1'
-    },
-    'review': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Mehra' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle provided immediate legal support when agents were visiting my house. Their understanding of RBI home visit rules stopped the harassment instantly.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rajesh Khanna' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Agents used to show up at 9 PM and shout. CredSettle legal team stopped it within 48 hours. I feel safe at home again.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sneha Patil' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The guidance on RBI rules helped me face the agents with confidence. CredSettle then negotiated my settlement perfectly.'
-      }
-    ]
-  };
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -251,11 +213,10 @@ export default function RecoveryVisitPage() {
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="service-review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceReviewSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero Section */}
-      <section 
+      <section
         className="relative text-white pt-32 pb-20 px-4 md:px-8"
         style={{
           background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #2F6CE2 0%, #001235 100%)',
@@ -271,12 +232,12 @@ export default function RecoveryVisitPage() {
             <span className="text-blue-300">Your Legal Rights & RBI Rules 2025</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
-            Tired of unannounced doorstep harassment? Discover the powerful RBI guidelines 
-            and legal strategies to stop recovery visits forever. Protect your family's 
+            Tired of unannounced doorstep harassment? Discover the powerful RBI guidelines
+            and legal strategies to stop recovery visits forever. Protect your family's
             dignity and privacy with expert legal protection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
+            <Link
               href="/contact"
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
@@ -287,7 +248,7 @@ export default function RecoveryVisitPage() {
       </section>
 
       <RecoveryVisitClient />
-      
+
       <Footer />
     </div>
   );

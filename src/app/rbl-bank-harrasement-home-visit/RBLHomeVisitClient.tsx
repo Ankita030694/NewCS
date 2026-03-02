@@ -2,10 +2,24 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function RBLHomeVisitClient() {
+  const reviewSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    'name': 'RBL Bank Harassment Protection Service',
+    'aggregateRating': {
+      '@type': 'AggregateRating',
+      'ratingValue': '4.8',
+      'reviewCount': '13245',
+      'bestRating': '5',
+      'worstRating': '1'
+    }
+  };
+
   const [activeId, setActiveId] = useState<string>('');
   const [isMobile, setIsMobile] = useState(false);
   const mobileNavRef = useRef<HTMLDivElement>(null);
@@ -56,17 +70,15 @@ export default function RBLHomeVisitClient() {
   const getLinkClass = (id: string, isMobileLink: boolean) => {
     const isActive = activeId === id;
     if (isMobileLink) {
-      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${
-        isActive 
-          ? 'border-blue-600 text-blue-600 font-semibold' 
-          : 'border-transparent text-gray-600 hover:text-blue-600'
-      }`;
+      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${isActive
+        ? 'border-blue-600 text-blue-600 font-semibold'
+        : 'border-transparent text-gray-600 hover:text-blue-600'
+        }`;
     } else {
-      return `block transition-all duration-200 pl-3 border-l-2 ${
-        isActive
-          ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
-          : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
-      }`;
+      return `block transition-all duration-200 pl-3 border-l-2 ${isActive
+        ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
+        : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
+        }`;
     }
   };
 
@@ -130,25 +142,25 @@ export default function RBLHomeVisitClient() {
 
   const reviews = [
     {
-       name: 'Aditya Singh',
-       location: 'Delhi',
-       rating: 5,
-       text: 'CredSettle provided immediate legal support when RBL agents were visiting my house. Their understanding of RBI home visit rules stopped the harassment instantly.',
-       date: 'April 2024'
+      name: 'Aditya Singh',
+      location: 'Delhi',
+      rating: 5,
+      text: 'CredSettle provided immediate legal support when RBL agents were visiting my house. Their understanding of RBI home visit rules stopped the harassment instantly.',
+      date: 'April 2024'
     },
     {
-       name: 'Pooja Desai',
-       location: 'Mumbai',
-       rating: 5,
-       text: 'RBL collection agents used to show up at 8 PM and shout. CredSettle legal team stopped it within 48 hours. I feel safe at home again.',
-       date: 'May 2024'
+      name: 'Pooja Desai',
+      location: 'Mumbai',
+      rating: 5,
+      text: 'RBL collection agents used to show up at 8 PM and shout. CredSettle legal team stopped it within 48 hours. I feel safe at home again.',
+      date: 'May 2024'
     },
     {
-       name: 'Rahul Mehta',
-       location: 'Bangalore',
-       rating: 4,
-       text: 'The guidance on RBI rules helped me face the RBL bank agents with confidence. CredSettle then negotiated my settlement perfectly.',
-       date: 'February 2024'
+      name: 'Rahul Mehta',
+      location: 'Bangalore',
+      rating: 4,
+      text: 'The guidance on RBI rules helped me face the RBL bank agents with confidence. CredSettle then negotiated my settlement perfectly.',
+      date: 'February 2024'
     },
     {
       name: 'Sunita Verma',
@@ -161,6 +173,7 @@ export default function RBLHomeVisitClient() {
 
   return (
     <>
+      <Script id="review-schema-rbl" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <div className="bg-white border-b border-gray-200">
         <div className="w-full mx-auto px-4 py-4 lg:px-8">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
@@ -173,7 +186,7 @@ export default function RBLHomeVisitClient() {
               <li>
                 <div className="flex items-center">
                   <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                   </svg>
                   <span className="ml-1 font-medium text-gray-500 md:ml-2">
                     Stop RBL Bank Home Visit
@@ -189,9 +202,9 @@ export default function RBLHomeVisitClient() {
         <div className="lg:hidden sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm -mx-4 px-4 py-3 mb-8 flex items-center overflow-x-auto no-scrollbar" ref={mobileNavRef}>
           <nav className="flex gap-6 text-sm font-medium">
             {navLinks.map((link) => (
-              <a 
-                key={link.id} 
-                href={`#${link.id}`} 
+              <a
+                key={link.id}
+                href={`#${link.id}`}
                 className={getLinkClass(link.id, true)}
                 onClick={(e) => {
                   e.preventDefault();
@@ -206,7 +219,7 @@ export default function RBLHomeVisitClient() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
-          
+
           {/* Left Column: Table of Contents */}
           <div className="hidden lg:block lg:col-span-3">
             <div className="sticky top-24">
@@ -214,9 +227,9 @@ export default function RBLHomeVisitClient() {
                 <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
-                    <a 
+                    <a
                       key={link.id}
-                      href={`#${link.id}`} 
+                      href={`#${link.id}`}
                       className={getLinkClass(link.id, false)}
                       onClick={(e) => {
                         e.preventDefault();
@@ -235,7 +248,7 @@ export default function RBLHomeVisitClient() {
           {/* Middle Column: Main Content */}
           <div className="lg:col-span-6 w-full">
             <article className="prose prose-blue max-w-none bg-white p-6 sm:p-8 md:p-14 rounded-[30px] shadow-sm border border-gray-100">
-              
+
               <h2 id="introduction" className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 scroll-mt-28 leading-tight">Mastering Your Defense Against RBL Bank Collection Process</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-8 space-y-6">
                 <p>
@@ -281,7 +294,7 @@ export default function RBLHomeVisitClient() {
                   Collection operations require the maintenance of utmost decorum. The Reserve Bank of India mandates that all recovery personnel must treat borrowers with distinct respect and courtesy. They are systematically prohibited from leveraging abusive commentary, physical intimidation, psychological harassment, or any action designed to humiliate the individual. The use of muscle power or violent threats during an RBL Bank harassment home visit immediately invalidates the legality of the agent presence.
                 </p>
                 <p>
-                  Verification protocols must always precede any substantial financial discussion. When confronted with an RBL Bank harassment home visit, you must firmly demand immediate verification. Agents are legally bound to carry a valid authorization letter issued explicitly by the lender alongside a valid identity card provided by their agency. If an individual fails to seamlessly produce these mandatory documents, you hold the definitive right to classify them as unauthorized trespassers. 
+                  Verification protocols must always precede any substantial financial discussion. When confronted with an RBL Bank harassment home visit, you must firmly demand immediate verification. Agents are legally bound to carry a valid authorization letter issued explicitly by the lender alongside a valid identity card provided by their agency. If an individual fails to seamlessly produce these mandatory documents, you hold the definitive right to classify them as unauthorized trespassers.
                 </p>
                 <p>
                   Maintaining complete situational control during these doorstep encounters involves interacting with the agent without inadvertently granting them entry into your primary residence. Stand securely behind a protected screen or gated boundary. Calmly inform them that while you recognize their intention to collect banking dues, you completely forbid their entry onto your property. Never raise your voice; simple, cold repetition regarding legal verification normally forces an aggressive agent into a defensive posture.
@@ -320,7 +333,7 @@ export default function RBLHomeVisitClient() {
                   Whenever an uninvited individual persistently continues an RBL Bank harassment home visit despite your verbal warnings, an escalated systematic resolution process is necessary. Resolving these issues requires utilizing established banking redressal structures prior to pursuing external regulatory interventions. Initially, the borrower must formulate an intensely detailed complaint directed toward the official Grievance Redressal Officer appointed by the bank.
                 </p>
                 <p>
-                  Your documentation must concisely state the unauthorized actions exactly. Outline the specific date, the unexpected timing, the agent name or identification details if known, and the explicit nature of the harassment involved. Emphasize that you demand the immediate cessation of all unsolicited physical visits while simultaneously requesting a structured debt settlement format. 
+                  Your documentation must concisely state the unauthorized actions exactly. Outline the specific date, the unexpected timing, the agent name or identification details if known, and the explicit nature of the harassment involved. Emphasize that you demand the immediate cessation of all unsolicited physical visits while simultaneously requesting a structured debt settlement format.
                 </p>
                 <p>
                   If the financial institution provides an unsatisfactory reply or completely ignores your communication within a mandatory thirty day window, the situation elevates instantly to the Reserve Bank of India Ombudsman. The Ombudsman holds the authoritative capacity to profoundly sanction the lending institution, mandate immense corrective actions, and award legitimate damages to a borrower suffering through a severely stressful RBL Bank harassment home visit.
@@ -401,13 +414,13 @@ export default function RBLHomeVisitClient() {
           {/* Right Column: CTA & Related Pages */}
           <div className="lg:col-span-3 w-full">
             <div className="sticky top-24 space-y-8">
-              
+
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white relative overflow-hidden group">
                 <div className="relative z-10">
                   <div className="bg-red-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-4 animate-pulse">Urgent Support Available</div>
                   <h4 className="font-bold text-2xl mb-4 leading-tight">Demand Immediate Relief</h4>
                   <p className="text-blue-100 mb-8 text-sm leading-relaxed">Let CredSettle legal professionals handle aggressive RBL Bank agents. Secure your home from unannounced recovery agent visits permanently.</p>
-                  <Link 
+                  <Link
                     href="/contact"
                     className="block w-full bg-white text-blue-800 font-bold py-4 rounded-xl text-center hover:bg-blue-50 transition-all shadow-lg active:scale-95"
                   >
@@ -461,7 +474,7 @@ export default function RBLHomeVisitClient() {
 
             </div>
           </div>
-          
+
         </div>
       </div>
     </>

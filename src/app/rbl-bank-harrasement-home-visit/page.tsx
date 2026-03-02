@@ -118,44 +118,6 @@ export default function RBLRecoveryVisitPage() {
     }
   };
 
-  const serviceReviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Service',
-    'name': 'RBL Bank Harassment Protection',
-    'description': 'Professional legal consultation and debt relief services to stop illegal rbl bank harassment home visit and settle loans legally.',
-    'provider': {
-      '@type': 'FinancialService',
-      'name': 'CredSettle',
-      'url': 'https://www.credsettle.com'
-    },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.8',
-      'reviewCount': '13245',
-      'bestRating': '5',
-      'worstRating': '1'
-    },
-    'review': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Aditya Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle provided immediate legal support when RBL agents were visiting my house. Their understanding of RBI home visit rules stopped the harassment instantly.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Pooja Desai' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'RBL collection agents used to show up at 8 PM and shout. CredSettle legal team stopped it within 48 hours. I feel safe at home again.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rahul Mehta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '4' },
-        'reviewBody': 'The guidance on RBI rules helped me face the RBL bank agents with confidence. CredSettle then negotiated my settlement perfectly.'
-      }
-    ]
-  };
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -250,11 +212,10 @@ export default function RBLRecoveryVisitPage() {
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="service-review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceReviewSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero Section */}
-      <section 
+      <section
         className="relative text-white pt-32 pb-20 px-4 md:px-8"
         style={{
           background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #2F6CE2 0%, #001235 100%)',
@@ -273,7 +234,7 @@ export default function RBLRecoveryVisitPage() {
             Enduring an RBL Bank harassment home visit? Understand the Reserve Bank of India crucial debt recovery guidelines. Defend your peace of mind and family members against aggressive collection tactics completely within the bounds of the law.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
+            <Link
               href="/contact"
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
@@ -284,7 +245,7 @@ export default function RBLRecoveryVisitPage() {
       </section>
 
       <RBLHomeVisitClient />
-      
+
       <Footer />
     </div>
   );

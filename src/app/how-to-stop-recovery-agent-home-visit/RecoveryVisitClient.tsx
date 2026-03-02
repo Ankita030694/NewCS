@@ -2,8 +2,22 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function RecoveryVisitClient() {
+  const reviewSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    'name': 'Recovery Agent Home Visit Protection Service',
+    'aggregateRating': {
+      '@type': 'AggregateRating',
+      'ratingValue': '4.9',
+      'reviewCount': '15400',
+      'bestRating': '5',
+      'worstRating': '1'
+    }
+  };
+
   const [activeId, setActiveId] = useState<string>('');
   const [isMobile, setIsMobile] = useState(false);
   const mobileNavRef = useRef<HTMLDivElement>(null);
@@ -57,17 +71,15 @@ export default function RecoveryVisitClient() {
   const getLinkClass = (id: string, isMobileLink: boolean) => {
     const isActive = activeId === id;
     if (isMobileLink) {
-      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${
-        isActive 
-          ? 'border-blue-600 text-blue-600 font-semibold' 
-          : 'border-transparent text-gray-600 hover:text-blue-600'
-      }`;
+      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${isActive
+        ? 'border-blue-600 text-blue-600 font-semibold'
+        : 'border-transparent text-gray-600 hover:text-blue-600'
+        }`;
     } else {
-      return `block transition-all duration-200 pl-3 border-l-2 ${
-        isActive
-          ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
-          : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
-      }`;
+      return `block transition-all duration-200 pl-3 border-l-2 ${isActive
+        ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
+        : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
+        }`;
     }
   };
 
@@ -181,6 +193,7 @@ export default function RecoveryVisitClient() {
 
   return (
     <>
+      <Script id="review-schema-stop-visit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       {/* Breadcrumb Section */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
@@ -194,7 +207,7 @@ export default function RecoveryVisitClient() {
               <li>
                 <div className="flex items-center">
                   <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                   </svg>
                   <span className="ml-1 font-medium text-gray-500 md:ml-2">
                     How to Stop Recovery Agent Home Visit
@@ -211,9 +224,9 @@ export default function RecoveryVisitClient() {
         <div className="lg:hidden sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm -mx-4 px-4 py-3 mb-8 flex items-center overflow-x-auto no-scrollbar" ref={mobileNavRef}>
           <nav className="flex gap-6 text-sm font-medium">
             {navLinks.map((link) => (
-              <a 
-                key={link.id} 
-                href={`#${link.id}`} 
+              <a
+                key={link.id}
+                href={`#${link.id}`}
                 className={getLinkClass(link.id, true)}
                 onClick={(e) => {
                   e.preventDefault();
@@ -235,9 +248,9 @@ export default function RecoveryVisitClient() {
                 <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
-                    <a 
+                    <a
                       key={link.id}
-                      href={`#${link.id}`} 
+                      href={`#${link.id}`}
                       className={getLinkClass(link.id, false)}
                       onClick={(e) => {
                         e.preventDefault();
@@ -256,7 +269,7 @@ export default function RecoveryVisitClient() {
           {/* Middle Column: Main Content */}
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
-              
+
               <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Mastering Your Defense: The Ultimate Guide on How to Stop Recovery Agent Home Visit</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
@@ -469,7 +482,7 @@ export default function RecoveryVisitClient() {
               <h2 id="bank-specific-behaviors" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Bank-Specific Recovery Behaviors: What to Expect</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Different banks have different recovery "cultures" based on their internal risk tolerance and the type of agencies they hire. 
+                  Different banks have different recovery "cultures" based on their internal risk tolerance and the type of agencies they hire.
                 </p>
                 <p>
                   <strong>Private Sector Giants:</strong> Large private banks often outsource their recovery to multiple third-party agencies. This creates a highly competitive environment between agencies, leading to increased aggression as they fight for commissions. However, these banks are also the most sensitive to direct complaints to their Nodal Officers.
@@ -506,7 +519,7 @@ export default function RecoveryVisitClient() {
               <h2 id="legal-precedents" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Legal Precedents: Court Rulings Against Aggressive Recovery</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  The Indian judiciary has been a staunch protector of borrower rights. In numerous cases, the courts have penalized banks for the high-handedness of their recovery agents. 
+                  The Indian judiciary has been a staunch protector of borrower rights. In numerous cases, the courts have penalized banks for the high-handedness of their recovery agents.
                   In the case of <em>ICICI Bank vs Shanti Devi</em>, the Supreme Court held that banks cannot use goons or muscle power to recover loans. The court emphasized that a bank is a responsible institution and must act within the law.
                 </p>
                 <p>
@@ -584,7 +597,7 @@ export default function RecoveryVisitClient() {
                 <div className="relative z-10">
                   <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight uppercase tracking-tight">Stop the Doorstep Threat Today</h2>
                   <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-xl font-light">Join thousands who have reclaimed their home's peace. Get an immediate legal shield against recovery agent harassment.</p>
-                  <Link 
+                  <Link
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-12 py-5 rounded-full font-extrabold text-xl hover:bg-blue-50 transition-all shadow-2xl hover:scale-105 active:scale-95"
                   >
@@ -602,14 +615,14 @@ export default function RecoveryVisitClient() {
           {/* Right Column: CTA + Resources */}
           <div className="lg:w-1/5 w-full">
             <div className="sticky top-24 space-y-8">
-              
+
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white relative overflow-hidden group">
                 <div className="relative z-10">
                   <div className="bg-red-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-4 animate-pulse">24/7 Protection</div>
                   <h4 className="font-bold text-2xl mb-4 leading-tight">Home Visit Expected?</h4>
                   <p className="text-blue-100 mb-8 text-sm leading-relaxed">Don't wait for the doorbell to ring. Get our legal team to stop the agents now.</p>
-                  <Link 
+                  <Link
                     href="/contact"
                     className="block w-full bg-white text-blue-800 font-bold py-4 rounded-xl text-center hover:bg-blue-50 transition-all shadow-lg active:scale-95"
                   >

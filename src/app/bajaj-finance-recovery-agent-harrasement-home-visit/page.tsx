@@ -115,44 +115,6 @@ export default function BajajRecoveryVisitPage() {
     }
   };
 
-  const serviceReviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Service',
-    'name': 'Bajaj Finance Harassment Protection',
-    'description': 'Professional legal consultation and debt relief services to stop bajaj finance recovery agent harassment home visit.',
-    'provider': {
-      '@type': 'FinancialService',
-      'name': 'CredSettle',
-      'url': 'https://www.credsettle.com'
-    },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '15400',
-      'bestRating': '5',
-      'worstRating': '1'
-    },
-    'review': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sumit Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Bajaj Finance recovery agent harassment home visit stopped completely after CredSettle took my case.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Ankit Verma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Bajaj agents were visiting my house and harassing me. CredSettle legal team stopped it within 48 hours. I feel safe at home again.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The guidance on RBI rules helped me face the bajaj finance agents with confidence. CredSettle negotiated my settlement perfectly.'
-      }
-    ]
-  };
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -247,11 +209,10 @@ export default function BajajRecoveryVisitPage() {
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="service-review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceReviewSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero Section */}
-      <section 
+      <section
         className="relative text-white pt-32 pb-20 px-4 md:px-8"
         style={{
           background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #2F6CE2 0%, #001235 100%)',
@@ -263,16 +224,16 @@ export default function BajajRecoveryVisitPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            Stop Bajaj Finance Recovery Agent <br/> Harassment Home Visit<br />
+            Stop Bajaj Finance Recovery Agent <br /> Harassment Home Visit<br />
             <span className="text-blue-300">Your Legal Rights & Action Plan</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
-            Experiencing harassment from a Bajaj Finance recovery agent during a home visit? 
-            Know your rights under RBI guidelines and take swift legal action to stop the doorstep threats permanently. 
+            Experiencing harassment from a Bajaj Finance recovery agent during a home visit?
+            Know your rights under RBI guidelines and take swift legal action to stop the doorstep threats permanently.
             Protect your family privacy today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
+            <Link
               href="/contact"
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
@@ -283,7 +244,7 @@ export default function BajajRecoveryVisitPage() {
       </section>
 
       <BajajHomeVisitClient />
-      
+
       <Footer />
     </div>
   );

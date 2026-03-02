@@ -2,8 +2,22 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function RecoveryAgentClient() {
+  const reviewSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    'name': 'Recovery Agent Harassment Legal Protection',
+    'aggregateRating': {
+      '@type': 'AggregateRating',
+      'ratingValue': '4.9',
+      'reviewCount': '15400',
+      'bestRating': '5',
+      'worstRating': '1'
+    }
+  };
+
   const [activeId, setActiveId] = useState<string>('');
   const [isMobile, setIsMobile] = useState(false);
   const mobileNavRef = useRef<HTMLDivElement>(null);
@@ -57,17 +71,15 @@ export default function RecoveryAgentClient() {
   const getLinkClass = (id: string, isMobileLink: boolean) => {
     const isActive = activeId === id;
     if (isMobileLink) {
-      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${
-        isActive 
-          ? 'border-blue-600 text-blue-600 font-semibold' 
-          : 'border-transparent text-gray-600 hover:text-blue-600'
-      }`;
+      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${isActive
+        ? 'border-blue-600 text-blue-600 font-semibold'
+        : 'border-transparent text-gray-600 hover:text-blue-600'
+        }`;
     } else {
-      return `block transition-all duration-200 pl-3 border-l-2 ${
-        isActive
-          ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
-          : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
-      }`;
+      return `block transition-all duration-200 pl-3 border-l-2 ${isActive
+        ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
+        : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
+        }`;
     }
   };
 
@@ -175,6 +187,7 @@ export default function RecoveryAgentClient() {
 
   return (
     <>
+      <Script id="review-schema-recovery" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
@@ -187,7 +200,7 @@ export default function RecoveryAgentClient() {
               <li>
                 <div className="flex items-center">
                   <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                   </svg>
                   <span className="ml-1 font-medium text-gray-500 md:ml-2">
                     How to Handle Recovery Agent Harassment
@@ -203,9 +216,9 @@ export default function RecoveryAgentClient() {
         <div className="lg:hidden sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm -mx-4 px-4 py-3 mb-8 flex items-center overflow-x-auto no-scrollbar" ref={mobileNavRef}>
           <nav className="flex gap-6 text-sm font-medium">
             {navLinks.map((link) => (
-              <a 
-                key={link.id} 
-                href={`#${link.id}`} 
+              <a
+                key={link.id}
+                href={`#${link.id}`}
                 className={getLinkClass(link.id, true)}
                 onClick={(e) => {
                   e.preventDefault();
@@ -226,9 +239,9 @@ export default function RecoveryAgentClient() {
                 <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
-                    <a 
+                    <a
                       key={link.id}
-                      href={`#${link.id}`} 
+                      href={`#${link.id}`}
                       className={getLinkClass(link.id, false)}
                       onClick={(e) => {
                         e.preventDefault();
@@ -246,7 +259,7 @@ export default function RecoveryAgentClient() {
 
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
-              
+
               <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Navigating the Storm: A Master Class on How to Handle Recovery Agent Harassment</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
@@ -553,7 +566,7 @@ export default function RecoveryAgentClient() {
                 <div className="z-10 relative">
                   <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">Enough is Enough. Stop the Harassment Today.</h2>
                   <p className="text-blue-100 mb-10 max-w-3xl mx-auto text-xl font-light">Join over 15,000 satisfied clients who have reclaimed their lives. Let us handle the banks while you focus on your future. Zero harassment, total peace.</p>
-                  <Link 
+                  <Link
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-12 py-5 rounded-full font-extrabold text-xl hover:bg-blue-50 transition-all shadow-2xl hover:scale-105 active:scale-95"
                   >
@@ -569,12 +582,12 @@ export default function RecoveryAgentClient() {
 
           <div className="lg:w-1/5 w-full">
             <div className="sticky top-24 space-y-8">
-              
+
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white transform hover:rotate-1 transition-transform">
                 <div className="absolute top-4 right-4 bg-red-500 text-[10px] font-extrabold px-2 py-1 rounded uppercase tracking-tighter animate-pulse">Urgent Service</div>
                 <h4 className="font-bold text-2xl mb-4">Under Pressure?</h4>
                 <p className="text-blue-100 mb-6 text-sm">Don't wait for another abusive call. Our legal shield starts protecting you in under 4 hours.</p>
-                <Link 
+                <Link
                   href="/contact"
                   className="block w-full bg-white text-blue-700 font-bold py-4 rounded-xl text-center hover:bg-blue-50 transition-colors shadow-md"
                 >

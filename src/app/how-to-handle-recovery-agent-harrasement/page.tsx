@@ -119,28 +119,6 @@ export default function RecoveryAgentHarassmentPage() {
     }
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Review',
-    'itemReviewed': {
-      '@type': 'Service',
-      'name': 'Recovery Agent Harassment Legal Consultation'
-    },
-    'author': {
-      '@type': 'Person',
-      'name': 'Aman Sharma'
-    },
-    'reviewRating': {
-      '@type': 'Rating',
-      'ratingValue': '5',
-      'bestRating': '5'
-    },
-    'reviewBody': 'CredSettle helped me stop the harassing calls from recovery agents within 24 hours. Their legal understanding of RBI guidelines is unmatched.',
-    'publisher': {
-      '@type': 'Organization',
-      'name': 'CredSettle'
-    }
-  };
 
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -148,10 +126,9 @@ export default function RecoveryAgentHarassmentPage() {
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
-      <section 
+      <section
         className="relative text-white pt-32 pb-20 px-4 md:px-8"
         style={{
           background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #2F6CE2 0%, #001235 100%)',
@@ -167,12 +144,12 @@ export default function RecoveryAgentHarassmentPage() {
             <span className="text-blue-300">Know Your Rights & RBI Rules 2025</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
-            Are you being threatened by debt collectors? Learn the legal ways to stop harassment, 
-            understand RBI guidelines, and reclaim your peace of mind. Highly optimized guidance 
+            Are you being threatened by debt collectors? Learn the legal ways to stop harassment,
+            understand RBI guidelines, and reclaim your peace of mind. Highly optimized guidance
             for loan defaulters in India.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
+            <Link
               href="/contact"
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
@@ -183,7 +160,7 @@ export default function RecoveryAgentHarassmentPage() {
       </section>
 
       <RecoveryAgentClient />
-      
+
       <Footer />
     </div>
   );
