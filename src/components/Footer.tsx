@@ -134,6 +134,14 @@ export default function Footer() {
               <a href="/best-lawyer-for-bank-loan-recovery-defence" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Bank Loan Recovery Defence</a>
               <a href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for DRT Case Defence</a>
               <a href="/best-lawyer-for-loan-settlement-during-drt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Settlement During DRT</a>
+              <a href="/best-project-finance-builder-loan-recovery-matter-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Project Finance Builder Loan Recovery Lawyer</a>
+              <a href="/best-loan-agreement-arbitration-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Loan Agreement Arbitration Lawyer</a>
+              <a href="/best-lawyer-for-home-loan-check-bounce-case" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Home Loan Check Bounce Case</a>
+              <a href="/drt-lawyer-in-mumbai-loan-recovery" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">DRT Lawyer in Mumbai Loan Recovery</a>
+              <a href="/best-lawyer-for-account-documents-drt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Account Documents DRT</a>
+              <a href="/best-lawyer-for-arc-loan-assignment-dispute" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for ARC Loan Assignment Dispute</a>
+              <a href="/best-lawyer-for-loan-recovery-documentation" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Recovery Documentation</a>
+              <a href="/best-lawyer-for-documentation-review-of-loan-agreement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Documentation Review of Loan Agreement</a>
             </div>
           </div>
 

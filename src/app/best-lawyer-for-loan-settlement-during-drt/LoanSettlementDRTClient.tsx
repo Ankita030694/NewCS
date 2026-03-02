@@ -404,7 +404,7 @@ export default function LoanSettlementDRTClient() {
 
                             <h2 id="counter-claims" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-14">Counter Claims: The Offensive Defense</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One of the most underutilized tools in the DRT is the "Counter Claim." If the bank\'s actions have caused you specific financial loss—for example, if they illegally sealed your shop, causing goods to rot, or if their wrongful notice destroyed your reputation with clients—you can sue the bank for damages within the DRT case itself.
+                                One of the most underutilized tools in the DRT is the "Counter Claim." If the bank's actions have caused you specific financial loss, for example, if they illegally sealed your shop, causing goods to rot, or if their wrongful notice destroyed your reputation with clients, you can sue the bank for damages within the DRT case itself.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When you file a counter-claim for 2 crore against a loan of 1 crore, the power dynamic shifts instantly. Now, the bank is also a "defendant." This creates a "Set-Off" situation. The bank realizes that even if they win their case, they might have to pay you. A counter-claim is the ultimate "force multiplier" in settlement talks. It forces the bank to be reasonable because their own potential liability is now on the court record.

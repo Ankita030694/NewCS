@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 29; // Incremented for Loan Settlement During DRT page
+  const mainStaticPages = 34; // Incremented for 3 new legal pages (home loan check bounce, DRT Mumbai, account documents DRT)
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -660,6 +660,62 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-loan-settlement-during-drt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-project-finance-builder-loan-recovery-matter-lawyer`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-loan-agreement-arbitration-lawyer`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-home-loan-check-bounce-case`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/drt-lawyer-in-mumbai-loan-recovery`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-account-documents-drt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-recovery-documentation`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-documentation-review-of-loan-agreement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-arc-loan-assignment-dispute`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

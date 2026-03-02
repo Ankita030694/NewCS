@@ -413,7 +413,7 @@ export default function BankLoanRecoveryDefenceClient() {
 
                             <h2 id="ots-settlement" className="text-3xl font-bold text-slate-900 mb-8 scroll-mt-24">OTS (One-Time Settlement): The Strategic Exit</h2>
                             <p className="text-slate-700 leading-[1.8] mb-6 text-lg">
-                                For many borrowers, the goal is not to fight the bank forever but to reach a realistic settlement. This is where the One-Time Settlement (OTS) comes into play. An OTS is a contract where the bank agrees to accept a lump sum amount—often significantly less than the total outstanding—and release the borrower from all liabilities.
+                                For many borrowers, the goal is not to fight the bank forever but to reach a realistic settlement. This is where the One-Time Settlement (OTS) comes into play. An OTS is a contract where the bank agrees to accept a lump sum amount, often significantly less than the total outstanding, and release the borrower from all liabilities.
                             </p>
                             <p className="text-slate-700 leading-[1.8] mb-8 text-lg">
                                 Negotiating an OTS is an art form. It requires proving to the bank that you have a "genuine hardship" and that if they don't take your current offer, their chances of recovering anything in the future are zero. This is where your lawyer becomes an expert salesman of your reality. They present your medical bills, your loss of employment data, or your business’s audit reports to show the bank’s committee that your offer is the best they will get.
