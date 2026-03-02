@@ -1,11 +1,12 @@
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({
-    apiKey: process.env.HELLO_DROP_CHOO,
-});
+export const runtime = "edge";
 
 export async function POST(request: Request) {
+    const openai = new OpenAI({
+    apiKey: process.env.HELLO_DROP_CHOO,
+  });
     try {
         const { primaryKeyword, secondaryKeyword } = await request.json();
 
