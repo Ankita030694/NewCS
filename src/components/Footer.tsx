@@ -130,6 +130,9 @@ export default function Footer() {
               <a href="/best-lawyer-for-MSME-loan-recovery-defence" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for MSME Loan Recovery Defence</a>
               <a href="/best-lawyer-for-MSME-personal-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for MSME Personal Loan</a>
               <a href="/best-lawyer-for-personal-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Personal Loans</a>
+              <a href="/best-lawyer-for-bounced-security-check-for-loans-and-credit-card-disputes" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Bounced Security Check</a>
+              <a href="/best-lawyer-for-bank-loan-recovery-defence" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Bank Loan Recovery Defence</a>
+              <a href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for DRT Case Defence</a>
             </div>
           </div>
 
