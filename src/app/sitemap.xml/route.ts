@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 28; // Incremented for Bank Loan Recovery Defence page
+  const mainStaticPages = 29; // Incremented for Loan Settlement During DRT page
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -653,6 +653,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-drt-case-defence-for-bank-loan-recovery`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-settlement-during-drt`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
