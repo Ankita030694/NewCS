@@ -19,7 +19,7 @@ export default function ChequeBounceDelhiClient() {
   // Intersection Observer for Active Section
   useEffect(() => {
     const observer = new IntersectionObserver(
-      (entries) => {
+      (entries) => { 
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setActiveId(entry.target.id);
