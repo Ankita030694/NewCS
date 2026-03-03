@@ -142,6 +142,14 @@ export default function Footer() {
               <a href="/best-lawyer-for-arc-loan-assignment-dispute" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for ARC Loan Assignment Dispute</a>
               <a href="/best-lawyer-for-loan-recovery-documentation" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Recovery Documentation</a>
               <a href="/best-lawyer-for-documentation-review-of-loan-agreement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Documentation Review of Loan Agreement</a>
+              <a href="/best-lawyer-for-msme-business-loan-dispute" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for MSME Business Loan Dispute</a>
+              <a href="/best-lawyer-for-loan-settlement-by-drt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Loan Settlement by DRT</a>
+              <a href="/best-lawyer-for-notice-for-loan-default" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Notice for Loan Default</a>
+              <a href="/best-lawyer-for-drt-loan-assignment-dispute-defence-in-drt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for DRT Loan Assignment Dispute Defence</a>
+              <a href="/best-lawyer-for-msme-and-business-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for MSME and Business Loans</a>
+              <a href="/best-lawyer-for-company-loan-matters" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Company Loan Matters</a>
+              <a href="/best-lawyer-for-notice-for-default-on-mortgage-or-loan-repayment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Notice for Default on Mortgage</a>
+              <a href="/best-lawyer-for-consortium-loan-recovery-defence" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Consortium Loan Recovery Defence</a>
             </div>
           </div>
 

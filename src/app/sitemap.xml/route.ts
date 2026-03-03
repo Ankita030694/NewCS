@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 34; // Incremented for 3 new legal pages (home loan check bounce, DRT Mumbai, account documents DRT)
+  const mainStaticPages = 37; // Updated for 3 new legal pages: msme-business-loan-dispute, loan-settlement-by-drt, notice-for-loan-default
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -716,6 +716,63 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-arc-loan-assignment-dispute`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // New Legal Pages 2025
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-msme-business-loan-dispute`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-loan-settlement-by-drt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-notice-for-loan-default`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-drt-loan-assignment-dispute-defence-in-drt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-msme-and-business-loans`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-company-loan-matters`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-notice-for-default-on-mortgage-or-loan-repayment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-lawyer-for-consortium-loan-recovery-defence`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
