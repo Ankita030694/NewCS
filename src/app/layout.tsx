@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
+import GlobalPopupForm from "@/components/GlobalPopupForm";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -133,6 +134,7 @@ export default function RootLayout({
         </noscript>
         {children}
         <Analytics />
+        <GlobalPopupForm />
         <WhatsAppWidget />
       </body>
     </html>
