@@ -11,61 +11,79 @@ export const metadata: Metadata = {
 };
 
 export default function LoanSanctionWithoutConsentPage() {
+    const articleLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Legal Manual: Fighting Loan Sanctions Without Consent in India',
+        'description': 'A comprehensive legal guide on handling unauthorized loan disbursements, identity theft in lending, and the procedural steps to cancel illegal contracts.',
+        'image': 'https://credsettle.com/images/unauthorized-loan.jpg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Legal Defense Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-02-10',
+        'dateModified': '2026-03-06'
+    };
+
+    const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Legal Case for Loan Sanction Without Consent',
+                'item': 'https://credsettle.com/legal-case-for-loan-sanction-without-consent'
+            }
+        ]
+    };
+
+    const organizationLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://credsettle.com',
+        'logo': 'https://credsettle.com/logo.png',
+        'sameAs': [
+            'https://www.facebook.com/credsettle',
+            'https://www.twitter.com/credsettle',
+            'https://www.linkedin.com/company/credsettle'
+        ]
+    };
+
     return (
         <main>
             <LoanSanctionWithoutConsentClient />
 
-            {/* Server-side Schema for Article */}
+            {/* Server-side Schema */}
             <script
+                id="article-schema-no-consent"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'Article',
-                        'headline': 'Legal Manual: Fighting Loan Sanctions Without Consent in India',
-                        'description': 'A comprehensive legal guide on handling unauthorized loan disbursements, identity theft in lending, and the procedural steps to cancel illegal contracts.',
-                        'image': 'https://credsettle.com/images/unauthorized-loan.jpg',
-                        'author': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle Legal Defense'
-                        },
-                        'publisher': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle',
-                            'logo': {
-                                '@type': 'ImageObject',
-                                'url': 'https://credsettle.com/logo.png'
-                            }
-                        },
-                        'datePublished': '2025-02-10',
-                        'dateModified': '2026-03-06'
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
-
-            {/* Breadcrumb Schema */}
             <script
+                id="breadcrumb-schema-no-consent"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'BreadcrumbList',
-                        'itemListElement': [
-                            {
-                                '@type': 'ListItem',
-                                'position': 1,
-                                'name': 'Home',
-                                'item': 'https://credsettle.com/'
-                            },
-                            {
-                                '@type': 'ListItem',
-                                'position': 2,
-                                'name': 'Legal Case for Loan Sanction Without Consent',
-                                'item': 'https://credsettle.com/legal-case-for-loan-sanction-without-consent'
-                            }
-                        ]
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <script
+                id="org-schema-no-consent"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
         </main>
     );

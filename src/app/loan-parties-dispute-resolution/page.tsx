@@ -13,63 +13,81 @@ export const metadata: Metadata = {
 };
 
 export default function LoanPartiesDisputeResolutionPage() {
+    const articleLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Resolving Loan Party Disputes: A Comprehensive Legal Roadmap for 2025',
+        'description': 'An expert analysis of the legal mechanisms available to resolve conflicts in multi-party loan agreements, including arbitration, mediation, and judicial proceedings in India.',
+        'image': 'https://credsettle.com/images/loan-parties-dispute.jpg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle ADR Specialists'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-08-15',
+        'dateModified': '2026-03-06'
+    };
+
+    const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Loan Parties Dispute Resolution',
+                'item': 'https://credsettle.com/loan-parties-dispute-resolution'
+            }
+        ]
+    };
+
+    const organizationLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://credsettle.com',
+        'logo': 'https://credsettle.com/logo.png',
+        'sameAs': [
+            'https://www.facebook.com/credsettle',
+            'https://www.twitter.com/credsettle',
+            'https://www.linkedin.com/company/credsettle'
+        ]
+    };
+
     return (
         <main>
             <Navbar />
             <LoanPartiesDisputeResolutionClient />
             <Footer />
 
-            {/* Server-side Schema for Article */}
+            {/* Server-side Schema */}
             <script
+                id="article-schema-party-dispute"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'Article',
-                        'headline': 'Resolving Loan Party Disputes: A Comprehensive Legal Roadmap for 2025',
-                        'description': 'An expert analysis of the legal mechanisms available to resolve conflicts in multi-party loan agreements, including arbitration, mediation, and judicial proceedings in India.',
-                        'image': 'https://credsettle.com/images/loan-parties-dispute.jpg',
-                        'author': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle ADR Specialists'
-                        },
-                        'publisher': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle',
-                            'logo': {
-                                '@type': 'ImageObject',
-                                'url': 'https://credsettle.com/logo.png'
-                            }
-                        },
-                        'datePublished': '2025-08-15',
-                        'dateModified': '2026-03-06'
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
-
-            {/* Breadcrumb Schema */}
             <script
+                id="breadcrumb-schema-party-dispute"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'BreadcrumbList',
-                        'itemListElement': [
-                            {
-                                '@type': 'ListItem',
-                                'position': 1,
-                                'name': 'Home',
-                                'item': 'https://credsettle.com/'
-                            },
-                            {
-                                '@type': 'ListItem',
-                                'position': 2,
-                                'name': 'Loan Parties Dispute Resolution',
-                                'item': 'https://credsettle.com/loan-parties-dispute-resolution'
-                            }
-                        ]
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <script
+                id="org-schema-party-dispute"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
         </main>
     );

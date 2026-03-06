@@ -153,23 +153,35 @@ export default function SmeLoanDisputeResolutionClient() {
         }))
     };
 
-    const reviewSchema = {
+    const productSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'SME Loan Dispute Resolution Service',
+        'description': 'Comprehensive legal assistance for MSMEs in resolving complex loan disputes, including arbitration, non-wilful default defense, and recovery stay orders.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.9',
             'reviewCount': '3120',
             'bestRating': '5',
             'worstRating': '1'
+        },
+        'offers': {
+            '@type': 'AggregateOffer',
+            'lowPrice': '0',
+            'priceCurrency': 'INR',
+            'offerCount': '1',
+            'availability': 'https://schema.org/InStock'
         }
     };
 
     return (
         <>
             <Script id="faq-schema-sme-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-sme-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+            <Script id="product-schema-sme-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section

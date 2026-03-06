@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 };
 
 export default function LoanAgreementDraftingReviewPage() {
-    const jsonLd = {
+    const articleLd = {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Professional Loan Agreement Drafting & Review: A Comprehensive 2025 Legal Guide",
@@ -43,7 +43,7 @@ export default function LoanAgreementDraftingReviewPage() {
             }
         },
         "datePublished": "2025-03-06",
-        "dateModified": "2025-03-06"
+        "dateModified": "2026-03-06"
     };
 
     const breadcrumbLd = {
@@ -65,18 +65,36 @@ export default function LoanAgreementDraftingReviewPage() {
         ]
     };
 
+    const organizationLd = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "CredSettle",
+        "url": "https://www.credsettle.com",
+        "logo": "https://www.credsettle.com/logo.png",
+        "sameAs": [
+            "https://www.facebook.com/credsettle",
+            "https://www.twitter.com/credsettle",
+            "https://www.linkedin.com/company/credsettle"
+        ]
+    };
+
     return (
         <div className="bg-white min-h-screen">
             <Navbar />
             <Script
                 id="article-schema-loan-drafting"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
             <Script
                 id="breadcrumb-schema-loan-drafting"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <Script
+                id="org-schema-loan-drafting"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <LoanAgreementDraftingReviewClient />
             <Footer />

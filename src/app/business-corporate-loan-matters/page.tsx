@@ -13,63 +13,81 @@ export const metadata: Metadata = {
 };
 
 export default function BusinessCorporateLoanMattersPage() {
+    const articleLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Corporate Loan Resolution: Navigating IBC, NCLT, and Restructuring in 2025',
+        'description': 'A detailed legal manual for businesses and directors facing corporate loan defaults, exploring the 2025 IBC amendments, CIRP strategies, and out-of-court resolutions.',
+        'image': 'https://credsettle.com/images/corporate-loan-matters.jpg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Corporate Legal Advisory'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-06-15',
+        'dateModified': '2026-03-06'
+    };
+
+    const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Business Corporate Loan Matters',
+                'item': 'https://credsettle.com/business-corporate-loan-matters'
+            }
+        ]
+    };
+
+    const organizationLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://credsettle.com',
+        'logo': 'https://credsettle.com/logo.png',
+        'sameAs': [
+            'https://www.facebook.com/credsettle',
+            'https://www.twitter.com/credsettle',
+            'https://www.linkedin.com/company/credsettle'
+        ]
+    };
+
     return (
         <main>
             <Navbar />
             <BusinessCorporateLoanMattersClient />
             <Footer />
 
-            {/* Server-side Schema for Article */}
+            {/* Server-side Schema */}
             <script
+                id="article-schema-corporate"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'Article',
-                        'headline': 'Corporate Loan Resolution: Navigating IBC, NCLT, and Restructuring in 2025',
-                        'description': 'A detailed legal manual for businesses and directors facing corporate loan defaults, exploring the 2025 IBC amendments, CIRP strategies, and out-of-court resolutions.',
-                        'image': 'https://credsettle.com/images/corporate-loan-matters.jpg',
-                        'author': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle Corporate Legal Advisory'
-                        },
-                        'publisher': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle',
-                            'logo': {
-                                '@type': 'ImageObject',
-                                'url': 'https://credsettle.com/logo.png'
-                            }
-                        },
-                        'datePublished': '2025-06-15',
-                        'dateModified': '2026-03-06'
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
-
-            {/* Breadcrumb Schema */}
             <script
+                id="breadcrumb-schema-corporate"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'BreadcrumbList',
-                        'itemListElement': [
-                            {
-                                '@type': 'ListItem',
-                                'position': 1,
-                                'name': 'Home',
-                                'item': 'https://credsettle.com/'
-                            },
-                            {
-                                '@type': 'ListItem',
-                                'position': 2,
-                                'name': 'Business Corporate Loan Matters',
-                                'item': 'https://credsettle.com/business-corporate-loan-matters'
-                            }
-                        ]
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <script
+                id="org-schema-corporate"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
         </main>
     );

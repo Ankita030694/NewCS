@@ -153,23 +153,35 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
         }))
     };
 
-    const reviewSchema = {
+    const productSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Loan Default & Recovery Defense Services',
+        'description': 'Elite legal defense against aggressive loan recovery tactics, SARFAESI notices, and illegal bank account freezes, ensuring borrower rights and dignity.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.9',
             'reviewCount': '3120',
             'bestRating': '5',
             'worstRating': '1'
+        },
+        'offers': {
+            '@type': 'AggregateOffer',
+            'lowPrice': '0',
+            'priceCurrency': 'INR',
+            'offerCount': '1',
+            'availability': 'https://schema.org/InStock'
         }
     };
 
     return (
         <>
             <Script id="faq-schema-recovery-defense" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-recovery-defense" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+            <Script id="product-schema-recovery-defense" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section

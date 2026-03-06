@@ -13,63 +13,81 @@ export const metadata: Metadata = {
 };
 
 export default function DigitalOnlineCyberLoanDisputesPage() {
+    const articleLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Defending Against Digital & Cyber Loan Frauds: A 2025 Legal Guide',
+        'description': 'Comprehensive manual for borrowers facing disputes with digital lending apps, exploring RBI regulatory protection, cybercrime reporting, and privacy laws.',
+        'image': 'https://credsettle.com/images/cyber-loan-dispute.jpg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Cyber Legal Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-05-10',
+        'dateModified': '2026-03-06'
+    };
+
+    const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Digital Online Cyber Loan Disputes',
+                'item': 'https://credsettle.com/digital-online-cyber-loan-disputes'
+            }
+        ]
+    };
+
+    const organizationLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://credsettle.com',
+        'logo': 'https://credsettle.com/logo.png',
+        'sameAs': [
+            'https://www.facebook.com/credsettle',
+            'https://www.twitter.com/credsettle',
+            'https://www.linkedin.com/company/credsettle'
+        ]
+    };
+
     return (
         <main>
             <Navbar />
             <DigitalOnlineCyberLoanDisputesClient />
             <Footer />
 
-            {/* Server-side Schema for Article */}
+            {/* Server-side Schema */}
             <script
+                id="article-schema-cyber"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'Article',
-                        'headline': 'Defending Against Digital & Cyber Loan Frauds: A 2025 Legal Guide',
-                        'description': 'Comprehensive manual for borrowers facing disputes with digital lending apps, exploring RBI regulatory protection, cybercrime reporting, and privacy laws.',
-                        'image': 'https://credsettle.com/images/cyber-loan-dispute.jpg',
-                        'author': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle Cyber Legal Team'
-                        },
-                        'publisher': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle',
-                            'logo': {
-                                '@type': 'ImageObject',
-                                'url': 'https://credsettle.com/logo.png'
-                            }
-                        },
-                        'datePublished': '2025-05-10',
-                        'dateModified': '2026-03-06'
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
-
-            {/* Breadcrumb Schema */}
             <script
+                id="breadcrumb-schema-cyber"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'BreadcrumbList',
-                        'itemListElement': [
-                            {
-                                '@type': 'ListItem',
-                                'position': 1,
-                                'name': 'Home',
-                                'item': 'https://credsettle.com/'
-                            },
-                            {
-                                '@type': 'ListItem',
-                                'position': 2,
-                                'name': 'Digital Online Cyber Loan Disputes',
-                                'item': 'https://credsettle.com/digital-online-cyber-loan-disputes'
-                            }
-                        ]
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <script
+                id="org-schema-cyber"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
         </main>
     );

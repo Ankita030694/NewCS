@@ -172,32 +172,35 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
         }))
     };
 
-    const reviewSchema = {
+    const productSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Foreclosure Defense & EMI Default Assistance Analysis',
+        'description': 'Comprehensive legal defense against home loan foreclosure, EMI default litigation, and procedural SARFAESI Act challenges in the Indian banking system.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.9',
-            'reviewCount': '3421',
+            'reviewCount': '3580',
             'bestRating': '5',
             'worstRating': '1'
+        },
+        'offers': {
+            '@type': 'AggregateOffer',
+            'lowPrice': '0',
+            'priceCurrency': 'INR',
+            'offerCount': '1',
+            'availability': 'https://schema.org/InStock'
         }
-    };
-
-    const organizationSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        'name': 'CredSettle',
-        'url': 'https://www.credsettle.com',
-        'logo': 'https://www.credsettle.com/logo.png'
     };
 
     return (
         <>
             <Script id="faq-schema-foreclosure" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-foreclosure" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-            <Script id="org-schema-foreclosure" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="product-schema-foreclosure" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section

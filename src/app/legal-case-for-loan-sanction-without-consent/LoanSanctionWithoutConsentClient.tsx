@@ -153,23 +153,35 @@ export default function LoanSanctionWithoutConsentClient() {
         }))
     };
 
-    const reviewSchema = {
+    const productSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Unauthorized Loan Fraud Defense',
+        'description': 'Advanced legal defense against identity theft and unauthorized digital loan sanctions, providing FIR guidance and RBI Ombudsman escalation support.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.8',
             'reviewCount': '2840',
             'bestRating': '5',
             'worstRating': '1'
+        },
+        'offers': {
+            '@type': 'AggregateOffer',
+            'lowPrice': '0',
+            'priceCurrency': 'INR',
+            'offerCount': '1',
+            'availability': 'https://schema.org/InStock'
         }
     };
 
     return (
         <>
             <Script id="faq-schema-fraud-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-fraud-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+            <Script id="product-schema-fraud-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section

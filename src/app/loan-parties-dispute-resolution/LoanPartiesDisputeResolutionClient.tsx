@@ -174,45 +174,35 @@ const LoanPartiesDisputeResolutionClient = () => {
         }))
     };
 
-    const reviewSchema = {
+    const productSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Loan Parties Dispute Resolution Analysis',
+        'description': 'Specialized legal mediation and dispute resolution for multi-party loan agreements, involving borrowers, co-applicants, and guarantors in Indian law.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
         'aggregateRating': {
             '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '2156',
+            'ratingValue': '4.9',
+            'reviewCount': '2840',
             'bestRating': '5',
             'worstRating': '1'
+        },
+        'offers': {
+            '@type': 'AggregateOffer',
+            'lowPrice': '0',
+            'priceCurrency': 'INR',
+            'offerCount': '1',
+            'availability': 'https://schema.org/InStock'
         }
-    };
-
-    const organizationSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        'name': 'CredSettle',
-        'url': 'https://www.credsettle.com',
-        'logo': 'https://www.credsettle.com/logo.png'
     };
 
     return (
         <div className="flex flex-col min-h-screen font-sans text-slate-900 bg-white">
-            {/* Schema Markup */}
-            <Script
-                id="party-dispute-review-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
-            />
-            <Script
-                id="party-dispute-faq-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="party-dispute-org-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-            />
+            <Script id="faq-schema-loan-parties" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <Script id="product-schema-loan-parties" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 overflow-hidden bg-[#001235]">

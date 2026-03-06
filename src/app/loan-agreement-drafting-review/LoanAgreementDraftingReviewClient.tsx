@@ -154,44 +154,35 @@ export default function LoanAgreementDraftingReviewClient() {
         }))
     };
 
-    const organizationSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        'name': 'CredSettle',
-        'url': 'https://www.credsettle.com',
-        'logo': 'https://www.credsettle.com/logo.png',
-        'sameAs': [
-            'https://www.facebook.com/credsettle',
-            'https://www.twitter.com/credsettle',
-            'https://www.linkedin.com/company/credsettle'
-        ],
-        'contactPoint': {
-            '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
-            'contactType': 'customer service',
-            'areaServed': 'IN',
-            'availableLanguage': 'English'
-        }
-    };
-
-    const reviewSchema = {
+    const productSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Loan Agreement Drafting & Review Analysis',
+        'description': 'Professional legal review and drafting of loan agreements to ensure transparency, fairness, and compliance with Indian lending laws.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.9',
             'reviewCount': '2450',
             'bestRating': '5',
             'worstRating': '1'
+        },
+        'offers': {
+            '@type': 'AggregateOffer',
+            'lowPrice': '0',
+            'priceCurrency': 'INR',
+            'offerCount': '1',
+            'availability': 'https://schema.org/InStock'
         }
     };
 
     return (
         <>
             <Script id="faq-schema-loan-drafting" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-loan-drafting" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-            <Script id="org-schema-loan-drafting" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="product-schema-loan-drafting" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section

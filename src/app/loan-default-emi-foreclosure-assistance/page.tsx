@@ -13,63 +13,81 @@ export const metadata: Metadata = {
 };
 
 export default function LoanDefaultEmiForeclosureAssistancePage() {
+    const articleLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Foreclosure Defense Manual: Managing Home Loan Defaults and SARFAESI Actions in 2025',
+        'description': 'A high-level legal guide for homeowners facing EMI defaults and foreclosure auctions, detailing procedural rights, DRT appeals, and debt restructuring solutions.',
+        'image': 'https://credsettle.com/images/foreclosure-assistance.jpg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Foreclosure Defense Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-07-20',
+        'dateModified': '2026-03-06'
+    };
+
+    const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Loan Default EMI Foreclosure Assistance',
+                'item': 'https://credsettle.com/loan-default-emi-foreclosure-assistance'
+            }
+        ]
+    };
+
+    const organizationLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://credsettle.com',
+        'logo': 'https://credsettle.com/logo.png',
+        'sameAs': [
+            'https://www.facebook.com/credsettle',
+            'https://www.twitter.com/credsettle',
+            'https://www.linkedin.com/company/credsettle'
+        ]
+    };
+
     return (
         <main>
             <Navbar />
             <LoanDefaultEmiForeclosureAssistanceClient />
             <Footer />
 
-            {/* Server-side Schema for Article */}
+            {/* Server-side Schema */}
             <script
+                id="article-schema-foreclosure"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'Article',
-                        'headline': 'Foreclosure Defense Manual: Managing Home Loan Defaults and SARFAESI Actions in 2025',
-                        'description': 'A high-level legal guide for homeowners facing EMI defaults and foreclosure auctions, detailing procedural rights, DRT appeals, and debt restructuring solutions.',
-                        'image': 'https://credsettle.com/images/foreclosure-assistance.jpg',
-                        'author': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle Foreclosure Defense Team'
-                        },
-                        'publisher': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle',
-                            'logo': {
-                                '@type': 'ImageObject',
-                                'url': 'https://credsettle.com/logo.png'
-                            }
-                        },
-                        'datePublished': '2025-07-20',
-                        'dateModified': '2026-03-06'
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
-
-            {/* Breadcrumb Schema */}
             <script
+                id="breadcrumb-schema-foreclosure"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'BreadcrumbList',
-                        'itemListElement': [
-                            {
-                                '@type': 'ListItem',
-                                'position': 1,
-                                'name': 'Home',
-                                'item': 'https://credsettle.com/'
-                            },
-                            {
-                                '@type': 'ListItem',
-                                'position': 2,
-                                'name': 'Loan Default EMI Foreclosure Assistance',
-                                'item': 'https://credsettle.com/loan-default-emi-foreclosure-assistance'
-                            }
-                        ]
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <script
+                id="org-schema-foreclosure"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
         </main>
     );

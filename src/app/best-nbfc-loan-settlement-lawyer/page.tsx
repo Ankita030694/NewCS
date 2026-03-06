@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 };
 
 export default function BestNbfcLoanSettlementLawyerPage() {
-    const jsonLd = {
+    const articleLd = {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Best NBFC Loan Settlement Lawyer: Expert Legal Guide to Debt Relief in 2025",
@@ -43,7 +43,7 @@ export default function BestNbfcLoanSettlementLawyerPage() {
             }
         },
         "datePublished": "2025-03-06",
-        "dateModified": "2025-03-06"
+        "dateModified": "2026-03-06"
     };
 
     const breadcrumbLd = {
@@ -65,18 +65,36 @@ export default function BestNbfcLoanSettlementLawyerPage() {
         ]
     };
 
+    const organizationLd = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "CredSettle",
+        "url": "https://www.credsettle.com",
+        "logo": "https://www.credsettle.com/logo.png",
+        "sameAs": [
+            "https://www.facebook.com/credsettle",
+            "https://www.twitter.com/credsettle",
+            "https://www.linkedin.com/company/credsettle"
+        ]
+    };
+
     return (
         <div className="bg-white min-h-screen">
             <Navbar />
             <Script
                 id="article-schema-nbfc-lawyer"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
             <Script
                 id="breadcrumb-schema-nbfc-lawyer"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <Script
+                id="org-schema-nbfc-lawyer"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <BestNbfcLoanSettlementLawyerClient />
             <Footer />

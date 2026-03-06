@@ -13,63 +13,81 @@ export const metadata: Metadata = {
 };
 
 export default function LoanDefaultRecoveryFreezeDefensePage() {
+    const articleLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Legal Manual: Defending Against Loan Default and Recovery Freeze in 2025',
+        'description': 'A comprehensive guide on legal defense mechanisms for borrowers facing recovery actions, exploring SARFAESI rights, DRT filings, and RBI fair practice codes.',
+        'image': 'https://credsettle.com/images/recovery-freeze-defense.jpg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Recovery Defense Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-03-01',
+        'dateModified': '2026-03-06'
+    };
+
+    const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Loan Default Recovery Freeze Defense',
+                'item': 'https://credsettle.com/loan-default-recovery-freeze-defense'
+            }
+        ]
+    };
+
+    const organizationLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://credsettle.com',
+        'logo': 'https://credsettle.com/logo.png',
+        'sameAs': [
+            'https://www.facebook.com/credsettle',
+            'https://www.twitter.com/credsettle',
+            'https://www.linkedin.com/company/credsettle'
+        ]
+    };
+
     return (
         <main>
             <Navbar />
             <LoanDefaultRecoveryFreezeDefenseClient />
             <Footer />
 
-            {/* Server-side Schema for Article */}
+            {/* Server-side Schema */}
             <script
+                id="article-schema-freeze"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'Article',
-                        'headline': 'Legal Manual: Defending Against Loan Default and Recovery Freeze in 2025',
-                        'description': 'A comprehensive guide on legal defense mechanisms for borrowers facing recovery actions, exploring SARFAESI rights, DRT filings, and RBI fair practice codes.',
-                        'image': 'https://credsettle.com/images/recovery-freeze-defense.jpg',
-                        'author': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle Legal Defense'
-                        },
-                        'publisher': {
-                            '@type': 'Organization',
-                            'name': 'CredSettle',
-                            'logo': {
-                                '@type': 'ImageObject',
-                                'url': 'https://credsettle.com/logo.png'
-                            }
-                        },
-                        'datePublished': '2025-03-01',
-                        'dateModified': '2026-03-06'
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
             />
-
-            {/* Breadcrumb Schema */}
             <script
+                id="breadcrumb-schema-freeze"
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'BreadcrumbList',
-                        'itemListElement': [
-                            {
-                                '@type': 'ListItem',
-                                'position': 1,
-                                'name': 'Home',
-                                'item': 'https://credsettle.com/'
-                            },
-                            {
-                                '@type': 'ListItem',
-                                'position': 2,
-                                'name': 'Loan Default Recovery Freeze Defense',
-                                'item': 'https://credsettle.com/loan-default-recovery-freeze-defense'
-                            }
-                        ]
-                    })
-                }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <script
+                id="org-schema-freeze"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
         </main>
     );

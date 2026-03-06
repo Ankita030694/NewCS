@@ -154,44 +154,35 @@ export default function BestNbfcLoanSettlementLawyerClient() {
         }))
     };
 
-    const organizationSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        'name': 'CredSettle',
-        'url': 'https://www.credsettle.com',
-        'logo': 'https://www.credsettle.com/logo.png',
-        'sameAs': [
-            'https://www.facebook.com/credsettle',
-            'https://www.twitter.com/credsettle',
-            'https://www.linkedin.com/company/credsettle'
-        ],
-        'contactPoint': {
-            '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
-            'contactType': 'customer service',
-            'areaServed': 'IN',
-            'availableLanguage': 'English'
-        }
-    };
-
-    const reviewSchema = {
+    const productSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'NBFC Loan Settlement Lawyer Analysis',
+        'description': 'Expert legal representation for negotiating settlements with NBFCs, protecting borrower rights, and achieving debt relief through legal mediation.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.9',
             'reviewCount': '3580',
             'bestRating': '5',
             'worstRating': '1'
+        },
+        'offers': {
+            '@type': 'AggregateOffer',
+            'lowPrice': '0',
+            'priceCurrency': 'INR',
+            'offerCount': '1',
+            'availability': 'https://schema.org/InStock'
         }
     };
 
     return (
         <>
             <Script id="faq-schema-nbfc-lawyer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-nbfc-lawyer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-            <Script id="org-schema-nbfc-lawyer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="product-schema-nbfc-lawyer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section
