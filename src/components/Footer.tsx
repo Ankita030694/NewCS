@@ -150,6 +150,16 @@ export default function Footer() {
               <a href="/best-lawyer-for-company-loan-matters" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Company Loan Matters</a>
               <a href="/best-lawyer-for-notice-for-default-on-mortgage-or-loan-repayment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Notice for Default on Mortgage</a>
               <a href="/best-lawyer-for-consortium-loan-recovery-defence" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Lawyer for Consortium Loan Recovery Defence</a>
+              <a href="/loan-agreement-drafting-review" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Agreement Drafting & Review</a>
+              <a href="/best-nbfc-loan-settlement-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best NBFC Loan Settlement Lawyer</a>
+              <a href="/SME-loan-dispute-resolution" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">SME Loan Dispute Resolution</a>
+              <a href="/legal-case-for-loan-sanction-without-consent" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Sanction Without Consent Case</a>
+              <a href="/loan-default-recovery-freeze-defense" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Default Recovery Freeze Defense</a>
+              <a href="/post-loan-settlement-legal-help" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Post-Loan Settlement Legal Help</a>
+              <a href="/digital-online-cyber-loan-disputes" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Digital & Cyber Loan Disputes</a>
+              <a href="/business-corporate-loan-matters" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Business & Corporate Loan Matters</a>
+              <a href="/loan-default-emi-foreclosure-assistance" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Foreclosure & EMI Assistance</a>
+              <a href="/loan-parties-dispute-resolution" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Parties Dispute Resolution</a>
             </div>
           </div>
 
