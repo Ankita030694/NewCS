@@ -166,6 +166,8 @@ export default function Footer() {
               <a href="/best-microfinance-loan-settlement-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Microfinance Loan Settlement Lawyer</a>
               <a href="/legal-help-for-non-closure-of-settled-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Legal Help for Non-Closure of Settled Loan</a>
               <a href="/best-loan-emi-settlement-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Loan EMI Settlement Lawyer</a>
+              <a href="/mudra-loan-settlement-legal-help" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Mudra Loan Settlement Legal Help</a>
+              <a href="/dispute-over-forged-loan-signatures" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Dispute Over Forged Loan Signatures</a>
             </div>
           </div>
 

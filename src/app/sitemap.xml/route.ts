@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 43; // Updated for 2 new legal pages: legal-help-for-non-closure-of-settled-loan, best-loan-emi-settlement-lawyer and others previously added.
+  const mainStaticPages = 45; // Updated for 2 new legal pages: mudra-loan-settlement-legal-help, dispute-over-forged-loan-signatures and others previously added.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -794,6 +794,20 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/SME-loan-dispute-resolution`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/mudra-loan-settlement-legal-help`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/dispute-over-forged-loan-signatures`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
