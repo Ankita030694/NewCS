@@ -160,6 +160,12 @@ export default function Footer() {
               <a href="/business-corporate-loan-matters" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Business & Corporate Loan Matters</a>
               <a href="/loan-default-emi-foreclosure-assistance" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Foreclosure & EMI Assistance</a>
               <a href="/loan-parties-dispute-resolution" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Parties Dispute Resolution</a>
+              <a href="/startup-loan-legal-advisory" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Startup Loan Legal Advisory</a>
+              <a href="/working-capital-loan-legal-help" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Working Capital Loan Legal Help</a>
+              <a href="/bad-loan-recovery-strategy" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bad Loan Recovery Strategy</a>
+              <a href="/best-microfinance-loan-settlement-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Microfinance Loan Settlement Lawyer</a>
+              <a href="/legal-help-for-non-closure-of-settled-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Legal Help for Non-Closure of Settled Loan</a>
+              <a href="/best-loan-emi-settlement-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Loan EMI Settlement Lawyer</a>
             </div>
           </div>
 

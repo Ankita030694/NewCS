@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import SmeLoanDisputeResolutionClient from './SmeLoanDisputeResolutionClient';
 
 export const metadata: Metadata = {
@@ -66,7 +68,8 @@ export default function SmeLoanDisputeResolutionPage() {
     };
 
     return (
-        <main>
+        <div className="bg-white min-h-screen">
+            <Navbar />
             <SmeLoanDisputeResolutionClient />
 
             {/* Server-side Schema */}
@@ -85,6 +88,7 @@ export default function SmeLoanDisputeResolutionPage() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
-        </main>
+            <Footer />
+        </div>
     );
 }

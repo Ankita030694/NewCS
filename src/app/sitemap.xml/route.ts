@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 37; // Updated for 3 new legal pages: msme-business-loan-dispute, loan-settlement-by-drt, notice-for-loan-default
+  const mainStaticPages = 43; // Updated for 2 new legal pages: legal-help-for-non-closure-of-settled-loan, best-loan-emi-settlement-lawyer and others previously added.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -800,6 +800,20 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/startup-loan-legal-advisory`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/working-capital-loan-legal-help`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/legal-case-for-loan-sanction-without-consent`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -836,6 +850,20 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/loan-default-emi-foreclosure-assistance`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/legal-help-for-non-closure-of-settled-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-loan-emi-settlement-lawyer`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -1266,6 +1294,22 @@ async function generateSitemap(): Promise<string> {
   // Best Lawyer for MSME Personal Loan page
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-MSME-personal-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Bad Loan Recovery Strategy page
+  urls.push({
+    loc: `${baseUrl}/bad-loan-recovery-strategy`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Best Microfinance Loan Settlement Lawyer page
+  urls.push({
+    loc: `${baseUrl}/best-microfinance-loan-settlement-lawyer`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
