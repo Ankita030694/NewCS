@@ -168,6 +168,7 @@ export default function Footer() {
               <a href="/best-loan-emi-settlement-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Loan EMI Settlement Lawyer</a>
               <a href="/mudra-loan-settlement-legal-help" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Mudra Loan Settlement Legal Help</a>
               <a href="/dispute-over-forged-loan-signatures" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Dispute Over Forged Loan Signatures</a>
+              <a href="/rbi-new-recovery-guidelines-july-2026" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBI Recovery Guidelines July 2026</a>
             </div>
           </div>
 
