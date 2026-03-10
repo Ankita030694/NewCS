@@ -169,6 +169,19 @@ export default function Footer() {
               <a href="/mudra-loan-settlement-legal-help" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Mudra Loan Settlement Legal Help</a>
               <a href="/dispute-over-forged-loan-signatures" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Dispute Over Forged Loan Signatures</a>
               <a href="/rbi-new-recovery-guidelines-july-2026" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBI Recovery Guidelines July 2026</a>
+              <a href="/bank-sent-legal-notice-for-loan-what-to-do" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Sent Legal Notice - What to Do</a>
+              <a href="/can-bank-file-case-for-personal-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can Bank File Case for Personal Loan</a>
+              <a href="/legal-action-for-credit-card-default" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Legal Action for Credit Card Default</a>
+              <a href="/bank-arbitration-notice-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Arbitration Notice for Loan</a>
+              <a href="/bank-recovery-case-in-court" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Recovery Case in Court</a>
+              <a href="/recovery-agents-threatening-me-what-to-do" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Recovery Agents Threatening Me</a>
+              <a href="/bank-recovery-harassment-complaint" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Recovery Harassment Complaint</a>
+              <a href="/rbi-rules-for-recovery-agents" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBI Rules for Recovery Agents</a>
+              <a href="/can-recovery-agents-come-home" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can Recovery Agents Come Home</a>
+              <a href="/recovery-agents-calling-family-members-law" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Recovery Agents Calling Family Law</a>
+              <a href="/can-i-go-to-jail-for-loan-default-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Go to Jail for Loan Default?</a>
+              <a href="/police-case-for-credit-card-debt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Police Case for Credit Card Debt</a>
+              <a href="/bank-filed-fir-for-loan-default" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Filed FIR for Loan Default</a>
             </div>
           </div>
 

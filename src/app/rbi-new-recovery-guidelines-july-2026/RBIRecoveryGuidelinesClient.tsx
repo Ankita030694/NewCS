@@ -373,7 +373,7 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             <h2 id="restricted-hours" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Restricted Hours: Protecting the Peace of the Home</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One of the most common complaints from borrowers is the "3 AM Call." Recovery agents often call at odd hours to catch the borrower off guard and create a sense of constant anxiety. The July 2026 rules provide an absolute boundary: **8:00 AM to 7:00 PM.**
+                                One of the most common complaints from borrowers is the "3 AM Call." Recovery agents often call at odd hours to catch the borrower off guard and create a sense of constant anxiety. The July 2026 rules provide an absolute boundary: <strong>8:00 AM to 7:00 PM.</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This window is non negotiable. Any call made at 7:01 PM is a violation. Any SMS sent at 7:59 AM is a violation. This applies to automated systems as well. Banks cannot hide behind the excuse of "server errors" for sending midnight notifications. This rule recognizes that a person's home and their resting hours are sacrosanct. This protection extends to visits as well. An agent showing up at your door at 8:00 PM is committing a legal breach of the RBI recovery agent rules 2026.
@@ -387,11 +387,11 @@ export default function RBIRecoveryGuidelinesClient() {
                                 In the digital age, your data is often used as a weapon against you. Some rogue apps and agencies have used access to contacts and galleries to shame borrowers into repayment. The July 2026 guidelines provide the most robust privacy protections yet. Lenders are now strictly prohibited from accessing a borrower's private data that is not directly related to the loan contract.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                **Key Privacy Protections:**
-                                <br />- **Contact List Isolation:** Banks and NBFCs cannot use your contact list to reach out to third parties.
-                                <br />- **Social Media Restraint:** Using social media information for shaming or locating borrowers is forbidden.
-                                <br />- **No Anonymous Communication:** All calls and messages must clearly identify the lender and the specific recovery agent. Using "Ghost Numbers" or anonymous WhatsApp accounts is a violation.
-                                <br />- **No Workplace Intrusion:** Visiting or calling a workplace is only allowed if the borrower has specifically authorized it as their primary contact point—and even then, only within restricted hours and without disclosing the debt to others.
+                                <strong>Key Privacy Protections:</strong>
+                                <br />- <strong>Contact List Isolation:</strong> Banks and NBFCs cannot use your contact list to reach out to third parties.
+                                <br />- <strong>Social Media Restraint:</strong> Using social media information for shaming or locating borrowers is forbidden.
+                                <br />- <strong>No Anonymous Communication:</strong> All calls and messages must clearly identify the lender and the specific recovery agent. Using "Ghost Numbers" or anonymous WhatsApp accounts is a violation.
+                                <br />- <strong>No Workplace Intrusion:</strong> Visiting or calling a workplace is only allowed if the borrower has specifically authorized it as their primary contact point—and even then, only within restricted hours and without disclosing the debt to others.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This focus on privacy ensures that your financial struggle remains a private matter between you and your bank. It prevents the "Social Death" that many borrowers fear more than the financial loss itself. By protecting your privacy, the RBI is protecting your ability to maintain a normal life and eventually recover your creditworthiness.
@@ -399,7 +399,7 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             <h2 id="mandatory-certification" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Mandatory Certification: Professionalizing the Recovery Sector</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For too long, the recovery sector has been populated by individuals with little to no training in finance or law, often hired for their physical presence. The RBI new recovery guidelines July 2026 put an end to this by mandating **IIBF Certification** for all recovery agents.
+                                For too long, the recovery sector has been populated by individuals with little to no training in finance or law, often hired for their physical presence. The RBI new recovery guidelines July 2026 put an end to this by mandating <strong>IIBF Certification</strong> for all recovery agents.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This certification process includes training in the Fair Practices Code, communication skills, and the basics of consumer law. An agent must understand the difference between recovery and harassment. Banks are now required to maintain a registry of these certified agents and provide their "Certificate Number" to the borrower upon request. If an agent cannot provide proof of certification, you are within your rights to refuse to interact with them and report the bank for engaging uncertified personnel.
@@ -410,10 +410,10 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             <h2 id="grievance-redressal" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Grievance Redressal: The Shield that Actually Works</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A rule is only as good as its enforcement. The 2026 guidelines mandate a high speed Grievance Redressal Mechanism for every lender. But there is a catch that favors the borrower: **If you file a formal grievance regarding recovery conduct, the bank must pause all recovery activity by agents for that account until the complaint is resolved.**
+                                A rule is only as good as its enforcement. The 2026 guidelines mandate a high speed Grievance Redressal Mechanism for every lender. But there is a catch that favors the borrower: <strong>If you file a formal grievance regarding recovery conduct, the bank must pause all recovery activity by agents for that account until the complaint is resolved.</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This "Pause Button" is a massive tactical advantage. If an agent is harassing you, filing a formal complaint through the bank's portal or the Integrated Ombudsman immediately silences the calls. This gives you the mental space to evaluate your options without being under fire. The bank is also required to provide a written response within 30 days. If they fail to do so, or if their response is unsatisfactory, you can approach the **RBI Integrated Ombudsman**, who has the power to award compensation for trauma and harassment.
+                                This "Pause Button" is a massive tactical advantage. If an agent is harassing you, filing a formal complaint through the bank's portal or the Integrated Ombudsman immediately silences the calls. This gives you the mental space to evaluate your options without being under fire. The bank is also required to provide a written response within 30 days. If they fail to do so, or if their response is unsatisfactory, you can approach the <strong>RBI Integrated Ombudsman</strong>, who has the power to award compensation for trauma and harassment.
                             </p>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-6 font-light text-gray-800 italic">
                                 "The Integrated Ombudsman is the ultimate protector of the small borrower. In 2025 and 2026, we expect to see thousands of cases where the Ombudsman penalizes banks for the bad behavior of their agents, often forcing the bank to offer more favorable settlement terms to the victim."
@@ -439,7 +439,7 @@ export default function RBIRecoveryGuidelinesClient() {
                                 At its core, the Fair Practices Code is about transparency. The 2026 update requires banks to be upfront about everything. From the hidden processing fees to the exact consequences of skipping an EMI, the borrower must be told "the truth, the whole truth, and nothing but the truth."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This includes the **Documentation Rule**. Banks must provide copies of all loan documents in the language the borrower understands. They must explain the "Provisioning" and "Settlement" policies if the borrower asks. This prevents the "Information Asymmetry" where banks use complex legal jargon to scare people into making bad financial decisions.
+                                This includes the <strong>Documentation Rule</strong>. Banks must provide copies of all loan documents in the language the borrower understands. They must explain the "Provisioning" and "Settlement" policies if the borrower asks. This prevents the "Information Asymmetry" where banks use complex legal jargon to scare people into making bad financial decisions.
                             </p>
 
                             <h2 id="legal-implications" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Legal Implications: Your Position in Court</h2>
@@ -460,7 +460,7 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             <h2 id="ots-transparency" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">OTS Transparency: One-Time Settlement as a Right</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One-Time Settlement (OTS) is often treated by banks as a "favor." The 2026 guidelines push for more transparency in how OTS is calculated and offered. Banks are now encouraged to have a **Non Discriminatory Policy** for settlement. This means if your neighbor with the same loan size and income loss got a 50% waiver, you are entitled to a similar discussion.
+                                One-Time Settlement (OTS) is often treated by banks as a "favor." The 2026 guidelines push for more transparency in how OTS is calculated and offered. Banks are now encouraged to have a <strong>Non Discriminatory Policy</strong> for settlement. This means if your neighbor with the same loan size and income loss got a 50% waiver, you are entitled to a similar discussion.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 While OTS is still at the bank's discretion, the "reasons for rejection" must be documented. If you offer a fair settlement and the bank rejects it for no valid reason, you can use that in your Ombudsman complaint to show "lack of intent to resolve" on the bank's part.
