@@ -167,17 +167,72 @@ export default function RBIRulesClient() {
         ]
     };
 
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'RBI Rules for Recovery Agents 2025: Rights & Guidelines',
+        'description': 'Comprehensive guide to RBI rules for recovery agents in 2025. Learn about legal contact timings, prohibited practices, privacy rights, and how to stop harassment.',
+        'image': 'https://www.credsettle.com/guideline1.svg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Legal Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://www.credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-01-20',
+        'dateModified': '2026-03-10'
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://www.credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'RBI Rules for Recovery Agents',
+                'item': 'https://www.credsettle.com/rbi-rules-for-recovery-agents'
+            }
+        ]
+    };
+
     const reviewSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'RBI Rules for Recovery Agents Expert Guide',
+        'description': 'A detailed legal manual on RBI guidelines for debt recovery agents and borrower protection laws in India.',
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.9',
             'reviewCount': '5200',
             'bestRating': '5',
             'worstRating': '1'
-        }
+        },
+        'review': reviews.map(review => ({
+            '@type': 'Review',
+            'author': {
+                '@type': 'Person',
+                'name': review.name
+            },
+            'reviewRating': {
+                '@type': 'Rating',
+                'ratingValue': review.stars.toString(),
+                'bestRating': '5'
+            },
+            'reviewBody': review.comment
+        }))
     };
 
     return (
@@ -185,6 +240,8 @@ export default function RBIRulesClient() {
             <Script id="faq-schema-rbi-rules" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <Script id="review-schema-rbi-rules" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-rbi-rules" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="article-schema-rbi-rules" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+            <Script id="breadcrumb-schema-rbi-rules" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
             {/* Hero Section */}
             <section

@@ -167,17 +167,72 @@ export default function CanRecoveryAgentsHomeClient() {
         ]
     };
 
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Can Recovery Agents Legally Come to Your Home? (2025 Guide)',
+        'description': 'Know your rights regarding home visits by debt recovery agents. Learn about trespassing laws, RBI guidelines, and how to legally refuse entry to your private property.',
+        'image': 'https://www.credsettle.com/anti_hero.png',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Legal Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://www.credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-02-10',
+        'dateModified': '2026-03-10'
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://www.credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Can Recovery Agents Come Home',
+                'item': 'https://www.credsettle.com/can-recovery-agents-come-home'
+            }
+        ]
+    };
+
     const reviewSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Can Recovery Agents Come Home? Legal Rights Guide',
+        'description': 'A specialized legal guide on borrower privacy rights and home visit protocols for debt recovery agents in India.',
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.8',
             'reviewCount': '4100',
             'bestRating': '5',
             'worstRating': '1'
-        }
+        },
+        'review': reviews.map(review => ({
+            '@type': 'Review',
+            'author': {
+                '@type': 'Person',
+                'name': review.name
+            },
+            'reviewRating': {
+                '@type': 'Rating',
+                'ratingValue': review.stars.toString(),
+                'bestRating': '5'
+            },
+            'reviewBody': review.comment
+        }))
     };
 
     return (
@@ -185,6 +240,8 @@ export default function CanRecoveryAgentsHomeClient() {
             <Script id="faq-schema-home-visit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <Script id="review-schema-home-visit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-home-visit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="article-schema-home-visit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+            <Script id="breadcrumb-schema-home-visit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
             {/* Hero Section */}
             <section

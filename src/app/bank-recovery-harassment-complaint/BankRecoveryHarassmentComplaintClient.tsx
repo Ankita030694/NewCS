@@ -168,17 +168,72 @@ export default function BankRecoveryHarassmentComplaintClient() {
         ]
     };
 
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Bank Recovery Harassment Complaint: How to File & Win',
+        'description': 'Facing harassment from bank recovery agents? Follow our expert guide to file effective complaints with the Bank, RBI Ombudsman, and Police.',
+        'image': 'https://www.credsettle.com/anti_hero.png',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Legal Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://www.credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-02-05',
+        'dateModified': '2026-03-10'
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://www.credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Bank Recovery Harassment Complaint',
+                'item': 'https://www.credsettle.com/bank-recovery-harassment-complaint'
+            }
+        ]
+    };
+
     const reviewSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Bank Recovery Complaint Services',
+        'description': 'Professional assistance in drafting and filing complaints against bank recovery harassment with RBI and banking authorities.',
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.8',
             'reviewCount': '1890',
             'bestRating': '5',
             'worstRating': '1'
-        }
+        },
+        'review': reviews.map(review => ({
+            '@type': 'Review',
+            'author': {
+                '@type': 'Person',
+                'name': review.name
+            },
+            'reviewRating': {
+                '@type': 'Rating',
+                'ratingValue': review.stars.toString(),
+                'bestRating': '5'
+            },
+            'reviewBody': review.comment
+        }))
     };
 
     return (
@@ -186,6 +241,8 @@ export default function BankRecoveryHarassmentComplaintClient() {
             <Script id="faq-schema-complaint" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <Script id="review-schema-complaint" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-complaint" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="article-schema-complaint" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+            <Script id="breadcrumb-schema-complaint" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
             {/* Hero Section */}
             <section

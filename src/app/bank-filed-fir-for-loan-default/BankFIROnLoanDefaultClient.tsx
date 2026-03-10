@@ -165,17 +165,72 @@ export default function BankFIROnLoanDefaultClient() {
         ]
     };
 
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Bank Filed an FIR for Loan Default? Legal Defense & BNS 2025 Guide',
+        'description': 'Know your rights when a bank files a criminal FIR for loan default. Learn about siphoning of funds, BNS sections, and how to quash frivolous criminal cases.',
+        'image': 'https://www.credsettle.com/anti_hero.png',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Legal Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://www.credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-02-25',
+        'dateModified': '2026-03-10'
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://www.credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Bank Filed FIR for Loan Default',
+                'item': 'https://www.credsettle.com/bank-filed-fir-for-loan-default'
+            }
+        ]
+    };
+
     const reviewSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Bank Filed FIR for Loan Default: Legal Guide 2025',
+        'description': 'A comprehensive legal guide on defending against criminal FIRs filed by banks in loan default and financial fraud cases in India.',
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.95',
             'reviewCount': '3500',
             'bestRating': '5',
             'worstRating': '1'
-        }
+        },
+        'review': reviews.map(review => ({
+            '@type': 'Review',
+            'author': {
+                '@type': 'Person',
+                'name': review.name
+            },
+            'reviewRating': {
+                '@type': 'Rating',
+                'ratingValue': review.stars.toString(),
+                'bestRating': '5'
+            },
+            'reviewBody': review.comment
+        }))
     };
 
     return (
@@ -183,6 +238,8 @@ export default function BankFIROnLoanDefaultClient() {
             <Script id="faq-schema-bank-fir" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <Script id="review-schema-bank-fir" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-bank-fir" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="article-schema-bank-fir" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+            <Script id="breadcrumb-schema-bank-fir" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
             {/* Hero Section */}
             <section

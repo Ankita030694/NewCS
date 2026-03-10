@@ -165,17 +165,72 @@ export default function CanIGoToJailClient() {
         ]
     };
 
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Can I Go to Jail for Loan Default in India? (2025 Legal Guide)',
+        'description': 'Debunking the jail threat for loan defaults. Learn the difference between civil and criminal liability, Supreme Court rulings, and your rights as a borrower.',
+        'image': 'https://www.credsettle.com/anti_hero.png',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Legal Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://www.credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-01-15',
+        'dateModified': '2026-03-10'
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://www.credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Can I Go To Jail for Loan Default in India',
+                'item': 'https://www.credsettle.com/can-i-go-to-jail-for-loan-default-in-india'
+            }
+        ]
+    };
+
     const reviewSchema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': 'Can I Go to Jail for Loan Default? Legal Truth 2025',
+        'description': 'A legal advisory on borrower rights regarding imprisonment threats, distinguishing between civil and criminal aspects of debt default in India.',
         'aggregateRating': {
             '@type': 'AggregateRating',
             'ratingValue': '4.95',
             'reviewCount': '5200',
             'bestRating': '5',
             'worstRating': '1'
-        }
+        },
+        'review': reviews.map(review => ({
+            '@type': 'Review',
+            'author': {
+                '@type': 'Person',
+                'name': review.name
+            },
+            'reviewRating': {
+                '@type': 'Rating',
+                'ratingValue': review.stars.toString(),
+                'bestRating': '5'
+            },
+            'reviewBody': review.comment
+        }))
     };
 
     return (
@@ -183,6 +238,8 @@ export default function CanIGoToJailClient() {
             <Script id="faq-schema-jail-risk" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <Script id="review-schema-jail-risk" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-jail-risk" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+            <Script id="article-schema-jail-risk" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+            <Script id="breadcrumb-schema-jail-risk" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
             {/* Hero Section */}
             <section
