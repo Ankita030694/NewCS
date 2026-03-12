@@ -182,6 +182,11 @@ export default function Footer() {
               <a href="/can-i-go-to-jail-for-loan-default-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Go to Jail for Loan Default?</a>
               <a href="/police-case-for-credit-card-debt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Police Case for Credit Card Debt</a>
               <a href="/bank-filed-fir-for-loan-default" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Filed FIR for Loan Default</a>
+              <a href="/is-loan-settlement-a-good-option-for-borrowers" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Is Loan Settlement a Good Option for Borrowers</a>
+              <a href="/will-banks-blacklist-you-after-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Will Banks Blacklist You After Loan Settlement</a>
+              <a href="/can-you-get-a-loan-again-after-settling-a-previous-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can You Get a Loan Again After Settling a Previous Loan</a>
+              <a href="/when-should-you-choose-loan-settlement-instead-of-repayment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">When to Choose Settlement Instead of Repayment</a>
+              <a href="/what-percentage-do-banks-accept-in-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What Percentage Do Banks Accept in Loan Settlement</a>
             </div>
           </div>
 

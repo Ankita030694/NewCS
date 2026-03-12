@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 59; // Updated for 2 new legal pages: police-case, bank-fir, plus previous 6.
+  const mainStaticPages = 64; // Updated for 5 new pages: borrowers-option, bank-blacklist, get-loan-again, choose-settlement, settlement-percentage.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -454,6 +454,41 @@ async function generateSitemap(): Promise<string> {
   });
 
 
+
+  urls.push({
+    loc: `${baseUrl}/is-loan-settlement-a-good-option-for-borrowers`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/will-banks-blacklist-you-after-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-you-get-a-loan-again-after-settling-a-previous-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/when-should-you-choose-loan-settlement-instead-of-repayment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-percentage-do-banks-accept-in-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
 
   // Main Loan Settlement Page
   urls.push({
