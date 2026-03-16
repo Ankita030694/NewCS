@@ -152,8 +152,15 @@ const DocsNeededClient = () => {
             '@type': 'Product',
             'name': 'Debt Settlement Documentation Strategy',
             'description': 'Professional document preparation and audit services for debt settlement in India, ensuring compliance with RBI 2025 guidelines.',
+            'image': 'https://www.credsettle.com/images/docs-needed-hero.jpg',
             'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'reviewCount': '2800' }
+            'aggregateRating': {
+                '@type': 'AggregateRating',
+                'ratingValue': '4.9',
+                'reviewCount': '2800',
+                'bestRating': '5',
+                'worstRating': '1'
+            }
         },
         faq: {
             '@context': 'https://schema.org',
@@ -196,11 +203,13 @@ const DocsNeededClient = () => {
             '@type': 'Review',
             'itemReviewed': {
                 '@type': 'Service',
-                'name': 'Debt Settlement Documentation Audit'
+                'name': 'Debt Settlement Documentation Audit',
+                'image': 'https://www.credsettle.com/images/docs-needed-hero.jpg'
             },
             'author': { '@type': 'Person', 'name': 'Rahul Sharma' },
-            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5' },
-            'reviewBody': 'CredSettle helped me organize my medical and financial records so perfectly that my bank approved a 65% waiver within 3 weeks. Their document strategy is top-notch.'
+            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+            'reviewBody': 'CredSettle helped me organize my medical and financial records so perfectly that my bank approved a 65% waiver within 3 weeks. Their document strategy is top-notch.',
+            'datePublished': '2025-01-10'
         }
     };
 

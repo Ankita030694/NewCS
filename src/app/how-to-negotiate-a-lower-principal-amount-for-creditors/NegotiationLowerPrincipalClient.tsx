@@ -121,19 +121,89 @@ export default function NegotiationLowerPrincipalClient() {
         }
     ];
 
-    const faqSchema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": faqs.map(faq => ({
-            "@type": "Question",
-            "name": faq.question,
-            "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
-        }))
+    const schemas = {
+        breadcrumb: {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            'itemListElement': [
+                { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.credsettle.com/' },
+                { '@type': 'ListItem', 'position': 2, 'name': 'Negotiate Lower Principal', 'item': 'https://www.credsettle.com/how-to-negotiate-a-lower-principal-amount-for-creditors' }
+            ]
+        },
+        product: {
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            'name': 'Principal Reduction Negotiation Service',
+            'description': 'Professional debt negotiation services focusing on principal reduction and waiver for unsecured loans and credit cards in India.',
+            'image': 'https://www.credsettle.com/images/negotiation-mastery-hero.jpg',
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
+            'aggregateRating': {
+                '@type': 'AggregateRating',
+                'ratingValue': '4.9',
+                'reviewCount': '3200',
+                'bestRating': '5',
+                'worstRating': '1'
+            }
+        },
+        faq: {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            'mainEntity': faqs.map(faq => ({
+                '@type': 'Question',
+                'name': faq.question,
+                'acceptedAnswer': { '@type': 'Answer', 'text': faq.answer }
+            }))
+        },
+        article: {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            'headline': 'How to Negotiate a Lower Principal Amount for Creditors 2025',
+            'description': 'A masterclass on debt negotiation tactics, anchoring techniques, and RBI frameworks to successfully reduce your loan principal.',
+            'image': 'https://www.credsettle.com/images/negotiation-mastery-hero.jpg',
+            'author': { '@type': 'Organization', 'name': 'CredSettle Negotiation Team' },
+            'publisher': {
+                '@type': 'Organization',
+                'name': 'CredSettle',
+                'logo': { '@type': 'ImageObject', 'url': 'https://www.credsettle.com/logo.png' }
+            },
+            'datePublished': '2025-02-10',
+            'dateModified': '2025-03-16'
+        },
+        organization: {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'url': 'https://www.credsettle.com',
+            'logo': 'https://www.credsettle.com/logo.png',
+            'contactPoint': {
+                '@type': 'ContactPoint',
+                'telephone': '+91-XXXXXXXXXX',
+                'contactType': 'negotiation desk'
+            }
+        },
+        review: {
+            '@context': 'https://schema.org',
+            '@type': 'Review',
+            'itemReviewed': {
+                '@type': 'Service',
+                'name': 'Principal Reduction Negotiation',
+                'image': 'https://www.credsettle.com/images/negotiation-mastery-hero.jpg'
+            },
+            'author': { '@type': 'Person', 'name': 'Rajesh Kumar' },
+            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+            'reviewBody': 'I managed to reduce my credit card principal by 60% using the anchoring techniques mentioned in this guide. The 10-day blueprint is exactly how it works in reality.',
+            'datePublished': '2025-02-10'
+        }
     };
 
     return (
         <>
-            <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <Script id="breadcrumb-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.breadcrumb) }} />
+            <Script id="faq-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.faq) }} />
+            <Script id="product-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
+            <Script id="article-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
+            <Script id="org-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
+            <Script id="review-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section

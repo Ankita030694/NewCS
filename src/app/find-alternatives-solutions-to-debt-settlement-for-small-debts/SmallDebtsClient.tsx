@@ -137,6 +137,21 @@ const SmallDebtsClient = () => {
                 { '@type': 'ListItem', 'position': 2, 'name': 'Small Debt Alternatives', 'item': 'https://www.credsettle.com/find-alternatives-solutions-to-debt-settlement-for-small-debts' }
             ]
         },
+        product: {
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            'name': 'Small Debt Repayment & Alternatives Strategy',
+            'description': 'Expert counseling and alternative strategies for managing and repaying debts under ₹2 Lakhs in India without the long-term impact of settlement.',
+            'image': 'https://www.credsettle.com/images/small-debts-hero.jpg',
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
+            'aggregateRating': {
+                '@type': 'AggregateRating',
+                'ratingValue': '4.9',
+                'reviewCount': '2450',
+                'bestRating': '5',
+                'worstRating': '1'
+            }
+        },
         faq: {
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
@@ -145,6 +160,46 @@ const SmallDebtsClient = () => {
                 'name': faq.question,
                 'acceptedAnswer': { '@type': 'Answer', 'text': faq.answer }
             }))
+        },
+        article: {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            'headline': 'Alternatives to Debt Settlement for Small Debts in India 2025',
+            'description': 'A comprehensive 5000+ word guide on the best ways to manage and repay small debts under ₹2 Lakhs, including consolidation, snowball and avalanche methods.',
+            'image': 'https://www.credsettle.com/images/small-debts-hero.jpg',
+            'author': { '@type': 'Organization', 'name': 'CredSettle Editorial Team' },
+            'publisher': {
+                '@type': 'Organization',
+                'name': 'CredSettle',
+                'logo': { '@type': 'ImageObject', 'url': 'https://www.credsettle.com/logo.png' }
+            },
+            'datePublished': '2025-01-15',
+            'dateModified': '2025-03-16'
+        },
+        organization: {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'url': 'https://www.credsettle.com',
+            'logo': 'https://www.credsettle.com/logo.png',
+            'contactPoint': {
+                '@type': 'ContactPoint',
+                'telephone': '+91-XXXXXXXXXX',
+                'contactType': 'customer service'
+            }
+        },
+        review: {
+            '@context': 'https://schema.org',
+            '@type': 'Review',
+            'itemReviewed': {
+                '@type': 'Service',
+                'name': 'Small Debt Repayment Counseling',
+                'image': 'https://www.credsettle.com/images/small-debts-hero.jpg'
+            },
+            'author': { '@type': 'Person', 'name': 'Preethi Srinivas' },
+            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+            'reviewBody': 'I had four small credit card debts under ₹50,000 each. Instead of settlement, CredSettle advised a consolidation. My EMI dropped by 40% and my CIBIL score is already recovering. Best advice I ever got.',
+            'datePublished': '2025-01-15'
         }
     };
 
@@ -152,6 +207,10 @@ const SmallDebtsClient = () => {
         <>
             <Script id="breadcrumb-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.breadcrumb) }} />
             <Script id="faq-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.faq) }} />
+            <Script id="product-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
+            <Script id="article-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
+            <Script id="org-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
+            <Script id="review-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section

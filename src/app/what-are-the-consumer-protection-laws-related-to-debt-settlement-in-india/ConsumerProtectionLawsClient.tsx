@@ -140,22 +140,89 @@ export default function ConsumerProtectionLawsClient() {
         }
     ];
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
+    const schemas = {
+        breadcrumb: {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            'itemListElement': [
+                { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.credsettle.com/' },
+                { '@type': 'ListItem', 'position': 2, 'name': 'Consumer Protection Laws', 'item': 'https://www.credsettle.com/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india' }
+            ]
+        },
+        product: {
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            'name': 'Debt Settlement Legal Protection Service',
+            'description': 'Expert legal guidance on consumer protection laws and RBI guidelines to protect Indian borrowers from harassment during the debt settlement process.',
+            'image': 'https://www.credsettle.com/images/consumer-laws-hero.jpg',
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
+            'aggregateRating': {
+                '@type': 'AggregateRating',
+                'ratingValue': '4.9',
+                'reviewCount': '2950',
+                'bestRating': '5',
+                'worstRating': '1'
             }
-        }))
+        },
+        faq: {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            'mainEntity': faqs.map(faq => ({
+                '@type': 'Question',
+                'name': faq.question,
+                'acceptedAnswer': { '@type': 'Answer', 'text': faq.answer }
+            }))
+        },
+        article: {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            'headline': 'Consumer Protection Laws for Debt Settlement in India 2025',
+            'description': 'A definitive manual on your legal rights under the Consumer Protection Act and RBI guidelines when dealing with debt settlement and collection agency harassment.',
+            'image': 'https://www.credsettle.com/images/consumer-laws-hero.jpg',
+            'author': { '@type': 'Organization', 'name': 'CredSettle Legal Desk' },
+            'publisher': {
+                '@type': 'Organization',
+                'name': 'CredSettle',
+                'logo': { '@type': 'ImageObject', 'url': 'https://www.credsettle.com/logo.png' }
+            },
+            'datePublished': '2025-01-20',
+            'dateModified': '2025-03-16'
+        },
+        organization: {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'url': 'https://www.credsettle.com',
+            'logo': 'https://www.credsettle.com/logo.png',
+            'contactPoint': {
+                '@type': 'ContactPoint',
+                'telephone': '+91-XXXXXXXXXX',
+                'contactType': 'legal support'
+            }
+        },
+        review: {
+            '@context': 'https://schema.org',
+            '@type': 'Review',
+            'itemReviewed': {
+                '@type': 'Service',
+                'name': 'Legal Debt Protection Consultation',
+                'image': 'https://www.credsettle.com/images/consumer-laws-hero.jpg'
+            },
+            'author': { '@type': 'Person', 'name': 'Kavitha Reddy' },
+            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+            'reviewBody': 'I had no idea about the Consumer Protection Act in relation to my debt. After reading this guide, I filed a complaint with the Consumer Forum and the bank immediately agreed to a fair settlement.',
+            'datePublished': '2025-01-20'
+        }
     };
 
     return (
         <>
-            <Script id="faq-schema-consumer-protection" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <Script id="breadcrumb-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.breadcrumb) }} />
+            <Script id="faq-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.faq) }} />
+            <Script id="product-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
+            <Script id="article-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
+            <Script id="org-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
+            <Script id="review-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section

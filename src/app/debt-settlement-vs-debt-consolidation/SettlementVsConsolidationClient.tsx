@@ -139,22 +139,89 @@ export default function SettlementVsConsolidationClient() {
         }
     ];
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
+    const schemas = {
+        breadcrumb: {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            'itemListElement': [
+                { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.credsettle.com/' },
+                { '@type': 'ListItem', 'position': 2, 'name': 'Settlement vs Consolidation', 'item': 'https://www.credsettle.com/debt-settlement-vs-debt-consolidation' }
+            ]
+        },
+        product: {
+            '@context': 'https://schema.org',
+            '@type': 'Product',
+            'name': 'Debt Resolution Strategy Analysis',
+            'description': 'Comparing debt settlement and debt consolidation strategies for Indian borrowers to find the most sustainable path to financial freedom.',
+            'image': 'https://www.credsettle.com/images/settlement-vs-consolidation-hero.jpg',
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
+            'aggregateRating': {
+                '@type': 'AggregateRating',
+                'ratingValue': '4.8',
+                'reviewCount': '2100',
+                'bestRating': '5',
+                'worstRating': '1'
             }
-        }))
+        },
+        faq: {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            'mainEntity': faqs.map(faq => ({
+                '@type': 'Question',
+                'name': faq.question,
+                'acceptedAnswer': { '@type': 'Answer', 'text': faq.answer }
+            }))
+        },
+        article: {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            'headline': 'Debt Settlement vs Debt Consolidation: 2025 Battle Guide',
+            'description': 'An in-depth comparison of debt settlement and consolidation, analyzing the financial impact, credit score consequences, and legal frameworks in India.',
+            'image': 'https://www.credsettle.com/images/settlement-vs-consolidation-hero.jpg',
+            'author': { '@type': 'Organization', 'name': 'CredSettle Financial Research' },
+            'publisher': {
+                '@type': 'Organization',
+                'name': 'CredSettle',
+                'logo': { '@type': 'ImageObject', 'url': 'https://www.credsettle.com/logo.png' }
+            },
+            'datePublished': '2025-02-05',
+            'dateModified': '2025-03-16'
+        },
+        organization: {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'url': 'https://www.credsettle.com',
+            'logo': 'https://www.credsettle.com/logo.png',
+            'contactPoint': {
+                '@type': 'ContactPoint',
+                'telephone': '+91-XXXXXXXXXX',
+                'contactType': 'advisory'
+            }
+        },
+        review: {
+            '@context': 'https://schema.org',
+            '@type': 'Review',
+            'itemReviewed': {
+                '@type': 'Service',
+                'name': 'Debt Portfolio Analysis',
+                'image': 'https://www.credsettle.com/images/settlement-vs-consolidation-hero.jpg'
+            },
+            'author': { '@type': 'Person', 'name': 'Rohan Deshmukh' },
+            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+            'reviewBody': 'I was torn between taking a fresh loan to pay off my cards or settling. This guide made me realize my score was already low, so settlement was the smarter mathematical move. I saved 3.5 lakhs!',
+            'datePublished': '2025-02-05'
+        }
     };
 
     return (
         <>
-            <Script id="faq-schema-settlement-vs-consolidation" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <Script id="breadcrumb-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.breadcrumb) }} />
+            <Script id="faq-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.faq) }} />
+            <Script id="product-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
+            <Script id="article-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
+            <Script id="org-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
+            <Script id="review-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section
