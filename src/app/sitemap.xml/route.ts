@@ -1462,6 +1462,78 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // What Questions Should I Ask a Debt Settlement Consultant page
+  urls.push({
+    loc: `${baseUrl}/what-questions-should-i-ask-a-debt-settlement-consultant`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Debt Settlement Services That Work With Multiple Creditors page
+  urls.push({
+    loc: `${baseUrl}/debt-settlement-services-that-work-with-multiple-creditors`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // What is Minimum Debt Amount Required for Settlement Programs page
+  urls.push({
+    loc: `${baseUrl}/what-is-minimun-debt-amount-required-for-settlement-programs`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Are There Legal Implications or Non-Payment During Debt Settlement page
+  urls.push({
+    loc: `${baseUrl}/are-there-legal-implecations-or-non-payment-during-debt-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // How Long Does a Debt Settlement Typically Take page
+  urls.push({
+    loc: `${baseUrl}/how-long-does-a-debt-settlement-typically-take`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Debt Settlement Offers for Business Loans page
+  urls.push({
+    loc: `${baseUrl}/debt-settlement-offers-for-business-loans`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Compare Debt Settlement Fees and Success Rate page
+  urls.push({
+    loc: `${baseUrl}/compare-debt-settlement-fees-and-success-rate`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // How to Choose a Trustworthy Debt Settlement Provider page
+  urls.push({
+    loc: `${baseUrl}/how-to-choose-a-trustworthy-debt-settlement-provider`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // How to Find a Trustworthy Debt Settlement Agency Near Me page
+  urls.push({
+    loc: `${baseUrl}/how-to-find-a-trustworthy-debt-settlement-agency-near-me`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================

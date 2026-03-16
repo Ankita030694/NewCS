@@ -186,8 +186,18 @@ export default function Footer() {
               <a href="/will-banks-blacklist-you-after-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Will Banks Blacklist You After Loan Settlement</a>
               <a href="/can-you-get-a-loan-again-after-settling-a-previous-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can You Get a Loan Again After Settling a Previous Loan</a>
               <a href="/when-should-you-choose-loan-settlement-instead-of-repayment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">When to Choose Settlement Instead of Repayment</a>
+              <a href="/what-questions-should-i-ask-a-debt-settlement-consultant" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Questions for Debt Consultants</a>
+              <a href="/debt-settlement-services-that-work-with-multiple-creditors" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Multi-Creditor Debt Services</a>
               <a href="/what-percentage-do-banks-accept-in-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What Percentage Do Banks Accept in Loan Settlement</a>
-            </div>
+              <a href="/what-is-minimun-debt-amount-required-for-settlement-programs" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Minimum Debt for Settlement</a>
+              <a href="/debt-settlement-offers-for-business-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Business Loan Settlement Offers</a>
+               <a href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Legal Implications of Non-Payment</a>
+               <a href="/how-long-does-a-debt-settlement-typically-take" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Settlement Timeline</a>
+               <a href="/compare-debt-settlement-fees-and-success-rate" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Compare Fees & Success Rate</a>
+               <a href="/how-to-avoid-debt-settlement-scams-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Avoid Settlement Scams</a>
+               <a href="/how-to-choose-a-trustworthy-debt-settlement-provider" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Choosing a Trustworthy Provider</a>
+               <a href="/how-to-find-a-trustworthy-debt-settlement-agency-near-me" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Finding Agencies Near Me</a>
+             </div>
           </div>
 
           <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
