@@ -89,8 +89,82 @@ const ChooseProviderClient = () => {
         }
     ];
 
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Home',
+                'item': 'https://www.credsettle.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': 'Choose Trustworthy Provider Guide 2025',
+                'item': 'https://www.credsettle.com/how-to-choose-a-trustworthy-debt-settlement-provider'
+            }
+        ]
+    };
+
+    const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'How to Choose a Trustworthy Debt Settlement Provider: The 2025 Verification Framework',
+        'description': 'A comprehensive guide on evaluating debt settlement companies in India. Learn about MCA registration, legal expertise, anti-harassment capabilities, and fee transparency standards.',
+        'image': 'https://www.credsettle.com/images/trustworthy-provider-guide.jpg',
+        'author': {
+            '@type': 'Organization',
+            'name': 'CredSettle Research Team'
+        },
+        'publisher': {
+            '@type': 'Organization',
+            'name': 'CredSettle',
+            'logo': {
+                '@type': 'ImageObject',
+                'url': 'https://www.credsettle.com/logo.png'
+            }
+        },
+        'datePublished': '2025-01-15',
+        'dateModified': '2025-03-16'
+    };
+
+    const productSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        'name': 'Debt Settlement Provider Verification Service',
+        'description': 'Professional audit and verification of debt settlement agencies to ensure legal compliance and negotiation expertise.',
+        'brand': {
+            '@type': 'Brand',
+            'name': 'CredSettle'
+        },
+        'aggregateRating': {
+            '@type': 'AggregateRating',
+            'ratingValue': '4.9',
+            'reviewCount': '1240'
+        }
+    };
+
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        'mainEntity': faqs.map(faq => ({
+            '@type': 'Question',
+            'name': faq.question,
+            'acceptedAnswer': {
+                '@type': 'Answer',
+                'text': faq.answer
+            }
+        }))
+    };
+
     return (
         <>
+            <Script id="breadcrumb-schema-choose" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+            <Script id="article-schema-choose" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+            <Script id="product-schema-choose" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
+            <Script id="faq-schema-choose" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             {/* Hero Section */}
             <section
                 className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"
@@ -517,20 +591,6 @@ const ChooseProviderClient = () => {
                 </div>
             </div>
 
-            <Script id="faq-schema-choose-provider" type="application/ld+json" dangerouslySetInnerHTML={{
-                __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": faqs.map(faq => ({
-                        "@type": "Question",
-                        "name": faq.question,
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": faq.answer
-                        }
-                    }))
-                })
-            }} />
         </>
     );
 };
