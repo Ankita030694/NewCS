@@ -197,6 +197,14 @@ export default function Footer() {
                <a href="/how-to-avoid-debt-settlement-scams-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Avoid Settlement Scams</a>
                <a href="/how-to-choose-a-trustworthy-debt-settlement-provider" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Choosing a Trustworthy Provider</a>
                <a href="/how-to-find-a-trustworthy-debt-settlement-agency-near-me" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Finding Agencies Near Me</a>
+                <a href="/what-is-the-success-rate-of-debt-settlement-programs" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Success Rate of Debt Settlement</a>
+                <a href="/what-documents-are-needed-for-debt-settlement-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What Documents are Needed</a>
+                <a href="/debt-settlement-vs-bankruptcy" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Settlement vs Bankruptcy</a>
+               <a href="/how-to-deal-with-collection-calls-while-in-a-debt-settlement-program" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Dealing with Collection Calls</a>
+               <a href="/find-alternatives-solutions-to-debt-settlement-for-small-debts" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Alternatives for Small Debts</a>
+               <a href="/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consumer Protection Laws</a>
+               <a href="/debt-settlement-vs-debt-consolidation" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settlement vs Consolidation</a>
+               <a href="/how-to-negotiate-a-lower-principal-amount-for-creditors" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Negotiate Lower Principal</a>
              </div>
           </div>
 

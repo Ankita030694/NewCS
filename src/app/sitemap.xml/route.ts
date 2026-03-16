@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 64; // Updated for 5 new pages: borrowers-option, bank-blacklist, get-loan-again, choose-settlement, settlement-percentage.
+  const mainStaticPages = 67; // Updated for new negotiation guide page.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -1529,6 +1529,69 @@ async function generateSitemap(): Promise<string> {
   // How to Find a Trustworthy Debt Settlement Agency Near Me page
   urls.push({
     loc: `${baseUrl}/how-to-find-a-trustworthy-debt-settlement-agency-near-me`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-the-success-rate-of-debt-settlement-programs`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-deal-with-collection-calls-while-in-a-debt-settlement-program`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/find-alternatives-solutions-to-debt-settlement-for-small-debts`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/find-alternatives-solutions-to-debt-settlement-for-small-debts`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/debt-settlement-vs-bankruptcy`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-documents-are-needed-for-debt-settlement-services`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/debt-settlement-vs-debt-consolidation`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-negotiate-a-lower-principal-amount-for-creditors`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
