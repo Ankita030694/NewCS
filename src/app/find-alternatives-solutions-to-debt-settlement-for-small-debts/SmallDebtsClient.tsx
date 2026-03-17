@@ -150,6 +150,13 @@ const SmallDebtsClient = () => {
                 'reviewCount': '2450',
                 'bestRating': '5',
                 'worstRating': '1'
+            },
+            'review': {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Preethi Srinivas' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+                'reviewBody': 'I had four small credit card debts under ₹50,000 each. Instead of settlement, CredSettle advised a consolidation. My EMI dropped by 40% and my CIBIL score is already recovering. Best advice I ever got.',
+                'datePublished': '2025-01-15'
             }
         },
         faq: {
@@ -187,19 +194,6 @@ const SmallDebtsClient = () => {
                 'telephone': '+91-XXXXXXXXXX',
                 'contactType': 'customer service'
             }
-        },
-        review: {
-            '@context': 'https://schema.org',
-            '@type': 'Review',
-            'itemReviewed': {
-                '@type': 'Product',
-                'name': 'Small Debt Repayment Counseling',
-                'image': 'https://www.credsettle.com/images/small-debts-hero.jpg'
-            },
-            'author': { '@type': 'Person', 'name': 'Preethi Srinivas' },
-            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-            'reviewBody': 'I had four small credit card debts under ₹50,000 each. Instead of settlement, CredSettle advised a consolidation. My EMI dropped by 40% and my CIBIL score is already recovering. Best advice I ever got.',
-            'datePublished': '2025-01-15'
         }
     };
 
@@ -210,7 +204,6 @@ const SmallDebtsClient = () => {
             <Script id="product-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
             <Script id="article-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
             <Script id="org-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
-            <Script id="review-schema-small" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section

@@ -161,6 +161,13 @@ export default function SettlementVsConsolidationClient() {
                 'reviewCount': '2100',
                 'bestRating': '5',
                 'worstRating': '1'
+            },
+            'review': {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Rohan Deshmukh' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+                'reviewBody': 'I was torn between taking a fresh loan to pay off my cards or settling. This guide made me realize my score was already low, so settlement was the smarter mathematical move. I saved 3.5 lakhs!',
+                'datePublished': '2025-02-05'
             }
         },
         faq: {
@@ -198,19 +205,6 @@ export default function SettlementVsConsolidationClient() {
                 'telephone': '+91-XXXXXXXXXX',
                 'contactType': 'advisory'
             }
-        },
-        review: {
-            '@context': 'https://schema.org',
-            '@type': 'Review',
-            'itemReviewed': {
-                '@type': 'Product',
-                'name': 'Debt Portfolio Analysis',
-                'image': 'https://www.credsettle.com/images/settlement-vs-consolidation-hero.jpg'
-            },
-            'author': { '@type': 'Person', 'name': 'Rohan Deshmukh' },
-            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-            'reviewBody': 'I was torn between taking a fresh loan to pay off my cards or settling. This guide made me realize my score was already low, so settlement was the smarter mathematical move. I saved 3.5 lakhs!',
-            'datePublished': '2025-02-05'
         }
     };
 
@@ -221,7 +215,6 @@ export default function SettlementVsConsolidationClient() {
             <Script id="product-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
             <Script id="article-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
             <Script id="org-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
-            <Script id="review-schema-vs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section

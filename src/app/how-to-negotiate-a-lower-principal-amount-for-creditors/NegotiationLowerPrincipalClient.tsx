@@ -143,6 +143,13 @@ export default function NegotiationLowerPrincipalClient() {
                 'reviewCount': '3200',
                 'bestRating': '5',
                 'worstRating': '1'
+            },
+            'review': {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Rajesh Kumar' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+                'reviewBody': 'I managed to reduce my credit card principal by 60% using the anchoring techniques mentioned in this guide. The 10-day blueprint is exactly how it works in reality.',
+                'datePublished': '2025-02-10'
             }
         },
         faq: {
@@ -180,19 +187,6 @@ export default function NegotiationLowerPrincipalClient() {
                 'telephone': '+91-XXXXXXXXXX',
                 'contactType': 'negotiation desk'
             }
-        },
-        review: {
-            '@context': 'https://schema.org',
-            '@type': 'Review',
-            'itemReviewed': {
-                '@type': 'Product',
-                'name': 'Principal Reduction Negotiation',
-                'image': 'https://www.credsettle.com/images/negotiation-mastery-hero.jpg'
-            },
-            'author': { '@type': 'Person', 'name': 'Rajesh Kumar' },
-            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-            'reviewBody': 'I managed to reduce my credit card principal by 60% using the anchoring techniques mentioned in this guide. The 10-day blueprint is exactly how it works in reality.',
-            'datePublished': '2025-02-10'
         }
     };
 
@@ -203,7 +197,6 @@ export default function NegotiationLowerPrincipalClient() {
             <Script id="product-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
             <Script id="article-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
             <Script id="org-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
-            <Script id="review-schema-negotiate" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section

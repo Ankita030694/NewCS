@@ -162,6 +162,13 @@ export default function ConsumerProtectionLawsClient() {
                 'reviewCount': '2950',
                 'bestRating': '5',
                 'worstRating': '1'
+            },
+            'review': {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Kavitha Reddy' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+                'reviewBody': 'I had no idea about the Consumer Protection Act in relation to my debt. After reading this guide, I filed a complaint with the Consumer Forum and the bank immediately agreed to a fair settlement.',
+                'datePublished': '2025-01-20'
             }
         },
         faq: {
@@ -199,19 +206,6 @@ export default function ConsumerProtectionLawsClient() {
                 'telephone': '+91-XXXXXXXXXX',
                 'contactType': 'legal support'
             }
-        },
-        review: {
-            '@context': 'https://schema.org',
-            '@type': 'Review',
-            'itemReviewed': {
-                '@type': 'Product',
-                'name': 'Legal Debt Protection Consultation',
-                'image': 'https://www.credsettle.com/images/consumer-laws-hero.jpg'
-            },
-            'author': { '@type': 'Person', 'name': 'Kavitha Reddy' },
-            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-            'reviewBody': 'I had no idea about the Consumer Protection Act in relation to my debt. After reading this guide, I filed a complaint with the Consumer Forum and the bank immediately agreed to a fair settlement.',
-            'datePublished': '2025-01-20'
         }
     };
 
@@ -222,7 +216,6 @@ export default function ConsumerProtectionLawsClient() {
             <Script id="product-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.product) }} />
             <Script id="article-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
             <Script id="org-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
-            <Script id="review-schema-consumer" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section

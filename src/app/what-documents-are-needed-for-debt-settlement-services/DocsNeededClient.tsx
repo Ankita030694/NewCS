@@ -160,6 +160,13 @@ const DocsNeededClient = () => {
                 'reviewCount': '2800',
                 'bestRating': '5',
                 'worstRating': '1'
+            },
+            'review': {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Rahul Sharma' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
+                'reviewBody': 'CredSettle helped me organize my medical and financial records so perfectly that my bank approved a 65% waiver within 3 weeks. Their document strategy is top-notch.',
+                'datePublished': '2025-01-10'
             }
         },
         faq: {
@@ -197,19 +204,6 @@ const DocsNeededClient = () => {
                 'telephone': '+91-XXXXXXXXXX',
                 'contactType': 'customer service'
             }
-        },
-        review: {
-            '@context': 'https://schema.org',
-            '@type': 'Review',
-            'itemReviewed': {
-                '@type': 'Product',
-                'name': 'Debt Settlement Documentation Audit',
-                'image': 'https://www.credsettle.com/images/docs-needed-hero.jpg'
-            },
-            'author': { '@type': 'Person', 'name': 'Rahul Sharma' },
-            'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-            'reviewBody': 'CredSettle helped me organize my medical and financial records so perfectly that my bank approved a 65% waiver within 3 weeks. Their document strategy is top-notch.',
-            'datePublished': '2025-01-10'
         }
     };
 
@@ -220,7 +214,6 @@ const DocsNeededClient = () => {
             <Script id="faq-schema-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.faq) }} />
             <Script id="article-schema-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.article) }} />
             <Script id="org-schema-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
-            <Script id="review-schema-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
 
             {/* Hero Section */}
             <section
