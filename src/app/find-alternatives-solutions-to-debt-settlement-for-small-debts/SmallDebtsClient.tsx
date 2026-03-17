@@ -192,7 +192,7 @@ const SmallDebtsClient = () => {
             '@context': 'https://schema.org',
             '@type': 'Review',
             'itemReviewed': {
-                '@type': 'Service',
+                '@type': 'Product',
                 'name': 'Small Debt Repayment Counseling',
                 'image': 'https://www.credsettle.com/images/small-debts-hero.jpg'
             },

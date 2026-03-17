@@ -204,7 +204,7 @@ export default function ConsumerProtectionLawsClient() {
             '@context': 'https://schema.org',
             '@type': 'Review',
             'itemReviewed': {
-                '@type': 'Service',
+                '@type': 'Product',
                 'name': 'Legal Debt Protection Consultation',
                 'image': 'https://www.credsettle.com/images/consumer-laws-hero.jpg'
             },

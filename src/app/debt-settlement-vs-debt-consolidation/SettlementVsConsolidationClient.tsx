@@ -203,7 +203,7 @@ export default function SettlementVsConsolidationClient() {
             '@context': 'https://schema.org',
             '@type': 'Review',
             'itemReviewed': {
-                '@type': 'Service',
+                '@type': 'Product',
                 'name': 'Debt Portfolio Analysis',
                 'image': 'https://www.credsettle.com/images/settlement-vs-consolidation-hero.jpg'
             },

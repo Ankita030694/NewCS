@@ -202,7 +202,7 @@ const DocsNeededClient = () => {
             '@context': 'https://schema.org',
             '@type': 'Review',
             'itemReviewed': {
-                '@type': 'Service',
+                '@type': 'Product',
                 'name': 'Debt Settlement Documentation Audit',
                 'image': 'https://www.credsettle.com/images/docs-needed-hero.jpg'
             },

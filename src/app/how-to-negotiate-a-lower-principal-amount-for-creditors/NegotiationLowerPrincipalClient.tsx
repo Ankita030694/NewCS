@@ -185,7 +185,7 @@ export default function NegotiationLowerPrincipalClient() {
             '@context': 'https://schema.org',
             '@type': 'Review',
             'itemReviewed': {
-                '@type': 'Service',
+                '@type': 'Product',
                 'name': 'Principal Reduction Negotiation',
                 'image': 'https://www.credsettle.com/images/negotiation-mastery-hero.jpg'
             },
