@@ -518,9 +518,9 @@ export default function WhenToChooseSettlementClient() {
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/loan-settlement", text: "The Master Settlement Guide" },
-                                        { href: "/how-bank-recovery-works", text: "Inside the Recovery Room" },
-                                        { href: "/when-to-choose-loan-settlement-instead-of-repayment", text: "Mathematics of Repayment" },
-                                        { href: "/services/anti-harassment", text: "Stop Collection Calls Now" }
+                                        { href: "/how-to-stop-recovery-agent-home-visit", text: "Inside the Recovery Room" },
+                                        { href: "/when-should-you-choose-loan-settlement-instead-of-repayment", text: "Mathematics of Repayment" },
+                                        { href: "/best-lawyer-for-bank-harassment-for-loan", text: "Stop Collection Calls Now" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
                                             <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>

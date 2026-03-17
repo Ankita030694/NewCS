@@ -481,7 +481,7 @@ export default function LoanArbitrationClient() {
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">DRT Defence Guide</Link>
                                     <Link href="/best-lawyer-for-loan-settlement-during-drt" className="block text-sm text-blue-600 hover:underline">Settlement During DRT</Link>
                                     <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">MSME Loan Recovery</Link>
-                                    <Link href="/services/legal-notice-response" className="block text-sm text-blue-600 hover:underline">Legal Notice Help</Link>
+                                    <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Legal Notice Help</Link>
                                 </nav>
                             </div>
 

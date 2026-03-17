@@ -488,9 +488,9 @@ export default function WhatPercentageBanksAcceptClient() {
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/loan-settlement", text: "The Master Guide to OTS" },
-                                        { href: "/cibil-score-after-loan-settlement", text: "Post-Settlement CIBIL Impact" },
-                                        { href: "/how-to-remove-settled-tag-from-cibil", text: "Removing the Settled Tag" },
-                                        { href: "/services/anti-harassment", text: "Stop Recovery Harassment" }
+                                        { href: "/does-loan-settlement-affect-cibil", text: "Post-Settlement CIBIL Impact" },
+                                        { href: "/does-loan-settlement-affect-cibil", text: "Removing the Settled Tag" },
+                                        { href: "/best-lawyer-for-bank-harassment-for-loan", text: "Stop Recovery Harassment" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
                                             <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>

@@ -566,9 +566,9 @@ export default function LoanAgreementDraftingReviewClient() {
                             <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/services/loan-agreement-legal-check" className="block text-sm text-blue-600 hover:underline">Drafting Checklist</Link>
+                                    <Link href="/best-lawyer-for-documentation-review-of-loan-agreement" className="block text-sm text-blue-600 hover:underline">Drafting Checklist</Link>
                                     <Link href="/best-lawyer-for-loan-agreement" className="block text-sm text-blue-600 hover:underline">Best Agreement Lawyer</Link>
-                                    <Link href="/services/business-loan-support" className="block text-sm text-blue-600 hover:underline">Business Loan Legal</Link>
+                                    <Link href="/business-corporate-loan-matters" className="block text-sm text-blue-600 hover:underline">Business Loan Legal</Link>
                                     <Link href="/contact" className="block text-sm text-blue-600 hover:underline">Free Consultation</Link>
                                 </nav>
                             </div>

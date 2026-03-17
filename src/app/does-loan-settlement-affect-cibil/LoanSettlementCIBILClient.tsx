@@ -643,7 +643,7 @@ export default function LoanSettlementCIBILClient() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/how-to-handle-recovery-agent-harrasement" className="group flex items-start">
+                    <Link href="/how-to-stop-recovery-agent-harassment" className="group flex items-start">
                       <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 mr-3 group-hover:scale-150 transition-all"></div>
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors text-sm font-medium">Handle Harassment</span>
                     </Link>

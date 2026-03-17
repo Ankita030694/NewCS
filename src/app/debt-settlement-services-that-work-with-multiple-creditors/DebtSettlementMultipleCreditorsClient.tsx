@@ -518,10 +518,10 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 <h4 className="font-black text-gray-900 mb-6 border-b-2 border-purple-200 pb-3">Strategy Guides</h4>
                                 <nav className="space-y-5">
                                     {[
-                                        { href: "/settlement-vs-consolidation-india", text: "Comparison Deep Dive" },
-                                        { href: "/how-to-handle-multiple-loan-defaults", text: "Managing Multiple Defaults" },
-                                        { href: "/legal-defense-for-multi-debt", text: "Legal Defense Shield" },
-                                        { href: "/rbi-rules-for-multi-loan-settlement", text: "RBI Rules for Multi-Loans" }
+                                        { href: "/debt-settlement-vs-debt-consolidation", text: "Comparison Deep Dive" },
+                                        { href: "/what-steps-should-i-take-before-negotiating-a-loan-settlement-with-my-lender", text: "Managing Multiple Defaults" },
+                                        { href: "/legal-action-for-credit-card-default", text: "Legal Defense Shield" },
+                                        { href: "/rbi-new-recovery-guidelines-july-2026", text: "RBI Rules for Multi-Loans" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
                                             <span className="text-purple-600 mr-3 group-hover:translate-x-2 transition-all font-bold">»</span>

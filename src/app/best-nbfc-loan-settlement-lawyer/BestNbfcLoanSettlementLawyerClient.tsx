@@ -560,7 +560,7 @@ export default function BestNbfcLoanSettlementLawyerClient() {
                                 <nav className="space-y-3">
                                     <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Stopping Harassment</Link>
                                     <Link href="/best-lawyer-for-bank-harassment-for-loan" className="block text-sm text-blue-600 hover:underline">Bank Harassment Help</Link>
-                                    <Link href="/legal-notice-for-loan-recovery" className="block text-sm text-blue-600 hover:underline">Handling Legal Notices</Link>
+                                    <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Handling Legal Notices</Link>
                                     <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Settle Business Loan</Link>
                                 </nav>
                             </div>

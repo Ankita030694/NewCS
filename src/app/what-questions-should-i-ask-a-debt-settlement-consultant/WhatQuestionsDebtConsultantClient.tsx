@@ -548,8 +548,8 @@ export default function WhatQuestionsDebtConsultantClient() {
                                     {[
                                         { href: "/how-to-choose-a-trustworthy-debt-settlement-provider", text: "Choose Trustworthy Providers" },
                                         { href: "/debt-settlement-services-that-work-with-multiple-creditors", text: "Handling Multiple Creditors" },
-                                        { href: "/avoid-loan-settlement-scams", text: "Spotting Settlement Scams" },
-                                        { href: "/legal-help-for-loan-default", text: "Legal Support Options" }
+                                        { href: "/how-to-avoid-debt-settlement-scams-in-india", text: "Spotting Settlement Scams" },
+                                        { href: "/best-lawyer-for-bank-loan-recovery-defence", text: "Legal Support Options" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
                                             <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>

@@ -405,10 +405,10 @@ export default function BestBusinessLoanClient() {
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
                             <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Technical Guides</h4>
                             <nav className="space-y-3">
-                                <Link href="/services/business-loan" className="block text-sm text-blue-600 hover:underline font-medium">MSME Settlement Guide</Link>
+                                <Link href="/best-lawyer-for-msme-and-business-loans" className="block text-sm text-blue-600 hover:underline font-medium">MSME Settlement Guide</Link>
                                 <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline font-medium">Is Settlement Good?</Link>
                                 <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline font-medium">How it Works</Link>
-                                <Link href="/anti-harassment" className="block text-sm text-blue-600 hover:underline font-medium">Stop Harassment</Link>
+                                <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline font-medium">Stop Harassment</Link>
                             </nav>
                         </div>
                     </aside>

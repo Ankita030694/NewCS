@@ -548,7 +548,7 @@ export default function PersonalLoanClient() {
                                 <nav className="space-y-3">
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Settlement Pros/Cons</Link>
                                     <Link href="/best-lawyer-for-unsecured-loan" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Unsecured Debt Help</Link>
-                                    <Link href="/how-to-handle-recovery-agent-harrasement" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Stop Collection Harassment</Link>
+                                    <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Stop Collection Harassment</Link>
                                     <Link href="/services/personal-loan-settlement" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Settlement Services</Link>
                                     <Link href="/contact" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Talk to Legal Expert</Link>
                                 </nav>

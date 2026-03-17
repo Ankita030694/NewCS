@@ -621,10 +621,10 @@ export default function BestLawyerLoanMortgageClient() {
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Resources</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/services/legal-drafting" className="block text-sm text-blue-600 hover:underline">Expert Legal Drafting</Link>
+                                    <Link href="/loan-agreement-drafting-review" className="block text-sm text-blue-600 hover:underline">Expert Legal Drafting</Link>
                                     <Link href="/best-lawyer-for-home-loan-settlement" className="block text-sm text-blue-600 hover:underline">Home Loan Solutions</Link>
-                                    <Link href="/services/drt-cases" className="block text-sm text-blue-600 hover:underline">DRT Tribunal Representation</Link>
-                                    <Link href="/services/sarfaesi-act-lawyer" className="block text-sm text-blue-600 hover:underline">SARFAESI Defense Tactics</Link>
+                                    <Link href="/best-lawyer-for-loan-settlement-by-drt" className="block text-sm text-blue-600 hover:underline">DRT Tribunal Representation</Link>
+                                    <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">SARFAESI Defense Tactics</Link>
                                 </nav>
                             </div>
                         </div>

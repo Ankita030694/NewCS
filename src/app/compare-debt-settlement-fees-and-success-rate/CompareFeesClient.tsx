@@ -124,8 +124,8 @@ const CompareFeesClient = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
-                            href="/contact-us"
-                            className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+                            href="/contact"
+                            className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                         >
                             Get Your Fee Analysis
                         </Link>
@@ -190,7 +190,7 @@ const CompareFeesClient = () => {
                             
                             <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-10 scroll-mt-24 leading-tight">The Economics of Debt Relief: Fees vs. Value</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 text-xl font-light">
-                                In 2025, the Indian debt settlement market has become a competitive landscape. While many companies offer relief, the cost of that relief—and the probability of a successful outcome—varies wildly. Choosing the wrong partner can lead to wasted years and thousands of rupees in lost fees. 
+                                In 2025, the Indian debt settlement market has become a competitive landscape. While many companies offer relief, the cost of that relief—and the probability of a successful outcome—varied wildly. Choosing the wrong partner can lead to wasted years and thousands of rupees in lost fees. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This 4000+ word analysis is designed to empower you with full market transparency. We will compare the three dominant fee models, analyze why some banks have an 80% success rate while others have 20%, and reveal the hidden costs often buried in the fine print of settlement contracts. Understanding the relationship between the fees you pay and the waiver you get is the key to a stress-free exit from your debt burden.
@@ -358,10 +358,10 @@ const CompareFeesClient = () => {
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Fee Analysis</h3>
                                 <p className="text-blue-800 mb-6">Our fee structure is the most competitive in the Indian market, focusing on your total relief rather than our commissions. Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
                                 >
-                                    Compare Your Options Now
+                                    Evaluate My Case Cost
                                 </Link>
                             </div>
                         </article>
@@ -392,10 +392,10 @@ const CompareFeesClient = () => {
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                                 >
-                                    Start My Consultation
+                                    Get Fee Audit
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
                                     <p>✓ Personalized Debt Roadmap</p>

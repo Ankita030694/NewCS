@@ -600,8 +600,8 @@ export default function WhatIsLoanSettlementClient() {
                                 <nav className="space-y-3">
                                     <Link href="/can-i-settle-loan-for-free" className="block text-sm text-blue-600 hover:underline">Settle for Free Guide</Link>
                                     <Link href="/what-is-npa" className="block text-sm text-blue-600 hover:underline">Understanding NPA Rules</Link>
-                                    <Link href="/how-to-handle-recovery-agent-harrasement" className="block text-sm text-blue-600 hover:underline">Handle Harassment</Link>
-                                    <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Our Legal Protection</Link>
+                                    <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Handle Harassment</Link>
+                                    <Link href="/best-lawyer-for-bank-harassment-for-loan" className="block text-sm text-blue-600 hover:underline">Our Legal Protection</Link>
                                 </nav>
                             </div>
 

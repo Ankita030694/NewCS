@@ -522,7 +522,7 @@ export default function MSMEPersonalLoanClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</h4>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">MSME Recovery Defence</Link>
-                                    <Link href="/how-to-handle-recovery-agent-harrasement" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Stop Agent Harassment</Link>
+                                    <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Stop Agent Harassment</Link>
                                     <Link href="/services/personal-loan-settlement" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Personal Loan Settlement</Link>
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Settlement FAQ Guide</Link>
                                     <Link href="/contact" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Talk to Legal Expert</Link>

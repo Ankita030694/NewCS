@@ -545,7 +545,7 @@ export default function BestLawyerEducationLoanClient() {
                                     <Link href="/best-lawyer-for-loan-recovery-cases" className="block text-sm text-blue-600 hover:underline">Loan Recovery Lawyers</Link>
                                     <Link href="/does-loan-settlement-affect-cibil" className="block text-sm text-blue-600 hover:underline">CIBIL Impact</Link>
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Agent Harassment</Link>
-                                    <Link href="/best-lawyer-for-personal-loan-settlement" className="block text-sm text-blue-600 hover:underline">Personal Loan Deals</Link>
+                                    <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Deals</Link>
                                 </nav>
                             </div>
 

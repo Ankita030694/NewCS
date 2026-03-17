@@ -124,7 +124,7 @@ const AvoidScamsClient = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
-                            href="/contact-us"
+                            href="/contact"
                             className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
                         >
                             Verify Your Agency Now
@@ -319,7 +319,7 @@ const AvoidScamsClient = () => {
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
                                 <p className="text-blue-800 mb-6">The debt relief industry is rife with predatory players. You don't have to navigate these choices alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from scams.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
                                 >
                                     Verify Your Agency Now

@@ -201,7 +201,7 @@ export default function LegalImplicationsClient() {
                         Navigate the complex landscape of Indian debt laws. Understand Section 138, SARFAESI, and your RBI-protected rights when facing loan defaults and settlement negotiations.
                     </p>
                     <Link
-                        href="/contact-us"
+                        href="/contact"
                         className="inline-block bg-white text-blue-600 font-bold py-4 px-10 rounded-full hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105 active:scale-95 text-lg"
                     >
                         Get Free Legal Assessment
@@ -443,7 +443,7 @@ export default function LegalImplicationsClient() {
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Worried About Legal Notices?</h3>
                                 <p className="text-blue-800 mb-6">Receiving a legal notice can be overwhelming. You don't have to navigate these complex Indian laws alone. Our team of expert negotiators and legal advisors is here to audit your case and ensure your rights are protected under RBI guidelines.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
                                 >
                                     Start Your Legal Audit
@@ -461,7 +461,7 @@ export default function LegalImplicationsClient() {
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Emergency Hub</h4>
                                 <p className="text-sm text-gray-600 mb-6">Received a summons or S.138 notice? Act within the next 48 hours for maximum protection.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                                 >
                                     Speak to Expert
@@ -480,7 +480,7 @@ export default function LegalImplicationsClient() {
                                     {[
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Is Settlement Legit?" },
                                         { href: "/how-long-does-a-debt-settlement-typically-take", text: "Process Timelines" },
-                                        { href: "/legal-help-for-loan-default", text: "Legal Defense Wiki" },
+                                        { href: "/legal-help-for-non-closure-of-settled-loan", text: "Legal Defense Wiki" },
                                         { href: "/rbi-rules-for-recovery-agents", text: "Know Your Rights" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start gap-3">

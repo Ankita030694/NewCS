@@ -191,7 +191,7 @@ const FindAgencyNearMeClient = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
-                            href="/contact-us"
+                            href="/contact"
                             className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
                         >
                             Locate Verified Agencies

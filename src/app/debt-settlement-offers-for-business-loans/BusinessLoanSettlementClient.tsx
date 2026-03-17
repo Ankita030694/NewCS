@@ -472,7 +472,7 @@ export default function BusinessLoanSettlementClient() {
                                     {[
                                         { href: "/debt-settlement-services-that-work-with-multiple-creditors", text: "Multi-Lender Business Debt" },
                                         { href: "/how-to-choose-a-trustworthy-debt-settlement-provider", text: "Expert Vetting Guide" },
-                                        { href: "/legal-help-for-loan-default", text: "Corporate Legal Defense" },
+                                        { href: "/business-corporate-loan-matters", text: "Corporate Legal Defense" },
                                         { href: "/what-is-minimun-debt-amount-required-for-settlement-programs", text: "Min Debt for Businesses" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-center gap-3">

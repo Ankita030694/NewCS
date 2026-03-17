@@ -461,8 +461,7 @@ export default function MinimumDebtAmountClient() {
                                     {[
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Is Settlement Good for You?" },
                                         { href: "/what-percentage-do-banks-accept-in-loan-settlement", text: "Target Waiver Percentages" },
-                                        { href: "/debt-settlement-services-that-work-with-multiple-creditors", text: "Multi-Creditor Support" },
-                                        { href: "/rbi-guidelines-for-loan-settlement-2024", text: "Complete RBI Rules" }
+                                        { href: "/rbi-new-recovery-guidelines-july-2026", text: "Complete RBI Rules" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="group flex items-start gap-2">
                                             <span className="text-blue-600 group-hover:translate-x-1 transition-transform">→</span>

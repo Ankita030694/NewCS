@@ -778,7 +778,7 @@ export default function BestLawyerHomeLoanClient() {
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is it a Good Option?</Link>
-                                    <Link href="/can-i-settle-my-home-loan" className="block text-sm text-blue-600 hover:underline">Home Loan Guide</Link>
+                                    <Link href="/can-I-settle-my-home-loan" className="block text-sm text-blue-600 hover:underline">Home Loan Guide</Link>
                                     <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Stop Harassment</Link>
                                 </nav>
                             </div>

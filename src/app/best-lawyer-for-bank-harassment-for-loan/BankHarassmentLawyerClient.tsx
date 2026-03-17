@@ -424,7 +424,7 @@ export default function BankHarassmentLawyerClient() {
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Support</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/how-to-handle-recovery-agent-harrasement" className="block text-sm text-blue-600 hover:underline">Handling Agents</Link>
+                                    <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Handling Agents</Link>
                                     <Link href="/how-to-stop-recovery-agent-home-visit" className="block text-sm text-blue-600 hover:underline">Stop Home Visits</Link>
                                     <Link href="/best-check-bounce-lawyer-for-loan-case" className="block text-sm text-blue-600 hover:underline">Check Bounce Defense</Link>
                                     <Link href="/best-lawyer-for-home-loan-settlement" className="block text-sm text-blue-600 hover:underline">Home Loan Legal Help</Link>
