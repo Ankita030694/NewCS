@@ -205,7 +205,17 @@ export default function Footer() {
                <a href="/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consumer Protection Laws</a>
                <a href="/debt-settlement-vs-debt-consolidation" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settlement vs Consolidation</a>
                <a href="/how-to-negotiate-a-lower-principal-amount-for-creditors" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Negotiate Lower Principal</a>
-             </div>
+                <a href="/how-can-I-negotiate-a-personal-loan-settlement-with-lenders" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Negotiate Personal Loan Settlement</a>
+                <a href="/which-companies-offer-loan-settlement-services-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement Companies India</a>
+                <a href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Impact of Settling a Loan on CIBIL Score</a>
+                <a href="/best-apps-for-managing-and-settling-unsecured-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Apps for Managing and Settling Unsecured Loans</a>
+                <a href="/which-companies-offer-professional-debt-settlement-services-for-personal-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Professional Debt Settlement Services for Personal Loans</a>
+                <a href="/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Steps to Apply for a Loan Settlement</a>
+                <a href="/what-are-the-key-benefits-and-drawbacks-of-pursuing-a-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Key Benefits and Drawbacks of Loan Settlement</a>
+                <a href="/find-reputable-debt-relief-agencies-specializing-in-unsecured-loans-in-bangalore" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Relief Agencies in Bangalore</a>
+               <a href="/can-i-use-online-platforms-to-settle-my-home-loan-faster" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle Home Loan Faster Online</a>
+               <a href="/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Charges by Top Financial Firms</a>
+              </div>
           </div>
 
           <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>

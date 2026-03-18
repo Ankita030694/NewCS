@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 67; // Updated for new negotiation guide page.
+  const mainStaticPages = 69; // Updated for new loan settlement SEO pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -434,20 +434,6 @@ async function generateSitemap(): Promise<string> {
   // Generic SEO Educational Pages
   urls.push({
     loc: `${baseUrl}/what-is-loan-settlement-and-how-does-it-work-in-india`,
-    priority: 0.95,
-    changefreq: 'weekly',
-    lastmod: today
-  });
-
-  urls.push({
-    loc: `${baseUrl}/how-to-get-freed-from-debt`,
-    priority: 0.9,
-    changefreq: 'weekly',
-    lastmod: today
-  });
-
-  urls.push({
-    loc: `${baseUrl}/how-to-settle-loan`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
@@ -484,7 +470,63 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/what-percentage-do-banks-accept-in-loan-settlement`,
+    loc: `${baseUrl}/how-can-I-negotiate-a-personal-loan-settlement-with-lenders`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-companies-offer-loan-settlement-services-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-does-settling-a-loan-impact-my-cibil-credit-score`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-apps-for-managing-and-settling-unsecured-loans`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-companies-offer-professional-debt-settlement-services-for-personal-loans`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-key-benefits-and-drawbacks-of-pursuing-a-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/find-reputable-debt-relief-agencies-specializing-in-unsecured-loans-in-bangalore`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-use-online-platforms-to-settle-my-home-loan-faster`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
