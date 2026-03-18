@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Script from 'next/script';
 import BangaloreAgenciesClient from './BangaloreAgenciesClient';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -98,7 +99,7 @@ export default function BangaloreAgenciesPage() {
             },
             {
                 '@type': 'Question',
-                'name': 'What is the typical waiver I can expect on a personal loan or credit card?',
+                'name': 'What is the typical waiver I can expect on a personal loan?',
                 'acceptedAnswer': {
                     '@type': 'Answer',
                     'text': 'Waivers typically range from 40% to 60% of the total outstanding amount, depending on the bank and the severity of the borrower\'s financial hardship.'
@@ -141,7 +142,7 @@ export default function BangaloreAgenciesPage() {
                 'name': 'Is credit card settlement different from personal loan settlement?',
                 'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'The process is similar, but credit card companies are often more willing to settle for a lower amount because the debt is entirely unsecured.'
+                    'text': 'The process is similar, but credit card companies are often more willing to settle for a lower amount because the debt is entirely unsecured and secondary to bank-held loans.'
                 }
             },
             {
@@ -154,7 +155,7 @@ export default function BangaloreAgenciesPage() {
             },
             {
                 '@type': 'Question',
-                'name': 'Do I need to meet the agency in person in Bangalore?',
+                'name': 'Do I need to meet the agency in person?',
                 'acceptedAnswer': {
                     '@type': 'Answer',
                     'text': 'While physical offices exist, most reputable platforms like CredSettle offer end-to-end digital processing for convenience.'
@@ -164,24 +165,25 @@ export default function BangaloreAgenciesPage() {
     };
 
     return (
-        <>
+        <div className="bg-white min-h-screen">
             <Navbar />
-            <main className="bg-gray-50 min-h-screen">
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-                />
-                <BangaloreAgenciesClient />
-            </main>
+            <Script
+                id="article-schema-bangalore"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
+            <Script
+                id="breadcrumb-schema-bangalore"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <Script
+                id="faq-schema-bangalore"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <BangaloreAgenciesClient />
             <Footer />
-        </>
+        </div>
     );
 }
