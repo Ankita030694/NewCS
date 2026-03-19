@@ -131,34 +131,9 @@ export default function SecuredVsUnsecuredClient() {
 
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  };
-
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Secured Loan Settlement Consultation",
-    "description": "Professional consultation for settling home loans, car loans, and property-backed debts in India.",
-    "brand": { "@type": "Brand", "name": "CredSettle" },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1280" }
-  };
-
   return (
     <main className="font-sans text-[#0C2756] bg-white">
       <Navbar />
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
       {/* Hero Section */}
       <section 

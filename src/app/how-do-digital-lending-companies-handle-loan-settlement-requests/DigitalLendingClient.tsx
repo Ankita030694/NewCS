@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -147,23 +146,9 @@ export default function DigitalLendingClient() {
         }
     ];
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
-            }
-        }))
-    };
-
     return (
         <div className="min-h-screen bg-white">
             <Navbar />
-            <Script id="faq-schema-digital" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
             {/* Hero Section */}
             <section

@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 
 const StarIcon = () => (
     <svg className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
@@ -150,23 +149,8 @@ export default function WhatDocumentsClient() {
         }
     ];
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
-            }
-        }))
-    };
-
     return (
-        <>
-            <Script id="faq-schema-docs-prep" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
+      <main className="font-sans text-[#0C2756] bg-white text-justify">
             {/* Hero Section */}
             <section
                 className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"
@@ -264,6 +248,9 @@ export default function WhatDocumentsClient() {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This guide is more than just a list of papers to collect; it is a strategic manual for building your "Settlement Portfolio." We will explore every category of documentation required, from the basic KYC that establishes your identity to the complex financial audits that prove your distress. We will also dive into the specific requirements for medical emergencies, business failures, and job losses. By the end of this 5000+ word deep dive, you will have the knowledge to walk into any bank branch or digital negotiation with the confidence of a professional debt manager.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Remember, the bank's decision makers will likely never meet you in person. They will decide your financial future based on the documents you submit to their recovery department. If your file is incomplete, messy, or lacks clear evidence, it will be rejected. If it is organized, thorough, and follows the latest regulatory standards, you are much more likely to secure a 40% to 70% waiver on your outstanding debt. Let us begin the journey of gathering your financial arsenal.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Remember, the bank's decision makers will likely never meet you in person. They will decide your financial future based on the documents you submit to their recovery department. If your file is incomplete, messy, or lacks clear evidence, it will be rejected. If it is organized, thorough, and follows the latest regulatory standards, you are much more likely to secure a 40% to 70% waiver on your outstanding debt. Let us begin the journey of gathering your financial arsenal.
@@ -556,6 +543,7 @@ export default function WhatDocumentsClient() {
 
                 </div>
             </div>
-        </>
+            <Footer />
+        </main>
     );
 }

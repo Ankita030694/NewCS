@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -476,7 +475,7 @@ export default function CompareProgramsClient() {
                                 Don't let shame or fear keep you from your future. Analyze your situation, consult the experts, and choose the path that aligns with your reality. Freedom is not just about having zero balance; it's about having peace of mind. Start your journey today.
                             </p>
 
-                            
+
                              <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-14 font-poppins">Real Stories of Freedom</h2>
                              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                  {reviews.map((review, idx) => (

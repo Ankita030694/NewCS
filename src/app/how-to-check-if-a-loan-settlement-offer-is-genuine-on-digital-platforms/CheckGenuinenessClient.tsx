@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 
 const StarIcon = () => (
     <svg className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
@@ -146,37 +145,8 @@ export default function CheckGenuinenessClient() {
         }
     ];
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
-            }
-        }))
-    };
-
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Loan Settlement Genuineness Verification Service',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '4250',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
-            <Script id="faq-schema-genuineness" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-genuineness" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-
             {/* Hero Section */}
             <section
                 className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"
@@ -436,7 +406,7 @@ export default function CheckGenuinenessClient() {
                                 ))}
                             </div>
 
-                            
+
                              <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-14">Real Stories of Freedom</h2>
                              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                  {reviews.map((review, idx) => (

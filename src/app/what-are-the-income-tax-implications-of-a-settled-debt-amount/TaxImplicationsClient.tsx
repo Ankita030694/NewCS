@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 
 export default function TaxImplicationsClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -140,51 +139,8 @@ export default function TaxImplicationsClient() {
         }
     ];
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
-            }
-        }))
-    };
-
-    const organizationSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        'name': 'CredSettle',
-        'url': 'https://www.credsettle.com',
-        'logo': 'https://www.credsettle.com/logo.png',
-        'sameAs': [
-            'https://www.facebook.com/credsettle',
-            'https://www.twitter.com/credsettle',
-            'https://www.linkedin.com/company/credsettle'
-        ]
-    };
-
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Income Tax Implications of Settled Debt Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1250',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
-            <Script id="faq-schema-tax" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-tax" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-            <Script id="org-schema-tax" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
-
             {/* Hero Section */}
             <section
                 className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"

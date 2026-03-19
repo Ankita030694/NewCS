@@ -129,23 +129,9 @@ export default function EffectiveNegotiationClient() {
     }
   };
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqData.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }))
-  };
-
   return (
     <main className="font-sans text-[#0C2756] bg-white text-justify">
       <Navbar />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero Section */}
       <section 
@@ -268,7 +254,7 @@ export default function EffectiveNegotiationClient() {
                       <span><strong>Market Intelligence:</strong> Experts know which banks are currently under pressure to reduce NPAs and are thus more likely to offer deeper discounts.</span>
                     </li>
                     <li className="flex gap-2">
-                      <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 mt-1" />
+                       <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 mt-1" />
                       <span><strong>Legal Protection:</strong> They understand the SARFAESI Act, the IBC, and the RBI's Fair Practice Code, preventing you from being bullied into bad deals.</span>
                     </li>
                     <li className="flex gap-2">
@@ -350,7 +336,7 @@ export default function EffectiveNegotiationClient() {
                       <p>✓ Direct access to legal advisors/advocates.</p>
                     </div>
                     <div className="space-y-2">
-                      <p className="font-bold text-red-400">AVOID IF:</p>
+                       <p className="font-bold text-red-400">AVOID IF:</p>
                       <p>✗ They promise to 'delete' your debt from CIBIL.</p>
                       <p>✗ They ask for 100% fees upfront.</p>
                       <p>✗ They encourage you to hide from the law.</p>

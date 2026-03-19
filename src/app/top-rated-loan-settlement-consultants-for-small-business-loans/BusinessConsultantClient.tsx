@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -146,23 +145,9 @@ export default function BusinessConsultantClient() {
         }
     ];
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
-            }
-        }))
-    };
-
     return (
         <div className="min-h-screen bg-white">
             <Navbar />
-            <Script id="faq-schema-business" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
             {/* Hero Section */}
             <section
@@ -369,7 +354,7 @@ export default function BusinessConsultantClient() {
                                 Don't let the weight of your business debt paralyze you. The experts are standing by to help you fight back. Reach out to a verified consultant today and take the first step toward reclaiming your business legacy.
                             </p>
 
-                            
+
                              <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-14">Real Stories of Freedom</h2>
                              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                  {reviews.map((review, idx) => (
