@@ -215,6 +215,22 @@ export default function Footer() {
                 <a href="/find-reputable-debt-relief-agencies-specializing-in-unsecured-loans-in-bangalore" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Relief Agencies in Bangalore</a>
                <a href="/can-i-use-online-platforms-to-settle-my-home-loan-faster" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle Home Loan Faster Online</a>
                <a href="/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Charges by Top Financial Firms</a>
+               <a href="/what-documents-do-i-need-to-prepare-for-a-loan-settlement-proposal" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Documents Needed for Settlement Proposal</a>
+               <a href="/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Check for Genuine Settlement Offer</a>
+               <a href="/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Initiate Full and Final Settlement</a>
+               <a href="/top-rated-loan-settlement-consultants-for-small-business-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Top Business Loan Consultants</a>
+               <a href="/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Compare Debt Management & Settlement</a>
+               <a href="/how-do-digital-lending-companies-handle-loan-settlement-requests" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Digital Lending Settlements</a>
+               <a href="/what-are-the-income-tax-implications-of-a-settled-debt-amount" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Income Tax Implications of Settled Debt</a>
+               <a href="/what-documents-are-required-for-loan-settlement-with-a-professional-service" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Documents Required for Loan Settlement</a>
+                <a href="/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Secured vs Unsecured Settlement</a>
+                <a href="/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Mobile App Settlements</a>
+                 <a href="/find-debt-settlement-services-known-for-effective-negotiation" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Effective Negotiation Services</a>
+                 <a href="/compare-features-of-loan-settlement-services-offered-by-major-financial-apps" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Compare Settlement Apps</a>
+                 <a href="/where-can-i-locate-government-approved-consumer-credit-counseling-services-in-chennai" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Chennai Credit Counseling</a>
+                 <a href="/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Vehicle Loan Settlement Deal</a>
+
+
               </div>
           </div>
 

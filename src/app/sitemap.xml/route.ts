@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 69; // Updated for new loan settlement SEO pages.
+  const mainStaticPages = 77; // Updated for new loan settlement SEO pages (added 2 more).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -439,6 +439,48 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/find-debt-settlement-services-known-for-effective-negotiation`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/compare-features-of-loan-settlement-services-offered-by-major-financial-apps`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/where-can-i-locate-government-approved-consumer-credit-counseling-services-in-chennai`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
 
 
   urls.push({
@@ -458,6 +500,48 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/can-you-get-a-loan-again-after-settling-a-previous-loan`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-documents-do-i-need-to-prepare-for-a-loan-settlement-proposal`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/top-rated-loan-settlement-consultants-for-small-business-loans`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-do-digital-lending-companies-handle-loan-settlement-requests`,
+    priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -527,6 +611,20 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/can-i-use-online-platforms-to-settle-my-home-loan-faster`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-income-tax-implications-of-a-settled-debt-amount`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-documents-are-required-for-loan-settlement-with-a-professional-service`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
