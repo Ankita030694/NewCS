@@ -456,11 +456,6 @@ export default function AppComparisonClient() {
       </div>
 
       <Footer />
-      <style jsx global>{`
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-        h2, h3 { scroll-margin-top: 80px; }
-      `}</style>
     </main>
   );
 }
