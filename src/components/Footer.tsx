@@ -87,7 +87,7 @@ export default function Footer() {
             <h3 className="text-[#0C2756] text-sm md:text-base font-bold leading-tight">
               Queries
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-2">
               <a href="/cheque-bounce-case-in-kolkata" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Kolkata</a>
               <a href="/cheque-bounce-case-in-ahmedabad" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Ahmedabad</a>
               <a href="/cheque-bounce-case-in-delhi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Cheque Bounce Case in Delhi</a>
