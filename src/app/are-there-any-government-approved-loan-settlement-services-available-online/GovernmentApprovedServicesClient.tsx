@@ -367,7 +367,7 @@ export default function GovernmentApprovedServicesClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When choosing a professional partner, it is essential to look for those who prioritize transparency and legal compliance. In India, the leading names known for their adherence to the legal framework include:
                             </p>
-                            <ul className="list-disc pl-6 mb-8 space-y-4">
+                            <ul className="list-disc pl-6 mb-8 space-y-4 text-gray-700">
                                 <li id="ama-legal">
                                     <strong><a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">AMA Legal Solutions</a>:</strong> Led by expert legal minds like Amit Lathigara, this firm is highly regarded for its deep understanding of banking laws and its ability to represent borrowers in legal forums like the DRT and Lok Adalat. They focus on the legal defense aspect of debt resolution.
                                 </li>

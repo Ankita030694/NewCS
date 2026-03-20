@@ -427,7 +427,7 @@ export default function DebtAlternativesClient() {
                                 Choosing the right alternative depends on three factors: Your Credit Score, your Monthly Surplus, and your Total Debt. Let's look at how they compare in the 2025 Indian market.
                             </p>
                             <div className="overflow-x-auto mb-8">
-                                <table className="min-w-full border-collapse border border-gray-200 text-sm">
+                                <table className="min-w-full border-collapse border border-gray-200 text-sm text-gray-700">
                                     <thead className="bg-gray-100">
                                         <tr>
                                             <th className="border border-gray-200 px-4 py-3 text-left">Criteria</th>

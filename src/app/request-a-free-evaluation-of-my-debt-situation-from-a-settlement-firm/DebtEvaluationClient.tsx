@@ -382,7 +382,7 @@ export default function DebtEvaluationClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, navigating the banking system alone is increasingly difficult. This is why many borrowers turn to professional firms after their initial evaluation. These firms act as the bridge between the distressed individual and the massive institutional power of a bank.
                             </p>
-                            <ul className="list-disc pl-6 mb-8 space-y-4">
+                            <ul className="list-disc pl-6 mb-8 space-y-4 text-gray-700">
                                 <li>
                                     <strong><a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">AMA Legal Solutions</a>:</strong> They specialize in the legal audit and hard-negotiation phase, especially for business loans and cases already in the DRT. Their focus is on ensuring the borrower's legal rights are protected at every turn.
                                 </li>
