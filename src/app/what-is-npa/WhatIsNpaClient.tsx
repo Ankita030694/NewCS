@@ -212,7 +212,7 @@ export default function WhatIsNpaClient() {
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">What is NPA? The Complete Guide to Non Performing Assets</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  The banking sector is unequivocally the backbone of any modern economy. It facilitates the smooth flow of capital from those who have surplus funds, such as depositors, to those who need them for productive purposes, such as entrepreneurs and homebuyers. However, this flow is inherent with risks, the most significant being the &quot;Credit Risk&quot;—the risk that a borrower will fail to repay their loan. When a borrower stops making payments, the asset (the loan) ceases to generate income for the bank. In banking and financial terminology, this represents a <strong>Non Performing Asset</strong> or <strong>NPA</strong>.
+                  The banking sector is unequivocally the backbone of any modern economy. It facilitates the smooth flow of capital from those who have surplus funds, such as depositors, to those who need them for productive purposes, such as entrepreneurs and homebuyers. However, this flow is inherent with risks, the most significant being the &quot;Credit Risk&quot;-the risk that a borrower will fail to repay their loan. When a borrower stops making payments, the asset (the loan) ceases to generate income for the bank. In banking and financial terminology, this represents a <strong>Non Performing Asset</strong> or <strong>NPA</strong>.
                 </p>
                 <p className="mb-4">
                   Understanding <strong>what is NPA</strong> is crucial not just for bankers, Chartered Accountants, and finance students, but for every individual who participates in the financial system. Whether you are a business owner seeking a line of credit, a home buyer servicing a mortgage, or a depositor worried about the safety of your hard earned savings in the bank, the concept of NPA has a direct impact on your financial life. The alarming rise of NPAs in the Indian banking system over the last decade has been a major topic of debate, leading to stringent regulations by the Reserve Bank of India (RBI) and the introduction of transformative legal frameworks like the Insolvency and Bankruptcy Code (IBC).
@@ -237,7 +237,7 @@ export default function WhatIsNpaClient() {
                   Jab koi vyakti ya company bank se loan leti hai, to use vah loan wapas chukana padta hai byaj (interest) ke saath. Bank ke liye diya gaya loan ek &quot;Asset&quot; (sampatti) hota hai. Kyun? Kyunki yah bank ko regular aamdani (income) deta hai byaj ke roop mein. Jab tak loan ki kishtein (EMI) samay par di ja rahi hain, vah ek &quot;Standard Asset&quot; ya &quot;Performing Asset&quot; kahlata hai. Yaani, wo asset bank ke liye perform kar raha hai.
                 </p>
                 <p className="mb-4">
-                  Lekin, jab wah vyakti (borrower) kisi karanvash—chahe naukri chutne se, vyapar mein ghata hone se, ya janbujhkar—loan ki kishtein dena band kar deta hai, aur <strong>90 dinon (3 mahine)</strong> tak bank ko na to mool dhan (principal) milta hai aur na hi byaj wapas milta hai, to bank us loan ko &quot;Non Performing Asset&quot; ya NPA ghoshit kar deta hai. Iska seedha matlab hai ki vah sampatti ab bank ke liye kaam nahi kar rahi hai, yaani perform nahi kar rahi hai.
+                  Lekin, jab wah vyakti (borrower) kisi karanvash-chahe naukri chutne se, vyapar mein ghata hone se, ya janbujhkar-loan ki kishtein dena band kar deta hai, aur <strong>90 dinon (3 mahine)</strong> tak bank ko na to mool dhan (principal) milta hai aur na hi byaj wapas milta hai, to bank us loan ko &quot;Non Performing Asset&quot; ya NPA ghoshit kar deta hai. Iska seedha matlab hai ki vah sampatti ab bank ke liye kaam nahi kar rahi hai, yaani perform nahi kar rahi hai.
                 </p>
                 <p className="mb-4">
                   <strong>Ek Account NPA Banne Par Grahak Par Kya Asar Padta Hai?</strong>
@@ -335,7 +335,7 @@ export default function WhatIsNpaClient() {
                     <p>
                       This is the absolute amount of all loans classified as NPA. It represents the total volume of bad loans on the bank&apos;s books. It is a gross measure of the quality of the loan book.
                       <br/>
-                      <em>Formula: GNPA Ratio = (Total GNPA / Total Advances) �,  100</em>
+                      <em>Formula: GNPA Ratio = (Total GNPA / Total Advances) x 100</em>
                     </p>
                   </div>
                   <div className="border border-blue-100 p-4 rounded-lg">
@@ -428,7 +428,7 @@ export default function WhatIsNpaClient() {
                   <div>
                     <h3 className="text-lg font-bold text-blue-900 mb-2">Impact on the Economy and Society</h3>
                     <p>
-                      When banks are burdened with high NPAs, they become extremely risk averse. They stop lending to new projects, fearing more defaults. This phenomenon, known as "credit freeze", chokes the economy. Businesses cannot expand, entrepreneurs cannot start new ventures, and jobs are not created. The slow credit growth drags down the GDP. Furthermore, public sector banks (PSBs) are often major holders of NPAs. To keep them afloat, the government often has to step in to recapitalize them using taxpayer money—money that could have been used for schools, hospitals, or infrastructure development. Thus, the cost of NPAs is ultimately borne by the honest taxpayer and the citizenry at large.
+                      When banks are burdened with high NPAs, they become extremely risk averse. They stop lending to new projects, fearing more defaults. This phenomenon, known as "credit freeze", chokes the economy. Businesses cannot expand, entrepreneurs cannot start new ventures, and jobs are not created. The slow credit growth drags down the GDP. Furthermore, public sector banks (PSBs) are often major holders of NPAs. To keep them afloat, the government often has to step in to recapitalize them using taxpayer money-money that could have been used for schools, hospitals, or infrastructure development. Thus, the cost of NPAs is ultimately borne by the honest taxpayer and the citizenry at large.
                     </p>
                   </div>
                 </div>
@@ -567,7 +567,7 @@ export default function WhatIsNpaClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;I had no idea what NPA was until I got a notice. I was scared I would lose my home. The team at CredSettle explained the SARFAESI process to me and helped me negotiate a settlement. I saved my house.&quot;
@@ -576,7 +576,7 @@ export default function WhatIsNpaClient() {
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;My business loan turned NPA during the lockdown. Banks were not listening. CredSettle helped me structure an OTS proposal that the bank finally accepted. Very professional.&quot;
@@ -614,8 +614,8 @@ export default function WhatIsNpaClient() {
                   Get Help Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ SARFAESI Expert Advice</p>
-                  <p className="mt-1">✓ OTS Negotiation</p>
+                  <p>v SARFAESI Expert Advice</p>
+                  <p className="mt-1">v OTS Negotiation</p>
                 </div>
               </div>
 

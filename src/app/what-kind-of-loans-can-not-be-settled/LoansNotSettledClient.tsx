@@ -523,7 +523,7 @@ export default function LoansNotSettledClient() {
                     <strong>Hardship Letter:</strong> We submit a formal letter to the bank explaining your financial crisis (job loss, medical reports, etc.) and your intent to settle.
                   </li>
                   <li className="mb-2">
-                    <strong>Negotiation:</strong> The bank will start high (maybe 80% of total dues). We negotiate it down. This happens in layers—first with the collection agency, then the branch manager, and finally the regional or nodal officer who has the authority to approve deep waivers.
+                    <strong>Negotiation:</strong> The bank will start high (maybe 80% of total dues). We negotiate it down. This happens in layers-first with the collection agency, then the branch manager, and finally the regional or nodal officer who has the authority to approve deep waivers.
                   </li>
                   <li className="mb-2">
                     <strong>Settlement Letter:</strong> <span className="text-red-600 font-bold">CRITICAL STEP.</span> Never pay a single rupee without an official settlement letter from the bank. This letter must state the exact amount, the due date, and that this payment will be "Full and Final Settlement".
@@ -638,7 +638,7 @@ export default function LoansNotSettledClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;I thought I was trapped with my car loan. CredSettle explained why it couldn't be settled but helped me restructure it. Their advice on my credit card debt was spot on - we settled that and freed up cash flow.&quot;
@@ -647,7 +647,7 @@ export default function LoansNotSettledClient() {
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;The bank was threatening to auction my house under SARFAESI. The legal team at CredSettle stepped in, bought us time, and helped us sell the property at a market rate instead of a distress sale value.&quot;
@@ -656,7 +656,7 @@ export default function LoansNotSettledClient() {
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;I was worried about legal action for my personal loans. They handled the harassment calls and negotiated a 45% waiver. Professional and trustworthy.&quot;
@@ -665,7 +665,7 @@ export default function LoansNotSettledClient() {
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;Clear guidance on which loans to prioritize. They stopped me from defaulting on my gold loan, which would have been a disaster. Highly knowledgeable team.&quot;
@@ -703,46 +703,46 @@ export default function LoansNotSettledClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <h4 className="flex items-center font-bold text-green-700 mb-4 text-xl">
-                      <span className="bg-green-100 p-2 rounded-full mr-2">✓</span> Dos
+                      <span className="bg-green-100 p-2 rounded-full mr-2">v</span> Dos
                     </h4>
                     <ul className="space-y-3">
                       <li className="flex items-start">
-                        <span className="text-green-500 mr-2 font-bold">✓</span>
+                        <span className="text-green-500 mr-2 font-bold">v</span>
                         <span><strong>Communicate in Writing:</strong> Always have an email trail of your negotiations.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-green-500 mr-2 font-bold">✓</span>
+                        <span className="text-green-500 mr-2 font-bold">v</span>
                         <span><strong>Ask for the Settlement Letter:</strong> Ensure it mentions specific loan account numbers.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-green-500 mr-2 font-bold">✓</span>
+                        <span className="text-green-500 mr-2 font-bold">v</span>
                         <span><strong>Record Calls:</strong> If agents are abusive, record the calls as evidence for the Banking Ombudsman.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-green-500 mr-2 font-bold">✓</span>
+                        <span className="text-green-500 mr-2 font-bold">v</span>
                         <span><strong>Keep the NOC:</strong> Store the No Objection Certificate safely forever.</span>
                       </li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="flex items-center font-bold text-red-700 mb-4 text-xl">
-                      <span className="bg-red-100 p-2 rounded-full mr-2">�, </span> Don'ts
+                      <span className="bg-red-100 p-2 rounded-full mr-2">X</span> Don'ts
                     </h4>
                     <ul className="space-y-3">
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">�, </span>
+                        <span className="text-red-500 mr-2 font-bold">X</span>
                         <span><strong>Don't Share Banking Passwords:</strong> Never give recovery agents access to your accounts.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">�, </span>
+                        <span className="text-red-500 mr-2 font-bold">X</span>
                         <span><strong>Don't Issue Post-Dated Cheques:</strong> They can be used to file false 138 cases against you during negotiation.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">�, </span>
+                        <span className="text-red-500 mr-2 font-bold">X</span>
                         <span><strong>Don't Agree to "Verbal" Promises:</strong> If it's not on paper, it doesn't exist.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">�, </span>
+                        <span className="text-red-500 mr-2 font-bold">X</span>
                         <span><strong>Don't Ignore Legal Notices:</strong> Always reply to a legal notice through a lawyer.</span>
                       </li>
                     </ul>
@@ -810,8 +810,8 @@ export default function LoansNotSettledClient() {
                   Expert Advice
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Free Initial Analysis</p>
-                  <p className="mt-1">✓ Stop Harassment</p>
+                  <p>v Free Initial Analysis</p>
+                  <p className="mt-1">v Stop Harassment</p>
                 </div>
               </div>
 
