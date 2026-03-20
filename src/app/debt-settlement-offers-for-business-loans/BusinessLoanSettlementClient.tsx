@@ -459,9 +459,9 @@ export default function BusinessLoanSettlementClient() {
                                     Get Legal Audit
                                 </Link>
                                 <div className="mt-8 space-y-4 text-xs font-light text-slate-400">
-                                    <p className="flex items-center gap-3"><span className="text-blue-500">‚óè</span> S.138 Defense Check</p>
-                                    <p className="flex items-center gap-3"><span className="text-blue-500">‚óè</span> SARFAESI Stay Strategy</p>
-                                    <p className="flex items-center gap-3"><span className="text-blue-500">‚óè</span> MSME OTS Eligibility</p>
+                                    <p className="flex items-center gap-3"><span className="text-blue-500">‚, è</span> S.138 Defense Check</p>
+                                    <p className="flex items-center gap-3"><span className="text-blue-500">‚, è</span> SARFAESI Stay Strategy</p>
+                                    <p className="flex items-center gap-3"><span className="text-blue-500">‚, è</span> MSME OTS Eligibility</p>
                                 </div>
                             </div>
 

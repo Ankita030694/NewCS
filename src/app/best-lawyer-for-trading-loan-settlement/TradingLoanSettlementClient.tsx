@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -347,7 +347,7 @@ export default function TradingLoanSettlementClient() {
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>1. The Margin Call Mechanism:</strong> A robust agreement clearly defines at what exact percentage drop in collateral value a margin call is triggered. It also specifies the Cure Period—the time a borrower has to deposit more funds or securities before the broker can legally liquidate the existing assets.</li>
+                                    <li><strong>1. The Margin Call Mechanism:</strong> A robust agreement clearly defines at what exact percentage drop in collateral value a margin call is triggered. It also specifies the Cure Period, the time a borrower has to deposit more funds or securities before the broker can legally liquidate the existing assets.</li>
                                     <li><strong>2. Interest Rates and Penal Charges:</strong> Trading loans often carry floating interest rates linked to benchmarks like the Repo Rate. Specialized lawyers verify if the interest calculations are transparent and if the penal charges for over-leveraging are within the caps suggested by recent RBI directives for 2025.</li>
                                     <li><strong>3. Concentration Risk Clauses:</strong> Brokers often limit how much of a single stock can be held as margin. If a particular stock falls or is blacklisted by the exchange for surveillance (GSM/ASM lists), the broker may suddenly demand 100% cash margin.</li>
                                     <li><strong>4. Rights to Sell:</strong> This is the most contested part. Does the broker have an absolute right to sell all your holdings, or must they sell only as much as needed to cover the immediate margin shortfall? The best lawyer uses judicial precedents to argue against over-liquidation.</li>
@@ -511,9 +511,9 @@ export default function TradingLoanSettlementClient() {
                                     Settle My Trading Debt
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ SEBI ODR Experts</p>
-                                    <p>✓ Stop Harassment</p>
-                                    <p>✓ Tactical Negotiations</p>
+                                    <p>? SEBI ODR Experts</p>
+                                    <p>? Stop Harassment</p>
+                                    <p>? Tactical Negotiations</p>
                                 </div>
                             </div>
 

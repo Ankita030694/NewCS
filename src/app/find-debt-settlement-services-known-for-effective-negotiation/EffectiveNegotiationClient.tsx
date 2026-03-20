@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '@/components/Navbar';
@@ -240,7 +240,7 @@ export default function EffectiveNegotiationClient() {
               <div className="mb-16">
                 <h2 id="introduction" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">Introduction: The Art and Law of Debt Negotiation in 2025</h2>
                 <p className="text-gray-700 leading-relaxed text-justify">
-                  In the rapidly evolving financial landscape of India in 2025, debt is no longer just a financial burden—it has become a complex legal and psychological challenge. As personal loan defaults reach record levels, the evolution of the Indian credit market has seen a massive shift from traditional banking to aggressive digital lending (FinTech). This has created a new era where the gap between being 'Stuck in Debt' and 'Finding Freedom' often narrows down to one single factor: the quality of negotiation.
+                  In the rapidly evolving financial landscape of India in 2025, debt is no longer just a financial burden-it has become a complex legal and psychological challenge. As personal loan defaults reach record levels, the evolution of the Indian credit market has seen a massive shift from traditional banking to aggressive digital lending (FinTech). This has created a new era where the gap between being 'Stuck in Debt' and 'Finding Freedom' often narrows down to one single factor: the quality of negotiation.
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4 text-justify">
                   The post-pandemic years have fundamentally altered how banks view non-performing assets (NPAs). Today, lenders are more willing to listen to reason, provided it is presented through the right legal and financial prism. For many borrowers, the prospect of facing a bank manager or a persistent recovery agent is overwhelming. This is where professional debt settlement services step in. These entities are not just intermediaries; they are advocates who blend legal expertise with market intelligence to reach a 'Compromise Settlement' that benefits both the lender and the borrower.
@@ -273,7 +273,7 @@ export default function EffectiveNegotiationClient() {
                     </li>
                     <li className="flex gap-2">
                       <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 mt-1" />
-                      <span><strong className="text-blue-900">Legal Leverage:</strong> They understand the granular details of the SARFAESI Act, the IBC (Insolvency and Bankruptcy Code), and the RBI's Fair Practice Code. They can spot a protocol violation in seconds—leverage that can be used to reduce your debt.</span>
+                      <span><strong className="text-blue-900">Legal Leverage:</strong> They understand the granular details of the SARFAESI Act, the IBC (Insolvency and Bankruptcy Code), and the RBI's Fair Practice Code. They can spot a protocol violation in seconds-leverage that can be used to reduce your debt.</span>
                     </li>
                     <li className="flex gap-2">
                       <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 mt-1" />
@@ -462,10 +462,10 @@ export default function EffectiveNegotiationClient() {
                     </div>
                     <div className="space-y-2">
                        <p className="font-bold text-red-400">AVOID IF:</p>
-                      <p>✗ They promise to 'clean' your CIBIL score instantly.</p>
-                      <p>✗ They ask for 100% of the settlement amount in their name.</p>
-                      <p>✗ They discourage you from talking to your lawyer.</p>
-                      <p>✗ They use aggressive sales tactics to sign you up.</p>
+                      <p>✗  They promise to 'clean' your CIBIL score instantly.</p>
+                      <p>✗  They ask for 100% of the settlement amount in their name.</p>
+                      <p>✗  They discourage you from talking to your lawyer.</p>
+                      <p>✗  They use aggressive sales tactics to sign you up.</p>
                     </div>
                   </div>
                 </div>
@@ -587,3 +587,4 @@ export default function EffectiveNegotiationClient() {
     </main>
   );
 }
+

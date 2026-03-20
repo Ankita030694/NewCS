@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -450,9 +450,9 @@ export default function MSMELoanDisputesClient() {
                                     Settle My Business Debt
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ MSMED Act Specialists</p>
-                                    <p>✓ SARFAESI Defense</p>
-                                    <p>✓ 45-Day Rule Experts</p>
+                                    <p>? MSMED Act Specialists</p>
+                                    <p>? SARFAESI Defense</p>
+                                    <p>? 45-Day Rule Experts</p>
                                 </div>
                             </div>
 

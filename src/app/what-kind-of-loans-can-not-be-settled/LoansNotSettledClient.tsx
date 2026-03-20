@@ -726,23 +726,23 @@ export default function LoansNotSettledClient() {
                   </div>
                   <div>
                     <h4 className="flex items-center font-bold text-red-700 mb-4 text-xl">
-                      <span className="bg-red-100 p-2 rounded-full mr-2">âœ—</span> Don'ts
+                      <span className="bg-red-100 p-2 rounded-full mr-2">âœ, </span> Don'ts
                     </h4>
                     <ul className="space-y-3">
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">âœ—</span>
+                        <span className="text-red-500 mr-2 font-bold">âœ, </span>
                         <span><strong>Don't Share Banking Passwords:</strong> Never give recovery agents access to your accounts.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">âœ—</span>
+                        <span className="text-red-500 mr-2 font-bold">âœ, </span>
                         <span><strong>Don't Issue Post-Dated Cheques:</strong> They can be used to file false 138 cases against you during negotiation.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">âœ—</span>
+                        <span className="text-red-500 mr-2 font-bold">âœ, </span>
                         <span><strong>Don't Agree to "Verbal" Promises:</strong> If it's not on paper, it doesn't exist.</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-red-500 mr-2 font-bold">âœ—</span>
+                        <span className="text-red-500 mr-2 font-bold">âœ, </span>
                         <span><strong>Don't Ignore Legal Notices:</strong> Always reply to a legal notice through a lawyer.</span>
                       </li>
                     </ul>

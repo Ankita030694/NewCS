@@ -507,9 +507,9 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                     Analyze My Priorities
                                 </Link>
                                 <div className="mt-6 text-xs text-gray-400 space-y-3 text-left">
-                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚óè</span> Total Debt Mapping</p>
-                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚óè</span> Risk Tier Analysis</p>
-                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚óè</span> Liquidity Management</p>
+                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚, è</span> Total Debt Mapping</p>
+                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚, è</span> Risk Tier Analysis</p>
+                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚, è</span> Liquidity Management</p>
                                 </div>
                             </div>
 

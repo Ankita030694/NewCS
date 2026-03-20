@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 77; // Updated for new loan settlement SEO pages (added 2 more).
+  const mainStaticPages = 85; // Updated for new loan settlement SEO pages (added 4 more in total).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -626,6 +626,48 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/what-documents-are-required-for-loan-settlement-with-a-professional-service`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-my-credit-card-dues-using-third-party-loan-settlement-companies`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-alternatives-exist-to-loan-settlement-for-managing-overwhelming-debt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-professional-services-assist-in-negotiating-loan-settlement-terms`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-interest-savings-by-settling-loans-early-through-digital-services`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/are-there-specialized-programs-for-settling-student-loan-defaults-in-india`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps`,
+    priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -1733,6 +1775,48 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/how-to-negotiate-a-lower-principal-amount-for-creditors`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-legal-risks-associated-with-defaulting-on-a-loan-without-settlement`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-user-reviews-for-popular-loan-settlement-platforms`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-my-credit-card-dues-using-third-party-loan-settlement-companies`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-alternatives-exist-to-loan-settlement-for-managing-overwhelming-debt`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/are-there-any-government-approved-loan-settlement-services-available-online`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/request-a-free-evaluation-of-my-debt-situation-from-a-settlement-firm`,
+    priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
   });

@@ -568,25 +568,25 @@ export default function PersonalLoanSettlementPageClient() {
               </p>
               <div className="pl-11 space-y-3">
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚óè</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚, è</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
                     <strong>Document Release Requirement:</strong> Lenders must release all original property documents within 30 days after settlement payment and remove any registered charges from public registries.
                   </p>
                 </div>
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚óè</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚, è</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
                     <strong>Harassment Prohibition:</strong> RBI strictly prohibits threatening, abusive, or coercive recovery practices. Recovery agents cannot visit your home at unreasonable hours, contact you outside 7 AM to 7 PM, or threaten legal action they don't intend to pursue.
                   </p>
                 </div>
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚óè</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚, è</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
                     <strong>Written Communication Mandate:</strong> All settlement terms must be documented in writing on official letterhead. Verbal promises or agreements have no legal standing. CredSettle ensures every negotiation culminates in formal written agreements.
                   </p>
                 </div>
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚óè</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>‚, è</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
                     <strong>Transparent Process:</strong> Borrowers have the right to understand the settlement calculation, including how principal, interest, and penalty components are treated. We ensure full transparency at every step.
                   </p>

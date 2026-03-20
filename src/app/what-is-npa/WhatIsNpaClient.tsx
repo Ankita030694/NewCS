@@ -335,7 +335,7 @@ export default function WhatIsNpaClient() {
                     <p>
                       This is the absolute amount of all loans classified as NPA. It represents the total volume of bad loans on the bank&apos;s books. It is a gross measure of the quality of the loan book.
                       <br/>
-                      <em>Formula: GNPA Ratio = (Total GNPA / Total Advances) Ã— 100</em>
+                      <em>Formula: GNPA Ratio = (Total GNPA / Total Advances) Ã,  100</em>
                     </p>
                   </div>
                   <div className="border border-blue-100 p-4 rounded-lg">
