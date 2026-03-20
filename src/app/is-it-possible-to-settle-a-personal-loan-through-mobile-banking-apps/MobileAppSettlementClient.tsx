@@ -230,8 +230,8 @@ export default function MobileAppSettlementClient() {
           {/* Middle Column: Main Content */}
           <main className="lg:w-2/4 xl:w-3/5 w-full">
             <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
-              <div id="intro" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">Introduction: The Dawn of Digital Debt Resolution</h2>
+              <div className="mb-16 scroll-mt-24">
+                <h2 id="intro" className="text-3xl font-bold mb-6 text-gray-900">Introduction: The Dawn of Digital Debt Resolution</h2>
                 <p className="text-gray-700 leading-relaxed">
                   As we navigate through 2025, the way Indians manage their finances has shifted almost entirely to the palm of their hands. From UPI payments to instant credit, the mobile phone is the primary financial hub. Naturally, when a borrower faces a financial crisis, their first instinct is to open their banking app and look for a solution.
                 </p>
@@ -243,8 +243,8 @@ export default function MobileAppSettlementClient() {
                 </p>
               </div>
 
-              <div id="ama-connect" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900 outline-dashed outline-1 outline-blue-200 p-4 rounded-xl">1. The Power of AMA Connect App: Your Debt Shield</h2>
+              <div className="mb-16 scroll-mt-24">
+                <h2 id="ama-connect" className="text-3xl font-bold mb-6 text-gray-900 outline-dashed outline-1 outline-blue-200 p-4 rounded-xl">1. The Power of AMA Connect App: Your Debt Shield</h2>
                 <p className="text-gray-700 leading-relaxed">
                   Before we look at bank apps, it is vital to understand the tool that has revolutionized debt settlement in India: the AMA Connect app. 
                 </p>
@@ -266,8 +266,8 @@ export default function MobileAppSettlementClient() {
                 </div>
               </div>
 
-              <div id="bank-apps" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">2. Limitations of Traditional Banking Apps</h2>
+              <div className="mb-16 scroll-mt-24">
+                <h2 id="bank-apps" className="text-3xl font-bold mb-6 text-gray-900">2. Limitations of Traditional Banking Apps</h2>
                 <p className="text-gray-700 leading-relaxed">
                   Apps like HDFC Bank MobileBanking or SBI YONO are designed according to strict bank protocols. For a bank, 'Settlement' is a loss. Therefore, they rarely promote it as an option in their interface. 
                 </p>
@@ -277,40 +277,109 @@ export default function MobileAppSettlementClient() {
                 </p>
               </div>
 
-              <div id="digital-security" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">3. Speed and Security in Digital Settlement</h2>
-                <p className="text-gray-700 leading-relaxed">
-                  The primary advantage of settling through an app in 2025 is speed. In the old days, you had to visit the bank branch multiple times, meet the manager, and wait weeks for a letter. 
+              <div className="mb-16 scroll-mt-24">
+                <h2 id="digital-security" className="text-3xl font-bold mb-6 text-gray-900 leading-tight">3. Strategic Speed and Bank-Grade Security</h2>
+                <p className="text-gray-700 leading-relaxed text-justify">
+                  The primary advantage of settling through an app in 2025 is speed combined with uncompromised security. In the traditional era, you had to visit the bank branch multiple times, meet the manager, and wait weeks for a physical letter. With specialized platforms like AMA Connect, the process is streamlined and secured using the following protocols:
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-                  <div className="p-6 bg-green-50 rounded-2xl border border-green-100 italic">"Digital settlement is 3x faster than physical visits."</div>
-                  <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 italic">"Instant verification of settlement letters using QR codes."</div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                  <div className="p-8 bg-blue-50 rounded-3xl border border-blue-100 shadow-sm">
+                    <h4 className="font-bold text-blue-900 mb-2 underline decoration-blue-200">AES-256 Encryption</h4>
+                    <p className="text-sm text-blue-800 leading-relaxed font-light">All your financial documents, including PAN and Bank Statements, are encrypted using bank-grade AES-256 standards, ensuring that your data is only visible to authorized legal experts.</p>
+                  </div>
+                   <div className="p-8 bg-green-50 rounded-3xl border border-green-100 shadow-sm">
+                    <h4 className="font-bold text-green-900 mb-2 underline decoration-green-200">Immutable Audit Trail</h4>
+                    <p className="text-sm text-green-800 leading-relaxed font-light">Every chat, document upload, and settlement offer is logged in an immutable digital ledger. This provides you with solid legal evidence in case of any future disputes with the bank.</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 leading-relaxed mt-4 text-justify italic border-l-4 border-amber-400 pl-4 bg-amber-50 py-3 rounded-r-xl">
+                  <strong>Pro Tip:</strong> Digital settlement letters often come with an embedded QR code for instant verification. This allows you to verify the authenticity of the offer directly with the bank's central regional office, bypassing potentially unreliable local branch staff.
+                </p>
+              </div>
+
+              <div className="mb-16 scroll-mt-24">
+                <h2 id="step-by-step" className="text-3xl font-bold mb-8 text-gray-900">4. Step-by-Step: The Digital Settlement Roadmap</h2>
+                <p className="text-gray-700 leading-relaxed mb-8 text-justify">
+                   Using a professional app like AMA Connect simplifies the complex world of debt negotiation into a manageable 8-step process. Here is how you can achieve freedom using your mobile phone:
+                </p>
+                <div className="space-y-4">
+                  {[
+                    { step: 1, title: "Secure Onboarding", desc: "Download the AMA Connect app and sign in using your registered mobile number and OTP. Connect your PAN and Aadhaar to sync all your active and defaulted loan accounts automatically." },
+                    { step: 2, title: "Portfolio Synchronization", desc: "The app uses secure data bridges to gather all your debt data in one dashboard. No more searching through emails or letters to find your outstanding amounts." },
+                    { step: 3, title: "Hardship Documentation", desc: "Upload your distress evidence—salary slips showing income loss, medical reports, or business termination notices—directly into the app's secure Document Vault." },
+                    { step: 4, title: "Strategic Analysis", desc: "The app's AI analyzes your profile and provides a 'Probable Settlement Range' (e.g., 40% to 60% waiver), giving you a realistic goal for the negotiation." },
+                    { step: 5, title: "Expert Assignment", desc: "You are assigned a professional debt negotiator or a legal expert. You can communicate with them 24/7 through the integrated in-app secure chat." },
+                    { step: 6, title: "Digital Negotiation", desc: "Your expert uses the app to submit a formal settlement proposal to the bank's regional management. The entire negotiation lifecycle is tracked in real-time." },
+                    { step: 7, title: "Letter Verification", desc: "Once the bank agrees, your 'Compromise Settlement Letter' appears in the app. Use the in-built verification tool to ensure the letter is 100% genuine and legally binding." },
+                    { step: 8, title: "Closure & NDC", desc: "Follow the app's secure link to pay the bank directly. Within 45 days, your No Dues Certificate (NDC) will be automatically pulled and stored in your vault." }
+                  ].map((item) => (
+                    <div key={item.step} className="flex gap-4 p-5 bg-white border border-gray-100 rounded-3xl hover:border-blue-200 transition-all shadow-[0_4px_20px_rgba(0,0,0,0.03)] group">
+                      <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-bold group-hover:bg-blue-700 transition-colors shadow-lg rotate-3 group-hover:rotate-0">{item.step}</div>
+                      <div>
+                        <h4 className="font-bold text-gray-900 mb-1 leading-tight">{item.title}</h4>
+                        <p className="text-sm text-gray-600 leading-relaxed text-justify font-light">{item.desc}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
 
-              <div id="step-by-step" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">4. Step-by-Step: Settling via AMA Connect</h2>
-                <ol className="space-y-6">
-                  <li className="flex gap-4 p-5 bg-gray-50 rounded-2xl border border-gray-100 items-center">
-                    <span className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">1</span>
-                    <div><strong>Onboarding:</strong> Download the app and sync your loan accounts using your registered mobile number.</div>
-                  </li>
-                  <li className="flex gap-4 p-5 bg-gray-50 rounded-2xl border border-gray-100 items-center">
-                    <span className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">2</span>
-                    <div><strong>Hardship Profiling:</strong> Upload documents proving your financial distress (e.g., job loss letter).</div>
-                  </li>
-                </ol>
-              </div>
-
-              <div id="pitfalls" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">5. Avoiding Digital Pitfalls and Scams</h2>
-                <p className="text-gray-700 leading-relaxed">
-                  With the rise of debt apps, there has also been a rise in 'Fake Settlement' scams. A scammer might send you a fake PDF on WhatsApp that looks like a bank letter. 
+              <div className="mb-16 scroll-mt-24">
+                <h2 id="pitfalls" className="text-3xl font-bold mb-6 text-gray-900 leading-tight">5. Avoiding Digital Pitfalls and Scams</h2>
+                <p className="text-gray-700 leading-relaxed text-justify">
+                  With the rise of debt apps, there has also been an unfortunate rise in 'Digital Settlement Fraud'. Scammers often impersonate bank officials or recognized apps to steal money. Follow this checklist to stay 100% safe:
+                </p>
+                <div className="bg-gray-900 text-white p-10 rounded-[2.5rem] shadow-2xl my-8 overflow-hidden relative border border-gray-800">
+                   <div className="absolute top-0 right-0 w-32 h-32 bg-red-600 opacity-10 rounded-full -mr-16 -mt-16 blur-3xl"></div>
+                   <h3 className="text-2xl font-bold mb-6 italic underline decoration-red-500">The 2025 Fraud Shield Checklist:</h3>
+                   <ul className="space-y-5 font-light">
+                     <li className="flex items-start gap-3">
+                       <span className="text-red-500 font-bold block mt-1 text-xl">✗</span>
+                       <span className="text-justify leading-relaxed"><strong>Never Pay a Third Party:</strong> Settlement money should ALWAYS go directly into the bank's official beneficiary account (e.g., 'HDFC Loan A/c [Number]'). Never pay to an individual's GPay or a non-registered company account.</span>
+                     </li>
+                     <li className="flex items-start gap-3">
+                       <span className="text-red-500 font-bold block mt-1 text-xl">✗</span>
+                       <span className="text-justify leading-relaxed"><strong>Verify Email Domains:</strong> If you receive a settlement letter via email, ensure the domain matches the bank exactly (e.g., @icicibank.com, not @icici-bank-support.in).</span>
+                     </li>
+                     <li className="flex items-start gap-3">
+                        <span className="text-green-500 font-bold block mt-1 text-xl">✓</span>
+                       <span className="text-justify leading-relaxed"><strong>Check App Signatures:</strong> Only download settlement tools from official links. Ensure the developer is verified (e.g., 'AMA Legal Solutions Pvt Ltd' for the AMA Connect app).</span>
+                     </li>
+                     <li className="flex items-start gap-3">
+                        <span className="text-green-500 font-bold block mt-1 text-xl">✓</span>
+                       <span className="text-justify leading-relaxed"><strong>Insist on the PDF Letter FIRST:</strong> Never pay a single rupee until you have a formal PDF Settlement Letter on the bank's letterhead, which you have verified using a QR code or by calling the bank's toll-free number.</span>
+                     </li>
+                   </ul>
+                </div>
+                <p className="text-gray-700 leading-relaxed text-justify font-bold text-red-600 bg-red-50 p-4 rounded-2xl">
+                  Caution: If an app or person promises to "wipe your CIBIL record instantly" in exchange for money, it is a scam. CIBIL scores only improve through a slow, legal process of repayment and score-rebuilding.
                 </p>
               </div>
 
-              <div id="faqs" className="mt-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">Expert FAQs on Digital Settlement</h2>
+              <div className="mb-16 scroll-mt-24">
+                <h2 id="future" className="text-3xl font-bold mb-6 text-gray-900 leading-tight">6. The Future: AI and Blockchain in Debt Resolution</h2>
+                <p className="text-gray-700 leading-relaxed text-justify">
+                  As we look beyond 2025, the landscape of debt settlement is set to become even more "frictionless." Technologies like AI-driven negotiation bots and Blockchain-based settlement ledgers are already in the pilot phase.
+                </p>
+                <div className="bg-gradient-to-br from-indigo-900 to-blue-900 text-white p-8 rounded-3xl my-8 shadow-xl">
+                  <div className="flex flex-col md:flex-row gap-8">
+                     <div className="flex-1">
+                        <h4 className="font-bold text-blue-300 mb-3 text-lg">AI-Driven Mediation</h4>
+                        <p className="text-sm font-light leading-relaxed opacity-90">Machine learning models will soon be able to predict the exact "sweet spot" for a settlement based on thousands of previous cases, ensuring borrowers get the maximum waiver without multiple manual iterations.</p>
+                     </div>
+                     <div className="flex-1">
+                        <h4 className="font-bold text-blue-300 mb-3 text-lg">Blockchain NDCs</h4>
+                        <p className="text-sm font-light leading-relaxed opacity-90">Future No Dues Certificates (NDCs) will be issued as verifiable digital tokens. This will eliminate the possibility of banks claiming "pending dues" years after a settlement has been successfully closed.</p>
+                     </div>
+                  </div>
+                </div>
+                <p className="text-gray-700 leading-relaxed text-justify font-light">
+                  Specialized platforms like AMA Connect are at the forefront of this revolution, integrating these technologies to ensure that the "Digital Settlement Era" is not just convenient, but also mathematically fair and legally bulletproof.
+                </p>
+              </div>
+
+              <div className="mt-16 scroll-mt-24">
+                <h2 id="faqs" className="text-3xl font-bold mb-8 text-gray-900">Expert FAQs on Digital Settlement</h2>
                 <div className="space-y-6">
                   {faqData.map((faq, index) => (
                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
@@ -322,8 +391,8 @@ export default function MobileAppSettlementClient() {
               </div>
 
               {/* Reviews Section */}
-              <div id="reviews" className="mt-20 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">What Users Are Saying</h2>
+              <div className="mt-20 scroll-mt-24">
+                <h2 id="reviews" className="text-3xl font-bold mb-8 text-gray-900">What Users Are Saying</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {reviews.map((review, i) => (
                     <div key={i} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">

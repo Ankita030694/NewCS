@@ -202,6 +202,44 @@ export default function InitiateSettlementClient() {
                 </div>
             </div>
 
+            {/* 3-Column Layout */}
+            {/* Mobile Sticky TOC */}
+            <div
+                ref={mobTocRef}
+                className="sticky top-0 z-40 lg:hidden bg-white border-b border-gray-200 shadow-sm overflow-x-auto no-scrollbar scroll-smooth py-3 px-4 flex gap-4 whitespace-nowrap"
+            >
+                {navLinks.map((link) => (
+                    <a
+                        key={link.id}
+                        id={`mob-toc-${link.id}`}
+                        href={`#${link.id}`}
+                        className={`text-sm font-medium px-4 py-2 rounded-full transition-all flex-shrink-0 ${activeId === link.id
+                            ? 'bg-blue-600 text-white shadow-md'
+                            : 'text-gray-600 bg-gray-50 hover:bg-gray-100'
+                            }`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            const element = document.getElementById(link.id);
+                            if (element) {
+                                const offset = 80;
+                                const bodyRect = document.body.getBoundingClientRect().top;
+                                const elementRect = element.getBoundingClientRect().top;
+                                const elementPosition = elementRect - bodyRect;
+                                const offsetPosition = elementPosition - offset;
+
+                                window.scrollTo({
+                                    top: offsetPosition,
+                                    behavior: 'smooth'
+                                });
+                            }
+                            setActiveId(link.id);
+                        }}
+                    >
+                        {link.label}
+                    </a>
+                ))}
+            </div>
+
             <div className="max-w-[1440px] mx-auto px-4 py-8 lg:py-12">
                 <div className="flex flex-col lg:flex-row gap-8 items-start">
 
@@ -272,7 +310,7 @@ export default function InitiateSettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Hardship Letter is the soul of your proposal. It is a formal document that explains why you cannot pay the full amount. A generic "I have no money" is not enough. You must prove <strong>genuine financial distress</strong>.
                             </p>
-                            <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
+                            <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light text-gray-700">
                                 <h4 className="font-bold mb-4">Elements of a Powerful Hardship Letter:</h4>
                                 <ul className="space-y-3">
                                     <li><strong>The Timeline:</strong> Briefly state when the financial trouble started and the specific cause (e.g., medical emergency in July 2024).</li>
@@ -396,7 +434,7 @@ export default function InitiateSettlementClient() {
                     </main>
 
                     {/* Right Column: CTA & Related */}
-                    <aside className="lg:w-1/4 xl:w-3/5 hidden lg:block sticky top-14">
+                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="space-y-6">
 
                             {/* Primary CTA */}
@@ -429,6 +467,7 @@ export default function InitiateSettlementClient() {
 
                         </div>
                     </aside>
+
 
                 </div>
             </div>

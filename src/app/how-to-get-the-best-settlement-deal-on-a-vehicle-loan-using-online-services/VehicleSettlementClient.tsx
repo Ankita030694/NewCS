@@ -230,8 +230,8 @@ export default function VehicleSettlementClient() {
           <main className="lg:w-2/4 xl:w-3/5 w-full">
             <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
               
-              <div id="intro" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">Introduction: The Unique Challenges of Vehicle Debt</h2>
+              <div className="mb-16">
+                <h2 id="intro" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">Introduction: The Unique Challenges of Vehicle Debt</h2>
                 <p className="text-gray-700 leading-relaxed">
                   Settling a vehicle loan (car, bike, or commercial vehicle) is fundamentally different from settling a credit card or a personal loan. Why? Because the bank has a "charge" over your vehicle—a legal claim known as hypothecation. If you default, the bank doesn't just send notices; they can physically repossess the asset.
                 </p>
@@ -240,8 +240,8 @@ export default function VehicleSettlementClient() {
                 </p>
               </div>
 
-              <div id="digital-shift" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900 underline decoration-blue-500 underline-offset-8">1. The Digital Shift: Negotiating Vehicle Debt Online</h2>
+              <div className="mb-16">
+                <h2 id="digital-shift" className="text-3xl font-bold mb-6 text-gray-900 underline decoration-blue-500 underline-offset-8 scroll-mt-24">1. The Digital Shift: Negotiating Vehicle Debt Online</h2>
                 <p className="text-gray-700 leading-relaxed">
                   Negotiating with NBFCs (like Mahindra Finance, Bajaj, or Cholamandalam) once required visiting remote regional offices. In 2025, the process has moved online.
                 </p>
@@ -250,8 +250,8 @@ export default function VehicleSettlementClient() {
                 </p>
               </div>
 
-              <div id="why-different" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">2. Why Settling a Vehicle Loan is Different</h2>
+              <div className="mb-16">
+                <h2 id="why-different" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">2. Why Settling a Vehicle Loan is Different</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                   <div className="p-6 bg-red-50 rounded-2xl border border-red-100">
                     <h4 className="font-bold text-red-900 mb-2">The Asset Factor</h4>
@@ -264,8 +264,8 @@ export default function VehicleSettlementClient() {
                 </div>
               </div>
 
-              <div id="top-platforms" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">3. Top Online Platforms for Vehicle Settlement (2025)</h2>
+              <div className="mb-16">
+                <h2 id="top-platforms" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">3. Top Online Platforms for Vehicle Settlement (2025)</h2>
                 <p className="text-gray-700 leading-relaxed mb-6">Choosing a service with legal expertise is vital for vehicle loans to ensure the bank correctly processes the de-hypothecation codes (Form 35).</p>
                 
                 <div className="space-y-6">
@@ -287,8 +287,8 @@ export default function VehicleSettlementClient() {
                 </div>
               </div>
 
-              <div id="rbi-rules" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">4. New RBI Guidelines for Vehicle Loans (2025-26)</h2>
+              <div className="mb-16">
+                <h2 id="rbi-rules" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">4. New RBI Guidelines for Vehicle Loans (2025-26)</h2>
                 <ul className="space-y-4 text-gray-700">
                   <li className="flex gap-3 items-start">
                     <FontAwesomeIcon icon={faExclamationTriangle} className="text-blue-600 mt-1" />
@@ -305,8 +305,8 @@ export default function VehicleSettlementClient() {
                 </ul>
               </div>
 
-              <div id="step-by-step" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900 outline-double outline-2 outline-blue-300 p-6 rounded-3xl">5. Step-by-Step Online Settlement Process</h2>
+              <div className="mb-16">
+                <h2 id="step-by-step" className="text-3xl font-bold mb-6 text-gray-900 outline-double outline-2 outline-blue-300 p-6 rounded-3xl scroll-mt-24">5. Step-by-Step Online Settlement Process</h2>
                 <div className="space-y-4">
                   <div className="flex gap-4 p-5 items-center bg-gray-50 rounded-2xl border border-gray-100">
                     <span className="font-bold text-2xl text-blue-900 opacity-20">01</span>
@@ -323,8 +323,8 @@ export default function VehicleSettlementClient() {
                 </div>
               </div>
 
-              <div id="rto-process" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900 underline decoration-blue-500 underline-offset-8">6. The Final Phase: RTO De-hypothecation</h2>
+              <div className="mb-16">
+                <h2 id="rto-process" className="text-3xl font-bold mb-6 text-gray-900 underline decoration-blue-500 underline-offset-8 scroll-mt-24">6. The Final Phase: RTO De-hypothecation</h2>
                 <p className="text-gray-700 leading-relaxed mb-6">
                   Once your online payment is done and you have the NDC, follows these steps to become the full legal owner:
                 </p>
@@ -341,8 +341,8 @@ export default function VehicleSettlementClient() {
                 </div>
               </div>
 
-              <div id="faqs" className="mt-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">Expert FAQs on Vehicle Settlement</h2>
+              <div className="mt-16">
+                <h2 id="faqs" className="text-3xl font-bold mb-8 text-gray-900 scroll-mt-24">Expert FAQs on Vehicle Settlement</h2>
                 <div className="space-y-6">
                   {faqData.map((faq, index) => (
                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
@@ -354,8 +354,8 @@ export default function VehicleSettlementClient() {
               </div>
 
               {/* Reviews Section */}
-              <div id="reviews" className="mt-20 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-8 text-gray-900">Success Stories: Vehicle Freedom</h2>
+              <div className="mt-20">
+                <h2 id="reviews" className="text-3xl font-bold mb-8 text-gray-900 scroll-mt-24">Success Stories: Vehicle Freedom</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {reviews.map((review, i) => (
                     <div key={i} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">

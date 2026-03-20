@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 export default function RequiredDocumentsClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -138,7 +140,8 @@ export default function RequiredDocumentsClient() {
     ];
 
     return (
-        <>
+        <main className="font-sans text-[#0C2756] bg-white">
+            <Navbar />
             {/* Hero Section */}
             <section
                 className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"
@@ -317,7 +320,7 @@ export default function RequiredDocumentsClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Once the negotiation is successful, you must receive specific documents to ensure your debt is legally dead.
                             </p>
-                            <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-6">
+                            <div className="bg-gray-50 text-gray-700 p-6 rounded-2xl border border-gray-100 mb-6">
                                 <strong>1. The OTS Offer Letter:</strong> Must be on bank letterhead with a reference number, amount, deadline, and "Settled" status promise.
                                 <br /><br />
                                 <strong>2. No Dues Certificate (NDC):</strong> Your definitive legal proof that the account is closed and no further money is owed.
@@ -334,9 +337,56 @@ export default function RequiredDocumentsClient() {
                             </ul>
 
                             <h2 id="professional-checklist" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Checklist for Professional Settlement Services</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                When working with experts like CredSettle, we ask for a Digital Vault of your documents. This includes an Authorization Letter and a Financial Hardship Questionnaire to build your case faster and more effectively than the bank\'s recovery department.
+                            <p className="text-gray-700 leading-relaxed mb-6 italic border-l-4 border-blue-600 pl-4 bg-blue-50 py-3 rounded-r-xl">
+                                Working with experts like CredSettle isn't just about negotiation—it's about "Strategic Document Management." Here is the 3-phase checklist we use to ensure your case is bulletproof.
                             </p>
+                            
+                            <div className="space-y-8 my-10">
+                                <div className="relative pl-8 border-l-2 border-blue-200">
+                                    <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-sm"></div>
+                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 1: Legal Authorization & Protection</h4>
+                                    <ul className="space-y-3 text-gray-700 list-none p-0">
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-sm leading-relaxed"><strong>Letter of Authority (LOA):</strong> A formal document (sometimes on a Rs. 100 stamp paper) authorizing us to represent you before the bank's Nodal Officer.</span>
+                                        </li>
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-sm leading-relaxed"><strong>Communication Log:</strong> A record of all harassing calls or visits. We use this as leverage to stop illegal recovery practices while we negotiate.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="relative pl-8 border-l-2 border-blue-200">
+                                    <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-sm"></div>
+                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 2: Case Analysis & Hardship Building</h4>
+                                    <ul className="space-y-3 text-gray-700 list-none p-0">
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-sm leading-relaxed"><strong>Financial Reality Questionnaire:</strong> A deep dive into your monthly income vs. essential liabilities. This helps us prove your "Inability to Pay."</span>
+                                        </li>
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-sm leading-relaxed"><strong>Detailed Hardship Statement:</strong> A professionally drafted letter that connects your life events (medical, job loss) to your financial default.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="relative pl-8 border-l-2 border-blue-200">
+                                    <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-sm"></div>
+                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 3: Tactical Negotiation & Closure</h4>
+                                    <ul className="space-y-3 text-gray-700 list-none p-0">
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-sm leading-relaxed"><strong>OTS Letter Audit:</strong> We verify the bank's One-Time Settlement (OTS) offer letter for over 15 parameters to ensure there are no hidden "claw-back" clauses.</span>
+                                        </li>
+                                        <li className="flex items-start gap-2">
+                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-sm leading-relaxed"><strong>NDC Retrieval Protocol:</strong> Once you pay, we ensure the No Dues Certificate is issued and the CIBIL status is updated to "Settled."</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
                             <h2 id="common-mistakes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Common Mistakes in Loan Settlement Documentation</h2>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light text-gray-800">
@@ -434,6 +484,7 @@ export default function RequiredDocumentsClient() {
 
                 </div>
             </div>
-        </>
+            <Footer />
+        </main>
     );
 }
