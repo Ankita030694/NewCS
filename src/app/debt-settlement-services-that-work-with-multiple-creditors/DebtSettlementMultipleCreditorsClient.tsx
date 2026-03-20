@@ -405,7 +405,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
 
                             <h2 id="rbi-framework-multi-debt" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">RBI Framework: Multi-Debt Protections 2025</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                The 2025 regulatory landscape, shaped by the RBI\'s <strong>"Prudential Framework for Resolution of Stressed Assets,"</strong> is increasingly borrower-friendly for those in genuine distress. The RBI has mandated that banks must have a transparent "Restructuring Policy" or "Settlement Policy." If you have multiple lenders, you can also leverage the <strong>"Integrated Ombudsman Scheme."</strong>
+                                The 2025 regulatory landscape, shaped by the RBI's <strong>"Prudential Framework for Resolution of Stressed Assets,"</strong> is increasingly borrower-friendly for those in genuine distress. The RBI has mandated that banks must have a transparent "Restructuring Policy" or "Settlement Policy." If you have multiple lenders, you can also leverage the <strong>"Integrated Ombudsman Scheme."</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 If multiple lenders are harassing you simultaneously, a professional mediator can file a collective complaint with the Ombudsman, arguing that the <strong>"Fair Practices Code"</strong> is being violated across the board. This often results in a "Ceasefire" where all lenders agree to stop recovery calls while a mediated settlement is discussed. This "Unified Legal Shield" is the ultimate benefit of using a specialized service.
@@ -420,7 +420,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 </div>
                                 <div className="p-10 bg-indigo-900 text-white rounded-[3rem] shadow-2xl transition-transform hover:scale-[1.02]">
                                     <h4 className="text-2xl font-black mb-6 border-b border-indigo-700 pb-4 tracking-tighter">Case Study: The Lok Adalat Tri-Settlement</h4>
-                                    <p className="font-light leading-relaxed mb-6">Ms. Kapoor had 3 major banks taking her to court. Our legal team coordinated with the DLSA (District Legal Services Authority) and arranged for all three cases to be heard in the same Lok Adalat session. We presented a unified "Net Worth Statement" showing she couldn\'t pay everyone in full but had a 5 Lakh lump sum (from jewelry sale). The judge mediated, and all three banks agreed to split the 5 Lakhs proportionally, withdrawing all criminal complaints instantly. This synchronized legal victory would have been impossible if she had tried to handle each bank separately.</p>
+                                    <p className="font-light leading-relaxed mb-6">Ms. Kapoor had 3 major banks taking her to court. Our legal team coordinated with the DLSA (District Legal Services Authority) and arranged for all three cases to be heard in the same Lok Adalat session. We presented a unified "Net Worth Statement" showing she couldn't pay everyone in full but had a 5 Lakh lump sum (from jewelry sale). The judge mediated, and all three banks agreed to split the 5 Lakhs proportionally, withdrawing all criminal complaints instantly. This synchronized legal victory would have been impossible if she had tried to handle each bank separately.</p>
                                 </div>
                             </div>
 
@@ -484,7 +484,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
 
                             <h3 className="text-2xl font-bold text-indigo-900 mb-6">The ARC Revolution: Why Your Debt Selling is Good News</h3>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                Finally, keep an eye on the <strong>Asset Reconstruction (ARC)</strong> market. In 2024 and 2025, banks have been selling massive portfolios of "Stressed Personal Loans" to ARCs. If your debt moves to an ARC, do not panic. These companies are "Distressed Asset Specialists." They don\'t have the same emotional or reputational attachment to your debt as a bank does. They want a deal. A professional multi-creditor service will know exactly which ARCs are currently offering the best "Haircuts" and will time your settlement to coincide with their fiscal targets.
+                                Finally, keep an eye on the <strong>Asset Reconstruction (ARC)</strong> market. In 2024 and 2025, banks have been selling massive portfolios of "Stressed Personal Loans" to ARCs. If your debt moves to an ARC, do not panic. These companies are "Distressed Asset Specialists." They don't have the same emotional or reputational attachment to your debt as a bank does. They want a deal. A professional multi-creditor service will know exactly which ARCs are currently offering the best "Haircuts" and will time your settlement to coincide with their fiscal targets.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 In conclusion, your path from "Drowning in 10 Debts" to "Debt-Free" is a journey that takes 12 to 24 months. It requires a <strong>Synchronized Strategy</strong> that respects the mathematical reality of your income while protecting your legal rights. Use the roadmap in this 4000+ word guide to start your recovery today. Reclaiming your financial freedom is not just about the money; it is about reclaiming your future.
@@ -507,9 +507,9 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                     Analyze My Priorities
                                 </Link>
                                 <div className="mt-6 text-xs text-gray-400 space-y-3 text-left">
-                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚, è</span> Total Debt Mapping</p>
-                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚, è</span> Risk Tier Analysis</p>
-                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚, è</span> Liquidity Management</p>
+                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚úî</span> Total Debt Mapping</p>
+                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚úî</span> Risk Tier Analysis</p>
+                                    <p className="flex items-center"><span className="text-purple-500 mr-2">‚úî</span> Liquidity Management</p>
                                 </div>
                             </div>
 

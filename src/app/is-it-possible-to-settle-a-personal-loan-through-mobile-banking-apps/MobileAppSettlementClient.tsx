@@ -334,11 +334,11 @@ export default function MobileAppSettlementClient() {
                    <h3 className="text-2xl font-bold mb-6 italic underline decoration-red-500">The 2025 Fraud Shield Checklist:</h3>
                    <ul className="space-y-5 font-light">
                      <li className="flex items-start gap-3">
-                       <span className="text-red-500 font-bold block mt-1 text-xl">âœ, </span>
+                       <span className="text-red-500 font-bold block mt-1 text-xl">âœ— </span>
                        <span className="text-justify leading-relaxed"><strong>Never Pay a Third Party:</strong> Settlement money should ALWAYS go directly into the bank's official beneficiary account (e.g., 'HDFC Loan A/c [Number]'). Never pay to an individual's GPay or a non-registered company account.</span>
                      </li>
                      <li className="flex items-start gap-3">
-                       <span className="text-red-500 font-bold block mt-1 text-xl">âœ, </span>
+                       <span className="text-red-500 font-bold block mt-1 text-xl">âœ— </span>
                        <span className="text-justify leading-relaxed"><strong>Verify Email Domains:</strong> If you receive a settlement letter via email, ensure the domain matches the bank exactly (e.g., @icicibank.com, not @icici-bank-support.in).</span>
                      </li>
                      <li className="flex items-start gap-3">
