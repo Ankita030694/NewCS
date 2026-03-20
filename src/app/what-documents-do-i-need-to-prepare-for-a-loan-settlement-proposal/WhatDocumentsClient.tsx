@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Footer from '@/components/Footer';
 
 const StarIcon = () => (
     <svg className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
