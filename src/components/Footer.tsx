@@ -239,6 +239,10 @@ export default function Footer() {
                   <a href="/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Salaried Individuals Plans</a>
                   <a href="/what-are-the-interest-savings-by-settling-loans-early-through-digital-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Interest Savings by Settling Loans Early</a>
                   <a href="/which-professional-services-assist-in-negotiating-loan-settlement-terms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Negotiating Loan Settlement Terms</a>
+                  <a href="/what-is-the-average-timeframe-for-completing-a-loan-settlement-process" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Average Timeframe for Loan Settlement</a>
+                  <a href="/how-to-initiate-a-loan-settlement-request-through-a-banks-online-portal" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Initiate Loan Settlement via Online Portal</a>
+                  <a href="/find-certified-financial-planners-who-specialize-in-debt-restructuring-and-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Certified Financial Planners Guide</a>
+                  <a href="/what-customer-support-options-do-loan-settlement-companies-provide" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Customer Support Options Guide</a>
 
               </div>
           </div>

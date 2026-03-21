@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 85; // Updated for new loan settlement SEO pages (added 4 more in total).
+  const mainStaticPages = 89; // Updated for new loan settlement SEO pages (added 4 total in this session).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -667,6 +667,34 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-the-average-timeframe-for-completing-a-loan-settlement-process`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-initiate-a-loan-settlement-request-through-a-banks-online-portal`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/find-certified-financial-planners-who-specialize-in-debt-restructuring-and-settlement`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-customer-support-options-do-loan-settlement-companies-provide`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
