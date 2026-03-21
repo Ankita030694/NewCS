@@ -243,6 +243,8 @@ export default function Footer() {
                   <a href="/how-to-initiate-a-loan-settlement-request-through-a-banks-online-portal" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Initiate Loan Settlement via Online Portal</a>
                   <a href="/find-certified-financial-planners-who-specialize-in-debt-restructuring-and-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Certified Financial Planners Guide</a>
                   <a href="/what-customer-support-options-do-loan-settlement-companies-provide" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Customer Support Options Guide</a>
+                  <a href="/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Write-Off vs Settlement Guide</a>
+                  <a href="/can-i-track-my-loan-settlement-status-through-financial-service-websites" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Track Settlement Status Online</a>
 
               </div>
           </div>

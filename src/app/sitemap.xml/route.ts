@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 89; // Updated for new loan settlement SEO pages (added 4 total in this session).
+  const mainStaticPages = 91; // Updated for new loan settlement SEO pages (added 6 total in this session).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -695,6 +695,20 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/what-customer-support-options-do-loan-settlement-companies-provide`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-track-my-loan-settlement-status-through-financial-service-websites`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
