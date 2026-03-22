@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import P2PLendingSettlementClient from './P2PLendingSettlementClient';
@@ -14,9 +15,33 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.credsettle.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "P2P Lending Settlement Guide",
+        "item": "https://www.credsettle.com/how-do-peer-to-peer-lending-platforms-handle-loan-settlements"
+      }
+    ]
+  };
+
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
+      <Script
+        id="breadcrumb-schema-p2p"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <P2PLendingSettlementClient />
       <Footer />
     </div>

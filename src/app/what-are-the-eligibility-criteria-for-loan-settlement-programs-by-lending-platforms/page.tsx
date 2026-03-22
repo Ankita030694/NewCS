@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import LoanSettlementEligibilityCriteriaClient from './LoanSettlementEligibilityCriteriaClient';
@@ -14,9 +15,33 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.credsettle.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Loan Settlement Eligibility Criteria",
+        "item": "https://www.credsettle.com/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms"
+      }
+    ]
+  };
+
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
+      <Script
+        id="breadcrumb-schema-eligibility"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <LoanSettlementEligibilityCriteriaClient />
       <Footer />
     </div>
