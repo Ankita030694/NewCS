@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Poppins } from "next/font/google";
+// Poppins font is now loaded via link tag in layout to avoid Turbopack resolution issues
+// import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
 import GlobalPopupForm from "@/components/GlobalPopupForm";
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
 
 export const metadata: Metadata = {
   title: "CredSettle - India's Trusted Loan Settlement Company",
@@ -98,9 +93,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body
-        className={`${poppins.variable} antialiased`}
+        className="antialiased"
       >
         <Script id="meta-pixel" strategy="afterInteractive">
           {`

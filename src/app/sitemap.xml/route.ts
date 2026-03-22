@@ -322,8 +322,7 @@ async function countSitemapPages(): Promise<{
     blogCount = 9;
   }
 
-  // Calculate counts
-  const mainStaticPages = 91; // Updated for new loan settlement SEO pages (added 6 total in this session).
+  const mainStaticPages = 95; // Updated for new credit card quote and P2P settlement pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -701,6 +700,20 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement`,
     priority: 0.9,
     changefreq: 'weekly',
@@ -708,7 +721,14 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/can-i-track-my-loan-settlement-status-through-financial-service-websites`,
+    loc: `${baseUrl}/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-do-peer-to-peer-lending-platforms-handle-loan-settlements`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today

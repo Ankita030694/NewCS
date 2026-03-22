@@ -245,6 +245,12 @@ export default function Footer() {
                   <a href="/what-customer-support-options-do-loan-settlement-companies-provide" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Customer Support Options Guide</a>
                   <a href="/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Write-Off vs Settlement Guide</a>
                   <a href="/can-i-track-my-loan-settlement-status-through-financial-service-websites" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Track Settlement Status Online</a>
+                  <a href="/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Officially Submit Loan Settlement Offer</a>
+                  <a href="/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement Eligibility Criteria</a>
+              <a href="/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Get Credit Card Settlement Quote</a>
+              <a href="/how-do-peer-to-peer-lending-platforms-handle-loan-settlements" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">P2P Lending Settlement Guide</a>
+              <a href="/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Joint Loan Settlement Implications</a>
+              <a href="/what-alternatives-exist-to-loan-settlement-services-for-debt-relief-online" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Relief Online Alternatives</a>
 
               </div>
           </div>
