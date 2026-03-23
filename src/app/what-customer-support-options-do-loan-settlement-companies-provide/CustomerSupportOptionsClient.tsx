@@ -77,7 +77,7 @@ export default function CustomerSupportOptionsClient() {
         },
         {
             question: 'How do I reach the legal team if a recovery agent visits my home?',
-            answer: 'Most top-tier firms like AMA Legal or CredSettle provide an Emergency Legal Helpline. You can call this number while the agent is present, and a legal expert will speak with them to ensure RBI guidelines are being followed.'
+            answer: 'Most top-tier firms like <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> or **CredSettle** provide an Emergency Legal Helpline. You can call this number while the agent is present, and a legal expert will speak with them to ensure RBI guidelines are being followed.'
         },
         {
             question: 'Is customer support available on weekends?',
@@ -326,7 +326,7 @@ export default function CustomerSupportOptionsClient() {
                                 When you are facing a default, you are not just fighting the bank; you are fighting a system. This system includes automated recovery bots, high pressure agents, and complex legal notices. Without a robust support structure, a borrower can easily crumble under the pressure and make faulty decisions, such as taking further "high interest bridge loans" or surrendering to unfair settlement terms. In this exhaustive 5,000 word guide, we will break down every layer of the modern support ecosystem in India, from the role of a dedicated case manager to the importance of emergency anti-harassment helplines.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                We will explore how top tier firms like **CredSettle** and **AMA Legal Solutions** use a "Human-Plus-Tech" model to provide 360 degree protection. Whether it is through digital dashboards that offer 24/7 transparency or regional language support that ensures no detail is lost in translation, the goal of modern support is clear: to give the borrower the peace of mind needed to finish the race. By understanding these options, you will be able to choose a service provider who doesn\'t just "handle your case," but actually "holds your hand" through the darkest periods of your financial life.
+                                We will explore how top tier firms like **CredSettle**, <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>, and <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans.in</a> use a "Human-Plus-Tech" model to provide 360 degree protection. Whether it is through digital dashboards that offer 24/7 transparency or regional language support that ensures no detail is lost in translation, the goal of modern support is clear: to give the borrower the peace of mind needed to finish the race. By understanding these options, you will be able to choose a service provider who doesn\'t just "handle your case," but actually "holds your hand" through the darkest periods of your financial life.
                             </p>
 
                             <h2 id="evolution-of-support" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Evolution of Support: From Call Centers to Legal Hubs</h2>
@@ -358,7 +358,7 @@ export default function CustomerSupportOptionsClient() {
                                 Perhaps the most vital support option is the 24/7 Legal Helpline. This is designed for crisis moments such as when a recovery agent shows up at your child's school or your elderly parents' home. Having a "Lawyer on Speed Dial" is no longer a luxury for the rich; it is a necessity for the defaulted borrower.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Companies like AMA Legal Solutions provide a dedicated emergency line. When an agent crosses the line, you can hand the phone to them. A legal professional will then inform the agent of the specific sections of the Indian Penal Code and RBI guidelines they are currently violating. This usually results in an immediate withdrawal by the agent. This "Real-Time Intervention" is a superior form of support that prevents physical harassment and social stigma.
+                                Companies like <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> provide a dedicated emergency line. When an agent crosses the line, you can hand the phone to them. A legal professional will then inform the agent of the specific sections of the Indian Penal Code and RBI guidelines they are currently violating. This usually results in an immediate withdrawal by the agent. This "Real-Time Intervention" is a superior form of support that prevents physical harassment and social stigma.
                             </p>
 
                             <h2 id="whatsapp-messenger-support" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">3. WhatsApp and Messenger Support: Convenience in Your Pocket</h2>

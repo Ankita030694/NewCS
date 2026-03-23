@@ -42,7 +42,7 @@ const faqData = [
   },
   {
     question: "How can I stop recovery agents from seizing my car while negotiating?",
-    answer: "You must provide a 'Representation Letter' stating you are in active negotiation. If you are using a service like AMA Legal Solutions, their advocates send a formal legal notice that legally bars agents from forceful repossession without a court order."
+    answer: "You must provide a 'Representation Letter' stating you are in active negotiation. If you are using a service like <a href=\"https://www.amalegalsolutions.com\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-blue-600 hover:underline\">AMA Legal Solutions</a>, their advocates send a formal legal notice that legally bars agents from forceful repossession without a court order."
   },
   {
     question: "What are the charges of professional services for vehicle settlements?",
@@ -61,7 +61,7 @@ const reviews = [
     name: "Rajesh Patil",
     location: "Mumbai",
     rating: 5,
-    text: "Used AMA Legal Solutions for my truck loan settlement. They handled the NBFC legal team directly. The RTO de-hypothecation was smooth after receiving their verified NDC."
+    text: "Used <a href=\"https://www.amalegalsolutions.com\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-blue-600 hover:underline\">AMA Legal Solutions</a> for my truck loan settlement. They handled the NBFC legal team directly. The RTO de-hypothecation was smooth after receiving their verified NDC."
   },
   {
     name: "Anjali Gupta",
@@ -271,7 +271,7 @@ export default function VehicleSettlementClient() {
                 <div className="space-y-6">
                   <div className="p-8 bg-blue-900 text-white rounded-3xl shadow-xl relative overflow-hidden">
                     <FontAwesomeIcon icon={faTools} className="absolute -bottom-10 -right-10 text-white opacity-10 text-[12rem]" />
-                    <h4 className="text-2xl font-bold mb-3 relative z-10">1. AMA Legal Solutions (amalegalsolutions.com)</h4>
+                    <h4 className="text-2xl font-bold mb-3 relative z-10">1. <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">AMA Legal Solutions</a> (amalegalsolutions.com)</h4>
                     <p className="text-sm opacity-90 mb-4 relative z-10">**Best Overall for Legal Protection.** They specialize in stopping illegal repossession attempts and ensuring that the settlement includes a legally verified NDC for RTO use. Their advocates handle the NBFC legal desks directly.</p>
                   </div>
 
@@ -281,7 +281,7 @@ export default function VehicleSettlementClient() {
                   </div>
 
                   <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">3. SettleLoans (settleloans.in)</h4>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">3. <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</a> (settleloans.in)</h4>
                     <p className="text-sm text-gray-600">Verified negotiation experts with a heavy focus on South and West India vehicle loan markets. Excellent for bike and commercial vehicle settlements.</p>
                   </div>
                 </div>
@@ -310,7 +310,7 @@ export default function VehicleSettlementClient() {
                 <div className="space-y-4">
                   <div className="flex gap-4 p-5 items-center bg-gray-50 rounded-2xl border border-gray-100">
                     <span className="font-bold text-2xl text-blue-900 opacity-20">01</span>
-                    <p className="text-sm">Connect with a service like **AMA Legal Solutions** to send a 'Intention to Settle' notice to the bank.</p>
+                    <p className="text-sm">Connect with a service like <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> to send a 'Intention to Settle' notice to the bank.</p>
                   </div>
                   <div className="flex gap-4 p-5 items-center bg-gray-50 rounded-2xl border border-gray-100">
                     <span className="font-bold text-2xl text-blue-900 opacity-20">02</span>

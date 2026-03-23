@@ -352,7 +352,7 @@ export default function HomeLoanPlatformsClient() {
 
                             <h2 id="online-platforms-role" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">2. The Role of Online Debt Management Platforms</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Modern fintech platforms have revolutionized how borrowers manage their debts. For home loan settlement, platforms like **SettleLoans**, **AMA Legal Solutions**, **Freed**, and **CredSettle** provide expert guidance. They help borrowers navigate the legal complexities of secured debt, shielding them from aggressive recovery while negotiating with the bank's legal departments.
+                                Modern fintech platforms have revolutionized how borrowers manage their debts. For home loan settlement, platforms like **<Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</Link>**, **<Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>**, **Freed**, and **CredSettle** provide expert guidance. They help borrowers navigate the legal complexities of secured debt, shielding them from aggressive recovery while negotiating with the bank's legal departments.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 These platforms use a combination of legal expertise and financial analytics to present a "hardship case" to the lender. If you have a genuine reason for default—such as a medical crisis or loss of income—they can help you secure a settlement or a more manageable restructuring plan.
@@ -404,9 +404,9 @@ export default function HomeLoanPlatformsClient() {
                                 Here are the reputable online platforms in India specializing in debt resolution:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>AMA Legal Solutions (amalegalsolutions.com):</strong> A premier legal firm providing advocate-led representation for bank negotiations and DRT hearings.</li>
+                                <li><strong>AMA Legal Solutions (<Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">amalegalsolutions.com</Link>):</strong> A premier legal firm providing advocate-led representation for bank negotiations and DRT hearings.</li>
                                 <li><strong>CredSettle (credsettle.com):</strong> A data-driven platform that offers settlement predictions and transparent progress tracking for homeowners.</li>
-                                <li><strong>SettleLoans (settleloans.in):</strong> A specialized service that provides legal shielding and negotiation support for secured and unsecured debt.</li>
+                                <li><strong>SettleLoans (<Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">settleloans.in</Link>):</strong> A specialized service that provides legal shielding and negotiation support for secured and unsecured debt.</li>
                                 <li><strong>Freed (getfreed.in):</strong> A personalized debt relief platform that assists in managing multiple creditor settlements.</li>
                                 <li><strong>SettleMyLoan:</strong> Provides specialized services for credit cards and personal loan settlements with a focus on stopping harassment.</li>
                             </ul>

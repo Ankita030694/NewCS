@@ -82,7 +82,7 @@ export default function DebtAlternativesClient() {
         },
         {
             question: 'Is credit counseling free in India?',
-            answer: 'There are both free and paid credit counseling services. Some banks offer free counseling through their social responsibility initiatives (like Disha or Abhay). Specialized firms like CredSettle or SettleLoans offer more comprehensive, personalized fee-based counseling.'
+            answer: 'There are both free and paid credit counseling services. Some banks offer free counseling through their social responsibility initiatives (like Disha or Abhay). Specialized firms like **CredSettle** or <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</a> offer more comprehensive, personalized fee-based counseling.'
         },
         {
             question: 'What is a Debt Management Plan (DMP)?',
@@ -408,7 +408,7 @@ export default function DebtAlternativesClient() {
                                 <li><strong>Single Payment Convenience:</strong> You pay 50,000 every month to the agency, and they distribute it proportionally to your 5 different banks.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                DMPs are highly respected by banks in 2025 because they prove the borrower is trying to pay back 100% of the principal. While your credit card lines will be closed during the DMP (to prevent more debt), once the plan is finished, your report reflects "Closed" or "Paid in Full." This is the primary "Alternative" for middle-income professionals who have too much debt for a consolidation loan but don't want to destroy their credit identity with a settlement.
+                                DMPs are highly respected by banks in 2025 because they prove the borrower is trying to pay back 100% of the principal. While your credit card lines will be closed during the DMP (to prevent more debt), once the plan is finished, your report reflects "Closed" or "Paid in Full." This is the primary "Alternative" for middle-income professionals who have too much debt for a consolidation loan but don't want to destroy their credit identity with a settlement. Firms like <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans.in</a> provide specialized DMPs for Indian consumers.
                             </p>
 
                             <h2 id="personal-insolvency" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Personal Insolvency: The "Nuclear Option" Under IBC 2016</h2>
@@ -468,7 +468,7 @@ export default function DebtAlternativesClient() {
                                 Regardless of which alternative you choose, you are protected by the **RBI Fair Practices Code** and the **Supreme Court Guidelines on Debt Recovery.** Banks and their agents cannot use force, harassment, or public humiliation. If you have chosen an alternative like a DMP or Restructuring, you can legally inform the recovery agents that you are in a "Formal Repayment Process."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This status gives you significant protection. In 2025, the Banking Ombudsman is extremely strict with banks that harass borrowers who are actively trying to pay через a restructuring or consolidation plan. A professional agency like **CredSettle** or **AMA Legal Solutions** can help you document this status, providing you with a "Legal Shield" that allows you to work and live without the fear of a sudden knock on your door.
+                                This status gives you significant protection. In 2025, the Banking Ombudsman is extremely strict with banks that harass borrowers who are actively trying to pay через a restructuring or consolidation plan. A professional agency like **CredSettle** or <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> can help you document this status, providing you with a "Legal Shield" that allows you to work and live without the fear of a sudden knock on your door.
                             </p>
 
                             <h2 id="bank-schemes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Bank-Specific Schemes: Public vs Private Sector Restructuring</h2>
@@ -484,7 +484,7 @@ export default function DebtAlternativesClient() {
                                 To truly understand the value of credit counseling, one must see it from the inside. A typical day for an expert counselor at a firm like SettleLoans involves more than just crunching numbers. It begins with "Empathy Training"—listening to borrowers who are at their breaking point. The counselor's first task is to separate the *person* from the *problem*. They act as a detective, looking for expenses that can be cut and income sources (like dormant insurance policies or unused gold) that can be tapped.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                By midday, the counselor is on the phone with bank collection managers. They don't beg; they negotiate from a position of data. They present the bank with a formal "Financial Hardship Report" that makes a settlement or restructuring look like the most logical choice for the bank's bottom line. This professional bridge-building is what saves thousands of borrowers from legal notices and harassment every month.
+                                By midday, the counselor is on the phone with bank collection managers. They don't beg; they negotiate from a position of data. They present the bank with a formal "Financial Hardship Report" that makes a settlement or restructuring look like the most logical choice for the bank's bottom line. This professional bridge-building by firms like <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans.in</a> is what saves thousands of borrowers from legal notices and harassment every month.
                             </p>
 
                             <h2 id="family-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Impact of Debt on Family and Partnerships</h2>
@@ -508,7 +508,7 @@ export default function DebtAlternativesClient() {
                                 Under the Insolvency and Bankruptcy Code (IBC) 2016, individuals in India have a structured legal path to declare insolvency. This is a "Nuclear Option" and should only be considered when all other alternatives—settlement, restructuring, and DMPs—have failed. The process involves filing an application with the National Company Law Tribunal (NCLT) or the Debt Recovery Tribunal (DRT).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Once the "Fresh Start Process" or "Insolvency Resolution Process" begins, an intense legal moratorium is placed on all your debts. No creditor can sue you or harass you. However, the downside is significant: your assets may be liquidated to pay creditors, and your credit rating will be decimated for years. It is a legal "Rebirth" that comes with a high price. Always consult a specialist firm like AMA Legal Solutions before taking a step this drastic; most "Bankrupt" individuals can actually be saved through professional debt settlement instead.
+                                Once the "Fresh Start Process" or "Insolvency Resolution Process" begins, an intense legal moratorium is placed on all your debts. No creditor can sue you or harass you. However, the downside is significant: your assets may be liquidated to pay creditors, and your credit rating will be decimated for years. It is a legal "Rebirth" that comes with a high price. Always consult a specialist firm like <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> before taking a step this drastic; most "Bankrupt" individuals can actually be saved through professional debt settlement instead.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-20 text-center">Real Stories of Freedom</h2>

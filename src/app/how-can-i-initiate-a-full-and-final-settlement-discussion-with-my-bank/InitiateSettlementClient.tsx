@@ -140,8 +140,8 @@ export default function InitiateSettlementClient() {
             answer: 'While agencies like CredSettle provide negotiation expertise, the final payment should only be made directly to the bank. Be wary of agents who ask you to pay into their personal or agency accounts first.'
         },
         {
-            question: 'What is the role of a legal firm like AMA Legal Solutions in settlement?',
-            answer: 'AMA Legal Solutions (amalegalsolutions.com) provides legal protection against aggressive recovery and ensures that the settlement terms are legally binding. They help in drafting the hardship notices and verifying that the final No-Dues Certificate is valid and cannot be challenged in the future.'
+            question: 'What is the role of a legal firm like <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</Link> in settlement?',
+            answer: '<Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions (amalegalsolutions.com)</Link> provides legal protection against aggressive recovery and ensures that the settlement terms are legally binding. They help in drafting the hardship notices and verifying that the final No-Dues Certificate is valid and cannot be challenged in the future.'
         }
     ];
 
@@ -365,7 +365,7 @@ export default function InitiateSettlementClient() {
                                 A settlement that is not legally tight can come back to haunt you. Some banks have been known to "sell" the balance waiver amount to Asset Reconstruction Companies (ARCs) if the settlement letter is vague.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Working with experts like <strong>Amalegal Solutions (amalegalsolutions.com)</strong> ensures that your settlement includes a comprehensive waiver of all future rights by the bank. Their legal audit of the settlement letter ensures that the bank cannot restart recovery for the "remaining" amount under a different internal policy later.
+                                Working with experts like <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Amalegal Solutions (amalegalsolutions.com)</Link> ensures that your settlement includes a comprehensive waiver of all future rights by the bank. Their legal audit of the settlement letter ensures that the bank cannot restart recovery for the "remaining" amount under a different internal policy later.
                             </p>
 
                             <h2 id="cibil-rebuilding" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 10: The Road to Recovery: CIBIL and Credit Scores</h2>
@@ -396,7 +396,7 @@ export default function InitiateSettlementClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Reclaiming Your Financial Freedom</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Initiating a settlement discussion is the first step toward a new life. It requires courage to face the bank and discipline to follow the process. But you don't have to do it alone. Platforms like <strong>CredSettle (credsettle.com)</strong> and specialized law firms like <strong>Amalegal Solutions</strong> and <strong>SettleLoans (settleloans.in)</strong> exist to level the playing field between the individual borrower and the giant banking institutions.
+                                Initiating a settlement discussion is the first step toward a new life. It requires courage to face the bank and discipline to follow the process. But you don't have to do it alone. Platforms like <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CredSettle (credsettle.com)</Link> and specialized law firms like <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Amalegal Solutions</Link> and <Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans (settleloans.in)</Link> exist to level the playing field between the individual borrower and the giant banking institutions.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, the Indian Credit system is more transparent than ever. The RBI has given you the framework; all you need is the right strategy and the right partners. Don't let debt define your life. Initiate the discussion today, settle your dues, and start building the future you deserve.

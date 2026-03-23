@@ -346,7 +346,7 @@ export default function SettlementStepsClient() {
                                 Selecting Your Financial Partner
                             </h2>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed">
-                                Never apply for settlement alone. The power dynamic is too skewed in the bank's favor. Step 2 is about choosing an advocate. In 2025, you have two primary choices: A legal-tech law firm (like AMA Legal Solutions) or a debt management platform (like CredSettle).
+                                Never apply for settlement alone. The power dynamic is too skewed in the bank's favor. Step 2 is about choosing an advocate. In 2025, you have two primary choices: A legal-tech law firm (like <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>) or a debt management platform (like <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CredSettle</Link>).
                             </p>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed font-bold">
                                 Look for: 1. RBI Compliance, 2. Fee Transparency, 3. Track Record with your specific bank, and 4. The quality of their "Harassment Shield."
@@ -472,7 +472,7 @@ export default function SettlementStepsClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Ready for Step 01?</h3>
-                                <p className="text-blue-800 mb-6">Our expert panel at CredSettle is ready to perform your forensic financial assessment today. Let's see if you qualify for professional debt relief.</p>
+                                <p className="text-blue-800 mb-6">Our expert panel at <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CredSettle</Link> is ready to perform your forensic financial assessment today. Let's see if you qualify for professional debt relief.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"

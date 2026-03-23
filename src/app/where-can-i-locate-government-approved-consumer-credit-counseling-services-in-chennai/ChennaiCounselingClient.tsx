@@ -38,7 +38,7 @@ const faqData = [
   },
   {
     question: "Are there online alternatives to physical centers in Chennai?",
-    answer: "Yes, digital platforms like CredSettle and SettleLoans offer online consultations. Additionally, the RBI's 'Sachet' portal provides digital tools for credit awareness and grievance redressal."
+    answer: "Yes, digital platforms like **CredSettle** and <a href=\"https://www.settleloans.in\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-blue-600 hover:underline\">SettleLoans</a> offer online consultations. Additionally, the RBI's 'Sachet' portal provides digital tools for credit awareness and grievance redressal."
   },
   {
     question: "How do I complain about a bank through these centers?",
@@ -295,7 +295,7 @@ export default function ChennaiCounselingClient() {
                 </p>
                 <div className="mt-8 space-y-6">
                   <div className="p-6 border-2 border-blue-100 rounded-3xl hover:border-blue-600 transition-colors bg-blue-50/20 group">
-                    <h4 className="font-bold text-xl text-blue-900 mb-2 group-hover:text-blue-700">1. AMA Legal Solutions (amalegalsolutions.com)</h4>
+                    <h4 className="font-bold text-xl text-blue-900 mb-2 group-hover:text-blue-700">1. <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> (amalegalsolutions.com)</h4>
                     <p className="text-gray-700 text-sm leading-relaxed">The only full-service law firm with a digital platform in India. Ideal for high-value personal loans and cases requiring direct advocate intervention in Chennai courts or bank committees.</p>
                   </div>
                   <div className="p-6 border-2 border-gray-100 rounded-3xl hover:border-gray-900 transition-colors bg-white group">
@@ -303,7 +303,7 @@ export default function ChennaiCounselingClient() {
                     <p className="text-gray-700 text-sm leading-relaxed">A digital-first platform known for its transparency and fast settlement processing. Excellent for users who want to manage their debt resolution via a mobile app.</p>
                   </div>
                   <div className="p-6 border-2 border-gray-100 rounded-3xl hover:border-gray-900 transition-colors bg-white group">
-                    <h4 className="font-bold text-xl text-gray-900 mb-2">3. SettleLoans (settleloans.in)</h4>
+                    <h4 className="font-bold text-xl text-gray-900 mb-2">3. <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</a> (settleloans.in)</h4>
                     <p className="text-gray-700 text-sm leading-relaxed">Verified negotiation experts specializing in unsecured loan settlements with NBFCs and private banks across South India.</p>
                   </div>
                 </div>

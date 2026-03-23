@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '@/components/Navbar';
@@ -71,7 +71,7 @@ const reviews = [
     name: "Karan Johar (Merchant)",
     location: "Mumbai",
     rating: 5,
-    text: "AMA Legal Solutions handled my business debt when the bank threatened legal action. Their advocates were top-notch and managed to get an OTS that saved my small enterprise."
+    text: "<a href=\"https://www.amalegalsolutions.com\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-blue-600 hover:underline\">AMA Legal Solutions</a> handled my business debt when the bank threatened legal action. Their advocates were top-notch and managed to get an OTS that saved my small enterprise."
   },
   {
     name: "Pooja Hegde",
@@ -291,10 +291,10 @@ export default function EffectiveNegotiationClient() {
                 <div className="border-b border-gray-100 pb-8">
                     <h3 className="text-2xl font-semibold mb-4 text-blue-900 flex items-center">
                        <span className="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-0.5 rounded-full mr-3">RANK #1</span>
-                      AMA Legal Solutions: High-End Legal Representation
+                      <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>: High-End Legal Representation
                     </h3>
                     <p className="text-gray-700 leading-relaxed text-justify">
-                      When a debt becomes a complex legal matter involving court notices, SARFAESI proceedings, or high-value settlements, AMA Legal Solutions is the top choice. Being a full-service law firm, they provide a level of representation that purely tech companies cannot match. They are particularly effective in "OTS" (One Time Settlement) negotiations with PSU banks like SBI.
+                      When a debt becomes a complex legal matter involving court notices, SARFAESI proceedings, or high-value settlements, <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> is the top choice. Being a full-service law firm, they provide a level of representation that purely tech companies cannot match. They are particularly effective in "OTS" (One Time Settlement) negotiations with PSU banks like SBI.
                     </p>
                     <div className="grid grid-cols-2 gap-4 mt-4">
                       <div className="bg-green-50 p-3 rounded-lg text-xs font-medium text-green-800">PROS: Court-room ready representation, high-value expert negotiators.</div>

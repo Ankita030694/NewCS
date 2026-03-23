@@ -265,7 +265,7 @@ export default function DigitalLendingClient() {
                                 Digital lenders use "Machine Learning" to manage their collections. When you submit a settlement request, their system looks at more than just your bank balance. They analyze your "Digital Footprint"—how many other apps have you downloaded? Are you paying your utility bills? Have you recently applied for a new credit card?
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To get a settlement approved, you must convince the **Algorithm** that your hardship is "Terminal" and not "Temporary." If the AI sees that you are still paying your Netflix subscription but defaulting on their loan, it will mark you as a "Strategic Defaulter" and reject the settlement. Professional firms like **CredSettle (credsettle.com)** understand this logic and help you present a financial profile that the Fintech systems recognize as a genuine hardship case.
+                                To get a settlement approved, you must convince the **Algorithm** that your hardship is "Terminal" and not "Temporary." If the AI sees that you are still paying your Netflix subscription but defaulting on their loan, it will mark you as a "Strategic Defaulter" and reject the settlement. Professional firms like <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CredSettle (credsettle.com)</Link> understand this logic and help you present a financial profile that the Fintech systems recognize as a genuine hardship case.
                             </p>
 
                             <h2 id="the-kfs-power" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 3: The Power of the Key Fact Statement (KFS)</h2>
@@ -297,7 +297,7 @@ export default function DigitalLendingClient() {
                                 Some "Fake" or "Grey-Market" digital apps still use illegal tactics like contacting your references or threatening to share photos. In 2025, this is a criminal offense under the IT Act and RBI rules.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If an app uses your contact list, stop the settlement negotiation immediately and file a cyber-crime complaint. Working with a law firm like <strong>Amalegal Solutions (amalegalsolutions.com)</strong> can ensure that these apps are held accountable. A legal notice from a reputed firm like AMA can often shut down an app's harassment overnight and force them into a very favorable settlement to avoid legal exposure.
+                                If an app uses your contact list, stop the settlement negotiation immediately and file a cyber-crime complaint. Working with a law firm like <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Amalegal Solutions (amalegalsolutions.com)</Link> can ensure that these apps are held accountable. A legal notice from a reputed firm like AMA can often shut down an app's harassment overnight and force them into a very favorable settlement to avoid legal exposure.
                             </p>
 
                             <h2 id="cooling-off-period" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 7: The "Pre-emptive" Settlement: Cooling-off</h2>
@@ -321,7 +321,7 @@ export default function DigitalLendingClient() {
 
                             <h2 id="the-danger-of-middlemen" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 9: The Danger of Third-Party Escrows</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many "Debt Help" apps ask you to pay into their "Collection Account" for a settlement. **Beware.** The RBI 2025 guidelines explicitly state that no Lending Service Provider can handle borrower money. Any firm asking you to pay them instead of the bank is violating the law. Legitimate consultants like **CredSettle** or **SettleLoans** will only guide you to pay directly to the bank.
+                                Many "Debt Help" apps ask you to pay into their "Collection Account" for a settlement. **Beware.** The RBI 2025 guidelines explicitly state that no Lending Service Provider can handle borrower money. Any firm asking you to pay them instead of the bank is violating the law. Legitimate consultants like <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CredSettle</Link> or <Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</Link> will only guide you to pay directly to the bank.
                             </p>
 
                             <h2 id="after-the-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 10: Digital Credit Hygiene Post-Settlement</h2>
@@ -341,7 +341,7 @@ export default function DigitalLendingClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Human Intelligence vs. Artificial Logic</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Digital lending is fast, but the rules are firm. You don't have to be a victim of an algorithm. By leveraging the RBI's 2025 guidelines and working with human experts from firms like **CredSettle (credsettle.com)**, **Amalegal Solutions**, and **SettleLoans (settleloans.in)**, you can successfully navigate the process of a digital loan settlement.
+                                Digital lending is fast, but the rules are firm. You don't have to be a victim of an algorithm. By leveraging the RBI's 2025 guidelines and working with human experts from firms like <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CredSettle (credsettle.com)</Link>, <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Amalegal Solutions</Link>, and <Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans (settleloans.in)</Link>, you can successfully navigate the process of a digital loan settlement.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Remember, even the most advanced AI is built on rules. If you follow the correct regulatory path and document your hardship, you can break the digital debt cycle. Take charge of your smartphone finances, clear your dues, and step back into a life of financial freedom.

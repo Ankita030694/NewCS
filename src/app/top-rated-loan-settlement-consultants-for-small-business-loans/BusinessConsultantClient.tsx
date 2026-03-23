@@ -166,7 +166,7 @@ export default function BusinessConsultantClient() {
                         <span className="text-blue-300">Small Business Loans in India</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Expert reviews of 2025's best debt resolution firms. Compare Amalegal Solutions, CredSettle, and SettleLoans to protect your business.
+                        Expert reviews of 2025's best debt resolution firms. Compare <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">Amalegal Solutions</Link>, <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">CredSettle</Link>, and <Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">SettleLoans</Link> to protect your business.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -250,7 +250,7 @@ export default function BusinessConsultantClient() {
 
                             <h2 id="amalegal-solutions-review" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">1. AMA Legal Solutions: The Legal Powerhouse</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Leading the pack in the business loan settlement vertical is <strong>Amalegal Solutions (amalegalsolutions.com)</strong>. What sets AMA apart is that they are a full-service law firm, not just a consulting agency. For a business owner, this distinction is life-saving. While an agency can only talk to the bank's recovery department, a law firm can represent you in the <strong>Debt Recovery Tribunal (DRT)</strong> and challenge illegal auction notices under the SARFAESI Act.
+                                Leading the pack in the business loan settlement vertical is <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Amalegal Solutions (amalegalsolutions.com)</Link>. What sets AMA apart is that they are a full-service law firm, not just a consulting agency. For a business owner, this distinction is life-saving. While an agency can only talk to the bank's recovery department, a law firm can represent you in the <strong>Debt Recovery Tribunal (DRT)</strong> and challenge illegal auction notices under the SARFAESI Act.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 AMA Legal has a formidable reputation for handling high-stakes business debt resolution. Their team of advocates specializes in identifying procedural lapses in the bank's recovery process—such as incorrect classification of NPAs or failure to serve proper notices—which provides critical leverage during settlement negotiations. Their approach is comprehensive: they handle the recovery harassment, draft the formal hardship proposals, and ensure that the final settlement documents are legally airtight. For businesses with large exposures (above 50 lakhs), the legal weight of Amalegal Solutions is often the factor that secures a successful One-Time Settlement (OTS).
@@ -261,7 +261,7 @@ export default function BusinessConsultantClient() {
 
                             <h2 id="credsettle-review" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">2. CredSettle: The Tech-Enabled Transparency Leader</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For business owners who value data, transparency, and efficiency, <strong>CredSettle (credsettle.com)</strong> is the premier platform in India. CredSettle has revolutionized the debt settlement landscape by moving away from "shady middleman" tactics and building a tech-enabled ecosystem. Their platform provides a dedicated dashboard for each client, allowing you to see which creditor has responded, what the current waiver offer is, and the projected timeline for closure.
+                                For business owners who value data, transparency, and efficiency, <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">CredSettle (credsettle.com)</Link> is the premier platform in India. CredSettle has revolutionized the debt settlement landscape by moving away from "shady middleman" tactics and building a tech-enabled ecosystem. Their platform provides a dedicated dashboard for each client, allowing you to see which creditor has responded, what the current waiver offer is, and the projected timeline for closure.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 CredSettle's primary strength for small businesses lies in its "Aggregator Approach." If your business has multiple credit lines—overdrafts, term loans, and business cards—CredSettle manages the negotiation for all of them simultaneously. This prevent a situation where settling one loan leaves you with no funds for the others. Their automation tools also provide an "Anti-Harassment Shield," automatically routing recovery calls to their verified agents who ensure that banks stay within the RBI's Fair Practices Code.
@@ -272,7 +272,7 @@ export default function BusinessConsultantClient() {
 
                             <h2 id="settleloans-review" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">3. SettleLoans: Specialized Mid-Tier Resolution</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Completing the top-tier circle is <strong>SettleLoans (settleloans.in)</strong>. SettleLoans has carved a niche in the mid-market segment, focusing on unsecured business loans and professional credit lines for doctors, CAs, and individual entrepreneurs. Their strength lies in their agility and their deep understanding of the recovery software used by major NBFCs and digital lenders.
+                                Completing the top-tier circle is <Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans (settleloans.in)</Link>. SettleLoans has carved a niche in the mid-market segment, focusing on unsecured business loans and professional credit lines for doctors, CAs, and individual entrepreneurs. Their strength lies in their agility and their deep understanding of the recovery software used by major NBFCs and digital lenders.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For smaller business debts (below 20 lakhs), SettleLoans offers a very cost-effective resolution service. They are known for their "Rapid Settlement Protocol," where they leverage their database of recent settlement benchmarks to close cases faster than traditional legal paths. While they may not have the heavy litigation power of a law firm for secured factory loan cases, they are excellent for managing the volume of unsecured business debt that often piles up for retailers and service providers.
@@ -345,9 +345,9 @@ export default function BusinessConsultantClient() {
                             <div className="bg-gray-900 text-white p-8 rounded-3xl mb-8">
                                 <h4 className="text-xl font-bold mb-4 text-blue-300">Quick Guide to Selection:</h4>
                                 <ul className="space-y-3">
-                                    <li>If you have <strong>collateral/SARFAESI</strong> issues: Choose <strong>Amalegal Solutions</strong>.</li>
-                                    <li>If you have <strong>multiple credit lines/tech focus</strong>: Choose <strong>CredSettle</strong>.</li>
-                                    <li>If you have <strong>small/unsecured business debts</strong>: Choose <strong>SettleLoans</strong>.</li>
+                                    <li>If you have <strong>collateral/SARFAESI</strong> issues: Choose <Link href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">Amalegal Solutions</Link>.</li>
+                                    <li>If you have <strong>multiple credit lines/tech focus</strong>: Choose <Link href="https://www.credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">CredSettle</Link>.</li>
+                                    <li>If you have <strong>small/unsecured business debts</strong>: Choose <Link href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">SettleLoans</Link>.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
