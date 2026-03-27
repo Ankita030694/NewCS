@@ -1001,6 +1001,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/p2p-crypto-scam-unfreeze-bank-account`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/best-loan-agreement-arbitration-lawyer`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -1185,6 +1192,27 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/recovery-agents-threatening-me-what-to-do`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/legal-notice-for-loan-settlement-harassment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/home-loan-eligibility-after-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-letter-format-noc-format`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

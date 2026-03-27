@@ -258,6 +258,10 @@ export default function Footer() {
               <a href="/can-i-settle-my-loan-without-a-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle Loan Without Lawyer</a>
               <a href="/loan-settlement-process-in-hindi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement in Hindi</a>
               <a href="/is-loan-settlement-in-installments-possible" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settlement in Installments</a>
+              <a href="/p2p-crypto-scam-unfreeze-bank-account" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">P2P Crypto Scam Unfreeze Account</a>
+              <a href="/legal-notice-for-loan-settlement-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Legal Notice for Harassment</a>
+              <a href="/home-loan-eligibility-after-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Home Loan After Settlement</a>
+              <a href="/loan-settlement-letter-format-noc-format" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settlement Letter & NOC Format</a>
 
               </div>
           </div>
