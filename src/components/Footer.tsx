@@ -251,6 +251,13 @@ export default function Footer() {
               <a href="/how-do-peer-to-peer-lending-platforms-handle-loan-settlements" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">P2P Lending Settlement Guide</a>
               <a href="/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Joint Loan Settlement Implications</a>
               <a href="/what-alternatives-exist-to-loan-settlement-services-for-debt-relief-online" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Relief Online Alternatives</a>
+              <a href="/support-for-loan-settlement-during-medical-emergencies" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement During Medical Crisis</a>
+              <a href="/how-to-get-800-credit-score-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Get 800 Credit Score Fast</a>
+              <a href="/can-i-convert-settled-to-closed-later" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Convert Settled to Closed Status</a>
+              <a href="/does-settlement-impact-a-co-borrower" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Does Settlement Impact Co-Borrower</a>
+              <a href="/can-i-settle-my-loan-without-a-lawyer" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle Loan Without Lawyer</a>
+              <a href="/loan-settlement-process-in-hindi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement in Hindi</a>
+              <a href="/is-loan-settlement-in-installments-possible" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settlement in Installments</a>
 
               </div>
           </div>

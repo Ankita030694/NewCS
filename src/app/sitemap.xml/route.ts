@@ -322,7 +322,7 @@ async function countSitemapPages(): Promise<{
     blogCount = 9;
   }
 
-  const mainStaticPages = 95; // Updated for new credit card quote and P2P settlement pages.
+  const mainStaticPages = 102; // Updated for installment settlement guide.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -476,6 +476,55 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services`,
     priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/support-for-loan-settlement-during-medical-emergencies`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-get-800-credit-score-in-india`,
+    priority: 1.0,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-convert-settled-to-closed-later`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/does-settlement-impact-a-co-borrower`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-my-loan-without-a-lawyer`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-process-in-hindi`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-loan-settlement-in-installments-possible`,
+    priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
   });
