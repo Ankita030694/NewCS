@@ -48,14 +48,21 @@ export default function LoanSettlementHindiClient() {
         { id: 'hindi-intro', label: 'परिचय (Overview)' },
         { id: 'settlement-meaning', label: 'सेटलमेंट क्या है?' },
         { id: 'rbi-rules-2025', label: 'RBI नियम 2025' },
+        { id: 'comparison-table', label: 'सेटल्ड vs क्लोज्ड vs रिटन ऑफ' },
         { id: 'cibil-impact-detailed', label: 'CIBIL पर असर' },
         { id: 'step-by-step-guide', label: 'स्टेप-बाय-स्टेप प्रक्रिया' },
+        { id: 'business-edu-loan', label: 'बिज़नेस और एजुकेशन लोन' },
+        { id: 'secured-loan-impact', label: 'होम लोन और गोल्ड लोन' },
+        { id: 'documents-checklist', label: 'दस्तावेज़ों की सूची' },
+        { id: 'bank-types', label: 'बैंक के प्रकार' },
         { id: 'legal-rights-india', label: 'कर्जदार के अधिकार' },
         { id: 'recovery-agent-defense', label: 'रिकवरी एजेंट से सुरक्षा' },
+        { id: 'legal-notice-response', label: 'लीगल नोटिस का जवाब' },
+        { id: 'tax-impact', label: 'टैक्स पर असर' },
         { id: 'ots-schemes', label: 'वन टाइम सेटलमेंट (OTS)' },
         { id: 'lok-adalat-help', label: 'लोक अदालत की मदद' },
+        { id: 'settlement-agencies', label: 'सेटलमेंट एजेंसी की भूमिका' },
         { id: 'score-improvement', label: 'सिबिल सुधारने का तरीका' },
-        { id: 'settled-to-closed', label: 'सेटल्ड vs क्लोज्ड' },
         { id: 'success-stories', label: 'सफलता की कहानियां' },
         { id: 'reviews-section', label: 'समीक्षाएं' },
         { id: 'faqs-hindi', label: 'अक्सर पूछे जाने वाले सवाल' },
@@ -292,6 +299,41 @@ export default function LoanSettlementHindiClient() {
                                 <li><strong>ओम्बुड्समैन (Ombudsman) की भूमिका:</strong> अगर बैंक सेटलमेंट लेटर देने में आनाकानी करता है, तो आप आरबीआई ओम्बुड्समैन के पास ऑनलाइन शिकायत दर्ज करा सकते हैं।</li>
                             </ul>
 
+                            <h2 id="comparison-table" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                सेटल्ड, क्लोज्ड और रिटन ऑफ में अंतर
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                                अपनी क्रेडिट रिपोर्ट को समझने के लिए आपको इन तीन शब्दों के बीच का फर्क समझना बहुत ज़रूरी है। अधिकतर लोग इन तीनों को एक ही मान लेते हैं, जो कि गलत है।
+                            </p>
+                            <div className="overflow-x-auto mb-10">
+                                <table className="w-full border-collapse border border-gray-200 text-left text-lg">
+                                    <thead className="bg-blue-600 text-white">
+                                        <tr>
+                                            <th className="p-4 border border-gray-200">स्थिति (Status)</th>
+                                            <th className="p-4 border border-gray-200">मतलब</th>
+                                            <th className="p-4 border border-gray-200">सिबिल पर असर</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="text-gray-700">
+                                        <tr className="bg-green-50">
+                                            <td className="p-4 border border-gray-200 font-bold">Closed</td>
+                                            <td className="p-4 border border-gray-200">आपने ब्याज सहित पूरा पैसा चुका दिया है।</td>
+                                            <td className="p-4 border border-gray-200 text-green-700 font-bold">सकारात्मक (Positive)</td>
+                                        </tr>
+                                        <tr className="bg-yellow-50">
+                                            <td className="p-4 border border-gray-200 font-bold">Settled</td>
+                                            <td className="p-4 border border-gray-200">आपने बैंक के साथ समझौता किया और कम पैसे दिए।</td>
+                                            <td className="p-4 border border-gray-200 text-yellow-700 font-bold">नकारात्मक (Negative)</td>
+                                        </tr>
+                                        <tr className="bg-red-50">
+                                            <td className="p-4 border border-gray-200 font-bold">Written Off</td>
+                                            <td className="p-4 border border-gray-200">बैंक ने मान लिया कि आप पैसा नहीं देंगें और खाता बंद कर दिया।</td>
+                                            <td className="p-4 border border-gray-200 text-red-700 font-bold">अति नकारात्मक (Critical)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                             <h2 id="cibil-impact-detailed" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
                                 सिबिल (CIBIL) पर होने वाला असर: क्या ध्यान रखें?
                             </h2>
@@ -329,6 +371,103 @@ export default function LoanSettlementHindiClient() {
                                 </div>
                             </div>
 
+                            <h2 id="business-edu-loan" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                बिज़नेस और एजुकेशन लोन सेटलमेंट
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                                पर्सनल लोन के अलावा बिज़नेस और एजुकेशन लोन में सेटलमेंट की प्रक्रिया थोड़ी अलग होती है:
+                            </p>
+                            <div className="space-y-6 mb-10">
+                                <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
+                                    <h4 className="text-2xl font-bold text-blue-900 mb-2">1. बिज़नेस लोन (Business Loan)</h4>
+                                    <p className="text-gray-700 leading-relaxed">अगर आपका बिज़नेस बंद हो गया है, तो आप GST सरेंडर सर्टिफिकेट या इनकम टैक्स रिटर्न (ITR) दिखाकर बैंक से भारी छूट मांग सकते हैं। पार्टनरशिप लोन में सभी पार्टनर्स की सहमति ज़रूरी होती है।</p>
+                                </div>
+                                <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
+                                    <h4 className="text-2xl font-bold text-blue-900 mb-2">2. एजुकेशन लोन (Education Loan)</h4>
+                                    <p className="text-gray-700 leading-relaxed">आरबीआई के अनुसार, एजुकेशन लोन को प्राथमिकता वाले क्षेत्र (Priority Sector) में रखा गया है। अगर छात्र की नौकरी नहीं लगी है, तो बैंक सेटलमेंट के बजाय "मोराटोरियम" या "रीपेमेंट हॉलिडे" देने के लिए भी तैयार हो जाते हैं।</p>
+                                </div>
+                            </div>
+
+                            <h2 id="secured-loan-impact" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                सुरक्षित लोन (Secured Loans): होम लोन और गोल्ड लोन
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                                सुरक्षित लोन का सेटलमेंट अनसिक्योर्ड लोन से बहुत कठिन होता है क्योंकि बैंक के पास आपकी संपत्ति (घर, जेवर, कार) गिरवी होती है।
+                            </p>
+                            <div className="bg-red-50 p-8 rounded-3xl border border-red-100 mb-10">
+                                <h4 className="text-xl font-bold text-red-900 mb-4">जरूरी चेतावनी:</h4>
+                                <ul className="space-y-4 text-gray-800">
+                                    <li><strong>1. सरफेसी एक्ट (SARFAESI Act):</strong> होम लोन डीफॉल्ट करने पर बैंक इस कानून के तहत आपकी प्रॉपर्टी को सीज कर सकता है।</li>
+                                    <li><strong>2. गोल्ड लोन:</strong> अगर आप 90 दिनों तक ब्याज नहीं देते, तो बैंक आपके सोने की नीलामी (Auction) करने का अधिकार रखता है।</li>
+                                    <li><strong>3. रास्ता:</strong> यहाँ सेटलमेंट के बजाय "लोन री-स्ट्रक्चरिंग" (Loan Restructuring) एक बेहतर विकल्प हो सकता है, जिससे आपकी संपत्ति बच सके।</li>
+                                </ul>
+                            </div>
+
+                            <h2 id="documents-checklist" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                ज़रूरी दस्तावेज़ों की सूची (Checklist)
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                                सेटलमेंट के लिए आवेदन करते समय आपके पास ये दस्तावेज तैयार होने चाहिए ताकि बैंक को आपकी मजबूरी पर यकीन हो:
+                            </p>
+                            <div className="bg-blue-50 p-10 rounded-[2.5rem] border-2 border-blue-100 mb-10 shadow-inner">
+                                <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-800 text-lg">
+                                    <li className="flex items-center gap-3">
+                                        <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293l-4-4a1 1 0 00-1.414 1.414L11.586 10l-3.293 3.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414z"/></svg>
+                                        टर्मिनेशन लेटर (अगर नौकरी गई हो)
+                                    </li>
+                                    <li className="flex items-center gap-3">
+                                        <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293l-4-4a1 1 0 00-1.414 1.414L11.586 10l-3.293 3.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414z"/></svg>
+                                        मेडिकल रिपोर्ट्स (गंभीर बीमारी के केस में)
+                                    </li>
+                                    <li className="flex items-center gap-3">
+                                        <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293l-4-4a1 1 0 00-1.414 1.414L11.586 10l-3.293 3.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414z"/></svg>
+                                        बैंक स्टेटमेंट (पिछले 6 महीने का)
+                                    </li>
+                                    <li className="flex items-center gap-3">
+                                        <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293l-4-4a1 1 0 00-1.414 1.414L11.586 10l-3.293 3.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414z"/></svg>
+                                        आय का प्रमाण (Salary Slip/ITR)
+                                    </li>
+                                    <li className="flex items-center gap-3">
+                                        <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293l-4-4a1 1 0 00-1.414 1.414L11.586 10l-3.293 3.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414z"/></svg>
+                                        सेटलमेंट रिक्वेस्ट लेटर (Hardship Letter)
+                                    </li>
+                                    <li className="flex items-center gap-3">
+                                        <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293l-4-4a1 1 0 00-1.414 1.414L11.586 10l-3.293 3.293a1 1 0 001.414 1.414l4-4a1 1 0 000-1.414z"/></svg>
+                                        कोई भी पिछला नोटिस (Legal Notice)
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <h2 id="bank-types" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                सरकारी बैंक vs प्राइवेट बैंक vs NBFCs
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                                सेटलमेंट की प्रक्रिया इस पर भी निर्भर करती है कि आपका लोन किस संस्थान से है:
+                            </p>
+                            <div className="grid grid-cols-1 gap-8 mb-10">
+                                <div className="flex gap-6 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+                                    <div className="w-16 h-16 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">PSU</div>
+                                    <div>
+                                        <h4 className="text-xl font-bold mb-2">सरकारी बैंक (SBI, PNB आदि)</h4>
+                                        <p className="text-gray-600 text-base">इनमें नियम बहुत सख्त होते हैं। वे आमतौर पर लोक अदालत या मार्च एंडिंग में ही भारी छूट देते हैं। यहाँ प्रक्रिया धीमी हो सकती है।</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-6 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+                                    <div className="w-16 h-16 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">PVT</div>
+                                    <div>
+                                        <h4 className="text-xl font-bold mb-2">प्राइवेट बैंक (HDFC, ICICI, Kotak)</h4>
+                                        <p className="text-gray-600 text-base">ये बैंक तेजी से निर्णय लेते हैं। अगर आपका लोन 180 दिनों से ऊपर NPA है, तो ये 20-30% में भी क्लोजर के लिए तैयार हो सकते हैं।</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-6 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
+                                    <div className="w-16 h-16 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">NBFC</div>
+                                    <div>
+                                        <h4 className="text-xl font-bold mb-2">NBFCs (Bajaj Finance, Muthoot आदि)</h4>
+                                        <p className="text-gray-600 text-base">इनके रिकवरी एजेंट बहुत आक्रामक हो सकते हैं, लेकिन ये "Haircut" देने में सबसे ज्यादा उदार होते हैं। यहाँ 80% तक छूट संभव है।</p>
+                                    </div>
+                                </div>
+                            </div>
+
                             <h2 id="legal-rights-india" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
                                 कर्जदार के कानूनी अधिकार: डरें नहीं, जानें
                             </h2>
@@ -352,12 +491,46 @@ export default function LoanSettlementHindiClient() {
                                 </ul>
                             </div>
 
+                            <h2 id="legal-notice-response" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                लीगल नोटिस का जवाब कैसे दें?
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                                जब आपको बैंक या उनके वकील से नोटिस मिले, तो डरे नहीं। नोटिस का जवाब (Reply) देना आपकी ईमानदारी को दर्शाता है।
+                            </p>
+                            <div className="p-8 bg-white border-l-8 border-blue-600 shadow-xl rounded-r-3xl mb-10">
+                                <p className="text-gray-800 italic leading-relaxed">
+                                    "नोटिस मिलने के 15 दिनों के भीतर उसका औपचारिक उत्तर दें। इसमें स्पष्ट लिखें कि आप पैसा चुकाना चाहते हैं लेकिन वर्तमान में आपकी आय के स्रोत बंद हैं। यह दस्तावेज़ भविष्य में अगर मामला कोर्ट में जाता है, तो आपके बचाव में काम आएगा।"
+                                </p>
+                            </div>
+
+                            <h2 id="tax-impact" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                लोन सेटलमेंट का टैक्स (Tax) पर असर
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg font-light">
+                                कई लोग नहीं जानते कि बैंक द्वारा माफ की गई राशि को आयकर विभाग (Income Tax Department) "आय" (Income) मान सकता है। 
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg font-light">
+                                <strong>धारा 194R:</strong> कुछ मामलों में, बैंक माफ की गई राशि पर TDS काट सकता है या उसे आपके फॉर्म 26AS में "Benefits/Perquisites" के रूप में दिखा सकता है। हालाँकि, व्यक्तिगत कर्जों (Personal Loans) में यह आमतौर पर लागू नहीं होता, लेकिन कॉर्पोरेट या बड़े बिज़नेस लोन में आपको अपने चार्टर्ड अकाउंटेंट (CA) से सलाह जरूर लेनी चाहिए।
+                            </p>
+
                             <h2 id="lok-adalat-help" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
                                 लोक अदालत: सेटलमेंट का सबसे अच्छा मंच
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-8 text-lg">
                                 लोक अदालत कर्जदारों के लिए वरदान साबित होती है। यहाँ बैंक अपनी फाइलें बंद करने के लिए 80% तक की छूट देने को तैयार हो जाते हैं। अगर आपको लोक अदालत का नोटिस मिलता है, तो उसे नजरअंदाज न करें। वहाँ जाने से न केवल आपका पैसा बचता है, बल्कि आपको बैंक से हमेशा के लिए पीछा छुड़ाने का कानूनी मौका भी मिलता है।
                             </p>
+
+                            <h2 id="settlement-agencies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
+                                सेटलमेंट एजेंसी की भूमिका: क्या आपको इनकी मदद लेनी चाहिए?
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed mb-8 text-lg">
+                                कई लोग अकेले बैंक से मोलभाव नहीं कर पाते। ऐसे में 'क्रेडिट सेटल' (CredSettle) जैसी एजेंसियां आपके बैंक और आपके बीच एक सेतु (Bridge) का काम करती हैं।
+                            </p>
+                            <ul className="list-disc pl-8 mb-8 space-y-4 text-gray-700 text-lg">
+                                <li><strong>पेशेवर मोलभाव:</strong> वे बैंक के नियमों को बेहतर जानते हैं और आपको अधिकतम छूट दिला सकते हैं।</li>
+                                <li><strong>कानूनी सुरक्षा:</strong> वे सुनिश्चित करते हैं कि आपको मिलने वाला सेटलमेंट लेटर 100% असली हो।</li>
+                                <li><strong>मानसिक शांति:</strong> बैंक के सभी कॉल्स और ईमेल्स का जवाब एजेंसी ही देती है, जिससे आपका तनाव कम होता है।</li>
+                            </ul>
 
                             <h2 id="score-improvement" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
                                 सिबिल स्कोर कैसे सुधारें? (Post-Settlement Recovery)
