@@ -501,32 +501,32 @@ export default function InstallmentSettlementClient() {
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">01</div>
-                                    <h5 className="font-bold text-lg mb-2">Intent Filing</h5>
+                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Intent Filing</h5>
                                     <p className="text-sm text-gray-500">Official email to the bank nodal officer expressing desire for compromise.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">02</div>
-                                    <h5 className="font-bold text-lg mb-2">Evidence Submission</h5>
+                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Evidence Submission</h5>
                                     <p className="text-sm text-gray-500">Submitting hospital records, pink slips, or business loss audits.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">03</div>
-                                    <h5 className="font-bold text-lg mb-2">Counter-Offer</h5>
+                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Counter-Offer</h5>
                                     <p className="text-sm text-gray-500">Rejecting the first bank offer of 90% and pushing for a 50% installment plan.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">04</div>
-                                    <h5 className="font-bold text-lg mb-2">Structure Proofing</h5>
+                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Structure Proofing</h5>
                                     <p className="text-sm text-gray-500">Ensuring the settlement letter has a specific 'Pay-by-Date' table.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">05</div>
-                                    <h5 className="font-bold text-lg mb-2">PDC Deposition</h5>
+                                    <h5 className="font-bold text-lg mb-2 text-blue-600">PDC Deposition</h5>
                                     <p className="text-sm text-gray-500">Handing over guarantees only after the letter is verified as authentic.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">06</div>
-                                    <h5 className="font-bold text-lg mb-2">NDC Harvest</h5>
+                                    <h5 className="font-bold text-lg mb-2 text-blue-600">NDC Harvest</h5>
                                     <p className="text-sm text-gray-500">Collecting the final closure documents 15 days after the last check clears.</p>
                                 </div>
                             </div>
