@@ -322,7 +322,7 @@ async function countSitemapPages(): Promise<{
     blogCount = 9;
   }
 
-  const mainStaticPages = 102; // Updated for installment settlement guide.
+  const mainStaticPages = 105; // Updated for handle loan default guide.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -791,10 +791,48 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  urls.push({
+    loc: `${baseUrl}/rbi-guidelines-calling-after-7pm`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-identify-fake-recovery-agents`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // HDFC Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement/hdfc`,
     priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Why Credit Score Drops Even Though I Pay on Time Page
+  urls.push({
+    loc: `${baseUrl}/why-does-my-credit-score-drop-even-though-i-pay-on-time`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Smart Ways to Manage EMI Payment Page
+  urls.push({
+    loc: `${baseUrl}/smart-ways-to-manage-emi-payment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Handle Loan Default Without Panicking Page
+  urls.push({
+    loc: `${baseUrl}/handle-loan-default-without-panicking`,
+    priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -1599,7 +1637,27 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
-  // Advantages and Disadvantages of Loan Settlement page
+  // Loan Settlement for Borrowers Facing Economic Downturn page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-borrowers-facing-economic-downturn`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/cred-settle-plan-for-building-debt-free-future-after-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-check-active-loan-on-your-name-in-india-stepbystep-guide`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
   urls.push({
     loc: `${baseUrl}/what-are-the-advantages-and-disadvantages-of-loan-settlement`,
     priority: 0.95,

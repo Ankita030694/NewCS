@@ -262,6 +262,16 @@ export default function Footer() {
               <a href="/legal-notice-for-loan-settlement-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Legal Notice for Harassment</a>
               <a href="/home-loan-eligibility-after-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Home Loan After Settlement</a>
               <a href="/loan-settlement-letter-format-noc-format" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settlement Letter & NOC Format</a>
+              <a href="/loan-settlement-for-borrowers-facing-economic-downturn" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement in Economic Downturn</a>
+              <a href="/cred-settle-plan-for-building-debt-free-future-after-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Post-Settlement Debt-Free Plan</a>
+              <a href="/cred-settle-support-for-avoiding-aggressive-recovery-practices" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Stop Aggressive Recovery Now</a>
+              <a href="/loan-settlement-for-borrowers-planning-financial-reset" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Financial Reset Settlement Plan</a>
+               <a href="/how-to-check-active-loan-on-your-name-in-india-stepbystep-guide" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Identify Your Active Loans Online</a>
+               <a href="/why-does-my-credit-score-drop-even-though-i-pay-on-time" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Why Credit Score Drops with Timely Payments</a>
+               <a href="/smart-ways-to-manage-emi-payment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Smart Ways to Manage EMI Payment</a>
+               <a href="/how-to-identify-fake-recovery-agents" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Identify Fake Recovery Agents</a>
+               <a href="/rbi-guidelines-calling-after-7pm" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBI Guidelines for Calling After 7 PM</a>
+               <a href="/handle-loan-default-without-panicking" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Handle Loan Default Without Panicking</a>
 
               </div>
           </div>
