@@ -89,7 +89,7 @@ export default function NegotiationGuideClient() {
   const faqs = [
     {
       question: "What is the absolute best way to start a loan settlement negotiation?",
-      answer: "The best way is to initiate contact after the loan has been in default for at least 90 days (NPA status). Send a formal email to the bank's Nodal Officer documenting your financial hardship with evidence like bank statements, medical bills, or job termination letters. This sets a serious, documented tone for the negotiation."
+      answer: "The best way is to initiate contact after the loan has been in default for at least 90 days (NPA status). Send a formal email to the bank’s Nodal Officer documenting your financial hardship with evidence like bank statements, medical bills, or job termination letters. This sets a serious, documented tone for the negotiation."
     },
     {
       question: "How much of a discount can I realistically negotiate on my loan?",
@@ -117,7 +117,7 @@ export default function NegotiationGuideClient() {
     },
     {
       question: "What should I do if a recovery agent threatens me during negotiation?",
-      answer: "Record the conversation. RBI guidelines strictly prohibit threats or harassment. Report the behavior to the bank's grievance officer immediately. A well-documented complaint about harassment can actually give you leverage in your settlement negotiation."
+      answer: "Record the conversation. RBI guidelines strictly prohibit threats or harassment. Report the behavior to the bank’s grievance officer immediately. A well-documented complaint about harassment can actually give you leverage in your settlement negotiation."
     },
     {
       question: "When is the most favorable time of year to settle a loan?",
@@ -137,7 +137,7 @@ export default function NegotiationGuideClient() {
     },
     {
       question: "What is an NDC and why is it critical?",
-      answer: "A No Dues Certificate (NDC) is the bank's formal admission that you no longer owe them any money. Without this document, the bank could technically restart recovery in the future. Always demand an NDC before making the final payment."
+      answer: "A No Dues Certificate (NDC) is the bank’s formal admission that you no longer owe them any money. Without this document, the bank could technically restart recovery in the future. Always demand an NDC before making the final payment."
     },
     {
       question: "Can a settled loan be removed from CIBIL?",
@@ -197,7 +197,7 @@ export default function NegotiationGuideClient() {
     },
     {
       question: "What is the 'Full and Final' clause in a settlement letter?",
-      answer: "It is a legal declaration that upon payment of the agreed amount, all liabilities—past, present, and future—related to that specific account are extinguished. Never pay without this clause in your offer letter."
+      answer: "It is a legal declaration that upon payment of the agreed amount, all liabilities-past, present, and future-related to that specific account are extinguished. Never pay without this clause in your offer letter."
     },
     {
       question: "Can I settle a loan after a Section 13(2) notice under SARFAESI?",
@@ -208,7 +208,7 @@ export default function NegotiationGuideClient() {
       answer: "Penal interest is almost always the first thing a bank waives. In your negotiation, distinguish between the 'Principal,' 'Normal Interest,' and 'Penal Charges.' Insist on paying only the principal and a portion of the normal interest."
     },
     {
-      question: "Will a settlement affect my family's ability to get loans?",
+      question: "Will a settlement affect my family’s ability to get loans?",
       answer: "Generally no, unless your family members were co-applicants or guarantors on YOUR loan. Credit scoring is individual. However, if you apply with the SAME bank that you settled with earlier, they may cross-reference their internal 'Negative List.'"
     },
     {
@@ -221,7 +221,7 @@ export default function NegotiationGuideClient() {
     },
     {
       question: "How do I prove medical hardship to a bank?",
-      answer: "Provide a 'Medical Audit'—a summary of hospital bills, medicine costs, and a doctor's certificate stating your inability to work. A spreadsheet showing these costs vs. your income is very effective."
+      answer: "Provide a 'Medical Audit'-a summary of hospital bills, medicine costs, and a doctor’s certificate stating your inability to work. A spreadsheet showing these costs vs. your income is very effective."
     },
     {
       question: "Can I settle a loan that was taken for a car?",
@@ -351,7 +351,7 @@ export default function NegotiationGuideClient() {
                   Timing is everything in debt relief. Attempting to negotiate a settlement while your account is still "Standard" (no missed payments) will almost always result in a rejection. Banks believe you have the capacity to pay, and they will hold you to the original terms of the agreement.
                 </p>
                 <p>
-                  The best way to negotiate loan settlement begins in the "Sweet Spot" between 90 and 180 days of default. By this time, the bank has realized that gentle reminders are not working. They have likely assigned your case to a collection agency, and the "Recovery Manager" is under pressure to show results. This is when the bank's willingness to listen to compromise offers is at its peak.
+                  The best way to negotiate loan settlement begins in the "Sweet Spot" between 90 and 180 days of default. By this time, the bank has realized that gentle reminders are not working. They have likely assigned your case to a collection agency, and the "Recovery Manager" is under pressure to show results. This is when the bank’s willingness to listen to compromise offers is at its peak.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                   <div className="p-6 bg-red-50 rounded-3xl border border-red-100">
@@ -360,7 +360,7 @@ export default function NegotiationGuideClient() {
                   </div>
                   <div className="p-6 bg-green-50 rounded-3xl border border-green-100">
                     <h4 className="font-bold text-green-900 mb-4 uppercase tracking-wider text-xs">Best Time to Settle</h4>
-                    <p className="text-green-800 text-lg">Between 90 to 180 days (NPA status). The bank's provisioning pressure makes them flexible.</p>
+                    <p className="text-green-800 text-lg">Between 90 to 180 days (NPA status). The bank’s provisioning pressure makes them flexible.</p>
                   </div>
                 </div>
                 <p>
@@ -368,7 +368,7 @@ export default function NegotiationGuideClient() {
                 </p>
               </div>
 
-              <h2 id="npa-stages" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28">The 4-Stage NPA Timeline: Understanding the Bank's Urgency</h2>
+              <h2 id="npa-stages" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28">The 4-Stage NPA Timeline: Understanding the Bank’s Urgency</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-xl text-justify">
                 <p>
                     A loan default is not a binary event; it is a progression through four distinct regulatory stages. In the best way to negotiate loan settlement, your strategy must change based on where your account sits on this timeline.
@@ -396,7 +396,7 @@ export default function NegotiationGuideClient() {
               <h2 id="fintech-vs-banks" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28">Fintech vs. Legacy Banks: Different DNA, Different Deals</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-xl text-justify">
                 <p>
-                    Negotiating with a digital-first lender like Navi, Slice, or ZestMoney is vastly different from negotiating with SBI or PNB. Fintechs operate on venture capital and high-turnover models. They don't have the patience for 5-year court cases. 
+                    Negotiating with a digital-first lender like Navi, Slice, or ZestMoney is vastly different from negotiating with SBI or PNB. Fintechs operate on venture capital and high-turnover models. They don’t have the patience for 5-year court cases. 
                 </p>
                 <p>
                     With Fintechs, the best way to negotiate loan settlement is through their digital grievance portals. They use automated "Settlement Generators" that offer pre-calculated waivers if you hit certain triggers in their system. For Fintechs, lead with a "Hardship Link" or a digital audit of your bank statements. They value speed over anything else. Legacy banks, conversely, value "Physical Presence" and written letters on paper.
@@ -425,14 +425,14 @@ export default function NegotiationGuideClient() {
               <h2 id="sarfaesi-deep-dive" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28">SARFAESI Act Deep Dive: Securing Your Home During Default</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-xl text-justify">
                 <p>
-                    For secured loans, the "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act" (SARFAESI) is the bank's most powerful tool. It allows them to take possession of your property WITHOUT going to court. But even this draconian law has loopholes that you can use.
+                    For secured loans, the "Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act" (SARFAESI) is the bank’s most powerful tool. It allows them to take possession of your property WITHOUT going to court. But even this draconian law has loopholes that you can use.
                 </p>
                 <p>
-                    <strong>Section 13(2) - The 60-Day Opportunity:</strong> When you receive this notice, the bank is giving you 60 days to pay or record your objection. The best way to negotiate loan settlement is to file a formal "Representation and Objection" within 15 days of receiving the notice. By law, the bank MUST respond to your objection within 15 days. If they don't, the entire recovery process can be challenged in the DRT. Use this time to propose a One-Time Settlement (OTS).
+                    <strong>Section 13(2) - The 60-Day Opportunity:</strong> When you receive this notice, the bank is giving you 60 days to pay or record your objection. The best way to negotiate loan settlement is to file a formal "Representation and Objection" within 15 days of receiving the notice. By law, the bank MUST respond to your objection within 15 days. If they don’t, the entire recovery process can be challenged in the DRT. Use this time to propose a One-Time Settlement (OTS).
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
                     <h4 className="font-bold text-blue-900 mb-3">Critical Tip:</h4>
-                    <p className="text-lg">Never ignore a Section 13(2) notice. It is the 'Point of No Return.' If you don't respond, the bank can move to Section 13(4) and take physical possession of your property. Negotiation is 10 times harder once the locks are changed.</p>
+                    <p className="text-lg">Never ignore a Section 13(2) notice. It is the 'Point of No Return.' If you don’t respond, the bank can move to Section 13(4) and take physical possession of your property. Negotiation is 10 times harder once the locks are changed.</p>
                 </div>
               </div>
 
@@ -455,7 +455,7 @@ export default function NegotiationGuideClient() {
                     If you want to win a negotiation, you must think like a Chief Financial Officer. The bank manager is not evaluating your "Life Story;" they are evaluating the "Opportunity Cost" of your debt. This is where the concept of Net Present Value (NPV) comes in.
                 </p>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 my-10">
-                    <h4 className="font-bold text-blue-900 mb-4">The CFO's Calculation:</h4>
+                    <h4 className="font-bold text-blue-900 mb-4">The CFO’s Calculation:</h4>
                     <p className="mb-2"><strong>Option A:</strong> Full recovery of ₹10 lakhs over 5 years via court. Adjusted for 10% inflation and ₹1 lakh legal cost, the "Present Value" of this ₹10 lakhs is only about ₹5.5 lakhs.</p>
                     <p className="mb-2"><strong>Option B:</strong> Immediate payment of ₹4.5 lakhs via settlement today. The bank gets the cash NOW and can lend it again at 12% interest.</p>
                 </div>
@@ -470,7 +470,7 @@ export default function NegotiationGuideClient() {
                     The legal framework for debt in India is undergoing a seismic shift in 2026. The "Insolvency and Bankruptcy Code (Amendment) Bill, 2025" has introduced the "Creditor Initiated Insolvency Resolution Process" (CIIRP) for high-net-worth individuals. While this sounds scary, it actually provides a structured "Exit Ramp" for borrowers who are buried under debt they can never repay.
                 </p>
                 <p>
-                    The best way to negotiate loan settlement in 2026 is to understand the "Threat of Personal Insolvency." Under the new rules, if a borrower declares insolvency, the bank might end up with almost nothing after years of litigation. By highlighting these legal realities to the bank's legal team, you can push for a settlement that is higher than the expected insolvency payout but significantly lower than the total outstanding.
+                    The best way to negotiate loan settlement in 2026 is to understand the "Threat of Personal Insolvency." Under the new rules, if a borrower declares insolvency, the bank might end up with almost nothing after years of litigation. By highlighting these legal realities to the bank’s legal team, you can push for a settlement that is higher than the expected insolvency payout but significantly lower than the total outstanding.
                 </p>
                 <p>
                     Furthermore, the "Cross-Border Insolvency" framework now prevents banks from attaching your overseas assets as easily as before without a reciprocal treaty. If you have international income or assets, this is a massive piece of leverage. Professional agencies like CredSettle use these legal nuances to protect your global footprint while resolving your local liabilities.
@@ -486,7 +486,7 @@ export default function NegotiationGuideClient() {
                     Section 14, however, is the "Physical Possession" phase where the bank asks the District Magistrate (DM) for police assistance to take the property. Many banks use the Section 14 order as a threat to force a quick, unfavorable settlement. However, a Section 14 order is merely procedural. It does not transfer ownership; it only transfers possession. Even after a Section 14 order is passed, you can still approach the DRT and seek a "Stay of Dispossession" by showing a credible settlement offer and your ability to pay. Knowing this distinction allows you to negotiate from a position of relative safety even when the police are involved.
                 </p>
                 <p>
-                    Furthermore, ensure that any settlement reached during the Section 14 phase includes the bank's responsibility to withdraw the DM's application. Some borrowers pay the money but forget to have the legal application cancelled, leading to confusing visits from court officials weeks later. A professional agency like CredSettle ensures that all legal threads are tied up during this high-pressure phase of the debt resolution journey.
+                    Furthermore, ensure that any settlement reached during the Section 14 phase includes the bank’s responsibility to withdraw the DM’s application. Some borrowers pay the money but forget to have the legal application cancelled, leading to confusing visits from court officials weeks later. A professional agency like CredSettle ensures that all legal threads are tied up during this high-pressure phase of the debt resolution journey.
                 </p>
               </div>
 
@@ -496,7 +496,7 @@ export default function NegotiationGuideClient() {
                     From a high-level economic perspective, permanent debt overhang is a drag on GDP growth. When millions of citizens are trapped in a cycle of defaults and harassment, they stop consuming, they stop investing, and they lose productivity due to mental stress. The best way to negotiate loan settlement is to realize that you are doing the economy a favor by cleaning your balance sheet.
                 </p>
                 <p>
-                    In 2026, the RBI's "Clean Book Policy" encourages banks to resolve stressed assets quickly rather than letting them linger for decades. By settling your debt, you are moving "Dead Capital" back into the "Active Economy." Once your settlement is complete, you will eventually return to the market as a consumer and a borrower, fueling the next cycle of growth. This macro-economic reality is why modern banking regulations are slowly moving away from the "Punitive Model" and towards the "Resolution Model" of debt management.
+                    In 2026, the RBI’s "Clean Book Policy" encourages banks to resolve stressed assets quickly rather than letting them linger for decades. By settling your debt, you are moving "Dead Capital" back into the "Active Economy." Once your settlement is complete, you will eventually return to the market as a consumer and a borrower, fueling the next cycle of growth. This macro-economic reality is why modern banking regulations are slowly moving away from the "Punitive Model" and towards the "Resolution Model" of debt management.
                 </p>
               </div>
 
@@ -507,11 +507,11 @@ export default function NegotiationGuideClient() {
                 </p>
                 <h3 className="text-2xl font-bold text-blue-800">MSME Loans and CGTMSE</h3>
                 <p>
-                    For small business owners, many loans are backed by the "Credit Guarantee Fund Trust for Micro and Small Enterprises" (CGTMSE). If your business fails, the trust covers up to 75% to 85% of the bank's loss. This is your biggest leverage! If the bank knows they can get 80% from the government, why would they settle with you for 40%? The trick is to negotiate during the "Waiting Period" before the bank files the claim with the trust. Once the claim is filed, the bank loses control of the file. Negotiate early, negotiate hard.
+                    For small business owners, many loans are backed by the "Credit Guarantee Fund Trust for Micro and Small Enterprises" (CGTMSE). If your business fails, the trust covers up to 75% to 85% of the bank’s loss. This is your biggest leverage! If the bank knows they can get 80% from the government, why would they settle with you for 40%? The trick is to negotiate during the "Waiting Period" before the bank files the claim with the trust. Once the claim is filed, the bank loses control of the file. Negotiate early, negotiate hard.
                 </p>
                 <h3 className="text-2xl font-bold text-blue-800">Education Loans: The "Moral Obligation" vs. Legal Reality</h3>
                 <p>
-                    Student loans are sensitive. Banks hate the "PR Disaster" of dragging a young graduate to court. However, most student loans have parents as co-applicants. The best way to negotiate an education loan settlement is to prove "Underemployment"—show that the degree did not lead to the expected salary. Banks have special "Soft Recovery" targets for education loans and are often willing to waive 100% of the penal interest if the principal is paid back in 6-12 months.
+                    Student loans are sensitive. Banks hate the "PR Disaster" of dragging a young graduate to court. However, most student loans have parents as co-applicants. The best way to negotiate an education loan settlement is to prove "Underemployment"-show that the degree did not lead to the expected salary. Banks have special "Soft Recovery" targets for education loans and are often willing to waive 100% of the penal interest if the principal is paid back in 6-12 months.
                 </p>
               </div>
 
@@ -521,7 +521,7 @@ export default function NegotiationGuideClient() {
                     Of all the reasons for default, medical emergencies are the most difficult for a bank manager to ignore. In the best way to negotiate loan settlement for medical debt, the "Human Element" takes center stage. No bank wants the reputational risk of being seen as the institution that forced a family into bankruptcy over a life-saving surgery.
                 </p>
                 <p>
-                    When presenting a medical hardship, be exhaustive. Don't just show the hospital bill; show the "Projected Survival Cost"—the ongoing medication, the physiotherapy, or the permanent loss of earning capacity. At CredSettle, we have seen waivers as high as 80% to 90% for borrowers who can prove a catastrophic health event. Banks often have a "Compassionate Grounds" clause in their internal policies that allowed for deeper haircuts than regular retail defaults. 
+                    When presenting a medical hardship, be exhaustive. Don’t just show the hospital bill; show the "Projected Survival Cost"-the ongoing medication, the physiotherapy, or the permanent loss of earning capacity. At CredSettle, we have seen waivers as high as 80% to 90% for borrowers who can prove a catastrophic health event. Banks often have a "Compassionate Grounds" clause in their internal policies that allowed for deeper haircuts than regular retail defaults. 
                 </p>
               </div>
 
@@ -531,13 +531,13 @@ export default function NegotiationGuideClient() {
                     If you are facing harassment or if your bank is refusing to follow its own Board-Approved Settlement Policy, the Banking Ombudsman is your savior. Under the Integrated Ombudsman Scheme, you can file a complaint online for "Deficiency in Service."
                 </p>
                 <p>
-                    The best way to negotiate loan settlement often involves a "Strategic Complaint." If a bank manager is being unreasonable, a complaint to the Ombudsman forces the bank's compliance officer to review the file. Compliance officers hate Ombudsman cases because they lead to audits and potential fines. Often, once an Ombudsman complaint is filed, the bank magically becomes more "Reasonable" and offers the waiver you were asking for.
+                    The best way to negotiate loan settlement often involves a "Strategic Complaint." If a bank manager is being unreasonable, a complaint to the Ombudsman forces the bank’s compliance officer to review the file. Compliance officers hate Ombudsman cases because they lead to audits and potential fines. Often, once an Ombudsman complaint is filed, the bank magically becomes more "Reasonable" and offers the waiver you were asking for.
                 </p>
               </div>
 
               <h2 id="negotiation-checklist" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28">The 20-Step Master Checklist: Your Path to a 70% Waiver</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-4 text-lg text-justify">
-                <p className="mb-6 text-xl">Follow this chronological checklist to ensure you don't miss any critical legal or financial steps during your negotiation.</p>
+                <p className="mb-6 text-xl">Follow this chronological checklist to ensure you don’t miss any critical legal or financial steps during your negotiation.</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {[
                         "Standardize your budget: List every unavoidable expense.",
@@ -546,15 +546,15 @@ export default function NegotiationGuideClient() {
                         "Audit your loan account statement for hidden insurance or fees.",
                         "Identify the 'Provisioning Bucket' of your loan (SMA or NPA).",
                         "Draft a 'Hardship Statement' that is emotional yet data-driven.",
-                        "Research the bank's current 'One-Time Settlement' (OTS) schemes.",
+                        "Research the bank’s current 'One-Time Settlement' (OTS) schemes.",
                         "Send a 'Without Prejudice' offer for 25% of the total outstanding.",
                         "Provide evidence of income loss or medical trauma immediately.",
                         "Record every interaction with recovery agents for RBI compliance.",
-                        "Ignore initial 'Final Notices'—these are usually automated bluffs.",
+                        "Ignore initial 'Final Notices'-these are usually automated bluffs.",
                         "Escalate to the Nodal Officer if the branch manager is rude.",
                         "Demand a written 'Approval Letter' before paying a single rupee.",
                         "Check the 'Approval Letter' for an NDC/Full-Release clause.",
-                        "Secure a 'Third-Party Fund'—tell the bank it's borrowed money.",
+                        "Secure a 'Third-Party Fund'-tell the bank it’s borrowed money.",
                         "Aim for a 'Lump Sum' payment to maximize the haircut.",
                         "Once paid, follow up every 7 days for the 'No Dues Certificate'.",
                         "Ensure the bank releases its 'Lien' on your other accounts.",
@@ -572,7 +572,7 @@ export default function NegotiationGuideClient() {
               <h2 id="preparation-phase" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28">The Evidence File: Preparing Your Hardship Case</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-xl text-justify">
                 <p>
-                    Negotiation without evidence is merely begging. To get the bank to accept a massive waiver, you must prove that your inability to pay is genuine and involuntary. Banks are wary of "Strategic Defaulters" (people who can pay but won't). You must build a "Hardship File" that leaves the bank manager with no choice but to admit that full recovery is impossible.
+                    Negotiation without evidence is merely begging. To get the bank to accept a massive waiver, you must prove that your inability to pay is genuine and involuntary. Banks are wary of "Strategic Defaulters" (people who can pay but won’t). You must build a "Hardship File" that leaves the bank manager with no choice but to admit that full recovery is impossible.
                 </p>
                 <h3 className="text-2xl font-bold text-blue-800">Essential Documents for Your File</h3>
                 <ul className="list-none space-y-4 p-0">
@@ -594,7 +594,7 @@ export default function NegotiationGuideClient() {
                         <span className="bg-blue-600 text-white w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">3</span>
                         <div>
                             <strong className="block text-gray-900 mb-1">Bank Statements:</strong> 
-                            A six-month statement showing high essential expenses and low balances proves you aren't hiding money.
+                            A six-month statement showing high essential expenses and low balances proves you aren’t hiding money.
                         </div>
                     </li>
                 </ul>
@@ -603,7 +603,7 @@ export default function NegotiationGuideClient() {
               <h2 id="negotiation-tactics" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28">Field-Tested Tactics: How to Negotiate for 70% Waivers</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-xl text-justify">
                 <p>
-                    Once you have your evidence and you've hit the right timing, it's time to communicate. The best way to negotiate loan settlement is through a formal, written "Hardship Letter" addressed to the Nodal Officer of the bank. Email is better than a phone call as it creates a permanent audit trail.
+                    Once you have your evidence and you’ve hit the right timing, it’s time to communicate. The best way to negotiate loan settlement is through a formal, written "Hardship Letter" addressed to the Nodal Officer of the bank. Email is better than a phone call as it creates a permanent audit trail.
                 </p>
                 <div className="p-8 bg-blue-900 text-white rounded-[1.5rem] my-8 shadow-xl overflow-hidden relative">
                     <h4 className="font-bold text-xl mb-4 text-blue-200">The Power of Choice:</h4>
@@ -616,7 +616,7 @@ export default function NegotiationGuideClient() {
                     Start your offer low. If you owe ₹10 lakhs, start with an offer of ₹2.5 lakhs (25%). The bank will likely counter with ₹7 lakhs. This is the "Anchor." You then "Pivot" back to your evidence, explaining why ₹2.5 lakhs is the absolute limit of your capacity. In most cases, the middle ground - around 40% to 50% - is where the deal will close.
                 </p>
                 <p>
-                    <strong>The "Third Party Source" Tactic:</strong> Tell the bank the money is not yours. Say, "I have no money, but my sister is willing to lend me ₹3 lakhs to close this debt once and for all. If you don't accept this, I will have no choice but to let the case go to court." This makes the offer feel like a limited-time opportunity for the bank.
+                    <strong>The "Third Party Source" Tactic:</strong> Tell the bank the money is not yours. Say, "I have no money, but my sister is willing to lend me ₹3 lakhs to close this debt once and for all. If you don’t accept this, I will have no choice but to let the case go to court." This makes the offer feel like a limited-time opportunity for the bank.
                 </p>
                 <div className="p-8 bg-blue-900 text-white rounded-[2rem] my-10 shadow-xl overflow-hidden relative">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full translate-x-16 -translate-y-16"></div>
@@ -650,7 +650,7 @@ export default function NegotiationGuideClient() {
                     When you negotiate a settlement, you MUST ensure that the settlement covers the liabilities of all co-applicants and guarantors. Many people settle their portions only to find that the bank is now harassing their father or spouse for the remainder. The best way to negotiate loan settlement is to insist on a "Full and Final Release" letter that explicitly names the guarantor and discharges them from all future claims. 
                 </p>
                 <div className="bg-amber-50 p-6 rounded-2xl border border-amber-100 italic text-amber-900">
-                    "If a guarantor is involved, the bank's leverage is doubled. Use the 'Family Honor' argument in reverse: tell the bank that dragging a senior citizen (guarantor) to court will create significant PR risk and that a quiet settlement today is in everyone's best interest."
+                    "If a guarantor is involved, the bank’s leverage is doubled. Use the 'Family Honor' argument in reverse: tell the bank that dragging a senior citizen (guarantor) to court will create significant PR risk and that a quiet settlement today is in everyone’s best interest."
                 </div>
               </div>
 
@@ -660,7 +660,7 @@ export default function NegotiationGuideClient() {
                     A critical but overlooked aspect is the taxation of the settled amount. Under Section 41(1) of the IT Act, if a "Trading Liability" is waived, it can be treated as taxable income. While this primarily applies to business loans, individual taxpayers should be aware of the "Savings from Debt Waiver" concept.
                 </p>
                 <p>
-                    If the bank waives ₹5 lakhs of your debt, that ₹5 lakhs is technically a gain for you. For individuals, this is usually not an issue as long as the loan was for personal consumption. However, for business owners, this could lead to a massive tax demand if not handled correctly in the books of accounts. Always consult a tax professional at CredSettle or your own CA after the settlement is closed to ensure you don't trade a bank problem for a tax problem.
+                    If the bank waives ₹5 lakhs of your debt, that ₹5 lakhs is technically a gain for you. For individuals, this is usually not an issue as long as the loan was for personal consumption. However, for business owners, this could lead to a massive tax demand if not handled correctly in the books of accounts. Always consult a tax professional at CredSettle or your own CA after the settlement is closed to ensure you don’t trade a bank problem for a tax problem.
                 </p>
               </div>
 
@@ -690,7 +690,7 @@ export default function NegotiationGuideClient() {
                     Understanding the best way to negotiate loan settlement in India requires a look at how developed economies handle distressed debt. In the United States, "Chapter 7 Bankruptcy" allows individuals to wipe the slate clean, though it stays on their record for 10 years. In the UK, an "Individual Voluntary Arrangement" (IVA) is a formal agreement to pay back what you can afford over a fixed period.
                 </p>
                 <p>
-                    In comparison, India's system is more decentralized. We don't have a functional personal bankruptcy framework for ordinary citizens yet, which makes "Bilateral Settlement" (you vs. the bank) the only viable option. However, the 2026 amendments are bringing India closer to the UK model. The takeaway for the Indian borrower is that you must be your own "Liquidator." You must professionalize your default by treating it as a restructuring of your personal balance sheet.
+                    In comparison, India’s system is more decentralized. We don’t have a functional personal bankruptcy framework for ordinary citizens yet, which makes "Bilateral Settlement" (you vs. the bank) the only viable option. However, the 2026 amendments are bringing India closer to the UK model. The takeaway for the Indian borrower is that you must be your own "Liquidator." You must professionalize your default by treating it as a restructuring of your personal balance sheet.
                 </p>
               </div>
 
@@ -700,7 +700,7 @@ export default function NegotiationGuideClient() {
                     By 2026, most banks in India use AI recovery agents. These are bots that analyze your voice stress, your response time to SMS, and even your social media activity to decide how hard to press you. The best way to negotiate loan settlement today is to "Starve the AI of Data." 
                 </p>
                 <p>
-                    Move all communication to email. Bots are programmed to handle phone calls with scripts designed to trigger your anxiety. Email communication moves the negotiation to the bank's human legal department, which is governed by logic and law, not by an algorithm's "Probability of Recovery" score. When a human recovery manager sees that you are using legal terminology and have professional representation, the AI's "Threat Score" is overwritten by human discretion.
+                    Move all communication to email. Bots are programmed to handle phone calls with scripts designed to trigger your anxiety. Email communication moves the negotiation to the bank’s human legal department, which is governed by logic and law, not by an algorithm’s "Probability of Recovery" score. When a human recovery manager sees that you are using legal terminology and have professional representation, the AI’s "Threat Score" is overwritten by human discretion.
                 </p>
               </div>
 
@@ -752,7 +752,7 @@ export default function NegotiationGuideClient() {
                         { term: "Recall Notice", definition: "A formal letter where the bank cancels the loan agreement and demands immediate full payment." },
                         { term: "Settled Status", definition: "The remark on a CIBIL report indicating a loan was closed for less than the full amount." },
                         { term: "SMA (Special Mention Account)", definition: "Loans that are overdue for 1-90 days, indicating potential stress before NPA." },
-                        { term: "Lien", definition: "A bank's legal right to hold or sell property to satisfy a debt." },
+                        { term: "Lien", definition: "A bank’s legal right to hold or sell property to satisfy a debt." },
                         { term: "Section 138", definition: "The section of the Negotiable Instruments Act handling criminal cases for cheque bounces." },
                         { term: "Moratorium", definition: "A temporary suspension of payments, usually granted during economic crises." },
                         { term: "Wilful Defaulter", definition: "A borrower who has the capacity to pay but chooses not to." },
@@ -784,7 +784,7 @@ export default function NegotiationGuideClient() {
                         Debt shame is a silent killer. In Indian culture, where "Sammaan" (honor) is tied to financial reliability, a default can lead to severe mental health issues. But the best way to negotiate loan settlement starts with a shift in mindset: You are not a criminal; you are a participant in a failed financial contract. 
                     </p>
                     <p className="text-xl text-gray-700 leading-relaxed mt-6 text-justify">
-                        Banks use this shame as a weapon. They hope the fear of your neighbors finding out will force you to pay even if it means starving your family. When you overcome this shame and stand your ground, the bank's biggest weapon becomes useless. Professional counseling and peer support groups are essential during this phase to keep your mental resolve high during the long months of negotiation.
+                        Banks use this shame as a weapon. They hope the fear of your neighbors finding out will force you to pay even if it means starving your family. When you overcome this shame and stand your ground, the bank’s biggest weapon becomes useless. Professional counseling and peer support groups are essential during this phase to keep your mental resolve high during the long months of negotiation.
                     </p>
                 </section>
 
@@ -794,7 +794,7 @@ export default function NegotiationGuideClient() {
                         Did you know that your geographical location impacts your settlement chances? Data shows that states like Maharashtra, Tamil Nadu, and Uttar Pradesh have the highest volume of settlements during National Lok Adalats. This is partly due to a more active legal aid system and a higher density of institutional recovery managers.
                     </p>
                     <p className="text-xl text-gray-700 leading-relaxed mt-6 text-justify">
-                        If you are based in a high-volume state, the best way to negotiate loan settlement is to request a "Pre-Adalat Conciliation" session. This is a meeting before the actual Lok Adalat day where you can iron out the details of the offer. Banks prefer these pre-meetings because it ensures a high "Closure Rate" on the actual day of the Adalat, which makes the bank's internal recovery reports look excellent.
+                        If you are based in a high-volume state, the best way to negotiate loan settlement is to request a "Pre-Adalat Conciliation" session. This is a meeting before the actual Lok Adalat day where you can iron out the details of the offer. Banks prefer these pre-meetings because it ensures a high "Closure Rate" on the actual day of the Adalat, which makes the bank’s internal recovery reports look excellent.
                     </p>
                 </section>
 
@@ -811,7 +811,7 @@ export default function NegotiationGuideClient() {
                 <section>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Conclusion: Entering the Era of Debt Freedom</h2>
                     <p className="text-xl text-gray-700 leading-relaxed text-justify">
-                        Negotiation is a journey from the impossible to the inevitable. By following the best way to negotiate loan settlement outlined in this guide—from timing the 90-day rule to mastering NPV math and legal shields—you are reclaiming your life.
+                        Negotiation is a journey from the impossible to the inevitable. By following the best way to negotiate loan settlement outlined in this guide-from timing the 90-day rule to mastering NPV math and legal shields-you are reclaiming your life.
                     </p>
                     <p className="text-xl text-gray-700 leading-relaxed mt-6 text-justify">
                         The era of harassment and fear is ending. The era of structured, dignified debt relief has begun. Take that first step, file that hardship letter, and never look back. Your financial future is waiting for you.
@@ -824,7 +824,7 @@ export default function NegotiationGuideClient() {
                 <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
                 <div className="relative z-10">
                     <h2 className="text-4xl md:text-5xl font-bold mb-8">Your Freedom is One Negotiation Away</h2>
-                    <p className="text-2xl mb-12 opacity-90 max-w-3xl mx-auto leading-relaxed">Don't let debt define your 2026. Get a professional audit of your loans and find out exactly how much you can save.</p>
+                    <p className="text-2xl mb-12 opacity-90 max-w-3xl mx-auto leading-relaxed">Don’t let debt define your 2026. Get a professional audit of your loans and find out exactly how much you can save.</p>
                     <Link 
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-16 py-6 rounded-full font-bold text-2xl hover:bg-blue-50 transition-all transform hover:-translate-y-2 shadow-2xl active:scale-95"
@@ -875,7 +875,7 @@ export default function NegotiationGuideClient() {
                   </Link>
                   <Link href="/what-kind-of-loans-can-not-be-settled" className="group block">
                     <span className="block text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-1">Exclusions</span>
-                    <p className="text-base font-bold text-gray-800 group-hover:text-blue-600 transition-colors leading-snug">Loans You Can't Settle</p>
+                    <p className="text-base font-bold text-gray-800 group-hover:text-blue-600 transition-colors leading-snug">Loans You Can’t Settle</p>
                   </Link>
                   <Link href="/what-are-the-consequences-of-not-paying-emi" className="group block">
                     <span className="block text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-1">Critical</span>
@@ -886,7 +886,7 @@ export default function NegotiationGuideClient() {
 
               {/* Trust Badge */}
               <div className="bg-gray-50 p-6 rounded-[1.5rem] border border-gray-100 text-center">
-                <div className="text-3xl mb-3">⚖️</div>
+                <div className="text-3xl mb-3">[Scale]</div>
                 <h5 className="font-bold text-gray-900 mb-2 text-sm">Legal Verification</h5>
                 <p className="text-[10px] text-gray-500 leading-relaxed">All content is reviewed by senior legal consultants specializing in Indian banking laws.</p>
               </div>

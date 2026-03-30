@@ -68,11 +68,11 @@ const DisputeForgedSignaturesClient = () => {
         },
         {
             question: "Can I stop bank EMIs if I dispute the loan as forged?",
-            answer: "Yes, but you must act quickly. Filing a police complaint (FIR) and sending a legal notice to the bank's Nodal Officer citing 'Identity Theft' can provide a grounds to stay EMIs. However, a bank usually only stops deductions after a prima facie report from a handwriting expert or a court stay order."
+            answer: "Yes, but you must act quickly. Filing a police complaint (FIR) and sending a legal notice to the bank’s Nodal Officer citing 'Identity Theft' can provide a grounds to stay EMIs. However, a bank usually only stops deductions after a prima facie report from a handwriting expert or a court stay order."
         },
         {
             question: "Are handwriting expert opinions conclusive in Indian courts?",
-            answer: "Handwriting expert opinions are considered 'advisory' rather than 'conclusive.' Under Section 45 of the Evidence Act (now Section 39 of BSA 2023), it is an expert's opinion. The court has the final authority to compare signatures under Section 73 (Evidence Act) but relies heavily on FSL reports for technical corroboration."
+            answer: "Handwriting expert opinions are considered 'advisory' rather than 'conclusive.' Under Section 45 of the Evidence Act (now Section 39 of BSA 2023), it is an expert’s opinion. The court has the final authority to compare signatures under Section 73 (Evidence Act) but relies heavily on FSL reports for technical corroboration."
         },
         {
             question: "What is the role of an FSL report in a loan fraud case?",
@@ -84,11 +84,11 @@ const DisputeForgedSignaturesClient = () => {
         },
         {
             question: "How does identity theft lead to forged loan signatures?",
-            answer: "Identity theft occurs when fraudsters use your Aadhaar or Pan card to apply for 'Instant Digital Loans.' Often, they forge a digital signature or a stylus-signed image. Disputing these requires forensic analysis of the 'metadata' of the signed document on the lender's app."
+            answer: "Identity theft occurs when fraudsters use your Aadhaar or Pan card to apply for 'Instant Digital Loans.' Often, they forge a digital signature or a stylus-signed image. Disputing these requires forensic analysis of the 'metadata' of the signed document on the lender’s app."
         },
         {
             question: "Will a forged loan affect my CIBIL score?",
-            answer: "Initially, yes. The default will trigger a 100+ point drop. However, with an FIR copy and a lawyer's representation, you can raise a 'Data Inaccuracy' dispute with CIBIL. If the forgery is proven, CIBIL is mandated to delete the entire record within 30 days."
+            answer: "Initially, yes. The default will trigger a 100+ point drop. However, with an FIR copy and a lawyer’s representation, you can raise a 'Data Inaccuracy' dispute with CIBIL. If the forgery is proven, CIBIL is mandated to delete the entire record within 30 days."
         },
         {
             question: "What is a 'Civil Suit for Declaration' in forgery?",
@@ -105,13 +105,13 @@ const DisputeForgedSignaturesClient = () => {
             name: 'Sunil Mehta',
             location: 'Mumbai',
             stars: 5,
-            comment: "CredSettle's handwriting expert proved the bank manager had forged my wife's signature. The loan was canceled and the bank paid us ₹5 Lakhs in damages. Their forensic team is brilliant."
+            comment: "CredSettle’s handwriting expert proved the bank manager had forged my wife’s signature. The loan was canceled and the bank paid us ₹5 Lakhs in damages. Their forensic team is brilliant."
         },
         {
             name: 'Priya Sharma',
             location: 'Delhi',
             stars: 5,
-            comment: "I was a victim of identity theft where someone took a digital loan in my name. CredSettle used IP tracking and forensic metadata to prove I didn't sign the document. My CIBIL is now clean."
+            comment: "I was a victim of identity theft where someone took a digital loan in my name. CredSettle used IP tracking and forensic metadata to prove I didn’t sign the document. My CIBIL is now clean."
         },
         {
             name: 'Amit Patel',
@@ -332,7 +332,7 @@ const DisputeForgedSignaturesClient = () => {
                                 In the era of "Instant Loans" and "Digital Onboarding," the risk of forgery has evolved from physical ink duplication to sophisticated identity theft. A **Dispute Over Forged Loan Signatures** is no longer just about a person copying your handwriting on a paper agreement; it includes stylus-signatures on mobile apps, digital signatures created using stolen Aadhaar data, and photocopy-based fabrication.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 italic font-medium border-l-4 border-blue-200 pl-4 py-2">
-                                "Forgery is the 'root' of credit fraud. If the signature is not yours, the entire loan contract is 'void ab initio'—it never legally existed in the first place."
+                                "Forgery is the 'root' of credit fraud. If the signature is not yours, the entire loan contract is 'void ab initio'-it never legally existed in the first place."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 At CredSettle, we understand the trauma of discovering an EMI deduction for a loan you never applied for. Our legal team uses 2025-26 forensic technology and a deep understanding of the Bharatiya Nyaya Sanhita (BNS) to dismantle fraudulent claims by banks and NBFCs.
@@ -438,14 +438,14 @@ const DisputeForgedSignaturesClient = () => {
 
                             <h2 id="fsl-cbi-reports" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 5: Role of FSL and CBI Reports in Loan Fraud</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In multi-crore loan frauds or consortium loan disputes, the police often send the documents to the **Forensic Science Laboratory (FSL)** or the **CBI's Forensic Division**.
+                                In multi-crore loan frauds or consortium loan disputes, the police often send the documents to the **Forensic Science Laboratory (FSL)** or the **CBI’s Forensic Division**.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 mb-10">
                                 <h4 className="text-lg font-bold text-blue-900 mb-4 tracking-tighter italic uppercase text-center">The Evidentiary Weight of FSL:</h4>
                                 <ul className="list-disc pl-6 space-y-3 font-light text-gray-800 tracking-tight">
                                     <li><strong>Admissibility:</strong> FSL reports are admissible directly under Section 293 of CrPC (now BNSS 2023).</li>
                                     <li><strong>Ink Analysis:</strong> FSL can determine the age of the ink to prove if a 'Back-dated' agreement was signed recently.</li>
-                                    <li><strong>Paper Forensics:</strong> Can detect if a piece of paper (with your genuine signature) was later used to print a loan agreement around it—a technique known as 'Cut-and-Paste' forgery.</li>
+                                    <li><strong>Paper Forensics:</strong> Can detect if a piece of paper (with your genuine signature) was later used to print a loan agreement around it-a technique known as 'Cut-and-Paste' forgery.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 italic">
@@ -489,7 +489,7 @@ const DisputeForgedSignaturesClient = () => {
                                 <div className="relative pl-12 border-l-2 border-slate-100 ml-4 pb-4">
                                     <div className="absolute -left-[17px] top-0 w-8 h-8 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black">01</div>
                                     <h5 className="font-bold text-slate-900 uppercase tracking-tighter italic">Bank Internal Fraud Unit Notice</h5>
-                                    <p className="text-sm text-gray-600">We send a technical notice to the bank's 'Fraud Monitoring Group' (FMG). By law, they must investigate and 'Mark' the account as disputed.</p>
+                                    <p className="text-sm text-gray-600">We send a technical notice to the bank’s 'Fraud Monitoring Group' (FMG). By law, they must investigate and 'Mark' the account as disputed.</p>
                                 </div>
                                 <div className="relative pl-12 border-l-2 border-slate-100 ml-4 pb-4">
                                     <div className="absolute -left-[17px] top-0 w-8 h-8 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black">02</div>
@@ -520,28 +520,28 @@ const DisputeForgedSignaturesClient = () => {
                                     </li>
                                     <li className="flex gap-4">
                                         <ShieldCheck className="w-6 h-6 text-blue-600 shrink-0" />
-                                        <p className="text-sm text-blue-950 font-light leading-snug tracking-wide">Expert Counter-Evidence - Refuting the bank's internal 'Verification Report' which is often fabricated by the recovery team.</p>
+                                        <p className="text-sm text-blue-950 font-light leading-snug tracking-wide">Expert Counter-Evidence - Refuting the bank’s internal 'Verification Report' which is often fabricated by the recovery team.</p>
                                     </li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 text-center font-black italic uppercase text-slate-900 tracking-widest decoration-blue-200 underline">
-                                CredSettle: We don't just defend; we counter-sue for the restoration of your financial dignity.
+                                CredSettle: We don’t just defend; we counter-sue for the restoration of your financial dignity.
                             </p>
 
                             <h2 id="digital-forgery-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 font-serif">Section 9: The Anatomy of Digital Signature Forgery in 2026</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                As paper-based loans diminish, fraudsters have shifted to **Digital Identity Theft**. In 2025-26, we are seeing a surge in 'Deepfake Signatures' where a borrower's video KYC is manipulated to sign digital contracts.
+                                As paper-based loans diminish, fraudsters have shifted to **Digital Identity Theft**. In 2025-26, we are seeing a surge in 'Deepfake Signatures' where a borrower’s video KYC is manipulated to sign digital contracts.
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] shadow-2xl mb-10 not-prose border-l-8 border-blue-500 font-mono">
                                 <h4 className="text-xl font-bold mb-6 text-blue-400 uppercase tracking-[0.2em] italic underline decoration-white/20">Digital Forensic Indicators:</h4>
                                 <div className="space-y-6 text-sm">
                                     <div className="border-b border-white/10 pb-4">
                                         <span className="text-blue-400 font-bold tracking-tighter uppercase">[IP Metadata Analysis]</span>
-                                        <p className="mt-2 text-gray-400 font-light italic">Proving the signing device was not in the victim's geographic vicinity during the timestamped signature.</p>
+                                        <p className="mt-2 text-gray-400 font-light italic">Proving the signing device was not in the victim’s geographic vicinity during the timestamped signature.</p>
                                     </div>
                                     <div className="border-b border-white/10 pb-4">
                                         <span className="text-blue-400 font-bold tracking-tighter uppercase">[Stylus Rhythm Analysis]</span>
-                                        <p className="mt-2 text-gray-400 font-light italic">Analyzing the pressure points of a stylus signature on a mobile app to prove it doesn't match the victim's natural stroke pattern.</p>
+                                        <p className="mt-2 text-gray-400 font-light italic">Analyzing the pressure points of a stylus signature on a mobile app to prove it doesn’t match the victim’s natural stroke pattern.</p>
                                     </div>
                                     <div>
                                         <span className="text-blue-400 font-bold tracking-tighter uppercase">[OTP Interception Proof]</span>
@@ -553,7 +553,7 @@ const DisputeForgedSignaturesClient = () => {
                                 "In the digital age, your biometric failure is their golden opportunity. We provide the technical shield to prove you never clicked 'Submit'."
                             </p>
 
-                            <h2 id="vicitims-rights-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 font-serif">Section 10: Victim's Bill of Rights under Bharatiya Nyaya Sanhita (BNS)</h2>
+                            <h2 id="vicitims-rights-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 font-serif">Section 10: Victim’s Bill of Rights under Bharatiya Nyaya Sanhita (BNS)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The transition from IPC to BNS in 2024-25 has granted victims of financial forgery specific protections that were previously absent or vague.
                             </p>
@@ -561,7 +561,7 @@ const DisputeForgedSignaturesClient = () => {
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-200 shadow-sm relative overflow-hidden group">
                                     <div className="absolute top-0 right-0 w-16 h-16 bg-blue-200/30 rounded-bl-full group-hover:bg-blue-200/50 transition-colors"></div>
                                     <h4 className="text-xl font-black text-slate-950 mb-3 uppercase tracking-tighter italic">Right to Fair Probe</h4>
-                                    <p className="text-xs text-slate-900/80 leading-relaxed">Under BNS, the police MUST involve a forensic expert for financial frauds exceeding specified limits, ensuring the bank's internal report isn't the final word.</p>
+                                    <p className="text-xs text-slate-900/80 leading-relaxed">Under BNS, the police MUST involve a forensic expert for financial frauds exceeding specified limits, ensuring the bank’s internal report isn’t the final word.</p>
                                 </div>
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-200 shadow-sm relative overflow-hidden group text-right">
                                     <div className="absolute top-0 left-0 w-16 h-16 bg-blue-200/30 rounded-br-full group-hover:bg-blue-200/50 transition-colors"></div>
@@ -570,7 +570,7 @@ const DisputeForgedSignaturesClient = () => {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 font-bold underline decoration-blue-100 underline-offset-8">
-                                Pro Tip: Always keep a 'Physical Master Signature' on file with your bank's Nodal Officer. This acts as a primary baseline for any future forensic comparisons.
+                                Pro Tip: Always keep a 'Physical Master Signature' on file with your bank’s Nodal Officer. This acts as a primary baseline for any future forensic comparisons.
                             </p>
 
                             <h2 id="bank-negligence-damages" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 font-serif">Section 11: Suing for Damages: When Banks Ignore Forgery</h2>
@@ -595,7 +595,7 @@ const DisputeForgedSignaturesClient = () => {
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 text-center font-black italic uppercase text-slate-900 tracking-widest decoration-blue-200 underline">
-                                CredSettle: We don't just clear your debt; we make the fraudster pay for your peace of mind.
+                                CredSettle: We don’t just clear your debt; we make the fraudster pay for your peace of mind.
                             </p>
 
                             {/* FAQs Section */}
@@ -617,7 +617,7 @@ const DisputeForgedSignaturesClient = () => {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 text-[15px] italic">
-                                Remember, you are a victim of a crime, not a defaulter. The bank may treat you like the latter, but the law (BNS 2023) recognizes you as the former. Our presence by your side ensures that the bank's attitude shifts from 'Recovery' to 'Rectification'.
+                                Remember, you are a victim of a crime, not a defaulter. The bank may treat you like the latter, but the law (BNS 2023) recognizes you as the former. Our presence by your side ensures that the bank’s attitude shifts from 'Recovery' to 'Rectification'.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -676,7 +676,7 @@ const DisputeForgedSignaturesClient = () => {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Stop Forgery Fraud</h4>
-                                <p className="text-sm text-gray-600 mb-6">Don't let fraudsters ruin your life. Get a professional forensic audit and legal stay today.</p>
+                                <p className="text-sm text-gray-600 mb-6">Don’t let fraudsters ruin your life. Get a professional forensic audit and legal stay today.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -684,9 +684,9 @@ const DisputeForgedSignaturesClient = () => {
                                     Initiate Legal Action
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Certified Legal Protection</p>
-                                    <p>✓ Proactive Forensic Audit</p>
-                                    <p>✓ CIBIL Rectification Support</p>
+                                    <p>v Certified Legal Protection</p>
+                                    <p>v Proactive Forensic Audit</p>
+                                    <p>v CIBIL Rectification Support</p>
                                 </div>
                             </div>
 

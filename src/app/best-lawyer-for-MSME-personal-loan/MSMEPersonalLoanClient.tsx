@@ -85,7 +85,7 @@ export default function MSMEPersonalLoanClient() {
         },
         {
             question: 'Is a personal loan taken for business covered under MSME Samadhaan?',
-            answer: 'MSME Samadhaan is for recovering supply-side dues. While it doesn\'t cover bank loans directly, many lawyers use successful Samadhaan awards as a basis to prove "temporary distress" in court, helping to stop personal asset recovery by the bank.'
+            answer: 'MSME Samadhaan is for recovering supply-side dues. While it doesn’t cover bank loans directly, many lawyers use successful Samadhaan awards as a basis to prove "temporary distress" in court, helping to stop personal asset recovery by the bank.'
         },
         {
             question: 'How do I stop recovery agents from visiting my home for an MSME personal loan?',
@@ -317,7 +317,7 @@ export default function MSMEPersonalLoanClient() {
                                 Entrepreneurship in India is often a personal sacrifice. For many Micro, Small, and Medium Enterprises (MSMEs), the boundary between "the business" and "the individual" is blurred. When banks provide capital to a small unit, they rarely rely on the business plan alone. They demand "Personal Guarantees" from the promoters and often encourage owners to take "Personal Loans" to inject equity or manage short-term working capital. This trend, while enabling growth, creates a massive legal liability for the individual.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When a business hits a rough patch, the bank doesn't just stop at the factory gate. They come for the owner's personal house, their savings, and their future. The psychological pressure of personal debt is significantly higher than that of corporate debt. In 2025, with the tightening of recovery laws and the active implementation of insolvency proceedings against personal guarantors, the need for specialized legal defence has never been more critical.
+                                When a business hits a rough patch, the bank doesn’t just stop at the factory gate. They come for the owner’s personal house, their savings, and their future. The psychological pressure of personal debt is significantly higher than that of corporate debt. In 2025, with the tightening of recovery laws and the active implementation of insolvency proceedings against personal guarantors, the need for specialized legal defence has never been more critical.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This guide is written for the promoter who finds themselves personally exposed due to their commitment to their MSME. Whether you have signed a personal guarantee or have taken a personal loan for business purposes, you must understand that you have distinct legal rights. You are not a criminal for failing in business, and the law provides substantial protections against aggressive and unauthorized recovery practices.
@@ -333,10 +333,10 @@ export default function MSMEPersonalLoanClient() {
 
                             <h2 id="promoter-guarantee-risks" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Legal Reality of Promoter Personal Guarantees</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A personal guarantee is a contract where the promoter says, "If my company doesn't pay, I will." Under the Indian Contract Act, the liability of the guarantor is "Co-extensive" with that of the principal debtor. This means the bank doesn't necessarily have to wait to sell the company's assets before coming after yours. They can sue you directly and simultaneously.
+                                A personal guarantee is a contract where the promoter says, "If my company doesn’t pay, I will." Under the Indian Contract Act, the liability of the guarantor is "Co-extensive" with that of the principal debtor. This means the bank doesn’t necessarily have to wait to sell the company’s assets before coming after yours. They can sue you directly and simultaneously.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, banks are increasingly using personal guarantees as leverage to force promoters into unfavorable settlements. However, a guarantee is not an absolute death sentence. There are technical grounds for "Discharge of Guarantor." If the bank has varied the terms of the loan without the guarantor's consent, or if they have released some of the business collateral without informing you, the guarantee may become legally unenforceable.
+                                In 2025, banks are increasingly using personal guarantees as leverage to force promoters into unfavorable settlements. However, a guarantee is not an absolute death sentence. There are technical grounds for "Discharge of Guarantor." If the bank has varied the terms of the loan without the guarantor’s consent, or if they have released some of the business collateral without informing you, the guarantee may become legally unenforceable.
                             </p>
 
                             <h2 id="ibc-personal-guarantors" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Insolvency Proceedings (IBC 2016): A New Threat for Individual Promoters</h2>
@@ -344,7 +344,7 @@ export default function MSMEPersonalLoanClient() {
                                 The Insolvency and Bankruptcy Code (IBC) changed everything for personal guarantors. Since 2019, creditors have the power to file for insolvency against individual personal guarantors in the National Company Law Tribunal (NCLT). This is a terrifying prospect because it can lead to the appointment of a Resolution Professional (RP) who takes control of your personal assets.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Defending an IBC notice requires a specialized understanding of "Individual Insolvency." It is not the same as corporate insolvency. There are "Fresh Start" provisions and specific "Repayment Plan" options available for individuals. Our role as your lawyers is to prevent the admission of the insolvency petition by challenging the debt's validity or by proving that the bank has not followed the pre-admission mediation requirements.
+                                Defending an IBC notice requires a specialized understanding of "Individual Insolvency." It is not the same as corporate insolvency. There are "Fresh Start" provisions and specific "Repayment Plan" options available for individuals. Our role as your lawyers is to prevent the admission of the insolvency petition by challenging the debt’s validity or by proving that the bank has not followed the pre-admission mediation requirements.
                             </p>
 
                             <h2 id="sarfaesi-on-personal-assets" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">SARFAESI Act and Personal Collateral: Keeping Your Home</h2>
@@ -365,7 +365,7 @@ export default function MSMEPersonalLoanClient() {
 
                             <h2 id="rbi-rules-individual-borrowers" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">RBI Rules 2025: Fresh Protections for Individual Borrowers</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI's 2025 Master Circular on "Fair Practices" has specific sections for individual borrowers. Banks are now prohibited from using "Intimidation" or "Public Shaming" as recovery tools. This includes the illegal practice of publishing the promoter's photo in the newspaper for a default, unless high-level wilful default is proven.
+                                The RBI’s 2025 Master Circular on "Fair Practices" has specific sections for individual borrowers. Banks are now prohibited from using "Intimidation" or "Public Shaming" as recovery tools. This includes the illegal practice of publishing the promoter’s photo in the newspaper for a default, unless high-level wilful default is proven.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The new rules also mandate that every personal loan borrower must be given a "Key Fact Statement" (KFS) in their local language. If the bank has hidden some charges or if the interest calculation is not in line with the KFS, we can challenge the entire debt amount. This consumer-protection-style defence is increasingly successful in defending MSME promoters against aggressive NBFCs.
@@ -373,15 +373,15 @@ export default function MSMEPersonalLoanClient() {
 
                             <h2 id="stopping-personal-harassment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Stopping Personal Harassment: A Legal Mandate</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Recovery harassment is a violation of your Fundamental Right to Privacy. If someone is calling your relatives, visiting your child's school, or sitting outside your home after dark, they are committing a crime. We help you file immediate police complaints and "Cease and Desist" notices citing the RBI's **Outsourcing Guidelines**.
+                                Recovery harassment is a violation of your Fundamental Right to Privacy. If someone is calling your relatives, visiting your child’s school, or sitting outside your home after dark, they are committing a crime. We help you file immediate police complaints and "Cease and Desist" notices citing the RBI’s **Outsourcing Guidelines**.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Most people don't realize that a bank can be fined crores of rupees by the RBI for the misbehavior of their recovery agents. By documenting the harassment and presenting it to the Integrated Ombudsman, we create a massive headache for the bank’s legal department, which often leads to a more respectful and fair settlement discussion.
+                                Most people don’t realize that a bank can be fined crores of rupees by the RBI for the misbehavior of their recovery agents. By documenting the harassment and presenting it to the Integrated Ombudsman, we create a massive headache for the bank’s legal department, which often leads to a more respectful and fair settlement discussion.
                             </p>
 
                             <h2 id="negotiating-personal-settlements" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">One-Time Settlement (OTS) for Personal-Business Hybrids</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Not every debt can be fought for years. Sometimes, the goal is to "Un-link" your personal life from the failing business. This is where a professional OTS comes in. Banks are often more willing to settle personal loans because they don't want to engage in the "Optics" of suing an individual.
+                                Not every debt can be fought for years. Sometimes, the goal is to "Un-link" your personal life from the failing business. This is where a professional OTS comes in. Banks are often more willing to settle personal loans because they don’t want to engage in the "Optics" of suing an individual.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We negotiate based on your **Capacity to Pay**, not the **Total Dues**. We present a "Lump Sum" offer that is mathematically more attractive to the bank than the "Net Present Value" of a 5-year legal battle. This "Professional Exit" allows you to save a portion of your wealth and start a new venture without the baggage of the past.
@@ -389,22 +389,22 @@ export default function MSMEPersonalLoanClient() {
 
                             <h2 id="bank-provisioning-advantage" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Using Bank Provisioning to Your Advantage</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Every month your loan remains in NPA, the bank must set aside money from their profits. For unsecured personal loans, the provisioning can go up to 100%. This is the "Bargaining Power" of the debtor. By skillfully delaying the legal process through valid litigation, we make the bank's "Cost of Waiting" higher than the "Discount" we are asking for. It is a game of financial chess that only specialized banking lawyers understand.
+                                Every month your loan remains in NPA, the bank must set aside money from their profits. For unsecured personal loans, the provisioning can go up to 100%. This is the "Bargaining Power" of the debtor. By skillfully delaying the legal process through valid litigation, we make the bank’s "Cost of Waiting" higher than the "Discount" we are asking for. It is a game of financial chess that only specialized banking lawyers understand.
                             </p>
 
                             <h2 id="impact-on-credit-score" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Managing the Impact on Your Credit Score (CIBIL)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Let’s be honest: your CIBIL will take a hit during a default. But a "Settled" status is better than a "Running Suit" or "Wilful Defaulter" flag. We work with clients to ensure that once the settlement is paid, the bank issues a **No Dues Certificate** immediately. We also guide you on "Credit Rehabilitation"—how to use small collateralized credits to rebuild your score over late 2025 and 2026.
+                                Let’s be honest: your CIBIL will take a hit during a default. But a "Settled" status is better than a "Running Suit" or "Wilful Defaulter" flag. We work with clients to ensure that once the settlement is paid, the bank issues a **No Dues Certificate** immediately. We also guide you on "Credit Rehabilitation"-how to use small collateralized credits to rebuild your score over late 2025 and 2026.
                             </p>
 
                             <h2 id="co-borrower-liability" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Family Liability and the Co-Borrower Shield</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Often, a spouse or partner is a co-borrower for a personal loan taken for the MSME. This doubles the bank's leverage. However, it also creates separate legal avenues. If the co-borrower was an "Accommodation Party" who didn't receive any financial benefit from the loan, their liability can be challenged in certain High Court jurisdictions. Protecting your family from the "Sins" of the business is the primary goal of our personal loan defence.
+                                Often, a spouse or partner is a co-borrower for a personal loan taken for the MSME. This doubles the bank’s leverage. However, it also creates separate legal avenues. If the co-borrower was an "Accommodation Party" who didn’t receive any financial benefit from the loan, their liability can be challenged in certain High Court jurisdictions. Protecting your family from the "Sins" of the business is the primary goal of our personal loan defence.
                             </p>
 
                             <h2 id="role-of-specialized-counsel" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Need for Specialized MSME Personal Loan Counsel</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Most lawyers handle "Divorce" or "Property Disputes." They don't understand the "provisioning cycle" of an NBFC or the "Resolution Framework" of the RBI. A specialized lawyer from CredSettle speaks the bank's language. They know when to be aggressive in court and when to be diplomatic in the manager's cabin.
+                                Most lawyers handle "Divorce" or "Property Disputes." They don’t understand the "provisioning cycle" of an NBFC or the "Resolution Framework" of the RBI. A specialized lawyer from CredSettle speaks the bank’s language. They know when to be aggressive in court and when to be diplomatic in the manager’s cabin.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Our legal team includes experts who have worked "inside" the recovery departments of major Indian banks. They know the internal "Settlement Grids" and the specific technical errors that bank officers make during the stress cycle. This "Insider Knowledge" is your greatest advantage when defending your personal assets.
@@ -412,13 +412,13 @@ export default function MSMEPersonalLoanClient() {
 
                             <h2 id="credsettle-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">CredSettle: Pioneering Individual Asset Protection</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we have pioneered the "Personal Asset Shield" strategy. This involve a three-step process: (1) **Legal Lockdown** of the immediate threat like IBC or SARFAESI notices, (2) **Financial Audit** to correct the bank's inflated interest claims, and (3) **Negotiated Finality** where we reach a binding settlement that protects you from future claims.
+                                At CredSettle, we have pioneered the "Personal Asset Shield" strategy. This involve a three-step process: (1) **Legal Lockdown** of the immediate threat like IBC or SARFAESI notices, (2) **Financial Audit** to correct the bank’s inflated interest claims, and (3) **Negotiated Finality** where we reach a binding settlement that protects you from future claims.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We believe that the promoter is the most valuable asset of an MSME. If the promoter is destroyed by personal debt, the possibility of the business ever reviving dies with it. By defending the individual, we are indirectly defending the spirit of Indian entrepreneurship.
                             </p>
 
-                            <h2 id="tax-implications" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Don't Ignore the Tax Implications of Debt Relief</h2>
+                            <h2 id="tax-implications" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Don’t Ignore the Tax Implications of Debt Relief</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a bank waives off 1 crore of your debt in an OTS, the "Benefit" might be treated as income by the Tax department under Section 28(iv) or other sections of the Income Tax Act. A general lawyer will settle your debt but leave you with a massive tax notice. We work with tax experts to structure your settlement as a "Capital Receipt" or a "Remission of Liability" that minimizes your tax outflow.
                             </p>
@@ -435,10 +435,10 @@ export default function MSMEPersonalLoanClient() {
 
                             <h2 id="expert-verdict" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Conclusion: Reclaiming Your Future</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Personal loan distress for an MSME owner is a dark tunnel, but it is not an endless one. The law in 2025 is more sophisticated than ever, providing a balance between the lender's right to recover and the individual's right to survive and thrive. By engaging with a specialized lawyer early, you move from being a "Target" of recovery to a "Partner" in a legal resolution.
+                                Personal loan distress for an MSME owner is a dark tunnel, but it is not an endless one. The law in 2025 is more sophisticated than ever, providing a balance between the lender’s right to recover and the individual’s right to survive and thrive. By engaging with a specialized lawyer early, you move from being a "Target" of recovery to a "Partner" in a legal resolution.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Don't let a mountain of debt bury your entrepreneurial dreams. Your personal house, your family's security, and your own peace of mind are non-negotiable. Take the first step toward a clean slate today. Let the experts at CredSettle handle the legal battle while you focus on what you do best—building and growing. You have fought for your business; now, let us fight for you.
+                                Don’t let a mountain of debt bury your entrepreneurial dreams. Your personal house, your family’s security, and your own peace of mind are non-negotiable. Take the first step toward a clean slate today. Let the experts at CredSettle handle the legal battle while you focus on what you do best-building and growing. You have fought for your business; now, let us fight for you.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Success Stories from Individual Promoters</h2>
@@ -474,7 +474,7 @@ export default function MSMEPersonalLoanClient() {
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">You Don't Have to Fight This Alone</h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">You Don’t Have to Fight This Alone</h3>
                                 <p className="text-blue-800 mb-6">Personal loan recovery against an individual promoter is a specialized legal field. Our team at CredSettle understands the unique pressures you are under. Get a confidential consultation today and find out how we can defend your assets and clear your financial path.</p>
                                 <Link
                                     href="/contact"
@@ -503,16 +503,16 @@ export default function MSMEPersonalLoanClient() {
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-2 text-left">
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> Stop IBC Proceedings
+                                        <span className="text-blue-600 mr-2">v</span> Stop IBC Proceedings
                                     </p>
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> Protect Residential Property
+                                        <span className="text-blue-600 mr-2">v</span> Protect Residential Property
                                     </p>
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> Challenge Personal Guarantee
+                                        <span className="text-blue-600 mr-2">v</span> Challenge Personal Guarantee
                                     </p>
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> Settlement Negotiation
+                                        <span className="text-blue-600 mr-2">v</span> Settlement Negotiation
                                     </p>
                                 </div>
                             </div>

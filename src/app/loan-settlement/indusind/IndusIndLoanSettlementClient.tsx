@@ -231,7 +231,7 @@ export default function IndusIndLoanSettlementClient() {
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Introduction to IndusInd Bank Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Financial instability is a storm that can hit anyone without warning. One moment, your finances are in order, and the next, a job loss, a medical emergency, or a sudden business failure throws everything into chaos. If you are currently staring at a mountain of unpaid dues from <strong>IndusInd Bank</strong>—be it a personal loan that has gone bad or a credit card limit that has been maxed out—you are likely feeling the crushing weight of stress.
+                Financial instability is a storm that can hit anyone without warning. One moment, your finances are in order, and the next, a job loss, a medical emergency, or a sudden business failure throws everything into chaos. If you are currently staring at a mountain of unpaid dues from <strong>IndusInd Bank</strong>-be it a personal loan that has gone bad or a credit card limit that has been maxed out-you are likely feeling the crushing weight of stress.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 The constant barrage of calls from recovery agents, the fear of legal notices, and the anxiety about your financial future can be paralyzing. However, it is crucial to understand that <strong>you are not a criminal</strong>; you are simply a borrower going through a tough time. The Indian banking system, including IndusInd Bank, recognizes that genuine defaults happen. To address this, there is a legal, structured, and regulated exit route known as <strong>Loan Settlement</strong> or <strong>One Time Settlement (OTS)</strong>.
@@ -255,7 +255,7 @@ export default function IndusIndLoanSettlementClient() {
                 The <strong>One Time Settlement (OTS)</strong> scheme is a mechanism used by banks to recover non-performing assets (NPAs). In simple terms, it is a deal where the bank agrees to accept a lump sum payment that is significantly lower than the total amount you owe, and in return, they agree to close your loan account permanently.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                But why would a bank agree to take a loss? To understand this, you need to look at it from the bank's perspective. When you stop paying your EMIs, your loan account goes through different stages of classification as per RBI guidelines:
+                But why would a bank agree to take a loss? To understand this, you need to look at it from the bank’s perspective. When you stop paying your EMIs, your loan account goes through different stages of classification as per RBI guidelines:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-8 text-gray-700">
                 <li><strong>SMA-0 (Special Mention Account 0):</strong> Payment overdue for 1-30 days.</li>
@@ -268,7 +268,7 @@ export default function IndusIndLoanSettlementClient() {
               </p>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">The Economics of 'Sacrifice'</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                When a settlement is negotiated, the bank calculates a "sacrifice amount"—the difference between what you owe and what you pay. They are willing to make this sacrifice because:
+                When a settlement is negotiated, the bank calculates a "sacrifice amount"-the difference between what you owe and what you pay. They are willing to make this sacrifice because:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-8 text-gray-700">
                 <li><strong>Time Value of Money:</strong> Receiving ₹2 Lakhs today is often better for the bank than fighting a court case for 5 years to potentially recover ₹4 Lakhs.</li>
@@ -313,7 +313,7 @@ export default function IndusIndLoanSettlementClient() {
 
               <h2 id="minimum-due-trap" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The "Minimum Amount Due" Trap</h2>
               <div className="bg-red-50 p-6 rounded-2xl mb-8 border border-red-100">
-                <h3 className="text-red-800 font-bold text-xl mb-3">⚠️ Critical Warning for Credit Card Users</h3>
+                <h3 className="text-red-800 font-bold text-xl mb-3">⚠ Critical Warning for Credit Card Users</h3>
                 <p className="text-red-700 mb-4">
                   If you hold an IndusInd Bank Credit Card, you might be tempted to pay only the "Minimum Amount Due" (MAD) shown on your statement, thinking you are safe. <strong>This is a financial trap.</strong>
                 </p>
@@ -347,7 +347,7 @@ export default function IndusIndLoanSettlementClient() {
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Analyzing the "True" Liability</h4>
                   <p className="text-gray-700">
-                    The bank's statement will show a highly inflated figure including penal interest, late fees, and cheque bounce charges.
+                    The bank’s statement will show a highly inflated figure including penal interest, late fees, and cheque bounce charges.
                     <br/><strong>Our Action:</strong> We strip away these illegal or excessive charges to arrive at the real principal outstanding. This is our baseline for negotiation.
                   </p>
                 </div>
@@ -356,7 +356,7 @@ export default function IndusIndLoanSettlementClient() {
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Submitting the Settlement Proposal</h4>
                   <p className="text-gray-700">
-                    We draft a formal proposal to IndusInd Bank's regional collection manager. This letter clearly outlines your financial hardship with evidence and proposes a realistic settlement amount.
+                    We draft a formal proposal to IndusInd Bank’s regional collection manager. This letter clearly outlines your financial hardship with evidence and proposes a realistic settlement amount.
                     <br/><strong>Insider Tip:</strong> Never quote your best offer first. Negotiation is expected.
                   </p>
                 </div>
@@ -383,7 +383,7 @@ export default function IndusIndLoanSettlementClient() {
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">6</div>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Closure and No Dues Certificate</h4>
                   <p className="text-gray-700">
-                    You make the payment directly to your loan account (never to an agent's personal account). Within 15-20 days, the bank issues a <strong>No Dues Certificate (NDC)</strong>. We ensure you get this document as it is your proof of freedom.
+                    You make the payment directly to your loan account (never to an agent’s personal account). Within 15-20 days, the bank issues a <strong>No Dues Certificate (NDC)</strong>. We ensure you get this document as it is your proof of freedom.
                   </p>
                 </div>
               </div>
@@ -420,7 +420,7 @@ export default function IndusIndLoanSettlementClient() {
 
               <h2 id="lok-adalat" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Settlement via Lok Adalat</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                <strong>Lok Adalat</strong> (People's Court) is one of the most effective forums for settling bank disputes. It is organized by the legal services authority to resolve cases amicably.
+                <strong>Lok Adalat</strong> (People’s Court) is one of the most effective forums for settling bank disputes. It is organized by the legal services authority to resolve cases amicably.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 If your case is pending in court or even at the pre-litigation stage, you can request for it to be referred to the Lok Adalat. The biggest advantage here is that the decree passed by the Lok Adalat is final and binding, and there is no appeal.
@@ -441,7 +441,7 @@ export default function IndusIndLoanSettlementClient() {
                     <li>Termination letter or resignation acceptance.</li>
                     <li>Medical records or discharge summaries.</li>
                     <li>Bank statements of the last 6 months showing low balance.</li>
-                    <li>Death certificate (in case of primary earner's demise).</li>
+                    <li>Death certificate (in case of primary earner’s demise).</li>
                   </ul>
                 </li>
                 <li><strong>Notices Received:</strong> Copies of any legal notices or demand letters sent by the bank.</li>
@@ -483,7 +483,7 @@ export default function IndusIndLoanSettlementClient() {
                   </h3>
                   <ul className="space-y-3 text-gray-700 text-sm">
                     <li><strong>Credit Score Hit:</strong> It will be harder to get an unsecured loan for 1-2 years.</li>
-                    <li><strong>Blacklist:</strong> IndusInd Bank will likely blacklist you. You won't be able to get a loan from them again.</li>
+                    <li><strong>Blacklist:</strong> IndusInd Bank will likely blacklist you. You won’t be able to get a loan from them again.</li>
                     <li><strong>One Shot Payment:</strong> You need to arrange the settlement amount (Lump Sum). Banks rarely allow EMIs on OTS.</li>
                     <li><strong>Tax Implications:</strong> In rare corporate cases, the waived amount can be treated as income, though this rarely applies to personal individual loans.</li>
                   </ul>
@@ -496,7 +496,7 @@ export default function IndusIndLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Vikram Singh</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"My IndusInd credit card bill was huge. These guys helped me settle it for just 40% of the total amount. Very professional."</p>
@@ -504,7 +504,7 @@ export default function IndusIndLoanSettlementClient() {
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Meera K.</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"I was getting threatening calls daily. CredSettle took over and the calls stopped. I am finally debt free now."</p>
@@ -551,8 +551,8 @@ export default function IndusIndLoanSettlementClient() {
                   Talk to Expert
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ No Upfront Fees</p>
-                  <p className="mt-1">✓ Privacy Guaranteed</p>
+                  <p>v No Upfront Fees</p>
+                  <p className="mt-1">v Privacy Guaranteed</p>
                 </div>
               </div>
 

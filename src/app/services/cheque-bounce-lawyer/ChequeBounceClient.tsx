@@ -102,10 +102,10 @@ export default function ChequeBounceClient() {
     },
     {
       question: "Does the court require me to pay interim compensation?",
-      answer: "Yes, under the newly inserted Section 143A, the court can order the accused to pay up to 20% of the cheque amount as interim compensation to the complainant while the trial is still pending. This must be paid within 60 days of the court's order."
+      answer: "Yes, under the newly inserted Section 143A, the court can order the accused to pay up to 20% of the cheque amount as interim compensation to the complainant while the trial is still pending. This must be paid within 60 days of the court’s order."
     },
     {
-      question: "Can a director be held liable for a company's bounced cheque?",
+      question: "Can a director be held liable for a company’s bounced cheque?",
       answer: "Yes. Under Section 141 of the NI Act, every person who was in charge of and responsible to the company for the conduct of its business at the time the offense was committed can be held vicariously liable and prosecuted along with the company."
     },
     {
@@ -214,7 +214,7 @@ export default function ChequeBounceClient() {
                 Whether you are a payee waiting for your hard earned money or a drawer who has been falsely accused or is facing genuine financial hardship, navigating the legal corridors of a Section 138 case requires specialized expertise. The outcome of these cases often hinges on technical details: the validity of the notice, the legality of the debt, and strict adherence to timelines.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
-                At CredSettle, our network of specialized Cheque Bounce Lawyers brings decades of experience to the table. We don't just file cases; we build legal strategies designed to secure the fastest possible relief, be it recovery of your money or acquittal from false charges.
+                At CredSettle, our network of specialized Cheque Bounce Lawyers brings decades of experience to the table. We don’t just file cases; we build legal strategies designed to secure the fastest possible relief, be it recovery of your money or acquittal from false charges.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
@@ -269,7 +269,7 @@ export default function ChequeBounceClient() {
 
               <h2 id="defenses-available" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Strong Legal Defenses for the Accused</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Being accused doesn't mean being convicted. There are several robust defenses available under the law that can lead to acquittal if argued correctly by an expert lawyer.
+                Being accused doesn’t mean being convicted. There are several robust defenses available under the law that can lead to acquittal if argued correctly by an expert lawyer.
               </p>
 
               <h3 className="text-xl font-bold text-gray-800 mb-3">1. Security Cheque Defense</h3>
@@ -307,19 +307,19 @@ export default function ChequeBounceClient() {
                 <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="text-blue-600 font-bold mb-2">For Complainants (Payees)</h4>
                   <ul className="text-sm text-gray-700 space-y-2">
-                    <li>✓ Drafting precise Legal Notices.</li>
-                    <li>✓ Tracing the accused's assets.</li>
-                    <li>✓ Filing Interim Compensation applications.</li>
-                    <li>✓ Fast tracking the trial for quick recovery.</li>
+                    <li>v Drafting precise Legal Notices.</li>
+                    <li>v Tracing the accused’s assets.</li>
+                    <li>v Filing Interim Compensation applications.</li>
+                    <li>v Fast tracking the trial for quick recovery.</li>
                   </ul>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="text-blue-600 font-bold mb-2">For Accused (Drawers)</h4>
                   <ul className="text-sm text-gray-700 space-y-2">
-                    <li>✓ Analysis of notice defects.</li>
-                    <li>✓ Representation for bail and exemption.</li>
-                    <li>✓ Negotiating out of court settlements.</li>
-                    <li>✓ Quashing false FIRs in High Court.</li>
+                    <li>v Analysis of notice defects.</li>
+                    <li>v Representation for bail and exemption.</li>
+                    <li>v Negotiating out of court settlements.</li>
+                    <li>v Quashing false FIRs in High Court.</li>
                   </ul>
                 </div>
               </div>
@@ -374,14 +374,14 @@ export default function ChequeBounceClient() {
 
               <div className="mt-12 bg-blue-600 rounded-2xl p-8 text-center text-white">
                 <h3 className="text-2xl font-bold mb-4">Facing a Cheque Bounce Case?</h3>
-                <p className="mb-8 opacity-90 max-w-2xl mx-auto">Don't ignore the legal notice. Immediate action can save you from criminal conviction. Consult our experts today.</p>
+                <p className="mb-8 opacity-90 max-w-2xl mx-auto">Don’t ignore the legal notice. Immediate action can save you from criminal conviction. Consult our experts today.</p>
                 <Link 
                   href="/contact"
                   className="inline-block bg-white text-blue-700 font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg transform hover:-translate-y-1"
                 >
                   Get Legal Advice Now
                 </Link>
-                <p className="mt-4 text-sm opacity-70">Confidential • Expert Defense • Nationwide Network</p>
+                <p className="mt-4 text-sm opacity-70">Confidential * Expert Defense * Nationwide Network</p>
               </div>
 
             </article>
@@ -400,8 +400,8 @@ export default function ChequeBounceClient() {
                   Consult Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Notice Drafting</p>
-                  <p className="mt-1">✓ Court Defense</p>
+                  <p>v Notice Drafting</p>
+                  <p className="mt-1">v Court Defense</p>
                 </div>
               </div>
 

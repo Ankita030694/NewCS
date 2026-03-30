@@ -352,7 +352,7 @@ function ContactPageContent() {
                   fontWeight: '400'
                 }}
               >
-                Let's Get in Touch
+                Let’s Get in Touch
               </h1>
               <p 
                 className="mb-3 md:mb-5 text-sm md:text-base lg:text-[16px] leading-5 md:leading-6 lg:leading-[20px]"
@@ -796,7 +796,7 @@ function ContactPageContent() {
                   </button>
                   {alreadySubmittedToday && (
                     <p className="text-center text-[10px] md:text-xs mt-2 text-[#0C2756] font-medium">
-                      You've already submitted today. We'll be in touch!
+                      You’ve already submitted today. We’ll be in touch!
                     </p>
                   )}
                   <div className="flex items-center justify-center gap-2 mt-4 md:mt-5">
@@ -822,14 +822,14 @@ function ContactPageContent() {
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-[#0C2756] mb-6 font-poppins">Visit Our Headquarters & Speak to Experts</h2>
             <p className="text-gray-600 mb-6 leading-relaxed text-lg">
-              Our main office is strategically located in Gurugram's bustling business district, making it easily accessible for clients seeking in-person assistance. 
+              Our main office is strategically located in Gurugram’s bustling business district, making it easily accessible for clients seeking in-person assistance. 
               Whether you are currently facing intense harassment from aggressive recovery agents, struggling with mounting credit card dues, or simply need professional legal advice on navigating a complex loan settlement, our dedicated team of financial and legal experts is available for comprehensive, face-to-face consultations. 
               We know that dealing with overwhelming debt can be incredibly stressful and isolating. Taking that very first step to reach out for professional help is often the hardest part of the journey. At CredSettle, we are deeply committed to providing a safe, completely secure, and judgment-free environment where you can openly discuss the specifics of your financial situation without fear.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed text-lg">
               Our specialized advisory team brings years of proven expertise in effectively negotiating with prominent banks and Non-Banking Financial Companies (NBFCs) across India. 
               We strictly employ a 100% RBI-compliant, legally robust approach to help you potentially reduce your principal outstanding amount by up to 50%, immediately stop unwanted harassment calls, and ultimately close your loans with proper legal documentation and No Dues Certificates (NDCs). 
-              When you visit our Gurugram office or contact us through our online portal, we conduct a thorough, customized evaluation of your accounts—whether they involve unmanageable personal loans, credit card debt, or business loans. Based on this thorough assessment, we tailor a personalized, actionable settlement strategy that realistically fits your current repayment capacity and long-term financial goals. Regain your peace of mind, protect your legal rights, and start your journey towards total financial freedom by getting in touch with CredSettle today.
+              When you visit our Gurugram office or contact us through our online portal, we conduct a thorough, customized evaluation of your accounts-whether they involve unmanageable personal loans, credit card debt, or business loans. Based on this thorough assessment, we tailor a personalized, actionable settlement strategy that realistically fits your current repayment capacity and long-term financial goals. Regain your peace of mind, protect your legal rights, and start your journey towards total financial freedom by getting in touch with CredSettle today.
             </p>
             
             <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm mb-8">
@@ -847,9 +847,9 @@ function ContactPageContent() {
             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
               <h3 className="font-semibold text-lg text-[#0C2756] mb-2">Why Visit Us?</h3>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li className="flex items-start"><span className="text-blue-500 mr-2">✓</span> Face-to-face consultation with legal experts</li>
-                <li className="flex items-start"><span className="text-blue-500 mr-2">✓</span> Document verification and analysis</li>
-                <li className="flex items-start"><span className="text-blue-500 mr-2">✓</span> Confidential and secure environment</li>
+                <li className="flex items-start"><span className="text-blue-500 mr-2">v</span> Face-to-face consultation with legal experts</li>
+                <li className="flex items-start"><span className="text-blue-500 mr-2">v</span> Document verification and analysis</li>
+                <li className="flex items-start"><span className="text-blue-500 mr-2">v</span> Confidential and secure environment</li>
               </ul>
             </div>
           </div>

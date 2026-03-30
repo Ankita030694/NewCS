@@ -76,10 +76,10 @@ export default function RecoveryAgentsFamilyLawClient() {
         },
         {
             question: 'What should my family members do if they receive a recovery call?',
-            answer: 'Family members should record the call, ask for the caller\'s full name and agency, and clearly state that they have no involvement in the loan. They should then block the number and share the recording with the borrower for legal action.'
+            answer: 'Family members should record the call, ask for the caller’s full name and agency, and clearly state that they have no involvement in the loan. They should then block the number and share the recording with the borrower for legal action.'
         },
         {
-            question: 'Can agents visit my parents\' house if I don\'t live there?',
+            question: 'Can agents visit my parents\' house if I don’t live there?',
             answer: 'No. Agents are only permitted to visit the borrower at their registered residence. Visiting parents or relatives who are not co-borrowers or guarantors is a violation of the RBI Fair Practices Code.'
         },
         {
@@ -108,7 +108,7 @@ export default function RecoveryAgentsFamilyLawClient() {
         },
         {
             question: 'What should I do if an agent threatens my children?',
-            answer: 'This is a criminal offense under the IPC. Call 100/112 immediately, file an FIR for criminal intimidation, and notify the bank\'s Nodal Officer. The bank is vicariously liable for the agent\'s criminal behavior.'
+            answer: 'This is a criminal offense under the IPC. Call 100/112 immediately, file an FIR for criminal intimidation, and notify the bank’s Nodal Officer. The bank is vicariously liable for the agent’s criminal behavior.'
         }
     ];
 
@@ -123,7 +123,7 @@ export default function RecoveryAgentsFamilyLawClient() {
             name: 'Sushmita Sen',
             location: 'Mumbai',
             stars: 5,
-            comment: 'Knowing that they can\'t tell my boss about my loan gave me so much peace. CredSettle\'s explanation of privacy laws is the best I have found online.'
+            comment: 'Knowing that they can’t tell my boss about my loan gave me so much peace. CredSettle’s explanation of privacy laws is the best I have found online.'
         },
         {
             name: 'Karan Mehra',
@@ -419,7 +419,7 @@ export default function RecoveryAgentsFamilyLawClient() {
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. The Threat Call:</strong> Calling a relative and saying, "Your son is a criminal, we are coming with the police to your house."</li>
                                     <li><strong>2. The Persistent Caller:</strong> Calling a parent 10-15 times a day even after being told that the borrower is not there.</li>
-                                    <li><strong>3. The "Notice" Bluff:</strong> Sending "Legal Notices" or "Summons" directly to a relative's address to scare them.</li>
+                                    <li><strong>3. The "Notice" Bluff:</strong> Sending "Legal Notices" or "Summons" directly to a relative’s address to scare them.</li>
                                     <li><strong>4. The Abusive Tone:</strong> Using foul language with female family members or elderly relatives.</li>
                                     <li><strong>5. The Reference Abuse:</strong> Calling people you listed as references (often for a different purpose) and telling them you are a "fraud."</li>
                                 </ul>
@@ -436,7 +436,7 @@ export default function RecoveryAgentsFamilyLawClient() {
                                 <strong className="font-bold text-gray-900">The Golden Rule for Workplace Contact:</strong> An agent is strictly prohibited from disclosing your debt details to your employer or colleagues.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If an agent calls your office and says, "Please put me through to Arjun, he hasn't paid his loan," they are on thin ice. If they say, "Arjun is a defaulter and if you don't make him pay, we will file a case," they have crossed the legal boundary into <strong className="font-bold text-gray-900">Extortion</strong> and <strong className="font-bold text-gray-900">Defamation</strong>.
+                                If an agent calls your office and says, "Please put me through to Arjun, he hasn’t paid his loan," they are on thin ice. If they say, "Arjun is a defaulter and if you don’t make him pay, we will file a case," they have crossed the legal boundary into <strong className="font-bold text-gray-900">Extortion</strong> and <strong className="font-bold text-gray-900">Defamation</strong>.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, you can issue a <strong className="font-bold text-gray-900">"Cease and Desist"</strong> notice to the bank specifically regarding workplace contact. State: "I am available to discuss my debt at my residential address or via my personal mobile number. Any attempt to contact my employer about my private financial matters will be treated as a malicious attempt to cause professional loss and will attract severe legal action."
@@ -453,7 +453,7 @@ export default function RecoveryAgentsFamilyLawClient() {
                                 <br />- <strong className="font-bold text-gray-900">RBI 2024 Mandate:</strong> Lenders are strictly responsible for "any form of social shaming" conducted by their recovery agents.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If your family member receives a message on social media from a recovery agent, screenshot it immediately. Do not delete it. This is your "Golden Ticket" to a favorable settlement because the bank's compliance officer knows that a court will punish this behavior with heavy fines.
+                                If your family member receives a message on social media from a recovery agent, screenshot it immediately. Do not delete it. This is your "Golden Ticket" to a favorable settlement because the bank’s compliance officer knows that a court will punish this behavior with heavy fines.
                             </p>
 
                             <h2 id="legal-remedies-defamation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Defamation Remedies: Suing for Your Reputation</h2>
@@ -463,12 +463,12 @@ export default function RecoveryAgentsFamilyLawClient() {
                                 <br />- <strong className="font-bold text-gray-900">Criminal Defamation (Section 500 IPC):</strong> This can lead to imprisonment for up to 2 years for the agent and potentially the manager who instructed them.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One of the most effective strategies is for the *family member* to file the complaint. If an agent calls your sister and uses abusive language, your sister can file an independent complaint for <strong className="font-bold text-gray-900">Outraging Modesty</strong> and <strong className="font-bold text-gray-900">Intentional Insult to Provoke Breach of Peace (Section 504 IPC)</strong>. When the family fights back legally, the bank's "recovery strategy" collapses instantly.
+                                One of the most effective strategies is for the *family member* to file the complaint. If an agent calls your sister and uses abusive language, your sister can file an independent complaint for <strong className="font-bold text-gray-900">Outraging Modesty</strong> and <strong className="font-bold text-gray-900">Intentional Insult to Provoke Breach of Peace (Section 504 IPC)</strong>. When the family fights back legally, the bank’s "recovery strategy" collapses instantly.
                             </p>
 
                             <h2 id="recording-calls-evidence" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Recording Evidence: Building an Ironclad Case</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the world of debt recovery law, <strong className="font-bold text-gray-900">"Evidence is King."</strong> An agent will deny everything in front of the judge, but a recording doesn't lie.
+                                In the world of debt recovery law, <strong className="font-bold text-gray-900">"Evidence is King."</strong> An agent will deny everything in front of the judge, but a recording doesn’t lie.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong className="font-bold text-gray-900">Advice for Family Members:</strong>
@@ -490,14 +490,14 @@ export default function RecoveryAgentsFamilyLawClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 You can proactively protect your family by sending a <strong className="font-bold text-gray-900">"Formal Communication Protocol"</strong> notice to your bank.
                                 <br />- <strong className="font-bold text-gray-900">Content:</strong> "I am the borrower for Loan X. I am providing my primary mobile number and email. Any contact with my spouse, children, parents, or employer will be treated as a violation of my Right to Privacy and the RBI Fair Practices Code."
-                                <br />- <strong className="font-bold text-gray-900">The Effect:</strong> Once the bank has this in their records, their "Vicarious Liability" for any agent misconduct becomes indefensible. They cannot say "we didn't know the borrower was reachable."
+                                <br />- <strong className="font-bold text-gray-900">The Effect:</strong> Once the bank has this in their records, their "Vicarious Liability" for any agent misconduct becomes indefensible. They cannot say "we didn’t know the borrower was reachable."
                             </p>
 
                             <h2 id="rbi-ombudsman-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Ombudsman Escalation: Getting Compensation</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If the bank does not stop the family calls after your first complaint, you move to the <strong className="font-bold text-gray-900">RBI Integrated Ombudsman</strong>.
                                 <br />- <strong className="font-bold text-gray-900">The Power of the Ombudsman:</strong> They can award up to <strong className="font-bold text-gray-900">₹1 Lakh</strong> specifically for mental agony caused by harassment of family members.
-                                <br />- <strong className="font-bold text-gray-900">Systemic Change:</strong> If the Ombudsman sees a pattern of a bank harassing families, they can order a systemic audit of the bank's recovery processes. Banks fear this more than any fine.
+                                <br />- <strong className="font-bold text-gray-900">Systemic Change:</strong> If the Ombudsman sees a pattern of a bank harassing families, they can order a systemic audit of the bank’s recovery processes. Banks fear this more than any fine.
                             </p>
 
                             <h2 id="july-2026-updates" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">July 2026 Updates: The Future of Borrower Rights</h2>
@@ -545,7 +545,7 @@ export default function RecoveryAgentsFamilyLawClient() {
                                 We live in a society where debt is heavily stigmatized, and collection agents weaponize this stigma by dragging your family into the spotlight. But as we have explored in these 5000+ words, the law in India is decisively on the side of family privacy. Your parents, your siblings, your friends, and your employer are protected by a robust framework of RBI mandates and Constitutional rights.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Remember: <strong className="font-bold text-gray-900">Their calls to your family are not a sign of their power; they are a sign of their desperation.</strong> They are breaking the law because they hope you don't know the law. By documenting these violations and using the escalation channels like the bank's Nodal Officer and the RBI Ombudsman, you can turn the tables completely.
+                                Remember: <strong className="font-bold text-gray-900">Their calls to your family are not a sign of their power; they are a sign of their desperation.</strong> They are breaking the law because they hope you don’t know the law. By documenting these violations and using the escalation channels like the bank’s Nodal Officer and the RBI Ombudsman, you can turn the tables completely.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your loved ones do not have to live in fear. Reassure them that they have the right to hang up, the right to record, and the right to block. At CredSettle, we specialize in building a wall between you and the harassers, ensuring that your financial resolution happens in a professional environment, not at your dinner table or in your office lobby. Reclaim your reputation, protect your family, and let us handle the fight for your financial freedom.
@@ -553,7 +553,7 @@ export default function RecoveryAgentsFamilyLawClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Are They Harassing Your Family?</h3>
-                                <p className="text-blue-800 mb-6">You don't have to stay silent. Our legal team can step in immediately, stop the calls to your relatives, and hold the bank accountable for privacy violations. Protect your loved ones and get a fair settlement today.</p>
+                                <p className="text-blue-800 mb-6">You don’t have to stay silent. Our legal team can step in immediately, stop the calls to your relatives, and hold the bank accountable for privacy violations. Protect your loved ones and get a fair settlement today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -584,9 +584,9 @@ export default function RecoveryAgentsFamilyLawClient() {
                                     Protect My Reputation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 text-left px-1">
-                                    <p>✓ Stop Employer Calls</p>
-                                    <p>✓ Block Third-Party Harassment</p>
-                                    <p>✓ Sue for Defamation</p>
+                                    <p>v Stop Employer Calls</p>
+                                    <p>v Block Third-Party Harassment</p>
+                                    <p>v Sue for Defamation</p>
                                 </div>
                             </div>
 

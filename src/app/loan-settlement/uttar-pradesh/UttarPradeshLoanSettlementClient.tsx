@@ -116,7 +116,7 @@ export default function UttarPradeshLoanSettlementClient() {
     },
     {
       question: "Do I need to visit the bank branch for settlement?",
-      answer: "No. We handle the entire negotiation process with the bank's regional or central offices. You do not need to face the branch manager or local recovery agents personally."
+      answer: "No. We handle the entire negotiation process with the bank’s regional or central offices. You do not need to face the branch manager or local recovery agents personally."
     },
     {
       question: "How long does the settlement process take in UP?",
@@ -214,7 +214,7 @@ export default function UttarPradeshLoanSettlementClient() {
               
               <h2 id="up-debt-landscape" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Relief in Uttar Pradesh: Your Guide to Financial Freedom</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Uttar Pradesh is a state of immense contrast and economic activity. On one side, we have the high tech corporate hubs of Noida and Ghaziabad, which are part of the National Capital Region (NCR). On the other, we have traditional industrial powerhouses like Kanpur, the spiritual tourism centers of Varanasi and Ayodhya, and the administrative heart in Lucknow. This diverse economy is fueled by credit. From home loans in Greater Noida's real estate market to personal loans for business expansion in Meerut, debt is an integral part of life.
+                Uttar Pradesh is a state of immense contrast and economic activity. On one side, we have the high tech corporate hubs of Noida and Ghaziabad, which are part of the National Capital Region (NCR). On the other, we have traditional industrial powerhouses like Kanpur, the spiritual tourism centers of Varanasi and Ayodhya, and the administrative heart in Lucknow. This diverse economy is fueled by credit. From home loans in Greater Noida’s real estate market to personal loans for business expansion in Meerut, debt is an integral part of life.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 However, financial stability is never guaranteed. The volatility in the job market, especially in the private sector in Noida, or disruptions in the supply chains affecting traders in Kanpur, can lead to sudden financial distress. When EMIs bounce and penalties pile up, the stress can be overwhelming. In Uttar Pradesh, the fear of "Log Kya Kahenge" (What will people say?) often prevents borrowers from seeking help, but silence only worsens the problem.
@@ -243,7 +243,7 @@ export default function UttarPradeshLoanSettlementClient() {
                 <li><strong>Protection from Molestation:</strong> The Act, along with the Indian Penal Code, strictly prohibits the use of force, intimidation, or harassment for the recovery of loans. If a recovery agent creates a nuisance at your home in Lucknow or your office in Noida, they are breaking the law.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Additionally, the RBI's Fair Practices Code applies universally. It strictly forbids banks and NBFCs from using musclemen or abusive language. We at CredSettle ensure that these rights are enforced during your settlement process.
+                Additionally, the RBI’s Fair Practices Code applies universally. It strictly forbids banks and NBFCs from using musclemen or abusive language. We at CredSettle ensure that these rights are enforced during your settlement process.
               </p>
 
               <h2 id="settlement-process-noida" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">How Loan Settlement Works in UP</h2>
@@ -270,14 +270,14 @@ export default function UttarPradeshLoanSettlementClient() {
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-5">
                     <h4 className="text-lg font-bold text-gray-900 mb-2">Negotiation with Regional Offices</h4>
-                    <p className="text-gray-700">We negotiate directly with the bank's Zonal or Regional offices in Lucknow or Noida. Our goal is to get a waiver on all interest and penalties, and a substantial reduction on the principal amount.</p>
+                    <p className="text-gray-700">We negotiate directly with the bank’s Zonal or Regional offices in Lucknow or Noida. Our goal is to get a waiver on all interest and penalties, and a substantial reduction on the principal amount.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-5">
                     <h4 className="text-lg font-bold text-gray-900 mb-2">Written Settlement Letter</h4>
-                    <p className="text-gray-700">We secure a formal settlement offer on the bank's letterhead. We verify the authenticity of this document to ensure you are not falling for a scam.</p>
+                    <p className="text-gray-700">We secure a formal settlement offer on the bank’s letterhead. We verify the authenticity of this document to ensure you are not falling for a scam.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
@@ -313,7 +313,7 @@ export default function UttarPradeshLoanSettlementClient() {
                  <li><strong>Dial 112:</strong> This is the unified emergency number in UP. If agents are at your home creating a scene, dialing 112 ensures immediate police intervention.</li>
                  <li><strong>UPCOP App:</strong> You can lodge complaints digitally using the official UP Police app, "UPCOP". This creates a digital trail that forces the local station to take cognizance of the issue.</li>
                  <li><strong>Cyber Crime Reporting:</strong> If you are being harassed via WhatsApp, email, or through illegal loan apps, you can file a complaint at the nearest Cyber Crime Police Station. Noida and Lucknow have specialized Cyber Crime cells that are very active.</li>
-                 <li><strong>Igrs Portal (Jansunwai):</strong> You can also register a grievance on the UP Government's Jansunwai portal (IGRS), which is monitored directly by the Chief Minister's office, ensuring strict action.</li>
+                 <li><strong>Igrs Portal (Jansunwai):</strong> You can also register a grievance on the UP Government’s Jansunwai portal (IGRS), which is monitored directly by the Chief Minister’s office, ensuring strict action.</li>
               </ul>
 
               <h2 id="drt-lucknow-allahabad" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Recovery Tribunals (DRT) in Uttar Pradesh</h2>
@@ -336,7 +336,7 @@ export default function UttarPradeshLoanSettlementClient() {
 
               <h2 id="cities-covered-up" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">We Serve All of Uttar Pradesh</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                CredSettle's services are not limited to just one city. We have a network that covers the entire length and breadth of Uttar Pradesh.
+                CredSettle’s services are not limited to just one city. We have a network that covers the entire length and breadth of Uttar Pradesh.
               </p>
               <div className="flex flex-wrap gap-3 mb-10">
                 {['Noida', 'Greater Noida', 'Ghaziabad', 'Lucknow', 'Kanpur', 'Agra', 'Varanasi', 'Prayagraj (Allahabad)', 'Meerut', 'Aligarh', 'Bareilly', 'Moradabad', 'Gorakhpur', 'Saharanpur', 'Jhansi', 'Muzaffarnagar'].map((city, index) => (
@@ -406,9 +406,9 @@ export default function UttarPradeshLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                  <p>✓ NCR & UP Coverage</p>
-                  <p>✓ DRT Lucknow Experts</p>
-                  <p>✓ Anti-Harassment Help</p>
+                  <p>v NCR & UP Coverage</p>
+                  <p>v DRT Lucknow Experts</p>
+                  <p>v Anti-Harassment Help</p>
                 </div>
               </div>
 

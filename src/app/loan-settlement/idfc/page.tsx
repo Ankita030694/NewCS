@@ -92,7 +92,7 @@ export default function IDFCLoanSettlementPage() {
     },
     {
       question: "How do I initiate a settlement with IDFC First Bank?",
-      answer: "To initiate a settlement, you or your legal representative must approach the bank's collections or recovery department. You will need to submit a formal settlement propsal explaining your financial hardship and offering a specific settlement amount."
+      answer: "To initiate a settlement, you or your legal representative must approach the bank’s collections or recovery department. You will need to submit a formal settlement propsal explaining your financial hardship and offering a specific settlement amount."
     },
     {
       question: "Can I settle my IDFC FIRST Millennia Credit Card bill?",
@@ -103,7 +103,7 @@ export default function IDFCLoanSettlementPage() {
       answer: "There is no fixed percentage as every case is evaluated individually. However, banks generally aim to recover at least the principal amount. In severe hardship cases, settlements can sometimes be reached for 30% to 50% of the total outstanding dues."
     },
     {
-      question: "Will IDFC First Bank take legal action if I don't pay?",
+      question: "Will IDFC First Bank take legal action if I don’t pay?",
       answer: "If you default on your payments, the bank has the right to initiate legal proceedings, including arbitration or civil suits, to recover the dues. They may also engage recovery agents. Initiating a settlement process is a proactive way to halt these legal actions."
     },
     {

@@ -121,15 +121,15 @@ export default function CanYouGetLoanAgainClient() {
         },
         {
             question: 'Why did my car loan get rejected even with a 780 score?',
-            answer: 'Banks look at the qualitative history, not just the score. If you have a settlement record in the last few years, the score doesn\'t matter. The underwriter sees that you didn\'t honor a past contract in full, making you a "Moral Hazard" risk.'
+            answer: 'Banks look at the qualitative history, not just the score. If you have a settlement record in the last few years, the score doesn’t matter. The underwriter sees that you didn’t honor a past contract in full, making you a "Moral Hazard" risk.'
         },
         {
             question: 'Are there any lenders who specialize in "Settled" borrowers?',
             answer: 'In 2025, several fintech companies and small NBFCs use "Alternative Credit Scoring" (analysing your bank statements and utility bills) to lend to settled borrowers, though they charge higher interest rates of 24% to 36%.'
         },
         {
-            question: 'How do I check if I am still on a bank\'s internal blacklist?',
-            answer: 'Banks usually don\'t disclose this. However, if you apply for a basic product like a savings account or a small loan and get an "Internal Policy" rejection despite a good CIBIL, it is a sign you are on their negative list.'
+            question: 'How do I check if I am still on a bank’s internal blacklist?',
+            answer: 'Banks usually don’t disclose this. However, if you apply for a basic product like a savings account or a small loan and get an "Internal Policy" rejection despite a good CIBIL, it is a sign you are on their negative list.'
         },
         {
             question: 'Will a settlement with an NBFC affect my eligibility with a private bank?',
@@ -323,12 +323,12 @@ export default function CanYouGetLoanAgainClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
                             
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Life Post-Settlement: The Borrower's Redemption</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Life Post-Settlement: The Borrower’s Redemption</h2>
                             <p className="text-gray-700 leading-relaxed text-xl mb-8 font-light italic">
                                 For thousands of Indian borrowers, the day they receive their "No Dues Certificate" (NDC) after a loan settlement is a day of immense relief. The calls stop, the stress fades, and the legal threats vanish. But soon, a new anxiety takes its place: "Am I financially exiled forever? Can I ever own a home or a car with a loan again?"
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, the banking world is built on algorithms that don't just forget. They are designed to remember every compromise made. However, we also live in an era where data is dynamic. To ask if you can get a loan again is to ask how well you can play the "Credit Rebuilding Game." It is not about a sudden miracle; it is about a calculated, phased return to creditworthiness.
+                                In 2025, the banking world is built on algorithms that don’t just forget. They are designed to remember every compromise made. However, we also live in an era where data is dynamic. To ask if you can get a loan again is to ask how well you can play the "Credit Rebuilding Game." It is not about a sudden miracle; it is about a calculated, phased return to creditworthiness.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Why is this process so misunderstood? Because banks benefit from the myth that settlement is the end of your financial life. They use it as a threat to force repayment. At CredSettle, we have seen the reality: borrowers who settled 5 years ago are today sitting in their own homes, financed by major banks. This 4000+ word deep-dive will dismantle the myths and provide you with a scientific roadmap to getting fresh credit after a settlement.
@@ -452,7 +452,7 @@ export default function CanYouGetLoanAgainClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -478,9 +478,9 @@ export default function CanYouGetLoanAgainClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 
@@ -495,7 +495,7 @@ export default function CanYouGetLoanAgainClient() {
                                         { href: "/services/credit-score-builder", text: "Score Builder Services" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

@@ -23,7 +23,7 @@ export default function MobileAppSettlementPage() {
       answer: "Yes, AMA Connect is a professional debt resolution platform that connects borrowers with legal experts and bank negotiators. It is widely used in India for reaching compromise settlements with multiple lenders through a single dashboard."
     },
     {
-      question: "Can I settle my credit card debt through the bank's mobile app?",
+      question: "Can I settle my credit card debt through the bank’s mobile app?",
       answer: "You can sometimes find 'One Time Settlement' offers under the 'Offers' or 'Credit Card' section of the bank app if you have defaulted for over 90 days. However, these are fixed offers and do not allow for the deep negotiations possible through specialized apps."
     },
     {

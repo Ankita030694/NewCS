@@ -19,7 +19,7 @@ export default function MaharashtraPageClient() {
     { id: 'introduction', text: 'Personal Loan Settlement in Maharashtra', level: 2 },
     { id: 'why-maharashtra', text: 'Why Maharashtra Borrowers Need Settlement Services', level: 2 },
     { id: 'common-challenges', text: 'Common Loan Challenges in Mumbai, Pune & Major Cities', level: 2 },
-    { id: 'credsettle-services', text: 'CredSettle – Your Trusted Partner in Maharashtra', level: 2 },
+    { id: 'credsettle-services', text: 'CredSettle - Your Trusted Partner in Maharashtra', level: 2 },
     { id: 'settlement-process', text: 'Our Proven Settlement Process', level: 3 },
     { id: 'legal-protection', text: 'Legal Protection & RBI Compliance', level: 3 },
     { id: 'lok-adalat', text: 'Maharashtra Lok Adalat System for Loan Settlement', level: 2 },
@@ -60,7 +60,7 @@ export default function MaharashtraPageClient() {
     },
     {
       question: 'What is Lok Adalat and how can it help with loan settlement?',
-      answer: 'Lok Adalat is an alternative dispute resolution system recognized under the Legal Services Authorities Act, 1987. Maharashtra has an active Lok Adalat system where borrowers can settle loan disputes amicably. CredSettle can guide you through the Lok Adalat process if it\'s the best option for your case.'
+      answer: 'Lok Adalat is an alternative dispute resolution system recognized under the Legal Services Authorities Act, 1987. Maharashtra has an active Lok Adalat system where borrowers can settle loan disputes amicably. CredSettle can guide you through the Lok Adalat process if it’s the best option for your case.'
     },
     {
       question: 'Do I need to visit CredSettle office in Mumbai or Pune?',
@@ -138,7 +138,7 @@ export default function MaharashtraPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Personal Loan Settlement in Maharashtra – Mumbai, Pune, Nagpur
+                Personal Loan Settlement in Maharashtra - Mumbai, Pune, Nagpur
               </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
@@ -213,7 +213,7 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Maharashtra handles millions of personal loan transactions every year. Mumbai's financial sector, Pune's IT companies, and Nagpur's commercial growth have made personal loans common for education, medical needs, business expansion and daily expenses. But job losses, business downturns, medical emergencies and rising living costs leave many borrowers unable to keep up with EMIs.
+                    Maharashtra handles millions of personal loan transactions every year. Mumbai’s financial sector, Pune’s IT companies, and Nagpur’s commercial growth have made personal loans common for education, medical needs, business expansion and daily expenses. But job losses, business downturns, medical emergencies and rising living costs leave many borrowers unable to keep up with EMIs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay a reduced amount instead of the full balance. The RBI recognizes this as a legal debt resolution method. When you genuinely cannot repay your loans, settlement offers a way out without years of harassment or legal battles.
@@ -247,7 +247,7 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Mumbai's financial sector, Pune's IT industry, Nagpur's logistics companies and the state's manufacturing units create a diverse economy. But this also means varied financial stress points. In Mumbai, EMIs often eat up 40-50% of monthly income because living costs are so high. Job security varies across sectors, and when income drops, loan payments become impossible.
+                    Mumbai’s financial sector, Pune’s IT industry, Nagpur’s logistics companies and the state’s manufacturing units create a diverse economy. But this also means varied financial stress points. In Mumbai, EMIs often eat up 40-50% of monthly income because living costs are so high. Job security varies across sectors, and when income drops, loan payments become impossible.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>When default happens:</strong> After 90 days of missed payments, your account becomes an NPA (Non-Performing Asset). Banks and NBFCs then push hard for recovery. Collection agencies call 20-30 times daily. Recovery agents visit your home and office. Your CIBIL score drops below 600. Some lenders threaten legal action or even try to seize assets if you have secured loans.
@@ -287,10 +287,10 @@ export default function MaharashtraPageClient() {
                     Urban living costs, job market swings and aggressive lenders create specific debt problems in Maharashtra. These are the five issues we handle most often:
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Mumbai's High Living Costs:</strong> Rent alone costs ₹30,000-₹80,000 monthly in decent Mumbai areas. Add school fees, medical bills and daily expenses, and many families take 3-4 loans just to stay afloat. When someone loses their job or a business slows down, all those EMIs become impossible. We've helped hundreds of Mumbai families consolidate these multiple loans and settle for 55% less on average.
+                    <strong>Mumbai’s High Living Costs:</strong> Rent alone costs ₹30,000-₹80,000 monthly in decent Mumbai areas. Add school fees, medical bills and daily expenses, and many families take 3-4 loans just to stay afloat. When someone loses their job or a business slows down, all those EMIs become impossible. We’ve helped hundreds of Mumbai families consolidate these multiple loans and settle for 55% less on average.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Pune IT Sector Problems:</strong> Pune's IT boom brings jobs but also layoffs, project closures and salary delays. People borrow based on good times, then get stuck when companies downsize or startups fail. Our Pune team knows this pattern well. We show lenders the real IT sector data and negotiate settlements that account for income drops.
+                    <strong>Pune IT Sector Problems:</strong> Pune’s IT boom brings jobs but also layoffs, project closures and salary delays. People borrow based on good times, then get stuck when companies downsize or startups fail. Our Pune team knows this pattern well. We show lenders the real IT sector data and negotiate settlements that account for income drops.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Aggressive NBFCs in Smaller Cities:</strong> Nagpur, Nashik, Aurangabad and Solapur have seen NBFCs push loans with minimal paperwork and interest rates of 18-36% yearly. When you miss payments, their recovery gets brutal fast. We step in immediately, cite RBI rules that ban harassment, and force proper settlement negotiations.
@@ -316,7 +316,7 @@ export default function MaharashtraPageClient() {
                     marginBottom: '20px'
                   }}
                 >
-                  CredSettle – Your Trusted Partner in Maharashtra
+                  CredSettle - Your Trusted Partner in Maharashtra
                 </h2>
                 <div
                   className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -327,10 +327,10 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled over 8,500 loan settlement cases across Maharashtra in the last three years. Our clients save an average of 58% on their outstanding debt. We work with all the major banks and NBFCs that lend in Mumbai, Pune, Nagpur and other Maharashtra cities.
+                    We’ve handled over 8,500 loan settlement cases across Maharashtra in the last three years. Our clients save an average of 58% on their outstanding debt. We work with all the major banks and NBFCs that lend in Mumbai, Pune, Nagpur and other Maharashtra cities.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Why we're different:</strong> We're not collection agents or grey-market operators. CredSettle is a registered legal services company that follows every RBI rule. Every settlement we negotiate gets proper documentation, legal standing and permanent closure. We have lawyers and financial experts in Mumbai, Pune and Nagpur who know the local banking scene inside out.
+                    <strong>Why we’re different:</strong> We’re not collection agents or grey-market operators. CredSettle is a registered legal services company that follows every RBI rule. Every settlement we negotiate gets proper documentation, legal standing and permanent closure. We have lawyers and financial experts in Mumbai, Pune and Nagpur who know the local banking scene inside out.
                   </p>
 
                   {/* H3: Settlement Process */}
@@ -348,7 +348,7 @@ export default function MaharashtraPageClient() {
                       Our Proven Settlement Process
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1: Free Consultation</strong> - We review your loan papers, check your outstanding amounts, look at your income and collect hardship proof. This happens by phone, video call or in person if you're in Mumbai or Pune. <strong>Step 2: Stop the Harassment</strong> - We send legal notices to your lenders citing RBI Fair Practices rules. Direct recovery contact stops immediately. <strong>Step 3: Negotiate Hard</strong> - Our team uses your hardship documents, NPA cost data and lender policies to push for 30-70% debt reduction. <strong>Step 4: Get Legal Papers</strong> - Settlement agreements include OTS letters, payment receipts, account closure proof and NOC certificates. Everything documented properly. <strong>Step 5: Follow-Up Support</strong> - We check that credit bureaus update correctly and give you advice on rebuilding your score.
+                      <strong>Step 1: Free Consultation</strong> - We review your loan papers, check your outstanding amounts, look at your income and collect hardship proof. This happens by phone, video call or in person if you’re in Mumbai or Pune. <strong>Step 2: Stop the Harassment</strong> - We send legal notices to your lenders citing RBI Fair Practices rules. Direct recovery contact stops immediately. <strong>Step 3: Negotiate Hard</strong> - Our team uses your hardship documents, NPA cost data and lender policies to push for 30-70% debt reduction. <strong>Step 4: Get Legal Papers</strong> - Settlement agreements include OTS letters, payment receipts, account closure proof and NOC certificates. Everything documented properly. <strong>Step 5: Follow-Up Support</strong> - We check that credit bureaus update correctly and give you advice on rebuilding your score.
                     </p>
                   </div>
 
@@ -396,13 +396,13 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Maharashtra runs one of India's best Lok Adalat systems. This is a court-backed mediation system under the Legal Services Authorities Act, 1987. Whatever Lok Adalat decides becomes legally binding like a court order. It's specifically designed to settle disputes including loan defaults without long court battles.
+                    Maharashtra runs one of India’s best Lok Adalat systems. This is a court-backed mediation system under the Legal Services Authorities Act, 1987. Whatever Lok Adalat decides becomes legally binding like a court order. It’s specifically designed to settle disputes including loan defaults without long court battles.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Why Lok Adalat works for loans:</strong> Both you and your lender sit with trained mediators who push for fair settlements. No court fees. Usually resolved in one session. The decision is final and legally enforceable. Banks and NBFCs in Maharashtra regularly participate and often agree to 40-60% settlements through Lok Adalat.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Lok Adalat experience:</strong> We've represented hundreds of Maharashtra borrowers in Lok Adalats across Mumbai, Pune, Nagpur, Thane and district courts. We prepare your hardship documents, write settlement proposals and argue your case hard. When Lok Adalat makes sense for your situation, we handle everything from start to finish.
+                    <strong>Our Lok Adalat experience:</strong> We’ve represented hundreds of Maharashtra borrowers in Lok Adalats across Mumbai, Pune, Nagpur, Thane and district courts. We prepare your hardship documents, write settlement proposals and argue your case hard. When Lok Adalat makes sense for your situation, we handle everything from start to finish.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>When to use Lok Adalat:</strong> If your lender has already filed a court case or recovery tribunal claim, Lok Adalat is your best shot at quick resolution. Maharashtra Legal Services Authority holds regular banking Lok Adalats. We track these dates and prepare your case to get maximum debt reduction.
@@ -435,13 +435,13 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Mumbai:</strong> Handles 40% of Maharashtra's personal loans. High rents, tough job market, but also home to bank headquarters which helps us negotiate. We've helped thousands across Andheri, Borivali, Thane, Navi Mumbai and central Mumbai. Knowing the head office decision-makers gives us leverage other companies don't have.
+                    <strong>Mumbai:</strong> Handles 40% of Maharashtra’s personal loans. High rents, tough job market, but also home to bank headquarters which helps us negotiate. We’ve helped thousands across Andheri, Borivali, Thane, Navi Mumbai and central Mumbai. Knowing the head office decision-makers gives us leverage other companies don’t have.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Pune:</strong> IT professionals, students and startup founders borrow differently. Education loans for abroad, personal loans for company funding, credit cards to manage cash flow. When layoffs hit or startups fail, all these loans pile up. Our Pune team works from Hinjewadi, Magarpatta and Koregaon Park. We know the IT sector's hiring cycles and use that data in negotiations.
+                    <strong>Pune:</strong> IT professionals, students and startup founders borrow differently. Education loans for abroad, personal loans for company funding, credit cards to manage cash flow. When layoffs hit or startups fail, all these loans pile up. Our Pune team works from Hinjewadi, Magarpatta and Koregaon Park. We know the IT sector’s hiring cycles and use that data in negotiations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Nagpur:</strong> Central Maharashtra's logistics hub where NBFCs have pushed aggressive lending. Many people here have 2-3 small NBFC loans at 24-36% interest. Our Nagpur division specializes in NBFC negotiation and gets good results because we understand Vidarbha's economy and regional lender behavior.
+                    <strong>Nagpur:</strong> Central Maharashtra’s logistics hub where NBFCs have pushed aggressive lending. Many people here have 2-3 small NBFC loans at 24-36% interest. Our Nagpur division specializes in NBFC negotiation and gets good results because we understand Vidarbha’s economy and regional lender behavior.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Nashik, Aurangabad, Solapur, Kolhapur:</strong> Tier-2 cities with growing loan markets but less awareness about legal settlement options. We serve these cities with the same quality as Mumbai and Pune. Local legal partnerships, regular consultation visits, remote handling when needed.
@@ -478,13 +478,13 @@ export default function MaharashtraPageClient() {
                     <strong>2. Harassment Stops Fast:</strong> Within 3-5 days of hiring us, recovery calls end. We handle all lender contact. No more agents at your door or office.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Save 30-70% on Average:</strong> Our Maharashtra clients save 58% on average. That's lakhs of rupees back in your pocket. We use NPA cost data, hardship proof and lender policies to negotiate hard.
+                    <strong>3. Save 30-70% on Average:</strong> Our Maharashtra clients save 58% on average. That’s lakhs of rupees back in your pocket. We use NPA cost data, hardship proof and lender policies to negotiate hard.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>4. Legal RBI Process:</strong> Every settlement follows RBI rules. You get OTS letters, payment receipts, account closure proof and NOC. Everything documented so lenders cannot come back later.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Pay After Success:</strong> We charge only after getting your settlement approved. No upfront fees during consultation or negotiation. That's how confident we are.
+                    <strong>5. Pay After Success:</strong> We charge only after getting your settlement approved. No upfront fees during consultation or negotiation. That’s how confident we are.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>6. Credit Score Help:</strong> After settlement, we guide you on rebuilding CIBIL score, managing money better and getting credit again when you need it.
@@ -576,7 +576,7 @@ export default function MaharashtraPageClient() {
                     <strong>Step 3: Stop Harassment (Day 7-10)</strong> - We send legal notices to all lenders citing RBI rules. All recovery contact gets redirected to us. Harassment stops.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Step 4: Negotiate (Week 2-6)</strong> - Our team contacts each lender's NPA division. We push for 40-70% reduction using your hardship data, NPA costs and past settlements. May take several rounds to get best terms.
+                    <strong>Step 4: Negotiate (Week 2-6)</strong> - Our team contacts each lender’s NPA division. We push for 40-70% reduction using your hardship data, NPA costs and past settlements. May take several rounds to get best terms.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Step 5: Get Agreement (Week 6-8)</strong> - Lender agrees, we get proper OTS letter with amount, deadline and closure confirmation. Everything checked before you pay anything.
@@ -588,7 +588,7 @@ export default function MaharashtraPageClient() {
                     <strong>Step 7: Close Account (Week 10-12)</strong> - Lender has 30 days to give closure letter, NOC and update credit bureaus. We follow up hard to ensure they do it on time and correctly.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Step 8: Rebuild Credit (Ongoing)</strong> - After settlement, we counsel you on improving CIBIL, managing money and avoiding future debt traps. Support doesn't end at settlement.
+                    <strong>Step 8: Rebuild Credit (Ongoing)</strong> - After settlement, we counsel you on improving CIBIL, managing money and avoiding future debt traps. Support doesn’t end at settlement.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Total time:</strong> Usually 45-90 days from first call to final closure. Depends on how fast lenders respond and when you can arrange payment.
@@ -608,7 +608,7 @@ export default function MaharashtraPageClient() {
                     marginBottom: '20px'
                   }}
                 >
-                  Success Story: Mumbai Entrepreneur's Debt-Free Journey
+                  Success Story: Mumbai Entrepreneur’s Debt-Free Journey
                 </h2>
                 <div
                   className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -622,7 +622,7 @@ export default function MaharashtraPageClient() {
                     <strong>The Client:</strong> Rajesh M., age 38, runs a textile export business in Andheri, Mumbai. Had borrowed ₹32 lakhs total (3 personal loans, 2 credit cards, 1 business loan) to expand operations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Went Wrong:</strong> COVID killed his export orders in 2020. Couldn't pay EMIs on ₹18 lakhs personal loans, ₹9 lakhs credit card debt and ₹5 lakhs business loan. All accounts went NPA. Recovery agents called 20-30 times daily, threatened court, showed up at his home and office. CIBIL fell from 750 to 520. Business dying, family stressed beyond limits.
+                    <strong>What Went Wrong:</strong> COVID killed his export orders in 2020. Couldn’t pay EMIs on ₹18 lakhs personal loans, ₹9 lakhs credit card debt and ₹5 lakhs business loan. All accounts went NPA. Recovery agents called 20-30 times daily, threatened court, showed up at his home and office. CIBIL fell from 750 to 520. Business dying, family stressed beyond limits.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>We Stepped In:</strong> Rajesh called us October 2021. We sent legal notices to all 6 lenders immediately. Harassment stopped in 5 days. Our assessment showed real hardship - 80% income drop, export orders gone, savings depleted. We documented everything properly.
@@ -665,19 +665,19 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Struggling with loan debt in Mumbai, Pune, Nagpur or anywhere in Maharashtra? You're not alone and you don't have to handle this yourself. Settlement is legal. RBI recognizes it. It's for people with real financial problems who need a way out.
+                    Struggling with loan debt in Mumbai, Pune, Nagpur or anywhere in Maharashtra? You’re not alone and you don’t have to handle this yourself. Settlement is legal. RBI recognizes it. It’s for people with real financial problems who need a way out.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Unmanageable debt ruins everything. Your health suffers. Family fights over money. Can't focus at work. Mental peace gone. Each day you wait, penalties pile up, interest compounds, CIBIL drops further. But there's a solution. Over 8,500 Maharashtra families already got financial freedom through our services.
+                    Unmanageable debt ruins everything. Your health suffers. Family fights over money. Can’t focus at work. Mental peace gone. Each day you wait, penalties pile up, interest compounds, CIBIL drops further. But there’s a solution. Over 8,500 Maharashtra families already got financial freedom through our services.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Start now:</strong> Free confidential consultation with CredSettle. No pressure, no obligations. Just honest assessment and clear options. Our Maharashtra experts will show you how to stop harassment, cut debt 30-70% and close everything legally.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Financial problems are temporary. But unresolved debt drags on for years. With our legal team, Maharashtra knowledge and proven results, you can end the loan crisis and rebuild properly. Don't let debt control your life. Act today.
+                    Financial problems are temporary. But unresolved debt drags on for years. With our legal team, Maharashtra knowledge and proven results, you can end the loan crisis and rebuild properly. Don’t let debt control your life. Act today.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Mumbai streets, Pune IT parks, Nagpur neighborhoods or anywhere in Maharashtra. Debt-free life is possible. We'll help you get there.
+                    <strong>Call CredSettle for free consultation.</strong> Mumbai streets, Pune IT parks, Nagpur neighborhoods or anywhere in Maharashtra. Debt-free life is possible. We’ll help you get there.
                   </p>
                 </div>
               </section>

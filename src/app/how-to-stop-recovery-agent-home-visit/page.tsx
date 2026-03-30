@@ -129,7 +129,7 @@ export default function RecoveryVisitPage() {
         'name': 'Can a recovery agent visit my home without notice?',
         'acceptedAnswer': {
           '@type': 'Answer',
-          'text': 'No. According to RBI guidelines, banks and NBFCs must provide a prior written notice before a recovery agent visits a borrower\'s premises. Unannounced visits are a violation of the Fair Practices Code.'
+          'text': 'No. According to RBI guidelines, banks and NBFCs must provide a prior written notice before a recovery agent visits a borrower’s premises. Unannounced visits are a violation of the Fair Practices Code.'
         }
       },
       {
@@ -153,7 +153,7 @@ export default function RecoveryVisitPage() {
         'name': 'What documents should a recovery agent show during a visit?',
         'acceptedAnswer': {
           '@type': 'Answer',
-          'text': 'An agent must produce a valid Identity Card issued by the bank/agency, a copy of the bank\'s Authorization Letter, and a specific Visit Letter mentioning your loan details.'
+          'text': 'An agent must produce a valid Identity Card issued by the bank/agency, a copy of the bank’s Authorization Letter, and a specific Visit Letter mentioning your loan details.'
         }
       },
       {
@@ -169,7 +169,7 @@ export default function RecoveryVisitPage() {
         'name': 'What should I do if a recovery agent uses abusive language?',
         'acceptedAnswer': {
           '@type': 'Answer',
-          'text': 'Record the interaction immediately as evidence. File a formal complaint with the bank\'s Nodal Officer and if not resolved, escalate to the RBI Ombudsman.'
+          'text': 'Record the interaction immediately as evidence. File a formal complaint with the bank’s Nodal Officer and if not resolved, escalate to the RBI Ombudsman.'
         }
       },
       {
@@ -233,7 +233,7 @@ export default function RecoveryVisitPage() {
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
             Tired of unannounced doorstep harassment? Discover the powerful RBI guidelines
-            and legal strategies to stop recovery visits forever. Protect your family's
+            and legal strategies to stop recovery visits forever. Protect your family’s
             dignity and privacy with expert legal protection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

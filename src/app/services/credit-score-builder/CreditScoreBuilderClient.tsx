@@ -82,7 +82,7 @@ export default function CreditScoreBuilderClient() {
     },
     {
       question: 'What is a credit score builder and how does it work?',
-      answer: 'A credit score builder is a service that helps you improve your credit score through strategic financial planning, credit report analysis, and personalized improvement strategies. It works by analyzing your credit report, identifying negative factors affecting your score, creating a customized action plan, and providing ongoing guidance to help you build credit responsibly. CredSettle\'s credit score builder service includes credit report analysis, dispute resolution, and credit improvement strategies.'
+      answer: 'A credit score builder is a service that helps you improve your credit score through strategic financial planning, credit report analysis, and personalized improvement strategies. It works by analyzing your credit report, identifying negative factors affecting your score, creating a customized action plan, and providing ongoing guidance to help you build credit responsibly. CredSettle’s credit score builder service includes credit report analysis, dispute resolution, and credit improvement strategies.'
     },
     {
       question: 'How long does it take to build a good credit score from scratch?',
@@ -148,7 +148,7 @@ export default function CreditScoreBuilderClient() {
   const keyFactorsCards = [
     {
       icon: faCalendarCheck,
-      title: 'Payment History • 35%',
+      title: 'Payment History * 35%',
       description: (
         <>
           On-time EMI and credit card payments form the backbone of your <strong>CIBIL score</strong>. Missed or delayed payments trigger score drops and stay on record for years, making disciplined repayment the fastest route to improvement.
@@ -157,7 +157,7 @@ export default function CreditScoreBuilderClient() {
     },
     {
       icon: faGaugeHigh,
-      title: 'Credit Utilization • 30%',
+      title: 'Credit Utilization * 30%',
       description: (
         <>
           Using less than <strong>30%</strong> of total credit limits signals financial stability. Allow balances to hover near limits and lenders assume stress. We coach you to maintain sub-10% utilization for optimal score traction.
@@ -166,7 +166,7 @@ export default function CreditScoreBuilderClient() {
     },
     {
       icon: faLayerGroup,
-      title: 'Credit Mix • 15%',
+      title: 'Credit Mix * 15%',
       description: (
         <>
           A healthy blend of revolving credit (cards) and installment loans demonstrates portfolio maturity. We help diversify responsibly so you showcase competence without over-leveraging.
@@ -175,7 +175,7 @@ export default function CreditScoreBuilderClient() {
     },
     {
       icon: faClockRotateLeft,
-      title: 'Credit History Length • 15%',
+      title: 'Credit History Length * 15%',
       description: (
         <>
           Older accounts boost average age and prove long-term reliability. Keep legacy credit lines active even with minimal usage to preserve this high-impact metric.
@@ -184,7 +184,7 @@ export default function CreditScoreBuilderClient() {
     },
     {
       icon: faMagnifyingGlassPlus,
-      title: 'New Credit Inquiries • 5%',
+      title: 'New Credit Inquiries * 5%',
       description: (
         <>
           Too many hard pulls in quick succession raise red flags. Strategic spacing of applications protects your <strong>CIBIL score</strong> while still giving room to access new credit when truly needed.
@@ -208,7 +208,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Set Measurable Score Targets',
       description: (
         <>
-          Define a score goal and time horizon-often a <strong>50–100 point</strong> gain across <strong>6–12 months</strong>. Align strategy with upcoming financial milestones like home loans or balance transfers.
+          Define a score goal and time horizon-often a <strong>50-100 point</strong> gain across <strong>6-12 months</strong>. Align strategy with upcoming financial milestones like home loans or balance transfers.
         </>
       )
     },
@@ -286,7 +286,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Preferential Interest Rates',
       description: (
         <>
-          Boosting a home loan offer by just <strong>1%</strong> can save ₹50,000–₹1,00,000 over the tenure. High scores unlock these elite lending slabs.
+          Boosting a home loan offer by just <strong>1%</strong> can save ₹50,000-₹1,00,000 over the tenure. High scores unlock these elite lending slabs.
         </>
       )
     },
@@ -514,7 +514,7 @@ export default function CreditScoreBuilderClient() {
       title: 'Borrow Small, Repay Perfectly',
       description: (
         <>
-          Take manageable installment loans, repay ahead of schedule, and establish a proven track record within the first 6–12 months.
+          Take manageable installment loans, repay ahead of schedule, and establish a proven track record within the first 6-12 months.
         </>
       )
     },
@@ -1134,7 +1134,7 @@ export default function CreditScoreBuilderClient() {
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional credit score building assistance from CredSettle's expert team. Improve your CIBIL credit score through proven strategies and personalized guidance-start your path to better credit today.
+                        Get professional credit score building assistance from CredSettle’s expert team. Improve your CIBIL credit score through proven strategies and personalized guidance-start your path to better credit today.
                       </p>
                     </div>
 

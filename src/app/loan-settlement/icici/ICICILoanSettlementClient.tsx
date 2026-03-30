@@ -94,7 +94,7 @@ export default function ICICILoanSettlementClient() {
     },
     {
       question: "How do I settle my Amazon Pay ICICI Credit Card?",
-      answer: "The Amazon Pay ICICI card follows the same settlement lifecycle as other credit cards. Since it is a co-branded card, the recovery is handled by ICICI Bank's teams, not Amazon. You can settle this card by proving financial inability to pay. Be aware that settling this card will likely block you from using Amazon Pay Later services as well."
+      answer: "The Amazon Pay ICICI card follows the same settlement lifecycle as other credit cards. Since it is a co-branded card, the recovery is handled by ICICI Bank’s teams, not Amazon. You can settle this card by proving financial inability to pay. Be aware that settling this card will likely block you from using Amazon Pay Later services as well."
     },
     {
       question: "Can I get a foreclosure letter online from ICICI Bank?",
@@ -110,7 +110,7 @@ export default function ICICILoanSettlementClient() {
     },
     {
       question: "Will the recovery agents stop calling if I start settlement talks?",
-      answer: "Official negotiation usually halts the aggressive calling. However, third-party agencies might not get the memo immediately. CredSettle ensures that a legal communication is sent to the bank's central team, which legally obligates them to pause harassment while the settlement terms are being finalized."
+      answer: "Official negotiation usually halts the aggressive calling. However, third-party agencies might not get the memo immediately. CredSettle ensures that a legal communication is sent to the bank’s central team, which legally obligates them to pause harassment while the settlement terms are being finalized."
     },
     {
       question: "Can I settle an 'Insta Loan' on my ICICI Credit Card?",
@@ -230,10 +230,10 @@ export default function ICICILoanSettlementClient() {
 
               <h2 id="overview" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Overview of ICICI Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                ICICI Bank is one of India's leading financial institutions, widely known for its quick disbursement of personal loans and credit cards. However, unforeseen life events such as job loss, salary cuts, or medical emergencies can disrupt your repayment schedule, leading to debt accumulation. When traditional repayment becomes impossible, <strong>ICICI Loan Settlement</strong> (or One Time Settlement - OTS) emerges as a practical legal solution.
+                ICICI Bank is one of India’s leading financial institutions, widely known for its quick disbursement of personal loans and credit cards. However, unforeseen life events such as job loss, salary cuts, or medical emergencies can disrupt your repayment schedule, leading to debt accumulation. When traditional repayment becomes impossible, <strong>ICICI Loan Settlement</strong> (or One Time Settlement - OTS) emerges as a practical legal solution.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Settlement is not merely about non-payment; it is a structured financial exit route recognized by the banking system. It allows you to close your loan account by paying a negotiated reduced amount, thereby stopping the cycle of compounding interest and late fees. At CredSettle, we specialize in navigating ICICI Bank's specific settlement protocols to secure the most favorable terms for you.
+                Settlement is not merely about non-payment; it is a structured financial exit route recognized by the banking system. It allows you to close your loan account by paying a negotiated reduced amount, thereby stopping the cycle of compounding interest and late fees. At CredSettle, we specialize in navigating ICICI Bank’s specific settlement protocols to secure the most favorable terms for you.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
@@ -276,7 +276,7 @@ export default function ICICILoanSettlementClient() {
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-8 text-gray-700">
                 <li>Your Amazon account might not be blocked immediately, but your <strong>Amazon Pay Later</strong> limit will likely be frozen.</li>
-                <li>The recovery follow-ups will come from ICICI Bank's authorized agencies, not Amazon customer service.</li>
+                <li>The recovery follow-ups will come from ICICI Bank’s authorized agencies, not Amazon customer service.</li>
                 <li>The settlement process is identical to any other ICICI Platinum or Coral credit card.</li>
                 <li>You can successfully settle this card for <strong>50% or less</strong> of the outstanding value depending on the delinquency period.</li>
               </ul>
@@ -291,7 +291,7 @@ export default function ICICILoanSettlementClient() {
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
                     <h4 className="font-bold text-gray-900">Financial Assessment</h4>
-                    <p className="text-gray-600 mt-1">We evaluate your current 'Disposable Income'. This helps us calculate a realistic repayment offer that you can actually afford, ensuring the negotiation doesn't fail later.</p>
+                    <p className="text-gray-600 mt-1">We evaluate your current 'Disposable Income'. This helps us calculate a realistic repayment offer that you can actually afford, ensuring the negotiation doesn’t fail later.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -319,7 +319,7 @@ export default function ICICILoanSettlementClient() {
 
               <h2 id="documents-required" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Documents Required</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                ICICI Bank's credit committee requires proof that your default is not 'wilful'. You will need to provide:
+                ICICI Bank’s credit committee requires proof that your default is not 'wilful'. You will need to provide:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-10 text-gray-700">
                 <li><strong>Identity Proof:</strong> PAN Card & Aadhar Card.</li>
@@ -369,7 +369,7 @@ export default function ICICILoanSettlementClient() {
               {/* CTA Widget */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
-                <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
+                <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -377,8 +377,8 @@ export default function ICICILoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ RBI Compliant Process</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v RBI Compliant Process</p>
                 </div>
               </div>
 

@@ -108,7 +108,7 @@ export default function CanIGoToJailClient() {
         },
         {
             question: 'How do I distinguish between a real legal notice and a fake one?',
-            answer: 'A real legal notice will have a case number (CNR), the advocate\'s name/registration, and a traceable court date if it\'s a summons. Most "immediate arrest" notices sent by agents are fakes.'
+            answer: 'A real legal notice will have a case number (CNR), the advocate’s name/registration, and a traceable court date if it’s a summons. Most "immediate arrest" notices sent by agents are fakes.'
         }
     ];
 
@@ -123,7 +123,7 @@ export default function CanIGoToJailClient() {
             name: 'Ananya Roy',
             location: 'Bangalore',
             stars: 5,
-            comment: 'Essential for anyone struggling with debt. The breakdown of Supreme Court rulings is a lifesaver. CredSettle helped me realize that my debt doesn\'t make me a criminal.'
+            comment: 'Essential for anyone struggling with debt. The breakdown of Supreme Court rulings is a lifesaver. CredSettle helped me realize that my debt doesn’t make me a criminal.'
         },
         {
             name: 'Mohammed Ali',
@@ -135,7 +135,7 @@ export default function CanIGoToJailClient() {
             name: 'Priyanka Chopra (Not the Actress)',
             location: 'Mumbai',
             stars: 5,
-            comment: 'Knowing that simple default isn\'t IPC 420 saved my mental health. I have now started the settlement process with more confidence.'
+            comment: 'Knowing that simple default isn’t IPC 420 saved my mental health. I have now started the settlement process with more confidence.'
         }
     ];
 
@@ -378,10 +378,10 @@ export default function CanIGoToJailClient() {
                                 The Indian legal system treats a loan as a <strong className="font-bold text-gray-900">Civil Contract</strong>. If you default, the bank has the right to sue you for the money, seize your assets (in case of secured loans), or impact your credit score. They do NOT have the right to put you in handcuffs. The Supreme Court of India has repeatedly slammed lenders for attempting to "criminalize" commercial disputes as a shortcut to recovery.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In this 5000+ word deep-dive will empower you with the truth. We will explore the categorical difference between <strong className="font-bold text-gray-900">Civil vs. Criminal liability</strong>, the specific (and avoidable) exceptions where jail is possible (like fraud or cheque bounce), and the recent landmark judgments from 2024 and 2025 that have reinforced the borrower's "Right to Liberty."
+                                In this 5000+ word deep-dive will empower you with the truth. We will explore the categorical difference between <strong className="font-bold text-gray-900">Civil vs. Criminal liability</strong>, the specific (and avoidable) exceptions where jail is possible (like fraud or cheque bounce), and the recent landmark judgments from 2024 and 2025 that have reinforced the borrower’s "Right to Liberty."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we believe that education is the ultimate antidote to harassment. Once you understand that the agent's "jail threat" is a desperate lie, you reclaim the mental clarity needed to fix your financial life. Let us dismantle the myths and look at the actual Law of the Land.
+                                At CredSettle, we believe that education is the ultimate antidote to harassment. Once you understand that the agent’s "jail threat" is a desperate lie, you reclaim the mental clarity needed to fix your financial life. Let us dismantle the myths and look at the actual Law of the Land.
                             </p>
 
                             <h2 id="civil-vs-criminal-law" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Civil vs Criminal Law: The Great Divide</h2>
@@ -421,7 +421,7 @@ export default function CanIGoToJailClient() {
                                 If you issue a cheque to the bank and it bounces, they can file a criminal case against you. This *can* lead to a jail sentence of up to 2 years.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong className="font-bold text-gray-900">Why you shouldn't panic:</strong>
+                                <strong className="font-bold text-gray-900">Why you shouldn’t panic:</strong>
                                 <br />1. The process takes years.
                                 <br />2. Courts always offer a chance to settle. If you pay the cheque amount (usually + a small penalty), the criminal case is closed immediately (Compounding of Offense).
                                 <br />3. Arrest usually only happens if you *ignore the court summons*. As long as you appear in court through a lawyer, you get bail as a matter of right.
@@ -457,12 +457,12 @@ export default function CanIGoToJailClient() {
                                 Even for a "Wilful Defaulter," the primary outcome is being barred from the financial system, not immediate imprisonment.
                             </p>
 
-                            <h2 id="drb-drt-proceedings" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">DRT Proceedings: The Bank's Civil Battle</h2>
+                            <h2 id="drb-drt-proceedings" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">DRT Proceedings: The Bank’s Civil Battle</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For loans above ₹20 Lakhs, cases go to the <strong className="font-bold text-gray-900">Debt Recovery Tribunal (DRT)</strong>. For smaller amounts, they go to the <strong className="font-bold text-gray-900">Civil Courts</strong>.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                These proceedings are long and complex. The court's entire focus is: "How much money is owed, and what assets can be sold to recover it?" The judge is not interested in sending you to jail; they are interested in balancing the ledger. If you cooperate with the court and attend hearings, you are in zero danger of arrest.
+                                These proceedings are long and complex. The court’s entire focus is: "How much money is owed, and what assets can be sold to recover it?" The judge is not interested in sending you to jail; they are interested in balancing the ledger. If you cooperate with the court and attend hearings, you are in zero danger of arrest.
                             </p>
 
                             <h2 id="recovery-agent-lies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Recovery Agent Lies: Identifying the Bluff</h2>
@@ -471,7 +471,7 @@ export default function CanIGoToJailClient() {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong className="font-bold text-gray-900">The "Fake Notice" Test:</strong>
-                                <br />- Real notices don't have "URGENT ARREST" written in red letters.
+                                <br />- Real notices don’t have "URGENT ARREST" written in red letters.
                                 <br />- Real notices have a bar code and are sent via Registered Post.
                                 <br />- Real notices are from a Court of Law, not from "The Recovery Dept of Bank X."
                             </p>
@@ -548,15 +548,15 @@ export default function CanIGoToJailClient() {
                                 We have covered over 5000 words on the legal shield that protects you from jail. The journey through debt is difficult, but it should not be a journey through the criminal justice system. In India, poverty and financial failure are not crimes.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The "Jail Myth" is the most potent weapon in a recovery agent's arsenal. By educating yourself, you have disarmed them. You now know that as long as you haven't committed fraud or ignored actual court summons, you are a law-abiding citizen facing a civil commercial dispute.
+                                The "Jail Myth" is the most potent weapon in a recovery agent’s arsenal. By educating yourself, you have disarmed them. You now know that as long as you haven’t committed fraud or ignored actual court summons, you are a law-abiding citizen facing a civil commercial dispute.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you are being hounded by jail threats, remember: You don't need to run; you need to respond. Use the legal escalation paths, seek professional help at CredSettle, and focus your energy on the actual problem: solving the debt. Jail is for criminals; you are just a borrower who needs a fresh start. Reclaim your liberty and start your journey toward financial freedom today.
+                                If you are being hounded by jail threats, remember: You don’t need to run; you need to respond. Use the legal escalation paths, seek professional help at CredSettle, and focus your energy on the actual problem: solving the debt. Jail is for criminals; you are just a borrower who needs a fresh start. Reclaim your liberty and start your journey toward financial freedom today.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Stop Living in Fear</h3>
-                                <p className="text-blue-800 mb-6">Our legal experts specialize in stopping illegal jail threats and negotiating settlements that protect your freedom. Don't let them bully you. Get the legal shield you deserve.</p>
+                                <p className="text-blue-800 mb-6">Our legal experts specialize in stopping illegal jail threats and negotiating settlements that protect your freedom. Don’t let them bully you. Get the legal shield you deserve.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -587,9 +587,9 @@ export default function CanIGoToJailClient() {
                                     Get Legal Protection
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 text-left px-1">
-                                    <p>✓ SC Ruling Compliance</p>
-                                    <p>✓ Stop Jail Threats</p>
-                                    <p>✓ Professional OTS Help</p>
+                                    <p>v SC Ruling Compliance</p>
+                                    <p>v Stop Jail Threats</p>
+                                    <p>v Professional OTS Help</p>
                                 </div>
                             </div>
 

@@ -26,8 +26,8 @@
  * - Main static pages: 5
  * - Simple service pages: 2
  * - Loan settlement main pages: 6 (one per service type)
- * - Loan settlement state pages: 6 × 36 = 216 (one per service × state)
- * - Loan settlement bank pages: 6 × 115 = 690 (one per service × bank)
+ * - Loan settlement state pages: 6 x 36 = 216 (one per service x state)
+ * - Loan settlement bank pages: 6 x 115 = 690 (one per service x bank)
  * - Resource/Blog pages: Dynamic (fetched from Firebase Firestore 'blogs' collection)
  * 
  * TOTAL PAGES: ~950+ pages (varies based on number of blog posts)
@@ -77,7 +77,7 @@ const loanSettlementServices = [
 ];
 
 /**
- * Simple service pages that don't have nested routes
+ * Simple service pages that don’t have nested routes
  * These are standalone pages: /services/{service-slug}
  */
 const simpleServices = [
@@ -268,7 +268,7 @@ async function getAllBlogSlugs(): Promise<string[]> {
     return [...new Set(slugs)];
   } catch (error) {
     console.error('Error fetching blog slugs from Firebase:', error);
-    // Return empty array on error - sitemap will still work but won't include blog pages
+    // Return empty array on error - sitemap will still work but won’t include blog pages
     return [];
   }
 }
@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 85; // Updated for new loan settlement SEO pages (added 4 more in total).
+  const mainStaticPages = 88; // Updated for new loan settlement SEO pages (added understanding-90-day-loan-default-india & do-banks-file-fir-for-credit-card-dues & can-recovery-agents-abuse-you-legally-india).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -477,6 +477,41 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services`,
     priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/understanding-90-day-loan-default-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/do-banks-file-fir-for-credit-card-dues`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-loan-settlement-illegal-in-india-truth`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-cibil-ruined-forever-after-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-recovery-agents-abuse-you-legally-india`,
+    priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -1820,11 +1855,17 @@ async function generateSitemap(): Promise<string> {
     changefreq: 'weekly',
     lastmod: today
   });
+  urls.push({
+    loc: `${baseUrl}/do-banks-file-fir-for-credit-card-dues`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
 
   // ========================================================================
   // SECTION 2: SIMPLE SERVICE PAGES
   // ========================================================================
-  // These services don't have nested routes - just single pages
+  // These services don’t have nested routes - just single pages
 
   for (const service of simpleServices) {
     urls.push({
@@ -1909,7 +1950,7 @@ async function generateSitemap(): Promise<string> {
     }
   } catch (error) {
     console.error('Error fetching blog slugs for sitemap:', error);
-    // Continue without blog pages if there's an error
+    // Continue without blog pages if there’s an error
   }
 
   // ========================================================================

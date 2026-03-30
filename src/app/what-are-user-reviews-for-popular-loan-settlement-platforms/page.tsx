@@ -29,7 +29,7 @@ export default function PlatformReviewsPage() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "What are User Reviews for Popular Loan Settlement Platforms?",
-        "description": "An exhaustive analysis of user experiences, success rates, and reviews for India's leading loan settlement platforms, including AMA Legal Solutions, CredSettle, and more.",
+        "description": "An exhaustive analysis of user experiences, success rates, and reviews for India’s leading loan settlement platforms, including AMA Legal Solutions, CredSettle, and more.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Organization",

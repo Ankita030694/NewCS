@@ -16,14 +16,14 @@ export default function RequiredDocumentsPage() {
   const faqs = [
     {
         question: 'Can I settle a loan if I have lost my original loan agreement?',
-        answer: 'Yes, you can. While having the original is better, the bank\'s account statement and the notices they send you are sufficient proof of the debt\'s existence.'
+        answer: 'Yes, you can. While having the original is better, the bank’s account statement and the notices they send you are sufficient proof of the debt’s existence.'
     },
     {
         question: 'Why does the bank need my PAN card for a settlement?',
         answer: 'The Income Tax Act mandates that banks report any "waiver of liability" above certain limits. They cannot file this report without your PAN.'
     },
     {
-        question: 'What if I don\'t have a "Termination Letter" for my job?',
+        question: 'What if I don’t have a "Termination Letter" for my job?',
         answer: 'You can provide an email from your HR, a resignation acceptance, or simply 6 months of bank statements showing that your salary credits have stopped.'
     },
     {
@@ -35,8 +35,8 @@ export default function RequiredDocumentsPage() {
         answer: 'If you have paid the full OTS amount on time and the bank is delaying the NDC, you can file a formal complaint with the Integrated Ombudsman of the RBI.'
     },
     {
-        question: 'Do I need to provide documents of my spouse\'s income?',
-        answer: 'Only if your spouse was a "Co-Applicant" or a "Guarantor" for the loan. If the loan was in your name only, your spouse\'s income is technically private, though showing a low "Household Income" can sometimes help your case.'
+        question: 'Do I need to provide documents of my spouse’s income?',
+        answer: 'Only if your spouse was a "Co-Applicant" or a "Guarantor" for the loan. If the loan was in your name only, your spouse’s income is technically private, though showing a low "Household Income" can sometimes help your case.'
     },
     {
         question: 'How long should I keep my settlement documents?',
@@ -44,7 +44,7 @@ export default function RequiredDocumentsPage() {
     },
     {
         question: 'Can I settle without a CIBIL report?',
-        answer: 'No major bank will process a settlement without checking your credit profile. Even if you don\'t provide it, they will pull it. Having your own copy just makes you better prepared.'
+        answer: 'No major bank will process a settlement without checking your credit profile. Even if you don’t provide it, they will pull it. Having your own copy just makes you better prepared.'
     },
     {
         question: 'What is a "Hardship Letter" and who should it be addressed to?',
@@ -52,7 +52,7 @@ export default function RequiredDocumentsPage() {
     },
     {
         question: 'Do I need an affidavit for a credit card settlement?',
-        answer: 'Usually not for small amounts. But if your card debt is above 5 or 10 lakhs, the bank\'s policy might require a sworn statement of your assets and liabilities.'
+        answer: 'Usually not for small amounts. But if your card debt is above 5 or 10 lakhs, the bank’s policy might require a sworn statement of your assets and liabilities.'
     }
   ];
 
@@ -61,7 +61,7 @@ export default function RequiredDocumentsPage() {
         name: 'Rajesh Khanna',
         location: 'Delhi',
         rating: 5,
-        text: 'I didn\'t know where to start until I saw this checklist. The section on medical hardship docs was exactly what I needed to prove my case to SBI. Successfully settled my 12L debt.'
+        text: 'I didn’t know where to start until I saw this checklist. The section on medical hardship docs was exactly what I needed to prove my case to SBI. Successfully settled my 12L debt.'
     },
     {
         name: 'Sunita Mehra',

@@ -86,7 +86,7 @@ export default function BangaloreAgenciesPage() {
                 'name': 'Are debt relief agencies legal in Bangalore?',
                 'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'Yes, debt relief and settlement agencies operate legally within the framework of Indian contract law and RBI\'s Fair Practices Code. They act as consultants or legal representatives for the borrower.'
+                    'text': 'Yes, debt relief and settlement agencies operate legally within the framework of Indian contract law and RBI’s Fair Practices Code. They act as consultants or legal representatives for the borrower.'
                 }
             },
             {
@@ -94,7 +94,7 @@ export default function BangaloreAgenciesPage() {
                 'name': 'Can an agency stop recovery agents from visiting my home in Bangalore?',
                 'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'While agents cannot physically "block" a person, they issue legal notices that effectively warn lenders against violating RBI\'s harassment guidelines. This usually stops unauthorized home visits.'
+                    'text': 'While agents cannot physically "block" a person, they issue legal notices that effectively warn lenders against violating RBI’s harassment guidelines. This usually stops unauthorized home visits.'
                 }
             },
             {
@@ -102,7 +102,7 @@ export default function BangaloreAgenciesPage() {
                 'name': 'What is the typical waiver I can expect on a personal loan?',
                 'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'Waivers typically range from 40% to 60% of the total outstanding amount, depending on the bank and the severity of the borrower\'s financial hardship.'
+                    'text': 'Waivers typically range from 40% to 60% of the total outstanding amount, depending on the bank and the severity of the borrower’s financial hardship.'
                 }
             },
             {

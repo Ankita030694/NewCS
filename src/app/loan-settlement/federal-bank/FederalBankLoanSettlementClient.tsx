@@ -208,7 +208,7 @@ export default function FederalBankLoanSettlementClient() {
                     <strong>Eligibility:</strong> Accounts classified as NPA for at least <strong>6 months</strong>. Pre-NPA (SMA-1/2) accounts are generally steered towards restructuring, not settlement.
                   </li>
                   <li>
-                    <strong>Legal Status:</strong> You ARE eligible for OTS even if the bank has initiated SARFAESI (Section 13(2) Notice) or filed a case in DRT, <em>provided</em> no court decree has been passed yet. Once a court orders you to pay, the bank's flexibility drops to zero.
+                    <strong>Legal Status:</strong> You ARE eligible for OTS even if the bank has initiated SARFAESI (Section 13(2) Notice) or filed a case in DRT, <em>provided</em> no court decree has been passed yet. Once a court orders you to pay, the bank’s flexibility drops to zero.
                   </li>
                   <li>
                     <strong>Payment Structure:</strong>
@@ -282,19 +282,19 @@ export default function FederalBankLoanSettlementClient() {
                 <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <span className="text-amber-500 mr-2">✓</span>
+                      <span className="text-amber-500 mr-2">v</span>
                       <span><strong>Formal OTS Application:</strong> On your letterhead (for business) or plain paper (individual), clearly stating the cause of default.</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-amber-500 mr-2">✓</span>
+                      <span className="text-amber-500 mr-2">v</span>
                       <span><strong>Statement of Means:</strong> A legally binding declaration of your current assets (liquid and immovable).</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-amber-500 mr-2">✓</span>
+                      <span className="text-amber-500 mr-2">v</span>
                       <span><strong>Cheque for 5%:</strong> A cheque/DD for 5% of your <em>proposed</em> offer amount (not the total due).</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-amber-500 mr-2">✓</span>
+                      <span className="text-amber-500 mr-2">v</span>
                       <span><strong>Closure of Business Proof:</strong> GST cancellation certificate or shop establishment surrender (for business loans).</span>
                     </li>
                   </ul>
@@ -304,7 +304,7 @@ export default function FederalBankLoanSettlementClient() {
               <h2 id="process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The CredSettle Navigation Process</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  We don't just "talk" to the manager. We engineer the file to fit their approval matrix.
+                  We don’t just "talk" to the manager. We engineer the file to fit their approval matrix.
                 </p>
                 <ol className="list-decimal pl-6 space-y-4">
                   <li>
@@ -331,7 +331,7 @@ export default function FederalBankLoanSettlementClient() {
                   <strong>Why choose this?</strong>
                 </p>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
-                  <li><strong>Refund of Court Fees:</strong> If they have already filed a case against you, settling in Lok Adalat forces the court to refund their hefty court fees. We use this as a bargaining chip—"Settle with us now, and you get your court fees back."</li>
+                  <li><strong>Refund of Court Fees:</strong> If they have already filed a case against you, settling in Lok Adalat forces the court to refund their hefty court fees. We use this as a bargaining chip-"Settle with us now, and you get your court fees back."</li>
                   <li><strong>Finality:</strong> A Lok Adalat award is final. They cannot reopen the case.</li>
                 </ul>
               </div>
@@ -355,7 +355,7 @@ export default function FederalBankLoanSettlementClient() {
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-amber-100 text-center transform transition hover:-translate-y-1">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Federal Bank Help?</h4>
-                <p className="text-sm text-gray-600 mb-6">Don't lose your 5% deposit. Get expert advice first.</p>
+                <p className="text-sm text-gray-600 mb-6">Don’t lose your 5% deposit. Get expert advice first.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-amber-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-amber-700 transition-colors shadow-md"
@@ -363,8 +363,8 @@ export default function FederalBankLoanSettlementClient() {
                   Book Consultation
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 30-min Strategy Call</p>
-                  <p className="mt-1">✓ OTS Math Check</p>
+                  <p>v 30-min Strategy Call</p>
+                  <p className="mt-1">v OTS Math Check</p>
                 </div>
               </div>
 

@@ -117,11 +117,11 @@ export default function TamilNaduLoanSettlementClient() {
     },
     {
       question: "Do I need to visit the bank branch personally?",
-      answer: "No. Once you hire CredSettle, we handle the communication. We negotiate with the bank's central processing units in Chennai or Mumbai, so you don't have to face local branch managers or recovery agents."
+      answer: "No. Once you hire CredSettle, we handle the communication. We negotiate with the bank’s central processing units in Chennai or Mumbai, so you don’t have to face local branch managers or recovery agents."
     },
     {
       question: "How long does the settlement process take?",
-      answer: "In Tamil Nadu, the process typically takes 45 to 90 days. It depends on the bank's internal approval speed and the complexity of your case. We work to expedite the 'Settlement Letter' issuance."
+      answer: "In Tamil Nadu, the process typically takes 45 to 90 days. It depends on the bank’s internal approval speed and the complexity of your case. We work to expedite the 'Settlement Letter' issuance."
     }
   ];
 
@@ -245,7 +245,7 @@ export default function TamilNaduLoanSettlementClient() {
               
               <h2 id="tamil-nadu-debt-landscape" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Navigating Debt Relief in Tamil Nadu: A Comprehensive Guide</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Tamil Nadu is one of India's economic engines, home to a diverse population of professionals in Chennai's IT corridors, entrepreneurs in the textile hubs of Tirupur, and industrialists in Coimbatore. However, this economic vibrancy is fueled by credit. From personal loans for weddings to credit cards for daily expenses, debt is a reality for millions. But when financial shocks occur, like the recent volatility in the tech sector or post-pandemic business slowdowns, this debt can quickly become a suffocating burden.
+                Tamil Nadu is one of India’s economic engines, home to a diverse population of professionals in Chennai’s IT corridors, entrepreneurs in the textile hubs of Tirupur, and industrialists in Coimbatore. However, this economic vibrancy is fueled by credit. From personal loans for weddings to credit cards for daily expenses, debt is a reality for millions. But when financial shocks occur, like the recent volatility in the tech sector or post-pandemic business slowdowns, this debt can quickly become a suffocating burden.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 If you are struggling to repay your loans in Tamil Nadu, you must know that you are not alone, and you are not without options. <strong>Loan Settlement</strong> is a strategic, legal solution available to you. It is not about running away from your responsibilities; it is about acknowledging your inability to pay the full amount and negotiating a realistic closure with your bank.
@@ -322,7 +322,7 @@ export default function TamilNaduLoanSettlementClient() {
 
               <h2 id="lok-adalat-tamil-nadu" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Leveraging the Tamil Nadu Lok Adalat</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Lok Adalat</strong> (People's Court) is a preferred mechanism in Tamil Nadu for resolving banking disputes. Organized by the Tamil Nadu State Legal Services Authority (TNSLSA), it offers a golden opportunity for borrowers.
+                The <strong>Lok Adalat</strong> (People’s Court) is a preferred mechanism in Tamil Nadu for resolving banking disputes. Organized by the Tamil Nadu State Legal Services Authority (TNSLSA), it offers a golden opportunity for borrowers.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 <strong>Why is Lok Adalat the best route?</strong>
@@ -367,7 +367,7 @@ export default function TamilNaduLoanSettlementClient() {
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Receiving a summons from the DRT is a serious legal matter. Do not ignore it. However, the DRT also encourages settlements. With CredSettle's representation, we can often convert a DRT hearing into a settlement negotiation, resolving the matter legally.
+                Receiving a summons from the DRT is a serious legal matter. Do not ignore it. However, the DRT also encourages settlements. With CredSettle’s representation, we can often convert a DRT hearing into a settlement negotiation, resolving the matter legally.
               </p>
 
               <h2 id="districts-covered-tn" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Serving Every District in Tamil Nadu</h2>
@@ -417,14 +417,14 @@ export default function TamilNaduLoanSettlementClient() {
                 <div className="absolute top-0 left-0 w-full h-full bg-blue-700 opacity-20 transform -skew-x-12"></div>
                 <div className="relative z-10">
                     <h3 className="text-2xl font-bold mb-4">Reclaim Your Financial Freedom in Tamil Nadu</h3>
-                    <p className="mb-8 opacity-90 max-w-2xl mx-auto">Don't let debt control your life. Get expert legal help to settle your loans and stop harassment today.</p>
+                    <p className="mb-8 opacity-90 max-w-2xl mx-auto">Don’t let debt control your life. Get expert legal help to settle your loans and stop harassment today.</p>
                     <Link 
                     href="/contact"
                     className="inline-block bg-white text-blue-700 font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg transform hover:-translate-y-1"
                     >
                     Start Your Free Consultation
                     </Link>
-                    <p className="mt-4 text-sm opacity-70">100% Confidential • Expert Legal Team • Serving All TN Districts</p>
+                    <p className="mt-4 text-sm opacity-70">100% Confidential * Expert Legal Team * Serving All TN Districts</p>
                 </div>
               </div>
 
@@ -448,9 +448,9 @@ export default function TamilNaduLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                  <p>✓ Chennai & Coimbatore</p>
-                  <p>✓ Lok Adalat Experts</p>
-                  <p>✓ Kandhu Vatti Defense</p>
+                  <p>v Chennai & Coimbatore</p>
+                  <p>v Lok Adalat Experts</p>
+                  <p>v Kandhu Vatti Defense</p>
                 </div>
               </div>
 

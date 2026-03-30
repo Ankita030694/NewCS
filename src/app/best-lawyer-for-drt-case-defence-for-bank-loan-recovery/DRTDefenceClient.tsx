@@ -101,7 +101,7 @@ export default function DRTDefenceClient() {
         },
         {
             question: "What happens if my loan account was wrongly classified as an NPA?",
-            answer: "If the bank failed to follow RBI's 90-day delinquency rule or other classification guidelines, the entire recovery process under SARFAESI becomes invalid. A skilled advocate can use this as a primary defence to stop the recovery proceedings."
+            answer: "If the bank failed to follow RBI’s 90-day delinquency rule or other classification guidelines, the entire recovery process under SARFAESI becomes invalid. A skilled advocate can use this as a primary defence to stop the recovery proceedings."
         },
         {
             question: "Do I need to deposit money to file a case in the DRT?",
@@ -109,7 +109,7 @@ export default function DRTDefenceClient() {
         },
         {
             question: "Can a DRT case be settled out of court?",
-            answer: "Yes, even during an active DRT trial, both parties can opt for a One Time Settlement (OTS). Skilled lawyers often use the strengths of your defence to negotiate a better settlement amount with the bank's recovery department."
+            answer: "Yes, even during an active DRT trial, both parties can opt for a One Time Settlement (OTS). Skilled lawyers often use the strengths of your defence to negotiate a better settlement amount with the bank’s recovery department."
         },
         {
             question: "Is the DRT process faster than a regular civil court?",
@@ -117,7 +117,7 @@ export default function DRTDefenceClient() {
         },
         {
             question: "What is a 'Stay Order' in the context of DRT?",
-            answer: "A stay order is a temporary halt on the bank's recovery actions, such as an auction or possession, granted by the DRT. It provides the borrower time to present their full legal defence and prevents the irreparable loss of the property during trial."
+            answer: "A stay order is a temporary halt on the bank’s recovery actions, such as an auction or possession, granted by the DRT. It provides the borrower time to present their full legal defence and prevents the irreparable loss of the property during trial."
         },
         {
             question: "How does the Limitation Act apply to bank recovery cases?",
@@ -126,10 +126,10 @@ export default function DRTDefenceClient() {
     ];
 
     const reviews = [
-        { name: "Rajesh Kumar", stars: 5, comment: "I was facing a SARFAESI notice for my factory. CredSettle's lawyers found a major flaw in the bank's NPA classification. The DRT granted a stay, and we eventually settled for 40% less.", location: "Ludhiana" },
+        { name: "Rajesh Kumar", stars: 5, comment: "I was facing a SARFAESI notice for my factory. CredSettle’s lawyers found a major flaw in the bank’s NPA classification. The DRT granted a stay, and we eventually settled for 40% less.", location: "Ludhiana" },
         { name: "Anita Desai", stars: 5, comment: "The bank was trying to auction my house while my dispute was still pending. Their team moved the DRT quickly and stopped the auction within 48 hours. Highly recommended.", location: "Pune" },
         { name: "Vikram Singh", stars: 5, comment: "Professional and deep knowledge of banking laws. They helped me navigate the DRCAT appeal process when the first order went against us. Finally got justice.", location: "Delhi" },
-        { name: "Meena Gupta", stars: 5, comment: "Excellent support for MSME borrowers. They explained my rights under the RBI guidelines that even my bank manager didn't mention.", location: "Ahmedabad" }
+        { name: "Meena Gupta", stars: 5, comment: "Excellent support for MSME borrowers. They explained my rights under the RBI guidelines that even my bank manager didn’t mention.", location: "Ahmedabad" }
     ];
 
     return (
@@ -316,7 +316,7 @@ export default function DRTDefenceClient() {
                                 Our lawyers understand the internal mechanics of the DRT across all major Indian cities. We know that each tribunal operates with a specific cadence, and our strategy is always tailored to the local judicial environment. Whether it is a recovery application filed by the bank under the RDB Act or a Securitization Application (SA) filed by the borrower under the SARFAESI Act, the tribunal serves as the ultimate arbiter. Knowing the precedents set by specific benches regarding borrower rights is where our expertise becomes your greatest advantage.
                             </p>
 
-                            <h2 id="sarfaesi-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Decoding the SARFAESI Act: The Bank's Sharpest Tool</h2>
+                            <h2 id="sarfaesi-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Decoding the SARFAESI Act: The Bank’s Sharpest Tool</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act (SARFAESI) is the most powerful law in the hands of Indian lenders. It allows banks to seize and sell secured assets (like houses, shops, or land) without the intervention of a court. This "extrajudicial" power is intended to clean up the banking system, but it is frequently misused to bypass the legitimate grievances of borrowers. The Act works through a hierarchy of notices that must be strictly followed, failing which the entire action is void in the eyes of the law.
                             </p>
@@ -326,14 +326,14 @@ export default function DRTDefenceClient() {
 
                             <h2 id="legal-defences" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Common Legal Defences in DRT and SARFAESI Cases</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Success in the DRT is not about asking for mercy; it is about pointing out the bank's failure to follow the law. Precision is the key. Over years of defending thousands of cases, we have identified primary categories of defences that consistently result in favorable outcomes for our clients. These are not just technicalities; they are the fundamental legal rights that protect citizens from the arbitrary use of power by large financial institutions.
+                                Success in the DRT is not about asking for mercy; it is about pointing out the bank’s failure to follow the law. Precision is the key. Over years of defending thousands of cases, we have identified primary categories of defences that consistently result in favorable outcomes for our clients. These are not just technicalities; they are the fundamental legal rights that protect citizens from the arbitrary use of power by large financial institutions.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Incorrect NPA Classification:</strong> The 90 day delinquency rule is absolute. If a bank declares your account as an NPA even a day early, or if they failed to consider payments made during that period, their entire SARFAESI action is fundamentally flawed and must be set aside.</li>
                                     <li><strong>Failure to Respond to Objections:</strong> Section 13(3A) of the SARFAESI Act mandates that a bank must reply to your Section 13(2) objections. If they ignore your points or provide a generic "copy paste" reply, the DRT will likely consider it a violation of natural justice.</li>
                                     <li><strong>Procedural Lapses in Possession:</strong> Taking symbolic or physical possession requires following specific rules about serving notices, publishing them in newspapers, and affixing them to the property. Any missing step makes the possession illegal.</li>
-                                    <li><strong>Undervaluation of Property:</strong> Banks often try to sell assets at a fraction of their market value to ensure a quick sale. Challenging the "Reserve Price" set by the bank's valuer with an independent valuation report is a powerful way to stop an unfair auction.</li>
+                                    <li><strong>Undervaluation of Property:</strong> Banks often try to sell assets at a fraction of their market value to ensure a quick sale. Challenging the "Reserve Price" set by the bank’s valuer with an independent valuation report is a powerful way to stop an unfair auction.</li>
                                     <li><strong>Exemption of Agricultural Land:</strong> Section 31(i) is a massive shield. If the land used as security is being used for agriculture, the bank cannot touch it under SARFAESI. We have saved countless family farms using this specific provision.</li>
                                 </ul>
                             </div>
@@ -343,7 +343,7 @@ export default function DRTDefenceClient() {
                                 The root of every recovery case is the classification of your loan as a Non-Performing Asset (NPA). According to the Reserve Bank of India (RBI) Master Circular, an account becomes an NPA only when the interest or installment remains overdue for a period of more than 90 days. However, bank software often miscalculates this, or bank officers fail to account for partial payments. In some cases, banks even move the "NPA date" backwards to make their balance sheets look better, which is a direct violation of banking norms.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Our legal team performs a "Forensic Audit" of your loan account statements. We look for hidden charges, incorrect interest rate applications, and failure to credit your payments on time. If we can prove that the account should not have been an NPA on the date the notice was issued, the DRT has no choice but to quash the bank's recovery order. This "NPA Defence" is often the strongest weapon in a borrower's arsenal, as it strikes at the very heart of the bank's legal standing to sue.
+                                Our legal team performs a "Forensic Audit" of your loan account statements. We look for hidden charges, incorrect interest rate applications, and failure to credit your payments on time. If we can prove that the account should not have been an NPA on the date the notice was issued, the DRT has no choice but to quash the bank’s recovery order. This "NPA Defence" is often the strongest weapon in a borrower’s arsenal, as it strikes at the very heart of the bank’s legal standing to sue.
                             </p>
 
                             <h2 id="procedural-errors" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Using Bank Procedural Errors as Leverage</h2>
@@ -356,10 +356,10 @@ export default function DRTDefenceClient() {
 
                             <h2 id="limitation-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Limitation Act: When the Bank Waits Too Long</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Justice delayed is justice denied, and the law of limitation reflects this. Banks cannot hold a threat over your head forever. Generally, a bank has a period of three years from the date of the account being declared an NPA or the date of the last acknowledgement of debt to file a recovery case in the DRT. If they miss this window, they lose their right to recover the money through the legal system. This is a complete bar to recovery, and no amount of "hardship" on the bank's part can override it.
+                                Justice delayed is justice denied, and the law of limitation reflects this. Banks cannot hold a threat over your head forever. Generally, a bank has a period of three years from the date of the account being declared an NPA or the date of the last acknowledgement of debt to file a recovery case in the DRT. If they miss this window, they lose their right to recover the money through the legal system. This is a complete bar to recovery, and no amount of "hardship" on the bank’s part can override it.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                However, banks often try to extend this limitation through tricky means, such as making you sign a "Balance Confirmation" or getting you to make a small token payment. Our advocates are trained to spot these "Limitation Trap" tactics. If we find that the bank's recovery application is filed even one day after the limitation period expired, we can have the entire case dismissed at the threshold stage. This is a rare but extremely effective defence that ends the nightmare once and for all.
+                                However, banks often try to extend this limitation through tricky means, such as making you sign a "Balance Confirmation" or getting you to make a small token payment. Our advocates are trained to spot these "Limitation Trap" tactics. If we find that the bank’s recovery application is filed even one day after the limitation period expired, we can have the entire case dismissed at the threshold stage. This is a rare but extremely effective defence that ends the nightmare once and for all.
                             </p>
 
                             <h2 id="drt-v-civil" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">DRT vs. Civil Court: Choosing Your Battlefield</h2>
@@ -367,7 +367,7 @@ export default function DRTDefenceClient() {
                                 While banks prefer the DRT for its speed, there are situations where a borrower can pull the case into a regular civil court. For example, if there is a claim of fraud, or if the property in question is not actually part of the security agreement, the civil court retains its jurisdiction. Civil courts follow the CPC strictly, providing more opportunities for detailed evidence and lengthy cross examination, which can be strategically useful for a borrower facing an unfair bank demand.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Our legal strategy involves identifying which "Battlefield" is best for you. If the bank's case is weak on merits, we fight it head on in the DRT. If the case requires a detailed investigation into complex facts, we may move to involve the civil courts or even the High Court under Article 226 of the Constitution. Having a lawyer who can think globally across different court systems is what separates a standard advocate from an expert DRT strategist. We never just "respond" to the bank; we actively choose the legal arena that gives you the highest chance of winning.
+                                Our legal strategy involves identifying which "Battlefield" is best for you. If the bank’s case is weak on merits, we fight it head on in the DRT. If the case requires a detailed investigation into complex facts, we may move to involve the civil courts or even the High Court under Article 226 of the Constitution. Having a lawyer who can think globally across different court systems is what separates a standard advocate from an expert DRT strategist. We never just "respond" to the bank; we actively choose the legal arena that gives you the highest chance of winning.
                             </p>
 
                             <h2 id="drat-appeals" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The World of DRAT Appeals: Getting a Second Chance</h2>
@@ -399,20 +399,20 @@ export default function DRTDefenceClient() {
                                 The Reserve Bank of India (RBI) is the supreme regulator of the banking sector, and its "Master Circulars" have the force of law. These circulars cover everything from how interest should be calculated to how recovery agents must behave. Most importantly, the RBI mandates that banks must have a "Board Approved Policy" for compromise settlements. They cannot arbitrarily reject a reasonable settlement offer if the borrower is in genuine distress.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Our legal team uses the "RBI Defence" extensively. We point out when a bank has violated the "Fair Practices Code" or failed to follow the "Internal Grievance Redressal" mechanism. By showing the DRT that the bank has behaved in an "Unfair or Coercive" manner contrary to RBI rules, we can seek equitable relief. Banks are terrified of the "Banking Ombudsman" and the RBI's regulatory audit; we use that fear as a tool to protect your interests and bring them to the settlement table on your terms.
+                                Our legal team uses the "RBI Defence" extensively. We point out when a bank has violated the "Fair Practices Code" or failed to follow the "Internal Grievance Redressal" mechanism. By showing the DRT that the bank has behaved in an "Unfair or Coercive" manner contrary to RBI rules, we can seek equitable relief. Banks are terrified of the "Banking Ombudsman" and the RBI’s regulatory audit; we use that fear as a tool to protect your interests and bring them to the settlement table on your terms.
                             </p>
 
                             <h2 id="case-strategies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Our Winning Strategy for DRT Case Defence</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we don't just "show up" in court. We follow a battle tested roadmap that has been refined over hundreds of successful cases. Our strategy is built on three pillars: forensic analysis, procedural challenge, and strategic negotiation. We understand that our goal is not just to win a legal argument, but to solve your financial crisis.
+                                At CredSettle, we don’t just "show up" in court. We follow a battle tested roadmap that has been refined over hundreds of successful cases. Our strategy is built on three pillars: forensic analysis, procedural challenge, and strategic negotiation. We understand that our goal is not just to win a legal argument, but to solve your financial crisis.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
                                 <ol className="list-decimal pl-6 space-y-4 text-gray-800">
                                     <li><strong>Immediate Audit:</strong> Within 24 hours of engagement, our team audits your 13(2) notice and your loan account history to identify the strongest "Threshold Defences."</li>
                                     <li><strong>Protective Filings:</strong> We move the DRT for a "Caveat" or interim stay to ensure the bank cannot take any surprise action while we are preparing your main Securitization Application.</li>
-                                    <li><strong>The Objection Shield:</strong> We draft a meticulous representation under Section 13(3A), creating a legal record of the bank's failures that they will find impossible to ignore.</li>
+                                    <li><strong>The Objection Shield:</strong> We draft a meticulous representation under Section 13(3A), creating a legal record of the bank’s failures that they will find impossible to ignore.</li>
                                     <li><strong>Evidence Building:</strong> We gather independent valuations, proof of agricultural use, or evidence of procedural failure to build a "Preponderance of Probabilities" in your favor.</li>
-                                    <li><strong>Parallel Negotiation:</strong> While fighting the case in court, we engage with the bank's recovery department to push for an OTS (One Time Settlement) using the legal pressure we have created as leverage.</li>
+                                    <li><strong>Parallel Negotiation:</strong> While fighting the case in court, we engage with the bank’s recovery department to push for an OTS (One Time Settlement) using the legal pressure we have created as leverage.</li>
                                 </ol>
                             </div>
 
@@ -489,9 +489,9 @@ export default function DRTDefenceClient() {
                                     Free Case Audit
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Stay Order Specialists</p>
-                                    <p>✓ SARFAESI Notice Reply</p>
-                                    <p>✓ Bank Mediation & OTS</p>
+                                    <p>v Stay Order Specialists</p>
+                                    <p>v SARFAESI Notice Reply</p>
+                                    <p>v Bank Mediation & OTS</p>
                                 </div>
                             </div>
 

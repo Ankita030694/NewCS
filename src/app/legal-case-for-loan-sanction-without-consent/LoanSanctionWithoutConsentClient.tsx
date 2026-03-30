@@ -329,10 +329,10 @@ export default function LoanSanctionWithoutConsentClient() {
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>The Physical Signature:</strong> Still the gold standard for traditional bank loans. If the signature on the application form doesn't match your bank records, the contract is dead on arrival.</li>
+                                    <li><strong>The Physical Signature:</strong> Still the gold standard for traditional bank loans. If the signature on the application form doesn’t match your bank records, the contract is dead on arrival.</li>
                                     <li><strong>The Digital E-Sign:</strong> Under the Information Technology Act, an Aadhaar based e-sign or a Digital Signature Certificate (DSC) is legally equivalent to a physical signature. However, if this was done without your knowledge of the OTP, it is a cybercrime.</li>
                                     <li><strong>Biometric Consent:</strong> Thumbprints or facial recognition used in fintech apps. If these were bypassed or forged using deepfakes, the lender is liable for weak security.</li>
-                                    <li><strong>Passive Silence is NOT Consent:</strong> A bank cannot simply credit money and say "You didn't return it within 24 hours, so you consented." This is an illegal practice that the Supreme Court has repeatedly condemned.</li>
+                                    <li><strong>Passive Silence is NOT Consent:</strong> A bank cannot simply credit money and say "You didn’t return it within 24 hours, so you consented." This is an illegal practice that the Supreme Court has repeatedly condemned.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -409,7 +409,7 @@ export default function LoanSanctionWithoutConsentClient() {
 
                             <h2 id="consumer-court-claims" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Consumer Court Actions: Seeking Compensation for Harassment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Beyond the Ombudsman, you have the **Consumer Commission**. This is where we go when the bank’s negligence has caused severe damage to your life—such as being denied a home loan because of the fraud entry, or facing humiliation from recovery agents.
+                                Beyond the Ombudsman, you have the **Consumer Commission**. This is where we go when the bank’s negligence has caused severe damage to your life-such as being denied a home loan because of the fraud entry, or facing humiliation from recovery agents.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Consumer Protection Act 2019 allows you to file a case in your own city, regardless of where the bank is located. The courts have been very strict in 2024 and 2025, often awarding heavy penalties to banks for "Weak E-KYC Processes." A consumer court victory is not just about money; it is a public exoneration of your financial character.
@@ -420,7 +420,7 @@ export default function LoanSanctionWithoutConsentClient() {
                                 An unauthorized loan is like a stain on your financial shirt; even after you stop wearing it, the stain remains in the record. To clean your CIBIL, you must engage in a **Bipartite Dispute Resolution**.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                We handle the technical "Dispute Raise" on the CIBIL portal. We provide them with the bank’s "Fraud Closure Letter" or the Ombudsman's award. CIBIL is then legally required to verify this with the lender within 30 days. If the lender fails to respond or provides incorrect data, we escalate the matter to the **Credit Information Companies (Regulation) Act, 2005**, which can lead to further penalties for the lender.
+                                We handle the technical "Dispute Raise" on the CIBIL portal. We provide them with the bank’s "Fraud Closure Letter" or the Ombudsman’s award. CIBIL is then legally required to verify this with the lender within 30 days. If the lender fails to respond or provides incorrect data, we escalate the matter to the **Credit Information Companies (Regulation) Act, 2005**, which can lead to further penalties for the lender.
                             </p>
 
                             <h2 id="bank-liability-negligence" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Bank Liability: When Lenders Must Compensate You for Negligence</h2>
@@ -437,10 +437,10 @@ export default function LoanSanctionWithoutConsentClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light text-gray-800">
                                 <ul className="space-y-4">
-                                    <li>✓ <strong>Aadhaar Bio-Lock:</strong> Use the m-Aadhaar app to lock your biometrics. This prevents anyone from using your fingerprint for an e-KYC loan.</li>
-                                    <li>✓ <strong>Credit Monitoring:</strong> Set up "Credit Alerts" with a bureau like Experian or CIBIL. You will get an SMS the moment an inquiry is made in your name.</li>
-                                    <li>✓ <strong>Digital Hygiene:</strong> Never store photos of your PAN or Aadhaar in your email or cloud storage without password protection.</li>
-                                    <li>✓ <strong>Public Wi-Fi Warning:</strong> Never log into your banking app using public Wi-Fi at airports or cafes; this is the leading cause of login credential theft.</li>
+                                    <li>v <strong>Aadhaar Bio-Lock:</strong> Use the m-Aadhaar app to lock your biometrics. This prevents anyone from using your fingerprint for an e-KYC loan.</li>
+                                    <li>v <strong>Credit Monitoring:</strong> Set up "Credit Alerts" with a bureau like Experian or CIBIL. You will get an SMS the moment an inquiry is made in your name.</li>
+                                    <li>v <strong>Digital Hygiene:</strong> Never store photos of your PAN or Aadhaar in your email or cloud storage without password protection.</li>
+                                    <li>v <strong>Public Wi-Fi Warning:</strong> Never log into your banking app using public Wi-Fi at airports or cafes; this is the leading cause of login credential theft.</li>
                                 </ul>
                             </div>
 
@@ -478,7 +478,7 @@ export default function LoanSanctionWithoutConsentClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Reclaim Your Financial Freedom</h3>
-                                <p className="text-blue-800 mb-6">Don't let unauthorized loans or identity theft destroy your financial future. Our legal team is ready to fight for your rights and clear your name.</p>
+                                <p className="text-blue-800 mb-6">Don’t let unauthorized loans or identity theft destroy your financial future. Our legal team is ready to fight for your rights and clear your name.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"

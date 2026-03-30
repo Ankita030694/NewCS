@@ -243,7 +243,7 @@ export default function GujaratPageClient() {
                     Gujarat creates unique credit card culture shaped by entrepreneurial spirit, strong business community, trading heritage, and risk-taking mentality. Many families run businesses for generations. Credit cards seen as quick working capital. Using personal cards for business is very common practice. Works well during good times. Creates problems during business downturns.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Diamond trade in Surat:</strong> Surat processes 90% of world's diamonds. Thousands of diamond traders, cutters, polishers. High value, low margin business. Buy rough diamonds worth lakhs, sell polished diamonds after processing. Often use personal credit cards for quick purchases when cash stuck in inventory. If deal goes wrong or payment delayed, personal cards remain unpaid. Interest piles up. Trade requires trust and speed. Cards provide that speed but create personal liability.
+                    <strong>Diamond trade in Surat:</strong> Surat processes 90% of world’s diamonds. Thousands of diamond traders, cutters, polishers. High value, low margin business. Buy rough diamonds worth lakhs, sell polished diamonds after processing. Often use personal credit cards for quick purchases when cash stuck in inventory. If deal goes wrong or payment delayed, personal cards remain unpaid. Interest piles up. Trade requires trust and speed. Cards provide that speed but create personal liability.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Textile business debt:</strong> Surat also textile capital. Fabric trading, dyeing, printing, garment manufacturing. Business owners use personal cards to buy inventory during festival season (Diwali, Navratri). Plan to repay after season sales. If season disappoints or buyers delay payments, stuck with card debt. Each festival cycle adds more debt. After 2-3 cycles, personal card outstanding becomes 5-8 lakhs.
@@ -255,7 +255,7 @@ export default function GujaratPageClient() {
                     <strong>Real estate investment:</strong> Gujarat business families invest heavily in real estate. Use credit cards for booking amount, initial payments. Property prices in Ahmedabad, Surat keep rising. Buy flat worth 50-80 lakhs, use 2-3 lakhs from cards for booking. If property delayed (very common) or buyer cannot arrange home loan, money stuck. Card EMIs keep running for years.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Family business partnerships:</strong> Gujarat families often have multiple business partners within family. Brothers, cousins running different ventures. Use personal cards to help each other during cash crunch. One brother takes 2 lakh on personal cards to help other brother's business. If that business fails, personal card debt remains. Family dynamics make it difficult to demand repayment from family member.
+                    <strong>Family business partnerships:</strong> Gujarat families often have multiple business partners within family. Brothers, cousins running different ventures. Use personal cards to help each other during cash crunch. One brother takes 2 lakh on personal cards to help other brother’s business. If that business fails, personal card debt remains. Family dynamics make it difficult to demand repayment from family member.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     We understand Gujarat business culture completely. We know business cycles, trading heritage, family partnerships. But when personal card debt becomes unmanageable, settlement provides legal exit. We have helped thousands of Gujarat business families separate personal finances from business risks.
@@ -339,7 +339,7 @@ export default function GujaratPageClient() {
                     <strong>3. Business Expansion Failed:</strong> Used personal cards for business expansion (new shop, machinery, branch opening). Expansion did not work as planned. Business not generating enough profit to repay personal cards. We handle with business expansion documentation and current business situation.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Family Member Business Support:</strong> Used personal cards to help brother or cousin's business during cash crunch. That business faced losses or closed. Family member cannot repay. Personal card debt remains. Difficult situation but we settle with family business documentation.
+                    <strong>4. Family Member Business Support:</strong> Used personal cards to help brother or cousin’s business during cash crunch. That business faced losses or closed. Family member cannot repay. Personal card debt remains. Difficult situation but we settle with family business documentation.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>5. Real Estate Investment Delayed:</strong> Invested in property using cards for booking amount. Property project delayed by 2-3 years or cancelled. Refund stuck in legal process. Card EMIs paid for years while waiting. We settle with property documents and delay proof.
@@ -474,7 +474,7 @@ export default function GujaratPageClient() {
                     <strong>Ahmedabad:</strong> Commercial capital, pharma hub, textile market, diamond trading. Mix of traders, manufacturers, professionals. Card usage for business and personal needs. Average 4-5 cards per person, 4-7 lakhs total debt. We have handled 2,600+ Ahmedabad cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Surat:</strong> Diamond polishing capital (90% world's diamonds), textile hub. Thousands of diamond traders, cutters, fabric dealers. Heavy card usage for inventory and trade. Average 4-5 cards per person, 3-6 lakhs total debt. We have settled 2,100+ Surat cases.
+                    <strong>Surat:</strong> Diamond polishing capital (90% world’s diamonds), textile hub. Thousands of diamond traders, cutters, fabric dealers. Heavy card usage for inventory and trade. Average 4-5 cards per person, 3-6 lakhs total debt. We have settled 2,100+ Surat cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Vadodara, Rajkot and other cities:</strong> Mix of manufacturing, trading, service sector. Card usage for business expansion, family needs. Average 3-4 cards per person, 2-5 lakhs total debt. We have handled 900+ cases in these cities.
@@ -639,7 +639,7 @@ export default function GujaratPageClient() {
                     <strong>How Debt Happened:</strong> Jayesh successful textile trader for 12 years. Good relationships with fabric mills and garment buyers. Used personal cards regularly for business. Buy fabric inventory during off-season at good rates (3-4 lakhs on cards). Pay suppliers quickly to get discounts (2 lakhs on cards). Bridge working capital gap when buyer payments delayed (2-3 lakhs on cards). Always repaid from business profit within 2-3 months. System worked for years.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>GST Impact and Crisis:</strong> After GST implementation, fabric business dynamics changed. Many small buyers could not comply with GST rules, stopped orders. Big buyers started delaying payments longer. Jayesh's receivables jumped from 30 days to 90 days. Cash flow squeezed. Used more credit cards to manage working capital. After COVID lockdowns, situation worse. Buyers cancelled orders, delayed payments 120-150 days. Personal card outstanding grew to 8.3 lakhs. Business profit not enough to repay while managing regular operations.
+                    <strong>GST Impact and Crisis:</strong> After GST implementation, fabric business dynamics changed. Many small buyers could not comply with GST rules, stopped orders. Big buyers started delaying payments longer. Jayesh’s receivables jumped from 30 days to 90 days. Cash flow squeezed. Used more credit cards to manage working capital. After COVID lockdowns, situation worse. Buyers cancelled orders, delayed payments 120-150 days. Personal card outstanding grew to 8.3 lakhs. Business profit not enough to repay while managing regular operations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Harassment Started:</strong> Recovery calls 25+ daily on personal and office phones. Very embarrassing when calls came during buyer meetings. Threatening language. Calls to family. Mental stress affecting business decisions. Fear of reputation damage in tight-knit Surat trading community.

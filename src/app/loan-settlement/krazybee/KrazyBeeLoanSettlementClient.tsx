@@ -110,7 +110,7 @@ export default function KrazyBeeLoanSettlementClient() {
     },
     {
       question: "What is the settlement percentage for KrazyBee loans?",
-      answer: "Settlements often range between 30% to 50% of the total outstanding amount, depending on the delinquency period (how long you haven't paid) and your proven financial hardship."
+      answer: "Settlements often range between 30% to 50% of the total outstanding amount, depending on the delinquency period (how long you haven’t paid) and your proven financial hardship."
     },
     {
       question: "Will settlement affect my CIBIL score?",
@@ -257,7 +257,7 @@ export default function KrazyBeeLoanSettlementClient() {
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
                     <h4 className="font-bold text-gray-900">Stop the Harassment</h4>
-                    <p className="text-gray-600 mt-1">Digital lenders are notorious for calling contacts. We immediately revoke their authorization to contact third parties (referencing RBI's digital lending guidelines) and demand all communication come to us.</p>
+                    <p className="text-gray-600 mt-1">Digital lenders are notorious for calling contacts. We immediately revoke their authorization to contact third parties (referencing RBI’s digital lending guidelines) and demand all communication come to us.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -271,7 +271,7 @@ export default function KrazyBeeLoanSettlementClient() {
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
                     <h4 className="font-bold text-gray-900">Negotiation</h4>
-                    <p className="text-gray-600 mt-1">We propose a One Time Settlement (OTS) to KrazyBee's recovery department. We aim to remove all penal charges and reduce the principal.</p>
+                    <p className="text-gray-600 mt-1">We propose a One Time Settlement (OTS) to KrazyBee’s recovery department. We aim to remove all penal charges and reduce the principal.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -370,19 +370,19 @@ export default function KrazyBeeLoanSettlementClient() {
                 <h4 className="font-bold text-gray-900 mb-4 text-center border-b pb-4">Checklist for a Valid Settlement Letter</h4>
                 <ul className="space-y-3 text-sm md:text-base text-gray-700">
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Source:</strong> Must be issued by KrazyBee Services Pvt Ltd or their authorized ARC.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Exact Amount:</strong> The final OTS figure must be clearly stated.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Withdrawal Clause:</strong> Explicit mention that "All pending legal proceedings, including Arbitration Case No. X and Section 138 Case No. Y, will be withdrawn upon payment".</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>NOC Timeline:</strong> A promise to issue the No Objection Certificate within a specific timeframe (e.g., 15-30 days).</span>
                   </li>
                 </ul>
@@ -469,7 +469,7 @@ export default function KrazyBeeLoanSettlementClient() {
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                   <h5 className="font-bold text-gray-900 mb-1">Success-Based</h5>
-                  <p className="text-sm text-gray-600">We don't charge negotiation fees upfront. We win, you pay.</p>
+                  <p className="text-sm text-gray-600">We don’t charge negotiation fees upfront. We win, you pay.</p>
                 </div>
               </div>
 
@@ -479,17 +479,17 @@ export default function KrazyBeeLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Rohan Das, Hyderabad</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"Agents were calling my HR. I was terrified. CredSettle sent a legal notice to stop the harassment instantly. They settled my 50k loan for 22k."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Karthik S., Chennai</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"Received an arbitration notice from KrazyBee. I didn't know what to do. The CredSettle legal team handled the hearing and closed the case swiftly."</p>
+                    <p className="italic text-gray-200 text-sm">"Received an arbitration notice from KrazyBee. I didn’t know what to do. The CredSettle legal team handled the hearing and closed the case swiftly."</p>
                   </div>
                 </div>
               </div>
@@ -522,8 +522,8 @@ export default function KrazyBeeLoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Stop Harassment</p>
-                  <p className="mt-1">✓ Legal Representation</p>
+                  <p>v Stop Harassment</p>
+                  <p className="mt-1">v Legal Representation</p>
                 </div>
               </div>
 

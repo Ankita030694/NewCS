@@ -532,7 +532,7 @@ export default function LoanRecoveryDocumentationClient() {
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Get expert legal review of all bank recovery documents and DRT filings. Identify defects that can change your case outcome.</p>
                             <ul className="space-y-2 mb-5">
                                 {['DRT Application Preparation', 'SARFAESI Notice Analysis', 'Bankers Books Certification', 'Affidavit Drafting'].map((item, i) => (
-                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">✓</span> {item}</li>
+                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">v</span> {item}</li>
                                 ))}
                             </ul>
                             <Link href="/contact" className="block bg-white text-blue-900 text-center py-3 rounded-xl font-bold hover:bg-opacity-90 transition-all">

@@ -92,7 +92,7 @@ export default function CheckGenuinenessClient() {
             name: "Rahul J.",
             location: "Noida",
             rating: 5,
-            text: "CredSettle's verification team confirmed my offer was genuine. It gave me the peace of mind to make the payment."
+            text: "CredSettle’s verification team confirmed my offer was genuine. It gave me the peace of mind to make the payment."
         },
         {
             name: "Meera K.",
@@ -243,7 +243,7 @@ export default function CheckGenuinenessClient() {
                                 In 2025, the complexity of these scams has grown. Fraudsters now use sophisticated AI to spoof bank emails, generate near-perfect PDF offer letters, and even create fake "Integrated Ombudsman" portals to gain your trust. For a borrower, the question is no longer just "Can I settle my loan?" but "Is this offer real?" A single mistake in verification can lead to you losing your hard earned settlement money, while your debt with the actual bank continues to grow, along with the penalties and legal risks.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This comprehensive 5000+ word guide is designed to be your digital shield. We will break down exactly how legitimate settlements work in the 2025 regulatory landscape, how to identify trusted platforms, and the specific "Anatomy of a Genuine Offer Letter." We will also expose the psychological tactics used by scammers—from the "Urgency Trap" to the "Upfront Fee Bait." By the end of this deep dive, you will have a checklist that ensures no fraudster can ever trick you into a fake settlement deal.
+                                This comprehensive 5000+ word guide is designed to be your digital shield. We will break down exactly how legitimate settlements work in the 2025 regulatory landscape, how to identify trusted platforms, and the specific "Anatomy of a Genuine Offer Letter." We will also expose the psychological tactics used by scammers-from the "Urgency Trap" to the "Upfront Fee Bait." By the end of this deep dive, you will have a checklist that ensures no fraudster can ever trick you into a fake settlement deal.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your financial dignity is worth protecting. Reaching a settlement is a business transaction between you and a regulated financial entity. It should never involve fear, secrecy, or unofficial payment methods. Let us explore the world of digital verification and build your defense against the shadows of the Indian credit market.
@@ -269,9 +269,9 @@ export default function CheckGenuinenessClient() {
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>1. Official Letterhead:</strong> It must be on the bank's current, high-resolution letterhead that matches the recent branding (which often changes). Low-quality scans or pixelated logos are immediate red flags.</li>
-                                    <li><strong>2. Unique Reference Number:</strong> Every settlement is tracked internally by the bank. A genuine letter will have a reference number that you can quote to the bank's central customer care to verify its existence.</li>
-                                    <li><strong>3. Correct Account Details:</strong> The letter must mention your exact loan account number and your name as it appears in the bank's records. Fraudsters often use generic names or slightly incorrect numbers.</li>
+                                    <li><strong>1. Official Letterhead:</strong> It must be on the bank’s current, high-resolution letterhead that matches the recent branding (which often changes). Low-quality scans or pixelated logos are immediate red flags.</li>
+                                    <li><strong>2. Unique Reference Number:</strong> Every settlement is tracked internally by the bank. A genuine letter will have a reference number that you can quote to the bank’s central customer care to verify its existence.</li>
+                                    <li><strong>3. Correct Account Details:</strong> The letter must mention your exact loan account number and your name as it appears in the bank’s records. Fraudsters often use generic names or slightly incorrect numbers.</li>
                                     <li><strong>4. The Component Breakdown:</strong> It should clearly state the "Total Dues," the "Settled Amount," and the "Waiver Amount." A genuine bank letter will itemize exactly what is being forgiven.</li>
                                     <li><strong>5. The Deadline and Terms:</strong> A specific date for payment and the mode of payment (usually favoring NEFT/RTGS to the loan account) must be mentioned. Legitimate letters never ask for "cash" or "UPI to an individual."</li>
                                     <li><strong>6. Digital/Physical Signature:</strong> It must be signed by an authorized officer (typically the Assistant General Manager or higher). In 2025, secure digital signatures with a verification link are becoming the norm.</li>
@@ -286,7 +286,7 @@ export default function CheckGenuinenessClient() {
                                 This is the simplest yet most effective way to catch a scammer. No major bank in India (SBI, HDFC, ICICI, etc.) or major NBFC will ever write to you from a generic email address like **@gmail.com, @yahoo.com, or @outlook.com**.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A genuine communication will always come from the bank's secure corporate domain (e.g., **support@hdfcbank.com** or **settlements@icicibank.com**). Scammers often use "Display Name Spoofing" where the name says "HDFC Settlement Dept" but the actual email address behind it is **hdfcsettlement77@gmail.com**. Always click on the sender's profile to see the actual email address.
+                                A genuine communication will always come from the bank’s secure corporate domain (e.g., **support@hdfcbank.com** or **settlements@icicibank.com**). Scammers often use "Display Name Spoofing" where the name says "HDFC Settlement Dept" but the actual email address behind it is **hdfcsettlement77@gmail.com**. Always click on the sender’s profile to see the actual email address.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Furthermore, be wary of WhatsApp communications. While some recovery departments use WhatsApp for coordination, the final documents should always be sent to your registered email address. If an agent refuses to use email and insists only on WhatsApp, you are likely dealing with a scammer who wants to be able to "Delete for Everyone" once they have your money.
@@ -302,19 +302,19 @@ export default function CheckGenuinenessClient() {
                                 2.  **Demand Draft (DD):** A DD made out exactly in the name of the bank (e.g., "HDFC BANK LTD") and submitted at the branch.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Scammers will often tell you that "the bank uses us as an authorized collection agency" and ask you to pay into a company account called "Settlement Experts Ltd" or even an individual's savings account. They might even show you a "Letter of Authorization" from the bank. **Ignore it.** Banks are legally required to accept payments directly into their own accounts. Once money enters a third party's personal account, the bank has no record of your payment, and your loan remains active.
+                                Scammers will often tell you that "the bank uses us as an authorized collection agency" and ask you to pay into a company account called "Settlement Experts Ltd" or even an individual’s savings account. They might even show you a "Letter of Authorization" from the bank. **Ignore it.** Banks are legally required to accept payments directly into their own accounts. Once money enters a third party’s personal account, the bank has no record of your payment, and your loan remains active.
                             </p>
 
-                            <h2 id="red-flags-of-scams" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 5: Identifying the Red Flags: The Scammer's Playbook</h2>
+                            <h2 id="red-flags-of-scams" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 5: Identifying the Red Flags: The Scammer’s Playbook</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Scammers rely on your desperation and psychological pressure. By recognizing their common tactics, you can spot a fraud long before you lose a single rupee.
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>The Upfront Fee Bait:</strong> "Pay 5,000 rupees now as a processing fee to activate your 2 lakh discount." No bank charges a fee to "activate" a settlement. Any costs are always part of the final lump-sum payment.</li>
-                                    <li><strong>The Urgency Trap:</strong> "This offer expires at 5:00 PM today. If you don't pay now, the police will be at your house." Banks give you at least 3-7 days to arrange funds once a settlement offer is issued. High-pressure tactics are the sign of a scammer.</li>
+                                    <li><strong>The Urgency Trap:</strong> "This offer expires at 5:00 PM today. If you don’t pay now, the police will be at your house." Banks give you at least 3-7 days to arrange funds once a settlement offer is issued. High-pressure tactics are the sign of a scammer.</li>
                                     <li><strong>The Video Call "Officer":</strong> In 2023-2025, scammers started using video calls while wearing fake uniforms or sitting in front of a printed "Police Station" or "Bank Branch" backdrop. They might even show "Arrest Warrants" on the screen. **No government official will ever arrest you over a video call for a loan default.**</li>
-                                    <li><strong>The "Shadow Settlement":</strong> "Don't tell the bank branch you are settling with us; we are a secret recovery wing." Legitimate settlements are never secret. Every branch of the bank can see the status of your loan in their central Core Banking System (CBS).</li>
+                                    <li><strong>The "Shadow Settlement":</strong> "Don’t tell the bank branch you are settling with us; we are a secret recovery wing." Legitimate settlements are never secret. Every branch of the bank can see the status of your loan in their central Core Banking System (CBS).</li>
                                     <li><strong>Guaranteed CIBIL Deletion:</strong> If someone promises they can "delete your default" or "give you a 750 score overnight," they are lying. CIBIL scores are managed by independent bureaus, and while a settlement helps, it takes months of rebuilding and never happens "instantly."</li>
                                 </ul>
                             </div>
@@ -335,12 +335,12 @@ export default function CheckGenuinenessClient() {
                                 If you are settling a large amount (typically anything above 50,000 rupees), there is no substitute for physical verification. Take a printout of the offer letter you received digitally and walk into the nearest branch of that bank.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Ask the branch manager or the recovery officer to verify if the "Reference Number" on your letter exists in their internal system. If they say "we don't see this offer here," you have just saved yourself from a major fraud. Scammers hate physical branches because they cannot control the environment. Any legitimate agent will encourage you to verify with the branch; a fraudster will give you reasons why the branch "won't know about this special deal."
+                                Ask the branch manager or the recovery officer to verify if the "Reference Number" on your letter exists in their internal system. If they say "we don’t see this offer here," you have just saved yourself from a major fraud. Scammers hate physical branches because they cannot control the environment. Any legitimate agent will encourage you to verify with the branch; a fraudster will give you reasons why the branch "won’t know about this special deal."
                             </p>
 
                             <h2 id="verifying-noc-ndc" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 8: The "Closure Proof": Verifying Your NOC/NDC</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Once you have paid, the scam doesn't necessarily end. Some scammers take your money and then send you a fake "No Dues Certificate." They do this to buy time before you realize you have been cheated and file a police complaint.
+                                Once you have paid, the scam doesn’t necessarily end. Some scammers take your money and then send you a fake "No Dues Certificate." They do this to buy time before you realize you have been cheated and file a police complaint.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Verify your NOC by logging into the banks official mobile app or net banking portal. If the loan account status is still shown as "Overdue" or "Active," your payment has not reached the bank. A genuine NOC will have its own reference number and will be followed by an automated SMS or email from the banks official sender ID (e.g., AD-HDFCBK) confirming the account closure.
@@ -351,7 +351,7 @@ export default function CheckGenuinenessClient() {
                                 Every digital file has "hidden" data called metadata. For an offer letter, you can right click the file, go to "Properties" and then "Details" (on Windows) or "Get Info" (on Mac).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A genuine bank letter will show the "Author" as the banks corporate name or their server system (e.g., "SAP Crystal Reports" or "Adobe PDF Library"). If the metadata shows that the file was created by "Amit's PC" or "iPhone 15 Pro," it is almost certainly a forged document. Fraudsters are often lazy with metadata, and this technical check is 100% reliable.
+                                A genuine bank letter will show the "Author" as the banks corporate name or their server system (e.g., "SAP Crystal Reports" or "Adobe PDF Library"). If the metadata shows that the file was created by "Amit’s PC" or "iPhone 15 Pro," it is almost certainly a forged document. Fraudsters are often lazy with metadata, and this technical check is 100% reliable.
                             </p>
 
                             <h2 id="third-party-agent-risks" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 10: The Risk of "Third Party" Settlement Agencies</h2>
@@ -364,7 +364,7 @@ export default function CheckGenuinenessClient() {
 
                             <h2 id="reporting-digital-fraud" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 11: How to Report a Loan Settlement Scam</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you realize you are being targeted, do not just stop talking to them—report them. By reporting, you help the authorities take down the scammers servers and protect other vulnerable borrowers.
+                                If you realize you are being targeted, do not just stop talking to them-report them. By reporting, you help the authorities take down the scammers servers and protect other vulnerable borrowers.
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Cyber Crime Portal:</strong> File a formal complaint at **cybercrime.gov.in**. This is the specialized wing for digital frauds in India.</li>
@@ -379,18 +379,18 @@ export default function CheckGenuinenessClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light text-gray-800">
                                 <ul className="space-y-3">
-                                    <li>✓ The offer letter is on the banks official current letterhead.</li>
-                                    <li>✓ The email came from a corporate domain (not gmail/yahoo).</li>
-                                    <li>✓ The reference number was verified by the banks central customer care.</li>
-                                    <li>✓ The payment is going directly into your loan account or to the bank name.</li>
-                                    <li>✓ No UPFRONT fee or "activation" charge was requested.</li>
-                                    <li>✓ The PDF metadata shows it was created by an official system.</li>
-                                    <li>✓ You have spoken to a trusted expert at <strong>Amalegal Solutions</strong> or <strong>CredSettle</strong>.</li>
-                                    <li>✓ You have a physical or digital copy of your NOC/NDC after payment.</li>
+                                    <li>v The offer letter is on the banks official current letterhead.</li>
+                                    <li>v The email came from a corporate domain (not gmail/yahoo).</li>
+                                    <li>v The reference number was verified by the banks central customer care.</li>
+                                    <li>v The payment is going directly into your loan account or to the bank name.</li>
+                                    <li>v No UPFRONT fee or "activation" charge was requested.</li>
+                                    <li>v The PDF metadata shows it was created by an official system.</li>
+                                    <li>v You have spoken to a trusted expert at <strong>Amalegal Solutions</strong> or <strong>CredSettle</strong>.</li>
+                                    <li>v You have a physical or digital copy of your NOC/NDC after payment.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Dealing with debt is hard enough; being a victim of fraud is devastating. In the 2025 digital age, your best defense is a healthy dose of skepticism and a reliance on verified experts. Reclaiming your financial freedom should be a safe, transparent, and legal process. Don't let a scammer take your second chance away from you.
+                                Dealing with debt is hard enough; being a victim of fraud is devastating. In the 2025 digital age, your best defense is a healthy dose of skepticism and a reliance on verified experts. Reclaiming your financial freedom should be a safe, transparent, and legal process. Don’t let a scammer take your second chance away from you.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 At CredSettle, we are committed to your safety. We provide the tools and the expertise to ensure your settlement journey is 100% genuine and legally binding. If you have any doubt about an offer you have received, talk to us before you pay. Your financial safety is our highest priority.
@@ -425,7 +425,7 @@ export default function CheckGenuinenessClient() {
 
 <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Unsure if Your Offer is Genuine?</h3>
-                                <p className="text-blue-800 mb-6">Don't take a risk with your hard-earned money. Our experts can review your settlement offer letter and verify its authenticity with the lender. We ensure your payment actually leads to a closed loan and a better financial future.</p>
+                                <p className="text-blue-800 mb-6">Don’t take a risk with your hard-earned money. Our experts can review your settlement offer letter and verify its authenticity with the lender. We ensure your payment actually leads to a closed loan and a better financial future.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -456,9 +456,9 @@ export default function CheckGenuinenessClient() {
                                     Start Verification
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ 100% Genuine Check</p>
-                                    <p>✓ Domain & Signature Audit</p>
-                                    <p>✓ Direct Lender Confirmation</p>
+                                    <p>v 100% Genuine Check</p>
+                                    <p>v Domain & Signature Audit</p>
+                                    <p>v Direct Lender Confirmation</p>
                                 </div>
                             </div>
 

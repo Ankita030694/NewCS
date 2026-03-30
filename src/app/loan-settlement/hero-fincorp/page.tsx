@@ -6,7 +6,7 @@ import HeroFincorpLoanSettlementClient from './HeroFincorpLoanSettlementClient';
 
 export const metadata: Metadata = {
   title: 'Hero Fincorp Loan Settlement | Close Two-Wheeler & Personal Loans',
-  description: 'Can\'t pay your Hero Fincorp loan? Stop EMI bounce charges and arbitration notices. Expert legal help for One Time Settlement (OTS) of bike and personal loans.',
+  description: 'Can’t pay your Hero Fincorp loan? Stop EMI bounce charges and arbitration notices. Expert legal help for One Time Settlement (OTS) of bike and personal loans.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/hero-fincorp',
   },
@@ -108,7 +108,7 @@ export default function HeroFincorpLoanSettlementPage() {
       },
       {
         "@type": "Question",
-        "name": "Will Hero Fincorp seize my bike if I don't pay?",
+        "name": "Will Hero Fincorp seize my bike if I don’t pay?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "For secured two-wheeler loans, Hero Fincorp has the right to repossess the vehicle under the loan agreement terms. Settlement negotiations should be started immediately to prevent seizure."

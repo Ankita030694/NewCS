@@ -24,7 +24,7 @@ export default function TaxImplicationsPage() {
     },
     {
         question: 'Will I receive a tax notice after settling a large loan?',
-        answer: 'If the settlement amount is high, the bank may report it in their annual returns. While this doesn\'t automatically mean a notice, you should be prepared to explain the nature of the waiver to a tax officer if asked.'
+        answer: 'If the settlement amount is high, the bank may report it in their annual returns. While this doesn’t automatically mean a notice, you should be prepared to explain the nature of the waiver to a tax officer if asked.'
     },
     {
         question: 'Can I claim the settlement amount as a "Loss" in my taxes?',
@@ -40,7 +40,7 @@ export default function TaxImplicationsPage() {
     },
     {
         question: 'Does Section 41(1) apply to personal loans?',
-        answer: 'No. Section 41(1) only applies to "Trading Liabilities" where a deduction was previously claimed. Since personal consumption expenses aren\'t deductible, their waiver isn\'t taxed under this section.'
+        answer: 'No. Section 41(1) only applies to "Trading Liabilities" where a deduction was previously claimed. Since personal consumption expenses aren’t deductible, their waiver isn’t taxed under this section.'
     },
     {
         question: 'What documents do I need for my CA after a settlement?',
@@ -67,7 +67,7 @@ export default function TaxImplicationsPage() {
         name: 'Priya Sharma',
         location: 'Delhi',
         rating: 5,
-        text: 'The explanation on Finance Act 2023 was eye opening. I realized my personal credit card settlement wasn\'t taxable, but my husband\'s business overdraft settlement was. Very detailed!'
+        text: 'The explanation on Finance Act 2023 was eye opening. I realized my personal credit card settlement wasn’t taxable, but my husband’s business overdraft settlement was. Very detailed!'
     },
     {
         name: 'Rohan Gupta',

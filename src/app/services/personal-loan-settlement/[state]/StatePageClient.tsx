@@ -93,7 +93,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                   marginBottom: '12px'
                 }}
               >
-                {content.heroTitle || `Loan Settlement in ${content.stateName} – Settle Loans Legally with CredSettle`}
+                {content.heroTitle || `Loan Settlement in ${content.stateName} - Settle Loans Legally with CredSettle`}
               </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
@@ -219,7 +219,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                     </section>
                   )}
 
-                  {/* H2: CredSettle – India's Trusted Loan Settlement Company */}
+                  {/* H2: CredSettle - India’s Trusted Loan Settlement Company */}
                   {content.credsettleOverview && (
                     <section id="credsettle-overview" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2
@@ -232,7 +232,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        CredSettle – India's Trusted Loan Settlement Company
+                        CredSettle - India’s Trusted Loan Settlement Company
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -525,7 +525,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Final Thoughts – Take the First Step Toward a Debt-Free Life
+                        Final Thoughts - Take the First Step Toward a Debt-Free Life
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

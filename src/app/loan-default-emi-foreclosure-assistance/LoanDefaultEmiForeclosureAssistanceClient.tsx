@@ -151,7 +151,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
         },
         {
             question: "Can a tenant be evicted by the bank under SARFAESI?",
-            answer: "The rights of a legitimate tenant (with a registered lease before the mortgage) are protected. The bank can only take symbolic possession. However, if the lease is unregistered or created after the mortgage to defeat the bank's rights, the bank can seek physical possession through the Magistrate."
+            answer: "The rights of a legitimate tenant (with a registered lease before the mortgage) are protected. The bank can only take symbolic possession. However, if the lease is unregistered or created after the mortgage to defeat the bank’s rights, the bank can seek physical possession through the Magistrate."
         },
         {
             question: "Is personal loan recovery also covered under SARFAESI?",
@@ -466,7 +466,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     Symbolic possession occurs when the bank pastes a possession notice on the property and publishes it in two newspapers. At this stage, you are still living in the house, but the bank now has the "legal title" to sell it. Physical possession, on the other hand, involves the bank arriving at your doorstep with police assistance (often with an order from the Chief Metropolitan Magistrate or District Magistrate under Section 14) to physically remove you and lock the property.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    This is the point where the law provides the borrower with their most significant recourse. Under Section 17, as soon as a 13(4) measure is taken, you have 45 days to file an application with the Debt Recovery Tribunal. The DRT has the power to restore possession to the borrower if it finds the bank's actions were not in accordance with the law.
+                                    This is the point where the law provides the borrower with their most significant recourse. Under Section 17, as soon as a 13(4) measure is taken, you have 45 days to file an application with the Debt Recovery Tribunal. The DRT has the power to restore possession to the borrower if it finds the bank’s actions were not in accordance with the law.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     A critical part of foreclosure assistance at this stage is preventing the auction. Once symbolic possession is taken, the bank will issue a "Sale Notice" or "Auction Notice." The rules require a clear 30-day notice for the first auction. If the bank tries to rush the sale or fails to widely publicize the auction, the sale can be challenged.
@@ -476,7 +476,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                         <FontAwesomeIcon icon={faAlertCircle} className="w-5 h-5 mr-2" /> Critical Deadline!
                                     </h5>
                                     <p className="text-red-700">
-                                        You have exactly <strong>45 days</strong> from the date of symbolic possession to file a challenge in the DRT. If you miss this deadline, your right to challenge the bank's measures may be forever barred. Immediate action is mandatory the moment a notice is pasted on your wall.
+                                        You have exactly <strong>45 days</strong> from the date of symbolic possession to file a challenge in the DRT. If you miss this deadline, your right to challenge the bank’s measures may be forever barred. Immediate action is mandatory the moment a notice is pasted on your wall.
                                     </p>
                                 </div>
                             </section>
@@ -492,7 +492,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     In a Section 17 hearing, the burden of proof is on the bank to show that every step they took complied with the SARFAESI Act. Your lawyer will look for "procedural infirmities." Even a minor error, like sending the notice to the wrong address or failing to publish the notice in a vernacular language newspaper, can be enough to stop the foreclosure.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    Another important strategy in the DRT is challenging the "Valuation" of the property. Banks often undervalue properties to ensure a quick sale at a low reserve price. If you can prove that the property is worth significantly more than the bank's assessment, the DRT may order a re-valuation and set aside the current auction notice.
+                                    Another important strategy in the DRT is challenging the "Valuation" of the property. Banks often undervalue properties to ensure a quick sale at a low reserve price. If you can prove that the property is worth significantly more than the bank’s assessment, the DRT may order a re-valuation and set aside the current auction notice.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     Foreclosure assistance in the DRT is not just about delay; it is about finding a way for you to pay. Many DRT judges are willing to grant a stay if the borrower shows "bonafide" intent by depositing a certain percentage of the overdue amount (usually 25% or 50%) into a "No-Lien Account." This "interim protection" gives you the breathing room to either sell the property yourself at a better price or arrange the funds to settle the loan.
@@ -513,10 +513,10 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     Another potent but risky remedy is the Insolvency and Bankruptcy Code (IBC). Once a "Personal Insolvency" process is initiated under Section 94, an "Interim Moratorium" is automatically triggered. This moratorium puts an immediate freeze on all legal proceedings, including SARFAESI foreclosure actions. This can provide up to 180 days of absolute protection, though it has long-term implications for your financial status.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    Consumer Courts are also a venue if the bank's actions involve a "deficiency in service." For instance, if you were never informed of a change in interest rates or if the bank lost your original documents, you can seek damages and injunctions. However, Consumer Courts generally cannot interfere with a validly initiated SARFAESI process.
+                                    Consumer Courts are also a venue if the bank’s actions involve a "deficiency in service." For instance, if you were never informed of a change in interest rates or if the bank lost your original documents, you can seek damages and injunctions. However, Consumer Courts generally cannot interfere with a validly initiated SARFAESI process.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    Civil Courts are largely barred from entertaining SARFAESI matters under Section 34 of the Act. However, there is a small "window" for Civil Courts to intervene if the borrower can prove that the bank's actions are "fraudulent" or "absurd." This is an extremely high bar to clear and usually only pursued in exceptional circumstances.
+                                    Civil Courts are largely barred from entertaining SARFAESI matters under Section 34 of the Act. However, there is a small "window" for Civil Courts to intervene if the borrower can prove that the bank’s actions are "fraudulent" or "absurd." This is an extremely high bar to clear and usually only pursued in exceptional circumstances.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     Ultimately, the best legal remedy is a combination of defensive litigation and offensive negotiation. By hitting the bank with multiple legal challenges, you increase their cost of litigation and their risk of a public loss. This makes them much more likely to come to the table for a settlement that works for you.
@@ -534,7 +534,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     Why do banks agree to this? Because auctions are difficult. Many auctions "fail" because of lack of bidders or legal stays. A house that is "litigated" is very hard to sell in the open market. The bank would often rather have 85% of their money today than wait 3 years to *maybe* get 100% of their money through an auction.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    To negotiate a successful OTS, you must demonstrate two things: first, that you have a genuine inability to pay the full amount, and second, that if they don't settle, you have the legal stamina to fight them for years. This is where your DRT case becomes a powerful negotiation tool.
+                                    To negotiate a successful OTS, you must demonstrate two things: first, that you have a genuine inability to pay the full amount, and second, that if they don’t settle, you have the legal stamina to fight them for years. This is where your DRT case becomes a powerful negotiation tool.
                                 </p>
                                 <div className="bg-emerald-50 rounded-2xl p-8 my-8 border border-emerald-100 italic text-slate-700 text-center">
                                     "A successful OTS is not a favor from the bank; it is a calculated business decision where the bank chooses the certainty of a settlement over the uncertainty of litigation and a failed auction."
@@ -599,10 +599,10 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     <strong>2. Transparency in Possession:</strong> Banks must give the borrower the opportunity to remove their personal belongings from the property before taking possession. They must also create a detailed inventory of every item inside the house.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    <strong>3. Right to Redemptions:</strong> As per the 2024 amendment to the SARFAESI Rule 8, a borrower has a right to "redeem" the property by paying the dues at any time *before* the bank publishes the auction notice. This is a crucial window that was recently clarified to prevent banks from selling properties behind the borrower's back.
+                                    <strong>3. Right to Redemptions:</strong> As per the 2024 amendment to the SARFAESI Rule 8, a borrower has a right to "redeem" the property by paying the dues at any time *before* the bank publishes the auction notice. This is a crucial window that was recently clarified to prevent banks from selling properties behind the borrower’s back.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    If a bank violates these RBI guidelines, you can file a complaint with the Reserve Bank's Integrated Ombudsman Scheme. While the Ombudsman cannot always stop a foreclosure, a positive order from the RBI is a massive boost for your DRT case.
+                                    If a bank violates these RBI guidelines, you can file a complaint with the Reserve Bank’s Integrated Ombudsman Scheme. While the Ombudsman cannot always stop a foreclosure, a positive order from the RBI is a massive boost for your DRT case.
                                 </p>
                             </section>
 
@@ -620,7 +620,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     Post-foreclosure assistance involves strategies to repair this damage. This includes getting a "Secured Credit Card" (card against a fixed deposit) to start a new positive payment history. It also involves ensuring the bank updates the credit bureaus within 30 days of your settlement, a legal requirement that banks often ignore.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    At CredSettle, we don't just help you save your home; we help you plan for your financial rebirth. By carefully managing the terminology used in your settlement and following a disciplined rebuilding path, many of our clients are able to qualify for new credit within 24 to 36 months of a major default.
+                                    At CredSettle, we don’t just help you save your home; we help you plan for your financial rebirth. By carefully managing the terminology used in your settlement and following a disciplined rebuilding path, many of our clients are able to qualify for new credit within 24 to 36 months of a major default.
                                 </p>
                             </section>
 
@@ -663,7 +663,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                             </section>
 
                             <div className="bg-[#001235] rounded-3xl p-8 md:p-12 text-center text-white my-16">
-                                <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Don't Wait for the Auctioneer's Gavel</h3>
+                                <h3 className="text-2xl md:text-3xl font-bold mb-6 text-white">Don’t Wait for the Auctioneer’s Gavel</h3>
                                 <p className="text-slate-300 mb-10 text-lg max-w-2xl mx-auto">
                                     The earlier you take legal action, the more options you have to protect your home. Contact our foreclosure defense experts today for a confidential review of your bank notices.
                                 </p>

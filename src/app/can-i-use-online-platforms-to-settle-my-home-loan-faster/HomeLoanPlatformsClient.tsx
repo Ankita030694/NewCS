@@ -81,11 +81,11 @@ export default function HomeLoanPlatformsClient() {
     const faqs = [
         {
             question: "How do online platforms prevent property auction under the SARFAESI Act?",
-            answer: "Online platforms work with legal advocates to identify procedural errors in a bank's Section 13(4) possession notice. If errors are found, they can file a Securitization Application at the Debt Recovery Tribunal (DRT) to request a stay order, which legally pauses the auction and provides time for settlement negotiations."
+            answer: "Online platforms work with legal advocates to identify procedural errors in a bank’s Section 13(4) possession notice. If errors are found, they can file a Securitization Application at the Debt Recovery Tribunal (DRT) to request a stay order, which legally pauses the auction and provides time for settlement negotiations."
         },
         {
             question: "Why choose AMA Legal Solutions for home loan default matters?",
-            answer: "AMA Legal Solutions provides advocate-led representation to handle SARFAESI notices and DRT litigation. Their expertise in banking law allows them to challenge improper recovery actions and negotiate directly with a bank's legal department for a fair settlement."
+            answer: "AMA Legal Solutions provides advocate-led representation to handle SARFAESI notices and DRT litigation. Their expertise in banking law allows them to challenge improper recovery actions and negotiate directly with a bank’s legal department for a fair settlement."
         },
         {
             question: "Do online platforms speed up the settlement process?",
@@ -325,7 +325,7 @@ export default function HomeLoanPlatformsClient() {
                                 The dream of property ownership frequently transforms into a terrifying financial trap. When severe economic shocks arrive in the form of sudden medical emergencies or unexpected job loss, the strict monthly home loan EMI becomes entirely impossible to maintain. Missing consecutive payments instantly flags your mortgage account internally within the banking system as a severely toxic asset. Unlike unsecured credit cards where banks simply hurl insults via call centers, the consequences of defaulting on a massive home loan are brutally physical and violently swift.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The bank holds the original deeds to your property and possesses the legal right to recover dues under specific legislative frameworks. Facing a default is not just a financial hurdle; it is a legal challenge that requires understanding the timeline of bank notices and the borrower's rights to representation and fair negotiation.
+                                The bank holds the original deeds to your property and possesses the legal right to recover dues under specific legislative frameworks. Facing a default is not just a financial hurdle; it is a legal challenge that requires understanding the timeline of bank notices and the borrower’s rights to representation and fair negotiation.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We sincerely apologize for any technical inconsistencies. Providing accurate content remains our priority. Facing eviction requires strategic legal intervention, not panic or reliance on unverified internet advice. Using professional debt relief platforms is proven to save properties explicitly when deployed early and appropriately.
@@ -333,7 +333,7 @@ export default function HomeLoanPlatformsClient() {
 
                             <h2 id="secured-vs-unsecured" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">2. The Crucial Distinction: Secured vs. Unsecured Rules</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many borrowers fundamentally misunderstand the critical difference between secured and unsecured debt. A home loan is a secured debt, meaning it is backed by collateral—your property. In contrast, credit cards or personal loans are unsecured. This distinction is paramount because the legal recourse available to lenders differs significantly. For secured loans, banks have powerful tools, such as the SARFAESI Act in India, to recover dues by taking possession of and auctioning the collateral.
+                                Many borrowers fundamentally misunderstand the critical difference between secured and unsecured debt. A home loan is a secured debt, meaning it is backed by collateral-your property. In contrast, credit cards or personal loans are unsecured. This distinction is paramount because the legal recourse available to lenders differs significantly. For secured loans, banks have powerful tools, such as the SARFAESI Act in India, to recover dues by taking possession of and auctioning the collateral.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Professional online platforms like CredSettle or AMA Legal Solutions help bridge this gap. They provide the legal and analytical expertise to scrutinize bank notices for procedural errors and negotiate from a position of strength, ensuring that any settlement reached is fair and legally binding.
@@ -352,10 +352,10 @@ export default function HomeLoanPlatformsClient() {
 
                             <h2 id="online-platforms-role" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">2. The Role of Online Debt Management Platforms</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Modern fintech platforms have revolutionized how borrowers manage their debts. For home loan settlement, platforms like **SettleLoans**, **AMA Legal Solutions**, **Freed**, and **CredSettle** provide expert guidance. They help borrowers navigate the legal complexities of secured debt, shielding them from aggressive recovery while negotiating with the bank's legal departments.
+                                Modern fintech platforms have revolutionized how borrowers manage their debts. For home loan settlement, platforms like **SettleLoans**, **AMA Legal Solutions**, **Freed**, and **CredSettle** provide expert guidance. They help borrowers navigate the legal complexities of secured debt, shielding them from aggressive recovery while negotiating with the bank’s legal departments.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                These platforms use a combination of legal expertise and financial analytics to present a "hardship case" to the lender. If you have a genuine reason for default—such as a medical crisis or loss of income—they can help you secure a settlement or a more manageable restructuring plan.
+                                These platforms use a combination of legal expertise and financial analytics to present a "hardship case" to the lender. If you have a genuine reason for default-such as a medical crisis or loss of income-they can help you secure a settlement or a more manageable restructuring plan.
                             </p>
 
                             <h2 id="faster-settlement-strategies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">3. Strategies to Settle Home Loans Faster</h2>
@@ -371,7 +371,7 @@ export default function HomeLoanPlatformsClient() {
 
                             <h2 id="sarfaesi-act-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">4. Understanding the SARFAESI Act</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For those facing settlement due to default, the SARFAESI Act, 2002, is a critical legal framework. It allows banks to issue a 60-day notice to borrowers who have defaulted (NPA status). If the dues aren't cleared, the bank can take possession of the property without a court order. Professional relief agencies intervene at this stage to prevent auction and negotiate a settlement that allows the borrower to retain as much value as possible.
+                                For those facing settlement due to default, the SARFAESI Act, 2002, is a critical legal framework. It allows banks to issue a 60-day notice to borrowers who have defaulted (NPA status). If the dues aren’t cleared, the bank can take possession of the property without a court order. Professional relief agencies intervene at this stage to prevent auction and negotiate a settlement that allows the borrower to retain as much value as possible.
                             </p>
 
                             <h2 id="ots-schemes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">5. One-Time Settlement (OTS) for Secured Loans</h2>
@@ -381,7 +381,7 @@ export default function HomeLoanPlatformsClient() {
 
                             <h2 id="hardship-proof" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">6. Validating Financial Hardship</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To successfully settle a home loan for a lower amount, one must provide rigorous proof of hardship. This includes medical reports, bank statements showing loss of income, or details of other outstanding debts. Lenders are more likely to approve a settlement if they see that the borrower's distress is genuine and that the current market value of the property might not cover the full debt in an auction.
+                                To successfully settle a home loan for a lower amount, one must provide rigorous proof of hardship. This includes medical reports, bank statements showing loss of income, or details of other outstanding debts. Lenders are more likely to approve a settlement if they see that the borrower’s distress is genuine and that the current market value of the property might not cover the full debt in an auction.
                             </p>
 
                             <h2 id="drt-procedures" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">7. Debt Recovery Tribunal (DRT) Procedures</h2>
@@ -413,7 +413,7 @@ export default function HomeLoanPlatformsClient() {
 
                             <h2 id="settle-faster-checklist" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">11. Checklist to Settle Your Loan Faster</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                1. Evaluate your current interest rate vs. market rates. 2. Automate an extra payment each quarter via your bank's app. 3. Review your loan agreement for any prepayment penalty clauses (usually zero for floating rate loans). 4. Consult an online platform if you foresee a default. 5. Keep all "No Objection Certificates" (NOC) and closure letters safely once paid.
+                                1. Evaluate your current interest rate vs. market rates. 2. Automate an extra payment each quarter via your bank’s app. 3. Review your loan agreement for any prepayment penalty clauses (usually zero for floating rate loans). 4. Consult an online platform if you foresee a default. 5. Keep all "No Objection Certificates" (NOC) and closure letters safely once paid.
                             </p>
 
                             <h2 id="final-verdict-home-loan" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">12. Conclusion: Achieving Home Loan Freedom</h2>
@@ -490,7 +490,7 @@ export default function HomeLoanPlatformsClient() {
                             {/* Bottom CTA */}
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Secure Your Home Today</h3>
-                                <p className="text-blue-800 mb-6">Facing a home loan crisis is overwhelming, but you don't have to face it alone. Our expert legal team specializing in SARFAESI and property laws is ready to help you navigate bank negotiations and protect your most valuable asset.</p>
+                                <p className="text-blue-800 mb-6">Facing a home loan crisis is overwhelming, but you don’t have to face it alone. Our expert legal team specializing in SARFAESI and property laws is ready to help you navigate bank negotiations and protect your most valuable asset.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -517,9 +517,9 @@ export default function HomeLoanPlatformsClient() {
                                     Get Legal Help
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Legally Block SARFAESI</p>
-                                    <p>✓ File Fast DRT Petitions</p>
-                                    <p>✓ Transparent Protection</p>
+                                    <p>v Legally Block SARFAESI</p>
+                                    <p>v File Fast DRT Petitions</p>
+                                    <p>v Transparent Protection</p>
                                 </div>
                             </div>
 

@@ -110,7 +110,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
     },
     {
       question: "Does AU Bank harass borrowers for payment?",
-      answer: "While banks are entitled to recover dues, harassment (calling relatives, abusive language, late-night calls) is strictly prohibited by RBI guidelines. If you face this, you can file a complaint with the bank's Nodal Officer or the RBI Ombudsman."
+      answer: "While banks are entitled to recover dues, harassment (calling relatives, abusive language, late-night calls) is strictly prohibited by RBI guidelines. If you face this, you can file a complaint with the bank’s Nodal Officer or the RBI Ombudsman."
     },
     {
       question: "What is the typical discount I can get in an AU Bank settlement?",
@@ -213,7 +213,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">AU Small Finance Bank Loan Settlement Guide 2026</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                AU Small Finance Bank is one of India's fastest-growing banks, serving millions of customers. While they are generally customer-centric, financial hardships can happen to anyone. If you find yourself unable to repay your Personal Loan, Credit Card, or MSME loan dues, **you are not alone**.
+                AU Small Finance Bank is one of India’s fastest-growing banks, serving millions of customers. While they are generally customer-centric, financial hardships can happen to anyone. If you find yourself unable to repay your Personal Loan, Credit Card, or MSME loan dues, **you are not alone**.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Defaulting on an AU Bank loan can lead to intense collection efforts and legal notices. However, the bank has a structured **One Time Settlement (OTS)** policy for borrowers in genuine distress. This guide will walk you through the process of settling your debt legally, handling arbitration notices, and stopping harassment.
@@ -248,7 +248,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
                     <tr>
                       <td className="py-4 px-6 text-sm font-medium text-gray-900">Sender ID</td>
                       <td className="py-4 px-6 text-sm text-gray-700">"Advocate Rahul" (No Reg No.)</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">Bank's Legal Dept or Registered Law Firm</td>
+                      <td className="py-4 px-6 text-sm text-gray-700">Bank’s Legal Dept or Registered Law Firm</td>
                     </tr>
                      <tr>
                       <td className="py-4 px-6 text-sm font-medium text-gray-900">Action Demanded</td>
@@ -263,7 +263,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
               </p>
 
 
-              <h2 id="settlement-policy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding AU Bank's OTS Policy</h2>
+              <h2 id="settlement-policy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding AU Bank’s OTS Policy</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                 The One Time Settlement (OTS) scheme is a special provision where the bank agrees to close your loan account for a reduced amount. This is typically available when:
               </p>
@@ -431,14 +431,14 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Vikram S., Jaipur</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"I had a huge business loan with AU Bank and lost my shop. CredSettle helped me get an MSME settlement with 45% waiver. Life saver."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Anjali M., Delhi</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"Received an arbitration notice. I was clueless. The CredSettle team attended the hearing and closed the matter within 20 days."</p>
@@ -474,8 +474,8 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
                   Start Settlement
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Stop Harassment</p>
-                  <p className="mt-1">✓ Save 40-50%</p>
+                  <p>v Stop Harassment</p>
+                  <p className="mt-1">v Save 40-50%</p>
                 </div>
               </div>
 

@@ -231,7 +231,7 @@ export default function ChequeBounceDelhiClient() {
                   In the dynamic financial landscape of Delhi, a <strong>cheque bounce case in Delhi</strong> is a frequent yet serious legal hurdle that many individuals and businesses face. Whether it is a commercial payment in Connaught Place, a rental dispute in South Delhi, or a personal loan in West Delhi, the dishonour of a cheque can halt your financial momentum. A cheque serves as a promise of payment, and when this promise is broken, the Indian legal system, particularly Section 138 of the Negotiable Instruments Act, provides a strong safety net for the payee.
                 </p>
                 <p>
-                  Navigating a <strong>cheque bounce case in Delhi</strong> requires more than just knowing a lawyer. It requires an understanding of the specific judicial culture of Delhi courts, from the historic Tis Hazari to the modern Saket Court complex. Delhi's legal framework for cheque dishonour is robust, designed to ensure that the credibility of financial instruments is maintained in one of India's biggest trading hubs. This guide offers a deep dive into the legal steps, court jurisdictions, and strategic decisions needed to recover your money efficiently.
+                  Navigating a <strong>cheque bounce case in Delhi</strong> requires more than just knowing a lawyer. It requires an understanding of the specific judicial culture of Delhi courts, from the historic Tis Hazari to the modern Saket Court complex. Delhi’s legal framework for cheque dishonour is robust, designed to ensure that the credibility of financial instruments is maintained in one of India’s biggest trading hubs. This guide offers a deep dive into the legal steps, court jurisdictions, and strategic decisions needed to recover your money efficiently.
                 </p>
                 <p>
                   As a financial capital, Delhi handles a vast volume of transactions daily. With this volume comes the inevitable risk of cheque dishonour due to various reasons ranging from genuine cash flow issues to deliberate fraudulent intent. The law in Delhi NCR is specialized to handle these disputes with summary trials, aiming for faster resolutions than typical civil cases. Understanding your rights as a complainant or your liabilities as a drawer is the first step toward a successful legal outcome.
@@ -305,7 +305,7 @@ export default function ChequeBounceDelhiClient() {
                   First, there is the risk of imprisonment for up to 2 years. While many first-time offenders in Delhi might get away with a heavy fine or a suspended sentence, repeat offenders or cases involving large sums often result in actual jail time. Second, the fine can be massive - up to double the cheque amount. This fine is usually paid to the complainant as compensation, making it a powerful recovery mechanism.
                 </p>
                 <p>
-                  Beyond the court's sentence, a criminal conviction under Section 138 has other life-altering consequences. It can affect your credit score permanently, making it nearly impossible to get bank loans or credit cards in the future. For business owners, it can lead to blacklisting by trade bodies or government departments. In Delhi's corporate world, a criminal record for financial fraud is a non-starter for most leadership roles.
+                  Beyond the court’s sentence, a criminal conviction under Section 138 has other life-altering consequences. It can affect your credit score permanently, making it nearly impossible to get bank loans or credit cards in the future. For business owners, it can lead to blacklisting by trade bodies or government departments. In Delhi’s corporate world, a criminal record for financial fraud is a non-starter for most leadership roles.
                 </p>
               </div>
 
@@ -315,7 +315,7 @@ export default function ChequeBounceDelhiClient() {
                   If you are planning to file a <strong>cheque bounce case in Delhi</strong>, your most important weapon is the legal notice. This is not just a letter; it is a mandatory legal precursor to a criminal trial. The notice must be drafted with immense care because any factual error regarding the cheque date, amount, or reason for dishonour can be used by the defense to derail your entire case.
                 </p>
                 <p>
-                  A strong legal notice drafted by an expert Delhi advocate does two things: it establishes your intent to prosecute and it often forces the debtor to the negotiation table. In Delhi's fast-paced business environment, most people want to avoid the hassle of going to court for several years. A sharp, well-reasoned notice that clearly outlines the impending criminal charges often results in an out-of-court settlement within the 15-day grace period.
+                  A strong legal notice drafted by an expert Delhi advocate does two things: it establishes your intent to prosecute and it often forces the debtor to the negotiation table. In Delhi’s fast-paced business environment, most people want to avoid the hassle of going to court for several years. A sharp, well-reasoned notice that clearly outlines the impending criminal charges often results in an out-of-court settlement within the 15-day grace period.
                 </p>
                 <p>
                   It is essential to send the notice via Registered Post with Acknowledgement Due (RPAD) or Speed Post. In the digital age, Delhi courts also recognize service via email or WhatsApp as valid supplementary evidence, but the physical postal receipt remains the "gold standard" for proving that the drawer had an opportunity to pay before the criminal case was initiated.
@@ -336,7 +336,7 @@ export default function ChequeBounceDelhiClient() {
                       <strong>Wait 15 Days:</strong> Once the notice is delivered, the law gives the drawer 15 days to make the payment. You cannot file a case before these 15 days are up.
                     </li>
                     <li>
-                      <strong>The Final 30 Days:</strong> If they still haven't paid by the 16th day, you have exactly 30 days to file the formal criminal complaint in court.
+                      <strong>The Final 30 Days:</strong> If they still haven’t paid by the 16th day, you have exactly 30 days to file the formal criminal complaint in court.
                     </li>
                   </ol>
                 </div>
@@ -368,7 +368,7 @@ export default function ChequeBounceDelhiClient() {
                   <li><strong>The Bank Return Memo:</strong> The slip from the bank with the official reason for dishonour.</li>
                   <li><strong>Proof of Notice Service:</strong> The original Speed Post or Registered Post receipts.</li>
                   <li><strong>Acknowledgement Card:</strong> If the notice was received by the drawer (RPAD), the signed card is vital evidence.</li>
-                  <li><strong>Proof of Debt:</strong> Invoices, ledger accounts, loan agreements, or emails discussing the payment. This proves the cheque wasn't just a gift.</li>
+                  <li><strong>Proof of Debt:</strong> Invoices, ledger accounts, loan agreements, or emails discussing the payment. This proves the cheque wasn’t just a gift.</li>
                   <li><strong>Condonation of Delay Application:</strong> If you are filing after the 30-day window, you need this separate document explaining the delay.</li>
                 </ul>
                 <p>
@@ -379,10 +379,10 @@ export default function ChequeBounceDelhiClient() {
               <h2 id="corporate-cases" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Liability of Companies and Directors</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  In the corporate hub of Gurgaon and Delhi, many cheques are issued by private limited companies. If a company cheque bounces, who goes to jail? Section 141 of the Negotiable Instruments Act answers this question. It states that not just the company, but every person who at the time of the offence was in charge of and responsible for the company's business can be held liable.
+                  In the corporate hub of Gurgaon and Delhi, many cheques are issued by private limited companies. If a company cheque bounces, who goes to jail? Section 141 of the Negotiable Instruments Act answers this question. It states that not just the company, but every person who at the time of the offence was in charge of and responsible for the company’s business can be held liable.
                 </p>
                 <p>
-                  This means that in a <strong>cheque bounce case in Delhi</strong> involving a corporate entity, the complainant can sue the Managing Director, the Finance Director, and even the authorized signatory who signed the cheque. However, the complainant must specifically state in their complaint how each person was responsible for the company's daily operations.
+                  This means that in a <strong>cheque bounce case in Delhi</strong> involving a corporate entity, the complainant can sue the Managing Director, the Finance Director, and even the authorized signatory who signed the cheque. However, the complainant must specifically state in their complaint how each person was responsible for the company’s daily operations.
                 </p>
                 <p>
                   This "vicarious liability" is a powerful tool to pressure companies into paying their dues. Directors of Delhi-based firms are often very protective of their reputation and professional standing, and the threat of being named in a criminal case for cheque dishonour usually leads to a swift corporate settlement.
@@ -393,7 +393,7 @@ export default function ChequeBounceDelhiClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-lg transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-2xl">★★★★★</div>
+                    <div className="text-yellow-400 text-2xl">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "I had a pending payment of 12 lakhs from a supplier in Okhla. The cheque bounced, and I was lost. CredSettle legal team handled the case at Saket Court. We got an interim compensation of 2.4 lakhs in the 3rd hearing itself, and the rest was settled soon after. Truly the best expert help in Delhi."
@@ -402,7 +402,7 @@ export default function ChequeBounceDelhiClient() {
                 </div>
                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-lg transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-2xl">★★★★★</div>
+                    <div className="text-yellow-400 text-2xl">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "Professional and transparent. I was worried about the court proceedings at Tis Hazari, but my advocate from CredSettle made it so easy. They drafted the notice so well that the party came for a settlement within a week. Saved me months of stress."
@@ -411,7 +411,7 @@ export default function ChequeBounceDelhiClient() {
                 </div>
                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-lg transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-2xl">★★★★★</div>
+                    <div className="text-yellow-400 text-2xl">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "If you are looking for Section 138 lawyers in Delhi NCR, look no further. Their expertise in handling corporate cheque bounce cases is unmatched. Helped our firm recover over 50 lakhs in stalled payments."
@@ -420,7 +420,7 @@ export default function ChequeBounceDelhiClient() {
                 </div>
                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-lg transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-2xl">★★★★★</div>
+                    <div className="text-yellow-400 text-2xl">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "The interim compensation provision was a lifesaver for my small business. CredSettle advocates were very proactive in Saket Court and ensured we got our money back with interest."
@@ -442,7 +442,7 @@ export default function ChequeBounceDelhiClient() {
               <div className="mt-16 p-10 bg-blue-900 text-white rounded-[40px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
                   <h2 className="text-4xl font-bold mb-6">Start Your Legal Recovery Today</h2>
-                  <p className="text-blue-100 mb-10 text-xl max-w-2xl mx-auto">Don't let a bounced cheque drain your finances. Get in touch with Delhi's specialized Section 138 legal experts and reclaim what is yours.</p>
+                  <p className="text-blue-100 mb-10 text-xl max-w-2xl mx-auto">Don’t let a bounced cheque drain your finances. Get in touch with Delhi’s specialized Section 138 legal experts and reclaim what is yours.</p>
                   <Link 
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-12 py-5 rounded-full font-bold text-xl hover:bg-blue-50 transition-all transform hover:scale-105 shadow-xl"

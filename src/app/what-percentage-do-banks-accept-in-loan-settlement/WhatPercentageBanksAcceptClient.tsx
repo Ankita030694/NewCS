@@ -233,7 +233,7 @@ export default function WhatPercentageBanksAcceptClient() {
                         <span className="text-blue-300">Loan Settlement?</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-                        Don't overpay for your exit. Discover the mathematical brackets, bank-specific limits, and RBI 2025 guidelines that determine your final settlement amount.
+                        Don’t overpay for your exit. Discover the mathematical brackets, bank-specific limits, and RBI 2025 guidelines that determine your final settlement amount.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
@@ -374,7 +374,7 @@ export default function WhatPercentageBanksAcceptClient() {
 
                             <h2 id="rbi-ots-framework-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The RBI OTS Framework 2025: Your Protection</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 font-medium">
-                                The Reserve Bank of India (RBI) revamped the One-Time Settlement (OTS) guidelines to ensure banks don't behave like bullies. Key takeaway for 2025:
+                                The Reserve Bank of India (RBI) revamped the One-Time Settlement (OTS) guidelines to ensure banks don’t behave like bullies. Key takeaway for 2025:
                             </p>
                             <ul className="list-disc pl-10 mb-10 space-y-4 text-gray-700">
                                 <li><strong>Board-Approved Policies:</strong> Banks cannot create "random" numbers. They must follow a board-approved formula.</li>
@@ -403,12 +403,12 @@ export default function WhatPercentageBanksAcceptClient() {
 
                             <h2 id="the-npa-age-multiplier" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The NPA Age Multiplier: Timing Your Move</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Settlement logic is time-bound. A default that is 2 months old will get a 10% waiver. A default that is 2 years old will get a 60% waiver. Why? Because the bank's provisioning costs increase over time, making it more expensive for them to "hold" your debt.
+                                Settlement logic is time-bound. A default that is 2 months old will get a 10% waiver. A default that is 2 years old will get a 60% waiver. Why? Because the bank’s provisioning costs increase over time, making it more expensive for them to "hold" your debt.
                             </p>
 
                             <h2 id="negotiation-thresholds" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Negotiation Thresholds: When to Stop?</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Don't be greedy. If a bank offers you a settlement at **40% of total dues** in a lump sum, and you have genuine hardship, take it. Chasing an extra 5% for another 6 months of harassment and legal risk is rarely worth the stress.
+                                Don’t be greedy. If a bank offers you a settlement at **40% of total dues** in a lump sum, and you have genuine hardship, take it. Chasing an extra 5% for another 6 months of harassment and legal risk is rarely worth the stress.
                             </p>
 
                             <h2 id="expert-verdict" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Expert Verdict: The Golden Rule of 35</h2>
@@ -450,7 +450,7 @@ export default function WhatPercentageBanksAcceptClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -476,9 +476,9 @@ export default function WhatPercentageBanksAcceptClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 
@@ -493,7 +493,7 @@ export default function WhatPercentageBanksAcceptClient() {
                                         { href: "/best-lawyer-for-bank-harassment-for-loan", text: "Stop Recovery Harassment" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

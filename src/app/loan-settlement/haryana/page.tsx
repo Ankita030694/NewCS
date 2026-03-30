@@ -143,7 +143,7 @@ export default function HaryanaLoanSettlementPage() {
         "name": "Do I need to visit the bank branch personally?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. CredSettle handles the negotiations with the bank's Regional offices, often in Delhi or Chandigarh."
+          "text": "No. CredSettle handles the negotiations with the bank’s Regional offices, often in Delhi or Chandigarh."
         }
       },
       {

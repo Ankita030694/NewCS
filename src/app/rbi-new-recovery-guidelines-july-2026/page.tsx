@@ -28,7 +28,7 @@ export default function RBIRecoveryGuidelinesPage() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "RBI New Recovery Guidelines July 2026: A Complete Guide to Enhanced Borrower Protection",
-        "description": "An exhaustive analysis of the Reserve Bank of India's new directions for loan recovery conduct, slated to reform the banking landscape from July 1, 2026.",
+        "description": "An exhaustive analysis of the Reserve Bank of India’s new directions for loan recovery conduct, slated to reform the banking landscape from July 1, 2026.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Organization",

@@ -43,7 +43,7 @@ export default function DelhiPageClient() {
     },
     {
       question: 'Will settlement affect my CIBIL score in NCR?',
-      answer: 'Yes, settled loans show as "settled" (not "closed") on your CIBIL report. This impacts your score temporarily. However, it\'s better than continued defaults or legal action. We provide credit rehabilitation guidance after settlement to help you rebuild your score over 12-18 months.'
+      answer: 'Yes, settled loans show as "settled" (not "closed") on your CIBIL report. This impacts your score temporarily. However, it’s better than continued defaults or legal action. We provide credit rehabilitation guidance after settlement to help you rebuild your score over 12-18 months.'
     },
     {
       question: 'Can you stop recovery harassment in Delhi NCR areas?',
@@ -59,7 +59,7 @@ export default function DelhiPageClient() {
     },
     {
       question: 'How does Delhi Lok Adalat work for loan settlement?',
-      answer: 'Delhi Lok Adalat is a mediation system under Legal Services Authority. Both you and lender sit with mediators who facilitate fair settlements. No court fees, quick resolution (usually one session), legally binding decision. We\'ve handled hundreds of cases through Delhi Lok Adalat.'
+      answer: 'Delhi Lok Adalat is a mediation system under Legal Services Authority. Both you and lender sit with mediators who facilitate fair settlements. No court fees, quick resolution (usually one session), legally binding decision. We’ve handled hundreds of cases through Delhi Lok Adalat.'
     },
     {
       question: 'Can government employees in Delhi settle loans?',
@@ -212,7 +212,7 @@ export default function DelhiPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Delhi NCR (National Capital Region) covers one of India's largest urban clusters. From central Delhi's government offices to Noida's IT parks, Gurgaon's corporate towers and Faridabad's industrial estates, millions of people borrow personal loans for homes, education, medical needs and business. But high living costs, job volatility and family pressures make repayment hard for many.
+                    Delhi NCR (National Capital Region) covers one of India’s largest urban clusters. From central Delhi’s government offices to Noida’s IT parks, Gurgaon’s corporate towers and Faridabad’s industrial estates, millions of people borrow personal loans for homes, education, medical needs and business. But high living costs, job volatility and family pressures make repayment hard for many.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay less than your full balance. RBI recognizes this as legal debt resolution. When you genuinely cannot repay loans, settlement provides an exit without years of recovery harassment or court battles.
@@ -245,7 +245,7 @@ export default function DelhiPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Delhi NCR's economy creates specific debt traps. Central and state government employees take loans thinking their jobs are secure, then face salary delays or freezes. Noida and Gurgaon IT professionals borrow during boom times, get laid off during downturns. Faridabad's manufacturing workers deal with seasonal income drops. Delhi's traders and small business owners face constant cash flow issues.
+                    Delhi NCR’s economy creates specific debt traps. Central and state government employees take loans thinking their jobs are secure, then face salary delays or freezes. Noida and Gurgaon IT professionals borrow during boom times, get laid off during downturns. Faridabad’s manufacturing workers deal with seasonal income drops. Delhi’s traders and small business owners face constant cash flow issues.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Living costs hit hard:</strong> Rent in decent NCR areas runs ₹15,000-₹60,000 monthly. Add school fees for kids, medical bills for parents, commute costs (petrol, metro, tolls) and utility bills. Many families take 2-3 loans just to maintain basic lifestyle. When income drops or stops, all those EMIs become impossible to pay.
@@ -257,7 +257,7 @@ export default function DelhiPageClient() {
                     Settlement ends this nightmare fast. Lenders prefer getting 40-70% now versus spending lakhs on DRT proceedings with uncertain outcomes. You get four direct benefits: major debt cut (save 30-70%), all harassment stops, proper legal closure, and chance to restart financially.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We specialize in NCR's banking scene. We know which Delhi banks settle easily at branch level, which Noida NBFCs need head office approvals, and how Gurgaon lenders handle government employee cases. This local knowledge gets you better deals than national settlement companies can.
+                    We specialize in NCR’s banking scene. We know which Delhi banks settle easily at branch level, which Noida NBFCs need head office approvals, and how Gurgaon lenders handle government employee cases. This local knowledge gets you better deals than national settlement companies can.
                   </p>
                 </div>
               </section>
@@ -284,13 +284,13 @@ export default function DelhiPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    NCR borrowers face debt problems shaped by the region's unique economic mix. These five issues come up most often:
+                    NCR borrowers face debt problems shaped by the region’s unique economic mix. These five issues come up most often:
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Government Employee Salary Issues:</strong> Delhi has lakhs of central and state government employees. They borrow thinking jobs are secure. But salary freezes happen, pension delays occur, and departmental transfers disrupt income. We handle many government employee cases. Strategy: Use job security as leverage to negotiate better settlement terms, showing lenders they'll get paid eventually but borrower needs time.
+                    <strong>Government Employee Salary Issues:</strong> Delhi has lakhs of central and state government employees. They borrow thinking jobs are secure. But salary freezes happen, pension delays occur, and departmental transfers disrupt income. We handle many government employee cases. Strategy: Use job security as leverage to negotiate better settlement terms, showing lenders they’ll get paid eventually but borrower needs time.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Noida-Gurgaon IT Sector Layoffs:</strong> NCR's IT belt (Noida, Greater Noida, Gurgaon, Cyber City) employs thousands. People borrow big during high-salary years. Then company downsizes, project ends, or startup fails. Income drops 60-80% instantly. We've settled hundreds of IT professional cases. We show lenders the sector data, prove income loss is real, push for 50-70% reductions.
+                    <strong>Noida-Gurgaon IT Sector Layoffs:</strong> NCR’s IT belt (Noida, Greater Noida, Gurgaon, Cyber City) employs thousands. People borrow big during high-salary years. Then company downsizes, project ends, or startup fails. Income drops 60-80% instantly. We’ve settled hundreds of IT professional cases. We show lenders the sector data, prove income loss is real, push for 50-70% reductions.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Multiple Small Loans Trap:</strong> NBFCs target NCR heavily with easy loans. Many people end up with 4-6 small loans (₹50,000 to ₹2 lakhs each) from different NBFCs, all at 20-35% interest. Total debt: ₹8-12 lakhs. Interest piles up faster than they can pay. Our approach: Negotiate all loans together in one settlement package, not one by one.
@@ -326,10 +326,10 @@ export default function DelhiPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled over 12,000 loan settlements across Delhi NCR in the last four years. Our NCR clients save an average of 60% on their outstanding debt (higher than national average of 55%). We work with every major bank and NBFC lending in Delhi, Noida, Gurgaon and Faridabad.
+                    We’ve handled over 12,000 loan settlements across Delhi NCR in the last four years. Our NCR clients save an average of 60% on their outstanding debt (higher than national average of 55%). We work with every major bank and NBFC lending in Delhi, Noida, Gurgaon and Faridabad.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What sets us apart:</strong> We're not recovery agents or fly-by-night operators. CredSettle is a registered legal services company following every RBI guideline. Every settlement gets proper documentation, legal standing and permanent closure. We have lawyers and financial experts in Delhi NCR who know the local banking ecosystem inside out.
+                    <strong>What sets us apart:</strong> We’re not recovery agents or fly-by-night operators. CredSettle is a registered legal services company following every RBI guideline. Every settlement gets proper documentation, legal standing and permanent closure. We have lawyers and financial experts in Delhi NCR who know the local banking ecosystem inside out.
                   </p>
 
                   <div id="our-process" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -346,7 +346,7 @@ export default function DelhiPageClient() {
                       Our NCR-Specific Settlement Strategy
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1: Free Assessment</strong> - Call or WhatsApp us. We review your loan papers, check outstanding amounts, look at income and collect hardship proof. Phone, video call or in-person meeting in Delhi/Noida/Gurgaon. Completely confidential. <strong>Step 2: Stop Harassment</strong> - We send legal notices to your lenders citing RBI rules. Direct recovery contact stops immediately. All communication comes through us. <strong>Step 3: Negotiate Hard</strong> - Our NCR team contacts each lender's NPA division. We use your hardship documents, NPA cost data and sector knowledge to push for 30-70% debt reduction. Multiple negotiation rounds if needed. <strong>Step 4: Legal Documentation</strong> - Settlement agreements include OTS letters, payment receipts, account closure proof and NOC certificates. Everything properly documented before you pay. <strong>Step 5: Follow Through</strong> - We verify credit bureaus update correctly. We give you advice on rebuilding CIBIL score and avoiding future debt traps.
+                      <strong>Step 1: Free Assessment</strong> - Call or WhatsApp us. We review your loan papers, check outstanding amounts, look at income and collect hardship proof. Phone, video call or in-person meeting in Delhi/Noida/Gurgaon. Completely confidential. <strong>Step 2: Stop Harassment</strong> - We send legal notices to your lenders citing RBI rules. Direct recovery contact stops immediately. All communication comes through us. <strong>Step 3: Negotiate Hard</strong> - Our NCR team contacts each lender’s NPA division. We use your hardship documents, NPA cost data and sector knowledge to push for 30-70% debt reduction. Multiple negotiation rounds if needed. <strong>Step 4: Legal Documentation</strong> - Settlement agreements include OTS letters, payment receipts, account closure proof and NOC certificates. Everything properly documented before you pay. <strong>Step 5: Follow Through</strong> - We verify credit bureaus update correctly. We give you advice on rebuilding CIBIL score and avoiding future debt traps.
                     </p>
                   </div>
 
@@ -392,16 +392,16 @@ export default function DelhiPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Delhi has two special legal systems for debt cases that borrowers in other states don't have easy access to. We use both regularly.
+                    Delhi has two special legal systems for debt cases that borrowers in other states don’t have easy access to. We use both regularly.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Debt Recovery Tribunal (DRT Delhi):</strong> For loans above ₹20 lakhs, banks and NBFCs can file recovery cases at DRT instead of regular courts. DRT is faster - cases usually finish in 6-18 months versus 3-5 years in civil courts. If your lender files at DRT, we represent you there. Our DRT strategy: Show genuine hardship, propose reasonable settlement (40-60% of outstanding), get tribunal approval. DRT orders are legally binding and final. We've handled over 200 DRT cases in Delhi with 85% settlement success rate.
+                    <strong>Debt Recovery Tribunal (DRT Delhi):</strong> For loans above ₹20 lakhs, banks and NBFCs can file recovery cases at DRT instead of regular courts. DRT is faster - cases usually finish in 6-18 months versus 3-5 years in civil courts. If your lender files at DRT, we represent you there. Our DRT strategy: Show genuine hardship, propose reasonable settlement (40-60% of outstanding), get tribunal approval. DRT orders are legally binding and final. We’ve handled over 200 DRT cases in Delhi with 85% settlement success rate.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Delhi Lok Adalat:</strong> This is a mediation system under Legal Services Authorities Act. Works for any loan amount, any stage (even before court filing). Both you and lender sit with trained mediators. Mediators push both sides toward fair settlement. No court fees. Usually resolved in single session. Decision is legally binding like a court order. Banks and NBFCs participate actively in Delhi Lok Adalat because it's fast and cheap for them too.
+                    <strong>Delhi Lok Adalat:</strong> This is a mediation system under Legal Services Authorities Act. Works for any loan amount, any stage (even before court filing). Both you and lender sit with trained mediators. Mediators push both sides toward fair settlement. No court fees. Usually resolved in single session. Decision is legally binding like a court order. Banks and NBFCs participate actively in Delhi Lok Adalat because it’s fast and cheap for them too.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Lok Adalat Experience:</strong> We've represented hundreds of Delhi NCR borrowers in Lok Adalat across all districts (Central Delhi, South Delhi, East Delhi, Noida, Gurgaon). We prepare complete hardship documentation, write settlement proposals and argue your case hard. Lok Adalat settlements typically land at 40-60% of outstanding amount. Everything gets documented properly with legally enforceable orders.
+                    <strong>Our Lok Adalat Experience:</strong> We’ve represented hundreds of Delhi NCR borrowers in Lok Adalat across all districts (Central Delhi, South Delhi, East Delhi, Noida, Gurgaon). We prepare complete hardship documentation, write settlement proposals and argue your case hard. Lok Adalat settlements typically land at 40-60% of outstanding amount. Everything gets documented properly with legally enforceable orders.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>When to Use These Options:</strong> If your lender already filed a DRT case or court case, Lok Adalat becomes your fastest route to settlement. If your loan is large (above ₹20 lakhs) and lender is aggressive, we may proactively suggest DRT route. For most cases below ₹20 lakhs, direct negotiation with lender works best. We assess your situation and recommend the right legal path.
@@ -434,10 +434,10 @@ export default function DelhiPageClient() {
                     <strong>Delhi (All Districts):</strong> South Delhi, Central Delhi, East Delhi, West Delhi, North Delhi, Dwarka, Rohini. We handle loans from all bank branches and NBFCs across Delhi. Special experience with government employee loans because Delhi has the highest concentration of central government offices.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Noida & Greater Noida:</strong> IT professionals, startup employees and real estate investors borrow heavily here. Sector 18, Sector 62 (IT hub), Greater Noida West. We know Noida's IT sector layoff cycles and use that economic data in settlement negotiations. Handled over 2,000 Noida cases.
+                    <strong>Noida & Greater Noida:</strong> IT professionals, startup employees and real estate investors borrow heavily here. Sector 18, Sector 62 (IT hub), Greater Noida West. We know Noida’s IT sector layoff cycles and use that economic data in settlement negotiations. Handled over 2,000 Noida cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Gurgaon (Gurugram):</strong> Corporate professionals in Cyber City, DLF Phase areas, MG Road, Sohna Road. High salaries but also high living costs and job changes. We've settled loans for hundreds of Gurgaon corporate employees, using their employment contracts and salary slips to negotiate better terms.
+                    <strong>Gurgaon (Gurugram):</strong> Corporate professionals in Cyber City, DLF Phase areas, MG Road, Sohna Road. High salaries but also high living costs and job changes. We’ve settled loans for hundreds of Gurgaon corporate employees, using their employment contracts and salary slips to negotiate better terms.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Faridabad:</strong> Mix of manufacturing workers, traders and service sector employees. Loans often from local NBFCs and cooperative banks. We handle Faridabad cases with understanding of industrial sector cycles and seasonal income patterns.
@@ -479,19 +479,19 @@ export default function DelhiPageClient() {
                     <strong>3. Harassment Ends Fast:</strong> Within 3-5 days of hiring us, recovery calls stop. Legal notices citing RBI rules go to all lenders. We handle all contact. No more agents at your door.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Save 30-70% Average:</strong> NCR clients save 60% on average. That's lakhs of rupees. We use NPA economics, hardship proof and settlement precedents to negotiate hard.
+                    <strong>4. Save 30-70% Average:</strong> NCR clients save 60% on average. That’s lakhs of rupees. We use NPA economics, hardship proof and settlement precedents to negotiate hard.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>5. Complete Legal Process:</strong> Every settlement follows RBI rules. OTS letters, payment receipts, closure proof, NOC - all properly documented so lenders cannot come back.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Pay Only After Success:</strong> No upfront fees during consultation or negotiation. We charge only after getting your settlement approved and documented. That's our confidence.
+                    <strong>6. Pay Only After Success:</strong> No upfront fees during consultation or negotiation. We charge only after getting your settlement approved and documented. That’s our confidence.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>7. Credit Rebuilding Help:</strong> After settlement, we guide you on improving CIBIL, managing finances better and accessing credit responsibly when you need it later.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>8. Proven NCR Track Record:</strong> Over 12,000 Delhi NCR families trust us. Delhi, Noida, Gurgaon, Faridabad across the region. Numbers don't lie.
+                    <strong>8. Proven NCR Track Record:</strong> Over 12,000 Delhi NCR families trust us. Delhi, Noida, Gurgaon, Faridabad across the region. Numbers don’t lie.
                   </p>
                 </div>
               </section>
@@ -539,7 +539,7 @@ export default function DelhiPageClient() {
                     <strong>Free Lok Adalat:</strong> Delhi NCR residents can use Lok Adalat for any loan dispute. If you earn under ₹5 lakhs yearly, Delhi State Legal Services Authority gives free legal aid.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Police Protection:</strong> Recovery agents cannot enter home without permission, threaten violence or abuse. That's illegal under Indian Penal Code. File FIR at nearest police station in Delhi NCR.
+                    <strong>Police Protection:</strong> Recovery agents cannot enter home without permission, threaten violence or abuse. That’s illegal under Indian Penal Code. File FIR at nearest police station in Delhi NCR.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     We protect all these rights during settlement. Any lender or agent violates rules, we take immediate legal action.
@@ -578,7 +578,7 @@ export default function DelhiPageClient() {
                     <strong>Week 2: Stop Harassment</strong> - We send legal notices to all your lenders. Citations of RBI Fair Practices Code. All recovery contact redirected to us. Harassment typically stops within 5-7 days across Delhi NCR.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Week 3-8: Negotiate</strong> - Our NCR team contacts each lender's NPA or settlement division. We push for 30-70% reduction using your hardship data, NPA provisioning costs and settlement precedents. May need multiple negotiation rounds for best terms.
+                    <strong>Week 3-8: Negotiate</strong> - Our NCR team contacts each lender’s NPA or settlement division. We push for 30-70% reduction using your hardship data, NPA provisioning costs and settlement precedents. May need multiple negotiation rounds for best terms.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Week 8-10: Agreement</strong> - Lender agrees to settlement. We get formal OTS letter on letterhead with all terms: amount, deadline, closure confirmation. Everything verified before you pay anything.
@@ -623,7 +623,7 @@ export default function DelhiPageClient() {
                     <strong>The Client:</strong> Amit K., age 32, software engineer at a Noida Sector 62 IT company. Had ₹28 lakhs total debt (2 personal loans, 3 credit cards, 1 car loan).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Happened:</strong> Company downsized in early 2023, Amit's project got cancelled. Took 4 months to find new job at 40% lower salary. Couldn't pay EMIs on ₹12 lakhs personal loans, ₹8 lakhs credit cards and ₹8 lakhs car loan. All accounts went NPA. Recovery agents called 25-30 times daily. Visited his Noida flat twice. His CIBIL dropped from 780 to 490. New employer found out about debt, created work stress.
+                    <strong>What Happened:</strong> Company downsized in early 2023, Amit’s project got cancelled. Took 4 months to find new job at 40% lower salary. Couldn’t pay EMIs on ₹12 lakhs personal loans, ₹8 lakhs credit cards and ₹8 lakhs car loan. All accounts went NPA. Recovery agents called 25-30 times daily. Visited his Noida flat twice. His CIBIL dropped from 780 to 490. New employer found out about debt, created work stress.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>We Took Over:</strong> Amit called us March 2023. We sent immediate legal notices to all 6 lenders. Harassment stopped in 4 days. Our assessment showed genuine hardship - layoff proof, 40% salary drop, family medical expenses. We documented everything.
@@ -665,19 +665,19 @@ export default function DelhiPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Stuck with loan debt in Delhi, Noida, Gurgaon, Faridabad or anywhere in NCR? You don't have to handle this alone. Settlement is legal. RBI recognizes it. It exists for people with real financial problems who need an exit.
+                    Stuck with loan debt in Delhi, Noida, Gurgaon, Faridabad or anywhere in NCR? You don’t have to handle this alone. Settlement is legal. RBI recognizes it. It exists for people with real financial problems who need an exit.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Debt destroys everything. Health suffers, family fights increase, work performance drops, peace of mind disappears. Each day you wait, penalties add up, interest compounds, CIBIL falls further, stress multiplies. But there's a solution. Over 12,000 NCR families already escaped through our settlement services.
+                    Debt destroys everything. Health suffers, family fights increase, work performance drops, peace of mind disappears. Each day you wait, penalties add up, interest compounds, CIBIL falls further, stress multiplies. But there’s a solution. Over 12,000 NCR families already escaped through our settlement services.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Start today:</strong> Free confidential consultation. No pressure, no obligations. Just honest assessment and clear options. Our Delhi NCR experts will show you exactly how to stop harassment, cut debt 30-70% and close everything legally.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Financial problems are temporary situations. But unresolved debt can drag on for years, ruining everything. With our legal team, NCR knowledge and proven track record, you can end the debt crisis properly and rebuild your life. Don't let debt control you anymore. Act now.
+                    Financial problems are temporary situations. But unresolved debt can drag on for years, ruining everything. With our legal team, NCR knowledge and proven track record, you can end the debt crisis properly and rebuild your life. Don’t let debt control you anymore. Act now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Central Delhi offices, Noida IT parks, Gurgaon corporate areas or Faridabad homes. Wherever you are in NCR, debt-free life is possible. We'll help you get there.
+                    <strong>Call CredSettle for free consultation.</strong> Central Delhi offices, Noida IT parks, Gurgaon corporate areas or Faridabad homes. Wherever you are in NCR, debt-free life is possible. We’ll help you get there.
                   </p>
                 </div>
               </section>

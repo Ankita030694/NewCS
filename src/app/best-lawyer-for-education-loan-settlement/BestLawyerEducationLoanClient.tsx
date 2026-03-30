@@ -103,7 +103,7 @@ export default function BestLawyerEducationLoanClient() {
         },
         {
             question: "How long does the student loan settlement process generally take?",
-            answer: "The timeline varies significantly based on the lender's policies and your financial documentation. A typical settlement negotiation orchestrated by an experienced lawyer takes anywhere from three to six months."
+            answer: "The timeline varies significantly based on the lender’s policies and your financial documentation. A typical settlement negotiation orchestrated by an experienced lawyer takes anywhere from three to six months."
         },
         {
             question: "Can the bank attach my future salary if I land a job after defaulting?",
@@ -501,7 +501,7 @@ export default function BestLawyerEducationLoanClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -532,9 +532,9 @@ export default function BestLawyerEducationLoanClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 

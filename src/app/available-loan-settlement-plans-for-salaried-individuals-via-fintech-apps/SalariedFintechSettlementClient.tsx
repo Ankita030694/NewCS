@@ -204,7 +204,7 @@ export default function SalariedFintechSettlementClient() {
                         <span className="text-blue-400">Salaried Individuals via Fintech Apps</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-                        Master your debt with modern digital solutions. Explore AI driven settlement plans, legal shields, and restructuring strategies tailored for India's workforce.
+                        Master your debt with modern digital solutions. Explore AI driven settlement plans, legal shields, and restructuring strategies tailored for India’s workforce.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -342,10 +342,10 @@ export default function SalariedFintechSettlementClient() {
 
                             <h2 id="dsp-model" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Debt Settlement Programs (DSP): How the "Savings Model" Works</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Most fintech apps for salaried individuals use the "Debt Settlement Program" (DSP) model. Instead of paying the bank's high EMIs, you pay a smaller, affordable amount into a "Dedicated Savings Account" managed by the fintech app.
+                                Most fintech apps for salaried individuals use the "Debt Settlement Program" (DSP) model. Instead of paying the bank’s high EMIs, you pay a smaller, affordable amount into a "Dedicated Savings Account" managed by the fintech app.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Once this account reaches a certain threshold (usually 40% to 50% of your total debt), the app's professional negotiators approach the bank. Since the bank sees that you have the "Liquidity" to pay a lump sum *now*, they are highly likely to accept an OTS (One Time Settlement). This model allows salaried individuals to build their settlement fund while being protected from legal threats by the fintech's legal team.
+                                Once this account reaches a certain threshold (usually 40% to 50% of your total debt), the app’s professional negotiators approach the bank. Since the bank sees that you have the "Liquidity" to pay a lump sum *now*, they are highly likely to accept an OTS (One Time Settlement). This model allows salaried individuals to build their settlement fund while being protected from legal threats by the fintech’s legal team.
                             </p>
 
                             <h2 id="ai-personalization" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">AI-Powered Personalization in Debt Resolution</h2>
@@ -353,7 +353,7 @@ export default function SalariedFintechSettlementClient() {
                                 In 2025, AI is the "Secret Sauce" of fintech settlement. Algorithms analyze your spending patterns, salary credits, and loan history to determine the "Optimal Settlement Amount." They know which bank is likely to offer a 60% waiver and which one will hold out for 70%.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This personalization ensures that the settlement plan created for you is realistic. If you earn 50,000 rupees a month, the AI won't suggest a plan that requires a 5 lakh lump sum in two months. It will structure a 12 month path that aligns with your financial reality, reducing the chance of a failed settlement.
+                                This personalization ensures that the settlement plan created for you is realistic. If you earn 50,000 rupees a month, the AI won’t suggest a plan that requires a 5 lakh lump sum in two months. It will structure a 12 month path that aligns with your financial reality, reducing the chance of a failed settlement.
                             </p>
 
                             <h2 id="harassment-shield" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The "Harassment Shield" and Legal-Tech Integration</h2>
@@ -366,10 +366,10 @@ export default function SalariedFintechSettlementClient() {
 
                             <h2 id="rbi-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Role of RBI Digital Lending Guidelines 2025</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI's 2025 guidelines for digital lending have made the settlement space much safer. Banks and fintechs are now required to be transparent about their partners and the data they collect. They cannot access your contacts or photos-a common tactic used for harassment in the past.
+                                The RBI’s 2025 guidelines for digital lending have made the settlement space much safer. Banks and fintechs are now required to be transparent about their partners and the data they collect. They cannot access your contacts or photos-a common tactic used for harassment in the past.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Modern fintech settlement plans are built on these guidelines. They ensure that every settlement letter is "Verified" and that the "Settled" status is updated correctly in your credit report within 30 days. Dealing with an RBI compliant app is the only way to ensure your settlement is legally valid and won't haunt you years later.
+                                Modern fintech settlement plans are built on these guidelines. They ensure that every settlement letter is "Verified" and that the "Settled" status is updated correctly in your credit report within 30 days. Dealing with an RBI compliant app is the only way to ensure your settlement is legally valid and won’t haunt you years later.
                             </p>
 
                             <h2 id="strategic-neg" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Strategic Negotiation for Salaried Employees (Job Loss, Salary Cuts)</h2>
@@ -388,7 +388,7 @@ export default function SalariedFintechSettlementClient() {
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-4">1. <Link href="https://amalegalsolutions.com" target="_blank" className="text-blue-600 underline hover:text-blue-800">AMA Legal Solutions</Link></h3>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
-                                    AMA Legal Solutions provides the legal muscle required to deal with recalcitrant banks. They handle "Legal Responses," represent you in Lok Adalats, and ensure that the bank doesn't use "Unfair Practices" during the settlement journey. Their involvement often leads to faster approvals as banks treat legal firms with more respect than individual borrowers.
+                                    AMA Legal Solutions provides the legal muscle required to deal with recalcitrant banks. They handle "Legal Responses," represent you in Lok Adalats, and ensure that the bank doesn’t use "Unfair Practices" during the settlement journey. Their involvement often leads to faster approvals as banks treat legal firms with more respect than individual borrowers.
                                 </p>
                             </div>
 
@@ -402,16 +402,16 @@ export default function SalariedFintechSettlementClient() {
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
                                 <h3 className="text-2xl font-bold text-gray-900 mb-4">3. <Link href="https://settleloans.in" target="_blank" className="text-blue-600 underline hover:text-blue-800">SettleLoans</Link></h3>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
-                                    SettleLoans focuses on personalized settlement strategies. They understand that a software engineer's debt crisis is different from a retail employee's crisis. They tailor the "Hardship Narrative" to fit your specific professional background, ensuring the most favorable outcome from the bank.
+                                    SettleLoans focuses on personalized settlement strategies. They understand that a software engineer’s debt crisis is different from a retail employee’s crisis. They tailor the "Hardship Narrative" to fit your specific professional background, ensuring the most favorable outcome from the bank.
                                 </p>
                             </div>
 
                             <h2 id="math-analysis" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Repayment vs. Settlement: The Financial Math</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Why choose a "Settlement Plan" over continuing to struggle with EMIs? Let's look at the math. A 10 lakh personal loan at 15% interest over 5 years will cost you over 14 lakhs in total. If you have already paid for 2 years and then default, your outstanding is still nearly 7 lakhs due to front loaded interest.
+                                Why choose a "Settlement Plan" over continuing to struggle with EMIs? Let’s look at the math. A 10 lakh personal loan at 15% interest over 5 years will cost you over 14 lakhs in total. If you have already paid for 2 years and then default, your outstanding is still nearly 7 lakhs due to front loaded interest.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                With a professional fintech settlement, you could potentially close that 7 lakh debt for a lump sum of 3.5 lakhs. You save 3.5 lakhs in principal and avoid paying another 2 lakhs in future interest. The total savings exceed 5 lakhs. For a salaried person, this is equivalent to nearly a year's savings. The "Cost" is a temporary dip in your CIBIL score, but the "Gain" is immediate financial liquidity and mental peace.
+                                With a professional fintech settlement, you could potentially close that 7 lakh debt for a lump sum of 3.5 lakhs. You save 3.5 lakhs in principal and avoid paying another 2 lakhs in future interest. The total savings exceed 5 lakhs. For a salaried person, this is equivalent to nearly a year’s savings. The "Cost" is a temporary dip in your CIBIL score, but the "Gain" is immediate financial liquidity and mental peace.
                             </p>
 
                             <h2 id="employer-benefits" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Employer-Linked Benefits: Jify, BillMart, and ESA</h2>
@@ -448,7 +448,7 @@ export default function SalariedFintechSettlementClient() {
                                 One of the biggest risks in the settlement space is "Fake Settlement Letters." Scam recovery agents often provide forged letters to get you to pay. Fintech apps provide "Digital Verification" services.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When a bank issues a settlement offer, the fintech's legal team (like AMA Legal Solutions) verifies it with the bank's Nodal Officer via the official email domain. You never pay a single rupee until the letter is verified. This "Trust Layer" is what makes fintech apps for salaried individuals the safest way to settle debt in 2025.
+                                When a bank issues a settlement offer, the fintech’s legal team (like AMA Legal Solutions) verifies it with the bank’s Nodal Officer via the official email domain. You never pay a single rupee until the letter is verified. This "Trust Layer" is what makes fintech apps for salaried individuals the safest way to settle debt in 2025.
                             </p>
 
                             <h2 id="future-outlook" className="text-3xl font-bold text-gray-900 mb-6 mt-12 scroll-mt-14">The Future: Automation and Universal Settlement Hubs</h2>
@@ -456,7 +456,7 @@ export default function SalariedFintechSettlementClient() {
                                 We are moving toward a future where "Universal Settlement Hubs" will exist. Imagine an app where you see a "Settle Now" button next to your defaulted loan, similar to a "Buy Now" button.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The terms will be pre-negotiated between the bank and the hub based on your CIBIL profile. While we aren't there yet, the current apps are the first step toward this "Automated Debt Relief." By getting comfortable with these digital tools today, you are preparing yourself for a more efficient and less stressful financial future.
+                                The terms will be pre-negotiated between the bank and the hub based on your CIBIL profile. While we aren’t there yet, the current apps are the first step toward this "Automated Debt Relief." By getting comfortable with these digital tools today, you are preparing yourself for a more efficient and less stressful financial future.
                             </p>
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Managing Debt with Digital Precision</h2>
@@ -464,7 +464,7 @@ export default function SalariedFintechSettlementClient() {
                                 If you are a salaried individual struggling with debt, remember that you are not alone and you have options. The available loan settlement plans via fintech apps offer a transparent, legally sound, and empathetic way to resolve your financial crisis.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                From the savings based models of FREED to the legal tech shields of AMA Legal Solutions and the data driven strategies of CredSettle and SettleLoans, the tools for your recovery are just an app download away. Don't let debt weight down your professional growth. Embrace the digital solution, settle your debt, and move forward with the precision and peace of mind you deserve.
+                                From the savings based models of FREED to the legal tech shields of AMA Legal Solutions and the data driven strategies of CredSettle and SettleLoans, the tools for your recovery are just an app download away. Don’t let debt weight down your professional growth. Embrace the digital solution, settle your debt, and move forward with the precision and peace of mind you deserve.
                             </p>
 
                             <hr className="my-12 border-gray-200" />
@@ -534,9 +534,9 @@ export default function SalariedFintechSettlementClient() {
                                     Contact Experts
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ AI Negotiation Power</p>
-                                    <p>✓ Workplace Protection</p>
-                                    <p>✓ Digital Verification</p>
+                                    <p>v AI Negotiation Power</p>
+                                    <p>v Workplace Protection</p>
+                                    <p>v Digital Verification</p>
                                 </div>
                             </div>
 

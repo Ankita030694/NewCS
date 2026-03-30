@@ -100,7 +100,7 @@ export default function KisetsuLoanSettlementPage() {
     },
     {
       question: "How much discount can I expect on my outstanding dues?",
-      answer: "The discount varies based on several factors including the age of the default, your financial situation, and the bank's policies. Typically, waivers range from 30% to 50% or more on the total outstanding, primarily targeting the removal of penal interest and other charges."
+      answer: "The discount varies based on several factors including the age of the default, your financial situation, and the bank’s policies. Typically, waivers range from 30% to 50% or more on the total outstanding, primarily targeting the removal of penal interest and other charges."
     },
     {
       question: "How long does the settlement process take?",
@@ -147,14 +147,14 @@ export default function KisetsuLoanSettlementPage() {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Rohan D." },
         "datePublished": "2025-12-10",
-        "reviewBody": "I had a Credit Saison loan that I couldn't pay after my shop closed. CredSettle stopped the constant calls and closed the specific loan for 45% of the value.",
+        "reviewBody": "I had a Credit Saison loan that I couldn’t pay after my shop closed. CredSettle stopped the constant calls and closed the specific loan for 45% of the value.",
         "reviewRating": { "@type": "Rating", "ratingValue": "5" }
       },
       {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Sneha P." },
         "datePublished": "2025-11-22",
-        "reviewBody": "The legal team dealt with the arbitration notice I received. I didn't have to go to court. Highly relieved.",
+        "reviewBody": "The legal team dealt with the arbitration notice I received. I didn’t have to go to court. Highly relieved.",
         "reviewRating": { "@type": "Rating", "ratingValue": "5" }
       }
     ]

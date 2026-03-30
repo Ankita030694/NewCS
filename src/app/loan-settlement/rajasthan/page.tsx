@@ -119,7 +119,7 @@ export default function RajasthanLoanSettlementPage() {
         "name": "What is the role of Lok Adalat in Rajasthan?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The RSLSA organizes Lok Adalats which are 'People's Courts' for amicable and final settlement of disputes."
+          "text": "The RSLSA organizes Lok Adalats which are 'People’s Courts' for amicable and final settlement of disputes."
         }
       },
       {
@@ -151,7 +151,7 @@ export default function RajasthanLoanSettlementPage() {
         "name": "Do I need to visit the bank branch personally?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. CredSettle handles the negotiations with the bank's Regional offices, so you don't have to visit personally."
+          "text": "No. CredSettle handles the negotiations with the bank’s Regional offices, so you don’t have to visit personally."
         }
       },
       {

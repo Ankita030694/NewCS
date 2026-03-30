@@ -198,7 +198,7 @@ export default function TermsAndConditionsPage() {
                     >
                       www.credsettle.com
                     </Link>{' '}
-                    (the “Website”), the CredSettle platform, and all associated services. By accessing or using our
+                    (the "Website"), the CredSettle platform, and all associated services. By accessing or using our
                     Website you acknowledge that you have read, understood, and agree to be bound by these Terms. If you
                     do not accept any part of them, you must refrain from using CredSettle services.
                   </p>

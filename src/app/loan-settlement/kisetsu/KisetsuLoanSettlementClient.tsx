@@ -102,7 +102,7 @@ export default function KisetsuLoanSettlementClient() {
     },
     {
       question: "How much discount can I expect on my outstanding dues?",
-      answer: "The discount varies based on several factors including the age of the default, your financial situation, and the bank's policies. Typically, waivers range from 30% to 50% or more on the total outstanding, primarily targeting the removal of penal interest and other charges."
+      answer: "The discount varies based on several factors including the age of the default, your financial situation, and the bank’s policies. Typically, waivers range from 30% to 50% or more on the total outstanding, primarily targeting the removal of penal interest and other charges."
     },
     {
       question: "How long does the settlement process take?",
@@ -230,7 +230,7 @@ export default function KisetsuLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">CredSettle's Commitment</h4>
+                <h4 className="font-bold text-blue-900 mb-2">CredSettle’s Commitment</h4>
                 <p className="text-blue-800 m-0">
                   Your financial dignity matters. We specialize in intervening between you and lenders like Kisetsu Saison Finance to stop harassment and negotiate a fair settlement. Let us handle the legal complexities while you focus on rebuilding your life.
                 </p>
@@ -238,7 +238,7 @@ export default function KisetsuLoanSettlementClient() {
 
               <h2 id="understanding-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding the One Time Settlement (OTS) Mechanism</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>One Time Settlement (OTS)</strong> is not a "loophole" but a formal banking provision established to clean up bad loans. When a borrower defaults for an extended period—typically over 90 days—the loan is classified as a Non-Performing Asset (NPA). At this stage, the lender's priority shifts from "earning profit" to "minimizing loss."
+                The <strong>One Time Settlement (OTS)</strong> is not a "loophole" but a formal banking provision established to clean up bad loans. When a borrower defaults for an extended period-typically over 90 days-the loan is classified as a Non-Performing Asset (NPA). At this stage, the lender’s priority shifts from "earning profit" to "minimizing loss."
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Here is why Kisetsu Saison Finance might agree to a settlement:
@@ -253,7 +253,7 @@ export default function KisetsuLoanSettlementClient() {
               </p>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">The "Sacrifice" Calculation</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Lenders calculate a "sacrifice" amount—the money they are willing to forego to close the account today. Negotiations revolve around maximizing this sacrifice. Factors influencing this include the age of the NPA (older NPAs often get better deals) and the strength of your hardship verification.
+                Lenders calculate a "sacrifice" amount-the money they are willing to forego to close the account today. Negotiations revolve around maximizing this sacrifice. Factors influencing this include the age of the NPA (older NPAs often get better deals) and the strength of your hardship verification.
               </p>
 
               <h2 id="eligibility-criteria" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Who is Eligible for Settlement?</h2>
@@ -330,7 +330,7 @@ export default function KisetsuLoanSettlementClient() {
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Closure and NOC Download</h4>
                   <p className="text-gray-700">
-                    You make the payment directly to your loan account. Within 15-20 days, the bank issues a <strong>No Dues Certificate (NOC)</strong>. While there isn't a direct "one-click download" for everyone, CredSettle ensures this is emailed to you directly from their official domain (@creditsaison-in.com).
+                    You make the payment directly to your loan account. Within 15-20 days, the bank issues a <strong>No Dues Certificate (NOC)</strong>. While there isn’t a direct "one-click download" for everyone, CredSettle ensures this is emailed to you directly from their official domain (@creditsaison-in.com).
                   </p>
                 </div>
               </div>
@@ -402,17 +402,17 @@ export default function KisetsuLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Rohan D.</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"I had a Privo loan that I couldn't pay after my shop closed. CredSettle stopped the constant calls and closed the specific loan for 45% of the value."</p>
+                    <p className="italic text-gray-200 text-sm">"I had a Privo loan that I couldn’t pay after my shop closed. CredSettle stopped the constant calls and closed the specific loan for 45% of the value."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Sneha P.</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"The legal team dealt with the arbitration notice I received. I didn't have to go to court. Highly relieved."</p>
+                    <p className="italic text-gray-200 text-sm">"The legal team dealt with the arbitration notice I received. I didn’t have to go to court. Highly relieved."</p>
                   </div>
                 </div>
               </div>
@@ -459,8 +459,8 @@ export default function KisetsuLoanSettlementClient() {
                   Get Help Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Stop Harassment</p>
-                  <p className="mt-1">✓ Legal Protection</p>
+                  <p>v Stop Harassment</p>
+                  <p className="mt-1">v Legal Protection</p>
                 </div>
               </div>
 

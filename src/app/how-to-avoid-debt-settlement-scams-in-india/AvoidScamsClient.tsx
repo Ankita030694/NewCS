@@ -49,23 +49,23 @@ const AvoidScamsClient = () => {
     const faqs = [
         {
             question: "Is there any RBI-registered debt settlement company in India?",
-            answer: "No. The RBI regulates banks and NBFCs, not debt settlement firms. Any company claiming to be 'RBI-Registered' is using a common scam tactic. Reputable firms are registered under the Companies Act and work within the legal framework of RBI's recovery guidelines."
+            answer: "No. The RBI regulates banks and NBFCs, not debt settlement firms. Any company claiming to be 'RBI-Registered' is using a common scam tactic. Reputable firms are registered under the Companies Act and work within the legal framework of RBI’s recovery guidelines."
         },
         {
             question: "Should I pay an agency before they settle my debt?",
-            answer: "You should never pay large 'advance settlement amounts' to an agency. Legitimate firms may charge a small service/legal retainer, but the actual settlement money should only be paid directly to the bank's own account."
+            answer: "You should never pay large 'advance settlement amounts' to an agency. Legitimate firms may charge a small service/legal retainer, but the actual settlement money should only be paid directly to the bank’s own account."
         },
         {
             question: "Can a debt settlement company guarantee an 80% waiver?",
-            answer: "No. No one can guarantee a specific waiver percentage as it depends entirely on the bank's internal policy and your hardship. Promises of '80% to 90% guaranteed waivers' are a major red flag for scams."
+            answer: "No. No one can guarantee a specific waiver percentage as it depends entirely on the bank’s internal policy and your hardship. Promises of '80% to 90% guaranteed waivers' are a major red flag for scams."
         },
         {
             question: "How do I verify if a settlement offer letter is real?",
-            answer: "Always verify the letter by calling the bank's official customer care or visiting the home branch. Check for the bank's official letterhead, the correct loan account number, and the designated bank official's signature and stamp."
+            answer: "Always verify the letter by calling the bank’s official customer care or visiting the home branch. Check for the bank’s official letterhead, the correct loan account number, and the designated bank official’s signature and stamp."
         },
         {
             question: "What should I do if a recovery agent threatens me?",
-            answer: "Under RBI 2025 guidelines, harassment is a punishable offense. Record the call, note the agent's ID, and file a formal complaint through the bank's Nodal Officer or the RBI Integrated Ombudsman portal."
+            answer: "Under RBI 2025 guidelines, harassment is a punishable offense. Record the call, note the agent’s ID, and file a formal complaint through the bank’s Nodal Officer or the RBI Integrated Ombudsman portal."
         },
         {
             question: "Is it a scam if they ask for my bank login details?",
@@ -73,7 +73,7 @@ const AvoidScamsClient = () => {
         },
         {
             question: "Can settlement agencies stop legal cases against me?",
-            answer: "Firms can provide legal counsel and help negotiate the 'withdrawal of cases' as part of the settlement, but they cannot magically 'delete' a court case without the bank's consent."
+            answer: "Firms can provide legal counsel and help negotiate the 'withdrawal of cases' as part of the settlement, but they cannot magically 'delete' a court case without the bank’s consent."
         },
         {
             question: "Why do some companies tell me to stop all communication with the bank?",
@@ -190,10 +190,10 @@ const AvoidScamsClient = () => {
                             
                             <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-10 scroll-mt-24 leading-tight">Navigating the Minefield of Debt Relief</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 text-xl font-light">
-                                When you are in debt, you are at your most vulnerable. Scammers know this. In 2025, as thousands of Indian borrowers seek relief from credit card traps and personal loan defaults, a new wave of "Debt Relief Fraud" has emerged. These scammers promise the moon—massive waivers, complete removal of CIBIL records, and immediate cessation of all calls—only to disappear after taking an "enrollment fee."
+                                When you are in debt, you are at your most vulnerable. Scammers know this. In 2025, as thousands of Indian borrowers seek relief from credit card traps and personal loan defaults, a new wave of "Debt Relief Fraud" has emerged. These scammers promise the moon-massive waivers, complete removal of CIBIL records, and immediate cessation of all calls-only to disappear after taking an "enrollment fee."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                This 4000+ word deep dive is your survival manual. We will expose the mechanics of the "Upfront Fee Trap," clarify the RBI's actual stance on settlement firms, and provide you with a foolproof 2025 verification checklist to distinguish legitimate relief agencies from predatory frauds. Your debt is a financial problem; don't let a scammer turn it into a legal or criminal nightmare.
+                                This 4000+ word deep dive is your survival manual. We will expose the mechanics of the "Upfront Fee Trap," clarify the RBI’s actual stance on settlement firms, and provide you with a foolproof 2025 verification checklist to distinguish legitimate relief agencies from predatory frauds. Your debt is a financial problem; don’t let a scammer turn it into a legal or criminal nightmare.
                             </p>
 
                             <h2 id="rbi-2025-protection" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-red-800">Section 1: The RBI 2025 Borrower Protection Shield</h2>
@@ -226,7 +226,7 @@ const AvoidScamsClient = () => {
                                 <div className="p-8 bg-white border border-gray-100 rounded-3xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block tracking-tighter uppercase text-xs">Flag #2</span>
                                     <h5 className="font-bold text-gray-900 mb-2 leading-tight">Guaranteed Outcomes</h5>
-                                    <p className="text-sm text-gray-600">Claims like "We guarantee an 80% waiver" are fraudulent. Settlements are always at the bank's discretion.</p>
+                                    <p className="text-sm text-gray-600">Claims like "We guarantee an 80% waiver" are fraudulent. Settlements are always at the bank’s discretion.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 rounded-3xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block tracking-tighter uppercase text-xs">Flag #3</span>
@@ -256,7 +256,7 @@ const AvoidScamsClient = () => {
                                 Let us be perfectly clear: <strong>The RBI does not register, license, or approve debt settlement companies.</strong> If an agency shows you a certificate with the RBI logo on it, it is a forgery. The RBI regulates "Banks" and "NBFCs." While the RBI provides THE RULES for how banks can settle debt, it does not certify the negotiators who help you.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                Legitimate firms in India are registered as Private Limited companies or LLPs. They may have legal practitioners on board who are registered with the Bar Council, but they are commercial entities. Any firm using the RBI name to gain "authority" is committing fraud. We explain how you can cross-check a company's credentials using the <strong>MCA21 portal</strong> (Ministry of Corporate Affairs) to see their actual age, directors, and financial standing.
+                                Legitimate firms in India are registered as Private Limited companies or LLPs. They may have legal practitioners on board who are registered with the Bar Council, but they are commercial entities. Any firm using the RBI name to gain "authority" is committing fraud. We explain how you can cross-check a company’s credentials using the <strong>MCA21 portal</strong> (Ministry of Corporate Affairs) to see their actual age, directors, and financial standing.
                             </p>
 
                             <h2 id="verification-checklist" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-red-700">The 2025 Verification Checklist</h2>
@@ -276,7 +276,7 @@ const AvoidScamsClient = () => {
                                         <div className="w-6 h-6 rounded-full bg-red-500 flex-shrink-0 flex items-center justify-center text-xs font-bold">2</div>
                                         <div>
                                             <p className="font-bold text-red-200">Payment for Settlement</p>
-                                            <p className="text-sm opacity-80 leading-relaxed">Does the firm ask you to pay the 'settled amount' to THEIR account? Stop. The settlement money must ALWAYS go directly to the bank's account with the Bank's Loan Account Number as the beneficiary.</p>
+                                            <p className="text-sm opacity-80 leading-relaxed">Does the firm ask you to pay the 'settled amount' to THEIR account? Stop. The settlement money must ALWAYS go directly to the bank’s account with the Bank’s Loan Account Number as the beneficiary.</p>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-4">
@@ -289,7 +289,7 @@ const AvoidScamsClient = () => {
                                 </ul>
                             </div>
 
-                            <h2 id="legal-recourse" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">What to do if You've been Scammed?</h2>
+                            <h2 id="legal-recourse" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">What to do if You’ve been Scammed?</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 If you have already paid money to a fake firm, acting fast is crucial. 1. <strong>Block further payments:</strong> Change your bank account passwords and cancel any NACH mandates associated with that firm. 2. <strong>Cyber Crime Portal:</strong> File a complaint at <em>cybercrime.gov.in</em> immediately. 3. <strong>Bank Chargeback:</strong> If you paid via credit card or NEFT, inform your bank that the transaction was fraudulent and request a reversal.
                             </p>
@@ -302,7 +302,7 @@ const AvoidScamsClient = () => {
                                 If a recovery agent is impersonating a bank official or a fake firm is claiming bank connections, use the <strong>RBI Integrated Ombudsman Scheme (RB-IOS).</strong> In 2025, the portal is faster and more borrower-friendly. You can file a complaint against any regulated entity that is allowing its name to be used for unauthorized debt relief practices. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                This scheme provides a "Single Point of Reference" for all complaints. The bank is required to respond within 30 days. If they don't, the Ombudsman can award you compensation for mental agony and harassment. Understanding this hierarchy of power is what keeps borrowers safe in 2025.
+                                This scheme provides a "Single Point of Reference" for all complaints. The bank is required to respond within 30 days. If they don’t, the Ombudsman can award you compensation for mental agony and harassment. Understanding this hierarchy of power is what keeps borrowers safe in 2025.
                             </p>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-10 scroll-mt-24">Frequently Asked Questions</h2>
@@ -317,7 +317,7 @@ const AvoidScamsClient = () => {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">The debt relief industry is rife with predatory players. You don't have to navigate these choices alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from scams.</p>
+                                <p className="text-blue-800 mb-6">The debt relief industry is rife with predatory players. You don’t have to navigate these choices alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from scams.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -359,9 +359,9 @@ const AvoidScamsClient = () => {
                                     Risk Assessment Call
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 

@@ -111,7 +111,7 @@ export default function LoanSettlementPageClient() {
     },
     {
       question: 'What is the cost of debt settlement?',
-      answer: 'We operate on a success-fee model. You do not pay us upfront fees for the negotiation. We only charge a percentage of the amount we save you after the settlement is successfully reached. This ensures our interests are aligned with yours—to get the maximum debt relief possible.'
+      answer: 'We operate on a success-fee model. You do not pay us upfront fees for the negotiation. We only charge a percentage of the amount we save you after the settlement is successfully reached. This ensures our interests are aligned with yours-to get the maximum debt relief possible.'
     }
   ];
 
@@ -299,7 +299,7 @@ export default function LoanSettlementPageClient() {
               <h2 id="financial-freedom" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Path to Becoming Debt Free</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  Becoming <strong>debt free</strong> is not just about money; it is about reclaiming your life. The mental burden of debt can affect your health, relationships, and career. By taking proactive steps—whether through <strong>debt consolidation</strong>, settlement, or a <strong>debt management plan</strong>—you are taking control of your future.
+                  Becoming <strong>debt free</strong> is not just about money; it is about reclaiming your life. The mental burden of debt can affect your health, relationships, and career. By taking proactive steps-whether through <strong>debt consolidation</strong>, settlement, or a <strong>debt management plan</strong>-you are taking control of your future.
                 </p>
                 <p className="mb-4">Our process is simple:</p>
                 <ol className="list-decimal pl-6 space-y-2">
@@ -330,7 +330,7 @@ export default function LoanSettlementPageClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;I was drowning in credit card debt and harassment from collection agencies. CredSettle stopped the calls immediately. They negotiated a 50% reduction on my outstanding balance. I am finally debt free!&quot;
@@ -339,7 +339,7 @@ export default function LoanSettlementPageClient() {
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;I tried a debt consolidation loan but got rejected. Settlement was my only option. The team explained everything about the process and legal protection. Highly recommend their services.&quot;
@@ -348,7 +348,7 @@ export default function LoanSettlementPageClient() {
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;Dealing with recovery agents was a nightmare. CredSettle handled the debt collectors professionally. I saved lakhs on my personal loan settlement.&quot;
@@ -357,7 +357,7 @@ export default function LoanSettlementPageClient() {
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-100">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                      <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
                       &quot;Professional, transparent, and effective. They helped me understand my rights under RBI guidelines and FDCPA concepts. Best decision I made for my financial future.&quot;
@@ -396,8 +396,8 @@ export default function LoanSettlementPageClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ RBI Compliant Process</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v RBI Compliant Process</p>
                 </div>
               </div>
 

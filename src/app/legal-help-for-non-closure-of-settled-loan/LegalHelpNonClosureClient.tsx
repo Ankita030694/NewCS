@@ -309,21 +309,21 @@ export default function LegalHelpNonClosureClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: The Nightmare of the "Open" Settled Loan</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                You went through the emotional and financial wringer to settle your debt. You negotiated, scraped together the funds, and paid the bank exactly what was agreed upon in the settlement letter. You breathed a sigh of relief, thinking the chapter was closed. But months later, you check your credit report, and there it is: the loan is still showing as "Active," the balance is still mounting, and your credit score is in freefill. This is the phenomenon of **Non-Closure of a Settled Loan**, a growing crisis in India's banking sector in 2025.
+                                You went through the emotional and financial wringer to settle your debt. You negotiated, scraped together the funds, and paid the bank exactly what was agreed upon in the settlement letter. You breathed a sigh of relief, thinking the chapter was closed. But months later, you check your credit report, and there it is: the loan is still showing as "Active," the balance is still mounting, and your credit score is in freefill. This is the phenomenon of **Non-Closure of a Settled Loan**, a growing crisis in India’s banking sector in 2025.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Why does this happen? Sometimes it's a technical glitch in the bank's core banking solution (CBS). Other times, it's a procedural delay in the backend operations of the NBFC. In the worst cases, it's a deliberate attempt by uncrupulous recovery departments to squeeze more money out of a borrower even after a formal settlement. Regardless of the reason, the impact on the borrower is devastating. It prevents you from getting new loans, buying a home, or even getting certain jobs that require a clean financial background check.
+                                Why does this happen? Sometimes it’s a technical glitch in the bank’s core banking solution (CBS). Other times, it’s a procedural delay in the backend operations of the NBFC. In the worst cases, it’s a deliberate attempt by uncrupulous recovery departments to squeeze more money out of a borrower even after a formal settlement. Regardless of the reason, the impact on the borrower is devastating. It prevents you from getting new loans, buying a home, or even getting certain jobs that require a clean financial background check.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we specialize in <strong>Post-Settlement Legal Support</strong>. We know that a settlement is not finished when the payment is made; it's finished only when the No Dues Certificate (NOC) is in your hand and the CIBIL status is updated. This guide provides a 5000-word deep dive into the legal, technical, and regulatory landscape of 2025-26, empowering you to force the bank's hand and claim the compensation you are legally owed.
+                                At CredSettle, we specialize in <strong>Post-Settlement Legal Support</strong>. We know that a settlement is not finished when the payment is made; it’s finished only when the No Dues Certificate (NOC) is in your hand and the CIBIL status is updated. This guide provides a 5000-word deep dive into the legal, technical, and regulatory landscape of 2025-26, empowering you to force the bank’s hand and claim the compensation you are legally owed.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-bold text-blue-900">
-                                Remember: A bank's technical failure is not your financial responsibility.
+                                Remember: A bank’s technical failure is not your financial responsibility.
                             </p>
 
                             <h2 id="rbi-mandate-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 2: The RBI 2025 Mandate: A Shield for Borrowers</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Reserve Bank of India, under its latest "Fair Practices Code" updates for 2025-26, has taken a very stern view of banks that delay loan closures. The RBI recognizes that original property documents and clean credit records are essential for a citizen's "Right to Livelihood" and "Right to Property."
+                                The Reserve Bank of India, under its latest "Fair Practices Code" updates for 2025-26, has taken a very stern view of banks that delay loan closures. The RBI recognizes that original property documents and clean credit records are essential for a citizen’s "Right to Livelihood" and "Right to Property."
                             </p>
                             <div className="bg-blue-50 p-8 rounded-2xl border-l-4 border-blue-600 mb-8 text-sm">
                                 <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tighter uppercase">The Technical definition of "Regulated Entity" (RE) in 2025:</h4>
@@ -349,10 +349,10 @@ export default function LegalHelpNonClosureClient() {
 
                             <h2 id="consumer-court-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 3: Consumer Court Strategy for NDC Delays</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If the RBI Ombudsman process is slow, the **Consumer Protection Act, 2019** provides a parallel and often more "compensatory" route. Under the Act, a bank's failure to provide an NDC is classified as both a "Deficiency in Service" and an "Unfair Trade Practice."
+                                If the RBI Ombudsman process is slow, the **Consumer Protection Act, 2019** provides a parallel and often more "compensatory" route. Under the Act, a bank’s failure to provide an NDC is classified as both a "Deficiency in Service" and an "Unfair Trade Practice."
                             </p>
                             <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The "Mental Agony" Compensation Matrix:</h4>
-                            <p className="text-gray-700 mb-6">Recent judgments from State Consumer Commissions have awarded anywhere between ₹50,000 to ₹5,00,000 as compensation for "Mental Agony" caused by the withholding of property documents. The courts have noted that a home without title deeds is a "Dead Asset," preventing the owner from leveraging it for medical emergencies or children's education.</p>
+                            <p className="text-gray-700 mb-6">Recent judgments from State Consumer Commissions have awarded anywhere between ₹50,000 to ₹5,00,000 as compensation for "Mental Agony" caused by the withholding of property documents. The courts have noted that a home without title deeds is a "Dead Asset," preventing the owner from leveraging it for medical emergencies or children’s education.</p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-8">
                                 <h4 className="text-lg font-bold mb-4">The Litigation Checklist:</h4>
                                 <ul className="list-disc pl-6 space-y-3">
@@ -363,7 +363,7 @@ export default function LegalHelpNonClosureClient() {
                             </div>
                             <h2 id="noc-delay-penalty" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 4: The ₹5,000 Per Day Delay Penalty: How to Claim It</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The most powerful weapon in your arsenal in 2025 is the <strong>Mandatory Daily Penalty</strong>. The RBI has realized that moral appeals don't work with large institutions; only financial hits do.
+                                The most powerful weapon in your arsenal in 2025 is the <strong>Mandatory Daily Penalty</strong>. The RBI has realized that moral appeals don’t work with large institutions; only financial hits do.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 **The Rule:** In cases where the delay in releasing original property documents is attributable to the Regulated Entity (RE), the RE shall compensate the borrower at the rate of **₹5,000 for each day of delay**.
@@ -376,21 +376,21 @@ export default function LegalHelpNonClosureClient() {
                                 <li><strong>No Waiver:</strong> Do not sign any bank document that asks you to "waive" your right to this penalty in exchange for getting your papers back. This is an illegal practice.</li>
                             </ol>
                             <p className="text-gray-700 leading-relaxed mb-10 italic">
-                                Note: This penalty applies specifically to car loans, home loans, and any loan where "original documents" were submitted. For unsecured loans (like credit cards), while the ₹5000/day rule isn't statutory, the Banking Ombudsman usually awards similar amounts as "Compensation for Consequential Loss."
+                                Note: This penalty applies specifically to car loans, home loans, and any loan where "original documents" were submitted. For unsecured loans (like credit cards), while the ₹5000/day rule isn’t statutory, the Banking Ombudsman usually awards similar amounts as "Compensation for Consequential Loss."
                             </p>
 
                             <h2 id="cibil-discrepancies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 4: CIBIL Discrepancies: Fix Your Credit After Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 text-lg font-light">
-                                Your Credit Score is your financial passport. When a settled loan isn't closed, your passport is essentially "blacklisted."
+                                Your Credit Score is your financial passport. When a settled loan isn’t closed, your passport is essentially "blacklisted."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, the reporting mechanism between banks and CIBIL is highly automated. However, entries marked as "Settled" often require manual intervention from a bank's backend team. If they fail to do this, the algorithm will continue to flag the account as "Write-off" or "Past Due."
+                                In 2025, the reporting mechanism between banks and CIBIL is highly automated. However, entries marked as "Settled" often require manual intervention from a bank’s backend team. If they fail to do this, the algorithm will continue to flag the account as "Write-off" or "Past Due."
                             </p>
                             <h4 className="text-lg font-bold mb-4">The 2025 Correction Workflow:</h4>
                             <ul className="list-disc pl-6 space-y-3 mb-8 text-gray-700">
-                                <li><strong>The Dual Dispute Approach:</strong> Don't just complain to the bank. Raise a formal dispute simultaneously with CIBIL. CIBIL has a legal mandate to verify the info with the bank within 30 days and provide you with a resolution.</li>
-                                <li><strong>Evidence Upload:</strong> In the CIBIL dispute portal, upload your No Dues Certificate (NDC). Since 2024, CIBIL's automated matching system prioritizes NDCs over bank's data if there is a conflict.</li>
-                                <li><strong>The "Credit Information Company" Notice:</strong> If CIBIL doesn't fix it within 30 days, send them a legal notice under the Credit Information Companies (Regulation) Act. They are liable for damages if they continue to display inaccurate information after being provided with proof of closure.</li>
+                                <li><strong>The Dual Dispute Approach:</strong> Don’t just complain to the bank. Raise a formal dispute simultaneously with CIBIL. CIBIL has a legal mandate to verify the info with the bank within 30 days and provide you with a resolution.</li>
+                                <li><strong>Evidence Upload:</strong> In the CIBIL dispute portal, upload your No Dues Certificate (NDC). Since 2024, CIBIL’s automated matching system prioritizes NDCs over bank’s data if there is a conflict.</li>
+                                <li><strong>The "Credit Information Company" Notice:</strong> If CIBIL doesn’t fix it within 30 days, send them a legal notice under the Credit Information Companies (Regulation) Act. They are liable for damages if they continue to display inaccurate information after being provided with proof of closure.</li>
                             </ul>
                             <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8 italic">The "Credit Builder" Strategy 2026</h3>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -402,12 +402,12 @@ export default function LegalHelpNonClosureClient() {
 
                             <h2 id="legal-remedies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 5: Legal Remedies and Actionable Steps</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If the "friendly" approach hasn't worked, it's time to leverage the law. In 2025, the legal system in India is increasingly digitized, allowing for faster resolution of banking grievances.
+                                If the "friendly" approach hasn’t worked, it’s time to leverage the law. In 2025, the legal system in India is increasingly digitized, allowing for faster resolution of banking grievances.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
                                     <h4 className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 1: The Nodal Officer</h4>
-                                    <p className="text-sm text-gray-600 font-light">Skip the branch manager. Send a technical notice to the bank's Principal Nodal Officer (PNO). This is a legal requirement before escalating to the Ombudsman.</p>
+                                    <p className="text-sm text-gray-600 font-light">Skip the branch manager. Send a technical notice to the bank’s Principal Nodal Officer (PNO). This is a legal requirement before escalating to the Ombudsman.</p>
                                 </div>
                                 <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
                                     <h4 className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 2: Cease & Desist</h4>
@@ -425,7 +425,7 @@ export default function LegalHelpNonClosureClient() {
 
                             <h2 id="ombudsman-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 6: The RBI Integrated Ombudsman Scheme (RB-IOS)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The **Integrated Ombudsman Scheme 2021** (further refined in 2025) is the most efficient quasi-judicial body for banking disputes. It's free, it's fast, and its decisions are binding on the banks.
+                                The **Integrated Ombudsman Scheme 2021** (further refined in 2025) is the most efficient quasi-judicial body for banking disputes. It’s free, it’s fast, and its decisions are binding on the banks.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8 font-bold">
                                 Reasons the Ombudsman will favor you in 2025:
@@ -433,11 +433,11 @@ export default function LegalHelpNonClosureClient() {
                             <ul className="list-disc pl-6 space-y-3 text-gray-700 mb-10">
                                 <li>Failure to release documents within 30 days.</li>
                                 <li>Inaccurate reporting to credit bureaus after settlement payment.</li>
-                                <li>Levying charges (like settlement fees) that weren't in the original offer.</li>
+                                <li>Levying charges (like settlement fees) that weren’t in the original offer.</li>
                                 <li>Non-observance of the RBI Fair Practices Code.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Our lawyers help you draft the **Perfect Ombudsman Complaint**. We use technical banking language that leaves the bank's legal team with no room to move. A typical CredSettle-led Ombudsman case is resolved within 45 to 60 days.
+                                Our lawyers help you draft the **Perfect Ombudsman Complaint**. We use technical banking language that leaves the bank’s legal team with no room to move. A typical CredSettle-led Ombudsman case is resolved within 45 to 60 days.
                             </p>
 
                             <h2 id="consumer-court" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 7: Consumer Court Action: For "Deficiency in Service"</h2>
@@ -456,7 +456,7 @@ export default function LegalHelpNonClosureClient() {
                                 This is a scandalous practice where a bank sells its bad debt without excluding the already settled cases. You might suddenly start getting calls from a third-party agency demanding the full amount. In 2026, under the new **Fair Debt Collection Regulations**, this is a criminal offense.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                If this happens, do not engage with the agency. Inform the bank's Nodal Officer immediately that you will be filing a case of **Fraud and Criminal Breach of Trust** (under BNS sections). Banks are terrified of "Data Privacy" and "Fraud" allegations. They will usually retract the agency and provide your NOC within 48 hours to kill the dispute.
+                                If this happens, do not engage with the agency. Inform the bank’s Nodal Officer immediately that you will be filing a case of **Fraud and Criminal Breach of Trust** (under BNS sections). Banks are terrified of "Data Privacy" and "Fraud" allegations. They will usually retract the agency and provide your NOC within 48 hours to kill the dispute.
                             </p>
 
                             <h2 id="documentation-checklist" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 9: The "No Dues Certificate" (NOC) Checklist</h2>
@@ -479,7 +479,7 @@ export default function LegalHelpNonClosureClient() {
                                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-xl border-l-8 border-blue-600">
                                     <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The ₹12 Lakh Car Loan NOC Battle</h4>
                                     <p className="text-gray-800 mb-4 font-light">
-                                        A client in Bangalore settled his car loan but the bank wouldn't release the NOC needed to remove the Hypothecation at the RTO. He couldn't sell the car.
+                                        A client in Bangalore settled his car loan but the bank wouldn’t release the NOC needed to remove the Hypothecation at the RTO. He couldn’t sell the car.
                                     </p>
                                     <p className="text-gray-800 font-bold italic">
                                         Action: We filed an Ombudsman complaint under the ₹5000/day rule. The bank was 90 days late. The Ombudsman awarded ₹4.5 Lakhs in penalty plus the immediate NOC.
@@ -491,7 +491,7 @@ export default function LegalHelpNonClosureClient() {
                                         A client found that a settled credit card from 2020 was still showing as "Active" in 2025 with a balance of ₹8 Lakhs (including interest).
                                     </p>
                                     <p className="text-gray-800 font-bold italic">
-                                        Action: We sent a legal notice to CIBIL and the Bank's CEO concurrently. We provided the 2020 settlement letter. CIBIL deleted the entry, and the bank was forced to issue a back-dated NOC to clear the record.
+                                        Action: We sent a legal notice to CIBIL and the Bank’s CEO concurrently. We provided the 2020 settlement letter. CIBIL deleted the entry, and the bank was forced to issue a back-dated NOC to clear the record.
                                     </p>
                                 </div>
                             </div>
@@ -523,7 +523,7 @@ export default function LegalHelpNonClosureClient() {
                                 Non-closure of a settled loan is a bureaucratic error that has criminal consequences for your financial future. In the high-speed economy of 2025 India, you cannot afford to wait for the bank to "sort it out." You must be proactive, informed, and willing to use the legal leverage that the RBI has provided you.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A loan settlement is a binding contract. Once you have fulfilled your part, the bank is legally obligated to fulfill theirs. If they don't, they are not just being "slow"; they are in breach of contract and in violation of statutory laws.
+                                A loan settlement is a binding contract. Once you have fulfilled your part, the bank is legally obligated to fulfill theirs. If they don’t, they are not just being "slow"; they are in breach of contract and in violation of statutory laws.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 text-blue-900 font-medium">
                                 CredSettle stands with the borrowers who have been betrayed by banking inefficiency. We bring the full force of law, tech, and negotiation to ensure that your "Settled" status becomes a reality on every screen and in every registry. Contact us today, and let us close the final chapter of your debt journey.
@@ -541,7 +541,7 @@ export default function LegalHelpNonClosureClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Facing Non-Closure Issues?</h3>
-                                <p className="text-blue-800 mb-6 font-light">Don't let bank delays ruin your credit. Our legal team will help you get your NOC, correct CIBIL, and claim RBI-mandated penalties.</p>
+                                <p className="text-blue-800 mb-6 font-light">Don’t let bank delays ruin your credit. Our legal team will help you get your NOC, correct CIBIL, and claim RBI-mandated penalties.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -572,9 +572,9 @@ export default function LegalHelpNonClosureClient() {
                                     Start Your Claim
                                 </Link>
                                 <div className="mt-4 text-[10px] text-gray-500 space-y-2 uppercase tracking-widest font-bold">
-                                    <p>✓ CIBIL Repair Expert</p>
-                                    <p>✓ RBI Ombudsman Counsel</p>
-                                    <p>✓ Penalty Recovery Unit</p>
+                                    <p>v CIBIL Repair Expert</p>
+                                    <p>v RBI Ombudsman Counsel</p>
+                                    <p>v Penalty Recovery Unit</p>
                                 </div>
                             </div>
 

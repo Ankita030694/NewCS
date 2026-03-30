@@ -20,7 +20,7 @@ export default function VehicleSettlementPage() {
     },
     {
       question: "What is the average waiver on a 2-year-old vehicle loan?",
-      answer: "For vehicle loans, waivers are generally lower than credit cards because the asset (the car) has value. Expect a 25% to 40% waiver on the outstanding amount, depending on the vehicle's current market value versus your remaining debt."
+      answer: "For vehicle loans, waivers are generally lower than credit cards because the asset (the car) has value. Expect a 25% to 40% waiver on the outstanding amount, depending on the vehicle’s current market value versus your remaining debt."
     },
     {
       question: "How do online services help in negotiating with NBFCs like Mahindra Finance?",
@@ -28,7 +28,7 @@ export default function VehicleSettlementPage() {
     },
     {
       question: "Do I still need to visit the RTO after an online settlement?",
-      answer: "Yes. While the settlement and payment are online, the 'De-hypothecation' (removing the bank's name from your RC) requires physical submission of Form 35 and the NDC at your local RTO."
+      answer: "Yes. While the settlement and payment are online, the 'De-hypothecation' (removing the bank’s name from your RC) requires physical submission of Form 35 and the NDC at your local RTO."
     },
     {
       question: "Can I settle a vehicle loan without an NDC?",

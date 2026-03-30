@@ -305,7 +305,7 @@ export default function BestBusinessLoanClient() {
 
                             <h2 id="corporate-guarantor-rights" className="text-3xl font-bold text-gray-900 mb-6">Protecting Corporate and Personal Guarantors</h2>
                             <p className="mb-6">
-                                In almost every business loan, directors or third parties provide "Personal Guarantees." Banks often use these guarantors as hostages to pressure the business owner. However, guarantors have extensive rights under the Indian Contract Act. For example, if the bank changed the interest rate or the loan tenure without the guarantor's written consent, the guarantor can be "Discharged" from their liability.
+                                In almost every business loan, directors or third parties provide "Personal Guarantees." Banks often use these guarantors as hostages to pressure the business owner. However, guarantors have extensive rights under the Indian Contract Act. For example, if the bank changed the interest rate or the loan tenure without the guarantor’s written consent, the guarantor can be "Discharged" from their liability.
                             </p>
                             <p className="mb-6">
                                 Furthermore, the 2026 legal landscape has seen a shift in "Guarantor Insolvency" rules. A specialized lawyer will ensure that the settlement agreement includes a "Release of Guarantee" clause, ensuring that the bank cannot come after your personal assets or your family'\''s property once the business debt is settled.
@@ -378,7 +378,7 @@ export default function BestBusinessLoanClient() {
 
                             <div className="mt-12 p-10 bg-blue-600 rounded-3xl text-center text-white">
                                 <h3 className="text-3xl font-bold mb-4">Start Your Legal Recovery Today</h3>
-                                <p className="mb-8 opacity-90 text-lg">Every hour of delay gives the bank more time to move against your assets. Secure your business's future with India's top legal aids.</p>
+                                <p className="mb-8 opacity-90 text-lg">Every hour of delay gives the bank more time to move against your assets. Secure your business’s future with India’s top legal aids.</p>
                                 <Link href="/contact" className="bg-white text-blue-600 px-12 py-4 rounded-full font-bold text-xl hover:bg-gray-100 transition-all shadow-lg inline-block">
                                     Talk to a Business Lawyer Now
                                 </Link>
@@ -390,15 +390,15 @@ export default function BestBusinessLoanClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start space-y-6">
                         <div className="bg-white p-8 rounded-3xl shadow-2xl border border-blue-50 text-center">
                             <h4 className="font-bold text-2xl text-gray-900 mb-4">Legal Help Now</h4>
-                            <p className="text-sm text-gray-600 mb-8">Connect with India's top banking lawyers to stop recovery actions and auctions immediately.</p>
+                            <p className="text-sm text-gray-600 mb-8">Connect with India’s top banking lawyers to stop recovery actions and auctions immediately.</p>
                             <Link href="/contact" className="block w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition-all shadow-md">
                                 Get Legal Aid Now
                             </Link>
                             <div className="mt-6 text-xs text-left text-gray-500 space-y-3 border-t pt-4">
-                                <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> DRT & SARFAESI Experts</p>
-                                <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> RBI 2026 Compliance</p>
-                                <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> 100% Confidentiality</p>
-                                <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Strategic Negotiation</p>
+                                <p className="flex items-center"><span className="text-green-500 mr-2">v</span> DRT & SARFAESI Experts</p>
+                                <p className="flex items-center"><span className="text-green-500 mr-2">v</span> RBI 2026 Compliance</p>
+                                <p className="flex items-center"><span className="text-green-500 mr-2">v</span> 100% Confidentiality</p>
+                                <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Strategic Negotiation</p>
                             </div>
                         </div>
 

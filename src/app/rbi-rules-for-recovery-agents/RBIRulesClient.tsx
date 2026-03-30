@@ -131,7 +131,7 @@ export default function RBIRulesClient() {
             name: 'Sanjeev Goel',
             location: 'Hyderabad',
             stars: 5,
-            comment: 'Invaluable resource. Knowing that they can\'t enter my home without permission gave me the confidence to stand my ground. Highly recommend every borrower read this.'
+            comment: 'Invaluable resource. Knowing that they can’t enter my home without permission gave me the confidence to stand my ground. Highly recommend every borrower read this.'
         },
         {
             name: 'Anjali Nair',
@@ -383,7 +383,7 @@ export default function RBIRulesClient() {
                                 We live in a society where debt shaming is used as a psychological weapon. Banks know this. Agents exploit this. This guide is your counter weapon. We will demystify the complex jargon of the RBI circulars and provide you with actionable, step-by-step strategies to handle visits, record calls, and file complaints that actually get results. Your financial mistakes are a speed bump, not a life sentence. Let us ensure that while you work toward a financial reset, your rights remain protected and your dignity remains intact.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Whether you are dealing with a mainstream bank, a high-interest NBFC, or a new age digital lending app, the principles remain the same: Recovery must be peaceful, professional, and private. If any of these three pillars is broken, the bank is in violation of the law. As we dive into the specifics of the 2025 guidelines, remember that knowledge is your most powerful defense. An informed borrower is an agent's worst nightmare.
+                                Whether you are dealing with a mainstream bank, a high-interest NBFC, or a new age digital lending app, the principles remain the same: Recovery must be peaceful, professional, and private. If any of these three pillars is broken, the bank is in violation of the law. As we dive into the specifics of the 2025 guidelines, remember that knowledge is your most powerful defense. An informed borrower is an agent’s worst nightmare.
                             </p>
 
                             <h2 id="rbi-master-directions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">RBI Master Directions: The Foundation of Your Rights</h2>
@@ -391,10 +391,10 @@ export default function RBIRulesClient() {
                                 The primary source of law regarding recovery conduct in India is the <strong className="font-bold text-gray-900">RBI Master Direction on Fair Practices Code for Lenders</strong>. This document is updated periodically, with the most significant recent reinforcements happening in late 2024 and early 2025. These are not merely "suggestions" or "best practices", they are binding legal instructions that carry the weight of the Banking Regulation Act.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One of the most critical aspects of these directions is the principle of <strong className="font-bold text-gray-900">Vicarious Liability</strong>. The RBI has made it crystal clear: A bank cannot say "It was an outside agency, we are not responsible." If a recovery agent from a third party firm misbehaves, the bank that hired them is held legally and financially liable. This is a massive win for borrowers because it means you don't have to fight a faceless agency; you can take your fight directly to the multibillion dollar bank that hired them.
+                                One of the most critical aspects of these directions is the principle of <strong className="font-bold text-gray-900">Vicarious Liability</strong>. The RBI has made it crystal clear: A bank cannot say "It was an outside agency, we are not responsible." If a recovery agent from a third party firm misbehaves, the bank that hired them is held legally and financially liable. This is a massive win for borrowers because it means you don’t have to fight a faceless agency; you can take your fight directly to the multibillion dollar bank that hired them.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Master Directions also mandate that every lender must have a <strong className="font-bold text-gray-900">Board Approved Policy</strong> specifically for the engagement of recovery agents. This policy must be published on the bank's website. If an agent is acting in a way that contradicts the bank's own published policy, they are in double violation, of the RBI rules and of their own internal mandates. In the 2025 update, the RBI has also introduced mandatory training for agents, emphasizing that they must be certified as having the emotional and legal intelligence to handle distressed borrowers with sensitivity.
+                                The Master Directions also mandate that every lender must have a <strong className="font-bold text-gray-900">Board Approved Policy</strong> specifically for the engagement of recovery agents. This policy must be published on the bank’s website. If an agent is acting in a way that contradicts the bank’s own published policy, they are in double violation, of the RBI rules and of their own internal mandates. In the 2025 update, the RBI has also introduced mandatory training for agents, emphasizing that they must be certified as having the emotional and legal intelligence to handle distressed borrowers with sensitivity.
                             </p>
 
                             <h2 id="agent-code-of-conduct" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Code of Conduct: Professionalism is Mandatory</h2>
@@ -443,7 +443,7 @@ export default function RBIRulesClient() {
                                 Any call at 7:30 PM is a violation. Any call at 7:45 AM is a violation. The RBI has recognized that late night and early morning calls are forms of psychological harassment designed to catch borrowers when they are most vulnerable. Even if you have "missed" calls from them during the day, they cannot use that as an excuse to call you at 10 PM.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong className="font-bold text-gray-900">Special Occasions:</strong> Agents are also prohibited from contacting you on inappropriate occasions. This includes bereavements in the family, marriage functions, or festivals like Diwali or Eid. If an agent calls you while you are at a funeral or a wedding, they are violating the RBI's sensitivity mandates. In 2025, the burden of proof has shifted: if you claim they called at an odd hour, the bank must produce digital logs to prove otherwise.
+                                <strong className="font-bold text-gray-900">Special Occasions:</strong> Agents are also prohibited from contacting you on inappropriate occasions. This includes bereavements in the family, marriage functions, or festivals like Diwali or Eid. If an agent calls you while you are at a funeral or a wedding, they are violating the RBI’s sensitivity mandates. In 2025, the burden of proof has shifted: if you claim they called at an odd hour, the bank must produce digital logs to prove otherwise.
                             </p>
 
                             <h2 id="identification-rights" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">ID & Verification: Demand the Proof</h2>
@@ -454,10 +454,10 @@ export default function RBIRulesClient() {
                                 <strong className="font-bold text-gray-900">What you must check:</strong>
                                 <br />1. <strong className="font-bold text-gray-900">Identity Card:</strong> A valid ID card issued by the financial institution or the authorized recovery agency. It should have a photo, the agency name, and an expiry date.
                                 <br />2. <strong className="font-bold text-gray-900">Authorization Letter:</strong> A specific letter from the bank naming the recovery agency and authorizing them to handle your specific account.
-                                <br />3. <strong className="font-bold text-gray-900">Notice of Assignment:</strong> The bank must have sent you a written notice *before* assigning your case to a recovery agent. If you never received such a notice, the agent's presence is legally questionable.
+                                <br />3. <strong className="font-bold text-gray-900">Notice of Assignment:</strong> The bank must have sent you a written notice *before* assigning your case to a recovery agent. If you never received such a notice, the agent’s presence is legally questionable.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong className="font-bold text-gray-900">Pro-Tip:</strong> Take a photo of their ID card. Legitimate agents will have no problem with this. If an agent tries to hide their ID or gets aggressive when you ask to see it, it is a clear sign that they are trying to act outside the law. In 2025, many banks have started providing <strong className="font-bold text-gray-900">Digital IDs</strong> via a QR code that you can scan to verify the agent's status in real time on the bank's website.
+                                <strong className="font-bold text-gray-900">Pro-Tip:</strong> Take a photo of their ID card. Legitimate agents will have no problem with this. If an agent tries to hide their ID or gets aggressive when you ask to see it, it is a clear sign that they are trying to act outside the law. In 2025, many banks have started providing <strong className="font-bold text-gray-900">Digital IDs</strong> via a QR code that you can scan to verify the agent’s status in real time on the bank’s website.
                             </p>
 
                             <h2 id="privacy-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Privacy Rights: Your Debt is Confidential</h2>
@@ -485,7 +485,7 @@ export default function RBIRulesClient() {
                                 <br />- <strong className="font-bold text-gray-900">Misinformation:</strong> Telling you that the police are outside your door or that your passport will be cancelled.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Supreme Court has noted that "debt recovery cannot be a pretext for psychological torture." If an agent's behavior makes you feel suicidal or severely anxious, you are a victim of harassment. Your priority must shift from "Paying the Debt" to "Protecting your Life."
+                                The Supreme Court has noted that "debt recovery cannot be a pretext for psychological torture." If an agent’s behavior makes you feel suicidal or severely anxious, you are a victim of harassment. Your priority must shift from "Paying the Debt" to "Protecting your Life."
                             </p>
 
                             <h2 id="complaint-mechanism" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">How to Complain: The 3-Step Escalation Ladder</h2>
@@ -494,8 +494,8 @@ export default function RBIRulesClient() {
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
                                 <ol className="list-decimal pl-6 space-y-4 text-gray-800">
-                                    <li><strong>Step 1: The Bank's Internal Grievance Cell:</strong> Every bank has a "Principal Nodal Officer" (PNO). Send a formal email. State the facts: "Your agent, Mr. X, called me at 9 PM on Date Y using abusive language." Attach evidence like call recordings or screenshots. The bank is legally obligated to acknowledge this and respond within 30 days.</li>
-                                    <li><strong>Step 2: The RBI Integrated Ombudsman:</strong> If the bank doesn't respond in 30 days, or if their response is unsatisfactory (e.g., they just say "we checked and found no violation"), you move to the Ombudsman. This is a cost-free, digital process on the RBI website (cms.rbi.org.in). The Ombudsman is a quasi-judicial authority that has the power to penalize the bank.</li>
+                                    <li><strong>Step 1: The Bank’s Internal Grievance Cell:</strong> Every bank has a "Principal Nodal Officer" (PNO). Send a formal email. State the facts: "Your agent, Mr. X, called me at 9 PM on Date Y using abusive language." Attach evidence like call recordings or screenshots. The bank is legally obligated to acknowledge this and respond within 30 days.</li>
+                                    <li><strong>Step 2: The RBI Integrated Ombudsman:</strong> If the bank doesn’t respond in 30 days, or if their response is unsatisfactory (e.g., they just say "we checked and found no violation"), you move to the Ombudsman. This is a cost-free, digital process on the RBI website (cms.rbi.org.in). The Ombudsman is a quasi-judicial authority that has the power to penalize the bank.</li>
                                     <li><strong>Step 3: Consumer Forum / Civil Court:</strong> For severe cases where harassment has caused financial or physical loss, you can approach the Consumer Dispute Redressal Commissions. The 2019 Consumer Protection Act is very favorable to borrowers who have been victims of "Unfair Trade Practices."</li>
                                 </ol>
                             </div>
@@ -512,7 +512,7 @@ export default function RBIRulesClient() {
                                 <br />- <strong className="font-bold text-gray-900">Independence:</strong> The Ombudsman is an RBI official, not a bank employee. Their goal is systemic fairness, not bank profit.
                                 <br />- <strong className="font-bold text-gray-900">Speed:</strong> Most cases are resolved within 2-4 months, which is much faster than the regular courts.
                                 <br />- <strong className="font-bold text-gray-900">Compensation Power:</strong> The Ombudsman can award compensation up to <strong className="font-bold text-gray-900">₹1 Lakh</strong> specifically for mental agony caused by harassment. This is on top of any financial losses you might have suffered.
-                                <br />- <strong className="font-bold text-gray-900">Binding Orders:</strong> If you accept the Ombudsman's award, it becomes binding on the bank. They have no choice but to comply.
+                                <br />- <strong className="font-bold text-gray-900">Binding Orders:</strong> If you accept the Ombudsman’s award, it becomes binding on the bank. They have no choice but to comply.
                             </p>
 
                             <h2 id="legal-remedies-police" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Police & FIR: Handling Physical Threats</h2>
@@ -536,7 +536,7 @@ export default function RBIRulesClient() {
                                 In 2025, the concept of <strong className="font-bold text-gray-900">Vicarious Liability</strong> has been expanded. The RBI has made it clear that "the Regulated Entity (RE) shall ensure that its agents do not resort to intimidation or harassment of any kind." This means if an agent misbehaves, the RBI looks at the bank, not just the agency.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This is why banks have become "Agent Sensitive." If you can prove an agent misbehaved, the bank's compliance officer faces a terrifying prospect: a negative rating during the RBI's annual inspection. This rating determines if the bank can open new branches or pay out dividends. Use this to your advantage. A well drafted legal notice to the bank's Compliance Department can often result in a summary dismissal of the agent and an immediate offer for a generous One-Time Settlement (OTS) just to close the chapter peacefully.
+                                This is why banks have become "Agent Sensitive." If you can prove an agent misbehaved, the bank’s compliance officer faces a terrifying prospect: a negative rating during the RBI’s annual inspection. This rating determines if the bank can open new branches or pay out dividends. Use this to your advantage. A well drafted legal notice to the bank’s Compliance Department can often result in a summary dismissal of the agent and an immediate offer for a generous One-Time Settlement (OTS) just to close the chapter peacefully.
                             </p>
 
                             <h2 id="digital-lending-rules" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">App Recovery Rules: Defeating the "Digital Shark"</h2>
@@ -604,12 +604,12 @@ export default function RBIRulesClient() {
                                 You have the legal right to privacy, the legal right to professional behavior, and the absolute right to a harassment-free life while you work on your financial reset. The 8AM to 7PM rule, the mandatory identification, the privacy protections, and the powerful RBI Ombudsman are all parts of a shield that is available to you right now. Do not let fear paralyze you. If you are being harassed, document it, report it, and stand your ground.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we believe that debt is a problem to be solved, not a reason to be shamed. By standing up for your rights today, you not only stop the bullying but also create the legal leverage needed for a fair and total settlement of your debt. You are not alone in this fight. The law is on your side, the regulator is on your side, and your future remains bright. Reclaim your dignity, master these rules, and let's start your journey back to financial freedom.
+                                At CredSettle, we believe that debt is a problem to be solved, not a reason to be shamed. By standing up for your rights today, you not only stop the bullying but also create the legal leverage needed for a fair and total settlement of your debt. You are not alone in this fight. The law is on your side, the regulator is on your side, and your future remains bright. Reclaim your dignity, master these rules, and let’s start your journey back to financial freedom.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Are Recovery Agents Crossing the Line?</h3>
-                                <p className="text-blue-800 mb-6">You don't have to endure abuse. Our legal experts can step in, stop the harassment by citing these RBI mandates, and negotiate a final settlement with your lender. Protect your mental health and reclaim your peace today.</p>
+                                <p className="text-blue-800 mb-6">You don’t have to endure abuse. Our legal experts can step in, stop the harassment by citing these RBI mandates, and negotiate a final settlement with your lender. Protect your mental health and reclaim your peace today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -632,7 +632,7 @@ export default function RBIRulesClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Abuse Stops Here</h4>
-                                <p className="text-sm text-gray-600 mb-6">If you're being harassed after 7 PM or by agents without ID, act now. We can help you file for compensation.</p>
+                                <p className="text-sm text-gray-600 mb-6">If you’re being harassed after 7 PM or by agents without ID, act now. We can help you file for compensation.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -640,9 +640,9 @@ export default function RBIRulesClient() {
                                     Report Agent Abuse
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 text-left px-1">
-                                    <p>✓ Stop Illegal Calls</p>
-                                    <p>✓ Ombudsman Complaints</p>
-                                    <p>✓ Legal Hardship Defense</p>
+                                    <p>v Stop Illegal Calls</p>
+                                    <p>v Ombudsman Complaints</p>
+                                    <p>v Legal Hardship Defense</p>
                                 </div>
                             </div>
 

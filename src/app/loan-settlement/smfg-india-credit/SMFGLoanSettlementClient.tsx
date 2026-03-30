@@ -157,7 +157,7 @@ export default function SMFGLoanSettlementClient() {
                 Dealing with mounting debt from <strong>SMFG India Credit</strong> (formerly known as <strong>Fullerton India</strong>) can be an immensely stressful experience. Whether it is a personal loan from their <strong>Instaloan app</strong>, a business loan, or dues managed through the <strong>mConnect app</strong>, the pressure of constant calls and legal notices can disrupt your peace of mind.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                It is important to understand that financial setbacks—be it due to job loss, medical emergencies, or business failure—can happen to anyone. Being unable to pay is not a crime. If you are genuinely struggling, <strong>Loan Settlement</strong> or <strong>One Time Settlement (OTS)</strong> offers a legal, structured exit route.
+                It is important to understand that financial setbacks-be it due to job loss, medical emergencies, or business failure-can happen to anyone. Being unable to pay is not a crime. If you are genuinely struggling, <strong>Loan Settlement</strong> or <strong>One Time Settlement (OTS)</strong> offers a legal, structured exit route.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 SMFG India Credit is a major Non-Banking Financial Company (NBFC). While they have rigorous collection processes, they are also pragmatic. They understand that a partial recovery via settlement is often better than a total loss (Non-Performing Asset).
@@ -173,9 +173,9 @@ export default function SMFGLoanSettlementClient() {
                 </p>
               </div>
 
-              <h2 id="understanding-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding SMFG India's OTS Policy</h2>
+              <h2 id="understanding-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding SMFG India’s OTS Policy</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>One Time Settlement (OTS)</strong> is a formal agreement. It is not a favor, but a financial decision made by the lender to clean up their balance sheet. When a loan remains unpaid for over 90 days, it becomes a Non-Performing Asset (NPA). For SMFG India Credit, maintaining an NPA is costly due to RBI's provisioning norms.
+                The <strong>One Time Settlement (OTS)</strong> is a formal agreement. It is not a favor, but a financial decision made by the lender to clean up their balance sheet. When a loan remains unpaid for over 90 days, it becomes a Non-Performing Asset (NPA). For SMFG India Credit, maintaining an NPA is costly due to RBI’s provisioning norms.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 <strong>How it works:</strong>
@@ -186,7 +186,7 @@ export default function SMFGLoanSettlementClient() {
                 <li>The loan account is closed, and the recovery process stops immediately.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The "sacrifice" amount (the waiver) depends on negotiation. A skilled negotiator can often secure a waiver of 30-50% or more, depending on the case's strength.
+                The "sacrifice" amount (the waiver) depends on negotiation. A skilled negotiator can often secure a waiver of 30-50% or more, depending on the case’s strength.
               </p>
 
               <h2 id="eligibility-criteria" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Eligibility for Settlement</h2>
@@ -239,7 +239,7 @@ export default function SMFGLoanSettlementClient() {
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Submit Settlement Proposal</h4>
                   <p className="text-gray-700">
-                    We formally submit a proposal to SMFG India Credit's authorized officers. This can be done physically at the branch or via their official channels (e.g., emailing <strong>namaste@smfgindia.com</strong> with legal cc). The proposal highlights your hardship and offers a realistic settlement amount.
+                    We formally submit a proposal to SMFG India Credit’s authorized officers. This can be done physically at the branch or via their official channels (e.g., emailing <strong>namaste@smfgindia.com</strong> with legal cc). The proposal highlights your hardship and offers a realistic settlement amount.
                   </p>
                 </div>
 
@@ -327,14 +327,14 @@ export default function SMFGLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Vikram S.</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"I had a huge personal loan with Fullerton/SMFG. After my business took a hit, I couldn't pay. CredSettle handled the arbitration notice and settled the loan for 40% of the value."</p>
+                    <p className="italic text-gray-200 text-sm">"I had a huge personal loan with Fullerton/SMFG. After my business took a hit, I couldn’t pay. CredSettle handled the arbitration notice and settled the loan for 40% of the value."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Anjali K.</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"Recovery agents were calling my office. CredSettle legal team stepped in and stopped it immediately. The peace of mind was worth every penny."</p>
@@ -370,8 +370,8 @@ export default function SMFGLoanSettlementClient() {
                   Get Help Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Stop Harassment</p>
-                  <p className="mt-1">✓ Legal Protection</p>
+                  <p>v Stop Harassment</p>
+                  <p className="mt-1">v Legal Protection</p>
                 </div>
               </div>
 

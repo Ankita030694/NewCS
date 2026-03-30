@@ -337,7 +337,7 @@ export default function HomeLoanCheckBounceClient() {
                                 <li><strong>Post-Dated Cheques (PDCs):</strong> Home loans originated before 2015 often required borrowers to submit PDCs for the entire loan tenure. A cheque drawn years in advance may be presented against an account with changed circumstances, creating genuine hardship defences.</li>
                                 <li><strong>ECS and NACH Mandates:</strong> Modern home loans use Electronic Clearing Service or National Automated Clearing House mandates. When these fail (return unpaid), it raises questions about whether the NI Act applies, as these are not traditional paper cheques. Courts are still evolving their position on this.</li>
                                 <li><strong>Foreclosure Cheques:</strong> In some cases, banks hold "security cheques" that cover the entire outstanding balance. If a home loan defaults, the bank may present this security cheque. Using a cover-all cheque as a criminal weapon is an increasingly contested legal issue.</li>
-                                <li><strong>Builder Diversion Cases:</strong> In under-construction property cases, cheques paid to a builder who then issued cheques to the bank may bounce due to the builder's financial collapse, creating a triangular dispute with multiple legal remedies.</li>
+                                <li><strong>Builder Diversion Cases:</strong> In under-construction property cases, cheques paid to a builder who then issued cheques to the bank may bounce due to the builder’s financial collapse, creating a triangular dispute with multiple legal remedies.</li>
                             </ul>
 
                             <h2 id="section-138-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">The Section 138 Legal Process: Step by Step</h2>
@@ -389,9 +389,9 @@ export default function HomeLoanCheckBounceClient() {
                                 A specialized lawyer brings the following advantages to your case:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>Bank Documentation Analysis:</strong> They can read a bank's Statement of Account and identify if the outstanding amount claimed is accurate, if spurious charges have been added, or if previous payments have not been properly credited.</li>
+                                <li><strong>Bank Documentation Analysis:</strong> They can read a bank’s Statement of Account and identify if the outstanding amount claimed is accurate, if spurious charges have been added, or if previous payments have not been properly credited.</li>
                                 <li><strong>Loan Sanction Letter Review:</strong> They can identify clauses in the original home loan agreement that may create defences, such as prepayment right without penalty or force majeure clauses.</li>
-                                <li><strong>Negotiation Expertise:</strong> They know how to approach the bank's legal team for a compounding settlement that ends the criminal case while protecting your home ownership.</li>
+                                <li><strong>Negotiation Expertise:</strong> They know how to approach the bank’s legal team for a compounding settlement that ends the criminal case while protecting your home ownership.</li>
                                 <li><strong>Parallel Civil Strategy:</strong> They can initiate a civil counter-suit for bank harassment, wrongful NPA classification, or excessive charges, creating leverage in the cheque bounce proceedings.</li>
                                 <li><strong>Supreme Court Precedents:</strong> The NI Act jurisprudence evolves rapidly. A specialist stays current with the latest Supreme Court and High Court rulings that can directly impact your case.</li>
                             </ul>
@@ -415,7 +415,7 @@ export default function HomeLoanCheckBounceClient() {
 
                             <h2 id="bank-obligations" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Bank Obligations and Fair Practices in Cheque Bounce Matters</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Banks in India are bound by the RBI's Fair Practices Code and the Banking Codes and Standards Board of India (BCSBI) guidelines. These set out specific obligations that banks must follow even when pursuing cheque bounce cases.
+                                Banks in India are bound by the RBI’s Fair Practices Code and the Banking Codes and Standards Board of India (BCSBI) guidelines. These set out specific obligations that banks must follow even when pursuing cheque bounce cases.
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li>Banks must provide a proper cheque return memo with the correct reason for dishonour within one working day of the return.</li>
@@ -449,7 +449,7 @@ export default function HomeLoanCheckBounceClient() {
                                 </div>
                                 <div className="p-4 bg-white rounded-xl shadow-sm border border-gray-100">
                                     <strong className="text-gray-900 block mb-2">Criminal Case Withdrawal</strong>
-                                    <p className="text-gray-600 text-sm">Ensuring the bank's lawyer files the formal compounding application in the Magistrate court so that the FIR and summons are formally closed.</p>
+                                    <p className="text-gray-600 text-sm">Ensuring the bank’s lawyer files the formal compounding application in the Magistrate court so that the FIR and summons are formally closed.</p>
                                 </div>
                             </div>
 
@@ -459,7 +459,7 @@ export default function HomeLoanCheckBounceClient() {
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-4 text-gray-700">
                                 <li><strong>On Territorial Jurisdiction:</strong> The Supreme Court in Dashrath Rupsingh Rathod vs. State of Maharashtra clarified that a cheque bounce complaint must be filed in the court where the bank branch (drawee bank) is located, not where the payee is located. This significantly impacts which court handles your case.</li>
-                                <li><strong>On Stop Payment:</strong> Several High Courts and the Supreme Court have held that a voluntary stop payment instruction does not automatically trigger Section 138 liability if there is a bona fide dispute about the underlying debt. This is frequently used in home loan disputes where a payment halt was linked to a bank's own failure.</li>
+                                <li><strong>On Stop Payment:</strong> Several High Courts and the Supreme Court have held that a voluntary stop payment instruction does not automatically trigger Section 138 liability if there is a bona fide dispute about the underlying debt. This is frequently used in home loan disputes where a payment halt was linked to a bank’s own failure.</li>
                                 <li><strong>On Cheque Issued by Companies:</strong> Section 141 extends Section 138 liability to all directors of a company who were in charge of and responsible for the conduct of the business at the time of the offence. This is critical in cases involving housing projects where both individual and corporate loans are relevant.</li>
                                 <li><strong>On Limitation:</strong> The Supreme Court has been strict on the 30-day limitation for filing the Notice and the complaint. Courts will not condone delay beyond permissible limits without strong justification.</li>
                             </ul>
@@ -472,7 +472,7 @@ export default function HomeLoanCheckBounceClient() {
                                 Courts have historically debated whether the NI Act applies to ECS/NACH failures. The position in 2025 is nuanced. Most High Courts hold that a bank can file a Section 138 case based on a returned ECS if the following conditions are met:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
-                                <li>The ECS mandate was given as a substitute for a paper cheque or was drawn on the borrower's account for a specific payment.</li>
+                                <li>The ECS mandate was given as a substitute for a paper cheque or was drawn on the borrower’s account for a specific payment.</li>
                                 <li>The return memo from the bank clearly states that the return was due to insufficient funds or similar account-related issues.</li>
                                 <li>The bank follows the same notice procedure as required under Section 138 before filing the complaint.</li>
                             </ul>
@@ -482,7 +482,7 @@ export default function HomeLoanCheckBounceClient() {
 
                             <h2 id="guarantor-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Protecting Guarantors in Home Loan Cheque Bounce Cases</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Home loans frequently involve co-borrowers and guarantors, especially when the primary borrower's income alone does not meet the eligibility criteria. In cheque bounce cases, banks often attempt to drag guarantors and co-borrowers into Section 138 proceedings.
+                                Home loans frequently involve co-borrowers and guarantors, especially when the primary borrower’s income alone does not meet the eligibility criteria. In cheque bounce cases, banks often attempt to drag guarantors and co-borrowers into Section 138 proceedings.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The legal position on guarantor liability in cheque bounce cases is clear: only the person who signed the dishonoured cheque can be prosecuted under Section 138. A guarantor who did not sign the specific bounced cheque has no criminal liability under this section. However, civil liability under the guarantee agreement remains.
@@ -540,10 +540,10 @@ export default function HomeLoanCheckBounceClient() {
                             {/* Conclusion */}
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Conclusion: Act Early, Act Decisively</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A home loan cheque bounce case is a serious matter, but it is far from unwinnable. With the right legal representation, most cases either get dismissed on procedural grounds or are compounded on terms that protect the borrower's home and reputation. The critical factor in every successful case is early intervention. The moment you receive a cheque return memo or a bank legal notice, that is your signal to consult a specialized lawyer.
+                                A home loan cheque bounce case is a serious matter, but it is far from unwinnable. With the right legal representation, most cases either get dismissed on procedural grounds or are compounded on terms that protect the borrower’s home and reputation. The critical factor in every successful case is early intervention. The moment you receive a cheque return memo or a bank legal notice, that is your signal to consult a specialized lawyer.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Do not wait for a court summons. Do not ignore the notice hoping it will go away. The Indian legal system for NI Act cases moves faster than most borrowers expect. An experienced lawyer will assess the strength of the case against you, identify procedural defects, and develop a strategy that protects your family's home.
+                                Do not wait for a court summons. Do not ignore the notice hoping it will go away. The Indian legal system for NI Act cases moves faster than most borrowers expect. An experienced lawyer will assess the strength of the case against you, identify procedural defects, and develop a strategy that protects your family’s home.
                             </p>
                             <div className="bg-blue-600 text-white rounded-3xl p-8 text-center mb-8">
                                 <h3 className="text-2xl font-bold mb-4">Protect Your Home from Cheque Bounce Legal Action</h3>
@@ -564,7 +564,7 @@ export default function HomeLoanCheckBounceClient() {
                             <ul className="space-y-2 mb-5">
                                 {['Expert Section 138 Defence', 'Negotiated Settlements', 'Court Representation', 'Pan-India Coverage'].map((item, i) => (
                                     <li key={i} className="flex items-center text-sm">
-                                        <span className="mr-2 text-green-300">✓</span> {item}
+                                        <span className="mr-2 text-green-300">v</span> {item}
                                     </li>
                                 ))}
                             </ul>

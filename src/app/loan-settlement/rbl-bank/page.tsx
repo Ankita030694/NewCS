@@ -90,7 +90,7 @@ export default function RBLBankLoanSettlementPage() {
         "name": "Can I settle my RBL Bank SuperCard dues?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, RBL Bank SuperCards (co-branded with Bajaj Finserv) can be settled. The settlement process is handled by RBL Bank's recovery department, not Bajaj Finserv."
+          "text": "Yes, RBL Bank SuperCards (co-branded with Bajaj Finserv) can be settled. The settlement process is handled by RBL Bank’s recovery department, not Bajaj Finserv."
         }
       },
       {

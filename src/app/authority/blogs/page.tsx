@@ -45,7 +45,7 @@ interface Review {
   id?: string;
   name: string;
   rating: number;
-  review: string; // "comment" in lib/blogs, but prompt uses "review", let's map it
+  review: string; // "comment" in lib/blogs, but prompt uses "review", let’s map it
   date?: string;
 }
 
@@ -1140,7 +1140,7 @@ const BlogsDashboard = () => {
                             {uploading ? 'Uploading...' : 'Choose Image'}
                           </motion.button>
                           {newBlog.image && (
-                            <span className="text-xs text-green-600">✓ Image uploaded successfully</span>
+                            <span className="text-xs text-green-600">v Image uploaded successfully</span>
                           )}
                         </div>
 
@@ -1408,7 +1408,7 @@ const BlogsDashboard = () => {
                       <strong className="text-blue-900">
                         {process.env.NEXT_PUBLIC_WEBSITE_URL || 'https://www.amalegalsolutions.com'}/api/rss
                       </strong>{' '}
-                      which syncs with LinkedIn's RSS automation feature.
+                      which syncs with LinkedIn’s RSS automation feature.
                     </p>
                   </div>
 
@@ -1480,7 +1480,7 @@ const BlogsDashboard = () => {
                         currentBlogs.map((blog) => (
                           <tr key={blog.id} className="hover:bg-gray-50 transition-colors duration-200">
                             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
-                              {blog.date ? new Date(blog.date).toLocaleDateString() : '—'}
+                              {blog.date ? new Date(blog.date).toLocaleDateString() : '-'}
                             </td>
                             <td className="px-6 py-4 text-sm font-medium text-gray-900 max-w-xs truncate">{blog.title}</td>
                             <td className="px-6 py-4 text-sm text-gray-600 max-w-xs truncate">{blog.subtitle}</td>
@@ -1588,7 +1588,7 @@ const BlogsDashboard = () => {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 hover:underline text-sm font-medium transition-colors"
                   >
-                    View RSS Feed →
+                    View RSS Feed &rarr;
                   </a>
                   <a
                     href="https://validator.w3.org/feed/check.cgi?url=https://www.amalegalsolutions.com/api/rss"
@@ -1596,7 +1596,7 @@ const BlogsDashboard = () => {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 hover:underline text-sm font-medium transition-colors"
                   >
-                    Validate with W3C Feed Validator →
+                    Validate with W3C Feed Validator &rarr;
                   </a>
                 </div>
 

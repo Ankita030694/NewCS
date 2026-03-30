@@ -197,7 +197,7 @@ export default function SmeLoanDisputeResolutionClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         SME Loan Dispute Resolution Experts<br />
-                        <span className="text-blue-300">Protecting India's MSME Growth in 2025</span>
+                        <span className="text-blue-300">Protecting India’s MSME Growth in 2025</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Facing unauthorized sanctions, delayed payments, or aggressive loan recovery? Use the power of the MSMED Act and RBI mandatory frameworks to defend your business and resolve disputes fairly.
@@ -309,7 +309,7 @@ export default function SmeLoanDisputeResolutionClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Introduction: The Critical Role of Legal Defense for India's MSMEs</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Introduction: The Critical Role of Legal Defense for India’s MSMEs</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Small and Medium Enterprises (SMEs) are the undisputed backbone of the Indian economy. From Ludhiana’s textile mills to Bangalore’s tech hubs, MSMEs drive innovation, employment, and the country’s GDP. However, this sector is also the most vulnerable to financial shocks and predatory lending practices. In the modern era of 2025, an SME loan dispute is not just a disagreement over numbers; it is a battle for the very survival of a commercial legacy. Businesses often find themselves caught between a rock and a hard place: delayed payments from corporate buyers on one side, and aggressive loan recovery from banks and NBFCs on the other.
                             </p>
@@ -376,7 +376,7 @@ export default function SmeLoanDisputeResolutionClient() {
 
                             <h2 id="sma-npa-management" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">SMA Categories and NPA Management: The Early Warning System</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the banking world, a loan doesn't just "become" bad. It goes through stages. Understanding these stages allows an MSME to intervene when it's easiest to win. The RBI has mandated **Special Mention Account (SMA)** categories for all commercial loans:
+                                In the banking world, a loan doesn’t just "become" bad. It goes through stages. Understanding these stages allows an MSME to intervene when it’s easiest to win. The RBI has mandated **Special Mention Account (SMA)** categories for all commercial loans:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700 font-light">
                                 <li><strong>SMA 0:</strong> Payment is overdue for 1 to 30 days. This is the stage for "Communication." A quick legal letter explaining the delay can prevent further escalation.</li>
@@ -440,7 +440,7 @@ export default function SmeLoanDisputeResolutionClient() {
                                 We help MSMEs draft Ombudsman complaints that focus on **Deficiency in Service**. If the bank manager threatened you, failed to provide your loan statements, or mis-classified your account, the Ombudsman can award you compensation of up to 20 lakhs. More importantly, the Ombudsman can order the bank to "Maintain Status Quo," effectively halting your recovery while the complaint is being investigated. This is a vital "Cooling Off" period that can be used to negotiate a settlement.
                             </p>
 
-                            <h2 id="msme-case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Case Studies: Real Stories of India's MSME Loan Victories</h2>
+                            <h2 id="msme-case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Case Studies: Real Stories of India’s MSME Loan Victories</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
                                 <h3 className="text-xl font-bold text-gray-900 mb-2">Case 1: The Forged Signature Defense</h3>
                                 <p className="text-gray-700 mb-4">
@@ -454,7 +454,7 @@ export default function SmeLoanDisputeResolutionClient() {
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
                                 <h3 className="text-xl font-bold text-gray-900 mb-2">Case 2: The Samadhaan Recovery Reset</h3>
                                 <p className="text-gray-700 mb-4">
-                                    A component manufacturer for the auto industry defaulted on their 5 crore bank loan because their primary buyer (a Tier 1 supplier) hadn't paid them for 180 days.
+                                    A component manufacturer for the auto industry defaulted on their 5 crore bank loan because their primary buyer (a Tier 1 supplier) hadn’t paid them for 180 days.
                                 </p>
                                 <p className="text-gray-700">
                                     <strong>The Intervention:</strong> We filed a claim on the MSME Samadhaan portal. Simultaneously, we issued a notice to the bank invoking the 2015 Revival Framework, citing the "delayed payment" as the incipient stress.
@@ -462,22 +462,22 @@ export default function SmeLoanDisputeResolutionClient() {
                                 </p>
                             </div>
 
-                            <h2 id="legal-checklist" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Ultimate Legal Checklist for India's SME Borrowers</h2>
+                            <h2 id="legal-checklist" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Ultimate Legal Checklist for India’s SME Borrowers</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If your business is in a loan dispute, perform this 10 point audit immediately:
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light text-gray-800">
                                 <ul className="space-y-4">
-                                    <li>✓ <strong>MSME Registration:</strong> Is your Udyam Registration certificate up to date and linked to your PAN?</li>
-                                    <li>✓ <strong>SAMADHAAN Check:</strong> Have you filed claims for every invoice overdue by more than 45 days?</li>
-                                    <li>✓ <strong>SMA Notification:</strong> Did the bank provide you with written notice of your SMA 1 or SMA 2 status?</li>
-                                    <li>✓ <strong>The 2015 Framework:</strong> Have you formally submitted a "Revival and Rehabilitation" proposal to the bank?</li>
-                                    <li>✓ <strong>KYC Audit:</strong> Have there been any unauthorized changes to your registered email or phone number in the bank records?</li>
-                                    <li>✓ <strong>Penal Interest Audit:</strong> Is the bank charging "Interest on Interest"? This is illegal for MSME accounts in many scenarios.</li>
-                                    <li>✓ <strong>Collateral Valuation:</strong> When was the last time the bank updated their valuation of your security? An old valuation can hurt your OTS.</li>
-                                    <li>✓ <strong>Ombudsman Window:</strong> Has been more than 30 days since you filed a formal complaint with the bank’s Nodal Officer?</li>
-                                    <li>✓ <strong>Insurance Check:</strong> If the stress is due to a fire or flood, have you filed your insurance claim correctly? Banks often ignore insurance potential.</li>
-                                    <li>✓ <strong>Guarantor Protection:</strong> Are the personal guarantors aware of their rights and the "Right of Subrogation"?</li>
+                                    <li>v <strong>MSME Registration:</strong> Is your Udyam Registration certificate up to date and linked to your PAN?</li>
+                                    <li>v <strong>SAMADHAAN Check:</strong> Have you filed claims for every invoice overdue by more than 45 days?</li>
+                                    <li>v <strong>SMA Notification:</strong> Did the bank provide you with written notice of your SMA 1 or SMA 2 status?</li>
+                                    <li>v <strong>The 2015 Framework:</strong> Have you formally submitted a "Revival and Rehabilitation" proposal to the bank?</li>
+                                    <li>v <strong>KYC Audit:</strong> Have there been any unauthorized changes to your registered email or phone number in the bank records?</li>
+                                    <li>v <strong>Penal Interest Audit:</strong> Is the bank charging "Interest on Interest"? This is illegal for MSME accounts in many scenarios.</li>
+                                    <li>v <strong>Collateral Valuation:</strong> When was the last time the bank updated their valuation of your security? An old valuation can hurt your OTS.</li>
+                                    <li>v <strong>Ombudsman Window:</strong> Has been more than 30 days since you filed a formal complaint with the bank’s Nodal Officer?</li>
+                                    <li>v <strong>Insurance Check:</strong> If the stress is due to a fire or flood, have you filed your insurance claim correctly? Banks often ignore insurance potential.</li>
+                                    <li>v <strong>Guarantor Protection:</strong> Are the personal guarantors aware of their rights and the "Right of Subrogation"?</li>
                                 </ul>
                             </div>
 
@@ -486,7 +486,7 @@ export default function SmeLoanDisputeResolutionClient() {
                                 Representing yourself against a multi billion dollar bank in an SME loan dispute is like bringing a knife to a tank fight. Lenders have departments of specialized recovery lawyers who know the laws inside out. To protect your commercial interests, you need a team that matches their technical depth.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we don't just "talk" to banks. We speak the language of "Regulation." We use RBI circulars, Supreme Court precedents, and technical audits to shift the power dynamic. Our lawyers are not just advocates; they are commercial strategists who understand the importance of cash flow, balance sheets, and industrial operations. We fight to keep your factory doors open and your reputation intact.
+                                At CredSettle, we don’t just "talk" to banks. We speak the language of "Regulation." We use RBI circulars, Supreme Court precedents, and technical audits to shift the power dynamic. Our lawyers are not just advocates; they are commercial strategists who understand the importance of cash flow, balance sheets, and industrial operations. We fight to keep your factory doors open and your reputation intact.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">What Our MSME Clients Say</h2>
@@ -523,7 +523,7 @@ export default function SmeLoanDisputeResolutionClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Secure Sucess for Your SME Today</h3>
-                                <p className="text-blue-800 mb-6">Don't let a loan dispute or delayed payment stop your business growth. Our MSME legal experts are here to protect your commercial legacy with precision and power.</p>
+                                <p className="text-blue-800 mb-6">Don’t let a loan dispute or delayed payment stop your business growth. Our MSME legal experts are here to protect your commercial legacy with precision and power.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"

@@ -90,11 +90,11 @@ export default function BankCallingReferencesClient() {
     },
     {
       question: "What should I do if a recovery agent threatens my references?",
-      answer: "You should immediately document the interaction, including the agent's name and the bank they represent. Complain to the bank's nodal officer and if not resolved, escalate to the RBI Ombudsman. You can also file an FIR for criminal intimidation under Section 506 of the IPC."
+      answer: "You should immediately document the interaction, including the agent’s name and the bank they represent. Complain to the bank’s nodal officer and if not resolved, escalate to the RBI Ombudsman. You can also file an FIR for criminal intimidation under Section 506 of the IPC."
     },
     {
       question: "Are recovery agents allowed to call at any time?",
-      answer: "No, recovery agents are only permitted to call between 8 AM and 7 PM. Calls made outside these hours are considered harassment and are a direct violation of the RBI's Fair Practices Code."
+      answer: "No, recovery agents are only permitted to call between 8 AM and 7 PM. Calls made outside these hours are considered harassment and are a direct violation of the RBI’s Fair Practices Code."
     },
     {
       question: "Can I stop a bank from calling my references by sending a legal notice?",
@@ -242,7 +242,7 @@ export default function BankCallingReferencesClient() {
                 The most insidious development in the Indian financial sector over the last decade has been the rise of predatory digital lending apps. Unlike traditional banks, these apps often operate in a legal gray area, using high-tech tools to violate personal privacy in ways that would have been unimaginable twenty years ago. When you click "I Agree" on a 1500-word terms and conditions document, you are often unknowingly handing over the keys to your digital life.
               </p>
               <p className="mb-6">
-                These apps use a technique called <strong>"Contact Scraping."</strong> The moment you install the app, it pulls every name, phone number, and email address from your contact list. If you default, their automated bots begin a campaign of terror. They don't just call your sister or father; they call your work colleagues, your landlord, and even people you haven't spoken to in years. They create <strong>WhatsApp Groups</strong> with all your contacts and post your photo with "Defaulter" or "Fraud" written across it in bold red letters. 
+                These apps use a technique called <strong>"Contact Scraping."</strong> The moment you install the app, it pulls every name, phone number, and email address from your contact list. If you default, their automated bots begin a campaign of terror. They don’t just call your sister or father; they call your work colleagues, your landlord, and even people you haven’t spoken to in years. They create <strong>WhatsApp Groups</strong> with all your contacts and post your photo with "Defaulter" or "Fraud" written across it in bold red letters. 
               </p>
               
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Legal Counter-Measures: Section 66E of the IT Act</h3>
@@ -263,12 +263,12 @@ export default function BankCallingReferencesClient() {
               
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Case Study: ICICI Bank vs. Shanti Devi Sharma</h3>
               <p className="mb-6">
-                This 2008 judgment remains the cornerstone of borrower protection. Shanti Devi Sharma's son had taken a motorcycle loan and defaulted. The recovery agents didn't just repossess the bike; they entered the family home, humiliated the elderly mother, and used derogatory language. The tragedy ended in the borrower's suicide. The Supreme Court's ruling was a wake-up call for the entire financial industry. The court held that the bank is vicariously liable for the criminal acts of its agents. This is why today, if an agent harasses your family, <strong>you can hold the Bank CEO accountable</strong> in a court of law.
+                This 2008 judgment remains the cornerstone of borrower protection. Shanti Devi Sharma’s son had taken a motorcycle loan and defaulted. The recovery agents didn’t just repossess the bike; they entered the family home, humiliated the elderly mother, and used derogatory language. The tragedy ended in the borrower’s suicide. The Supreme Court’s ruling was a wake-up call for the entire financial industry. The court held that the bank is vicariously liable for the criminal acts of its agents. This is why today, if an agent harasses your family, <strong>you can hold the Bank CEO accountable</strong> in a court of law.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Case Study: P.N. Khanna vs. Bank of Baroda</h3>
               <p className="mb-6">
-                While Shanti Devi's case dealt with physical aggression, the <strong>P.N. Khanna</strong> case focused on the "Right to Peace." The court clarified that persistent calling to family members and employers constitutes a public nuisance and a violation of the "Right to Privacy"—even before privacy was declared a fundamental right in the K.S. Puttaswamy judgment. The court noted that a borrower, by defaulted on a loan, does not forfeit their status as a human being with rights.
+                While Shanti Devi’s case dealt with physical aggression, the <strong>P.N. Khanna</strong> case focused on the "Right to Peace." The court clarified that persistent calling to family members and employers constitutes a public nuisance and a violation of the "Right to Privacy"-even before privacy was declared a fundamental right in the K.S. Puttaswamy judgment. The court noted that a borrower, by defaulted on a loan, does not forfeit their status as a human being with rights.
               </p>
               <p className="mb-10">
                 In 2025, we have moved into the <strong>"Digital Dark Age."</strong> Physical musclemen have been replaced by WhatsApp bots and automated dialers. The harassment has become invisible, entering our pockets via smartphones. However, the legal principles established in these landmark cases still apply. Whether the intimidation is at your front door or on your phone screen, the law considers it a breach of your fundamental rights.
@@ -282,10 +282,10 @@ export default function BankCallingReferencesClient() {
                 <strong>The Maharashtra Model:</strong> Maharashtra has been at the forefront of regulating recovery agents. Following multiple incidents in Mumbai and Pune, the state police have issued directives requiring agents to register with the local police station before conducting field visits. If an agent visits your house in Maharashtra without a "Police Verification Certificate," you can have them detained for questioning.
               </p>
               <p className="mb-6">
-                <strong>The Delhi Perspective:</strong> The Delhi High Court has been particularly sensitive to the issue of social shaming. In several recent orders, the court has restrained recovery agents from contacting "references" listed on the loan application, noting that being a reference does not imply consent to be harassed. Delhi's "Economic Offenses Wing" (EOW) also has a dedicated cell for complaints against predatory lending apps.
+                <strong>The Delhi Perspective:</strong> The Delhi High Court has been particularly sensitive to the issue of social shaming. In several recent orders, the court has restrained recovery agents from contacting "references" listed on the loan application, noting that being a reference does not imply consent to be harassed. Delhi’s "Economic Offenses Wing" (EOW) also has a dedicated cell for complaints against predatory lending apps.
               </p>
               <p className="mb-10">
-                <strong>South India's Consumer Vigilance:</strong> In states like Karnataka, Tamil Nadu, and Kerala, the consumer courts are exceptionally active. There have been several instances where borrowers were awarded <strong>punitive damages</strong> exceeding ₹5 Lakhs for harassment involving family members. If you are in South India, involving the local "District Consumer Disputes Redressal Commission" is often the fastest way to silence the banks.
+                <strong>South India’s Consumer Vigilance:</strong> In states like Karnataka, Tamil Nadu, and Kerala, the consumer courts are exceptionally active. There have been several instances where borrowers were awarded <strong>punitive damages</strong> exceeding ₹5 Lakhs for harassment involving family members. If you are in South India, involving the local "District Consumer Disputes Redressal Commission" is often the fastest way to silence the banks.
               </p>
 
               <h2 id="global-comparison" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Global Standards: USA (FDCPA) vs India (RBI)</h2>
@@ -331,7 +331,7 @@ export default function BankCallingReferencesClient() {
 
               <h2 id="why-banks-call-family" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why Do Banks Specifically Target References and Family?</h2>
               <p className="mb-6">
-                To fight the system, one must understand how the system works. Banks assign "recovery buckets" to their internal teams and third-party agencies. Each agent is given a target. When a borrower stops answering the phone, the agent's first instinct is "skip tracing." They go through your loan application and pull up the names and numbers of the references you provided.
+                To fight the system, one must understand how the system works. Banks assign "recovery buckets" to their internal teams and third-party agencies. Each agent is given a target. When a borrower stops answering the phone, the agent’s first instinct is "skip tracing." They go through your loan application and pull up the names and numbers of the references you provided.
               </p>
               <p className="mb-6">
                 The logic is simple yet cruel: if the agent cannot shame you, they will shame the people you care about. They know that most borrowers would rather pay the EMI than explain to their father-in-law or employer why they are defaulting on a loan. This is <strong>psychological warfare</strong> masquerading as financial recovery.
@@ -382,7 +382,7 @@ export default function BankCallingReferencesClient() {
 
               <h2 id="prohibited-behavior" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Deep Dive into Prohibited Recovery Agent Behaviors</h2>
               <p className="mb-6">
-                Harassment is a subjective term, but the law tries to make it objective. The <strong>Section 503 and 506 of the Indian Penal Code</strong> (IPC) deal with criminal intimidation. In the context of debt recovery, if an agent tells you "I will make your family suffer if you don't pay," that is a clear instance of criminal intimidation.
+                Harassment is a subjective term, but the law tries to make it objective. The <strong>Section 503 and 506 of the Indian Penal Code</strong> (IPC) deal with criminal intimidation. In the context of debt recovery, if an agent tells you "I will make your family suffer if you don’t pay," that is a clear instance of criminal intimidation.
               </p>
               <p className="mb-6">
                 Similarly, <strong>Section 268 of the IPC</strong> deals with public nuisance. If an agent stays outside your house for hours, shouts in the street, or distributes pamphlets, they are causing a public nuisance. Many local police departments are now aware of these sections and can be used to deter agents.
@@ -398,7 +398,7 @@ export default function BankCallingReferencesClient() {
               
               <h3 className="text-2xl font-bold text-gray-900 mb-4">The Cyber Shield: IT Act and BNS</h3>
               <p className="mb-6">
-                With the replacement of the IPC by the <strong>Bharatiya Nyaya Sanhita (BNS)</strong> in 2024, the definitions of intimidation have been modernized. <strong>Section 351 of the BNS</strong> deals with Assault and Criminal Force, while <strong>Section 318</strong> deals with Cheating and Dishonestly inducing delivery of property (often used against agents who take money but don't give receipts).
+                With the replacement of the IPC by the <strong>Bharatiya Nyaya Sanhita (BNS)</strong> in 2024, the definitions of intimidation have been modernized. <strong>Section 351 of the BNS</strong> deals with Assault and Criminal Force, while <strong>Section 318</strong> deals with Cheating and Dishonestly inducing delivery of property (often used against agents who take money but don’t give receipts).
               </p>
               <p className="mb-6">
                 On the digital front, the <strong>DPDP Act 2023</strong> has changed the game. Under this law, banks are "Data Fiduciaries" and you are the "Data Principal." They have a fiduciary duty to protect your data. If they leak your contact list to a third-party agency without specific processing consent for recovery, they face penalties up to <strong>₹250 Crores</strong>. At <strong>CredSettle</strong>, we use these massive corporate risks as leverage to force banks to settle on your terms.
@@ -406,7 +406,7 @@ export default function BankCallingReferencesClient() {
 
               <h2 id="how-to-stop-harassment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Action Plan: How to Permanently Stop the Harassment</h2>
               <p className="mb-6">
-                Stopping the calls is not just about complaining; it's about shifting the balance of power. Banks stop when they realize that the cost of harassing you is higher than the benefit. 
+                Stopping the calls is not just about complaining; it’s about shifting the balance of power. Banks stop when they realize that the cost of harassing you is higher than the benefit. 
               </p>
               
               <h3 className="text-2xl font-bold text-gray-900 mb-4">1. The "Power of No" Conversation</h3>
@@ -416,7 +416,7 @@ export default function BankCallingReferencesClient() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Social Media Escalation</h3>
               <p className="mb-6">
-                Banks are extremely sensitive about their brand image. If a bank like HDFC, ICICI, or SBI is harassing your family, a polite but firm tweet tagging the bank's CEO and the RBI's official handle often gets the "social media response team" to look into your account. They will frequently put a "hold" on recovery activities while the complaint is investigated.
+                Banks are extremely sensitive about their brand image. If a bank like HDFC, ICICI, or SBI is harassing your family, a polite but firm tweet tagging the bank’s CEO and the RBI’s official handle often gets the "social media response team" to look into your account. They will frequently put a "hold" on recovery activities while the complaint is investigated.
               </p>
 
               <h2 id="bank-specific-styles" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Recovery Styles: HDFC, SBI, ICICI, and NBFCs</h2>
@@ -426,7 +426,7 @@ export default function BankCallingReferencesClient() {
               
               <h3 className="text-2xl font-bold text-gray-900 mb-4">HDFC Bank: The High-Pressure Data-Driven Approach</h3>
               <p className="mb-6">
-                HDFC Bank is known for its highly efficient and data-driven recovery mechanism. They often employ multiple recovery agencies simultaneously. If you stop answering their calls, their automated systems quickly skip-trace to your secondary numbers and references. They are persistent and often use a "soft and hard" approach—one agent might be very polite, while the next one from a different agency might be aggressive. Stopping <strong>HDFC recovery harassment</strong> requires a formal grievance filed with their Nodal Officer, followed by an immediate escalation if the calls to family members continue.
+                HDFC Bank is known for its highly efficient and data-driven recovery mechanism. They often employ multiple recovery agencies simultaneously. If you stop answering their calls, their automated systems quickly skip-trace to your secondary numbers and references. They are persistent and often use a "soft and hard" approach-one agent might be very polite, while the next one from a different agency might be aggressive. Stopping <strong>HDFC recovery harassment</strong> requires a formal grievance filed with their Nodal Officer, followed by an immediate escalation if the calls to family members continue.
               </p>
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">SBI (State Bank of India): The Formal Bureaucratic Approach</h3>
@@ -441,7 +441,7 @@ export default function BankCallingReferencesClient() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Post-2024 NBFC and App-Based Recovery</h3>
               <p className="mb-6">
-                The most aggressive recovery today comes from NBFCs like Bajaj Finserv and various "instant loan" apps. Because their business models depend on high-interest, high-risk lending, their recovery tactics are often desperate. This is where most cases of <strong>calling family members and references</strong> occur. For app-based lenders, your primary defense is the <strong>Cyber Cell</strong> and the RBI's specialized <strong>Sachet portal</strong>, which is designed to handle complaints against illegal lending apps.
+                The most aggressive recovery today comes from NBFCs like Bajaj Finserv and various "instant loan" apps. Because their business models depend on high-interest, high-risk lending, their recovery tactics are often desperate. This is where most cases of <strong>calling family members and references</strong> occur. For app-based lenders, your primary defense is the <strong>Cyber Cell</strong> and the RBI’s specialized <strong>Sachet portal</strong>, which is designed to handle complaints against illegal lending apps.
               </p>
 
               <h2 id="mental-health" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Psychological Impact: Debt and Mental Health</h2>
@@ -449,7 +449,7 @@ export default function BankCallingReferencesClient() {
                 At <strong>CredSettle</strong>, we believe that debt is as much a health issue as it is a financial one. The constant fear of a phone call or a doorbell can lead to severe anxiety, clinical depression, and in tragic cases, suicidal ideation. When banks involve your family, they are attacking your support system, leaving you isolated and vulnerable.
               </p>
               <p className="mb-6">
-                It is important to separate your self-worth from your <strong>net debt</strong>. Financial failure is a temporary state, not a permanent character flaw. If you are feeling overwhelmed, talk to a mental health professional alongside a financial expert. Our counselors at CredSettle are trained to handle the emotional distress of borrowers. We provide a "Financial Shield"—once we take over your case, your phone stops ringing with threats, allowed you the mental space to heal and plan.
+                It is important to separate your self-worth from your <strong>net debt</strong>. Financial failure is a temporary state, not a permanent character flaw. If you are feeling overwhelmed, talk to a mental health professional alongside a financial expert. Our counselors at CredSettle are trained to handle the emotional distress of borrowers. We provide a "Financial Shield"-once we take over your case, your phone stops ringing with threats, allowed you the mental space to heal and plan.
               </p>
 
               <h2 id="doorstep-sop" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">SOP: What to Do If an Agent Is at Your Door</h2>
@@ -458,15 +458,15 @@ export default function BankCallingReferencesClient() {
               </p>
               <ol className="list-decimal pl-6 mb-8 space-y-4">
                 <li><strong>Remain Outside:</strong> Do not let the agent inside your house. Talk to them at the gate or in a public space. If they try to force entry, it is <strong>trespassing</strong>.</li>
-                <li><strong>Demand Identification:</strong> Ask for their ID card and authorization letter from the bank. If they don't have it, tell them to leave immediately.</li>
-                <li><strong>Record the Interaction:</strong> Open your phone's camera or voice recorder. Tell them: "I am recording this for the RBI Ombudsman." This usually prevents them from using abusive language.</li>
+                <li><strong>Demand Identification:</strong> Ask for their ID card and authorization letter from the bank. If they don’t have it, tell them to leave immediately.</li>
+                <li><strong>Record the Interaction:</strong> Open your phone’s camera or voice recorder. Tell them: "I am recording this for the RBI Ombudsman." This usually prevents them from using abusive language.</li>
                 <li><strong>Ask for a Specific Demand:</strong> Ask for a formal letter or an account statement. Do not engage in an emotional argument.</li>
                 <li><strong>State Your Rights:</strong> If they start shouting or talking to neighbors, say: "Under the RBI Fair Practices Code, you are prohibited from public shaming. Please leave, or I will call the 112 emergency number."</li>
               </ol>
 
               <h2 id="institutional-negligence" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">When the System Fails: Countering Institutional Negligence</h2>
               <p className="mb-6">
-                One of the most frustrating aspects of debt harassment is the <strong>Institutional Wall</strong>. You call the customer care, and they tell you "it's an automated system." You email the manager, and they give you a template response. This is not just bad service; it is institutional negligence. Banks are legally responsible for the "Agency Risk"—the risk that their outsourced partners will violate the law.
+                One of the most frustrating aspects of debt harassment is the <strong>Institutional Wall</strong>. You call the customer care, and they tell you "it’s an automated system." You email the manager, and they give you a template response. This is not just bad service; it is institutional negligence. Banks are legally responsible for the "Agency Risk"-the risk that their outsourced partners will violate the law.
               </p>
               <p className="mb-6">
                 To break this wall, you must stop being a "Consumer" and start being a <strong>"Complainant."</strong> Every large bank in India is required to have a three-tier grievance redressal mechanism:
@@ -479,10 +479,10 @@ export default function BankCallingReferencesClient() {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Mastering the RBI CMS Cloud</h3>
               <p className="mb-6">
-                The <strong>Complaint Management System (CMS)</strong> is the RBI's digital portal for resolving disputes. When you file a complaint here, it is assigned a unique ID and a "Case Officer" from the RBI. This officer has the power to summon bank records, review call recordings, and interview recovery agents. 
+                The <strong>Complaint Management System (CMS)</strong> is the RBI’s digital portal for resolving disputes. When you file a complaint here, it is assigned a unique ID and a "Case Officer" from the RBI. This officer has the power to summon bank records, review call recordings, and interview recovery agents. 
               </p>
               <p className="mb-6">
-                The key to winning an Ombudsman case is <strong>The Timeline of Harassment</strong>. At <strong>CredSettle</strong>, we help our clients maintain a "Harassment Journal." Every call, even if you didn't answer it, is evidence. If you show the RBI that the bank called you 45 times in 2 days from 15 different numbers, the bank will be forced to not only stop the calls but potentially waive your interest or provide a massive discount on the settlement.
+                The key to winning an Ombudsman case is <strong>The Timeline of Harassment</strong>. At <strong>CredSettle</strong>, we help our clients maintain a "Harassment Journal." Every call, even if you didn’t answer it, is evidence. If you show the RBI that the bank called you 45 times in 2 days from 15 different numbers, the bank will be forced to not only stop the calls but potentially waive your interest or provide a massive discount on the settlement.
               </p>
 
               <h2 id="notices-templates" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Legal Notice Templates and SOPs</h2>
@@ -503,22 +503,22 @@ export default function BankCallingReferencesClient() {
               <h2 id="success-stories" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">User Success Stories & Reviews</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <div className="flex text-yellow-400 mb-2">★★★★★</div>
+                  <div className="flex text-yellow-400 mb-2">*****</div>
                   <p className="text-gray-600 mb-4 italic">"HDFC agents were calling my office manager. CredSettle sent a legal notice, and within 48 hours, the calls stopped. They finally agreed to a 60% settlement."</p>
                   <p className="font-bold text-gray-900">, Ankit Mehta, Mumbai</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <div className="flex text-yellow-400 mb-2">★★★★★</div>
-                  <p className="text-gray-600 mb-4 italic">"I was trapped in 'Quick Loan' app cycle. They were threatening to send my photos to my contacts. CredSettle's cyber legal team saved my reputation."</p>
+                  <div className="flex text-yellow-400 mb-2">*****</div>
+                  <p className="text-gray-600 mb-4 italic">"I was trapped in 'Quick Loan' app cycle. They were threatening to send my photos to my contacts. CredSettle’s cyber legal team saved my reputation."</p>
                   <p className="font-bold text-gray-900">, Sneha Rao, Bangalore</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <div className="flex text-yellow-400 mb-2">★★★★★</div>
+                  <div className="flex text-yellow-400 mb-2">*****</div>
                   <p className="text-gray-600 mb-4 italic">"SBI recovery agents visited my home at 9 PM. CredSettle filed an Ombudsman complaint and got it resolved. Highly recommended for peace of mind."</p>
                   <p className="font-bold text-gray-900">, Rajesh Kumar, Delhi</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                  <div className="flex text-yellow-400 mb-2">★★★★★</div>
+                  <div className="flex text-yellow-400 mb-2">*****</div>
                   <p className="text-gray-600 mb-4 italic">"Stopped the harassment from Bajaj Finserv agents who were bothering my neighbors. The legal protection is real."</p>
                   <p className="font-bold text-gray-900">, Vikram Singh, Pune</p>
                 </div>
@@ -532,7 +532,7 @@ export default function BankCallingReferencesClient() {
                 The first step is ensuring the bank marks your loan as <strong>"Settled"</strong> or <strong>"Closed"</strong> in the credit bureau records. While a "Settled" status is better than a "Default," it still indicates that you did not pay the full amount. We help our clients navigate the process of obtaining a "No Dues Certificate" (NDC) and ensure that the bank updates the bureau within 30 to 45 days. 
               </p>
               <p className="mb-6">
-                Rebuilding your score requires a disciplined approach. We recommend starting with a <strong>Secured Credit Card</strong>—a card issued against a fixed deposit. By using this card for small, manageable expenses and paying the bill in full every month, you demonstrate to lenders that you are now a responsible borrower. Over 12 to 24 months, this consistent behavior can pull your score back into the 700+ range, making you eligible for home loans or car loans once again.
+                Rebuilding your score requires a disciplined approach. We recommend starting with a <strong>Secured Credit Card</strong>-a card issued against a fixed deposit. By using this card for small, manageable expenses and paying the bill in full every month, you demonstrate to lenders that you are now a responsible borrower. Over 12 to 24 months, this consistent behavior can pull your score back into the 700+ range, making you eligible for home loans or car loans once again.
               </p>
               
               <h3 className="text-2xl font-bold text-gray-900 mb-4">The Psychological Recovery: Moving Past the Trauma</h3>
@@ -543,20 +543,20 @@ export default function BankCallingReferencesClient() {
                 Engaging with a professional service like <strong>CredSettle</strong> acts as a "buffer" that allows your nervous system to rest. When you know that an advocate is handling the calls and that there is a logical plan in place, the mental burden is halved. We often recommend that our clients seek counseling or join support groups for people in debt. Sharing your story with others who have faced similar harassment can be incredibly cathartic and empowering.
               </p>
 
-              <h2 id="diy-vs-professional" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">DIY Settlement vs. Professional Advocacy: What's Right For You?</h2>
+              <h2 id="diy-vs-professional" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">DIY Settlement vs. Professional Advocacy: What’s Right For You?</h2>
               <p className="mb-6">
                 Many borrowers ask: "Can I do this myself?" The answer is yes, but it is like perform surgery on yourself. You might survive, but the risks of complications are high. A DIY settlement requires you to have nerves of steel. You have to answer every call, record every threat, and write every email to the Nodal Officer yourself. 
               </p>
               <p className="mb-6">
-                The problem with DIY is that banks know you are emotional. They use high-pressure tactics to force you into a <strong>"Bad Settlement"</strong>—one where you pay too much or where they don't give you a proper closure letter. They might promise to stop the calls if you pay a small amount, but once you pay, the calls start again the very next day because that payment was only applied to the "overdue interest," not the principal.
+                The problem with DIY is that banks know you are emotional. They use high-pressure tactics to force you into a <strong>"Bad Settlement"</strong>-one where you pay too much or where they don’t give you a proper closure letter. They might promise to stop the calls if you pay a small amount, but once you pay, the calls start again the very next day because that payment was only applied to the "overdue interest," not the principal.
               </p>
               
               <h3 className="text-2xl font-bold text-gray-900 mb-4">The CredSettle Advantage</h3>
               <p className="mb-6">
-                When <strong>CredSettle</strong> steps in, the dynamic changes. We are a neutral, law-abiding third party. We speak the bank's language—the language of spreadsheets, risk-weightage, and provisions. We know exactly how much "wiggle room" a bank has for a specific type of loan. For instance, a 5-year-old credit card debt can often be settled for 20-30% of the total amount, whereas a personal loan from a big bank might require 50-60%. 
+                When <strong>CredSettle</strong> steps in, the dynamic changes. We are a neutral, law-abiding third party. We speak the bank’s language-the language of spreadsheets, risk-weightage, and provisions. We know exactly how much "wiggle room" a bank has for a specific type of loan. For instance, a 5-year-old credit card debt can often be settled for 20-30% of the total amount, whereas a personal loan from a big bank might require 50-60%. 
               </p>
               <p className="mb-6">
-                Our advocates ensure that every settlement is <strong>Legal and Bulletproof</strong>. We don't settle on a phone call; we settle on the bank's official letterhead. We ensure that the settlement letter contains the critical words: "The account will be closed in full and final settlement of all dues." This prevents the bank from coming back to you five years later for the remaining amount.
+                Our advocates ensure that every settlement is <strong>Legal and Bulletproof</strong>. We don’t settle on a phone call; we settle on the bank’s official letterhead. We ensure that the settlement letter contains the critical words: "The account will be closed in full and final settlement of all dues." This prevents the bank from coming back to you five years later for the remaining amount.
               </p>
 
               <h2 id="legal-deep-dive" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Legal Deep Dive: IPC and Constitution of India</h2>
@@ -564,19 +564,19 @@ export default function BankCallingReferencesClient() {
                 Beyond RBI guidelines, your protection is anchored in the supreme law of the land. <strong>Article 21 of the Indian Constitution</strong> guarantees the Right to Life, which the Supreme Court has interpreted to include the <strong>Right to Privacy</strong> and the <strong>Right to Dignity</strong>. When a bank calls your elderly father and tells him his son is a "thief," they are not just violating a circular; they are violating your constitutional rights. 
               </p>
               <p className="mb-6">
-                We also use the <strong>Indian Penal Code (IPC)</strong> strategically. <strong>Section 503 (Criminal Intimidation)</strong> is your primary weapon. If an agent says, "We will come to your house and take your furniture," and they don't have a court-ordered warrant, that is a criminal threat. <strong>Section 507</strong> deals with intimidation through anonymous communication—perfect for those untraceable WhatsApp threats from "agency numbers." 
+                We also use the <strong>Indian Penal Code (IPC)</strong> strategically. <strong>Section 503 (Criminal Intimidation)</strong> is your primary weapon. If an agent says, "We will come to your house and take your furniture," and they don’t have a court-ordered warrant, that is a criminal threat. <strong>Section 507</strong> deals with intimidation through anonymous communication-perfect for those untraceable WhatsApp threats from "agency numbers." 
               </p>
               <p className="mb-10">
                 Finally, <strong>Section 268 of the IPC</strong> deals with "Public Nuisance." If agents are gathering outside your gate and making a scene, they are creating a public nuisance. In such cases, the local police have the power to detain them on the spot. By understanding these legal tools, you transform from a "defaulter" into an "informed citizen" who cannot be pushed around.
               </p>
               <p className="mb-6">
-                At <strong>CredSettle</strong>, we don't just stop the calls; we solve the underlying problem. While you are busy defending your family, the interest on your loan is still compounding. Our goal is to bring the bank to the negotiating table and settle the debt for a lump sum you can afford. 
+                At <strong>CredSettle</strong>, we don’t just stop the calls; we solve the underlying problem. While you are busy defending your family, the interest on your loan is still compounding. Our goal is to bring the bank to the negotiating table and settle the debt for a lump sum you can afford. 
               </p>
               <p className="mb-6">
                 By hiring us, you are sending a clear signal to the bank: "This borrower is legally protected and is serious about settling." The moment our vakalatnama or authorization is sent to the bank, the recovery calls must stop by law. We handle the dirty work of talking to agents, so you can focus on building your future. We have helped thousands of families across India reclaim their peace of mind and financial freedom. 
               </p>
               <p className="mb-12">
-                Remember, debt is a financial contract, not a criminal sentence. Your dignity is non-negotiable. With the right legal support and a clear understanding of your rights, you can overcome this challenge and start fresh. <strong>Bank calling family members</strong> is a sign of their desperation—don't let it become your downfall.
+                Remember, debt is a financial contract, not a criminal sentence. Your dignity is non-negotiable. With the right legal support and a clear understanding of your rights, you can overcome this challenge and start fresh. <strong>Bank calling family members</strong> is a sign of their desperation-don’t let it become your downfall.
               </p>
 
               <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Conclusion: Reclamation of Your Peace</h2>
@@ -584,7 +584,7 @@ export default function BankCallingReferencesClient() {
                 The battle against <strong>bank calling references and family members</strong> is a battle for your basic human rights. You have the law, the regulator, and the courts on your side. The predatory tactics of recovery agents only work as long as you remain silent and uninformed. By documenting every violation, quoting every rule, and seeking professional help when needed, you are taking back control of your life.
               </p>
               <p className="mb-6">
-                At <strong>CredSettle</strong>, we have seen parents, children, and spouses being brought to tears by the heartless actions of debt collectors. We have also seen those same families rejoice as we stopped the calls and settled the debts for good. You don't have to carry this burden alone. Whether you choose to fight the bank yourself or use our professional services, remember that you are not just a "loan account number"—you are a citizen of India with a guaranteed right to dignity and privacy. 
+                At <strong>CredSettle</strong>, we have seen parents, children, and spouses being brought to tears by the heartless actions of debt collectors. We have also seen those same families rejoice as we stopped the calls and settled the debts for good. You don’t have to carry this burden alone. Whether you choose to fight the bank yourself or use our professional services, remember that you are not just a "loan account number"-you are a citizen of India with a guaranteed right to dignity and privacy. 
               </p>
               <p className="mb-12">
                 Stop the calls. Save your family from embarrassment. Start your settlement journey today. The first step to being <strong>debt-free</strong> is deciding that you will no longer be a victim of illegal harassment.
@@ -627,7 +627,7 @@ export default function BankCallingReferencesClient() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">9. What is a 'No-Contact' request?</h3>
-                    <p className="text-gray-600">It is a formal request you can file with the bank's Nodal Officer demanding that they only communicate with you via email or registered mail.</p>
+                    <p className="text-gray-600">It is a formal request you can file with the bank’s Nodal Officer demanding that they only communicate with you via email or registered mail.</p>
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">10. Does CredSettle help with legal notices?</h3>
@@ -663,12 +663,12 @@ export default function BankCallingReferencesClient() {
                     <p className="text-gray-600">No. For unsecured debts like credit cards, they cannot seize your property without a specific court order (Execution Petition).</p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">18. What is the Nodal Officer's job?</h3>
-                    <p className="text-gray-600">The Nodal Officer is responsible for fixing grievances that the regular customer care fails to solve. They are the bank's internal regulator.</p>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">18. What is the Nodal Officer’s job?</h3>
+                    <p className="text-gray-600">The Nodal Officer is responsible for fixing grievances that the regular customer care fails to solve. They are the bank’s internal regulator.</p>
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">19. Can I change my phone number to stop calls?</h3>
-                    <p className="text-gray-600">You can, but it doesn't solve the legal debt. It's better to use an app like Truecaller to block and record while focusing on settlement.</p>
+                    <p className="text-gray-600">You can, but it doesn’t solve the legal debt. It’s better to use an app like Truecaller to block and record while focusing on settlement.</p>
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">20. Is CredSettle a debt collection agency?</h3>
@@ -705,9 +705,9 @@ export default function BankCallingReferencesClient() {
                   Get Help Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-2">
-                  <p>✓ Legally Authorized</p>
-                  <p>✓ RBI Compliant</p>
-                  <p>✓ 100% Privacy</p>
+                  <p>v Legally Authorized</p>
+                  <p>v RBI Compliant</p>
+                  <p>v 100% Privacy</p>
                 </div>
               </div>
 

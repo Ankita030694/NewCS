@@ -196,7 +196,7 @@ export default function UnionBankLoanSettlementClient() {
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Union Bank Loan Settlement: The 2026 Strategic Guide</h2>
               <div className="text-gray-700 leading-relaxed mb-8">
                 <p className="mb-4">
-                  As one of India's leading Public Sector Banks (PSBs), Union Bank of India operates under strict CVC (Central Vigilance Commission) guidelines. Unlike private banks that can offer discretionary waivers based on a 15-minute call, Union Bank follows a rigid, documented process. This is both a challenge and an opportunity.
+                  As one of India’s leading Public Sector Banks (PSBs), Union Bank of India operates under strict CVC (Central Vigilance Commission) guidelines. Unlike private banks that can offer discretionary waivers based on a 15-minute call, Union Bank follows a rigid, documented process. This is both a challenge and an opportunity.
                 </p>
                 <p className="mb-4">
                   In 2025-26, Union Bank has aggressively pushed for the reduction of its NPA (Non-Performing Asset) portfolio, especially in the <strong>MSME and Retail Agricultural</strong> sectors. With the recent integration of "online OTS" portals and the updated <strong>MSME Policy 2025</strong>, the bank is striving to close old bad debts efficiently.
@@ -214,7 +214,7 @@ export default function UnionBankLoanSettlementClient() {
               <h2 id="rinn-samadhan" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding 'Mission Rinn Samadhan' Dynamics</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  While "Rinn Samadhan" is a term often used across PSUs (including SBI), Union Bank's version has distinct characteristics when active. It is technically a "Non-Discretionary / Non-Discriminatory" scheme.
+                  While "Rinn Samadhan" is a term often used across PSUs (including SBI), Union Bank’s version has distinct characteristics when active. It is technically a "Non-Discretionary / Non-Discriminatory" scheme.
                 </p>
                 <h4 className="font-bold text-lg mb-2">The "Algorithm" of Union Bank Settlements:</h4>
                 <ul className="list-disc pl-6 space-y-4 mb-6">
@@ -233,7 +233,7 @@ export default function UnionBankLoanSettlementClient() {
               <h2 id="lok-adalat" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Lok Adalat: The PSU "Fast Track"</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  Union Bank is a massive participant in National Lok Adalats. In fact, for loans below ₹20 Lakhs, the bank's Zonal Managers are often given targets to close `X` number of cases in each quarterly Adalat.
+                  Union Bank is a massive participant in National Lok Adalats. In fact, for loans below ₹20 Lakhs, the bank’s Zonal Managers are often given targets to close `X` number of cases in each quarterly Adalat.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="bg-green-50 p-5 rounded-lg border border-green-100">
@@ -291,7 +291,7 @@ export default function UnionBankLoanSettlementClient() {
                 </div>
                 <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4">
                   <p className="text-yellow-800 font-medium">
-                    <strong>CredSettle Pro Tip:</strong> Never argue with the Branch Manager about the waiver amount. They usually don't have the power. The proposal must be structured to pass the scrutiny of the <strong>Regional Office Credit Committee</strong>. We write proposals that "tick the boxes" of their internal audit checklists.
+                    <strong>CredSettle Pro Tip:</strong> Never argue with the Branch Manager about the waiver amount. They usually don’t have the power. The proposal must be structured to pass the scrutiny of the <strong>Regional Office Credit Committee</strong>. We write proposals that "tick the boxes" of their internal audit checklists.
                   </p>
                 </div>
               </div>
@@ -375,8 +375,8 @@ export default function UnionBankLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Legally Verified</p>
-                  <p className="mt-1">✓ End Harassment</p>
+                  <p>v Legally Verified</p>
+                  <p className="mt-1">v End Harassment</p>
                 </div>
               </div>
 

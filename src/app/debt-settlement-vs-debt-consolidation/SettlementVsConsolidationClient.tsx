@@ -331,7 +331,7 @@ export default function SettlementVsConsolidationClient() {
                                 In the high pressure world of Indian personal finance, debt is often an uninvited guest that refuses to leave. Whether it is the compounding interest of multiple credit cards or the mounting EMIs of various personal loans, the feeling of being "trapped" is real. Choosing between debt settlement and debt consolidation is the most important decision you will make on your journey back to solvency.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For most borrowers in 2025, the confusion lies in the "Sales Pitch." Consolidation is sold by banks as a "Solution," while settlement is often whispered about by consultants as a "Last Resort." The reality is that both are technical tools designed for specific financial symptoms. You wouldn't use a heart medication for a broken leg; similarly, you shouldn't use consolidation for a debt you fundamentally cannot repay.
+                                For most borrowers in 2025, the confusion lies in the "Sales Pitch." Consolidation is sold by banks as a "Solution," while settlement is often whispered about by consultants as a "Last Resort." The reality is that both are technical tools designed for specific financial symptoms. You wouldn’t use a heart medication for a broken leg; similarly, you shouldn’t use consolidation for a debt you fundamentally cannot repay.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This 5000+ word deep dive was built to provide you with the mathematical and legal clarity required to make this choice. We will strip away the banking jargon and look at the raw numbers, the long term CIBIL impact, and the psychological weight of each strategy. By the time you reach the FAQs, you will have a definitive roadmap for your financial reclamation.
@@ -373,10 +373,10 @@ export default function SettlementVsConsolidationClient() {
                             <div className="bg-blue-950 text-white p-10 rounded-[3rem] mb-12 shadow-xl">
                                 <h3 className="text-2xl font-bold mb-6 italic text-blue-300">Why Consolidation is the "Gold Standard":</h3>
                                 <ul className="space-y-4 font-light opacity-90">
-                                    <li>✓ <strong>Credit Score Preservation:</strong> Since you pay in full, your CIBIL score remains healthy or even improves as you close high interest lines.</li>
-                                    <li>✓ <strong>Financial Discipline:</strong> Moving from 5 EMIs to 1 EMI reduces the cognitive load of managing debt, preventing accidental defaults.</li>
-                                    <li>✓ <strong>Interest Arbitrage:</strong> Moving a 36% credit card debt to a 12% personal loan saves lakhs in interest over the long term.</li>
-                                    <li>✓ <strong>Privacy and Dignity:</strong> No recovery agents, no "Settled" tags, and no difficult conversations with bank managers.</li>
+                                    <li>v <strong>Credit Score Preservation:</strong> Since you pay in full, your CIBIL score remains healthy or even improves as you close high interest lines.</li>
+                                    <li>v <strong>Financial Discipline:</strong> Moving from 5 EMIs to 1 EMI reduces the cognitive load of managing debt, preventing accidental defaults.</li>
+                                    <li>v <strong>Interest Arbitrage:</strong> Moving a 36% credit card debt to a 12% personal loan saves lakhs in interest over the long term.</li>
+                                    <li>v <strong>Privacy and Dignity:</strong> No recovery agents, no "Settled" tags, and no difficult conversations with bank managers.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
@@ -449,10 +449,10 @@ export default function SettlementVsConsolidationClient() {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                This is why the decision is about "Time" and "Aspirations." If you are 55 years old and don't need future loans, settlement is a great gift to yourself. If you are 28 years old and want to build a life, consolidation is usually the smarter move.
+                                This is why the decision is about "Time" and "Aspirations." If you are 55 years old and don’t need future loans, settlement is a great gift to yourself. If you are 28 years old and want to build a life, consolidation is usually the smarter move.
                             </p>
 
-                            <h2 id="rbi-framework-2025" className="text-3xl md:text-4xl font-black text-blue-950 mb-8 scroll-mt-24">RBI 2025 Guidelines: The Regulator's View</h2>
+                            <h2 id="rbi-framework-2025" className="text-3xl md:text-4xl font-black text-blue-950 mb-8 scroll-mt-24">RBI 2025 Guidelines: The Regulator’s View</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Reserve Bank of India has taken a clear stand in 2025. They want a "Resilient Borrower." The updated RBI Framework for Debt Resolution mandates that banks must disclose both options to a borrower.
                             </p>
@@ -468,7 +468,7 @@ export default function SettlementVsConsolidationClient() {
                                 Consolidation requires "Endurance." You still have that large debt over your head, and you must remain disciplined for another 3 to 5 years. It is a long game. Neither is "Right" or "Wrong," but one requires the heart of a sprinter while the other requires the heart of a marathon runner.
                             </p>
 
-                             <h2 id="tax-implications" className="text-3xl md:text-4xl font-black text-blue-950 mb-8 scroll-mt-24">The Taxman's Share: Tax Implications of Debt Forgiveness</h2>
+                             <h2 id="tax-implications" className="text-3xl md:text-4xl font-black text-blue-950 mb-8 scroll-mt-24">The Taxman’s Share: Tax Implications of Debt Forgiveness</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A critical aspect often ignored during debt settlement talks is the tax implication. In many jurisdictions, and increasingly under Indian tax scrutiny, forgiven debt can be considered as "Income."
                             </p>
@@ -574,7 +574,7 @@ export default function SettlementVsConsolidationClient() {
                                     { name: 'Rohan Kapoor', location: 'Delhi', stars: 5, comment: 'I had a mix of personal loans and credit cards. CredSettle ran a side-by-side analysis of settlement vs consolidation for each. The custom plan they gave me saved ₹8 lakhs in total interest and protected my CIBIL score.' },
                                     { name: 'Priya Menon', location: 'Kochi', stars: 5, comment: 'The difference between settlement and consolidation was not clear to me at all. This guide made it crystal clear. For my stable income situation, consolidation was the right choice. CredSettle handled the entire process.' },
                                     { name: 'Arvind Rao', location: 'Mysore', stars: 5, comment: 'I had multiple EMIs eating 70% of my salary. CredSettle ran the numbers and debt consolidation was the perfect solution. One single lower EMI, better credit outlook, and zero harassment within months.' },
-                                    { name: 'Neha Tiwari', location: 'Bhopal', stars: 5, comment: 'The guide\'s explanation of debt consolidation vs settlement for credit cards was perfect. CredSettle helped me settle two maxed-out cards and consolidate the remaining debts. Saved both my score and my sanity.' }
+                                    { name: 'Neha Tiwari', location: 'Bhopal', stars: 5, comment: 'The guide’s explanation of debt consolidation vs settlement for credit cards was perfect. CredSettle helped me settle two maxed-out cards and consolidate the remaining debts. Saved both my score and my sanity.' }
                                 ].map((review, index) => (
                                     <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
                                         <div className="flex items-center mb-3">
@@ -598,7 +598,7 @@ export default function SettlementVsConsolidationClient() {
                             <div className="mt-16 p-12 bg-gradient-to-br from-blue-950 to-blue-900 rounded-[4rem] text-center text-white shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 opacity-10 rounded-full -mr-16 -mt-16"></div>
                                 <h3 className="text-3xl font-black mb-6">Choose Your Path to Freedom</h3>
-                                <p className="text-blue-100 mb-10 text-xl font-light leading-relaxed">Whether you need the mathematical rescue of a settlement or the organized efficiency of a consolidation, you don't have to walk this path alone. Our financial experts will analyze your debt breakdown and give you the definitive answer on which path is right for your life goals.</p>
+                                <p className="text-blue-100 mb-10 text-xl font-light leading-relaxed">Whether you need the mathematical rescue of a settlement or the organized efficiency of a consolidation, you don’t have to walk this path alone. Our financial experts will analyze your debt breakdown and give you the definitive answer on which path is right for your life goals.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-white text-blue-950 font-black py-5 px-14 rounded-full hover:bg-blue-50 transition-all shadow-xl text-xl transform hover:scale-105"
@@ -654,7 +654,7 @@ export default function SettlementVsConsolidationClient() {
 
                             {/* Testimonial Snippet */}
                             <div className="bg-white p-6 rounded-3xl border border-gray-100 italic font-light text-xs text-gray-500 leading-relaxed shadow-sm">
-                                "CredSettle didn't just give me a plan; they gave me a comparison that saved me from making a ₹5 Lakh mistake. Knowledge is the best relief."
+                                "CredSettle didn’t just give me a plan; they gave me a comparison that saved me from making a ₹5 Lakh mistake. Knowledge is the best relief."
                                 <p className="mt-3 font-black text-blue-900 not-italic uppercase tracking-wider">- Amit K., Delhi</p>
                             </div>
                         </div>

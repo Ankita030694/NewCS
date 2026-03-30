@@ -72,7 +72,7 @@ export default function AdityaBirlaLoanSettlementClient() {
   const faqList = [
     {
       question: "Why did Aditya Birla Finance send me an Arbitration Notice?",
-      answer: "As an NBFC, ABFL prefers Arbitration over Civil Courts because it's faster. They often appoint a 'Sole Arbitrator' (usually biased) to get a quick 'Award' (decree) against you to enforce payment. You MUST legally reply to this notice immediately."
+      answer: "As an NBFC, ABFL prefers Arbitration over Civil Courts because it’s faster. They often appoint a 'Sole Arbitrator' (usually biased) to get a quick 'Award' (decree) against you to enforce payment. You MUST legally reply to this notice immediately."
     },
     {
       question: "Can I settle my Personal Loan with Aditya Birla Finance?",
@@ -88,7 +88,7 @@ export default function AdityaBirlaLoanSettlementClient() {
     },
     {
       question: "Does a settlement remove the loan from my CIBIL?",
-      answer: "No, it marks it as 'Settled' or 'Post Write-Off Settled'. The account status closes, but the negative remark stays for ~3 years. It's the price of becoming debt-free instantly."
+      answer: "No, it marks it as 'Settled' or 'Post Write-Off Settled'. The account status closes, but the negative remark stays for ~3 years. It’s the price of becoming debt-free instantly."
     }
   ];
 
@@ -204,7 +204,7 @@ export default function AdityaBirlaLoanSettlementClient() {
                   </li>
                 </ol>
                 <p className="mb-4 font-semibold text-gray-800">
-                  We counter this by challenging the arbitrator's neutrality immediately under Section 12 of the Act, forcing them to pause or withdraw the proceedings. This creates the leverage needed for a One-Time Settlement (OTS).
+                  We counter this by challenging the arbitrator’s neutrality immediately under Section 12 of the Act, forcing them to pause or withdraw the proceedings. This creates the leverage needed for a One-Time Settlement (OTS).
                 </p>
               </div>
 
@@ -355,8 +355,8 @@ export default function AdityaBirlaLoanSettlementClient() {
                   Stop Arbitration
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Reply Drafting</p>
-                  <p className="mt-1">✓ Agent Handling</p>
+                  <p>v Reply Drafting</p>
+                  <p className="mt-1">v Agent Handling</p>
                 </div>
               </div>
 

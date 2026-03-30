@@ -258,7 +258,7 @@ export default function MaharashtraPageClient() {
                     <strong>Lifestyle inflation with salary:</strong> Got promotion from ₹60,000 to ₹90,000 monthly. Instead of saving extra ₹30,000, lifestyle upgraded. Moved to bigger apartment (higher rent), bought car on loan, upgraded credit cards to premium variants with annual fees ₹5,000-10,000, started dining at expensive places. New salary absorbed, credit card debt increased because lifestyle inflated faster than income.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We understand Mumbai's credit card culture deeply. We know that lifestyle spending is not reckless spending. High living costs, social obligations, work pressure make credit cards necessary in Mumbai. But when bills become unmanageable, settlement provides legal exit. We've helped thousands escape this cycle.
+                    We understand Mumbai’s credit card culture deeply. We know that lifestyle spending is not reckless spending. High living costs, social obligations, work pressure make credit cards necessary in Mumbai. But when bills become unmanageable, settlement provides legal exit. We’ve helped thousands escape this cycle.
                   </p>
                 </div>
               </section>
@@ -285,7 +285,7 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Minimum payment is the most profitable product banks ever created. Sounds helpful (pay just 5% this month), actually destroys you financially. Here's the math that banks don't want you to understand:
+                    Minimum payment is the most profitable product banks ever created. Sounds helpful (pay just 5% this month), actually destroys you financially. Here’s the math that banks don’t want you to understand:
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Real example from Mumbai client:</strong> Credit card outstanding ₹2,00,000. Interest rate 3.5% per month (42% annually, most cards charge this). Minimum payment ₹10,000 (5% of outstanding). Client thinks paying ₹10,000 monthly will clear debt in 20 months. Wrong. Deadly wrong.
@@ -297,7 +297,7 @@ export default function MaharashtraPageClient() {
                     <strong>Why banks push minimum payment:</strong> They make maximum profit. Person paying full amount gives bank zero interest income. Person paying minimum payment for 12 years gives bank 2x the principal as interest income. Banks send friendly reminders "You can pay just minimum ₹10,000 to keep card active". Sounds helpful. Actually financial poison.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Multiple card minimum payment:</strong> 5 credit cards, each ₹1.5 lakh outstanding. Minimum payment ₹7,500 per card. Total ₹37,500 monthly just for minimums. This goes on forever. Principal never reduces meaningfully. You're paying interest rent to banks every month. After 3 years of paying ₹37,500 monthly (total ₹13.5 lakhs paid), you check statements. Outstanding still ₹6.5-7 lakhs across all cards. Where did your ₹13.5 lakhs go? All interest. Hardly any principal reduction.
+                    <strong>Multiple card minimum payment:</strong> 5 credit cards, each ₹1.5 lakh outstanding. Minimum payment ₹7,500 per card. Total ₹37,500 monthly just for minimums. This goes on forever. Principal never reduces meaningfully. You’re paying interest rent to banks every month. After 3 years of paying ₹37,500 monthly (total ₹13.5 lakhs paid), you check statements. Outstanding still ₹6.5-7 lakhs across all cards. Where did your ₹13.5 lakhs go? All interest. Hardly any principal reduction.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>When minimum payment becomes impossible:</strong> Job loss, salary cut, medical emergency, family crisis. Cannot even pay minimums. Cards go overdue. Late payment fees ₹1,000-1,500 per card monthly. Over limit charges if outstanding crosses limit due to interest and fees. Penalty interest rate jumps to 4% per month. Outstanding balloons. Recovery calls start. Stress destroys peace.
@@ -330,19 +330,19 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Multiple Card Juggling:</strong> Mumbai professionals have 5-7 cards. Use card A to pay card B minimum. Use card C cash advance to pay card D. Use card E for expenses while paying minimums on others. This juggling works for 1-2 years. Then all cards max out together. No more room to maneuver. All go overdue simultaneously. Recovery calls from 5-7 banks daily. We've settled 3,800+ multiple card cases in Maharashtra.
+                    <strong>1. Multiple Card Juggling:</strong> Mumbai professionals have 5-7 cards. Use card A to pay card B minimum. Use card C cash advance to pay card D. Use card E for expenses while paying minimums on others. This juggling works for 1-2 years. Then all cards max out together. No more room to maneuver. All go overdue simultaneously. Recovery calls from 5-7 banks daily. We’ve settled 3,800+ multiple card cases in Maharashtra.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Real Estate Down Payment on Cards:</strong> Mumbai real estate costs ₹15,000-40,000 per sq ft. To buy ₹80 lakh flat, need ₹16 lakh down payment (20%). Don't have cash. Use 4 credit cards to withdraw ₹4 lakhs each (cash advance or balance transfer cheques). Pay ₹16 lakh down payment. EMI on flat ₹45,000 monthly. Credit card EMIs ₹55,000 monthly. Total ₹1 lakh EMI on ₹75,000 salary. Within 6 months, credit cards default. We've settled hundreds of such cases.
+                    <strong>2. Real Estate Down Payment on Cards:</strong> Mumbai real estate costs ₹15,000-40,000 per sq ft. To buy ₹80 lakh flat, need ₹16 lakh down payment (20%). Don’t have cash. Use 4 credit cards to withdraw ₹4 lakhs each (cash advance or balance transfer cheques). Pay ₹16 lakh down payment. EMI on flat ₹45,000 monthly. Credit card EMIs ₹55,000 monthly. Total ₹1 lakh EMI on ₹75,000 salary. Within 6 months, credit cards default. We’ve settled hundreds of such cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>3. Wedding Expenses on Cards:</strong> Maharashtra weddings cost ₹8-20 lakhs. Families use credit cards to manage expenses. Venue booking, catering advance, jewelry, clothes, gifts, honeymoon. All on cards across family members. 3-4 family members each max out 2-3 cards. Total ₹10-15 lakhs on cards. After wedding, family has debt but no income increase to service it. Cards default within year. We settle using wedding expense documentation.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Medical Emergency Credit Card Usage:</strong> Serious illness, accident, surgery. Hospital bills ₹3-8 lakhs. Insurance doesn't cover everything or claim rejected. Use credit cards to pay hospital. Then cannot repay cards because income reduced due to illness or recovery period. Medical certificates and hospital bills help in settlement negotiations. Banks somewhat sympathetic to medical emergency cases.
+                    <strong>4. Medical Emergency Credit Card Usage:</strong> Serious illness, accident, surgery. Hospital bills ₹3-8 lakhs. Insurance doesn’t cover everything or claim rejected. Use credit cards to pay hospital. Then cannot repay cards because income reduced due to illness or recovery period. Medical certificates and hospital bills help in settlement negotiations. Banks somewhat sympathetic to medical emergency cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Business Failure on Personal Cards:</strong> Small business owners in Pune, Nagpur, Nashik use personal credit cards for business expenses (inventory purchase, supplier payments, employee salaries during cash crunch). Business doesn't do well. Cannot repay cards from business income. Personal salary alone cannot cover ₹50,000-80,000 monthly card payments. Cards default. We've settled 1,200+ business-related personal card cases.
+                    <strong>5. Business Failure on Personal Cards:</strong> Small business owners in Pune, Nagpur, Nashik use personal credit cards for business expenses (inventory purchase, supplier payments, employee salaries during cash crunch). Business doesn’t do well. Cannot repay cards from business income. Personal salary alone cannot cover ₹50,000-80,000 monthly card payments. Cards default. We’ve settled 1,200+ business-related personal card cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>6. Job Loss During EMI Commitments:</strong> Lost job or switched job with 2-3 month gap. Had 4 cards with total ₹6 lakh outstanding, paying ₹35,000 monthly. During unemployment, used savings and cards itself to pay minimums. Savings finished. Cards maxed. New job pays less. Cannot resume old payment schedule. All cards default together. Need settlement to start fresh.
@@ -372,10 +372,10 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled 9,200+ credit card settlements across Maharashtra in last four years. Our Maharashtra clients save an average of 58% on their credit card debt. We work with all major banks (HDFC, ICICI, SBI, Axis, Citi, Standard Chartered, HSBC, American Express, Kotak, IndusInd, Yes Bank) and NBFCs (Bajaj Finserv, HDB Financial, Tata Capital).
+                    We’ve handled 9,200+ credit card settlements across Maharashtra in last four years. Our Maharashtra clients save an average of 58% on their credit card debt. We work with all major banks (HDFC, ICICI, SBI, Axis, Citi, Standard Chartered, HSBC, American Express, Kotak, IndusInd, Yes Bank) and NBFCs (Bajaj Finserv, HDB Financial, Tata Capital).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Maharashtra advantage:</strong> We're registered legal services company following every RBI rule. We understand Mumbai's lifestyle spending patterns, multiple card juggling, minimum payment trap. We have local legal partners in Mumbai and Pune who know Maharashtra banking regulations and consumer courts.
+                    <strong>Our Maharashtra advantage:</strong> We’re registered legal services company following every RBI rule. We understand Mumbai’s lifestyle spending patterns, multiple card juggling, minimum payment trap. We have local legal partners in Mumbai and Pune who know Maharashtra banking regulations and consumer courts.
                   </p>
 
                   <div id="settlement-strategy" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -392,7 +392,7 @@ export default function MaharashtraPageClient() {
                       Our Settlement Strategy for Card Debt
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1: Card Debt Analysis</strong> - List all cards (bank name, outstanding, overdue months, last payment). Calculate total exposure. Check if any cards still within negotiable range. Free confidential consultation. <strong>Step 2: Stop Harassment Immediately</strong> - Legal notices to all banks citing RBI Fair Practices Code specific to credit cards. Recovery calls stop within 5-7 days. Works for all banks operating in Maharashtra. <strong>Step 3: Coordinated Multi-Card Negotiation</strong> - If you have 5 cards, we don't negotiate 5 separate deals. We create single hardship file with all your financial documentation. Use this to negotiate with all 5 banks simultaneously. Much better results than sequential negotiation. <strong>Step 4: Minimum Payment Math Presentation</strong> - We show banks how much time and money you've already paid in minimums. Prove that continued minimum payment will take 10+ years. Show that settlement makes business sense for bank (recover something now vs years of collection costs). <strong>Step 5: One-Time Payment Settlement</strong> - Negotiate 40-75% total reduction. All cards closed simultaneously. Single payment timeline. Legal documentation for each card. <strong>Step 6: Credit Rebuilding Guide</strong> - After settlement, we guide you on secured credit cards (FD-backed), small credit rebuilding, eventual return to normal credit access.
+                      <strong>Step 1: Card Debt Analysis</strong> - List all cards (bank name, outstanding, overdue months, last payment). Calculate total exposure. Check if any cards still within negotiable range. Free confidential consultation. <strong>Step 2: Stop Harassment Immediately</strong> - Legal notices to all banks citing RBI Fair Practices Code specific to credit cards. Recovery calls stop within 5-7 days. Works for all banks operating in Maharashtra. <strong>Step 3: Coordinated Multi-Card Negotiation</strong> - If you have 5 cards, we don’t negotiate 5 separate deals. We create single hardship file with all your financial documentation. Use this to negotiate with all 5 banks simultaneously. Much better results than sequential negotiation. <strong>Step 4: Minimum Payment Math Presentation</strong> - We show banks how much time and money you’ve already paid in minimums. Prove that continued minimum payment will take 10+ years. Show that settlement makes business sense for bank (recover something now vs years of collection costs). <strong>Step 5: One-Time Payment Settlement</strong> - Negotiate 40-75% total reduction. All cards closed simultaneously. Single payment timeline. Legal documentation for each card. <strong>Step 6: Credit Rebuilding Guide</strong> - After settlement, we guide you on secured credit cards (FD-backed), small credit rebuilding, eventual return to normal credit access.
                     </p>
                   </div>
 
@@ -444,13 +444,13 @@ export default function MaharashtraPageClient() {
                     <strong>Our coordinated approach:</strong> We treat all your cards as single debt portfolio. Build one comprehensive hardship file. Contact all 5 banks within same week. Present same financial situation to each. Negotiate similar settlement percentages. Aim for all settlements to close within 15-20 days of each other. You arrange total settlement amount once. Pay all banks. All cards closed together. Clean exit from entire credit card debt.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Why this works better:</strong> When bank A knows you're settling with banks B, C, D, E also, they're more motivated to accept your offer. They don't want to be the last one still chasing you after others have settled. Peer pressure among banks works in your favor. Also, if you pay bank A full amount and then cannot arrange money for banks B-E, bank A might get sued by other banks for preferential payment. So all banks prefer coordinated settlement.
+                    <strong>Why this works better:</strong> When bank A knows you’re settling with banks B, C, D, E also, they’re more motivated to accept your offer. They don’t want to be the last one still chasing you after others have settled. Peer pressure among banks works in your favor. Also, if you pay bank A full amount and then cannot arrange money for banks B-E, bank A might get sued by other banks for preferential payment. So all banks prefer coordinated settlement.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Settlement percentage varies by card:</strong> Card that's 18 months overdue settles at 35-40%. Card that's 8 months overdue settles at 55-60%. Card that's only 3 months overdue might settle at 70-75%. We negotiate best possible percentage for each card considering overdue period, your payment history, bank's internal policies. On average, our Maharashtra clients save 58% total across all cards.
+                    <strong>Settlement percentage varies by card:</strong> Card that’s 18 months overdue settles at 35-40%. Card that’s 8 months overdue settles at 55-60%. Card that’s only 3 months overdue might settle at 70-75%. We negotiate best possible percentage for each card considering overdue period, your payment history, bank’s internal policies. On average, our Maharashtra clients save 58% total across all cards.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Premium card settlement:</strong> American Express, Diners Club, premium variants of bank cards. These have annual fees ₹5,000-10,000. Outstanding might be higher. But settlement percentage is similar to regular cards. Banks don't differentiate much between premium and regular cards once debt goes to NPA stage. Premium card psychology ("I have Amex Platinum, I'm successful") keeps people paying longer. But once default happens, banks treat all NPAs similarly.
+                    <strong>Premium card settlement:</strong> American Express, Diners Club, premium variants of bank cards. These have annual fees ₹5,000-10,000. Outstanding might be higher. But settlement percentage is similar to regular cards. Banks don’t differentiate much between premium and regular cards once debt goes to NPA stage. Premium card psychology ("I have Amex Platinum, I’m successful") keeps people paying longer. But once default happens, banks treat all NPAs similarly.
                   </p>
                 </div>
               </section>
@@ -477,13 +477,13 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Mumbai:</strong> India's financial capital, highest credit card penetration. South Mumbai, BKC, Lower Parel, Andheri, Ghatkopar, Thane. Professionals earning ₹8-25 lakhs have 4-8 cards. Lifestyle spending on dining, shopping, entertainment, travel. Real estate down payments on cards. Wedding expenses. Average card debt per person ₹4-8 lakhs. We've handled 5,600+ Mumbai credit card settlements.
+                    <strong>Mumbai:</strong> India’s financial capital, highest credit card penetration. South Mumbai, BKC, Lower Parel, Andheri, Ghatkopar, Thane. Professionals earning ₹8-25 lakhs have 4-8 cards. Lifestyle spending on dining, shopping, entertainment, travel. Real estate down payments on cards. Wedding expenses. Average card debt per person ₹4-8 lakhs. We’ve handled 5,600+ Mumbai credit card settlements.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Pune:</strong> IT hub, education city. Hinjewadi, Baner, Kharadi, Viman Nagar, Magarpatta professionals. Mix of IT employees, business owners, students. Card usage for gadgets, bikes, home appliances on EMI, online shopping, weekend getaways. Average 3-5 cards per person, ₹2.5-5 lakhs total debt. We've settled 2,100+ Pune cases.
+                    <strong>Pune:</strong> IT hub, education city. Hinjewadi, Baner, Kharadi, Viman Nagar, Magarpatta professionals. Mix of IT employees, business owners, students. Card usage for gadgets, bikes, home appliances on EMI, online shopping, weekend getaways. Average 3-5 cards per person, ₹2.5-5 lakhs total debt. We’ve settled 2,100+ Pune cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Nagpur, Nashik, Aurangabad:</strong> Tier 2 cities seeing credit card growth. Professional class emerging, banks aggressively pushing cards. People not familiar with minimum payment trap, get caught. We've settled 1,500+ cases in these cities combined. Usually involving 2-4 cards, ₹1.5-3 lakhs total debt.
+                    <strong>Nagpur, Nashik, Aurangabad:</strong> Tier 2 cities seeing credit card growth. Professional class emerging, banks aggressively pushing cards. People not familiar with minimum payment trap, get caught. We’ve settled 1,500+ cases in these cities combined. Usually involving 2-4 cards, ₹1.5-3 lakhs total debt.
                   </p>
                 </div>
               </section>
@@ -510,7 +510,7 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Save 40-75% on Credit Card Debt:</strong> Maharashtra clients save 58% on average. ₹6 lakh card debt becomes ₹2.5 lakh settlement. That's ₹3.5 lakhs saved. Much better than paying minimums for 12 years and spending ₹10+ lakhs total.
+                    <strong>1. Save 40-75% on Credit Card Debt:</strong> Maharashtra clients save 58% on average. ₹6 lakh card debt becomes ₹2.5 lakh settlement. That’s ₹3.5 lakhs saved. Much better than paying minimums for 12 years and spending ₹10+ lakhs total.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. Break Minimum Payment Trap Forever:</strong> No more paying ₹30,000-50,000 monthly that mostly goes to interest. One-time payment closes everything. Freedom from monthly EMI stress.
@@ -519,7 +519,7 @@ export default function MaharashtraPageClient() {
                     <strong>3. Stop Collection Harassment Within Week:</strong> Legal notices to all banks. Recovery calls, messages, emails stop within 5-7 days. Peace returns to life.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Handle All Cards Together:</strong> Don't fight 5-7 banks separately. We negotiate all simultaneously. Single payment timeline. All cards closed together.
+                    <strong>4. Handle All Cards Together:</strong> Don’t fight 5-7 banks separately. We negotiate all simultaneously. Single payment timeline. All cards closed together.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>5. Legal RBI-Compliant Process:</strong> Every settlement documented properly. Settlement letters, receipts, NOC. No bank can return claiming you still owe. Important for professionals who need clean financial record eventually.
@@ -555,10 +555,10 @@ export default function MaharashtraPageClient() {
                     <strong>RBI Fair Practices for Credit Cards:</strong> Banks cannot call you before 8am or after 7pm. Cannot call more than 3 times per week. Cannot use abusive language or threaten. Cannot contact your employer or family without your permission. Cannot visit your house repeatedly. Break these rules, file Banking Ombudsman complaint.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>No Criminal Case for Card Debt:</strong> Credit card debt is civil matter, not criminal. Banks cannot threaten police case. Recovery agents saying "we'll file cheating case" are lying. Only if you gave fake documents during card application can there be criminal case. Regular card usage and inability to pay is civil debt issue.
+                    <strong>No Criminal Case for Card Debt:</strong> Credit card debt is civil matter, not criminal. Banks cannot threaten police case. Recovery agents saying "we’ll file cheating case" are lying. Only if you gave fake documents during card application can there be criminal case. Regular card usage and inability to pay is civil debt issue.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Settlement Right:</strong> You have right to negotiate and settle. Bank cannot force you to pay full amount if you're in genuine financial hardship. RBI encourages settlement over long litigation.
+                    <strong>Settlement Right:</strong> You have right to negotiate and settle. Bank cannot force you to pay full amount if you’re in genuine financial hardship. RBI encourages settlement over long litigation.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Documentation Right:</strong> After settlement payment, bank must provide NOC and settlement letter within 30 days maximum per RBI rule. If delayed, file Banking Ombudsman complaint.
@@ -696,19 +696,19 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Drowning in credit card debt in Mumbai, Pune or anywhere in Maharashtra? Multiple cards, minimum payment trap, recovery harassment? You don't need to suffer alone. Settlement is legal. RBI allows it. Banks do it daily. It exists precisely for situations like yours.
+                    Drowning in credit card debt in Mumbai, Pune or anywhere in Maharashtra? Multiple cards, minimum payment trap, recovery harassment? You don’t need to suffer alone. Settlement is legal. RBI allows it. Banks do it daily. It exists precisely for situations like yours.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Credit card debt destroys peace. Phone rings 20 times daily with collection calls. Cannot focus at work. Family worried. Sleep vanishes. Each day you delay, interest compounds. ₹3.5% monthly interest (42% annually) means your debt grows ₹25,000-50,000 every month you don't act. Minimum payments keep you trapped for 10-15 years paying double the original amount.
+                    Credit card debt destroys peace. Phone rings 20 times daily with collection calls. Cannot focus at work. Family worried. Sleep vanishes. Each day you delay, interest compounds. ₹3.5% monthly interest (42% annually) means your debt grows ₹25,000-50,000 every month you don’t act. Minimum payments keep you trapped for 10-15 years paying double the original amount.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and clear options. Our Maharashtra experts will show exactly how much you can save, how fast harassment stops, what documents you need. We've helped 9,200+ Maharashtra families escape credit card trap. You can be next.
+                    <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and clear options. Our Maharashtra experts will show exactly how much you can save, how fast harassment stops, what documents you need. We’ve helped 9,200+ Maharashtra families escape credit card trap. You can be next.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Don't let credit card debt destroy your life. With our legal team, Maharashtra banking knowledge and proven settlement record, you can close all cards legally and restart fresh. Lifestyle spending got you here, legal settlement gets you out. Act now.
+                    Don’t let credit card debt destroy your life. With our legal team, Maharashtra banking knowledge and proven settlement record, you can close all cards legally and restart fresh. Lifestyle spending got you here, legal settlement gets you out. Act now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Mumbai, Pune, Nagpur or any Maharashtra city. Whether 2 cards or 7 cards, ₹50,000 debt or ₹10 lakh debt, legal solution exists. We'll help you find it.
+                    <strong>Call CredSettle for free consultation.</strong> Mumbai, Pune, Nagpur or any Maharashtra city. Whether 2 cards or 7 cards, ₹50,000 debt or ₹10 lakh debt, legal solution exists. We’ll help you find it.
                   </p>
                 </div>
               </section>

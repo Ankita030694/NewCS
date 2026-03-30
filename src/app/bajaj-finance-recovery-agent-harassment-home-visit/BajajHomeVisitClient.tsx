@@ -459,12 +459,12 @@ export default function BajajHomeVisitClient() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900">{review.name}</h4>
-                        <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
+                        <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
                     <div className="flex text-yellow-400 mb-3 text-sm">
                       {[...Array(review.rating)].map((_, i) => (
-                        <span key={i}>★</span>
+                        <span key={i}>*</span>
                       ))}
                     </div>
                     <p className="text-gray-700 text-sm leading-relaxed italic">"{review.text}"</p>
@@ -555,7 +555,7 @@ export default function BajajHomeVisitClient() {
 
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center">
                 <div className="text-blue-600 text-2xl font-black mb-1">4.9/5</div>
-                <div className="flex justify-center text-yellow-400 mb-2">★★★★★</div>
+                <div className="flex justify-center text-yellow-400 mb-2">*****</div>
                 <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Authentication Verified</p>
               </div>
 

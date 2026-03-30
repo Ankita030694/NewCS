@@ -279,13 +279,13 @@ export default function LoanArbitrationClient() {
 
                             <h2 id="why-arbitration" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Why Banks Choose Arbitration over Litigation</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                It is important to realize that banks don't include arbitration clauses out of kindness. They do it for strategic reasons:
+                                It is important to realize that banks don’t include arbitration clauses out of kindness. They do it for strategic reasons:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Speed of Enforcement:</strong> An arbitral award can be obtained in 12 months, whereas a civil suit might take years.</li>
-                                <li><strong>Cost-Sharing:</strong> The borrower is often contractually obligated to pay half (or all) of the arbitration fees, reducing the bank's recovery overhead.</li>
+                                <li><strong>Cost-Sharing:</strong> The borrower is often contractually obligated to pay half (or all) of the arbitration fees, reducing the bank’s recovery overhead.</li>
                                 <li><strong>Selection of Forum:</strong> Banks can specify the "Seat of Arbitration" (usually a metropolitan city like Mumbai or Delhi) and the language of the proceedings, making it harder for rural borrowers to defend themselves.</li>
-                                <li><strong>Privacy:</strong> Unlike court records, arbitration is confidential. This prevents "Default News" from spreading and protects the bank's reputation while they deal with bad loans.</li>
+                                <li><strong>Privacy:</strong> Unlike court records, arbitration is confidential. This prevents "Default News" from spreading and protects the bank’s reputation while they deal with bad loans.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Knowing why the bank is using this route helps you build a counter-strategy. If the bank wants speed, you can use procedural challenges to ensure they follow every "t" and "i" of the law, potentially slowing them down to a pace where they are willing to offer a settlement.
@@ -400,7 +400,7 @@ export default function LoanArbitrationClient() {
                                 Arbitration is the modern reality of debt resolution in India. It is fast, it is final, and it is formidable. But it is not something to be feared. By understanding the sections of the Arbitration and Conciliation Act and working with a specialized lawyer, you can turn a recovery notice into an opportunity for a financial reset.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Don't ignore the notice. Don't boycott the hearings. Instead, use every procedural tool available, from challenging the arbitrator to filing for interim relief, to protect your assets and your dignity. In the world of 2025 finance, knowledge of the law is the best insurance against debt distress.
+                                Don’t ignore the notice. Don’t boycott the hearings. Instead, use every procedural tool available, from challenging the arbitrator to filing for interim relief, to protect your assets and your dignity. In the world of 2025 finance, knowledge of the law is the best insurance against debt distress.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Client Success and Feedback</h2>
@@ -437,7 +437,7 @@ export default function LoanArbitrationClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Arbitration</h3>
-                                <p className="text-blue-800 mb-6">Don't let the speed of arbitration catch you off guard. Our team of specialized lawyers is here to defend your interests, challenge biased appointments, and negotiate the best possible settlements.</p>
+                                <p className="text-blue-800 mb-6">Don’t let the speed of arbitration catch you off guard. Our team of specialized lawyers is here to defend your interests, challenge biased appointments, and negotiate the best possible settlements.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -460,7 +460,7 @@ export default function LoanArbitrationClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Notice Received?</h4>
-                                <p className="text-sm text-gray-600 mb-6">Don't wait. You have limited days to object to an arbitrator appointment.</p>
+                                <p className="text-sm text-gray-600 mb-6">Don’t wait. You have limited days to object to an arbitrator appointment.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -468,9 +468,9 @@ export default function LoanArbitrationClient() {
                                     Respond to Notice
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Invocation Notice Review</p>
-                                    <li>✓ Section 9 & 17 Relief</li>
-                                    <li>✓ Section 34 Challenges</li>
+                                    <p>v Invocation Notice Review</p>
+                                    <li>v Section 9 & 17 Relief</li>
+                                    <li>v Section 34 Challenges</li>
                                 </div>
                             </div>
 

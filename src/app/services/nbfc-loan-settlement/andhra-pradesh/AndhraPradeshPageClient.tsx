@@ -8,7 +8,7 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 
 const heroCopy = {
-  title: 'NBFC Loan Settlement in Andhra Pradesh – Coastal Clarity, Legal Closure',
+  title: 'NBFC Loan Settlement in Andhra Pradesh - Coastal Clarity, Legal Closure',
   description:
     'Andhra Pradesh borrowers juggle coastal trade cycles, agrarian income swings, fintech buzz, and microfinance networks. CredSettle’s AP command desk blends RBI policy mastery with state-level dispute forums to negotiate compliant settlements, throttle harassment, and deliver closure for borrowers in Vizag, Vijayawada, Guntur, Tirupati, and Rayalaseema.'
 };
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: 'How strong are settlement outcomes in coastal and Rayalaseema regions?',
     answer:
-      'Average reductions range between 40% and 70% depending on loan category and documentation strength. Coastal traders and transporters typically see 45–55% waivers, while fintech personal loans and microfinance cases can cross the 60% mark once we substantiate income disruption.'
+      'Average reductions range between 40% and 70% depending on loan category and documentation strength. Coastal traders and transporters typically see 45-55% waivers, while fintech personal loans and microfinance cases can cross the 60% mark once we substantiate income disruption.'
   },
   {
     question: 'Can CredSettle help if SARFAESI and arbitration proceedings run simultaneously?',
@@ -72,7 +72,7 @@ const sections = [
   },
   {
     id: 'credsettle-ap-method',
-    title: "CredSettle's Andhra Settlement Method",
+    title: "CredSettle’s Andhra Settlement Method",
     level: 2,
     content: [
       "Diagnostics: We collect sanction letters, EMI trails, bank statements, GST returns, mandi invoices, shipping bills, SHG passbooks, and digital app screenshots. Compliance control: representation notices go to NBFC nodal officers, recovery agencies, and local police citing RBI and AP regulations.",
@@ -160,7 +160,7 @@ const headings = [
   { id: 'ap-credit-dynamics', text: 'Andhra Pradesh Credit Dynamics', level: 2 },
   { id: 'nbfc-footprint-ap', text: 'NBFC Footprint Across Andhra Pradesh', level: 2 },
   { id: 'legal-framework-ap', text: 'Legal Framework & Benchmarks', level: 2 },
-  { id: 'credsettle-ap-method', text: "CredSettle's AP Settlement Method", level: 2 },
+  { id: 'credsettle-ap-method', text: "CredSettle’s AP Settlement Method", level: 2 },
   { id: 'industry-playbooks-ap', text: 'Industry Playbooks', level: 2 },
   { id: 'legal-forums-ap', text: 'Dispute Forums', level: 2 },
   { id: 'step-plan-ap', text: 'Step-by-Step Roadmap', level: 2 },

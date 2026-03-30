@@ -246,7 +246,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                This secured status means car loan settlements require understanding of <strong>vehicle depreciation dynamics</strong> and the Loan-to-Value (LTV) ratio. When you financed your vehicle, the lender approved the loan based on the car's on-road price. However, vehicles depreciate rapidly-typically 15-20% in the first year, and 10-15% annually thereafter. By the time you're seeking settlement, the vehicle's current market value (often assessed through platforms like CarDekho or OLX resale values) may be significantly lower than your outstanding loan principal, especially if you're in the early years of the loan tenure.
+                This secured status means car loan settlements require understanding of <strong>vehicle depreciation dynamics</strong> and the Loan-to-Value (LTV) ratio. When you financed your vehicle, the lender approved the loan based on the car’s on-road price. However, vehicles depreciate rapidly-typically 15-20% in the first year, and 10-15% annually thereafter. By the time you’re seeking settlement, the vehicle’s current market value (often assessed through platforms like CarDekho or OLX resale values) may be significantly lower than your outstanding loan principal, especially if you’re in the early years of the loan tenure.
               </p>
               <p
                 style={{
@@ -257,7 +257,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                At CredSettle, our car loan settlement specialists understand these technical nuances. We leverage the depreciated vehicle value, your financial hardship documentation, and the lender's provisioning requirements (cost of repossession, storage, auction, and potential loss) to negotiate settlements that typically reduce your payoff obligation by 30-70%. Our legal team ensures all settlements comply with RBI guidelines and properly address the <strong>hypothecation release process</strong>, ensuring you receive a clear Registration Certificate (RC) with the lender's charge mark removed.
+                At CredSettle, our car loan settlement specialists understand these technical nuances. We leverage the depreciated vehicle value, your financial hardship documentation, and the lender’s provisioning requirements (cost of repossession, storage, auction, and potential loss) to negotiate settlements that typically reduce your payoff obligation by 30-70%. Our legal team ensures all settlements comply with RBI guidelines and properly address the <strong>hypothecation release process</strong>, ensuring you receive a clear Registration Certificate (RC) with the lender’s charge mark removed.
               </p>
             </div>
 
@@ -284,7 +284,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                The settlement journey begins with a <strong>comprehensive secured loan audit</strong>. We analyze your loan agreement to identify the principal borrowed, the interest rate structure (flat rate vs. reducing balance method-most car loans use reducing balance), any processing fees or charges, accumulated interest, and penalty charges. Importantly, we calculate your current <strong>outstanding principal-to-vehicle-value ratio</strong>. If your outstanding amount exceeds the vehicle's current market value (creating a "negative equity" situation), this significantly strengthens our negotiation position.
+                The settlement journey begins with a <strong>comprehensive secured loan audit</strong>. We analyze your loan agreement to identify the principal borrowed, the interest rate structure (flat rate vs. reducing balance method-most car loans use reducing balance), any processing fees or charges, accumulated interest, and penalty charges. Importantly, we calculate your current <strong>outstanding principal-to-vehicle-value ratio</strong>. If your outstanding amount exceeds the vehicle’s current market value (creating a "negative equity" situation), this significantly strengthens our negotiation position.
               </p>
               <p
                 style={{
@@ -295,7 +295,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Once CredSettle assumes responsibility for your case, we <strong>initiate strategic communication</strong> with your lender's vehicle loan recovery or NPA (Non-Performing Asset) division. Here's where technical knowledge becomes crucial: when your EMIs are overdue for 90 days or more, your account is classified as an NPA. At this stage, lenders face increased provisioning requirements-they must set aside capital against potential loss. A settlement offer becomes attractive because repossession involves significant costs: hiring recovery agents, transporting and storing the vehicle, auctioning it (often at 20-40% below market value), and accounting for legal costs if the borrower contests seizure.
+                Once CredSettle assumes responsibility for your case, we <strong>initiate strategic communication</strong> with your lender’s vehicle loan recovery or NPA (Non-Performing Asset) division. Here’s where technical knowledge becomes crucial: when your EMIs are overdue for 90 days or more, your account is classified as an NPA. At this stage, lenders face increased provisioning requirements-they must set aside capital against potential loss. A settlement offer becomes attractive because repossession involves significant costs: hiring recovery agents, transporting and storing the vehicle, auctioning it (often at 20-40% below market value), and accounting for legal costs if the borrower contests seizure.
               </p>
               <p
                 style={{
@@ -306,7 +306,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Our negotiation strategy addresses the <strong>hypothecation agreement</strong> head-on. Under the Motor Vehicles Act, 1988, and the Central Motor Vehicles Rules, 1989, your vehicle's Registration Certificate (Form 23) includes the lender's name as the hypothecation holder. This legal charge prevents you from selling or transferring the vehicle without the lender's No Objection Certificate (NOC). We negotiate settlements that include explicit hypothecation removal-ensuring the lender provides a NOC and submits Form 35 (Notice of Removal/Satisfaction of Hypothecation) to the Regional Transport Office (RTO) within the RBI-mandated 30-day period after settlement payment.
+                Our negotiation strategy addresses the <strong>hypothecation agreement</strong> head-on. Under the Motor Vehicles Act, 1988, and the Central Motor Vehicles Rules, 1989, your vehicle’s Registration Certificate (Form 23) includes the lender’s name as the hypothecation holder. This legal charge prevents you from selling or transferring the vehicle without the lender’s No Objection Certificate (NOC). We negotiate settlements that include explicit hypothecation removal-ensuring the lender provides a NOC and submits Form 35 (Notice of Removal/Satisfaction of Hypothecation) to the Regional Transport Office (RTO) within the RBI-mandated 30-day period after settlement payment.
               </p>
               <p
                 style={{
@@ -317,7 +317,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Crucially, CredSettle also protects you from repossession attempts during negotiations. Under Section 13 of the SARFAESI Act (Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002), lenders have the right to take possession of secured assets without court intervention-but only after issuing a 60-day demand notice. Our legal team ensures proper notice periods are followed, and we challenge any illegal seizure attempts. If recovery agents threaten immediate repossession without proper notice, we file formal complaints with the RBI Ombudsman and local law enforcement, as such actions violate both SARFAESI procedures and RBI's Fair Practices Code.
+                Crucially, CredSettle also protects you from repossession attempts during negotiations. Under Section 13 of the SARFAESI Act (Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002), lenders have the right to take possession of secured assets without court intervention-but only after issuing a 60-day demand notice. Our legal team ensures proper notice periods are followed, and we challenge any illegal seizure attempts. If recovery agents threaten immediate repossession without proper notice, we file formal complaints with the RBI Ombudsman and local law enforcement, as such actions violate both SARFAESI procedures and RBI’s Fair Practices Code.
               </p>
             </div>
 
@@ -344,7 +344,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                The primary advantage of professional car loan settlement is <strong>asset protection combined with debt reduction</strong>. In many cases, we successfully negotiate settlements that allow you to retain vehicle ownership. This is particularly feasible when the settlement amount we secure is less than the vehicle's current market value-the lender realizes more value by accepting the settlement payment than by repossessing, auctioning, and potentially selling the vehicle at a steep discount while bearing all associated costs.
+                The primary advantage of professional car loan settlement is <strong>asset protection combined with debt reduction</strong>. In many cases, we successfully negotiate settlements that allow you to retain vehicle ownership. This is particularly feasible when the settlement amount we secure is less than the vehicle’s current market value-the lender realizes more value by accepting the settlement payment than by repossessing, auctioning, and potentially selling the vehicle at a steep discount while bearing all associated costs.
               </p>
               <p
                 style={{
@@ -355,7 +355,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Beyond financial savings, CredSettle provides <strong>immediate protection from repossession threats and harassment</strong>. The moment we take over your case, we legally intervene to stop all direct contact between the lender and you. Recovery agents are notorious for aggressive tactics: showing up at your workplace, contacting family members, threatening immediate vehicle seizure, or using tracker devices installed in vehicles to locate and repossess them. Our legal team files formal complaints against any violations of the RBI's Fair Practices Code or SARFAESI procedural requirements, creating a documented record that strengthens your position and often halts illegal recovery actions immediately.
+                Beyond financial savings, CredSettle provides <strong>immediate protection from repossession threats and harassment</strong>. The moment we take over your case, we legally intervene to stop all direct contact between the lender and you. Recovery agents are notorious for aggressive tactics: showing up at your workplace, contacting family members, threatening immediate vehicle seizure, or using tracker devices installed in vehicles to locate and repossess them. Our legal team files formal complaints against any violations of the RBI’s Fair Practices Code or SARFAESI procedural requirements, creating a documented record that strengthens your position and often halts illegal recovery actions immediately.
               </p>
               <p
                 style={{
@@ -366,7 +366,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Additionally, CredSettle ensures you receive <strong>complete documentation for hypothecation removal</strong>. Many borrowers who settle independently receive the settlement letter but struggle for months to get the lender to file Form 35 with the RTO, leaving the hypothecation active on the RC book. Our team tracks this process end-to-end, ensuring compliance with the RBI's September 2023 mandate requiring lenders to release all security documents and remove registered charges within 30 days of settlement payment-or face penalties of ₹5,000 per day of delay. This ensures you receive a clean, unencumbered RC, allowing you to sell, transfer, or refinance the vehicle in the future without restrictions.
+                Additionally, CredSettle ensures you receive <strong>complete documentation for hypothecation removal</strong>. Many borrowers who settle independently receive the settlement letter but struggle for months to get the lender to file Form 35 with the RTO, leaving the hypothecation active on the RC book. Our team tracks this process end-to-end, ensuring compliance with the RBI’s September 2023 mandate requiring lenders to release all security documents and remove registered charges within 30 days of settlement payment-or face penalties of ₹5,000 per day of delay. This ensures you receive a clean, unencumbered RC, allowing you to sell, transfer, or refinance the vehicle in the future without restrictions.
               </p>
             </div>
 
@@ -415,7 +415,7 @@ export default function CarLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Finally, the RBI's <strong>Fair Practices Code for Lenders</strong> and <strong>Guidelines on Managing Risks and Code of Conduct in Outsourcing of Financial Services</strong> establish strict conduct requirements for recovery agents. Lenders are fully responsible for agent behavior and cannot disclaim liability. Prohibited practices include: visiting borrowers without prior notice, contacting third parties (employers, neighbors, family not co-signed on the loan), using abusive language or threats, repossessing vehicles without issuing the mandatory 60-day SARFAESI notice, and using physical force or intimidation. At CredSettle, we meticulously document any violations and file complaints with the RBI Ombudsman, Banking Ombudsman, and local law enforcement, often resulting in immediate cessation of harassment and strengthening our settlement negotiation position significantly.
+                Finally, the RBI’s <strong>Fair Practices Code for Lenders</strong> and <strong>Guidelines on Managing Risks and Code of Conduct in Outsourcing of Financial Services</strong> establish strict conduct requirements for recovery agents. Lenders are fully responsible for agent behavior and cannot disclaim liability. Prohibited practices include: visiting borrowers without prior notice, contacting third parties (employers, neighbors, family not co-signed on the loan), using abusive language or threats, repossessing vehicles without issuing the mandatory 60-day SARFAESI notice, and using physical force or intimidation. At CredSettle, we meticulously document any violations and file complaints with the RBI Ombudsman, Banking Ombudsman, and local law enforcement, often resulting in immediate cessation of harassment and strengthening our settlement negotiation position significantly.
               </p>
             </div>
           </div>

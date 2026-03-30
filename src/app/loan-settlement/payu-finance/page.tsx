@@ -118,7 +118,7 @@ export default function PayUFinanceLoanSettlementPage() {
     },
     {
       question: "What if PayU recover agents are harassing me?",
-      answer: "Harassment by recovery agents is illegal under RBI guidelines. If you are facing abuse, you should file a complaint with PayU's Nodal Officer. If you hire CredSettle, our legal team takes over communication and stops the harassment immediately."
+      answer: "Harassment by recovery agents is illegal under RBI guidelines. If you are facing abuse, you should file a complaint with PayU’s Nodal Officer. If you hire CredSettle, our legal team takes over communication and stops the harassment immediately."
     },
     {
       question: "Who is the Nodal Officer for PayU Finance?",

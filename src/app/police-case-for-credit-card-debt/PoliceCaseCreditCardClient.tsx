@@ -92,7 +92,7 @@ export default function PoliceCaseCreditCardClient() {
         },
         {
             question: 'How do I handle a "Police" call from a recovery agent?',
-            answer: 'Record the call. Ask for the caller\'s station name and belt number. If they refuse or use abusive language, they are likely recovery agents posing as police. File a complaint with the bank and the RBI Ombudsman.'
+            answer: 'Record the call. Ask for the caller’s station name and belt number. If they refuse or use abusive language, they are likely recovery agents posing as police. File a complaint with the bank and the RBI Ombudsman.'
         },
         {
             question: 'Does the Supreme Court protect borrowers from police harassment?',
@@ -108,7 +108,7 @@ export default function PoliceCaseCreditCardClient() {
         },
         {
             question: 'What is a "Bailable Warrant" in debt cases?',
-            answer: 'It is a court order to ensure you attend a hearing, usually in a cheque bounce case. You don\'t go to jail; you just pay a small bond at the police station or court to "secure" your next appearance.'
+            answer: 'It is a court order to ensure you attend a hearing, usually in a cheque bounce case. You don’t go to jail; you just pay a small bond at the police station or court to "secure" your next appearance.'
         }
     ];
 
@@ -378,7 +378,7 @@ export default function PoliceCaseCreditCardClient() {
                                 In this comprehensive 5000+ word guide, we will dismantle the "Police Case" myth. We will explore the categorical difference between <strong className="font-bold text-gray-900">Civil vs Criminal proceedings</strong>, the specific limits of police jurisdiction, and the new <strong className="font-bold text-gray-900">Bhartiya Nyay Sanhita (BNS)</strong> updates of 2025 that replace the old IPC sections. We will also provide you with the exact Supreme Court rulings you can cite to stop any officer or agent in their tracks.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we have seen thousands of cases where borrowers were threatened with "immediate arrest" via WhatsApp or fake calls. This guide is your legal armor. It is designed to move you from a state of fear to a state of knowledge. Because once you know the law, you realize that the agent's threat is not a sign of their power, but a sign of their legal impotence.
+                                At CredSettle, we have seen thousands of cases where borrowers were threatened with "immediate arrest" via WhatsApp or fake calls. This guide is your legal armor. It is designed to move you from a state of fear to a state of knowledge. Because once you know the law, you realize that the agent’s threat is not a sign of their power, but a sign of their legal impotence.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Whether you are dealing with a mainstream bank, an aggressive NBFC, or a credit card issuer, the rules of the Indian legal system are clear: Debt is not a crime. Let us dive deep into the laws that prove it.
@@ -391,7 +391,7 @@ export default function PoliceCaseCreditCardClient() {
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <h4 className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The Two Tracks:</h4>
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>1. The Civil Track (Breach of Contract):</strong> A credit card is a contract. If you don't pay, you "Breach" that contract. The remedy is financial. The bank can sue you for the money, but they cannot ask for your arrest.</li>
+                                    <li><strong>1. The Civil Track (Breach of Contract):</strong> A credit card is a contract. If you don’t pay, you "Breach" that contract. The remedy is financial. The bank can sue you for the money, but they cannot ask for your arrest.</li>
                                     <li><strong>2. The Criminal Track (Offenses against the State):</strong> Criminal law is triggered only when there is an Element of Crime (Mens Rea). This includes cheating, forgery, or theft. defaulting on a loan because you lost your job is NOT a crime.</li>
                                 </ul>
                             </div>
@@ -417,13 +417,13 @@ export default function PoliceCaseCreditCardClient() {
                             </p>
                             <div className="bg-red-50 p-8 rounded-3xl border border-red-100 mb-8 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>Cannot Interfere in Civil Debt:</strong> If a bank files a complaint saying "He owes us ₹5 Lakhs and isn't paying," the police duty is to mark it as "Civil in Nature" and close it.</li>
+                                    <li><strong>Cannot Interfere in Civil Debt:</strong> If a bank files a complaint saying "He owes us ₹5 Lakhs and isn’t paying," the police duty is to mark it as "Civil in Nature" and close it.</li>
                                     <li><strong>Cannot Help Recovery Agents:</strong> Police officers are strictly prohibited from accompanying recovery agents for doorstep "visits." </li>
                                     <li><strong>Cannot Force a Settlement:</strong> A police station is not a mediation center. An officer cannot force you to sign a "settlement agreement" or a "post-dated cheque." Any such signature taken under duress is void in court.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, if an officer calls you regarding a credit card debt, they are likely doing a "favor" for the bank's recovery manager. You are not legally required to attend the station for a civil debt matter unless an official written summon (with a diary entry number) is served to you.
+                                In 2025, if an officer calls you regarding a credit card debt, they are likely doing a "favor" for the bank’s recovery manager. You are not legally required to attend the station for a civil debt matter unless an official written summon (with a diary entry number) is served to you.
                             </p>
 
                             <h2 id="fake-police-calls" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Fake Police Calls: Spotting the Impersonators</h2>
@@ -459,7 +459,7 @@ export default function PoliceCaseCreditCardClient() {
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
                                 <h4 className="font-bold text-blue-900 mb-4">Valid Grounds for a Criminal FIR:</h4>
                                 <ul className="space-y-3 text-gray-800">
-                                    <li>1. **Fake Identity:** Using someone else's PAN or Aadhaar to get the card.</li>
+                                    <li>1. **Fake Identity:** Using someone else’s PAN or Aadhaar to get the card.</li>
                                     <li>2. **Forged Documents:** Giving a fake salary slip or IT return.</li>
                                     <li>3. **Siphoning:** Taking the money and immediately transferring it to an offshore account or an account not in your name to hide it.</li>
                                     <li>4. **Collusion:** Working with a bank employee to sanction a limit you were not eligible for.</li>
@@ -496,15 +496,15 @@ export default function PoliceCaseCreditCardClient() {
 
                             <h2 id="legal-notice-response" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Legal Notice Response: The "No-Crime" Declaration</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you receive a notice mentioning criminal sections, don't ignore it. Respond through a lawyer.
+                                If you receive a notice mentioning criminal sections, don’t ignore it. Respond through a lawyer.
                                 <br />- <strong className="font-bold text-gray-900">The Reply:</strong> "My client is a bona fide borrower who has unfortunately met with financial hardship. There is no element of fraud or siphoning. Any attempt to file a criminal FIR for a civil debt will be treated as malicious prosecution and will be contested at your cost."
-                                <br />This one letter usually stops any further criminal threats because the bank's legal team knows they cannot win a criminal case for a simple default.
+                                <br />This one letter usually stops any further criminal threats because the bank’s legal team knows they cannot win a criminal case for a simple default.
                             </p>
 
                             <h2 id="ombudsman-complaints" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Ombudsman Strategy: Regulatory Redressal</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The <strong className="font-bold text-gray-900">RBI Integrated Ombudsman Scheme 2024</strong> has strict penalties for "Harassment through False Legal/Police Threats."
-                                <br />- **Action:** File a complaint online. Mention that the bank's agents are impersonating police officers and causing mental agony.
+                                <br />- **Action:** File a complaint online. Mention that the bank’s agents are impersonating police officers and causing mental agony.
                                 <br />- **Result:** The Ombudsman can award compensation up to ₹1 Lakh and order the bank to stop all such activities immediately.
                             </p>
 
@@ -555,7 +555,7 @@ export default function PoliceCaseCreditCardClient() {
                                 By understanding the distinction between Civil and Criminal law, by recognizing the limits of police jurisdiction, and by utilizing the protections offered by the Supreme Court and the RBI, you can effectively silence the harassers. You are a consumer who has hit a financial roadblock, not a criminal on the run.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we specialize in building a legal wall around our clients. We handle the bank's legal notices, nosotros contest their false criminal claims, and we negotiate settlements that are based on your actual ability to pay, not on the fear of arrest. Don't let the threat of a "Police Case" paralyze you. Knowledge is your greatest defense. Stand up for your rights, protect your reputation, and let us help you find a professional, legal path to a debt-free life.
+                                At CredSettle, we specialize in building a legal wall around our clients. We handle the bank’s legal notices, nosotros contest their false criminal claims, and we negotiate settlements that are based on your actual ability to pay, not on the fear of arrest. Don’t let the threat of a "Police Case" paralyze you. Knowledge is your greatest defense. Stand up for your rights, protect your reputation, and let us help you find a professional, legal path to a debt-free life.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
@@ -591,9 +591,9 @@ export default function PoliceCaseCreditCardClient() {
                                     Stop Harassment Now
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 text-left px-1">
-                                    <p>✓ Reply to Legal Notices</p>
-                                    <p>✓ Stop Fake Police Calls</p>
-                                    <p>✓ Professional OTS Help</p>
+                                    <p>v Reply to Legal Notices</p>
+                                    <p>v Stop Fake Police Calls</p>
+                                    <p>v Professional OTS Help</p>
                                 </div>
                             </div>
 

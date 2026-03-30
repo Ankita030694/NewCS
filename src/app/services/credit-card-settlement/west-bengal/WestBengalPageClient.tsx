@@ -498,7 +498,7 @@ export default function WestBengalPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    A 34-year-old advertising director from Ballygunge had five credit cards totalling ₹7.6 lakh. She funded a short film, supported parents’ medical treatments and paid rent for her partner working in Mumbai. Client payments delayed for six months during pandemic recovery. Interest and late fees pushed dues beyond control.</p>
+                    A 34-year-old advertising director from Ballygunge had five credit cards totalling ₹7.6 lakh. She funded a short film, supported parents' medical treatments and paid rent for her partner working in Mumbai. Client payments delayed for six months during pandemic recovery. Interest and late fees pushed dues beyond control.</p>
                   <p style={{ marginBottom: '16px' }}>
                     We gathered invoices showing delayed client payments, medical bills and rent agreements. Negotiated 38-45% settlements across all cards. Final payout ₹3.2 lakh-she saved ₹4.4 lakh (58%). Harassment ended within a week, cards closed in 72 days, NOCs issued in another 30 days. She now uses a secured card and pays in full every month while rebuilding her CIBIL score.</p>
                 </div>

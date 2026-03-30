@@ -198,7 +198,7 @@ export default function LoginPageClient() {
                       disabled={isSubmitDisabled}
                       className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#0F8A5F] px-4 py-3 text-sm font-semibold text-white shadow-[0_18px_35px_rgba(15,138,95,0.28)] transition disabled:cursor-not-allowed disabled:opacity-70 hover:bg-[#0d6b4c]"
                     >
-                      {status.type === 'loading' ? 'Signing you in…' : 'Sign in to your account'}
+                      {status.type === 'loading' ? 'Signing you in...' : 'Sign in to your account'}
                       {status.type !== 'loading' && <FontAwesomeIcon icon={faArrowRight} className="w-4 h-4" />}
                     </button>
                   </form>

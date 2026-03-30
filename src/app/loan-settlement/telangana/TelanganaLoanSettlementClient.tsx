@@ -112,7 +112,7 @@ export default function TelanganaLoanSettlementClient() {
     },
     {
       question: "Do I need a lawyer for loan settlement in Telangana?",
-      answer: "While you can attempt to settle on your own, having a specialized legal team like CredSettle is highly advantageous. We understand the specific laws of Telangana, can effectively communicate with bank officials, stop harassment, and negotiate the most favorable settlement terms, ensuring you don't pay more than necessary."
+      answer: "While you can attempt to settle on your own, having a specialized legal team like CredSettle is highly advantageous. We understand the specific laws of Telangana, can effectively communicate with bank officials, stop harassment, and negotiate the most favorable settlement terms, ensuring you don’t pay more than necessary."
     },
     {
       question: "How long does the settlement process take?",
@@ -256,7 +256,7 @@ export default function TelanganaLoanSettlementClient() {
               </p>
               
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8 rounded-r-xl">
-                <h4 className="text-lg font-bold text-gray-900 mb-2">Justice Nagesh Bheemapaka's Directive (Sep 2025)</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">Justice Nagesh Bheemapaka’s Directive (Sep 2025)</h4>
                 <p className="text-gray-700 leading-relaxed">
                   In a significant ruling, the High Court directed banks to "scrupulously adhere" to RBI guidelines. The court explicitly stated that financial institutions cannot use "musclemen" or coercive tactics for recovery. This came after a petition highlighting privacy violations and harassment by agents.
                 </p>
@@ -265,7 +265,7 @@ export default function TelanganaLoanSettlementClient() {
               <div className="space-y-4 mb-8">
                 <div className="flex gap-4">
                    <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold">
-                     ⚖️
+                     [Scale]
                    </div>
                    <div>
                      <h4 className="text-lg font-bold text-gray-900">Police Cannot Be Recovery Agents (July 2025)</h4>
@@ -281,7 +281,7 @@ export default function TelanganaLoanSettlementClient() {
                    <div>
                      <h4 className="text-lg font-bold text-gray-900">Zero Tolerance for "Naming and Shaming"</h4>
                      <p className="text-gray-600">
-                       The court has reiterated that public humiliation—such as contacting relatives or posting on social media—is strictly prohibited. Any such action by loan apps or agents is grounds for immediate legal action against them.
+                       The court has reiterated that public humiliation-such as contacting relatives or posting on social media-is strictly prohibited. Any such action by loan apps or agents is grounds for immediate legal action against them.
                      </p>
                    </div>
                 </div>
@@ -289,7 +289,7 @@ export default function TelanganaLoanSettlementClient() {
 
               <h2 id="rythu-rina-mafi" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Difference Between "Rythu Rina Mafi" and Personal Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                With the Telangana Government's 2024 <strong>Rythu Rina Mafi (Crop Loan Waiver)</strong> scheme, there is often confusion among borrowers about which debts can be waived. It is crucial to distinguish between government waivers for farmers and private settlements for personal loans.
+                With the Telangana Government’s 2024 <strong>Rythu Rina Mafi (Crop Loan Waiver)</strong> scheme, there is often confusion among borrowers about which debts can be waived. It is crucial to distinguish between government waivers for farmers and private settlements for personal loans.
               </p>
 
               <div className="overflow-x-auto mb-8">
@@ -353,14 +353,14 @@ export default function TelanganaLoanSettlementClient() {
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">Expert Negotiation</h4>
-                    <p className="text-gray-700">Our skilled negotiators engage directly with the bank's regional or zonal offices in Hyderabad or other major districts. We aim to secure a settlement amount that is realistic for you, potentially saving significantly on the outstanding dues.</p>
+                    <p className="text-gray-700">Our skilled negotiators engage directly with the bank’s regional or zonal offices in Hyderabad or other major districts. We aim to secure a settlement amount that is realistic for you, potentially saving significantly on the outstanding dues.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">Formal Settlement Agreement</h4>
-                    <p className="text-gray-700">We ensure that the settlement offer is officially documented on the bank's letterhead. This is non-negotiable. We verify every term and condition to ensure your rights are protected before you make any payment.</p>
+                    <p className="text-gray-700">We ensure that the settlement offer is officially documented on the bank’s letterhead. This is non-negotiable. We verify every term and condition to ensure your rights are protected before you make any payment.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
@@ -374,7 +374,7 @@ export default function TelanganaLoanSettlementClient() {
 
               <h2 id="lok-adalat-telangana" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Leveraging the Telangana Lok Adalat</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Lok Adalat</strong> (People's Court) is a powerful tool for dispute resolution, widely used in Telangana. It serves as an Alternative Dispute Resolution (ADR) mechanism where pending cases or pre-litigation disputes are settled amicably.
+                The <strong>Lok Adalat</strong> (People’s Court) is a powerful tool for dispute resolution, widely used in Telangana. It serves as an Alternative Dispute Resolution (ADR) mechanism where pending cases or pre-litigation disputes are settled amicably.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 <strong>Why is it advantageous for you?</strong>
@@ -435,7 +435,7 @@ export default function TelanganaLoanSettlementClient() {
                 >
                   Free Consultation
                 </Link>
-                <p className="mt-4 text-sm opacity-70">100% Confidential • Expert Legal Team • State-Wide Service</p>
+                <p className="mt-4 text-sm opacity-70">100% Confidential * Expert Legal Team * State-Wide Service</p>
               </div>
 
             </article>
@@ -455,8 +455,8 @@ export default function TelanganaLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Hyderabad Focus</p>
-                  <p className="mt-1">✓ DRT Protection</p>
+                  <p>v Hyderabad Focus</p>
+                  <p className="mt-1">v DRT Protection</p>
                 </div>
               </div>
 

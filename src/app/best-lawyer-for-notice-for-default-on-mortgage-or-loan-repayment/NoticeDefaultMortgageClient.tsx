@@ -89,11 +89,11 @@ export default function NoticeDefaultMortgageClient() {
         },
         {
             question: 'Is it possible to get a stay on SARFAESI proceedings from the DRT?',
-            answer: 'Yes, the Debt Recovery Tribunal (DRT) has the power to grant a stay on SARFAESI proceedings if the borrower can prove procedural irregularities or legal defects in the bank\'s actions. This is typically done by filing a Securitisation Application (SA) under Section 17 of the SARFAESI Act. An experienced lawyer can find grounds such as improper notice service or incorrect NPA classification to obtain a stay.'
+            answer: 'Yes, the Debt Recovery Tribunal (DRT) has the power to grant a stay on SARFAESI proceedings if the borrower can prove procedural irregularities or legal defects in the bank’s actions. This is typically done by filing a Securitisation Application (SA) under Section 17 of the SARFAESI Act. An experienced lawyer can find grounds such as improper notice service or incorrect NPA classification to obtain a stay.'
         },
         {
             question: 'What is the role of a lawyer in replying to a loan default legal notice?',
-            answer: 'A lawyer ensures that your reply is technically sound and covers all legal defences. They help identify errors in the bank\'s claim, challenge the validity of the security interest, and draft a response that forces the bank to reconsider its position. A well-drafted legal reply can often Buy time or lead to more favorable settlement terms.'
+            answer: 'A lawyer ensures that your reply is technically sound and covers all legal defences. They help identify errors in the bank’s claim, challenge the validity of the security interest, and draft a response that forces the bank to reconsider its position. A well-drafted legal reply can often Buy time or lead to more favorable settlement terms.'
         },
         {
             question: 'What should a reply under Section 13(3A) contain?',
@@ -128,7 +128,7 @@ export default function NoticeDefaultMortgageClient() {
             name: 'Meera Nair',
             location: 'Kochi',
             stars: 5,
-            comment: 'Our business property was at risk after a series of missed repayments. CredSettle\'s lawyers found that the bank had not served the notice properly to all guarantors. We got a stay from the DRT which gave us the breathing space to negotiate a fair OTS.'
+            comment: 'Our business property was at risk after a series of missed repayments. CredSettle’s lawyers found that the bank had not served the notice properly to all guarantors. We got a stay from the DRT which gave us the breathing space to negotiate a fair OTS.'
         },
         {
             name: 'Rajesh Gupta',
@@ -322,7 +322,7 @@ export default function NoticeDefaultMortgageClient() {
                                 Receiving a formal notice from a bank regarding a default on a mortgage or loan repayment is one of the most stressful legal events a borrower can face. It marks the shift from a routine banking relationship to a high stakes legal conflict where your primary residence, business properties, or hard earned assets are at risk. In India, the legal framework for debt recovery has become increasingly streamlined through the SARFAESI Act and the Debt Recovery Tribunals (DRT), meaning borrowers have a limited window to act before banks exercise their powers of possession and sale.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A default notice is not just a reminder to pay; it is a legal requirement that serves as a precursor to enforcement. The best lawyer for notice for default on mortgage matters understands that the initial response to this notice can determine the outcome of the entire case. Whether it is a Section 13(2) demand notice under the SARFAESI Act or a general legal notice from a bank\'s panel advocate, the strategy must be built on technical legal grounds, factual accuracy, and a clear understanding of borrower rights under Indian law.
+                                A default notice is not just a reminder to pay; it is a legal requirement that serves as a precursor to enforcement. The best lawyer for notice for default on mortgage matters understands that the initial response to this notice can determine the outcome of the entire case. Whether it is a Section 13(2) demand notice under the SARFAESI Act or a general legal notice from a bank’s panel advocate, the strategy must be built on technical legal grounds, factual accuracy, and a clear understanding of borrower rights under Indian law.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This comprehensive guide is designed to help borrowers navigate the complex landscape of loan default notices in India. We will explore the different types of notices, the critical Section 13(2) process, your legal rights as a mortgagor, and the strategic steps you can take to stop recovery actions, challenge bank errors, and achieve a fair resolution. With over 4000 words of in depth legal analysis, this guide serves as your roadmap to protecting your property and your financial future.
@@ -340,20 +340,20 @@ export default function NoticeDefaultMortgageClient() {
                                     <li><strong>1. Recall Notice:</strong> This is usually the first formal notice where the bank officially "recalls" the loan facility due to persistent defaults. It demands the repayment of the entire outstanding balance plus interest within a short period (usually 7 to 15 days). While this is not yet a SARFAESI notice, it signals that the bank is preparing for legal action.</li>
                                     <li><strong>2. Legal Notice from Advocate:</strong> Often, banks engage panel lawyers to send a formal legal notice. This notice warns of impending civil suits in a court of law or proceedings in the DRT. It is governed by the Code of Civil Procedure and is often used for unsecured loans or cases where SARFAESI is not applicable.</li>
                                     <li><strong>3. Section 13(2) SARFAESI Notice:</strong> This is the most critical notice for secured loans (mortgages). It is a "Demand Notice" that gives the borrower 60 days to pay the total outstanding amount. It is issued only after the account is classified as a Non-Performing Asset (NPA). Failure to respond or comply allows the bank to take possession of the property.</li>
-                                    <li><strong>4. Section 13(4) Possession Notice:</strong> This notice is issued after the 60-day period of the 13(2) notice has expired. It informs the borrower and the public that the bank has taken symbolic possession of the property. It is the stage at which the borrower can approach the DRT to challenge the bank\'s actions.</li>
+                                    <li><strong>4. Section 13(4) Possession Notice:</strong> This notice is issued after the 60-day period of the 13(2) notice has expired. It informs the borrower and the public that the bank has taken symbolic possession of the property. It is the stage at which the borrower can approach the DRT to challenge the bank’s actions.</li>
                                     <li><strong>5. Sale Notice / Auction Notice:</strong> This notice informs the borrower that the bank intends to sell the property through a public auction or private treaty. It requires a mandatory 30-day notice period before the first attempt at sale and constant compliance with the Security Interest (Enforcement) Rules.</li>
                                 </ul>
                             </div>
 
                             <h2 id="sarfaesi-13-2" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Section 13(2) Notice: Your 60-Day Warning</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Section 13(2) of the SARFAESI Act, 2002, is the bank\'s primary tool for recovering dues from a defaulted mortgage. It is often referred to as a "draconian" provision because it allows the bank to initiate recovery without going to court. However, the law also provides strict safeguards to ensure that banks do not misuse this power.
+                                The Section 13(2) of the SARFAESI Act, 2002, is the bank’s primary tool for recovering dues from a defaulted mortgage. It is often referred to as a "draconian" provision because it allows the bank to initiate recovery without going to court. However, the law also provides strict safeguards to ensure that banks do not misuse this power.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To be valid, a Section 13(2) notice must be issued after the account has been classified as an NPA according to the Reserve Bank of India (RBI) guidelines. The notice must contain a detailed breakup of the principal and interest amounts claimed, a description of the secured assets the bank intends to enforce, and a clear instruction to pay the dues within 60 days.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For borrowers, this 60-day window is the "Golden Period." During this time, the bank cannot take your property. This is the period during which you must engage a lawyer to review the bank\'s claims, file a formal objection, or arrange for the funds to settle the matter. If you fail to act within these 60 days, the bank proceeds to Section 13(4), at which point regaining control of the property becomes much more difficult and expensive.
+                                For borrowers, this 60-day window is the "Golden Period." During this time, the bank cannot take your property. This is the period during which you must engage a lawyer to review the bank’s claims, file a formal objection, or arrange for the funds to settle the matter. If you fail to act within these 60 days, the bank proceeds to Section 13(4), at which point regaining control of the property becomes much more difficult and expensive.
                             </p>
 
                             <h2 id="borrower-rights" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Know Your Rights as a Mortgagor</h2>
@@ -364,7 +364,7 @@ export default function NoticeDefaultMortgageClient() {
                                 First, you have the **Right to Information**. The bank must provide you with a full statement of accounts and explain how the outstanding amount was calculated. You have the right to know why your account was classified as an NPA and the exact date of such classification.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Second, you have the **Right to Object**. Under Section 13(3A), you have the legal right to send a reply to the bank\'s demand notice. If you raise valid objections, the bank is legally obligated to consider them and respond with a reasoned letter within 15 days. They cannot proceed with enforcement without providing this response.
+                                Second, you have the **Right to Object**. Under Section 13(3A), you have the legal right to send a reply to the bank’s demand notice. If you raise valid objections, the bank is legally obligated to consider them and respond with a reasoned letter within 15 days. They cannot proceed with enforcement without providing this response.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Third, you have the **Right to Fair Valuation**. The bank cannot sell your property for whatever price they want. They must obtain a valuation from an approved valuer and set a reserve price that reflects the fair market value of the property. You have the right to challenge this valuation if it is too low.
@@ -442,7 +442,7 @@ export default function NoticeDefaultMortgageClient() {
                                         <tr>
                                             <td className="border border-gray-200 px-4 py-3 font-semibold">SARFAESI Act, 2002</td>
                                             <td className="border border-gray-200 px-4 py-3">Section 13(4)</td>
-                                            <td className="border border-gray-200 px-4 py-3">Bank\'s power to take possession of the property.</td>
+                                            <td className="border border-gray-200 px-4 py-3">Bank’s power to take possession of the property.</td>
                                         </tr>
                                         <tr>
                                             <td className="border border-gray-200 px-4 py-3 font-semibold">SARFAESI Act, 2002</td>
@@ -468,7 +468,7 @@ export default function NoticeDefaultMortgageClient() {
                                 Getting a stay on the possession or auction of your property is often the most urgent requirement after receiving a Section 13(4) notice. To obtain a stay from the DRT, you must file an SA accompanied by an "Application for Interim Relief".
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Tribunal will grant a stay if you can show a "Prima Facie" case—that is, if you can demonstrate on the surface that the bank has committed a significant legal error. For example, if you can prove that you were never served the Section 13(2) notice, the Tribunal will almost certainly stay the subsequent possession.
+                                The Tribunal will grant a stay if you can show a "Prima Facie" case-that is, if you can demonstrate on the surface that the bank has committed a significant legal error. For example, if you can prove that you were never served the Section 13(2) notice, the Tribunal will almost certainly stay the subsequent possession.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In many cases, the DRT may grant a stay conditional upon the borrower depositing a percentage of the outstanding amount (usually 10% to 25%). This is known as a "Conditional Stay." While it requires payment, it protects the property from auction and keeps the bank from transferring ownership to a third party while the main case is being heard.
@@ -491,7 +491,7 @@ export default function NoticeDefaultMortgageClient() {
 
                             <h2 id="legal-consequences" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Legal Consequences of Ignoring Bank Notices</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Ignoring a default notice is the single biggest mistake a borrower can make. It does not make the problem go away; it only accelerates the bank\'s shift to more aggressive recovery measures.
+                                Ignoring a default notice is the single biggest mistake a borrower can make. It does not make the problem go away; it only accelerates the bank’s shift to more aggressive recovery measures.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you ignore a notice, you waive your right to object. The bank can proceed to Section 14 and obtain an order from the Magistrate to take physical possession of your property with police aid. Once the property is auctioned and a sale certificate is issued, your rights over the property are extinguished.
@@ -509,10 +509,10 @@ export default function NoticeDefaultMortgageClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 text-center mb-12">
                                 <ul className="space-y-4 text-gray-800 text-left mb-8 max-w-2xl mx-auto">
-                                    <li><strong>✓ Forensic Account Review:</strong> They work with financial experts to find calculation errors in your loan statement.</li>
-                                    <li><strong>✓ Strategic Objections:</strong> They draft replies that create legal roadblocks for the bank, giving you more time to arrange funds.</li>
-                                    <li><strong>✓ High Quality Representation in DRT:</strong> They know the specific procedures and preferences of different Debt Recovery Tribunals across India.</li>
-                                    <li><strong>✓ Settlement Negotiation:</strong> They act as a buffer between you and the bank, negotiating professional OTS terms that a layperson could never achieve.</li>
+                                    <li><strong>v Forensic Account Review:</strong> They work with financial experts to find calculation errors in your loan statement.</li>
+                                    <li><strong>v Strategic Objections:</strong> They draft replies that create legal roadblocks for the bank, giving you more time to arrange funds.</li>
+                                    <li><strong>v High Quality Representation in DRT:</strong> They know the specific procedures and preferences of different Debt Recovery Tribunals across India.</li>
+                                    <li><strong>v Settlement Negotiation:</strong> They act as a buffer between you and the bank, negotiating professional OTS terms that a layperson could never achieve.</li>
                                 </ul>
                             </div>
 
@@ -550,7 +550,7 @@ export default function NoticeDefaultMortgageClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Protect Your Property Today</h3>
-                                <p className="text-blue-800 mb-6">Receiving a notice is the start of a timeline. Don\'t let the clock run out on your rights. Contact CredSettle for a free initial consultation with India\'s leading mortgage default lawyers.</p>
+                                <p className="text-blue-800 mb-6">Receiving a notice is the start of a timeline. Don’t let the clock run out on your rights. Contact CredSettle for a free initial consultation with India’s leading mortgage default lawyers.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -584,7 +584,7 @@ export default function NoticeDefaultMortgageClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Facing a Bank Notice?</h4>
-                                <p className="text-sm text-gray-600 mb-6">Don\'t wait for the 60 days to expire. Get a free assessment of your SARFAESI notice and protect your property.</p>
+                                <p className="text-sm text-gray-600 mb-6">Don’t wait for the 60 days to expire. Get a free assessment of your SARFAESI notice and protect your property.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -592,9 +592,9 @@ export default function NoticeDefaultMortgageClient() {
                                     Get Legal Help Now
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ 13(2) Notice Reply</p>
-                                    <p>✓ DRT Stay Applications</p>
-                                    <p>✓ OTS Negotiation Help</p>
+                                    <p>v 13(2) Notice Reply</p>
+                                    <p>v DRT Stay Applications</p>
+                                    <p>v OTS Negotiation Help</p>
                                 </div>
                             </div>
 

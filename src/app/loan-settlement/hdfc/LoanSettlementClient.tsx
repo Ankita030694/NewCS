@@ -225,7 +225,7 @@ export default function LoanSettlementClient() {
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                     <div>
                       <h4 className="font-bold text-gray-900 mt-0 mb-1">Negotiation</h4>
-                      <p className="text-gray-600 m-0">We initiate discussions with HDFC's settlement officers. We leverage our industry relationships to negotiate for the maximum possible waiver.</p>
+                      <p className="text-gray-600 m-0">We initiate discussions with HDFC’s settlement officers. We leverage our industry relationships to negotiate for the maximum possible waiver.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -295,17 +295,17 @@ export default function LoanSettlementClient() {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
                       <div className="flex items-center mb-4">
-                        <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                        <div className="text-yellow-400 text-xl mr-2">*****</div>
                         <div className="text-sm opacity-90 font-medium">Rahul Sharma, Delhi</div>
                       </div>
                       <p className="italic text-gray-100 text-sm leading-relaxed">"I had a pending HDFC credit card bill of 4 Lakhs. Agents were calling my office. CredSettle stepped in, stopped the calls, and closed the loan for 1.8 Lakhs. Lifesavers!"</p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
                       <div className="flex items-center mb-4">
-                        <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                        <div className="text-yellow-400 text-xl mr-2">*****</div>
                         <div className="text-sm opacity-90 font-medium">Priya M., Mumbai</div>
                       </div>
-                      <p className="italic text-gray-100 text-sm leading-relaxed">"Professional team. They handled all the legal notices from the bank. I didn't have to visit the branch even once. Highly recommended for peace of mind."</p>
+                      <p className="italic text-gray-100 text-sm leading-relaxed">"Professional team. They handled all the legal notices from the bank. I didn’t have to visit the branch even once. Highly recommended for peace of mind."</p>
                     </div>
                   </div>
                 </div>
@@ -371,7 +371,7 @@ export default function LoanSettlementClient() {
                 {/* Main CTA Card */}
                 <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
-                  <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
+                  <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                   <Link 
                     href="/contact"
                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -379,8 +379,8 @@ export default function LoanSettlementClient() {
                     Request Call Back
                   </Link>
                   <div className="mt-4 text-xs text-gray-500">
-                    <p>✓ 100% Confidential</p>
-                    <p className="mt-1">✓ RBI Compliant Process</p>
+                    <p>v 100% Confidential</p>
+                    <p className="mt-1">v RBI Compliant Process</p>
                   </div>
                 </div>
 

@@ -98,7 +98,7 @@ export default function InitiateSettlementClient() {
             name: "Neha L.",
             location: "Gurgaon",
             rating: 5,
-            text: "Knowing my rights under the 2025 RBI framework changed everything. The bank's tone changed as soon as I quoted the circular."
+            text: "Knowing my rights under the 2025 RBI framework changed everything. The bank’s tone changed as soon as I quoted the circular."
         }
     ];
 
@@ -275,7 +275,7 @@ export default function InitiateSettlementClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Introduction: Breaking the Silence with Your Lender</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Taking the first step toward a loan settlement is perhaps the most difficult psychological barrier for a borrower in distress. For months, you may have avoided the bank's calls, hidden from recovery agents, and lived in a constant state of anxiety as your debt spiraled out of control. However, initiating a "Full and Final Settlement" discussion is not an admission of defeat; it is a professional move to reclaim your financial future. In the complex world of Indian banking, silence is interpreted as a lack of intent to pay, while a structured proposal is interpreted as a genuine hardship case.
+                                Taking the first step toward a loan settlement is perhaps the most difficult psychological barrier for a borrower in distress. For months, you may have avoided the bank’s calls, hidden from recovery agents, and lived in a constant state of anxiety as your debt spiraled out of control. However, initiating a "Full and Final Settlement" discussion is not an admission of defeat; it is a professional move to reclaim your financial future. In the complex world of Indian banking, silence is interpreted as a lack of intent to pay, while a structured proposal is interpreted as a genuine hardship case.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A compromise settlement, or One-Time Settlement (OTS), is a legal and regulatory tool recognized by the Reserve Bank of India (RBI). It allows the bank to recover a portion of the loan that it might otherwise never see, while giving you the opportunity to close the debt and start fresh. But you cannot simply walk into a branch and ask for a "discount." Initiating this discussion requires a blend of legal knowledge, financial transparency, and strategic timing.
@@ -292,7 +292,7 @@ export default function InitiateSettlementClient() {
                                 The 2025 framework introduces three critical pillars of transparency:
                                 1. **Board-Approved Policies**: Every bank must have a publicly accessible summary of its settlement criteria. You have the right to know what qualifies a borrower for a compromise.
                                 2. **Cooling-off Period**: For standard settlements, banks cannot extend new credit for a period (typically 12 months) after the settlement is complete.
-                                3. **Non-Prejudice Clause**: A compromise settlement can be initiated even if legal proceedings are ongoing, provided it is in the bank's commercial interest.
+                                3. **Non-Prejudice Clause**: A compromise settlement can be initiated even if legal proceedings are ongoing, provided it is in the bank’s commercial interest.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Understanding these rules gives you the confidence to speak to the bank as an informed stakeholder rather than a desperate victim. Banks are regulated entities, and their "discretion" must be exercised within these board approved boundaries.
@@ -300,10 +300,10 @@ export default function InitiateSettlementClient() {
 
                             <h2 id="strategic-timing" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 2: Strategic Timing: When to Strike</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Timing is everything in a settlement negotiation. If you initiate a discussion when you have only missed one EMI, the bank's recovery system still sees you as a potential "regularizer." They will push for full repayment, including penalties.
+                                Timing is everything in a settlement negotiation. If you initiate a discussion when you have only missed one EMI, the bank’s recovery system still sees you as a potential "regularizer." They will push for full repayment, including penalties.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The most effective window for negotiation is <strong>post-NPA classification</strong>. In the Indian banking system, an account is marked as a Non-Performing Asset after 90 days of default. At this point, the bank's appetite for a lump-sum recovery increases because the loan is now a "burden" on their capital adequacy ratios. Furthermore, banks often have quarterly and year-end (March and September) targets for recovery. Initiating your discussion during these months can often lead to faster approvals and deeper waivers.
+                                The most effective window for negotiation is <strong>post-NPA classification</strong>. In the Indian banking system, an account is marked as a Non-Performing Asset after 90 days of default. At this point, the bank’s appetite for a lump-sum recovery increases because the loan is now a "burden" on their capital adequacy ratios. Furthermore, banks often have quarterly and year-end (March and September) targets for recovery. Initiating your discussion during these months can often lead to faster approvals and deeper waivers.
                             </p>
 
                             <h2 id="hardship-letter-guide" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 3: The Hardship Letter: Your Case for Settlement</h2>
@@ -330,26 +330,26 @@ export default function InitiateSettlementClient() {
 
                             <h2 id="negotiation-tactics" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 5: Negotiation Tactics for the Modern Borrower</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Negotiating with a bank is a poker game. The bank's officer will start with a high number, often only waiving a small portion of the interest. Your goal is to ground the discussion in the <strong>principal amount</strong>.
+                                Negotiating with a bank is a poker game. The bank’s officer will start with a high number, often only waiving a small portion of the interest. Your goal is to ground the discussion in the <strong>principal amount</strong>.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Use the "Bottom-Up" approach. Start your offer at 25-30% of the total outstanding. The bank will push for 70%. Mid-point settlements often land around 40-50% for personal loans and lower for credit cards. Keep the conversation focused on your "Arranged Funds." Tell the officer, "I have 2 lakhs available from a family member for a one-time closure. I cannot pay a rupee more." This creates a "Take it or Leave it" scenario that is very effective for recovery teams.
                             </p>
 
-                            <h2 id="settlement-letter-verification" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 6: The Settlement Letter: Don't Pay Without It</h2>
+                            <h2 id="settlement-letter-verification" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 6: The Settlement Letter: Don’t Pay Without It</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This is where most borrowers fail. They make a payment based on an SMS or a verbal promise from an agent. **Never do this.**
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A genuine settlement letter must be on the bank's official letterhead, contain a unique reference number, and explicitly state that this amount represents "Full and Final Discharge." In 2025, ensure the letter has a verifiable digital signature or a QR code that links to the bank's official portal. Verification with the branch manager is a mandatory final step before you release the funds.
+                                A genuine settlement letter must be on the bank’s official letterhead, contain a unique reference number, and explicitly state that this amount represents "Full and Final Discharge." In 2025, ensure the letter has a verifiable digital signature or a QR code that links to the bank’s official portal. Verification with the branch manager is a mandatory final step before you release the funds.
                             </p>
 
                             <h2 id="recovery-agent-handling" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 7: Handling Recovery Agents During Discussion</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Recovery agents are external contractors. They often do not know that you are in a formal settlement discussion with the bank's internal team.
+                                Recovery agents are external contractors. They often do not know that you are in a formal settlement discussion with the bank’s internal team.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Once you have initiated a discussion, keep a copy of your proposal letter and the bank's acknowledgment (even if it is just a "Received" stamp from the branch). Show this to any agent who visits your home. Under the RBI's Fair Practices Code 2025, once a formal settlement is under consideration, the bank should ideally suspend aggressive recovery tactics to allow the commercial negotiation to conclude.
+                                Once you have initiated a discussion, keep a copy of your proposal letter and the bank’s acknowledgment (even if it is just a "Received" stamp from the branch). Show this to any agent who visits your home. Under the RBI’s Fair Practices Code 2025, once a formal settlement is under consideration, the bank should ideally suspend aggressive recovery tactics to allow the commercial negotiation to conclude.
                             </p>
 
                             <h2 id="ots-vs-installments" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 8: OTS vs. Term Settlements</h2>
@@ -370,10 +370,10 @@ export default function InitiateSettlementClient() {
 
                             <h2 id="cibil-rebuilding" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 10: The Road to Recovery: CIBIL and Credit Scores</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Let's be honest: a settlement will hurt your credit score. The bank will report the account as "Settled" to TransUnion CIBIL. This marker indicates that you did not pay the full amount.
+                                Let’s be honest: a settlement will hurt your credit score. The bank will report the account as "Settled" to TransUnion CIBIL. This marker indicates that you did not pay the full amount.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                However, "Settled" is far better than "Default." A default suggests an open, ongoing liability, while a settlement suggests a closed chapter. After a settlement, you can begin rebuilding your score using "Credit Repair" tools—such as getting a secured credit card against a fixed deposit. Within 18-24 months of a settlement, many borrowers see their scores return to the 700+ range.
+                                However, "Settled" is far better than "Default." A default suggests an open, ongoing liability, while a settlement suggests a closed chapter. After a settlement, you can begin rebuilding your score using "Credit Repair" tools-such as getting a secured credit card against a fixed deposit. Within 18-24 months of a settlement, many borrowers see their scores return to the 700+ range.
                             </p>
 
                             <h2 id="final-execution" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 11: Final Execution: The 30-Day Rule</h2>
@@ -396,10 +396,10 @@ export default function InitiateSettlementClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Reclaiming Your Financial Freedom</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Initiating a settlement discussion is the first step toward a new life. It requires courage to face the bank and discipline to follow the process. But you don't have to do it alone. Platforms like <strong>CredSettle (credsettle.com)</strong> and specialized law firms like <strong>Amalegal Solutions</strong> and <strong>SettleLoans (settleloans.in)</strong> exist to level the playing field between the individual borrower and the giant banking institutions.
+                                Initiating a settlement discussion is the first step toward a new life. It requires courage to face the bank and discipline to follow the process. But you don’t have to do it alone. Platforms like <strong>CredSettle (credsettle.com)</strong> and specialized law firms like <strong>Amalegal Solutions</strong> and <strong>SettleLoans (settleloans.in)</strong> exist to level the playing field between the individual borrower and the giant banking institutions.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, the Indian Credit system is more transparent than ever. The RBI has given you the framework; all you need is the right strategy and the right partners. Don't let debt define your life. Initiate the discussion today, settle your dues, and start building the future you deserve.
+                                In 2025, the Indian Credit system is more transparent than ever. The RBI has given you the framework; all you need is the right strategy and the right partners. Don’t let debt define your life. Initiate the discussion today, settle your dues, and start building the future you deserve.
                             </p>
 
 
@@ -421,7 +421,7 @@ export default function InitiateSettlementClient() {
 
 <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Ready to Start Your Discussion?</h3>
-                                <p className="text-blue-800 mb-6">Our experts can help you draft your hardship letter, analyze your bank's policy, and negotiate the best possible settlement terms. Take the first step toward a debt-free life today.</p>
+                                <p className="text-blue-800 mb-6">Our experts can help you draft your hardship letter, analyze your bank’s policy, and negotiate the best possible settlement terms. Take the first step toward a debt-free life today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -440,7 +440,7 @@ export default function InitiateSettlementClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Settle Smart</h4>
-                                <p className="text-sm text-gray-600 mb-6">Don't guess your settlement chances. Let our advisors analyze your loan and create a winning negotiation strategy.</p>
+                                <p className="text-sm text-gray-600 mb-6">Don’t guess your settlement chances. Let our advisors analyze your loan and create a winning negotiation strategy.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -448,9 +448,9 @@ export default function InitiateSettlementClient() {
                                     Free Debt Analysis
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ 100+ Banks Covered</p>
-                                    <p>✓ RBI Framework Audit</p>
-                                    <p>✓ Legal Protection Shield</p>
+                                    <p>v 100+ Banks Covered</p>
+                                    <p>v RBI Framework Audit</p>
+                                    <p>v Legal Protection Shield</p>
                                 </div>
                             </div>
 

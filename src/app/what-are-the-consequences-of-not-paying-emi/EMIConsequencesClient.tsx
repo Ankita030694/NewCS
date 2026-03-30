@@ -128,7 +128,7 @@ export default function EMIConsequencesClient() {
     },
     {
       question: "Can a bank refuse a one-time settlement request?",
-      answer: "Yes, banks are not legally bound to offer a settlement. It is usually a discretionary decision based on their assessment of the borrower's inability to pay the full amount."
+      answer: "Yes, banks are not legally bound to offer a settlement. It is usually a discretionary decision based on their assessment of the borrower’s inability to pay the full amount."
     },
     {
       question: "What is the 'Statute of Limitations' for debt recovery in India?",
@@ -274,7 +274,7 @@ export default function EMIConsequencesClient() {
               <h2 id="credit-score-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">2. Credit Score Destruction: The Invisible Financial Shadow</h2>
               <div className="text-gray-700 leading-relaxed mb-6 space-y-6">
                 <p>
-                  In today's digital world, your credit score is your financial citizenship. In India, four credit bureaus (CIBIL, Experian, Equifax, and CRIF High Mark) act as the gatekeepers of the credit market. Every lender is legally required to report the repayment status of every borrower to these bureaus at the end of each month.
+                  In today’s digital world, your credit score is your financial citizenship. In India, four credit bureaus (CIBIL, Experian, Equifax, and CRIF High Mark) act as the gatekeepers of the credit market. Every lender is legally required to report the repayment status of every borrower to these bureaus at the end of each month.
                 </p>
                 <p>
                   A single missed EMI can cause an immediate drop of 50 to 70 points in your CIBIL score. If the default continues for 90 days, the damage can be as severe as 200 points. A score below 650 is generally considered 'risky,' and a score below 600 makes it virtually impossible to access formal credit.
@@ -336,10 +336,10 @@ export default function EMIConsequencesClient() {
                   As a loan moves through the SMA stages, the lender often outsources the recovery process to third-party collection agencies. This is frequently the most stressful part of the default experience. Recovery agents are typically paid on a commission basis, leading them to use high-pressure tactics that sometimes border on harassment.
                 </p>
                 <p>
-                  Common tactics include persistent calling, showing up at the borrower's workplace, or contacting family members. It is vital to know that while lenders have the right to ask for their money, they do not have the right to violate your dignity or privacy. The RBI's Code of Conduct for collections explicitly prohibits abusive language, calls at unreasonable hours (after 7 PM or before 7 AM), and any form of physical threat or public shaming.
+                  Common tactics include persistent calling, showing up at the borrower’s workplace, or contacting family members. It is vital to know that while lenders have the right to ask for their money, they do not have the right to violate your dignity or privacy. The RBI’s Code of Conduct for collections explicitly prohibits abusive language, calls at unreasonable hours (after 7 PM or before 7 AM), and any form of physical threat or public shaming.
                 </p>
                 <p>
-                  If you are facing harassment, documenting the evidence (call recordings, CCTV footage, or witnesses) is your strongest weapon. You can file a formal complaint with the bank's Nodal Officer and, if unresolved, escalate it to the Banking Ombudsman.
+                  If you are facing harassment, documenting the evidence (call recordings, CCTV footage, or witnesses) is your strongest weapon. You can file a formal complaint with the bank’s Nodal Officer and, if unresolved, escalate it to the Banking Ombudsman.
                 </p>
               </div>
 
@@ -354,7 +354,7 @@ export default function EMIConsequencesClient() {
                 </p>
                 <h3 className="text-2xl font-semibold text-gray-800">The Auction Process</h3>
                 <p>
-                  Once the property is in the bank's possession, they can sell it via public auction. Banks are typically only interested in recovering their outstanding balance plus costs, which means the property might be sold at a 'distress price' far below its actual market value. The borrower loses their home and any pride they had in the equity they had built up.
+                  Once the property is in the bank’s possession, they can sell it via public auction. Banks are typically only interested in recovering their outstanding balance plus costs, which means the property might be sold at a 'distress price' far below its actual market value. The borrower loses their home and any pride they had in the equity they had built up.
                 </p>
               </div>
 
@@ -379,7 +379,7 @@ export default function EMIConsequencesClient() {
                     Understanding the formal legal channels is essential for a borrower who wants to mount a defense. For loans above ₹20 lakhs, debt recovery is handled by the Debt Recovery Tribunals (DRT). These are specialized quasi-judicial bodies designed for the speedy resolution of banking disputes.
                 </p>
                 <p>
-                    While DRTs are faster than regular civil courts, they still provide a forum for the borrower to challenge the bank's calculations, question the validity of notices, or represent genuine hardship. However, the legal costs can be significant, and lenders often have a battery of lawyers ready to push for immediate orders.
+                    While DRTs are faster than regular civil courts, they still provide a forum for the borrower to challenge the bank’s calculations, question the validity of notices, or represent genuine hardship. However, the legal costs can be significant, and lenders often have a battery of lawyers ready to push for immediate orders.
                 </p>
                 <p>
                     In smaller loans, cases are handled in local civil courts through 'Summary Suits' or 'Money Suits.' These processes are slower, but they still result in a legally binding degree that can be executed through the 'Attachment of Property' or even the 'Arrest of the Judgment Debtor' in extreme cases of wilful non-payment.
@@ -454,7 +454,7 @@ export default function EMIConsequencesClient() {
                     The turning point came with the Narasimham Committee recommendations in the 1990s, which argued that for a market economy to function, there must be a 'credible threat of asset seizure.' This led to the creation of the Debt Recovery Tribunals (DRT) through the RDDBFI Act of 1993. When even DRTs proved to be slow due to procedural delays, the central government enacted the SARFAESI Act in 2002.
                 </p>
                 <p>
-                    The SARFAESI Act changed everything. For the first time, it allowed banks to take possession of and sell a borrower's property without going to court, provided the loan was secured. This shifted the power dynamic entirely. Today, the process is streamlined to the point where a borrower can lose their home within six months of the first missed EMI. Understanding this historical progression helps borrowers realize that the system is now built for speed, making early intervention and negotiation essential.
+                    The SARFAESI Act changed everything. For the first time, it allowed banks to take possession of and sell a borrower’s property without going to court, provided the loan was secured. This shifted the power dynamic entirely. Today, the process is streamlined to the point where a borrower can lose their home within six months of the first missed EMI. Understanding this historical progression helps borrowers realize that the system is now built for speed, making early intervention and negotiation essential.
                 </p>
               </div>
 
@@ -466,7 +466,7 @@ export default function EMIConsequencesClient() {
                 <ul className="list-disc pl-5 space-y-4">
                     <li><strong>Section 13(2) Notice:</strong> This is a 60-day demand notice. The bank must clearly state the outstanding amount, the details of the security, and the interest calculation. If any of these are incorrect, the notice can be challenged.</li>
                     <li><strong>Section 13(3A) Representations:</strong> This is a powerful, often ignored tool. After receiving a 13(2) notice, the borrower can send a formal representation or objection to the bank. The bank is legally required to respond to this within 15 days. If they fail to respond, or if their response is generic and does not address the specific points raised, any subsequent action by them can be invalidated by a court.</li>
-                    <li><strong>Section 13(8) Right of Redemption:</strong> This section ensures that the borrower has the right to pay the dues and get their property back at any time before the auction is finalized. Banks often try to rush the process, but the Supreme Court has repeatedly upheld and strengthened the borrower's right of redemption under this section.</li>
+                    <li><strong>Section 13(8) Right of Redemption:</strong> This section ensures that the borrower has the right to pay the dues and get their property back at any time before the auction is finalized. Banks often try to rush the process, but the Supreme Court has repeatedly upheld and strengthened the borrower’s right of redemption under this section.</li>
                     <li><strong>Section 14:</strong> This is the section banks use to seek help from the District Magistrate to take 'physical' possession. Borrowers can appeal to the DM or the High Court if the bank has skipped the 13(2) or 13(4) steps before reaching Section 14.</li>
                 </ul>
               </div>
@@ -487,7 +487,7 @@ export default function EMIConsequencesClient() {
               <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">The Mathematical Trap: How Penal Interest Creates Infinite Debt</h2>
               <div className="text-gray-700 leading-relaxed mb-6 space-y-6">
                 <p>
-                    To understand why you should never ignore a default, you must look at the math. Let's take a hypothetical scenario of an EMI of ₹50,000 that is missed.
+                    To understand why you should never ignore a default, you must look at the math. Let’s take a hypothetical scenario of an EMI of ₹50,000 that is missed.
                 </p>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-200">
                     <h4 className="font-bold mb-4">The Cascading Debt Example:</h4>
@@ -496,7 +496,7 @@ export default function EMIConsequencesClient() {
                     <p className="mb-2"><strong>Month 3:</strong> 2% Penal Interest on ₹1,02,530 = ₹2,050. The total overdue is now ₹1,02,530 + ₹2,050 + new EMI ₹50,000 = ₹1,54,580.</p>
                 </div>
                 <p>
-                    In just three months, the borrower doesn't just owe ₹1.5 lakhs (the EMIs). They owe an additional ₹4,500 in penalties and interest. By the end of a year, the penalties could be as much as 25% of the total amount. This is why borrowers often find that even after paying a large chunk of money, their principal amount hasn't decreased. They are merely paying off the penalties triggered by the initial default. Professional settlement companies focus on negotiating the waiver of these very charges, which can significantly reduce the total cost of debt exit.
+                    In just three months, the borrower doesn’t just owe ₹1.5 lakhs (the EMIs). They owe an additional ₹4,500 in penalties and interest. By the end of a year, the penalties could be as much as 25% of the total amount. This is why borrowers often find that even after paying a large chunk of money, their principal amount hasn’t decreased. They are merely paying off the penalties triggered by the initial default. Professional settlement companies focus on negotiating the waiver of these very charges, which can significantly reduce the total cost of debt exit.
                 </p>
               </div>
 
@@ -565,7 +565,7 @@ export default function EMIConsequencesClient() {
                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
                   <h4 className="text-xl font-bold text-gray-900 mb-4">Case Study B: The Section 138 Resolution</h4>
                   <p className="text-gray-700 mb-4">
-                    Ms. Anjali from Mumbai had three credit cards and a personal loan. When she lost her job, her NACH mandates bounced, and she received two summons from a Magistrate court. The psychological stress was immense. We represented her in the bank's specialized settlement camp, consolidated all her dues into a single One-Time Settlement, and obtained a 'Withdrawal of Complaint' certificate from the bank for the 138 cases within 45 days.
+                    Ms. Anjali from Mumbai had three credit cards and a personal loan. When she lost her job, her NACH mandates bounced, and she received two summons from a Magistrate court. The psychological stress was immense. We represented her in the bank’s specialized settlement camp, consolidated all her dues into a single One-Time Settlement, and obtained a 'Withdrawal of Complaint' certificate from the bank for the 138 cases within 45 days.
                   </p>
                 </div>
                 </div>
@@ -682,7 +682,7 @@ export default function EMIConsequencesClient() {
                 <h4 className="font-bold text-blue-900 mb-2">Legal Support?</h4>
                 <p className="text-xs text-blue-800 opacity-80 mb-4">Our lawyers review all recovery notices for free.</p>
                 <Link href="/contact" className="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center gap-1">
-                  Connect with Lawyers →
+                  Connect with Lawyers ->
                 </Link>
               </div>
 

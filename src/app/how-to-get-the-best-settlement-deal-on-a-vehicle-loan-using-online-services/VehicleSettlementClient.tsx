@@ -14,7 +14,7 @@ const faqData = [
   },
   {
     question: "What is the average waiver on a 2-year-old vehicle loan?",
-    answer: "For vehicle loans, waivers are generally lower than credit cards because the asset (the car) has value. Expect a 25% to 40% waiver on the outstanding amount, depending on the vehicle's current market value versus your remaining debt."
+    answer: "For vehicle loans, waivers are generally lower than credit cards because the asset (the car) has value. Expect a 25% to 40% waiver on the outstanding amount, depending on the vehicle’s current market value versus your remaining debt."
   },
   {
     question: "How do online services help in negotiating with NBFCs like Mahindra Finance?",
@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     question: "Do I still need to visit the RTO after an online settlement?",
-    answer: "Yes. While the settlement and payment are online, the 'De-hypothecation' (removing the bank's name from your RC) requires physical submission of Form 35 and the NDC at your local RTO."
+    answer: "Yes. While the settlement and payment are online, the 'De-hypothecation' (removing the bank’s name from your RC) requires physical submission of Form 35 and the NDC at your local RTO."
   },
   {
     question: "Can I settle a vehicle loan without an NDC?",
@@ -233,7 +233,7 @@ export default function VehicleSettlementClient() {
               <div className="mb-16">
                 <h2 id="intro" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">Introduction: The Unique Challenges of Vehicle Debt</h2>
                 <p className="text-gray-700 leading-relaxed">
-                  Settling a vehicle loan (car, bike, or commercial vehicle) is fundamentally different from settling a credit card or a personal loan. Why? Because the bank has a "charge" over your vehicle—a legal claim known as hypothecation. If you default, the bank doesn't just send notices; they can physically repossess the asset.
+                  Settling a vehicle loan (car, bike, or commercial vehicle) is fundamentally different from settling a credit card or a personal loan. Why? Because the bank has a "charge" over your vehicle-a legal claim known as hypothecation. If you default, the bank doesn’t just send notices; they can physically repossess the asset.
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
                   However, in 2025, new RBI regulations and digital resolution platforms have balanced the scales. Borrowers now have more rights regarding repossession notices and the calculation of settlement amounts. This guide provides a strategic roadmap for residents across India to settle their vehicle loans using modern online services.
@@ -259,7 +259,7 @@ export default function VehicleSettlementClient() {
                   </div>
                   <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
                     <h4 className="font-bold text-green-900 mb-2">Ownership Transfer</h4>
-                    <p className="text-sm text-green-800">Payment of the settlement amount is not the end. You must clear the bank's name from the RTO records, or the car remains legally repossessable even if the debt is zero.</p>
+                    <p className="text-sm text-green-800">Payment of the settlement amount is not the end. You must clear the bank’s name from the RTO records, or the car remains legally repossessable even if the debt is zero.</p>
                   </div>
                 </div>
               </div>
@@ -277,7 +277,7 @@ export default function VehicleSettlementClient() {
 
                   <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">2. CredSettle (credsettle.com)</h4>
-                    <p className="text-sm text-gray-600">Ideal for those who want a completely paperless experience. They use an AI-driven system to match your vehicle's depreciation value with the bank's internal settlement brackets.</p>
+                    <p className="text-sm text-gray-600">Ideal for those who want a completely paperless experience. They use an AI-driven system to match your vehicle’s depreciation value with the bank’s internal settlement brackets.</p>
                   </div>
 
                   <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
@@ -296,7 +296,7 @@ export default function VehicleSettlementClient() {
                   </li>
                   <li className="flex gap-3 items-start">
                     <FontAwesomeIcon icon={faExclamationTriangle} className="text-blue-600 mt-1" />
-                    <span><strong>Pre-payment Charge Ban (Jan 2026):</strong> No charges for closing your car loan early using your own funds, even if it's a part of a settlement deal.</span>
+                    <span><strong>Pre-payment Charge Ban (Jan 2026):</strong> No charges for closing your car loan early using your own funds, even if it’s a part of a settlement deal.</span>
                   </li>
                   <li className="flex gap-3 items-start">
                     <FontAwesomeIcon icon={faExclamationTriangle} className="text-blue-600 mt-1" />
@@ -318,7 +318,7 @@ export default function VehicleSettlementClient() {
                   </div>
                   <div className="flex gap-4 p-5 items-center bg-gray-50 rounded-2xl border border-gray-100">
                     <span className="font-bold text-2xl text-blue-900 opacity-20">03</span>
-                    <p className="text-sm">Negotiate the 'Lump Sum' amount. Aim for a figure that is higher than the car's auction scrap value but lower than the loan balance.</p>
+                    <p className="text-sm">Negotiate the 'Lump Sum' amount. Aim for a figure that is higher than the car’s auction scrap value but lower than the loan balance.</p>
                   </div>
                 </div>
               </div>
@@ -373,7 +373,7 @@ export default function VehicleSettlementClient() {
               </div>
 
                <div className="mt-16 p-10 bg-blue-900 text-white rounded-[2.5rem] text-center shadow-2xl">
-                <h3 className="text-2xl font-bold mb-4">Don't Wait for the Tow Truck!</h3>
+                <h3 className="text-2xl font-bold mb-4">Don’t Wait for the Tow Truck!</h3>
                 <p className="mb-10 opacity-80 max-w-2xl mx-auto">Take control of your vehicle debt today. Our online partners specializing in car and bike loans are just a click away to secure your asset and your peace of mind.</p>
                 <div className="flex flex-col sm:flex-row gap-5 justify-center">
                   <Link 
@@ -412,15 +412,15 @@ export default function VehicleSettlementClient() {
                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Vehicle Guides</h4>
                 <nav className="space-y-3 text-sm">
                   <Link href="/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones" className="flex group items-start leading-tight">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Secured vs Unsecured Rules</span>
                   </Link>
                   <Link href="/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms" className="flex group items-start leading-tight">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Detect Fake OTS Letters</span>
                   </Link>
                   <Link href="/what-documents-are-required-for-loan-settlement-with-a-professional-service" className="flex group items-start leading-tight">
-                   <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                   <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Vehicle Documents List</span>
                   </Link>
                 </nav>

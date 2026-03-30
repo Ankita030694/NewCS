@@ -177,7 +177,7 @@ const SettlementVsBankruptcyClient = () => {
                         Debt Settlement <span className="text-blue-300 italic">vs</span> Bankruptcy: Which is Right For You?
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-                        A definitive 5000+ word guide on the legal trade-offs between negotiated settlements and formal insolvency under India's 2025 regulatory landscape.
+                        A definitive 5000+ word guide on the legal trade-offs between negotiated settlements and formal insolvency under India’s 2025 regulatory landscape.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
@@ -269,7 +269,7 @@ const SettlementVsBankruptcyClient = () => {
                             
                             <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-10 scroll-mt-24 leading-tight italic">Introduction: The Ultimatum of Debt Relief</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 text-xl font-light">
-                                When a borrower reaches a point where their liabilities exceed their assets and their income can no longer service the astronomical interest rates of unsecured debt, they face a high-stakes ultimatum: **Debt Settlement or Bankruptcy**. In India, until recently, bankruptcy was a murky concept, primarily reserved for massive corporate defaults. However, the maturation of the Insolvency and Bankruptcy Code (IBC) has brought the conversation of "Personal Insolvency" to the forefront of the middle-class borrower's mind.
+                                When a borrower reaches a point where their liabilities exceed their assets and their income can no longer service the astronomical interest rates of unsecured debt, they face a high-stakes ultimatum: **Debt Settlement or Bankruptcy**. In India, until recently, bankruptcy was a murky concept, primarily reserved for massive corporate defaults. However, the maturation of the Insolvency and Bankruptcy Code (IBC) has brought the conversation of "Personal Insolvency" to the forefront of the middle-class borrower’s mind.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-bold uppercase tracking-wider text-sm text-blue-600">The 2025 crossroads is defined by choice: Do you negotiate with your creditors, or do you surrender to the court?</p>
                             <p className="text-gray-700 leading-relaxed mb-10 text-sm italic">
@@ -292,12 +292,12 @@ const SettlementVsBankruptcyClient = () => {
                                 Debt settlement in 2025 is often called the "Middle Way." It recognizes that while you have failed to fulfill the original contract, you are not ready to be legally cast out of the financial system. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                A successful settlement is a win-win. The bank gets immediate liquidity (lump-sum cash) which is better than chasing you for years. The borrower gets a massive reduction in debt (often 50% to 75%) and a legal "No Dues Certificate." In 2025, with the RBI's "Prudential Framework for Resolution of Stressed Assets," banks have a clear incentive to settle rather than litigate. Settlement preserves your assets, allows for a faster credit recovery, and keeps the entire matter between you and the institution.
+                                A successful settlement is a win-win. The bank gets immediate liquidity (lump-sum cash) which is better than chasing you for years. The borrower gets a massive reduction in debt (often 50% to 75%) and a legal "No Dues Certificate." In 2025, with the RBI’s "Prudential Framework for Resolution of Stressed Assets," banks have a clear incentive to settle rather than litigate. Settlement preserves your assets, allows for a faster credit recovery, and keeps the entire matter between you and the institution.
                             </p>
 
                             <h2 id="bankruptcy-defined" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-red-600 tracking-widest uppercase">Defining Bankruptcy: The Litigious Path</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 leading-[1.8]">
-                                Bankruptcy is the "Nuclear Option." It is designed for those whose financial situation is so dire that even a 70% waiver in settlement wouldn't make them solvent. It provides a formal "Discharge" from debts, but at a heavy price. 
+                                Bankruptcy is the "Nuclear Option." It is designed for those whose financial situation is so dire that even a 70% waiver in settlement wouldn’t make them solvent. It provides a formal "Discharge" from debts, but at a heavy price. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 In a bankruptcy filing under Part III of the IBC, your control over your bank accounts, properties, and legacy assets is suspended. The court appoints a professional to look into your affairs, sell what can be sold, and distribute the proceeds to creditors. While it stops all harassment and legal suits immediately (through an "Interim Moratorium"), it is a social and financial stigma that can take decades to wash off. In India 2025, declaring bankruptcy can also disqualify you from holding certain professional positions, directorships, or public offices.
@@ -345,13 +345,13 @@ const SettlementVsBankruptcyClient = () => {
 
                             <h2 id="credit-impact" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">The Credit Impact: "Settled" vs "Bankrupt" in CIBIL</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Your credit report is your financial resume. Let's look at how these two options edit that resume.
+                                Your credit report is your financial resume. Let’s look at how these two options edit that resume.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                **Settlement:** When you settle, your CIBIL score drops initially. Each account settled will carry the remark "Settled." This is a signal to other lenders that you didn't pay in full. However, the score can be rebuilt. By 2025 standards, if you settle today, you can potentially start qualify for small secured loans or "FD-backed" credit cards within 12 months. After 24 months of perfect discipline, you may even qualify for larger unsecured loans again. 
+                                **Settlement:** When you settle, your CIBIL score drops initially. Each account settled will carry the remark "Settled." This is a signal to other lenders that you didn’t pay in full. However, the score can be rebuilt. By 2025 standards, if you settle today, you can potentially start qualify for small secured loans or "FD-backed" credit cards within 12 months. After 24 months of perfect discipline, you may even qualify for larger unsecured loans again. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                **Bankruptcy:** A bankruptcy filing is a "Total Eclipse." It doesn't just lower your score; it often makes it un-scorable for years. Lenders view a bankrupt individual as a "Systemic Risk." Rebuilding credit after a formal discharge from the DRT can take 5 to 7 years. In the Indian context, where the social credit system is tight, this can affect your ability to rent a home, secure a high-level job, or even start a new business.
+                                **Bankruptcy:** A bankruptcy filing is a "Total Eclipse." It doesn’t just lower your score; it often makes it un-scorable for years. Lenders view a bankrupt individual as a "Systemic Risk." Rebuilding credit after a formal discharge from the DRT can take 5 to 7 years. In the Indian context, where the social credit system is tight, this can affect your ability to rent a home, secure a high-level job, or even start a new business.
                             </p>
 
                             <h2 id="asset-protection" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter italic">Asset Protection: What Do You Keep?</h2>
@@ -359,7 +359,7 @@ const SettlementVsBankruptcyClient = () => {
                                 This is where the emotional weight of the decision lies. In a **Debt Settlement**, the bank is interested in cash. They generally do not have the right to seize your home or car (if they are not used as collateral for that specific loan) without a long, expensive civil trial (which takes 10+ years). Settlement allows you to keep your property while paying off your liabilities at a discount.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                In **Bankruptcy**, the legal presumption is "Liquidation for Restoration." The RP will identify all your assets—your ancestral land, your secondary house, your luxury watches, and even your significant investments. These are placed into a "Liquidation Estate" and sold off. While the law allows you to keep some "Exempt Assets" (like essential household items and tools of your trade), you lose almost all your "Wealth." For an Indian family, where land is more than just an asset, this is often the deciding factor in favoring settlement over bankruptcy.
+                                In **Bankruptcy**, the legal presumption is "Liquidation for Restoration." The RP will identify all your assets-your ancestral land, your secondary house, your luxury watches, and even your significant investments. These are placed into a "Liquidation Estate" and sold off. While the law allows you to keep some "Exempt Assets" (like essential household items and tools of your trade), you lose almost all your "Wealth." For an Indian family, where land is more than just an asset, this is often the deciding factor in favoring settlement over bankruptcy.
                             </p>
 
                             <h2 id="case-studies-2025" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">2025 Case Studies: Real-World Lessons</h2>
@@ -390,7 +390,7 @@ const SettlementVsBankruptcyClient = () => {
                                 Unless you are in a state of absolute, irreversible insolvency with zero assets and zero future income prospect, **Debt Settlement is the objectively superior path**.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 leading-[1.8]">
-                                Why? Because it preserves your **Dignity, Assets, and Timeline**. It turns a legal tragedy into a commercial negotiation. In 2025, the proliferation of "Debt Relief Attorneys" and specialized firms like CredSettle has made the settlement process structured and safe. You are no longer "Begging" for a waiver; you are proposing a "Commercial Deal" that the bank's own 2025 policies encourage.
+                                Why? Because it preserves your **Dignity, Assets, and Timeline**. It turns a legal tragedy into a commercial negotiation. In 2025, the proliferation of "Debt Relief Attorneys" and specialized firms like CredSettle has made the settlement process structured and safe. You are no longer "Begging" for a waiver; you are proposing a "Commercial Deal" that the bank’s own 2025 policies encourage.
                             </p>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-10 scroll-mt-14 border-b-2 border-blue-600 pb-2 italic tracking-tighter">10+ Expert FAQs on Settlement vs Bankruptcy</h2>
@@ -399,7 +399,7 @@ const SettlementVsBankruptcyClient = () => {
                                     <details key={index} className="group p-6 bg-gray-50 rounded-2xl border border-gray-100 transition-all hover:bg-white hover:shadow-md">
                                         <summary className="flex justify-between items-center cursor-pointer list-none font-bold text-gray-900 text-lg group-hover:text-blue-600 transition-colors italic">
                                             {faq.question}
-                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">▼</span>
+                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">v</span>
                                         </summary>
                                         <p className="mt-6 text-gray-600 leading-relaxed font-light italic">{faq.answer}</p>
                                     </details>
@@ -411,7 +411,7 @@ const SettlementVsBankruptcyClient = () => {
                                 The choice between debt settlement and bankruptcy is ultimately a choice between **Renewal and Removal**. Bankruptcy removes you from the financial system; settlement renews your lease on it. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                As we navigate the complex waters of India's 2025 credit landscape, remember that your debt does not define your destiny. Whether you choose the contractual freedom of settlement or the judicial protection of bankruptcy, the goal is the same: a life free from the crushing weight of interest and harassment. Choose wisely, choose professionally, and choose the path that protects your legacy.
+                                As we navigate the complex waters of India’s 2025 credit landscape, remember that your debt does not define your destiny. Whether you choose the contractual freedom of settlement or the judicial protection of bankruptcy, the goal is the same: a life free from the crushing weight of interest and harassment. Choose wisely, choose professionally, and choose the path that protects your legacy.
                             </p>
 
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -471,9 +471,9 @@ const SettlementVsBankruptcyClient = () => {
                                     Get Legal Opinion
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ IBC 2025 Compliant</p>
-                                    <p>✓ Asset Protection First</p>
-                                    <p>✓ Swift Closure Protocol</p>
+                                    <p>v IBC 2025 Compliant</p>
+                                    <p>v Asset Protection First</p>
+                                    <p>v Swift Closure Protocol</p>
                                 </div>
                             </div>
 
@@ -487,7 +487,7 @@ const SettlementVsBankruptcyClient = () => {
                                         { href: "/compare-debt-settlement-fees-and-success-rate", text: "Fee Analysis 2025" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

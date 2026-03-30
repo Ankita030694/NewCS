@@ -116,11 +116,11 @@ export default function HaryanaLoanSettlementClient() {
     },
     {
       question: "Do I need to visit the bank branch personally?",
-      answer: "No. CredSettle handles the entire negotiation process with the bank's Regional or Zonal offices (often in Delhi or Chandigarh). You do not need to face the branch manager or recovery agents."
+      answer: "No. CredSettle handles the entire negotiation process with the bank’s Regional or Zonal offices (often in Delhi or Chandigarh). You do not need to face the branch manager or recovery agents."
     },
     {
       question: "How long does the settlement process take in Haryana?",
-      answer: "The process generally takes between 45 to 90 days. It depends on the bank's internal approval speed and the complexity of the case."
+      answer: "The process generally takes between 45 to 90 days. It depends on the bank’s internal approval speed and the complexity of the case."
     }
   ];
 
@@ -245,7 +245,7 @@ export default function HaryanaLoanSettlementClient() {
                   <strong>Fair Interest Rates:</strong> The Act empowers the state to regulate interest rates, preventing the charging of usurious rates that trap borrowers in a never-ending cycle of debt.
                 </li>
                 <li>
-                  <strong>Anti-Harassment:</strong> Combined with the RBI's Fair Practices Code, this legal framework ensures that harassment, intimidation, and public shaming are criminal offenses. If a recovery agent crosses the line, they are breaking the law.
+                  <strong>Anti-Harassment:</strong> Combined with the RBI’s Fair Practices Code, this legal framework ensures that harassment, intimidation, and public shaming are criminal offenses. If a recovery agent crosses the line, they are breaking the law.
                 </li>
               </ul>
 
@@ -290,7 +290,7 @@ export default function HaryanaLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Regional Offices</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We negotiate directly with the bank's Regional Collection Managers (often based in Delhi, Gurugram, or Chandigarh). Our objective is to waive 100% of the penal interest and significantly reduce the principal, often achieving savings of 40-50%.
+                      We negotiate directly with the bank’s Regional Collection Managers (often based in Delhi, Gurugram, or Chandigarh). Our objective is to waive 100% of the penal interest and significantly reduce the principal, often achieving savings of 40-50%.
                     </p>
                   </div>
                 </div>
@@ -300,7 +300,7 @@ export default function HaryanaLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Closure & NDC</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We secure a formal Settlement Letter on the bank's letterhead. You pay the settlement amount directly to your loan account. We then ensure the bank issues a "No Dues Certificate" (NDC), formally closing the chapter.
+                      We secure a formal Settlement Letter on the bank’s letterhead. You pay the settlement amount directly to your loan account. We then ensure the bank issues a "No Dues Certificate" (NDC), formally closing the chapter.
                     </p>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function HaryanaLoanSettlementClient() {
 
               <h2 id="lok-adalat-haryana" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Lok Adalat: The Best Route in Haryana</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Lok Adalat</strong> (People's Court) is a highly effective forum for resolving banking disputes in Haryana. Organized by the <strong>Haryana State Legal Services Authority (HALSA)</strong>, it offers a secure path to settlement.
+                The <strong>Lok Adalat</strong> (People’s Court) is a highly effective forum for resolving banking disputes in Haryana. Organized by the <strong>Haryana State Legal Services Authority (HALSA)</strong>, it offers a secure path to settlement.
               </p>
               
               <h3 className="text-xl font-bold text-gray-800 mb-4">Why Choose Lok Adalat?</h3>
@@ -353,7 +353,7 @@ export default function HaryanaLoanSettlementClient() {
                 <li><strong>DRT-1, DRT-2 & DRT-3 Chandigarh:</strong> These benches have jurisdiction over cases from Haryana, Punjab, and Himachal Pradesh. They handle high-value recovery suits.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Receiving a DRT summons is a serious legal matter. It can lead to asset attachment if ignored. However, the DRT is also a forum for settlement. We provide legal representation in Chandigarh to defend your case and negotiate a compromise proposal directly with the bank's legal team.
+                Receiving a DRT summons is a serious legal matter. It can lead to asset attachment if ignored. However, the DRT is also a forum for settlement. We provide legal representation in Chandigarh to defend your case and negotiate a compromise proposal directly with the bank’s legal team.
               </p>
 
               <h2 id="industrial-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Special Focus: Industrial & MSME Loan Settlement</h2>
@@ -412,7 +412,7 @@ export default function HaryanaLoanSettlementClient() {
                 <div className="relative z-10">
                   <h3 className="text-3xl md:text-4xl font-bold mb-6">Reclaim Your Financial Freedom in Haryana</h3>
                   <p className="mb-10 opacity-90 max-w-2xl mx-auto text-lg">
-                    Don't let debt stress overwhelm you. With legal expertise and local knowledge of NCR & Haryana, CredSettle helps you close your loans with dignity.
+                    Don’t let debt stress overwhelm you. With legal expertise and local knowledge of NCR & Haryana, CredSettle helps you close your loans with dignity.
                   </p>
                   <Link 
                     href="/contact"
@@ -444,9 +444,9 @@ export default function HaryanaLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-2 text-left px-2">
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Gurugram & Faridabad Team</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Lok Adalat Support</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> DRT Chandigarh Defense</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Gurugram & Faridabad Team</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Lok Adalat Support</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> DRT Chandigarh Defense</p>
                 </div>
               </div>
 

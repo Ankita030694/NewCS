@@ -49,7 +49,7 @@ const ChooseProviderClient = () => {
     const faqs = [
         {
             question: "How do I check if a debt settlement company is registered?",
-            answer: "In 2025, you can verify a company's registration by looking up its CIN (Corporate Identification Number) on the Ministry of Corporate Affairs (MCA) website. Legitimate firms are registered as Private Limited companies or LLPs."
+            answer: "In 2025, you can verify a company’s registration by looking up its CIN (Corporate Identification Number) on the Ministry of Corporate Affairs (MCA) website. Legitimate firms are registered as Private Limited companies or LLPs."
         },
         {
             question: "Should a debt settlement provider have lawyers on staff?",
@@ -61,7 +61,7 @@ const ChooseProviderClient = () => {
         },
         {
             question: "Is it better to choose a company with a fixed fee or a percentage fee?",
-            answer: "A percentage-based 'Success Fee' (based on amount saved) is generally better as it aligns the company's incentives with your goal of getting the maximum waiver. Fixed retainers are good if they include comprehensive legal defense."
+            answer: "A percentage-based 'Success Fee' (based on amount saved) is generally better as it aligns the company’s incentives with your goal of getting the maximum waiver. Fixed retainers are good if they include comprehensive legal defense."
         },
         {
             question: "How long should a trustworthy company have been in business?",
@@ -76,12 +76,12 @@ const ChooseProviderClient = () => {
             answer: "Never. This is a common scam tactic. The settlement amount must always be paid directly to your bank account using the loan account number as a reference."
         },
         {
-            question: "How do I verify a provider's success rate?",
+            question: "How do I verify a provider’s success rate?",
             answer: "Ask for anonymized case studies or 'No Dues Certificates' from major banks like HDFC, ICICI, or SBI that they have successfully negotiated for previous clients."
         },
         {
             question: "What is the role of the RBI in choosing a provider?",
-            answer: "The RBI does not register settlement firms, but a trustworthy firm will strictly follow the RBI's 2025 guidelines on Fair Recovery Practices and Compromise Settlements."
+            answer: "The RBI does not register settlement firms, but a trustworthy firm will strictly follow the RBI’s 2025 guidelines on Fair Recovery Practices and Compromise Settlements."
         },
         {
             question: "Can reaching out to a provider worsen my credit score?",
@@ -261,7 +261,7 @@ const ChooseProviderClient = () => {
                                 In 2025, the Indian debt settlement industry has seen a massive surge in demand. As household debt reaches record highs, thousands of borrowers are searching for an exit strategy from the high-interest traps of credit cards and unsecured loans. However, this surge has also attracted opportunistic agents and fly-by-night operators who promise relief but deliver only more distress.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                Choosing a debt settlement provider is not like choosing a typical service; it is like choosing a legal and financial shield. The right provider will negotiate with bank headquarters, defend you against aggressive recovery tactics, and secure a legally binding closure for your debt. The wrong one will take your money and leave you facing court summons alone. This 4000+ word guide is designed to provide you with the technical framework needed to evaluate, verify, and select a trustworthy debt settlement partner in today's complex market.
+                                Choosing a debt settlement provider is not like choosing a typical service; it is like choosing a legal and financial shield. The right provider will negotiate with bank headquarters, defend you against aggressive recovery tactics, and secure a legally binding closure for your debt. The wrong one will take your money and leave you facing court summons alone. This 4000+ word guide is designed to provide you with the technical framework needed to evaluate, verify, and select a trustworthy debt settlement partner in today’s complex market.
                             </p>
 
                             <h2 id="red-flags" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-red-600 tracking-tighter uppercase">Section 5: The Red Flag Checklist</h2>
@@ -289,7 +289,7 @@ const ChooseProviderClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 A real letter will always include:
-                                1. The bank's official letterhead with a verifiable physical address.
+                                1. The bank’s official letterhead with a verifiable physical address.
                                 2. A specific reference number or settlement ID that can be cross-checked with the bank.
                                 3. A clear breakdown of the 'Settlement Amount' vs the 'Outstanding Amount'.
                                 4. A strict payment timeline (usually 7 to 15 days for a lump sum).
@@ -307,7 +307,7 @@ const ChooseProviderClient = () => {
                                 This agreement should cover:
                                 - The frequency of communication.
                                 - The specific legal resources committed to your case.
-                                - The refund policy if the bank refuses to negotiate despite the provider's best efforts.
+                                - The refund policy if the bank refuses to negotiate despite the provider’s best efforts.
                                 - The confidentiality of your financial data (GDPR or Indian DPDP Act compliance).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-light italic">
@@ -341,7 +341,7 @@ const ChooseProviderClient = () => {
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-indigo-800 uppercase italic">Case Studies: The CredSettle Difference</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 font-light">
-                                Let's look at a hypothetical (but representative) case study to understand what a trustworthy process looks like.
+                                Let’s look at a hypothetical (but representative) case study to understand what a trustworthy process looks like.
                             </p>
                             <div className="p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 mb-12 italic">
                                 <h4 className="text-xl font-bold text-gray-900 mb-4">Case Study A: The Multi-Bank Challenge</h4>
@@ -359,7 +359,7 @@ const ChooseProviderClient = () => {
                                         </svg>
                                     </div>
                                     <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">MCA Verification</h4>
-                                    <p className="text-sm text-blue-800/80 leading-relaxed font-light">Ask for the company's CIN (Corporate Identity Number). Verify it on the MCA.gov.in portal. Check the date of incorporation; a firm that has survived 5+ years is significantly more trustworthy than one six months old.</p>
+                                    <p className="text-sm text-blue-800/80 leading-relaxed font-light">Ask for the company’s CIN (Corporate Identity Number). Verify it on the MCA.gov.in portal. Check the date of incorporation; a firm that has survived 5+ years is significantly more trustworthy than one six months old.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 border border-indigo-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
                                     <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform">
@@ -374,7 +374,7 @@ const ChooseProviderClient = () => {
 
                             <h2 id="evaluating-expertise" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 leading-snug tracking-tighter italic">Evaluation of Negotiation Expertise</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Success in debt settlement is a result of deep institutional knowledge. Every bank—whether it is HDFC, ICICI, SBI, or an NBFC like Bajaj Finance—has a different 'Recovery Hierarchy' and 'Write-off Budget'. A trustworthy provider should be able to explain the specific settlement behavior of your lender.
+                                Success in debt settlement is a result of deep institutional knowledge. Every bank-whether it is HDFC, ICICI, SBI, or an NBFC like Bajaj Finance-has a different 'Recovery Hierarchy' and 'Write-off Budget'. A trustworthy provider should be able to explain the specific settlement behavior of your lender.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 For example, in 2025, private banks often prioritize 'NPA cleaning' in early March (pre-financial year end), while public sector banks follow a rigid OTS (One Time Settlement) cycle dictated by their board policies. If a provider cannot explain these nuances, they lack the technical expertise to secure you a deep waiver.
@@ -383,7 +383,7 @@ const ChooseProviderClient = () => {
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
                                 <h4 className="text-2xl font-black mb-6 italic tracking-widest text-blue-400">THE EXPERTISE TEST:</h4>
                                 <p className="text-lg opacity-90 leading-relaxed font-light italic">
-                                    Ask the provider: "What is the typical provisioned loss threshold for my specific bank's credit card portfolio in 2025?" If they give you a vague answer, they haven't done enough high-level institutional negotiations.
+                                    Ask the provider: "What is the typical provisioned loss threshold for my specific bank’s credit card portfolio in 2025?" If they give you a vague answer, they haven’t done enough high-level institutional negotiations.
                                 </p>
                             </div>
 
@@ -422,13 +422,13 @@ const ChooseProviderClient = () => {
                                 <div className="p-8 bg-red-50 border-l-4 border-red-500 rounded-r-3xl shadow-sm">
                                     <h5 className="font-bold text-red-900 mb-3 flex items-center gap-2 uppercase text-xs tracking-widest">RED FLAG #3</h5>
                                     <p className="text-gray-800 font-semibold mb-2">Personal UPI/Account Payments</p>
-                                    <p className="text-sm text-gray-600 leading-relaxed italic">All service fees must be paid to the company's GST-registered current account, never to a personal name.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed italic">All service fees must be paid to the company’s GST-registered current account, never to a personal name.</p>
                                 </div>
                             </div>
 
                             <h2 id="the-negotiation-process" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">The Technical Negotiation Cycle</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                A trustworthy provider will walk you through the realistic stages of the negotiation cycle. They won't promise a 24-hour solution. A technical settlement cycle in 2025 typically lasts 3 to 6 months:
+                                A trustworthy provider will walk you through the realistic stages of the negotiation cycle. They won’t promise a 24-hour solution. A technical settlement cycle in 2025 typically lasts 3 to 6 months:
                             </p>
                             <ol className="list-none space-y-4 mb-12 p-0">
                                 <li className="flex gap-4 p-4 hover:bg-gray-50 rounded-2xl transition-colors">
@@ -437,7 +437,7 @@ const ChooseProviderClient = () => {
                                 </li>
                                 <li className="flex gap-4 p-4 hover:bg-gray-50 rounded-2xl transition-colors">
                                     <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex-shrink-0 flex items-center justify-center font-bold text-xs mt-1">2</div>
-                                    <p className="text-gray-700 leading-relaxed italic"><strong className="text-gray-900 not-italic">Hardship Submission:</strong> Filing of medical, employment, or financial proof to the bank's settlements vertical.</p>
+                                    <p className="text-gray-700 leading-relaxed italic"><strong className="text-gray-900 not-italic">Hardship Submission:</strong> Filing of medical, employment, or financial proof to the bank’s settlements vertical.</p>
                                 </li>
                                 <li className="flex gap-4 p-4 hover:bg-gray-50 rounded-2xl transition-colors">
                                     <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex-shrink-0 flex items-center justify-center font-bold text-xs mt-1">3</div>
@@ -447,7 +447,7 @@ const ChooseProviderClient = () => {
 
                             <h2 id="client-support-standards" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-indigo-700 italic tracking-tighter">Support Standards: Beyond Negotiation</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Settlement is a journey of 12-24 months for some borrowers. A trustworthy firm provides a <strong>Client Relationship Manager (CRM)</strong> who is accessible via phone and email. They shouldn't be 'ghosting' you after you pay the first installment.
+                                Settlement is a journey of 12-24 months for some borrowers. A trustworthy firm provides a <strong>Client Relationship Manager (CRM)</strong> who is accessible via phone and email. They shouldn’t be 'ghosting' you after you pay the first installment.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 Look for firms that offer additional value-added services like monthly budget planning, credit rehabilitation planning (post-settlement), and periodic updates on your CIBIL reflection. Trust is not a one-time event; it is an ongoing service level. 
@@ -466,11 +466,11 @@ const ChooseProviderClient = () => {
                                     </li>
                                     <li className="flex gap-6 items-start">
                                         <div className="w-10 h-10 rounded-2xl bg-blue-600 flex-shrink-0 flex items-center justify-center text-sm font-black border border-blue-400/50">V2</div>
-                                        <p className="opacity-90 leading-relaxed text-sm italic tracking-wide">Verification of Service Agreement—Does it have a refund clause if they fail to deliver?</p>
+                                        <p className="opacity-90 leading-relaxed text-sm italic tracking-wide">Verification of Service Agreement-Does it have a refund clause if they fail to deliver?</p>
                                     </li>
                                     <li className="flex gap-6 items-start">
                                         <div className="w-10 h-10 rounded-2xl bg-blue-600 flex-shrink-0 flex items-center justify-center text-sm font-black border border-blue-400/50">V3</div>
-                                        <p className="opacity-90 leading-relaxed text-sm italic tracking-wide">Cross-verification of Success Stories—Ask for recent settlement letters (with sensitive info redacted) from your specific bank.</p>
+                                        <p className="opacity-90 leading-relaxed text-sm italic tracking-wide">Cross-verification of Success Stories-Ask for recent settlement letters (with sensitive info redacted) from your specific bank.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -491,7 +491,7 @@ const ChooseProviderClient = () => {
 
                             <h2 id="fee-model-granular" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Granular Fee Analysis: Success vs Enrollment</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Let's get technical about the money. A trustworthy provider will offer a split fee model.
+                                Let’s get technical about the money. A trustworthy provider will offer a split fee model.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 italic">
                                 <div className="p-8 bg-blue-50/50 border border-blue-100 rounded-3xl">
@@ -519,7 +519,7 @@ const ChooseProviderClient = () => {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Selecting a provider is a high-stakes decision. You don't have to navigate these confusing choices alone. Our team of certified investigators and legal advisors is here to verify your potential partner and ensure you choose a firm that prioritizes your financial recovery.</p>
+                                <p className="text-blue-800 mb-6">Selecting a provider is a high-stakes decision. You don’t have to navigate these confusing choices alone. Our team of certified investigators and legal advisors is here to verify your potential partner and ensure you choose a firm that prioritizes your financial recovery.</p>
                                 <Link
                                     href="/contact-us"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -539,12 +539,12 @@ const ChooseProviderClient = () => {
                                     href="/contact-us"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                                 >
-                                    Get Auditor's Report
+                                    Get Auditor’s Report
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 

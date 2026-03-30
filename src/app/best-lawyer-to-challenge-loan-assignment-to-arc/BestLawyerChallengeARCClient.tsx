@@ -276,7 +276,7 @@ export default function BestLawyerChallengeARCClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Introduction: The Rise of ARCs and the Borrower's Dilemma</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Introduction: The Rise of ARCs and the Borrower’s Dilemma</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In the complex world of Indian banking, the emergence of Asset Reconstruction Companies (ARCs) has created a significant shift in how non-performing assets (NPAs) are handled. When a bank realizes that a loan is unlikely to be recovered through its internal efforts, it often "sells" or "assigns" that debt to an ARC. For the bank, this is a way to clean its balance sheet and recover some immediate liquidity. For the borrower, however, it represents a new and often more daunting phase of the recovery process. ARCs are specialized entities designed for the sole purpose of maximizing recovery, and they often use the powerful provisions of the SARFAESI Act to achieve their goals.
                             </p>
@@ -301,7 +301,7 @@ export default function BestLawyerChallengeARCClient() {
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Understanding the ARC business model is essential for your lawyer to build a successful strategy. We don't just fight the legal case; we understand the financial pressure on the ARC. If we can show that their legal "claim" is flawed, their willingness to settle for a reasonable amount increases dramatically. In 2025, the ARC market in India has become highly competitive, with firms like ARCIL, Edelweiss, and Omkara ARC handling thousands of crores in distressed debt.
+                                Understanding the ARC business model is essential for your lawyer to build a successful strategy. We don’t just fight the legal case; we understand the financial pressure on the ARC. If we can show that their legal "claim" is flawed, their willingness to settle for a reasonable amount increases dramatically. In 2025, the ARC market in India has become highly competitive, with firms like ARCIL, Edelweiss, and Omkara ARC handling thousands of crores in distressed debt.
                             </p>
 
                             <h2 id="legal-grounds" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Legal Grounds for Challenging ARC Assignments</h2>
@@ -318,12 +318,12 @@ export default function BestLawyerChallengeARCClient() {
                                 <strong>3. Non-Compliance with RBI Sale of Stressed Assets (SSA) Guidelines:</strong> The RBI has strict rules on how and when a bank can sell a loan. This includes the requirement for a "Transparent Bidding Process" and specific "Due Diligence" requirements. If your lawyer can prove that the sale was done in a non transparent manner or at a price that suggests a lack of due diligence, the assignment can be contested.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>4. Improper Notice of Assignment:</strong> Under the Transfer of Property Act, a debtor must be informed of the assignment of their debt. While the SARFAESI Act has some "deeming" provisions, the failure to provide a formal notice can be used as a procedural ground in the DRT to stay the ARC's recovery actions.
+                                <strong>4. Improper Notice of Assignment:</strong> Under the Transfer of Property Act, a debtor must be informed of the assignment of their debt. While the SARFAESI Act has some "deeming" provisions, the failure to provide a formal notice can be used as a procedural ground in the DRT to stay the ARC’s recovery actions.
                             </p>
 
                             <h2 id="npa-classification" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Challenging NPA Classification: The Foundation of Defense</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This is perhaps the most powerful tool in a borrower's arsenal. An ARC can only invoke SARFAESI powers if the account has been correctly classified as a "Non-Performing Asset" (NPA). However, the rules for NPA classification are complex and are often misapplied by banks. If the original bank wrongly classified your account as an NPA, every subsequent action, including the assignment to the ARC and the Section 13(2) notice, is legally invalid.
+                                This is perhaps the most powerful tool in a borrower’s arsenal. An ARC can only invoke SARFAESI powers if the account has been correctly classified as a "Non-Performing Asset" (NPA). However, the rules for NPA classification are complex and are often misapplied by banks. If the original bank wrongly classified your account as an NPA, every subsequent action, including the assignment to the ARC and the Section 13(2) notice, is legally invalid.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 How your lawyer will challenge the NPA status:
@@ -357,13 +357,13 @@ export default function BestLawyerChallengeARCClient() {
 
                             <h2 id="securitization-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Securitization Act: A Double-Edged Sword</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002, is the source of the ARC's power. It was designed to help the banking sector reduce its baggage of "bad loans." However, for many years, it was used blindly as a tool of oppression. In the 2023-2025 legal era, the Supreme Court of India has brought a level of balance to the Act.
+                                The Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002, is the source of the ARC’s power. It was designed to help the banking sector reduce its baggage of "bad loans." However, for many years, it was used blindly as a tool of oppression. In the 2023-2025 legal era, the Supreme Court of India has brought a level of balance to the Act.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Today, the SARFAESI Act is a double edged sword. While it gives the ARC the power to repossess assets, it also gives the borrower a specialized forum,  the Debt Recovery Tribunal ,  to challenge those actions under Section 17. The key is to act fast. You only have 45 days from the date of the "measure" (e.g., possession or auction notice) to file your application. If you miss this deadline, your defenses become much harder to plead.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A lawyer specializing in ARC disputes will use the Securitization Act to your advantage by filing a "Securitization Application" (SA). In this application, we don't just "request" for time; we "demand" justice by highlighting the legal and procedural failures of the ARC. In the current judicial climate, tribunals are very protective of a person's Right to Property (Article 300A of the Constitution) and will often stay an ARC's action if even a prima-facie case of procedural error is made out.
+                                A lawyer specializing in ARC disputes will use the Securitization Act to your advantage by filing a "Securitization Application" (SA). In this application, we don’t just "request" for time; we "demand" justice by highlighting the legal and procedural failures of the ARC. In the current judicial climate, tribunals are very protective of a person’s Right to Property (Article 300A of the Constitution) and will often stay an ARC’s action if even a prima-facie case of procedural error is made out.
                             </p>
 
                             <h2 id="sarfaesi-challenges" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Advanced SARFAESI Challenges for 2025</h2>
@@ -383,7 +383,7 @@ export default function BestLawyerChallengeARCClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>The Right to One-Time Settlement (OTS):</strong> Under the RBI's 2025 guidelines, every ARC must have a fair settlement policy. You have the right to be considered for a settlement if you are in genuine distress. They cannot "cherry-pick" which borrowers they will settle with.</li>
+                                    <li><strong>The Right to One-Time Settlement (OTS):</strong> Under the RBI’s 2025 guidelines, every ARC must have a fair settlement policy. You have the right to be considered for a settlement if you are in genuine distress. They cannot "cherry-pick" which borrowers they will settle with.</li>
                                     <li><strong>The Right to Fair Valuation:</strong> If your property is being auctioned, you have the right to a fair valuation based on current market rates, not a "fire sale" price meant to favor a specific buyer.</li>
                                     <li><strong>The Right to Account Statements:</strong> You have the legal right to receive a full breakdown of your debt, including every penny of interest and penalty charged. Lack of transparency in the statement is a major ground for legal challenge.</li>
                                     <li><strong>The Right Against Harassment:</strong> ARCs are strictly prohibited from using musclemen or abusive recovery agents. Any form of physical threat or social shaming is a criminal offense and can be reported to the police and the RBI.</li>
@@ -409,12 +409,12 @@ export default function BestLawyerChallengeARCClient() {
 
                             <h2 id="drt-representation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Specialized Representation in DRT for ARC Cases</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Representation in the Debt Recovery Tribunal is not the same as arguing a case in a regular civil court. It is a quasi judicial process where the "Rules of Procedure" are paramount. Your lawyer's role in the DRT includes:
+                                Representation in the Debt Recovery Tribunal is not the same as arguing a case in a regular civil court. It is a quasi judicial process where the "Rules of Procedure" are paramount. Your lawyer’s role in the DRT includes:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Filing the Section 17 Application:</strong> Every single move of the ARC, from the Section 13(2) notice to the possession and the sale notice, must be challenged individually through a Securitization Application.</li>
                                 <li><strong>Obtaining Stay Orders:</strong> The immediate goal is often a "Stay on Auction." This gives you the breathing room to either find a buyer for the asset yourself or negotiate a better settlement with the ARC.</li>
-                                <li><strong>Challenging the Recovery Officer's Action:</strong> If the ARC has already obtained a decree, we challenge the "Execution" of that decree if there are procedural errors in how the assets are being attached.</li>
+                                <li><strong>Challenging the Recovery Officer’s Action:</strong> If the ARC has already obtained a decree, we challenge the "Execution" of that decree if there are procedural errors in how the assets are being attached.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, virtual courts have made it possible for us to represent clients in DRTs across India, Delhi, Mumbai, Chennai, Ahmedabad, or Kolkata, without the need for expensive travel. This allows you to hire a top tier specialized ARC lawyer regardless of where you are located.
@@ -436,15 +436,15 @@ export default function BestLawyerChallengeARCClient() {
 
                             <h2 id="arc-vs-banks" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">ARC vs. Traditional Banks: Understanding the Recovery DNA</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To fight an ARC, you must understand their "Recovery DNA." A traditional bank like HDFC or SBI has a reputation to protect. They are supervised by public opinion and often have "Customer Relationship" goals. An ARC, however, doesn't care about their public image as a "lending institution." Their success is measured purely by their "Recovery Efficiency."
+                                To fight an ARC, you must understand their "Recovery DNA." A traditional bank like HDFC or SBI has a reputation to protect. They are supervised by public opinion and often have "Customer Relationship" goals. An ARC, however, doesn’t care about their public image as a "lending institution." Their success is measured purely by their "Recovery Efficiency."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This makes them more aggressive, but also more predictable. They are driven by cold, hard ROI (Return on Investment). If your lawyer can show that the ROI of a 5 year court battle is lower than the ROI of an immediate 60% settlement, the ARC will choose the settlement every time. We speak their language, the language of Net Present Value, IRR (Internal Rate of Return), and Provisioning costs.
                             </p>
 
                             <div className="mt-12 p-10 bg-blue-50 rounded-3xl border border-blue-100 text-center shadow-xl">
-                                <h3 className="text-3xl font-bold text-blue-900 mb-4">Protect Your Life's Assets</h3>
-                                <p className="text-blue-800 mb-8 max-w-3xl mx-auto">Don't let an ARC take away what you've worked for years to build. Our specialized legal team is ready to challenge their assignment, find procedural errors, and negotiate the best possible exit for you.</p>
+                                <h3 className="text-3xl font-bold text-blue-900 mb-4">Protect Your Life’s Assets</h3>
+                                <p className="text-blue-800 mb-8 max-w-3xl mx-auto">Don’t let an ARC take away what you’ve worked for years to build. Our specialized legal team is ready to challenge their assignment, find procedural errors, and negotiate the best possible exit for you.</p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <Link
                                         href="/contact"
@@ -491,10 +491,10 @@ export default function BestLawyerChallengeARCClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Conclusion: Reclaiming Your Power Against the ARC</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The journey of a loan from a bank to an ARC can feel like falling from the frying pan into the fire. But it doesn't have to be your financial end. In the 2025 legal environment, knowledge is power. By understanding your rights, identifying procedural errors, and hiring a specialized legal partner, you can turn a moment of crisis into an opportunity for a final and clean reset.
+                                The journey of a loan from a bank to an ARC can feel like falling from the frying pan into the fire. But it doesn’t have to be your financial end. In the 2025 legal environment, knowledge is power. By understanding your rights, identifying procedural errors, and hiring a specialized legal partner, you can turn a moment of crisis into an opportunity for a final and clean reset.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we don't just provide "legal advice." We provide a "War Room" for your financial defense. We analyze every document, challenge every procedural misstep, and negotiate with the intensity that your future deserves. You've worked your whole life to build your assets; don't let an improper loan assignment take them away. Reclaim your power, protect your property, and build a debt free future today.
+                                At CredSettle, we don’t just provide "legal advice." We provide a "War Room" for your financial defense. We analyze every document, challenge every procedural misstep, and negotiate with the intensity that your future deserves. You’ve worked your whole life to build your assets; don’t let an improper loan assignment take them away. Reclaim your power, protect your property, and build a debt free future today.
                             </p>
 
                             <div className="mt-8 text-xs text-gray-400 italic font-thin border-t pt-4">
@@ -519,9 +519,9 @@ export default function BestLawyerChallengeARCClient() {
                                     Stop ARC Action Now
                                 </Link>
                                 <div className="mt-4 text-[10px] text-gray-400 font-medium space-y-1 uppercase tracking-tighter">
-                                    <p>✓ Immediate DRT Filing</p>
-                                    <p>✓ SARFAESI Expert Team</p>
-                                    <p>✓ National Presence</p>
+                                    <p>v Immediate DRT Filing</p>
+                                    <p>v SARFAESI Expert Team</p>
+                                    <p>v National Presence</p>
                                 </div>
                             </div>
 

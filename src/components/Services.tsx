@@ -98,7 +98,7 @@ export default function Services() {
                       className="font-bold text-left text-2xl mb-4" 
                       style={{ color: '#0C2756' }}
                     >
-                      Stop Loan Recovery Agent Harassment – Protect Your Rights with CredSettle
+                      Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
                     </h3>
                     <p 
                       className="text-left text-sm mb-4" 
@@ -290,7 +290,7 @@ export default function Services() {
                     letterSpacing: '0.18px'
                   }}
                 >
-                  Stop Loan Recovery Agent Harassment – Protect Your Rights with CredSettle
+                  Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
                 </h3>
                 <p
                   className="w-full"
@@ -374,7 +374,7 @@ export default function Services() {
                     lineHeight: '20px'
                   }}
                 >
-                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Services –</span>
+                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Services -</span>
                   {' '}
                   <span style={{ color: 'rgba(0, 0, 0, 0.70)' }}>Divert all recovery calls directly to our legal helpline.</span>
                 </p>
@@ -400,7 +400,7 @@ export default function Services() {
                     lineHeight: '20px'
                   }}
                 >
-                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Complaint Filing –</span>
+                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Complaint Filing -</span>
                   {' '}
                   <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>We file formal complaints with RBI, NCH, and Cyber Police against harassment.</span>
                 </p>
@@ -427,7 +427,7 @@ export default function Services() {
                   }}
                 >
                   <span style={{ fontSize: '16px', color: 'rgba(12, 39, 86, 1)' }}>Cease & Desist Notices</span>
-                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}> –</span>
+                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}> -</span>
                   {' '}
                   <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Our legal team issues notices to stop illegal recovery activities immediately.</span>
                 </p>

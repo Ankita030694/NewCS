@@ -80,7 +80,7 @@ export default function WhenToChooseSettlementClient() {
         { id: 'cons-of-repayment', label: 'Repayment Pitfalls' },
         { id: 'pros-of-settlement', label: 'Survival Benefits' },
         { id: 'cons-of-settlement', label: 'The Hidden Costs' },
-        { id: 'tax-implications', label: 'The Tax Man\'s Dues' },
+        { id: 'tax-implications', label: 'The Tax Man’s Dues' },
         { id: 'lender-specific-policies', label: 'Lender Tactics' },
         { id: 'the-tipping-point', label: 'When to Jump?' },
         { id: 'asset-protection-strategy', label: 'Protecting Assets' },
@@ -109,7 +109,7 @@ export default function WhenToChooseSettlementClient() {
         },
         {
             question: 'What is the "Cooling Period" mentioned in the guidelines?',
-            answer: 'After a compromise settlement, lenders are prohibited from granting fresh loans to that borrower for a minimum period (usually 12 months) defined by the bank\'s board. This is to ensure you stabilize your finances first.'
+            answer: 'After a compromise settlement, lenders are prohibited from granting fresh loans to that borrower for a minimum period (usually 12 months) defined by the bank’s board. This is to ensure you stabilize your finances first.'
         },
         {
             question: 'Will I be arrested if I choose settlement over repayment?',
@@ -331,7 +331,7 @@ export default function WhenToChooseSettlementClient() {
                                 The banking system depends on your fear of the "Credit Bureau." They want you to believe that missing a payment is a moral failure. But in 2025, smart financial management is about pragmatism. If you are drowning in a debt pool where the water is rising faster than you can pump it out, refusing to use a life raft (Loan Settlement) because you like the color of the pool (Credit Score) is a strategic blunder.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                At CredSettle, we analyze thousands of portfolios. We don't just ask "Can you pay?" We ask "Should you pay?" This 4000+ word deep-dive is designed to give you the objective, cold, hard facts you need to decide if today is the day you stop trying to repair a sinking ship and start building a new one via settlement.
+                                At CredSettle, we analyze thousands of portfolios. We don’t just ask "Can you pay?" We ask "Should you pay?" This 4000+ word deep-dive is designed to give you the objective, cold, hard facts you need to decide if today is the day you stop trying to repair a sinking ship and start building a new one via settlement.
                             </p>
 
                             <h2 id="defining-the-conflict" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 border-b-8 border-blue-50 pb-4">The Conflict: Repayment vs. Settlement</h2>
@@ -363,7 +363,7 @@ export default function WhenToChooseSettlementClient() {
 
                             <h2 id="genuine-hardship-indicators" className="text-3xl font-black text-slate-900 mb-8 scroll-mt-28 italic underline decoration-slate-200">The Hardship Checklist</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Banks will only settle if they believe you genuinely cannot pay. In 2025, "I don't feel like paying" is not a reason. "I physically cannot pay because X" is the requirement. Valid settlement triggers include:
+                                Banks will only settle if they believe you genuinely cannot pay. In 2025, "I don’t feel like paying" is not a reason. "I physically cannot pay because X" is the requirement. Valid settlement triggers include:
                             </p>
                             <ul className="list-disc pl-10 mb-10 space-y-4 text-gray-700 font-bold border-l-8 border-slate-50">
                                 <li><strong>Medical Catastrophe:</strong> Large hospital bills that depleted all savings.</li>
@@ -383,7 +383,7 @@ export default function WhenToChooseSettlementClient() {
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 rounded-3xl border border-indigo-100 flex flex-col justify-center">
                                     <h5 className="font-extrabold text-indigo-900 mb-3 uppercase text-sm tracking-widest">Wilful Default Check</h5>
-                                    <p className="text-sm text-gray-600 font-medium">Lenders must perform a thorough check to ensure you aren't hiding assets before agreeing to a loss.</p>
+                                    <p className="text-sm text-gray-600 font-medium">Lenders must perform a thorough check to ensure you aren’t hiding assets before agreeing to a loss.</p>
                                 </div>
                             </div>
 
@@ -400,7 +400,7 @@ export default function WhenToChooseSettlementClient() {
 
                             <h2 id="cons-of-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Bitter Truth: Cons of Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                We don't sugarcoat the facts at CredSettle. Settlement has teeth.
+                                We don’t sugarcoat the facts at CredSettle. Settlement has teeth.
                             </p>
                             <div className="bg-red-50 p-10 rounded-[3rem] border-2 border-red-100 mb-12">
                                 <h4 className="text-red-900 font-black text-2xl mb-6">The "Settled" Mark: A 7-Year Shadow</h4>
@@ -440,7 +440,7 @@ export default function WhenToChooseSettlementClient() {
 
                             <h2 id="expert-verdict" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Our Recommendation</h2>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                If you are "Semi-Stressed", meaning you can pay but it's Tight, **Choose Repayment**. Sacrifice your luxuries, take a second job, and close the loan properly. The CIBIL health you save today will be worth lakhs in the future.
+                                If you are "Semi-Stressed", meaning you can pay but it’s Tight, **Choose Repayment**. Sacrifice your luxuries, take a second job, and close the loan properly. The CIBIL health you save today will be worth lakhs in the future.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-bold border-l-4 border-slate-900 pl-6">
                                 If you are "Severely Stressed", meaning you are taking New Loans to pay Old Loans, **Choose Settlement**. The interest is a fire that will eat your future. Put it out now. Settle, survive, and then rebuild.
@@ -480,7 +480,7 @@ export default function WhenToChooseSettlementClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -506,9 +506,9 @@ export default function WhenToChooseSettlementClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 
@@ -523,7 +523,7 @@ export default function WhenToChooseSettlementClient() {
                                         { href: "/best-lawyer-for-bank-harassment-for-loan", text: "Stop Collection Calls Now" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

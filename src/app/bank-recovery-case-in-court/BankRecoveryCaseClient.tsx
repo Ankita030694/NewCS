@@ -291,7 +291,7 @@ export default function BankRecoveryCaseClient() {
 
                             <h2 id="regular-civil-suit" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">The Regular Civil Suit: Recovery at a Human Pace</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                A <strong>Regular Civil Suit for Money Recovery</strong> is the standard procedure for debts that don't qualify for fast-track processes. This is an adversarial process where both sides are on equal footing.
+                                A <strong>Regular Civil Suit for Money Recovery</strong> is the standard procedure for debts that don’t qualify for fast-track processes. This is an adversarial process where both sides are on equal footing.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 <strong>The Stages of a Regular Suit:</strong>
@@ -313,7 +313,7 @@ export default function BankRecoveryCaseClient() {
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 In a Summary Suit, the bank claims that since the debt is documented, there is no need for a long trial. This is extremely dangerous for a borrower because:
                                 <br />1. You have only <strong>10 days</strong> to show up in court after receiving the summons.
-                                <br />2. If you don't show up, the court DEEMS all the bank’s allegations as true and passes a decree against you on the 11th day.
+                                <br />2. If you don’t show up, the court DEEMS all the bank’s allegations as true and passes a decree against you on the 11th day.
                             </p>
 
                             <h2 id="leave-to-defend" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">Leave to Defend: Your Gateway to Justice</h2>
@@ -336,7 +336,7 @@ export default function BankRecoveryCaseClient() {
                                 A bank cannot just claim they filed a case. You must be <strong>"Duly Served."</strong> This means a court official or a registered courier must deliver the summons to you personally. In 2025, courts have started allowing service through WhatsApp or Email in certain cases, but the proof of delivery remains strictly regulated.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                <strong>Never evade service.</strong> If you refuse to take a summons, the court can allow "Substituted Service" (putting a notice in the newspaper). This is worse because you won't know the court date, and an Ex-Parte decree will be passed against you.
+                                <strong>Never evade service.</strong> If you refuse to take a summons, the court can allow "Substituted Service" (putting a notice in the newspaper). This is worse because you won’t know the court date, and an Ex-Parte decree will be passed against you.
                             </p>
 
                             <h2 id="attachment-of-property" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">Asset Attachment: What Can and Cannot Be Taken</h2>
@@ -363,8 +363,8 @@ export default function BankRecoveryCaseClient() {
                             <h2 id="sarfaesi-act-overlap" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">SARFAESI Overlap: Secured vs Unsecured</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 For home loans and business loans with collateral, banks use the <strong>SARFAESI Act, 2002</strong>. This is much faster because it allows the bank to take possession <strong>without going to court.</strong>
-                                <br />- If it's SARFAESI, you go to the <strong>Debt Recovery Tribunal (DRT).</strong>
-                                <br />- If it's an unsecured personal loan, you go to the <strong>Civil Court.</strong>
+                                <br />- If it’s SARFAESI, you go to the <strong>Debt Recovery Tribunal (DRT).</strong>
+                                <br />- If it’s an unsecured personal loan, you go to the <strong>Civil Court.</strong>
                                 <br />- If a bank mentions SARFAESI for a credit card, they are wrong, and you can get an immediate 'Stay' from the court.
                             </p>
 
@@ -389,7 +389,7 @@ export default function BankRecoveryCaseClient() {
 
                             <h2 id="mediation-settlement" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">Court-Led Mediation: The Amicable Exit</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                In 2025, judges are under immense pressure to reduce pendency. Almost every bank case is referred to <strong>Mediation</strong> or <strong>Lok Adalats</strong>. This is your best chance. A settlement reached through mediation is called a "Settlement Agreement," and when it's converted into a court order, it's final. It usually involves a massive waiver of penal interest.
+                                In 2025, judges are under immense pressure to reduce pendency. Almost every bank case is referred to <strong>Mediation</strong> or <strong>Lok Adalats</strong>. This is your best chance. A settlement reached through mediation is called a "Settlement Agreement," and when it’s converted into a court order, it’s final. It usually involves a massive waiver of penal interest.
                             </p>
 
                             <h2 id="rbi-ombudsman-role" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">The Ombudsman: A Parallel Search for Justice</h2>
@@ -407,12 +407,12 @@ export default function BankRecoveryCaseClient() {
                                 A bank recovery case in court is a marathon, not a sprint. The bank’s goal is money, and the court’s goal is fairness. If you are honest about your financial hardship and respectful of the legal process, the Indian judiciary often provides a "Cushion" for honest borrowers to settle and restart their lives.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                Don't let fear of court stop you from defending your rights. Whether you choose to fight it out on merits or use the litigation as a platform for a one-time settlement, being informed is your greatest asset. At CredSettle, we stand between the corporate might of the bank and the individual borrower, ensuring that the law serves justice, not just recovery.
+                                Don’t let fear of court stop you from defending your rights. Whether you choose to fight it out on merits or use the litigation as a platform for a one-time settlement, being informed is your greatest asset. At CredSettle, we stand between the corporate might of the bank and the individual borrower, ensuring that the law serves justice, not just recovery.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Under Pressure from a Bank Court Case?</h3>
-                                <p className="text-blue-800 mb-6">Received a summons or an Order 37 notice? Our expert legal team can draft your Leave to Defend, represent you in court, and negotiate a final settlement. Don't let the bank get an ex-parte decree.</p>
+                                <p className="text-blue-800 mb-6">Received a summons or an Order 37 notice? Our expert legal team can draft your Leave to Defend, represent you in court, and negotiate a final settlement. Don’t let the bank get an ex-parte decree.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -467,7 +467,7 @@ export default function BankRecoveryCaseClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-slate-900 mb-2">Notice Served?</h4>
-                                <p className="text-sm text-slate-600 mb-6">If you have been served a court summons, the 10-90 day legal clock has started. Procrastination is the bank's biggest ally.</p>
+                                <p className="text-sm text-slate-600 mb-6">If you have been served a court summons, the 10-90 day legal clock has started. Procrastination is the bank’s biggest ally.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -475,9 +475,9 @@ export default function BankRecoveryCaseClient() {
                                     Respond Professionally
                                 </Link>
                                 <div className="mt-4 text-xs text-slate-500 space-y-1">
-                                    <p>✓ Draft Leave to Defend</p>
-                                    <p>✓ Stop Ex-Parte Decrees</p>
-                                    <p>✓ Fast-Track Settlements</p>
+                                    <p>v Draft Leave to Defend</p>
+                                    <p>v Stop Ex-Parte Decrees</p>
+                                    <p>v Fast-Track Settlements</p>
                                 </div>
                             </div>
 

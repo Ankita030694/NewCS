@@ -177,7 +177,7 @@ export default function MaharashtraLoanSettlementPage() {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Anjali Deshmukh" },
         "datePublished": "2026-01-05",
-        "reviewBody": "Professional service. They handled the legal notices I got from the bank. I didn't have to go to court.",
+        "reviewBody": "Professional service. They handled the legal notices I got from the bank. I didn’t have to go to court.",
         "reviewRating": { "@type": "Rating", "ratingValue": "5" }
       }
     ]

@@ -85,7 +85,7 @@ export default function CanRecoveryAgentsHomeClient() {
             answer: 'Yes, RBI rules generally restrict visits to between 8 AM and 7 PM. Visits outside these hours, especially late at night or early morning, are illegal and considered harassment.'
         },
         {
-            question: 'Can I be arrested if I don\'t let the recovery agent in?',
+            question: 'Can I be arrested if I don’t let the recovery agent in?',
             answer: 'Absolutely not. Debt recovery is a civil matter. Not letting a private agent into your home is your legal right to privacy and can never lead to an arrest.'
         },
         {
@@ -94,7 +94,7 @@ export default function CanRecoveryAgentsHomeClient() {
         },
         {
             question: 'What documents should an agent show before entering?',
-            answer: 'They must produce a valid ID card from the bank or agency and a specific authorization letter for your loan. If they don\'t have these, they are unauthorized individuals.'
+            answer: 'They must produce a valid ID card from the bank or agency and a specific authorization letter for your loan. If they don’t have these, they are unauthorized individuals.'
         },
         {
             question: 'How do I stop future visits from recovery agents?',
@@ -125,7 +125,7 @@ export default function CanRecoveryAgentsHomeClient() {
             name: 'Anjali Sharma',
             location: 'Pune',
             stars: 5,
-            comment: 'I was terrified of home visits. CredSettle taught me that I don\'t even have to open my gate. Now I talk to them through my window, keeping my children safe inside.'
+            comment: 'I was terrified of home visits. CredSettle taught me that I don’t even have to open my gate. Now I talk to them through my window, keeping my children safe inside.'
         },
         {
             name: 'Sunil Mehta',
@@ -137,7 +137,7 @@ export default function CanRecoveryAgentsHomeClient() {
             name: 'Meena Das',
             location: 'Kolkata',
             stars: 5,
-            comment: 'Very helpful. Knowing that they can\'t call me at 6 AM or visit after 7 PM brought so much peace to my household. Thank you for this guide.'
+            comment: 'Very helpful. Knowing that they can’t call me at 6 AM or visit after 7 PM brought so much peace to my household. Thank you for this guide.'
         }
     ];
 
@@ -383,7 +383,7 @@ export default function CanRecoveryAgentsHomeClient() {
                                 At CredSettle, we represent thousands of families who have faced the trauma of doorstep recovery. We have seen how knowledge of one single legal section can transform a terrified borrower into a empowered citizen who stands their ground. Whether you are dealing with a personal loan, a credit card default, or a complex business loan recovery, this guide is your roadmap to securing your home. We will move beyond the fear and provide you with a masterclass on how to manage, record, and, if necessary, legally prosecute any agent who crosses the line.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Remember, the goal of a home visit is often psychological, to make you feel "hunted" so you pay out of panic. By mastering the rules of engagement, you take that weapon away from the bank. A home visit should be a professional interaction, and if it becomes anything else, the law is on your side. Let let's begin by defining the exact legal status of a recovery agent at your door.
+                                Remember, the goal of a home visit is often psychological, to make you feel "hunted" so you pay out of panic. By mastering the rules of engagement, you take that weapon away from the bank. A home visit should be a professional interaction, and if it becomes anything else, the law is on your side. Let let’s begin by defining the exact legal status of a recovery agent at your door.
                             </p>
 
                             <h2 id="legal-status-visits" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Legal Status of Visits: Myth vs. Reality</h2>
@@ -424,7 +424,7 @@ export default function CanRecoveryAgentsHomeClient() {
                                 <br />- <strong className="font-bold text-gray-900">Public Spaces:</strong> If you must talk, suggest meeting at a nearby public place like a park or cafe, where you feel safer and have witnesses.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Agents often use the "Sympathy Trap" ("It's very hot outside, please just let us sit for 5 minutes"). Do not fall for this. Once they are inside, it is much harder to get them to leave, and they have an opportunity to "look around" at your assets and family, which they will use to build psychological pressure later. Professionalism means keeping the boundaries clear.
+                                Agents often use the "Sympathy Trap" ("It’s very hot outside, please just let us sit for 5 minutes"). Do not fall for this. Once they are inside, it is much harder to get them to leave, and they have an opportunity to "look around" at your assets and family, which they will use to build psychological pressure later. Professionalism means keeping the boundaries clear.
                             </p>
 
                             <h2 id="home-visit-etiquette" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Home Visit Etiquette: The RBI Protocol</h2>
@@ -434,7 +434,7 @@ export default function CanRecoveryAgentsHomeClient() {
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Pre-Notice Requirement:</strong> The bank must have updated their empanelled agent list on their website and should ideally have sent you a text or email saying that Agent X is authorized to visit you.</li>
                                 <li><strong>Timing (8 AM - 7 PM):</strong> Visits can only happen during these daylight hours. Any visit at 8 PM is a violation.</li>
-                                <li><strong>Identification:</strong> The agent MUST carry a valid ID card and a copy of the bank's authorization letter. Take a photo of these immediately.</li>
+                                <li><strong>Identification:</strong> The agent MUST carry a valid ID card and a copy of the bank’s authorization letter. Take a photo of these immediately.</li>
                                 <li><strong>Professional Distance:</strong> The agent must maintain a distance and not use physical proximity as a tool of intimidation.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -446,13 +446,13 @@ export default function CanRecoveryAgentsHomeClient() {
                                 For many, the office is more vulnerable than the home. The fear of being shamed in front of colleagues or HR is a massive leverage point for agents. The RBI has recognized this and has created strict "Workplace Boundaries."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong className="font-bold text-gray-900">The Workplace Rule:</strong> An agent can only visit your office as a <strong className="font-bold text-gray-900">Last Resort</strong>, specifically when they have tried and failed multiple times to contact you at your home or via phone. They cannot visit your office just because it's "more convenient" for them or because they want to embarrass you.
+                                <strong className="font-bold text-gray-900">The Workplace Rule:</strong> An agent can only visit your office as a <strong className="font-bold text-gray-900">Last Resort</strong>, specifically when they have tried and failed multiple times to contact you at your home or via phone. They cannot visit your office just because it’s "more convenient" for them or because they want to embarrass you.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong className="font-bold text-gray-900">During an Office Visit:</strong>
                                 <br />- They cannot shout or create a scene in the lobby.
                                 <br />- They cannot contact your superiors to "complain" about your debt. This is a violation of your privacy and can lead to the bank being sued for <strong className="font-bold text-gray-900">Defamation</strong>.
-                                <br />- If an agent reaches your office, tell your security to ask for their ID and authorization letter. If they don't have it, they can be escorted out.
+                                <br />- If an agent reaches your office, tell your security to ask for their ID and authorization letter. If they don’t have it, they can be escorted out.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, you can also send a <strong className="font-bold text-gray-900">"Notice of Non-Consent"</strong> to your bank. State: "I am available for discussion at my home address between 6 PM and 7 PM. I do NOT consent to any visits at my place of employment as it may jeopardize my source of income." Once the bank has this in writing, any office visit becomes a deliberate act of bad faith and is easily punishable by the Ombudsman.
@@ -477,13 +477,13 @@ export default function CanRecoveryAgentsHomeClient() {
 
                             <h2 id="recording-home-visits" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Recording Evidence: Your Digital Witness</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In a "He Said, She Said" battle with a bank, the one with the recording wins 100% of the time. Modern technology is the borrower's best friend.
+                                In a "He Said, She Said" battle with a bank, the one with the recording wins 100% of the time. Modern technology is the borrower’s best friend.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong className="font-bold text-gray-900">How to Record Safely:</strong>
                                 <br />- <strong className="font-bold text-gray-900">Doorbell Cameras:</strong> In 2025, a smart video doorbell is the best investment for a borrower. It records the interaction from the start, often with high-quality audio.
                                 <br />- <strong className="font-bold text-gray-900">Phone Video:</strong> If you must face an agent at the gate, have someone else (a family member or neighbor) record the interaction from a short distance.
-                                <br />- <strong className="font-bold text-gray-900">The Warning:</strong> You do NOT need the agent's permission to record someone who is on your property or talking to you in a public space. However, explicitly saying "I am recording this for my safety and for RBI compliance" often makes agents behave much better instantly.
+                                <br />- <strong className="font-bold text-gray-900">The Warning:</strong> You do NOT need the agent’s permission to record someone who is on your property or talking to you in a public space. However, explicitly saying "I am recording this for my safety and for RBI compliance" often makes agents behave much better instantly.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong className="font-bold text-gray-900">Save the Metadata:</strong> Ensure your recordings have the date and time stamp. This evidence is vital for the <strong className="font-bold text-gray-900">RBI Ombudsman</strong> and for filing a police complaint. A video of an agent shouting a vulgar word at your gate is enough to get a bank to waive a significant portion of your penalties.
@@ -513,7 +513,7 @@ export default function CanRecoveryAgentsHomeClient() {
                                 <strong className="font-bold text-gray-900">The "Safe Room" Strategy:</strong> If you know agents are coming, or if they are at the door, move your children and elderly family members to a back room. They should not be part of the negotiation.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong className="font-bold text-gray-900">The Elderly Shield:</strong> In India, the <strong className="font-bold text-gray-900">Maintenance and Welfare of Parents and Senior Citizens Act, 2007</strong> provides very high levels of protection. If an agent's behavior causes a health crisis for an elderly person, the legal consequences for the bank are severe. If you are a senior citizen living alone, or have elderly parents at home, mention this in your first response: "There are vulnerable senior citizens here. Any scene or shouting will be treated as a direct health threat under the Senior Citizens Act."
+                                <strong className="font-bold text-gray-900">The Elderly Shield:</strong> In India, the <strong className="font-bold text-gray-900">Maintenance and Welfare of Parents and Senior Citizens Act, 2007</strong> provides very high levels of protection. If an agent’s behavior causes a health crisis for an elderly person, the legal consequences for the bank are severe. If you are a senior citizen living alone, or have elderly parents at home, mention this in your first response: "There are vulnerable senior citizens here. Any scene or shouting will be treated as a direct health threat under the Senior Citizens Act."
                             </p>
 
                             <h2 id="securing-the-gate" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Physical Defense: Practical Home Security</h2>
@@ -521,14 +521,14 @@ export default function CanRecoveryAgentsHomeClient() {
                                 While we focus on legal defense, a few physical steps can make a massive difference in your peace of mind.
                                 <br />- <strong className="font-bold text-gray-900">The Physical Barrier:</strong> Ensure your gate or main door is always locked. Never rely on just a screen door.
                                 <br />- <strong className="font-bold text-gray-900">Security Mirrors/Cameras:</strong> Knowing who is outside *before* you open the door gives you the power to choose whether to engage.
-                                <br />- <strong className="font-bold text-gray-900">The "No Trespassing" Sign:</strong> Put a small, professional sign on your gate that says: "Private Property. No Entry without Appointment. Solicitors and Recovery Agents must show Bank ID and Authorization." While this doesn't stop everyone, it sets a legal tone from the start. It proves that anyone who enters without permission has knowingly ignored your warning.
+                                <br />- <strong className="font-bold text-gray-900">The "No Trespassing" Sign:</strong> Put a small, professional sign on your gate that says: "Private Property. No Entry without Appointment. Solicitors and Recovery Agents must show Bank ID and Authorization." While this doesn’t stop everyone, it sets a legal tone from the start. It proves that anyone who enters without permission has knowingly ignored your warning.
                             </p>
 
                             <h2 id="negotiation-at-home" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Handle the Talk: Negotiation from the Gate</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you decide to talk to the agent at the gate, keep it professional and brief.
                                 <br />- <strong className="font-bold text-gray-900">Do not apologize:</strong> Apologies are seen as weakness by recovery agents. Stick to the facts.
-                                <br />- <strong className="font-bold text-gray-900">"I am in contact with the Bank":</strong> Always say, "I am already in formal communication with the bank's Nodal Officer regarding a resolution. Please talk to your supervisors."
+                                <br />- <strong className="font-bold text-gray-900">"I am in contact with the Bank":</strong> Always say, "I am already in formal communication with the bank’s Nodal Officer regarding a resolution. Please talk to your supervisors."
                                 <br />- <strong className="font-bold text-gray-900">The Written Record:</strong> If they give you a letter, take it. If they ask you to sign anything, say, "I will review this with my legal advisor and reply via email." Never sign anything on the spot.
                                 <br />- <strong className="font-bold text-gray-900">Short Tenure:</strong> A professional visit should not last more than 5-10 minutes. If it stretches longer, say, "I have other commitments now. Please leave."
                             </p>
@@ -539,8 +539,8 @@ export default function CanRecoveryAgentsHomeClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>1. The "Visit Protest" Email:</strong> Send an email to the bank's nodal officer immediately. "Your agent visited today at Time X. Here are the violations (no ID, aggressive tone, etc.). I am protesting this visit as harassment."</li>
-                                    <li><strong>2. Save the Evidence:</strong> Move any recordings to a secure cloud folder. Label them with the date and the agent's name.</li>
+                                    <li><strong>1. The "Visit Protest" Email:</strong> Send an email to the bank’s nodal officer immediately. "Your agent visited today at Time X. Here are the violations (no ID, aggressive tone, etc.). I am protesting this visit as harassment."</li>
+                                    <li><strong>2. Save the Evidence:</strong> Move any recordings to a secure cloud folder. Label them with the date and the agent’s name.</li>
                                     <li><strong>3. Update Your Mediation Team:</strong> If you are working with a firm like CredSettle, send us the details. We will use this visit to push the bank for a better settlement. </li>
                                     <li><strong>4. Check the Bureau:</strong> Sometimes agents file false reports saying "The borrower threatened us." Filing your own protest email first protects your record.</li>
                                 </ul>
@@ -599,7 +599,7 @@ export default function CanRecoveryAgentsHomeClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Are Recovery Agents Crossing the Line?</h3>
-                                <p className="text-blue-800 mb-6">You don't have to endure abuse. Our legal experts can step in, stop the harassment by citing these RBI mandates, and negotiate a final settlement with your lender. Protect your mental health and reclaim your peace today.</p>
+                                <p className="text-blue-800 mb-6">You don’t have to endure abuse. Our legal experts can step in, stop the harassment by citing these RBI mandates, and negotiate a final settlement with your lender. Protect your mental health and reclaim your peace today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -630,9 +630,9 @@ export default function CanRecoveryAgentsHomeClient() {
                                     Secure My Home Now
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 text-left px-1">
-                                    <p>✓ Zero-Contact Protection</p>
-                                    <p>✓ Stop Office Visits</p>
-                                    <p>✓ Trespass Legal Action</p>
+                                    <p>v Zero-Contact Protection</p>
+                                    <p>v Stop Office Visits</p>
+                                    <p>v Trespass Legal Action</p>
                                 </div>
                             </div>
 

@@ -30,11 +30,11 @@ const faqData = [
   },
   {
     question: "Will a settlement remove the NPA status from my records?",
-    answer: "The account will be closed in the bank's books, but in your CIBIL report, it will be marked as Settled. This is better than an Active Default but still impacts your ability to get future loans for several years."
+    answer: "The account will be closed in the bank’s books, but in your CIBIL report, it will be marked as Settled. This is better than an Active Default but still impacts your ability to get future loans for several years."
   },
   {
     question: "What happens if the auction fails to find a buyer?",
-    answer: "If the auction fails (no bidders), the bank's bargaining power decreases. They might then be more willing to accept a lower settlement offer from the borrower because they don't want to hold onto a Dead Asset."
+    answer: "If the auction fails (no bidders), the bank’s bargaining power decreases. They might then be more willing to accept a lower settlement offer from the borrower because they don’t want to hold onto a Dead Asset."
   },
   {
     question: "Can I use specialized apps for a secured loan settlement?",
@@ -66,7 +66,7 @@ const faqData = [
   },
   {
     question: "Can I get a stay on an auction through DRT?",
-    answer: "Yes, if there is a procedural error in the bank's notices or if you can prove that the valuation is unfairly low, the Debt Recovery Tribunal can grant a stay on the auction, giving you more time to arrange funds for a settlement."
+    answer: "Yes, if there is a procedural error in the bank’s notices or if you can prove that the valuation is unfairly low, the Debt Recovery Tribunal can grant a stay on the auction, giving you more time to arrange funds for a settlement."
   }
 ];
 
@@ -87,7 +87,7 @@ const reviews = [
     name: "Suresh Menon",
     location: "Bangalore",
     rating: 4,
-    text: "Very knowledgeable about the OTS policies of PSUs. They identified a technical error in the bank's valuation which gave us the upper hand in the settlement negotiation."
+    text: "Very knowledgeable about the OTS policies of PSUs. They identified a technical error in the bank’s valuation which gave us the upper hand in the settlement negotiation."
   },
   {
     name: "Meera Deshmukh",
@@ -278,7 +278,7 @@ export default function SecuredVsUnsecuredClient() {
                 </p>
                 <h3 className="text-2xl font-semibold mt-8 mb-4">Secured Debt: The Collateral Comfort</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  For a home loan or a car loan, the bank is in a position of strength. They hold the Title Deeds or the Registration Papers. Under the SARFAESI Act, they don't even need a court's permission to take over the property if you default. They can simply issue a notice, take possession, and auction it off. Because of this, the waiver (discount) on a secured loan is much lower, typically ranging from 10% to 35%, rarely exceeding 40% unless the property is practically unsellable.
+                  For a home loan or a car loan, the bank is in a position of strength. They hold the Title Deeds or the Registration Papers. Under the SARFAESI Act, they don’t even need a court’s permission to take over the property if you default. They can simply issue a notice, take possession, and auction it off. Because of this, the waiver (discount) on a secured loan is much lower, typically ranging from 10% to 35%, rarely exceeding 40% unless the property is practically unsellable.
                 </p>
               </div>
 
@@ -311,7 +311,7 @@ export default function SecuredVsUnsecuredClient() {
                   <ul className="space-y-3 text-gray-700">
                     <li><strong>Improper Service of Notice:</strong> If the 13(2) notice was not delivered to all co-borrowers or not published in two newspapers (one in vernacular language), the entire proceeding can be stayed in the DRT.</li>
                     <li><strong>Incorrect Outstanding Amount:</strong> If the bank has included penal interest or charges that were not part of the original agreement, the notice is legally flawed.</li>
-                    <li><strong>Valuation Flaws:</strong> Banks often use "Distress Valuation" to justify a lower auction price. Proving that the property value is higher than the bank's estimate can delay the auction.</li>
+                    <li><strong>Valuation Flaws:</strong> Banks often use "Distress Valuation" to justify a lower auction price. Proving that the property value is higher than the bank’s estimate can delay the auction.</li>
                   </ul>
                 </div>
               </div>
@@ -329,13 +329,13 @@ export default function SecuredVsUnsecuredClient() {
                   </div>
                   <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
                     <h4 className="font-bold text-blue-900 mb-2">Auction Realities</h4>
-                    <p className="text-sm text-gray-700">Second-hand vehicles sold through bank auctions rarely fetch more than 60% of the market value. This gives the borrower a strong position to negotiate an OTS that matches the auction's expected net recovery.</p>
+                    <p className="text-sm text-gray-700">Second-hand vehicles sold through bank auctions rarely fetch more than 60% of the market value. This gives the borrower a strong position to negotiate an OTS that matches the auction’s expected net recovery.</p>
                   </div>
                 </div>
 
                 <h3 className="text-2xl font-semibold mt-8 mb-4">Loan Against Property (LAP): Commercial vs. Residential</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  LAP is often treated as a "Commercial Risk." If the property used as collateral is a commercial shop or a warehouse, banks are more aggressive but also more pragmatic. Because these aren't "Primary Residences," the emotional weight is lower, and banks are open to 25-30% waivers if the business has folded and there are no other assets to attach.
+                  LAP is often treated as a "Commercial Risk." If the property used as collateral is a commercial shop or a warehouse, banks are more aggressive but also more pragmatic. Because these aren’t "Primary Residences," the emotional weight is lower, and banks are open to 25-30% waivers if the business has folded and there are no other assets to attach.
                 </p>
               </div>
 
@@ -345,10 +345,10 @@ export default function SecuredVsUnsecuredClient() {
                   The <strong>Debt Recovery Tribunal (DRT)</strong> is the specialized court where SARFAESI actions are challenged. For a borrower, filing a Securitisation Application (SA) under Section 17 is the ultimate "Checkmate" move in a negotiation.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  When a borrower moves the DRT, they highlight "Procedural Lapses" in the bank's notices. If the DRT finds even a minor error—like an incorrect date on the newspaper publication or a failure to serve notice to a guarantor—it can grant a <strong>Status Quo</strong> or a <strong>Stay on Auction</strong>.
+                  When a borrower moves the DRT, they highlight "Procedural Lapses" in the bank’s notices. If the DRT finds even a minor error-like an incorrect date on the newspaper publication or a failure to serve notice to a guarantor-it can grant a <strong>Status Quo</strong> or a <strong>Stay on Auction</strong>.
                 </p>
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200 mb-6 italic text-gray-600">
-                  "Once an auction is stayed, the bank's recovery officer faces internal pressure. The account stays as an NPA, capital is blocked, and the recovery target for the quarter is missed. This is the exact moment when the bank's 'Hard Stance' turns into a 'Settlement Offer'."
+                  "Once an auction is stayed, the bank’s recovery officer faces internal pressure. The account stays as an NPA, capital is blocked, and the recovery target for the quarter is missed. This is the exact moment when the bank’s 'Hard Stance' turns into a 'Settlement Offer'."
                 </div>
               </div>
 
@@ -382,7 +382,7 @@ export default function SecuredVsUnsecuredClient() {
                   <li className="flex gap-4">
                     <div className="w-2 h-2 rounded-full bg-blue-600 mt-2.5 flex-shrink-0"></div>
                     <div>
-                      <strong>The NPA Provisioning Burden:</strong> Under RBI's Basell III norms, banks must keep aside a portion of their profits (provisioning) for every NPA. For "Doubtful Assets," this can be as high as 40-100%. Settling releases this capital back into the bank's profitable books.
+                      <strong>The NPA Provisioning Burden:</strong> Under RBI’s Basell III norms, banks must keep aside a portion of their profits (provisioning) for every NPA. For "Doubtful Assets," this can be as high as 40-100%. Settling releases this capital back into the bank’s profitable books.
                     </div>
                   </li>
                   <li className="flex gap-4">
@@ -409,7 +409,7 @@ export default function SecuredVsUnsecuredClient() {
                   <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center">
                     <div className="text-2xl font-bold text-blue-600 mb-2">01</div>
                     <div className="font-bold text-sm mb-2">Independent Valuation</div>
-                    <p className="text-xs text-gray-500">Get your own valuation report to counter the bank's distress value.</p>
+                    <p className="text-xs text-gray-500">Get your own valuation report to counter the bank’s distress value.</p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center">
                     <div className="text-2xl font-bold text-blue-600 mb-2">02</div>
@@ -509,7 +509,7 @@ export default function SecuredVsUnsecuredClient() {
 
               <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Need Help Settling a Secured Loan?</h3>
-                <p className="text-blue-800 mb-6">Don't let the legal notices overwhelm you. Our legal team can help you negotiate a fair settlement and protect your property.</p>
+                <p className="text-blue-800 mb-6">Don’t let the legal notices overwhelm you. Our legal team can help you negotiate a fair settlement and protect your property.</p>
                 <button 
                   onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20want%20to%20settle%20my%20loan', '_blank')}
                   className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md"
@@ -557,15 +557,15 @@ export default function SecuredVsUnsecuredClient() {
                   <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Pieces</h4>
                   <nav className="space-y-3">
                     <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="flex group items-start">
-                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                       <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Is Settlement Good?</span>
                     </Link>
                     <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="flex group items-start">
-                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                       <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">CIBIL Score Impact</span>
                     </Link>
                     <Link href="/will-banks-blacklist-you-after-loan-settlement" className="flex group items-start">
-                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                       <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Blacklisting Myths</span>
                     </Link>
                   </nav>

@@ -38,15 +38,15 @@ const faqData = [
   },
   {
     question: "Are there online alternatives to physical centers in Chennai?",
-    answer: "Yes, digital platforms like CredSettle and SettleLoans offer online consultations. Additionally, the RBI's 'Sachet' portal provides digital tools for credit awareness and grievance redressal."
+    answer: "Yes, digital platforms like CredSettle and SettleLoans offer online consultations. Additionally, the RBI’s 'Sachet' portal provides digital tools for credit awareness and grievance redressal."
   },
   {
     question: "How do I complain about a bank through these centers?",
-    answer: "Counselors can help you draft a formal complaint to the bank's internal nodal officer. If you don't receive a response within 30 days, they can guide you on how to approach the RBI Ombudsman."
+    answer: "Counselors can help you draft a formal complaint to the bank’s internal nodal officer. If you don’t receive a response within 30 days, they can guide you on how to approach the RBI Ombudsman."
   },
   {
     question: "Can these centers stop domestic visits from recovery agents?",
-    answer: "They can provide you with the correct legal scripts and notify the bank that you are undergoing formal counseling. This often forces banks to instruct their agents to follow the RBI's Fair Practice Code, preventing harassment."
+    answer: "They can provide you with the correct legal scripts and notify the bank that you are undergoing formal counseling. This often forces banks to instruct their agents to follow the RBI’s Fair Practice Code, preventing harassment."
   }
 ];
 
@@ -67,7 +67,7 @@ const reviews = [
     name: "Senthil Kumar",
     location: "Tambaram, Chennai",
     rating: 4,
-    text: "Professional advice without any sales pitch. Being government-recognized, they don't try to sell you more loans. They just focus on how you can get out of debt."
+    text: "Professional advice without any sales pitch. Being government-recognized, they don’t try to sell you more loans. They just focus on how you can get out of debt."
   },
   {
     name: "Anandhi S.",
@@ -324,7 +324,7 @@ export default function ChennaiCounselingClient() {
                 <ol className="space-y-6">
                   <li className="flex gap-4 p-5 bg-gray-50 rounded-2xl border border-gray-100 items-start">
                     <span className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold shrink-0">1</span>
-                    <div><strong>Assessment:</strong> Visit a recognized center to determine if you are eligible for the RBI's restructuring frameworks (often available for MSMEs or medical hardship cases).</div>
+                    <div><strong>Assessment:</strong> Visit a recognized center to determine if you are eligible for the RBI’s restructuring frameworks (often available for MSMEs or medical hardship cases).</div>
                   </li>
                   <li className="flex gap-4 p-5 bg-gray-50 rounded-2xl border border-gray-100 items-start">
                     <span className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold shrink-0">2</span>
@@ -366,7 +366,7 @@ export default function ChennaiCounselingClient() {
 
               <div className="mt-12 p-10 bg-blue-900 text-white rounded-[2.5rem] text-center shadow-2xl">
                 <h3 className="text-2xl font-bold mb-4">Start Your Recovery Journey Today</h3>
-                <p className="mb-8 opacity-80 max-w-2xl mx-auto">Chennai's best debt advisors and legal experts are ready to help you navigate your way to a debt-free life. Don't let financial stress control your future.</p>
+                <p className="mb-8 opacity-80 max-w-2xl mx-auto">Chennai’s best debt advisors and legal experts are ready to help you navigate your way to a debt-free life. Don’t let financial stress control your future.</p>
                 <div className="flex flex-col sm:flex-row gap-5 justify-center">
                   <button 
                     onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20need%20debt%20counseling%20in%20Chennai', '_blank')}

@@ -141,7 +141,7 @@ const LoanPartiesDisputeResolutionClient = () => {
         },
         {
             question: "Can a dispute between parties stop bank recovery?",
-            answer: "Generally, no. Internal disputes between a borrower and a guarantor do not affect the bank's right to recover its dues. The bank is a 'secured creditor' and is not bound by private agreements between the other parties unless the bank was a formal signatory to those secondary agreements."
+            answer: "Generally, no. Internal disputes between a borrower and a guarantor do not affect the bank’s right to recover its dues. The bank is a 'secured creditor' and is not bound by private agreements between the other parties unless the bank was a formal signatory to those secondary agreements."
         },
         {
             question: "What is the jurisdiction of Commercial Courts in loan matters?",
@@ -153,7 +153,7 @@ const LoanPartiesDisputeResolutionClient = () => {
         },
         {
             question: "What is 'Subrogation' in loan party disputes?",
-            answer: "Subrogation (Section 140 of the Contract Act) is the right of a guarantor who has paid off the borrower's debt to step into the shoes of the creditor. The guarantor can then legally use all the rights and securities the bank had against the borrower to recover their money."
+            answer: "Subrogation (Section 140 of the Contract Act) is the right of a guarantor who has paid off the borrower’s debt to step into the shoes of the creditor. The guarantor can then legally use all the rights and securities the bank had against the borrower to recover their money."
         },
         {
             question: "Can an NRI be a party to a loan dispute resolution?",
@@ -354,7 +354,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     <FontAwesomeIcon icon={faScale} className="w-8 h-8 mr-3 text-blue-800" /> Indian Legal Frameworks: The Rule of Law in Loan Disputes
                                 </h2>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    The resolution of multi-party loan disputes is governed by a patchwork of Indian laws. The most foundational is the Indian Contract Act, 1872. Sections 126 to 147 specifically cover the "Contract of Guarantee." These sections define when a guarantor is liable and, more importantly, when they are *discharged* from their liability due to any variance in terms made between the lender and the borrower without the guarantor's consent.
+                                    The resolution of multi-party loan disputes is governed by a patchwork of Indian laws. The most foundational is the Indian Contract Act, 1872. Sections 126 to 147 specifically cover the "Contract of Guarantee." These sections define when a guarantor is liable and, more importantly, when they are *discharged* from their liability due to any variance in terms made between the lender and the borrower without the guarantor’s consent.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     In 2025, the enforcement mechanism depends on the forum. If it is a banking dispute, the Recovery of Debts Due to Banks and Financial Institutions Act (RDDBFI Act), 1993, and the SARFAESI Act, 2002, take precedence. These laws are "creditor-friendly" and often treat all parties (borrower and guarantor) as one unit of liability.
@@ -406,7 +406,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     Almost every modern loan agreement from HDFC, ICICI, or leading NBFCs contains an "Arbitration Clause." This means that in the event of a dispute, the parties agree not to go to traditional civil courts but to a private arbitrator. The Arbitration and Conciliation Act, 1996, provides the rules for this process.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    For multi-party disputes, arbitration is a double-edged sword. On one hand, it is significantly faster than Indian courts. On the other hand, the arbitrator's decision (the "Award") is as legally binding as a court decree and very difficult to challenge on merits. In many 2024 judgments, the Supreme Court has limited the scope of interference with arbitral awards, making it crucial to "win" at the arbitration stage itself.
+                                    For multi-party disputes, arbitration is a double-edged sword. On one hand, it is significantly faster than Indian courts. On the other hand, the arbitrator’s decision (the "Award") is as legally binding as a court decree and very difficult to challenge on merits. In many 2024 judgments, the Supreme Court has limited the scope of interference with arbitral awards, making it crucial to "win" at the arbitration stage itself.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     A complex issue in multi-party arbitration is "Joinder of Parties." Can a person who did not sign the arbitration clause be pulled into the process? In its 2025 "Group of Companies" doctrine updates, the court has clarified that non-signatories can be bound by an arbitration agreement if they were inter-twined in the negotiation or performance of the loan contract.
@@ -424,7 +424,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     The biggest legal shift for 2025 is the full implementation of the Mediation Act, 2023. Unlike arbitration, which is adversarial (winner vs. loser), mediation is collaborative. A neutral mediator helps the parties reach a compromise that everyone can live with.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    For loan disputes involving family members or business partners, mediation is often the only way to preserve the relationship. The Act now provides that a "Mediated Settlement Agreement" (MSA) is legally enforceable in the same way as an order of a court. This gives "teeth" to settlements that were previously just "gentleman's agreements" that people could back out of.
+                                    For loan disputes involving family members or business partners, mediation is often the only way to preserve the relationship. The Act now provides that a "Mediated Settlement Agreement" (MSA) is legally enforceable in the same way as an order of a court. This gives "teeth" to settlements that were previously just "gentleman’s agreements" that people could back out of.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     Mediation is particularly effective for "One Time Settlements" involving multiple parties. For example, if three partners are liable for a ₹10 crore loan, a mediator can help them negotiate with the bank *and* with each other to decide who pays what percentage based on their current financial capacity, rather than just forcing one person to pay the whole amount because they are the easiest target.
@@ -462,10 +462,10 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     <FontAwesomeIcon icon={faShield} className="w-8 h-8 mr-3 text-blue-700" /> Guarantor Defense Strategies: Breaking the Bond
                                 </h2>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    A personal guarantor is often the "softest target" for a bank. If the borrower has no assets, the bank will immediately target the guarantor's home, car, and bank accounts. However, a guarantor has several powerful defenses that a borrower does not.
+                                    A personal guarantor is often the "softest target" for a bank. If the borrower has no assets, the bank will immediately target the guarantor’s home, car, and bank accounts. However, a guarantor has several powerful defenses that a borrower does not.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    The most potent is the "Doctrine of Impairment of Surety's Remedy." Under Section 139 of the Contract Act, if the bank does anything that prevents the guarantor from eventually recovering the money from the borrower (like losing the security documents or releasing the borrower's other collateral without notice), the guarantor is legally discharged from their liability.
+                                    The most potent is the "Doctrine of Impairment of Surety’s Remedy." Under Section 139 of the Contract Act, if the bank does anything that prevents the guarantor from eventually recovering the money from the borrower (like losing the security documents or releasing the borrower’s other collateral without notice), the guarantor is legally discharged from their liability.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     In 2025, we also challenge the "Continuing Guarantee." If a guarantor signed for a loan in 2018, and the bank repeatedly renewed the facility or increased the limit without getting fresh consent from the guarantor, the old guarantee may no longer be valid for the new debt. This "novation" of the contract is a common ground for dismissing recovery suits against old directors or family members.
@@ -486,7 +486,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     However, if the dispute is between a borrower and a guarantor (where no bank is a direct party to the lawsuit), the case goes to either the Civil Court or the Commercial Court. Commercial Courts are faster because they have strict timelines for filing evidence and finishing arguments. They also use the "Costs Follow the Event" rule, meaning the party that loses usually has to pay the legal fees of the party that wins.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    In 2025, we see a rise in "Parallel Litigation." A bank might be suing for recovery in the DRT, while the borrower is simultaneously suing the co-applicant in the Commercial Court for fraud. Managing these parallel proceedings is vital to ensure that a statement made in one court doesn't accidentally ruin your case in the other.
+                                    In 2025, we see a rise in "Parallel Litigation." A bank might be suing for recovery in the DRT, while the borrower is simultaneously suing the co-applicant in the Commercial Court for fraud. Managing these parallel proceedings is vital to ensure that a statement made in one court doesn’t accidentally ruin your case in the other.
                                 </p>
                             </section>
 
@@ -495,7 +495,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     <FontAwesomeIcon icon={faZap} className="w-8 h-8 mr-3 text-yellow-500" /> Strategic Negotiation: The Art of the Three-Way Deal
                                 </h2>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    The most efficient way to resolve a multi-party loan dispute is a "Tripartite Settlement." This involves bringing all characters—the Bank, the Borrower, and the Guarantor—to one table. This is hard because there is often no trust left.
+                                    The most efficient way to resolve a multi-party loan dispute is a "Tripartite Settlement." This involves bringing all characters-the Bank, the Borrower, and the Guarantor-to one table. This is hard because there is often no trust left.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     The secret to a successful negotiation is the "Single-Check Solution." Instead of each party arguing about who owes what, we help them find a third-party buyer for the asset or a new financier. The bank gets paid a settled amount, and the remaining parties sign a "Full and Final Mutual Release," meaning they agree never to sue each other again for anything related to that loan.
@@ -510,7 +510,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     <FontAwesomeIcon icon={faLock} className="w-8 h-8 mr-3 text-red-600" /> Insolvency in Multi-Party Loans: The Ultimate Freeze
                                 </h2>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
-                                    If negotiation fails, the Insolvency and Bankruptcy Code (IBC) provides the most drastic remedy. If a primary borrower enters insolvency (CIRP - Corporate Insolvency Resolution Process), what happens to the guarantor? In 2024, the Supreme Court clarified that the bank can *still* pursue the personal guarantor even if the main company's debt is being settled in the NCLT.
+                                    If negotiation fails, the Insolvency and Bankruptcy Code (IBC) provides the most drastic remedy. If a primary borrower enters insolvency (CIRP - Corporate Insolvency Resolution Process), what happens to the guarantor? In 2024, the Supreme Court clarified that the bank can *still* pursue the personal guarantor even if the main company’s debt is being settled in the NCLT.
                                 </p>
                                 <p className="text-slate-700 text-lg leading-relaxed mb-6">
                                     However, if the Personal Guarantor themselves files for insolvency under Section 94, an "Interim Moratorium" starts immediately. This moratorium extends not just to the guarantor but also effectively freezes any multi-party litigation that might result in a liability for the guarantor.
@@ -527,11 +527,11 @@ const LoanPartiesDisputeResolutionClient = () => {
                                 <div className="space-y-8">
                                     <div className="bg-slate-50 p-6 rounded-2xl border-l-4 border-blue-600 shadow-sm">
                                         <h4 className="font-bold text-blue-900 mb-2">The 'Ex-Director' Dilemma</h4>
-                                        <p className="text-slate-600 text-sm italic">"In a 2024 case defended by our senior associates, a director who had resigned 3 years ago was sued by a bank for the company's ₹50 crore default. We successfully proved that the bank had significantly modified the loan terms after his resignation without his notice. The court set aside his ₹50 crore liability entirely based on Section 133 of the Contract Act."</p>
+                                        <p className="text-slate-600 text-sm italic">"In a 2024 case defended by our senior associates, a director who had resigned 3 years ago was sued by a bank for the company’s ₹50 crore default. We successfully proved that the bank had significantly modified the loan terms after his resignation without his notice. The court set aside his ₹50 crore liability entirely based on Section 133 of the Contract Act."</p>
                                     </div>
                                     <div className="bg-slate-50 p-6 rounded-2xl border-l-4 border-blue-600 shadow-sm">
                                         <h4 className="font-bold text-blue-900 mb-2">The 'Joint-Owner' Stalemate</h4>
-                                        <p className="text-slate-600 text-sm italic">"A separated couple could not agree on selling their joint-mortgaged apartment. The bank was 10 days away from auction. We initiated a fast-track mediation under the Commercial Courts Act. Within 7 days, we secured a three-way agreement where the husband bought out the wife's share, the bank accepted an OTS, and a potential 5-year legal battle was resolved in a week."</p>
+                                        <p className="text-slate-600 text-sm italic">"A separated couple could not agree on selling their joint-mortgaged apartment. The bank was 10 days away from auction. We initiated a fast-track mediation under the Commercial Courts Act. Within 7 days, we secured a three-way agreement where the husband bought out the wife’s share, the bank accepted an OTS, and a potential 5-year legal battle was resolved in a week."</p>
                                     </div>
                                 </div>
                             </section>
@@ -601,7 +601,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/20 rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-110" />
                                 <h3 className="text-xl font-bold mb-4 relative z-10 text-white">Dispute Analysis</h3>
                                 <p className="text-slate-300 mb-6 text-sm relative z-10">
-                                    Are you being held liable for someone else's portion of a loan? Or is a co-applicant blocking a settlement? Get a professional legal audit of your liability.
+                                    Are you being held liable for someone else’s portion of a loan? Or is a co-applicant blocking a settlement? Get a professional legal audit of your liability.
                                 </p>
                                 <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all mb-4 relative z-10 flex items-center justify-center">
                                     Start Your Resolution <FontAwesomeIcon icon={faZap} className="ml-2 w-4 h-4" />

@@ -103,7 +103,7 @@ export default function AUSmallFinanceBankLoanSettlementPage() {
     },
     {
       question: "What is the typical waiver percentage?",
-      answer: "Waivers typically range between 30% to 50% of the total outstanding, depending on the case's merit and lump-sum payment capability."
+      answer: "Waivers typically range between 30% to 50% of the total outstanding, depending on the case’s merit and lump-sum payment capability."
     }
   ];
 

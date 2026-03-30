@@ -332,7 +332,7 @@ export default function ConsumerProtectionLawsClient() {
                                 The relationship between a lender and a borrower is often perceived as a vertical hierarchy where the bank holds all the power. This is a primary misconception that we seek to dismantle. In modern India, this relationship is a horizontal contract governed by a robust series of consumer protection laws and central bank mandates. When you enter a debt settlement process, you are not asking for a favor; you are exercising a regulatory option designed to maintain systemic stability and individual dignity.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                Why is understanding these laws critical right now? Because as digital lending expands and automated collection systems take over, the human element of "Reasonableness" is often lost. The 2025 environment requires you to be an informed consumer who knows exactly where the bank's authority ends and your fundamental rights begin. This guide will walk you through the nuances of the Consumer Protection Act, the specificities of RBI master circulars, and the tactical use of grievance redressal to shield your family and your future.
+                                Why is understanding these laws critical right now? Because as digital lending expands and automated collection systems take over, the human element of "Reasonableness" is often lost. The 2025 environment requires you to be an informed consumer who knows exactly where the bank’s authority ends and your fundamental rights begin. This guide will walk you through the nuances of the Consumer Protection Act, the specificities of RBI master circulars, and the tactical use of grievance redressal to shield your family and your future.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-10">
                                 Beyond the numbers and the interest rates, there is the question of the "Right to a Fresh Start." Debt settlement is the mechanism for that start. But to reach it, you must navigate a path often filled with aggressive recovery agents and opaque bank policies. By the end of this 5000+ word analysis, you will have the legal literacy required to transform from a distressed debtor into an empowered consumer.
@@ -384,7 +384,7 @@ export default function ConsumerProtectionLawsClient() {
                                 The most powerful thing an RBI guideline does is hold the "Regulated Entity" (the Bank or NBFC) directly responsible for the actions of their "Recovery Agents." In the past, banks would hide behind the excuse that "it was a third party agency we hired." In 2025, that excuse is dead. If an agent harasses you, it is legally as if the CEO of the bank has harassed you.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-10">
-                                The RBI has clearly stated that recovery must be conducted with human dignity. The 2024-2025 updates have further tightened the screws on digital harassment. Using "Bots" for excessive calling or using synthetic voices to mimic legal authorities is strictly banned. The focus is on a professional, documented, and time bound recovery process that respects the borrower's private life.
+                                The RBI has clearly stated that recovery must be conducted with human dignity. The 2024-2025 updates have further tightened the screws on digital harassment. Using "Bots" for excessive calling or using synthetic voices to mimic legal authorities is strictly banned. The focus is on a professional, documented, and time bound recovery process that respects the borrower’s private life.
                             </p>
 
                             <h2 id="recovery-agent-rules" className="text-3xl md:text-4xl font-black text-slate-900 mb-8 scroll-mt-20">Recovery Agent Conduct: Your Daily Rights</h2>
@@ -450,7 +450,7 @@ export default function ConsumerProtectionLawsClient() {
 
                             <h2 id="compromise-settlement-policy" className="text-3xl md:text-4xl font-black text-slate-900 mb-8 scroll-mt-20 text-center">Board-Approved Policies: Making Settlement Official</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                One of the most important RBI rules of 2025 is that every bank **must** have a board approved policy for compromise settlements. This removes the "Discretionary Power" that bank managers used to wield over distressed borrowers. In the past, a manager could simply say "we don't settle" to pressure you into paying the full amount.
+                                One of the most important RBI rules of 2025 is that every bank **must** have a board approved policy for compromise settlements. This removes the "Discretionary Power" that bank managers used to wield over distressed borrowers. In the past, a manager could simply say "we don’t settle" to pressure you into paying the full amount.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 Today, you can ask for a copy of their settlement policy. You can state in your negotiation: "I am a distressed borrower with genuine hardship, and according to the RBI Framework 2023-2025, I am requesting an evaluation under your board approved compromise settlement policy." This technical language signals to the bank that you are an informed consumer who cannot be bullied.
@@ -470,7 +470,7 @@ export default function ConsumerProtectionLawsClient() {
                                 **Civil Courts:** To get stay orders against illegal property seizures if the bank has not followed the SARFAESI Act procedures.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-10 italic font-light text-slate-500">
-                                Note: Having a professional lawyer or a debt settlement consultant manage these communications ensures that you don't accidentally incriminate yourself or miss critical deadlines.
+                                Note: Having a professional lawyer or a debt settlement consultant manage these communications ensures that you don’t accidentally incriminate yourself or miss critical deadlines.
                             </p>
 
                              <h2 id="legal-precedents" className="text-3xl md:text-4xl font-black text-slate-900 mb-8 scroll-mt-20">Legal Precedents: Notable Court Rulings on Borrower Rights</h2>
@@ -500,7 +500,7 @@ export default function ConsumerProtectionLawsClient() {
 
                             <h2 id="international-context" className="text-3xl md:text-4xl font-black text-slate-900 mb-8 scroll-mt-20">Global Perspective: How India Compares in 2025</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                It is interesting to note how India's borrower protection environment compares with the West. In the United States, the Fair Debt Collection Practices Act (FDCPA) provides similar protections. India's 2025 framework is arguably more robust because of the Integrated Ombudsman Scheme, which provides a free resolution mechanism that is much faster than the legal systems in many developed nations.
+                                It is interesting to note how India’s borrower protection environment compares with the West. In the United States, the Fair Debt Collection Practices Act (FDCPA) provides similar protections. India’s 2025 framework is arguably more robust because of the Integrated Ombudsman Scheme, which provides a free resolution mechanism that is much faster than the legal systems in many developed nations.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-10">
                                 Borrowers in India should feel confident that the regulatory trend is moving towards more empathy and transparency. The inclusion of digital lending apps under the regulatory umbrella is a step that many nations are still struggling to implement effectively. As an Indian consumer, you are standing on solid legal ground.
@@ -508,7 +508,7 @@ export default function ConsumerProtectionLawsClient() {
 
                              <h2 id="future-of-rights" className="text-3xl md:text-4xl font-black text-slate-900 mb-8 scroll-mt-20">The Horizon: Borrower Rights in 2030</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                As we look towards the next decade, the landscape of consumer protection is expected to become even more digital-centric. By 2030, we predict the widespread adoption of "Financial Health Scores" that go beyond just credit scores, factoring in a borrower's right to survival and basic dignity.
+                                As we look towards the next decade, the landscape of consumer protection is expected to become even more digital-centric. By 2030, we predict the widespread adoption of "Financial Health Scores" that go beyond just credit scores, factoring in a borrower’s right to survival and basic dignity.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 We also expect to see the "Right to be Forgotten" being applied more aggressively to debt records. After a successful settlement and a period of good behavior, borrowers may have the legal right to have the "Settled" remark removed earlier than the current 7-year mark. This is a movement gaining traction in international consumer rights forums, and India is likely to follow suit.
@@ -530,7 +530,7 @@ export default function ConsumerProtectionLawsClient() {
                                 <div className="p-10 bg-white rounded-[3rem] border-2 border-slate-50 shadow-lg">
                                     <h4 className="text-2xl font-black text-blue-900 mb-4">Case 1: The 'Workplace Visit' Violation</h4>
                                     <p className="text-slate-700 leading-relaxed font-light mb-4">
-                                        Amit, a software engineer in Pune, was facing aggressive recovery for a personal loan. One day, two agents visited his office and started shouting in the reception area. Amit, having read the RBI guidelines, didn't panic. He asked his office security to record the CCTV footage and filed a complaint with the bank's Nodal Officer and the local police within 2 hours.
+                                        Amit, a software engineer in Pune, was facing aggressive recovery for a personal loan. One day, two agents visited his office and started shouting in the reception area. Amit, having read the RBI guidelines, didn’t panic. He asked his office security to record the CCTV footage and filed a complaint with the bank’s Nodal Officer and the local police within 2 hours.
                                     </p>
                                     <p className="text-slate-700 leading-relaxed font-light">
                                         **Result:** The bank not only apologized but also waived 100% of the penalties and accepted a 40% principal settlement to avoid a potential lawsuit in the consumer court. This is a classic example of using a rights violation as leverage.
@@ -542,7 +542,7 @@ export default function ConsumerProtectionLawsClient() {
                                         Sunita used a popular lending app that accessed her contacts. When she delayed a payment, the app sent a group message to all her professional contacts. Sunita approached the Cyberspace Cell and the RBI Ombudsman simultaneously.
                                     </p>
                                     <p className="text-slate-700 leading-relaxed font-light">
-                                        **Result:** The lending app's license was suspended for review, and Sunita's debt was completely nullified by the regulator as compensation for the gross privacy breach.
+                                        **Result:** The lending app’s license was suspended for review, and Sunita’s debt was completely nullified by the regulator as compensation for the gross privacy breach.
                                     </p>
                                 </div>
                             </div>
@@ -586,7 +586,7 @@ export default function ConsumerProtectionLawsClient() {
 
                             <div className="mt-16 p-12 bg-gradient-to-br from-blue-900 to-slate-900 rounded-[3.5rem] text-center text-white shadow-2xl">
                                 <h3 className="text-3xl font-black mb-6">Protect Your Rights Today</h3>
-                                <p className="text-blue-100 mb-8 text-xl font-light">Don't let the weight of debt crush your dignity. Knowledge is your first line of defense, and professional support is your final victory. Let us help you navigate the complex laws and secure a fair settlement that respects your future.</p>
+                                <p className="text-blue-100 mb-8 text-xl font-light">Don’t let the weight of debt crush your dignity. Knowledge is your first line of defense, and professional support is your final victory. Let us help you navigate the complex laws and secure a fair settlement that respects your future.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-white text-blue-900 font-black py-5 px-12 rounded-full hover:bg-blue-50 transition-all shadow-xl text-xl"
@@ -613,9 +613,9 @@ export default function ConsumerProtectionLawsClient() {
                                     Talk to a Lawyer
                                 </Link>
                                 <div className="mt-6 text-[10px] text-blue-200 uppercase tracking-widest font-bold">
-                                    <p className="mb-1">✓ 100% Legal Protection</p>
-                                    <p className="mb-1">✓ RBI Complaint Assistance</p>
-                                    <p>✓ Negotiated Settlements</p>
+                                    <p className="mb-1">v 100% Legal Protection</p>
+                                    <p className="mb-1">v RBI Complaint Assistance</p>
+                                    <p>v Negotiated Settlements</p>
                                 </div>
                             </div>
 
@@ -630,7 +630,7 @@ export default function ConsumerProtectionLawsClient() {
                                         { href: "/how-to-avoid-debt-settlement-scams-in-india", text: "Spotting Settlement Scams" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-3 group-hover:translate-x-1 transition-transform font-black">→</span>
+                                            <span className="text-blue-600 mr-3 group-hover:translate-x-1 transition-transform font-black">&rarr;</span>
                                             <span className="text-[14px] text-slate-600 font-bold group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

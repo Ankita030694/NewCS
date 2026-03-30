@@ -112,7 +112,7 @@ export default function BankCallingReferencesPage() {
         "name": "What should I do if a recovery agent visits my office?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Remain calm, record the interaction, and demand their ID. Inform them that workplace visits without prior consent for recovery are a breach of privacy. Report this to the bank's Nodal Officer."
+          "text": "Remain calm, record the interaction, and demand their ID. Inform them that workplace visits without prior consent for recovery are a breach of privacy. Report this to the bank’s Nodal Officer."
         }
       },
       {
@@ -158,7 +158,7 @@ export default function BankCallingReferencesPage() {
         "@type": "Review",
         "author": {"@type": "Person", "name": "Priya Verma"},
         "datePublished": "2024-12-20",
-        "reviewBody": "I was suicidal due to app loan harassment. CredSettle's legal team handled everything and got a 50% settlement.",
+        "reviewBody": "I was suicidal due to app loan harassment. CredSettle’s legal team handled everything and got a 50% settlement.",
         "reviewRating": {
           "@type": "Rating",
           "ratingValue": "5"

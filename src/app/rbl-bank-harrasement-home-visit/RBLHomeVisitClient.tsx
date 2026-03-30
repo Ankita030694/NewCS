@@ -384,7 +384,7 @@ export default function RBLHomeVisitClient() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900">{review.name}</h4>
-                        <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
+                        <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
                     <div className="flex text-yellow-400 mb-3 text-sm">

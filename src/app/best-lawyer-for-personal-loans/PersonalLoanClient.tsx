@@ -129,13 +129,13 @@ export default function PersonalLoanClient() {
             name: 'Priya Sharma',
             location: 'Chandigarh',
             stars: 5,
-            comment: 'The Section 138 case filed against me was terrifying. The lawyers here explained my rights and defended me in court. We proved the bank hadn\'t sent the mandatory notice, and the case was dismissed. Phenomenal legal support.'
+            comment: 'The Section 138 case filed against me was terrifying. The lawyers here explained my rights and defended me in court. We proved the bank hadn’t sent the mandatory notice, and the case was dismissed. Phenomenal legal support.'
         },
         {
             name: 'Kiran Gopi',
             location: 'Kochi',
             stars: 5,
-            comment: 'Professional, compassionate, and highly effective. They didn\'t just handle the bank; they helped me handle the stress. I am finally debt-free thanks to their negotiation at the Lok Adalat.'
+            comment: 'Professional, compassionate, and highly effective. They didn’t just handle the bank; they helped me handle the stress. I am finally debt-free thanks to their negotiation at the Lok Adalat.'
         },
         {
             name: 'Sumit Bansal',
@@ -327,10 +327,10 @@ export default function PersonalLoanClient() {
                                 In the modern Indian economy, personal loans have become the primary vehicle for fulfilling dreams, managing emergencies, and bridging financial gaps. Whether it is for a wedding, a medical emergency, or sudden project costs, the "instant" availability of unsecured credit has transformed financial access. However, this ease of borrowing carries a significant risk. Unlike a home loan, which is backed by a tangible asset, a personal loan is a "clean" debt. This means the bank’s only security is your promise to pay, which often leads to more aggressive recovery tactics when things go wrong.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Being unable to pay a personal loan is a deeply stressful experience. It isn't just a financial failure; it often feels like a personal one. The constant barrage of phone calls, the fear of legal notices, and the anxiety about your reputation can be paralyzing. But it is vital to remember that in 2025, India has some of the world's strongest borrower protection laws. A default is a civil dispute, not a criminal act. You have the right to a dignified resolution, and the legal system provides multiple avenues for defense, restructuring, and settlement.
+                                Being unable to pay a personal loan is a deeply stressful experience. It isn’t just a financial failure; it often feels like a personal one. The constant barrage of phone calls, the fear of legal notices, and the anxiety about your reputation can be paralyzing. But it is vital to remember that in 2025, India has some of the world’s strongest borrower protection laws. A default is a civil dispute, not a criminal act. You have the right to a dignified resolution, and the legal system provides multiple avenues for defense, restructuring, and settlement.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This guide is designed to be your legal shield. We will explore your rights under the RBI's Fair Practice Code, the tactical litigation strategies used to stop harassment, and the professional path toward a clean slate. You don't have to face the bank's legal department alone. With the right specialized lawyer, you can transition from a "defaulter" to a "protected consumer" who is negotiating from a position of legal strength.
+                                This guide is designed to be your legal shield. We will explore your rights under the RBI’s Fair Practice Code, the tactical litigation strategies used to stop harassment, and the professional path toward a clean slate. You don’t have to face the bank’s legal department alone. With the right specialized lawyer, you can transition from a "defaulter" to a "protected consumer" who is negotiating from a position of legal strength.
                             </p>
 
                             <h2 id="personal-loan-crisis-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Individual Debt Crisis: 2025 Trends</h2>
@@ -343,7 +343,7 @@ export default function PersonalLoanClient() {
 
                             <h2 id="rbi-fair-practice-code" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The RBI Fair Practice Code 2025: Your First Line of Defence</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Reserve Bank of India's (RBI) Fair Practice Code is not just a set of suggestions; it is a mandatory directive for every regulated bank and NBFC in India. In 2025, the RBI has tightened these rules to protect individual borrowers. The code mandates that all communication must be respectful and that recovery agents must be trained in soft skills and legal boundaries.
+                                The Reserve Bank of India’s (RBI) Fair Practice Code is not just a set of suggestions; it is a mandatory directive for every regulated bank and NBFC in India. In 2025, the RBI has tightened these rules to protect individual borrowers. The code mandates that all communication must be respectful and that recovery agents must be trained in soft skills and legal boundaries.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Key protections include the **Communication Window** (restricted to 8 AM to 7 PM) and the **Privacy Mandate** (it is illegal to contact your boss, neighbors, or anyone else about your debt). If a bank violates these rules, they can face massive fines from the Integrated Ombudsman. As your lawyers, our first step is often to document these violations and use them as leverage to force the bank into a reasonable settlement discussion.
@@ -351,7 +351,7 @@ export default function PersonalLoanClient() {
 
                             <h2 id="secured-vs-unsecured" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Secured vs. Unsecured Personal Loans: Differing Legal Battles</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Not all "personal loans" are created equal in the eyes of the law. A **Secured Personal Loan** (like a loan against gold or FDs) allows the bank to sell the collateral relatively easily. An **Unsecured Personal Loan**, however, requires the bank to win a civil suit to touch your assets. This "lack of easy recovery" is the borrower's greatest advantage.
+                                Not all "personal loans" are created equal in the eyes of the law. A **Secured Personal Loan** (like a loan against gold or FDs) allows the bank to sell the collateral relatively easily. An **Unsecured Personal Loan**, however, requires the bank to win a civil suit to touch your assets. This "lack of easy recovery" is the borrower’s greatest advantage.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In unsecured loans, the bank knows that a legal battle could last years. They would rather accept 50% of the money today than wait 5 years for a court decree that they may never be able to execute. We specialize in using this "Legal Friction" to negotiate waivers that a general consumer would never be able to obtain on their own.
@@ -370,7 +370,7 @@ export default function PersonalLoanClient() {
                                 Harassment is a criminal act in many circumstances. If an agent is using abusive language, visiting your home without a valid ID, or threatening you, they are violating the Indian Penal Code (IPC). We help you file immediate **Police Complaints (FIRs)** and "Cease and Desist" notices citing the **RBI Outsourcing Guidelines 2025**.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                By taking a "Zero Tolerance" approach to harassment, we shift the conversation from the bank's "right to recover" to the bank's "liability for crime." This usually leads to the case being handled by the bank's internal legal or nodal team, who are much more professional and willing to engage in settlement talks.
+                                By taking a "Zero Tolerance" approach to harassment, we shift the conversation from the bank’s "right to recover" to the bank’s "liability for crime." This usually leads to the case being handled by the bank’s internal legal or nodal team, who are much more professional and willing to engage in settlement talks.
                             </p>
 
                             <h2 id="negotiable-instruments-138" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Navigating Section 138: Cheque Bounce Cases</h2>
@@ -383,23 +383,23 @@ export default function PersonalLoanClient() {
 
                             <h2 id="civil-recovery-suits" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Civil Recovery Suit: A Long Game of Defence</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If a bank files a "Summary Suit" under Order 37 of the CPC, they are trying to get a quick judgment. Our defense strategy involves filing a **"Leave to Defend"** application. By pointing out "triable issues"—such as hidden charges or variable interest rate errors—we can turn a 6-month summary suit into a 3-year regular trial.
+                                If a bank files a "Summary Suit" under Order 37 of the CPC, they are trying to get a quick judgment. Our defense strategy involves filing a **"Leave to Defend"** application. By pointing out "triable issues"-such as hidden charges or variable interest rate errors-we can turn a 6-month summary suit into a 3-year regular trial.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Time is the borrower's friend. Every year the case lasts, the bank's "NPAs" look worse on their balance sheet. This eventually makes them desperate for a resolution, allowing us to negotiate a settlement that involves paying back only the principal amount, or even less in some cases.
+                                Time is the borrower’s friend. Every year the case lasts, the bank’s "NPAs" look worse on their balance sheet. This eventually makes them desperate for a resolution, allowing us to negotiate a settlement that involves paying back only the principal amount, or even less in some cases.
                             </p>
 
                             <h2 id="lok-adalat-mediation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Lok Adalat: The Court of Compassion</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The National Lok Adalat is organized by the National Legal Services Authority (NALSA) and is a brilliant avenue for personal loan settlements. Unlike traditional courts, the atmosphere is mediatory. The bank's representatives are there with a "Settlement Grid" and have the authority to grant deep waivers on the spot.
+                                The National Lok Adalat is organized by the National Legal Services Authority (NALSA) and is a brilliant avenue for personal loan settlements. Unlike traditional courts, the atmosphere is mediatory. The bank’s representatives are there with a "Settlement Grid" and have the authority to grant deep waivers on the spot.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Preparation is key for a Lok Adalat. We prepare a "Hardship File" for you, presented with evidence of your inability to pay. When a judge sees a genuine case, they often push the bank's lawyer to accept a 50-60% waiver. A settlement reached here has the status of a court decree and provides permanent finality.
+                                Preparation is key for a Lok Adalat. We prepare a "Hardship File" for you, presented with evidence of your inability to pay. When a judge sees a genuine case, they often push the bank’s lawyer to accept a 50-60% waiver. A settlement reached here has the status of a court decree and provides permanent finality.
                             </p>
 
                             <h2 id="negotiating-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Art of Negotiating a One-Time Settlement (OTS)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A personal loan settlement is essentially a financial negotiation masquerading as a legal one. To win, you must understand the bank's **Internal Performance Metrics.** Managers have "Recovery Targets" at the end of every quarter. By timing the offer and presenting it as a "Lump Sum Cash Benefit," we make the deal irresistible for the bank’s legal team.
+                                A personal loan settlement is essentially a financial negotiation masquerading as a legal one. To win, you must understand the bank’s **Internal Performance Metrics.** Managers have "Recovery Targets" at the end of every quarter. By timing the offer and presenting it as a "Lump Sum Cash Benefit," we make the deal irresistible for the bank’s legal team.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We ensure that every OTS is backed by a formal **Settlement Letter** that explicitly says the bank has no further claims and that they will update your credit report status once the payment is made. This "No Dues" guarantee is the final outcome of our legal process.
@@ -407,7 +407,7 @@ export default function PersonalLoanClient() {
 
                             <h2 id="long-term-credit-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Truth About Your CIBIL Score and Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Let's be honest: settling a loan will "tag" your credit report as **"Settled"** or **"Written Off."** This will lower your score in the short term. However, compared to an "Active Suit" which stays forever, a "Settled" tag allows the clock to start ticking on your credit recovery.
+                                Let’s be honest: settling a loan will "tag" your credit report as **"Settled"** or **"Written Off."** This will lower your score in the short term. However, compared to an "Active Suit" which stays forever, a "Settled" tag allows the clock to start ticking on your credit recovery.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In the 2025 lending market, your "recent behavior" (last 24 months) is becoming very important. By settling today, you clear the past and can start building a 750+ score by late 2026. We guide you on the specific "Credit Builder" products you can use post-settlement to return to financial prosperity.
@@ -415,7 +415,7 @@ export default function PersonalLoanClient() {
 
                             <h2 id="rebuilding-financial-future" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Rebuilding Your Financial Future Post-Default</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Life doesn't end with a personal loan default. It is a chapter, not the book. Once the legal cases are closed, we help you "Seal the Past." This includes checking your credit reports to ensure the bank has actually updated the data and guiding you on how to handle future "Credit Checks" for jobs or new business projects.
+                                Life doesn’t end with a personal loan default. It is a chapter, not the book. Once the legal cases are closed, we help you "Seal the Past." This includes checking your credit reports to ensure the bank has actually updated the data and guiding you on how to handle future "Credit Checks" for jobs or new business projects.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Wealth is rebuilt through discipline. By moving to a "Cash First" lifestyle for 12 months post-settlement, you build a safety net that ensures you never have to face a recovery agent ever again. Our legal support includes a one-year "Stability Monitoring" to ensure no old cases ever reappear.
@@ -426,15 +426,15 @@ export default function PersonalLoanClient() {
                                 A general lawyer might know "The Law," but a specialized personal loan lawyer knows "The Bank." They know the internal hierarchies, they know which managers can sign off on waivers, and they know the "Recovery Thresholds" for different banks and NBFCs.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Most importantly, a specialized lawyer acts as an **Emotional Shield.** When we take over your case, we become the point of contact. The bank stops calling you; they start calling us. This immediate peace of mind is worth more than any waiver—it allows you to return to work, focus on your family, and regain your mental health.
+                                Most importantly, a specialized lawyer acts as an **Emotional Shield.** When we take over your case, we become the point of contact. The bank stops calling you; they start calling us. This immediate peace of mind is worth more than any waiver-it allows you to return to work, focus on your family, and regain your mental health.
                             </p>
 
                             <h2 id="credsettle-individual-support" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">CredSettle: Individual Debt Shield Strategy</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we have developed the **"Individual Debt Shield."** This is a 100% legal, 360 degree support system for personal loan borrowers. We don't just "talk to the bank"; we audited your debt, stop the harassment through legal cease-and-desist mandates, and negotiate a binding settlement that protects your future assets.
+                                At CredSettle, we have developed the **"Individual Debt Shield."** This is a 100% legal, 360 degree support system for personal loan borrowers. We don’t just "talk to the bank"; we audited your debt, stop the harassment through legal cease-and-desist mandates, and negotiate a binding settlement that protects your future assets.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                We believe in "Litigation for Resolution." We file cases to force a faster, fairer settlement. Our team of senior advocates and former banking specialists speaks the bank's language, ensuring you get the same respect that large corporate borrowers do.
+                                We believe in "Litigation for Resolution." We file cases to force a faster, fairer settlement. Our team of senior advocates and former banking specialists speaks the bank’s language, ensuring you get the same respect that large corporate borrowers do.
                             </p>
 
                             <h2 id="global-debt-standards" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Global Best Practices in Individual Debt Relief</h2>
@@ -450,20 +450,20 @@ export default function PersonalLoanClient() {
                                 We have seen cases where individuals were receiving 50 calls a day. Within one week of our intervention, the calls stopped, and within three months, the 10-lakh principal was settled for 4.5 lakhs. In another case, we successfully defended a teacher against a wrongful cheque bounce case and negotiated a full waiver of 4 lakhs in "Penal Interest."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                These aren't just legal victories; they are life restorations. Every "No Dues Certificate" we obtain represents a family that can finally sleep without fear and an individual who has reclaimed their dignity.
+                                These aren’t just legal victories; they are life restorations. Every "No Dues Certificate" we obtain represents a family that can finally sleep without fear and an individual who has reclaimed their dignity.
                             </p>
 
                             <h2 id="psychology-of-default" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Psychological Shield: Protecting Your Mental Health</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Defaulting on a loan creates a "Cognitive Burden." You stop answering the phone, you avoid friends, and your productivity at work drops. Our legal service includes a "Mental Health Shield." By explaining the legal reality—that you cannot go to jail, that your property is safe from unsecured claims without a court decree, and that harassment is illegal—we remove the fear that banks use as their primary recovery weapon.
+                                Defaulting on a loan creates a "Cognitive Burden." You stop answering the phone, you avoid friends, and your productivity at work drops. Our legal service includes a "Mental Health Shield." By explaining the legal reality-that you cannot go to jail, that your property is safe from unsecured claims without a court decree, and that harassment is illegal-we remove the fear that banks use as their primary recovery weapon.
                             </p>
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Conclusion: Choose Your Path to Freedom</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Personal loan distress is a dark valley, but you don't have to walk through it alone. The laws of 2025 are on your side. Whether you choose to fight the case, restructure the debt, or settle it permanently, the most important step is to **Act Early.**
+                                Personal loan distress is a dark valley, but you don’t have to walk through it alone. The laws of 2025 are on your side. Whether you choose to fight the case, restructure the debt, or settle it permanently, the most important step is to **Act Early.**
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Don't let the bank's automation define your life. Your financial health, your family's peace, and your personal reputation are worth defending. Hire a specialized lawyer, assert your rights under the RBI guidelines, and take the first step toward reclaiming your future today. Freedom from debt is not just a dream; with the right legal partner, it is a reachable reality.
+                                Don’t let the bank’s automation define your life. Your financial health, your family’s peace, and your personal reputation are worth defending. Hire a specialized lawyer, assert your rights under the RBI guidelines, and take the first step toward reclaiming your future today. Freedom from debt is not just a dream; with the right legal partner, it is a reachable reality.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">What Our Clients Say</h2>
@@ -499,7 +499,7 @@ export default function PersonalLoanClient() {
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">You Don't Have to Fight This Alone</h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">You Don’t Have to Fight This Alone</h3>
                                 <p className="text-blue-800 mb-6">Expert legal help is just a consultation away. Our specialized team understands the pressure of personal loan recovery. We will help you protect your rights, stop the harassment, and find a dignified path toward debt resolution.</p>
                                 <Link
                                     href="/contact"
@@ -528,16 +528,16 @@ export default function PersonalLoanClient() {
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-2 text-left">
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> Stop Recovery Calls
+                                        <span className="text-blue-600 mr-2">v</span> Stop Recovery Calls
                                     </p>
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> 138 Case Defence
+                                        <span className="text-blue-600 mr-2">v</span> 138 Case Defence
                                     </p>
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> RBI 2025 Protection
+                                        <span className="text-blue-600 mr-2">v</span> RBI 2025 Protection
                                     </p>
                                     <p className="flex items-center">
-                                        <span className="text-blue-600 mr-2">✓</span> Expert Settlement
+                                        <span className="text-blue-600 mr-2">v</span> Expert Settlement
                                     </p>
                                 </div>
                             </div>

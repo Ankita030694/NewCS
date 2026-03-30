@@ -451,14 +451,14 @@ export default function WillBanksBlacklistYouClient() {
                                 You are not "Blacklisted" for life, you are just on a **financial timeout.** Rebuilding trust with the banking system is a slow but scientifically predictable process.
                             </p>
                             <p className="text-slate-600 leading-relaxed mb-8">
-                                The most effective tool is the **Secured Credit Card.** By giving a Fixed Deposit as collateral, you eliminate the risk for the bank. When you pay this card's bills on time, you are generating fresh "Positives" that eventually bury the old "Settled" tag. In 2025, several digital NBFCs have also started offering "Credit Builder" micro-loans specifically designed for people with past settlements.
+                                The most effective tool is the **Secured Credit Card.** By giving a Fixed Deposit as collateral, you eliminate the risk for the bank. When you pay this card’s bills on time, you are generating fresh "Positives" that eventually bury the old "Settled" tag. In 2025, several digital NBFCs have also started offering "Credit Builder" micro-loans specifically designed for people with past settlements.
                             </p>
 
                             <h2 id="myth-busting" className="text-3xl font-bold text-slate-900 mb-8 scroll-mt-14">Blacklist Myths: Top 5 Lies You Believe</h2>
                             <div className="space-y-6 mb-12">
                                 {[
                                     { myth: 'Banks have an "All-Bank" WhatsApp group for blacklisted people.', reality: 'FALSE. They use regulated credit bureaus. Any informal sharing of lists is illegal under Privacy Laws.' },
-                                    { myth: "I can never go abroad if I am blacklisted.", reality: "FALSE. Financial debt (unless it's a huge fraud or criminal default) has zero impact on your passport or visa status." },
+                                    { myth: "I can never go abroad if I am blacklisted.", reality: "FALSE. Financial debt (unless it’s a huge fraud or criminal default) has zero impact on your passport or visa status." },
                                     { myth: 'Settlement is the same as a criminal record.', reality: 'FALSE. It is a civil contract dispute. It does not appear on police background checks.' },
                                     { myth: 'I can pay someone to delete my CIBIL history.', reality: 'DANGEROUS LIES. No one can delete bureau data. Any agency promising this is a scam. Only time and the bank can update it.' },
                                     { myth: 'My family cannot get loans if I settle.', reality: 'FALSE. Only Co-borrowers and Guarantors are affected. Your independent spouse or children are safe.' }
@@ -481,7 +481,7 @@ export default function WillBanksBlacklistYouClient() {
                                 The answer is that you will experience a period of **"Credit Dryness."** You will be informally "Blacklisted" from unsecured credit for 2 to 3 years. But you are NOT banned for life. The banking system is designed for recovery.
                             </p>
                             <p className="text-slate-600 leading-relaxed mb-8">
-                                A loan settlement is a "Managed Exit." It causes temporary damage to your reputation to save you from long-term financial insolvency. If used strategically, it is the first step toward a new, disciplined financial life. Don't fear the "Blacklist", fear the debt trap. Once you are out of debt, the world of credit will eventually welcome you back, provided you play the long game.
+                                A loan settlement is a "Managed Exit." It causes temporary damage to your reputation to save you from long-term financial insolvency. If used strategically, it is the first step toward a new, disciplined financial life. Don’t fear the "Blacklist", fear the debt trap. Once you are out of debt, the world of credit will eventually welcome you back, provided you play the long game.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -518,7 +518,7 @@ export default function WillBanksBlacklistYouClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -544,9 +544,9 @@ export default function WillBanksBlacklistYouClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 
@@ -555,13 +555,13 @@ export default function WillBanksBlacklistYouClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</h4>
                                 <nav className="space-y-3">
                                     {[
-                                        { href: "/what-is-loan-settlement-and-how-does-it-work-in-india", text: "India's Settlement Laws" },
+                                        { href: "/what-is-loan-settlement-and-how-does-it-work-in-india", text: "India’s Settlement Laws" },
                                         { href: "/does-loan-settlement-affect-cibil", text: "CIBIL Impact Secrets" },
                                         { href: "/how-to-stop-recovery-agent-harassment", text: "Anti-Harassment Guide" },
                                         { href: "/services/credit-score-builder", text: "Score Building Services" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

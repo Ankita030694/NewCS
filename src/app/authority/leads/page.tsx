@@ -49,7 +49,7 @@ export default function LeadsPage() {
   if (isChecking) {
     return (
       <div className="flex min-h-[40vh] items-center justify-center">
-        <span className="text-sm font-medium text-[#0C2756]/70">Checking your access…</span>
+        <span className="text-sm font-medium text-[#0C2756]/70">Checking your access...</span>
       </div>
     );
   }

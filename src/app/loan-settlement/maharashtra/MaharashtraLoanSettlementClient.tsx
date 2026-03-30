@@ -119,11 +119,11 @@ export default function MaharashtraLoanSettlementClient() {
     },
     {
       question: "Do I need a lawyer for DRT cases in Mumbai?",
-      answer: "While you can represent yourself, DRT procedures are legally complex. It is highly advisable to have legal representation to file valid counter-claims and negotiate effectively against the bank's legal team."
+      answer: "While you can represent yourself, DRT procedures are legally complex. It is highly advisable to have legal representation to file valid counter-claims and negotiate effectively against the bank’s legal team."
     },
     {
       question: "What is the minimum percentage for full and final settlement?",
-      answer: "Banks typically aim to recover the principal. In genuine hardship cases (medical crisis, job loss), settlements can range from 30% to 50% of the total outstanding amount, depending on the bank's policy and your negotiation."
+      answer: "Banks typically aim to recover the principal. In genuine hardship cases (medical crisis, job loss), settlements can range from 30% to 50% of the total outstanding amount, depending on the bank’s policy and your negotiation."
     },
     {
       question: "How long does it take to get a No Dues Certificate?",
@@ -226,7 +226,7 @@ export default function MaharashtraLoanSettlementClient() {
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Comprehensive Guide to Loan Settlement in Maharashtra</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Maharashtra is the economic powerhouse of India, and with high economic activity comes a high volume of credit and loans. From Mumbai's bustle to Pune's IT hubs and Nagpur's industrial belts, thousands of residents find themselves trapped in debt due to unexpected life events like job losses, medical emergencies, or business downturns. If you are struggling with debt repayment in Maharashtra, it is vital to know that you are not alone and, more importantly, you have legal rights.
+                Maharashtra is the economic powerhouse of India, and with high economic activity comes a high volume of credit and loans. From Mumbai’s bustle to Pune’s IT hubs and Nagpur’s industrial belts, thousands of residents find themselves trapped in debt due to unexpected life events like job losses, medical emergencies, or business downturns. If you are struggling with debt repayment in Maharashtra, it is vital to know that you are not alone and, more importantly, you have legal rights.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Loan settlement is a practical, legal, and RBI approved solution to exit debt when you simply cannot pay. It is not a crime to be in debt. The financial system provides mechanisms like the Lok Adalat and One Time Settlement (OTS) schemes to help you close your loan accounts permanently and restart your financial life.
@@ -259,7 +259,7 @@ export default function MaharashtraLoanSettlementClient() {
 
               <h2 id="debt-relief-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Maharashtra Debt Relief Act 1975</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                While an older piece of legislation, the Maharashtra Debt Relief Act of 1975 still holds relevance in understanding the state's stance on protecting vulnerable debtors. Initially created to liquidate debts of rural artisans, laborers, and marginal farmers, it set the precedent that the state will intervene when debt becomes a tool of oppression.
+                While an older piece of legislation, the Maharashtra Debt Relief Act of 1975 still holds relevance in understanding the state’s stance on protecting vulnerable debtors. Initially created to liquidate debts of rural artisans, laborers, and marginal farmers, it set the precedent that the state will intervene when debt becomes a tool of oppression.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
                 Today, while this specific Act applies to very specific categories of rural borrowers, the spirit of "debt relief" continues in the form of modern OTS schemes and the agricultural debt waiver schemes periodically announced by the Maharashtra government. For urban borrowers, the protections have evolved into the Consumer Protection Act and specific RBI circulars on limiting liability.
@@ -267,7 +267,7 @@ export default function MaharashtraLoanSettlementClient() {
 
               <h2 id="lok-adalat-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">National Lok Adalat Schedule 2026 (Maharashtra)</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The Lok Adalat (People's Court) is arguably the best venue for settling bank loans in Maharashtra. The award passed here is final, binding, and acts as a civil court decree. It saves you from years of litigation fees.
+                The Lok Adalat (People’s Court) is arguably the best venue for settling bank loans in Maharashtra. The award passed here is final, binding, and acts as a civil court decree. It saves you from years of litigation fees.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Mark these dates for 2026 if you are planning a settlement:
@@ -291,7 +291,7 @@ export default function MaharashtraLoanSettlementClient() {
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed mb-8">
-                <strong>How to participate:</strong> You don't have to wait for the bank to invite you. You can proactively request your bank branch or the CredSettle legal team to place your matter in the upcoming Lok Adalat. Usually, banks offer maximum waivers on these dates to clear their books.
+                <strong>How to participate:</strong> You don’t have to wait for the bank to invite you. You can proactively request your bank branch or the CredSettle legal team to place your matter in the upcoming Lok Adalat. Usually, banks offer maximum waivers on these dates to clear their books.
               </p>
 
               <h2 id="file-complaint" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">How to File a Police Complaint Against Harassment</h2>
@@ -307,7 +307,7 @@ export default function MaharashtraLoanSettlementClient() {
                  <li>Screenshots of abusive messages or high frequency call logs.</li>
                  <li>Call recordings where threats are made.</li>
                  <li>Names of the agents or the agency they claim to represent.</li>
-                 <li>A copy of your previous email complaint to the bank's grievance officer (shows you tried to resolve it internally).</li>
+                 <li>A copy of your previous email complaint to the bank’s grievance officer (shows you tried to resolve it internally).</li>
               </ul>
 
               <h3 className="text-xl font-bold text-gray-800 mb-3">Step 2: Draft the Complaint</h3>
@@ -409,19 +409,19 @@ export default function MaharashtraLoanSettlementClient() {
               </p>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✓</span>
+                  <span className="text-green-500 mr-2">v</span>
                   <span className="text-gray-700">Your loan is unsecured (Personal, Credit Card).</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✓</span>
+                  <span className="text-green-500 mr-2">v</span>
                   <span className="text-gray-700">You have defaulted on payments for 90+ days.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✓</span>
+                  <span className="text-green-500 mr-2">v</span>
                   <span className="text-gray-700">You have genuine financial hardship proof.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✓</span>
+                  <span className="text-green-500 mr-2">v</span>
                   <span className="text-gray-700">You are willing to pay a reduced lump sum.</span>
                 </li>
               </ul>
@@ -438,14 +438,14 @@ export default function MaharashtraLoanSettlementClient() {
 
               <div className="mt-12 bg-blue-600 rounded-2xl p-8 text-center text-white">
                 <h3 className="text-2xl font-bold mb-4">Ready to Settle Your Debt?</h3>
-                <p className="mb-8 opacity-90 max-w-2xl mx-auto">Don't let debt control your life in Maharashtra. Our expert team is ready to fight for your rights and get you the best settlement deal.</p>
+                <p className="mb-8 opacity-90 max-w-2xl mx-auto">Don’t let debt control your life in Maharashtra. Our expert team is ready to fight for your rights and get you the best settlement deal.</p>
                 <Link 
                   href="/contact"
                   className="inline-block bg-white text-blue-700 font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all shadow-lg transform hover:-translate-y-1"
                 >
                   Start Your Journey to Freedom
                 </Link>
-                <p className="mt-4 text-sm opacity-70">100% Confidential • Legal Process • 5000+ Happy Clients</p>
+                <p className="mt-4 text-sm opacity-70">100% Confidential * Legal Process * 5000+ Happy Clients</p>
               </div>
 
             </article>
@@ -466,8 +466,8 @@ export default function MaharashtraLoanSettlementClient() {
                   Get Free Advice
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Local Expertise</p>
-                  <p className="mt-1">✓ Stop Harassment</p>
+                  <p>v Local Expertise</p>
+                  <p className="mt-1">v Stop Harassment</p>
                 </div>
               </div>
 

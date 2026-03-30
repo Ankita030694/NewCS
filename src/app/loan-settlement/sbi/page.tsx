@@ -162,7 +162,7 @@ export default function SBILoanSettlementPage() {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Meera Joshi" },
         "datePublished": "2025-11-22",
-        "reviewBody": "My husband's SBI credit card debt was spiraling. We settled it for 40% of the value thanks to the CredSettle team.",
+        "reviewBody": "My husband’s SBI credit card debt was spiraling. We settled it for 40% of the value thanks to the CredSettle team.",
         "reviewRating": { "@type": "Rating", "ratingValue": "5" }
       }
     ]

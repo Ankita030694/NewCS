@@ -336,7 +336,7 @@ export default function CanISettleHomeLoanPage() {
               <div id="settlement-vs-prepayment" className="my-10">
                 <h2 className="text-3xl font-bold mb-6 text-[#0C2756]">Settlement vs. Prepayment (Foreclosure)</h2>
                 <p>
-                  Before proceeding, it is vital to distinguish between two commonly confused terms: <strong>Loan Settlement</strong> and <strong>Loan Prepayment (or Foreclosure)</strong>. They sound similar—both result in the loan account being closed—but their impact on your financial life is opposites.
+                  Before proceeding, it is vital to distinguish between two commonly confused terms: <strong>Loan Settlement</strong> and <strong>Loan Prepayment (or Foreclosure)</strong>. They sound similar-both result in the loan account being closed-but their impact on your financial life is opposites.
                 </p>
                 
                 <h3 className="text-xl font-semibold mt-4 mb-2">1. Home Loan Prepayment (Foreclosure)</h3>
@@ -470,7 +470,7 @@ export default function CanISettleHomeLoanPage() {
                 </div>
 
                 <p className="mt-6">
-                  <strong>Your Right to Appeal (DRT):</strong> If the bank has violated any procedure under SARFAESI, you can approach the <strong>Debt Recovery Tribunal (DRT)</strong> under Section 17 of the Act within 45 days of the possession notice. The DRT can stay the auction if the bank's action is found illegal.
+                  <strong>Your Right to Appeal (DRT):</strong> If the bank has violated any procedure under SARFAESI, you can approach the <strong>Debt Recovery Tribunal (DRT)</strong> under Section 17 of the Act within 45 days of the possession notice. The DRT can stay the auction if the bank’s action is found illegal.
                 </p>
               </div>
 
@@ -567,7 +567,7 @@ export default function CanISettleHomeLoanPage() {
                    </div>
                    <div className="bg-white p-5 rounded-lg border border-gray-200 shadow-sm">
                       <h4 className="font-bold text-gray-800 mb-2">Guarantors</h4>
-                      <p className="text-sm text-gray-600">A guarantor's liability is co-extensive with the borrower. If you settle, ensure the settlement letter explicitly releases the guarantor from all future liabilities. Otherwise, the bank might chase the guarantor for the remaining balance.</p>
+                      <p className="text-sm text-gray-600">A guarantor’s liability is co-extensive with the borrower. If you settle, ensure the settlement letter explicitly releases the guarantor from all future liabilities. Otherwise, the bank might chase the guarantor for the remaining balance.</p>
                    </div>
                 </div>
               </div>
@@ -697,7 +697,7 @@ export default function CanISettleHomeLoanPage() {
                           <div className="bg-blue-100 p-2 rounded-full mr-3"><FontAwesomeIcon icon={faFileAlt} className="text-blue-600" /></div>
                           <h4 className="font-bold text-gray-800">Case 1: Job Loss</h4>
                        </div>
-                       <p className="text-sm text-gray-600 italic mb-2">"Ravi lost his IT job and couldn't pay EMI for 6 months. Loan outstanding: ₹60 Lakhs."</p>
+                       <p className="text-sm text-gray-600 italic mb-2">"Ravi lost his IT job and couldn’t pay EMI for 6 months. Loan outstanding: ₹60 Lakhs."</p>
                        <p className="text-sm text-gray-700"><strong>Outcome:</strong> Ravi approached the bank with proof of termination. He offered to settle using his PF withdrawal. The bank agreed to settle at ₹38 Lakhs (waiving interest and part principal). Status: "Settled".</p>
                     </div>
                     <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
@@ -791,7 +791,7 @@ export default function CanISettleHomeLoanPage() {
                       </svg>
                    </div>
                    <h3 className="text-xl font-bold mb-3 relative z-10">Struggling with Home Loan?</h3>
-                   <p className="text-blue-100 text-sm mb-6 relative z-10">Don't let debt take over your life. Get expert legal advice on settlement today.</p>
+                   <p className="text-blue-100 text-sm mb-6 relative z-10">Don’t let debt take over your life. Get expert legal advice on settlement today.</p>
                    <Link href="/contact" className="block w-full text-center bg-white text-[#0C2756] font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors relative z-10">
                       Get Free Consultation
                    </Link>

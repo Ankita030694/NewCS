@@ -175,7 +175,7 @@ export default function DmiFinanceLoanSettlementClient() {
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">DMI Finance Loan Settlement: Digital Lending Challenges</h2>
               <div className="text-gray-700 leading-relaxed mb-8">
                 <p className="mb-4">
-                  <strong>DMI Finance</strong> is a tech-driven NBFC that powers many popular digital lending platforms like <strong>Samsung Finance+, Google Pay, and Paytm</strong>. Unlike traditional banks, their loan process—and their recovery process—is heavily digitized.
+                  <strong>DMI Finance</strong> is a tech-driven NBFC that powers many popular digital lending platforms like <strong>Samsung Finance+, Google Pay, and Paytm</strong>. Unlike traditional banks, their loan process-and their recovery process-is heavily digitized.
                 </p>
                 <p className="mb-4">
                   Settling with DMI Finance comes with unique challenges, such as <strong>remote device locking (Knox Guard)</strong> for Samsung phones and <strong>Digital Arbitration</strong> notices sent via email/WhatsApp. The good news is that they are generally open to One-Time Settlements (OTS) for genuine hardship cases, especially for small-ticket unsecured loans.
@@ -227,11 +227,11 @@ export default function DmiFinanceLoanSettlementClient() {
                 </p>
                 <h4 className="font-bold text-lg mb-2 text-gray-800">Common Issues:</h4>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
-                  <li><strong>"Ghost" EMIs:</strong> You pay via GPay, but DMI's system doesn't update, showing it as overdue.</li>
+                  <li><strong>"Ghost" EMIs:</strong> You pay via GPay, but DMI’s system doesn’t update, showing it as overdue.</li>
                   <li><strong>Settlement Confusion:</strong> Users try to contact Google support, but Google has no authority to settle. You MUST deal with DMI.</li>
                 </ul>
                 <p className="mb-4">
-                  <strong>Our Approach:</strong> We bypass the app interface and deal directly with DMI's credit department. We ensure that once the settlement is done, DMI sends the closure data to CIBIL so it reflects correctly across all your financial apps.
+                  <strong>Our Approach:</strong> We bypass the app interface and deal directly with DMI’s credit department. We ensure that once the settlement is done, DMI sends the closure data to CIBIL so it reflects correctly across all your financial apps.
                 </p>
               </div>
 
@@ -326,7 +326,7 @@ export default function DmiFinanceLoanSettlementClient() {
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Phone Locked?</h4>
-                <p className="text-sm text-gray-600 mb-6">Get it unlocked legally through settlement. Don't pay illegal agents.</p>
+                <p className="text-sm text-gray-600 mb-6">Get it unlocked legally through settlement. Don’t pay illegal agents.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -334,8 +334,8 @@ export default function DmiFinanceLoanSettlementClient() {
                   Unlock & Settle
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Values Samsung/GPay Loans</p>
-                  <p className="mt-1">✓ Knox Guard Release</p>
+                  <p>v Values Samsung/GPay Loans</p>
+                  <p className="mt-1">v Knox Guard Release</p>
                 </div>
               </div>
 

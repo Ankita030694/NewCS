@@ -61,11 +61,11 @@ const CompareFeesClient = () => {
         },
         {
             question: "Does paying higher fees guarantee a better settlement rate?",
-            answer: "Not necessarily. A higher fee might provide more personalized legal support, but the actual waiver is determined by your financial hardship, the bank's internal NPA policies, and the negotiator's relationship with recovery heads."
+            answer: "Not necessarily. A higher fee might provide more personalized legal support, but the actual waiver is determined by your financial hardship, the bank’s internal NPA policies, and the negotiator’s relationship with recovery heads."
         },
         {
             question: "What is the 'No Savings, No Fee' model?",
-            answer: "This is a performance-based model where the firm only charges you a commission if they successfully negotiate a waiver on your debt. If the bank refuses to settle, you don't pay any commission."
+            answer: "This is a performance-based model where the firm only charges you a commission if they successfully negotiate a waiver on your debt. If the bank refuses to settle, you don’t pay any commission."
         },
         {
             question: "Can I negotiate fees with a debt relief company?",
@@ -80,7 +80,7 @@ const CompareFeesClient = () => {
             answer: "Credit card settlements often attract slightly higher fees because they involve higher interest waivers and more complex negotiation cycles compared to standard personal loans."
         },
         {
-            question: "What happens if a company fails to settle my debt after I've paid fees?",
+            question: "What happens if a company fails to settle my debt after I’ve paid fees?",
             answer: "You should ensure your service agreement has a refund or 'Performance Guarantee' clause. Reputable firms will not charge a success fee if no settlement is reached."
         },
         {
@@ -92,7 +92,7 @@ const CompareFeesClient = () => {
     const reviews = [
         { name: "Suresh Menon", rating: 5, comment: "I compared three different firms and CredSettle had the most transparent fee structure. No hidden costs." },
         { name: "Anjali Gupta", rating: 4, comment: "The success rate they promised held true. Settled my 8L credit card debt for just 3.5L." },
-        { name: "Vikram Shah", rating: 5, comment: "Professional negotiators who actually care about the borrower's hardship." }
+        { name: "Vikram Shah", rating: 5, comment: "Professional negotiators who actually care about the borrower’s hardship." }
     ];
 
     return (
@@ -120,7 +120,7 @@ const CompareFeesClient = () => {
                         Compare Debt Settlement <span className="text-blue-300 italic">Fees & Success Rates</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-                        Don't get overcharged for debt relief. An exhaustive 4000+ word deep dive into Indian fee structures, 2025 success probability, and RBI-mandated transparency.
+                        Don’t get overcharged for debt relief. An exhaustive 4000+ word deep dive into Indian fee structures, 2025 success probability, and RBI-mandated transparency.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
@@ -190,7 +190,7 @@ const CompareFeesClient = () => {
                             
                             <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-10 scroll-mt-24 leading-tight">The Economics of Debt Relief: Fees vs. Value</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 text-xl font-light">
-                                In 2025, the Indian debt settlement market has become a competitive landscape. While many companies offer relief, the cost of that relief—and the probability of a successful outcome—varied wildly. Choosing the wrong partner can lead to wasted years and thousands of rupees in lost fees. 
+                                In 2025, the Indian debt settlement market has become a competitive landscape. While many companies offer relief, the cost of that relief-and the probability of a successful outcome-varied wildly. Choosing the wrong partner can lead to wasted years and thousands of rupees in lost fees. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This 4000+ word analysis is designed to empower you with full market transparency. We will compare the three dominant fee models, analyze why some banks have an 80% success rate while others have 20%, and reveal the hidden costs often buried in the fine print of settlement contracts. Understanding the relationship between the fees you pay and the waiver you get is the key to a stress-free exit from your debt burden.
@@ -220,7 +220,7 @@ const CompareFeesClient = () => {
 
                             <h2 id="percentage-debt-vs-savings" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">The Math of Relief: Debt % vs. Savings %</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Let's run a real-world scenario. You have a 10 Lakh debt. A professional firm negotiates this down to 4 Lakh (a 60% waiver).
+                                Let’s run a real-world scenario. You have a 10 Lakh debt. A professional firm negotiates this down to 4 Lakh (a 60% waiver).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 <strong>Scenario A (15% of Total Debt):</strong> You pay ₹1.5 Lakh in fees. Your total cost for freedom is ₹5.5 Lakh.
@@ -237,10 +237,10 @@ const CompareFeesClient = () => {
                                 "Success" in debt settlement is defined by two metrics: 1. Did the bank agree to settle? 2. Is the waiver deep enough to be affordable? 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Market data for 2025 shows that solo negotiators have a settlement closing rate of just <strong>15% to 25%.</strong> Why? Because banks view individuals as "easy targets" for harassment. When a borrower lacks a legal shield, the recovery agent's job is to pressure them into paying 100%. Professional firms, however, have a closure rate of <strong>70% to 85%</strong>. This is because firms understand the bank's internal loss thresholds (provisioning) and know exactly when the bank's budget for "bad debt recovery" is open.
+                                Market data for 2025 shows that solo negotiators have a settlement closing rate of just <strong>15% to 25%.</strong> Why? Because banks view individuals as "easy targets" for harassment. When a borrower lacks a legal shield, the recovery agent’s job is to pressure them into paying 100%. Professional firms, however, have a closure rate of <strong>70% to 85%</strong>. This is because firms understand the bank’s internal loss thresholds (provisioning) and know exactly when the bank’s budget for "bad debt recovery" is open.
                             </p>
                             <div className="bg-amber-50 p-10 rounded-3xl border border-amber-100 mb-12 flex flex-col items-center text-center">
-                                <h4 className="text-amber-900 font-black text-2xl mb-4 italic">"The Negotiator's Delta"</h4>
+                                <h4 className="text-amber-900 font-black text-2xl mb-4 italic">"The Negotiator’s Delta"</h4>
                                 <p className="text-amber-800 leading-relaxed max-w-2xl font-light">
                                     The difference between a 30% waiver (amateur) and a 70% waiver (expert) on a 5 Lakh loan is ₹2 Lakh in your pocket. This delta far exceeds the 15% fee charged by professionals. This is why paying for quality negotiation is a profit-positive move for the borrower.
                                 </p>
@@ -248,7 +248,7 @@ const CompareFeesClient = () => {
 
                             <h2 id="rbi-settlement-policy" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">RBI Settlement Policy 2025: Regulatory Safeguards</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                One major variable in success rates is the <strong>RBI's Framework for Compromise Settlements.</strong> In June 2023 and updated for 2025, the RBI issued circulars permitting all Regulated Entities (Banks and NBFCs) to undertake compromise settlements or technical write-offs on accounts classified as wilful defaulters or fraud, subject to board approval. 
+                                One major variable in success rates is the <strong>RBI’s Framework for Compromise Settlements.</strong> In June 2023 and updated for 2025, the RBI issued circulars permitting all Regulated Entities (Banks and NBFCs) to undertake compromise settlements or technical write-offs on accounts classified as wilful defaulters or fraud, subject to board approval. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This was a revolutionary shift. Previous to this, banks were hesitant to settle for fear of audit scrutiny. Now, with a "Board Approved Policy" mandate, banks have a safe harbor to settle. This has increased the <strong>market-wide success rate</strong> by over 40% in the last 18 months. When comparing firms, ask if they leverage the "Scheme of Arrangement" under these RBI guidelines to push for faster approvals.
@@ -321,7 +321,7 @@ const CompareFeesClient = () => {
 
                             <h2 id="transparency-checklist" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">The Transparency Checklist</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Before signing with any debt relief provider, use this 2025 verification checklist to ensure you Aren't being scammed or overcharged:
+                                Before signing with any debt relief provider, use this 2025 verification checklist to ensure you Aren’t being scammed or overcharged:
                             </p>
                             <div className="bg-slate-900 text-white p-12 rounded-[2.5rem] mb-14 shadow-2xl overflow-hidden relative">
                                 <ul className="space-y-6">
@@ -339,7 +339,7 @@ const CompareFeesClient = () => {
                                     </li>
                                     <li className="flex gap-4">
                                         <div className="w-6 h-6 rounded-full bg-blue-500 flex-shrink-0 flex items-center justify-center text-xs font-bold">4</div>
-                                        <p className="opacity-90">Check their Office Address—Does it actually exist or is it a virtual mailroom?</p>
+                                        <p className="opacity-90">Check their Office Address-Does it actually exist or is it a virtual mailroom?</p>
                                     </li>
                                 </ul>
                             </div>
@@ -356,7 +356,7 @@ const CompareFeesClient = () => {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Fee Analysis</h3>
-                                <p className="text-blue-800 mb-6">Our fee structure is the most competitive in the Indian market, focusing on your total relief rather than our commissions. Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone.</p>
+                                <p className="text-blue-800 mb-6">Our fee structure is the most competitive in the Indian market, focusing on your total relief rather than our commissions. Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -398,9 +398,9 @@ const CompareFeesClient = () => {
                                     Get Fee Audit
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 

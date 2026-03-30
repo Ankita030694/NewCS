@@ -72,30 +72,30 @@ export default function AccountDocumentsDRTClient() {
         },
         {
             question: 'What is the significance of the "Account Statements Certificate" that banks submit in DRT cases?',
-            answer: 'Banks submit account statements in DRT proceedings as certified copies under Section 2A of the Bankers Books Evidence Act, 1891. These certified copies are admissible as evidence without the bank having to produce the original books. However, the certification requirements are strict: the certificate must be issued by a competent officer of the bank with specific statutory declarations. If these certification requirements are not met, the documents can be challenged as inadmissible evidence, which weakens the bank bank\'s case significantly.'
+            answer: 'Banks submit account statements in DRT proceedings as certified copies under Section 2A of the Bankers Books Evidence Act, 1891. These certified copies are admissible as evidence without the bank having to produce the original books. However, the certification requirements are strict: the certificate must be issued by a competent officer of the bank with specific statutory declarations. If these certification requirements are not met, the documents can be challenged as inadmissible evidence, which weakens the bank bank’s case significantly.'
         },
         {
             question: 'How can a lawyer challenge the NPA classification date using account documents?',
-            answer: 'The NPA classification date is critical because it determines when the bank\'s recovery rights under SARFAESI activate and when the limitation period for filing a DRT application begins. A lawyer can challenge the NPA date by analyzing the account ledger for credits that were not properly recorded, payments that were received but not applied to the EMI, or RBI guideline violations in the classification process. If the correct NPA date is different from what the bank claims, the entire timeline of the bank\'s recovery actions may be invalidated.'
+            answer: 'The NPA classification date is critical because it determines when the bank’s recovery rights under SARFAESI activate and when the limitation period for filing a DRT application begins. A lawyer can challenge the NPA date by analyzing the account ledger for credits that were not properly recorded, payments that were received but not applied to the EMI, or RBI guideline violations in the classification process. If the correct NPA date is different from what the bank claims, the entire timeline of the bank’s recovery actions may be invalidated.'
         },
         {
             question: 'What documents should a borrower collect from their own bank records before consulting a DRT lawyer?',
-            answer: 'Before the DRT lawyer meeting, collect the following from your own records: all loan disbursement advices, bank statement printouts for the loan account covering the entire loan tenure, all repayment receipts or bank-to-bank transfer records, any communication with the bank about restructuring or payment arrangements, the original loan sanction letter and agreement, and any notices received from the bank. These documents form the baseline against which the bank bank\'s DRT documents can be verified.'
+            answer: 'Before the DRT lawyer meeting, collect the following from your own records: all loan disbursement advices, bank statement printouts for the loan account covering the entire loan tenure, all repayment receipts or bank-to-bank transfer records, any communication with the bank about restructuring or payment arrangements, the original loan sanction letter and agreement, and any notices received from the bank. These documents form the baseline against which the bank bank’s DRT documents can be verified.'
         },
         {
             question: 'Can the bank refuse to produce original account documents in DRT proceedings?',
-            answer: 'A bank that relies on document summaries or excerpts rather than original account records in DRT proceedings is taking a legal risk. A borrower\'s lawyer can specifically apply for production of original account books, original loan ledger entries, and original computer-generated records with authentication certificates. Refusing to produce these documents can be construed as withholding evidence and may result in adverse inference being drawn against the bank.'
+            answer: 'A bank that relies on document summaries or excerpts rather than original account records in DRT proceedings is taking a legal risk. A borrower’s lawyer can specifically apply for production of original account books, original loan ledger entries, and original computer-generated records with authentication certificates. Refusing to produce these documents can be construed as withholding evidence and may result in adverse inference being drawn against the bank.'
         },
         {
             question: 'What is the Bankers Book Evidence Act, and how does it affect DRT document challenges?',
-            answer: 'The Bankers Books Evidence Act, 1891, as amended, allows banks to produce certified copies of entries in their account books as primary evidence in legal proceedings, without having to physically produce the original books. However, the certification must comply with specific statutory requirements regarding the certification officer\'s designation, the statement of accuracy, and the existence of the original entry. Procedural defects in the Section 2A certificate are a technical but powerful ground to challenge the admissibility of bank account statements in DRT.'
+            answer: 'The Bankers Books Evidence Act, 1891, as amended, allows banks to produce certified copies of entries in their account books as primary evidence in legal proceedings, without having to physically produce the original books. However, the certification must comply with specific statutory requirements regarding the certification officer’s designation, the statement of accuracy, and the existence of the original entry. Procedural defects in the Section 2A certificate are a technical but powerful ground to challenge the admissibility of bank account statements in DRT.'
         },
         {
             question: 'How does a lawyer use RBI Master Directions to challenge bank account calculations?',
-            answer: 'The RBI issues Master Directions on income recognition, asset classification, and provisioning (IRACP) that all banks must follow for NPA classification and interest computation. If a bank has applied compound interest on compound interest, added recovery fees to the principal before calculating interest, or classified an account as NPA without following the 90-day non-payment rule precisely, these are violations of RBI Master Directions. A specialist lawyer cites these directions before the DRT to challenge the accuracy of the bank\'s claimed outstanding amount.'
+            answer: 'The RBI issues Master Directions on income recognition, asset classification, and provisioning (IRACP) that all banks must follow for NPA classification and interest computation. If a bank has applied compound interest on compound interest, added recovery fees to the principal before calculating interest, or classified an account as NPA without following the 90-day non-payment rule precisely, these are violations of RBI Master Directions. A specialist lawyer cites these directions before the DRT to challenge the accuracy of the bank’s claimed outstanding amount.'
         },
         {
-            question: 'Can account document errors in a DRT case lead to a complete dismissal of the bank\'s application?',
+            question: 'Can account document errors in a DRT case lead to a complete dismissal of the bank’s application?',
             answer: 'A complete dismissal based solely on document errors is rare, but a significant reduction in the claimed amount and a favorable settlement are very common outcomes. Courts approach document errors practically: if the error materially impacted the amount claimed, they may direct recomputation or order the bank to file fresh documents. A pattern of systematic errors, however, particularly if it appears to be deliberate overcharging, can lead to the court exercising its discretion to impose costs on the bank or ordering a complete recomputation from the first disbursement date.'
         }
     ];
@@ -249,13 +249,13 @@ export default function AccountDocumentsDRTClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Introduction: Why Account Documents Are the Core of Every DRT Case</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In any Debt Recovery Tribunal proceeding, the bank's case rests on a single foundation: the account documents. The loan account statement, the interest computation sheet, the NPA classification memo, the security valuation report, and the disbursement records are not merely supporting papers. They are the entire evidentiary basis on which the bank claims you owe a specific sum of money, classified you as a defaulter on a specific date, and is now seeking to recover crores from you through the full force of the legal system.
+                                In any Debt Recovery Tribunal proceeding, the bank’s case rests on a single foundation: the account documents. The loan account statement, the interest computation sheet, the NPA classification memo, the security valuation report, and the disbursement records are not merely supporting papers. They are the entire evidentiary basis on which the bank claims you owe a specific sum of money, classified you as a defaulter on a specific date, and is now seeking to recover crores from you through the full force of the legal system.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 What many borrowers and even many generalist lawyers fail to realize is that these bank-produced documents are not sacrosanct. They are prepared by fallible computer systems, interpreted by bank employees, and presented in the most favorable light for the bank. Errors occur. Incorrect interests are applied. Payments are credited to wrong heads. NPA dates are manipulated. Penal charges are compounded exponentially beyond the contracted rate.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The best lawyer for account documents in DRT cases is not simply someone who can argue law. They are someone who understands banking accounting conventions, RBI IRACP (Income Recognition and Asset Classification) guidelines, the Bankers Books Evidence Act, and forensic audit techniques well enough to identify specific, provable errors in the bank's own financial records. This guide is a comprehensive resource on that specialized expertise.
+                                The best lawyer for account documents in DRT cases is not simply someone who can argue law. They are someone who understands banking accounting conventions, RBI IRACP (Income Recognition and Asset Classification) guidelines, the Bankers Books Evidence Act, and forensic audit techniques well enough to identify specific, provable errors in the bank’s own financial records. This guide is a comprehensive resource on that specialized expertise.
                             </p>
 
                             <h2 id="importance-of-documents" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Why Account Documents Are the Battlefield in DRT Proceedings</h2>
@@ -263,7 +263,7 @@ export default function AccountDocumentsDRTClient() {
                                 Consider this: when a bank files an Original Application in the DRT claiming Rs. 3.5 crores, how does the DRT know that amount is correct? The bank submits an account statement generated from its Core Banking System (CBS). The DRT Presiding Officer, who is a judicial officer and not a banking expert, reviews this document.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Without a specialized lawyer who can challenge the underlying computations, the DRT has no reason to doubt the bank's figures. A typical Written Statement says "the claimed amount is excessive" but provides no specifics. A specialized account documents lawyer does something very different: they obtain the detailed account ledger under the discovery rules, engage a forensic CA, and file a precise objection stating that "the interest for the period from April 2019 to March 2022 was computed at 18.5% per annum as compound interest on compound interest, whereas the loan agreement caps compound interest at 16.5% p.a. on the principal reducing balance only, resulting in an overstatement of Rs. 31.4 lakhs."
+                                Without a specialized lawyer who can challenge the underlying computations, the DRT has no reason to doubt the bank’s figures. A typical Written Statement says "the claimed amount is excessive" but provides no specifics. A specialized account documents lawyer does something very different: they obtain the detailed account ledger under the discovery rules, engage a forensic CA, and file a precise objection stating that "the interest for the period from April 2019 to March 2022 was computed at 18.5% per annum as compound interest on compound interest, whereas the loan agreement caps compound interest at 16.5% p.a. on the principal reducing balance only, resulting in an overstatement of Rs. 31.4 lakhs."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 That precision is what changes settlement dynamics within DRT proceedings.
@@ -278,7 +278,7 @@ export default function AccountDocumentsDRTClient() {
                                     <li><strong>Loan Account Statement:</strong> A comprehensive record of all debits (interest, principal, charges) and credits (EMI payments, prepayments) in the loan account from disbursement to the filing date of the OA.</li>
                                     <li><strong>Interest Computation Sheet:</strong> A separate document showing how the interest was calculated, including the base rate or MCLR history, spread adjustments, and penal rate application dates.</li>
                                     <li><strong>NPA Classification Memo:</strong> An internal bank document stating the date on which the account was classified as NPA and the regulatory basis for the classification.</li>
-                                    <li><strong>Security Valuation Report:</strong> An independent valuer's report on the current market value of the secured property, used to justify the bank's SARFAESI reserve price.</li>
+                                    <li><strong>Security Valuation Report:</strong> An independent valuer’s report on the current market value of the secured property, used to justify the bank’s SARFAESI reserve price.</li>
                                     <li><strong>Certified Account Extracts under Bankers Books Evidence Act:</strong> Formally certified extracts from CBS, submitted as primary evidence under Section 2A of the Bankers Books Evidence Act.</li>
                                     <li><strong>Demand and Possession Notices:</strong> Copies of Section 13(2) and 13(4) SARFAESI notices with proof of delivery.</li>
                                 </ul>
@@ -337,21 +337,21 @@ export default function AccountDocumentsDRTClient() {
 
                             <h2 id="discovery-and-inspection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Discovery and Inspection of Bank Documents at DRT</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One of the most powerful procedural tools available to a borrower in DRT proceedings is the right to seek discovery and inspection of documents in the bank's possession. A specialized DRT lawyer uses this tool proactively and strategically.
+                                One of the most powerful procedural tools available to a borrower in DRT proceedings is the right to seek discovery and inspection of documents in the bank’s possession. A specialized DRT lawyer uses this tool proactively and strategically.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Documents that a borrower can demand the bank produce through a discovery application include:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li>The complete loan account ledger with all debit and credit entries from disbursement to trial date.</li>
-                                <li>The bank's internal NPA classification memo with any revisions.</li>
-                                <li>All correspondence between the bank's credit department and the recovery department regarding your loan account.</li>
-                                <li>The bank's internal valuation report and the instructions given to the external valuer.</li>
+                                <li>The bank’s internal NPA classification memo with any revisions.</li>
+                                <li>All correspondence between the bank’s credit department and the recovery department regarding your loan account.</li>
+                                <li>The bank’s internal valuation report and the instructions given to the external valuer.</li>
                                 <li>Any restructuring proposal documents prepared but not executed.</li>
                                 <li>Internal credit committee notes regarding your account, particularly any discussions about settlement or write-off proposals.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The information gathered through discovery often reveals that the bank's own internal assessment of the case is more nuanced than the aggressive recovery position presented in the OA. This information is invaluable for settlement negotiations.
+                                The information gathered through discovery often reveals that the bank’s own internal assessment of the case is more nuanced than the aggressive recovery position presented in the OA. This information is invaluable for settlement negotiations.
                             </p>
 
                             <h2 id="expert-witness-reports" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">The Role of Expert Witness Reports in DRT Document Disputes</h2>
@@ -359,17 +359,17 @@ export default function AccountDocumentsDRTClient() {
                                 DRT proceedings allow for expert evidence, and specialized lawyers use this provision to maximum effect in document-centric cases. An expert witness in a DRT account document case is typically a Chartered Accountant with direct experience in banking and financial audits.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The expert's report serves three primary functions in the DRT proceeding:
+                                The expert’s report serves three primary functions in the DRT proceeding:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Quantifying the Error:</strong> The expert puts a specific rupee figure on the overcharging or incorrect classification, making the abstract concept of "bank errors" concrete and credible to the DRT.</li>
-                                <li><strong>Creating Settlement Pressure:</strong> When the bank's own claim is shown to be inflated by a specific documented amount, the bank's legal team faces pressure from the bank's compliance and risk departments to settle rather than allow a trial that could publicly expose accounting irregularities.</li>
-                                <li><strong>Supporting Cross-Examination:</strong> The borrower's lawyer uses the expert report as the framework for cross-examining the bank's witness who has certified the account statements, systematically exposing each identified error in front of the DRT Presiding Officer.</li>
+                                <li><strong>Creating Settlement Pressure:</strong> When the bank’s own claim is shown to be inflated by a specific documented amount, the bank’s legal team faces pressure from the bank’s compliance and risk departments to settle rather than allow a trial that could publicly expose accounting irregularities.</li>
+                                <li><strong>Supporting Cross-Examination:</strong> The borrower’s lawyer uses the expert report as the framework for cross-examining the bank’s witness who has certified the account statements, systematically exposing each identified error in front of the DRT Presiding Officer.</li>
                             </ul>
 
                             <h2 id="rbi-master-directions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">RBI Master Directions: The Document Standard Banks Must Follow</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Reserve Bank of India's Master Directions on Income Recognition, Asset Classification and Provisioning (IRACP Directions) form the legal and regulatory basis for how banks must classify loans and compute interest. These directions are periodically updated, and any DRT case involving account documents must be assessed against the version of these directions applicable at the relevant time.
+                                The Reserve Bank of India’s Master Directions on Income Recognition, Asset Classification and Provisioning (IRACP Directions) form the legal and regulatory basis for how banks must classify loans and compute interest. These directions are periodically updated, and any DRT case involving account documents must be assessed against the version of these directions applicable at the relevant time.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Key IRACP provisions that are most frequently violated in DRT account documents include:
@@ -396,7 +396,7 @@ export default function AccountDocumentsDRTClient() {
 
                             <h2 id="sarfaesi-document-defence" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Account Document Challenges in SARFAESI Section 17 Applications</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Section 17 of the SARFAESI Act, which allows borrowers to challenge SARFAESI actions before the DRT, is another arena where account document expertise is critical. The borrower's Section 17 application must specifically allege and prove facts that challenge the legitimacy of the SARFAESI action.
+                                Section 17 of the SARFAESI Act, which allows borrowers to challenge SARFAESI actions before the DRT, is another arena where account document expertise is critical. The borrower’s Section 17 application must specifically allege and prove facts that challenge the legitimacy of the SARFAESI action.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Account document analysis supports Section 17 applications by:
@@ -404,17 +404,17 @@ export default function AccountDocumentsDRTClient() {
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li>Proving the account was not actually NPA on the date stated in the Section 13(2) notice, thereby making the notice invalid from its very inception.</li>
                                 <li>Demonstrating that the "outstanding amount" stated in the Section 13(2) notice is materially incorrect, meaning the entire notice is based on a false premise.</li>
-                                <li>Showing that the bank's representation to any government authority regarding the loan status (such as in a credit bureau report or in a consortium lender meeting) was inconsistent with the account documents, raising issues of good faith.</li>
+                                <li>Showing that the bank’s representation to any government authority regarding the loan status (such as in a credit bureau report or in a consortium lender meeting) was inconsistent with the account documents, raising issues of good faith.</li>
                             </ul>
 
                             <h2 id="key-legal-precedents" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Key Supreme Court and High Court Rulings on Bank Account Documents</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Several landmark judgments directly support a borrower's right to challenge bank account documents in DRT proceedings:
+                                Several landmark judgments directly support a borrower’s right to challenge bank account documents in DRT proceedings:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-4 text-gray-700">
-                                <li><strong>Punjab National Bank vs. Indo Commercial Workers Cooperative Society:</strong> The Allahabad High Court held that where there were specific allegations of incorrect account statements, the DRT was bound to examine the same and could not simply accept the bank's certified copies without scrutiny.</li>
+                                <li><strong>Punjab National Bank vs. Indo Commercial Workers Cooperative Society:</strong> The Allahabad High Court held that where there were specific allegations of incorrect account statements, the DRT was bound to examine the same and could not simply accept the bank’s certified copies without scrutiny.</li>
                                 <li><strong>Central Bank of India vs. Ravindra:</strong> The Supreme Court held that interest on borrowed amounts must be computed as per the terms of the contract and applicable RBI guidelines, and courts must scrutinize bank computations if challenged by documentary evidence.</li>
-                                <li><strong>On IRACP Violations:</strong> Multiple High Courts have held that a bank's failure to follow RBI's IRACP directions in classifying an account as NPA renders the SARFAESI action initiated on the basis of that classification procedurally vulnerable.</li>
+                                <li><strong>On IRACP Violations:</strong> Multiple High Courts have held that a bank’s failure to follow RBI’s IRACP directions in classifying an account as NPA renders the SARFAESI action initiated on the basis of that classification procedurally vulnerable.</li>
                             </ul>
 
                             <h2 id="document-based-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Using Document Analysis to Drive Favorable Settlements</h2>
@@ -422,7 +422,7 @@ export default function AccountDocumentsDRTClient() {
                                 The ultimate purpose of account document analysis in DRT cases is not merely to win a legal argument in the tribunal. The deeper strategic purpose is to create a factual basis that forces the bank to offer a better settlement than it would otherwise consider.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When a borrower files a detailed written statement backed by a forensic CA report showing specific overcharging, the bank's legal and risk management teams face a genuine problem: if they let the case go to trial and the DRT upholds the forensic audit findings, they not only lose the inflated amount but also create a precedent that other borrowers might use. They also expose themselves to RBI regulatory scrutiny.
+                                When a borrower files a detailed written statement backed by a forensic CA report showing specific overcharging, the bank’s legal and risk management teams face a genuine problem: if they let the case go to trial and the DRT upholds the forensic audit findings, they not only lose the inflated amount but also create a precedent that other borrowers might use. They also expose themselves to RBI regulatory scrutiny.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The practical result is that banks become significantly more willing to negotiate after a strong document-based written statement is filed. Settlements at 40 to 60 paise on the rupee of the originally claimed amount are not unusual outcomes in cases supported by rigorous forensic analysis.
@@ -432,11 +432,11 @@ export default function AccountDocumentsDRTClient() {
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
                                     <h4 className="font-bold text-blue-900 mb-2">Case 1: Rs. 48 Lakh Saved Through Forensic Audit in Hyderabad</h4>
-                                    <p className="text-gray-700">A food processing company in Hyderabad had a DRT case with a claimed amount of Rs. 1.87 crore. A forensic CA hired by the borrower's DRT lawyer found that the bank had applied a 22% penal rate on the entire outstanding balance from the date of first default, instead of the contractually specified 2% over the regular rate on the overdue EMI amounts only. The correct computation reduced the claim by Rs. 48 lakhs. After the Written Statement and forensic report were filed, the bank settled the case for Rs. 1.31 crore, preserving the company's manufacturing unit and 140 jobs.</p>
+                                    <p className="text-gray-700">A food processing company in Hyderabad had a DRT case with a claimed amount of Rs. 1.87 crore. A forensic CA hired by the borrower’s DRT lawyer found that the bank had applied a 22% penal rate on the entire outstanding balance from the date of first default, instead of the contractually specified 2% over the regular rate on the overdue EMI amounts only. The correct computation reduced the claim by Rs. 48 lakhs. After the Written Statement and forensic report were filed, the bank settled the case for Rs. 1.31 crore, preserving the company’s manufacturing unit and 140 jobs.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
                                     <h4 className="font-bold text-green-900 mb-2">Case 2: Inadmissible Bank Certificate Derails DRT Case in Delhi</h4>
-                                    <p className="text-gray-700">A retail trader in Delhi was facing an OA at DRT-III Delhi for Rs. 72 lakhs. The borrower's specialized DRT lawyer identified that the Bankers Books Evidence Act certificate attached to the account statements was signed by a bank officer who had retired three months before the date of signing, making the certification invalid. The lawyer raised this objection at the evidence stage. The DRT ruled the primary documentary evidence inadmissible. Faced with this setback, the bank agreed to a settlement at Rs. 44 lakhs in full and final settlement.</p>
+                                    <p className="text-gray-700">A retail trader in Delhi was facing an OA at DRT-III Delhi for Rs. 72 lakhs. The borrower’s specialized DRT lawyer identified that the Bankers Books Evidence Act certificate attached to the account statements was signed by a bank officer who had retired three months before the date of signing, making the certification invalid. The lawyer raised this objection at the evidence stage. The DRT ruled the primary documentary evidence inadmissible. Faced with this setback, the bank agreed to a settlement at Rs. 44 lakhs in full and final settlement.</p>
                                 </div>
                             </div>
 
@@ -478,7 +478,7 @@ export default function AccountDocumentsDRTClient() {
                             {/* Conclusion */}
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Conclusion: Documents Are the Defence</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the modern DRT proceeding, the lawyers who win for their clients are not those who shout the loudest in the tribunal hall. They are the ones who come prepared with a forensic understanding of every page of the bank's account documents. The borrower who arms their lawyer with a comprehensive document analysis is the borrower who walks out of the DRT proceeding with a settlement that they can live with.
+                                In the modern DRT proceeding, the lawyers who win for their clients are not those who shout the loudest in the tribunal hall. They are the ones who come prepared with a forensic understanding of every page of the bank’s account documents. The borrower who arms their lawyer with a comprehensive document analysis is the borrower who walks out of the DRT proceeding with a settlement that they can live with.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Account document challenges are not a delaying tactic. They are a legitimate, RBI-supported, court-recognized form of defence that protects borrowers from being squeezed by financial institutions that have every incentive to present their claims in the most favorable light. The law of India gives you the right to inspect, analyze, and challenge these documents. Exercise that right with expert legal support.
@@ -500,7 +500,7 @@ export default function AccountDocumentsDRTClient() {
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Let our specialist lawyers and forensic accountants review your bank account documents and identify errors before your DRT hearing.</p>
                             <ul className="space-y-2 mb-5">
                                 {['Forensic Account Audit', 'Interest Recalculation', 'NPA Date Challenge', 'Expert Witness Reports'].map((item, i) => (
-                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">✓</span> {item}</li>
+                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">v</span> {item}</li>
                                 ))}
                             </ul>
                             <Link href="/contact" className="block bg-white text-blue-900 text-center py-3 rounded-xl font-bold hover:bg-opacity-90 transition-all">

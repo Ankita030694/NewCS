@@ -5,7 +5,7 @@ import EffectiveNegotiationClient from './EffectiveNegotiationClient';
 
 export const metadata: Metadata = {
   title: 'Best Debt Settlement Services in India: Effective Negotiation (2025)',
-  description: 'Looking for professional debt negotiators? Compare India\'s top-rated settlement services like SingleDebt and FREED. Settle your loans for up to 75% less.',
+  description: 'Looking for professional debt negotiators? Compare India’s top-rated settlement services like SingleDebt and FREED. Settle your loans for up to 75% less.',
   keywords: 'best debt settlement services India, professional debt negotiation company, SingleDebt review, FREED debt settlement review, AMA Legal Solutions loan settlement, effective debt negotiation tactics, RBI debt recovery rules 2025',
   alternates: {
     canonical: 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
@@ -16,7 +16,7 @@ export default function EffectiveNegotiationPage() {
   const faqData = [
     {
       question: "What is the success rate of professional debt negotiation?",
-      answer: "Professional debt negotiation services in India typically report a success rate of 85% to 95% for unsecured loans like credit cards and personal loans. Success depends on the borrower's genuine financial hardship and the company's relationship with the lending institution."
+      answer: "Professional debt negotiation services in India typically report a success rate of 85% to 95% for unsecured loans like credit cards and personal loans. Success depends on the borrower’s genuine financial hardship and the company’s relationship with the lending institution."
     },
     {
       question: "How do these companies charge for their services?",
@@ -48,11 +48,11 @@ export default function EffectiveNegotiationPage() {
     },
     {
       question: "How long does the professional negotiation process take?",
-      answer: "The negotiation phase usually takes 3 to 6 months. This depends on how long the account has been in default and how quickly the bank's local or regional office approves the settlement proposal."
+      answer: "The negotiation phase usually takes 3 to 6 months. This depends on how long the account has been in default and how quickly the bank’s local or regional office approves the settlement proposal."
     },
     {
       question: "What happens if the bank refuses the settlement offer?",
-      answer: "If a bank refuses, professional negotiators will analyze the reason and wait for a better window—usually the end of a financial quarter or year when banks are under more pressure to reduce NPAs. They continue to protect you from harassment during this period."
+      answer: "If a bank refuses, professional negotiators will analyze the reason and wait for a better window-usually the end of a financial quarter or year when banks are under more pressure to reduce NPAs. They continue to protect you from harassment during this period."
     }
   ];
 
@@ -79,7 +79,7 @@ export default function EffectiveNegotiationPage() {
       name: "Pooja Hegde",
       location: "Hyderabad",
       rating: 4,
-      text: "SettleMyLoan's team is very persistent. It took 4 months, but they got me a settlement that fit my budget exactly. No more sleepless nights."
+      text: "SettleMyLoan’s team is very persistent. It took 4 months, but they got me a settlement that fit my budget exactly. No more sleepless nights."
     }
   ];
 
@@ -87,7 +87,7 @@ export default function EffectiveNegotiationPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     'headline': 'Best Debt Settlement Services in India: Effective Negotiation (2025)',
-    'description': 'Looking for professional debt negotiators? Compare India\'s top-rated settlement services. Settle your loans for up to 75% less.',
+    'description': 'Looking for professional debt negotiators? Compare India’s top-rated settlement services. Settle your loans for up to 75% less.',
     'image': 'https://www.credsettle.com/debt-negotiation-guide.jpg',
     'author': {
       '@type': 'Organization',

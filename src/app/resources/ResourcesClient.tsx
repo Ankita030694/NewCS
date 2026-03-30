@@ -91,7 +91,7 @@ const faqSchema = {
   '@id': 'https://www.credsettle.com/resources#faq',
   name: "CredSettle Resources FAQs",
   description:
-    "Answers to common questions about CredSettle's RBI-compliant debt settlement services and resource library.",
+    "Answers to common questions about CredSettle’s RBI-compliant debt settlement services and resource library.",
   mainEntity: resourcesFaqItems.map((faq, index) => ({
     '@type': 'Question',
     '@id': `https://www.credsettle.com/resources#faq-question-${index + 1}`,

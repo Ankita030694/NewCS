@@ -119,7 +119,7 @@ export default function WestBengalLoanSettlementPage() {
         "name": "How does the Lok Adalat in West Bengal help?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The West Bengal State Legal Services Authority (WBSLSA) organizes Lok Adalats which act as people's courts. Settlements reached here are final and binding."
+          "text": "The West Bengal State Legal Services Authority (WBSLSA) organizes Lok Adalats which act as people’s courts. Settlements reached here are final and binding."
         }
       },
       {
@@ -151,7 +151,7 @@ export default function WestBengalLoanSettlementPage() {
         "name": "Do I need to visit the bank branch in person?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. CredSettle handles negotiations with the bank's regional or zonal offices in Kolkata, so you don't have to face the branch manager."
+          "text": "No. CredSettle handles negotiations with the bank’s regional or zonal offices in Kolkata, so you don’t have to face the branch manager."
         }
       },
       {
@@ -159,7 +159,7 @@ export default function WestBengalLoanSettlementPage() {
         "name": "How long does the process take in West Bengal?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The settlement process typically takes between 45 to 90 days depending on the bank's internal approval hierarchy."
+          "text": "The settlement process typically takes between 45 to 90 days depending on the bank’s internal approval hierarchy."
         }
       }
     ]

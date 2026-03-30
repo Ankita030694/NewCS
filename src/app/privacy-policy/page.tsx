@@ -16,7 +16,7 @@ const SECTIONS = [
       'Billing details required to process professional fees (we never store full credit/debit card numbers).',
     ],
     footer:
-      'By providing your mobile number or email address, you consent to receive essential service communications from CredSettle—even if your number is registered on the DND list.',
+      'By providing your mobile number or email address, you consent to receive essential service communications from CredSettle-even if your number is registered on the DND list.',
   },
   {
     icon: 'fa-chart-bar',
@@ -48,7 +48,7 @@ const SECTIONS = [
     bullets: [
       'Fraud detection, credit risk assessment, and platform security enforcement.',
       'Service delivery partners who assist with RBI-compliant negotiations or technology infrastructure.',
-      'Corporate restructuring events such as mergers, acquisitions, or investment diligence—always under confidentiality obligations.',
+      'Corporate restructuring events such as mergers, acquisitions, or investment diligence-always under confidentiality obligations.',
     ],
   },
   {
@@ -190,7 +190,7 @@ export default function PrivacyPolicyPage() {
                     Privacy Policy
                   </h1>
                   <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8">
-                    At <strong>CredSettle.com</strong> (“CredSettle”, “we”, or “us”), protecting your personal and
+                    At <strong>CredSettle.com</strong> ("CredSettle", "we", or "us"), protecting your personal and
                     financial information is integral to how we operate. This Privacy Policy explains what data we
                     collect, why we collect it, and the safeguards we apply while delivering RBI-compliant debt
                     settlement services through our website and mobile experiences.

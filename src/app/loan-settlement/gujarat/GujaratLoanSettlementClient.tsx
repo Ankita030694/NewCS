@@ -97,11 +97,11 @@ export default function GujaratLoanSettlementClient() {
     },
     {
       question: "Will the Gujarat Police help if recovery agents harass me?",
-      answer: "Absolutely. The Gujarat Police are proactive. You can file a complaint at your local police station or via the 'Citizen Portal' if agents use abusive language, threaten you, or create a scene at your workplace. The police often warn agents to follow RBI's fair practice codes."
+      answer: "Absolutely. The Gujarat Police are proactive. You can file a complaint at your local police station or via the 'Citizen Portal' if agents use abusive language, threaten you, or create a scene at your workplace. The police often warn agents to follow RBI’s fair practice codes."
     },
     {
       question: "What is the role of Lok Adalat in Gujarat?",
-      answer: "The Gujarat State Legal Services Authority (GSLSA) organizes Lok Adalats regularly. These are people's courts where disputes are settled amicably. An award passed here is final and binding, meaning the bank cannot file a future case against you for the same loan. It is the safest route for closure."
+      answer: "The Gujarat State Legal Services Authority (GSLSA) organizes Lok Adalats regularly. These are people’s courts where disputes are settled amicably. An award passed here is final and binding, meaning the bank cannot file a future case against you for the same loan. It is the safest route for closure."
     },
     {
       question: "Does settlement affect my CIBIL score?",
@@ -117,7 +117,7 @@ export default function GujaratLoanSettlementClient() {
     },
     {
       question: "Do I need to visit the bank branch in person?",
-      answer: "No. CredSettle handles the negotiations with the bank's Circle Office or Zonal Office (usually in Ahmedabad or Mumbai). You do not need to face the branch manager or recovery teams personally."
+      answer: "No. CredSettle handles the negotiations with the bank’s Circle Office or Zonal Office (usually in Ahmedabad or Mumbai). You do not need to face the branch manager or recovery teams personally."
     },
     {
       question: "How long does the settlement process take in Gujarat?",
@@ -291,7 +291,7 @@ export default function GujaratLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Circle Offices</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We negotiate directly with the bank's Circle Offices or Recovery Departments in Ahmedabad, Vadodara, or Mumbai. We aim to waive off 100% of the penal interest and legal charges, and significantly reduce the principal amount, often saving clients 40-50% of the total outstanding.
+                      We negotiate directly with the bank’s Circle Offices or Recovery Departments in Ahmedabad, Vadodara, or Mumbai. We aim to waive off 100% of the penal interest and legal charges, and significantly reduce the principal amount, often saving clients 40-50% of the total outstanding.
                     </p>
                   </div>
                 </div>
@@ -301,7 +301,7 @@ export default function GujaratLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Closure & NDC</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We ensure the settlement offer is documented on the bank's official letterhead. You pay the agreed amount directly to your loan account. We then follow up to ensure you receive the "No Dues Certificate" (NDC), formally closing the loan.
+                      We ensure the settlement offer is documented on the bank’s official letterhead. You pay the agreed amount directly to your loan account. We then follow up to ensure you receive the "No Dues Certificate" (NDC), formally closing the loan.
                     </p>
                   </div>
                 </div>
@@ -339,7 +339,7 @@ export default function GujaratLoanSettlementClient() {
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h4 className="font-bold text-blue-900 mb-2">SHE Teams</h4>
-                  <p className="text-sm text-gray-600">If female borrowers or family members are being harassed, Gujarat Police's "SHE Teams" provide immediate assistance and are very strict against harassment of women.</p>
+                  <p className="text-sm text-gray-600">If female borrowers or family members are being harassed, Gujarat Police’s "SHE Teams" provide immediate assistance and are very strict against harassment of women.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h4 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h4>
@@ -359,7 +359,7 @@ export default function GujaratLoanSettlementClient() {
                 <li><strong>DRT-2 Ahmedabad:</strong> Covers the remaining districts of Gujarat and the Union Territory of Dadra and Nagar Haveli and Daman & Diu.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-6">
-                If you receive a summons from DRT Ahmedabad, do not ignore it. It can lead to asset attachment. However, the DRT is also a forum for settlement. We provide legal representation in DRT Ahmedabad to defend your case and negotiate a compromise proposal directly with the bank's legal team.
+                If you receive a summons from DRT Ahmedabad, do not ignore it. It can lead to asset attachment. However, the DRT is also a forum for settlement. We provide legal representation in DRT Ahmedabad to defend your case and negotiate a compromise proposal directly with the bank’s legal team.
               </p>
 
               <h2 id="business-loan-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Special Focus: Business Loan Settlement</h2>
@@ -381,7 +381,7 @@ export default function GujaratLoanSettlementClient() {
                   <strong>Fake "Court Notices":</strong> Scammers send WhatsApp notices claiming to be from the "Ahmedabad City Civil Court" or "Gujarat High Court," demanding payment via UPI. Courts never work this way.
                 </li>
                 <li>
-                  <strong>"Loan Wiping" Agents:</strong> In markets like Surat's textile ring road or diamond bourse, agents may claim to "wipe" loans for a cash fee. This is impossible. Never pay cash to individuals.
+                  <strong>"Loan Wiping" Agents:</strong> In markets like Surat’s textile ring road or diamond bourse, agents may claim to "wipe" loans for a cash fee. This is impossible. Never pay cash to individuals.
                 </li>
                 <li>
                   <strong>Fake Settlement Letters:</strong> Always verify the settlement letter at the bank branch or via official customer care. Scammers forge bank logos to steal your settlement money.
@@ -415,7 +415,7 @@ export default function GujaratLoanSettlementClient() {
                 <div className="relative z-10">
                   <h3 className="text-3xl md:text-4xl font-bold mb-6">Reclaim Your Financial Freedom in Gujarat</h3>
                   <p className="mb-10 opacity-90 max-w-2xl mx-auto text-lg">
-                    Don't let debt hurt your business or reputation. With legal expertise and local knowledge, CredSettle helps you close your loans with dignity.
+                    Don’t let debt hurt your business or reputation. With legal expertise and local knowledge, CredSettle helps you close your loans with dignity.
                   </p>
                   <Link 
                     href="/contact"
@@ -447,9 +447,9 @@ export default function GujaratLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-2 text-left px-2">
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Ahmedabad & Surat Team</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Money Lenders Act Help</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> DRT Ahmedabad Defense</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Ahmedabad & Surat Team</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Money Lenders Act Help</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> DRT Ahmedabad Defense</p>
                 </div>
               </div>
 

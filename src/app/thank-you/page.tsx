@@ -68,7 +68,7 @@ export default function ThankYouPage() {
               </p>
             </div>
 
-            {/* Priority Processing Card - only show if timer hasn't expired */}
+            {/* Priority Processing Card - only show if timer hasn’t expired */}
             {showCard && (
               <div className="w-full max-w-[392px] mx-auto mb-6 md:mb-8">
                 <div
@@ -102,7 +102,7 @@ export default function ThankYouPage() {
                       fontWeight: '800'
                     }}
                   >
-                    Pay ₹11 to avail <strong>Exclusive Discounts</strong> on our services + get our executive's phone number to call immediately
+                    Pay ₹11 to avail <strong>Exclusive Discounts</strong> on our services + get our executive’s phone number to call immediately
                   </p>
 
                   {/* Executive Details */}
@@ -121,7 +121,7 @@ export default function ThankYouPage() {
                           className="text-base md:text-lg mr-1.5 md:mr-2 font-bold"
                           style={{ color: '#28a745' }}
                         >
-                          ✓
+                          v
                         </span>
                         <span
                           className="text-xs md:text-sm font-medium"
@@ -138,7 +138,7 @@ export default function ThankYouPage() {
                           className="text-base md:text-lg mr-1.5 md:mr-2 font-bold"
                           style={{ color: '#28a745' }}
                         >
-                          ✓
+                          v
                         </span>
                         <span
                           className="text-xs md:text-sm font-medium"
@@ -155,7 +155,7 @@ export default function ThankYouPage() {
                           className="text-base md:text-lg mr-1.5 md:mr-2 font-bold"
                           style={{ color: '#28a745' }}
                         >
-                          ✓
+                          v
                         </span>
                         <span
                           className="text-xs md:text-sm font-medium"
@@ -233,7 +233,7 @@ export default function ThankYouPage() {
                         className="text-[10px] md:text-xs mr-1"
                         style={{ color: '#6c757d' }}
                       >
-                        ✓
+                        v
                       </span>
                       <span
                         className="text-[10px] md:text-xs font-medium"

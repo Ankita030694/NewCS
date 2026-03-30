@@ -98,16 +98,16 @@ export default function DelhiLoanSettlementClient() {
       answer: "Yes, credit card debt is unsecured and is one of the most common types of debt settled. Banks are often willing to accept 30% to 50% of the outstanding amount as a full and final settlement to clear their books of non-performing assets."
     },
     {
-      question: "Will I go to jail if I don't pay my personal loan in Delhi?",
+      question: "Will I go to jail if I don’t pay my personal loan in Delhi?",
       answer: "No, defaulting on a loan is a civil matter, not a criminal offense. You cannot be arrested for non-payment of a personal loan. However, if you have issued a cheque that bounces, a case under Section 138 of the Negotiable Instruments Act can be filed, which is a criminal offense. Settlement resolves this risk."
     },
     {
       question: "What is the role of the RBI Ombudsman in Delhi?",
-      answer: "The RBI Ombudsman acts as a senior grievance redressal authority. If a bank in Delhi is harassing you or not following fair practices, and they don't resolve your complaint within 30 days, you can escalate the matter to the RBI Ombudsman for a binding resolution."
+      answer: "The RBI Ombudsman acts as a senior grievance redressal authority. If a bank in Delhi is harassing you or not following fair practices, and they don’t resolve your complaint within 30 days, you can escalate the matter to the RBI Ombudsman for a binding resolution."
     },
     {
       question: "How long does the entire settlement process take?",
-      answer: "The timeline varies but typically takes between 2 weeks to 4 months. It depends on the bank's internal approvals, the age of your default, and how quickly we can negotiate a deal that fits your budget."
+      answer: "The timeline varies but typically takes between 2 weeks to 4 months. It depends on the bank’s internal approvals, the age of your default, and how quickly we can negotiate a deal that fits your budget."
     },
     {
       question: "Do I need to be present physically for the settlement?",
@@ -209,10 +209,10 @@ export default function DelhiLoanSettlementClient() {
               
               <h2 id="delhi-debt-crisis" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Loan Settlement Landscape in Delhi NCR</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Delhi, being the capital city and a massive economic hub, witnesses a high volume of financial transactions and credit disbursement. From young professionals in Gurugram taking personal loans to business owners in Chandni Chowk leveraging credit lines, debt is an integral part of the city's growth. However, financial instability can strike anyone. Job losses, business closures, or medical emergencies often lead to a debt trap where repaying the full amount becomes impossible.
+                Delhi, being the capital city and a massive economic hub, witnesses a high volume of financial transactions and credit disbursement. From young professionals in Gurugram taking personal loans to business owners in Chandni Chowk leveraging credit lines, debt is an integral part of the city’s growth. However, financial instability can strike anyone. Job losses, business closures, or medical emergencies often lead to a debt trap where repaying the full amount becomes impossible.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                If you are a resident of Delhi NCR facing harassing recovery calls and mounting interest, you must know that you have a legal way out. Loan Settlement is a structured, legal process recognized by the Reserve Bank of India (RBI) and widely practiced in Delhi's banking circles. It allows you to negotiate with your lender to pay back a portion of what you owe as a "Full and Final" payment to close the account permanently.
+                If you are a resident of Delhi NCR facing harassing recovery calls and mounting interest, you must know that you have a legal way out. Loan Settlement is a structured, legal process recognized by the Reserve Bank of India (RBI) and widely practiced in Delhi’s banking circles. It allows you to negotiate with your lender to pay back a portion of what you owe as a "Full and Final" payment to close the account permanently.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
                 The banking ecosystem in Delhi is aggressive, but it is also pragmatic. Banks prefer recovering 50% of a loan through settlement rather than 0% through default. With the right legal representation, you can leverage this to clear your debts and regain your peace of mind.
@@ -242,7 +242,7 @@ export default function DelhiLoanSettlementClient() {
 
               <h3 className="text-xl font-bold text-gray-800 mb-3">3. Protection Against Usury</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                While Delhi does not have a specific money lending act as stringent as Maharashtra's, the Punjab Registration of Money Lenders Act (applicable to Delhi) and various Supreme Court judgments protect borrowers from exorbitant interest rates charged by unlicensed private lenders. If you are dealing with loan sharks, police protection is your primary recourse.
+                While Delhi does not have a specific money lending act as stringent as Maharashtra’s, the Punjab Registration of Money Lenders Act (applicable to Delhi) and various Supreme Court judgments protect borrowers from exorbitant interest rates charged by unlicensed private lenders. If you are dealing with loan sharks, police protection is your primary recourse.
               </p>
 
               <h2 id="lok-adalat-delhi" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Settling Through Delhi Lok Adalat</h2>
@@ -321,7 +321,7 @@ export default function DelhiLoanSettlementClient() {
                 **DRT Locations:** The primary DRTs in Delhi (DRT-1, DRT-2, and DRT-3) are located at the **Jeevan Tara Building, Parliament Street (Sansad Marg), New Delhi**.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                If you receive a summons from the DRT, do not ignore it. It means the bank has initiated a formal legal recovery process. You must hire a specialized DRT lawyer to represent you. In the DRT, you can challenge the bank's interest calculations, penal charges, and even counter-sue for damages if the bank has acted unlawfully. It is also a platform where a court-monitored settlement can be negotiated.
+                If you receive a summons from the DRT, do not ignore it. It means the bank has initiated a formal legal recovery process. You must hire a specialized DRT lawyer to represent you. In the DRT, you can challenge the bank’s interest calculations, penal charges, and even counter-sue for damages if the bank has acted unlawfully. It is also a platform where a court-monitored settlement can be negotiated.
               </p>
 
               <h2 id="settlement-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Step-by-Step Loan Settlement Process</h2>
@@ -341,14 +341,14 @@ export default function DelhiLoanSettlementClient() {
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">Delinquency Management</h4>
-                    <p className="text-gray-700">The loan must be in default (NPA) to be eligible for deep discounts. We guide you through this period, handling legal notices and ensuring you don't panic.</p>
+                    <p className="text-gray-700">The loan must be in default (NPA) to be eligible for deep discounts. We guide you through this period, handling legal notices and ensuring you don’t panic.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">Negotiation</h4>
-                    <p className="text-gray-700">Our legal team negotiates with the bank's regional collection managers in Delhi. We aim for the lowest possible amount, often achieving waivers of 50-70% depending on the case.</p>
+                    <p className="text-gray-700">Our legal team negotiates with the bank’s regional collection managers in Delhi. We aim for the lowest possible amount, often achieving waivers of 50-70% depending on the case.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
@@ -369,7 +369,7 @@ export default function DelhiLoanSettlementClient() {
 
               <h2 id="why-hire-lawyer" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why You Need a Specialized Settlement Lawyer</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Many borrowers ask, "Can I settle directly with the bank?" Yes, you can. But in Delhi's competitive recovery environment, doing it alone puts you at a disadvantage.
+                Many borrowers ask, "Can I settle directly with the bank?" Yes, you can. But in Delhi’s competitive recovery environment, doing it alone puts you at a disadvantage.
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6 text-gray-700">
                  <li>**Psychological Pressure:** Collection agents are trained to break you psychologically. A lawyer acts as a shield.</li>
@@ -405,7 +405,7 @@ export default function DelhiLoanSettlementClient() {
                 >
                   Get Your Free Consultation
                 </Link>
-                <p className="mt-4 text-sm opacity-70">Confidential • Secure • Experts in Delhi NCR Banking Laws</p>
+                <p className="mt-4 text-sm opacity-70">Confidential * Secure * Experts in Delhi NCR Banking Laws</p>
               </div>
 
             </article>
@@ -424,8 +424,8 @@ export default function DelhiLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 24/7 Support</p>
-                  <p className="mt-1">✓ Legal Protection</p>
+                  <p>v 24/7 Support</p>
+                  <p className="mt-1">v Legal Protection</p>
                 </div>
               </div>
 

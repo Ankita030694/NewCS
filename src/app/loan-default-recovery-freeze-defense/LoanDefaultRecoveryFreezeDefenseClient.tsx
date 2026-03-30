@@ -311,13 +311,13 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Crisis Management: Why Defensive Strategy is Vital During a Loan Default</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A loan default is not just a financial failure; in India's high pressure lending environment, it is often treated as a criminal act by banks and recovery agents. When a borrower hits a rough patch due to business loss, medical emergency, or unexpected job cuts, they are immediately met with a wall of aggressive recovery tactics. From account freezes to threatening SARFAESI notices, the system is designed to induce panic. However, in 2025, the law has shifted significantly toward borrower protection.
+                                A loan default is not just a financial failure; in India’s high pressure lending environment, it is often treated as a criminal act by banks and recovery agents. When a borrower hits a rough patch due to business loss, medical emergency, or unexpected job cuts, they are immediately met with a wall of aggressive recovery tactics. From account freezes to threatening SARFAESI notices, the system is designed to induce panic. However, in 2025, the law has shifted significantly toward borrower protection.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Understanding "Recovery Freeze Defense" is about realizing that while you owe a debt, you do not owe your dignity or your fundamental rights. A default does not give a bank the license to bypass due process. Whether it is a personal loan, a home loan, or a massive business credit line, the bank is bound by strict procedural mandates. If they fail to follow these, the entire recovery process can be brought to a clinical halt.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This 5000+ word technical manual is designed to equip you with the legal ammunition needed to fight back. We will dissect the SARFAESI Act, explore the technicalities of "NPA Classification Disputes," and show you how to leverage the latest RBI Fair Practice Codes to stop harassment in its tracks. At CredSettle, we don't just settle debt; we defend citizens against institutional overreach. Your first step to recovery starts by stopping the illegal "Freeze" on your life.
+                                This 5000+ word technical manual is designed to equip you with the legal ammunition needed to fight back. We will dissect the SARFAESI Act, explore the technicalities of "NPA Classification Disputes," and show you how to leverage the latest RBI Fair Practice Codes to stop harassment in its tracks. At CredSettle, we don’t just settle debt; we defend citizens against institutional overreach. Your first step to recovery starts by stopping the illegal "Freeze" on your life.
                             </p>
 
                             <h2 id="sarfaesi-act-rights" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">SARFAESI Act 2002: Your Rights Against Property Possession</h2>
@@ -327,7 +327,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>The 60 Day Demand Notice (Sec 13-2):</strong> The bank must give you a clear 60 day window to pay your dues after classifying your account as NPA. Any attempt to take possession before this is illegal.</li>
-                                    <li><strong>The Right to Object (Sec 13-3A):</strong> You have the legal right to submit a representation/objection to the notice. The bank is MANDATED to reply to your objection within 15 days. If they don't, the subsequent possession can be set aside by the DRT.</li>
+                                    <li><strong>The Right to Object (Sec 13-3A):</strong> You have the legal right to submit a representation/objection to the notice. The bank is MANDATED to reply to your objection within 15 days. If they don’t, the subsequent possession can be set aside by the DRT.</li>
                                     <li><strong>The Possession Notice (Sec 13-4):</strong> Actual possession happens only after the 60 day period expires. This notice must be published in two leading newspapers.</li>
                                     <li><strong>Valuation Rights:</strong> Banks often undervalue properties to ensure a quick sale. You have the right to challenge this valuation using independent government approved valuers.</li>
                                 </ul>
@@ -344,7 +344,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                                 <ol className="list-decimal pl-6 space-y-4">
                                     <li><strong>Accounting Errors:</strong> Failing to credit payments made through cheques or online transfers, leading to a "Paper Default."</li>
                                     <li><strong>Illegal Interest Charges:</strong> Charging "Interest on Interest" or penal interest that exceeds RBI caps, which artificially inflates the debt and triggers the 90 day threshold prematurely.</li>
-                                    <li><strong>Lien Mismanagement:</strong> Freezing a secondary account's funds that should have been used to clear the loan EMI, then marking the loan as default anyway.</li>
+                                    <li><strong>Lien Mismanagement:</strong> Freezing a secondary account’s funds that should have been used to clear the loan EMI, then marking the loan as default anyway.</li>
                                 </ol>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -356,7 +356,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                                 The **Debt Recovery Tribunal (DRT)** is the specialized forum where most loan disputes are fought. Under Section 17 of the SARFAESI Act, a borrower can challenge any measure taken by the bank.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A successful DRT strategy is built on **"Procedural Non Compliance."** We analyze the bank's files to see if the authorized officer was properly appointed, if the sale notice was sent via Registered Post, and if the property description was accurate. In many cases, the DRT will grant an **Interim Stay**, preventing the bank from taking possession while the case is heard. This "Recovery Freeze" gives the borrower critical breathing room to either arrange funds or negotiate an OTS (One Time Settlement).
+                                A successful DRT strategy is built on **"Procedural Non Compliance."** We analyze the bank’s files to see if the authorized officer was properly appointed, if the sale notice was sent via Registered Post, and if the property description was accurate. In many cases, the DRT will grant an **Interim Stay**, preventing the bank from taking possession while the case is heard. This "Recovery Freeze" gives the borrower critical breathing room to either arrange funds or negotiate an OTS (One Time Settlement).
                             </p>
 
                             <h2 id="rbi-fair-practices-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">RBI Fair Practice Code 2025: New Shields for Borrowers</h2>
@@ -385,7 +385,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                                 <ul className="space-y-4">
                                     <li><strong>The Golden Hour Rule:</strong> No calls before 8 AM or after 7 PM.</li>
                                     <li><strong>The Workplace Ban:</strong> Agents cannot visit your office or workplace unless it is your primary place of business registered with the bank.</li>
-                                    <li><strong>Identity Disclosure:</strong> Every agent MUST show their ID card and the bank's authorization letter. Failure to do so makes them a "Trespasser."</li>
+                                    <li><strong>Identity Disclosure:</strong> Every agent MUST show their ID card and the bank’s authorization letter. Failure to do so makes them a "Trespasser."</li>
                                     <li><strong>No Third Party Shaming:</strong> Calling your neighbors, relatives, or social media contacts is a criminal offense under Privacy Laws.</li>
                                 </ul>
                             </div>
@@ -413,7 +413,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                             <ul className="list-decimal pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>1. Demand the "Freeze Letter":</strong> The bank must give you the specific reason and the legal section under which the account was frozen.</li>
                                 <li><strong>2. The 24 Hour Objection:</strong> Submit a formal objection to the Nodal Officer citing "Financial Hardship" and "Lack of Due Notice."</li>
-                                <li><strong>3. Ombudsman Escalation:</strong> If the bank doesn't respond in 48 hours, file an online complaint with the RBI CMS portal.</li>
+                                <li><strong>3. Ombudsman Escalation:</strong> If the bank doesn’t respond in 48 hours, file an online complaint with the RBI CMS portal.</li>
                                 <li><strong>4. Writ Petition:</strong> In cases of massive business losses, we approach the High Court for a writ of "Mandamus" to direct the bank to lift the illegal freeze.</li>
                             </ul>
 
@@ -422,7 +422,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                                 If a bank’s illegal recovery freeze leads to your business failing, or a family member suffering health issues due to stress, you are entitled to **"Exemplary Damages."**
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Consumer Courts in India have started awarding 2 lakh to 10 lakh INR for mental agony caused by wrongful recovery. We help you document the "Causal Link" between the bank's illegal action and your loss, turning the tables so that the bank pays you for their mistakes.
+                                Consumer Courts in India have started awarding 2 lakh to 10 lakh INR for mental agony caused by wrongful recovery. We help you document the "Causal Link" between the bank’s illegal action and your loss, turning the tables so that the bank pays you for their mistakes.
                             </p>
 
                             <h2 id="preventive-legal-measures" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Future Proof: Preventive Legal Measures</h2>
@@ -431,10 +431,10 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light text-gray-800">
                                 <ul className="space-y-4">
-                                    <li>✓ <strong>Separate Survival Funds:</strong> Keep a primary savings account in a bank where you have NO loans or credit cards.</li>
-                                    <li>✓ <strong>Document Everything:</strong> Maintain a "Lending File" with every letter, email, and receipt.</li>
-                                    <li>✓ <strong>Proactive Communication:</strong> Never stop communicating. A "Silence" is interpreted as "Wilful Default."</li>
-                                    <li>✓ <strong>Legal Retainer:</strong> Keep a debt defense lawyer on speed dial to review any notice before you sign for it.</li>
+                                    <li>v <strong>Separate Survival Funds:</strong> Keep a primary savings account in a bank where you have NO loans or credit cards.</li>
+                                    <li>v <strong>Document Everything:</strong> Maintain a "Lending File" with every letter, email, and receipt.</li>
+                                    <li>v <strong>Proactive Communication:</strong> Never stop communicating. A "Silence" is interpreted as "Wilful Default."</li>
+                                    <li>v <strong>Legal Retainer:</strong> Keep a debt defense lawyer on speed dial to review any notice before you sign for it.</li>
                                 </ul>
                             </div>
 

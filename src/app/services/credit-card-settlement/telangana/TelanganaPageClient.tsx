@@ -190,13 +190,13 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     Telangana’s booming IT corridor, co-working startup culture, Tollywood events and aggressive retail finance have made multiple credit cards a household norm. HDFC, ICICI, Axis, SBI Card, Kotak and IndusInd run heavy promotions in Hyderabad and Secunderabad. Families juggle five to seven cards without realising the compound interest waiting behind minimum dues. Settlement compresses that mountain into one manageable amount and closes each account with legal documentation.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    CredSettle maintains a dedicated Telangana desk with advocates well-versed in Hyderabad recovery patterns and regional NPA teams. We assemble hardship documentation, negotiate with banks’ stressed asset managers in Hyderabad and Mumbai, supervise settlement payment and secure NOCs so that banks cannot revive claims later.</p>
+                    CredSettle maintains a dedicated Telangana desk with advocates well-versed in Hyderabad recovery patterns and regional NPA teams. We assemble hardship documentation, negotiate with banks' stressed asset managers in Hyderabad and Mumbai, supervise settlement payment and secure NOCs so that banks cannot revive claims later.</p>
                   <p style={{ marginBottom: '16px' }}>
                     The state’s micro and small business owners also lean on credit cards for working capital. Pharmacies in Kukatpally, boutique owners in Jubilee Hills and homestay operators in Vikarabad use cards to bridge inventory gaps. When suppliers demand upfront payment and clients delay settlements, statements balloon rapidly. Our settlement experts analyse every interest charge, reverse unlawful fees and set up a structured payout that lets business owners resume operations without fear of bounce cases or post-dated cheque disputes.</p>
                   <p style={{ marginBottom: '16px' }}>
                     For salaried households, our consultations focus on long-term stability. We review salary credits, PF loans, housing EMIs and education plans to design a customised roadmap. Settlement is only the first milestone. We guide you on rebuilding CIBIL scores, choosing secured cards prudently and creating emergency buffers so that the debt trap does not repeat when job transitions, medical urgencies or new ventures arise.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    If you have searched for “credit card settlement Telangana” or “Hyderabad credit card debt relief,” you already know how many agencies make tall claims. We differentiate ourselves by sharing transparent timelines, realistic savings bands and actual RBI-compliant paperwork samples during the very first interaction. This clarity helps you compare options and entrust your case to a team that values long-term financial healing over quick commissions.</p>
+                    If you have searched for "credit card settlement Telangana" or "Hyderabad credit card debt relief," you already know how many agencies make tall claims. We differentiate ourselves by sharing transparent timelines, realistic savings bands and actual RBI-compliant paperwork samples during the very first interaction. This clarity helps you compare options and entrust your case to a team that values long-term financial healing over quick commissions.</p>
                 </div>
               </section>
 
@@ -269,7 +269,7 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     Startup founders swipe corporate expenses on personal cards expecting investor tranches. Delays turn 45-day reimbursements into 120-day interest storms. CredSettle reorganises these cases, consolidates card dues, presents audited cash flow challenges and negotiates settlements that protect personal credit even after business setbacks.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    We frequently meet product and design teams facing project cancellations when US clients cut budgets. Travel advances or AWS subscription costs land on personal cards, and reimbursements freeze while contracts renegotiate. Our settlement experts coordinate with company finance teams to document the freeze, strengthening negotiation leverage with banks that previously refused to listen to “start-up issues.”</p>
+                    We frequently meet product and design teams facing project cancellations when US clients cut budgets. Travel advances or AWS subscription costs land on personal cards, and reimbursements freeze while contracts renegotiate. Our settlement experts coordinate with company finance teams to document the freeze, strengthening negotiation leverage with banks that previously refused to listen to "start-up issues."</p>
                   <p style={{ marginBottom: '16px' }}>
                     For employees who received stock-based compensation, we help them communicate the gap between paper wealth and liquid cash. Banks respond faster when they see board letters, new vesting schedules and salary revision notices. Presenting this package professionally keeps the conversation respectful and avoids litigation threats.</p>
                   <p style={{ marginBottom: '16px' }}>
@@ -309,7 +309,7 @@ export default function TelanganaPageClient() {
                 >
                   <p style={{ marginBottom: '16px' }}><strong>1. Dual Home Budgets:</strong> Professionals maintaining flats in Hyderabad and hometowns in Karimnagar or Nizamabad put monthly rent, fuel and groceries on cards.</p>
                   <p style={{ marginBottom: '16px' }}><strong>2. Education Abroad:</strong> Families funding MS programs in the US or UK swipe cards for GRE prep, visa fees and initial living costs.</p>
-                  <p style={{ marginBottom: '16px' }}><strong>3. Healthcare Support:</strong> Corporate staff cover parents’ surgeries at AIG, KIMS or Yashoda using cards expecting insurance reimbursement.</p>
+                  <p style={{ marginBottom: '16px' }}><strong>3. Healthcare Support:</strong> Corporate staff cover parents' surgeries at AIG, KIMS or Yashoda using cards expecting insurance reimbursement.</p>
                   <p style={{ marginBottom: '16px' }}><strong>4. Startup Cashflow:</strong> Founders bridge vendor payments or payroll with personal cards during investor delays.</p>
                   <p style={{ marginBottom: '16px' }}><strong>5. Real Estate Construction:</strong> Homeowners finishing villas in Mokila or apartments in Manikonda use cards for interiors and contractor advances.</p>
                   <p style={{ marginBottom: '16px' }}><strong>6. Wedding Seasons:</strong> Big fat Telugu weddings at convention centres push spending on gold, decor and catering beyond what savings allow.</p>
@@ -418,7 +418,7 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     We also guide you on sequencing payments around salary credit dates, mutual fund redemptions or property sale proceeds. The aim is to protect regular living expenses while finishing settlements decisively. Many clients choose to park funds in an escrow account so disbursements happen on agreed dates without last-minute stress.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    Once settlements conclude, we monitor credit bureaus for six months. If a bank forgets to update “settled” status to “closed,” or reintroduces stale balances, we raise disputes immediately. Clean bureau reports are essential for future home loans or business capital, and we treat that as the final deliverable-not just the negotiated percentage.</p>
+                    Once settlements conclude, we monitor credit bureaus for six months. If a bank forgets to update "settled" status to "closed," or reintroduces stale balances, we raise disputes immediately. Clean bureau reports are essential for future home loans or business capital, and we treat that as the final deliverable-not just the negotiated percentage.</p>
                 </div>
               </section>
 
@@ -453,7 +453,7 @@ export default function TelanganaPageClient() {
                   <p style={{ marginBottom: '16px' }}>
                     We also map how card debt interacts with other loans specific to Telangana residents: LRS remittances for children abroad, home construction loans near ORR and small business machinery loans supported by state incentives. Understanding the full picture lets us design cash flow charts that banks respect.</p>
                   <p style={{ marginBottom: '16px' }}>
-                    Whether you search for “credit card settlement Hyderabad”, “Warangal credit card help” or “Nizamabad debt relief”, the process begins with a detailed case study. We take that study to the correct bank escalation desks and fight for outcomes that restore your finances while protecting your dignity.</p>
+                    Whether you search for "credit card settlement Hyderabad", "Warangal credit card help" or "Nizamabad debt relief", the process begins with a detailed case study. We take that study to the correct bank escalation desks and fight for outcomes that restore your finances while protecting your dignity.</p>
                 </div>
               </section>
 
@@ -575,7 +575,7 @@ export default function TelanganaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    A 36-year-old product manager from Madhapur held five cards totalling ₹8.4 lakh. Layoffs cut his salary by 35% and on-site travel reimbursements stopped. He used cards for his child’s international school fees, parents’ health insurance and rent in a gated community.</p>
+                    A 36-year-old product manager from Madhapur held five cards totalling ₹8.4 lakh. Layoffs cut his salary by 35% and on-site travel reimbursements stopped. He used cards for his child’s international school fees, parents' health insurance and rent in a gated community.</p>
                   <p style={{ marginBottom: '16px' }}>
                     CredSettle compiled salary revision letters, school fee receipts and medical insurance renewals. Negotiations delivered settlements between 38-45% across all banks. Final payout ₹3.2 lakh-he saved ₹5.2 lakh (62%). Harassment ended within a week, cards closed in 68 days, and NOCs arrived within the next month. He now follows a secured card rebuild plan with automated payments.</p>
                   <p style={{ marginBottom: '16px' }}>

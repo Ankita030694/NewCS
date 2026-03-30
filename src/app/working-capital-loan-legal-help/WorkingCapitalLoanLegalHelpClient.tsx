@@ -95,11 +95,11 @@ export default function WorkingCapitalLoanLegalHelpClient() {
             answer: "In 2025, GST compliance is the primary 'Trust Signal.' Banks now pull data directly from the GSTN (with consent) to verify sales figures. Any mismatch between your 'Audit Financials' and 'GST Returns' is a legal red flag that can lead to a rejection of the renewal or a sharp increase in interest rates as a 'Risk Premium.'"
         },
         {
-            question: "Can a director be held personally liable for a company's working capital default?",
-            answer: "Only if the director has signed a 'Personal Guarantee' (PG). In most Indian SME and Mid-Corporate lending, banks mandate PGs from all promoter directors. Once signed, the PG makes the director's personal assets (property, bank accounts) liable for the company's debt, effectively piercing the corporate veil."
+            question: "Can a director be held personally liable for a company’s working capital default?",
+            answer: "Only if the director has signed a 'Personal Guarantee' (PG). In most Indian SME and Mid-Corporate lending, banks mandate PGs from all promoter directors. Once signed, the PG makes the director’s personal assets (property, bank accounts) liable for the company’s debt, effectively piercing the corporate veil."
         },
         {
-            question: "What are the RBI's 'Restructuring' rules for MSME working capital in 2025?",
+            question: "What are the RBI’s 'Restructuring' rules for MSME working capital in 2025?",
             answer: "The RBI allows for a one-time restructuring of MSME loans without a downgrade in asset classification, provided the entity is a GST-registered MSME. Legally, this involves extending the repayment period or converting unpaid interest into a 'Funded Interest Term Loan' (FITL), giving the business breathing room to recover its cash flow."
         },
         {
@@ -108,7 +108,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
         },
         {
             question: "How does a 'Letter of Credit' (LC) differ legally from a direct loan?",
-            answer: "An LC is a 'Contingent Liability' for the bank. It is a legal guarantee to a third party (the seller) that the bank will pay if the buyer fails. Unlike a direct loan, the bank's money is not moved until the seller presents valid shipping documents. Legally, it is an 'Independent Contract' between the bank and the seller, regardless of disputes between the buyer and seller."
+            answer: "An LC is a 'Contingent Liability' for the bank. It is a legal guarantee to a third party (the seller) that the bank will pay if the buyer fails. Unlike a direct loan, the bank’s money is not moved until the seller presents valid shipping documents. Legally, it is an 'Independent Contract' between the bank and the seller, regardless of disputes between the buyer and seller."
         }
     ];
 
@@ -123,7 +123,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
             name: "Anjali Gupta",
             location: "Delhi",
             stars: 5,
-            comment: "The section on GST integrated lending was an eye opener. We realized our internal bookkeeping wasn't aligned with our GST filings, which was the reason our renewal was stuck for 4 months. Fixing the legal alignment cleared the path."
+            comment: "The section on GST integrated lending was an eye opener. We realized our internal bookkeeping wasn’t aligned with our GST filings, which was the reason our renewal was stuck for 4 months. Fixing the legal alignment cleared the path."
         },
         {
             name: "Karthik Subramanian",
@@ -312,7 +312,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
                                 As we enter 2025, the regulatory landscape has shifted significantly. The Reserve Bank of India (RBI) has moved towards a Data First approach, where credit decisions are increasingly automated based on GST filings, banking history, and digital footprints. This shift has made Legal Help for Working Capital more critical than ever. It is no longer just about knowing the bank manager; it is about ensuring your Legal Data: from your stock hypothecation audits to your CERSAI registrations: is flawless and consistent across all platforms.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                CredSettles Working Capital Loan Legal Help is designed to empower Indian business owners with the technical knowledge required to navigate these complexities. We bridge the gap between your operational needs and the bank's rigid compliance requirements. In a world where SARFAESI and Asset Classification are words that cause sleepless nights, we provide a proactive legal roadmap to secure, manage, and even restructure your credit limits without losing control of your business.
+                                CredSettles Working Capital Loan Legal Help is designed to empower Indian business owners with the technical knowledge required to navigate these complexities. We bridge the gap between your operational needs and the bank’s rigid compliance requirements. In a world where SARFAESI and Asset Classification are words that cause sleepless nights, we provide a proactive legal roadmap to secure, manage, and even restructure your credit limits without losing control of your business.
                             </p>
 
                             <h2 id="wc-cycle" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: Decoding the Working Capital Cycle</h2>
@@ -351,7 +351,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
                                 <li><strong>Cash Credit (CC):</strong> The most common form of working capital. It is a 'Running Account' where the borrower can withdraw funds up to a 'Drawing Power' (DP). The DP is calculated monthly based on the value of stocks and book debts.</li>
                                 <li><strong>Overdraft (OD):</strong> Often used synonymously with CC, but legally distinct. ODs are typically 'Asset Backed' (against FDs, property, or shares) or 'Unsecured' for very high creditworthy borrowers.</li>
                                 <li><strong>Working Capital Demand Loan (WCDL):</strong> This is a 'Fixed Term' short term loan within your overall working capital limit. It has a lower interest rate compared to CC but must be repaid on a specific date.</li>
-                                <li><strong>Non-Fund Based Limits (LC & BG):</strong> These involve the bank's 'Credit Standing.' A Letter of Credit protects sellers, while a Bank Guarantee protects buyers.</li>
+                                <li><strong>Non-Fund Based Limits (LC & BG):</strong> These involve the bank’s 'Credit Standing.' A Letter of Credit protects sellers, while a Bank Guarantee protects buyers.</li>
                             </ul>
 
                             <h2 id="sbr-framework" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 4: Scale-Based Regulations (SBR) in 2025</h2>
@@ -364,7 +364,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
 
                             <h2 id="collateral-charge" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 5: Collateral Management & Pari-Passu Charge</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Security is the heart of a bank's comfort. In working capital, the 'Primary Security' is always the current assets of the business: your stock and your debtors. This is done through 'Hypothecation.' Unlike a 'Pledge', in hypothecation, you keep the goods but they are 'Chargeable' to the bank.
+                                Security is the heart of a bank’s comfort. In working capital, the 'Primary Security' is always the current assets of the business: your stock and your debtors. This is done through 'Hypothecation.' Unlike a 'Pledge', in hypothecation, you keep the goods but they are 'Chargeable' to the bank.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The **CERSAI (Central Registry)** plays a huge role here. Every charge created on an asset must be registered on the CERSAI portal. If you try to take a second loan against the same stock from another bank without an NOC from the first bank, it is a criminal offense. We help businesses manage their 'CERSAI Identity' to ensure there are no overlapping charges.
@@ -383,7 +383,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
 
                             <h2 id="documentation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 7: Documenting Working Capital Loans</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When you sign a loan package, you aren't just signing one paper; you're signing a 'Legal Fortress.' Here are the key documents that form this fortress:
+                                When you sign a loan package, you aren’t just signing one paper; you’re signing a 'Legal Fortress.' Here are the key documents that form this fortress:
                             </p>
 
                             <div className="overflow-x-auto mb-8">
@@ -412,7 +412,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
                             </div>
 
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Founders often sign these in a rush, but the 'Fine Print' is where the risks lie. We help clients audit these documents for 'Standard Form Contract' pitfalls, ensuring that you don't unknowingly agree to 'Cross Default' clauses.
+                                Founders often sign these in a rush, but the 'Fine Print' is where the risks lie. We help clients audit these documents for 'Standard Form Contract' pitfalls, ensuring that you don’t unknowingly agree to 'Cross Default' clauses.
                             </p>
 
                             <h2 id="renewal-legalities" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 8: Legal Pitfalls in Renewals & Enhancements</h2>
@@ -425,7 +425,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
 
                             <h2 id="dispute-resolution" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 9: Dispute Resolution & Recovery</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When things go wrong, the 'Recovery Machine' starts. For secured working capital, the **SARFAESI Act 2002** is the lender's primary weapon. It allows the bank to take 'Physical Possession' of your property and assets without going to a civil court. The process starts with a '13(2) Notice,' giving you 60 days to pay.
+                                When things go wrong, the 'Recovery Machine' starts. For secured working capital, the **SARFAESI Act 2002** is the lender’s primary weapon. It allows the bank to take 'Physical Possession' of your property and assets without going to a civil court. The process starts with a '13(2) Notice,' giving you 60 days to pay.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 However, the borrower also has legal rights. You can challenge the 'Process of Possession' in the Debts Recovery Tribunal (DRT). If the bank has not followed the 'Rules of Service' or has 'Undervalued' the property, a DRT stay can be obtained. For genuine business distress, 'Restructuring' or an 'OTS' is always the goal.
@@ -441,10 +441,10 @@ export default function WorkingCapitalLoanLegalHelpClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Final Verdict: Proactive Legal Management is Proactive Cash Flow Management</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                After our legal analysis, the conclusion is inescapable: **A business that understands its working capital loan agreement is a business that survives.** In India's high growth economy of 2025, the 'Gap' between success and failure is often the 'Gap' in your liquidity. Don't let your working capital debt become a 'Deadly Weight' because of poor legal planning.
+                                After our legal analysis, the conclusion is inescapable: **A business that understands its working capital loan agreement is a business that survives.** In India’s high growth economy of 2025, the 'Gap' between success and failure is often the 'Gap' in your liquidity. Don’t let your working capital debt become a 'Deadly Weight' because of poor legal planning.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Whether it's managing a complex consortium arrangement or simply ensuring your GST filings align with your stock statements, CredSettle is your legal partner in every step of the business journey. We don't just provide legal help; we provide a 'Financial Insurance' for your operational survival.
+                                Whether it’s managing a complex consortium arrangement or simply ensuring your GST filings align with your stock statements, CredSettle is your legal partner in every step of the business journey. We don’t just provide legal help; we provide a 'Financial Insurance' for your operational survival.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success Stories</h2>
@@ -481,7 +481,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Protect Your Liquidity</h3>
-                                <p className="text-blue-800 mb-6">Don't let rigid banking norms break your business flow. Get a professional legal audit of your working capital facilities today and trade with total confidence.</p>
+                                <p className="text-blue-800 mb-6">Don’t let rigid banking norms break your business flow. Get a professional legal audit of your working capital facilities today and trade with total confidence.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -508,9 +508,9 @@ export default function WorkingCapitalLoanLegalHelpClient() {
                                     Book Audit Now
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Limit Optimization</p>
-                                    <p>✓ Agreement Audit</p>
-                                    <p>✓ NPA Prevention</p>
+                                    <p>v Limit Optimization</p>
+                                    <p>v Agreement Audit</p>
+                                    <p>v NPA Prevention</p>
                                 </div>
                             </div>
 

@@ -103,14 +103,14 @@ export default function YesBankLoanSettlementPage() {
     },
     {
       question: "Do I need to visit the Yes Bank branch for settlement?",
-      answer: "Not necessarily. If you hire a professional settlement agency like CredSettle, we handle all the communication and negotiations with the bank's central settlement team. You may only need to visit for the final payment or to collect the No Dues Certificate if required, though many processes are now digital."
+      answer: "Not necessarily. If you hire a professional settlement agency like CredSettle, we handle all the communication and negotiations with the bank’s central settlement team. You may only need to visit for the final payment or to collect the No Dues Certificate if required, though many processes are now digital."
     },
     {
       question: "Is Yes Bank loan settlement legal?",
       answer: "Yes, it is completely legal. It is a provision allowed by the RBI for banks to clean up their balance sheets by recovering a portion of bad loans (NPAs) rather than writing them off completely. It is a formal contract between you and the bank."
     },
     {
-      question: "Can Yes Bank seize my property if I don't settle?",
+      question: "Can Yes Bank seize my property if I don’t settle?",
       answer: "For unsecured loans like personal loans and credit cards, the bank cannot directly seize your property without a court order. However, they can file a civil suit or initiate arbitration. Settlement is a good way to avoid these legal complications."
     },
     {

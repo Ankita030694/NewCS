@@ -216,10 +216,10 @@ export default function KarnatakaLoanSettlementClient() {
               
               <h2 id="karnataka-debt-landscape" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Navigating Loan Settlement in Karnataka: A Complete Guide</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Karnataka, particularly its capital Bengaluru (Bangalore), is a powerhouse of technology, startups, and innovation. With this rapid economic activity comes a massive flow of credit. Residents across the state—from the tech hubs of Whitefield to the commercial centers of Mysore and Hubli—rely heavily on personal loans and credit cards to fuel their lifestyles and businesses. However, the volatility of the modern economy, layoffs in the tech sector, or unexpected medical crises can suddenly turn manageable debt into an overwhelming burden.
+                Karnataka, particularly its capital Bengaluru (Bangalore), is a powerhouse of technology, startups, and innovation. With this rapid economic activity comes a massive flow of credit. Residents across the state-from the tech hubs of Whitefield to the commercial centers of Mysore and Hubli-rely heavily on personal loans and credit cards to fuel their lifestyles and businesses. However, the volatility of the modern economy, layoffs in the tech sector, or unexpected medical crises can suddenly turn manageable debt into an overwhelming burden.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                If you find yourself unable to repay your loans in Karnataka, it is crucial to understand that you are not alone, and more importantly, you are not without rights. <strong>Loan Settlement</strong> is a viable, legal, and strategic option available to you. It is a process where you negotiate with your lender to pay a one-time lump sum amount—often significantly lower than your total outstanding—to close your loan account permanently.
+                If you find yourself unable to repay your loans in Karnataka, it is crucial to understand that you are not alone, and more importantly, you are not without rights. <strong>Loan Settlement</strong> is a viable, legal, and strategic option available to you. It is a process where you negotiate with your lender to pay a one-time lump sum amount-often significantly lower than your total outstanding-to close your loan account permanently.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
                 Lenders in Karnataka, including major banks like State Bank of India (SBI), HDFC, ICICI, and Karnataka Bank, understand the reality of Non-Performing Assets (NPAs). They are pragmatic business entities. Recovering a portion of the loan is far better for their balance sheets than a total write-off. With CredSettle, we leverage this business logic along with strong legal frameworks to help you exit the debt trap with dignity.
@@ -276,14 +276,14 @@ export default function KarnatakaLoanSettlementClient() {
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">Expert Negotiation</h4>
-                    <p className="text-gray-700">Our team negotiates directly with the bank's regional offices in Bengaluru and other Karnataka hubs. Our goal is to secure a settlement amount that is affordable for you, potentially saving you 40-50% or more on the outstanding dues.</p>
+                    <p className="text-gray-700">Our team negotiates directly with the bank’s regional offices in Bengaluru and other Karnataka hubs. Our goal is to secure a settlement amount that is affordable for you, potentially saving you 40-50% or more on the outstanding dues.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">Settlement Agreement</h4>
-                    <p className="text-gray-700">We ensure that the settlement offer is documented in writing on the bank's official letterhead. This is critical. We verify every clause to ensure there are no hidden terms before advising you to make the payment.</p>
+                    <p className="text-gray-700">We ensure that the settlement offer is documented in writing on the bank’s official letterhead. This is critical. We verify every clause to ensure there are no hidden terms before advising you to make the payment.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
@@ -297,7 +297,7 @@ export default function KarnatakaLoanSettlementClient() {
 
               <h2 id="lok-adalat-karnataka" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Leveraging the Karnataka Lok Adalat</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Lok Adalat</strong> (People's Court) is a highly effective mechanism for dispute resolution in India, and it is particularly active in Karnataka. It is an Alternative Dispute Resolution (ADR) forum where pending cases or disputes at the pre-litigation stage are settled amicably.
+                The <strong>Lok Adalat</strong> (People’s Court) is a highly effective mechanism for dispute resolution in India, and it is particularly active in Karnataka. It is an Alternative Dispute Resolution (ADR) forum where pending cases or disputes at the pre-litigation stage are settled amicably.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 <strong>Why is it beneficial for you?</strong>
@@ -323,7 +323,7 @@ export default function KarnatakaLoanSettlementClient() {
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6 text-gray-700">
                  <li><strong>Local Police Station:</strong> A written complaint to the Station House Officer (SHO) of your local police station is the most direct action. Ensure you detail the specific incidents, times of calls, and nature of threats.</li>
-                 <li><strong>Cyber Crime Wing:</strong> For harassment that occurs via digital means—such as abusive WhatsApp messages, emails, or through instant loan apps—you can file a complaint with the Karnataka State Police Cyber Crime Division. The portal [cybercrime.gov.in](https://cybercrime.gov.in) is also an effective national avenue.</li>
+                 <li><strong>Cyber Crime Wing:</strong> For harassment that occurs via digital means-such as abusive WhatsApp messages, emails, or through instant loan apps-you can file a complaint with the Karnataka State Police Cyber Crime Division. The portal [cybercrime.gov.in](https://cybercrime.gov.in) is also an effective national avenue.</li>
                  <li><strong>Emergency Response (112):</strong> In case of immediate physical threat or if agents are creating a scene at your home, dialing 112 (Emergency Response Support System) can bring immediate police assistance.</li>
               </ul>
 
@@ -408,7 +408,7 @@ export default function KarnatakaLoanSettlementClient() {
               <p className="text-gray-700 leading-relaxed mb-6">
                  Some agencies claim they can "delete" your loan from the CIBIL servers for a fee.
                  <br/>
-                 <strong>Fact:</strong> This is technically impossible and illegal. No one can simply erase a valid debt record from the Credit Information Companies without the bank's authorization.
+                 <strong>Fact:</strong> This is technically impossible and illegal. No one can simply erase a valid debt record from the Credit Information Companies without the bank’s authorization.
               </p>
 
               <h3 className="text-xl font-bold text-gray-800 mb-3">3. Fake Settlement Letters</h3>
@@ -423,13 +423,13 @@ export default function KarnatakaLoanSettlementClient() {
                 Navigating the complex waters of debt settlement requires a pilot who knows the currents. CredSettle is not just a service; we are your advocates.
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6 text-gray-700">
-                 <li><strong>Data-Driven Negotiation:</strong> We don't just guess; we use data from thousands of successful settlements to know exactly how much a bank is likely to accept for your specific loan type.</li>
+                 <li><strong>Data-Driven Negotiation:</strong> We don’t just guess; we use data from thousands of successful settlements to know exactly how much a bank is likely to accept for your specific loan type.</li>
                  <li><strong>Legal & Financial Expertise:</strong> Our team comprises legal experts and ex-bankers. We understand the law, but we also understand banking operations. This dual expertise is our edge.</li>
                  <li><strong>Karnataka-Specific Knowledge:</strong> We understand the local legal landscape, from the workings of the Bengaluru DRT to the schedules of the Karnataka Lok Adalats.</li>
                  <li><strong>Empathy & Respect:</strong> We know that debt is a stressful chapter, not a character flaw. We treat every client with the dignity and respect they deserve, providing a supportive environment throughout the process.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Your financial freedom is waiting. Don't let debt define your future. Take the first step towards a debt-free life in Karnataka today.
+                Your financial freedom is waiting. Don’t let debt define your future. Take the first step towards a debt-free life in Karnataka today.
               </p>
 
               <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Frequently Asked Questions</h2>
@@ -451,7 +451,7 @@ export default function KarnatakaLoanSettlementClient() {
                 >
                   Free Consultation
                 </Link>
-                <p className="mt-4 text-sm opacity-70">100% Confidential • Expert Legal Team • Karnataka Wide Service</p>
+                <p className="mt-4 text-sm opacity-70">100% Confidential * Expert Legal Team * Karnataka Wide Service</p>
               </div>
 
             </article>
@@ -471,8 +471,8 @@ export default function KarnatakaLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Bengaluru Based</p>
-                  <p className="mt-1">✓ DRT Protection</p>
+                  <p>v Bengaluru Based</p>
+                  <p className="mt-1">v DRT Protection</p>
                 </div>
               </div>
 

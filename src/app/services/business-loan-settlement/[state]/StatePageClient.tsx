@@ -93,7 +93,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                   marginBottom: '12px'
                 }}
               >
-                {content.heroTitle || `Business Loan Settlement in ${content.stateName} – Stabilize & Grow Again with CredSettle`}
+                {content.heroTitle || `Business Loan Settlement in ${content.stateName} - Stabilize & Grow Again with CredSettle`}
               </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
@@ -200,7 +200,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                 </section>
               )}
 
-              {/* H2: CredSettle - India's Trusted Business Loan Settlement Company */}
+              {/* H2: CredSettle - India’s Trusted Business Loan Settlement Company */}
               {content.credsettleOverview && (
                 <section id="credsettle-overview" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2

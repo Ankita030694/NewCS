@@ -101,11 +101,11 @@ export default function MinimumDebtAmountClient() {
         },
         {
             question: 'How do RBI guidelines for 2025 affect small debt settlements?',
-            answer: 'The RBI\'s January 2025 guidelines for ARCs differentiate between debts above and below ₹1 Crore for internal approval purposes, but for the average consumer, the ₹1 Lakh rule remains the standard "soft limit" for professional assistance.'
+            answer: 'The RBI’s January 2025 guidelines for ARCs differentiate between debts above and below ₹1 Crore for internal approval purposes, but for the average consumer, the ₹1 Lakh rule remains the standard "soft limit" for professional assistance.'
         },
         {
-            question: 'Why won\'t agencies take on my debt if it\'s below ₹1 Lakh?',
-            answer: 'Debt settlement agencies incur costs for legal notices, negotiation time, and administrative overhead. If the debt is too small, the agency\'s fee would disproportionately eat into your savings, making the service less beneficial for the client.'
+            question: 'Why won’t agencies take on my debt if it’s below ₹1 Lakh?',
+            answer: 'Debt settlement agencies incur costs for legal notices, negotiation time, and administrative overhead. If the debt is too small, the agency’s fee would disproportionately eat into your savings, making the service less beneficial for the client.'
         },
         {
             question: 'Can I combine multiple small debts to meet the minimum requirement?',
@@ -116,7 +116,7 @@ export default function MinimumDebtAmountClient() {
             answer: 'NBFCs are often more flexible with smaller amounts (₹75,000 to ₹1 Lakh) compared to major public sector banks, which may prioritize larger recovery cases in their legal departments.'
         },
         {
-            question: 'What if my debt is ₹5 Lakhs but it\'s a secured gold loan?',
+            question: 'What if my debt is ₹5 Lakhs but it’s a secured gold loan?',
             answer: 'Secured loans generally do not qualify for typical debt settlement programs regardless of the amount. Since the lender can seize the collateral (gold, property, car), they have no incentive to accept a waiver.'
         },
         {
@@ -134,13 +134,13 @@ export default function MinimumDebtAmountClient() {
             name: 'Ankit Sharma',
             location: 'Delhi',
             stars: 5,
-            comment: 'I was worried my ₹1.5 Lakh debt was too small for help. This guide clarified that while there\'s no legal minimum, the ₹1L mark is where professional help becomes effective. I saved 55%!'
+            comment: 'I was worried my ₹1.5 Lakh debt was too small for help. This guide clarified that while there’s no legal minimum, the ₹1L mark is where professional help becomes effective. I saved 55%!'
         },
         {
             name: 'Meera Iyer',
             location: 'Bangalore',
             stars: 5,
-            comment: 'Clear explanation of why secured loans aren\'t settleable even if the amount is huge. Saved me from wasting time on a home loan settlement attempt.'
+            comment: 'Clear explanation of why secured loans aren’t settleable even if the amount is huge. Saved me from wasting time on a home loan settlement attempt.'
         },
         {
             name: 'Rahul Varma',
@@ -329,7 +329,7 @@ export default function MinimumDebtAmountClient() {
 
                             <h2 id="rbi-arc-rules" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The RBI 2025 Context: ARC Thresholds and Rules</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                In January 2025, the RBI issued updated guidelines specifically for <strong>Asset Reconstruction Companies (ARCs)</strong>. While these are institutional rules, they impact the consumer directly. ARCs now have stricter board-approved policies for "settlement events." For accounts above ₹1 Crore, a larger committee must approve the settlement. For the "Retail Category" (most personal borrowers), the rules focus on transparency and the borrower\'s "Right to Settlement."
+                                In January 2025, the RBI issued updated guidelines specifically for <strong>Asset Reconstruction Companies (ARCs)</strong>. While these are institutional rules, they impact the consumer directly. ARCs now have stricter board-approved policies for "settlement events." For accounts above ₹1 Crore, a larger committee must approve the settlement. For the "Retail Category" (most personal borrowers), the rules focus on transparency and the borrower’s "Right to Settlement."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 Your consultant should be able to explain how these 2025 rules apply to your specific amount. If your debt has been sold to an ARC like <strong>Phoenix or Omkara</strong>, the "Minimum Amount" often becomes less of an issue because the ARC has bought your debt at a massive discount (often 20-30 cents on the rupee) and any recovery above that is profit for them. This creates a unique opportunity for even moderate debt amounts to be settled for 30% of the principal.
@@ -363,12 +363,12 @@ export default function MinimumDebtAmountClient() {
 
                             <h2 id="cibil-impact-threshold" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">CIBIL Impact and Amount Thresholds</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Many ask: <strong>"Will settling ₹10,000 hurt my score as much as ₹10 Lakhs?"</strong> The answer is a categorical YES. The credit bureau doesn\'t weight the "Settled" tag by amount as heavily as the tag itself. A "Settled" status on your report will make you ineligible for most premium credit cards for at least 3-5 years. This is why settling very small amounts is often counter-productive. It is better to pay them off in full and only use the settlement tool for life-changing amounts.
+                                Many ask: <strong>"Will settling ₹10,000 hurt my score as much as ₹10 Lakhs?"</strong> The answer is a categorical YES. The credit bureau doesn’t weight the "Settled" tag by amount as heavily as the tag itself. A "Settled" status on your report will make you ineligible for most premium credit cards for at least 3-5 years. This is why settling very small amounts is often counter-productive. It is better to pay them off in full and only use the settlement tool for life-changing amounts.
                             </p>
 
                             <h2 id="small-debt-strategies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Strategies for Small Debts (Below ₹1 Lakh)</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 font-light">
-                                If your debt is below the ₹1 Lakh professional threshold, do not lose hope. You can still find relief. The first step is to <strong>Self-Negotiate</strong> by visiting the bank\'s "Nodal Officer" or "Asset Recovery Branch." Present your medical or financial documents and ask for a <strong>Compromise Settlement.</strong> 
+                                If your debt is below the ₹1 Lakh professional threshold, do not lose hope. You can still find relief. The first step is to <strong>Self-Negotiate</strong> by visiting the bank’s "Nodal Officer" or "Asset Recovery Branch." Present your medical or financial documents and ask for a <strong>Compromise Settlement.</strong> 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8 font-light">
                                 Another powerful tool is the <strong>Lok Adalat.</strong> Banks often bring thousands of small credit card and personal loan cases to Lok Adalat forums. Here, you can speak directly to a judge or mediator and explain your hardship. Judges in Lok Adalat are often very sympathetic to small borrowers and can pressure the bank to accept a 50% waiver on the spot.
@@ -376,7 +376,7 @@ export default function MinimumDebtAmountClient() {
 
                             <h2 id="resolution-framework" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Formal Resolution Framework</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                For debts exceeding ₹2 Lakhs, a formal framework involving a <strong>Debt Settlement Consultant</strong> and a <strong>Legal Shield</strong> becomes necessary. This process involves issuing formal "Cease and Desist" notices to stop collection harassment, followed by a series of structured offers sent to the bank\'s regional or zonal heads. 
+                                For debts exceeding ₹2 Lakhs, a formal framework involving a <strong>Debt Settlement Consultant</strong> and a <strong>Legal Shield</strong> becomes necessary. This process involves issuing formal "Cease and Desist" notices to stop collection harassment, followed by a series of structured offers sent to the bank’s regional or zonal heads. 
                             </p>
 
                             <h2 id="legal-implications" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Legal Implications of Debt Volume</h2>
@@ -464,7 +464,7 @@ export default function MinimumDebtAmountClient() {
                                         { href: "/rbi-new-recovery-guidelines-july-2026", text: "Complete RBI Rules" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="group flex items-start gap-2">
-                                            <span className="text-blue-600 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-sm text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

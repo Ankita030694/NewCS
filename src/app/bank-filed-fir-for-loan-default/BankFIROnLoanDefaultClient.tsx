@@ -96,7 +96,7 @@ export default function BankFIROnLoanDefaultClient() {
         },
         {
             question: 'What is a "Preliminary Inquiry" in bank fraud cases?',
-            answer: 'Per Supreme Court mandates, the police should conduct a preliminary inquiry to verify if a bank\'s complaint has criminal merit before registering a formal FIR for financial defaults.'
+            answer: 'Per Supreme Court mandates, the police should conduct a preliminary inquiry to verify if a bank’s complaint has criminal merit before registering a formal FIR for financial defaults.'
         },
         {
             question: 'Can I travel abroad if an FIR is filed against me?',
@@ -372,13 +372,13 @@ export default function BankFIROnLoanDefaultClient() {
                                 The registration of an First Information Report (FIR) against a borrower is the "Nuclear Option" for any bank. It transforms a private financial struggle into a public criminal matter. For a business owner or a professional, an FIR is not just about the risk of arrest; it is about the destruction of reputation, the freezing of opportunities, and the massive psychological burden of facing a police investigation.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                But here is the critical legal reality in 2025: <strong className="font-bold text-gray-900">An FIR cannot be registered for a simple default.</strong> The police have no legal standing to investigate why you haven't paid your EMI unless the bank can establish "Prima Facie" criminal intent. In the current legal climate, many banks file FIRs as a "Pressure Tactic" to bypass the slow Debt Recovery Tribunals (DRT). However, the High Courts and the Supreme Court are increasingly quashing these FIRs and imposing fines on lenders for malicious prosecution.
+                                But here is the critical legal reality in 2025: <strong className="font-bold text-gray-900">An FIR cannot be registered for a simple default.</strong> The police have no legal standing to investigate why you haven’t paid your EMI unless the bank can establish "Prima Facie" criminal intent. In the current legal climate, many banks file FIRs as a "Pressure Tactic" to bypass the slow Debt Recovery Tribunals (DRT). However, the High Courts and the Supreme Court are increasingly quashing these FIRs and imposing fines on lenders for malicious prosecution.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In this definitive 5000+ word guide, we will walk you through the entire mechanical process of a Banking FIR. We will look at the <strong className="font-bold text-gray-900">BNS (Bhartiya Nyay Sanhita)</strong> sections that have replaced the IPC, the specific definitions of "Siphoning" and "Fraud," and the step-by-step legal defense you must mount to protect your liberty.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we specialize in bridging the gap between financial distress and legal protection. We have assisted hundreds of clients in navigating the transition from a police station summon to a successful One-Time Settlement (OTS). This guide is your "Criminal Law Shield." It is designed to provide you with the clarity needed to tell the difference between a real legal threat and a recovery agent's bluff.
+                                At CredSettle, we specialize in bridging the gap between financial distress and legal protection. We have assisted hundreds of clients in navigating the transition from a police station summon to a successful One-Time Settlement (OTS). This guide is your "Criminal Law Shield." It is designed to provide you with the clarity needed to tell the difference between a real legal threat and a recovery agent’s bluff.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Whether you are a small business owner whose cash flow dried up or a high-net-worth individual facing complex restructuring, the laws of India provide you with a "Right to Fair Investigation." Let us learn how to exercise that right and prevent a financial mistake from becoming a criminal sentence.
@@ -391,8 +391,8 @@ export default function BankFIROnLoanDefaultClient() {
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <h4 className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The FIR Journey:</h4>
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>1. Internal Fraud Report:</strong> The bank's internal compliance team labels the account as "Doubtful" or "Fraudulent" based on suspicious activity.</li>
-                                    <li><strong>2. Police Complaint:</strong> The bank's Nodal Officer files a formal complaint at the Economic Offences Wing (EOW) or local station.</li>
+                                    <li><strong>1. Internal Fraud Report:</strong> The bank’s internal compliance team labels the account as "Doubtful" or "Fraudulent" based on suspicious activity.</li>
+                                    <li><strong>2. Police Complaint:</strong> The bank’s Nodal Officer files a formal complaint at the Economic Offences Wing (EOW) or local station.</li>
                                     <li><strong>3. Preliminary Inquiry (PI):</strong> Per SC guidelines, the police conduct a check to see if there is actual "Criminality." This is your first chance to defend yourself.</li>
                                     <li><strong>4. Registration:</strong> If the PI finds evidence of fraud, the FIR is officially registered.</li>
                                 </ul>
@@ -419,7 +419,7 @@ export default function BankFIROnLoanDefaultClient() {
                             <div className="bg-red-50 p-8 rounded-3xl border border-red-100 mb-8 font-light">
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Section 318 BNS (Old IPC 420):</strong> Cheating. Making the bank believe you are eligible for a loan by using false data.</li>
-                                    <li><strong>Section 316 BNS (Old IPC 406):</strong> Criminal Breach of Trust. Taking the bank's money (held in trust for a project) and using it for personal luxury or gambling.</li>
+                                    <li><strong>Section 316 BNS (Old IPC 406):</strong> Criminal Breach of Trust. Taking the bank’s money (held in trust for a project) and using it for personal luxury or gambling.</li>
                                     <li><strong>Section 336 BNS (Old IPC 467):</strong> Forgery of Valuable Security. Using a fake property deed or a forged salary certificate to secure the loan.</li>
                                     <li><strong>Section 61 BNS (Old IPC 120B):</strong> Criminal Conspiracy. Multiple people working together (e.g., borrower + CA + Bank official) to defraud the bank.</li>
                                 </ul>
@@ -432,10 +432,10 @@ export default function BankFIROnLoanDefaultClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Banks use the terms "Siphoning" and "Diversion" to justify an FIR.
                                 <br />- **Diversion:** Using a business loan to buy a personal house. This is a "Grey Area" and often settled civilly.
-                                <br />- **Siphoning:** Taking the loan and transferring it to a relative's account or a dummy company with no real business purpose. This is a <strong className="font-bold text-gray-900">Red Line</strong> that leads directly to an FIR.
+                                <br />- **Siphoning:** Taking the loan and transferring it to a relative’s account or a dummy company with no real business purpose. This is a <strong className="font-bold text-gray-900">Red Line</strong> that leads directly to an FIR.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, the RBI has required banks to conduct a "Forensic Audit" for all accounts above ₹50 Crores before declaring fraud. For smaller accounts, the bank's "Internal Fraud Committee" makes the call. Challenging these findings early is key to stopping the FIR.
+                                In 2025, the RBI has required banks to conduct a "Forensic Audit" for all accounts above ₹50 Crores before declaring fraud. For smaller accounts, the bank’s "Internal Fraud Committee" makes the call. Challenging these findings early is key to stopping the FIR.
                             </p>
 
                             <h2 id="wilful-defaulter-connection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Wilful Defaulter Status and Criminal Intent</h2>
@@ -453,7 +453,7 @@ export default function BankFIROnLoanDefaultClient() {
                                 Once an FIR is registered, the <strong className="font-bold text-gray-900">Investigating Officer (IO)</strong> will follow a set protocol:
                                 <br />1. **Statement Recording:** You will be called to give your version. Do not go without a lawyer.
                                 <br />2. **Document Seizure:** The IO will ask for your bank statements, IT returns, and business ledgers.
-                                <br />3. **Confrontation:** You might be asked to sit with the bank's representative to clarify discrepancies.
+                                <br />3. **Confrontation:** You might be asked to sit with the bank’s representative to clarify discrepancies.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The IO is usually looking for "Asset Trail." If you can show that the money was spent on genuine business/personal needs and not "Hidden," the investigation will likely lead to a "Closure Report" or a "B-Summary" (Civil dispute, no crime).
@@ -485,13 +485,13 @@ export default function BankFIROnLoanDefaultClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your main defense in a banking FIR is "Commercial Misfortune."
                                 <br />1. **Prove External Loss:** Show that the downturn was due to market conditions, payment delays from clients, or systemic issues.
-                                <br />2. **Show Communication Trail:** Show your emails to the bank asking for "Restructuring" or "Extension" BEFORE the default. This proves you weren't "Running away."
-                                <br />3. **No Personal Enrichment:** Show that you didn't buy luxury assets while defaulting on the bank.
+                                <br />2. **Show Communication Trail:** Show your emails to the bank asking for "Restructuring" or "Extension" BEFORE the default. This proves you weren’t "Running away."
+                                <br />3. **No Personal Enrichment:** Show that you didn’t buy luxury assets while defaulting on the bank.
                             </p>
 
                             <h2 id="ots-impact-on-fir" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Impact of OTS on Criminal Cases</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Most banking FIRs are "Settlement Driven." The bank doesn't want you in jail; they want their money.
+                                Most banking FIRs are "Settlement Driven." The bank doesn’t want you in jail; they want their money.
                                 <br />- **Compounding:** Once a One-Time Settlement (OTS) is signed and paid, the bank will issue a "No Dues Certificate" and a "Withdrawal Letter."
                                 <br />- **Closing the File:** With these documents, your lawyer can move the court to close the FIR on the grounds of "Amicable Settlement." This is the fastest way to clear your name.
                             </p>
@@ -499,8 +499,8 @@ export default function BankFIROnLoanDefaultClient() {
                             <h2 id="supreme-court-directives" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Supreme Court Directives for Banks (2025)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Supreme Court (SC) has issued a "Warning" to banks in 2025: "Banks must not use the criminal machinery as a substitute for civil recovery."
-                                <br />- <strong className="font-bold text-gray-900">Nodal Officer Accountability:</strong> If an FIR is found to be false, the High Court can order action against the Bank's Nodal Officer for filing a false affidavit.
-                                <br />- **Audited Defaults:** Banks are being encouraged to follow the RBI's "Framework for Resolution" before jumping to criminal complaints.
+                                <br />- <strong className="font-bold text-gray-900">Nodal Officer Accountability:</strong> If an FIR is found to be false, the High Court can order action against the Bank’s Nodal Officer for filing a false affidavit.
+                                <br />- **Audited Defaults:** Banks are being encouraged to follow the RBI’s "Framework for Resolution" before jumping to criminal complaints.
                             </p>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Frequently Asked Questions</h2>
@@ -537,13 +537,13 @@ export default function BankFIROnLoanDefaultClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Fighting the FIR with Facts</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                We have covered the complex landscape of banking FIRs over 5000+ words. The overarching message is clear: <strong className="font-bold text-gray-900">An FIR is a serious legal event, but it is not a final verdict.</strong> Under the 2025 legal framework, the Indian system provides robust protections for honest borrowers who are trapped in financial cycles they didn't create.
+                                We have covered the complex landscape of banking FIRs over 5000+ words. The overarching message is clear: <strong className="font-bold text-gray-900">An FIR is a serious legal event, but it is not a final verdict.</strong> Under the 2025 legal framework, the Indian system provides robust protections for honest borrowers who are trapped in financial cycles they didn’t create.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Remember: The bank's power to file an FIR is balanced by the High Court's power to quash it. If you have been targeted with a criminal case for a civil debt, you must act firmly and fast. Cooperate with the investigation, document every communication, and mount a defense based on "Commercial Misfortune" rather than "Criminal Attempt."
+                                Remember: The bank’s power to file an FIR is balanced by the High Court’s power to quash it. If you have been targeted with a criminal case for a civil debt, you must act firmly and fast. Cooperate with the investigation, document every communication, and mount a defense based on "Commercial Misfortune" rather than "Criminal Attempt."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we specialize in the "Exit Strategy." We know that the ultimate goal is to remove the criminal record and resolve the debt. By navigating the intersection of BNS 2025 and RBI guidelines, we help you transition from the fear of a police station to the peace of a debt-free certificate. Don't let the threat of an FIR stop your life. With the right legal support and the facts on your side, you can clear your name and reclaim your financial future.
+                                At CredSettle, we specialize in the "Exit Strategy." We know that the ultimate goal is to remove the criminal record and resolve the debt. By navigating the intersection of BNS 2025 and RBI guidelines, we help you transition from the fear of a police station to the peace of a debt-free certificate. Don’t let the threat of an FIR stop your life. With the right legal support and the facts on your side, you can clear your name and reclaim your financial future.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
@@ -579,9 +579,9 @@ export default function BankFIROnLoanDefaultClient() {
                                     Protect My Future
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 text-left px-1">
-                                    <p>✓ FIR Quashing Support</p>
-                                    <p>✓ Anticipatory Bail Help</p>
-                                    <p>✓ Compound Offense Settlement</p>
+                                    <p>v FIR Quashing Support</p>
+                                    <p>v Anticipatory Bail Help</p>
+                                    <p>v Compound Offense Settlement</p>
                                 </div>
                             </div>
 

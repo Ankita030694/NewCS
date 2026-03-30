@@ -80,7 +80,7 @@ export default function BestAppsClient() {
         },
         {
             question: 'Are loan settlement apps legal in India?',
-            answer: "Yes, loan settlement apps are legal provided they operate as debt mediation or legal service providers. Under the RBI's Digital Lending Directions 2025, any app facilitating debt must be transparent and cannot use illegal recovery tactics. Using a law firm-backed app like AMA Legal Solutions provides an extra layer of legal protection."
+            answer: "Yes, loan settlement apps are legal provided they operate as debt mediation or legal service providers. Under the RBI’s Digital Lending Directions 2025, any app facilitating debt must be transparent and cannot use illegal recovery tactics. Using a law firm-backed app like AMA Legal Solutions provides an extra layer of legal protection."
         },
         {
             question: 'Can an app really stop recovery agent harassment?',
@@ -88,11 +88,11 @@ export default function BestAppsClient() {
         },
         {
             question: 'Do these apps charge a fee for settling loans?',
-            answer: "Most reputable apps charge a service fee, which is usually a percentage of the total debt or a flat success fee. For example, some apps charge 10% to 15% of the total amount saved during the settlement. Always check the fee structure in the app's 'Document Vault' before signing any digital agreement."
+            answer: "Most reputable apps charge a service fee, which is usually a percentage of the total debt or a flat success fee. For example, some apps charge 10% to 15% of the total amount saved during the settlement. Always check the fee structure in the app’s 'Document Vault' before signing any digital agreement."
         },
         {
             question: 'Is my data safe with debt management applications?',
-            answer: "Trustworthy apps use military-grade encryption (AES-256) to protect your loan documents. In 2025, RBI mandates that no digital lending app can access your contacts, gallery, or personal files. Always check if the app is listed on the RBI's central directory of authorized digital lending partners."
+            answer: "Trustworthy apps use military-grade encryption (AES-256) to protect your loan documents. In 2025, RBI mandates that no digital lending app can access your contacts, gallery, or personal files. Always check if the app is listed on the RBI’s central directory of authorized digital lending partners."
         },
         {
             question: 'Can I settle multiple credit cards using one app?',
@@ -340,12 +340,12 @@ export default function BestAppsClient() {
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
                                 <p className="text-indigo-900 font-bold mb-4">🏆 TOP RATED FOR: Legal Representation, Harassment Protection, and Real-Time Settlement Tracking.</p>
                                 <p className="text-gray-700 leading-relaxed font-light">
-                                    AMA Legal Solutions is not just an app; it is a digital gateway to one of India's most respected legal firms specializing in debt and arbitration. In the 2025 landscape, where recovery agents have become more persistent and banking AI filter more aggressive, AMA Legal Solutions provides something that traditional fintech apps cannot: **Legal Authority.**
+                                    AMA Legal Solutions is not just an app; it is a digital gateway to one of India’s most respected legal firms specializing in debt and arbitration. In the 2025 landscape, where recovery agents have become more persistent and banking AI filter more aggressive, AMA Legal Solutions provides something that traditional fintech apps cannot: **Legal Authority.**
                                 </p>
                             </div>
                             <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Features of the AMA App:</h3>
                             <ul className="space-y-4 text-gray-700 mb-8 font-light">
-                                <li><strong>The Harassment Shield:</strong> This is the app's most powerful feature. Once registered, users can upload their advocate appointment letter. AMA then sends formal legal notices to the bank's nodal officers and the RBI Ombudsman. Under current RBI circulars, once you have legal representation, recovery agents are prohibited from making direct contact. The "AMA Shield" has a reported 98% success rate in stopping illegal recovery calls.</li>
+                                <li><strong>The Harassment Shield:</strong> This is the app’s most powerful feature. Once registered, users can upload their advocate appointment letter. AMA then sends formal legal notices to the bank’s nodal officers and the RBI Ombudsman. Under current RBI circulars, once you have legal representation, recovery agents are prohibited from making direct contact. The "AMA Shield" has a reported 98% success rate in stopping illegal recovery calls.</li>
                                 <li><strong>AI Settlement Calculator:</strong> Ever wondered how much a bank is willing to waive? The AMA App uses an AI engine trained on over 50,000 historical settlement cases from banks like HDFC, ICICI, and SBI. You enter your loan details, and the calculator provides a realistic 'Target Settlement Figure,' helping you avoid overpaying during negotiations.</li>
                                 <li><strong>The Document Vault:</strong> Loan papers, settlement sanction letters, and 'No Dues Certificates' (NDC) are critical for your CIBIL recovery. The AMA App provides a military-grade encrypted vault to store these papers, ensuring you never lose your 'proof of freedom.'</li>
                                 <li><strong>Ask Me Anything (AMA) Section:</strong> Borrowers can post legal questions about their debt and get verified answers from advocates within 24 hours - for free. This feature has become a lifeline for those who are confused by the complex legalese of bank notices.</li>
@@ -364,7 +364,7 @@ export default function BestAppsClient() {
 
                             <h2 id="freed-app" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">3. FREED: Professional Debt Resolution</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                FREED's mobile app is built for simplicity and direct action. They focus on "Debt Counseling" and "Personalized Resolution." When you sign up, the app assigns you a dedicated debt counselor who works with you to build a "Settlement Fund."
+                                FREED’s mobile app is built for simplicity and direct action. They focus on "Debt Counseling" and "Personalized Resolution." When you sign up, the app assigns you a dedicated debt counselor who works with you to build a "Settlement Fund."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 The app tracks your progress as you save toward your settlement goal. Once the fund hits a certain threshold, the FREED team initiates negotiations with your lenders. Their 2025 update includes a "CIBIL Health Monitor," which provides tips on how to prevent your score from falling further during the negotiation phase. It is an excellent choice for salaried employees who need a structured, disciplined path out of debt.
@@ -399,7 +399,7 @@ export default function BestAppsClient() {
                                 For those struggling with multiple *high-end* credit cards, CRED is indispensable. Its "Smart Statement" feature analyzes your hidden charges and notifies you of potential overbilling. While CRED focuses on "good" borrowers, its tools for monitoring credit health are top-tier.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                If you are on the verge of defaulting, CRED's alerts can help you identify exactly which card to prioritize to maintain your credit reputation for as long as possible. Their 2025 "Credit Protect" feature monitors the dark web for your financial data, adding an extra layer of security during your debt crisis.
+                                If you are on the verge of defaulting, CRED’s alerts can help you identify exactly which card to prioritize to maintain your credit reputation for as long as possible. Their 2025 "Credit Protect" feature monitors the dark web for your financial data, adding an extra layer of security during your debt crisis.
                             </p>
 
                             <h2 id="walnut" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">8. Walnut: Automatic Expense and Loan Tracker</h2>
@@ -428,7 +428,7 @@ export default function BestAppsClient() {
 
                             <h2 id="rbi-compliance" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">RBI Digital Lending Directions 2025</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                Any app you use in 2025 must comply with the RBI's stringent new rules. These rules are your best defense against predatory "Fake Apps."
+                                Any app you use in 2025 must comply with the RBI’s stringent new rules. These rules are your best defense against predatory "Fake Apps."
                             </p>
                             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
@@ -444,7 +444,7 @@ export default function BestAppsClient() {
                                 Choosing an app depends on your **Stage of Debt.**
                                 <br />- **Stage 1 (Just defaulting):** Use **DebtZero** or **Money View** to try and manage your EMIs without settling.
                                 <br />- **Stage 2 (Harassment started):** Immediately switch to **AMA Legal Solutions** for the Harassment Shield.
-                                <br />- **Stage 3 (Ready to settle):** Use the **AMA App's Calculator** to find your number and then use **SingleDebt** or **FREED** to manage the negotiation process.
+                                <br />- **Stage 3 (Ready to settle):** Use the **AMA App’s Calculator** to find your number and then use **SingleDebt** or **FREED** to manage the negotiation process.
                                 <br />- **Stage 4 (Post-settlement):** Use **JioFinance** or **CRED** to monitor your score recovery.
                             </p>
 
@@ -458,7 +458,7 @@ export default function BestAppsClient() {
                                 Warning: The Play Store is full of "Fake Recovery Helpers."
                                 <br />- **Never pay for "CIBIL deletion":** It is legally impossible.
                                 <br />- **Avoid "Guarantee" Settlements:** No app can guarantee a specific waiver percentage before talking to the bank. 
-                                <br />- **Check the Founder:** Look for apps backed by real companies or law firms. If the app's developer is an individual with a Gmail address, stay away.
+                                <br />- **Check the Founder:** Look for apps backed by real companies or law firms. If the app’s developer is an individual with a Gmail address, stay away.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -495,7 +495,7 @@ export default function BestAppsClient() {
 
                             <div className="mt-12 p-8 bg-blue-600 rounded-3xl text-center text-white">
                                 <h3 className="text-2xl font-bold mb-4 text-white">Ready for a Direct Legal Solution?</h3>
-                                <p className="mb-6 opacity-90">Don't let apps just track your debt let them settle it. Connect with AMA Legal Solutions through CredSettle for a legally-backed, RBI-compliant path to financial freedom.</p>
+                                <p className="mb-6 opacity-90">Don’t let apps just track your debt let them settle it. Connect with AMA Legal Solutions through CredSettle for a legally-backed, RBI-compliant path to financial freedom.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-white text-blue-600 font-bold py-4 px-10 rounded-full hover:bg-gray-100 transition-all shadow-lg"
@@ -524,9 +524,9 @@ export default function BestAppsClient() {
                                     Get My App Match
                                 </Link>
                                 <div className="mt-4 text-xs opacity-75 space-y-1">
-                                    <p>✓ 100% Free Matching</p>
-                                    <p>✓ Legally Verified Apps Only</p>
-                                    <p>✓ NO Data Sharing</p>
+                                    <p>v 100% Free Matching</p>
+                                    <p>v Legally Verified Apps Only</p>
+                                    <p>v NO Data Sharing</p>
                                 </div>
                             </div>
 

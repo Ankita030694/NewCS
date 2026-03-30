@@ -236,10 +236,10 @@ export default function PoonawallaLoanSettlementClient() {
                 In the diverse world of Non-Banking Financial Companies (NBFCs) in India, **Poonawalla Fincorp** has emerged as a dominant player. Known for its quick processing of personal loans, business loans, and professional loans, it caters to a vast demographic of borrowers. However, the ease of obtaining a loan can often be overshadowed by the difficulty of repayment when life takes an unexpected turn. A sudden medical emergency, a business downturn, or a loss of employment can instantly transform a manageable EMI into a source of immense stress.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                For tens of thousands of borrowers, the pressure of mounting dues is compounded by the confusion surrounding the company's identity—many still know it as **Magma Fincorp**. If you are facing default, receiving legal notices, or dealing with aggressive recovery agents from Poonawalla Fincorp, it is crucial to cut through the noise and understand your legal options.
+                For tens of thousands of borrowers, the pressure of mounting dues is compounded by the confusion surrounding the company’s identity-many still know it as **Magma Fincorp**. If you are facing default, receiving legal notices, or dealing with aggressive recovery agents from Poonawalla Fincorp, it is crucial to cut through the noise and understand your legal options.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
-                **CredSettle** is India's leading debt relief platform, dedicated to helping honest borrowers find a dignified exit from the debt trap. We specialize in **Poonawalla Fincorp Loan Settlement**, providing a structured, legal pathway to waive off penal charges and close your loan account for a reduced, affordable amount. This extensive guide will walk you through the history of the lender, the settlement process, your rights against harassment, and how to protect your financial future.
+                **CredSettle** is India’s leading debt relief platform, dedicated to helping honest borrowers find a dignified exit from the debt trap. We specialize in **Poonawalla Fincorp Loan Settlement**, providing a structured, legal pathway to waive off penal charges and close your loan account for a reduced, affordable amount. This extensive guide will walk you through the history of the lender, the settlement process, your rights against harassment, and how to protect your financial future.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
@@ -277,7 +277,7 @@ export default function PoonawallaLoanSettlementClient() {
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-2">3. Borrowing to Pay</h4>
-                  <p className="text-gray-600">You are taking high-interest loans from instant loan apps just to pay the EMI of your Poonawalla loan. This is the classic "debt trap"—digging a new hole to fill an old one.</p>
+                  <p className="text-gray-600">You are taking high-interest loans from instant loan apps just to pay the EMI of your Poonawalla loan. This is the classic "debt trap"-digging a new hole to fill an old one.</p>
                 </div>
               </div>
 
@@ -325,7 +325,7 @@ export default function PoonawallaLoanSettlementClient() {
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">2</span>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Step 2: Buffer Against Harassment</h4>
                   <p className="text-gray-600">
-                    Once you appoint us, we notify Poonawalla Fincorp's collections department. We redirect all recovery calls to our team. If agents continue to harass you, we escalate the matter to the **Principal Nodal Officer (pno@poonawallafincorp.com)** and, if needed, the **RBI Ombudsman**. We ensure your peace of mind is restored.
+                    Once you appoint us, we notify Poonawalla Fincorp’s collections department. We redirect all recovery calls to our team. If agents continue to harass you, we escalate the matter to the **Principal Nodal Officer (pno@poonawallafincorp.com)** and, if needed, the **RBI Ombudsman**. We ensure your peace of mind is restored.
                   </p>
                 </div>
 
@@ -333,7 +333,7 @@ export default function PoonawallaLoanSettlementClient() {
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">3</span>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Step 3: Strategic Negotiation</h4>
                   <p className="text-gray-600">
-                    Our financial experts engage with the settlement officers. We don't just ask for a discount; we build a case. We present your hardship evidence and highlight the cost-benefit analysis to the lender (i.e., immediate settlement vs. long, expensive litigation). We typically aim to waive off all penal interest and negotiate a principal haircut ranging from **30% to 50%**.
+                    Our financial experts engage with the settlement officers. We don’t just ask for a discount; we build a case. We present your hardship evidence and highlight the cost-benefit analysis to the lender (i.e., immediate settlement vs. long, expensive litigation). We typically aim to waive off all penal interest and negotiate a principal haircut ranging from **30% to 50%**.
                   </p>
                 </div>
 
@@ -361,18 +361,18 @@ export default function PoonawallaLoanSettlementClient() {
                   <div>
                     <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">KYC & Loan Info</h5>
                     <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• PAN Card & Aadhaar Card</li>
-                      <li>• Loan Account Number (Poonawalla/Magma)</li>
-                      <li>• Welcome Letter / Sanction Letter</li>
+                      <li>* PAN Card & Aadhaar Card</li>
+                      <li>* Loan Account Number (Poonawalla/Magma)</li>
+                      <li>* Welcome Letter / Sanction Letter</li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">Financial Hardship</h5>
                     <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• Last 6 months Bank Statement</li>
-                      <li>• Termination Letter / Salary Slips</li>
-                      <li>• Medical Records (if applicable)</li>
-                      <li>• Closure of Business Proof</li>
+                      <li>* Last 6 months Bank Statement</li>
+                      <li>* Termination Letter / Salary Slips</li>
+                      <li>* Medical Records (if applicable)</li>
+                      <li>* Closure of Business Proof</li>
                     </ul>
                   </div>
                 </div>
@@ -396,7 +396,7 @@ export default function PoonawallaLoanSettlementClient() {
 
               <h2 id="harassment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Stop Agent Harassment: RBI Guidelines</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Even if you have defaulted, you are a citizen with rights. The RBI's "Fair Practices Code" and the specific circular on **"Recovery Agents - Do's and Don'ts"** protect you.
+                Even if you have defaulted, you are a citizen with rights. The RBI’s "Fair Practices Code" and the specific circular on **"Recovery Agents - Do’s and Don’ts"** protect you.
               </p>
               
               <h3 className="text-xl font-bold text-gray-900 mb-4">You have the right to:</h3>
@@ -404,7 +404,7 @@ export default function PoonawallaLoanSettlementClient() {
                 <li><strong>Privacy:</strong> Agents cannot shame you publicly or call your workplace colleagues to discuss your debt.</li>
                 <li><strong>Decency:</strong> Abusive language, threats, or physical intimidation is a criminal offense.</li>
                 <li><strong>Civil Hours:</strong> Calls and visits are strictly restricted to 08:00 AM to 07:00 PM.</li>
-                <li><strong>Due Process:</strong> You have the right to demand the agent's ID card and authorization letter from Poonawalla Fincorp.</li>
+                <li><strong>Due Process:</strong> You have the right to demand the agent’s ID card and authorization letter from Poonawalla Fincorp.</li>
               </ul>
 
               <h3 className="text-xl font-bold text-gray-900 mb-4">How to Escalate Complaints:</h3>
@@ -423,14 +423,14 @@ export default function PoonawallaLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Ramesh T., Mumbai</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"I had a Magma loan from 2019. After COVID, I couldn't pay. The new agents were very aggressive. CredSettle stepped in, handled the legal notices, and settled the 5 Lakh loan for just 2.1 Lakhs. I am finally free."</p>
+                    <p className="italic text-gray-200 text-sm">"I had a Magma loan from 2019. After COVID, I couldn’t pay. The new agents were very aggressive. CredSettle stepped in, handled the legal notices, and settled the 5 Lakh loan for just 2.1 Lakhs. I am finally free."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Priya S., Delhi</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"Expert handling. They stopped the calls within 48 hours. The settlement letter was genuine, and I verified it with the branch. Highly recommended for anyone stuck with Poonawalla loans."</p>
@@ -466,9 +466,9 @@ export default function PoonawallaLoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Legal Protection</p>
-                  <p className="mt-1">✓ Stop Calls</p>
-                  <p className="mt-1">✓ Save 50%+</p>
+                  <p>v Legal Protection</p>
+                  <p className="mt-1">v Stop Calls</p>
+                  <p className="mt-1">v Save 50%+</p>
                 </div>
               </div>
 

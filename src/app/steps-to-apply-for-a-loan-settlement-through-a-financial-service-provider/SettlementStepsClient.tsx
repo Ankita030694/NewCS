@@ -90,7 +90,7 @@ export default function SettlementStepsClient() {
         },
         {
             question: 'How do I know if the settlement offer from the bank is real?',
-            answer: "Never accept an offer over the phone or email alone. A valid sanction letter must have the bank's letterhead, a digital or physical signature from an authorized officer, a unique reference number, and must clearly state that all future dues are waived."
+            answer: "Never accept an offer over the phone or email alone. A valid sanction letter must have the bank’s letterhead, a digital or physical signature from an authorized officer, a unique reference number, and must clearly state that all future dues are waived."
         },
         {
             question: 'Will a service provider apply for all my loans simultaneously?',
@@ -226,7 +226,7 @@ export default function SettlementStepsClient() {
                         <span className="text-blue-300">Loan Settlement (2025)</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-                        Don't navigate the complex world of debt alone. Follow this expert-designed application process to secure your financial freedom today.
+                        Don’t navigate the complex world of debt alone. Follow this expert-designed application process to secure your financial freedom today.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
                         <Link
@@ -346,7 +346,7 @@ export default function SettlementStepsClient() {
                                 Selecting Your Financial Partner
                             </h2>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed">
-                                Never apply for settlement alone. The power dynamic is too skewed in the bank's favor. Step 2 is about choosing an advocate. In 2025, you have two primary choices: A legal-tech law firm (like AMA Legal Solutions) or a debt management platform (like CredSettle).
+                                Never apply for settlement alone. The power dynamic is too skewed in the bank’s favor. Step 2 is about choosing an advocate. In 2025, you have two primary choices: A legal-tech law firm (like AMA Legal Solutions) or a debt management platform (like CredSettle).
                             </p>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed font-bold">
                                 Look for: 1. RBI Compliance, 2. Fee Transparency, 3. Track Record with your specific bank, and 4. The quality of their "Harassment Shield."
@@ -368,7 +368,7 @@ export default function SettlementStepsClient() {
                                 Harassment Shield
                             </h2>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed">
-                                Once your provider is on board, the first tactical move is to stop the calls. Under Section 10 of the Debt Recovery laws, once you have appointed a legal representative, the bank must cease direct outreach to your home or office. Your provider will issue a 'Notice of Appointment' to the bank's central recovery unit.
+                                Once your provider is on board, the first tactical move is to stop the calls. Under Section 10 of the Debt Recovery laws, once you have appointed a legal representative, the bank must cease direct outreach to your home or office. Your provider will issue a 'Notice of Appointment' to the bank’s central recovery unit.
                             </p>
 
                             <h2 id="step-5-initiation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24 flex items-center gap-4">
@@ -394,7 +394,7 @@ export default function SettlementStepsClient() {
                             </h2>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed text-red-500 font-bold">RULE #1: NEVER PAY WITHOUT A LETTER.</p>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed">
-                                Step 7 is the most critical. You must receive a formal settlement sanction letter directly from the bank's official domain. Your professional service provider will verify the letter's authenticity, ensuring the amount, the date, and the 'No Residual Dues' clause are perfectly drafted.
+                                Step 7 is the most critical. You must receive a formal settlement sanction letter directly from the bank’s official domain. Your professional service provider will verify the letter’s authenticity, ensuring the amount, the date, and the 'No Residual Dues' clause are perfectly drafted.
                             </p>
 
                             <h2 id="step-8-payment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24 flex items-center gap-4">
@@ -402,7 +402,7 @@ export default function SettlementStepsClient() {
                                 Execute Secure Payment
                             </h2>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed">
-                                Payment must be made directly to the bank's loan account. Never pay into a third-party account or an individual's wallet. In 2025, digital transfers from your own verified bank account are preferred. Keep the transaction ID safe, as this is your entry ticket to a debt-free life.
+                                Payment must be made directly to the bank’s loan account. Never pay into a third-party account or an individual’s wallet. In 2025, digital transfers from your own verified bank account are preferred. Keep the transaction ID safe, as this is your entry ticket to a debt-free life.
                             </p>
 
                             <h2 id="step-9-certificates" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24 flex items-center gap-4">
@@ -410,7 +410,7 @@ export default function SettlementStepsClient() {
                                 NDC/NOC Issuance
                             </h2>
                             <p className="text-gray-700 mb-6 font-light leading-relaxed">
-                                Within 15-30 days of payment, the bank must issue a **No Dues Certificate (NDC)**. This is your most valuable financial asset. It is your legal proof that the debt no longer exists. Your professional provider will follow up relentlessly to ensure the bank doesn't "accidentally" forget to issue this.
+                                Within 15-30 days of payment, the bank must issue a **No Dues Certificate (NDC)**. This is your most valuable financial asset. It is your legal proof that the debt no longer exists. Your professional provider will follow up relentlessly to ensure the bank doesn’t "accidentally" forget to issue this.
                             </p>
 
                             <h2 id="step-10-monitoring" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24 flex items-center gap-4">
@@ -427,9 +427,9 @@ export default function SettlementStepsClient() {
                             </p>
                             <div className="bg-blue-900 text-white p-8 rounded-[2rem] mb-10 shadow-lg font-light leading-relaxed">
                                 <ul className="space-y-4">
-                                    <li>• <strong>Policy Transparency:</strong> Banks must have a board-approved settlement policy. They cannot make up rules as they go.</li>
-                                    <li>• <strong>Privacy Protections:</strong> The bank cannot harass your social circle. This is illegal in 2025.</li>
-                                    <li>• <strong>Digital Reporting:</strong> The bank must update the credit bureau within 30 days of settlement completion.</li>
+                                    <li>* <strong>Policy Transparency:</strong> Banks must have a board-approved settlement policy. They cannot make up rules as they go.</li>
+                                    <li>* <strong>Privacy Protections:</strong> The bank cannot harass your social circle. This is illegal in 2025.</li>
+                                    <li>* <strong>Digital Reporting:</strong> The bank must update the credit bureau within 30 days of settlement completion.</li>
                                 </ul>
                             </div>
 
@@ -472,7 +472,7 @@ export default function SettlementStepsClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Ready for Step 01?</h3>
-                                <p className="text-blue-800 mb-6">Our expert panel at CredSettle is ready to perform your forensic financial assessment today. Let's see if you qualify for professional debt relief.</p>
+                                <p className="text-blue-800 mb-6">Our expert panel at CredSettle is ready to perform your forensic financial assessment today. Let’s see if you qualify for professional debt relief.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -499,9 +499,9 @@ export default function SettlementStepsClient() {
                                     Verify Eligibility
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 
@@ -515,7 +515,7 @@ export default function SettlementStepsClient() {
                                         { href: "/how-to-negotiate-a-personal-loan-settlement-with-lenders", text: "Negotiation Strategies" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

@@ -367,7 +367,7 @@ export default function SettleFreeClient() {
                 Key protections include the prohibition of physical or mental harassment, strict calling hours for recovery agents (typically between 8 AM and 7 PM), and the requirement for banks to provide a clear "cooling off" period before taking drastic legal action. The RBI has also made it mandatory for banks to have a clear policy on loan settlement, which should be accessible to the public.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Furthermore, the RBI 2025 guidelines state that banks must not use musclemen for recovery. Agents must carry proper identification and behave in a civilized manner. If an agent visits your home or office without following these protocols, you have the right to record the interaction and report it to the bank's internal grievance cell and the RBI Ombudsman.
+                Furthermore, the RBI 2025 guidelines state that banks must not use musclemen for recovery. Agents must carry proper identification and behave in a civilized manner. If an agent visits your home or office without following these protocols, you have the right to record the interaction and report it to the bank’s internal grievance cell and the RBI Ombudsman.
               </p>
 
               <h2 id="ni-act-vs-pss-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Legal Framework: Section 138 (NI Act) vs Section 25 (PSS Act)</h2>
@@ -406,10 +406,10 @@ export default function SettleFreeClient() {
                 How it works:
               </p>
               <ol className="list-decimal pl-6 mb-6 space-y-3 text-gray-700">
-                <li><strong>Internal Complaint:</strong> First, you MUST file a formal complaint with the bank's own grievance officer.</li>
+                <li><strong>Internal Complaint:</strong> First, you MUST file a formal complaint with the bank’s own grievance officer.</li>
                 <li><strong>Wait:</strong> Wait for 30 days. If the bank does not respond or gives an unsatisfactory reply, you can proceed to the Ombudsman.</li>
                 <li><strong>Online Filing:</strong> Visit the CMS portal (complaint.rbi.org.in) and file your complaint with supporting documents.</li>
-                <li><strong>Mediation:</strong> The Ombudsman's office will review the case and often facilitate a discussion between you and the bank.</li>
+                <li><strong>Mediation:</strong> The Ombudsman’s office will review the case and often facilitate a discussion between you and the bank.</li>
               </ol>
               <p className="text-gray-700 leading-relaxed mb-6">
                 This process is completely free. It is particularly effective if you are facing harassment, if the bank is charging illegal penalties, or if they are refusing to honor a settlement agreement they previously verbalized.
@@ -417,7 +417,7 @@ export default function SettleFreeClient() {
 
               <h2 id="lok-adalat" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Lok Adalat: A Formal Path to Settle Debt</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Lok Adalat (People's Court) is an alternative dispute resolution mechanism in India. It is a forum where disputes pending in the court or at the pre-litigation stage are settled amicably.
+                Lok Adalat (People’s Court) is an alternative dispute resolution mechanism in India. It is a forum where disputes pending in the court or at the pre-litigation stage are settled amicably.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Why Lok Adalat is beneficial for loan settlement:
@@ -464,7 +464,7 @@ export default function SettleFreeClient() {
 
               <h2 id="legal-rights" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Borrower Rights and Legal Safeguards</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                You have the right to a fair hearing. If you are facing financial hardship, you can approach the bank with documented proof. Under the law, if a bank accepts a settlement, they must provide you with a 'No Dues Certificate' or an 'NOC'. This document is your only evidence that the debt is resolved. Always ensure you get this in writing on the bank's official letterhead before making any payment.
+                You have the right to a fair hearing. If you are facing financial hardship, you can approach the bank with documented proof. Under the law, if a bank accepts a settlement, they must provide you with a 'No Dues Certificate' or an 'NOC'. This document is your only evidence that the debt is resolved. Always ensure you get this in writing on the bank’s official letterhead before making any payment.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Other key rights include:
@@ -480,10 +480,10 @@ export default function SettleFreeClient() {
               <ol className="list-decimal pl-6 mb-6 space-y-3 text-gray-700">
                 <li><strong>Assess Your Budget:</strong> Determine the maximum lump sum you can realistically pay. This usually comes from savings, selling assets, or borrowing from family at zero interest.</li>
                 <li><strong>Gather Proof:</strong> Prepare documents showing job loss (termination letter), medical records (hospital bills), or business loss (ITR filings). Evidence of hardship is your biggest leverage.</li>
-                <li><strong>Formal Proposal:</strong> Send a written letter to the bank's nodal officer or branch manager. Avoid phone calls for the initial proposal as they leave no paper trail.</li>
+                <li><strong>Formal Proposal:</strong> Send a written letter to the bank’s nodal officer or branch manager. Avoid phone calls for the initial proposal as they leave no paper trail.</li>
                 <li><strong>Negotiation:</strong> Be patient. The bank will often start by asking for 80% or 90% of the total. A good settlement for an unsecured loan usually lands between 25% and 50% of the outstanding amount.</li>
-                <li><strong>Verify the Letter:</strong> Once an agreement is reached, verify the settlement letter's authenticity. Ensure it mentions that the account will be reported as 'Settled' to credit bureaus and all legal cases will be withdrawn.</li>
-                <li><strong>Payment & NOC:</strong> Pay via official channels (NEFT/RTGS/Cheque) to the bank's account only. Never pay cash to an agent. Collect your NOC immediately.</li>
+                <li><strong>Verify the Letter:</strong> Once an agreement is reached, verify the settlement letter’s authenticity. Ensure it mentions that the account will be reported as 'Settled' to credit bureaus and all legal cases will be withdrawn.</li>
+                <li><strong>Payment & NOC:</strong> Pay via official channels (NEFT/RTGS/Cheque) to the bank’s account only. Never pay cash to an agent. Collect your NOC immediately.</li>
               </ol>
 
               <h2 id="credit-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Long-Term Impact on Your Credit Score</h2>
@@ -499,14 +499,14 @@ export default function SettleFreeClient() {
                 Becoming debt free is the first half. Rebuilding your credit is the second. Here is how you can do it for free:
               </p>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
-                <li><strong>Months 1-3:</strong> Monitor your CIBIL report to ensure the bank has updated the status to 'Settled'. If they haven't, raise a dispute on the CIBIL website.</li>
+                <li><strong>Months 1-3:</strong> Monitor your CIBIL report to ensure the bank has updated the status to 'Settled'. If they haven’t, raise a dispute on the CIBIL website.</li>
                 <li><strong>Months 4-6:</strong> Obtain a 'Secured Credit Card' against a small Fixed Deposit (FD). Use it for tiny transactions and pay back 100% on time every month.</li>
                 <li><strong>Months 7-12:</strong> Consistently pay all utility bills, mobile bills, and your secured card bills on time. Avoid applying for any new unsecured credit during this phase.</li>
               </ul>
 
               <h2 id="success-stories" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Success Stories: Real Results</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                We have seen thousands of borrowers regain their freedom. One client in Bengaluru managed to settle a 10 lakh personal loan for 3.5 lakhs after losing his job during the pandemic. He handled the initial negotiation himself using our guides and only contacted us for final verification of the bank's terms.
+                We have seen thousands of borrowers regain their freedom. One client in Bengaluru managed to settle a 10 lakh personal loan for 3.5 lakhs after losing his job during the pandemic. He handled the initial negotiation himself using our guides and only contacted us for final verification of the bank’s terms.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Another success story involves a small business owner who was drowning in credit card debt. By using the Lok Adalat approach, she was able to settle three different credit cards at a combined discount of 65%. She is now debt free and has restarted her business with a clean slate. These stories prove that while the journey is hard, it is entirely possible to navigate the path to freedom.
@@ -573,8 +573,8 @@ export default function SettleFreeClient() {
                   Talk to a Specialist
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                  <p>✓ RBI Compliant Guidance</p>
-                  <p>✓ 100% Secure & Private</p>
+                  <p>v RBI Compliant Guidance</p>
+                  <p>v 100% Secure & Private</p>
                 </div>
               </div>
 

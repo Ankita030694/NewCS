@@ -228,10 +228,10 @@ export default function BankOfBarodaLoanSettlementClient() {
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Bank of Baroda Settlement: A Public Sector Approach</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  Bank of Baroda (BoB) is one of India's largest Public Sector Undertaking (PSU) banks. Dealing with a PSU bank requires a different strategy compared to private lenders like HDFC or Bajaj Finserv. While private banks are aggressive and quick, PSU banks operate within strict bureaucratic frameworks, following guidelines from the Ministry of Finance and the RBI meticulously.
+                  Bank of Baroda (BoB) is one of India’s largest Public Sector Undertaking (PSU) banks. Dealing with a PSU bank requires a different strategy compared to private lenders like HDFC or Bajaj Finserv. While private banks are aggressive and quick, PSU banks operate within strict bureaucratic frameworks, following guidelines from the Ministry of Finance and the RBI meticulously.
                 </p>
                 <p className="mb-4">
-                   This "bureaucracy" is actually your advantage. Bank of Baroda has mandated policies for loan settlement—specifically the <strong>One Time Settlement (OTS)</strong> schemes and the <strong>Lok Adalat</strong> mechanism—which are designed to be transparent and fair. They cannot arbitrarily reject a valid settlement proposal if it fits their policy grid.
+                   This "bureaucracy" is actually your advantage. Bank of Baroda has mandated policies for loan settlement-specifically the <strong>One Time Settlement (OTS)</strong> schemes and the <strong>Lok Adalat</strong> mechanism-which are designed to be transparent and fair. They cannot arbitrarily reject a valid settlement proposal if it fits their policy grid.
                 </p>
                 <p>
                    Whether you are a farmer struggling with a Kisan Credit Card loan, an MSME owner facing a cash crunch, or a salaried individual with a personal loan, this guide will decode the specific channels you can use to settle your debt with Bank of Baroda in 2026.
@@ -262,7 +262,7 @@ export default function BankOfBarodaLoanSettlementClient() {
               <h2 id="lok-adalat" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Lok Adalat: The Fast Track to Freedom</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  The National Lok Adalat is a highly effective forum for settling Bank of Baroda loans, especially for amounts up to ₹20 Lakhs. It is a "People's Court" organized by the legal services authority to settle disputes amicably.
+                  The National Lok Adalat is a highly effective forum for settling Bank of Baroda loans, especially for amounts up to ₹20 Lakhs. It is a "People’s Court" organized by the legal services authority to settle disputes amicably.
                 </p>
                 <h4 className="font-bold text-gray-800 text-lg mb-2">Why it works for BoB Loans:</h4>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
@@ -281,7 +281,7 @@ export default function BankOfBarodaLoanSettlementClient() {
               <h2 id="agri-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Agriculture Loans & Baroda Kisan Credit Card (BKCC)</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                  <p className="mb-4">
-                    Agricultural loans form a huge chunk of Bank of Baroda's portfolio. If you are a farmer facing crop turnover failure, you have specific protections.
+                    Agricultural loans form a huge chunk of Bank of Baroda’s portfolio. If you are a farmer facing crop turnover failure, you have specific protections.
                  </p>
                  <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200 mb-6">
                     <h5 className="font-bold text-yellow-900 mb-2">Settlement Policies for Farmers</h5>
@@ -362,19 +362,19 @@ export default function BankOfBarodaLoanSettlementClient() {
                   <div>
                     <h4 className="font-bold text-gray-900 mb-4 text-lg">For Individuals</h4>
                     <ul className="space-y-3 text-gray-700">
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> PAN & Aadhar Card</li>
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> Salary Slips / Termination Letter</li>
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> Bank Statements (6 months)</li>
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> Medical records (if applicable)</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> PAN & Aadhar Card</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> Salary Slips / Termination Letter</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> Bank Statements (6 months)</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> Medical records (if applicable)</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-4 text-lg">For Agri & MSME</h4>
                     <ul className="space-y-3 text-gray-700">
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> UDYAM Registration (for MSME)</li>
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> GST Returns showing turnover drop</li>
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> Girdawari / Crop Loss Report (for Agri)</li>
-                      <li className="flex items-start"><span className="text-orange-500 mr-2">•</span> Balance Sheets (last 2 years)</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> UDYAM Registration (for MSME)</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> GST Returns showing turnover drop</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> Girdawari / Crop Loss Report (for Agri)</li>
+                      <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> Balance Sheets (last 2 years)</li>
                     </ul>
                   </div>
                 </div>
@@ -396,7 +396,7 @@ export default function BankOfBarodaLoanSettlementClient() {
                  </div>
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
                     <h5 className="font-bold text-red-900 mb-2">4. Diverting Stock (MSME)</h5>
-                    <p className="text-sm text-red-800">For Cash Credit (CC) limits, if you sell stock and don't route money to the CC account, it's a criminal diversion of funds. Avoid this.</p>
+                    <p className="text-sm text-red-800">For Cash Credit (CC) limits, if you sell stock and don’t route money to the CC account, it’s a criminal diversion of funds. Avoid this.</p>
                  </div>
               </div>
 
@@ -453,8 +453,8 @@ export default function BankOfBarodaLoanSettlementClient() {
                   Get OTS Help
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Check OTS Eligibility</p>
-                  <p className="mt-1">✓ Lok Adalat Support</p>
+                  <p>v Check OTS Eligibility</p>
+                  <p className="mt-1">v Lok Adalat Support</p>
                 </div>
               </div>
 

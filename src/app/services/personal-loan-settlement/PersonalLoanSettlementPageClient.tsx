@@ -28,7 +28,7 @@ export default function PersonalLoanSettlementPageClient() {
     {
       question: 'Will my CIBIL score be affected during the settlement process?',
       answer:
-        'A temporary dip is possible because the account is reported as “settled.” However, this is preferable to a charge-off. We provide a credit rehabilitation roadmap so you can rebuild your score within 12-18 months.'
+        'A temporary dip is possible because the account is reported as "settled." However, this is preferable to a charge-off. We provide a credit rehabilitation roadmap so you can rebuild your score within 12-18 months.'
     },
     {
       question: 'Can CredSettle stop harassment from recovery agents for personal loans?',
@@ -364,7 +364,7 @@ export default function PersonalLoanSettlementPageClient() {
                   lineHeight: '26px'
                 }}
               >
-                Personal loan settlement, officially termed <strong>One-Time Settlement (OTS)</strong>, is a formal debt resolution mechanism recognized by the Reserve Bank of India (RBI). In simple terms, it's a negotiated agreement between you (the borrower) and your lender (bank or NBFC) where you pay a <strong>reduced lump-sum amount</strong> instead of the full outstanding debt to legally close your loan account.
+                Personal loan settlement, officially termed <strong>One-Time Settlement (OTS)</strong>, is a formal debt resolution mechanism recognized by the Reserve Bank of India (RBI). In simple terms, it’s a negotiated agreement between you (the borrower) and your lender (bank or NBFC) where you pay a <strong>reduced lump-sum amount</strong> instead of the full outstanding debt to legally close your loan account.
               </p>
               <p
                 className="text-sm md:text-base lg:text-[15px] leading-relaxed mb-4 pl-11"
@@ -378,7 +378,7 @@ export default function PersonalLoanSettlementPageClient() {
               </p>
               <div className="pl-11 p-4 rounded-xl" style={{ background: 'rgba(0, 122, 255, 0.05)', border: '1px solid rgba(0, 122, 255, 0.15)' }}>
                 <p className="text-sm md:text-base lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
-                  <strong style={{ color: '#007AFF' }}>Key Fact:</strong> Typically, settlement amounts range between <strong>40% to 80%</strong> of your total outstanding debt, meaning you could save <strong>20% to 60%</strong> of what you originally owed. CredSettle's legal team negotiates to secure the lower end of this range, maximizing your savings while ensuring full RBI compliance.
+                  <strong style={{ color: '#007AFF' }}>Key Fact:</strong> Typically, settlement amounts range between <strong>40% to 80%</strong> of your total outstanding debt, meaning you could save <strong>20% to 60%</strong> of what you originally owed. CredSettle’s legal team negotiates to secure the lower end of this range, maximizing your savings while ensuring full RBI compliance.
                 </p>
               </div>
             </div>
@@ -405,7 +405,7 @@ export default function PersonalLoanSettlementPageClient() {
                   lineHeight: '26px'
                 }}
               >
-                Personal loan settlement follows a structured, multi-step process designed to protect both borrowers and lenders. Here's how CredSettle guides you through each stage:
+                Personal loan settlement follows a structured, multi-step process designed to protect both borrowers and lenders. Here’s how CredSettle guides you through each stage:
               </p>
               <div className="pl-11 space-y-4">
                 <div className="flex gap-3">
@@ -413,7 +413,7 @@ export default function PersonalLoanSettlementPageClient() {
                   <div>
                     <h4 className="text-base md:text-lg font-semibold mb-1" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>Financial Assessment & NPA Status Verification</h4>
                     <p className="text-sm md:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
-                      We begin by analyzing your complete financial situation: outstanding loan amount, EMI arrears, interest accumulated, and your current repayment capacity. For most banks to consider OTS, your loan typically needs to be classified as an <strong>NPA (Non-Performing Asset)</strong>, which happens when payments are overdue by <strong>90 days or more</strong>. Our team confirms your loan's classification status and documents your financial hardship.
+                      We begin by analyzing your complete financial situation: outstanding loan amount, EMI arrears, interest accumulated, and your current repayment capacity. For most banks to consider OTS, your loan typically needs to be classified as an <strong>NPA (Non-Performing Asset)</strong>, which happens when payments are overdue by <strong>90 days or more</strong>. Our team confirms your loan’s classification status and documents your financial hardship.
                     </p>
                   </div>
                 </div>
@@ -431,7 +431,7 @@ export default function PersonalLoanSettlementPageClient() {
                   <div>
                     <h4 className="text-base md:text-lg font-semibold mb-1" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>Strategic Negotiation with Your Lender</h4>
                     <p className="text-sm md:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
-                      Our expert negotiators present your case to the lender's recovery or settlement department. We leverage your documented financial hardship, our knowledge of banking policies, and precedent settlements to propose a realistic <strong>reduced lump-sum payment</strong>. The negotiation focuses on achieving the lowest possible settlement amount, typically aiming for 40-60% of the outstanding principal, while ensuring the lender agrees to a complete and permanent debt waiver.
+                      Our expert negotiators present your case to the lender’s recovery or settlement department. We leverage your documented financial hardship, our knowledge of banking policies, and precedent settlements to propose a realistic <strong>reduced lump-sum payment</strong>. The negotiation focuses on achieving the lowest possible settlement amount, typically aiming for 40-60% of the outstanding principal, while ensuring the lender agrees to a complete and permanent debt waiver.
                     </p>
                   </div>
                 </div>
@@ -440,7 +440,7 @@ export default function PersonalLoanSettlementPageClient() {
                   <div>
                     <h4 className="text-base md:text-lg font-semibold mb-1" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>Formal Settlement Agreement & Documentation</h4>
                     <p className="text-sm md:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
-                      Once the lender agrees, we ensure you receive a <strong>written OTS agreement</strong> on the bank's letterhead. This critical document specifies the exact settlement amount, payment deadline, and confirms that upon payment, the loan account will be permanently closed with no future claims. We scrutinize every clause to protect your interests before you make any payment.
+                      Once the lender agrees, we ensure you receive a <strong>written OTS agreement</strong> on the bank’s letterhead. This critical document specifies the exact settlement amount, payment deadline, and confirms that upon payment, the loan account will be permanently closed with no future claims. We scrutinize every clause to protect your interests before you make any payment.
                     </p>
                   </div>
                 </div>
@@ -478,23 +478,23 @@ export default function PersonalLoanSettlementPageClient() {
                   lineHeight: '26px'
                 }}
               >
-                Settlement is not for everyone. It's specifically designed for borrowers facing genuine financial hardship. Consider OTS if you're experiencing:
+                Settlement is not for everyone. It’s specifically designed for borrowers facing genuine financial hardship. Consider OTS if you’re experiencing:
               </p>
               <div className="pl-11 grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
                 <div className="p-4 rounded-lg" style={{ background: 'white', border: '1px solid rgba(0, 122, 255, 0.15)' }}>
-                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>✓ Job Loss or Income Reduction</p>
+                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>v Job Loss or Income Reduction</p>
                   <p className="text-xs" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '18px' }}>Sudden unemployment or significant pay cuts making EMIs unaffordable</p>
                 </div>
                 <div className="p-4 rounded-lg" style={{ background: 'white', border: '1px solid rgba(0, 122, 255, 0.15)' }}>
-                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>✓ Medical Emergencies</p>
+                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>v Medical Emergencies</p>
                   <p className="text-xs" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '18px' }}>Unexpected health crises draining your financial resources</p>
                 </div>
                 <div className="p-4 rounded-lg" style={{ background: 'white', border: '1px solid rgba(0, 122, 255, 0.15)' }}>
-                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>✓ Business Failure</p>
+                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>v Business Failure</p>
                   <p className="text-xs" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '18px' }}>Enterprise closures or losses preventing loan repayment</p>
                 </div>
                 <div className="p-4 rounded-lg" style={{ background: 'white', border: '1px solid rgba(0, 122, 255, 0.15)' }}>
-                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>✓ Multiple Debt Burden</p>
+                  <p className="text-sm font-semibold mb-1" style={{ color: '#007AFF', fontFamily: 'Poppins' }}>v Multiple Debt Burden</p>
                   <p className="text-xs" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '18px' }}>Overwhelmed by several loans with no path to full repayment</p>
                 </div>
               </div>
@@ -522,7 +522,7 @@ export default function PersonalLoanSettlementPageClient() {
                   lineHeight: '26px'
                 }}
               >
-                We believe in complete transparency: <strong>yes, personal loan settlement will impact your credit score in the short term</strong>. Here's exactly what happens and how to recover:
+                We believe in complete transparency: <strong>yes, personal loan settlement will impact your credit score in the short term</strong>. Here’s exactly what happens and how to recover:
               </p>
               <div className="pl-11 p-5 rounded-xl mb-4" style={{ background: 'rgba(255, 152, 0, 0.05)', border: '1px solid rgba(255, 152, 0, 0.2)' }}>
                 <h4 className="text-base font-semibold mb-2" style={{ color: '#FF9800', fontFamily: 'Poppins' }}>Credit Report Status Change</h4>
@@ -537,7 +537,7 @@ export default function PersonalLoanSettlementPageClient() {
               <div className="pl-11 p-5 rounded-xl" style={{ background: 'rgba(76, 175, 80, 0.05)', border: '1px solid rgba(76, 175, 80, 0.2)' }}>
                 <h4 className="text-base font-semibold mb-2" style={{ color: '#4CAF50', fontFamily: 'Poppins' }}>Credit Rehabilitation Path</h4>
                 <p className="text-sm" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '22px' }}>
-                  CredSettle doesn't just settle your debt. We provide <strong>credit rebuilding guidance</strong> to help you recover financially. After settlement, we help you establish responsible financial habits, secure small credit products (like secured credit cards), and demonstrate consistent payment behavior. Over 12-24 months of disciplined financial management, many clients see their credit scores begin recovering. <Link href="/services/credit-score-builder" className="text-blue-600 underline font-medium">Explore our Credit Score Builder service</Link> for structured post-settlement credit rehabilitation.
+                  CredSettle doesn’t just settle your debt. We provide <strong>credit rebuilding guidance</strong> to help you recover financially. After settlement, we help you establish responsible financial habits, secure small credit products (like secured credit cards), and demonstrate consistent payment behavior. Over 12-24 months of disciplined financial management, many clients see their credit scores begin recovering. <Link href="/services/credit-score-builder" className="text-blue-600 underline font-medium">Explore our Credit Score Builder service</Link> for structured post-settlement credit rehabilitation.
                 </p>
               </div>
             </div>
@@ -568,25 +568,25 @@ export default function PersonalLoanSettlementPageClient() {
               </p>
               <div className="pl-11 space-y-3">
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>�, �</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>?, ?</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
                     <strong>Document Release Requirement:</strong> Lenders must release all original property documents within 30 days after settlement payment and remove any registered charges from public registries.
                   </p>
                 </div>
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>�, �</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>?, ?</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
-                    <strong>Harassment Prohibition:</strong> RBI strictly prohibits threatening, abusive, or coercive recovery practices. Recovery agents cannot visit your home at unreasonable hours, contact you outside 7 AM to 7 PM, or threaten legal action they don't intend to pursue.
+                    <strong>Harassment Prohibition:</strong> RBI strictly prohibits threatening, abusive, or coercive recovery practices. Recovery agents cannot visit your home at unreasonable hours, contact you outside 7 AM to 7 PM, or threaten legal action they don’t intend to pursue.
                   </p>
                 </div>
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>�, �</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>?, ?</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
                     <strong>Written Communication Mandate:</strong> All settlement terms must be documented in writing on official letterhead. Verbal promises or agreements have no legal standing. CredSettle ensures every negotiation culminates in formal written agreements.
                   </p>
                 </div>
                 <div className="flex gap-2 items-start">
-                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>�, �</span>
+                  <span className="flex-shrink-0 text-lg" style={{ color: '#007AFF' }}>?, ?</span>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins', lineHeight: '24px' }}>
                     <strong>Transparent Process:</strong> Borrowers have the right to understand the settlement calculation, including how principal, interest, and penalty components are treated. We ensure full transparency at every step.
                   </p>
@@ -598,7 +598,7 @@ export default function PersonalLoanSettlementPageClient() {
             <div className="p-6 rounded-2xl" style={{ background: 'linear-gradient(135deg, rgba(0, 122, 255, 0.08) 0%, rgba(12, 39, 86, 0.08) 100%)', border: '2px solid rgba(0, 122, 255, 0.2)' }}>
               <h3 className="text-lg md:text-xl font-bold mb-3" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>Why CredSettle for Personal Loan Settlement?</h3>
               <p className="text-sm md:text-[15px] leading-relaxed mb-4" style={{ color: 'rgba(12, 39, 86, 0.80)', fontFamily: 'Poppins', lineHeight: '24px' }}>
-                Unlike debt advisory firms that simply provide guidance, <strong>CredSettle takes full legal responsibility for your case</strong>. Our specialized legal team directly negotiates with lenders, stops harassment immediately, and ensures you receive a formal, RBI-compliant OTS that permanently resolves your debt. We've successfully settled <strong>12,500+ personal loans</strong>, reducing over <strong>₹680 crores</strong> in principal debt for our clients.
+                Unlike debt advisory firms that simply provide guidance, <strong>CredSettle takes full legal responsibility for your case</strong>. Our specialized legal team directly negotiates with lenders, stops harassment immediately, and ensures you receive a formal, RBI-compliant OTS that permanently resolves your debt. We’ve successfully settled <strong>12,500+ personal loans</strong>, reducing over <strong>₹680 crores</strong> in principal debt for our clients.
               </p>
               <button
                 className="text-white text-sm md:text-base px-6 py-3 rounded-xl font-medium transition-all hover:shadow-lg justify-center text-center"

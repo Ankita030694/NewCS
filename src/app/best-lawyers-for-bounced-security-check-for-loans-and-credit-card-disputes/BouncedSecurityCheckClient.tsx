@@ -85,7 +85,7 @@ export default function BouncedSecurityCheckClient() {
             name: 'Rajesh Iyer',
             location: 'Chennai',
             stars: 5,
-            comment: 'The focus on 2025 RBI guidelines really helped. My lawyer used those rules to challenge the recovery agent harassment, which significantly weakened the bank\'s case.'
+            comment: 'The focus on 2025 RBI guidelines really helped. My lawyer used those rules to challenge the recovery agent harassment, which significantly weakened the bank’s case.'
         },
         {
             name: 'Suresh Raina',
@@ -394,13 +394,13 @@ export default function BouncedSecurityCheckClient() {
                                     </p>
                                     <ul className="list-disc pl-6 space-y-4 mb-6 text-gray-700">
                                         <li><strong>No Legally Enforceable Debt:</strong> If the loan amount was settled, or if the debt is time barred under the Limitation Act, or if the contract was illegal, no criminal liability arises.</li>
-                                        <li><strong>Material Alteration:</strong> Banks often fill the date and amount on undated security cheques. If this is done without the borrower's written consent or contrary to the agreement, it may constitute a material alteration that voids the instrument.</li>
+                                        <li><strong>Material Alteration:</strong> Banks often fill the date and amount on undated security cheques. If this is done without the borrower’s written consent or contrary to the agreement, it may constitute a material alteration that voids the instrument.</li>
                                         <li><strong>Defective Statutory Notice:</strong> The law requires a very specific type of notice within 30 days of the bounce. If the notice is vague, demands the wrong amount, or is sent late, the entire case can be dismissed on this threshold issue alone.</li>
                                         <li><strong>Payment within 15 Days:</strong> If the borrower makes the payment within 15 days of receiving the legal notice, the cause of action for filing a criminal complaint never arises.</li>
                                         <li><strong>Cheque Misuse for Penal Interest:</strong> If the bank includes exorbitant penal interest, hidden charges, or unfair penalties in the cheque amount, the liability is not 'legally enforceable' in the eyes of Section 138.</li>
                                     </ul>
                                     <p className="text-gray-700 leading-relaxed mb-6">
-                                        Another critical defense in 2025 is the 'Digital Footprint Defense'. With the rise of UPI and digital banking, if you have proof of attempted payments, or correspondence where the bank refused to accept a partial settlement, these can be used to show that the dishonour was not due to a lack of intent to pay, but due to the bank's own uncooperative stance.
+                                        Another critical defense in 2025 is the 'Digital Footprint Defense'. With the rise of UPI and digital banking, if you have proof of attempted payments, or correspondence where the bank refused to accept a partial settlement, these can be used to show that the dishonour was not due to a lack of intent to pay, but due to the bank’s own uncooperative stance.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         Recent rulings from High Courts have also emphasized that the complainant must disclose the source of the funds and the exact nature of the transaction. For private lenders or smaller NBFCs, failure to show a money lending license can also be a lethal defense for the accused.
@@ -419,7 +419,7 @@ export default function BouncedSecurityCheckClient() {
                                         When you receive a legal notice for a credit card security cheque bounce, the first thing you must do is stay calm and read the notice carefully. Check for the date of the bounce and the date of the notice. If more than 30 days passed between these two, the notice is invalid.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
-                                        Your reply should be drafted by a professional. It must explicitly state that the cheque was a 'security instrument' and not for the discharge of a daily debt. You should also contest the amount claimed. Credit card companies frequently add excessive 'late payment fees' and 'over limit fees' that may not be legally enforceable under RBI's Fair Practice Code.
+                                        Your reply should be drafted by a professional. It must explicitly state that the cheque was a 'security instrument' and not for the discharge of a daily debt. You should also contest the amount claimed. Credit card companies frequently add excessive 'late payment fees' and 'over limit fees' that may not be legally enforceable under RBI’s Fair Practice Code.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         In 2025, RBI guidelines for credit cards have become even stricter regarding transparency. If the bank cannot show that they sent regular statements or that they followed the proper internal dispute resolution mechanics before presenting the cheque, their Section 138 complaint becomes highly vulnerable.
@@ -457,13 +457,13 @@ export default function BouncedSecurityCheckClient() {
                                         The Reserve Bank of India has clear guidelines on how banks and NBFCs can use security cheques. The Fair Practice Code for Lenders explicitly prohibits the use of coercive recovery methods. Presenting a security cheque while a dispute is pending, or using it as a threat to force a borrower into an unfair settlement, can be reported to the Banking Ombudsman.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
-                                        For 2025, the RBI has emphasized the 'Rights of the Customer' in cases of default. Banks are required to provide a cooling off period and must inform the customer before taking legal action. If a bank bypassed these steps and directly presented a security cheque, it is a violation of RBI's master circulars.
+                                        For 2025, the RBI has emphasized the 'Rights of the Customer' in cases of default. Banks are required to provide a cooling off period and must inform the customer before taking legal action. If a bank bypassed these steps and directly presented a security cheque, it is a violation of RBI’s master circulars.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         Furthermore, the RBI has regulated the conduct of recovery agents. If you are being threatened with a cheque bounce case by an agent at your home or office, this is a punishable offense under RBI rules. You can use recordings of such threats as evidence in court to show the 'malafide intent' of the lender.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
-                                        Understanding these guidelines allows your lawyer to file counter complaints as well. Sometimes, the threat of an RBI investigation into the bank's practices is enough to make them drop a weak Section 138 case.
+                                        Understanding these guidelines allows your lawyer to file counter complaints as well. Sometimes, the threat of an RBI investigation into the bank’s practices is enough to make them drop a weak Section 138 case.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         Always remember that the RBI views security cheques as collateral, not as a primary mode of recovery. Misusing them as a shortcut to bypass civil recovery laws is frowned upon by the central bank and the judiciary alike.
@@ -512,7 +512,7 @@ export default function BouncedSecurityCheckClient() {
                                     <ol className="list-decimal pl-6 space-y-4 mb-6 text-gray-700">
                                         <li><strong>Document Everything:</strong> Collect your loan agreement, all payment receipts, and every email or message from the bank.</li>
                                         <li><strong>Consult Immediately:</strong> Do not wait for a court date. Get a lawyer to review the legal notice as soon as it arrives.</li>
-                                        <li><strong>Draft a Strong Reply:</strong> Use our experts to point out every flaw in the bank's claim and the security nature of the cheque.</li>
+                                        <li><strong>Draft a Strong Reply:</strong> Use our experts to point out every flaw in the bank’s claim and the security nature of the cheque.</li>
                                         <li><strong>Prepare for Mediation:</strong> Be ready with a realistic settlement offer. Banks prefer money over long trials.</li>
                                         <li><strong>Expose Harassment:</strong> If the bank used recovery agents improperly, file counter complaints to increase your leverage.</li>
                                         <li><strong>Rebut the Presumption:</strong> In court, focus on showing that the debt amount is incorrect or that the cheque was a blank security instrument used without consent.</li>
@@ -524,7 +524,7 @@ export default function BouncedSecurityCheckClient() {
                                         The 2025 legal environment is faster and more digital, but the fundamental principles of justice remain the same. With the right legal partner, you can turn a daunting Section 138 case into a manageable situation that ends in your favor.
                                     </p>
                                     <p className="text-gray-700 leading-relaxed mb-6">
-                                        Protect yourself today. Don't let a bounced security check define your future.
+                                        Protect yourself today. Don’t let a bounced security check define your future.
                                     </p>
                                 </section>
 
@@ -607,7 +607,7 @@ export default function BouncedSecurityCheckClient() {
                                 <div className="relative z-10">
                                     <h3 className="text-2xl font-bold mb-4">Facing a Case?</h3>
                                     <p className="text-blue-100 mb-6 text-sm leading-relaxed opacity-90">
-                                        Connect with India's leading legal experts specializing in Section 138 NI Act and loan disputes. Get a strategic defense plan today.
+                                        Connect with India’s leading legal experts specializing in Section 138 NI Act and loan disputes. Get a strategic defense plan today.
                                     </p>
                                     <Link
                                         href="/contact"

@@ -67,7 +67,7 @@ export default function CompareProgramsPage() {
         name: "Sneha K.",
         location: "Hyderabad",
         rating: 5,
-        text: "Highly recommend CredSettle for comparison. They didn't push me into one path, but explained the CIBIL impact clearly."
+        text: "Highly recommend CredSettle for comparison. They didn’t push me into one path, but explained the CIBIL impact clearly."
     },
     {
         name: "Vikas J.",
@@ -79,7 +79,7 @@ export default function CompareProgramsPage() {
         name: "Anjali T.",
         location: "Gurgaon",
         rating: 5,
-        text: "AMA Legal's shield is worth it if recovery agents are at your door. They gave me the confidence to fight back legally."
+        text: "AMA Legal’s shield is worth it if recovery agents are at your door. They gave me the confidence to fight back legally."
     }
   ];
 
@@ -87,7 +87,7 @@ export default function CompareProgramsPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     'headline': 'Compare Debt Management vs. Settlement Programs in India',
-    'description': 'A comprehensive 5000+ word comparison of India\'s leading debt relief frameworks updated for 2025 regulations.',
+    'description': 'A comprehensive 5000+ word comparison of India’s leading debt relief frameworks updated for 2025 regulations.',
     'image': 'https://www.credsettle.com/compare-programs-guide.jpg',
     'author': {
       '@type': 'Organization',

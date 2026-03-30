@@ -158,7 +158,7 @@ export default function UnionBankLoanSettlementPage() {
           "name": "Amit Deshmukh"
         },
         "datePublished": "2025-10-12",
-        "reviewBody": "CredSettle helped me use the Rinn Samadhan scheme to close my father's old business loan. Very professional.",
+        "reviewBody": "CredSettle helped me use the Rinn Samadhan scheme to close my father’s old business loan. Very professional.",
         "reviewRating": {
           "@type": "Rating",
           "ratingValue": "5"

@@ -326,7 +326,7 @@ export default function CanBankFileCaseClient() {
                                 If you are reading this, chances are you or someone you know is facing financial turbulence and is worried about the consequences of an unpaid personal loan. One of the most haunting questions in this situation is, "Can bank file case for personal loan in India?" The simple answer is yes, banks can and often do file cases to recover their money. However, the nature of these cases, the timeline, and the actual consequences are often shrouded in myth and misinformation, mostly spread by aggressive recovery agents.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Personal loans are "unsecured" debts, meaning you haven't pledged your house, car, or gold as collateral. This lack of security makes banks more nervous and prone to aggressive recovery tactics. But it also means that the legal process they must follow is more complex than a simple asset takeover. In this exhaustive 5000+ word guide, we will strip away the fear and look at the cold hard facts of recovery law in India.
+                                Personal loans are "unsecured" debts, meaning you haven’t pledged your house, car, or gold as collateral. This lack of security makes banks more nervous and prone to aggressive recovery tactics. But it also means that the legal process they must follow is more complex than a simple asset takeover. In this exhaustive 5000+ word guide, we will strip away the fear and look at the cold hard facts of recovery law in India.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We will explore how a civil recovery suit works, what it means when a bank files a 'Summary Suit' under Order 37, and whether a loan default can ever lead to a criminal record. Understanding these nuances is not just about legal trivia; it is about your mental peace and your strategy for financial survival. At CredSettle, we have seen thousands of borrowers transform from being terrified of a legal notice to becoming confident negotiators who can stand their ground against multi-billion dollar banks.
@@ -351,7 +351,7 @@ export default function CanBankFileCaseClient() {
                                 <strong>The Stages of a Civil Suit:</strong>
                                 <br />1. <strong>Filing of Plaint:</strong> The bank’s lawyer files a document called a 'plaint' detailing the loan and the default.
                                 <br />2. <strong>Summons:</strong> The court issues a summons to you. You must receive this and acknowledge it.
-                                <br />3. <strong>Written Statement:</strong> You file your reply, explaining your side, whether it’s a financial crisis or a dispute with the bank's charges.
+                                <br />3. <strong>Written Statement:</strong> You file your reply, explaining your side, whether it’s a financial crisis or a dispute with the bank’s charges.
                                 <br />4. <strong>Issues and Evidence:</strong> The court decides what needs to be proved, and both sides present documents and witnesses.
                                 <br />5. <strong>Decree:</strong> The judge passes a final order. If the bank wins, this is called a 'decree.'
                             </p>
@@ -381,7 +381,7 @@ export default function CanBankFileCaseClient() {
 
                             <h2 id="section-138-ni-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 138 (Cheque Bounce): The Only Sharp Sword</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you gave security cheques to the bank, they might present them even after you default. A 'Dishonored' cheque for a debt is a quasi-criminal offense. The bank sends a 30-day notice, and if you don't pay within 15 days of that notice, they file a criminal complaint.
+                                If you gave security cheques to the bank, they might present them even after you default. A 'Dishonored' cheque for a debt is a quasi-criminal offense. The bank sends a 30-day notice, and if you don’t pay within 15 days of that notice, they file a criminal complaint.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 While this can lead to a bailable warrant, the outcome is almost always a push for settlement. No judge wants to send a person to jail for a personal credit card debt or personal loan unless the person is a 'Wilful Defaulter' with massive hidden assets. Use this knowledge to stay calm; even a Section 138 notice is a negotiation tool, not a jail ticket.
@@ -392,7 +392,7 @@ export default function CanBankFileCaseClient() {
                                 Most personal loan agreements have an <strong>Arbitration Clause.</strong> This allows banks to avoid the slow civil courts. They appoint a private 'Arbitrator' who gives an 'Award.'
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many borrowers ignore arbitration notices, which is a big mistake. A 'Final Award' from an arbitrator can be enforced exactly like a court decree. You have the right to challenge the arbitrator's impartiality and to present your financial hardship. At CredSettle, we help borrowers respond to these notices effectively to prevent ex-parte awards.
+                                Many borrowers ignore arbitration notices, which is a big mistake. A 'Final Award' from an arbitrator can be enforced exactly like a court decree. You have the right to challenge the arbitrator’s impartiality and to present your financial hardship. At CredSettle, we help borrowers respond to these notices effectively to prevent ex-parte awards.
                             </p>
 
                             <h2 id="drt-proceedings" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">DRT Process: High-Value Recovery</h2>
@@ -413,12 +413,12 @@ export default function CanBankFileCaseClient() {
                                 <strong>1. Restricted Hours:</strong> No communication from 7 PM to 8 AM.
                                 <br /><strong>2. Privacy Protection:</strong> No calls to friends, boss, or relatives.
                                 <br /><strong>3. Dignity Rule:</strong> No abusive language, yelling, or public shaming.
-                                <br /><strong>4. Registry:</strong> All agents must be in the bank's official registry.
+                                <br /><strong>4. Registry:</strong> All agents must be in the bank’s official registry.
                             </div>
 
                             <h2 id="asset-attachment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Asset Attachment: What Can They Actually Take?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For an unsecured personal loan, they cannot take your house or car <strong>instantly.</strong> They must win a court case first. Once they have a decree, and you still don't pay, they can file for 'Execution.' Under Section 60 of the CPC, certain things <strong>cannot be attached:</strong> cooking vessels, beds, tools of your trade, and a certain portion of your salary is protected to ensure you can survive. Your primary dwelling house is also often protected under various state laws.
+                                For an unsecured personal loan, they cannot take your house or car <strong>instantly.</strong> They must win a court case first. Once they have a decree, and you still don’t pay, they can file for 'Execution.' Under Section 60 of the CPC, certain things <strong>cannot be attached:</strong> cooking vessels, beds, tools of your trade, and a certain portion of your salary is protected to ensure you can survive. Your primary dwelling house is also often protected under various state laws.
                             </p>
 
                             <h2 id="negotiation-and-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">OTS & Negotiation: The Peaceful Resolution</h2>
@@ -461,7 +461,7 @@ export default function CanBankFileCaseClient() {
                                 So, can bank file case for personal loan? Yes. Is it the end of your life? Absolutely not. The process of legal recovery in India is slow, governed by strict ethics, and designed to encourage resolution over punishment.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you are facing a potential case, don't run away. The more you hide, the more the bank and their agents will corner you. Stand up, know your rights, and use professional help to negotiate a settlement that you can afford. Debt is a financial state, not a moral failing. At CredSettle, we are here to ensure that your journey through this financial storm is guided by law and dignity.
+                                If you are facing a potential case, don’t run away. The more you hide, the more the bank and their agents will corner you. Stand up, know your rights, and use professional help to negotiate a settlement that you can afford. Debt is a financial state, not a moral failing. At CredSettle, we are here to ensure that your journey through this financial storm is guided by law and dignity.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your assets are protected, your dignity is guaranteed by the RBI, and your future is still bright. Stop the fear, stop the harassment, and let us help you settle your personal loan once and for all.
@@ -469,7 +469,7 @@ export default function CanBankFileCaseClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Are You Facing a Personal Loan Case?</h3>
-                                <p className="text-blue-800 mb-6">Don't wait for a court summons or a bailiff at your door. Our legal experts can help you negotiate with the bank, stop harassment, and reach a peaceful settlement today.</p>
+                                <p className="text-blue-800 mb-6">Don’t wait for a court summons or a bailiff at your door. Our legal experts can help you negotiate with the bank, stop harassment, and reach a peaceful settlement today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -492,7 +492,7 @@ export default function CanBankFileCaseClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Shield</h4>
-                                <p className="text-sm text-gray-600 mb-6">Get a professional legal reply to your bank's notice and stop the fear of court cases today.</p>
+                                <p className="text-sm text-gray-600 mb-6">Get a professional legal reply to your bank’s notice and stop the fear of court cases today.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -500,9 +500,9 @@ export default function CanBankFileCaseClient() {
                                     Free Case Evaluation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ 18,000+ Cases Settled</p>
-                                    <p>✓ RBI Ombudsman Support</p>
-                                    <p>✓ Professional Legal Reply</p>
+                                    <p>v 18,000+ Cases Settled</p>
+                                    <p>v RBI Ombudsman Support</p>
+                                    <p>v Professional Legal Reply</p>
                                 </div>
                             </div>
 

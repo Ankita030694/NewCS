@@ -113,15 +113,15 @@ export default function IDFCLoanSettlementClient() {
     },
     {
         question: "Can IDFC initiate arbitration during settlement talks?",
-        answer: "Yes, arbitration proceedings are standard for banks to secure a legal order for recovery. However, engaging a professional settlement firm like CredSettle often puts a hold on these aggressive legal steps as we open a formal channel of negotiation with the bank's legal officers."
+        answer: "Yes, arbitration proceedings are standard for banks to secure a legal order for recovery. However, engaging a professional settlement firm like CredSettle often puts a hold on these aggressive legal steps as we open a formal channel of negotiation with the bank’s legal officers."
     },
     {
         question: "Is the settlement amount payable in installments?",
         answer: "While a One Time Settlement (OTS) usually implies a single bullet payment, IDFC First Bank may legally allow splitting the settlement amount into 2-3 monthly installments in exceptional cases, though this might slightly reduce the discount percentage offered."
     },
     {
-        question: "What happens to the 'Write-off' amount in the bank's books?",
-        answer: "The difference between your total outstanding and the settlement amount is treated as a 'loss' or 'write-off' in the bank's P&L statement. This is why they require strong proof of hardship—to justify this financial loss to their auditors."
+        question: "What happens to the 'Write-off' amount in the bank’s books?",
+        answer: "The difference between your total outstanding and the settlement amount is treated as a 'loss' or 'write-off' in the bank’s P&L statement. This is why they require strong proof of hardship-to justify this financial loss to their auditors."
     },
     {
         question: "Does CredSettle handle the IDFC 'Consumer Durable' loan settlements?",
@@ -276,7 +276,7 @@ export default function IDFCLoanSettlementClient() {
 
               <h2 id="credit-card" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">IDFC Credit Card OTS Specifics</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Settling credit cards like the **IDFC First Millennia**, **Classic**, or **Select** differs from loan settlements. Credit card debt is comprised heavily of non-principal components—interest, late fees, and over-limit charges.
+                Settling credit cards like the **IDFC First Millennia**, **Classic**, or **Select** differs from loan settlements. Credit card debt is comprised heavily of non-principal components-interest, late fees, and over-limit charges.
               </p>
               <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 p-6 rounded-2xl mb-10 border border-gray-200">
                 <div className="flex-1">
@@ -319,7 +319,7 @@ export default function IDFCLoanSettlementClient() {
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                     Wilful Default Clearance
                   </h4>
-                  <p className="text-gray-600 text-sm">You must not be categorized as a wilful defaulter—someone who *can* pay but *won&apos;t*.</p>
+                  <p className="text-gray-600 text-sm">You must not be categorized as a wilful defaulter-someone who *can* pay but *won&apos;t*.</p>
                 </div>
               </div>
 

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'How to Settle Loan Legally in India',
-    description: 'Don\'t panic. Learn the step-by-step process to settle your loan and become debt-free legally.',
+    description: 'Don’t panic. Learn the step-by-step process to settle your loan and become debt-free legally.',
     type: 'article',
     url: 'https://credsettle.com/how-to-settle-loan',
     images: [

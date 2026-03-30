@@ -108,7 +108,7 @@ export default function FibeLoanSettlementPage() {
     },
     {
       question: "How do I stop harassment from Fibe recovery agents?",
-      answer: "Recovery agents are bound by RBI guidelines which prohibit harassment, abusive language, and calling at odd hours (before 8 AM or after 7 PM). If you are being harassed, you can file a complaint with Fibe's grievance redressal officer. Engaging a legal settlement firm like CredSettle can also help, as we take over the communication and ensure professional conduct."
+      answer: "Recovery agents are bound by RBI guidelines which prohibit harassment, abusive language, and calling at odd hours (before 8 AM or after 7 PM). If you are being harassed, you can file a complaint with Fibe’s grievance redressal officer. Engaging a legal settlement firm like CredSettle can also help, as we take over the communication and ensure professional conduct."
     },
     {
       question: "What documents do I need for Fibe loan settlement?",
@@ -116,7 +116,7 @@ export default function FibeLoanSettlementPage() {
     },
     {
       question: "How long does the Fibe loan settlement process take?",
-      answer: "The entire process, from the initial proposal to the final closure, typically takes between 2 to 4 weeks. This timeline can vary based on how quickly the documents are submitted and the speed of the internal approvals at Fibe's end."
+      answer: "The entire process, from the initial proposal to the final closure, typically takes between 2 to 4 weeks. This timeline can vary based on how quickly the documents are submitted and the speed of the internal approvals at Fibe’s end."
     },
     {
       question: "Can I get a loan in the future after settling my Fibe loan?",

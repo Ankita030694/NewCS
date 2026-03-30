@@ -100,7 +100,7 @@ export default function SettlementTimelineClient() {
         },
         {
             question: 'How long does it take to get the Settlement Offer Letter?',
-            answer: 'Once a deal is verbally agreed, it usually takes 3 to 7 working days to receive the formal settlement letter on the bank\'s letterhead. Never make a payment without this letter.'
+            answer: 'Once a deal is verbally agreed, it usually takes 3 to 7 working days to receive the formal settlement letter on the bank’s letterhead. Never make a payment without this letter.'
         },
         {
             question: 'Does an installment settlement take longer?',
@@ -120,7 +120,7 @@ export default function SettlementTimelineClient() {
         },
         {
             question: 'How long should I wait before following up on a pending offer?',
-            answer: 'A follow-up every 48-72 hours is recommended during active negotiations. If a bank doesn\'t respond for over 10 days, the internal "settlement approval" window might have expired.'
+            answer: 'A follow-up every 48-72 hours is recommended during active negotiations. If a bank doesn’t respond for over 10 days, the internal "settlement approval" window might have expired.'
         },
         {
             question: 'Does settlement time vary for Credit Cards vs Personal Loans?',
@@ -303,15 +303,15 @@ export default function SettlementTimelineClient() {
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Trying to settle before Day 90 is usually a futile exercise. The bank\'s systems are geared toward "Regularization" rather than "Settlement" during this phase. They will insist on you paying at least 2 EMIs to keep the account from turning NPA. For a successful 50-70% waiver, you must have the stomach to navigate these 90 days of intense collection noise. 
+                                Trying to settle before Day 90 is usually a futile exercise. The bank’s systems are geared toward "Regularization" rather than "Settlement" during this phase. They will insist on you paying at least 2 EMIs to keep the account from turning NPA. For a successful 50-70% waiver, you must have the stomach to navigate these 90 days of intense collection noise. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                During this phase, professional debt settlement companies focus on "Harassment Mitigation." This involves redirecting calls and ensuring that the collection agents adhere to the RBI\'s Fair Practice Code. We will also discuss the concept of "Strategic Default" versus "Hardship Default" and how the bank perceives your timeline based on your communication during these first three months.
+                                During this phase, professional debt settlement companies focus on "Harassment Mitigation." This involves redirecting calls and ensuring that the collection agents adhere to the RBI’s Fair Practice Code. We will also discuss the concept of "Strategic Default" versus "Hardship Default" and how the bank perceives your timeline based on your communication during these first three months.
                             </p>
 
                             <h2 id="negotiation-window" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Step 2: The Golden Negotiation Window (Day 90 to 180)</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Once the account is an NPA, you enter the <strong>Golden Window for Settlement.</strong> This is the 3 to 6-month period after the first default. Internally, the bank has moved the file from the "Collection Department" to the "Recovery Department." The recovery team has different targets—they are not judged on how many EMIs they collect, but on how many "Bad Files" they close.
+                                Once the account is an NPA, you enter the <strong>Golden Window for Settlement.</strong> This is the 3 to 6-month period after the first default. Internally, the bank has moved the file from the "Collection Department" to the "Recovery Department." The recovery team has different targets-they are not judged on how many EMIs they collect, but on how many "Bad Files" they close.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 This phase is where the most intense bargaining happens. A typical negotiation timeline within this window looks like this:
@@ -331,7 +331,7 @@ export default function SettlementTimelineClient() {
                                 If your loan is with an NBFC or a Fintech lender, the timeline can be as short as 15-20 days. These organizations are agile and have decentralized decision-making. However, if you are dealing with a Public Sector Bank (PSB) like SBI or PNB, prepare for a <strong>3-month marathon.</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                PSBs require "Committee Approvals." Your file must be vetted by a recovery officer, then the branch manager, then potentially a regional committee. They are terrified of "Audit Objections," so they follow a meticulous (and slow) process of checking if you have any other assets. Understanding this "Audit Culture" helps you realize that their delay is not a "No"—it is just bureaucracy.
+                                PSBs require "Committee Approvals." Your file must be vetted by a recovery officer, then the branch manager, then potentially a regional committee. They are terrified of "Audit Objections," so they follow a meticulous (and slow) process of checking if you have any other assets. Understanding this "Audit Culture" helps you realize that their delay is not a "No"-it is just bureaucracy.
                             </p>
 
                             <h2 id="settlement-letter-cycle" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">The Mailing Cycle: Getting it in Writing</h2>
@@ -343,7 +343,7 @@ export default function SettlementTimelineClient() {
                             </p>
                             <h2 id="installment-vs-lumpsum" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Step 4: Payment Structures and the Resolution Clock</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Once the "Settlement Offer Letter" is in your hand, you face an important choice: <strong>Lump Sum or Installments?</strong> This decision doesn\'t just affect your wallet; it dictates the final checkbox on your "Debt-Free" calendar. In 2025, banks are becoming more flexible with timelines, but they charge a "Time Premium" for installments.
+                                Once the "Settlement Offer Letter" is in your hand, you face an important choice: <strong>Lump Sum or Installments?</strong> This decision doesn’t just affect your wallet; it dictates the final checkbox on your "Debt-Free" calendar. In 2025, banks are becoming more flexible with timelines, but they charge a "Time Premium" for installments.
                             </p>
                             <ul className="space-y-6 text-gray-700 list-none font-light mb-10">
                                 <li className="p-8 bg-green-50 rounded-3xl border border-green-100">
@@ -363,7 +363,7 @@ export default function SettlementTimelineClient() {
 
                             <h2 id="post-settlement-noc" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Step 5: Closing Formalities: The Final Administrative Mile</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                After your final payment clears the bank\'s system, you enter the <strong>Final Administrative Mile.</strong> Many borrowers think they are "done" the moment they swipe their card or send the NEFT. In reality, you are not legally safe until you have the **No Dues Certificate (NDC)** or **No Objection Certificate (NOC)** on the bank\'s physical letterhead.
+                                After your final payment clears the bank’s system, you enter the <strong>Final Administrative Mile.</strong> Many borrowers think they are "done" the moment they swipe their card or send the NEFT. In reality, you are not legally safe until you have the **No Dues Certificate (NDC)** or **No Objection Certificate (NOC)** on the bank’s physical letterhead.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 In 2025, most private banks issue a digital NOC within 48 hours, but PSU banks can take 15 to 45 days. This delay is often due to "System Reconciliation." The recovery department must tell the operations department that the loan is closed, and then the legal department must be told to "Release any charges" (in case of secured loans). If you have a car loan or home loan, the "Release of Hypothecation" or "Return of Title Deeds" is a separate timeline that can add another 30-60 days to the process.
@@ -374,7 +374,7 @@ export default function SettlementTimelineClient() {
 
                             <h2 id="cibil-recovery-time" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Step 6: Credit Healing: The 24-Month Recovery Timeline</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Your relationship with the credit world doesn\'t end with the settlement; it re-starts. Lenders typically report data to CIBIL once a month. It usually takes <strong>45 to 60 days</strong> after your NOC for the "Settled" status to appear on your credit report. This status will immediately drop your score by 50-100 points.
+                                Your relationship with the credit world doesn’t end with the settlement; it re-starts. Lenders typically report data to CIBIL once a month. It usually takes <strong>45 to 60 days</strong> after your NOC for the "Settled" status to appear on your credit report. This status will immediately drop your score by 50-100 points.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 The 2025 landscape for "Post-Settlement Lending" is better than before, thanks to "Alternative Data Credit Scoring." However, a <strong>24-month healing period</strong> is standard. You should not apply for ANY credit for at least 6 months after settlement. From Month 7, you should start the "Credit Ladder" using secured cards. We provide a month-by-month table on how to move from a 500 score to 750+, including the types of "Stepup Loans" that are friendly to settled borrowers.
@@ -388,17 +388,17 @@ export default function SettlementTimelineClient() {
                                 <ul className="space-y-6 text-red-900">
                                     <li><strong>The "Co-Borrower Constant":</strong> If you have a co-applicant who is uncooperative, the bank will refuse to settle. Resolving co-borrower disputes adds 4-8 weeks.</li>
                                     <li><strong>Asset Reconstruction Companies (ARCs):</strong> If your loan was sold to an ARC (like Phoenix or JM Financial), the timeline increases because the ARC must "Ingest" the data from the old bank before they can negotiate.</li>
-                                    <li><strong>Litigation Locks:</strong> If the bank has already filed a Section 138 case, the settlement is contingent on the "Quashing of the Case." This depends on the local court\'s "Date of Hearing," which could be 3 months away.</li>
+                                    <li><strong>Litigation Locks:</strong> If the bank has already filed a Section 138 case, the settlement is contingent on the "Quashing of the Case." This depends on the local court’s "Date of Hearing," which could be 3 months away.</li>
                                     <li><strong>Holiday and Audit Seasons:</strong> Settlements initiated in April (start of financial year) move 50% slower than those initiated in February or March.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                This section provides a "Delay Identification" tool to help you understand if your bank is genuinely slow or if they are "Ghosting" you to see if you will break and pay the full amount. We explain the "Escalation Matrix"—knowing when to call the Regional Recovery Manager to unblock a stuck file.
+                                This section provides a "Delay Identification" tool to help you understand if your bank is genuinely slow or if they are "Ghosting" you to see if you will break and pay the full amount. We explain the "Escalation Matrix"-knowing when to call the Regional Recovery Manager to unblock a stuck file.
                             </p>
 
                             <h2 id="strategic-acceleration" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Strategic Acceleration: How to Speed Up?</h2>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                To shave weeks off your timeline: 1. Have your liquid cash ready BEFORE initiating talks. 2. Use a professional negotiator who knows the bank\'s internal structure. 3. Settle in the month of March. 4. Communicate via Email (avoid phone calls) to have an audit trail that speeds up internal approvals.
+                                To shave weeks off your timeline: 1. Have your liquid cash ready BEFORE initiating talks. 2. Use a professional negotiator who knows the bank’s internal structure. 3. Settle in the month of March. 4. Communicate via Email (avoid phone calls) to have an audit trail that speeds up internal approvals.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-10 scroll-mt-14">Voices of Resolution</h2>
@@ -422,7 +422,7 @@ export default function SettlementTimelineClient() {
                                     <details key={index} className="group p-6 bg-gray-50 rounded-2xl border border-gray-100 transition-colors hover:bg-white shadow-sm">
                                         <summary className="flex justify-between items-center cursor-pointer list-none font-bold text-gray-800 text-lg group-hover:text-blue-600 transition-colors">
                                             {faq.question}
-                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">▼</span>
+                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">v</span>
                                         </summary>
                                         <p className="mt-6 text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </details>
@@ -434,7 +434,7 @@ export default function SettlementTimelineClient() {
                                 To conclude, a debt settlement typically takes **2 to 4 months** if you are strategically prepared. While the first 90 days are the most stressful due to collection noise, the subsequent 90 days are where the real financial savings occur. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                Don\'t rush into a bad deal in the first month. Use the timeline to your advantage. By the time your account hits the "Golden Window," you will have the leverage to walk away with a 50%+ waiver and a clean legal slate.
+                                Don’t rush into a bad deal in the first month. Use the timeline to your advantage. By the time your account hits the "Golden Window," you will have the leverage to walk away with a 50%+ waiver and a clean legal slate.
                             </p>
 
                             {/* Final CTA */}
@@ -461,7 +461,7 @@ export default function SettlementTimelineClient() {
                             {/* Timeline CTA */}
                             <div className="bg-gradient-to-tr from-blue-700 to-blue-900 p-10 rounded-[2.5rem] shadow-2xl text-white border border-blue-600">
                                 <h4 className="font-bold text-2xl mb-4 border-b border-blue-400 pb-2">March Special</h4>
-                                <p className="text-xs text-blue-100 mb-8 font-light italic">"Final 2 weeks of March are the fastest for approvals. Let\'s close your debt now!"</p>
+                                <p className="text-xs text-blue-100 mb-8 font-light italic">"Final 2 weeks of March are the fastest for approvals. Let’s close your debt now!"</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-white text-blue-800 font-black py-4 rounded-2xl hover:bg-blue-50 transition-all text-center uppercase tracking-widest text-[10px]"
@@ -481,7 +481,7 @@ export default function SettlementTimelineClient() {
                                         { href: "/how-to-ask-bank-for-settlement", text: "Negotiation Tips" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start gap-3">
-                                            <span className="text-blue-600 font-black group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 font-black group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-500 font-semibold group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

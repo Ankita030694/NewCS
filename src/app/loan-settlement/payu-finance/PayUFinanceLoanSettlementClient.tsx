@@ -107,7 +107,7 @@ export default function PayUFinanceLoanSettlementClient() {
     },
     {
       question: "Recovery agents are harassing my family. What can I do?",
-      answer: "Harassment by recovery agents (calling at odd hours, using abusive language, threatening relatives) is a violation of RBI's Fair Practices Code. You should immediately file a complaint with PayU's Principal Nodal Officer (Mrs. Bhavana Bharat). If you hire CredSettle, we send a legal notice of representation to PayU, which legally compels them to stop contacting you directly and route communications through us."
+      answer: "Harassment by recovery agents (calling at odd hours, using abusive language, threatening relatives) is a violation of RBI’s Fair Practices Code. You should immediately file a complaint with PayU’s Principal Nodal Officer (Mrs. Bhavana Bharat). If you hire CredSettle, we send a legal notice of representation to PayU, which legally compels them to stop contacting you directly and route communications through us."
     },
     {
       question: "Who is the Nodal Officer for PayU Finance / LazyPay?",
@@ -246,10 +246,10 @@ export default function PayUFinanceLoanSettlementClient() {
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Comprehensive Guide to PayU Finance & LazyPay Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                In the rapidly evolving landscape of Indian fintech, <strong>PayU Finance India Private Limited</strong> has emerged as a dominant player, particularly through its popular products like <strong>LazyPay</strong> (Buy Now Pay Later) and <strong>XpressLoans</strong> (Personal Loans). While these instant credit facilities offer unparalleled convenience—allowing users to shop on platforms like Swiggy, Zomato, and various e-commerce sites with a single tap—they have also led to a significant rise in consumer debt.
+                In the rapidly evolving landscape of Indian fintech, <strong>PayU Finance India Private Limited</strong> has emerged as a dominant player, particularly through its popular products like <strong>LazyPay</strong> (Buy Now Pay Later) and <strong>XpressLoans</strong> (Personal Loans). While these instant credit facilities offer unparalleled convenience-allowing users to shop on platforms like Swiggy, Zomato, and various e-commerce sites with a single tap-they have also led to a significant rise in consumer debt.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                For many borrowers, what starts as a small "Buy Now Pay Later" limit of ₹1,500 can quickly spiral into a personal loan liability of lakhs. The ease of access, coupled with high interest rates (often ranging from 24% to 36% or more annually) and confusing "late fee" structures, often traps individuals in a debt cycle. When a financial crisis hits—be it a job loss, a medical emergency, or simply over-leverage—repayment becomes impossible.
+                For many borrowers, what starts as a small "Buy Now Pay Later" limit of ₹1,500 can quickly spiral into a personal loan liability of lakhs. The ease of access, coupled with high interest rates (often ranging from 24% to 36% or more annually) and confusing "late fee" structures, often traps individuals in a debt cycle. When a financial crisis hits-be it a job loss, a medical emergency, or simply over-leverage-repayment becomes impossible.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 If you are currently defaulting on your PayU Finance or LazyPay dues, you are likely facing aggressive recovery actions, including incessant calls from agents and threats of legal action. However, there is a legal and dignified way out. <strong>PayU Finance Loan Settlement</strong> is a structured process where you can negotiate with the lender to close your account for a reduced lump sum amount. This guide serves as your definitive resource on how to navigate this process, stop harassment, and achieve financial freedom.
@@ -258,7 +258,7 @@ export default function PayUFinanceLoanSettlementClient() {
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
                 <h4 className="font-bold text-blue-900 mb-2">The CredSettle Assurance</h4>
                 <p className="text-blue-800 m-0">
-                  Navigating the "100% online" collections ecosystem of digital lenders like PayU can be confusing. CredSettle bridges the gap. We don't just negotiate; we protect your rights against digital harassment and ensure that every document you receive—from the Settlement Letter to the No Dues Certificate—is legally watertight.
+                  Navigating the "100% online" collections ecosystem of digital lenders like PayU can be confusing. CredSettle bridges the gap. We don’t just negotiate; we protect your rights against digital harassment and ensure that every document you receive-from the Settlement Letter to the No Dues Certificate-is legally watertight.
                 </p>
               </div>
 
@@ -310,7 +310,7 @@ export default function PayUFinanceLoanSettlementClient() {
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">1. Non-Performing Asset (NPA) Status</h4>
                     <p className="mt-2 text-gray-600">
-                      Ideally, your account should be in the NPA category, which generally happens after <strong>90 days of non-payment</strong>. Before this period, the lender's primary focus is full recovery and regularization of the account. Once it crosses 90 days (or sometimes 60 days for digital lenders), they are more open to "salvaging" the principal through settlement.
+                      Ideally, your account should be in the NPA category, which generally happens after <strong>90 days of non-payment</strong>. Before this period, the lender’s primary focus is full recovery and regularization of the account. Once it crosses 90 days (or sometimes 60 days for digital lenders), they are more open to "salvaging" the principal through settlement.
                     </p>
                   </div>
                 </div>
@@ -324,7 +324,7 @@ export default function PayUFinanceLoanSettlementClient() {
                   <div className="ml-4">
                     <h4 className="text-lg font-bold text-gray-900">2. Demonstrable Financial Hardship</h4>
                     <p className="mt-2 text-gray-600">
-                      You cannot settle just because you "don't want" to pay. You must prove inability to pay. Valid hardships include:
+                      You cannot settle just because you "don’t want" to pay. You must prove inability to pay. Valid hardships include:
                     </p>
                     <ul className="list-disc pl-5 mt-2 text-sm text-gray-500 space-y-1">
                       <li><strong>Loss of Employment:</strong> Termination letter or resignation proof.</li>
@@ -364,7 +364,7 @@ export default function PayUFinanceLoanSettlementClient() {
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-gray-300 rounded-full border-4 border-white"></span>
                   <h4 className="font-bold text-gray-900">Step 2: Legal Representation Notice</h4>
-                  <p className="text-sm text-gray-600 mt-1">We send a formal notice to PayU Finance's collections department and Nodal Officer, informing them of your hardship and our representation. This formally requests them to direct all communication to us.</p>
+                  <p className="text-sm text-gray-600 mt-1">We send a formal notice to PayU Finance’s collections department and Nodal Officer, informing them of your hardship and our representation. This formally requests them to direct all communication to us.</p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-gray-300 rounded-full border-4 border-white"></span>
@@ -379,7 +379,7 @@ export default function PayUFinanceLoanSettlementClient() {
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-gray-300 rounded-full border-4 border-white"></span>
                   <h4 className="font-bold text-gray-900">Step 5: Payment & Closure</h4>
-                  <p className="text-sm text-gray-600 mt-1">You make the payment directly to PayU's official bank account (NEVER to a UPI ID sent by an agent). Within 15-20 days, a <strong>No Dues Certificate (NDC)</strong> is issued, confirming the loan is closed.</p>
+                  <p className="text-sm text-gray-600 mt-1">You make the payment directly to PayU’s official bank account (NEVER to a UPI ID sent by an agent). Within 15-20 days, a <strong>No Dues Certificate (NDC)</strong> is issued, confirming the loan is closed.</p>
                 </div>
               </div>
 
@@ -418,7 +418,7 @@ export default function PayUFinanceLoanSettlementClient() {
 
               <h2 id="nodal-officer" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Grievance Redressal: Stopping the Harassment</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                One of the biggest complaints against fintech lenders is harassment—abusive calls, calling relatives/friends, or threatening messages on WhatsApp. <strong>This is illegal.</strong> The RBI has laid out clear strictures against such practices. If you are a victim, you must escalate the issue immediately.
+                One of the biggest complaints against fintech lenders is harassment-abusive calls, calling relatives/friends, or threatening messages on WhatsApp. <strong>This is illegal.</strong> The RBI has laid out clear strictures against such practices. If you are a victim, you must escalate the issue immediately.
               </p>
               
               <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm mb-10">
@@ -471,29 +471,29 @@ export default function PayUFinanceLoanSettlementClient() {
               <ul className="list-disc pl-6 space-y-4 mb-8 text-gray-700">
                  <li><strong>'Settled' Status:</strong> When you pay a reduced amount, PayU Finance will report the account status as "Settled" (and not "Closed"). This indicates to future lenders that you did not repay the full obligation.</li>
                  <li><strong>Score Drop:</strong> You can expect a drop of 50-100 points, depending on your previous history.</li>
-                 <li><strong>The Alternative is Worse:</strong> If you do not settle and stay in default, the status will show as "Written Off" or "Wilful Default" with a "Suit Filed" status if legal action is taken. This is a permanent black mark. A "Settled" status is a "yellow flag"—it's bad, but it stops the damage.</li>
+                 <li><strong>The Alternative is Worse:</strong> If you do not settle and stay in default, the status will show as "Written Off" or "Wilful Default" with a "Suit Filed" status if legal action is taken. This is a permanent black mark. A "Settled" status is a "yellow flag"-it’s bad, but it stops the damage.</li>
                  <li><strong>Recovery Path:</strong> After settlement, you are debt-free. You can immediately start rebuilding your score using secured credit cards (like FD-backed cards) or gold loans. Most clients see their score recover to 750+ within 24-36 months of disciplined behavior post-settlement.</li>
               </ul>
 
               <h2 id="why-credsettle" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why Choose CredSettle?</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                You might ask, "Why can't I just email them myself?" You can. But dealing with institutional lenders and trained recovery agents requires expertise. Here is the CredSettle difference:
+                You might ask, "Why can’t I just email them myself?" You can. But dealing with institutional lenders and trained recovery agents requires expertise. Here is the CredSettle difference:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">🛡️ Shield Against Harassment</h5>
+                  <h5 className="font-bold text-gray-900 mb-2">[Protection] Shield Against Harassment</h5>
                   <p className="text-sm text-gray-600">We redirect agent calls to our legal team. We file official grievances for every instance of abuse, forcing the lender to back down.</p>
                 </div>
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">💰 Institutional Negotiation</h5>
+                  <h5 className="font-bold text-gray-900 mb-2">[Money] Institutional Negotiation</h5>
                   <p className="text-sm text-gray-600">We settle hundreds of cases monthly. Lenders know us. We often secure waivers (40-60%) that individual borrowers rarely get.</p>
                 </div>
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">⚖️ Legal Verification</h5>
-                  <p className="text-sm text-gray-600">PayU's settlement letters can be technical. We verify every clause to ensure you are legally protected from future claims.</p>
+                  <h5 className="font-bold text-gray-900 mb-2">[Scale] Legal Verification</h5>
+                  <p className="text-sm text-gray-600">PayU’s settlement letters can be technical. We verify every clause to ensure you are legally protected from future claims.</p>
                 </div>
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">🤝 Success-Fee Model</h5>
+                  <h5 className="font-bold text-gray-900 mb-2">[Deal] Success-Fee Model</h5>
                   <p className="text-sm text-gray-600">We are partners in your freedom. A significant portion of our fee is payable <strong>only</strong> when you receive the settlement letter.</p>
                 </div>
               </div>
@@ -504,21 +504,21 @@ export default function PayUFinanceLoanSettlementClient() {
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Rohan K., Bangalore</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"I was terrified. LazyPay agents were calling my office HR. CredSettle stepped in, sent a legal notice, and the calls stopped in 48 hours. Settled for 45% of the amount."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Priya S., Mumbai</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"My PayU personal loan of 2 Lakhs ballooned to 3.5 Lakhs with interest. CredSettle negotiated a closure at 1.2 Lakhs. I have my NDC now."</p>
                   </div>
                    <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Amitabh D., Delhi</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"The transparency is what I liked. No fake promises about CIBIL. They told me the truth, handled the legal mess, and got me out of debt."</p>
@@ -546,7 +546,7 @@ export default function PayUFinanceLoanSettlementClient() {
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
-                <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
+                <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -554,8 +554,8 @@ export default function PayUFinanceLoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ RBI Compliant Process</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v RBI Compliant Process</p>
                 </div>
               </div>
 

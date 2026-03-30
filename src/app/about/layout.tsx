@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About CredSettle - India's Debt Resolution Experts",
-  description: "Learn about CredSettle - India's leading legal loan settlement company. We specialize in RBI-compliant debt resolution, stopping harassment, and helping clients achieve financial freedom through ethical settlements.",
+  title: "About CredSettle - India’s Debt Resolution Experts",
+  description: "Learn about CredSettle - India’s leading legal loan settlement company. We specialize in RBI-compliant debt resolution, stopping harassment, and helping clients achieve financial freedom through ethical settlements.",
   keywords: [
     "about CredSettle",
     "loan settlement company India",
@@ -12,15 +12,15 @@ export const metadata: Metadata = {
     "loan settlement company"
   ],
   openGraph: {
-    title: "About CredSettle - India's Debt Resolution Experts",
-    description: "Learn about CredSettle - India's leading legal loan settlement company. We specialize in RBI-compliant debt resolution and helping clients achieve financial freedom.",
+    title: "About CredSettle - India’s Debt Resolution Experts",
+    description: "Learn about CredSettle - India’s leading legal loan settlement company. We specialize in RBI-compliant debt resolution and helping clients achieve financial freedom.",
     url: "https://www.credsettle.com/about",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About CredSettle - India's Debt Resolution Experts",
-    description: "Learn about CredSettle - India's leading legal loan settlement company. We specialize in RBI-compliant debt resolution.",
+    title: "About CredSettle - India’s Debt Resolution Experts",
+    description: "Learn about CredSettle - India’s leading legal loan settlement company. We specialize in RBI-compliant debt resolution.",
   },
   alternates: {
     canonical: "https://www.credsettle.com/about",

@@ -96,7 +96,7 @@ export default async function StatePage({ params }: PageProps) {
   const headings = [
     { id: 'why-credit-card-settlement', text: 'Why Credit Card Settlement Is Essential', level: 2 },
     { id: 'common-credit-card-problems', text: `Common Credit Card Problems in ${content.stateName}`, level: 2 },
-    { id: 'credsettle-overview', text: "CredSettle – India's Trusted Credit Card Settlement Company", level: 2 },
+    { id: 'credsettle-overview', text: "CredSettle - India’s Trusted Credit Card Settlement Company", level: 2 },
     { id: 'rbi-compliant-process', text: 'Our RBI-Compliant Credit Card Settlement Process', level: 3 },
     { id: 'negotiation-help', text: 'How CredSettle Negotiates with Card Issuers', level: 3 },
     { id: 'legal-support', text: 'Legal Support through Our Lawyer Panel', level: 2 },
@@ -104,7 +104,7 @@ export default async function StatePage({ params }: PageProps) {
     { id: 'rbi-guidelines', text: 'RBI Guidelines & Cardholder Rights', level: 2 },
     { id: 'step-by-step-guide', text: 'Step-by-Step Guide to Credit Card Settlement', level: 2 },
     { id: 'case-study', text: `Real Case Study: Credit Card Settlement in ${content.stateName}`, level: 2 },
-    { id: 'final-thoughts', text: 'Final Thoughts – Break Free from Credit Card Debt', level: 2 },
+    { id: 'final-thoughts', text: 'Final Thoughts - Break Free from Credit Card Debt', level: 2 },
     { id: 'faqs', text: 'Frequently Asked Questions', level: 2 }
   ];
 

@@ -201,7 +201,7 @@ export default function LoanAgreementDraftingReviewClient() {
                         <span className="text-blue-300">Secure Your Financial Future in 2025</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Don't sign blindly. Get a professional legal review of your loan documents to protect your rights, identify hidden traps, and ensure full compliance with Indian laws.
+                        Don’t sign blindly. Get a professional legal review of your loan documents to protect your rights, identify hidden traps, and ensure full compliance with Indian laws.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -330,7 +330,7 @@ export default function LoanAgreementDraftingReviewClient() {
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>1. Ambiguous Default Definitions:</strong> A "Default" should be clearly defined. Predatory contracts often use broad language like "any material adverse change in the borrower financial condition," which gives the bank the power to call for full repayment even if you haven't missed a single EMI.</li>
+                                    <li><strong>1. Ambiguous Default Definitions:</strong> A "Default" should be clearly defined. Predatory contracts often use broad language like "any material adverse change in the borrower financial condition," which gives the bank the power to call for full repayment even if you haven’t missed a single EMI.</li>
                                     <li><strong>2. One-Sided Arbitration Clauses:</strong> Many modern agreements force borrowers into arbitration in distant cities, using arbitrators who have ongoing relationships with the lender. This makes seeking justice almost impossible for a small borrower.</li>
                                     <li><strong>3. Hidden Prepayment Penalties:</strong> While the RBI has capped some penalties, many lenders find creative ways to charge fees for "early exit" through administration or documentation charges. A professional review identifies these immediately.</li>
                                     <li><strong>4. Compound Penalty Interest:</strong> Most borrowers focus on the base interest rate, ignoring the "Penal Interest" which can be astronomical. Worse, some contracts allow for the capitalization of these penalties, leading to a debt spiral that is impossible to escape.</li>
@@ -351,7 +351,7 @@ export default function LoanAgreementDraftingReviewClient() {
                                     <li><strong>The Disbursement Clause:</strong> This must detail exactly how and when the money will be provided. Will it be a lump sum? Milestone based? This is vital for construction or business expansion loans.</li>
                                     <li><strong>Interest Rate and Calculation Methodology:</strong> Is it fixed? Floating? How often is it compounded? What is the benchmark rate? Transparency here is mandated by the RBI.</li>
                                     <li><strong>Repayment Schedule:</strong> A clear table showing EMI amounts, due dates, and the tenure. It should also specify the mode of payment (ECS, NACH, Cheque).</li>
-                                    <li><strong>Covenants and Warranties:</strong> These are the promises you make to the lender—such as using the money only for the stated purpose and not taking other major loans without informing them.</li>
+                                    <li><strong>Covenants and Warranties:</strong> These are the promises you make to the lender-such as using the money only for the stated purpose and not taking other major loans without informing them.</li>
                                     <li><strong>Security and Collateral Details:</strong> A meticulous description of any assets pledged as security, along with the right of the lender to inspect or value them periodically.</li>
                                     <li><strong>Events of Default:</strong> A clear, exhaustive list of what constitutes a breach of the agreement. This should ideally be limited to objective failures like missed payments.</li>
                                     <li><strong>Termination and Exit:</strong> How can the agreement be closed? What documents must the lender provide upon full payment? (e.g., the No Dues Certificate).</li>
@@ -371,7 +371,7 @@ export default function LoanAgreementDraftingReviewClient() {
                                 One of the most significant changes is the mandate for the <strong>Key Fact Statement (KFS)</strong>. Every loan agreement must now lead with a single page summary that highlights the Annual Percentage Rate (APR), all inclusive costs (including documentation and processing), and the total amount to be repaid over the life of the loan. This prevents the "Fee Camouflage" where a low interest rate is offset by high hidden charges. If the KFS does not match the detailed contract, the KFS takes precedence in many consumer court scenarios.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Furthermore, the RBI has tightened the screws on <strong>Digital Lending Apps</strong>. Any agreement signed through an app must be provided to the borrower on their registered email immediately. Digital signatures must follow the IT Act precisely. The RBI also mandates that lenders cannot use "Dark Patterns" in their digital interfaces—design choices that trick users into agreeing to terms they might have otherwise rejected. This digital dignity is a core part of the 2025 landscape.
+                                Furthermore, the RBI has tightened the screws on <strong>Digital Lending Apps</strong>. Any agreement signed through an app must be provided to the borrower on their registered email immediately. Digital signatures must follow the IT Act precisely. The RBI also mandates that lenders cannot use "Dark Patterns" in their digital interfaces-design choices that trick users into agreeing to terms they might have otherwise rejected. This digital dignity is a core part of the 2025 landscape.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Finally, the RBI has empowered the <strong>Integrated Ombudsman</strong> to penalize lenders who use complex or misleading language in their drafting. If a borrower can prove that a clause was drafted in "Bad Faith" to intentionally confuse them, the Ombudsman can declare that specific clause null and void. For a borrower, this means that your loan agreement is now overseen by a regulator that values clarity over complexity. Investing in a professional review ensures that you are taking full advantage of these new protections.
@@ -401,21 +401,21 @@ export default function LoanAgreementDraftingReviewClient() {
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
                                 <ol className="list-decimal pl-6 space-y-4 text-gray-800">
-                                    <li><strong>The Comparative Approach:</strong> Don't just say a term is unfair. Show that other top tier lenders are offering better terms. Competition is your best friend at the negotiation table.</li>
-                                    <li><strong>Focus on the High Impact Items:</strong> Don't waste your "negotiation capital" on small boilerplate. Focus on the interest rate, the collateral valuation, the prepayment terms, and the default definitions.</li>
+                                    <li><strong>The Comparative Approach:</strong> Don’t just say a term is unfair. Show that other top tier lenders are offering better terms. Competition is your best friend at the negotiation table.</li>
+                                    <li><strong>Focus on the High Impact Items:</strong> Don’t waste your "negotiation capital" on small boilerplate. Focus on the interest rate, the collateral valuation, the prepayment terms, and the default definitions.</li>
                                     <li><strong>Ask for a "Draft Phase":</strong> Never sign on the first day. Demand a week to review the draft with your legal counsel. A lender who rushes you is usually a lender with something to hide.</li>
                                     <li><strong>The "What If" Session:</strong> Sit with your advisor and play through scenarios. What if the interest rate rises by 3%? What if my business partner leaves? Ensure the agreement has clauses that handle these without immediate termination.</li>
                                     <li><strong>Leverage Your Credit Score:</strong> If you have a 750+ CIBIL score, you are a "Preferred Customer." Banks are desperate for your business in 2025. Use this leverage to demand the removal of aggressive clauses like the "Set Off" or "Cross Default."</li>
                                 </ol>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Professional negotiation is about finding a win win. The bank gets a safe, high quality loan, and you get a fair, affordable contract that doesn't put your entire life at risk. At CredSettle, we represent our clients in these discussions, using our deep knowledge of bank internal policies to get changes that a single borrower could never achieve on their own.
+                                Professional negotiation is about finding a win win. The bank gets a safe, high quality loan, and you get a fair, affordable contract that doesn’t put your entire life at risk. At CredSettle, we represent our clients in these discussions, using our deep knowledge of bank internal policies to get changes that a single borrower could never achieve on their own.
                             </p>
 
                             <h2 id="guarantees-collateral" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Guarantees and Collateral: Protecting Your Personal Assets</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The most dangerous part of any loan agreement is where "security" is defined. In 2025, with property prices surging and the SARFAESI Act providing banks with massive powers to seize assets without court intervention, the drafting of these sections is literally a matter of life and death for your property rights.
-                                For business loans, the **Personal Guarantee** is the ultimate risk. By signing this, you pierce the corporate veil. Your family home, your children education funds, and even your spouse jewelry could be at risk if the business debt goes unpaid. A professional review aims to limit these guarantees—perhaps capping them at a certain amount or ensuring they only trigger after the business assets have been fully exhausted.
+                                For business loans, the **Personal Guarantee** is the ultimate risk. By signing this, you pierce the corporate veil. Your family home, your children education funds, and even your spouse jewelry could be at risk if the business debt goes unpaid. A professional review aims to limit these guarantees-perhaps capping them at a certain amount or ensuring they only trigger after the business assets have been fully exhausted.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Regarding collateral, the agreement must clearly define the **Perfection of Security**. This includes the registration of the mortgage at the SRO and the filing of Form CHG-1 with the ROC. Errors here could lead to a situation where you have paid for a loan but the "Lien" on your property is never removed. We ensure that the agreement has a clear "Discharge Clause" that mandates the bank to return all original documents and file satisfaction of charge within a fixed number of days after the loan is closed.
@@ -431,7 +431,7 @@ export default function LoanAgreementDraftingReviewClient() {
 
                             <h2 id="digital-agreements" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Digital Agreements: The New Frontier of Validity</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                We live in the age of "Paperless Lending." While convenient, many borrowers worry: "Is an OTP on an app as strong as a signature on a stamp paper?" The answer is a resounding Yes—but only if the digital workflow follows the law. The Indian Evidence Act and the Information Technology Act provide a clear framework for this.
+                                We live in the age of "Paperless Lending." While convenient, many borrowers worry: "Is an OTP on an app as strong as a signature on a stamp paper?" The answer is a resounding Yes-but only if the digital workflow follows the law. The Indian Evidence Act and the Information Technology Act provide a clear framework for this.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 During a review of a digital loan agreement, we verify the **Digital Audit Trail**. This includes the IP address from which the sign-in happened, the KYC verification process, and the storage of the electronic record. If any of these steps are compromised, the entire agreement can be challenged. In 2025, many "Fraud Apps" are operating without these trails. Checking the digital validity is now just as important as reading the text of the contract.
@@ -439,7 +439,7 @@ export default function LoanAgreementDraftingReviewClient() {
 
                             <h2 id="stamp-duty-registration" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Stamp Duty and Registration: The Expensive Technicalities</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Stamp duty is the state's cut of your transaction. Each state in India has its own stamp act, and the rates for loan agreements vary wildly. For a multi crore loan, the stamp duty alone can be several lakhs. Many lenders and borrowers try to "Save" by under-stamping the document. This is a catastrophic mistake.
+                                Stamp duty is the state’s cut of your transaction. Each state in India has its own stamp act, and the rates for loan agreements vary wildly. For a multi crore loan, the stamp duty alone can be several lakhs. Many lenders and borrowers try to "Save" by under-stamping the document. This is a catastrophic mistake.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 An under-stamped agreement cannot be "Taken into Evidence" in any court in India. If you need to sue the bank for a breach of contract, or if the bank needs to sue you, the court will first demand that you pay the full duty plus a penalty of 2% per month or 10 times the duty amount. This "Stamp Duty Paradox" means that trying to save a few thousand today can cost you millions tomorrow. Our review process always includes a "Stamp Duty Audit" to ensure your contract is trial ready from day one.
@@ -473,14 +473,14 @@ export default function LoanAgreementDraftingReviewClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li>✓ <strong>Check the KFS:</strong> Does the Key Fact Statement match the main contract?</li>
-                                    <li>✓ <strong>Identify the Benchmark:</strong> Is the interest tied to repo rate or MCLR? How often is the reset?</li>
-                                    <li>✓ <strong>Verify the Fees:</strong> Is every single fee (processing, legal, valuation) listed clearly? Check for "etc." or "any other charges."</li>
-                                    <li>✓ <strong>Default Definition:</strong> Is it limited to missed payments, or is it vague?</li>
-                                    <li>✓ <strong>Prepayment Terms:</strong> Is there a lock-in period? What is the exact percentage of the penalty?</li>
-                                    <li>✓ <strong>Dispute Resolution:</strong> Is the city of jurisdiction convenient for you?</li>
-                                    <li>✓ <strong>Document Return:</strong> Is there a clear timeline for the bank to return your collateral papers?</li>
-                                    <li>✓ <strong>Stamp Duty:</strong> Is the document on the correct value stamp paper for your state?</li>
+                                    <li>v <strong>Check the KFS:</strong> Does the Key Fact Statement match the main contract?</li>
+                                    <li>v <strong>Identify the Benchmark:</strong> Is the interest tied to repo rate or MCLR? How often is the reset?</li>
+                                    <li>v <strong>Verify the Fees:</strong> Is every single fee (processing, legal, valuation) listed clearly? Check for "etc." or "any other charges."</li>
+                                    <li>v <strong>Default Definition:</strong> Is it limited to missed payments, or is it vague?</li>
+                                    <li>v <strong>Prepayment Terms:</strong> Is there a lock-in period? What is the exact percentage of the penalty?</li>
+                                    <li>v <strong>Dispute Resolution:</strong> Is the city of jurisdiction convenient for you?</li>
+                                    <li>v <strong>Document Return:</strong> Is there a clear timeline for the bank to return your collateral papers?</li>
+                                    <li>v <strong>Stamp Duty:</strong> Is the document on the correct value stamp paper for your state?</li>
                                 </ul>
                             </div>
 
@@ -489,7 +489,7 @@ export default function LoanAgreementDraftingReviewClient() {
                                 Navigating a loan agreement is not a journey you should take alone. At CredSettle, we provide a comprehensive suite of services designed to protect the modern borrower. Our team consists of seasoned banking lawyers and financial analysts who have collectively reviewed over 10,000 loan documents.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When you choose CredSettle for your loan agreement review, we don't just "read" the document. We **Analyze** it against the latest RBI guidelines, we **Compare** it with market standards, and we **Negotiate** with the lender on your behalf. We provide a detailed "Risk Report" that highlights every dangerous clause in simple, plain English, followed by a list of recommended modifications. Whether you are taking a small personal loan or managing a complex corporate debt portfolio, our mission is to ensure that your agreement is a tool for your success, not a trap for your failure.
+                                When you choose CredSettle for your loan agreement review, we don’t just "read" the document. We **Analyze** it against the latest RBI guidelines, we **Compare** it with market standards, and we **Negotiate** with the lender on your behalf. We provide a detailed "Risk Report" that highlights every dangerous clause in simple, plain English, followed by a list of recommended modifications. Whether you are taking a small personal loan or managing a complex corporate debt portfolio, our mission is to ensure that your agreement is a tool for your success, not a trap for your failure.
                             </p>
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Conclusion: Towards a Fairer Future of Lending</h2>
@@ -497,7 +497,7 @@ export default function LoanAgreementDraftingReviewClient() {
                                 The loan agreement is the DNA of your financial transaction. Every letter, every comma, and every definition matters. As we have seen throughout this 5000+ word guide, the complexity of modern lending requires a level of diligence that goes beyond the capacity of most laypeople. However, this complexity is not something to be feared; it is something to be managed.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                By insisting on professional drafting and review, you are taking a stand for financial transparency and personal dignity. You are ensuring that your relationship with your lender is built on a foundation of mutual respect and clear legal boundaries. In the Indian economy of 2025, where credit is the fuel for growth, your loan agreement is the engine that determines how far and how safely you can travel. Don't leave your engine open to faults—invest in the protection you deserve.
+                                By insisting on professional drafting and review, you are taking a stand for financial transparency and personal dignity. You are ensuring that your relationship with your lender is built on a foundation of mutual respect and clear legal boundaries. In the Indian economy of 2025, where credit is the fuel for growth, your loan agreement is the engine that determines how far and how safely you can travel. Don’t leave your engine open to faults-invest in the protection you deserve.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">What Our Clients Say</h2>

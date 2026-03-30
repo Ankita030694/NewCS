@@ -209,7 +209,7 @@ export default function LegalNoticeWhatToDoClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Bank Sent Legal Notice For Loan?<br />
-                        <span className="text-blue-300">Don't Panic, Know Your Legal Rights</span>
+                        <span className="text-blue-300">Don’t Panic, Know Your Legal Rights</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expert guidance on responding to bank legal notices, understanding civil suits, and protecting your assets from recovery litigation.
@@ -323,7 +323,7 @@ export default function LegalNoticeWhatToDoClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Introduction: The Reality of Bank Legal Notices</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Receiving a final notice or a lawyer's letter for an unpaid loan is one of the most stressful experiences a person can face. The bold headings, the citation of various legal acts, and the threat of court action are designed to create a sense of urgency and, often, fear. Whether it is a personal loan, a credit card debt, or a business loan, the "Bank sent legal notice for loan what to do" query is one of the most critical search terms for Indians facing financial distress today.
+                                Receiving a final notice or a lawyer’s letter for an unpaid loan is one of the most stressful experiences a person can face. The bold headings, the citation of various legal acts, and the threat of court action are designed to create a sense of urgency and, often, fear. Whether it is a personal loan, a credit card debt, or a business loan, the "Bank sent legal notice for loan what to do" query is one of the most critical search terms for Indians facing financial distress today.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In the current economic climate, thousands of honest borrowers find themselves unable to meet their EMI obligations due to job loss, business failures, or health emergencies. Banks, being regulated institutions, have a standard protocol for recovery. This protocol always includes legal notices before any formal litigation begins. However, many borrowers make the mistake of either ignoring these notices out of fear or panicking and making irrational financial commitments they cannot keep.
@@ -348,7 +348,7 @@ export default function LegalNoticeWhatToDoClient() {
                                 <br />- <strong>Signature:</strong> It must be signed by the advocate.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light text-gray-800 italic">
-                                Note: Many banks send "soft notices" or "demand notices" on their own stationery first. These are not legal notices in the strict sense, but they are precursors. The real legal notice comes from an advocate's office.
+                                Note: Many banks send "soft notices" or "demand notices" on their own stationery first. These are not legal notices in the strict sense, but they are precursors. The real legal notice comes from an advocate’s office.
                             </div>
 
                             <h2 id="immediate-steps" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Immediate Steps: Your Action Plan for Day 1</h2>
@@ -360,14 +360,14 @@ export default function LegalNoticeWhatToDoClient() {
                                     <li><strong>Verification:</strong> Check if the loan details are correct. Sometimes banks send notices based on outdated records or incorrect interest calculations.</li>
                                     <li><strong>Records Gathering:</strong> Compile all your EMI payment receipts, the original loan sanction letter, and any previous communication with the bank (emails about restructuring, etc.).</li>
                                     <li><strong>Seek Counsel:</strong> Do not try to draft a reply yourself. A legal notice requires a measured legal reply. Contact a firm like CredSettle or a qualified lawyer specializing in banking law.</li>
-                                    <li><strong>Avoid Ignoring:</strong> Ignoring a notice is seen as an admission of fault in court. Even if you don't have the money, a formal reply stating your financial hardship and willingness to resolve is vital.</li>
+                                    <li><strong>Avoid Ignoring:</strong> Ignoring a notice is seen as an admission of fault in court. Even if you don’t have the money, a formal reply stating your financial hardship and willingness to resolve is vital.</li>
                                     <li><strong>Record Check:</strong> See if you issued any cheques that could be misused for a Section 138 filing.</li>
                                 </ol>
                             </div>
 
                             <h2 id="can-bank-file-case" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Can Bank File a Case? The Definitive Answer</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Yes, a bank can absolutely file a case for a personal loan or any other retail loan. However, "filing a case" does not mean you are going to prison. In India, a loan is a contract. Breaking that contract is a civil wrong. The bank's primary objective is to get their money back, and the law provides them with various routes to do so.
+                                Yes, a bank can absolutely file a case for a personal loan or any other retail loan. However, "filing a case" does not mean you are going to prison. In India, a loan is a contract. Breaking that contract is a civil wrong. The bank’s primary objective is to get their money back, and the law provides them with various routes to do so.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 However, banks usually weigh the cost of litigation against the recovery amount. For a small loan of ₹50,000, filing a full-blown civil suit is expensive and time-consuming. They are more likely to use Lok Adalats or debt collection agencies. For larger amounts, the likelihood of a formal court case increases significantly.
@@ -387,7 +387,7 @@ export default function LegalNoticeWhatToDoClient() {
                                 <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
                                     <h4 className="font-bold text-red-900 mb-2">Criminal/Quasi-Criminal</h4>
                                     <p className="text-sm text-red-800 leading-relaxed">
-                                        Triggered only by specific actions like a <strong>Cheque Bounce (Section 138)</strong> or forgery. If you didn't cheat or give a bad cheque, the criminal route is virtually non-existent for standard defaults.
+                                        Triggered only by specific actions like a <strong>Cheque Bounce (Section 138)</strong> or forgery. If you didn’t cheat or give a bad cheque, the criminal route is virtually non-existent for standard defaults.
                                     </p>
                                 </div>
                             </div>
@@ -401,7 +401,7 @@ export default function LegalNoticeWhatToDoClient() {
                                 <br />1. <strong>The Bounce:</strong> Cheque is returned for "Insufficient Funds."
                                 <br />2. <strong>Demand Notice:</strong> Bank sends a mandatory notice within 30 days of the bounce.
                                 <br />3. <strong>Grace Period:</strong> You have 15 days to pay the amount.
-                                <br />4. <strong>The Complaint:</strong> If you don't pay, the bank files a criminal complaint in the Magistrate court.
+                                <br />4. <strong>The Complaint:</strong> If you don’t pay, the bank files a criminal complaint in the Magistrate court.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This is the only "jail threat" that has teeth. However, even in 138 cases, the aim is settlement. Courts are flooded with these cases and often force both parties to settle for a reasonable amount. If you receive a notice specifically mentioning "Section 138," you must act with extreme speed to avoid a warrant being issued.
@@ -417,10 +417,10 @@ export default function LegalNoticeWhatToDoClient() {
 
                             <h2 id="personal-loan-litigation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Personal Loan Litigation: How Banks Recover Unsecured Debt</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Since they can't use SARFAESI for personal loans, banks must use the standard judicial system. This usually starts with a <strong>Money Recovery Suit.</strong>
+                                Since they can’t use SARFAESI for personal loans, banks must use the standard judicial system. This usually starts with a <strong>Money Recovery Suit.</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In this suit, the bank asks the court to verify the debt and order the borrower to pay. If the court agrees, it issues a 'Decree.' If the borrower still doesn't pay, the bank files 'Execution Proceedings.' This is where the court bailiff can be sent with an order to attach bank accounts or movable assets like cars or television sets to satisfy the decree. However, this process takes years in the Indian court system, which is why banks prefer settlements over prolonged litigation.
+                                In this suit, the bank asks the court to verify the debt and order the borrower to pay. If the court agrees, it issues a 'Decree.' If the borrower still doesn’t pay, the bank files 'Execution Proceedings.' This is where the court bailiff can be sent with an order to attach bank accounts or movable assets like cars or television sets to satisfy the decree. However, this process takes years in the Indian court system, which is why banks prefer settlements over prolonged litigation.
                             </p>
 
                             <h2 id="arbitration-proceedings" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Arbitration: The Private Court Route</h2>
@@ -429,7 +429,7 @@ export default function LegalNoticeWhatToDoClient() {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong>Dangers of Unattended Arbitration:</strong>
-                                <br />- Arbitrators often pass '<strong>Ex-Parte</strong>' awards (decisions made without you) if you don't show up.
+                                <br />- Arbitrators often pass '<strong>Ex-Parte</strong>' awards (decisions made without you) if you don’t show up.
                                 <br />- These awards have the same weight as a court decree.
                                 <br />- Some banks appoint 'friendly' arbitrators who might not look at your defenses fairly.
                             </p>
@@ -447,7 +447,7 @@ export default function LegalNoticeWhatToDoClient() {
 
                             <h2 id="summary-suit-order-37" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Summary Suit (Order 37): The 10-Day Clock</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This is perhaps the most dangerous civil weapon in a bank's arsenal. A <strong>Summary Suit</strong> under Order 37 of the CPC is for "liquidated damages" where the debt is clear and documented.
+                                This is perhaps the most dangerous civil weapon in a bank’s arsenal. A <strong>Summary Suit</strong> under Order 37 of the CPC is for "liquidated damages" where the debt is clear and documented.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a Summary Suit is filed, you receive a 'Summons for Appearance.' You have exactly <strong>10 days</strong> from the receipt of this summons to enter an appearance in court. If you miss this window, the law presumes that you have no defense, and a judgment is passed against you immediately. If you have received a court document mentioning 'Order 37,' you need a lawyer on the same day.
@@ -461,7 +461,7 @@ export default function LegalNoticeWhatToDoClient() {
                                 <ul className="space-y-4">
                                     <li><strong>The 8-7 rule:</strong> No calls or visits before 8 AM or after 7 PM.</li>
                                     <li><strong>Privacy:</strong> Agents cannot call your neighbors, colleagues, or distant relatives.</li>
-                                    <li><strong>ID Proof:</strong> You can refuse to talk to any agent who doesn't provide a bank ID and their IIBF certification.</li>
+                                    <li><strong>ID Proof:</strong> You can refuse to talk to any agent who doesn’t provide a bank ID and their IIBF certification.</li>
                                     <li><strong>Recourse:</strong> File a complaint with the <strong>Integrated Ombudsman</strong> or use the police (Dial 100/112) for physical intimidation.</li>
                                 </ul>
                             </div>
@@ -493,7 +493,7 @@ export default function LegalNoticeWhatToDoClient() {
                                 Be aware that a settlement will mark your bank record as "Settled" for 7 years. This is different from "Full Payment" and will lower your CIBIL score. However, for most people facing legal notices, saving themselves from litigation and clearing their mental space is more important than a temporary dip in credit score. You can always rebuild your score later using secured credit cards after you are debt-free.
                             </p>
 
-                            <h2 id="defaulter-rights" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Your Legal Rights: The Borrower's Charter</h2>
+                            <h2 id="defaulter-rights" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Your Legal Rights: The Borrower’s Charter</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Despite being a "defaulter," you have absolute rights under the Constitution and the RBI guidelines:
                             </p>
@@ -523,7 +523,7 @@ export default function LegalNoticeWhatToDoClient() {
                                 If you are currently sitting with a notice in your hand, take a deep breath. Stop the cycle of fear. Verify the notice, seek legal help, and respond professionally. Whether you choose to restructure, settle, or defend your position in court, doing it with knowledge and legal support will ensure you come out of this crisis with your dignity and assets intact.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we have seen hundreds of cases go from "threats of jail" to "amicable closure." Our mission is to bridge the legal gap and ensure that every borrower gets a fair hearing. Don't let a loan define your future. Reclaim your financial freedom today.
+                                At CredSettle, we have seen hundreds of cases go from "threats of jail" to "amicable closure." Our mission is to bridge the legal gap and ensure that every borrower gets a fair hearing. Don’t let a loan define your future. Reclaim your financial freedom today.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">What Our Clients Say</h2>
@@ -573,7 +573,7 @@ export default function LegalNoticeWhatToDoClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Emergency?</h4>
-                                <p className="text-sm text-gray-600 mb-6">If you have received a court summons or a Summary Suit notice, act now. Procrastination is the bank's biggest ally.</p>
+                                <p className="text-sm text-gray-600 mb-6">If you have received a court summons or a Summary Suit notice, act now. Procrastination is the bank’s biggest ally.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -581,9 +581,9 @@ export default function LegalNoticeWhatToDoClient() {
                                     Fast-Track Reply
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Reply within 24 Hours</p>
-                                    <p>✓ Drafted by Senior Lawyers</p>
-                                    <p>✓ 100% RBI Compliance</p>
+                                    <p>v Reply within 24 Hours</p>
+                                    <p>v Drafted by Senior Lawyers</p>
+                                    <p>v 100% RBI Compliance</p>
                                 </div>
                             </div>
 

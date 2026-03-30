@@ -417,7 +417,7 @@ export default function LoanAgreementDocReviewClient() {
                                 <li>Whether it is a continuing guarantee for all present and future liabilities.</li>
                                 <li>Whether the guarantee survives the death of the guarantor and binds their estate.</li>
                                 <li>Whether the guarantee is revocable and under what conditions.</li>
-                                <li>Whether the bank must exhaust remedies against the principal borrower first (surety's benefit of excussion).</li>
+                                <li>Whether the bank must exhaust remedies against the principal borrower first (surety’s benefit of excussion).</li>
                                 <li>Whether the guarantee extends to the NBFC subsidiary loans that the same banking group may issue in the future.</li>
                             </ul>
 
@@ -519,7 +519,7 @@ export default function LoanAgreementDocReviewClient() {
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Get expert legal review of your loan agreement before signing. Identify dangerous clauses and protect your rights.</p>
                             <ul className="space-y-2 mb-5">
                                 {['Dangerous Clause Identification', 'RBI Compliance Check', 'Arbitration Clause Review', 'Guarantee Document Analysis'].map((item, i) => (
-                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">✓</span> {item}</li>
+                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">v</span> {item}</li>
                                 ))}
                             </ul>
                             <Link href="/contact" className="block bg-white text-blue-900 text-center py-3 rounded-xl font-bold hover:bg-opacity-90 transition-all">

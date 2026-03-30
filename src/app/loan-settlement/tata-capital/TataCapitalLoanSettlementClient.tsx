@@ -100,7 +100,7 @@ export default function TataCapitalLoanSettlementClient() {
     },
     {
       question: "How can I get the Tata Capital loan settlement letter?",
-      answer: "The settlement letter is issued by Tata Capital's collections department after your settlement proposal is approved. It must be on the official letterhead and contain details like the settlement amount, payment due date, and a clause stating that the loan will be closed upon payment."
+      answer: "The settlement letter is issued by Tata Capital’s collections department after your settlement proposal is approved. It must be on the official letterhead and contain details like the settlement amount, payment due date, and a clause stating that the loan will be closed upon payment."
     },
     {
       question: "What are the RBI guidelines for NBFC loan settlement?",
@@ -230,10 +230,10 @@ export default function TataCapitalLoanSettlementClient() {
                 Are you feeling the heavy weight of unmanageable debt from <strong>Tata Capital</strong>? Whether it is a personal loan that has spiraled due to high interest rates, a business loan that you can no longer service due to market downturns, or ever-mounting credit card dues, you are likely facing significant stress. The constant ping of payment reminders, the dread of answering calls from recovery agents, and the fear of legal notices can be overwhelming.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Financial hardships—be it from sudden job loss, medical emergencies, or business insolvency—can happen to anyone. It is important to remember that being in debt is a civil issue, not a criminal one. If you are genuinely unable to repay your full dues, <strong>Tata Capital Loan Settlement</strong> offers a legal, structured, and dignified way out.
+                Financial hardships-be it from sudden job loss, medical emergencies, or business insolvency-can happen to anyone. It is important to remember that being in debt is a civil issue, not a criminal one. If you are genuinely unable to repay your full dues, <strong>Tata Capital Loan Settlement</strong> offers a legal, structured, and dignified way out.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
-                <strong>CredSettle</strong> is India's leading debt relief platform. We specialize in negotiating with major NBFCs like Tata Capital. Our goal is to protect you from harassment, handle all legal complexities, and help you settle your loans for up to <strong>50% less</strong> than what you owe. This guide covers the complete 2026 process, ensuring you have all the information needed to make the right decision.
+                <strong>CredSettle</strong> is India’s leading debt relief platform. We specialize in negotiating with major NBFCs like Tata Capital. Our goal is to protect you from harassment, handle all legal complexities, and help you settle your loans for up to <strong>50% less</strong> than what you owe. This guide covers the complete 2026 process, ensuring you have all the information needed to make the right decision.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
@@ -334,27 +334,27 @@ export default function TataCapitalLoanSettlementClient() {
                 <h4 className="font-bold text-gray-900 mb-4 text-center border-b pb-4">Essential Components of a Valid Settlement Letter</h4>
                 <ul className="space-y-3 text-sm md:text-base text-gray-700">
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Official Letterhead:</strong> Must be on Tata Capital Financial Services Ltd letterhead.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Loan Details:</strong> Correct Loan Account Number (LAN) and borrower name.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Settlement Amount:</strong> The exact agreed lump sum figure.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Payment Deadline:</strong> Accurate date by which payment must be credited.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Closure Clause:</strong> A clear statement that upon this payment, the entire loan liability is extinguished and the account will be closed.</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span><strong>Legal Withdrawal:</strong> Mention that any pending legal cases (Arbitration/Section 138/Section 25) will be withdrawn.</span>
                   </li>
                 </ul>
@@ -367,7 +367,7 @@ export default function TataCapitalLoanSettlementClient() {
               <div className="grid gap-6 mb-10">
                 <div className="bg-white border-l-4 border-indigo-500 shadow-sm p-6 ml-4">
                   <h4 className="font-bold text-gray-900">Fair Practices Code</h4>
-                  <p className="text-gray-600 mt-2 text-sm">NBFCs must disclose all terms and conditions. They cannot resort to undue harassment or coercion. Recovery agents must follow a code of conduct—no calling before 8 AM or after 7 PM.</p>
+                  <p className="text-gray-600 mt-2 text-sm">NBFCs must disclose all terms and conditions. They cannot resort to undue harassment or coercion. Recovery agents must follow a code of conduct-no calling before 8 AM or after 7 PM.</p>
                 </div>
                 <div className="bg-white border-l-4 border-indigo-500 shadow-sm p-6 ml-4">
                   <h4 className="font-bold text-gray-900">Right to Privacy</h4>
@@ -462,14 +462,14 @@ export default function TataCapitalLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Manish Verma, Bangalore</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"My business took a hit and I defaulted on a 15 Lakh Tata Capital loan. The arbitration notice scared me. CredSettle took over, attended the hearings, and settled it for 7 Lakhs. Highly professional."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Sneha R., Pune</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"I was being harassed daily by agents. After signing up with CredSettle, the calls stopped within 48 hours. I settled my personal loan and finally have peace of mind."</p>
@@ -497,7 +497,7 @@ export default function TataCapitalLoanSettlementClient() {
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
-                <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
+                <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -505,8 +505,8 @@ export default function TataCapitalLoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ RBI Compliant Process</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v RBI Compliant Process</p>
                 </div>
               </div>
 

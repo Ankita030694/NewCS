@@ -45,7 +45,7 @@ export default function LogoutButton() {
         className="inline-flex w-full items-center justify-center gap-3 rounded-xl bg-white/10 px-4 py-3 text-sm font-semibold text-white transition hover:bg-white/20 disabled:cursor-not-allowed disabled:opacity-70"
       >
         <FontAwesomeIcon icon={faArrowRightFromBracket} className="h-4 w-4" />
-        {isLoggingOut ? 'Logging out…' : 'Log out'}
+        {isLoggingOut ? 'Logging out...' : 'Log out'}
       </button>
       {errorMessage && (
         <p className="text-xs font-medium text-red-200">{errorMessage}</p>

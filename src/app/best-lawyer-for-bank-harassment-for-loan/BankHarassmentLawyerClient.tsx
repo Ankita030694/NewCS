@@ -23,7 +23,7 @@ export default function BankHarassmentLawyerClient() {
     const faqs = [
         {
             question: "What should I do if a recovery agent visits my home after 7 PM?",
-            answer: "Under RBI guidelines, recovery agents are prohibited from visiting borrowers before 7 AM and after 7 PM. If they visit after hours, do not open the door, record the incident, and file an immediate complaint with your bank's Nodal Officer and the RBI Ombudsman."
+            answer: "Under RBI guidelines, recovery agents are prohibited from visiting borrowers before 7 AM and after 7 PM. If they visit after hours, do not open the door, record the incident, and file an immediate complaint with your bank’s Nodal Officer and the RBI Ombudsman."
         },
         {
             question: "Can recovery agents contact my neighbors or family members?",
@@ -59,7 +59,7 @@ export default function BankHarassmentLawyerClient() {
         },
         {
             question: "Does loan settlement stop harassment?",
-            answer: "A formal loan settlement initiated through legal channels usually stops recovery actions. However, ensure the settlement is documented in writing and issued by the bank's authorized department to avoid future disputes."
+            answer: "A formal loan settlement initiated through legal channels usually stops recovery actions. However, ensure the settlement is documented in writing and issued by the bank’s authorized department to avoid future disputes."
         }
     ];
 
@@ -232,7 +232,7 @@ export default function BankHarassmentLawyerClient() {
                                 Being a loan defaulter in India is often a double tragedy. On one hand, the borrower is struggling with financial instability due to job loss, medical emergencies, or business failure. On the other, they are subjected to a secondary trauma: systematic, illegal, and often violent harassment by bank recovery agents. This harassment has reached such proportions that the Supreme Court of India and the Reserve Bank of India (RBI) have had to intervene multiple times to protect the basic dignity of citizens.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you are searching for the best lawyer for bank harassment for a loan, you are likely at your wit's end. You might be receiving 50 phone calls a day, recovery agents might be showing up at your workplace, or your neighbors might have been told about your financial troubles. The first thing you must realize is that none of this is legal. In India, a debt is a civil liability, not a criminal one (unless it involves a bounced check), and even then, there are strict legal protocols to follow.
+                                If you are searching for the best lawyer for bank harassment for a loan, you are likely at your wit’s end. You might be receiving 50 phone calls a day, recovery agents might be showing up at your workplace, or your neighbors might have been told about your financial troubles. The first thing you must realize is that none of this is legal. In India, a debt is a civil liability, not a criminal one (unless it involves a bounced check), and even then, there are strict legal protocols to follow.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This comprehensive guide, spanning over 5000 words, is your legal shield. We will explain exactly what the banks can and cannot do, the latest RBI guidelines for 2025, and how a specialized harassment lawyer can help you reclaim your peace of mind. Remember, the law is on your side when it comes to protection against abuse, regardless of the amount you owe.
@@ -256,7 +256,7 @@ export default function BankHarassmentLawyerClient() {
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                These tactics are not just "unprofessional"; they are violations of the Indian Penal Code and the RBI's Fair Practices Code. A best lawyer for bank harassment will document each of these instances to build a formidable case against the lender.
+                                These tactics are not just "unprofessional"; they are violations of the Indian Penal Code and the RBI’s Fair Practices Code. A best lawyer for bank harassment will document each of these instances to build a formidable case against the lender.
                             </p>
 
                             <h2 id="rbi-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">
@@ -287,11 +287,11 @@ export default function BankHarassmentLawyerClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
                                     <h4 className="font-bold text-xl mb-4 text-blue-800">1. Internal Grievance Redressal</h4>
-                                    <p className="text-sm text-gray-600 leading-relaxed">Every bank has a Principal Nodal Officer. A formal, lawyer drafted complaint to this officer is often the fastest way to stop harassment because the bank's internal audits flag these records.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed">Every bank has a Principal Nodal Officer. A formal, lawyer drafted complaint to this officer is often the fastest way to stop harassment because the bank’s internal audits flag these records.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
                                     <h4 className="font-bold text-xl mb-4 text-blue-800">2. RBI Integrated Ombudsman</h4>
-                                    <p className="text-sm text-gray-600 leading-relaxed">If the bank doesn't respond in 30 days, the Ombudsman is a free, powerful quasi judicial body that can penalize the bank and award compensation to the borrower.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed">If the bank doesn’t respond in 30 days, the Ombudsman is a free, powerful quasi judicial body that can penalize the bank and award compensation to the borrower.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
                                     <h4 className="font-bold text-xl mb-4 text-blue-800">3. Consumer Court</h4>
@@ -307,7 +307,7 @@ export default function BankHarassmentLawyerClient() {
                                 How a Specialized Harassment Lawyer Helps
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Why hire a lawyer instead of fighting alone? The banking system is a massive bureaucracy. When a borrower complains, the bank often ignores it as a "defaulter's tactic." When a lawyer sends a notice on their letterhead, the bank knows that the cost of ignoring it might be a consumer court judgment or an RBI penalty.
+                                Why hire a lawyer instead of fighting alone? The banking system is a massive bureaucracy. When a borrower complains, the bank often ignores it as a "defaulter’s tactic." When a lawyer sends a notice on their letterhead, the bank knows that the cost of ignoring it might be a consumer court judgment or an RBI penalty.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A specialized lawyer will do the following:
@@ -329,7 +329,7 @@ export default function BankHarassmentLawyerClient() {
                                 For secured loans, banks often use the SARFAESI Act as a threat. They might say, "We are coming to throw your family out tomorrow." This is almost always a lie. The SARFAESI Act has a very specific, slow legal procedure. They must give you 60 days to respond to a Section 13(2) notice. Even after that, they must give a 30 day notice before auctioning an asset.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A best lawyer for bank harassment will challenge any SARFAESI notice that hasn't followed the technical precision required by law. Often, just filing a Securitization Application (SA) in the Debt Recovery Tribunal (DRT) can stay the possession and force the bank to come to a fair settlement.
+                                A best lawyer for bank harassment will challenge any SARFAESI notice that hasn’t followed the technical precision required by law. Often, just filing a Securitization Application (SA) in the Debt Recovery Tribunal (DRT) can stay the possession and force the bank to come to a fair settlement.
                             </p>
 
                             <h2 id="harassment-faq" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Frequently Asked Questions</h2>
@@ -376,13 +376,13 @@ export default function BankHarassmentLawyerClient() {
                                 Final Verdict: Reclaim Your Life Today
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A loan default is a financial problem, not a character flaw. Do not let the intimidation tactics of banks make you feel like a criminal. You have the weight of India's judicial system and the RBI's regulations behind you. Harassment is a weapon that works only in the shadows of ignorance. Once you shine the light of legal knowledge and expert representation on it, the harassment stops.
+                                A loan default is a financial problem, not a character flaw. Do not let the intimidation tactics of banks make you feel like a criminal. You have the weight of India’s judicial system and the RBI’s regulations behind you. Harassment is a weapon that works only in the shadows of ignorance. Once you shine the light of legal knowledge and expert representation on it, the harassment stops.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you are being harrassed, do not wait for the situation to "resolve itself." Banks will continue to push until they meet resistance. By hiring the best lawyer for bank harassment, you are ending the cycle of fear. You are deciding that your dignity is not for sale, and that your repayment will happen on legally fair terms, not under the duress of threats.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we specialize in standing between the borrower and the bank's aggression. We have handled thousands of cases where we turned a situation of extreme stress into one of controlled negotiation. Your mental health, your family's safety, and your reputation are worth protecting. Take the first step today and let the law work for you.
+                                At CredSettle, we specialize in standing between the borrower and the bank’s aggression. We have handled thousands of cases where we turned a situation of extreme stress into one of controlled negotiation. Your mental health, your family’s safety, and your reputation are worth protecting. Take the first step today and let the law work for you.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
@@ -414,9 +414,9 @@ export default function BankHarassmentLawyerClient() {
                                     Stop The Harassment
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ RBI Ombudsman Experts</p>
-                                    <p>✓ Immediate Legal Notice</p>
-                                    <p>✓ 100% Confidential Support</p>
+                                    <p>v RBI Ombudsman Experts</p>
+                                    <p>v Immediate Legal Notice</p>
+                                    <p>v 100% Confidential Support</p>
                                 </div>
                             </div>
 

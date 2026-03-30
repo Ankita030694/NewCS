@@ -128,13 +128,13 @@ export default function ServicesPageClient() {
                       className="font-medium text-left text-2xl mb-4" 
                       style={{ color: '#0C2756' }}
                     >
-                      Stop Loan Recovery Agent Harassment – Protect Your Rights with CredSettle
+                      Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
                     </h3>
                     <p 
                       className="text-left text-sm mb-4" 
                       style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
                     >
-                      Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India's leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
+                      Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India’s leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
                     </p>
                     <p 
                       className="text-left text-sm" 
@@ -320,7 +320,7 @@ export default function ServicesPageClient() {
                           letterSpacing: '0.18px'
                         }}
                       >
-                        Stop Loan Recovery Agent Harassment – Protect Your Rights with CredSettle
+                        Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
                       </h3>
                       <p
                         className="w-full"
@@ -333,7 +333,7 @@ export default function ServicesPageClient() {
                           letterSpacing: '0.16px'
                         }}
                       >
-                        Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India's leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
+                        Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India’s leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
                         <br /><br />
                         Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
                       </p>
@@ -405,7 +405,7 @@ export default function ServicesPageClient() {
                           lineHeight: '20px'
                         }}
                       >
-                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Services –</span>
+                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Services -</span>
                         {' '}
                         <span style={{ color: 'rgba(0, 0, 0, 0.70)' }}>Divert all recovery calls directly to our legal helpline.</span>
                       </p>
@@ -431,7 +431,7 @@ export default function ServicesPageClient() {
                           lineHeight: '20px'
                         }}
                       >
-                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Complaint Filing –</span>
+                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Complaint Filing -</span>
                         {' '}
                         <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>We file formal complaints with RBI, NCH, and Cyber Police against harassment.</span>
                       </p>
@@ -458,7 +458,7 @@ export default function ServicesPageClient() {
                         }}
                       >
                         <span style={{ fontSize: '16px', color: 'rgba(12, 39, 86, 1)' }}>Cease & Desist Notices</span>
-                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}> –</span>
+                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}> -</span>
                         {' '}
                         <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Our legal team issues notices to stop illegal recovery activities immediately.</span>
                       </p>
@@ -505,7 +505,7 @@ export default function ServicesPageClient() {
                     className="text-left mb-3" 
                     style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
                   >
-                    We recognize that life's financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
+                    We recognize that life’s financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
                   </p>
                   
                   {/* Left aligned pointers */}
@@ -627,7 +627,7 @@ export default function ServicesPageClient() {
                     className="text-left mb-3" 
                     style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
                   >
-                    Business loan defaults can threaten your company's future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
+                    Business loan defaults can threaten your company’s future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
                   </p>
                   
                   {/* Left aligned pointers */}
@@ -874,7 +874,7 @@ export default function ServicesPageClient() {
                       className="text-left mb-5" 
                       style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
                     >
-                      We recognize that life's financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
+                      We recognize that life’s financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
                     </p>
                     
                     {/* Pointers */}
@@ -1020,7 +1020,7 @@ export default function ServicesPageClient() {
                       className="text-left mb-5" 
                       style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
                     >
-                      Business loan defaults can threaten your company's future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
+                      Business loan defaults can threaten your company’s future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
                     </p>
                     
                     {/* Pointers */}
@@ -1407,7 +1407,7 @@ export default function ServicesPageClient() {
                   {/* Left: Header Section */}
                   <div className="flex flex-col items-start gap-4 md:gap-[21px] w-full lg:w-[365px]">
                     <h2 className="text-[28px] leading-[26px] md:leading-[32px] font-regular">
-                      <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We've Got </span>
+                      <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We’ve Got </span>
                       <span style={{ color: '#007AFF' }}>Answers.</span>
                     </h2>
                     <a href="/contact" className="text-[12px] md:text-[15px] leading-[14px] md:leading-[15px] font-normal">
@@ -1500,7 +1500,7 @@ export default function ServicesPageClient() {
                         className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Don't let debt control your life. Our expert team is ready to help you settle your debts, stop harassment, and rebuild your financial future. Get started today with a free consultation.
+                        Don’t let debt control your life. Our expert team is ready to help you settle your debts, stop harassment, and rebuild your financial future. Get started today with a free consultation.
                       </p>
                     </div>
 

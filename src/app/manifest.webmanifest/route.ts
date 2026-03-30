@@ -6,7 +6,7 @@ export function GET() {
       name: 'CredSettle',
       short_name: 'CredSettle',
       description:
-        "CredSettle is India's leading legal loan settlement company helping borrowers secure RBI-compliant debt resolutions.",
+        "CredSettle is India’s leading legal loan settlement company helping borrowers secure RBI-compliant debt resolutions.",
       start_url: '/',
       display: 'standalone',
       background_color: '#FFFFFF',

@@ -114,7 +114,7 @@ export default function FibeLoanSettlementClient() {
     },
     {
       question: "How do I stop harassment from Fibe recovery agents?",
-      answer: "Recovery agents are bound by **RBI guidelines** which prohibit harassment, abusive language, and calling at odd hours (before 8 AM or after 7 PM). If you are being harassed, you can file a complaint with Fibe's grievance redressal officer (Level 1). Engaging a legal settlement firm like CredSettle can also help, as we take over the communication and ensure professional conduct."
+      answer: "Recovery agents are bound by **RBI guidelines** which prohibit harassment, abusive language, and calling at odd hours (before 8 AM or after 7 PM). If you are being harassed, you can file a complaint with Fibe’s grievance redressal officer (Level 1). Engaging a legal settlement firm like CredSettle can also help, as we take over the communication and ensure professional conduct."
     },
     {
       question: "What documents do I need for Fibe loan settlement?",
@@ -122,7 +122,7 @@ export default function FibeLoanSettlementClient() {
     },
     {
       question: "How long does the Fibe loan settlement process take?",
-      answer: "The entire process, from the initial proposal to the final closure, typically takes between **2 to 5 weeks**. This timeline can vary based on how quickly the documents are submitted, the speed of the internal approvals at Fibe's end, and the complexity of the negotiation."
+      answer: "The entire process, from the initial proposal to the final closure, typically takes between **2 to 5 weeks**. This timeline can vary based on how quickly the documents are submitted, the speed of the internal approvals at Fibe’s end, and the complexity of the negotiation."
     },
     {
       question: "Can I get a loan in the future after settling my Fibe loan?",
@@ -299,7 +299,7 @@ export default function FibeLoanSettlementClient() {
 
               <h3 className="text-xl font-bold text-gray-900 mb-4">2. Demonstrable Financial Hardship</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                You cannot simply choose not to pay. You must prove *inability* to pay. Fibe's settlement officers will ask for evidence. This could be:
+                You cannot simply choose not to pay. You must prove *inability* to pay. Fibe’s settlement officers will ask for evidence. This could be:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6 text-gray-700">
                 <li>**Termination Letter / Resignation Acceptance:** Proving loss of employment.</li>
@@ -340,7 +340,7 @@ export default function FibeLoanSettlementClient() {
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">3</span>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Step 3: The Negotiation Phase</h4>
                   <p className="text-gray-600">
-                    This is where our expertise shines. Fibe will initially demand the full amount. We counter with a proposal based on your actual affordability—often starting at 20-30% of the principal. It is a back and forth process. We use your hardship documents as leverage. We highlight the futility of legal action against an insolvent borrower. Our goal is to waive off 100% of the interest and penal charges, and then negotiate a discount on the principal itself.
+                    This is where our expertise shines. Fibe will initially demand the full amount. We counter with a proposal based on your actual affordability-often starting at 20-30% of the principal. It is a back and forth process. We use your hardship documents as leverage. We highlight the futility of legal action against an insolvent borrower. Our goal is to waive off 100% of the interest and penal charges, and then negotiate a discount on the principal itself.
                   </p>
                 </div>
 
@@ -362,7 +362,7 @@ export default function FibeLoanSettlementClient() {
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">5</span>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">Step 5: Payment & Closure</h4>
                   <p className="text-gray-600">
-                    You make the payment directly to Fibe's official bank account (never to an agent's personal UPI). Once paid, we chase the team for the **"No Dues Certificate" (NDC)** or **"NOC"**. This document is your shield against any future claim. We also guide you to check your CIBIL report after 45-60 days to ensure the account status is updated from "Overdue" to "Settled".
+                    You make the payment directly to Fibe’s official bank account (never to an agent’s personal UPI). Once paid, we chase the team for the **"No Dues Certificate" (NDC)** or **"NOC"**. This document is your shield against any future claim. We also guide you to check your CIBIL report after 45-60 days to ensure the account status is updated from "Overdue" to "Settled".
                   </p>
                 </div>
 
@@ -377,34 +377,34 @@ export default function FibeLoanSettlementClient() {
                   <div>
                     <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">Identification</h5>
                     <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• E-Aadhaar Card (Full Copy)</li>
-                      <li>• PAN Card</li>
-                      <li>• Current Address Proof</li>
+                      <li>* E-Aadhaar Card (Full Copy)</li>
+                      <li>* PAN Card</li>
+                      <li>* Current Address Proof</li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">Loan Details</h5>
                     <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• Loan Account Number (found in Fibe app)</li>
-                      <li>• Loan Aggrement Copy (sent to email)</li>
-                      <li>• Recent Statement of Account (SOA)</li>
+                      <li>* Loan Account Number (found in Fibe app)</li>
+                      <li>* Loan Aggrement Copy (sent to email)</li>
+                      <li>* Recent Statement of Account (SOA)</li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">Hardship Proof</h5>
                     <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• Termination/Layoff Letter</li>
-                      <li>• Medical Records/Bills</li>
-                      <li>• Salary Slips showing pay cuts</li>
-                      <li>• Court orders (if any divorce/disputes)</li>
+                      <li>* Termination/Layoff Letter</li>
+                      <li>* Medical Records/Bills</li>
+                      <li>* Salary Slips showing pay cuts</li>
+                      <li>* Court orders (if any divorce/disputes)</li>
                     </ul>
                   </div>
                   <div>
                     <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">Communication</h5>
                     <ul className="space-y-2 text-sm text-gray-600">
-                      <li>• Screenshots of threatening messages</li>
-                      <li>• Copies of Legal Notices received</li>
-                      <li>• Call logs of harassment</li>
+                      <li>* Screenshots of threatening messages</li>
+                      <li>* Copies of Legal Notices received</li>
+                      <li>* Call logs of harassment</li>
                     </ul>
                   </div>
                 </div>
@@ -423,7 +423,7 @@ export default function FibeLoanSettlementClient() {
               <div className="bg-green-50 p-6 rounded-xl border border-green-200 mb-8">
                 <h4 className="font-bold text-green-900 mb-2">The Silver Lining</h4>
                 <p className="text-green-800 m-0">
-                  While "Settled" is bad, **"Written Off"** is worse. If you ignore the debt, it eventually becomes a "Write Off"—meaning the lender gave up. This destroys your score for much longer. "Settled" shows you were responsible enough to negotiate and pay something. Also, you **CAN** rebuild your score. By taking a small Secured Credit Card (against an FD) or a Gold Loan and paying it back on time, you can push your score back above 750 within 18-24 months. CredSettle offers a dedicated **Credit Builder Program** to help you on this journey post settlement.
+                  While "Settled" is bad, **"Written Off"** is worse. If you ignore the debt, it eventually becomes a "Write Off"-meaning the lender gave up. This destroys your score for much longer. "Settled" shows you were responsible enough to negotiate and pay something. Also, you **CAN** rebuild your score. By taking a small Secured Credit Card (against an FD) or a Gold Loan and paying it back on time, you can push your score back above 750 within 18-24 months. CredSettle offers a dedicated **Credit Builder Program** to help you on this journey post settlement.
                 </p>
               </div>
 
@@ -433,10 +433,10 @@ export default function FibeLoanSettlementClient() {
               </p>
               <h3 className="text-xl font-bold text-gray-900 mb-4">RBI Circular August 2022: Your Protection</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The Reserve Bank of India issued a notification (<strong>RBI/2022-23/92</strong>) specifically addressing the "Outsourcing of Financial Services - Responsibilities of Regulated Entities". This is the most powerful tool in a borrower's arsenal. It explicitly states that:
+                The Reserve Bank of India issued a notification (<strong>RBI/2022-23/92</strong>) specifically addressing the "Outsourcing of Financial Services - Responsibilities of Regulated Entities". This is the most powerful tool in a borrower’s arsenal. It explicitly states that:
               </p>
               <ul className="list-disc pl-6 space-y-4 mb-8 text-gray-700">
-                <li><strong>Lender Liability:</strong> Fibe (Social Worth Technologies) and its NBFC partners are fully responsible for the actions of their recovery agents. They cannot say "the agency did it, we didn't know."</li>
+                <li><strong>Lender Liability:</strong> Fibe (Social Worth Technologies) and its NBFC partners are fully responsible for the actions of their recovery agents. They cannot say "the agency did it, we didn’t know."</li>
                 <li><strong>Training:</strong> Agents must be trained to handle customers with sensitivity. Intimidation is a failure of this mandate.</li>
                 <li><strong>Recording:</strong> Lenders are required to record calls made by recovery agents. You have the right to ask for these recordings if a dispute arises.</li>
               </ul>
@@ -472,14 +472,14 @@ export default function FibeLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Suhail K., Bengaluru</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"I lost my job in the tech layoff and had a 4 Lakh loan with Fibe. The agents were calling my HR. I was suicidal. I contacted CredSettle. They immediately stopped the HR calls. They negotiated for 2 months and closed the loan for 1.4 Lakhs. I cannot thank them enough."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Anjali D., Pune</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"I was skeptical about settlement companies. But CredSettle was transparent. They told me honestly about the CIBIL impact. But the peace of mind they gave me from the daily 50+ calls was worth everything. Professional and legal approach."</p>
@@ -515,9 +515,9 @@ export default function FibeLoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ Legal Protection</p>
-                  <p className="mt-1">✓ Save up to 50%</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v Legal Protection</p>
+                  <p className="mt-1">v Save up to 50%</p>
                 </div>
               </div>
 

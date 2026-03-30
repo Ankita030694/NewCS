@@ -18,7 +18,7 @@ export async function POST(request: Request) {
       
       **Role**: Create a fully human-written, SEO-optimized, and authority-building blog article for CredSettle.
       
-      **Goal**: Rank #1 on Google. Follow Google's 2024–2025 SEO and E-E-A-T guidelines strictly.
+      **Goal**: Rank #1 on Google. Follow Google’s 2024-2025 SEO and E-E-A-T guidelines strictly.
       
       **Topic**: Target [${primaryKeyword}] with secondary keywords [${secondaryKeyword || ''}].
       
@@ -41,9 +41,9 @@ export async function POST(request: Request) {
       - **H1**: Blog title with the primary keyword.
       - **H2**: Main sections covering key legal aspects, practical tips, and solutions. Include primary keyword.
       - **H3/H4**: Subtopics, examples, step-by-step guidance, and case studies.
-      - **Introduction**: 2–3 paragraphs, hook the reader, mention primary keyword twice.
+      - **Introduction**: 2-3 paragraphs, hook the reader, mention primary keyword twice.
       - **Content**: Professional, authoritative, human tone. Actionable advice. Use bullet points/tables.
-      - **Conclusion**: 2–3 paragraphs summary + Call to Action.
+      - **Conclusion**: 2-3 paragraphs summary + Call to Action.
 
       **Return JSON Structure**:
       {

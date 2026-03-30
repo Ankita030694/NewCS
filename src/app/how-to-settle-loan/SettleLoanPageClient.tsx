@@ -114,7 +114,7 @@ export default function SettleLoanPageClient() {
                 How to <span className="text-[#007AFF]">Settle Loan</span> Legally Online
               </h1>
               <p className="text-lg text-gray-700 leading-relaxed font-poppins">
-                Looking for the best way to <strong>settle loan</strong> dues? Don't rely on unverified apps. Get legal-backed debt settlement that protects you from harassment and saves you up to 50%.
+                Looking for the best way to <strong>settle loan</strong> dues? Don’t rely on unverified apps. Get legal-backed debt settlement that protects you from harassment and saves you up to 50%.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <CTAButton>
@@ -144,7 +144,7 @@ export default function SettleLoanPageClient() {
                         </div>
                     </div>
                      <p className="text-center text-sm text-gray-500 mt-4">
-                        Legal Protection • No Harassment • NOC Guarantee
+                        Legal Protection * No Harassment * NOC Guarantee
                     </p>
                 </div>
             </div>
@@ -174,7 +174,7 @@ export default function SettleLoanPageClient() {
                             <strong>Loan Settlement is a legal financial process.</strong> It is not charity. It is a negotiation between a borrower who <em>cannot</em> pay and a bank that wants to recover <em>at least something</em>.
                         </p>
                         <p>
-                            At CredSettle, we don't just use software; we use the law. When you search for "<strong>settleloan</strong>" or "settlement agency," you are looking for someone to stand between you and the bank. That "someone" should be a lawyer, not an algorithm.
+                            At CredSettle, we don’t just use software; we use the law. When you search for "<strong>settleloan</strong>" or "settlement agency," you are looking for someone to stand between you and the bank. That "someone" should be a lawyer, not an algorithm.
                         </p>
                     </div>
                 </section>
@@ -228,7 +228,7 @@ export default function SettleLoanPageClient() {
                                 <p className="text-sm mt-1">
                                     <strong>Status:</strong> High risk.
                                     <br/><strong>Bank Action:</strong> Aggressive recovery agents start visiting. Call intensity peaks. Section 138 notices may be drafted.
-                                    <br/><strong>Our Action:</strong> <strong>Redirect All Calls.</strong> Our lawyers issue Cease & Desist notices to agents violating RBI norms. We file complaints with the bank's Nodal Officer. We engage the bank for settlement, but they usually reject or offer 10% waiver. We deny.
+                                    <br/><strong>Our Action:</strong> <strong>Redirect All Calls.</strong> Our lawyers issue Cease & Desist notices to agents violating RBI norms. We file complaints with the bank’s Nodal Officer. We engage the bank for settlement, but they usually reject or offer 10% waiver. We deny.
                                 </p>
                             </div>
 
@@ -289,7 +289,7 @@ export default function SettleLoanPageClient() {
                     <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Process & Documents Checklist</h2>
                     <div className="space-y-6 text-gray-700 font-poppins text-base leading-7">
                         <p>
-                            To successfully <strong>settle loan</strong>, we build a "dossier" for you. This file is presented to the bank's committee.
+                            To successfully <strong>settle loan</strong>, we build a "dossier" for you. This file is presented to the bank’s committee.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                              <div className="border border-blue-100 bg-blue-50 p-4 rounded-lg">
@@ -314,14 +314,14 @@ export default function SettleLoanPageClient() {
 
                 {/* Scam Alert */}
                 <section id="scam-alert" className="mb-12 scroll-mt-24">
-                    <h2 className="text-2xl lg:text-3xl font-bold text-red-600 mb-6">⚠️ Scams to Avoid in Loan Settlement</h2>
+                    <h2 className="text-2xl lg:text-3xl font-bold text-red-600 mb-6">⚠ Scams to Avoid in Loan Settlement</h2>
                     <div className="bg-red-50 p-6 rounded-xl border border-red-100 text-gray-700">
                         <p className="mb-4">
                             The "debt relief" industry is full of fraud. Be very careful.
                         </p>
                         <ul className="list-disc pl-6 space-y-3">
-                            <li><strong>Fake Settlement Letters:</strong> Scammers send you a PDF on WhatsApp that looks like an HDFC/SBI letterhead asking for payment to a personal UPI ID. <strong>Outcome:</strong> You lose money, debt remains. <br/><em>Solution:</em> CredSettle verifies every letter's authenticity with the bank's backend.</li>
-                            <li><strong>"Data Deletion" Services:</strong> Someone claims they will "hack the massive CIBIL server" to delete your loan for ₹5000. <strong>Outcome:</strong> It's a lie. <br/><em>Solution:</em> Only legal settlement works.</li>
+                            <li><strong>Fake Settlement Letters:</strong> Scammers send you a PDF on WhatsApp that looks like an HDFC/SBI letterhead asking for payment to a personal UPI ID. <strong>Outcome:</strong> You lose money, debt remains. <br/><em>Solution:</em> CredSettle verifies every letter’s authenticity with the bank’s backend.</li>
+                            <li><strong>"Data Deletion" Services:</strong> Someone claims they will "hack the massive CIBIL server" to delete your loan for ₹5000. <strong>Outcome:</strong> It’s a lie. <br/><em>Solution:</em> Only legal settlement works.</li>
                             <li><strong>Upfront Outcome Guarantee:</strong> If anyone guarantees "70% waiver" on Day 1, they are lying. Waivers depend on negotiation. We promise <em>representation</em>, best <em>effort</em>, and <em>protection</em>, but specific % depends on the case.</li>
                         </ul>
                     </div>
@@ -335,13 +335,13 @@ export default function SettleLoanPageClient() {
                             This is the most common question: "What happens to my CIBIL?"
                         </p>
                         <p className="mb-4">
-                            <strong>Short Term (0-12 Months):</strong> It will drop. The account status will change to "Settled" or "Post-Write-off Settled". This is a negative flag. It indicates you didn't pay in full.
+                            <strong>Short Term (0-12 Months):</strong> It will drop. The account status will change to "Settled" or "Post-Write-off Settled". This is a negative flag. It indicates you didn’t pay in full.
                         </p>
                         <p className="mb-4">
                             <strong>Long Term (12-24 Months):</strong> It is better than "Default". A "Default" status means the specific account is still open, accruing interest, and you are risky. A "Settled" status means the account is CLOSED. The bleeding has stopped.
                         </p>
                         <p className="mb-4 font-bold text-[#007AFF]">
-                            CredSettle's Post-Settlement Plan:
+                            CredSettle’s Post-Settlement Plan:
                         </p>
                         <ul className="list-decimal pl-6 space-y-2">
                             <li>We ensure the bank updates the status from "Written Off" to "Settled" within 45 days.</li>
@@ -356,7 +356,7 @@ export default function SettleLoanPageClient() {
                      <div className="bg-[#0C2756] p-8 rounded-3xl text-center text-white">
                         <h2 className="text-2xl lg:text-3xl font-bold mb-4">Why Choose CredSettle?</h2>
                         <p className="mb-8 max-w-2xl mx-auto opacity-90">
-                            We are not just an app. We are a team of advocates, financial auditors, and ex-bankers. We don't just "<strong>settle loan</strong>"; we liberate you from the banking system's trap.
+                            We are not just an app. We are a team of advocates, financial auditors, and ex-bankers. We don’t just "<strong>settle loan</strong>"; we liberate you from the banking system’s trap.
                         </p>
                         <CTAButton>
                              Get a Legal Consultation Now

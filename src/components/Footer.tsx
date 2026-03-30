@@ -239,6 +239,12 @@ export default function Footer() {
                   <a href="/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Salaried Individuals Plans</a>
                   <a href="/what-are-the-interest-savings-by-settling-loans-early-through-digital-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Interest Savings by Settling Loans Early</a>
                   <a href="/which-professional-services-assist-in-negotiating-loan-settlement-terms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Negotiating Loan Settlement Terms</a>
+              <a href="/understanding-90-day-loan-default-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Understanding 90 Day Loan Default India</a>
+              <a href="/do-banks-file-fir-for-credit-card-dues" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Do Banks File FIR for Credit Card Dues?</a>
+              <a href="/is-loan-settlement-illegal-in-india-truth" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Is Loan Settlement Illegal in India? Truth</a>
+              <a href="/is-cibil-ruined-forever-after-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Is CIBIL Ruined Forever After Settlement?</a>
+              <a href="/can-recovery-agents-abuse-you-legally-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can Recovery Agents Abuse You Legally?</a>
+
 
               </div>
           </div>

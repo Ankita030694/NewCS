@@ -28,7 +28,7 @@ export default function BadLoanRecoveryStrategyPage() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Bad Loan Recovery Strategy: A Comprehensive Legal Guide for India 2025",
-        "description": "An in-depth analysis of legal and regulatory frameworks for managing and recovering bad loans in India, covering SARFAESI, IBC, and RBI's latest 2025 directions.",
+        "description": "An in-depth analysis of legal and regulatory frameworks for managing and recovering bad loans in India, covering SARFAESI, IBC, and RBI’s latest 2025 directions.",
         "image": "https://www.credsettle.com/images/bad-loan-recovery.jpg",
         "author": {
             "@type": "Organization",

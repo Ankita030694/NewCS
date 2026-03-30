@@ -366,8 +366,8 @@ export default function CheckBounceLawyerClient() {
                                     <li><strong>1. Filing and Verification:</strong> The complainant files the case. The court verifies the documents.</li>
                                     <li><strong>2. Cognizance and Summons:</strong> The Magistrate takes cognizance of the offense and summons the accused.</li>
                                     <li><strong>3. Appearance and Bail:</strong> Transitioning to the accused side. Upon receiving summons, you must appear. Because Section 138 is a bailable offense, you are typically granted bail on the first day, provided you furnish a surety.</li>
-                                    <li><strong>4. Framing of Notice/Notice of Accusation:</strong> This is a critical stage. The court asks if you plead guilty. If you say no, you must state your "Plea of Defense." This is when your lawyer must outline the core arguments— misused check, no debt, etc.</li>
-                                    <li><strong>5. Complainant's Evidence:</strong> The complainant is cross examined by your lawyer. This is where most cases are won or lost. A skilled cross examiner will expose inconsistencies in the complainant's income sources or the timeline of the loan.</li>
+                                    <li><strong>4. Framing of Notice/Notice of Accusation:</strong> This is a critical stage. The court asks if you plead guilty. If you say no, you must state your "Plea of Defense." This is when your lawyer must outline the core arguments- misused check, no debt, etc.</li>
+                                    <li><strong>5. Complainant’s Evidence:</strong> The complainant is cross examined by your lawyer. This is where most cases are won or lost. A skilled cross examiner will expose inconsistencies in the complainant’s income sources or the timeline of the loan.</li>
                                     <li><strong>6. Statement of Accused:</strong> Under Section 313 of the CrPC, the court asks you to explain the circumstances appearing against you. This is your chance to tell your story.</li>
                                     <li><strong>7. Defense Evidence:</strong> You can call witnesses or present bank statements to prove your defense.</li>
                                     <li><strong>8. Final Arguments and Judgment:</strong> Both sides present their legal theories based on case law. The court then delivers the verdict.</li>
@@ -507,7 +507,7 @@ export default function CheckBounceLawyerClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -534,9 +534,9 @@ export default function CheckBounceLawyerClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Specialized Section 138 Defense</p>
-                                    <p>✓ Legal Protection from Harassment</p>
-                                    <p>✓ Experienced Banking Lawyers</p>
+                                    <p>v Specialized Section 138 Defense</p>
+                                    <p>v Legal Protection from Harassment</p>
+                                    <p>v Experienced Banking Lawyers</p>
                                 </div>
                             </div>
 

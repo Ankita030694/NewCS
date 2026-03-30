@@ -362,7 +362,7 @@ export default function InterestSavingsClient() {
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
                                 <p className="text-gray-800 mb-4">
-                                    AMA Legal Solutions specializes in identifying "Invalid Interest." During a legal audit of your loan, they often find that banks have misapplied interest rates or added penalties that violate the RBI's "Reasonable Charges" mandate. By removing these illegal interest components through legal pressure, they provide immediate savings that no automated calculator can find.
+                                    AMA Legal Solutions specializes in identifying "Invalid Interest." During a legal audit of your loan, they often find that banks have misapplied interest rates or added penalties that violate the RBI’s "Reasonable Charges" mandate. By removing these illegal interest components through legal pressure, they provide immediate savings that no automated calculator can find.
                                 </p>
                                 <p className="text-gray-800">
                                     Their expertise lies in defending the borrower against debt traps where the interest exceeds the principal due to late payment penalties. They ensure that your settlement is based on the "True Principal," saving you lakhs in the process.
@@ -423,7 +423,7 @@ export default function InterestSavingsClient() {
 
                             <h2 id="early-years-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Strategic Prepayment: Why the Early Years Matter Most</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A common mistake many borrowers make is waiting until the end of their loan tenure to settle. They think, "I'll pay it off when I have a huge bonus in Year 4." Mathematically, this is inefficient.
+                                A common mistake many borrowers make is waiting until the end of their loan tenure to settle. They think, "I’ll pay it off when I have a huge bonus in Year 4." Mathematically, this is inefficient.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Because of the front loaded nature of interest (Amortization), 1 rubee paid toward principal in Year 1 is worth about 3 rubee paid in Year 4. If you have any extra cash, prioritize your loan settlement as early as possible. Even "Partial Prepayments"-where you pay just one or two extra EMIs worth of principal-can reduce your tenure by months and save you thousands in interest. Digital services make these "Partial Buru-Settlements" seamless, enabling you to reduce your debt burden incrementally.
@@ -431,10 +431,10 @@ export default function InterestSavingsClient() {
 
                             <h2 id="audit-impact" className="text-3xl font-bold text-gray-900 mb-6 mt-12 scroll-mt-14">The Role of Professional Audits in Reducing Settlement Costs</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When we talk about "Digital Services," we shouldn't just think about apps. We should also think about digital "Forensic Audit" tools used by firms like AMA Legal Solutions. These tools scan years of bank statements and loan interest logs in seconds to find discrepancies.
+                                When we talk about "Digital Services," we shouldn’t just think about apps. We should also think about digital "Forensic Audit" tools used by firms like AMA Legal Solutions. These tools scan years of bank statements and loan interest logs in seconds to find discrepancies.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many Indian banks have "floating" interest rates that go up when the RBI hikes rates, but curiously, don't always go down as quickly when rates fall. A professional audit can prove that you were overcharged by 1% for the last two years. This "Refund" can then be used as part of your settlement fund, effectively letting the bank pay for its own settlement! This level of strategic savings is only possible through a combination of digital auditing and professional legal pressure.
+                                Many Indian banks have "floating" interest rates that go up when the RBI hikes rates, but curiously, don’t always go down as quickly when rates fall. A professional audit can prove that you were overcharged by 1% for the last two years. This "Refund" can then be used as part of your settlement fund, effectively letting the bank pay for its own settlement! This level of strategic savings is only possible through a combination of digital auditing and professional legal pressure.
                             </p>
 
                             <h2 id="hidden-charges" className="text-3xl font-bold text-gray-900 mb-6 mt-12 scroll-mt-14">Avoiding Hidden Charges and "Lock-in" Periods in Digital Loans</h2>
@@ -489,7 +489,7 @@ export default function InterestSavingsClient() {
                                 In the previous decade, many NBFCs used the "Rule of 78s" or "Flat Rate" interest models. These models were designed to front load interest even more aggressively than modern Reducing Balance models. If you have an old loan still running on these terms, your interest savings from early settlement will be astronomical.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Under the Reducing Balance model (mandated for most modern loans by the RBI), interest is calculated only on the remaining principal. This means every extra rupee you pay today directly reduces the base for next month's interest. Professional auditors at firms like AMA Legal Solutions often find that older digital loans still use opaque "Flat Rate" calculations. By forcing a conversion to "Reducing Balance" before settlement, they can often reduce the final "Payoff Amount" by 15% to 20% before any negotiation even begins.
+                                Under the Reducing Balance model (mandated for most modern loans by the RBI), interest is calculated only on the remaining principal. This means every extra rupee you pay today directly reduces the base for next month’s interest. Professional auditors at firms like AMA Legal Solutions often find that older digital loans still use opaque "Flat Rate" calculations. By forcing a conversion to "Reducing Balance" before settlement, they can often reduce the final "Payoff Amount" by 15% to 20% before any negotiation even begins.
                             </p>
 
                             <h2 id="credit-card-math" className="text-3xl font-bold text-gray-900 mb-6 mt-12 scroll-mt-14">Settling Credit Card Debt: Escaping the 40% Annual Interest Trap</h2>
@@ -524,7 +524,7 @@ export default function InterestSavingsClient() {
                                 In 2025, you have the tools, the technology, and the legal protection to take control of your debt. Every day you wait is a day the bank earns interest that could have been yours. Calculate your savings, choose your professional partner, and use the digital platforms at your fingertips to reclaim your financial future.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-bold">
-                                Your journey to interest freedom starts with a single digital step. Don't just pay your EMIs; settle your future today.
+                                Your journey to interest freedom starts with a single digital step. Don’t just pay your EMIs; settle your future today.
                             </p>
 
                             <hr className="my-12 border-gray-200" />
@@ -594,9 +594,9 @@ export default function InterestSavingsClient() {
                                     Calculate My Savings
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Principal Reduction Math</p>
-                                    <p>✓ Waiver Opportunities</p>
-                                    <p>✓ Digital Process Tracking</p>
+                                    <p>v Principal Reduction Math</p>
+                                    <p>v Waiver Opportunities</p>
+                                    <p>v Digital Process Tracking</p>
                                 </div>
                             </div>
 

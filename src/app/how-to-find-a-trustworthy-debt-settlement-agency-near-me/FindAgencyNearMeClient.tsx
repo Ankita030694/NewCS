@@ -52,7 +52,7 @@ const FindAgencyNearMeClient = () => {
             answer: "A national agency with a local legal network is often the best choice. They have the institutional power to talk to bank headquarters and the local presence to defend you in city-specific courts."
         },
         {
-            question: "How do I verify a 'near me' agency's physical office?",
+            question: "How do I verify a 'near me' agency’s physical office?",
             answer: "Always ask for a Google Maps location and check if the photos show a branded office space. In 2025, you should also check their GST registration address to ensure it matches their stated location."
         },
         {
@@ -77,7 +77,7 @@ const FindAgencyNearMeClient = () => {
         },
         {
             question: "What legal protection can a local agency provide against Section 138?",
-            answer: "A local legal network can represent you in the specific magistrate court where the case is filed, helping you secure bail and negotiating with the lender's lawyer on-site."
+            answer: "A local legal network can represent you in the specific magistrate court where the case is filed, helping you secure bail and negotiating with the lender’s lawyer on-site."
         },
         {
             question: "Can I switch from a national agency to a local one mid-way?",
@@ -266,12 +266,12 @@ const FindAgencyNearMeClient = () => {
 
                             <h2 id="local-vs-national" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-800 tracking-tighter italic">National Power vs Local Presence</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 font-light italic">
-                                Why can't a tiny local consultant often secure the same results as a large firm? The answer lies in the 'Settlement Hierarchy'.
+                                Why can’t a tiny local consultant often secure the same results as a large firm? The answer lies in the 'Settlement Hierarchy'.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-blue-50/50 border border-blue-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
                                     <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The National Advantage</h4>
-                                    <p className="text-sm text-blue-800/80 leading-relaxed font-light">Large agencies deal with the central settlement verticals of banks like HDFC, ICICI, and SBI. They negotiate thousands of cases, giving them leverage that a local agent simply doesn't have.</p>
+                                    <p className="text-sm text-blue-800/80 leading-relaxed font-light">Large agencies deal with the central settlement verticals of banks like HDFC, ICICI, and SBI. They negotiate thousands of cases, giving them leverage that a local agent simply doesn’t have.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 border border-indigo-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
                                     <h4 className="text-xl font-bold text-indigo-900 mb-4 tracking-tight">The Local Necessity</h4>
@@ -292,7 +292,7 @@ const FindAgencyNearMeClient = () => {
 
                             <h2 id="localized-harassment" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-700">Defense Against Local Recovery Agents</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                The biggest fear for many borrowers is the 'unannounced visit'. Recovery agents often use intimidation tactics that violate RBI's Fair Practices Code. A trustworthy 'near me' agency must have a response protocol for your specific city. 
+                                The biggest fear for many borrowers is the 'unannounced visit'. Recovery agents often use intimidation tactics that violate RBI’s Fair Practices Code. A trustworthy 'near me' agency must have a response protocol for your specific city. 
                             </p>
                             <div className="my-12 p-10 bg-gradient-to-br from-gray-900 to-blue-900 rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
@@ -307,7 +307,7 @@ const FindAgencyNearMeClient = () => {
                                 Legal cases related to debt (Section 138, Cheque Bounce, or Civil Suits) are filed in the jurisdiction where the bank or the borrower is located. This means a firm in Mumbai might not be able to help you in a Chennai court unless they have a network.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 leading-relaxed">
-                                A high-quality agency like CredSettle maintains an empanelled list of advocates across all major Indian cities. This ensures that if you receive a summons, a local lawyer who understands the specific magistrate's court in your city will be there to represent you. 
+                                A high-quality agency like CredSettle maintains an empanelled list of advocates across all major Indian cities. This ensures that if you receive a summons, a local lawyer who understands the specific magistrate’s court in your city will be there to represent you. 
                             </p>
 
                             <h2 id="review-authenticity" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-indigo-800 uppercase tracking-widest">Section 4: Decoding Local Reviews</h2>
@@ -344,7 +344,7 @@ const FindAgencyNearMeClient = () => {
 
                             <h2 id="nodal-officer" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase">Section 7: The Local Nodal Officer Relationship</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Every bank in India is required to have a 'Nodal Officer' for grievance redressal. A trustworthy 'near me' agency doesn't just talk to agents; they have a direct line to these officers.
+                                Every bank in India is required to have a 'Nodal Officer' for grievance redressal. A trustworthy 'near me' agency doesn’t just talk to agents; they have a direct line to these officers.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 Why does this matter? Because a Nodal Officer has the authority to:
@@ -353,7 +353,7 @@ const FindAgencyNearMeClient = () => {
                                 3. Fast-track a settlement approval if there is a medical or financial emergency.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 italic">
-                                During your consultation, ask the agency if they have a list of Nodal Officers for major banks in your city. If they don't know who a Nodal Officer is, they are likely just a marketing firm outsourcing the work.
+                                During your consultation, ask the agency if they have a list of Nodal Officers for major banks in your city. If they don’t know who a Nodal Officer is, they are likely just a marketing firm outsourcing the work.
                             </p>
 
                             <h2 id="court-walkthrough" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Walkthrough: What Happens at the Local Magistrate Court?</h2>
@@ -367,11 +367,11 @@ const FindAgencyNearMeClient = () => {
                                 </div>
                                 <div className="p-8 bg-gray-50 border border-gray-100 rounded-3xl">
                                     <h4 className="font-bold text-gray-900 mb-2 italic">Phase 2: Formal Representation</h4>
-                                    <p className="text-sm text-gray-600 leading-relaxed">On the hearing date, an empanelled advocate from the agency's local network represents you. They handle the talk with the magistrate, ensuring your side of the story is heard.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed">On the hearing date, an empanelled advocate from the agency’s local network represents you. They handle the talk with the magistrate, ensuring your side of the story is heard.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 border border-gray-100 rounded-3xl">
                                     <h4 className="font-bold text-gray-900 mb-2 italic">Phase 3: Mediation and Closure</h4>
-                                    <p className="text-sm text-gray-600 leading-relaxed">The court often suggests mediation. This is where the agency's negotiation power shines, turning a court case into a beneficial settlement opportunity.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed">The court often suggests mediation. This is where the agency’s negotiation power shines, turning a court case into a beneficial settlement opportunity.</p>
                                 </div>
                             </div>
 
@@ -390,7 +390,7 @@ const FindAgencyNearMeClient = () => {
 
                             <h2 id="community-impact" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic">Section 8: The Impact of Localized Debt Relief</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Why is localized relief so much more effective? It's about 'Community Understanding'. A provider near you understands the local economy, the job market (e.g., IT layoffs in Bengaluru vs manufacturing shifts in Pune), and the regional bank policies.
+                                Why is localized relief so much more effective? It’s about 'Community Understanding'. A provider near you understands the local economy, the job market (e.g., IT layoffs in Bengaluru vs manufacturing shifts in Pune), and the regional bank policies.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8 italic font-light leading-relaxed">
                                 A trustworthy local agency gives you more than a settlement; they give you 'Social Peace'. When an agency can represent you at your local police station to stop illegal recovery FIRs, they are preserving your reputation within your own community. This is something a faceless national call center can never achieve.
@@ -438,7 +438,7 @@ const FindAgencyNearMeClient = () => {
 
                             <h2 id="local-recovery-culture" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase">Section 6: Understanding Local Recovery Culture</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                India's debt collection landscape is not uniform. The 'recovery culture' in North India (Delhi-NCR) is markedly different from that in South India (Bengaluru, Chennai). A trustworthy provider must understand these nuances to protect you effectively.
+                                India’s debt collection landscape is not uniform. The 'recovery culture' in North India (Delhi-NCR) is markedly different from that in South India (Bengaluru, Chennai). A trustworthy provider must understand these nuances to protect you effectively.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-blue-50/50 border border-blue-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
@@ -453,7 +453,7 @@ const FindAgencyNearMeClient = () => {
 
                             <h2 id="city-legal-nuance" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Legal Nuance: Jurisdiction and Magistrate Courts</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                If you receive a notice under Section 138 (Cheque Bounce), it is likely filed in the city where the bank's technical department is located. For example, many banks file their cases in specialized courts in Delhi or Mumbai. 
+                                If you receive a notice under Section 138 (Cheque Bounce), it is likely filed in the city where the bank’s technical department is located. For example, many banks file their cases in specialized courts in Delhi or Mumbai. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 A 'near me' agency is only truly effective if they can handle cross-city legal representation. If you are in Pune, but your case is in a Mumbai court, a provider like CredSettle handles this by deploying their empanelled advocate specifically for that Mumbai hearing. This avoids the need for you to travel or find a separate lawyer.
@@ -508,7 +508,7 @@ const FindAgencyNearMeClient = () => {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Local Search</h3>
-                                <p className="text-blue-800 mb-6">Finding local relief requires more than a simple Google search. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while providing localized legal defense.</p>
+                                <p className="text-blue-800 mb-6">Finding local relief requires more than a simple Google search. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while providing localized legal defense.</p>
                                 <Link
                                     href="/contact-us"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -531,9 +531,9 @@ const FindAgencyNearMeClient = () => {
                                     Request Free Review
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 

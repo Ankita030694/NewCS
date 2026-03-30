@@ -87,15 +87,15 @@ export default function RBLBankLoanSettlementClient() {
     },
     {
       question: "I have a Bajaj Finserv RBL SuperCard. Who should I contact for settlement?",
-      answer: "This is a common confusion. The 'SuperCard' is a co-branded product, but the credit risk is owned by RBL Bank. Therefore, you must negotiate with RBL Bank's recovery department, not Bajaj Finserv. However, the collection calls might come from agencies empanelled by either entity."
+      answer: "This is a common confusion. The 'SuperCard' is a co-branded product, but the credit risk is owned by RBL Bank. Therefore, you must negotiate with RBL Bank’s recovery department, not Bajaj Finserv. However, the collection calls might come from agencies empanelled by either entity."
     },
     {
       question: "Does RBL Bank send legal notices to home?",
-      answer: "Yes, sending a legal notice is a standard first step in the recovery escalation matrix. It serves as a warning. While the notice itself doesn't mean immediate court action, it is a precursor to Arbitration or Conciliation proceedings. Do not ignore it."
+      answer: "Yes, sending a legal notice is a standard first step in the recovery escalation matrix. It serves as a warning. While the notice itself doesn’t mean immediate court action, it is a precursor to Arbitration or Conciliation proceedings. Do not ignore it."
     },
     {
       question: "Will settling my RBL loan stop the harassment from recovery agents?",
-      answer: "Absolutely. Once the Settlement Letter is generated and the first payment is made, the account status in the bank's system changes. The allocation to third-party recovery agencies is revoked, and the calls should stop within 48-72 hours."
+      answer: "Absolutely. Once the Settlement Letter is generated and the first payment is made, the account status in the bank’s system changes. The allocation to third-party recovery agencies is revoked, and the calls should stop within 48-72 hours."
     },
     {
       question: "Can RBL Bank automatically deduct the dues from my other bank accounts?",
@@ -139,7 +139,7 @@ export default function RBLBankLoanSettlementClient() {
     },
     {
       question: "Why should I use CredSettle for RBL Bank settlement?",
-      answer: "RBL Bank's recovery team is known to be aggressive. We provide a legal shield. We handle the nasty calls, the arbitration notices, and the negotiation math. We ensure you get a valid, legally binding closure letter, protecting you from future zombie debt claims."
+      answer: "RBL Bank’s recovery team is known to be aggressive. We provide a legal shield. We handle the nasty calls, the arbitration notices, and the negotiation math. We ensure you get a valid, legally binding closure letter, protecting you from future zombie debt claims."
     }
   ];
 
@@ -250,7 +250,7 @@ export default function RBLBankLoanSettlementClient() {
               <h2 id="default-timeline" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Default Timeline: What to Expect</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  Understanding the "lifecycle of a default" gives you the power to predict the bank's next move. RBL Bank typically follows this escalation matrix:
+                  Understanding the "lifecycle of a default" gives you the power to predict the bank’s next move. RBL Bank typically follows this escalation matrix:
                 </p>
                 <div className="space-y-6">
                   <div className="relative border-l-4 border-gray-200 pl-6 ml-2">
@@ -279,7 +279,7 @@ export default function RBLBankLoanSettlementClient() {
               <h2 id="supercard-special" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The RBL-Bajaj SuperCard Complication</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  A significant portion of RBL Bank's credit card portfolio consists of the "SuperCard," co-branded with Bajaj Finserv. This creates unique confusion for defaulters.
+                  A significant portion of RBL Bank’s credit card portfolio consists of the "SuperCard," co-branded with Bajaj Finserv. This creates unique confusion for defaulters.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
@@ -288,7 +288,7 @@ export default function RBLBankLoanSettlementClient() {
                   </div>
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
                     <h4 className="font-bold text-blue-800 mb-2">Double Whammy Calls</h4>
-                    <p className="text-sm">You might receive calls from agencies representing Bajaj regarding your EMI card and separate agencies for the RBL card. It feels like a coordinated attack, but they are often separate silos. Don't let the volume of calls intimidate you.</p>
+                    <p className="text-sm">You might receive calls from agencies representing Bajaj regarding your EMI card and separate agencies for the RBL card. It feels like a coordinated attack, but they are often separate silos. Don’t let the volume of calls intimidate you.</p>
                   </div>
                 </div>
               </div>
@@ -306,7 +306,7 @@ export default function RBLBankLoanSettlementClient() {
                     <strong>Legal Notice Response:</strong> If you have received a demand notice or a Section 138 notice, our legal team replies to it. This shifts the conversation from "harassment" to "legal negotiation".
                   </li>
                   <li>
-                    <strong>The Proposal:</strong> We proactively send a settlement proposal to the bank's central debt recovery unit. We seek to remove all penal interest, late fees, and over-limit charges.
+                    <strong>The Proposal:</strong> We proactively send a settlement proposal to the bank’s central debt recovery unit. We seek to remove all penal interest, late fees, and over-limit charges.
                   </li>
                   <li>
                     <strong>The Approval Letter:</strong> Once the amount is agreed (say, ₹50,000 against a due of ₹1.2 Lakhs), RBL Bank issues a formal <strong>Settlement Letter</strong>. We verify this letter for the "Full and Final" clause before you pay a single rupee.
@@ -407,8 +407,8 @@ export default function RBLBankLoanSettlementClient() {
                   Consult Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ No Fees Upfront</p>
-                  <p className="mt-1">✓ Legal Representation</p>
+                  <p>v No Fees Upfront</p>
+                  <p className="mt-1">v Legal Representation</p>
                 </div>
               </div>
 

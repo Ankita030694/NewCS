@@ -303,7 +303,7 @@ export default function ChequeBounceClient() {
               <h2 id="timeline" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Strict Timeline for Filing a 138 Case</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Time is of the essence in a <strong>cheque bounce case in Kolkata</strong>. The law is very strict about deadlines, and even a single day's delay can result in the dismissal of your case. Here is the exact timeline you must follow:
+                  Time is of the essence in a <strong>cheque bounce case in Kolkata</strong>. The law is very strict about deadlines, and even a single day’s delay can result in the dismissal of your case. Here is the exact timeline you must follow:
                 </p>
                 <div className="bg-gray-100 p-6 rounded-2xl">
                   <ol className="list-decimal pl-6 space-y-4">
@@ -345,7 +345,7 @@ export default function ChequeBounceClient() {
                   One of the biggest complaints about the Indian legal system is the time it takes for a case to reach a verdict. To address this, the government introduced Section 143A in 2018. This amendment allows the court to order the drawer of a bounced cheque to pay interim compensation to the complainant.
                 </p>
                 <p>
-                  This interim compensation can be up to 20% of the value of the cheque. The payment is typically ordered at the stage of framing charges. The drawer must pay this amount within 60 days (extendable by another 30 days) of the court's order. This provides immediate financial relief to the victim and puts pressure on the drawer to settle the case faster.
+                  This interim compensation can be up to 20% of the value of the cheque. The payment is typically ordered at the stage of framing charges. The drawer must pay this amount within 60 days (extendable by another 30 days) of the court’s order. This provides immediate financial relief to the victim and puts pressure on the drawer to settle the case faster.
                 </p>
                 <p>
                   In the context of a <strong>cheque bounce case in Kolkata</strong>, Section 143A has been a game-changer. It ensures that the litigation process is not just a battle of dates but also involves real financial implications for the accused from the very beginning. If the accused is eventually acquitted, the complainant is required to return the interim compensation with interest, but in most valid debt cases, this provision serves as a strong tool for recovery.
@@ -387,7 +387,7 @@ export default function ChequeBounceClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "I was struggling with a bounced cheque for over 8 months. CredSettle legal team handled the case at Bankshall Court very professionally. Recovered my full 4 lakhs within 5 hearings!"
@@ -396,7 +396,7 @@ export default function ChequeBounceClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "The legal notice they drafted was so powerful that the drawer settled the amount within 10 days of receiving it. Saved me from a long court battle. Best Section 138 lawyers in Kolkata."
@@ -405,7 +405,7 @@ export default function ChequeBounceClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "Very transparent about the procedure and fees. They helped me get the 20% interim compensation ordered in the very first stage. Highly recommended."
@@ -414,7 +414,7 @@ export default function ChequeBounceClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "Effective and result-oriented. My company was facing multiple cheque bounce issues, and CredSettle managed all the notices and filings perfectly."
@@ -436,7 +436,7 @@ export default function ChequeBounceClient() {
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
                   <h2 className="text-3xl font-bold mb-4">Ready to Recover Your Money?</h2>
-                  <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don't let a cheque bounce stop your business. Get in touch with Kolkata's top Section 138 legal experts today.</p>
+                  <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don’t let a cheque bounce stop your business. Get in touch with Kolkata’s top Section 138 legal experts today.</p>
                   <Link 
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg"

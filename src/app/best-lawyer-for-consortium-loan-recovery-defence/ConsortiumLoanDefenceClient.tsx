@@ -81,7 +81,7 @@ export default function ConsortiumLoanDefenceClient() {
         },
         {
             question: 'What is the Inter-Creditor Agreement (ICA)?',
-            answer: 'The ICA is a binding agreement signed by banks under the RBI\'s June 7, 2019 circular. it mandates that all lenders in a consortium or multiple banking arrangement follow a unified resolution strategy once a default occurs. If a lead bank or a majority of banks agree to a settlement, the dissenting minority banks are bound by that decision.'
+            answer: 'The ICA is a binding agreement signed by banks under the RBI’s June 7, 2019 circular. it mandates that all lenders in a consortium or multiple banking arrangement follow a unified resolution strategy once a default occurs. If a lead bank or a majority of banks agree to a settlement, the dissenting minority banks are bound by that decision.'
         },
         {
             question: 'Can a single bank in a consortium initiate SARFAESI action independently?',
@@ -89,22 +89,22 @@ export default function ConsortiumLoanDefenceClient() {
         },
         {
             question: 'What are the common legal defences in consortium loan recovery cases?',
-            answer: 'Common defences include challenging the validity of the inter-creditor coordination, pointing out discrepancies in the lead bank\'s mandate, questioning the allocation of security between lenders, and challenging the NPA classification if different banks have classified the same account on different dates.'
+            answer: 'Common defences include challenging the validity of the inter-creditor coordination, pointing out discrepancies in the lead bank’s mandate, questioning the allocation of security between lenders, and challenging the NPA classification if different banks have classified the same account on different dates.'
         },
         {
             question: 'How do I negotiate a One-Time Settlement (OTS) for a consortium loan?',
-            answer: 'Negotiating a consortium OTS is complex because you need the approval of the lead bank and the majority of the members. The key is to present a proposal that meets the RBI\'s Prudential Framework and show that the settlement value exceeds the realizable value of the security in a forced sale. Having a lawyer experienced in ICA negotiations is critical.'
+            answer: 'Negotiating a consortium OTS is complex because you need the approval of the lead bank and the majority of the members. The key is to present a proposal that meets the RBI’s Prudential Framework and show that the settlement value exceeds the realizable value of the security in a forced sale. Having a lawyer experienced in ICA negotiations is critical.'
         },
         {
             question: 'Can I sue the lead bank for mismanagement of the loan account?',
-            answer: 'Yes, if the lead bank\'s negligence in managing disbursements or coordinating between lenders led to the project\'s failure or the default, you can raise this as a counter-claim in the DRT. For example, if the lead bank failed to release sanctioned funds on time, resulting in cost overruns.'
+            answer: 'Yes, if the lead bank’s negligence in managing disbursements or coordinating between lenders led to the project’s failure or the default, you can raise this as a counter-claim in the DRT. For example, if the lead bank failed to release sanctioned funds on time, resulting in cost overruns.'
         },
         {
             question: 'What is a "Joint Lenders Forum" (JLF)?',
             answer: 'JLF was a formal mechanism introduced by the RBI for banks to coordinate on stressed accounts. While it was officially discontinued and replaced by the ICA framework in 2019, many pending recovery cases still involve decisions made during the JLF era, which can be scrutinized for procedural errors.'
         },
         {
-            question: 'Is it possible to challenge the lead bank\'s appraisal of property value?',
+            question: 'Is it possible to challenge the lead bank’s appraisal of property value?',
             answer: 'Yes, banks often rely on a single valuer for the entire consortium. If that valuation is flawed or undervalued, you can challenge it in the DRT by presenting an independent valuation report from a government-approved valuer. This is essential to stop properties from being sold below market value.'
         },
         {
@@ -122,7 +122,7 @@ export default function ConsortiumLoanDefenceClient() {
             name: 'Vikram Mehta',
             location: 'Mumbai',
             stars: 5,
-            comment: 'Our manufacturing unit was funded by a consortium of 5 banks. When we hit a rough patch, the banks were totally uncoordinated. CredSettle\'s lawyers used the ICA provisions to force a unified settlement meeting, eventually getting us a structured repayment plan. Exceptional strategic thinking.'
+            comment: 'Our manufacturing unit was funded by a consortium of 5 banks. When we hit a rough patch, the banks were totally uncoordinated. CredSettle’s lawyers used the ICA provisions to force a unified settlement meeting, eventually getting us a structured repayment plan. Exceptional strategic thinking.'
         },
         {
             name: 'Anjali Desai',
@@ -140,7 +140,7 @@ export default function ConsortiumLoanDefenceClient() {
             name: 'Sanjeev Kapoor',
             location: 'Ludhiana',
             stars: 5,
-            comment: 'We were struggling with recovery notices from a consortium lead bank. CredSettle\'s understanding of the 75% value rule under Section 13(9) was a game changer. They proved the bank didn\'t have the required consent to proceed. Brilliant!'
+            comment: 'We were struggling with recovery notices from a consortium lead bank. CredSettle’s understanding of the 75% value rule under Section 13(9) was a game changer. They proved the bank didn’t have the required consent to proceed. Brilliant!'
         }
     ];
 
@@ -322,7 +322,7 @@ export default function ConsortiumLoanDefenceClient() {
                                 In the world of corporate finance in India, large projects and business expansions are rarely funded by a single bank. Instead, a group of banks forms a consortium to distribute the risk and provide the substantial capital required. While this structure benefits the financial system, it creates a unique legal landscape when a loan defaults. Consortium loan recovery defence is not just about defending against one creditor; it is a complex game of legal strategy involving the Lead Bank, multiple member banks, inter-creditor agreements (ICA), and a myriad of overlapping regulations.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When a consortium initiates recovery, the pressure on the borrower is immense. Multiple banks may file separate recovery applications in the Debt Recovery Tribunal (DRT), or a lead bank may take a dominant stance under the SARFAESI Act. However, this very complexity is often the borrower\'s greatest legal opportunity. The best lawyer for consortium loan recovery defence knows that misalignment between banks, failure to follow the ICA framework, and procedural errors in coordinating the default can provide ironclad grounds to stall recovery and force a fair settlement.
+                                When a consortium initiates recovery, the pressure on the borrower is immense. Multiple banks may file separate recovery applications in the Debt Recovery Tribunal (DRT), or a lead bank may take a dominant stance under the SARFAESI Act. However, this very complexity is often the borrower’s greatest legal opportunity. The best lawyer for consortium loan recovery defence knows that misalignment between banks, failure to follow the ICA framework, and procedural errors in coordinating the default can provide ironclad grounds to stall recovery and force a fair settlement.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This guide provides an in depth analysis of consortium banking and the legal strategies for defending against multi bank recovery actions in India. Covering over 4000 words, we will discuss the ICA framework, the role of the lead bank, common inter-bank disputes, and how to successfully navigate the DRT and SARFAESI processes in consortium matters. At CredSettle, we specialize in corporate loan defence and connect you with the top lawyers who understand the nuances of consortium disputes.
@@ -346,7 +346,7 @@ export default function ConsortiumLoanDefenceClient() {
 
                             <h2 id="ica-framework" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The ICA Framework 2019: A New Legal Dimension</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI\'s "Prudential Framework for Resolution of Stressed Assets" (June 7, 2019) introduced the mandatory Inter-Creditor Agreement (ICA). The ICA is designed to speed up the resolution of defaulted corporate loans by preventing a single "Nuisance" bank from blocking a settlement agreed upon by others.
+                                The RBI’s "Prudential Framework for Resolution of Stressed Assets" (June 7, 2019) introduced the mandatory Inter-Creditor Agreement (ICA). The ICA is designed to speed up the resolution of defaulted corporate loans by preventing a single "Nuisance" bank from blocking a settlement agreed upon by others.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Key features of the ICA that every borrower should know:
@@ -378,15 +378,15 @@ export default function ConsortiumLoanDefenceClient() {
                                 One highly effective strategy is the **Defence of Negligent Appraisal**. If the consortium of banks appraised the project and sanctioned funds that were clearly inadequate to complete the project, or if they failed to release working capital limits as promised, the borrower can argue that the banks are the "Authors of the Default." In such cases, the borrower can file a counter claim for damages in the DRT.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Another strategy is challenging the **Lack of Coordination**. If two different banks in a consortium are taking contradictory actions (e.g., one is discussing restructuring while the other is issuing possession notices), the borrower can approach the High Court or the DRT to stay the proceedings on the grounds of violation of the RBI\'s unified resolution guidelines.
+                                Another strategy is challenging the **Lack of Coordination**. If two different banks in a consortium are taking contradictory actions (e.g., one is discussing restructuring while the other is issuing possession notices), the borrower can approach the High Court or the DRT to stay the proceedings on the grounds of violation of the RBI’s unified resolution guidelines.
                             </p>
 
                             <h2 id="drt-consortium" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Navigating DRT Proceedings in Consortium Cases</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the Debt Recovery Tribunal (DRT), consortium cases involve mountains of paperwork. Every bank has its own set of loan documents. A small error in any one of these documents—a missing signature on a guarantee, an unstamped document, or a discrepancy in the property schedule—can be used to challenge the entire recovery.
+                                In the Debt Recovery Tribunal (DRT), consortium cases involve mountains of paperwork. Every bank has its own set of loan documents. A small error in any one of these documents-a missing signature on a guarantee, an unstamped document, or a discrepancy in the property schedule-can be used to challenge the entire recovery.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Borrower\'s lawyers often focus on the "Pari-passu" charge. This is the legal agreement where banks agree to share the security. If the pari-passu charge was never correctly registered with the Registrar of Companies (ROC) as per the Companies Act, the banks\' claim as "Secured Creditors" is weakened, which can be a game changer in the DRT.
+                                Borrower’s lawyers often focus on the "Pari-passu" charge. This is the legal agreement where banks agree to share the security. If the pari-passu charge was never correctly registered with the Registrar of Companies (ROC) as per the Companies Act, the banks\' claim as "Secured Creditors" is weakened, which can be a game changer in the DRT.
                             </p>
 
                             <h2 id="sarfaesi-consortium" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">SARFAESI Challenges for Consortium Loans</h2>
@@ -397,7 +397,7 @@ export default function ConsortiumLoanDefenceClient() {
                                 Banks frequently violate this section by issuing individual notices or proceeding with a majority that is less than 75% in value. An experienced consortium recovery lawyer will meticulously check the outstanding balances of all member banks to see if the "75% Threshold" was actually met on the date of the notice. If not, the notice is legally invalid.
                             </p>
 
-                            <h2 id="jlf-disputes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Inter-bank Disputes: The Borrower\'s Advantage</h2>
+                            <h2 id="jlf-disputes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Inter-bank Disputes: The Borrower’s Advantage</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Banks are not always a united front. Small banks often feel bullied by a large lead bank. Private banks may have different recovery targets than public sector banks. These inter-bank conflicts can be a major advantage for the borrower.
                             </p>
@@ -407,7 +407,7 @@ export default function ConsortiumLoanDefenceClient() {
 
                             <h2 id="corporate-debt-restructuring" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Debt Restructuring for Consortium Loans</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For viable businesses, restructuring is the best way to resolve a consortium default. This involves modifying the terms of the loan—extending the repayment period, reducing the interest rate, or granting a "Holiday Period."
+                                For viable businesses, restructuring is the best way to resolve a consortium default. This involves modifying the terms of the loan-extending the repayment period, reducing the interest rate, or granting a "Holiday Period."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Under the 2019 framework, the lenders must implement a resolution plan within 180 days after the default. If the consortium is unable to implement a plan within this period, they are required to initiate IBC (Insolvency) proceedings. This 180-day window is when the borrower must present a compelling restructuring plan backed by sound financial projections and legal certainty.
@@ -422,7 +422,7 @@ export default function ConsortiumLoanDefenceClient() {
                                 <ul className="space-y-4 text-gray-700">
                                     <li><strong>1. Simultaneous Proposals:</strong> While the lead bank is the primary contact, send copies of your OTS proposal to the CMD/Chairman offices of all member banks to ensure visibility.</li>
                                     <li><strong>2. Forensic Audit:</strong> Present an independent forensic audit showing that the forced sale value of assets is lower than your OTS offer.</li>
-                                    <li><strong>3. Highlight Legal Delays:</strong> Remind the consortium of the specific legal challenges (like Section 13(9) violations) that will stall their recovery for years if they don\'t settle.</li>
+                                    <li><strong>3. Highlight Legal Delays:</strong> Remind the consortium of the specific legal challenges (like Section 13(9) violations) that will stall their recovery for years if they don’t settle.</li>
                                     <li><strong>4. Escrow Payment:</strong> Offering to deposit a part of the OTS amount in an Escrow account demonstrates serious intent and can break a deadlock.</li>
                                 </ul>
                             </div>
@@ -431,7 +431,7 @@ export default function ConsortiumLoanDefenceClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Consortium cases are not for generalist lawyers. They require a deep understanding of corporate finance, Indian banking regulations, and the specific dynamics of the DRT and NCLT. A specialist lawyer can:
                                 1. Decipher the Inter-Creditor Agreement (ICA) for your specific case.
-                                2. Identify the lead bank\'s procedural failures.
+                                2. Identify the lead bank’s procedural failures.
                                 3. Manage the coordination between the DRT litigation and settlement negotiations.
                                 4. Provide protection for the personal assets of company promoters and directors.
                             </p>
@@ -470,7 +470,7 @@ export default function ConsortiumLoanDefenceClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Get Specialized Consortium Defence</h3>
-                                <p className="text-blue-800 mb-6">Don\'t let a consortium of banks overwhelm your business. Our legal team understands the internal dynamics of inter-bank recovery and will fight to protect your company.</p>
+                                <p className="text-blue-800 mb-6">Don’t let a consortium of banks overwhelm your business. Our legal team understands the internal dynamics of inter-bank recovery and will fight to protect your company.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -509,9 +509,9 @@ export default function ConsortiumLoanDefenceClient() {
                                     Get Consortium Case Support
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ ICA Framework Expert</p>
-                                    <p>✓ Section 13(9) Specialist</p>
-                                    <p>✓ Consortium OTS Negotiator</p>
+                                    <p>v ICA Framework Expert</p>
+                                    <p>v Section 13(9) Specialist</p>
+                                    <p>v Consortium OTS Negotiator</p>
                                 </div>
                             </div>
 

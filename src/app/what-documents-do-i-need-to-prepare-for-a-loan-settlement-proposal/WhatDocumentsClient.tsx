@@ -245,16 +245,16 @@ export default function WhatDocumentsClient() {
                                 In the high stakes world of bank negotiations, your word is only as strong as the paper it is printed on. When you approach a lender with a loan settlement proposal, you are effectively asking them to take a financial loss. For a bank even to consider your request, you must move beyond emotional pleas and provide a bulletproof case file that proves one simple truth: you cannot pay, but you want to resolve the debt. This is where the art of documentation becomes vital.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many borrowers fail in their settlement attempts because they enter the discussion unprepared. They might have a genuine crisis, such as a job loss or a medical emergency, but if they cannot "quantify" that crisis through verified documents, the bank's internal credit officers will simply label them as "Wilful Defaulters." In 2025, the Reserve Bank of India has introduced more transparent rules for "Compromise Settlements," but these rules also place a heavier burden of proof on the borrower to demonstrate "Genuine Financial Hardship."
+                                Many borrowers fail in their settlement attempts because they enter the discussion unprepared. They might have a genuine crisis, such as a job loss or a medical emergency, but if they cannot "quantify" that crisis through verified documents, the bank’s internal credit officers will simply label them as "Wilful Defaulters." In 2025, the Reserve Bank of India has introduced more transparent rules for "Compromise Settlements," but these rules also place a heavier burden of proof on the borrower to demonstrate "Genuine Financial Hardship."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This guide is more than just a list of papers to collect; it is a strategic manual for building your "Settlement Portfolio." We will explore every category of documentation required, from the basic KYC that establishes your identity to the complex financial audits that prove your distress. We will also dive into the specific requirements for medical emergencies, business failures, and job losses. By the end of this 5000+ word deep dive, you will have the knowledge to walk into any bank branch or digital negotiation with the confidence of a professional debt manager.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Remember, the bank's decision makers will likely never meet you in person. They will decide your financial future based on the documents you submit to their recovery department. If your file is incomplete, messy, or lacks clear evidence, it will be rejected. If it is organized, thorough, and follows the latest regulatory standards, you are much more likely to secure a 40% to 70% waiver on your outstanding debt. Let us begin the journey of gathering your financial arsenal.
+                                Remember, the bank’s decision makers will likely never meet you in person. They will decide your financial future based on the documents you submit to their recovery department. If your file is incomplete, messy, or lacks clear evidence, it will be rejected. If it is organized, thorough, and follows the latest regulatory standards, you are much more likely to secure a 40% to 70% waiver on your outstanding debt. Let us begin the journey of gathering your financial arsenal.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Remember, the bank's decision makers will likely never meet you in person. They will decide your financial future based on the documents you submit to their recovery department. If your file is incomplete, messy, or lacks clear evidence, it will be rejected. If it is organized, thorough, and follows the latest regulatory standards, you are much more likely to secure a 40% to 70% waiver on your outstanding debt. Let us begin the journey of gathering your financial arsenal.
+                                Remember, the bank’s decision makers will likely never meet you in person. They will decide your financial future based on the documents you submit to their recovery department. If your file is incomplete, messy, or lacks clear evidence, it will be rejected. If it is organized, thorough, and follows the latest regulatory standards, you are much more likely to secure a 40% to 70% waiver on your outstanding debt. Let us begin the journey of gathering your financial arsenal.
                             </p>
 
                             <h2 id="essential-kyc" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: The KYC Foundation (Identity & Verification)</h2>
@@ -265,7 +265,7 @@ export default function WhatDocumentsClient() {
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Aadhaar Card:</strong> The primary proof of identity and address in India. Ensure your mobile number is linked for the e-KYC processes that many banks now use for digital settlements.</li>
                                     <li><strong>PAN Card:</strong> Mandatory for all financial transactions above 50,000 rupees. Banks need your PAN to report the "Write-Off" or "Settlement" to the Income Tax department and the credit bureaus.</li>
-                                    <li><strong>Passport Size Photographs:</strong> Keep at least four recent photos ready. While digital portals don't always require them, physical settlement meetings at the bank branch often involve signing forms that require a pasted photograph.</li>
+                                    <li><strong>Passport Size Photographs:</strong> Keep at least four recent photos ready. While digital portals don’t always require them, physical settlement meetings at the bank branch often involve signing forms that require a pasted photograph.</li>
                                     <li><strong>Address Proof (Updated):</strong> If you have moved since the loan was taken, provide a recent utility bill (electricity, water, or piped gas) or a registered rent agreement. Banks need a verified address to send the final "Offer Letter" and the "No Dues Certificate."</li>
                                 </ul>
                             </div>
@@ -308,7 +308,7 @@ export default function WhatDocumentsClient() {
                                 The **Sanction Letter** is your original contract. It lists the agreed interest rate and the "Schedule of Charges." If the bank is charging you 36% interest on a loan that was sanctioned at 14%, you can use the original letter to negotiate a significant portion of that interest away.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The **Statement of Account (SOA)** provides a line by line history of your loan. It shows every payment you made and every penalty the bank added. Reviewing this can help you identify "ghost charges" or errors where your payments weren't credited correctly. In 2025, you can demand an itemized SOA that clearly separates high "Principal," "Interest," and "Penal Charges."
+                                The **Statement of Account (SOA)** provides a line by line history of your loan. It shows every payment you made and every penalty the bank added. Reviewing this can help you identify "ghost charges" or errors where your payments weren’t credited correctly. In 2025, you can demand an itemized SOA that clearly separates high "Principal," "Interest," and "Penal Charges."
                             </p>
 
                             <h2 id="medical-emergency-docs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 5: Medical Emergency Documentation (Crisis Proof)</h2>
@@ -318,8 +318,8 @@ export default function WhatDocumentsClient() {
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Hospital Discharge Summary:</strong> This lists the diagnosis, the treatment provided, and the duration of the hospital stay.</li>
-                                    <li><strong>Original Bill Summaries:</strong> Focus on the large bills for surgery, ICU stays, or expensive medications. You don't need to provide every small pharmacy receipt, but the main hospital invoice is crucial.</li>
-                                    <li><strong>Doctor's Certificate for Long Term Care:</strong> If the patient requires ongoing care (such as dialysis or chemotherapy), a certificate stating the expected duration and cost of treatment is vital evidence of future financial strain.</li>
+                                    <li><strong>Original Bill Summaries:</strong> Focus on the large bills for surgery, ICU stays, or expensive medications. You don’t need to provide every small pharmacy receipt, but the main hospital invoice is crucial.</li>
+                                    <li><strong>Doctor’s Certificate for Long Term Care:</strong> If the patient requires ongoing care (such as dialysis or chemotherapy), a certificate stating the expected duration and cost of treatment is vital evidence of future financial strain.</li>
                                     <li><strong>Death Certificate (If Applicable):</strong> If the default is due to the death of the borrower or a primary co-borrower, this is the most critical document. It often triggers internal "Compassionate Settlement" protocols.</li>
                                 </ul>
                             </div>
@@ -366,12 +366,12 @@ export default function WhatDocumentsClient() {
                                 One major 2025 requirement is the <strong>Categorization Report</strong>. The bank must document why they chose to settle with you. By providing them with organized and clear documents, you are making it easier for the bank manager to write their internal justification report. You are essentially doing their job for them, which increases your chances of approval.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Also, be aware of the <strong>Cooling Off Period</strong> rules. The RBI mandates that anyone who settles must wait a certain period before getting new credit. The bank must inform you of this in writing. If they don't, you have grounds for a complaint. Ensure you receive a written acknowledgement of your settlement proposal within 15 days of submission, as per the latest "Consumer Service Standards."
+                                Also, be aware of the <strong>Cooling Off Period</strong> rules. The RBI mandates that anyone who settles must wait a certain period before getting new credit. The bank must inform you of this in writing. If they don’t, you have grounds for a complaint. Ensure you receive a written acknowledgement of your settlement proposal within 15 days of submission, as per the latest "Consumer Service Standards."
                             </p>
 
                             <h2 id="communication-logs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 9: Interaction Logs (Leveraging Communication)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Have you already been talking to the bank? Have you received threatening calls from agents? Keeping a log of these interactions is valuable. If the bank's agents have violated RBI rules (calling at odd hours, using abusive language), this information can be used as leverage.
+                                Have you already been talking to the bank? Have you received threatening calls from agents? Keeping a log of these interactions is valuable. If the bank’s agents have violated RBI rules (calling at odd hours, using abusive language), this information can be used as leverage.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A single screenshot of a threatening WhatsApp message from a recovery agent can often lead to a bank waiving an extra 10-20% of your debt just to avoid a formal complaint to the Integrated Ombudsman. Documentation of "Harassment" is a powerful tool in your negotiation arsenal.
@@ -379,7 +379,7 @@ export default function WhatDocumentsClient() {
 
                             <h2 id="post-settlement-paperwork" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 10: Crucial Post Settlement Paperwork</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Your job doesn't end when you make the payment. In fact, the most dangerous period is right after you pay. Many borrowers pay the money and then never receive the documents that prove they are free.
+                                Your job doesn’t end when you make the payment. In fact, the most dangerous period is right after you pay. Many borrowers pay the money and then never receive the documents that prove they are free.
                             </p>
                             <div className="bg-green-50 p-6 rounded-2xl border border-green-100 mb-6 font-light text-gray-800">
                                 <ul className="space-y-4">
@@ -398,7 +398,7 @@ export default function WhatDocumentsClient() {
                                 Unfortunately, in the world of debt recovery, fake settlement letters and fake NOCs are common. Scrupulous agents sometimes issue fake letters to collect money and then disappear.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To verify your NOC, look for a digital QR code which is common in 2025. Scan it to see if it links back to the bank's official server. If it's a physical letter, check for the branch code, the employee's authorization ID, and the official round seal of the bank. To be 100% sure, visit a different branch of the same bank and ask them to check your "Account Status" on their central system. If the system still shows an outstanding balance, your NOC is likely fake.
+                                To verify your NOC, look for a digital QR code which is common in 2025. Scan it to see if it links back to the bank’s official server. If it’s a physical letter, check for the branch code, the employee’s authorization ID, and the official round seal of the bank. To be 100% sure, visit a different branch of the same bank and ask them to check your "Account Status" on their central system. If the system still shows an outstanding balance, your NOC is likely fake.
                             </p>
 
                             <h2 id="cibil-update-confirmation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 12: Ensuring Your Credit Bureau Reflects the Truth</h2>
@@ -406,7 +406,7 @@ export default function WhatDocumentsClient() {
                                 The bank is legally obligated to update the credit bureaus within 30 days of your final payment. However, they often forget. You must be proactive. 45 days after your settlement, download your latest CIBIL report.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If the status isn't updated, use your **Settle Agreement** and **NOC** to file a "Dispute" on the CIBIL website. The bureau will then contact the bank to verify. Because you have your documentation ready, the dispute will be resolved in your favor quickly. Documentation is not just for the settlement; it is for the seven years of life that follow it.
+                                If the status isn’t updated, use your **Settle Agreement** and **NOC** to file a "Dispute" on the CIBIL website. The bureau will then contact the bank to verify. Because you have your documentation ready, the dispute will be resolved in your favor quickly. Documentation is not just for the settlement; it is for the seven years of life that follow it.
                             </p>
 
                             <h2 id="common-documentation-mistakes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 13: Common Documentation Mistakes to Avoid</h2>
@@ -416,19 +416,19 @@ export default function WhatDocumentsClient() {
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light text-gray-800">
                                 <ul className="space-y-4">
                                     <li><strong>1. Incomplete Bank Statements:</strong> Providing only the first two pages while missing the rest looks suspicious. Provide the full, original PDF as downloaded from your net banking.</li>
-                                    <li><strong>2. Outdated KYC:</strong> Using an old address that doesn't match your current residence leads to communication failures.</li>
-                                    <li><strong>3. Logical Gaps:</strong> Claiming medical expenses in January while your default started in the previous October doesn't make sense unless there was a prior reason. Ensure the timeline of your story is tight.</li>
+                                    <li><strong>2. Outdated KYC:</strong> Using an old address that doesn’t match your current residence leads to communication failures.</li>
+                                    <li><strong>3. Logical Gaps:</strong> Claiming medical expenses in January while your default started in the previous October doesn’t make sense unless there was a prior reason. Ensure the timeline of your story is tight.</li>
                                     <li><strong>4. Fake Documents:</strong> Never, under any circumstances, provide forged medical bills or termination letters. Banks have sophisticated verification teams. Providing fake documents is a criminal offense and will lead to an immediate ban from the banking system and potential police action.</li>
-                                    <li><strong>5. Over-Documentation:</strong> Don't drown the bank in thousands of small receipts. Focus on the high impact documents that tell the main story. A clear discharge summary is better than 100 pharmacy bills.</li>
+                                    <li><strong>5. Over-Documentation:</strong> Don’t drown the bank in thousands of small receipts. Focus on the high impact documents that tell the main story. A clear discharge summary is better than 100 pharmacy bills.</li>
                                 </ul>
                             </div>
 
                             <h2 id="digital-settlement-verification" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 14: Documentation for Digital App Settlements</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you are settling a loan with a mobile app (Fintech), the documentation rules are slightly different. Most of these apps don't have physical branches. All your "Hardship Proofs" must be uploaded to their app or sent to their official grievance email ID.
+                                If you are settling a loan with a mobile app (Fintech), the documentation rules are slightly different. Most of these apps don’t have physical branches. All your "Hardship Proofs" must be uploaded to their app or sent to their official grievance email ID.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Ensure you get an **Email Receipt** of your settlement proposal. In 2025, digital lending apps are governed by the "Digital Lending Guidelines," which require them to provide a "Key Fact Statement" (KFS) even during a settlement. If they don't provide a KFS showing the settled amount and the waiver, the settlement is not valid under RBI rules.
+                                Ensure you get an **Email Receipt** of your settlement proposal. In 2025, digital lending apps are governed by the "Digital Lending Guidelines," which require them to provide a "Key Fact Statement" (KFS) even during a settlement. If they don’t provide a KFS showing the settled amount and the waiver, the settlement is not valid under RBI rules.
                             </p>
 
                             <h2 id="legal-dispute-documents" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 15: Documents for Legal Disputes (Section 138)</h2>
@@ -445,21 +445,21 @@ export default function WhatDocumentsClient() {
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light text-gray-800">
                                 <ul className="space-y-3">
-                                    <li>✓ Aadhaar and PAN (Verified and Linked to Mobile)</li>
-                                    <li>✓ 6 Months Bank Statements (All Accounts, No Redactions of Transaction Data)</li>
-                                    <li>✓ 2 Years ITR and Salary Slips/Form 16</li>
-                                    <li>✓ Original Loan Sanction Letter and itemized Statement of Account</li>
-                                    <li>✓ Hardship Evidence (Medical Reports/Job Termination/Business Audit)</li>
-                                    <li>✓ Professional Hardship Letter with a Specific Offer</li>
-                                    <li>✓ Interaction Log with Recovery Department/Agents</li>
-                                    <li>✓ Certified Legal Notices/Cheque Bounce Complaint Copies (If Any)</li>
+                                    <li>v Aadhaar and PAN (Verified and Linked to Mobile)</li>
+                                    <li>v 6 Months Bank Statements (All Accounts, No Redactions of Transaction Data)</li>
+                                    <li>v 2 Years ITR and Salary Slips/Form 16</li>
+                                    <li>v Original Loan Sanction Letter and itemized Statement of Account</li>
+                                    <li>v Hardship Evidence (Medical Reports/Job Termination/Business Audit)</li>
+                                    <li>v Professional Hardship Letter with a Specific Offer</li>
+                                    <li>v Interaction Log with Recovery Department/Agents</li>
+                                    <li>v Certified Legal Notices/Cheque Bounce Complaint Copies (If Any)</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Gathering these documents is a heavy task, but it is the most important work you will do for your financial future. It is the difference between being a victim of debt and being a survivor who reclaimed their dignity. At CredSettle, we specialize in helping borrowers organize this "Settlement Pack" to ensure it speaks the language of a bank manager.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Don't let your proposal be rejected because of a missing paper. Be thorough, be honest, and be prepared. Your journey to a life without debt starts with a single well prepared folder.
+                                Don’t let your proposal be rejected because of a missing paper. Be thorough, be honest, and be prepared. Your journey to a life without debt starts with a single well prepared folder.
                             </p>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Frequently Asked Questions</h2>
@@ -501,7 +501,7 @@ export default function WhatDocumentsClient() {
                             </div>
 
                             <div className="mt-8 text-xs text-gray-500 italic">
-                                Disclaimer: This guide is for educational purposes and does not constitute formal legal or financial advice. The documentation requirements may vary based on your specific lender's internal policies and the nature of your debt.
+                                Disclaimer: This guide is for educational purposes and does not constitute formal legal or financial advice. The documentation requirements may vary based on your specific lender’s internal policies and the nature of your debt.
                             </div>
 
                         </article>
@@ -522,9 +522,9 @@ export default function WhatDocumentsClient() {
                                     Talk to an Expert
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Hardship Letter Templates</p>
-                                    <p>✓ Bank-Specific Checklists</p>
-                                    <p>✓ RBI Rulebook Support</p>
+                                    <p>v Hardship Letter Templates</p>
+                                    <p>v Bank-Specific Checklists</p>
+                                    <p>v RBI Rulebook Support</p>
                                 </div>
                             </div>
 

@@ -379,7 +379,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional legal assistance from CredSettle's lawyer panel. Secure an RBI-compliant One-Time Settlement, protect your assets, and restore cash flow-start your path to business recovery today.
+                        Get professional legal assistance from CredSettle’s lawyer panel. Secure an RBI-compliant One-Time Settlement, protect your assets, and restore cash flow-start your path to business recovery today.
                       </p>
                     </div>
 

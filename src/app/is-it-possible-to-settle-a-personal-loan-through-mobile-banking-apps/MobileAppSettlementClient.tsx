@@ -17,7 +17,7 @@ const faqData = [
     answer: "Yes, AMA Connect is a professional debt resolution platform that connects borrowers with legal experts and bank negotiators. It is widely used in India for reaching compromise settlements with multiple lenders through a single dashboard."
   },
   {
-    question: "Can I settle my credit card debt through the bank's mobile app?",
+    question: "Can I settle my credit card debt through the bank’s mobile app?",
     answer: "You can sometimes find 'One Time Settlement' offers under the 'Offers' or 'Credit Card' section of the bank app if you have defaulted for over 90 days. However, these are fixed offers and do not allow for the deep negotiations possible through specialized apps."
   },
   {
@@ -251,10 +251,10 @@ export default function MobileAppSettlementClient() {
                 <div className="bg-blue-900 text-white p-8 rounded-3xl my-8 shadow-2xl">
                   <h3 className="text-2xl font-bold mb-4">Why Everyone is Downloading AMA Connect:</h3>
                   <ul className="space-y-3 font-light">
-                    <li><strong>• Multi-Lender Dashboard:</strong> Manage settlements for 5 different banks in one place.</li>
-                    <li><strong>• Professional Negotiation:</strong> Connect with experts who know the bank's internal waiver policies.</li>
-                    <li><strong>• Harassment Logging:</strong> Record and report illegal recovery calls directly through the app.</li>
-                    <li><strong>• Document Vault:</strong> Securely store your NDC and Settlement Letters forever in digital format.</li>
+                    <li><strong>* Multi-Lender Dashboard:</strong> Manage settlements for 5 different banks in one place.</li>
+                    <li><strong>* Professional Negotiation:</strong> Connect with experts who know the bank’s internal waiver policies.</li>
+                    <li><strong>* Harassment Logging:</strong> Record and report illegal recovery calls directly through the app.</li>
+                    <li><strong>* Document Vault:</strong> Securely store your NDC and Settlement Letters forever in digital format.</li>
                   </ul>
                   <Link 
                     href="https://play.google.com/store/apps/details?id=com.ama.ama_legal_solutions&hl=en_IN" 
@@ -293,7 +293,7 @@ export default function MobileAppSettlementClient() {
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed mt-4 text-justify italic border-l-4 border-amber-400 pl-4 bg-amber-50 py-3 rounded-r-xl">
-                  <strong>Pro Tip:</strong> Digital settlement letters often come with an embedded QR code for instant verification. This allows you to verify the authenticity of the offer directly with the bank's central regional office, bypassing potentially unreliable local branch staff.
+                  <strong>Pro Tip:</strong> Digital settlement letters often come with an embedded QR code for instant verification. This allows you to verify the authenticity of the offer directly with the bank’s central regional office, bypassing potentially unreliable local branch staff.
                 </p>
               </div>
 
@@ -306,12 +306,12 @@ export default function MobileAppSettlementClient() {
                   {[
                     { step: 1, title: "Secure Onboarding", desc: "Download the AMA Connect app and sign in using your registered mobile number and OTP. Connect your PAN and Aadhaar to sync all your active and defaulted loan accounts automatically." },
                     { step: 2, title: "Portfolio Synchronization", desc: "The app uses secure data bridges to gather all your debt data in one dashboard. No more searching through emails or letters to find your outstanding amounts." },
-                    { step: 3, title: "Hardship Documentation", desc: "Upload your distress evidence—salary slips showing income loss, medical reports, or business termination notices—directly into the app's secure Document Vault." },
-                    { step: 4, title: "Strategic Analysis", desc: "The app's AI analyzes your profile and provides a 'Probable Settlement Range' (e.g., 40% to 60% waiver), giving you a realistic goal for the negotiation." },
+                    { step: 3, title: "Hardship Documentation", desc: "Upload your distress evidence-salary slips showing income loss, medical reports, or business termination notices-directly into the app’s secure Document Vault." },
+                    { step: 4, title: "Strategic Analysis", desc: "The app’s AI analyzes your profile and provides a 'Probable Settlement Range' (e.g., 40% to 60% waiver), giving you a realistic goal for the negotiation." },
                     { step: 5, title: "Expert Assignment", desc: "You are assigned a professional debt negotiator or a legal expert. You can communicate with them 24/7 through the integrated in-app secure chat." },
-                    { step: 6, title: "Digital Negotiation", desc: "Your expert uses the app to submit a formal settlement proposal to the bank's regional management. The entire negotiation lifecycle is tracked in real-time." },
+                    { step: 6, title: "Digital Negotiation", desc: "Your expert uses the app to submit a formal settlement proposal to the bank’s regional management. The entire negotiation lifecycle is tracked in real-time." },
                     { step: 7, title: "Letter Verification", desc: "Once the bank agrees, your 'Compromise Settlement Letter' appears in the app. Use the in-built verification tool to ensure the letter is 100% genuine and legally binding." },
-                    { step: 8, title: "Closure & NDC", desc: "Follow the app's secure link to pay the bank directly. Within 45 days, your No Dues Certificate (NDC) will be automatically pulled and stored in your vault." }
+                    { step: 8, title: "Closure & NDC", desc: "Follow the app’s secure link to pay the bank directly. Within 45 days, your No Dues Certificate (NDC) will be automatically pulled and stored in your vault." }
                   ].map((item) => (
                     <div key={item.step} className="flex gap-4 p-5 bg-white border border-gray-100 rounded-3xl hover:border-blue-200 transition-all shadow-[0_4px_20px_rgba(0,0,0,0.03)] group">
                       <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-bold group-hover:bg-blue-700 transition-colors shadow-lg rotate-3 group-hover:rotate-0">{item.step}</div>
@@ -334,20 +334,20 @@ export default function MobileAppSettlementClient() {
                    <h3 className="text-2xl font-bold mb-6 italic underline decoration-red-500">The 2025 Fraud Shield Checklist:</h3>
                    <ul className="space-y-5 font-light">
                      <li className="flex items-start gap-3">
-                       <span className="text-red-500 font-bold block mt-1 text-xl">�, </span>
-                       <span className="text-justify leading-relaxed"><strong>Never Pay a Third Party:</strong> Settlement money should ALWAYS go directly into the bank's official beneficiary account (e.g., 'HDFC Loan A/c [Number]'). Never pay to an individual's GPay or a non-registered company account.</span>
+                       <span className="text-red-500 font-bold block mt-1 text-xl">?, </span>
+                       <span className="text-justify leading-relaxed"><strong>Never Pay a Third Party:</strong> Settlement money should ALWAYS go directly into the bank’s official beneficiary account (e.g., 'HDFC Loan A/c [Number]'). Never pay to an individual’s GPay or a non-registered company account.</span>
                      </li>
                      <li className="flex items-start gap-3">
-                       <span className="text-red-500 font-bold block mt-1 text-xl">�, </span>
+                       <span className="text-red-500 font-bold block mt-1 text-xl">?, </span>
                        <span className="text-justify leading-relaxed"><strong>Verify Email Domains:</strong> If you receive a settlement letter via email, ensure the domain matches the bank exactly (e.g., @icicibank.com, not @icici-bank-support.in).</span>
                      </li>
                      <li className="flex items-start gap-3">
-                        <span className="text-green-500 font-bold block mt-1 text-xl">✓</span>
+                        <span className="text-green-500 font-bold block mt-1 text-xl">v</span>
                        <span className="text-justify leading-relaxed"><strong>Check App Signatures:</strong> Only download settlement tools from official links. Ensure the developer is verified (e.g., 'AMA Legal Solutions Pvt Ltd' for the AMA Connect app).</span>
                      </li>
                      <li className="flex items-start gap-3">
-                        <span className="text-green-500 font-bold block mt-1 text-xl">✓</span>
-                       <span className="text-justify leading-relaxed"><strong>Insist on the PDF Letter FIRST:</strong> Never pay a single rupee until you have a formal PDF Settlement Letter on the bank's letterhead, which you have verified using a QR code or by calling the bank's toll-free number.</span>
+                        <span className="text-green-500 font-bold block mt-1 text-xl">v</span>
+                       <span className="text-justify leading-relaxed"><strong>Insist on the PDF Letter FIRST:</strong> Never pay a single rupee until you have a formal PDF Settlement Letter on the bank’s letterhead, which you have verified using a QR code or by calling the bank’s toll-free number.</span>
                      </li>
                    </ul>
                 </div>
@@ -430,15 +430,15 @@ export default function MobileAppSettlementClient() {
                   <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Guides</h4>
                   <nav className="space-y-3">
                     <Link href="/best-apps-for-managing-and-settling-unsecured-loans" className="flex group items-start">
-                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                       <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Top Unsecured Loan Apps</span>
                     </Link>
                     <Link href="/can-i-use-online-platforms-to-settle-my-home-loan-faster" className="flex group items-start">
-                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                       <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Online Home Loan Settlement</span>
                     </Link>
                     <Link href="/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms" className="flex group items-start">
-                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                      <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                       <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Verify Genuine Digital Offers</span>
                     </Link>
                   </nav>

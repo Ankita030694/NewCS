@@ -258,7 +258,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Here's what makes NBFC settlements unique: NBFCs typically have <strong>higher operational flexibility</strong> than scheduled commercial banks. While banks follow stringent internal audit processes and centralized decision-making protocols mandated by Basel III norms, NBFCs often have faster turnaround times for settlement approvals. Additionally, many NBFCs demonstrate higher risk appetite, which historically allowed them to lend to borrowers with lower credit scores or minimal documentation. This same risk tolerance often translates into more pragmatic settlement negotiations. At CredSettle, we leverage our deep understanding of NBFC-specific <strong>compromise settlement policies</strong>, board-mandated provisioning norms, and sector-wise operational frameworks to secure favorable One-Time Settlement (OTS) outcomes that typically reduce your outstanding liability by 30-70%.
+                Here’s what makes NBFC settlements unique: NBFCs typically have <strong>higher operational flexibility</strong> than scheduled commercial banks. While banks follow stringent internal audit processes and centralized decision-making protocols mandated by Basel III norms, NBFCs often have faster turnaround times for settlement approvals. Additionally, many NBFCs demonstrate higher risk appetite, which historically allowed them to lend to borrowers with lower credit scores or minimal documentation. This same risk tolerance often translates into more pragmatic settlement negotiations. At CredSettle, we leverage our deep understanding of NBFC-specific <strong>compromise settlement policies</strong>, board-mandated provisioning norms, and sector-wise operational frameworks to secure favorable One-Time Settlement (OTS) outcomes that typically reduce your outstanding liability by 30-70%.
               </p>
             </div>
 
@@ -285,7 +285,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                The NBFC settlement journey begins with <strong>regulatory classification verification</strong>. We first confirm your lender's RBI registration status by checking the official RBI list of registered NBFCs. This verification is critical because only RBI-regulated NBFCs follow the Fair Practices Code (FPC) mandated under Master Direction - Non-Banking Financial Company Returns (Reserve Bank) Directions, 2016. This FPC compliance ensures your settlement will follow transparent processes, documented communication channels, and legal grievance redressal mechanisms.
+                The NBFC settlement journey begins with <strong>regulatory classification verification</strong>. We first confirm your lender’s RBI registration status by checking the official RBI list of registered NBFCs. This verification is critical because only RBI-regulated NBFCs follow the Fair Practices Code (FPC) mandated under Master Direction - Non-Banking Financial Company Returns (Reserve Bank) Directions, 2016. This FPC compliance ensures your settlement will follow transparent processes, documented communication channels, and legal grievance redressal mechanisms.
               </p>
               <p
                 style={{
@@ -307,7 +307,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Our negotiation strategy leverages the <strong>NBFC's internal policy framework</strong>. According to RBI guidelines, NBFCs must have board-approved policies for compromise settlements, especially for loans classified as Sub-Standard or Doubtful assets. We present your financial hardship documentation-income loss proof, medical emergency bills, or business closure certificates-along with a realistic settlement proposal based on your repayment capacity. The key technical aspect here is understanding <strong>provisioning economics</strong>: NBFCs must maintain Capital Adequacy Ratios (CAR) mandated by RBI (minimum 15% for systemically important NBFCs). When loans turn into NPAs, they tie up capital and increase provisioning requirements. A settlement offer that recovers 30-70% of the outstanding becomes financially attractive compared to prolonged recovery litigation that may yield even less after years of legal proceedings.
+                Our negotiation strategy leverages the <strong>NBFC’s internal policy framework</strong>. According to RBI guidelines, NBFCs must have board-approved policies for compromise settlements, especially for loans classified as Sub-Standard or Doubtful assets. We present your financial hardship documentation-income loss proof, medical emergency bills, or business closure certificates-along with a realistic settlement proposal based on your repayment capacity. The key technical aspect here is understanding <strong>provisioning economics</strong>: NBFCs must maintain Capital Adequacy Ratios (CAR) mandated by RBI (minimum 15% for systemically important NBFCs). When loans turn into NPAs, they tie up capital and increase provisioning requirements. A settlement offer that recovers 30-70% of the outstanding becomes financially attractive compared to prolonged recovery litigation that may yield even less after years of legal proceedings.
               </p>
               <p
                 style={{
@@ -318,11 +318,11 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Once we reach a mutually agreeable settlement amount, we ensure proper documentation aligned with RBI's Master Direction on Asset Classification and Provisioning. The NBFC must provide a formal <strong>OTS letter</strong> (One-Time Settlement letter) on company letterhead, clearly stating: the original loan amount, total outstanding (including principal, interest, and charges), the agreed settlement amount, payment terms (lump sum or structured), and most importantly, confirmation that upon payment, the loan will be marked as "settled" and no further claims will be made. We also ensure compliance with RBI's directive requiring NBFCs to release all property documents or hypothecation endorsements within 30 days of settlement payment completion, with penalty provisions of ₹5,000 per day for delays.
+                Once we reach a mutually agreeable settlement amount, we ensure proper documentation aligned with RBI’s Master Direction on Asset Classification and Provisioning. The NBFC must provide a formal <strong>OTS letter</strong> (One-Time Settlement letter) on company letterhead, clearly stating: the original loan amount, total outstanding (including principal, interest, and charges), the agreed settlement amount, payment terms (lump sum or structured), and most importantly, confirmation that upon payment, the loan will be marked as "settled" and no further claims will be made. We also ensure compliance with RBI’s directive requiring NBFCs to release all property documents or hypothecation endorsements within 30 days of settlement payment completion, with penalty provisions of ₹5,000 per day for delays.
               </p>
             </div>
 
-            {/* RBI's Regulatory Framework for NBFC Settlements */}
+            {/* RBI’s Regulatory Framework for NBFC Settlements */}
             <div style={{ marginBottom: '32px' }}>
               <h3
                 style={{
@@ -334,7 +334,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                RBI's Regulatory Framework for NBFC Loan Settlements
+                RBI’s Regulatory Framework for NBFC Loan Settlements
               </h3>
               <p
                 style={{
@@ -345,7 +345,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                The Reserve Bank of India maintains stringent oversight of NBFC operations through a multi-layered regulatory framework that directly impacts loan settlement processes. Under the <strong>Master Direction – Non-Banking Financial Company – Systemically Important Non-Deposit taking Company and Deposit taking Company (Reserve Bank) Directions, 2016</strong>, NBFCs are mandated to follow specific guidelines for asset classification, income recognition, and provisioning for bad debts. This framework ensures that settlement practices remain fair, transparent, and legally compliant.
+                The Reserve Bank of India maintains stringent oversight of NBFC operations through a multi-layered regulatory framework that directly impacts loan settlement processes. Under the <strong>Master Direction - Non-Banking Financial Company - Systemically Important Non-Deposit taking Company and Deposit taking Company (Reserve Bank) Directions, 2016</strong>, NBFCs are mandated to follow specific guidelines for asset classification, income recognition, and provisioning for bad debts. This framework ensures that settlement practices remain fair, transparent, and legally compliant.
               </p>
               <p
                 style={{
@@ -356,7 +356,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                One critical RBI guideline that protects borrowers seeking NBFC loan settlement is the <strong>Fair Practices Code</strong>. This code requires NBFCs to: clearly disclose loan terms and charges before disbursal, provide transparent information about settlement options when borrowers face genuine financial distress, follow dignified recovery practices without harassment or coercion, and maintain a structured grievance redressal mechanism. If any NBFC violates these norms during your loan term or settlement discussions, you have legal recourse through the RBI's Banking Ombudsman Scheme (which was extended to cover certain NBFC activities) or through direct complaints to RBI's Complaints Management System.
+                One critical RBI guideline that protects borrowers seeking NBFC loan settlement is the <strong>Fair Practices Code</strong>. This code requires NBFCs to: clearly disclose loan terms and charges before disbursal, provide transparent information about settlement options when borrowers face genuine financial distress, follow dignified recovery practices without harassment or coercion, and maintain a structured grievance redressal mechanism. If any NBFC violates these norms during your loan term or settlement discussions, you have legal recourse through the RBI’s Banking Ombudsman Scheme (which was extended to cover certain NBFC activities) or through direct complaints to RBI’s Complaints Management System.
               </p>
               <p
                 style={{
@@ -367,7 +367,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                At CredSettle, we ensure every NBFC loan settlement strictly adheres to these RBI guidelines. We verify that the settlement offer includes proper accounting treatment-NBFCs must report settled accounts accurately to credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark) with the status "settled," not "written off." We also ensure compliance with RBI's <strong>document release timeline</strong>: NBFCs must release all collateral documents, hypothecation endorsements, or encumbrance certificates within 30 days of settlement payment. If the NBFC delays document release, they are liable for compensation at ₹5,000 per day of delay as per RBI Master Direction on Customer Service in Banks. Our legal team provides complete documentation-settlement letters, payment acknowledgments, NOC (No Objection Certificate), and document release confirmations-ensuring you have legally binding proof that permanently resolves your NBFC loan obligation.
+                At CredSettle, we ensure every NBFC loan settlement strictly adheres to these RBI guidelines. We verify that the settlement offer includes proper accounting treatment-NBFCs must report settled accounts accurately to credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark) with the status "settled," not "written off." We also ensure compliance with RBI’s <strong>document release timeline</strong>: NBFCs must release all collateral documents, hypothecation endorsements, or encumbrance certificates within 30 days of settlement payment. If the NBFC delays document release, they are liable for compensation at ₹5,000 per day of delay as per RBI Master Direction on Customer Service in Banks. Our legal team provides complete documentation-settlement letters, payment acknowledgments, NOC (No Objection Certificate), and document release confirmations-ensuring you have legally binding proof that permanently resolves your NBFC loan obligation.
               </p>
             </div>
 
@@ -416,7 +416,7 @@ export default function NBFCLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Beyond financial savings (typically 30-70% reduction in outstanding amount), CredSettle provides <strong>complete legal closure</strong>. We ensure the NBFC provides proper settlement documentation, updates credit bureau records accurately, releases all security documents within the mandated 30-day timeline, and provides a formal No Objection Certificate (NOC). Our post-settlement support includes verifying that your CIBIL report correctly reflects the "settled" status and that no encumbrances remain on hypothecated assets. This comprehensive approach ensures your NBFC loan settlement isn't just a temporary relief but a permanent, legally binding resolution that restores your financial freedom and protects your credit profile for future financial planning.
+                Beyond financial savings (typically 30-70% reduction in outstanding amount), CredSettle provides <strong>complete legal closure</strong>. We ensure the NBFC provides proper settlement documentation, updates credit bureau records accurately, releases all security documents within the mandated 30-day timeline, and provides a formal No Objection Certificate (NOC). Our post-settlement support includes verifying that your CIBIL report correctly reflects the "settled" status and that no encumbrances remain on hypothecated assets. This comprehensive approach ensures your NBFC loan settlement isn’t just a temporary relief but a permanent, legally binding resolution that restores your financial freedom and protects your credit profile for future financial planning.
               </p>
             </div>
           </div>

@@ -151,7 +151,7 @@ export default function SMFGLoanSettlementPage() {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Vikram S." },
         "datePublished": "2025-11-15",
-        "reviewBody": "I had a huge personal loan with Fullerton/SMFG. After my business took a hit, I couldn't pay. CredSettle handled the arbitration notice and settled the loan for 40% of the value.",
+        "reviewBody": "I had a huge personal loan with Fullerton/SMFG. After my business took a hit, I couldn’t pay. CredSettle handled the arbitration notice and settled the loan for 40% of the value.",
         "reviewRating": { "@type": "Rating", "ratingValue": "5" }
       },
       {

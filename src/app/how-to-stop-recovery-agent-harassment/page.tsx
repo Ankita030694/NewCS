@@ -215,7 +215,7 @@ export default function RecoveryHarassmentPage() {
         'name': 'How many times can a recovery agent call in a day?',
         'acceptedAnswer': {
           '@type': 'Answer',
-          'text': 'While there is no specific numerical limit, persistent and excessive calling (dozens of times a day) is classified as harassment and a violation of the borrower\'s peace.'
+          'text': 'While there is no specific numerical limit, persistent and excessive calling (dozens of times a day) is classified as harassment and a violation of the borrower’s peace.'
         }
       },
       {
@@ -223,7 +223,7 @@ export default function RecoveryHarassmentPage() {
         'name': 'Can I file a complaint with the RBI directly?',
         'acceptedAnswer': {
           '@type': 'Answer',
-          'text': 'Yes, through the RBI CMS portal. However, you must first file a formal complaint with the bank\'s internal grievance department and wait 30 days for their response.'
+          'text': 'Yes, through the RBI CMS portal. However, you must first file a formal complaint with the bank’s internal grievance department and wait 30 days for their response.'
         }
       },
       {

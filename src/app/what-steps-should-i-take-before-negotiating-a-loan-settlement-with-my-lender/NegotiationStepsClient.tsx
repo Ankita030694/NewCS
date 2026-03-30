@@ -82,7 +82,7 @@ export default function NegotiationStepsClient() {
         },
         {
             question: "Can I negotiate a settlement myself without a professional agency?",
-            answer: "Yes, you can. In fact, many banks prefer direct communication with the borrower. However, you must be well versed in legal terms and RBI guidelines to ensure you aren't coerced into an unfair deal."
+            answer: "Yes, you can. In fact, many banks prefer direct communication with the borrower. However, you must be well versed in legal terms and RBI guidelines to ensure you aren’t coerced into an unfair deal."
         },
         {
             question: "What is the minimum percentage I should offer to start the negotiation?",
@@ -102,7 +102,7 @@ export default function NegotiationStepsClient() {
         },
         {
             question: "Will the bank stop legal proceedings as soon as I send a settlement proposal?",
-            answer: "Usually, they 'pause' the proceedings but won't withdraw them until the final settlement payment is received and cleared. You must stay vigilant about court dates even during negotiations."
+            answer: "Usually, they 'pause' the proceedings but won’t withdraw them until the final settlement payment is received and cleared. You must stay vigilant about court dates even during negotiations."
         },
         {
             question: "Can I settle a car loan if the bank has already repossessed the vehicle?",
@@ -110,7 +110,7 @@ export default function NegotiationStepsClient() {
         },
         {
             question: "Is a verbal confirmation of settlement from a bank manager valid?",
-            answer: "No. Never rely on verbal promises. A settlement is only legal and valid if you have a written 'Settlement Offer Letter' on the bank's official letterhead with an authorized signature."
+            answer: "No. Never rely on verbal promises. A settlement is only legal and valid if you have a written 'Settlement Offer Letter' on the bank’s official letterhead with an authorized signature."
         },
         {
             question: "What happens if I miss a payment date specified in the settlement offer?",
@@ -141,7 +141,7 @@ export default function NegotiationStepsClient() {
             name: "Deepa Menon",
             location: "Kochi",
             stars: 5,
-            comment: "The ARC section was vital. My loan was sold to an ARC and I didn't know who to talk to. This guide explained the new January 2025 board rules which helped me negotiate with them."
+            comment: "The ARC section was vital. My loan was sold to an ARC and I didn’t know who to talk to. This guide explained the new January 2025 board rules which helped me negotiate with them."
         },
         {
             name: "Zuber Ahmed",
@@ -199,7 +199,7 @@ export default function NegotiationStepsClient() {
                         <span className="text-blue-300">A 2025 Preparation Blueprint</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Don't walk into a bank unprepared. Learn the technical, legal, and psychological steps to take before you negotiate your way to debt freedom.
+                        Don’t walk into a bank unprepared. Learn the technical, legal, and psychological steps to take before you negotiate your way to debt freedom.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -324,7 +324,7 @@ export default function NegotiationStepsClient() {
                                 Before you ask the bank for a discount, you must know exactly what you are worth and what you can afford. This is not just about checking your bank balance; it is a deep-dive "Financial Forensic Audit" of your life. In 2025, banks use sophisticated data aggregators to check your transaction history. If you claim you are broke but your UPI history shows frequent luxury spends, your negotiation will fail instantly.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Start by calculating your <strong>Liquid Net Worth</strong>. This includes cash in hand, savings in your bank (though you should be careful about keeping large sums in the same bank where you owe money), and easily sellable assets like gold or electronics. Next, identify your <strong>Illiquid Assets</strong>, such as real estate or long-term insurance policies. While you don't want to sell your home, the bank will factor in your overall asset base when deciding on a waiver percentage.
+                                Start by calculating your <strong>Liquid Net Worth</strong>. This includes cash in hand, savings in your bank (though you should be careful about keeping large sums in the same bank where you owe money), and easily sellable assets like gold or electronics. Next, identify your <strong>Illiquid Assets</strong>, such as real estate or long-term insurance policies. While you don’t want to sell your home, the bank will factor in your overall asset base when deciding on a waiver percentage.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A critical part of the 2025 audit is your <strong>Digital Cash Flow</strong>. Analyze your monthly UPI and card spends for the last 6 months. Banks will ask for your primary bank statements. You need to ensure that your statements reflect a genuine hardship. If there are large unexplained inflows, be prepared to explain them. Your goal is to prove three things: you have a genuine inability to pay the full amount, you have a specific lump sum available for a one-time settlement, and this lump sum is the absolute maximum the bank can hope to recover from you.
@@ -332,7 +332,7 @@ export default function NegotiationStepsClient() {
 
                             <h2 id="psychological-mindset" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Psychological Preparedness: Developing the "Settlement Mindset"</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The biggest hurdle in debt negotiation is not the bank; it is the borrower's own fear. Debt recovery in India is designed to be loud and intrusive to trigger your flight or fight response. To negotiate effectively, you must develop a calm, professional, and detached mindset. You are not a 'defaulter' in a moral sense; you are a party to a contract that is being restructured due to changed circumstances.
+                                The biggest hurdle in debt negotiation is not the bank; it is the borrower’s own fear. Debt recovery in India is designed to be loud and intrusive to trigger your flight or fight response. To negotiate effectively, you must develop a calm, professional, and detached mindset. You are not a 'defaulter' in a moral sense; you are a party to a contract that is being restructured due to changed circumstances.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Prepare for the <strong>recovery agent pressure</strong>. Know that their calls are a scripted attempt to make you act out of panic. Once you decide to settle, you must accept that your credit score will take a hit. Trying to 'save' your score while asking for a 50% waiver is a contradiction that will weaken your position. Embrace the temporary credit shadow as the cost of long-term freedom.
@@ -343,7 +343,7 @@ export default function NegotiationStepsClient() {
 
                             <h2 id="hardship-dossier" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Organizing the "Hardship Dossier": Critical Documents for 2025</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the era of paperless banking, physical evidence still carries the most weight in an Indian courtroom or a bank manager's cabin. You need to compile what we call a "Hardship Dossier." This is a folder that contains every shred of evidence supporting your claim of financial distress. In 2025, a mere letter is not enough; you need data validation.
+                                In the era of paperless banking, physical evidence still carries the most weight in an Indian courtroom or a bank manager’s cabin. You need to compile what we call a "Hardship Dossier." This is a folder that contains every shred of evidence supporting your claim of financial distress. In 2025, a mere letter is not enough; you need data validation.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The dossier should include:
@@ -353,21 +353,21 @@ export default function NegotiationStepsClient() {
                                 <li><strong>Medical Records:</strong> Discharge summaries, hospital bills, and prescriptions for chronic illnesses that require long-term spending.</li>
                                 <li><strong>Business Financials:</strong> For entrepreneurs, GST filings and P&L statements for the last 12 months showing a decline in revenue.</li>
                                 <li><strong>Legal Documentation:</strong> Any notices you have already received. This shows the bank that the matter is already escalating and they might as well settle.</li>
-                                <li><strong>Competitor Debt:</strong> Statements from other banks where you have loans. Proving you have multiple debts helps the bank realize that their "share of the pie" will vanish if they don't settle first.</li>
+                                <li><strong>Competitor Debt:</strong> Statements from other banks where you have loans. Proving you have multiple debts helps the bank realize that their "share of the pie" will vanish if they don’t settle first.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Organizing this dossier digitally is also vital. In 2025, many banks allow you to upload hardship proofs directly to their portal. Ensure all documents are scanned in high resolution and are clearly labeled. A well-organized dossier tells the bank's credit officer that you are serious, disciplined, and prepared for a long legal or administrative battle if they don't cooperate. This professional presentation often speeds up the waiver approval process.
+                                Organizing this dossier digitally is also vital. In 2025, many banks allow you to upload hardship proofs directly to their portal. Ensure all documents are scanned in high resolution and are clearly labeled. A well-organized dossier tells the bank’s credit officer that you are serious, disciplined, and prepared for a long legal or administrative battle if they don’t cooperate. This professional presentation often speeds up the waiver approval process.
                             </p>
 
                             <h2 id="rbi-guidelines-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Understanding RBI 2025 Guidelines: Your Legal Shield</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Reserve Bank of India's 2025 Charter of Customer Rights is your primary legal protection. Before you negotiate, you must know what the bank can and cannot do. Knowledge of these rules is often the only thing that stops a recovery agent from crossing the line.
+                                The Reserve Bank of India’s 2025 Charter of Customer Rights is your primary legal protection. Before you negotiate, you must know what the bank can and cannot do. Knowledge of these rules is often the only thing that stops a recovery agent from crossing the line.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Firstly, the <strong>Recovery Agent Conduct</strong> rules have been tightened. Any communication must be digitally recorded by the bank. If an agent threatens you, you can demand the recording from the bank as part of your negotiation. Secondly, the <strong>Calling Hours</strong> are strictly 8 AM to 7 PM. Any call outside these hours is a violation of RBI norms and can be used as leverage to ask for a better settlement deal.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A major 2025 update is the <strong>"Fair Price" Resolution Framework</strong>. The RBI now encourages banks to use "Market-Based Valuation" for settlements. This means if you can prove that your total assets don't cover your total debt, the bank is mandated to consider a compromise settlement rather than dragging the matter through the courts for years. Knowing these phrases and citing them in your communications shows the bank that you are an informed borrower who knows how to approach the Banking Ombudsman if things go wrong. Never negotiate without having a copy of the latest RBI Fair Practices Code on your phone.
+                                A major 2025 update is the <strong>"Fair Price" Resolution Framework</strong>. The RBI now encourages banks to use "Market-Based Valuation" for settlements. This means if you can prove that your total assets don’t cover your total debt, the bank is mandated to consider a compromise settlement rather than dragging the matter through the courts for years. Knowing these phrases and citing them in your communications shows the bank that you are an informed borrower who knows how to approach the Banking Ombudsman if things go wrong. Never negotiate without having a copy of the latest RBI Fair Practices Code on your phone.
                             </p>
 
                             <h2 id="arc-factor-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The ARC (Asset Reconstruction Company) Factor: January 2025 Rules</h2>
@@ -383,10 +383,10 @@ export default function NegotiationStepsClient() {
 
                             <h2 id="anchor-pricing-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Setting the "Anchor" Price: The Strategic Starting Point</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In behavioral economics, "Anchoring" is a cognitive bias where the first number mentioned in a negotiation sets the tone for everything that follows. In a loan settlement, the bank's anchor is the total outstanding amount (Principal + Interest + Penalties). Your job is to set a new, "Counter-Anchor."
+                                In behavioral economics, "Anchoring" is a cognitive bias where the first number mentioned in a negotiation sets the tone for everything that follows. In a loan settlement, the bank’s anchor is the total outstanding amount (Principal + Interest + Penalties). Your job is to set a new, "Counter-Anchor."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A healthy strategy is to start your offer at <strong>25% of the total outstanding</strong>. Why 25%? Because it is low enough to give you room to negotiate upward, but high enough to be taken seriously as a "Lump Sum" recovery. The bank will likely counter with 70% or 80%. Don't be discouraged. Your goal is to meet in the "Golden Zone" of 35% to 50%.
+                                A healthy strategy is to start your offer at <strong>25% of the total outstanding</strong>. Why 25%? Because it is low enough to give you room to negotiate upward, but high enough to be taken seriously as a "Lump Sum" recovery. The bank will likely counter with 70% or 80%. Don’t be discouraged. Your goal is to meet in the "Golden Zone" of 35% to 50%.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When setting your price, use "Odd Numbers." Instead of saying "I can pay 1 Lakh," say "I have precisely 1,12,500 rupees available from a family loan." This precision makes the number feel "real" and calculated based on your actual capacity, rather than a round figure that was picked out of thin air. It signals to the bank that you have reached the very bottom of your barrel. If the bank refuses your anchor, be ready to explain the "Cost of Non-Recovery." Remind them (politely) that a legal battle will cost them time, legal fees, and potentially result in zero recovery if you are declared insolvent. This shift in risk perception is what moves the bank toward your anchor price.
@@ -394,13 +394,13 @@ export default function NegotiationStepsClient() {
 
                             <h2 id="legal-safeguards-clauses" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Drafting the "No Further Liability" Clause: Legal Safeguards</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A settlement that isn't legally airtight is just a temporary pause in your problems. The most critical part of your preparation is understanding the legal clauses that must be present in your <strong>Settlement Offer Letter</strong>. Too many borrowers pay the money and later find that the bank is still chasing them for some residual fees or that the legal cases were never withdrawn.
+                                A settlement that isn’t legally airtight is just a temporary pause in your problems. The most critical part of your preparation is understanding the legal clauses that must be present in your <strong>Settlement Offer Letter</strong>. Too many borrowers pay the money and later find that the bank is still chasing them for some residual fees or that the legal cases were never withdrawn.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your letter must explicitly include a "Full and Final Settlement" clause. This means the bank agrees that upon receipt of the agreed amount, the debt is settled in its entirety, and no further principal, interest, or charges can ever be claimed. Another vital clause is the <strong>"Withdrawal of Legal Proceedings."</strong> If there are cases under Section 138 (Cheque Bounce) or Sarfaesi, the bank must commit to filing a withdrawal application in the relevant court within 7 days of the payment clearing.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, you should also insist on a <strong>"CIBIL Update Timeline."</strong> The bank should agree to update the credit bureaus within 30 days to show the account as "Settled." While "Settled" is not as good as "Closed," it is infinitely better than "Default." Having these clauses agreed upon in writing before you pay a single rupee is non-negotiable. If the bank manager says "don't worry, we will take care of it," don't believe them. Insist on the letter. A professional debt relief strategy is 10% negotiation and 90% legal documentation.
+                                In 2025, you should also insist on a <strong>"CIBIL Update Timeline."</strong> The bank should agree to update the credit bureaus within 30 days to show the account as "Settled." While "Settled" is not as good as "Closed," it is infinitely better than "Default." Having these clauses agreed upon in writing before you pay a single rupee is non-negotiable. If the bank manager says "don’t worry, we will take care of it," don’t believe them. Insist on the letter. A professional debt relief strategy is 10% negotiation and 90% legal documentation.
                             </p>
 
                             <h2 id="section-138-pressure" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Section 138 NI Act & Sarfaesi: Navigating Legal Pressure</h2>
@@ -408,10 +408,10 @@ export default function NegotiationStepsClient() {
                                 One of the most terrifying aspects of defaulting on a loan in India is the threat of criminal cases. Under Section 138 of the Negotiable Instruments Act, a bounced cheque can lead to imprisonment. Banks use this a primary leverage tool. However, preparation means knowing that Section 138 is "Compoundable."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This means the law allows the parties to settle the matter even after it has reached the court. In fact, most judges encourage settlement to reduce the burden on the judicial system. If you have a notice, don't ignore it. Respond to it through a lawyer or a professional agency, and use the court hearing as a platform to propose the settlement. Often, a bank is more willing to settle when a judge is watching.
+                                This means the law allows the parties to settle the matter even after it has reached the court. In fact, most judges encourage settlement to reduce the burden on the judicial system. If you have a notice, don’t ignore it. Respond to it through a lawyer or a professional agency, and use the court hearing as a platform to propose the settlement. Often, a bank is more willing to settle when a judge is watching.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For secured loans, you will deal with the <strong>Sarfaesi Act</strong>. If the bank issues a Section 13(2) notice, you have 60 days to respond. This is your "Golden Window" for negotiation. If you let this window pass, the bank can take symbolic possession of your property under Section 13(4). Your preparatory step should be to file a "Representation or Objection" within the 60 days. This legally stays the bank's action and forces them to respond to your settlement proposal. Understanding these legal "checkpoints" ensures that you don't panic when you see a legal stamp; instead, you see a timed opportunity to negotiate.
+                                For secured loans, you will deal with the <strong>Sarfaesi Act</strong>. If the bank issues a Section 13(2) notice, you have 60 days to respond. This is your "Golden Window" for negotiation. If you let this window pass, the bank can take symbolic possession of your property under Section 13(4). Your preparatory step should be to file a "Representation or Objection" within the 60 days. This legally stays the bank’s action and forces them to respond to your settlement proposal. Understanding these legal "checkpoints" ensures that you don’t panic when you see a legal stamp; instead, you see a timed opportunity to negotiate.
                             </p>
 
                             <h2 id="pre-settlement-hygiene" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Pre-Negotiation Credit Hygiene: Buffering the Crash</h2>
@@ -436,9 +436,9 @@ export default function NegotiationStepsClient() {
                                 Always consult with a qualified tax professional during your preparation phase. They can help you structure the payment and the agreement to minimize your tax liability. The last thing you want is a tax notice three years after you thought your debt problems were over. Financial health is holistic; you must protect yourself from the taxman just as much as you protect yourself from the banker.
                             </p>
 
-                            <h2 id="recovery-tactics-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Advanced Recovery Tactics: What Banks Don't Tell You</h2>
+                            <h2 id="recovery-tactics-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Advanced Recovery Tactics: What Banks Don’t Tell You</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To prepare for negotiation, you must understand the "Playbook" used by debt collection departments in 2025. One common tactic is the <strong>"Shadow Default"</strong> notification. This is when the bank sends a notice that looks like an official court summons but is actually just a demand letter from their internal legal team. They use legal-sounding jargon to trigger immediate panic. Preparation means knowing how to distinguish between a genuine court notice (with a CNR number and a digital seal) and a bank's demand letter.
+                                To prepare for negotiation, you must understand the "Playbook" used by debt collection departments in 2025. One common tactic is the <strong>"Shadow Default"</strong> notification. This is when the bank sends a notice that looks like an official court summons but is actually just a demand letter from their internal legal team. They use legal-sounding jargon to trigger immediate panic. Preparation means knowing how to distinguish between a genuine court notice (with a CNR number and a digital seal) and a bank’s demand letter.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Another tactic is <strong>"Social Profiling."</strong> While RBI bans calling your contacts, agents often browse your public LinkedIn or Instagram profiles to see if you are truly as "broke" as you claim. If you are negotiating a 40% settlement but your Instagram shows you on a vacation in Goa, the bank will use this as internal data to reject your waiver. Part of your negotiation preparation should be to temporarily set your social profiles to private to avoid any "Data Leakage" that could undermine your hardship case.
@@ -449,10 +449,10 @@ export default function NegotiationStepsClient() {
 
                             <h2 id="digital-footprints-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Managing Your Digital Footprint Before Negotiation</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, your digital life is an open book for sophisticated recovery AI models. Banks now use automated tools to scan your digital footprint for signs of "Ability to Pay." If you are active on trading platforms, crypto exchanges, or even high-end e-commerce sites, this data can find its way into the hands of the bank's recovery department. Before you start a negotiation, you must sanitize your digital activities.
+                                In 2025, your digital life is an open book for sophisticated recovery AI models. Banks now use automated tools to scan your digital footprint for signs of "Ability to Pay." If you are active on trading platforms, crypto exchanges, or even high-end e-commerce sites, this data can find its way into the hands of the bank’s recovery department. Before you start a negotiation, you must sanitize your digital activities.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This doesn't mean doing anything illegal; it means being "Quiet." Pause your active SIPs (Systematic Investment Plans) if they are visible in the same bank account you are using for the loan. Reduce your digital spending to the bare essentials. If the bank sees that your UPI volume has dropped significantly, it validates your claim of hardship. Preparation is about creating a consistent data narrative across both physical documents and digital footprints.
+                                This doesn’t mean doing anything illegal; it means being "Quiet." Pause your active SIPs (Systematic Investment Plans) if they are visible in the same bank account you are using for the loan. Reduce your digital spending to the bare essentials. If the bank sees that your UPI volume has dropped significantly, it validates your claim of hardship. Preparation is about creating a consistent data narrative across both physical documents and digital footprints.
                             </p>
 
                             <h2 id="family-shielding-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Family Shielding: Protecting Your Loved Ones</h2>
@@ -485,10 +485,10 @@ export default function NegotiationStepsClient() {
                                 Your preparation is not complete until you have a plan for what happens *after* the agreement is signed. The 90 days following a settlement are critical for stabilizing your financial health. Your first priority is ensuring the <strong>No Dues Certificate (NDC)</strong> is received and physically stored. Scan it, email it to yourself, and keep the original in a safe place. This is your most valuable financial document for the next 7 years.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Next, monitor your CIBIL report every 30 days. If the "Settled" status doesn't appear or if the "Outstanding Amount" still shows a balance, you must use your settlement letter to raise a "Data Inaccuracy Dispute" on the CIBIL portal. In the 2025 digital ecosystem, these disputes are resolved much faster if you have the supporting docs ready.
+                                Next, monitor your CIBIL report every 30 days. If the "Settled" status doesn’t appear or if the "Outstanding Amount" still shows a balance, you must use your settlement letter to raise a "Data Inaccuracy Dispute" on the CIBIL portal. In the 2025 digital ecosystem, these disputes are resolved much faster if you have the supporting docs ready.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Finally, begin your "Budgetary Audit." The month after a settlement is often when people feel a false sense of financial freedom and start overspending again. Use this time to build an emergency fund. The goal of a settlement was to give you a fresh start; don't waste that start by falling back into old habits. Your long-term financial health depends on how you use the "EMI-free" cash flow that the settlement has created.
+                                Finally, begin your "Budgetary Audit." The month after a settlement is often when people feel a false sense of financial freedom and start overspending again. Use this time to build an emergency fund. The goal of a settlement was to give you a fresh start; don’t waste that start by falling back into old habits. Your long-term financial health depends on how you use the "EMI-free" cash flow that the settlement has created.
                             </p>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 uppercase">
@@ -521,7 +521,7 @@ export default function NegotiationStepsClient() {
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">You Don't Have to Negotiate Alone</h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">You Don’t Have to Negotiate Alone</h3>
                                 <p className="text-blue-800 mb-6 font-light">The bank has an army of lawyers and recovery experts. You deserve professional defense. Our negotiation specialists help you draft the perfect proposal and secure an airtight legal settlement.</p>
                                 <Link
                                     href="/contact"
@@ -549,9 +549,9 @@ export default function NegotiationStepsClient() {
                                     Protect My Rights
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 font-light">
-                                    <p>✓ RBI Complaint Drafts</p>
-                                    <p>✓ Hardship Dossier Setup</p>
-                                    <p>✓ Criminal Notice Defense</p>
+                                    <p>v RBI Complaint Drafts</p>
+                                    <p>v Hardship Dossier Setup</p>
+                                    <p>v Criminal Notice Defense</p>
                                 </div>
                             </div>
 

@@ -125,7 +125,7 @@ export default function WhatQuestionsDebtConsultantClient() {
         },
         {
             question: 'Are they paid on commission based on the settlement amount?',
-            answer: 'Understanding the consultant\'s incentives is important. If they are paid a percentage of the *amount saved*, their interests are aligned with yours. If they are paid a flat fee regardless of the outcome, their motivation might be different.'
+            answer: 'Understanding the consultant’s incentives is important. If they are paid a percentage of the *amount saved*, their interests are aligned with yours. If they are paid a flat fee regardless of the outcome, their motivation might be different.'
         }
     ];
 
@@ -204,7 +204,7 @@ export default function WhatQuestionsDebtConsultantClient() {
                         <span className="text-blue-300">The 2025 Comprehensive Vetting Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-                        Don't let a "Debt Relief" company put you deeper in debt. Learn the 20+ critical questions to verify legitimacy, avoid scams, and secure the best settlement terms in India.
+                        Don’t let a "Debt Relief" company put you deeper in debt. Learn the 20+ critical questions to verify legitimacy, avoid scams, and secure the best settlement terms in India.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
@@ -333,17 +333,17 @@ export default function WhatQuestionsDebtConsultantClient() {
 
                             <h2 id="process-expectations" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Process Scrutiny: How Do They Actually Work?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many agencies are vague about their methods. A professional firm will have a clear, documented workflow. If their answer is "don't worry, we have contacts," walk away. Contacts are not a strategy; legal frameworks are.
+                                Many agencies are vague about their methods. A professional firm will have a clear, documented workflow. If their answer is "don’t worry, we have contacts," walk away. Contacts are not a strategy; legal frameworks are.
                             </p>
                             <h3 className="text-2xl font-bold text-gray-900 mb-4">The Negotiation Lifecycle: What Happens Behind the Scenes?</h3>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To truly vet a consultant, you must understand the "Banker's Mindset." A professional consultant doesn't just call and ask for a discount. They time their moves based on the bank's internal reporting cycles. Ask them: <strong>"How do you time your settlement offers?"</strong> 
+                                To truly vet a consultant, you must understand the "Banker’s Mindset." A professional consultant doesn’t just call and ask for a discount. They time their moves based on the bank’s internal reporting cycles. Ask them: <strong>"How do you time your settlement offers?"</strong> 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A high quality answer should mention <strong>"Quarterly Targets"</strong> and <strong>"Provisioning Windows."</strong> Banks are most likely to settle in the final two weeks of March (financial year end) or September (half year end). This is when branch managers and recovery heads are under pressure to "clean the books." If your consultant says they can settle any day of the year with the same result, they lack deep industry knowledge.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Furthermore, ask about the <strong>"Drip-Feed Negotiation"</strong> strategy. This is where a consultant starts with an extremely low "Anchor Offer" (say 15% of the debt) and slowly works up to the 40% or 50% target. This process creates a "History of Negotiation" in the bank's files, which makes it easier for the bank's internal audit team to approve the eventual discount. This is the level of detail you should expect from a top tier firm.
+                                Furthermore, ask about the <strong>"Drip-Feed Negotiation"</strong> strategy. This is where a consultant starts with an extremely low "Anchor Offer" (say 15% of the debt) and slowly works up to the 40% or 50% target. This process creates a "History of Negotiation" in the bank’s files, which makes it easier for the bank’s internal audit team to approve the eventual discount. This is the level of detail you should expect from a top tier firm.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We must also talk about the <strong>"Multi-Stakeholder Approach."</strong> Sometimes, the branch manager says no, but the specialized "Stressed Assets Recovery Branch" (SARB) might say yes. Your consultant should have a map of these institutional hierarchies. They should know when to go to the Zonal Office and when to file a representation with the Nodal Officer. This infrastructure is what you are paying for, not just a phone call.
@@ -366,7 +366,7 @@ export default function WhatQuestionsDebtConsultantClient() {
 
                             <h2 id="impact-and-risks" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Risk Assessment: The Uncomfortable Truths</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A great consultant is also a realist. They must be honest about the negative side effects of settlement. Ask them: <strong>"How specifically will this affect my ability to get a home loan in the next 3 years?"</strong> If they say it won't affect it, they are lying.
+                                A great consultant is also a realist. They must be honest about the negative side effects of settlement. Ask them: <strong>"How specifically will this affect my ability to get a home loan in the next 3 years?"</strong> If they say it won’t affect it, they are lying.
                             </p>
                             <ul className="list-disc pl-8 mb-8 space-y-4 text-gray-700 font-light">
                                 <li><strong>The CIBIL Factor:</strong> They should explain the "Settled" status and its 7-year history.</li>
@@ -381,17 +381,17 @@ export default function WhatQuestionsDebtConsultantClient() {
                             <div className="bg-red-900 text-white p-8 rounded-[2rem] mb-10 shadow-lg">
                                 <h3 className="text-2xl font-bold mb-6 italic underline decoration-red-400 font-serif">The "Avoid at All Costs" List:</h3>
                                 <ul className="space-y-4 font-light leading-relaxed">
-                                    <li>• <strong>Guaranteed Results:</strong> "We guarantee a 70% waiver for every client." This is impossible as every bank board has different rules.</li>
-                                    <li>• <strong>Cease Payment Orders:</strong> "Stop all EMI payments immediately and give that money to us." This can lead to criminal charges if done without a proper legal plan.</li>
-                                    <li>• <strong>Verbal Pledges:</strong> "The bank manager is a friend, he told me he will do it." If it isn't on a bank letterhead, it doesn't exist.</li>
-                                    <li>• <strong>High Pressure:</strong> "This offer is only valid if you sign today." Genuine debt relief is a slow, considered process.</li>
-                                    <li>• <strong>Lack of Legal Team:</strong> An agency that is just a call center with no lawyers cannot help you when a court summons arrives.</li>
+                                    <li>* <strong>Guaranteed Results:</strong> "We guarantee a 70% waiver for every client." This is impossible as every bank board has different rules.</li>
+                                    <li>* <strong>Cease Payment Orders:</strong> "Stop all EMI payments immediately and give that money to us." This can lead to criminal charges if done without a proper legal plan.</li>
+                                    <li>* <strong>Verbal Pledges:</strong> "The bank manager is a friend, he told me he will do it." If it isn’t on a bank letterhead, it doesn’t exist.</li>
+                                    <li>* <strong>High Pressure:</strong> "This offer is only valid if you sign today." Genuine debt relief is a slow, considered process.</li>
+                                    <li>* <strong>Lack of Legal Team:</strong> An agency that is just a call center with no lawyers cannot help you when a court summons arrives.</li>
                                 </ul>
                             </div>
 
                             <h2 id="legal-protections-india" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Legal Safeguards in India: Your Bill of Rights</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One of the most important reasons to hire a consultant is to have a legal shield. In India, the <strong>Consumer Protection Act 2019</strong> and specific <strong>RBI Guidelines on Fair Practices</strong> provide you with significant rights. Your consultant must be able to explain these to you in detail. If they merely say "don't worry," they are failing you.
+                                One of the most important reasons to hire a consultant is to have a legal shield. In India, the <strong>Consumer Protection Act 2019</strong> and specific <strong>RBI Guidelines on Fair Practices</strong> provide you with significant rights. Your consultant must be able to explain these to you in detail. If they merely say "don’t worry," they are failing you.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For instance, did you know that recovery agents cannot call you before 8:00 AM or after 7:00 PM? Did you know they cannot enter your home without your permission, or call your friends and colleagues to "shame" you? A professional consultant will issue <strong>Cease and Desist</strong> notices to lenders who violate these norms. This legal pressure often forces the bank to move away from aggressive recovery and toward a "Compromise Settlement."
@@ -402,7 +402,7 @@ export default function WhatQuestionsDebtConsultantClient() {
 
                             <h3 className="text-2xl font-bold text-gray-900 mb-4">The Role of Lok Adalat in Debt Resolution</h3>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A critical part of the vetting process is asking: <strong>"How do you handle Lok Adalat notices?"</strong>. In 2025, banks are increasingly using Lok Adalats (People\'s Courts) to settle small and medium debts. This is actually a great opportunity for you. A settlement reached in Lok Adalat has the same legal force as a court decree, meaning the bank cannot come back later and ask for more money.
+                                A critical part of the vetting process is asking: <strong>"How do you handle Lok Adalat notices?"</strong>. In 2025, banks are increasingly using Lok Adalats (People’s Courts) to settle small and medium debts. This is actually a great opportunity for you. A settlement reached in Lok Adalat has the same legal force as a court decree, meaning the bank cannot come back later and ask for more money.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your consultant should be willing to represent you or guide you through the Lok Adalat process. They should help you prepare a <strong>"Hardship Affidavit"</strong> that explains your income loss, medical emergencies, or business failure. When presented to the judge in Lok Adalat, these documents carry immense weight and often result in the judge "persuading" the bank representative to accept a 50% or 60% waiver. A consultant who tells you to "skip Lok Adalat" is giving you dangerous advice.
@@ -410,35 +410,35 @@ export default function WhatQuestionsDebtConsultantClient() {
 
                             <h2 id="rbi-framework-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The RBI 2025 Context: Leveraging the "Right to Settlement"</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The regulatory landscape shifted significantly in 2023 and 2024, leading to the 2025 reality where "Compromise Settlements" are a standard institutional tool. The RBI\'s <strong>Master Direction on Transfer of Loan Exposures</strong> and the <strong>Framework for Compromise Settlements</strong> have paved the way for even wilful defaulters to find a path back to financial stability. 
+                                The regulatory landscape shifted significantly in 2023 and 2024, leading to the 2025 reality where "Compromise Settlements" are a standard institutional tool. The RBI’s <strong>Master Direction on Transfer of Loan Exposures</strong> and the <strong>Framework for Compromise Settlements</strong> have paved the way for even wilful defaulters to find a path back to financial stability. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Ask your consultant: <strong>"Which specific RBI circular do you reference when the bank refuses to settle?"</strong>. A top-tier consultant will point to the June 2023 framework which specifies that all regulated entities must have board-approved policies for compromise settlements. If the branch manager says "we don\'t have a settlement policy," your consultant should be able to escalate this to the Nodal Officer, citing the RBI\'s mandate for transparency. This level of technical expertise is what separates a professional firm from a call center.
+                                Ask your consultant: <strong>"Which specific RBI circular do you reference when the bank refuses to settle?"</strong>. A top-tier consultant will point to the June 2023 framework which specifies that all regulated entities must have board-approved policies for compromise settlements. If the branch manager says "we don’t have a settlement policy," your consultant should be able to escalate this to the Nodal Officer, citing the RBI’s mandate for transparency. This level of technical expertise is what separates a professional firm from a call center.
                             </p>
 
                             <h2 id="specific-scenario-questions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Specific Scenario Questions: Probing the Depth</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To ensure your consultant isn\'t just reading from a script, ask them these "What-If" questions during your initial call:
+                                To ensure your consultant isn’t just reading from a script, ask them these "What-If" questions during your initial call:
                             </p>
                             <div className="bg-gray-50 p-6 rounded-2xl mb-10 border border-gray-100">
                                 <ul className="space-y-6">
                                     <li>
                                         <p className="font-bold text-blue-900 mb-1">"What if my loan has been transferred to an ARC (Asset Reconstruction Company)?"</p>
-                                        <p className="text-sm text-gray-600">Many borrowers panic when they hear their debt was sold. A good consultant will explain that ARCs like <strong>Phoenix, Invent, or Omkara</strong> are actually easier to negotiate with because they buy the debt at a 70-80% discount. They are often happy to settle for 30-40% of the principal because it still represents a quick profit for them. If your consultant doesn\'t know how to handle an ARC, they aren\'t an expert.</p>
+                                        <p className="text-sm text-gray-600">Many borrowers panic when they hear their debt was sold. A good consultant will explain that ARCs like <strong>Phoenix, Invent, or Omkara</strong> are actually easier to negotiate with because they buy the debt at a 70-80% discount. They are often happy to settle for 30-40% of the principal because it still represents a quick profit for them. If your consultant doesn’t know how to handle an ARC, they aren’t an expert.</p>
                                     </li>
                                     <li>
                                         <p className="font-bold text-blue-900 mb-1">"Can I settle if I have a co-signer who has a good credit score?"</p>
-                                        <p className="text-sm text-gray-600">This is a delicate situation. A professional will warn you that a settlement will impact the co-signer\'s CIBIL score as well. They should propose a strategy where the co-signer is protected or where the co-signer\'s income is used as "Last Resort Hardship" to get a better deal. Honesty about family impact is a hallmark of an ethical consultant.</p>
+                                        <p className="text-sm text-gray-600">This is a delicate situation. A professional will warn you that a settlement will impact the co-signer’s CIBIL score as well. They should propose a strategy where the co-signer is protected or where the co-signer’s income is used as "Last Resort Hardship" to get a better deal. Honesty about family impact is a hallmark of an ethical consultant.</p>
                                     </li>
                                 </ul>
                             </div>
 
-                            <h2 id="negotiation-with-agency" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Negotiating Terms with the Agency: The "Consultant\'s Contract"</h2>
+                            <h2 id="negotiation-with-agency" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Negotiating Terms with the Agency: The "Consultant’s Contract"</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Remember, the agreement you sign with the debt settlement agency is also a contract. You have the right to negotiate its terms. One question you must ask is: <strong>"What is your refund policy if no settlement is achieved within 6 months?"</strong>. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A confident and legitimate firm will have a <strong>"Service Level Agreement" (SLA)</strong>. This SLA should guarantee a minimum amount of work—such as sending representations to the bank, providing legal drafts for notices, and giving you monthly progress reports. If they want you to pay a monthly fee but offer no guaranteed services in return, you are essentially just paying for a "hope" that might never materialize.
+                                A confident and legitimate firm will have a <strong>"Service Level Agreement" (SLA)</strong>. This SLA should guarantee a minimum amount of work-such as sending representations to the bank, providing legal drafts for notices, and giving you monthly progress reports. If they want you to pay a monthly fee but offer no guaranteed services in return, you are essentially just paying for a "hope" that might never materialize.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Also, ask about <strong>"Direct Payment to Banks."</strong>. A massive red flag is a consultant who asks YOU to send the settlement money to THEIR company account. NEVER DO THIS. The settlement money should always go directly to the bank via a demand draft or NEFT specifically into your loan account number. The consultant should only receive their service fee separately.
@@ -451,16 +451,16 @@ export default function WhatQuestionsDebtConsultantClient() {
                             <div className="bg-blue-900 text-white p-10 rounded-[2.5rem] mb-12 shadow-2xl relative overflow-hidden">
                                 <div className="absolute bottom-0 right-0 w-48 h-48 bg-blue-500 opacity-20 rounded-full -mb-24 -mr-24"></div>
                                 <ul className="space-y-4 font-light text-lg">
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Verified physical office and CIN (Corporate Identity Number).</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> No high upfront "Setup Fees" required.</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Honest explanation of CIBIL impact (7-year history).</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Access to a panel of identifiable legal experts/lawyers.</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Clear Service Level Agreement (SLA) with refund terms.</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Knowledge of Lok Adalat and ARC negotiation nuances.</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Explicit instruction to pay settlement money ONLY to the bank.</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Willingness to stop illegal recovery harassment via legal notices.</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> Provided anonymized settlement letters from major Indian banks.</li>
-                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">✓</span> No verbal guarantees of specific 70-80% waiver amounts.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Verified physical office and CIN (Corporate Identity Number).</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> No high upfront "Setup Fees" required.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Honest explanation of CIBIL impact (7-year history).</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Access to a panel of identifiable legal experts/lawyers.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Clear Service Level Agreement (SLA) with refund terms.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Knowledge of Lok Adalat and ARC negotiation nuances.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Explicit instruction to pay settlement money ONLY to the bank.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Willingness to stop illegal recovery harassment via legal notices.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> Provided anonymized settlement letters from major Indian banks.</li>
+                                    <li className="flex items-center"><span className="bg-green-500 text-white w-6 h-6 rounded-full flex items-center justify-center mr-3 text-xs">v</span> No verbal guarantees of specific 70-80% waiver amounts.</li>
                                 </ul>
                             </div>
 
@@ -501,7 +501,7 @@ export default function WhatQuestionsDebtConsultantClient() {
                                 Many borrowers ask if they should just declare insolvency (bankruptcy). In India, the <strong>Insolvency and Bankruptcy Code (IBC)</strong> for individuals is still relatively complex and socially stigmatized. Settlement is a much more "Private" and "Graceful" exit. It allows you to resolve your debts without a public court declaration of insolvency, which can affect your ability to hold certain public offices or directorships in the future.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Choosing the right consultant is the first step toward this graceful exit. By asking the questions outlined in this guide, you are not just protecting your money; you are protecting your peace of mind. You are ensuring that the person representing you in the dark halls of a bank\'s recovery department is as dedicated to your freedom as you are. 
+                                Choosing the right consultant is the first step toward this graceful exit. By asking the questions outlined in this guide, you are not just protecting your money; you are protecting your peace of mind. You are ensuring that the person representing you in the dark halls of a bank’s recovery department is as dedicated to your freedom as you are. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A final tip: <strong>Document everything.</strong> Keep a log of every call with the consultant, every email sent to the bank, and every draft provided to you. Transparency is a two-way street. A professional agency will encourage this level of involvement because they know that an informed client is their best partner.
@@ -535,9 +535,9 @@ export default function WhatQuestionsDebtConsultantClient() {
                                     Help Me Verify
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-2 text-left">
-                                    <p className="flex items-center"><span className="text-green-500 mr-2">✔</span> Contract Review</p>
-                                    <p className="flex items-center"><span className="text-green-500 mr-2">✔</span> Fee Structure Audit</p>
-                                    <p className="flex items-center"><span className="text-green-500 mr-2">✔</span> Legal Shield Check</p>
+                                    <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Contract Review</p>
+                                    <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Fee Structure Audit</p>
+                                    <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Legal Shield Check</p>
                                 </div>
                             </div>
 
@@ -552,7 +552,7 @@ export default function WhatQuestionsDebtConsultantClient() {
                                         { href: "/best-lawyer-for-bank-loan-recovery-defence", text: "Legal Support Options" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

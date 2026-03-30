@@ -77,7 +77,7 @@ export default function BankLoanRecoveryDefenceClient() {
             name: 'Vikram Mehta',
             location: 'Mumbai',
             stars: 5,
-            comment: 'I was facing a SARFAESI notice for my factory. This guide helped me understand that the bank\'s valuation was flawed. My lawyer used this point to get a stay from the DRT, and eventually, we settled for a much lower amount.'
+            comment: 'I was facing a SARFAESI notice for my factory. This guide helped me understand that the bank’s valuation was flawed. My lawyer used this point to get a stay from the DRT, and eventually, we settled for a much lower amount.'
         },
         {
             name: 'Sushma Reddy',
@@ -122,7 +122,7 @@ export default function BankLoanRecoveryDefenceClient() {
         },
         {
             question: 'What are the grounds for defending a case in the DRT?',
-            answer: 'Grounds include improper service of summons, limitation period expiry, incorrect interest charging, lack of proper documentation by the bank, and counter-claims for damages caused by the bank\'s actions.'
+            answer: 'Grounds include improper service of summons, limitation period expiry, incorrect interest charging, lack of proper documentation by the bank, and counter-claims for damages caused by the bank’s actions.'
         },
         {
             question: 'Can I negotiate a settlement after the bank has filed a case?',
@@ -351,10 +351,10 @@ export default function BankLoanRecoveryDefenceClient() {
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-10">
                                 <h3 className="text-xl font-bold text-blue-900 mb-4">Critical SARFAESI Safeguards for Borrowers:</h3>
                                 <ul className="space-y-4 text-slate-800 text-lg list-none pl-0">
-                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">•</span> <strong>Representation and Objections:</strong> Under Section 13(3A), the bank must respond to your objections within 15 days. If they fail to provide a reasoned response, their subsequent actions can be challenged.</li>
-                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">•</span> <strong>Valuation of Assets:</strong> Banks often undervalue property to ensure a quick sale. A lawyer can challenge the reserve price by bringing in an independent government approved valuer.</li>
-                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">•</span> <strong>Sale Notice Compliance:</strong> The bank must give a 30 day notice before the first auction and a 15 day notice for subsequent ones. Failure to follow this timeline is a frequent ground for setting aside a sale.</li>
-                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">•</span> <strong>Agricultural Land Exception:</strong> SARFAESI Act does not apply to agricultural land. Many banks try to bypass this, and only a sharp legal eye can stop them.</li>
+                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">*</span> <strong>Representation and Objections:</strong> Under Section 13(3A), the bank must respond to your objections within 15 days. If they fail to provide a reasoned response, their subsequent actions can be challenged.</li>
+                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">*</span> <strong>Valuation of Assets:</strong> Banks often undervalue property to ensure a quick sale. A lawyer can challenge the reserve price by bringing in an independent government approved valuer.</li>
+                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">*</span> <strong>Sale Notice Compliance:</strong> The bank must give a 30 day notice before the first auction and a 15 day notice for subsequent ones. Failure to follow this timeline is a frequent ground for setting aside a sale.</li>
+                                    <li className="flex gap-3"><span className="text-blue-600 font-bold">*</span> <strong>Agricultural Land Exception:</strong> SARFAESI Act does not apply to agricultural land. Many banks try to bypass this, and only a sharp legal eye can stop them.</li>
                                 </ul>
                             </div>
                             <p className="text-slate-700 leading-[1.8] mb-8 text-lg">
@@ -416,7 +416,7 @@ export default function BankLoanRecoveryDefenceClient() {
                                 For many borrowers, the goal is not to fight the bank forever but to reach a realistic settlement. This is where the One-Time Settlement (OTS) comes into play. An OTS is a contract where the bank agrees to accept a lump sum amount, often significantly less than the total outstanding, and release the borrower from all liabilities.
                             </p>
                             <p className="text-slate-700 leading-[1.8] mb-8 text-lg">
-                                Negotiating an OTS is an art form. It requires proving to the bank that you have a "genuine hardship" and that if they don't take your current offer, their chances of recovering anything in the future are zero. This is where your lawyer becomes an expert salesman of your reality. They present your medical bills, your loss of employment data, or your business’s audit reports to show the bank’s committee that your offer is the best they will get.
+                                Negotiating an OTS is an art form. It requires proving to the bank that you have a "genuine hardship" and that if they don’t take your current offer, their chances of recovering anything in the future are zero. This is where your lawyer becomes an expert salesman of your reality. They present your medical bills, your loss of employment data, or your business’s audit reports to show the bank’s committee that your offer is the best they will get.
                             </p>
                             <p className="text-slate-700 leading-[1.8] mb-8 text-lg">
                                 In 2026, many banks have "Compromise Settlement Schemes" that are approved by their board. A specialized lawyer knows how to fit your case into the criteria of these schemes. They also ensure that the OTS letter is legally foolproof. Does it clearly mention the release of all collateral? Does it mandate the withdrawal of all pending court cases? Does it specify the timeline for the No Dues Certificate? Without these protections, an OTS can become a trap.
@@ -522,7 +522,7 @@ export default function BankLoanRecoveryDefenceClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Legal Defence</h3>
-                                <p className="text-blue-800 mb-6">Don't face the bank's legal machinery alone. Our specialized advocates ensure your rights are protected and help you negotiate from a position of strength.</p>
+                                <p className="text-blue-800 mb-6">Don’t face the bank’s legal machinery alone. Our specialized advocates ensure your rights are protected and help you negotiate from a position of strength.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -545,7 +545,7 @@ export default function BankLoanRecoveryDefenceClient() {
                             {/* Primary CTA Container */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center relative overflow-hidden group">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Bank Recovery?</h4>
-                                <p className="text-sm text-gray-600 mb-6">Don't wait for the auction notice. Act now to protect your assets with a professional legal defence plan.</p>
+                                <p className="text-sm text-gray-600 mb-6">Don’t wait for the auction notice. Act now to protect your assets with a professional legal defence plan.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -553,9 +553,9 @@ export default function BankLoanRecoveryDefenceClient() {
                                     Get Legal Help Now
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ SARFAESI Act Specialists</p>
-                                    <p>✓ DRT Stay Order Relief</p>
-                                    <p>✓ Zero-Harassment Priority</p>
+                                    <p>v SARFAESI Act Specialists</p>
+                                    <p>v DRT Stay Order Relief</p>
+                                    <p>v Zero-Harassment Priority</p>
                                 </div>
                             </div>
 

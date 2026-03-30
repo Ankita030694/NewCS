@@ -284,7 +284,7 @@ export default function LoanSettlementCIBILClient() {
                   <strong>Why Borrowers Take It:</strong> It stops the legal actions, it ends the recovery agent harassment, and it allows them to walk away from a debt that was mathematically impossible to pay back.
                 </p>
                 <p>
-                  However, the lender then reports this to CIBIL with a specific remark: "SETTLED." This single word acts as a permanent red flag in the credit ecosystem. It tells every other bank in India: "This person borrowed money but didn't have the capacity or intent to pay it all back."
+                  However, the lender then reports this to CIBIL with a specific remark: "SETTLED." This single word acts as a permanent red flag in the credit ecosystem. It tells every other bank in India: "This person borrowed money but didn’t have the capacity or intent to pay it all back."
                 </p>
               </div>
 
@@ -348,7 +348,7 @@ export default function LoanSettlementCIBILClient() {
                   One of the most painful aspects of loan settlement is its longevity. In India, credit bureaus are allowed to maintain records of settled accounts for a period of <strong>seven years</strong>.
                 </p>
                 <p>
-                  This means that even if you become a millionaire three years after a settlement, that "Settled" tag will still be there when you apply for a credit card. It doesn't matter how well you have paid your other bills in the intervening years: the settled account remains as a "historical fact" on your report.
+                  This means that even if you become a millionaire three years after a settlement, that "Settled" tag will still be there when you apply for a credit card. It doesn’t matter how well you have paid your other bills in the intervening years: the settled account remains as a "historical fact" on your report.
                 </p>
                 <p>
                   After seven years, the account usually drops off the report as per standard data retention policies. However, some banks maintain their own internal "Blacklists" forever. If you settle with Bank A today, Bank A might never give you a loan again, even 20 years from now. This is why we always advise clients to consider the long term relationship with a banking institution before opting for a settlement.
@@ -361,7 +361,7 @@ export default function LoanSettlementCIBILClient() {
                   Modern lending is not just based on a 3 digit score. For large loans, human credit managers or advanced AI models analyze the "raw data" of your CIBIL report.
                 </p>
                 <p>
-                  When a credit manager sees a "Settled" status, they don't just see a low score: they see a risk profile. They categorize you as a "Strategic Defaulter" or a "Distressed Borrower." 
+                  When a credit manager sees a "Settled" status, they don’t just see a low score: they see a risk profile. They categorize you as a "Strategic Defaulter" or a "Distressed Borrower." 
                 </p>
                 <p>
                   <strong>Strategic Defaulter:</strong> Someone who has the money but uses settlement as a tool to avoid paying the full interest. Lenders hate this and will block you from all future products.
@@ -390,7 +390,7 @@ export default function LoanSettlementCIBILClient() {
               <h2 id="housing-loan-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Housing Loan Crisis: Can You Buy a Home After Settlement?</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  This is the most frequent concern we hear at CredSettle. "I want to settle my small personal loan today so I can get a home loan in 2 years." <strong>Warning: it doesn't work that way.</strong>
+                  This is the most frequent concern we hear at CredSettle. "I want to settle my small personal loan today so I can get a home loan in 2 years." <strong>Warning: it doesn’t work that way.</strong>
                 </p>
                 <p>
                   Home loans are the most scrutinized products in the market. They have tenures of 15 to 25 years. Banks want to be absolutely sure you will pay back. A "Settled" mark on a small 50,000 rupee credit card can lead to a rejection of a 50 lakh home loan. To a bank, it shows a lack of financial discipline. 
@@ -460,13 +460,13 @@ export default function LoanSettlementCIBILClient() {
                   <strong>1. Get a Secured Credit Card:</strong> This is the "Magic Bullet" for CIBIL recovery. Deposit 50,000 rupees in a Fixed Deposit and get a credit card against it. Use it for small purchases (gas, groceries) and pay the bill in full every month. This creates a new stream of "Positive Payment History" that slowly overrides the "Settled" mark.
                 </p>
                 <p>
-                  <strong>2. Zero Default Policy:</strong> For the next 3 years, you cannot afford a single day's delay in any payment. Not a mobile bill, not a utility bill, not a small EMI. You must be the "Perfect Payer."
+                  <strong>2. Zero Default Policy:</strong> For the next 3 years, you cannot afford a single day’s delay in any payment. Not a mobile bill, not a utility bill, not a small EMI. You must be the "Perfect Payer."
                 </p>
                 <p>
                   <strong>3. Maintain Low Credit Utilization:</strong> Even if you have a 1 lakh limit on your secured card, only use 10,000 rupees. This shows the algorithm that you are not "Hungry for Credit."
                 </p>
                 <p>
-                  <strong>4. Regular Monitoring:</strong> Check your CIBIL report every 3 months. Ensure the bank doesn't "Double Report" the settled account or keep it showing as "Default." Errors are common: fixing them can jump your score by 40 points instantly.
+                  <strong>4. Regular Monitoring:</strong> Check your CIBIL report every 3 months. Ensure the bank doesn’t "Double Report" the settled account or keep it showing as "Default." Errors are common: fixing them can jump your score by 40 points instantly.
                 </p>
               </div>
 
@@ -480,10 +480,10 @@ export default function LoanSettlementCIBILClient() {
                 </p>
               </div>
 
-              <h2 id="commercial-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Entrepreneur's Dilemma: Commercial Loan Impact</h2>
+              <h2 id="commercial-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Entrepreneur’s Dilemma: Commercial Loan Impact</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  For business owners, personal CIBIL and Business CIBIL are intertwined. If you settle a personal credit card, your "CIBIL Rank" (for businesses) might drop. When your company applies for a CC (Cash Credit) limit or an OD (Overdraft) facility, the bank will check the promoter's personal history. A "Settled" mark can lead to a rejection of the business loan, stalling your growth. This is why many entrepreneurs choose to pay the full waiver amount later in life to convert the "Settled" status to "Closed" before a major business expansion.
+                  For business owners, personal CIBIL and Business CIBIL are intertwined. If you settle a personal credit card, your "CIBIL Rank" (for businesses) might drop. When your company applies for a CC (Cash Credit) limit or an OD (Overdraft) facility, the bank will check the promoter’s personal history. A "Settled" mark can lead to a rejection of the business loan, stalling your growth. This is why many entrepreneurs choose to pay the full waiver amount later in life to convert the "Settled" status to "Closed" before a major business expansion.
                 </p>
               </div>
 
@@ -494,9 +494,9 @@ export default function LoanSettlementCIBILClient() {
                 </p>
                 <ul className="list-disc pl-6 space-y-4">
                   <li><strong>Wait for the Right Time:</strong> Do not settle when you are only 30 days late. The best "Haircuts" (discounts) happen when the loan is 180+ days old and in the "Doubtful" NPA category.</li>
-                  <li><strong>Verification:</strong> Ensure the offer comes from an official bank email ID or a signed letter from the Branch Manager. Never trust an agent's word or a WhatsApp message.</li>
-                  <li><strong>Payment Method:</strong> Always pay through the bank's official portal, a Demand Draft, or an account transfer directly to the loan account. Never give cash or a cheque in the name of an agency.</li>
-                  <li><strong>The NDC:</strong> Demand your "No Dues Certificate" within 15 days of the final payment. Without this, your settlement isn't legally complete.</li>
+                  <li><strong>Verification:</strong> Ensure the offer comes from an official bank email ID or a signed letter from the Branch Manager. Never trust an agent’s word or a WhatsApp message.</li>
+                  <li><strong>Payment Method:</strong> Always pay through the bank’s official portal, a Demand Draft, or an account transfer directly to the loan account. Never give cash or a cheque in the name of an agency.</li>
+                  <li><strong>The NDC:</strong> Demand your "No Dues Certificate" within 15 days of the final payment. Without this, your settlement isn’t legally complete.</li>
                 </ul>
               </div>
 
@@ -513,7 +513,7 @@ export default function LoanSettlementCIBILClient() {
               <h2 id="psychological-prep" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Mental Fortress: Psychological Preparation for a Lower CIBIL</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Accepting a lower CIBIL score is a mental challenge. You will feel "Financially Disabled" for a few years. You will see ads for cards you can't have. You will face rejections. 
+                  Accepting a lower CIBIL score is a mental challenge. You will feel "Financially Disabled" for a few years. You will see ads for cards you can’t have. You will face rejections. 
                 </p>
                 <p>
                   Prepare yourself. Live on a "Cash Only" basis for two years. This "Credit Detox" is actually healthy for your long term wealth. By the time your CIBIL recovers, you will have better financial habits that ensure you never fall into the debt trap again. The score drop is temporary: your financial education is permanent.
@@ -528,8 +528,8 @@ export default function LoanSettlementCIBILClient() {
                 <p>
                   - **Legal Shield:** We stop the harassment so you can think clearly and negotiate from a position of strength.
                   - **Expert Negotiation:** We know the "Floor Price" of every bank. We get you the deepest possible discounts while ensuring all legal documentation is airtight.
-                  - **Post Settlement Support:** We don't just leave you after the settlement. We provide a structured roadmap to rebuild your credit score, helping you choose the right secured products to get back into the bank's good books.
-                  - **Error Rectification:** Our team monitors your CIBIL for 12 months after settlement to ensure the banks have reported the data correctly. If they haven't, we handle the dispute process for you.
+                  - **Post Settlement Support:** We don’t just leave you after the settlement. We provide a structured roadmap to rebuild your credit score, helping you choose the right secured products to get back into the bank’s good books.
+                  - **Error Rectification:** Our team monitors your CIBIL for 12 months after settlement to ensure the banks have reported the data correctly. If they haven’t, we handle the dispute process for you.
                 </p>
               </div>
 
@@ -543,12 +543,12 @@ export default function LoanSettlementCIBILClient() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900">{review.name}</h4>
-                        <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
+                        <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
                     <div className="flex text-yellow-400 mb-3 text-sm">
                       {[...Array(review.rating)].map((_, i) => (
-                        <span key={i}>★</span>
+                        <span key={i}>*</span>
                       ))}
                     </div>
                     <p className="text-gray-700 text-sm leading-relaxed italic">"{review.text}"</p>
@@ -595,7 +595,7 @@ export default function LoanSettlementCIBILClient() {
               <div className="mt-16 p-8 md:p-14 bg-gradient-to-br from-blue-900 to-black text-white rounded-[40px] text-center shadow-2xl relative overflow-hidden">
                 <div className="relative z-10">
                   <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight uppercase tracking-tight">Protect Your Credit Future Now</h2>
-                  <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-xl font-light">Don't let a settlement destroy your dreams. Get expert legal guidance to settle your debts with minimal CIBIL damage.</p>
+                  <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-xl font-light">Don’t let a settlement destroy your dreams. Get expert legal guidance to settle your debts with minimal CIBIL damage.</p>
                   <Link 
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-12 py-5 rounded-full font-extrabold text-xl hover:bg-blue-50 transition-all shadow-2xl hover:scale-105 active:scale-95"
@@ -666,7 +666,7 @@ export default function LoanSettlementCIBILClient() {
               {/* Trust Badge */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center">
                 <div className="text-blue-600 text-2xl font-black mb-1">4.9/5</div>
-                <div className="flex justify-center text-yellow-400 mb-2">★★★★★</div>
+                <div className="flex justify-center text-yellow-400 mb-2">*****</div>
                 <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Client Satisfaction</p>
               </div>
 

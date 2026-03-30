@@ -200,7 +200,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                 </section>
               )}
 
-              {/* H2: CredSettle - India's Trusted Car Loan Settlement Company */}
+              {/* H2: CredSettle - India’s Trusted Car Loan Settlement Company */}
               {content.credsettleOverview && (
                 <section id="credsettle-overview" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2

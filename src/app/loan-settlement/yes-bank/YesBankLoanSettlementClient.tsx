@@ -99,12 +99,12 @@ export default function YesBankLoanSettlementClient() {
       answer: "Communication is key. You should ideally route your settlement request through professional channels to ensure it reaches the right decision makers in the recovery department. While you can visit a branch, using a specialized agency like CredSettle ensures that your case is presented with proper legal grounding, preventing miscommunication or intimidation by recovery agents."
     },
     {
-      question: "Will the police be involved if I don't pay my Yes Bank loan?",
+      question: "Will the police be involved if I don’t pay my Yes Bank loan?",
       answer: "No, defaulting on a loan is a civil dispute, not a criminal offense. The police generally do not get involved in loan recovery matters unless there is an element of fraud (like submitting fake documents). Banks cannot threaten you with arrest or police action for genuine inability to repay. If recovery agents threaten you with police action, it is illegal harassment."
     },
     {
       question: "How much discount can I realistically expect?",
-      answer: "The settlement amount is not fixed and depends on various factors: the age of the default (older NPAs often get better deals), your current income, your assets, and the bank's internal policies at that time. Generally, settlements range from 30% to 50% waiver on the principle plus interest. In exceptional cases of medical hardship or long term unemployment, the waiver can be higher."
+      answer: "The settlement amount is not fixed and depends on various factors: the age of the default (older NPAs often get better deals), your current income, your assets, and the bank’s internal policies at that time. Generally, settlements range from 30% to 50% waiver on the principle plus interest. In exceptional cases of medical hardship or long term unemployment, the waiver can be higher."
     },
     {
       question: "What is a 'No Dues Certificate' and why is it important?",
@@ -124,7 +124,7 @@ export default function YesBankLoanSettlementClient() {
     },
     {
       question: "Does CredSettle guarantee a specific settlement percentage?",
-      answer: "No ethical company can 'guarantee' a fixed percentage because the final decision lies with the bank's credit committee. However, based on our track record of handling thousands of cases, we can estimate a realistic range. Our expertise lies in maximizing the waiver by presenting your financial hardship effectively and negotiating firmly."
+      answer: "No ethical company can 'guarantee' a fixed percentage because the final decision lies with the bank’s credit committee. However, based on our track record of handling thousands of cases, we can estimate a realistic range. Our expertise lies in maximizing the waiver by presenting your financial hardship effectively and negotiating firmly."
     }
   ];
 
@@ -314,7 +314,7 @@ export default function YesBankLoanSettlementClient() {
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">1</span>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Enrollment & Analysis</h4>
                   <p className="text-gray-600">
-                    We start by analyzing your <strong>Credit Report</strong> and loan documents. We calculate your <strong>Debt to Income Ratio</strong> and identify the "settlement window" – the ideal time to approach the bank for maximum discount.
+                    We start by analyzing your <strong>Credit Report</strong> and loan documents. We calculate your <strong>Debt to Income Ratio</strong> and identify the "settlement window" - the ideal time to approach the bank for maximum discount.
                   </p>
                 </div>
                 <div className="relative">
@@ -328,7 +328,7 @@ export default function YesBankLoanSettlementClient() {
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">3</span>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Proposal & Negotiation</h4>
                   <p className="text-gray-600">
-                    We draft a formal settlement proposal highlighting your financial hardship with evidence. We submit this to the bank's central settlement team. We then engage in multiple rounds of negotiation to bring down the settlement figure.
+                    We draft a formal settlement proposal highlighting your financial hardship with evidence. We submit this to the bank’s central settlement team. We then engage in multiple rounds of negotiation to bring down the settlement figure.
                   </p>
                 </div>
                 <div className="relative">
@@ -342,7 +342,7 @@ export default function YesBankLoanSettlementClient() {
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">5</span>
                   <h4 className="font-bold text-xl text-gray-900 mb-2">Closure Certificate</h4>
                   <p className="text-gray-600">
-                    Post payment, we follow up to ensure your loan status is updated in the bank's records and CIBIL. We obtain the "No Dues Certificate" for your permanent record.
+                    Post payment, we follow up to ensure your loan status is updated in the bank’s records and CIBIL. We obtain the "No Dues Certificate" for your permanent record.
                   </p>
                 </div>
               </div>
@@ -353,10 +353,10 @@ export default function YesBankLoanSettlementClient() {
                   Negotiating with a bank requires skill and patience. Here are some insider tips that our experts use:
                 </p>
                 <ul className="list-disc pl-6 space-y-3 mb-6">
-                  <li><strong>Never accept the first offer:</strong> The bank's first offer will usually be high (e.g., 80% of the total). This is just a starting point.</li>
+                  <li><strong>Never accept the first offer:</strong> The bank’s first offer will usually be high (e.g., 80% of the total). This is just a starting point.</li>
                   <li><strong>Focus on the Principal:</strong> Try to negotiate based on the principal amount sanctioned, asking for a waiver of all interest and charges first.</li>
                   <li><strong>Show liquidity:</strong> Banks are more likely to agree to a low amount if you can pay it immediately (one shot payment) rather than asking for installments.</li>
-                  <li><strong>Don't get emotional:</strong> Treat this as a business transaction. Explain your numbers clearly rather than just pleading.</li>
+                  <li><strong>Don’t get emotional:</strong> Treat this as a business transaction. Explain your numbers clearly rather than just pleading.</li>
                 </ul>
               </div>
 
@@ -437,7 +437,7 @@ export default function YesBankLoanSettlementClient() {
                 </p>
                 <p className="mb-4">
                   <strong>The Trade-off:</strong><br />
-                  While your score drops, it is often the "lesser of two evils". If you don't settle:
+                  While your score drops, it is often the "lesser of two evils". If you don’t settle:
                 </p>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
                   <li>Your score continues to drop every month you miss an EMI.</li>
@@ -458,7 +458,7 @@ export default function YesBankLoanSettlementClient() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                     <h5 className="font-bold text-gray-900 mb-1">HumanShield Protection</h5>
-                    <p className="text-sm text-gray-600">We take over your calls. You don't have to talk to rude agents ever again.</p>
+                    <p className="text-sm text-gray-600">We take over your calls. You don’t have to talk to rude agents ever again.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                     <h5 className="font-bold text-gray-900 mb-1">Ex-Banker Negotiators</h5>
@@ -466,7 +466,7 @@ export default function YesBankLoanSettlementClient() {
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                     <h5 className="font-bold text-gray-900 mb-1">Legal Oversight</h5>
-                    <p className="text-sm text-gray-600">Every document is vetted by lawyers to ensure you don't sign anything risky.</p>
+                    <p className="text-sm text-gray-600">Every document is vetted by lawyers to ensure you don’t sign anything risky.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                     <h5 className="font-bold text-gray-900 mb-1">Success Fee Model</h5>
@@ -480,14 +480,14 @@ export default function YesBankLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Ravi K., Tech Professional</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"I had a Yes Bank personal loan of ₹8 Lakhs. After my layoff, I couldn't pay. Agents were calling my parents. CredSettle team stepped in and settled it for ₹3.2 Lakhs. I can finally sleep peacefully."</p>
+                    <p className="italic text-gray-200 text-sm">"I had a Yes Bank personal loan of ₹8 Lakhs. After my layoff, I couldn’t pay. Agents were calling my parents. CredSettle team stepped in and settled it for ₹3.2 Lakhs. I can finally sleep peacefully."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Sneha M., Small Business Owner</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"My credit card dues had ballooned to ₹4 Lakhs due to interest. I was scared of legal notices. CredSettle handled everything and got me a 55% waiver. Professional and trustworthy."</p>
@@ -515,7 +515,7 @@ export default function YesBankLoanSettlementClient() {
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Debt Free in 2026?</h4>
-                <p className="text-sm text-gray-600 mb-6">Let's check your eligibility for a 50% waiver today.</p>
+                <p className="text-sm text-gray-600 mb-6">Let’s check your eligibility for a 50% waiver today.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -523,8 +523,8 @@ export default function YesBankLoanSettlementClient() {
                   Start Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ No Spam Policy</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v No Spam Policy</p>
                 </div>
               </div>
 

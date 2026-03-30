@@ -213,7 +213,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    CredSettle – India's Trusted Credit Card Settlement Company
+                    CredSettle - India’s Trusted Credit Card Settlement Company
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -419,7 +419,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts – Break Free from Credit Card Debt
+                    Final Thoughts - Break Free from Credit Card Debt
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

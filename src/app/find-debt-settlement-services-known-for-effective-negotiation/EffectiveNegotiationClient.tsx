@@ -10,7 +10,7 @@ import { faChevronDown, faChevronUp, faStar, faQuoteLeft, faCheckCircle } from '
 const faqData = [
   {
     question: "What is the success rate of professional debt negotiation in 2025?",
-    answer: "Professional debt negotiation services in India currently report a success rate of 85% to 95% for unsecured loans. With the 2025 RBI guidelines and the rise of Lok Adalats, banks are more inclined to settle than ever before, provided the borrower's hardship is well-documented."
+    answer: "Professional debt negotiation services in India currently report a success rate of 85% to 95% for unsecured loans. With the 2025 RBI guidelines and the rise of Lok Adalats, banks are more inclined to settle than ever before, provided the borrower’s hardship is well-documented."
   },
   {
     question: "How do these companies charge for their services?",
@@ -18,11 +18,11 @@ const faqData = [
   },
   {
     question: "Can settlement services stop recovery agents from visiting my home?",
-    answer: "Yes. Once you authorize a firm, they issue a 'Letter of Representation' to the bank. Under the RBI's Fair Practice Code, once a legal representative is appointed, all collection activities must be directed to them, effectively stopping unannounced home visits."
+    answer: "Yes. Once you authorize a firm, they issue a 'Letter of Representation' to the bank. Under the RBI’s Fair Practice Code, once a legal representative is appointed, all collection activities must be directed to them, effectively stopping unannounced home visits."
   },
   {
     question: "Is it really legal to use a third-party for bank negotiations?",
-    answer: "Absolutely. Under the Indian Contract Act and the RBI's latest 2025 charter on Borrower Rights, every citizen has the right to be represented by a financial expert or legal counsel in debt-related disputes."
+    answer: "Absolutely. Under the Indian Contract Act and the RBI’s latest 2025 charter on Borrower Rights, every citizen has the right to be represented by a financial expert or legal counsel in debt-related disputes."
   },
   {
     question: "How much of a discount can I realistically expect?",
@@ -46,11 +46,11 @@ const faqData = [
   },
   {
     question: "What happens if the bank refuses the settlement offer?",
-    answer: "If a bank refuses, the negotiators don't give up. They wait for the next 'Settlement Window' (usually quarter-end) or escalate the matter to higher regional authorities/Ombudsman if there's evidence of bank non-compliance with RBI rules."
+    answer: "If a bank refuses, the negotiators don’t give up. They wait for the next 'Settlement Window' (usually quarter-end) or escalate the matter to higher regional authorities/Ombudsman if there’s evidence of bank non-compliance with RBI rules."
   },
   {
     question: "Do I have to pay the settlement amount to the agency or the bank?",
-    answer: "Crucially, you should ONLY pay the settlement amount directly to the bank's own account. Reputable agencies will never ask you to transfer the settlement money to their name. You only pay the agency their agreed service fee."
+    answer: "Crucially, you should ONLY pay the settlement amount directly to the bank’s own account. Reputable agencies will never ask you to transfer the settlement money to their name. You only pay the agency their agreed service fee."
   }
 ];
 
@@ -77,7 +77,7 @@ const reviews = [
     name: "Pooja Hegde",
     location: "Hyderabad",
     rating: 4,
-    text: "SettleMyLoan's team is very persistent. It took 4 months, but they got me a settlement that fit my budget exactly. No more sleepless nights."
+    text: "SettleMyLoan’s team is very persistent. It took 4 months, but they got me a settlement that fit my budget exactly. No more sleepless nights."
   }
 ];
 
@@ -152,7 +152,7 @@ export default function EffectiveNegotiationClient() {
             <span className="text-blue-300">for Effective Negotiation (2025)</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-            Stop the harassment and settle your debts for up to 75% less. A definitive guide to India's top-rated professional settlement services and expert negotiation tactics.
+            Stop the harassment and settle your debts for up to 75% less. A definitive guide to India’s top-rated professional settlement services and expert negotiation tactics.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <button 
@@ -246,7 +246,7 @@ export default function EffectiveNegotiationClient() {
                   The post-pandemic years have fundamentally altered how banks view non-performing assets (NPAs). Today, lenders are more willing to listen to reason, provided it is presented through the right legal and financial prism. For many borrowers, the prospect of facing a bank manager or a persistent recovery agent is overwhelming. This is where professional debt settlement services step in. These entities are not just intermediaries; they are advocates who blend legal expertise with market intelligence to reach a 'Compromise Settlement' that benefits both the lender and the borrower.
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4 text-justify">
-                  In 2025, a successful negotiation is about more than just numbers; it's about shifting the power dynamics. It's about demonstrating to the bank that a controlled loss is better than a total default. But how do you find the right service? In an industry where trust is everything, choosing a company that is legally sound, transparent, and effective is critical. This guide explores the top debt resolution firms in India and the expert techniques they use to secure massive waivers, while ensuring you stay protected under the latest RBI (Reserve Bank of India) guidelines.
+                  In 2025, a successful negotiation is about more than just numbers; it’s about shifting the power dynamics. It’s about demonstrating to the bank that a controlled loss is better than a total default. But how do you find the right service? In an industry where trust is everything, choosing a company that is legally sound, transparent, and effective is critical. This guide explores the top debt resolution firms in India and the expert techniques they use to secure massive waivers, while ensuring you stay protected under the latest RBI (Reserve Bank of India) guidelines.
                 </p>
                 <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border-l-4 border-blue-600">
                   <h4 className="font-bold text-blue-900 mb-2">The 2025 Context</h4>
@@ -273,7 +273,7 @@ export default function EffectiveNegotiationClient() {
                     </li>
                     <li className="flex gap-2">
                       <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 mt-1" />
-                      <span><strong className="text-blue-900">Legal Leverage:</strong> They understand the granular details of the SARFAESI Act, the IBC (Insolvency and Bankruptcy Code), and the RBI's Fair Practice Code. They can spot a protocol violation in seconds-leverage that can be used to reduce your debt.</span>
+                      <span><strong className="text-blue-900">Legal Leverage:</strong> They understand the granular details of the SARFAESI Act, the IBC (Insolvency and Bankruptcy Code), and the RBI’s Fair Practice Code. They can spot a protocol violation in seconds-leverage that can be used to reduce your debt.</span>
                     </li>
                     <li className="flex gap-2">
                       <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 mt-1" />
@@ -309,7 +309,7 @@ export default function EffectiveNegotiationClient() {
                       SingleDebt: The Veteran in Debt Management
                     </h3>
                     <p className="text-gray-700 leading-relaxed text-justify">
-                      SingleDebt is often cited as India's first complete debt management company. Based on our 2025 review, they specialize in consolidating multiple loan EMIs into a single, affordable monthly payment. Their primary strength lies in their 'Debt Management Plan' (DMP) which prioritizes total repayment over long-term settlement, preserving the borrower's credit reputation as much as possible.
+                      SingleDebt is often cited as India’s first complete debt management company. Based on our 2025 review, they specialize in consolidating multiple loan EMIs into a single, affordable monthly payment. Their primary strength lies in their 'Debt Management Plan' (DMP) which prioritizes total repayment over long-term settlement, preserving the borrower’s credit reputation as much as possible.
                     </p>
                     <div className="grid grid-cols-2 gap-4 mt-4">
                       <div className="bg-green-50 p-3 rounded-lg text-xs font-medium text-green-800">PROS: Excellent legal support, stopped 98% of harassment calls.</div>
@@ -340,14 +340,14 @@ export default function EffectiveNegotiationClient() {
               <div className="mb-16">
                 <h2 id="negotiation-process" className="text-3xl font-bold mb-8 text-gray-900 scroll-mt-24 text-justify">3. The 7-Step Professional Negotiation Lifecycle</h2>
                 <p className="text-gray-700 leading-relaxed mb-8 text-justify">
-                  A professional settlement isn't a single phone call; it's a strategic campaign. In 2025, top-rated services follow a disciplined 7-step lifecycle to ensure the best possible hair-cut for the borrower.
+                  A professional settlement isn’t a single phone call; it’s a strategic campaign. In 2025, top-rated services follow a disciplined 7-step lifecycle to ensure the best possible hair-cut for the borrower.
                 </p>
                 <div className="space-y-6">
                   {[
-                    { step: 1, title: "Financial Forensic Audit", desc: "Before talking to the bank, experts conduct a deep dive into your debt. They identify illegal interest capitalization, hidden insurance charges, and 'junk fees' that shouldn't be there." },
+                    { step: 1, title: "Financial Forensic Audit", desc: "Before talking to the bank, experts conduct a deep dive into your debt. They identify illegal interest capitalization, hidden insurance charges, and 'junk fees' that shouldn’t be there." },
                     { step: 2, title: "Legal Shielding & Authorization", desc: "A formal 'Letter of Authority' is sent to the lenders. This legally redirects all recovery communication to the professional firm, providing immediate relief from harassment." },
-                    { step: 3, title: "The 'Stagnation' Phase", desc: "Strategic waiting is a key tactic. By allowing the account to age into deeper NPA buckets, negotiators increase the bank's willingness to accept a higher discount." },
-                    { step: 4, title: "Hardship Linkage Proposal", desc: "A formal proposal is drafted, linking your financial incapacity (documented with evidence) to the bank's recovery goals. This is where the 'Art of Persuasion' begins." },
+                    { step: 3, title: "The 'Stagnation' Phase", desc: "Strategic waiting is a key tactic. By allowing the account to age into deeper NPA buckets, negotiators increase the bank’s willingness to accept a higher discount." },
+                    { step: 4, title: "Hardship Linkage Proposal", desc: "A formal proposal is drafted, linking your financial incapacity (documented with evidence) to the bank’s recovery goals. This is where the 'Art of Persuasion' begins." },
                     { step: 5, title: "Counter-Intelligence & Negotiation", desc: "Banks will always start with a low-discount offer. Negotiators use data on similar recent settlements to counter-offer and push for the maximum possible waiver." },
                     { step: 6, title: "The 'Bird-in-Hand' Closure", desc: "Negotiators demonstrate that you have a specific lump sum available *only for a limited time*. This creates a 'Fear of Missing Out' (FOMO) for the bank manager." },
                     { step: 7, title: "NOC & No-Dues Verification", desc: "The final and most crucial step. Once paid, the firm ensures you receive a formal 'Full & Final NOC' and that the bank updates the credit bureaus correctly." }
@@ -401,11 +401,11 @@ export default function EffectiveNegotiationClient() {
               <div className="mb-16">
                 <h2 id="techniques" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">5. Key Negotiation Techniques Used by Experts</h2>
                 <p className="text-gray-700 leading-relaxed text-justify">
-                  Expert negotiators don't just ask for a discount; they build a compelling case. Here are the techniques that achieve the highest success rates in 2025:
+                  Expert negotiators don’t just ask for a discount; they build a compelling case. Here are the techniques that achieve the highest success rates in 2025:
                 </p>
                 <h3 className="text-2xl font-semibold mt-8 mb-4 underline decoration-blue-300">The Hardship Documentation (The Paper Shield)</h3>
                 <p className="text-gray-700 leading-relaxed text-justify">
-                  A bank will only settle if they believe you *cannot* pay, not just that you *don't want* to pay. Experts help you document job loss, medical records, or business closure. In 2025, banks require digital proofs like IT returns or bank statements showing zero income for the foundation of every successful settlement.
+                  A bank will only settle if they believe you *cannot* pay, not just that you *don’t want* to pay. Experts help you document job loss, medical records, or business closure. In 2025, banks require digital proofs like IT returns or bank statements showing zero income for the foundation of every successful settlement.
                 </p>
                 <h3 className="text-2xl font-semibold mt-8 mb-4 underline decoration-blue-300">The Liquidity Argument</h3>
                 <p className="text-gray-700 leading-relaxed text-justify">
@@ -416,12 +416,12 @@ export default function EffectiveNegotiationClient() {
               <div className="mb-16">
                 <h2 id="rbi-protection" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24 text-justify">6. RBI Fair Practice Code and Your Protection in 2025</h2>
                 <p className="text-gray-700 leading-relaxed text-justify">
-                  The RBI's 2025 guidelines have introduced a paradigm shift in borrower protection. These aren't just suggestions; they are mandates that every bank and NBFC must follow. Professional services leverage these rules to create "Settlement Leverage" for you:
+                  The RBI’s 2025 guidelines have introduced a paradigm shift in borrower protection. These aren’t just suggestions; they are mandates that every bank and NBFC must follow. Professional services leverage these rules to create "Settlement Leverage" for you:
                 </p>
                 <ul className="list-disc pl-8 mt-6 space-y-4 text-gray-700 text-justify">
                   <li><strong className="text-blue-900">Digital Harassment Protection:</strong> In 2025, the RBI strictly prohibits excessive digital "pings" or automated WhatsApp messages from recovery bots. Experts can file a direct complaint with the RBI Ombudsman if you are targeted by non-stop automated collections.</li>
                   <li><strong className="text-blue-900">The 8 AM - 7 PM Window:</strong> No physical visits or calls are permitted outside these hours. Professional negotiators use "Call Logs" and "CCTV footage" of late-night visits to force banks into a compromise.</li>
-                  <li><strong className="text-blue-900">Right to Representation:</strong> The RBI recognizes the borrower's right to be represented by a legal or financial expert in debt discussions. This is the legal foundation of why professional debt settlement services are 100% legal in India.</li>
+                  <li><strong className="text-blue-900">Right to Representation:</strong> The RBI recognizes the borrower’s right to be represented by a legal or financial expert in debt discussions. This is the legal foundation of why professional debt settlement services are 100% legal in India.</li>
                   <li><strong className="text-blue-900">Zero-Hidden Penalties:</strong> Banks must provide a transparent breakup of principal, interest, and penalties. Experts ensure that "Compounded Penalties" (Interest on Interest) are deleted during the final negotiation.</li>
                 </ul>
               </div>
@@ -429,7 +429,7 @@ export default function EffectiveNegotiationClient() {
               <div className="mb-16">
                 <h2 id="hardship-guide" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24 text-justify">7. The Hardship Documentation Guide: Building Your Case</h2>
                 <p className="text-gray-700 leading-relaxed mb-6 text-justify">
-                  A bank doesn't settle because they are "nice." They settle because their "Recovery Probability Model" tells them that you are a high-risk default. To prove this, you need a professional Hardship File.
+                  A bank doesn’t settle because they are "nice." They settle because their "Recovery Probability Model" tells them that you are a high-risk default. To prove this, you need a professional Hardship File.
                 </p>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100">
                   <h4 className="font-bold text-gray-900 mb-4 tracking-wide uppercase text-sm">Mandatory 2025 Documentation Checklist:</h4>
@@ -451,21 +451,21 @@ export default function EffectiveNegotiationClient() {
               <div className="mb-16">
                 <h2 id="selection-tips" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24 text-justify">8. Checklist for Choosing a Debt Settlement Service</h2>
                 <div className="bg-gray-900 text-white p-10 rounded-[2.5rem] shadow-xl">
-                  <h3 className="text-2xl font-bold mb-6 italic underline decoration-blue-500">Don't Get Scammed! Check This First:</h3>
+                  <h3 className="text-2xl font-bold mb-6 italic underline decoration-blue-500">Don’t Get Scammed! Check This First:</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-light">
                     <div className="space-y-2">
                       <p className="font-bold text-blue-400">DO CHECK:</p>
-                      <p>✓ ISO or legal certification of the firm.</p>
-                      <p>✓ Genuine Google and Trustpilot reviews (Filter for 'Negative').</p>
-                      <p>✓ Transparent fee structure in a written contract.</p>
-                      <p>✓ Pan-India legal network for local bank visits.</p>
+                      <p>v ISO or legal certification of the firm.</p>
+                      <p>v Genuine Google and Trustpilot reviews (Filter for 'Negative').</p>
+                      <p>v Transparent fee structure in a written contract.</p>
+                      <p>v Pan-India legal network for local bank visits.</p>
                     </div>
                     <div className="space-y-2">
                        <p className="font-bold text-red-400">AVOID IF:</p>
-                      <p>✗  They promise to 'clean' your CIBIL score instantly.</p>
-                      <p>✗  They ask for 100% of the settlement amount in their name.</p>
-                      <p>✗  They discourage you from talking to your lawyer.</p>
-                      <p>✗  They use aggressive sales tactics to sign you up.</p>
+                      <p>X  They promise to 'clean' your CIBIL score instantly.</p>
+                      <p>X  They ask for 100% of the settlement amount in their name.</p>
+                      <p>X  They discourage you from talking to your lawyer.</p>
+                      <p>X  They use aggressive sales tactics to sign you up.</p>
                     </div>
                   </div>
                 </div>
@@ -522,7 +522,7 @@ export default function EffectiveNegotiationClient() {
 
               <div className="mt-12 p-10 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Take the First Step to Financial Freedom</h3>
-                <p className="text-blue-800 mb-8 max-w-2xl mx-auto">Don't navigate the complex world of debt settlement alone. Let our expert negotiators and legal advisors handle the banks for you, ensuring the best possible terms and total protection from harassment.</p>
+                <p className="text-blue-800 mb-8 max-w-2xl mx-auto">Don’t navigate the complex world of debt settlement alone. Let our expert negotiators and legal advisors handle the banks for you, ensuring the best possible terms and total protection from harassment.</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button 
                     onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20need%20professional%20debt%20negotiation%20help', '_blank')}
@@ -555,19 +555,19 @@ export default function EffectiveNegotiationClient() {
                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
                 <nav className="space-y-3">
                   <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="flex group items-start">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Master Settlement Guide</span>
                   </Link>
                   <Link href="/what-are-the-income-tax-implications-of-a-settled-debt-amount" className="flex group items-start">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Tax on Settlements</span>
                   </Link>
                   <Link href="/what-documents-are-required-for-loan-settlement-with-a-professional-service" className="flex group items-start">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Documents Checklist</span>
                   </Link>
                   <Link href="/compare-features-of-loan-settlement-services-offered-by-major-financial-apps" className="flex group items-start">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Compare Settlement Apps</span>
                   </Link>
                 </nav>

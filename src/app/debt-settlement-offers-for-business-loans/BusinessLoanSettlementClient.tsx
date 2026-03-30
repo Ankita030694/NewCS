@@ -88,7 +88,7 @@ export default function BusinessLoanSettlementClient() {
     const faqs = [
         {
             question: 'Can a business loan be settled like a personal loan?',
-            answer: 'Yes, but the process is more complex. Business loans are governed by the RBI\'s June 2023 Framework for Compromise Settlements. Lenders require board-approved policies to offer settlements, especially for MSMEs facing genuine business distress.'
+            answer: 'Yes, but the process is more complex. Business loans are governed by the RBI’s June 2023 Framework for Compromise Settlements. Lenders require board-approved policies to offer settlements, especially for MSMEs facing genuine business distress.'
         },
         {
             question: 'What is the MSME OTS Scheme 2025?',
@@ -133,7 +133,7 @@ export default function BusinessLoanSettlementClient() {
             name: 'Vikram Singh',
             location: 'Faridabad',
             stars: 5,
-            comment: 'My manufacturing unit faced a huge cash flow crisis. The MSME OTS scheme was a lifesaver. CredSettle helped me navigate the bank\'s rigid policy and secure a 40% waiver.'
+            comment: 'My manufacturing unit faced a huge cash flow crisis. The MSME OTS scheme was a lifesaver. CredSettle helped me navigate the bank’s rigid policy and secure a 40% waiver.'
         },
         {
             name: 'Rahul Mehta',
@@ -280,10 +280,10 @@ export default function BusinessLoanSettlementClient() {
                             
                             <h2 id="introduction" className="text-4xl font-black text-slate-900 mb-10 scroll-mt-24 leading-tight">Introduction: The Business Debt Paradox</h2>
                             <p className="text-slate-700 leading-relaxed mb-10 text-xl font-light">
-                                For an entrepreneur, a business loan is the fuel that drives growth. But when market dynamics shift—be it a global supply chain disruption, a localized policy change, or a sudden cash flow crunch—that fuel can quickly become a wildfire. In 2025, Indian businesses are navigating a complex recovery landscape. While the economy is growing, the residue of past financial stress has left many MSMEs with NPAs (Non-Performing Assets) that hinder their ability to scale.
+                                For an entrepreneur, a business loan is the fuel that drives growth. But when market dynamics shift-be it a global supply chain disruption, a localized policy change, or a sudden cash flow crunch-that fuel can quickly become a wildfire. In 2025, Indian businesses are navigating a complex recovery landscape. While the economy is growing, the residue of past financial stress has left many MSMEs with NPAs (Non-Performing Assets) that hinder their ability to scale.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-10">
-                                This guide is built to be the definitive 4000+ word resource for business owners looking to resolve their debt through <strong>Compromise Settlements.</strong> We will dive deep into the RBI\'s latest circulars, explore the nuances of NBFC vs Bank negotiations, and provide a strategic roadmap for leveraging OTS (One-Time Settlement) schemes in 2025. This is not just about "closing a loan"; it is about preserving your business legacy and reclaiming your financial future.
+                                This guide is built to be the definitive 4000+ word resource for business owners looking to resolve their debt through <strong>Compromise Settlements.</strong> We will dive deep into the RBI’s latest circulars, explore the nuances of NBFC vs Bank negotiations, and provide a strategic roadmap for leveraging OTS (One-Time Settlement) schemes in 2025. This is not just about "closing a loan"; it is about preserving your business legacy and reclaiming your financial future.
                             </p>
 
                             <h2 id="rbi-framework-2023" className="text-3xl font-bold text-slate-900 mb-8 scroll-mt-24">The RBI 2023 Framework: The Institutional Foundation</h2>
@@ -303,11 +303,11 @@ export default function BusinessLoanSettlementClient() {
                                     </div>
                                     <div>
                                         <p className="font-bold text-xl mb-3 text-white">NPA Portability</p>
-                                        <p className="text-sm text-slate-400 leading-relaxed">A settlement doesn\'t mean you are blacklisted forever. The framework clearly defines the cooling-off period and the path back to creditworthiness.</p>
+                                        <p className="text-sm text-slate-400 leading-relaxed">A settlement doesn’t mean you are blacklisted forever. The framework clearly defines the cooling-off period and the path back to creditworthiness.</p>
                                     </div>
                                     <div>
                                         <p className="font-bold text-xl mb-3 text-white">Restorative Intent</p>
-                                        <p className="text-sm text-slate-400 leading-relaxed">The focus is on "Revival and Rehabilitation" for MSMEs, ensuring that a single business failure doesn\'t end an entrepreneur\'s career.</p>
+                                        <p className="text-sm text-slate-400 leading-relaxed">The focus is on "Revival and Rehabilitation" for MSMEs, ensuring that a single business failure doesn’t end an entrepreneur’s career.</p>
                                     </div>
                                 </div>
                             </div>
@@ -317,7 +317,7 @@ export default function BusinessLoanSettlementClient() {
                                 Micro, Small, and Medium Enterprises (MSMEs) are the backbone of the Indian economy, and the government knows this. In 2025, banks like SBI, Bank of Baroda, and PNB have launched specialized <strong>Non-Discretionary OTS Schemes.</strong> In these schemes, if your debt is below a certain threshold (often ₹10 Crores) and you meet the criteria, the settlement offer is calculated by a fixed formula. 
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-8">
-                                Negotiating under an OTS scheme is far easier than a standard compromise settlement because you aren\'t fighting an officer\'s ego or discretion; you are simply applying a policy. Your consultant should help you identify which current OTS scheme your business falls under.
+                                Negotiating under an OTS scheme is far easier than a standard compromise settlement because you aren’t fighting an officer’s ego or discretion; you are simply applying a policy. Your consultant should help you identify which current OTS scheme your business falls under.
                             </p>
 
                             <h2 id="nbfc-vs-bank-settlement" className="text-3xl font-bold text-slate-900 mb-8 scroll-mt-24">NBFC vs. Bank Settlement: A Tactical Divergence</h2>
@@ -361,7 +361,7 @@ export default function BusinessLoanSettlementClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-14">
                                 <div className="p-8 bg-slate-50 border border-slate-100 rounded-3xl">
                                     <h4 className="font-black text-slate-900 mb-4 uppercase text-xs tracking-widest">Phase 1: Friction</h4>
-                                    <p className="text-sm text-slate-600">Use legal responses to stop SARFAESI or S.138 threats. Slow down the bank's recovery process through procedural challenges. This shows the bank that a court battle will be long and expensive.</p>
+                                    <p className="text-sm text-slate-600">Use legal responses to stop SARFAESI or S.138 threats. Slow down the bank’s recovery process through procedural challenges. This shows the bank that a court battle will be long and expensive.</p>
                                 </div>
                                 <div className="p-8 bg-blue-900 text-white rounded-3xl shadow-xl">
                                     <h4 className="font-black text-blue-400 mb-4 uppercase text-xs tracking-widest">Phase 2: The Offer</h4>
@@ -459,9 +459,9 @@ export default function BusinessLoanSettlementClient() {
                                     Get Legal Audit
                                 </Link>
                                 <div className="mt-8 space-y-4 text-xs font-light text-slate-400">
-                                    <p className="flex items-center gap-3"><span className="text-blue-500">�, �</span> S.138 Defense Check</p>
-                                    <p className="flex items-center gap-3"><span className="text-blue-500">�, �</span> SARFAESI Stay Strategy</p>
-                                    <p className="flex items-center gap-3"><span className="text-blue-500">�, �</span> MSME OTS Eligibility</p>
+                                    <p className="flex items-center gap-3"><span className="text-blue-500">?, ?</span> S.138 Defense Check</p>
+                                    <p className="flex items-center gap-3"><span className="text-blue-500">?, ?</span> SARFAESI Stay Strategy</p>
+                                    <p className="flex items-center gap-3"><span className="text-blue-500">?, ?</span> MSME OTS Eligibility</p>
                                 </div>
                             </div>
 

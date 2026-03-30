@@ -323,7 +323,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
                             
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Introduction: The Borrower's Crossroads</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Introduction: The Borrower’s Crossroads</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For any borrower in India today, the term "Loan Settlement" represents both a beacon of hope and a source of deep anxiety. It is the weight of multiple EMIs, the relentless ping of debt collection messages, and the silent struggle of balancing survival against financial reputation. But when does this exit strategy transition from being a "risky move" to a "necessary life saver"?
                             </p>
@@ -345,20 +345,20 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                 <h3 className="text-xl font-bold text-blue-900 mb-4">Common Triggers for Settlement:</h3>
                                 <ul className="space-y-4 text-gray-700">
                                     <li className="flex items-start">
-                                        <span className="text-blue-600 mr-2 font-bold">•</span>
+                                        <span className="text-blue-600 mr-2 font-bold">*</span>
                                         <strong>Employment Shocks:</strong> Permanent job loss or a significant reduction in income due to industry shifts or AI integration.
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-blue-600 mr-2 font-bold">•</span>
+                                        <span className="text-blue-600 mr-2 font-bold">*</span>
                                         <strong>Medical Emergencies:</strong> Unplanned healthcare costs that exhaust all savings and insurance, leaving no room for loan repayments.
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-blue-600 mr-2 font-bold">•</span>
+                                        <span className="text-blue-600 mr-2 font-bold">*</span>
                                         <strong>Business Failure:</strong> For self employed borrowers, a failure of a primary business venture that was the source of EMI payments.
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="text-blue-600 mr-2 font-bold">•</span>
-                                        <strong>High-Interest Debt Trap:</strong> When multiple high interest credit card debts consume more than 70% of a borrower's take home pay.
+                                        <span className="text-blue-600 mr-2 font-bold">*</span>
+                                        <strong>High-Interest Debt Trap:</strong> When multiple high interest credit card debts consume more than 70% of a borrower’s take home pay.
                                     </li>
                                 </ul>
                             </div>
@@ -436,9 +436,9 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                     There is no central "Blacklist" database that says "Never lend to this person." Instead, there is a shared database of history (CIBIL/Experian). Each bank has its own "Risk Appetite."
                                 </p>
                                 <ul className="space-y-3 text-sm text-gray-600">
-                                    <li>• <strong>High Risk Appetite Lenders:</strong> Small NBFCs and Fintech apps might lend to settled borrowers at high interest rates after 12 months.</li>
-                                    <li>• <strong>Medium Risk Appetite Lenders:</strong> Private banks might consider you after 3-5 years if you have a high salary and a 750+ rebuilt score.</li>
-                                    <li>• <strong>Low Risk Appetite Lenders:</strong> Public sector banks often stay away from settled cases for at least 7 years.</li>
+                                    <li>* <strong>High Risk Appetite Lenders:</strong> Small NBFCs and Fintech apps might lend to settled borrowers at high interest rates after 12 months.</li>
+                                    <li>* <strong>Medium Risk Appetite Lenders:</strong> Private banks might consider you after 3-5 years if you have a high salary and a 750+ rebuilt score.</li>
+                                    <li>* <strong>Low Risk Appetite Lenders:</strong> Public sector banks often stay away from settled cases for at least 7 years.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -447,14 +447,14 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
 
                             <h2 id="rbi-framework-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">RBI Framework 2025: Empowering the Distressed Borrower</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Reserve Bank of India has recognized that in a growing economy, financial shocks are inevitable. The 2025 regulatory framework for debt resolution is the most borrower friendly in Indian history. It mandates that every bank must have a **Board Approved Policy** for compromise settlements. This means the bank cannot arbitrarily say "we don't do settlements." They must evaluate your case based on fixed criteria.
+                                The Reserve Bank of India has recognized that in a growing economy, financial shocks are inevitable. The 2025 regulatory framework for debt resolution is the most borrower friendly in Indian history. It mandates that every bank must have a **Board Approved Policy** for compromise settlements. This means the bank cannot arbitrarily say "we don’t do settlements." They must evaluate your case based on fixed criteria.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong>Key Pillars of RBI 2025 Rules:</strong>
                             </p>
                             <ul className="list-disc pl-8 mb-8 space-y-4 text-gray-700">
                                 <li><strong>Transparency in Settlement:</strong> Banks must provide the settlement offer in writing, clearly stating the waiver amount and the status that will be reported to CIBIL. No more "Verbal Promises."</li>
-                                <li><strong>Cooling-Off Period:</strong> For borrowers who have settled a wilful default, a mandatory 12 month wait period is required before seeking new credit. For genuine hardship cases, this can be shorter at the lender's discretion.</li>
+                                <li><strong>Cooling-Off Period:</strong> For borrowers who have settled a wilful default, a mandatory 12 month wait period is required before seeking new credit. For genuine hardship cases, this can be shorter at the lender’s discretion.</li>
                                 <li><strong>Fairness to Wilful Defaulters:</strong> In a landmark move, RBI allows settlement even for fraud or wilful default accounts, acknowledging that the priority is to recover stalled capital, though criminal proceedings for the fraud itself will continue.</li>
                                 <li><strong>Ombudsman Protection:</strong> Borrowers can now approach the Integrated Ombudsman if a bank refuses to follow its own settlement policy or uses aggressive recovery tactics.</li>
                             </ul>
@@ -467,9 +467,9 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                 One of the primary reasons borrowers feel forced into bad settlements is the fear of recovery agents. You must know your rights to protect your dignity and your family. In 2025, harassment is a serious regulatory violation that can cost a bank its reputation.
                             </p>
                             <div className="bg-blue-900 text-white p-8 rounded-[2rem] mb-10 shadow-lg">
-                                <h3 className="text-2xl font-bold mb-6 italic underline decoration-blue-400 font-serif">The Borrower's Bill of Rights:</h3>
+                                <h3 className="text-2xl font-bold mb-6 italic underline decoration-blue-400 font-serif">The Borrower’s Bill of Rights:</h3>
                                 <ul className="space-y-4 font-light leading-relaxed">
-                                    <li>1. <strong>Right to Identity:</strong> Every recovery agent must show a valid ID card and an authorization letter from the bank. If they don't have it, they are trespassing.</li>
+                                    <li>1. <strong>Right to Identity:</strong> Every recovery agent must show a valid ID card and an authorization letter from the bank. If they don’t have it, they are trespassing.</li>
                                     <li>2. <strong>Right to Time:</strong> Agents can only call or visit between 8:00 AM and 7:00 PM. Calls at 11:00 PM are illegal.</li>
                                     <li>3. <strong>Right to Privacy:</strong> Agents cannot talk to your neighbors, call your workplace, or post about your debt on social media. This is "Naming and Shaming" and is strictly prohibited.</li>
                                     <li>4. <strong>Right to Dignity:</strong> Abusive language, threats of physical force, or psychological intimidation are criminal offenses. You can record these and use them as evidence.</li>
@@ -506,13 +506,13 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
 
                             <h2 id="negotiation-mastery" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Negotiation Tactics: How to Speak Like an Expert</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Negotiation is an art, not a battle. To get the best deal, you must understand the banker's perspective. The manager wants to "Close the Book." Every NPA on their record is a black mark on their performance review. Your job is to show them that taking 50% now is better than waiting 5 years for a potential 100% through the courts.
+                                Negotiation is an art, not a battle. To get the best deal, you must understand the banker’s perspective. The manager wants to "Close the Book." Every NPA on their record is a black mark on their performance review. Your job is to show them that taking 50% now is better than waiting 5 years for a potential 100% through the courts.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 **The "Quarter-End" Leverage:** Banks are under immense pressure in March, June, September, and December to meet recovery targets. Approaching them in the last two weeks of a quarter can often get you a faster and more favorable response.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                **The "Third-Party" Buffer:** Sometimes, telling the bank that you are "borrowing money from a relative specifically for this settlement" works well. It implies that if they don't accept this deal, that money will go elsewhere and they will get zero.
+                                **The "Third-Party" Buffer:** Sometimes, telling the bank that you are "borrowing money from a relative specifically for this settlement" works well. It implies that if they don’t accept this deal, that money will go elsewhere and they will get zero.
                             </p>
 
                             <h2 id="loan-specific-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Type-Wise Settlement Realities</h2>
@@ -574,7 +574,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -600,9 +600,9 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 
@@ -617,7 +617,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                         { href: "/best-lawyer-for-personal-loans", text: "Hire a Professional Negotiator" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

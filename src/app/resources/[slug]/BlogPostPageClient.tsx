@@ -168,7 +168,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
       // Loop to find the last heading that is above the "scrolled past" line
       for (const heading of headingElements) {
         if (heading instanceof HTMLElement) {
-          // We use offsetTop because it's absolute position on page (assuming no transforming parents, which is mostly true)
+          // We use offsetTop because it’s absolute position on page (assuming no transforming parents, which is mostly true)
           // Actually, getBoundingClientRect is safer relative to viewport
           const top = heading.getBoundingClientRect().top + window.scrollY;
           
@@ -181,15 +181,15 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         }
       }
 
-      // Fallback: if we haven't passed any heading but there are headings, 
+      // Fallback: if we haven’t passed any heading but there are headings, 
       // and we are reasonably close to the first one, highlight it? 
       // Or if scrolled to bottom, highlight last?
       
       if (!currentId && headingElements.length > 0 && window.scrollY > 100) {
-         // If we are passed the hero but haven't hit first H2, maybe keep empty or highlight first?
-         // Let's stick to strict "passed the header" logic. 
+         // If we are passed the hero but haven’t hit first H2, maybe keep empty or highlight first?
+         // Let’s stick to strict "passed the header" logic. 
          // But LoanSettlement uses IO which triggers early. 
-         // Let's check if we are near the first one.
+         // Let’s check if we are near the first one.
          const first = headingElements[0] as HTMLElement;
          if (first.getBoundingClientRect().top + window.scrollY < scrollPosition + 200) {
             currentId = first.id;

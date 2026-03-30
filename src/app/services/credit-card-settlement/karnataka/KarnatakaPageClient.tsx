@@ -207,7 +207,7 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Karnataka, especially Bangalore, is India's tech and startup capital with massive credit card usage. As of 2024, Bangalore accounts for third highest credit card spending in India after Mumbai and Delhi. Tech professionals earning 10-40 lakhs annually carry 4-6 credit cards on average (HDFC, ICICI, SBI, Axis, Citi, Standard Chartered). Easy approvals, gadget culture, startup expenses, high lifestyle costs and steep interest rates (36-42% annually) create debt trap for thousands of families.
+                    Karnataka, especially Bangalore, is India’s tech and startup capital with massive credit card usage. As of 2024, Bangalore accounts for third highest credit card spending in India after Mumbai and Delhi. Tech professionals earning 10-40 lakhs annually carry 4-6 credit cards on average (HDFC, ICICI, SBI, Axis, Citi, Standard Chartered). Easy approvals, gadget culture, startup expenses, high lifestyle costs and steep interest rates (36-42% annually) create debt trap for thousands of families.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Credit card settlement</strong> lets you negotiate with banks to pay reduced lump sum amounts instead of full outstanding. RBI recognizes this as legal debt resolution. Banks have dedicated credit card NPA divisions handling settlements daily. This is not loan waiver or bankruptcy. You pay what you can afford, bank accepts it as full and final, all legal and documented.
@@ -474,7 +474,7 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Bangalore:</strong> India's tech capital. Koramangala, Indiranagar, Whitefield, Electronic City, HSR Layout. IT professionals, startup founders. Heavy card usage for gadgets, lifestyle, startups. Average 5-6 cards per person, 5-10 lakhs total debt. We have handled 4,800+ Bangalore cases.
+                    <strong>Bangalore:</strong> India’s tech capital. Koramangala, Indiranagar, Whitefield, Electronic City, HSR Layout. IT professionals, startup founders. Heavy card usage for gadgets, lifestyle, startups. Average 5-6 cards per person, 5-10 lakhs total debt. We have handled 4,800+ Bangalore cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Mysore:</strong> Heritage city, tourism, IT growth. Professionals and business community. Card usage for lifestyle, family needs. Average 3-4 cards per person, 2-5 lakhs total debt. We have settled 900+ Mysore cases.

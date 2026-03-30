@@ -282,7 +282,7 @@ export default function RecoveryVisitClient() {
                   This comprehensive guide, spanning over 5000 words, will provide you with every legal tool, tactical response, and regulatory insight needed to end doorstep harassment. Whether you are dealing with a personal loan, credit card debt, or a business loan, the strategy remains the same: knowledge is your shield. We will explore the latest RBI mandates for 2025, the protections of the Indian Penal Code, and the specific steps you can take today to ensure your home remains a sanctuary of peace for your family.
                 </p>
                 <p>
-                  At CredSettle, we have helped over 15,000 clients reclaim their lives from aggressive recovery tactics. We understand that behind every default is a human story. Financial setbacks are temporary, but the trauma of harassment shouldn't be. This guide is the first step in your journey back to financial freedom and personal dignity. Let us dive deep into the world of borrower rights and legal protection.
+                  At CredSettle, we have helped over 15,000 clients reclaim their lives from aggressive recovery tactics. We understand that behind every default is a human story. Financial setbacks are temporary, but the trauma of harassment shouldn’t be. This guide is the first step in your journey back to financial freedom and personal dignity. Let us dive deep into the world of borrower rights and legal protection.
                 </p>
               </div>
 
@@ -311,10 +311,10 @@ export default function RecoveryVisitClient() {
                   <strong>2. The 8 AM to 7 PM Window:</strong> RBI has strictly defined the "social hours" for recovery communication. Visits and calls are permitted only between 8:00 AM and 7:00 PM. A visit at 8:00 PM is illegal. A visit on a Sunday or a public holiday, while not explicitly banned, is generally discouraged unless the borrower has consented to it. Any contact outside these hours should be immediately recorded and reported as harassment.
                 </p>
                 <p>
-                  <strong>3. Code of Conduct:</strong> Every bank and NBFC is required to have a board-approved "Code of Conduct" for their recovery agents. This code must mandate professional behavior. If an agent shouts, uses profanity, or makes threats of violence, the bank has failed in its regulatory duty of supervising its outsourced agents. Remember: the bank is 100% responsible for the agent's actions.
+                  <strong>3. Code of Conduct:</strong> Every bank and NBFC is required to have a board-approved "Code of Conduct" for their recovery agents. This code must mandate professional behavior. If an agent shouts, uses profanity, or makes threats of violence, the bank has failed in its regulatory duty of supervising its outsourced agents. Remember: the bank is 100% responsible for the agent’s actions.
                 </p>
                 <p>
-                  <strong>4. Digital Recording:</strong> Modern RBI guidelines propose that all recovery visits should be recorded. If an agent visits you, ask them if the visit is being recorded as per the bank's compliance norms. This question alone often signals to the agent that they are dealing with an informed borrower and they cannot use illegal intimidation tactics.
+                  <strong>4. Digital Recording:</strong> Modern RBI guidelines propose that all recovery visits should be recorded. If an agent visits you, ask them if the visit is being recorded as per the bank’s compliance norms. This question alone often signals to the agent that they are dealing with an informed borrower and they cannot use illegal intimidation tactics.
                 </p>
               </div>
 
@@ -339,12 +339,12 @@ export default function RecoveryVisitClient() {
                     </li>
                     <li className="flex gap-4">
                       <span className="font-bold text-blue-600">Step 4:</span>
-                      <span><strong>Start Recording:</strong> Open your phone's camera or recorder. Inform them: "I am recording this for my safety and for legal compliance records."</span>
+                      <span><strong>Start Recording:</strong> Open your phone’s camera or recorder. Inform them: "I am recording this for my safety and for legal compliance records."</span>
                     </li>
                   </ul>
                 </div>
                 <p>
-                  If the "agent" cannot produce these documents, they are technically a trespasser. You have no obligation to talk to them. In fact, you should ask them to leave immediately and inform your building's security. Many unauthorized "freelance" recovery agents operate without proper documents: identifying them is the fastest way on <strong>how to stop recovery agent home visit</strong>.
+                  If the "agent" cannot produce these documents, they are technically a trespasser. You have no obligation to talk to them. In fact, you should ask them to leave immediately and inform your building’s security. Many unauthorized "freelance" recovery agents operate without proper documents: identifying them is the fastest way on <strong>how to stop recovery agent home visit</strong>.
                 </p>
               </div>
 
@@ -355,7 +355,7 @@ export default function RecoveryVisitClient() {
                 </p>
                 <ul className="space-y-4">
                   <li className="p-4 bg-red-50 rounded-xl border-l-4 border-red-500">
-                    <strong>Criminal Intimidation (IPC 503/506):</strong> Threatening to hurt you, your family, or your reputation to force you to pay. For example: "If you don't pay today, I will tell everyone in this building that you are a fraud."
+                    <strong>Criminal Intimidation (IPC 503/506):</strong> Threatening to hurt you, your family, or your reputation to force you to pay. For example: "If you don’t pay today, I will tell everyone in this building that you are a fraud."
                   </li>
                   <li className="p-4 bg-red-50 rounded-xl border-l-4 border-red-500">
                     <strong>Criminal Trespass (IPC 441):</strong> Entering your house without permission or refusing to leave after you have asked them to go.
@@ -364,7 +364,7 @@ export default function RecoveryVisitClient() {
                     <strong>Assault or Use of Criminal Force (IPC 351/352):</strong> Any physical touch, pushing, or even aggressive gestures that make you fear immediate violence.
                   </li>
                   <li className="p-4 bg-red-50 rounded-xl border-l-4 border-red-500">
-                    <strong>Aiding and Abetting Suicide:</strong> If an agent's harassment is so extreme that it leads to mental trauma or self-harm, both the agent and the bank officials can be charged under Section 306 of the IPC.
+                    <strong>Aiding and Abetting Suicide:</strong> If an agent’s harassment is so extreme that it leads to mental trauma or self-harm, both the agent and the bank officials can be charged under Section 306 of the IPC.
                   </li>
                 </ul>
               </div>
@@ -391,7 +391,7 @@ export default function RecoveryVisitClient() {
                   <li><strong>CCTV Footage:</strong> If your building has CCTV, ensure the interactions are saved. It proves the timing of the visit and the behavior of the agent.</li>
                   <li><strong>Voice Recordings:</strong> Use your phone to record every conversation. Even if there is no abuse, it proves the agent was at your door.</li>
                   <li><strong>Neighbor Witnesses:</strong> If a neighbor sees the harassment, their statement can be vital if you file a case in Consumer Court.</li>
-                  <li><strong>The Agent's Phone Number:</strong> Always note down the caller ID or the number from which you received threats.</li>
+                  <li><strong>The Agent’s Phone Number:</strong> Always note down the caller ID or the number from which you received threats.</li>
                 </ul>
                 <p>
                   Keep all this data in a secure cloud folder. When we at CredSettle take over your case, this evidence allows our legal team to draft "Notices of Violation" that the banks cannot ignore.
@@ -418,7 +418,7 @@ export default function RecoveryVisitClient() {
                   - Uses abusive language at high volume
                 </p>
                 <p>
-                  Call 112 or 100 immediately. Do not hesitate. A local police visit often scares away recovery agencies, as they don't want their agents in lock-up. When filing a formal complaint at the station, ensure you mention <strong>IPC Sections 503, 506, and 441</strong>. An FIR is a serious document that forces the bank to terminate the agency's contract.
+                  Call 112 or 100 immediately. Do not hesitate. A local police visit often scares away recovery agencies, as they don’t want their agents in lock-up. When filing a formal complaint at the station, ensure you mention <strong>IPC Sections 503, 506, and 441</strong>. An FIR is a serious document that forces the bank to terminate the agency’s contract.
                 </p>
               </div>
 
@@ -435,17 +435,17 @@ export default function RecoveryVisitClient() {
               <h2 id="privacy-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Family Circle: Protecting Your Loved Ones from Shaming</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Agents often target "soft spots": your parents or your spouse. They might call your father and say: "Your son is a thief who isn't paying his loans." This is a purely illegal "shaming tactic."
+                  Agents often target "soft spots": your parents or your spouse. They might call your father and say: "Your son is a thief who isn’t paying his loans." This is a purely illegal "shaming tactic."
                 </p>
                 <p>
-                  <strong>Action Plan:</strong> Talk to your family first. Tell them: "I am having a financial issue and I am working with experts to resolve it. If anyone calls and speaks rudely, do not argue: just hang up and record the call." Once your family is informed, the agent's power to "shame" you evaporates.
+                  <strong>Action Plan:</strong> Talk to your family first. Tell them: "I am having a financial issue and I am working with experts to resolve it. If anyone calls and speaks rudely, do not argue: just hang up and record the call." Once your family is informed, the agent’s power to "shame" you evaporates.
                 </p>
               </div>
 
               <h2 id="legal-notices" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Professional Wall: The Power of a Legal Notice</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  A verbal "don't visit me" is often ignored. A legal "Cease and Desist" notice from a professional firm is not. When a bank receives a letter from a legal team stating that every future visit will be recorded and reported to the RBI with evidence, their risk-management team kicks in. They usually move the file from a "high-pressure agency" to an "internal recovery team," which is much more professional and civil.
+                  A verbal "don’t visit me" is often ignored. A legal "Cease and Desist" notice from a professional firm is not. When a bank receives a letter from a legal team stating that every future visit will be recorded and reported to the RBI with evidence, their risk-management team kicks in. They usually move the file from a "high-pressure agency" to an "internal recovery team," which is much more professional and civil.
                 </p>
               </div>
 
@@ -455,7 +455,7 @@ export default function RecoveryVisitClient() {
                   Ultimately, the best way on <strong>how to stop recovery agent home visit</strong> for good is to resolve the debt. A "One-Time Settlement" (OTS) allows you to pay a fraction of the total dues (often 30% to 50%) and close the chapter.
                 </p>
                 <p>
-                  However, never settle with an agent at your door. They might take your money and not update the bank's records. Always settle directly with the bank's authorized officers at a branch, and only after receiving an official "Settlement Offer Letter" with a unique reference number.
+                  However, never settle with an agent at your door. They might take your money and not update the bank’s records. Always settle directly with the bank’s authorized officers at a branch, and only after receiving an official "Settlement Offer Letter" with a unique reference number.
                 </p>
               </div>
 
@@ -488,7 +488,7 @@ export default function RecoveryVisitClient() {
                   <strong>Private Sector Giants:</strong> Large private banks often outsource their recovery to multiple third-party agencies. This creates a highly competitive environment between agencies, leading to increased aggression as they fight for commissions. However, these banks are also the most sensitive to direct complaints to their Nodal Officers.
                 </p>
                 <p>
-                  <strong>Digital Lending Apps:</strong> These are often the most aggressive and least compliant with RBI norms. Many use "WhatsApp Shaming" and "Contact List Access" alongside doorstep visits. Reporting them to the RBI's Sachet portal is often the most effective way to stop them.
+                  <strong>Digital Lending Apps:</strong> These are often the most aggressive and least compliant with RBI norms. Many use "WhatsApp Shaming" and "Contact List Access" alongside doorstep visits. Reporting them to the RBI’s Sachet portal is often the most effective way to stop them.
                 </p>
                 <p>
                   <strong>Public Sector Banks:</strong> While generally more professional, public sector banks rely heavily on formal legal procedures. They might not harass you daily at your door, but they will be very regular with sending formal notices that have actual legal weight.
@@ -523,7 +523,7 @@ export default function RecoveryVisitClient() {
                   In the case of <em>ICICI Bank vs Shanti Devi</em>, the Supreme Court held that banks cannot use goons or muscle power to recover loans. The court emphasized that a bank is a responsible institution and must act within the law.
                 </p>
                 <p>
-                  Another landmark judgment by the Delhi High Court in <em>SDR (Consumer) vs Bank of India</em> established that unannounced visits to a borrower's workplace causing embarrassment and loss of reputation are grounds for heavy compensation. These rulings form the legal basis for your defense. If an agent threatens you, reminding them of these Supreme Court mandates can be a very effective deterrent.
+                  Another landmark judgment by the Delhi High Court in <em>SDR (Consumer) vs Bank of India</em> established that unannounced visits to a borrower’s workplace causing embarrassment and loss of reputation are grounds for heavy compensation. These rulings form the legal basis for your defense. If an agent threatens you, reminding them of these Supreme Court mandates can be a very effective deterrent.
                 </p>
               </div>
 
@@ -537,15 +537,15 @@ export default function RecoveryVisitClient() {
                   <li>Educate your security guard or society manager to not allow people claiming to be bank agents without formal ID.</li>
                   <li>Install a call-recording app on your phone and ensure it is working.</li>
                   <li>Maintain a "Recovery Interaction Log" with dates, times, and summaries of every contact.</li>
-                  <li>Do not sign any blank papers or "Visit Acknowledgments" without reading them carefully. Agents often use these to claim you consented to something you didn't.</li>
-                  <li>If you pay any amount, ensure you get a digital or physical receipt immediately from the bank's portal. Never pay cash to an agent.</li>
+                  <li>Do not sign any blank papers or "Visit Acknowledgments" without reading them carefully. Agents often use these to claim you consented to something you didn’t.</li>
+                  <li>If you pay any amount, ensure you get a digital or physical receipt immediately from the bank’s portal. Never pay cash to an agent.</li>
                 </ul>
               </div>
 
               <h2 id="credsettle-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">How CredSettle Stops Doorstep Harassment Today</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  You don't have to fight this alone. CredSettle was founded with the mission of providing a "Legal Shield" to honest borrowers in distress. We believe that financial failure is not a moral failure, and every citizen deserves to live without the fear of harassment.
+                  You don’t have to fight this alone. CredSettle was founded with the mission of providing a "Legal Shield" to honest borrowers in distress. We believe that financial failure is not a moral failure, and every citizen deserves to live without the fear of harassment.
                 </p>
                 <p>
                   - **Communication Transfer:** When you enroll, we send formal intimations to your lenders. We become your "Authorized Representative." Legally, they should now talk to our legal team, not directly to you. This redirection is what truly stops the doorstep visits.
@@ -564,12 +564,12 @@ export default function RecoveryVisitClient() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900">{review.name}</h4>
-                        <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
+                        <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
                     <div className="flex text-yellow-400 mb-3 text-sm">
                       {[...Array(review.rating)].map((_, i) => (
-                        <span key={i}>★</span>
+                        <span key={i}>*</span>
                       ))}
                     </div>
                     <p className="text-gray-700 text-sm leading-relaxed italic">"{review.text}"</p>
@@ -596,7 +596,7 @@ export default function RecoveryVisitClient() {
               <div className="mt-16 p-8 md:p-14 bg-gradient-to-br from-blue-900 to-black text-white rounded-[40px] text-center shadow-2xl relative overflow-hidden">
                 <div className="relative z-10">
                   <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight uppercase tracking-tight">Stop the Doorstep Threat Today</h2>
-                  <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-xl font-light">Join thousands who have reclaimed their home's peace. Get an immediate legal shield against recovery agent harassment.</p>
+                  <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-xl font-light">Join thousands who have reclaimed their home’s peace. Get an immediate legal shield against recovery agent harassment.</p>
                   <Link
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-12 py-5 rounded-full font-extrabold text-xl hover:bg-blue-50 transition-all shadow-2xl hover:scale-105 active:scale-95"
@@ -621,7 +621,7 @@ export default function RecoveryVisitClient() {
                 <div className="relative z-10">
                   <div className="bg-red-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-4 animate-pulse">24/7 Protection</div>
                   <h4 className="font-bold text-2xl mb-4 leading-tight">Home Visit Expected?</h4>
-                  <p className="text-blue-100 mb-8 text-sm leading-relaxed">Don't wait for the doorbell to ring. Get our legal team to stop the agents now.</p>
+                  <p className="text-blue-100 mb-8 text-sm leading-relaxed">Don’t wait for the doorbell to ring. Get our legal team to stop the agents now.</p>
                   <Link
                     href="/contact"
                     className="block w-full bg-white text-blue-800 font-bold py-4 rounded-xl text-center hover:bg-blue-50 transition-all shadow-lg active:scale-95"
@@ -667,7 +667,7 @@ export default function RecoveryVisitClient() {
               {/* Trust Badge */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center">
                 <div className="text-blue-600 text-2xl font-black mb-1">4.9/5</div>
-                <div className="flex justify-center text-yellow-400 mb-2">★★★★★</div>
+                <div className="flex justify-center text-yellow-400 mb-2">*****</div>
                 <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Verified Reviews</p>
               </div>
 

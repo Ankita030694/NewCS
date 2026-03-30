@@ -103,7 +103,7 @@ export default function KrazyBeeLoanSettlementPage() {
     },
     {
       question: "What is the settlement percentage for KrazyBee loans?",
-      answer: "Settlements often range between 30% to 50% of the total outstanding amount, depending on the delinquency period (how long you haven't paid) and your proven financial hardship."
+      answer: "Settlements often range between 30% to 50% of the total outstanding amount, depending on the delinquency period (how long you haven’t paid) and your proven financial hardship."
     },
     {
       question: "Will settlement affect my CIBIL score?",
@@ -161,7 +161,7 @@ export default function KrazyBeeLoanSettlementPage() {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Karthik S." },
         "datePublished": "2025-12-05",
-        "reviewBody": "Received an arbitration notice from KrazyBee. I didn't know what to do. The CredSettle legal team handled the hearing and closed the case swiftly.",
+        "reviewBody": "Received an arbitration notice from KrazyBee. I didn’t know what to do. The CredSettle legal team handled the hearing and closed the case swiftly.",
         "reviewRating": { "@type": "Rating", "ratingValue": "5" }
       }
     ]

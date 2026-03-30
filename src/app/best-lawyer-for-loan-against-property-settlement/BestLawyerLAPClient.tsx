@@ -560,9 +560,9 @@ export default function BestLawyerLAPClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Fast DRT Injunctions</p>
-                                    <p>✓ Halt Illegal Harassment</p>
-                                    <p>✓ Protect Real Estate</p>
+                                    <p>v Fast DRT Injunctions</p>
+                                    <p>v Halt Illegal Harassment</p>
+                                    <p>v Protect Real Estate</p>
                                 </div>
                             </div>
 

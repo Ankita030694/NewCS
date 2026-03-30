@@ -207,7 +207,7 @@ export default function TelanganaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Telangana, India's youngest state (formed 2014), has emerged as major IT and pharma hub. Hyderabad houses Google, Microsoft, Amazon offices in HITEC City and Gachibowli corridor. Also global pharma capital with over 800 pharmaceutical companies. This rapid growth created high-income jobs, real estate boom and aggressive lending by banks and NBFCs. Millions borrowed for homes, cars, lifestyle and business expansion.
+                    Telangana, India’s youngest state (formed 2014), has emerged as major IT and pharma hub. Hyderabad houses Google, Microsoft, Amazon offices in HITEC City and Gachibowli corridor. Also global pharma capital with over 800 pharmaceutical companies. This rapid growth created high-income jobs, real estate boom and aggressive lending by banks and NBFCs. Millions borrowed for homes, cars, lifestyle and business expansion.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution method. Telangana High Court has also made strong observations protecting borrowers from unfair bank harassment.
@@ -246,16 +246,16 @@ export default function TelanganaPageClient() {
                     <strong>Tech sector borrowing:</strong> Software engineers, data scientists, product managers borrowed ₹10-40 lakhs for apartments in Gachibowli, Kondapur, Madhapur areas (real estate prices doubled 2015-2019). Many took personal loans for down payments, car loans for vehicles, credit cards for lifestyle. When tech layoffs hit 2022-2024 (Meta, Amazon, Google, Microsoft, Indian IT companies), EMI payments became impossible. Projects cancelled, variable pay stopped, bench periods extended, some lost jobs completely.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Pharma sector patterns:</strong> Hyderabad is global pharma capital (Dr. Reddy's, Cipla, Lupin, Sun Pharma, Aurobindo). R&D scientists, quality control professionals, pharma sales teams borrowed for homes and lifestyle. Pharma sector faces drug patent expiries, FDA rejections, US pricing pressure. When plants get FDA warnings or export orders drop, job security vanishes. Medical representatives who borrowed expecting stable field jobs saw territories restructured, incentives cut.
+                    <strong>Pharma sector patterns:</strong> Hyderabad is global pharma capital (Dr. Reddy’s, Cipla, Lupin, Sun Pharma, Aurobindo). R&D scientists, quality control professionals, pharma sales teams borrowed for homes and lifestyle. Pharma sector faces drug patent expiries, FDA rejections, US pricing pressure. When plants get FDA warnings or export orders drop, job security vanishes. Medical representatives who borrowed expecting stable field jobs saw territories restructured, incentives cut.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Real estate boom and bust:</strong> Telangana formation 2014 triggered real estate explosion in Hyderabad. Prices in Gachibowli, Kondapur, Kokapet jumped 120-150% in 3-4 years. Everyone borrowed maximum (₹30-60 lakhs) expecting prices to keep rising. Then market crashed 2019-2020. Projects delayed, developers defaulted, property values dropped 20-30%. People stuck with huge loans for homes worth less than purchase price.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Startup ecosystem challenges:</strong> Hyderabad has T-Hub (largest incubator), WE Hub (women entrepreneurs), strong startup culture. Founders borrowed personal loans ₹5-25 lakhs for startup operations (easier than venture funding). When startups failed (70-80% fail within 3 years), founders personally liable for loans. We've settled hundreds of startup founder personal loans.
+                    <strong>Startup ecosystem challenges:</strong> Hyderabad has T-Hub (largest incubator), WE Hub (women entrepreneurs), strong startup culture. Founders borrowed personal loans ₹5-25 lakhs for startup operations (easier than venture funding). When startups failed (70-80% fail within 3 years), founders personally liable for loans. We’ve settled hundreds of startup founder personal loans.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We specialize in Telangana's tech and pharma economy. We know how to explain tech layoff cycles, pharma industry FDA challenges, startup failure rates and real estate market crashes to lenders. This sector knowledge gets you better settlement terms than generic companies can achieve.
+                    We specialize in Telangana’s tech and pharma economy. We know how to explain tech layoff cycles, pharma industry FDA challenges, startup failure rates and real estate market crashes to lenders. This sector knowledge gets you better settlement terms than generic companies can achieve.
                   </p>
                 </div>
               </section>
@@ -282,19 +282,19 @@ export default function TelanganaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Tech Layoff Wave 2022-2024:</strong> Microsoft, Google, Meta, Amazon cut thousands of Hyderabad jobs. Indian IT companies (TCS, Infosys, Wipro, Tech Mahindra) put engineers on bench, cancelled variable pay, reduced new hiring. Software engineers earning ₹12-25 lakhs had borrowed ₹15-35 lakhs total (home loan down payment, personal loan for interiors, car loan, credit cards). When job lost or salary cut 30-40%, all loans defaulted. We've settled 2,100+ tech layoff cases using industry layoff statistics.
+                    <strong>1. Tech Layoff Wave 2022-2024:</strong> Microsoft, Google, Meta, Amazon cut thousands of Hyderabad jobs. Indian IT companies (TCS, Infosys, Wipro, Tech Mahindra) put engineers on bench, cancelled variable pay, reduced new hiring. Software engineers earning ₹12-25 lakhs had borrowed ₹15-35 lakhs total (home loan down payment, personal loan for interiors, car loan, credit cards). When job lost or salary cut 30-40%, all loans defaulted. We’ve settled 2,100+ tech layoff cases using industry layoff statistics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Pharma Sector FDA Warnings:</strong> When FDA issues warning letters to Hyderabad pharma plants, hundreds lose jobs immediately. Quality control professionals, R&D scientists, production staff see salaries stopped. Medical representatives whose territories serviced affected companies lose incentives. These borrowers had ₹8-20 lakhs loans (personal for home, car, education). We've settled pharma sector loans using FDA warning documentation and industry reports.
+                    <strong>2. Pharma Sector FDA Warnings:</strong> When FDA issues warning letters to Hyderabad pharma plants, hundreds lose jobs immediately. Quality control professionals, R&D scientists, production staff see salaries stopped. Medical representatives whose territories serviced affected companies lose incentives. These borrowers had ₹8-20 lakhs loans (personal for home, car, education). We’ve settled pharma sector loans using FDA warning documentation and industry reports.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Real Estate Delayed Projects:</strong> Many bought under-construction apartments in Gachibowli, Kokapet, Narsingi expecting 2-3 year possession. Paid ₹10-20 lakhs down payment using personal loans. Then projects delayed 5-7 years. Stuck paying EMIs for flat they cannot occupy while also paying house rent. Double burden destroyed finances. We've settled hundreds of such cases showing project delay documents.
+                    <strong>3. Real Estate Delayed Projects:</strong> Many bought under-construction apartments in Gachibowli, Kokapet, Narsingi expecting 2-3 year possession. Paid ₹10-20 lakhs down payment using personal loans. Then projects delayed 5-7 years. Stuck paying EMIs for flat they cannot occupy while also paying house rent. Double burden destroyed finances. We’ve settled hundreds of such cases showing project delay documents.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Startup Founder Personal Liability:</strong> T-Hub and WE Hub incubated hundreds of startups. Founders borrowed personal loans ₹5-25 lakhs for company operations (team salaries, product development, marketing). When startup failed to get funding or revenues never came, founders stuck with personal debt. Limited liability doesn't protect personal loans. We negotiate using startup closure documentation and business failure proof.
+                    <strong>4. Startup Founder Personal Liability:</strong> T-Hub and WE Hub incubated hundreds of startups. Founders borrowed personal loans ₹5-25 lakhs for company operations (team salaries, product development, marketing). When startup failed to get funding or revenues never came, founders stuck with personal debt. Limited liability doesn’t protect personal loans. We negotiate using startup closure documentation and business failure proof.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Lifestyle Inflation in Tech Corridor:</strong> HITEC City and Gachibowli created wealth effect. Young professionals earning ₹8-15 lakhs took multiple loans (car, gadgets, vacations, expensive phones on EMI). Bought iPhones on credit card EMI, financed bikes worth 6 months salary, took personal loans for foreign vacations. When recession hit or job changed, the pile of small EMIs became mountain of debt. We've settled hundreds of lifestyle debt cases.
+                    <strong>5. Lifestyle Inflation in Tech Corridor:</strong> HITEC City and Gachibowli created wealth effect. Young professionals earning ₹8-15 lakhs took multiple loans (car, gadgets, vacations, expensive phones on EMI). Bought iPhones on credit card EMI, financed bikes worth 6 months salary, took personal loans for foreign vacations. When recession hit or job changed, the pile of small EMIs became mountain of debt. We’ve settled hundreds of lifestyle debt cases.
                   </p>
                 </div>
               </section>
@@ -321,10 +321,10 @@ export default function TelanganaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled 11,000+ loan settlements across Telangana in last four years. Our Telangana clients save an average of 59% on their debt. We work with all major banks, regional banks and NBFCs operating in Hyderabad and across the state.
+                    We’ve handled 11,000+ loan settlements across Telangana in last four years. Our Telangana clients save an average of 59% on their debt. We work with all major banks, regional banks and NBFCs operating in Hyderabad and across the state.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Telangana advantage:</strong> We're registered legal services company following every RBI rule. We understand Hyderabad's tech layoff cycles, pharma industry FDA challenges, real estate market dynamics and startup ecosystem. We have local legal partners in Hyderabad who know district courts and Telangana Lok Adalat system.
+                    <strong>Our Telangana advantage:</strong> We’re registered legal services company following every RBI rule. We understand Hyderabad’s tech layoff cycles, pharma industry FDA challenges, real estate market dynamics and startup ecosystem. We have local legal partners in Hyderabad who know district courts and Telangana Lok Adalat system.
                   </p>
 
                   <div id="telangana-methods" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -396,7 +396,7 @@ export default function TelanganaPageClient() {
                     <strong>Court stance on harassment:</strong> Telangana High Court has specifically noted cases where banks seized property gates over loan defaults, causing public embarrassment. Court questioned why same aggressive approach not taken against large corporate defaulters. This judicial backing helps us push for reasonable settlements instead of harassment.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>OTS discretion:</strong> While High Court has clarified that borrowers don't have absolute right to One-Time Settlement (banks have commercial discretion), the court also expects banks to consider genuine hardship cases. We use this balanced approach in negotiations, presenting your genuine financial crisis with proper documentation.
+                    <strong>OTS discretion:</strong> While High Court has clarified that borrowers don’t have absolute right to One-Time Settlement (banks have commercial discretion), the court also expects banks to consider genuine hardship cases. We use this balanced approach in negotiations, presenting your genuine financial crisis with proper documentation.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Our Hyderabad legal team stays updated on all Telangana High Court judgments related to loan recovery and settlement. We use these legal precedents to protect your rights and achieve fair settlement terms.
@@ -426,16 +426,16 @@ export default function TelanganaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>HITEC City:</strong> Hyderabad Information Technology and Engineering Consultancy City houses Microsoft (largest R&D center outside US), Google, Facebook, Apple offices. Thousands of engineers earning ₹10-30 lakhs borrowed heavily for apartments, cars and lifestyle. 2022-2024 layoffs destroyed finances. We've handled 1,800+ HITEC City area cases.
+                    <strong>HITEC City:</strong> Hyderabad Information Technology and Engineering Consultancy City houses Microsoft (largest R&D center outside US), Google, Facebook, Apple offices. Thousands of engineers earning ₹10-30 lakhs borrowed heavily for apartments, cars and lifestyle. 2022-2024 layoffs destroyed finances. We’ve handled 1,800+ HITEC City area cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Gachibowli corridor:</strong> From Financial District to Gachibowli to Madhapur, this stretch has Amazon, Deloitte, Accenture, TCS, Infosys, Wipro campuses. Real estate here costs ₹6,000-12,000 per sq ft. Engineers borrowed ₹20-40 lakhs for 2-3 BHK apartments. When tech recession hit, many on bench or laid off. We've settled 2,400+ Gachibowli area loans using tech sector layoff data.
+                    <strong>Gachibowli corridor:</strong> From Financial District to Gachibowli to Madhapur, this stretch has Amazon, Deloitte, Accenture, TCS, Infosys, Wipro campuses. Real estate here costs ₹6,000-12,000 per sq ft. Engineers borrowed ₹20-40 lakhs for 2-3 BHK apartments. When tech recession hit, many on bench or laid off. We’ve settled 2,400+ Gachibowli area loans using tech sector layoff data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Kondapur and Madhapur:</strong> Residential hubs for IT professionals. Everyone borrowed for apartments in high-rise complexes. Monthly EMIs ₹40,000-80,000 manageable with ₹15 lakh salary but impossible when unemployed or salary cut. We negotiate using IT sector employment statistics and salary trend data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Common pattern we see:</strong> Software engineer age 28-35, earning ₹12-18 lakhs, borrowed total ₹25-40 lakhs (₹15 lakhs personal loan for flat down payment, ₹8 lakhs car loan, ₹5-7 lakhs credit cards and personal loans for interiors/gadgets). When laid off or put on bench with 40% salary cut, all loans default together. CIBIL drops from 750 to 520 in 6 months. We've handled thousands of such cases across Hyderabad tech corridor.
+                    <strong>Common pattern we see:</strong> Software engineer age 28-35, earning ₹12-18 lakhs, borrowed total ₹25-40 lakhs (₹15 lakhs personal loan for flat down payment, ₹8 lakhs car loan, ₹5-7 lakhs credit cards and personal loans for interiors/gadgets). When laid off or put on bench with 40% salary cut, all loans default together. CIBIL drops from 750 to 520 in 6 months. We’ve handled thousands of such cases across Hyderabad tech corridor.
                   </p>
                 </div>
               </section>
@@ -468,7 +468,7 @@ export default function TelanganaPageClient() {
                     <strong>Medical representatives:</strong> Pharma sales teams covering Telangana and AP borrowed ₹5-15 lakhs (car loans, personal loans, credit cards). MR income depends on incentives tied to sales targets. When patent expires on blockbuster drug or company loses market share, territories restructured, teams cut, incentives stopped. Base salary alone cannot cover EMIs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Pharma industry volatility:</strong> Unlike IT where layoffs are periodic, pharma has sudden shocks. Single FDA warning letter can shut entire plant, affecting thousands. Drug patent expiries wipe out revenue overnight. Generic pricing pressure from US market impacts export-focused companies. We've handled 600+ pharma sector loan settlements using industry-specific hardship documentation.
+                    <strong>Pharma industry volatility:</strong> Unlike IT where layoffs are periodic, pharma has sudden shocks. Single FDA warning letter can shut entire plant, affecting thousands. Drug patent expiries wipe out revenue overnight. Generic pricing pressure from US market impacts export-focused companies. We’ve handled 600+ pharma sector loan settlements using industry-specific hardship documentation.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>How we help pharma professionals:</strong> We gather FDA warning letters (public documents), plant shutdown notices, layoff announcements from pharma companies. Show lenders this is industry-wide issue, not individual failure. Negotiate using pharma sector reports showing US pricing pressure and patent cliff challenges. Typically achieve 50-65% debt reduction for pharma professionals.
@@ -498,10 +498,10 @@ export default function TelanganaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Tech and Pharma Sector Expertise:</strong> We understand layoff cycles, FDA warnings, startup failures, real estate crashes. Most settlement companies don't get Hyderabad's unique economy. We do. This knowledge gets better settlements.
+                    <strong>1. Tech and Pharma Sector Expertise:</strong> We understand layoff cycles, FDA warnings, startup failures, real estate crashes. Most settlement companies don’t get Hyderabad’s unique economy. We do. This knowledge gets better settlements.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Save 30-70% on Debt:</strong> Telangana clients save 59% on average. Tech sector cases often get 55-65% settlements because lenders understand layoff situations are genuine hardship. That's lakhs saved.
+                    <strong>2. Save 30-70% on Debt:</strong> Telangana clients save 59% on average. Tech sector cases often get 55-65% settlements because lenders understand layoff situations are genuine hardship. That’s lakhs saved.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>3. Harassment Stops Within Week:</strong> Legal notices citing RBI rules and Telangana High Court observations. Recovery calls stop within 5-7 days across state.
@@ -639,7 +639,7 @@ export default function TelanganaPageClient() {
                     <strong>The Borrower:</strong> Rahul M., age 32, technical lead at major tech company in Gachibowli. Had borrowed ₹32 lakhs total (₹18 lakhs personal loan for flat down payment in Kondapur, ₹9 lakhs car loan, ₹5 lakhs credit cards).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Collapsed:</strong> September 2023, Rahul's company announced 15% workforce reduction. His entire team (cloud infrastructure) outsourced to vendor. Laid off with 3 months severance. Applied 80+ jobs over 4 months, only got contract offers at 40% lower salary. Could not pay ₹52,000 monthly EMIs. All 3 accounts went NPA. Recovery agents called 15-20 times daily, visited Kondapur apartment twice, sent legal notices. CIBIL crashed from 765 to 495. Family reputation at risk.
+                    <strong>What Collapsed:</strong> September 2023, Rahul’s company announced 15% workforce reduction. His entire team (cloud infrastructure) outsourced to vendor. Laid off with 3 months severance. Applied 80+ jobs over 4 months, only got contract offers at 40% lower salary. Could not pay ₹52,000 monthly EMIs. All 3 accounts went NPA. Recovery agents called 15-20 times daily, visited Kondapur apartment twice, sent legal notices. CIBIL crashed from 765 to 495. Family reputation at risk.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>We Protected His Future:</strong> Rahul contacted us January 2024. We sent immediate legal notices to all 3 lenders citing RBI rules and Telangana High Court observations on harassment. Harassment stopped in 5 days. Our assessment showed genuine tech layoff situation (not job hopping or income misuse). Built strong case.
@@ -681,7 +681,7 @@ export default function TelanganaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Dealing with loan debt in Hyderabad, Warangal or anywhere in Telangana? You don't need to face this alone. Settlement is legal. RBI backs it. Telangana High Court protects borrowers from unfair practices. It exists for tech professionals facing layoffs, pharma sector workers hit by FDA warnings, startup founders whose businesses failed, and anyone with genuine financial problems.
+                    Dealing with loan debt in Hyderabad, Warangal or anywhere in Telangana? You don’t need to face this alone. Settlement is legal. RBI backs it. Telangana High Court protects borrowers from unfair practices. It exists for tech professionals facing layoffs, pharma sector workers hit by FDA warnings, startup founders whose businesses failed, and anyone with genuine financial problems.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Debt destroys careers and peace. Your health suffers, family worries constantly, professional reputation at risk, sleep disappears. Each day you delay, penalties grow, interest compounds, CIBIL falls more. But proper exit exists. Over 11,000 Telangana families already got financial freedom through our settlement work.
@@ -690,10 +690,10 @@ export default function TelanganaPageClient() {
                     <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and clear options. Our Telangana experts will show exactly how to stop harassment, cut debt 30-70% and close everything legally. We understand tech sector volatility, pharma industry challenges, real estate market crashes, whatever your situation is.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Tech layoffs and industry downturns are temporary. But unresolved debt can destroy your career and life permanently. With our legal team, Hyderabad sector knowledge and 11,000+ case experience, you can end this crisis properly and restart. Don't let debt destroy your future. Act now.
+                    Tech layoffs and industry downturns are temporary. But unresolved debt can destroy your career and life permanently. With our legal team, Hyderabad sector knowledge and 11,000+ case experience, you can end this crisis properly and restart. Don’t let debt destroy your future. Act now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> HITEC City, Gachibowli, Madhapur, Genome Valley or any Telangana district. Wherever you are, debt-free life is possible. We'll help you reach there.
+                    <strong>Call CredSettle for free consultation.</strong> HITEC City, Gachibowli, Madhapur, Genome Valley or any Telangana district. Wherever you are, debt-free life is possible. We’ll help you reach there.
                   </p>
                 </div>
               </section>

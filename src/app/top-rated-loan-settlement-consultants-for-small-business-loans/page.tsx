@@ -67,7 +67,7 @@ export default function BusinessConsultantsPage() {
         name: "Deepak Goyal",
         location: "Ludhiana",
         rating: 5,
-        text: "CredSettle's dashboard made managing 5 different business loans easy. Transparency was key for me."
+        text: "CredSettle’s dashboard made managing 5 different business loans easy. Transparency was key for me."
     },
     {
         name: "Vikram Singh",
@@ -79,7 +79,7 @@ export default function BusinessConsultantsPage() {
         name: "Meera Nair",
         location: "Kochi",
         rating: 5,
-        text: "Professional business settlement is key for survival. Don't fight the bank alone. This guide helped me choose the right firm."
+        text: "Professional business settlement is key for survival. Don’t fight the bank alone. This guide helped me choose the right firm."
     }
   ];
 

@@ -93,7 +93,7 @@ export default function ChequeBouncePage() {
         "name": "What is the time limit to file a cheque bounce case?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A legal notice must be sent within 30 days of dishonour. If payment isn't made in 15 days, a complaint must be filed within the next 30 days (up 3 months per new rules)."
+          "text": "A legal notice must be sent within 30 days of dishonour. If payment isn’t made in 15 days, a complaint must be filed within the next 30 days (up 3 months per new rules)."
         }
       },
       {

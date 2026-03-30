@@ -150,7 +150,7 @@ export default function TamilNaduLoanSettlementPage() {
         "name": "Do I need to visit the bank branch personally?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. Once you hire CredSettle, we handle the communication with the bank's central processing units, so you don't have to face local branch managers."
+          "text": "No. Once you hire CredSettle, we handle the communication with the bank’s central processing units, so you don’t have to face local branch managers."
         }
       },
       {
@@ -158,7 +158,7 @@ export default function TamilNaduLoanSettlementPage() {
         "name": "How long does the settlement process take?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "In Tamil Nadu, the process typically takes 45 to 90 days, depending on the bank's internal approval speed."
+          "text": "In Tamil Nadu, the process typically takes 45 to 90 days, depending on the bank’s internal approval speed."
         }
       }
     ]

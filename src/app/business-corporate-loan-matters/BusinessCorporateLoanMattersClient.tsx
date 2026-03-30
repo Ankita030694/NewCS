@@ -311,7 +311,7 @@ export default function BusinessCorporateLoanMattersClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Corporate Debt Dynamics: The High Stakes of Business Survival</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Managing a business in India’s volatile economic landscape requires more than just operational excellence; it requires a deep understanding of the legalities surrounding corporate debt. A company’s growth is often fueled by credit—but credit comes with strings attached that can pull a business into insolvency if not managed with surgical precision. Corporate loan matters are no longer just accounting disputes; they are high stakes legal battles fought in the NCLT and DRT.
+                                Managing a business in India’s volatile economic landscape requires more than just operational excellence; it requires a deep understanding of the legalities surrounding corporate debt. A company’s growth is often fueled by credit-but credit comes with strings attached that can pull a business into insolvency if not managed with surgical precision. Corporate loan matters are no longer just accounting disputes; they are high stakes legal battles fought in the NCLT and DRT.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 As we enter 2025, the legal framework for corporate recovery is undergoing a massive transformation. The Insolvency and Bankruptcy Code (IBC) has moved from an experimental tool to a time bound resolution machine. With the proposed IBC Amendment Bill 2025, the safety nets for defaulting companies are narrowing, but the opportunities for strategic resolution and restructuring are expanding. For directors and business owners, knowing "When to Negotiate" and "When to Litigate" is the difference between corporate survival and liquidation.
@@ -391,11 +391,11 @@ export default function BusinessCorporateLoanMattersClient() {
 
                             <h2 id="director-personal-guarantees" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Director Liability and Personal Guarantees</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The most stressful part of corporate failure is the **Personal Guarantee (PG)**. In 2021, the Supreme Court upheld the RBI's power to allow banks to initiate insolvency proceedings directly against personal guarantors (Directors).
+                                The most stressful part of corporate failure is the **Personal Guarantee (PG)**. In 2021, the Supreme Court upheld the RBI’s power to allow banks to initiate insolvency proceedings directly against personal guarantors (Directors).
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light text-gray-800">
                                 <ul className="space-y-4">
-                                    <li><strong>Asset Attachment:</strong> Your personal home, car, and bank balance can be seized for the company's debt if you signed a PG.</li>
+                                    <li><strong>Asset Attachment:</strong> Your personal home, car, and bank balance can be seized for the company’s debt if you signed a PG.</li>
                                     <li><strong>The Moratorium Trap:</strong> Often, the company gets a moratorium, but the Personal Guarantor DOES NOT. Banks can pursue you individually while the company is protected.</li>
                                     <li><strong>Severing the Liability:</strong> We help directors negotiate "Individual Settlement Deeds" that release them and their personal assets from the corporate liability.</li>
                                 </ul>
@@ -424,7 +424,7 @@ export default function BusinessCorporateLoanMattersClient() {
                                 For a corporation, an OTS is not just about a discount; it is about **"Future Financeability."** A botched settlement can prevent the promoters from starting a new business for 10 years.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A CredSettle Corporate OTS is drafted to include a **"No Wilful Defaulter"** clause and a "Full Discharge of Personal Guarantee." We ensure that while the company might be closed, the promoters’ reputation and their ability to lead future ventures are preserved.
+                                A CredSettle Corporate OTS is drafted to include a **"No Wilful Defaulter"** clause and a "Full Discharge of Personal Guarantee." We ensure that while the company might be closed, the promoters' reputation and their ability to lead future ventures are preserved.
                             </p>
 
                             <h2 id="expert-corporate-advisory" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Why Elite Legal Advisory is Mandatory for Businesses</h2>

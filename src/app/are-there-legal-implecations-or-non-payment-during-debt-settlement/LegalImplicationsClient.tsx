@@ -100,15 +100,15 @@ export default function LegalImplicationsClient() {
         },
         {
             question: 'What is a legal notice and how should I react?',
-            answer: 'A legal notice is a formal communication from the lender\'s advocate. You should not ignore it. A proper legal response drafted by a professional can show you have a valid reason for default and are intended on settlement, which can deter the bank from filing a full-scale court case.'
+            answer: 'A legal notice is a formal communication from the lender’s advocate. You should not ignore it. A proper legal response drafted by a professional can show you have a valid reason for default and are intended on settlement, which can deter the bank from filing a full-scale court case.'
         },
         {
-            question: 'Will a court summons be sent if I don\'t pay?',
+            question: 'Will a court summons be sent if I don’t pay?',
             answer: 'If the bank files a civil suit or a criminal complaint for a bounced cheque, the court will issue a summons. Ignoring a court summons is dangerous and can lead to warrants. You must appear or have an advocate represent you.'
         },
         {
             question: 'Does the RBI allow settlement for defaulted loans?',
-            answer: 'Yes, the RBI\'s June 2023 framework encourages banks and NBFCs to have board-approved policies for "Compromise Settlements" to help genuine borrowers exit debt cycles.'
+            answer: 'Yes, the RBI’s June 2023 framework encourages banks and NBFCs to have board-approved policies for "Compromise Settlements" to help genuine borrowers exit debt cycles.'
         },
         {
             question: 'What happens to my property if I default on an unsecured loan?',
@@ -133,7 +133,7 @@ export default function LegalImplicationsClient() {
             name: 'Sunil Karekar',
             location: 'Pune',
             stars: 5,
-            comment: 'I was terrified of the Section 138 notice I received. CredSettle explained that it\'s a procedural step and helped me file a reply that eventually led to a 50% settlement. Knowing the legal reality saved my peace of mind.'
+            comment: 'I was terrified of the Section 138 notice I received. CredSettle explained that it’s a procedural step and helped me file a reply that eventually led to a 50% settlement. Knowing the legal reality saved my peace of mind.'
         },
         {
             name: 'Rashmi Nair',
@@ -280,12 +280,12 @@ export default function LegalImplicationsClient() {
                                 But what are the <strong>actual legal consequences</strong> of non-payment in 2025? Is a default a crime? Can the police knock on your door? In this exhaustive 4000+ word deep dive, we will strip away the myths and explain the institutional, civil, and criminal frameworks of debt in India. From the dreaded Section 138 to the nuances of the SARFAESI Act, you will learn how to navigate these implications with dignity and a strong legal shield. We will explore the historical context of debt recovery in India, the rise of the Insolvency and Bankruptcy Code (IBC) in relation to individual borrowers, and the specific consumer protection laws that act as your defense mechanism.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                Understanding these laws is not just about avoiding trouble; it is about empowerment. When you know exactly where the bank\'s powers end and your rights begin, you can negotiate from a position of strength. We will analyze the different types of notices you might receive, from the standard "Demand Notice" to the formal "Legal Summons," and provide a step-by-step guide on how to react to each one without losing your peace of mind.
+                                Understanding these laws is not just about avoiding trouble; it is about empowerment. When you know exactly where the bank’s powers end and your rights begin, you can negotiate from a position of strength. We will analyze the different types of notices you might receive, from the standard "Demand Notice" to the formal "Legal Summons," and provide a step-by-step guide on how to react to each one without losing your peace of mind.
                             </p>
 
                             <h2 id="section-138-cheque-bounce" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Section 138: The Criminal Intersection of Debt</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                One of the most potent tools in a lender\'s arsenal is <strong>Section 138 of the Negotiable Instruments Act.</strong> This handles the "Dishonor of Cheques." While loan default is a civil matter, a bounced cheque is a criminal offense. Banks often collect Post-Dated Cheques (PDCs) or ask for NACH mandates during the loan application process. In 2025, the digitalization of payments has led to the rise of Section 25 of the Payment and Settlement Systems Act, which mirrors the criminal implications of Section 138 but applies to electronic mandates (NACH/ECS).
+                                One of the most potent tools in a lender’s arsenal is <strong>Section 138 of the Negotiable Instruments Act.</strong> This handles the "Dishonor of Cheques." While loan default is a civil matter, a bounced cheque is a criminal offense. Banks often collect Post-Dated Cheques (PDCs) or ask for NACH mandates during the loan application process. In 2025, the digitalization of payments has led to the rise of Section 25 of the Payment and Settlement Systems Act, which mirrors the criminal implications of Section 138 but applies to electronic mandates (NACH/ECS).
                             </p>
                             <div className="bg-red-50 p-10 rounded-3xl border border-red-100 mb-12 shadow-sm">
                                 <h4 className="text-red-900 font-black text-xl mb-4 border-l-4 border-red-600 pl-4">Crucial Facts about Section 138 in 2025:</h4>
@@ -297,7 +297,7 @@ export default function LegalImplicationsClient() {
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Many borrowers fear that a single bounced cheque means immediate arrest. This is not true. Section 138 is a "Summons Case," meaning the court first issues a summons for you to appear. Only if you repeatedly ignore the court\'s summons can the magistrate issue a Bailable Warrant, and subsequently a Non-Bailable Warrant. By being proactive and having a legal team file an application for "Exemption from Personal Appearance," you can manage these cases without disrupting your daily life or job.
+                                Many borrowers fear that a single bounced cheque means immediate arrest. This is not true. Section 138 is a "Summons Case," meaning the court first issues a summons for you to appear. Only if you repeatedly ignore the court’s summons can the magistrate issue a Bailable Warrant, and subsequently a Non-Bailable Warrant. By being proactive and having a legal team file an application for "Exemption from Personal Appearance," you can manage these cases without disrupting your daily life or job.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 Furthermore, the Supreme Court of India has provided various guidelines to ensure that Section 138 is not used as a weapon for harassment. For instance, the "Mediation First" approach encouraged by several high courts allows borrowers to propose a settlement plan even after the criminal case has been filed. This intersection of criminal law and financial negotiation is where specialized debt resolution firms provide the most value, ensuring that your criminal liability is extinguished as part of the overall settlement.
@@ -308,7 +308,7 @@ export default function LegalImplicationsClient() {
                                 For secured loans (Home, Property, Car), the <strong>SARFAESI Act (2002)</strong> grants banks extraordinary powers to recover dues without the intervention of a court or tribunal. This Act was designed to speed up the recovery of NPAs and give banks a way to liquidate collateral efficiently. Under this Act, if an account becomes an NPA (90 days overdue), the bank can issue a Section 13(2) notice, giving you 60 days to clear the entire outstanding amount.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                However, the law also provides the <strong>"Right of Redemption" (Section 13.8).</strong> As a borrower, you have the right to pay off the dues and stop an auction at any point before the sale is finalized. But what many don\'t realize is the "Objection Phase." After receiving a 13(2) notice, you have the right to file an objection within those 60 days. The bank is legally mandated to respond to this objection within 15 days, explaining why they are rejecting or accepting your proposal.
+                                However, the law also provides the <strong>"Right of Redemption" (Section 13.8).</strong> As a borrower, you have the right to pay off the dues and stop an auction at any point before the sale is finalized. But what many don’t realize is the "Objection Phase." After receiving a 13(2) notice, you have the right to file an objection within those 60 days. The bank is legally mandated to respond to this objection within 15 days, explaining why they are rejecting or accepting your proposal.
                             </p>
                             <div className="bg-amber-50 p-10 rounded-3xl border border-amber-100 mb-12 shadow-sm">
                                 <h4 className="text-amber-900 font-black text-xl mb-4">Strategic Defense in SARFAESI Cases:</h4>
@@ -316,7 +316,7 @@ export default function LegalImplicationsClient() {
                                 <p className="text-amber-800 font-light">Strategic non-payment in secured loans is a high-risk move and should only be done under expert supervision where a settlement offer is already being actively negotiated to bypass the auction through a "Compromise Settlement."</p>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                In 2025, the SARFAESI Act has faced several judicial reviews. High Courts have often intervened to protect "Residential Homesteads" where the borrower is making a sincere effort to settle but needs more time. Understanding these procedural loopholes is essential for any borrower with a secured loan. We will also discuss the role of "Authorized Officers" and the importance of checking the "Reserve Price" of your property to ensure the bank isn\'t selling it at a massive undervaluation just to close the loan.
+                                In 2025, the SARFAESI Act has faced several judicial reviews. High Courts have often intervened to protect "Residential Homesteads" where the borrower is making a sincere effort to settle but needs more time. Understanding these procedural loopholes is essential for any borrower with a secured loan. We will also discuss the role of "Authorized Officers" and the importance of checking the "Reserve Price" of your property to ensure the bank isn’t selling it at a massive undervaluation just to close the loan.
                             </p>
 
                             <h2 id="civil-suits-recovery" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Civil Suits for Recovery: The Institutional Stalemate</h2>
@@ -327,7 +327,7 @@ export default function LegalImplicationsClient() {
                                 In the Indian judicial system, civil suits are notorious for take 3 to 10 years to reach a conclusion. Banks functional reality is that they handle millions of such cases. The costs of hiring lawyers, paying court fees (which can be 1-3% of the suit value), and attending dozens of hearings over years often exceed the recovery amount for typical personal debt amounts. This "Institutional Stalemate" is your biggest lever in a debt settlement negotiation.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                Most banks would rather have 40% of the money today through a "Settlement" than have a 100% decree from a court 7 years later, which they might still struggle to "Execute" if you don\'t have identifiable assets. Our guide explains how to use this time-value of money to your advantage. We will analyze the "Order 37" procedure and why it is rarely used for loans below 10 Lakhs, as the administrative burden on the bank is too high compared to the potential recovery.
+                                Most banks would rather have 40% of the money today through a "Settlement" than have a 100% decree from a court 7 years later, which they might still struggle to "Execute" if you don’t have identifiable assets. Our guide explains how to use this time-value of money to your advantage. We will analyze the "Order 37" procedure and why it is rarely used for loans below 10 Lakhs, as the administrative burden on the bank is too high compared to the potential recovery.
                             </p>
 
                             <h2 id="rbi-recovery-guidelines" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">The RBI Protective Umbrella: 2025 Statutory Framework</h2>
@@ -335,7 +335,7 @@ export default function LegalImplicationsClient() {
                                 The Reserve Bank of India (RBI) is the ultimate protector of borrower dignity. For many years, the Indian debt recovery landscape was characterized by aggressive agents and harassment. However, the 2025 guidelines on <strong>Fair Practices and Recovery Agents</strong> have completely flipped the script. Banks are now strictly vicariously liable for the actions of their third-party agents. This means if an agent hired by a bank harasses you, the RBI holds the bank CEO accountable. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Under the new framework, lenders must provide "Reasonable Time" for the borrower to respond to any demand. The concept of "Digital Harassment"—sending repeated WhatsApp messages, using automated bots to call every 5 minutes, or tagging borrowers on social media—is now explicitly banned. Lenders found violating these norms face heavy penalties, sometimes exceeding the value of the loan being recovered.
+                                Under the new framework, lenders must provide "Reasonable Time" for the borrower to respond to any demand. The concept of "Digital Harassment"-sending repeated WhatsApp messages, using automated bots to call every 5 minutes, or tagging borrowers on social media-is now explicitly banned. Lenders found violating these norms face heavy penalties, sometimes exceeding the value of the loan being recovered.
                             </p>
                             <div className="bg-slate-900 text-white p-12 rounded-[2.5rem] mb-14 shadow-2xl overflow-hidden relative">
                                 <h3 className="text-2xl font-bold mb-8 text-blue-400 uppercase tracking-widest pl-4 border-l-4 border-blue-600">Your RBI-Protected Rights:</h3>
@@ -354,7 +354,7 @@ export default function LegalImplicationsClient() {
                                     </div>
                                     <div>
                                         <p className="font-bold text-blue-300 text-lg mb-2">Right to a Grievance Redressal Officer</p>
-                                        <p className="text-sm opacity-80 leading-relaxed font-light">Every bank must have a dedicated "Principal Nodal Officer" for recovery complaints. If you file a complaint and don\'t receive a satisfactory response within 30 days, you can escalate straight to the RBI Ombudsman.</p>
+                                        <p className="text-sm opacity-80 leading-relaxed font-light">Every bank must have a dedicated "Principal Nodal Officer" for recovery complaints. If you file a complaint and don’t receive a satisfactory response within 30 days, you can escalate straight to the RBI Ombudsman.</p>
                                     </div>
                                 </div>
                                 <div className="absolute bottom-0 right-0 w-32 h-32 bg-blue-500 opacity-5 rounded-full -mb-16 -mr-16 blur-2xl"></div>
@@ -368,7 +368,7 @@ export default function LegalImplicationsClient() {
                                 When non-payment starts, the volume of noise can be overwhelming. A <strong>Legal Shield</strong> is not a physical barrier; it is a series of formal communications that put the lender on notice. This involves issuing a "Cease and Desist" notice drafted by a legal professional. This notice states that while the debt is acknowledged and you have the intent to settle (demonstrating sincerity), you will not tolerate a breach of your fundamental rights. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                In 2025, companies like CredSettle use <strong>AI-monitored dashoards</strong> to track every communication from the bank. If an agent calls your workplace, we immediately dispatch a "Notice of Violation" to the bank\'s compliance team. This creates the necessary "Friction." Banks prefer easy targets. When they see a borrower who is legally represented and knows every RBI clause, they stop the harassment and move the file to the "Settlement Desk" where professional discussions take place.
+                                In 2025, companies like CredSettle use <strong>AI-monitored dashoards</strong> to track every communication from the bank. If an agent calls your workplace, we immediately dispatch a "Notice of Violation" to the bank’s compliance team. This creates the necessary "Friction." Banks prefer easy targets. When they see a borrower who is legally represented and knows every RBI clause, they stop the harassment and move the file to the "Settlement Desk" where professional discussions take place.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 We will delve into the concept of "Third-Party Representation" and why banks are legally required to stop contacting you directly once you have provided them with the contact details of your legal counsel. This "Buffer" is what allows you to regain your mental health and focus on rebuildiing your life while the experts handle the technicalities of the debt.
@@ -379,7 +379,7 @@ export default function LegalImplicationsClient() {
                                 The biggest "Legal" implication for 99% of borrowers is not jail; it is the <strong>death of their credit history.</strong> When you settle a loan, the bank reports it to the four credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark) with the status "Settled." This is vastly different from "Closed." A "Settled" tag tells future lenders that you did not pay the full amount you borrowed.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                This tag creates a <strong>7-year shadow</strong> on your credit report. For the first 2-3 years, getting any new formal loan—be it a mortgage, a car loan, or even a basic credit card—will be nearly impossible. Some premium employers, especially in the BFSI (Banking, Financial Services, and Insurance) sector or government security roles, perform deep credit checks and might see a "Settlement" as a red flag for background verification.
+                                This tag creates a <strong>7-year shadow</strong> on your credit report. For the first 2-3 years, getting any new formal loan-be it a mortgage, a car loan, or even a basic credit card-will be nearly impossible. Some premium employers, especially in the BFSI (Banking, Financial Services, and Insurance) sector or government security roles, perform deep credit checks and might see a "Settlement" as a red flag for background verification.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 However, this shadow is not permanent. We will provide a 2025 blueprint for "Credit Restoration Post-Settlement." This involves the strategic use of <strong>Secured Credit Cards</strong> (against a Fixed Deposit) and "Inland Bill Discounting" to create a fresh, positive credit history. By following this method, many borrowers see their CIBIL score jump from 550 (post-settlement) to 750 (prime) within 24 to 36 months, effectively shortening the 7-year shadow.
@@ -395,12 +395,12 @@ export default function LegalImplicationsClient() {
 
                             <h2 id="legal-settlement-strategy" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">A Robust Legal Settlement Strategy</h2>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                A winning strategy combines <strong>Legal Friction</strong> with <strong>Financial Sincerity.</strong> By using legal notices to stop harassment and court-monitored mediation (Lok Adalat) to finalize deals, you ensure that the settlement is final, legal, and binding. Never pay a single rupee without a written "Settlement Offer Letter" on the bank\'s official letterhead.
+                                A winning strategy combines <strong>Legal Friction</strong> with <strong>Financial Sincerity.</strong> By using legal notices to stop harassment and court-monitored mediation (Lok Adalat) to finalize deals, you ensure that the settlement is final, legal, and binding. Never pay a single rupee without a written "Settlement Offer Letter" on the bank’s official letterhead.
                             </p>
 
                             <h2 id="consumer-protection" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Leveraging Consumer Protection Councils</h2>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                If the legal implications are used unfairly—such as the bank filing a "cheating" case for a simple default—you can approach the <strong>Consumer Education and Protection Cells (CEPC)</strong> of the RBI. These cells investigate procedural lapses and can penalize the bank, often creating the necessary pressure to secure a very favorable settlement.
+                                If the legal implications are used unfairly-such as the bank filing a "cheating" case for a simple default-you can approach the <strong>Consumer Education and Protection Cells (CEPC)</strong> of the RBI. These cells investigate procedural lapses and can penalize the bank, often creating the necessary pressure to secure a very favorable settlement.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-10 scroll-mt-14">Community Insights</h2>
@@ -424,7 +424,7 @@ export default function LegalImplicationsClient() {
                                     <details key={index} className="group p-6 bg-gray-50 rounded-2xl border border-gray-100 transition-colors hover:bg-white">
                                         <summary className="flex justify-between items-center cursor-pointer list-none font-bold text-gray-900 text-lg group-hover:text-blue-600 transition-colors">
                                             {faq.question}
-                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">▼</span>
+                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">v</span>
                                         </summary>
                                         <p className="mt-6 text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </details>
@@ -441,7 +441,7 @@ export default function LegalImplicationsClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Worried About Legal Notices?</h3>
-                                <p className="text-blue-800 mb-6">Receiving a legal notice can be overwhelming. You don't have to navigate these complex Indian laws alone. Our team of expert negotiators and legal advisors is here to audit your case and ensure your rights are protected under RBI guidelines.</p>
+                                <p className="text-blue-800 mb-6">Receiving a legal notice can be overwhelming. You don’t have to navigate these complex Indian laws alone. Our team of expert negotiators and legal advisors is here to audit your case and ensure your rights are protected under RBI guidelines.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -467,9 +467,9 @@ export default function LegalImplicationsClient() {
                                     Speak to Expert
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1 text-left">
-                                    <p>✓ Personalized Debt Roadmap</p>
-                                    <p>✓ Legally Compliant Paths</p>
-                                    <p>✓ Protect Your Asset Health</p>
+                                    <p>v Personalized Debt Roadmap</p>
+                                    <p>v Legally Compliant Paths</p>
+                                    <p>v Protect Your Asset Health</p>
                                 </div>
                             </div>
 
@@ -484,7 +484,7 @@ export default function LegalImplicationsClient() {
                                         { href: "/rbi-rules-for-recovery-agents", text: "Know Your Rights" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start gap-3">
-                                            <span className="text-blue-600 font-black group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 font-black group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-500 font-semibold group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

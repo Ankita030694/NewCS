@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "CredSettle - India's Trusted Loan Settlement Company",
+  title: "CredSettle - India’s Trusted Loan Settlement Company",
   description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop harassment, get RBI-compliant OTS solutions. Achieve debt freedom legally.",
   keywords: [
     "loan settlement",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     url: "https://www.credsettle.com",
     siteName: "CredSettle",
-    title: "CredSettle - India's Trusted Loan Settlement Company",
+    title: "CredSettle - India’s Trusted Loan Settlement Company",
     description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop harassment, get RBI-compliant OTS solutions.",
     images: [
       {
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CredSettle - India's Trusted Loan Settlement Company",
+    title: "CredSettle - India’s Trusted Loan Settlement Company",
     description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop harassment, get RBI-compliant OTS solutions.",
     images: ["/credsettle-logo.svg"],
   },

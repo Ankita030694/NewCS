@@ -72,14 +72,14 @@ export default function RequiredDocumentsClient() {
     const faqs = [
         {
             question: 'Can I settle a loan if I have lost my original loan agreement?',
-            answer: 'Yes, you can. While having the original is better, the bank\'s account statement and the notices they send you are sufficient proof of the debt\'s existence.'
+            answer: 'Yes, you can. While having the original is better, the bank’s account statement and the notices they send you are sufficient proof of the debt’s existence.'
         },
         {
             question: 'Why does the bank need my PAN card for a settlement?',
             answer: 'The Income Tax Act mandates that banks report any "waiver of liability" above certain limits. They cannot file this report without your PAN.'
         },
         {
-            question: 'What if I don\'t have a "Termination Letter" for my job?',
+            question: 'What if I don’t have a "Termination Letter" for my job?',
             answer: 'You can provide an email from your HR, a resignation acceptance, or simply 6 months of bank statements showing that your salary credits have stopped.'
         },
         {
@@ -91,8 +91,8 @@ export default function RequiredDocumentsClient() {
             answer: 'If you have paid the full OTS amount on time and the bank is delaying the NDC, you can file a formal complaint with the Integrated Ombudsman of the RBI.'
         },
         {
-            question: 'Do I need to provide documents of my spouse\'s income?',
-            answer: 'Only if your spouse was a "Co-Applicant" or a "Guarantor" for the loan. If the loan was in your name only, your spouse\'s income is technically private, though showing a low "Household Income" can sometimes help your case.'
+            question: 'Do I need to provide documents of my spouse’s income?',
+            answer: 'Only if your spouse was a "Co-Applicant" or a "Guarantor" for the loan. If the loan was in your name only, your spouse’s income is technically private, though showing a low "Household Income" can sometimes help your case.'
         },
         {
             question: 'How long should I keep my settlement documents?',
@@ -100,7 +100,7 @@ export default function RequiredDocumentsClient() {
         },
         {
             question: 'Can I settle without a CIBIL report?',
-            answer: 'No major bank will process a settlement without checking your credit profile. Even if you don\'t provide it, they will pull it. Having your own copy just makes you better prepared.'
+            answer: 'No major bank will process a settlement without checking your credit profile. Even if you don’t provide it, they will pull it. Having your own copy just makes you better prepared.'
         },
         {
             question: 'What is a "Hardship Letter" and who should it be addressed to?',
@@ -108,7 +108,7 @@ export default function RequiredDocumentsClient() {
         },
         {
             question: 'Do I need an affidavit for a credit card settlement?',
-            answer: 'Usually not for small amounts. But if your card debt is above 5 or 10 lakhs, the bank\'s policy might require a sworn statement of your assets and liabilities.'
+            answer: 'Usually not for small amounts. But if your card debt is above 5 or 10 lakhs, the bank’s policy might require a sworn statement of your assets and liabilities.'
         }
     ];
 
@@ -117,7 +117,7 @@ export default function RequiredDocumentsClient() {
             name: 'Rajesh Khanna',
             location: 'Delhi',
             stars: 5,
-            comment: 'I didn\'t know where to start until I saw this checklist. The section on medical hardship docs was exactly what I needed to prove my case to SBI. Successfully settled my 12L debt.'
+            comment: 'I didn’t know where to start until I saw this checklist. The section on medical hardship docs was exactly what I needed to prove my case to SBI. Successfully settled my 12L debt.'
         },
         {
             name: 'Sunita Mehra',
@@ -159,7 +159,7 @@ export default function RequiredDocumentsClient() {
                         <span className="text-blue-300">Loan Settlement: 2025 Checklist</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Every document you need for a successful debt compromise—from KYC and Hardship Proof to the No Dues Certificate.
+                        Every document you need for a successful debt compromise-from KYC and Hardship Proof to the No Dues Certificate.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -258,10 +258,10 @@ export default function RequiredDocumentsClient() {
                                 In the high stakes world of debt settlement, information is power. When you approach a bank or a financial institution to ask for a "compromise," you are essentially asking them to admit a loss and let you walk away. To a bank, a loan is an asset; to you, it is a liability. To bridge this gap, you must provide a compelling, evidence backed story of why you cannot pay. This is where documentation becomes your greatest ally.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many borrowers make the mistake of thinking that a "hardship" is something you just tell a bank officer over a cup of tea. In the 2025 Indian banking system, which is increasingly driven by algorithms, credit scores, and automated recovery platforms, a "verbal hardship" doesn\'t exist. If it isn\'t on paper (or a verified digital file), it didn\'t happen.
+                                Many borrowers make the mistake of thinking that a "hardship" is something you just tell a bank officer over a cup of tea. In the 2025 Indian banking system, which is increasingly driven by algorithms, credit scores, and automated recovery platforms, a "verbal hardship" doesn’t exist. If it isn’t on paper (or a verified digital file), it didn’t happen.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Whether you are working with a professional service like CredSettle or attempting a negotiation on your own, having a complete, organized "Settlement Dossier" is the difference between a 70% discount and a flat rejection. This guide will walk you through every single document you need—from the standard KYC to the more complex legal affidavits and medical proofs—ensuring you are prepared for every question the bank might throw at you.
+                                Whether you are working with a professional service like CredSettle or attempting a negotiation on your own, having a complete, organized "Settlement Dossier" is the difference between a 70% discount and a flat rejection. This guide will walk you through every single document you need-from the standard KYC to the more complex legal affidavits and medical proofs-ensuring you are prepared for every question the bank might throw at you.
                             </p>
 
                             <h2 id="kyc-proofs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Category 1: Standard KYC and Identity Proofs</h2>
@@ -289,7 +289,7 @@ export default function RequiredDocumentsClient() {
 
                             <h2 id="hardship-proof" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Category 3: Proof of Genuine Hardship</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Banks don\'t settle because they are "nice." They settle because they realize you physically cannot pay. This requires documented proof.
+                                Banks don’t settle because they are "nice." They settle because they realize you physically cannot pay. This requires documented proof.
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Income Proof:</strong> Salary slips for last 6 months, termination letters, or bank statements showing zero credits. For self-employed individuals, audited P&L statements showing business loss are best.</li>
@@ -333,12 +333,12 @@ export default function RequiredDocumentsClient() {
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>App Screenshots:</strong> Detail screens, repayment dates, and permission screens.</li>
                                 <li><strong>UPI Payment History:</strong> Evidence of all transfers made to the app.</li>
-                                <li><strong>Harassment Screenshots:</strong> Contact with family/friends—vital for RBI Sachet portal reporting.</li>
+                                <li><strong>Harassment Screenshots:</strong> Contact with family/friends-vital for RBI Sachet portal reporting.</li>
                             </ul>
 
                             <h2 id="professional-checklist" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Checklist for Professional Settlement Services</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 italic border-l-4 border-blue-600 pl-4 bg-blue-50 py-3 rounded-r-xl">
-                                Working with experts like CredSettle isn't just about negotiation—it's about "Strategic Document Management." Here is the 3-phase checklist we use to ensure your case is bulletproof.
+                                Working with experts like CredSettle isn’t just about negotiation-it’s about "Strategic Document Management." Here is the 3-phase checklist we use to ensure your case is bulletproof.
                             </p>
                             
                             <div className="space-y-8 my-10">
@@ -347,11 +347,11 @@ export default function RequiredDocumentsClient() {
                                     <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 1: Legal Authorization & Protection</h4>
                                     <ul className="space-y-3 text-gray-700 list-none p-0">
                                         <li className="flex items-start gap-2">
-                                            <span className="text-blue-600 font-bold">✓</span>
-                                            <span className="text-sm leading-relaxed"><strong>Letter of Authority (LOA):</strong> A formal document (sometimes on a Rs. 100 stamp paper) authorizing us to represent you before the bank's Nodal Officer.</span>
+                                            <span className="text-blue-600 font-bold">v</span>
+                                            <span className="text-sm leading-relaxed"><strong>Letter of Authority (LOA):</strong> A formal document (sometimes on a Rs. 100 stamp paper) authorizing us to represent you before the bank’s Nodal Officer.</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-blue-600 font-bold">v</span>
                                             <span className="text-sm leading-relaxed"><strong>Communication Log:</strong> A record of all harassing calls or visits. We use this as leverage to stop illegal recovery practices while we negotiate.</span>
                                         </li>
                                     </ul>
@@ -362,11 +362,11 @@ export default function RequiredDocumentsClient() {
                                     <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 2: Case Analysis & Hardship Building</h4>
                                     <ul className="space-y-3 text-gray-700 list-none p-0">
                                         <li className="flex items-start gap-2">
-                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-blue-600 font-bold">v</span>
                                             <span className="text-sm leading-relaxed"><strong>Financial Reality Questionnaire:</strong> A deep dive into your monthly income vs. essential liabilities. This helps us prove your "Inability to Pay."</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-blue-600 font-bold">v</span>
                                             <span className="text-sm leading-relaxed"><strong>Detailed Hardship Statement:</strong> A professionally drafted letter that connects your life events (medical, job loss) to your financial default.</span>
                                         </li>
                                     </ul>
@@ -377,11 +377,11 @@ export default function RequiredDocumentsClient() {
                                     <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 3: Tactical Negotiation & Closure</h4>
                                     <ul className="space-y-3 text-gray-700 list-none p-0">
                                         <li className="flex items-start gap-2">
-                                            <span className="text-blue-600 font-bold">✓</span>
-                                            <span className="text-sm leading-relaxed"><strong>OTS Letter Audit:</strong> We verify the bank's One-Time Settlement (OTS) offer letter for over 15 parameters to ensure there are no hidden "claw-back" clauses.</span>
+                                            <span className="text-blue-600 font-bold">v</span>
+                                            <span className="text-sm leading-relaxed"><strong>OTS Letter Audit:</strong> We verify the bank’s One-Time Settlement (OTS) offer letter for over 15 parameters to ensure there are no hidden "claw-back" clauses.</span>
                                         </li>
                                         <li className="flex items-start gap-2">
-                                            <span className="text-blue-600 font-bold">✓</span>
+                                            <span className="text-blue-600 font-bold">v</span>
                                             <span className="text-sm leading-relaxed"><strong>NDC Retrieval Protocol:</strong> Once you pay, we ensure the No Dues Certificate is issued and the CIBIL status is updated to "Settled."</span>
                                         </li>
                                     </ul>
@@ -392,7 +392,7 @@ export default function RequiredDocumentsClient() {
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light text-gray-800">
                                 <p className="mb-4"><strong>Mistake 1: Incomplete Statements.</strong> Providing 5 months instead of 6 makes banks assume you are hiding something. Always be 100% complete.</p>
                                 <p className="mb-4"><strong>Mistake 2: Missing the OTS Deadline.</strong> Paying even one day late can void the settlement. Always keep your payment receipts.</p>
-                                <p><strong>Mistake 3: Verbal Promises.</strong> A manager\'s promise over the phone means nothing without a printed, stamped letter from the bank.</p>
+                                <p><strong>Mistake 3: Verbal Promises.</strong> A manager’s promise over the phone means nothing without a printed, stamped letter from the bank.</p>
                             </div>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Successful Settlement Reviews</h2>
@@ -440,7 +440,7 @@ export default function RequiredDocumentsClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Get Your Documentation Vault Ready</h3>
-                                <p className="text-blue-800 mb-6">Don\'t let a missing paper be the reason you stay trapped in debt. Our professional negotiators will help you compile and present the strongest possible case to your lender.</p>
+                                <p className="text-blue-800 mb-6">Don’t let a missing paper be the reason you stay trapped in debt. Our professional negotiators will help you compile and present the strongest possible case to your lender.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -464,9 +464,9 @@ export default function RequiredDocumentsClient() {
                                     Start My Roadmap
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ RBI Compliant Guide</p>
-                                    <p>✓ Bank-Specific Checklist</p>
-                                    <p>✓ Hardship Letter Templates</p>
+                                    <p>v RBI Compliant Guide</p>
+                                    <p>v Bank-Specific Checklist</p>
+                                    <p>v Hardship Letter Templates</p>
                                 </div>
                             </div>
 

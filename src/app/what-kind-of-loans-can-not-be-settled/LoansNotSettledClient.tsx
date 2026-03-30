@@ -305,7 +305,7 @@ export default function LoansNotSettledClient() {
                         <td className="px-6 py-4">No</td>
                       </tr>
                       <tr>
-                        <td className="px-6 py-4">Lender's Recourse</td>
+                        <td className="px-6 py-4">Lender’s Recourse</td>
                         <td className="px-6 py-4">Seize and sell asset (SARFAESI)</td>
                         <td className="px-6 py-4">Civil Suit / Cheque Bounce Case</td>
                       </tr>
@@ -354,7 +354,7 @@ export default function LoansNotSettledClient() {
               <h2 id="secured-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why Secured Loans Are Hard to Settle</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  <strong>Secured loans</strong> are loans where you pledge an asset as collateral. This could be your house, your car, gold jewelry, or a fixed deposit. From a lender's perspective, these are low-risk loans. If you default, they do not need to beg you for payment; they can simply take your asset.
+                  <strong>Secured loans</strong> are loans where you pledge an asset as collateral. This could be your house, your car, gold jewelry, or a fixed deposit. From a lender’s perspective, these are low-risk loans. If you default, they do not need to beg you for payment; they can simply take your asset.
                 </p>
                 <p className="mb-4">
                   Because they have this security blanket, banks have very little incentive to settle a secured loan for a lower amount. Why would they accept ₹5 lakhs on a ₹10 lakh loan if they can sell your pledged car for ₹8 lakhs?
@@ -390,7 +390,7 @@ export default function LoansNotSettledClient() {
               <h2 id="car-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Car Loans and Vehicle Repossession</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  Car loans or auto loans are secured by the vehicle itself. If you default, the lender's recovery agents will seize the vehicle. This is often a swift process. Once repossessed, the car is auctioned.
+                  Car loans or auto loans are secured by the vehicle itself. If you default, the lender’s recovery agents will seize the vehicle. This is often a swift process. Once repossessed, the car is auctioned.
                 </p>
                 <p className="mb-4">
                   <strong>Why settlement is difficult:</strong> Cars are liquid assets. There is a robust used car market. The lender knows they can quickly recover a significant portion of the loan by selling the car.
@@ -454,7 +454,7 @@ export default function LoansNotSettledClient() {
                   <p className="text-red-800">Under Section 128 of the Indian Contract Act, the liability of the surety (guarantor) is co-extensive with that of the principal debtor.</p>
                 </div>
                 <p className="mb-4">
-                  This means if the borrower defaults, the bank can directly sue <strong>you</strong> (the guarantor) without even trying to recover money from the borrower first. Your assets can be attached, and your credit score will suffer just as much as the borrower's.
+                  This means if the borrower defaults, the bank can directly sue <strong>you</strong> (the guarantor) without even trying to recover money from the borrower first. Your assets can be attached, and your credit score will suffer just as much as the borrower’s.
                 </p>
                 <p>
                   <strong>Can a guarantor settle the loan?</strong> Yes. In fact, many settlements happen because the guarantor steps in to pay a lump sum to save their own reputation and credit score. The bank is usually happy to accept a settlement from a guarantor if the primary borrower has disappeared or is insolvent.
@@ -477,7 +477,7 @@ export default function LoansNotSettledClient() {
                   <strong>The Catch:</strong> While theoretically possible now, such settlements are subject to strict scrutiny.
                 </p>
                 <ul className="list-disc pl-6 mb-4 space-y-2">
-                  <li>They require approval from the bank's Board of Directors.</li>
+                  <li>They require approval from the bank’s Board of Directors.</li>
                   <li>There is a mandatory "cooling-off" period (min 12 months) before the borrower can get any new loan.</li>
                   <li>Criminal proceedings against the defaulter can continue despite the settlement.</li>
                 </ul>
@@ -538,7 +538,7 @@ export default function LoansNotSettledClient() {
               <h2 id="lok-adalat" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Role of Lok Adalat in Loan Settlement</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  For many borrowers, the "Lok Adalat" (People's Court) is an excellent venue for settlement. Organized by the National Legal Services Authority (NALSA), these courts are held regularly across India.
+                  For many borrowers, the "Lok Adalat" (People’s Court) is an excellent venue for settlement. Organized by the National Legal Services Authority (NALSA), these courts are held regularly across India.
                 </p>
                 <p className="mb-4">
                   <strong>Why it works:</strong> Banks bring thousands of NPA cases to the Lok Adalat to clear their backlog. They are often willing to offer generous discounts (waivers) on the spot to close the file.
@@ -587,8 +587,8 @@ export default function LoansNotSettledClient() {
                   <strong>Lesson:</strong> Unsecured loans can be settled with significant savings if handled professionally.
                 </p>
 
-                <h3 className="font-bold text-xl text-gray-800 mb-2">Scenario C: The Guarantor's Nightmare</h3>
-                <p className="italic text-gray-600 mb-2">Background: Mr. Singh stood as guarantor for his friend's ₹10 Lakh business loan. The friend fled the country.</p>
+                <h3 className="font-bold text-xl text-gray-800 mb-2">Scenario C: The Guarantor’s Nightmare</h3>
+                <p className="italic text-gray-600 mb-2">Background: Mr. Singh stood as guarantor for his friend’s ₹10 Lakh business loan. The friend fled the country.</p>
                 <p className="mb-4">
                   <strong>Outcome:</strong> The bank sent a notice to Mr. Singh to attach his salary. To save his job and reputation, Mr. Singh had to negotiate with the bank. He eventually settled the loan for ₹6 Lakhs from his own pocket.
                   <br/>
@@ -641,7 +641,7 @@ export default function LoansNotSettledClient() {
                       <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                     </div>
                     <p className="text-sm md:text-base text-gray-700 italic mb-4">
-                      &quot;I thought I was trapped with my car loan. CredSettle explained why it couldn't be settled but helped me restructure it. Their advice on my credit card debt was spot on - we settled that and freed up cash flow.&quot;
+                      &quot;I thought I was trapped with my car loan. CredSettle explained why it couldn’t be settled but helped me restructure it. Their advice on my credit card debt was spot on - we settled that and freed up cash flow.&quot;
                     </p>
                     <p className="font-semibold text-blue-900">- Rajesh V., Delhi</p>
                   </div>
@@ -676,7 +676,7 @@ export default function LoansNotSettledClient() {
               </section>
 
               {/* Debt Consolidation vs Settlement */}
-              <h2 id="consolidation-vs-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Consolidation vs. Loan Settlement: What's the Difference?</h2>
+              <h2 id="consolidation-vs-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Consolidation vs. Loan Settlement: What’s the Difference?</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
                   Many borrowers confuse these two strategies. It is vital to understand which one is right for you.
@@ -697,8 +697,8 @@ export default function LoansNotSettledClient() {
                 </div>
               </div>
 
-              {/* Dos and Don'ts */}
-              <h2 id="dos-and-donts" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Dos and Don'ts of Loan Settlement</h2>
+              {/* Dos and Don’ts */}
+              <h2 id="dos-and-donts" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Dos and Don’ts of Loan Settlement</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
@@ -726,24 +726,24 @@ export default function LoansNotSettledClient() {
                   </div>
                   <div>
                     <h4 className="flex items-center font-bold text-red-700 mb-4 text-xl">
-                      <span className="bg-red-100 p-2 rounded-full mr-2">X</span> Don'ts
+                      <span className="bg-red-100 p-2 rounded-full mr-2">X</span> Don’ts
                     </h4>
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <span className="text-red-500 mr-2 font-bold">X</span>
-                        <span><strong>Don't Share Banking Passwords:</strong> Never give recovery agents access to your accounts.</span>
+                        <span><strong>Don’t Share Banking Passwords:</strong> Never give recovery agents access to your accounts.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-red-500 mr-2 font-bold">X</span>
-                        <span><strong>Don't Issue Post-Dated Cheques:</strong> They can be used to file false 138 cases against you during negotiation.</span>
+                        <span><strong>Don’t Issue Post-Dated Cheques:</strong> They can be used to file false 138 cases against you during negotiation.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-red-500 mr-2 font-bold">X</span>
-                        <span><strong>Don't Agree to "Verbal" Promises:</strong> If it's not on paper, it doesn't exist.</span>
+                        <span><strong>Don’t Agree to "Verbal" Promises:</strong> If it’s not on paper, it doesn’t exist.</span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-red-500 mr-2 font-bold">X</span>
-                        <span><strong>Don't Ignore Legal Notices:</strong> Always reply to a legal notice through a lawyer.</span>
+                        <span><strong>Don’t Ignore Legal Notices:</strong> Always reply to a legal notice through a lawyer.</span>
                       </li>
                     </ul>
                   </div>

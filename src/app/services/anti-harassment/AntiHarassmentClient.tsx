@@ -62,7 +62,7 @@ export default function AntiHarassmentClient() {
     },
     {
       question: 'How can I stop loan recovery agent harassment immediately?',
-      answer: 'You can stop loan recovery agent harassment immediately by engaging CredSettle\'s anti-harassment services. Our legal team sends cease-and-desist notices to lenders and recovery agencies within hours, files RBI complaints for violations, forwards all calls to our legal helpline, and ensures complete legal protection. Harassment typically stops within 24-48 hours of our intervention. We provide 24/7 protection and immediate legal action against any harassment tactics.'
+      answer: 'You can stop loan recovery agent harassment immediately by engaging CredSettle’s anti-harassment services. Our legal team sends cease-and-desist notices to lenders and recovery agencies within hours, files RBI complaints for violations, forwards all calls to our legal helpline, and ensures complete legal protection. Harassment typically stops within 24-48 hours of our intervention. We provide 24/7 protection and immediate legal action against any harassment tactics.'
     },
     {
       question: 'What are my legal rights against loan recovery agent harassment?',
@@ -409,7 +409,7 @@ export default function AntiHarassmentClient() {
       title: 'Immediate Protection',
       description: (
         <>
-          Cease harassment within 24–48 hours through rapid legal intervention, formal notices, and regulator-backed enforcement.
+          Cease harassment within 24-48 hours through rapid legal intervention, formal notices, and regulator-backed enforcement.
         </>
       )
     },
@@ -462,7 +462,7 @@ export default function AntiHarassmentClient() {
       Remember, you do not have to face <strong>harassment</strong> alone. Professional <strong>anti-harassment services</strong> provide immediate protection and ongoing support, ensuring harassment stops completely and permanently. By working with CredSettle, you can stop harassment, protect your rights, and achieve peace of mind.
     </>,
     <>
-      If you are facing <strong>loan recovery agent harassment</strong>, reach out to CredSettle immediately. Our expert legal team will assess your situation, provide immediate protection, and ensure harassment stops within 24–48 hours. Do not suffer in silence-get the protection you deserve today.
+      If you are facing <strong>loan recovery agent harassment</strong>, reach out to CredSettle immediately. Our expert legal team will assess your situation, provide immediate protection, and ensure harassment stops within 24-48 hours. Do not suffer in silence-get the protection you deserve today.
     </>
   ];
 
@@ -475,7 +475,7 @@ export default function AntiHarassmentClient() {
           <strong>Loan recovery agent harassment</strong> refers to illegal and abusive practices used by recovery agents to collect debts. These practices violate <strong>RBI guidelines</strong> and Indian laws, including the use of threatening language, abusive calls, unauthorized visits, workplace harassment, contacting family members, and intimidation tactics. Understanding what constitutes harassment is the first step in protecting yourself.
         </>,
         <>
-          The <strong>Reserve Bank of India (RBI)</strong> has established comprehensive guidelines for debt recovery, including the <strong>Fair Practices Code</strong> that strictly prohibits harassment. These guidelines ensure debt recovery remains legal and ethical, protecting borrowers’ rights and dignity. <strong>Anti-harassment services</strong> help enforce these guidelines and deliver immediate protection.
+          The <strong>Reserve Bank of India (RBI)</strong> has established comprehensive guidelines for debt recovery, including the <strong>Fair Practices Code</strong> that strictly prohibits harassment. These guidelines ensure debt recovery remains legal and ethical, protecting borrowers' rights and dignity. <strong>Anti-harassment services</strong> help enforce these guidelines and deliver immediate protection.
         </>
       ],
       bullets: harassmentForms,
@@ -717,7 +717,7 @@ export default function AntiHarassmentClient() {
                           Immediate Legal Shield from CredSettle
                         </h3>
                         <p className="mt-3 text-sm md:text-base" style={cardTextStyle}>
-                          Engage CredSettle to stop harassment within 24–48 hours using RBI-compliant notices, regulator complaints, and 24/7 legal monitoring that keeps recovery agents away from you.
+                          Engage CredSettle to stop harassment within 24-48 hours using RBI-compliant notices, regulator complaints, and 24/7 legal monitoring that keeps recovery agents away from you.
                         </p>
                       </div>
                     </div>
@@ -933,7 +933,7 @@ export default function AntiHarassmentClient() {
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional anti-harassment protection from CredSettle's expert legal team. Stop harassment immediately with call forwarding, cease-and-desist notices, and RBI complaint filing-protect your rights today.
+                        Get professional anti-harassment protection from CredSettle’s expert legal team. Stop harassment immediately with call forwarding, cease-and-desist notices, and RBI complaint filing-protect your rights today.
                       </p>
                     </div>
 

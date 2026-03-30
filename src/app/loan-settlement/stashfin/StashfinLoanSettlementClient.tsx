@@ -212,7 +212,7 @@ export default function StashfinLoanSettlementClient() {
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Stashfin Loan Settlement Guide 2026</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Stashfin is one of India's popular loan apps, operated primarily by **Akara Capital Advisors Pvt Ltd**. While they offer quick credit, they are also known for aggressive recovery tactics. If you are stuck in a debt trap with Stashfin, you have legal rights.
+                Stashfin is one of India’s popular loan apps, operated primarily by **Akara Capital Advisors Pvt Ltd**. While they offer quick credit, they are also known for aggressive recovery tactics. If you are stuck in a debt trap with Stashfin, you have legal rights.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Many borrowers face harassment, fake legal notices, and threats of police action. This guide will help you understand how to safeguard yourself, stop the harassment, and negotiate a **One Time Settlement (OTS)** to close your loan for a reduced amount.
@@ -368,7 +368,7 @@ export default function StashfinLoanSettlementClient() {
                     </tr>
                      <tr>
                       <td className="py-4 px-6 text-sm font-medium text-gray-900">Address</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">Unit Nos. 1801-1805, 18th Floor, Magnum Global Park 2, Sector 58, Gurgaon – 122011</td>
+                      <td className="py-4 px-6 text-sm text-gray-700">Unit Nos. 1801-1805, 18th Floor, Magnum Global Park 2, Sector 58, Gurgaon - 122011</td>
                     </tr>
                   </tbody>
                 </table>
@@ -400,14 +400,14 @@ export default function StashfinLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Sneha P., Pune</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"Stashfin agents were calling my office colleagues. I was suicidal. CredSettle legal team sent a notice to them, the calls stopped, and I settled for 50%."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Arjun R., Hyderabad</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"Received a fake police warrant on WhatsApp. CredSettle verified it was fake and helped me negotiate a proper closure."</p>
@@ -443,8 +443,8 @@ export default function StashfinLoanSettlementClient() {
                   Start Settlement
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Stop Abuse</p>
-                  <p className="mt-1">✓ Save 50%</p>
+                  <p>v Stop Abuse</p>
+                  <p className="mt-1">v Save 50%</p>
                 </div>
               </div>
 

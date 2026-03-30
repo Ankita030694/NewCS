@@ -107,7 +107,7 @@ export default function CibilImpactClient() {
         },
         {
             question: 'Can recovery agent harassment impact my CIBIL score?',
-            answer: "Harassment itself doesn't affect your score, but the actions that lead to it (defaults and delays) do. However, if you fight harassment legally through firms like CredSettle or AMA Legal Solutions, you can often negotiate better settlement terms that minimize the long-term CIBIL damage."
+            answer: "Harassment itself doesn’t affect your score, but the actions that lead to it (defaults and delays) do. However, if you fight harassment legally through firms like CredSettle or AMA Legal Solutions, you can often negotiate better settlement terms that minimize the long-term CIBIL damage."
         },
         {
             question: 'Does checking my own CIBIL score frequently lower it?',
@@ -120,13 +120,13 @@ export default function CibilImpactClient() {
             name: 'Vikram Malhotra',
             location: 'Mumbai',
             stars: 5,
-            comment: "I settled my loan in 2022 and saw my score drop to 580. Following the advice in this guide about secured cards, I'm back at 710 in 2025. The explanation of the 7-year rule is very honest and helpful."
+            comment: "I settled my loan in 2022 and saw my score drop to 580. Following the advice in this guide about secured cards, I’m back at 710 in 2025. The explanation of the 7-year rule is very honest and helpful."
         },
         {
             name: 'Ananya Iyer',
             location: 'Bangalore',
             stars: 5,
-            comment: "Most sites just say settlement is bad. This guide explains WHY it's bad and how the new RBI 2025 rules change things. I was able to talk to my bank about 'Settlement to Closure' thanks to this."
+            comment: "Most sites just say settlement is bad. This guide explains WHY it’s bad and how the new RBI 2025 rules change things. I was able to talk to my bank about 'Settlement to Closure' thanks to this."
         },
         {
             name: 'Suresh Raina',
@@ -342,13 +342,13 @@ export default function CibilImpactClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">CIBIL Reality in 2025: The New Era of Credit Reporting</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                In the financial year 2025, credit scores in India have become more than just a triple-digit number. They are the digital heartbeat of your financial existence. With the Reserve Bank of India (RBI) implementing aggressive new transparency guidelines and banks integrating sophisticated AI algorithms into their lending platforms, the way loan settlements are reported and perceived has changed forever. The question on every borrower's mind is no longer just "Will my score drop?" but "How deep is the impact, and how fast can I recover?"
+                                In the financial year 2025, credit scores in India have become more than just a triple-digit number. They are the digital heartbeat of your financial existence. With the Reserve Bank of India (RBI) implementing aggressive new transparency guidelines and banks integrating sophisticated AI algorithms into their lending platforms, the way loan settlements are reported and perceived has changed forever. The question on every borrower’s mind is no longer just "Will my score drop?" but "How deep is the impact, and how fast can I recover?"
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 Loan settlement, while offering a necessary exit from crushing debt, comes with a heavy price tag in the form of CIBIL damage. In the past, a settlement might have been a quiet agreement between you and a branch manager. Today, it is an instant digital broadcast to every financial institution in the country. Within 15 days of your settlement payment, your credit report will be updated with the dreaded "Settled" tag. This status informs potential lenders that you did not fulfill your original promise to pay back the full amount, signaling a higher credit risk.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                However, 2025 also brings new opportunities for borrowers. The RBI's new mandate for bi-weekly credit score updates means that your positive actions to rebuild your credit will reflect twice as fast as before. At CredSettle, we have seen thousands of borrowers successfully navigate the "post-settlement landscape." This guide is the culmination of that experience - a 5000+ word deep-dive into the mechanics of credit reporting, the psychological game of rebuilding, and the legal shields you have as a consumer in the modern Indian banking system.
+                                However, 2025 also brings new opportunities for borrowers. The RBI’s new mandate for bi-weekly credit score updates means that your positive actions to rebuild your credit will reflect twice as fast as before. At CredSettle, we have seen thousands of borrowers successfully navigate the "post-settlement landscape." This guide is the culmination of that experience - a 5000+ word deep-dive into the mechanics of credit reporting, the psychological game of rebuilding, and the legal shields you have as a consumer in the modern Indian banking system.
                             </p>
 
                             <h2 id="settled-vs-closed" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Semantic Trap: "Settled" vs "Closed"</h2>
@@ -382,13 +382,13 @@ export default function CibilImpactClient() {
 
                             <h2 id="immediate-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Immediate Impact: Why the Sudden Drop?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                Why does the score drop by 100+ points the moment a settlement is reported? It is a "Systemic Shock." The credit bureau's primary job is to warn other banks. A settlement is the loudest possible warning sign.
+                                Why does the score drop by 100+ points the moment a settlement is reported? It is a "Systemic Shock." The credit bureau’s primary job is to warn other banks. A settlement is the loudest possible warning sign.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                When a bank reports a settlement, it indicates that the risk profile of the borrower has fundamentally changed. You have moved from the "Reliable" bucket to the "High Risk" bucket. The math is simple: if one bank couldn't get their full money back from you, why should the next bank trust you with theirs?
+                                When a bank reports a settlement, it indicates that the risk profile of the borrower has fundamentally changed. You have moved from the "Reliable" bucket to the "High Risk" bucket. The math is simple: if one bank couldn’t get their full money back from you, why should the next bank trust you with theirs?
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                Historically, borrowers were surprised by this drop because they felt that "paying something" should be rewarded. But the score is not a reward for effort; it is a measurement of risk. Paying 50% of what you owe is an admission that you couldn't pay the other 50%. In the eyes of a credit score, you are now 100% more likely to struggle with future payments compared to someone who has never settled.
+                                Historically, borrowers were surprised by this drop because they felt that "paying something" should be rewarded. But the score is not a reward for effort; it is a measurement of risk. Paying 50% of what you owe is an admission that you couldn’t pay the other 50%. In the eyes of a credit score, you are now 100% more likely to struggle with future payments compared to someone who has never settled.
                             </p>
 
                             <h2 id="seven-year-rule" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The 7-Year Wait: Fact vs Fiction</h2>
@@ -408,22 +408,22 @@ export default function CibilImpactClient() {
 
                             <h2 id="lender-perspective" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Understanding the Lender Perspective: Why They Reject</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                To fix your credit, you must understand the "Lender's Checklist." In 2025, when you apply for a loan, your application goes through three stages:
+                                To fix your credit, you must understand the "Lender’s Checklist." In 2025, when you apply for a loan, your application goes through three stages:
                             </p>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Stage 1: Hard Filter.</strong> The system checks your score. If it is below 650, you are out. It then checks for "Settled" or "Written Off" remarks in the last 36 months. If present, instant rejection.</li>
                                     <li><strong>Stage 2: Risk Assessment.</strong> If you pass the filters, the AI looks at your income-to-debt ratio. A past settlement suggests you have low "financial resilience." They might ask for more collateral or a co-signer.</li>
-                                    <li><strong>Stage 3: Credit Manager Review.</strong> In large loans (like Home Loans), a human being finally looks at your report. This is where your "Hardship Proof" from the settlement days comes in handy. If you can explain that the settlement was due to a documented medical emergency and you've been clean since, a human manager has the power to override the system.</li>
+                                    <li><strong>Stage 3: Credit Manager Review.</strong> In large loans (like Home Loans), a human being finally looks at your report. This is where your "Hardship Proof" from the settlement days comes in handy. If you can explain that the settlement was due to a documented medical emergency and you’ve been clean since, a human manager has the power to override the system.</li>
                                 </ul>
                             </div>
 
                             <h2 id="rbi-rules-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">RBI Guidelines 2025: Your New Rights</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                The Reserve Bank of India has been extremely proactive in 2025 to protect borrowers from "Data Tyranny." You must know these rules to ensure your settlement doesn't haunt you more than it should.
+                                The Reserve Bank of India has been extremely proactive in 2025 to protect borrowers from "Data Tyranny." You must know these rules to ensure your settlement doesn’t haunt you more than it should.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                **Bi-Weekly Updates:** All banks must now report data to bureaus every 15 days. This means when you finish your settlement and pay the final installment, you won't have to wait 2 months for the "Default" tag to disappear and be replaced by "Settled."
+                                **Bi-Weekly Updates:** All banks must now report data to bureaus every 15 days. This means when you finish your settlement and pay the final installment, you won’t have to wait 2 months for the "Default" tag to disappear and be replaced by "Settled."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 **Compensation for Errors:** If a bank incorrectly reports your account (for example, reporting it as "Written Off" when you actually "Settled"), they must fix it within 30 days. If they fail, they are liable to pay you **100 rupees per day** as compensation. This has made banks much more careful and responsive to correction requests.
@@ -437,7 +437,7 @@ export default function CibilImpactClient() {
                                 In 2025, most private banks and fintech apps (like KreditBee, Navi, or MoneyTap) use "Black Box" AI algorithms. These bots look at thousands of data points: how many times you order food, your electricity bill patterns, and even your social media metadata.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                When you have a settlement on your report, the AI "de-prioritizes" your profile. It doesn't mean you are banned; it means you are moved to a different "Risk Bucket." To move back to the "Prime Bucket," you need to feed the AI positive data. Using UPI for every transaction, paying your postpaid mobile bills exactly on the due date, and avoiding "Credit Inquiries" are all signals that the AI loves.
+                                When you have a settlement on your report, the AI "de-prioritizes" your profile. It doesn’t mean you are banned; it means you are moved to a different "Risk Bucket." To move back to the "Prime Bucket," you need to feed the AI positive data. Using UPI for every transaction, paying your postpaid mobile bills exactly on the due date, and avoiding "Credit Inquiries" are all signals that the AI loves.
                             </p>
 
                             <h2 id="recovery-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The CIBIL Recovery Map: Step-by-Step</h2>
@@ -465,10 +465,10 @@ export default function CibilImpactClient() {
 
                             <h2 id="secured-products" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Power of Secured Credit Rebuilding</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                Why is secured credit so important? Because it eliminates the "Lender Risk." Since your loan is backed by your own money (FD or Gold), the bank doesn't care about your past settlement. For them, it is a risk-free profit.
+                                Why is secured credit so important? Because it eliminates the "Lender Risk." Since your loan is backed by your own money (FD or Gold), the bank doesn’t care about your past settlement. For them, it is a risk-free profit.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                However, for CIBIL, it is highly significant. The bureau doesn't distinguish heavily between a "Secured Card" and an "Unsecured Card" in its basic calculation. It just sees "Account Number X: Paid On Time." By stacking these positive "Paid On Time" signals, you are essentially burying the old "Settled" status under a mountain of fresh, positive data.
+                                However, for CIBIL, it is highly significant. The bureau doesn’t distinguish heavily between a "Secured Card" and an "Unsecured Card" in its basic calculation. It just sees "Account Number X: Paid On Time." By stacking these positive "Paid On Time" signals, you are essentially burying the old "Settled" status under a mountain of fresh, positive data.
                             </p>
 
                             <h2 id="legal-protections" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Your Legal Shields Against False Reporting</h2>
@@ -476,7 +476,7 @@ export default function CibilImpactClient() {
                                 Often, banks make mistakes. They might settle with you but forget to update CIBIL, leaving the account in "Default" or "NPA" status. This is catastrophic.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                You must pull your free annual report and check every single line. If you find an error, use the **CIBIL Dispute Portal.** If the bank doesn't respond within 30 days, file an appeal with the **RBI Integrated Ombudsman.** In 2025, the Ombudsman system is highly automated and usually rules in favor of the consumer if proper documentation (like your Settlement Sanction Letter) is provided.
+                                You must pull your free annual report and check every single line. If you find an error, use the **CIBIL Dispute Portal.** If the bank doesn’t respond within 30 days, file an appeal with the **RBI Integrated Ombudsman.** In 2025, the Ombudsman system is highly automated and usually rules in favor of the consumer if proper documentation (like your Settlement Sanction Letter) is provided.
                             </p>
 
                             <h2 id="settlement-to-closure" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Moving from "Settled" to "Closed"</h2>
@@ -498,7 +498,7 @@ export default function CibilImpactClient() {
                             <h2 id="common-myths" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Common Credit Myths of 2025</h2>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>Myth 1: "A low score means I can't get any job."</strong> Reality: In 2025, only sensitive financial roles or high-level government positions do rigorous credit checks. Most corporate jobs don't care about your CIBIL score.</li>
+                                    <li><strong>Myth 1: "A low score means I can’t get any job."</strong> Reality: In 2025, only sensitive financial roles or high-level government positions do rigorous credit checks. Most corporate jobs don’t care about your CIBIL score.</li>
                                     <li><strong>Myth 2: "CIBIL score is the only score that matters."</strong> Reality: While CIBIL is dominant, banks also check Experian and Crif High Mark. Sometimes, a bank might use a "Blended Score" from all three.</li>
                                     <li><strong>Myth 3: "A private consultant can delete my settlement history."</strong> Reality: That is 100% false. No one can delete legitimate history. Anyone promising this is a scammer. You can only "bury" negative history with positive data or "upgrade" it to closed status.</li>
                                 </ul>
@@ -521,7 +521,7 @@ export default function CibilImpactClient() {
                                 "How does settling a loan impact my CIBIL score?" The answer is **deeply, but not permanently.** In the 2025 financial ecosystem, a settlement is a significant obstacle, but it is not a dead end. With the right mix of secured credit, bi-weekly score monitoring, and strategic "status upgrades," any borrower can return to the elite 750+ club within 3 years.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                At CredSettle, we don't just help you settle; we help you rebuild. We understand that your credit score is your future, and we are committed to ensuring that one difficult period in your life doesn't define your entire financial destiny. Follow the roadmap, stay disciplined, and watch your digital heartbeat grow stronger every 15 days.
+                                At CredSettle, we don’t just help you settle; we help you rebuild. We understand that your credit score is your future, and we are committed to ensuring that one difficult period in your life doesn’t define your entire financial destiny. Follow the roadmap, stay disciplined, and watch your digital heartbeat grow stronger every 15 days.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -587,9 +587,9 @@ export default function CibilImpactClient() {
                                     Analyze My Impact
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ RBI 2025 Compliant</p>
-                                    <p>✓ AI Filter Analysis</p>
-                                    <p>✓ Recovery Strategy Incl.</p>
+                                    <p>v RBI 2025 Compliant</p>
+                                    <p>v AI Filter Analysis</p>
+                                    <p>v Recovery Strategy Incl.</p>
                                 </div>
                             </div>
 

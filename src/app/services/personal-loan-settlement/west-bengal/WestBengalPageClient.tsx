@@ -561,7 +561,7 @@ export default function WestBengalPageClient() {
                     <strong>Weeks 6-9:</strong> OTS letters reviewed, lump sum or instalment plans finalised and payments executed under supervision.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 9-12:</strong> We collect receipts, NOCs and ensure credit bureaus update accounts to “settled” status while guiding your credit rebuild plan.
+                    <strong>Weeks 9-12:</strong> We collect receipts, NOCs and ensure credit bureaus update accounts to "settled" status while guiding your credit rebuild plan.
                   </p>
                 </div>
               </section>

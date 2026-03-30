@@ -28,7 +28,7 @@ export default function AppComparisonPage() {
     },
     {
       question: "Is my financial data safe on these third-party platforms?",
-      answer: "The leading apps like AMA Connect use bank-grade encryption (SSL/AES-256) to protect your data. They are also moving toward compliance with India's new Digital Personal Data Protection (DPDP) Act and follow RBI's 2025 digital lending guidelines."
+      answer: "The leading apps like AMA Connect use bank-grade encryption (SSL/AES-256) to protect your data. They are also moving toward compliance with India’s new Digital Personal Data Protection (DPDP) Act and follow RBI’s 2025 digital lending guidelines."
     },
     {
       question: "How does the AMA Connect Harassment Shield work?",
@@ -44,11 +44,11 @@ export default function AppComparisonPage() {
     },
     {
       question: "Are these apps officially recognized by the RBI?",
-      answer: "The apps themselves are technology platforms or law firms, not banks. However, they are mandated to comply with the RBI's 'Fair Practice Code' and 'Digital Lending Directions 2025'. Reputable apps work strictly within these regulatory frameworks."
+      answer: "The apps themselves are technology platforms or law firms, not banks. However, they are mandated to comply with the RBI’s 'Fair Practice Code' and 'Digital Lending Directions 2025'. Reputable apps work strictly within these regulatory frameworks."
     },
     {
       question: "Can I talk to a real human negotiator through the app?",
-      answer: "Yes. While the tracking and documentation are digital, the actual negotiation with bank managers is handled by human experts—advocates in the case of AMA Connect or debt counselors in the case of FREED."
+      answer: "Yes. While the tracking and documentation are digital, the actual negotiation with bank managers is handled by human experts-advocates in the case of AMA Connect or debt counselors in the case of FREED."
     },
     {
       question: "What happens if I want to cancel my settlement request in the app?",
@@ -67,7 +67,7 @@ export default function AppComparisonPage() {
       name: "Sneha Kapur",
       location: "Pune",
       rating: 5,
-      text: "I tried the bank's own app first, but it only showed 'Pay Full'. FREED's app helped me save up for a settlement over 8 months. Very transparent process but took time."
+      text: "I tried the bank’s own app first, but it only showed 'Pay Full'. FREED’s app helped me save up for a settlement over 8 months. Very transparent process but took time."
     },
     {
       name: "Rahul Varma",

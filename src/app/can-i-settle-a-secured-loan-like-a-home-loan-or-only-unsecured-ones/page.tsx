@@ -36,11 +36,11 @@ export default function SecuredVsUnsecuredPage() {
     },
     {
       question: "Will a settlement remove the NPA status from my records?",
-      answer: "The account will be closed in the bank's books, but in your CIBIL report, it will be marked as Settled. This is better than an Active Default but still impacts your ability to get future loans for several years."
+      answer: "The account will be closed in the bank’s books, but in your CIBIL report, it will be marked as Settled. This is better than an Active Default but still impacts your ability to get future loans for several years."
     },
     {
       question: "What happens if the auction fails to find a buyer?",
-      answer: "If the auction fails (no bidders), the bank's bargaining power decreases. They might then be more willing to accept a lower settlement offer from the borrower because they don't want to hold onto a Dead Asset."
+      answer: "If the auction fails (no bidders), the bank’s bargaining power decreases. They might then be more willing to accept a lower settlement offer from the borrower because they don’t want to hold onto a Dead Asset."
     },
     {
       question: "Can I use specialized apps for a secured loan settlement?",
@@ -73,7 +73,7 @@ export default function SecuredVsUnsecuredPage() {
       name: "Suresh Menon",
       location: "Bangalore",
       rating: 4,
-      text: "Very knowledgeable about the OTS policies of PSUs. They identified a technical error in the bank's valuation which gave us the upper hand in the settlement negotiation."
+      text: "Very knowledgeable about the OTS policies of PSUs. They identified a technical error in the bank’s valuation which gave us the upper hand in the settlement negotiation."
     },
     {
       name: "Meera Deshmukh",

@@ -84,7 +84,7 @@ export default function CheckGenuinenessPage() {
             name: "Rahul J.",
             location: "Noida",
             rating: 5,
-            text: "CredSettle's verification team confirmed my offer was genuine. It gave me the peace of mind to make the payment."
+            text: "CredSettle’s verification team confirmed my offer was genuine. It gave me the peace of mind to make the payment."
         },
         {
             name: "Meera K.",

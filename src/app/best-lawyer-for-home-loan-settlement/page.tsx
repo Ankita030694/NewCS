@@ -28,7 +28,7 @@ export default function BestLawyerHomeLoanPage() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Best Lawyer for Home Loan Settlement in India: A Complete 2025 Legal Guide",
-        "description": "Expert insights into finding the best legal representation for home loan settlement, understanding your rights under the SARFAESI Act, and navigating RBI's 2025 debt relief framework.",
+        "description": "Expert insights into finding the best legal representation for home loan settlement, understanding your rights under the SARFAESI Act, and navigating RBI’s 2025 debt relief framework.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Organization",

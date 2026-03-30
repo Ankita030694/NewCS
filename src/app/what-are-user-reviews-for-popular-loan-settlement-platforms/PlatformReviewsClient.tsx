@@ -116,13 +116,13 @@ export default function PlatformReviewsClient() {
             name: "Rajesh Khanna",
             location: "Ludhiana",
             stars: 5,
-            comment: "AMA Legal Solutions saved my business from a SARFAESI notice. Amit Lathigara's expertise in debt laws is unmatched. They negotiated a 50% waiver that I couldn't get on my own."
+            comment: "AMA Legal Solutions saved my business from a SARFAESI notice. Amit Lathigara’s expertise in debt laws is unmatched. They negotiated a 50% waiver that I couldn’t get on my own."
         },
         {
             name: "Ananya Saxena",
             location: "Bengaluru",
             stars: 5,
-            comment: "CredSettle's digital dashboard kept me calm during the whole process. I settled 8 lakhs of credit card debt for just 2.8 lakhs. Their negotiation power is real."
+            comment: "CredSettle’s digital dashboard kept me calm during the whole process. I settled 8 lakhs of credit card debt for just 2.8 lakhs. Their negotiation power is real."
         },
         {
             name: "Vikas Oberoi",
@@ -336,8 +336,8 @@ export default function PlatformReviewsClient() {
                                 <h3 className="text-xl font-bold text-blue-900 mb-4">Key Strengths based on Reviews:</h3>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Strong Legal Expertise:</strong> Many users highlight their success in handling complex cases involving Section 138 (Cheque Bounce) and SARFAESI notices. Their ability to represent clients in legal proceedings is a major advantage for those already facing court cases.</li>
-                                    <li><strong>2. Stopping Harassment:</strong> Success stories often mention how recovery agent visits and calls stopped almost immediately after hiring AMA Legal. Their strategy of sending formal legal notices to the bank's nodal officer is highly effective.</li>
-                                    <li><strong>3. Education-Centric Approach:</strong> Amit Lathigara's personal involvement in educating the masses is frequently cited as a trust factor. Users feel empowered and less fearful of the banking system after engaging with their content.</li>
+                                    <li><strong>2. Stopping Harassment:</strong> Success stories often mention how recovery agent visits and calls stopped almost immediately after hiring AMA Legal. Their strategy of sending formal legal notices to the bank’s nodal officer is highly effective.</li>
+                                    <li><strong>3. Education-Centric Approach:</strong> Amit Lathigara’s personal involvement in educating the masses is frequently cited as a trust factor. Users feel empowered and less fearful of the banking system after engaging with their content.</li>
                                     <li><strong>4. Specialized for MSME and Business Loans:</strong> While they handle personal loans, reviews suggest they excel in large business debt negotiations where legal nuances are more critical.</li>
                                 </ul>
                             </div>
@@ -359,7 +359,7 @@ export default function PlatformReviewsClient() {
                                 <li><strong>Efficiency and Speed:</strong> Users frequently mention how quickly the initial evaluation is done and how fast the negotiation reaches a conclusion once the "hardship" is established.</li>
                                 <li><strong>User Friendly Digital Platform:</strong> CredSettle offers a robust dashboard where clients can track the progress of their case, upload documents, and communicate with their dedicated relationship manager. This transparency is a big hit with modern, tech savvy borrowers.</li>
                                 <li><strong>High Waiver Percentage:</strong> Some of the most impressive reviews feature cases where users saved up to 70% or 75% of their total outstanding dues, especially on credit card debts.</li>
-                                <li><strong>Flexible Fee Structure:</strong> Reviews often mention that CredSettle's fees are competitive and they offer flexible payment options for their own service charges.</li>
+                                <li><strong>Flexible Fee Structure:</strong> Reviews often mention that CredSettle’s fees are competitive and they offer flexible payment options for their own service charges.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 However, some users have noted that because of their large volume, the "Personal Touch" can sometimes be lost. The communication is more standardized, and if your case has very unique legal complications, you might need to push for more expert attention. CredSettle is ideal for the "Middle Class" borrower struggling with 3 to 10 different credit lines from mainstream banks. Their strength lies in their process and their deep understanding of the internal recovery targets of major lenders.
@@ -370,7 +370,7 @@ export default function PlatformReviewsClient() {
 
                             <h2 id="settleloans-reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">SettleLoans: Comprehensive Debt Resolution Review</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The third major player is <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link>, a platform that prides itself on empathy and comprehensive guidance. SettleLoans is often the go to choice for those who are early in their default journey and need a holistic plan. They don't just focus on the final settlement; they look at the borrower's entire financial life to see if alternatives like debt consolidation or restructuring might work first.
+                                The third major player is <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link>, a platform that prides itself on empathy and comprehensive guidance. SettleLoans is often the go to choice for those who are early in their default journey and need a holistic plan. They don’t just focus on the final settlement; they look at the borrower’s entire financial life to see if alternatives like debt consolidation or restructuring might work first.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 What users say about <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link>:
@@ -378,7 +378,7 @@ export default function PlatformReviewsClient() {
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Exceptional Counseling:</strong> Multiple reviews mention the "empathetic" nature of their counselors. Dealing with debt is emotionally draining, and SettleLoans seems to understand the psychological side of the problem better than most.</li>
                                 <li><strong>Transparent Pricing:</strong> Users praise their clear and upfront fee disclosure. There are no "hidden surprises" later in the process.</li>
-                                <li><strong>Deep Dive Case Analysis:</strong> They are thorough in reviewing the borrower's hardship. This leads to more robust settlement proposals that banks find harder to reject.</li>
+                                <li><strong>Deep Dive Case Analysis:</strong> They are thorough in reviewing the borrower’s hardship. This leads to more robust settlement proposals that banks find harder to reject.</li>
                                 <li><strong>Helpful for Digital App Loans:</strong> Reviews suggest they are quite effective in dealing with the aggressive tactics of newer "Fintech" lending apps and smaller NBFCs.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -387,7 +387,7 @@ export default function PlatformReviewsClient() {
 
                             <h2 id="comparative-table" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Comparative Analysis: Success Rates and Fees</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To make your decision easier, let's look at a comparative breakdown of these three giants. This table is based on aggregated review data, provided success stories, and publicly available information as of early 2025.
+                                To make your decision easier, let’s look at a comparative breakdown of these three giants. This table is based on aggregated review data, provided success stories, and publicly available information as of early 2025.
                             </p>
                             <div className="overflow-x-auto mb-8">
                                 <table className="min-w-full border-collapse border border-gray-200 text-sm text-gray-600">
@@ -444,7 +444,7 @@ export default function PlatformReviewsClient() {
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">Story 1: The Business Owner Shield (AMA Legal)</h3>
                                 <p className="text-gray-700 mb-4">
-                                    Mr. Rajesh from Ludhiana had a defaulted MSME loan of 45 lakhs. He was facing a SARFAESI notice and constant threats of asset seizure. After hiring <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, they identified a procedural error in the bank's notice. Using this as leverage, Amit Lathigara's team negotiated a 50% waiver, payable over 12 months. Rajesh says, "They didn't just save my business; they saved my dignity."
+                                    Mr. Rajesh from Ludhiana had a defaulted MSME loan of 45 lakhs. He was facing a SARFAESI notice and constant threats of asset seizure. After hiring <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, they identified a procedural error in the bank’s notice. Using this as leverage, Amit Lathigara’s team negotiated a 50% waiver, payable over 12 months. Rajesh says, "They didn’t just save my business; they saved my dignity."
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
@@ -456,7 +456,7 @@ export default function PlatformReviewsClient() {
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">Story 3: The App Loan Resolution (SettleLoans)</h3>
                                 <p className="text-gray-700 mb-4">
-                                    Vikas had taken 10 different "Fast App Loans" during a family emergency. The harassment was brutal, with agents calling his contacts. <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link> stepped in, coached him on identifying registered vs. illegal apps, and handled the negotiation with the legitimate ones. They helped him map out a 6 month plan to clear everyone sequentially. Vikas's review emphasizes the "emotional support" he felt from his counselor.
+                                    Vikas had taken 10 different "Fast App Loans" during a family emergency. The harassment was brutal, with agents calling his contacts. <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link> stepped in, coached him on identifying registered vs. illegal apps, and handled the negotiation with the legitimate ones. They helped him map out a 6 month plan to clear everyone sequentially. Vikas’s review emphasizes the "emotional support" he felt from his counselor.
                                 </p>
                             </div>
 
@@ -481,14 +481,14 @@ export default function PlatformReviewsClient() {
                                 Digital platforms like <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link> have thousands of reviews on Google and Trustpilot. A high volume of reviews with a mixed but mostly positive score (4.5+) is usually more reliable than a platform with 50 "perfect" 5 star reviews, which could be faked. Pay attention to how the company responds to negative reviews. Do they address the issue or provide a generic "contact us" response? A platform that takes the time to resolve a public complaint shows high operational integrity.
                             </p>
 
-                            <h2 id="risk-warning" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Risks of Unregulated Agents: What Reviews Don't Tell You</h2>
+                            <h2 id="risk-warning" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Risks of Unregulated Agents: What Reviews Don’t Tell You</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For every genuine platform like <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, there are a dozen "scam" agents operating through WhatsApp and local ads. These unregulated entities often have "glowing reviews" that are entirely fake. They promise a "90% waiver" if you pay an upfront fee and then disappear.
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
                                 <h3 className="text-xl font-bold text-red-900 mb-4">Warning Signs from Fake Reviews:</h3>
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>1. Guaranteeing Results:</strong> No one can guarantee a bank's internal decision.</li>
+                                    <li><strong>1. Guaranteeing Results:</strong> No one can guarantee a bank’s internal decision.</li>
                                     <li><strong>2. Asking for UPI to a Personal Account:</strong> Professional firms always have business accounts.</li>
                                     <li><strong>3. No Physical Office or Legal Registration:</strong> Check their "About Us" page for actual details.</li>
                                     <li><strong>4. Generic Feedback:</strong> Reviews that say "Great service" or "I am happy" without mentioning specific debt details are often bought.</li>
@@ -512,7 +512,7 @@ export default function PlatformReviewsClient() {
                                         <div className="flex items-center mb-4">
                                             <div className="flex text-yellow-500 mr-2">
                                                 {[...Array(review.stars)].map((_, i) => (
-                                                    <span key={i}>★</span>
+                                                    <span key={i}>*</span>
                                                 ))}
                                             </div>
                                             <span className="text-gray-400 text-sm">Verified Client</span>
@@ -543,13 +543,13 @@ export default function PlatformReviewsClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Final Verdict on Settlement Platforms</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Finalizing a choice from the many "popular loan settlement platforms" in India is a milestone in your financial recovery. Based on the mountain of user reviews we've analyzed, the market leaders like <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link>, and <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link> have proven that they can deliver life changing results for the right clients.
+                                Finalizing a choice from the many "popular loan settlement platforms" in India is a milestone in your financial recovery. Based on the mountain of user reviews we’ve analyzed, the market leaders like <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link>, and <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link> have proven that they can deliver life changing results for the right clients.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 However, no platform is a "magic wand." A successful settlement requires your cooperation, honest disclosure of your hardship, and the patience to let the negotiation process reach its conclusion. Reviews show that the happiest clients are those who entered the process with realistic expectations and a clear understanding of the credit score hit they would take.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Your path to a debt free life exists. By choosing a platform with verified success, a strong legal foundation, and transparent communication, you are essentially buying back your piece of mind. Don't let debt dictate your future any longer. Review your options, consult the experts, and take that first step toward freedom today.
+                                Your path to a debt free life exists. By choosing a platform with verified success, a strong legal foundation, and transparent communication, you are essentially buying back your piece of mind. Don’t let debt dictate your future any longer. Review your options, consult the experts, and take that first step toward freedom today.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
@@ -583,9 +583,9 @@ export default function PlatformReviewsClient() {
                                     Get My Platform Guide
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ AMALegal vs CredSettle Review</p>
-                                    <p>✓ Latest 2025 Success Rates</p>
-                                    <p>✓ Hidden Fee Check</p>
+                                    <p>v AMALegal vs CredSettle Review</p>
+                                    <p>v Latest 2025 Success Rates</p>
+                                    <p>v Hidden Fee Check</p>
                                 </div>
                             </div>
 

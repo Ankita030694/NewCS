@@ -252,7 +252,7 @@ export default function ProjectFinanceBuilderClient() {
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Introduction: The Complexity of Project Finance in India</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The real estate and infrastructure sectors are the backbones of India's economic growth. However, they are also sectors characterized by immense risk, long gestation periods, and complex financial structures. Project finance for builders is not just a simple loan business; it is a multi-layered arrangement involving land acquisition costs, construction finance, mezzanine debt, and structured equity. When a developer faces a cash flow mismatch, the fallout is not limited to a single balance sheet: it affects hundreds of homebuyers, dozens of vendors, and the stability of the lending institution itself.
+                                The real estate and infrastructure sectors are the backbones of India’s economic growth. However, they are also sectors characterized by immense risk, long gestation periods, and complex financial structures. Project finance for builders is not just a simple loan business; it is a multi-layered arrangement involving land acquisition costs, construction finance, mezzanine debt, and structured equity. When a developer faces a cash flow mismatch, the fallout is not limited to a single balance sheet: it affects hundreds of homebuyers, dozens of vendors, and the stability of the lending institution itself.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, the legal landscape for builder loan recovery has shifted from a one-sided creditor-led process to a more balanced, albeit more complex, ecosystem. The conflict between the SARFAESI Act, which favors banks, and RERA, which prioritizes homebuyers, has created a legal situation that only a specialized Project Finance Builder Loan Recovery Matter Lawyer can navigate. Understanding your rights as a developer and the strategic leverage points in your construction finance agreement is essential for survival in a volatile market.
@@ -361,7 +361,7 @@ export default function ProjectFinanceBuilderClient() {
                                 <li><strong>Cash Flow Cascades:</strong> Knowing how the waterfalls in your escrow account should legally function.</li>
                                 <li><strong>Construction Milestones:</strong> Linking legal repayment obligations to physical construction progress.</li>
                                 <li><strong>Lender Liability:</strong> Arguing that the bank failed to disburse funds on time, leading to the project delay and subsequent default.</li>
-                                <li><strong>Valuation Disputes:</strong> Challenging the bank's distress valuation with a realistic Net Present Value based on market demand.</li>
+                                <li><strong>Valuation Disputes:</strong> Challenging the bank’s distress valuation with a realistic Net Present Value based on market demand.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, the most successful lawyers in this space are those who act as legal architects, building bridges between distressed developers and stressed banking departments. They do not just file cases; they design exits.
@@ -432,7 +432,7 @@ export default function ProjectFinanceBuilderClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Secure Your Project Future Today</h3>
-                                <p className="text-blue-800 mb-6">Don't let aggressive recovery actions derail your construction dreams. Our expert legal team understands the intricacies of project finance, RERA, and SARFAESI. We are here to defend your interests and find the most sustainable path for your project.</p>
+                                <p className="text-blue-800 mb-6">Don’t let aggressive recovery actions derail your construction dreams. Our expert legal team understands the intricacies of project finance, RERA, and SARFAESI. We are here to defend your interests and find the most sustainable path for your project.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -461,9 +461,9 @@ export default function ProjectFinanceBuilderClient() {
                                     Contact DRT Experts
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ SARFAESI Notice Defence</p>
-                                    <p>✓ Project Restructuring Plans</p>
-                                    <p>✓ NCLT/IBC Representation</p>
+                                    <p>v SARFAESI Notice Defence</p>
+                                    <p>v Project Restructuring Plans</p>
+                                    <p>v NCLT/IBC Representation</p>
                                 </div>
                             </div>
 

@@ -131,14 +131,14 @@ export default function FreedAlternativePageClient() {
                         <span className="px-3 py-1 bg-red-100 text-red-600 rounded-full text-xs"> High Stress</span>
                     </div>
                     <div className="flex items-center justify-center">
-                        <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">→</div>
+                        <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">&rarr;</div>
                     </div>
                      <div className="flex items-center justify-between p-4 bg-[#007AFF] rounded-xl shadow-lg transform scale-105">
                         <span className="font-bold text-white">Freed from Debt</span>
                         <span className="px-3 py-1 bg-white/20 text-white rounded-full text-xs"> Legal Relief</span>
                     </div>
                      <p className="text-center text-sm text-gray-500 mt-4">
-                        Don't just manage debt. Get <span className="text-[#007AFF] font-bold">Freed</span> from it.
+                        Don’t just manage debt. Get <span className="text-[#007AFF] font-bold">Freed</span> from it.
                     </p>
                 </div>
             </div>
@@ -167,7 +167,7 @@ export default function FreedAlternativePageClient() {
                             However, there is a proven path. To be truly <strong>freed from loans</strong>, you need a strategy that involves stopping the harassment, negotiating legally with the bank, and settling for an affordable amount. This guide explains how you can achieve this freedom safely, separating marketing fluff from legal reality.
                         </p>
                         <p>
-                            Whether you are looking for generic solutions or specific advice on <strong>how to stop recovery agents</strong>, the answer lies in professional legal representation. You don't need a "debt counselor" who judges you; you need a lawyer who defends you.
+                            Whether you are looking for generic solutions or specific advice on <strong>how to stop recovery agents</strong>, the answer lies in professional legal representation. You don’t need a "debt counselor" who judges you; you need a lawyer who defends you.
                         </p>
                     </div>
                 </section>
@@ -263,7 +263,7 @@ export default function FreedAlternativePageClient() {
                                 <div className="absolute -left-[41px] bg-[#007AFF] h-5 w-5 rounded-full border-4 border-white"></div>
                                 <h3 className="text-xl font-bold text-[#0C2756]">Step 2: The Hardship Filing (Month 2-3)</h3>
                                 <p className="mt-2">
-                                    We collate your financial data to prove "Inability to Pay" vs "Willful Default". This distinction is critical. We draft a detailed hardship petition and submit it to the bank's central settlement unit, bypassing the local recovery agents who have no authority.
+                                    We collate your financial data to prove "Inability to Pay" vs "Willful Default". This distinction is critical. We draft a detailed hardship petition and submit it to the bank’s central settlement unit, bypassing the local recovery agents who have no authority.
                                 </p>
                             </div>
                              <div className="relative">
@@ -346,13 +346,13 @@ export default function FreedAlternativePageClient() {
                 <section id="bank-specific-processes" className="mb-12 scroll-mt-24">
                     <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Bank Specific Guides</h2>
                     <div className="space-y-8 text-gray-700 font-poppins text-base leading-7">
-                        <p>To be <strong>freed</strong> from specific lenders, you need tailored strategies. Generic emails don't work.</p>
+                        <p>To be <strong>freed</strong> from specific lenders, you need tailored strategies. Generic emails don’t work.</p>
                         
                         <div className="border border-gray-200 rounded-xl p-6 hover:shadow-md transition-shadow">
                             <h3 className="text-xl font-bold text-[#0C2756] mb-2">HDFC Bank Personal Loan Settlement</h3>
                             <p className="mb-4">
                                 HDFC is aggressive. They often file arbitration cases in Chennai or Delhi very quickly.
-                                <br/><strong>Our Strategy:</strong> We immediately challenge the arbitration venue if it's far from your residence (as per recent court rulings). We present specific medical or job-loss evidence to their "Central Settlement Team" in Mumbai, bypassing local collection agencies.
+                                <br/><strong>Our Strategy:</strong> We immediately challenge the arbitration venue if it’s far from your residence (as per recent court rulings). We present specific medical or job-loss evidence to their "Central Settlement Team" in Mumbai, bypassing local collection agencies.
                             </p>
                         </div>
 
@@ -390,7 +390,7 @@ export default function FreedAlternativePageClient() {
                             A common fear prevents people from getting <strong>freed</strong>: "Will I ever get a loan again?"
                         </p>
                         <p className="mb-4">
-                           Let's look at the reality. If you don't settle, you are a "Defaulter" / "Written Off". Your score drops to 500-600. You won't get a loan anyway, and the interest keeps growing.
+                           Let’s look at the reality. If you don’t settle, you are a "Defaulter" / "Written Off". Your score drops to 500-600. You won’t get a loan anyway, and the interest keeps growing.
                         </p>
                         <p className="mb-4">
                            If you settle, your status becomes "Settled". Your score drops initially. BUT, the debt stops growing. The harassment stops. You are <strong>freed</strong>.
@@ -415,14 +415,14 @@ export default function FreedAlternativePageClient() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="p-6 border border-gray-100 rounded-xl shadow-sm bg-white">
                             <div className="flex items-center gap-2 mb-3">
-                                <div className="text-yellow-400">★★★★★</div>
+                                <div className="text-yellow-400">*****</div>
                                 <span className="text-sm text-gray-500 font-medium">Rajesh K., IT Professional, Delhi</span>
                             </div>
                             <p className="text-gray-700 italic mb-4">"I had 5 credit cards and a personal loan. Total debt ₹18 Lakhs. My salary stopped due to layoffs. I was suicidal due to calls. CredSettle legal team stepped in. They consolidated communication. It took 8 months, but they settled it all for ₹6.5 Lakhs. I finally sleep at night. I am truly freed."</p>
                         </div>
                          <div className="p-6 border border-gray-100 rounded-xl shadow-sm bg-white">
                             <div className="flex items-center gap-2 mb-3">
-                                <div className="text-yellow-400">★★★★★</div>
+                                <div className="text-yellow-400">*****</div>
                                 <span className="text-sm text-gray-500 font-medium">Anita S., Teacher, Mumbai</span>
                             </div>
                             <p className="text-gray-700 italic mb-4">"I searched for 'how to get freed from debt' and found many apps. But CredSettle was different. They assigned a real lawyer. When Bajaj sent an arbitration notice, the lawyer replied legally. Bajaj immediately offered a settlement. Best decision of my life."</p>

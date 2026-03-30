@@ -100,7 +100,7 @@ export default function RajasthanLoanSettlementClient() {
     },
     {
       question: "What is the role of Lok Adalat in Rajasthan?",
-      answer: "The Rajasthan State Legal Services Authority (RSLSA) organizes Lok Adalats regularly. These act as 'People's Courts' where disputes are settled amicably. An award passed here is final and binding, meaning the bank cannot file a future case against you for the same loan."
+      answer: "The Rajasthan State Legal Services Authority (RSLSA) organizes Lok Adalats regularly. These act as 'People’s Courts' where disputes are settled amicably. An award passed here is final and binding, meaning the bank cannot file a future case against you for the same loan."
     },
     {
       question: "Does settlement affect my CIBIL score?",
@@ -116,11 +116,11 @@ export default function RajasthanLoanSettlementClient() {
     },
     {
       question: "Do I need to visit the bank branch personally?",
-      answer: "No. CredSettle handles the entire negotiation process with the bank's Regional or Zonal offices (usually in Jaipur or Delhi). You do not need to face the branch manager or recovery agents personally."
+      answer: "No. CredSettle handles the entire negotiation process with the bank’s Regional or Zonal offices (usually in Jaipur or Delhi). You do not need to face the branch manager or recovery agents personally."
     },
     {
       question: "How long does the settlement process take in Rajasthan?",
-      answer: "The process generally takes between 45 to 90 days. It depends on the bank's internal approval speed and the complexity of the case."
+      answer: "The process generally takes between 45 to 90 days. It depends on the bank’s internal approval speed and the complexity of the case."
     }
   ];
 
@@ -214,10 +214,10 @@ export default function RajasthanLoanSettlementClient() {
               
               <h2 id="rajasthan-debt-landscape" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Settlement in Rajasthan: A Legal Path to Financial Freedom</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Rajasthan, the land of heritage and enterprise, is a dynamic economic hub. From the gemstone and jewelry businesses of Jaipur to the coaching centers of Kota, the textile units of Bhilwara, and the tourism industry spanning Udaipur and Jodhpur, the state's economy is vibrant but credit-dependent. Business loans fuel entrepreneurship, while personal loans and credit cards support modern lifestyles.
+                Rajasthan, the land of heritage and enterprise, is a dynamic economic hub. From the gemstone and jewelry businesses of Jaipur to the coaching centers of Kota, the textile units of Bhilwara, and the tourism industry spanning Udaipur and Jodhpur, the state’s economy is vibrant but credit-dependent. Business loans fuel entrepreneurship, while personal loans and credit cards support modern lifestyles.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                However, economic volatility—like a dip in tourism, fluctuations in export demand, or personal emergencies—can disrupt cash flows. In Rajasthan, where "Izzat" (honor) is paramount, the burden of debt often carries a heavy social stigma. Borrowers often endure silent suffering rather than admitting they need help, fearing damage to their reputation in tight-knit communities.
+                However, economic volatility-like a dip in tourism, fluctuations in export demand, or personal emergencies-can disrupt cash flows. In Rajasthan, where "Izzat" (honor) is paramount, the burden of debt often carries a heavy social stigma. Borrowers often endure silent suffering rather than admitting they need help, fearing damage to their reputation in tight-knit communities.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
                 It is vital to understand that <strong>Loan Settlement</strong> is a legal and strategic financial option, not a personal failure. Major banks operating in Rajasthan, including local leaders like Au Small Finance Bank (headquartered in Jaipur), SBI, HDFC, and ICICI, have clear policies for settling Non-Performing Assets (NPAs). They prefer a pragmatic settlement over prolonged legal battles. CredSettle acts as your confidential partner, helping you navigate the legal landscape to exit debt with dignity.
@@ -290,7 +290,7 @@ export default function RajasthanLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Zonal Offices</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We negotiate directly with the bank's Zonal or Regional offices (often in Jaipur C-Scheme or Tonk Road). Our goal is to waive 100% of penal interest and legal charges, and secure a substantial reduction on the principal amount.
+                      We negotiate directly with the bank’s Zonal or Regional offices (often in Jaipur C-Scheme or Tonk Road). Our goal is to waive 100% of penal interest and legal charges, and secure a substantial reduction on the principal amount.
                     </p>
                   </div>
                 </div>
@@ -300,7 +300,7 @@ export default function RajasthanLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Formal Settlement & Closure</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We secure a formal Settlement Letter on the bank's official letterhead. You make the payment directly to your loan account. We then ensure the bank issues a "No Dues Certificate" (NDC), formally closing the loan.
+                      We secure a formal Settlement Letter on the bank’s official letterhead. You make the payment directly to your loan account. We then ensure the bank issues a "No Dues Certificate" (NDC), formally closing the loan.
                     </p>
                   </div>
                 </div>
@@ -308,7 +308,7 @@ export default function RajasthanLoanSettlementClient() {
 
               <h2 id="lok-adalat-rajasthan" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Lok Adalat: The Best Route in Rajasthan</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Lok Adalat</strong> (People's Court) is a highly effective forum for resolving banking disputes in Rajasthan. Organized by the <strong>Rajasthan State Legal Services Authority (RSLSA)</strong>, it offers a secure path to settlement.
+                The <strong>Lok Adalat</strong> (People’s Court) is a highly effective forum for resolving banking disputes in Rajasthan. Organized by the <strong>Rajasthan State Legal Services Authority (RSLSA)</strong>, it offers a secure path to settlement.
               </p>
               
               <h3 className="text-xl font-bold text-gray-800 mb-4">Why Choose Lok Adalat?</h3>
@@ -357,12 +357,12 @@ export default function RajasthanLoanSettlementClient() {
                 <li><strong>DRT Jaipur:</strong> Situated in the 22 Godam area, this tribunal handles recovery cases for the entire state. It deals with high-value cases involving banks and financial institutions.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Receiving a DRT summons is serious. It can lead to asset attachment if ignored. However, the DRT is also a forum for settlement. We provide legal representation in DRT Jaipur to defend your case and negotiate a compromise proposal directly with the bank's legal team.
+                Receiving a DRT summons is serious. It can lead to asset attachment if ignored. However, the DRT is also a forum for settlement. We provide legal representation in DRT Jaipur to defend your case and negotiate a compromise proposal directly with the bank’s legal team.
               </p>
 
               <h2 id="tourism-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Special Focus: Tourism & Business Loans</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Rajasthan's economy relies heavily on tourism and SMEs. We specialize in settling unsecured business loans for sectors like:
+                Rajasthan’s economy relies heavily on tourism and SMEs. We specialize in settling unsecured business loans for sectors like:
               </p>
               <ul className="list-disc pl-6 space-y-3 mb-6 text-gray-700">
                 <li><strong>Tourism & Hospitality:</strong> Hotels, travel agencies, and handicraft businesses in Jaipur, Udaipur, and Jaisalmer.</li>
@@ -416,7 +416,7 @@ export default function RajasthanLoanSettlementClient() {
                 <div className="relative z-10">
                   <h3 className="text-3xl md:text-4xl font-bold mb-6">Reclaim Your Financial Freedom in Rajasthan</h3>
                   <p className="mb-10 opacity-90 max-w-2xl mx-auto text-lg">
-                    Don't let debt stress overwhelm you. With legal expertise and local knowledge, CredSettle helps you close your loans with dignity.
+                    Don’t let debt stress overwhelm you. With legal expertise and local knowledge, CredSettle helps you close your loans with dignity.
                   </p>
                   <Link 
                     href="/contact"
@@ -448,9 +448,9 @@ export default function RajasthanLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-2 text-left px-2">
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Jaipur & Jodhpur Team</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Lok Adalat Support</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> DRT Jaipur Defense</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Jaipur & Jodhpur Team</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Lok Adalat Support</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> DRT Jaipur Defense</p>
                 </div>
               </div>
 

@@ -329,7 +329,7 @@ export default function BankArbitrationNoticeClient() {
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 mb-10">
                                 <ol className="space-y-4 list-decimal pl-6 text-slate-700">
                                     <li><strong>Statement of Claim:</strong> The bank files a detailed document outlining the loan history, the default, and the total dues being claimed.</li>
-                                    <li><strong>Statement of Defense:</strong> This is your opportunity to reply. You can explain your financial hardship, dispute the bank's interest calculations, or point out violations of RBI rules.</li>
+                                    <li><strong>Statement of Defense:</strong> This is your opportunity to reply. You can explain your financial hardship, dispute the bank’s interest calculations, or point out violations of RBI rules.</li>
                                     <li><strong>Evidence Production:</strong> Both sides submit digital or physical records (account statements, sanction letters, medical bills).</li>
                                     <li><strong>Hearing / Written Arguments:</strong> The arbitrator hears arguments. In smaller retail loans, this is often done entirely through documents to save time.</li>
                                     <li><strong>Final Award:</strong> The arbitrator passes a detailed, written order. This "Award" is the final decree.</li>
@@ -338,7 +338,7 @@ export default function BankArbitrationNoticeClient() {
 
                             <h2 id="unilateral-appointment" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">Unilateral Appointment: The Illegal Shortcut</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                For years, banks used to appoint their own empanelled lawyers as arbitrators without the borrower's consent. The Supreme Court, in landmark cases like <em>TRF Ltd. v. Energo Engineering</em> and <em>Perkins Eastman v. HSCC</em>, has declared this practice <strong>illegal</strong>.
+                                For years, banks used to appoint their own empanelled lawyers as arbitrators without the borrower’s consent. The Supreme Court, in landmark cases like <em>TRF Ltd. v. Energo Engineering</em> and <em>Perkins Eastman v. HSCC</em>, has declared this practice <strong>illegal</strong>.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 A person who is interested in the outcome of the case (i.e., someone who gets regular business from the bank) cannot be an arbitrator. If a bank unilaterally appoints an arbitrator without giving you a chance to agree or without going through a court-monitored process, the entire arbitration can be set aside. This is one of the most powerful defenses a borrower has today.
@@ -358,15 +358,15 @@ export default function BankArbitrationNoticeClient() {
 
                             <h2 id="ex-parte-award-danger" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">Ex-Parte Award Danger: The Cost of Inaction</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                The biggest mistake a borrower makes is ignoring the notice because they "don't have the money anyway." This is a recipe for disaster. If you don't show up, the arbitrator will pass an <strong>Ex-Parte Award</strong>.
+                                The biggest mistake a borrower makes is ignoring the notice because they "don’t have the money anyway." This is a recipe for disaster. If you don’t show up, the arbitrator will pass an <strong>Ex-Parte Award</strong>.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                An ex-parte award is based solely on the bank's records. There is no one to point out if the interest is usurious or if the penalties are illegal. Once passed, this award is very difficult to challenge. It gives the bank a "Green Light" to go to a civil court and ask for the attachment of your salary, bank accounts, or even your household goods.
+                                An ex-parte award is based solely on the bank’s records. There is no one to point out if the interest is usurious or if the penalties are illegal. Once passed, this award is very difficult to challenge. It gives the bank a "Green Light" to go to a civil court and ask for the attachment of your salary, bank accounts, or even your household goods.
                             </p>
 
                             <h2 id="arbitral-award-legal-weight" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-14">Legal Weight of the Award: Final and Binding</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                Once the final award is signed, it is legally equal to a court decree. Under <strong>Section 36</strong> of the Act, it can be enforced in any civil court in India. The bank doesn't have to file a fresh case; they just have to file an "Execution Petition."
+                                Once the final award is signed, it is legally equal to a court decree. Under <strong>Section 36</strong> of the Act, it can be enforced in any civil court in India. The bank doesn’t have to file a fresh case; they just have to file an "Execution Petition."
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 The only way to stop an award is to file an application to "Set Aside" the award under Section 34. However, you only have <strong>90 days</strong> (plus a possible 30-day extension) to do this. After that, the debt is etched in legal stone.
@@ -412,7 +412,7 @@ export default function BankArbitrationNoticeClient() {
                                 <br /><strong>Grounds for Setting Aside:</strong>
                                 <br />- Incapacity of a party.
                                 <br />- Invalidity of the arbitration agreement.
-                                <br />- Lack of proper notice of the arbitrator's appointment.
+                                <br />- Lack of proper notice of the arbitrator’s appointment.
                                 <br />- Award is in conflict with the <strong>Public Policy of India</strong> (i.e., it is fundamentally unfair or illegal).
                             </p>
 
@@ -436,7 +436,7 @@ export default function BankArbitrationNoticeClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Facing a Bank Arbitration notice?</h3>
-                                <p className="text-blue-800 mb-6">Don't wait for an ex-parte award. Our expert legal team can challenge the arbitrator, file your statement of defense, and negotiate a final settlement for you. Reclaim your peace of mind today.</p>
+                                <p className="text-blue-800 mb-6">Don’t wait for an ex-parte award. Our expert legal team can challenge the arbitrator, file your statement of defense, and negotiate a final settlement for you. Reclaim your peace of mind today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -499,9 +499,9 @@ export default function BankArbitrationNoticeClient() {
                                     Stop the Arbitration
                                 </Link>
                                 <div className="mt-4 text-xs text-slate-500 space-y-1">
-                                    <p>✓ Reply within 24 Hours</p>
-                                    <p>✓ Challenge Illegal Arbitrators</p>
-                                    <p>✓ Negotiated Debt Waivers</p>
+                                    <p>v Reply within 24 Hours</p>
+                                    <p>v Challenge Illegal Arbitrators</p>
+                                    <p>v Negotiated Debt Waivers</p>
                                 </div>
                             </div>
 

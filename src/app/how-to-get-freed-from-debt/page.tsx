@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'How to Get Freed from Debt Legally',
-    description: 'Don\'t let debt trap you. Learn how to legally settle your loans and get freed from financial stress.',
+    description: 'Don’t let debt trap you. Learn how to legally settle your loans and get freed from financial stress.',
     type: 'article',
     url: 'https://credsettle.com/how-to-get-freed-from-debt',
     images: [

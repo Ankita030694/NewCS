@@ -95,7 +95,7 @@ export default function AdityaBirlaLoanSettlementPage() {
         "name": "Why did Aditya Birla Finance send me an Arbitration Notice?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "As an NBFC, ABFL prefers Arbitration over Civil Courts because it's faster. They often appoint a 'Sole Arbitrator' to get a quick 'Award' regarding your debt."
+          "text": "As an NBFC, ABFL prefers Arbitration over Civil Courts because it’s faster. They often appoint a 'Sole Arbitrator' to get a quick 'Award' regarding your debt."
         }
       },
       {
@@ -210,7 +210,7 @@ export default function AdityaBirlaLoanSettlementPage() {
             <span className="text-blue-300">Stop Arbitration & Harassment</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Don't let the "Sole Arbitrator" Notice scare you. We provide legal defense against NBFC arbitration, stop agent harassment, and negotiate fair OTS settlements.
+            Don’t let the "Sole Arbitrator" Notice scare you. We provide legal defense against NBFC arbitration, stop agent harassment, and negotiate fair OTS settlements.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

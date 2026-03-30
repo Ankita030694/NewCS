@@ -208,7 +208,7 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Rajasthan, known for majestic forts, vibrant tourism, handicraft heritage and emerging industries, has diverse economy creating varied loan patterns. From Jaipur's jewelry and IT sectors to Jodhpur's handicraft exports, Udaipur's hotel businesses to Kota's education industry, millions borrow for business expansion, home purchase, education and family needs.
+                    Rajasthan, known for majestic forts, vibrant tourism, handicraft heritage and emerging industries, has diverse economy creating varied loan patterns. From Jaipur’s jewelry and IT sectors to Jodhpur’s handicraft exports, Udaipur’s hotel businesses to Kota’s education industry, millions borrow for business expansion, home purchase, education and family needs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution method. Rajasthan also has government OTS Scheme 2024 that provides additional relief for certain loans.
@@ -241,19 +241,19 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Rajasthan's economy heavily depends on tourism and heritage sectors. Jaipur's Hawa Mahal and Amber Fort, Udaipur's lake palaces, Jodhpur's Mehrangarh Fort attract millions of tourists yearly. This creates employment in hotels, travel agencies, handicraft shops, transport services, restaurants and tour operations. Many borrowed to expand tourism businesses during peak years. Then COVID destroyed tourism completely. Recovery remains slow and seasonal.
+                    Rajasthan’s economy heavily depends on tourism and heritage sectors. Jaipur’s Hawa Mahal and Amber Fort, Udaipur’s lake palaces, Jodhpur’s Mehrangarh Fort attract millions of tourists yearly. This creates employment in hotels, travel agencies, handicraft shops, transport services, restaurants and tour operations. Many borrowed to expand tourism businesses during peak years. Then COVID destroyed tourism completely. Recovery remains slow and seasonal.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Tourism borrowing patterns:</strong> Hotel owners in Jaipur, Udaipur and Jaisalmer borrowed ₹20-80 lakhs for property renovation, expansion or new construction. Travel agency owners took ₹5-15 lakhs for vehicles and operations. Handicraft exporters borrowed ₹10-30 lakhs for inventory and workshop expansion. When tourism crashed, all these loans became impossible to service. Hotels ran empty, travel bookings stopped, handicraft exports dried up.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Handicraft sector stress:</strong> Jaipur's blue pottery, gemstone cutting and jewelry. Jodhpur's handicraft exports. Udaipur's miniature paintings and crafts. These traditional businesses borrowed for workshops, raw materials and export operations. Global demand fluctuations and domestic sales drops create cash flow problems. Many artisans and small exporters face loan default situations.
+                    <strong>Handicraft sector stress:</strong> Jaipur’s blue pottery, gemstone cutting and jewelry. Jodhpur’s handicraft exports. Udaipur’s miniature paintings and crafts. These traditional businesses borrowed for workshops, raw materials and export operations. Global demand fluctuations and domestic sales drops create cash flow problems. Many artisans and small exporters face loan default situations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Mining and marble economy:</strong> Rajasthan has significant marble and mining industry (Makrana marble, sandstone, granite). Mining operations and marble trading businesses borrowed heavily. When construction sector slows (happened 2020-2023), marble demand drops. Mining sector workers and business owners struggle with loan payments.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We specialize in Rajasthan's tourism and heritage economy. We know how to explain seasonal tourism patterns, COVID impact on heritage businesses, handicraft export challenges and marble industry cycles to lenders. This Rajasthan-specific knowledge gets you better settlement terms than generic settlement companies can achieve.
+                    We specialize in Rajasthan’s tourism and heritage economy. We know how to explain seasonal tourism patterns, COVID impact on heritage businesses, handicraft export challenges and marble industry cycles to lenders. This Rajasthan-specific knowledge gets you better settlement terms than generic settlement companies can achieve.
                   </p>
                 </div>
               </section>
@@ -280,7 +280,7 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Rajasthan government launched special One-Time Settlement Scheme in 2024 to help borrowers clear overdue loans. This is unique to Rajasthan (only few states offer such schemes). Here's what you need to know:
+                    Rajasthan government launched special One-Time Settlement Scheme in 2024 to help borrowers clear overdue loans. This is unique to Rajasthan (only few states offer such schemes). Here’s what you need to know:
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>What Rajasthan OTS Scheme offers:</strong> 50% waiver on interest for personal loans, consumer loans and self-employment loans. You pay only half the interest amount. Flexible payment structure: 25% upfront with application, remaining 75% in up to two installments by March 31, 2025. Scheme valid only until March 31, 2025 deadline.
@@ -289,10 +289,10 @@ export default function RajasthanPageClient() {
                     <strong>Who qualifies:</strong> Primarily for government scheme loans, cooperative society loans, certain MSME loans. Not all private bank loans qualify. Eligibility depends on loan type, lending institution and default period. We help you check if your loans qualify.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>How we combine OTS Scheme with our services:</strong> If your loan qualifies for Rajasthan OTS Scheme, we guide you through application process while also negotiating any non-qualifying loans you have. If your loan doesn't qualify for scheme, we use regular RBI-compliant settlement process. Either way, you get maximum benefit. Some clients use OTS Scheme for one loan and our negotiation for other loans, getting dual benefit.
+                    <strong>How we combine OTS Scheme with our services:</strong> If your loan qualifies for Rajasthan OTS Scheme, we guide you through application process while also negotiating any non-qualifying loans you have. If your loan doesn’t qualify for scheme, we use regular RBI-compliant settlement process. Either way, you get maximum benefit. Some clients use OTS Scheme for one loan and our negotiation for other loans, getting dual benefit.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Time sensitivity:</strong> Scheme ends March 31, 2025. If you think you might qualify, contact us immediately so we can check eligibility and apply before deadline. Don't miss this Rajasthan government benefit.
+                    <strong>Time sensitivity:</strong> Scheme ends March 31, 2025. If you think you might qualify, contact us immediately so we can check eligibility and apply before deadline. Don’t miss this Rajasthan government benefit.
                   </p>
                 </div>
               </section>
@@ -319,16 +319,16 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Tourism Sector COVID Collapse:</strong> Jaipur, Udaipur, Jaisalmer, Pushkar depend heavily on tourism. Hotel occupancy was 60-80% pre-COVID. Dropped to 5-15% during pandemic. Even now runs at 40-50% (domestic tourists increased but international tourists haven't returned fully). Hotel owners, travel agents, tour operators, restaurants borrowed during boom years. Now struggling. We've settled 900+ tourism sector loans using tourism department statistics and hotel occupancy data.
+                    <strong>1. Tourism Sector COVID Collapse:</strong> Jaipur, Udaipur, Jaisalmer, Pushkar depend heavily on tourism. Hotel occupancy was 60-80% pre-COVID. Dropped to 5-15% during pandemic. Even now runs at 40-50% (domestic tourists increased but international tourists haven’t returned fully). Hotel owners, travel agents, tour operators, restaurants borrowed during boom years. Now struggling. We’ve settled 900+ tourism sector loans using tourism department statistics and hotel occupancy data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Handicraft Export Challenges:</strong> Jaipur jewelry, blue pottery, gemstones. Jodhpur handicrafts and textiles. Udaipur paintings and crafts. Many artisans and small exporters borrowed ₹5-20 lakhs for workshops, raw materials and export operations. Global demand fluctuates, exchange rates impact margins, international buyers delay payments. We've settled hundreds of handicraft business loans explaining export sector challenges to lenders.
+                    <strong>2. Handicraft Export Challenges:</strong> Jaipur jewelry, blue pottery, gemstones. Jodhpur handicrafts and textiles. Udaipur paintings and crafts. Many artisans and small exporters borrowed ₹5-20 lakhs for workshops, raw materials and export operations. Global demand fluctuates, exchange rates impact margins, international buyers delay payments. We’ve settled hundreds of handicraft business loans explaining export sector challenges to lenders.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Marble and Mining Sector Slowdown:</strong> Rajasthan produces major portion of India's marble (Makrana marble famous worldwide). Mining operations and marble trading businesses borrowed ₹15-50 lakhs. When construction sector slowed 2020-2023, marble demand crashed. Many mining contractors and marble traders defaulted. We negotiate using construction industry data and marble price trends.
+                    <strong>3. Marble and Mining Sector Slowdown:</strong> Rajasthan produces major portion of India’s marble (Makrana marble famous worldwide). Mining operations and marble trading businesses borrowed ₹15-50 lakhs. When construction sector slowed 2020-2023, marble demand crashed. Many mining contractors and marble traders defaulted. We negotiate using construction industry data and marble price trends.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Kota Education Industry Impact:</strong> Kota is India's coaching capital. Thousands of coaching institutes, hostels, food services depend on students coming for IIT-JEE preparation. During COVID and online education shift, many businesses collapsed. Owners who borrowed for expansion now stuck with loans. We've handled Kota education sector cases understanding the coaching industry dynamics.
+                    <strong>4. Kota Education Industry Impact:</strong> Kota is India’s coaching capital. Thousands of coaching institutes, hostels, food services depend on students coming for IIT-JEE preparation. During COVID and online education shift, many businesses collapsed. Owners who borrowed for expansion now stuck with loans. We’ve handled Kota education sector cases understanding the coaching industry dynamics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>5. Agricultural Income Volatility:</strong> Rajasthan has significant agricultural economy but faces water scarcity and monsoon dependency. Farmers and agricultural traders borrow for crops, equipment and trading. When monsoon fails or crop prices fall, loan defaults happen. Rajasthan OTS Scheme 2024 helps many agricultural borrowers.
@@ -361,10 +361,10 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled 7,500+ loan settlements across Rajasthan in last four years. Our Rajasthan clients save an average of 56% on their debt. We work with all major banks, regional rural banks, cooperative societies and NBFCs operating in Jaipur, Jodhpur, Udaipur and across the state.
+                    We’ve handled 7,500+ loan settlements across Rajasthan in last four years. Our Rajasthan clients save an average of 56% on their debt. We work with all major banks, regional rural banks, cooperative societies and NBFCs operating in Jaipur, Jodhpur, Udaipur and across the state.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Rajasthan edge:</strong> We're registered legal services company following every RBI rule. We understand Rajasthan's tourism economy, handicraft business culture, heritage property challenges and OTS Scheme 2024 details. We have local legal partners in Jaipur who know district courts and Lok Adalat systems across Rajasthan.
+                    <strong>Our Rajasthan edge:</strong> We’re registered legal services company following every RBI rule. We understand Rajasthan’s tourism economy, handicraft business culture, heritage property challenges and OTS Scheme 2024 details. We have local legal partners in Jaipur who know district courts and Lok Adalat systems across Rajasthan.
                   </p>
 
                   <div id="rajasthan-methods" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -433,7 +433,7 @@ export default function RajasthanPageClient() {
                     <strong>How it works in Rajasthan:</strong> You and lender sit with mediators in district court. Mediators understand regional business challenges (tourism seasonality, handicraft market fluctuations, agricultural cycles). Push both sides toward practical settlement. No court fees. Quick resolution (usually one session). Decision is final and enforceable. Settlements typically land at 40-60% of outstanding.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Rajasthan Lok Adalat record:</strong> We've represented hundreds of borrowers in Lok Adalats across Jaipur, Jodhpur, Udaipur, Kota and district courts. We prepare hardship files explaining tourism sector challenges, handicraft business cycles, seasonal income patterns. Write strong settlement proposals. 84% success rate in Rajasthan Lok Adalat cases.
+                    <strong>Our Rajasthan Lok Adalat record:</strong> We’ve represented hundreds of borrowers in Lok Adalats across Jaipur, Jodhpur, Udaipur, Kota and district courts. We prepare hardship files explaining tourism sector challenges, handicraft business cycles, seasonal income patterns. Write strong settlement proposals. 84% success rate in Rajasthan Lok Adalat cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>When Lok Adalat is right choice:</strong> If lender filed court case, Lok Adalat provides fastest resolution. If your business loan involves seasonal income (tourism, agriculture), Lok Adalat judges in Rajasthan understand these patterns better than regular courts. We recommend right path for your case.
@@ -466,13 +466,13 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Jaipur:</strong> Rajasthan capital and largest city. Mix of government offices, tourism businesses, jewelry and gemstone industry, emerging IT sector, handicraft exports. We've handled 2,800+ Jaipur cases. Diverse borrower profile: government employees, hotel owners, jewelry traders, handicraft exporters, IT professionals in Malviya Nagar and Mansarovar areas. We understand Jaipur's mixed economy and negotiate using sector-appropriate data.
+                    <strong>Jaipur:</strong> Rajasthan capital and largest city. Mix of government offices, tourism businesses, jewelry and gemstone industry, emerging IT sector, handicraft exports. We’ve handled 2,800+ Jaipur cases. Diverse borrower profile: government employees, hotel owners, jewelry traders, handicraft exporters, IT professionals in Malviya Nagar and Mansarovar areas. We understand Jaipur’s mixed economy and negotiate using sector-appropriate data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Jaipur tourism corridor:</strong> Hotels near Hawa Mahal, Amber Fort, Nahargarh areas. Travel agencies in MI Road, Johari Bazar. Handicraft shops in Bapu Bazar, Tripolia Bazar. All borrowed during tourism boom. COVID crashed everything. We've settled hundreds of Jaipur tourism business loans showing lenders the visitor statistics and occupancy rate collapse.
+                    <strong>Jaipur tourism corridor:</strong> Hotels near Hawa Mahal, Amber Fort, Nahargarh areas. Travel agencies in MI Road, Johari Bazar. Handicraft shops in Bapu Bazar, Tripolia Bazar. All borrowed during tourism boom. COVID crashed everything. We’ve settled hundreds of Jaipur tourism business loans showing lenders the visitor statistics and occupancy rate collapse.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Jaipur jewelry and gems:</strong> Gemstone cutting, jewelry manufacturing, export businesses. Johari Bazar is major jewelry market. Many borrowed for inventory, workshop expansion or export operations. Global precious metal price swings and demand fluctuations create cash flow issues. We've settled jewelry sector loans using gold price trends and export statistics.
+                    <strong>Jaipur jewelry and gems:</strong> Gemstone cutting, jewelry manufacturing, export businesses. Johari Bazar is major jewelry market. Many borrowed for inventory, workshop expansion or export operations. Global precious metal price swings and demand fluctuations create cash flow issues. We’ve settled jewelry sector loans using gold price trends and export statistics.
                   </p>
                 </div>
               </section>
@@ -499,16 +499,16 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Jodhpur (Blue City):</strong> Mehrangarh Fort, handicraft exports, textile trading. We've handled 1,200+ Jodhpur cases. Mix of tourism businesses, handicraft exporters and traders. We understand Jodhpur's handicraft cluster and export market patterns. Use this knowledge in negotiations.
+                    <strong>Jodhpur (Blue City):</strong> Mehrangarh Fort, handicraft exports, textile trading. We’ve handled 1,200+ Jodhpur cases. Mix of tourism businesses, handicraft exporters and traders. We understand Jodhpur’s handicraft cluster and export market patterns. Use this knowledge in negotiations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Udaipur (City of Lakes):</strong> Heavy tourism dependency. Lake palaces, heritage hotels, lakeside restaurants, cultural shows. Udaipur businesses borrowed big for property development and tourism operations. COVID impact was severe (tourism-only economy). We've settled 1,000+ Udaipur tourism business loans using visitor data and hotel revenue reports.
+                    <strong>Udaipur (City of Lakes):</strong> Heavy tourism dependency. Lake palaces, heritage hotels, lakeside restaurants, cultural shows. Udaipur businesses borrowed big for property development and tourism operations. COVID impact was severe (tourism-only economy). We’ve settled 1,000+ Udaipur tourism business loans using visitor data and hotel revenue reports.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Kota (Education Hub):</strong> Coaching center capital with thousands of institutes preparing students for IIT-JEE, medical entrance. COVID shifted education online, many institutes lost students. Owners borrowed for buildings, facilities, now struggling. We've handled 800+ Kota education sector cases.
+                    <strong>Kota (Education Hub):</strong> Coaching center capital with thousands of institutes preparing students for IIT-JEE, medical entrance. COVID shifted education online, many institutes lost students. Owners borrowed for buildings, facilities, now struggling. We’ve handled 800+ Kota education sector cases.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Ajmer, Bikaner, Jaisalmer:</strong> Religious tourism in Ajmer, desert tourism in Jaisalmer, heritage tourism in Bikaner. Full settlement coverage understanding each city's unique economy.
+                    <strong>Ajmer, Bikaner, Jaisalmer:</strong> Religious tourism in Ajmer, desert tourism in Jaisalmer, heritage tourism in Bikaner. Full settlement coverage understanding each city’s unique economy.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Other Rajasthan Districts:</strong> Alwar, Bharatpur, Bhilwara, Sikar and all 33 districts. We serve entire Rajasthan through local partnerships and remote coordination.
@@ -538,13 +538,13 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Tourism Sector Expertise:</strong> We understand seasonal patterns, festival tourism, international versus domestic tourist splits, hotel occupancy economics. Most settlement companies don't get tourism business cycles. We do.
+                    <strong>1. Tourism Sector Expertise:</strong> We understand seasonal patterns, festival tourism, international versus domestic tourist splits, hotel occupancy economics. Most settlement companies don’t get tourism business cycles. We do.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>2. OTS Scheme 2024 Guidance:</strong> We help check if your loans qualify for Rajasthan government's 50% interest waiver scheme. Apply before March 31, 2025 deadline. Get maximum benefit.
+                    <strong>2. OTS Scheme 2024 Guidance:</strong> We help check if your loans qualify for Rajasthan government’s 50% interest waiver scheme. Apply before March 31, 2025 deadline. Get maximum benefit.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Save 30-70% on Debt:</strong> Rajasthan clients save 56% on average. Tourism businesses often get 55-65% settlements because lenders understand seasonal nature. That's lakhs saved.
+                    <strong>3. Save 30-70% on Debt:</strong> Rajasthan clients save 56% on average. Tourism businesses often get 55-65% settlements because lenders understand seasonal nature. That’s lakhs saved.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>4. Harassment Stops Within Week:</strong> Legal notices citing RBI rules to all lenders. Recovery calls and visits stop within 5-7 days across Rajasthan.
@@ -682,7 +682,7 @@ export default function RajasthanPageClient() {
                     <strong>The Business Owner:</strong> Vikram C., age 48, runs heritage hotel near Amer Fort in Jaipur. 25-room property operating for 12 years. Had borrowed ₹38 lakhs total (2 business loans for hotel renovation, 1 property loan against hotel, 1 personal loan for working capital).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Collapsed:</strong> COVID hit March 2020. International tourists stopped completely. Hotel occupancy fell from 75% to 0% overnight. Ran empty for 18 months. When domestic tourism restarted 2021-2022, occupancy reached only 35-40% (down from 75%). Revenue fell from ₹45 lakhs yearly to ₹15 lakhs. Couldn't pay EMIs on ₹25 lakhs business loans, ₹10 lakhs property loan and ₹3 lakhs personal loan. All accounts went NPA. Recovery agents called 20+ times daily, visited hotel twice (embarrassing in front of guests), sent legal notices. CIBIL dropped from 710 to 480. Feared losing family hotel built over decades.
+                    <strong>What Collapsed:</strong> COVID hit March 2020. International tourists stopped completely. Hotel occupancy fell from 75% to 0% overnight. Ran empty for 18 months. When domestic tourism restarted 2021-2022, occupancy reached only 35-40% (down from 75%). Revenue fell from ₹45 lakhs yearly to ₹15 lakhs. Couldn’t pay EMIs on ₹25 lakhs business loans, ₹10 lakhs property loan and ₹3 lakhs personal loan. All accounts went NPA. Recovery agents called 20+ times daily, visited hotel twice (embarrassing in front of guests), sent legal notices. CIBIL dropped from 710 to 480. Feared losing family hotel built over decades.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>We Protected His Business:</strong> Vikram contacted us September 2023. We sent immediate legal notices to all 4 lenders with specific warnings against visiting hotel property (protecting business reputation). Harassment stopped in 6 days. Our assessment showed genuine tourism sector crisis - Rajasthan tourism department occupancy data, hotel revenue records, COVID impact documentation. Built strong case.
@@ -724,7 +724,7 @@ export default function RajasthanPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Dealing with loan debt in Jaipur, Jodhpur, Udaipur or anywhere in Rajasthan? You don't need to carry this burden alone. Settlement is legal. RBI backs it. Rajasthan government supports it with OTS Scheme. It exists for businesses facing tourism crisis and individuals with genuine financial problems.
+                    Dealing with loan debt in Jaipur, Jodhpur, Udaipur or anywhere in Rajasthan? You don’t need to carry this burden alone. Settlement is legal. RBI backs it. Rajasthan government supports it with OTS Scheme. It exists for businesses facing tourism crisis and individuals with genuine financial problems.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Debt destroys business and peace. Your health suffers, family worries constantly, business reputation drops, seasonal opportunities missed, sleep disappears. Each day you delay, penalties grow, interest compounds, CIBIL falls more. But proper exit exists. Over 7,500 Rajasthan families and businesses already got financial freedom through our settlement work.
@@ -733,10 +733,10 @@ export default function RajasthanPageClient() {
                     <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and clear options including OTS Scheme check. Our Rajasthan experts will show exactly how to stop harassment, cut debt 30-70% and close everything legally. We understand tourism seasonality, handicraft exports, marble trading, education sector - whatever your situation is.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Tourism downturns and business slowdowns are temporary cycles. But unresolved debt can destroy everything you built over years. With our legal team, Rajasthan tourism knowledge and 7,500+ case experience, you can end this crisis properly and restart. Don't let debt destroy your heritage business. Act now.
+                    Tourism downturns and business slowdowns are temporary cycles. But unresolved debt can destroy everything you built over years. With our legal team, Rajasthan tourism knowledge and 7,500+ case experience, you can end this crisis properly and restart. Don’t let debt destroy your heritage business. Act now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Jaipur heritage hotels, Jodhpur handicraft shops, Udaipur lake palaces, Kota coaching centers or any Rajasthan district. Wherever you are, debt-free life is possible. We'll help you reach there.
+                    <strong>Call CredSettle for free consultation.</strong> Jaipur heritage hotels, Jodhpur handicraft shops, Udaipur lake palaces, Kota coaching centers or any Rajasthan district. Wherever you are, debt-free life is possible. We’ll help you reach there.
                   </p>
                 </div>
               </section>

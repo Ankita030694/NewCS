@@ -88,11 +88,11 @@ export default function MudraLoanSettlementClient() {
         },
         {
             question: "Is collateral required for Mudra loan settlement negotiation?",
-            answer: "No. Mudra loans are inherently collateral-free under the PMMY scheme. The absence of collateral actually gives the borrower a stronger negotiation position, as the bank cannot easily seize physical assets like property or gold without a lengthy court process. Settlement is often the bank's preferred way to recover at least the principal amount."
+            answer: "No. Mudra loans are inherently collateral-free under the PMMY scheme. The absence of collateral actually gives the borrower a stronger negotiation position, as the bank cannot easily seize physical assets like property or gold without a lengthy court process. Settlement is often the bank’s preferred way to recover at least the principal amount."
         },
         {
             question: "What is the new 'Tarun Plus' category in 2025?",
-            answer: "Announced in the 2024-25 Union Budget, the Tarun Plus category increases the Mudra loan limit from ₹10 Lakhs to ₹20 Lakhs for entrepreneurs who have successfully repaid their previous Tarun loans. Settling a Tarun Plus loan requires careful legal documentation to ensure the 'Write-off' doesn't permanently bar you from future MSME schemes."
+            answer: "Announced in the 2024-25 Union Budget, the Tarun Plus category increases the Mudra loan limit from ₹10 Lakhs to ₹20 Lakhs for entrepreneurs who have successfully repaid their previous Tarun loans. Settling a Tarun Plus loan requires careful legal documentation to ensure the 'Write-off' doesn’t permanently bar you from future MSME schemes."
         },
         {
             question: "How much 'haircut' can I expect in a Mudra loan settlement?",
@@ -100,7 +100,7 @@ export default function MudraLoanSettlementClient() {
         },
         {
             question: "What legal action can banks take for Mudra loan default?",
-            answer: "Lenders can file a civil suit for recovery or initiate proceedings under the Negotiable Instruments Act (Section 138) if checks were provided. While SARFAESI doesn't apply to pure Mudra loans (due to lack of collateral), banks can approach the Civil Court for an execution decree to attach other personal assets."
+            answer: "Lenders can file a civil suit for recovery or initiate proceedings under the Negotiable Instruments Act (Section 138) if checks were provided. While SARFAESI doesn’t apply to pure Mudra loans (due to lack of collateral), banks can approach the Civil Court for an execution decree to attach other personal assets."
         },
         {
             question: "Does the RBI Ombudsman help with Mudra loan harassment?",
@@ -112,7 +112,7 @@ export default function MudraLoanSettlementClient() {
         },
         {
             question: "What is the role of a lawyer in Mudra loan settlement?",
-            answer: "A specialized lawyer reviews your bank's board-approved settlement policy, drafts the 'Hardship Letter,' ensures the bank doesn't ignore your OTS application, and validates the Final Closure Letter to prevent future 'zombie debt' claims."
+            answer: "A specialized lawyer reviews your bank’s board-approved settlement policy, drafts the 'Hardship Letter,' ensures the bank doesn’t ignore your OTS application, and validates the Final Closure Letter to prevent future 'zombie debt' claims."
         },
         {
             question: "Can I get another Mudra loan after settling one?",
@@ -120,7 +120,7 @@ export default function MudraLoanSettlementClient() {
         },
         {
             question: "Are there any hidden charges in Mudra loan settlement?",
-            answer: "Banks often try to include 'Legal Fees' and 'Penal Interest' in the settlement amount. A lawyer ensures that the settlement is based on the 'Ledger Balance' and that all future interests are waived as per the RBI's 2025 Fair Lending Practices."
+            answer: "Banks often try to include 'Legal Fees' and 'Penal Interest' in the settlement amount. A lawyer ensures that the settlement is based on the 'Ledger Balance' and that all future interests are waived as per the RBI’s 2025 Fair Lending Practices."
         }
     ];
 
@@ -167,7 +167,7 @@ export default function MudraLoanSettlementClient() {
             name: 'Meena Sharma',
             location: 'Mumbai',
             stars: 5,
-            comment: "I was struggling with a Tarun loan after my shop faced a fire. CredSettle documented my hardship perfectly and ensured the bank didn't ignore my settlement request. Truly a life saver."
+            comment: "I was struggling with a Tarun loan after my shop faced a fire. CredSettle documented my hardship perfectly and ensured the bank didn’t ignore my settlement request. Truly a life saver."
         },
         {
             name: 'Rajesh Gupta',
@@ -347,7 +347,7 @@ export default function MudraLoanSettlementClient() {
 
                             <h2 id="overview" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 1: Mudra Loan Settlement in the 2025 Legal Landscape</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Pradhan Mantri Mudra Yojana (PMMY) has been a cornerstone of India's micro-entrepreneurship growth since 2015. However, as we move into 2025, a significant portion of Mudra borrowers find themselves in financial distress. According to recent reports, Non-Performing Assets (NPAs) in the Mudra category have reached nearly 9.8%, prompting the Reserve Bank of India (RBI) and the Government to streamline the **Mudra Loan Settlement** process.
+                                The Pradhan Mantri Mudra Yojana (PMMY) has been a cornerstone of India’s micro-entrepreneurship growth since 2015. However, as we move into 2025, a significant portion of Mudra borrowers find themselves in financial distress. According to recent reports, Non-Performing Assets (NPAs) in the Mudra category have reached nearly 9.8%, prompting the Reserve Bank of India (RBI) and the Government to streamline the **Mudra Loan Settlement** process.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 italic font-medium">
                                 "Collateral-free does not mean consequence-free. While the bank cannot seize your house for a Shishu loan, legal defaults still lead to civil litigation, frozen bank accounts, and a destroyed CIBIL history."
@@ -367,7 +367,7 @@ export default function MudraLoanSettlementClient() {
                                 </div>
                                 <div className="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
                                     <h4 className="font-bold text-blue-900 mb-2">Digital Settlement Portals</h4>
-                                    <p className="text-sm text-gray-600">Major banks like SBI and PNB have launched AI-driven settlement portals, but these often bypass the borrower's right to negotiate a higher waiver.</p>
+                                    <p className="text-sm text-gray-600">Major banks like SBI and PNB have launched AI-driven settlement portals, but these often bypass the borrower’s right to negotiate a higher waiver.</p>
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
@@ -376,7 +376,7 @@ export default function MudraLoanSettlementClient() {
 
                             <h2 id="shishu-kishor-tarun" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 3: Category Specific Insights: From Shishu to Tarun Plus</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Not all Mudra loans are treated equally in a settlement negotiation. The "Category DNA" determines the bank's willingness to grant a waiver.
+                                Not all Mudra loans are treated equally in a settlement negotiation. The "Category DNA" determines the bank’s willingness to grant a waiver.
                             </p>
                             <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">1. Shishu (Up to ₹50,000)</h4>
                             <p className="text-gray-700 mb-6">Banks often treat Shishu loans as "Social Lending." If you are facing extreme poverty, many PSU banks have a "Simplified Write-off" policy for Shishu loans. Legal help ensures that your Shishu settlement does not result in a 'Willful Defaulter' tag.</p>
@@ -385,22 +385,22 @@ export default function MudraLoanSettlementClient() {
                             <p className="text-gray-700 mb-6">Kishor loans are the most common in India. Settlement here usually requires a "Hardship Proof" (e.g., business closure certificate, medical bills). Our team helps you document this proof to secure a 40-60% waiver.</p>
 
                             <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">3. Tarun & Tarun Plus (₹5 Lakh to ₹20 Lakh)</h4>
-                            <p className="text-gray-700 mb-10">These are technical business loans. The bank will likely review your GST filings and bank statements for the last 3 years before agreeing to a settlement. If you are a Tarun Plus borrower, the presence of a lawyer is mandatory to counter the bank's aggressive legal department.</p>
+                            <p className="text-gray-700 mb-10">These are technical business loans. The bank will likely review your GST filings and bank statements for the last 3 years before agreeing to a settlement. If you are a Tarun Plus borrower, the presence of a lawyer is mandatory to counter the bank’s aggressive legal department.</p>
 
                             <h2 id="rbi-settlement-norms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 4: RBI Settlement Norms for MSMEs in 2025</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI's 2025 **Fair Lending Conduct** norms prohibit banks from charging penal interest on top of penal interest. For Mudra loans specifically, the "Technical Write-off" policy has been redefined.
+                                The RBI’s 2025 **Fair Lending Conduct** norms prohibit banks from charging penal interest on top of penal interest. For Mudra loans specifically, the "Technical Write-off" policy has been redefined.
                             </p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-10 not-prose">
                                 <h4 className="text-lg font-bold mb-4 text-blue-900">The "Sacrifice" Matrix:</h4>
                                 <ul className="list-disc pl-6 space-y-3 font-light text-gray-700 italic">
                                     <li><strong>Principal Waiver:</strong> Allowed if the business is non-operational for 12+ months.</li>
-                                    <li><strong>Interest Waiver:</strong> 100% waiver of penal interest is a borrower's right under the 2025 MSME framework.</li>
+                                    <li><strong>Interest Waiver:</strong> 100% waiver of penal interest is a borrower’s right under the 2025 MSME framework.</li>
                                     <li><strong>Repayment Window:</strong> Once an OTS (One-Time Settlement) is signed, you usually get 30 to 90 days to pay. We negotiate for a "Structured Settlement" over 6 months if needed.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 text-[15px]">
-                                It is vital to understand that a Mudra loan settlement is governed by the bank's board-approved policy. These policies are public documents, but branch managers often hide them. Our legal team accesses these internal "Circulars" to prove that the branch is denying you a settlement that is actually permitted by their own head office.
+                                It is vital to understand that a Mudra loan settlement is governed by the bank’s board-approved policy. These policies are public documents, but branch managers often hide them. Our legal team accesses these internal "Circulars" to prove that the branch is denying you a settlement that is actually permitted by their own head office.
                             </p>
 
                             <h2 id="recovery-harassment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 5: Recovery Agent Harassment: The Legal Shield</h2>
@@ -432,7 +432,7 @@ export default function MudraLoanSettlementClient() {
 
                             <h2 id="ots-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 6: The 2025 OTS Strategy: Scaling the Haircut</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A One-Time Settlement (OTS) is a chess game. You cannot simply ask for one; you must prove that the bank's alternative (litigation) is more expensive and less fruitful than your offer.
+                                A One-Time Settlement (OTS) is a chess game. You cannot simply ask for one; you must prove that the bank’s alternative (litigation) is more expensive and less fruitful than your offer.
                             </p>
                             <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">Our 4-Step Mudra Settlement Process:</h4>
                             <div className="space-y-6 mb-10 not-prose">
@@ -465,7 +465,7 @@ export default function MudraLoanSettlementClient() {
                             <div className="p-8 bg-indigo-50 rounded-3xl mb-10 not-prose border border-indigo-100 font-serif">
                                 <h4 className="text-xl font-bold text-indigo-950 mb-4 tracking-tighter uppercase italic underline decoration-indigo-200">The CIBIL Transformation Journey (2025-26):</h4>
                                 <ol className="list-decimal pl-6 space-y-4 font-medium text-slate-800">
-                                    <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 1: Verification (Days 1-15)</strong> - We verify the 'No Dues Certificate' is accurately reflected in the bank's internal portal before they report to bureaus.</li>
+                                    <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 1: Verification (Days 1-15)</strong> - We verify the 'No Dues Certificate' is accurately reflected in the bank’s internal portal before they report to bureaus.</li>
                                     <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 2: Bureau Update (Days 15-45)</strong> - We verify the account is marked 'Settled' across all 4 credit bureaus (CIBIL, Experian, Equifax, CRIF). If 'Written-off' is mentioned, we file a Data Inaccuracy dispute.</li>
                                     <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 3: Rebuilding (Months 3-12)</strong> - We advise on the 'Secured Credit Card' strategy where a small FD-backed card creates fresh, positive payment cycles.</li>
                                     <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 4: Optimization (Year 2)</strong> - Your new positive payments start outweighing the old settled tag. A score of 750+ is achievable in 18 months, allowing you to qualify for standard business loans again.</li>
@@ -498,7 +498,7 @@ export default function MudraLoanSettlementClient() {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 italic font-light">
-                                Note: For Tarun Plus borrowers, the bank will often check 'connected party' transactions. If funds were diverted to other businesses, settlement is denied. We help you present a clean 'Business Loss' narrative that satisfies the bank's vigilance department.
+                                Note: For Tarun Plus borrowers, the bank will often check 'connected party' transactions. If funds were diverted to other businesses, settlement is denied. We help you present a clean 'Business Loss' narrative that satisfies the bank’s vigilance department.
                             </p>
 
                             <h2 id="legal-defenses-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 9: Advanced Legal Defenses: Using the 2025 MSME Act</h2>
@@ -523,7 +523,7 @@ export default function MudraLoanSettlementClient() {
 
                             <h2 id="closure-legality-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 10: Ensuring 100% Legal Closure: The 'Settled' vs 'Closed' Dilemma</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many borrowers settle their Mudra loans only to receive recovery notices 3 years later from independent debt collection agencies. This happens because the bank didn't truly 'Close' the loan but only 'Settled' it in their internal records.
+                                Many borrowers settle their Mudra loans only to receive recovery notices 3 years later from independent debt collection agencies. This happens because the bank didn’t truly 'Close' the loan but only 'Settled' it in their internal records.
                             </p>
                             <div className="bg-amber-50 p-8 rounded-3xl border border-amber-200 mb-10 not-prose">
                                 <h4 className="text-lg font-black text-amber-900 mb-4 uppercase tracking-widest italic flex items-center gap-3">
@@ -533,7 +533,7 @@ export default function MudraLoanSettlementClient() {
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-3">
                                         <div className="p-1 bg-amber-200 rounded-full mt-1"></div>
-                                        <p className="text-sm text-amber-950 font-medium">Verify the **No Dues Certificate (NDC)** bears the bank's official hologram and branch seal.</p>
+                                        <p className="text-sm text-amber-950 font-medium">Verify the **No Dues Certificate (NDC)** bears the bank’s official hologram and branch seal.</p>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <div className="p-1 bg-amber-200 rounded-full mt-1"></div>
@@ -550,7 +550,7 @@ export default function MudraLoanSettlementClient() {
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10 text-center font-black italic uppercase text-slate-900 tracking-widest decoration-blue-200 underline">
-                                CredSettle: We don't just negotiate; we secure your financial legacy for 2026 and beyond.
+                                CredSettle: We don’t just negotiate; we secure your financial legacy for 2026 and beyond.
                             </p>
 
                             <h2 id="legal-remedies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 8: Legal Defense Matrix: When the Bank Sues</h2>
@@ -562,7 +562,7 @@ export default function MudraLoanSettlementClient() {
                                     <Gavel className="w-8 h-8 text-blue-600 shrink-0" />
                                     <div>
                                         <h5 className="font-bold text-slate-900 text-lg">MSME Samadhaan Filing</h5>
-                                        <p className="text-sm text-gray-600">If your default is because your own buyers haven't paid you, we file a case on the MSME Samadhaan portal to recover your funds first.</p>
+                                        <p className="text-sm text-gray-600">If your default is because your own buyers haven’t paid you, we file a case on the MSME Samadhaan portal to recover your funds first.</p>
                                     </div>
                                 </div>
                                 <div className="p-6 bg-white rounded-2xl border border-slate-100 shadow-sm flex gap-4">
@@ -574,7 +574,7 @@ export default function MudraLoanSettlementClient() {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                CredSettle stands by you as a technical legal partner. We don't just "talk" to banks; we engage them on their own field—the Indian Banking Law.
+                                CredSettle stands by you as a technical legal partner. We don’t just "talk" to banks; we engage them on their own field-the Indian Banking Law.
                             </p>
 
                             <h2 id="gst-taxation-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 12: GST Compliance and Taxation in Mudra Settlements</h2>
@@ -584,13 +584,13 @@ export default function MudraLoanSettlementClient() {
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-10 not-prose">
                                 <h4 className="text-lg font-bold mb-4">The MSME Tax Shield:</h4>
                                 <ul className="list-disc pl-6 space-y-3 font-light text-gray-700 italic">
-                                    <li><strong>Capital vs Revenue Receipt:</strong> If the Mudra loan was used for 'Capital Assets' (like machinery for a Kishor loan), the waiver may not be taxable. We provide a legal certificate to your CA to ensure you don't get a huge tax bill post-settlement.</li>
+                                    <li><strong>Capital vs Revenue Receipt:</strong> If the Mudra loan was used for 'Capital Assets' (like machinery for a Kishor loan), the waiver may not be taxable. We provide a legal certificate to your CA to ensure you don’t get a huge tax bill post-settlement.</li>
                                     <li><strong>GST on Legal Fees:</strong> Banks often try to charge 18% GST on the settlement amount itself. This is illegal. GST is only applicable on processing fees, not on the principal or interest waiver.</li>
                                     <li><strong>TDS on Settlement:</strong> Banks must not deduct TDS on the waiver amount for Mudra borrowers. We ensure this clause is explicitly mentioned in the Closure Letter.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                This technical tax-legal coordination is what sets CredSettle apart. We don't just clear your bank debt; we protect you from future queries by the Income Tax Department and GST authorities.
+                                This technical tax-legal coordination is what sets CredSettle apart. We don’t just clear your bank debt; we protect you from future queries by the Income Tax Department and GST authorities.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -627,7 +627,7 @@ export default function MudraLoanSettlementClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Navigating Mudra loan default and recovery harassment doesn't have to be a solo battle. Our team of expert negotiators and lawyers specializes in MSME debt resolution, ensuring your business stays protected while you achieve a financially viable settlement.</p>
+                                <p className="text-blue-800 mb-6">Navigating Mudra loan default and recovery harassment doesn’t have to be a solo battle. Our team of expert negotiators and lawyers specializes in MSME debt resolution, ensuring your business stays protected while you achieve a financially viable settlement.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -658,9 +658,9 @@ export default function MudraLoanSettlementClient() {
                                     Start Legal Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ RBI Compliant Strategies</p>
-                                    <p>✓ Protect Your MSME Assets</p>
-                                    <p>✓ Professional Legal Support</p>
+                                    <p>v RBI Compliant Strategies</p>
+                                    <p>v Protect Your MSME Assets</p>
+                                    <p>v Professional Legal Support</p>
                                 </div>
                             </div>
 

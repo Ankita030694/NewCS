@@ -95,7 +95,7 @@ export default function TataCapitalLoanSettlementPage() {
     },
     {
       question: "How can I get the Tata Capital loan settlement letter?",
-      answer: "The settlement letter is issued by Tata Capital's collections department after your settlement proposal is approved. It must be on the official letterhead and contain details like the settlement amount, payment due date, and a clause stating that the loan will be closed upon payment."
+      answer: "The settlement letter is issued by Tata Capital’s collections department after your settlement proposal is approved. It must be on the official letterhead and contain details like the settlement amount, payment due date, and a clause stating that the loan will be closed upon payment."
     },
     {
       question: "What are the RBI guidelines for NBFC loan settlement?",

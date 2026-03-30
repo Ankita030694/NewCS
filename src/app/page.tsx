@@ -19,7 +19,7 @@ export default function Home() {
     "url": "https://www.credsettle.com",
     "logo": "https://www.credsettle.com/credsettle-logo.svg",
     "image": "https://www.credsettle.com/credsettle-logo-black.png",
-    "description": "India's leading legal loan settlement company specializing in RBI-compliant debt resolution",
+    "description": "India’s leading legal loan settlement company specializing in RBI-compliant debt resolution",
     "telephone": "+91-8800226635",
     "contactPoint": {
       "@type": "ContactPoint",

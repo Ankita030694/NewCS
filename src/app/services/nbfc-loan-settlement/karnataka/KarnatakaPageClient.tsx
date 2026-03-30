@@ -8,7 +8,7 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 
 const heroCopy = {
-  title: 'NBFC Loan Settlement in Karnataka – Policy-Savvy Relief for Bengaluru & Beyond',
+  title: 'NBFC Loan Settlement in Karnataka - Policy-Savvy Relief for Bengaluru & Beyond',
   description:
     'Karnataka’s borrowers range from Bengaluru tech founders and Mysuru retailers to coastal logistics fleets and microfinance borrowers in the Malnad belt. CredSettle’s Karnataka desk combines RBI expertise with knowledge of the 2025 state anti-coercion law to negotiate compliant settlements, halt harassment, and close outstanding NBFC loans legally.'
 };
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: 'How much settlement reduction is typical in Bengaluru or Mysuru?',
     answer:
-      'Most Karnataka clients achieve 40–70% reductions depending on the loan type, overdue tenure, and documentation quality. Vehicle loans in logistics corridors often settle around 50%, while unsecured fintech loans may see higher waivers once we evidence income disruption.'
+      'Most Karnataka clients achieve 40-70% reductions depending on the loan type, overdue tenure, and documentation quality. Vehicle loans in logistics corridors often settle around 50%, while unsecured fintech loans may see higher waivers once we evidence income disruption.'
   },
   {
     question: 'What if my case is already filed in the Karnataka Debt Recovery Tribunal or civil court?',
@@ -47,8 +47,8 @@ const sections = [
     title: 'Karnataka Credit Landscape: Tech Capital Meets Microfinance Heartland',
     level: 2,
     content: [
-      "Karnataka is India’s technology launchpad and also a major microfinance hub. Bengaluru’s start-ups, IT parks, and gig economy rely on quick NBFC funding for expansion, employee relocation, and vehicle fleets. In contrast, coffee, pepper, and areca nut growers in Kodagu and Malnad districts use NBFC microloans to manage seasonal cash flow. The same depth of credit access turns risky when revenue cycles stumble – layoffs in tech corridors, delayed export payments in coastal logistics, or crop disease outbreaks can make EMIs unmanageable overnight.",
-      "Lenders deploy multi-channel recovery teams from Whitefield to Belagavi, with data-driven dialers, doorstep collection, and social media nudges. Borrowers facing twin shocks – high urban living costs plus aggressive follow-ups – need a settlement partner that understands both RBI regulations and state-level protections. CredSettle fills that gap with a Karnataka-specific command centre staffed by negotiators, advocates, and chartered accountants."],
+      "Karnataka is India’s technology launchpad and also a major microfinance hub. Bengaluru’s start-ups, IT parks, and gig economy rely on quick NBFC funding for expansion, employee relocation, and vehicle fleets. In contrast, coffee, pepper, and areca nut growers in Kodagu and Malnad districts use NBFC microloans to manage seasonal cash flow. The same depth of credit access turns risky when revenue cycles stumble - layoffs in tech corridors, delayed export payments in coastal logistics, or crop disease outbreaks can make EMIs unmanageable overnight.",
+      "Lenders deploy multi-channel recovery teams from Whitefield to Belagavi, with data-driven dialers, doorstep collection, and social media nudges. Borrowers facing twin shocks - high urban living costs plus aggressive follow-ups - need a settlement partner that understands both RBI regulations and state-level protections. CredSettle fills that gap with a Karnataka-specific command centre staffed by negotiators, advocates, and chartered accountants."],
   },
   {
     id: 'nbfc-coverage-karnataka',
@@ -69,10 +69,10 @@ const sections = [
   },
   {
     id: 'credsettle-karnataka-method',
-    title: "CredSettle's Karnataka Settlement Methodology",
+    title: "CredSettle’s Karnataka Settlement Methodology",
     level: 2,
     content: [
-      "Our Karnataka methodology runs on five pillars. Pillar one is situation mapping: gathering loan agreements, EMI histories, co-applicant data, Udyam registrations, SHG passbooks, and GST returns. Pillar two enforces compliance – legal notices to NBFC headquarters, field recovery agencies, and if required, to the jurisdictional police station citing the anti-coercion act.",
+      "Our Karnataka methodology runs on five pillars. Pillar one is situation mapping: gathering loan agreements, EMI histories, co-applicant data, Udyam registrations, SHG passbooks, and GST returns. Pillar two enforces compliance - legal notices to NBFC headquarters, field recovery agencies, and if required, to the jurisdictional police station citing the anti-coercion act.",
       "Pillar three constructs negotiation dossiers. We analyse each NBFC’s provisioning matrix, quarter-end targets, and appetite for OTS in light of the new state regulations. Pillar four finalises settlements, vetting offer letters for complete release clauses, cheque destruction assurances, and credit bureau update commitments.",
       "Pillar five covers closure and rehabilitation: collecting NOCs, coordinating vehicle hypothecation releases at RTOs, supporting property lien removals, and scheduling credit rebuild coaching. Clients receive monthly tracker updates until every document and bureau entry reflects the new status."],
   },
@@ -144,7 +144,7 @@ const headings = [
   { id: 'karnataka-credit-landscape', text: 'Karnataka Credit Landscape', level: 2 },
   { id: 'nbfc-coverage-karnataka', text: 'NBFC Coverage Across Karnataka', level: 2 },
   { id: 'regulatory-safeguards', text: 'Regulatory Safeguards', level: 2 },
-  { id: 'credsettle-karnataka-method', text: "CredSettle's Karnataka Methodology", level: 2 },
+  { id: 'credsettle-karnataka-method', text: "CredSettle’s Karnataka Methodology", level: 2 },
   { id: 'sector-playbooks', text: 'Sector Playbooks', level: 2 },
   { id: 'legal-forums-karnataka', text: 'Legal Forums', level: 2 },
   { id: 'step-plan-karnataka', text: 'Step-by-Step Game Plan', level: 2 },

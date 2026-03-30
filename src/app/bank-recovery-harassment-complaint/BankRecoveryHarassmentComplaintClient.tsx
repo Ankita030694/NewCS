@@ -75,11 +75,11 @@ export default function BankRecoveryHarassmentComplaintClient() {
     const faqs = [
         {
             question: 'What is the first step when a bank recovery agent starts harassing me?',
-            answer: 'The absolute first step is to file a formal written complaint with the bank\'s Grievance Redressal Officer (GRO). You must do this before going to the RBI Ombudsman. Describe the incidents clearly and state that you are being harassed in violation of the RBI Fair Practices Code. The bank has 30 days to resolve this.'
+            answer: 'The absolute first step is to file a formal written complaint with the bank’s Grievance Redressal Officer (GRO). You must do this before going to the RBI Ombudsman. Describe the incidents clearly and state that you are being harassed in violation of the RBI Fair Practices Code. The bank has 30 days to resolve this.'
         },
         {
             question: 'Can I file an RBI complaint online?',
-            answer: 'Yes. The RBI has a dedicated portal called the Complaint Management System (CMS) at cms.rbi.org.in. You can upload all your evidence, including call recordings and screenshots. It is the most effective way to get a bank\'s attention and stop harassment.'
+            answer: 'Yes. The RBI has a dedicated portal called the Complaint Management System (CMS) at cms.rbi.org.in. You can upload all your evidence, including call recordings and screenshots. It is the most effective way to get a bank’s attention and stop harassment.'
         },
         {
             question: 'What sections of the IPC apply to recovery agent harassment?',
@@ -95,7 +95,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
         },
         {
             question: 'How do I find the Principal Nodal Officer of my bank?',
-            answer: 'Every bank is required to publish this on their website under segments like "Grievance Redressal" or "Contact Us." You can also find a comprehensive list on the RBI\'s main website. If you cannot find it, you can email us at CredSettle for the latest contact matrix.'
+            answer: 'Every bank is required to publish this on their website under segments like "Grievance Redressal" or "Contact Us." You can also find a comprehensive list on the RBI’s main website. If you cannot find it, you can email us at CredSettle for the latest contact matrix.'
         },
         {
             question: 'Can I claim compensation for the mental agony I suffered?',
@@ -103,7 +103,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
         },
         {
             question: 'What happens to the agent after I file an FIR?',
-            answer: 'If the police find merit in your FIR, the agent can be arrested or summoned for questioning. More importantly, the bank usually terminates the agency\'s contract and pulls the case back from them to minimize their own legal exposure.'
+            answer: 'If the police find merit in your FIR, the agent can be arrested or summoned for questioning. More importantly, the bank usually terminates the agency’s contract and pulls the case back from them to minimize their own legal exposure.'
         },
         {
             question: 'Should I file a complaint if I actually owe the money?',
@@ -126,7 +126,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
             name: 'Meera Nair',
             location: 'Kochi',
             stars: 5,
-            comment: 'The FIR portion was very helpful. The police initially said it\'s a bank matter, but when I showed them Section 506 of IPC as suggested, they registered my complaint. The calls stopped immediately.'
+            comment: 'The FIR portion was very helpful. The police initially said it’s a bank matter, but when I showed them Section 506 of IPC as suggested, they registered my complaint. The calls stopped immediately.'
         },
         {
             name: 'Sunil Verma',
@@ -261,7 +261,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
                         <span className="text-blue-300">File a Winning Complaint</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Don't tolerate illegal tactics. Follow our technical guide to file complaints with Banks, the RBI Ombudsman, and the Police to end the harassment.
+                        Don’t tolerate illegal tactics. Follow our technical guide to file complaints with Banks, the RBI Ombudsman, and the Police to end the harassment.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -382,7 +382,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
                         <article className="prose prose-slate max-w-none">
                             <h2 id="complaint-overview" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Architecture of a Winning Complaint</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Harassment by bank recovery agents is not just a nuisance; it is a systemic violation of your civilian rights. To stop it, you must move beyond verbal arguments with agents. You need a structured "Complaint Engine" that triggers multi-level pressure on the bank's compliance department. A successful complaint is not an emotional plea it is a technical document that cites specific RBI guidelines and Indian Penal Code sections.
+                                Harassment by bank recovery agents is not just a nuisance; it is a systemic violation of your civilian rights. To stop it, you must move beyond verbal arguments with agents. You need a structured "Complaint Engine" that triggers multi-level pressure on the bank’s compliance department. A successful complaint is not an emotional plea it is a technical document that cites specific RBI guidelines and Indian Penal Code sections.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In this exhaustive 4000+ word guide, we will provide you with the exact technical roadmap to file complaints that get results. We will cover the 30-day "Exhaustion Requirement," the Integrated Ombudsman Scheme 2021-2026, and the precise IPC sections needed for an FIR. By the end of this page, you will be equipped to take command of the legal narrative and force the bank into a reasonable settlement.
@@ -401,10 +401,10 @@ export default function BankRecoveryHarassmentComplaintClient() {
 
                             <h2 id="level-2-ombudsman" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Phase 2: Escalating to the Integrated RBI Ombudsman</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If the bank's response is unsatisfactory, or if there is no response for 30 days, the "Power of the Regulator" comes into play. The Integrated Ombudsman Scheme (IOS) is the most powerful tool a borrower has. It covers banks, NBFCs, and digital lenders alike.
+                                If the bank’s response is unsatisfactory, or if there is no response for 30 days, the "Power of the Regulator" comes into play. The Integrated Ombudsman Scheme (IOS) is the most powerful tool a borrower has. It covers banks, NBFCs, and digital lenders alike.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Ombudsman acts as a fast-track judge. They don't just look at whether you owe money; they look at whether the bank behaved correctly. If you have proof of harassment during 7 PM to 8 AM, or proof of agents contacting third parties, the Ombudsman can:
+                                The Ombudsman acts as a fast-track judge. They don’t just look at whether you owe money; they look at whether the bank behaved correctly. If you have proof of harassment during 7 PM to 8 AM, or proof of agents contacting third parties, the Ombudsman can:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-4 text-gray-700 font-light">
                                 <li>Award compensation of up to 1 lakh rupees for mental agony.</li>
@@ -466,12 +466,12 @@ export default function BankRecoveryHarassmentComplaintClient() {
 
                             <h2 id="ombudsman-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">2026 Integrated Scheme: What Is Changing?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                By early 2026, the RBI is expected to launch "Automated Compliance Audits." This means the CMS will be linked to a bank's call logs. If your complaint provides a phone number that is not registered with the bank as an official recovery line, the bank will be automatically flagged for "Unregistered Third Party Engagement." This will make the complaint process even faster, from 60 days down to 15 days for a resolution.
+                                By early 2026, the RBI is expected to launch "Automated Compliance Audits." This means the CMS will be linked to a bank’s call logs. If your complaint provides a phone number that is not registered with the bank as an official recovery line, the bank will be automatically flagged for "Unregistered Third Party Engagement." This will make the complaint process even faster, from 60 days down to 15 days for a resolution.
                             </p>
 
                             <h2 id="nodal-officer-matrix" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Nodal Officer Matrix: Finding the Right Door</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Sending a complaint to a local branch manager is like shouting into a well. You must reach the Principal Nodal Officer (PNO) at the bank's Head Office. These individuals are responsible to the RBI, not to local recovery targets. We maintain a live database of PNO emails for HDFC, ICICI, SBI, Axis, and all major NBFCs. Contacting them directly bypasses the "Recovery Agent Filter" and puts your case in front of a compliance lawyer.
+                                Sending a complaint to a local branch manager is like shouting into a well. You must reach the Principal Nodal Officer (PNO) at the bank’s Head Office. These individuals are responsible to the RBI, not to local recovery targets. We maintain a live database of PNO emails for HDFC, ICICI, SBI, Axis, and all major NBFCs. Contacting them directly bypasses the "Recovery Agent Filter" and puts your case in front of a compliance lawyer.
                             </p>
 
                             <h2 id="evidence-locking" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Evidence Locking: Making Your Proof Tamper-Proof</h2>
@@ -488,7 +488,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
 
                             <h2 id="harassment-compensation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Claiming Damages: Converting Pain to Profit</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Do not just ask for the harassment to stop. Ask for Damages. If an agent's call caused you to lose a client at work, or if their visit caused you to seek medical help for chest pain, these are quantifiable losses. Indian courts have awarded between 25,000 to some lakhs in "Mental Agony" damages for bank harassment cases.
+                                Do not just ask for the harassment to stop. Ask for Damages. If an agent’s call caused you to lose a client at work, or if their visit caused you to seek medical help for chest pain, these are quantifiable losses. Indian courts have awarded between 25,000 to some lakhs in "Mental Agony" damages for bank harassment cases.
                             </p>
 
                             <h2 id="debt-settlement-link" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Final Goal: Resolving the Root Cause</h2>
@@ -576,9 +576,9 @@ export default function BankRecoveryHarassmentComplaintClient() {
                                     Start My Case
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Ombudsman Draft Included</p>
-                                    <p>✓ FIR Legal Support</p>
-                                    <p>✓ 100% Data Privacy</p>
+                                    <p>v Ombudsman Draft Included</p>
+                                    <p>v FIR Legal Support</p>
+                                    <p>v 100% Data Privacy</p>
                                 </div>
                             </div>
 

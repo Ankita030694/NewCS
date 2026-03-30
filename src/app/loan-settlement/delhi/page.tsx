@@ -106,7 +106,7 @@ export default function DelhiLoanSettlementPage() {
       },
       {
         "@type": "Question",
-        "name": "Will I go to jail if I don't pay my personal loan in Delhi?",
+        "name": "Will I go to jail if I don’t pay my personal loan in Delhi?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "No, defaulting on a personal loan is a civil matter, not a criminal offense. You cannot be arrested for non-payment of a personal loan."
@@ -117,7 +117,7 @@ export default function DelhiLoanSettlementPage() {
         "name": "What is the role of the RBI Ombudsman in Delhi?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The RBI Ombudsman acts as a senior grievance redressal authority. If a bank in Delhi is harassing you and doesn't resolve your complaint within 30 days, you can escalate the matter to the RBI Ombudsman."
+          "text": "The RBI Ombudsman acts as a senior grievance redressal authority. If a bank in Delhi is harassing you and doesn’t resolve your complaint within 30 days, you can escalate the matter to the RBI Ombudsman."
         }
       },
       {
@@ -125,7 +125,7 @@ export default function DelhiLoanSettlementPage() {
         "name": "How long does the entire settlement process take?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The timeline varies but typically takes between 2 weeks to 4 months, depending on the bank's internal approvals and negotiations."
+          "text": "The timeline varies but typically takes between 2 weeks to 4 months, depending on the bank’s internal approvals and negotiations."
         }
       },
       {

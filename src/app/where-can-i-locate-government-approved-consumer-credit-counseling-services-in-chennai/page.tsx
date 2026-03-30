@@ -44,15 +44,15 @@ export default function ChennaiCounselingPage() {
     },
     {
       question: "Are there online alternatives to physical centers in Chennai?",
-      answer: "Yes, digital platforms like CredSettle and SettleLoans offer online consultations. Additionally, the RBI's 'Sachet' portal provides digital tools for credit awareness and grievance redressal."
+      answer: "Yes, digital platforms like CredSettle and SettleLoans offer online consultations. Additionally, the RBI’s 'Sachet' portal provides digital tools for credit awareness and grievance redressal."
     },
     {
       question: "How do I complain about a bank through these centers?",
-      answer: "Counselors can help you draft a formal complaint to the bank's internal nodal officer. If you don't receive a response within 30 days, they can guide you on how to approach the RBI Ombudsman."
+      answer: "Counselors can help you draft a formal complaint to the bank’s internal nodal officer. If you don’t receive a response within 30 days, they can guide you on how to approach the RBI Ombudsman."
     },
     {
       question: "Can these centers stop domestic visits from recovery agents?",
-      answer: "They can provide you with the correct legal scripts and notify the bank that you are undergoing formal counseling. This often forces banks to instruct their agents to follow the RBI's Fair Practice Code, preventing harassment."
+      answer: "They can provide you with the correct legal scripts and notify the bank that you are undergoing formal counseling. This often forces banks to instruct their agents to follow the RBI’s Fair Practice Code, preventing harassment."
     }
   ];
 
@@ -73,7 +73,7 @@ export default function ChennaiCounselingPage() {
       name: "Senthil Kumar",
       location: "Tambaram, Chennai",
       rating: 4,
-      text: "Professional advice without any sales pitch. Being government-recognized, they don't try to sell you more loans. They just focus on how you can get out of debt."
+      text: "Professional advice without any sales pitch. Being government-recognized, they don’t try to sell you more loans. They just focus on how you can get out of debt."
     },
     {
       name: "Anandhi S.",

@@ -329,7 +329,7 @@ export default function ChequeBounceNoidaClient() {
                 <div className="bg-gray-100 p-8 rounded-3xl space-y-6">
                   <div>
                     <h4 className="font-bold text-blue-900 mb-2">1. Filing and Verification</h4>
-                    <p>The complaint is filed through an advocate. The Magistrate examines the complaint and the accompanying documents. The complainant's statement is often recorded via an affidavit (Section 145 NI Act).</p>
+                    <p>The complaint is filed through an advocate. The Magistrate examines the complaint and the accompanying documents. The complainant’s statement is often recorded via an affidavit (Section 145 NI Act).</p>
                   </div>
                   <div>
                     <h4 className="font-bold text-blue-900 mb-2">2. Issuance of Summons</h4>
@@ -363,7 +363,7 @@ export default function ChequeBounceNoidaClient() {
                   This order can be passed even before the trial fully begins, usually at the stage when the accused pleads "not guilty." The drawer MUST pay this amount within 60 days of the order. This is a tremendous advantage for businesses in Noida who need liquidity and cannot wait for a 3-year trial.
                 </p>
                 <p>
-                  Failure to pay this interim compensation can lead to the court initiating recovery proceedings against the accused's assets. For the complainant, this provides immediate financial relief and, more importantly, puts massive pressure on the accused to settle the remaining 80% out of court. In many <strong>cheque bounce cases in Gautam Buddha Nagar</strong>, the 143A order is the catalyst that brings the drawer to the settlement table.
+                  Failure to pay this interim compensation can lead to the court initiating recovery proceedings against the accused’s assets. For the complainant, this provides immediate financial relief and, more importantly, puts massive pressure on the accused to settle the remaining 80% out of court. In many <strong>cheque bounce cases in Gautam Buddha Nagar</strong>, the 143A order is the catalyst that brings the drawer to the settlement table.
                 </p>
               </div>
 
@@ -373,7 +373,7 @@ export default function ChequeBounceNoidaClient() {
                   A Section 138 case is won or lost on the strength of its documentation. Courts in Noida are very precise about the "chain of custody" of the cheque. Before you initiate legal action, ensure your "evidence file" is complete:
                 </p>
                 <ul className="list-disc pl-6 space-y-3">
-                  <li><strong>The Original Cheque:</strong> Ensure it has no overwriting that isn't countersigned.</li>
+                  <li><strong>The Original Cheque:</strong> Ensure it has no overwriting that isn’t countersigned.</li>
                   <li><strong>The Cheque Return Memo:</strong> Check that the date of return is clearly visible.</li>
                   <li><strong>The Legal Notice:</strong> A signed copy of the notice exactly as it was sent.</li>
                   <li><strong>Postal Proofs:</strong> The original receipts from India Post and the "Acknowledge Due" card or tracking printout.</li>
@@ -402,7 +402,7 @@ export default function ChequeBounceNoidaClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "I had a bounced cheque of 12 lakhs from a contractor in Sector 63. CredSettle legal team handled everything at the Surajpur court. The 20% interim compensation was ordered in the third hearing itself. Highly recommended."
@@ -411,7 +411,7 @@ export default function ChequeBounceNoidaClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "The legal notice drafted by their Noida experts was so intense that the drawer called me the next day to settle the amount. Saved me months of court time. Best service for 138 cases."
@@ -420,7 +420,7 @@ export default function ChequeBounceNoidaClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "Transparent pricing and very professional advocates. They represent my company for all B2B payment issues in Noida. Their understanding of the NI Act is top notch."
@@ -441,7 +441,7 @@ export default function ChequeBounceNoidaClient() {
 
               <div className="mt-16 p-8 bg-blue-950 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Don't Delay Your Recovery</h2>
+                  <h2 className="text-3xl font-bold mb-4">Don’t Delay Your Recovery</h2>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">The 30-day timeline for legal notice is strict. Every day you wait is a day closer to losing your legal right to prosecute. Speak to a Noida Section 138 expert now.</p>
                   <Link 
                     href="/contact"

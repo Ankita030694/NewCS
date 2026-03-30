@@ -207,7 +207,7 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Gujarat, known for entrepreneurial spirit and vibrant MSME sector, leads India in business ownership per capita. From Surat's diamond cutting and textile powerhouses to Ahmedabad's pharmaceutical and chemical industries, Vadodara's manufacturing belt to Rajkot's engineering units, millions of Gujaratis borrow for business expansion, inventory purchase and working capital needs.
+                    Gujarat, known for entrepreneurial spirit and vibrant MSME sector, leads India in business ownership per capita. From Surat’s diamond cutting and textile powerhouses to Ahmedabad’s pharmaceutical and chemical industries, Vadodara’s manufacturing belt to Rajkot’s engineering units, millions of Gujaratis borrow for business expansion, inventory purchase and working capital needs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Personal and business loan settlement</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution across India including Gujarat. When your business faces cash flow crisis or personal income drops, settlement provides proper exit without years of harassment or legal battles.
@@ -240,7 +240,7 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Gujarat's economy runs on entrepreneurship. From small family shops to large manufacturing units, Gujaratis start businesses at much higher rates than national average. This creates specific borrowing patterns. People take business loans for inventory, machinery, shop expansion. Personal loans often go into business during cash crunches. Working capital loans sustain operations. Credit cards fund immediate business needs.
+                    Gujarat’s economy runs on entrepreneurship. From small family shops to large manufacturing units, Gujaratis start businesses at much higher rates than national average. This creates specific borrowing patterns. People take business loans for inventory, machinery, shop expansion. Personal loans often go into business during cash crunches. Working capital loans sustain operations. Credit cards fund immediate business needs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>The Gujarat borrowing model:</strong> Business owners borrow big during expansion phases. Diamond trader in Surat takes ₹20-50 lakhs for rough diamond inventory. Textile manufacturer in Ahmedabad borrows ₹30-80 lakhs for new looms and working capital. Pharmaceutical distributor in Vadodara gets ₹15-40 lakhs for stock. When export orders drop, raw material prices spike or payment cycles extend, these businesses get stuck. EMIs become impossible to pay.
@@ -279,22 +279,22 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Surat Diamond Trade Crisis:</strong> Surat processes 90% of world's diamonds. When global demand drops (happened 2023), thousands of diamond traders get stuck. They borrow to buy rough diamonds (₹20-80 lakhs per lot), process them, then sell polished. If polished diamonds don't sell or prices crash, entire cash flow stops. We've settled 400+ Surat diamond trader loans. Strategy: Show lenders the diamond trade data, export figures and prove crisis is sector-wide using Gem and Jewelry Export Council statistics.
+                    <strong>1. Surat Diamond Trade Crisis:</strong> Surat processes 90% of world’s diamonds. When global demand drops (happened 2023), thousands of diamond traders get stuck. They borrow to buy rough diamonds (₹20-80 lakhs per lot), process them, then sell polished. If polished diamonds don’t sell or prices crash, entire cash flow stops. We’ve settled 400+ Surat diamond trader loans. Strategy: Show lenders the diamond trade data, export figures and prove crisis is sector-wide using Gem and Jewelry Export Council statistics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. Textile Manufacturing Squeeze:</strong> Ahmedabad and Surat textile units face margin pressures. Raw material (cotton, polyester) prices spike, labor costs increase, but buyers (mostly export) refuse price hikes. Many manufacturers borrowed ₹30-80 lakhs for machinery or working capital. When margins disappear or export orders cancel, loan payments become impossible. We negotiate using textile industry reports and margin squeeze data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Pharmaceutical Distribution Cash Crunch:</strong> Ahmedabad and Vadodara have strong pharma distribution networks. Distributors borrow ₹20-50 lakhs for medicine stock. When hospitals or retailers delay payments by 90-120 days (common in pharma), distributors get cash stuck. Cannot pay EMIs even though sales happened. We've settled many pharma distributor cases explaining working capital cycle issues to lenders.
+                    <strong>3. Pharmaceutical Distribution Cash Crunch:</strong> Ahmedabad and Vadodara have strong pharma distribution networks. Distributors borrow ₹20-50 lakhs for medicine stock. When hospitals or retailers delay payments by 90-120 days (common in pharma), distributors get cash stuck. Cannot pay EMIs even though sales happened. We’ve settled many pharma distributor cases explaining working capital cycle issues to lenders.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Engineering Unit GST Impact:</strong> Rajkot and Jamnagar engineering units (auto parts, machine tools) faced GST transition badly. Cash flow disrupted, working capital locked in GST credits, buyers delayed payments. Many units borrowed to bridge gap. Some couldn't recover. We settle these using GST transition documentation and industry association reports.
+                    <strong>4. Engineering Unit GST Impact:</strong> Rajkot and Jamnagar engineering units (auto parts, machine tools) faced GST transition badly. Cash flow disrupted, working capital locked in GST credits, buyers delayed payments. Many units borrowed to bridge gap. Some couldn’t recover. We settle these using GST transition documentation and industry association reports.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>5. Chemical Industry Volatility:</strong> Vadodara and Vapi chemical manufacturers face raw material price swings and environmental compliance costs. Borrowed for expansion or pollution control equipment. When chemical prices crash or orders drop, EMIs become burden. We handle chemical industry cases understanding sector regulations and market dynamics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Real Estate Construction Debt:</strong> Gujarat saw massive real estate boom. Developers and contractors borrowed heavily. Then market corrected 2018-2022. Projects stalled, buyer payments stopped, loans accumulated. We've settled construction-related loans using RERA data and market correction reports.
+                    <strong>6. Real Estate Construction Debt:</strong> Gujarat saw massive real estate boom. Developers and contractors borrowed heavily. Then market corrected 2018-2022. Projects stalled, buyer payments stopped, loans accumulated. We’ve settled construction-related loans using RERA data and market correction reports.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>7. Multiple Business + Personal Loan Mix:</strong> Common Gujarat pattern: Business loan for company, personal loan for additional working capital, credit cards for immediate needs, property loan against shop or factory. When business fails, entire debt structure collapses (₹40 lakhs to ₹1 crore total). We handle these complex cases negotiating all loans together, not separately.
@@ -324,10 +324,10 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled 11,000+ loan settlements across Gujarat in last four years. Our Gujarat clients save an average of 61% on their debt (highest in Western India). We work with all major banks, regional banks, cooperative societies and NBFCs operating in Ahmedabad, Surat, Vadodara and across the state.
+                    We’ve handled 11,000+ loan settlements across Gujarat in last four years. Our Gujarat clients save an average of 61% on their debt (highest in Western India). We work with all major banks, regional banks, cooperative societies and NBFCs operating in Ahmedabad, Surat, Vadodara and across the state.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Why we succeed in Gujarat:</strong> We're registered legal services company, not agents. Every settlement follows RBI rules strictly. We have business-focused lawyers and financial experts in Ahmedabad who understand Gujarat's unique business culture, speak Gujarati, know the trade association networks, and respect the community values that drive Gujarat business world.
+                    <strong>Why we succeed in Gujarat:</strong> We’re registered legal services company, not agents. Every settlement follows RBI rules strictly. We have business-focused lawyers and financial experts in Ahmedabad who understand Gujarat’s unique business culture, speak Gujarati, know the trade association networks, and respect the community values that drive Gujarat business world.
                   </p>
 
                   <div id="gujarat-tactics" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -390,13 +390,13 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Gujarat runs efficient Lok Adalat system especially for commercial disputes. This court-backed mediation operates under Legal Services Authorities Act and delivers legally binding orders like regular court judgments. Gujarat business community uses Lok Adalat actively because it's fast, cheap and preserves business relationships.
+                    Gujarat runs efficient Lok Adalat system especially for commercial disputes. This court-backed mediation operates under Legal Services Authorities Act and delivers legally binding orders like regular court judgments. Gujarat business community uses Lok Adalat actively because it’s fast, cheap and preserves business relationships.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>How Gujarat Lok Adalat helps businesses:</strong> You and lender sit with trained mediators in district court premises. Mediators understand business cash flow issues and push both sides toward practical settlement. Zero court fees. Usually resolved in single session (3-4 hours). Decision is final and enforceable. Banks and NBFCs participate actively because it saves them legal costs and time.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Gujarat Lok Adalat experience:</strong> We've represented hundreds of business owners in Lok Adalats across Ahmedabad, Surat, Vadodara, Rajkot districts. We prepare business hardship files in Gujarati and English both (helps with local judges). Write detailed settlement proposals with industry data. Argue cases strongly. 88% success rate in Gujarat Lok Adalat business cases. Settlements typically land at 40-60% of outstanding.
+                    <strong>Our Gujarat Lok Adalat experience:</strong> We’ve represented hundreds of business owners in Lok Adalats across Ahmedabad, Surat, Vadodara, Rajkot districts. We prepare business hardship files in Gujarati and English both (helps with local judges). Write detailed settlement proposals with industry data. Argue cases strongly. 88% success rate in Gujarat Lok Adalat business cases. Settlements typically land at 40-60% of outstanding.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>When Lok Adalat makes sense:</strong> If lender filed court case already, Lok Adalat gives fastest resolution. If your business loan is large (above ₹10 lakhs) and involves secured assets, Lok Adalat provides structured settlement with asset protection. Gujarat State Legal Services Authority conducts regular commercial Lok Adalats specifically for business disputes.
@@ -429,13 +429,13 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Ahmedabad:</strong> Gujarat's largest city and commercial capital. CG Road, SG Highway have corporate offices and banks. Narol, Odhav, Vatva house pharmaceutical and chemical manufacturers. Kalupur, Maninagar have textile traders. We've handled 3,200+ Ahmedabad cases across all sectors. Mix of salaried professionals, business owners and traders. We understand Ahmedabad's diverse economy and negotiate accordingly.
+                    <strong>Ahmedabad:</strong> Gujarat’s largest city and commercial capital. CG Road, SG Highway have corporate offices and banks. Narol, Odhav, Vatva house pharmaceutical and chemical manufacturers. Kalupur, Maninagar have textile traders. We’ve handled 3,200+ Ahmedabad cases across all sectors. Mix of salaried professionals, business owners and traders. We understand Ahmedabad’s diverse economy and negotiate accordingly.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Surat:</strong> Diamond cutting capital of world and textile powerhouse. Diamond traders dominate the economy - thousands of units cutting and polishing. Mini Bazar, Varachha, Katargam areas are diamond hubs. Textile manufacturers and traders operate from Sarthana, Pandesara areas. We've settled 2,800+ Surat loans. Most are business-related. We have diamond industry specialists who understand rough diamond pricing, polished diamond markets, export cycles and trader cash flows. This sector knowledge directly improves settlement terms.
+                    <strong>Surat:</strong> Diamond cutting capital of world and textile powerhouse. Diamond traders dominate the economy - thousands of units cutting and polishing. Mini Bazar, Varachha, Katargam areas are diamond hubs. Textile manufacturers and traders operate from Sarthana, Pandesara areas. We’ve settled 2,800+ Surat loans. Most are business-related. We have diamond industry specialists who understand rough diamond pricing, polished diamond markets, export cycles and trader cash flows. This sector knowledge directly improves settlement terms.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Why Ahmedabad-Surat dominate our work:</strong> These two cities account for 55% of Gujarat's loan settlements we handle. Both have strong entrepreneurial culture, high business loan volumes and complex business structures. Our teams in both cities know local banks, understand trade associations and have relationships with district court systems. When we negotiate, lenders know we're local experts, not outsiders.
+                    <strong>Why Ahmedabad-Surat dominate our work:</strong> These two cities account for 55% of Gujarat’s loan settlements we handle. Both have strong entrepreneurial culture, high business loan volumes and complex business structures. Our teams in both cities know local banks, understand trade associations and have relationships with district court systems. When we negotiate, lenders know we’re local experts, not outsiders.
                   </p>
                 </div>
               </section>
@@ -462,10 +462,10 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Vadodara:</strong> Pharma manufacturing, chemical industries, engineering units. Mix of large companies and MSME suppliers. We've handled 1,500+ Vadodara cases. Many involve working capital loans, machinery financing and inventory purchase loans. We understand Vadodara's industrial estate dynamics and GIDC (Gujarat Industrial Development Corporation) area economics.
+                    <strong>Vadodara:</strong> Pharma manufacturing, chemical industries, engineering units. Mix of large companies and MSME suppliers. We’ve handled 1,500+ Vadodara cases. Many involve working capital loans, machinery financing and inventory purchase loans. We understand Vadodara’s industrial estate dynamics and GIDC (Gujarat Industrial Development Corporation) area economics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Rajkot:</strong> Engineering and auto parts manufacturing hub. Thousands of small units making components, tools, machine parts. Heavy MSME concentration. We've settled 1,200+ Rajkot loans. Mostly business owners and unit operators. We know Rajkot's engineering cluster, understand order-based manufacturing and help negotiate settlements that protect business continuity.
+                    <strong>Rajkot:</strong> Engineering and auto parts manufacturing hub. Thousands of small units making components, tools, machine parts. Heavy MSME concentration. We’ve settled 1,200+ Rajkot loans. Mostly business owners and unit operators. We know Rajkot’s engineering cluster, understand order-based manufacturing and help negotiate settlements that protect business continuity.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Bhavnagar, Jamnagar, Anand:</strong> Ship breaking in Alang-Bhavnagar, oil refineries near Jamnagar, dairy and food processing in Anand. Each city has distinct economy. Full settlement coverage with industry-specific understanding.
@@ -498,7 +498,7 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Business Culture Understanding:</strong> We know Gujarat's entrepreneurial spirit, Jode partnerships, family business structures, trade association influence. This cultural understanding improves negotiation outcomes.
+                    <strong>1. Business Culture Understanding:</strong> We know Gujarat’s entrepreneurial spirit, Jode partnerships, family business structures, trade association influence. This cultural understanding improves negotiation outcomes.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. Industry Expertise:</strong> Diamond trade specialists, textile sector knowledge, pharma distribution understanding, engineering cluster experience. We speak your business language.
@@ -507,7 +507,7 @@ export default function GujaratPageClient() {
                     <strong>3. Reputation Protection:</strong> We stop recovery visits to business premises within 3-5 days. Critical for maintaining standing in Gujarat business communities where word spreads fast.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Save 30-70% Debt:</strong> Gujarat clients save 61% on average (highest in West India). That's lakhs saved to reinvest in business or personal needs.
+                    <strong>4. Save 30-70% Debt:</strong> Gujarat clients save 61% on average (highest in West India). That’s lakhs saved to reinvest in business or personal needs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>5. Lok Adalat Mastery:</strong> 88% success rate in Gujarat Lok Adalat business cases. Hundreds handled across districts. We know the system intimately.
@@ -606,7 +606,7 @@ export default function GujaratPageClient() {
                     <strong>Step 4: Industry-Based Negotiation (Weeks 3-8)</strong> - Our Gujarat team contacts lender NPA divisions with industry data. Diamond trade reports, textile export statistics, pharma payment cycles, whatever applies. Push for 35-70% debt reduction using sector knowledge.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Step 5: Lock Settlement Terms (Weeks 8-10)</strong> - Lender agrees. We get formal OTS letter with all terms. Legal team verifies asset clauses if applicable. You don't pay until everything is confirmed.
+                    <strong>Step 5: Lock Settlement Terms (Weeks 8-10)</strong> - Lender agrees. We get formal OTS letter with all terms. Legal team verifies asset clauses if applicable. You don’t pay until everything is confirmed.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Step 6: Arrange Payment (Weeks 10-12)</strong> - You organize settlement amount (lump sum or installments if negotiated). Many Gujarat business owners use business cash reserves, partner contributions or asset liquidation. Pay directly to lender. We get receipt.
@@ -648,7 +648,7 @@ export default function GujaratPageClient() {
                     <strong>The Entrepreneur:</strong> Ketan P., age 38, diamond trader in Mini Bazar, Surat. Family diamond business for 15 years. Had borrowed ₹42 lakhs total (2 business loans for rough diamond purchase, 1 working capital loan, 1 personal loan for business cash flow, 2 credit cards).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Crashed:</strong> Global diamond demand dropped sharply in late 2022-2023. China market collapsed, US buyers reduced orders by 60%. Lab-grown diamond competition hurt natural diamond prices. Ketan had ₹35 lakhs worth of polished diamonds inventory that wouldn't sell at profitable prices. Couldn't pay EMIs on ₹25 lakhs business loans, ₹10 lakhs personal loan and ₹7 lakhs credit cards. All accounts went NPA. Recovery agents called 30+ times daily, visited his Mini Bazar office repeatedly, spoke to other traders in diamond market (damaged reputation). CIBIL fell from 770 to 505. Feared losing diamond business and family standing in Surat diamond community.
+                    <strong>What Crashed:</strong> Global diamond demand dropped sharply in late 2022-2023. China market collapsed, US buyers reduced orders by 60%. Lab-grown diamond competition hurt natural diamond prices. Ketan had ₹35 lakhs worth of polished diamonds inventory that wouldn’t sell at profitable prices. Couldn’t pay EMIs on ₹25 lakhs business loans, ₹10 lakhs personal loan and ₹7 lakhs credit cards. All accounts went NPA. Recovery agents called 30+ times daily, visited his Mini Bazar office repeatedly, spoke to other traders in diamond market (damaged reputation). CIBIL fell from 770 to 505. Feared losing diamond business and family standing in Surat diamond community.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>We Took Charge:</strong> Ketan contacted us November 2023. We sent immediate legal notices to all 6 lenders. Harassment stopped in 4 days. Our assessment showed genuine sector crisis - diamond trade association data, export statistics, lab-grown diamond impact reports, inventory valuation. We documented everything in detail including rough diamond purchase invoices and unsold polished stock records.
@@ -660,7 +660,7 @@ export default function GujaratPageClient() {
                     <strong>Final Result:</strong> ₹42 lakhs outstanding became ₹18.5 lakhs settlement. Saved ₹23.5 lakhs (56% reduction). Ketan arranged money by selling part of diamond inventory at market rates (took 10% loss but worth it), partner contribution and family gold. All 6 accounts closed legally with proper NOCs. Business reputation preserved. Recovery stopped completely.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Current Status:</strong> Ketan is debt-free. Running diamond business at smaller scale focusing on domestic market. Reputation restored in Surat diamond community. CIBIL improved to 685 after 16 months. We guided him on business credit rebuilding and working capital management. His feedback: "CredSettle understood diamond business cycles. Banks didn't know rough versus polished or global demand patterns, but CredSettle explained everything in language lenders understood. They saved my family business and honor in diamond community."
+                    <strong>Current Status:</strong> Ketan is debt-free. Running diamond business at smaller scale focusing on domestic market. Reputation restored in Surat diamond community. CIBIL improved to 685 after 16 months. We guided him on business credit rebuilding and working capital management. His feedback: "CredSettle understood diamond business cycles. Banks didn’t know rough versus polished or global demand patterns, but CredSettle explained everything in language lenders understood. They saved my family business and honor in diamond community."
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Timeline:</strong> November 2023 first call, December-January negotiation, February 2024 payment, March 2024 closure. Total: 4 months.
@@ -690,7 +690,7 @@ export default function GujaratPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Stuck with business or personal loan debt in Ahmedabad, Surat, Vadodara, Rajkot or anywhere in Gujarat? You don't need to fight this alone. Settlement is legal. RBI backs it. It exists for businesses facing cash flow crisis and individuals with real financial problems.
+                    Stuck with business or personal loan debt in Ahmedabad, Surat, Vadodara, Rajkot or anywhere in Gujarat? You don’t need to fight this alone. Settlement is legal. RBI backs it. It exists for businesses facing cash flow crisis and individuals with real financial problems.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Debt ruins business and life. Your health suffers, family worries constantly, business focus disappears, community respect drops, sleep vanishes. Each day you delay, penalties grow, interest compounds, CIBIL falls further, stress multiplies. But proper exit exists. Over 11,000 Gujarati families and businesses already got financial freedom through our settlement work.
@@ -699,10 +699,10 @@ export default function GujaratPageClient() {
                     <strong>Start today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest business assessment and clear options. Our Gujarat experts will show exactly how to stop harassment, cut debt 30-70% and close everything legally. We understand diamond trade, textile manufacturing, pharma distribution, engineering units - whatever your business or situation is.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Business problems are temporary cycles. But unresolved debt drags for years destroying everything you built. With our legal team, Gujarat business knowledge and 11,000+ case experience, you can end this crisis properly and restart. Don't let debt destroy your entrepreneurial spirit. Act now.
+                    Business problems are temporary cycles. But unresolved debt drags for years destroying everything you built. With our legal team, Gujarat business knowledge and 11,000+ case experience, you can end this crisis properly and restart. Don’t let debt destroy your entrepreneurial spirit. Act now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Ahmedabad offices, Surat diamond market, Vadodara factories, Rajkot workshops or any Gujarat district. Wherever you are, debt-free business life is possible. We'll help you reach there.
+                    <strong>Call CredSettle for free consultation.</strong> Ahmedabad offices, Surat diamond market, Vadodara factories, Rajkot workshops or any Gujarat district. Wherever you are, debt-free business life is possible. We’ll help you reach there.
                   </p>
                 </div>
               </section>

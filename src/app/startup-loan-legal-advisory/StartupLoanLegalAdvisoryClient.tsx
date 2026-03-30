@@ -118,7 +118,7 @@ export default function StartupLoanLegalAdvisoryClient() {
             name: "Rajesh Khanna",
             location: "Bangalore",
             stars: 5,
-            comment: "As a first time founder, I was lost in the legal jargon of loan agreements and SHA. CredSettle's advisory helped me secure a CGTMSE loan without falling into the trap of personal guarantees that were being pushed by the bank manager."
+            comment: "As a first time founder, I was lost in the legal jargon of loan agreements and SHA. CredSettle’s advisory helped me secure a CGTMSE loan without falling into the trap of personal guarantees that were being pushed by the bank manager."
         },
         {
             name: "Sneha Reddy",
@@ -130,7 +130,7 @@ export default function StartupLoanLegalAdvisoryClient() {
             name: "Vikram Malhotra",
             location: "Mumbai",
             stars: 5,
-            comment: "The navigaiton system is amazing. I specifically used the IPR strategy section to protect our fintech's core algorithm. The team at CredSettle really knows the 2025 regulatory landscape of India."
+            comment: "The navigaiton system is amazing. I specifically used the IPR strategy section to protect our fintech’s core algorithm. The team at CredSettle really knows the 2025 regulatory landscape of India."
         },
         {
             name: "Amitabh Joshi",
@@ -321,7 +321,7 @@ export default function StartupLoanLegalAdvisoryClient() {
 
                             <h2 id="entity-selection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: Navigating the Legal Foundation - Entity Selection</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The first legal decision a founder makes is the 'Vehicle' through which they will operate. In the eyes of a lender, the legal structure of your startup determines the level of liability and the ease of recovery. In 2025, the **Private Limited Company** remains the gold standard for anyone seeking institutional debt or venture capital. It provides a 'Separate Legal Entity' status, meaning the bank's claim is against the company's assets, not the founder's personal house or car (provided no personal guarantees are signed).
+                                The first legal decision a founder makes is the 'Vehicle' through which they will operate. In the eyes of a lender, the legal structure of your startup determines the level of liability and the ease of recovery. In 2025, the **Private Limited Company** remains the gold standard for anyone seeking institutional debt or venture capital. It provides a 'Separate Legal Entity' status, meaning the bank’s claim is against the company’s assets, not the founder’s personal house or car (provided no personal guarantees are signed).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 However, for bootstrapped ventures or service oriented startups, the **Limited Liability Partnership (LLP)** has gained significant traction. LLPs combine the flexibility of a partnership with the limited liability of a company. From a loan perspective, LLPs are often favored by smaller NBFCs but may face hurdles with larger public sector banks that have internal mandates preferring the strict compliance of the Companies Act, 2013. The choice between a Pvt Ltd and an LLP is not just about tax; it is about 'Scalability Architecture.'
@@ -347,12 +347,12 @@ export default function StartupLoanLegalAdvisoryClient() {
                                 The recognition process requires the startup to prove it is working towards 'Innovation, Development, or Improvement of Products or Processes.' This is where professional legal help becomes invaluable. A well crafted 'Innovation Statement' that links your business model to the national priorities of 'Digital India' or 'Aatmanirbhar Bharat' can significantly speed up your recognition. Once recognized, the startup enters a 'Protected Zone' where many bureaucratic hurdles are replaced by 'Self-Certification.'
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Beyond taxation, DPIIT recognition provides access to the 'Fund of Funds' managed by SIDBI. While this is equity, it creates a 'Multiplier Effect' for debt. A startup backed by SIDBI-linked funds finds it 10x easier to secure working capital from commercial banks because the 'Social Proof' of the government's trust is already established. In 2025, DPIIT recognition also grants access to 'Public Procurement' benefits, allowing startups to bid for government tenders without previous experience or turnover requirements, a massive boost for B2G startups.
+                                Beyond taxation, DPIIT recognition provides access to the 'Fund of Funds' managed by SIDBI. While this is equity, it creates a 'Multiplier Effect' for debt. A startup backed by SIDBI-linked funds finds it 10x easier to secure working capital from commercial banks because the 'Social Proof' of the government’s trust is already established. In 2025, DPIIT recognition also grants access to 'Public Procurement' benefits, allowing startups to bid for government tenders without previous experience or turnover requirements, a massive boost for B2G startups.
                             </p>
 
                             <h2 id="gov-schemes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 3: Government Loan Schemes (The Debt Path)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Indian government has launched several schemes aimed at democratizing access to credit. For a startup, debt is often 'Cheaper than Equity' as it does not require giving away board seats or ownership. Let's analyze the 2025 favorites:
+                                The Indian government has launched several schemes aimed at democratizing access to credit. For a startup, debt is often 'Cheaper than Equity' as it does not require giving away board seats or ownership. Let’s analyze the 2025 favorites:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Pradhan Mantri Mudra Yojana (PMMY):</strong> Mudra loans are the lifeline for micro and small ventures. Divided into three categories (Shishu, Kishor, and Tarun), these loans are meant for micro enterprises. For a tech startup, Mudra loans can fund the initial server costs or office setup. The legal advantage here is the No Collateral requirement for the Shishu category.</li>
@@ -384,7 +384,7 @@ export default function StartupLoanLegalAdvisoryClient() {
 
                             <h2 id="tax-incentives" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 6: Tax Incentives and Compliance</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Taxation is where a startup can either save its cash flow or bleed it out to penatlies. The **80-IAC Tax Holiday** is the most famous incentive, allowing a 100% tax exemption for three years. But getting it is not automatic. It requires an application to the Inter-Ministerial Board (IMB). Many startups fail to get this because their 'Business Objective' is too generic or doesn't meet the 'High Innovation' threshold.
+                                Taxation is where a startup can either save its cash flow or bleed it out to penatlies. The **80-IAC Tax Holiday** is the most famous incentive, allowing a 100% tax exemption for three years. But getting it is not automatic. It requires an application to the Inter-Ministerial Board (IMB). Many startups fail to get this because their 'Business Objective' is too generic or doesn’t meet the 'High Innovation' threshold.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Then there is the issue of **Angel Tax**. While the rules have been relaxed for DPIIT recognized startups, the compliance requirement to 'Self-Declare' through the Startup India portal remains. If you raise 5 crores from an angel at a high valuation and fail to file the proper declaration, the income tax department can treat the excess valuation as 'Income from Other Sources' and tax it at 30% plus surcharges.
@@ -425,12 +425,12 @@ export default function StartupLoanLegalAdvisoryClient() {
                             </div>
 
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For a loan seeker, the 'KYC of Directors' is often the reason for loan disbursement delays. If the DIN of even one director is deactivated due to non filing, the bank's system will freeze the processing of your loan. A startup legal advisor ensures that the 'Director Integrity' is maintained through proactive filing.
+                                For a loan seeker, the 'KYC of Directors' is often the reason for loan disbursement delays. If the DIN of even one director is deactivated due to non filing, the bank’s system will freeze the processing of your loan. A startup legal advisor ensures that the 'Director Integrity' is maintained through proactive filing.
                             </p>
 
                             <h2 id="data-privacy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 8: Data Privacy & IT Laws (The DPDP Act)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, Data is the new collateral, but it is also the new liability. The **Digital Personal Data Protection (DPDP) Act 2023** is now fully operational. For a startup, this means you cannot capture a single user's phone number or email without a 'Valid Consent Notice' that is available in multiple languages.
+                                In 2025, Data is the new collateral, but it is also the new liability. The **Digital Personal Data Protection (DPDP) Act 2023** is now fully operational. For a startup, this means you cannot capture a single user’s phone number or email without a 'Valid Consent Notice' that is available in multiple languages.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Banks and investors now ask for a 'DPDP Compliance Certificate' during their due diligence. If your startup is built on buying third party databases or 'Scraping' data without authorization, you are essentially a ticking legal time bomb. CredSettle helps you draft privacy policies that are engineered for the 2025 Indian law.
@@ -460,12 +460,12 @@ export default function StartupLoanLegalAdvisoryClient() {
                                 Banks have 'One Time Settlement' (OTS) policies specifically for startups. If you can show that the business failed due to market conditions (and not due to siphoning of funds), the bank is often willing to take a haircut. A proactive legal settlement is always better than a reactive insolvency process.
                             </p>
 
-                            <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Final Verdict: Legal Excellence is Your Startup's Competitive Advantage</h2>
+                            <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Final Verdict: Legal Excellence is Your Startup’s Competitive Advantage</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 After analyzing the 5000+ words of legal landscape in this guide, one truth is clear: **In the Indian startup ecosystem of 2025, compliance is not a burden; it is an asset.** A loan is not just about having a high CIBIL score; it is about having a 'Corporate Identity' that banks can trust. Whether you are seeking a Mudra loan for your first office or raising 100 crores in debt for a factory, your legal foundation determines your fate.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Don't let a missing certificate or a poorly drafted agreement be the reason your dream fails. At CredSettle, we are committed to turning the legal complexity of India into a clear, actionable roadmap for your venture. From incorporation to exit, and from debt negotiation to equity rounds, we are the legal backbone your startup deserves.
+                                Don’t let a missing certificate or a poorly drafted agreement be the reason your dream fails. At CredSettle, we are committed to turning the legal complexity of India into a clear, actionable roadmap for your venture. From incorporation to exit, and from debt negotiation to equity rounds, we are the legal backbone your startup deserves.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Founder Success and Feedback</h2>
@@ -502,7 +502,7 @@ export default function StartupLoanLegalAdvisoryClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Make Your Startup Bank-Ready</h3>
-                                <p className="text-blue-800 mb-6">Don't let legal complexities slow down your growth. Our 2025 compliance audit ensures your startup is ready for every financial opportunity, from government debt to international equity.</p>
+                                <p className="text-blue-800 mb-6">Don’t let legal complexities slow down your growth. Our 2025 compliance audit ensures your startup is ready for every financial opportunity, from government debt to international equity.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -521,7 +521,7 @@ export default function StartupLoanLegalAdvisoryClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Need a Legal Bridge?</h4>
-                                <p className="text-sm text-gray-600 mb-6">Secure your startup's future with 2025 compliant documentation. Expert help for Mudra and debt schemes.</p>
+                                <p className="text-sm text-gray-600 mb-6">Secure your startup’s future with 2025 compliant documentation. Expert help for Mudra and debt schemes.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -529,9 +529,9 @@ export default function StartupLoanLegalAdvisoryClient() {
                                     Start Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ 2025 Compliance Audit</p>
-                                    <p>✓ DPIIT Ready Documentation</p>
-                                    <p>✓ Investor Grade Review</p>
+                                    <p>v 2025 Compliance Audit</p>
+                                    <p>v DPIIT Ready Documentation</p>
+                                    <p>v Investor Grade Review</p>
                                 </div>
                             </div>
 

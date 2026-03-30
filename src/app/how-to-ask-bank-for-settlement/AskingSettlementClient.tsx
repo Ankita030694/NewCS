@@ -81,7 +81,7 @@ export default function AskingSettlementClient() {
   const faqs = [
     {
       question: "How do I start the conversation with the bank for a settlement?",
-      answer: "The most effective way is to wait until your account reaches NPA status (90 days overdue) and then send a formal 'Hardship Letter' to the bank's recovery or nodal officer. Starting too early often leads to rejection as the bank still hopes for full recovery."
+      answer: "The most effective way is to wait until your account reaches NPA status (90 days overdue) and then send a formal 'Hardship Letter' to the bank’s recovery or nodal officer. Starting too early often leads to rejection as the bank still hopes for full recovery."
     },
     {
       question: "What is the maximum waiver I can expect from a bank?",
@@ -109,7 +109,7 @@ export default function AskingSettlementClient() {
     },
     {
       question: "Can recovery agents harass me during the negotiation process?",
-      answer: "No. RBI's Fair Practices Code strictly prohibits harassment. If you are being threatened, record the evidence and file a complaint with the Banking Ombudsman. This can often give you more leverage in your negotiation."
+      answer: "No. RBI’s Fair Practices Code strictly prohibits harassment. If you are being threatened, record the evidence and file a complaint with the Banking Ombudsman. This can often give you more leverage in your negotiation."
     },
     {
       question: "How long does 'Settled' status stay on my CIBIL report?",
@@ -250,13 +250,13 @@ export default function AskingSettlementClient() {
                   To the average borrower, it might seem strange that a bank would voluntarily "give up" 50% of the money owed to them. This waiver is known in the financial industry as a "haircut." The reason banks agree to these haircuts is rooted in the regulatory requirements set by the RBI. When a loan is not paid for 90 days, it is classified as a Non-Performing Asset (NPA). 
                 </p>
                 <p>
-                  Once a loan becomes an NPA, the bank is required to "provision" for it. Provisioning means the bank must take a portion of its own profits and set it aside as a safety net against the potential loss of that loan. For a bank, an NPA is a triple blow: they aren't getting interest, they aren't getting the principal, and they are losing existing profits to provisioning. 
+                  Once a loan becomes an NPA, the bank is required to "provision" for it. Provisioning means the bank must take a portion of its own profits and set it aside as a safety net against the potential loss of that loan. For a bank, an NPA is a triple blow: they aren’t getting interest, they aren’t getting the principal, and they are losing existing profits to provisioning. 
                 </p>
                 <p>
                   By accepting a settlement, the bank can "reverse" the provisioning and show a recovery on their books. For a branch manager, a successful settlement is a positive mark on their performance review. They would rather have 40% of the money today, which they can immediately lend out to someone else and start earning interest again, than spend the next 7 years in a Debt Recovery Tribunal (DRT) trying to recover 100%.
                 </p>
                 <p>
-                    Furthermore, the administrative cost of recovery is astronomical. A bank has to pay for legal notices, hire advocates for the DRT, manage recovery agents, and maintain internal compliance teams to track the bad debt. Often, the cost of recovery over five years exceeds the actual principal amount in question. This makes a lump sum settlement not just a compromise, but a mathematically superior choice for the bank's bottom line.
+                    Furthermore, the administrative cost of recovery is astronomical. A bank has to pay for legal notices, hire advocates for the DRT, manage recovery agents, and maintain internal compliance teams to track the bad debt. Often, the cost of recovery over five years exceeds the actual principal amount in question. This makes a lump sum settlement not just a compromise, but a mathematically superior choice for the bank’s bottom line.
                 </p>
               </div>
 
@@ -277,7 +277,7 @@ export default function AskingSettlementClient() {
                         <div className="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center font-black text-indigo-600 text-lg flex-shrink-0">SMA-1</div>
                         <div>
                             <h4 className="text-lg font-bold text-gray-900 mb-0.5">31 to 60 Days Overdue</h4>
-                            <p className="text-sm">Intense recovery agent follow-ups begin. Your credit score starts to take its first major dip. The bank's internal recovery team is now tracking you as a high risk.</p>
+                            <p className="text-sm">Intense recovery agent follow-ups begin. Your credit score starts to take its first major dip. The bank’s internal recovery team is now tracking you as a high risk.</p>
                         </div>
                     </div>
                     <div className="flex gap-3">
@@ -296,7 +296,7 @@ export default function AskingSettlementClient() {
                     </div>
                 </div>
                 <p>
-                    Negotiating too early (during SMA-0 or SMA-1) often results in the bank demanding 100% of the dues plus penalties. Waiting for the NPA 91 day mark, while scary, is the point where the bank's internal policy manual allows the manager to authorize significant waivers.
+                    Negotiating too early (during SMA-0 or SMA-1) often results in the bank demanding 100% of the dues plus penalties. Waiting for the NPA 91 day mark, while scary, is the point where the bank’s internal policy manual allows the manager to authorize significant waivers.
                 </p>
               </div>
 
@@ -309,19 +309,19 @@ export default function AskingSettlementClient() {
                   <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 h-full">
                     <h4 className="font-bold text-blue-900 mb-3 uppercase tracking-wider text-xs">Key Eligibility Markers</h4>
                     <ul className="space-y-2 text-gray-700 text-base">
-                      <li>• Default period of at least 90-180 days.</li>
-                      <li>• Documented proof of income loss or business failure.</li>
-                      <li>• Severe medical emergencies affecting repayment capacity.</li>
-                      <li>• Debt-to-income ratio exceeding 60-70%.</li>
+                      <li>* Default period of at least 90-180 days.</li>
+                      <li>* Documented proof of income loss or business failure.</li>
+                      <li>* Severe medical emergencies affecting repayment capacity.</li>
+                      <li>* Debt-to-income ratio exceeding 60-70%.</li>
                     </ul>
                   </div>
                   <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 h-full">
                     <h4 className="font-bold text-blue-900 mb-3 uppercase tracking-wider text-xs">Documentation Required</h4>
                     <ul className="space-y-2 text-gray-700 text-base">
-                      <li>• Last 6 months bank statements showing low balance.</li>
-                      <li>• Termination letters or P&L statements.</li>
-                      <li>• Comprehensive medical audit reports if applicable.</li>
-                      <li>• Asset declaration showing no liquidatable wealth.</li>
+                      <li>* Last 6 months bank statements showing low balance.</li>
+                      <li>* Termination letters or P&L statements.</li>
+                      <li>* Comprehensive medical audit reports if applicable.</li>
+                      <li>* Asset declaration showing no liquidatable wealth.</li>
                     </ul>
                   </div>
                 </div>
@@ -341,7 +341,7 @@ export default function AskingSettlementClient() {
                 </p>
                 <h3 className="text-xl font-bold text-blue-800">2. The SARFAESI Act, 2002</h3>
                 <p>
-                  For secured loans like home or car loans, the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act is the bank's most powerful weapon. It allows them to take possession of collateral without a court order. However, Section 13(8) provides a "Right of Redemption," allowing you to settle before the auction notice is published. Understanding the technicalities of this act is vital for saving your property.
+                  For secured loans like home or car loans, the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act is the bank’s most powerful weapon. It allows them to take possession of collateral without a court order. However, Section 13(8) provides a "Right of Redemption," allowing you to settle before the auction notice is published. Understanding the technicalities of this act is vital for saving your property.
                 </p>
                 <h3 className="text-xl font-bold text-blue-800">3. The Banking Ombudsman Scheme</h3>
                 <p>
@@ -355,7 +355,7 @@ export default function AskingSettlementClient() {
                     For many, the biggest fear is losing their primary residence. If you have a home loan default, the bank will issue a Section 13(2) notice under the SARFAESI Act. You have 60 days to respond. This is not just a notice; it is a ticking clock.
                 </p>
                 <p>
-                    The "Best Way to Negotiate Loan Settlement" for a secured asset is to challenge the bank's "Symbolic Possession" in the Debt Recovery Tribunal (DRT). By filing a Securitisation Application (SA), you can often get a stay on the auction. Once a stay is granted, the bank's recovery process is frozen. This is the moment they become most open to a settlement. They realize that a fast settlement is better than a 3 year legal battle in the DRT where the property value might stagnate or fall.
+                    The "Best Way to Negotiate Loan Settlement" for a secured asset is to challenge the bank’s "Symbolic Possession" in the Debt Recovery Tribunal (DRT). By filing a Securitisation Application (SA), you can often get a stay on the auction. Once a stay is granted, the bank’s recovery process is frozen. This is the moment they become most open to a settlement. They realize that a fast settlement is better than a 3 year legal battle in the DRT where the property value might stagnate or fall.
                 </p>
                 <div className="bg-blue-900 text-white p-6 rounded-2xl my-6 shadow-xl">
                     <h4 className="text-xl font-black mb-3 text-blue-400">Critical SARFAESI Tip</h4>
@@ -389,7 +389,7 @@ export default function AskingSettlementClient() {
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">3</div>
                     <div>
                       <h4 className="text-xl font-bold text-gray-900 mb-1">Identify the Right Contact</h4>
-                      <p className="text-base">Don't talk to the local branch cashier. You need to reach the 'Recovery Manager' or the 'Nodal Officer' of the bank. Email is the best medium as it creates an audit trail that the bank cannot deny later.</p>
+                      <p className="text-base">Don’t talk to the local branch cashier. You need to reach the 'Recovery Manager' or the 'Nodal Officer' of the bank. Email is the best medium as it creates an audit trail that the bank cannot deny later.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 items-start">
@@ -417,7 +417,7 @@ export default function AskingSettlementClient() {
                   <p className="mt-4">Sincerely,<br />[Your Name]</p>
                 </div>
                 <p>
-                  Notice the "Third-Party Source" tactic used in the sample. By telling the bank the money is not yours, you make it clear that if they don't accept *this* specific sum, the money will disappear back to the relative and the bank will get nothing. 
+                  Notice the "Third-Party Source" tactic used in the sample. By telling the bank the money is not yours, you make it clear that if they don’t accept *this* specific sum, the money will disappear back to the relative and the bank will get nothing. 
                 </p>
               </div>
 
@@ -437,17 +437,17 @@ export default function AskingSettlementClient() {
                   <p>Banks have targets for March, June, September, and December. Approaching them 10 days before the quarter ends is the best time to get a 'desperate' manager to sign off on a high waiver just to hit their targets.</p>
 
                   <h4 className="text-xl font-bold text-gray-900">4. The Silence Tactic</h4>
-                  <p>After making an offer, wait. Do not call them every day. Let the bank's internal 'Provisioning' clock tick. The longer the loan stays as an NPA, the more it costs them, and the more likely they are to accept your terms.</p>
+                  <p>After making an offer, wait. Do not call them every day. Let the bank’s internal 'Provisioning' clock tick. The longer the loan stays as an NPA, the more it costs them, and the more likely they are to accept your terms.</p>
 
                   <h4 className="text-xl font-bold text-gray-900">5. Always Demand the Letter First</h4>
-                  <p>Never pay based on a verbal promise. Demand a formal "Settlement Approval Letter" on the bank's official letterhead. This letter must state the exact amount, the deadline, and the phrase "Full and Final Discharge of Liability."</p>
+                  <p>Never pay based on a verbal promise. Demand a formal "Settlement Approval Letter" on the bank’s official letterhead. This letter must state the exact amount, the deadline, and the phrase "Full and Final Discharge of Liability."</p>
                 </div>
               </div>
 
-              <h2 id="psychological-tactics" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-28">The Psychology of Debt: Breaking the Bank's Power Dynamic</h2>
+              <h2 id="psychological-tactics" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-28">The Psychology of Debt: Breaking the Bank’s Power Dynamic</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4 text-base text-justify">
                 <p>
-                    Recovery agents are trained to instill fear. They want you to believe that your life is over if you don't pay. This is a manufactured power dynamic. In reality, the bank is the one in trouble. They have a hole in their balance sheet, and you are the only one who can fill it.
+                    Recovery agents are trained to instill fear. They want you to believe that your life is over if you don’t pay. This is a manufactured power dynamic. In reality, the bank is the one in trouble. They have a hole in their balance sheet, and you are the only one who can fill it.
                 </p>
                 <p>
                     The psychological shift happens when you stop being defensive and start being investigative. Ask the recovery agent: "Have you filed a suit yet? No? Then you are just a collection agent and I choose not to talk to you. I will only talk to the Nodal Officer." This removes their power. By moving the conversation from a street-level recovery agent to a corporate nodal officer, you have already won 50% of the negotiation.
@@ -463,7 +463,7 @@ export default function AskingSettlementClient() {
                         <h4 className="text-lg font-bold text-gray-900 mb-2">What agents say:</h4>
                         <p className="text-gray-600 mb-2 leading-relaxed">"You will never get a job again."</p>
                         <h4 className="text-lg font-bold text-red-600 mb-1">The Truth:</h4>
-                        <p className="text-red-900 font-medium text-sm">Most private employers don't check CIBIL. Only financial sector jobs do. A settlement actually helps you clear the background check better than an active default.</p>
+                        <p className="text-red-900 font-medium text-sm">Most private employers don’t check CIBIL. Only financial sector jobs do. A settlement actually helps you clear the background check better than an active default.</p>
                     </div>
                 </div>
               </div>
@@ -474,7 +474,7 @@ export default function AskingSettlementClient() {
                     Banks like ICICI or HDFC often use private arbitration as a shortcut to bypass the slow courts. They appoint their own arbitrator who passes an award in weeks. If you receive an arbitration notice, do not sit silent.
                 </p>
                 <p>
-                    Arbitration is actually a great place to settle. In an arbitration hearing, you can present your "Statement of Defense" which includes your financial hardship. The arbitrator is legally bound to consider this. Often, the bank's lawyer - realizing you are ready to fight - will pull you aside and offer a settlement right there. This is known as a "Settlement through Consent Award." It is legally the strongest way to settle because it is blessed by a quasi-judicial authority.
+                    Arbitration is actually a great place to settle. In an arbitration hearing, you can present your "Statement of Defense" which includes your financial hardship. The arbitrator is legally bound to consider this. Often, the bank’s lawyer - realizing you are ready to fight - will pull you aside and offer a settlement right there. This is known as a "Settlement through Consent Award." It is legally the strongest way to settle because it is blessed by a quasi-judicial authority.
                 </p>
               </div>
 
@@ -484,14 +484,14 @@ export default function AskingSettlementClient() {
                     Many borrowers forget that a loan waiver is technically "Income." According to the Income Tax Act, if a bank waives off ₹5 lakhs of your debt, that ₹5 lakhs could be considered a benefit.
                 </p>
                 <p>
-                    However, the 2023 budget introduced Section 194R, which clarifies that for individuals not in business, loan settlement is generally not taxable. But if you are a business owner and the loan was for your firm, the waiver might attract tax. Always ask your bank to clarify the "TDS treatment" in the settlement letter. Professional negotiation ensures that the bank doesn't report the waiver in a way that creates a future tax liability for you.
+                    However, the 2023 budget introduced Section 194R, which clarifies that for individuals not in business, loan settlement is generally not taxable. But if you are a business owner and the loan was for your firm, the waiver might attract tax. Always ask your bank to clarify the "TDS treatment" in the settlement letter. Professional negotiation ensures that the bank doesn’t report the waiver in a way that creates a future tax liability for you.
                 </p>
               </div>
 
               <h2 id="the-arc-factor" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-28">Asset Reconstruction Companies (ARCs): A Secret Advantage</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4 text-base text-justify">
                 <p>
-                  If you haven't paid your loan for over a year, your bank might sell your debt to an ARC. Most borrowers panic at this stage, but it is actually a blessing in disguise for those seeking a high waiver. 
+                  If you haven’t paid your loan for over a year, your bank might sell your debt to an ARC. Most borrowers panic at this stage, but it is actually a blessing in disguise for those seeking a high waiver. 
                 </p>
                 <p>
                   An ARC like Phoenix or Asset Care likely bought your ₹10 lakh loan from the bank for just ₹2 lakhs. Their business model is to buy cheap and recover fast. While banks are restricted by rigid policies and social image, ARCs are pure financial players. They are much more aggressive in their recovery calls, but if you show them a cash payment of ₹4 lakhs, they double their investment in months. This is where you can often negotiate waivers as high as 70-80%.
@@ -524,7 +524,7 @@ export default function AskingSettlementClient() {
                   <p>Ensure the bank reports the settlement to all four credit bureaus (CIBIL, Experian, Equifax, CRIF). Sometimes banks forget to update the records, keeping you in "Default" status even after you have paid. Manual follow-up is necessary.</p>
                   
                   <p className="text-2xl font-bold text-gray-900">Step 2: The Secured Credit Card Path</p>
-                  <p>Since banks won't give you a standard card, get a 'Secured Credit Card' against a Fixed Deposit. Use just 10% of the limit and pay on time. This creates new 'Positive Payment' entries on your report, which slowly push the old 'Settled' entry down in the algorithm's priority.</p>
+                  <p>Since banks won’t give you a standard card, get a 'Secured Credit Card' against a Fixed Deposit. Use just 10% of the limit and pay on time. This creates new 'Positive Payment' entries on your report, which slowly push the old 'Settled' entry down in the algorithm’s priority.</p>
 
                   <p className="text-2xl font-bold text-gray-900">Step 3: Consumer Durable Loans</p>
                   <p>Small loans for a mobile phone or a fridge through fintech lenders are easier to get and serve as great 'Step-up' loans to rebuild your score before you aim for a home loan again.</p>
@@ -596,7 +596,7 @@ export default function AskingSettlementClient() {
                     <p className="text-gray-700 italic mb-4 text-sm leading-relaxed">"{review.review}"</p>
                     <div className="border-t border-gray-50 pt-3">
                       <h5 className="font-bold text-gray-900 text-sm">{review.name}</h5>
-                      <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
+                      <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                     </div>
                   </div>
                 ))}
@@ -626,7 +626,7 @@ export default function AskingSettlementClient() {
                     While many people try the DIY route, navigating the complex world of Indian banking law is fraught with traps. A professional agency like CredSettle acts as a buffer between you and the aggressive recovery machine. We understand the 'Policy Cycle' of every major bank in India. We know that Axis Bank handles settlements differently than SBI. 
                   </p>
                   <p className="text-lg text-gray-700 leading-relaxed mt-4 text-justify">
-                    Having a professional representative signals to the bank that you take your financial resolution seriously. It stops the calls to your office and your relatives. It ensures that every word in your settlement letter is legally defensible. Most importantly, it gives you back your peace of mind. You don't have to face the recovery agents alone; you have a shield that knows the law as well as they do.
+                    Having a professional representative signals to the bank that you take your financial resolution seriously. It stops the calls to your office and your relatives. It ensures that every word in your settlement letter is legally defensible. Most importantly, it gives you back your peace of mind. You don’t have to face the recovery agents alone; you have a shield that knows the law as well as they do.
                   </p>
                 </section>
 
@@ -645,7 +645,7 @@ export default function AskingSettlementClient() {
               <div className="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 text-center">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight">Need Expert Help with Your Bank Settlement?</h3>
                 <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto">
-                    Our legal experts have helped thousands of borrowers achieve successful settlements with up to 70% waivers. Don't face the banks alone.
+                    Our legal experts have helped thousands of borrowers achieve successful settlements with up to 70% waivers. Don’t face the banks alone.
                 </p>
                 <Link href="/contact" className="inline-block bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
                     Book Your Free Advisory Session
@@ -678,7 +678,7 @@ export default function AskingSettlementClient() {
                 <h4 className="font-bold text-gray-900 mb-4 text-[10px] uppercase tracking-widest text-blue-600">Essential Reading</h4>
                 <nav className="flex flex-col gap-3">
                   {[
-                    { title: "What Kind of Loans Can't be Settled?", url: "/what-kind-of-loans-can-not-be-settled" },
+                    { title: "What Kind of Loans Can’t be Settled?", url: "/what-kind-of-loans-can-not-be-settled" },
                     { title: "Understand NPA Classification", url: "/what-is-npa" },
                     { title: "Home Loan Settlement Guide", url: "/can-I-settle-my-home-loan" },
                     { title: "Personal Loan Relief Steps", url: "/services/personal-loan-settlement" },
@@ -701,7 +701,7 @@ export default function AskingSettlementClient() {
               {/* Trust Badge Widget */}
               <div className="p-4 bg-gray-50 rounded-xl border border-dashed border-gray-300">
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center font-bold text-sm">✓</div>
+                  <div className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center font-bold text-sm">v</div>
                   <span className="font-bold text-gray-800 text-sm">RBI Compliant Advisory</span>
                 </div>
                 <p className="text-[10px] text-gray-500 leading-normal">

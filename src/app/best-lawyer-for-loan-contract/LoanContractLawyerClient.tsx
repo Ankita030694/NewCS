@@ -28,7 +28,7 @@ export default function LoanContractLawyerClient() {
         },
         {
             question: "What is an arbitration clause in a loan agreement?",
-            answer: "An arbitration clause requires disputes to be settled by an impartial third party (arbitrator) rather than in a traditional court. While often faster, it's important to ensure the clause is mutual and fair."
+            answer: "An arbitration clause requires disputes to be settled by an impartial third party (arbitrator) rather than in a traditional court. While often faster, it’s important to ensure the clause is mutual and fair."
         },
         {
             question: "Can a bank change loan terms after signing?",
@@ -44,7 +44,7 @@ export default function LoanContractLawyerClient() {
         },
         {
             question: "What are my rights if I cannot repay my loan?",
-            answer: "Under RBI's Fair Practices Code, you have the right to be treated with dignity. You cannot be harassed by recovery agents. You also have the right to a 60-day notice before asset seizure under the SARFAESI Act."
+            answer: "Under RBI’s Fair Practices Code, you have the right to be treated with dignity. You cannot be harassed by recovery agents. You also have the right to a 60-day notice before asset seizure under the SARFAESI Act."
         },
         {
             question: "How long does it take to settle a loan contract dispute?",
@@ -66,9 +66,9 @@ export default function LoanContractLawyerClient() {
 
     const reviews = [
         { name: "Rahul S.", location: "Delhi", stars: 5, comment: "The legal review of my business loan contract saved me from a very predatory cross-default clause. Highly recommend getting expert eyes on your documents." },
-        { name: "Priya M.", location: "Mumbai", stars: 5, comment: "I was being harassed for a contract I didn't fully understand. The lawyer helped me negotiate a fair settlement based on the original terms." },
+        { name: "Priya M.", location: "Mumbai", stars: 5, comment: "I was being harassed for a contract I didn’t fully understand. The lawyer helped me negotiate a fair settlement based on the original terms." },
         { name: "Vikram K.", location: "Bangalore", stars: 5, comment: "Excellent understanding of RBI guidelines. They found three hidden charges in my home loan agreement that the bank eventually waived." },
-        { name: "Anita J.", location: "Chennai", stars: 5, comment: "Managed to stop a SARFAESI action by proving the bank hadn't followed the mandatory 60-day notice period. Lifesavers!" }
+        { name: "Anita J.", location: "Chennai", stars: 5, comment: "Managed to stop a SARFAESI action by proving the bank hadn’t followed the mandatory 60-day notice period. Lifesavers!" }
     ];
 
     useEffect(() => {
@@ -234,7 +234,7 @@ export default function LoanContractLawyerClient() {
                                     <li><strong>3. Disbursement Conditions:</strong> The "Conditions Precedent" (CPs) that you must meet before the bank releases a single rupee.</li>
                                     <li><strong>4. Interest and Fees:</strong> Detailed breakdown of ROI, calculating method, and processing fees.</li>
                                     <li><strong>5. Security and Collateral:</strong> The legal link between the loan and your assets (mortgage, hypothecation, etc.).</li>
-                                    <li><strong>6. Covenants:</strong> The "Dos and Don'ts" that you must follow during the tenure of the loan.</li>
+                                    <li><strong>6. Covenants:</strong> The "Dos and Don’ts" that you must follow during the tenure of the loan.</li>
                                     <li><strong>7. Events of Default:</strong> A list of situations that allow the bank to demand immediate full repayment.</li>
                                     <li><strong>8. Dispute Resolution:</strong> How and where any legal battles will be fought.</li>
                                 </ul>
@@ -267,31 +267,31 @@ export default function LoanContractLawyerClient() {
                                 Borrower Rights vs. Bank Rights: Balancing the Scales
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Under Indian law, specifically the RBI's Fair Practices Code and various Supreme Court judgments, borrowers are not powerless. The contract you sign exists within a broader legal ecosystem that grants you inherent rights, even if they aren't explicitly written in the bank's document.
+                                Under Indian law, specifically the RBI’s Fair Practices Code and various Supreme Court judgments, borrowers are not powerless. The contract you sign exists within a broader legal ecosystem that grants you inherent rights, even if they aren’t explicitly written in the bank’s document.
                             </p>
                             <div className="bg-[#f9fafb] p-10 rounded-3xl border border-gray-100 mb-10 font-light text-lg">
                                 <h4 className="font-bold text-gray-900 mb-6">Current Indian Legal Framework (2025 Updates)</h4>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex gap-4">
-                                        <span className="text-blue-600 font-bold">✓</span>
+                                        <span className="text-blue-600 font-bold">v</span>
                                         <span><strong>Right to Personalized Notice:</strong> Banks cannot simply publish a notice in a newspaper; they must serve you personally with a detailed explanation of the default.</span>
                                     </li>
                                     <li className="flex gap-4">
-                                        <span className="text-blue-600 font-bold">✓</span>
+                                        <span className="text-blue-600 font-bold">v</span>
                                         <span><strong>Protection Against Harassment:</strong> RBI guidelines strictly prohibit recovery agents from calling at odd hours or using intimidation.</span>
                                     </li>
                                     <li className="flex gap-4">
-                                        <span className="text-blue-600 font-bold">✓</span>
+                                        <span className="text-blue-600 font-bold">v</span>
                                         <span><strong>Right to Redemption:</strong> Even after a bank initiates an auction under SARFAESI, you have the right to get your property back by paying the dues before the sale is finalized.</span>
                                     </li>
                                     <li className="flex gap-4">
-                                        <span className="text-blue-600 font-bold">✓</span>
+                                        <span className="text-blue-600 font-bold">v</span>
                                         <span><strong>Right to Transparent Pricing:</strong> Any change in floating interest rates must be communicated in writing with a clear explanation of the new EMI or tenure.</span>
                                     </li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The best loan contract lawyers use these external rights to "nullify" or "dilute" predatory clauses in the bank's agreement. They can argue that a clause is "unconscionable" or "contrary to public policy," making it unenforceable in court.
+                                The best loan contract lawyers use these external rights to "nullify" or "dilute" predatory clauses in the bank’s agreement. They can argue that a clause is "unconscionable" or "contrary to public policy," making it unenforceable in court.
                             </p>
 
                             <h2 id="negotiation-strategies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">
@@ -301,10 +301,10 @@ export default function LoanContractLawyerClient() {
                                 Most people believe that loan contracts are "take it or leave it." While that is true for a 50,000 rupee personal loan, it is certainly not true for high value business loans, mortgages, or project finance. The negotiation phase is where the best lawyers earn their fees.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                One major area of negotiation is <strong>"Covenants."</strong> Banks often add covenants that give them too much control over your life or business. For example, a covenant might say "The borrower shall not appoint a new Director without the Bank's consent." A lawyer will negotiate this to "The borrower shall notify the Bank of any new Director appointments," which is far less restrictive.
+                                One major area of negotiation is <strong>"Covenants."</strong> Banks often add covenants that give them too much control over your life or business. For example, a covenant might say "The borrower shall not appoint a new Director without the Bank’s consent." A lawyer will negotiate this to "The borrower shall notify the Bank of any new Director appointments," which is far less restrictive.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Another area is <strong>"Negative Pledges."</strong> This stops you from taking other loans. A lawyer can negotiate "Carve Outs" for small operational loans or leases, ensuring your business doesn't grind to a halt because of one restrictive banking contract.
+                                Another area is <strong>"Negative Pledges."</strong> This stops you from taking other loans. A lawyer can negotiate "Carve Outs" for small operational loans or leases, ensuring your business doesn’t grind to a halt because of one restrictive banking contract.
                             </p>
 
                             <h2 id="section-138-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">
@@ -318,10 +318,10 @@ export default function LoanContractLawyerClient() {
                             </p>
 
                             <h2 id="sarfaesi-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">
-                                SARFAESI Act Implications: The Bank's Ultimate Weapon
+                                SARFAESI Act Implications: The Bank’s Ultimate Weapon
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For home loans and business loans with property collateral, the SARFAESI Act (Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act) is the bank's most powerful tool. It allows banks to seize your property without even going to a court of law.
+                                For home loans and business loans with property collateral, the SARFAESI Act (Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act) is the bank’s most powerful tool. It allows banks to seize your property without even going to a court of law.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 However, the SARFAESI procedure is highly technical. A bank must follow a sequence: a Section 13(2) notice (60 days notice), followed by a Section 13(4) possession notice. If the bank skips a single step or fails to document it correctly, the whole action can be challenged in a Debt Recovery Tribunal (DRT). A lawyer specializing in loan contracts will look at your agreement to see if the property was correctly described and if the mortgage was legally perfected. If not, the bank might find itself unable to use its SARFAESI powers.
@@ -342,7 +342,7 @@ export default function LoanContractLawyerClient() {
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm text-center">
                                     <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
                                     <h5 className="font-bold text-gray-900 mb-2">Commercial Acumen</h5>
-                                    <p className="text-sm text-gray-600">The ability to speak the bank's language and understand the financial implications of legal terms.</p>
+                                    <p className="text-sm text-gray-600">The ability to speak the bank’s language and understand the financial implications of legal terms.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm text-center">
                                     <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
@@ -392,13 +392,13 @@ export default function LoanContractLawyerClient() {
                             </div>
 
                             <h2 id="final-verdict" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">
-                                Final Verdict: Don't Sign Blindly
+                                Final Verdict: Don’t Sign Blindly
                             </h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your loan contract is not a formality; it is a life defining commitment. In the haste to get funds, many borrowers ignore the very document that will dictate their future. Whether it is a "Floating Rate" clause that could double your interest or a "Termination" clause that could allow the bank to recall the loan on a whim, the risks are real.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                By engaging the best lawyer for a loan contract, you are not just buying legal review; you are buying an insurance policy against financial ruin. A few thousands spent on a review today can save you lakhs in litigation and crores in lost assets tomorrow. Take the time to understand the fine print, negotiate for your rights, and never sign a document that you don't fully comprehend.
+                                By engaging the best lawyer for a loan contract, you are not just buying legal review; you are buying an insurance policy against financial ruin. A few thousands spent on a review today can save you lakhs in litigation and crores in lost assets tomorrow. Take the time to understand the fine print, negotiate for your rights, and never sign a document that you don’t fully comprehend.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 At CredSettle, we represent the interests of the borrower. We have seen the patterns of banking litigation and we know exactly where the cracks are. Our goal is to ensure that your relationship with your bank is one of mutual respect and legal clarity, not one of fear and confusion. Stay informed, stay vigilant, and always protect your signature.
@@ -406,7 +406,7 @@ export default function LoanContractLawyerClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
-                                <p className="text-blue-800 mb-6">Deciding to settle a loan or signing a new contract is a major life decision. You don't have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
+                                <p className="text-blue-800 mb-6">Deciding to settle a loan or signing a new contract is a major life decision. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while protecting your family from harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -433,9 +433,9 @@ export default function LoanContractLawyerClient() {
                                     Start My Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Specialized Loan Review</p>
-                                    <p>✓ RBI Compliance Audit</p>
-                                    <p>✓ Experienced Legal Advocates</p>
+                                    <p>v Specialized Loan Review</p>
+                                    <p>v RBI Compliance Audit</p>
+                                    <p>v Experienced Legal Advocates</p>
                                 </div>
                             </div>
 

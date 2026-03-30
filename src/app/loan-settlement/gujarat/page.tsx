@@ -103,7 +103,7 @@ export default function GujaratLoanSettlementPage() {
         "name": "Can I settle my business loan in Surat?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, unsecured business loans can be settled. This is common for businesses facing market fluctuations in Surat's textile and diamond industries."
+          "text": "Yes, unsecured business loans can be settled. This is common for businesses facing market fluctuations in Surat’s textile and diamond industries."
         }
       },
       {
@@ -119,7 +119,7 @@ export default function GujaratLoanSettlementPage() {
         "name": "What is the role of Lok Adalat in Gujarat?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The Gujarat State Legal Services Authority (GSLSA) organizes Lok Adalats which are people's courts where disputes are settled amicably and finally."
+          "text": "The Gujarat State Legal Services Authority (GSLSA) organizes Lok Adalats which are people’s courts where disputes are settled amicably and finally."
         }
       },
       {
@@ -151,7 +151,7 @@ export default function GujaratLoanSettlementPage() {
         "name": "Do I need to visit the bank branch in person?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. CredSettle handles negotiations with the bank's Circle Offices in Ahmedabad or Mumbai."
+          "text": "No. CredSettle handles negotiations with the bank’s Circle Offices in Ahmedabad or Mumbai."
         }
       },
       {

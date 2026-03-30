@@ -57,7 +57,7 @@ export default async function BankPage({ params }: PageProps) {
     { id: 'step-by-step-process', text: `Step-by-Step Process to Start Your ${content.bankName} NBFC Loan Settlement`, level: 2 },
     { id: 'documents-required', text: `Documents Required for ${content.bankName} NBFC Loan Settlement`, level: 2 },
     { id: 'faqs', text: `FAQs on ${content.bankName} NBFC Loan Settlement`, level: 2 },
-    { id: 'get-legal-help', text: `Get Legal Help Today – Start Your Settlement with ${content.bankName}`, level: 2 }
+    { id: 'get-legal-help', text: `Get Legal Help Today - Start Your Settlement with ${content.bankName}`, level: 2 }
   ];
 
   // Generate structured data for the page

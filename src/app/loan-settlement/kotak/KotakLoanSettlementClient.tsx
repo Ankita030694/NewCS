@@ -224,7 +224,7 @@ export default function KotakLoanSettlementClient() {
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Introduction to Kotak Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Are you feeling the overwhelming pressure of unpaid Kotak Mahindra Bank loans or mounting credit card bills? You are not alone. Financial instability can strike anyone unexpectedly—be it due to a sudden job layoff, a health crisis, or business setbacks. When these challenges arise, keeping up with Equated Monthly Installments (EMIs) often becomes impossible, leading to a cycle of debt, stress, and relentless calls from recovery agents.
+                Are you feeling the overwhelming pressure of unpaid Kotak Mahindra Bank loans or mounting credit card bills? You are not alone. Financial instability can strike anyone unexpectedly-be it due to a sudden job layoff, a health crisis, or business setbacks. When these challenges arise, keeping up with Equated Monthly Installments (EMIs) often becomes impossible, leading to a cycle of debt, stress, and relentless calls from recovery agents.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
                 However, there is a legitimate, legal, and dignified way out. Kotak Loan Settlement, technically known as a One-Time Settlement (OTS), is a process designed for borrowers who genuinely cannot repay their full dues. It allows you to close your loan account by paying a mutually agreed negotiated amount, often significantly lower than what you owe. CredSettle is here to guide you through this complex process, ensuring you get the best possible deal while protecting your rights and mental peace.
@@ -239,10 +239,10 @@ export default function KotakLoanSettlementClient() {
 
               <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding Kotak Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Kotak Mahindra Bank's loan settlement process is a strategic financial resolution mechanism. When a borrower defaults on payments for more than 90 days, the loan account is classified as a Non-Performing Asset (NPA). At this stage, the bank realizes that recovering the full amount (Principal + Interest + Penalties) is unlikely and expensive due to potential legal costs.
+                Kotak Mahindra Bank’s loan settlement process is a strategic financial resolution mechanism. When a borrower defaults on payments for more than 90 days, the loan account is classified as a Non-Performing Asset (NPA). At this stage, the bank realizes that recovering the full amount (Principal + Interest + Penalties) is unlikely and expensive due to potential legal costs.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                To mitigate their losses, the bank may agree to a settlement. In this arrangement, you pay a lump sum amount—negotiated down from the total outstanding—to close the account forever. For the borrower, this means an end to the debt trap, cessation of interest accumulation, and a halt to recovery harassment.
+                To mitigate their losses, the bank may agree to a settlement. In this arrangement, you pay a lump sum amount-negotiated down from the total outstanding-to close the account forever. For the borrower, this means an end to the debt trap, cessation of interest accumulation, and a halt to recovery harassment.
               </p>
 
               <h3 id="eligible-loans" className="text-2xl font-bold text-gray-900 mb-4 mt-8 scroll-mt-28">Which Kotak Loans Can Be Settled?</h3>
@@ -270,7 +270,7 @@ export default function KotakLoanSettlementClient() {
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-gray-900 mb-2 text-lg">3. Non-Wilful Defaulter</h4>
-                  <p className="text-gray-600">You should not be a 'wilful defaulter'—someone who has the capacity to repay but deliberately chooses not to. The bank will assess your current income and assets.</p>
+                  <p className="text-gray-600">You should not be a 'wilful defaulter'-someone who has the capacity to repay but deliberately chooses not to. The bank will assess your current income and assets.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-gray-900 mb-2 text-lg">4. Repayment History</h4>
@@ -314,7 +314,7 @@ export default function KotakLoanSettlementClient() {
                   </div>
                   <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
                     <h4 className="font-bold text-gray-900 mb-1">Negotiation Strategy</h4>
-                    <p className="text-gray-600 text-sm">We initiate the One-Time Settlement (OTS) proposal with Kotak's settlement officers, aiming for maximum waiver on interest and principal.</p>
+                    <p className="text-gray-600 text-sm">We initiate the One-Time Settlement (OTS) proposal with Kotak’s settlement officers, aiming for maximum waiver on interest and principal.</p>
                   </div>
                 </div>
 
@@ -350,27 +350,27 @@ export default function KotakLoanSettlementClient() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Checklist of Documents</h3>
                 <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✔</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span>Recent Loan/Credit Card Statements</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✔</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span>KYC (Aadhar Card, PAN Card)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✔</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span>Termination Letter (if unemployed)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✔</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span>Medical Records (for health crisis)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✔</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span>Salary Slips / Bank Statements (showing income drop)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-500 mr-2">✔</span>
+                    <span className="text-green-500 mr-2">v</span>
                     <span>All Legal Notices Received</span>
                   </li>
                 </ul>
@@ -397,22 +397,22 @@ export default function KotakLoanSettlementClient() {
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <div className="text-blue-600 text-3xl mb-3">🛡️</div>
+                  <div className="text-blue-600 text-3xl mb-3">[Protection]</div>
                   <h5 className="font-bold text-gray-900 mb-2">Anti-Harassment Shield</h5>
                   <p className="text-sm text-gray-600">We take over agent calls so you can focus on your life and work.</p>
                 </div>
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <div className="text-blue-600 text-3xl mb-3">💰</div>
+                  <div className="text-blue-600 text-3xl mb-3">[Money]</div>
                   <h5 className="font-bold text-gray-900 mb-2">Proven Savings</h5>
                   <p className="text-sm text-gray-600">Our expertise allows us to secure up to 50% waivers regularly.</p>
                 </div>
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <div className="text-blue-600 text-3xl mb-3">⚖️</div>
+                  <div className="text-blue-600 text-3xl mb-3">[Scale]</div>
                   <h5 className="font-bold text-gray-900 mb-2">Legal Expertise</h5>
                   <p className="text-sm text-gray-600">Our lawyers handle arbitration and legal notices professionally.</p>
                 </div>
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <div className="text-blue-600 text-3xl mb-3">🤝</div>
+                  <div className="text-blue-600 text-3xl mb-3">[Deal]</div>
                   <h5 className="font-bold text-gray-900 mb-2">Client First</h5>
                   <p className="text-sm text-gray-600">Transparent fees, no false promises, and genuine support.</p>
                 </div>
@@ -424,14 +424,14 @@ export default function KotakLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="font-bold text-white">Suresh Reddy</div>
                     </div>
                     <p className="italic text-gray-200 text-sm leading-relaxed">"I was drowning in Kotak personal loan EMIs after my salary cut. CredSettle negotiated a 40% waiver. The peace of mind I have now is priceless."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="font-bold text-white">Meera Patel</div>
                     </div>
                     <p className="italic text-gray-200 text-sm leading-relaxed">"The harassment from agents was affecting my health. CredSettle stopped it immediately. They are very professional and handled everything legally."</p>
@@ -459,10 +459,10 @@ export default function KotakLoanSettlementClient() {
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition-transform hover:-translate-y-1">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 text-2xl">
-                  📞
+                  [Phone]
                 </div>
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Distressed?</h4>
-                <p className="text-sm text-gray-600 mb-6">Don't fight the bank alone. Get expert legal support.</p>
+                <p className="text-sm text-gray-600 mb-6">Don’t fight the bank alone. Get expert legal support.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-sm"
@@ -470,8 +470,8 @@ export default function KotakLoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                  <p className="flex items-center justify-center gap-1"><span className="text-green-500">✓</span> 100% Confidential</p>
-                  <p className="flex items-center justify-center gap-1"><span className="text-green-500">✓</span> RBI Compliant</p>
+                  <p className="flex items-center justify-center gap-1"><span className="text-green-500">v</span> 100% Confidential</p>
+                  <p className="flex items-center justify-center gap-1"><span className="text-green-500">v</span> RBI Compliant</p>
                 </div>
               </div>
 

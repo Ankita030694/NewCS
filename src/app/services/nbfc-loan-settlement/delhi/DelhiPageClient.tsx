@@ -48,7 +48,7 @@ const sections = [
     level: 2,
     content: [
       "Delhi NCR is India’s densest financial ecosystem, combining central government employees, policy think-tanks, start-ups, e-commerce warehouses, gig riders, and traders from Chandni Chowk to Nehru Place. NBFC penetration remains high because digital lending apps, point-of-sale financing, and business credit lines provide faster disbursals than scheduled banks. The same convenience turns risky after two or three missed EMIs. Interest costs between 20% and 36% stack up quickly, while late fees and legal charges convert manageable arrears into runaway balances.",
-      "Capital residents face a unique cost matrix: sky-high rentals in South Delhi, school fees in Dwarka and Gurugram, transport expenses, and inflation-hit groceries. Gig economy earners – delivery riders, ride-hailing drivers, and freelance professionals – experience inconsistent payouts. When revenue drops, NBFC EMIs slip behind quickly, prompting relentless follow-ups. Many salaried professionals also carry relocation costs, security deposits, and lifestyle debt from electronics or travel purchases, all of which strain cash flows when bonuses are delayed.",
+      "Capital residents face a unique cost matrix: sky-high rentals in South Delhi, school fees in Dwarka and Gurugram, transport expenses, and inflation-hit groceries. Gig economy earners - delivery riders, ride-hailing drivers, and freelance professionals - experience inconsistent payouts. When revenue drops, NBFC EMIs slip behind quickly, prompting relentless follow-ups. Many salaried professionals also carry relocation costs, security deposits, and lifestyle debt from electronics or travel purchases, all of which strain cash flows when bonuses are delayed.",
       "By the time borrowers approach CredSettle, their cases often include multiple NBFCs plus wage garnishment threats or social media intimidation. Our Delhi desk handles these scenarios daily, ensuring the borrower regains control of communication, compiles the right evidence, and structures a settlement that matches capital-region living realities."],
   },
   {
@@ -71,7 +71,7 @@ const sections = [
   },
   {
     id: 'credsettle-command-centre',
-    title: "CredSettle's Delhi Command Centre Methodology",
+    title: "CredSettle’s Delhi Command Centre Methodology",
     level: 2,
     content: [
       "Our Delhi command centre runs a six-pillar methodology tailored to the capital’s pace. Pillar one is diagnostics: we pull credit bureau reports, decode loan agreements, identify co-applicants, and benchmark interest plus penalty accruals. Pillar two is harassment control: a dedicated compliance desk issues notices to NBFC nodal officers, recovery partners, and tele-calling vendors, warning them about RBI and Delhi Police norms.",
@@ -83,7 +83,7 @@ const sections = [
     title: 'Industry-Specific Settlement Strategies in NCR',
     level: 2,
     content: [
-      "Start-up founders in Gurugram and Noida often rely on unsecured business loans for runway. When funding rounds delay, we supply investors’ bridge commitment letters or revenue projections to position settlement as the cleanest exit. Retail traders in Sadar Bazaar and Lajpat Nagar need cash flow-sensitive instalment plans, so we align payment dates with seasonal peaks like Diwali and wedding shopping cycles.",
+      "Start-up founders in Gurugram and Noida often rely on unsecured business loans for runway. When funding rounds delay, we supply investors' bridge commitment letters or revenue projections to position settlement as the cleanest exit. Retail traders in Sadar Bazaar and Lajpat Nagar need cash flow-sensitive instalment plans, so we align payment dates with seasonal peaks like Diwali and wedding shopping cycles.",
       "Gig workers in Dwarka, Rohini, and Ghaziabad depend on aggregator payouts. We compile platform statements showing incentive cuts, fuel reimbursement changes, and downtime during air pollution bans or weekend curfews, supporting a reduced settlement percentage. Healthcare professionals running clinics in South Delhi leverage patient appointment data and insurance claim delays to justify structured payments.",
       "Educational institutions and coaching centres along the Metro Blue Line suffered revenue dips during extended online learning. CredSettle integrates school fee collection data, rental agreements, and ESI/PF filings to build persuasive hardship narratives that NBFC credit committees accept."],
   },
@@ -130,7 +130,7 @@ const sections = [
     content: [
       "Post-settlement, we schedule a financial reset workshop. Clients set up emergency funds through Delhi cooperative banks like Saraswat Bank or Punjab & Sind Bank branches, automate savings via recurring deposits, and segregate personal and business accounts to prevent cash flow confusion.",
       "We guide clients to review their credit reports from CIBIL, Experian, Equifax, and CRIF High Mark within 45 days of settlement. Any discrepancies trigger online disputes with supporting documents. Once bureaus reflect the correct status, we introduce secured credit products such as fixed-deposit-backed cards or gold loans with lower interest to rebuild repayment history.",
-      "Entrepreneurs receive cash flow templates tailored to local realities – factoring in GST payments, vendor credit terms at Azadpur Mandi, or seasonal tourism inflows in central Delhi. Gig workers receive app-based earning trackers and fuel budgeting tools. Quarterly reviews ensure the recovery roadmap stays on track."],
+      "Entrepreneurs receive cash flow templates tailored to local realities - factoring in GST payments, vendor credit terms at Azadpur Mandi, or seasonal tourism inflows in central Delhi. Gig workers receive app-based earning trackers and fuel budgeting tools. Quarterly reviews ensure the recovery roadmap stays on track."],
   },
   {
     id: 'case-diaries',
@@ -147,7 +147,7 @@ const headings = [
   { id: 'delhi-borrower-snapshot', text: 'Delhi Borrower Snapshot: Metro Pressures and NCR Debt Patterns', level: 2 },
   { id: 'nbfc-footprint-ncr', text: 'NBFC Footprint Across Delhi NCR', level: 2 },
   { id: 'regulatory-environment', text: 'Regulatory Environment and Borrower Protection in Delhi', level: 2 },
-  { id: 'credsettle-command-centre', text: "CredSettle's Delhi Command Centre Methodology", level: 2 },
+  { id: 'credsettle-command-centre', text: "CredSettle’s Delhi Command Centre Methodology", level: 2 },
   { id: 'sector-strategies', text: 'Industry-Specific Settlement Strategies in NCR', level: 2 },
   { id: 'legal-lifelines', text: 'Legal Lifelines: DSLSA, Lok Adalats, and DRT Benches', level: 2 },
   { id: 'step-by-step-delhi', text: 'Step-by-Step Settlement Blueprint for Delhi Clients', level: 2 },

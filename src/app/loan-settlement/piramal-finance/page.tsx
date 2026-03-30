@@ -99,7 +99,7 @@ export default function PiramalFinanceLoanSettlementPage() {
     },
     {
       question: "What is the typical waiver percentage?",
-      answer: "Waivers typically range between 30% to 50% of the total outstanding, depending on the case's merit."
+      answer: "Waivers typically range between 30% to 50% of the total outstanding, depending on the case’s merit."
     },
     {
       question: "How to identify a fake Piramal legal notice?",

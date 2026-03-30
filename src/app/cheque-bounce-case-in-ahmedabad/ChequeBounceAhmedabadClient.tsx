@@ -273,7 +273,7 @@ export default function ChequeBounceAhmedabadClient() {
                   </li>
                 </ul>
                 <p>
-                  Regardless of the technical reason, the impact on the payee is the same: the money is not received. In Ahmedabad, payees often make the mistake of re-presenting the cheque multiple times at the drawer's request. While this is legal within the cheque's three-month validity, it often serves as a delay tactic. It is generally advisable to act at the first instance of dishonour or at least before the validity period expires.
+                  Regardless of the technical reason, the impact on the payee is the same: the money is not received. In Ahmedabad, payees often make the mistake of re-presenting the cheque multiple times at the drawer’s request. While this is legal within the cheque’s three-month validity, it often serves as a delay tactic. It is generally advisable to act at the first instance of dishonour or at least before the validity period expires.
                 </p>
               </div>
 
@@ -332,14 +332,14 @@ export default function ChequeBounceAhmedabadClient() {
               <h2 id="jurisdiction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4 italic-none">Jurisdiction: Where to File Your Case in Ahmedabad?</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  One of the most common questions from payees in Gujarat is, "Where exactly should I file my case?" Before 2015, there was significant confusion regarding jurisdiction, often requiring payees to travel to the drawer's city. However, following a landmark amendment, the rules were simplified to favor the payee.
+                  One of the most common questions from payees in Gujarat is, "Where exactly should I file my case?" Before 2015, there was significant confusion regarding jurisdiction, often requiring payees to travel to the drawer’s city. However, following a landmark amendment, the rules were simplified to favor the payee.
                 </p>
                 <p>
                   In a <strong>cheque bounce case in Ahmedabad</strong>, jurisdiction is determined by:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><strong>Where the Payee has an Account:</strong> If you deposit the cheque for collection through your own bank account, the case must be filed in the court within whose local jurisdiction your bank branch is located.</li>
-                  <li><strong>Where the Cheque is Presented Over the Counter:</strong> If you present the cheque directly at the drawer's bank, the case is filed in the court where that branch is located.</li>
+                  <li><strong>Where the Cheque is Presented Over the Counter:</strong> If you present the cheque directly at the drawer’s bank, the case is filed in the court where that branch is located.</li>
                 </ul>
                 <p>
                   For most businesses and individuals in Ahmedabad, this means you can file the case in the court nearest to your own bank. If your bank is in Navrangpura, Satellite, or Maninagar, your case will likely be heard in the Metropolitan Magistrate Court in the Gheekanta court complex. This change has been a major relief for the Ahmedabad business community. It prevents drawers from using distance as a defense and allows local creditors to seek justice more conveniently.
@@ -349,10 +349,10 @@ export default function ChequeBounceAhmedabadClient() {
               <h2 id="compensation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4 italic-none">Interim Compensation: Relief During the Trial</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  A frequent frustration for victims of cheque bounce in Ahmedabad is the duration of the trial. While criminal prosecution is a deterrent, it does not immediately put money back into the payee's pocket. To address this, the Negotiable Instruments Act was amended in 2018 to include Section 143A. This provision allows the Ahmedabad Magistrate to order the drawer to pay "interim compensation" to the complainant.
+                  A frequent frustration for victims of cheque bounce in Ahmedabad is the duration of the trial. While criminal prosecution is a deterrent, it does not immediately put money back into the payee’s pocket. To address this, the Negotiable Instruments Act was amended in 2018 to include Section 143A. This provision allows the Ahmedabad Magistrate to order the drawer to pay "interim compensation" to the complainant.
                 </p>
                 <p>
-                  This interim compensation can be up to 20% of the cheque amount. It is usually ordered when the drawer pleads "not guilty" at the stage of framing charges. The drawer must pay this amount within 60 days of the court's order. In the commercial environment of Gujarat, Section 143A has become a powerful tool. It provides immediate financial relief and acts as a litmus test for the drawer's intent. If a drawer is unwilling or unable to pay even 20% of the disputed amount, it often encourages the court to take a stricter view of their defense.
+                  This interim compensation can be up to 20% of the cheque amount. It is usually ordered when the drawer pleads "not guilty" at the stage of framing charges. The drawer must pay this amount within 60 days of the court’s order. In the commercial environment of Gujarat, Section 143A has become a powerful tool. It provides immediate financial relief and acts as a litmus test for the drawer’s intent. If a drawer is unwilling or unable to pay even 20% of the disputed amount, it often encourages the court to take a stricter view of their defense.
                 </p>
                 <p>
                   On the other hand, if the drawer is eventually acquitted, the complainant must return the interim compensation with interest. However, in most legitimate debt recovery scenarios, this provision significantly increases the pressure on the accused to settle the matter early in the trial process.
@@ -373,7 +373,7 @@ export default function ChequeBounceAhmedabadClient() {
                   <li><strong>Documentary Proof of Debt:</strong> Invoices, purchase orders, or loan agreements.</li>
                 </ul>
                 <p>
-                  For company-related cases in areas like GIDC Vatwa or SG Highway, you will also need a "Board Resolution" or a "Power of Attorney" authorizing a specific person to sign the complaint and testify. In Ahmedabad's busy legal atmosphere, having these documents categorized and ready for filing will save you significant time and ensure that your advocate can focus on the legal arguments.
+                  For company-related cases in areas like GIDC Vatwa or SG Highway, you will also need a "Board Resolution" or a "Power of Attorney" authorizing a specific person to sign the complaint and testify. In Ahmedabad’s busy legal atmosphere, having these documents categorized and ready for filing will save you significant time and ensure that your advocate can focus on the legal arguments.
                 </p>
               </div>
 
@@ -383,10 +383,10 @@ export default function ChequeBounceAhmedabadClient() {
                   While many general lawyers offer services for cheque bounce, choosing a specialist is critical for success in Ahmedabad. The Section 138 procedure is a "Summary Trial," which follows a distinct set of rules compared to standard criminal or civil cases. An expert advocate who regularly practices in the Mirzapur and Gheekanta courts will have an edge.
                 </p>
                 <p>
-                  A specialized lawyer understands the nuances of cross-examination in these cases. They know how to challenge a drawer's defense of "lost cheque" or "signed blank cheque," which are commonly used tactics in Gujarat courts. Furthermore, a local specialist will be familiar with the recent judgments of the Gujarat High Court that have shaped how Section 138 is interpreted in the state.
+                  A specialized lawyer understands the nuances of cross-examination in these cases. They know how to challenge a drawer’s defense of "lost cheque" or "signed blank cheque," which are commonly used tactics in Gujarat courts. Furthermore, a local specialist will be familiar with the recent judgments of the Gujarat High Court that have shaped how Section 138 is interpreted in the state.
                 </p>
                 <p>
-                  At CredSettle, we understand the unique challenges of the Ahmedabad legal landscape. We bridge the gap between you and the most effective legal professionals in the city. Our partners don't just focus on the criminal trial; they focus on the "Recovery." Whether it's through the pressure of a Section 138 case, the filing of a parallel civil recovery suit, or negotiating a settlement through a Lok Adalat, we aim for the most efficient path to your financial restoration.
+                  At CredSettle, we understand the unique challenges of the Ahmedabad legal landscape. We bridge the gap between you and the most effective legal professionals in the city. Our partners don’t just focus on the criminal trial; they focus on the "Recovery." Whether it’s through the pressure of a Section 138 case, the filing of a parallel civil recovery suit, or negotiating a settlement through a Lok Adalat, we aim for the most efficient path to your financial restoration.
                 </p>
               </div>
 
@@ -394,7 +394,7 @@ export default function ChequeBounceAhmedabadClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "CredSettle team was amazing. They handled my cheque bounce case in Gheekanta Court perfectly. Recovered the full amount from a tricky debtor in just few hearings."
@@ -403,7 +403,7 @@ export default function ChequeBounceAhmedabadClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "Very professional approach. The legal notice they sent was enough to make the drawer pay within 15 days. Saved me from a long legal battle. Best Section 138 experts in Gujarat."
@@ -412,7 +412,7 @@ export default function ChequeBounceAhmedabadClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "I was worried about the court process, but their advocate in Mirzapur made it very simple. They even got the 20% interim compensation ordered quickly. Top class service."
@@ -421,7 +421,7 @@ export default function ChequeBounceAhmedabadClient() {
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
                     "Reliable and efficient. They handle all our corporate cheque bounce issues with great success. Highly recommended for business owners in Ahmedabad."
@@ -443,7 +443,7 @@ export default function ChequeBounceAhmedabadClient() {
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
                   <h2 className="text-3xl font-bold mb-4 italic-none">Ready to Recover Your Money?</h2>
-                  <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don't let a cheque bounce stop your business. Get in touch with Ahmedabad's top Section 138 legal experts today.</p>
+                  <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don’t let a cheque bounce stop your business. Get in touch with Ahmedabad’s top Section 138 legal experts today.</p>
                   <Link 
                     href="/contact"
                     className="inline-block bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg"

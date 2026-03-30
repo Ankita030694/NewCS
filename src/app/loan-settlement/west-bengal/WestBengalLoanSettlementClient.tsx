@@ -94,7 +94,7 @@ export default function WestBengalLoanSettlementClient() {
     },
     {
       question: "Can I settle my personal loan in Kolkata if I am employed?",
-      answer: "Absolutely. Your employment status does not bar you from settlement. If you are facing genuine financial hardship—such as a salary cut, job loss in the IT sector (Salt Lake/New Town), or high medical expenses—banks are willing to negotiate. The key is to prove your current inability to pay the full EMIs despite having an intention to resolve the debt."
+      answer: "Absolutely. Your employment status does not bar you from settlement. If you are facing genuine financial hardship-such as a salary cut, job loss in the IT sector (Salt Lake/New Town), or high medical expenses-banks are willing to negotiate. The key is to prove your current inability to pay the full EMIs despite having an intention to resolve the debt."
     },
     {
       question: "Will the Kolkata Police help if recovery agents harass me?",
@@ -102,7 +102,7 @@ export default function WestBengalLoanSettlementClient() {
     },
     {
       question: "How does the Lok Adalat in West Bengal help in settlement?",
-      answer: "The West Bengal State Legal Services Authority (WBSLSA) organizes Lok Adalats, which act as 'People's Courts'. They provide a fast, cost-effective, and legally binding forum to settle banking disputes. An award passed by the Lok Adalat is final and cannot be appealed in any higher court, giving you permanent closure on your loan."
+      answer: "The West Bengal State Legal Services Authority (WBSLSA) organizes Lok Adalats, which act as 'People’s Courts'. They provide a fast, cost-effective, and legally binding forum to settle banking disputes. An award passed by the Lok Adalat is final and cannot be appealed in any higher court, giving you permanent closure on your loan."
     },
     {
       question: "Does settlement affect my CIBIL score?",
@@ -118,11 +118,11 @@ export default function WestBengalLoanSettlementClient() {
     },
     {
       question: "Do I need to visit the bank branch in person for settlement?",
-      answer: "No. When you hire CredSettle, we handle all the legwork. We negotiate directly with the bank's Regional or Zonal offices (mostly located in Kolkata's Central Business District). You do not need to face the branch manager or local recovery agents personally."
+      answer: "No. When you hire CredSettle, we handle all the legwork. We negotiate directly with the bank’s Regional or Zonal offices (mostly located in Kolkata’s Central Business District). You do not need to face the branch manager or local recovery agents personally."
     },
     {
       question: "How long does the settlement process take in West Bengal?",
-      answer: "The timeline typically ranges from 45 to 90 days. It depends on the specific bank's internal approval hierarchy and the complexity of your case. Public sector banks may take slightly longer than private banks due to their multi-layered approval process."
+      answer: "The timeline typically ranges from 45 to 90 days. It depends on the specific bank’s internal approval hierarchy and the complexity of your case. Public sector banks may take slightly longer than private banks due to their multi-layered approval process."
     },
     {
       question: "What if I receive a fake legal notice?",
@@ -223,7 +223,7 @@ export default function WestBengalLoanSettlementClient() {
                 West Bengal presents a unique economic and social landscape. It is a state where traditional values meet modern financial pressures. From the bustling, historic trading lanes of Burrabazar and Posta in Kolkata to the gleaming glass towers of the IT sector in Salt Lake (Bidhannagar) and New Town, the aspiration for a better life is universal. This aspiration is often funded by credit. Whether it is a personal loan for a grand wedding, a business loan for a startup in Siliguri, or credit cards used to manage the rising cost of living in urban centers, debt has become an integral part of the Bengali middle-class existence.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                However, the economic reality is volatile. The post-pandemic world has seen shifts in the job market, particularly in the service and IT sectors, leading to unexpected layoffs or salary delays. Small business owners in districts like Howrah and Hooghly face fluctuations in demand and supply chain disruptions. When these financial shocks hit, the carefully managed cycle of EMIs can collapse. In West Bengal, the social fabric of the "Para" (neighborhood) is tight-knit. The fear of social embarrassment—of neighbors or relatives finding out about financial distress—is often more paralyzing than the debt itself. This "Bhadralok" sensitivity makes borrowers suffer in silence, often taking new loans to pay off old ones, spiraling deeper into a debt trap.
+                However, the economic reality is volatile. The post-pandemic world has seen shifts in the job market, particularly in the service and IT sectors, leading to unexpected layoffs or salary delays. Small business owners in districts like Howrah and Hooghly face fluctuations in demand and supply chain disruptions. When these financial shocks hit, the carefully managed cycle of EMIs can collapse. In West Bengal, the social fabric of the "Para" (neighborhood) is tight-knit. The fear of social embarrassment-of neighbors or relatives finding out about financial distress-is often more paralyzing than the debt itself. This "Bhadralok" sensitivity makes borrowers suffer in silence, often taking new loans to pay off old ones, spiraling deeper into a debt trap.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
                 It is vital to break this silence. You must understand that <strong>Loan Settlement</strong> is not a crime, nor is it a sign of moral failure. It is a legitimate, legal financial solution available to every Indian citizen under RBI guidelines. Major banks operating in the state, including the locally headquartered UCO Bank and Bandhan Bank, as well as giants like SBI, HDFC, and ICICI, have structured policies to settle Non-Performing Assets (NPAs). They prefer a pragmatic settlement over endless litigation. CredSettle acts as your bridge, your advocate, and your shield, helping you navigate the unique legal and banking landscape of West Bengal to achieve a dignified, debt-free future.
@@ -262,7 +262,7 @@ export default function WestBengalLoanSettlementClient() {
                 The rule essentially states that at any given time, the total interest recoverable by the lender cannot exceed the principal amount of the loan. For example, if you borrowed ₹1 Lakh, the lender cannot file a suit to recover ₹5 Lakhs claiming ₹4 Lakhs is interest and penalties. The maximum interest component they can legally claim is capped relative to the principal.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                While modern banking laws and contracts often try to bypass this, the principle of Damdupat remains a potent argument in settlement negotiations and Lok Adalat proceedings in West Bengal. It highlights the state's judicial intent to prevent "usury" or predatory pricing. When CredSettle represents you, we leverage these local legal nuances to negotiate a settlement amount that is fair and just, often waiving off the accumulated penal interest entirely.
+                While modern banking laws and contracts often try to bypass this, the principle of Damdupat remains a potent argument in settlement negotiations and Lok Adalat proceedings in West Bengal. It highlights the state’s judicial intent to prevent "usury" or predatory pricing. When CredSettle represents you, we leverage these local legal nuances to negotiate a settlement amount that is fair and just, often waiving off the accumulated penal interest entirely.
               </p>
 
               <h2 id="settlement-process-kolkata" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Loan Settlement Process in Kolkata & West Bengal</h2>
@@ -306,7 +306,7 @@ export default function WestBengalLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Strategic Negotiation with Zonal Offices</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      Most major banks have their Zonal or Circle offices in Kolkata's Central Business District (Dalhousie/BBD Bagh) or Salt Lake Sector V. We bypass the local branch level and negotiate directly with the authorized officers at the regional level. Our goal is to secure a waiver on 100% of the penal interest and legal charges, and a substantial reduction (often 40-60%) on the principal amount.
+                      Most major banks have their Zonal or Circle offices in Kolkata’s Central Business District (Dalhousie/BBD Bagh) or Salt Lake Sector V. We bypass the local branch level and negotiate directly with the authorized officers at the regional level. Our goal is to secure a waiver on 100% of the penal interest and legal charges, and a substantial reduction (often 40-60%) on the principal amount.
                     </p>
                   </div>
                 </div>
@@ -316,7 +316,7 @@ export default function WestBengalLoanSettlementClient() {
                   <div className="ml-6">
                     <h4 className="text-xl font-bold text-gray-900 mb-2">Settlement Letter & Closure</h4>
                     <p className="text-gray-700 leading-relaxed">
-                      We never proceed without written confirmation. We secure a formal Settlement Letter on the bank's official letterhead. We verify every clause—payment schedule, amount, and closure terms—to ensure there are no loopholes. Once you make the payment directly to the bank, we follow up to ensure the issuance of the "No Dues Certificate" (NDC).
+                      We never proceed without written confirmation. We secure a formal Settlement Letter on the bank’s official letterhead. We verify every clause-payment schedule, amount, and closure terms-to ensure there are no loopholes. Once you make the payment directly to the bank, we follow up to ensure the issuance of the "No Dues Certificate" (NDC).
                     </p>
                   </div>
                 </div>
@@ -324,7 +324,7 @@ export default function WestBengalLoanSettlementClient() {
 
               <h2 id="lok-adalat-wb" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Lok Adalat: The Safe & Speedy Route in West Bengal</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Lok Adalat</strong> (People's Court) is one of the most effective forums for resolving banking disputes in West Bengal. Organized under the aegis of the <strong>West Bengal State Legal Services Authority (WBSLSA)</strong>, these courts act as an Alternative Dispute Resolution (ADR) mechanism that is both powerful and borrower-friendly.
+                The <strong>Lok Adalat</strong> (People’s Court) is one of the most effective forums for resolving banking disputes in West Bengal. Organized under the aegis of the <strong>West Bengal State Legal Services Authority (WBSLSA)</strong>, these courts act as an Alternative Dispute Resolution (ADR) mechanism that is both powerful and borrower-friendly.
               </p>
               
               <h3 className="text-xl font-bold text-gray-800 mb-4">Why is Lok Adalat the Best Option?</h3>
@@ -351,15 +351,15 @@ export default function WestBengalLoanSettlementClient() {
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h4 className="font-bold text-blue-900 mb-2">Lalbazar Cyber Crime Cell</h4>
-                  <p className="text-sm text-gray-600">For digital harassment—such as abusive WhatsApp messages, morphed photos, or fake legal notices—you can approach the Cyber Crime Police Station at the Kolkata Police Headquarters in Lalbazar. They are highly equipped to track digital footprints.</p>
+                  <p className="text-sm text-gray-600">For digital harassment-such as abusive WhatsApp messages, morphed photos, or fake legal notices-you can approach the Cyber Crime Police Station at the Kolkata Police Headquarters in Lalbazar. They are highly equipped to track digital footprints.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h4 className="font-bold text-blue-900 mb-2">The 'Bondhu' App</h4>
-                  <p className="text-sm text-gray-600">The Kolkata Police's official citizen app, "Bondhu," allows you to report grievances digitally. It is a quick way to alert the authorities if you feel threatened.</p>
+                  <p className="text-sm text-gray-600">The Kolkata Police’s official citizen app, "Bondhu," allows you to report grievances digitally. It is a quick way to alert the authorities if you feel threatened.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h4 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h4>
-                  <p className="text-sm text-gray-600">In case of immediate physical threat—for instance, if recovery agents are at your door creating a nuisance—dialing 100 ensures immediate police intervention. The police usually warn agents that civil recovery cannot involve public disorder.</p>
+                  <p className="text-sm text-gray-600">In case of immediate physical threat-for instance, if recovery agents are at your door creating a nuisance-dialing 100 ensures immediate police intervention. The police usually warn agents that civil recovery cannot involve public disorder.</p>
                 </div>
               </div>
 
@@ -373,7 +373,7 @@ export default function WestBengalLoanSettlementClient() {
               <ul className="list-disc pl-6 space-y-3 mb-6 text-gray-700">
                 <li><strong>DRT-1 Kolkata:</strong> Handles cases from specific jurisdictions in Kolkata and southern Bengal districts. Located centrally, often near the Jeevan Sudha Building.</li>
                 <li><strong>DRT-2 Kolkata:</strong> Has jurisdiction over other parts of Kolkata and several surrounding districts. It is one of the busiest tribunals handling high-value corporate and personal loan cases.</li>
-                <li><strong>DRT-3 Kolkata:</strong> Established to manage the overflowing caseload, it covers remaining areas and sometimes cases from neighboring states depending on the bank's filing.</li>
+                <li><strong>DRT-3 Kolkata:</strong> Established to manage the overflowing caseload, it covers remaining areas and sometimes cases from neighboring states depending on the bank’s filing.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Receiving a summons from the DRT (an Original Application or OA) is a serious legal matter. If ignored, the tribunal can pass an ex-parte order against you, leading to the issuance of a Recovery Certificate (RC) and potential attachment of assets. However, the DRT is not just a recovery engine; it is also a place for settlement. The Presiding Officers often encourage banks to settle matters amicably to reduce their backlog. CredSettle provides expert legal representation in all three DRTs in Kolkata, defending your rights and steering the case towards a mutually beneficial settlement.
@@ -402,13 +402,13 @@ export default function WestBengalLoanSettlementClient() {
                   <strong>The "Loan Closure" Agent:</strong> You may meet agents in local trains or near bus stands who claim they know the bank manager personally and can "wipe" your loan for a cash fee. They might ask for ₹10,000 or ₹20,000 upfront. Never hand over cash to individuals. All settlement payments must be made directly to the bank.
                 </li>
                 <li>
-                  <strong>Fake Settlement Letters:</strong> Scammers use Photoshop to create settlement letters that look exactly like those from HDFC, SBI, or Bajaj Finance. They will ask you to deposit the settlement amount into a specific bank account which, upon closer inspection, turns out to be a personal account, not the bank's loan account. Always verify the account number.
+                  <strong>Fake Settlement Letters:</strong> Scammers use Photoshop to create settlement letters that look exactly like those from HDFC, SBI, or Bajaj Finance. They will ask you to deposit the settlement amount into a specific bank account which, upon closer inspection, turns out to be a personal account, not the bank’s loan account. Always verify the account number.
                 </li>
               </ul>
 
               <h2 id="cities-covered-wb" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">We Serve Every Corner of West Bengal</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                CredSettle's expertise is not limited to Kolkata. We have a robust network that spans the entire state, ensuring that help is available whether you are in the hills of Darjeeling or the coastal town of Haldia.
+                CredSettle’s expertise is not limited to Kolkata. We have a robust network that spans the entire state, ensuring that help is available whether you are in the hills of Darjeeling or the coastal town of Haldia.
               </p>
               <div className="flex flex-wrap gap-3 mb-10">
                 {['Kolkata', 'Howrah', 'Salt Lake', 'New Town', 'Asansol', 'Durgapur', 'Siliguri', 'Bardhaman', 'Malda', 'Kharagpur', 'Haldia', 'Berhampore', 'Krishnanagar', 'Barasat', 'Darjeeling', 'Chinsurah', 'Serampore', 'Barrackpore', 'Midnapore', 'Cooch Behar'].map((city, index) => (
@@ -433,7 +433,7 @@ export default function WestBengalLoanSettlementClient() {
                 <div className="relative z-10">
                   <h3 className="text-3xl md:text-4xl font-bold mb-6">Reclaim Your Peace of Mind in Bengal</h3>
                   <p className="mb-10 opacity-90 max-w-2xl mx-auto text-lg">
-                    Don't let debt define your future. With the law on your side and CredSettle by your side, a debt-free life is within reach. Expert legal help is just a click away.
+                    Don’t let debt define your future. With the law on your side and CredSettle by your side, a debt-free life is within reach. Expert legal help is just a click away.
                   </p>
                   <Link 
                     href="/contact"
@@ -465,9 +465,9 @@ export default function WestBengalLoanSettlementClient() {
                   Check Eligibility
                 </Link>
                 <div className="mt-4 text-xs text-gray-500 space-y-2 text-left px-2">
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Kolkata Based Team</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Money Lenders Act Expert</p>
-                  <p className="flex items-center"><span className="text-green-500 mr-2">✓</span> Lok Adalat Support</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Kolkata Based Team</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Money Lenders Act Expert</p>
+                  <p className="flex items-center"><span className="text-green-500 mr-2">v</span> Lok Adalat Support</p>
                 </div>
               </div>
 

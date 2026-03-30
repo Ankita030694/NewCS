@@ -74,7 +74,7 @@ export default function TradingLoanSettlementClient() {
         },
         {
             question: 'How much discount can I normally expect in a trading loan settlement?',
-            answer: 'Discounts range from 30% to 60%, depending on the age of the debt, the remaining collateral, and the borrower\'s documented financial hardship.'
+            answer: 'Discounts range from 30% to 60%, depending on the age of the debt, the remaining collateral, and the borrower’s documented financial hardship.'
         },
         {
             question: 'Can a stockbroker file a criminal case for margin default?',
@@ -102,7 +102,7 @@ export default function TradingLoanSettlementClient() {
         },
         {
             question: 'Do I need a lawyer for a SEBI ODR conciliation?',
-            answer: 'While not mandatory, having a lawyer ensures that your legal arguments are framed correctly and that you don\'t accidentally sign an agreement that leaves you vulnerable to future claims.'
+            answer: 'While not mandatory, having a lawyer ensures that your legal arguments are framed correctly and that you don’t accidentally sign an agreement that leaves you vulnerable to future claims.'
         },
         {
             question: 'Can I settle a margin loan before it becomes an NPA?',
@@ -338,12 +338,12 @@ export default function TradingLoanSettlementClient() {
                                 Trading loans are fundamentally different from traditional personal or business loans. They are intrinsically linked to the performance of highly volatile assets like stocks, derivatives, and commodities. The legal framework governing these loans involves a complex interplay of the Indian Contract Act, 1872, the Securities and Exchange Board of India (SEBI) regulations, and the Reserve Bank of India (RBI) guidelines for Non-Banking Financial Companies (NBFCs) and banks. A general practice lawyer may understand the basics of debt, but a specialized lawyer for trading loan settlement understands the underlying mechanics of the stock market, the nuances of margin trading facilities (MTF), and the specific pressure points that lenders face when dealing with depreciated collateral.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Why do you need an expert? The answer lies in the aggressive nature of trading loan recovery. Unlike a home loan where the repossession of the house is a long legal process, a broker can often sell your shares in milliseconds to recover their margin. This liquidation risk is often accompanied by high interest rates, penal charges, and the potential for legal action under the Negotiable Instruments Act if payment mandates fail. The best lawyer acts as your strategic shield, intervening before broad liquidations occur, challenging unauthorized trades, and opening meaningful windows for negotiation with the lender's legal department. In 2025, as digital trading platforms become more dominant, the legal challenges have shifted toward automated algorithms and click-wrap agreements, requiring a lawyer who is as digitally savvy as they are legally robust.
+                                Why do you need an expert? The answer lies in the aggressive nature of trading loan recovery. Unlike a home loan where the repossession of the house is a long legal process, a broker can often sell your shares in milliseconds to recover their margin. This liquidation risk is often accompanied by high interest rates, penal charges, and the potential for legal action under the Negotiable Instruments Act if payment mandates fail. The best lawyer acts as your strategic shield, intervening before broad liquidations occur, challenging unauthorized trades, and opening meaningful windows for negotiation with the lender’s legal department. In 2025, as digital trading platforms become more dominant, the legal challenges have shifted toward automated algorithms and click-wrap agreements, requiring a lawyer who is as digitally savvy as they are legally robust.
                             </p>
 
                             <h2 id="key-elements" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Key Elements of Trading Loan and Margin Funding Agreements</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To resolve a trading loan crisis, one must first deconstruct the agreement that created it. The best lawyers start by auditing the Margin Trading Facility (MTF) agreement or the Loan Against Securities (LAS) contract. These documents are often presented as "take it or leave it" digital forms, but they contain granular clauses that dictate the lender's power and the borrower's liabilities.
+                                To resolve a trading loan crisis, one must first deconstruct the agreement that created it. The best lawyers start by auditing the Margin Trading Facility (MTF) agreement or the Loan Against Securities (LAS) contract. These documents are often presented as "take it or leave it" digital forms, but they contain granular clauses that dictate the lender’s power and the borrower’s liabilities.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
@@ -363,12 +363,12 @@ export default function TradingLoanSettlementClient() {
 
                             <h2 id="vetting-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Comprehensive Vetting and Audit Process</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When you hire a specialized legal firm for your trading debt, they don't just ask for a settlement; they conduct a Forensic Debt Audit. This process is designed to find discrepancies in the lender's claims, which eventually becomes the leverage for a better settlement deal.
+                                When you hire a specialized legal firm for your trading debt, they don’t just ask for a settlement; they conduct a Forensic Debt Audit. This process is designed to find discrepancies in the lender’s claims, which eventually becomes the leverage for a better settlement deal.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
                                 <ol className="list-decimal pl-6 space-y-4 text-gray-800">
                                     <li><strong>Transactional Audit:</strong> A day-by-day analysis of the ledger. Are the interest rates applied correctly? Were the dividends credited to the borrower during the pledge period?</li>
-                                    <li><strong>Compliance Verification:</strong> Did the broker/lender follow SEBI's Peak Margin rules? Did they provide the mandatory Consolidated Contract Notes?</li>
+                                    <li><strong>Compliance Verification:</strong> Did the broker/lender follow SEBI’s Peak Margin rules? Did they provide the mandatory Consolidated Contract Notes?</li>
                                     <li><strong>Risk Categorization:</strong> The lawyer identifies which parts of the debt are Principal and which are Inflated Interest.</li>
                                     <li><strong>Commercial Reality Check:</strong> If there is Residual Debt after liquidation, the lender knows their recovery chances are low. This is the Sweet Spot for a 30% to 50% settlement.</li>
                                 </ol>
@@ -384,16 +384,16 @@ export default function TradingLoanSettlementClient() {
 
                             <h2 id="legal-framework" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Legal Framework: SEBI, RBI, and the ODR Portal</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                India's 2025 regulatory landscape for trading is highly consumer-centric. The Securities and Exchange Board of India (SEBI) has introduced the Online Dispute Resolution (ODR) Portal, which has revolutionized how trading disputes are handled. This portal allows for a digital, time-bound Conciliation process followed by Arbitration.
+                                India’s 2025 regulatory landscape for trading is highly consumer-centric. The Securities and Exchange Board of India (SEBI) has introduced the Online Dispute Resolution (ODR) Portal, which has revolutionized how trading disputes are handled. This portal allows for a digital, time-bound Conciliation process followed by Arbitration.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI's Integrated Ombudsman Scheme also applies to NBFCs and banks involved in margin funding. Furthermore, the 2025 RBI guidelines have abolished penal interest on many personal and micro-business loans. A specialized lawyer uses these broader policy shifts to argue that a borrower should not be crushed by compounding penalties on a defaulted trading account.
+                                The RBI’s Integrated Ombudsman Scheme also applies to NBFCs and banks involved in margin funding. Furthermore, the 2025 RBI guidelines have abolished penal interest on many personal and micro-business loans. A specialized lawyer uses these broader policy shifts to argue that a borrower should not be crushed by compounding penalties on a defaulted trading account.
                             </p>
 
                             <h2 id="negotiation-tips" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Negotiation Strategies for the Digital Trading Age</h2>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>The Liquidation Loss Argument:</strong> We show that the lender's own delay in liquidating the collateral caused the losses to exceed the margin.</li>
+                                    <li><strong>The Liquidation Loss Argument:</strong> We show that the lender’s own delay in liquidating the collateral caused the losses to exceed the margin.</li>
                                     <li><strong>The Arbitration Threat:</strong> By presenting a strong, legally sound "Notice of Dispute," we show the broker that it is cheaper for them to accept a 40% settlement now than to spend 15% on legal and arbitration fees.</li>
                                     <li><strong>The Hardship Narrative:</strong> We help frame your situation not just as a financial default but as a life crisis, backed by documentation.</li>
                                 </ul>
@@ -475,7 +475,7 @@ export default function TradingLoanSettlementClient() {
                                 In conclusion, a trading loan default is not the end of your financial journey; it is a difficult pivot point. By seeking the best lawyer for trading loan settlement, you are taking control of the narrative. You are moving from being a Defaulting Client to a Legally Informed Borrower. You are ensuring that while your trades may have failed, your legal rights remain intact.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Don't let the fear of a margin call or a legal notice define your future. Empower yourself with expert legal aid, understand the rules of the 2025 market, and work toward a resolution that provides a clean break. Your signature, your capital, and your future deserve the protection that only specialized legal vetting can provide. Secure your rights, settle your debt, and move forward with the confidence that comes from expert legal standing.
+                                Don’t let the fear of a margin call or a legal notice define your future. Empower yourself with expert legal aid, understand the rules of the 2025 market, and work toward a resolution that provides a clean break. Your signature, your capital, and your future deserve the protection that only specialized legal vetting can provide. Secure your rights, settle your debt, and move forward with the confidence that comes from expert legal standing.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">

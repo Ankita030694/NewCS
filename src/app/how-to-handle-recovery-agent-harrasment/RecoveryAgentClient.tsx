@@ -152,7 +152,7 @@ export default function RecoveryAgentClient() {
       name: "Sandeep Kumar",
       location: "Delhi",
       rating: 5,
-      text: "I was getting 50 calls a day from various recovery agents. I couldn't even sleep. CredSettle legal team took over my case, sent a strong notice to the bank, and the calls stopped in 2 days. Truly a lifesaver.",
+      text: "I was getting 50 calls a day from various recovery agents. I couldn’t even sleep. CredSettle legal team took over my case, sent a strong notice to the bank, and the calls stopped in 2 days. Truly a lifesaver.",
       date: "January 2024"
     },
     {
@@ -180,7 +180,7 @@ export default function RecoveryAgentClient() {
       name: "Manish Pandey",
       location: "Lucknow",
       rating: 5,
-      text: "CredSettle's team is very professional. They don't just stop harassment; they actually help you plan your finances. I am now debt-free thanks to them.",
+      text: "CredSettle’s team is very professional. They don’t just stop harassment; they actually help you plan your finances. I am now debt-free thanks to them.",
       date: "January 2024"
     }
   ];
@@ -263,10 +263,10 @@ export default function RecoveryAgentClient() {
               <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Navigating the Storm: A Master Class on How to Handle Recovery Agent Harassment</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
-                  Financial instability is a harsh reality that can strike anyone, anywhere. In the high-pressure economic environment of modern India, falling behind on a loan installment or a credit card payment is not just a financial hurdle; it often becomes a psychological and social battle. When you default on a payment, you might expect a polite reminder call or a formal letter. However, the reality for millions of borrowers is the sudden onset of aggressive, unrelenting, and often illegal tactics used by third-party collection agencies. Knowing <strong>how to handle recovery agent harassment</strong> is a survival skill in today's financial world. It is about more than just numbers; it is about reclaiming your constitutional right to live with dignity and peace of mind.
+                  Financial instability is a harsh reality that can strike anyone, anywhere. In the high-pressure economic environment of modern India, falling behind on a loan installment or a credit card payment is not just a financial hurdle; it often becomes a psychological and social battle. When you default on a payment, you might expect a polite reminder call or a formal letter. However, the reality for millions of borrowers is the sudden onset of aggressive, unrelenting, and often illegal tactics used by third-party collection agencies. Knowing <strong>how to handle recovery agent harassment</strong> is a survival skill in today’s financial world. It is about more than just numbers; it is about reclaiming your constitutional right to live with dignity and peace of mind.
                 </p>
                 <p>
-                  The Reserve Bank of India (RBI), the guardian of India's financial stability, has consistently mandated that recovery processes must be humanized. The law is clear: a borrower is a customer who has failed to meet a commercial obligation, not a criminal who has forfeited their human rights. Despite these clear legal and ethical boundaries, the ground reality often involves midnight calls, public shaming, threats of violence, and unauthorized workplace visits. These actions are not just "part of the job" for recovery agents; they are flagrant violations of the law. This guide is your ultimate resource, providing an 8000-word deep dive into the legal, psychological, and practical frameworks you need to stop harassment and resolve your debts with honor.
+                  The Reserve Bank of India (RBI), the guardian of India’s financial stability, has consistently mandated that recovery processes must be humanized. The law is clear: a borrower is a customer who has failed to meet a commercial obligation, not a criminal who has forfeited their human rights. Despite these clear legal and ethical boundaries, the ground reality often involves midnight calls, public shaming, threats of violence, and unauthorized workplace visits. These actions are not just "part of the job" for recovery agents; they are flagrant violations of the law. This guide is your ultimate resource, providing an 8000-word deep dive into the legal, psychological, and practical frameworks you need to stop harassment and resolve your debts with honor.
                 </p>
                 <p>
                   Why do recovery agents behave this way? The simple answer is target-based compensation. These agencies are often paid a commission on what they recover, leading to a culture where aggression is mistaken for efficiency. However, their commission structures do not override the laws of the land. Whether you are dealing with a personal loan, a credit card debt, or a home loan, the rules of engagement are strictly defined. By the end of this guide, you will have the confidence to face any collection agent, knowing exactly what they can and cannot do, and how to use the legal machinery to put them in their place.
@@ -288,7 +288,7 @@ export default function RecoveryAgentClient() {
                   <strong>2. Identification and Authorization:</strong> Verification is your first right. Every recovery agent must, without exception, identify themselves clearly and disclose the name of the lender they represent. They are required to carry a valid identity card and a copy of the specific authorization letter from the bank. If an agent refuses to provide these details, they are technically a stranger attempting to extract money from you. You have no legal obligation to talk to them. In fact, talking to unidentified agents can lead to security risks or falling prey to scammers.
                 </p>
                 <p>
-                  <strong>3. The Golden Window of Communication:</strong> The RBI has set a strict timeline for human decency. Agents are permitted to contact you only between <strong>8:00 AM and 7:00 PM</strong>. Any call, text, or visit before 8:00 AM or after 7:00 PM is a direct breach of the Fair Practices Code. Even if you "answer" a call at 10:00 PM, the agent is still in violation. This window is designed to protect your family life and personal space. Persistent calling—receiving dozens of calls per day—is also classified as harassment, regardless of the time they occur.
+                  <strong>3. The Golden Window of Communication:</strong> The RBI has set a strict timeline for human decency. Agents are permitted to contact you only between <strong>8:00 AM and 7:00 PM</strong>. Any call, text, or visit before 8:00 AM or after 7:00 PM is a direct breach of the Fair Practices Code. Even if you "answer" a call at 10:00 PM, the agent is still in violation. This window is designed to protect your family life and personal space. Persistent calling-receiving dozens of calls per day-is also classified as harassment, regardless of the time they occur.
                 </p>
                 <p>
                   <strong>4. Respect for Privacy and Professional Boundaries:</strong> Agents are strictly prohibited from discussing your delinquency with anyone other than you or your authorized representative (like CredSettle). They cannot call your parents to shaming you into paying. They cannot visit your office and shout in front of your colleagues. They cannot put up posters in your residential society. These actions are violations of your fundamental Right to Privacy under Article 21 of the Indian Constitution. The RBI has made it clear that "public shaming" and "invasion of privacy" are grounds for immediate regulatory action.
@@ -305,7 +305,7 @@ export default function RecoveryAgentClient() {
                     <strong>1. Use of Muscle Power:</strong> Any form of physical manhandling, pushing, or even blocking your path is a high-level crime. Banks are civil institutions, not gangs. If an agent threatens physical harm, they are committing "Criminal Intimidation" under Section 503 of the IPC.
                   </li>
                   <li className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500 text-gray-800">
-                    <strong>2. Verbal Abuse and Profanity:</strong> Agents often use foul language to break a borrower's spirit. This is strictly prohibited. Professional communication must be civil, polite, and respectful. Shouting at a borrower, using sexist remarks, or using vulgar language is a violation of the Fair Practices Code.
+                    <strong>2. Verbal Abuse and Profanity:</strong> Agents often use foul language to break a borrower’s spirit. This is strictly prohibited. Professional communication must be civil, polite, and respectful. Shouting at a borrower, using sexist remarks, or using vulgar language is a violation of the Fair Practices Code.
                   </li>
                   <li className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500 text-gray-800">
                     <strong>3. Threats of Immediate Jail:</strong> Only a court of law, after proper trial and due process, can order imprisonment. Recovery agents have zero authority to arrest you. Threatening someone with "immediate arrest by evening" is a common but completely illegal scare tactic.
@@ -317,7 +317,7 @@ export default function RecoveryAgentClient() {
                     <strong>5. Intrusion of the Household:</strong> Agents cannot forcibly enter your house. If they refuse to leave your premises after being asked, they are committing "Criminal Trespass." You have the right to call the police immediately.
                   </li>
                   <li className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500 text-gray-800">
-                    <strong>6. False and Misleading Representations:</strong> Telling a borrower that their property has already been seized when it hasn't, or giving false information about the outstanding amount to extort more money, is fraudulent and illegal.
+                    <strong>6. False and Misleading Representations:</strong> Telling a borrower that their property has already been seized when it hasn’t, or giving false information about the outstanding amount to extort more money, is fraudulent and illegal.
                   </li>
                 </ul>
                 <p>
@@ -331,7 +331,7 @@ export default function RecoveryAgentClient() {
                   While the RBI circulars are the rules of the banking game, the Indian legal system provides a much broader shield through common law and statutes. Understanding the hierarchy of these laws gives you the ultimate upper hand.
                 </p>
                 <p>
-                  <strong>1. The Constitution of India (Article 21):</strong> The Right to Life includes the Right to live with Dignity. In the landmark case of <em>Puttaswamy v. Union of India</em>, the Supreme Court declared privacy as a fundamental right. Any recovery process that intentionally humiliates a person or exposes their private life to public ridicule is an unconstitutional act. High Courts across India have frequently stayed recovery auctions or proceedings where the lender was found to have violated the borrower's dignity.
+                  <strong>1. The Constitution of India (Article 21):</strong> The Right to Life includes the Right to live with Dignity. In the landmark case of <em>Puttaswamy v. Union of India</em>, the Supreme Court declared privacy as a fundamental right. Any recovery process that intentionally humiliates a person or exposes their private life to public ridicule is an unconstitutional act. High Courts across India have frequently stayed recovery auctions or proceedings where the lender was found to have violated the borrower’s dignity.
                 </p>
                 <p>
                   <strong>2. The Indian Penal Code (IPC):</strong> This is arguably the most effective deterrent.
@@ -358,7 +358,7 @@ export default function RecoveryAgentClient() {
                     <div className="w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center shrink-0 font-extrabold text-xl shadow-lg">01</div>
                     <div>
                       <h4 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Verification Lockdown</h4>
-                      <p className="text-gray-800">Immediately ask for the caller's name, agency, and bank letter. If they are at your door, keep the door closed until they show proof. Inform them the conversation is being recorded for legal evidence. This "Professional Boundary" often scares away part-time bullies.</p>
+                      <p className="text-gray-800">Immediately ask for the caller’s name, agency, and bank letter. If they are at your door, keep the door closed until they show proof. Inform them the conversation is being recorded for legal evidence. This "Professional Boundary" often scares away part-time bullies.</p>
                     </div>
                   </div>
                   <div className="flex gap-6">
@@ -379,7 +379,7 @@ export default function RecoveryAgentClient() {
                     <div className="w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center shrink-0 font-extrabold text-xl shadow-lg">04</div>
                     <div>
                       <h4 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Formal Escalation</h4>
-                      <p className="text-gray-800">Most people forget this step. You MUST email the bank's "Grievance Redressal Officer" (GRO) or "Nodal Officer." Banks are legally required to provide an acknowledgment and a response within 30 days. This creates a paper trail for the Ombudsman.</p>
+                      <p className="text-gray-800">Most people forget this step. You MUST email the bank’s "Grievance Redressal Officer" (GRO) or "Nodal Officer." Banks are legally required to provide an acknowledgment and a response within 30 days. This creates a paper trail for the Ombudsman.</p>
                     </div>
                   </div>
                 </div>
@@ -391,10 +391,10 @@ export default function RecoveryAgentClient() {
                   With the rise of "App-based lending," harassment has moved from the doorstep to the smartphone. This is the new frontier in learning <strong>how to handle recovery agent harassment</strong>. Modern fintech apps often use permissions to read your contact list and subsequently use it to shame you.
                 </p>
                 <p>
-                  The RBI's "Digital Lending Guidelines" (2022) specifically prohibit lenders from accessing a borrower's contact list, photos, or location purely for recovery purposes. If an agent creates a "WhatsApp Group" including you and your relatives to discuss your loan, they are committing a severe regulatory breach. Use the "Report and Block" feature on WhatsApp, but only *after* taking full-screen screenshots showing the agent's number and the message content.
+                  The RBI’s "Digital Lending Guidelines" (2022) specifically prohibit lenders from accessing a borrower’s contact list, photos, or location purely for recovery purposes. If an agent creates a "WhatsApp Group" including you and your relatives to discuss your loan, they are committing a severe regulatory breach. Use the "Report and Block" feature on WhatsApp, but only *after* taking full-screen screenshots showing the agent’s number and the message content.
                 </p>
                 <p>
-                  Social Media shaming—posting your photo on Facebook or Instagram labeling you a fraud—is a crime under the IT Act as well as the IPC. You can report these posts to the platform for "harassment" and "invasion of privacy." Additionally, you should report these to the National Cyber Crime Reporting Portal (cybercrime.gov.in). Digital evidence is immutable and very hard for banks to contest in court.
+                  Social Media shaming-posting your photo on Facebook or Instagram labeling you a fraud-is a crime under the IT Act as well as the IPC. You can report these posts to the platform for "harassment" and "invasion of privacy." Additionally, you should report these to the National Cyber Crime Reporting Portal (cybercrime.gov.in). Digital evidence is immutable and very hard for banks to contest in court.
                 </p>
               </div>
 
@@ -407,7 +407,7 @@ export default function RecoveryAgentClient() {
                   The Ombudsman acts as a quasi-judicial authority. They have the power to "Award" compensation to you. If your evidence shows that the agent called at 11:00 PM or visited your office without authorization, the Ombudsman can order the bank to stop recovery for a specific period and pay you for the mental agony caused. This complaint is cost-free and does not require a lawyer, making it the most accessible route for a common man.
                 </p>
                 <p>
-                  Pro Tip: When filing at <strong>cms.rbi.org.in</strong>, always mention that "the recovery agent violated the RBI Fair Practices Code and Circular RBI/2022-23/108." Using technical regulatory terms makes the Ombudsman's office prioritize your case as a "Compliance Failure" by the bank.
+                  Pro Tip: When filing at <strong>cms.rbi.org.in</strong>, always mention that "the recovery agent violated the RBI Fair Practices Code and Circular RBI/2022-23/108." Using technical regulatory terms makes the Ombudsman’s office prioritize your case as a "Compliance Failure" by the bank.
                 </p>
               </div>
 
@@ -417,7 +417,7 @@ export default function RecoveryAgentClient() {
                   Regulatory complaints are for "bad behavior," but police complaints are for "crimes." If a recovery agent makes a direct threat to your safety, uses physical force, or tries to seize your asset in an unauthorized manner, do not wait for the bank. Call 100 or 112 immediately.
                 </p>
                 <p>
-                  A formal First Information Report (FIR) under Section 506 (Criminal Intimidation) or Section 441 (Trespass) puts the agent and the agency supervisor in the spotlight of the criminal justice system. Once an FIR is filed, the bank is legally obligated to terminate the agency's contract. This is a "nuclear option" and should be used only when there is a genuine crime, but it is a necessary part of knowing <strong>how to handle recovery agent harassment</strong>.
+                  A formal First Information Report (FIR) under Section 506 (Criminal Intimidation) or Section 441 (Trespass) puts the agent and the agency supervisor in the spotlight of the criminal justice system. Once an FIR is filed, the bank is legally obligated to terminate the agency’s contract. This is a "nuclear option" and should be used only when there is a genuine crime, but it is a necessary part of knowing <strong>how to handle recovery agent harassment</strong>.
                 </p>
                 <p>
                   A Professional Legal Notice from a firm like CredSettle often acts as a bridge. It tells the bank: "We are aware of the crimes your agents are committing. Stop now, or we will file an FIR and an Ombudsman complaint." 90% of banks will stop their aggressive tactics the moment they receive a well-drafted legal notice from a reputable advocate.
@@ -448,19 +448,19 @@ export default function RecoveryAgentClient() {
                 <ul className="list-disc pl-6 space-y-4">
                   <li><strong>Credit Cards:</strong> These are the most aggressive. Recovery is often outsourced to low-level agencies. Remember: persistent calling is their main weapon. Use the DND (Do Not Disturb) and TCC (Targeted Communication) rules.</li>
                   <li><strong>Home Loans:</strong> Here, the bank usually focuses on SARFAESI. Harassment at the doorstep is less common, but "intimidation via notices" is high. Ensure every notice has a <strong>DIN (Document Identification Number)</strong> or is verifiable.</li>
-                  <li><strong>App-Based Personal Loans:</strong> These are the highest risk for digital shaming. If they call your contacts, report them to the RBI's Sachet portal immediately. This is a violations of the <strong>LSP (Lending Service Provider)</strong> guidelines.</li>
+                  <li><strong>App-Based Personal Loans:</strong> These are the highest risk for digital shaming. If they call your contacts, report them to the RBI’s Sachet portal immediately. This is a violations of the <strong>LSP (Lending Service Provider)</strong> guidelines.</li>
                 </ul>
               </div>
 
               <h2 id="mental-health" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Standing Tall: Managing Mental Health and Financial Stress</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  The goal of harassment is "Mental Erasure"—to make you so stressed that you take desperate measures. Understanding <strong>how to handle recovery agent harassment</strong> includes taking care of your mind.
+                  The goal of harassment is "Mental Erasure"-to make you so stressed that you take desperate measures. Understanding <strong>how to handle recovery agent harassment</strong> includes taking care of your mind.
                 </p>
                 <p>
-                  - **It's a Debt, Not a Sin:** Defaulting on a loan is a financial failure, not a moral one. Most successful entrepreneurs have faced debt issues.
+                  - **It’s a Debt, Not a Sin:** Defaulting on a loan is a financial failure, not a moral one. Most successful entrepreneurs have faced debt issues.
                   - **Talk to Your family:** Do not hide the debt. Harassment thrives on your fear of your family finding out. Once your family knows, the agent loses their "shaming power."
-                  - **Join Support Groups:** Platforms like CredSettle provide an ecosystem of people in similar situations. Knowing you aren't alone reduces stress significantly.
+                  - **Join Support Groups:** Platforms like CredSettle provide an ecosystem of people in similar situations. Knowing you aren’t alone reduces stress significantly.
                   - **Focus on the Solution:** Instead of worrying about the calls, work with experts to plan your settlement. Action is the best antidote to anxiety.
                 </p>
               </div>
@@ -472,7 +472,7 @@ export default function RecoveryAgentClient() {
                 </p>
                 <p>
                   <strong>NEVER Settle with an Agent:</strong> They will take your money and disappear. Only negotiate with a bank employee in the branch or through a registered debt relief agency.
-                  <strong>The Settlement Letter:</strong> Do not pay a single rupee until you have a "Settlement Offer Letter" in your hand (or official email). This letter must have the bank's logo, a unique reference number, and a clear deadline.
+                  <strong>The Settlement Letter:</strong> Do not pay a single rupee until you have a "Settlement Offer Letter" in your hand (or official email). This letter must have the bank’s logo, a unique reference number, and a clear deadline.
                   <strong>The "Settled" Status:</strong> Understand that this will appear on your CIBIL report. It is a sacrifice of your credit score for your financial freedom. However, standard settlement allows you to rebuild your score after 2 years.
                 </p>
               </div>
@@ -484,7 +484,7 @@ export default function RecoveryAgentClient() {
                   - **The Chronology Log:** Keep a notebook. Write down: Date, Time, Caller Name, Phone Number, Agency, Summary of conversation.
                   - **Digital Backup:** Save all recordings to a cloud drive (Google Drive or iCloud). Hard drives can fail, and phones can be lost.
                   - **Postal Records:** Never send a letter via ordinary post. Use "Speed Post" or "Registered Post" and save the tracking slips. They are legal proof of service.
-                  - **The Bank's Response:** Save the acknowledgment IDs of your complaints. If they don't respond, the "No Response" is itself a piece of evidence for the Ombudsman.
+                  - **The Bank’s Response:** Save the acknowledgment IDs of your complaints. If they don’t respond, the "No Response" is itself a piece of evidence for the Ombudsman.
                 </p>
               </div>
 
@@ -511,10 +511,10 @@ export default function RecoveryAgentClient() {
                   Learning <strong>how to handle recovery agent harassment</strong> by yourself is brave, but it is also exhausting. CredSettle was built on the foundation of "Pro-Borrower Justice." We are not just agents; we are your legal and tactical shield.
                 </p>
                 <p>
-                  When you join the CredSettle family, we don't just give you advice; we act on your behalf.
+                  When you join the CredSettle family, we don’t just give you advice; we act on your behalf.
                   - **The Legal Firewall:** We send a formal intimation to your banks, informing them that you are now represented by our legal team. From that moment, any contact by a recovery agent is a violation of our "Agent-Client" privilege.
                   - **Negotiation Mastery:** Banks take us seriously because they know we are experts in the law. We negotiate for the lowest possible settlement amounts, ensuring you get a clean exit without the stress of daily calls.
-                  - **Holistic Relief:** We provide financial counseling and mental health support, ensuring that you don't just clear your debt, but you also rebuild your life.
+                  - **Holistic Relief:** We provide financial counseling and mental health support, ensuring that you don’t just clear your debt, but you also rebuild your life.
                 </p>
               </div>
 
@@ -523,7 +523,7 @@ export default function RecoveryAgentClient() {
                 <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-500">
                   <h4 className="font-bold text-xl mb-2">Case Study: The Workplace Harassment Stop</h4>
                   <p><strong>The Problem:</strong> A young professional in Pune was being hounded by credit card agents at her office. Her manager was starting to question her professionalism.</p>
-                  <p><strong>The Action:</strong> CredSettle drafted a "Cease and Desist" notice to the bank's Nodal Officer and a copy to the agency. We cited the defamation laws and RBI shaming rules.</p>
+                  <p><strong>The Action:</strong> CredSettle drafted a "Cease and Desist" notice to the bank’s Nodal Officer and a copy to the agency. We cited the defamation laws and RBI shaming rules.</p>
                   <p><strong>The Result:</strong> The bank immediately apologized, withdrew the file from that agency, and negotiated a 45% settlement with a 12-month EMI plan. She kept her job and her peace.</p>
                 </div>
                 <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-500">
@@ -539,14 +539,14 @@ export default function RecoveryAgentClient() {
                 {reviews.map((review, index) => (
                   <div key={index} className="p-8 bg-gray-50 rounded-[30px] border border-gray-100 hover:shadow-lg transition-all duration-300">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl tracking-wide flex">{'★'.repeat(review.rating)}</div>
+                      <div className="text-yellow-400 text-xl tracking-wide flex">{'*'.repeat(review.rating)}</div>
                     </div>
                     <p className="text-gray-700 italic mb-6 text-base leading-relaxed">
                       "{review.text}"
                     </p>
                     <div className="mt-auto">
                       <p className="font-extrabold text-blue-900">{review.name}</p>
-                      <p className="text-gray-500 text-sm">{review.location} • {review.date}</p>
+                      <p className="text-gray-500 text-sm">{review.location} * {review.date}</p>
                     </div>
                   </div>
                 ))}
@@ -586,7 +586,7 @@ export default function RecoveryAgentClient() {
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white transform hover:rotate-1 transition-transform">
                 <div className="absolute top-4 right-4 bg-red-500 text-[10px] font-extrabold px-2 py-1 rounded uppercase tracking-tighter animate-pulse">Urgent Service</div>
                 <h4 className="font-bold text-2xl mb-4">Under Pressure?</h4>
-                <p className="text-blue-100 mb-6 text-sm">Don't wait for another abusive call. Our legal shield starts protecting you in under 4 hours.</p>
+                <p className="text-blue-100 mb-6 text-sm">Don’t wait for another abusive call. Our legal shield starts protecting you in under 4 hours.</p>
                 <Link
                   href="/contact"
                   className="block w-full bg-white text-blue-700 font-bold py-4 rounded-xl text-center hover:bg-blue-50 transition-colors shadow-md"
@@ -644,7 +644,7 @@ export default function RecoveryAgentClient() {
                   <span className="text-[10px] font-bold text-gray-400 uppercase">Trust Score</span>
                   <span className="text-[10px] font-black text-blue-600 uppercase italic">Excellent</span>
                 </div>
-                <div className="flex text-blue-600 text-lg mb-2">★★★★★</div>
+                <div className="flex text-blue-600 text-lg mb-2">*****</div>
                 <p className="text-[11px] text-gray-500 leading-tight">CredSettle is rated 4.9/5 based on 15,400+ reviews across India.</p>
               </div>
 

@@ -104,11 +104,11 @@ const CollectionCallsClient = () => {
         },
         {
             question: "Can I stop collection calls by telling them I am in a debt settlement program?",
-            answer: "While it doesn't legally 'stop' their right to request payment, informing them that you are represented by a legal firm or a settlement agency (like CredSettle) often shifts the tone. Request them to coordinate with your appointed advisors directly."
+            answer: "While it doesn’t legally 'stop' their right to request payment, informing them that you are represented by a legal firm or a settlement agency (like CredSettle) often shifts the tone. Request them to coordinate with your appointed advisors directly."
         },
         {
             question: "How long can a recovery agent talk to me on a single call?",
-            answer: "There isn't a strict minute-limit, but repeating calls multiple times a day or dragging out a call to cause distress is considered 'Coercive' behavior. You have the right to hang up if the core message (the demand for payment) has been delivered."
+            answer: "There isn’t a strict minute-limit, but repeating calls multiple times a day or dragging out a call to cause distress is considered 'Coercive' behavior. You have the right to hang up if the core message (the demand for payment) has been delivered."
         },
         {
             question: "Do agents need to show ID when they visit my home?",
@@ -120,7 +120,7 @@ const CollectionCallsClient = () => {
         },
         {
             question: "What is the role of the Banking Ombudsman in harassment cases?",
-            answer: "The Banking Ombudsman is an independent body that adjudicates complaints against banks. If the bank's internal grievance cell doesn't resolve your harassment complaint within 30 days, the Ombudsman can pass an award for compensation."
+            answer: "The Banking Ombudsman is an independent body that adjudicates complaints against banks. If the bank’s internal grievance cell doesn’t resolve your harassment complaint within 30 days, the Ombudsman can pass an award for compensation."
         },
         {
             question: "Will settling my debt stop the calls immediately?",
@@ -270,7 +270,7 @@ const CollectionCallsClient = () => {
                             
                             <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-10 scroll-mt-24 leading-tight">Introduction: The Emotional Barrier to Debt Relief</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 text-xl font-light">
-                                For thousands of Indian borrowers, the decision to enter a debt settlement program is not just a financial one; it is an emotional leap of faith. The primary source of anxiety during this transition isn't the CIBIL score drop or the future loan eligibility. It is the **Collection Call**. The persistent, often aggressive, and highly intrusive nature of recovery communication can break a borrower's resolve. 
+                                For thousands of Indian borrowers, the decision to enter a debt settlement program is not just a financial one; it is an emotional leap of faith. The primary source of anxiety during this transition isn’t the CIBIL score drop or the future loan eligibility. It is the **Collection Call**. The persistent, often aggressive, and highly intrusive nature of recovery communication can break a borrower’s resolve. 
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 border-l-4 border-blue-600 pl-6 italic text-blue-900 bg-blue-50/30 p-8 rounded-r-3xl">
                                 Understanding how to manage these calls is the "Secret Sauce" of a successful debt settlement journey. You are not a victim of your debt; you are a participant in a regulated financial process.
@@ -284,7 +284,7 @@ const CollectionCallsClient = () => {
                                 In 2025, the Reserve Bank of India has further tightened the "Fair Practices Code" for lenders and their associated recovery agents. The RBI makes it clear: **Credit recovery must be an exercise in ethics, not an exercise in intimidation.**
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                The Master Circular on Asset Reconstruction and Recovery explicitly states that banks are vicariously liable for the actions of their outsourced agents. This means if a third-party agent harasses you, the responsibility lies squarely with the bank's MD and CEO. The 2025 guidelines emphasize transparency, mandatory identification, and a strict "No-Abuse" policy.
+                                The Master Circular on Asset Reconstruction and Recovery explicitly states that banks are vicariously liable for the actions of their outsourced agents. This means if a third-party agent harasses you, the responsibility lies squarely with the bank’s MD and CEO. The 2025 guidelines emphasize transparency, mandatory identification, and a strict "No-Abuse" policy.
                             </p>
 
                             <h2 id="collection-timings" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Permitted Timings: The 8 AM to 7 PM Window</h2>
@@ -296,9 +296,9 @@ const CollectionCallsClient = () => {
                                     </svg>
                                     Legal Calling Hours
                                 </h4>
-                                <p className="text-4xl md:text-5xl font-black mb-6 tracking-tighter italic">08:00 AM — 07:00 PM</p>
+                                <p className="text-4xl md:text-5xl font-black mb-6 tracking-tighter italic">08:00 AM - 07:00 PM</p>
                                 <p className="opacity-90 leading-relaxed font-light text-lg">
-                                    Calls outside this window (late nights, early mornings, or public holidays) are not just annoying—they are illegal. Any call at 9 PM is a direct violation that you can record and use as a basis for a formal RBI complaint.
+                                    Calls outside this window (late nights, early mornings, or public holidays) are not just annoying-they are illegal. Any call at 9 PM is a direct violation that you can record and use as a basis for a formal RBI complaint.
                                 </p>
                             </div>
 
@@ -331,7 +331,7 @@ const CollectionCallsClient = () => {
 
                             <h2 id="communication-protocol" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 uppercase tracking-widest leading-normal">Response Protocol: Confident, Not Defensive</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Your tone on a call dictates the agent's behavior. If you sound scared, they will push harder. If you sound legally informed, they will move to a different target.
+                                Your tone on a call dictates the agent’s behavior. If you sound scared, they will push harder. If you sound legally informed, they will move to a different target.
                             </p>
                             <div className="p-10 bg-gray-900 text-blue-100 rounded-[2.5rem] mb-14 shadow-2xl relative overflow-hidden group">
                                 <div className="absolute bottom-0 left-0 w-48 h-48 bg-blue-500/10 rounded-full -ml-24 -mb-24 blur-3xl group-hover:bg-blue-500/20 transition-all"></div>
@@ -343,12 +343,12 @@ const CollectionCallsClient = () => {
 
                             <h2 id="third-party-privacy" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 tracking-tighter">Third-Party Privacy Rights: Protecting Your Circle</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 leading-[1.8]">
-                                The biggest weapon a collection agent has is 'Shame'. They call your references or your family to shame you into paying. This is legally indefensible. The RBI's July 2022 guidelines (re-iterated for 2025) state that recovery agents cannot call anyone *except* the borrower or the guarantor. If they call your father or your colleague, you should immediately file an FIR for 'Defamation' and 'Criminal Intimidation'. Our team at CredSettle specializes in sending legal notices to bank nodal officers the moment a third party is contacted.
+                                The biggest weapon a collection agent has is 'Shame'. They call your references or your family to shame you into paying. This is legally indefensible. The RBI’s July 2022 guidelines (re-iterated for 2025) state that recovery agents cannot call anyone *except* the borrower or the guarantor. If they call your father or your colleague, you should immediately file an FIR for 'Defamation' and 'Criminal Intimidation'. Our team at CredSettle specializes in sending legal notices to bank nodal officers the moment a third party is contacted.
                             </p>
 
                             <h2 id="grievance-redressal" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic">Grievance Redressal: The Nodal Officer & The Ombudsman</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                If the calls don't stop, you move up the ladder. Every bank has a Principal Nodal Officer (PNO). Send a formal email with your 'Evidence Log'. If you don't receive a satisfactory response in 30 days, escalate to the **RBI CMS (Complaint Management System)**. The Banking Ombudsman has the power to fine banks up to ₹20 Lakhs for mental agony and harassment caused to the borrower.
+                                If the calls don’t stop, you move up the ladder. Every bank has a Principal Nodal Officer (PNO). Send a formal email with your 'Evidence Log'. If you don’t receive a satisfactory response in 30 days, escalate to the **RBI CMS (Complaint Management System)**. The Banking Ombudsman has the power to fine banks up to ₹20 Lakhs for mental agony and harassment caused to the borrower.
                             </p>
 
                             <h2 id="digital-lending-2026" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter italic border-l-4 border-blue-600 pl-4 uppercase">Digital Lending Guidelines 2026: The New Frontier</h2>
@@ -370,7 +370,7 @@ const CollectionCallsClient = () => {
                                     </svg>
                                     Legal Reality Check:
                                 </p>
-                                <p className="text-red-800 italic">"A NACH failure or a cheque bounce *is* a serious legal matter, but it is not a reason for harassment. Banks must follow the due process of law—which means sending a 30-day legal notice—before any criminal proceedings can start. Do not let agents tell you that the police are outside your door for a missed EMI. The police do not collect bank debts."</p>
+                                <p className="text-red-800 italic">"A NACH failure or a cheque bounce *is* a serious legal matter, but it is not a reason for harassment. Banks must follow the due process of law-which means sending a 30-day legal notice-before any criminal proceedings can start. Do not let agents tell you that the police are outside your door for a missed EMI. The police do not collect bank debts."</p>
                             </div>
 
                             <h2 id="legal-protection" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4 uppercase leading-normal">Legal Safeguards: The Role of Professional Representation</h2>
@@ -384,7 +384,7 @@ const CollectionCallsClient = () => {
                                     <details key={index} className="group p-6 bg-gray-50 rounded-2xl border border-gray-100 transition-all hover:bg-white hover:shadow-md">
                                         <summary className="flex justify-between items-center cursor-pointer list-none font-bold text-gray-900 text-lg group-hover:text-blue-600 transition-colors italic uppercase tracking-tighter leading-snug">
                                             {faq.question}
-                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">▼</span>
+                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">v</span>
                                         </summary>
                                         <p className="mt-6 text-gray-600 leading-relaxed font-light italic text-lg">{faq.answer}</p>
                                     </details>
@@ -397,16 +397,16 @@ const CollectionCallsClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-bold uppercase tracking-widest text-xs text-blue-600">The 2025 CredSettle Commitment</p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                As you move through your debt settlement program, remember that the phone is a tool for communication, not a weapon of torture. By documenting misconduct, citing RBI rules, and seeking professional representation, you can neuter the threat of aggressive recovery. At CredSettle, we don't just settle your debts; we protect your dignity. If you are being harassed, stand tall. The law is on your side.
+                                As you move through your debt settlement program, remember that the phone is a tool for communication, not a weapon of torture. By documenting misconduct, citing RBI rules, and seeking professional representation, you can neuter the threat of aggressive recovery. At CredSettle, we don’t just settle your debts; we protect your dignity. If you are being harassed, stand tall. The law is on your side.
                             </p>
 
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                 {[
                                     { name: 'Ananya Sharma', location: 'Bangalore', stars: 5, comment: 'Recovery agents were calling me 20 times a day. After following this guide, I sent a formal complaint to the RBI Ombudsman and the calls stopped within 48 hours. I finally had peace to focus on my settlement.' },
-                                    { name: 'Ravi Kumar', location: 'Hyderabad', stars: 5, comment: 'I didn\'t know I could legally record recovery calls. Once I started doing that and mentioned it to the agents, the tone changed completely. CredSettle helped me file a complaint and negotiate a fair settlement.' },
-                                    { name: 'Lakshmi Devi', location: 'Chennai', stars: 5, comment: 'The bank\'s recovery team visited my workplace, which was illegal. CredSettle\'s legal team sent them a formal notice citing RBI 2025 guidelines. The harassment stopped and we settled for 45% of the outstanding amount.' },
-                                    { name: 'Mohan Patel', location: 'Ahmedabad', stars: 5, comment: 'This guide was like a handbook for protecting my family\'s dignity. I learned my rights, documented everything, and with CredSettle\'s help, the bank agreed to settle without any further recovery attempts.' }
+                                    { name: 'Ravi Kumar', location: 'Hyderabad', stars: 5, comment: 'I didn’t know I could legally record recovery calls. Once I started doing that and mentioned it to the agents, the tone changed completely. CredSettle helped me file a complaint and negotiate a fair settlement.' },
+                                    { name: 'Lakshmi Devi', location: 'Chennai', stars: 5, comment: 'The bank’s recovery team visited my workplace, which was illegal. CredSettle’s legal team sent them a formal notice citing RBI 2025 guidelines. The harassment stopped and we settled for 45% of the outstanding amount.' },
+                                    { name: 'Mohan Patel', location: 'Ahmedabad', stars: 5, comment: 'This guide was like a handbook for protecting my family’s dignity. I learned my rights, documented everything, and with CredSettle’s help, the bank agreed to settle without any further recovery attempts.' }
                                 ].map((review, index) => (
                                     <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
                                         <div className="flex items-center mb-3">
@@ -455,9 +455,9 @@ const CollectionCallsClient = () => {
                                     Activate Shield
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ RBI Ombudsman Liaison</p>
-                                    <p>✓ Evidence Preservation</p>
-                                    <p>✓ Nodal Officer Access</p>
+                                    <p>v RBI Ombudsman Liaison</p>
+                                    <p>v Evidence Preservation</p>
+                                    <p>v Nodal Officer Access</p>
                                 </div>
                             </div>
 
@@ -471,7 +471,7 @@ const CollectionCallsClient = () => {
                                         { href: "/what-is-the-success-rate-of-debt-settlement-programs", text: "Success Stats 2025" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

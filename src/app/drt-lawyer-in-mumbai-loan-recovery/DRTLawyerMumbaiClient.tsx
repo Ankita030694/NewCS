@@ -250,13 +250,13 @@ export default function DRTLawyerMumbaiClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Introduction: Why DRT Proceedings in Mumbai Are Unique</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Mumbai is the financial capital of India, home to the headquarters of every major scheduled commercial bank, hundreds of non-banking finance companies, and the country's largest concentration of high-value loan accounts. Naturally, when these loans go bad, the Debt Recovery Tribunals in Mumbai become the frontline battleground for some of the country's most complex and high-stakes loan recovery battles. Understanding how the three Mumbai DRTs function, what legal strategy works in this specific jurisdiction, and how to find the best DRT lawyer in Mumbai can mean the difference between losing your business or property and keeping it.
+                                Mumbai is the financial capital of India, home to the headquarters of every major scheduled commercial bank, hundreds of non-banking finance companies, and the country’s largest concentration of high-value loan accounts. Naturally, when these loans go bad, the Debt Recovery Tribunals in Mumbai become the frontline battleground for some of the country’s most complex and high-stakes loan recovery battles. Understanding how the three Mumbai DRTs function, what legal strategy works in this specific jurisdiction, and how to find the best DRT lawyer in Mumbai can mean the difference between losing your business or property and keeping it.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, the DRT landscape in Mumbai has evolved significantly. Digitization of case filing and hearing records, updated tribunal rules under the Tribunal Reforms Act, and an increasing number of borrower-friendly rulings from the Bombay High Court have changed the dynamics of DRT proceedings for both banks and borrowers.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This comprehensive guide covers the structure of Mumbai's DRTs, the complete legal procedure from filing to appeal, defence strategies specifically developed for Mumbai-based cases, and how expert legal representation can transform the outcome of what appears to be an unwinnable situation.
+                                This comprehensive guide covers the structure of Mumbai’s DRTs, the complete legal procedure from filing to appeal, defence strategies specifically developed for Mumbai-based cases, and how expert legal representation can transform the outcome of what appears to be an unwinnable situation.
                             </p>
 
                             <h2 id="what-is-drt" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">What Is the Debt Recovery Tribunal: Legal Foundation</h2>
@@ -297,11 +297,11 @@ export default function DRTLawyerMumbaiClient() {
                                 <ol className="list-decimal pl-6 space-y-4 text-gray-800">
                                     <li><strong>Filing of Original Application (OA):</strong> The bank files a detailed application in the respective DRT stating the loan amount, default details, and relief sought. This is served on the borrower, guarantors, and co-borrowers.</li>
                                     <li><strong>Notice and Summons:</strong> The DRT issues a notice requiring the defendant (borrower) to appear on a specified date. Non-appearance can lead to an ex-parte order.</li>
-                                    <li><strong>Filing of Written Statement (WS):</strong> The borrower has 30 days to file a detailed Written Statement challenging the bank's claims. This is the most critical document in the defence.</li>
+                                    <li><strong>Filing of Written Statement (WS):</strong> The borrower has 30 days to file a detailed Written Statement challenging the bank’s claims. This is the most critical document in the defence.</li>
                                     <li><strong>Counter-Claim (if applicable):</strong> Along with the Written Statement, the borrower can file a counter-claim for any amount owed by the bank, such as excess charges or damages for harassment.</li>
                                     <li><strong>Evidence Stage:</strong> Both parties present their documentary and oral evidence. This is where bank account statements, loan agreements, and expert witnesses are examined.</li>
                                     <li><strong>Arguments:</strong> Lawyers for both sides present final legal arguments on law and facts.</li>
-                                    <li><strong>Recovery Certificate:</strong> If the DRT decides in the bank's favor, it passes a Recovery Certificate specifying the amount. This is forwarded to the Recovery Officer for execution through property attachment and sale.</li>
+                                    <li><strong>Recovery Certificate:</strong> If the DRT decides in the bank’s favor, it passes a Recovery Certificate specifying the amount. This is forwarded to the Recovery Officer for execution through property attachment and sale.</li>
                                 </ol>
                             </div>
 
@@ -342,7 +342,7 @@ export default function DRTLawyerMumbaiClient() {
                                     <p className="text-gray-600 text-sm">In SARFAESI cases, banks must get an independent valuation of the property before auctioning. If the reserve price is set below fair market value, this is grounds for challenging the auction.</p>
                                 </div>
                                 <div className="p-4 bg-white rounded-xl shadow-sm border border-gray-100">
-                                    <strong className="text-gray-900 block mb-2">Lender's Own Default</strong>
+                                    <strong className="text-gray-900 block mb-2">Lender’s Own Default</strong>
                                     <p className="text-gray-600 text-sm">If the bank failed to disburse the loan as per schedule, leading to project delays and ultimate default, this is a valid counter-defence that shifts moral and legal responsibility.</p>
                                 </div>
                             </div>
@@ -373,10 +373,10 @@ export default function DRTLawyerMumbaiClient() {
                                 <li>The bank took possession before the 60-day notice period expired.</li>
                                 <li>The property is not the secured asset described in the mortgage document.</li>
                                 <li>The account was not properly classified as NPA on the date mentioned in the notice.</li>
-                                <li>The bank failed to respond to the borrower's representation within the 15-day mandatory period.</li>
+                                <li>The bank failed to respond to the borrower’s representation within the 15-day mandatory period.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In Mumbai's DRTs, SAs that clearly identify procedural defects in the bank's SARFAESI notice are very frequently granted urgent interim relief. This buys critical time for the borrower to arrange funds or negotiate a settlement.
+                                In Mumbai’s DRTs, SAs that clearly identify procedural defects in the bank’s SARFAESI notice are very frequently granted urgent interim relief. This buys critical time for the borrower to arrange funds or negotiate a settlement.
                             </p>
 
                             <h2 id="drat-appeals" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">DRAT Mumbai: The Appeals Process</h2>
@@ -389,7 +389,7 @@ export default function DRTLawyerMumbaiClient() {
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li>You have 45 days from the DRT order to file the DRAT appeal.</li>
                                 <li>To file an appeal against a money recovery order, the appellant must deposit 50 percent of the debt amount with the DRAT or furnish bank guarantee or security for the same, unless the DRAT waives this requirement based on good reasons.</li>
-                                <li>The DRAT can stay the DRT order and the DRT's Recovery Certificate while the appeal is pending.</li>
+                                <li>The DRAT can stay the DRT order and the DRT’s Recovery Certificate while the appeal is pending.</li>
                                 <li>DRAT orders can be further appealed to the High Court under Article 227 of the Constitution.</li>
                             </ul>
 
@@ -398,7 +398,7 @@ export default function DRTLawyerMumbaiClient() {
                                 One of the most important but least discussed aspects of DRT proceedings is that they create an excellent platform for negotiation. Banks file DRT cases in Mumbai with the aim of recovering money, not necessarily of winning a protracted legal battle. A well-timed and well-structured settlement offer, backed by a credible legal stance, often results in a significantly better outcome than a contested proceeding.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The optimal time for settlement negotiations in a Mumbai DRT case is at two specific points: first, immediately after the case is filed and before the first substantive hearing, when the cost of litigation for both sides is still low; and second, after the borrower files a strong Written Statement that creates doubt about the bank's ability to secure a quick recovery certificate.
+                                The optimal time for settlement negotiations in a Mumbai DRT case is at two specific points: first, immediately after the case is filed and before the first substantive hearing, when the cost of litigation for both sides is still low; and second, after the borrower files a strong Written Statement that creates doubt about the bank’s ability to secure a quick recovery certificate.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A specialized DRT lawyer in Mumbai knows the appropriate settlement zones for different types of cases, different banks, and different loan categories. They can negotiate a One-Time Settlement (OTS) that the bank presents to its board for approval, and secure a mutual consent order from the DRT closing the case.
@@ -406,16 +406,16 @@ export default function DRTLawyerMumbaiClient() {
 
                             <h2 id="guarantor-liability" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Guarantor Liability at Mumbai DRT: Know Your Rights</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In Mumbai DRT proceedings, guarantors are routinely impleaded (added) as defendants in the bank's Original Application. Many guarantors do not realize the full extent of their exposure until a recovery notice or auction notice arrives at their doorstep.
+                                In Mumbai DRT proceedings, guarantors are routinely impleaded (added) as defendants in the bank’s Original Application. Many guarantors do not realize the full extent of their exposure until a recovery notice or auction notice arrives at their doorstep.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Courts in Mumbai have clarified several important principles regarding guarantor rights:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li>A surety is entitled to all the rights and defences available to the principal borrower.</li>
-                                <li>A guarantor can challenge the bank's right to recover from them directly if the bank failed to first exhaust remedies against the primary borrower.</li>
+                                <li>A guarantor can challenge the bank’s right to recover from them directly if the bank failed to first exhaust remedies against the primary borrower.</li>
                                 <li>A corporate guarantor (as opposed to a personal guarantor) may have different disclosure obligations to its board of directors, and unauthorized guarantee extensions can be challenged.</li>
-                                <li>The Bombay High Court has held that a guarantor's property cannot be auctioned without giving them adequate notice and opportunity to be heard.</li>
+                                <li>The Bombay High Court has held that a guarantor’s property cannot be auctioned without giving them adequate notice and opportunity to be heard.</li>
                             </ul>
 
                             <h2 id="npa-resolution" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">NPA Resolution Strategies for Mumbai Borrowers</h2>
@@ -423,7 +423,7 @@ export default function DRTLawyerMumbaiClient() {
                                 Non-Performing Asset (NPA) classification is the starting point for all DRT proceedings. Once a loan is classified as NPA, the bank has multiple recovery tools at its disposal. However, borrowers in Mumbai have specific strategies available to challenge or resolve the NPA status.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI's stressed asset resolution framework provides a structured opportunity for many Mumbai-based borrowers to exit the NPA classification cycle. Key tools include:
+                                The RBI’s stressed asset resolution framework provides a structured opportunity for many Mumbai-based borrowers to exit the NPA classification cycle. Key tools include:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Prudential Framework for Resolution of Stressed Assets:</strong> Banks must implement a resolution plan within 180 days of identifying stress. If a bank has skipped this process and directly initiated DRT proceedings, this is a regulatory lapse that can be challenged.</li>
@@ -439,7 +439,7 @@ export default function DRTLawyerMumbaiClient() {
                                 A successful OTS at the DRT stage requires a clear strategy. The borrower must demonstrate willingness to pay a viable lump sum, backed by a credible source of funds (either personal savings, family contribution, or a refinance from another lender). The legal strength of your defence directly impacts the OTS percentage the bank is willing to accept.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Once an OTS is agreed upon in principle, your DRT lawyer in Mumbai coordinates with the bank's legal team to get the settlement terms approved and then moves the DRT for a consent order disposing of the case. This is the most efficient resolution pathway.
+                                Once an OTS is agreed upon in principle, your DRT lawyer in Mumbai coordinates with the bank’s legal team to get the settlement terms approved and then moves the DRT for a consent order disposing of the case. This is the most efficient resolution pathway.
                             </p>
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Case Studies: Mumbai DRT Legal Wins</h2>
@@ -450,7 +450,7 @@ export default function DRTLawyerMumbaiClient() {
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
                                     <h4 className="font-bold text-green-900 mb-2">Case 2: Interest Overcharge Challenge at DRT-III Mumbai</h4>
-                                    <p className="text-gray-700">A small IT company in Thane had a term loan of Rs. 75 lakhs. When the bank filed an OA at DRT-III Mumbai, the claim amount stated was Rs. 1.23 crore. The borrower's DRT lawyer engaged a forensic accountant who found that the bank had charged compound interest on penal charges, which was not permitted under the loan agreement. After filing a detailed Written Statement with the forensic report, the bank settled the matter at Rs. 83 lakhs, saving the client nearly Rs. 40 lakhs.</p>
+                                    <p className="text-gray-700">A small IT company in Thane had a term loan of Rs. 75 lakhs. When the bank filed an OA at DRT-III Mumbai, the claim amount stated was Rs. 1.23 crore. The borrower’s DRT lawyer engaged a forensic accountant who found that the bank had charged compound interest on penal charges, which was not permitted under the loan agreement. After filing a detailed Written Statement with the forensic report, the bank settled the matter at Rs. 83 lakhs, saving the client nearly Rs. 40 lakhs.</p>
                                 </div>
                             </div>
 
@@ -492,7 +492,7 @@ export default function DRTLawyerMumbaiClient() {
                                 A DRT case in Mumbai is not a death sentence for your financial future. With experienced legal representation, even the most complex DRT proceedings can be managed, delayed, challenged, and ultimately resolved on terms that protect your business and personal assets. The key is to act immediately upon receiving any notice from a bank, whether it is a demand notice under SARFAESI or a summons from the DRT.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Mumbai's three DRTs handle thousands of cases annually. The banks that file these cases are experienced litigants with dedicated legal teams. Matching their legal firepower with a specialized DRT lawyer in Mumbai who knows the jurisdiction is not just advisable; it is essential.
+                                Mumbai’s three DRTs handle thousands of cases annually. The banks that file these cases are experienced litigants with dedicated legal teams. Matching their legal firepower with a specialized DRT lawyer in Mumbai who knows the jurisdiction is not just advisable; it is essential.
                             </p>
                             <div className="bg-blue-600 text-white rounded-3xl p-8 text-center mb-8">
                                 <h3 className="text-2xl font-bold mb-4">Get Expert DRT Legal Representation in Mumbai</h3>
@@ -511,7 +511,7 @@ export default function DRTLawyerMumbaiClient() {
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Facing DRT proceedings in Mumbai? Our expert lawyers can review your case, identify defences, and develop a strategy to protect your assets.</p>
                             <ul className="space-y-2 mb-5">
                                 {['DRT-I, II, III Mumbai Coverage', 'SARFAESI Defence', 'DRAT Appeals', 'OTS Negotiation'].map((item, i) => (
-                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">✓</span> {item}</li>
+                                    <li key={i} className="flex items-center text-sm"><span className="mr-2 text-green-300">v</span> {item}</li>
                                 ))}
                             </ul>
                             <Link href="/contact" className="block bg-white text-blue-900 text-center py-3 rounded-xl font-bold hover:bg-opacity-90 transition-all">

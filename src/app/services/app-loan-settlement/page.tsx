@@ -246,7 +246,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Here's what makes app loans distinct: most app-based lenders operate through <strong>Non-Banking Financial Companies (NBFCs)</strong> or as Digital Lending Platforms (DLPs) registered with the RBI. These lenders typically offer small-ticket, short-tenure loans (₹5,000 to ₹5,00,000 for 3-12 months) with minimal documentation requirements. The approval process relies heavily on automated credit scoring algorithms that analyze your phone data, banking transactions, and digital footprint-often requiring access to your contacts, SMS, photos, and location.
+                Here’s what makes app loans distinct: most app-based lenders operate through <strong>Non-Banking Financial Companies (NBFCs)</strong> or as Digital Lending Platforms (DLPs) registered with the RBI. These lenders typically offer small-ticket, short-tenure loans (₹5,000 to ₹5,00,000 for 3-12 months) with minimal documentation requirements. The approval process relies heavily on automated credit scoring algorithms that analyze your phone data, banking transactions, and digital footprint-often requiring access to your contacts, SMS, photos, and location.
               </p>
               <p
                 style={{
@@ -257,7 +257,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                At CredSettle, we specialize in app loan settlement cases where borrowers face <strong>privacy violations, harassment through contact lists, and abusive recovery practices</strong>. Our legal team ensures all settlements comply with the RBI's Digital Lending Guidelines (issued September 2022), which mandate transparency in interest rates, prohibit unregulated third-party data access, and protect borrowers from predatory lending practices.
+                At CredSettle, we specialize in app loan settlement cases where borrowers face <strong>privacy violations, harassment through contact lists, and abusive recovery practices</strong>. Our legal team ensures all settlements comply with the RBI’s Digital Lending Guidelines (issued September 2022), which mandate transparency in interest rates, prohibit unregulated third-party data access, and protect borrowers from predatory lending practices.
               </p>
             </div>
 
@@ -306,7 +306,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Our legal experts then engage with the lender's designated settlement desk or collections department. We present a comprehensive settlement proposal backed by your financial hardship documentation-bank statements showing income disruption, medical bills, or unemployment proof. Because app lenders prioritize quick portfolio turnarounds and have higher operational costs for prolonged recovery, they're often more amenable to settlements ranging from <strong>30-70% of the outstanding principal</strong>.
+                Our legal experts then engage with the lender’s designated settlement desk or collections department. We present a comprehensive settlement proposal backed by your financial hardship documentation-bank statements showing income disruption, medical bills, or unemployment proof. Because app lenders prioritize quick portfolio turnarounds and have higher operational costs for prolonged recovery, they’re often more amenable to settlements ranging from <strong>30-70% of the outstanding principal</strong>.
               </p>
               <p
                 style={{
@@ -317,7 +317,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                Once settlement terms are agreed, we ensure you receive a formal settlement letter on the lender's letterhead with authorized digital signature or physical stamp. This letter must explicitly state: the original outstanding amount, the agreed settlement amount, payment deadline, confirmation that all dues will be considered "settled" upon payment, and commitment to issue a No Objection Certificate (NOC). Payment is always routed through official channels-NEFT/RTGS to the lender's registered business account-never to personal accounts or third-party recovery agents.
+                Once settlement terms are agreed, we ensure you receive a formal settlement letter on the lender’s letterhead with authorized digital signature or physical stamp. This letter must explicitly state: the original outstanding amount, the agreed settlement amount, payment deadline, confirmation that all dues will be considered "settled" upon payment, and commitment to issue a No Objection Certificate (NOC). Payment is always routed through official channels-NEFT/RTGS to the lender’s registered business account-never to personal accounts or third-party recovery agents.
               </p>
             </div>
 
@@ -348,7 +348,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '12px'
                 }}
               >
-                <strong>Why app loan harassment is uniquely invasive:</strong> When you install a loan app, you typically grant permissions to access your phone's contact list, SMS history, call logs, photos, and location data. The RBI's Digital Lending Guidelines now prohibit this excessive data collection, but many apps still violate these norms.
+                <strong>Why app loan harassment is uniquely invasive:</strong> When you install a loan app, you typically grant permissions to access your phone’s contact list, SMS history, call logs, photos, and location data. The RBI’s Digital Lending Guidelines now prohibit this excessive data collection, but many apps still violate these norms.
               </p>
               <p
                 style={{
@@ -370,7 +370,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                <strong>CredSettle's intervention:</strong> We immediately issue legal notices citing violations of RBI/2022-23/111 DOR.STR.REC.51/21.04.048/2022-23 (Digital Lending Guidelines) and file formal complaints with the Digital Lending Working Group. For illegal apps, we coordinate with the Cyber Crime Cell for app deactivation and pursue criminal proceedings under IT Act 2000 for data misuse.
+                <strong>CredSettle’s intervention:</strong> We immediately issue legal notices citing violations of RBI/2022-23/111 DOR.STR.REC.51/21.04.048/2022-23 (Digital Lending Guidelines) and file formal complaints with the Digital Lending Working Group. For illegal apps, we coordinate with the Cyber Crime Cell for app deactivation and pursue criminal proceedings under IT Act 2000 for data misuse.
               </p>
             </div>
 
@@ -408,7 +408,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Key Protection 1: Direct Disbursement Mandate</strong> – All loan amounts must be disbursed directly to your bank account by the regulated entity (bank/NBFC). If any loan app disburses money from a third-party account or LSP (Lending Service Provider) account, it's non-compliant and potentially illegal. This violation alone can nullify repayment obligations in settlement negotiations.
+                <strong>Key Protection 1: Direct Disbursement Mandate</strong> - All loan amounts must be disbursed directly to your bank account by the regulated entity (bank/NBFC). If any loan app disburses money from a third-party account or LSP (Lending Service Provider) account, it’s non-compliant and potentially illegal. This violation alone can nullify repayment obligations in settlement negotiations.
               </p>
               <p
                 style={{
@@ -419,7 +419,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Key Protection 2: Cooling-Off Period</strong> – Borrowers have the right to exit the loan within 3 days of disbursement without any penalty. If your lender charges pre-payment penalties or processing fees upon early closure within this period, they're violating RBI norms. CredSettle leverages such violations to negotiate full debt waivers, not just settlements.
+                <strong>Key Protection 2: Cooling-Off Period</strong> - Borrowers have the right to exit the loan within 3 days of disbursement without any penalty. If your lender charges pre-payment penalties or processing fees upon early closure within this period, they’re violating RBI norms. CredSettle leverages such violations to negotiate full debt waivers, not just settlements.
               </p>
               <p
                 style={{
@@ -430,7 +430,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Key Protection 3: Recovery Agent Restrictions</strong> – Recovery agents must maintain "dignity and respect" during collection efforts. Physical visits without prior notice, calls between 7 PM to 7 AM, contacting third parties (except guarantors), and using abusive language are strictly prohibited under RBI/2023-24/82 DOR.STR.REC.48/21.04.048/2023-24. When CredSettle takes over your case, we document all harassment instances and file regulatory complaints, which accelerates settlement approvals at reduced amounts.
+                <strong>Key Protection 3: Recovery Agent Restrictions</strong> - Recovery agents must maintain "dignity and respect" during collection efforts. Physical visits without prior notice, calls between 7 PM to 7 AM, contacting third parties (except guarantors), and using abusive language are strictly prohibited under RBI/2023-24/82 DOR.STR.REC.48/21.04.048/2023-24. When CredSettle takes over your case, we document all harassment instances and file regulatory complaints, which accelerates settlement approvals at reduced amounts.
               </p>
               <p
                 style={{
@@ -441,7 +441,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                <strong>Key Protection 4: Automated Repayment System</strong> – Lenders can only debit your bank account or deduct money from your credit/debit card through properly disclosed auto-debit mandates registered with NPCI (National Payments Corporation of India). If an app lender uses unauthorized payment gateways or deducts amounts without proper e-mandate registration, it constitutes a serious violation that strengthens your position in settlement negotiations.
+                <strong>Key Protection 4: Automated Repayment System</strong> - Lenders can only debit your bank account or deduct money from your credit/debit card through properly disclosed auto-debit mandates registered with NPCI (National Payments Corporation of India). If an app lender uses unauthorized payment gateways or deducts amounts without proper e-mandate registration, it constitutes a serious violation that strengthens your position in settlement negotiations.
               </p>
             </div>
 
@@ -490,7 +490,7 @@ export default function AppLoanSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Data Privacy Protection and Deletion:</strong> Beyond settlement, CredSettle ensures your personal data is permanently deleted from the lender's systems. Under the Digital Personal Data Protection Act 2023 (DPDP Act), you have the "Right to Erasure"-meaning lenders must delete your contact list, photos, SMS history, and location data once the loan relationship ends. We obtain written confirmation of data deletion and server-level erasure certificates, preventing future misuse.
+                <strong>Data Privacy Protection and Deletion:</strong> Beyond settlement, CredSettle ensures your personal data is permanently deleted from the lender’s systems. Under the Digital Personal Data Protection Act 2023 (DPDP Act), you have the "Right to Erasure"-meaning lenders must delete your contact list, photos, SMS history, and location data once the loan relationship ends. We obtain written confirmation of data deletion and server-level erasure certificates, preventing future misuse.
               </p>
               <p
                 style={{

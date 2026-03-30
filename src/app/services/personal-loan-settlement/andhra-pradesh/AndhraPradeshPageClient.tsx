@@ -256,7 +256,7 @@ export default function AndhraPradeshPageClient() {
                     Settlement ends this nightmare. Lenders prefer getting 40-70% now versus uncertain court battles. You get direct benefits: major debt reduction (save 30-70%), all harassment stops permanently, legal closure with documents, clean restart without recovery pressure.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We specialize in AP's unique situation. We know port economy patterns in Vizag, commercial dynamics in Vijayawada, agricultural trading in Guntur. We understand Telugu culture and communicate in regional language when needed. This AP-specific knowledge gets better settlement outcomes.
+                    We specialize in AP’s unique situation. We know port economy patterns in Vizag, commercial dynamics in Vijayawada, agricultural trading in Guntur. We understand Telugu culture and communicate in regional language when needed. This AP-specific knowledge gets better settlement outcomes.
                   </p>
                 </div>
               </section>
@@ -295,7 +295,7 @@ export default function AndhraPradeshPageClient() {
                     <strong>How we stop harassment fast:</strong> Once you engage CredSettle, we send urgent legal notices to all lenders within 24 hours. We cite RBI Fair Practices Code violations, threaten Banking Ombudsman complaints and police action. We copy district police stations on notices in severe cases. Harassment typically stops within 3-5 days across AP. This protection alone is worth hiring us, even apart from debt reduction.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Legal action we take:</strong> If harassment continues after our notices, we file formal complaints with Banking Ombudsman, RBI Complaints Cell and local police. We've filed dozens of such complaints in AP protecting clients from illegal recovery. Several agents faced police action due to our complaints.
+                    <strong>Legal action we take:</strong> If harassment continues after our notices, we file formal complaints with Banking Ombudsman, RBI Complaints Cell and local police. We’ve filed dozens of such complaints in AP protecting clients from illegal recovery. Several agents faced police action due to our complaints.
                   </p>
                 </div>
               </section>
@@ -322,22 +322,22 @@ export default function AndhraPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Visakhapatnam Port Economy Volatility:</strong> Vizag port and shipyard employ thousands directly and indirectly. Port workers, logistics staff, shipping company employees borrow for homes and education. When global shipping slows or port activity drops (happened during COVID and global recession), job security weakens, wages stagnate. We've settled 1,200+ Vizag port sector loans. Strategy: Show lenders the port cargo data, employment statistics and prove income stress is sector-wide.
+                    <strong>1. Visakhapatnam Port Economy Volatility:</strong> Vizag port and shipyard employ thousands directly and indirectly. Port workers, logistics staff, shipping company employees borrow for homes and education. When global shipping slows or port activity drops (happened during COVID and global recession), job security weakens, wages stagnate. We’ve settled 1,200+ Vizag port sector loans. Strategy: Show lenders the port cargo data, employment statistics and prove income stress is sector-wide.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. IT Sector Job Instability:</strong> Vizag has emerging IT sector with companies like TCS, Tech Mahindra, Concentrix. Smaller than Bangalore or Hyderabad but growing. IT professionals here borrowed expecting job stability. When layoffs came (2023-2024), many got stuck with loans. We negotiate using IT industry layoff data and income drop proof.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Guntur Agricultural Trading Cash Crisis:</strong> Guntur is India's largest chili market and major cotton, tobacco trading hub. Traders borrow ₹10-40 lakhs for crop purchase, warehouse operations and mandi transactions. When crop prices fall or buyers default on payments, traders get cash stuck. Cannot pay bank EMIs even though business happened. We've settled many Guntur trader cases explaining agricultural commodity cycles to lenders.
+                    <strong>3. Guntur Agricultural Trading Cash Crisis:</strong> Guntur is India’s largest chili market and major cotton, tobacco trading hub. Traders borrow ₹10-40 lakhs for crop purchase, warehouse operations and mandi transactions. When crop prices fall or buyers default on payments, traders get cash stuck. Cannot pay bank EMIs even though business happened. We’ve settled many Guntur trader cases explaining agricultural commodity cycles to lenders.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Government Employee Salary Issues:</strong> AP state government employees faced salary delays after bifurcation. Teachers, police, health workers and clerks borrowed assuming stable income. When salaries got delayed by 2-3 months, EMI payments bounced. We negotiate these cases using government employment proof and explaining state's fiscal situation.
+                    <strong>4. Government Employee Salary Issues:</strong> AP state government employees faced salary delays after bifurcation. Teachers, police, health workers and clerks borrowed assuming stable income. When salaries got delayed by 2-3 months, EMI payments bounced. We negotiate these cases using government employment proof and explaining state’s fiscal situation.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Aquaculture and Fishing Industry Debt:</strong> Coastal AP has massive aquaculture (shrimp farming) and fishing economy. Farmers borrow ₹5-25 lakhs for pond development, feed purchase and equipment. When disease hits shrimp crops or export prices crash, entire season's income disappears. Loans remain. We've settled aquaculture loans using crop failure proof and export price data.
+                    <strong>5. Aquaculture and Fishing Industry Debt:</strong> Coastal AP has massive aquaculture (shrimp farming) and fishing economy. Farmers borrow ₹5-25 lakhs for pond development, feed purchase and equipment. When disease hits shrimp crops or export prices crash, entire season’s income disappears. Loans remain. We’ve settled aquaculture loans using crop failure proof and export price data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Tirupati Temple Economy Impact:</strong> Tirupati depends heavily on temple tourism and related businesses. Hotels, transport operators, prasadam sellers, shops near temple all borrowed for business. COVID crashed this economy completely. Recovery is slow. We've settled Tirupati business loans using tourism visitor data and revenue collapse reports.
+                    <strong>6. Tirupati Temple Economy Impact:</strong> Tirupati depends heavily on temple tourism and related businesses. Hotels, transport operators, prasadam sellers, shops near temple all borrowed for business. COVID crashed this economy completely. Recovery is slow. We’ve settled Tirupati business loans using tourism visitor data and revenue collapse reports.
                   </p>
                 </div>
               </section>
@@ -364,10 +364,10 @@ export default function AndhraPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled 8,000+ loan settlements across Andhra Pradesh in last four years. Our AP clients save an average of 57% on their debt. We work with all major banks including Union Bank (merged with Andhra Bank), SBI, Indian Bank and all NBFCs operating across the state.
+                    We’ve handled 8,000+ loan settlements across Andhra Pradesh in last four years. Our AP clients save an average of 57% on their debt. We work with all major banks including Union Bank (merged with Andhra Bank), SBI, Indian Bank and all NBFCs operating across the state.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our AP strength:</strong> We're registered legal services company following every RBI rule. We have Telugu-speaking team members who understand AP's post-bifurcation challenges, coastal economy patterns, agricultural trading cycles and emerging sectors. This local understanding combined with legal expertise delivers results.
+                    <strong>Our AP strength:</strong> We’re registered legal services company following every RBI rule. We have Telugu-speaking team members who understand AP’s post-bifurcation challenges, coastal economy patterns, agricultural trading cycles and emerging sectors. This local understanding combined with legal expertise delivers results.
                   </p>
 
                   <div id="ap-methods" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -436,10 +436,10 @@ export default function AndhraPradeshPageClient() {
                     <strong>AP Lok Adalat:</strong> Court-backed mediation under Legal Services Authorities Act. Works across all 13 AP districts. You and lender sit with mediators for settlement. No court fees. Quick resolution (one session typically). Decision is legally binding. AP conducts regular banking Lok Adalats where lenders participate. Settlements usually land at 40-60% of outstanding.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our AP Lok Adalat experience:</strong> We've represented hundreds of borrowers in Lok Adalats across Visakhapatnam, Vijayawada, Guntur and district courts. We prepare hardship files in Telugu and English (helps with judges). Write settlement proposals with sector data. Argue strongly. 83% success rate in AP Lok Adalat cases. Everything gets legally binding orders.
+                    <strong>Our AP Lok Adalat experience:</strong> We’ve represented hundreds of borrowers in Lok Adalats across Visakhapatnam, Vijayawada, Guntur and district courts. We prepare hardship files in Telugu and English (helps with judges). Write settlement proposals with sector data. Argue strongly. 83% success rate in AP Lok Adalat cases. Everything gets legally binding orders.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>AP State Consumer Commission:</strong> Handles consumer disputes including unfair lending and harassment cases. Works faster than regular courts (3-5 months). If lender hid charges, harassed illegally or violated terms, file here. Commission can order compensation. We've handled several AP Consumer Commission cases where lenders or agents used illegal tactics.
+                    <strong>AP State Consumer Commission:</strong> Handles consumer disputes including unfair lending and harassment cases. Works faster than regular courts (3-5 months). If lender hid charges, harassed illegally or violated terms, file here. Commission can order compensation. We’ve handled several AP Consumer Commission cases where lenders or agents used illegal tactics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Which route to use:</strong> If lender filed court case, Lok Adalat is fastest. If harassment was severe and illegal, Consumer Commission gives leverage and compensation. For most cases, direct negotiation with our legal support works best. We assess your AP situation and recommend right path.
@@ -472,10 +472,10 @@ export default function AndhraPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Visakhapatnam (Vizag):</strong> Port city and industrial hub. Vizag port, steel plant, shipyard, oil refineries employ thousands. Emerging IT sector in Rushikonda and VUDA areas. We've handled 2,500+ Vizag cases. Mix of port workers, industrial employees, IT professionals and business owners. We understand port economy cycles, industrial sector patterns and IT job market. Use this knowledge in settlement negotiations.
+                    <strong>Visakhapatnam (Vizag):</strong> Port city and industrial hub. Vizag port, steel plant, shipyard, oil refineries employ thousands. Emerging IT sector in Rushikonda and VUDA areas. We’ve handled 2,500+ Vizag cases. Mix of port workers, industrial employees, IT professionals and business owners. We understand port economy cycles, industrial sector patterns and IT job market. Use this knowledge in settlement negotiations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Vijayawada:</strong> Commercial capital of AP. Sits on Krishna River connecting regions. Trading hub for agricultural commodities, consumer goods distribution, real estate activity. We've settled 1,800+ Vijayawada loans. Mostly traders, business owners and salaried professionals. We understand Vijayawada's role as distribution center and commercial crossroads. Negotiate using regional trade data.
+                    <strong>Vijayawada:</strong> Commercial capital of AP. Sits on Krishna River connecting regions. Trading hub for agricultural commodities, consumer goods distribution, real estate activity. We’ve settled 1,800+ Vijayawada loans. Mostly traders, business owners and salaried professionals. We understand Vijayawada’s role as distribution center and commercial crossroads. Negotiate using regional trade data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Why Vizag-Vijayawada focus:</strong> These two cities account for 55% of AP settlements we handle. Both have higher banking penetration, more loan activity and stronger legal infrastructure. Our teams here know local banks, understand recovery agent networks and have district court relationships.
@@ -505,10 +505,10 @@ export default function AndhraPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Guntur:</strong> Agricultural commodity trading capital. Largest chili market in Asia, major cotton and tobacco trading. Thousands of commission agents, traders and warehouse owners borrow for business. We've handled 900+ Guntur cases. We understand mandi operations, crop cycles, commodity price volatility and trader cash flows. This helps negotiate settlements showing lenders that agricultural trading has inherent seasonal risks.
+                    <strong>Guntur:</strong> Agricultural commodity trading capital. Largest chili market in Asia, major cotton and tobacco trading. Thousands of commission agents, traders and warehouse owners borrow for business. We’ve handled 900+ Guntur cases. We understand mandi operations, crop cycles, commodity price volatility and trader cash flows. This helps negotiate settlements showing lenders that agricultural trading has inherent seasonal risks.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Tirupati:</strong> Temple city with economy depending on religious tourism. Hotels, transport, prasadam businesses, jewelry shops all borrowed for expansion during peak years. COVID and subsequent tourism slowdown hit badly. We've settled 600+ Tirupati cases using temple visitor statistics and tourism revenue data.
+                    <strong>Tirupati:</strong> Temple city with economy depending on religious tourism. Hotels, transport, prasadam businesses, jewelry shops all borrowed for expansion during peak years. COVID and subsequent tourism slowdown hit badly. We’ve settled 600+ Tirupati cases using temple visitor statistics and tourism revenue data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Kakinada, Rajahmundry, Nellore:</strong> Coastal cities with mix of port activities, aquaculture, rice milling and trading. Full settlement coverage with understanding of coastal economy patterns.
@@ -541,19 +541,19 @@ export default function AndhraPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Harassment Protection Priority:</strong> Given AP's 41% harassment increase, we act fastest here. Legal notices within 24 hours for severe cases. Police complaint threats when needed. Harassment stops in 3-5 days.
+                    <strong>1. Harassment Protection Priority:</strong> Given AP’s 41% harassment increase, we act fastest here. Legal notices within 24 hours for severe cases. Police complaint threats when needed. Harassment stops in 3-5 days.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Sector-Specific Knowledge:</strong> Port economy, agricultural trading, aquaculture, temple tourism, emerging IT. We understand AP's diverse economy and use sector data effectively.
+                    <strong>2. Sector-Specific Knowledge:</strong> Port economy, agricultural trading, aquaculture, temple tourism, emerging IT. We understand AP’s diverse economy and use sector data effectively.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>3. Telugu Communication:</strong> Our AP team can handle cases in Telugu language. Documentation in regional language when needed. Helps with local lenders and courts.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Save 30-70% Debt:</strong> AP clients save 57% on average. That's lakhs of rupees saved. We use NPA economics and sector proof to negotiate hard.
+                    <strong>4. Save 30-70% Debt:</strong> AP clients save 57% on average. That’s lakhs of rupees saved. We use NPA economics and sector proof to negotiate hard.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Consumer Commission Experience:</strong> We've filed multiple harassment cases at AP Consumer Commission. Know the system well. Can get you compensation beyond settlement.
+                    <strong>5. Consumer Commission Experience:</strong> We’ve filed multiple harassment cases at AP Consumer Commission. Know the system well. Can get you compensation beyond settlement.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>6. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper documentation so lenders cannot return. Critical in AP where some lenders try to restart recovery after informal settlements.
@@ -607,7 +607,7 @@ export default function AndhraPradeshPageClient() {
                     <strong>Lok Adalat Access:</strong> Any AP resident can use Lok Adalat. Free legal aid available through AP Legal Services Authority for eligible borrowers.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We protect all these rights aggressively. Given AP's high harassment rate, we take violations very seriously and act fast with police and regulatory complaints.
+                    We protect all these rights aggressively. Given AP’s high harassment rate, we take violations very seriously and act fast with police and regulatory complaints.
                   </p>
                 </div>
               </section>
@@ -688,7 +688,7 @@ export default function AndhraPradeshPageClient() {
                     <strong>The Borrower:</strong> Ravi K., age 36, logistics supervisor at Visakhapatnam port-related company. Salary ₹8 lakhs yearly. Had borrowed ₹19 lakhs total (1 personal loan for flat, 1 two-wheeler loan, 2 credit cards).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Went Wrong:</strong> Company lost major shipping contract in early 2023. Cut workforce by 40%. Ravi kept job but salary reduced by 30% and overtime stopped (was earning extra ₹1.5 lakhs yearly through overtime). Take-home fell from ₹8 lakhs to ₹5.5 lakhs. Couldn't pay EMIs on ₹12 lakhs personal loan, ₹3 lakhs vehicle loan and ₹4 lakhs credit cards. All accounts went NPA. Recovery agents called 30+ times daily, visited his Vizag home 5 times in 2 weeks, contacted his neighbors twice, sent messages to relatives. CIBIL dropped from 730 to 495. Harassment was severe - agents used threatening language and created neighborhood embarrassment.
+                    <strong>What Went Wrong:</strong> Company lost major shipping contract in early 2023. Cut workforce by 40%. Ravi kept job but salary reduced by 30% and overtime stopped (was earning extra ₹1.5 lakhs yearly through overtime). Take-home fell from ₹8 lakhs to ₹5.5 lakhs. Couldn’t pay EMIs on ₹12 lakhs personal loan, ₹3 lakhs vehicle loan and ₹4 lakhs credit cards. All accounts went NPA. Recovery agents called 30+ times daily, visited his Vizag home 5 times in 2 weeks, contacted his neighbors twice, sent messages to relatives. CIBIL dropped from 730 to 495. Harassment was severe - agents used threatening language and created neighborhood embarrassment.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>We Intervened Urgently:</strong> Ravi contacted us March 2024 in distressed state. We treated as priority case given harassment severity. Sent legal notices to all 4 lenders within 24 hours with strong language about RBI violations and threats of police complaints. Copied notices to local police station and Banking Ombudsman. Harassment stopped in 4 days completely.
@@ -730,7 +730,7 @@ export default function AndhraPradeshPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Suffering from loan debt and recovery harassment in Visakhapatnam, Vijayawada, Guntur or anywhere in Andhra Pradesh? You don't need to endure this alone. Settlement is legal. RBI backs it. Harassment protection is your right.
+                    Suffering from loan debt and recovery harassment in Visakhapatnam, Vijayawada, Guntur or anywhere in Andhra Pradesh? You don’t need to endure this alone. Settlement is legal. RBI backs it. Harassment protection is your right.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Debt plus harassment destroys everything. Health collapses, family peace gone, work focus disappears, social embarrassment in Telugu communities, sleep impossible. Each day you delay, harassment continues, penalties grow, CIBIL falls more. But exit exists. Over 8,000 AP families already achieved financial freedom and harassment-free life through our services.
@@ -739,10 +739,10 @@ export default function AndhraPradeshPageClient() {
                     <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and immediate harassment protection plan. Our AP experts will show exactly how to stop harassment fast (within 3-5 days), cut debt 30-70% and close everything legally. We understand port work, agricultural trading, aquaculture, temple businesses - whatever your situation is.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Financial troubles are temporary problems. But unresolved debt and continuing harassment can destroy years of your life. With our legal team, AP knowledge and 8,000+ case experience, you can end both debt and harassment properly. Don't suffer anymore. Take action now.
+                    Financial troubles are temporary problems. But unresolved debt and continuing harassment can destroy years of your life. With our legal team, AP knowledge and 8,000+ case experience, you can end both debt and harassment properly. Don’t suffer anymore. Take action now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Vizag port areas, Vijayawada commercial zones, Guntur mandis, Tirupati temple areas or any AP district. Wherever you are, debt-free and harassment-free life is possible. We'll help you reach there safely.
+                    <strong>Call CredSettle for free consultation.</strong> Vizag port areas, Vijayawada commercial zones, Guntur mandis, Tirupati temple areas or any AP district. Wherever you are, debt-free and harassment-free life is possible. We’ll help you reach there safely.
                   </p>
                 </div>
               </section>

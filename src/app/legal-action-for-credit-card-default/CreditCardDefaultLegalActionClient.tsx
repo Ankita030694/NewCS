@@ -325,7 +325,7 @@ export default function CreditCardDefaultLegalActionClient() {
                                 In the hierarchy of financial stress, credit card debt often sits at the very top. With interest rates frequently exceeding 40% per annum, a small default can balloon into a life-altering financial crisis within a few months. When the missed payments pile up, banks quickly transition from "preferred customer" treatment to aggressive recovery actions. This leads many Indians to search for "Legal Action for Credit Card Default," desperate to know if they can be jailed, if their house is at risk, or how they can stop the constant barrage of calls.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The reality of credit card recovery in India is complex. It involves a mix of civil law, specialized tribunals, private arbitration, and street-level recovery tactics. For the individual borrower, the experience is often one of isolation and fear. But here is a secret that banks don't want you to know: <strong>In the eyes of the law, you have significant protections.</strong> A credit card debt is a civil contract, and the Indian judicial system is designed to prevent the harassment of honest borrowers facing genuine crises.
+                                The reality of credit card recovery in India is complex. It involves a mix of civil law, specialized tribunals, private arbitration, and street-level recovery tactics. For the individual borrower, the experience is often one of isolation and fear. But here is a secret that banks don’t want you to know: <strong>In the eyes of the law, you have significant protections.</strong> A credit card debt is a civil contract, and the Indian judicial system is designed to prevent the harassment of honest borrowers facing genuine crises.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This 5000+ word comprehensive guide is your survival manual. We will break down exactly what happens when you default, from the first missed payment to the potential for a court decree. We will explore the quasi-criminal risks and the powerful anti-harassment shield provided by the RBI. At CredSettle, we believe that debt should not lead to despair. By understanding the legal landscape, you can take control of the situation, negotiate from a position of strength, and reach a resolution that allows you to start over with dignity.
@@ -336,13 +336,13 @@ export default function CreditCardDefaultLegalActionClient() {
 
                             <h2 id="nature-of-debt" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Nature of the Debt: Unsecured and High Stakes</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A credit card is essentially a "Revolving Credit Line." It is 100% unsecured. There is no boat, car, or house for the bank to take if you don't pay. This lack of collateral is why credit card interest is the highest in the market. It is also why banks are so aggressive in their initial recovery phase—they have no "physical" leverage.
+                                A credit card is essentially a "Revolving Credit Line." It is 100% unsecured. There is no boat, car, or house for the bank to take if you don’t pay. This lack of collateral is why credit card interest is the highest in the market. It is also why banks are so aggressive in their initial recovery phase-they have no "physical" leverage.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Under the <strong>Indian Contract Act, 1872</strong>, you have a contractual obligation to pay. When you default, you are in "Civil Default." This is not a crime. You haven't stolen money; you have failed to fulfill a commercial promise. This distinction is the most important legal protection you have.
+                                Under the <strong>Indian Contract Act, 1872</strong>, you have a contractual obligation to pay. When you default, you are in "Civil Default." This is not a crime. You haven’t stolen money; you have failed to fulfill a commercial promise. This distinction is the most important legal protection you have.
                             </p>
 
-                            <h2 id="civil-recovery-suit" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Civil Recovery Suit: The Bank's Last Resort</h2>
+                            <h2 id="civil-recovery-suit" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Civil Recovery Suit: The Bank’s Last Resort</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If soft recovery (calls and visits) fails, the bank can file a <strong>Civil Suit for Recovery of Money.</strong> This is a formal legal action in a civil court.
                             </p>
@@ -360,7 +360,7 @@ export default function CreditCardDefaultLegalActionClient() {
                                 <li><strong>Intentional Default:</strong> In very rare cases, if you used the entire credit limit and immediately vanished, a case for 'Cheating' can be argued, though it is hard for banks to prove.</li>
                             </ul>
 
-                            <h2 id="arbitration-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Arbitration Route: The Bank's Preferred Shortcut</h2>
+                            <h2 id="arbitration-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Arbitration Route: The Bank’s Preferred Shortcut</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Most modern credit card agreements contain an <strong>Arbitration Clause.</strong> This allows the bank to appoint a private arbitrator to resolve the dispute.
                             </p>
@@ -371,12 +371,12 @@ export default function CreditCardDefaultLegalActionClient() {
                                 <br />- It puts massive pressure on the borrower.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you receive an arbitration notice, <strong>do not ignore it.</strong> If you don't show up, an "Ex-Parte Award" will be passed against you. This award is legally equivalent to a court decree and can be used to attach your property later. You have the right to challenge the arbitrator's independence under the <strong>Arbitration and Conciliation Act, 1996.</strong>
+                                If you receive an arbitration notice, <strong>do not ignore it.</strong> If you don’t show up, an "Ex-Parte Award" will be passed against you. This award is legally equivalent to a court decree and can be used to attach your property later. You have the right to challenge the arbitrator’s independence under the <strong>Arbitration and Conciliation Act, 1996.</strong>
                             </p>
 
                             <h2 id="summary-suit-threat" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Summary Suit (Order 37): The Fast-Track Judgment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For credit card debt, banks often use <strong>Order 37 of the CPC.</strong> This is a special suit for "liquidated" debt. In this suit, the court doesn't go through a long trial. You are given 10 days to appear. If you don't show up or can't convince the judge you have a genuine defense, the court passes a decree immediately. This is the most dangerous civil threat for cardholders.
+                                For credit card debt, banks often use <strong>Order 37 of the CPC.</strong> This is a special suit for "liquidated" debt. In this suit, the court doesn’t go through a long trial. You are given 10 days to appear. If you don’t show up or can’t convince the judge you have a genuine defense, the court passes a decree immediately. This is the most dangerous civil threat for cardholders.
                             </p>
 
                             <h2 id="cibil-annihilation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">CIBIL Impact: The Cost Beyond the Courtroom</h2>
@@ -393,7 +393,7 @@ export default function CreditCardDefaultLegalActionClient() {
 
                             <h2 id="harassment-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Anti-Harassment Shield: Your Fundamental Rights</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                It doesn't matter how much you owe; the bank has zero right to harass you. The RBI's Master Circular on Loans and Advances is your bible here.
+                                It doesn’t matter how much you owe; the bank has zero right to harass you. The RBI’s Master Circular on Loans and Advances is your bible here.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light text-gray-800">
                                 <strong>Rights You Must Enforce:</strong>
@@ -403,12 +403,12 @@ export default function CreditCardDefaultLegalActionClient() {
                                 <br />- <strong>Reporting:</strong> You can file a case for "Mental Harassment" and "Defamation" if they shame you publicly.
                             </div>
 
-                            <h2 id="lok-adalat-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Lok Adalat: The Borrower's Best Friend</h2>
+                            <h2 id="lok-adalat-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Lok Adalat: The Borrower’s Best Friend</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you receive a notice for <strong>Lok Adalat</strong>, see it as an opportunity, not a threat. Lok Adalats are held multiple times a year by the Legal Services Authority.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Here, a presiding officer (usually a judge) tries to settle the matter. Banks are under pressure to "clear" their bad accounts at Lok Adalats, so they offer massive waivers—sometimes even 80% to 90% of the interest. If you agree on an amount and pay it, a "Settlement Decree" is passed. This cannot be appealed and closes the matter forever.
+                                Here, a presiding officer (usually a judge) tries to settle the matter. Banks are under pressure to "clear" their bad accounts at Lok Adalats, so they offer massive waivers-sometimes even 80% to 90% of the interest. If you agree on an amount and pay it, a "Settlement Decree" is passed. This cannot be appealed and closes the matter forever.
                             </p>
 
                             <h2 id="debt-collection-norms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Debt Collection Norms: The RBI Code of Conduct</h2>
@@ -426,10 +426,10 @@ export default function CreditCardDefaultLegalActionClient() {
                                 The ultimate goal for a card defaulter is a <strong>One-Time Settlement (OTS).</strong> This is a win-win. The bank gets some money back without court, and you get a No Dues Certificate.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>CredSettle's OTS Tips:</strong>
+                                <strong>CredSettle’s OTS Tips:</strong>
                                 <br />- Wait for 180 days (Account becomes D1 category).
                                 <br />- Start negotiation at 20% of the total outstanding.
-                                <br />- Never pay anything without an "Official Settlement Letter" from the bank's email ID.
+                                <br />- Never pay anything without an "Official Settlement Letter" from the bank’s email ID.
                                 <br />- Demand a 'No Dues Certificate' within 15 days of final payment.
                             </p>
 
@@ -440,7 +440,7 @@ export default function CreditCardDefaultLegalActionClient() {
 
                             <h2 id="credit-card-limitation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Limitation: When Debt Expires</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Under the <strong>Limitation Act, 1963</strong>, a bank has only <strong>3 years</strong> to file a case for recovery. This 3-year clock starts from your last payment. If they haven't filed a case within 3 years, the debt is still there, but it is "time-barred." They cannot use the courts to force you to pay. This is a vital defense for old, forgotten credit card debts.
+                                Under the <strong>Limitation Act, 1963</strong>, a bank has only <strong>3 years</strong> to file a case for recovery. This 3-year clock starts from your last payment. If they haven’t filed a case within 3 years, the debt is still there, but it is "time-barred." They cannot use the courts to force you to pay. This is a vital defense for old, forgotten credit card debts.
                             </p>
 
                             <h2 id="bankruptcy-option" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Bankruptcy/Insolvency: The Nuclear Option</h2>
@@ -460,10 +460,10 @@ export default function CreditCardDefaultLegalActionClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Reclaim Your Financial Future</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Defaulting on a credit card is a financial setback, not a life sentence. The bank's goal is money, and the law's goal is fairness. As long as you did not hide or cheat, you have every right to negotiate for a settlement and restart your life.
+                                Defaulting on a credit card is a financial setback, not a life sentence. The bank’s goal is money, and the law’s goal is fairness. As long as you did not hide or cheat, you have every right to negotiate for a settlement and restart your life.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Legal notices and calls are designed to scare you into making bad decisions. Stay calm, understand the 3-year limitation, the Order 37 summary procedure, and your RBI-protected dignity. With the high interest rates banks charge, they have already built the "risk of default" into their profits. Don't let them bully you.
+                                Legal notices and calls are designed to scare you into making bad decisions. Stay calm, understand the 3-year limitation, the Order 37 summary procedure, and your RBI-protected dignity. With the high interest rates banks charge, they have already built the "risk of default" into their profits. Don’t let them bully you.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 At CredSettle, we stand with the borrower. We provide the legal expertise to handle notices, fight unfair interest, and secure settlements that you can actually afford. Your financial freedom is just one legal decision away.
@@ -471,7 +471,7 @@ export default function CreditCardDefaultLegalActionClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Under Pressure from Credit Card Debt?</h3>
-                                <p className="text-blue-800 mb-6">Don't suffer in silence. Our legal team can stop the harassment, respond to legal notices, and negotiate a final settlement for you. Reclaim your peace of mind today.</p>
+                                <p className="text-blue-800 mb-6">Don’t suffer in silence. Our legal team can stop the harassment, respond to legal notices, and negotiate a final settlement for you. Reclaim your peace of mind today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -502,9 +502,9 @@ export default function CreditCardDefaultLegalActionClient() {
                                     Stop Harassment Now
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ 100% Legal & Private</p>
-                                    <p>✓ RBI Ombudsman Support</p>
-                                    <p>✓ 60-80% Debt Waiver Possible</p>
+                                    <p>v 100% Legal & Private</p>
+                                    <p>v RBI Ombudsman Support</p>
+                                    <p>v 60-80% Debt Waiver Possible</p>
                                 </div>
                             </div>
 

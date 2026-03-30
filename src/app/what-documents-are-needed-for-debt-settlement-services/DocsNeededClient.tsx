@@ -101,7 +101,7 @@ const DocsNeededClient = () => {
             answer: "A hardship letter is a formal legal declaration that explains the genuine financial distress preventing you from fulfilling the original contract. It acts as the narrative foundation for the settlement, allowing the bank to justify a waiver to their auditing committee."
         },
         {
-            question: "Can I settle my debt if I don't have a salary slip?",
+            question: "Can I settle my debt if I don’t have a salary slip?",
             answer: "Yes. If you are unemployed or a freelancer, the bank will accept 6-12 months of bank statements showing zero or irregular credits as proof of income loss. Termination letters or closure certificates of a business are also strong substitutes."
         },
         {
@@ -114,7 +114,7 @@ const DocsNeededClient = () => {
         },
         {
             question: "Does a high CIBIL score prevent me from settling debt?",
-            answer: "A high score isn't a barrier, but the bank will look for a sudden downward trend or 'Default' status in recent months. The documents you provide must explain the shift from being a regular payer to a distressed borrower."
+            answer: "A high score isn’t a barrier, but the bank will look for a sudden downward trend or 'Default' status in recent months. The documents you provide must explain the shift from being a regular payer to a distressed borrower."
         },
         {
             question: "Are photocopies accepted for settlement documents?",
@@ -323,7 +323,7 @@ const DocsNeededClient = () => {
                             
                             <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-10 scroll-mt-24 leading-tight italic">Introduction: The Paper Trail to Debt Freedom</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 text-xl font-light">
-                                In the high stakes arena of Indian debt relief, your documentation is your defense. When a bank scales down your debt by 50% or 75%, they aren't just doing you a favor; they are making a commercial decision based on evidence. In 2025, with the RBI's tighter scrutiny on "Willful Defaults," the burden of proof rests entirely on the borrower. If you cannot document your despair, you cannot secure your discharge.
+                                In the high stakes arena of Indian debt relief, your documentation is your defense. When a bank scales down your debt by 50% or 75%, they aren’t just doing you a favor; they are making a commercial decision based on evidence. In 2025, with the RBI’s tighter scrutiny on "Willful Defaults," the burden of proof rests entirely on the borrower. If you cannot document your despair, you cannot secure your discharge.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-bold uppercase tracking-widest text-sm text-blue-600">The 2025 mandate is clear: Document everything, or settle for nothing.</p>
                             <p className="text-gray-700 leading-relaxed mb-10 text-sm italic">
@@ -340,7 +340,7 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **Address Verification & The "Vanishing Borrower" Risk:**
-                                Banks are terrified of borrowers who disappear after a settlement. In 2025, they require a latest utility bill (Electricity, Gas, or Landline) not older than 3 months. This is critical for banks to send the physical "Settlement Offer Letter." Professional tip: If you are living in a rented house, provide the registered rent agreement alongside the landlord's electricity bill. Banks often cross-verify the GPS coordinates of your residence with the address on the bill using their field investigation agencies.
+                                Banks are terrified of borrowers who disappear after a settlement. In 2025, they require a latest utility bill (Electricity, Gas, or Landline) not older than 3 months. This is critical for banks to send the physical "Settlement Offer Letter." Professional tip: If you are living in a rented house, provide the registered rent agreement alongside the landlord’s electricity bill. Banks often cross-verify the GPS coordinates of your residence with the address on the bill using their field investigation agencies.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The Digital Pulse Check:** 
@@ -349,16 +349,16 @@ const DocsNeededClient = () => {
 
                             <h2 id="loan-records" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Section 2: Loan Records - Defining the Universe of Your Debt</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 font-light italic text-2xl">
-                                You cannot settle what you haven't quantified. The bank needs to see that you are aware of your total liability, including the interest and penalties.
+                                You cannot settle what you haven’t quantified. The bank needs to see that you are aware of your total liability, including the interest and penalties.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **Loan Sanction Letters (The DNA of the Debt):**
-                                Many borrowers lose their original digital paperwork. You must fetch the digital copies of the original sanction letters. This document is vital because it defines the "Principal" amount. During a settlement, your goal is to pay as much of the principal as possible while waiving the "Interest" and "Late Payment Penalties." Without the sanction letter, the bank's automated systems will default to the "Current Outstanding," which includes years of compounded penalties.
+                                Many borrowers lose their original digital paperwork. You must fetch the digital copies of the original sanction letters. This document is vital because it defines the "Principal" amount. During a settlement, your goal is to pay as much of the principal as possible while waiving the "Interest" and "Late Payment Penalties." Without the sanction letter, the bank’s automated systems will default to the "Current Outstanding," which includes years of compounded penalties.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **Consolidated Loan Statement (The 12-Month Audit):**
                                 You must download a 12-month payment history. This proves you were a regular payer who has recently fallen on hard times. It distinguishes you from a "Willful Defaulter" who never intended to pay. In 2025, banks are also checking for "Balance Transfers" in the last 6 months. If you moved debt from a low-interest bank to a high-interest NBFC, they will ask for a documented reason. 
-                                *Pro Tip:* Annotate your bank statement. Highlight the months where you paid and the exact month where the default began. This transparency builds trust with the bank's Credit Risk Officer.
+                                *Pro Tip:* Annotate your bank statement. Highlight the months where you paid and the exact month where the default began. This transparency builds trust with the bank’s Credit Risk Officer.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The CIBIL Report Scan:**
@@ -377,7 +377,7 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Employment Gap" Narrative:** 
-                                If you have been unemployed for over a year, banks will ask how you are surviving. You must document "Survival Support" with a letter from a relative or friend stating they are providing basic food and shelter. This proves that while you can eat, you have zero "Repayment Capacity" left. In the 2025 Indian market, banks are very sensitive to a borrower's ability to maintain basic dignity versus their ability to pay interest.
+                                If you have been unemployed for over a year, banks will ask how you are surviving. You must document "Survival Support" with a letter from a relative or friend stating they are providing basic food and shelter. This proves that while you can eat, you have zero "Repayment Capacity" left. In the 2025 Indian market, banks are very sensitive to a borrower’s ability to maintain basic dignity versus their ability to pay interest.
                             </p>
 
                             <h2 id="medical-financial" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4">Section 4: Medical Crises & The "Life-over-Debt" Argument</h2>
@@ -410,7 +410,7 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The ISO Certification Check:** 
-                                In 2025, leading settlement agencies in India use ISO-certified document handling procedures. Ensure your hardship letter mentions that you are communicating under "Section 21 of the Banking Regulation Act" and "RBI Master Circular on Safe Recovery Practices." This legal jargon signals to the bank's internal legal team that you are not an easy target for illegal recovery.
+                                In 2025, leading settlement agencies in India use ISO-certified document handling procedures. Ensure your hardship letter mentions that you are communicating under "Section 21 of the Banking Regulation Act" and "RBI Master Circular on Safe Recovery Practices." This legal jargon signals to the bank’s internal legal team that you are not an easy target for illegal recovery.
                             </p>
 
                             <h2 id="business-docs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 uppercase">Section 6: Documenting Business Hardship - When the "Going Concern" Ends</h2>
@@ -419,16 +419,16 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The Tax De-Registration Proof:**
-                                1. **GST Cancellation Certificate:** This is the ultimate proof. In 2025, a bank will not believe a business has closed if the GST registration is still active. If you haven't cancelled it, you must provide at least 6 months of "Nil" GST returns.
+                                1. **GST Cancellation Certificate:** This is the ultimate proof. In 2025, a bank will not believe a business has closed if the GST registration is still active. If you haven’t cancelled it, you must provide at least 6 months of "Nil" GST returns.
                                 2. **Professional Tax Closure:** Proof that you are no longer paying professional tax for employees.
                                 3. **Trade License Cancellation:** A letter from the local municipal corporation acknowledging the closure of the trade license.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **Audited Financials (The Autopsy of a Failure):**
                                 For debts above ₹10 Lakhs, banks will demand the last 2 years of P&L statements and Balance Sheets. These must be audited by a Chartered Accountant. 
-                                *   **Inventory Write-offs:** Document the value of dead stock that couldn't be sold.
-                                *   **Bad Debt Provisions:** A list of clients who didn't pay you, leading to your own default. In 2025, banks also look at "Vendor Legal Notices"—if your suppliers are suing you, it's a strong indicator of genuine business distress.
-                                *   **Rental Arrears:** A letter from your commercial landlord stating you haven't paid rent for months and are facing eviction from your office or shop.
+                                *   **Inventory Write-offs:** Document the value of dead stock that couldn’t be sold.
+                                *   **Bad Debt Provisions:** A list of clients who didn’t pay you, leading to your own default. In 2025, banks also look at "Vendor Legal Notices"-if your suppliers are suing you, it’s a strong indicator of genuine business distress.
+                                *   **Rental Arrears:** A letter from your commercial landlord stating you haven’t paid rent for months and are facing eviction from your office or shop.
                             </p>
 
                             <h2 id="lump-sum-proof" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter italic">Section 7: Proof of Payment Capacity - The Source of the Settlement</h2>
@@ -437,7 +437,7 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Mercy Fund" Documentation:**
-                                1. **Relative's Loan Letter:** If a family member is helping you, provide a signed letter from them stating: "I am providing an interest-free loan of ₹X to [Your Name] specifically for the purpose of a Full and Final Settlement with [Bank Name]."
+                                1. **Relative’s Loan Letter:** If a family member is helping you, provide a signed letter from them stating: "I am providing an interest-free loan of ₹X to [Your Name] specifically for the purpose of a Full and Final Settlement with [Bank Name]."
                                 2. **PF/PPF Withdrawal Request:** A screenshot or letter from the PF office showing you have applied for a "Hardship Withdrawal."
                                 3. **Asset Sale Agreement:** If you are selling your only car or gold to pay the debt, provide the sale receipt or agreement. In 2025, banks often ask for the "Valuation Certificate" from a certified jeweler or car appraiser to verify the price.
                             </p>
@@ -460,7 +460,7 @@ const DocsNeededClient = () => {
                                         Error B: Incomplete "Debt Universe"
                                         <span className="text-amber-500 text-xs uppercase tracking-widest font-black">Rejection Risk: High</span>
                                     </h4>
-                                    <p className="text-gray-600 leading-[1.8] font-light">Hiding other active loans is a critical mistake. The bank's internal system is linked to the RBI's "Central Repository of Information on Large Credits" (CRILC). If you claim hardship but your CIBIL shows you are regularly paying a luxury car EMI to another bank, your settlement request will be laughed out of the room. Transparency across all debts is mandatory for a compassionate waiver.</p>
+                                    <p className="text-gray-600 leading-[1.8] font-light">Hiding other active loans is a critical mistake. The bank’s internal system is linked to the RBI’s "Central Repository of Information on Large Credits" (CRILC). If you claim hardship but your CIBIL shows you are regularly paying a luxury car EMI to another bank, your settlement request will be laughed out of the room. Transparency across all debts is mandatory for a compassionate waiver.</p>
                                 </div>
                             </div>
 
@@ -508,26 +508,26 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **HDFC & Private Giants (Axis, Kotak, ICICI):** 
-                                These banks are 100% data-driven. They use algorithms to score your "Hardship Sincerity." They will often ask for more than just statements—they may ask for a **Property Tax Receipt** or a **Registered Will** if the debt is inherited. They also look for lifestyle discrepancies; if your UPI history shows frequent "Zomato" or "Netflix" payments, they might argue you are not in "Extreme Hardship."
+                                These banks are 100% data-driven. They use algorithms to score your "Hardship Sincerity." They will often ask for more than just statements-they may ask for a **Property Tax Receipt** or a **Registered Will** if the debt is inherited. They also look for lifestyle discrepancies; if your UPI history shows frequent "Zomato" or "Netflix" payments, they might argue you are not in "Extreme Hardship."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **SBI & Public Sector Units (PNB, BOB):** 
-                                These are process-driven. They require physical "Wet Signatures" on many steps. If you are settling an SBI loan, ensure your hardship letter is printed on a ₹100 stamp paper and notarized. They also require a **Self-Declaration of Assets**—a list of every piece of jewelry, land, and vehicle you own. Being honest here is critical; if they find a hidden asset during the legal check, the settlement is canceled.
+                                These are process-driven. They require physical "Wet Signatures" on many steps. If you are settling an SBI loan, ensure your hardship letter is printed on a ₹100 stamp paper and notarized. They also require a **Self-Declaration of Assets**-a list of every piece of jewelry, land, and vehicle you own. Being honest here is critical; if they find a hidden asset during the legal check, the settlement is canceled.
                             </p>
 
                             <h2 id="legal-docs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900">Section 11: The SARFAESI Act & Secured Debt Documentation</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 font-light italic text-2xl">
-                                If your loan is secured—meaning you have a mortgage on your home or business—the documentation enters the realm of the SARFAESI Act, 2002.
+                                If your loan is secured-meaning you have a mortgage on your home or business-the documentation enters the realm of the SARFAESI Act, 2002.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The Legal Counter-Dossier:**
                                 When a bank issues a **Section 13(2) Notice** (the 60-day demand notice), most borrowers panic. However, your documentation can stop the clock.
-                                *   **Asset Valuation Report:** Hire a government-approved valuer to provide a realistic "Distress Value" of your property. If the bank's internal valuation is ₹1 Crore but the real market value in a forced sale is ₹70 Lakhs, you can use this document to argue that a settlement of ₹60 Lakhs is better for the bank than a long, legal auction.
+                                *   **Asset Valuation Report:** Hire a government-approved valuer to provide a realistic "Distress Value" of your property. If the bank’s internal valuation is ₹1 Crore but the real market value in a forced sale is ₹70 Lakhs, you can use this document to argue that a settlement of ₹60 Lakhs is better for the bank than a long, legal auction.
                                 *   **Formal Objection Letter:** Under Section 13(3A), you have the right to object to the notice. Your documentation folder (KYC, Hardship, Medical) must be attached to this formal objection. In 2025, if a bank ignores a well-documented objection, they can be penalized by the Debt Recovery Tribunal (DRT).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Peaceful Possession" Agreement:** 
-                                If you are willing to vacate the property in exchange for a massive waiver on the remaining debt, this agreement must be documented. Banks often agree to lower settlements if they don't have to spend years in litigation to get physical possession of the asset.
+                                If you are willing to vacate the property in exchange for a massive waiver on the remaining debt, this agreement must be documented. Banks often agree to lower settlements if they don’t have to spend years in litigation to get physical possession of the asset.
                             </p>
 
                             <h2 id="digital-security" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-green-700 uppercase italic">Section 12: Digital Documentation Hygiene & Security in 2025</h2>
@@ -542,7 +542,7 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Meta-Data" Cleanse:** 
-                                Before sending files, ensure the "Properties" of the PDF do not contain personal notes or old company names. Professional settlement consultants in 2025 use "Exif-Cleaning" software to ensure your digital hygiene is airtight, preventing the bank's tech-savvy legal team from finding hidden inconsistencies in your file.
+                                Before sending files, ensure the "Properties" of the PDF do not contain personal notes or old company names. Professional settlement consultants in 2025 use "Exif-Cleaning" software to ensure your digital hygiene is airtight, preventing the bank’s tech-savvy legal team from finding hidden inconsistencies in your file.
                             </p>
 
                             <h2 id="post-settlement" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4">Section 13: Post-Settlement - The Golden Documents of Freedom</h2>
@@ -553,7 +553,7 @@ const DocsNeededClient = () => {
                                 **The Holy Trinity of Closure:**
                                 *   **No Dues Certificate (NDC):** This is your birth certificate for your new financial life. It must explicitly state that the loan account is "Settled" (or "Closed" if you paid the full amount). In 2025, ensure it also mentions that "All legal cases filed by the bank are hereby withdrawn."
                                 *   **NOC for Property/Gold:** If you had a secured loan, you need a separate **Lien Removal Certificate**. Check that the bank has returned your original Sale Deed or the physical gold jewelry. Document the return with a signed "Handover-Takeover" receipt.
-                                *   **CIBIL Status Receipt:** Banks are notoriously slow at updating credit bureaus. Ask for a formal letter on the bank's letterhead stating that the bureau status will be updated to "Settled" within 45 days. If it isn't, this receipt is your evidence to file a complaint with the Banking Ombudsman.
+                                *   **CIBIL Status Receipt:** Banks are notoriously slow at updating credit bureaus. Ask for a formal letter on the bank’s letterhead stating that the bureau status will be updated to "Settled" within 45 days. If it isn’t, this receipt is your evidence to file a complaint with the Banking Ombudsman.
                             </p>
 
                             <h2 id="negotiation-tactics" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 uppercase italic">Section 14: Expert Negotiation Tactics - The Power of the Folder</h2>
@@ -566,11 +566,11 @@ const DocsNeededClient = () => {
                                 *   **Column A:** Your essential monthly survival expenses (Rent, Food, School fees).
                                 *   **Column B:** Your current monthly income.
                                 *   **Column C:** Your total monthly EMI burden.
-                                When Column A + Column C is 200% of Column B, the bank's negotiation team realizes that pursuing the full debt is a mathematical impossibility. This table, backed by your bank statements, is what actually triggers the massive 70%+ waivers.
+                                When Column A + Column C is 200% of Column B, the bank’s negotiation team realizes that pursuing the full debt is a mathematical impossibility. This table, backed by your bank statements, is what actually triggers the massive 70%+ waivers.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Third-Party Payer" Strategy:** 
-                                Always document that the settlement funds are not yours. Provide the donor's ITR-V to prove they have the capacity to pay but are only doing so for a "Full and Final" waiver. If the bank thinks you have the money, they will never settle. By documenting the funds as a "One-Time Gift from a Concerned Relative," you protect your position.
+                                Always document that the settlement funds are not yours. Provide the donor’s ITR-V to prove they have the capacity to pay but are only doing so for a "Full and Final" waiver. If the bank thinks you have the money, they will never settle. By documenting the funds as a "One-Time Gift from a Concerned Relative," you protect your position.
                             </p>
 
                             <h2 id="special-hardships" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900">Section 15: Documenting Special Hardships - Fraud & Family</h2>
@@ -579,7 +579,7 @@ const DocsNeededClient = () => {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **Digital Fraud & Cyber-Crime:**
-                                If your debt was caused by a phishing scam or identity theft, a **Police FIR** and a copy of your complaint to the **National Cyber Crime Portal (1930)** are mandatory. Under RBI's "Circular on Customer Liability," you may be entitled to a 100% waiver if you reported the fraud within 3 days. Documenting your swift action is the key.
+                                If your debt was caused by a phishing scam or identity theft, a **Police FIR** and a copy of your complaint to the **National Cyber Crime Portal (1930)** are mandatory. Under RBI’s "Circular on Customer Liability," you may be entitled to a 100% waiver if you reported the fraud within 3 days. Documenting your swift action is the key.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **Matrimonial or Family Disputes:** 
@@ -588,7 +588,7 @@ const DocsNeededClient = () => {
 
                             <h2 id="psychology" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic text-center">Section 16: The Psychology of Document Review - Thinking like an Auditor</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                Understanding how a bank's auditing committee thinks is the key to getting your folder approved. They are not looking for a "Sad Story"—every borrower has one. They are looking for a "Commercial Dead-End." Your documents must speak the language of "Risk Mitigation," not just "Help Me."
+                                Understanding how a bank’s auditing committee thinks is the key to getting your folder approved. They are not looking for a "Sad Story"-every borrower has one. They are looking for a "Commercial Dead-End." Your documents must speak the language of "Risk Mitigation," not just "Help Me."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Inability to Pay" vs. "Unwillingness to Pay":** 
@@ -600,7 +600,7 @@ const DocsNeededClient = () => {
                                 **The "Vulnerability Factor" as a Shield:** 
                                 Banks are terrified of bad PR and RBI penalties. If your documents show that you belong to a vulnerable group (Senior Citizens, People with Disabilities, or Single Parents), they are much more likely to settle. 
                                 *   **Senior Citizen Proof:** Mentioning Section 19 of the Maintenance and Welfare of Parents and Senior Citizens Act alongside your birth certificate.
-                                *   **Disability Shield:** In 2025, RBI's "Customer Service Standards" are extremely protective of PWDs. Including a disability certificate acts as a "Shield" against aggressive recovery tactics, as banks fear massive fines for harassing vulnerable borrowers.
+                                *   **Disability Shield:** In 2025, RBI’s "Customer Service Standards" are extremely protective of PWDs. Including a disability certificate acts as a "Shield" against aggressive recovery tactics, as banks fear massive fines for harassing vulnerable borrowers.
                             </p>
 
                             <h2 id="nbfc-needs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Section 17: Specific NBFC Requirements - Bajaj, Tata, & Piramal Nuances</h2>
@@ -610,7 +610,7 @@ const DocsNeededClient = () => {
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Digital Ledger" Scan:**
                                 For App-based loans or large NBFCs like Bajaj Finance or Aditya Birla, they will often check your "Digital Credit Footprint." 
-                                *   **Alternate Data Proof:** In 2025, they use data from mobile bills and e-commerce history to verify hardship. If you claim job loss but your Amazon history shows a purchase of a ₹1 Lakh iPhone, they will challenge your hardship. Your settlement folder should include a "Financial Status Oath"—a self-attested list of all recent high-value purchases (or lack thereof).
+                                *   **Alternate Data Proof:** In 2025, they use data from mobile bills and e-commerce history to verify hardship. If you claim job loss but your Amazon history shows a purchase of a ₹1 Lakh iPhone, they will challenge your hardship. Your settlement folder should include a "Financial Status Oath"-a self-attested list of all recent high-value purchases (or lack thereof).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **Field Visit Reports & Residence Proof:** 
@@ -626,7 +626,7 @@ const DocsNeededClient = () => {
                             <div className="space-y-6 mb-12">
                                 <div className="p-8 bg-gray-50 border-s-4 border-blue-600 rounded-e-2xl shadow-sm">
                                     <h4 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 1-3: The Crisis Phase (SMA 0-2)</h4>
-                                    <p className="text-gray-600 leading-relaxed font-light italic">Collect termination letters, medical bills, and police FIRs. Start a "Recovery Log"—record every call, take screenshots of every threatening WhatsApp, and save every email. This is your "Legal Protection Layer."</p>
+                                    <p className="text-gray-600 leading-relaxed font-light italic">Collect termination letters, medical bills, and police FIRs. Start a "Recovery Log"-record every call, take screenshots of every threatening WhatsApp, and save every email. This is your "Legal Protection Layer."</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 border-s-4 border-blue-600 rounded-e-2xl shadow-sm">
                                     <h4 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 4-7: The Default Phase (NPA Entry)</h4>
@@ -634,19 +634,19 @@ const DocsNeededClient = () => {
                                 </div>
                                 <div className="p-8 bg-gray-50 border-s-4 border-blue-600 rounded-e-2xl shadow-sm">
                                     <h4 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 8-12: The Negotiation Phase (Stage 3)</h4>
-                                    <p className="text-gray-600 leading-relaxed font-light italic">Submit the full 50-page "Hardship Folder" to the bank's internal legal or settlement team. This is when high-value waivers (60% to 80%) are typically finalized because the bank's "Loss Provisioning" is at its peak.</p>
+                                    <p className="text-gray-600 leading-relaxed font-light italic">Submit the full 50-page "Hardship Folder" to the bank’s internal legal or settlement team. This is when high-value waivers (60% to 80%) are typically finalized because the bank’s "Loss Provisioning" is at its peak.</p>
                                 </div>
                             </div>
 
                             <h2 id="response-notices" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Section 19: How to Respond to Legal Notices with Evidence</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
-                                When you receive a legal notice—like a Section 138 for check bounce or a Section 25 for ECS return—do not panic. In 2025, these notices are often used as "Pressure Tactics" rather than real legal intent.
+                                When you receive a legal notice-like a Section 138 for check bounce or a Section 25 for ECS return-do not panic. In 2025, these notices are often used as "Pressure Tactics" rather than real legal intent.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 **The "Legal Counter-Strike":**
                                 Your response must be documented and sent by a lawyer. It should include:
                                 1.  **Copies of previously sent hardship letters:** This proves you never intended to "abscond."
-                                2.  **Evidence of Harassment:** If the bank used abusive language, provide the call recordings. In Indian courts, "Equity" is key—if the bank acted illegally, it weakens their case for full recovery.
+                                2.  **Evidence of Harassment:** If the bank used abusive language, provide the call recordings. In Indian courts, "Equity" is key-if the bank acted illegally, it weakens their case for full recovery.
                                 3.  **Mediation Request:** Formally request to settle in a Lok Adalat. Judges in 2025 are mandated to settle "Small Debt" cases through mediation, and having your document folder ready makes you the most credible person in the room.
                             </p>
 
@@ -667,7 +667,7 @@ const DocsNeededClient = () => {
                                     <details key={index} className="group p-6 bg-gray-50 rounded-2xl border border-gray-100 transition-all hover:bg-white hover:shadow-md">
                                         <summary className="flex justify-between items-center cursor-pointer list-none font-bold text-gray-900 text-lg group-hover:text-blue-600 transition-colors italic">
                                             {faq.question}
-                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">▼</span>
+                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">v</span>
                                         </summary>
                                         <p className="mt-6 text-gray-600 leading-relaxed font-light italic">{faq.answer}</p>
                                     </details>
@@ -739,9 +739,9 @@ const DocsNeededClient = () => {
                                     Get Legal Advice
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ RBI 2025 Expert Check</p>
-                                    <p>✓ Hardship Letter Drafting</p>
-                                    <p>✓ Total Privacy Guard</p>
+                                    <p>v RBI 2025 Expert Check</p>
+                                    <p>v Hardship Letter Drafting</p>
+                                    <p>v Total Privacy Guard</p>
                                 </div>
                             </div>
 
@@ -755,7 +755,7 @@ const DocsNeededClient = () => {
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Is Settlement Good?" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

@@ -29,7 +29,7 @@ const formatDateTime = (value: number, fallback?: string) => {
       }).format(date);
     }
   }
-  return fallback && fallback.trim() !== '' ? fallback : '—';
+  return fallback && fallback.trim() !== '' ? fallback : '-';
 };
 
 const toTimestamp = (value: string, endOfDay = false): number | null => {
@@ -345,7 +345,7 @@ const LeadsTable = () => {
               {isLoading ? (
                 <tr>
                   <td colSpan={14} className="px-4 py-12 text-center text-sm text-slate-500">
-                    Loading leads…
+                    Loading leads...
                   </td>
                 </tr>
               ) : error ? (
@@ -380,7 +380,7 @@ const LeadsTable = () => {
                    
                     <Td>
                       <span className="block max-w-[120px] truncate font-medium text-slate-900" title={lead.name}>
-                        {lead.name || '—'}
+                        {lead.name || '-'}
                       </span>
                     </Td>
                     <Td>
@@ -389,7 +389,7 @@ const LeadsTable = () => {
                         className="block max-w-[110px] truncate text-slate-700 hover:text-slate-900"
                         title={lead.number}
                       >
-                        {lead.number || '—'}
+                        {lead.number || '-'}
                       </a>
                     </Td>
                     <Td>
@@ -402,20 +402,20 @@ const LeadsTable = () => {
                           {lead.email}
                         </a>
                       ) : (
-                        '—'
+                        '-'
                       )}
                     </Td>
-                    <Td>{lead.city || '—'}</Td>
+                    <Td>{lead.city || '-'}</Td>
                     <Td>
                       <span className="block max-w-[140px] truncate" title={lead.employmentStatus}>
-                        {lead.employmentStatus || '—'}
+                        {lead.employmentStatus || '-'}
                       </span>
                     </Td>
-                    <Td>{lead.monthlyIncome || '—'}</Td>
-                    <Td>{lead.creditCardDues || '—'}</Td>
-                    <Td>{lead.personalLoanDues || '—'}</Td>
-                    <Td>{lead.canPay || '—'}</Td>
-                    <Td>{lead.harassment || '—'}</Td>
+                    <Td>{lead.monthlyIncome || '-'}</Td>
+                    <Td>{lead.creditCardDues || '-'}</Td>
+                    <Td>{lead.personalLoanDues || '-'}</Td>
+                    <Td>{lead.canPay || '-'}</Td>
+                    <Td>{lead.harassment || '-'}</Td>
                     <Td>
                       <button
                         type="button"
@@ -427,7 +427,7 @@ const LeadsTable = () => {
                           setActiveNote({ title: lead.name || lead.email || lead.number || lead.id, note: lead.queries })
                         }
                       >
-                        {lead.queries?.trim() ? lead.queries : '—'}
+                        {lead.queries?.trim() ? lead.queries : '-'}
                       </button>
                     </Td>
                     <Td className="text-right">

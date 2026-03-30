@@ -120,7 +120,7 @@ export default function RecoveryAgentsThreateningMeClient() {
             name: 'Vikram Mehta',
             location: 'Mumbai',
             stars: 5,
-            comment: 'I was being harassed 24/7 by agents for a personal loan I couldn\'t pay after losing my job. CredSettle helped me file an FIR and an Ombudsman complaint. The calls stopped within 48 hours. Their legal team is brilliant!'
+            comment: 'I was being harassed 24/7 by agents for a personal loan I couldn’t pay after losing my job. CredSettle helped me file an FIR and an Ombudsman complaint. The calls stopped within 48 hours. Their legal team is brilliant!'
         },
         {
             name: 'Priya Sharma',
@@ -408,26 +408,26 @@ export default function RecoveryAgentsThreateningMeClient() {
 
                             <h2 id="rbi-rules-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The RBI Shield 2025: New Protections for a New Era</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The banking regulator, RBI, has been remarkably proactive in the last 24 months. The 2025 guidelines have placed the responsibility for agent behavior directly on the bank's board. This means you no longer just fight the agent; you hold the entire multi-billion dollar bank accountable for that agent's actions.
+                                The banking regulator, RBI, has been remarkably proactive in the last 24 months. The 2025 guidelines have placed the responsibility for agent behavior directly on the bank’s board. This means you no longer just fight the agent; you hold the entire multi-billion dollar bank accountable for that agent’s actions.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
                                 <h3 className="text-xl font-bold text-blue-900 mb-4 font-bold uppercase tracking-wider">Key Provisions of the 2025 Master Directions:</h3>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex gap-3">
-                                        <span className="text-blue-600 font-bold">✓</span>
+                                        <span className="text-blue-600 font-bold">v</span>
                                         <span><strong>Strict No-Contact Hours:</strong> No communication of any kind is allowed between 7 PM and 8 AM. This includes automated WhatsApp messages or IVR calls.</span>
                                     </li>
                                     <li className="flex gap-3">
-                                        <span className="text-blue-600 font-bold">✓</span>
+                                        <span className="text-blue-600 font-bold">v</span>
                                         <span><strong>The 30-Day Transition:</strong> Banks must now provide a clear 30-day notice before moving your account to a third party recovery agency. This is your "Golden Window" to settle or restructure.</span>
                                     </li>
                                     <li className="flex gap-3">
-                                        <span className="text-blue-600 font-bold">✓</span>
-                                        <span><strong>Digital Paper Trails:</strong> Every call, text, and visit must be digitally logged by the bank. If a bank says "We don't know why our agent called your mother," and you have the recording, the bank faces a massive fine.</span>
+                                        <span className="text-blue-600 font-bold">v</span>
+                                        <span><strong>Digital Paper Trails:</strong> Every call, text, and visit must be digitally logged by the bank. If a bank says "We don’t know why our agent called your mother," and you have the recording, the bank faces a massive fine.</span>
                                     </li>
                                     <li className="flex gap-3">
-                                        <span className="text-blue-600 font-bold">✓</span>
-                                        <span><strong>Agent Traceability:</strong> Every agent must carry a bank-issued ID and a specific authorization letter for your specific loan. If they don't have this, they are legal strangers to your house.</span>
+                                        <span className="text-blue-600 font-bold">v</span>
+                                        <span><strong>Agent Traceability:</strong> Every agent must carry a bank-issued ID and a specific authorization letter for your specific loan. If they don’t have this, they are legal strangers to your house.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -448,7 +448,7 @@ export default function RecoveryAgentsThreateningMeClient() {
 
                             <h2 id="documenting-harassment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Evidence Is Your Sword: How to Document Harassment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the courtroom or the Ombudsman office, your story is only as good as your evidence. Without documentation, it is your word against a bank's legal department. To win, you must become a "Financial Journalist" of your own crisis.
+                                In the courtroom or the Ombudsman office, your story is only as good as your evidence. Without documentation, it is your word against a bank’s legal department. To win, you must become a "Financial Journalist" of your own crisis.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
@@ -465,7 +465,7 @@ export default function RecoveryAgentsThreateningMeClient() {
                                 </div>
                                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
                                     <h4 className="font-bold text-gray-900 mb-3">Witness Statements</h4>
-                                    <p className="text-sm text-gray-600">If an agent creates a scene in your society or office, ask a friend or neighbor if they would be willing to testify or write a short note about what they saw. External validation of harassment is the "Nail in the Coffin" for a bank's defense.</p>
+                                    <p className="text-sm text-gray-600">If an agent creates a scene in your society or office, ask a friend or neighbor if they would be willing to testify or write a short note about what they saw. External validation of harassment is the "Nail in the Coffin" for a bank’s defense.</p>
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -477,16 +477,16 @@ export default function RecoveryAgentsThreateningMeClient() {
                                 Beyond just documenting, you have the right to take offensive legal action. You do not have to wait for the bank to sue you; you can bring the bank to court for their misconduct.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>1. The "Notice of Intention to Sue":</strong> Have a legal firm like CredSettle send a formal notice to the bank's Nodal Officer and the recovery agency. This notice details the harassment and states that you will hold the bank liable for any mental trauma or loss of reputation. This is usually enough to stop the calls.
+                                <strong>1. The "Notice of Intention to Sue":</strong> Have a legal firm like CredSettle send a formal notice to the bank’s Nodal Officer and the recovery agency. This notice details the harassment and states that you will hold the bank liable for any mental trauma or loss of reputation. This is usually enough to stop the calls.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>2. Police Complaints (The FIR):</strong> If there is criminal intimidation (IPC Section 503/506) or trespass, do not hesitate to go to the police station. An FIR against the bank's agent is a massive black mark on the bank's "Fair Practice" record. The police may not want to involve themselves in "debt matters," but they *must* involve themselves in "criminal threats."
+                                <strong>2. Police Complaints (The FIR):</strong> If there is criminal intimidation (IPC Section 503/506) or trespass, do not hesitate to go to the police station. An FIR against the bank’s agent is a massive black mark on the bank’s "Fair Practice" record. The police may not want to involve themselves in "debt matters," but they *must* involve themselves in "criminal threats."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong>3. Injunction Suits:</strong> In extreme cases, you can file a civil suit for a "Permanent Injunction," asking the court to prevent the bank and its agents from entering your property without following the "Due Process of Law." An injunction is a powerful shield that makes any agent contact a "Contempt of Court."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>4. Consumer Forum Filing:</strong> The Consumer Protection Act 2019 is a borrower's best friend. Filing a case for "Unfair Trade Practice" and "Mental Harassment" is relatively inexpensive and the forum can award compensation and order the bank to stop the harrassment immediately.
+                                <strong>4. Consumer Forum Filing:</strong> The Consumer Protection Act 2019 is a borrower’s best friend. Filing a case for "Unfair Trade Practice" and "Mental Harassment" is relatively inexpensive and the forum can award compensation and order the bank to stop the harrassment immediately.
                             </p>
 
                             <h2 id="debt-trap-psychology" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Mental Defense: Understanding Debt Trap Psychology</h2>
@@ -505,10 +505,10 @@ export default function RecoveryAgentsThreateningMeClient() {
                                 This is a professional secret: <strong>A bank that has harassed you is a bank that is vulnerable.</strong> If you have proof of illegal recovery tactics, you can use this as a massive "Discount Coupon" during settlement negotiations.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When we negotiate for our clients at CredSettle, we often say to the bank: "Our client owes you 10 lakhs. However, your agents have committed 5 documented violations of the RBI Master Direction, causing severe damage to our client's reputation. We are prepared to file an Ombudsman complaint and a Consumer case. Or, we can settle this debt today for 3 lakhs as a full and final settlement to avoid litigation."
+                                When we negotiate for our clients at CredSettle, we often say to the bank: "Our client owes you 10 lakhs. However, your agents have committed 5 documented violations of the RBI Master Direction, causing severe damage to our client’s reputation. We are prepared to file an Ombudsman complaint and a Consumer case. Or, we can settle this debt today for 3 lakhs as a full and final settlement to avoid litigation."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025-2026, banks are increasingly settling for much lower amounts when they know they are at fault for harassment. They would rather take a 70% loss on a loan than face a 50 lakh fine from the regulator or a lawsuit that makes it into the national newspapers. Harassment is a heavy burden for you, but it is a massive legal liability for the bank. Don't let it go to waste; use it to buy your freedom.
+                                In 2025-2026, banks are increasingly settling for much lower amounts when they know they are at fault for harassment. They would rather take a 70% loss on a loan than face a 50 lakh fine from the regulator or a lawsuit that makes it into the national newspapers. Harassment is a heavy burden for you, but it is a massive legal liability for the bank. Don’t let it go to waste; use it to buy your freedom.
                             </p>
 
                             <h2 id="police-and-complaints" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Complaint Hierarchy: Whom to Call and When</h2>
@@ -517,12 +517,12 @@ export default function RecoveryAgentsThreateningMeClient() {
                             </p>
                             <div className="space-y-4 mb-8 ">
                                 <div className="border-l-4 border-blue-600 pl-6 py-2">
-                                    <h5 className="font-bold text-gray-900">Level 1: The Bank's Nodal Officer</h5>
-                                    <p className="text-gray-600 italic ">Don't call the customer care; they are often the ones hiring the agents. Email the <strong>Principal Nodal Officer (PNO)</strong> of the bank. Their details are mandatorily listed on the bank's website. Use the term "Breach of RBI Fair Practices Code."</p>
+                                    <h5 className="font-bold text-gray-900">Level 1: The Bank’s Nodal Officer</h5>
+                                    <p className="text-gray-600 italic ">Don’t call the customer care; they are often the ones hiring the agents. Email the <strong>Principal Nodal Officer (PNO)</strong> of the bank. Their details are mandatorily listed on the bank’s website. Use the term "Breach of RBI Fair Practices Code."</p>
                                 </div>
                                 <div className="border-l-4 border-blue-600 pl-6 py-2">
                                     <h5 className="font-bold text-gray-900">Level 2: The Integrated Ombudsman</h5>
-                                    <p className="text-gray-600 italic ">If the PNO doesn't resolve the issue in 30 days, or if the harassment continues, file a complaint at <strong>cms.rbi.org.in</strong>. This is the "Nuclear Option." The Ombudsman has the power to stop the bank in its tracks.</p>
+                                    <p className="text-gray-600 italic ">If the PNO doesn’t resolve the issue in 30 days, or if the harassment continues, file a complaint at <strong>cms.rbi.org.in</strong>. This is the "Nuclear Option." The Ombudsman has the power to stop the bank in its tracks.</p>
                                 </div>
                                 <div className="border-l-4 border-blue-600 pl-6 py-2">
                                     <h5 className="font-bold text-gray-900">Level 3: The Police (For Criminality)</h5>
@@ -535,7 +535,7 @@ export default function RecoveryAgentsThreateningMeClient() {
                                 It is important to be realistic. A bank has a right to call you. A bank has a right to send a legal notice. A bank has a right to sue you in a civil court. <strong>This is not harassment; this is recovery.</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Harassment begins when the method of recovery becomes illegal, abusive, or invasive. If a bank calls you three times a day at 11:00 AM, 2:00 PM, and 4:00 PM to ask for payment politely, they are within their rights. If they call you thirty times, call your mother, and use foul language, they have crossed into harassment. Knowing this distinction is vital so that you don't lose credibility when filing complaints. Focus your fight on the *methods*, not the *existence* of the debt.
+                                Harassment begins when the method of recovery becomes illegal, abusive, or invasive. If a bank calls you three times a day at 11:00 AM, 2:00 PM, and 4:00 PM to ask for payment politely, they are within their rights. If they call you thirty times, call your mother, and use foul language, they have crossed into harassment. Knowing this distinction is vital so that you don’t lose credibility when filing complaints. Focus your fight on the *methods*, not the *existence* of the debt.
                             </p>
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Victory Stories: Real Cases of Fighting Back</h2>
@@ -545,10 +545,10 @@ export default function RecoveryAgentsThreateningMeClient() {
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 border-l-8 border-l-blue-600">
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study: The "Social Shaming" Reversal</h3>
                                 <p className="text-gray-700 mb-4">
-                                    A client in Pune had agents call his daughter's school teacher to ask for his "location." The client was devastated. We helped him record the teacher's statement and file an Integrated Ombudsman complaint.
+                                    A client in Pune had agents call his daughter’s school teacher to ask for his "location." The client was devastated. We helped him record the teacher’s statement and file an Integrated Ombudsman complaint.
                                 </p>
                                 <p className="text-gray-700">
-                                    Result: The RBI Ombudsman took a very serious view. The bank was fined 2 lakh rupees, which was credited to the client's loan account, and the bank was ordered to offer a 25% settlement on the remaining balance to compensate for the trauma. The agents were suspended, and the bank sent a written apology.
+                                    Result: The RBI Ombudsman took a very serious view. The bank was fined 2 lakh rupees, which was credited to the client’s loan account, and the bank was ordered to offer a 25% settlement on the remaining balance to compensate for the trauma. The agents were suspended, and the bank sent a written apology.
                                 </p>
                             </div>
 
@@ -557,7 +557,7 @@ export default function RecoveryAgentsThreateningMeClient() {
                                 Stopping the threats is Step 1. Step 2 is resolving the debt so you never have to deal with these people again.
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>Consolidate Your Narrative:</strong> Stick to one version of your financial hardship. Don't change your story.</li>
+                                <li><strong>Consolidate Your Narrative:</strong> Stick to one version of your financial hardship. Don’t change your story.</li>
                                 <li><strong>Move Toward One-Time Settlement (OTS):</strong> This is the ultimate goal. A successful OTS closes the account and provides you with a No Dues Certificate.</li>
                                 <li><strong>Ensure No Dues Certificate (NDC):</strong> Never pay a single rupee without receiving a settlement letter first, and never consider a case closed until you have the NDC in your hands.</li>
                                 <li><strong>The 2026 Credit Rebuilding:</strong> Once settled, start using a secured credit card to rebuild your score. In 2026, new credit models will allow you to bounce back faster than ever before.</li>
@@ -568,7 +568,7 @@ export default function RecoveryAgentsThreateningMeClient() {
                                 The recovery agent relies on your fear. The moment you show them you know the RBI 2025 guidelines, that you have a documented harassment log, and that you are prepared to go to the Ombudsman, their power disappears. They are just humans doing a job, and they are not above the law of India.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                You do not have to fight this alone. At CredSettle, we specialize in providing the legal muscle needed to stop harassment and negotiate fair outcomes. Don't suffer in silence. Use your rights, use the law, and reclaim your life today.
+                                You do not have to fight this alone. At CredSettle, we specialize in providing the legal muscle needed to stop harassment and negotiate fair outcomes. Don’t suffer in silence. Use your rights, use the law, and reclaim your life today.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">What People Are Saying</h2>
@@ -605,7 +605,7 @@ export default function RecoveryAgentsThreateningMeClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Under Attack from Agents?</h3>
-                                <p className="text-blue-800 mb-6">Don't wait for things to get worse. Our legal team can help you draft a high-impact complaint that forces the bank to follow the law and stop the harassment today.</p>
+                                <p className="text-blue-800 mb-6">Don’t wait for things to get worse. Our legal team can help you draft a high-impact complaint that forces the bank to follow the law and stop the harassment today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -628,7 +628,7 @@ export default function RecoveryAgentsThreateningMeClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Stop the Stress</h4>
-                                <p className="text-sm text-gray-600 mb-6">Our experts handle the agents so you don't have to. 100% legal protection.</p>
+                                <p className="text-sm text-gray-600 mb-6">Our experts handle the agents so you don’t have to. 100% legal protection.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -636,9 +636,9 @@ export default function RecoveryAgentsThreateningMeClient() {
                                     Book Free Consultation
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ RBI Compliant Resolution</p>
-                                    <p>✓ Agent Communication Proxy</p>
-                                    <p>✓ Peace of Mind Guaranteed</p>
+                                    <p>v RBI Compliant Resolution</p>
+                                    <p>v Agent Communication Proxy</p>
+                                    <p>v Peace of Mind Guaranteed</p>
                                 </div>
                             </div>
 

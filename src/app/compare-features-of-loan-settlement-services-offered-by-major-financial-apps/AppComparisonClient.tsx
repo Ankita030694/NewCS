@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     question: "Is my financial data safe on these third-party platforms?",
-    answer: "The leading apps like AMA Connect use bank-grade encryption (SSL/AES-256) to protect your data. They are also moving toward compliance with India's new Digital Personal Data Protection (DPDP) Act and follow RBI's 2025 digital lending guidelines."
+    answer: "The leading apps like AMA Connect use bank-grade encryption (SSL/AES-256) to protect your data. They are also moving toward compliance with India’s new Digital Personal Data Protection (DPDP) Act and follow RBI’s 2025 digital lending guidelines."
   },
   {
     question: "How does the AMA Connect Harassment Shield work?",
@@ -38,11 +38,11 @@ const faqData = [
   },
   {
     question: "Are these apps officially recognized by the RBI?",
-    answer: "The apps themselves are technology platforms or law firms, not banks. However, they are mandated to comply with the RBI's 'Fair Practice Code' and 'Digital Lending Directions 2025'. Reputable apps work strictly within these regulatory frameworks."
+    answer: "The apps themselves are technology platforms or law firms, not banks. However, they are mandated to comply with the RBI’s 'Fair Practice Code' and 'Digital Lending Directions 2025'. Reputable apps work strictly within these regulatory frameworks."
   },
   {
     question: "Can I talk to a real human negotiator through the app?",
-    answer: "Yes. While the tracking and documentation are digital, the actual negotiation with bank managers is handled by human experts—advocates in the case of AMA Connect or debt counselors in the case of FREED."
+    answer: "Yes. While the tracking and documentation are digital, the actual negotiation with bank managers is handled by human experts-advocates in the case of AMA Connect or debt counselors in the case of FREED."
   },
   {
     question: "What happens if I want to cancel my settlement request in the app?",
@@ -61,7 +61,7 @@ const reviews = [
     name: "Sneha Kapur",
     location: "Pune",
     rating: 5,
-    text: "I tried the bank's own app first, but it only showed 'Pay Full'. FREED's app helped me save up for a settlement over 8 months. Very transparent process but took time."
+    text: "I tried the bank’s own app first, but it only showed 'Pay Full'. FREED’s app helped me save up for a settlement over 8 months. Very transparent process but took time."
   },
   {
     name: "Rahul Varma",
@@ -304,7 +304,7 @@ export default function AppComparisonClient() {
               </div>
 
               <div id="ama-connect" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900 outline-double outline-2 outline-blue-300 p-6 rounded-3xl">3. Spotlight: AMA Connect — The Legal-First Revolution</h2>
+                <h2 className="text-3xl font-bold mb-6 text-gray-900 outline-double outline-2 outline-blue-300 p-6 rounded-3xl">3. Spotlight: AMA Connect - The Legal-First Revolution</h2>
                 <p className="text-gray-700 leading-relaxed">
                   As of early 2025, AMA Connect (by AMA Legal Solutions) has emerged as the most comprehensive digital tool for debt resolution. While many platforms are "Tech-First", AMA Connect is "Legal-First". This distinction is critical because, at its core, debt settlement is a legal negotiation governed by the Indian Contract Act and RBI guidelines.
                 </p>
@@ -322,7 +322,7 @@ export default function AppComparisonClient() {
                     </li>
                     <li className="flex gap-2">
                        <FontAwesomeIcon icon={faShieldAlt} className="text-blue-300 mt-1" />
-                       <span><strong>Military-Grade Document Vault:</strong> Securely stores your NDC (No Dues Certificate) in an encrypted cloud, preventing banks from ever claiming you haven't paid.</span>
+                       <span><strong>Military-Grade Document Vault:</strong> Securely stores your NDC (No Dues Certificate) in an encrypted cloud, preventing banks from ever claiming you haven’t paid.</span>
                     </li>
                   </ul>
                   <Link 
@@ -436,15 +436,15 @@ export default function AppComparisonClient() {
                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Resources</h4>
                 <nav className="space-y-3">
                   <Link href="/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps" className="flex group items-start">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Banking App Limits Guide</span>
                   </Link>
                   <Link href="/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms" className="flex group items-start">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Avoid Digital Scams</span>
                   </Link>
                   <Link href="/find-debt-settlement-services-known-for-effective-negotiation" className="flex group items-start">
-                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                    <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                     <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">Professional Negotiators</span>
                   </Link>
                 </nav>

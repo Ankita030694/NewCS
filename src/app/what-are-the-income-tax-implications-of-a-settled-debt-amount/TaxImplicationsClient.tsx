@@ -80,7 +80,7 @@ export default function TaxImplicationsClient() {
         },
         {
             question: 'Will I receive a tax notice after settling a large loan?',
-            answer: 'If the settlement amount is high, the bank may report it in their annual returns. While this doesn\'t automatically mean a notice, you should be prepared to explain the nature of the waiver to a tax officer if asked.'
+            answer: 'If the settlement amount is high, the bank may report it in their annual returns. While this doesn’t automatically mean a notice, you should be prepared to explain the nature of the waiver to a tax officer if asked.'
         },
         {
             question: 'Can I claim the settlement amount as a "Loss" in my taxes?',
@@ -96,7 +96,7 @@ export default function TaxImplicationsClient() {
         },
         {
             question: 'Does Section 41(1) apply to personal loans?',
-            answer: 'No. Section 41(1) only applies to "Trading Liabilities" where a deduction was previously claimed. Since personal consumption expenses aren\'t deductible, their waiver isn\'t taxed under this section.'
+            answer: 'No. Section 41(1) only applies to "Trading Liabilities" where a deduction was previously claimed. Since personal consumption expenses aren’t deductible, their waiver isn’t taxed under this section.'
         },
         {
             question: 'What documents do I need for my CA after a settlement?',
@@ -123,7 +123,7 @@ export default function TaxImplicationsClient() {
             name: 'Priya Sharma',
             location: 'Delhi',
             stars: 5,
-            comment: 'The explanation on Finance Act 2023 was eye opening. I realized my personal credit card settlement wasn\'t taxable, but my husband\'s business overdraft settlement was. Very detailed!'
+            comment: 'The explanation on Finance Act 2023 was eye opening. I realized my personal credit card settlement wasn’t taxable, but my husband’s business overdraft settlement was. Very detailed!'
         },
         {
             name: 'Rohan Gupta',
@@ -271,7 +271,7 @@ export default function TaxImplicationsClient() {
                                 However, when a portion of that loan is waived, the liability disappears but the benefit remains. This creates a "remission of liability." The core debate in tax courts has always been: Does the remission of a capital liability convert that "capital receipt" into "taxable income"?
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For a long time, the answer was a resounding "No" for individual personal loans. The logic was simple: If the receipt of the money wasn\'t taxable, the waiver of the repayment shouldn\'t be either. But for businesses, the logic was different. If the loan was used for business operations (like buying stock or paying salaries), the waiver was seen as a boost to business profits. This distinction between "Personal" and "Business" use is the first hurdle in determining your tax impact.
+                                For a long time, the answer was a resounding "No" for individual personal loans. The logic was simple: If the receipt of the money wasn’t taxable, the waiver of the repayment shouldn’t be either. But for businesses, the logic was different. If the loan was used for business operations (like buying stock or paying salaries), the waiver was seen as a boost to business profits. This distinction between "Personal" and "Business" use is the first hurdle in determining your tax impact.
                             </p>
 
                             <h2 id="section-28-iv" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 28(iv): The Evolution of Business Benefits</h2>
@@ -279,7 +279,7 @@ export default function TaxImplicationsClient() {
                                 Historically, Section 28(iv) of the Income Tax Act was the primary weapon used by tax officers to tax loan waivers. It stated that any "benefit or perquisite" arising from a business or profession was taxable. For decades, the tax department argued that a loan waiver is a "benefit" and should be taxed under this head.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                However, the Supreme Court, in the famous case of Mahindra & Mahindra Ltd (2018), delivered a blow to this argument. The Court ruled that Section 28(iv) only applied to benefits received "in kind" (non monetary). Since a loan waiver is a monetary benefit—a cessation of a cash liability—it could not be taxed under this section. This judgement became the shield for thousands of businesses that had settled their debts during restructuring.
+                                However, the Supreme Court, in the famous case of Mahindra & Mahindra Ltd (2018), delivered a blow to this argument. The Court ruled that Section 28(iv) only applied to benefits received "in kind" (non monetary). Since a loan waiver is a monetary benefit-a cessation of a cash liability-it could not be taxed under this section. This judgement became the shield for thousands of businesses that had settled their debts during restructuring.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
                                 <strong>The Finance Act 2023 Amendment: The Game Changer</strong>
@@ -294,26 +294,26 @@ export default function TaxImplicationsClient() {
                                 For example, if you took a business loan and claimed the interest as a business expense in your past tax filings, and now the bank waives that interest, the waived interest is 100% taxable as business income. This is because you already took a tax benefit for that "cost" in the past. Now that the cost has been reversed, the tax benefit must also be reversed.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This section, however, generally does not apply to the "Principal" amount of a loan taken for capital assets (like machinery or building). Since you didn\'t claim the principal repayment as an "expense" (you only get depreciation), the waiver of that principal is often still protected from Section 41(1), provided it isn\'t related to stock-in-trade or trading operations.
+                                This section, however, generally does not apply to the "Principal" amount of a loan taken for capital assets (like machinery or building). Since you didn’t claim the principal repayment as an "expense" (you only get depreciation), the waiver of that principal is often still protected from Section 41(1), provided it isn’t related to stock-in-trade or trading operations.
                             </p>
 
                             <h2 id="section-56-2-x" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 56(2)(x): The "Gift Tax" Alternative</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For individual borrowers who don\'t have a business, the tax department often tries to use Section 56(2)(x). This section taxes any "sum of money" received without consideration if it exceeds 50,000 rupees.
+                                For individual borrowers who don’t have a business, the tax department often tries to use Section 56(2)(x). This section taxes any "sum of money" received without consideration if it exceeds 50,000 rupees.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Can a loan waiver be called a "gift"? Most legal experts argue "No." A loan settlement is a "Compromise." You are giving something up (the right to borrow in the future, your credit score, etc.) and the bank is giving something up. It is a commercial transaction, not a gift. There is "consideration" involved, even if it isn\'t cash.
+                                Can a loan waiver be called a "gift"? Most legal experts argue "No." A loan settlement is a "Compromise." You are giving something up (the right to borrow in the future, your credit score, etc.) and the bank is giving something up. It is a commercial transaction, not a gift. There is "consideration" involved, even if it isn’t cash.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                However, there is a risk that an aggressive tax officer might try to bridge this gap. This is why having a clear "Settlement Offer Letter" that cites "Hardship" or "Inability to Pay" is crucial. It proves the waiver wasn\'t a gift, but a necessity forced by your financial situation.
+                                However, there is a risk that an aggressive tax officer might try to bridge this gap. This is why having a clear "Settlement Offer Letter" that cites "Hardship" or "Inability to Pay" is crucial. It proves the waiver wasn’t a gift, but a necessity forced by your financial situation.
                             </p>
 
                             <h2 id="personal-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Personal Loans for Consumption: The Safe Zone?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you settled a credit card bill or a personal loan used for a wedding, medical bills, or travel, are you safe? Generally, yes. For a pure "Individual Consumer," the waiver of a personal loan principal is still a "Capital Receipt." It doesn\'t fall under Category 28 (Business), it doesn\'t fall under Category 41 (no deduction was claimed), and it usually doesn\'t qualify as a gift under Section 56.
+                                If you settled a credit card bill or a personal loan used for a wedding, medical bills, or travel, are you safe? Generally, yes. For a pure "Individual Consumer," the waiver of a personal loan principal is still a "Capital Receipt." It doesn’t fall under Category 28 (Business), it doesn’t fall under Category 41 (no deduction was claimed), and it usually doesn’t qualify as a gift under Section 56.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, the consensus remains that personal debt waivers for individuals are not "Income." You didn\'t "earn" the money; you just failed to pay it back. Bankruptcy or settlement is a loss of creditworthiness, not a gain of wealth.
+                                In 2025, the consensus remains that personal debt waivers for individuals are not "Income." You didn’t "earn" the money; you just failed to pay it back. Bankruptcy or settlement is a loss of creditworthiness, not a gain of wealth.
                             </p>
 
                             <h2 id="education-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Education Loans and Section 80E</h2>
@@ -334,7 +334,7 @@ export default function TaxImplicationsClient() {
                                 Home loans are the most document intensive settlements. Most people take home loans to get tax benefits under Section 80C (Principal) and Section 24(b) (Interest).
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6">
-                                <strong>Warning:</strong> Under Section 80C, if you sell the house within 5 years of taking the loan, all the tax benefits you claimed for principal repayment are "reversed" and added to your income. While a settlement isn\'t a sale, if the settlement leads to the bank seizing and selling the house (SARFAESI auction), you will definitely face a tax reversal.
+                                <strong>Warning:</strong> Under Section 80C, if you sell the house within 5 years of taking the loan, all the tax benefits you claimed for principal repayment are "reversed" and added to your income. While a settlement isn’t a sale, if the settlement leads to the bank seizing and selling the house (SARFAESI auction), you will definitely face a tax reversal.
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Additionally, if the bank waives a portion of the home loan principal, your "Cost of Acquisition" for that house will be reduced by the waived amount. This means when you eventually sell the house, your "Capital Gains" tax will be higher because your "Cost" was officially lowered by the settlement.
@@ -353,25 +353,25 @@ export default function TaxImplicationsClient() {
                                 "Should I mention my settlement in my tax return?" This is the 5 lakh rupee question.
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>For Salaried Individuals (ITR-1/2):</strong> If it\'s a personal loan, many CAs suggest you don\'t need to list it as income. However, it is safe to mention it in the "Schedule EI" (Exempt Income) if the amount is large. This shows transparency without increasing your tax bill.</li>
-                                <li><strong>For Business Owners (ITR-3/4):</strong> You must be very careful. If you don\'t disclose a business loan waiver, and the bank/ARC has reported it, you will receive a "Notice of Mismatch." It is better to treat it as income or have a very strong legal note ready to explain why it is a capital receipt.</li>
+                                <li><strong>For Salaried Individuals (ITR-1/2):</strong> If it’s a personal loan, many CAs suggest you don’t need to list it as income. However, it is safe to mention it in the "Schedule EI" (Exempt Income) if the amount is large. This shows transparency without increasing your tax bill.</li>
+                                <li><strong>For Business Owners (ITR-3/4):</strong> You must be very careful. If you don’t disclose a business loan waiver, and the bank/ARC has reported it, you will receive a "Notice of Mismatch." It is better to treat it as income or have a very strong legal note ready to explain why it is a capital receipt.</li>
                             </ul>
 
                             <h2 id="tax-myths" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Common Myths about Loan Settlement and Tax</h2>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-6 font-light">
                                 <ul className="space-y-4 text-gray-800">
-                                    <li><strong>Myth 1: "The Bank will pay my tax."</strong> Absolutely not. The bank\'s only concern is recovering their money. They will issue you a No Dues Certificate, but they will also report the loss to the RBI and the Tax Department. The tax liability is 100% yours.</li>
-                                    <li><strong>Myth 2: "If it\'s less than 50,000, there\'s no tax."</strong> The 50,000 limit only applies to "Gifts" under Section 56. If it\'s business income under Section 28, even a 10,000 rupee waiver is technically taxable.</li>
-                                    <li><strong>Myth 3: "A 'Settled' status in CIBIL means I'm safe from Tax."</strong> No. CIBIL is for creditworthiness; ITR is for taxability. They are two different systems. A bad CIBIL score doesn\'t exempt you from tax laws.</li>
+                                    <li><strong>Myth 1: "The Bank will pay my tax."</strong> Absolutely not. The bank’s only concern is recovering their money. They will issue you a No Dues Certificate, but they will also report the loss to the RBI and the Tax Department. The tax liability is 100% yours.</li>
+                                    <li><strong>Myth 2: "If it’s less than 50,000, there’s no tax."</strong> The 50,000 limit only applies to "Gifts" under Section 56. If it’s business income under Section 28, even a 10,000 rupee waiver is technically taxable.</li>
+                                    <li><strong>Myth 3: "A 'Settled' status in CIBIL means I’m safe from Tax."</strong> No. CIBIL is for creditworthiness; ITR is for taxability. They are two different systems. A bad CIBIL score doesn’t exempt you from tax laws.</li>
                                 </ul>
                             </div>
 
                             <h2 id="tax-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Strategy for a Tax Efficient Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Dealing with tax after a settlement requires a professional approach. Here are the steps to ensure you don't face penalties:
+                                Dealing with tax after a settlement requires a professional approach. Here are the steps to ensure you don’t face penalties:
                             </p>
                             <ol className="list-decimal pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>Request a Breakup:</strong> Always ask the bank for a written breakup of the settlement—how much principal is waived and how much interest is waived. This is vital for your CA to determine taxability.</li>
+                                <li><strong>Request a Breakup:</strong> Always ask the bank for a written breakup of the settlement-how much principal is waived and how much interest is waived. This is vital for your CA to determine taxability.</li>
                                 <li><strong>Timing the Settlement:</strong> If you are a business owner, try to settle in a year where you have business losses. You can then "set off" the taxable waiver income against your business losses, reducing your total tax liability.</li>
                                 <li><strong>The Hardship Narrative:</strong> Ensure your communication with the bank emphasizes "Insolvency" or "Hardship." This reinforces the argument that the waiver is a capital adjustment due to loss, rather than a revenue gain.</li>
                             </ol>
@@ -416,12 +416,12 @@ export default function TaxImplicationsClient() {
                                 In 2025, the "wait and see" approach to tax disclosure is becoming risky. With the integration of bank data, CIBIL data, and Income Tax records through Artificial Intelligence, the government has become much better at spotting undisclosed "wealth gains."
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you are settling a small personal debt, you likely have nothing to worry about. But if you are a professional or a business owner dealing with significant waivers, professional advice is not an option—it is a necessity. A single mistake in your ITR can lead to penalties that are far higher than the "savings" you made in the settlement.
+                                If you are settling a small personal debt, you likely have nothing to worry about. But if you are a professional or a business owner dealing with significant waivers, professional advice is not an option-it is a necessity. A single mistake in your ITR can lead to penalties that are far higher than the "savings" you made in the settlement.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Minimize Your Tax Liability</h3>
-                                <p className="text-blue-800 mb-6">Settling a loan is only half the battle. Ensuring you don't face unexpected tax burdens is equally important. Let our tax experts and legal advisors guide you through the process for a clean financial break.</p>
+                                <p className="text-blue-800 mb-6">Settling a loan is only half the battle. Ensuring you don’t face unexpected tax burdens is equally important. Let our tax experts and legal advisors guide you through the process for a clean financial break.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"

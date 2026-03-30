@@ -249,7 +249,7 @@ export default function BajajFinservLoanSettlementClient() {
                   Loan Settlement is a formal agreement between a borrower and the lender (Bajaj Finance Limited or its banking partners) to resolve a debt for less than the total outstanding balance. This generally becomes an option when the loan account has been classified as a <strong>Non-Performing Asset (NPA)</strong>, which typically happens after 90 days of consecutive non-payment.
                 </p>
                 <p>
-                  From Bajaj Finserv's perspective, engaging in a settlement is a pragmatic decision. Recovering a portion of the principal amount immediately through a settlement is often more financially viable than pursuing a lengthy legal recovery process that might yield no results, or writing off the entire loan as a complete loss. For you, the borrower, it provides a critical opportunity to exit the debt trap, halt the accumulation of compounding interest and penal charges, and put an end to the relentless harassment from recovery agents.
+                  From Bajaj Finserv’s perspective, engaging in a settlement is a pragmatic decision. Recovering a portion of the principal amount immediately through a settlement is often more financially viable than pursuing a lengthy legal recovery process that might yield no results, or writing off the entire loan as a complete loss. For you, the borrower, it provides a critical opportunity to exit the debt trap, halt the accumulation of compounding interest and penal charges, and put an end to the relentless harassment from recovery agents.
                 </p>
               </div>
 
@@ -416,7 +416,7 @@ export default function BajajFinservLoanSettlementClient() {
                   <li><strong>Section 25 (ECS Failure):</strong> Similar proceedings can be initiated for failed ECS/NACH mandates under the Payment and Settlement Systems Act.</li>
                 </ul>
                 <p>
-                  <strong>How Settlement Helps:</strong> Initiating a formal settlement dialogue is the most effective way to pause or withdraw these legal actions. As part of our settlement agreement, we ensure that Bajaj Finserv agrees to withdraw any pending legal cases upon receipt of the settlement amount. Having a legal team from CredSettle handle this ensures that you don't just pay the money, but also clear your legal liabilities.
+                  <strong>How Settlement Helps:</strong> Initiating a formal settlement dialogue is the most effective way to pause or withdraw these legal actions. As part of our settlement agreement, we ensure that Bajaj Finserv agrees to withdraw any pending legal cases upon receipt of the settlement amount. Having a legal team from CredSettle handle this ensures that you don’t just pay the money, but also clear your legal liabilities.
                 </p>
               </div>
 
@@ -431,7 +431,7 @@ export default function BajajFinservLoanSettlementClient() {
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg hover:shadow-md transition-shadow">
                   <h5 className="font-bold text-gray-900 mb-1">Legal Shield</h5>
-                  <p className="text-sm text-gray-600">We handle the legal notices (Section 138, Arbitration) so you don't have to face the courts alone.</p>
+                  <p className="text-sm text-gray-600">We handle the legal notices (Section 138, Arbitration) so you don’t have to face the courts alone.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg hover:shadow-md transition-shadow">
                   <h5 className="font-bold text-gray-900 mb-1">Max Savings</h5>
@@ -449,14 +449,14 @@ export default function BajajFinservLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Vikram Singh, Pune</div>
                     </div>
                     <p className="italic text-gray-200 text-sm leading-relaxed">"I had outstanding dues on my Bajaj EMI card for multiple appliances. The penalty charges were more than the principal! CredSettle stepped in, waived off 100% of the penalties, and settled the principal amount. I could finally close those loan accounts."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Meera K., Bangalore</div>
                     </div>
                     <p className="italic text-gray-200 text-sm leading-relaxed">"My husband lost his job, and we defaulted on a large Bajaj personal loan. The legal notices were scary. The CredSettle team handled the arbitration notices professionally and settled the loan for 40% of the demanded value. We are forever grateful."</p>
@@ -484,7 +484,7 @@ export default function BajajFinservLoanSettlementClient() {
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform hover:-translate-y-1 transition-transform duration-300">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
-                <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
+                <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -492,8 +492,8 @@ export default function BajajFinservLoanSettlementClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ RBI Compliant Process</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v RBI Compliant Process</p>
                 </div>
               </div>
 

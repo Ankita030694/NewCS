@@ -393,17 +393,17 @@ export default function PiramalFinanceLoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Rakesh K., Mumbai</div>
                     </div>
                     <p className="italic text-gray-200 text-sm">"I defautled on a 5 Lakh loan. Piramal agents were visiting my office. CredSettle stepped in, stopped the visits, and settled it for 2.8 Lakhs."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Suman D., Bangalore</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"Received a SARFAESI notice for my shop. I was terrified. CredSettle's lawyer filed a reply and bought us time to arrange a settlement."</p>
+                    <p className="italic text-gray-200 text-sm">"Received a SARFAESI notice for my shop. I was terrified. CredSettle’s lawyer filed a reply and bought us time to arrange a settlement."</p>
                   </div>
                 </div>
               </div>
@@ -436,8 +436,8 @@ export default function PiramalFinanceLoanSettlementClient() {
                   Start Settlement
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Stop SARFAESI</p>
-                  <p className="mt-1">✓ Save 40-50%</p>
+                  <p>v Stop SARFAESI</p>
+                  <p className="mt-1">v Save 40-50%</p>
                 </div>
               </div>
 

@@ -101,7 +101,7 @@ export default function HeroFincorpLoanSettlementClient() {
     },
     {
       question: "I received an arbitration notice from a Delhi arbitrator. I live in Mumbai. Do I have to go?",
-      answer: "Hero Fincorp's loan agreements typically designate New Delhi as the seat of arbitration. You do not always need to travel. We can represent you legally and respond to the arbitrator via post/email, requesting a settlement pause."
+      answer: "Hero Fincorp’s loan agreements typically designate New Delhi as the seat of arbitration. You do not always need to travel. We can represent you legally and respond to the arbitrator via post/email, requesting a settlement pause."
     },
     {
       question: "What is the email ID for Hero Fincorp settlement?",
@@ -267,7 +267,7 @@ export default function HeroFincorpLoanSettlementClient() {
               <h2 id="simplycash-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">SimplyCash: Settling Instant Personal Loans</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  <strong>SimplyCash</strong> is Hero Fincorp's instant personal loan app. These loans are disbursed quickly, often with minimal documentation, but carry high interest rates (up to 25-30% annualized).
+                  <strong>SimplyCash</strong> is Hero Fincorp’s instant personal loan app. These loans are disbursed quickly, often with minimal documentation, but carry high interest rates (up to 25-30% annualized).
                 </p>
                 <h4 className="font-bold text-gray-800 text-lg mb-2">Why Settlement is Highly Probable</h4>
                 <p className="mb-4">
@@ -312,11 +312,11 @@ export default function HeroFincorpLoanSettlementClient() {
               <h2 id="two-wheeler" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Two-Wheeler Settlement: The Race Against Repossession</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  For many Indian families, a two-wheeler is not a luxury; it's a livelihood tool. Losing it means losing the ability to travel to work, worsening the financial crisis.
+                  For many Indian families, a two-wheeler is not a luxury; it’s a livelihood tool. Losing it means losing the ability to travel to work, worsening the financial crisis.
                 </p>
                 <h4 className="font-bold text-gray-800 text-lg mb-2">The Hypothecation Reality</h4>
                 <p className="mb-4">
-                   Your bike's Registration Certificate (RC) has a "Hypothecation" stamp in favor of Hero Fincorp. This gives them ownership rights until the loan is closed.
+                   Your bike’s Registration Certificate (RC) has a "Hypothecation" stamp in favor of Hero Fincorp. This gives them ownership rights until the loan is closed.
                 </p>
                 <h4 className="font-bold text-gray-800 text-lg mb-2">The Danger of "Voluntary Surrender"</h4>
                 <p className="mb-4">
@@ -324,7 +324,7 @@ export default function HeroFincorpLoanSettlementClient() {
                 </p>
                 <ol className="list-decimal pl-6 space-y-2 mb-4">
                    <li>You surrender the bike.</li>
-                   <li>Hero Fincorp auctions it. Since it's a distress sale, it might fetch only ₹15,000 against a loan outstanding of ₹40,000.</li>
+                   <li>Hero Fincorp auctions it. Since it’s a distress sale, it might fetch only ₹15,000 against a loan outstanding of ₹40,000.</li>
                    <li>They then send you a legal notice for the remaining ₹25,000 (the shortfall).</li>
                    <li>You have lost the bike and you still have debt.</li>
                 </ol>
@@ -349,7 +349,7 @@ export default function HeroFincorpLoanSettlementClient() {
                    </div>
                    <div className="border-l-4 border-yellow-500 pl-4 py-2 bg-gray-50">
                       <h5 className="font-bold text-gray-900">Stage 2: Non-Appearance</h5>
-                      <p className="text-sm text-gray-600">You ignore it because you can't travel to Delhi. The arbitrator records your absence.</p>
+                      <p className="text-sm text-gray-600">You ignore it because you can’t travel to Delhi. The arbitrator records your absence.</p>
                    </div>
                    <div className="border-l-4 border-red-500 pl-4 py-2 bg-gray-50">
                       <h5 className="font-bold text-gray-900">Stage 3: Ex-Parte Award</h5>
@@ -364,15 +364,15 @@ export default function HeroFincorpLoanSettlementClient() {
               <h2 id="sec-138-notice" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Section 138: The Check Bounce Threat</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                   Section 138 of the Negotiable Instruments Act is the most powerful weapon in a lender's arsenal. It makes cheque bounce (or NACH auto-debit failure) a <strong>criminal offense</strong>.
+                   Section 138 of the Negotiable Instruments Act is the most powerful weapon in a lender’s arsenal. It makes cheque bounce (or NACH auto-debit failure) a <strong>criminal offense</strong>.
                 </p>
                 <p className="mb-4">
                    <strong>The Timeline:</strong>
                 </p>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
                    <li><strong>Bounce:</strong> Your cheque/ECS returns unpaid.</li>
-                   <li><strong>Legal Notice:</strong> Hero Fincorp sends a lawyer's notice giving you 15 days to pay.</li>
-                   <li><strong>Case Filing:</strong> If you don't pay, they file a criminal complaint in a magistrate's court.</li>
+                   <li><strong>Legal Notice:</strong> Hero Fincorp sends a lawyer’s notice giving you 15 days to pay.</li>
+                   <li><strong>Case Filing:</strong> If you don’t pay, they file a criminal complaint in a magistrate’s court.</li>
                    <li><strong>Summons:</strong> The court issues a summons asking you to appear.</li>
                    <li><strong>Bailable Warrant:</strong> If you ignore the summons, the court issues a warrant for your arrest.</li>
                 </ul>
@@ -399,7 +399,7 @@ export default function HeroFincorpLoanSettlementClient() {
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xl">2</div>
                   <div>
                     <h4 className="font-bold text-gray-900 text-lg">Legal Shielding</h4>
-                    <p className="text-gray-600 mt-2">We issue a formal representation to Hero Fincorp's legal team. This notifies them that you have engaged legal counsel, which typically reduces the frequency of abusive collection calls.</p>
+                    <p className="text-gray-600 mt-2">We issue a formal representation to Hero Fincorp’s legal team. This notifies them that you have engaged legal counsel, which typically reduces the frequency of abusive collection calls.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -413,7 +413,7 @@ export default function HeroFincorpLoanSettlementClient() {
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xl">4</div>
                   <div>
                     <h4 className="font-bold text-gray-900 text-lg">The Negotiation Rounds</h4>
-                    <p className="text-gray-600 mt-2">Settlement is rarely agreed to in the first call. It involves 3-4 rounds of offers and counter-offers. We handle this friction for you, ensuring you don't succumb to pressure.</p>
+                    <p className="text-gray-600 mt-2">Settlement is rarely agreed to in the first call. It involves 3-4 rounds of offers and counter-offers. We handle this friction for you, ensuring you don’t succumb to pressure.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -521,7 +521,7 @@ export default function HeroFincorpLoanSettlementClient() {
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform hover:-translate-y-1 transition-transform duration-300">
                 <h4 className="font-bold text-xl text-gray-900 mb-2">Arbitration Notice?</h4>
-                <p className="text-sm text-gray-600 mb-6">Don't ignore the Delhi arbitrator. We can respond for you.</p>
+                <p className="text-sm text-gray-600 mb-6">Don’t ignore the Delhi arbitrator. We can respond for you.</p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md"
@@ -529,8 +529,8 @@ export default function HeroFincorpLoanSettlementClient() {
                   Get Legal Help
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Save Your Bike</p>
-                  <p className="mt-1">✓ Settle SimplyCash</p>
+                  <p>v Save Your Bike</p>
+                  <p className="mt-1">v Settle SimplyCash</p>
                 </div>
               </div>
 

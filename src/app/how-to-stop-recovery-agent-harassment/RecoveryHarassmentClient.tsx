@@ -119,23 +119,23 @@ export default function RecoveryHarassmentClient() {
     },
     {
       question: "Is there a limit on how many calls I can receive in a day?",
-      answer: "While the RBI doesn't give a specific number, excessive calling that disrupts your life is classified as harassment. Most legal experts consider more than 3 to 5 calls a day as excessive."
+      answer: "While the RBI doesn’t give a specific number, excessive calling that disrupts your life is classified as harassment. Most legal experts consider more than 3 to 5 calls a day as excessive."
     },
     {
       question: "What documents should a recovery agent carry?",
-      answer: "A valid agent ID card from the bank or agency, a copy of the bank's authorization letter naming the agency, and the specific visit letter for your case."
+      answer: "A valid agent ID card from the bank or agency, a copy of the bank’s authorization letter naming the agency, and the specific visit letter for your case."
     },
     {
       question: "Can a bank agent visit me on a Sunday?",
-      answer: "The RBI permits contact during social hours (8 AM to 7 PM). While Sundays aren't explicitly banned, they are generally considered non-working days for recovery unless the borrower has specifically requested a Sunday visit."
+      answer: "The RBI permits contact during social hours (8 AM to 7 PM). While Sundays aren’t explicitly banned, they are generally considered non-working days for recovery unless the borrower has specifically requested a Sunday visit."
     },
     {
-      question: "Can I sue a bank for my agent's behavior?",
+      question: "Can I sue a bank for my agent’s behavior?",
       answer: "Yes. Banks are 100% vicariously liable for the actions of their outsourced agents. You can sue for defamation, harassment, and mental agony in a Consumer Court or Civil Court."
     },
     {
       question: "What is the role of the RBI Ombudsman?",
-      answer: "The Ombudsman is a senior official appointed by the RBI to resolve grievances against banks. If the bank doesn't solve your harassment complaint, the Ombudsman can force them to apologize and pay compensation."
+      answer: "The Ombudsman is a senior official appointed by the RBI to resolve grievances against banks. If the bank doesn’t solve your harassment complaint, the Ombudsman can force them to apologize and pay compensation."
     },
     {
       question: 'How can CredSettle stop my calls permanently?',
@@ -162,7 +162,7 @@ export default function RecoveryHarassmentClient() {
       name: "Karthik Raja",
       location: "Chennai",
       rating: 5,
-      text: "Unannounced visits at my office were ruining my reputation. The CredSettle team coordinated with the bank's nodal officer and stopped all visits. Grateful for their help.",
+      text: "Unannounced visits at my office were ruining my reputation. The CredSettle team coordinated with the bank’s nodal officer and stopped all visits. Grateful for their help.",
       date: "Feb 2025"
     }
   ];
@@ -251,7 +251,7 @@ export default function RecoveryHarassmentClient() {
                   Financial struggles are a reality for millions of hardworking Indians. However, owing money to a bank or a credit card company does not mean you have surrendered your human rights. In recent years, the aggressive nature of debt collection has reached alarming levels. Many borrowers find themselves trapped in a cycle of fear, receiving hundreds of calls a day and facing unannounced visits at their homes or offices. This guide is designed to empower you with the exact knowledge of <strong>how to stop recovery agent harassment</strong> by utilizing the robust legal and regulatory framework available in our country.
                 </p>
                 <p>
-                  The Reserve Bank of India (RBI) has time and again stated that banks and NBFCs are responsible for the conduct of their recovery agents. The law is clear: recovery must be done through civil means and with absolute respect for the borrower's privacy and dignity. Unfortunately, the ground reality is often different because agents rely on the borrower's lack of awareness. They use intimidation, shouting, and public shaming as psychological tools to force payments. This article provides a massive in-depth strategy to turn the tables on these aggressive tactics.
+                  The Reserve Bank of India (RBI) has time and again stated that banks and NBFCs are responsible for the conduct of their recovery agents. The law is clear: recovery must be done through civil means and with absolute respect for the borrower’s privacy and dignity. Unfortunately, the ground reality is often different because agents rely on the borrower’s lack of awareness. They use intimidation, shouting, and public shaming as psychological tools to force payments. This article provides a massive in-depth strategy to turn the tables on these aggressive tactics.
                 </p>
                 <p>
                   At CredSettle, we believe that debt is a business problem that requires a business solution, not a personal trial by fire. This guide will walk you through constitutional protections, the latest RBI 2025 mandates, specific IPC sections for criminal complaints, and the practical steps to handle doorstep confrontations. Whether you are dealing with a personal loan default or mounting credit card debt, the strategies laid out here will help you reclaim your life and your residential peace.
@@ -276,7 +276,7 @@ export default function RecoveryHarassmentClient() {
                   Furthermore, the Right to Safety is paramount. Any physical touch, aggressive gesturing, or even high-volume shouting that causes a sense of fear is a violation of your personal space. The Indian legal system does not permit private individuals to use force or intimidation for debt recovery. Only authorized officers of the law, acting under a court order, have such powers, and even they must follow a strict legal protocol.
                 </p>
                 <p>
-                  It is also important to understand the concept of "Freedom from Harassment" in the workplace. Your employment is your livelihood, and any act by a bank that jeopardizes your job by creating a scene in your office is a violation of your right to earn a living. The judiciary has been very protective of borrowers in this regard, often granting heavy damages against banks that interfere with a person's professional life.
+                  It is also important to understand the concept of "Freedom from Harassment" in the workplace. Your employment is your livelihood, and any act by a bank that jeopardizes your job by creating a scene in your office is a violation of your right to earn a living. The judiciary has been very protective of borrowers in this regard, often granting heavy damages against banks that interfere with a person’s professional life.
                 </p>
               </div>
 
@@ -302,7 +302,7 @@ export default function RecoveryHarassmentClient() {
                   The RBI is very specific about when and how you can be contacted. Understanding these Social Boundaries is key to identifying harassment.
                 </p>
                 <p>
-                  <strong>The 8 AM to 7 PM Rule:</strong> Contacts for recovery, whether via phone or in-person visits, are strictly limited to the hours between 8:00 AM and 7:00 PM. Any call at 9:00 PM or a visit at 7:30 AM is an illegal act of harassment. This rule exists to protect your rest and your family's privacy. Banks that violate this window are subject to heavy penalties from the regulator.
+                  <strong>The 8 AM to 7 PM Rule:</strong> Contacts for recovery, whether via phone or in-person visits, are strictly limited to the hours between 8:00 AM and 7:00 PM. Any call at 9:00 PM or a visit at 7:30 AM is an illegal act of harassment. This rule exists to protect your rest and your family’s privacy. Banks that violate this window are subject to heavy penalties from the regulator.
                 </p>
                 <p>
                   <strong>Frequency of Contact:</strong> While there is no hard number in the circular, the principle of non-interference applies. If an agent calls you 30 times a day, even within the allowed hours, it is a form of psychological harassment. The goal of recovery communication should be to set up a repayment plan, not to disrupt your ability to work or sleep. You can document these call logs as a breach of the Fair Practices Code.
@@ -324,7 +324,7 @@ export default function RecoveryHarassmentClient() {
                   <ul className="list-none space-y-4 pl-0">
                     <li className="flex gap-4">
                       <span className="font-bold text-blue-600">Phase 1:</span>
-                      <span><strong>Verification:</strong> Do not open the door fully. Ask for their official ID card and the bank's authorization letter. Take a photo of these documents through the door or window. This identifies the individual and the agency who will be responsible for any misconduct.</span>
+                      <span><strong>Verification:</strong> Do not open the door fully. Ask for their official ID card and the bank’s authorization letter. Take a photo of these documents through the door or window. This identifies the individual and the agency who will be responsible for any misconduct.</span>
                     </li>
                     <li className="flex gap-4">
                       <span className="font-bold text-blue-600">Phase 2:</span>
@@ -348,10 +348,10 @@ export default function RecoveryHarassmentClient() {
               <h2 id="psychology-intimidation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Mind Game: Understanding the Psychology of Intimidation</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Harassment is a calculated mind game. The agent's goal is to move you from a state of Logical Planning to a state of Emotional Panic. When you are in panic, you are more likely to make a rash payment, even if it means borrowing from someone else or skipping your children's school fees. They are trained to find your "Breaking Point."
+                  Harassment is a calculated mind game. The agent’s goal is to move you from a state of Logical Planning to a state of Emotional Panic. When you are in panic, you are more likely to make a rash payment, even if it means borrowing from someone else or skipping your children’s school fees. They are trained to find your "Breaking Point."
                 </p>
                 <p>
-                  They often use False Urgency. They might say: "If you don't pay by 4 PM, a police team will come to arrest you." This is 100% false. Police do not work for banks. Legal processes in India take months, if not years. When you hear a threat of "today or never," recognize it as a lie designed to induce panic. A common tactic is to fake "Police Status" or use heavy legal terms to sound like an authority figure.
+                  They often use False Urgency. They might say: "If you don’t pay by 4 PM, a police team will come to arrest you." This is 100% false. Police do not work for banks. Legal processes in India take months, if not years. When you hear a threat of "today or never," recognize it as a lie designed to induce panic. A common tactic is to fake "Police Status" or use heavy legal terms to sound like an authority figure.
                 </p>
                 <p>
                   Another trick is the Good Cop, Bad Cop routine, where one agent is very aggressive on the phone, and then another "Senior Manager" calls and pretends to be kind, saying they can "save you" if you make a quick partial payment. Both are working for the same agency. Do not fall for the kindness; stick to the legal facts of your debt and your rights.
@@ -361,7 +361,7 @@ export default function RecoveryHarassmentClient() {
               <h2 id="shaming-tactics" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Science of Shaming: How to Neutralize it</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Shaming is not an accidental byproduct of debt collection; it is a primary strategy. Agents know that for most Indians, the social status is a greater fear than the debt itself. By creating a public scene at your doorstep or shouting in your building's lobby, they are not trying to collect money from you in that moment. They are trying to damage your Social Capital.
+                  Shaming is not an accidental byproduct of debt collection; it is a primary strategy. Agents know that for most Indians, the social status is a greater fear than the debt itself. By creating a public scene at your doorstep or shouting in your building’s lobby, they are not trying to collect money from you in that moment. They are trying to damage your Social Capital.
                 </p>
                 <p>
                   When your social standing is threatened, you lose your ability to think rationally. This is exactly what the agencies want. A panicked borrower makes mistakes: they borrow more money at higher interest rates to pay off the current harassment, or they sell essential assets in a hurry. To stop this, you must Socially Vaccinate yourself. Speak to your trusted neighbors, your building secretary, or your close friends. Tell them: "I am having a dispute with a bank, and their agents might try to create a scene. Do not be surprised or believe their lies." Once the Secret is out, the agent loses their most powerful weapon.
@@ -417,7 +417,7 @@ export default function RecoveryHarassmentClient() {
               <h2 id="workplace-safety" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Professional Shield: Stopping Office Harassment</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Your workplace is a highly sensitive area. Agents use office visits to create Career Fear. They know you are vulnerable because you don't want your colleagues or boss to know about your debt.
+                  Your workplace is a highly sensitive area. Agents use office visits to create Career Fear. They know you are vulnerable because you don’t want your colleagues or boss to know about your debt.
                 </p>
                 <p>
                   <strong>Legal Position:</strong> Agents have zero right to tell your boss or HR about your loan. Doing so is a major violation of banking confidentiality. If they visit your office, follow the same Verification steps as you would at home. Inform your office security that you are being harassed by a specific agency and that they should not be allowed entry. Your HR should be informed that a "Disputed Debt" is causing harassment from unauthorized people.
@@ -436,7 +436,7 @@ export default function RecoveryHarassmentClient() {
                   <strong>1. Identifying Fake Notices:</strong> A real legal notice will come as a physical registered post or from a verified bank email. It will have a Bar Council number of an advocate. It will NOT be a PDF sent on WhatsApp with emojis and red fonts. If you receive such a message: do not panic. It is a Draft designed to scare you. A real notice never Uses aggressive or insulting language.
                 </p>
                 <p>
-                  <strong>2. WhatsApp Shaming:</strong> If an agent creates a group with your family or friends, they are in severe violation of the Information Technology Act and RBI privacy norms. Take immediate screenshots. This is Cyber Harassment. You can file a complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in). This is one of the fastest ways to get an agency's digital operations shut down.
+                  <strong>2. WhatsApp Shaming:</strong> If an agent creates a group with your family or friends, they are in severe violation of the Information Technology Act and RBI privacy norms. Take immediate screenshots. This is Cyber Harassment. You can file a complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in). This is one of the fastest ways to get an agency’s digital operations shut down.
                 </p>
                 <p>
                   <strong>3. Call Bombing:</strong> Some agencies use automated software to call you every minute. This is a violation of Telecom Regulatory Authority of India (TRAI) norms. You can report these numbers to the Unsolicited Commercial Communication (UCC) portal. Also, record a video of your phone screen while it is "bombarded" with calls as proof of harassment.
@@ -449,7 +449,7 @@ export default function RecoveryHarassmentClient() {
                   Different financial institutions in India have different Recovery Cultures. Knowing who you are dealing with helps in tailoring your defense.
                 </p>
                 <p>
-                  <strong>1. Private Sector Giants (HDFC, ICICI, Axis):</strong> These banks have massive recovery operations. They often outsource to multiple agencies who compete with each other. This competition leads to high aggression. However, because they are large public-facing brands, they are very sensitive to Social Media Escalation and formal RBI complaints. A well-worded tweet tagging the bank's CEO and the RBI often gets faster results than a simple customer care call.
+                  <strong>1. Private Sector Giants (HDFC, ICICI, Axis):</strong> These banks have massive recovery operations. They often outsource to multiple agencies who compete with each other. This competition leads to high aggression. However, because they are large public-facing brands, they are very sensitive to Social Media Escalation and formal RBI complaints. A well-worded tweet tagging the bank’s CEO and the RBI often gets faster results than a simple customer care call.
                 </p>
                 <p>
                   <strong>2. Public Sector Banks (SBI, PNB, BOB):</strong> Generally more professional and slower in their recovery efforts. They rely more on formal legal notices rather than daily doorstep harassment. However, their legal actions are often more serious and harder to ignore. They tend to stick to the rulebook but can be very rigid in negotiations.
@@ -495,8 +495,8 @@ export default function RecoveryHarassmentClient() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><strong>Call Logs:</strong> Keep a record of the number of calls, the timing, and the duration. High frequency is proof of intent to annoy.</li>
-                  <li><strong>Voice Recordings:</strong> Install a reliable call recorder. Record every interaction. Even a polite but frequent call can prove harassment. Capture the agent's name and agency in the recording.</li>
-                  <li><strong>Video Proof:</strong> For doorstep visits, use your phone or a smart doorbell camera. Capture the agent's face, their ID, and their behavior. Do not let them touch your camera.</li>
+                  <li><strong>Voice Recordings:</strong> Install a reliable call recorder. Record every interaction. Even a polite but frequent call can prove harassment. Capture the agent’s name and agency in the recording.</li>
+                  <li><strong>Video Proof:</strong> For doorstep visits, use your phone or a smart doorbell camera. Capture the agent’s face, their ID, and their behavior. Do not let them touch your camera.</li>
                   <li><strong>Witness Statements:</strong> If a neighbor or a security guard saw the harassment, their statement can be used in a Consumer Court case. Ask your society secretary to note down the visit in their visitor log.</li>
                 </ul>
               </div>
@@ -504,16 +504,16 @@ export default function RecoveryHarassmentClient() {
               <h2 id="bank-complaints" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Chain of Command: Filing Formal Bank Complaints</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Talking to a phone agent about harassment is useless: they are the ones doing it. You must go high up in the bank's hierarchy to the decision-makers.
+                  Talking to a phone agent about harassment is useless: they are the ones doing it. You must go high up in the bank’s hierarchy to the decision-makers.
                 </p>
                 <p>
-                  <strong>Step 1: The Written Complaint.</strong> Send an email to the bank's Principal Nodal Officer (PNO). You can find their email on the bank's official website. Attach your evidence: call logs, recordings, and photos of agents at your door. A physical letter sent via speed post is even more effective as it creates a physical "Receipt."
+                  <strong>Step 1: The Written Complaint.</strong> Send an email to the bank’s Principal Nodal Officer (PNO). You can find their email on the bank’s official website. Attach your evidence: call logs, recordings, and photos of agents at your door. A physical letter sent via speed post is even more effective as it creates a physical "Receipt."
                 </p>
                 <p>
                   <strong>Step 2: Command Action.</strong> Use formal language. Say: "This is a formal grievance regarding the violation of RBI/2022-23/108 by your outsourced agency. I demand an immediate cessation of illegal harassment and a formal apology." Clearly state the mental and physical impact of the harassment.
                 </p>
                 <p>
-                  <strong>Step 3: Track the ID.</strong> Ensure you get a Complaint Reference Number. The bank is legally bound to resolve your grievance within 30 days. If they don't, or if they give a generic reply, you have the green light to go to the RBI. This 30-day period is your "Cooling Off" time.
+                  <strong>Step 3: Track the ID.</strong> Ensure you get a Complaint Reference Number. The bank is legally bound to resolve your grievance within 30 days. If they don’t, or if they give a generic reply, you have the green light to go to the RBI. This 30-day period is your "Cooling Off" time.
                 </p>
               </div>
 
@@ -523,7 +523,7 @@ export default function RecoveryHarassmentClient() {
                   The **Integrated Ombudsman Scheme 2021** is a powerful tool for borrowers. It is an independent authority that hears cases against financial institutions. Filing a complaint is free and can be done online from your home.
                 </p>
                 <p>
-                  Go to **cms.rbi.org.in**. State your case clearly. Provide the reference number of the complaint you filed with the bank. The Ombudsman has the power to order the bank to stop recovery activities, pay you compensation for mental agony, and even waive off interest or penalties as a punishment for the bank's conduct. They act as a neutral party and their orders are binding on the bank. This is arguably the most successful way to get a permanent resolution.
+                  Go to **cms.rbi.org.in**. State your case clearly. Provide the reference number of the complaint you filed with the bank. The Ombudsman has the power to order the bank to stop recovery activities, pay you compensation for mental agony, and even waive off interest or penalties as a punishment for the bank’s conduct. They act as a neutral party and their orders are binding on the bank. This is arguably the most successful way to get a permanent resolution.
                 </p>
               </div>
 
@@ -533,7 +533,7 @@ export default function RecoveryHarassmentClient() {
                   Regulatory complaints are for bad service, but police intervention is for crimes. If an agent uses physical force, forcibly enters your home, or makes death threats, you should not wait for an email response.
                 </p>
                 <p>
-                  Call 112 or 100 immediately. When the police arrive, be calm and show them your evidence. File a First Information Report (FIR). An FIR against a recovery agent also makes the bank's legal department very nervous, as they can be named as co-accused for aiding and abetting the criminal behavior. This is often the most definitive way on <strong>how to stop recovery agent harassment</strong> for high-aggression cases. Once an FIR is filed, the bank usually stops all collection and asks for a settlement just to get the case settled.
+                  Call 112 or 100 immediately. When the police arrive, be calm and show them your evidence. File a First Information Report (FIR). An FIR against a recovery agent also makes the bank’s legal department very nervous, as they can be named as co-accused for aiding and abetting the criminal behavior. This is often the most definitive way on <strong>how to stop recovery agent harassment</strong> for high-aggression cases. Once an FIR is filed, the bank usually stops all collection and asks for a settlement just to get the case settled.
                 </p>
               </div>
 
@@ -560,10 +560,10 @@ export default function RecoveryHarassmentClient() {
               <h2 id="legal-shield" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Professional Wall: The Power of a Legal Notice</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  A verbal "stop calling me" is like a suggestion to a recovery agency. A legal Cease and Desist notice on a professional firm's letterhead is a mandate. When our team at CredSettle sends a legal notice to a bank, we cite Every relevant RBI circular and Every applicable IPC section.
+                  A verbal "stop calling me" is like a suggestion to a recovery agency. A legal Cease and Desist notice on a professional firm’s letterhead is a mandate. When our team at CredSettle sends a legal notice to a bank, we cite Every relevant RBI circular and Every applicable IPC section.
                 </p>
                 <p>
-                  This notice acts as a formal "Warning Shot." It shifts the case from the agencies to the bank's Legal and Compliance team. These professionals understand the risk of an RBI penalty or a lawsuit. They usually instruct the agency to stop calling and move the case to a Legal Resolution track, which is much more civilized and open to negotiation.
+                  This notice acts as a formal "Warning Shot." It shifts the case from the agencies to the bank’s Legal and Compliance team. These professionals understand the risk of an RBI penalty or a lawsuit. They usually instruct the agency to stop calling and move the case to a Legal Resolution track, which is much more civilized and open to negotiation.
                 </p>
               </div>
 
@@ -577,7 +577,7 @@ export default function RecoveryHarassmentClient() {
               <h2 id="medical-emergency" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Protecting the Vulnerable: Seniors and Medical Cases</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  If you are a senior citizen or if you are suffering from a serious medical condition, the bank's recovery tactics must be even more restrained. Harassment that leads to a health crisis for a senior citizen is a major liability for a bank. Inform the bank's Nodal Officer specifically about your age and medical status. Use this as a documented Red Flag that makes the bank very cautious about sending agents. You can even obtain a medical certificate to prove the impact of harassment on your health.
+                  If you are a senior citizen or if you are suffering from a serious medical condition, the bank’s recovery tactics must be even more restrained. Harassment that leads to a health crisis for a senior citizen is a major liability for a bank. Inform the bank’s Nodal Officer specifically about your age and medical status. Use this as a documented Red Flag that makes the bank very cautious about sending agents. You can even obtain a medical certificate to prove the impact of harassment on your health.
                 </p>
               </div>
 
@@ -600,10 +600,10 @@ export default function RecoveryHarassmentClient() {
                   <strong>Immediate Redirection:</strong> When you become a client, we provide you with a Protection Kit. You can tell any agent: "I am represented by CredSettle. Please talk to my legal team. I will not engage with you directly." This immediately stops 90% of harassment because agents know they cannot intimidate a legal professional who knows exactly what they are doing.
                 </p>
                 <p>
-                  <strong>Regulatory Leverage:</strong> We don't just email customer care. We have direct contact channels with the Compliance Departments of most major banks. We speak their language: circulars, mandates, and legal precedents. We make it Too Expensive for the bank to continue harassing you by constantly pointing out their violations to the regulator.
+                  <strong>Regulatory Leverage:</strong> We don’t just email customer care. We have direct contact channels with the Compliance Departments of most major banks. We speak their language: circulars, mandates, and legal precedents. We make it Too Expensive for the bank to continue harassing you by constantly pointing out their violations to the regulator.
                 </p>
                 <p>
-                  <strong>Strategic Fresh Start:</strong> Once we have secured your peace, we work on the numbers. We analyze your debt, identify all illegal charges and penalties the bank has added, and negotiate a settlement that reflects your true repayment capacity. We don't just stop the calls; we close the chapter permanently.
+                  <strong>Strategic Fresh Start:</strong> Once we have secured your peace, we work on the numbers. We analyze your debt, identify all illegal charges and penalties the bank has added, and negotiate a settlement that reflects your true repayment capacity. We don’t just stop the calls; we close the chapter permanently.
                 </p>
               </div>
 
@@ -625,7 +625,7 @@ export default function RecoveryHarassmentClient() {
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Download a call recording app and test it today.</li>
-                  <li>Learn the name of your bank's Principal Nodal Officer.</li>
+                  <li>Learn the name of your bank’s Principal Nodal Officer.</li>
                   <li>Draft a standard "Do Not Disturb" message to send to every new agent.</li>
                   <li>Check your CCTV system to ensure it captures your front door.</li>
                   <li>Educate your family members not to talk to strangers about your loans.</li>
@@ -711,7 +711,7 @@ export default function RecoveryHarassmentClient() {
 
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center">
                 <div className="text-blue-600 text-2xl font-black mb-1">4.9/5</div>
-                <div className="flex justify-center text-yellow-400 mb-2">★★★★★</div>
+                <div className="flex justify-center text-yellow-400 mb-2">*****</div>
                 <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Borrower Ratings</p>
               </div>
             </div>

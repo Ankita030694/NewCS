@@ -111,7 +111,7 @@ export default function BankOfBarodaLoanSettlementPage() {
         "name": "Can I restructure my MSME loan with Bank of Baroda?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, under the RBI's guidance and its own 'Asset Restructuring Module', BoB offers MSME restructuring. This can involve extending the tenure or converting interest into a funded interest term loan (FITL)."
+          "text": "Yes, under the RBI’s guidance and its own 'Asset Restructuring Module', BoB offers MSME restructuring. This can involve extending the tenure or converting interest into a funded interest term loan (FITL)."
         }
       },
       {
@@ -127,7 +127,7 @@ export default function BankOfBarodaLoanSettlementPage() {
         "name": "Does Bank of Baroda use recovery agents?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, for retail loans (Personal/Car/Home), they engage recovery agencies. However, they are bound by the RBI's Fair Practices Code. You can file a grievance if agents are abusive."
+          "text": "Yes, for retail loans (Personal/Car/Home), they engage recovery agencies. However, they are bound by the RBI’s Fair Practices Code. You can file a grievance if agents are abusive."
         }
       }
     ]

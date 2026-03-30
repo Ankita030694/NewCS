@@ -112,7 +112,7 @@ const SmallDebtsClient = () => {
         },
         {
             question: "Can I consolidate small debts into a single EMI?",
-            answer: "Yes. If you have a good enough credit score, a Debt Consolidation Loan can merge multiple high-interest small debts into one lower-interest loan. However, avoid taking on new debt if your spending isn't under control."
+            answer: "Yes. If you have a good enough credit score, a Debt Consolidation Loan can merge multiple high-interest small debts into one lower-interest loan. However, avoid taking on new debt if your spending isn’t under control."
         },
         {
             question: "What government schemes provide debt relief for small businesses?",
@@ -221,7 +221,7 @@ const SmallDebtsClient = () => {
                         Alternatives to <span className="text-blue-300">Debt Settlement</span> for Small Debts
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
-                        Don't ruin your CIBIL score for a small amount. A 5000+ word deep-dive into repaying debts under ₹2 Lakhs without the scars of settlement.
+                        Don’t ruin your CIBIL score for a small amount. A 5000+ word deep-dive into repaying debts under ₹2 Lakhs without the scars of settlement.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
                         <Link
@@ -345,9 +345,9 @@ const SmallDebtsClient = () => {
                                     </svg>
                                     Consolidation Benefit Analysis
                                 </h4>
-                                <p className="text-4xl md:text-5xl font-black mb-6 tracking-tighter italic whitespace-nowrap">Single EMI — Lower ROI</p>
+                                <p className="text-4xl md:text-5xl font-black mb-6 tracking-tighter italic whitespace-nowrap">Single EMI - Lower ROI</p>
                                 <p className="opacity-90 leading-relaxed font-light text-lg">
-                                    If you have 4 credit cards with 40% interest, taking a single personal loan at 14% to pay them all off isn't just a convenience; it is a mathematical necessity. You simplify your life and reduce your interest burden by 65%. 
+                                    If you have 4 credit cards with 40% interest, taking a single personal loan at 14% to pay them all off isn’t just a convenience; it is a mathematical necessity. You simplify your life and reduce your interest burden by 65%. 
                                 </p>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
@@ -365,7 +365,7 @@ const SmallDebtsClient = () => {
                                 By increasing a 2-year loan to a 4-year loan, your EMI drops by nearly 40%. While you pay more interest overall, you avoid a default. This is a "Positive Reporting" event compared to the "Negative Reporting" of a settlement. Always approach your bank *before* your first missed payment for the best restructuring terms. In 2025, banks are required to have a "Board Approved Policy" for individual restructuring, making the process more transparent than ever before.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                When you walk into a bank for restructuring, bring "Survival Evidence." This includes a bank statement showing declining income or a medical report. If you can prove that you *want* to pay but need more *time*, the Branch Manager has the discretionary power to waive late fees and penalties. This is often the most underutilized tool in the Indian borrower's arsenal.
+                                When you walk into a bank for restructuring, bring "Survival Evidence." This includes a bank statement showing declining income or a medical report. If you can prove that you *want* to pay but need more *time*, the Branch Manager has the discretionary power to waive late fees and penalties. This is often the most underutilized tool in the Indian borrower’s arsenal.
                             </p>
 
                             <h2 id="snowball-method" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 uppercase tracking-widest leading-normal">The Snowball Method: Behavioral Psychology in Personal Finance</h2>
@@ -376,15 +376,15 @@ const SmallDebtsClient = () => {
                                 The Snowball method involves listing all your debts by balance, smallest to largest. You pay the minimum on everything but throw every extra rupee at the smallest debt. 
                             </p>
                             <div className="p-8 bg-gray-100 rounded-3xl border border-gray-100 mb-10 group hover:shadow-lg transition-all">
-                                <p className="text-gray-600 italic">"The psychological boost of seeing a ₹5,000 credit card bill disappear is far more powerful than the mathematical saving of a 2% interest reduction. Finance is 80% behavior and 20% head knowledge. In 2025, when we are bombarded with digital notifications of debt, the 'Dopamine Hit' of a cleared account is the best fuel to continue the journey." — CredSettle Advisory</p>
+                                <p className="text-gray-600 italic">"The psychological boost of seeing a ₹5,000 credit card bill disappear is far more powerful than the mathematical saving of a 2% interest reduction. Finance is 80% behavior and 20% head knowledge. In 2025, when we are bombarded with digital notifications of debt, the 'Dopamine Hit' of a cleared account is the best fuel to continue the journey." - CredSettle Advisory</p>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                How it works in practice: Imagine you have a ₹15,000 BNPL loan, a ₹40,000 credit card, and a ₹1 Lakh personal loan. Even if the credit card has the highest interest, you kill the ₹15,000 loan first. The moment it is zero, you take the entire EMI you were paying for it and add it to the credit card payment. This "Rolling Effect" is why it's called a snowball. By the time you reach the large ₹1 Lakh loan, your monthly repayment power has doubled or tripled.
+                                How it works in practice: Imagine you have a ₹15,000 BNPL loan, a ₹40,000 credit card, and a ₹1 Lakh personal loan. Even if the credit card has the highest interest, you kill the ₹15,000 loan first. The moment it is zero, you take the entire EMI you were paying for it and add it to the credit card payment. This "Rolling Effect" is why it’s called a snowball. By the time you reach the large ₹1 Lakh loan, your monthly repayment power has doubled or tripled.
                             </p>
 
                             <h2 id="avalanche-method" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 tracking-tighter">The Avalanche Method: Mathematical Purity</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 leading-[1.8]">
-                                If you are emotionally disciplined, the Avalanche method is superior. Here, you list debts by **Interest Rate**. You tackle the 42% credit card first, regardless of its balance. This method ensures that the least amount of your money goes to the bank's pockets. It is the fastest way to become debt-free, though it lacks the 'quick wins' of the snowball approach.
+                                If you are emotionally disciplined, the Avalanche method is superior. Here, you list debts by **Interest Rate**. You tackle the 42% credit card first, regardless of its balance. This method ensures that the least amount of your money goes to the bank’s pockets. It is the fastest way to become debt-free, though it lacks the 'quick wins' of the snowball approach.
                             </p>
 
                             <h2 id="debt-management-plans" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic">DMP Strategies: The "Full Repayment" Alternative</h2>
@@ -394,7 +394,7 @@ const SmallDebtsClient = () => {
 
                             <h2 id="credit-counseling" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4 uppercase leading-normal">Credit Counseling: Free Expert Guidance</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 leading-[1.8]">
-                                Did you know that the RBI mandates certain banks to support Debt Counseling Centers (DCCs)? For small debts, you can get professional budgeting advice and negotiation tips for free. These centers help you speak the "Banker's Language" so you can secure a better deal without paying high service fees to agencies.
+                                Did you know that the RBI mandates certain banks to support Debt Counseling Centers (DCCs)? For small debts, you can get professional budgeting advice and negotiation tips for free. These centers help you speak the "Banker’s Language" so you can secure a better deal without paying high service fees to agencies.
                             </p>
 
                             <h2 id="government-schemes" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 tracking-tighter italic">Relief Schemes: Subsidies for Distressed Borrowers</h2>
@@ -425,7 +425,7 @@ const SmallDebtsClient = () => {
                                     <details key={index} className="group p-6 bg-gray-50 rounded-2xl border border-gray-100 transition-all hover:bg-white hover:shadow-md">
                                         <summary className="flex justify-between items-center cursor-pointer list-none font-bold text-gray-900 text-lg group-hover:text-blue-600 transition-colors italic uppercase tracking-tighter leading-snug">
                                             {faq.question}
-                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">▼</span>
+                                            <span className="text-blue-500 transform group-open:rotate-180 transition-transform">v</span>
                                         </summary>
                                         <p className="mt-6 text-gray-600 leading-relaxed font-light italic text-lg">{faq.answer}</p>
                                     </details>
@@ -434,7 +434,7 @@ const SmallDebtsClient = () => {
 
                             <h2 className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4 uppercase">Conclusion: Choosing the Right Path</h2>
                             <p className="text-gray-700 leading-relaxed mb-10 font-light text-2xl italic leading-relaxed">
-                                Don't let a small debt cast a long shadow.
+                                Don’t let a small debt cast a long shadow.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10 leading-[1.8]">
                                 The 5000+ words above prove one thing: Settlement is not your only choice. For debts under ₹2 Lakhs, the world of DMPs, Avalanches, and Restructuring offers a way out that keeps your financial integrity intact. At CredSettle, we advocate for the most sustainable path for our clients. Sometimes that means settlement, but often for small debts, it means smarter management. Analyze your cash flow, pick a method, and start today.
@@ -446,7 +446,7 @@ const SmallDebtsClient = () => {
                                     { name: 'Preethi Srinivas', location: 'Coimbatore', stars: 5, comment: 'I had four small credit card debts under ₹50,000 each. Instead of settlement, CredSettle advised a consolidation. My EMI dropped by 40% and my CIBIL score is already recovering. Best advice I ever got.' },
                                     { name: 'Nitin Kulkarni', location: 'Nagpur', stars: 5, comment: 'This guide helped me realise that for my ₹30,000 debt, a DRA intervention was the right choice, not settlement. Saved my credit score and closed the debt in 6 months with a minor restructuring.' },
                                     { name: 'Geeta Iyer', location: 'Mysore', stars: 5, comment: 'I was about to default on a small debt and panic-settle. CredSettle showed me that my bank offered a hardship moratorium. I took it, stabilised my income, and repaid fully. No CIBIL damage at all.' },
-                                    { name: 'Sanjay Desai', location: 'Surat', stars: 5, comment: 'For small debts, knowing the alternatives is everything. This guide is a comprehensive map of all options. With CredSettle\'s help, I chose the right path and cleared three debts without a single settlement mark.' }
+                                    { name: 'Sanjay Desai', location: 'Surat', stars: 5, comment: 'For small debts, knowing the alternatives is everything. This guide is a comprehensive map of all options. With CredSettle’s help, I chose the right path and cleared three debts without a single settlement mark.' }
                                 ].map((review, index) => (
                                     <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
                                         <div className="flex items-center mb-3">
@@ -506,7 +506,7 @@ const SmallDebtsClient = () => {
                                         { href: "/what-is-the-success-rate-of-debt-settlement-programs", text: "Success Analysis" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
-                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">→</span>
+                                            <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>
                                             <span className="text-[13px] text-gray-600 font-medium group-hover:text-blue-600 transition-colors leading-tight">{link.text}</span>
                                         </Link>
                                     ))}

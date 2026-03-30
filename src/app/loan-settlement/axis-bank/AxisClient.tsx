@@ -108,7 +108,7 @@ export default function AxisBankLoanSettlementClient() {
     },
     {
       question: "What is the difference between writing off a loan and settling it?",
-      answer: "'Write-off' is an accounting term used by the bank when they remove the loan from their assets because they don't expect to recover it. 'Settlement' is the legal agreement between you and the bank to pay a reduced amount. A loan is usually written off technically before or during the settlement process."
+      answer: "'Write-off' is an accounting term used by the bank when they remove the loan from their assets because they don’t expect to recover it. 'Settlement' is the legal agreement between you and the bank to pay a reduced amount. A loan is usually written off technically before or during the settlement process."
     },
     {
       question: "Can settlement affect my employment opportunities?",
@@ -120,7 +120,7 @@ export default function AxisBankLoanSettlementClient() {
     },
     {
       question: "Can I get a secured loan (Home/Car Loan) after settling an Axis Bank loan?",
-      answer: "Yes, but it's difficult immediately. Secured loans are easier to get than unsecured ones because there is collateral. If you have a stable income and a large down payment (margin money), some NBFCs or Housing Finance Companies (HFCs) may fund you even with a settled history, usually at a higher interest rate."
+      answer: "Yes, but it’s difficult immediately. Secured loans are easier to get than unsecured ones because there is collateral. If you have a stable income and a large down payment (margin money), some NBFCs or Housing Finance Companies (HFCs) may fund you even with a settled history, usually at a higher interest rate."
     },
     {
       question: "Is it better to take a gold loan to pay off the Axis Bank debt?",
@@ -140,7 +140,7 @@ export default function AxisBankLoanSettlementClient() {
     },
     {
       question: "Why should I choose CredSettle over doing it myself?",
-      answer: "Emotional detachment and legal leverage. When you negotiate, you are stressed and emotional. When we negotiate, it's strictly business based on data and consumer laws. We know the bank's bottom line (the minimum they can accept), ensuring you don't overpay."
+      answer: "Emotional detachment and legal leverage. When you negotiate, you are stressed and emotional. When we negotiate, it’s strictly business based on data and consumer laws. We know the bank’s bottom line (the minimum they can accept), ensuring you don’t overpay."
     }
   ];
 
@@ -236,7 +236,7 @@ export default function AxisBankLoanSettlementClient() {
                   Axis Bank, currently India’s third-largest private sector bank, has become a dominant player in the retail lending space. Known for its aggressive issuance of credit cards (such as the Flipkart Axis Bank Credit Card, Magnus, and Neo) and instant personal loans, the bank serves millions of customers. However, with massive lending comes the inevitable cycle of defaults. As of fiscal year 2025, the retail Non-Performing Asset (NPA) levels across the Indian banking sector have seen stress, and Axis Bank is no exception.
                 </p>
                 <p className="mb-4">
-                  For a borrower, falling into the "default trap" with a large institution like Axis Bank can be intimidating. The automated collection ecosystem—comprising SMS alerts, AI-driven calls, and third-party recovery agencies—is designed to apply maximum psychological pressure.
+                  For a borrower, falling into the "default trap" with a large institution like Axis Bank can be intimidating. The automated collection ecosystem-comprising SMS alerts, AI-driven calls, and third-party recovery agencies-is designed to apply maximum psychological pressure.
                 </p>
                 <p className="mb-4">
                   However, what most borrowers do not realize is that <strong>loan settlement is a standard, codified procedure within the banking system</strong>. Axis Bank, like all major lenders, adheres to specific policies for "One Time Settlement" (OTS) to clean up its balance sheet. This guide delves deep into the mechanisms of settling your dues with Axis Bank, backed by legal insights, policy realities, and strategic advice for 2026.
@@ -251,7 +251,7 @@ export default function AxisBankLoanSettlementClient() {
               <h2 id="default-timeline" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding the Default Timeline (SMA Classification)</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  To negotiate effectively, you must know where your account stands in the bank's books. Axis Bank follows the RBI's "Prudential Norms on Income Recognition, Asset Classification and Provisioning."
+                  To negotiate effectively, you must know where your account stands in the bank’s books. Axis Bank follows the RBI’s "Prudential Norms on Income Recognition, Asset Classification and Provisioning."
                 </p>
                 <div className="overflow-x-auto">
                   <table className="min-w-full text-sm text-left text-gray-500 mb-6">
@@ -259,7 +259,7 @@ export default function AxisBankLoanSettlementClient() {
                       <tr>
                         <th className="px-6 py-3">Category</th>
                         <th className="px-6 py-3">Days Past Due (DPD)</th>
-                        <th className="px-6 py-3">Bank's Action</th>
+                        <th className="px-6 py-3">Bank’s Action</th>
                         <th className="px-6 py-3">Settlement Probability</th>
                       </tr>
                     </thead>
@@ -305,7 +305,7 @@ export default function AxisBankLoanSettlementClient() {
               <h2 id="ots-policy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Axis Bank OTS Policy Guidelines (2025)</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  The One Time Settlement (OTS) scheme is not a right; it is a negotiated agreement. For 2025, Axis Bank's approach generally aligns with the following parameters:
+                  The One Time Settlement (OTS) scheme is not a right; it is a negotiated agreement. For 2025, Axis Bank’s approach generally aligns with the following parameters:
                 </p>
                 <ul className="list-disc pl-6 space-y-4 mb-6">
                   <li>
@@ -377,11 +377,11 @@ export default function AxisBankLoanSettlementClient() {
                 <div className="space-y-4">
                   <div className="border border-blue-100 rounded-lg p-4 hover:shadow-md transition-shadow">
                     <h5 className="font-bold text-blue-700">Phase 1: The "Hold" (Days 1-30 of Engagement)</h5>
-                    <p className="text-sm text-gray-600">We send a legal representation letter to the bank. We demand account statements, loan agreements, and proof of claim. This signals to the bank that this is not a naive borrower; it's a legally represented case. Harassment typically drops by 80% here.</p>
+                    <p className="text-sm text-gray-600">We send a legal representation letter to the bank. We demand account statements, loan agreements, and proof of claim. This signals to the bank that this is not a naive borrower; it’s a legally represented case. Harassment typically drops by 80% here.</p>
                   </div>
                   <div className="border border-blue-100 rounded-lg p-4 hover:shadow-md transition-shadow">
                     <h5 className="font-bold text-blue-700">Phase 2: The "Anchor" (First Offer)</h5>
-                    <p className="text-sm text-gray-600">The bank will offer a "waiver" that is still too high (e.g., 80% of total). We reject it. We present your "Hardship Dossier"—medical reports, termination letters, bank statements showing low balance—to anchor the negotiation at your affordability (e.g., 25-30% of total).</p>
+                    <p className="text-sm text-gray-600">The bank will offer a "waiver" that is still too high (e.g., 80% of total). We reject it. We present your "Hardship Dossier"-medical reports, termination letters, bank statements showing low balance-to anchor the negotiation at your affordability (e.g., 25-30% of total).</p>
                   </div>
                   <div className="border border-blue-100 rounded-lg p-4 hover:shadow-md transition-shadow">
                     <h5 className="font-bold text-blue-700">Phase 3: The "Squeeze" (Deep Negotiation)</h5>
@@ -397,7 +397,7 @@ export default function AxisBankLoanSettlementClient() {
               <h2 id="documents" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Documents Required for Settlement</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  To get the best deal, you need to prove you <em>cannot</em> pay, not just that you <em>don't want</em> to pay.
+                  To get the best deal, you need to prove you <em>cannot</em> pay, not just that you <em>don’t want</em> to pay.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
@@ -424,7 +424,7 @@ export default function AxisBankLoanSettlementClient() {
               <h2 id="cibil-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">CIBIL Score & Life After Settlement</h2>
               <div className="text-gray-700 leading-relaxed mb-6">
                 <p className="mb-4">
-                  This is the biggest worry for most clients. Let's be transparent: <strong>Settlement damages your credit score.</strong>
+                  This is the biggest worry for most clients. Let’s be transparent: <strong>Settlement damages your credit score.</strong>
                 </p>
                 <div className="bg-gray-100 p-6 rounded-xl mb-6">
                   <h4 className="font-bold text-gray-800 mb-2">The Impact Matrix</h4>
@@ -471,8 +471,8 @@ export default function AxisBankLoanSettlementClient() {
                   Consult Now
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ 100% Confidential</p>
-                  <p className="mt-1">✓ RBI Complaint</p>
+                  <p>v 100% Confidential</p>
+                  <p className="mt-1">v RBI Complaint</p>
                 </div>
               </div>
 

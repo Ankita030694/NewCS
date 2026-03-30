@@ -20,19 +20,19 @@ export default function AboutPage() {
   const faqs = [
     {
       question: "Who is CredSettle and what makes us different?",
-      answer: "CredSettle is India's leading legal loan settlement company, specializing in dignified debt resolution. We stand out through our RBI-compliant approach, expert legal team, and commitment to stopping harassment while securing structured paths to financial freedom for our clients."
+      answer: "CredSettle is India’s leading legal loan settlement company, specializing in dignified debt resolution. We stand out through our RBI-compliant approach, expert legal team, and commitment to stopping harassment while securing structured paths to financial freedom for our clients."
     },
     {
       question: "How long has CredSettle been helping people with debt settlement?",
-      answer: "CredSettle has been India's trusted partner in debt resolution for years, helping thousands of individuals and businesses achieve financial freedom. Our extensive experience and proven track record make us the go-to choice for legal loan settlements."
+      answer: "CredSettle has been India’s trusted partner in debt resolution for years, helping thousands of individuals and businesses achieve financial freedom. Our extensive experience and proven track record make us the go-to choice for legal loan settlements."
     },
     {
-      question: "What is CredSettle's approach to debt resolution?",
-      answer: "Our approach focuses on dignity and legal compliance. We don't just negotiate; we secure RBI-compliant settlements that stop harassment in its tracks and provide a fast, structured path to financial freedom, empowering clients to live secure, debt-free lives."
+      question: "What is CredSettle’s approach to debt resolution?",
+      answer: "Our approach focuses on dignity and legal compliance. We don’t just negotiate; we secure RBI-compliant settlements that stop harassment in its tracks and provide a fast, structured path to financial freedom, empowering clients to live secure, debt-free lives."
     },
     {
       question: "Why should I choose CredSettle over other debt settlement companies?",
-      answer: "CredSettle combines legal expertise with compassionate service. We're India's leader in dignified debt resolution, offering RBI-compliant settlements, immediate harassment protection, and a proven track record of helping clients achieve financial stability through ethical and legal means."
+      answer: "CredSettle combines legal expertise with compassionate service. We’re India’s leader in dignified debt resolution, offering RBI-compliant settlements, immediate harassment protection, and a proven track record of helping clients achieve financial stability through ethical and legal means."
     }
   ];
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
     "@type": "FAQPage",
     "@id": "https://www.credsettle.com/about#faq",
     "name": "CredSettle Debt Resolution FAQs",
-    "description": "Answers to common questions about CredSettle's RBI-compliant debt resolution services and legal loan settlements.",
+    "description": "Answers to common questions about CredSettle’s RBI-compliant debt resolution services and legal loan settlements.",
     "mainEntity": faqs.map((faq, index) => ({
       "@type": "Question",
       "@id": `https://www.credsettle.com/about#faq-question-${index + 1}`,
@@ -157,7 +157,7 @@ export default function AboutPage() {
                   lineHeight: 'clamp(40px, 6vw, 65px)'
                 }}
               >
-                India's Leader in Dignified Debt Resolution
+                India’s Leader in Dignified Debt Resolution
               </h1>
 
               <p
@@ -171,7 +171,7 @@ export default function AboutPage() {
                   lineHeight: '28px'
                 }}
               >
-                As India's leading legal loan settlement company, we specialize in lifting the burden of debt, empowering everyday individuals and businesses to live the secure, debt-free lives they deserve.
+                As India’s leading legal loan settlement company, we specialize in lifting the burden of debt, empowering everyday individuals and businesses to live the secure, debt-free lives they deserve.
               </p>
 
               <p
@@ -185,7 +185,7 @@ export default function AboutPage() {
                   lineHeight: '28px'
                 }}
               >
-                We don't just negotiate; we secure RBI-compliant settlements that stop harassment in its tracks and provide a fast, structured path to financial freedom.
+                We don’t just negotiate; we secure RBI-compliant settlements that stop harassment in its tracks and provide a fast, structured path to financial freedom.
               </p>
               <a href="/contact" className='cursor-pointer' style={{ textDecoration: 'none', cursor: 'pointer' }}>
               <button
@@ -901,7 +901,7 @@ export default function AboutPage() {
               {/* Left: Header Section */}
               <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
                 <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold">
-                  <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We've Got </span>
+                  <span style={{ color: '#0C2756' }}>Have Question?{'\n'}<br /> We’ve Got </span>
                   <span style={{ color: '#007AFF' }}>Answers.</span>
                 </h2>
                   <a href="/contact" className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
@@ -995,7 +995,7 @@ export default function AboutPage() {
                     className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full"
                     style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins' }}
                   >
-                    At CredSettle, we're committed to helping you achieve financial freedom through dignified, RBI-compliant debt resolution. Our proven track record and foundational values ensure you receive the best possible support. Get started today with a free consultation.
+                    At CredSettle, we’re committed to helping you achieve financial freedom through dignified, RBI-compliant debt resolution. Our proven track record and foundational values ensure you receive the best possible support. Get started today with a free consultation.
                   </p>
                 </div>
 

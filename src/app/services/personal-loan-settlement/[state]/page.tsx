@@ -97,7 +97,7 @@ export default async function StatePage({ params }: PageProps) {
     ? [
         { id: 'why-loan-settlement', text: 'Why Loan Settlement Is a Smart Financial Step', level: 2 },
         { id: 'common-loan-problems', text: `Common Loan Problems Faced in ${content.stateName}`, level: 2 },
-        { id: 'credsettle-overview', text: "CredSettle – India's Trusted Loan Settlement Company", level: 2 },
+        { id: 'credsettle-overview', text: "CredSettle - India’s Trusted Loan Settlement Company", level: 2 },
         { id: 'rbi-compliant-process', text: 'Our RBI-Compliant Loan Settlement Process', level: 3 },
         { id: 'negotiation-help', text: 'How CredSettle Helps You Negotiate with Banks & NBFCs', level: 3 },
         { id: 'legal-support', text: 'Legal Support through Our Lawyer Panel', level: 2 },
@@ -106,7 +106,7 @@ export default async function StatePage({ params }: PageProps) {
         { id: 'rbi-guidelines', text: 'RBI Guidelines & Legal Rights of Borrowers', level: 2 },
         { id: 'step-by-step-guide', text: 'Step-by-Step Guide to Start Loan Settlement with CredSettle', level: 2 },
         { id: 'case-study', text: `Real Case Study: Loan Settlement Success in ${content.stateName}`, level: 2 },
-        { id: 'final-thoughts', text: 'Final Thoughts – Take the First Step Toward a Debt-Free Life', level: 2 },
+        { id: 'final-thoughts', text: 'Final Thoughts - Take the First Step Toward a Debt-Free Life', level: 2 },
         { id: 'faqs', text: 'Frequently Asked Questions', level: 2 }
       ]
     : [

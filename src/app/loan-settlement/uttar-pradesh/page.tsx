@@ -151,7 +151,7 @@ export default function UttarPradeshLoanSettlementPage() {
         "name": "Do I need to visit the bank branch for settlement?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. We handle the entire negotiation process with the bank's regional offices. You do not need to face the branch manager personally."
+          "text": "No. We handle the entire negotiation process with the bank’s regional offices. You do not need to face the branch manager personally."
         }
       },
       {

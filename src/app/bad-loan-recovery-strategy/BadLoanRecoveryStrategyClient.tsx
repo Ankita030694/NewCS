@@ -361,7 +361,7 @@ export default function BadLoanRecoveryStrategyClient() {
                             <h3 id="sarfaesi-step-by-step" className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">The 3-Step SARFAESI Trap:</h3>
                             <ul className="list-decimal pl-6 mb-8 space-y-4 text-slate-700">
                                 <li><strong>The Section 13(2) Notice (The 60-Day Clock):</strong> Once an account is classified as an NPA, the bank issues a 60-day notice demanding full payment. You have the Right to Object within 15 days. The bank is legally obligated to respond to your objection in writing. If they ignore your objection or give a generic "vague" reply, their subsequent actions can be challenged.</li>
-                                <li><strong>The Section 13(4) Notice (Symbolic Possession):</strong> If you don't pay within 60 days, the bank can take "Symbolic Possession." They will place a notice on your property and publish it in two newspapers. This is the stage where your credit-shaming begins. This action must be appealed at the Debt Recovery Tribunal (DRT) within 45 days.</li>
+                                <li><strong>The Section 13(4) Notice (Symbolic Possession):</strong> If you don’t pay within 60 days, the bank can take "Symbolic Possession." They will place a notice on your property and publish it in two newspapers. This is the stage where your credit-shaming begins. This action must be appealed at the Debt Recovery Tribunal (DRT) within 45 days.</li>
                                 <li><strong>The Physical Possession (Section 14):</strong> The bank applies to the District Magistrate (DM) or Chief Metropolitan Magistrate (CMM) for an order to take physical possession with police help. In 2025, the DM/CMM is required to pass this order within a time-bound period (usually 30-60 days).</li>
                             </ul>
                             <p className="text-slate-700 leading-relaxed mb-6">
@@ -379,7 +379,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                 In 2025, the IBC process has become remarkably streamlined. The introduction of <strong>Pre-Packaged Insolvency Resolution Process (PPIRP)</strong> for MSMEs has been a game-changer. It allows the management of an MSME to prepare a resolution plan *before* the formal insolvency begins, ensuring that the original promoters have a "Right of First Refusal" to buy back their own company at a sustainable debt level.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6 font-semibold bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600">
-                                Strategy for Business Owners: If the bank threatens IBC, don't run. Negotiate for a Section 12A withdrawal. This allows the bankruptcy case to be withdrawn even after admission if a settlement is reached with 90% of the creditors.
+                                Strategy for Business Owners: If the bank threatens IBC, don’t run. Negotiate for a Section 12A withdrawal. This allows the bankruptcy case to be withdrawn even after admission if a settlement is reached with 90% of the creditors.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-10">
                                 The 2025 IBC landscape also focuses on <strong>Cross-Border Insolvency</strong>. If you have assets in Singapore, Dubai, or the UK, the Indian resolution professional now has the legal authority to coordinate with foreign courts to recover dues. This "Global Reach" of the IBC makes it a powerful stick for banks dealing with large promoters who have moved wealth overseas.
@@ -449,7 +449,7 @@ export default function BadLoanRecoveryStrategyClient() {
                             <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">The CredSettle OTS Blueprint:</h3>
                             <ul className="list-disc pl-6 mb-8 space-y-4 text-slate-700">
                                 <li><strong>The March-End Strategy:</strong> Banks are most desperate to settle in the last two weeks of March (end of the financial year). This is when the highest haircuts are approved.</li>
-                                <li><strong>The "Source of Funds" Proof:</strong> Show the bank that the settlement money is coming from a relative or a property sale, not from your own "hidden wealth." If the bank thinks you have the money, they won't settle. If they see you are borrowing from family to pay them, they will take what they can get.</li>
+                                <li><strong>The "Source of Funds" Proof:</strong> Show the bank that the settlement money is coming from a relative or a property sale, not from your own "hidden wealth." If the bank thinks you have the money, they won’t settle. If they see you are borrowing from family to pay them, they will take what they can get.</li>
                                 <li><strong>The "Vulnerable Status" Documentation:</strong> Highlighting age (senior citizens) or medical condition (critical illness) is a powerful tool under the 2025 "Compassionate Recovery" guidelines.</li>
                             </ul>
                             <p className="text-slate-700 leading-relaxed mb-10 font-bold bg-slate-50 p-6 rounded-2xl border-l-4 border-slate-900 italic">
@@ -467,7 +467,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                 <li><strong>Right to Surplus:</strong> If the bank auctions your house for 1.2 crores to settle a 1 crore debt, they MUST pay you the remaining 20 lakhs. Many banks "eat" this profit; our audit team ensures you get every penny of your equity back.</li>
                             </ul>
                             <p className="text-slate-700 leading-relaxed mb-10">
-                                The **Right to Clear Credit History Updates** is also vital. Once you settle, the bank must update CIBIL within 30 days. If they don't, you are entitled to compensation for every day of delay under the Consumer Protection Act.
+                                The **Right to Clear Credit History Updates** is also vital. Once you settle, the bank must update CIBIL within 30 days. If they don’t, you are entitled to compensation for every day of delay under the Consumer Protection Act.
                             </p>
 
                             <h2 id="global-models" className="text-4xl font-black text-slate-900 mb-8 scroll-mt-24 tracking-tight">Section 11: Global Recovery Models: SSAF vs. US/UK Systems</h2>
@@ -475,10 +475,10 @@ export default function BadLoanRecoveryStrategyClient() {
                                 India’s 2025 SSAF is inspired by the US "Vulture Fund" model and the UK <strong>Bad Bank</strong> structure. In the US, companies like Lone Star or Blackstone buy bad debt and use high-tech asset management to recover value. India’s SSAF is more restrictive but also more borrower-friendly, as it prevents the "predatory foreclosure" common in the US.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6">
-                                By adopting these global best practices, India is ensuring that its financial system remains robust. A high "Recovery Rate" is essential for lower interest rates in the future. If banks can't recover bad loans, they will charge honest borrowers more to cover the losses. Thus, an efficient Bad Loan Recovery Strategy is essential for the health of the entire nation.
+                                By adopting these global best practices, India is ensuring that its financial system remains robust. A high "Recovery Rate" is essential for lower interest rates in the future. If banks can’t recover bad loans, they will charge honest borrowers more to cover the losses. Thus, an efficient Bad Loan Recovery Strategy is essential for the health of the entire nation.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-10 font-light">
-                                CredSettle’s analysts monitor these global trends to predict how international creditors (who are now entering India via SSAF) will behave. We stay ahead of the curve so you don't get caught off guard by a Wall Street-style recovery tactic.
+                                CredSettle’s analysts monitor these global trends to predict how international creditors (who are now entering India via SSAF) will behave. We stay ahead of the curve so you don’t get caught off guard by a Wall Street-style recovery tactic.
                             </p>
 
                             <h2 id="case-studies" className="text-4xl font-black text-slate-900 mb-8 scroll-mt-24 tracking-tight">Section 12: Case Studies: Triumphs in Debt Resolution</h2>
@@ -489,7 +489,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                         A Punjab-based businessman built a warehouse on land that was still marked as "Agricultural" in village records. The bank issued a SARFAESI notice to auction the warehouse.
                                     </p>
                                     <p className="text-slate-700 font-bold">
-                                        Solution: We challenged the action in the Chandigarh DRT, proving that despite the warehouse, the "legal character" of the land remained agricultural under Section 31(i) of the SARFAESI Act. The notice was quashed, and the bank was forced to negotiate a civil settlement on the businessman's terms.
+                                        Solution: We challenged the action in the Chandigarh DRT, proving that despite the warehouse, the "legal character" of the land remained agricultural under Section 31(i) of the SARFAESI Act. The notice was quashed, and the bank was forced to negotiate a civil settlement on the businessman’s terms.
                                     </p>
                                 </div>
                                 <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200">
@@ -508,7 +508,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                 A bad loan is a chapter in your life, not the entire book. In the high-stakes world of 2025 Indian finance, waiting is failing. A proactive Bad Loan Recovery Strategy is the only way to protect your legacy and your sanity. Whether it involves invoking the RBI 2025 SSAF framework, challenging a procedural flaw in SARFAESI, or navigating the corridors of the NCLT under IBC, knowledge is your only defense.
                             </p>
                             <p className="text-slate-700 leading-relaxed mb-6 font-extrabold text-blue-900">
-                                Don't let a default define your future. Reclaim your assets. Rebuild your credit. Reset your life.
+                                Don’t let a default define your future. Reclaim your assets. Rebuild your credit. Reset your life.
                             </p>
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Client Success and Feedback</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -550,7 +550,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/20 blur-3xl rounded-full translate-x-10 -translate-y-10"></div>
                                 <h3 className="text-3xl font-black text-white mb-6 relative z-10">Stop the Recovery Stress Today</h3>
                                 <p className="text-slate-400 mb-8 text-lg font-light relative z-10">
-                                    Our legal experts specialize in 2025-compliant recovery defense and settlement negotiations. If you're facing SARFAESI, IBC, or DRT actions, every hour counts.
+                                    Our legal experts specialize in 2025-compliant recovery defense and settlement negotiations. If you’re facing SARFAESI, IBC, or DRT actions, every hour counts.
                                 </p>
                                 <Link
                                     href="/contact"

@@ -207,7 +207,7 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Karnataka, led by Bangalore's massive tech sector, has become India's startup capital and IT employment hub. Millions borrow personal loans for flat down payments, education abroad, weddings, medical needs and business ventures. But tech layoffs, startup shutdowns and living cost explosions leave many unable to pay EMIs.
+                    Karnataka, led by Bangalore’s massive tech sector, has become India’s startup capital and IT employment hub. Millions borrow personal loans for flat down payments, education abroad, weddings, medical needs and business ventures. But tech layoffs, startup shutdowns and living cost explosions leave many unable to pay EMIs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay a reduced amount instead of full balance. RBI recognizes this as legal debt resolution. When you genuinely cannot repay loans, settlement offers an exit without years of recovery harassment or legal fights.
@@ -240,7 +240,7 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Bangalore's tech boom created an EMI culture. People borrow big during high-salary years at product companies, funded startups or IT services firms. Then mass layoffs hit (Meta 2022, Google 2023, Amazon 2023, hundreds of startups). Income drops 50-100% overnight. All those EMIs become impossible.
+                    Bangalore’s tech boom created an EMI culture. People borrow big during high-salary years at product companies, funded startups or IT services firms. Then mass layoffs hit (Meta 2022, Google 2023, Amazon 2023, hundreds of startups). Income drops 50-100% overnight. All those EMIs become impossible.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>The Bangalore borrowing pattern:</strong> Tech professionals take multiple loans thinking their ₹15-40 lakh annual packages are stable. Flat loans of ₹30-80 lakhs (down payment from personal loans), car loans, education loans for MBA/MS abroad, personal loans for weddings, credit cards for lifestyle. Total debt often hits ₹50 lakhs to ₹1 crore. When layoff notice comes, panic starts.
@@ -255,7 +255,7 @@ export default function KarnatakaPageClient() {
                     Settlement stops everything. Lenders know recovering 40-70% now beats spending lakhs on legal fees with no guarantee. You get immediate relief: massive debt cut (save 30-70%), all harassment ends, proper legal closure, clean restart opportunity.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We specialize in Bangalore's tech sector. We know how to explain layoffs, startup failures and notice period disputes to lenders. We know which banks in Bangalore settle tech sector loans easily, which NBFCs need strong hardship proof. This knowledge gets you better settlements.
+                    We specialize in Bangalore’s tech sector. We know how to explain layoffs, startup failures and notice period disputes to lenders. We know which banks in Bangalore settle tech sector loans easily, which NBFCs need strong hardship proof. This knowledge gets you better settlements.
                   </p>
                 </div>
               </section>
@@ -282,13 +282,13 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Tech Layoff Income Shock:</strong> Your package was ₹25 lakhs. You borrowed based on that. Company lays you off with 2-3 months notice period (sometimes no pay). New job takes 3-6 months to find, pays ₹15 lakhs. Your EMIs were calculated on old salary. Math doesn't work anymore. We've settled hundreds of these cases. Strategy: Document layoff, show income gap, push lenders hard because they know tech layoffs are real and widespread.
+                    <strong>1. Tech Layoff Income Shock:</strong> Your package was ₹25 lakhs. You borrowed based on that. Company lays you off with 2-3 months notice period (sometimes no pay). New job takes 3-6 months to find, pays ₹15 lakhs. Your EMIs were calculated on old salary. Math doesn’t work anymore. We’ve settled hundreds of these cases. Strategy: Document layoff, show income gap, push lenders hard because they know tech layoffs are real and widespread.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. Startup Equity Trap:</strong> You joined early-stage startup taking lower salary for equity. Borrowed to cover living costs in expensive Bangalore (₹30,000+ rent in Koramangala, HSR, Indiranagar). Startup failed, equity worthless, salary stopped. Left with ₹10-20 lakhs debt and no income. Our startup-specialized team negotiates using business closure proof, showing lenders the equity compensation model and why recovery is unlikely without settlement.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Multiple Credit Card Spiral:</strong> Bangalore professionals often have 3-4 premium credit cards. Using them for rent (landlords take cards now), groceries, dining, weekend trips. Outstanding grows to ₹8-15 lakhs at 38-42% yearly interest. Revolving interest means paying minimums doesn't reduce principal. We settle by stopping interest and negotiating 30-45% lump sum with card issuers.
+                    <strong>3. Multiple Credit Card Spiral:</strong> Bangalore professionals often have 3-4 premium credit cards. Using them for rent (landlords take cards now), groceries, dining, weekend trips. Outstanding grows to ₹8-15 lakhs at 38-42% yearly interest. Revolving interest means paying minimums doesn’t reduce principal. We settle by stopping interest and negotiating 30-45% lump sum with card issuers.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>4. Real Estate + Education Combo Loans:</strong> Common pattern: Personal loan for flat down payment (₹10-20 lakhs) plus education loan for child studying abroad (₹15-30 lakhs) plus car loan (₹8-12 lakhs). Total EMI: ₹80,000-₹1,50,000 monthly. When income disrupts, entire structure collapses. We handle these complex multi-loan cases by negotiating all loans together, not separately.
@@ -321,10 +321,10 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled 10,000+ loan settlements across Karnataka in the last four years. Our Karnataka clients save an average of 62% on their debt (highest in South India). We work with every major bank and NBFC lending in Bangalore, Mysore, Mangalore and Hubli.
+                    We’ve handled 10,000+ loan settlements across Karnataka in the last four years. Our Karnataka clients save an average of 62% on their debt (highest in South India). We work with every major bank and NBFC lending in Bangalore, Mysore, Mangalore and Hubli.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our edge:</strong> We're not collection agents or shady operators. CredSettle is a registered legal services company following every RBI rule. Every settlement gets proper documentation, legal standing and permanent closure. We have tech sector specialists in Bangalore who understand startup culture, equity compensation, notice periods and tech industry cycles.
+                    <strong>Our edge:</strong> We’re not collection agents or shady operators. CredSettle is a registered legal services company following every RBI rule. Every settlement gets proper documentation, legal standing and permanent closure. We have tech sector specialists in Bangalore who understand startup culture, equity compensation, notice periods and tech industry cycles.
                   </p>
 
                   <div id="bangalore-strategy" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -387,13 +387,13 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Karnataka runs one of India's most efficient Lok Adalat systems. In August 2021, Karnataka Lok Adalat settled 388,981 cases in a single mega event. This court-backed mediation system operates under Legal Services Authorities Act and gives legally binding orders like regular court judgments.
+                    Karnataka runs one of India’s most efficient Lok Adalat systems. In August 2021, Karnataka Lok Adalat settled 388,981 cases in a single mega event. This court-backed mediation system operates under Legal Services Authorities Act and gives legally binding orders like regular court judgments.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>How Lok Adalat helps Karnataka borrowers:</strong> You and your lender sit with trained mediators. They push both sides toward fair settlement. Zero court fees. Usually resolved in one session (2-4 hours). Decision is final and legally enforceable. Banks and NBFCs participate actively in Karnataka Lok Adalats because it's fast and saves them legal costs.
+                    <strong>How Lok Adalat helps Karnataka borrowers:</strong> You and your lender sit with trained mediators. They push both sides toward fair settlement. Zero court fees. Usually resolved in one session (2-4 hours). Decision is final and legally enforceable. Banks and NBFCs participate actively in Karnataka Lok Adalats because it’s fast and saves them legal costs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Karnataka Lok Adalat record:</strong> We've represented hundreds of borrowers in Lok Adalats across Bangalore districts (Bangalore Urban, Bangalore Rural), Mysore, Mangalore, Hubli, Belgaum. We prepare complete hardship files, write settlement proposals and argue aggressively. Lok Adalat settlements typically land at 40-65% of outstanding. Everything documented with legally binding orders.
+                    <strong>Our Karnataka Lok Adalat record:</strong> We’ve represented hundreds of borrowers in Lok Adalats across Bangalore districts (Bangalore Urban, Bangalore Rural), Mysore, Mangalore, Hubli, Belgaum. We prepare complete hardship files, write settlement proposals and argue aggressively. Lok Adalat settlements typically land at 40-65% of outstanding. Everything documented with legally binding orders.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>When Lok Adalat makes sense:</strong> If your lender filed court case already, Lok Adalat becomes fastest resolution path. If your loan is under ₹10 lakhs and lender is stubborn in direct negotiation, we can initiate Lok Adalat proceedings. Karnataka Legal Services Authority conducts regular Lok Adalats specifically for banking cases. We track these schedules and prepare your case for maximum advantage.
@@ -426,13 +426,13 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>East Bangalore (Tech Hub):</strong> Whitefield, Marathahalli, Bellandur, HSR Layout, Koramangala. Where most IT professionals and startup folks live. Highest concentration of loan settlements we handle. Rent is ₹25,000-₹60,000, EMIs pile up fast. We've settled 4,000+ loans from East Bangalore residents. We know the tech company layoff patterns and use that data in negotiations.
+                    <strong>East Bangalore (Tech Hub):</strong> Whitefield, Marathahalli, Bellandur, HSR Layout, Koramangala. Where most IT professionals and startup folks live. Highest concentration of loan settlements we handle. Rent is ₹25,000-₹60,000, EMIs pile up fast. We’ve settled 4,000+ loans from East Bangalore residents. We know the tech company layoff patterns and use that data in negotiations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>North Bangalore (Emerging Areas):</strong> Yelahanka, Hebbal, Manyata Tech Park area. Mix of IT professionals and traditional business families. We handle both tech sector cases and family business loans. Different negotiation approaches for different borrower types.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>South Bangalore (Premium Areas):</strong> Jayanagar, JP Nagar, BTM Layout, Bannerghatta Road. Mix of old Bangalore families and new tech money. Higher loan amounts typically (₹20 lakhs+ personal loans common). We've settled loans for hundreds of South Bangalore residents, often dealing with multiple banks and premium credit cards.
+                    <strong>South Bangalore (Premium Areas):</strong> Jayanagar, JP Nagar, BTM Layout, Bannerghatta Road. Mix of old Bangalore families and new tech money. Higher loan amounts typically (₹20 lakhs+ personal loans common). We’ve settled loans for hundreds of South Bangalore residents, often dealing with multiple banks and premium credit cards.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Central Bangalore:</strong> MG Road, Indiranagar, Shivajinagar areas. Small business owners, traders, professionals. Different loan patterns than tech employees. We understand these traditional business cycles and negotiate accordingly.
@@ -465,13 +465,13 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Mysore:</strong> Cultural capital, education hub, tourism industry. Many loans for education, real estate, business. Different economy than Bangalore but same settlement success. We've handled 800+ Mysore cases with 60% average savings. We understand Mysore's tourism sector cycles and family business patterns.
+                    <strong>Mysore:</strong> Cultural capital, education hub, tourism industry. Many loans for education, real estate, business. Different economy than Bangalore but same settlement success. We’ve handled 800+ Mysore cases with 60% average savings. We understand Mysore’s tourism sector cycles and family business patterns.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Mangalore:</strong> Coastal Karnataka's commercial center. Port-related businesses, traders, fishing industry, education sector. Unique loan patterns here. We work with Mangalore borrowers on business loans, personal loans and NBFC financing. Strong relationships with Mangalore-based banks and cooperatives.
+                    <strong>Mangalore:</strong> Coastal Karnataka’s commercial center. Port-related businesses, traders, fishing industry, education sector. Unique loan patterns here. We work with Mangalore borrowers on business loans, personal loans and NBFC financing. Strong relationships with Mangalore-based banks and cooperatives.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Hubli-Dharwad:</strong> North Karnataka's twin cities. Manufacturing, agriculture trade, small industries. Many MSME loans and personal loans for business expansion. We've settled hundreds of cases here, understanding regional banking practices and local economic factors.
+                    <strong>Hubli-Dharwad:</strong> North Karnataka’s twin cities. Manufacturing, agriculture trade, small industries. Many MSME loans and personal loans for business expansion. We’ve settled hundreds of cases here, understanding regional banking practices and local economic factors.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Belgaum, Gulbarga, Davangere:</strong> Other major Karnataka cities. Full settlement coverage. We coordinate through local legal partners and handle cases remotely when needed. Same quality as Bangalore.
@@ -501,13 +501,13 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Tech Sector Expertise:</strong> We understand startup culture, tech layoffs, equity compensation, notice periods. Most settlement companies don't get tech industry nuances. We do. This knowledge directly translates to better negotiation outcomes for Bangalore tech borrowers.
+                    <strong>1. Tech Sector Expertise:</strong> We understand startup culture, tech layoffs, equity compensation, notice periods. Most settlement companies don’t get tech industry nuances. We do. This knowledge directly translates to better negotiation outcomes for Bangalore tech borrowers.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. Harassment Stops in 3 Days:</strong> Legal notices citing RBI rules go to all lenders. Direct recovery contact ends. Especially critical for professionals worried about workplace harassment at tech parks.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Save 30-70% (Average 62%):</strong> Karnataka clients save more than national average. That's lakhs back in your pocket. We use NPA economics, sector data and hardship proof to negotiate aggressively.
+                    <strong>3. Save 30-70% (Average 62%):</strong> Karnataka clients save more than national average. That’s lakhs back in your pocket. We use NPA economics, sector data and hardship proof to negotiate aggressively.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>4. Karnataka Lok Adalat Mastery:</strong> Hundreds of successful Lok Adalat representations across Karnataka. 90%+ success rate. We know all district Lok Adalat schedules and judges.
@@ -603,7 +603,7 @@ export default function KarnatakaPageClient() {
                     <strong>Days 10-14: Block Harassment</strong> - Legal notices to all lenders citing RBI Fair Practices Code. All recovery contact redirected to us. Harassment typically stops within a week.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 3-8: Negotiate Hard</strong> - Our Karnataka team contacts each lender's NPA division. We push for 35-70% reduction using your hardship data, sector information (tech layoffs, startup failures) and NPA provisioning costs. May take multiple rounds.
+                    <strong>Weeks 3-8: Negotiate Hard</strong> - Our Karnataka team contacts each lender’s NPA division. We push for 35-70% reduction using your hardship data, sector information (tech layoffs, startup failures) and NPA provisioning costs. May take multiple rounds.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Weeks 8-10: Get Agreement</strong> - Lender accepts settlement. We get formal OTS letter with all terms: amount, deadline, closure confirmation. Legal team verifies everything before you pay.
@@ -648,7 +648,7 @@ export default function KarnatakaPageClient() {
                     <strong>The Borrower:</strong> Priya S., age 29, tech lead at Whitefield product company. Package ₹32 lakhs (₹22 lakhs base + ₹10 lakhs ESOPs). Had borrowed ₹24 lakhs total (2 personal loans for flat down payment, 2 credit cards, 1 car loan).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Collapsed:</strong> Company shut down Series B funding in April 2023. Entire tech team laid off. Priya's ESOPs became worthless overnight. Took 5 months to find new job at ₹18 lakhs (no ESOPs). Couldn't pay EMIs on ₹14 lakhs personal loans, ₹6 lakhs credit cards and ₹4 lakhs car loan. All accounts went NPA. Recovery calls hit 30+ daily. Agents visited her Whitefield apartment twice. CIBIL dropped from 790 to 510. New employer's background check flagged debt issues.
+                    <strong>What Collapsed:</strong> Company shut down Series B funding in April 2023. Entire tech team laid off. Priya’s ESOPs became worthless overnight. Took 5 months to find new job at ₹18 lakhs (no ESOPs). Couldn’t pay EMIs on ₹14 lakhs personal loans, ₹6 lakhs credit cards and ₹4 lakhs car loan. All accounts went NPA. Recovery calls hit 30+ daily. Agents visited her Whitefield apartment twice. CIBIL dropped from 790 to 510. New employer’s background check flagged debt issues.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Our Intervention:</strong> Priya called us July 2023. We sent immediate legal notices to all 5 lenders. Harassment stopped in 3 days. Our assessment showed clear hardship - company shutdown proof, ESOP worthlessness, 44% effective income drop. Documented everything properly.
@@ -660,7 +660,7 @@ export default function KarnatakaPageClient() {
                     <strong>Final Numbers:</strong> ₹24 lakhs outstanding became ₹10.8 lakhs settlement. Saved ₹13.2 lakhs (55% reduction). Priya arranged money through severance pay, family support and selling some jewelry. All 5 accounts closed legally with proper NOCs. Recovery stopped completely.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Where She Is Now:</strong> Priya is debt-free. Working at stable Bangalore company without constant stress. CIBIL improved to 680 after 16 months (shows "settled" not "default"). We guided her on credit rebuilding. Her feedback: "CredSettle understood my tech job situation. Banks didn't get startup equity or funding rounds, but CredSettle explained it properly. Saved my sanity and career."
+                    <strong>Where She Is Now:</strong> Priya is debt-free. Working at stable Bangalore company without constant stress. CIBIL improved to 680 after 16 months (shows "settled" not "default"). We guided her on credit rebuilding. Her feedback: "CredSettle understood my tech job situation. Banks didn’t get startup equity or funding rounds, but CredSettle explained it properly. Saved my sanity and career."
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>How long:</strong> July 2023 first call, August-September negotiation, October 2023 payment, November 2023 closure. Total: 4.5 months.
@@ -690,7 +690,7 @@ export default function KarnatakaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Carrying loan debt in Bangalore, Mysore, Mangalore or anywhere in Karnataka? You don't need to fight this alone. Settlement is legal. RBI backs it. It exists for people with real financial problems who need an exit.
+                    Carrying loan debt in Bangalore, Mysore, Mangalore or anywhere in Karnataka? You don’t need to fight this alone. Settlement is legal. RBI backs it. It exists for people with real financial problems who need an exit.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Debt ruins everything. Your health crashes, family fights daily, work focus disappears, mental peace gone. Each day you delay, penalties grow, interest compounds, CIBIL drops more, stress multiplies. But escape exists. Over 10,000 Karnataka families already broke free through our settlement services.
@@ -699,10 +699,10 @@ export default function KarnatakaPageClient() {
                     <strong>Start today:</strong> Free confidential consultation. No obligations, no pressure. Just honest assessment and clear options. Our Karnataka experts will show exactly how to stop harassment, cut debt 30-70% and close everything legally. We get tech sector problems. We get startup failures. We get whatever caused your debt crisis.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Financial problems are temporary. Unresolved debt drags for years. With our legal team, Karnataka knowledge and proven results, you can end the loan crisis and rebuild properly. Don't let debt control your life. Act now.
+                    Financial problems are temporary. Unresolved debt drags for years. With our legal team, Karnataka knowledge and proven results, you can end the loan crisis and rebuild properly. Don’t let debt control your life. Act now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Whitefield tech parks, Koramangala cafes, Jayanagar homes or Mysore streets. Wherever you are in Karnataka, debt-free life is reachable. We'll get you there.
+                    <strong>Call CredSettle for free consultation.</strong> Whitefield tech parks, Koramangala cafes, Jayanagar homes or Mysore streets. Wherever you are in Karnataka, debt-free life is reachable. We’ll get you there.
                   </p>
                 </div>
               </section>

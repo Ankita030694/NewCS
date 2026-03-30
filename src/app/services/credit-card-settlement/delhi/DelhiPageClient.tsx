@@ -207,7 +207,7 @@ export default function DelhiPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Delhi NCR stands as India's corporate hub with massive credit card usage across Delhi, Gurgaon, Noida, Faridabad and Ghaziabad. As of 2024, NCR accounts for second highest credit card debt concentration in India. Corporate professionals earning 8-30 lakhs annually carry 4-6 credit cards on average (HDFC, ICICI, SBI, Axis, Citi, Standard Chartered). Easy approvals, lifestyle demands, EMI culture and high interest rates (36-42% annually) have created a debt crisis affecting thousands of families.
+                    Delhi NCR stands as India’s corporate hub with massive credit card usage across Delhi, Gurgaon, Noida, Faridabad and Ghaziabad. As of 2024, NCR accounts for second highest credit card debt concentration in India. Corporate professionals earning 8-30 lakhs annually carry 4-6 credit cards on average (HDFC, ICICI, SBI, Axis, Citi, Standard Chartered). Easy approvals, lifestyle demands, EMI culture and high interest rates (36-42% annually) have created a debt crisis affecting thousands of families.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Credit card settlement</strong> means negotiating with banks to pay a reduced lump sum amount instead of full outstanding balance. RBI recognizes this as a legal way to resolve debt. Banks have dedicated credit card recovery divisions that handle settlement cases every day. This is not a loan waiver or bankruptcy. You pay what you can afford, bank accepts it as full and final, all done legally.

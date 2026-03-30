@@ -48,7 +48,7 @@ export default function HaryanaPageClient() {
     },
     {
       question: 'Will settlement affect my job in Gurgaon corporates?',
-      answer: "Settlement itself doesn't affect employment. But we stop recovery harassment at workplace immediately (within 3 days). Critical for corporate professionals worried about HR or manager finding out about debt issues."
+      answer: "Settlement itself doesn’t affect employment. But we stop recovery harassment at workplace immediately (within 3 days). Critical for corporate professionals worried about HR or manager finding out about debt issues."
     },
     {
       question: 'What is Haryana Debt Conciliation Board?',
@@ -240,10 +240,10 @@ export default function HaryanaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Haryana's economy splits into two worlds. Gurgaon and Faridabad form NCR's corporate belt with high salaries and expensive lifestyles. Rest of Haryana has industrial towns (Panipat textiles, Ambala manufacturing) and agricultural economy. Both create different debt patterns.
+                    Haryana’s economy splits into two worlds. Gurgaon and Faridabad form NCR’s corporate belt with high salaries and expensive lifestyles. Rest of Haryana has industrial towns (Panipat textiles, Ambala manufacturing) and agricultural economy. Both create different debt patterns.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Gurgaon corporate borrowing:</strong> MNC employees earning ₹12-40 lakhs yearly borrow big. Personal loans for flat down payments in DLF, Golf Course Road areas (₹20-50 lakhs). Car loans for premium vehicles (₹10-25 lakhs). Credit cards for lifestyle (₹5-12 lakhs outstanding common). When layoff notice comes or company shuts India operations, all EMIs become impossible. We've seen this repeatedly with corporate professionals in Cyber City, Udyog Vihar, Sohna Road areas.
+                    <strong>Gurgaon corporate borrowing:</strong> MNC employees earning ₹12-40 lakhs yearly borrow big. Personal loans for flat down payments in DLF, Golf Course Road areas (₹20-50 lakhs). Car loans for premium vehicles (₹10-25 lakhs). Credit cards for lifestyle (₹5-12 lakhs outstanding common). When layoff notice comes or company shuts India operations, all EMIs become impossible. We’ve seen this repeatedly with corporate professionals in Cyber City, Udyog Vihar, Sohna Road areas.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Industrial Haryana debt patterns:</strong> Factory workers in Faridabad, textile workers in Panipat, manufacturing employees in Ambala borrow for homes, children education, medical needs. Loans are smaller (₹3-12 lakhs) but same burden when factory closes, wages get delayed or production drops. Different challenges than corporate employees but equally stressful.
@@ -255,7 +255,7 @@ export default function HaryanaPageClient() {
                     Settlement provides clean exit. Lenders prefer getting 40-70% now versus court battles in Haryana. You get key wins: major debt reduction (save 30-70%), harassment stops protecting workplace reputation, legal closure with documents, fresh financial start.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    We specialize in Haryana's dual economy. We know how to negotiate with banks serving Gurgaon corporate clients (different approach than industrial worker cases). We understand NCR living costs, corporate compensation structures, industrial sector cycles and agricultural income patterns. This Haryana-specific knowledge improves your settlement terms.
+                    We specialize in Haryana’s dual economy. We know how to negotiate with banks serving Gurgaon corporate clients (different approach than industrial worker cases). We understand NCR living costs, corporate compensation structures, industrial sector cycles and agricultural income patterns. This Haryana-specific knowledge improves your settlement terms.
                   </p>
                 </div>
               </section>
@@ -282,22 +282,22 @@ export default function HaryanaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Gurgaon Corporate Layoffs:</strong> MNCs in Cyber City, DLF Cyber Hub, Udyog Vihar have laid off thousands in 2022-2024 (tech downturn, global recession). People borrowed big during ₹30 lakh package days. New jobs pay ₹18-22 lakhs. EMIs don't adjust down. We've settled 2,000+ Gurgaon corporate employee loans. Strategy: Show lenders the layoff is industry-wide using LinkedIn data, news reports and HR communications.
+                    <strong>1. Gurgaon Corporate Layoffs:</strong> MNCs in Cyber City, DLF Cyber Hub, Udyog Vihar have laid off thousands in 2022-2024 (tech downturn, global recession). People borrowed big during ₹30 lakh package days. New jobs pay ₹18-22 lakhs. EMIs don’t adjust down. We’ve settled 2,000+ Gurgaon corporate employee loans. Strategy: Show lenders the layoff is industry-wide using LinkedIn data, news reports and HR communications.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. Job Change Variable Pay Loss:</strong> Many Gurgaon corporate salaries have 30-40% variable component (bonus, commissions, stock options). People borrow based on total package. When they change jobs or company cuts variable pay, take-home drops 25-35%. EMIs become burden. We negotiate using offer letters showing fixed versus variable breakup.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Faridabad Industrial Slowdown:</strong> Manufacturing units in Faridabad face order cancellations and production cuts. Workers get wages but overtime stops, bonuses disappear. Borrowed expecting stable income, now stuck. We've settled 1,200+ Faridabad worker loans using industrial production data and employment statistics.
+                    <strong>3. Faridabad Industrial Slowdown:</strong> Manufacturing units in Faridabad face order cancellations and production cuts. Workers get wages but overtime stops, bonuses disappear. Borrowed expecting stable income, now stuck. We’ve settled 1,200+ Faridabad worker loans using industrial production data and employment statistics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Panipat Textile Sector Crisis:</strong> Panipat is India's textile city. Thousands work in power loom units, dyeing factories, textile trading. Sector faces competition from cheap imports, power cost increases, GST compliance burdens. Many textile workers and small unit owners borrowed for business or personal needs. Now struggling. We negotiate using Panipat textile association data.
+                    <strong>4. Panipat Textile Sector Crisis:</strong> Panipat is India’s textile city. Thousands work in power loom units, dyeing factories, textile trading. Sector faces competition from cheap imports, power cost increases, GST compliance burdens. Many textile workers and small unit owners borrowed for business or personal needs. Now struggling. We negotiate using Panipat textile association data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Real Estate EMI Trap:</strong> Gurgaon and Faridabad saw massive real estate boom. People bought flats with big personal loans for down payments. Then property prices corrected 15-25% in many areas. Stuck with EMIs on property worth less than loan. We've settled hundreds of such cases showing lenders the property market correction data.
+                    <strong>5. Real Estate EMI Trap:</strong> Gurgaon and Faridabad saw massive real estate boom. People bought flats with big personal loans for down payments. Then property prices corrected 15-25% in many areas. Stuck with EMIs on property worth less than loan. We’ve settled hundreds of such cases showing lenders the property market correction data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Multiple Credit Card Debt:</strong> Corporate professionals in Gurgaon often carry 2-4 premium credit cards. Outstanding grows to ₹6-12 lakhs at 36-42% interest. Revolving interest means minimum payments don't reduce principal. We settle by stopping interest and negotiating 30-50% lump sum.
+                    <strong>6. Multiple Credit Card Debt:</strong> Corporate professionals in Gurgaon often carry 2-4 premium credit cards. Outstanding grows to ₹6-12 lakhs at 36-42% interest. Revolving interest means minimum payments don’t reduce principal. We settle by stopping interest and negotiating 30-50% lump sum.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>7. Medical Emergency Loans:</strong> Common across Haryana. Family medical crisis forces borrowing ₹5-15 lakhs. After treatment, debt remains. Medical loans get good settlement terms (55-70% reduction) because lenders understand these are unavoidable.
@@ -330,10 +330,10 @@ export default function HaryanaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    We've handled 9,500+ loan settlements across Haryana in last four years. Our Haryana clients save an average of 59% on their debt. We work with all major banks and NBFCs operating in Gurgaon, Faridabad, Panipat and across the state.
+                    We’ve handled 9,500+ loan settlements across Haryana in last four years. Our Haryana clients save an average of 59% on their debt. We work with all major banks and NBFCs operating in Gurgaon, Faridabad, Panipat and across the state.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Haryana strength:</strong> We're registered legal services company following every RBI rule. We have corporate employment specialists who understand MNC structures, stock options, joining bonuses and variable pay. We also have industrial sector experts who know factory economics, wage patterns and production cycles. This dual expertise helps us handle Haryana's mixed economy effectively.
+                    <strong>Our Haryana strength:</strong> We’re registered legal services company following every RBI rule. We have corporate employment specialists who understand MNC structures, stock options, joining bonuses and variable pay. We also have industrial sector experts who know factory economics, wage patterns and production cycles. This dual expertise helps us handle Haryana’s mixed economy effectively.
                   </p>
 
                   <div id="haryana-approach" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -402,10 +402,10 @@ export default function HaryanaPageClient() {
                     <strong>Haryana Lok Adalat:</strong> Court-backed mediation under Legal Services Authorities Act. Operates across all Haryana districts. You and lender sit with mediators who push fair settlement. No court fees. Quick resolution (one session usually). Decision is legally binding. Haryana conducts regular banking Lok Adalats where banks and NBFCs actively participate. Settlements typically land at 40-60% of outstanding.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Our Haryana Lok Adalat record:</strong> We've represented hundreds of borrowers in Lok Adalats across Gurgaon, Faridabad, Panipat, Rohtak and district courts. We prepare complete hardship files (corporate layoff proof, industrial closure docs, income loss records). Write strong settlement proposals. Argue cases hard. 87% success rate in Haryana Lok Adalat cases. Everything gets legally binding orders that lenders cannot appeal.
+                    <strong>Our Haryana Lok Adalat record:</strong> We’ve represented hundreds of borrowers in Lok Adalats across Gurgaon, Faridabad, Panipat, Rohtak and district courts. We prepare complete hardship files (corporate layoff proof, industrial closure docs, income loss records). Write strong settlement proposals. Argue cases hard. 87% success rate in Haryana Lok Adalat cases. Everything gets legally binding orders that lenders cannot appeal.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Haryana Debt Conciliation Board:</strong> Unique to Haryana. Established under Haryana Relief of Agricultural Indebtedness Act, 1989. Originally for farmers but board also helps other borrowers facing genuine hardship. Provides structured debt relief mechanism. If your case involves agricultural income or if you're from farming background with mixed loans, this board can help. We've used Debt Conciliation Board route for eligible Haryana borrowers with good results.
+                    <strong>Haryana Debt Conciliation Board:</strong> Unique to Haryana. Established under Haryana Relief of Agricultural Indebtedness Act, 1989. Originally for farmers but board also helps other borrowers facing genuine hardship. Provides structured debt relief mechanism. If your case involves agricultural income or if you’re from farming background with mixed loans, this board can help. We’ve used Debt Conciliation Board route for eligible Haryana borrowers with good results.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Which system to use:</strong> If lender filed court case, Lok Adalat is fastest. If you have agricultural income or farming background, Debt Conciliation Board may apply. For most corporate and industrial cases, direct negotiation with our legal backing works best. We assess your situation and recommend right legal path for Haryana.
@@ -438,13 +438,13 @@ export default function HaryanaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Gurgaon (Gurugram):</strong> Corporate capital of Haryana. DLF Cyber City, Cyber Hub, Udyog Vihar, Sohna Road house hundreds of MNCs (Google, Microsoft, American Express, Accenture, Genpact and more). We've handled 3,500+ Gurgaon cases. Mostly corporate professionals earning ₹12-45 lakhs but facing layoffs, job changes or variable pay cuts. We understand corporate employment contracts, stock vesting schedules, notice period disputes and severance packages. This knowledge helps us negotiate better with lenders who see Gurgaon corporate clients differently than other borrowers.
+                    <strong>Gurgaon (Gurugram):</strong> Corporate capital of Haryana. DLF Cyber City, Cyber Hub, Udyog Vihar, Sohna Road house hundreds of MNCs (Google, Microsoft, American Express, Accenture, Genpact and more). We’ve handled 3,500+ Gurgaon cases. Mostly corporate professionals earning ₹12-45 lakhs but facing layoffs, job changes or variable pay cuts. We understand corporate employment contracts, stock vesting schedules, notice period disputes and severance packages. This knowledge helps us negotiate better with lenders who see Gurgaon corporate clients differently than other borrowers.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Faridabad:</strong> Industrial city with manufacturing, automotive components, electronics assembly. Mix of factory owners and workers. We've settled 1,800+ Faridabad loans. Different profile than Gurgaon corporate cases. We understand industrial economics, production cycles and working class income stability. Negotiate accordingly using sector-specific data.
+                    <strong>Faridabad:</strong> Industrial city with manufacturing, automotive components, electronics assembly. Mix of factory owners and workers. We’ve settled 1,800+ Faridabad loans. Different profile than Gurgaon corporate cases. We understand industrial economics, production cycles and working class income stability. Negotiate accordingly using sector-specific data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Why we dominate Gurgaon-Faridabad:</strong> These two cities account for 60% of Haryana settlements we handle. Strong local presence through legal partners. We know local banks, district courts and recovery agent networks. When we tell a Gurgaon bank we're local experts, they take negotiations seriously.
+                    <strong>Why we dominate Gurgaon-Faridabad:</strong> These two cities account for 60% of Haryana settlements we handle. Strong local presence through legal partners. We know local banks, district courts and recovery agent networks. When we tell a Gurgaon bank we’re local experts, they take negotiations seriously.
                   </p>
                 </div>
               </section>
@@ -471,10 +471,10 @@ export default function HaryanaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Panipat:</strong> Textile capital with thousands of power loom units. Workers, traders and small unit owners borrow for business capital and personal needs. Textile sector faces ups and downs based on domestic demand and export markets. We've handled 900+ Panipat cases. We understand power loom economics, yarn price cycles and textile export patterns. Use this knowledge in settlement negotiations.
+                    <strong>Panipat:</strong> Textile capital with thousands of power loom units. Workers, traders and small unit owners borrow for business capital and personal needs. Textile sector faces ups and downs based on domestic demand and export markets. We’ve handled 900+ Panipat cases. We understand power loom economics, yarn price cycles and textile export patterns. Use this knowledge in settlement negotiations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Ambala:</strong> Manufacturing hub for defense equipment, scientific instruments, hardware. Mix of large defense units and small MSME suppliers. We've settled 600+ Ambala loans. Many involve working capital issues or order cancellation problems. We negotiate using defense sector procurement data and MSME supplier challenges.
+                    <strong>Ambala:</strong> Manufacturing hub for defense equipment, scientific instruments, hardware. Mix of large defense units and small MSME suppliers. We’ve settled 600+ Ambala loans. Many involve working capital issues or order cancellation problems. We negotiate using defense sector procurement data and MSME supplier challenges.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Rohtak, Hisar, Karnal:</strong> Mix of agricultural economy, educational institutions (universities), small industries. Different patterns than corporate Gurgaon or industrial Faridabad. Full settlement coverage with understanding of local economies.
@@ -507,7 +507,7 @@ export default function HaryanaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Corporate Employment Expertise:</strong> We understand Gurgaon MNC culture, variable pay structures, stock options, layoff patterns. Most settlement companies don't get corporate compensation nuances. We do.
+                    <strong>1. Corporate Employment Expertise:</strong> We understand Gurgaon MNC culture, variable pay structures, stock options, layoff patterns. Most settlement companies don’t get corporate compensation nuances. We do.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>2. Workplace Harassment Stops Fast:</strong> Within 3 days for corporate employees. Legal notices warn against any workplace contact. Critical for professionals worried about career impact.
@@ -519,7 +519,7 @@ export default function HaryanaPageClient() {
                     <strong>4. Industrial Sector Knowledge:</strong> We understand Faridabad manufacturing, Panipat textiles, Ambala defense sector economics. Use this data in negotiations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Debt Conciliation Board Access:</strong> We can guide you through Haryana's unique Debt Conciliation Board if applicable to your case (especially if agricultural income involved).
+                    <strong>5. Debt Conciliation Board Access:</strong> We can guide you through Haryana’s unique Debt Conciliation Board if applicable to your case (especially if agricultural income involved).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>6. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper documentation so lenders cannot return. Important for corporate professionals who need clean records.
@@ -657,7 +657,7 @@ export default function HaryanaPageClient() {
                     <strong>The Professional:</strong> Neha R., age 34, senior marketing manager at MNC in DLF Cyber City, Gurgaon. Package ₹28 lakhs (₹18 lakhs fixed + ₹10 lakhs variable). Had borrowed ₹30 lakhs total (1 personal loan for flat down payment, 1 car loan, 3 credit cards).
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>What Happened:</strong> Company underwent global restructuring in mid-2023. India marketing team downsized from 40 to 12 people. Neha got 3 months notice period. New job took 4 months to find, pays ₹20 lakhs (₹17 lakhs fixed + ₹3 lakhs variable). Lost 30% of income. Couldn't pay EMIs on ₹18 lakhs personal loan, ₹7 lakhs car loan and ₹5 lakhs credit cards. All accounts went NPA. Recovery agents called her mobile 25+ times daily, sent messages to her work email (before she left), called at new office twice. CIBIL dropped from 805 to 520. New employer's HR questioned her about debt during onboarding.
+                    <strong>What Happened:</strong> Company underwent global restructuring in mid-2023. India marketing team downsized from 40 to 12 people. Neha got 3 months notice period. New job took 4 months to find, pays ₹20 lakhs (₹17 lakhs fixed + ₹3 lakhs variable). Lost 30% of income. Couldn’t pay EMIs on ₹18 lakhs personal loan, ₹7 lakhs car loan and ₹5 lakhs credit cards. All accounts went NPA. Recovery agents called her mobile 25+ times daily, sent messages to her work email (before she left), called at new office twice. CIBIL dropped from 805 to 520. New employer’s HR questioned her about debt during onboarding.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>We Stepped In:</strong> Neha contacted us October 2023. We sent urgent legal notices to all 5 lenders with specific warnings against workplace contact. Harassment stopped in 3 days. Our assessment showed genuine hardship - layoff notice, severance pay records, new offer letter showing income drop. We documented everything including company restructuring announcement.
@@ -699,7 +699,7 @@ export default function HaryanaPageClient() {
                   }}
                 >
                   <p style={{ marginBottom: '16px' }}>
-                    Dealing with loan debt in Gurgaon, Faridabad, Panipat or anywhere in Haryana? You don't need to handle this crisis alone. Settlement is legal. RBI backs it. It exists for people with genuine financial problems who need proper exit.
+                    Dealing with loan debt in Gurgaon, Faridabad, Panipat or anywhere in Haryana? You don’t need to handle this crisis alone. Settlement is legal. RBI backs it. It exists for people with genuine financial problems who need proper exit.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Debt destroys everything. Health problems start, family stress increases, work performance drops (constant worry), mental peace disappears. Each day you wait, penalties add up, interest grows, CIBIL falls more, stress multiplies. But exit route exists. Over 9,500 Haryana families already achieved financial freedom through our settlement services.
@@ -708,10 +708,10 @@ export default function HaryanaPageClient() {
                     <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront costs. Just honest assessment and clear options. Our Haryana experts will show exactly how to stop harassment (especially workplace harassment), cut debt 30-70% and close everything legally. We understand corporate layoffs, industrial cycles, business cash flow problems - whatever your situation is.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    Financial troubles are temporary situations. But unresolved debt can drag for years ruining career and life. With our legal team, Haryana expertise and 9,500+ case experience, you can end this crisis properly and restart. Don't let debt control you. Take action now.
+                    Financial troubles are temporary situations. But unresolved debt can drag for years ruining career and life. With our legal team, Haryana expertise and 9,500+ case experience, you can end this crisis properly and restart. Don’t let debt control you. Take action now.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Gurgaon corporate offices, Faridabad factories, Panipat textile units or any Haryana district. Wherever you are, debt-free life is possible. We'll help you get there.
+                    <strong>Call CredSettle for free consultation.</strong> Gurgaon corporate offices, Faridabad factories, Panipat textile units or any Haryana district. Wherever you are, debt-free life is possible. We’ll help you get there.
                   </p>
                 </div>
               </section>

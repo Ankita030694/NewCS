@@ -74,7 +74,7 @@ export default function NegotiationLowerPrincipalClient() {
         { id: 'legal-disclosures', label: 'Legal Disclosures' },
         { id: 'post-settlement-score', label: 'Score Repair Plan' },
         { id: 'reviews', label: 'Negotiation Success' },
-        { id: 'negotiator-encyclopaedia', label: 'Tactician\'s Encyclopaedia' },
+        { id: 'negotiator-encyclopaedia', label: 'Tactician’s Encyclopaedia' },
         { id: 'faqs', label: 'Expert Answers' }
     ];
 
@@ -93,11 +93,11 @@ export default function NegotiationLowerPrincipalClient() {
         },
         {
             question: 'Can I negotiate a principal reduction on a home loan?',
-            answer: 'It is very difficult because home loans are secured by an asset. Banks prefer to auction the property. Principal reduction for home loans usually only happens in extreme cases of property value collapse or major legal flaws in the bank\'s documentation.'
+            answer: 'It is very difficult because home loans are secured by an asset. Banks prefer to auction the property. Principal reduction for home loans usually only happens in extreme cases of property value collapse or major legal flaws in the bank’s documentation.'
         },
         {
             question: 'What is the "Anchoring" technique in debt negotiation?',
-            answer: 'Anchoring is a psychological tactic where you set a very low starting offer (e.g., 20% of principal). Even if the bank rejects it, that number stays in the manager\'s mind, making your final 40% offer seem like a major "compromise" that they should accept.'
+            answer: 'Anchoring is a psychological tactic where you set a very low starting offer (e.g., 20% of principal). Even if the bank rejects it, that number stays in the manager’s mind, making your final 40% offer seem like a major "compromise" that they should accept.'
         },
         {
             question: 'Does a professional negotiator get better results than me?',
@@ -108,7 +108,7 @@ export default function NegotiationLowerPrincipalClient() {
             answer: 'Absolutely not. Never make a payment based on a phone call. Verbal settlements are not legally binding and are often used by collection agents to meet their monthly targets without actually closing your account.'
         },
         {
-            question: 'What happens if I make a settlement payment but don\'t get an NDC?',
+            question: 'What happens if I make a settlement payment but don’t get an NDC?',
             answer: 'This is a dangerous situation. Without a No Dues Certificate, the bank can technically still demand the remaining balance years later. Always make the payment conditional upon receiving the official settlement letter first.'
         },
         {
@@ -212,10 +212,10 @@ export default function NegotiationLowerPrincipalClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         How to Negotiate a Lower Principal Amount<br />
-                        <span className="text-blue-300">for Creditors — 2025 Master Class</span>
+                        <span className="text-blue-300">for Creditors - 2025 Master Class</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Don't just settle for interest waivers. Learn the exact legal frameworks and psychological anchors needed to slash your principal balance and walk away debt-free.
+                        Don’t just settle for interest waivers. Learn the exact legal frameworks and psychological anchors needed to slash your principal balance and walk away debt-free.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -326,7 +326,7 @@ export default function NegotiationLowerPrincipalClient() {
 
                             <h2 id="opening-gambit" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Opening Gambit: Why Negotiation is Your Right</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Entering a negotiation for your debt is not a plea for mercy; it is a strategic business re-evaluation. Most borrowers in India are intimidated by the sheer size of the "Total Outstanding" amount shown on their mobile apps. What they don't realize is that this number is often 60% fluff - a combination of penal interest, late fees, compounding charges, and administrative bloat. In the world of 2025 finance, the "Principal" is the only number that truly matters.
+                                Entering a negotiation for your debt is not a plea for mercy; it is a strategic business re-evaluation. Most borrowers in India are intimidated by the sheer size of the "Total Outstanding" amount shown on their mobile apps. What they don’t realize is that this number is often 60% fluff - a combination of penal interest, late fees, compounding charges, and administrative bloat. In the world of 2025 finance, the "Principal" is the only number that truly matters.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To negotiate a lower principal amount, you must first shed the guilt. Banks are for-profit institutions that build in a "Risk Buffer" into Every interest rate they charge. When a bank lends to you at 24% for a personal loan, they have already factored in a certain percentage of defaults. When you settle, you are helping the bank recover their capital so they can re-deploy it at a higher rate. You are helping them clear their Non-Performing Asset (NPA) status, which is a massive headache for their board of directors.
@@ -334,7 +334,7 @@ export default function NegotiationLowerPrincipalClient() {
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <h3 className="text-xl font-bold text-blue-900 mb-3">The Golden Rule of Negotiation</h3>
                                 <p className="text-gray-800 leading-relaxed">
-                                    A bank will never give you what you deserve; they will only give you what you negotiate. If you don't ask for a principal reduction specifically, they will keep the discussion centered around "waiving interest" - which is essentially just cutting off the surplus while keeping your core liability intact.
+                                    A bank will never give you what you deserve; they will only give you what you negotiate. If you don’t ask for a principal reduction specifically, they will keep the discussion centered around "waiving interest" - which is essentially just cutting off the surplus while keeping your core liability intact.
                                 </p>
                             </div>
 
@@ -346,7 +346,7 @@ export default function NegotiationLowerPrincipalClient() {
                                 The "Phantom Recovery" Trap
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Many banks use a psychological trick called 'Phantom Recovery'. They inflate the 'Total Dues' by adding retroactive penalties and then 'waive' them to make you feel like you won a huge discount. To counter this, you must demand a 'Principal Breakup' - a document that shows exactly how much money was disbursed to you or spent by you. Any negotiation that doesn't start with the Disbursed Principal as the base is a negotiation that is stacked against you.
+                                Many banks use a psychological trick called 'Phantom Recovery'. They inflate the 'Total Dues' by adding retroactive penalties and then 'waive' them to make you feel like you won a huge discount. To counter this, you must demand a 'Principal Breakup' - a document that shows exactly how much money was disbursed to you or spent by you. Any negotiation that doesn’t start with the Disbursed Principal as the base is a negotiation that is stacked against you.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-bold">
                                 Your Goal: Pay the principal, and only a portion of it if necessary.
@@ -357,7 +357,7 @@ export default function NegotiationLowerPrincipalClient() {
 
                             <h2 id="negotiation-blueprint" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The 10-Day Negotiation Blueprint: A Path to Zero</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Negotiation is not a single phone call; it is a sequence of interactions designed to lower the bank's expectations. Use this 10-day blueprint to manage the timeline effectively:
+                                Negotiation is not a single phone call; it is a sequence of interactions designed to lower the bank’s expectations. Use this 10-day blueprint to manage the timeline effectively:
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
                                 <ul className="space-y-6 text-gray-800">
@@ -375,7 +375,7 @@ export default function NegotiationLowerPrincipalClient() {
                                     </li>
                                     <li>
                                         <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold mr-3">DAY 8</span>
-                                        <strong>The Deadlock:</strong> Refuse the bank's first counter-offer. Explain that your family can only arrange X amount. If they don't agree, you will have to seek legal protection or insolvency advice.
+                                        <strong>The Deadlock:</strong> Refuse the bank’s first counter-offer. Explain that your family can only arrange X amount. If they don’t agree, you will have to seek legal protection or insolvency advice.
                                     </li>
                                     <li>
                                         <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold mr-3">DAY 10</span>
@@ -386,7 +386,7 @@ export default function NegotiationLowerPrincipalClient() {
 
                             <h2 id="negotiation-psychology" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Psychology of Debt: Turning the Tables on Lenders</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Recovery agents use fear because it works. They use the threat of CIBIL damage, legal notices, and "Home Visits" to keep you on the defensive. To win the negotiation, you must shift the power dynamic. You move from "I am afraid I can't pay" to "I have a limited amount of money, and multiple banks are competing for it. Whoever settles first, gets paid."
+                                Recovery agents use fear because it works. They use the threat of CIBIL damage, legal notices, and "Home Visits" to keep you on the defensive. To win the negotiation, you must shift the power dynamic. You move from "I am afraid I can’t pay" to "I have a limited amount of money, and multiple banks are competing for it. Whoever settles first, gets paid."
                             </p>
 
                             <h2 id="rbi-ots-framework" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">RBI OTS Framework 2025: Your Legal Foundation</h2>
@@ -400,7 +400,7 @@ export default function NegotiationLowerPrincipalClient() {
                                 </p>
                             </div>
 
-                            <h2 id="rbi-clause-deep-dive" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Technical RBI Clauses: The Negotiator's Arsenal</h2>
+                            <h2 id="rbi-clause-deep-dive" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Technical RBI Clauses: The Negotiator’s Arsenal</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To negotiate like a pro, you must mention specific regulatory clauses. In 2025, the most relevant ones are:
                             </p>
@@ -415,7 +415,7 @@ export default function NegotiationLowerPrincipalClient() {
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
                                     <h5 className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Fair Recovery Guidelines 2022</h5>
-                                    <p className="text-gray-600 font-light">Explicitly forbids recovery agents from using intimidation. Any use of such tactics invalidates the bank's moral standing and can be used as leverage to demand a deeper principal reduction as compensation.</p>
+                                    <p className="text-gray-600 font-light">Explicitly forbids recovery agents from using intimidation. Any use of such tactics invalidates the bank’s moral standing and can be used as leverage to demand a deeper principal reduction as compensation.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
                                     <h5 className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Asset Classification Norms</h5>
@@ -426,10 +426,10 @@ export default function NegotiationLowerPrincipalClient() {
                             <h2 id="hardship-evidence" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Winning the Hardship Case: The Proof Portfolio</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 italic">
                                 Banks settle when they believe there is a "Genuine Hardship." You cannot just say you are broke; you must prove it. A successful negotiation starts with a "Proof Portfolio" including:
-                                <br />• Salary slips showing a reduction or termination (Pink slips).
-                                <br />• Medical records or hospital bills (The most powerful proof in India).
-                                <br />• Bank statements showing a decline in UPI/Net-banking transactions.
-                                <br />• Evidence of other loans or dependencies (Supporting parents, children).
+                                <br />* Salary slips showing a reduction or termination (Pink slips).
+                                <br />* Medical records or hospital bills (The most powerful proof in India).
+                                <br />* Bank statements showing a decline in UPI/Net-banking transactions.
+                                <br />* Evidence of other loans or dependencies (Supporting parents, children).
                             </p>
 
                             <h2 id="bank-specific-strategies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Bank-Specific Tactics: Navigating Indian Lenders</h2>
@@ -463,7 +463,7 @@ export default function NegotiationLowerPrincipalClient() {
                                     </li>
                                     <li>
                                         <h6 className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "CIBIL Reporting" Protocol</h6>
-                                        <p className="text-sm text-gray-600 leading-relaxed">The bank should explicitly state that they will report the account as "Settled" with a Zero balance. If they don't mention this, they might leave the balance showing, which ruins your score indefinitely.</p>
+                                        <p className="text-sm text-gray-600 leading-relaxed">The bank should explicitly state that they will report the account as "Settled" with a Zero balance. If they don’t mention this, they might leave the balance showing, which ruins your score indefinitely.</p>
                                     </li>
                                     <li>
                                         <h6 className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "Legal Withdrawal" Mandate</h6>
@@ -529,7 +529,7 @@ export default function NegotiationLowerPrincipalClient() {
 
                             <h2 id="counter-offer-mastery" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Handling Counter Offers: The Art of the 'No'</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When the bank counters with a higher number, don't just agree or disagree. Use "Validated Empathy." Say, "I understand that as a bank, you need to recover this money. However, looking at my current bank statement, any number above X is mathematically impossible. I don't want to make a promise I can't keep." This shows you are a responsible borrower even in your distress.
+                                When the bank counters with a higher number, don’t just agree or disagree. Use "Validated Empathy." Say, "I understand that as a bank, you need to recover this money. However, looking at my current bank statement, any number above X is mathematically impossible. I don’t want to make a promise I can’t keep." This shows you are a responsible borrower even in your distress.
                             </p>
 
                             <h2 id="recovery-roadmap" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The 12-Month Post-Settlement Recovery Roadmap</h2>
@@ -580,7 +580,7 @@ export default function NegotiationLowerPrincipalClient() {
                                 ))}
                             </div>
 
-                            <h2 id="negotiator-encyclopaedia" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Negotiator's Encyclopaedia: Technical Nuances</h2>
+                            <h2 id="negotiator-encyclopaedia" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Negotiator’s Encyclopaedia: Technical Nuances</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To truly master the art of principal reduction, you must understand the subtle differences between various banking terms. Each of these represents a different negotiation lever:
                             </p>
@@ -591,11 +591,11 @@ export default function NegotiationLowerPrincipalClient() {
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
                                     <h5 className="font-bold text-gray-900 mb-2">Recall Notice</h5>
-                                    <p className="text-sm text-gray-600 leading-relaxed font-light">When a bank sends a 'Recall Notice', they are officially demanding the ENTIRE loan amount at once. This is actually the best time to start negotiating a principal reduction, as the bank has already admitted they don't expect regular EMIs anymore.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed font-light">When a bank sends a 'Recall Notice', they are officially demanding the ENTIRE loan amount at once. This is actually the best time to start negotiating a principal reduction, as the bank has already admitted they don’t expect regular EMIs anymore.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
                                     <h5 className="font-bold text-gray-900 mb-2">Doubtful Asset (D1, D2, D3)</h5>
-                                    <p className="text-sm text-gray-600 leading-relaxed font-light">Banks categorize NPAs by age. D1 (up to 1 year), D2 (1-3 years), and D3 (over 3 years). As your account moves from D1 to D3, the bank's 'Provisioning' requirement increases from 25% to 100%. A D3 account is the easiest to negotiate for a 70%+ principal waiver.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed font-light">Banks categorize NPAs by age. D1 (up to 1 year), D2 (1-3 years), and D3 (over 3 years). As your account moves from D1 to D3, the bank’s 'Provisioning' requirement increases from 25% to 100%. A D3 account is the easiest to negotiate for a 70%+ principal waiver.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
                                     <h5 className="font-bold text-gray-900 mb-2">Account-Specific Provisioning</h5>
@@ -650,9 +650,9 @@ export default function NegotiationLowerPrincipalClient() {
                                     Test My Leverage
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Personalized Negotiation Roadmap</p>
-                                    <p>✓ Legally Compliant Approach</p>
-                                    <p>✓ Expert Guidance on Principal Reduction</p>
+                                    <p>v Personalized Negotiation Roadmap</p>
+                                    <p>v Legally Compliant Approach</p>
+                                    <p>v Expert Guidance on Principal Reduction</p>
                                 </div>
                             </div>
 

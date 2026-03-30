@@ -27,7 +27,7 @@ export const homeFaqItems: FAQItem[] = [
   {
     question: "How long does the CredSettle process usually take?",
     answer:
-      "Most clients receive their first offer within 30–45 days, depending on creditor responsiveness and how quickly we receive the required documentation."
+      "Most clients receive their first offer within 30-45 days, depending on creditor responsiveness and how quickly we receive the required documentation."
   }
 ];
 

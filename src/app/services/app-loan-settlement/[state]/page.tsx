@@ -57,7 +57,7 @@ export async function generateMetadata({
 }: { 
   params: Promise<{ state: string }> | { state: string }
 }): Promise<Metadata> {
-  // Await params if it's a Promise (Next.js 15+)
+  // Await params if it’s a Promise (Next.js 15+)
   const resolvedParams = await Promise.resolve(params);
   const stateData = getStateContentWithFallback(resolvedParams.state);
   
@@ -101,7 +101,7 @@ function generateHeadings(content: any) {
   if (content.credsettleOverview) {
     headings.push({
       id: 'credsettle-overview',
-      text: 'CredSettle - India\'s Trusted App Loan Crisis Intervention Service',
+      text: 'CredSettle - India’s Trusted App Loan Crisis Intervention Service',
       level: 2
     });
 
@@ -185,7 +185,7 @@ export default async function StatePage({
 }: { 
   params: Promise<{ state: string }> | { state: string }
 }) {
-  // Await params if it's a Promise (Next.js 15+)
+  // Await params if it’s a Promise (Next.js 15+)
   const resolvedParams = await Promise.resolve(params);
   const content = getStateContentWithFallback(resolvedParams.state);
   const headings = generateHeadings(content);

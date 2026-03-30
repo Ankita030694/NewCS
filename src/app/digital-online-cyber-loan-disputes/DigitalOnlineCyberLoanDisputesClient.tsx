@@ -311,13 +311,13 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Digital Lending Crisis: Why 2025 is a Year of Reckoning</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The convenience of a 2 minute loan on your smartphone has a dark underbelly. In the last few years, India has seen an explosion of digital lending apps—some legitimate, but many predatory or outright illegal. These platforms often trap vulnerable borrowers in a "Debt Spiral," using extortionate interest rates, hidden processing fees, and aggressive cyber-blackmail tactics. However, the tide has turned.
+                                The convenience of a 2 minute loan on your smartphone has a dark underbelly. In the last few years, India has seen an explosion of digital lending apps-some legitimate, but many predatory or outright illegal. These platforms often trap vulnerable borrowers in a "Debt Spiral," using extortionate interest rates, hidden processing fees, and aggressive cyber-blackmail tactics. However, the tide has turned.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, the legal framework surrounding digital and cyber loan disputes has been completely overhauled. The Reserve Bank of India (RBI) and the Ministry of Home Affairs have introduced strict mandates that treat "App-based Harassment" as a serious criminal offense. Whether you are dealing with a legitimate NBFC app that is violating privacy or a rogue "Chinese" loan app that is accessing your photos, you are not defenseless.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This 5000+ word technical guide is designed to empower you with the legal tools to fight back. We will detail the 2025 RBI Digital Lending Directions, provide a step by step protocol for filing cyber FIRs, and explain how to leverage Indian Penal Code (IPC) sections to stop harassment in its tracks. At CredSettle, we specialize in "Cyber Debt Resolution"—merging technical expertise with elite legal advocacy to neutralize digital threats and restore your peace of mind.
+                                This 5000+ word technical guide is designed to empower you with the legal tools to fight back. We will detail the 2025 RBI Digital Lending Directions, provide a step by step protocol for filing cyber FIRs, and explain how to leverage Indian Penal Code (IPC) sections to stop harassment in its tracks. At CredSettle, we specialize in "Cyber Debt Resolution"-merging technical expertise with elite legal advocacy to neutralize digital threats and restore your peace of mind.
                             </p>
 
                             <h2 id="rbi-guidelines-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">RBI Digital Lending Directions 2025: Your Binding Protections</h2>
@@ -351,7 +351,7 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
 
                             <h2 id="privacy-violation-defense" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Privacy Violation Defense: Call Log and Contact Access Bans</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The most common harassment tactic is accessing the borrower's phone contacts to call their family and friends. **In 2025, this is strictly forbidden.**
+                                The most common harassment tactic is accessing the borrower’s phone contacts to call their family and friends. **In 2025, this is strictly forbidden.**
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Under Section 6.2 of the RBI Digital Lending Manual: "DLAs shall not access mobile resources such as contact lists, call logs, telephony, and media files." Lenders can only request a one-time access for Camera or Microphone for KYC purposes.
@@ -365,7 +365,7 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
                                 If you are being blackmailed, speed is vital. Filing a "Selfie FIR" or a "Blackmail FIR" is your primary legal move.
                             </p>
                             <ul className="list-decimal pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>1. Preserve Evidence:</strong> Take screenshots of all threatening messages, call recordings, and the app's permissions screen.</li>
+                                <li><strong>1. Preserve Evidence:</strong> Take screenshots of all threatening messages, call recordings, and the app’s permissions screen.</li>
                                 <li><strong>2. Online Report:</strong> Visit [cybercrime.gov.in](https://cybercrime.gov.in) and file a complaint under "Report Other Cyber Crimes."</li>
                                 <li><strong>3. The Zero FIR:</strong> Visit your local police station. Even if they claim "Jurisdiction issues," demand a "Zero FIR." Mention the app name and the UPI IDs used for transactions.</li>
                                 <li><strong>4. Account for Transaction Logs:</strong> Provide the police with the specific Transaction IDs. This allows them to trace the financial trail of rogue operators.</li>
@@ -373,7 +373,7 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
 
                             <h2 id="national-cyber-helpline" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The 1930 Helpline: Immediate Financial Rescue</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The **National Cyber Fraud Reporting Helpline (1930)** is your "Panic Button." If a rogue app has stolen money from your account, calling 1930 within the "Golden Hour" can result in the money being frozen in the fraudster's account. In 2025, this system is integrated with all major Indian banks and payment gateways.
+                                The **National Cyber Fraud Reporting Helpline (1930)** is your "Panic Button." If a rogue app has stolen money from your account, calling 1930 within the "Golden Hour" can result in the money being frozen in the fraudster’s account. In 2025, this system is integrated with all major Indian banks and payment gateways.
                             </p>
 
                             <h2 id="stopping-harassment-tactics" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Stopping Harassment Tactics: IPC and IT Act Provisions</h2>
@@ -384,7 +384,7 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
                                 <li><strong>Section 503 IPC:</strong> Criminal Intimidation (Threatening to cause injury to reputation).</li>
                                 <li><strong>Section 507 IPC:</strong> Anonymous criminal intimidation (Common for untraceable VoIP calls).</li>
                                 <li><strong>Section 509 IPC:</strong> Word or gesture intended to insult the modesty of a woman.</li>
-                                <li><strong>Section 67 IT Act:</strong> Publishing obscene material—often used when apps threaten to send morphed photos.</li>
+                                <li><strong>Section 67 IT Act:</strong> Publishing obscene material-often used when apps threaten to send morphed photos.</li>
                             </ul>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Citing these specific sections in your reply to a harasser often makes them back off, as they realize they are dealing with a legally aware individual.
@@ -411,15 +411,15 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light text-gray-800">
                                 <ul className="space-y-4">
-                                    <li>✓ <strong>Revoke App Permissions:</strong> Manually go to phone settings and cut off access to Camera and Location.</li>
-                                    <li>✓ <strong>CIBIL Monitoring:</strong> Check if the rogue app has reported a default. Most illegal apps don't report to CIBIL, but legitimate ones do incorrectly.</li>
-                                    <li>✓ <strong>Social Media Hardening:</strong> Make your profiles private to prevent agents from findng your family's handles.</li>
+                                    <li>v <strong>Revoke App Permissions:</strong> Manually go to phone settings and cut off access to Camera and Location.</li>
+                                    <li>v <strong>CIBIL Monitoring:</strong> Check if the rogue app has reported a default. Most illegal apps don’t report to CIBIL, but legitimate ones do incorrectly.</li>
+                                    <li>v <strong>Social Media Hardening:</strong> Make your profiles private to prevent agents from findng your family’s handles.</li>
                                 </ul>
                             </div>
 
                             <h2 id="legal-notices-for-cyber-debt" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Serving Legal Notices for Cyber-Debt Resolution</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A CredSettle legal notice for cyber-debt is a powerful deterrent. It doesn't just ask to stop harassment—it puts the bank's Board of Directors and the DLA operator on notice for **"Contempt of RBI Mandates."** This shifts the liability from the borrower to the institution, often forcing them into a favorable settlement or withdrawal of claims.
+                                A CredSettle legal notice for cyber-debt is a powerful deterrent. It doesn’t just ask to stop harassment-it puts the bank’s Board of Directors and the DLA operator on notice for **"Contempt of RBI Mandates."** This shifts the liability from the borrower to the institution, often forcing them into a favorable settlement or withdrawal of claims.
                             </p>
 
                             <h2 id="client-feedback" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Digital Justice: Success Against Predatory Lending</h2>

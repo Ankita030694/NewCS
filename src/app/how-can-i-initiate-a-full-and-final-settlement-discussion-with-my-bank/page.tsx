@@ -81,7 +81,7 @@ export default function InitiateSettlementPage() {
         name: "Neha L.",
         location: "Gurgaon",
         rating: 5,
-        text: "Knowing my rights under the 2025 RBI framework changed everything. The bank's tone changed as soon as I quoted the circular."
+        text: "Knowing my rights under the 2025 RBI framework changed everything. The bank’s tone changed as soon as I quoted the circular."
     }
   ];
 

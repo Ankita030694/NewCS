@@ -102,7 +102,7 @@ export default function SBILoanSettlementClient() {
     },
     {
       question: "How does SBI calculate the settlement amount?",
-      answer: "The settlement amount is not fixed and varies case by case. Factors influencing the amount include the total outstanding per the date of NPA, the borrower's current realizable assets, the age of the default, and the specific terms of the active OTS scheme. Typically, settlements range from 30% to 60% of the total outstanding."
+      answer: "The settlement amount is not fixed and varies case by case. Factors influencing the amount include the total outstanding per the date of NPA, the borrower’s current realizable assets, the age of the default, and the specific terms of the active OTS scheme. Typically, settlements range from 30% to 60% of the total outstanding."
     },
     {
       question: "Will settling my SBI loan remove my name from the defaulter list?",
@@ -122,7 +122,7 @@ export default function SBILoanSettlementClient() {
     },
     {
       question: "Why should I use CredSettle instead of going to the bank directly?",
-      answer: "Going directly can often lead to rejection or higher settlement demands if you don't know the policies. CredSettle understands the intricacies of SBI's internal circulars, OTS schemes, and legal framework. We handle the harassment, negotiations, and documentation, ensuring you get the best possible deal with legal protection."
+      answer: "Going directly can often lead to rejection or higher settlement demands if you don’t know the policies. CredSettle understands the intricacies of SBI’s internal circulars, OTS schemes, and legal framework. We handle the harassment, negotiations, and documentation, ensuring you get the best possible deal with legal protection."
     },
     {
       question: "Does SBI offer settlement for Education Loans?",
@@ -225,13 +225,13 @@ export default function SBILoanSettlementClient() {
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Introduction to SBI Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The burden of unmanageable debt can be overwhelming, affecting not just your finances but your mental peace and family life. If you have taken a loan from the State Bank of India (SBI) – be it a personal loan, credit card debt, or an education loan – and are finding it impossible to repay due to genuine financial hardships, you are not alone. Thousands of borrowers face situations like job loss, medical emergencies, or business downturns that push them into default.
+                The burden of unmanageable debt can be overwhelming, affecting not just your finances but your mental peace and family life. If you have taken a loan from the State Bank of India (SBI) - be it a personal loan, credit card debt, or an education loan - and are finding it impossible to repay due to genuine financial hardships, you are not alone. Thousands of borrowers face situations like job loss, medical emergencies, or business downturns that push them into default.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 However, default is not the end of the road. SBI, being the largest public sector bank in India, has structured mechanisms to help distressed borrowers exit the debt trap. <strong>SBI Loan Settlement</strong>, primarily through <strong>One Time Settlement (OTS)</strong> schemes like <em>Rinn Samadhan</em> and platforms like <em>Lok Adalat</em>, offers a legal and dignified way to close your loan account by paying a reduced amount.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
-                CredSettle is India's leading debt settlement company. We bridge the gap between you and the bank. Our team of legal and financial experts navigates the complex bureaucratic corridors of SBI to negotiate the best possible settlement terms for you, stopping harassment and legal action in its tracks. This guide provides an in-depth look at how you can settle your SBI loan in 2024-25.
+                CredSettle is India’s leading debt settlement company. We bridge the gap between you and the bank. Our team of legal and financial experts navigates the complex bureaucratic corridors of SBI to negotiate the best possible settlement terms for you, stopping harassment and legal action in its tracks. This guide provides an in-depth look at how you can settle your SBI loan in 2024-25.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
@@ -243,7 +243,7 @@ export default function SBILoanSettlementClient() {
 
               <h2 id="rinn-samadhan" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">SBI Rinn Samadhan Scheme: The Golden Opportunity</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Rinn Samadhan Scheme</strong> is SBI's flagship One Time Settlement (OTS) initiative designed to reduce the stock of Non-Performing Assets (NPAs). It is a non-discretionary and non-discriminatory scheme, meaning the terms are standardized and applied fairly to all eligible borrowers.
+                The <strong>Rinn Samadhan Scheme</strong> is SBI’s flagship One Time Settlement (OTS) initiative designed to reduce the stock of Non-Performing Assets (NPAs). It is a non-discretionary and non-discriminatory scheme, meaning the terms are standardized and applied fairly to all eligible borrowers.
               </p>
               
               <h3 className="text-xl font-bold text-gray-900 mb-3">Key Features of the Scheme</h3>
@@ -260,7 +260,7 @@ export default function SBILoanSettlementClient() {
 
               <h2 id="lok-adalat" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Settlement Through Lok Adalat</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                An increasingly popular and effective method for settling SBI loans is through the <strong>National Lok Adalat</strong>. Organized by NALSA (National Legal Services Authority), Lok Adalats are "People's Courts" held periodically to resolve disputes amicably.
+                An increasingly popular and effective method for settling SBI loans is through the <strong>National Lok Adalat</strong>. Organized by NALSA (National Legal Services Authority), Lok Adalats are "People’s Courts" held periodically to resolve disputes amicably.
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 mb-3">How Lok Adalat Settlement Works</h3>
@@ -274,7 +274,7 @@ export default function SBILoanSettlementClient() {
                 <li><strong>Amicable Resolution:</strong> The atmosphere is conciliatory, not adversarial. The focus is on finding a mutual agreement.</li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-8">
-                If you receive a Lok Adalat notice, <strong>do not ignore it</strong>. It is a prime opportunity. Bring CredSettle's experts with you to negotiate the best possible deal in front of the judicial panel.
+                If you receive a Lok Adalat notice, <strong>do not ignore it</strong>. It is a prime opportunity. Bring CredSettle’s experts with you to negotiate the best possible deal in front of the judicial panel.
               </p>
 
               <h2 id="arbitration" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding SBI Arbitration Proceedings</h2>
@@ -379,12 +379,12 @@ export default function SBILoanSettlementClient() {
                   <p className="text-sm text-gray-600">Stop the daily harassment from recovery agents. Sleep peacefully knowing legal experts are handling your case.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-md transition-shadow">
-                  <div className="text-4xl mb-4">💰</div>
+                  <div className="text-4xl mb-4">[Money]</div>
                   <h4 className="font-bold text-gray-900 mb-2">Huge Savings</h4>
                   <p className="text-sm text-gray-600">Save up to 50% or more on your total outstanding. Write off accumulated interest and penalties.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-md transition-shadow">
-                  <div className="text-4xl mb-4">⚖️</div>
+                  <div className="text-4xl mb-4">[Scale]</div>
                   <h4 className="font-bold text-gray-900 mb-2">Legal Immunity</h4>
                   <p className="text-sm text-gray-600">Close the door on potential civil suits, arbitration awards, and Section 138 (Cheque Bounce) cases.</p>
                 </div>
@@ -400,7 +400,7 @@ export default function SBILoanSettlementClient() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                   <h5 className="font-bold text-gray-900 mb-1">PSU Expertise</h5>
-                  <p className="text-sm text-gray-600">We know the hierarchy—from Branch Manager to Regional Manager—and who holds the power to approve your OTS.</p>
+                  <p className="text-sm text-gray-600">We know the hierarchy-from Branch Manager to Regional Manager-and who holds the power to approve your OTS.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                   <h5 className="font-bold text-gray-900 mb-1">Arbitration Defense</h5>
@@ -422,17 +422,17 @@ export default function SBILoanSettlementClient() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Rakesh Gupta, Lucknow</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"I had a 5-year old SBI education loan I couldn't pay due to unemployment. The bank sent an arbitration notice. CredSettle attended the hearing and got me an OTS under Rinn Samadhan. I paid only 40% of the claim."</p>
+                    <p className="italic text-gray-200 text-sm">"I had a 5-year old SBI education loan I couldn’t pay due to unemployment. The bank sent an arbitration notice. CredSettle attended the hearing and got me an OTS under Rinn Samadhan. I paid only 40% of the claim."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
-                      <div className="text-yellow-400 text-xl mr-2">★★★★★</div>
+                      <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Sneha Patil, Mumbai</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"My father's medical bills forced me to max out my SBI Crderit Card. I was trapped in debt. CredSettle negotiated a settlement through Lok Adalat. The process was fast and dignified."</p>
+                    <p className="italic text-gray-200 text-sm">"My father’s medical bills forced me to max out my SBI Crderit Card. I was trapped in debt. CredSettle negotiated a settlement through Lok Adalat. The process was fast and dignified."</p>
                   </div>
                 </div>
               </div>
@@ -465,8 +465,8 @@ export default function SBILoanSettlementClient() {
                   Get Legal Help
                 </Link>
                 <div className="mt-4 text-xs text-gray-500">
-                  <p>✓ Stop Harassment</p>
-                  <p className="mt-1">✓ Rinn Samadhan Expert</p>
+                  <p>v Stop Harassment</p>
+                  <p className="mt-1">v Rinn Samadhan Expert</p>
                 </div>
               </div>
 

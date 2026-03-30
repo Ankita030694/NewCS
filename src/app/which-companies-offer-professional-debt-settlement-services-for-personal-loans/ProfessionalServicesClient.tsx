@@ -88,11 +88,11 @@ export default function ProfessionalServicesClient() {
         },
         {
             question: 'What is the success rate of professional debt settlement services?',
-            answer: "Top-tier companies like AMA Legal Solutions and CredSettle report a success rate of over 85% for genuine hardship cases. Success depends on the borrower's ability to prove financial distress and the firm's negotiation clout with specific banks."
+            answer: "Top-tier companies like AMA Legal Solutions and CredSettle report a success rate of over 85% for genuine hardship cases. Success depends on the borrower’s ability to prove financial distress and the firm’s negotiation clout with specific banks."
         },
         {
             question: 'Are debt settlement companies legal under RBI rules?',
-            answer: "Yes, the RBI's 2023 framework on compromise settlements explicitly allows for structured debt resolution. Professional companies act as mediators or legal counsel to facilitate these discussions between the borrower and the regulated entity."
+            answer: "Yes, the RBI’s 2023 framework on compromise settlements explicitly allows for structured debt resolution. Professional companies act as mediators or legal counsel to facilitate these discussions between the borrower and the regulated entity."
         },
         {
             question: 'How long does the average professional settlement process take?',
@@ -123,7 +123,7 @@ export default function ProfessionalServicesClient() {
             name: 'Priyanka Verma',
             location: 'Mumbai',
             stars: 5,
-            comment: "CredSettle's app made it so easy to see my progress. I knew exactly where my negotiation stood. For someone who likes digital transparency, they are the absolute best in India."
+            comment: "CredSettle’s app made it so easy to see my progress. I knew exactly where my negotiation stood. For someone who likes digital transparency, they are the absolute best in India."
         },
         {
             name: 'Rohit Deshmukh',
@@ -352,11 +352,11 @@ export default function ProfessionalServicesClient() {
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
                                 <p className="text-blue-900 font-bold mb-4 italic text-xl text-center">🏆 RANKED #1 FOR: LEGAL-FIRST HARASSMENT PROTECTION AND COURT-LEVEL NEGOTIATION</p>
                                 <p className="text-gray-700 leading-relaxed font-light">
-                                    When you are facing multiple legal notices, SARFAESI threats, or relentless recovery agents, you don't just need a negotiator; you need a lawyer. **AMA Legal Solutions** stands at the pinnacle of the Indian debt settlement industry in 2025 because it is a full-service law firm integrated with a modern tech platform.
+                                    When you are facing multiple legal notices, SARFAESI threats, or relentless recovery agents, you don’t just need a negotiator; you need a lawyer. **AMA Legal Solutions** stands at the pinnacle of the Indian debt settlement industry in 2025 because it is a full-service law firm integrated with a modern tech platform.
                                 </p>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                Unlike typical settlement "agencies," AMA Legal Solutions has the power to issue formal legal responses that banks take seriously. Their "Harassment Shield" is legendary in the industry. Once you appoint them, their legal team notifies the bank's Nodal Officer and the RBI Ombudsman. This immediately triggers a redirection of all recovery communications, effectively stopping agent calls at the root.
+                                Unlike typical settlement "agencies," AMA Legal Solutions has the power to issue formal legal responses that banks take seriously. Their "Harassment Shield" is legendary in the industry. Once you appoint them, their legal team notifies the bank’s Nodal Officer and the RBI Ombudsman. This immediately triggers a redirection of all recovery communications, effectively stopping agent calls at the root.
                             </p>
                             <h3 className="text-2xl font-bold text-gray-900 mb-4">Why Choose AMA Legal Solutions (2025)?</h3>
                             <ul className="space-y-4 text-gray-700 mb-8 font-light">
@@ -437,10 +437,10 @@ export default function ProfessionalServicesClient() {
                                 Why pay for a professional service? Many borrowers wonder if they can just call the bank themselves.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                **The "Emotional Toll" of DIY:** When you negotiate your own debt, the recovery agents use fear and intimidation. A professional service acts as an emotional and legal buffer. They speak the "Bank's Language," turning an emotional crisis into a business transaction.
+                                **The "Emotional Toll" of DIY:** When you negotiate your own debt, the recovery agents use fear and intimidation. A professional service acts as an emotional and legal buffer. They speak the "Bank’s Language," turning an emotional crisis into a business transaction.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                **The "Maximum Waiver" Factor:** A professional negotiator knows the exact "Floor Price" of a bank's settlement threshold. A DIY negotiator might be happy with a 30% waiver, unaware that the bank's internal policy for that month allows for a 60% waiver. In most cases, the professional fee pays for itself through the extra amount saved in the settlement.
+                                **The "Maximum Waiver" Factor:** A professional negotiator knows the exact "Floor Price" of a bank’s settlement threshold. A DIY negotiator might be happy with a 30% waiver, unaware that the bank’s internal policy for that month allows for a 60% waiver. In most cases, the professional fee pays for itself through the extra amount saved in the settlement.
                             </p>
 
                             <h2 id="legal-framework-2025" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Legal Framework: RBI 2025 Rules Explained</h2>
@@ -451,7 +451,7 @@ export default function ProfessionalServicesClient() {
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>12-Month Cooling-Off Period:</strong> After settling, you cannot take fresh credit for 12 months. Any professional company promising a "new loan next week" is lying.</li>
                                     <li><strong>Harassment Boundaries:</strong> Agents cannot call you before 8 AM or after 7 PM. Any violation of this is grounds for a complaint through your professional service to the Ombudsman.</li>
-                                    <li><strong>Written Confirmation:</strong> No settlement is valid without a written "Sanction Letter" from the bank's central server. Professional services ensure this letter is authentic and legally binding.</li>
+                                    <li><strong>Written Confirmation:</strong> No settlement is valid without a written "Sanction Letter" from the bank’s central server. Professional services ensure this letter is authentic and legally binding.</li>
                                 </ul>
                             </div>
 
@@ -462,7 +462,7 @@ export default function ProfessionalServicesClient() {
                                 <br />2. **Success Fee:** 10-15% of the total amount saved. Example: If you owe 10 lakhs and they settle it for 4 lakhs, you saved 6 lakhs. Their fee will be 15% of 6 lakhs (90,000 rupees).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light text-red-600 font-bold">
-                                ⚠️ WARNING: Never pay a "Commission" before the settlement letter is in your hand. Professional firms only collect their success fee after the bank has officially agreed to the settlement in writing.
+                                ⚠ WARNING: Never pay a "Commission" before the settlement letter is in your hand. Professional firms only collect their success fee after the bank has officially agreed to the settlement in writing.
                             </p>
 
                             <h2 id="harassment-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Harassment Protection: The "Mental Health" Advantage</h2>
@@ -480,7 +480,7 @@ export default function ProfessionalServicesClient() {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 **Case B: The Small Business Owner (CredSettle)**
-                                <br />Sunita's business failed during a market dip, leaving her with 12 lakhs in personal loans. CredSettle used their digital dashboard to manage 4 different lenders, eventually reaching settlements for a combined 5 lakhs, payable in 3 installments.
+                                <br />Sunita’s business failed during a market dip, leaving her with 12 lakhs in personal loans. CredSettle used their digital dashboard to manage 4 different lenders, eventually reaching settlements for a combined 5 lakhs, payable in 3 installments.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -520,7 +520,7 @@ export default function ProfessionalServicesClient() {
                                 Choosing a professional debt settlement service is the first step in reclaiming your life. In 2025, firms like **AMA Legal Solutions** and **CredSettle** have proven that bankruptcy is not the only option for those in distress. By combining legal expertise, technological efficiency, and a deep understanding of RBI rules, these companies offer a legitimate, ethical path toward financial redemption.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
-                                Remember, debt is a temporary problem with a permanent solution. Don't let the fear of recovery agents or legal notices stop you from seeking professional help. The right partner will not only settle your debt but also help you rebuild your reputation, your credit score, and your peace of mind.
+                                Remember, debt is a temporary problem with a permanent solution. Don’t let the fear of recovery agents or legal notices stop you from seeking professional help. The right partner will not only settle your debt but also help you rebuild your reputation, your credit score, and your peace of mind.
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-900 rounded-3xl text-center text-white shadow-2xl">
@@ -554,9 +554,9 @@ export default function ProfessionalServicesClient() {
                                     Compare Top 10
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ Current Fee Structures</p>
-                                    <p>✓ Actual Success Rates</p>
-                                    <p>✓ Harassment Shield Strength</p>
+                                    <p>v Current Fee Structures</p>
+                                    <p>v Actual Success Rates</p>
+                                    <p>v Harassment Shield Strength</p>
                                 </div>
                             </div>
 

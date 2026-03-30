@@ -258,7 +258,7 @@ export default function CreditCardSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Here's what makes credit card debt particularly challenging: if you only pay the minimum amount due (usually 5% of total outstanding), the remaining 95% continues to accumulate compound interest. For example, a ₹1,00,000 outstanding balance at 42% annual interest can balloon to ₹1,42,000 within a year if only minimum payments are made. This "debt trap" is what makes credit card settlement such a critical option for financially stressed cardholders.
+                Here’s what makes credit card debt particularly challenging: if you only pay the minimum amount due (usually 5% of total outstanding), the remaining 95% continues to accumulate compound interest. For example, a ₹1,00,000 outstanding balance at 42% annual interest can balloon to ₹1,42,000 within a year if only minimum payments are made. This "debt trap" is what makes credit card settlement such a critical option for financially stressed cardholders.
               </p>
               <p
                 style={{
@@ -307,7 +307,7 @@ export default function CreditCardSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                Once CredSettle takes over your case, we <strong>initiate strategic communication</strong> with your card issuer's collection or settlement department. Our legal experts leverage your financial hardship documentation, account delinquency duration, and repayment capacity to present a compelling settlement proposal. Banks understand that a partial payment now is often better than lengthy legal proceedings or complete write-offs, which strengthens our negotiating position.
+                Once CredSettle takes over your case, we <strong>initiate strategic communication</strong> with your card issuer’s collection or settlement department. Our legal experts leverage your financial hardship documentation, account delinquency duration, and repayment capacity to present a compelling settlement proposal. Banks understand that a partial payment now is often better than lengthy legal proceedings or complete write-offs, which strengthens our negotiating position.
               </p>
               <p
                 style={{
@@ -357,12 +357,12 @@ export default function CreditCardSettlementPage() {
                   marginBottom: '12px'
                 }}
               >
-                Many cardholders don't realize how quickly credit card debt escalates. Let's break down a real example:
+                Many cardholders don’t realize how quickly credit card debt escalates. Let’s break down a real example:
               </p>
               <ul style={{ color: 'rgba(12, 39, 86, 0.80)', fontFamily: 'Poppins', fontSize: '15px', lineHeight: '26px', paddingLeft: '24px', marginBottom: '0' }}>
                 <li style={{ marginBottom: '8px' }}><strong>Month 1:</strong> You have ₹1,00,000 outstanding. Interest rate is 3.5% per month (42% annually). Interest charged: ₹3,500. You pay minimum due ₹5,000. New balance: ₹98,500.</li>
                 <li style={{ marginBottom: '8px' }}><strong>Month 2:</strong> Interest on ₹98,500 = ₹3,447. You pay ₹5,000. New balance: ₹96,947.</li>
-                <li style={{ marginBottom: '8px' }}><strong>After 12 months</strong> of minimum payments: You've paid ₹60,000 total, but your balance is still ₹79,000 because ₹39,000 went to interest alone.</li>
+                <li style={{ marginBottom: '8px' }}><strong>After 12 months</strong> of minimum payments: You’ve paid ₹60,000 total, but your balance is still ₹79,000 because ₹39,000 went to interest alone.</li>
                 <li><strong>The problem:</strong> At this rate, it would take 8+ years to clear the debt while paying nearly ₹2,50,000 total-2.5X the original amount!</li>
               </ul>
             </div>
@@ -401,7 +401,7 @@ export default function CreditCardSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                <strong>Legal Harassment Protection:</strong> Under RBI's Fair Practices Code and the Banking Ombudsman Scheme, borrowers have explicit protection against abusive collection practices. However, many collection agencies violate these norms with threatening calls, visits to workplaces, and public shaming. When CredSettle takes over your case, we issue legal notices to these agencies, invoking your rights under RBI/2021-22/125 DOR.STR.REC.68/21.04.048/2021-22 guidelines, which mandate dignified treatment and prohibit harassment.
+                <strong>Legal Harassment Protection:</strong> Under RBI’s Fair Practices Code and the Banking Ombudsman Scheme, borrowers have explicit protection against abusive collection practices. However, many collection agencies violate these norms with threatening calls, visits to workplaces, and public shaming. When CredSettle takes over your case, we issue legal notices to these agencies, invoking your rights under RBI/2021-22/125 DOR.STR.REC.68/21.04.048/2021-22 guidelines, which mandate dignified treatment and prohibit harassment.
               </p>
               <p
                 style={{
@@ -450,7 +450,7 @@ export default function CreditCardSettlementPage() {
                   marginBottom: '16px'
                 }}
               >
-                The Reserve Bank of India's <strong>Master Direction on Credit Card and Debit Card Operations</strong> mandates that banks must have board-approved policies for debt resolution and settlement. Key protections include:
+                The Reserve Bank of India’s <strong>Master Direction on Credit Card and Debit Card Operations</strong> mandates that banks must have board-approved policies for debt resolution and settlement. Key protections include:
               </p>
               <ul style={{ color: 'rgba(12, 39, 86, 0.80)', fontFamily: 'Poppins', fontSize: '16px', lineHeight: '28px', paddingLeft: '24px', marginBottom: '16px' }}>
                 <li style={{ marginBottom: '12px' }}><strong>Transparent Communication:</strong> Banks must clearly communicate all charges, interest calculation methods, and your outstanding breakup (principal vs. interest vs. fees).</li>
@@ -468,7 +468,7 @@ export default function CreditCardSettlementPage() {
                   marginBottom: '0'
                 }}
               >
-                CredSettle's legal team ensures strict adherence to these RBI guidelines throughout your settlement process. We maintain comprehensive documentation, ensure all communications are through proper channels, and don't hesitate to escalate to the Banking Ombudsman if card issuers or their agents violate your rights. This regulatory-compliant approach gives you maximum leverage in negotiations while protecting your legal standing.
+                CredSettle’s legal team ensures strict adherence to these RBI guidelines throughout your settlement process. We maintain comprehensive documentation, ensure all communications are through proper channels, and don’t hesitate to escalate to the Banking Ombudsman if card issuers or their agents violate your rights. This regulatory-compliant approach gives you maximum leverage in negotiations while protecting your legal standing.
               </p>
             </div>
           </div>

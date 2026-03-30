@@ -361,10 +361,10 @@ export default function RBIRecoveryGuidelinesClient() {
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light text-gray-800">
                                 <ul className="space-y-4">
                                     <li><strong>No Abusive Language:</strong> The use of any type of profanity, derogatory remarks, or shouting is strictly forbidden. Communication must remain professional at all times.</li>
-                                    <li><strong>No Threats of Violence:</strong> Any hint of physical harm—even "implied" through the presence of multiple bouncers—is a severe violation. Physical intimidation is a thing of the past.</li>
-                                    <li><strong>No Public Shaming:</strong> Posting on social media, putting up posters in the borrower's neighborhood, or announcing the default to the borrower's workplace is now a punishable offense for the bank.</li>
-                                    <li><strong>No Impersonation:</strong> Agents cannot pretend to be from the court, the police, or the CBI. Any such misleading representation will result in immediate cancellation of the bank's ability to use that agency.</li>
-                                    <li><strong>No Harassment of Associates:</strong> The days of calling the borrower's boss or friends to "put pressure" are over. Agents are legally bound to talk only to the person who took the money and the person who guaranteed it.</li>
+                                    <li><strong>No Threats of Violence:</strong> Any hint of physical harm-even "implied" through the presence of multiple bouncers-is a severe violation. Physical intimidation is a thing of the past.</li>
+                                    <li><strong>No Public Shaming:</strong> Posting on social media, putting up posters in the borrower’s neighborhood, or announcing the default to the borrower’s workplace is now a punishable offense for the bank.</li>
+                                    <li><strong>No Impersonation:</strong> Agents cannot pretend to be from the court, the police, or the CBI. Any such misleading representation will result in immediate cancellation of the bank’s ability to use that agency.</li>
+                                    <li><strong>No Harassment of Associates:</strong> The days of calling the borrower’s boss or friends to "put pressure" are over. Agents are legally bound to talk only to the person who took the money and the person who guaranteed it.</li>
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -376,7 +376,7 @@ export default function RBIRecoveryGuidelinesClient() {
                                 One of the most common complaints from borrowers is the "3 AM Call." Recovery agents often call at odd hours to catch the borrower off guard and create a sense of constant anxiety. The July 2026 rules provide an absolute boundary: <strong>8:00 AM to 7:00 PM.</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This window is non negotiable. Any call made at 7:01 PM is a violation. Any SMS sent at 7:59 AM is a violation. This applies to automated systems as well. Banks cannot hide behind the excuse of "server errors" for sending midnight notifications. This rule recognizes that a person's home and their resting hours are sacrosanct. This protection extends to visits as well. An agent showing up at your door at 8:00 PM is committing a legal breach of the RBI recovery agent rules 2026.
+                                This window is non negotiable. Any call made at 7:01 PM is a violation. Any SMS sent at 7:59 AM is a violation. This applies to automated systems as well. Banks cannot hide behind the excuse of "server errors" for sending midnight notifications. This rule recognizes that a person’s home and their resting hours are sacrosanct. This protection extends to visits as well. An agent showing up at your door at 8:00 PM is committing a legal breach of the RBI recovery agent rules 2026.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For borrowers, this means you can block any unknown numbers outside of these hours with the confidence of the law. You can tell an agent who arrives late to leave immediately and report them if they refuse. This "Sanctuary of Time" is vital for the mental well being of families struggling with debt. It allows the breadwinner to focus on their work during the day and their family at night, without the constant pings of debt collection.
@@ -384,14 +384,14 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             <h2 id="borrower-privacy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Borrower Privacy: Data Protection in Debt Recovery</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the digital age, your data is often used as a weapon against you. Some rogue apps and agencies have used access to contacts and galleries to shame borrowers into repayment. The July 2026 guidelines provide the most robust privacy protections yet. Lenders are now strictly prohibited from accessing a borrower's private data that is not directly related to the loan contract.
+                                In the digital age, your data is often used as a weapon against you. Some rogue apps and agencies have used access to contacts and galleries to shame borrowers into repayment. The July 2026 guidelines provide the most robust privacy protections yet. Lenders are now strictly prohibited from accessing a borrower’s private data that is not directly related to the loan contract.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 <strong>Key Privacy Protections:</strong>
                                 <br />- <strong>Contact List Isolation:</strong> Banks and NBFCs cannot use your contact list to reach out to third parties.
                                 <br />- <strong>Social Media Restraint:</strong> Using social media information for shaming or locating borrowers is forbidden.
                                 <br />- <strong>No Anonymous Communication:</strong> All calls and messages must clearly identify the lender and the specific recovery agent. Using "Ghost Numbers" or anonymous WhatsApp accounts is a violation.
-                                <br />- <strong>No Workplace Intrusion:</strong> Visiting or calling a workplace is only allowed if the borrower has specifically authorized it as their primary contact point—and even then, only within restricted hours and without disclosing the debt to others.
+                                <br />- <strong>No Workplace Intrusion:</strong> Visiting or calling a workplace is only allowed if the borrower has specifically authorized it as their primary contact point-and even then, only within restricted hours and without disclosing the debt to others.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This focus on privacy ensures that your financial struggle remains a private matter between you and your bank. It prevents the "Social Death" that many borrowers fear more than the financial loss itself. By protecting your privacy, the RBI is protecting your ability to maintain a normal life and eventually recover your creditworthiness.
@@ -413,7 +413,7 @@ export default function RBIRecoveryGuidelinesClient() {
                                 A rule is only as good as its enforcement. The 2026 guidelines mandate a high speed Grievance Redressal Mechanism for every lender. But there is a catch that favors the borrower: <strong>If you file a formal grievance regarding recovery conduct, the bank must pause all recovery activity by agents for that account until the complaint is resolved.</strong>
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This "Pause Button" is a massive tactical advantage. If an agent is harassing you, filing a formal complaint through the bank's portal or the Integrated Ombudsman immediately silences the calls. This gives you the mental space to evaluate your options without being under fire. The bank is also required to provide a written response within 30 days. If they fail to do so, or if their response is unsatisfactory, you can approach the <strong>RBI Integrated Ombudsman</strong>, who has the power to award compensation for trauma and harassment.
+                                This "Pause Button" is a massive tactical advantage. If an agent is harassing you, filing a formal complaint through the bank’s portal or the Integrated Ombudsman immediately silences the calls. This gives you the mental space to evaluate your options without being under fire. The bank is also required to provide a written response within 30 days. If they fail to do so, or if their response is unsatisfactory, you can approach the <strong>RBI Integrated Ombudsman</strong>, who has the power to award compensation for trauma and harassment.
                             </p>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-6 font-light text-gray-800 italic">
                                 "The Integrated Ombudsman is the ultimate protector of the small borrower. In 2025 and 2026, we expect to see thousands of cases where the Ombudsman penalizes banks for the bad behavior of their agents, often forcing the bank to offer more favorable settlement terms to the victim."
@@ -421,7 +421,7 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             <h2 id="digital-lending-norms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Digital Lending Norms: Ending the Shadow Recovery</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The explosion of Fintech apps has led to a rise in "Shadow Recovery"—methods that happen entirely in the digital realm. The July 2026 rules close the loopholes that these apps have were exploiting. The RBI has made it clear that the "Digital Lending Guidelines" are part and parcel of the broader recovery code.
+                                The explosion of Fintech apps has led to a rise in "Shadow Recovery"-methods that happen entirely in the digital realm. The July 2026 rules close the loopholes that these apps have were exploiting. The RBI has made it clear that the "Digital Lending Guidelines" are part and parcel of the broader recovery code.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For anyone struggling with an app-based loan:
@@ -447,15 +447,15 @@ export default function RBIRecoveryGuidelinesClient() {
                                 If your debt case goes to court (such as under Section 138 of the Cheque Bounce law or DRT), the new RBI recovery guidelines July 2026 act as your primary defense. If you can prove that the bank violated these guidelines during the recovery process, it significantly weakens their legal standing.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Judges in India are increasingly sensitive to borrower harassment. A documented violation of the RBI's 8 AM to 7 PM rule or the privacy code can be used to argue for a stay on recovery or a reduction in the interest claim. The law no longer just asks, "Did you take the money?" It now asks the bank, "Did you follow the law while trying to get it back?" At CredSettle, we use this "Conduct Defense" to save our clients from aggressive legal actions.
+                                Judges in India are increasingly sensitive to borrower harassment. A documented violation of the RBI’s 8 AM to 7 PM rule or the privacy code can be used to argue for a stay on recovery or a reduction in the interest claim. The law no longer just asks, "Did you take the money?" It now asks the bank, "Did you follow the law while trying to get it back?" At CredSettle, we use this "Conduct Defense" to save our clients from aggressive legal actions.
                             </p>
 
                             <h2 id="bank-responsibility" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Bank Liability: Ending the Culture of Denial</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The most powerful part of the 2026 update is the "Board Level Accountability." The RBI now requires the Board of Directors of every bank to approve and review their recovery policies annually. This means the CEO and the Board can no longer claim they didn't know their agents were using bouncers.
+                                The most powerful part of the 2026 update is the "Board Level Accountability." The RBI now requires the Board of Directors of every bank to approve and review their recovery policies annually. This means the CEO and the Board can no longer claim they didn’t know their agents were using bouncers.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If a bank's agency is found to be habitually harassing borrowers, the bank can be barred from using any third party agencies for a period of time. This is a "Nuclear Option" for the RBI, and the threat of it is enough to make most banks purge their more aggressive agencies. This shift in liability ensures that ethics trickle down from the boardroom to the street.
+                                If a bank’s agency is found to be habitually harassing borrowers, the bank can be barred from using any third party agencies for a period of time. This is a "Nuclear Option" for the RBI, and the threat of it is enough to make most banks purge their more aggressive agencies. This shift in liability ensures that ethics trickle down from the boardroom to the street.
                             </p>
 
                             <h2 id="ots-transparency" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">OTS Transparency: One-Time Settlement as a Right</h2>
@@ -463,7 +463,7 @@ export default function RBIRecoveryGuidelinesClient() {
                                 One-Time Settlement (OTS) is often treated by banks as a "favor." The 2026 guidelines push for more transparency in how OTS is calculated and offered. Banks are now encouraged to have a <strong>Non Discriminatory Policy</strong> for settlement. This means if your neighbor with the same loan size and income loss got a 50% waiver, you are entitled to a similar discussion.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                While OTS is still at the bank's discretion, the "reasons for rejection" must be documented. If you offer a fair settlement and the bank rejects it for no valid reason, you can use that in your Ombudsman complaint to show "lack of intent to resolve" on the bank's part.
+                                While OTS is still at the bank’s discretion, the "reasons for rejection" must be documented. If you offer a fair settlement and the bank rejects it for no valid reason, you can use that in your Ombudsman complaint to show "lack of intent to resolve" on the bank’s part.
                             </p>
 
                             <h2 id="compliance-checklist" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Compliance Checklist: What to Check When an Agent Calls</h2>
@@ -518,10 +518,10 @@ export default function RBIRecoveryGuidelinesClient() {
                                 The RBI new recovery guidelines July 2026 are more than just words on a paper; they are a manifesto for a more compassionate financial India. By understanding your rights, you take the first step toward reclaiming your life. Debt is a temporary state, not a permanent identity.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you are struggling with repayment, don't hide in the shadows. The law is evolving to protect you. Use this guide to educate yourself, use the compliance checklist to keep agents in line, and when the time is right, negotiate for a fair closure. The 2026 rules provide the structure; you must providing the courage to stand up for your rights.
+                                If you are struggling with repayment, don’t hide in the shadows. The law is evolving to protect you. Use this guide to educate yourself, use the compliance checklist to keep agents in line, and when the time is right, negotiate for a fair closure. The 2026 rules provide the structure; you must providing the courage to stand up for your rights.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we are committed to being your partner in this journey. We stay on top of these RBI mandates so that you don't have to. Our mission is to ensure that no Indian is ever bullied by a bank while they are trying their best to survive a financial crisis. Your dignity is priceless; your debt is just a number. Let’s solve the number together.
+                                At CredSettle, we are committed to being your partner in this journey. We stay on top of these RBI mandates so that you don’t have to. Our mission is to ensure that no Indian is ever bullied by a bank while they are trying their best to survive a financial crisis. Your dignity is priceless; your debt is just a number. Let’s solve the number together.
                             </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
@@ -558,7 +558,7 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Protect Your Family from Harassment</h3>
-                                <p className="text-blue-800 mb-6">The new RBI rules provide you with powerful legal weapons. Don't face the banks alone. Our legal experts are ready to help you implement the 2026 protections today and start your journey toward a life without debt harassment.</p>
+                                <p className="text-blue-800 mb-6">The new RBI rules provide you with powerful legal weapons. Don’t face the banks alone. Our legal experts are ready to help you implement the 2026 protections today and start your journey toward a life without debt harassment.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -589,9 +589,9 @@ export default function RBIRecoveryGuidelinesClient() {
                                     Get Compliance Kit
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>✓ 2026 Compliance Checklist</p>
-                                    <p>✓ Harassment Evidence Log</p>
-                                    <p>✓ Ombudsman Complaint Template</p>
+                                    <p>v 2026 Compliance Checklist</p>
+                                    <p>v Harassment Evidence Log</p>
+                                    <p>v Ombudsman Complaint Template</p>
                                 </div>
                             </div>
 
