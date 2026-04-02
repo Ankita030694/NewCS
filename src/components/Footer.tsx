@@ -244,6 +244,12 @@ export default function Footer() {
               <a href="/is-loan-settlement-illegal-in-india-truth" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Is Loan Settlement Illegal in India? Truth</a>
               <a href="/is-cibil-ruined-forever-after-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Is CIBIL Ruined Forever After Settlement?</a>
               <a href="/can-recovery-agents-abuse-you-legally-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can Recovery Agents Abuse You Legally?</a>
+              <a href="/loan-settlement-for-salaried-people" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for Salaried People</a>
+              <a href="/loan-settlement-for-self-employed" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for Self-Employed</a>
+              <a href="/loan-settlement-for-startup-founders" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for Startup Founders</a>
+              <a href="/loan-settlement-for-msme-owners" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for MSME Owners</a>
+              <a href="/loan-settlement-for-traders" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for Traders</a>
+              <a href="/loan-settlement-during-medical-emergency" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement During Medical Emergency</a>
 
 
               </div>

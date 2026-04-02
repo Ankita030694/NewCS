@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 88; // Updated for new loan settlement SEO pages (added understanding-90-day-loan-default-india & do-banks-file-fir-for-credit-card-dues & can-recovery-agents-abuse-you-legally-india).
+  const mainStaticPages = 92; // Updated for new loan settlement SEO pages (added traders, self-employed, and medical-emergency).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -703,6 +703,34 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps`,
     priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-startup-founders`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-msme-owners`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+    urls.push({
+    loc: `${baseUrl}/loan-settlement-for-traders`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+    urls.push({
+    loc: `${baseUrl}/loan-settlement-during-medical-emergency`,
+    priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -1857,6 +1885,13 @@ async function generateSitemap(): Promise<string> {
   });
   urls.push({
     loc: `${baseUrl}/do-banks-file-fir-for-credit-card-dues`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-salaried-people`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
