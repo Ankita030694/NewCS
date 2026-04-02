@@ -682,7 +682,7 @@ export default function EMIConsequencesClient() {
                 <h4 className="font-bold text-blue-900 mb-2">Legal Support?</h4>
                 <p className="text-xs text-blue-800 opacity-80 mb-4">Our lawyers review all recovery notices for free.</p>
                 <Link href="/contact" className="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center gap-1">
-                  Connect with Lawyers ->
+                  Connect with Lawyers {'->'}
                 </Link>
               </div>
 
