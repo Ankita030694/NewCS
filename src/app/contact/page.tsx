@@ -227,6 +227,8 @@ function ContactPageContent() {
       ...formData,
       created: Date.now(),
       date: formattedDate,
+      submissionUrl: typeof window !== 'undefined' ? window.location.href : '',
+      utmParams: typeof window !== 'undefined' ? (new URLSearchParams(window.location.search).toString() ? Object.fromEntries(new URLSearchParams(window.location.search)) : {}) : {}
     };
 
     try {

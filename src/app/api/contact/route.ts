@@ -80,6 +80,8 @@ export async function POST(request: NextRequest) {
       number: body.number,
       personalLoanDues: body.personalLoanDues,
       queries: body.queries || '',
+      submissionUrl: body.submissionUrl || '',
+      utmParams: body.utmParams || {},
     };
 
     // Save to Firestore

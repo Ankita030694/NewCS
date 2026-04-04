@@ -13,6 +13,8 @@ export type LeadRecord = {
   number: string;
   personalLoanDues: string;
   queries: string;
+  submissionUrl?: string;
+  utmParams?: Record<string, string>;
 };
 
 export const DEFAULT_PAGE_SIZE = 50;

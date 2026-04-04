@@ -337,6 +337,7 @@ const LeadsTable = () => {
                 <Th className="w-[8%]">PL Dues</Th>
                 <Th className="w-[5%]">Pay?</Th>
                 <Th className="w-[5%]">Harass.</Th>
+                <Th className="w-[8%]">Source</Th>
                 <Th className="w-[8%]">Notes</Th>
                 <Th className="w-[6%]">Actions</Th>
               </tr>
@@ -416,6 +417,43 @@ const LeadsTable = () => {
                     <Td>{lead.personalLoanDues || '-'}</Td>
                     <Td>{lead.canPay || '-'}</Td>
                     <Td>{lead.harassment || '-'}</Td>
+                    <Td>
+                      <div className="flex flex-col gap-1">
+                        {lead.submissionUrl ? (
+                          <a
+                            href={lead.submissionUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block max-w-[100px] truncate text-blue-600 hover:underline"
+                            title={lead.submissionUrl}
+                          >
+                            {(() => {
+                              try {
+                                return new URL(lead.submissionUrl).pathname;
+                              } catch {
+                                return lead.submissionUrl;
+                              }
+                            })()}
+                          </a>
+                        ) : (
+                          '-'
+                        )}
+                        {lead.utmParams && Object.keys(lead.utmParams).length > 0 && (
+                          <button
+                            type="button"
+                            className="w-fit rounded bg-blue-50 px-1 py-0.5 text-[9px] font-medium text-blue-700 hover:bg-blue-100"
+                            onClick={() =>
+                              setActiveNote({
+                                title: `UTM Parameters: ${lead.name || lead.email}`,
+                                note: JSON.stringify(lead.utmParams, null, 2)
+                              })
+                            }
+                          >
+                            UTM Info
+                          </button>
+                        )}
+                      </div>
+                    </Td>
                     <Td>
                       <button
                         type="button"

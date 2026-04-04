@@ -46,7 +46,9 @@ const mapDocToLead = (
     name: normalizeString(data.name),
     number: normalizeString(data.number),
     personalLoanDues: normalizeString(data.personalLoanDues),
-    queries: normalizeString(data.queries)
+    queries: normalizeString(data.queries),
+    submissionUrl: normalizeString(data.submissionUrl),
+    utmParams: (data.utmParams as Record<string, string>) || {}
   };
 };
 
