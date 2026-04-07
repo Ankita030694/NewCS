@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRightFromBracket, faNewspaper, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightFromBracket, faChartSimple, faNewspaper, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 
 import LogoutButton from '@/components/LogoutButton';
 
@@ -11,6 +11,12 @@ const NAV_ITEMS = [
     href: '/authority/leads',
     icon: faUserGroup,
     description: 'Review and manage incoming enquiries'
+  },
+  {
+    label: 'Analytics',
+    href: '/authority/analytics',
+    icon: faChartSimple,
+    description: 'Track source attribution and traffic'
   },
   {
     label: 'Blogs',
