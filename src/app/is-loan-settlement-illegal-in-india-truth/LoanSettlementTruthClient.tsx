@@ -504,11 +504,11 @@ export default function LoanSettlementTruthClient() {
                     >
                       Get Free Legal Analysis
                     </Link>
-                    <a href="tel:+919289707648" className="flex items-center gap-3 text-white font-bold text-xl hover:text-blue-300 transition-all group/tel">
+                    <a href="tel:+918800226635" className="flex items-center gap-3 text-white font-bold text-xl hover:text-blue-300 transition-all group/tel">
                       <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center group-hover/tel:bg-white/20 transition-all">
                         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.47 5.47l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                       </div>
-                      +91-9289707648
+                      +91-8800226635
                     </a>
                   </div>
                   <div className="mt-10 flex flex-wrap justify-center gap-x-8 gap-y-4 opacity-70">
@@ -636,7 +636,7 @@ export default function LoanSettlementTruthClient() {
                 <div className="relative z-10">
                   <h4 className="font-bold text-2xl mb-4 font-inter leading-tight">Need Urgent Assistance?</h4>
                   <p className="text-sm text-blue-200 mb-8 opacity-80 font-outfit leading-relaxed font-light">Our specialized lawyers are ready to handle your case and stop all harassment immediately.</p>
-                  <a href="tel:+919289707648" className="flex items-center justify-center gap-3 font-bold text-2xl py-5 px-6 bg-blue-600 rounded-2xl hover:bg-blue-500 transition-all shadow-xl active:scale-95 group/btn">
+                  <a href="tel:+918800226635" className="flex items-center justify-center gap-3 font-bold text-2xl py-5 px-6 bg-blue-600 rounded-2xl hover:bg-blue-500 transition-all shadow-xl active:scale-95 group/btn">
                     <svg className="w-7 h-7 animate-pulse group-hover/btn:animate-none" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.47 5.47l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
                     Call Now
                   </a>

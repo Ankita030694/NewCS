@@ -49,7 +49,7 @@ export default function AxisBankLoanSettlementPage() {
     url: 'https://credsettle.com/loan-settlement/axis-bank',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'Specialized legal and financial services for settling Axis Bank loans and credit cards.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     priceRange: 'Consultation Free',
     serviceType: 'Debt Settlement',

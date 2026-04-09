@@ -43,7 +43,7 @@ export default function ChequeBounceNoidaPage() {
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'Expert legal services for cheque bounce cases under Section 138 of the Negotiable Instruments Act in Noida and Greater Noida.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Noida',

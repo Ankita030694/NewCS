@@ -60,7 +60,7 @@ export default function LoanSettlementCIBILPage() {
     url: 'https://www.credsettle.com',
     logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional legal consultation and debt relief services to help borrowers settle loans while understanding the impact on CIBIL scores.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     address: {
       '@type': 'PostalAddress',

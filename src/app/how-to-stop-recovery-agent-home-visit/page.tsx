@@ -60,7 +60,7 @@ export default function RecoveryVisitPage() {
     url: 'https://www.credsettle.com',
     logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional legal consultation and debt relief services to stop illegal recovery agent home visits and settle loans with RBI compliance.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     address: {
       '@type': 'PostalAddress',

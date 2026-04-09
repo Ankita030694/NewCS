@@ -44,7 +44,7 @@ export default function ChequeBounceDelhiPage() {
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'Expert legal services for cheque bounce cases under Section 138 of the Negotiable Instruments Act in Delhi NCR.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Delhi',

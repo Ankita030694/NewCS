@@ -72,7 +72,7 @@ export default function LoanSettlementPage() {
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'Professional loan settlement and debt relief services. We help negotiate with debt collectors and reduce your debt burden.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     address: {
       '@type': 'PostalAddress',

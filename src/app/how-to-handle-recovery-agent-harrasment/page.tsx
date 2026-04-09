@@ -60,7 +60,7 @@ export default function RecoveryAgentHarassmentPage() {
     url: 'https://www.credsettle.com',
     logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal consultation and debt relief services to stop harassment from recovery agents and settle loans legally.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     address: {
       '@type': 'PostalAddress',

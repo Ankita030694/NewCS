@@ -89,7 +89,7 @@ const reviewSchema = {
         '@type': 'Organization',
         name: 'CredSettle',
         image: 'https://credsettle.com/credsettle-logo.svg',
-        telephone: '+91-9289707648',
+        telephone: '+91-8800226635',
         address: {
              '@type': 'PostalAddress',
              addressCountry: 'IN'

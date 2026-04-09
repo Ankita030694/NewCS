@@ -1,0 +1,36 @@
+export const locations25 = [
+  "Best Advocate | Best Lawyers in Noida Sector 132 for Loan settlement",
+  "Best Advocate | Best Lawyers in Faridabad Sector 9 for Loan settlement",
+  "Best Advocate | Best Lawyers in Sector Delta I Extension for Loan settlement",
+  "Best Advocate | Best Lawyers in Ghazipur for Loan settlement",
+  "Best Advocate | Best Lawyers in Sector Omicron 2A for Loan settlement",
+  "Best Advocate | Best Lawyers in Mangolpuri for Loan settlement",
+  "Best Advocate | Best Lawyers in West Singhbhum for Loan settlement",
+  "Best Advocate | Best Lawyers in Lakhisarai for Loan settlement",
+  "Best Advocate | Best Lawyers in Noida Sector 154 for Loan settlement",
+  "Best Advocate | Best Lawyers in Jhabua for Loan settlement",
+
+  "Best Advocate | Best Lawyers in Vaishali Bus Depot for Loan settlement",
+  "Best Advocate | Best Lawyers in Jamui for Loan settlement",
+  "Best Advocate | Best Lawyers in Gurugram Sector 42 for Loan settlement",
+  "Best Advocate | Best Lawyers in Noida Sector 33 for Loan settlement",
+  "Best Advocate | Best Lawyers in Satara for Loan settlement",
+  "Best Advocate | Best Lawyers in Nicobar for Loan settlement",
+  "Best Advocate | Best Lawyers in Gurugram Sector 30 for Loan settlement",
+  "Best Advocate | Best Lawyers in Sector Chi 2 for Loan settlement",
+  "Best Advocate | Best Lawyers in Gurugram Sector 16 for Loan settlement",
+  "Best Advocate | Best Lawyers in Surajmal Vihar for Loan settlement",
+
+  "Best Advocate | Best Lawyers in Sector 1 Vasundhara for Loan settlement",
+  "Best Advocate | Best Lawyers in Noida Sector 58 for Loan settlement",
+  "Best Advocate | Best Lawyers in Nyay Khand 2 for Loan settlement",
+  "Best Advocate | Best Lawyers in Duhai Metro Station for Loan settlement",
+  "Best Advocate | Best Lawyers in Kohima for Loan settlement",
+  "Best Advocate | Best Lawyers in Abhay Khand 3 for Loan settlement",
+  "Best Advocate | Best Lawyers in Noida Sector 8 for Loan settlement",
+  "Best Advocate | Best Lawyers in Govindpuram Sector 3 for Loan settlement",
+  "Best Advocate | Best Lawyers in Patna for Loan settlement",
+  "Best Advocate | Best Lawyers in Vellore for Loan settlement",
+
+  "Best Advocate | Best Lawyers in Shopian for Loan settlement"
+];

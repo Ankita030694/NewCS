@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'debt settlement india',
     'CredSettle Experts',
     'credsettle.com',
-    '+91-9289707648'
+    '+91-8800226635'
   ],
   openGraph: {
     title: 'Understanding 90 Day Loan Default in India | RBI Rules',
@@ -44,7 +44,7 @@ export default function DefaultIndiaPage() {
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'Expert legal and financial advisory for loan settlement by CredSettle.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'India',

@@ -45,7 +45,7 @@ export default function SettleFreePage() {
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'Expert advice on loan settlement and debt relief in India.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     address: {
       '@type': 'PostalAddress',

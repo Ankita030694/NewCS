@@ -797,7 +797,7 @@ export default function CanISettleHomeLoanPage() {
                    </Link>
                    <div className="mt-4 flex items-center justify-center gap-2 text-sm text-blue-200">
                       <FontAwesomeIcon icon={faPhone} className="w-4 h-4" />
-                      <span>+91-9289707648</span>
+                      <span>+91-8800226635</span>
                    </div>
                 </div>
 
@@ -870,7 +870,7 @@ export default function CanISettleHomeLoanPage() {
       {/* Mobile CTA (Sticky Bottom) */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-4 z-50 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
         <div className="flex gap-3">
-           <Link href="tel:+919289707648" className="flex-1 bg-white border border-[#0C2756] text-[#0C2756] font-bold py-3 rounded-lg text-center">
+           <Link href="tel:+918800226635" className="flex-1 bg-white border border-[#0C2756] text-[#0C2756] font-bold py-3 rounded-lg text-center">
               Call Now
            </Link>
            <Link href="/contact" className="flex-1 bg-[#0C2756] text-white font-bold py-3 rounded-lg text-center">

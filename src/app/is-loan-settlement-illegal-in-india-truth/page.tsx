@@ -65,7 +65,7 @@ export default function LoanSettlementTruthPage() {
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'India\'s leading legal advocacy firm for debt resolution and loan settlement truth.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     address: {
       '@type': 'PostalAddress',

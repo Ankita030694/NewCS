@@ -65,7 +65,7 @@ export default function WhatIsNpaPage() {
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
     description: 'Expert advisory on NPA resolution, loan settlement, and debt relief services.',
-    telephone: '+91-9289707648',
+    telephone: '+91-8800226635',
     email: 'support@credsettle.com',
     address: {
       '@type': 'PostalAddress',

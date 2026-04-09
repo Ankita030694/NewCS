@@ -184,11 +184,11 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </Link>
                 <a 
-                  href="tel:+919289707648"
+                  href="tel:+918800226635"
                   className="px-8 py-4 rounded-xl font-bold text-lg text-white border border-gray-600 hover:border-white hover:bg-white/10 transition-all flex items-center justify-center gap-2 backdrop-blur-sm"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                  Call +91-9289707648
+                  Call +91-8800226635
                 </a>
               </div>
               <div className="mt-8 flex items-center gap-4 text-sm text-gray-400">
@@ -596,7 +596,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                   <Link href="/contact" className="bg-white text-blue-900 font-bold py-4 px-8 rounded-xl text-center text-lg hover:bg-gray-100 transition-colors shadow-lg">
                     Start Your Free Consultation
                   </Link>
-                  <a href="tel:+919289707648" className="border-2 border-white text-white font-bold py-4 px-8 rounded-xl text-center text-lg hover:bg-white hover:text-blue-900 transition-colors">
+                  <a href="tel:+918800226635" className="border-2 border-white text-white font-bold py-4 px-8 rounded-xl text-center text-lg hover:bg-white hover:text-blue-900 transition-colors">
                     Call Legal Support
                   </a>
                 </div>
@@ -619,7 +619,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                   Stop the harassment today. Engage our lawyers to formally represent you against {bankName} recovery tactics.
                 </p>
                 <div className="space-y-3">
-                  <a href="tel:+919289707648" className="flex items-center justify-center w-full bg-white text-blue-800 font-extrabold py-4 rounded-xl hover:bg-blue-50 transition-transform active:scale-95 shadow-md text-lg">
+                  <a href="tel:+918800226635" className="flex items-center justify-center w-full bg-white text-blue-800 font-extrabold py-4 rounded-xl hover:bg-blue-50 transition-transform active:scale-95 shadow-md text-lg">
                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                     9289-707-648
                   </a>
@@ -680,7 +680,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
       
       {/* Mobile Sticky CTA */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-200 shadow-[0_-10px_20px_rgba(0,0,0,0.05)] z-50 flex gap-3">
-        <a href="tel:+919289707648" className="flex-1 bg-blue-600 text-white font-bold py-3 px-4 rounded-xl text-center text-sm active:scale-95 transition-transform flex items-center justify-center gap-2">
+        <a href="tel:+918800226635" className="flex-1 bg-blue-600 text-white font-bold py-3 px-4 rounded-xl text-center text-sm active:scale-95 transition-transform flex items-center justify-center gap-2">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
           Call Expert
         </a>

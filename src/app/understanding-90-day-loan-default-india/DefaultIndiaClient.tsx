@@ -99,7 +99,7 @@ export default function DefaultIndiaClient() {
     },
     {
       question: 'Can recovery agents visit my home during the 90 day period?',
-      answer: 'Yes, agents can visit but they must follow strict RBI guidelines. They cannot use abusive language or visit at odd hours. If harassed, call 9289707648 for legal protection.'
+      answer: 'Yes, agents can visit but they must follow strict RBI guidelines. They cannot use abusive language or visit at odd hours. If harassed, call 8800226635 for legal protection.'
     },
     {
       question: 'Does the SARFAESI Act apply to personal loans?',
@@ -227,7 +227,7 @@ export default function DefaultIndiaClient() {
               <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">The Definitive Guide to Understanding 90 Day Loan Default in India</h2>
               <div className="text-gray-700 leading-relaxed space-y-6">
                 <p>
-                  The phrase &quot;understanding 90 day loan default india&quot; has become a critical search for thousands of borrowers struggling with debt. When you miss your EMI (Equated Monthly Installment) for three consecutive months, you are not just missing payments; you are entering a complex legal and financial zone defined by the Reserve Bank of India. At <strong>credsettle.com</strong>, we specialize in helping individuals navigate this treacherous path. If you are facing harassment or legal notices, you can reach out to us at <strong>9289707648</strong>.
+                  The phrase &quot;understanding 90 day loan default india&quot; has become a critical search for thousands of borrowers struggling with debt. When you miss your EMI (Equated Monthly Installment) for three consecutive months, you are not just missing payments; you are entering a complex legal and financial zone defined by the Reserve Bank of India. At <strong>credsettle.com</strong>, we specialize in helping individuals navigate this treacherous path. If you are facing harassment or legal notices, you can reach out to us at <strong>8800226635</strong>.
                 </p>
                 <p>
                   In India, the financial system is governed by strict rules designed to maintain the health of banks while providing some protection to the consumer. However, many borrowers are unaware of these rules until they find themselves in the middle of a recovery crisis. This guide will walk you through the entire journey, from that first missed payment to the potential resolution strategies that can help you reclaim your financial independence.
@@ -257,7 +257,7 @@ export default function DefaultIndiaClient() {
                   Once the 90 day limit is breached, the account is declared an NPA. For the bank, this means they must set aside capital (provisioning) for your loan, which directly hits their profits. This is why banks become much more aggressive after an account becomes an NPA. However, it is also the time when they might be more open to a one time settlement through <strong>credsettle.com</strong>.
                 </p>
                 <p>
-                  The team at <strong>CredSettle</strong> understands that these stages are stressful. Many people try to hide from the calls, but this only makes things worse. If you are in SMA 1 or SMA 2, calling <strong>9289707648</strong> can help you create a strategy before the dreaded NPA status is applied.
+                  The team at <strong>CredSettle</strong> understands that these stages are stressful. Many people try to hide from the calls, but this only makes things worse. If you are in SMA 1 or SMA 2, calling <strong>8800226635</strong> can help you create a strategy before the dreaded NPA status is applied.
                 </p>
               </div>
 
@@ -273,7 +273,7 @@ export default function DefaultIndiaClient() {
                   In the case of large defaults, the bank may also initiate legal notices under various acts. If it is a business loan, they might use the Insolvency and Bankruptcy Code (IBC). If it is a personal loan, they might file a suit for recovery in the civil court. <strong>CredSettle</strong> has seen hundreds of cases where timely legal intervention at this stage saved the borrower from complete financial ruin.
                 </p>
                 <p>
-                  If you are located anywhere in India, you need to be aware that the bank is now in a position to legally demand the entire outstanding amount, not just the missed EMIs. This &quot;acceleration&quot; of the loan is a standard clause in most loan agreements. You can contact <strong>CredSettle</strong> at <strong>9289707648</strong> to understand your specific loan agreement clauses.
+                  If you are located anywhere in India, you need to be aware that the bank is now in a position to legally demand the entire outstanding amount, not just the missed EMIs. This &quot;acceleration&quot; of the loan is a standard clause in most loan agreements. You can contact <strong>CredSettle</strong> at <strong>8800226635</strong> to understand your specific loan agreement clauses.
                 </p>
               </div>
 
@@ -293,7 +293,7 @@ export default function DefaultIndiaClient() {
                   </div>
                 </div>
                 <p>
-                  Many borrowers mistakenly believe that an unsecured default has no consequences. This is not true. While they can&apos;t take your house easily, they can still file criminal cases in case of cheque bounces (Section 138) or use arbitration to get a decree against you. <strong>CredSettle</strong> and our team at <strong>9289707648</strong> provide specialized advice for both scenarios.
+                  Many borrowers mistakenly believe that an unsecured default has no consequences. This is not true. While they can&apos;t take your house easily, they can still file criminal cases in case of cheque bounces (Section 138) or use arbitration to get a decree against you. <strong>CredSettle</strong> and our team at <strong>8800226635</strong> provide specialized advice for both scenarios.
                 </p>
                 <p>
                   Understanding the difference is the core of &quot;understanding 90 day loan default india&quot;. For secured loans, your primary goal is to save the asset. For unsecured loans, your goal is to settle for the lowest possible amount and protect your reputation.
@@ -312,7 +312,7 @@ export default function DefaultIndiaClient() {
                   You can challenge these notices in the Debt Recovery Tribunal (DRT). However, the DRT has strict timelines. If you miss your window, the bank will proceed to auction. <strong>credsettle.com</strong> has extensive experience in filing Securitisation Applications (SA) in the DRT to obtain stay orders and protect the properties of our clients across India.
                 </p>
                 <p>
-                  The SARFAESI Act is complex, and the technicalities of the notice are often flawed. A small mistake by the bank in the valuation or the procedure can be used to stop the auction. To review your SARFAESI notice, call <strong>9289707648</strong> today for a consultation with <strong>CredSettle</strong>.
+                  The SARFAESI Act is complex, and the technicalities of the notice are often flawed. A small mistake by the bank in the valuation or the procedure can be used to stop the auction. To review your SARFAESI notice, call <strong>8800226635</strong> today for a consultation with <strong>CredSettle</strong>.
                 </p>
               </div>
 
@@ -348,7 +348,7 @@ export default function DefaultIndiaClient() {
                   </li>
                 </ul>
                 <p>
-                  If a recovery agent calls you at midnight, they are violating your rights. If they use abusive language, they are breaking the law. <strong>CredSettle</strong> was created specifically to fight these injustices. You can report such violations to us at <strong>9289707648</strong> and we will help you file a formal complaint with the RBI ombudsman.
+                  If a recovery agent calls you at midnight, they are violating your rights. If they use abusive language, they are breaking the law. <strong>CredSettle</strong> was created specifically to fight these injustices. You can report such violations to us at <strong>8800226635</strong> and we will help you file a formal complaint with the RBI ombudsman.
                 </p>
               </div>
 
@@ -361,7 +361,7 @@ export default function DefaultIndiaClient() {
                   Unfortunately, many agents ignore these rules. They use &quot;pressure tactics&quot; because they are paid on commission. <strong>CredSettle</strong> has been at the forefront of suing banks for the actions of their recovery agents. We believe that while the debt must be paid or settled, the process must remain human.
                 </p>
                 <p>
-                  If an agent visits your house, always ask for their identity card and the authorization letter from the bank. If they refuse, you have the right to ask them to leave and even call the local police. For more details on how to handle home visits, check the resources on <strong>credsettle.com</strong> or call <strong>9289707648</strong>.
+                  If an agent visits your house, always ask for their identity card and the authorization letter from the bank. If they refuse, you have the right to ask them to leave and even call the local police. For more details on how to handle home visits, check the resources on <strong>credsettle.com</strong> or call <strong>8800226635</strong>.
                 </p>
               </div>
 
@@ -380,7 +380,7 @@ export default function DefaultIndiaClient() {
                   <li><strong>Closure:</strong> Once terms are agreed, we ensure you get a proper &quot;Settlement Letter&quot; or &quot;No Dues Certificate&quot; (NDC).</li>
                 </ol>
                 <p>
-                  Do not attempt to settle without a written letter from the bank. Many agents make verbal promises which are never honored. Always consult experts at <strong>9289707648</strong> to verify your settlement documents.
+                  Do not attempt to settle without a written letter from the bank. Many agents make verbal promises which are never honored. Always consult experts at <strong>8800226635</strong> to verify your settlement documents.
                 </p>
               </div>
 
@@ -393,7 +393,7 @@ export default function DefaultIndiaClient() {
                   We have helped thousands of people resolve their loans worth crores. Our website <strong>credsettle.com</strong> is a treasure trove of information for anyone facing financial distress. We offer a transparent fee structure and a results oriented approach.
                 </p>
                 <p>
-                  Our number, <strong>9289707648</strong>, is the lifeline for many who are tired of the constant bank calls. When you hire us, the bank knows they are dealing with professionals who understand the SARFAESI Act, the RBI guidelines, and the civil codes inside out. We level the playing field.
+                  Our number, <strong>8800226635</strong>, is the lifeline for many who are tired of the constant bank calls. When you hire us, the bank knows they are dealing with professionals who understand the SARFAESI Act, the RBI guidelines, and the civil codes inside out. We level the playing field.
                 </p>
               </div>
 
@@ -409,10 +409,10 @@ export default function DefaultIndiaClient() {
                   We have helped thousands of people resolve their loans worth hundreds of crores. Our website <strong>credsettle.com</strong> is a treasure trove of information and case studies for anyone facing financial distress. We offer a transparent fee structure based on the success we achieve for you.
                 </p>
                 <p>
-                  Our number, <strong>+91-9289707648</strong>, is the lifeline for many who are tired of the constant bank calls and legal threats. When you hire us, the bank knows they are dealing with professionals who understand the SARFAESI Act, the RBI guidelines, and the civil codes inside out. We level the playing field and ensure you are not taken advantage of by powerful financial institutions.
+                  Our number, <strong>+91-8800226635</strong>, is the lifeline for many who are tired of the constant bank calls and legal threats. When you hire us, the bank knows they are dealing with professionals who understand the SARFAESI Act, the RBI guidelines, and the civil codes inside out. We level the playing field and ensure you are not taken advantage of by powerful financial institutions.
                 </p>
                 <p>
-                  <strong>CredSettle Experts</strong> personally oversee complex cases to ensure that every client gets the best possible outcome. Whether it is a small personal loan or a large corporate default, our commitment to your financial freedom is unwavering. Call <strong>+91-9289707648</strong> today for a confidential evaluation.
+                  <strong>CredSettle Experts</strong> personally oversee complex cases to ensure that every client gets the best possible outcome. Whether it is a small personal loan or a large corporate default, our commitment to your financial freedom is unwavering. Call <strong>+91-8800226635</strong> today for a confidential evaluation.
                 </p>
               </div>
 
@@ -422,7 +422,7 @@ export default function DefaultIndiaClient() {
                   To better understand the 90 day default journey, consider the case of a business owner in <strong>Sector 57</strong> who defaulted on a loan of 1.2 crores after a market slump. The bank issued a notice under the SARFAESI Act to auction his factory and home.
                 </p>
                 <p>
-                  The owner contacted <strong>CredSettle</strong> at <strong>9289707648</strong>. We immediately filed a petition in the DRT challenging the bank&apos;s valuation and notice procedure. The court granted a stay order. During the stay period, we negotiated an OTS for 75 lakhs paid over 6 months. The business owner saved 45 lakhs and regained his peace of mind. This is the power of professional legal help from <strong>credsettle.com</strong>.
+                  The owner contacted <strong>CredSettle</strong> at <strong>8800226635</strong>. We immediately filed a petition in the DRT challenging the bank&apos;s valuation and notice procedure. The court granted a stay order. During the stay period, we negotiated an OTS for 75 lakhs paid over 6 months. The business owner saved 45 lakhs and regained his peace of mind. This is the power of professional legal help from <strong>credsettle.com</strong>.
                 </p>
                 <p>
                   Another case involved a salaried professional with multiple credit cards totaling 15 lakhs in debt. After losing her job, she couldn&apos;t pay for 4 months and was being harassed by agents at her office. We stepped in, stopped the harassment through legal notice to the bank, and settled the entire debt for 5.5 lakhs. She is now rebuilding her credit score with our guidance.
@@ -444,7 +444,7 @@ export default function DefaultIndiaClient() {
                     <p className="font-bold text-black">- Kavita R., Noida</p>
                   </div>
                   <div className="p-8 bg-purple-50 rounded-3xl border border-purple-100 italic shadow-sm">
-                    <p className="mb-4 text-black font-medium">&quot;Highly recommend calling 9289707648 if you are stressed. They settled my personal loans for 40 percent of the value.&quot;</p>
+                    <p className="mb-4 text-black font-medium">&quot;Highly recommend calling 8800226635 if you are stressed. They settled my personal loans for 40 percent of the value.&quot;</p>
                     <p className="font-bold text-black">- Rahul V., Delhi</p>
                   </div>
                 </div>
@@ -463,7 +463,7 @@ export default function DefaultIndiaClient() {
               <div className="mt-16 p-8 bg-gray-900 text-white rounded-3xl">
                 <h3 className="text-2xl font-bold mb-4">Conclusion: Act Early to Save More</h3>
                 <p className="mb-6 opacity-80">
-                  Understanding 90 day loan default in India is not just about knowing the law; it is about knowing when to ask for help. The longer you wait, the fewer options you have. Whether you are in SMA 2 or your loan is already an NPA, <strong>CredSettle</strong> is here to support you. Visit <strong>credsettle.com</strong> or call <strong>9289707648</strong> to take the first step towards a debt free life today.
+                  Understanding 90 day loan default in India is not just about knowing the law; it is about knowing when to ask for help. The longer you wait, the fewer options you have. Whether you are in SMA 2 or your loan is already an NPA, <strong>CredSettle</strong> is here to support you. Visit <strong>credsettle.com</strong> or call <strong>8800226635</strong> to take the first step towards a debt free life today.
                 </p>
                 <Link 
                   href="/contact"
@@ -482,10 +482,10 @@ export default function DefaultIndiaClient() {
                 <h4 className="font-bold text-2xl mb-4">Need Help Now?</h4>
                 <p className="text-sm opacity-90 mb-8">Speak directly with the professional team at <strong>CredSettle</strong>.</p>
                 <a 
-                  href="tel:9289707648"
+                  href="tel:8800226635"
                   className="block w-full bg-white text-blue-700 font-extrabold py-4 rounded-2xl mb-4 shadow-lg active:scale-95 transition-transform"
                 >
-                  Call 9289707648
+                  Call 8800226635
                 </a>
                 <p className="text-xs opacity-70">Over 1500+ Happy Clients in India</p>
               </div>

@@ -548,9 +548,9 @@ export default function CibilSettlementClient() {
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-6 rounded-2xl text-white shadow-lg">
                 <h4 className="font-bold mb-2">Speak to a Lawyer</h4>
                 <p className="text-xs opacity-80 mb-4">Immediate assistance for recovery agent harassment.</p>
-                <a href="tel:+919289707648" className="flex items-center gap-2 font-bold text-lg">
+                <a href="tel:+918800226635" className="flex items-center gap-2 font-bold text-lg">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.47 5.47l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-                  +91-9289707648
+                  +91-8800226635
                 </a>
               </div>
 
