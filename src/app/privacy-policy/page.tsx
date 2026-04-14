@@ -44,7 +44,7 @@ const SECTIONS = [
       'Billing details required to process professional fees (we never store full credit/debit card numbers).',
     ],
     footer:
-      'By providing your mobile number or email address, you consent to receive essential service communications from CredSettle-even if your number is registered on the DND list.',
+      'You consent to receive essential service-related communications necessary for the use of the application.',
   },
   {
     icon: 'fa-chart-bar',
@@ -162,6 +162,7 @@ const SECTIONS = [
       'Update or Correct Data: You can request corrections to any inaccurate or incomplete information.',
       'Request Deletion: You may request deletion of your personal data, subject to legal or regulatory retention requirements.',
       'Withdraw Consent: You may withdraw your consent for communications or data usage where applicable.',
+      'Request Deletion: Users may request deletion of their account and associated personal data directly through the “Delete Account” option available within the Account section of the application. Alternatively, users can contact our support team for assistance with account deletion requests.'
     ],
     footer:
       'To exercise any of these rights or for any privacy-related concerns, you can contact us at info@credsettle.com. We will review and respond to all legitimate requests within a reasonable timeframe as required by applicable laws.',
