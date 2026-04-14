@@ -31,6 +31,77 @@ const SECTIONS = [
       'We use aggregated insights to improve usability, prioritise new features, and tighten the security posture of our platform.',
   },
   {
+    icon: 'fa-child',
+    title: 'Children’s Privacy',
+    description:
+      'CredSettle does not knowingly collect or solicit personal information from individuals under the age of 18. Our services and mobile applications are intended solely for use by adults.',
+    bullets: [
+      'If we become aware that we have collected personal data from a user under the age of 18 without verified parental consent, we will take immediate steps to delete such information from our systems.',
+      'If you are a parent or guardian and believe that your child has provided personal information to CredSettle, please contact us at info@credsettle.com, and we will take appropriate action to remove such data promptly.',
+    ],
+    footer:
+      'We encourage parents and guardians to supervise their children’s online activities to ensure a safe digital experience. CredSettle is committed to complying with applicable data protection and children’s privacy laws.',
+  },
+  {
+    icon: 'fa-database',
+    title: 'Data Retention Policy',
+    description: 'Data Retention: We retain personal information only for as long as necessary to:',
+    bullets: [
+      'Provide our services',
+      'Fulfill legal and regulatory obligations',
+      'Resolve disputes and enforce agreements',
+    ],
+    footer: 'After this period, data is securely deleted or anonymized.',
+  },
+  {
+    icon: 'fa-server',
+    title: 'Third-Party Services Disclosure',
+    description:
+      'CredSettle uses trusted third-party services to provide core application functionality, improve performance, and enhance user experience. These services may process limited user data on our behalf under their respective privacy policies. We currently use the following third-party services:',
+    bullets: [
+      'Google Firebase – used for backend services including authentication, database storage, analytics, and crash reporting.',
+      'Firebase Cloud Messaging (FCM) – used to send push notifications and important service updates to users.',
+      'Google Sign-In Authentication – used to allow users to securely sign in using their Google account.',
+    ],
+    footer:
+      'These third-party providers may collect and process certain information such as device identifiers, authentication tokens, and usage data strictly for service functionality. We do not sell or misuse this data. Each third-party service operates under its own privacy policy, and we encourage users to review them for more details. CredSettle ensures that all third-party integrations are used only to support app functionality and maintain service reliability and security.',
+  },
+  {
+    icon: 'fa-ban',
+    title: 'No Advertising Policy',
+    description:
+      'CredSettle does not display any third-party advertisements within the mobile application.',
+    bullets: [
+      'We do not use advertising networks, ad tracking tools, or personalized advertising services in the app. The experience is designed to remain clean, simple, and free from promotional content.',
+    ],
+    footer:
+      'We do not share user data with advertisers or marketing networks. If this policy is updated in the future, users will be informed through an updated version of this Privacy Policy.',
+  },
+  {
+    icon: 'fa-scale-balanced',
+    title: 'User Rights',
+    description:
+      'As a user of CredSettle, you have certain rights regarding your personal information in accordance with applicable data protection laws, including relevant privacy regulations such as GDPR, CCPA, and India’s Digital Personal Data Protection Act, 2023. You are entitled to:',
+    bullets: [
+      'Access Your Information: You may request access to the personal data we store about you.',
+      'Update or Correct Data: You can request corrections to any inaccurate or incomplete information.',
+      'Request Deletion: You may request deletion of your personal data, subject to legal or regulatory retention requirements.',
+      'Withdraw Consent: You may withdraw your consent for communications or data usage where applicable.',
+    ],
+    footer:
+      'To exercise any of these rights or for any privacy-related concerns, you can contact us at info@credsettle.com. We will review and respond to all legitimate requests within a reasonable timeframe as required by applicable laws.',
+  },
+  {
+    icon: 'fa-file-signature',
+    title: 'User Consent & Acceptance',
+    description:
+      'By accessing or using CredSettle, you acknowledge that you have read, understood, and agree to be bound by our Terms & Conditions and Privacy Policy.',
+    bullets: [
+      'By continuing to use the application, you also consent to the collection and use of information as described in the Privacy Policy.',
+      'If you do not agree with these terms, you should discontinue using the application.',
+    ],
+  },
+  {
     icon: 'fa-cookie-bite',
     title: 'Cookies & Tracking Technologies',
     description:
@@ -234,14 +305,19 @@ export default function PrivacyPolicyPage() {
                           <i className="fa-solid fa-check text-[#007AFF] pt-1" aria-hidden="true" />
                           {bullet.includes('info@credsettle.com') ? (
                             <span>
-                              {bullet.replace('info@credsettle.com.', '')}
-                              <Link
-                                href="mailto:info@credsettle.com"
-                                className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity"
-                              >
-                                info@credsettle.com
-                              </Link>
-                              .
+                              {bullet.split('info@credsettle.com').map((part, index, array) => (
+                                <span key={index}>
+                                  {part}
+                                  {index < array.length - 1 && (
+                                    <Link
+                                      href="mailto:info@credsettle.com"
+                                      className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity"
+                                    >
+                                      info@credsettle.com
+                                    </Link>
+                                  )}
+                                </span>
+                              ))}
                             </span>
                           ) : (
                             <span>{bullet}</span>
