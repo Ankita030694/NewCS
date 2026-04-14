@@ -5,6 +5,35 @@ import Navbar from '@/components/Navbar';
 
 const SECTIONS = [
   {
+    icon: 'fa-user-gear',
+    title: 'How We Use Your Information',
+    description: 'We use the collected information strictly for the following purposes:',
+    bullets: [
+      'To create, verify, and manage your user account',
+      'To authenticate users via Google Sign-In and other login methods',
+      'To securely store and process data using Firebase services',
+      'To send important notifications, alerts, and updates through Firebase Cloud Messaging (FCM)',
+      'To respond to user queries, including assistance through our in-app “Contact Support” feature available in the Account section, as well as email-based support',
+      'To provide customer support and resolve user issues related to account access, services, or app functionality',
+      'To improve application performance, stability, and overall user experience',
+      'To monitor, detect, and prevent fraudulent or unauthorized activity',
+      'To comply with applicable legal, regulatory, and security obligations',
+    ],
+    footer:
+      'We only collect and process information that is necessary for providing core application functionality and maintaining secure service operations.',
+  },
+  {
+    icon: 'fa-gavel',
+    title: 'Legal Basis for Processing',
+    description: 'We process your personal data based on one or more of the following grounds:',
+    bullets: [
+      'Your consent when you use our application',
+      'The necessity to provide requested services',
+      'Compliance with applicable legal obligations',
+      'Legitimate interests such as improving app performance and security',
+    ],
+  },
+  {
     icon: 'fa-user-shield',
     title: 'Collection of Personally Identifiable Information',
     description:
@@ -66,6 +95,53 @@ const SECTIONS = [
       'These third-party providers may collect and process certain information such as device identifiers, authentication tokens, and usage data strictly for service functionality. We do not sell or misuse this data. Each third-party service operates under its own privacy policy, and we encourage users to review them for more details. CredSettle ensures that all third-party integrations are used only to support app functionality and maintain service reliability and security.',
   },
   {
+    icon: 'fa-cloud',
+    title: 'Data Processing & Storage',
+    description:
+      'Your information may be processed and stored securely using trusted cloud infrastructure services such as Firebase, which is a Google platform.',
+    bullets: [
+      'Data may be processed in secure servers located in different regions depending on service availability, performance optimization, and reliability requirements.',
+      'We ensure that all third-party service providers follow strict data protection, security, and compliance standards.',
+    ],
+    footer: (
+      <div className="flex flex-col gap-3">
+        <p>For more information on how Google/Firebase handles data, please refer to their official privacy documentation:</p>
+        <ul className="flex flex-col gap-2">
+          <li className="flex flex-wrap gap-1 items-center">
+            <span className="font-medium text-[#0C2756]">Google Privacy Policy:</span>
+            <Link
+              href="https://policies.google.com/privacy"
+              target="_blank"
+              className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity break-all"
+            >
+              https://policies.google.com/privacy
+            </Link>
+          </li>
+          <li className="flex flex-wrap gap-1 items-center">
+            <span className="font-medium text-[#0C2756]">Firebase Privacy and Security:</span>
+            <Link
+              href="https://firebase.google.com/support/privacy"
+              target="_blank"
+              className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity break-all"
+            >
+              https://firebase.google.com/support/privacy
+            </Link>
+          </li>
+          <li className="flex flex-wrap gap-1 items-center">
+            <span className="font-medium text-[#0C2756]">Google Cloud Data Processing Terms:</span>
+            <Link
+              href="https://cloud.google.com/terms/data-processing-terms"
+              target="_blank"
+              className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity break-all"
+            >
+              https://cloud.google.com/terms/data-processing-terms
+            </Link>
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     icon: 'fa-ban',
     title: 'No Advertising Policy',
     description:
@@ -100,16 +176,7 @@ const SECTIONS = [
       'If you do not agree with these terms, you should discontinue using the application.',
     ],
   },
-  {
-    icon: 'fa-cookie-bite',
-    title: 'Cookies & Tracking Technologies',
-    description:
-      'CredSettle relies on first-party cookies and trusted analytics tools to maintain session continuity, remember your preferences, and measure campaign effectiveness. You retain full control:',
-    bullets: [
-      'Manage cookie permissions directly via your browser privacy settings.',
-      'Request manual opt-out or cookie removal support by emailing info@credsettle.com.',
-    ],
-  },
+
   {
     icon: 'fa-people-arrows',
     title: 'Sharing of Personal Information',
@@ -117,7 +184,7 @@ const SECTIONS = [
       'We disclose personal information only when necessary with trusted affiliates, operational vendors, and legal authorities. Typical scenarios include:',
     bullets: [
       'Fraud detection, credit risk assessment, and platform security enforcement.',
-      'Service delivery partners who assist with RBI-compliant negotiations or technology infrastructure.',
+      'Service delivery partners who assist with debt settlement support services in India or technology infrastructure.',
       'Corporate restructuring events such as mergers, acquisitions, or investment diligence-always under confidentiality obligations.',
     ],
   },
@@ -128,38 +195,29 @@ const SECTIONS = [
       'We implement industry-standard safeguards (including SSL encryption, access controls, and regular audits) to protect your information. While no Internet transmission is 100% secure, we continually strengthen our defences.',
   },
   {
-    icon: 'fa-comment-dots',
-    title: 'Testimonials & Case Studies',
+    icon: 'fa-bullhorn',
+    title: 'Privacy Policy Updates',
     description:
-      'With your explicit consent, we may publish anonymised success stories or testimonials that highlight CredSettle outcomes. You can request edits or removal at any time by contacting our team.',
-  },
-  {
-    icon: 'fa-envelope-open',
-    title: 'Contacting CredSettle',
-    description:
-      'For privacy questions, data access requests, or escalation, reach us at:',
-    footer: (
-      <Link
-        href="mailto:info@credsettle.com"
-        className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity"
-      >
-        info@credsettle.com
-      </Link>
-    ),
+      'We may update this Privacy Policy from time to time to reflect changes in our services, legal requirements, or data handling practices.',
+    bullets: [
+      'When we make significant changes, we will notify users through appropriate channels, which may include in-app notifications, updates within the application, or other direct communication methods where applicable.',
+      'The latest version of the Privacy Policy will always be available through the link provided within the application.',
+      'We encourage users to review this Privacy Policy periodically to stay informed about how we protect and use their information.',
+    ],
   },
 ];
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | CredSettle Data Protection & Confidentiality',
   description:
-    'Understand how CredSettle collects, safeguards, and utilises personal information for RBI-compliant debt settlement services. Review cookies, data sharing, security, and contact details.',
+    'Understand how CredSettle collects, safeguards, and utilises personal information for debt settlement support services in India. Review cookies, data sharing, security, and contact details.',
   alternates: {
     canonical: 'https://www.credsettle.com/privacy-policy',
   },
   openGraph: {
     title: 'Privacy Policy | CredSettle',
     description:
-      'Learn how CredSettle safeguards your personal information, uses cookies, and shares data responsibly for RBI-compliant loan settlements.',
+      'Learn how CredSettle safeguards your personal information, uses cookies, and shares data responsibly for debt settlement support services in India.',
     url: 'https://www.credsettle.com/privacy-policy',
     type: 'article',
   },
@@ -187,7 +245,7 @@ export default function PrivacyPolicyPage() {
     name: 'CredSettle Privacy Policy',
     url: 'https://www.credsettle.com/privacy-policy',
     description:
-      'Review how CredSettle collects, protects, and shares personal and non-personal information while providing RBI-compliant debt settlement services.',
+      'Review how CredSettle collects, protects, and shares personal and non-personal information while providing debt settlement support services in India.',
     inLanguage: 'en-IN',
     breadcrumb: {
       '@type': 'BreadcrumbList',
@@ -262,8 +320,8 @@ export default function PrivacyPolicyPage() {
                   <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8">
                     At <strong>CredSettle.com</strong> ("CredSettle", "we", or "us"), protecting your personal and
                     financial information is integral to how we operate. This Privacy Policy explains what data we
-                    collect, why we collect it, and the safeguards we apply while delivering RBI-compliant debt
-                    settlement services through our website and mobile experiences.
+                    collect, why we collect it, and the safeguards we apply while delivering debt settlement
+                    support services in India through our website and mobile experiences.
                   </p>
                 </div>
                 <div className="rounded-2xl bg-white/70 px-5 py-4 text-sm md:text-base md:leading-7 text-[rgba(12,39,86,0.75)] shadow-inner border border-[#B9DFFF]/60">
@@ -337,29 +395,7 @@ export default function PrivacyPolicyPage() {
           </div>
         </section>
 
-        <section className="pb-24">
-          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-            <div className="rounded-3xl bg-gradient-to-r from-[#1A7BFF] via-[#3C97FF] to-[#6FC2FF] px-8 py-10 md:px-12 md:py-14 shadow-[0_32px_54px_rgba(0,96,181,0.25)]">
-              <div className="flex flex-col gap-6 text-white md:flex-row md:items-center md:justify-between">
-                <div className="flex flex-col gap-3 md:max-w-2xl">
-                  <h3 className="text-2xl font-semibold md:text-[28px] md:leading-[36px]">
-                    Want a deeper look at CredSettle’s compliance safeguards?
-                  </h3>
-                  <p className="text-sm leading-6 text-white/85 md:text-base md:leading-7">
-                    Our compliance specialists can walk you through data handling protocols, confidentiality agreements,
-                    and how we coordinate with creditors to protect your information.
-                  </p>
-                </div>
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center rounded-full bg-white px-7 py-3 text-sm font-semibold text-[#0C2756] shadow-lg transition-transform hover:-translate-y-0.5 hover:shadow-xl md:px-8 md:py-3.5 md:text-base"
-                >
-                  Speak with Compliance
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
+     
       </main>
 
     </div>
