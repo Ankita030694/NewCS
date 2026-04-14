@@ -41,7 +41,7 @@ const SECTIONS = [
     bullets: [
       'Full name, email address, mailing address, and phone number for identification and secure communication.',
       'Company name, team size, and business type when you enquire on behalf of an organisation.',
-      'Billing details required to process professional fees (we never store full credit/debit card numbers).',
+      'Billing details required to process professional fees (We do not store complete payment card details.).',
     ],
     footer:
       'You consent to receive essential service-related communications necessary for the use of the application.',
@@ -160,7 +160,6 @@ const SECTIONS = [
     bullets: [
       'Access Your Information: You may request access to the personal data we store about you.',
       'Update or Correct Data: You can request corrections to any inaccurate or incomplete information.',
-      'Request Deletion: You may request deletion of your personal data, subject to legal or regulatory retention requirements.',
       'Withdraw Consent: You may withdraw your consent for communications or data usage where applicable.',
       'Request Deletion: Users may request deletion of their account and associated personal data directly through the “Delete Account” option available within the Account section of the application. Alternatively, users can contact our support team for assistance with account deletion requests.'
     ],
