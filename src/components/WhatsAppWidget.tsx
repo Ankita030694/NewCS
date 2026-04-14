@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
@@ -8,6 +9,13 @@ const WHATSAPP_NUMBER = '8800226635';
 const WHATSAPP_URL = `https://wa.me/91${WHATSAPP_NUMBER}?text=${encodeURIComponent('I want to settle my loans')}`;
 
 export default function WhatsAppWidget() {
+  const pathname = usePathname();
+
+  // Hide WhatsApp widget on privacy-policy page
+  if (pathname === '/privacy-policy') {
+    return null;
+  }
+
   return (
     <div className="fixed bottom-6 right-4 z-50 flex flex-col items-end gap-3 sm:right-6 sm:bottom-6">
       <div className="rounded-full bg-white/90 px-4 py-2 text-xs font-medium text-[#0C2756] shadow-[0_12px_25px_rgba(0,0,0,0.12)] backdrop-blur-md">

@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 
 const SECTIONS = [
   {
@@ -363,7 +362,6 @@ export default function PrivacyPolicyPage() {
         </section>
       </main>
 
-      <Footer />
     </div>
   );
 }
