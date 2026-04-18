@@ -503,6 +503,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/does-settlement-erase-the-debt-completely`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/is-cibil-ruined-forever-after-settlement`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -1590,6 +1597,14 @@ async function generateSitemap(): Promise<string> {
   // Best Lawyer for Bank Harassment for Loan page
   urls.push({
     loc: `${baseUrl}/best-lawyer-for-bank-harassment-for-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // How to Settle 7-Day Loan Apps page
+  urls.push({
+    loc: `${baseUrl}/how-to-settle-7-days-loan-app`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

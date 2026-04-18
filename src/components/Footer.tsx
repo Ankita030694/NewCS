@@ -252,6 +252,8 @@ export default function Footer() {
               <a href="/loan-settlement-for-msme-owners" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for MSME Owners</a>
               <a href="/loan-settlement-for-traders" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for Traders</a>
               <a href="/loan-settlement-during-medical-emergency" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement During Medical Emergency</a>
+              <a href="/does-settlement-erase-the-debt-completely" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Does Settlement Erase Debt Completely?</a>
+              <a href="/how-to-settle-7-days-loan-app" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Settle 7-Days Loan App</a>
 
 
               </div>
