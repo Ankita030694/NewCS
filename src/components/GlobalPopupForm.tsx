@@ -27,6 +27,13 @@ export default function GlobalPopupForm() {
   });
 
   useEffect(() => {
+    // Check if user has already submitted (persistent)
+    const formSubmitted = localStorage.getItem('credsettle:form_submitted');
+    if (formSubmitted === 'true') {
+      setAlreadySubmittedToday(true);
+      return;
+    }
+
     // Check if user has already submitted today
     const lastSubmissionDate = localStorage.getItem('credsettle:last_submission_date');
     const today = new Date().toLocaleDateString('en-GB', {
@@ -231,6 +238,7 @@ export default function GlobalPopupForm() {
       localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
       localStorage.setItem('credsettle:user_phone', formData.number.trim());
       localStorage.setItem('credsettle:last_submission_date', formattedDate);
+      localStorage.setItem('credsettle:form_submitted', 'true');
       setAlreadySubmittedToday(true);
 
       // Track Lead event

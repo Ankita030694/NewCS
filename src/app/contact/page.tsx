@@ -34,6 +34,13 @@ function ContactPageContent() {
     const userAgent = navigator.userAgent.toLowerCase();
     setIsFirefox(userAgent.includes('firefox'));
 
+    // Check if user has already submitted (persistent)
+    const formSubmitted = localStorage.getItem('credsettle:form_submitted');
+    if (formSubmitted === 'true') {
+      setAlreadySubmittedToday(true);
+      return;
+    }
+
     // Check if user has already submitted today
     const lastSubmissionDate = localStorage.getItem('credsettle:last_submission_date');
     const today = new Date().toLocaleDateString('en-GB', {
@@ -254,6 +261,7 @@ function ContactPageContent() {
       localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
       localStorage.setItem('credsettle:user_phone', formData.number.trim());
       localStorage.setItem('credsettle:last_submission_date', formattedDate);
+      localStorage.setItem('credsettle:form_submitted', 'true');
       setAlreadySubmittedToday(true);
 
       // Explicitly track Lead event with value and currency
