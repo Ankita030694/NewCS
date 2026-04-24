@@ -13,7 +13,8 @@ type PageProps = {
   params: PageParams | Promise<PageParams>;
 };
 
-export const revalidate = 300; // Revalidate every 5 minutes
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 const stripHtml = (value: string): string =>
   value.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();

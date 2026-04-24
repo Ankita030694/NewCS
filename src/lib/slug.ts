@@ -5,6 +5,11 @@ const getPathnameFromInput = (input: string): string => {
     return '';
   }
 
+  // If it's already a simple slug, don't try to parse as URL
+  if (!value.includes('://') && !value.includes('/') && !value.includes('.')) {
+    return value;
+  }
+
   const tryParse = (candidate: string): string | null => {
     try {
       const url = new URL(candidate);
@@ -16,9 +21,9 @@ const getPathnameFromInput = (input: string): string => {
 
   const parsed =
     tryParse(value) ??
-    (value.includes('.') ? tryParse(`https://${value}`) : null);
+    (value.includes('.') && value.includes('/') ? tryParse(`https://${value}`) : null);
 
-  if (parsed !== null) {
+  if (parsed !== null && parsed !== '/') {
     return parsed;
   }
 

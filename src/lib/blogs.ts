@@ -186,14 +186,15 @@ async function fetchBlogsPage(page: number, limit: number, searchQuery?: string)
   };
 }
 
-export const getPaginatedBlogs = unstable_cache(
-  async (page: number, limit: number, searchQuery?: string) => fetchBlogsPage(page, limit, searchQuery),
-  ['blogs-paginated'],
-  {
-    revalidate: 300,
-    tags: ['blogs'],
-  }
-);
+export const getPaginatedBlogs = (page: number, limit: number, searchQuery?: string) => 
+  unstable_cache(
+    async () => fetchBlogsPage(page, limit, searchQuery),
+    ['blogs-paginated', page.toString(), limit.toString(), searchQuery || 'none'],
+    {
+      revalidate: 300,
+      tags: ['blogs'],
+    }
+  )();
 
 async function fetchAllBlogs(): Promise<BlogDocument[]> {
   const blogsRef = collection(db, 'blogs');
@@ -212,21 +213,44 @@ export const getAllBlogs = unstable_cache(
 );
 
 export async function getBlogBySlug(slug: string): Promise<BlogDocument | null> {
+  if (!slug) return null;
+
   const canonical = canonicaliseSlug(slug);
   if (!canonical) {
     return null;
   }
 
+  // Try to get blogs from cache
   const blogs = await getAllBlogs();
+  
+  const findBlog = (list: BlogDocument[]) => {
+    return (
+      list.find((blog) => canonicaliseSlug(blog.slug) === canonical) ??
+      list.find((blog) => canonicaliseSlug(generateSlugFromTitle(blog.title)) === canonical) ??
+      list.find((blog) => canonicaliseSlug(blog.id) === canonical)
+    );
+  };
 
-  return (
-    blogs.find((blog) => canonicaliseSlug(blog.slug) === canonical) ??
-    blogs.find(
-      (blog) => canonicaliseSlug(generateSlugFromTitle(blog.title)) === canonical
-    ) ??
-    blogs.find((blog) => canonicaliseSlug(blog.id) === canonical) ??
-    null
-  );
+  let blog = findBlog(blogs);
+
+  // Fallback: If not found in cache, try fetching directly by ID if it looks like one
+  // or fetch fresh by slug if we can (though we'd need an index for a query)
+  if (!blog && (slug.length >= 15 || slug.includes('-'))) {
+    try {
+      // Direct ID fetch
+      const { doc, getDoc } = await import('firebase/firestore');
+      const docRef = doc(db, 'blogs', slug);
+      const docSnap = await getDoc(docRef);
+      
+      if (docSnap.exists()) {
+        blog = mapDocToBlogDocument(docSnap as any);
+      }
+    } catch (e) {
+      console.error('Direct fetch fallback failed:', e);
+    }
+  }
+
+  return blog || null;
 }
 
 export async function getRelatedBlogs(
