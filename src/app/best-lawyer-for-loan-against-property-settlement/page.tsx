@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BestLawyerLAPClient from './BestLawyerLAPClient';
 
 export const metadata: Metadata = {
-    title: 'Best Lawyer for Loan Against Property Settlement | Stop Auctions & Secure OTS',
+    title: 'Best Lawyer for Loan Against Property Settlement',
     description: 'Facing a Loan Against Property default? Hire the best lawyer to stop illegal SARFAESI property auctions, secure DRT stay orders, and relentlessly negotiate a highly favorable One-Time Settlement (OTS). Save your real estate today.',
     alternates: {
         canonical: new URL('https://www.credsettle.com/best-lawyer-for-loan-against-property-settlement'),

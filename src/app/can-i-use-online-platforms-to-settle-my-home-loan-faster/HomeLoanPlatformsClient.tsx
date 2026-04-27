@@ -527,10 +527,10 @@ export default function HomeLoanPlatformsClient() {
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/services/business-corporate-loan-matters" className="block text-sm text-blue-600 hover:underline">Corporate Secured Debt</Link>
+                                    <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Corporate Secured Debt</Link>
                                     <Link href="/what-are-the-key-benefits-and-drawbacks-of-pursuing-a-loan-settlement" className="block text-sm text-blue-600 hover:underline">General Value of Settlement</Link>
                                     <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="block text-sm text-blue-600 hover:underline">Secured CIBIL Impact</Link>
-                                    <Link href="/services/harassment-protection" className="block text-sm text-blue-600 hover:underline">Recovery Agent Stops</Link>
+                                    <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Recovery Agent Stops</Link>
                                 </nav>
                             </div>
 

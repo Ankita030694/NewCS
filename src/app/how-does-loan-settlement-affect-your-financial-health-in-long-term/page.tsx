@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LongTermFinancialHealthClient from './LongTermFinancialHealthClient';
 
 export const metadata: Metadata = {
-    title: "How Does Loan Settlement Affect Your Financial Health in the Long Term? | CredSettle",
+    title: "Loan Settlement Impact on Long-Term Financial Health",
     description: "Discover the 7-year impact of loan settlement on your financial health. Learn about CIBIL score recovery, future loan eligibility, and RBI 2025 borrower rights.",
     keywords: [
         "how does loan settlement affect financial health",

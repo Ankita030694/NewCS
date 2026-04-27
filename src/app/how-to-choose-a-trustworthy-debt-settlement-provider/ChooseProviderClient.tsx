@@ -521,7 +521,7 @@ const ChooseProviderClient = () => {
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
                                 <p className="text-blue-800 mb-6">Selecting a provider is a high-stakes decision. You don’t have to navigate these confusing choices alone. Our team of certified investigators and legal advisors is here to verify your potential partner and ensure you choose a firm that prioritizes your financial recovery.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
                                 >
                                     Book Your Agency Audit
@@ -536,7 +536,7 @@ const ChooseProviderClient = () => {
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Is Your Agency Legit?</h4>
                                 <p className="text-sm text-gray-600 mb-6">Submit your existing debt relief agreement for a free professional audit for red flags.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                                 >
                                     Get Auditor’s Report

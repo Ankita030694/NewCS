@@ -4,7 +4,7 @@ import Script from 'next/script';
 import BouncedSecurityCheckClient from './BouncedSecurityCheckClient';
 
 export const metadata: Metadata = {
-    title: 'Best Lawyers for Bounced Security Check for Loans & Credit Card Disputes in India',
+    title: 'Best Lawyers for Bounced Security Check for Loans',
     description: 'Facing a Section 138 NI Act case for a bounced security cheque? Get expert legal defense for loan and credit card disputes in India. Learn your rights and defenses for 2025.',
     keywords: 'best lawyer for bounced security check, Section 138 NI Act defense, security cheque bounce credit card, loan security cheque legal notice, cheque bounce lawyer India, credit card dispute lawyer',
     alternates: {

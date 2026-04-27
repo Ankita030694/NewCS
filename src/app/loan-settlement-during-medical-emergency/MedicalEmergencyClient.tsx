@@ -543,28 +543,28 @@ export default function MedicalEmergencyClient() {
                             <div className="bg-gray-50 p-10 rounded-3xl border border-gray-100 shadow-sm">
                                 <h4 className="font-extrabold text-gray-900 mb-8 border-b pb-4 uppercase tracking-widest text-[10px] text-blue-600">Crisis Expert Guides</h4>
                                 <nav className="space-y-6">
-                                    <Link href="/loan-settlement-during-job-loss" className="group flex justify-between items-center transition-all">
+                                    <Link href="/does-settlement-erase-the-debt-completely" className="group flex justify-between items-center transition-all">
                                         <div className="flex flex-col">
                                             <span className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Job Loss Shield</span>
                                             <span className="text-[10px] text-gray-400 uppercase font-light">Income Reset</span>
                                         </div>
                                         <svg className="w-4 h-4 text-gray-300 group-hover:text-blue-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/></svg>
                                     </Link>
-                                    <Link href="/loan-settlement-for-senior-citizens" className="group flex justify-between items-center transition-all">
+                                    <Link href="/support-for-loan-settlement-during-medical-emergencies" className="group flex justify-between items-center transition-all">
                                         <div className="flex flex-col">
                                             <span className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Senior Citizen Relief</span>
                                             <span className="text-[10px] text-gray-400 uppercase font-light">Pension Hardship</span>
                                         </div>
                                         <svg className="w-4 h-4 text-gray-300 group-hover:text-blue-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/></svg>
                                     </Link>
-                                    <Link href="/how-to-deal-with-collection-calls" className="group flex justify-between items-center transition-all">
+                                    <Link href="/how-to-deal-with-collection-calls-while-in-a-debt-settlement-program" className="group flex justify-between items-center transition-all">
                                         <div className="flex flex-col">
                                             <span className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Stop Agent Calls</span>
                                             <span className="text-[10px] text-gray-400 uppercase font-light">Privacy Law</span>
                                         </div>
                                         <svg className="w-4 h-4 text-gray-300 group-hover:text-blue-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/></svg>
                                     </Link>
-                                    <Link href="/rbi-new-recovery-guidelines" className="group flex justify-between items-center transition-all">
+                                    <Link href="/rbi-new-recovery-guidelines-july-2026" className="group flex justify-between items-center transition-all">
                                         <div className="flex flex-col">
                                             <span className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors">RBI Latest Rules</span>
                                             <span className="text-[10px] text-gray-400 uppercase font-light">Banking Rights</span>

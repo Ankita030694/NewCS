@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LoanAgreementDocReviewClient from './LoanAgreementDocReviewClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Documentation Review of Loan Agreement | Contract Analysis Expert 2025 | CredSettle",
+    title: "Best Lawyer for Loan Agreement Document Review (2025)",
     description: "Find the best lawyer for documentation review of loan agreements in India. Expert legal analysis of hidden clauses, arbitration terms, interest conditions, and RBI compliance checks before signing.",
     keywords: [
         "best lawyer for documentation review loan agreement",

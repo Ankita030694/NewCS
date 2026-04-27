@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BadLoanRecoveryStrategyClient from './BadLoanRecoveryStrategyClient';
 
 export const metadata: Metadata = {
-    title: "Bad Loan Recovery Strategy India 2025 | RBI Guidelines & SARFAESI Legal Help",
+    title: "Bad Loan Recovery Strategy India 2025 | RBI Guidelines",
     description: "Expert legal strategies for bad loan recovery in India 2025. Navigate RBI Securitisation of Stressed Assets (SSAF), SARFAESI Act, IBC, and Debt Recovery Tribunal (DRT) procedures.",
     keywords: [
         "bad loan recovery strategy India 2025",

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LoanAgreementDraftingReviewClient from './LoanAgreementDraftingReviewClient';
 
 export const metadata: Metadata = {
-    title: "Loan Agreement Drafting & Review Services in India | Legal Expert Review 2025",
+    title: "Loan Agreement Drafting & Review Services in India",
     description: "Professional loan agreement drafting and review services in India. Ensure your loan contracts are legally binding, fair, and RBI compliant. Book a legal review today.",
     keywords: [
         "loan agreement drafting review",

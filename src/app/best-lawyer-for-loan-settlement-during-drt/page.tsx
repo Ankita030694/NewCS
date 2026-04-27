@@ -3,7 +3,7 @@ import LoanSettlementDRTClient from './LoanSettlementDRTClient';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-    title: 'Best Lawyer for Loan Settlement During DRT Case India | Expert Legal Help 2025',
+    title: 'Best Lawyer for Loan Settlement During DRT Cases (2025)',
     description: 'Looking for the best lawyer for loan settlement during a DRT case in India? Get expert legal strategies for SARFAESI defense, DRT mediation, and bank negotiations to settle your debt effectively.',
     keywords: 'best lawyer for loan settlement during drt, drt loan settlement lawyer, debt recovery tribunal lawyer india, sarfaesi defense advocate, loan settlement during drt proceedings, debt settlement lawyer india, drt legal help, bank loan settlement expert',
     alternates: {

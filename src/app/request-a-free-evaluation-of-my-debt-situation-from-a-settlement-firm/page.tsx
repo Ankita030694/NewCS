@@ -6,7 +6,7 @@ import Script from 'next/script';
 import DebtEvaluationClient from './DebtEvaluationClient';
 
 export const metadata: Metadata = {
-    title: 'Request a Free Debt Situation Evaluation from a Settlement Firm (2025)',
+    title: 'Free Debt Evaluation from a Settlement Firm (2025)',
     description: 'Get a professional analysis of your debt situation. Learn about eligibility, hardship documentation, and the roadmap to becoming debt-free in India.',
     alternates: {
         canonical: 'https://www.credsettle.com/request-a-free-evaluation-of-my-debt-situation-from-a-settlement-firm',

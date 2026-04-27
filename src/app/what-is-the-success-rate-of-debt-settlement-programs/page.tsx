@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import SuccessRateClient from './SuccessRateClient';
 
 export const metadata: Metadata = {
-    title: "What is the Success Rate of Debt Settlement Programs? 2025 Industry Data",
+    title: "Success Rate of Debt Settlement Programs (2025)",
     description: "Discover the real success rate of debt settlement programs in India for 2025. Comprehensive data on savings, completion rates, and bank-specific outcomes for borrowers.",
     keywords: [
         "success rate of debt settlement programs",

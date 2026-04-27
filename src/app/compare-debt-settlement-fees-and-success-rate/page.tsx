@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import CompareFeesClient from './CompareFeesClient';
 
 export const metadata: Metadata = {
-    title: "Compare Debt Settlement Fees and Success Rate in India | 2025 Guide",
+    title: "Debt Settlement Fees and Success Rate Comparison",
     description: "Compare debt settlement charges, fee structures, and success rates across major Indian firms. Learn about percentage models, retainer fees, and RBI 2025 benchmarks.",
     keywords: [
         "compare debt settlement fees india",

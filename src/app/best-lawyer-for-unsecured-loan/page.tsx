@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BestLawyerUnsecuredLoanClient from './BestLawyerUnsecuredLoanClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Unsecured Loan in India | Legal Help for Debt 2025",
+    title: "Best Lawyer for Unsecured Loan Debt Help (2025)",
     description: "Expert legal assistance for unsecured loan disputes, recovery agent harassment, and DRT representation. Negotiate better settlements and protect your rights in India.",
     keywords: [
         "best lawyer for unsecured loan",

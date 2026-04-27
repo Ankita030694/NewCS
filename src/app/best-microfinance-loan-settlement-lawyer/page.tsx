@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MicrofinanceLoanSettlementLawyerClient from './MicrofinanceLoanSettlementLawyerClient';
 
 export const metadata: Metadata = {
-    title: "Best Microfinance Loan Settlement Lawyer India 2025 | MFI Debt Relief",
+    title: "Best Microfinance Loan Settlement Lawyer India (2025)",
     description: "Expert legal help for microfinance loan settlement in India. Navigate RBI 2024-2025 MFI guidelines, state-specific debt relief laws, and protection from coercive recovery.",
     keywords: [
         "best microfinance loan settlement lawyer India",

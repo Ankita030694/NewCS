@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LoanRecoveryDocumentationClient from './LoanRecoveryDocumentationClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Loan Recovery Documentation | Bank Recovery Legal Expert 2025 | CredSettle",
+    title: "Best Lawyer for Loan Recovery Documentation (2025)",
     description: "Find the best lawyer for loan recovery documentation in India. Expert preparation of DRT applications, SARFAESI notices, recovery affidavits, and all legal documents for bank loan recovery proceedings.",
     keywords: [
         "best lawyer for loan recovery documentation",

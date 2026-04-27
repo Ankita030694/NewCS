@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import StudentLoanSettlementClient from './StudentLoanSettlementClient';
 
 export const metadata: Metadata = {
-    title: "Specialized Programs for Settling Student Loan Defaults in India | CredSettle",
+    title: "Student Loan Default Settlement Programs in India",
     description: "Are there specialized programs for settling student loan defaults in India? Explore RBI guidelines, bank-specific OTS schemes, and legal-tech solutions for education debt.",
     keywords: [
         "specialized programs for settling student loan defaults in India",

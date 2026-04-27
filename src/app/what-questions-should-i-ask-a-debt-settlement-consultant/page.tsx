@@ -8,7 +8,7 @@ import WhatQuestionsDebtConsultantClient from './WhatQuestionsDebtConsultantClie
 const canonicalUrl = 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant';
 
 export const metadata: Metadata = {
-    title: "What Questions Should I Ask a Debt Settlement Consultant? 2025 Expert Guide",
+    title: "Questions to Ask a Debt Settlement Consultant",
     description: "Discover the 20+ essential questions you must ask a debt settlement consultant before hiring. Learn about fees, red flags, legal rights in India, and how to verify legitimacy.",
     keywords: [
         "what questions should i ask a debt settlement consultant",

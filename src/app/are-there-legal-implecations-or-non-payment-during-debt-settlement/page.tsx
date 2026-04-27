@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import LegalImplicationsClient from './LegalImplicationsClient';
 
 export const metadata: Metadata = {
-    title: 'Legal Implications of Non-Payment During Debt Settlement | 2025 Guide',
+    title: 'Legal Risks of Non-Payment During Debt Settlement (2025)',
     description: 'Understand the legal implications of non-payment during debt settlement in India. Detailed analysis of Section 138, SARFAESI Act, and RBI guidelines on recovery.',
     keywords: 'legal implications of non payment during debt settlement, section 138 cheque bounce, sarfaesi act india, rbi debt recovery guidelines, non payment consequences india',
     alternates: {

@@ -403,9 +403,9 @@ export default function DigitalLendingClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Guides</h4>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms" className="block text-sm text-blue-600 hover:underline">Verify digital offers</Link>
-                                    <Link href="/best-way-to-settle-credit-card-debt" className="block text-sm text-blue-600 hover:underline">Credit Card Settlement</Link>
+                                    <Link href="/services/credit-card-settlement" className="block text-sm text-blue-600 hover:underline">Credit Card Settlement</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Pros & Cons</Link>
-                                    <Link href="/how-to-initiate-a-full-and-final-settlement-discussion-with-my-bank" className="block text-sm text-blue-600 hover:underline">Start the Discussion</Link>
+                                    <Link href="/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank" className="block text-sm text-blue-600 hover:underline">Start the Discussion</Link>
                                 </nav>
                             </div>
 

@@ -510,7 +510,7 @@ const FindAgencyNearMeClient = () => {
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Local Search</h3>
                                 <p className="text-blue-800 mb-6">Finding local relief requires more than a simple Google search. You don’t have to navigate the complex legal and bank discussions alone. Our team of expert negotiators and legal advisors is here to ensure you get the best possible terms while providing localized legal defense.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
                                 >
                                     Start Local Consultation
@@ -525,7 +525,7 @@ const FindAgencyNearMeClient = () => {
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Ready to Settle?</h4>
                                 <p className="text-sm text-gray-600 mb-6">Our experts are ready to negotiate your 2025 debt settlement. Get a free quote today.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                                 >
                                     Request Free Review

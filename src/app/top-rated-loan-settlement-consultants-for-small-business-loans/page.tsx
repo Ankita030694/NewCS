@@ -4,7 +4,7 @@ import Script from 'next/script';
 import BusinessConsultantClient from './BusinessConsultantClient';
 
 export const metadata: Metadata = {
-  title: 'Top Rated Loan Settlement Consultants for Small Business Loans in India',
+  title: 'Top Loan Settlement Consultants for MSME Loans',
   description: 'Expert reviews of the best business debt resolution firms in 2025. Compare AMA Legal Solutions, CredSettle, and SettleLoans for MSME loan settlement.',
   keywords: 'business loan settlement consultants, MSME debt relief India, SARFAESI legal help, DRT advocates, small business debt resolution, corporate debt settlement, loan against property settlement',
   alternates: {

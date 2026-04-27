@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import CreditCardDefaultLegalActionClient from './CreditCardDefaultLegalActionClient';
 
 export const metadata: Metadata = {
-    title: "Legal Action for Credit Card Default in India | Recovery & Settlement Rights",
+    title: "Legal Action for Credit Card Default in India",
     description: "What legal action can banks take for credit card default in India? Learn about the recovery process, CIBIL impact, arbitration, and your rights against harassment.",
     keywords: [
         "legal action for credit card default India",

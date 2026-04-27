@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import CollectionCallsClient from './CollectionCallsClient';
 
 export const metadata: Metadata = {
-    title: "How to Deal with Collection Calls in Debt Settlement India 2025",
+    title: "Dealing with Collection Calls in Debt Settlement (2025)",
     description: "Learn how to handle collection calls and harassment while in a debt settlement program. Expert guide on RBI 2025/2026 guidelines, legal rights, and grievance redressal.",
     keywords: [
         "how to deal with collection calls during debt settlement",

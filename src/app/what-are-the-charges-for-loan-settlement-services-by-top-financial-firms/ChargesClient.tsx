@@ -554,7 +554,7 @@ export default function ChargesClient() {
                                     <Link href="/what-are-the-key-benefits-and-drawbacks-of-pursuing-a-loan-settlement" className="block text-sm text-blue-600 hover:underline">Pros and Cons Analysis</Link>
                                     <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="block text-sm text-blue-600 hover:underline">CIBIL Impact Reality</Link>
                                     <Link href="/debt-settlement-vs-debt-consolidation" className="block text-sm text-blue-600 hover:underline">Settlement vs Consolidation</Link>
-                                    <Link href="/services/business-corporate-loan-matters" className="block text-sm text-blue-600 hover:underline">Corporate Debt Fees</Link>
+                                    <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Corporate Debt Fees</Link>
                                 </nav>
                             </div>
 

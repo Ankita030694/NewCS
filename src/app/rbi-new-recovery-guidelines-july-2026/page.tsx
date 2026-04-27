@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import RBIRecoveryGuidelinesClient from './RBIRecoveryGuidelinesClient';
 
 export const metadata: Metadata = {
-    title: "RBI New Recovery Guidelines July 2026 | New Rules for Banks & NBFCs",
+    title: "RBI New Recovery Guidelines July 2026",
     description: "Explore the comprehensive RBI new recovery guidelines effective July 2026. Understand the new rules for debt recovery, borrower protection, and agent conduct in India.",
     keywords: [
         "RBI new recovery guidelines July 2026",

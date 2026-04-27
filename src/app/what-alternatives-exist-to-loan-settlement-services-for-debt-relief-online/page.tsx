@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import DebtReliefAlternativesClient from './DebtReliefAlternativesClient';
 
 export const metadata: Metadata = {
-    title: "Debt Relief Alternatives to Loan Settlement in India (2025) | CredSettle",
+    title: "Debt Relief Alternatives to Loan Settlement (2025)",
     description: "Discover effective alternatives to loan settlement for debt relief in India. Explore debt consolidation, loan restructuring, credit counseling, and legal options.",
     keywords: [
         "alternatives to loan settlement India",

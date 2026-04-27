@@ -536,7 +536,7 @@ export default function BestAppsClient() {
                                     <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="block text-sm text-blue-600 hover:underline">CIBIL Impact Score</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Right?</Link>
                                     <Link href="/which-companies-offer-loan-settlement-services-in-india" className="block text-sm text-blue-600 hover:underline">Settlement Agencies</Link>
-                                    <Link href="/what-happens-if-i-dont-pay-my-personal-loan" className="block text-sm text-blue-600 hover:underline">Legal Consequences</Link>
+                                    <Link href="/can-bank-file-case-for-personal-loan" className="block text-sm text-blue-600 hover:underline">Legal Consequences</Link>
                                 </nav>
                             </div>
                         </div>

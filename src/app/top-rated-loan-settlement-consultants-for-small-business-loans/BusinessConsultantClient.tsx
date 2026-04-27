@@ -411,7 +411,7 @@ export default function BusinessConsultantClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">MSME Debt Links</h4>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-loan-disputes" className="block text-sm text-blue-600 hover:underline">MSME Dispute Lawyer</Link>
-                                    <Link href="/business-loan-settlement-offers" className="block text-sm text-blue-600 hover:underline">Settlement Offer Guide</Link>
+                                    <Link href="/debt-settlement-offers-for-business-loans" className="block text-sm text-blue-600 hover:underline">Settlement Offer Guide</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">General Settlement FAQ</Link>
                                     <Link href="/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank" className="block text-sm text-blue-600 hover:underline">How to Start Discussion</Link>
                                 </nav>

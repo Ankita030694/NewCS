@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WillBanksBlacklistYouClient from './WillBanksBlacklistYouClient';
 
 export const metadata: Metadata = {
-    title: "Will Banks Blacklist You After Loan Settlement? 2025 Reality & RBI Rules",
+    title: "Will Banks Blacklist You After Loan Settlement?",
     description: "Find out if banks blacklist you after a loan settlement in India. Understand the 'Settled' status on CIBIL, long-term impact on future loans, and how to stay eligible for credit.",
     keywords: [
         "will banks blacklist you after loan settlement",

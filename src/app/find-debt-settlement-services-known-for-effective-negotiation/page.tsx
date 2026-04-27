@@ -4,7 +4,7 @@ import Script from 'next/script';
 import EffectiveNegotiationClient from './EffectiveNegotiationClient';
 
 export const metadata: Metadata = {
-  title: 'Best Debt Settlement Services in India: Effective Negotiation (2025)',
+  title: 'Best Debt Settlement Services in India (2025)',
   description: 'Looking for professional debt negotiators? Compare India’s top-rated settlement services like SingleDebt and FREED. Settle your loans for up to 75% less.',
   keywords: 'best debt settlement services India, professional debt negotiation company, SingleDebt review, FREED debt settlement review, AMA Legal Solutions loan settlement, effective debt negotiation tactics, RBI debt recovery rules 2025',
   alternates: {

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import NoticeDefaultMortgageClient from './NoticeDefaultMortgageClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Notice for Default on Mortgage or Loan Repayment in India 2025 | CredSettle",
+    title: "Best Lawyer for Loan & Mortgage Default Notices (2025)",
     description: "Received a Section 13(2) SARFAESI notice or a loan default notice? Get expert legal help for mortgage default notices, loan repayment disputes, and SARFAESI defence in India.",
     keywords: [
         "best lawyer for notice for default on mortgage",

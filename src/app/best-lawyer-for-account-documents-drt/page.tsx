@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import AccountDocumentsDRTClient from './AccountDocumentsDRTClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Account Documents in DRT Case | Bank Statement Defence Expert 2025 | CredSettle",
+    title: "Best Lawyer for Account Documents in DRT Cases (2025)",
     description: "Find the best lawyer for challenging account documents in DRT loan recovery cases. Expert in bank statement analysis, NPA classification disputes, and document-based defence strategies.",
     keywords: [
         "best lawyer for account documents DRT",

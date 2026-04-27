@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import NegotiationLowerPrincipalClient from './NegotiationLowerPrincipalClient';
 
 export const metadata: Metadata = {
-    title: "How to Negotiate a Lower Principal Amount for Creditors | 2025 Guide",
+    title: "Negotiate a Lower Principal for Creditors (2025)",
     description: "Master the art of negotiating a lower principal amount for debt settlement in India. Expert strategies for 2025, RBI rules, letter templates, and CIBIL impact reduction.",
     keywords: [
         "how to negotiate lower principal amount for creditors",

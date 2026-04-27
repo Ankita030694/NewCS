@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BestLawyerChallengeARCClient from './BestLawyerChallengeARCClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer to Challenge Loan Assignment to ARC | SARFAESI Help 2025",
+    title: "Lawyer to Challenge Loan Assignment to ARC (2025)",
     description: "Contest improper loan transfers to Asset Reconstruction Companies. Expert legal defense for SARFAESI notices, auction stays, and ARC settlements in India.",
     keywords: [
         "challenge loan assignment to ARC",

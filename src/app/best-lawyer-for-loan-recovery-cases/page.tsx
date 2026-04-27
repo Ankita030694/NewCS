@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import LoanRecoveryLawyerClient from './LoanRecoveryLawyerClient';
 
 export const metadata: Metadata = {
-    title: 'Best Lawyer for Loan Recovery Cases in India | Expert Debt Recovery',
+    title: 'Best Lawyer for Loan Recovery Cases in India',
     description: 'Looking for the best lawyer for loan recovery cases in India? Our expert advocates specialize in SARFAESI, DRT, IBC, and civil recovery suits. Get time-bound, legal debt recovery today.',
     keywords: 'best lawyer for loan recovery cases, loan recovery lawyer India, debt recovery advocate, SARFAESI Act lawyer, DRT lawyer India, IBC lawyer for recovery, civil recovery suit India, money recovery services, banking lawyer India',
     alternates: {

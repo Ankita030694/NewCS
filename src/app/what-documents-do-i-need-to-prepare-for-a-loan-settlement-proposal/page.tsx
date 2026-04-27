@@ -4,7 +4,7 @@ import Script from 'next/script';
 import WhatDocumentsClient from './WhatDocumentsClient';
 
 export const metadata: Metadata = {
-  title: 'What Documents Do I Need to Prepare for a Loan Settlement Proposal? (2025)',
+  title: 'Prepare Loan Settlement Proposal Documents (2025)',
   description: 'The definitive checklist of 2025 for gathering KYC, hardship proof, and legal paperwork to secure a successful debt waiver in India.',
   keywords: 'loan settlement documents, debt settlement checklist India, hardship letter for loan settlement, KYC for loan settlement, bank settlement proposal paperwork 2025, RBI settlement rules documentation',
   alternates: {

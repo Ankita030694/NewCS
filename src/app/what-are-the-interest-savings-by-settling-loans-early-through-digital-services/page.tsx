@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import InterestSavingsClient from './InterestSavingsClient';
 
 export const metadata: Metadata = {
-    title: "Interest Savings by Settling Loans Early through Digital Services | CredSettle",
+    title: "Interest Savings via Early Loan Settlement",
     description: "Discover the massive interest savings from early loan settlement via digital platforms. Learn about foreclosure vs. settlement, RBI rules, and how to use digital apps to close debt.",
     keywords: [
         "what are the interest savings by settling loans early through digital services",

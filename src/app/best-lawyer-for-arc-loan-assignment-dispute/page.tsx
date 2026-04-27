@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ARCLoanAssignmentClient from './ARCLoanAssignmentClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for ARC Loan Assignment Dispute | Asset Reconstruction Challenge Expert 2025 | CredSettle",
+    title: "Best Lawyer for ARC Loan Assignment Disputes (2025)",
     description: "Find the best lawyer for ARC loan assignment disputes in India. Expert legal defence against Asset Reconstruction Companies, invalid assignment challenges, SARFAESI ARC actions, and borrower rights protection.",
     keywords: [
         "best lawyer for ARC loan assignment dispute",

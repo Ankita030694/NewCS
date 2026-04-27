@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import HomeLoanCheckBounceClient from './HomeLoanCheckBounceClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Home Loan Cheque Bounce Case | Section 138 NI Act Defence 2025 | CredSettle",
+    title: "Best Lawyer for Home Loan Cheque Bounce Case (2025)",
     description: "Find the best lawyer for home loan cheque bounce cases in India. Expert legal defence under Section 138 NI Act, strategic representation, and proven results. Protect your rights today.",
     keywords: [
         "best lawyer for home loan check bounce case",

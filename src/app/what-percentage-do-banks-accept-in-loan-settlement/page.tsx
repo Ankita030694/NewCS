@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WhatPercentageBanksAcceptClient from './WhatPercentageBanksAcceptClient';
 
 export const metadata: Metadata = {
-    title: "What Percentage Do Banks Accept in Loan Settlement? 2025 Calculator",
+    title: "Bank Loan Settlement Percentages (2025 Calculator)",
     description: "Discover the exact percentage banks accept for loan settlement in India (2025). Learn about OTS calculation for personal loans, credit cards, and legal waiver limits.",
     keywords: [
         "what percentage do banks accept in loan settlement",

@@ -4,7 +4,7 @@ import Script from 'next/script';
 import VehicleSettlementClient from './VehicleSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'How to Get the Best Settlement Deal on a Vehicle Loan Online (2025)',
+  title: 'Best Settlement Deals on Vehicle Loans Online (2025)',
   description: 'Learn how to settle your car or bike loan online. Expert tips on RBI repossession rules, penal interest waivers, and RTO de-hypothecation processes.',
   keywords: 'vehicle loan settlement, car loan settlement online, bike loan OTS, RBI vehicle repossession rules 2025, RTO de-hypothecation guide, Mahindra Finance settlement, car loan waiver',
   alternates: {

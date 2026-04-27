@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MSMELoanRecoveryClient from './MSMELoanRecoveryClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for MSME Loan Recovery Defence | Expert Legal Debt Relief 2025",
+    title: "Best Lawyer for MSME Loan Recovery Defence (2025)",
     description: "Facing MSME loan recovery? Get expert legal defence against SARFAESI Act, DRT proceedings, and recovery harassment. Navigate MSME Samadhaan for debt relief in India.",
     keywords: [
         "best lawyer for MSME loan recovery defence",

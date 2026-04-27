@@ -6,7 +6,7 @@ import Script from 'next/script';
 import DebtAlternativesClient from './DebtAlternativesClient';
 
 export const metadata: Metadata = {
-    title: 'Alternatives to Loan Settlement for Managing Overwhelming Debt (2025 Guide)',
+    title: 'Alternatives to Loan Settlement (2025 Guide)',
     description: 'Explore consolidation, restructuring, credit counseling, and insolvency as alternatives to loan settlement in India. 5000+ words expert financial analysis.',
     alternates: {
         canonical: 'https://www.credsettle.com/what-alternatives-exist-to-loan-settlement-for-managing-overwhelming-debt',

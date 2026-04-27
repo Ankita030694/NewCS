@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MedicalEmergencySettlementClient from './MedicalEmergencySettlementClient';
 
 export const metadata: Metadata = {
-    title: "Support for Loan Settlement During Medical Emergencies | 2025 Guide | CredSettle",
+    title: "Loan Settlement Support: Medical Emergencies (2025)",
     description: "Understand your rights and options for loan settlement during medical emergencies in India. Explore RBI guidelines, legal safeguards, and step-by-step relief strategies.",
     keywords: [
         "support for loan settlement during medical emergencies",

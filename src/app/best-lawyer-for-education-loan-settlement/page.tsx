@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BestLawyerEducationLoanClient from './BestLawyerEducationLoanClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Education Loan Settlement India | Drop Harassment & Settle Dues",
+    title: "Best Lawyer for Education Loan Settlement India",
     description: "Hire the absolute best lawyer for education loan settlement in India. We stop recovery harassment, negotiate OTS, protect parents/co-borrowers, and handle DRT notices related to student debt.",
     keywords: [
         "best lawyer for education loan settlement",

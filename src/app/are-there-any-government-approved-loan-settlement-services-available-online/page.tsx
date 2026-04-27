@@ -6,7 +6,7 @@ import Script from 'next/script';
 import GovernmentApprovedServicesClient from './GovernmentApprovedServicesClient';
 
 export const metadata: Metadata = {
-    title: 'Are There Government-Approved Loan Settlement Services Online? (2025)',
+    title: 'Government-Approved Loan Settlement Services Online (2025)',
     description: 'Explore government-approved loan settlement channels in India, including RBI guidelines, Lok Adalats, and the Ombudsman scheme. Expert analysis on legal debt relief.',
     alternates: {
         canonical: 'https://www.credsettle.com/are-there-any-government-approved-loan-settlement-services-available-online',

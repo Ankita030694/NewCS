@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ChooseProviderClient from './ChooseProviderClient';
 
 export const metadata: Metadata = {
-    title: "How to Choose a Trustworthy Debt Settlement Provider in India | 2025 Guide",
+    title: "Choose a Trustworthy Debt Settlement Provider (2025)",
     description: "Expert tips on selecting a legitimate debt settlement company in India. Check MCA registration, legal expertise, anti-harassment services, and fee transparency 2025.",
     keywords: [
         "how to choose a debt settlement provider",

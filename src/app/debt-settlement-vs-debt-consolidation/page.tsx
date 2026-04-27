@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import SettlementVsConsolidationClient from './SettlementVsConsolidationClient';
 
 export const metadata: Metadata = {
-    title: "Debt Settlement vs Debt Consolidation India | 2025 Expert Comparison",
+    title: "Debt Settlement vs Debt Consolidation India (2025)",
     description: "Compare Debt Settlement vs Debt Consolidation in India for 2025. Learn the pros, cons, CIBIL impact, and choose the best path to becoming debt-free.",
     keywords: [
         "debt settlement vs debt consolidation india",

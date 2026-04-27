@@ -8,7 +8,7 @@ import DebtSettlementMultipleCreditorsClient from './DebtSettlementMultipleCredi
 const canonicalUrl = 'https://www.credsettle.com/debt-settlement-services-that-work-with-multiple-creditors';
 
 export const metadata: Metadata = {
-    title: "Debt Settlement Services That Work With Multiple Creditors | 2025 Guide",
+    title: "Debt Settlement for Multiple Creditors | 2025 Guide",
     description: "Learn how to manage and settle debts across multiple banks and NBFCs. Explore multi-creditor debt relief strategies, consolidation vs settlement, and legal rights in India.",
     keywords: [
         "debt settlement services that work with multiple creditors",

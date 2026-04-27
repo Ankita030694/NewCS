@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Best Lawyers for Loan Settlement & Debt Relief by City | CredSettle",
+  title: "Lawyers for Loan Settlement & Debt Relief by City",
   description:
     "Find expert advocates and lawyers for loan settlement across 1,500+ cities in India. Professional legal assistance to settle your debts and stop bank harassment.",
 };

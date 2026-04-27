@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ConsumerProtectionLawsClient from './ConsumerProtectionLawsClient';
 
 export const metadata: Metadata = {
-    title: "Consumer Protection Laws for Debt Settlement in India | 2025 Guide",
+    title: "Consumer Protection Laws for Debt Settlement India",
     description: "Learn about your legal rights under the Consumer Protection Act 2019 and RBI 2025 guidelines for debt settlement. Protect yourself from harassment and unfair bank practices.",
     keywords: [
         "consumer protection laws debt settlement india",

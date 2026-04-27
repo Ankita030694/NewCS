@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import AvoidScamsClient from './AvoidScamsClient';
 
 export const metadata: Metadata = {
-    title: "How to Avoid Debt Settlement Scams in India | RBI 2025 Protection Guide",
+    title: "Avoid Debt Settlement Scams in India | RBI 2025 Guide",
     description: "Learn how to identify and avoid debt settlement scams in India. 2025 RBI guidelines, red flags for fake agencies, and a verification checklist for borrowers.",
     keywords: [
         "how to avoid debt settlement scams in India",

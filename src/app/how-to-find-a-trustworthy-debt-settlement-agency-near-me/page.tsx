@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import FindAgencyNearMeClient from './FindAgencyNearMeClient';
 
 export const metadata: Metadata = {
-    title: "How to Find a Trustworthy Debt Settlement Agency Near Me in India | 2025",
+    title: "Find a Trustworthy Debt Settlement Agency Near Me",
     description: "Search for reliable debt settlement agencies in your city. Local verification tips, physical office checks, and pan-India legal support for debt relief.",
     keywords: [
         "debt settlement agency near me",

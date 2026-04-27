@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ProjectFinanceBuilderClient from './ProjectFinanceBuilderClient';
 
 export const metadata: Metadata = {
-    title: "Best Project Finance Builder Loan Recovery Lawyer | Expert Legal Defence 2025",
+    title: "Best Project Finance & Builder Loan Recovery Lawyer",
     description: "Facing builder loan recovery issues? Get specialized legal defence for project finance matters, SARFAESI Act, DRT proceedings, and RERA compliance. Expert debt relief for developers.",
     keywords: [
         "best project finance builder loan recovery matter lawyer",

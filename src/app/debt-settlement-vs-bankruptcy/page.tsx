@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import SettlementVsBankruptcyClient from './SettlementVsBankruptcyClient';
 
 export const metadata: Metadata = {
-    title: "Debt Settlement vs Bankruptcy in India 2025: A Comprehensive Guide",
+    title: "Debt Settlement vs Bankruptcy in India (2025)",
     description: "Compare debt settlement and bankruptcy under the 2025 Indian legal framework. Explore IBC 2016 implications, credit impact, legal processes, and find the right path for debt relief.",
     keywords: [
         "debt settlement vs bankruptcy India",

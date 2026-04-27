@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WhatIsLoanSettlementClient from './WhatIsLoanSettlementClient';
 
 export const metadata: Metadata = {
-    title: "What is Loan Settlement & How Does it Work in India? (2025 Guide)",
+    title: "What is Loan Settlement & How Does it Work in India?",
     description: "Comprehensive guide on loan settlement in India. Learn the step-by-step process, RBI 2025 guidelines, impact on credit score, and how to settle your debt legally without harassment.",
     keywords: [
         "what is loan settlement",

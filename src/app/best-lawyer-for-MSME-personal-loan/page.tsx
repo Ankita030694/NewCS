@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MSMEPersonalLoanClient from './MSMEPersonalLoanClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for MSME Personal Loan | Expert Debt Defense 2025",
+    title: "Best Lawyer for MSME Personal Loan (2025)",
     description: "Expert legal help for MSME personal loans and promoter personal guarantees. Defend against SARFAESI and IBC proceedings. Navigate debt relief with top India law experts.",
     keywords: [
         "best lawyer for MSME personal loan",

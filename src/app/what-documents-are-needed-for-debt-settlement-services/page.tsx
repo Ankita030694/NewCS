@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'What Documents are Needed for Debt Settlement Services? | CredSettle',
+  title: 'Documents Needed for Debt Settlement Services',
   description: 'Comprehensive guide to the documents required for debt settlement in India. Learn about hardship proof, bank statements, and RBI 2025 guidelines.',
   alternates: {
     canonical: 'https://www.credsettle.com/what-documents-are-needed-for-debt-settlement-services',

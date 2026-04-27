@@ -353,7 +353,7 @@ const AvoidScamsClient = () => {
                                 <h4 className="font-bold text-xl text-gray-900 mb-2">Identify Scams Now</h4>
                                 <p className="text-sm text-gray-600 mb-6">Is that debt relief agency legitimate? Speak to our auditors for a risk assessment of your settlement provider.</p>
                                 <Link
-                                    href="/contact-us"
+                                    href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                                 >
                                     Risk Assessment Call

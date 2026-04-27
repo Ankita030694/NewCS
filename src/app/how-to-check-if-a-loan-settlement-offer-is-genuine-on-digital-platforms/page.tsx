@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import CheckGenuinenessClient from './CheckGenuinenessClient';
 
 export const metadata: Metadata = {
-    title: "How to Check if a Loan Settlement Offer is Genuine on Digital Platforms? | 2025 Verification Guide",
+    title: "Verify Loan Settlement Offers on Digital Platforms",
     description: "Verify the authenticity of loan settlement offers on digital platforms. Learn how to spot scams, check legal standing, and verify offers from banks and NBFCs in India.",
     keywords: [
         "check if loan settlement offer is genuine",

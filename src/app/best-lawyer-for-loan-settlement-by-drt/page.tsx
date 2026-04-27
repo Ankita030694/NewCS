@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import DRTLoanSettlementClient from './DRTLoanSettlementClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Loan Settlement by DRT in India 2025 | CredSettle",
+    title: "Best Lawyer for Loan Settlement by DRT (2025)",
     description: "Find the best lawyer for loan settlement by DRT (Debt Recovery Tribunal) in India. Expert legal help for OTS negotiation, DRT defence, DRAT appeals and bank loan settlements.",
     keywords: [
         "best lawyer for loan settlement by DRT",

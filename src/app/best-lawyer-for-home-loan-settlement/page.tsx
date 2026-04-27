@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BestLawyerHomeLoanClient from './BestLawyerHomeLoanClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Home Loan Settlement in India | Expert Legal Aid 2025",
+    title: "Best Lawyer for Home Loan Settlement in India (2025)",
     description: "Looking for the best lawyer for home loan settlement? Get expert legal aid, strategic negotiation, and protection under RBI 2025 rules and SARFAESI Act. Settle your debt safely.",
     keywords: [
         "best lawyer for home loan settlement",

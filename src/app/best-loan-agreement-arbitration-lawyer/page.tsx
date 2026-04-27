@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LoanArbitrationClient from './LoanArbitrationClient';
 
 export const metadata: Metadata = {
-    title: "Best Loan Agreement Arbitration Lawyer | Expert Legal ADR 2025",
+    title: "Best Loan Agreement Arbitration Lawyer (2025)",
     description: "Facing loan arbitration? Get expert legal representation for arbitration notices, Section 9 interim relief, and challenging arbitral awards. Professional ADR for loan disputes.",
     keywords: [
         "best loan agreement arbitration lawyer",

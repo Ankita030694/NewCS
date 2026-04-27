@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import TimeframeClient from './TimeframeClient';
 
 export const metadata: Metadata = {
-    title: "Average Timeframe for Loan Settlement Process in India 2025 | CredSettle",
+    title: "Average Timeframe for Loan Settlement in India (2025)",
     description: "How long does loan settlement take? Discover the average timeframe, key stages from default to 'No Dues Certificate', and factors affecting the duration in 2025.",
     keywords: [
         "average timeframe for loan settlement",

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         'RBI guidelines debt settlement'
     ],
     openGraph: {
-        title: 'Find Reputable Debt Relief Agencies in Bangalore | Unsecured Loans',
+        title: 'Debt Relief Agencies for Unsecured Loans in Bangalore',
         description: 'Discover the top reputable debt relief agencies specializing in unsecured loans in Bangalore. Compare firms, understand RBI frameworks, and stop recovery agent harassment today.',
         type: 'article',
         url: 'https://www.credsettle.com/find-reputable-debt-relief-agencies-specializing-in-unsecured-loans-in-bangalore',

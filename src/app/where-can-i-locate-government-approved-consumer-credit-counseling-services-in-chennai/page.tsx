@@ -4,7 +4,7 @@ import Script from 'next/script';
 import ChennaiCounselingClient from './ChennaiCounselingClient';
 
 export const metadata: Metadata = {
-  title: 'Government-Approved Credit Counseling in Chennai: RBI Recognized Centers',
+  title: 'Credit Counseling in Chennai: RBI Centers',
   description: 'Find free, RBI-recognized consumer credit counseling services in Chennai. Locations for Indian Bank FLCC, Disha Financial Counselling, and more.',
   keywords: 'credit counseling Chennai, free debt help Chennai, Indian Bank FLCC Chennai, Disha Financial Counselling Chennai, RBI approved credit centers Chennai, debt relief services South India',
   alternates: {

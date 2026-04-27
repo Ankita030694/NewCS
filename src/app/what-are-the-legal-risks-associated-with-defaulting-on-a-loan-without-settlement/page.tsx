@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LegalRisksClient from './LegalRisksClient';
 
 export const metadata: Metadata = {
-    title: "Legal Risks of Defaulting on a Loan Without Settlement in India | CredSettle",
+    title: "Legal Risks of Loan Default Without Settlement",
     description: "Understand the severe legal risks associated with defaulting on a loan without settlement in India, including RBI rules, Sections 138 & 25, SARFAESI Act, and more.",
     keywords: [
         "legal risks of loan default India",

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LegalNoticeWhatToDoClient from './LegalNoticeWhatToDoClient';
 
 export const metadata: Metadata = {
-    title: "Bank Sent Legal Notice for Loan - What to Do? | Can Bank File Case for Personal Loan?",
+    title: "Bank Sent Legal Notice for Loan - What to Do?",
     description: "Received a legal notice for a bank loan? Learn what to do when a bank sends a legal notice and if a bank can file a case for a personal loan in India. Read expert legal advice for borrowers.",
     keywords: [
         "Bank sent legal notice for loan what to do",

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ConsortiumLoanDefenceClient from './ConsortiumLoanDefenceClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Consortium Loan Recovery Defence in India 2025 | CredSettle",
+    title: "Best Consortium Loan Recovery Defence Lawyer India",
     description: "Facing recovery action from a consortium of banks? Get specialized legal defence for consortium loan recovery, inter-creditor agreement (ICA) disputes, and DRT cases in India.",
     keywords: [
         "best lawyer for consortium loan recovery defence",

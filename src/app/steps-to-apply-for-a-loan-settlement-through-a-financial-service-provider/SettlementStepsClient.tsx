@@ -512,7 +512,7 @@ export default function SettlementStepsClient() {
                                     {[
                                         { href: "/which-companies-offer-professional-debt-settlement-services-for-personal-loans", text: "Top 10 Settlement Firms" },
                                         { href: "/how-does-settling-a-loan-impact-my-cibil-credit-score", text: "CIBIL Recovery Guide" },
-                                        { href: "/how-to-negotiate-a-personal-loan-settlement-with-lenders", text: "Negotiation Strategies" }
+                                        { href: "/how-can-I-negotiate-a-personal-loan-settlement-with-lenders", text: "Negotiation Strategies" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
                                             <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import IsLoanSettlementGoodOptionBorrowersClient from './IsLoanSettlementGoodOptionBorrowersClient';
 
 export const metadata: Metadata = {
-    title: "Is Loan Settlement a Good Option for Borrowers? 2025 Comprehensive Guide",
+    title: "Is Loan Settlement a Good Option for Borrowers?",
     description: "Expert analysis on whether loan settlement is a good option for borrowers in India. Explore pros, cons, CIBIL impact, and legal rights under RBI 2025 guidelines.",
     keywords: [
         "is loan settlement a good option for borrowers",

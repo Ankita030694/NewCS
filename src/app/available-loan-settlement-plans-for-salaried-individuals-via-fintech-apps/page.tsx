@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import SalariedFintechSettlementClient from './SalariedFintechSettlementClient';
 
 export const metadata: Metadata = {
-    title: "Available Loan Settlement Plans for Salaried Individuals via Fintech Apps | CredSettle",
+    title: "Loan Settlement Plans for Salaried via Fintech Apps",
     description: "Explore available loan settlement plans for salaried individuals via fintech apps in India 2025. Learn about Debt Settlement Programs (DSP), legal-tech shields, and RBI compliance.",
     keywords: [
         "loan settlement plans for salaried individuals via fintech apps",

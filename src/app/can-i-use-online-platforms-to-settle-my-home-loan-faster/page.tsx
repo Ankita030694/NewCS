@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-    title: 'Can I Use Online Platforms to Settle My Home Loan Faster? | SARFAESI Guide',
+    title: 'Settle Home Loan Faster via Online Platforms',
     description: 'Learn how modern online platforms can legally expedite your home loan settlement in India. Understand SARFAESI Act implications, DRT procedures, and top debt relief firms.',
     keywords: [
         'online platforms settle home loan faster',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         'stop home auction india'
     ],
     openGraph: {
-        title: 'Can I Use Online Platforms to Settle My Home Loan Faster? | SARFAESI Guide',
+        title: 'Settle Home Loan Faster via Online Platforms',
         description: 'Learn how modern online platforms can legally expedite your home loan settlement in India. Understand SARFAESI Act implications, DRT procedures, and top debt relief firms.',
         type: 'article',
         url: 'https://www.credsettle.com/can-i-use-online-platforms-to-settle-my-home-loan-faster',

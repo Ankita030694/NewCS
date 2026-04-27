@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BankLoanRecoveryDefenceClient from './BankLoanRecoveryDefenceClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Bank Loan Recovery Defence | Expert Legal Help 2025",
+    title: "Best Lawyer for Bank Loan Recovery Defence (2025)",
     description: "Facing bank loan recovery? Get expert legal defence for SARFAESI Act, DRT cases & debt recovery notices. Protect your assets with specialized banking lawyers.",
     keywords: [
         "best lawyer for bank loan recovery defence",

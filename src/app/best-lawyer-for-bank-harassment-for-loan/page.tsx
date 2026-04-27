@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import BankHarassmentLawyerClient from './BankHarassmentLawyerClient';
 
 export const metadata: Metadata = {
-    title: 'Best Lawyer for Bank Harassment for Loan in India | Stop Illegal Recovery',
+    title: 'Best Lawyer for Bank Harassment for Loan in India',
     description: 'Facing bank harassment for loan default? Get expert legal help from the best lawyers for bank harassment in India. Stop recovery agent threats, file RBI complaints, and protect your rights today.',
     keywords: 'best lawyer for bank harassment for loan, bank harassment lawyer India, stop recovery agent harassment, RBI guidelines for recovery agents, legal help for loan default harassment, stop bank harassment India',
     alternates: {

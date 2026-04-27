@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import OnlinePortalInitiationClient from './OnlinePortalInitiationClient';
 
 export const metadata: Metadata = {
-    title: "How to Initiate Loan Settlement via Bank Online Portal 2025 | CredSettle",
+    title: "Initiate Loan Settlement via Bank Online Portal (2025)",
     description: "Step-by-step guide on initiating a loan settlement request through your bank's online portal. Learn how to navigate net banking, submit hardship letters, and track requests in 2025.",
     keywords: [
         "initiate loan settlement online",

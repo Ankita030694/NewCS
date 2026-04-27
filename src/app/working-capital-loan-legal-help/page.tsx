@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WorkingCapitalLoanLegalHelpClient from './WorkingCapitalLoanLegalHelpClient';
 
 export const metadata: Metadata = {
-    title: "Working Capital Loan Legal Help India 2025 | Regulatory & Documentation Advisory",
+    title: "Working Capital Loan Legal Help India (2025)",
     description: "Expert legal assistance for working capital loans in India. Navigate RBI Master Circulars, Cash Credit, Overdraft facilities, and GST-linked financing compliance for 2025.",
     keywords: [
         "working capital loan legal help India",

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import BestLawyerLoanMortgageClient from './BestLawyerLoanMortgageClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for Loan and Mortgage Agreements India | Draft & Review",
+    title: "Best Lawyer for Loan and Mortgage Agreements India",
     description: "Hire the absolute best lawyer for loan and mortgage agreements in India. We provide expert drafting, rigorous legal review, SARFAESI defense, and property due diligence to protect your financial assets.",
     keywords: [
         "best lawyer for loan and mortgage agreements",

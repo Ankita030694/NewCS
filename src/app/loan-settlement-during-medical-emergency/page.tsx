@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MedicalEmergencyClient from './MedicalEmergencyClient';
 
 export const metadata: Metadata = {
-    title: "Loan Settlement During Medical Emergency: A Complete 2025 Financial Guide",
+    title: "Loan Settlement During Medical Emergency (2025 Guide)",
     description: "Navigate loan settlement during a medical crisis. Learn about RBI guidelines, hospital bill negotiation, and how to settle debts while protecting your rights during health emergencies in India.",
     keywords: [
         "loan settlement during medical emergency",

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import RecoveryAgentsThreateningMeClient from './RecoveryAgentsThreateningMeClient';
 
 export const metadata: Metadata = {
-    title: "Recovery Agents Threatening Me? | Your Legal Rights & Action Plan",
+    title: "Recovery Agents Threatening Me? Legal Rights & Plan",
     description: "Are recovery agents harassing you for a bank loan? Learn the 2025 RBI guidelines, your legal rights against threats, and how to stop harassment immediately. Expert legal advice for borrowers.",
     keywords: [
         "recovery agents threatening me what to do",

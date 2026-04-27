@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import JointLoanSettlementClient from './JointLoanSettlementClient';
 
 export const metadata: Metadata = {
-    title: "Is it Possible to Settle a Joint Loan? Implications for Co-Borrowers | CredSettle",
+    title: "Settle a Joint Loan: Implications for Co-Borrowers",
     description: "Learn if you can settle a joint loan in India and the critical implications for co-borrowers. Discover joint liability rules, CIBIL impact, and 2025 RBI guidelines.",
     keywords: [
         "settle joint loan India",

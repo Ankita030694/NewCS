@@ -4,7 +4,7 @@ import Script from 'next/script';
 import DigitalLendingClient from './DigitalLendingClient';
 
 export const metadata: Metadata = {
-  title: 'How Digital Lending Companies Handle Loan Settlement Requests 2025',
+  title: 'Digital Lending: Loan Settlement Requests (2025)',
   description: 'Understand the internal logic of Fintech lenders regarding loan settlements. Learn about RBI 2025 digital lending rules, KFS power, and how to negotiate app-based debt.',
   keywords: 'digital lending settlement, fintech loan settlement, RBI digital lending rules 2025, how to settle app loans, instant loan settlement India, NBFC settlement process, digital debt relief',
   alternates: {
