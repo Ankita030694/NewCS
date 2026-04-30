@@ -198,9 +198,7 @@ export default function TermsAndConditionsPage() {
                     >
                       www.credsettle.com
                     </Link>{' '}
-                    (the "Website"), the CredSettle platform, and all associated services. By accessing or using our
-                    Website you acknowledge that you have read, understood, and agree to be bound by these Terms. If you
-                    do not accept any part of them, you must refrain from using CredSettle services.
+                    These Terms and Conditions govern your use of the CredSettle platform, including our mobile application, website, and all related services. By accessing or using any CredSettle service, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree with any part of these Terms, please do not use our services.
                   </p>
                   <p className="text-sm uppercase tracking-[0.24em] text-[rgba(12,39,86,0.58)]">
                     Last reviewed: {formattedDate}

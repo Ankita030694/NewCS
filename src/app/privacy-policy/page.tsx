@@ -39,7 +39,7 @@ const SECTIONS = [
     description:
       'We collect limited personal information to activate your engagement, customise settlement strategies, and keep you informed about progress. This may include:',
     bullets: [
-      'Full name, email address, mailing address, and phone number for identification and secure communication.',
+      'Full name, email address, mailing address, and an optional phone number, if provided, to help verify your identity and communicate with you securely.',
       'Company name, team size, and business type when you enquire on behalf of an organisation.',
       'Billing details required to process professional fees (We do not store complete payment card details.).',
     ],
@@ -318,7 +318,7 @@ export default function PrivacyPolicyPage() {
                     Privacy Policy
                   </h1>
                   <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8">
-                    At <strong>CredSettle.com</strong> ("CredSettle", "we", or "us"), protecting your personal and
+                    At <strong>CredSettle</strong> ("CredSettle", "we", or "us"), protecting your personal and
                     financial information is integral to how we operate. This Privacy Policy explains what data we
                     collect, why we collect it, and the safeguards we apply while delivering debt settlement
                     support services in India through our website and mobile experiences.
