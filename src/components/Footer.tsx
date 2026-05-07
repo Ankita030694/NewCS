@@ -267,6 +267,9 @@ export default function Footer() {
               <a href="/loan-settlement-vs-repayment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement vs Repayment</a>
               <a href="/best-time-for-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Time for Loan Settlement</a>
               <a href="/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Top 10 Instant Loan Apps in India</a>
+              <a href="/rbi-july-2026-recovery-guidelines" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">RBI July 2026 Recovery Guidelines</a>
+              <a href="/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Delhi High Court on Loan Default</a>
+
             </div>
           </div>
 

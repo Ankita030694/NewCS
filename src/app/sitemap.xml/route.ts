@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 94; // Updated for new loan settlement SEO pages (added traders, self-employed, medical-emergency, best-time-for-loan-settlement, and top-10-instant-loan-apps).
+  const mainStaticPages = 95; // Updated for new loan settlement SEO pages (added traders, self-employed, medical-emergency, best-time-for-loan-settlement, top-10-instant-loan-apps, and rbi-july-2026-recovery-guidelines).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -434,6 +434,13 @@ async function generateSitemap(): Promise<string> {
   // Generic SEO Educational Pages
   urls.push({
     loc: `${baseUrl}/what-is-loan-settlement-and-how-does-it-work-in-india`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
@@ -728,14 +735,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
-    urls.push({
+  urls.push({
     loc: `${baseUrl}/loan-settlement-for-traders`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
   });
 
-    urls.push({
+  urls.push({
     loc: `${baseUrl}/loan-settlement-during-medical-emergency`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -2003,6 +2010,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/rbi-july-2026-recovery-guidelines`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
