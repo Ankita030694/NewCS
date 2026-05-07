@@ -742,6 +742,61 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  urls.push({
+    loc: `${baseUrl}/which-bank-provide-personal-loan-for-cibil-defaulters`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/legal-notice-for-recovery-of-money`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-improve-cibil-score-after-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/does-foreclosure-of-loan-affect-cibil`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-banks-offer-debt-consolidation-loans-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/punishment-for-non-payment-of-personal-loan-in-india`,
+    priority: 0.95,
+    changefreq: "weekly",
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-banks-offer-debt-consolidation-loans-for-bad-credit`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-recovery-agent-near-me`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // Main Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement`,
