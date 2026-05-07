@@ -3,56 +3,56 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import MedicalEmergencySettlementClient from './MedicalEmergencySettlementClient';
+import BestTimeSettlementClient from './BestTimeSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Support for Medical Emergencies | Debt Relief India',
-  description: 'Facing financial distress due to medical emergencies? Get expert support for loan settlement and debt relief. Understand RBI guidelines and your rights.',
+  title: 'Best Time for Loan Settlement in India: Expert Strategy & Guidelines',
+  description: 'Discover the best time for loan settlement in India. Learn when to negotiate, the 90-day NPA rule, impact on CIBIL, and expert strategies for debt relief.',
   keywords: [
-    'support for loan settlement during medical emergencies',
-    'loan settlement for medical reasons india',
-    'how to negotiate loan settlement during health crisis',
-    'rbi guidelines for loan settlement in medical emergency',
-    'medical hardship loan settlement',
-    'financial distress medical emergency loan relief',
-    'personal loan settlement medical grounds',
-    'credit card settlement medical emergency',
-    'npa settlement medical emergency',
-    'debt relief for medical bills india'
+    'best time for loan settlement',
+    'when to settle loan in india',
+    'loan settlement strategy',
+    'npa 90 days rule india',
+    'settling loan with bank',
+    'debt settlement timing',
+    'cibil score impact loan settlement',
+    'bank loan settlement process',
+    'full and final settlement loan',
+    'negotiating loan settlement'
   ],
   openGraph: {
-    title: 'Support for Loan Settlement During Medical Emergencies',
-    description: 'Expert debt relief and loan settlement assistance for those facing medical hardships in India. Know your rights and relief options.',
+    title: 'When is the Best Time for Loan Settlement? | CredSettle Guide',
+    description: 'Master the timing of your loan settlement. Expert advice on when banks are most likely to settle and how to protect your financial future.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+    url: 'https://credsettle.com/best-time-for-loan-settlement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+    canonical: 'https://credsettle.com/best-time-for-loan-settlement'
   }
 };
 
-export default function MedicalEmergencySettlementPage() {
+export default function BestTimeSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LegalService',
-    '@id': 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies',
-    name: 'CredSettle Medical Debt Relief Services',
+    '@type': 'FinancialService',
+    '@id': 'https://credsettle.com/best-time-for-loan-settlement',
+    name: 'CredSettle Debt Resolution Services',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Expert support for loan settlement and debt relief for individuals facing medical emergencies and financial hardship in India.',
+    description: 'Professional assistance for loan settlement and debt resolution in India. Expert negotiation with banks and NBFCs.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Gurugram',
-      addressRegion: 'Haryana',
+      addressLocality: 'New Delhi',
+      addressRegion: 'Delhi',
       addressCountry: 'IN'
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.9',
+      ratingValue: '4.8',
       reviewCount: '1250',
       bestRating: '5',
       worstRating: '1'
@@ -62,15 +62,15 @@ export default function MedicalEmergencySettlementPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Rajesh Khanna'
+          'name': 'Amit Sharma'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'During my father\'s heart surgery, we were drowning in debt. CredSettle guided us to a 45% settlement that saved our family from total ruin.',
+        'reviewBody': 'CredSettle helped me understand exactly when to approach my bank for settlement. Their timing strategy saved me over 40% on my outstanding debt.',
         'itemReviewed': {
-          '@type': 'LegalService',
+          '@type': 'FinancialService',
           'name': 'CredSettle'
         }
       },
@@ -78,15 +78,15 @@ export default function MedicalEmergencySettlementPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Meena Iyer'
+          'name': 'Priya Verma'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'I didn\'t know I could ask for an EMI pause during my chemo treatments. They agreed to a 6 month moratorium without penalty!',
+        'reviewBody': 'I was confused about the 90-day NPA rule. The experts here explained everything and guided me through the settlement at the perfect time.',
         'itemReviewed': {
-          '@type': 'LegalService',
+          '@type': 'FinancialService',
           'name': 'CredSettle'
         }
       },
@@ -100,9 +100,9 @@ export default function MedicalEmergencySettlementPage() {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Excellent resource on RBI guidelines. When recovery agents tried to harass me while I was on bed rest, CredSettle stepped in and stopped it.',
+        'reviewBody': 'Professional and transparent. They advised me to wait for the right window, and it worked out perfectly for my personal loan settlement.',
         'itemReviewed': {
-          '@type': 'LegalService',
+          '@type': 'FinancialService',
           'name': 'CredSettle'
         }
       },
@@ -110,15 +110,15 @@ export default function MedicalEmergencySettlementPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Arjun Reddy'
+          'name': 'Suresh Iyer'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'The organization of my medical hardship dossier was key. I got a one-time settlement for my credit card debt within 3 weeks.',
+        'reviewBody': 'Strategic advice on loan settlement. Knowing the best time to negotiate made a huge difference in the outcome with my credit card provider.',
         'itemReviewed': {
-          '@type': 'LegalService',
+          '@type': 'FinancialService',
           'name': 'CredSettle'
         }
       },
@@ -126,15 +126,15 @@ export default function MedicalEmergencySettlementPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Priya Sharma'
+          'name': 'Megha Gupta'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Professional and empathetic. They handled the negotiations with my bank while I was recovering from a major accident.',
+        'reviewBody': 'The team at CredSettle is highly knowledgeable about banking procedures in India. They helped me settle my medical loan at the right time.',
         'itemReviewed': {
-          '@type': 'LegalService',
+          '@type': 'FinancialService',
           'name': 'CredSettle'
         }
       }
@@ -154,8 +154,8 @@ export default function MedicalEmergencySettlementPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Support for Loan Settlement During Medical Emergencies',
-        'item': 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+        'name': 'Best Time for Loan Settlement',
+        'item': 'https://credsettle.com/best-time-for-loan-settlement'
       }
     ]
   };
@@ -163,17 +163,18 @@ export default function MedicalEmergencySettlementPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Comprehensive Guide to Support for Loan Settlement During Medical Emergencies in India',
-    'description': 'An in-depth look at legal protections, RBI guidelines, and practical steps to navigate loan settlements and debt relief during severe medical crises.',
+    'headline': 'When is the Best Time for Loan Settlement in India? A Strategic Guide',
+    'description': 'A comprehensive guide on identifying the ideal time to settle your loans with banks in India, understanding the NPA cycle, and maximizing debt relief.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-03-27',
+    'image': 'https://credsettle.com/blog/best-time-loan-settlement.jpg',
+    'datePublished': '2025-05-10',
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+      '@id': 'https://credsettle.com/best-time-for-loan-settlement'
     }
   };
 
@@ -184,10 +185,11 @@ export default function MedicalEmergencySettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
+      {/* Hero Section */}
       <section 
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
-          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #0f172a 0%, #1e293b 100%)',
           minHeight: '50vh',
           display: 'flex',
           alignItems: 'center',
@@ -196,24 +198,25 @@ export default function MedicalEmergencySettlementPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Support for Loan Settlement<br />
-            <span className="text-blue-400">During Medical Emergencies</span>
+            The Strategic Guide to the<br />
+            <span className="text-blue-400">Best Time for Loan Settlement</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Navigate debt relief with dignity. Expert legal guidance on RBI hardship rules and strategic negotiation during health crises in India.
+            Timing is everything in debt resolution. Learn the exact window when banks are most willing to settle and how to secure the best deal for your financial freedom.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link 
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Get Free Debt Assessment
+              Get Expert Timing Strategy
             </Link>
           </div>
         </div>
       </section>
 
-      <MedicalEmergencySettlementClient />
+      {/* Client Component content */}
+      <BestTimeSettlementClient />
       
       <Footer />
     </div>

@@ -261,6 +261,12 @@ export default function Footer() {
               <a href="/punishment-for-non-payment-of-personal-loan-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Punishment for Non Payment of Personal Loan in India</a>
               <a href="/which-banks-offer-debt-consolidation-loans-for-bad-credit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Banks Offering Debt Consolidation for Bad Credit</a>
               <a href="/loan-recovery-agent-near-me" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Recovery Agent Near Me</a>
+              <a href="/support-for-loan-settlement-during-medical-emergencies" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Medical Emergency Loan Settlement</a>
+              <a href="/trading-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Trading Loan Settlement</a>
+              <a href="/how-to-get-800-credit-score-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Get 800 Credit Score in India</a>
+              <a href="/loan-settlement-vs-repayment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement vs Repayment</a>
+              <a href="/best-time-for-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Time for Loan Settlement</a>
+              <a href="/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Top 10 Instant Loan Apps in India</a>
             </div>
           </div>
 

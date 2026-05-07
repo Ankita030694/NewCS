@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 92; // Updated for new loan settlement SEO pages (added traders, self-employed, and medical-emergency).
+  const mainStaticPages = 94; // Updated for new loan settlement SEO pages (added traders, self-employed, medical-emergency, best-time-for-loan-settlement, and top-10-instant-loan-apps).
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -797,6 +797,33 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  urls.push({
+    loc: `${baseUrl}/support-for-loan-settlement-during-medical-emergencies`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/trading-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/how-to-get-800-credit-score-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-time-for-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // Main Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement`,
@@ -821,7 +848,6 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
-  // IndusInd Loan Settlement Page
   urls.push({
     loc: `${baseUrl}/loan-settlement/indusind`,
     priority: 0.9,
@@ -1577,6 +1603,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Loan Settlement vs Repayment page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-vs-repayment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // Is Loan Settlement a Good Option page
   urls.push({
     loc: `${baseUrl}/is-loan-settlement-a-good-option`,
@@ -1962,6 +1996,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/loan-settlement-for-salaried-people`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
