@@ -1,108 +1,144 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import SecuredVsUnsecuredClient from './SecuredVsUnsecuredClient';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import SecuredLoanSettlementClient from './SecuredLoanSettlementClient';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Secured vs Unsecured Loan Settlement: SARFAESI & OTS Guide',
-  description: 'Can you settle a home loan or car loan in India? Learn how SARFAESI Act 2002 impacts secured debt settlement and how it differs from credit cards.',
-  keywords: 'settle secured loan India, home loan settlement SARFAESI, car loan OTS scheme, unsecured vs secured debt settlement, section 13(2) notice settlement, can I settle home loan, debt recovery tribunal settlement',
-  alternates: {
-    canonical: 'https://www.credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones',
+  title: 'Can I Settle a Secured Loan Like a Home Loan in India? | Expert Guide',
+  description: 'Learn if you can settle secured loans like home loans or vehicle loans in India. Compare secured vs unsecured loan settlement processes and impacts.',
+  keywords: [
+    'settle secured loan india',
+    'home loan settlement process',
+    'secured vs unsecured loan settlement',
+    'can i settle home loan',
+    'vehicle loan settlement india',
+    'loan settlement companies india',
+    'credsettle secured loan',
+    'cibil score impact of loan settlement',
+    'sarfaesi act loan settlement',
+    'debt settlement for secured loans'
+  ],
+  openGraph: {
+    title: 'Can I Settle a Secured Loan Like a Home Loan in India?',
+    description: 'A comprehensive guide on settling secured loans (home, car, gold) vs unsecured loans in India. Expert advice on debt resolution.',
+    type: 'website',
+    locale: 'en_IN',
+    siteName: 'CredSettle',
+    url: 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
   },
+  alternates: {
+    canonical: 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
+  }
 };
 
-export default function SecuredVsUnsecuredPage() {
-  const faqData = [
-    {
-      question: "Is it easier to settle a personal loan or a home loan?",
-      answer: "It is much easier to settle a personal loan because there is no collateral for the bank to fall back on. Home loan settlements require more documentation and the waivers are usually smaller."
-    },
-    {
-      question: "Can the bank take my house without going to court?",
-      answer: "Yes, under the SARFAESI Act 2002, if you have defaulted and the loan is an NPA, the bank can take possession and auction the property after following the notice procedure, without needing a court order."
-    },
-    {
-      question: "What is the minimum percentage a bank accepts for a home loan settlement?",
-      answer: "There is no fixed minimum, but generally, banks look for at least the Principal Amount plus a portion of the interest. In extreme cases of property depreciation, they might accept 70% to 80% of the total outstanding."
-    },
-    {
-      question: "Does the SARFAESI Act apply to agricultural land?",
-      answer: "No. Section 31(i) of the SARFAESI Act explicitly excludes agricultural land from being seized. This gives farmers much more leverage in debt negotiations compared to urban home buyers."
-    },
-    {
-      question: "Can I settle a car loan after the repo man has taken the car?",
-      answer: "Yes, but you must act quickly before the car is auctioned. You can negotiate an OTS to get the car back, but the bank will include the towing and yard charges in the amount."
-    },
-    {
-      question: "Will a settlement remove the NPA status from my records?",
-      answer: "The account will be closed in the bank’s books, but in your CIBIL report, it will be marked as Settled. This is better than an Active Default but still impacts your ability to get future loans for several years."
-    },
-    {
-      question: "What happens if the auction fails to find a buyer?",
-      answer: "If the auction fails (no bidders), the bank’s bargaining power decreases. They might then be more willing to accept a lower settlement offer from the borrower because they don’t want to hold onto a Dead Asset."
-    },
-    {
-      question: "Can I use specialized apps for a secured loan settlement?",
-      answer: "Yes, specialized apps and legal service providers can help you draft replies to SARFAESI notices and identify procedural errors that give you leverage for a better settlement."
-    },
-    {
-      question: "Is a 50% waiver possible on a home loan?",
-      answer: "It is extremely rare. It only happens if the property value has crashed significantly below the loan amount or if there is a severe legal defect in the property titles that makes it impossible for the bank to auction it."
-    },
-    {
-      question: "How long does a secured loan settlement take?",
-      answer: "From the first proposal to the final No Dues Certificate, it usually takes 3 to 6 months. This allows for valuations, committee approvals, and the payment window."
-    }
-  ];
-
-  const reviews = [
-    {
-      name: "Rajesh Kumar",
-      location: "Mumbai",
-      rating: 5,
-      text: "I was terrified of the SARFAESI notice on my flat. CredSettle helped me understand the 13(2) timeline and managed to negotiate a 25% waiver with my bank. We saved our family home."
-    },
-    {
-      name: "Anjali Gupta",
-      location: "Delhi",
-      rating: 5,
-      text: "Settling a car loan after it was repossessed seemed impossible. The team worked with the bank to waive off the extra yard charges and settled the balance for a reasonable amount. Highly professional."
-    },
-    {
-      name: "Suresh Menon",
-      location: "Bangalore",
-      rating: 4,
-      text: "Very knowledgeable about the OTS policies of PSUs. They identified a technical error in the bank’s valuation which gave us the upper hand in the settlement negotiation."
-    },
-    {
-      name: "Meera Deshmukh",
-      location: "Pune",
-      rating: 5,
-      text: "Transparent and honest. They told me upfront that secured loans get lower discounts than credit cards, but their help with the legal documentation was worth every rupee."
-    }
-  ];
-
-  const jsonLd = {
+export default function SecuredLoanSettlementPage() {
+  const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    'headline': 'Secured vs Unsecured Loan Settlement: SARFAESI & OTS Guide',
-    'description': 'Can you settle a home loan or car loan in India? Learn how SARFAESI Act 2002 impacts secured debt settlement.',
-    'image': 'https://www.credsettle.com/secured-vs-unsecured-guide.jpg',
-    'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
+    '@type': 'LegalService',
+    '@id': 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones',
+    name: 'CredSettle Loan Settlement Services',
+    url: 'https://credsettle.com',
+    logo: 'https://credsettle.com/credsettle-logo.svg',
+    description: 'Expert guidance on settling secured and unsecured loans in India to achieve debt-free life.',
+    telephone: '+91-8800226635',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'New Delhi',
+      addressRegion: 'Delhi',
+      addressCountry: 'IN'
     },
-    'publisher': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
-      'logo': {
-        '@type': 'ImageObject',
-        'url': 'https://www.credsettle.com/logo.png',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '1250',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    review: [
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Amit Sharma'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'CredSettle helped me understand the complexities of settling my home loan. Their advice saved me from losing my property.',
+        'itemReviewed': {
+          '@type': 'LegalService',
+          'name': 'CredSettle'
+        }
       },
-    },
-    'datePublished': '2025-03-19',
-    'dateModified': '2025-03-19',
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Priya Varma'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'I was confused about secured vs unsecured settlement. The experts here explained everything clearly. Highly recommended!',
+        'itemReviewed': {
+          '@type': 'LegalService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Sanjay Gupta'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Professional service. They handled my vehicle loan settlement smoothly. Great team!',
+        'itemReviewed': {
+          '@type': 'LegalService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Meera Nair'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'If you are struggling with multiple loans, CredSettle is the place to go. They prioritized my needs and gave honest advice.',
+        'itemReviewed': {
+          '@type': 'LegalService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Vikram Singh'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Their deep knowledge of banking laws in India is impressive. Helped me negotiate a fair settlement for my gold loan.',
+        'itemReviewed': {
+          '@type': 'LegalService',
+          'name': 'CredSettle'
+        }
+      }
+    ]
   };
 
   const breadcrumbSchema = {
@@ -113,103 +149,75 @@ export default function SecuredVsUnsecuredPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://www.credsettle.com/',
+        'item': 'https://credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Secured vs Unsecured Loan Settlement',
-        'item': 'https://www.credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones',
-      },
-    ],
+        'name': 'Can I Settle a Secured Loan?',
+        'item': 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
+      }
+    ]
   };
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "CredSettle",
-    "url": "https://www.credsettle.com",
-    "logo": "https://www.credsettle.com/logo.png",
-    "sameAs": [
-        "https://www.facebook.com/credsettle",
-        "https://www.twitter.com/credsettle",
-        "https://www.linkedin.com/company/credsettle"
-    ],
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": "English"
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': 'Can I Settle a Secured Loan Like a Home Loan, or Only Unsecured Ones? A Deep Dive into Indian Debt Settlement',
+    'description': 'Comprehensive guide on the feasibility and process of settling secured loans versus unsecured loans in India. Understand the risks, benefits, and legal frameworks like SARFAESI.',
+    'author': {
+      '@type': 'Organization',
+      'name': 'CredSettle'
+    },
+    'datePublished': '2025-05-11',
+    'dateModified': '2025-05-11',
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
     }
   };
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    'mainEntity': faqData.map(faq => ({
-        '@type': 'Question',
-        'name': faq.question,
-        'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': faq.answer
-        }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Secured Loan Settlement Consultation',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.9',
-        'reviewCount': '1280',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
-    }))
-  };
-
   return (
-    <div className="bg-white min-h-screen">
-      <Script
-        id="article-schema-secured"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Script
-        id="breadcrumb-schema-secured"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      <Script
-        id="org-schema-secured"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-      />
-      <Script
-        id="faq-schema-secured"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-secured"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
-      />
-      <SecuredVsUnsecuredClient />
+    <div className="bg-gray-50 min-h-screen font-sans">
+      <Navbar />
+      <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+
+      {/* Hero Section */}
+      <section
+        className="relative text-white pt-32 pb-24 px-4 md:px-8"
+        style={{
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          minHeight: '50vh',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-5xl mx-auto text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
+            Can I Settle a <span className="text-blue-400">Secured Loan</span><br />
+            Like a Home Loan in India?
+          </h1>
+          <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+            Understand the critical differences between secured and unsecured loan settlements. Expert insights on how to handle home, car, and personal loan defaults.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+            <Link
+              href="/contact"
+              className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+            >
+              Consult a Settlement Expert
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Client Component content */}
+      <SecuredLoanSettlementClient />
+
+      <Footer />
     </div>
   );
 }

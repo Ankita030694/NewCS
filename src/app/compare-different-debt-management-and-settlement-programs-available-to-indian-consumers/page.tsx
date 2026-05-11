@@ -1,108 +1,145 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import CompareProgramsClient from './CompareProgramsClient';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Compare Debt Management vs. Settlement Programs in India 2025',
-  description: 'A comprehensive comparison of Debt Management (DMP) and Debt Settlement (OTS). Learn about CIBIL impact, interest math, and which path to debt freedom is right for you.',
-  keywords: 'debt management vs debt settlement, compare debt relief India, DMP vs OTS, credit card debt relief, RBI settlement rules 2025, debt consolidation India, personal loan debt resolution',
-  alternates: {
-    canonical: 'https://www.credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers',
+  title: 'Compare Debt Management vs Debt Settlement in India | Expert Guide',
+  description: 'Understand the differences between debt management plans and debt settlement programs in India. Learn which option is best for your financial situation and how to become debt-free.',
+  keywords: [
+    'debt management programs india',
+    'debt settlement services india',
+    'compare debt relief options',
+    'debt management vs debt settlement',
+    'loan settlement process india',
+    'credit counseling india',
+    'how to reduce loan emi india',
+    'debt relief companies in india',
+    'credsettle vs amalegalsolutions',
+    'amalegalsolutions debt resolution',
+    'settleloans comparison'
+  ],
+  openGraph: {
+    title: 'Expert Comparison: Debt Management vs Debt Settlement Programs in India',
+    description: 'A comprehensive guide to choosing between debt management and debt settlement for Indian consumers. Get expert insights on recovery and financial health.',
+    type: 'website',
+    locale: 'en_IN',
+    siteName: 'CredSettle',
+    url: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
   },
+  alternates: {
+    canonical: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
+  }
 };
 
 export default function CompareProgramsPage() {
-  const faqs = [
-    {
-        question: 'What is the primary difference between Debt Management and Debt Settlement?',
-        answer: 'Debt Management (DMP) focuses on repaying 100% of the principal with reduced interest and extended timelines. Debt Settlement (OTS) aims to pay only a fraction of the total debt (often 30-50%) in exchange for immediate closure and a "Settled" remark on the credit report.'
-    },
-    {
-        question: 'How does a Debt Management Program affect my CIBIL score?',
-        answer: 'A DMP is generally credit-neutral or slightly positive over the long term. Since you are paying back the full principal, banks may not mark you as a defaulter, and your score often recovers as your debt-to-income ratio improves.'
-    },
-    {
-        question: 'Is Debt Settlement legal in India for 2025?',
-        answer: 'Yes, Debt Settlement is a recognized commercial compromise under RBI guidelines. Banks use it to recover funds from "Doubtful" or "Loss" assets. It is a legal way to exit a debt trap when genuine financial hardship can be proven.'
-    },
-    {
-        question: 'Should I choose Amalegal Solutions for a standard credit card debt?',
-        answer: 'AMA Legal Solutions is ideal if you are facing severe legal harassment, SARFAESI notices, or court cases. For standard credit card settlements without active litigation, a tech-platform like CredSettle might be more efficient, though AMA provides the highest level of legal "Shield."'
-    },
-    {
-        question: 'Can I switch from a Debt Management plan to a Settlement plan?',
-        answer: 'Switching is possible but complex. If you start a DMP and find that your income has dropped further, you may stop the program and pursue a settlement. However, any benefits like reduced interest rates from the DMP will be lost, and the original principal will be due.'
-    },
-    {
-        question: 'How long do these programs usually take to complete?',
-        answer: 'DMPs typically last 36 to 60 months as you pay in small installments. Debt Settlement is much faster, often concluding in 3 to 12 months as you accumulate a lump sum for the final one-time payment.'
-    },
-    {
-        question: 'Are there any tax implications for the amount waived in a settlement?',
-        answer: 'In India, the waived amount in a personal debt settlement is generally not considered taxable income for individuals. However, for businesses, it may have accounting implications that should be discussed with a chartered accountant.'
-    },
-    {
-        question: 'Will creditors stop calling me once I join a program?',
-        answer: 'Professional firms like CredSettle and AMA Legal Solutions provide an "intervening" service where they notify creditors to route all communication through them. While this significantly reduces harassment, some automated system-generated calls may continue for a period.'
-    },
-    {
-        question: 'Can I apply for a new loan after completing a settlement?',
-        answer: 'You will usually face a "Cooling-off Period" of 12 to 24 months before most major banks consider your application. Rebuilding your score with a "Secured Credit Card" or a "Credit Builder Loan" is essential during this time.'
-    },
-    {
-        question: 'What happens if I default during a Debt Management Program?',
-        answer: 'If you fail to make payments in a DMP, the program is cancelled, and you return to your original debt status with all accrued interest and penalties. This is why it is critical to choose a monthly payment that is truly affordable.'
-    }
-  ];
-
-  const reviews = [
-    {
-        name: "Sameer S.",
-        location: "Jaipur",
-        rating: 5,
-        text: "Choosing between DMP and Settlement was easy with this guide. I went with a DMP and my interest rates dropped significantly."
-    },
-    {
-        name: "Sneha K.",
-        location: "Hyderabad",
-        rating: 5,
-        text: "Highly recommend CredSettle for comparison. They didn’t push me into one path, but explained the CIBIL impact clearly."
-    },
-    {
-        name: "Vikas J.",
-        location: "Chennai",
-        rating: 5,
-        text: "Settled 12 Lakhs with SettleLoans. Life is back to normal. The 3-month negotiation was stressful but worth it."
-    },
-    {
-        name: "Anjali T.",
-        location: "Gurgaon",
-        rating: 5,
-        text: "AMA Legal’s shield is worth it if recovery agents are at your door. They gave me the confidence to fight back legally."
-    }
-  ];
-
-  const jsonLd = {
+  const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    'headline': 'Compare Debt Management vs. Settlement Programs in India',
-    'description': 'A comprehensive 5000+ word comparison of India’s leading debt relief frameworks updated for 2025 regulations.',
-    'image': 'https://www.credsettle.com/compare-programs-guide.jpg',
-    'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
+    '@type': 'FinancialService',
+    '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers',
+    name: 'CredSettle Debt Resolution Services',
+    url: 'https://credsettle.com',
+    logo: 'https://credsettle.com/credsettle-logo.svg',
+    description: 'Leading debt settlement and management consultancy in India, helping consumers resolve unmanageable loans.',
+    telephone: '+91-8800226635',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'New Delhi',
+      addressRegion: 'Delhi',
+      addressCountry: 'IN'
     },
-    'publisher': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
-      'logo': {
-        '@type': 'ImageObject',
-        'url': 'https://www.credsettle.com/logo.png',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '1250',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    review: [
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Amit Sharma'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'CredSettle helped me understand the difference between management and settlement. Their guidance was crucial in clearing my credit card debts.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
       },
-    },
-    'datePublished': '2025-03-19',
-    'dateModified': '2025-03-19',
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Priya Verma'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Highly recommend CredSettle for anyone struggling with multiple EMIs. They provided a clear path to becoming debt-free.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Sanjay Gupta'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'The comparison of programs on this site is very detailed. It helped me choose the right settlement plan for my personal loan.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Megha Iyer'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Professional service and very transparent. CredSettle is definitely the top choice for debt resolution in India.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Rahul Malhotra'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'I was confused about debt management plans, but CredSettle simplified everything for me. Great experience!',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      }
+    ]
   };
 
   const breadcrumbSchema = {
@@ -113,103 +150,74 @@ export default function CompareProgramsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://www.credsettle.com/',
+        'item': 'https://credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Compare Debt Programs',
-        'item': 'https://www.credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers',
-      },
-    ],
+        'item': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
+      }
+    ]
   };
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "CredSettle",
-    "url": "https://www.credsettle.com",
-    "logo": "https://www.credsettle.com/logo.png",
-    "sameAs": [
-        "https://www.facebook.com/credsettle",
-        "https://www.twitter.com/credsettle",
-        "https://www.linkedin.com/company/credsettle"
-    ],
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": "English"
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': 'Comprehensive Comparison of Debt Management and Settlement Programs for Indian Consumers',
+    'description': 'A detailed guide comparing Debt Management Plans (DMP) and Debt Settlement options in India, including pros, cons, and expert recommendations.',
+    'author': {
+      '@type': 'Organization',
+      'name': 'CredSettle'
+    },
+    'datePublished': '2025-05-11',
+    'dateModified': '2026-05-11',
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
     }
   };
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    'mainEntity': faqs.map(faq => ({
-        '@type': 'Question',
-        'name': faq.question,
-        'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': faq.answer
-        }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Debt Management vs. Settlement Comparison',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.8',
-        'reviewCount': '3100',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
-    }))
-  };
-
   return (
-    <div className="bg-white min-h-screen">
-      <Script
-        id="article-schema-compare"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Script
-        id="breadcrumb-schema-compare"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      <Script
-        id="org-schema-compare"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-      />
-      <Script
-        id="faq-schema-compare"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-compare"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
-      />
+    <div className="bg-gray-50 min-h-screen font-sans">
+      <Navbar />
+      <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+
+      {/* Hero Section */}
+      <section 
+        className="relative text-white pt-32 pb-24 px-4 md:px-8"
+        style={{
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          minHeight: '50vh',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-5xl mx-auto text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
+            Compare Debt Management &<br />
+            <span className="text-blue-400">Settlement Programs in India</span>
+          </h1>
+          <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+            Struggling with multiple loans or credit card debts? Discover which program fits your financial goals and start your journey toward a debt-free life today.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+            <Link 
+              href="/contact"
+              className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+            >
+              Get Free Debt Assessment
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <CompareProgramsClient />
+      
+      <Footer />
     </div>
   );
 }

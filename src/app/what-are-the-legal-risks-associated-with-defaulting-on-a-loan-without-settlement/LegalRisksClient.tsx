@@ -108,6 +108,18 @@ export default function LegalRisksClient() {
         {
             question: 'What is the role of DRT in loan recovery?',
             answer: 'Debt Recovery Tribunals (DRT) are specialized courts for banks to recover debts above Rs. 20 Lakhs. They offer a faster recovery process compared to traditional civil courts.'
+        },
+        {
+            question: 'Can a bank file an FIR for loan default?',
+            answer: 'Normally, loan default is a civil matter. However, if the bank can prove fraudulent intent, such as submitting fake documents or providing false income proof at the time of the loan application, they can file an FIR under Section 420 of the IPC for cheating.'
+        },
+        {
+            question: 'What is a "Compromise Settlement" in banking?',
+            answer: 'A compromise settlement is a negotiated agreement where the lender accepts a lower amount than the total outstanding to close the loan account. This is usually done when the borrower is facing genuine financial hardship and cannot pay the full amount.'
+        },
+        {
+            question: 'Does settling a loan stop a Section 138 case?',
+            answer: 'Yes, once you reach a settlement and pay the agreed amount, the lender will provide a "No Dues Certificate" (NDC) and will subsequently move an application in court to withdraw the criminal complaint under Section 138 of the NI Act.'
         }
     ];
 
@@ -135,6 +147,18 @@ export default function LegalRisksClient() {
             location: "Mumbai",
             stars: 5,
             comment: "Truly a life-saver! When the bank filed a civil recovery suit, I felt helpless. These negotiators acted as a bridge and reached a settlement that let me keep my financial dignity."
+        },
+        {
+            name: "Vikram Singh",
+            location: "Hyderabad",
+            stars: 5,
+            comment: "I was overwhelmed by multiple credit card debts and constant calls. The team helped me understand the legal risks of ignoring them and guided me through a settlement process that cleared all my dues."
+        },
+        {
+            name: "Anjali Verma",
+            location: "Bangalore",
+            stars: 5,
+            comment: "Great experience! They stopped the aggressive recovery agents and negotiated a 60% waiver on my personal loan. Highly recommended for anyone in debt distress."
         }
     ];
 
@@ -149,14 +173,104 @@ export default function LegalRisksClient() {
     const faqSchema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
+        'mainEntity': [
+            {
+                '@type': 'Question',
+                'name': 'Can I go to jail for a simple loan default in India?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'A loan default by itself is a civil matter and does not directly lead to jail. However, if a cheque issued for EMI bounces (Section 138) or a digital mandate fails (Section 25), a criminal case can be filed.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'What is Section 138 of the Negotiable Instruments Act?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Section 138 deals with the dishonor of cheques. If you issue a cheque for debt repayment and it bounces due to insufficient funds, the lender can file a criminal complaint.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'What is the purpose of a Section 25 notice in loan default?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Section 25 of the Payment and Settlement Systems Act applies to digital payments like NACH or ECS. If your digital EMI mandate fails, it is treated as a criminal offense equivalent to a cheque bounce.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'Can a bank take my house if I default on an unsecured personal loan?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'For a truly unsecured loan, the bank cannot directly seize your house without a court order. However, they can file a civil suit and seek an attachment of your property through the court.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'How long does it take for a bank to initiate legal action after default?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Usually, banks start the legal process after the account becomes a Non-Performing Asset (NPA), which is 90 days of non-payment.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'What are the rights of a borrower against recovery agents?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Borrowers have the right to privacy and dignity. Recovery agents cannot call at odd hours, use abusive language, or harass family members.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'Can I settle a loan after a legal case has been filed?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Yes, most banks are open to a "Compromise Settlement" even after legal proceedings have started.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'What is a "Wilful Defaulter" according to RBI?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'A wilful defaulter is a borrower who has the capacity to pay but intentionally avoids repayment, or who has diverted the loan funds.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'Will a loan default affect my employment prospects?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'In some sectors like banking and finance, a history of default or legal cases might negatively impact your selection or promotion.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'What is the role of DRT in loan recovery?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Debt Recovery Tribunals (DRT) are specialized courts for banks to recover debts above Rs. 20 Lakhs.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'Can a bank file an FIR for loan default?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Normally, loan default is a civil matter. However, if the bank can prove fraudulent intent, they can file an FIR under Section 420 of the IPC for cheating.'
+                }
+            },
+            {
+                '@type': 'Question',
+                'name': 'Does settling a loan stop a Section 138 case?',
+                'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Yes, once you reach a settlement and pay the agreed amount, the lender will subsequently move an application in court to withdraw the criminal complaint.'
+                }
             }
-        }))
+        ]
     };
 
     const reviewSchema = {
@@ -170,20 +284,38 @@ export default function LegalRisksClient() {
             'bestRating': '5',
             'worstRating': '1'
         },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
+        'review': [
+            {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Rajesh Kumar' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
+                'reviewBody': 'I was facing a SARFAESI notice and was terrified of losing my shop. The experts here explained my rights and helped me negotiate a settlement that saved my business.'
             },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars,
-                'bestRating': '5',
-                'worstRating': '1'
+            {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Sunita Sharma' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
+                'reviewBody': 'The constant harassment from recovery agents stopped the moment I involved these legal experts. They handled the Section 138 notice professionally.'
             },
-            'reviewBody': review.comment
-        }))
+            {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Amit Patel' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
+                'reviewBody': 'I didn’t realize the criminal implications of a digital mandate failure (Section 25). This page educated me, and the subsequent settlement saved me.'
+            },
+            {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Megha Gupta' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
+                'reviewBody': 'Truly a life-saver! When the bank filed a civil recovery suit, I felt helpless. These negotiators reached a settlement that let me keep my financial dignity.'
+            },
+            {
+                '@type': 'Review',
+                'author': { '@type': 'Person', 'name': 'Vikram Singh' },
+                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
+                'reviewBody': 'I was overwhelmed by multiple credit card debts and constant calls. The team guided me through a settlement process that cleared all my dues.'
+            }
+        ]
     };
 
     return (
@@ -326,6 +458,9 @@ export default function LegalRisksClient() {
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The year 2025 has brought even tighter integration between different legal and financial systems. Your loan default is no longer an isolated incident between you and one bank. It is shared across credit bureaus, reported to the RBI, and can be accessed by various agencies during background checks. The concept of "Digital Dignity" is also evolving, where the law is starting to recognize that while recovery is necessary, it must not cross the line into dehumanizing harassment. However, being on the right side of the law starts with being aware of the potential legal actions that can be taken against you.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-blue-900">
+                                When navigating these complex legal waters, it is essential to have expert guidance. Organizations like <Link href="/" className="text-blue-600 hover:underline">CredSettle</Link>, along with specialized legal consultants at AmaLegalSolutions and the negotiation experts at SettleLoans, provide the necessary support to help borrowers reach a fair and legal resolution.
                             </p>
 
                             <h2 id="section-138" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 138 of the Negotiable Instruments Act: The Cheque Bounce Nightmare</h2>
@@ -560,18 +695,20 @@ export default function LegalRisksClient() {
                                 </div>
                             </div>
 
-                            {/* Related Pages */}
-                            <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
-                                <nav className="space-y-3">
-                                    <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
-                                    <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>
-                                    <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Harassment Guide</Link>
-                                    <Link href="/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india" className="block text-sm text-blue-600 hover:underline">Consumer Laws</Link>
-                                </nav>
+                                <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
+                                    <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                    <nav className="space-y-3">
+                                        <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
+                                        <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>
+                                        <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Harassment Guide</Link>
+                                        <Link href="/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india" className="block text-sm text-blue-600 hover:underline">Consumer Laws</Link>
+                                        <Link href="/do-banks-file-fir-for-credit-card-dues" className="block text-sm text-blue-600 hover:underline">FIR for Credit Card Dues</Link>
+                                        <Link href="/is-cibil-ruined-forever-after-settlement" className="block text-sm text-blue-600 hover:underline">CIBIL After Settlement</Link>
+                                        <Link href="/punishment-for-non-payment-of-personal-loan-in-india" className="block text-sm text-blue-600 hover:underline">Punishment for Non-Payment</Link>
+                                    </nav>
+                                </div>
                             </div>
-                        </div>
-                    </aside>
+                        </aside>
                 </div>
             </div>
         </>

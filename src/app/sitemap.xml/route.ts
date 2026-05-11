@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 98; // Updated for new loan settlement SEO pages.
+  const mainStaticPages = 142; // Updated for new loan settlement SEO pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -448,6 +448,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-track-my-loan-settlement-status-through-financial-service-websites`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
@@ -582,7 +589,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers`,
+    loc: `${baseUrl}/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
@@ -882,6 +889,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -1643,7 +1657,7 @@ async function generateSitemap(): Promise<string> {
 
   // How to Handle Recovery Agent Harassment page
   urls.push({
-    loc: `${baseUrl}/how-to-handle-recovery-agent-harrasement`,
+    loc: `${baseUrl}/how-to-handle-recovery-agent-harrasment`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -1723,7 +1737,7 @@ async function generateSitemap(): Promise<string> {
 
   // Bajaj Finance Recovery Agent Harassment Home Visit page
   urls.push({
-    loc: `${baseUrl}/bajaj-finance-recovery-agent-harrasement-home-visit`,
+    loc: `${baseUrl}/bajaj-finance-recovery-agent-harassment-home-visit`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -2095,6 +2109,308 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  
+  urls.push({
+    loc: `${baseUrl}/bank-calling-references-and-family-members`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-I-settle-my-home-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-convert-settled-to-closed-later`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-my-loan-without-a-lawyer`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/cred-settle-plan-for-building-debt-free-future-after-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/cred-settle-support-for-avoiding-aggressive-recovery-practices`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/does-settlement-impact-a-co-borrower`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/find-certified-financial-planners-who-specialize-in-debt-restructuring-and-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/handle-loan-default-without-panicking`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/home-loan-eligibility-after-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-do-peer-to-peer-lending-platforms-handle-loan-settlements`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-avoid-debt-settlement-scams-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-check-active-loan-on-your-name-in-india-stepbystep-guide`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-get-freed-from-debt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-identify-fake-recovery-agents`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-initiate-a-loan-settlement-request-through-a-banks-online-portal`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-settle-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-loan-settlement-in-installments-possible`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/legal-notice-for-loan-settlement-harassment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-by-bank`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-by-city`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-borrowers-facing-economic-downturn`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-borrowers-planning-financial-reset`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-self-employed`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-letter-format-noc-format`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-process-in-hindi`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/p2p-crypto-scam-unfreeze-bank-account`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/rbi-guidelines-calling-after-7pm`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/smart-ways-to-manage-emi-payment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-alternatives-exist-to-loan-settlement-services-for-debt-relief-online`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-consequences-of-not-paying-emi`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-customer-support-options-do-loan-settlement-companies-provide`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-the-average-timeframe-for-completing-a-loan-settlement-process`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-the-best-way-to-negotiate-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-kind-of-loans-can-not-be-settled`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-percentage-do-banks-accept-in-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/why-does-my-credit-score-drop-even-though-i-pay-on-time`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

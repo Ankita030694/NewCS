@@ -91,6 +91,18 @@ export default function CheckGenuinenessPage() {
             location: "Kolkata",
             rating: 5,
             text: "Never trust a Gmail address for bank talk. This guide should be read by every borrower in India."
+        },
+        {
+            name: "Suresh M.",
+            location: "Bangalore",
+            rating: 5,
+            text: "I was confused about a settlement letter from an NBFC. The check on official domains mentioned here saved me from a 50k scam. Highly recommended guide."
+        },
+        {
+            name: "Meera K.",
+            location: "Kolkata",
+            rating: 5,
+            text: "Never trust a Gmail address for bank talk. This guide should be read by every borrower in India."
         }
     ];
 

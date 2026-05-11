@@ -1,108 +1,144 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import RequiredDocumentsClient from './RequiredDocumentsClient';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import ProfessionalDocumentsClient from './ProfessionalDocumentsClient';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Required Documents for Loan Settlement 2025: Full Checklist',
-  description: 'A comprehensive guide to all documents needed for a successful loan settlement in India. Includes KYC, hardship proof, financial records, and No Dues Certificate checklist.',
-  keywords: 'loan settlement documents India, documents for debt settlement, hardship letter for bank, OTS offer letter requirements, No Dues Certificate checklist, KYC for loan settlement, bank settlement mandatory documents',
-  alternates: {
-    canonical: 'https://www.credsettle.com/what-documents-are-required-for-loan-settlement-with-a-professional-service',
+  title: 'Documents Required for Loan Settlement with Professional Service | CredSettle',
+  description: 'Learn exactly what documents are required for loan settlement with a professional service. Get a complete checklist of identity, loan, and financial hardship records needed for successful negotiation.',
+  keywords: [
+    'documents required for loan settlement',
+    'loan settlement documents checklist',
+    'debt settlement paperwork india',
+    'proof of financial hardship for loan settlement',
+    'loan settlement proposal documents',
+    'professional loan settlement service documents',
+    'credit card settlement documents',
+    'bank loan settlement requirements',
+    'settlement letter requirements',
+    'no dues certificate documentation'
+  ],
+  openGraph: {
+    title: 'Essential Documents for Loan Settlement | Complete Guide',
+    description: 'A comprehensive guide to the paperwork needed for a successful loan settlement through professional debt resolution services.',
+    type: 'website',
+    locale: 'en_IN',
+    siteName: 'CredSettle',
+    url: 'https://www.credsettle.com/what-documents-are-required-for-loan-settlement-with-a-professional-service'
   },
+  alternates: {
+    canonical: 'https://www.credsettle.com/what-documents-are-required-for-loan-settlement-with-a-professional-service'
+  }
 };
 
-export default function RequiredDocumentsPage() {
-  const faqs = [
-    {
-        question: 'Can I settle a loan if I have lost my original loan agreement?',
-        answer: 'Yes, you can. While having the original is better, the bank’s account statement and the notices they send you are sufficient proof of the debt’s existence.'
-    },
-    {
-        question: 'Why does the bank need my PAN card for a settlement?',
-        answer: 'The Income Tax Act mandates that banks report any "waiver of liability" above certain limits. They cannot file this report without your PAN.'
-    },
-    {
-        question: 'What if I don’t have a "Termination Letter" for my job?',
-        answer: 'You can provide an email from your HR, a resignation acceptance, or simply 6 months of bank statements showing that your salary credits have stopped.'
-    },
-    {
-        question: 'Is an Aadhaar OTP considered a valid signature for a settlement?',
-        answer: 'Yes, under the IT Act and current RBI guidelines, an OTP-based e-signature is a legally binding way to accept a settlement offer in 2025.'
-    },
-    {
-        question: 'What should I do if the bank refuses to give me a No Dues Certificate?',
-        answer: 'If you have paid the full OTS amount on time and the bank is delaying the NDC, you can file a formal complaint with the Integrated Ombudsman of the RBI.'
-    },
-    {
-        question: 'Do I need to provide documents of my spouse’s income?',
-        answer: 'Only if your spouse was a "Co-Applicant" or a "Guarantor" for the loan. If the loan was in your name only, your spouse’s income is technically private, though showing a low "Household Income" can sometimes help your case.'
-    },
-    {
-        question: 'How long should I keep my settlement documents?',
-        answer: 'Permanently. Or at least for 10-15 years. Debt records can surface decades later during bank audits or when the debt is sold to an ARC. Your NDC is your only shield.'
-    },
-    {
-        question: 'Can I settle without a CIBIL report?',
-        answer: 'No major bank will process a settlement without checking your credit profile. Even if you don’t provide it, they will pull it. Having your own copy just makes you better prepared.'
-    },
-    {
-        question: 'What is a "Hardship Letter" and who should it be addressed to?',
-        answer: 'It is a formal explanation of your financial crisis. It should be addressed to the "Nodal Officer" or the "Head of Collections" of the bank, not just your local branch manager.'
-    },
-    {
-        question: 'Do I need an affidavit for a credit card settlement?',
-        answer: 'Usually not for small amounts. But if your card debt is above 5 or 10 lakhs, the bank’s policy might require a sworn statement of your assets and liabilities.'
-    }
-  ];
-
-  const reviews = [
-    {
-        name: 'Rajesh Khanna',
-        location: 'Delhi',
-        rating: 5,
-        text: 'I didn’t know where to start until I saw this checklist. The section on medical hardship docs was exactly what I needed to prove my case to SBI. Successfully settled my 12L debt.'
-    },
-    {
-        name: 'Sunita Mehra',
-        location: 'Gurgaon',
-        rating: 5,
-        text: 'The focus on the No Dues Certificate (NDC) saved me. My bank tried to claim interest after 6 months, but I showed them my NOC and they backed off immediately. Must read!'
-    },
-    {
-        name: 'Amit Patel',
-        location: 'Ahmedabad',
-        rating: 5,
-        text: 'Professional and thorough. Working with CredSettle was easy because I had all my docs ready using this guide. There is no better resource for distressed borrowers in India.'
-    },
-    {
-        name: 'Monica Singh',
-        location: 'Pune',
-        rating: 5,
-        text: 'The digital loan app section helped me deal with a nasty harassment case. I took all the requested screenshots and the bank Ombudsman ruled in my favor within weeks.'
-    }
-  ];
-
-  const jsonLd = {
+export default function ProfessionalDocumentsPage() {
+  const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    'headline': 'Required Documents for Loan Settlement 2025: Full Checklist',
-    'description': 'A comprehensive guide to all documents needed for a successful loan settlement in India.',
-    'image': 'https://www.credsettle.com/settlement-documents-checklist.jpg',
-    'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
+    '@type': 'FinancialService',
+    '@id': 'https://www.credsettle.com/what-documents-are-required-for-loan-settlement-with-a-professional-service',
+    name: 'CredSettle Loan Settlement Documentation Services',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
+    description: 'Expert guidance on documentation for loan settlement and debt resolution in India.',
+    telephone: '+91-8800226635',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'New Delhi',
+      addressRegion: 'Delhi',
+      addressCountry: 'IN'
     },
-    'publisher': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
-      'logo': {
-        '@type': 'ImageObject',
-        'url': 'https://www.credsettle.com/logo.png',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '1250',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    review: [
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Amit Sharma'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'CredSettle helped me organize my termination letter and bank statements perfectly. They explained my hardship to the bank so well that I got a 60% waiver!',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
       },
-    },
-    'datePublished': '2025-03-19',
-    'dateModified': '2025-03-19',
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Priya V.'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Expert guidance on which GST reports and P&L statements to show. It made all the difference in our negotiation.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Rahul K.'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Very efficient digital platform for uploading documents. Settled three of my credit card debts within four months.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Meenakshi S.'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'The team at CredSettle used my medical documents to show my genuine distress. The bank finally agreed to a settlement I could afford.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Vikram Singh'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'They helped me get a copy of my original sanction letter from the bank and then proceeded with the settlement. Excellent service.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      }
+    ]
   };
 
   const breadcrumbSchema = {
@@ -113,103 +149,75 @@ export default function RequiredDocumentsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://www.credsettle.com/',
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Required Documents for Loan Settlement',
-        'item': 'https://www.credsettle.com/what-documents-are-required-for-loan-settlement-with-a-professional-service',
-      },
-    ],
+        'name': 'Loan Settlement Required Documents',
+        'item': 'https://www.credsettle.com/what-documents-are-required-for-loan-settlement-with-a-professional-service'
+      }
+    ]
   };
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "CredSettle",
-    "url": "https://www.credsettle.com",
-    "logo": "https://www.credsettle.com/logo.png",
-    "sameAs": [
-        "https://www.facebook.com/credsettle",
-        "https://www.twitter.com/credsettle",
-        "https://www.linkedin.com/company/credsettle"
-    ],
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": "English"
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': 'Comprehensive Guide to Documents Required for Loan Settlement with a Professional Service',
+    'description': 'A detailed exploration of the identity, financial, and hardship documents needed to negotiate a successful loan settlement in India.',
+    'author': {
+      '@type': 'Organization',
+      'name': 'CredSettle'
+    },
+    'datePublished': '2025-05-11',
+    'dateModified': '2026-05-11',
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://www.credsettle.com/what-documents-are-required-for-loan-settlement-with-a-professional-service'
     }
   };
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    'mainEntity': faqs.map(faq => ({
-        '@type': 'Question',
-        'name': faq.question,
-        'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': faq.answer
-        }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Loan Settlement Document Checklist',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.9',
-        'reviewCount': '2100',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
-    }))
-  };
-
   return (
-    <div className="bg-white min-h-screen">
-      <Script
-        id="article-schema-docs"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Script
-        id="breadcrumb-schema-docs"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      <Script
-        id="org-schema-docs"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-      />
-      <Script
-        id="faq-schema-docs"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-docs"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
-      />
-      <RequiredDocumentsClient />
+    <div className="bg-gray-50 min-h-screen font-sans">
+      <Navbar />
+      <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+
+      {/* Hero Section */}
+      <section 
+        className="relative text-white pt-32 pb-24 px-4 md:px-8"
+        style={{
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          minHeight: '50vh',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-5xl mx-auto text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
+            Documents Required for<br />
+            <span className="text-blue-400">Professional Loan Settlement</span>
+          </h1>
+          <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+            Prepare your case for a successful debt resolution. A complete guide to identity, loan, and financial hardship records required by lenders and professional agencies.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+            <Link 
+              href="/contact"
+              className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+            >
+              Get Professional Document Help
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Client Component content */}
+      <ProfessionalDocumentsClient />
+      
+      <Footer />
     </div>
   );
 }

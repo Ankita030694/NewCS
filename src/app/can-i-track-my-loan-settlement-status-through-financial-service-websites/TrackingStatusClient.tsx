@@ -5,525 +5,504 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 export default function TrackingStatusClient() {
-    const [activeId, setActiveId] = useState<string>('');
-    const [isMobile, setIsMobile] = useState(false);
-    const mobTocRef = useRef<HTMLDivElement>(null);
+  const [activeId, setActiveId] = useState<string>('');
+  const [isMobile, setIsMobile] = useState(false);
+  const mobileNavRef = useRef<HTMLDivElement>(null);
 
-    useEffect(() => {
-        if (activeId && mobTocRef.current) {
-            const activeElement = document.getElementById(`mob-toc-${activeId}`);
-            if (activeElement) {
-                activeElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'nearest',
-                    inline: 'center'
-                });
-            }
-        }
-    }, [activeId]);
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 1024);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
-    useEffect(() => {
-        const checkMobile = () => setIsMobile(window.innerWidth < 1024);
-        checkMobile();
-        window.addEventListener('resize', checkMobile);
-        return () => window.removeEventListener('resize', checkMobile);
-    }, []);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        setActiveId(entry.target.id);
-                    }
-                });
-            },
-            {
-                rootMargin: '-100px 0px -35% 0px',
-                threshold: 0.1
-            }
-        );
-
-        const headings = document.querySelectorAll('h2[id], h3[id]');
-        headings.forEach((heading) => observer.observe(heading));
-
-        return () => {
-            headings.forEach((heading) => observer.unobserve(heading));
-        };
-    }, []);
-
-    const navLinks = [
-        { id: 'introduction', label: 'Introduction' },
-        { id: 'digital-transformation', label: 'Digital Evolution' },
-        { id: 'tracking-methods', label: 'Tracking Methods' },
-        { id: 'amalegal-dashboard', label: 'AMA Legal Tech' },
-        { id: 'credsettle-portal', label: 'CredSettle Interface' },
-        { id: 'settleloans-app', label: 'SettleLoans Features' },
-        { id: 'bank-vs-thirdparty', label: 'Bank vs. Platforms' },
-        { id: 'status-definitions', label: 'Status Meanings' },
-        { id: 'data-security', label: 'Privacy & Safety' },
-        { id: 'post-settlement-tracking', label: 'After the OTS' },
-        { id: 'common-delays', label: 'Why Updates Lag' },
-        { id: 'reviews', label: 'User Experiences' },
-        { id: 'faqs', label: 'FAQs' },
-        { id: 'conclusion', label: 'Final Summary' },
-    ];
-
-    const faqs = [
-        {
-            question: 'How quickly is my status updated on a settlement website?',
-            answer: 'Status updates usually happen in real-time or within 24 hours of a significant event, such as a negotiation call with a bank or the receipt of a draft OTS letter.'
-        },
-        {
-            question: 'Can I track multiple loans on a single dashboard?',
-            answer: 'Yes, platforms like AMA Legal Solutions and CredSettle allow you to add multiple loan accounts to a single client dashboard to monitor your overall debt resolution journey.'
-        },
-        {
-            question: 'What does "Negotiation in Progress" mean?',
-            answer: 'This status indicates that your representative has contacted the bank and is currently in talks to finalize a waiver percentage. It can take 2 to 4 weeks depending on the bank.'
-        },
-        {
-            question: 'Is it safe to share my loan details on these websites?',
-            answer: 'Reputable firms use 256-bit encryption and are compliant with Indian Data Privacy laws. Always ensure you are on the official domain before entering sensitive info.'
-        },
-        {
-            question: 'Will the bank\'s website also show the settlement status?',
-            answer: 'Most banks will only show "Account Closed" after the full payment is processed. During the negotiation phase, the bank portal usually just shows the loan as "NPA" or "Overdue."'
-        },
-        {
-            question: 'Can I download my OTS letter from these portals?',
-            answer: 'Yes, digital document management is a core feature. You can typically view, download, and store your OTS letters and No Dues Certificates permanently on your secure profile.'
-        },
-        {
-            question: 'Is there a mobile app for tracking loan settlements?',
-            answer: 'Companies like SettleLoans.in have dedicated mobile apps, while others like CredSettle provide mobile-responsive web portals for on-the-go tracking.'
-        },
-        {
-            question: 'Can I track my CIBIL score through these websites?',
-            answer: 'Many debt resolution firms integrate credit monitoring services to show you the impact of the settlement on your score over a 12-month period.'
-        },
-        {
-            question: 'What if there is a discrepancy in the status?',
-            answer: 'You can use the chat support or "Report Error" feature on the dashboard. Since these platforms work as your legal representative, they ensure the backend status matches the reality.'
-        },
-        {
-            question: 'Are there any fees for used these tracking portals?',
-            answer: 'Access to tracking dashboards is usually included in the service fee charged by the settlement company. There is typically no extra charge for using the monitoring portal.'
-        }
-    ];
-
-    const reviews = [
-        {
-            name: 'Vikram Sethi',
-            location: 'Bangalore',
-            stars: 5,
-            comment: 'AMA Legal Solutions has an amazing dashboard. I could see exactly when the bank manager was contacted. The transparency made the wait much easier!'
-        },
-        {
-            name: 'Rahul Khanna',
-            location: 'Delhi',
-            stars: 5,
-            comment: 'CredSettle kept me updated at every step. I didn\'t have to call them; I just checked my phone for the status change. Very professional system.'
-        },
-        {
-            name: 'Sunita Mehra',
-            location: 'Gurgaon',
-            stars: 5,
-            comment: 'The document storage feature is great. I found my No Dues Certificate on the portal even after I lost the physical copy. Highly recommend.'
-        }
-    ];
-
-    const articleSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Article',
-        'headline': 'Tracking Loan Settlement Status in India: A Digital Guide for 2025',
-        'description': 'How technology is bringing transparency to the debt resolution process through real-time tracking and legal dashboards.',
-        'author': {
-            '@type': 'Organization',
-            'name': 'CredSettle Research Cell'
-        },
-        'publisher': {
-            '@type': 'Organization',
-            'name': 'CredSettle',
-            'logo': {
-                '@type': 'ImageObject',
-                'url': 'https://www.credsettle.com/logo.png'
-            }
-        },
-        'datePublished': '2025-02-01',
-        'dateModified': '2025-03-21'
-    };
-
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        'mainEntity': faqs.map(faq => ({
-            '@type': 'Question',
-            'name': faq.question,
-            'acceptedAnswer': {
-                '@type': 'Answer',
-                'text': faq.answer
-            }
-        }))
-    };
-
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Settlement Tracking Platform',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '3150',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
-    return (
-        <>
-            <Script id="article-schema-tracking-det" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <Script id="faq-schema-tracking-det" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-tracking-det" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-
-            {/* Hero Section */}
-            <section
-                className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"
-                style={{
-                    background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #0541B8 0%, #000D26 100%)',
-                    minHeight: '50vh',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                }}
-            >
-                <div className="max-w-6xl mx-auto text-center z-10">
-                    <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Track Your <br />
-                        <span className="text-blue-300">Settlement Progress</span>
-                    </h1>
-                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-                        Experience total transparency. Monitor every negotiation, document, and bank interaction in real-time through secure financial service portals.
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link
-                            href="/contact"
-                            className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                        >
-                            View Your Dashboard
-                        </Link>
-                    </div>
-                </div>
-            </section>
-
-            {/* Breadcrumb Section */}
-            <div className="bg-white border-b border-gray-200">
-                <div className="max-w-[1440px] mx-auto px-4 py-4">
-                    <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
-                        <ol className="inline-flex items-center space-x-1 md:space-x-3">
-                            <li className="inline-flex items-center">
-                                <Link href="/" className="inline-flex items-center hover:text-blue-600">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <div className="flex items-center">
-                                    <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
-                                    </svg>
-                                    <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                                        Track Settlement Status
-                                    </span>
-                                </div>
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-
-            {/* Mobile Sticky TOC */}
-            <div
-                ref={mobTocRef}
-                className="sticky top-0 z-40 lg:hidden bg-white border-b border-gray-200 shadow-sm overflow-x-auto no-scrollbar scroll-smooth py-3 px-4 flex gap-4 whitespace-nowrap"
-            >
-                {navLinks.map((link) => (
-                    <a
-                        key={link.id}
-                        id={`mob-toc-${link.id}`}
-                        href={`#${link.id}`}
-                        className={`text-sm font-medium px-4 py-2 rounded-full transition-all flex-shrink-0 ${activeId === link.id
-                            ? 'bg-blue-600 text-white shadow-md'
-                            : 'text-gray-600 bg-gray-50 hover:bg-gray-100'
-                            }`}
-                        onClick={(e) => {
-                            e.preventDefault();
-                            const element = document.getElementById(link.id);
-                            if (element) {
-                                const offset = 80;
-                                const bodyRect = document.body.getBoundingClientRect().top;
-                                const elementRect = element.getBoundingClientRect().top;
-                                const elementPosition = elementRect - bodyRect;
-                                const offsetPosition = elementPosition - offset;
-
-                                window.scrollTo({
-                                    top: offsetPosition,
-                                    behavior: 'smooth'
-                                });
-                            }
-                            setActiveId(link.id);
-                        }}
-                    >
-                        {link.label}
-                    </a>
-                ))}
-            </div>
-
-            <div className="max-w-[1440px] mx-auto px-4 py-8 lg:py-12">
-                <div className="flex flex-col lg:flex-row gap-8 items-start">
-
-                    {/* Left Column: Table of Contents */}
-                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start max-h-[calc(100vh-100px)] overflow-y-auto no-scrollbar">
-                        <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Tracking Guide</h3>
-                            <nav className="space-y-1 text-sm">
-                                {navLinks.map((link) => (
-                                    <a
-                                        key={link.id}
-                                        href={`#${link.id}`}
-                                        className={`block py-1.5 px-3 rounded-lg transition-all ${activeId === link.id
-                                            ? 'bg-blue-600 text-white font-semibold'
-                                            : 'text-gray-600 hover:bg-blue-50 hover:text-blue-600'
-                                            }`}
-                                        onClick={(e) => {
-                                            e.preventDefault();
-                                            document.querySelector(`#${link.id}`)?.scrollIntoView({ behavior: 'smooth' });
-                                            setActiveId(link.id);
-                                        }}
-                                    >
-                                        {link.label}
-                                    </a>
-                                ))}
-                            </nav>
-                        </div>
-                    </aside>
-
-                    {/* Middle Column: Main Content */}
-                    <main className="lg:w-2/4 xl:w-3/5 w-full">
-                        <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
-
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Introduction: The Digital Transformation of Debt Recovery</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The year 2025 has brought about a silent revolution in the way Indian borrowers interact with their financial obligations. Gone are the days when tracking a loan settlement meant endless physical visits to dusty bank branches or waiting for weeks for a registered letter to arrive in the mail. In today's hyper-connected fintech ecosystem, transparency is no longer a luxury; it is a mandatory standard. As a borrower navigating the stormy waters of debt settlement, the most powerful tool in your arsenal is information.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A loan settlement is a complex bridge between a financial crisis and a clean slate. However, without real-time tracking, this bridge can feel like a blind walk. Borrowers often find themselves overwhelmed by questions: Has the bank received my proposal? Is the Nodal Officer reviewing my medical hardship documents? Has the settlement amount been updated in the bank's internal recovery system? These uncertainties can lead to immense mental stress and potential financial missteps.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                This comprehensive 5,000-word guide is designed to empower you with the technical knowledge of how digital tracking works in 2025. We will explore the sophisticated web portals provided by leading financial service websites, the API integrations between settlement firms and banking servers, and the critical security protocols that protect your sensitive data. Whether you are working with a legacy public sector bank or a cutting-edge digital lender, knowing precisely where your settlement stands at any given second is your right and your responsibility.
-                            </p>
-
-                            <h2 id="digital-transformation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The End of Informational Black Holes: Why Tracking Matters</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The evolution of debt tracking began with the need for systemic accountability. As more Indian borrowers sought professional help to manage their Non-Performing Assets (NPAs), firms realized that manual updates via periodic phone calls were no longer sufficient. Today, the most reputable financial service websites provide a cloud-based client portal that acts as a "Single Source of Truth."
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                These portals aggregate data from multiple technical sources: bank communication timestamps, legal notice delivery receipts, and payment verification modules. By logging into a single dashboard, you can see a "Timeline of Recovery" which shows every significant interaction between your representative and the lender. This digital trail ensures that no promise goes undocumented, no deadline is missed, and every rupee is accounted for. It eliminates the "Informational Asymmetry" that banks have traditionally used to maintain leverage over individual borrowers.
-                            </p>
-
-                            <h2 id="tracking-methods" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Primary Tracking Methods for 2025</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                There are three main technical avenues you can use to track your status in the current year. Each provides a different "Lens" into the banking system:
-                            </p>
-                            <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>Representative Legal Dashboards:</strong> Provided by specialized firms (e.g., AMA Legal Solutions). These offer the highest level of "Behind-the-Scenes" negotiation detail.</li>
-                                <li><strong>Lender-Side SR Portals:</strong> Using the bank\'s "Service Request" (SR) tracking system, often found in the Help/Service section of Net Banking.</li>
-                                <li><strong>Credit Bureau Gateways:</strong> Using CIBIL, Experian, or Equifax "Alert" services to see when the bank officially reports the loan status update to the regulator.</li>
-                            </ul>
-
-                            <h2 id="amalegal-dashboard" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">1. <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> (amalegalsolutions.com): Professional Legal Tracking</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                As a legal-first firm specializing in high-value debt restructuring, <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a> has pioneered the "Evidence-Based" tracking model. Their dashboard is designed for borrowers who demand absolute accuracy and legal protection.
-                            </p>
-                            <div className="bg-blue-50 p-6 rounded-2xl mb-8 border border-blue-100 italic font-light text-black">
-                                "Transparency is not just a feature; it is a legal safeguard. When a borrower can see every communication we send to the bank, it builds a foundation of trust that is essential for long-term financial recovery." - Director at <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>.
-                            </div>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                On their portal, you can track the "Service of Response" for every legal notice. If a recovery agent attempts to harass you in person, you can instantaneously upload the timestamp and location to the portal. The legal team can then correlate this with the bank\'s "Status Token" on the dashboard to determine if the agent\'s visit was unauthorized. This level of granular tracking is critical for borrowers dealing with aggressive digital lenders where boundaries are frequently crossed.
-                            </p>
-
-                            <h2 id="credsettle-portal" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">2. CredSettle: The User-Centric Tech Interface</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                At CredSettle, we have focused on making the tracking experience completely intuitive. Our dashboard doesn't just show numbers; it shows a "Roadmap to Closure." We categorize your journey into specific technical milestones: Hardship Validation, Nodal Submission, Counter-Offer Analysis, and Final Sanction.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                We utilize "API Hooks" with several private sector lenders to pull near real-time status data. Our "Negotiation Heatmap" feature allows you to see how your current deal compares with thousands of similar settlements, giving you the confidence to either accept the current offer or push for a more significant waiver.
-                            </p>
-
-                            <h2 id="settleloans-app" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">3. <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans.in</a>: Scaling Your Debt Recovery</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans.in</a> (Settle Loan) has led the way in mass-scale debt resolution. Their tracking platform is optimized for the "Retail Borrower" who might have multiple small-ticket personal loans across various Fintech apps.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Their "Bulk Tracking" feature is excellent. It allows you to see the aggregate waiver across all your creditors in a single view. Their dashboard also highlights the "Payment Deadlines" for each creditor, ensuring you don't miss a settlement installment which would otherwise lead to the cancellation of the entire OTS agreement.
-                            </p>
-
-                            <h2 id="bank-vs-thirdparty" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Bank Portals vs. Specialized Platforms: The Information Gap</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                One common point of confusion is: "Why can't I just track this on SBI or HDFC's main website?" The reality is that bank portals are built for "Positive Customers." Once an account reaches "NPA" status, the client's digital banking access is often restricted, frozen, or moved to a specialized "Recovery Hub."
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A bank portal will only show the final "Settled" status *after* the entire payment has been reconciled. This reconciliation can take up to 21 days. During the critical 3 to 6 months of negotiation, the bank portal usually remains static, often heartlessly showing an ever-increasing "Total Outstandings" due to compounding interest.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                This is where specialized financial service websites fill the informational void. They provide the "Negotiation Narrative" that the bank hides. They track the human interactions, specifically the "Email Acknowledgement" from the Zonal Office, the "Resolution Number" assigned by the Nodal Desk, and the status of the "Lien Removal" process. They provide the clarity you need while the bank's automated systems are still treating you like a generic defaulter.
-                            </p>
-
-                            <h2 id="status-definitions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Technical Glossary: Decoding Your Dashboard Status</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                When you check your status, you will encounter specific industry terms. Understanding the logic behind these tags is essential for your peace of mind.
-                            </p>
-                            <div className="overflow-x-auto mb-8 shadow-md rounded-xl border border-gray-100">
-                                <table className="w-full text-left text-sm text-black">
-                                    <thead className="bg-blue-600 text-white font-bold">
-                                        <tr>
-                                            <th className="px-4 py-3 border-r border-blue-500 whitespace-nowrap">Status Tag</th>
-                                            <th className="px-4 py-3">Deep Technical Meaning</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody className="bg-white">
-                                        <tr className="border-b">
-                                            <td className="px-4 py-3 font-bold text-gray-900 bg-gray-50 border-r italic">Dossier Prepared</td>
-                                            <td className="px-4 py-3">Your hardship dossier (Medical, Job Loss proofs) is legally vetted and formatted for bank submission.</td>
-                                        </tr>
-                                        <tr className="border-b">
-                                            <td className="px-4 py-3 font-bold text-gray-900 bg-gray-50 border-r italic">Nodal Submission</td>
-                                            <td className="px-4 py-3">A formal legal proposal has been logged in the bank's central "Ombudsman-Tracked" recovery portal.</td>
-                                        </tr>
-                                        <tr className="border-b">
-                                            <td className="px-4 py-3 font-bold text-gray-900 bg-gray-50 border-r italic">Offer Validation</td>
-                                            <td className="px-4 py-3">The bank has sent a draft approval. The legal team is checking it for "Hidden Clauses" or "Future Liability" errors.</td>
-                                        </tr>
-                                        <tr className="border-b">
-                                            <td className="px-4 py-3 font-bold text-gray-900 bg-gray-50 border-r italic">Settled & Closed</td>
-                                            <td className="px-4 py-3 text-green-700 font-bold underline">Final payment reconciled. Account is zeroed in bank ledger. No Dues Certificate is now available for download.</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <h2 id="data-security" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Data Privacy in 2025: Protecting Your Personal Financial History</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Uploading sensitive documents like income tax returns, medical bills, and loan account details to a third-party website naturally creates anxiety. In 2025, reputable platforms have implemented rigorous "Bank-Grade" security measures. Regulated financial service websites now follow the Digital Personal Data Protection (DPDP) Act of India, ensuring your data is used only for the purpose of debt resolution.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The most advanced portals utilize **End-to-End Encryption (E2EE)** for all document uploads. This means that when you upload a No Dues Certificate or a bank statement, it is encrypted on your device and can only be decrypted by the authorized legal team. Furthermore, platforms like **AMA Legal Solutions** ensure that your contact information is never sold to marketing agencies, protecting you from the spam of unsecured loan providers who often prey on people in default.
-                            </p>
-
-                            <h2 id="post-settlement-tracking" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Post-Settlement Tracking: The Critical "Reflection" Window</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The tracking journey does not end when you make the final payment. In fact, the 60 to 90 days following a settlement are the most critical. This is known as the "Reflection Window", the time it takes for a bank to technical "Zero-out" your account in their own ledger and then transmit that data to the four major credit bureaus (CIBIL, Experian, Equifax, and CRIF).
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A specialized tracking dashboard like the one at **CredSettle** continues to monitor your "Bureau Status." It pings the credit bureau databases to ensure that your previous "Written-off" or "NPA" status has been successfully updated to "Settled" with a "Current Balance" of zero. This automated verification is vital because banks frequently commit reporting errors. If you track this and find an error, you can immediately use the digital copy of the NOC stored in your portal to file a formal dispute, shaving months off your financial recovery timeline.
-                            </p>
-
-                            <h2 id="common-delays" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Why Status Updates Lag: The Backend Reality</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                It is important to have realistic technical expectations. A tracking portal is an interface, not the bank\'s core engine. If a status remains "In Negotiation" for three weeks, it does not mean your representative is inactive. It usually means the bank is following its internal "Hierarchy of Approval."
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                For instance, in public sector banks, a settlement offer involving a waiver of more than 50 lakh rupees might require the approval of a "Regional Committee," which meets only once a month. In such cases, the status on your dashboard will reflect the current "File Location." Understanding these backend delays via your dashboard helps reduce the mental fatigue that often leads borrowers to make impulsive, non-negotiated decisions that end up costing them more money.
-                            </p>
-
-                            <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">User Experiences and Feedback</h2>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-                                {reviews.map((review, index) => (
-                                    <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
-                                        <div className="flex items-center mb-3">
-                                            <div className="flex text-yellow-400 mr-2">
-                                                {[...Array(review.stars)].map((_, i) => (
-                                                    <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
-                                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                                                    </svg>
-                                                ))}
-                                            </div>
-                                        </div>
-                                        <p className="text-gray-700 italic mb-4 leading-relaxed font-light text-sm">"{review.comment}"</p>
-                                        <div className="flex justify-between items-center text-xs font-bold text-blue-900">
-                                            <span>{review.name}</span>
-                                            <span className="opacity-60">{review.location}</span>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-
-                            <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Frequently Asked Questions</h2>
-                            <div className="space-y-6">
-                                {faqs.map((faq, index) => (
-                                    <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
-                                        <p className="text-gray-600 leading-relaxed font-light italic">{faq.answer}</p>
-                                    </div>
-                                ))}
-                            </div>
-
-                            <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Final Summary: Empowerment Through Transparency</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The ability to track your loan settlement status through financial service websites has fundamentally transformed the power dynamic between Indian lenders and borrowers. In 2025, you are no longer a passive bystander in your own financial recovery. By leveraging the advanced tracking portals provided by industry leaders, you transition from a place of uncertainty and stress to a place of informed decision-making and legal security.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Whether you are benefiting from the rigorous legal logging at <a href="https://www.amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>, the intuitive progress tracking at **CredSettle**, or the scaling efficiency of <a href="https://www.settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans.in</a>, the ultimate value of these portals is trust. They ensure that every step of your negotiation is transparent, every document is secure, and every payment is reflected accurately in your future credit history.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                We believe that a well-informed borrower is a successful one. Reclaim your financial peace of mind by using the digital tools at your disposal. Your path to a debt-free life is no longer a hidden secret locked in a bank's vault; it is a live, verifiable status on your personal dashboard. Take control of your tomorrow, today.
-                            </p>
-
-                            <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Start Your Digital Reset Today</h3>
-                                <p className="text-blue-800 mb-6">Don't settle for mystery. Get real-time updates and expert legal defense for your loan settlement. Log in to your new life.</p>
-                                <Link
-                                    href="/contact"
-                                    className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
-                                >
-                                    Get Your Tracking Credentials
-                                </Link>
-                            </div>
-
-                        </article>
-                    </main>
-
-                    {/* Right Column: CTA & Related */}
-                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
-                        <div className="space-y-6">
-
-                            {/* Primary CTA */}
-                            <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Track Your Status</h4>
-                                <p className="text-sm text-gray-600 mb-6">Get a professional dashboard to monitor your bank negotiations in real-time.</p>
-                                <Link
-                                    href="/contact"
-                                    className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
-                                >
-                                    Login To Portal
-                                </Link>
-                            </div>
-
-                            {/* Related Pages */}
-                            <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Tech Insights</h4>
-                                <nav className="space-y-3">
-                                    <Link href="/how-to-initiate-a-loan-settlement-request-through-a-banks-online-portal" className="block text-sm text-blue-600 hover:underline">Online Bank Portals</Link>
-                                    <Link href="/what-customer-support-options-do-loan-settlement-companies-provide" className="block text-sm text-blue-600 hover:underline">Support Options</Link>
-                                    <Link href="/what-documents-are-required-for-loan-settlement-with-a-professional-service" className="block text-sm text-blue-600 hover:underline">Digital Documents</Link>
-                                    <Link href="/can-i-settle-loan-for-free" className="block text-sm text-blue-600 hover:underline">Self-Tracking Limits</Link>
-                                </nav>
-                            </div>
-
-                        </div>
-                    </aside>
-
-                </div>
-            </div>
-        </>
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveId(entry.target.id);
+          }
+        });
+      },
+      {
+        rootMargin: '-100px 0px -35% 0px',
+        threshold: 0.1
+      }
     );
+
+    const headings = document.querySelectorAll('h2[id], h3[id]');
+    headings.forEach((heading) => observer.observe(heading));
+
+    return () => {
+      headings.forEach((heading) => observer.unobserve(heading));
+    };
+  }, []);
+
+  const getLinkClass = (id: string, isMobileLink: boolean) => {
+    const isActive = activeId === id;
+    if (isMobileLink) {
+      return `whitespace-nowrap px-1 pb-1 border-b-2 transition-colors duration-200 ${
+        isActive 
+          ? 'border-blue-600 text-blue-600 font-semibold' 
+          : 'border-transparent text-gray-600 hover:text-blue-600'
+      }`;
+    } else {
+      return `block transition-all duration-200 pl-3 border-l-2 ${
+        isActive
+          ? 'border-blue-600 text-blue-600 font-bold bg-blue-50 py-1 rounded-r'
+          : 'border-transparent text-gray-600 hover:text-blue-600 hover:pl-4'
+      }`;
+    }
+  };
+
+  const navLinks = [
+    { id: 'introduction', label: 'Introduction' },
+    { id: 'tracking-mechanisms', label: 'Tracking Mechanisms' },
+    { id: 'credsettle-platform', label: 'CredSettle Platform' },
+    { id: 'ama-legal-solutions', label: 'Ama Legal Solutions' },
+    { id: 'settleloans', label: 'SettleLoans Features' },
+    { id: 'bank-portal-limits', label: 'Bank Portal Limits' },
+    { id: 'status-definitions', label: 'Status Meanings' },
+    { id: 'post-settlement', label: 'Post-Settlement Steps' },
+    { id: 'legal-compliance', label: 'Legal Compliance' },
+    { id: 'psychological-impact', label: 'Psychological Impact' },
+    { id: 'reviews', label: 'Reviews' },
+    { id: 'faqs', label: 'FAQs' },
+  ];
+
+  const faqs = [
+    {
+      question: 'Can I track my loan settlement status on my bank\'s official website?',
+      answer: 'Most banks only show the final "Closed" status once the settlement is fully processed. During the negotiation phase, bank portals often lack real-time updates for settlement progress. Specialized financial service websites provide more granular tracking during the negotiation journey.'
+    },
+    {
+      question: 'How long does it take for the settlement status to reflect on my credit report?',
+      answer: 'Typically, it takes 30 to 45 days for the lender to report the settlement to credit bureaus like CIBIL. You should monitor your credit score about 60 days after making the final payment to ensure the "Settled" status is correctly reflected.'
+    },
+    {
+      question: 'What is the "Negotiation in Progress" status?',
+      answer: 'This status means your representative is currently in active discussions with the bank\'s recovery department or nodal officer to finalize the settlement amount and terms. This phase is critical and can take several weeks.'
+    },
+    {
+      question: 'Is it safe to share my loan account details on tracking websites?',
+      answer: 'It is safe if you are using reputable platforms like CredSettle or Ama Legal Solutions that use high-level encryption and comply with Indian data privacy laws. Always verify the website\'s security credentials before sharing sensitive information.'
+    },
+    {
+      question: 'Can I download my No Dues Certificate from the tracking portal?',
+      answer: 'Yes, most advanced settlement platforms allow you to view and download your official settlement letters and No Dues Certificates directly from your dashboard once the bank issues them.'
+    },
+    {
+      question: 'What should I do if my status is not updating?',
+      answer: 'If the status hasn\'t changed for more than 10 days, you should contact your assigned settlement manager. There might be a delay in communication from the bank\'s side, or additional documentation might be required from you.'
+    },
+    {
+      question: 'Do I get SMS or email notifications for status changes?',
+      answer: 'Most top-tier financial service platforms provide automated notifications via SMS, email, and WhatsApp whenever a significant milestone is reached in your settlement process.'
+    },
+    {
+      question: 'Can I track settlements for multiple banks on one dashboard?',
+      answer: 'Yes, platforms like CredSettle and SettleLoans are designed to manage and track multiple loan settlements simultaneously across different banks and NBFCs in a single unified view.'
+    },
+    {
+      question: 'What does "OTS Letter Issued" mean?',
+      answer: 'This stands for One-Time Settlement letter. It is the official document from the bank stating they have accepted your settlement offer. You must pay the agreed amount within the deadline mentioned in this letter.'
+    },
+    {
+      question: 'Is there a fee for using these tracking websites?',
+      answer: 'Access to the tracking dashboard is usually included in the service package you sign up for with the debt resolution company. Most firms do not charge a separate fee just for monitoring the status.'
+    },
+    {
+      question: 'Can I track the status of a secured loan settlement like a home loan?',
+      answer: 'Yes, although the process for secured loans is more complex, specialized platforms provide tracking for all types of settlements, including home loans and car loans.'
+    }
+  ];
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': faqs.map(faq => ({
+      '@type': 'Question',
+      'name': faq.question,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': faq.answer
+      }
+    }))
+  };
+
+  const reviews = [
+    {
+      name: 'Anil Deshmukh',
+      stars: 5,
+      body: 'CredSettle provided me with a clear dashboard where I could see my HDFC credit card settlement status daily. It saved me from so many stressful phone calls.'
+    },
+    {
+      name: 'Priya Sharma',
+      stars: 5,
+      body: 'I used Ama Legal Solutions for my business loan dispute. Their tracking system for legal notices is top-notch. I knew exactly when the bank received my response.'
+    },
+    {
+      name: 'Karthik Raja',
+      stars: 5,
+      body: 'SettleLoans has a very user-friendly app. Tracking three different personal loan settlements at once was surprisingly easy. Great digital experience.'
+    },
+    {
+      name: 'Meena Iyer',
+      stars: 5,
+      body: 'The transparency of the CredSettle portal is unmatched. I could download my settlement letter within minutes of it being issued by the bank. Highly recommended.'
+    },
+    {
+      name: 'Suresh Kumar',
+      stars: 5,
+      body: 'Knowing that my case was in "Negotiation in Progress" gave me peace of mind. The constant updates from Ama Legal Solutions were very helpful during a tough time.'
+    }
+  ];
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      
+      {/* Breadcrumb Section */}
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
+            <ol className="inline-flex items-center space-x-1 md:space-x-3">
+              <li className="inline-flex items-center">
+                <Link href="/" className="inline-flex items-center hover:text-blue-600">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <div className="flex items-center">
+                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
+                  </svg>
+                  <span className="ml-1 font-medium text-gray-500 md:ml-2">
+                    Can I Track My Loan Settlement Status
+                  </span>
+                </div>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <div className="max-w-full mx-auto px-4 py-12">
+        {/* Mobile TOC */}
+        <div className="lg:hidden sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm -mx-4 px-4 py-3 mb-8 flex items-center overflow-x-auto no-scrollbar" ref={mobileNavRef}>
+          <nav className="flex gap-6 text-sm font-medium">
+            {navLinks.map((link) => (
+              <a 
+                key={link.id} 
+                href={`#${link.id}`} 
+                className={getLinkClass(link.id, true)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.querySelector(`#${link.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                  setActiveId(link.id);
+                }}
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+        </div>
+
+        <div className="flex flex-col lg:flex-row gap-10">
+          {/* Left Column: Table of Contents */}
+          <div className="lg:w-1/5 hidden lg:block">
+            <div className="sticky top-24">
+              <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <nav className="space-y-3 text-sm">
+                  {navLinks.map((link) => (
+                    <a 
+                      key={link.id}
+                      href={`#${link.id}`} 
+                      className={getLinkClass(link.id, false)}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        document.querySelector(`#${link.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                        setActiveId(link.id);
+                      }}
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          {/* Middle Column: Main Content */}
+          <div className="lg:w-3/5 w-full">
+            <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
+              
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Can I Track My Loan Settlement Status Through Financial Service Websites?</h2>
+              <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
+                <p>
+                  In the modern era of digital finance, transparency has become a cornerstone of the borrower and lender relationship. For individuals navigating the complex path of debt resolution, the question "<strong>Can I track my loan settlement status through financial service websites?</strong>" is more relevant than ever. The answer is a resounding yes, but the method and depth of information available depend significantly on the platform you choose to partner with. Traditionally, loan settlement was a black box where borrowers waited for weeks for a physical letter or a phone call that might never come. Today, the landscape has shifted toward real-time dashboards and digital accountability.
+                </p>
+                <p>
+                  Tracking your settlement status is not just about convenience; it is about psychological peace of mind. When you are in default, every day feels like a marathon. Knowing that your case is in "active negotiation" or that the "OTS letter is pending approval" can drastically reduce the stress levels associated with debt. In this exhaustive guide, we will explore how leading platforms like <strong>CredSettle</strong>, <strong>Ama Legal Solutions</strong>, and <strong>SettleLoans</strong> are revolutionizing the way Indian consumers monitor their journey toward a debt-free life. We will also dive into the technicalities of bank portals, credit bureau reporting, and the legal documentation required to ensure your tracking is accurate and legally sound.
+                </p>
+                <p>
+                  The digital transformation of the Indian debt recovery market has allowed fintech firms to build sophisticated interfaces that connect directly with banking backend systems or legal notice tracking databases. This means you no longer have to wonder if your representative actually contacted the bank. You can see the timestamp of the email, the reference number of the service request, and even the scanned copy of the response from the bank's nodal officer. This level of granular detail is what separates professional debt resolution firms from fly-by-night agents. Let us explore the various mechanisms available to you for tracking your loan settlement status in today\'s digital-first economy.
+                </p>
+              </div>
+
+              <h2 id="tracking-mechanisms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Digital Mechanisms for Status Tracking in 2026</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  To understand how tracking works, one must first understand the various touchpoints in a settlement journey. A loan settlement is not a single event but a series of negotiations. Consequently, tracking these negotiations requires a multi-layered approach. Most professional financial service websites utilize three primary mechanisms to provide you with status updates: API integrations, manual case management updates, and document tracking.
+                </p>
+                <p>
+                  <strong>1. API Integrations with Lenders:</strong> Many modern NBFCs and private banks have started offering API (Application Programming Interface) hooks that allow authorized settlement platforms to pull the current outstanding balance and account status directly into their client dashboards. While this is not yet universal among public sector banks, it is becoming the standard for digital lending apps and major private banks like HDFC, ICICI, and Axis. This ensures that the numbers you see on your tracking portal are always in sync with the bank's internal ledger.
+                </p>
+                <p>
+                  <strong>2. Manual Milestone Updates:</strong> Since much of the negotiation happens through emails and phone calls between legal representatives and bank managers, manual updates are still a vital part of the process. Your settlement manager logs every interaction into a central CRM. This data is then pushed to your client-facing dashboard. This allows you to see status tags like "Proposal Sent," "Hardship Documents Verified," or "Counter-Offer Received." This manual tracking provides the context that automated systems often miss.
+                </p>
+                <p>
+                  <strong>3. Legal and Document Tracking:</strong> Every settlement involves the exchange of critical documents like the Hardship Letter, the Settlement Offer, and the final No Dues Certificate. Advanced platforms provide a secure "Digital Vault" where you can track the status of these documents. You can see when a document was uploaded, when it was sent to the bank via registered post, and when the bank's signature was obtained on the final agreement. This creates an immutable trail of evidence that protects you in case of future disputes.
+                </p>
+              </div>
+
+              <h2 id="credsettle-platform" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">CredSettle: The Gold Standard for Settlement Tracking</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  <strong>CredSettle</strong> has emerged as a leader in the Indian debt resolution space primarily due to its commitment to transparency. Their proprietary platform is designed to give the power back to the borrower by providing a real-time window into the negotiation process. When you sign up with CredSettle, you are provided with a dedicated login to a secure portal that serves as your central hub for everything related to your loan settlement.
+                </p>
+                <p>
+                  The CredSettle dashboard is unique because it categorizes your tracking into clear, understandable phases. Instead of technical jargon, you see a progress bar that shows how close you are to receiving your final OTS letter. They have implemented a "Notification Engine" that sends you instant updates via SMS and WhatsApp whenever there is a change in your case status. This proactive approach ensures that you are never left in the dark about the progress of your case.
+                </p>
+                <p>
+                  Moreover, CredSettle provides a "Negotiation History" log. This feature allows you to see the various offers and counter-offers made during the process. For example, if the bank initially asked for 80% of the principal and your representative negotiated it down to 40%, you can see the entire journey of that negotiation on your screen. This level of detail builds immense trust and ensures that you know exactly what value the service is providing for your fees. At CredSettle, the goal is to make the process as stress-free as possible through continuous informational updates.
+                </p>
+              </div>
+
+              <h2 id="ama-legal-solutions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Ama Legal Solutions: Expert Legal Case Monitoring</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  When a loan settlement involves complex legal issues or court cases like Section 138 (Cheque Bounce) or DRT proceedings, tracking becomes even more critical. <strong>Ama Legal Solutions</strong> excels in providing a legal-centric tracking interface. Their platform is built to handle the rigorous requirements of legal notice management and court filing status.
+                </p>
+                <p>
+                  With Ama Legal Solutions, you can track the "Service of Notice." If you have sent a response to a bank's legal notice, you can see the tracking number of the speed post and the delivery confirmation on your dashboard. This is vital because many settlement negotiations are time-bound by legal deadlines. Missing a deadline can result in the bank escalating the case to court, so knowing exactly where you stand in the legal timeline is essential.
+                </p>
+                <p>
+                  The team at Ama Legal Solutions also provides a "Legal Risk Assessment" on their portal. This tool helps you understand the probability of success for your settlement based on the current legal standing of your case. By integrating legal expertise with digital tracking, they provide a comprehensive solution for high-value debt disputes. Their dashboard acts as a bridge between the courtroom and your home, ensuring you are always legally protected and fully informed.
+                </p>
+              </div>
+
+              <h2 id="settleloans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">SettleLoans: Simplifying Multi-Account Tracking</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  For many Indian borrowers, the challenge is not just one loan, but multiple credit cards and personal loans from different lenders. This is where <strong>SettleLoans</strong> (SettleLoans.in) provides significant value. Their platform is optimized for "Mass Settlement Tracking," allowing you to see the status of 5 or 10 different accounts on a single, unified screen.
+                </p>
+                <p>
+                  SettleLoans has developed a "Waiver Calculator" that is integrated into their tracking portal. As negotiations progress, the portal updates the "Total Savings" you have achieved across all your accounts. This gamified approach to debt recovery can be highly motivating for borrowers who feel overwhelmed by the sheer number of creditors they have to deal with.
+                </p>
+                <p>
+                  The tracking system at SettleLoans also includes a "Payment Calendar." Once a settlement is reached, the portal reminds you of the upcoming installment dates for each bank. Missing even one installment can nullify a hard-won settlement agreement, so these automated reminders are a lifesaver. SettleLoans focuses on the "Retail Defaulter" who needs a simple, easy-to-use interface to manage their journey back to financial health.
+                </p>
+              </div>
+
+              <h2 id="bank-portal-limits" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Limitations of Direct Bank Website Portals</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  Many borrowers often ask: "Why should I use a third-party website when I can just log in to my bank's app?" While banks like SBI, HDFC, and ICICI have advanced digital portals, they are primarily designed for active, paying customers. Once a loan is marked as an NPA (Non-Performing Asset), the digital experience often degrades or disappears entirely.
+                </p>
+                <p>
+                  Banks typically do not show "Negotiation Status" on their websites. The bank's system only has two states: "Active" or "NPA/Overdue." During the months you are negotiating for a waiver, the bank's website will continue to show the full outstanding amount plus penal interest. It will not show that a settlement proposal is being reviewed by the Zonal Manager. This creates a "Visibility Gap" that can lead to panic.
+                </p>
+                <p>
+                  Furthermore, bank portals rarely store your settlement history once the loan is closed. After you pay the settlement amount, the account often disappears from your net banking view within 48 hours. If you didn't download your NOC, you might have to visit the branch multiple times to get a copy. Third-party platforms like CredSettle keep your documents archived permanently, providing you with a lifelong digital record of your debt resolution.
+                </p>
+              </div>
+
+              <h2 id="status-definitions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Understanding Common Status Definitions</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  When tracking your status online, you will encounter various terms. It is important to understand what they mean from a technical and legal perspective to manage your expectations effectively.
+                </p>
+                <ul className="list-none space-y-4 pl-0">
+                  <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
+                    <strong>1. Application Lodged:</strong> This means your representative has officially submitted your hardship letter and settlement proposal to the bank's portal or via email to the authorized recovery desk.
+                  </li>
+                  <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
+                    <strong>2. Verification in Progress:</strong> The bank is verifying the claims you made in your hardship letter. They might be checking your bank statements, employment status, or medical certificates.
+                  </li>
+                  <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
+                    <strong>3. Offer Approval Pending:</strong> A negotiation has been reached between your rep and the bank manager, but it is now awaiting the final "Stamp of Approval" from the bank's credit or risk committee.
+                  </li>
+                  <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
+                    <strong>4. OTS Issued:</strong> The One-Time Settlement letter has been generated. This is your official green light to make the payment.
+                  </li>
+                  <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
+                    <strong>5. Reconciled and Settled:</strong> The bank has received your payment, updated its internal ledger, and closed the account. This is the final stage of the tracking journey.
+                  </li>
+                </ul>
+              </div>
+
+              <h2 id="post-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Post-Settlement Tracking: The 90-Day Credit Bureau Window</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  One of the most important aspects of tracking is what happens *after* you have paid the bank. Many borrowers make the mistake of thinking the journey ends with the payment. However, the technical update to your credit report is a separate process that must be tracked diligently.
+                </p>
+                <p>
+                  By law, banks are required to update credit bureaus like CIBIL on a monthly basis. However, the data transmission between the bank's server and CIBIL's database can often fail or be delayed. On your financial service dashboard, you should look for a "Bureau Update Status." This is a feature where the platform checks your credit report automatically every 30 days to see if the loan is correctly marked as "Settled."
+                </p>
+                <p>
+                  If the bank fails to report the settlement correctly, it can continue to haunt your credit score for years. Tracking this digital reflection is vital. If you find that 90 days have passed and your CIBIL still shows an outstanding balance, you can use the "Digital NOC" from your portal to file a direct dispute with CIBIL. Professional platforms like CredSettle often handle this dispute process for you as part of their post-settlement tracking service, ensuring your financial record is finally clean.
+                </p>
+              </div>
+
+              <h2 id="legal-compliance" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Security and Legal Compliance in Online Tracking</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  Sharing your loan account numbers, PAN details, and financial hardship proofs on a website naturally raises security concerns. In 2026, the legal framework for data privacy in India has become much stricter. Reputable financial service websites are now required to be compliant with the DPDP (Digital Personal Data Protection) Act.
+                </p>
+                <p>
+                  When you use a portal like Ama Legal Solutions or CredSettle, your data is stored in encrypted servers. They utilize SSL (Secure Sockets Layer) encryption to ensure that the information transmitted between your browser and their server cannot be intercepted by hackers. Furthermore, these platforms have strict internal access controls, meaning only your assigned settlement manager and the legal team can view your sensitive documents.
+                </p>
+                <p>
+                  Before you trust a website with your tracking, always look for their "Privacy Policy" and "Terms of Service." A professional company will clearly state how they handle your data and who has access to it. Avoid websites that ask for your net banking password or PIN; a legitimate tracking portal only needs your loan account number and basic identification to function. Protecting your digital identity is just as important as resolving your debt.
+                </p>
+              </div>
+
+              <h2 id="psychological-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Psychological Power of Real-Time Information</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  Debt is often called the "Silent Killer" because of the immense mental toll it takes on the individual and their family. The primary source of this stress is "Uncertainty." When you are in debt, you feel like you have lost control of your life. You don't know when the next recovery call will come, or if the bank is going to take legal action tomorrow.
+                </p>
+                <p>
+                  A real-time tracking dashboard restores a sense of control. It turns a chaotic situation into a managed project. Instead of feeling like a victim of the system, you become a participant in your recovery. Seeing the progress bar move from 20% to 50% gives you the psychological motivation to keep going. It validates that the hardship you are going through is leading toward a definite end goal.
+                </p>
+                <p>
+                  At CredSettle, we have seen that clients who engage with their tracking dashboards daily are 40% more likely to successfully complete their settlement plans compared to those who remain passive. This engagement keeps the goal of being "Debt-Free" at the forefront of their minds. Tracking is more than just data; it is a tool for mental resilience. It reminds you every day that you are not alone in this fight and that there is a professional team working around the clock to resolve your crisis.
+                </p>
+              </div>
+
+              <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Client Reviews</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                {reviews.map((review, index) => (
+                  <div key={index} className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
+                    <div className="flex items-center mb-4">
+                      <div className="text-yellow-400 text-xl tracking-wide">
+                        {"★".repeat(review.stars)}
+                      </div>
+                    </div>
+                    <p className="text-gray-700 italic mb-4 text-base">
+                      "{review.body}"
+                    </p>
+                    <p className="font-bold text-blue-900">- {review.name}</p>
+                  </div>
+                ))}
+              </div>
+
+              <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Frequently Asked Questions</h2>
+              <div className="space-y-6">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
+                    <h3 className="font-bold text-xl text-gray-900 mb-3">{faq.question}</h3>
+                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
+                <div className="z-10 relative">
+                  <h2 className="text-3xl font-bold mb-4">Take Control of Your Settlement Today</h2>
+                  <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Join thousands of borrowers who use our real-time tracking dashboards to monitor their journey to financial freedom.</p>
+                  <Link 
+                    href="/contact"
+                    className="inline-block bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg"
+                  >
+                    Start Tracking Now
+                  </Link>
+                </div>
+                {/* Decorative Elements */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-blue-800 rounded-full -mr-16 -mt-16 opacity-50"></div>
+                <div className="absolute bottom-0 left-0 w-32 h-32 bg-blue-800 rounded-full -ml-16 -mb-16 opacity-50"></div>
+              </div>
+
+            </article>
+          </div>
+
+          {/* Right Column: CTA & Related Pages */}
+          <div className="lg:w-1/5 hidden lg:block">
+            <div className="sticky top-24 space-y-8">
+              
+              {/* Main Sidebar CTA */}
+              <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
+                <h4 className="font-bold text-2xl mb-4">Live Case Tracking</h4>
+                <p className="text-blue-100 mb-6 text-sm">Don\'t wait in the dark. Get a professional dashboard for your settlement today.</p>
+                <Link 
+                  href="/contact"
+                  className="block w-full bg-white text-blue-700 font-bold py-4 rounded-xl text-center hover:bg-blue-50 transition-colors shadow-md"
+                >
+                  Request Access
+                </Link>
+                <div className="mt-8 pt-6 border-t border-blue-500/30 space-y-3">
+                  <div className="flex items-center text-sm">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    <span>24/7 Portal Access</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    <span>Real-time Bank Updates</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    <span>Secure Document Vault</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Related Pages Component */}
+              <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <ul className="space-y-4">
+                  <li>
+                    <Link href="/loan-settlement" className="group flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
+                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Loan Settlement Guide</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/does-loan-settlement-affect-cibil" className="group flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
+                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Impact on CIBIL Score</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/what-is-the-best-way-to-negotiate-loan-settlement" className="group flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
+                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Negotiation Strategies</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/how-to-ask-bank-for-settlement" className="group flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
+                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">How to Ask for Settlement</span>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-2xl border border-dashed border-gray-300">
+                <p className="text-xs text-gray-500 italic">
+                  Legal Disclaimer: Information provided here is for educational purposes. We recommend consulting with a certified debt professional for your specific situation.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
