@@ -7,25 +7,24 @@ import CompareProgramsClient from './CompareProgramsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Compare Debt Management vs Debt Settlement in India | Expert Guide',
-  description: 'Understand the differences between debt management plans and debt settlement programs in India. Learn which option is best for your financial situation and how to become debt-free.',
+  title: 'Compare Debt Management vs. Debt Settlement Programs in India | CredSettle',
+  description: 'Understand the difference between debt management plans and debt settlement. Compare features, benefits, and credit impact for Indian consumers to find the best debt relief solution.',
   keywords: [
-    'debt management programs india',
-    'debt settlement services india',
-    'compare debt relief options',
-    'debt management vs debt settlement',
-    'loan settlement process india',
-    'credit counseling india',
-    'how to reduce loan emi india',
-    'debt relief companies in india',
-    'credsettle vs amalegalsolutions',
-    'amalegalsolutions debt resolution',
-    'settleloans comparison'
+    'debt management vs debt settlement india',
+    'debt relief programs india',
+    'compare debt settlement companies',
+    'loan settlement services india',
+    'debt management plan india',
+    'credsettle vs settleloans',
+    'amalegalsolutions debt relief',
+    'cibil score impact of settlement',
+    'best way to settle loans india',
+    'financial freedom programs india'
   ],
   openGraph: {
-    title: 'Expert Comparison: Debt Management vs Debt Settlement Programs in India',
-    description: 'A comprehensive guide to choosing between debt management and debt settlement for Indian consumers. Get expert insights on recovery and financial health.',
-    type: 'website',
+    title: 'Debt Management vs. Debt Settlement: Which is Better for You?',
+    description: 'A comprehensive comparison of debt relief programs available to Indian consumers. Learn how CredSettle can help you achieve financial freedom.',
+    type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
     url: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
@@ -40,15 +39,15 @@ export default function CompareProgramsPage() {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
     '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers',
-    name: 'CredSettle Debt Resolution Services',
+    name: 'CredSettle Debt Relief Services',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Leading debt settlement and management consultancy in India, helping consumers resolve unmanageable loans.',
+    description: 'Leading provider of debt management and settlement programs in India, helping consumers regain financial stability.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'New Delhi',
-      addressRegion: 'Delhi',
+      addressLocality: 'Gurugram',
+      addressRegion: 'Haryana',
       addressCountry: 'IN'
     },
     aggregateRating: {
@@ -69,7 +68,7 @@ export default function CompareProgramsPage() {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'CredSettle helped me understand the difference between management and settlement. Their guidance was crucial in clearing my credit card debts.',
+        'reviewBody': 'CredSettle helped me settle 12 lakhs of debt for just 5 lakhs. The team was professional and the process was smooth.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -79,13 +78,29 @@ export default function CompareProgramsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Priya Verma'
+          'name': 'Priya Menon'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Highly recommend CredSettle for anyone struggling with multiple EMIs. They provided a clear path to becoming debt-free.',
+        'reviewBody': 'AmaLegalSolutions stopped the harassment from recovery agents immediately. Highly recommend their legal services.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'AmaLegalSolutions'
+        }
+      },
+       {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Rahul Gupta'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'The dashboard at CredSettle is amazing. I could track my settlement progress easily. Great service.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -95,45 +110,29 @@ export default function CompareProgramsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Sanjay Gupta'
+          'name': 'Suresh Babu'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'The comparison of programs on this site is very detailed. It helped me choose the right settlement plan for my personal loan.',
+        'reviewBody': 'SettleLoans helped me with my digital app loans when others said it was impossible. Very grateful.',
         'itemReviewed': {
           '@type': 'FinancialService',
-          'name': 'CredSettle'
+          'name': 'SettleLoans'
         }
       },
       {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Megha Iyer'
+          'name': 'Meenakshi S.'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Professional service and very transparent. CredSettle is definitely the top choice for debt resolution in India.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Rahul Malhotra'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'I was confused about debt management plans, but CredSettle simplified everything for me. Great experience!',
+        'reviewBody': 'We are finally debt free thanks to the guidance from CredSettle. Their counselors are very empathetic.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -165,12 +164,12 @@ export default function CompareProgramsPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     'headline': 'Comprehensive Comparison of Debt Management and Settlement Programs for Indian Consumers',
-    'description': 'A detailed guide comparing Debt Management Plans (DMP) and Debt Settlement options in India, including pros, cons, and expert recommendations.',
+    'description': 'A detailed guide comparing Debt Management Plans and Debt Settlement strategies in India, featuring top providers like CredSettle, AmaLegalSolutions, and SettleLoans.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-05-11',
+    'datePublished': '2025-05-10',
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
@@ -185,7 +184,6 @@ export default function CompareProgramsPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-      {/* Hero Section */}
       <section 
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
@@ -199,17 +197,17 @@ export default function CompareProgramsPage() {
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
             Compare Debt Management &<br />
-            <span className="text-blue-400">Settlement Programs in India</span>
+            <span className="text-blue-400">Settlement Programs</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Struggling with multiple loans or credit card debts? Discover which program fits your financial goals and start your journey toward a debt-free life today.
+            Find the right path to financial freedom. Compare top debt relief solutions from CredSettle, AmaLegalSolutions, and SettleLoans to settle your loans effectively.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link 
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Get Free Debt Assessment
+              Get Free Debt Consultation
             </Link>
           </div>
         </div>

@@ -250,7 +250,6 @@ export default function Footer() {
               <a href="/request-a-free-evaluation-of-my-debt-situation-from-a-settlement-firm" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Free Debt Evaluation from a...</a>
               <a href="/smart-ways-to-manage-emi-payment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">15+ Smart Ways to Manage...</a>
               <a href="/startup-loan-legal-advisory" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Startup Loan Legal Advisory India...</a>
-              <a href="/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Steps to Apply for Loan...</a>
               <a href="/support-for-loan-settlement-during-medical-emergencies" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement Support for Medical...</a>
               <a href="/terms-and-conditions" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Terms and Conditions | CredSettle...</a>
               <a href="/top-rated-loan-settlement-consultants-for-small-business-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Top Loan Settlement Consultants for...</a>
@@ -281,7 +280,6 @@ export default function Footer() {
               <a href="/what-questions-should-i-ask-a-debt-settlement-consultant" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Questions to Ask a Debt...</a>
               <a href="/what-steps-should-i-take-before-negotiating-a-loan-settlement-with-my-lender" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Steps Before Negotiating a Loan...</a>
               <a href="/when-should-you-choose-loan-settlement-instead-of-repayment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">When to Choose Settlement vs...</a>
-              <a href="/where-can-i-locate-government-approved-consumer-credit-counseling-services-in-chennai" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Credit Counseling in Chennai: RBI...</a>
               <a href="/which-bank-provide-personal-loan-for-cibil-defaulters" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Which Bank Provide Personal Loan...</a>
               <a href="/which-banks-offer-debt-consolidation-loans-for-bad-credit" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Which Banks Offer Debt Consolidation...</a>
               <a href="/which-banks-offer-debt-consolidation-loans-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Which Banks Offer Debt Consolidation...</a>
@@ -310,15 +308,17 @@ export default function Footer() {
               <a href="/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How do I Officially Submit a Loan Settlement Offer...</a>
               <a href="/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Is It Possible to Settle a Joint Loan and What Are the Implications for Co-Borrowers...</a>
               <a href="/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How Can I Initiate a Full and Final Settlement Discussion with My Bank...</a>
-              <a href="/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Compare Debt Management and Settlement Programs...</a>
+              <a href="/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Steps to Apply for Loan Settlement...</a>
+              <a href="/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Get a Quote for Debt Settlement...</a>
+              <a href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Impact of Loan Settlement on CIBIL...</a>
             </div>
+
+            <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
+
+            <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-tight">
+              © 2020 CredSettle
+            </p>
           </div>
-
-          <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
-
-          <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-tight">
-            © 2020 CredSettle
-          </p>
         </div>
       </div>
 

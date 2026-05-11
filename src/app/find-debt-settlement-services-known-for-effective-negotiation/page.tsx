@@ -1,108 +1,62 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import EffectiveNegotiationClient from './EffectiveNegotiationClient';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import FindDebtSettlementClient from './FindDebtSettlementClient';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Debt Settlement Services in India (2025)',
-  description: 'Looking for professional debt negotiators? Compare India’s top-rated settlement services like SingleDebt and FREED. Settle your loans for up to 75% less.',
-  keywords: 'best debt settlement services India, professional debt negotiation company, SingleDebt review, FREED debt settlement review, AMA Legal Solutions loan settlement, effective debt negotiation tactics, RBI debt recovery rules 2025',
-  alternates: {
-    canonical: 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
+  title: 'Find Debt Settlement Services Known for Effective Negotiation',
+  description: 'Looking for top-rated debt settlement services in India? Discover how professional negotiation can help you settle loans for less. Expert guide on CredSettle, AmaLegalSolutions, and SettleLoans.',
+  keywords: [
+    'find debt settlement services known for effective negotiation',
+    'debt settlement india',
+    'loan settlement negotiation',
+    'best debt settlement companies india',
+    'credsettle reviews',
+    'amalegalsolutions debt settlement',
+    'settleloans reviews',
+    'one time settlement process',
+    'how to negotiate with banks for loan settlement',
+    'debt relief services india'
+  ],
+  openGraph: {
+    title: 'Find Debt Settlement Services Known for Effective Negotiation | Expert Guide',
+    description: 'Expert negotiation is key to successful debt settlement. Learn about the best services in India including CredSettle, AmaLegalSolutions, and SettleLoans.',
+    type: 'website',
+    locale: 'en_IN',
+    siteName: 'CredSettle',
+    url: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
   },
+  alternates: {
+    canonical: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+  }
 };
 
-export default function EffectiveNegotiationPage() {
-  const faqData = [
-    {
-      question: "What is the success rate of professional debt negotiation?",
-      answer: "Professional debt negotiation services in India typically report a success rate of 85% to 95% for unsecured loans like credit cards and personal loans. Success depends on the borrower’s genuine financial hardship and the company’s relationship with the lending institution."
-    },
-    {
-      question: "How do these companies charge for their services?",
-      answer: "Most reputable debt settlement companies in India charge a fee ranging from 10% to 15% of the total amount they save you. Some may also have a small upfront processing or registration fee for legal documentation and harassment protection."
-    },
-    {
-      question: "Can these services stop recovery agents from visiting my home?",
-      answer: "Yes, once you authorize a professional service, they issue formal legal notices to the bank and the RBI Ombudsman. This mandates that all recovery communication must be directed to your appointed representative, effectively stopping unannounced visits and harassing calls under the RBI Fair Practice Code."
-    },
-    {
-      question: "Is it legal to use a third-party service for bank negotiations?",
-      answer: "Absolutely. Under the Indian Contract Act and RBI guidelines, a borrower has the right to be represented by a legal or financial expert in debt discussions. Professional services operate within this legal framework to ensure your rights are protected."
-    },
-    {
-      question: "How much of a discount can I realistically expect?",
-      answer: "For unsecured debts, professional negotiators usually achieve a waiver of 40% to 75% on the total outstanding amount. The exact percentage varies based on the age of the debt, the policy of the specific bank, and the strength of your hardship evidence."
-    },
-    {
-      question: "Will my credit score improve after the settlement?",
-      answer: "Initially, your score will drop because the account is marked as 'Settled'. However, many professional services also provide a credit rebuilding roadmap. By resolving the debt, you stop the continuous reporting of defaults, which is the first step toward score recovery."
-    },
-    {
-      question: "What is the difference between a debt management plan and a settlement?",
-      answer: "A Debt Management Plan (DMP) involves paying the full principal through reduced EMIs and frozen interest. A Settlement involves paying a one-time lump sum that is significantly less than the total outstanding to close the account forever."
-    },
-    {
-      question: "Can I settle my loan if the bank has already filed a case?",
-      answer: "Yes, even if a case is pending in a civil court or Lok Adalat, you can still reach a compromise settlement. Professional services can coordinate with bank lawyers to withdraw the case once the settlement amount is paid."
-    },
-    {
-      question: "How long does the professional negotiation process take?",
-      answer: "The negotiation phase usually takes 3 to 6 months. This depends on how long the account has been in default and how quickly the bank’s local or regional office approves the settlement proposal."
-    },
-    {
-      question: "What happens if the bank refuses the settlement offer?",
-      answer: "If a bank refuses, professional negotiators will analyze the reason and wait for a better window-usually the end of a financial quarter or year when banks are under more pressure to reduce NPAs. They continue to protect you from harassment during this period."
-    }
-  ];
-
-  const reviews = [
-    {
-      name: "Sandeep Bansal",
-      location: "Delhi",
-      rating: 5,
-      text: "I was drowning in 5 credit cards. SingleDebt negotiated a consolidated payment plan that I could actually afford. The mental peace I got when the calls stopped was priceless."
-    },
-    {
-      name: "Riya Sen",
-      location: "Kolkata",
-      rating: 5,
-      text: "Used FREED for my personal loan settlement. They saved me nearly 60% of what I owed. The team was very transparent about the CIBIL impact and helped me plan my credit recovery."
-    },
-    {
-      name: "Karan Johar (Merchant)",
-      location: "Mumbai",
-      rating: 5,
-      text: "AMA Legal Solutions handled my business debt when the bank threatened legal action. Their advocates were top-notch and managed to get an OTS that saved my small enterprise."
-    },
-    {
-      name: "Pooja Hegde",
-      location: "Hyderabad",
-      rating: 4,
-      text: "SettleMyLoan’s team is very persistent. It took 4 months, but they got me a settlement that fit my budget exactly. No more sleepless nights."
-    }
-  ];
-
-  const jsonLd = {
+export default function FindDebtSettlementPage() {
+  const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    'headline': 'Best Debt Settlement Services in India: Effective Negotiation (2025)',
-    'description': 'Looking for professional debt negotiators? Compare India’s top-rated settlement services. Settle your loans for up to 75% less.',
-    'image': 'https://www.credsettle.com/debt-negotiation-guide.jpg',
-    'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
+    '@type': 'FinancialService',
+    '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
+    name: 'CredSettle Debt Negotiation Services',
+    url: 'https://credsettle.com',
+    logo: 'https://credsettle.com/credsettle-logo.svg',
+    description: 'Specialized debt settlement and negotiation services helping Indian consumers resolve their unsecured loans effectively.',
+    telephone: '+91-8800226635',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'New Delhi',
+      addressRegion: 'Delhi',
+      addressCountry: 'IN'
     },
-    'publisher': {
-      '@type': 'Organization',
-      'name': 'CredSettle',
-      'logo': {
-        '@type': 'ImageObject',
-        'url': 'https://www.credsettle.com/logo.png',
-      },
-    },
-    'datePublished': '2025-03-19',
-    'dateModified': '2025-03-19',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      reviewCount: '1250',
+      bestRating: '5',
+      worstRating: '1'
+    }
   };
 
   const breadcrumbSchema = {
@@ -113,103 +67,76 @@ export default function EffectiveNegotiationPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://www.credsettle.com/',
+        'item': 'https://credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Effective Debt Settlement Services',
-        'item': 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
-      },
-    ],
+        'name': 'Debt Settlement Services Negotiation',
+        'item': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+      }
+    ]
   };
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "CredSettle",
-    "url": "https://www.credsettle.com",
-    "logo": "https://www.credsettle.com/logo.png",
-    "sameAs": [
-        "https://www.facebook.com/credsettle",
-        "https://www.twitter.com/credsettle",
-        "https://www.linkedin.com/company/credsettle"
-    ],
-    "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": "English"
-    }
-  };
-
-  const faqSchema = {
+  const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    'mainEntity': faqData.map(faq => ({
-        '@type': 'Question',
-        'name': faq.question,
-        'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': faq.answer
-        }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Professional Debt Negotiation Service',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.9',
-        'reviewCount': '1340',
-        'bestRating': '5',
-        'worstRating': '1'
+    '@type': 'Article',
+    'headline': 'Find Debt Settlement Services Known for Effective Negotiation: A Comprehensive Guide for Indian Consumers',
+    'description': 'An in-depth look at how to find and choose debt settlement services that excel in negotiation, featuring insights on CredSettle, AmaLegalSolutions, and SettleLoans.',
+    'author': {
+      '@type': 'Organization',
+      'name': 'CredSettle'
     },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
-    }))
+    'datePublished': '2025-05-11',
+    'dateModified': '2026-05-11',
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    },
+    'image': 'https://credsettle.com/images/debt-negotiation-guide.jpg'
   };
 
   return (
-    <div className="bg-white min-h-screen">
-      <Script
-        id="article-schema-negotiation"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <Script
-        id="breadcrumb-schema-negotiation"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
-      <Script
-        id="org-schema-negotiation"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-      />
-      <Script
-        id="faq-schema-negotiation"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-negotiation"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
-      />
-      <EffectiveNegotiationClient />
+    <div className="bg-gray-50 min-h-screen font-sans">
+      <Navbar />
+      <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+
+      {/* Hero Section */}
+      <section 
+        className="relative text-white pt-32 pb-24 px-4 md:px-8"
+        style={{
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          minHeight: '50vh',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-5xl mx-auto text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
+            Find Debt Settlement Services Known for<br />
+            <span className="text-blue-400">Effective Negotiation</span>
+          </h1>
+          <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+            Struggling with debt? Discover how professional negotiators at CredSettle, AmaLegalSolutions, and SettleLoans can help you achieve financial freedom through expert loan settlement strategies.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+            <Link 
+              href="/contact"
+              className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+            >
+              Get Free Debt Assessment
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Client Component content */}
+      <FindDebtSettlementClient />
+      
+      <Footer />
     </div>
   );
 }
