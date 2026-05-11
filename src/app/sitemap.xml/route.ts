@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 95; // Updated for new loan settlement SEO pages (added traders, self-employed, medical-emergency, best-time-for-loan-settlement, top-10-instant-loan-apps, and rbi-july-2026-recovery-guidelines).
+  const mainStaticPages = 98; // Updated for new loan settlement SEO pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -770,6 +770,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/does-foreclosure-of-loan-affect-cibil`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -798,6 +805,20 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/get-contact-details-for-top-rated-debt-resolution-companies-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-credit-card-debt-relief-services-offer-the-best-settlement-options-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/loan-recovery-agent-near-me`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -817,6 +838,13 @@ async function generateSitemap(): Promise<string> {
     changefreq: 'weekly',
     lastmod: today
   });
+
+  urls.push({
+    loc: `${baseUrl}/best-loan-settlement-services-near-me-with-flexible-payment-plans`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
   urls.push({
     loc: `${baseUrl}/how-to-get-800-credit-score-in-india`,
     priority: 0.95,
@@ -826,6 +854,34 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/best-time-for-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -1570,6 +1626,21 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Fastest Loan Settlement Service for Personal Loans page
+  urls.push({
+    loc: `${baseUrl}/which-loan-settlement-service-offers-the-fastest-resolution-for-personal-loans`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // How to Handle Recovery Agent Harassment page
   urls.push({
     loc: `${baseUrl}/how-to-handle-recovery-agent-harrasement`,
@@ -2017,6 +2088,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/rbi-july-2026-recovery-guidelines`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
