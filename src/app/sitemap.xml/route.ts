@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 144; // Updated for new loan settlement SEO pages.
+  const mainStaticPages = 147; // Updated for new loan settlement SEO pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -532,6 +532,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/is-cibil-ruined-forever-after-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-there-a-government-portal-for-debt-collection-complaints`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -791,6 +798,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -980,6 +994,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-document-evidence-of-debt-collector-harassment`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -2101,6 +2122,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/how-to-deal-with-collection-calls-while-in-a-debt-settlement-program`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -2284,6 +2312,41 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/where-to-find-lawyers-specializing-in-consumer-debt-protection`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-protect-family-members-from-debt-collector-calls`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -2529,6 +2592,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/why-does-my-credit-score-drop-even-though-i-pay-on-time`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-my-rights-when-dealing-with-loan-recovery-agents`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
