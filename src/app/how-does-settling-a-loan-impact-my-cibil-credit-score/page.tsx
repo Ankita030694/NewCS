@@ -184,7 +184,7 @@ export default function LoanImpactPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-      <section 
+      <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
           background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
@@ -203,7 +203,7 @@ export default function LoanImpactPage() {
             Discover the reality of loan settlement. Learn why your score drops, what "Settled" status means, and how you can bounce back to financial health.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
-            <Link 
+            <Link
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
@@ -214,7 +214,7 @@ export default function LoanImpactPage() {
       </section>
 
       <LoanImpactClient />
-      
+
       <Footer />
     </div>
   );

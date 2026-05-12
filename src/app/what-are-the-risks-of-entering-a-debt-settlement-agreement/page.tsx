@@ -3,46 +3,46 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import FindDebtSettlementClient from './FindDebtSettlementClient';
+import RiskClient from './RiskClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Find Debt Settlement Services Known for Effective Negotiation',
-  description: 'Looking for top-rated debt settlement services in India? Discover how professional negotiation can help you settle loans for less. Expert guide on CredSettle, AmaLegalSolutions, and SettleLoans.',
+  title: 'What Are the Risks of Entering a Debt Settlement Agreement in India?',
+  description: 'Understand the potential risks of debt settlement including CIBIL score impact, legal consequences, and tax implications. Expert guide on settling loans safely.',
   keywords: [
-    'find debt settlement services known for effective negotiation',
-    'debt settlement india',
-    'loan settlement negotiation',
-    'best debt settlement companies india',
-    'credsettle reviews',
-    'amalegalsolutions debt settlement',
-    'settleloans reviews',
-    'one time settlement process',
-    'how to negotiate with banks for loan settlement',
-    'debt relief services india'
+    'risks of debt settlement agreement',
+    'debt settlement risks india',
+    'loan settlement impact on cibil',
+    'legal risks of settling debt',
+    'debt settlement scams india',
+    'tax on forgiven debt india',
+    'debt settlement vs bankruptcy india',
+    'credsettle risks guide',
+    'amalegalsolutions debt help',
+    'settleloans review'
   ],
   openGraph: {
-    title: 'Find Debt Settlement Services Known for Effective Negotiation | Expert Guide',
-    description: 'Expert negotiation is key to successful debt settlement. Learn about the best services in India including CredSettle, AmaLegalSolutions, and SettleLoans.',
+    title: 'Comprehensive Guide: Risks of Entering a Debt Settlement Agreement',
+    description: 'Before you settle your debt, understand the long-term consequences. Learn about credit score drops, legal notices, and how to mitigate risks.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    url: 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    canonical: 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
   }
 };
 
-export default function FindDebtSettlementPage() {
+export default function RiskPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
-    name: 'CredSettle Debt Negotiation Services',
+    '@type': 'LegalService',
+    '@id': 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement',
+    name: 'CredSettle Debt Resolution Services',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Specialized debt settlement and negotiation services helping Indian consumers resolve their unsecured loans effectively.',
+    description: 'Expert guidance on debt settlement risks and safe loan resolution practices in India.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
@@ -72,8 +72,8 @@ export default function FindDebtSettlementPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Debt Settlement Services Negotiation',
-        'item': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+        'name': 'Risks of Debt Settlement',
+        'item': 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
       }
     ]
   };
@@ -81,19 +81,19 @@ export default function FindDebtSettlementPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Find Debt Settlement Services Known for Effective Negotiation: A Comprehensive Guide for Indian Consumers',
-    'description': 'An in-depth look at how to find and choose debt settlement services that excel in negotiation, featuring insights on CredSettle, AmaLegalSolutions, and SettleLoans.',
+    'headline': 'What Are the Risks of Entering a Debt Settlement Agreement? A Deep Dive for Indian Borrowers',
+    'description': 'An exhaustive guide exploring the credit, legal, financial, and psychological risks associated with debt settlement agreements in India.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-05-11',
-    'dateModified': '2026-05-11',
+    'datePublished': '2025-05-12',
+    'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+      '@id': 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
     },
-    'image': 'https://credsettle.com/images/debt-negotiation-guide.jpg'
+    'image': 'https://credsettle.com/images/debt-settlement-risks.jpg'
   };
 
   return (
@@ -107,7 +107,7 @@ export default function FindDebtSettlementPage() {
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
-          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1e3a8a 0%, #172554 100%)',
           minHeight: '50vh',
           display: 'flex',
           alignItems: 'center',
@@ -116,25 +116,25 @@ export default function FindDebtSettlementPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Find Debt Settlement Services Known for<br />
-            <span className="text-blue-400">Effective Negotiation</span>
+            What Are the Risks of Entering a<br />
+            <span className="text-blue-400">Debt Settlement Agreement?</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Struggling with debt? Discover how professional negotiators at CredSettle, AmaLegalSolutions, and SettleLoans can help you achieve financial freedom through expert loan settlement strategies.
+            Before you sign, understand the consequences. An in-depth analysis of how debt settlement impacts your CIBIL score, legal standing, and financial future in India.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Get Free Debt Assessment
+              Get Expert Risk Assessment
             </Link>
           </div>
         </div>
       </section>
 
       {/* Client Component content */}
-      <FindDebtSettlementClient />
+      <RiskClient />
 
       <Footer />
     </div>

@@ -3,46 +3,46 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import FindDebtSettlementClient from './FindDebtSettlementClient';
+import ReviewsClient from './ReviewsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Find Debt Settlement Services Known for Effective Negotiation',
-  description: 'Looking for top-rated debt settlement services in India? Discover how professional negotiation can help you settle loans for less. Expert guide on CredSettle, AmaLegalSolutions, and SettleLoans.',
+  title: 'Reviews of Popular Debt Settlement Services in India | 2025 Guide',
+  description: 'In-depth reviews of top debt settlement services in India. Compare CredSettle, Amalegalsolutions, and SettleLoans. Expert analysis on fees, process, and legitimacy.',
   keywords: [
-    'find debt settlement services known for effective negotiation',
-    'debt settlement india',
-    'loan settlement negotiation',
-    'best debt settlement companies india',
+    'reviews of popular debt settlement services available to indian consumers',
+    'best debt settlement companies in india reviews',
     'credsettle reviews',
-    'amalegalsolutions debt settlement',
+    'amalegalsolutions reviews',
     'settleloans reviews',
-    'one time settlement process',
-    'how to negotiate with banks for loan settlement',
-    'debt relief services india'
+    'debt settlement india comparison',
+    'is debt settlement legal in india',
+    'top debt relief services india',
+    'debt settlement agencies reviews',
+    'debt settlement vs management india'
   ],
   openGraph: {
-    title: 'Find Debt Settlement Services Known for Effective Negotiation | Expert Guide',
-    description: 'Expert negotiation is key to successful debt settlement. Learn about the best services in India including CredSettle, AmaLegalSolutions, and SettleLoans.',
+    title: 'Comprehensive Reviews of Popular Debt Settlement Services in India',
+    description: 'Find the most trustworthy debt settlement services in India. Our experts review CredSettle, Amalegalsolutions, and others to help you settle debt legally.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    url: 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
   },
   alternates: {
-    canonical: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    canonical: 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
   }
 };
 
-export default function FindDebtSettlementPage() {
+export default function ReviewsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
-    name: 'CredSettle Debt Negotiation Services',
+    '@id': 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers',
+    name: 'CredSettle Debt Settlement Reviews India',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Specialized debt settlement and negotiation services helping Indian consumers resolve their unsecured loans effectively.',
+    description: 'Expert reviews and comparison of the most popular debt settlement services available to Indian consumers.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
@@ -72,8 +72,8 @@ export default function FindDebtSettlementPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Debt Settlement Services Negotiation',
-        'item': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+        'name': 'Debt Settlement Reviews',
+        'item': 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
       }
     ]
   };
@@ -81,19 +81,18 @@ export default function FindDebtSettlementPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Find Debt Settlement Services Known for Effective Negotiation: A Comprehensive Guide for Indian Consumers',
-    'description': 'An in-depth look at how to find and choose debt settlement services that excel in negotiation, featuring insights on CredSettle, AmaLegalSolutions, and SettleLoans.',
+    'headline': 'Reviews of Popular Debt Settlement Services Available to Indian Consumers: A Comprehensive 2025 Guide',
+    'description': 'An exhaustive analysis and review of debt settlement platforms in India, helping consumers make informed choices for debt relief.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-05-11',
-    'dateModified': '2026-05-11',
+    'datePublished': '2025-02-10',
+    'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
-    },
-    'image': 'https://credsettle.com/images/debt-negotiation-guide.jpg'
+      '@id': 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
+    }
   };
 
   return (
@@ -103,7 +102,6 @@ export default function FindDebtSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-      {/* Hero Section */}
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
@@ -116,25 +114,24 @@ export default function FindDebtSettlementPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Find Debt Settlement Services Known for<br />
-            <span className="text-blue-400">Effective Negotiation</span>
+            Reviews of Popular Debt Settlement<br />
+            <span className="text-blue-400">Services in India</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Struggling with debt? Discover how professional negotiators at CredSettle, AmaLegalSolutions, and SettleLoans can help you achieve financial freedom through expert loan settlement strategies.
+            Unbiased analysis of India's leading debt relief platforms. Compare features, success rates, and legal compliance to find your path to financial freedom.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Get Free Debt Assessment
+              Get Expert Debt Advice
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Client Component content */}
-      <FindDebtSettlementClient />
+      <ReviewsClient />
 
       <Footer />
     </div>

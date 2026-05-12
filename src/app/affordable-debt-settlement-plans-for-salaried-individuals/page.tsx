@@ -3,46 +3,46 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import LoanSettlementStepsClient from './LoanSettlementStepsClient';
+import AffordableDebtSettlementClient from './AffordableDebtSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Steps to Apply for Loan Settlement via Financial Service Providers',
-  description: 'Learn the exact steps to apply for a loan settlement through a financial service provider. A comprehensive guide on negotiation, documentation, and credit recovery.',
+  title: 'Affordable Debt Settlement Plans for Salaried Individuals in India',
+  description: 'Explore affordable debt settlement plans for salaried individuals. Learn how to manage credit card debt, personal loans, and achieve financial freedom with CredSettle.',
   keywords: [
-    'steps to apply for a loan settlement',
-    'loan settlement process india',
-    'financial service provider for loan settlement',
-    'debt settlement procedure',
-    'how to settle bank loans',
-    'loan settlement through credsettle',
-    'amalegalsolutions loan settlement',
-    'settleloans procedure',
-    'loan default resolution steps',
-    'bank debt settlement guide'
+    'affordable debt settlement plans for salaried individuals',
+    'debt settlement for salaried employees',
+    'credit card debt settlement india',
+    'personal loan settlement for salaried',
+    'debt relief programs for employees',
+    'one time settlement for salaried individuals',
+    'debt management plans india',
+    'salaried individual debt relief',
+    'low cost debt settlement india',
+    'financial freedom for salaried'
   ],
   openGraph: {
-    title: 'How to Apply for Loan Settlement: Step-by-Step Guide',
-    description: 'Expert guide on navigating the loan settlement process with financial service providers. Recover from debt with professional help.',
+    title: 'Affordable Debt Settlement Plans for Salaried Individuals | CredSettle',
+    description: 'Specialized debt settlement solutions for salaried professionals. Get expert help to settle your debts and rebuild your financial life.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    url: 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
   },
   alternates: {
-    canonical: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    canonical: 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
   }
 };
 
-export default function LoanSettlementStepsPage() {
+export default function AffordableDebtSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider',
-    name: 'CredSettle Loan Settlement Advisory',
+    '@id': 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals',
+    name: 'CredSettle Debt Settlement Services',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Professional assistance for loan settlement and debt management in India.',
+    description: 'Affordable debt settlement and management plans specifically designed for salaried individuals in India.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
@@ -52,8 +52,8 @@ export default function LoanSettlementStepsPage() {
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1240',
+      ratingValue: '4.8',
+      reviewCount: '1250',
       bestRating: '5',
       worstRating: '1'
     },
@@ -62,13 +62,13 @@ export default function LoanSettlementStepsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Vikram Singh'
+          'name': 'Amit Verma'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'The step-by-step guidance provided by CredSettle was instrumental in settling my personal loan. They handled everything from documentation to final negotiation.',
+        'reviewBody': 'CredSettle helped me settle my credit card debt which was over 10 lakhs. Their plans are truly affordable for salaried people like me.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -84,39 +84,7 @@ export default function LoanSettlementStepsPage() {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'I was worried about the settlement process, but Ama Legal Solutions made it very easy to understand and execute. Highly recommended.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'Ama Legal Solutions'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Patel'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'SettleLoans helped me navigate a very difficult financial period. Their professional approach to bank negotiation is top-notch.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'SettleLoans'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Rahul Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Clear communication and effective results. The process of applying for settlement through a provider is much better than doing it alone.',
+        'reviewBody': 'Highly recommend AmaLegalSolutions and CredSettle for debt relief. They handle everything professionally.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -126,13 +94,45 @@ export default function LoanSettlementStepsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Sneha Gupta'
+          'name': 'Suresh Menon'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Expert advice on loan settlement. They saved me from a lot of stress and helped me get back on my feet financially.',
+        'reviewBody': 'SettleLoans and CredSettle provided a clear roadmap for my debt settlement. Very helpful.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'SettleLoans'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Neha Gupta'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'The team at CredSettle is amazing. They negotiated with the bank and got me a 60% waiver.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Rahul Das'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Best debt settlement service in India. Transparent and effective.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -154,8 +154,8 @@ export default function LoanSettlementStepsPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Loan Settlement Steps',
-        'item': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+        'name': 'Affordable Debt Settlement Plans for Salaried Individuals',
+        'item': 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
       }
     ]
   };
@@ -163,17 +163,25 @@ export default function LoanSettlementStepsPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Steps to Apply for a Loan Settlement Through a Financial Service Provider',
-    'description': 'A detailed guide on the procedure, documentation, and negotiation involved in settling a loan through professional debt relief services.',
+    'headline': 'Comprehensive Guide to Affordable Debt Settlement Plans for Salaried Individuals in India',
+    'description': 'Discover effective and affordable debt settlement strategies for salaried employees. Learn about OTS, debt management, and legal rights.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
     'datePublished': '2025-05-10',
-    'dateModified': '2026-05-11',
+    'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+      '@id': 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://credsettle.com/credsettle-logo.svg'
+      }
     }
   };
 
@@ -184,10 +192,11 @@ export default function LoanSettlementStepsPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
+      {/* Hero Section */}
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
-          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #0f172a 0%, #1e293b 100%)',
           minHeight: '50vh',
           display: 'flex',
           alignItems: 'center',
@@ -196,24 +205,25 @@ export default function LoanSettlementStepsPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Steps to Apply for a <br />
-            <span className="text-blue-400">Loan Settlement</span>
+            Affordable Debt Settlement Plans for<br />
+            <span className="text-blue-400">Salaried Individuals</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Navigate the complexities of debt recovery with our comprehensive guide. Learn how to work with professional providers for a successful resolution.
+            Break free from the debt trap. Customized settlement solutions for salaried professionals to resolve credit card and personal loan burdens legally and affordably.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Start Your Settlement Journey
+              Get a Free Debt Assessment
             </Link>
           </div>
         </div>
       </section>
 
-      <LoanSettlementStepsClient />
+      {/* Client Component content */}
+      <AffordableDebtSettlementClient />
 
       <Footer />
     </div>

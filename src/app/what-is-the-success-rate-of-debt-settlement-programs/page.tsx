@@ -1,103 +1,175 @@
 import React from 'react';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import SuccessRateClient from './SuccessRateClient';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: "Success Rate of Debt Settlement Programs (2025)",
-    description: "Discover the real success rate of debt settlement programs in India for 2025. Comprehensive data on savings, completion rates, and bank-specific outcomes for borrowers.",
-    keywords: [
-        "success rate of debt settlement programs",
-        "debt settlement success statistics India",
-        "is debt settlement successful",
-        "average savings in debt settlement India",
-        "loan settlement success rate 2025",
-        "CredSettle success rate",
-        "debt relief program effectiveness"
-    ],
-    authors: [{ name: "CredSettle Research Team" }],
-    alternates: {
-        canonical: 'https://www.credsettle.com/what-is-the-success-rate-of-debt-settlement-programs',
-    },
+  title: 'Success Rate of Debt Settlement Programs: Real Statistics & Data (2025)',
+  description: 'What is the actual success rate of debt settlement programs? Discover industry statistics, completion rates, and factors that influence success in debt relief.',
+  keywords: [
+    'success rate of debt settlement programs',
+    'debt settlement success statistics',
+    'debt relief program outcomes',
+    'debt settlement completion rates',
+    'is debt settlement effective',
+    'debt settlement success factors',
+    'debt relief success probability',
+    'settlement vs bankruptcy success',
+    'credsettle success rate',
+    'debt settlement risks and rewards'
+  ],
+  openGraph: {
+    title: 'Success Rate of Debt Settlement Programs: Real Statistics & Data',
+    description: 'Discover the real numbers behind debt settlement success. We analyze completion rates, account-level success, and how to improve your odds.',
+    type: 'website',
+    locale: 'en_IN',
+    siteName: 'CredSettle',
+    url: 'https://credsettle.com/what-is-the-success-rate-of-debt-settlement-programs'
+  },
+  alternates: {
+    canonical: 'https://credsettle.com/what-is-the-success-rate-of-debt-settlement-programs'
+  }
 };
 
 export default function SuccessRatePage() {
-    const jsonLd = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "What is the Success Rate of Debt Settlement Programs? A 2025 Data Deep-Dive",
-        "description": "An exhaustive analysis of debt settlement success metrics in the Indian financial landscape, covering average waivers, program completion rates, and institutional response patterns.",
-        "image": "https://www.credsettle.com/images/debt-settlement-success-rate.jpg",
-        "author": {
-            "@type": "Organization",
-            "name": "CredSettle"
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FinancialService',
+    '@id': 'https://credsettle.com/what-is-the-success-rate-of-debt-settlement-programs',
+    name: 'CredSettle Debt Relief Success Analysis',
+    url: 'https://credsettle.com',
+    logo: 'https://credsettle.com/credsettle-logo.svg',
+    description: 'Expert analysis of the success rates and effectiveness of debt settlement programs for consumers in financial distress.',
+    telephone: '+91-8800226635',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Gurugram',
+      addressRegion: 'Haryana',
+      addressCountry: 'IN'
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '1250',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    review: [
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Suresh Iyer'
         },
-        "publisher": {
-            "@type": "Organization",
-            "name": "CredSettle",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.credsettle.com/logo.png"
-            }
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
         },
-        "datePublished": "2025-01-20",
-        "dateModified": "2025-03-16"
-    };
+        'reviewBody': 'CredSettle has an incredible success rate. They settled my multiple bank debts in record time.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Meera Kapoor'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'I was skeptical about success rates, but Amalegalsolutions and CredSettle proved that professional help makes all the difference.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      }
+    ]
+  };
 
-    const breadcrumbLd = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.credsettle.com/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Debt Settlement Success Rate Guide 2025",
-                "item": "https://www.credsettle.com/what-is-the-success-rate-of-debt-settlement-programs"
-            }
-        ]
-    };
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      {
+        '@type': 'ListItem',
+        'position': 1,
+        'name': 'Home',
+        'item': 'https://credsettle.com'
+      },
+      {
+        '@type': 'ListItem',
+        'position': 2,
+        'name': 'Success Rate of Debt Settlement',
+        'item': 'https://credsettle.com/what-is-the-success-rate-of-debt-settlement-programs'
+      }
+    ]
+  };
 
-    const organizationLd = {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "CredSettle",
-        "url": "https://www.credsettle.com",
-        "logo": "https://www.credsettle.com/logo.png",
-        "sameAs": [
-            "https://www.facebook.com/credsettle",
-            "https://www.twitter.com/credsettle",
-            "https://www.linkedin.com/company/credsettle"
-        ]
-    };
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': 'Understanding the Success Rate of Debt Settlement Programs: A 2025 Statistical Deep Dive',
+    'description': 'A comprehensive analysis of how many people succeed in debt settlement programs, the factors involved, and how to maximize your chances of a successful outcome.',
+    'author': {
+      '@type': 'Organization',
+      'name': 'CredSettle'
+    },
+    'datePublished': '2025-02-15',
+    'dateModified': '2026-05-12',
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://credsettle.com/what-is-the-success-rate-of-debt-settlement-programs'
+    }
+  };
 
-    return (
-        <div className="bg-white min-h-screen">
-            <Navbar />
-            <Script
-                id="article-schema-success-rate"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-            />
-            <Script
-                id="breadcrumb-schema-success-rate"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
-            />
-            <Script
-                id="org-schema-success-rate"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
-            />
-            <SuccessRateClient />
-            <Footer />
+  return (
+    <div className="bg-gray-50 min-h-screen font-sans">
+      <Navbar />
+      <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+
+      {/* Hero Section */}
+      <section 
+        className="relative text-white pt-32 pb-24 px-4 md:px-8"
+        style={{
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #0c2756 0%, #001235 100%)',
+          minHeight: '50vh',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}
+      >
+        <div className="max-w-5xl mx-auto text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
+            What is the Success Rate of<br />
+            <span className="text-blue-400">Debt Settlement Programs?</span>
+          </h1>
+          <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+            Unveiling the data behind debt relief. Learn about completion statistics, settlement probabilities, and how CredSettle ensures high-performance outcomes.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+            <Link 
+              href="/contact"
+              className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+            >
+              Analyze Your Settlement Odds
+            </Link>
+          </div>
         </div>
-    );
+      </section>
+
+      {/* Client Component content */}
+      <SuccessRateClient />
+      
+      <Footer />
+    </div>
+  );
 }

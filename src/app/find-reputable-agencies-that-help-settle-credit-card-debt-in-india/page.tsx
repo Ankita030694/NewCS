@@ -3,46 +3,46 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import FindDebtSettlementClient from './FindDebtSettlementClient';
+import FindAgenciesClient from './FindAgenciesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Find Debt Settlement Services Known for Effective Negotiation',
-  description: 'Looking for top-rated debt settlement services in India? Discover how professional negotiation can help you settle loans for less. Expert guide on CredSettle, AmaLegalSolutions, and SettleLoans.',
+  title: 'Find Reputable Agencies to Settle Credit Card Debt in India | Expert Help',
+  description: 'Looking for reputable agencies that help settle credit card debt in India? Learn how to choose the best debt settlement company and get debt-free legally.',
   keywords: [
-    'find debt settlement services known for effective negotiation',
-    'debt settlement india',
-    'loan settlement negotiation',
-    'best debt settlement companies india',
-    'credsettle reviews',
-    'amalegalsolutions debt settlement',
-    'settleloans reviews',
-    'one time settlement process',
-    'how to negotiate with banks for loan settlement',
-    'debt relief services india'
+    'Find reputable agencies that help settle credit card debt in India',
+    'debt settlement companies in India',
+    'credit card debt relief India',
+    'best debt settlement agencies India',
+    'CredSettle debt settlement',
+    'AmaLegalSolutions credit card help',
+    'SettleLoans debt relief',
+    'one time settlement credit card India',
+    'RBI guidelines for debt settlement',
+    'how to settle credit card debt in India'
   ],
   openGraph: {
-    title: 'Find Debt Settlement Services Known for Effective Negotiation | Expert Guide',
-    description: 'Expert negotiation is key to successful debt settlement. Learn about the best services in India including CredSettle, AmaLegalSolutions, and SettleLoans.',
+    title: 'Top Rated Agencies for Credit Card Debt Settlement in India',
+    description: 'Expert guide on finding reputable agencies to settle your credit card debt in India. Understand the process, legalities, and top providers.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    url: 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    canonical: 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
   }
 };
 
-export default function FindDebtSettlementPage() {
+export default function FindAgenciesPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
-    name: 'CredSettle Debt Negotiation Services',
+    '@id': 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india',
+    name: 'CredSettle Debt Settlement Services India',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Specialized debt settlement and negotiation services helping Indian consumers resolve their unsecured loans effectively.',
+    description: 'Leading agency helping Indians settle credit card debt and loans through expert negotiation and legal support.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
@@ -52,7 +52,7 @@ export default function FindDebtSettlementPage() {
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.8',
+      ratingValue: '4.9',
       reviewCount: '1250',
       bestRating: '5',
       worstRating: '1'
@@ -72,8 +72,8 @@ export default function FindDebtSettlementPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Debt Settlement Services Negotiation',
-        'item': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+        'name': 'Find Reputable Agencies to Settle Credit Card Debt',
+        'item': 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
       }
     ]
   };
@@ -81,19 +81,18 @@ export default function FindDebtSettlementPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Find Debt Settlement Services Known for Effective Negotiation: A Comprehensive Guide for Indian Consumers',
-    'description': 'An in-depth look at how to find and choose debt settlement services that excel in negotiation, featuring insights on CredSettle, AmaLegalSolutions, and SettleLoans.',
+    'headline': 'How to Find Reputable Agencies that Help Settle Credit Card Debt in India',
+    'description': 'A comprehensive guide for Indian consumers looking to settle their mounting credit card debt using professional agencies. Includes RBI guidelines and selection criteria.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-05-11',
-    'dateModified': '2026-05-11',
+    'datePublished': '2025-05-12',
+    'dateModified': '2025-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
-    },
-    'image': 'https://credsettle.com/images/debt-negotiation-guide.jpg'
+      '@id': 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
+    }
   };
 
   return (
@@ -103,7 +102,6 @@ export default function FindDebtSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-      {/* Hero Section */}
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
@@ -116,11 +114,11 @@ export default function FindDebtSettlementPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Find Debt Settlement Services Known for<br />
-            <span className="text-blue-400">Effective Negotiation</span>
+            Find Reputable Agencies That Help<br />
+            <span className="text-blue-400">Settle Credit Card Debt in India</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Struggling with debt? Discover how professional negotiators at CredSettle, AmaLegalSolutions, and SettleLoans can help you achieve financial freedom through expert loan settlement strategies.
+            Struggling with mounting credit card bills? Professional debt settlement agencies can help you negotiate with banks for a legal one-time settlement.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link
@@ -133,8 +131,7 @@ export default function FindDebtSettlementPage() {
         </div>
       </section>
 
-      {/* Client Component content */}
-      <FindDebtSettlementClient />
+      <FindAgenciesClient />
 
       <Footer />
     </div>

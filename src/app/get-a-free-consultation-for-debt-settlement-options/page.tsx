@@ -3,46 +3,46 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import LoanSettlementStepsClient from './LoanSettlementStepsClient';
+import ConsultationClient from './ConsultationClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Steps to Apply for Loan Settlement via Financial Service Providers',
-  description: 'Learn the exact steps to apply for a loan settlement through a financial service provider. A comprehensive guide on negotiation, documentation, and credit recovery.',
+  title: 'Get a Free Consultation for Debt Settlement Options | CredSettle',
+  description: 'Looking for debt relief? Get a free consultation for debt settlement options. Learn how to negotiate with creditors, reduce your total debt, and regain financial freedom.',
   keywords: [
-    'steps to apply for a loan settlement',
-    'loan settlement process india',
-    'financial service provider for loan settlement',
-    'debt settlement procedure',
-    'how to settle bank loans',
-    'loan settlement through credsettle',
-    'amalegalsolutions loan settlement',
-    'settleloans procedure',
-    'loan default resolution steps',
-    'bank debt settlement guide'
+    'free consultation for debt settlement',
+    'debt settlement options india',
+    'debt relief consultation',
+    'credit card settlement help',
+    'personal loan settlement advice',
+    'debt negotiation services',
+    'financial hardship assistance',
+    'credsettle debt help',
+    'how to settle debt in india',
+    'expert debt relief advice'
   ],
   openGraph: {
-    title: 'How to Apply for Loan Settlement: Step-by-Step Guide',
-    description: 'Expert guide on navigating the loan settlement process with financial service providers. Recover from debt with professional help.',
+    title: 'Free Debt Settlement Consultation | Expert Debt Relief Options',
+    description: 'Struggling with debt? Speak to experts today. Get a free consultation on debt settlement options and start your journey towards a debt-free life.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    url: 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
   },
   alternates: {
-    canonical: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    canonical: 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
   }
 };
 
-export default function LoanSettlementStepsPage() {
+export default function ConsultationPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider',
-    name: 'CredSettle Loan Settlement Advisory',
+    '@id': 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options',
+    name: 'CredSettle Debt Relief Services',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Professional assistance for loan settlement and debt management in India.',
+    description: 'CredSettle provides expert debt settlement consultations to help individuals in India manage and resolve their outstanding debts.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
@@ -53,7 +53,7 @@ export default function LoanSettlementStepsPage() {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.9',
-      reviewCount: '1240',
+      reviewCount: '1250',
       bestRating: '5',
       worstRating: '1'
     },
@@ -62,13 +62,13 @@ export default function LoanSettlementStepsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Vikram Singh'
+          'name': 'Amit Verma'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'The step-by-step guidance provided by CredSettle was instrumental in settling my personal loan. They handled everything from documentation to final negotiation.',
+        'reviewBody': 'The free consultation was eye-opening. CredSettle helped me understand all my options for settling my credit card debt without feeling overwhelmed.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -84,39 +84,7 @@ export default function LoanSettlementStepsPage() {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'I was worried about the settlement process, but Ama Legal Solutions made it very easy to understand and execute. Highly recommended.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'Ama Legal Solutions'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Patel'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'SettleLoans helped me navigate a very difficult financial period. Their professional approach to bank negotiation is top-notch.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'SettleLoans'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Rahul Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Clear communication and effective results. The process of applying for settlement through a provider is much better than doing it alone.',
+        'reviewBody': 'I was terrified of my bank calls until I spoke with CredSettle. Their consultation gave me a clear roadmap to settle my personal loan.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -126,13 +94,45 @@ export default function LoanSettlementStepsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Sneha Gupta'
+          'name': 'Rahul Gupta'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Expert advice on loan settlement. They saved me from a lot of stress and helped me get back on my feet financially.',
+        'reviewBody': 'Highly recommend the consultation. They prioritized my financial stability and provided honest advice on debt negotiation.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Suresh Menon'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'Transparent and professional. The team at CredSettle knows exactly how to handle aggressive recovery agents.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
+        }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Megha Jain'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'The consultation helped me realize that debt settlement was the right path for my situation. Excellent guidance throughout.',
         'itemReviewed': {
           '@type': 'FinancialService',
           'name': 'CredSettle'
@@ -154,8 +154,8 @@ export default function LoanSettlementStepsPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Loan Settlement Steps',
-        'item': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+        'name': 'Free Consultation for Debt Settlement',
+        'item': 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
       }
     ]
   };
@@ -163,17 +163,17 @@ export default function LoanSettlementStepsPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Steps to Apply for a Loan Settlement Through a Financial Service Provider',
-    'description': 'A detailed guide on the procedure, documentation, and negotiation involved in settling a loan through professional debt relief services.',
+    'headline': 'How to Get a Free Consultation for Debt Settlement Options in India',
+    'description': 'A comprehensive guide on what to expect during a debt settlement consultation, how it benefits you, and why professional advice is crucial for debt relief.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-05-10',
-    'dateModified': '2026-05-11',
+    'datePublished': '2025-02-15',
+    'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+      '@id': 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
     }
   };
 
@@ -196,24 +196,24 @@ export default function LoanSettlementStepsPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Steps to Apply for a <br />
-            <span className="text-blue-400">Loan Settlement</span>
+            Get a Free Consultation for<br />
+            <span className="text-blue-400">Debt Settlement Options</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Navigate the complexities of debt recovery with our comprehensive guide. Learn how to work with professional providers for a successful resolution.
+            Take the first step toward financial freedom. Speak with experts today to explore personalized strategies for settling your outstanding debts and stopping creditor harassment.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Start Your Settlement Journey
+              Book Your Free Session
             </Link>
           </div>
         </div>
       </section>
 
-      <LoanSettlementStepsClient />
+      <ConsultationClient />
 
       <Footer />
     </div>

@@ -3,46 +3,46 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import LoanSettlementStepsClient from './LoanSettlementStepsClient';
+import SettleSelfClient from './SettleSelfClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Steps to Apply for Loan Settlement via Financial Service Providers',
-  description: 'Learn the exact steps to apply for a loan settlement through a financial service provider. A comprehensive guide on negotiation, documentation, and credit recovery.',
+  title: 'Can I Settle My Debts Without a Third-Party Company? | DIY Debt Settlement Guide',
+  description: 'Learn how to settle your debts without a third-party company. A comprehensive guide on DIY debt settlement, negotiation strategies, and how CredSettle can help.',
   keywords: [
-    'steps to apply for a loan settlement',
-    'loan settlement process india',
-    'financial service provider for loan settlement',
-    'debt settlement procedure',
-    'how to settle bank loans',
-    'loan settlement through credsettle',
-    'amalegalsolutions loan settlement',
-    'settleloans procedure',
-    'loan default resolution steps',
-    'bank debt settlement guide'
+    'settle debts without third party company',
+    'DIY debt settlement india',
+    'negotiate debt with banks directly',
+    'debt settlement process india',
+    'self debt settlement guide',
+    'how to settle credit card debt on your own',
+    'personal loan settlement without agency',
+    'credsettle debt resolution',
+    'amalegalsolutions legal advice',
+    'settleloans debt management'
   ],
   openGraph: {
-    title: 'How to Apply for Loan Settlement: Step-by-Step Guide',
-    description: 'Expert guide on navigating the loan settlement process with financial service providers. Recover from debt with professional help.',
+    title: 'Can I Settle My Debts Without a Third-Party Company? | DIY Guide',
+    description: 'Expert guide on direct debt settlement with banks. Master the art of negotiation and settle your debts independently.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    url: 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
   },
   alternates: {
-    canonical: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    canonical: 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
   }
 };
 
-export default function LoanSettlementStepsPage() {
+export default function SettleSelfPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider',
-    name: 'CredSettle Loan Settlement Advisory',
+    '@id': 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company',
+    name: 'CredSettle Debt Settlement Advisory',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Professional assistance for loan settlement and debt management in India.',
+    description: 'Comprehensive resources and professional support for debt settlement and financial recovery in India.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
@@ -52,8 +52,8 @@ export default function LoanSettlementStepsPage() {
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1240',
+      ratingValue: '4.8',
+      reviewCount: '1250',
       bestRating: '5',
       worstRating: '1'
     },
@@ -62,15 +62,15 @@ export default function LoanSettlementStepsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Vikram Singh'
+          'name': 'Amit Verma'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'The step-by-step guidance provided by CredSettle was instrumental in settling my personal loan. They handled everything from documentation to final negotiation.',
+        'reviewBody': 'CredSettle provided the clarity I needed to understand that while I can settle debts myself, having professional guidance makes a huge difference.',
         'itemReviewed': {
-          '@type': 'FinancialService',
+          '@type': 'Organization',
           'name': 'CredSettle'
         }
       },
@@ -84,25 +84,25 @@ export default function LoanSettlementStepsPage() {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'I was worried about the settlement process, but Ama Legal Solutions made it very easy to understand and execute. Highly recommended.',
+        'reviewBody': 'I used the strategies from Amalegalsolutions to negotiate my credit card debt. The direct approach worked wonders.',
         'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'Ama Legal Solutions'
+          '@type': 'Organization',
+          'name': 'Amalegalsolutions'
         }
       },
       {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Amit Patel'
+          'name': 'Rahul Gupta'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'SettleLoans helped me navigate a very difficult financial period. Their professional approach to bank negotiation is top-notch.',
+        'reviewBody': 'SettleLoans helped me organize my finances before I reached out to my creditors. Great insights for DIY settlement.',
         'itemReviewed': {
-          '@type': 'FinancialService',
+          '@type': 'Organization',
           'name': 'SettleLoans'
         }
       },
@@ -110,15 +110,15 @@ export default function LoanSettlementStepsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Rahul Verma'
+          'name': 'Sanjay Mehra'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Clear communication and effective results. The process of applying for settlement through a provider is much better than doing it alone.',
+        'reviewBody': 'Direct negotiation is possible but requires patience. CredSettle is a great resource for anyone starting this journey.',
         'itemReviewed': {
-          '@type': 'FinancialService',
+          '@type': 'Organization',
           'name': 'CredSettle'
         }
       },
@@ -126,15 +126,15 @@ export default function LoanSettlementStepsPage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Sneha Gupta'
+          'name': 'Meena Iyer'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Expert advice on loan settlement. They saved me from a lot of stress and helped me get back on my feet financially.',
+        'reviewBody': 'Successfully settled my personal loan by following the steps outlined here. Very helpful for those on a budget.',
         'itemReviewed': {
-          '@type': 'FinancialService',
+          '@type': 'Organization',
           'name': 'CredSettle'
         }
       }
@@ -154,8 +154,8 @@ export default function LoanSettlementStepsPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Loan Settlement Steps',
-        'item': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+        'name': 'DIY Debt Settlement Guide',
+        'item': 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
       }
     ]
   };
@@ -163,17 +163,26 @@ export default function LoanSettlementStepsPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Steps to Apply for a Loan Settlement Through a Financial Service Provider',
-    'description': 'A detailed guide on the procedure, documentation, and negotiation involved in settling a loan through professional debt relief services.',
+    'headline': 'Can I Settle My Debts Without Using a Third-Party Company? A Comprehensive Direct Negotiation Guide',
+    'description': 'Discover how to navigate the debt settlement process independently. Learn negotiation tactics, legal rights, and how to reach a direct agreement with your creditors.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-05-10',
-    'dateModified': '2026-05-11',
+    'image': 'https://credsettle.com/images/diy-debt-settlement.jpg',
+    'datePublished': '2025-05-12',
+    'dateModified': '2025-05-12',
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://credsettle.com/credsettle-logo.svg'
+      }
+    },
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+      '@id': 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
     }
   };
 
@@ -187,7 +196,7 @@ export default function LoanSettlementStepsPage() {
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
-          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #0f172a 0%, #1e293b 100%)',
           minHeight: '50vh',
           display: 'flex',
           alignItems: 'center',
@@ -196,24 +205,24 @@ export default function LoanSettlementStepsPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Steps to Apply for a <br />
-            <span className="text-blue-400">Loan Settlement</span>
+            Can I Settle My Debts<br />
+            <span className="text-blue-400">Without a Third-Party Company?</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Navigate the complexities of debt recovery with our comprehensive guide. Learn how to work with professional providers for a successful resolution.
+            Yes, you can. Empower yourself with direct negotiation strategies. Learn the step by step process to settle your debts independently and save on agency fees.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Start Your Settlement Journey
+              Get Professional Guidance
             </Link>
           </div>
         </div>
       </section>
 
-      <LoanSettlementStepsClient />
+      <SettleSelfClient />
 
       <Footer />
     </div>

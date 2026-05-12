@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 142; // Updated for new loan settlement SEO pages.
+  const mainStaticPages = 144; // Updated for new loan settlement SEO pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -400,6 +400,13 @@ async function generateSitemap(): Promise<string> {
     loc: `${baseUrl}/contact`,
     priority: 0.9, // High priority - contact information
     changefreq: 'monthly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-the-success-rate-of-debt-settlement-programs`,
+    priority: 0.95,
+    changefreq: 'weekly',
     lastmod: today
   });
 
@@ -631,6 +638,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/best-apps-for-managing-and-settling-unsecured-loans`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -791,6 +805,76 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/can-i-settle-my-debts-without-using-a-third-party-company`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/reviews-of-popular-debt-settlement-services-available-to-indian-consumers`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-negotiate-a-debt-settlement-with-creditors-in-India`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/find-reputable-agencies-that-help-settle-credit-card-debt-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/best-companies-for-debt-settlement-services-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-risks-of-entering-a-debt-settlement-agreement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-questions-should-i-ask-a-debt-settlement-consultant`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/customer-testimonials-for-debt-settlement-service-providers`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/debt-settlement-options-for-freelancers-and-self-employed-individuals`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/get-a-free-consultation-for-debt-settlement-options`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/which-banks-offer-debt-consolidation-loans-in-india`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -896,6 +980,34 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/affordable-debt-settlement-plans-for-salaried-individuals`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-do-online-debt-settlement-platforms-work-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-credit-card-debt-through-a-debt-settlement-service`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-avoid-scams-in-the-debt-settlement-industry`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -1911,6 +2023,12 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  urls.push({
+    loc: `${baseUrl}/customer-testimonials-for-debt-settlement-service-providers`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
   // Debt Settlement Services That Work With Multiple Creditors page
   urls.push({
     loc: `${baseUrl}/debt-settlement-services-that-work-with-multiple-creditors`,
@@ -2506,6 +2624,14 @@ async function generateSitemap(): Promise<string> {
     console.error('Error fetching blog slugs for sitemap:', error);
     // Continue without blog pages if there’s an error
   }
+
+  // Government-Backed Debt Relief Programs in India page
+  urls.push({
+    loc: `${baseUrl}/are-there-government-backed-programs-for-debt-relief-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
 
   // ========================================================================
   // GENERATE XML SITEMAP
