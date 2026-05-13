@@ -411,6 +411,27 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/debt-management-services`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/1-debt-management-services-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/1-loan-settlement-services-in-india`,
+    priority: 1.0,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/services`,
     priority: 1.0, // Highest priority - main services page
     changefreq: 'weekly',

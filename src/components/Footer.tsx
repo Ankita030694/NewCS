@@ -338,8 +338,9 @@ export default function Footer() {
               <a href="/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Financial Institutions Supporting Borrowers Against Harassment...</a>
               <a href="/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Block Recovery Agent Numbers on Android and iPhone...</a>
               <a href="/how-to-document-evidence-of-debt-collector-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Document Evidence of Debt Collector Harassment...</a>
-
-            </div>
+              <a href="/debt-management-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Management Services</a>
+              <a href="/1-debt-management-services-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">#1 Debt Management Services in India</a>
+              <a href="/1-loan-settlement-services-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">#1 Loan Settlement Services in India</a>
 
             <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
 
@@ -348,6 +349,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
+      </div>
       </div>
 
       <div className="w-full mt-4 md:mt-8 mb-0 pb-0 relative overflow-hidden">
