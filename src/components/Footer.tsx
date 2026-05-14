@@ -341,13 +341,16 @@ export default function Footer() {
               <a href="/debt-management-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Debt Management Services</a>
               <a href="/1-debt-management-services-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">#1 Debt Management Services in India</a>
               <a href="/1-loan-settlement-services-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">#1 Loan Settlement Services in India</a>
+              <a href="/loan-management-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Management Services</a>
+              <a href="/can-i-waive-off-100-percent-of-my-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Waive Off 100 Percent of My Loan</a>
 
-            <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
+           
+          </div>
+           <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
 
             <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-tight">
               © 2020 CredSettle
             </p>
-          </div>
         </div>
       </div>
       </div>

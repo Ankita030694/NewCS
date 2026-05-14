@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 147; // Updated for new loan settlement SEO pages.
+  const mainStaticPages = 148; // Updated for new loan management services page.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -426,6 +426,20 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/1-loan-settlement-services-in-india`,
+    priority: 1.0,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-waive-off-100-percent-of-my-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-management-services`,
     priority: 1.0,
     changefreq: 'weekly',
     lastmod: today
