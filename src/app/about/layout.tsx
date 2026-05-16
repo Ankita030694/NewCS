@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary_large_image", 
     title: "About CredSettle - India’s Debt Resolution Experts",
     description: "Learn about CredSettle - India’s leading legal loan settlement company. We specialize in RBI-compliant debt resolution.",
   },
