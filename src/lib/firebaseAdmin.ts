@@ -71,7 +71,14 @@ const appOptions: AppOptions = {
 
 import { getStorage } from 'firebase-admin/storage';
 
-const app = getApps().length > 0 ? getApps()[0] : initializeApp(appOptions);
+const isNewApp = getApps().length === 0;
+const app = isNewApp ? initializeApp(appOptions) : getApps()[0];
+
+if (isNewApp) {
+  console.log('Firebase Admin initialized for project:', projectId);
+} else {
+  console.log('Firebase Admin reusing existing app for project:', app.options.projectId);
+}
 
 export const adminDb = getFirestore(app);
 export const adminStorage = getStorage(app);

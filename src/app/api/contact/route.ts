@@ -92,7 +92,12 @@ export async function POST(request: NextRequest) {
       { status: 200 }
     );
   } catch (error: any) {
-    console.error('Error saving form data:', error);
+    console.error('Detailed error saving form data:', {
+      message: error.message,
+      code: error.code,
+      stack: error.stack,
+      details: error.details,
+    });
     return NextResponse.json(
       {
         success: false,
