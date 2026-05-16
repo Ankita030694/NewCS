@@ -87,25 +87,7 @@ export default function ContactNavbar() {
               
               {/* Right Column - Desktop Register Button / Mobile Hamburger */}
               <div className="flex-shrink-0 flex items-center gap-4">
-                {/* Desktop Register Button - Hidden on Mobile */}
-                <a href="/contact" className="hidden md:flex">
-                <button
-                  className="hidden md:flex bg-[#007AFF] text-white font-light transition-colors duration-200 hover:bg-[#0056CC] items-center justify-center"
-                  style={{
-                    paddingLeft: '19.44px',
-                    paddingRight: '19.44px',
-                    paddingTop: '12px',
-                    paddingBottom: '12px',
-                    fontSize: '14.58px',
-                    borderRadius: '32.4px',
-                    height: '38.88px',
-                    boxShadow:
-                      "0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset"
-                  }}
-                >
-                  Register now
-                </button>
-                </a>
+                
 
                 {/* Mobile Hamburger Menu Button */}
                 <button
