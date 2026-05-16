@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { db } from '@/lib/firebase';
-import { collection, addDoc, query, where, getDocs, limit } from 'firebase/firestore';
+import { adminDb } from '@/lib/firebaseAdmin';
 
 export async function POST(request: NextRequest) {
   try {
@@ -45,15 +44,11 @@ export async function POST(request: NextRequest) {
       year: 'numeric'
     }).replace(/\//g, '-');
 
-    const formsRef = collection(db, 'Form');
-    const q = query(
-      formsRef,
-      where('number', '==', body.number),
-      where('date', '==', today),
-      limit(1)
-    );
-
-    const querySnapshot = await getDocs(q);
+    const querySnapshot = await adminDb.collection('Form')
+      .where('number', '==', body.number)
+      .where('date', '==', today)
+      .limit(1)
+      .get();
 
     if (!querySnapshot.empty) {
       return NextResponse.json(
@@ -84,10 +79,8 @@ export async function POST(request: NextRequest) {
       utmParams: body.utmParams || {},
     };
 
-    // Save to Firestore
-    const docRef = await addDoc(collection(db, 'Form'), formData);
-
-    // Return success response
+    // Save to Firestore using Admin SDK
+    const docRef = await adminDb.collection('Form').add(formData);
 
     // Return success response
     return NextResponse.json(
