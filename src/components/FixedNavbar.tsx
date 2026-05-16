@@ -47,7 +47,7 @@ export default function FixedNavbar() {
                 }
               }}
             >
-              Register now
+              Contact Us
             </button>
           </div>
         </div>
