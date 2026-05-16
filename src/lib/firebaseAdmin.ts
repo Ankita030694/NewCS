@@ -8,7 +8,7 @@ type ServiceAccountJSON = {
 };
 
 const normalizePrivateKey = (value: string): string =>
-  value.includes('\\n') ? value.replace(/\\n/g, '\n') : value;
+  value ? value.replace(/\\n/g, '\n').replace(/"/g, '').trim() : value;
 
 const coercePrivateKey = (raw?: string | null): string | undefined => {
   if (!raw) {
