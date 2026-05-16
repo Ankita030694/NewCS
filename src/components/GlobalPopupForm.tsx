@@ -27,13 +27,6 @@ export default function GlobalPopupForm() {
   });
 
   useEffect(() => {
-    // Check if user has already submitted (persistent)
-    const formSubmitted = localStorage.getItem('credsettle:form_submitted');
-    if (formSubmitted === 'true') {
-      setAlreadySubmittedToday(true);
-      return;
-    }
-
     // Check if user has already submitted today
     const lastSubmissionDate = localStorage.getItem('credsettle:last_submission_date');
     const today = new Date().toLocaleDateString('en-GB', {
@@ -238,22 +231,7 @@ export default function GlobalPopupForm() {
       localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
       localStorage.setItem('credsettle:user_phone', formData.number.trim());
       localStorage.setItem('credsettle:last_submission_date', formattedDate);
-      localStorage.setItem('credsettle:form_submitted', 'true');
       setAlreadySubmittedToday(true);
-
-      // Track Lead event
-      if (typeof window !== 'undefined' && (window as any).fbq) {
-        (window as any).fbq('init', '477133588597367', {
-          em: formData.email.trim().toLowerCase(),
-          ph: formData.number.trim(),
-          ct: formData.city.trim().toLowerCase(),
-        });
-
-        (window as any).fbq('track', 'Lead', {
-          value: 0.00,
-          currency: 'INR'
-        });
-      }
       
       setIsOpen(false);
       router.push('/thank-you');
