@@ -31,25 +31,7 @@ export default function FixedNavbar() {
             <a href="#" className="text-white hover:text-gray-300 transition-colors duration-200 text-lg" style={{ fontWeight: 500 }}>About Us</a>
             <a href="#" className="text-white hover:text-gray-300 transition-colors duration-200 text-lg" style={{ fontWeight: 500 }}>Contact Us</a>
           </div>
-          
-          {/* Right Column - Register Button */}
-          <div className="flex-shrink-0">
-            <button
-              className="bg-[#FFFFFF] text-[#0C2756] px-5 py-2.5 text-lg rounded-3xl font-medium transition-colors duration-200 hover:bg-gray-100"
-              style={{
-                boxShadow:
-                  "0 -5.2px 13.4px 0 rgba(9, 9, 9, 0.30) inset, 0 5.2px 13.4px 0 rgba(9, 9, 9, 0.30) inset"
-              }}
-              onClick={() => {
-                const element = document.querySelector('a[href="#"] + a[href="#"] + a[href="#"] + a[href="#"] + a[href="#"]');
-                if (element) {
-                  (element as HTMLElement).click();
-                }
-              }}
-            >
-              Contact Us
-            </button>
-          </div>
+      
         </div>
       </div>
     </nav>
