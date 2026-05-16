@@ -50,20 +50,13 @@ const parseServiceAccount = (raw?: string | null): ServiceAccountJSON | null => 
   }
 };
 
-const serviceAccount = parseServiceAccount(process.env.FIREBASE_SERVICE_ACCOUNT);
-
-const projectId =
-  process.env.FIREBASE_PROJECT_ID ?? serviceAccount?.project_id ?? undefined;
-const clientEmail =
-  process.env.FIREBASE_CLIENT_EMAIL ?? serviceAccount?.client_email ?? undefined;
-const privateKey =
-  coercePrivateKey(process.env.FIREBASE_PRIVATE_KEY) ??
-  coercePrivateKey(serviceAccount?.private_key) ??
-  undefined;
+const projectId = process.env.FIREBASE_PROJECT_ID;
+const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
+const privateKey = coercePrivateKey(process.env.FIREBASE_SERVICE_ACCOUNT);
 
 if (!projectId || !clientEmail || !privateKey) {
   throw new Error(
-    'Missing Firebase Admin credentials. Ensure FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_PRIVATE_KEY (or FIREBASE_SERVICE_ACCOUNT) env vars are set correctly.'
+    'Missing Firebase Admin credentials. Ensure FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_SERVICE_ACCOUNT (private key) env vars are set correctly.'
   );
 }
 
