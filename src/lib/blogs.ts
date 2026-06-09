@@ -81,11 +81,22 @@ function mapDocToBlogDocument(
 ): BlogDocument {
   const data = doc.data() ?? {};
   const rawTitle = typeof data.title === 'string' ? data.title : '';
-  const slug = ensureBlogSlug(
+  let slug = ensureBlogSlug(
     typeof data.slug === 'string' ? data.slug : '',
     rawTitle,
     doc.id
   );
+
+  const reverseMapping: Record<string, string> = {
+    'best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score': 'settle-loan-india-without-hurting-credit-score',
+    'how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi': 'settle-loans-major-banks-icici-hdfc-axis-sbi',
+    'loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company': 'loan-settlement-company-india'
+  };
+
+  const canonicalSlug = canonicaliseSlug(slug);
+  if (reverseMapping[canonicalSlug]) {
+    slug = reverseMapping[canonicalSlug];
+  }
 
   return {
     id: doc.id,
@@ -215,7 +226,15 @@ export const getAllBlogs = unstable_cache(
 export async function getBlogBySlug(slug: string): Promise<BlogDocument | null> {
   if (!slug) return null;
 
-  const canonical = canonicaliseSlug(slug);
+  const slugMapping: Record<string, string> = {
+    'settle-loan-india-without-hurting-credit-score': 'best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score',
+    'settle-loans-major-banks-icici-hdfc-axis-sbi': 'how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi',
+    'loan-settlement-company-india': 'loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company'
+  };
+
+  const lookupSlug = slugMapping[slug] || slug;
+
+  const canonical = canonicaliseSlug(lookupSlug);
   if (!canonical) {
     return null;
   }
