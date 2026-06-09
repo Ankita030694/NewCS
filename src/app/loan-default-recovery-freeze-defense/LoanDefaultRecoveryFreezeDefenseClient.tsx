@@ -504,7 +504,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                             <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/legal-notice-for-loan-recovery" className="block text-sm text-blue-600 hover:underline">Notice Defense</Link>
+                                    <div className="block text-sm text-gray-400 ">Notice Defense</div>
                                     <Link href="/bank-calling-references-and-family-members" className="block text-sm text-blue-600 hover:underline">Harassment Protection</Link>
                                     <Link href="/best-lawyers-for-bounced-security-check-for-loans-and-credit-card-disputes" className="block text-sm text-blue-600 hover:underline">Security Check Defense</Link>
                                     <Link href="/best-lawyer-for-loan-recovery-cases" className="block text-sm text-blue-600 hover:underline">Recovery Lawyers</Link>

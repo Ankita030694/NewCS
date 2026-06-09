@@ -669,7 +669,6 @@ export default function MudraLoanSettlementClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
                                 <nav className="space-y-3">
                                     <Link href="/SME-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Dispute Help</Link>
-                                    <Link href="/business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Business Loan Info</Link>
                                     <Link href="/working-capital-loan-legal-help" className="block text-sm text-blue-600 hover:underline">Working Capital Help</Link>
                                     <Link href="/startup-loan-legal-advisory" className="block text-sm text-blue-600 hover:underline">Startup Advisory</Link>
                                 </nav>

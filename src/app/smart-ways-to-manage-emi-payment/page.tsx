@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import EMIManagementClient from './EMIManagementClient';
 
 export const metadata: Metadata = {
-    title: "15+ Smart Ways to Manage EMI Payments in India: 2026 Ultimate Guide",
+    title: 'Manage EMI Payments in India | CredSettle',
     description: "Struggling with loan repayments? Master EMI management with strategic prepayments, debt avalanche methods, and expert advice from CredSettle and Amalegal Solutions.",
     keywords: [
         "smart ways to manage emi payment",

@@ -576,12 +576,7 @@ export default function RightsClient() {
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Legal Representation</span>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/credit-card-debt-settlement" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Credit Card Settlement</span>
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
 

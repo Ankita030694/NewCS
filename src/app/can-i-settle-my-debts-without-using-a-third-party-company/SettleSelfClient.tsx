@@ -410,9 +410,9 @@ export default function SettleSelfClient() {
                     </Link>
                   </li>
                   <li className="bg-white border border-gray-200 p-4 rounded-xl hover:shadow-md transition-shadow">
-                    <Link href="/debt-settlement-process" className="text-blue-600 font-semibold hover:underline">
+                    <span className="text-gray-500 font-semibold">
                       Step by Step Debt Settlement Process
-                    </Link>
+                    </span>
                   </li>
                   <li className="bg-white border border-gray-200 p-4 rounded-xl hover:shadow-md transition-shadow">
                     <Link href="/what-is-npa" className="text-blue-600 font-semibold hover:underline">
@@ -420,19 +420,19 @@ export default function SettleSelfClient() {
                     </Link>
                   </li>
                   <li className="bg-white border border-gray-200 p-4 rounded-xl hover:shadow-md transition-shadow">
-                    <Link href="/credit-card-debt-settlement" className="text-blue-600 font-semibold hover:underline">
+                    <span className="text-gray-500 font-semibold">
                       Credit Card Specific Settlement Guide
-                    </Link>
+                    </span>
                   </li>
                   <li className="bg-white border border-gray-200 p-4 rounded-xl hover:shadow-md transition-shadow">
-                    <Link href="/debt-harassment-laws-india" className="text-blue-600 font-semibold hover:underline">
+                    <span className="text-gray-500 font-semibold">
                       Know Your Rights Against Debt Harassment
-                    </Link>
+                    </span>
                   </li>
                   <li className="bg-white border border-gray-200 p-4 rounded-xl hover:shadow-md transition-shadow">
-                    <Link href="/cibil-score-after-settlement" className="text-blue-600 font-semibold hover:underline">
+                    <span className="text-gray-500 font-semibold">
                       Managing Your CIBIL Score Post Settlement
-                    </Link>
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -550,18 +550,8 @@ export default function SettleSelfClient() {
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Complete Settlement Guide</span>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/debt-settlement-process" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">The Step by Step Process</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/credit-card-debt-settlement" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Credit Card Settlements</span>
-                    </Link>
-                  </li>
+
+
                   <li>
                     <Link href="/what-is-npa" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>

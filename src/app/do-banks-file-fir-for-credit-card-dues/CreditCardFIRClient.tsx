@@ -553,8 +553,8 @@ export default function CreditCardFIRClient() {
                 <div className="space-y-3">
                   <Link href="/loan-settlement" className="block text-sm text-blue-600 hover:font-semibold transition-all">• How to Settle Any Personal Loan</Link>
                   <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:font-semibold transition-all">• Rights against Recovery Agents</Link>
-                  <Link href="/cibil-score-improvement" className="block text-sm text-blue-600 hover:font-semibold transition-all">• Rebuilding Credit after Settlement</Link>
-                  <Link href="/legal-notice-response" className="block text-sm text-blue-600 hover:font-semibold transition-all">• How to Respond to Legal Notices</Link>
+                  <div className="block text-sm text-gray-400 hover:font-semibold transition-all">• Rebuilding Credit after Settlement</div>
+                  <div className="block text-sm text-gray-400 hover:font-semibold transition-all">• How to Respond to Legal Notices</div>
                 </div>
               </div>
 

@@ -585,12 +585,7 @@ export default function IsThereAnyMobileSoftwareClient() {
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Debt Settlement Services</span>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/credit-card-settlement" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Credit Card Help</span>
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link href="/what-is-npa" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>

@@ -525,12 +525,7 @@ export default function ChequeBounceNoidaClient() {
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">NPA Solutions Noida</span>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/legal-services-near-me" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Local Law Firms</span>
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
 

@@ -547,7 +547,6 @@ export default function AggressiveRecoverySupportClient() {
                                     <Link href="/cred-settle-plan-for-building-debt-free-future-after-settlement" className="block text-sm text-blue-600 hover:underline">Debt-Free Future Plan</Link>
                                     <Link href="/loan-settlement-for-borrowers-facing-economic-downturn" className="block text-sm text-blue-600 hover:underline">Economic Downturn Help</Link>
                                     <Link href="/legal-notice-for-loan-settlement-harassment" className="block text-sm text-blue-600 hover:underline">Harassment Notice</Link>
-                                    <Link href="/services/bank-harassment" className="block text-sm text-blue-600 hover:underline">Harassment Service</Link>
                                 </nav>
                             </div>
 

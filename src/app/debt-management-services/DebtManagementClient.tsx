@@ -475,12 +475,7 @@ export default function DebtManagementClient() {
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Business Debt Resolution</span>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/anti-harassment" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Anti-Harassment Help</span>
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
 

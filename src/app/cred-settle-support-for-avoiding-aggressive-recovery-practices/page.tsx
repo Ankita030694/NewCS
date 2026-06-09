@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'CredSettle Support for Avoiding Aggressive Recovery Practices | Stop Harassment 2026',
+  title: 'Avoid Recovery Agent Harassment | CredSettle',
   description: 'Facing aggressive loan recovery? Learn how CredSettle and AMA Legal Solutions help you stop recovery agent harassment, understand RBI 2026 rules, and settle debts with dignity.',
   keywords: 'cred-settle-support-for-avoiding-aggressive-recovery-practices, stop loan recovery harassment, rbi guidelines for recovery agents 2026, debt collection laws india, legal help for loan harassment, loan settlement support, amalegalsolutions',
   alternates: {

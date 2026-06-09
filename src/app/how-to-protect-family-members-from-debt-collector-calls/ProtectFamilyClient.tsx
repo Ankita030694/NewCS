@@ -402,7 +402,7 @@ export default function ProtectFamilyClient() {
                 </p>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none pl-0">
                   <li className="bg-gray-50 p-4 rounded-xl border border-gray-200">
-                    <Link href="/anti-harassment" className="text-blue-600 font-bold hover:underline">Anti-Harassment Services</Link>
+                    <span className="text-gray-700 font-bold">Anti-Harassment Services</span>
                     <p className="text-sm text-gray-600 mt-1">Our dedicated service to stop illegal recovery practices.</p>
                   </li>
                   <li className="bg-gray-50 p-4 rounded-xl border border-gray-200">
@@ -537,12 +537,7 @@ export default function ProtectFamilyClient() {
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-6 text-lg">Related Services</h4>
                 <ul className="space-y-4">
-                  <li>
-                    <Link href="/services/anti-harassment" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Anti-Harassment Shield</span>
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link href="/services/credit-score-builder" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>

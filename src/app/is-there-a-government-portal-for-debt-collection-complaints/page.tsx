@@ -7,7 +7,7 @@ import DebtPortalClient from './DebtPortalClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Government Portal for Debt Collection Complaints India | Official Channels',
+  title: 'Govt Portal for Debt Complaints in India | CredSettle',
   description: 'Searching for a government portal for debt collection complaints? Learn about RBI CMS, CPGRAMS, and NCH to report harassment and resolve debt disputes officially.',
   keywords: [
     'government portal for debt collection complaints',

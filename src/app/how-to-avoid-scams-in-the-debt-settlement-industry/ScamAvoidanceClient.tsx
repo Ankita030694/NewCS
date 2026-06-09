@@ -496,30 +496,15 @@ export default function ScamAvoidanceClient() {
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
                 <ul className="space-y-4">
-                  <li>
-                    <Link href="/about-us" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Our Mission & Ethics</span>
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link href="/contact" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Book a Consultation</span>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/loan-settlement-process" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">How Settlement Works</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/faq" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">General FAQs</span>
-                    </Link>
-                  </li>
+                  
+                  
                 </ul>
               </div>
 

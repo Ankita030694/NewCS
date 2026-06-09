@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
-  title: 'CredSettle Plan for Building Debt-Free Future After Settlement | 2026 Guide',
+  title: 'Debt-Free Future Plan After Settlement | CredSettle',
   description: 'Master the CredSettle plan for a debt-free future. Learn how to rebuild CIBIL, manage finances post-settlement, and achieve permanent financial freedom in 2026.',
   keywords: 'cred-settle-plan-for-building-debt-free-future-after-settlement, debt-free future after settlement, rebuild cibil score after settlement, financial planning post settlement, loan settlement recovery, credit score improvement 2026, debt relief india',
   alternates: {

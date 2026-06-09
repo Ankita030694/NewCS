@@ -7,7 +7,7 @@ import BestCompaniesClient from './BestCompaniesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Companies for Debt Settlement Services in India | Expert Debt Relief',
+  title: 'Best Debt Settlement Companies in India | CredSettle',
   description: 'Looking for the best debt settlement companies in India? Compare top-rated services like CredSettle, AmaLegalSolutions, and SettleLoans. Get expert debt relief today.',
   keywords: [
     'best companies for debt settlement services in india',

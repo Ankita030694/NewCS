@@ -663,18 +663,18 @@ export default function EMIConsequencesClient() {
                     <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Process</p>
                     <p className="text-sm font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">How Settlement Works</p>
                   </Link>
-                  <Link href="/what-is-ots" className="group block">
+                  <div className="group block">
                     <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Strategies</p>
                     <p className="text-sm font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">Understanding OTS Schemes</p>
-                  </Link>
+                  </div>
                   <Link href="/what-kind-of-loans-can-not-be-settled" className="group block">
                     <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Eligibility</p>
                     <p className="text-sm font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">Non-Settlable Loans</p>
                   </Link>
-                  <Link href="/best-apps-for-managing-loan-settlement-offers-in-India" className="group block">
+                  <div className="group block">
                     <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Technology</p>
                     <p className="text-sm font-semibold text-gray-800 group-hover:text-blue-600 transition-colors">Best Debt Apps 2026</p>
-                  </Link>
+                  </div>
                 </nav>
               </div>
 

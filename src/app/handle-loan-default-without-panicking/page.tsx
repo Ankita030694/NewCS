@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import HandleLoanDefaultClient from './HandleLoanDefaultClient';
 
 export const metadata: Metadata = {
-    title: "How to Handle Loan Default Without Panicking: A 2025 Step-by-Step Guide",
+    title: 'How to Handle Loan Default Without Panicking | CredSettle',
     description: "Are you facing a loan default? Learn how to handle loan default without panicking. Explore RBI guidelines, your legal rights, and actionable steps to resolve debt in 2025.",
     keywords: [
         "handle loan default without panicking",

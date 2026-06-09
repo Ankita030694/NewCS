@@ -869,10 +869,10 @@ export default function NegotiationGuideClient() {
                     <span className="block text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-1">Service</span>
                     <p className="text-base font-bold text-gray-800 group-hover:text-blue-600 transition-colors leading-snug">Loan Settlement Process</p>
                   </Link>
-                  <Link href="/what-is-ots" className="group block">
+                  <div className="group block">
                     <span className="block text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-1">Knowledge</span>
                     <p className="text-base font-bold text-gray-800 group-hover:text-blue-600 transition-colors leading-snug">OTS Schemes Guide</p>
-                  </Link>
+                  </div>
                   <Link href="/what-kind-of-loans-can-not-be-settled" className="group block">
                     <span className="block text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-1">Exclusions</span>
                     <p className="text-base font-bold text-gray-800 group-hover:text-blue-600 transition-colors leading-snug">Loans You Can’t Settle</p>

@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'How to Check Active Loan on Your Name in India | 2026 Step-by-Step Guide',
+  title: 'Check Active Loans on Your Name | CredSettle',
   description: 'Uncover all active loans linked to your PAN card in India. A comprehensive 2026 guide on CIBIL auditing, identifying identity theft, and resolving unauthorized loans using CredSettle and AMA Legal Solutions.',
   keywords: 'how-to-check-active-loan-on-your-name-in-india-stepbystep-guide, check loans on PAN card, CIBIL report free check, unauthorized loan on my name, identity theft credit protection india, credit bureau audit 2026, amalegalsolutions',
   alternates: {

@@ -7,7 +7,7 @@ import ProfessionalDocumentsClient from './ProfessionalDocumentsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Documents Required for Loan Settlement with Professional Service | CredSettle',
+  title: 'Documents Required for Loan Settlement | CredSettle',
   description: 'Learn exactly what documents are required for loan settlement with a professional service. Get a complete checklist of identity, loan, and financial hardship records needed for successful negotiation.',
   keywords: [
     'documents required for loan settlement',

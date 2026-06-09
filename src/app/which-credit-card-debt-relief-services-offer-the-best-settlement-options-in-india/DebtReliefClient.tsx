@@ -657,24 +657,9 @@ export default function DebtReliefClient() {
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
                 <ul className="space-y-4">
-                  <li>
-                    <Link href="/credit-card-settlement" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Credit Card Settlement</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/personal-loan-settlement" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Personal Loan Relief</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/anti-harassment" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Stop Agent Harassment</span>
-                    </Link>
-                  </li>
+                  
+                  
+                  
                   <li>
                     <Link href="/what-is-npa" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>

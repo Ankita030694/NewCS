@@ -7,7 +7,7 @@ import FreelancerSettlementClient from './FreelancerSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Debt Settlement Options for Freelancers & Self-Employed in India | CredSettle',
+  title: 'Debt Settlement for Freelancers in India | CredSettle',
   description: 'Struggling with debt as a freelancer or self-employed individual? Explore expert debt settlement options, RBI guidelines, and strategies to manage irregular income.',
   keywords: [
     'debt settlement for freelancers',

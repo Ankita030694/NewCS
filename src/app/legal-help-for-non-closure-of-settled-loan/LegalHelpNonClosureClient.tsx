@@ -583,7 +583,7 @@ export default function LegalHelpNonClosureClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2 text-[10px] uppercase tracking-[0.2em]">Post-Settlement Vault</h4>
                                 <nav className="space-y-3">
                                     <Link href="/post-loan-settlement-legal-help" className="block text-xs font-bold text-gray-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Post-Settlement Help</Link>
-                                    <Link href="/legal-help-for-loan-settlement" className="block text-xs font-bold text-gray-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Settlement Guide</Link>
+                                    <span className="block text-xs font-bold text-gray-400 uppercase tracking-widest">Settlement Guide</span>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-xs font-bold text-gray-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Pros & Cons</Link>
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-xs font-bold text-gray-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Default Notice Help</Link>
                                 </nav>

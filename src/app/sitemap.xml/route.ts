@@ -638,7 +638,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers`,
+    loc: `${baseUrl}/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today

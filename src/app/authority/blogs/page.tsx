@@ -1583,7 +1583,7 @@ const BlogsDashboard = () => {
 
                 <div className="flex flex-col sm:flex-row gap-3 mb-3">
                   <a
-                    href="/api/rss"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 hover:underline text-sm font-medium transition-colors"

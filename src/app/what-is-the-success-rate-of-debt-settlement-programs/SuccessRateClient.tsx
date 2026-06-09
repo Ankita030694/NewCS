@@ -556,9 +556,9 @@ export default function SuccessRateClient() {
                   <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="p-4 bg-gray-50 rounded-xl hover:bg-blue-50 transition-colors text-blue-800 font-medium border border-gray-100">
                     How Debt Settlement Works in India
                   </Link>
-                  <Link href="/does-settling-a-loan-impact-my-cibil-credit-score" className="p-4 bg-gray-50 rounded-xl hover:bg-blue-50 transition-colors text-blue-800 font-medium border border-gray-100">
+                  <span className="p-4 bg-gray-50 rounded-xl  transition-colors text-gray-400 font-medium border border-gray-100">
                     Impact of Settlement on CIBIL Score
-                  </Link>
+                  </span>
                   <Link href="/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy" className="p-4 bg-gray-50 rounded-xl hover:bg-blue-50 transition-colors text-blue-800 font-medium border border-gray-100">
                     Finding a Trustworthy Agency
                   </Link>

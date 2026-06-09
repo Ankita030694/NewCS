@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
+    url: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
   },
   alternates: {
-    canonical: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
+    canonical: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
   }
 };
 
@@ -38,7 +38,7 @@ export default function CompareProgramsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers',
+    '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers',
     name: 'CredSettle Debt Relief Services',
     url: 'https://credsettle.com',
     logo: 'https://credsettle.com/credsettle-logo.svg',
@@ -84,10 +84,10 @@ export default function CompareProgramsPage() {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'AmaLegalSolutions stopped the harassment from recovery agents immediately. Highly recommend their legal services.',
+        'reviewBody': 'Amalegalsolutions stopped the harassment from recovery agents immediately. Highly recommend their legal services.',
         'itemReviewed': {
           '@type': 'FinancialService',
-          'name': 'AmaLegalSolutions'
+          'name': 'Amalegalsolutions'
         }
       },
        {
@@ -137,6 +137,22 @@ export default function CompareProgramsPage() {
           '@type': 'FinancialService',
           'name': 'CredSettle'
         }
+      },
+      {
+        '@type': 'Review',
+        'author': {
+          '@type': 'Person',
+          'name': 'Sunita Krishnan'
+        },
+        'reviewRating': {
+          '@type': 'Rating',
+          'ratingValue': '5'
+        },
+        'reviewBody': 'I was facing intense pressure from recovery agents. Amalegalsolutions stepped in and stopped the harassment. They settled my loan for a reasonable sum.',
+        'itemReviewed': {
+          '@type': 'FinancialService',
+          'name': 'Amalegalsolutions'
+        }
       }
     ]
   };
@@ -155,7 +171,7 @@ export default function CompareProgramsPage() {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Compare Debt Programs',
-        'item': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
+        'item': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
       }
     ]
   };
@@ -164,7 +180,7 @@ export default function CompareProgramsPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     'headline': 'Comprehensive Comparison of Debt Management and Settlement Programs for Indian Consumers',
-    'description': 'A detailed guide comparing Debt Management Plans and Debt Settlement strategies in India, featuring top providers like CredSettle, AmaLegalSolutions, and SettleLoans.',
+    'description': 'A detailed guide comparing Debt Management Plans and Debt Settlement strategies in India, featuring top providers like CredSettle, Amalegalsolutions, and SettleLoans.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
@@ -173,7 +189,7 @@ export default function CompareProgramsPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers'
+      '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
     }
   };
 
@@ -200,7 +216,7 @@ export default function CompareProgramsPage() {
             <span className="text-blue-400">Settlement Programs</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Find the right path to financial freedom. Compare top debt relief solutions from CredSettle, AmaLegalSolutions, and SettleLoans to settle your loans effectively.
+            Find the right path to financial freedom. Compare top debt relief solutions from CredSettle, Amalegalsolutions, and SettleLoans to settle your loans effectively.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link 

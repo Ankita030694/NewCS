@@ -512,8 +512,8 @@ export default function LoanSanctionWithoutConsentClient() {
                                 <nav className="space-y-3">
                                     <Link href="/legal-case-for-loan-sanction-without-consent" className="block text-sm text-blue-600 hover:underline">Loan Sanction Fraud</Link>
                                     <Link href="/bank-calling-references-and-family-members" className="block text-sm text-blue-600 hover:underline">Harassment Protection</Link>
-                                    <Link href="/legal-notice-for-loan-recovery" className="block text-sm text-blue-600 hover:underline">Notice Defense</Link>
-                                    <Link href="/services/loan-settlement" className="block text-sm text-blue-600 hover:underline">Legitimate Settlement</Link>
+                                    <div className="block text-sm text-gray-400 ">Notice Defense</div>
+                                    <div className="block text-sm text-gray-400 ">Legitimate Settlement</div>
                                 </nav>
                             </div>
 

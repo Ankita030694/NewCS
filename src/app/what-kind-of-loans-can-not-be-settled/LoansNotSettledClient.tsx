@@ -820,9 +820,9 @@ export default function LoansNotSettledClient() {
                 <h4 className="font-bold text-gray-900 mb-3 text-sm">Related Guides</h4>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li>
-                    <Link href="/services/loan-settlement" className="hover:text-blue-600 transition-colors">
+                    <span>
                       Loan Settlement Services
-                    </Link>
+                    </span>
                   </li>
                   <li>
                     <Link href="/services/credit-card-settlement" className="hover:text-blue-600 transition-colors">

@@ -490,8 +490,8 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
                                 <nav className="space-y-3">
                                     <Link href="/legal-case-for-loan-sanction-without-consent" className="block text-sm text-blue-600 hover:underline">Unauthorized Sanctions</Link>
                                     <Link href="/bank-calling-references-and-family-members" className="block text-sm text-blue-600 hover:underline">Reference Harassment</Link>
-                                    <Link href="/best-lawyers-for-cibil-dispute-resolution" className="block text-sm text-blue-600 hover:underline">CIBIL Disputes</Link>
-                                    <Link href="/legal-notice-for-loan-recovery" className="block text-sm text-blue-600 hover:underline">Notice Defense</Link>
+                                    <div className="block text-sm text-gray-400 ">CIBIL Disputes</div>
+                                    <div className="block text-sm text-gray-400 ">Notice Defense</div>
                                 </nav>
                             </div>
 

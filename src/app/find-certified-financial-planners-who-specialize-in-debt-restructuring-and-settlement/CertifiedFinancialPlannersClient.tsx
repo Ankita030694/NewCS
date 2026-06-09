@@ -525,7 +525,7 @@ export default function CertifiedFinancialPlannersClient() {
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Resources</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/best-lawyer-for-loan-settlement" className="block text-sm text-blue-600 hover:underline">Best Settlement Lawyers</Link>
+                                    <div className="block text-sm text-gray-400 ">Best Settlement Lawyers</div>
                                     <Link href="/how-to-ask-bank-for-settlement" className="block text-sm text-blue-600 hover:underline">Negotiation Steps</Link>
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">Settlement Guide</Link>
                                     <Link href="/can-i-settle-loan-for-free" className="block text-sm text-blue-600 hover:underline">Pro-Bono Options</Link>

@@ -695,10 +695,10 @@ const DisputeForgedSignaturesClient = () => {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
                                 <nav className="space-y-3">
                                     <Link href="/legal-case-for-loan-sanction-without-consent" className="block text-sm text-blue-600 hover:underline">Loan Sanction Without Consent</Link>
-                                    <Link href="/digital-cyber-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">Cyber Loan Dispute Help</Link>
+                                    <div className="block text-sm text-gray-400 ">Cyber Loan Dispute Help</div>
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-sm text-blue-600 hover:underline">Recovery Notice Defense</Link>
-                                    <Link href="/how-to-prove-financial-hardship-for-loan-settlement" className="block text-sm text-blue-600 hover:underline">Hardship Proof Strategy</Link>
-                                    <Link href="/legal-help-for-loan-settlement-by-drt" className="block text-sm text-blue-600 hover:underline">DRT Case Defense</Link>
+                                    <div className="block text-sm text-gray-400 ">Hardship Proof Strategy</div>
+                                    <div className="block text-sm text-gray-400 ">DRT Case Defense</div>
                                 </nav>
                             </div>
 

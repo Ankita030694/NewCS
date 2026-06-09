@@ -526,12 +526,7 @@ export default function BajajHomeVisitClient() {
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Supplementary Legal Guides</h4>
                 <ul className="space-y-5">
-                  <li>
-                    <Link href="/how-to-handle-recovery-agent-harrasement" className="group flex items-start">
-                      <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 mr-3 group-hover:scale-150 transition-all"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors text-sm font-medium">Handle Aggressive Behavior</span>
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link href="/how-to-stop-recovery-agent-home-visit" className="group flex items-start">
                       <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 mr-3 group-hover:scale-150 transition-all"></div>

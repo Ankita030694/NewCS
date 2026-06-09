@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import SettleLoanWithoutLawyerClient from './SettleLoanWithoutLawyerClient';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle My Loan Without a Lawyer in India? | 2025 Guide | CredSettle',
+  title: 'Settle Loan Without a Lawyer in India | CredSettle',
   description: 'Can I settle my loan without a lawyer in India? Learn the DIY settlement process, RBI 2025 guidelines, and when legal help is mandatory. 5000+ word expert guide.',
   alternates: {
     canonical: 'https://www.credsettle.com/can-i-settle-my-loan-without-a-lawyer',

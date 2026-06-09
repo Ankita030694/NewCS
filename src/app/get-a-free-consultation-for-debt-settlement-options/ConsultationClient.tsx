@@ -474,24 +474,9 @@ export default function ConsultationClient() {
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Loan Settlement Guide</span>
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/credit-card-settlement" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Credit Card Relief</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/debt-settlement-process" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">How Settlement Works</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/legal-rights-against-harassment" className="group flex items-start">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
-                      <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Your Legal Rights</span>
-                    </Link>
-                  </li>
+                  
+                  
+                  
                 </ul>
               </div>
 

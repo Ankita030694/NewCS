@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WriteOffVsSettlementClient from './WriteOffVsSettlementClient';
 
 export const metadata: Metadata = {
-    title: 'Difference Between Loan Write-Off and Loan Settlement in India | 2025 Guide',
+    title: 'Loan Write-Off vs. Loan Settlement | CredSettle',
     description: 'Understand the critical differences between a loan write-off and a loan settlement. Learn about CIBIL impact, tax implications, and legal consequences of both debt resolution methods.',
     alternates: {
         canonical: 'https://www.credsettle.com/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement',

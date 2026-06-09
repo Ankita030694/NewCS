@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement for Borrowers Planning Financial Reset | 2026 Fresh Start Guide',
+  title: 'Loan Settlement for Financial Reset | CredSettle',
   description: 'Planning a total financial reset? Learn how loan settlement at CredSettle and legal auditing from AMA Legal Solutions can help you wipe the slate clean and restart with dignity.',
   keywords: 'loan-settlement-for-borrowers-planning-financial-reset, total debt reset india, fresh start after debt, settlement vs bankruptcy, insolvancy for individuals 2026, credsettle fresh start, amalegalsolutions',
   alternates: {

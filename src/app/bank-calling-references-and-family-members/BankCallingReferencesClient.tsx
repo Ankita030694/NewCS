@@ -714,18 +714,18 @@ export default function BankCallingReferencesClient() {
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                 <h4 className="font-bold text-lg text-gray-900 mb-4">Related Content</h4>
                 <nav className="space-y-3 text-sm">
-                  <Link href="/how-to-handle-recovery-agent-harrasement" className="block text-blue-600 hover:underline">
+                  <div className="block text-gray-400 ">
                     Handling Recovery Agents
-                  </Link>
+                  </div>
                   <Link href="/loan-settlement" className="block text-blue-600 hover:underline">
                     Loan Settlement Guide
                   </Link>
                   <Link href="/what-is-npa" className="block text-blue-600 hover:underline">
                     Understanding NPAs
                   </Link>
-                  <Link href="/ignoring-calls-of-recovery-agent" className="block text-blue-600 hover:underline">
+                  <div className="block text-gray-400 ">
                     Ignoring Agent Calls
-                  </Link>
+                  </div>
                 </nav>
               </div>
             </div>
