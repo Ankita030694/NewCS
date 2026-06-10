@@ -600,6 +600,7 @@ export default function CibilImpactClient() {
                                     <Link href="/how-does-loan-settlement-affect-your-financial-health-in-long-term" className="block text-sm text-blue-600 hover:underline">Long-Term Impact</Link>
                                     <Link href="/will-banks-blacklist-you-after-loan-settlement" className="block text-sm text-blue-600 hover:underline">Blacklisting Truth</Link>
                                     <Link href="/can-you-get-a-loan-again-after-settling-a-previous-loan" className="block text-sm text-blue-600 hover:underline">Get Fresh Credit</Link>
+                                    <Link href="/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose" className="block text-sm text-blue-600 hover:underline">Settlement vs Restructuring</Link>
                                 </nav>
                             </div>
                         </div>

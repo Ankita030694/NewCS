@@ -566,6 +566,7 @@ export default function LoanSettlementCompaniesClient() {
                                     <Link href="/compare-debt-settlement-fees-and-success-rate" className="block text-sm text-blue-600 hover:underline">Fee Comparison Guide</Link>
                                     <Link href="/how-to-avoid-debt-settlement-scams-in-india" className="block text-sm text-blue-600 hover:underline">Avoiding Scams</Link>
                                     <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Anti-Harassment Help</Link>
+                                    <Link href="/what-are-the-best-loan-settlement-services-in-india-for-high-value-debts" className="block text-sm text-blue-600 hover:underline">High-Value Settlement Services</Link>
                                 </nav>
                             </div>
 

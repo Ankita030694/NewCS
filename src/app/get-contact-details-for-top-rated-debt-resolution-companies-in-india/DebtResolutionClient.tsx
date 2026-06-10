@@ -525,6 +525,7 @@ export default function DebtResolutionClient() {
                     <li><Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="text-blue-600 hover:underline">CIBIL Score Impact</Link></li>
                     <li><Link href="/is-loan-settlement-a-good-option-for-borrowers" className="text-blue-600 hover:underline">Is Settlement a Good Option?</Link></li>
                     <li><Link href="/which-companies-offer-loan-settlement-services-in-india" className="text-blue-600 hover:underline">Loan Settlement Companies</Link></li>
+                    <li><Link href="/credsettle-vs-other-debt-settlement-companies-in-india-which-is-more-effective" className="text-blue-600 hover:underline">CredSettle vs Other Debt Settlement Companies</Link></li>
                 </ul>
             </div>
 

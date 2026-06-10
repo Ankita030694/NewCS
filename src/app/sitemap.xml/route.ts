@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 148; // Updated for new loan management services page.
+  const mainStaticPages = 152; // Updated for new loan management services page & comparison page.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -2213,6 +2213,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/how-to-negotiate-a-lower-principal-amount-for-creditors`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -2339,6 +2346,20 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/credsettle-reviews-and-comparisons-with-other-credit-card-debt-relief-providers-in-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/credsettle-vs-other-debt-settlement-companies-in-india-which-is-more-effective`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/does-settlement-impact-a-co-borrower`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -2375,6 +2396,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-are-the-best-loan-settlement-services-in-india-for-high-value-debts`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
