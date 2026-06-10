@@ -576,8 +576,8 @@ export default function LoanSettlementEligibilityCriteriaClient() {
                                     {[
                                         { href: "/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender", text: "How to Submit Your Offer" },
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Pros vs cons of Settlement" },
-                                        { href: "/debt-resolution-companies-contact-details", text: "Find Expert Help" },
-                                        { href: "/calculate-my-settlement-savings", text: "Savings Calculator" }
+                                        { href: "/get-contact-details-for-top-rated-debt-resolution-companies-in-india", text: "Find Expert Help" },
+                                        { href: "/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt", text: "Savings Calculator" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="block text-sm text-blue-600 hover:underline">
                                             {link.text}

@@ -525,7 +525,7 @@ export default function BestCompaniesClient() {
                     <span className="font-bold text-blue-900">How to Spot Legit Services</span>
                     <p className="text-sm text-blue-700">Protect yourself from scams with these verification tips.</p>
                   </Link>
-                  <Link href="/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers" className="p-4 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors border border-blue-200">
+                  <Link href="/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers" className="p-4 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors border border-blue-200">
                     <span className="font-bold text-blue-900">Comparing Debt Programs</span>
                     <p className="text-sm text-blue-700">Which debt relief option is right for your situation?</p>
                   </Link>

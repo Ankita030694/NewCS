@@ -662,7 +662,7 @@ export default function AffordableDebtSettlementClient() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers" className="group flex items-start">
+                    <Link href="/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors text-sm">Compare Debt Programs</span>
                     </Link>

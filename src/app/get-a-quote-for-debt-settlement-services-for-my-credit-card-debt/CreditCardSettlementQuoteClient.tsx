@@ -500,7 +500,7 @@ export default function CreditCardSettlementQuoteClient() {
                                     {[
                                         { href: "/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender", text: "Submit Your Offer" },
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Pros & Cons Guide" },
-                                        { href: "/debt-resolution-companies-contact-details", text: "Contact Industry Experts" },
+                                        { href: "/get-contact-details-for-top-rated-debt-resolution-companies-in-india", text: "Contact Industry Experts" },
                                         { href: "/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms", text: "Check Your Eligibility" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="block text-xs text-blue-600 hover:text-blue-800 transition-colors uppercase font-bold tracking-tight">
