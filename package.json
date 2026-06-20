@@ -43,6 +43,7 @@
     "openai": "^6.16.0",
     "react": "19.2.1",
     "react-dom": "19.2.1",
+    "sharp": "^0.35.2",
     "uuid": "^13.0.0"
   },
   "devDependencies": {

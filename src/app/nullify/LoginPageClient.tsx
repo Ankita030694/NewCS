@@ -6,6 +6,8 @@ import { useRouter } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faShieldHalved, faHandsHelping, faScaleBalanced, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import type { IconDefinition } from '@fortawesome/fontawesome-svg-core';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '@/lib/firebase';
 
 type StatusState =
   | { type: 'idle' }
@@ -26,25 +28,12 @@ export default function LoginPageClient() {
     setStatus({ type: 'loading' });
 
     try {
-      const response = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email,
-          password,
-        }),
-      });
+      const credential = await signInWithEmailAndPassword(auth, email, password);
+      const token = await credential.user.getIdToken();
+      const refreshToken = credential.user.refreshToken;
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data?.error || 'Unable to login. Please try again.');
-      }
-
-      localStorage.setItem('credsettle:sessionToken', data?.token || '');
-      localStorage.setItem('credsettle:refreshToken', data?.refreshToken || '');
+      localStorage.setItem('credsettle:sessionToken', token || '');
+      localStorage.setItem('credsettle:refreshToken', refreshToken || '');
 
       setStatus({
         type: 'success',

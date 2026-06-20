@@ -1,902 +1,29 @@
-'use client';
-
-import React, { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faUsers,
-  faChartLine,
-  faPlus,
-  faEdit,
-  faTrash,
-  faUpload,
-  faMagic,
-  faClipboardList,
-  faFileAlt,
-  faInfoCircle,
-  faCheckCircle,
-  faArrowLeft,
-  faTimes,
-  faChevronRight,
-  faChevronLeft,
-  faStar,
-  faSearch,
-} from '@fortawesome/free-solid-svg-icons';
-import {
-  collection,
-  getDocs,
-  addDoc,
-  updateDoc,
-  deleteDoc,
-  doc,
-  getDoc,
-} from 'firebase/firestore';
-import { ref, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
-import { signOut, onAuthStateChanged } from 'firebase/auth';
-import dynamic from 'next/dynamic';
-import { useRouter } from 'next/navigation';
-
-import { db, auth, storage } from '../../../lib/firebase';
-
-const BLOG_DRAFT_KEY = 'credsettle:blogDraft';
-
-const TiptapEditor = dynamic(() => import('./TiptapEditor'), {
-  ssr: false,
-  loading: () => <p>Loading Editor...</p>,
-});
-
-interface FAQ {
-  id?: string;
-  question: string;
-  answer: string;
-}
-
-interface Review {
-  id?: string;
-  name: string;
-  rating: number;
-  review: string; // "comment" in lib/blogs, but prompt uses "review", let’s map it
-  date?: string;
-}
-
-interface Blog {
-  id?: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  date: string;
-  image: string;
-  created: number;
-  metaTitle?: string;
-  metaDescription?: string;
-  slug: string;
-  faqs?: FAQ[];
-  reviews?: Review[];
-  author: string;
-}
-
-const BlogsDashboard = () => {
-  const [activeTab, setActiveTab] = useState('blogs');
-  const [blogs, setBlogs] = useState<Blog[]>([]);
-  const [showBlogForm, setShowBlogForm] = useState(false);
-  const [formMode, setFormMode] = useState<'add' | 'edit'>('add');
-  const [newBlog, setNewBlog] = useState<Blog>({
-    title: '',
-    subtitle: '',
-    description: '',
-    date: new Date().toISOString().split('T')[0],
-    image: '',
-    created: Date.now(),
-    metaTitle: '',
-    metaDescription: '',
-    slug: '',
-    faqs: [],
-    reviews: [],
-    author: 'CredSettle Team',
-  });
-  const [uploading, setUploading] = useState(false);
-  const [uploadProgress, setUploadProgress] = useState(0);
-  const [imagePreview, setImagePreview] = useState<string | null>(null);
-  const fileInputRef = useRef<HTMLInputElement>(null);
-  const router = useRouter();
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
-  const [searchQuery, setSearchQuery] = useState('');
-  const [rssDebugInfo, setRssDebugInfo] = useState('');
-
-  const [isLoadingRss, setIsLoadingRss] = useState(false);
-  const [blogContext, setBlogContext] = useState('');
-  const [isGenerating, setIsGenerating] = useState(false);
-  const [imagePrompt, setImagePrompt] = useState('');
-  const [isGeneratingImage, setIsGeneratingImage] = useState(false);
-  const [expansionPrompt, setExpansionPrompt] = useState('');
-  const [isExpanding, setIsExpanding] = useState(false);
-  const [isChecking, setIsChecking] = useState(true);
-  const [isAuthorized, setIsAuthorized] = useState(false);
-
-  // Draft Saving Logic
-  useEffect(() => {
-    if (showBlogForm && newBlog) {
-      // Only save if we have some meaningful content to save
-      const hasContent = 
-        newBlog.title || 
-        newBlog.subtitle || 
-        newBlog.description || 
-        (newBlog.faqs && newBlog.faqs.length > 0) ||
-        newBlog.image;
-
-      if (hasContent) {
-        localStorage.setItem(BLOG_DRAFT_KEY, JSON.stringify({
-          blog: newBlog,
-          mode: formMode,
-          timestamp: Date.now()
-        }));
-      }
-    }
-  }, [newBlog, showBlogForm, formMode]);
-
-  const filteredBlogs = blogs.filter((blog) => 
-    (blog.title && blog.title.toLowerCase().includes(searchQuery.toLowerCase())) ||
-    (blog.subtitle && blog.subtitle.toLowerCase().includes(searchQuery.toLowerCase())) ||
-    (blog.description && blog.description.toLowerCase().includes(searchQuery.toLowerCase()))
-  );
-
-  const totalPages = Math.ceil(filteredBlogs.length / itemsPerPage);
-  const currentBlogs = filteredBlogs.slice(
-    (currentPage - 1) * itemsPerPage,
-    currentPage * itemsPerPage,
-  );
-
-  useEffect(() => {
-    if (typeof window === 'undefined') {
-      return;
-    }
-
-    const hasSessionToken = !!localStorage.getItem('credsettle:sessionToken');
-    if (hasSessionToken) {
-      setIsAuthorized(true);
-      setIsChecking(false);
-      return;
-    }
-
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
-      if (user) {
-        setIsAuthorized(true);
-      } else {
-        router.replace('/nullify');
-      }
-      setIsChecking(false);
-    });
-
-    return () => {
-      unsubscribe();
-    };
-  }, [router]);
-
-  const handleLogout = async () => {
-    try {
-      await signOut(auth);
-      router.push('/nullify');
-    } catch (error) {
-      console.error('Error logging out:', error);
-    }
-  };
-
-  const handleNavigation = (itemId: string) => {
-    if (itemId === 'blogs') {
-      router.push('/authority/blogs');
-    } else if (itemId === 'articles') {
-      router.push('/authority/articles');
-    } else if (itemId === 'home') {
-      router.push('/authority/dashboard');
-    } else if (itemId === 'users') {
-      router.push('/authority/users');
-    } else if (itemId === 'amalive') {
-      router.push('/authority/amalive');
-    } else {
-      setActiveTab(itemId);
-    }
-  };
-
-  useEffect(() => {
-    const fetchBlogs = async () => {
-      try {
-        const querySnapshot = await getDocs(collection(db, 'blogs'));
-        const data = querySnapshot.docs.map((firestoreDoc) => {
-          const docData = firestoreDoc.data();
-          return {
-            id: firestoreDoc.id,
-            title: docData.title || '',
-            subtitle: docData.subtitle || '',
-            description: docData.description || '',
-            date: docData.date || '',
-            image: docData.image || '',
-            created: docData.created || Date.now(),
-            metaTitle: docData.metaTitle || '',
-            metaDescription: docData.metaDescription || '',
-            slug: docData.slug || '',
-            faqs: docData.faqs || [],
-            reviews: [], // Reviews are subcollection, not fetched here
-            author: docData.author || 'CredSettle Team',
-          };
-        });
-
-        const sortedData = data.sort((a, b) => {
-          const dateA = new Date(a.date).getTime();
-          const dateB = new Date(b.date).getTime();
-          return dateB - dateA;
-        });
-
-        setBlogs(sortedData);
-      } catch (error) {
-        console.error('Error fetching blogs data:', error);
-      }
-    };
-
-    fetchBlogs();
-  }, []);
-
-  const generateSlug = (title: string) => {
-    return title
-      .toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/--+/g, '-')
-      .trim();
-  };
-
-  const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
-  ) => {
-    const { name, value } = e.target;
-    setNewBlog((prevState) => {
-      if (
-        name === 'title' &&
-        (!prevState.slug || prevState.slug === generateSlug(prevState.title))
-      ) {
-        return {
-          ...prevState,
-          [name]: value,
-          slug: generateSlug(value),
-        };
-      }
-
-      return {
-        ...prevState,
-        [name]: value,
-      };
-    });
-  };
-
-  const handleEditorChange = (content: string) => {
-    setNewBlog((prevState) => ({
-      ...prevState,
-      description: content,
-    }));
-  };
-
-  const addFaq = () => {
-    setNewBlog((prevState) => ({
-      ...prevState,
-      faqs: [...(prevState.faqs || []), { question: '', answer: '' }],
-    }));
-  };
-
-  const removeFaq = (index: number) => {
-    setNewBlog((prevState) => ({
-      ...prevState,
-      faqs: (prevState.faqs || []).filter((_, i) => i !== index),
-    }));
-  };
-
-  const handleFaqChange = (
-    index: number,
-    field: 'question' | 'answer',
-    value: string,
-  ) => {
-    setNewBlog((prevState) => {
-      const updatedFaqs = [...(prevState.faqs || [])];
-      updatedFaqs[index] = {
-        ...updatedFaqs[index],
-        [field]: value,
-      };
-      return {
-        ...prevState,
-        faqs: updatedFaqs,
-      };
-    });
-  };
-
-  const addReview = () => {
-    setNewBlog((prevState) => ({
-      ...prevState,
-      reviews: [...(prevState.reviews || []), { name: '', rating: 5, review: '' }],
-    }));
-  };
-
-  const removeReview = (index: number) => {
-    setNewBlog((prevState) => ({
-      ...prevState,
-      reviews: (prevState.reviews || []).filter((_, i) => i !== index),
-    }));
-  };
-
-  const handleReviewChange = (
-    index: number,
-    field: 'name' | 'rating' | 'review',
-    value: string | number,
-  ) => {
-    setNewBlog((prevState) => {
-      const updatedReviews = [...(prevState.reviews || [])];
-      updatedReviews[index] = {
-        ...updatedReviews[index],
-        [field]: value,
-      };
-      return {
-        ...prevState,
-        reviews: updatedReviews,
-      };
-    });
-  };
-
-  const compressImage = (file: File): Promise<File> => {
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.readAsDataURL(file);
-      reader.onload = (event) => {
-        const img = new Image();
-        img.src = event.target?.result as string;
-
-        img.onload = () => {
-          const canvas = document.createElement('canvas');
-          let width = img.width;
-          let height = img.height;
-          const MAX_WIDTH = 1200;
-          const MAX_HEIGHT = 1200;
-
-          if (width > height) {
-            if (width > MAX_WIDTH) {
-              height = Math.round(height * (MAX_WIDTH / width));
-              width = MAX_WIDTH;
-            }
-          } else if (height > MAX_HEIGHT) {
-            width = Math.round(width * (MAX_HEIGHT / height));
-            height = MAX_HEIGHT;
-          }
-
-          canvas.width = width;
-          canvas.height = height;
-
-          const ctx = canvas.getContext('2d');
-          ctx?.drawImage(img, 0, 0, width, height);
-
-          canvas.toBlob(
-            (blob) => {
-              if (!blob) {
-                reject(new Error('Canvas to Blob conversion failed'));
-                return;
-              }
-
-              const compressedFile = new File([blob], file.name, {
-                type: 'image/jpeg',
-                lastModified: Date.now(),
-              });
-
-              resolve(compressedFile);
-            },
-            'image/jpeg',
-            0.7,
-          );
-        };
-
-        img.onerror = () => {
-          reject(new Error('Error loading image for compression'));
-        };
-      };
-
-      reader.onerror = () => {
-        reject(new Error('Error reading file for compression'));
-      };
-    });
-  };
-
-  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-
-    const MAX_FILE_SIZE = 10 * 1024 * 1024;
-    if (file.size > MAX_FILE_SIZE) {
-      alert('Image is too large. Maximum size is 10MB.');
-      return;
-    }
-
-    try {
-      setUploading(true);
-      setUploadProgress(0);
-
-      const storageRef = ref(storage, `blog-images/${Date.now()}_${file.name}`);
-
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        setImagePreview(event.target?.result as string);
-      };
-      reader.readAsDataURL(file);
-
-      let fileToUpload = file;
-      if (file.type.startsWith('image/')) {
-        fileToUpload = await compressImage(file);
-      }
-
-      const maxRetries = 3;
-      let retryCount = 0;
-      let uploadSuccessful = false;
-
-      while (retryCount < maxRetries && !uploadSuccessful) {
-        try {
-          const snapshot = await uploadBytes(storageRef, fileToUpload);
-          const downloadURL = await getDownloadURL(snapshot.ref);
-          setNewBlog((prevState) => ({
-            ...prevState,
-            image: downloadURL,
-          }));
-          uploadSuccessful = true;
-          setUploadProgress(100);
-        } catch (err) {
-          console.error(`Upload attempt ${retryCount + 1} failed:`, err);
-          retryCount += 1;
-
-          if (retryCount >= maxRetries) {
-            throw new Error(
-              `Failed after ${maxRetries} attempts: ${
-                err instanceof Error ? err.message : String(err)
-              }`,
-            );
-          }
-
-          await new Promise((resolve) =>
-            setTimeout(resolve, 1000 * Math.pow(2, retryCount)),
-          );
-        }
-      }
-    } catch (error) {
-      console.error('Error uploading image:', error);
-      alert(
-        `Failed to upload image: ${
-          error instanceof Error
-            ? error.message
-            : 'Please check your internet connection and try again.'
-        }`,
-      );
-    } finally {
-      setUploading(false);
-    }
-  };
-
-
-  const clearDraft = () => {
-    localStorage.removeItem(BLOG_DRAFT_KEY);
-  };
-
-  const handleSubmitBlog = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      const blogWithMetadata = {
-        ...newBlog,
-        created: formMode === 'add' ? Date.now() : newBlog.created,
-        date: new Date(newBlog.date).toISOString().split('T')[0],
-      };
-
-      const { faqs, reviews, ...blogData } = blogWithMetadata;
-      let blogId = newBlog.id;
-
-      if (formMode === 'add') {
-        const docRef = await addDoc(collection(db, 'blogs'), blogData);
-        blogId = docRef.id;
-      } else if (blogId) {
-        const blogRef = doc(db, 'blogs', blogId);
-        await updateDoc(blogRef, blogData);
-      }
-
-      if (blogId && faqs && faqs.length > 0) {
-        if (formMode === 'edit') {
-          const faqsSnapshot = await getDocs(collection(db, 'blogs', blogId, 'faqs'));
-          for (const faqDoc of faqsSnapshot.docs) {
-            await deleteDoc(faqDoc.ref);
-          }
-        }
-
-        for (const faq of faqs) {
-          await addDoc(collection(db, 'blogs', blogId, 'faqs'), {
-            question: faq.question,
-            answer: faq.answer,
-          });
-        }
-      }
-
-      // Handle Reviews Logic
-      if (blogId && reviews) {
-        const reviewsCollectionRef = collection(db, 'blogs', blogId, 'reviews');
-        
-        // Delete existing reviews first (simplest sync strategy)
-        const reviewsSnapshot = await getDocs(reviewsCollectionRef);
-        for (const reviewDoc of reviewsSnapshot.docs) {
-           await deleteDoc(reviewDoc.ref);
-        }
-
-        // Add current reviews
-        for (const review of reviews) {
-            await addDoc(reviewsCollectionRef, {
-                author: review.name, 
-                rating: Number(review.rating),
-                comment: review.review, 
-                date: review.date ? new Date(review.date).toISOString() : new Date().toISOString()
-            });
-        }
-      }
-
-      resetForm();
-      clearDraft(); // Clear draft on successful submit
-
-      const querySnapshot = await getDocs(collection(db, 'blogs'));
-      const updatedBlogs = querySnapshot.docs.map((firestoreDoc) => {
-        const docData = firestoreDoc.data();
-        return {
-          id: firestoreDoc.id,
-          title: docData.title || '',
-          subtitle: docData.subtitle || '',
-          description: docData.description || '',
-          date: docData.date || '',
-          image: docData.image || '',
-          created: docData.created || Date.now(),
-          metaTitle: docData.metaTitle || '',
-          metaDescription: docData.metaDescription || '',
-          slug: docData.slug || '',
-          faqs: [],
-          reviews: [],
-          author: docData.author || 'CredSettle Team',
-        };
-      });
-      const sortedUpdatedBlogs = updatedBlogs.sort((a, b) => {
-        const dateA = new Date(a.date).getTime();
-        const dateB = new Date(b.date).getTime();
-        return dateB - dateA;
-      });
-
-      setBlogs(sortedUpdatedBlogs);
-    } catch (error: any) {
-      console.error('Error processing blog:', error);
-      alert(`Failed to save blog: ${error.message || String(error)}`);
-    }
-  };
-
-  const handleEdit = async (blog: Blog) => {
-    try {
-      if (!blog.id) {
-        return;
-      }
-
-      const faqsSnapshot = await getDocs(collection(db, 'blogs', blog.id, 'faqs'));
-      const faqs = faqsSnapshot.docs.map((faqDoc) => ({
-        id: faqDoc.id,
-        question: faqDoc.data().question || '',
-        answer: faqDoc.data().answer || '',
-      }));
-
-      // Fetch Reviews
-      const reviewsSnapshot = await getDocs(collection(db, 'blogs', blog.id, 'reviews'));
-      const reviews = reviewsSnapshot.docs.map((reviewDoc) => {
-         const data = reviewDoc.data();
-         return {
-             id: reviewDoc.id,
-             name: data.author || '',
-             rating: data.rating || 5,
-             review: data.comment || '',
-             date: data.date ? (data.date.toDate ? data.date.toDate().toISOString() : new Date(data.date).toISOString()) : undefined
-         };
-      });
-
-      setNewBlog({ ...blog, faqs, reviews });
-      setFormMode('edit');
-      setShowBlogForm(true);
-    } catch (error) {
-      console.error('Error fetching FAQs:', error);
-      setNewBlog(blog);
-      setFormMode('edit');
-      setShowBlogForm(true);
-    }
-  };
-
-  const handleDelete = async (id: string | undefined) => {
-    if (!id) return;
-
-    if (window.confirm('Are you sure you want to delete this blog?')) {
-      try {
-        const blogDoc = await getDoc(doc(db, 'blogs', id));
-        const blogData = blogDoc.data();
-
-        if (blogData) {
-          const content = blogData.description || '';
-          const imgRegex = /<img[^>]+src="([^">]+)"/g;
-          const imageUrls = new Set<string>();
-          let match;
-
-          while ((match = imgRegex.exec(content)) !== null) {
-            imageUrls.add(match[1]);
-          }
-
-          const imagesSnapshot = await getDocs(collection(db, 'blog_images'));
-          const unusedImages = imagesSnapshot.docs.filter((imageDoc) => {
-            const imageData = imageDoc.data();
-            return imageUrls.has(imageData.url);
-          });
-
-          for (const imageDoc of unusedImages) {
-            const imageData = imageDoc.data();
-            try {
-              const imageRef = ref(storage, imageData.path);
-              await deleteObject(imageRef);
-              await deleteDoc(imageDoc.ref);
-            } catch (err) {
-              console.error(`Error deleting image ${imageData.filename}:`, err);
-            }
-          }
-        }
-
-        await deleteDoc(doc(db, 'blogs', id));
-
-        setBlogs((prevBlogs) => prevBlogs.filter((blog) => blog.id !== id));
-      } catch (error) {
-        console.error('Error deleting blog:', error);
-      }
-    }
-  };
-
-  const resetForm = () => {
-    setNewBlog({
-      title: '',
-      subtitle: '',
-      description: '',
-      date: new Date().toISOString().split('T')[0],
-      image: '',
-      created: Date.now(),
-      metaTitle: '',
-      metaDescription: '',
-      slug: '',
-      faqs: [],
-      reviews: [],
-      author: 'CredSettle Team',
-    });
-    setFormMode('add');
-    setShowBlogForm(false);
-  };
-
-  const handleCancelForm = () => {
-    if (window.confirm('Are you sure you want to cancel? Any unsaved changes will be lost.')) {
-      resetForm();
-      clearDraft(); // Clear draft on cancel
-    }
-  };
-
-  const handleNextPage = () => {
-    if (currentPage < totalPages) {
-      setCurrentPage((prevPage) => prevPage + 1);
-    }
-  };
-
-  const handlePreviousPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage((prevPage) => prevPage - 1);
-    }
-  };
-
-  const handleGenerate = async () => {
-    if (!blogContext) {
-      alert('Please enter the blog context');
-      return;
-    }
-
-    try {
-      setIsGenerating(true);
-      const response = await fetch('/api/generate-blog', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          context: blogContext,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`Error: ${response.status}`);
-      }
-
-      const reader = response.body?.getReader();
-      const decoder = new TextDecoder();
-      let result = '';
-
-      if (reader) {
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          result += decoder.decode(value, { stream: true });
-        }
-      }
-
-      // Parse JSON
-      const generatedData = JSON.parse(result);
-
-      // Update state
-      setNewBlog((prev) => ({
-        ...prev,
-        title: generatedData.title || prev.title,
-        subtitle: generatedData.subtitle || prev.subtitle,
-        description: generatedData.description || prev.description,
-        metaTitle: generatedData.metaTitle || prev.metaTitle,
-        metaDescription: generatedData.metaDescription || prev.metaDescription,
-        slug: generatedData.slug || prev.slug,
-        faqs: generatedData.faqs || prev.faqs,
-        reviews: generatedData.reviews || prev.reviews,
-      }));
-
-      if (generatedData.suggestedImagePrompt) {
-        setImagePrompt(generatedData.suggestedImagePrompt);
-      }
-
-      // Optionally handle reviews if your schema supports it
-      // if (generatedData.reviews) { ... }
-
-      alert('Blog generated successfully!');
-    } catch (error) {
-      console.error('Generation failed:', error);
-      alert('Failed to generate blog. Please try again.');
-    } finally {
-      setIsGenerating(false);
-    }
-  };
-
-  const handleGenerateImage = async () => {
-    if (!imagePrompt) {
-      alert('Please enter an image prompt');
-      return;
-    }
-
-    try {
-      setIsGeneratingImage(true);
-      const response = await fetch('/api/generate-image', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ prompt: imagePrompt }),
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to generate image');
-      }
-
-      const data = await response.json();
-      setNewBlog((prev) => ({
-        ...prev,
-        image: data.url,
-      }));
-      setImagePreview(data.url);
-      alert('AI image generated and uploaded successfully!');
-    } catch (error) {
-      console.error('Image generation failed:', error);
-      alert('Failed to generate image. Please try again.');
-    } finally {
-      setIsGeneratingImage(false);
-    }
-  };
-
-  const handleExpandContent = async () => {
-    if (!newBlog.description) {
-      alert('Please enter some initial content to expand.');
-      return;
-    }
-
-    try {
-      setIsExpanding(true);
-      const response = await fetch('/api/expand-content', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          currentContent: newBlog.description,
-          expansionPrompt: expansionPrompt,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to expand content');
-      }
-
-      const reader = response.body?.getReader();
-      const decoder = new TextDecoder();
-      let result = '';
-
-      if (reader) {
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          result += decoder.decode(value, { stream: true });
-        }
-      }
-
-      setNewBlog((prev) => ({
-        ...prev,
-        description: result,
-      }));
-      alert('Content expanded successfully to 5000+ words!');
-    } catch (error) {
-      console.error('Content expansion failed:', error);
-      alert('Failed to expand content. Please try again.');
-    } finally {
-      setIsExpanding(false);
-    }
-  };
-
-  const testRssFeed = async () => {
-    try {
-      setIsLoadingRss(true);
-
-      const response = await fetch('/api/rss');
-
-      if (!response.ok) {
-        throw new Error(`RSS feed returned status: ${response.status}`);
-      }
-
-      const xml = await response.text();
-
-      const isValidXml =
-        xml.includes('<?xml version="1.0"') &&
-        xml.includes('<rss version="2.0"') &&
-        xml.includes('</rss>');
-
-      const itemCount = (xml.match(/<item>/g) || []).length;
-      const hasEmptyTitles = xml.includes('<title></title>');
-      const hasEmptyLinks = xml.includes('<link></link>');
-      const hasMalformedDates = xml.includes('<pubDate>Invalid Date</pubDate>');
-
-      setRssDebugInfo(
-        `RSS Feed Status: ${response.status === 200 ? '✅ OK' : '❌ Error'}\n` +
-          `Valid XML Structure: ${isValidXml ? '✅ Yes' : '❌ No'}\n` +
-          `Items in Feed: ${itemCount}\n` +
-          `Empty Titles: ${hasEmptyTitles ? '❌ Yes' : '✅ No'}\n` +
-          `Empty Links: ${hasEmptyLinks ? '❌ Yes' : '✅ No'}\n` +
-          `Malformed Dates: ${hasMalformedDates ? '❌ Yes' : '✅ No'}\n\n` +
-          `Sample XML (first 500 chars):\n${xml.substring(0, 500)}...`,
-      );
-    } catch (error) {
-      console.error('Error testing RSS feed:', error);
-      setRssDebugInfo(
-        `Error testing RSS feed: ${
-          error instanceof Error ? error.message : String(error)
-        }`,
-      );
-    } finally {
-      setIsLoadingRss(false);
-    }
-  };
-
-  if (isChecking) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
-        <div className="text-center">
-          <div className="animate-spin inline-block w-8 h-8 border-4 border-gray-900 border-t-transparent rounded-full mb-4"></div>
-          <p className="text-gray-600 font-medium">Checking your access...</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (!isAuthorized) {
-    return null;
-  }
-
- 
+import re
+
+file_path = "/Users/amalegalsolutions/Desktop/AMAWORK/credsettlefigma/credsettle/src/app/authority/blogs/page.tsx"
+
+with open(file_path, "r") as f:
+    content = f.read()
+
+# Update imports
+imports_to_add = [
+    "faSearch", "faStar", "faChevronLeft", "faChevronRight", 
+    "faTimes", "faArrowLeft", "faCheckCircle", "faInfoCircle", 
+    "faFileAlt", "faClipboardList"
+]
+for imp in imports_to_add:
+    if imp not in content:
+        content = content.replace("faMagic,", f"faMagic,\n  {imp},")
+
+# Extract the logic before return
+return_match = re.search(r"^\s*if \(!isAuthorized\) \{\s*return null;\s*\}\s*return \(", content, re.MULTILINE)
+if not return_match:
+    print("Could not find return statement!")
+    exit(1)
+
+logic_part = content[:return_match.end() - 9] # -9 to remove "return ("
+
+new_return = """
   return (
     <div className="p-6 max-w-7xl mx-auto bg-slate-50 min-h-screen text-slate-800 font-sans">
       <AnimatePresence mode="wait">
@@ -912,7 +39,7 @@ const BlogsDashboard = () => {
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-slate-200 pb-5 bg-white p-6 rounded-2xl shadow-sm">
               <div>
                 <h1 className="text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-                  <span className="text-[#007AFF]">📝</span>
+                  <span className="text-[#B8860B]">📝</span>
                   <span>Curated Blog Dashboard</span>
                 </h1>
                 <p className="text-slate-400 text-xs mt-1 font-semibold">
@@ -941,7 +68,7 @@ const BlogsDashboard = () => {
                     setFormMode('add');
                     setShowBlogForm(true);
                   }}
-                  className="bg-[#007AFF] hover:bg-[#005FCC] text-white px-5 py-3 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer shadow-sm"
+                  className="bg-[#B8860B] hover:bg-[#9E7307] text-white px-5 py-3 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer shadow-sm"
                 >
                   <FontAwesomeIcon icon={faPlus} />
                   <span>Write Blog Post</span>
@@ -960,7 +87,7 @@ const BlogsDashboard = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
                 <span className="text-slate-400 text-[10px] font-bold uppercase tracking-wider">Total Published Blogs</span>
-                <p className="text-3xl font-black text-[#007AFF] mt-1">{blogs.length}</p>
+                <p className="text-3xl font-black text-[#B8860B] mt-1">{blogs.length}</p>
               </div>
               <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
                 <span className="text-slate-400 text-[10px] font-bold uppercase tracking-wider">TOC & SEO Enriched</span>
@@ -1006,6 +133,7 @@ const BlogsDashboard = () => {
                         <th className="p-4 text-xs font-bold text-slate-400 uppercase">Banner</th>
                         <th className="p-4 text-xs font-bold text-slate-400 uppercase">Title & Details</th>
                         <th className="p-4 text-xs font-bold text-slate-400 uppercase">Slug / Link</th>
+                        <th className="p-4 text-xs font-bold text-slate-400 uppercase">Q&A / Reviews</th>
                         <th className="p-4 text-xs font-bold text-slate-400 uppercase text-right">Actions</th>
                       </tr>
                     </thead>
@@ -1024,7 +152,7 @@ const BlogsDashboard = () => {
                             )}
                           </td>
                           <td className="p-4 max-w-xs">
-                            <span className="font-extrabold text-slate-900 text-xs sm:text-sm line-clamp-1 hover:text-[#007AFF] transition-colors">
+                            <span className="font-extrabold text-slate-900 text-xs sm:text-sm line-clamp-1 hover:text-[#B8860B] transition-colors">
                               {blog.title}
                             </span>
                             <div className="flex gap-2 items-center text-[10px] text-slate-400 font-semibold mt-1">
@@ -1038,11 +166,21 @@ const BlogsDashboard = () => {
                               {blog.slug}
                             </span>
                           </td>
+                          <td className="p-4">
+                            <div className="flex gap-2 items-center">
+                              <span className="px-2 py-0.5 bg-blue-50 border border-blue-200/50 rounded-md text-[10px] font-extrabold text-blue-700">
+                                {blog.faqs?.length || 0} FAQs
+                              </span>
+                              <span className="px-2 py-0.5 bg-amber-50 border border-amber-200/50 rounded-md text-[10px] font-extrabold text-[#B8860B]">
+                                {blog.reviews?.length || 0} Reviews
+                              </span>
+                            </div>
+                          </td>
                           <td className="p-4 text-right">
                             <div className="flex items-center justify-end gap-2">
                               <button
                                 onClick={() => handleEdit(blog)}
-                                className="w-8 h-8 rounded-lg hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-500 hover:text-[#007AFF] transition-colors cursor-pointer"
+                                className="w-8 h-8 rounded-lg hover:bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-500 hover:text-[#B8860B] transition-colors cursor-pointer"
                                 title="Edit post"
                               >
                                 <FontAwesomeIcon icon={faEdit} className="text-xs" />
@@ -1164,43 +302,56 @@ const BlogsDashboard = () => {
             </div>
 
             {/* AI Writeup Generator Card */}
-            <div className="p-6 border border-blue-200/80 bg-gradient-to-br from-blue-50/40 to-orange-50/10 rounded-2xl shadow-sm relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-blue-200/10 to-transparent rounded-bl-full pointer-events-none"></div>
+            <div className="p-6 border border-amber-200/80 bg-gradient-to-br from-amber-50/40 to-orange-50/10 rounded-2xl shadow-sm relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-amber-200/10 to-transparent rounded-bl-full pointer-events-none"></div>
               
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2">
-                  <span className="flex items-center justify-center w-7 h-7 rounded-lg bg-blue-100 text-[#007AFF] text-xs font-bold animate-pulse">✨</span>
+                  <span className="flex items-center justify-center w-7 h-7 rounded-lg bg-amber-100 text-[#B8860B] text-xs font-bold animate-pulse">✨</span>
                   <div>
                     <h3 className="text-slate-800 text-sm font-bold uppercase tracking-wider">
                       AI Writeup Auto-Generator (ChatGPT)
                     </h3>
                     <p className="text-slate-500 text-[11px] mt-0.5 leading-relaxed normal-case">
-                      Enter blog context or keywords below. ChatGPT will automatically draft the title, subtitle, slug, 3,000+ words detailed rich blog post, 10+ FAQ schemas, and 5+ client reviews.
+                      Enter keywords below. ChatGPT will automatically draft the title, subtitle, slug, 3,000+ words detailed rich blog post, 10+ FAQ schemas, and 5+ client reviews.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="flex flex-col gap-1.5">
-                <label className="text-xs font-extrabold uppercase text-slate-500 tracking-wider">Blog Context / Writeup</label>
-                <textarea
-                  value={blogContext}
-                  onChange={(e) => setBlogContext(e.target.value)}
-                  placeholder="e.g. 'Write a detailed guide on how to get freed from a personal loan, explaining the settlement process, RBI guidelines, and how CredSettle helps...'"
-                  rows={4}
-                  className="p-3 bg-white border border-slate-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-50 rounded-xl text-xs text-slate-800 focus:outline-none shadow-sm transition-all resize-y"
-                  disabled={isGenerating}
-                />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="flex flex-col gap-1.5">
+                  <label className="text-xs font-extrabold uppercase text-slate-500 tracking-wider">Primary Keyword</label>
+                  <input
+                    type="text"
+                    value={primaryKeyword}
+                    onChange={(e) => setPrimaryKeyword(e.target.value)}
+                    placeholder="e.g. 'Get freed from loan'"
+                    className="p-3 bg-white border border-slate-200 focus:border-amber-400 focus:ring-2 focus:ring-amber-50 rounded-xl text-xs text-slate-800 focus:outline-none shadow-sm transition-all"
+                    disabled={isGenerating}
+                  />
+                </div>
+                <div className="flex flex-col gap-1.5">
+                  <label className="text-xs font-extrabold uppercase text-slate-500 tracking-wider">Secondary Keyword (Optional)</label>
+                  <input
+                    type="text"
+                    value={secondaryKeyword}
+                    onChange={(e) => setSecondaryKeyword(e.target.value)}
+                    placeholder="e.g. 'loan settlement process'"
+                    className="p-3 bg-white border border-slate-200 focus:border-amber-400 focus:ring-2 focus:ring-amber-50 rounded-xl text-xs text-slate-800 focus:outline-none shadow-sm transition-all"
+                    disabled={isGenerating}
+                  />
+                </div>
               </div>
 
               <div className="flex items-center justify-end mt-4">
                 <motion.button
                   type="button"
                   onClick={handleGenerate}
-                  disabled={isGenerating || !blogContext}
+                  disabled={isGenerating || !primaryKeyword}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="px-5 py-2.5 bg-gradient-to-r from-blue-500 to-[#007AFF] hover:from-blue-600 hover:to-[#005FCC] text-white disabled:opacity-40 rounded-xl font-bold text-xs shadow-sm hover:shadow transition-all cursor-pointer flex items-center gap-1.5"
+                  className="px-5 py-2.5 bg-gradient-to-r from-amber-500 to-[#B8860B] hover:from-amber-600 hover:to-[#9E7307] text-white disabled:opacity-40 rounded-xl font-bold text-xs shadow-sm hover:shadow transition-all cursor-pointer flex items-center gap-1.5"
                 >
                   {isGenerating ? (
                     <>
@@ -1224,10 +375,11 @@ const BlogsDashboard = () => {
                 <input
                   type="text"
                   name="title"
+                  required
                   value={newBlog.title}
                   onChange={handleInputChange}
                   placeholder="e.g. Defeating Bank Harassment & Debt Settlement"
-                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#007AFF] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
+                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#B8860B] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
                 />
               </div>
 
@@ -1237,10 +389,11 @@ const BlogsDashboard = () => {
                 <input
                   type="text"
                   name="subtitle"
+                  required
                   value={newBlog.subtitle}
                   onChange={handleInputChange}
                   placeholder="e.g. A comprehensive guide on debtor legal rights and RBI OTS principles"
-                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#007AFF] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
+                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#B8860B] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
                 />
               </div>
 
@@ -1253,10 +406,11 @@ const BlogsDashboard = () => {
                 <input
                   type="text"
                   name="slug"
+                  required
                   value={newBlog.slug}
                   onChange={handleInputChange}
                   placeholder="e.g. defeating-bank-harassment"
-                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#007AFF] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white font-mono"
+                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#B8860B] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white font-mono"
                 />
               </div>
 
@@ -1266,9 +420,10 @@ const BlogsDashboard = () => {
                 <input
                   type="date"
                   name="date"
+                  required
                   value={newBlog.date}
                   onChange={handleInputChange}
-                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#007AFF] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
+                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#B8860B] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
                 />
               </div>
 
@@ -1279,7 +434,8 @@ const BlogsDashboard = () => {
                   name="author"
                   value={newBlog.author}
                   onChange={handleInputChange}
-                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#007AFF] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
+                  required
+                  className="p-3.5 border border-slate-200 rounded-xl focus:border-[#B8860B] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white"
                 >
                   <option value="CredSettle Team">CredSettle Team</option>
                   <option value="Anuj Anand Malik">Anuj Anand Malik</option>
@@ -1296,7 +452,7 @@ const BlogsDashboard = () => {
                     readOnly
                     value={newBlog.image}
                     placeholder="Upload or generate an image"
-                    className="p-3.5 border border-slate-200 rounded-xl focus:border-[#007AFF] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-slate-50 flex-1"
+                    className="p-3.5 border border-slate-200 rounded-xl focus:border-[#B8860B] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-slate-50 flex-1"
                   />
                   <input
                     type="file"
@@ -1319,7 +475,7 @@ const BlogsDashboard = () => {
                       type="button"
                       onClick={handleGenerateImage}
                       disabled={isGeneratingImage || !imagePrompt}
-                      className="px-4 py-3 bg-blue-50 hover:bg-blue-100 border border-[#007AFF]/35 text-[#007AFF] rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50 whitespace-nowrap"
+                      className="px-4 py-3 bg-amber-50 hover:bg-amber-100 border border-[#D4AF37]/35 text-[#B8860B] rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50 whitespace-nowrap"
                       title="Generate cover image with AI"
                     >
                       <span>{isGeneratingImage ? '💫 Generating...' : '✨ Generate AI'}</span>
@@ -1339,7 +495,7 @@ const BlogsDashboard = () => {
                 {uploading && (
                   <div className="w-full bg-slate-100 rounded-full h-1.5 overflow-hidden mt-2">
                     <div
-                      className="bg-[#007AFF] h-1.5 rounded-full transition-all duration-300"
+                      className="bg-[#B8860B] h-1.5 rounded-full transition-all duration-300"
                       style={{ width: `${uploadProgress}%` }}
                     ></div>
                   </div>
@@ -1374,9 +530,9 @@ const BlogsDashboard = () => {
             </div>
 
             {/* AI Content Expander */}
-            <div className="p-5 border border-indigo-200/80 bg-indigo-50/50 rounded-2xl shadow-sm flex flex-col gap-4">
-              <h3 className="text-xs font-black text-indigo-900 uppercase tracking-widest flex items-center gap-1.5">
-                <FontAwesomeIcon icon={faMagic} className="text-indigo-700" />
+            <div className="p-5 border border-emerald-200/80 bg-emerald-50/50 rounded-2xl shadow-sm flex flex-col gap-4">
+              <h3 className="text-xs font-black text-emerald-900 uppercase tracking-widest flex items-center gap-1.5">
+                <FontAwesomeIcon icon={faMagic} className="text-emerald-700" />
                 <span>AI Content Expander (5000+ Words)</span>
               </h3>
               <div className="flex flex-col sm:flex-row gap-3">
@@ -1385,14 +541,14 @@ const BlogsDashboard = () => {
                   value={expansionPrompt}
                   onChange={(e) => setExpansionPrompt(e.target.value)}
                   placeholder="What specific sections or details should be expanded? (e.g. 'Add more details about RBI guidelines')"
-                  className="flex-1 p-3 border border-indigo-200 rounded-lg focus:border-indigo-400 focus:ring-1 focus:ring-indigo-400 focus:outline-none text-xs font-semibold text-slate-700 bg-white"
+                  className="flex-1 p-3 border border-emerald-200 rounded-lg focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 focus:outline-none text-xs font-semibold text-slate-700 bg-white"
                   disabled={isExpanding}
                 />
                 <button
                   type="button"
                   onClick={handleExpandContent}
                   disabled={isExpanding || !newBlog.description}
-                  className="px-5 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold transition-all disabled:opacity-50 shadow-sm whitespace-nowrap"
+                  className="px-5 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-bold transition-all disabled:opacity-50 shadow-sm whitespace-nowrap"
                 >
                   {isExpanding ? '💫 Expanding...' : 'Expand Content'}
                 </button>
@@ -1402,7 +558,7 @@ const BlogsDashboard = () => {
             {/* SEO Meta Tags Accordion */}
             <div className="p-5 border border-slate-150 rounded-2xl bg-slate-50/50 flex flex-col gap-4">
               <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-1.5">
-                <FontAwesomeIcon icon={faInfoCircle} className="text-[#007AFF]" />
+                <FontAwesomeIcon icon={faInfoCircle} className="text-[#B8860B]" />
                 <span>Google Search SEO Configuration</span>
               </h3>
               
@@ -1415,7 +571,7 @@ const BlogsDashboard = () => {
                     value={newBlog.metaTitle || ''}
                     onChange={handleInputChange}
                     placeholder="Defaults to post title if left blank"
-                    className="p-3 border border-slate-200 rounded-lg focus:border-[#007AFF] focus:outline-none text-xs font-semibold text-slate-700 bg-white"
+                    className="p-3 border border-slate-200 rounded-lg focus:border-[#B8860B] focus:outline-none text-xs font-semibold text-slate-700 bg-white"
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
@@ -1426,7 +582,7 @@ const BlogsDashboard = () => {
                     value={newBlog.metaDescription || ''}
                     onChange={handleInputChange}
                     placeholder="Short description for Google snippet"
-                    className="p-3 border border-slate-200 rounded-lg focus:border-[#007AFF] focus:outline-none text-xs font-semibold text-slate-700 bg-white"
+                    className="p-3 border border-slate-200 rounded-lg focus:border-[#B8860B] focus:outline-none text-xs font-semibold text-slate-700 bg-white"
                   />
                 </div>
               </div>
@@ -1466,12 +622,14 @@ const BlogsDashboard = () => {
                         <input
                           type="text"
                           placeholder="Question (e.g. Can I settle a bank loan without court?)"
+                          required
                           value={faq.question}
                           onChange={(e) => handleFaqChange(idx, 'question', e.target.value)}
                           className="p-3 border border-slate-200 rounded-lg focus:border-blue-400 focus:outline-none text-xs font-semibold text-slate-700 bg-slate-50"
                         />
                         <textarea
                           placeholder="Detailed SEO-optimized answer..."
+                          required
                           rows={2}
                           value={faq.answer}
                           onChange={(e) => handleFaqChange(idx, 'answer', e.target.value)}
@@ -1488,13 +646,13 @@ const BlogsDashboard = () => {
             <div className="p-6 border border-slate-150 rounded-3xl bg-slate-50/30 flex flex-col gap-6">
               <div className="flex justify-between items-center border-b border-slate-100 pb-3">
                 <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-1.5">
-                  <FontAwesomeIcon icon={faStar} className="text-blue-500" />
+                  <FontAwesomeIcon icon={faStar} className="text-amber-500" />
                   <span>Client Reviews (Snippet Schema)</span>
                 </h3>
                 <button
                   type="button"
                   onClick={addReview}
-                  className="text-xs font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1 cursor-pointer"
+                  className="text-xs font-bold text-amber-600 hover:text-amber-700 flex items-center gap-1 cursor-pointer"
                 >
                   <FontAwesomeIcon icon={faPlus} />
                   <span>Add Review</span>
@@ -1521,7 +679,7 @@ const BlogsDashboard = () => {
                              type="text"
                              value={review.name}
                              onChange={(e) => handleReviewChange(idx, 'name', e.target.value)}
-                             className="p-2.5 border border-slate-200 rounded-lg focus:border-blue-400 focus:outline-none text-xs font-semibold text-slate-700 bg-slate-50"
+                             className="p-2.5 border border-slate-200 rounded-lg focus:border-amber-400 focus:outline-none text-xs font-semibold text-slate-700 bg-slate-50"
                              placeholder="e.g. Rajesh Kumar"
                            />
                         </div>
@@ -1530,7 +688,7 @@ const BlogsDashboard = () => {
                            <select
                              value={review.rating}
                              onChange={(e) => handleReviewChange(idx, 'rating', Number(e.target.value))}
-                             className="p-2.5 border border-slate-200 rounded-lg focus:border-blue-400 focus:outline-none text-xs font-semibold text-slate-700 bg-slate-50"
+                             className="p-2.5 border border-slate-200 rounded-lg focus:border-amber-400 focus:outline-none text-xs font-semibold text-slate-700 bg-slate-50"
                            >
                               {[1,2,3,4,5].map(r => <option key={r} value={r}>{r} Stars</option>)}
                            </select>
@@ -1542,7 +700,7 @@ const BlogsDashboard = () => {
                           value={review.review}
                           onChange={(e) => handleReviewChange(idx, 'review', e.target.value)}
                           rows={2}
-                          className="p-2.5 border border-slate-200 rounded-lg focus:border-blue-400 focus:outline-none text-xs font-medium text-slate-700 bg-slate-50 resize-y"
+                          className="p-2.5 border border-slate-200 rounded-lg focus:border-amber-400 focus:outline-none text-xs font-medium text-slate-700 bg-slate-50 resize-y"
                           placeholder="Review text..."
                         />
                       </div>
@@ -1573,6 +731,11 @@ const BlogsDashboard = () => {
       </AnimatePresence>
     </div>
   );
-};
+"""
 
-export default BlogsDashboard;
+content = logic_part + new_return + "};\n\nexport default BlogsDashboard;\n"
+
+with open(file_path, "w") as f:
+    f.write(content)
+
+print("Updated UI successfully!")
