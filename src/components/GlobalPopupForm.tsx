@@ -8,7 +8,6 @@ export default function GlobalPopupForm() {
   const [loading, setLoading] = useState(false);
   const [numberError, setNumberError] = useState('');
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [alreadySubmittedToday, setAlreadySubmittedToday] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -27,35 +26,17 @@ export default function GlobalPopupForm() {
   });
 
   useEffect(() => {
-    // Check if user has already submitted today
-    const lastSubmissionDate = localStorage.getItem('credsettle:last_submission_date');
-    const today = new Date().toLocaleDateString('en-GB', {
-      day: '2-digit',
-      month: '2-digit',
-      year: 'numeric'
-    }).replace(/\//g, '-');
-
-    if (lastSubmissionDate === today) {
-      setAlreadySubmittedToday(true);
-      return; 
-    }
-
-    // Check if popup was already shown in this session
-    const popupShown = sessionStorage.getItem('credsettle:popup_shown');
-    if (popupShown) return;
-
     const timer = setTimeout(() => {
       const excludedPaths = ['/contact', '/nullify', '/authority', '/login', '/thank-you', '/success'];
-      const isExcluded = excludedPaths.some(path => window.location.pathname.startsWith(path));
+      const isExcluded = excludedPaths.some(path => pathname?.startsWith(path));
       
       if (!isExcluded) {
         setIsOpen(true);
-        sessionStorage.setItem('credsettle:popup_shown', 'true');
       }
-    }, 3000);
+    }, 5000);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     const excludedPaths = ['/contact', '/nullify', '/authority', '/login', '/thank-you', '/success'];
@@ -187,11 +168,6 @@ export default function GlobalPopupForm() {
     
     if (loading) return;
 
-    if (alreadySubmittedToday) {
-      alert('You have already submitted a form today. Our team will contact you soon.');
-      return;
-    }
-
     if (!validateForm()) {
       return;
     }
@@ -231,7 +207,6 @@ export default function GlobalPopupForm() {
       localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
       localStorage.setItem('credsettle:user_phone', formData.number.trim());
       localStorage.setItem('credsettle:last_submission_date', formattedDate);
-      setAlreadySubmittedToday(true);
       
       setIsOpen(false);
       router.push('/thank-you');

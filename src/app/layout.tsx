@@ -134,7 +134,7 @@ export default function RootLayout({
         </noscript>
         {children}
         <Analytics />
-        {/* <GlobalPopupForm /> */}
+        <GlobalPopupForm />
         <WhatsAppWidget />
       </body>
     </html>
