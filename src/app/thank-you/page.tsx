@@ -109,7 +109,7 @@ export default function ThankYouPage() {
                   <div className="text-center mb-4">
                     <p className="font-medium text-[#0C2756] mb-1">Here is your assigned executive from our team</p>
                     <p className="font-bold text-lg text-[#0C2756]">Ashish Jhangra: <span className="text-red-600">Call Now</span></p>
-                    <a href="tel:9599045632" className="text-xl font-bold text-blue-600 hover:underline">+919818321219</a>
+                    <a href="tel:+919818321219" className="text-xl font-bold text-blue-600 hover:underline">+919818321219</a>
                   </div>
 
                   {/* Benefits with checkmarks and Priority processing box side by side */}
