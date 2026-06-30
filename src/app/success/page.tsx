@@ -1,8 +1,43 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export default function SuccessPage() {
+  const [markedPaid, setMarkedPaid] = useState(false);
+
+  useEffect(() => {
+    const markLeadAsPaid = async () => {
+      const phone = localStorage.getItem('credsettle:user_phone');
+      if (phone && !markedPaid) {
+        try {
+          const response = await fetch('/api/mark-paid', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ phone }),
+          });
+          
+          if (response.ok) {
+            console.log('Lead successfully marked as paid.');
+            setMarkedPaid(true);
+            // Optionally clear the phone so it doesn't trigger again on subsequent visits
+            // localStorage.removeItem('credsettle:user_phone'); 
+          } else {
+            console.error('Failed to mark lead as paid.');
+          }
+        } catch (error) {
+          console.error('Error marking lead as paid:', error);
+        }
+      }
+    };
+
+    markLeadAsPaid();
+  }, [markedPaid]);
+
   return (
     <div className="flex min-h-screen flex-col bg-[#F5FAF5]">
       <Navbar />
