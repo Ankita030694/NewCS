@@ -117,7 +117,11 @@ function verifySignature(rawBody: string, request: NextRequest) {
 export async function POST(request: NextRequest) {
   const rawBody = await request.text();
 
+  console.log('[PayU Webhook] Received webhook request. Raw body length:', rawBody.length);
+  console.log('[PayU Webhook] Headers:', Object.fromEntries(request.headers.entries()));
+
   if (!verifySignature(rawBody, request)) {
+    console.error('[PayU Webhook] Signature verification failed.');
     return NextResponse.json({ error: 'Invalid webhook signature' }, { status: 401 });
   }
 
@@ -125,7 +129,9 @@ export async function POST(request: NextRequest) {
 
   try {
     payload = parsePayload(rawBody, request.headers.get('content-type'));
+    console.log('[PayU Webhook] Parsed payload successfully.', JSON.stringify(payload).substring(0, 500));
   } catch (error) {
+    console.error('[PayU Webhook] Failed to parse payload:', error);
     return NextResponse.json(
       { error: 'Unable to parse webhook payload', details: (error as Error).message },
       { status: 400 }
@@ -135,17 +141,22 @@ export async function POST(request: NextRequest) {
   const status = extractStatus(payload);
   const phone = extractPhone(payload);
 
+  console.log('[PayU Webhook] Extracted status:', status, 'phone:', phone);
+
   if (!phone) {
+    console.error('[PayU Webhook] Missing customer phone in payload.');
     return NextResponse.json({ error: 'Missing customer phone' }, { status: 400 });
   }
 
   if (!status || !SUCCESS_STATUSES.has(status.toUpperCase())) {
+    console.log('[PayU Webhook] Status is not a success status. Ignored.');
     return NextResponse.json({ status: 'ignored' }, { status: 200 });
   }
 
   const leadsSnapshot = await adminDb.collection('leads').where('phone', '==', phone).get();
 
   if (leadsSnapshot.empty) {
+    console.error('[PayU Webhook] Lead not found for phone:', phone);
     return NextResponse.json({ error: 'Lead not found' }, { status: 404 });
   }
 
@@ -153,6 +164,7 @@ export async function POST(request: NextRequest) {
   const reference = extractReference(payload);
   const paymentUpdate: Record<string, unknown> = {
     payment: 'paid',
+    paymentStatus: 'paid',
     paymentUpdatedAt: new Date().toISOString(),
   };
 
@@ -165,6 +177,7 @@ export async function POST(request: NextRequest) {
   });
 
   await batch.commit();
+  console.log('[PayU Webhook] Successfully updated lead(s) for phone:', phone);
 
   return NextResponse.json({ status: 'updated' }, { status: 200 });
 }
