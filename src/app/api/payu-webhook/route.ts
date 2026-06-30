@@ -153,10 +153,17 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ status: 'ignored' }, { status: 200 });
   }
 
-  const leadsSnapshot = await adminDb.collection('leads').where('phone', '==', phone).get();
+  let normalizedPhone = phone;
+  if (normalizedPhone.startsWith('+91')) {
+    normalizedPhone = normalizedPhone.substring(3);
+  } else if (normalizedPhone.startsWith('91') && normalizedPhone.length === 12) {
+    normalizedPhone = normalizedPhone.substring(2);
+  }
+
+  const leadsSnapshot = await adminDb.collection('Form').where('number', '==', normalizedPhone).get();
 
   if (leadsSnapshot.empty) {
-    console.error('[PayU Webhook] Lead not found for phone:', phone);
+    console.error(`[PayU Webhook] Lead not found for phone: ${phone} (normalized: ${normalizedPhone})`);
     return NextResponse.json({ error: 'Lead not found' }, { status: 404 });
   }
 
