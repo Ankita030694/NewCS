@@ -347,6 +347,14 @@ export default function Footer() {
               <a href="/1-loan-settlement-services-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">#1 Loan Settlement Services in India</a>
               <a href="/loan-management-services" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Management Services</a>
               <a href="/can-i-waive-off-100-percent-of-my-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Can I Waive Off 100 Percent of My Loan</a>
+              <a href="/nri-loan-default-india-settlement-from-abroad" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">NRI Loan Default Settlement from Abroad...</a>
+              <a href="/loan-settlement-during-divorce-joint-loan-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Joint Loan Settlement During Divorce...</a>
+              <a href="/loan-recovery-after-death-of-borrower-legal-heir-rights-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Recovery After Death in India...</a>
+              <a href="/salary-account-frozen-by-bank" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Salary Account Frozen by Bank...</a>
+              <a href="/loan-taken-in-spouse-name-without-consent-what-to-do" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Spouse Took Loan Without Consent...</a>
+              <a href="/loan-settlement-for-senior-citizens-pension-holders-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for Senior Citizens...</a>
+              <a href="/bank-froze-salary-account-for-loan-default-how-to-get-salary" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Froze Salary Account: How to Get Salary...</a>
+              <a href="/loan-settlement-after-crypto-stock-market-loss-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement After Crypto/Stock Market Loss...</a>
 
            
           </div>

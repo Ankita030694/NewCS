@@ -475,6 +475,20 @@ async function generateSitemap(): Promise<string> {
 
   // Generic SEO Educational Pages
   urls.push({
+    loc: `${baseUrl}/nri-loan-default-india-settlement-from-abroad`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-after-crypto-stock-market-loss-india`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/what-is-loan-settlement-and-how-does-it-work-in-india`,
     priority: 0.9,
     changefreq: 'weekly',
@@ -546,6 +560,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/do-banks-file-fir-for-credit-card-dues`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/bank-froze-salary-account-for-loan-default-how-to-get-salary`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -1539,6 +1560,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/loan-taken-in-spouse-name-without-consent-what-to-do`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/legal-case-for-loan-sanction-without-consent`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -1955,6 +1983,22 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/how-to-settle-7-days-loan-app`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Loan settlement during divorce joint loan India page
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-during-divorce-joint-loan-india`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Loan recovery after death of borrower legal heir rights india
+  urls.push({
+    loc: `${baseUrl}/loan-recovery-after-death-of-borrower-legal-heir-rights-india`,
+    priority: 0.80,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -2766,6 +2810,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Salary Account Frozen by Bank page
+  urls.push({
+    loc: `${baseUrl}/salary-account-frozen-by-bank`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // GENERATE XML SITEMAP
   // ========================================================================
@@ -2782,6 +2834,11 @@ ${urls
   </url>`
       )
       .join('\n')}
+  <url>
+    <loc>https://credsettle.com/loan-settlement-for-senior-citizens-pension-holders-india</loc>
+    <lastmod>2026-07-02</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>`;
 
   return sitemap;
