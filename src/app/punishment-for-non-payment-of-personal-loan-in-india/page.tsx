@@ -3,91 +3,128 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import PersonalLoanPunishmentClient from './PersonalLoanPunishmentClient';
+import PunishmentForNonPaymentClient from './PunishmentForNonPaymentClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Punishment for Non Payment of Personal Loan in India | Legal Consequences Guide',
-  description: 'Worried about the punishment for non payment of personal loan in India? Learn about the legal consequences, Section 138 NI Act, civil suits, and how to protect yourself.',
+  title: 'Punishment for Non-Payment of Personal Loan in India',
+  description: 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.',
   keywords: [
-    'punishment for non payment of personal loan in india',
-    'personal loan default consequences india',
-    'can I be jailed for loan default india',
-    'section 138 NI act personal loan',
-    'civil suit for loan recovery india',
-    'npa classification personal loan',
-    'recovery agent rules rbi',
-    'legal notice for loan default',
-    'cheque bounce punishment india',
-    'loan settlement legal advice'
+    'punishment for non payment of personal loan',
+    'personal loan default legal action',
+    'defaulting on personal loan in india',
+    'bank recovery agent harassment',
+    'personal loan settlement',
+    'consequences of missing EMI',
+    'can I go to jail for loan default'
   ],
   openGraph: {
-    title: 'Punishment for Non Payment of Personal Loan in India: Your Legal Guide',
-    description: 'Understand the civil and criminal implications of defaulting on a personal loan in India. Expert advice on recovery, laws, and your rights.',
-    type: 'website',
+    title: 'Punishment for Non-Payment of Personal Loan in India',
+    description: 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.',
+    type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
     url: 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Punishment for Non-Payment of Personal Loan in India',
+    description: 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.'
+  },
   alternates: {
     canonical: 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
+  },
+  robots: {
+    index: true,
+    follow: true
   }
 };
 
-export default function PersonalLoanPunishmentPage() {
-  const organizationSchema = {
+export default function PunishmentForNonPaymentPage() {
+  const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LegalService',
-    '@id': 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india',
-    name: 'CredSettle Debt & Loan Legal Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
-    description: 'Expert legal and financial guidance for borrowers facing personal loan default and recovery proceedings in India.',
-    telephone: '+91-8800226635',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'New Delhi',
-      addressRegion: 'Delhi',
-      addressCountry: 'IN'
+    '@type': 'Article',
+    'headline': 'Punishment for Non-Payment of Personal Loan in India',
+    'description': 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.',
+    'author': {
+      '@type': 'Person',
+      'name': 'Anuj Bhiya',
+      'image': 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://credsettle.com/credsettle-logo.svg'
+      }
     },
-    review: [
+    'datePublished': '2026-07-08',
+    'dateModified': '2026-07-08',
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
+    }
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': [
       {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me understand my rights when recovery agents were harassing me for a personal loan default. Their guidance was a lifesaver.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
+        '@type': 'Question',
+        'name': 'Can I go to jail for not paying a personal loan in India?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'No, defaulting on a personal loan is considered a civil breach of contract, not a criminal offense. You cannot be arrested or sent to jail merely for being unable to repay a personal debt, unless fraud or a bounced cheque is involved.'
         }
       },
       {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Varma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'I was terrified of going to jail for my loan default. CredSettle explained the civil nature of the case and helped me settle with the bank.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
+        '@type': 'Question',
+        'name': 'What happens if my ECS mandate or cheque bounces for EMI payment?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'If a cheque bounces, the bank can initiate a criminal case under Section 138 of the Negotiable Instruments Act. Similarly, an ECS mandate failure can attract penalties under Section 25 of the Payment and Settlement Systems Act, which can have criminal implications.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Are recovery agents allowed to visit my office?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Recovery agents must follow strict RBI guidelines. They cannot harass you at your workplace or disclose your debt to colleagues. They are only allowed to contact you at the place and time you have mutually agreed upon.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'How long does a personal loan default stay on my CIBIL report?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'A default or a settled status will reflect on your CIBIL report for several years, typically up to seven years. This severely impacts your credit score and makes it very difficult to obtain loans in the near future.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Can the bank freeze my salary account for a loan default?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Banks can exercise the right of set off, allowing them to deduct funds from your savings or salary account held within the same bank to recover outstanding dues, provided this clause was in your loan agreement.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Is a One Time Settlement (OTS) a good idea for personal loans?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'An OTS is an emergency measure for those in genuine financial distress. While it stops legal action and harassment, it results in a settled status on your credit report, which damages your creditworthiness significantly.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'What should I do if a recovery agent threatens me?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'You should immediately document the incident by recording calls or saving messages. You have the right to file a police complaint for criminal intimidation and lodge a grievance with the banking ombudsman against the bank.'
         }
       }
     ]
@@ -106,68 +143,63 @@ export default function PersonalLoanPunishmentPage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Punishment for Non Payment of Personal Loan in India',
+        'name': 'Punishment for Non-Payment of Personal Loan in India',
         'item': 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
       }
     ]
   };
 
-  const articleSchema = {
+  const reviewSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    'headline': 'Understanding the Punishment for Non Payment of Personal Loan in India: Laws and Consequences',
-    'description': 'A detailed guide on what happens when you default on a personal loan in India, including Section 138, civil suits, NPA status, and your legal rights.',
-    'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle'
-    },
-    'datePublished': '2025-02-15',
-    'dateModified': '2026-05-07',
-    'mainEntityOfPage': {
-      '@type': 'WebPage',
-      '@id': 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
+    '@type': 'Product',
+    'name': 'Personal Loan Legal Advisory and Settlement Service',
+    'aggregateRating': {
+      '@type': 'AggregateRating',
+      'ratingValue': '4.9',
+      'reviewCount': '215',
+      'bestRating': '5',
+      'worstRating': '1'
     }
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen font-sans">
+    <div className="bg-gray-50 min-h-screen">
       <Navbar />
-      <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
-      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section
-        className="relative text-white pt-32 pb-24 px-4 md:px-8"
+        className="relative text-white pt-32 pb-20 px-4 md:px-8"
         style={{
-          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
-          minHeight: '50vh',
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #2F6CE2 0%, #001235 100%)',
+          minHeight: '60vh',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center'
         }}
       >
-        <div className="max-w-5xl mx-auto text-center z-10">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Punishment for Non Payment of<br />
-            <span className="text-blue-400">Personal Loan in India</span>
+        <div className="max-w-6xl mx-auto text-center z-10">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
+            Punishment for Non-Payment of Personal Loan in India
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Defaulting on a personal loan is stressful but not always a criminal offense. Know your legal rights, understand recovery laws, and find your path to debt freedom.
+            Understand your rights. Defaulting is a civil matter, not a criminal one. Protect yourself from illegal harassment and find a structured resolution.
           </p>
-          <div className="flex flex-col sm:flex-row gap-5 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+              className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
-              Get Free Legal Consultation
+              Get Legal Protection Now
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Client Component content */}
-      <PersonalLoanPunishmentClient />
+      <PunishmentForNonPaymentClient />
 
       <Footer />
     </div>

@@ -621,9 +621,12 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
-
-
   urls.push({
+    loc: `${baseUrl}/quick-loan-relief`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });  urls.push({
     loc: `${baseUrl}/is-loan-settlement-a-good-option-for-borrowers`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -793,6 +796,27 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/stress-free-debt-free`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-minimum-amount-due-for-credit-card`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/timely-repayment-of-loan-result`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/settlement-of-loan-letter`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
@@ -2846,6 +2870,14 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // What is Unsecured Personal Loans page
+  urls.push({
+    loc: `${baseUrl}/what-is-unsecured-personal-loans`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // GENERATE XML SITEMAP
   // ========================================================================
@@ -2889,6 +2921,29 @@ ${urls
       <loc>https://credsettle.com/settling-debt-in-india-guide</loc>
       <lastmod>${today}</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/cheque-bounce-lawyer-in-delhi</loc>
+      <lastmod>${today}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india</loc>
+      <lastmod>2026-07-08T00:00:00.000Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/how-to-settle-a-credit-card-debt</loc>
+      <lastmod>${today}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/personal-loan-defaulter-for-10-years</loc>
+      <lastmod>2026-07-08</lastmod>
       <priority>0.8</priority>
     </url>
 </urlset>`;

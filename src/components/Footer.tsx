@@ -263,6 +263,7 @@ export default function Footer() {
               <a href="/what-are-the-best-loan-settlement-services-in-india-for-high-value-debts" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Loan Settlement Services for...</a>
               <a href="/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Charges for Loan Settlement Services...</a>
               <a href="/what-are-the-consequences-of-not-paying-emi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consequences of Not Paying EMI...</a>
+              <a href="/quick-loan-relief" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Quick Loan Relief...</a>
               <a href="/ots-kya-hota-hai-full-form" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">OTS Kya Hota Hai Full Form...</a>
               <a href="/smfg-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">SMFG Loan Settlement Guide...</a>
               <a href="/stress-free-debt-free" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Stress Free Debt Free Guide...</a>
@@ -363,7 +364,13 @@ export default function Footer() {
               <a href="/full-form-of-ots" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Full Form of OTS in Banking...</a>
               <a href="/settling-debt-in-india-guide" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Guide to Settling Debt in India...</a>
               <a href="/kya-mai-apna-loan-settle-kr-skta-hu" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Kya Mai Apna Loan Settle Kr Skta Hu...</a>
-            
+              <a href="/settlement-of-loan-letter" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settlement of Loan Letter...</a>
+              <a href="/timely-repayment-of-loan-result" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Timely Repayment of Loan Result...</a>
+              <a href="/punishment-for-non-payment-of-personal-loan-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Punishment for Non-Payment of Personal Loan in India...</a>
+              <a href="/how-to-settle-a-credit-card-debt" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">How to Settle a Credit Card Debt...</a>
+              <a href="/what-is-unsecured-personal-loans" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What is Unsecured Personal Loans...</a>
+              <a href="/what-is-minimum-amount-due-for-credit-card" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What is Minimum Amount Due...</a>
+              <a href="/personal-loan-defaulter-for-10-years" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Personal Loan Defaulter 10 Years...</a>
           </div>
            <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
 
