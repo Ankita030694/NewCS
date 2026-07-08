@@ -45,8 +45,8 @@ export default function LoanTakenInSpouseNamePage() {
     'description': 'A comprehensive legal guide for victims of spousal financial abuse where a husband or wife has taken a loan using the partner\'s documents without consent in India.',
     'author': {
       '@type': 'Person',
-      'name': 'Adv. Anuj Bhiya',
-      'image': 'https://credsettle.com/anujbhiya.png',
+      'name': 'Adv. Rohan Sharma',
+      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
       'url': 'https://credsettle.com/about'
     },
     'publisher': {

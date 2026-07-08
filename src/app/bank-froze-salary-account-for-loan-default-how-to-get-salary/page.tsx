@@ -106,8 +106,8 @@ export default function SalaryAccountFreezePage() {
     'description': 'Emergency-focused guide for people whose bank exercised right of set-off, deducting their entire salary to recover loan dues.',
     'author': {
       '@type': 'Person',
-      'name': 'Anuj Bhiya',
-      'image': 'https://credsettle.com/anujbhiya.png',
+      'name': 'Rohan Sharma',
+      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
       'url': 'https://credsettle.com/about'
     },
     'publisher': {

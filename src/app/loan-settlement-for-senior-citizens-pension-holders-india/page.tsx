@@ -42,8 +42,8 @@ export default function SeniorCitizenLoanPage() {
     'description': 'Retired and defaulted on a personal loan or credit card in India? Learn how senior citizens can protect their pension and negotiate a loan settlement legally.',
     'author': {
       '@type': 'Person',
-      'name': 'Anuj Bhiya',
-      'image': 'https://credsettle.com/anujbhiya.png'
+      'name': 'Rohan Sharma',
+      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',

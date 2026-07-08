@@ -475,7 +475,21 @@ async function generateSitemap(): Promise<string> {
 
   // Generic SEO Educational Pages
   urls.push({
+    loc: `${baseUrl}/kya-mai-apna-loan-settle-kr-skta-hu`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/nri-loan-default-india-settlement-from-abroad`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/full-form-of-ots`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
@@ -773,6 +787,20 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/what-alternatives-exist-to-loan-settlement-for-managing-overwhelming-debt`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/stress-free-debt-free`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/smfg-loan-settlement`,
+    priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -2839,6 +2867,30 @@ ${urls
     <lastmod>2026-07-02</lastmod>
     <priority>0.80</priority>
   </url>
+    <url>
+      <loc>https://credsettle.com/credit-card-settlement</loc>
+      <lastmod>${today}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/credit-card-settlement-hdfc</loc>
+      <lastmod>${today}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/ots-kya-hota-hai-full-form</loc>
+      <lastmod>${today}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/settling-debt-in-india-guide</loc>
+      <lastmod>${today}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
 </urlset>`;
 
   return sitemap;

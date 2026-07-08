@@ -263,6 +263,9 @@ export default function Footer() {
               <a href="/what-are-the-best-loan-settlement-services-in-india-for-high-value-debts" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Loan Settlement Services for...</a>
               <a href="/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Charges for Loan Settlement Services...</a>
               <a href="/what-are-the-consequences-of-not-paying-emi" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consequences of Not Paying EMI...</a>
+              <a href="/ots-kya-hota-hai-full-form" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">OTS Kya Hota Hai Full Form...</a>
+              <a href="/smfg-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">SMFG Loan Settlement Guide...</a>
+              <a href="/stress-free-debt-free" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Stress Free Debt Free Guide...</a>
               <a href="/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Consumer Protection Laws for Debt...</a>
               <a href="/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">What are the Eligibility Criteria...</a>
               <a href="/what-are-the-income-tax-implications-of-a-settled-debt-amount" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Income Tax Implications of Settled...</a>
@@ -355,8 +358,12 @@ export default function Footer() {
               <a href="/loan-settlement-for-senior-citizens-pension-holders-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement for Senior Citizens...</a>
               <a href="/bank-froze-salary-account-for-loan-default-how-to-get-salary" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Froze Salary Account: How to Get Salary...</a>
               <a href="/loan-settlement-after-crypto-stock-market-loss-india" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement After Crypto/Stock Market Loss...</a>
-
-           
+              <a href="/credit-card-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Credit Card Settlement Guide...</a>
+              <a href="/credit-card-settlement-hdfc" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">HDFC Credit Card Settlement Guide...</a>
+              <a href="/full-form-of-ots" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Full Form of OTS in Banking...</a>
+              <a href="/settling-debt-in-india-guide" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Guide to Settling Debt in India...</a>
+              <a href="/kya-mai-apna-loan-settle-kr-skta-hu" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Kya Mai Apna Loan Settle Kr Skta Hu...</a>
+            
           </div>
            <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
 
