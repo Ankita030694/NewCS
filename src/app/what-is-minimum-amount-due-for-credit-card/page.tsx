@@ -47,8 +47,8 @@ export default function WhatIsMinimumAmountDuePage() {
     'description': 'Learn exactly how credit card minimum amount due is calculated in India, why it traps you in compounding debt, and legal strategies to settle it.',
     'author': {
       '@type': 'Person',
-      'name': 'Anuj Bhiya',
-      'image': 'https://credsettle.com/anujbhiya.png'
+      'name': 'Vikram Sharma',
+      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',

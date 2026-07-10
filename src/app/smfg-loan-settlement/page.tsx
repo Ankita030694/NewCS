@@ -48,8 +48,8 @@ export default function SmfgLoanSettlementPage() {
     'description': 'Learn how to negotiate a structured One-Time Settlement (OTS) for an SMFG personal loan. Stop recovery agent harassment and resolve your debt safely.',
     'author': {
       '@type': 'Person',
-      'name': 'Anuj Bhiya',
-      'image': 'https://credsettle.com/anujbhiya.png'
+      'name': 'Vikram Sharma',
+      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',

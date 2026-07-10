@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 152; // Updated for new loan management services page & comparison page.
+  const mainStaticPages = 154; // Updated for new loan management services page & comparison page.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -795,12 +795,39 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/can-I-get-a-loan-settlement-quote-instantly-from-online-services-`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/are-there-online-services-that-help-with-loan-settlement-offers`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/stress-free-debt-free`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
   });
 
+  urls.push({
+    loc: `${baseUrl}/best-financial-advisors-for-debt-settlement-in-major-indian-cities`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
   urls.push({
     loc: `${baseUrl}/what-is-minimum-amount-due-for-credit-card`,
     priority: 0.8,
@@ -1607,6 +1634,13 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/working-capital-loan-legal-help`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan`,
+    priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -2944,6 +2978,18 @@ ${urls
     <url>
       <loc>https://credsettle.com/personal-loan-defaulter-for-10-years</loc>
       <lastmod>2026-07-08</lastmod>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees</loc>
+      <lastmod>2026-07-10</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://credsettle.com/how-do-loan-settlement-agents-work-through-online-portals</loc>
+      <lastmod>${today}</lastmod>
+      <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
 </urlset>`;

@@ -27,7 +27,7 @@ export default function HowToSettleACreditCardDebtPage() {
       description: 'Learn exactly how to settle a credit card debt in India. We provide a step by step timeline, cost breakdown, and negotiation strategies to reduce balance.',
       author: {
         '@type': 'Person',
-        name: 'Anuj Bhiya',
+        name: 'Vikram Sharma',
         image: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
       },
       publisher: {

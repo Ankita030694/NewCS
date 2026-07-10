@@ -46,8 +46,8 @@ export default function SettlementOfLoanLetterPage() {
     'description': 'Learn how to draft a legally sound loan settlement letter to Indian banks. Get proven templates, avoid critical mistakes, and secure a NOC fast.',
     'author': {
       '@type': 'Person',
-      'name': 'Anuj Bhiya',
-      'image': 'https://credsettle.com/anujbhiya.png'
+      'name': 'Vikram Sharma',
+      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',

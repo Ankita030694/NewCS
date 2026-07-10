@@ -48,7 +48,7 @@ export default function PunishmentForNonPaymentPage() {
     'description': 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.',
     'author': {
       '@type': 'Person',
-      'name': 'Anuj Bhiya',
+      'name': 'Vikram Sharma',
       'image': 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {

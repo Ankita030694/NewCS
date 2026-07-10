@@ -47,7 +47,7 @@ export default function TimelyRepaymentPage() {
     'description': 'Understand the long-term financial outcomes, CIBIL impact, and immense monetary benefits of timely loan repayment compared to debt settlement.',
     'author': {
       '@type': 'Person',
-      'name': 'Anuj Bhiya',
+      'name': 'Vikram Sharma',
       'image': 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {

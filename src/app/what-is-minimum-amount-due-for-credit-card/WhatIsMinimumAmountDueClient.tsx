@@ -397,8 +397,8 @@ export default function WhatIsMinimumAmountDueClient() {
           <aside className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Anuj Bhiya Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Anuj Bhiya</h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
+                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
                 <p className="text-sm text-gray-500 mb-4">Financial Strategist & Debt Resolution Expert</p>
                 <p className="text-xs text-gray-400">Specializing in credit card law, banking policies, and protecting consumers from predatory financial practices in India.</p>
               </div>

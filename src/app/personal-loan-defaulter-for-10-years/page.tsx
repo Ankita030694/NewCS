@@ -24,12 +24,12 @@ export default function PersonalLoanDefaulterPage() {
         '@id': 'https://credsettle.com/personal-loan-defaulter-for-10-years/#article',
         'headline': 'Personal Loan Defaulter for 10 Years: The Complete Legal & Financial Reality',
         'description': 'Defaulted on a personal loan for 10 years? Learn the legal reality of time barred debt, the Limitation Act of 1963, and how to settle it completely.',
-        'image': 'https://credsettle.com/anujbhiya.png',
+        'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
         'author': {
           '@type': 'Person',
-          'name': 'Anuj Bhiya',
+          'name': 'Vikram Sharma',
           'url': 'https://credsettle.com/about',
-          'image': 'https://credsettle.com/anujbhiya.png'
+          'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
         },
         'publisher': {
           '@type': 'Organization',
