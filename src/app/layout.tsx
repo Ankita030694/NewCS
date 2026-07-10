@@ -5,6 +5,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
 import GlobalPopupForm from "@/components/GlobalPopupForm";
+import ReCaptchaProvider from "@/components/ReCaptchaProvider";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -132,10 +133,12 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
-        {children}
-        <Analytics />
-        <GlobalPopupForm />
-        <WhatsAppWidget />
+        <ReCaptchaProvider>
+          {children}
+          <Analytics />
+          <GlobalPopupForm />
+          <WhatsAppWidget />
+        </ReCaptchaProvider>
       </body>
     </html>
   );

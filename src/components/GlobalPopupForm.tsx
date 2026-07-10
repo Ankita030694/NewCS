@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 export default function GlobalPopupForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +11,7 @@ export default function GlobalPopupForm() {
   const [errors, setErrors] = useState<Record<string, string>>({});
   const router = useRouter();
   const pathname = usePathname();
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const [formData, setFormData] = useState({
     name: '',
@@ -180,10 +182,16 @@ export default function GlobalPopupForm() {
       today.getMonth() + 1
     ).padStart(2, '0')}-${today.getFullYear()}`;
 
+    let captchaToken = '';
+    if (executeRecaptcha) {
+      captchaToken = await executeRecaptcha('global_popup_submit');
+    }
+
     const submitData = {
       ...formData,
       created: Date.now(),
       date: formattedDate,
+      captchaToken,
       submissionUrl: typeof window !== 'undefined' ? window.location.href : '',
       utmParams: typeof window !== 'undefined' ? (new URLSearchParams(window.location.search).toString() ? Object.fromEntries(new URLSearchParams(window.location.search)) : {}) : {}
     };

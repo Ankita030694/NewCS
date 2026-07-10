@@ -1,10 +1,12 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 export default function ContactForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const [loading, setLoading] = useState(false);
   const [numberError, setNumberError] = useState('');
@@ -175,10 +177,16 @@ export default function ContactForm() {
       today.getMonth() + 1
     ).padStart(2, '0')}-${today.getFullYear()}`;
 
+    let captchaToken = '';
+    if (executeRecaptcha) {
+      captchaToken = await executeRecaptcha('contact_form_submit');
+    }
+
     const submitData = {
       ...formData,
       created: Date.now(),
       date: formattedDate,
+      captchaToken,
       submissionUrl: typeof window !== 'undefined' ? window.location.href : '',
       utmParams: typeof window !== 'undefined' ? (new URLSearchParams(window.location.search).toString() ? Object.fromEntries(new URLSearchParams(window.location.search)) : {}) : {}
     };
