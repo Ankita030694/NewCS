@@ -90,6 +90,7 @@ export default function Footer() {
               Queries
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-2">
+              <a href="/settle-5-lakh-credit-card-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle 5 Lakh Credit Card Loan...</a>
               <a href="/are-there-online-services-that-help-with-loan-settlement-offers" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Online Loan Settlement Services Guide...</a>
               <a href="/can-I-get-a-loan-settlement-quote-instantly-from-online-services-" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Instant Loan Settlement Quote Online...</a>
               <a href="/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Estimate Loan Settlement Benefits...</a>
@@ -378,7 +379,13 @@ export default function Footer() {
               <a href="/best-financial-advisors-for-debt-settlement-in-major-indian-cities" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Best Financial Advisors for Debt...</a>
               <a href="/which-loan-settlement-companies-offer-the-lowest-fees" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Lowest Fee Loan Settlement Companies...</a>
               <a href="/how-do-loan-settlement-agents-work-through-online-portals" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Online Portals for Loan Settlement...</a>
-          </div>
+              <a href="/settle-5-lakh-personal-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle 5 Lakh Personal Loan...</a>
+              <a href="/recovery-agent-came-to-my-office" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Recovery Agent Came To My Office...</a>
+              <a href="/settle-10-lakh-personal-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle 10 Lakh Personal Loan...</a>
+              <a href="/settle-10-lakh-credit-card-loan" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Settle 10 Lakh Credit Card Loan...</a>
+              <a href="/recovery-agent-sending-morphed-images" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Recovery Agent Sending Morphed Images...</a>
+              <a href="/bank-employee-threatening-arrest-on-call" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Bank Employee Threatening Arrest on Call...</a>
+            </div>
            <div className="w-full bg-[rgba(12,39,86,0.20)] h-px mb-4 md:mb-6"></div>
 
             <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-tight">

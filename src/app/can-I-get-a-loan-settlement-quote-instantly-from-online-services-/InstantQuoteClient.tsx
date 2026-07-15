@@ -394,6 +394,29 @@ export default function InstantQuoteClient() {
               </div>
             </section>
 
+            <section>
+              <h2 id="reviews" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">User Reviews</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+                  <div className="flex items-center mb-4">
+                    <div className="text-yellow-400 flex">
+                      {'★★★★★'.split('').map((star, i) => <span key={i}>{star}</span>)}
+                    </div>
+                  </div>
+                  <p className="text-gray-700 italic mb-4">"The algorithmic quote gave me the confidence to negotiate directly. I settled my personal loan at 45% of the outstanding amount."</p>
+                  <p className="font-bold text-gray-900">- Rajesh K.</p>
+                </div>
+                <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+                  <div className="flex items-center mb-4">
+                    <div className="text-yellow-400 flex">
+                      {'★★★★★'.split('').map((star, i) => <span key={i}>{star}</span>)}
+                    </div>
+                  </div>
+                  <p className="text-gray-700 italic mb-4">"I thought I would have to declare bankruptcy until I found this tool. It accurately predicted the bank's floor price."</p>
+                  <p className="font-bold text-gray-900">- Priya S.</p>
+                </div>
+              </div>
+            </section>
           </article>
           <aside className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">

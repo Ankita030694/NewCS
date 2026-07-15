@@ -1,0 +1,776 @@
+11: *   - Main page: /services/{service-type}
+12: *   - State pages: /services/{service-type}/{state}
+13: *   - Bank pages: /services/{service-type}/banks/{bank}
+14: * - Resource/Blog pages: /resources/{slug}
+40:import { NextResponse } from 'next/server';
+41:import { getAllStateSlugs as getPersonalStateSlugs } from '@/app/services/personal-loan-settlement/states-content';
+42:import { getAllStateSlugs as getBusinessStateSlugs } from '@/app/services/business-loan-settlement/states-content';
+43:import { getAllStateSlugs as getCarStateSlugs } from '@/app/services/car-loan-settlement/states-content';
+44:import { getAllStateSlugs as getCreditCardStateSlugs } from '@/app/services/credit-card-settlement/states-content';
+45:import { getAllStateSlugs as getAppStateSlugs } from '@/app/services/app-loan-settlement/states-content';
+46:import { getAllStateSlugs as getNbfcStateSlugs } from '@/app/services/nbfc-loan-settlement/states-content';
+47:import { getAllBankSlugs as getPersonalBankSlugs } from '@/app/services/personal-loan-settlement/banks-content';
+48:import { getAllBankSlugs as getBusinessBankSlugs } from '@/app/services/business-loan-settlement/banks-content';
+49:import { getAllBankSlugs as getCarBankSlugs } from '@/app/services/car-loan-settlement/banks-content';
+50:import { getAllBankSlugs as getCreditCardBankSlugs } from '@/app/services/credit-card-settlement/banks-content';
+51:import { getAllBankSlugs as getAppBankSlugs } from '@/app/services/app-loan-settlement/banks-content';
+52:import { getAllBankSlugs as getNbfcBankSlugs } from '@/app/services/nbfc-loan-settlement/banks-content';
+53:import { db } from '@/lib/firebase';
+54:import { collection, getDocs } from 'firebase/firestore';
+66: * - /services/{service-type} (main page)
+67: * - /services/{service-type}/{state} (state-specific pages)
+68: * - /services/{service-type}/banks/{bank} (bank-specific pages)
+81: * These are standalone pages: /services/{service-slug}
+134:};
+143:};
+156:}
+161:  } catch (error) {
+164:  }
+165:})();
+173:  }
+181:    } catch (error) {
+182:      console.error(`Error getting state slugs for ${serviceType}:`, error);
+183:    }
+184:  } else {
+185:    console.warn(`No state slug getter configured for service: ${serviceType}`);
+186:  }
+191:}
+197:  }
+205:    } catch (error) {
+206:      console.error(`Error getting bank slugs for ${serviceType}:`, error);
+207:    }
+208:  } else {
+209:    console.warn(`No bank slug getter configured for service: ${serviceType}`);
+210:  }
+214:  }
+219:}
+233:}
+258:        slug = doc.id || `blog-${Date.now()}`;
+259:      }
+264:      }
+265:    });
+269:  } catch (error) {
+273:  }
+292:}
+313:  };
+314:}> {
+320:  } catch (error) {
+323:  }
+336:  }
+340:  }
+344:  }
+368:    },
+369:  };
+370:}
+386:    loc: `${baseUrl}/`,
+390:  });
+393:    loc: `${baseUrl}/about`,
+397:  });
+400:    loc: `${baseUrl}/contact`,
+404:  });
+407:    loc: `${baseUrl}/what-is-the-success-rate-of-debt-settlement-programs`,
+411:  });
+414:    loc: `${baseUrl}/debt-management-services`,
+418:  });
+421:    loc: `${baseUrl}/1-debt-management-services-in-india`,
+425:  });
+428:    loc: `${baseUrl}/1-loan-settlement-services-in-india`,
+432:  });
+435:    loc: `${baseUrl}/can-i-waive-off-100-percent-of-my-loan`,
+439:  });
+442:    loc: `${baseUrl}/loan-management-services`,
+446:  });
+449:    loc: `${baseUrl}/services`,
+453:  });
+456:    loc: `${baseUrl}/resources`,
+460:  });
+463:    loc: `${baseUrl}/terms-and-conditions`,
+467:  });
+470:    loc: `${baseUrl}/privacy-policy`,
+474:  });
+478:    loc: `${baseUrl}/kya-mai-apna-loan-settle-kr-skta-hu`,
+482:  });
+485:    loc: `${baseUrl}/nri-loan-default-india-settlement-from-abroad`,
+489:  });
+492:    loc: `${baseUrl}/full-form-of-ots`,
+496:  });
+499:    loc: `${baseUrl}/loan-settlement-after-crypto-stock-market-loss-india`,
+503:  });
+506:    loc: `${baseUrl}/what-is-loan-settlement-and-how-does-it-work-in-india`,
+510:  });
+513:    loc: `${baseUrl}/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court`,
+517:  });
+520:    loc: `${baseUrl}/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones`,
+524:  });
+527:    loc: `${baseUrl}/can-i-track-my-loan-settlement-status-through-financial-service-websites`,
+531:  });
+534:    loc: `${baseUrl}/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps`,
+538:  });
+541:    loc: `${baseUrl}/find-debt-settlement-services-known-for-effective-negotiation`,
+545:  });
+548:    loc: `${baseUrl}/compare-features-of-loan-settlement-services-offered-by-major-financial-apps`,
+552:  });
+555:    loc: `${baseUrl}/where-can-i-locate-government-approved-consumer-credit-counseling-services-in-chennai`,
+559:  });
+562:    loc: `${baseUrl}/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services`,
+566:  });
+569:    loc: `${baseUrl}/understanding-90-day-loan-default-india`,
+573:  });
+576:    loc: `${baseUrl}/do-banks-file-fir-for-credit-card-dues`,
+580:  });
+583:    loc: `${baseUrl}/bank-froze-salary-account-for-loan-default-how-to-get-salary`,
+587:  });
+590:    loc: `${baseUrl}/is-loan-settlement-illegal-in-india-truth`,
+594:  });
+597:    loc: `${baseUrl}/does-settlement-erase-the-debt-completely`,
+601:  });
+604:    loc: `${baseUrl}/is-cibil-ruined-forever-after-settlement`,
+608:  });
+611:    loc: `${baseUrl}/is-there-a-government-portal-for-debt-collection-complaints`,
+615:  });
+618:    loc: `${baseUrl}/can-recovery-agents-abuse-you-legally-india`,
+622:  });
+625:    loc: `${baseUrl}/quick-loan-relief`,
+629:  });  urls.push({
+630:    loc: `${baseUrl}/is-loan-settlement-a-good-option-for-borrowers`,
+634:  });
+637:    loc: `${baseUrl}/will-banks-blacklist-you-after-loan-settlement`,
+641:  });
+644:    loc: `${baseUrl}/can-you-get-a-loan-again-after-settling-a-previous-loan`,
+648:  });
+651:    loc: `${baseUrl}/what-documents-do-i-need-to-prepare-for-a-loan-settlement-proposal`,
+655:  });
+658:    loc: `${baseUrl}/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms`,
+662:  });
+665:    loc: `${baseUrl}/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank`,
+669:  });
+672:    loc: `${baseUrl}/top-rated-loan-settlement-consultants-for-small-business-loans`,
+676:  });
+679:    loc: `${baseUrl}/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers`,
+683:  });
+686:    loc: `${baseUrl}/how-do-digital-lending-companies-handle-loan-settlement-requests`,
+690:  });
+693:    loc: `${baseUrl}/when-should-you-choose-loan-settlement-instead-of-repayment`,
+697:  });
+700:    loc: `${baseUrl}/how-can-I-negotiate-a-personal-loan-settlement-with-lenders`,
+704:  });
+707:    loc: `${baseUrl}/which-companies-offer-loan-settlement-services-in-india`,
+711:  });
+714:    loc: `${baseUrl}/how-does-settling-a-loan-impact-my-cibil-credit-score`,
+718:  });
+721:    loc: `${baseUrl}/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy`,
+725:  });
+728:    loc: `${baseUrl}/best-apps-for-managing-and-settling-unsecured-loans`,
+732:  });
+735:    loc: `${baseUrl}/which-companies-offer-professional-debt-settlement-services-for-personal-loans`,
+739:  });
+742:    loc: `${baseUrl}/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider`,
+746:  });
+749:    loc: `${baseUrl}/what-are-the-key-benefits-and-drawbacks-of-pursuing-a-loan-settlement`,
+753:  });
+756:    loc: `${baseUrl}/find-reputable-debt-relief-agencies-specializing-in-unsecured-loans-in-bangalore`,
+760:  });
+763:    loc: `${baseUrl}/can-i-use-online-platforms-to-settle-my-home-loan-faster`,
+767:  });
+770:    loc: `${baseUrl}/what-are-the-income-tax-implications-of-a-settled-debt-amount`,
+774:  });
+777:    loc: `${baseUrl}/what-documents-are-required-for-loan-settlement-with-a-professional-service`,
+781:  });
+784:    loc: `${baseUrl}/can-i-settle-my-credit-card-dues-using-third-party-loan-settlement-companies`,
+788:  });
+791:    loc: `${baseUrl}/what-alternatives-exist-to-loan-settlement-for-managing-overwhelming-debt`,
+795:  });
+798:    loc: `${baseUrl}/can-I-get-a-loan-settlement-quote-instantly-from-online-services-`,
+802:  });
+805:    loc: `${baseUrl}/are-there-online-services-that-help-with-loan-settlement-offers`,
+809:  });
+812:    loc: `${baseUrl}/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement`,
+816:  });
+819:    loc: `${baseUrl}/stress-free-debt-free`,
+823:  });
+826:    loc: `${baseUrl}/best-financial-advisors-for-debt-settlement-in-major-indian-cities`,
+830:  });
+832:    loc: `${baseUrl}/what-is-minimum-amount-due-for-credit-card`,
+836:  });
+839:    loc: `${baseUrl}/timely-repayment-of-loan-result`,
+843:  });
+846:    loc: `${baseUrl}/settlement-of-loan-letter`,
+850:  });
+853:    loc: `${baseUrl}/smfg-loan-settlement`,
+857:  });
+860:    loc: `${baseUrl}/which-professional-services-assist-in-negotiating-loan-settlement-terms`,
+864:  });
+867:    loc: `${baseUrl}/what-are-the-interest-savings-by-settling-loans-early-through-digital-services`,
+871:  });
+874:    loc: `${baseUrl}/are-there-specialized-programs-for-settling-student-loan-defaults-in-india`,
+878:  });
+881:    loc: `${baseUrl}/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps`,
+885:  });
+888:    loc: `${baseUrl}/loan-settlement-for-startup-founders`,
+892:  });
+895:    loc: `${baseUrl}/loan-settlement-for-msme-owners`,
+899:  });
+902:    loc: `${baseUrl}/loan-settlement-for-traders`,
+906:  });
+909:    loc: `${baseUrl}/loan-settlement-during-medical-emergency`,
+913:  });
+916:    loc: `${baseUrl}/which-bank-provide-personal-loan-for-cibil-defaulters`,
+920:  });
+922:    loc: `${baseUrl}/legal-notice-for-recovery-of-money`,
+926:  });
+929:    loc: `${baseUrl}/how-to-improve-cibil-score-after-loan-settlement`,
+933:  });
+936:    loc: `${baseUrl}/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices`,
+940:  });
+943:    loc: `${baseUrl}/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief`,
+947:  });
+950:    loc: `${baseUrl}/does-foreclosure-of-loan-affect-cibil`,
+954:  });
+957:    loc: `${baseUrl}/can-i-settle-my-debts-without-using-a-third-party-company`,
+961:  });
+964:    loc: `${baseUrl}/reviews-of-popular-debt-settlement-services-available-to-indian-consumers`,
+968:  });
+971:    loc: `${baseUrl}/how-to-negotiate-a-debt-settlement-with-creditors-in-India`,
+975:  });
+978:    loc: `${baseUrl}/find-reputable-agencies-that-help-settle-credit-card-debt-in-india`,
+982:  });
+985:    loc: `${baseUrl}/best-companies-for-debt-settlement-services-in-india`,
+989:  });
+992:    loc: `${baseUrl}/what-are-the-risks-of-entering-a-debt-settlement-agreement`,
+996:  });
+999:    loc: `${baseUrl}/what-questions-should-i-ask-a-debt-settlement-consultant`,
+1003:  });
+1006:    loc: `${baseUrl}/customer-testimonials-for-debt-settlement-service-providers`,
+1010:  });
+1013:    loc: `${baseUrl}/debt-settlement-options-for-freelancers-and-self-employed-individuals`,
+1017:  });
+1020:    loc: `${baseUrl}/get-a-free-consultation-for-debt-settlement-options`,
+1024:  });
+1027:    loc: `${baseUrl}/which-banks-offer-debt-consolidation-loans-in-india`,
+1031:  });
+1034:    loc: `${baseUrl}/punishment-for-non-payment-of-personal-loan-in-india`,
+1038:  });
+1041:    loc: `${baseUrl}/which-banks-offer-debt-consolidation-loans-for-bad-credit`,
+1045:  });
+1048:    loc: `${baseUrl}/get-contact-details-for-top-rated-debt-resolution-companies-in-india`,
+1052:  });
+1055:    loc: `${baseUrl}/which-credit-card-debt-relief-services-offer-the-best-settlement-options-in-india`,
+1059:  });
+1062:    loc: `${baseUrl}/loan-recovery-agent-near-me`,
+1066:  });
+1069:    loc: `${baseUrl}/support-for-loan-settlement-during-medical-emergencies`,
+1073:  });
+1076:    loc: `${baseUrl}/trading-loan-settlement`,
+1080:  });
+1083:    loc: `${baseUrl}/best-loan-settlement-services-near-me-with-flexible-payment-plans`,
+1087:  });
+1089:    loc: `${baseUrl}/how-to-get-800-credit-score-in-india`,
+1093:  });
+1096:    loc: `${baseUrl}/best-time-for-loan-settlement`,
+1100:  });
+1103:    loc: `${baseUrl}/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees`,
+1107:  });
+1110:    loc: `${baseUrl}/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances`,
+1114:  });
+1117:    loc: `${baseUrl}/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india`,
+1121:  });
+1124:    loc: `${baseUrl}/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts`,
+1128:  });
+1131:    loc: `${baseUrl}/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender`,
+1135:  });
+1138:    loc: `${baseUrl}/how-to-document-evidence-of-debt-collector-harassment`,
+1142:  });
+1145:    loc: `${baseUrl}/affordable-debt-settlement-plans-for-salaried-individuals`,
+1149:  });
+1152:    loc: `${baseUrl}/how-do-online-debt-settlement-platforms-work-in-india`,
+1156:  });
+1159:    loc: `${baseUrl}/can-i-settle-credit-card-debt-through-a-debt-settlement-service`,
+1163:  });
+1166:    loc: `${baseUrl}/how-to-avoid-scams-in-the-debt-settlement-industry`,
+1170:  });
+1174:    loc: `${baseUrl}/loan-settlement`,
+1178:  });
+1182:    loc: `${baseUrl}/loan-settlement/hdfc`,
+1186:  });
+1190:    loc: `${baseUrl}/loan-settlement/sbi`,
+1194:  });
+1197:    loc: `${baseUrl}/loan-settlement/indusind`,
+1201:  });
+1205:    loc: `${baseUrl}/loan-settlement/icici`,
+1209:  });
+1213:    loc: `${baseUrl}/loan-settlement/idfc`,
+1217:  });
+1221:    loc: `${baseUrl}/loan-settlement/kotak`,
+1225:  });
+1229:    loc: `${baseUrl}/loan-settlement/yes-bank`,
+1233:  });
+1237:    loc: `${baseUrl}/loan-settlement/axis-bank`,
+1241:  });
+1245:    loc: `${baseUrl}/loan-settlement/dmi-finance`,
+1249:  });
+1253:    loc: `${baseUrl}/loan-settlement/rbl-bank`,
+1257:  });
+1261:    loc: `${baseUrl}/loan-settlement/bajaj-finserv`,
+1265:  });
+1269:    loc: `${baseUrl}/loan-settlement/hero-fincorp`,
+1273:  });
+1277:    loc: `${baseUrl}/loan-settlement/aditya-birla`,
+1281:  });
+1285:    loc: `${baseUrl}/loan-settlement/federal-bank`,
+1289:  });
+1293:    loc: `${baseUrl}/loan-settlement/union-bank`,
+1297:  });
+1301:    loc: `${baseUrl}/loan-settlement/bank-of-baroda`,
+1305:  });
+1309:    loc: `${baseUrl}/loan-settlement/kisetsu`,
+1313:  });
+1317:    loc: `${baseUrl}/loan-settlement/smfg-india-credit`,
+1321:  });
+1325:    loc: `${baseUrl}/loan-settlement/fibe`,
+1329:  });
+1333:    loc: `${baseUrl}/best-lawyer-for-MSME-loan-recovery-defence`,
+1337:  });
+1340:    loc: `${baseUrl}/best-lawyer-for-MSME-personal-loan`,
+1344:  });
+1347:    loc: `${baseUrl}/best-lawyer-for-personal-loans`,
+1351:  });
+1354:    loc: `${baseUrl}/best-lawyer-for-bank-loan-recovery-defence`,
+1358:  });
+1361:    loc: `${baseUrl}/best-lawyers-for-bounced-security-check-for-loans-and-credit-card-disputes`,
+1365:  });
+1368:    loc: `${baseUrl}/best-lawyer-for-drt-case-defence-for-bank-loan-recovery`,
+1372:  });
+1375:    loc: `${baseUrl}/best-lawyer-for-loan-settlement-during-drt`,
+1379:  });
+1382:    loc: `${baseUrl}/best-project-finance-builder-loan-recovery-matter-lawyer`,
+1386:  });
+1389:    loc: `${baseUrl}/best-loan-agreement-arbitration-lawyer`,
+1393:  });
+1396:    loc: `${baseUrl}/best-lawyer-for-home-loan-check-bounce-case`,
+1400:  });
+1403:    loc: `${baseUrl}/drt-lawyer-in-mumbai-loan-recovery`,
+1407:  });
+1410:    loc: `${baseUrl}/best-lawyer-for-account-documents-drt`,
+1414:  });
+1417:    loc: `${baseUrl}/best-lawyer-for-loan-recovery-documentation`,
+1421:  });
+1424:    loc: `${baseUrl}/best-lawyer-for-documentation-review-of-loan-agreement`,
+1428:  });
+1431:    loc: `${baseUrl}/best-lawyer-for-arc-loan-assignment-dispute`,
+1435:  });
+1439:    loc: `${baseUrl}/best-lawyer-for-msme-business-loan-dispute`,
+1443:  });
+1446:    loc: `${baseUrl}/best-lawyer-for-loan-settlement-by-drt`,
+1450:  });
+1453:    loc: `${baseUrl}/best-lawyer-for-notice-for-loan-default`,
+1457:  });
+1460:    loc: `${baseUrl}/best-lawyer-for-drt-loan-assignment-dispute-defence-in-drt`,
+1464:  });
+1467:    loc: `${baseUrl}/best-lawyer-for-msme-and-business-loans`,
+1471:  });
+1474:    loc: `${baseUrl}/best-lawyer-for-company-loan-matters`,
+1478:  });
+1481:    loc: `${baseUrl}/best-lawyer-for-notice-for-default-on-mortgage-or-loan-repayment`,
+1485:  });
+1488:    loc: `${baseUrl}/best-lawyer-for-consortium-loan-recovery-defence`,
+1492:  });
+1495:    loc: `${baseUrl}/loan-agreement-drafting-review`,
+1499:  });
+1502:    loc: `${baseUrl}/best-nbfc-loan-settlement-lawyer`,
+1506:  });
+1509:    loc: `${baseUrl}/SME-loan-dispute-resolution`,
+1513:  });
+1516:    loc: `${baseUrl}/mudra-loan-settlement-legal-help`,
+1520:  });
+1523:    loc: `${baseUrl}/dispute-over-forged-loan-signatures`,
+1527:  });
+1530:    loc: `${baseUrl}/rbi-new-recovery-guidelines-july-2026`,
+1534:  });
+1537:    loc: `${baseUrl}/bank-sent-legal-notice-for-loan-what-to-do`,
+1541:  });
+1544:    loc: `${baseUrl}/can-bank-file-case-for-personal-loan`,
+1548:  });
+1551:    loc: `${baseUrl}/legal-action-for-credit-card-default`,
+1555:  });
+1558:    loc: `${baseUrl}/bank-arbitration-notice-loan`,
+1562:  });
+1565:    loc: `${baseUrl}/bank-recovery-case-in-court`,
+1569:  });
+1572:    loc: `${baseUrl}/recovery-agents-threatening-me-what-to-do`,
+1576:  });
+1579:    loc: `${baseUrl}/bank-recovery-harassment-complaint`,
+1583:  });
+1586:    loc: `${baseUrl}/rbi-rules-for-recovery-agents`,
+1590:  });
+1593:    loc: `${baseUrl}/can-recovery-agents-come-home`,
+1597:  });
+1600:    loc: `${baseUrl}/recovery-agents-calling-family-members-law`,
+1604:  });
+1607:    loc: `${baseUrl}/can-i-go-to-jail-for-loan-default-in-india`,
+1611:  });
+1614:    loc: `${baseUrl}/police-case-for-credit-card-debt`,
+1618:  });
+1621:    loc: `${baseUrl}/bank-filed-fir-for-loan-default`,
+1625:  });
+1628:    loc: `${baseUrl}/startup-loan-legal-advisory`,
+1632:  });
+1635:    loc: `${baseUrl}/working-capital-loan-legal-help`,
+1639:  });
+1642:    loc: `${baseUrl}/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan`,
+1646:  });
+1649:    loc: `${baseUrl}/loan-taken-in-spouse-name-without-consent-what-to-do`,
+1653:  });
+1656:    loc: `${baseUrl}/legal-case-for-loan-sanction-without-consent`,
+1660:  });
+1663:    loc: `${baseUrl}/loan-default-recovery-freeze-defense`,
+1667:  });
+1670:    loc: `${baseUrl}/post-loan-settlement-legal-help`,
+1674:  });
+1677:    loc: `${baseUrl}/digital-online-cyber-loan-disputes`,
+1681:  });
+1684:    loc: `${baseUrl}/business-corporate-loan-matters`,
+1688:  });
+1691:    loc: `${baseUrl}/loan-default-emi-foreclosure-assistance`,
+1695:  });
+1698:    loc: `${baseUrl}/legal-help-for-non-closure-of-settled-loan`,
+1702:  });
+1705:    loc: `${baseUrl}/best-loan-emi-settlement-lawyer`,
+1709:  });
+1712:    loc: `${baseUrl}/loan-parties-dispute-resolution`,
+1716:  });
+1720:    loc: `${baseUrl}/loan-settlement/poonawalla`,
+1724:  });
+1728:    loc: `${baseUrl}/loan-settlement/tata-capital`,
+1732:  });
+1736:    loc: `${baseUrl}/loan-settlement/krazybee`,
+1740:  });
+1744:    loc: `${baseUrl}/loan-settlement/au-small-finance-bank`,
+1748:  });
+1752:    loc: `${baseUrl}/loan-settlement/piramal-finance`,
+1756:  });
+1760:    loc: `${baseUrl}/loan-settlement/stashfin`,
+1764:  });
+1768:    loc: `${baseUrl}/loan-settlement/payu-finance`,
+1772:  });
+1776:    loc: `${baseUrl}/loan-settlement/maharashtra`,
+1780:  });
+1784:    loc: `${baseUrl}/loan-settlement/delhi`,
+1788:  });
+1792:    loc: `${baseUrl}/loan-settlement/karnataka`,
+1796:  });
+1800:    loc: `${baseUrl}/loan-settlement/rajasthan`,
+1804:  });
+1808:    loc: `${baseUrl}/loan-settlement/haryana`,
+1812:  });
+1816:    loc: `${baseUrl}/loan-settlement/gujarat`,
+1820:  });
+1824:    loc: `${baseUrl}/loan-settlement/west-bengal`,
+1828:  });
+1832:    loc: `${baseUrl}/loan-settlement/tamil-nadu`,
+1836:  });
+1840:    loc: `${baseUrl}/loan-settlement/uttar-pradesh`,
+1844:  });
+1848:    loc: `${baseUrl}/loan-settlement/andhra-pradesh`,
+1852:  });
+1856:    loc: `${baseUrl}/loan-settlement/telangana`,
+1860:  });
+1863:    loc: `${baseUrl}/what-is-npa`,
+1867:  });
+1871:    loc: `${baseUrl}/cheque-bounce-case-in-kolkata`,
+1875:  });
+1879:    loc: `${baseUrl}/cheque-bounce-case-in-ahmedabad`,
+1883:  });
+1887:    loc: `${baseUrl}/cheque-bounce-case-in-delhi`,
+1891:  });
+1895:    loc: `${baseUrl}/cheque-bounce-case-in-noida`,
+1899:  });
+1903:    loc: `${baseUrl}/best-lawyer-for-secured-loan-litigation-drt`,
+1907:  });
+1911:    loc: `${baseUrl}/best-lawyer-for-car-loan-settlement`,
+1915:  });
+1919:    loc: `${baseUrl}/best-check-bounce-lawyer-for-loan-case`,
+1923:  });
+1927:    loc: `${baseUrl}/which-loan-settlement-service-offers-the-fastest-resolution-for-personal-loans`,
+1931:  });
+1934:    loc: `${baseUrl}/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi`,
+1938:  });
+1942:    loc: `${baseUrl}/how-to-handle-recovery-agent-harrasment`,
+1946:  });
+1950:    loc: `${baseUrl}/how-to-stop-recovery-agent-home-visit`,
+1954:  });
+1958:    loc: `${baseUrl}/how-to-stop-recovery-agent-harassment`,
+1962:  });
+1966:    loc: `${baseUrl}/how-to-ask-bank-for-settlement`,
+1970:  });
+1974:    loc: `${baseUrl}/can-i-settle-loan-for-free`,
+1978:  });
+1982:    loc: `${baseUrl}/loan-settlement-vs-repayment`,
+1986:  });
+1990:    loc: `${baseUrl}/is-loan-settlement-a-good-option`,
+1994:  });
+1998:    loc: `${baseUrl}/what-are-the-advantages-and-disadvantages-of-loan-settlement`,
+2002:  });
+2006:    loc: `${baseUrl}/how-does-loan-settlement-affect-your-financial-health-in-long-term`,
+2010:  });
+2014:    loc: `${baseUrl}/does-loan-settlement-affect-cibil`,
+2018:  });
+2022:    loc: `${baseUrl}/bajaj-finance-recovery-agent-harassment-home-visit`,
+2026:  });
+2030:    loc: `${baseUrl}/rbl-bank-harrasement-home-visit`,
+2034:  });
+2038:    loc: `${baseUrl}/what-steps-should-i-take-before-negotiating-a-loan-settlement-with-my-lender`,
+2042:  });
+2046:    loc: `${baseUrl}/best-lawyer-for-loan-recovery-cases`,
+2050:  });
+2054:    loc: `${baseUrl}/best-lawyer-for-msme-loan-disputes`,
+2058:  });
+2062:    loc: `${baseUrl}/best-lawyer-for-bank-harassment-for-loan`,
+2066:  });
+2070:    loc: `${baseUrl}/how-to-settle-7-days-loan-app`,
+2074:  });
+2078:    loc: `${baseUrl}/loan-settlement-during-divorce-joint-loan-india`,
+2082:  });
+2086:    loc: `${baseUrl}/loan-recovery-after-death-of-borrower-legal-heir-rights-india`,
+2090:  });
+2094:    loc: `${baseUrl}/best-lawyer-for-loan-contract`,
+2098:  });
+2102:    loc: `${baseUrl}/best-lawyer-for-home-loan-settlement`,
+2106:  });
+2110:    loc: `${baseUrl}/best-lawyer-for-loan-and-mortgage-agreements`,
+2114:  });
+2118:    loc: `${baseUrl}/best-lawyer-for-education-loan-settlement`,
+2122:  });
+2126:    loc: `${baseUrl}/best-lawyer-for-loan-against-property-settlement`,
+2130:  });
+2133:    loc: `${baseUrl}/best-lawyer-for-business-loan-settlement`,
+2137:  });
+2141:    loc: `${baseUrl}/best-lawyer-for-loan-agreement`,
+2145:  });
+2149:    loc: `${baseUrl}/best-lawyer-for-trading-loan-settlement`,
+2153:  });
+2158:    loc: `${baseUrl}/best-lawyer-for-unsecured-loan`,
+2162:  });
+2166:    loc: `${baseUrl}/best-lawyer-to-challenge-loan-assignment-to-arc`,
+2170:  });
+2174:    loc: `${baseUrl}/best-lawyer-for-MSME-loan-recovery-defence`,
+2178:  });
+2182:    loc: `${baseUrl}/best-lawyer-for-MSME-personal-loan`,
+2186:  });
+2190:    loc: `${baseUrl}/bad-loan-recovery-strategy`,
+2194:  });
+2198:    loc: `${baseUrl}/best-microfinance-loan-settlement-lawyer`,
+2202:  });
+2206:    loc: `${baseUrl}/what-questions-should-i-ask-a-debt-settlement-consultant`,
+2210:  });
+2213:    loc: `${baseUrl}/customer-testimonials-for-debt-settlement-service-providers`,
+2217:  });
+2220:    loc: `${baseUrl}/debt-settlement-services-that-work-with-multiple-creditors`,
+2224:  });
+2228:    loc: `${baseUrl}/what-is-minimun-debt-amount-required-for-settlement-programs`,
+2232:  });
+2236:    loc: `${baseUrl}/are-there-legal-implecations-or-non-payment-during-debt-settlement`,
+2240:  });
+2244:    loc: `${baseUrl}/how-long-does-a-debt-settlement-typically-take`,
+2248:  });
+2252:    loc: `${baseUrl}/debt-settlement-offers-for-business-loans`,
+2256:  });
+2260:    loc: `${baseUrl}/compare-debt-settlement-fees-and-success-rate`,
+2264:  });
+2268:    loc: `${baseUrl}/how-to-choose-a-trustworthy-debt-settlement-provider`,
+2272:  });
+2276:    loc: `${baseUrl}/how-to-find-a-trustworthy-debt-settlement-agency-near-me`,
+2280:  });
+2283:    loc: `${baseUrl}/what-is-the-success-rate-of-debt-settlement-programs`,
+2287:  });
+2290:    loc: `${baseUrl}/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages`,
+2294:  });
+2297:    loc: `${baseUrl}/how-to-deal-with-collection-calls-while-in-a-debt-settlement-program`,
+2301:  });
+2304:    loc: `${baseUrl}/find-alternatives-solutions-to-debt-settlement-for-small-debts`,
+2308:  });
+2311:    loc: `${baseUrl}/find-alternatives-solutions-to-debt-settlement-for-small-debts`,
+2315:  });
+2318:    loc: `${baseUrl}/debt-settlement-vs-bankruptcy`,
+2322:  });
+2325:    loc: `${baseUrl}/what-documents-are-needed-for-debt-settlement-services`,
+2329:  });
+2332:    loc: `${baseUrl}/what-are-the-consumer-protection-laws-related-to-debt-settlement-in-india`,
+2336:  });
+2339:    loc: `${baseUrl}/debt-settlement-vs-debt-consolidation`,
+2343:  });
+2346:    loc: `${baseUrl}/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose`,
+2350:  });
+2353:    loc: `${baseUrl}/how-to-negotiate-a-lower-principal-amount-for-creditors`,
+2357:  });
+2360:    loc: `${baseUrl}/what-are-the-legal-risks-associated-with-defaulting-on-a-loan-without-settlement`,
+2364:  });
+2367:    loc: `${baseUrl}/what-are-user-reviews-for-popular-loan-settlement-platforms`,
+2371:  });
+2374:    loc: `${baseUrl}/can-i-settle-my-credit-card-dues-using-third-party-loan-settlement-companies`,
+2378:  });
+2381:    loc: `${baseUrl}/what-alternatives-exist-to-loan-settlement-for-managing-overwhelming-debt`,
+2385:  });
+2388:    loc: `${baseUrl}/are-there-any-government-approved-loan-settlement-services-available-online`,
+2392:  });
+2395:    loc: `${baseUrl}/request-a-free-evaluation-of-my-debt-situation-from-a-settlement-firm`,
+2399:  });
+2401:    loc: `${baseUrl}/do-banks-file-fir-for-credit-card-dues`,
+2405:  });
+2408:    loc: `${baseUrl}/loan-settlement-for-salaried-people`,
+2412:  });
+2415:    loc: `${baseUrl}/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india`,
+2419:  });
+2422:    loc: `${baseUrl}/rbi-july-2026-recovery-guidelines`,
+2426:  });
+2429:    loc: `${baseUrl}/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt`,
+2433:  });
+2437:    loc: `${baseUrl}/bank-calling-references-and-family-members`,
+2441:  });
+2444:    loc: `${baseUrl}/can-I-settle-my-home-loan`,
+2448:  });
+2451:    loc: `${baseUrl}/can-i-convert-settled-to-closed-later`,
+2455:  });
+2458:    loc: `${baseUrl}/can-i-settle-my-loan-without-a-lawyer`,
+2462:  });
+2465:    loc: `${baseUrl}/cred-settle-plan-for-building-debt-free-future-after-settlement`,
+2469:  });
+2472:    loc: `${baseUrl}/cred-settle-support-for-avoiding-aggressive-recovery-practices`,
+2476:  });
+2479:    loc: `${baseUrl}/credsettle-reviews-and-comparisons-with-other-credit-card-debt-relief-providers-in-india`,
+2483:  });
+2486:    loc: `${baseUrl}/credsettle-vs-other-debt-settlement-companies-in-india-which-is-more-effective`,
+2490:  });
+2493:    loc: `${baseUrl}/does-settlement-impact-a-co-borrower`,
+2497:  });
+2500:    loc: `${baseUrl}/explain-the-difference-between-a-loan-write-off-and-a-loan-settlement`,
+2504:  });
+2507:    loc: `${baseUrl}/where-to-find-lawyers-specializing-in-consumer-debt-protection`,
+2511:  });
+2514:    loc: `${baseUrl}/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents`,
+2518:  });
+2521:    loc: `${baseUrl}/how-to-protect-family-members-from-debt-collector-calls`,
+2525:  });
+2528:    loc: `${baseUrl}/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases`,
+2532:  });
+2535:    loc: `${baseUrl}/what-are-the-best-loan-settlement-services-in-india-for-high-value-debts`,
+2539:  });
+2542:    loc: `${baseUrl}/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment`,
+2546:  });
+2549:    loc: `${baseUrl}/find-certified-financial-planners-who-specialize-in-debt-restructuring-and-settlement`,
+2553:  });
+2556:    loc: `${baseUrl}/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt`,
+2560:  });
+2563:    loc: `${baseUrl}/handle-loan-default-without-panicking`,
+2567:  });
+2570:    loc: `${baseUrl}/home-loan-eligibility-after-settlement`,
+2574:  });
+2577:    loc: `${baseUrl}/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender`,
+2581:  });
+2584:    loc: `${baseUrl}/how-do-peer-to-peer-lending-platforms-handle-loan-settlements`,
+2588:  });
+2591:    loc: `${baseUrl}/how-to-avoid-debt-settlement-scams-in-india`,
+2595:  });
+2598:    loc: `${baseUrl}/how-to-check-active-loan-on-your-name-in-india-stepbystep-guide`,
+2602:  });
+2605:    loc: `${baseUrl}/how-to-get-freed-from-debt`,
+2609:  });
+2612:    loc: `${baseUrl}/how-to-identify-fake-recovery-agents`,
+2616:  });
+2619:    loc: `${baseUrl}/how-to-initiate-a-loan-settlement-request-through-a-banks-online-portal`,
+2623:  });
+2626:    loc: `${baseUrl}/how-to-settle-loan`,
+2630:  });
+2633:    loc: `${baseUrl}/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers`,
+2637:  });
+2640:    loc: `${baseUrl}/is-loan-settlement-in-installments-possible`,
+2644:  });
+2647:    loc: `${baseUrl}/legal-notice-for-loan-settlement-harassment`,
+2651:  });
+2654:    loc: `${baseUrl}/loan-settlement-by-bank`,
+2658:  });
+2661:    loc: `${baseUrl}/loan-settlement-by-city`,
+2665:  });
+2668:    loc: `${baseUrl}/loan-settlement-for-borrowers-facing-economic-downturn`,
+2672:  });
+2675:    loc: `${baseUrl}/loan-settlement-for-borrowers-planning-financial-reset`,
+2679:  });
+2682:    loc: `${baseUrl}/loan-settlement-for-self-employed`,
+2686:  });
+2689:    loc: `${baseUrl}/loan-settlement-letter-format-noc-format`,
+2693:  });
+2696:    loc: `${baseUrl}/loan-settlement-process-in-hindi`,
+2700:  });
+2703:    loc: `${baseUrl}/p2p-crypto-scam-unfreeze-bank-account`,
+2707:  });
+2710:    loc: `${baseUrl}/rbi-guidelines-calling-after-7pm`,
+2714:  });
+2717:    loc: `${baseUrl}/smart-ways-to-manage-emi-payment`,
+2721:  });
+2724:    loc: `${baseUrl}/what-alternatives-exist-to-loan-settlement-services-for-debt-relief-online`,
+2728:  });
+2731:    loc: `${baseUrl}/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms`,
+2735:  });
+2738:    loc: `${baseUrl}/what-are-the-consequences-of-not-paying-emi`,
+2742:  });
+2745:    loc: `${baseUrl}/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms`,
+2749:  });
+2752:    loc: `${baseUrl}/what-customer-support-options-do-loan-settlement-companies-provide`,
+2756:  });
+2759:    loc: `${baseUrl}/what-is-the-average-timeframe-for-completing-a-loan-settlement-process`,
+2763:  });
+2766:    loc: `${baseUrl}/what-is-the-best-way-to-negotiate-loan-settlement`,
+2770:  });
+2773:    loc: `${baseUrl}/what-kind-of-loans-can-not-be-settled`,
+2777:  });
+2780:    loc: `${baseUrl}/what-percentage-do-banks-accept-in-loan-settlement`,
+2784:  });
+2787:    loc: `${baseUrl}/why-does-my-credit-score-drop-even-though-i-pay-on-time`,
+2791:  });
+2794:    loc: `${baseUrl}/what-are-my-rights-when-dealing-with-loan-recovery-agents`,
+2798:  });
+2807:      loc: `${baseUrl}/services/${service}`,
+2811:    });
+2812:  }
+2816:    loc: `${baseUrl}/services/cheque-bounce-lawyer`,
+2820:  });
+2836:      loc: `${baseUrl}/services/${serviceType}`,
+2840:    });
+2848:        loc: `${baseUrl}/services/${serviceType}/${state}`,
+2852:      });
+2853:    }
+2861:        loc: `${baseUrl}/services/${serviceType}/banks/${bank}`,
+2865:      });
+2866:    }
+2867:  }
+2872:  // These are blog posts and articles under /resources/{slug}
+2880:        loc: `${baseUrl}/resources/${slug}`,
+2884:      });
+2885:    }
+2886:  } catch (error) {
+2889:  }
+2893:    loc: `${baseUrl}/are-there-government-backed-programs-for-debt-relief-in-india`,
+2897:  });
+2901:    loc: `${baseUrl}/salary-account-frozen-by-bank`,
+2905:  });
+2909:    loc: `${baseUrl}/what-is-unsecured-personal-loans`,
+2913:  });
+2925:    <loc>${url.loc}</loc>
+2926:    <changefreq>${url.changefreq}</changefreq>
+2927:    <priority>${url.priority}</priority>${url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ''}
+2930:      .join('\n')}
+2938:      <lastmod>${today}</lastmod>
+2944:      <lastmod>${today}</lastmod>
+2950:      <lastmod>${today}</lastmod>
+2956:      <lastmod>${today}</lastmod>
+2962:      <lastmod>${today}</lastmod>
+2974:      <lastmod>${today}</lastmod>
+2991:      <lastmod>${today}</lastmod>
+2997:      <lastmod>${today}</lastmod>
+3003:      <lastmod>${today}</lastmod>
+3014:    loc: `${baseUrl}/recovery-agent-came-to-my-office`,
+3018:  });
+3020:}
+3040:    },
+3041:  });
+3042:}
+3050:}

@@ -397,6 +397,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/settle-10-lakh-credit-card-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/contact`,
     priority: 0.9, // High priority - contact information
     changefreq: 'monthly',
@@ -2992,6 +2999,12 @@ ${urls
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
+  <url>
+    <loc>https://www.credsettle.com/bank-employee-threatening-arrest-on-call</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>`;
 
   return sitemap;
