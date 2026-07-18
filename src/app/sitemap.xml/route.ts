@@ -379,6 +379,13 @@ async function generateSitemap(): Promise<string> {
 
   // ========================================================================
   // SECTION 1: MAIN STATIC PAGES
+  urls.push({
+    loc: `${baseUrl}/rbi-guidelines-for-recovery-agents-2026`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // ========================================================================
   // These are the most important pages on the website (highest priority)
 
@@ -481,6 +488,76 @@ async function generateSitemap(): Promise<string> {
   });
 
   // Generic SEO Educational Pages
+  urls.push({
+    loc: `${baseUrl}/can-i-settle-debt-without-third-party-agency`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-default-crypto-stock-market-loss-india`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/jail-for-not-paying-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/education-loan-default-settlement-india`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-default-crypto-stock-market-loss-india`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/nbfc-recovery-agent-home-visit-stop`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/7-day-loan-app-harassment-morphed-photos`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/msme-business-loan-restructuring-vs-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/cheque-bounce-case-defense-section-138`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/credit-card-settlement-vs-minimum-due`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   urls.push({
     loc: `${baseUrl}/kya-mai-apna-loan-settle-kr-skta-hu`,
     priority: 0.8,

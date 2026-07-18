@@ -1,9 +1,12 @@
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({
-    apiKey: process.env.HELLO_DROP_CHOO,
-});
+let openai: OpenAI | null = null;
+if (process.env.HELLO_DROP_CHOO) {
+    openai = new OpenAI({
+        apiKey: process.env.HELLO_DROP_CHOO,
+    });
+}
 
 export async function POST(request: Request) {
     try {
@@ -11,6 +14,10 @@ export async function POST(request: Request) {
 
         if (!currentContent) {
             return NextResponse.json({ error: 'Current content is required' }, { status: 400 });
+        }
+
+        if (!openai) {
+            return NextResponse.json({ error: 'OpenAI API key is missing' }, { status: 500 });
         }
 
         const systemPrompt = `

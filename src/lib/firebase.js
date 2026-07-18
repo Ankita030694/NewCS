@@ -14,14 +14,34 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-// Initialize Firebase app
-const app = initializeApp(firebaseConfig);
+/** @type {any} */
+let app;
+/** @type {any} */
+let auth;
+/** @type {any} */
+let db;
+/** @type {any} */
+let database;
+/** @type {any} */
+let storage;
 
-// Export necessary Firebase services
-export const auth = getAuth(app);   // Export authentication
-export const db = getFirestore(app);  // Export Firestore
-export const database = getDatabase(app); // Export Realtime Database
-const storage = getStorage(app);
+if (process.env.NEXT_PUBLIC_FIREBASE_API_KEY) {
+  // Initialize Firebase app
+  app = initializeApp(firebaseConfig);
+
+  // Export necessary Firebase services
+  auth = getAuth(app);   // Export authentication
+  db = getFirestore(app);  // Export Firestore
+  database = getDatabase(app); // Export Realtime Database
+  storage = getStorage(app);
+} else {
+  console.warn("Missing NEXT_PUBLIC_FIREBASE_API_KEY. Running Firebase in fallback mode.");
+  app = {};
+  auth = {};
+  db = {};
+  database = {};
+  storage = {};
+}
 
 // Export collection method to use it in your app
-export { getFirestore,collection, storage, app };
+export { auth, db, database, storage, app, getFirestore, collection };

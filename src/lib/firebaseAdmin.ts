@@ -55,8 +55,8 @@ const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
 const privateKey = coercePrivateKey(process.env.FIREBASE_SERVICE_ACCOUNT);
 
 if (!projectId || !clientEmail || !privateKey) {
-  throw new Error(
-    'Missing Firebase Admin credentials. Ensure FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_SERVICE_ACCOUNT (private key) env vars are set correctly.'
+  console.warn(
+    'Missing Firebase Admin credentials. Ensure FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_SERVICE_ACCOUNT (private key) env vars are set correctly. Running in fallback mode.'
   );
 }
 
@@ -71,14 +71,37 @@ const appOptions: AppOptions = {
 
 import { getStorage } from 'firebase-admin/storage';
 
-const isNewApp = getApps().length === 0;
-const app = isNewApp ? initializeApp(appOptions) : getApps()[0];
+export let adminDb: any;
+export let adminStorage: any;
 
-if (isNewApp) {
-  console.log('Firebase Admin initialized for project:', projectId);
+if (projectId && clientEmail && privateKey) {
+  const isNewApp = getApps().length === 0;
+  const app = isNewApp ? initializeApp(appOptions) : getApps()[0];
+
+  if (isNewApp) {
+    console.log('Firebase Admin initialized for project:', projectId);
+  } else {
+    console.log('Firebase Admin reusing existing app for project:', app.options.projectId);
+  }
+
+  adminDb = getFirestore(app);
+  adminStorage = getStorage(app);
 } else {
-  console.log('Firebase Admin reusing existing app for project:', app.options.projectId);
+  // Mock implementations to prevent crashing when used in non-critical paths
+  adminDb = {
+    collection: () => ({
+      doc: () => ({
+        get: async () => ({ exists: false, data: () => ({}) }),
+        set: async () => {},
+      }),
+    }),
+  };
+  adminStorage = {
+    bucket: () => ({
+      file: () => ({
+        save: async () => {},
+        makePublic: async () => {},
+      }),
+    }),
+  };
 }
-
-export const adminDb = getFirestore(app);
-export const adminStorage = getStorage(app);
