@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import CryptoLossClient from './CryptoLossClient';
 
 export const metadata: Metadata = {
@@ -92,7 +94,8 @@ const faqSchema = {
 
 export default function CryptoLossPage() {
     return (
-        <>
+        <div className="bg-white min-h-screen">
+            <Navbar />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
@@ -106,6 +109,7 @@ export default function CryptoLossPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
             <CryptoLossClient />
-        </>
+            <Footer />
+        </div>
     );
 }

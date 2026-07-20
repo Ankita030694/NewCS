@@ -489,7 +489,28 @@ async function generateSitemap(): Promise<string> {
 
   // Generic SEO Educational Pages
   urls.push({
+    loc: `${baseUrl}/drt-jurisdiction-minimum-limit-loan-recovery`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-written-off-vs-settled-cibil-impact`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/can-i-settle-debt-without-third-party-agency`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/voluntary-surrender-vehicle-car-loan-shortfall`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
@@ -503,7 +524,28 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/personal-loan-time-barred-after-3-years-limitation-act`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/legal-notice-to-loan-guarantor-liability`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/jail-for-not-paying-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/sue-bank-recovery-agent-for-defamation-india`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
@@ -3079,6 +3121,24 @@ ${urls
   <url>
     <loc>https://www.credsettle.com/bank-employee-threatening-arrest-on-call</loc>
     <lastmod>2026-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/does-settled-loan-npa-affect-government-job-verification</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/sarfaesi-act-section-13-2-notice-stop-auction</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/drt-jurisdiction-minimum-limit-loan-recovery</loc>
+    <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -14,34 +14,18 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-/** @type {any} */
-let app;
-/** @type {any} */
-let auth;
-/** @type {any} */
-let db;
-/** @type {any} */
-let database;
-/** @type {any} */
-let storage;
-
-if (process.env.NEXT_PUBLIC_FIREBASE_API_KEY) {
-  // Initialize Firebase app
-  app = initializeApp(firebaseConfig);
-
-  // Export necessary Firebase services
-  auth = getAuth(app);   // Export authentication
-  db = getFirestore(app);  // Export Firestore
-  database = getDatabase(app); // Export Realtime Database
-  storage = getStorage(app);
-} else {
-  console.warn("Missing NEXT_PUBLIC_FIREBASE_API_KEY. Running Firebase in fallback mode.");
-  app = {};
-  auth = {};
-  db = {};
-  database = {};
-  storage = {};
+if (!process.env.NEXT_PUBLIC_FIREBASE_API_KEY) {
+  throw new Error("Missing NEXT_PUBLIC_FIREBASE_API_KEY. Ensure environment variables are set correctly.");
 }
+
+// Initialize Firebase app
+const app = initializeApp(firebaseConfig);
+
+// Export necessary Firebase services
+const auth = getAuth(app);   // Export authentication
+const db = getFirestore(app);  // Export Firestore
+const database = getDatabase(app); // Export Realtime Database
+const storage = getStorage(app);
 
 // Export collection method to use it in your app
 export { auth, db, database, storage, app, getFirestore, collection };

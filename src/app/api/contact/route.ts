@@ -48,32 +48,31 @@ export async function POST(request: NextRequest) {
 
     const secretKey = process.env.RECAPTCHA_SECRET_KEY;
     if (!secretKey) {
-      console.warn('RECAPTCHA_SECRET_KEY is not defined in environment variables.');
-    } else {
-      const verifyUrl = `https://www.google.com/recaptcha/api/siteverify`;
-      
-      const formData = new URLSearchParams();
-      formData.append('secret', secretKey);
-      formData.append('response', captchaToken);
+      throw new Error('RECAPTCHA_SECRET_KEY is not defined in environment variables.');
+    }
+    const verifyUrl = `https://www.google.com/recaptcha/api/siteverify`;
+    
+    const formData = new URLSearchParams();
+    formData.append('secret', secretKey);
+    formData.append('response', captchaToken);
 
-      const recaptchaRes = await fetch(verifyUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: formData.toString()
-      });
-      const recaptchaData = await recaptchaRes.json();
-      
-      console.log('reCAPTCHA Verification Score:', recaptchaData.score);
+    const recaptchaRes = await fetch(verifyUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: formData.toString()
+    });
+    const recaptchaData = await recaptchaRes.json();
+    
+    console.log('reCAPTCHA Verification Score:', recaptchaData.score);
 
-      if (!recaptchaData.success || recaptchaData.score < 0.5) {
-        console.error('reCAPTCHA verification failed:', recaptchaData);
-        return NextResponse.json(
-          { error: 'reCAPTCHA verification failed. Please try again.' },
-          { status: 400 }
-        );
-      }
+    if (!recaptchaData.success || recaptchaData.score < 0.5) {
+      console.error('reCAPTCHA verification failed:', recaptchaData);
+      return NextResponse.json(
+        { error: 'reCAPTCHA verification failed. Please try again.' },
+        { status: 400 }
+      );
     }
 
     // Check if user has already submitted a form today (based on phone number)
