@@ -708,7 +708,8 @@ const BlogsDashboard = () => {
       });
 
       if (!response.ok) {
-        throw new Error(`Error: ${response.status}`);
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.details || errorData.error || `Error: ${response.status}`);
       }
 
       const reader = response.body?.getReader();
@@ -747,9 +748,9 @@ const BlogsDashboard = () => {
       // if (generatedData.reviews) { ... }
 
       alert('Blog generated successfully!');
-    } catch (error) {
+    } catch (error: any) {
       console.error('Generation failed:', error);
-      alert('Failed to generate blog. Please try again.');
+      alert(`Failed to generate blog: ${error.message || 'Please try again.'}`);
     } finally {
       setIsGenerating(false);
     }
@@ -776,12 +777,28 @@ const BlogsDashboard = () => {
       }
 
       const data = await response.json();
-      setNewBlog((prev) => ({
-        ...prev,
-        image: data.url,
-      }));
-      setImagePreview(data.url);
-      alert('AI image generated and uploaded successfully!');
+
+      try {
+        const imageRes = await fetch(data.url);
+        const imageBlob = await imageRes.blob();
+        
+        const storageRef = ref(storage, `blog-images/ai_generated_${Date.now()}.png`);
+        const snapshot = await uploadBytes(storageRef, imageBlob);
+        const downloadURL = await getDownloadURL(snapshot.ref);
+        
+        setNewBlog((prev) => ({
+          ...prev,
+          image: downloadURL,
+        }));
+        setImagePreview(downloadURL);
+      } catch (uploadError) {
+        console.error('Failed to upload AI image to Firebase:', uploadError);
+        setNewBlog((prev) => ({
+          ...prev,
+          image: data.url,
+        }));
+        setImagePreview(data.url);
+      }
     } catch (error) {
       console.error('Image generation failed:', error);
       alert('Failed to generate image. Please try again.');
@@ -941,7 +958,7 @@ const BlogsDashboard = () => {
                     setFormMode('add');
                     setShowBlogForm(true);
                   }}
-                  className="bg-[#007AFF] hover:bg-[#005FCC] text-white px-5 py-3 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer shadow-sm"
+                  className="bg-slate-900 hover:bg-slate-800 text-white px-5 py-3 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer shadow-sm"
                 >
                   <FontAwesomeIcon icon={faPlus} />
                   <span>Write Blog Post</span>
@@ -1175,7 +1192,7 @@ const BlogsDashboard = () => {
                       AI Writeup Auto-Generator (ChatGPT)
                     </h3>
                     <p className="text-slate-500 text-[11px] mt-0.5 leading-relaxed normal-case">
-                      Enter blog context or keywords below. ChatGPT will automatically draft the title, subtitle, slug, 3,000+ words detailed rich blog post, 10+ FAQ schemas, and 5+ client reviews.
+                      Paste the raw writeup or primary keyword below. ChatGPT will automatically draft the title, subtitle, slug, detailed rich blog post, 10+ FAQ schemas, and 5+ client reviews.
                     </p>
                   </div>
                 </div>
@@ -1186,7 +1203,7 @@ const BlogsDashboard = () => {
                 <textarea
                   value={blogContext}
                   onChange={(e) => setBlogContext(e.target.value)}
-                  placeholder="e.g. 'Write a detailed guide on how to get freed from a personal loan, explaining the settlement process, RBI guidelines, and how CredSettle helps...'"
+                  placeholder="Enter primary keyword, draft notes, or transcripts for the legal blog here..."
                   rows={4}
                   className="p-3 bg-white border border-slate-200 focus:border-blue-400 focus:ring-2 focus:ring-blue-50 rounded-xl text-xs text-slate-800 focus:outline-none shadow-sm transition-all resize-y"
                   disabled={isGenerating}

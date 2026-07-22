@@ -19,8 +19,11 @@ export async function POST(request: Request) {
   });
 
   const sanitizeText = (txt: string) => txt.replace(/—/g, "-").replace(/\u2014/g, "-");
+  const MAX_TOTAL_TOKENS = 15000;
 
   try {
+    let totalInputTokens = 0;
+    let totalOutputTokens = 0;
     const body = await request.json();
     const primaryKeyword = body.primaryKeyword || body.context || body.writeup;
     const secondaryKeyword = body.secondaryKeyword || body.secondaryKeywords;
@@ -38,7 +41,7 @@ export async function POST(request: Request) {
         {
           role: "system",
           content: `You are a professional legal SEO and AEO strategist.
-Generate an SEO-optimized H1 Title, engaging subtitle, meta title, meta description, and URL slug for a blog article on CredSettle.
+Generate an SEO-optimized H1 Title, engaging subtitle, meta title, meta description, URL slug, and an outline of exactly 8 to 9 highly detailed H2 headings for a blog article on CredSettle.
 Primary Keyword: ${primaryKeyword}
 Secondary Keywords: ${secondaryKeyword || ""}
 
@@ -51,7 +54,8 @@ Return ONLY a JSON object with this exact structure:
   "subtitle": "Engaging subtitle (max 120 chars)",
   "metaTitle": "SEO meta title (60-70 chars)",
   "metaDescription": "SEO meta description (150-160 chars)",
-  "slug": "url-friendly-slug"
+  "slug": "url-friendly-slug",
+  "outline": ["H2 Heading 1", "H2 Heading 2", "H2 Heading 3", "H2 Heading 4", "H2 Heading 5", "H2 Heading 6", "H2 Heading 7", "H2 Heading 8"]
 }`
         }
       ],
@@ -60,72 +64,104 @@ Return ONLY a JSON object with this exact structure:
     });
 
     const step1ResultStr = sanitizeText(step1Completion.choices[0]?.message?.content || "{}");
+    
+    if (step1Completion.usage) {
+      totalInputTokens += step1Completion.usage.prompt_tokens;
+      totalOutputTokens += step1Completion.usage.completion_tokens;
+      console.log(`[Token Usage] Step 1: ${step1Completion.usage.total_tokens} tokens (${step1Completion.usage.prompt_tokens} in, ${step1Completion.usage.completion_tokens} out)`);
+    }
+
     const step1Result = JSON.parse(step1ResultStr);
+    const outline: string[] = step1Result.outline || [];
 
-    console.log(`[AI Generator Flow] Step 1 complete. Title: "${step1Result.title}"`);
-    console.log(`[AI Generator Flow] Step 2: Generating description content (3000+ words HTML)...`);
+    console.log(`[AI Generator Flow] Step 1 complete. Title: "${step1Result.title}". Generated ${outline.length} headings.`);
 
-    // STEP 2: Generate Body
-    const step2SystemPrompt = `
-You are a professional legal content writer and SEO expert. Write a fully human-written, SEO-optimized, exhaustive legal article body for CredSettle (https://www.credsettle.com/).
+    // STEP 2: Generate Body via Iterative Chunking
+    console.log(`[AI Generator Flow] Step 2: Generating description content in chunks...`);
+    
+    let finalHtmlBodyChunks: string[] = [];
+    
+    for (let i = 0; i < outline.length; i++) {
+      // Leave a buffer of ~2000 tokens for Step 3 (FAQs/Reviews)
+      if (totalInputTokens + totalOutputTokens > MAX_TOTAL_TOKENS - 2000) {
+        console.warn(`[AI Generator Flow] Token limit approaching (Limit: ${MAX_TOTAL_TOKENS}). Stopping chunk generation early to save quota.`);
+        break;
+      }
+
+      const heading = outline[i];
+      const isLastHeading = i === outline.length - 1;
+      console.log(`[AI Generator Flow] Generating chunk ${i + 1}/${outline.length}: ${heading}`);
+      
+      const chunkSystemPrompt = `
+You are a professional legal content writer and SEO expert. Write a fully human-written, SEO-optimized, exhaustive legal article section for CredSettle.
 Target Primary Keyword: ${primaryKeyword}
 Secondary Keywords: ${secondaryKeyword || ""}
-Title: ${step1Result.title}
-Subtitle: ${step1Result.subtitle}
+Article Title: ${step1Result.title}
 
-**CRITICAL WORD COUNT REQUIREMENT**:
-The content MUST be extremely detailed, exhaustive, and exceed 4000 words in length.
-To achieve this:
-1. Create at least 15 main H2 sections.
-2. Under EACH H2 section, include at least 4-5 comprehensive, lengthy paragraphs (minimum 300 words per section).
-3. Dive deep into legal precedents, step-by-step procedures, potential pitfalls, historical context, and comprehensive case studies. Do not summarize; explain everything in painstaking detail.
+**CRITICAL REQUIREMENT**:
+Write EXACTLY 300-380 words of HTML content specific ONLY to this H2 section: "<h2>${heading}</h2>".
+Start the response directly with the "<h2>${heading}</h2>" tag, followed by the content.
+Dive deep into legal precedents, procedures, pitfalls, historical context, or case studies where appropriate.
 
 **Requirements**:
-- **Structure**: Use HTML tags: <h2>, <h3>, <h4>, <p>, <ul>, <li>, <table>. Include at least 8 main H2 sections.
+- **Structure**: Use HTML tags: <h2>, <h3>, <h4>, <p>, <ul>, <li>, <table>. 
 - **Tone**: Professional, authoritative, human. Use Indian context (Rupees ₹, RBI, DRT, etc.) naturally.
-- **No Markdown**: Do NOT use markdown headers (like ## or ###) or markdown bold (like **text**). Use HTML tags instead (like <h2>, <h3>, <strong>).
-- **Internal Linking**: You MUST naturally integrate links to the following CredSettle pages where relevant:
+- **No Markdown**: Do NOT use markdown headers (like ##) or markdown formatting. Use HTML tags instead.${isLastHeading ? "" : "\n- **NO CONCLUSIONS**: This is merely ONE section of a larger article. DO NOT write any concluding paragraphs, summaries, 'in conclusion', or wrap-ups at the end of this section. End the section factually and leave it open-ended."}
+- **Internal Linking**: You MUST naturally integrate at least one link to the following CredSettle domain pages where relevant:
   - https://www.credsettle.com/loan-settlement
   - https://www.credsettle.com/services/anti-harassment
   - https://www.credsettle.com/services/personal-loan-settlement
   - https://www.credsettle.com/services/credit-card-settlement
   - https://www.credsettle.com/nbfc-loan-settlement
-- **Do NOT** include any title (H1) or subtitle, as they are already generated. Start directly with the introduction paragraphs.
-- **Do NOT** include any FAQs or Reviews in this content.
-- **Do NOT** wrap the response in markdown code blocks like \`\`\`html or \`\`\`. Output RAW HTML only. Start directly with the first HTML tag (e.g. <h2> or <p>).
+- **Do NOT** include any title (H1), FAQs, or Reviews.
+- **Do NOT** wrap the response in markdown code blocks like \`\`\`html or \`\`\`. Output RAW HTML only.
 - **CRITICAL NEGATIVE CONSTRAINT**:
   Under no circumstances should you include any em dashes (—) anywhere in your entire response. Always use normal hyphens (-), colons, commas, or parentheses if needed instead.
 `;
 
-    const context = body.context || body.writeup;
-    const step2UserMessage = context && context !== primaryKeyword
-      ? `Write an exhaustive, extremely detailed 4000+ words HTML body about: ${primaryKeyword}\nAdditional context & details: ${context}`
-      : `Write an exhaustive, extremely detailed 4000+ words HTML body about: ${primaryKeyword}`;
+      const context = body.context || body.writeup;
+      const chunkUserMessage = context && context !== primaryKeyword
+        ? `Write the 300-380 word HTML section for "<h2>${heading}</h2>".\nAdditional overall context: ${context}`
+        : `Write the 300-380 word HTML section for "<h2>${heading}</h2>".`;
 
-    const step2Completion = await openai.chat.completions.create({
-      model: "gpt-4o",
-      messages: [
-        { role: "system", content: step2SystemPrompt },
-        { role: "user", content: step2UserMessage },
-      ],
-      temperature: 0.8,
-      max_tokens: 10000,
-    });
+      try {
+        const chunkCompletion = await openai.chat.completions.create({
+          model: "gpt-4o",
+          messages: [
+            { role: "system", content: chunkSystemPrompt },
+            { role: "user", content: chunkUserMessage },
+          ],
+          temperature: 0.8,
+        });
 
-    let rawDescription = sanitizeText(step2Completion.choices[0]?.message?.content || "");
+        if (chunkCompletion.usage) {
+          totalInputTokens += chunkCompletion.usage.prompt_tokens;
+          totalOutputTokens += chunkCompletion.usage.completion_tokens;
+          console.log(`[Token Usage] Step 2 Chunk ${i + 1}: ${chunkCompletion.usage.total_tokens} tokens (${chunkCompletion.usage.prompt_tokens} in, ${chunkCompletion.usage.completion_tokens} out)`);
+        }
 
-    // Clean up markdown fences at the root level
-    let cleanedDescription = rawDescription.trim();
-    if (cleanedDescription.startsWith("\`\`\`html")) {
-      cleanedDescription = cleanedDescription.slice(7).trim();
-    } else if (cleanedDescription.startsWith("\`\`\`")) {
-      cleanedDescription = cleanedDescription.slice(3).trim();
+        let rawChunk = sanitizeText(chunkCompletion.choices[0]?.message?.content || "");
+
+        // Clean up markdown fences if present
+        let cleanedChunk = rawChunk.trim();
+        if (cleanedChunk.startsWith("\`\`\`html")) {
+          cleanedChunk = cleanedChunk.slice(7).trim();
+        } else if (cleanedChunk.startsWith("\`\`\`")) {
+          cleanedChunk = cleanedChunk.slice(3).trim();
+        }
+        if (cleanedChunk.endsWith("\`\`\`")) {
+          cleanedChunk = cleanedChunk.slice(0, -3).trim();
+        }
+
+        finalHtmlBodyChunks.push(cleanedChunk);
+      } catch (chunkError) {
+        console.error(`[AI Generator Flow] Error generating chunk for heading "${heading}":`, chunkError);
+        continue;
+      }
     }
-    if (cleanedDescription.endsWith("\`\`\`")) {
-      cleanedDescription = cleanedDescription.slice(0, -3).trim();
-    }
 
-    console.log(`[AI Generator Flow] Step 2 complete. Description length: ${cleanedDescription.split(/\\s+/).length} words.`);
+    const cleanedDescription = finalHtmlBodyChunks.join('\n\n');
+    console.log(`[AI Generator Flow] Step 2 complete. Total description length: ${cleanedDescription.split(/\s+/).length} words.`);
     console.log(`[AI Generator Flow] Step 3: Generating FAQs, reviews, and image prompt...`);
 
     // STEP 3: Generate FAQs and Reviews
@@ -133,19 +169,21 @@ To achieve this:
     let reviews = [];
     let suggestedImagePrompt = "Professional legal recovery illustration";
 
-    try {
+    if (totalInputTokens + totalOutputTokens >= MAX_TOTAL_TOKENS) {
+      console.warn(`[AI Generator Flow] Hard token limit (${MAX_TOTAL_TOKENS}) reached. Skipping FAQs and Reviews to prevent quota overuse.`);
+    } else {
+      try {
       const step3SystemPrompt = `
 You are a legal content strategist and SEO expert for CredSettle.
 Analyze the following generated article Title, Subtitle, and HTML Description, and generate:
 1. At least 8-10 highly relevant, detailed FAQs (frequently asked questions) that directly relate to the article content.
 2. 5 realistic customer review snippets (with Indian names) expressing high satisfaction with the recovery service.
-3. A suggested image prompt describing a premium, conceptual, textless 3D isometric illustration suitable for this article. The prompt MUST be highly descriptive (at least 30-40 words) focusing on abstract geometric shapes representing balance, growth, and security, rather than literal objects like scales or gavels. Explicitly demand "absolutely zero typography, labels, or pseudo-text".
-
+3. A suggested image prompt describing a clean, professional, modern corporate infographic/illustration suitable for this article.
 Article Title: ${step1Result.title}
 Article Subtitle: ${step1Result.subtitle}
 
 Article Description:
-${cleanedDescription}
+${cleanedDescription.substring(0, 4000)}
 
 CRITICAL NEGATIVE CONSTRAINT:
 Under no circumstances should you include any em dashes (—) anywhere in your response. Always use normal hyphens (-), colons (:), commas, parentheses, or rewrite the sentence to avoid them.
@@ -171,6 +209,13 @@ Return ONLY a JSON object with this exact structure:
       });
 
       const step3ResultStr = sanitizeText(step3Completion.choices[0]?.message?.content || "{}");
+      
+      if (step3Completion.usage) {
+        totalInputTokens += step3Completion.usage.prompt_tokens;
+        totalOutputTokens += step3Completion.usage.completion_tokens;
+        console.log(`[Token Usage] Step 3: ${step3Completion.usage.total_tokens} tokens (${step3Completion.usage.prompt_tokens} in, ${step3Completion.usage.completion_tokens} out)`);
+      }
+
       const step3Result = JSON.parse(step3ResultStr);
 
       faqs = step3Result.faqs || [];
@@ -178,9 +223,19 @@ Return ONLY a JSON object with this exact structure:
       suggestedImagePrompt = step3Result.suggestedImagePrompt || suggestedImagePrompt;
 
       console.log(`[AI Generator Flow] Step 3 complete. FAQs: ${faqs.length}, Reviews: ${reviews.length}`);
-    } catch (step3Error) {
-      console.error("[AI Generator Flow] Error in Step 3:", step3Error);
+      } catch (step3Error) {
+        console.error("[AI Generator Flow] Error in Step 3:", step3Error);
+      }
     }
+
+    const totalTokensAllSteps = totalInputTokens + totalOutputTokens;
+    console.log(`=========================================`);
+    console.log(`[Token Usage Summary] FULL GENERATION`);
+    console.log(`Total Input Tokens: ${totalInputTokens}`);
+    console.log(`Total Output Tokens: ${totalOutputTokens}`);
+    console.log(`Total Combined Tokens: ${totalTokensAllSteps}`);
+    console.log(`Estimated Cost (gpt-4o): ~$${((totalInputTokens / 1000000) * 5.00 + (totalOutputTokens / 1000000) * 15.00).toFixed(4)}`);
+    console.log(`=========================================`);
 
     // Build the final unified JSON object
     const finalResult = {

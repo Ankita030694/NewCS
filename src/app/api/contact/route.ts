@@ -52,16 +52,16 @@ export async function POST(request: NextRequest) {
     }
     const verifyUrl = `https://www.google.com/recaptcha/api/siteverify`;
     
-    const formData = new URLSearchParams();
-    formData.append('secret', secretKey);
-    formData.append('response', captchaToken);
+    const captchaFormData = new URLSearchParams();
+    captchaFormData.append('secret', secretKey);
+    captchaFormData.append('response', captchaToken);
 
     const recaptchaRes = await fetch(verifyUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
       },
-      body: formData.toString()
+      body: captchaFormData.toString()
     });
     const recaptchaData = await recaptchaRes.json();
     
