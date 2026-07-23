@@ -3,7 +3,7 @@ import OpenAI from 'openai';
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export async function POST(request: Request) {
   const apiKey = process.env.HELLO_DROP_CHOO;
