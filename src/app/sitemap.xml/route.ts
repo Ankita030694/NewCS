@@ -323,7 +323,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 154; // Updated for new loan management services page & comparison page.
+  const mainStaticPages = 158; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -382,6 +382,34 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/rbi-guidelines-for-recovery-agents-2026`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-emi-overdue-1-day-what-happens`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-overdue-nach-bounce-immediate-steps`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-regularise-overdue-loan-account-npa-to-standard`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-bank-contact-guarantor-for-recovery`,
+    priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -489,6 +517,36 @@ async function generateSitemap(): Promise<string> {
 
   // Generic SEO Educational Pages
   urls.push({
+    loc: `${baseUrl}/prepaying-loan-impact-on-credit-score`,
+    priority: 0.8,
+    changefreq: "weekly",
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/foreclosure-and-part-prepayment-charges-on-personal-loan`,
+    priority: 0.8,
+    changefreq: "weekly",
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/how-does-long-lien-stay-after-foreclosure`,
+    priority: 0.8,
+    changefreq: "weekly",
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/receive-documents-after-loan-pre-closure`,
+    priority: 0.8,
+    changefreq: "weekly",
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/auction-settlement-process-loan-recovery-explained`,
+    priority: 0.8,
+    changefreq: "weekly",
+    lastmod: today
+  });
+  urls.push({
     loc: `${baseUrl}/drt-jurisdiction-minimum-limit-loan-recovery`,
     priority: 0.8,
     changefreq: 'weekly',
@@ -496,7 +554,49 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/how-to-reply-sarfaesi-notice`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/cibil-dispute-wrong-overdue-entry-filing-process`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/loan-written-off-vs-settled-cibil-impact`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-improve-cibil-score`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/check-free-cibil-score`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/experian-credit-history`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-credit-pulse-report`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
@@ -601,6 +701,55 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/credit-card-partial-payment`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-partial-payment`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/prepayment-reflection-time-in-loan-account`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-i-pay-extra-emi-for-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/interest-rate-recalculate-after-prepayment`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-line-of-credit`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/credit-card-legal-notice-process-next-steps`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/kya-mai-apna-loan-settle-kr-skta-hu`,
     priority: 0.8,
     changefreq: 'weekly',
@@ -624,6 +773,27 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/loan-settlement-after-crypto-stock-market-loss-india`,
     priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/check-loan-settlement-status`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-recovery-notice`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-foreclosure-prepayment-charges-waiver`,
+    priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
   });
@@ -752,7 +922,65 @@ async function generateSitemap(): Promise<string> {
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
-  });  urls.push({
+  });
+
+  urls.push({
+    loc: `${baseUrl}/missed-car-loan-emi-more-than-90-days`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/why-emi-payment-keep-failing`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-check-if-bank-account-is-blocked-before-emi`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/is-pre-closure-of-a-personal-loan-a-good-choice`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-payment-is-not-reflected-on-time`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-to-check-the-cibil-defaulter-list`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/education-loan-default-consequences`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-process-consequences`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/is-loan-settlement-a-good-option-for-borrowers`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -2327,6 +2555,22 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
+  // Loan Auction Notice Options page
+  urls.push({
+    loc: `${baseUrl}/loan-auction-notice-stop-postpone-cancel-options`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  // Ignoring Legal Notices for Financial Default page
+  urls.push({
+    loc: `${baseUrl}/ignoring-legal-notices-financial-default-consequences`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   // What Questions Should I Ask a Debt Settlement Consultant page
   urls.push({
     loc: `${baseUrl}/what-questions-should-i-ask-a-debt-settlement-consultant`,
@@ -2918,6 +3162,13 @@ async function generateSitemap(): Promise<string> {
 
   urls.push({
     loc: `${baseUrl}/what-are-my-rights-when-dealing-with-loan-recovery-agents`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/application-to-unblock-bank-account-for-loan-emi`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
