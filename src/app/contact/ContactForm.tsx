@@ -568,6 +568,9 @@ export default function ContactForm() {
             placeholder="Your Queries"
           />
         </div>
+        <p className="text-center text-[10px] md:text-[11px] text-[#0C2756] font-medium leading-snug mt-1 mb-2">
+          By clicking submit, you agree to share these details with us for the purpose of contacting you regarding our services. Please read our <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" style={{ color: '#D97706' }} className="hover:underline">Privacy Policy</a> for more details.
+        </p>
         <button
           type="submit"
           disabled={loading || alreadySubmittedToday}

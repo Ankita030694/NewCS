@@ -161,7 +161,8 @@ const SECTIONS = [
       'Access Your Information: You may request access to the personal data we store about you.',
       'Update or Correct Data: You can request corrections to any inaccurate or incomplete information.',
       'Withdraw Consent: You may withdraw your consent for communications or data usage where applicable.',
-      'Request Deletion: Users may request deletion of their account and associated personal data directly through the “Delete Account” option available within the Account section of the application. Alternatively, users can contact our support team for assistance with account deletion requests.'
+      'Request Deletion: Users may request deletion of their account and associated personal data directly through the “Delete Account” option available within the Account section of the application. Alternatively, users can contact our support team for assistance with account deletion requests.',
+      'Right to Nominate: You have the right to nominate any other individual who shall, in the event of your death or incapacity, be permitted to exercise your rights regarding your personal data.'
     ],
     footer:
       'To exercise any of these rights or for any privacy-related concerns, you can contact us at info@credsettle.com. We will review and respond to all legitimate requests within a reasonable timeframe as required by applicable laws.',
@@ -193,6 +194,20 @@ const SECTIONS = [
     title: 'Information Security',
     description:
       'We implement industry-standard safeguards (including SSL encryption, access controls, and regular audits) to protect your information. While no Internet transmission is 100% secure, we continually strengthen our defences.',
+    bullets: [
+      'In the unlikely event of a personal data breach, we will notify the Data Protection Board of India and affected users as mandated by the DPDP Act, 2023.'
+    ]
+  },
+  {
+    icon: 'fa-envelope-open-text',
+    title: 'Grievance Redressal',
+    description:
+      'In accordance with the Digital Personal Data Protection Act, 2023, if you have any grievances regarding the processing of your personal data, you may contact our Grievance Officer.',
+    bullets: [
+      'Grievance Officer: Legal & Compliance Team',
+      'Email: info@credsettle.com',
+    ],
+    footer: 'We will acknowledge and resolve your grievance within the timeframe mandated by law.',
   },
   {
     icon: 'fa-bullhorn',
