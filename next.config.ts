@@ -216,6 +216,101 @@ const nextConfig: NextConfig = {
         destination: "/loan-settlement",
         permanent: true,
       },
+      {
+        source: "/bank-recovery-defence",
+        destination: "/bank-recovery-case-in-court",
+        permanent: true,
+      },
+      {
+        source: "/best-lawyer-for-credit-card-debt-settlement",
+        destination: "/credit-card-settlement",
+        permanent: true,
+      },
+      {
+        source: "/cibil-defaulter-list",
+        destination: "/how-to-check-the-cibil-defaulter-list",
+        permanent: true,
+      },
+      {
+        source: "/co-signer-legal-rights-loan-default",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-debt-exit",
+        destination: "/credit-card-settlement",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-debt-exit-strategy",
+        destination: "/credit-card-settlement",
+        permanent: true,
+      },
+      {
+        source: "/drt-specialization",
+        destination: "/services",
+        permanent: true,
+      },
+      {
+        source: "/education-loan-lawyer-india",
+        destination: "/education-loan-default-settlement-india",
+        permanent: true,
+      },
+      {
+        source: "/fake-legal-notice-from-bank-check",
+        destination: "/bank-sent-legal-notice-for-loan-what-to-do",
+        permanent: true,
+      },
+      {
+        source: "/harassment-by-recovery-agents",
+        destination: "/how-to-handle-recovery-agent-harrasement",
+        permanent: true,
+      },
+      {
+        source: "/how-to-delay-loan-repayment-legally",
+        destination: "/resources",
+        permanent: true,
+      },
+      {
+        source: "/how-to-reply-to-legal-notice-for-personal-loan",
+        destination: "/bank-sent-legal-notice-for-loan-what-to-do",
+        permanent: true,
+      },
+      {
+        source: "/how-to-settle-personal-loan",
+        destination: "/how-to-settle-loan",
+        permanent: true,
+      },
+      {
+        source: "/lawyer-to-stop-police-harassment-loan",
+        destination: "/police-case-for-credit-card-debt",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-status",
+        destination: "/check-loan-settlement-status",
+        permanent: true,
+      },
+      {
+        source: "/msme-loan-defence",
+        destination: "/best-lawyer-for-msme-and-business-loans",
+        permanent: true,
+      },
+      {
+        source: "/personal-loan-settlement-calculator",
+        destination: "/personal-loan-settlement",
+        permanent: true,
+      },
+      {
+        source: "/rbi-guidelines-for-loan-recovery",
+        destination: "/rbi-rules-for-recovery-agents",
+        permanent: true,
+      },
+      {
+        source: "/settlement-strategies",
+        destination: "/loan-settlement",
+        permanent: true,
+      },
     ];
   },
 };
