@@ -569,7 +569,7 @@ export default function WhyEmiPaymentKeepFailingClient() {
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Shield</Link>
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-sm text-blue-600 hover:underline">Default Notice Help</Link>
-                                    <Link href="/best-lawyer-for-credit-card-debt-settlement" className="block text-sm text-blue-600 hover:underline">Credit Card Debt Exit</Link>
+                                    <Link href="/best-lawyers-for-bounced-security-check-for-loans-and-credit-card-disputes" className="block text-sm text-blue-600 hover:underline">Credit Card Debt Exit</Link>
                                 </nav>
                             </div>
 

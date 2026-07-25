@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ApplicationToUnblockBankAccountForLoanEmiClient from './ApplicationToUnblockBankAccountForLoanEmiClient';
 
 export const metadata: Metadata = {
-    title: "Application to Unblock Bank Account for Loan EMI (Template & Guide)",
+    title: "Unblock Bank Account for Loan EMI (Template & Guide)",
     description: "Learn how to write an application to unblock your bank account frozen for a loan EMI default. Download the exact legal letter template to submit to your bank manager.",
     keywords: [
         "application to unblock bank account",

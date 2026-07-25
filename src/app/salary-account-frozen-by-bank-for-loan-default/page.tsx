@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import FrozenAccountClient from './FrozenAccountClient';
 
 export const metadata: Metadata = {
-    title: "Salary Account Frozen by Bank for Loan Default: How to Unfreeze It",
+    title: "Salary Account Frozen for Loan Default: How to Unfreeze",
     description: "Learn how to stop illegal auto debits and unfreeze your salary account after a loan default. A legal guide to countering the Banker's Right of Lien in India.",
     keywords: [
         "salary account frozen by bank loan default",

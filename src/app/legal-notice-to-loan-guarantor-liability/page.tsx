@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import GuarantorLiabilityClient from './GuarantorLiabilityClient';
 
 export const metadata: Metadata = {
-    title: 'Legal Notice to Loan Guarantor: Are You Liable if Borrower Defaults?',
+    title: 'Legal Notice to Loan Guarantor: Are You Liable?',
     description: 'Signed as a loan guarantor and received a legal notice? Understand your co-extensive liability, how banks attach assets, and how to take legal action against the primary borrower.',
     alternates: {
         canonical: 'https://www.credsettle.com/legal-notice-to-loan-guarantor-liability',

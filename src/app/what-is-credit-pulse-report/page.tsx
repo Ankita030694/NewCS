@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WhatIsCreditPulseReportClient from './WhatIsCreditPulseReportClient';
 
 export const metadata: Metadata = {
-    title: "What is a Credit Pulse Report? Real-Time Bank Monitoring Explained",
+    title: "What is a Credit Pulse Report? Real-Time Monitoring",
     description: "Discover how banks use advanced analytics like the Credit Pulse Report for real-time credit monitoring, catching financial stress before a default happens.",
     keywords: [
         "what is credit pulse report",

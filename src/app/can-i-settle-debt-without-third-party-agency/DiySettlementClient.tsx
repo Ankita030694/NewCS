@@ -125,12 +125,9 @@ export default function DiySettlementClient() {
                         Avoid upfront fee scams. Learn how to negotiate a DIY settlement and discover when you actually need a professional legal shield.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link
-                            href="/personal-loan-settlement-calculator"
-                            className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                        >
+                        
                             Calculate Your DIY Settlement Target
-                        </Link>
+                        
                     </div>
                 </div>
             </section>
@@ -269,7 +266,7 @@ export default function DiySettlementClient() {
                                     <span className="absolute -left-11 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-xs ring-4 ring-white">3</span>
                                     <h3 id="step-3-drafting-letter" className="text-2xl font-bold text-gray-800 mb-2">Step 3: Drafting the Hardship Letter to the Bank Manager</h3>
                                     <p className="text-gray-700 leading-relaxed mb-4">
-                                        Around day 150, when the bank realizes the telecallers have failed, the account moves to the core collections team. This is your window. You must bypass the agents and draft a formal, physically mailed or emailed Hardship Letter directly to the Branch Manager and the Nodal Officer. This letter must outline the exact reason for insolvency (medical emergency, job loss) and explicitly offer a final lump sum amount (usually starting your negotiation at 25% to 30% of the principal). Understanding <Link href="/how-to-reply-to-legal-notice-for-personal-loan" className="text-blue-600 hover:underline">how to reply to legal notice for personal loan</Link> properly ensures you don't accidentally reset the limitation period.
+                                        Around day 150, when the bank realizes the telecallers have failed, the account moves to the core collections team. This is your window. You must bypass the agents and draft a formal, physically mailed or emailed Hardship Letter directly to the Branch Manager and the Nodal Officer. This letter must outline the exact reason for insolvency (medical emergency, job loss) and explicitly offer a final lump sum amount (usually starting your negotiation at 25% to 30% of the principal). Understanding <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="text-blue-600 hover:underline">how to reply to legal notice for personal loan</Link> properly ensures you don't accidentally reset the limitation period.
                                     </p>
                                 </div>
                             </div>
@@ -343,7 +340,7 @@ export default function DiySettlementClient() {
 
                             <h3 id="upfront-fees-savings" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Upfront Fees vs. Backend Savings</h3>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you decide against the DIY route, always avoid generic agencies charging massive upfront percentages. Opt instead for a specialized debt resolution law firm that operates on a transparent, fixed-fee retainer model. A skilled lawyer's true value isn't just in sending emails; it is in deploying legal injunctions to stop agent harassment instantly, and utilizing deep knowledge of RBI banking codes to force the bank to accept a maximum haircut. You can use a <Link href="/personal-loan-settlement-calculator" className="text-blue-600 hover:underline">personal loan settlement calculator</Link> to estimate the exact savings a strong legal negotiation can yield compared to attempting it alone.
+                                If you decide against the DIY route, always avoid generic agencies charging massive upfront percentages. Opt instead for a specialized debt resolution law firm that operates on a transparent, fixed-fee retainer model. A skilled lawyer's true value isn't just in sending emails; it is in deploying legal injunctions to stop agent harassment instantly, and utilizing deep knowledge of RBI banking codes to force the bank to accept a maximum haircut. You can use a personal loan settlement calculator to estimate the exact savings a strong legal negotiation can yield compared to attempting it alone.
                             </p>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Frequently Asked Questions on DIY Debt Settlement</h2>

@@ -402,10 +402,10 @@ export default function MedicalEmergencyClient() {
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                                 <h4 className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</h4>
                                 <nav className="space-y-4 mt-2">
-                                    <Link href="/bank-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
-                                    <Link href="/drt-specialization" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>
-                                    <Link href="/settlement-strategies" className="block text-[#3b82f6] hover:underline text-lg">Settlement Strategies</Link>
-                                    <Link href="/msme-loan-defence" className="block text-[#3b82f6] hover:underline text-lg">MSME Loan Defence</Link>
+                                    <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
+                                    <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>
+                                    <Link href="/what-is-the-best-way-to-negotiate-loan-settlement" className="block text-[#3b82f6] hover:underline text-lg">Settlement Strategies</Link>
+                                    <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">MSME Loan Defence</Link>
                                 </nav>
                             </div>
                         </div>

@@ -293,7 +293,7 @@ export default function ExperianCreditHistoryClient() {
                             </div>
 
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                In 2026, understanding this multi-bureau system is no longer optional. It is an absolute necessity for anyone seeking financial leverage. If you have faced a sudden, unexplained loan rejection, you must stop guessing and start analyzing. Your first step should be to <Link href="/loan-settlement-status" className="text-blue-600 font-bold hover:underline">check your complete financial profile</Link> across all operational bureaus. Financial literacy today means knowing exactly how banks read your data. Let us dive deep into the algorithms that control your financial destiny.
+                                In 2026, understanding this multi-bureau system is no longer optional. It is an absolute necessity for anyone seeking financial leverage. If you have faced a sudden, unexplained loan rejection, you must stop guessing and start analyzing. Your first step should be to <Link href="/check-loan-settlement-status" className="text-blue-600 font-bold hover:underline">check your complete financial profile</Link> across all operational bureaus. Financial literacy today means knowing exactly how banks read your data. Let us dive deep into the algorithms that control your financial destiny.
                             </p>
 
                             <h2 id="risk-algorithm" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 2: Why Banks Check Experian (The Risk Algorithm)</h2>
@@ -353,7 +353,7 @@ export default function ExperianCreditHistoryClient() {
                             </div>
 
                             <p className="text-gray-700 leading-relaxed mb-10 font-light">
-                                Analyzing this comparison table reveals a crucial truth. If you are a young borrower who relies heavily on credit cards and digital apps, your Experian profile will be much more volatile. The fast update speed means your mistakes are recorded almost instantly. If you are struggling with overwhelming card bills, you might need a <Link href="/credit-card-debt-exit" className="text-blue-600 font-bold hover:underline">strategic credit card debt exit</Link> before applying for a major secured loan like a mortgage. 
+                                Analyzing this comparison table reveals a crucial truth. If you are a young borrower who relies heavily on credit cards and digital apps, your Experian profile will be much more volatile. The fast update speed means your mistakes are recorded almost instantly. If you are struggling with overwhelming card bills, you might need a <Link href="/credit-card-settlement-vs-minimum-due" className="text-blue-600 font-bold hover:underline">strategic credit card debt exit</Link> before applying for a major secured loan like a mortgage. 
                             </p>
 
                             <h2 id="lower-score-reasons" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 4: Why Your Experian Score is Lower Than CIBIL</h2>
@@ -378,7 +378,7 @@ export default function ExperianCreditHistoryClient() {
                                 Modern banks use a system called a "Bureau Scrub." They pull your data from all available sources and feed it into a proprietary risk engine. This engine is programmed with hard stops. For example, a bank might have a rule that states: "Approve if primary score is above 750 AND secondary score is above 700." If your primary score is a stellar 800, but your secondary Experian score is 680, the system triggers an automatic hard stop. The human loan officer often has zero override authority in these situations.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                Furthermore, banks look closely at the "Write Off" and "Settled" flags. If you previously settled a loan for a lesser amount, that history stays on your file. If you are currently dealing with a default, you must check if your name appears on a <Link href="/cibil-defaulter-list" className="text-blue-600 font-bold hover:underline">defaulter list</Link>. An Experian credit history check will highlight these derogatory marks in bright red. The bank will not risk lending to someone who has caused a loss to the banking system in the recent past, regardless of what the other bureaus say.
+                                Furthermore, banks look closely at the "Write Off" and "Settled" flags. If you previously settled a loan for a lesser amount, that history stays on your file. If you are currently dealing with a default, you must check if your name appears on a <Link href="/how-to-check-the-cibil-defaulter-list" className="text-blue-600 font-bold hover:underline">defaulter list</Link>. An Experian credit history check will highlight these derogatory marks in bright red. The bank will not risk lending to someone who has caused a loss to the banking system in the recent past, regardless of what the other bureaus say.
                             </p>
 
                             <h2 id="action-plan" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 6: Action Plan: Fixing a Low Experian Score</h2>
@@ -537,9 +537,9 @@ export default function ExperianCreditHistoryClient() {
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Repair Vault</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/cibil-defaulter-list" className="block text-sm text-blue-600 hover:underline">Defaulter List Guide</Link>
-                                    <Link href="/credit-card-debt-exit" className="block text-sm text-blue-600 hover:underline">Credit Card Exit Plan</Link>
-                                    <Link href="/loan-settlement-status" className="block text-sm text-blue-600 hover:underline">Settlement Status</Link>
+                                    <Link href="/how-to-check-the-cibil-defaulter-list" className="block text-sm text-blue-600 hover:underline">Defaulter List Guide</Link>
+                                    <Link href="/credit-card-settlement-vs-minimum-due" className="block text-sm text-blue-600 hover:underline">Credit Card Exit Plan</Link>
+                                    <Link href="/check-loan-settlement-status" className="block text-sm text-blue-600 hover:underline">Settlement Status</Link>
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                 </nav>
                             </div>
