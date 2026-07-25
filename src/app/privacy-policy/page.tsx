@@ -39,7 +39,8 @@ const SECTIONS = [
     description:
       'We collect limited personal information to activate your engagement, customise settlement strategies, and keep you informed about progress. This may include:',
     bullets: [
-      'Full name, email address, mailing address, and an optional phone number, if provided, to help verify your identity and communicate with you securely.',
+      'Full name, email address, city, mailing address, and an optional phone number, if provided, to help verify your identity and communicate with you securely.',
+      'Financial and personal circumstances, including employment status, monthly income, outstanding debt details (e.g., credit card and personal loan dues), repayment capacity (such as ability to pay an initial amount), and details regarding any collection harassment, to accurately assess your situation and customise our debt settlement strategies.',
       'Company name, team size, and business type when you enquire on behalf of an organisation.',
       'Billing details required to process professional fees (We do not store complete payment card details.).',
     ],
