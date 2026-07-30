@@ -585,10 +585,10 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
                                     Stop the Agents
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
-                                    <p>v 24hr Legal Response</p>
-                                    <p>v RBI Compliance Audit</p>
-                                    <p>v SHG Pressure Defense</p>
-                                    <p>v FIR Support for Harassment</p>
+                                    <p>✓ 24hr Legal Response</p>
+                                    <p>✓ RBI Compliance Audit</p>
+                                    <p>✓ SHG Pressure Defense</p>
+                                    <p>✓ FIR Support for Harassment</p>
                                 </div>
                             </div>
 

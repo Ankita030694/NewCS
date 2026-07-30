@@ -55,7 +55,14 @@ import { collection, getDocs } from 'firebase/firestore';
 
 // ============================================================================
 // CONFIGURATION
-// ============================================================================
+// ========================================================================
+  urls.push({
+    loc: `${baseUrl}/what-to-do-if-your-bank-sends-legal-notices-repeatedly`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+====
 
 /** Base URL of the website */
 const baseUrl = 'https://www.credsettle.com';
@@ -83,6 +90,8 @@ const loanSettlementServices = [
 const simpleServices = [
   'anti-harassment',
   'credit-score-builder'
+,
+  'how-to-check-your-loan-status-without-visiting-the-bank'
 ];
 
 const STATE_SLUG_FALLBACKS = [
@@ -323,7 +332,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 158; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
+  const mainStaticPages = 160; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -425,6 +434,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/steps-to-repair-your-cibil-score-after-taking-an-urgent-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/about`,
     priority: 0.9, // High priority - important company info
     changefreq: 'monthly',
@@ -516,6 +532,12 @@ async function generateSitemap(): Promise<string> {
   });
 
   // Generic SEO Educational Pages
+  urls.push({
+    loc: `${baseUrl}/how-to-contact-the-banking-ombudsman-regarding-harassment-complaints`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
   urls.push({
     loc: `${baseUrl}/prepaying-loan-impact-on-credit-score`,
     priority: 0.8,
@@ -778,6 +800,13 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/what-is-the-punishment-for-cheque-bounce-under-section-138-ni-act`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/check-loan-settlement-status`,
     priority: 0.9,
     changefreq: 'weekly',
@@ -785,7 +814,77 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
+    loc: `${baseUrl}/unsecured-loans-explained-meaning-types-benefits`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/loan-waiveoff-vs-loan-writeoff-explained-know-the-difference`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-debt-consolidation-and-how-it-helps-reduce-monthly-financial-stress`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/what-is-a-moratorium-period-meaning-benefits-and-examples`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/steps-to-rectify-a-suit-filed-entry-in-cibil-a-complete-guide`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+
+  urls.push({
     loc: `${baseUrl}/loan-recovery-notice`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/expert-panel-vs-recovery-agents-who-should-you-trust`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/post-dated-cheques-in-loan-settlement-are-they-legally-enforceable`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-lawyer-panels-help-in-negotiating-better-settlement-terms`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/how-expert-panels-helps-in-reconstructing-high-interest-loans`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/top-lenders-offering-urgent-loans-to-cibil-defaulters`,
     priority: 0.9,
     changefreq: 'weekly',
     lastmod: today
@@ -2549,6 +2648,13 @@ async function generateSitemap(): Promise<string> {
 
   // Best Microfinance Loan Settlement Lawyer page
   urls.push({
+    loc: `${baseUrl}/debt-consolidation-loans-types-pros-and-cons-and-ideal-situations`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/best-microfinance-loan-settlement-lawyer`,
     priority: 0.95,
     changefreq: 'weekly',
@@ -3389,6 +3495,18 @@ ${urls
   </url>
   <url>
     <loc>https://www.credsettle.com/drt-jurisdiction-minimum-limit-loan-recovery</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/understanding-the-impact-of-high-credit-card-interest-rates-what-you-need-to-know</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/whats-a-credit-line-and-who-should-consider-one</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
