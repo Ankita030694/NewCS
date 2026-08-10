@@ -56,13 +56,6 @@ import { collection, getDocs } from 'firebase/firestore';
 // ============================================================================
 // CONFIGURATION
 // ========================================================================
-  urls.push({
-    loc: `${baseUrl}/what-to-do-if-your-bank-sends-legal-notices-repeatedly`,
-    priority: 0.8,
-    changefreq: 'weekly',
-    lastmod: today
-  });
-====
 
 /** Base URL of the website */
 const baseUrl = 'https://www.credsettle.com';
@@ -532,6 +525,12 @@ async function generateSitemap(): Promise<string> {
   });
 
   // Generic SEO Educational Pages
+  urls.push({
+    loc: `${baseUrl}/what-to-do-if-your-bank-sends-legal-notices-repeatedly`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
   urls.push({
     loc: `${baseUrl}/how-to-contact-the-banking-ombudsman-regarding-harassment-complaints`,
     priority: 0.9,
