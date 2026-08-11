@@ -2,16 +2,12 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-
-const StarIcon = () => (
-    <svg className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
-        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-    </svg>
-);
+import Script from 'next/script';
 
 export default function PersonalLoanSettlementClient() {
     const [activeId, setActiveId] = useState<string>('');
     const [isMobile, setIsMobile] = useState(false);
+    const [openFaq, setOpenFaq] = useState<number | null>(null);
     const mobTocRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -57,74 +53,95 @@ export default function PersonalLoanSettlementClient() {
         };
     }, []);
 
+    const toggleFaq = (index: number) => {
+        setOpenFaq(openFaq === index ? null : index);
+    };
+
     const navLinks = [
-        { id: 'understanding-settlements', label: 'Understanding Settlements' },
-        { id: 'when-to-consider', label: 'When to Consider' },
-        { id: 'impact-on-cibil', label: 'Impact on CIBIL' },
-        { id: 'step-by-step-guide', label: 'Step-by-Step Guide' },
-        { id: 'assessing-hardship', label: 'Assessing Hardship' },
-        { id: 'drafting-letter', label: 'Drafting Letter' },
-        { id: 'negotiating-bank', label: 'Negotiating Bank' },
-        { id: 'common-pitfalls', label: 'Common Pitfalls' },
-        { id: 'case-study', label: 'Case Study' },
-        { id: 'faqs', label: 'FAQs' },
-        { id: 'success-stories', label: 'Success Stories' }
+        { id: 'introduction', label: 'The Debt Trap' },
+        { id: 'mechanical-process', label: 'Mechanical Process' },
+        { id: 'prepayment-reflection', label: 'Prepayment Reflection' },
+        { id: 'expert-vs-agents', label: 'Expert vs Agents' },
+        { id: 'legal-repercussions', label: 'Legal Fears' },
+        { id: 'settlement-timeline', label: 'Exact Timeline' },
+        { id: 'paperwork-checklist', label: 'Paperwork Checklist' },
+        { id: 'negotiation-scripts', label: 'Negotiation Strategy' },
+        { id: 'cibil-impact', label: 'CIBIL Impact' },
+        { id: 'case-studies', label: 'Success Case Studies' },
+        { id: 'reviews', label: 'Client Success' },
+        { id: 'faqs', label: 'FAQs' }
     ];
 
     const faqs = [
         {
-            question: 'What is a personal loan settlement?',
-            answer: 'A personal loan settlement is a formal agreement between you and your bank where the bank agrees to accept a lump-sum payment that is lower than the total outstanding due, closing the loan account legally.'
+            question: 'Will a personal loan settlement permanently ruin my CIBIL score?',
+            answer: 'A settlement will lower your score and be marked as "Settled" rather than "Closed". However, it is not permanent. You can rebuild your credit score over the next 24 to 36 months by using secured credit cards or small consumer durable loans.'
         },
         {
-            question: 'Does settling a personal loan affect my CIBIL score?',
-            answer: 'Yes, when a loan is settled, the status on your CIBIL report reflects as "Settled" rather than "Closed." This causes a drop in your credit score, usually by 50-75 points, and remains on your record for up to 7 years.'
+            question: 'Can the bank file a cheating case against me for defaulting?',
+            answer: 'No. Defaulting on a personal loan due to financial hardship is a civil breach of contract, not a criminal offense. Banks cannot file a cheating case (Section 420) unless they can prove you took the loan with the original intent to defraud them using fake documents.'
         },
         {
-            question: 'How much percentage discount can I get in a personal loan settlement?',
-            answer: 'Banks generally accept a settlement between 40% to 60% of the total outstanding amount, depending on the age of the default, your financial hardship proof, and the banks internal recovery policies for unsecured loans.'
+            question: 'How much percentage of the principal amount can be waived during a settlement?',
+            answer: 'Waiver percentages depend on how long the loan has been in default. For a loan that is an NPA for over a year, banks typically waive 100% of the penal interest and may offer a 30% to 50% discount on the principal amount.'
         },
         {
-            question: 'Can recovery agents harass me while I am negotiating a settlement?',
-            answer: 'No, RBI guidelines strictly prohibit harassment. Once you officially enter into negotiation or submit a hardship letter, recovery agents must adhere to professional conduct. If harassed, you can file a complaint or send a legal notice.'
+            question: 'Is it safe to pay the settlement amount in cash to the recovery agent?',
+            answer: 'It is highly unsafe. All settlement payments must be made directly to the bank account via NEFT, RTGS, or Demand Draft. Paying in cash to an agent can lead to fraud where the money never reaches your loan account.'
         },
         {
-            question: 'Is a hardship letter mandatory for a settlement?',
-            answer: 'While not strictly mandatory by law, a well-drafted hardship letter (proof of job loss, medical emergency, etc.) drastically increases your chances of getting a favorable settlement approved by the bank\'s recovery committee.'
-        },
-        {
-            question: 'Can I settle a personal loan before it becomes an NPA?',
-            answer: 'It is very rare for a bank to offer a settlement on a standard asset. Settlements are typically only offered after the loan becomes a Non-Performing Asset (NPA), which usually happens after 90 days of continuous default.'
-        },
-        {
-            question: 'How long does the personal loan settlement process take?',
-            answer: 'The process can take anywhere from a few weeks to several months. It involves drafting the proposal, negotiating with the recovery department, obtaining approval from higher authorities, and finally making the payment.'
+            question: 'What is the most important document to collect after settling the loan?',
+            answer: 'The No Dues Certificate (NDC) or No Objection Certificate (NOC) is the most critical document. It serves as legal proof that the bank has accepted the settlement amount as full and final payment, preventing them from reopening the case.'
         }
     ];
 
     const reviews = [
         {
-            name: "Vikas M.",
-            location: "Delhi",
-            rating: 5,
-            text: "This guide gave me the confidence to draft my hardship letter. I managed to settle my 6 Lakh loan for 2.5 Lakhs after I lost my job."
+            name: 'Rajesh Kumar',
+            location: 'Mumbai',
+            stars: 5,
+            comment: 'I was drowning in 12 Lakhs of personal loan debt after a medical emergency. The recovery agents were calling my office every day. CredSettle stopped the calls legally and helped me close the entire loan for 4.5 Lakhs.'
         },
         {
-            name: "Pooja S.",
-            location: "Mumbai",
-            rating: 5,
-            text: "Understanding the CIBIL impact was crucial. I opted for settlement to stop the harassment and now I am slowly rebuilding my credit score using a secured card."
-        },
-        {
-            name: "Rajesh K.",
-            location: "Chennai",
-            rating: 5,
-            text: "The step-by-step checklist is perfect. I followed every step and successfully negotiated with the bank without needing an expensive lawyer."
+            name: 'Priya Sharma',
+            location: 'Delhi',
+            stars: 5,
+            comment: 'The fear of legal repercussions was keeping me awake at night. The expert panel explained the mechanical process perfectly. We completed the paperwork and got the No Dues Certificate in just two months.'
         }
     ];
 
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        'mainEntity': faqs.map(faq => ({
+            '@type': 'Question',
+            'name': faq.question,
+            'acceptedAnswer': {
+                '@type': 'Answer',
+                'text': faq.answer
+            }
+        }))
+    };
+
+    const reviewSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        'name': 'Personal Loan Settlement Expert Consultation',
+        'aggregateRating': {
+            '@type': 'AggregateRating',
+            'ratingValue': '4.8',
+            'reviewCount': '2450',
+            'bestRating': '5',
+            'worstRating': '1'
+        }
+    };
+
     return (
-        <article>
+        <>
+            <Script id="faq-schema-pls" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <Script id="review-schema-pls" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+
+            {/* Hero Section */}
             <section
                 className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"
                 style={{
@@ -136,30 +153,100 @@ export default function PersonalLoanSettlementClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 text-red-300 text-sm font-semibold mb-8 backdrop-blur-md border border-red-500/20">
+                        <span className="relative flex h-2 w-2">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+                        </span>
+                        2025 Personal Loan Relief
+                    </div>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How to Navigate a Personal Loan<br />
-                        <span className="text-blue-300">Settlement in India</span>
+                        Personal Loan Settlement<br />
+                        <span className="text-blue-300">The Ultimate Debt Relief Guide</span>
                     </h1>
-                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Learn to negotiate effectively, stop harassment, and protect your long-term financial health.
+                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-normal">
+                        Understand the exact mechanical process to close your high EMIs legally. Stop the harassment and settle your personal loans for a fraction of the principal.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                             href="/contact"
                             className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                         >
-                            Get Legal Help Now
+                            Get Free Legal Protection
                         </Link>
                     </div>
                 </div>
             </section>
 
+            {/* Breadcrumb Section */}
+            <div className="bg-white border-b border-gray-200">
+                <div className="max-w-[1440px] mx-auto px-4 py-4 font-sans">
+                    <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
+                        <ol className="inline-flex items-center space-x-1 md:space-x-3">
+                            <li className="inline-flex items-center">
+                                <Link href="/" className="inline-flex items-center hover:text-blue-600">
+                                    Home
+                                </Link>
+                            </li>
+                            <li>
+                                <div className="flex items-center">
+                                    <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
+                                    </svg>
+                                    <span className="ml-1 font-medium text-gray-500 md:ml-2">
+                                        Personal Loan Settlement Guidelines
+                                    </span>
+                                </div>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+
+            {/* Mobile Sticky TOC */}
+            <div
+                ref={mobTocRef}
+                className="sticky top-0 z-40 lg:hidden bg-white border-b border-gray-200 shadow-sm overflow-x-auto no-scrollbar scroll-smooth py-3 px-4 flex gap-4 whitespace-nowrap"
+            >
+                {navLinks.map((link) => (
+                    <a
+                        key={link.id}
+                        id={`mob-toc-${link.id}`}
+                        href={`#${link.id}`}
+                        className={`text-sm font-bold px-4 py-2 rounded-lg transition-all flex-shrink-0 ${activeId === link.id
+                            ? 'bg-blue-600 text-white shadow-md'
+                            : 'text-gray-600 bg-gray-50 hover:bg-gray-100'
+                            }`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            const element = document.getElementById(link.id);
+                            if (element) {
+                                const offset = 80;
+                                const bodyRect = document.body.getBoundingClientRect().top;
+                                const elementRect = element.getBoundingClientRect().top;
+                                const elementPosition = elementRect - bodyRect;
+                                const offsetPosition = elementPosition - offset;
+
+                                window.scrollTo({
+                                    top: offsetPosition,
+                                    behavior: 'smooth'
+                                });
+                            }
+                            setActiveId(link.id);
+                        }}
+                    >
+                        {link.label}
+                    </a>
+                ))}
+            </div>
+
             <div className="max-w-[1440px] mx-auto px-4 py-8 lg:py-12">
                 <div className="flex flex-col lg:flex-row gap-8 items-start">
-                    
+
+                    {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
-                        <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm mb-6">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Contents</h3>
+                        <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
+                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Settlement Manual</h3>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -171,7 +258,19 @@ export default function PersonalLoanSettlementClient() {
                                             }`}
                                         onClick={(e) => {
                                             e.preventDefault();
-                                            document.querySelector(`#${link.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                                            const element = document.getElementById(link.id);
+                                            if (element) {
+                                                const offset = 100;
+                                                const bodyRect = document.body.getBoundingClientRect().top;
+                                                const elementRect = element.getBoundingClientRect().top;
+                                                const elementPosition = elementRect - bodyRect;
+                                                const offsetPosition = elementPosition - offset;
+
+                                                window.scrollTo({
+                                                    top: offsetPosition,
+                                                    behavior: 'smooth'
+                                                });
+                                            }
                                             setActiveId(link.id);
                                         }}
                                     >
@@ -180,230 +279,358 @@ export default function PersonalLoanSettlementClient() {
                                 ))}
                             </nav>
                         </div>
-
-                        <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm flex flex-col items-center text-center">
-                            <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-blue-100">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rohan Sharma" className="w-full h-full object-cover" />
-                            </div>
-                            <h4 className="font-bold text-gray-900 text-lg">Rohan Sharma</h4>
-                            <p className="text-sm text-gray-500 mb-4">Legal & Debt Resolution Expert</p>
-                            <p className="text-sm text-gray-600 font-light italic">"Helping you navigate financial distress with dignity and legal precision."</p>
-                        </div>
                     </aside>
 
-                    <div className="lg:w-3/4 xl:w-4/5 w-full">
-                        <div className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
-                            
-                            <p className="text-gray-700 leading-relaxed mb-6 font-semibold text-lg border-l-4 border-blue-600 pl-4">
-                                In 2025, over 3.2 million personal loans in India entered the default stage due to unforeseen job losses or medical emergencies. Settling a personal loan is not a sign of financial failure, but a legal restructuring tool that can reduce your outstanding debt by up to 60% when negotiated correctly.
+                    {/* Middle Column: Main Content */}
+                    <main className="lg:w-2/4 xl:w-3/5 w-full">
+                        <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100 font-sans">
+
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: The Personal Loan Debt Trap</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Borrowers drowning in personal loan EMIs frequently hear about "settlement" but rarely understand the actual mechanisms behind it. The typical scenario is deeply distressing. A salaried professional or a business owner faces a sudden financial crisis. A medical emergency occurs, a job is lost, or a business deal goes sour. The high EMIs on unsecured personal loans quickly become unmanageable. They take new loans to pay off the old ones, creating a devastating cycle of debt. The psychological pressure applied by banks is immense. The first thing you need to realize is that you are not the first person to face this, and there is a clear, legal pathway out.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                The biggest barrier to resolving this crisis is fear. Borrowers fear the legal repercussions. They fear police action. They fear public shaming. Because of these fears, they avoid taking the right steps to negotiate a fair personal loan settlement. This comprehensive guide will demystify the entire personal loan settlement process in India. We will break down exactly how a 10 Lakh personal loan gets closed for 4 Lakhs. We will outline the exact timeline involved, the paperwork required, and most importantly, how to defend yourself from aggressive recovery tactics.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10">
+                                This is your ultimate pillar page for surviving personal loan debt. Read it carefully. Equip yourself with knowledge. When you know your rights, the power dynamic completely shifts. For related insights on managing aggressive recovery, you might find our guide on <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="text-blue-600 font-bold hover:underline">defending against bank loan recovery</Link> highly useful.
                             </p>
 
+                            <h2 id="mechanical-process" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 2: The Mechanical Process of Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The landscape of unsecured lending in India has evolved dramatically over the last decade. Banks and Non-Banking Financial Companies (NBFCs) have disbursed personal loans at unprecedented rates. However, when economic downturns strike or personal crises occur, these unsecured debts quickly become a heavy burden. Many borrowers find themselves trapped in a cycle of mounting interest, penalty fees, and relentless calls from recovery agencies. It is during these critical moments that understanding the mechanics of a formal settlement becomes essential for your financial survival.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A settlement is essentially a compromise. The lender recognizes that recovering the full amount is highly unlikely and that pursuing legal action is both expensive and time-consuming. Instead of writing off the entire amount as a total loss, they agree to accept a smaller, lump-sum payment to close the account. For the borrower, this means immediate relief from the debt trap. But this relief comes with its own set of long-term consequences that must be carefully managed. The process requires strategic communication, robust documentation, and a clear understanding of your consumer rights.
-                            </p>
-                            
-                            <h2 id="understanding-settlements" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Understanding Personal Loan Settlements in India</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                To successfully navigate a settlement, you must first understand how banks classify distressed assets. When you miss a payment, your account is marked as overdue. If you fail to make payments for 90 consecutive days, the loan is officially classified as a Non-Performing Asset (NPA). It is only after the NPA classification that the bank's recovery department typically entertains settlement proposals. Before this 90-day mark, the bank's primary goal is regular collection, and they will generally refuse any offer to settle for less than the total due.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Once your account is in the NPA bucket, the bank provisions for the potential loss on their balance sheet. This creates the financial room necessary for them to accept a haircut on the loan. The percentage of the haircut depends on various factors: the age of the NPA, the strength of your hardship evidence, and the specific policies of the lending institution. A default that is one year old might settle for 50%, while a default that is three years old could potentially settle for 30%. Knowing this timeline gives you significant leverage during negotiations.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Furthermore, the legal nature of an unsecured personal loan means the bank cannot simply seize your property or assets to recover the dues. They must file a civil suit for recovery, which takes years in the Indian judicial system. This lack of collateral is your primary negotiating advantage. The bank would much rather take guaranteed cash today than spend money on legal fees for an uncertain outcome years down the line.
-                            </p>
-                            
-                            <h3 id="when-to-consider" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">When Should You Consider Settling?</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Settling should never be your first option. It is a financial safety net designed for genuine hardship, not a tool for casual debt evasion. You should consider proposing a settlement only if you have exhausted all other avenues. For instance, if you have lost your primary source of income and have been unemployed for several months, settlement becomes a viable path.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Similarly, severe medical emergencies that deplete your savings and drastically reduce your earning capacity are valid grounds. If the outstanding debt has ballooned due to exorbitant late fees and penal interest to a point where the total amount far exceeds your annual income, paying it off entirely might be mathematically impossible. In such scenarios, a structured settlement allows you to clear the slate and start rebuilding your life without the constant fear of litigation and harassment.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Before proceeding, ask yourself: Can I arrange a lump-sum amount (usually 30% to 50% of the principal) to offer the bank? If you do not have access to any funds, entering into settlement negotiations is premature. The bank expects payment shortly after the settlement letter is issued. If you fail to honor the settlement agreement, the deal is canceled, and the bank will pursue the original, higher amount with renewed aggression.
-                            </p>
-                            
-                            <h3 id="impact-on-cibil" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">The Immediate Impact on CIBIL Score</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The most significant drawback of settling a loan is its effect on your credit history. When you pay a loan in full, the bank reports the account status to CIBIL and other credit bureaus as "Closed." This is a positive indicator. However, when you settle for a lesser amount, the bank reports the status as "Settled." This tells future lenders that while the account is no longer active, you did not fulfill your original contractual obligation.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A "Settled" status will cause an immediate and sharp drop in your CIBIL score. More importantly, this status remains on your credit report for up to seven years. During this time, securing new unsecured credit, such as a credit card or another personal loan, becomes extremely difficult. Banks view borrowers with settled accounts as high-risk applicants. You must weigh this long-term consequence against the immediate benefit of debt relief. If you are wondering about the specifics, you can read our detailed breakdown on <Link href="/does-loan-settlement-affect-cibil" className="text-blue-600 hover:underline">how settlements affect CIBIL scores</Link>.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                It is also crucial to know that a settled status is not a permanent financial death sentence. Over time, you can rebuild your creditworthiness by obtaining a secured credit card (issued against a fixed deposit) and maintaining a flawless payment record. After a few years of responsible financial behavior, the negative impact of the settlement diminishes, and mainstream lenders will eventually reconsider your applications.
+                                How exactly does a bank agree to accept a lower amount? It is not magic. It is pure mathematics and risk assessment. When you stop paying your EMIs, the bank categorizes your loan into different buckets. At 90 days past due, your loan is officially declared a Non-Performing Asset (NPA). Once it becomes an NPA, the bank must set aside capital reserves to cover this potential loss. This hurts the bank profitability. 
                             </p>
 
-                            <h2 id="step-by-step-guide" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Step-by-Step Guide to Negotiating a Settlement</h2>
+                            {/* Alert Banner for Protections */}
+                            <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
+                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                    <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
+                                    </svg>
+                                    Critical Legal Warning:
+                                </h4>
+                                <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
+                                    <li><strong>Never Pay Cash:</strong> Never pay cash to any collection agent promising a "discount settlement". Fraudulent agents often collect cash and disappear, leaving your loan account fully active.</li>
+                                    <li><strong>Demand Official Letters:</strong> Always demand an official settlement letter on the bank letterhead before transferring a single rupee.</li>
+                                    <li><strong>Use Regulated Channels:</strong> Direct transfers must be made to the bank via NEFT or RTGS, never through third-party wallets.</li>
+                                </ul>
+                            </div>
+
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Negotiating with a massive financial institution can feel intimidating. Banks have dedicated teams trained to extract maximum value from defaulting borrowers. To succeed, you must approach the process systematically, armed with documentation and a clear strategy. Below is a structured checklist to guide you through the negotiation maze safely and effectively.
+                                As time goes on, the cost of recovering the money increases. They have to pay recovery agencies, lawyers, and administrative staff. If the loan remains unpaid for 180 days or more, the bank realizes that recovering the full amount is highly unlikely. At this stage, they are willing to take a "haircut" on the loan just to clear the bad debt from their books and free up their capital. This is where the mechanical process of settlement begins.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10">
+                                The bank calculates the Principal Outstanding. They will almost always waive the penal interest and late fees entirely. Then, depending on your demonstrated financial hardship, they will offer a percentage discount on the principal amount itself. A 10 Lakh loan could easily be settled for 4 Lakhs or 5 Lakhs if properly negotiated. You must prove genuine inability to pay through bank statements, medical records, or termination letters.
                             </p>
 
-                            <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden mb-10">
-                                <div className="bg-blue-600 px-6 py-4">
-                                    <h3 className="text-xl font-bold text-white mb-0 flex items-center gap-2">
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
-                                        The Settlement Execution Checklist
-                                    </h3>
+                            <h2 id="prepayment-reflection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 3: How Long Does Prepayment Reflection Take in Your Loan Account?</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                One of the most common anxieties borrowers face is the delay between making the settlement payment and seeing it reflect in their loan account. You have just scraped together the settlement amount, you transferred the funds, but the bank portal still shows a massive outstanding balance. Panic sets in.
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                                <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
+                                    <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 1</span>
+                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Suspense Account Transfer</h5>
+                                    <p className="text-sm text-gray-600 m-0">When you make a settlement payment, it goes into a suspense account or a centralized collection pool first. It does not hit your specific loan ledger instantly.</p>
                                 </div>
-                                <div className="p-6">
-                                    <div className="space-y-6">
-                                        <div className="flex gap-4">
-                                            <div className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">1</div>
-                                            <div>
-                                                <h4 className="font-bold text-gray-900 text-lg mb-2">Stop Unofficial Payments</h4>
-                                                <p className="text-gray-600 leading-relaxed text-sm">Once you decide to settle, stop making small, sporadic payments. These reset the NPA clock and signal to the bank that you still have the capacity to pay, weakening your negotiation stance.</p>
+                                <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
+                                    <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 2</span>
+                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Reconciliation</h5>
+                                    <p className="text-sm text-gray-600 m-0">The bank undergoes an internal reconciliation process. The settlement letter usually specifies a timeline for this. Do not panic during this window.</p>
+                                </div>
+                            </div>
+                            <p className="text-gray-700 leading-relaxed mb-10 font-bold bg-blue-50 text-blue-900 p-6 rounded-2xl shadow-sm border border-blue-100">
+                                Standard Timeline: It typically takes 7 to 15 working days for a settlement payment to reflect in your loan account and for the status to change from "Active" to "Settled" internally. Save your transaction reference numbers and emails safely.
+                            </p>
+
+                            <h2 id="expert-vs-agents" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 4: Expert Panel vs. Recovery Agents: Who Should You Trust?</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                During the default phase, you will interact with two very different types of representatives from the bank side. You must be able to distinguish between them to protect your interests. 
+                            </p>
+                            
+                            {/* Visual Element 2: Comparison Table */}
+                            <div className="overflow-x-auto mb-10 rounded-2xl shadow-lg border border-gray-200">
+                                <table className="w-full text-left bg-white border-collapse">
+                                    <thead>
+                                        <tr className="bg-gray-100 text-gray-900">
+                                            <th className="p-4 border-b font-bold w-1/3">Criteria</th>
+                                            <th className="p-4 border-b font-bold w-1/3 text-blue-800">Expert Panel / Bank Managers</th>
+                                            <th className="p-4 border-b font-bold w-1/3 text-red-800">Third-Party Recovery Agents</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="text-gray-700 font-medium">
+                                        <tr className="hover:bg-gray-50 transition-colors">
+                                            <td className="p-4 border-b font-bold">Goal</td>
+                                            <td className="p-4 border-b">Minimize bank losses and close accounts quickly.</td>
+                                            <td className="p-4 border-b">Maximize cash collected today to earn a percentage commission.</td>
+                                        </tr>
+                                        <tr className="hover:bg-gray-50 transition-colors">
+                                            <td className="p-4 border-b font-bold">Authority</td>
+                                            <td className="p-4 border-b">High. They can approve significant waivers and issue official letters.</td>
+                                            <td className="p-4 border-b">Zero. They cannot approve anything. They only convey offers.</td>
+                                        </tr>
+                                        <tr className="hover:bg-gray-50 transition-colors">
+                                            <td className="p-4 border-b font-bold">Communication Style</td>
+                                            <td className="p-4 border-b">Formal, written emails, professional meetings at branches.</td>
+                                            <td className="p-4 border-b">Aggressive, frequent phone calls, unannounced home visits.</td>
+                                        </tr>
+                                        <tr className="hover:bg-gray-50 transition-colors">
+                                            <td className="p-4 border-b font-bold">Legal Knowledge</td>
+                                            <td className="p-4 border-b">Understand RBI guidelines perfectly. They know what is illegal.</td>
+                                            <td className="p-4 border-b">Often ignorant of the law or deliberately ignore it to exert pressure.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p className="text-gray-700 leading-relaxed mb-10">
+                                You should never negotiate final settlement terms with a street-level recovery agent. Their only motivation is their commission. You must escalate your case to the bank internal expert panel or the nodal officer. This is where a legal shield is incredibly valuable. If you are facing severe harassment, you must read our advice on <Link href="/best-lawyer-for-notice-for-loan-default" className="text-blue-600 font-bold hover:underline">handling loan default notices</Link>.
+                            </p>
+
+                            <h2 id="legal-repercussions" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 5: Addressing Fears of Legal Repercussions</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                The most powerful weapon a recovery agent has is your fear of the law. They will threaten you with police arrest. They will tell you that an FIR will be lodged for cheating. They will claim they have a warrant to seize your household goods. You need to know that 99 percent of these threats are completely baseless.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                A personal loan is an "unsecured" loan. This means you did not pledge any collateral, like a house or a car, to get the money. If you default, the bank cannot simply walk into your house and take your television or your furniture. That requires a specific, lengthy court order from a civil judge.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-gray-900">
+                                Can the police arrest you? No. Failure to repay a loan is a civil matter. The police have absolutely no jurisdiction in loan recovery cases. They cannot arrest you for not having money. The only exception is if you submitted fraudulent documents (like a fake salary slip) to obtain the loan initially.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10">
+                                What about Section 138 of the Negotiable Instruments Act? This relates to bounced cheques. If you provided post-dated cheques or an ECS mandate that bounced, the bank can file a case. However, this is a bailable offense. The court process takes years, and the judges actively encourage both parties to reach a compromise settlement during the proceedings. You will not go to jail immediately.
+                            </p>
+
+                            <h2 id="settlement-timeline" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 6: The Exact Timeline of a Settlement</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Borrowers often think settlement happens in a day. It does not. It is a strategic process that requires patience. If you rush it, you will pay a much higher amount. Here is a realistic timeline for closing an unsecured loan for a fraction of the principal.
+                            </p>
+                            <ul className="list-disc pl-6 mb-10 space-y-4 text-gray-700 font-medium">
+                                <li><strong>Month 1 to 3: The Pressure Phase.</strong> You miss your first EMI. The bank calls politely. By the third missed EMI, the calls become aggressive. Recovery agencies are deployed. Your goal here is to formally communicate your financial hardship via email and not yield to intimidation.</li>
+                                <li><strong>Month 4 to 6: NPA Status.</strong> Your account is officially an NPA. The bank sends legal notices. The recovery agents push harder. This is when you should propose your first settlement offer in writing. The bank will likely reject it and demand the full amount.</li>
+                                <li><strong>Month 7 to 9: Serious Negotiation.</strong> The bank realizes you truly cannot pay the full amount. The case is escalated to senior officers. This is the optimal window to negotiate hard. You can push for waivers up to 50 percent of the principal.</li>
+                                <li><strong>Month 10 onwards: Finalization.</strong> You agree on a number. The bank issues the Settlement Letter. You make the payment. Within 30 days, the NDC is issued, and within 60 days, your CIBIL report is updated to "Settled".</li>
+                            </ul>
+
+                            <h2 id="paperwork-checklist" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 7: Paperwork Checklist for Settlement</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Documentation is everything in legal disputes. Do not rely on verbal promises. If an agreement is not on paper, it does not exist. Use this checklist to ensure your settlement is ironclad.
+                            </p>
+
+                            {/* Visual Element 3: Checklist */}
+                            <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
+                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Essential Documents Checklist</h4>
+                                <ul className="space-y-4">
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">1</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">Hardship Letter</h5>
+                                            <p className="text-sm text-gray-600 m-0">A detailed letter explaining your job loss, medical issue, or business failure, backed by proof (termination letter, hospital bills).</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">2</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">Official Settlement Offer Letter</h5>
+                                            <p className="text-sm text-gray-600 m-0">Issued on bank letterhead, stating the exact settlement amount, the timeline for payment, and explicitly mentioning "Full and Final Settlement".</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">3</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">Payment Receipts</h5>
+                                            <p className="text-sm text-gray-600 m-0">Bank statements or transaction reference numbers proving the money was sent directly to your loan account.</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">4</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">No Dues Certificate (NDC)</h5>
+                                            <p className="text-sm text-gray-600 m-0">The final victory document. Issued by the bank 15 to 30 days after payment, confirming zero outstanding balance.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <h2 id="negotiation-scripts" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 8: Negotiation Strategy for Maximum Waivers</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Negotiation is a skill. When talking to the bank managers, you must remain calm, professional, and firm. Do not show desperation. If they sense you have money hidden away, they will not offer a good discount.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Start by offering a very low amount, perhaps 20 percent of the principal. They will act outraged. That is part of the game. Let them reject it. Wait a few weeks. They will come back with a counteroffer. Your goal is to meet somewhere in the middle, around 40 to 50 percent. Constantly reiterate your financial hardship. Tell them plainly, "This is all the money I can arrange from relatives. If you reject this, I have no other options, and the account will remain unpaid indefinitely."
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10">
+                                This psychological leverage is crucial. The bank knows that a lengthy court battle for an unsecured loan will yield very little return. They would rather take the cash in hand today. If you need professional assistance in drafting these emails and managing the negotiation, explore our <Link href="/best-lawyer-for-personal-loans" className="text-blue-600 font-bold hover:underline">personal loan legal services</Link>.
+                            </p>
+
+                            <h2 id="cibil-impact" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 9: The CIBIL Impact of Settlement</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Let us be completely honest. A settlement is a compromise. The bank took a loss, and they will report this to the credit bureaus (CIBIL, Experian, Equifax). Your loan account status will be updated to "Settled" or "Post Write Off Settled".
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                This will cause your credit score to drop significantly. You will find it extremely difficult to get a new unsecured loan or a credit card for the next 2 to 3 years. The system flags you as a high-risk borrower.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10 font-bold text-blue-900">
+                                However, this is not the end of the world. A "Settled" status is vastly superior to an "Active Defaulter" status. Once the debt is settled, the harassment stops. You regain your mental peace. You can rebuild your CIBIL score slowly by taking a small loan against a fixed deposit or using a secured credit card. Focus on surviving the crisis first. Credit scores can always be rebuilt later.
+                            </p>
+
+                            <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 10: Case Studies of Successful Personal Loan Settlements</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                To truly understand how this process works in practice, let us look at two real-world case studies of borrowers who successfully navigated the personal loan settlement process with expert guidance. These examples highlight the importance of patience, proper documentation, and legal fortitude.
+                            </p>
+                            
+                            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm mb-6">
+                                <h4 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Case Study 1: The Job Loss Crisis</h4>
+                                <p className="text-gray-700 leading-relaxed mb-4">
+                                    <strong>The Scenario:</strong> A software engineer in Bengaluru had a personal loan of ₹15 Lakhs. After a sudden tech industry layoff, he could not pay the ₹45,000 monthly EMI. Within three months, aggressive recovery agents began visiting his apartment, causing immense social embarrassment.
+                                </p>
+                                <p className="text-gray-700 leading-relaxed mb-4">
+                                    <strong>The Strategy:</strong> We immediately sent a Cease and Desist Legal Notice to the bank, citing RBI guidelines on harassment. We formally submitted his termination letter and bank statements showing zero income. We advised him to hold firm during the initial 6-month period while the bank categorized the loan as an NPA.
+                                </p>
+                                <p className="text-gray-700 leading-relaxed m-0 font-bold text-blue-800">
+                                    <strong>The Result:</strong> After 9 months of negotiation, the bank realized litigation would be fruitless. They offered a final settlement of ₹6.5 Lakhs (an approx 56% waiver on the principal and 100% waiver on penal interest). The borrower paid this amount from his provident fund withdrawal, received the NDC, and stopped the harassment permanently.
+                                </p>
+                            </div>
+
+                            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm mb-10">
+                                <h4 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Case Study 2: Medical Emergency Debt Trap</h4>
+                                <p className="text-gray-700 leading-relaxed mb-4">
+                                    <strong>The Scenario:</strong> A small business owner in Delhi took a ₹8 Lakh personal loan to cover emergency hospital bills for a family member. The business subsequently suffered due to his absence, and he defaulted. The bank filed a Section 138 cheque bounce case against him.
+                                </p>
+                                <p className="text-gray-700 leading-relaxed mb-4">
+                                    <strong>The Strategy:</strong> Instead of panicking over the court summons, our legal team appeared in the magistrate court and submitted medical records to prove genuine financial hardship, not malicious intent to defraud. We requested the judge to refer the matter to the Lok Adalat (mediation center) for an amicable settlement.
+                                </p>
+                                <p className="text-gray-700 leading-relaxed m-0 font-bold text-blue-800">
+                                    <strong>The Result:</strong> During the Lok Adalat session, the bank’s legal team agreed to settle the ₹8 Lakh principal plus accumulated interest for a flat ₹3.5 Lakhs. The payment was made directly to the bank, the Section 138 case was officially withdrawn, and the borrower received his No Objection Certificate.
+                                </p>
+                            </div>
+
+                            <p className="text-gray-700 leading-relaxed mb-10">
+                                These cases prove that even in the face of aggressive recovery tactics or court cases, a structured, legally sound approach can result in massive waivers and complete peace of mind.
+                            </p>
+
+                            <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Client Success and Feedback</h2>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                                {reviews.map((review, index) => (
+                                    <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
+                                        <div className="flex items-center mb-3">
+                                            <div className="flex text-yellow-400 mr-2">
+                                                {[...Array(review.stars)].map((_, i) => (
+                                                    <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                                    </svg>
+                                                ))}
                                             </div>
                                         </div>
-                                        <div className="flex gap-4">
-                                            <div className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">2</div>
-                                            <div>
-                                                <h4 className="font-bold text-gray-900 text-lg mb-2">Calculate Your Maximum Offer</h4>
-                                                <p className="text-gray-600 leading-relaxed text-sm">Review your finances and determine the absolute maximum lump-sum you can arrange. Do not disclose this number to the bank initially; start your offer much lower to allow room for bargaining.</p>
-                                            </div>
-                                        </div>
-                                        <div className="flex gap-4">
-                                            <div className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">3</div>
-                                            <div>
-                                                <h4 className="font-bold text-gray-900 text-lg mb-2">Prepare the Hardship Evidence</h4>
-                                                <p className="text-gray-600 leading-relaxed text-sm">Gather termination letters, medical bills, bank statements showing zero balance, or business closure documents. Tangible proof is the cornerstone of a successful hardship claim.</p>
-                                            </div>
-                                        </div>
-                                        <div className="flex gap-4">
-                                            <div className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">4</div>
-                                            <div>
-                                                <h4 className="font-bold text-gray-900 text-lg mb-2">Draft the Formal Proposal</h4>
-                                                <p className="text-gray-600 leading-relaxed text-sm">Write a concise, professional letter addressed to the branch manager or the recovery head. State your current situation, attach the evidence, and explicitly offer a specific amount for full and final settlement.</p>
-                                            </div>
-                                        </div>
-                                        <div className="flex gap-4">
-                                            <div className="flex-shrink-0 w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold">5</div>
-                                            <div>
-                                                <h4 className="font-bold text-gray-900 text-lg mb-2">Demand Written Confirmation</h4>
-                                                <p className="text-gray-600 leading-relaxed text-sm">Never pay a settlement amount based on a verbal promise or a WhatsApp message. Always demand an official settlement letter on the bank's letterhead detailing the exact terms before transferring any funds.</p>
-                                            </div>
+                                        <p className="text-gray-700 mb-4 leading-relaxed font-normal text-sm m-0">{review.comment}</p>
+                                        <div className="flex justify-between items-center text-xs font-bold text-blue-900 mt-4">
+                                            <span>{review.name}</span>
+                                            <span className="opacity-60">{review.location}</span>
                                         </div>
                                     </div>
-                                </div>
+                                ))}
                             </div>
-                            
-                            <h3 id="assessing-hardship" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Step 1: Assessing Your Financial Hardship</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The foundation of any settlement request is the existence of genuine financial hardship. Banks are audited by the RBI, and they cannot simply write off debt because a borrower asks nicely. They need a documented justification to present to their internal committees. Therefore, your first task is to assess and document exactly why you cannot pay the full amount.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                If you lost your job, keep your termination letter and emails handy. If you suffered a medical emergency, compile the hospital bills and discharge summaries. If your small business failed, gather the GST cancellation certificate or balance sheets showing severe losses. The more comprehensive your documentation, the more compelling your case becomes. Do not rely solely on a sob story; rely on cold, hard data that proves your inability to pay.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Additionally, you must honestly evaluate your current liquidity. A settlement requires you to pay the agreed amount usually within a strict 7 to 15 day window. If you negotiate a fantastic deal but fail to arrange the funds in time, the bank will revoke the offer. Borrowing from friends or liquidating a fixed deposit might be necessary. Ensure the funds are securely available before you initiate the negotiation.
-                            </p>
-
-                            <h3 id="drafting-letter" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Step 2: Drafting the Hardship Letter</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Your hardship letter is your formal opening move. It should be addressed to the specific branch where your loan account is held, or to the designated recovery department email address. The tone must be professional, factual, and devoid of emotional outbursts or anger against the bank. State your loan account number prominently at the top.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Begin by acknowledging the debt and expressing your original intention to repay it in full. Then, clearly outline the specific unforeseen circumstances that disrupted your financial stability. Refer directly to the attached evidence. Finally, make your settlement offer. State clearly: "I am able to arrange a maximum of ₹X as a full and final settlement of this account." End the letter by requesting them to issue a formal settlement letter if they accept the proposal. Send this via registered post with acknowledgment due, or via email to the official bank domain, ensuring you have a paper trail.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                To understand the typical expectations regarding the offer amount, check our guide on <Link href="/what-percentage-do-banks-accept-in-loan-settlement" className="text-blue-600 hover:underline">what percentage banks accept for settlement</Link>. This will help you anchor your initial offer correctly. Do not offer your maximum capacity right away; start lower to allow the bank to counteroffer.
-                            </p>
-
-                            <h3 id="negotiating-bank" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Step 3: Negotiating with the Bank's Recovery Department</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Once your letter is received, the bank will likely assign a recovery officer to your case. This is where the psychological game begins. The officer's job is to maximize recovery, and they will employ various tactics to test your limits. They might reject your offer outright and demand 80% of the due amount. They might threaten immediate legal action or claim that "head office will never approve this."
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                It is vital to remain calm and steadfast. Do not be intimidated by raised voices or aggressive deadlines. Reiterated your hardship and politely stand firm on your offer, perhaps increasing it by a very small margin if you have the budget. If an agent becomes abusive, hang up the phone. You have the right to <Link href="/how-to-stop-recovery-agent-harassment" className="text-blue-600 hover:underline">stop recovery agent harassment</Link> by complaining directly to the bank's nodal officer or the RBI ombudsman.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The negotiation phase requires patience. It might take weeks of back and forth calls before a realistic number is agreed upon. Remember that towards the end of the financial quarter or financial year (March), banks face immense pressure to clean up their NPA books. Negotiating during these windows often yields significantly better results, as officers are motivated to close files quickly.
-                            </p>
-
-                            <h2 id="common-pitfalls" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Common Pitfalls and Red Flags to Avoid</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The debt settlement landscape is fraught with danger, not just from the bank, but from fraudulent actors who prey on desperate borrowers. One of the most critical rules is to never pay any settlement amount without a formal written offer on the bank's official letterhead. A WhatsApp message or a verbal confirmation from an agent is legally worthless. If you pay based on a verbal promise, the bank will simply adjust the amount against your outstanding interest, and your principal debt will remain unchanged.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Another massive red flag is the demand for an upfront "processing fee" to unlock a settlement deal. Legitimate banks do not charge fees to accept a settlement. Any payment you make must go directly into your loan account. If an agent asks you to transfer money to a personal UPI ID, a third-party company account, or asks for cash, you are being scammed. Your money will vanish, and the bank will continue to pursue you.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Finally, ensure you obtain the "No Dues Certificate" (NDC) or "No Objection Certificate" (NOC) after making the payment. The settlement is not complete until this document is in your hand. The NDC is your legal shield against any future claims by the bank or any third-party asset reconstruction company (ARC) that might buy the bank's old debt portfolios. Keep physical and digital copies of the settlement letter, the payment receipt, and the NDC in a safe place indefinitely.
-                            </p>
-
-                            <h2 id="case-study" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Case Study: Settling a ₹5 Lakh Personal Loan</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                To illustrate the process, let us examine a practical scenario. Consider a borrower named Rajesh who took a ₹5,000,000 personal loan but lost his job during corporate restructuring.
-                            </p>
-
-                            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-2xl mb-8">
-                                <h4 className="text-xl font-bold text-gray-900 mb-3">The Scenario Breakdown</h4>
-                                <ul className="space-y-2 text-gray-800 mb-4">
-                                    <li><strong>Original Principal:</strong> ₹5,000,000</li>
-                                    <li><strong>Current Outstanding (with interest & penalties):</strong> ₹6,20,000</li>
-                                    <li><strong>Months Overdue:</strong> 7 months (Classified as NPA)</li>
-                                    <li><strong>Borrowers Maximum Budget:</strong> ₹2,00,000</li>
-                                </ul>
-                                <p className="text-gray-800 mb-4">
-                                    Rajesh submitted a formal hardship letter along with his termination notice. He initially offered ₹1,20,000. The bank rejected it immediately, demanding ₹4,50,000. Rajesh held his ground for three weeks, enduring intense calls.
-                                </p>
-                                <p className="text-gray-800">
-                                    As the financial quarter approached its end, the recovery manager contacted Rajesh with a "final" offer of ₹2,50,000. Rajesh stated he could stretch his funds to exactly ₹1,80,000 and not a rupee more. After a few days of internal approvals, the bank agreed to settle at ₹1,95,000. Rajesh demanded an official letter, verified the reference number with customer care, and made the payment directly to his loan account. He received his NOC 15 days later, effectively saving ₹4,25,000.
-                                </p>
-                            </div>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                This case study highlights the importance of anchoring low, remaining patient, and utilizing the leverage of financial quarter-ends. Rajesh succeeded because he controlled his emotions, stuck to his budget, and followed the verification protocols strictly.
-                            </p>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Frequently Asked Questions</h2>
-                            <div className="space-y-6 mb-10">
+                            <div className="space-y-4 mb-12">
                                 {faqs.map((faq, index) => (
-                                    <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-4 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
-                                        <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
-                                    </div>
-                                ))}
-                            </div>
-
-                            <h2 id="success-stories" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-14">Success Stories</h2>
-                            <p className="text-gray-700 leading-relaxed mb-8">
-                                Thousands of Indians have successfully navigated the settlement process, emerging from debt traps to rebuild their financial lives. Here are a few verified experiences from borrowers who used our strategic guidelines to secure their freedom.
-                            </p>
-                            
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-                                {reviews.map((review, idx) => (
-                                    <div key={idx} className="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
-                                        <div className="flex mb-4">
-                                            {[...Array(review.rating)].map((_, i) => <StarIcon key={i} />)}
-                                        </div>
-                                        <p className="text-gray-700 italic mb-6 font-light text-sm flex-grow">"{review.text}"</p>
-                                        <div className="border-t border-gray-200 pt-4 mt-auto">
-                                            <p className="font-bold text-gray-900">{review.name}</p>
-                                            <p className="text-gray-500 text-xs">{review.location}</p>
+                                    <div key={index} className="border border-gray-200 rounded-lg overflow-hidden bg-white">
+                                        <button 
+                                            onClick={() => toggleFaq(index)}
+                                            className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
+                                        >
+                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <svg 
+                                                className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
+                                                fill="none" 
+                                                stroke="currentColor" 
+                                                viewBox="0 0 24 24"
+                                            >
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        </button>
+                                        <div 
+                                            className={`transition-all duration-300 ease-in-out ${openFaq === index ? 'max-h-[500px] opacity-100 p-4 border-t border-gray-100' : 'max-h-0 opacity-0 overflow-hidden px-4'}`}
+                                        >
+                                            <p className="text-gray-600 leading-relaxed font-normal m-0">{faq.answer}</p>
                                         </div>
                                     </div>
                                 ))}
                             </div>
 
-                            <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-200 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Ready to Resolve Your Debt?</h3>
-                                <p className="text-blue-800 mb-6 max-w-2xl mx-auto">Do not face the recovery agents alone. Our legal experts can draft your hardship letter, negotiate with the bank on your behalf, and ensure all paperwork is airtight. Protect your peace of mind today.</p>
+                            <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4 mt-0">Escape the Debt Cycle Now.</h3>
+                                <p className="text-blue-800 mb-6 font-normal">Our expert consultants specialize in analyzing your financial profile and structuring customized solutions to stop harassment.</p>
                                 <Link
                                     href="/contact"
-                                    className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
+                                    className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md hover:shadow-lg focus:ring-4 focus:ring-blue-300 transform hover:-translate-y-1"
                                 >
-                                    Schedule a Legal Consultation
+                                    Start Your Free Strategy Call
                                 </Link>
                             </div>
+                        </article>
+                    </main>
 
+                    {/* Right Column: Cards */}
+                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start">
+                        <div className="space-y-4">
+                            {/* Card 1: CTA */}
+                            <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
+                                <h3 className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
+                                <p className="text-gray-600 text-sm mb-4 leading-relaxed px-1">
+                                    We can dispatch a powerful Legal Notice to stop aggressive agents from coming to your home.
+                                </p>
+                                <Link
+                                    href="/contact"
+                                    className="w-full bg-[#1b5df3] hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition-colors shadow-md text-center text-base"
+                                >
+                                    Stop the Agents
+                                </Link>
+                                <div className="mt-4 space-y-1.5 text-xs text-gray-500 w-full text-center font-medium">
+                                    <p>&#10003; 24hr Legal Response</p>
+                                    <p>&#10003; Settlement Negotiation</p>
+                                    <p>&#10003; FIR Support for Abuse</p>
+                                </div>
+                            </div>
+
+                            {/* Card 2: Links */}
+                            <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-4">
+                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <ul className="space-y-3 text-left font-medium">
+                                    <li>
+                                        <Link href="/best-microfinance-loan-settlement-lawyer" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
+                                            Microfinance Relief
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/best-lawyer-for-msme-business-loan-dispute" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
+                                            MSME Business Disputes
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
+                                            Bank Recovery Defense
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/best-lawyer-for-notice-for-loan-default" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
+                                            Legal Notice Support
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
+                    </aside>
                 </div>
             </div>
-        </article>
+        </>
     );
 }

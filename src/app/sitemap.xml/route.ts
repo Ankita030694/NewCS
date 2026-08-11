@@ -526,6 +526,12 @@ async function generateSitemap(): Promise<string> {
 
   // Generic SEO Educational Pages
   urls.push({
+    loc: `${baseUrl}/personal-loan-settlement`,
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
     loc: `${baseUrl}/what-to-do-if-your-bank-sends-legal-notices-repeatedly`,
     priority: 0.8,
     changefreq: 'weekly',

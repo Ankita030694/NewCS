@@ -67,16 +67,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/personal-loan-settlement",
-        destination: "/services/personal-loan-settlement",
-        permanent: true,
-      },
-      {
-        source: "/personal-loan-settlement/:path*",
-        destination: "/services/personal-loan-settlement/:path*",
-        permanent: true,
-      },
-      {
         source: "/services/creditloan/:path*",
         destination: "/services/credit-card-settlement/:path*",
         permanent: true,
@@ -294,11 +284,6 @@ const nextConfig: NextConfig = {
       {
         source: "/msme-loan-defence",
         destination: "/best-lawyer-for-msme-and-business-loans",
-        permanent: true,
-      },
-      {
-        source: "/personal-loan-settlement-calculator",
-        destination: "/personal-loan-settlement",
         permanent: true,
       },
       {
