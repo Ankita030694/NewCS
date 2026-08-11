@@ -57,8 +57,9 @@ export default function LoanSettlementDRTPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-drt-settlement"
                 type="application/ld+json"
@@ -70,6 +71,7 @@ export default function LoanSettlementDRTPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
             />
             <LoanSettlementDRTClient />
+                        </div>
             <Footer />
         </div>
     );

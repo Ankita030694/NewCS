@@ -13,10 +13,12 @@ export const metadata: Metadata = {
 
 export default function DocsNeededPage() {
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <DocsNeededClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

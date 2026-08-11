@@ -69,8 +69,9 @@ export default function page() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="msme-article-schema"
                 type="application/ld+json"
@@ -82,6 +83,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
             />
             <MSMELoanDisputesClient />
+                        </div>
             <Footer />
         </div>
     );

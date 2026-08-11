@@ -68,8 +68,9 @@ export default function SmeLoanDisputeResolutionPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <SmeLoanDisputeResolutionClient />
 
             {/* Server-side Schema */}
@@ -88,6 +89,7 @@ export default function SmeLoanDisputeResolutionPage() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
+                        </div>
             <Footer />
         </div>
     );

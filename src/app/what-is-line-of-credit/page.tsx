@@ -140,8 +140,9 @@ export default function WhatIsLineOfCreditPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-loc"
                 type="application/ld+json"
@@ -168,6 +169,7 @@ export default function WhatIsLineOfCreditPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
             <WhatIsLineOfCreditClient faqs={faqs} reviews={reviews} />
+                        </div>
             <Footer />
         </div>
     );

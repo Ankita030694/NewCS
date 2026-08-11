@@ -56,8 +56,9 @@ export default function SettleLoanWithoutLawyerPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="article-schema-no-lawyer"
         type="application/ld+json"
@@ -69,7 +70,8 @@ export default function SettleLoanWithoutLawyerPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <SettleLoanWithoutLawyerClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

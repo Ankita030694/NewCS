@@ -98,15 +98,17 @@ export default function SettleFreePage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       
       <SettleFreeClient />
       
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

@@ -66,8 +66,9 @@ export default function OnlinePortalSettlementPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-portal"
                 type="application/ld+json"
@@ -79,6 +80,7 @@ export default function OnlinePortalSettlementPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <OnlinePortalInitiationClient />
+                        </div>
             <Footer />
         </div>
     );

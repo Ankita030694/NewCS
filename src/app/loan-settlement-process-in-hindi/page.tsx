@@ -56,8 +56,9 @@ export default function LoanSettlementHindiPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="article-schema-hindi"
         type="application/ld+json"
@@ -69,7 +70,8 @@ export default function LoanSettlementHindiPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <LoanSettlementHindiClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

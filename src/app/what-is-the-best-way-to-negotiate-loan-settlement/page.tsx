@@ -80,8 +80,9 @@ export default function NegotiationGuidePage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
@@ -117,7 +118,8 @@ export default function NegotiationGuidePage() {
 
       <NegotiationGuideClient />
       
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

@@ -64,8 +64,9 @@ export default function PersonalLoanSettlementAfterDefaultPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-default-settlement"
                 type="application/ld+json"
@@ -77,6 +78,7 @@ export default function PersonalLoanSettlementAfterDefaultPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <PersonalLoanSettlementAfterDefaultClient />
+                        </div>
             <Footer />
         </div>
     );

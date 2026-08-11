@@ -154,8 +154,9 @@ export default function CreditCardLegalNoticeProcessPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-cc-notice"
                 type="application/ld+json"
@@ -182,6 +183,7 @@ export default function CreditCardLegalNoticeProcessPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} 
             />
             <CreditCardLegalNoticeProcessClient />
+                        </div>
             <Footer />
         </div>
     );

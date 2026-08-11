@@ -66,8 +66,9 @@ export default function WhenToChooseSettlementPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-settle-vs-repay"
                 type="application/ld+json"
@@ -79,6 +80,7 @@ export default function WhenToChooseSettlementPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <WhenToChooseSettlementClient />
+                        </div>
             <Footer />
         </div>
     );

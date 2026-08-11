@@ -154,8 +154,9 @@ export default function Settle10LakhPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-10lakh"
                 type="application/ld+json"
@@ -177,6 +178,7 @@ export default function Settle10LakhPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <Settle10LakhClient />
+                        </div>
             <Footer />
         </div>
     );

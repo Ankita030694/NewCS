@@ -66,8 +66,9 @@ export default function ConsumerProtectionLawsPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-consumer-laws"
                 type="application/ld+json"
@@ -79,6 +80,7 @@ export default function ConsumerProtectionLawsPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <ConsumerProtectionLawsClient />
+                        </div>
             <Footer />
         </div>
     );

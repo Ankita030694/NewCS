@@ -147,8 +147,9 @@ export default function LoanPaymentNotReflectedPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-loan-payment"
                 type="application/ld+json"
@@ -170,6 +171,7 @@ export default function LoanPaymentNotReflectedPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <LoanPaymentNotReflectedClient />
+                        </div>
             <Footer />
         </div>
     );

@@ -67,8 +67,9 @@ export default function DebtSettlementMultipleCreditorsPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-multiple-creditors"
                 type="application/ld+json"
@@ -80,6 +81,7 @@ export default function DebtSettlementMultipleCreditorsPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <DebtSettlementMultipleCreditorsClient />
+                        </div>
             <Footer />
         </div>
     );

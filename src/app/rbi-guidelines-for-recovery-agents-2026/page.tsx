@@ -138,8 +138,9 @@ export default function RbiGuidelinesPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-rbi-guidelines"
                 type="application/ld+json"
@@ -161,6 +162,7 @@ export default function RbiGuidelinesPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <RbiGuidelinesClient />
+                        </div>
             <Footer />
         </div>
     );

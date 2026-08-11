@@ -68,8 +68,9 @@ export default function CanBankFileCasePage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-personal-loan-case"
                 type="application/ld+json"
@@ -81,6 +82,7 @@ export default function CanBankFileCasePage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <CanBankFileCaseClient />
+                        </div>
             <Footer />
         </div>
     );

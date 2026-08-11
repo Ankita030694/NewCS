@@ -50,11 +50,13 @@ export default function LoanRecoveryDocumentationPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script id="article-schema-loan-recovery-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
             <Script id="breadcrumb-schema-loan-recovery-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
             <LoanRecoveryDocumentationClient />
+                        </div>
             <Footer />
         </div>
     );

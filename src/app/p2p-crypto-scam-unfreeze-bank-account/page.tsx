@@ -68,8 +68,9 @@ export default function P2PCryptoScamPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-p2p-scam"
                 type="application/ld+json"
@@ -81,6 +82,7 @@ export default function P2PCryptoScamPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <P2PCryptoScamClient />
+                        </div>
             <Footer />
         </div>
     );

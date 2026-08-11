@@ -165,8 +165,9 @@ export default function BangaloreAgenciesPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-bangalore"
                 type="application/ld+json"
@@ -183,6 +184,7 @@ export default function BangaloreAgenciesPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
             <BangaloreAgenciesClient />
+                        </div>
             <Footer />
         </div>
     );

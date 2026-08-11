@@ -79,8 +79,9 @@ export default function LoanAgreementDraftingReviewPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-loan-drafting"
                 type="application/ld+json"
@@ -97,6 +98,7 @@ export default function LoanAgreementDraftingReviewPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <LoanAgreementDraftingReviewClient />
+                        </div>
             <Footer />
         </div>
     );

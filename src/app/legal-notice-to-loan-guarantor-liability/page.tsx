@@ -94,8 +94,9 @@ const faqSchema = {
 
 export default function GuarantorLiabilityPage() {
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
@@ -109,6 +110,7 @@ export default function GuarantorLiabilityPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
             />
             <GuarantorLiabilityClient />
+                        </div>
             <Footer />
         </div>
     );

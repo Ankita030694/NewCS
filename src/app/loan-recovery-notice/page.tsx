@@ -123,8 +123,9 @@ export default function LoanRecoveryNoticePage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema"
                 type="application/ld+json"
@@ -146,6 +147,7 @@ export default function LoanRecoveryNoticePage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
             <LoanRecoveryNoticeClient />
+                        </div>
             <Footer />
         </div>
     );

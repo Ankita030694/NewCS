@@ -67,8 +67,9 @@ export default function MSMESettlementPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-msme-settlement"
                 type="application/ld+json"
@@ -80,6 +81,7 @@ export default function MSMESettlementPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <MSMESettlementClient />
+                        </div>
             <Footer />
         </div>
     );

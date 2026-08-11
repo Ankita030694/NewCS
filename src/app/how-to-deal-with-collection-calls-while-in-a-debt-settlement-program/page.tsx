@@ -75,8 +75,9 @@ export default function CollectionCallsPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-collection-calls"
                 type="application/ld+json"
@@ -93,6 +94,7 @@ export default function CollectionCallsPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <CollectionCallsClient />
+                        </div>
             <Footer />
         </div>
     );

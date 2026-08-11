@@ -59,8 +59,9 @@ export default function AggressiveRecoverySupportPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="breadcrumb-schema-recovery"
         type="application/ld+json"
@@ -72,7 +73,8 @@ export default function AggressiveRecoverySupportPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       <AggressiveRecoverySupportClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

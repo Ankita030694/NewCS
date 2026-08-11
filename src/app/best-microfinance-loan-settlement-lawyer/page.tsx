@@ -79,8 +79,9 @@ export default function MicrofinanceLoanSettlementLawyerPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-mfi"
                 type="application/ld+json"
@@ -97,6 +98,7 @@ export default function MicrofinanceLoanSettlementLawyerPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <MicrofinanceLoanSettlementLawyerClient />
+                        </div>
             <Footer />
         </div>
     );

@@ -78,8 +78,9 @@ export default function ForeclosureAndPartPrepaymentChargesPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-prepayment"
                 type="application/ld+json"
@@ -96,6 +97,7 @@ export default function ForeclosureAndPartPrepaymentChargesPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <ForeclosureAndPartPrepaymentChargesClient />
+                        </div>
             <Footer />
         </div>
     );

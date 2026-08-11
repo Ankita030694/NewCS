@@ -77,8 +77,9 @@ export default function HowExpertPanelsHelpPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-expert-panels"
                 type="application/ld+json"
@@ -95,6 +96,7 @@ export default function HowExpertPanelsHelpPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <HowExpertPanelsHelpClient />
+                        </div>
             <Footer />
         </div>
     );

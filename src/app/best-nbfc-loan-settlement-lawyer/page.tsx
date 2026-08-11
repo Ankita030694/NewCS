@@ -79,8 +79,9 @@ export default function BestNbfcLoanSettlementLawyerPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-nbfc-lawyer"
                 type="application/ld+json"
@@ -97,6 +98,7 @@ export default function BestNbfcLoanSettlementLawyerPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <BestNbfcLoanSettlementLawyerClient />
+                        </div>
             <Footer />
         </div>
     );

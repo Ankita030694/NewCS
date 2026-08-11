@@ -35,15 +35,17 @@ export default function Page() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="breadcrumb-schema-eligibility"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
       <LoanSettlementEligibilityCriteriaClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

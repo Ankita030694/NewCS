@@ -65,8 +65,9 @@ export default function FindAgencyNearMePage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-find-agency"
                 type="application/ld+json"
@@ -78,6 +79,7 @@ export default function FindAgencyNearMePage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <FindAgencyNearMeClient />
+                        </div>
             <Footer />
         </div>
     );

@@ -65,8 +65,9 @@ export default function CompareFeesPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-compare-fees"
                 type="application/ld+json"
@@ -78,6 +79,7 @@ export default function CompareFeesPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <CompareFeesClient />
+                        </div>
             <Footer />
         </div>
     );

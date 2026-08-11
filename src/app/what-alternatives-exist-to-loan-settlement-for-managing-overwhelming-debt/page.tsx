@@ -56,8 +56,9 @@ export default function DebtAlternativesPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-debt-alternatives"
                 type="application/ld+json"
@@ -69,6 +70,7 @@ export default function DebtAlternativesPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <DebtAlternativesClient />
+                        </div>
             <Footer />
         </div>
     );

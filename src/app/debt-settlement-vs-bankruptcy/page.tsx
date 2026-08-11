@@ -75,8 +75,9 @@ export default function SettlementVsBankruptcyPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-vs-bankruptcy"
                 type="application/ld+json"
@@ -93,6 +94,7 @@ export default function SettlementVsBankruptcyPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <SettlementVsBankruptcyClient />
+                        </div>
             <Footer />
         </div>
     );

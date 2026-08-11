@@ -76,8 +76,9 @@ export default function CheckBankAccountBlockedPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-blocked"
                 type="application/ld+json"
@@ -94,6 +95,7 @@ export default function CheckBankAccountBlockedPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <CheckBankAccountBlockedClient />
+                        </div>
             <Footer />
         </div>
     );

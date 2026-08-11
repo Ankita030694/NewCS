@@ -35,15 +35,17 @@ export default function Page() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="breadcrumb-schema-p2p"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
       <P2PLendingSettlementClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

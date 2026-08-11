@@ -157,8 +157,9 @@ export default function ThreateningArrestPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-arrest-threat"
                 type="application/ld+json"
@@ -180,6 +181,7 @@ export default function ThreateningArrestPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <ThreateningArrestClient />
+                        </div>
             <Footer />
         </div>
     );

@@ -90,13 +90,15 @@ export default function BestLawyerLAPPage() {
 
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script id="breadcrumb-schema-lap" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             <Script id="article-schema-lap" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <Script id="organization-schema-lap" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             <BestLawyerLAPClient />
+                        </div>
             <Footer />
         </div>
     );

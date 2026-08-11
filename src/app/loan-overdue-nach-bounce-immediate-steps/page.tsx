@@ -78,8 +78,9 @@ export default function LoanOverdueNachBouncePage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-nach"
                 type="application/ld+json"
@@ -96,6 +97,7 @@ export default function LoanOverdueNachBouncePage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <LoanOverdueNachBounceClient />
+                        </div>
             <Footer />
         </div>
     );

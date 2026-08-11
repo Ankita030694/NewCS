@@ -75,8 +75,9 @@ export default function MissedCarLoanEmiMoreThan90DaysPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="article-schema-missed-car-loan"
         type="application/ld+json"
@@ -93,7 +94,8 @@ export default function MissedCarLoanEmiMoreThan90DaysPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
       />
       <MissedCarLoanEmiMoreThan90DaysClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

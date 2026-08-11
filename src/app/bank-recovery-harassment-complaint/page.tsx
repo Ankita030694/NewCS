@@ -26,9 +26,11 @@ export const metadata: Metadata = {
 
 export default function BankRecoveryHarassmentComplaintPage() {
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <BankRecoveryHarassmentComplaintClient />
+                        </div>
             <Footer />
         </div>
     );

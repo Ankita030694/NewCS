@@ -63,8 +63,9 @@ export default function PersonalLoanSettlementCibilImpactPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-cibil-impact"
                 type="application/ld+json"
@@ -76,6 +77,7 @@ export default function PersonalLoanSettlementCibilImpactPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
             />
             <PersonalLoanSettlementCibilImpactClient />
+                        </div>
             <Footer />
         </div>
     );

@@ -85,8 +85,9 @@ export default function BestLawyerEducationLoanPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-education-loan"
                 type="application/ld+json"
@@ -103,6 +104,7 @@ export default function BestLawyerEducationLoanPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
             />
             <BestLawyerEducationLoanClient />
+                        </div>
             <Footer />
         </div>
     );

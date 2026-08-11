@@ -59,8 +59,9 @@ export default function CheckActiveLoanPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="breadcrumb-schema-loans"
         type="application/ld+json"
@@ -72,7 +73,8 @@ export default function CheckActiveLoanPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       <CheckActiveLoanClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

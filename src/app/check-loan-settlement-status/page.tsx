@@ -74,8 +74,9 @@ export default function CheckLoanSettlementStatusPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen">
+    <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
+            <div className="relative z-10">
       <Script
         id="article-schema-status"
         type="application/ld+json"
@@ -92,7 +93,8 @@ export default function CheckLoanSettlementStatusPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
       />
       <CheckLoanSettlementStatusClient />
-      <Footer />
+                  </div>
+            <Footer />
     </div>
   );
 }

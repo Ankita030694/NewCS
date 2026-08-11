@@ -76,8 +76,9 @@ export default function CheckFreeCibilScorePage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-cibil"
                 type="application/ld+json"
@@ -94,6 +95,7 @@ export default function CheckFreeCibilScorePage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <CheckFreeCibilScoreClient />
+                        </div>
             <Footer />
         </div>
     );

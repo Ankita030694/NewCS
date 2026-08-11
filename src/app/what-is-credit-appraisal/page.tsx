@@ -76,8 +76,9 @@ export default function WhatIsCreditAppraisalPage() {
     };
 
     return (
-        <div className="bg-white min-h-screen">
+        <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
+            <div className="relative z-10">
             <Script
                 id="article-schema-appraisal"
                 type="application/ld+json"
@@ -94,6 +95,7 @@ export default function WhatIsCreditAppraisalPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
             />
             <WhatIsCreditAppraisalClient />
+                        </div>
             <Footer />
         </div>
     );
