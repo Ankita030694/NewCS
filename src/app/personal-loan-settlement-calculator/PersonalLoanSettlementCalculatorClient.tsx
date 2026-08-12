@@ -551,7 +551,7 @@ export default function PersonalLoanSettlementCalculatorClient() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/how-to-handle-recovery-agent-harrasement" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                        <Link href="/how-to-handle-recovery-agent-harrasment" className="text-blue-600 hover:text-blue-800 transition-colors">
                                             Harassment Prevention
                                         </Link>
                                     </li>

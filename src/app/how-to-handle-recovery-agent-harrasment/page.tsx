@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasement'
+    url: 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasment'
   },
   twitter: {
     card: 'summary_large_image',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Expert guide on dealing with debt collectors. Know the law and protect your privacy.'
   },
   alternates: {
-    canonical: 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasement'
+    canonical: 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasment'
   },
   robots: {
     index: true,
@@ -54,7 +54,7 @@ export default function RecoveryAgentHarassmentPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasement',
+    '@id': 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasment',
     name: 'CredSettle Debt Relief Services',
     legalName: 'CredSettle Legal Services',
     url: 'https://www.credsettle.com',
@@ -89,7 +89,7 @@ export default function RecoveryAgentHarassmentPage() {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Recovery Agent Harassment Guide',
-        'item': 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasement'
+        'item': 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasment'
       }
     ]
   };
@@ -115,7 +115,7 @@ export default function RecoveryAgentHarassmentPage() {
     'dateModified': '2025-02-06',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasement'
+      '@id': 'https://www.credsettle.com/how-to-handle-recovery-agent-harrasment'
     }
   };
 

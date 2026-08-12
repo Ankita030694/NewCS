@@ -585,7 +585,7 @@ export default function PersonalLoanDebtSettlementClient() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/how-to-handle-recovery-agent-harrasement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">
+                                        <Link href="/how-to-handle-recovery-agent-harrasment" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">
                                             Handle Agent Harassment
                                         </Link>
                                     </li>
