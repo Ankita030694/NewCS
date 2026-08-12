@@ -6,10 +6,10 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement Letter Format (Free Template)",
-    description: "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+    title: "Tax Implications of Personal Loan Settlement in India",
+    description: "Do you have to pay taxes on a settled loan? Understand the income tax implications of personal loan settlement and debt waivers in India.",
     alternates: {
-        canonical: 'https://www.credsettle.com/personal-loan-settlement-letter-format',
+        canonical: 'https://www.credsettle.com/personal-loan-settlement-tax-implications',
     },
 };
 
@@ -17,8 +17,8 @@ export default function Page() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Personal Loan Settlement Letter Format (Free Template)",
-        "description": "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+        "headline": "Tax Implications of Personal Loan Settlement in India",
+        "description": "Do you have to pay taxes on a settled loan? Understand the income tax implications of personal loan settlement and debt waivers in India.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Organization",
@@ -39,7 +39,7 @@ export default function Page() {
             <Navbar />
             <div className="relative z-10">
                 <Script
-                    id="article-schema-personal-loan-settlement-letter-format"
+                    id="article-schema-personal-loan-settlement-tax-implications"
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 />

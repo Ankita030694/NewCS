@@ -6,10 +6,10 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement Letter Format (Free Template)",
-    description: "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+    title: "How to Negotiate Personal Loan Settlement with Banks & NBFCs",
+    description: "Master the art of personal loan negotiation. Learn proven strategies to talk to bank managers, stop harassment, and legally negotiate a lower payoff amount.",
     alternates: {
-        canonical: 'https://www.credsettle.com/personal-loan-settlement-letter-format',
+        canonical: 'https://www.credsettle.com/negotiate-personal-loan-settlement',
     },
 };
 
@@ -17,8 +17,8 @@ export default function Page() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Personal Loan Settlement Letter Format (Free Template)",
-        "description": "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+        "headline": "How to Negotiate Personal Loan Settlement with Banks & NBFCs",
+        "description": "Master the art of personal loan negotiation. Learn proven strategies to talk to bank managers, stop harassment, and legally negotiate a lower payoff amount.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Organization",
@@ -39,7 +39,7 @@ export default function Page() {
             <Navbar />
             <div className="relative z-10">
                 <Script
-                    id="article-schema-personal-loan-settlement-letter-format"
+                    id="article-schema-negotiate-personal-loan-settlement"
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 />

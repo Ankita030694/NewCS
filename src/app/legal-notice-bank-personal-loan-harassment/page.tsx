@@ -6,10 +6,10 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement Letter Format (Free Template)",
-    description: "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+    title: "Send Legal Notice to Bank for Recovery Agent Harassment",
+    description: "Facing abuse from recovery agents? Learn how to send a legal notice to your bank for personal loan harassment and protect your rights under RBI guidelines.",
     alternates: {
-        canonical: 'https://www.credsettle.com/personal-loan-settlement-letter-format',
+        canonical: 'https://www.credsettle.com/legal-notice-bank-personal-loan-harassment',
     },
 };
 
@@ -17,8 +17,8 @@ export default function Page() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Personal Loan Settlement Letter Format (Free Template)",
-        "description": "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+        "headline": "Send Legal Notice to Bank for Recovery Agent Harassment",
+        "description": "Facing abuse from recovery agents? Learn how to send a legal notice to your bank for personal loan harassment and protect your rights under RBI guidelines.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Organization",
@@ -39,7 +39,7 @@ export default function Page() {
             <Navbar />
             <div className="relative z-10">
                 <Script
-                    id="article-schema-personal-loan-settlement-letter-format"
+                    id="article-schema-legal-notice-bank-personal-loan-harassment"
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 />

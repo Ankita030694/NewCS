@@ -6,10 +6,10 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement Letter Format (Free Template)",
-    description: "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+    title: "Personal Loan Settlement RBI Guidelines 2026: Know Your Rights",
+    description: "Is loan settlement legal? Read the latest RBI guidelines on personal loan settlement, NPA classification, and your legal rights against recovery harassment.",
     alternates: {
-        canonical: 'https://www.credsettle.com/personal-loan-settlement-letter-format',
+        canonical: 'https://www.credsettle.com/personal-loan-settlement-rbi-guidelines',
     },
 };
 
@@ -17,8 +17,8 @@ export default function Page() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Personal Loan Settlement Letter Format (Free Template)",
-        "description": "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+        "headline": "Personal Loan Settlement RBI Guidelines 2026: Know Your Rights",
+        "description": "Is loan settlement legal? Read the latest RBI guidelines on personal loan settlement, NPA classification, and your legal rights against recovery harassment.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Organization",
@@ -39,7 +39,7 @@ export default function Page() {
             <Navbar />
             <div className="relative z-10">
                 <Script
-                    id="article-schema-personal-loan-settlement-letter-format"
+                    id="article-schema-personal-loan-settlement-rbi-guidelines"
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 />

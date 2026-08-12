@@ -325,7 +325,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 160; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
+  const mainStaticPages = 217; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -3281,6 +3281,354 @@ async function generateSitemap(): Promise<string> {
   urls.push({
     loc: `${baseUrl}/application-to-unblock-bank-account-for-loan-emi`,
     priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+
+  // --- AUTO-ADDED SEO PAGES ---
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-letter-format`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/recovery-agent-sending-morphed-images`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-defaulter-for-10-years`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-negotiation`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/settle-5-lakh-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/what-is-credit-appraisal`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/what-are-the-pros-and-cons-of-using-a-debt-settlement-company`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-lawyer`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/how-to-settle-a-credit-card-debt`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/nri-personal-loan-settlement-india`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/settling-debt-in-india-guide`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/salary-account-frozen-by-bank-for-loan-default`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/icici-credit-card-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-vs-restructuring`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/credit-card-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-tax-implications`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/legal-notice-bank-personal-loan-harassment`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/settle-multiple-personal-loans`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/recovery-agent-came-to-my-office`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/ots-kya-hota-hai-full-form`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/negotiate-personal-loan-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-calculator`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-services`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-cibil-impact`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/multiple-personal-loan-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-process`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-recovery-harassment`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-company`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/cheque-bounce-lawyer-in-delhi`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/impact-of-loan-settlement-on-cibil-score`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-debt-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/loan-settlement-for-senior-citizens-pension-holders-india`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-rbi-guidelines`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/reduce-personal-loan-outstanding-amount`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/understanding-the-impact-of-high-credit-card-interest-rates-what-you-need-to-know`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-percentage`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-cost`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/request-personal-loan-settlement-offer`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-vs-closure`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/settle-5-lakh-credit-card-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/bank-employee-threatening-arrest-on-call`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-after-default`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-one-time-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/sarfaesi-act-section-13-2-notice-stop-auction`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/credit-card-settlement-hdfc`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/whats-a-credit-line-and-who-should-consider-one`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/does-settled-loan-npa-affect-government-job-verification`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/how-do-loan-settlement-agents-work-through-online-portals`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/settle-10-lakh-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/which-loan-settlement-companies-offer-the-lowest-fees`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-after-npa`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/how-to-check-your-loan-status-without-visiting-the-bank`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+
+  // --- AUTO-ADDED NEW BATCH ---
+  urls.push({
+    loc: `${baseUrl}/success`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/thank-you`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/delete-your-app-account`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/nullify`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/login`,
+    priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
   });
