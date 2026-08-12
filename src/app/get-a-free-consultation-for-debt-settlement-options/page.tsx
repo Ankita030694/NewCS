@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
+    url: 'https://www.credsettle.com/get-a-free-consultation-for-debt-settlement-options'
   },
   alternates: {
-    canonical: 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
+    canonical: 'https://www.credsettle.com/get-a-free-consultation-for-debt-settlement-options'
   }
 };
 
@@ -38,10 +38,10 @@ export default function ConsultationPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options',
+    '@id': 'https://www.credsettle.com/get-a-free-consultation-for-debt-settlement-options',
     name: 'CredSettle Debt Relief Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'CredSettle provides expert debt settlement consultations to help individuals in India manage and resolve their outstanding debts.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function ConsultationPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Free Consultation for Debt Settlement',
-        'item': 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
+        'item': 'https://www.credsettle.com/get-a-free-consultation-for-debt-settlement-options'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function ConsultationPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/get-a-free-consultation-for-debt-settlement-options'
+      '@id': 'https://www.credsettle.com/get-a-free-consultation-for-debt-settlement-options'
     }
   };
 

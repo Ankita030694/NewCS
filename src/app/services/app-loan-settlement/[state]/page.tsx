@@ -62,6 +62,7 @@ export async function generateMetadata({
   const stateData = getStateContentWithFallback(resolvedParams.state);
   
   return {
+    alternates: { canonical: `https://www.credsettle.com/services/app-loan-settlement/${resolvedParams.state}` },
     title: stateData.metaTitle || stateData.title,
     description: stateData.metaDescription,
     keywords: stateData.keywords?.join(', '),

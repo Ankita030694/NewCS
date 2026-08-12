@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/is-loan-settlement-illegal-in-india-truth'
+    url: 'https://www.credsettle.com/is-loan-settlement-illegal-in-india-truth'
   },
   twitter: {
     card: 'summary_large_image',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     description: 'Debunking myths about loan settlement legality. Read the official truth.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/is-loan-settlement-illegal-in-india-truth'
+    canonical: 'https://www.credsettle.com/is-loan-settlement-illegal-in-india-truth'
   },
   robots: {
     index: true,
@@ -59,11 +59,11 @@ export default function LoanSettlementTruthPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com',
+    '@id': 'https://www.credsettle.com',
     name: 'CredSettle',
     legalName: 'CredSettle Legal Solutions',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'India\'s leading legal advocacy firm for debt resolution and loan settlement truth.',
     telephone: '+91-8800226635',
     email: 'support@credsettle.com',
@@ -85,13 +85,13 @@ export default function LoanSettlementTruthPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Is Loan Settlement Illegal?',
-        'item': 'https://credsettle.com/is-loan-settlement-illegal-in-india-truth'
+        'item': 'https://www.credsettle.com/is-loan-settlement-illegal-in-india-truth'
       }
     ]
   };
@@ -101,7 +101,7 @@ export default function LoanSettlementTruthPage() {
     '@type': 'Article',
     'headline': 'Is Loan Settlement Illegal in India? The Truth Exposed (RBI Guidelines 2024)',
     'description': 'A comprehensive legal analysis of the validity and legality of loan settlement processes in the Indian banking system.',
-    'image': 'https://credsettle.com/is-loan-settlement-illegal.jpg',
+    'image': 'https://www.credsettle.com/is-loan-settlement-illegal.jpg',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle Legal Team'
@@ -111,14 +111,14 @@ export default function LoanSettlementTruthPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2024-03-30',
     'dateModified': '2024-03-30',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/is-loan-settlement-illegal-in-india-truth'
+      '@id': 'https://www.credsettle.com/is-loan-settlement-illegal-in-india-truth'
     }
   };
 

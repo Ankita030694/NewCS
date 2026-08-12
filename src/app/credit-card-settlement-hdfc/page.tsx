@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/credit-card-settlement-hdfc'
+    url: 'https://www.credsettle.com/credit-card-settlement-hdfc'
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Learn how to negotiate an HDFC credit card settlement effectively and protect your legal rights.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/credit-card-settlement-hdfc'
+    canonical: 'https://www.credsettle.com/credit-card-settlement-hdfc'
   },
   robots: {
     index: true,
@@ -49,21 +49,21 @@ export default function HdfcCreditCardSettlementPage() {
     'author': {
       '@type': 'Person',
       'name': 'Rohan Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/credit-card-settlement-hdfc'
+      '@id': 'https://www.credsettle.com/credit-card-settlement-hdfc'
     }
   };
 
@@ -122,13 +122,13 @@ export default function HdfcCreditCardSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'HDFC Credit Card Settlement Guide',
-        'item': 'https://credsettle.com/credit-card-settlement-hdfc'
+        'item': 'https://www.credsettle.com/credit-card-settlement-hdfc'
       }
     ]
   };

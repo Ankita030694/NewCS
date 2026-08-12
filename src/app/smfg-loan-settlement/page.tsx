@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/smfg-loan-settlement'
+    url: 'https://www.credsettle.com/smfg-loan-settlement'
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Learn how to negotiate a structured One-Time Settlement (OTS) for an SMFG personal loan. Stop recovery agent harassment and resolve your debt safely.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/smfg-loan-settlement'
+    canonical: 'https://www.credsettle.com/smfg-loan-settlement'
   },
   robots: {
     index: true,
@@ -49,21 +49,21 @@ export default function SmfgLoanSettlementPage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/smfg-loan-settlement'
+      '@id': 'https://www.credsettle.com/smfg-loan-settlement'
     }
   };
 
@@ -146,13 +146,13 @@ export default function SmfgLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'SMFG Loan Settlement Guide',
-        'item': 'https://credsettle.com/smfg-loan-settlement'
+        'item': 'https://www.credsettle.com/smfg-loan-settlement'
       }
     ]
   };

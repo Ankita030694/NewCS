@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Expert legal defense for SME and MSME loan disputes. We help businesses navigate delayed payments, MSEFC arbitration, and RBI revival frameworks to protect your enterprise.',
     keywords: 'SME loan dispute resolution, MSME loan legal help India, MSEFC arbitration for delayed payments, RBI MSME revival framework, professional SME debt defense',
     alternates: {
-        canonical: 'https://credsettle.com/SME-loan-dispute-resolution'
+        canonical: 'https://www.credsettle.com/SME-loan-dispute-resolution'
     }
 };
 
@@ -18,7 +18,7 @@ export default function SmeLoanDisputeResolutionPage() {
         '@type': 'Article',
         'headline': 'Comprehensive Guide to SME Loan Dispute Resolution in India',
         'description': 'A detailed legal manual for MSMEs facing loan disputes, exploring delayed payments, arbitration mechanisms, and RBI-mandated revival strategies.',
-        'image': 'https://credsettle.com/images/sme-dispute.jpg',
+        'image': 'https://www.credsettle.com/images/sme-dispute.jpg',
         'author': {
             '@type': 'Organization',
             'name': 'CredSettle SME Legal Team'
@@ -28,7 +28,7 @@ export default function SmeLoanDisputeResolutionPage() {
             'name': 'CredSettle',
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://credsettle.com/logo.png'
+                'url': 'https://www.credsettle.com/logo.png'
             }
         },
         'datePublished': '2025-01-15',
@@ -43,13 +43,13 @@ export default function SmeLoanDisputeResolutionPage() {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': 'Home',
-                'item': 'https://credsettle.com/'
+                'item': 'https://www.credsettle.com/'
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'SME Loan Dispute Resolution',
-                'item': 'https://credsettle.com/SME-loan-dispute-resolution'
+                'item': 'https://www.credsettle.com/SME-loan-dispute-resolution'
             }
         ]
     };
@@ -58,8 +58,8 @@ export default function SmeLoanDisputeResolutionPage() {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         'name': 'CredSettle',
-        'url': 'https://credsettle.com',
-        'logo': 'https://credsettle.com/logo.png',
+        'url': 'https://www.credsettle.com',
+        'logo': 'https://www.credsettle.com/logo.png',
         'sameAs': [
             'https://www.facebook.com/credsettle',
             'https://www.twitter.com/credsettle',

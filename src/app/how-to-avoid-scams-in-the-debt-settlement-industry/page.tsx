@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
+    url: 'https://www.credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
+    canonical: 'https://www.credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
   }
 };
 
@@ -38,10 +38,10 @@ export default function ScamAvoidancePage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry',
+    '@id': 'https://www.credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry',
     name: 'CredSettle Debt Relief Protection',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on avoiding scams in the debt settlement industry and providing legitimate debt resolution services.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function ScamAvoidancePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Avoid Debt Settlement Scams',
-        'item': 'https://credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
+        'item': 'https://www.credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function ScamAvoidancePage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
+      '@id': 'https://www.credsettle.com/how-to-avoid-scams-in-the-debt-settlement-industry'
     }
   };
 

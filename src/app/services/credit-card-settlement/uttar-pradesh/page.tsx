@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: 'Legal credit card settlement in Lucknow, Kanpur, Agra. Stop harassment, reduce debt 40-75%. RBI-compliant process.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/credit-card-settlement/uttar-pradesh'
+    canonical: 'https://www.credsettle.com/services/credit-card-settlement/uttar-pradesh'
   },
   robots: {
     index: true,
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/uttar-pradesh',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/uttar-pradesh',
   name: 'CredSettle Credit Card Settlement Uttar Pradesh',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional credit card settlement services in Uttar Pradesh. Legal RBI-compliant debt resolution for Lucknow, Noida, Kanpur, Agra borrowers. Family and education debt specialists.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -132,25 +132,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Credit Card Settlement',
-      item: 'https://credsettle.com/services/credit-card-settlement'
+      item: 'https://www.credsettle.com/services/credit-card-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Uttar Pradesh',
-      item: 'https://credsettle.com/services/credit-card-settlement/uttar-pradesh'
+      item: 'https://www.credsettle.com/services/credit-card-settlement/uttar-pradesh'
     }
   ]
 };
@@ -159,9 +159,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Uttar Pradesh Credit Card Settlement',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/uttar-pradesh',
-  url: 'https://credsettle.com/services/credit-card-settlement/uttar-pradesh',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/uttar-pradesh',
+  url: 'https://www.credsettle.com/services/credit-card-settlement/uttar-pradesh',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

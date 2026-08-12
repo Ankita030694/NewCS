@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
+    url: 'https://www.credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
+    canonical: 'https://www.credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
   }
 };
 
@@ -38,10 +38,10 @@ export default function FullFinalSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank',
+    '@id': 'https://www.credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional assistance for bank loan settlements and debt resolution in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function FullFinalSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Initiate Settlement Discussion',
-        'item': 'https://credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
+        'item': 'https://www.credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function FullFinalSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
+      '@id': 'https://www.credsettle.com/how-can-i-initiate-a-full-and-final-settlement-discussion-with-my-bank'
     }
   };
 

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/understanding-90-day-loan-default-india'
+    url: 'https://www.credsettle.com/understanding-90-day-loan-default-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/understanding-90-day-loan-default-india'
+    canonical: 'https://www.credsettle.com/understanding-90-day-loan-default-india'
   }
 };
 
@@ -38,11 +38,11 @@ export default function DefaultIndiaPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/understanding-90-day-loan-default-india',
+    '@id': 'https://www.credsettle.com/understanding-90-day-loan-default-india',
     name: 'CredSettle',
     alternateName: 'credsettle.com',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal and financial advisory for loan settlement by CredSettle.',
     telephone: '+91-8800226635',
     address: {
@@ -69,13 +69,13 @@ export default function DefaultIndiaPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Understanding 90 Day Loan Default India',
-        'item': 'https://credsettle.com/understanding-90-day-loan-default-india'
+        'item': 'https://www.credsettle.com/understanding-90-day-loan-default-india'
       }
     ]
   };
@@ -88,21 +88,21 @@ export default function DefaultIndiaPage() {
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle',
-      'url': 'https://credsettle.com'
+      'url': 'https://www.credsettle.com'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2024-03-30',
     'dateModified': '2024-03-30',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/understanding-90-day-loan-default-india'
+      '@id': 'https://www.credsettle.com/understanding-90-day-loan-default-india'
     }
   };
 

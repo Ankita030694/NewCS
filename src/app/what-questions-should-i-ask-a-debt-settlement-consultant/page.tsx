@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
+    url: 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
+    canonical: 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
   }
 };
 
@@ -39,10 +39,10 @@ export default function ConsultantQuestionsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant',
+    '@id': 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Providing expert debt settlement consultation and resolution services to Indian consumers.',
     telephone: '+91-8800226635',
     address: {
@@ -150,13 +150,13 @@ export default function ConsultantQuestionsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Questions to Ask a Debt Consultant',
-        'item': 'https://credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
+        'item': 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
       }
     ]
   };
@@ -174,7 +174,7 @@ export default function ConsultantQuestionsPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
+      '@id': 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
     }
   };
 

@@ -66,6 +66,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const content = getStateContentWithFallback(state);
 
   return {
+    alternates: { canonical: `https://www.credsettle.com/services/credit-card-settlement/${state}` },
     title: content.metaTitle || content.title,
     description: content.metaDescription,
     keywords: content.keywords.join(', '),
@@ -122,7 +123,7 @@ export default async function StatePage({ params }: PageProps) {
     provider: {
       '@type': 'Organization',
       name: 'CredSettle',
-      url: 'https://credsettle.com'
+      url: 'https://www.credsettle.com'
     }
   };
 

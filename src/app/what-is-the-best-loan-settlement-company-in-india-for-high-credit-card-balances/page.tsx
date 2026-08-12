@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
+    url: 'https://www.credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
+    canonical: 'https://www.credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
   }
 };
 
@@ -38,10 +38,10 @@ export default function BestLoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances',
+    '@id': 'https://www.credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances',
     name: 'CredSettle Debt Relief Services India',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Premier loan and credit card settlement services in India. We help borrowers resolve high-interest debt legally and ethically.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function BestLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'What is the Best Loan Settlement Company in India for High Credit Card Balances?',
-        'item': 'https://credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
+        'item': 'https://www.credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function BestLoanSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
+      '@id': 'https://www.credsettle.com/what-is-the-best-loan-settlement-company-in-india-for-high-credit-card-balances'
     }
   };
 

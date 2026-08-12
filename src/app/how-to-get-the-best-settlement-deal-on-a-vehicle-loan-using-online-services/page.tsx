@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
+    url: 'https://www.credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
+    canonical: 'https://www.credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
   }
 };
 
@@ -38,10 +38,10 @@ export default function VehicleLoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services',
+    '@id': 'https://www.credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services',
     name: 'CredSettle Vehicle Loan Settlement Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Leading online service for vehicle loan settlement and debt resolution in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function VehicleLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Vehicle Loan Settlement',
-        'item': 'https://credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
+        'item': 'https://www.credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function VehicleLoanSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
+      '@id': 'https://www.credsettle.com/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services'
     }
   };
 

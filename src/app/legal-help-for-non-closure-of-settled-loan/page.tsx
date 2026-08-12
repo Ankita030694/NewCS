@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import LegalHelpNonClosureClient from './LegalHelpNonClosureClient';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.credsettle.com/legal-help-for-non-closure-of-settled-loan' },
     title: 'Legal Help for Non-Closure of Settled Loan 2025-26 | RBI Penalty Guidelines',
     description: 'Facing issues with non-closure of settled loan? Understand RBI 2025 guidelines on NOC, ₹5000 daily penalty for document delays, and legal help for CIBIL updates.',
     keywords: 'legal help for non-closure of settled loan, settled loan not closed in CIBIL, NOC delay penalty RBI 2025, how to close settled loan account, braining ombudsman complaint for settled loan',

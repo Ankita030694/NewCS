@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import MaharashtraPageClient from './MaharashtraPageClient';
 
-const pageUrl = 'https://credsettle.com/services/nbfc-loan-settlement/maharashtra';
+const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/maharashtra';
 
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement Maharashtra | CredSettle Legal Debt Relief',
@@ -54,11 +54,11 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
   name: 'CredSettle NBFC Loan Settlement Maharashtra',
-  url: 'https://credsettle.com',
+  url: 'https://www.credsettle.com',
   '@id': pageUrl,
   description:
     'CredSettle delivers RBI-compliant NBFC loan settlement support for borrowers in Mumbai, Pune, Nagpur, Nashik, Thane, Aurangabad, Kolhapur and the rest of Maharashtra.',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   areaServed: {
     '@type': 'State',
     name: 'Maharashtra',
@@ -104,19 +104,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'NBFC Loan Settlement',
-      item: 'https://credsettle.com/services/nbfc-loan-settlement'
+      item: 'https://www.credsettle.com/services/nbfc-loan-settlement'
     },
     {
       '@type': 'ListItem',

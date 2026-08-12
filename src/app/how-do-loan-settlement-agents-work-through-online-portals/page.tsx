@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
+    url: 'https://www.credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Learn how to engage loan settlement agents through secure online portals and negotiate debt relief.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
+    canonical: 'https://www.credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
   },
   robots: {
     index: true,
@@ -55,14 +55,14 @@ export default function OnlinePortalSettlementPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-10',
     'dateModified': '2026-07-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
+      '@id': 'https://www.credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
     }
   };
 
@@ -129,13 +129,13 @@ export default function OnlinePortalSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How Online Portals For Loan Settlement Agents Work',
-        'item': 'https://credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
+        'item': 'https://www.credsettle.com/how-do-loan-settlement-agents-work-through-online-portals'
       }
     ]
   };

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/legal-notice-for-recovery-of-money'
+    url: 'https://www.credsettle.com/legal-notice-for-recovery-of-money'
   },
   alternates: {
-    canonical: 'https://credsettle.com/legal-notice-for-recovery-of-money'
+    canonical: 'https://www.credsettle.com/legal-notice-for-recovery-of-money'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LegalNoticePage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/legal-notice-for-recovery-of-money',
+    '@id': 'https://www.credsettle.com/legal-notice-for-recovery-of-money',
     name: 'CredSettle Money Recovery Legal Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional legal services for recovering outstanding debts and money in India through formal legal notices and court representation.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function LegalNoticePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Legal Notice for Recovery of Money',
-        'item': 'https://credsettle.com/legal-notice-for-recovery-of-money'
+        'item': 'https://www.credsettle.com/legal-notice-for-recovery-of-money'
       }
     ]
   };
@@ -125,7 +125,7 @@ export default function LegalNoticePage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/legal-notice-for-recovery-of-money'
+      '@id': 'https://www.credsettle.com/legal-notice-for-recovery-of-money'
     }
   };
 

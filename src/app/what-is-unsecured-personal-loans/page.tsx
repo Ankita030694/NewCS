@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-is-unsecured-personal-loans'
+    url: 'https://www.credsettle.com/what-is-unsecured-personal-loans'
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Understand the legal vulnerabilities and exact default timeline for unsecured personal loans in India.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-is-unsecured-personal-loans'
+    canonical: 'https://www.credsettle.com/what-is-unsecured-personal-loans'
   },
   robots: {
     index: true,
@@ -47,21 +47,21 @@ export default function WhatIsUnsecuredPersonalLoansPage() {
     'author': {
       '@type': 'Person',
       'name': 'Rajesh Kumar',
-      'image': 'https://credsettle.com/default-user.svg'
+      'image': 'https://www.credsettle.com/default-user.svg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-is-unsecured-personal-loans'
+      '@id': 'https://www.credsettle.com/what-is-unsecured-personal-loans'
     }
   };
 
@@ -136,13 +136,13 @@ export default function WhatIsUnsecuredPersonalLoansPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'What is Unsecured Personal Loans?',
-        'item': 'https://credsettle.com/what-is-unsecured-personal-loans'
+        'item': 'https://www.credsettle.com/what-is-unsecured-personal-loans'
       }
     ]
   };

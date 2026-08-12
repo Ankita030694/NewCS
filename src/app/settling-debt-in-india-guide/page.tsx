@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/settling-debt-in-india-guide'
+    url: 'https://www.credsettle.com/settling-debt-in-india-guide'
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Learn the exact legal process of settling debt in India. Discover cost breakdowns, RBI guidelines, and how to protect yourself from harassment.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/settling-debt-in-india-guide'
+    canonical: 'https://www.credsettle.com/settling-debt-in-india-guide'
   },
   robots: {
     index: true,
@@ -49,21 +49,21 @@ export default function SettlingDebtInIndiaPage() {
     'author': {
       '@type': 'Person',
       'name': 'Rajesh Kumar',
-      'url': 'https://credsettle.com/about'
+      'url': 'https://www.credsettle.com/about'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/settling-debt-in-india-guide'
+      '@id': 'https://www.credsettle.com/settling-debt-in-india-guide'
     }
   };
 
@@ -130,13 +130,13 @@ export default function SettlingDebtInIndiaPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Guide to Settling Debt in India: Legal Steps',
-        'item': 'https://credsettle.com/settling-debt-in-india-guide'
+        'item': 'https://www.credsettle.com/settling-debt-in-india-guide'
       }
     ]
   };

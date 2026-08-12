@@ -3417,65 +3417,65 @@ ${urls
       )
       .join('\n')}
   <url>
-    <loc>https://credsettle.com/loan-settlement-for-senior-citizens-pension-holders-india</loc>
+    <loc>https://www.credsettle.com/loan-settlement-for-senior-citizens-pension-holders-india</loc>
     <lastmod>2026-07-02</lastmod>
     <priority>0.80</priority>
   </url>
     <url>
-      <loc>https://credsettle.com/credit-card-settlement</loc>
+      <loc>https://www.credsettle.com/credit-card-settlement</loc>
       <lastmod>${today}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/credit-card-settlement-hdfc</loc>
+      <loc>https://www.credsettle.com/credit-card-settlement-hdfc</loc>
       <lastmod>${today}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/ots-kya-hota-hai-full-form</loc>
+      <loc>https://www.credsettle.com/ots-kya-hota-hai-full-form</loc>
       <lastmod>${today}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/settling-debt-in-india-guide</loc>
+      <loc>https://www.credsettle.com/settling-debt-in-india-guide</loc>
       <lastmod>${today}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/cheque-bounce-lawyer-in-delhi</loc>
+      <loc>https://www.credsettle.com/cheque-bounce-lawyer-in-delhi</loc>
       <lastmod>${today}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india</loc>
+      <loc>https://www.credsettle.com/punishment-for-non-payment-of-personal-loan-in-india</loc>
       <lastmod>2026-07-08T00:00:00.000Z</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/how-to-settle-a-credit-card-debt</loc>
+      <loc>https://www.credsettle.com/how-to-settle-a-credit-card-debt</loc>
       <lastmod>${today}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/personal-loan-defaulter-for-10-years</loc>
+      <loc>https://www.credsettle.com/personal-loan-defaulter-for-10-years</loc>
       <lastmod>2026-07-08</lastmod>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees</loc>
+      <loc>https://www.credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees</loc>
       <lastmod>2026-07-10</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://credsettle.com/how-do-loan-settlement-agents-work-through-online-portals</loc>
+      <loc>https://www.credsettle.com/how-do-loan-settlement-agents-work-through-online-portals</loc>
       <lastmod>${today}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
+    url: 'https://www.credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Learn how to negotiate a full and final personal loan settlement.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
+    canonical: 'https://www.credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
   },
   robots: {
     index: true,
@@ -47,21 +47,21 @@ export default function PersonalLoanSettlementPage() {
     'author': {
       '@type': 'Person',
       'name': 'Rohan Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': new Date().toISOString().split('T')[0],
     'dateModified': new Date().toISOString().split('T')[0],
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
+      '@id': 'https://www.credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
     }
   };
 
@@ -128,13 +128,13 @@ export default function PersonalLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Personal Loan Settlement Guide',
-        'item': 'https://credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
+        'item': 'https://www.credsettle.com/how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan'
       }
     ]
   };

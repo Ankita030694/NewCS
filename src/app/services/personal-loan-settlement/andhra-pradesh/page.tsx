@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     description: 'Legal loan settlement in Visakhapatnam, Vijayawada, Guntur. Port workers, agricultural traders. Stop harassment.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/personal-loan-settlement/andhra-pradesh'
+    canonical: 'https://www.credsettle.com/services/personal-loan-settlement/andhra-pradesh'
   },
   robots: {
     index: true,
@@ -60,11 +60,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/andhra-pradesh',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/andhra-pradesh',
   name: 'CredSettle Personal Loan Settlement Andhra Pradesh',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional personal loan settlement services in Andhra Pradesh. Legal RBI-compliant debt resolution for Visakhapatnam, Vijayawada, Guntur borrowers. Port and agricultural sector specialists.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -152,25 +152,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Personal Loan Settlement',
-      item: 'https://credsettle.com/services/personal-loan-settlement'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Andhra Pradesh',
-      item: 'https://credsettle.com/services/personal-loan-settlement/andhra-pradesh'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement/andhra-pradesh'
     }
   ]
 };
@@ -179,9 +179,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Andhra Pradesh',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/andhra-pradesh',
-  url: 'https://credsettle.com/services/personal-loan-settlement/andhra-pradesh',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/andhra-pradesh',
+  url: 'https://www.credsettle.com/services/personal-loan-settlement/andhra-pradesh',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-is-npa'
+    url: 'https://www.credsettle.com/what-is-npa'
   },
   twitter: {
     card: 'summary_large_image',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     description: 'Complete guide on Non-Performing Assets, their impact on your credit, and how to resolve them.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-is-npa'
+    canonical: 'https://www.credsettle.com/what-is-npa'
   },
   robots: {
     index: true,
@@ -59,11 +59,11 @@ export default function WhatIsNpaPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/what-is-npa',
+    '@id': 'https://www.credsettle.com/what-is-npa',
     name: 'CredSettle NPA Advisory',
     legalName: 'CredSettle Legal Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert advisory on NPA resolution, loan settlement, and debt relief services.',
     telephone: '+91-8800226635',
     email: 'support@credsettle.com',
@@ -82,19 +82,19 @@ export default function WhatIsNpaPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Resources',
-        'item': 'https://credsettle.com/resources'
+        'item': 'https://www.credsettle.com/resources'
       },
       {
         '@type': 'ListItem',
         'position': 3,
         'name': 'What is NPA',
-        'item': 'https://credsettle.com/what-is-npa'
+        'item': 'https://www.credsettle.com/what-is-npa'
       }
     ]
   };
@@ -113,14 +113,14 @@ export default function WhatIsNpaPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2024-01-28',
     'dateModified': '2024-01-28',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-is-npa'
+      '@id': 'https://www.credsettle.com/what-is-npa'
     }
   };
 

@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     title: 'How to Settle Loan Legally in India',
     description: 'Don’t panic. Learn the step-by-step process to settle your loan and become debt-free legally.',
     type: 'article',
-    url: 'https://credsettle.com/how-to-settle-loan',
+    url: 'https://www.credsettle.com/how-to-settle-loan',
     images: [
       {
-        url: 'https://credsettle.com/og-image-settle.jpg',
+        url: 'https://www.credsettle.com/og-image-settle.jpg',
         width: 1200,
         height: 630,
         alt: 'How to Settle Loan'
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ]
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-settle-loan'
+    canonical: 'https://www.credsettle.com/how-to-settle-loan'
   }
 };
 
@@ -41,19 +41,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Resources',
-      item: 'https://credsettle.com/resources'
+      item: 'https://www.credsettle.com/resources'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'How to Settle Loan',
-      item: 'https://credsettle.com/how-to-settle-loan'
+      item: 'https://www.credsettle.com/how-to-settle-loan'
     }
   ]
 };
@@ -72,14 +72,14 @@ const articleSchema = {
     name: 'CredSettle',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://credsettle.com/credsettle-logo.svg'
+      url: 'https://www.credsettle.com/credsettle-logo.svg'
     }
   },
   datePublished: '2024-03-24',
   dateModified: '2024-03-24',
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://credsettle.com/how-to-settle-loan'
+    '@id': 'https://www.credsettle.com/how-to-settle-loan'
   }
 };
 
@@ -89,7 +89,7 @@ const reviewSchema = {
     itemReviewed: {
         '@type': 'Organization',
         name: 'CredSettle',
-        image: 'https://credsettle.com/credsettle-logo.svg',
+        image: 'https://www.credsettle.com/credsettle-logo.svg',
         telephone: '+91-8800226635',
         address: {
              '@type': 'PostalAddress',

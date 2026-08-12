@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/quick-loan-relief'
+    url: 'https://www.credsettle.com/quick-loan-relief'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Secure immediate relief from predatory quick loan applications, stop unauthorized contacts in 24 hours, and negotiate settlements legally.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/quick-loan-relief'
+    canonical: 'https://www.credsettle.com/quick-loan-relief'
   },
   robots: {
     index: true,
@@ -55,14 +55,14 @@ export default function QuickLoanReliefPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/quick-loan-relief'
+      '@id': 'https://www.credsettle.com/quick-loan-relief'
     }
   };
 
@@ -137,13 +137,13 @@ export default function QuickLoanReliefPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Quick Loan Relief Action Plan',
-        'item': 'https://credsettle.com/quick-loan-relief'
+        'item': 'https://www.credsettle.com/quick-loan-relief'
       }
     ]
   };

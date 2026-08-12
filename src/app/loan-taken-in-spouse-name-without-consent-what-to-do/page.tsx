@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
+    url: 'https://www.credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
   },
   twitter: {
     card: 'summary_large_image',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: 'Professional guide to resolving loan fraud by a spouse in India.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
+    canonical: 'https://www.credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
   }
 };
 
@@ -46,22 +46,22 @@ export default function LoanTakenInSpouseNamePage() {
     'author': {
       '@type': 'Person',
       'name': 'Adv. Rohan Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
-      'url': 'https://credsettle.com/about'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
+      'url': 'https://www.credsettle.com/about'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-02',
     'dateModified': '2026-07-02',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
+      '@id': 'https://www.credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
     }
   };
 
@@ -136,13 +136,13 @@ export default function LoanTakenInSpouseNamePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Spouse Took Loan Without Consent',
-        'item': 'https://credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
+        'item': 'https://www.credsettle.com/loan-taken-in-spouse-name-without-consent-what-to-do'
       }
     ]
   };

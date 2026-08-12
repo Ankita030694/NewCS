@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
+    url: 'https://www.credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
   },
   alternates: {
-    canonical: 'https://credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
+    canonical: 'https://www.credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief',
+    '@id': 'https://www.credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief',
     name: 'CredSettle Debt Relief Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'India\'s leading debt settlement and relief service provider for loans and credit cards.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function DebtSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Best Debt Settlement Companies in India',
-        'item': 'https://credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
+        'item': 'https://www.credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
       }
     ]
   };
@@ -169,7 +169,7 @@ export default function DebtSettlementPage() {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'image': 'https://credsettle.com/images/debt-settlement-india.jpg',
+    'image': 'https://www.credsettle.com/images/debt-settlement-india.jpg',
     'datePublished': '2025-05-10',
     'dateModified': '2026-05-11',
     'publisher': {
@@ -177,12 +177,12 @@ export default function DebtSettlementPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
+      '@id': 'https://www.credsettle.com/best-debt-settlement-companies-in-india-for-loan-and-credit-card-debt-relief'
     }
   };
 

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
+    url: 'https://www.credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
   },
   alternates: {
-    canonical: 'https://credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
+    canonical: 'https://www.credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanSettlementAgenciesPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt',
+    '@id': 'https://www.credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt',
     name: 'CredSettle Loan Settlement Consultancy',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Leading loan settlement consultancy in India helping individuals reduce credit card debt through expert negotiation.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function LoanSettlementAgenciesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Top-Rated Loan Settlement Agencies',
-        'item': 'https://credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
+        'item': 'https://www.credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function LoanSettlementAgenciesPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
+      '@id': 'https://www.credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt'
     }
   };
 

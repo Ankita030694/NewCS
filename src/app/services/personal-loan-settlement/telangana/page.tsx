@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: 'Legal loan settlement in Hyderabad, HITEC City, Gachibowli. IT, pharma, tech workers. Telangana High Court backed process.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/personal-loan-settlement/telangana'
+    canonical: 'https://www.credsettle.com/services/personal-loan-settlement/telangana'
   },
   robots: {
     index: true,
@@ -59,11 +59,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/telangana',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/telangana',
   name: 'CredSettle Personal Loan Settlement Telangana',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional personal loan settlement services in Telangana. Legal RBI-compliant debt resolution for Hyderabad, Warangal, Nizamabad borrowers. IT and pharma sector specialists.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -151,25 +151,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Personal Loan Settlement',
-      item: 'https://credsettle.com/services/personal-loan-settlement'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Telangana',
-      item: 'https://credsettle.com/services/personal-loan-settlement/telangana'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement/telangana'
     }
   ]
 };
@@ -178,9 +178,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Telangana',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/telangana',
-  url: 'https://credsettle.com/services/personal-loan-settlement/telangana',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/telangana',
+  url: 'https://www.credsettle.com/services/personal-loan-settlement/telangana',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

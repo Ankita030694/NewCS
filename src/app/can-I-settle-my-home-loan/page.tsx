@@ -32,12 +32,12 @@ export const metadata: Metadata = {
     title: 'Can I Settle My Home Loan in India? | Complete Legal Guide',
     description: 'Struggling with home loan EMIs? Discover if you can settle your home loan through a One Time Settlement (OTS), understand SARFAESI Act, and NPA norms.',
     type: 'article',
-    url: 'https://credsettle.com/can-I-settle-my-home-loan',
+    url: 'https://www.credsettle.com/can-I-settle-my-home-loan',
     siteName: 'CredSettle',
     locale: 'en_IN',
     images: [
       {
-        url: 'https://credsettle.com/og-can-i-settle-home-loan.jpg',
+        url: 'https://www.credsettle.com/og-can-i-settle-home-loan.jpg',
         width: 1200,
         height: 630,
         alt: 'Can I Settle My Home Loan Guide',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     description: 'Learn about home loan settlement, SARFAESI Act, and RBI guidelines. Get expert advice on settling your housing loan.',
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-I-settle-my-home-loan'
+    canonical: 'https://www.credsettle.com/can-I-settle-my-home-loan'
   }
 };
 
@@ -82,13 +82,13 @@ export default function CanISettleHomeLoanPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Can I Settle My Home Loan',
-        'item': 'https://credsettle.com/can-I-settle-my-home-loan'
+        'item': 'https://www.credsettle.com/can-I-settle-my-home-loan'
       }
     ]
   };
@@ -98,7 +98,7 @@ export default function CanISettleHomeLoanPage() {
     '@type': 'Article',
     'headline': 'Can I Settle My Home Loan in India? A Comprehensive Legal Guide',
     'description': 'A detailed guide on home loan settlement in India, covering SARFAESI, NPA norms, tax implications, process, eligibility, RBI guidelines, and impact on credit score.',
-    'image': 'https://credsettle.com/og-can-i-settle-home-loan.jpg',
+    'image': 'https://www.credsettle.com/og-can-i-settle-home-loan.jpg',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
@@ -108,14 +108,14 @@ export default function CanISettleHomeLoanPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2024-02-10',
     'dateModified': '2024-02-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-I-settle-my-home-loan'
+      '@id': 'https://www.credsettle.com/can-I-settle-my-home-loan'
     }
   };
 
@@ -193,7 +193,7 @@ export default function CanISettleHomeLoanPage() {
   const reviewSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/can-I-settle-my-home-loan',
+    '@id': 'https://www.credsettle.com/can-I-settle-my-home-loan',
     'name': 'CredSettle Loan Settlement',
     'aggregateRating': {
       '@type': 'AggregateRating',

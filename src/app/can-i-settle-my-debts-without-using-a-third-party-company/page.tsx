@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
+    url: 'https://www.credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
+    canonical: 'https://www.credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
   }
 };
 
@@ -38,10 +38,10 @@ export default function SettleSelfPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company',
+    '@id': 'https://www.credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company',
     name: 'CredSettle Debt Settlement Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Comprehensive resources and professional support for debt settlement and financial recovery in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function SettleSelfPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'DIY Debt Settlement Guide',
-        'item': 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
+        'item': 'https://www.credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
       }
     ]
   };
@@ -169,7 +169,7 @@ export default function SettleSelfPage() {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'image': 'https://credsettle.com/images/diy-debt-settlement.jpg',
+    'image': 'https://www.credsettle.com/images/diy-debt-settlement.jpg',
     'datePublished': '2025-05-12',
     'dateModified': '2025-05-12',
     'publisher': {
@@ -177,12 +177,12 @@ export default function SettleSelfPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
+      '@id': 'https://www.credsettle.com/can-i-settle-my-debts-without-using-a-third-party-company'
     }
   };
 

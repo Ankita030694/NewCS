@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: 'Legal credit card settlement in Visakhapatnam, Vijayawada, Guntur. Stop harassment, reduce debt 40-75%. RBI-compliant process.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/credit-card-settlement/andhra-pradesh'
+    canonical: 'https://www.credsettle.com/services/credit-card-settlement/andhra-pradesh'
   },
   robots: {
     index: true,
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/andhra-pradesh',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/andhra-pradesh',
   name: 'CredSettle Credit Card Settlement Andhra Pradesh',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional credit card settlement services in Andhra Pradesh. Legal RBI-compliant debt resolution for Visakhapatnam, Vijayawada, Guntur, Tirupati borrowers. Business and IT professional debt specialists.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -140,25 +140,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Credit Card Settlement',
-      item: 'https://credsettle.com/services/credit-card-settlement'
+      item: 'https://www.credsettle.com/services/credit-card-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Andhra Pradesh',
-      item: 'https://credsettle.com/services/credit-card-settlement/andhra-pradesh'
+      item: 'https://www.credsettle.com/services/credit-card-settlement/andhra-pradesh'
     }
   ]
 };
@@ -167,9 +167,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Andhra Pradesh Credit Card Settlement',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/andhra-pradesh',
-  url: 'https://credsettle.com/services/credit-card-settlement/andhra-pradesh',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/andhra-pradesh',
+  url: 'https://www.credsettle.com/services/credit-card-settlement/andhra-pradesh',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

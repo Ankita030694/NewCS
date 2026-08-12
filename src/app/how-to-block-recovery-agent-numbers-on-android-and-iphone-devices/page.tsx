@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
+    url: 'https://www.credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
+    canonical: 'https://www.credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
   }
 };
 
@@ -38,10 +38,10 @@ export default function HowToBlockPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices',
+    '@id': 'https://www.credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices',
     name: 'CredSettle Debt Relief Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert debt settlement and anti-harassment services for borrowers in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function HowToBlockPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How to Block Recovery Agent Numbers',
-        'item': 'https://credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
+        'item': 'https://www.credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function HowToBlockPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
+      '@id': 'https://www.credsettle.com/how-to-block-recovery-agent-numbers-on-android-and-iphone-devices'
     }
   };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Stop home loan foreclosure and save your property. Learn about SARFAESI Act rights, Sec 13(2) and 13(4) notices, and expert DRT defense strategies to prevent auctions in India.',
     keywords: 'loan default EMI assistance, foreclosure legal help India, SARFAESI Act notice defense, save home from loan auction, DRT lawyer for foreclosure',
     alternates: {
-        canonical: 'https://credsettle.com/loan-default-emi-foreclosure-assistance'
+        canonical: 'https://www.credsettle.com/loan-default-emi-foreclosure-assistance'
     }
 };
 
@@ -18,7 +18,7 @@ export default function LoanDefaultEmiForeclosureAssistancePage() {
         '@type': 'Article',
         'headline': 'Foreclosure Defense Manual: Managing Home Loan Defaults and SARFAESI Actions in 2025',
         'description': 'A high-level legal guide for homeowners facing EMI defaults and foreclosure auctions, detailing procedural rights, DRT appeals, and debt restructuring solutions.',
-        'image': 'https://credsettle.com/images/foreclosure-assistance.jpg',
+        'image': 'https://www.credsettle.com/images/foreclosure-assistance.jpg',
         'author': {
             '@type': 'Organization',
             'name': 'CredSettle Foreclosure Defense Team'
@@ -28,7 +28,7 @@ export default function LoanDefaultEmiForeclosureAssistancePage() {
             'name': 'CredSettle',
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://credsettle.com/logo.png'
+                'url': 'https://www.credsettle.com/logo.png'
             }
         },
         'datePublished': '2025-07-20',
@@ -43,13 +43,13 @@ export default function LoanDefaultEmiForeclosureAssistancePage() {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': 'Home',
-                'item': 'https://credsettle.com/'
+                'item': 'https://www.credsettle.com/'
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'Loan Default EMI Foreclosure Assistance',
-                'item': 'https://credsettle.com/loan-default-emi-foreclosure-assistance'
+                'item': 'https://www.credsettle.com/loan-default-emi-foreclosure-assistance'
             }
         ]
     };
@@ -58,8 +58,8 @@ export default function LoanDefaultEmiForeclosureAssistancePage() {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         'name': 'CredSettle',
-        'url': 'https://credsettle.com',
-        'logo': 'https://credsettle.com/logo.png',
+        'url': 'https://www.credsettle.com',
+        'logo': 'https://www.credsettle.com/logo.png',
         'sameAs': [
             'https://www.facebook.com/credsettle',
             'https://www.twitter.com/credsettle',

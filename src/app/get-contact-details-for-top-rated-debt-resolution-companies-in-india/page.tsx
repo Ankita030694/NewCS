@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
+    url: 'https://www.credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
+    canonical: 'https://www.credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtResolutionPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india',
+    '@id': 'https://www.credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert debt resolution and loan settlement services in India. Helping you become debt-free with legal and professional guidance.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function DebtResolutionPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Resolution Companies Contact Details',
-        'item': 'https://credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
+        'item': 'https://www.credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function DebtResolutionPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
+      '@id': 'https://www.credsettle.com/get-contact-details-for-top-rated-debt-resolution-companies-in-india'
     }
   };
 

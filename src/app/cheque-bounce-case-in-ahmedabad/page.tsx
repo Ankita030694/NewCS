@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/cheque-bounce-case-in-ahmedabad'
+    url: 'https://www.credsettle.com/cheque-bounce-case-in-ahmedabad'
   },
   alternates: {
-    canonical: 'https://credsettle.com/cheque-bounce-case-in-ahmedabad'
+    canonical: 'https://www.credsettle.com/cheque-bounce-case-in-ahmedabad'
   }
 };
 
@@ -38,10 +38,10 @@ export default function ChequeBounceAhmedabadPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/cheque-bounce-case-in-ahmedabad',
+    '@id': 'https://www.credsettle.com/cheque-bounce-case-in-ahmedabad',
     name: 'CredSettle Cheque Bounce Legal Services Ahmedabad',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal services for cheque bounce cases under Section 138 of the Negotiable Instruments Act in Ahmedabad, Gujarat.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function ChequeBounceAhmedabadPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Cheque Bounce Case in Ahmedabad',
-        'item': 'https://credsettle.com/cheque-bounce-case-in-ahmedabad'
+        'item': 'https://www.credsettle.com/cheque-bounce-case-in-ahmedabad'
       }
     ]
   };
@@ -125,7 +125,7 @@ export default function ChequeBounceAhmedabadPage() {
     'dateModified': '2026-02-04',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/cheque-bounce-case-in-ahmedabad'
+      '@id': 'https://www.credsettle.com/cheque-bounce-case-in-ahmedabad'
     }
   };
 

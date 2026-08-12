@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Resolve disputes between borrowers, co-applicants, and guarantors. Learn about the Arbitration Act 1996, Mediation Act 2023, and modern ways to settle loan disagreements in India.',
     keywords: 'loan parties dispute resolution, multi-party loan agreement litigation, arbitration for loan disputes India, mediation for loans 2025, guarantor vs borrower legal help',
     alternates: {
-        canonical: 'https://credsettle.com/loan-parties-dispute-resolution'
+        canonical: 'https://www.credsettle.com/loan-parties-dispute-resolution'
     }
 };
 
@@ -18,7 +18,7 @@ export default function LoanPartiesDisputeResolutionPage() {
         '@type': 'Article',
         'headline': 'Resolving Loan Party Disputes: A Comprehensive Legal Roadmap for 2025',
         'description': 'An expert analysis of the legal mechanisms available to resolve conflicts in multi-party loan agreements, including arbitration, mediation, and judicial proceedings in India.',
-        'image': 'https://credsettle.com/images/loan-parties-dispute.jpg',
+        'image': 'https://www.credsettle.com/images/loan-parties-dispute.jpg',
         'author': {
             '@type': 'Organization',
             'name': 'CredSettle ADR Specialists'
@@ -28,7 +28,7 @@ export default function LoanPartiesDisputeResolutionPage() {
             'name': 'CredSettle',
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://credsettle.com/logo.png'
+                'url': 'https://www.credsettle.com/logo.png'
             }
         },
         'datePublished': '2025-08-15',
@@ -43,13 +43,13 @@ export default function LoanPartiesDisputeResolutionPage() {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': 'Home',
-                'item': 'https://credsettle.com/'
+                'item': 'https://www.credsettle.com/'
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'Loan Parties Dispute Resolution',
-                'item': 'https://credsettle.com/loan-parties-dispute-resolution'
+                'item': 'https://www.credsettle.com/loan-parties-dispute-resolution'
             }
         ]
     };
@@ -58,8 +58,8 @@ export default function LoanPartiesDisputeResolutionPage() {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         'name': 'CredSettle',
-        'url': 'https://credsettle.com',
-        'logo': 'https://credsettle.com/logo.png',
+        'url': 'https://www.credsettle.com',
+        'logo': 'https://www.credsettle.com/logo.png',
         'sameAs': [
             'https://www.facebook.com/credsettle',
             'https://www.twitter.com/credsettle',

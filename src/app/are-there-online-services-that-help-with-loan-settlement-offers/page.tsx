@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
+    url: 'https://www.credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Discover how legitimate online loan settlement services work in India.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
+    canonical: 'https://www.credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
   },
   robots: {
     index: true,
@@ -47,21 +47,21 @@ export default function OnlineLoanSettlementServicesPage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-10',
     'dateModified': '2026-07-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
+      '@id': 'https://www.credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
     }
   };
 
@@ -128,13 +128,13 @@ export default function OnlineLoanSettlementServicesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Are There Online Services That Help With Loan Settlement Offers?',
-        'item': 'https://credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
+        'item': 'https://www.credsettle.com/are-there-online-services-that-help-with-loan-settlement-offers'
       }
     ]
   };

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-is-minimum-amount-due-for-credit-card'
+    url: 'https://www.credsettle.com/what-is-minimum-amount-due-for-credit-card'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Learn exactly how credit card minimum amount due is calculated in India and legal strategies to settle it.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-is-minimum-amount-due-for-credit-card'
+    canonical: 'https://www.credsettle.com/what-is-minimum-amount-due-for-credit-card'
   },
   robots: {
     index: true,
@@ -48,21 +48,21 @@ export default function WhatIsMinimumAmountDuePage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-is-minimum-amount-due-for-credit-card'
+      '@id': 'https://www.credsettle.com/what-is-minimum-amount-due-for-credit-card'
     }
   };
 
@@ -137,13 +137,13 @@ export default function WhatIsMinimumAmountDuePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'What is Minimum Amount Due for Credit Card?',
-        'item': 'https://credsettle.com/what-is-minimum-amount-due-for-credit-card'
+        'item': 'https://www.credsettle.com/what-is-minimum-amount-due-for-credit-card'
       }
     ]
   };

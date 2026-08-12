@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
+    url: 'https://www.credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Wondering kya mai apna loan settle kr skta hu? Learn about unsecured loan settlement, RBI rules, the step by step process, and CIBIL impact.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
+    canonical: 'https://www.credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
   },
   robots: {
     index: true,
@@ -56,14 +56,14 @@ export default function KyaMaiApnaLoanSettleKrSktaHuPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
+      '@id': 'https://www.credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
     }
   };
 
@@ -138,13 +138,13 @@ export default function KyaMaiApnaLoanSettleKrSktaHuPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Kya Mai Apna Loan Settle Kr Skta Hu?',
-        'item': 'https://credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
+        'item': 'https://www.credsettle.com/kya-mai-apna-loan-settle-kr-skta-hu'
       }
     ]
   };

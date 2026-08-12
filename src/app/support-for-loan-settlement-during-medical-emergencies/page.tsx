@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+    url: 'https://www.credsettle.com/support-for-loan-settlement-during-medical-emergencies'
   },
   alternates: {
-    canonical: 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+    canonical: 'https://www.credsettle.com/support-for-loan-settlement-during-medical-emergencies'
   }
 };
 
@@ -38,10 +38,10 @@ export default function MedicalEmergencySettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies',
+    '@id': 'https://www.credsettle.com/support-for-loan-settlement-during-medical-emergencies',
     name: 'CredSettle Medical Debt Relief Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert support for loan settlement and debt relief for individuals facing medical emergencies and financial hardship in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function MedicalEmergencySettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Support for Loan Settlement During Medical Emergencies',
-        'item': 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+        'item': 'https://www.credsettle.com/support-for-loan-settlement-during-medical-emergencies'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function MedicalEmergencySettlementPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/support-for-loan-settlement-during-medical-emergencies'
+      '@id': 'https://www.credsettle.com/support-for-loan-settlement-during-medical-emergencies'
     }
   };
 

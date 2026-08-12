@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    url: 'https://www.credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
   },
   alternates: {
-    canonical: 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+    canonical: 'https://www.credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanSettlementStepsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider',
+    '@id': 'https://www.credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider',
     name: 'CredSettle Loan Settlement Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional assistance for loan settlement and debt management in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function LoanSettlementStepsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement Steps',
-        'item': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+        'item': 'https://www.credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function LoanSettlementStepsPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
+      '@id': 'https://www.credsettle.com/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider'
     }
   };
 

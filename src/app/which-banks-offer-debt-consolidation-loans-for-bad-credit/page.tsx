@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
+    url: 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
   },
   alternates: {
-    canonical: 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
+    canonical: 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtConsolidationBadCreditPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit',
+    '@id': 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit',
     name: 'CredSettle Debt Consolidation Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Helping individuals in India find the best debt consolidation and settlement options despite bad credit scores.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function DebtConsolidationBadCreditPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Consolidation for Bad Credit',
-        'item': 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
+        'item': 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
       }
     ]
   };
@@ -125,9 +125,9 @@ export default function DebtConsolidationBadCreditPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
+      '@id': 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-for-bad-credit'
     },
-    'image': 'https://credsettle.com/blog/debt-consolidation-bad-credit.jpg'
+    'image': 'https://www.credsettle.com/blog/debt-consolidation-bad-credit.jpg'
   };
 
   return (

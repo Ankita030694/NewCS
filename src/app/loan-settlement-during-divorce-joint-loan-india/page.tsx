@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-settlement-during-divorce-joint-loan-india'
+    url: 'https://www.credsettle.com/loan-settlement-during-divorce-joint-loan-india'
   },
   twitter: {
     card: 'summary_large_image',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Professional guide to resolving joint loan liability and debt settlement during divorce.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-settlement-during-divorce-joint-loan-india'
+    canonical: 'https://www.credsettle.com/loan-settlement-during-divorce-joint-loan-india'
   }
 };
 
@@ -48,21 +48,21 @@ export default function LoanSettlementDivorcePage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Desai',
-      'image': 'https://credsettle.com/default-user.svg'
+      'image': 'https://www.credsettle.com/default-user.svg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-02',
     'dateModified': '2026-07-02',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-settlement-during-divorce-joint-loan-india'
+      '@id': 'https://www.credsettle.com/loan-settlement-during-divorce-joint-loan-india'
     }
   };
 
@@ -137,13 +137,13 @@ export default function LoanSettlementDivorcePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Joint Loan Settlement During Divorce',
-        'item': 'https://credsettle.com/loan-settlement-during-divorce-joint-loan-india'
+        'item': 'https://www.credsettle.com/loan-settlement-during-divorce-joint-loan-india'
       }
     ]
   };

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/can-recovery-agents-abuse-you-legally-india'
+    url: 'https://www.credsettle.com/can-recovery-agents-abuse-you-legally-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-recovery-agents-abuse-you-legally-india'
+    canonical: 'https://www.credsettle.com/can-recovery-agents-abuse-you-legally-india'
   }
 };
 
@@ -49,14 +49,14 @@ export default function RecoveryAbusePage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2025-03-30',
     'dateModified': '2025-03-30',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-recovery-agents-abuse-you-legally-india'
+      '@id': 'https://www.credsettle.com/can-recovery-agents-abuse-you-legally-india'
     }
   };
 
@@ -168,13 +168,13 @@ export default function RecoveryAbusePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Legal Rights Against Recovery Agents',
-        'item': 'https://credsettle.com/can-recovery-agents-abuse-you-legally-india'
+        'item': 'https://www.credsettle.com/can-recovery-agents-abuse-you-legally-india'
       }
     ]
   };

@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
+    url: 'https://www.credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
+    canonical: 'https://www.credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
   }
 };
 
@@ -39,10 +39,10 @@ export default function ProsConsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company',
+    '@id': 'https://www.credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company',
     name: 'CredSettle Debt Settlement Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on the pros and cons of debt settlement in India. We help borrowers navigate financial distress with legal and ethical settlement strategies.',
     telephone: '+91-8800226635',
     address: {
@@ -68,13 +68,13 @@ export default function ProsConsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Pros and Cons of Debt Settlement',
-        'item': 'https://credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
+        'item': 'https://www.credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
       }
     ]
   };
@@ -92,14 +92,14 @@ export default function ProsConsPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
+      '@id': 'https://www.credsettle.com/what-are-the-pros-and-cons-of-using-a-debt-settlement-company'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     }
   };

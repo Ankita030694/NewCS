@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     description: 'The real impact of loan settlement on your CIBIL score. How to rebuild your credit and stop collection harassment legally.',
     type: 'article',
     locale: 'en_IN',
-    url: 'https://credsettle.com/is-cibil-ruined-forever-after-settlement'
+    url: 'https://www.credsettle.com/is-cibil-ruined-forever-after-settlement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/is-cibil-ruined-forever-after-settlement'
+    canonical: 'https://www.credsettle.com/is-cibil-ruined-forever-after-settlement'
   }
 };
 
@@ -42,13 +42,13 @@ export default function CibilSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'CIBIL Restoration Guide',
-        'item': 'https://credsettle.com/is-cibil-ruined-forever-after-settlement'
+        'item': 'https://www.credsettle.com/is-cibil-ruined-forever-after-settlement'
       }
     ]
   };
@@ -69,7 +69,7 @@ export default function CibilSettlementPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/logo.png'
+        'url': 'https://www.credsettle.com/logo.png'
       }
     }
   };

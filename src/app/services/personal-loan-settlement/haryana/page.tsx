@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     description: 'Legal loan settlement in Gurgaon, Faridabad, Panipat. Corporate professionals, industrial workers. Stop harassment.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/personal-loan-settlement/haryana'
+    canonical: 'https://www.credsettle.com/services/personal-loan-settlement/haryana'
   },
   robots: {
     index: true,
@@ -60,11 +60,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/haryana',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/haryana',
   name: 'CredSettle Personal Loan Settlement Haryana',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional personal loan settlement services in Haryana. Legal RBI-compliant debt resolution for Gurgaon, Faridabad, Panipat borrowers. Corporate employee specialists.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -151,25 +151,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Personal Loan Settlement',
-      item: 'https://credsettle.com/services/personal-loan-settlement'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Haryana',
-      item: 'https://credsettle.com/services/personal-loan-settlement/haryana'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement/haryana'
     }
   ]
 };
@@ -178,9 +178,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Haryana',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/haryana',
-  url: 'https://credsettle.com/services/personal-loan-settlement/haryana',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/haryana',
+  url: 'https://www.credsettle.com/services/personal-loan-settlement/haryana',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

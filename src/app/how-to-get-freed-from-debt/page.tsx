@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     title: 'How to Get Freed from Debt Legally',
     description: 'Don’t let debt trap you. Learn how to legally settle your loans and get freed from financial stress.',
     type: 'article',
-    url: 'https://credsettle.com/how-to-get-freed-from-debt',
+    url: 'https://www.credsettle.com/how-to-get-freed-from-debt',
     images: [
       {
-        url: 'https://credsettle.com/og-image.jpg',
+        url: 'https://www.credsettle.com/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Get Freed from Debt'
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     ]
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-get-freed-from-debt'
+    canonical: 'https://www.credsettle.com/how-to-get-freed-from-debt'
   }
 };
 
@@ -40,19 +40,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Resources',
-      item: 'https://credsettle.com/resources'
+      item: 'https://www.credsettle.com/resources'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'How to Get Freed from Debt',
-      item: 'https://credsettle.com/how-to-get-freed-from-debt'
+      item: 'https://www.credsettle.com/how-to-get-freed-from-debt'
     }
   ]
 };
@@ -71,14 +71,14 @@ const articleSchema = {
     name: 'CredSettle',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://credsettle.com/credsettle-logo.svg'
+      url: 'https://www.credsettle.com/credsettle-logo.svg'
     }
   },
   datePublished: '2024-03-20',
   dateModified: '2024-03-24',
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://credsettle.com/how-to-get-freed-from-debt'
+    '@id': 'https://www.credsettle.com/how-to-get-freed-from-debt'
   }
 };
 
@@ -88,7 +88,7 @@ const reviewSchema = {
     itemReviewed: {
         '@type': 'Organization',
         name: 'CredSettle',
-        image: 'https://credsettle.com/credsettle-logo.svg',
+        image: 'https://www.credsettle.com/credsettle-logo.svg',
         telephone: '+91-8800226635',
         address: {
              '@type': 'PostalAddress',

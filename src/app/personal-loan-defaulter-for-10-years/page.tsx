@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Personal Loan Defaulter for 10 Years? Reality Explained',
   description: 'Defaulted on a personal loan for 10 years? Learn the legal reality of time barred debt, the Limitation Act of 1963, and how to settle it completely.',
   alternates: {
-    canonical: 'https://credsettle.com/personal-loan-defaulter-for-10-years',
+    canonical: 'https://www.credsettle.com/personal-loan-defaulter-for-10-years',
   },
   robots: {
     index: true,
@@ -21,22 +21,22 @@ export default function PersonalLoanDefaulterPage() {
     '@graph': [
       {
         '@type': 'Article',
-        '@id': 'https://credsettle.com/personal-loan-defaulter-for-10-years/#article',
+        '@id': 'https://www.credsettle.com/personal-loan-defaulter-for-10-years/#article',
         'headline': 'Personal Loan Defaulter for 10 Years: The Complete Legal & Financial Reality',
         'description': 'Defaulted on a personal loan for 10 years? Learn the legal reality of time barred debt, the Limitation Act of 1963, and how to settle it completely.',
-        'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
+        'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
         'author': {
           '@type': 'Person',
           'name': 'Vikram Sharma',
-          'url': 'https://credsettle.com/about',
-          'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+          'url': 'https://www.credsettle.com/about',
+          'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
         },
         'publisher': {
           '@type': 'Organization',
           'name': 'CredSettle',
           'logo': {
             '@type': 'ImageObject',
-            'url': 'https://credsettle.com/logo.png'
+            'url': 'https://www.credsettle.com/logo.png'
           }
         },
         'datePublished': new Date().toISOString(),
@@ -163,13 +163,13 @@ export default function PersonalLoanDefaulterPage() {
             '@type': 'ListItem',
             'position': 1,
             'name': 'Home',
-            'item': 'https://credsettle.com/'
+            'item': 'https://www.credsettle.com/'
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': 'Personal Loan Defaulter for 10 Years',
-            'item': 'https://credsettle.com/personal-loan-defaulter-for-10-years'
+            'item': 'https://www.credsettle.com/personal-loan-defaulter-for-10-years'
           }
         ]
       }

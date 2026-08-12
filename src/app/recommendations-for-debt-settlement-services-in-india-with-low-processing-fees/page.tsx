@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
+    url: 'https://www.credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
   },
   alternates: {
-    canonical: 'https://credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
+    canonical: 'https://www.credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
   }
 };
 
@@ -38,10 +38,10 @@ export default function RecommendationsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees',
+    '@id': 'https://www.credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees',
     name: 'CredSettle Debt Settlement Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Leading provider of affordable debt settlement services in India, specializing in low processing fees and expert negotiation with banks and NBFCs.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function RecommendationsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Settlement Recommendations',
-        'item': 'https://credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
+        'item': 'https://www.credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
       }
     ]
   };
@@ -171,10 +171,10 @@ export default function RecommendationsPage() {
     },
     'datePublished': '2026-05-11',
     'dateModified': '2026-05-11',
-    'image': 'https://credsettle.com/images/debt-settlement-india-guide.jpg',
+    'image': 'https://www.credsettle.com/images/debt-settlement-india-guide.jpg',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
+      '@id': 'https://www.credsettle.com/recommendations-for-debt-settlement-services-in-india-with-low-processing-fees'
     }
   };
 

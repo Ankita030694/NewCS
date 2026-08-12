@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-get-800-credit-score-in-india'
+    url: 'https://www.credsettle.com/how-to-get-800-credit-score-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-get-800-credit-score-in-india'
+    canonical: 'https://www.credsettle.com/how-to-get-800-credit-score-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function CreditScorePage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/how-to-get-800-credit-score-in-india',
+    '@id': 'https://www.credsettle.com/how-to-get-800-credit-score-in-india',
     name: 'CredSettle Credit Score Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert advisory and services to help Indian consumers achieve and maintain an 800+ credit score through strategic financial planning.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function CreditScorePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How to Get 800 Credit Score in India',
-        'item': 'https://credsettle.com/how-to-get-800-credit-score-in-india'
+        'item': 'https://www.credsettle.com/how-to-get-800-credit-score-in-india'
       }
     ]
   };
@@ -125,9 +125,9 @@ export default function CreditScorePage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-get-800-credit-score-in-india'
+      '@id': 'https://www.credsettle.com/how-to-get-800-credit-score-in-india'
     },
-    'image': 'https://credsettle.com/images/800-credit-score-guide.jpg'
+    'image': 'https://www.credsettle.com/images/800-credit-score-guide.jpg'
   };
 
   return (

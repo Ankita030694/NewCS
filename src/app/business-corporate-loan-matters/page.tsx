@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Expert legal support for corporate loan disputes in India. Navigate the IBC Amendment Bill 2025, NCLT insolvency processes, and strategic corporate debt restructuring.',
     keywords: 'business corporate loan matters, corporate debt recovery India, IBC 2025 legal help, NCLT insolvency lawyer, corporate loan restructuring legal support',
     alternates: {
-        canonical: 'https://credsettle.com/business-corporate-loan-matters'
+        canonical: 'https://www.credsettle.com/business-corporate-loan-matters'
     }
 };
 
@@ -18,7 +18,7 @@ export default function BusinessCorporateLoanMattersPage() {
         '@type': 'Article',
         'headline': 'Corporate Loan Resolution: Navigating IBC, NCLT, and Restructuring in 2025',
         'description': 'A detailed legal manual for businesses and directors facing corporate loan defaults, exploring the 2025 IBC amendments, CIRP strategies, and out-of-court resolutions.',
-        'image': 'https://credsettle.com/images/corporate-loan-matters.jpg',
+        'image': 'https://www.credsettle.com/images/corporate-loan-matters.jpg',
         'author': {
             '@type': 'Organization',
             'name': 'CredSettle Corporate Legal Advisory'
@@ -28,7 +28,7 @@ export default function BusinessCorporateLoanMattersPage() {
             'name': 'CredSettle',
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://credsettle.com/logo.png'
+                'url': 'https://www.credsettle.com/logo.png'
             }
         },
         'datePublished': '2025-06-15',
@@ -43,13 +43,13 @@ export default function BusinessCorporateLoanMattersPage() {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': 'Home',
-                'item': 'https://credsettle.com/'
+                'item': 'https://www.credsettle.com/'
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'Business Corporate Loan Matters',
-                'item': 'https://credsettle.com/business-corporate-loan-matters'
+                'item': 'https://www.credsettle.com/business-corporate-loan-matters'
             }
         ]
     };
@@ -58,8 +58,8 @@ export default function BusinessCorporateLoanMattersPage() {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         'name': 'CredSettle',
-        'url': 'https://credsettle.com',
-        'logo': 'https://credsettle.com/logo.png',
+        'url': 'https://www.credsettle.com',
+        'logo': 'https://www.credsettle.com/logo.png',
         'sameAs': [
             'https://www.facebook.com/credsettle',
             'https://www.twitter.com/credsettle',

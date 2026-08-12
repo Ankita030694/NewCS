@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/full-form-of-ots'
+    url: 'https://www.credsettle.com/full-form-of-ots'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Learn the full form of OTS in banking, how a One Time Settlement works, eligibility, and the legal impact on your CIBIL score.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/full-form-of-ots'
+    canonical: 'https://www.credsettle.com/full-form-of-ots'
   },
   robots: {
     index: true,
@@ -56,14 +56,14 @@ export default function FullFormOfOtsPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/full-form-of-ots'
+      '@id': 'https://www.credsettle.com/full-form-of-ots'
     }
   };
 
@@ -138,13 +138,13 @@ export default function FullFormOfOtsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Full Form of OTS in Banking',
-        'item': 'https://credsettle.com/full-form-of-ots'
+        'item': 'https://www.credsettle.com/full-form-of-ots'
       }
     ]
   };

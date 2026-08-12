@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/1-debt-management-services-in-india'
+    url: 'https://www.credsettle.com/1-debt-management-services-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/1-debt-management-services-in-india'
+    canonical: 'https://www.credsettle.com/1-debt-management-services-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtManagementIndiaPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/1-debt-management-services-in-india',
+    '@id': 'https://www.credsettle.com/1-debt-management-services-in-india',
     name: 'CredSettle Debt Management Services India',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Premier debt management and settlement services in India, helping borrowers resolve financial distress through legal and strategic negotiation.',
     telephone: '+91-8800226635',
     address: {
@@ -133,13 +133,13 @@ export default function DebtManagementIndiaPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Management Services in India',
-        'item': 'https://credsettle.com/1-debt-management-services-in-india'
+        'item': 'https://www.credsettle.com/1-debt-management-services-in-india'
       }
     ]
   };
@@ -157,7 +157,7 @@ export default function DebtManagementIndiaPage() {
     'dateModified': '2026-05-13',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/1-debt-management-services-in-india'
+      '@id': 'https://www.credsettle.com/1-debt-management-services-in-india'
     }
   };
 

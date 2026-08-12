@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-are-the-consequences-of-not-paying-emi'
+    url: 'https://www.credsettle.com/what-are-the-consequences-of-not-paying-emi'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-are-the-consequences-of-not-paying-emi'
+    canonical: 'https://www.credsettle.com/what-are-the-consequences-of-not-paying-emi'
   }
 };
 
@@ -49,14 +49,14 @@ export default function EMIConsequencesPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-02-10',
     'dateModified': '2026-02-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-are-the-consequences-of-not-paying-emi'
+      '@id': 'https://www.credsettle.com/what-are-the-consequences-of-not-paying-emi'
     }
   };
 
@@ -68,13 +68,13 @@ export default function EMIConsequencesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Consequences of Not Paying EMI',
-        'item': 'https://credsettle.com/what-are-the-consequences-of-not-paying-emi'
+        'item': 'https://www.credsettle.com/what-are-the-consequences-of-not-paying-emi'
       }
     ]
   };

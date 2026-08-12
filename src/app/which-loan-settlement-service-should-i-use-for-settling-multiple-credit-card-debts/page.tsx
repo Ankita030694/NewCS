@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
+    url: 'https://www.credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
   },
   alternates: {
-    canonical: 'https://credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
+    canonical: 'https://www.credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
   }
 };
 
@@ -38,10 +38,10 @@ export default function WhichLoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts',
+    '@id': 'https://www.credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Leading platform for settling multiple credit card and personal loan debts in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function WhichLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Which Loan Settlement Service Should I Use?',
-        'item': 'https://credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
+        'item': 'https://www.credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function WhichLoanSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
+      '@id': 'https://www.credsettle.com/which-loan-settlement-service-should-i-use-for-settling-multiple-credit-card-debts'
     }
   };
 

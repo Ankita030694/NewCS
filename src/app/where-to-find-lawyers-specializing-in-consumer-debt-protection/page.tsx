@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
+    url: 'https://www.credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
   },
   alternates: {
-    canonical: 'https://credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
+    canonical: 'https://www.credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtLawyersPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection',
+    '@id': 'https://www.credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection',
     name: 'CredSettle Consumer Debt Legal Protection',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal assistance and protection for consumers facing debt collection harassment and seeking debt settlement solutions in India.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function DebtLawyersPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Consumer Debt Protection Lawyers',
-        'item': 'https://credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
+        'item': 'https://www.credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
       }
     ]
   };
@@ -91,9 +91,9 @@ export default function DebtLawyersPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
+      '@id': 'https://www.credsettle.com/where-to-find-lawyers-specializing-in-consumer-debt-protection'
     },
-    'image': 'https://credsettle.com/images/debt-protection-lawyers.jpg'
+    'image': 'https://www.credsettle.com/images/debt-protection-lawyers.jpg'
   };
 
   return (

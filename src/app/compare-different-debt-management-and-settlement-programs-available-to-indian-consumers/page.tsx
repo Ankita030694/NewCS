@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
+    url: 'https://www.credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
   },
   alternates: {
-    canonical: 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
+    canonical: 'https://www.credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
   }
 };
 
@@ -38,10 +38,10 @@ export default function CompareProgramsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers',
+    '@id': 'https://www.credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers',
     name: 'CredSettle Debt Relief Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Leading provider of debt management and settlement programs in India, helping consumers regain financial stability.',
     telephone: '+91-8800226635',
     address: {
@@ -165,13 +165,13 @@ export default function CompareProgramsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Compare Debt Programs',
-        'item': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
+        'item': 'https://www.credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
       }
     ]
   };
@@ -189,7 +189,7 @@ export default function CompareProgramsPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
+      '@id': 'https://www.credsettle.com/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers'
     }
   };
 

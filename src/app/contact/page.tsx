@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import Script from 'next/script';
@@ -44,6 +45,10 @@ const faqSchema = {
   }))
 };
 
+
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.credsettle.com/contact' },
+};
 export default function ContactPage() {
   return (
     <div className="relative min-h-screen bg-white mt-5">

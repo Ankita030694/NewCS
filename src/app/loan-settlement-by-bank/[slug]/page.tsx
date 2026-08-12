@@ -26,11 +26,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${bank.company} Loan Settlement Guide 2026 - Reduce Debt Legally | CredSettle`,
     description: `Comprehensive 2026 guide to settling your ${bank.company} credit card and personal loans. Learn your legal rights, stop recovery agent harassment, and reduce your debt by up to 50%.`,
     keywords: `${bank.company} loan settlement, ${bank.company} credit card settlement, ${bank.company} debt relief, stop ${bank.company} recovery agents, ${bank.company} NPA settlement, legal debt settlement India`,
-    alternates: { canonical: `https://credsettle.com/loan-settlement-by-bank/${slug}` },
+    alternates: { canonical: `https://www.credsettle.com/loan-settlement-by-bank/${slug}` },
     openGraph: {
       title: `${bank.company} Loan Settlement Guide - Reduce Debt Legally`,
       description: `Struggling with ${bank.company} defaults? Master the settlement process, protect yourself from recovery harassment, and get your financial freedom back.`,
-      url: `https://credsettle.com/loan-settlement-by-bank/${slug}`,
+      url: `https://www.credsettle.com/loan-settlement-by-bank/${slug}`,
       type: 'article',
     }
   };
@@ -50,9 +50,9 @@ export default async function BankSettlementSlugPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     'itemListElement': [
-      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://credsettle.com' },
-      { '@type': 'ListItem', 'position': 2, 'name': 'Bank Settlements', 'item': 'https://credsettle.com/loan-settlement-by-bank' },
-      { '@type': 'ListItem', 'position': 3, 'name': `${bankName} Settlement Guide`, 'item': `https://credsettle.com/loan-settlement-by-bank/${slug}` }
+      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.credsettle.com' },
+      { '@type': 'ListItem', 'position': 2, 'name': 'Bank Settlements', 'item': 'https://www.credsettle.com/loan-settlement-by-bank' },
+      { '@type': 'ListItem', 'position': 3, 'name': `${bankName} Settlement Guide`, 'item': `https://www.credsettle.com/loan-settlement-by-bank/${slug}` }
     ]
   };
 
@@ -110,17 +110,17 @@ export default async function BankSettlementSlugPage({ params }: Props) {
     '@type': 'Article',
     'headline': `The Complete 2026 Legal Guide to ${bankName} Loan Settlement`,
     'description': `An exhaustive, step-by-step guide to achieving a One-Time Settlement (OTS) with ${bankName}. Discover negotiation strategies, legal protections, and CIBIL recovery plans.`,
-    'author': { '@type': 'Organization', 'name': 'CredSettle Legal Team', 'url': 'https://credsettle.com' },
+    'author': { '@type': 'Organization', 'name': 'CredSettle Legal Team', 'url': 'https://www.credsettle.com' },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
-      'logo': { '@type': 'ImageObject', 'url': 'https://credsettle.com/credsettle-logo.svg' }
+      'logo': { '@type': 'ImageObject', 'url': 'https://www.credsettle.com/credsettle-logo.svg' }
     },
     'datePublished': '2024-01-01T08:00:00+08:00',
     'dateModified': new Date().toISOString(),
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': `https://credsettle.com/loan-settlement-by-bank/${slug}`
+      '@id': `https://www.credsettle.com/loan-settlement-by-bank/${slug}`
     }
   };
 

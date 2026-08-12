@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/best-time-for-loan-settlement'
+    url: 'https://www.credsettle.com/best-time-for-loan-settlement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/best-time-for-loan-settlement'
+    canonical: 'https://www.credsettle.com/best-time-for-loan-settlement'
   }
 };
 
@@ -38,10 +38,10 @@ export default function BestTimeSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/best-time-for-loan-settlement',
+    '@id': 'https://www.credsettle.com/best-time-for-loan-settlement',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional assistance for loan settlement and debt resolution in India. Expert negotiation with banks and NBFCs.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function BestTimeSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Best Time for Loan Settlement',
-        'item': 'https://credsettle.com/best-time-for-loan-settlement'
+        'item': 'https://www.credsettle.com/best-time-for-loan-settlement'
       }
     ]
   };
@@ -169,12 +169,12 @@ export default function BestTimeSettlementPage() {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'image': 'https://credsettle.com/blog/best-time-loan-settlement.jpg',
+    'image': 'https://www.credsettle.com/blog/best-time-loan-settlement.jpg',
     'datePublished': '2025-05-10',
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/best-time-for-loan-settlement'
+      '@id': 'https://www.credsettle.com/best-time-for-loan-settlement'
     }
   };
 

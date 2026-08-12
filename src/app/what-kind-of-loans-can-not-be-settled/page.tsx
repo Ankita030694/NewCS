@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-kind-of-loans-can-not-be-settled',
+    url: 'https://www.credsettle.com/what-kind-of-loans-can-not-be-settled',
     images: [
       {
-        url: 'https://credsettle.com/credsettle-logo.svg', // Fallback or specific image
+        url: 'https://www.credsettle.com/credsettle-logo.svg', // Fallback or specific image
         width: 1200,
         height: 630,
         alt: 'CredSettle Loan Settlement Guide',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     description: 'Expert insights on secured vs unsecured loan settlement in India.',
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-kind-of-loans-can-not-be-settled'
+    canonical: 'https://www.credsettle.com/what-kind-of-loans-can-not-be-settled'
   },
   robots: {
     index: true,
@@ -73,14 +73,14 @@ export default function LoansNotSettledPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2024-02-10',
     'dateModified': '2024-02-10', // Should ideally be dynamic or regularly updated
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-kind-of-loans-can-not-be-settled'
+      '@id': 'https://www.credsettle.com/what-kind-of-loans-can-not-be-settled'
     }
   };
 
@@ -92,19 +92,19 @@ export default function LoansNotSettledPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Resources',
-        'item': 'https://credsettle.com/resources' // Assuming a resources parent or just generic
+        'item': 'https://www.credsettle.com/resources' // Assuming a resources parent or just generic
       },
       {
         '@type': 'ListItem',
         'position': 3,
         'name': 'What Kind of Loans Can Not Be Settled',
-        'item': 'https://credsettle.com/what-kind-of-loans-can-not-be-settled'
+        'item': 'https://www.credsettle.com/what-kind-of-loans-can-not-be-settled'
       }
     ]
   };

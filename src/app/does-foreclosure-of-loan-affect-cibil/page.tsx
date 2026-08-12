@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/does-foreclosure-of-loan-affect-cibil'
+    url: 'https://www.credsettle.com/does-foreclosure-of-loan-affect-cibil'
   },
   alternates: {
-    canonical: 'https://credsettle.com/does-foreclosure-of-loan-affect-cibil'
+    canonical: 'https://www.credsettle.com/does-foreclosure-of-loan-affect-cibil'
   }
 };
 
@@ -48,7 +48,7 @@ export default function DoesForeclosurePage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/does-foreclosure-of-loan-affect-cibil'
+      '@id': 'https://www.credsettle.com/does-foreclosure-of-loan-affect-cibil'
     }
   };
 
@@ -60,13 +60,13 @@ export default function DoesForeclosurePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Does Foreclosure Affect CIBIL',
-        'item': 'https://credsettle.com/does-foreclosure-of-loan-affect-cibil'
+        'item': 'https://www.credsettle.com/does-foreclosure-of-loan-affect-cibil'
       }
     ]
   };

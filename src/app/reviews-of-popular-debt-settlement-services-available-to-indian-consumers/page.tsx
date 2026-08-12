@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
+    url: 'https://www.credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
   },
   alternates: {
-    canonical: 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
+    canonical: 'https://www.credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
   }
 };
 
@@ -38,10 +38,10 @@ export default function ReviewsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers',
+    '@id': 'https://www.credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers',
     name: 'CredSettle Debt Settlement Reviews India',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert reviews and comparison of the most popular debt settlement services available to Indian consumers.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function ReviewsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Settlement Reviews',
-        'item': 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
+        'item': 'https://www.credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function ReviewsPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
+      '@id': 'https://www.credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'
     }
   };
 

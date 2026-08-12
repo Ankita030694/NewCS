@@ -23,11 +23,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Axis Bank Loan Settlement | Save up to 50% | CredSettle',
     description: 'Struggling with Axis Bank dues? Learn the official settlement process, negotiate huge waivers, and become debt-free legally.',
-    url: 'https://credsettle.com/loan-settlement/axis-bank',
+    url: 'https://www.credsettle.com/loan-settlement/axis-bank',
     type: 'article',
     images: [
       {
-        url: 'https://credsettle.com/assets/axis-bank-settlement.jpg', // Placeholder
+        url: 'https://www.credsettle.com/assets/axis-bank-settlement.jpg', // Placeholder
         width: 1200,
         height: 630,
         alt: 'Axis Bank Loan Settlement Guide',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-settlement/axis-bank'
+    canonical: 'https://www.credsettle.com/loan-settlement/axis-bank'
   }
 };
 
@@ -43,11 +43,11 @@ export default function AxisBankLoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/loan-settlement/axis-bank',
+    '@id': 'https://www.credsettle.com/loan-settlement/axis-bank',
     name: 'CredSettle - Axis Bank Settlement Experts',
     legalName: 'CredSettle Legal Services',
-    url: 'https://credsettle.com/loan-settlement/axis-bank',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com/loan-settlement/axis-bank',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Specialized legal and financial services for settling Axis Bank loans and credit cards.',
     telephone: '+91-8800226635',
     email: 'support@credsettle.com',
@@ -64,19 +64,19 @@ export default function AxisBankLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement',
-        'item': 'https://credsettle.com/loan-settlement'
+        'item': 'https://www.credsettle.com/loan-settlement'
       },
       {
         '@type': 'ListItem',
         'position': 3,
         'name': 'Axis Bank',
-        'item': 'https://credsettle.com/loan-settlement/axis-bank'
+        'item': 'https://www.credsettle.com/loan-settlement/axis-bank'
       }
     ]
   };
@@ -95,7 +95,7 @@ export default function AxisBankLoanSettlementPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2025-01-14',

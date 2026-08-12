@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
+    url: 'https://www.credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
+    canonical: 'https://www.credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanSettlementVsDebtConsolidationPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi',
+    '@id': 'https://www.credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi',
     name: 'CredSettle Debt Advisory Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on loan settlement and debt consolidation to help you reduce EMIs and manage debt effectively.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function LoanSettlementVsDebtConsolidationPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement vs Debt Consolidation',
-        'item': 'https://credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
+        'item': 'https://www.credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
       }
     ]
   };
@@ -173,14 +173,14 @@ export default function LoanSettlementVsDebtConsolidationPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
+      '@id': 'https://www.credsettle.com/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     }
   };

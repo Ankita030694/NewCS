@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import AndhraPradeshPageClient from './AndhraPradeshPageClient';
 
-const pageUrl = 'https://credsettle.com/services/nbfc-loan-settlement/andhra-pradesh';
+const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/andhra-pradesh';
 
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement Andhra Pradesh | CredSettle Legal Solutions',
@@ -54,11 +54,11 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
   name: 'CredSettle NBFC Loan Settlement Andhra Pradesh',
-  url: 'https://credsettle.com',
+  url: 'https://www.credsettle.com',
   '@id': pageUrl,
   description:
     'CredSettle negotiates NBFC loan settlements for borrowers in Visakhapatnam, Vijayawada, Guntur, Tirupati, Rajahmundry, Nellore, Kurnool, and Anantapur with RBI-compliant strategies.',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   areaServed: {
     '@type': 'State',
     name: 'Andhra Pradesh',
@@ -103,19 +103,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'NBFC Loan Settlement',
-      item: 'https://credsettle.com/services/nbfc-loan-settlement'
+      item: 'https://www.credsettle.com/services/nbfc-loan-settlement'
     },
     {
       '@type': 'ListItem',

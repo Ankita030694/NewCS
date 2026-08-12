@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/salary-account-frozen-by-bank'
+    url: 'https://www.credsettle.com/salary-account-frozen-by-bank'
   },
   twitter: {
     card: 'summary_large_image',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: 'Professional guide to resolving frozen salary accounts and unauthorized bank liens.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/salary-account-frozen-by-bank'
+    canonical: 'https://www.credsettle.com/salary-account-frozen-by-bank'
   },
   robots: {
     index: true,
@@ -50,21 +50,21 @@ export default function SalaryAccountFrozenPage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Desai',
-      'image': 'https://credsettle.com/default-user.svg'
+      'image': 'https://www.credsettle.com/default-user.svg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': new Date().toISOString().split('T')[0],
     'dateModified': new Date().toISOString().split('T')[0],
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/salary-account-frozen-by-bank'
+      '@id': 'https://www.credsettle.com/salary-account-frozen-by-bank'
     }
   };
 
@@ -139,13 +139,13 @@ export default function SalaryAccountFrozenPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Salary Account Frozen by Bank',
-        'item': 'https://credsettle.com/salary-account-frozen-by-bank'
+        'item': 'https://www.credsettle.com/salary-account-frozen-by-bank'
       }
     ]
   };

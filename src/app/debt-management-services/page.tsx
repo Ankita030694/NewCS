@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/debt-management-services'
+    url: 'https://www.credsettle.com/debt-management-services'
   },
   alternates: {
-    canonical: 'https://credsettle.com/debt-management-services'
+    canonical: 'https://www.credsettle.com/debt-management-services'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtManagementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/debt-management-services',
+    '@id': 'https://www.credsettle.com/debt-management-services',
     name: 'CredSettle Debt Management Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert debt management and settlement services helping individuals and businesses across India resolve financial defaults and stop harassment.',
     telephone: '+91-8800226635',
     address: {
@@ -133,13 +133,13 @@ export default function DebtManagementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Management Services',
-        'item': 'https://credsettle.com/debt-management-services'
+        'item': 'https://www.credsettle.com/debt-management-services'
       }
     ]
   };
@@ -157,9 +157,9 @@ export default function DebtManagementPage() {
     'dateModified': '2026-05-13',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/debt-management-services'
+      '@id': 'https://www.credsettle.com/debt-management-services'
     },
-    'image': 'https://credsettle.com/images/debt-management-guide.jpg'
+    'image': 'https://www.credsettle.com/images/debt-management-guide.jpg'
   };
 
   return (

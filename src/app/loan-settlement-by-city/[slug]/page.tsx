@@ -36,12 +36,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       "one time settlement scheme",
     ],
     alternates: {
-      canonical: `https://credsettle.com/loan-settlement-by-city/${location.slug}`,
+      canonical: `https://www.credsettle.com/loan-settlement-by-city/${location.slug}`,
     },
     openGraph: {
       title: location.title,
       description: location.description,
-      url: `https://credsettle.com/loan-settlement-by-city/${location.slug}`,
+      url: `https://www.credsettle.com/loan-settlement-by-city/${location.slug}`,
       type: "website",
       images: [
         {
@@ -114,9 +114,9 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://credsettle.com" },
-      { "@type": "ListItem", "position": 2, "name": "Loan Settlement by City", "item": "https://credsettle.com/loan-settlement-by-city" },
-      { "@type": "ListItem", "position": 3, "name": `Loan Settlement in ${locationName}`, "item": `https://credsettle.com/loan-settlement-by-city/${location.slug}` }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.credsettle.com" },
+      { "@type": "ListItem", "position": 2, "name": "Loan Settlement by City", "item": "https://www.credsettle.com/loan-settlement-by-city" },
+      { "@type": "ListItem", "position": 3, "name": `Loan Settlement in ${locationName}`, "item": `https://www.credsettle.com/loan-settlement-by-city/${location.slug}` }
     ]
   };
 
@@ -125,18 +125,18 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
     "@type": "Article",
     "headline": `Best Advocate & Lawyers in ${locationName} for Loan Settlement`,
     "description": location.description,
-    "image": "https://credsettle.com/services/3.png",
+    "image": "https://www.credsettle.com/services/3.png",
     "author": {
       "@type": "Organization",
       "name": "CredSettle",
-      "url": "https://credsettle.com"
+      "url": "https://www.credsettle.com"
     },
     "publisher": {
       "@type": "Organization",
       "name": "CredSettle",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://credsettle.com/logo/logo.svg"
+        "url": "https://www.credsettle.com/logo/logo.svg"
       }
     },
     "datePublished": "2024-01-15",
@@ -160,7 +160,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
     "@context": "https://schema.org",
     "@type": "Product",
     "name": `Loan Settlement Services in ${locationName}`,
-    "image": "https://credsettle.com/services/3.png",
+    "image": "https://www.credsettle.com/services/3.png",
     "description": `Expert legal loan settlement services in ${locationName}, India.`,
     "brand": {
       "@type": "Brand",

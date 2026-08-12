@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
+    url: 'https://www.credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
+    canonical: 'https://www.credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function OnlineDebtSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/how-do-online-debt-settlement-platforms-work-in-india',
+    '@id': 'https://www.credsettle.com/how-do-online-debt-settlement-platforms-work-in-india',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'India\'s leading online platform for debt settlement and financial distress resolution.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function OnlineDebtSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How Online Debt Settlement Platforms Work',
-        'item': 'https://credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
+        'item': 'https://www.credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
       }
     ]
   };
@@ -173,14 +173,14 @@ export default function OnlineDebtSettlementPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
+      '@id': 'https://www.credsettle.com/how-do-online-debt-settlement-platforms-work-in-india'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     }
   };

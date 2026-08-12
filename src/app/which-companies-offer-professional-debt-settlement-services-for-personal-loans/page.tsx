@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
+    url: 'https://www.credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
   },
   alternates: {
-    canonical: 'https://credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
+    canonical: 'https://www.credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
   }
 };
 
@@ -38,10 +38,10 @@ export default function ProfessionalDebtSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans',
+    '@id': 'https://www.credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans',
     name: 'CredSettle Debt Settlement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert professional debt settlement services for personal loans and credit card debt in India.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function ProfessionalDebtSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Professional Debt Settlement Services',
-        'item': 'https://credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
+        'item': 'https://www.credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function ProfessionalDebtSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
+      '@id': 'https://www.credsettle.com/which-companies-offer-professional-debt-settlement-services-for-personal-loans'
     }
   };
 

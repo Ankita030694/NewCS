@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-settlement'
+    url: 'https://www.credsettle.com/loan-settlement'
   },
   twitter: {
     card: 'summary_large_image',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description: 'Professional loan settlement services. Reduce your debt and stop collection harassment.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-settlement'
+    canonical: 'https://www.credsettle.com/loan-settlement'
   },
   robots: {
     index: true,
@@ -66,11 +66,11 @@ export default function LoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/loan-settlement',
+    '@id': 'https://www.credsettle.com/loan-settlement',
     name: 'CredSettle Loan Settlement',
     legalName: 'CredSettle Legal Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional loan settlement and debt relief services. We help negotiate with debt collectors and reduce your debt burden.',
     telephone: '+91-8800226635',
     email: 'support@credsettle.com',
@@ -135,13 +135,13 @@ export default function LoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement',
-        'item': 'https://credsettle.com/loan-settlement'
+        'item': 'https://www.credsettle.com/loan-settlement'
       }
     ]
   };
@@ -160,14 +160,14 @@ export default function LoanSettlementPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2024-01-15',
     'dateModified': '2024-12-09',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-settlement'
+      '@id': 'https://www.credsettle.com/loan-settlement'
     }
   };
 

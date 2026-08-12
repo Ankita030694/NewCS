@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description: 'Legal credit card settlement in Mumbai, Pune, Nagpur. Stop harassment, reduce debt 40-75%. RBI-compliant process.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/credit-card-settlement/maharashtra'
+    canonical: 'https://www.credsettle.com/services/credit-card-settlement/maharashtra'
   },
   robots: {
     index: true,
@@ -57,11 +57,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/maharashtra',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/maharashtra',
   name: 'CredSettle Credit Card Settlement Maharashtra',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional credit card settlement services in Maharashtra. Legal RBI-compliant debt resolution for Mumbai, Pune, Nagpur borrowers. Multiple card debt specialists.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -149,25 +149,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Credit Card Settlement',
-      item: 'https://credsettle.com/services/credit-card-settlement'
+      item: 'https://www.credsettle.com/services/credit-card-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Maharashtra',
-      item: 'https://credsettle.com/services/credit-card-settlement/maharashtra'
+      item: 'https://www.credsettle.com/services/credit-card-settlement/maharashtra'
     }
   ]
 };
@@ -176,9 +176,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Maharashtra Credit Card Settlement',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/maharashtra',
-  url: 'https://credsettle.com/services/credit-card-settlement/maharashtra',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/maharashtra',
+  url: 'https://www.credsettle.com/services/credit-card-settlement/maharashtra',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

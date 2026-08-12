@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: content.title,
       description: content.metaDescription,
       type: 'article',
-      url: `https://credsettle.com/services/personal-loan-settlement/banks/${content.slug}`
+      url: `https://www.credsettle.com/services/personal-loan-settlement/banks/${content.slug}`
     },
     twitter: {
       card: 'summary_large_image',
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: content.metaDescription
     },
     alternates: {
-      canonical: `https://credsettle.com/services/personal-loan-settlement/banks/${content.slug}`
+      canonical: `https://www.credsettle.com/services/personal-loan-settlement/banks/${content.slug}`
     }
   };
 }
@@ -70,18 +70,18 @@ export default async function BankPage({ params }: PageProps) {
     author: {
       '@type': 'Organization',
       name: 'CredSettle',
-      url: 'https://credsettle.com'
+      url: 'https://www.credsettle.com'
     },
     publisher: {
       '@type': 'Organization',
       name: 'CredSettle',
-      url: 'https://credsettle.com'
+      url: 'https://www.credsettle.com'
     },
     datePublished: new Date().toISOString(),
     dateModified: new Date().toISOString(),
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://credsettle.com/services/personal-loan-settlement/banks/${content.slug}`
+      '@id': `https://www.credsettle.com/services/personal-loan-settlement/banks/${content.slug}`
     },
     about: {
       '@type': 'FinancialService',
@@ -89,7 +89,7 @@ export default async function BankPage({ params }: PageProps) {
       provider: {
         '@type': 'Organization',
         name: 'CredSettle',
-        url: 'https://credsettle.com'
+        url: 'https://www.credsettle.com'
       }
     }
   };

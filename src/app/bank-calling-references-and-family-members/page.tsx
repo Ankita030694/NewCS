@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'rbi ombudsman complaint recovery agent'
   ],
   alternates: {
-    canonical: 'https://credsettle.com/bank-calling-references-and-family-members'
+    canonical: 'https://www.credsettle.com/bank-calling-references-and-family-members'
   }
 };
 
@@ -37,19 +37,19 @@ export default function BankCallingReferencesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement',
-        'item': 'https://credsettle.com/loan-settlement'
+        'item': 'https://www.credsettle.com/loan-settlement'
       },
       {
         '@type': 'ListItem',
         'position': 3,
         'name': 'Bank Calling References and Family Members',
-        'item': 'https://credsettle.com/bank-calling-references-and-family-members'
+        'item': 'https://www.credsettle.com/bank-calling-references-and-family-members'
       }
     ]
   };
@@ -68,14 +68,14 @@ export default function BankCallingReferencesPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2025-02-06',
     'dateModified': '2025-02-06',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/bank-calling-references-and-family-members'
+      '@id': 'https://www.credsettle.com/bank-calling-references-and-family-members'
     }
   };
 

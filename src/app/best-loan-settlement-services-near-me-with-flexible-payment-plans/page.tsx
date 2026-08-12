@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
+    url: 'https://www.credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
   },
   alternates: {
-    canonical: 'https://credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
+    canonical: 'https://www.credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanSettlementServicesPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans',
+    '@id': 'https://www.credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans',
     name: 'CredSettle Loan Settlement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'India\'s top-rated loan settlement service provider offering flexible payment plans for debt relief.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function LoanSettlementServicesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement Services',
-        'item': 'https://credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
+        'item': 'https://www.credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function LoanSettlementServicesPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
+      '@id': 'https://www.credsettle.com/best-loan-settlement-services-near-me-with-flexible-payment-plans'
     }
   };
 

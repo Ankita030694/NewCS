@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import WestBengalPageClient from './WestBengalPageClient';
 
-const pageUrl = 'https://credsettle.com/services/nbfc-loan-settlement/west-bengal';
+const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/west-bengal';
 
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement West Bengal | CredSettle Port and Tea Belt Desk',
@@ -54,11 +54,11 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
   name: 'CredSettle NBFC Loan Settlement West Bengal',
-  url: 'https://credsettle.com',
+  url: 'https://www.credsettle.com',
   '@id': pageUrl,
   description:
     'CredSettle negotiates NBFC settlements for borrowers in Kolkata, Howrah, Salt Lake, Durgapur, Asansol, Siliguri, Jalpaiguri, and Haldia with RBI and West Bengal legal compliance.',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   areaServed: {
     '@type': 'State',
     name: 'West Bengal',
@@ -103,19 +103,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'NBFC Loan Settlement',
-      item: 'https://credsettle.com/services/nbfc-loan-settlement'
+      item: 'https://www.credsettle.com/services/nbfc-loan-settlement'
     },
     {
       '@type': 'ListItem',

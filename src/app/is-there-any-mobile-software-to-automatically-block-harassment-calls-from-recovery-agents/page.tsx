@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+    url: 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
   },
   alternates: {
-    canonical: 'https://credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+    canonical: 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
   }
 };
 
@@ -38,10 +38,10 @@ export default function IsThereAnyMobileSoftwarePage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents',
+    '@id': 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents',
     name: 'CredSettle Debt Protection Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal and technological solutions to stop harassment from recovery agents and settle debts honorably.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function IsThereAnyMobileSoftwarePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Block Recovery Harassment',
-        'item': 'https://credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+        'item': 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function IsThereAnyMobileSoftwarePage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+      '@id': 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
     }
   };
 

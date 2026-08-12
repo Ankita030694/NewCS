@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import BestLoanEmiSettlementLawyerClient from './BestLoanEmiSettlementLawyerClient';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.credsettle.com/best-loan-emi-settlement-lawyer' },
     title: 'Best Loan EMI Settlement Lawyer 2025-26 | Debt Relief Legal Experts',
     description: 'Hire the best loan EMI settlement lawyer in India. Expert legal help for personal loan EMI settlement, credit card debt, and 2026 RBI pre-payment charge ban guidelines.',
     keywords: 'best loan emi settlement lawyer, emi settlement lawyer india, debt relief lawyer for personal loan, credit card settlement legal help, hardship settlement lawyer rbi 2025',

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
+    url: 'https://www.credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
+    canonical: 'https://www.credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
   }
 };
 
@@ -38,10 +38,10 @@ export default function TrackingStatusPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites',
+    '@id': 'https://www.credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites',
     name: 'CredSettle Loan Tracking Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional assistance in tracking and managing loan settlement processes through digital platforms.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function TrackingStatusPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Track Loan Settlement Status',
-        'item': 'https://credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
+        'item': 'https://www.credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function TrackingStatusPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
+      '@id': 'https://www.credsettle.com/can-i-track-my-loan-settlement-status-through-financial-service-websites'
     }
   };
 

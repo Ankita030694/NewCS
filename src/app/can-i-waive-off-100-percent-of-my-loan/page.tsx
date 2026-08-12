@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/can-i-waive-off-100-percent-of-my-loan'
+    url: 'https://www.credsettle.com/can-i-waive-off-100-percent-of-my-loan'
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-i-waive-off-100-percent-of-my-loan'
+    canonical: 'https://www.credsettle.com/can-i-waive-off-100-percent-of-my-loan'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanWaiverPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/can-i-waive-off-100-percent-of-my-loan',
+    '@id': 'https://www.credsettle.com/can-i-waive-off-100-percent-of-my-loan',
     name: 'CredSettle Debt Relief Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional advisory services for loan settlement, debt relief, and borrower rights protection in India.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function LoanWaiverPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Can I Waive Off 100 Percent of My Loan?',
-        'item': 'https://credsettle.com/can-i-waive-off-100-percent-of-my-loan'
+        'item': 'https://www.credsettle.com/can-i-waive-off-100-percent-of-my-loan'
       }
     ]
   };
@@ -123,10 +123,10 @@ export default function LoanWaiverPage() {
     },
     'datePublished': '2025-02-10',
     'dateModified': '2026-05-14',
-    'image': 'https://credsettle.com/images/loan-waiver-guide.jpg',
+    'image': 'https://www.credsettle.com/images/loan-waiver-guide.jpg',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-i-waive-off-100-percent-of-my-loan'
+      '@id': 'https://www.credsettle.com/can-i-waive-off-100-percent-of-my-loan'
     }
   };
 

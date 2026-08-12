@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/timely-repayment-of-loan-result'
+    url: 'https://www.credsettle.com/timely-repayment-of-loan-result'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Understand the long-term financial outcomes, CIBIL impact, and immense monetary benefits of timely loan repayment compared to debt settlement.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/timely-repayment-of-loan-result'
+    canonical: 'https://www.credsettle.com/timely-repayment-of-loan-result'
   },
   robots: {
     index: true,
@@ -55,14 +55,14 @@ export default function TimelyRepaymentPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/timely-repayment-of-loan-result'
+      '@id': 'https://www.credsettle.com/timely-repayment-of-loan-result'
     }
   };
 
@@ -121,13 +121,13 @@ export default function TimelyRepaymentPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Timely Repayment of Loan Result',
-        'item': 'https://credsettle.com/timely-repayment-of-loan-result'
+        'item': 'https://www.credsettle.com/timely-repayment-of-loan-result'
       }
     ]
   };

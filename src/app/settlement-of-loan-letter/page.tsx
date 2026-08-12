@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/settlement-of-loan-letter'
+    url: 'https://www.credsettle.com/settlement-of-loan-letter'
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Learn how to draft a legally sound loan settlement letter to Indian banks. Get proven templates, avoid critical mistakes, and secure a NOC fast.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/settlement-of-loan-letter'
+    canonical: 'https://www.credsettle.com/settlement-of-loan-letter'
   },
   robots: {
     index: true,
@@ -47,21 +47,21 @@ export default function SettlementOfLoanLetterPage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/settlement-of-loan-letter'
+      '@id': 'https://www.credsettle.com/settlement-of-loan-letter'
     }
   };
 
@@ -136,13 +136,13 @@ export default function SettlementOfLoanLetterPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement Letter Format Guide',
-        'item': 'https://credsettle.com/settlement-of-loan-letter'
+        'item': 'https://www.credsettle.com/settlement-of-loan-letter'
       }
     ]
   };

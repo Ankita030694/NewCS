@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
+    url: 'https://www.credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
+    canonical: 'https://www.credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
   }
 };
 
@@ -38,10 +38,10 @@ export default function BlockCallsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages',
+    '@id': 'https://www.credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages',
     name: 'CredSettle Debt Harassment Legal Help',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal assistance and debt settlement services to help you deal with recovery agent harassment in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function BlockCallsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Best Apps to Block Recovery Agent Calls',
-        'item': 'https://credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
+        'item': 'https://www.credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
       }
     ]
   };
@@ -173,15 +173,15 @@ export default function BlockCallsPage() {
     'dateModified': '2025-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
+      '@id': 'https://www.credsettle.com/what-are-the-best-apps-to-block-recovery-agent-calls-and-messages'
     },
-    'image': 'https://credsettle.com/images/block-calls-guide.jpg',
+    'image': 'https://www.credsettle.com/images/block-calls-guide.jpg',
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     }
   };

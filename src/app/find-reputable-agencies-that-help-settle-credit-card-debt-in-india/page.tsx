@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
+    url: 'https://www.credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
+    canonical: 'https://www.credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function FindAgenciesPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india',
+    '@id': 'https://www.credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india',
     name: 'CredSettle Debt Settlement Services India',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Leading agency helping Indians settle credit card debt and loans through expert negotiation and legal support.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function FindAgenciesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Find Reputable Agencies to Settle Credit Card Debt',
-        'item': 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
+        'item': 'https://www.credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function FindAgenciesPage() {
     'dateModified': '2025-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
+      '@id': 'https://www.credsettle.com/find-reputable-agencies-that-help-settle-credit-card-debt-in-india'
     }
   };
 

@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.credsettle.com/best-check-bounce-lawyer-for-loan-case' },
     title: 'Best Check Bounce Lawyer for Loan Case in India | CredSettle',
     description: 'Facing a Section 138 NI Act case? Find the best check bounce lawyer for loan cases in India. Expert legal defense, debt recovery, and 5000+ words of legal guidance.',
     keywords: 'best check bounce lawyer for loan case, Section 138 NI Act lawyer, cheque bounce legal notice, debt recovery lawyer India, check bounce case defense',

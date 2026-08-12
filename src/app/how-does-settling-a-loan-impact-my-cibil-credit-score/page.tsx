@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
+    url: 'https://www.credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
+    canonical: 'https://www.credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanImpactPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score',
+    '@id': 'https://www.credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert debt settlement and credit restoration advisory services in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function LoanImpactPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement CIBIL Impact',
-        'item': 'https://credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
+        'item': 'https://www.credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function LoanImpactPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
+      '@id': 'https://www.credsettle.com/how-does-settling-a-loan-impact-my-cibil-credit-score'
     }
   };
 

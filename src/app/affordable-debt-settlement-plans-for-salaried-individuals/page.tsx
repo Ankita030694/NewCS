@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
+    url: 'https://www.credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
   },
   alternates: {
-    canonical: 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
+    canonical: 'https://www.credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
   }
 };
 
@@ -38,10 +38,10 @@ export default function AffordableDebtSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals',
+    '@id': 'https://www.credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals',
     name: 'CredSettle Debt Settlement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Affordable debt settlement and management plans specifically designed for salaried individuals in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function AffordableDebtSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Affordable Debt Settlement Plans for Salaried Individuals',
-        'item': 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
+        'item': 'https://www.credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
       }
     ]
   };
@@ -173,14 +173,14 @@ export default function AffordableDebtSettlementPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
+      '@id': 'https://www.credsettle.com/affordable-debt-settlement-plans-for-salaried-individuals'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     }
   };

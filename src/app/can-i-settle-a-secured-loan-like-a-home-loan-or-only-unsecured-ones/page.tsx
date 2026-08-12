@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
+    url: 'https://www.credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
+    canonical: 'https://www.credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
   }
 };
 
@@ -38,10 +38,10 @@ export default function SecuredLoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones',
+    '@id': 'https://www.credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones',
     name: 'CredSettle Loan Settlement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on settling secured and unsecured loans in India to achieve debt-free life.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function SecuredLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Can I Settle a Secured Loan?',
-        'item': 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
+        'item': 'https://www.credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function SecuredLoanSettlementPage() {
     'dateModified': '2025-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
+      '@id': 'https://www.credsettle.com/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones'
     }
   };
 

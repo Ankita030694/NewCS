@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import MudraLoanSettlementClient from './MudraLoanSettlementClient';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.credsettle.com/mudra-loan-settlement-legal-help' },
     title: 'Mudra Loan Settlement Legal Help 2025 | SBI PMMY Recovery Defense',
     description: 'Expert legal help for Mudra loan settlement in India. Understand RBI 2025 guidelines for PMMY Tarun Plus settlement, stop recovery harassment, and settle debt legally.',
     keywords: 'mudra loan settlement legal help, sbi mudra loan ots 2025, pmmy loan recovery defense, tarun plus loan settlement india, msme loan legal assistance rbi',

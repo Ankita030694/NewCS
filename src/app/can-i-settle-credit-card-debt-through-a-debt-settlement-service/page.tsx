@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
+    url: 'https://www.credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
+    canonical: 'https://www.credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
   }
 };
 
@@ -37,10 +37,10 @@ export default function SettleCreditCardPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service',
+    '@id': 'https://www.credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service',
     name: 'CredSettle Debt Settlement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'CredSettle is India\'s leading debt settlement platform, helping thousands of consumers settle their credit card and loan debts legally.',
     telephone: '+91-8800226635',
     address: {
@@ -102,13 +102,13 @@ export default function SettleCreditCardPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Settlement Services',
-        'item': 'https://credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
+        'item': 'https://www.credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
       }
     ]
   };
@@ -127,16 +127,16 @@ export default function SettleCreditCardPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2025-05-10',
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
+      '@id': 'https://www.credsettle.com/can-i-settle-credit-card-debt-through-a-debt-settlement-service'
     },
-    'image': 'https://credsettle.com/images/credit-card-settlement-guide.jpg'
+    'image': 'https://www.credsettle.com/images/credit-card-settlement-guide.jpg'
   };
 
   return (

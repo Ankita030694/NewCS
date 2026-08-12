@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
+    url: 'https://www.credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
+    canonical: 'https://www.credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtNegotiationPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India',
+    '@id': 'https://www.credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India',
     name: 'CredSettle Debt Negotiation Services India',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional debt settlement and negotiation services helping Indian consumers resolve their debt burdens.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function DebtNegotiationPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How to Negotiate a Debt Settlement',
-        'item': 'https://credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
+        'item': 'https://www.credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function DebtNegotiationPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
+      '@id': 'https://www.credsettle.com/how-to-negotiate-a-debt-settlement-with-creditors-in-India'
     }
   };
 

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-management-services'
+    url: 'https://www.credsettle.com/loan-management-services'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-management-services'
+    canonical: 'https://www.credsettle.com/loan-management-services'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanManagementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/loan-management-services',
+    '@id': 'https://www.credsettle.com/loan-management-services',
     name: 'CredSettle Loan Management Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert financial and legal services for managing personal and business loans, debt consolidation, and refinancing in India.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function LoanManagementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Management Services',
-        'item': 'https://credsettle.com/loan-management-services'
+        'item': 'https://www.credsettle.com/loan-management-services'
       }
     ]
   };
@@ -125,7 +125,7 @@ export default function LoanManagementPage() {
     'dateModified': '2026-05-14',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-management-services'
+      '@id': 'https://www.credsettle.com/loan-management-services'
     }
   };
 

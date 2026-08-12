@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
+    url: 'https://www.credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
+    canonical: 'https://www.credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
   }
 };
 
@@ -38,10 +38,10 @@ export default function RiskPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement',
+    '@id': 'https://www.credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on debt settlement risks and safe loan resolution practices in India.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function RiskPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Risks of Debt Settlement',
-        'item': 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
+        'item': 'https://www.credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
       }
     ]
   };
@@ -91,9 +91,9 @@ export default function RiskPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
+      '@id': 'https://www.credsettle.com/what-are-the-risks-of-entering-a-debt-settlement-agreement'
     },
-    'image': 'https://credsettle.com/images/debt-settlement-risks.jpg'
+    'image': 'https://www.credsettle.com/images/debt-settlement-risks.jpg'
   };
 
   return (

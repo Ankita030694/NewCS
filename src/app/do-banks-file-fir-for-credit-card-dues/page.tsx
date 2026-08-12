@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/do-banks-file-fir-for-credit-card-dues'
+    url: 'https://www.credsettle.com/do-banks-file-fir-for-credit-card-dues'
   },
   twitter: {
     card: 'summary_large_image',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: 'Are you being threatened with an FIR for credit card dues? Know your rights and the actual law in India.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/do-banks-file-fir-for-credit-card-dues'
+    canonical: 'https://www.credsettle.com/do-banks-file-fir-for-credit-card-dues'
   },
   robots: {
     index: true,
@@ -64,14 +64,14 @@ export default function CreditCardFIRPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2024-03-28',
     'dateModified': '2024-03-28',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/do-banks-file-fir-for-credit-card-dues'
+      '@id': 'https://www.credsettle.com/do-banks-file-fir-for-credit-card-dues'
     }
   };
 
@@ -83,13 +83,13 @@ export default function CreditCardFIRPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Credit Card FIR Guide',
-        'item': 'https://credsettle.com/do-banks-file-fir-for-credit-card-dues'
+        'item': 'https://www.credsettle.com/do-banks-file-fir-for-credit-card-dues'
       }
     ]
   };

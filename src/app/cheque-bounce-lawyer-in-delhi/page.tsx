@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Top Cheque Bounce Lawyer in Delhi | Section 138 Experts',
   description: 'Find a top cheque bounce lawyer in Delhi for Section 138 cases. Learn about average costs, red flags, and the legal process for fast interim compensation.',
   alternates: {
-    canonical: 'https://credsettle.com/cheque-bounce-lawyer-in-delhi',
+    canonical: 'https://www.credsettle.com/cheque-bounce-lawyer-in-delhi',
   },
   robots: {
     index: true,
@@ -23,26 +23,26 @@ export default function ChequeBounceLawyerDelhiPage() {
         "@type": "Article",
         "headline": "Top Cheque Bounce Lawyer in Delhi | Section 138 Experts",
         "description": "Find a top cheque bounce lawyer in Delhi for Section 138 cases. Learn about average costs, red flags, and the legal process for fast interim compensation.",
-        "image": "https://credsettle.com/images/cheque-bounce-delhi.jpg",
+        "image": "https://www.credsettle.com/images/cheque-bounce-delhi.jpg",
         "author": {
           "@type": "Person",
           "name": "Rajesh Sharma",
           "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg",
-          "url": "https://credsettle.com/author/rajeshsharma"
+          "url": "https://www.credsettle.com/author/rajeshsharma"
         },
         "publisher": {
           "@type": "Organization",
           "name": "CredSettle",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://credsettle.com/logo.png"
+            "url": "https://www.credsettle.com/logo.png"
           }
         },
         "datePublished": new Date().toISOString(),
         "dateModified": new Date().toISOString(),
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://credsettle.com/cheque-bounce-lawyer-in-delhi"
+          "@id": "https://www.credsettle.com/cheque-bounce-lawyer-in-delhi"
         }
       },
       {
@@ -152,13 +152,13 @@ export default function ChequeBounceLawyerDelhiPage() {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://credsettle.com/"
+            "item": "https://www.credsettle.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Cheque Bounce Lawyer in Delhi",
-            "item": "https://credsettle.com/cheque-bounce-lawyer-in-delhi"
+            "item": "https://www.credsettle.com/cheque-bounce-lawyer-in-delhi"
           }
         ]
       }

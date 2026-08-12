@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: 'RBL Bank Loan Settlement Process 2026 | OTS & Credit Card Relief',
   description: 'Expert guide on RBL Bank loan settlement and credit card default resolution. Learn about the OTS scheme, arbitration process, and how to save up to 50% on dues legally.',
   alternates: {
-    canonical: 'https://credsettle.com/loan-settlement/rbl-bank',
+    canonical: 'https://www.credsettle.com/loan-settlement/rbl-bank',
   },
   openGraph: {
     title: 'RBL Bank Loan Settlement | Stop Harassment & Save 50%',
     description: 'Struggling with RBL Bank dues? Understand the 2026 settlement guidelines, close your loan legally, and rebuild your financial life.',
-    url: 'https://credsettle.com/loan-settlement/rbl-bank',
+    url: 'https://www.credsettle.com/loan-settlement/rbl-bank',
     siteName: 'CredSettle',
     type: 'article',
   },
@@ -26,8 +26,8 @@ export default function RBLBankLoanSettlementPage() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "CredSettle",
-    "url": "https://credsettle.com",
-    "logo": "https://credsettle.com/logo.png",
+    "url": "https://www.credsettle.com",
+    "logo": "https://www.credsettle.com/logo.png",
     "sameAs": [
       "https://facebook.com/credsettle",
       "https://twitter.com/credsettle",
@@ -43,19 +43,19 @@ export default function RBLBankLoanSettlementPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://credsettle.com"
+        "item": "https://www.credsettle.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Loan Settlement",
-        "item": "https://credsettle.com/loan-settlement"
+        "item": "https://www.credsettle.com/loan-settlement"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "RBL Bank",
-        "item": "https://credsettle.com/loan-settlement/rbl-bank"
+        "item": "https://www.credsettle.com/loan-settlement/rbl-bank"
       }
     ]
   };
@@ -74,7 +74,7 @@ export default function RBLBankLoanSettlementPage() {
       "name": "CredSettle",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://credsettle.com/logo.png"
+        "url": "https://www.credsettle.com/logo.png"
       }
     },
     "datePublished": "2024-01-15",

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'How to Settle a Credit Card Debt',
   description: 'Learn exactly how to settle a credit card debt in India. We provide a step by step timeline, cost breakdown, and negotiation strategies to reduce balance.',
   alternates: {
-    canonical: 'https://credsettle.com/how-to-settle-a-credit-card-debt',
+    canonical: 'https://www.credsettle.com/how-to-settle-a-credit-card-debt',
   },
   robots: {
     index: true,
@@ -21,7 +21,7 @@ export default function HowToSettleACreditCardDebtPage() {
       '@type': 'Article',
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': 'https://credsettle.com/how-to-settle-a-credit-card-debt',
+        '@id': 'https://www.credsettle.com/how-to-settle-a-credit-card-debt',
       },
       headline: 'How to Settle a Credit Card Debt',
       description: 'Learn exactly how to settle a credit card debt in India. We provide a step by step timeline, cost breakdown, and negotiation strategies to reduce balance.',
@@ -35,7 +35,7 @@ export default function HowToSettleACreditCardDebtPage() {
         name: 'CredSettle',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://credsettle.com/logo.png',
+          url: 'https://www.credsettle.com/logo.png',
         },
       },
     },
@@ -157,13 +157,13 @@ export default function HowToSettleACreditCardDebtPage() {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://credsettle.com/',
+          item: 'https://www.credsettle.com/',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'How to Settle a Credit Card Debt',
-          item: 'https://credsettle.com/how-to-settle-a-credit-card-debt',
+          item: 'https://www.credsettle.com/how-to-settle-a-credit-card-debt',
         },
       ],
     },

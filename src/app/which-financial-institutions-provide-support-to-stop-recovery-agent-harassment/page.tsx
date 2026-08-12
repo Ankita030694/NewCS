@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
+    url: 'https://www.credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
   },
   alternates: {
-    canonical: 'https://credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
+    canonical: 'https://www.credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
   }
 };
 
@@ -38,10 +38,10 @@ export default function SupportPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment',
+    '@id': 'https://www.credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment',
     name: 'CredSettle Debt Recovery Protection Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert support and legal guidance to stop harassment from recovery agents and collectors.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function SupportPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Support Against Recovery Harassment',
-        'item': 'https://credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
+        'item': 'https://www.credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function SupportPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
+      '@id': 'https://www.credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'
     }
   };
 

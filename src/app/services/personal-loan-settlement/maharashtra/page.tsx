@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     description: 'Legal loan settlement in Mumbai, Pune, Nagpur. Stop recovery harassment, reduce debt by 70%. Free consultation.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/personal-loan-settlement/maharashtra'
+    canonical: 'https://www.credsettle.com/services/personal-loan-settlement/maharashtra'
   },
   robots: {
     index: true,
@@ -62,11 +62,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/maharashtra',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/maharashtra',
   name: 'CredSettle Personal Loan Settlement Maharashtra',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional personal loan settlement services in Maharashtra. Legal RBI-compliant debt resolution for Mumbai, Pune, Nagpur borrowers.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -151,25 +151,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Personal Loan Settlement',
-      item: 'https://credsettle.com/services/personal-loan-settlement'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Maharashtra',
-      item: 'https://credsettle.com/services/personal-loan-settlement/maharashtra'
+      item: 'https://www.credsettle.com/services/personal-loan-settlement/maharashtra'
     }
   ]
 };
@@ -178,9 +178,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Maharashtra',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/personal-loan-settlement/maharashtra',
-  url: 'https://credsettle.com/services/personal-loan-settlement/maharashtra',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/personal-loan-settlement/maharashtra',
+  url: 'https://www.credsettle.com/services/personal-loan-settlement/maharashtra',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

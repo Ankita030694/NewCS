@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
+    url: 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
+    canonical: 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtConsolidationPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-in-india',
+    '@id': 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india',
     name: 'CredSettle Debt Consolidation Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on finding and applying for debt consolidation loans in India to manage multiple financial obligations efficiently.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function DebtConsolidationPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Consolidation Loans in India',
-        'item': 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
+        'item': 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function DebtConsolidationPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
+      '@id': 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
     }
   };
 

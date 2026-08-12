@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: 'Legal credit card settlement in Chennai, Coimbatore, Madurai. Stop harassment, reduce debt 40-75%. RBI-compliant process.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/services/credit-card-settlement/tamil-nadu'
+    canonical: 'https://www.credsettle.com/services/credit-card-settlement/tamil-nadu'
   },
   robots: {
     index: true,
@@ -54,11 +54,11 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/tamil-nadu',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/tamil-nadu',
   name: 'CredSettle Credit Card Settlement Tamil Nadu',
   legalName: 'CredSettle Legal Services',
-  url: 'https://credsettle.com',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  url: 'https://www.credsettle.com',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional credit card settlement services in Tamil Nadu. Legal RBI-compliant debt resolution for Chennai, Coimbatore, Madurai borrowers. Auto industry and IT debt specialists.',
   telephone: '+91-XXXXXXXXXX',
   email: 'support@credsettle.com',
@@ -142,25 +142,25 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'Credit Card Settlement',
-      item: 'https://credsettle.com/services/credit-card-settlement'
+      item: 'https://www.credsettle.com/services/credit-card-settlement'
     },
     {
       '@type': 'ListItem',
       position: 4,
       name: 'Tamil Nadu',
-      item: 'https://credsettle.com/services/credit-card-settlement/tamil-nadu'
+      item: 'https://www.credsettle.com/services/credit-card-settlement/tamil-nadu'
     }
   ]
 };
@@ -169,9 +169,9 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'CredSettle Tamil Nadu Credit Card Settlement',
-  image: 'https://credsettle.com/credsettle-logo.svg',
-  '@id': 'https://credsettle.com/services/credit-card-settlement/tamil-nadu',
-  url: 'https://credsettle.com/services/credit-card-settlement/tamil-nadu',
+  image: 'https://www.credsettle.com/credsettle-logo.svg',
+  '@id': 'https://www.credsettle.com/services/credit-card-settlement/tamil-nadu',
+  url: 'https://www.credsettle.com/services/credit-card-settlement/tamil-nadu',
   telephone: '+91-XXXXXXXXXX',
   priceRange: 'Free Consultation',
   address: {

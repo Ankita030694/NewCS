@@ -10,6 +10,7 @@ import Link from 'next/link';
 import banksData from './banks.json';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.credsettle.com/loan-settlement-by-bank' },
   title: 'Loan Settlement Services | Debt Relief & Consolidation | CredSettle',
   description: 'Expert loan settlement services to help you become debt free. We handle credit card debt, personal loans, and debt collectors.',
   // ... (rest of your metadata)

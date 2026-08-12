@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-recovery-agent-near-me'
+    url: 'https://www.credsettle.com/loan-recovery-agent-near-me'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-recovery-agent-near-me'
+    canonical: 'https://www.credsettle.com/loan-recovery-agent-near-me'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanRecoveryPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/loan-recovery-agent-near-me',
+    '@id': 'https://www.credsettle.com/loan-recovery-agent-near-me',
     name: 'CredSettle Loan Recovery Legal Assistance',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal assistance for borrowers facing harassment from loan recovery agents in India. We help in debt settlement and legal protection.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function LoanRecoveryPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Recovery Agent Near Me',
-        'item': 'https://credsettle.com/loan-recovery-agent-near-me'
+        'item': 'https://www.credsettle.com/loan-recovery-agent-near-me'
       }
     ]
   };
@@ -173,9 +173,9 @@ export default function LoanRecoveryPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-recovery-agent-near-me'
+      '@id': 'https://www.credsettle.com/loan-recovery-agent-near-me'
     },
-    'image': 'https://credsettle.com/loan-recovery-guide.jpg'
+    'image': 'https://www.credsettle.com/loan-recovery-guide.jpg'
   };
 
   const faqSchema = {

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
+    url: 'https://www.credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
+    canonical: 'https://www.credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
   }
 };
 
@@ -49,14 +49,14 @@ export default function NegotiationGuidePage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-02-10',
     'dateModified': '2026-02-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
+      '@id': 'https://www.credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
     }
   };
 
@@ -68,13 +68,13 @@ export default function NegotiationGuidePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Best Way to Negotiate Loan Settlement',
-        'item': 'https://credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
+        'item': 'https://www.credsettle.com/what-is-the-best-way-to-negotiate-loan-settlement'
       }
     ]
   };

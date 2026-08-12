@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/can-i-settle-loan-for-free'
+    url: 'https://www.credsettle.com/can-i-settle-loan-for-free'
   },
   alternates: {
-    canonical: 'https://credsettle.com/can-i-settle-loan-for-free'
+    canonical: 'https://www.credsettle.com/can-i-settle-loan-for-free'
   },
   robots: {
     index: true,
@@ -40,10 +40,10 @@ export default function SettleFreePage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/can-i-settle-loan-for-free',
+    '@id': 'https://www.credsettle.com/can-i-settle-loan-for-free',
     name: 'CredSettle Loan Settlement Advice',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert advice on loan settlement and debt relief in India.',
     telephone: '+91-8800226635',
     email: 'support@credsettle.com',
@@ -61,13 +61,13 @@ export default function SettleFreePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Can I Settle Loan for Free',
-        'item': 'https://credsettle.com/can-i-settle-loan-for-free'
+        'item': 'https://www.credsettle.com/can-i-settle-loan-for-free'
       }
     ]
   };
@@ -86,14 +86,14 @@ export default function SettleFreePage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2025-02-07',
     'dateModified': '2025-02-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/can-i-settle-loan-for-free'
+      '@id': 'https://www.credsettle.com/can-i-settle-loan-for-free'
     }
   };
 

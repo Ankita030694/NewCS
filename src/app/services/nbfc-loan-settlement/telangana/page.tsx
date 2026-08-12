@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import TelanganaPageClient from './TelanganaPageClient';
 
-const pageUrl = 'https://credsettle.com/services/nbfc-loan-settlement/telangana';
+const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/telangana';
 
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement Telangana | CredSettle HITEC and Heartland Desk',
@@ -54,11 +54,11 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
   name: 'CredSettle NBFC Loan Settlement Telangana',
-  url: 'https://credsettle.com',
+  url: 'https://www.credsettle.com',
   '@id': pageUrl,
   description:
     'CredSettle negotiates NBFC settlements for borrowers in Hyderabad, Warangal, Karimnagar, Nizamabad, Khammam, Adilabad, Siddipet, and Mahabubnagar with RBI and Telangana legal compliance.',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   areaServed: {
     '@type': 'State',
     name: 'Telangana',
@@ -103,19 +103,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'NBFC Loan Settlement',
-      item: 'https://credsettle.com/services/nbfc-loan-settlement'
+      item: 'https://www.credsettle.com/services/nbfc-loan-settlement'
     },
     {
       '@type': 'ListItem',

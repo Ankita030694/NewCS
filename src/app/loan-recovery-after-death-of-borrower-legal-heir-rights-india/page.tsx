@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
+    url: 'https://www.credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Stop bank harassment after a borrower\'s death. Expert guide on legal heir rights.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
+    canonical: 'https://www.credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
   }
 };
 
@@ -44,21 +44,21 @@ export default function LoanRecoveryAfterDeathPage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Desai',
-      'image': 'https://credsettle.com/default-user.svg'
+      'image': 'https://www.credsettle.com/default-user.svg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': new Date().toISOString().split('T')[0],
     'dateModified': new Date().toISOString().split('T')[0],
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
+      '@id': 'https://www.credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
     }
   };
 
@@ -133,13 +133,13 @@ export default function LoanRecoveryAfterDeathPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Recovery After Death in India: Legal Heir Rights',
-        'item': 'https://credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
+        'item': 'https://www.credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india'
       }
     ]
   };

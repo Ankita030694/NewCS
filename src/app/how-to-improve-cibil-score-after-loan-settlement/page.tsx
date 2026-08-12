@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
+    url: 'https://www.credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
+    canonical: 'https://www.credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
   }
 };
 
@@ -38,10 +38,10 @@ export default function CibilImprovementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/how-to-improve-cibil-score-after-loan-settlement',
+    '@id': 'https://www.credsettle.com/how-to-improve-cibil-score-after-loan-settlement',
     name: 'CredSettle Credit Improvement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional guidance and services to help you improve your CIBIL score and manage loan settlements effectively.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function CibilImprovementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How to Improve CIBIL Score After Loan Settlement',
-        'item': 'https://credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
+        'item': 'https://www.credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
       }
     ]
   };
@@ -91,9 +91,9 @@ export default function CibilImprovementPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
+      '@id': 'https://www.credsettle.com/how-to-improve-cibil-score-after-loan-settlement'
     },
-    'image': 'https://credsettle.com/images/cibil-improvement-guide.jpg'
+    'image': 'https://www.credsettle.com/images/cibil-improvement-guide.jpg'
   };
 
   return (

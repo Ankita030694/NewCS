@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
+    url: 'https://www.credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Find the top financial advisors for debt settlement in major Indian cities. Discover true costs, spot scams, and negotiate a 70% debt waiver safely.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
+    canonical: 'https://www.credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
   },
   robots: {
     index: true,
@@ -47,21 +47,21 @@ export default function BestFinancialAdvisorsPage() {
     'author': {
       '@type': 'Person',
       'name': 'Rohan Sharma',
-      'image': 'https://credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
+      'image': 'https://www.credsettle.comhttps://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-10',
     'dateModified': '2026-07-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
+      '@id': 'https://www.credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
     }
   };
 
@@ -136,13 +136,13 @@ export default function BestFinancialAdvisorsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Best Financial Advisors for Debt Settlement',
-        'item': 'https://credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
+        'item': 'https://www.credsettle.com/best-financial-advisors-for-debt-settlement-in-major-indian-cities'
       }
     ]
   };

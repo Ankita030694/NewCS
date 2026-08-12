@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
+    url: 'https://www.credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Calculate loan settlement benefits and potential savings using data-driven online tools. Discover why CredSettle offers the lowest fees in India.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
+    canonical: 'https://www.credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
   },
   robots: {
     index: true,
@@ -55,14 +55,14 @@ export default function OnlineToolsPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': new Date().toISOString().split('T')[0],
     'dateModified': new Date().toISOString().split('T')[0],
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
+      '@id': 'https://www.credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
     }
   };
 
@@ -137,13 +137,13 @@ export default function OnlineToolsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Estimate Loan Settlement Benefits With Online Tools',
-        'item': 'https://credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
+        'item': 'https://www.credsettle.com/what-online-tools-can-help-estimate-the-benefits-of-loan-settlement'
       }
     ]
   };

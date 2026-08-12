@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
+    url: 'https://www.credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
   },
   alternates: {
-    canonical: 'https://credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
+    canonical: 'https://www.credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
   }
 };
 
@@ -38,10 +38,10 @@ export default function TestimonialsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://credsettle.com/customer-testimonials-for-debt-settlement-service-providers',
+    '@id': 'https://www.credsettle.com/customer-testimonials-for-debt-settlement-service-providers',
     name: 'CredSettle Debt Settlement Testimonials',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Genuine client reviews and testimonials for debt settlement services provided by CredSettle and partners.',
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -60,13 +60,13 @@ export default function TestimonialsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Customer Testimonials',
-        'item': 'https://credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
+        'item': 'https://www.credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
       }
     ]
   };
@@ -84,7 +84,7 @@ export default function TestimonialsPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
+      '@id': 'https://www.credsettle.com/customer-testimonials-for-debt-settlement-service-providers'
     }
   };
 

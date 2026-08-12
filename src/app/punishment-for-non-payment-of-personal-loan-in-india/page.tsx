@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
+    url: 'https://www.credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
+    canonical: 'https://www.credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
   },
   robots: {
     index: true,
@@ -56,14 +56,14 @@ export default function PunishmentForNonPaymentPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-08',
     'dateModified': '2026-07-08',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
+      '@id': 'https://www.credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
     }
   };
 
@@ -138,13 +138,13 @@ export default function PunishmentForNonPaymentPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Punishment for Non-Payment of Personal Loan in India',
-        'item': 'https://credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
+        'item': 'https://www.credsettle.com/punishment-for-non-payment-of-personal-loan-in-india'
       }
     ]
   };

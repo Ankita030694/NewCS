@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
+    url: 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
   },
   alternates: {
-    canonical: 'https://credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
+    canonical: 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
   }
 };
 
@@ -38,10 +38,10 @@ export default function PersonalLoanCibilPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters',
+    '@id': 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters',
     name: 'CredSettle Financial Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert financial guidance and debt settlement services for individuals with low CIBIL scores looking for personal loans and financial recovery.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function PersonalLoanCibilPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Which Bank Provide Personal Loan for CIBIL Defaulters',
-        'item': 'https://credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
+        'item': 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
       }
     ]
   };
@@ -123,10 +123,10 @@ export default function PersonalLoanCibilPage() {
     },
     'datePublished': '2025-05-15',
     'dateModified': '2026-05-07',
-    'image': 'https://credsettle.com/images/cibil-loan-guide.jpg',
+    'image': 'https://www.credsettle.com/images/cibil-loan-guide.jpg',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
+      '@id': 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
     }
   };
 

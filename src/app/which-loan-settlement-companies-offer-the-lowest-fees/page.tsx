@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
+    url: 'https://www.credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Discover which loan settlement companies offer the lowest fees in India.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
+    canonical: 'https://www.credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
   },
   robots: {
     index: true,
@@ -55,14 +55,14 @@ export default function LowestFeesPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-07-10',
     'dateModified': '2026-07-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
+      '@id': 'https://www.credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
     }
   };
 
@@ -145,13 +145,13 @@ export default function LowestFeesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Which Loan Settlement Company Offers Lowest Fees?',
-        'item': 'https://credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
+        'item': 'https://www.credsettle.com/which-loan-settlement-companies-offer-the-lowest-fees'
       }
     ]
   };

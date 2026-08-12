@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
+    url: 'https://www.credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
   },
   alternates: {
-    canonical: 'https://credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
+    canonical: 'https://www.credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
   }
 };
 
@@ -38,10 +38,10 @@ export default function JointLoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers',
+    '@id': 'https://www.credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers',
     name: 'CredSettle Joint Loan Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal and financial advisory for settling joint loans and resolving co-borrower disputes.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function JointLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Joint Loan Settlement',
-        'item': 'https://credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
+        'item': 'https://www.credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function JointLoanSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
+      '@id': 'https://www.credsettle.com/is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers'
     }
   };
 

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
+    url: 'https://www.credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
+    canonical: 'https://www.credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
   }
 };
 
@@ -38,10 +38,10 @@ export default function RightsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents',
+    '@id': 'https://www.credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents',
     name: 'CredSettle Debt Relief & Legal Rights',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on borrower rights and legal protection against aggressive loan recovery practices in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function RightsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Your Rights with Recovery Agents',
-        'item': 'https://credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
+        'item': 'https://www.credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function RightsPage() {
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
+      '@id': 'https://www.credsettle.com/what-are-my-rights-when-dealing-with-loan-recovery-agents'
     }
   };
 

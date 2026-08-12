@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import GujaratPageClient from './GujaratPageClient';
 
-const pageUrl = 'https://credsettle.com/services/nbfc-loan-settlement/gujarat';
+const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/gujarat';
 
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement Gujarat | CredSettle Industrial Corridor Desk',
@@ -54,11 +54,11 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
   name: 'CredSettle NBFC Loan Settlement Gujarat',
-  url: 'https://credsettle.com',
+  url: 'https://www.credsettle.com',
   '@id': pageUrl,
   description:
     'CredSettle negotiates NBFC settlements for borrowers in Ahmedabad, Surat, Vadodara, Rajkot, Bhavnagar, Bharuch, Kutch, and Jamnagar with RBI and Gujarat legal compliance.',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   areaServed: {
     '@type': 'State',
     name: 'Gujarat',
@@ -103,19 +103,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'NBFC Loan Settlement',
-      item: 'https://credsettle.com/services/nbfc-loan-settlement'
+      item: 'https://www.credsettle.com/services/nbfc-loan-settlement'
     },
     {
       '@type': 'ListItem',

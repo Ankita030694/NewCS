@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
+    url: 'https://www.credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
+    canonical: 'https://www.credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function InstantLoanAppsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india',
+    '@id': 'https://www.credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india',
     name: 'CredSettle Financial Insights',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Comprehensive guide and analysis of instant loan apps and digital credit in India.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function InstantLoanAppsPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Top 10 Instant Loan Apps India',
-        'item': 'https://credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
+        'item': 'https://www.credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function InstantLoanAppsPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
+      '@id': 'https://www.credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india'
     }
   };
 

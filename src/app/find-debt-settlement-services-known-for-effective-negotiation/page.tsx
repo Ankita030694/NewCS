@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    url: 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
   },
   alternates: {
-    canonical: 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+    canonical: 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
   }
 };
 
@@ -38,10 +38,10 @@ export default function FindDebtSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
+    '@id': 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation',
     name: 'CredSettle Debt Negotiation Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Specialized debt settlement and negotiation services helping Indian consumers resolve their unsecured loans effectively.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function FindDebtSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Settlement Services Negotiation',
-        'item': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+        'item': 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
       }
     ]
   };
@@ -91,9 +91,9 @@ export default function FindDebtSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
+      '@id': 'https://www.credsettle.com/find-debt-settlement-services-known-for-effective-negotiation'
     },
-    'image': 'https://credsettle.com/images/debt-negotiation-guide.jpg'
+    'image': 'https://www.credsettle.com/images/debt-negotiation-guide.jpg'
   };
 
   return (

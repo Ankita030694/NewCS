@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Was a loan sanctioned without your consent? Learn about your legal rights, RBI Ombudsman complaints, and how to stop unauthorized EMI deductions and fix your credit score.',
     keywords: 'loan sanction without consent, unauthorized loan disbursement India, illegal loan sanction legal action, RBI Ombudsman loan fraud, credit score rectification for fraud',
     alternates: {
-        canonical: 'https://credsettle.com/legal-case-for-loan-sanction-without-consent'
+        canonical: 'https://www.credsettle.com/legal-case-for-loan-sanction-without-consent'
     }
 };
 
@@ -18,7 +18,7 @@ export default function LoanSanctionWithoutConsentPage() {
         '@type': 'Article',
         'headline': 'Legal Manual: Fighting Loan Sanctions Without Consent in India',
         'description': 'A comprehensive legal guide on handling unauthorized loan disbursements, identity theft in lending, and the procedural steps to cancel illegal contracts.',
-        'image': 'https://credsettle.com/images/unauthorized-loan.jpg',
+        'image': 'https://www.credsettle.com/images/unauthorized-loan.jpg',
         'author': {
             '@type': 'Organization',
             'name': 'CredSettle Legal Defense Team'
@@ -28,7 +28,7 @@ export default function LoanSanctionWithoutConsentPage() {
             'name': 'CredSettle',
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://credsettle.com/logo.png'
+                'url': 'https://www.credsettle.com/logo.png'
             }
         },
         'datePublished': '2025-02-10',
@@ -43,13 +43,13 @@ export default function LoanSanctionWithoutConsentPage() {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': 'Home',
-                'item': 'https://credsettle.com/'
+                'item': 'https://www.credsettle.com/'
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'Legal Case for Loan Sanction Without Consent',
-                'item': 'https://credsettle.com/legal-case-for-loan-sanction-without-consent'
+                'item': 'https://www.credsettle.com/legal-case-for-loan-sanction-without-consent'
             }
         ]
     };
@@ -58,8 +58,8 @@ export default function LoanSanctionWithoutConsentPage() {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         'name': 'CredSettle',
-        'url': 'https://credsettle.com',
-        'logo': 'https://credsettle.com/logo.png',
+        'url': 'https://www.credsettle.com',
+        'logo': 'https://www.credsettle.com/logo.png',
         'sameAs': [
             'https://www.facebook.com/credsettle',
             'https://www.twitter.com/credsettle',

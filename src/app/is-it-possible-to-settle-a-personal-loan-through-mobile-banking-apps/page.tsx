@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
+    url: 'https://www.credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
   },
   alternates: {
-    canonical: 'https://credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
+    canonical: 'https://www.credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
   }
 };
 
@@ -38,10 +38,10 @@ export default function MobileAppSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps',
+    '@id': 'https://www.credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps',
     name: 'CredSettle Digital Loan Settlement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Specialized legal and negotiation services for settling personal loans and digital app debts in India.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function MobileAppSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Personal Loan Settlement via Mobile Apps',
-        'item': 'https://credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
+        'item': 'https://www.credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function MobileAppSettlementPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
+      '@id': 'https://www.credsettle.com/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps'
     }
   };
 

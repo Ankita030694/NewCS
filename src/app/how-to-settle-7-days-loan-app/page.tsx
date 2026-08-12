@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-settle-7-days-loan-app'
+    url: 'https://www.credsettle.com/how-to-settle-7-days-loan-app'
   },
   twitter: {
     card: 'summary_large_image',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Professional guide to resolving illegal loan app harassment and settlement.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-settle-7-days-loan-app'
+    canonical: 'https://www.credsettle.com/how-to-settle-7-days-loan-app'
   }
 };
 
@@ -54,14 +54,14 @@ export default function HowToSettle7DaysLoanAppPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-04-18',
     'dateModified': '2026-04-18',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-settle-7-days-loan-app'
+      '@id': 'https://www.credsettle.com/how-to-settle-7-days-loan-app'
     }
   };
 
@@ -160,13 +160,13 @@ export default function HowToSettle7DaysLoanAppPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How to Settle 7-Days Loan App',
-        'item': 'https://credsettle.com/how-to-settle-7-days-loan-app'
+        'item': 'https://www.credsettle.com/how-to-settle-7-days-loan-app'
       }
     ]
   };

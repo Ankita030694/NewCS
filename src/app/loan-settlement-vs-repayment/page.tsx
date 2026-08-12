@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loan-settlement-vs-repayment'
+    url: 'https://www.credsettle.com/loan-settlement-vs-repayment'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loan-settlement-vs-repayment'
+    canonical: 'https://www.credsettle.com/loan-settlement-vs-repayment'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LoanSettlementVsRepaymentPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/loan-settlement-vs-repayment',
+    '@id': 'https://www.credsettle.com/loan-settlement-vs-repayment',
     name: 'CredSettle Debt Consultation Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert advice on loan settlement, repayment strategies, and credit score optimization in India.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function LoanSettlementVsRepaymentPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement vs Repayment',
-        'item': 'https://credsettle.com/loan-settlement-vs-repayment'
+        'item': 'https://www.credsettle.com/loan-settlement-vs-repayment'
       }
     ]
   };
@@ -125,7 +125,7 @@ export default function LoanSettlementVsRepaymentPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loan-settlement-vs-repayment'
+      '@id': 'https://www.credsettle.com/loan-settlement-vs-repayment'
     }
   };
 

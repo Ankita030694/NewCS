@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Facing loan recovery freeze or harassment? Learn your legal rights under SARFAESI Act, DRT defense strategies, and how to stop illegal bank actions and seizures in India.',
     keywords: 'loan default recovery defense, debt recovery freeze legal help India, SARFAESI Act section 17 defense, illegal NPA classification help, DRT lawyer loan recovery',
     alternates: {
-        canonical: 'https://credsettle.com/loan-default-recovery-freeze-defense'
+        canonical: 'https://www.credsettle.com/loan-default-recovery-freeze-defense'
     }
 };
 
@@ -18,7 +18,7 @@ export default function LoanDefaultRecoveryFreezeDefensePage() {
         '@type': 'Article',
         'headline': 'Legal Manual: Defending Against Loan Default and Recovery Freeze in 2025',
         'description': 'A comprehensive guide on legal defense mechanisms for borrowers facing recovery actions, exploring SARFAESI rights, DRT filings, and RBI fair practice codes.',
-        'image': 'https://credsettle.com/images/recovery-freeze-defense.jpg',
+        'image': 'https://www.credsettle.com/images/recovery-freeze-defense.jpg',
         'author': {
             '@type': 'Organization',
             'name': 'CredSettle Recovery Defense Team'
@@ -28,7 +28,7 @@ export default function LoanDefaultRecoveryFreezeDefensePage() {
             'name': 'CredSettle',
             'logo': {
                 '@type': 'ImageObject',
-                'url': 'https://credsettle.com/logo.png'
+                'url': 'https://www.credsettle.com/logo.png'
             }
         },
         'datePublished': '2025-03-01',
@@ -43,13 +43,13 @@ export default function LoanDefaultRecoveryFreezeDefensePage() {
                 '@type': 'ListItem',
                 'position': 1,
                 'name': 'Home',
-                'item': 'https://credsettle.com/'
+                'item': 'https://www.credsettle.com/'
             },
             {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'Loan Default Recovery Freeze Defense',
-                'item': 'https://credsettle.com/loan-default-recovery-freeze-defense'
+                'item': 'https://www.credsettle.com/loan-default-recovery-freeze-defense'
             }
         ]
     };
@@ -58,8 +58,8 @@ export default function LoanDefaultRecoveryFreezeDefensePage() {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         'name': 'CredSettle',
-        'url': 'https://credsettle.com',
-        'logo': 'https://credsettle.com/logo.png',
+        'url': 'https://www.credsettle.com',
+        'logo': 'https://www.credsettle.com/logo.png',
         'sameAs': [
             'https://www.facebook.com/credsettle',
             'https://www.twitter.com/credsettle',

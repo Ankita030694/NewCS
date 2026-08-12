@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-ask-bank-for-settlement'
+    url: 'https://www.credsettle.com/how-to-ask-bank-for-settlement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-ask-bank-for-settlement'
+    canonical: 'https://www.credsettle.com/how-to-ask-bank-for-settlement'
   }
 };
 
@@ -49,14 +49,14 @@ export default function HowToAskBankSettlementPage() {
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': '2026-02-10',
     'dateModified': '2026-02-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-ask-bank-for-settlement'
+      '@id': 'https://www.credsettle.com/how-to-ask-bank-for-settlement'
     }
   };
 
@@ -68,13 +68,13 @@ export default function HowToAskBankSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How to ask bank for settlement',
-        'item': 'https://credsettle.com/how-to-ask-bank-for-settlement'
+        'item': 'https://www.credsettle.com/how-to-ask-bank-for-settlement'
       }
     ]
   };

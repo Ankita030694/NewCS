@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/trading-loan-settlement'
+    url: 'https://www.credsettle.com/trading-loan-settlement'
   },
   alternates: {
-    canonical: 'https://credsettle.com/trading-loan-settlement'
+    canonical: 'https://www.credsettle.com/trading-loan-settlement'
   }
 };
 
@@ -38,10 +38,10 @@ export default function TradingLoanSettlementPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/trading-loan-settlement',
+    '@id': 'https://www.credsettle.com/trading-loan-settlement',
     name: 'CredSettle Trading Loan Debt Resolution',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert financial and legal services for traders looking to settle loans and recover from trading-induced debt.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function TradingLoanSettlementPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Trading Loan Settlement',
-        'item': 'https://credsettle.com/trading-loan-settlement'
+        'item': 'https://www.credsettle.com/trading-loan-settlement'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function TradingLoanSettlementPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/trading-loan-settlement'
+      '@id': 'https://www.credsettle.com/trading-loan-settlement'
     }
   };
 

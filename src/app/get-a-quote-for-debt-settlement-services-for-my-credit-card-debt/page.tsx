@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
+    url: 'https://www.credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
   },
   alternates: {
-    canonical: 'https://credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
+    canonical: 'https://www.credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
   }
 };
 
@@ -38,10 +38,10 @@ export default function DebtSettlementQuotePage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt',
+    '@id': 'https://www.credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt',
     name: 'CredSettle Debt Settlement Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Leading debt settlement and credit card relief services in India, providing expert negotiation with banks.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function DebtSettlementQuotePage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Settlement Quote',
-        'item': 'https://credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
+        'item': 'https://www.credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function DebtSettlementQuotePage() {
     'dateModified': '2025-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
+      '@id': 'https://www.credsettle.com/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt'
     }
   };
 

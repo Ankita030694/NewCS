@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
+    url: 'https://www.credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
+    canonical: 'https://www.credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
   }
 };
 
@@ -38,10 +38,10 @@ export default function SubmitOfferPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender',
+    '@id': 'https://www.credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Professional assistance in submitting and negotiating loan settlement offers with banks and NBFCs across India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function SubmitOfferPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'How to Officially Submit a Loan Settlement Offer',
-        'item': 'https://credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
+        'item': 'https://www.credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function SubmitOfferPage() {
     'dateModified': '2025-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
+      '@id': 'https://www.credsettle.com/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender'
     }
   };
 

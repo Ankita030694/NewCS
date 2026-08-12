@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/rbi-july-2026-recovery-guidelines'
+    url: 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines'
   },
   alternates: {
-    canonical: 'https://credsettle.com/rbi-july-2026-recovery-guidelines'
+    canonical: 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines'
   }
 };
 
@@ -36,10 +36,10 @@ export default function RbiGuidelinesPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/rbi-july-2026-recovery-guidelines',
+    '@id': 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines',
     name: 'CredSettle Financial Legal Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal services helping borrowers defend against harassment using the RBI July 2026 recovery guidelines.',
     telephone: '+91-8800226635',
     address: {
@@ -102,13 +102,13 @@ export default function RbiGuidelinesPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'RBI July 2026 Recovery Guidelines',
-        'item': 'https://credsettle.com/rbi-july-2026-recovery-guidelines'
+        'item': 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines'
       }
     ]
   };
@@ -126,7 +126,7 @@ export default function RbiGuidelinesPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/rbi-july-2026-recovery-guidelines'
+      '@id': 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines'
     }
   };
 

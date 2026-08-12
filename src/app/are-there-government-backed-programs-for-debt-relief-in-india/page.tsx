@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
+    url: 'https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
   },
   alternates: {
-    canonical: 'https://credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
+    canonical: 'https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
   }
 };
 
@@ -38,10 +38,10 @@ export default function GovernmentDebtReliefPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india',
+    '@id': 'https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india',
     name: 'CredSettle Debt Resolution Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on government-backed debt relief, RBI settlement guidelines, and professional debt resolution in India.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function GovernmentDebtReliefPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Government Debt Relief Programs',
-        'item': 'https://credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
+        'item': 'https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
       }
     ]
   };
@@ -169,12 +169,12 @@ export default function GovernmentDebtReliefPage() {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'image': 'https://credsettle.com/images/debt-relief-india.jpg',
+    'image': 'https://www.credsettle.com/images/debt-relief-india.jpg',
     'datePublished': '2025-02-15',
     'dateModified': '2026-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
+      '@id': 'https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'
     }
   };
 

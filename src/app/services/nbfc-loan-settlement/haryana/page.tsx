@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import HaryanaPageClient from './HaryanaPageClient';
 
-const pageUrl = 'https://credsettle.com/services/nbfc-loan-settlement/haryana';
+const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/haryana';
 
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement Haryana | CredSettle NCR Industrial Desk',
@@ -54,11 +54,11 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
   name: 'CredSettle NBFC Loan Settlement Haryana',
-  url: 'https://credsettle.com',
+  url: 'https://www.credsettle.com',
   '@id': pageUrl,
   description:
     'CredSettle negotiates NBFC settlements for borrowers in Gurugram, Manesar, Faridabad, Panipat, Sonipat, Hisar, Karnal, and Rohtak with RBI and Haryana legal compliance.',
-  logo: 'https://credsettle.com/credsettle-logo.svg',
+  logo: 'https://www.credsettle.com/credsettle-logo.svg',
   areaServed: {
     '@type': 'State',
     name: 'Haryana',
@@ -103,19 +103,19 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://credsettle.com'
+      item: 'https://www.credsettle.com'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Services',
-      item: 'https://credsettle.com/services'
+      item: 'https://www.credsettle.com/services'
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: 'NBFC Loan Settlement',
-      item: 'https://credsettle.com/services/nbfc-loan-settlement'
+      item: 'https://www.credsettle.com/services/nbfc-loan-settlement'
     },
     {
       '@type': 'ListItem',

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
+    url: 'https://www.credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
   },
   alternates: {
-    canonical: 'https://credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
+    canonical: 'https://www.credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LegalAidPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases',
+    '@id': 'https://www.credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases',
     name: 'CredSettle Legal Aid & Anti-Harassment Services',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'CredSettle provides expert legal aid for victims of recovery agent harassment, ensuring compliance with RBI guidelines and consumer protection laws.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function LegalAidPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Best Legal Aid Websites for Recovery Agent Harassment',
-        'item': 'https://credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
+        'item': 'https://www.credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
       }
     ]
   };
@@ -171,10 +171,10 @@ export default function LegalAidPage() {
     },
     'datePublished': '2025-05-12',
     'dateModified': '2026-05-12',
-    'image': 'https://credsettle.com/blog/recovery-agent-harassment.jpg',
+    'image': 'https://www.credsettle.com/blog/recovery-agent-harassment.jpg',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
+      '@id': 'https://www.credsettle.com/what-are-the-best-legal-aid-websites-for-recovery-agent-harassment-cases'
     }
   };
 

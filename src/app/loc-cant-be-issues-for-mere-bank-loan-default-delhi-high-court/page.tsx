@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
+    url: 'https://www.credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
   },
   alternates: {
-    canonical: 'https://credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
+    canonical: 'https://www.credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LOCPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court',
+    '@id': 'https://www.credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court',
     name: 'CredSettle Legal Consultation',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal consultation for debt-related issues, including Look Out Circulars (LOC) and bank loan defaults.',
     telephone: '+91-8800226635',
     address: {
@@ -149,13 +149,13 @@ export default function LOCPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Delhi High Court LOC Ruling',
-        'item': 'https://credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
+        'item': 'https://www.credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
       }
     ]
   };
@@ -173,7 +173,7 @@ export default function LOCPage() {
     'dateModified': '2026-05-07',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
+      '@id': 'https://www.credsettle.com/loc-cant-be-issues-for-mere-bank-loan-default-delhi-high-court'
     }
   };
 

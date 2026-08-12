@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/cheque-bounce-case-in-noida'
+    url: 'https://www.credsettle.com/cheque-bounce-case-in-noida'
   },
   alternates: {
-    canonical: 'https://credsettle.com/cheque-bounce-case-in-noida'
+    canonical: 'https://www.credsettle.com/cheque-bounce-case-in-noida'
   }
 };
 
@@ -38,10 +38,10 @@ export default function ChequeBounceNoidaPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
-    '@id': 'https://credsettle.com/cheque-bounce-case-in-noida',
+    '@id': 'https://www.credsettle.com/cheque-bounce-case-in-noida',
     name: 'CredSettle Cheque Bounce Legal Services Noida',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert legal services for cheque bounce cases under Section 138 of the Negotiable Instruments Act in Noida and Greater Noida.',
     telephone: '+91-8800226635',
     address: {
@@ -101,13 +101,13 @@ export default function ChequeBounceNoidaPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Cheque Bounce Case in Noida',
-        'item': 'https://credsettle.com/cheque-bounce-case-in-noida'
+        'item': 'https://www.credsettle.com/cheque-bounce-case-in-noida'
       }
     ]
   };
@@ -125,7 +125,7 @@ export default function ChequeBounceNoidaPage() {
     'dateModified': '2026-02-04',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/cheque-bounce-case-in-noida'
+      '@id': 'https://www.credsettle.com/cheque-bounce-case-in-noida'
     }
   };
 

@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
+    url: 'https://www.credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
   },
   alternates: {
-    canonical: 'https://credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
+    canonical: 'https://www.credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
   }
 };
 
@@ -38,10 +38,10 @@ export default function LegitimacyCheckPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy',
+    '@id': 'https://www.credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy',
     name: 'CredSettle Debt Settlement Advisory',
-    url: 'https://credsettle.com',
-    logo: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    logo: 'https://www.credsettle.com/credsettle-logo.svg',
     description: 'Expert guidance on verifying the legitimacy of debt settlement companies in India.',
     telephone: '+91-8800226635',
     address: {
@@ -67,13 +67,13 @@ export default function LegitimacyCheckPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Settlement Legitimacy',
-        'item': 'https://credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
+        'item': 'https://www.credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function LegitimacyCheckPage() {
     'dateModified': '2025-05-12',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
+      '@id': 'https://www.credsettle.com/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy'
     }
   };
 

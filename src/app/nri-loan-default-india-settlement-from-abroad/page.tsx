@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://credsettle.com/nri-loan-default-india-settlement-from-abroad'
+    url: 'https://www.credsettle.com/nri-loan-default-india-settlement-from-abroad'
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Learn how NRIs can stop bank harassment and settle debt remotely using a Power of Attorney.'
   },
   alternates: {
-    canonical: 'https://credsettle.com/nri-loan-default-india-settlement-from-abroad'
+    canonical: 'https://www.credsettle.com/nri-loan-default-india-settlement-from-abroad'
   }
 };
 
@@ -45,21 +45,21 @@ export default function NriLoanDefaultPage() {
     'author': {
       '@type': 'Person',
       'name': 'Vikram Desai',
-      'image': 'https://credsettle.com/default-user.svg'
+      'image': 'https://www.credsettle.com/default-user.svg'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://credsettle.com/credsettle-logo.svg'
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
     'datePublished': new Date().toISOString().split('T')[0],
     'dateModified': new Date().toISOString().split('T')[0],
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://credsettle.com/nri-loan-default-india-settlement-from-abroad'
+      '@id': 'https://www.credsettle.com/nri-loan-default-india-settlement-from-abroad'
     }
   };
 
@@ -142,13 +142,13 @@ export default function NriLoanDefaultPage() {
         '@type': 'ListItem',
         'position': 1,
         'name': 'Home',
-        'item': 'https://credsettle.com'
+        'item': 'https://www.credsettle.com'
       },
       {
         '@type': 'ListItem',
         'position': 2,
         'name': 'NRI Loan Default in India: Settle From Abroad',
-        'item': 'https://credsettle.com/nri-loan-default-india-settlement-from-abroad'
+        'item': 'https://www.credsettle.com/nri-loan-default-india-settlement-from-abroad'
       }
     ]
   };

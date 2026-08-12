@@ -165,8 +165,8 @@ export default async function BlogPostPage({ params }: PageProps) {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
     name: 'CredSettle',
-    url: 'https://credsettle.com',
-    image: 'https://credsettle.com/credsettle-logo.svg',
+    url: 'https://www.credsettle.com',
+    image: 'https://www.credsettle.com/credsettle-logo.svg',
     address: {
         '@type': 'PostalAddress',
         addressCountry: 'IN'

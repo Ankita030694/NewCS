@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import DisputeForgedSignaturesClient from './DisputeForgedSignaturesClient';
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.credsettle.com/dispute-over-forged-loan-signatures' },
     title: 'Dispute Over Forged Loan Signatures | Legal Action Against Loan Fraud',
     description: 'Expert legal defense for forged loan signatures in India. Learn about handwriting experts, FSL reports, IPC 467/468 cases, and how to stop unauthorized EMI deductions.',
     keywords: 'dispute over forged loan signatures, loan fraud legal help india, handwriting expert for forged loan, ipc 467 loan forgery case, fsl report for forged signature',
