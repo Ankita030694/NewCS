@@ -325,7 +325,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 217; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
+  const mainStaticPages = 231; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -3628,6 +3628,93 @@ async function generateSitemap(): Promise<string> {
   });
   urls.push({
     loc: `${baseUrl}/login`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+
+  // --- AUTO-ADDED FROM USER GENERATION ---
+  urls.push({
+    loc: `${baseUrl}/what-happens-after-3-missed-emis`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-vs-debt-consolidation`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/should-i-stop-paying-emi-for-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-settlement-vs-bankruptcy`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/stop-recovery-agent-harassment`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/is-personal-loan-settlement-safe`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/reply-personal-loan-legal-notice`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/bank-rejected-settlement-request`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/what-happens-after-missing-personal-loan-emi`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/lawyer-personal-loan-default`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/cannot-pay-personal-loan-emi`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/recovery-agent-visiting-home-workplace`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/lost-job-cannot-pay-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/should-i-settle-or-restructure-personal-loan`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today

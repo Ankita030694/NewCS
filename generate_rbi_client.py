@@ -1,4 +1,6 @@
-'use client';
+import os
+
+content = """'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -119,8 +121,37 @@ export default function RBIRulesClient() {
         { name: "Arjun Reddy", location: "Hyderabad", stars: 5, comment: "An excellent resource. Knowing that banks are strictly liable for third party agents gave me the confidence to send a legal notice. The harassment stopped within 48 hours." }
     ];
 
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        'mainEntity': faqs.map(faq => ({
+            '@type': 'Question',
+            'name': faq.question,
+            'acceptedAnswer': {
+                '@type': 'Answer',
+                'text': faq.answer
+            }
+        }))
+    };
+
+    const reviewSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        'name': 'RBI Guidelines Protection Service',
+        'aggregateRating': {
+            '@type': 'AggregateRating',
+            'ratingValue': '4.9',
+            'reviewCount': '920',
+            'bestRating': '5',
+            'worstRating': '1'
+        }
+    };
+
     return (
         <>
+            <Script id="faq-schema-rbi" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <Script id="review-schema-rbi" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+
             {/* Hero Section */}
             <section
                 className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden"
@@ -507,8 +538,8 @@ export default function RBIRulesClient() {
                     </main>
 
                     {/* Right Column: Cards */}
-                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start">
-                        <div className="space-y-6">
+                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block">
+                        <div className="sticky top-24 self-start space-y-6">
                             {/* Card 1: Primary CTA Card */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
                                 <h3 className="font-black text-gray-900 text-lg mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
@@ -562,3 +593,7 @@ export default function RBIRulesClient() {
         </>
     );
 }
+"""
+
+with open("/Users/piyushmishra/Desktop/NEWCS/NewCS/src/app/rbi-rules-for-recovery-agents/RBIRulesClient.tsx", "w") as f:
+    f.write(content)

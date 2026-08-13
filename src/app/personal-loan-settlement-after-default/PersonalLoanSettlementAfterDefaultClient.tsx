@@ -503,8 +503,8 @@ export default function PersonalLoanSettlementAfterDefaultClient() {
                     </main>
 
                     {/* Right Column: Cards */}
-                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block">
-                        <div className="sticky top-24 self-start space-y-6">
+                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start">
+                        <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
                                 <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
