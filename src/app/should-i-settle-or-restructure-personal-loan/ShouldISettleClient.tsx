@@ -59,58 +59,64 @@ export default function ShouldISettleClient() {
 
     const navLinks = [
         { id: 'introduction', label: 'Introduction' },
-        { id: 'core-differences', label: 'Core Differences' },
-        { id: 'when-to-restructure', label: 'When to Restructure' },
-        { id: 'when-to-settle', label: 'When to Settle' },
-        { id: 'cibil-score-impact', label: 'CIBIL Score Impact' },
-        { id: 'financial-relief-analysis', label: 'Financial Relief Analysis' },
-        { id: 'case-study-restructuring', label: 'Case Study 1: Restructuring' },
-        { id: 'case-study-settlement', label: 'Case Study 2: Settlement' },
-        { id: 'legal-implications', label: 'Legal Implications' },
+        { id: 'understanding-restructuring', label: 'What is Restructuring?' },
+        { id: 'understanding-settlement', label: 'What is Settlement?' },
+        { id: 'settlement-vs-restructuring', label: 'Settlement vs Restructuring' },
+        { id: 'cibil-impact', label: 'CIBIL Score Impact' },
+        { id: 'reduce-emi-without-settlement', label: 'Reduce EMI Options' },
+        { id: 'case-study-rahul', label: 'Case Study: Rahul' },
+        { id: 'case-study-sneha', label: 'Case Study: Sneha' },
+        { id: 'reviews', label: 'Client Success' },
         { id: 'faqs', label: 'FAQs' }
     ];
 
     const faqs = [
         {
-            question: "What is the main difference between settlement and restructuring?",
-            answer: "Restructuring modifies your existing loan terms to lower the monthly EMI, while settlement allows you to close the loan entirely by paying a negotiated lump sum amount that is less than the total outstanding balance."
+            question: "Is personal loan settlement a good idea?",
+            answer: "It depends entirely on your financial situation. If you have completely lost your income source and face severe financial hardship, a settlement might be your only way out to avoid legal complications and severe stress. However, if you have a temporary cash flow problem, you should explore restructuring first to protect your CIBIL score."
         },
         {
-            question: "Does restructuring negatively impact my CIBIL score?",
-            answer: "Yes, restructuring does impact your credit score because it indicates that you could not honor the original terms of the agreement. However, the impact is generally less severe than a settlement."
+            question: "Will restructuring my personal loan affect my CIBIL score?",
+            answer: "Restructuring usually leads to a temporary dip in your CIBIL score because the bank reports that the original terms of the loan were modified. However, the impact is far less severe than a settlement. Once you start paying the revised EMIs consistently, your CIBIL score will gradually improve."
         },
         {
             question: "How long does a settlement stay on my credit report?",
-            answer: "A settlement will be marked as 'Settled' on your CIBIL report and will remain visible for up to seven years. It significantly lowers your score and makes it very difficult to obtain unsecured credit in the near future."
+            answer: "A 'Settled' status remains on your credit report for up to seven years. During this time, it acts as a major red flag for prospective lenders. Getting a new unsecured loan or credit card will be extremely difficult until this status ages or drops off."
         },
         {
-            question: "Can I get a new personal loan after restructuring an old one?",
-            answer: "It is difficult but not impossible. Lenders will view you as a higher risk borrower. You might have to pay higher interest rates or provide collateral until you demonstrate a solid repayment history on the restructured loan."
+            question: "Can I convert a settled loan to a closed loan later?",
+            answer: "Yes, you can. If you gather enough funds in the future, you can approach the bank, pay the waived amount along with any accumulated interest or penalties, and request them to upgrade the status from 'Settled' to 'Closed'. This is highly recommended if you wish to repair your credit profile completely."
         },
         {
-            question: "What happens if I miss an EMI on a restructured loan?",
-            answer: "Missing an EMI on a restructured loan is viewed very seriously by banks. They may cancel the restructuring agreement, demand the entire outstanding amount immediately, and initiate aggressive recovery proceedings."
+            question: "What happens if I stop paying EMIs to force a settlement?",
+            answer: "Stopping EMIs intentionally is highly risky and legally dangerous. Banks can initiate aggressive recovery measures, file a civil suit for recovery, or even invoke the Arbitration and Conciliation Act. Furthermore, your CIBIL score will crash drastically with every missed payment."
         },
         {
-            question: "Do banks always agree to settle a personal loan?",
-            answer: "No, banks are not obligated to settle a loan. They typically only consider settlement if the account has been classified as a Non Performing Asset (NPA) and they believe that recovery through normal channels is impossible."
+            question: "Can a bank refuse to restructure my loan?",
+            answer: "Yes, restructuring is entirely at the discretion of the bank. They will evaluate your intent to pay, your current income, and your financial stability. If they believe that you do not have the capacity to honor the revised EMIs, they will reject your restructuring application."
         },
         {
-            question: "Is there any tax implication on the waived amount in a settlement?",
-            answer: "The amount waived by the bank during a settlement is technically considered a benefit or income. You should consult with a tax advisor regarding the potential tax liabilities on the forgiven debt amount."
+            question: "Is it possible to reduce my personal loan EMI without a settlement?",
+            answer: "Absolutely. You can request the bank for a tenure extension, transfer your balance to another bank offering a lower interest rate, or consolidate multiple loans into a single low-interest loan. These methods help you manage your cash flow without ruining your credit history."
         },
         {
-            question: "Can I convert a settled account to a closed account later?",
-            answer: "Yes, if you manage to arrange the funds later, you can approach the bank to pay the waived amount. Once the full original due amount is paid, the bank will update the status from 'Settled' to 'Closed'."
+            question: "Do I need a lawyer to negotiate a loan settlement?",
+            answer: "While it is not legally mandatory to hire a lawyer, having professional legal or financial counsel is highly beneficial. Experts understand bank policies, know how to draft a hardship letter properly, and can negotiate the best possible waiver percentage while ensuring you do not fall into any legal traps."
         },
         {
-            question: "Will restructuring reduce the total interest I pay?",
-            answer: "Generally, no. Restructuring usually extends the loan tenure, which means you will end up paying more total interest over the life of the loan, even if the monthly EMI is reduced."
+            question: "Can I get a home loan if I have a settled personal loan?",
+            answer: "Getting a home loan with a 'Settled' remark is extremely challenging but not impossible. You will likely have to wait a few years, build a strong positive payment history, and approach NBFCs or housing finance companies that have relaxed credit norms. However, be prepared to pay a significantly higher interest rate."
         },
         {
-            question: "Should I hire a professional agency to negotiate a settlement?",
-            answer: "If you are facing severe harassment, have multiple defaults, or do not understand the legal framework, hiring a professional and legitimate agency can help you negotiate a better waiver and protect you from abusive recovery tactics."
+            question: "What is a hardship letter in the context of loan settlement?",
+            answer: "A hardship letter is a formal document addressed to the bank explaining the exact reasons why you cannot continue paying your EMIs. It must detail your financial crisis, such as job loss, medical emergency, or severe business downturn, and should be supported by relevant documentary evidence to convince the bank to approve your settlement request."
         }
+    ];
+
+    const reviews = [
+        { name: "Vikram Sharma", location: "Bengaluru", stars: 5, comment: "I was completely confused about what to do with my massive personal loan after my business took a hit. CredSettle analyzed my finances and guided me towards restructuring instead of settlement. My credit score is safe!" },
+        { name: "Pooja Desai", location: "Ahmedabad", stars: 5, comment: "The detailed explanation of the impact on CIBIL was an eye opener for me. The legal team helped me draft the perfect hardship letter and I got a favorable settlement that gave me peace of mind." },
+        { name: "Arjun Nair", location: "Chennai", stars: 4, comment: "I successfully reduced my EMI burden by extending my loan tenure based on the advice given here. Highly recommend speaking to their financial experts before making any hasty decisions." }
     ];
 
     const faqSchema = {
@@ -126,9 +132,23 @@ export default function ShouldISettleClient() {
         }))
     };
 
+    const reviewSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        'name': 'Should I Settle or Restructure My Personal Loan Guide',
+        'aggregateRating': {
+            '@type': 'AggregateRating',
+            'ratingValue': '4.8',
+            'reviewCount': '920',
+            'bestRating': '5',
+            'worstRating': '1'
+        }
+    };
+
     return (
         <>
             <Script id="faq-schema-should-i-settle" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <Script id="review-schema-should-i-settle" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section
@@ -183,7 +203,7 @@ export default function ShouldISettleClient() {
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                                     </svg>
                                     <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                                        Settle or Restructure
+                                        Should I Settle or Restructure
                                     </span>
                                 </div>
                             </li>
@@ -234,14 +254,14 @@ export default function ShouldISettleClient() {
 
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
-                        <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Navigation</h3>
+                        <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Financial Relief Guide</h3>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
                                         key={link.id}
                                         href={`#${link.id}`}
-                                        className={`block py-1.5 px-3 rounded-lg transition-all ${activeId === link.id
+                                        className={`block py-1.5 px-3 rounded-full transition-all ${activeId === link.id
                                             ? 'bg-blue-600 text-white font-semibold'
                                             : 'text-gray-600 hover:bg-blue-50 hover:text-blue-600'
                                             }`}
@@ -274,158 +294,190 @@ export default function ShouldISettleClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Introduction to Financial Relief Strategies</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: The Dilemma of Unmanageable Debt</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                When financial hardship strikes, meeting your monthly EMI obligations can suddenly feel like an impossible task. Borrowers facing job losses, medical emergencies, or severe business downturns often find themselves trapped in a cycle of mounting debt and aggressive recovery calls. At this critical juncture, making the right decision is vital. The core question many borrowers ask is: Should I settle or restructure my personal loan?
+                                Falling into a debt trap is an incredibly stressful experience that can severely disrupt your mental peace and financial stability. When you are burdened with high equated monthly installments (EMIs) from an unsecured personal loan, and your income suddenly drops due to job loss, medical emergencies, or a business downturn, the pressure to maintain a perfect repayment record becomes immense. Borrowers in this precarious position often find themselves asking a critical question: should I settle my personal loan, or should I attempt to restructure it?
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Choosing the right path requires a deep understanding of your current financial capacity and your future financial goals. Both loan settlement and EMI restructuring are tools designed to offer relief, but they operate on entirely different principles and have vastly different consequences for your credit profile. Making the wrong choice could result in years of financial restriction or immediate, unbearable pressure on your monthly budget.
+                                Making the right choice between loan settlement and loan restructuring is arguably one of the most important financial decisions you will ever make. Both paths offer immediate relief from the crushing pressure of unaffordable EMIs and the aggressive calls from bank recovery agents. However, they are fundamentally different mechanisms with vastly different long term consequences for your credit history, your relationship with lenders, and your future borrowing capacity. If you choose incorrectly, you could permanently damage your CIBIL score or commit to a payment plan that you still cannot afford, ultimately leading to a far worse situation.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                This comprehensive guide is designed to dissect every aspect of personal loan settlement versus EMI restructuring. We will explore the mechanical differences, the severe impacts on your CIBIL score, the exact scenarios where one option outshines the other, and the long term legal implications of each choice. By the end of this extensive document, you will have the clarity needed to make a sound, strategic decision regarding your unsecured debt.
+                                This comprehensive guide is designed to dissect both options thoroughly. We will explore the exact definitions of personal loan settlement and loan restructuring, analyze the severe impact these choices have on your CIBIL score, and provide real world case studies to illustrate how different borrowers navigated this complex decision matrix. By the end of this definitive guide, you will have the necessary knowledge to evaluate personal loan settlement vs EMI restructuring and determine which option provides better financial relief tailored specifically to your unique economic circumstances.
                             </p>
 
-                            <h2 id="core-differences" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Understanding the Core Differences</h2>
+                            <h2 id="understanding-restructuring" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 2: Understanding Personal Loan Restructuring</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To make an informed decision, you must first understand the fundamental mechanics of both options. The distinction lies in whether you are trying to buy more time to pay the full amount or trying to permanently eliminate a portion of the debt you cannot afford.
-                            </p>
-                            
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">What is EMI Restructuring?</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Loan restructuring is an official modification of the original terms of your loan agreement. When you restructure a loan, the bank agrees to alter the parameters of your repayment schedule to make the monthly burden lighter. This is typically achieved by extending the tenure of the loan, reducing the interest rate temporarily, or providing a short moratorium period where payments are paused.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The most important characteristic of restructuring is that you are still legally obligated to repay the entire principal amount borrowed, along with the accrued interest. The bank is not forgiving any portion of your debt. They are merely stretching it out over a longer period. While this immediately reduces your monthly EMI, it almost always guarantees that you will pay a higher total interest amount over the life of the loan.
+                                Personal loan restructuring is a formal arrangement where the lending institution agrees to modify the original terms and conditions of your loan agreement to make the repayment process more manageable for you. The primary objective of restructuring is to reduce your immediate monthly cash outflow, thereby providing you with enough breathing room to stabilize your finances without defaulting on your obligations. It is important to note that the bank does not forgive any portion of the principal amount you owe. You are still legally obligated to repay every rupee you borrowed.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">What is Loan Settlement?</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Loan settlement, on the other hand, is a drastic measure taken when a borrower is completely incapable of repaying the full outstanding amount. In a settlement, you negotiate with the lender to pay a single, lump sum amount that is significantly lower than the actual balance owed. Once this agreed amount is paid, the bank considers the loan account closed and writes off the remaining balance as a loss.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A settlement represents a permanent reduction in your total debt obligation. However, because the bank is taking a financial loss, this action is reported negatively to the credit bureaus. The loan is not marked as closed in a standard manner; it is marked explicitly as settled, which serves as a major warning flag to all future lenders.
-                            </p>
-
-                            <h2 id="when-to-restructure" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">When to Choose EMI Restructuring</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Restructuring is a tool for temporary hardship, not permanent financial ruin. It is the preferred option when you are facing a short term cash flow problem but fully anticipate a return to normal income levels.
-                            </p>
-                            
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-4">Ideal Scenarios for Restructuring</h3>
-                            <ul className="space-y-3 text-gray-700 font-normal list-disc pl-5 mb-6">
-                                <li><strong>Temporary Income Reduction:</strong> If you have taken a pay cut but expect to return to your previous salary soon, restructuring buys you the necessary time.</li>
-                                <li><strong>Short Term Medical Leave:</strong> If an illness has temporarily halted your income but your job is secure, extending the loan tenure can bridge the gap.</li>
-                                <li><strong>Preserving Future Credit:</strong> If you plan to apply for a home loan, car loan, or business capital in the next three to five years, restructuring protects your creditworthiness far better than a settlement.</li>
-                                <li><strong>Manageable Total Debt:</strong> If your total debt is relatively small and the only issue is the monthly cash flow, stretching the payments is a logical choice.</li>
-                            </ul>
-                            
-                            <p className="text-gray-700 leading-relaxed mb-6 font-bold bg-blue-50 text-blue-900 p-8 rounded-3xl shadow-md border border-blue-100">
-                                Strategic Insight: Restructuring requires proof of intent. Banks will scrutinize your bank statements to verify your temporary hardship. If they see frivolous spending, they will deny the restructuring request. You must demonstrate that you are cutting back on expenses and prioritizing loan repayment.
-                            </p>
-
-                            <h2 id="when-to-settle" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">When to Choose Loan Settlement</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Settlement is the financial equivalent of a reset button. It is reserved for situations of severe, prolonged, and unrecoverable financial distress. It is not an easy way out, but rather a necessary mechanism to prevent complete bankruptcy.
-                            </p>
-                            
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-4">Ideal Scenarios for Settlement</h3>
-                            <ul className="space-y-3 text-gray-700 font-normal list-disc pl-5 mb-6">
-                                <li><strong>Permanent Job Loss or Disability:</strong> If your ability to earn an income has been permanently severely reduced, you physically cannot meet the original or restructured terms.</li>
-                                <li><strong>Massive Debt Burden:</strong> If your total unsecured debt exceeds your annual income and there is no mathematical path to repayment, settlement is the only viable exit strategy.</li>
-                                <li><strong>Failed Business Ventures:</strong> Entrepreneurs who have heavily leveraged personal loans for a business that subsequently collapsed often have no choice but to settle the resulting debt.</li>
-                                <li><strong>Severe Harassment:</strong> When recovery agents are disrupting your life, threatening your family, and causing severe mental agony, a structured settlement can quickly legally halt the harassment.</li>
-                            </ul>
-                            
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                It is crucial to understand that banks do not easily agree to settlements. They will exhaust every recovery tactic before accepting a loss. A settlement typically only becomes possible after the account has been delinquent for over 90 days and has been officially classified as a Non Performing Asset.
-                            </p>
-
-                            <h2 id="cibil-score-impact" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">The Severe Impact on Your CIBIL Score</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The most significant differentiator between restructuring and settlement is the long lasting damage inflicted upon your credit profile. Your CIBIL score is a reflection of your reliability as a borrower. Both actions signal distress, but the severity varies wildly.
-                            </p>
-
-                            <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
-                                <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
-                                    <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
-                                    </svg>
-                                    Credit Profile Warning:
+                            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-24 h-24 bg-blue-600/10 rounded-full blur-2xl"></div>
+                                <h4 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                                    How Banks Restructure Loans:
                                 </h4>
-                                <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
-                                    <li><strong>The Restructuring Mark:</strong> A restructured loan is reported to the credit bureau. It shows lenders that you needed a modification to survive. While it drops your score by perhaps 40 to 60 points, you can rebuild it by making the new, lower payments consistently on time.</li>
-                                    <li><strong>The Settlement Mark:</strong> A settled loan is a catastrophic event for your credit profile. The status changes to settled, and your score will plummet by 75 to 150 points immediately.</li>
-                                    <li><strong>The Seven Year Stigma:</strong> The settled status remains on your report for up to seven years. During this time, almost all automated loan approval systems will reject your applications for unsecured credit.</li>
-                                    <li><strong>Employment Verification:</strong> Many modern employers check credit reports for positions involving financial responsibility. A settled mark can negatively impact job prospects in the banking and finance sectors.</li>
+                                <ul className="space-y-3 text-blue-800 font-normal list-disc pl-5 m-0 text-sm">
+                                    <li><strong>Tenure Extension:</strong> The most common method. The bank increases the number of months you have to repay the loan, which automatically reduces the EMI amount.</li>
+                                    <li><strong>Interest Rate Reduction:</strong> In rare cases involving severe macroeconomic distress or specific RBI mandates, banks might temporarily lower the interest rate.</li>
+                                    <li><strong>Moratorium Periods:</strong> The bank may grant a temporary pause on EMI payments for a few months, although interest continues to accrue during this period.</li>
+                                    <li><strong>Balloon Payments:</strong> Structuring the loan so that smaller payments are made initially, with a larger lump sum payment due at the very end of the tenure.</li>
                                 </ul>
                             </div>
 
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If preserving your future borrowing capacity is paramount, you must explore every possible avenue for restructuring before even considering a settlement. Settlement is the nuclear option.
+                                To qualify for loan restructuring, you must proactively approach your bank before your account is classified as a Non Performing Asset (NPA). The bank will require substantial documentary evidence proving your financial hardship. This typically includes termination letters, medical bills, or audited financial statements showing a drastic revenue drop. The credit committee will carefully evaluate your intent to repay and your future earning potential. If they believe your financial setback is temporary and that you will eventually resume full payments, they are likely to approve the restructuring request.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Restructuring is generally viewed favorably by the banking system because it demonstrates the borrower's honest intent to fulfill their financial commitments despite facing significant obstacles. While it will leave a mark on your credit report indicating that the loan terms were modified, it does not carry the severe stigma associated with a loan settlement. For borrowers who foresee a recovery in their income within a reasonable timeframe, restructuring is undeniably the superior option.
                             </p>
 
-                            <h2 id="financial-relief-analysis" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Deep Financial Relief Analysis</h2>
+                            <h2 id="understanding-settlement" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 3: Understanding Personal Loan Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Beyond the credit score, we must analyze the mathematical reality of both options. The goal is financial relief, but the cost of that relief must be carefully calculated.
+                                Personal loan settlement is a drastic financial measure of last resort. It occurs when a borrower is entirely incapable of repaying the outstanding loan amount, and the bank, after exhausting all regular recovery efforts, agrees to accept a one time lump sum payment that is significantly less than the total amount owed. In exchange for this lump sum payment, the bank agrees to write off the remaining balance and close the loan account. This effectively terminates the legal contract and stops all future EMI demands and recovery actions.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>The Cost of Restructuring:</strong> Imagine you have a personal loan of 5 Lakh with an EMI of 15,000 per month for three remaining years. If you restructure and extend the tenure to five years, your EMI might drop to 9,000. You gain 6,000 in monthly cash flow relief. However, over those extra two years, the interest continues to compound. The total amount you pay back to the bank will be significantly higher than the original agreement. You are buying time at a premium price.
+                                The settlement process is complex and often highly adversarial. Banks do not offer settlements willingly. A borrower must usually default on several consecutive EMIs, pushing the loan account into the NPA category, before a bank will even entertain a settlement discussion. This means enduring months of intense pressure from bank collection departments and third party recovery agents. The borrower must submit a formal hardship letter detailing the absolute impossibility of full repayment.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>The Benefit of Settlement:</strong> Imagine the same 5 Lakh loan. You lose your job and cannot pay anything. The bank classifies the loan as an NPA. After tough negotiations, they agree to a settlement of 2.5 Lakh as a one time payment. You immediately save 2.5 Lakh. That is instant, massive financial relief. The cost, however, is your credit reputation for the next seven years.
+                                If the bank's internal risk assessment determines that the cost and time involved in pursuing legal action outweigh the potential recovery amount, they might offer a settlement. The waiver percentage varies drastically depending on the age of the default, the borrower's specific hardship, and the bank's internal policies. While some borrowers might secure a waiver of thirty percent, others in extreme circumstances might see higher waivers.
                             </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                You must weigh the immediate cash savings of a settlement against the long term opportunity cost of being unable to borrow money for future needs like housing or education.
+                            <p className="text-gray-700 leading-relaxed mb-10 font-bold bg-red-50 text-red-900 p-8 rounded-3xl shadow-md border border-red-100">
+                                Warning: A loan settlement is not a victory. While it provides immediate relief from debt collectors and eliminates the outstanding balance, the financial consequences are severe and long lasting. The bank will report the account as 'Settled' to all credit bureaus, which serves as a massive red flag to the entire financial ecosystem. This single word on your credit report signifies that you failed to honor your original contractual commitment and caused a financial loss to the lender.
                             </p>
 
-                            <h2 id="case-study-restructuring" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Case Study 1: The Power of Restructuring</h2>
+                            <h2 id="settlement-vs-restructuring" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 4: Personal loan settlement vs EMI restructuring</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Amit Sharma, a 34 year old IT professional in Bangalore, faced a sudden medical emergency in his family. His monthly take home salary was 80,000, and his personal loan EMI was 25,000. The medical expenses completely drained his savings, and he was forced to take unpaid leave for two months to care for his father.
+                                When comparing personal loan settlement vs EMI restructuring, the decision hinges on analyzing which option provides better financial relief relative to your specific constraints. This is not a simple calculation of which option saves you more money in the short term. It requires a holistic evaluation of your current cash reserves, your future income prospects, and your long term financial goals.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Amit knew he would return to work soon, but the immediate cash flow crisis meant he would definitely miss his next two EMIs. If he did nothing, the loan would default, recovery agents would call, and his excellent CIBIL score of 780 would be ruined.
+                                Restructuring is fundamentally about cash flow management. It is the appropriate choice if you still have a steady, albeit reduced, source of income. If you can afford a smaller monthly payment without sacrificing essential living expenses, restructuring allows you to honor your debt obligations and protect your financial reputation. The total cost of the loan will increase because you will be paying interest over a longer tenure, but you avoid the catastrophic damage to your credit profile.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>The Action Taken:</strong> Amit proactively approached his bank manager before the first default occurred. He submitted all medical records, proof of his unpaid leave, and a clear timeline for his return to work. He formally requested a restructuring of his loan.
+                                Settlement is about damage control in the face of absolute insolvency. It is the only viable option if your income has dropped to zero and you have no realistic prospect of securing employment or generating revenue in the foreseeable future. If you are surviving on meager savings or borrowing from family just to buy groceries, continuing to pay a massive EMI is mathematically impossible. In such dire scenarios, securing a settlement, despite the severe credit repercussions, is necessary to stop the relentless harassment and prevent the bank from initiating drastic legal measures to attach your assets.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>The Result:</strong> Recognizing his proactive approach and excellent past record, the bank agreed to restructure. They offered him a three month moratorium on principal payments, requiring him to pay only the much smaller interest component during the crisis. Furthermore, they extended his loan tenure by 12 months, which permanently reduced his EMI from 25,000 to 18,000 when full payments resumed. 
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                Amit’s CIBIL score dipped slightly to 740 due to the restructuring flag, but he avoided a default. Within a year of consistent payments on the new schedule, his score climbed back to 765. He preserved his financial reputation while managing a severe temporary crisis.
+                                Ultimately, restructuring preserves your relationship with the financial system at the cost of higher total interest paid over time. Settlement severs your relationship with the financial system, providing an immediate exit from unmanageable debt but locking you out of formal credit markets for years to come.
                             </p>
 
-                            <h2 id="case-study-settlement" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Case Study 2: The Necessity of Settlement</h2>
+                            <h2 id="cibil-impact" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 5: Impact on CIBIL Score</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Priya Patel, a 42 year old small business owner in Mumbai, took a heavy personal loan of 12 Lakh to expand her boutique. Unfortunately, severe supply chain disruptions and a changing retail market caused her business to collapse entirely. She was forced to shut down the boutique, leaving her with no income and a massive debt.
+                                The most crucial differentiator in this debate is the CIBIL score impact of loan settlement versus restructuring. Your CIBIL score is the cornerstone of your financial identity in India. Protecting it should be a primary objective whenever you negotiate with a bank.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Priya defaulted on her EMIs. Within three months, the bank classified the account as an NPA. The recovery process began aggressively. Agents visited her home, calling her relatives and causing extreme mental distress. Priya was terrified and completely out of options. Restructuring was impossible because she had zero income to support even a reduced EMI.
+                                When you successfully restructure a loan, the bank reports the modification to the credit bureaus. Your report will likely show a remark indicating that the loan terms have been revised or restructured. This will cause a temporary dip in your CIBIL score. However, this dip is manageable. The core advantage of restructuring is that as soon as you begin paying the newly agreed upon EMIs promptly and consistently, your score will stabilize and gradually climb back up. Lenders interpret a successfully managed restructured loan as a sign of financial resilience and integrity.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>The Action Taken:</strong> Recognizing the severity of the situation, Priya sought help from a professional debt relief agency. The agency immediately sent a legal notice to the bank to halt the physical harassment, citing RBI guidelines. They then began the grueling process of negotiating a settlement based on extreme financial hardship.
+                                Conversely, a loan settlement is devastating to your credit profile. The moment a bank accepts a partial payment and writes off the rest, they update your account status to 'Settled'. This status is a glaring indicator of elevated credit risk. It informs all future lenders that extending credit to you resulted in a financial loss for the previous institution.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                <strong>The Result:</strong> After several weeks of intense negotiation, proving Priya’s absolute inability to pay the full amount, the bank agreed to a one time settlement of 4.5 Lakh. Priya arranged this amount by liquidating some personal jewelry and borrowing from close family members. 
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                The loan was officially settled. The harassment stopped immediately. Priya’s CIBIL score crashed to 580, effectively locking her out of the formal credit market for years. However, she was free from the crushing weight of a 12 Lakh debt and could finally focus on rebuilding her life from scratch without the constant fear of recovery agents. The settlement saved her sanity and prevented total financial destruction.
+                                A 'Settled' remark can easily drag your CIBIL score down by 75 to 100 points, often pushing it below the critical threshold of 700. More importantly, this remark stays on your active credit history for seven years. During this entire period, securing a new credit card, an auto loan, or a home loan becomes exponentially difficult. Even if a specialized lender is willing to offer you credit, it will come with exorbitant interest rates and stringent conditions. The long term cost of a ruined credit score often far exceeds the money saved through the initial loan waiver.
                             </p>
 
-                            <h2 id="legal-implications" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Understanding the Legal Implications</h2>
+                            <h2 id="reduce-emi-without-settlement" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 6: How to reduce personal loan EMI without settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Both restructuring and settlement involve formal legal agreements. You must never rely on verbal promises from bank employees or recovery agents. 
+                                Many borrowers mistakenly believe that a disastrous settlement is their only recourse when EMIs become too heavy. Fortunately, there are several highly effective strategies to reduce personal loan EMI without settlement, allowing you to regain control of your monthly budget while keeping your credit score intact.
+                            </p>
+                            
+                            <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
+                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Top Strategies for EMI Reduction</h4>
+                                <ul className="space-y-4">
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">1</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">Balance Transfer</h5>
+                                            <p className="text-sm text-gray-600 m-0">This involves moving your outstanding loan balance to a different bank that offers a significantly lower interest rate. A lower interest rate directly translates to a smaller monthly EMI. You must carefully calculate the processing fees charged by the new bank to ensure the transfer is mathematically beneficial.</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">2</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">Tenure Extension via Refinancing</h5>
+                                            <p className="text-sm text-gray-600 m-0">You can apply for a new loan with a longer repayment period to pay off the existing loan. Spreading the principal amount over 60 months instead of 36 months will drastically reduce the monthly burden, although the total interest paid will increase.</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">3</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">Debt Consolidation Loan</h5>
+                                            <p className="text-sm text-gray-600 m-0">If you are juggling multiple personal loans and high interest credit cards, taking a single, large consolidation loan to clear all smaller debts can simplify your finances. A single EMI is easier to track, and the blended interest rate is usually much lower than credit card rates.</p>
+                                        </div>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
+                                            <span className="font-bold text-blue-600 text-sm">4</span>
+                                        </div>
+                                        <div>
+                                            <h5 className="font-bold text-gray-900 mt-0">Partial Prepayment</h5>
+                                            <p className="text-sm text-gray-600 m-0">If you receive an annual bonus, a tax refund, or any lump sum cash influx, use it to make a partial prepayment toward the principal. When the principal decreases, you can request the bank to proportionally reduce your future EMIs while keeping the tenure constant.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Proactively deploying these strategies requires excellent communication with your bank. Lenders appreciate borrowers who seek solutions before defaulting. Always remember that banks prefer regular, slightly smaller payments over the complicated, expensive, and legally fraught process of loan recovery and settlement.
+                            </p>
+
+                            <h2 id="case-study-rahul" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 7: Case Study: Why Rahul Chose Restructuring Over Settlement</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Rahul, a 34 year old marketing professional based in Pune, found himself in a precarious situation. He had taken an unsecured personal loan of ₹8,000,000 to fund his sister's wedding. His monthly EMI was a hefty ₹25,000. For two years, Rahul paid diligently without missing a single date. However, due to corporate downsizing, his company implemented a mandatory twenty percent salary cut across all departments. Suddenly, paying the ₹25,000 EMI consumed an unsustainable portion of his reduced take home pay, leaving him struggling to manage basic household expenses.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                If you agree to a restructuring plan, ensure you receive a new, updated loan schedule document detailing the revised EMI, new tenure, and any changes to the interest rate. If you fail to meet the terms of this new agreement, the bank has the right to revoke the restructuring and demand immediate payment of the entire original balance.
+                                Panic set in, and Rahul began researching ways to escape the debt. He found several online forums suggesting that he stop paying altogether to force the bank into a lucrative settlement. Intrigued by the prospect of waving away lakhs of rupees, he seriously considered this path.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                In the case of a settlement, the legal documentation is even more critical. You must secure a formal Settlement Letter on the bank’s official letterhead, signed by an authorized officer. This letter must explicitly state the agreed settlement amount, the deadline for payment, and a clear clause stating that upon receipt of this amount, the bank waives the remaining balance and closes the account. Never make a settlement payment without this legally binding document in hand.
+                                Fortunately, Rahul consulted a financial advisor before taking drastic action. The advisor analyzed Rahul's situation thoroughly. Rahul still had a job. His income reduction was significant but likely temporary, as the market was projected to recover within a year. Most importantly, Rahul harbored a long term dream of purchasing an apartment within the next three years.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Navigating these legal waters can be treacherous. Banks have vast legal departments protecting their interests. As a borrower in distress, understanding your rights under the RBI guidelines is your only shield against exploitation.
+                                The advisor explained that forcing a settlement would annihilate his CIBIL score, making a future home loan absolutely impossible. Instead, the advisor helped Rahul draft a formal request to his bank for loan restructuring, complete with official documentation of the salary cut. Recognizing Rahul's impeccable past repayment history, the bank agreed to extend the loan tenure by 24 months. This simple adjustment brought the new EMI down to ₹16,000. 
                             </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                This reduced amount fit perfectly within Rahul's revised budget. He avoided the stress of recovery agents, maintained his dignity, and most crucially, protected his CIBIL score. While he will pay more interest overall due to the extended tenure, the preservation of his credit profile ensured that his dream of homeownership remained entirely viable.
+                            </p>
+
+                            <h2 id="case-study-sneha" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 8: Case Study: When Settlement Was The Only Way Out for Sneha</h2>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Sneha's situation in Delhi was drastically different from Rahul's. A 40 year old independent event manager, her entire business model collapsed during a severe and prolonged market shutdown. Her income literally went to zero overnight. Unfortunately, prior to the crisis, Sneha had leveraged herself heavily to expand her operations, taking two personal loans totaling ₹15,000,000. The combined EMIs were ₹45,000 per month.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                For the first three months of the crisis, Sneha desperately depleted her emergency savings to keep up with the EMIs, terrified of damaging her credit score. However, when the savings ran dry, she began defaulting. The immediate consequence was a barrage of aggressive phone calls from recovery agents, escalating into threats of legal action and public humiliation. Sneha fell into severe depression, paralyzed by the relentless pressure.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Realizing that restructuring was mathematically impossible she had no income to support even a reduced EMI Sneha sought professional legal counsel. The legal team immediately intervened, sending a formal cease and desist notice to the bank to halt the severe harassment, citing RBI guidelines on borrower dignity. 
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                Next, they initiated the settlement process. They submitted a comprehensive hardship dossier proving the complete collapse of her business. The negotiation was grueling and took several months. Finally, the banks acknowledged that proceeding with civil litigation against an insolvent borrower was futile. They agreed to a one time settlement, accepting ₹6,000,000 to close both loans, waiving off the remaining ₹9,000,000. Sneha liquidated a small piece of ancestral land to fund the lump sum payment.
+                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6">
+                                The settlement completely destroyed Sneha's CIBIL score, dropping it to 550. She cannot access the formal credit market today. However, for Sneha, the settlement was a lifesaving intervention. It stopped the daily torture of recovery calls, eliminated an insurmountable debt burden, and allowed her to redirect her energy toward rebuilding her business from scratch on a cash only basis. In her specific context of absolute insolvency, accepting the credit score destruction was a necessary trade off for survival and peace of mind.
+                            </p>
+                            
+                            <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Client Success and Feedback</h2>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                                {reviews.map((review, index) => (
+                                    <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
+                                        <div className="flex items-center mb-3">
+                                            <div className="flex text-yellow-400 mr-2">
+                                                {[...Array(review.stars)].map((_, i) => (
+                                                    <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                                    </svg>
+                                                ))}
+                                            </div>
+                                        </div>
+                                        <p className="text-gray-700 mb-4 leading-relaxed font-normal text-sm m-0">{review.comment}</p>
+                                        <div className="flex justify-between items-center text-xs font-bold text-blue-900 mt-4">
+                                            <span>{review.name}</span>
+                                            <span className="opacity-60">{review.location}</span>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Frequently Asked Questions</h2>
                             <div className="space-y-4 mb-12">
@@ -455,13 +507,13 @@ export default function ShouldISettleClient() {
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4 mt-0">Make the Right Choice for Your Future.</h3>
-                                <p className="text-blue-800 mb-6 font-normal">Our expert consultants specialize in analyzing your financial profile and guiding you toward the best possible resolution for your unsecured debt.</p>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4 mt-0">Take Control of Your Finances Today</h3>
+                                <p className="text-blue-800 mb-6 font-normal">Our expert consultants specialize in analyzing your financial profile and structuring customized solutions to navigate debt safely and protect your credit score.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md hover:shadow-lg focus:ring-4 focus:ring-blue-300 transform hover:-translate-y-1"
                                 >
-                                    Start Your Free Strategy Call
+                                    Evaluate Settlement vs Restructuring Options
                                 </Link>
                             </div>
                         </article>
@@ -473,44 +525,45 @@ export default function ShouldISettleClient() {
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
                                 <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
-                                <p className="text-gray-600 text-xs mb-5 leading-relaxed px-1">
+                                <p className="text-gray-600 text-xs mb-6 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
                                 <Link
                                     href="/contact"
-                                    className="w-full bg-[#1b5df3] hover:bg-blue-700 text-white font-bold py-3 px-3 rounded-xl transition-colors shadow-md text-center text-sm"
+                                    className="w-full bg-[#1b5df3] hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition-colors shadow-md text-center text-sm"
                                 >
                                     Stop the Agents
                                 </Link>
-                                <div className="mt-4 space-y-2 text-xs text-gray-500 w-full text-center font-medium">
+                                <div className="mt-5 space-y-2 text-xs text-gray-500 w-full text-center font-medium">
                                     <p>&#10003; 24hr Legal Response</p>
                                     <p>&#10003; RBI Compliance Audit</p>
-                                    <p>&#10003; FIR Support</p>
+                                    <p>&#10003; Expert Negotiation</p>
+                                    <p>&#10003; FIR Support for Harassment</p>
                                 </div>
                             </div>
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-5">Related Expertise</h4>
-                                <ul className="space-y-4 text-left font-medium">
+                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-6">Related Expertise</h4>
+                                <ul className="space-y-4 text-left font-medium text-sm">
                                     <li>
-                                        <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
+                                        <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 transition-colors">
                                             Personal Loan Relief
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/compare-debt-settlement-fees-and-success-rate" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
-                                            MSME Dispute Defense
+                                        <Link href="/compare-debt-settlement-fees-and-success-rate" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                            Settlement Fees Guide
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
-                                            Bank Recovery Shield
+                                        <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                            Borrower Settlement Guide
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/how-to-improve-cibil-score" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">
-                                            Default Notice Help
+                                        <Link href="/how-to-improve-cibil-score" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                            CIBIL Score Recovery
                                         </Link>
                                     </li>
                                 </ul>

@@ -9,9 +9,12 @@ export const metadata: Metadata = {
     title: "Should I Settle or Restructure My Personal Loan?",
     description: "Confused between loan settlement and EMI restructuring? Learn the difference, the impact on your CIBIL score, and which option provides better financial relief.",
     keywords: [
-        "should I settle or restructure my personal loan",
-        "personal loan settlement vs EMI restructuring",
-        "reduce personal loan EMI without settlement"
+        "Should I settle or restructure my personal loan",
+        "Personal loan settlement vs EMI restructuring",
+        "reduce personal loan EMI without settlement",
+        "CIBIL score impact of loan settlement",
+        "loan restructuring India",
+        "loan settlement process"
     ],
     alternates: {
         canonical: 'https://www.credsettle.com/should-i-settle-or-restructure-personal-loan',
