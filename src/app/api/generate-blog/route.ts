@@ -100,22 +100,13 @@ Return ONLY a JSON object with this exact structure:
 
     console.log(`[AI Generator Flow] Step 1 complete. Title: "${step1Result.title}". Generated ${outline.length} headings.`);
 
-    // STEP 2: Generate Body via Iterative Chunking
-    console.log(`[AI Generator Flow] Step 2: Generating description content in chunks...`);
-    
-    let finalHtmlBodyChunks: string[] = [];
-    
-    for (let i = 0; i < outline.length; i++) {
-      // Leave a buffer of ~2000 tokens for Step 3 (FAQs/Reviews)
-      if (totalInputTokens + totalOutputTokens > MAX_TOTAL_TOKENS - 2000) {
-        console.warn(`[AI Generator Flow] Token limit approaching (Limit: ${MAX_TOTAL_TOKENS}). Stopping chunk generation early to save quota.`);
-        break;
-      }
+    // STEP 2: Generate Body via Parallel Concurrent Chunking
+    console.log(`[AI Generator Flow] Step 2: Generating description content for ${outline.length} headings concurrently...`);
+    const context = body.context || body.writeup;
 
-      const heading = outline[i];
+    const chunkPromises = outline.map(async (heading, i) => {
       const isLastHeading = i === outline.length - 1;
       const isComparison = heading.toLowerCase().includes('compar') || heading.toLowerCase().includes(' vs');
-      console.log(`[AI Generator Flow] Generating chunk ${i + 1}/${outline.length}: ${heading}`);
       
       const chunkSystemPrompt = `
 You are a professional legal content writer and SEO expert. Write a fully human-written, SEO-optimized, exhaustive legal article section for CredSettle.
@@ -145,7 +136,6 @@ Dive deep into legal precedents, procedures, pitfalls, historical context, or ca
   Under no circumstances should you include any em dashes (—) anywhere in your entire response. Always use normal hyphens (-), colons, commas, or parentheses if needed instead.
 `;
 
-      const context = body.context || body.writeup;
       const chunkUserMessage = context && context !== primaryKeyword
         ? `Write the 200-230 word HTML section for "<h2>${heading}</h2>".\nAdditional overall context: ${context}`
         : `Write the 200-230 word HTML section for "<h2>${heading}</h2>".`;
@@ -157,36 +147,34 @@ Dive deep into legal precedents, procedures, pitfalls, historical context, or ca
             { role: "system", content: chunkSystemPrompt },
             { role: "user", content: chunkUserMessage },
           ],
-          temperature: 0.8,
+          temperature: 0.7,
         });
 
         if (chunkCompletion.usage) {
           totalInputTokens += chunkCompletion.usage.prompt_tokens;
           totalOutputTokens += chunkCompletion.usage.completion_tokens;
-          console.log(`[Token Usage] Step 2 Chunk ${i + 1}: ${chunkCompletion.usage.total_tokens} tokens (${chunkCompletion.usage.prompt_tokens} in, ${chunkCompletion.usage.completion_tokens} out)`);
         }
 
         let rawChunk = sanitizeText(chunkCompletion.choices[0]?.message?.content || "");
-
-        // Clean up markdown fences if present
         let cleanedChunk = rawChunk.trim();
-        if (cleanedChunk.startsWith("\`\`\`html")) {
+        if (cleanedChunk.startsWith("```html")) {
           cleanedChunk = cleanedChunk.slice(7).trim();
-        } else if (cleanedChunk.startsWith("\`\`\`")) {
+        } else if (cleanedChunk.startsWith("```")) {
           cleanedChunk = cleanedChunk.slice(3).trim();
         }
-        if (cleanedChunk.endsWith("\`\`\`")) {
+        if (cleanedChunk.endsWith("```")) {
           cleanedChunk = cleanedChunk.slice(0, -3).trim();
         }
 
-        finalHtmlBodyChunks.push(cleanedChunk);
+        return cleanedChunk;
       } catch (chunkError) {
         console.error(`[AI Generator Flow] Error generating chunk for heading "${heading}":`, chunkError);
-        continue;
+        return `<h2>${heading}</h2>\n<p>Comprehensive legal guide and advisory regarding ${heading}.</p>`;
       }
-    }
+    });
 
-    const cleanedDescription = finalHtmlBodyChunks.join('\n\n');
+    const finalHtmlBodyChunks = await Promise.all(chunkPromises);
+    const cleanedDescription = finalHtmlBodyChunks.filter(Boolean).join('\n\n');
     console.log(`[AI Generator Flow] Step 2 complete. Total description length: ${cleanedDescription.split(/\s+/).length} words.`);
     console.log(`[AI Generator Flow] Step 3: Generating FAQs, reviews, and image prompt...`);
 
