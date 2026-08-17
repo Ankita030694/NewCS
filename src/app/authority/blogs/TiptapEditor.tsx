@@ -714,10 +714,12 @@ const TiptapEditor: React.FC<TiptapEditorProps> = ({ content, onChange, classNam
       .ProseMirror p { margin: 1em 0; }
       .ProseMirror blockquote { border-left: 4px solid #d1d5db; margin-left: 0; padding-left: 1em; color: #4b5563; }
       .ProseMirror pre { background-color: #f5f5f5; padding: 0.75em; border-radius: 0.5em; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-      .ProseMirror table { border-collapse: collapse; margin: 0; overflow: hidden; table-layout: fixed; width: 100%; }
+      .ProseMirror table { border-collapse: separate !important; border-spacing: 0 !important; margin: 1rem 0; overflow: hidden; table-layout: fixed; width: 100%; border: 1px solid #CBD5E1 !important; border-radius: 8px; }
       .ProseMirror table td,
-      .ProseMirror table th { border: 2px solid #ced4da; box-sizing: border-box; min-width: 1em; padding: 6px 8px; position: relative; vertical-align: top; }
-      .ProseMirror table th { background-color: #f8f9fa; font-weight: 600; text-align: left; }
+      .ProseMirror table th { border-right: 1px solid #E2E8F0 !important; border-bottom: 1px solid #E2E8F0 !important; box-sizing: border-box; min-width: 1em; padding: 8px 12px; position: relative; vertical-align: top; }
+      .ProseMirror table th:last-child, .ProseMirror table td:last-child { border-right: none !important; }
+      .ProseMirror table tr:last-child td { border-bottom: none !important; }
+      .ProseMirror table th { background-color: #f8fafc; font-weight: 600; text-align: left; color: #004479; }
       .ProseMirror ul { list-style-type: disc; padding-left: 1.5em; margin: 1em 0; }
       .ProseMirror ol { list-style-type: decimal; padding-left: 1.5em; margin: 1em 0; }
       .ProseMirror li { margin: 0.5em 0; display: list-item; }

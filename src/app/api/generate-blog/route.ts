@@ -41,7 +41,8 @@ export async function POST(request: Request) {
         {
           role: "system",
           content: `You are a professional legal SEO and AEO strategist.
-Generate an SEO-optimized H1 Title, engaging subtitle, meta title, meta description, URL slug, and an outline of exactly 8 to 9 highly detailed H2 headings for a blog article on CredSettle.
+Generate an SEO-optimized H1 Title, engaging subtitle, meta title, meta description, URL slug, an outline of exactly 5 to 6 highly detailed H2 headings, 5 actionable key takeaways, and 10 popular search terms for a blog article on CredSettle.
+Make sure at least one of the H2 headings is explicitly a comparison section (e.g., "Comparison of Options", "X vs Y").
 Primary Keyword: ${primaryKeyword}
 Secondary Keywords: ${secondaryKeyword || ""}
 
@@ -55,11 +56,34 @@ Return ONLY a JSON object with this exact structure:
   "metaTitle": "SEO meta title (60-70 chars)",
   "metaDescription": "SEO meta description (150-160 chars)",
   "slug": "url-friendly-slug",
-  "outline": ["H2 Heading 1", "H2 Heading 2", "H2 Heading 3", "H2 Heading 4", "H2 Heading 5", "H2 Heading 6", "H2 Heading 7", "H2 Heading 8"]
+  "outline": ["H2 Heading 1", "H2 Heading 2", "H2 Heading 3", "H2 Heading 4", "H2 Heading 5", "H2 Heading 6"],
+  "keyTakeaways": ["Takeaway 1", "Takeaway 2", "Takeaway 3", "Takeaway 4", "Takeaway 5"],
+  "popularSearches": ["search term 1", "search term 2", "search term 3", "search term 4", "search term 5", "search term 6", "search term 7", "search term 8", "search term 9", "search term 10"]
 }`
         }
       ],
-      response_format: { type: "json_object" },
+      response_format: {
+        type: "json_schema",
+        json_schema: {
+          name: "blog_metadata",
+          strict: true,
+          schema: {
+            type: "object",
+            properties: {
+              title: { type: "string" },
+              subtitle: { type: "string" },
+              metaTitle: { type: "string" },
+              metaDescription: { type: "string" },
+              slug: { type: "string" },
+              outline: { type: "array", items: { type: "string" } },
+              keyTakeaways: { type: "array", items: { type: "string" } },
+              popularSearches: { type: "array", items: { type: "string" } }
+            },
+            required: ["title", "subtitle", "metaTitle", "metaDescription", "slug", "outline", "keyTakeaways", "popularSearches"],
+            additionalProperties: false
+          }
+        }
+      },
       temperature: 0.7,
     });
 
@@ -90,6 +114,7 @@ Return ONLY a JSON object with this exact structure:
 
       const heading = outline[i];
       const isLastHeading = i === outline.length - 1;
+      const isComparison = heading.toLowerCase().includes('compar') || heading.toLowerCase().includes(' vs');
       console.log(`[AI Generator Flow] Generating chunk ${i + 1}/${outline.length}: ${heading}`);
       
       const chunkSystemPrompt = `
@@ -98,15 +123,16 @@ Target Primary Keyword: ${primaryKeyword}
 Secondary Keywords: ${secondaryKeyword || ""}
 Article Title: ${step1Result.title}
 
-**CRITICAL REQUIREMENT**:
-Write EXACTLY 300-380 words of HTML content specific ONLY to this H2 section: "<h2>${heading}</h2>".
+**CRITICAL INSTRUCTION FOR LENGTH:
+Write EXACTLY 200-230 words of HTML content specific ONLY to this H2 section: "<h2>${heading}</h2>".
+DO NOT exceed 230 words, otherwise the total blog length will overshoot the 2000 word limit. Keep sentences punchy and highly informative.
 Start the response directly with the "<h2>${heading}</h2>" tag, followed by the content.
 Dive deep into legal precedents, procedures, pitfalls, historical context, or case studies where appropriate.
 
 **Requirements**:
 - **Structure**: Use HTML tags: <h2>, <h3>, <h4>, <p>, <ul>, <li>, <table>. 
 - **Tone**: Professional, authoritative, human. Use Indian context (Rupees ₹, RBI, DRT, etc.) naturally.
-- **No Markdown**: Do NOT use markdown headers (like ##) or markdown formatting. Use HTML tags instead.${isLastHeading ? "" : "\n- **NO CONCLUSIONS**: This is merely ONE section of a larger article. DO NOT write any concluding paragraphs, summaries, 'in conclusion', or wrap-ups at the end of this section. End the section factually and leave it open-ended."}
+- **No Markdown**: Do NOT use markdown headers (like ##) or markdown formatting. Use HTML tags instead.${isLastHeading ? "\n- **SOURCES / CITATIONS**: Because this is the FINAL section of the article, you MUST generate a '<h3>Sources & References</h3>' section at the very end of your HTML output. This should be formatted as an HTML list containing exactly 5 highly relevant external sources. EVERY SINGLE BULLET POINT MUST CONTAIN A CLICKABLE HYPERLINK using an <a href=\"...\"> tag. DO NOT USE PLAIN TEXT BRACKETS FOR URLs. YOU WILL BE PENALIZED IF YOU DO NOT PROVIDE 5 SEPARATE <a href> LINKS TO REAL DOMAINS (e.g. rbi.org.in, sbi.co.in, consumeraffairs.nic.in, etc.)." : "\n- **NO CONCLUSIONS**: This is merely ONE section of a larger article. DO NOT write any concluding paragraphs, summaries, 'in conclusion', or wrap-ups at the end of this section. End the section factually and leave it open-ended."}${isComparison ? "\n- **COMPARISON TABLE**: Because this section is a comparison, you MUST include a highly detailed HTML <table> comparing the options or concepts across multiple parameters (e.g., Who it's for, What it does, Impact, Cost). Use <thead>, <tbody>, <tr>, <th>, and <td>." : ""}
 - **Internal Linking**: You MUST naturally integrate at least one link to the following CredSettle domain pages where relevant:
   - https://www.credsettle.com/loan-settlement
   - https://www.credsettle.com/services/anti-harassment
@@ -121,8 +147,8 @@ Dive deep into legal precedents, procedures, pitfalls, historical context, or ca
 
       const context = body.context || body.writeup;
       const chunkUserMessage = context && context !== primaryKeyword
-        ? `Write the 300-380 word HTML section for "<h2>${heading}</h2>".\nAdditional overall context: ${context}`
-        : `Write the 300-380 word HTML section for "<h2>${heading}</h2>".`;
+        ? `Write the 200-230 word HTML section for "<h2>${heading}</h2>".\nAdditional overall context: ${context}`
+        : `Write the 200-230 word HTML section for "<h2>${heading}</h2>".`;
 
       try {
         const chunkCompletion = await openai.chat.completions.create({
@@ -168,6 +194,7 @@ Dive deep into legal precedents, procedures, pitfalls, historical context, or ca
     let faqs = [];
     let reviews = [];
     let suggestedImagePrompt = "Professional legal recovery illustration";
+    let infographicPrompt = "Infographic detailing the crux of the blog";
 
     if (totalInputTokens + totalOutputTokens >= MAX_TOTAL_TOKENS) {
       console.warn(`[AI Generator Flow] Hard token limit (${MAX_TOTAL_TOKENS}) reached. Skipping FAQs and Reviews to prevent quota overuse.`);
@@ -178,7 +205,8 @@ You are a legal content strategist and SEO expert for CredSettle.
 Analyze the following generated article Title, Subtitle, and HTML Description, and generate:
 1. At least 8-10 highly relevant, detailed FAQs (frequently asked questions) that directly relate to the article content.
 2. 5 realistic customer review snippets (with Indian names) expressing high satisfaction with the recovery service.
-3. A suggested image prompt describing a clean, professional, modern corporate infographic/illustration suitable for this article.
+3. A suggested image prompt describing a clean, professional, modern corporate illustration suitable for the article's main hero section.
+4. An infographic prompt describing a highly detailed, data-driven infographic visually explaining the crux of the article.
 Article Title: ${step1Result.title}
 Article Subtitle: ${step1Result.subtitle}
 
@@ -196,7 +224,8 @@ Return ONLY a JSON object with this exact structure:
   "reviews": [
     { "name": "Reviewer Full Name", "rating": 5, "review": "Detailed review text..." }
   ],
-  "suggestedImagePrompt": "Visual description for the article's featured image"
+  "suggestedImagePrompt": "Visual description for the article's featured image",
+  "infographicPrompt": "Visual description for the article's crux infographic"
 }`;
 
       const step3Completion = await openai.chat.completions.create({
@@ -221,6 +250,7 @@ Return ONLY a JSON object with this exact structure:
       faqs = step3Result.faqs || [];
       reviews = step3Result.reviews || [];
       suggestedImagePrompt = step3Result.suggestedImagePrompt || suggestedImagePrompt;
+      infographicPrompt = step3Result.infographicPrompt || infographicPrompt;
 
       console.log(`[AI Generator Flow] Step 3 complete. FAQs: ${faqs.length}, Reviews: ${reviews.length}`);
       } catch (step3Error) {
@@ -247,7 +277,10 @@ Return ONLY a JSON object with this exact structure:
       description: cleanedDescription,
       faqs: faqs,
       reviews: reviews,
-      suggestedImagePrompt: suggestedImagePrompt
+      suggestedImagePrompt: suggestedImagePrompt,
+      infographicPrompt: infographicPrompt,
+      keyTakeaways: step1Result.keyTakeaways || [],
+      popularSearches: step1Result.popularSearches || []
     };
 
     const finalJsonStr = JSON.stringify(finalResult);

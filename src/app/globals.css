@@ -52,6 +52,15 @@ div[style*="position: fixed"] {
   }
 }
 
+@keyframes slide-right-seamless {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 .animate-slide-all {
   animation: slide-all 120s linear infinite;
 }

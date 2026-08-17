@@ -66,6 +66,9 @@ interface Blog {
   description: string;
   date: string;
   image: string;
+  infographic?: string;
+  keyTakeaways?: string[];
+  popularSearches?: string[];
   created: number;
   metaTitle?: string;
   metaDescription?: string;
@@ -86,12 +89,15 @@ const BlogsDashboard = () => {
     description: '',
     date: new Date().toISOString().split('T')[0],
     image: '',
+    infographic: '',
     created: Date.now(),
     metaTitle: '',
     metaDescription: '',
     slug: '',
     faqs: [],
     reviews: [],
+    keyTakeaways: [],
+    popularSearches: [],
     author: 'CredSettle Team',
   });
   const [uploading, setUploading] = useState(false);
@@ -109,6 +115,8 @@ const BlogsDashboard = () => {
   const [isGenerating, setIsGenerating] = useState(false);
   const [imagePrompt, setImagePrompt] = useState('');
   const [isGeneratingImage, setIsGeneratingImage] = useState(false);
+  const [infographicPrompt, setInfographicPrompt] = useState('');
+  const [isGeneratingInfographic, setIsGeneratingInfographic] = useState(false);
   const [expansionPrompt, setExpansionPrompt] = useState('');
   const [isExpanding, setIsExpanding] = useState(false);
   const [isChecking, setIsChecking] = useState(true);
@@ -211,10 +219,13 @@ const BlogsDashboard = () => {
             description: docData.description || '',
             date: docData.date || '',
             image: docData.image || '',
+            infographic: docData.infographic || '',
             created: docData.created || Date.now(),
             metaTitle: docData.metaTitle || '',
             metaDescription: docData.metaDescription || '',
             slug: docData.slug || '',
+            keyTakeaways: Array.isArray(docData.keyTakeaways) ? docData.keyTakeaways : [],
+            popularSearches: Array.isArray(docData.popularSearches) ? docData.popularSearches : [],
             faqs: docData.faqs || [],
             reviews: [], // Reviews are subcollection, not fetched here
             author: docData.author || 'CredSettle Team',
@@ -304,6 +315,50 @@ const BlogsDashboard = () => {
         ...prevState,
         faqs: updatedFaqs,
       };
+    });
+  };
+
+  const addKeyTakeaway = () => {
+    setNewBlog((prevState) => ({
+      ...prevState,
+      keyTakeaways: [...(prevState.keyTakeaways || []), ''],
+    }));
+  };
+
+  const removeKeyTakeaway = (index: number) => {
+    setNewBlog((prevState) => ({
+      ...prevState,
+      keyTakeaways: (prevState.keyTakeaways || []).filter((_, i) => i !== index),
+    }));
+  };
+
+  const handleKeyTakeawayChange = (index: number, value: string) => {
+    setNewBlog((prevState) => {
+      const updated = [...(prevState.keyTakeaways || [])];
+      updated[index] = value;
+      return { ...prevState, keyTakeaways: updated };
+    });
+  };
+
+  const addPopularSearch = () => {
+    setNewBlog((prevState) => ({
+      ...prevState,
+      popularSearches: [...(prevState.popularSearches || []), ''],
+    }));
+  };
+
+  const removePopularSearch = (index: number) => {
+    setNewBlog((prevState) => ({
+      ...prevState,
+      popularSearches: (prevState.popularSearches || []).filter((_, i) => i !== index),
+    }));
+  };
+
+  const handlePopularSearchChange = (index: number, value: string) => {
+    setNewBlog((prevState) => {
+      const updated = [...(prevState.popularSearches || [])];
+      updated[index] = value;
+      return { ...prevState, popularSearches: updated };
     });
   };
 
@@ -547,6 +602,7 @@ const BlogsDashboard = () => {
           description: docData.description || '',
           date: docData.date || '',
           image: docData.image || '',
+          infographic: docData.infographic || '',
           created: docData.created || Date.now(),
           metaTitle: docData.metaTitle || '',
           metaDescription: docData.metaDescription || '',
@@ -658,10 +714,13 @@ const BlogsDashboard = () => {
       description: '',
       date: new Date().toISOString().split('T')[0],
       image: '',
+      infographic: '',
       created: Date.now(),
       metaTitle: '',
       metaDescription: '',
       slug: '',
+      keyTakeaways: [],
+      popularSearches: [],
       faqs: [],
       reviews: [],
       author: 'CredSettle Team',
@@ -738,10 +797,16 @@ const BlogsDashboard = () => {
         slug: generatedData.slug || prev.slug,
         faqs: generatedData.faqs || prev.faqs,
         reviews: generatedData.reviews || prev.reviews,
+        keyTakeaways: generatedData.keyTakeaways || prev.keyTakeaways,
+        popularSearches: generatedData.popularSearches || prev.popularSearches,
       }));
 
       if (generatedData.suggestedImagePrompt) {
         setImagePrompt(generatedData.suggestedImagePrompt);
+      }
+
+      if (generatedData.infographicPrompt) {
+        setInfographicPrompt(generatedData.infographicPrompt);
       }
 
       // Optionally handle reviews if your schema supports it
@@ -804,6 +869,55 @@ const BlogsDashboard = () => {
       alert('Failed to generate image. Please try again.');
     } finally {
       setIsGeneratingImage(false);
+    }
+  };
+
+  const handleGenerateInfographic = async () => {
+    if (!infographicPrompt) {
+      alert('Please enter an infographic prompt');
+      return;
+    }
+
+    try {
+      setIsGeneratingInfographic(true);
+      const response = await fetch('/api/generate-image', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ prompt: infographicPrompt }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to generate infographic');
+      }
+
+      const data = await response.json();
+
+      try {
+        const imageRes = await fetch(data.url);
+        const imageBlob = await imageRes.blob();
+        
+        const storageRef = ref(storage, `blog-images/ai_infographic_${Date.now()}.png`);
+        const snapshot = await uploadBytes(storageRef, imageBlob);
+        const downloadURL = await getDownloadURL(snapshot.ref);
+        
+        setNewBlog((prev) => ({
+          ...prev,
+          infographic: downloadURL,
+        }));
+      } catch (uploadError) {
+        console.error('Failed to upload AI infographic to Firebase:', uploadError);
+        setNewBlog((prev) => ({
+          ...prev,
+          infographic: data.url,
+        }));
+      }
+    } catch (error) {
+      console.error('Infographic generation failed:', error);
+      alert('Failed to generate infographic. Please try again.');
+    } finally {
+      setIsGeneratingInfographic(false);
     }
   };
 
@@ -1362,17 +1476,64 @@ const BlogsDashboard = () => {
                   </div>
                 )}
               </div>
+
+              {/* Infographic Input */}
+              <div className="flex flex-col gap-1.5">
+                <label className="text-xs font-extrabold uppercase text-slate-400 tracking-wider">Infographic URL</label>
+                <div className="flex flex-col xl:flex-row gap-2">
+                  <input
+                    type="text"
+                    name="infographic"
+                    value={newBlog.infographic || ''}
+                    onChange={handleInputChange}
+                    placeholder="URL for the blog infographic"
+                    className="p-3.5 border border-slate-200 rounded-xl focus:border-[#007AFF] focus:outline-none text-xs sm:text-sm font-semibold text-slate-700 bg-white flex-1"
+                  />
+                  <div className="flex gap-2">
+                    <button
+                      type="button"
+                      onClick={handleGenerateInfographic}
+                      disabled={isGeneratingInfographic || !infographicPrompt}
+                      className="px-4 py-3 bg-green-50 hover:bg-green-100 border border-green-500/35 text-green-700 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50 whitespace-nowrap"
+                      title="Generate infographic with AI"
+                    >
+                      <span>{isGeneratingInfographic ? '💫 Generating...' : '✨ Generate AI Infographic'}</span>
+                    </button>
+                  </div>
+                </div>
+                <div className="mt-2 flex gap-2">
+                  <input
+                    type="text"
+                    value={infographicPrompt}
+                    onChange={(e) => setInfographicPrompt(e.target.value)}
+                    placeholder="Prompt for AI infographic generator..."
+                    className="flex-1 p-2 border border-slate-200 rounded-lg text-xs bg-white text-slate-700"
+                    disabled={isGeneratingInfographic}
+                  />
+                </div>
+              </div>
             </div>
 
             {/* Image Preview Block */}
-            {(imagePreview || newBlog.image) && (
+            {(imagePreview || newBlog.image || newBlog.infographic) && (
               <div className="p-4 bg-slate-50 rounded-2xl border border-slate-150 flex flex-col items-center gap-2">
-                <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Cover Image Preview</span>
-                <img
-                  src={imagePreview || newBlog.image}
-                  alt="cover preview"
-                  className="w-full max-w-sm h-40 object-cover rounded-xl border border-slate-200 shadow-sm"
-                />
+                <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Image Previews</span>
+                <div className="flex gap-4">
+                  {(imagePreview || newBlog.image) && (
+                    <img
+                      src={imagePreview || newBlog.image}
+                      alt="cover preview"
+                      className="w-full max-w-sm h-40 object-cover rounded-xl border border-slate-200 shadow-sm"
+                    />
+                  )}
+                  {newBlog.infographic && (
+                    <img
+                      src={newBlog.infographic}
+                      alt="infographic preview"
+                      className="w-full max-w-sm h-40 object-cover rounded-xl border border-slate-200 shadow-sm"
+                    />
+                  )}
+                </div>
               </div>
             )}
 
@@ -1447,6 +1608,94 @@ const BlogsDashboard = () => {
                   />
                 </div>
               </div>
+            </div>
+
+            {/* Key Takeaways Section */}
+            <div className="p-6 border border-slate-150 rounded-3xl bg-slate-50/30 flex flex-col gap-6">
+              <div className="flex justify-between items-center border-b border-slate-100 pb-3">
+                <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-1.5">
+                  <FontAwesomeIcon icon={faFileAlt} className="text-[#007AFF]" />
+                  <span>Key Takeaways (Top Section)</span>
+                </h3>
+                <button
+                  type="button"
+                  onClick={addKeyTakeaway}
+                  className="text-xs font-bold text-[#007AFF] hover:text-blue-800 flex items-center gap-1 cursor-pointer"
+                >
+                  <FontAwesomeIcon icon={faPlus} />
+                  <span>Add Takeaway</span>
+                </button>
+              </div>
+
+              {(newBlog.keyTakeaways || []).length === 0 ? (
+                <p className="text-slate-400 text-xs italic">No key takeaways generated. Add some to display the summary box.</p>
+              ) : (
+                <div className="flex flex-col gap-4">
+                  {(newBlog.keyTakeaways || []).map((takeaway, idx) => (
+                    <div key={idx} className="bg-white p-4 rounded-xl border border-slate-150 flex flex-col gap-3 relative shadow-sm">
+                      <button
+                        type="button"
+                        onClick={() => removeKeyTakeaway(idx)}
+                        className="absolute top-2 right-2 w-6 h-6 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-400 hover:text-red-500 cursor-pointer transition-colors"
+                      >
+                        <FontAwesomeIcon icon={faTimes} className="text-[10px]" />
+                      </button>
+                      <div className="grid grid-cols-1 gap-2.5 pr-8">
+                        <textarea
+                          placeholder="Actionable takeaway..."
+                          rows={2}
+                          value={takeaway}
+                          onChange={(e) => handleKeyTakeawayChange(idx, e.target.value)}
+                          className="p-3 border border-slate-200 rounded-lg focus:border-[#007AFF] focus:outline-none text-xs font-medium text-slate-700 bg-slate-50 resize-y"
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Popular Searches Section */}
+            <div className="p-6 border border-slate-150 rounded-3xl bg-slate-50/30 flex flex-col gap-6">
+              <div className="flex justify-between items-center border-b border-slate-100 pb-3">
+                <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-1.5">
+                  <FontAwesomeIcon icon={faSearch} className="text-[#007AFF]" />
+                  <span>Popular Searches (Bottom Badges)</span>
+                </h3>
+                <button
+                  type="button"
+                  onClick={addPopularSearch}
+                  className="text-xs font-bold text-[#007AFF] hover:text-blue-700 flex items-center gap-1 cursor-pointer"
+                >
+                  <FontAwesomeIcon icon={faPlus} />
+                  <span>Add Search Term</span>
+                </button>
+              </div>
+
+              {(newBlog.popularSearches || []).length === 0 ? (
+                <p className="text-slate-400 text-xs italic">No popular searches generated. Add some to display tags at the bottom.</p>
+              ) : (
+                <div className="flex flex-wrap gap-3">
+                  {(newBlog.popularSearches || []).map((term, idx) => (
+                    <div key={idx} className="bg-white px-3 py-2 rounded-lg border border-slate-200 flex items-center gap-2 shadow-sm">
+                      <input
+                        type="text"
+                        placeholder="Search term..."
+                        value={term}
+                        onChange={(e) => handlePopularSearchChange(idx, e.target.value)}
+                        className="focus:outline-none text-xs font-semibold text-slate-700 bg-transparent w-[120px]"
+                      />
+                      <button
+                        type="button"
+                        onClick={() => removePopularSearch(idx)}
+                        className="w-5 h-5 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:text-red-500 cursor-pointer transition-colors"
+                      >
+                        <FontAwesomeIcon icon={faTimes} className="text-[9px]" />
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
 
             {/* FAQ Subcollection Section */}

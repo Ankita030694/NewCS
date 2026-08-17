@@ -22,11 +22,14 @@ export interface BlogDocument {
   description: string;
   faqs: BlogFaq[];
   image: string;
+  infographic?: string;
   metaDescription: string;
   metaTitle: string;
   slug: string;
   subtitle: string;
   title: string;
+  keyTakeaways?: string[];
+  popularSearches?: string[];
 }
 
 export interface Review {
@@ -108,11 +111,14 @@ function mapDocToBlogDocument(
       typeof data.image === 'string' && data.image.trim() !== ''
         ? data.image
         : '/sample.png',
+    infographic: typeof data.infographic === 'string' ? data.infographic : undefined,
     metaDescription: typeof data.metaDescription === 'string' ? data.metaDescription : '',
     metaTitle: typeof data.metaTitle === 'string' ? data.metaTitle : '',
     slug,
     subtitle: typeof data.subtitle === 'string' ? data.subtitle : '',
     title: rawTitle,
+    keyTakeaways: Array.isArray(data.keyTakeaways) ? (data.keyTakeaways as string[]) : [],
+    popularSearches: Array.isArray(data.popularSearches) ? (data.popularSearches as string[]) : [],
   };
 }
 
@@ -252,17 +258,30 @@ export async function getBlogBySlug(slug: string): Promise<BlogDocument | null> 
 
   let blog = findBlog(blogs);
 
-  // Fallback: If not found in cache, try fetching directly by ID if it looks like one
-  // or fetch fresh by slug if we can (though we'd need an index for a query)
-  if (!blog && (slug.length >= 15 || slug.includes('-'))) {
+  // Fallback: If not found in cache, query Firestore directly for instant real-time access
+  if (!blog) {
     try {
-      // Direct ID fetch
-      const { doc, getDoc } = await import('firebase/firestore');
-      const docRef = doc(db, 'blogs', slug);
-      const docSnap = await getDoc(docRef);
+      const { collection: getCol, getDocs: fetchDocs, query: buildQ, where: whereFilter, limit: limitDocs, doc: getDocRef, getDoc: fetchSingleDoc } = await import('firebase/firestore');
       
-      if (docSnap.exists()) {
-        blog = mapDocToBlogDocument(docSnap as any);
+      // 1. Try querying by slug directly
+      const q = buildQ(getCol(db, 'blogs'), whereFilter('slug', '==', slug), limitDocs(1));
+      const querySnap = await fetchDocs(q);
+      if (!querySnap.empty) {
+        blog = mapDocToBlogDocument(querySnap.docs[0]);
+      } else {
+        // 2. Try querying by canonical slug
+        const qCanonical = buildQ(getCol(db, 'blogs'), whereFilter('slug', '==', canonical), limitDocs(1));
+        const canonicalSnap = await fetchDocs(qCanonical);
+        if (!canonicalSnap.empty) {
+          blog = mapDocToBlogDocument(canonicalSnap.docs[0]);
+        } else {
+          // 3. Try direct ID fetch
+          const docRef = getDocRef(db, 'blogs', slug);
+          const docSnap = await fetchSingleDoc(docRef);
+          if (docSnap.exists()) {
+            blog = mapDocToBlogDocument(docSnap as any);
+          }
+        }
       }
     } catch (e) {
       console.error('Direct fetch fallback failed:', e);

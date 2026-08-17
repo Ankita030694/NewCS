@@ -12,6 +12,7 @@ import type { BlogFaq } from '@/data/blogDefaults';
 import { defaultBlogFaqs } from '@/data/blogDefaults';
 import { addBlogReview, type Review } from '@/lib/blogs';
 import { useTransition } from 'react';
+import CompanyProfile from '@/components/CompanyProfile';
 
 type BlogPost = {
   id: string;
@@ -19,9 +20,12 @@ type BlogPost = {
   subtitle: string;
   date: string;
   image: string;
+  infographic?: string;
   description: string;
   faqs: BlogFaq[];
   slug: string;
+  keyTakeaways?: string[];
+  popularSearches?: string[];
 };
 
 type RelatedBlog = {
@@ -38,11 +42,156 @@ type BlogPostPageClientProps = {
   reviews: Review[];
 };
 
+const formatDate = (dateStr: string) => {
+  if (!dateStr) return '';
+  const date = new Date(dateStr);
+  if (isNaN(date.getTime())) return dateStr;
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const year = date.getFullYear();
+  return `${day}-${month}-${year}`;
+};
+
+const calculateReadTime = (text: string) => {
+  if (!text) return 1;
+  const words = text.trim().split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
+};
+
+const getSolutionUrlForSearch = (term: string): string => {
+  const lower = term.toLowerCase();
+  
+  if (lower.includes('credit card') || lower.includes('card')) {
+    return '/services/credit-card-settlement';
+  }
+  if (lower.includes('personal')) {
+    return '/services/personal-loan-settlement';
+  }
+  if (lower.includes('business') || lower.includes('msme') || lower.includes('commercial')) {
+    return '/services/business-loan-settlement';
+  }
+  if (lower.includes('car') || lower.includes('vehicle') || lower.includes('auto')) {
+    return '/services/car-loan-settlement';
+  }
+  if (lower.includes('cheque') || lower.includes('check') || lower.includes('138') || lower.includes('lawyer')) {
+    return '/services/cheque-bounce-lawyer';
+  }
+  if (lower.includes('app') || lower.includes('instant') || lower.includes('7 day') || lower.includes('fintech')) {
+    return '/services/app-loan-settlement';
+  }
+  if (lower.includes('nbfc') || lower.includes('bajaj')) {
+    return '/services/nbfc-loan-settlement';
+  }
+  if (lower.includes('harass') || lower.includes('recovery agent') || lower.includes('threat') || lower.includes('calls')) {
+    return '/services/anti-harassment';
+  }
+  if (lower.includes('score') || lower.includes('cibil') || lower.includes('builder') || lower.includes('repair') || lower.includes('credit')) {
+    return '/services/credit-score-builder';
+  }
+  if (lower.includes('consolidation')) {
+    return '/debt-settlement-vs-debt-consolidation';
+  }
+  if (lower.includes('management') || lower.includes('planning') || lower.includes('resolution')) {
+    return '/debt-management-services';
+  }
+  if (lower.includes('contact') || lower.includes('consultation') || lower.includes('help') || lower.includes('call')) {
+    return '/contact';
+  }
+  
+  return '/loan-settlement';
+};
+
+const AnimatedCounter = ({
+  end,
+  decimals = 0,
+  duration = 1800,
+  prefix = '',
+  suffix = '',
+  useLocale = false,
+}: {
+  end: number;
+  decimals?: number;
+  duration?: number;
+  prefix?: string;
+  suffix?: string;
+  useLocale?: boolean;
+}) => {
+  const [count, setCount] = useState(0);
+  const ref = useRef<HTMLSpanElement>(null);
+  const [hasStarted, setHasStarted] = useState(false);
+
+  useEffect(() => {
+    const element = ref.current;
+    if (!element) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setHasStarted(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!hasStarted) return;
+
+    let startTimestamp: number | null = null;
+    let animationFrameId: number;
+
+    const easeOutCubic = (x: number): number => 1 - Math.pow(1 - x, 3);
+
+    const step = (timestamp: number) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const elapsed = timestamp - startTimestamp;
+      const progress = Math.min(elapsed / duration, 1);
+      const easedProgress = easeOutCubic(progress);
+      
+      const current = easedProgress * end;
+      setCount(current);
+
+      if (progress < 1) {
+        animationFrameId = requestAnimationFrame(step);
+      } else {
+        setCount(end);
+      }
+    };
+
+    animationFrameId = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(animationFrameId);
+  }, [hasStarted, end, duration]);
+
+  const displayValue = () => {
+    if (decimals > 0) {
+      return count.toFixed(decimals);
+    }
+    const val = Math.floor(count);
+    if (useLocale) {
+      return val.toLocaleString('en-IN');
+    }
+    return val.toString();
+  };
+
+  return (
+    <span ref={ref} className="tabular-nums">
+      {prefix}
+      {displayValue()}
+      {suffix}
+    </span>
+  );
+};
+
 const author = {
-  name: 'Legal Expert Team',
-  title: 'CredSettle Legal Advisory',
-  image: '/credsettle-logo-black.png',
-  bio: 'Our team of experienced legal professionals, financial advisors, and debt settlement experts is dedicated to helping individuals navigate debt settlement challenges. With years of combined experience in RBI compliance, debt negotiation, and legal protection, we ensure that every client receives expert guidance tailored to their unique financial situation.'
+  name: 'Ashish Jhangra',
+  title: 'AMA Legal Solutions',
+  image: '/credsettle-logo-black.png', // Or perhaps a placeholder for Ashish's headshot
+  bio: 'Ashish is a legal and debt resolution professional at AMA Legal Solutions, passionate about helping individuals and businesses overcome financial challenges through legal guidance, debt resolution, and financial recovery solutions.',
+  href: '/author/ashish-jhangra'
 };
 
 type Heading = {
@@ -149,6 +298,23 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
   }, [blog.description]);
 
   const { processedHtml, headings } = processedContent;
+
+  const { part1, part2 } = useMemo(() => {
+    if (!processedHtml || headings.length < 2) return { part1: processedHtml, part2: '' };
+    
+    const middleHeading = headings[Math.floor(headings.length / 2)];
+    const searchString = `id="${middleHeading.id}"`;
+    const headingIndex = processedHtml.indexOf(searchString);
+    if (headingIndex === -1) return { part1: processedHtml, part2: '' };
+    
+    const splitIndex = processedHtml.lastIndexOf('<h', headingIndex);
+    if (splitIndex === -1) return { part1: processedHtml, part2: '' };
+
+    return {
+      part1: processedHtml.substring(0, splitIndex),
+      part2: processedHtml.substring(splitIndex)
+    };
+  }, [processedHtml, headings]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -330,521 +496,488 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
   const breadcrumbsSlug = canonicalSlug || blog.slug;
 
   return (
-    <div
-      className="relative min-h-screen"
-      style={{
-        background:
-          'linear-gradient(180deg, #F7FBFF 0%, #FFFFFF 45%, #E7F3FF 100%)'
-      }}
-    >
+    <div className="relative min-h-screen bg-white">
       <Navbar />
 
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{ contain: 'layout style paint' }}
-      >
-      {!isFirefox && (
-          <div
-            className="absolute -top-32 -left-32 w-[480px] h-[480px] opacity-70 rounded-full blur-3xl"
-            style={{ background: 'radial-gradient(circle, rgba(0, 122, 255, 0.35) 0%, transparent 70%)' }}
-          />
-        )}
-        <div
-          className="absolute top-[40%] -right-48 w-[420px] h-[420px] opacity-40 rounded-full blur-3xl"
-          style={{ background: 'radial-gradient(circle, rgba(12, 39, 86, 0.25) 0%, transparent 65%)' }}
-        />
-        <div
-          className="absolute bottom-[-120px] left-1/2 -translate-x-1/2 w-[560px] h-[560px] opacity-30 rounded-full blur-3xl"
-          style={{ background: 'radial-gradient(circle, rgba(0, 178, 241, 0.3) 0%, transparent 70%)' }}
-        />
-      </div>
-
-      <div className="relative z-10 pt-24 pb-24 px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto w-full max-w-[95%] xl:max-w-[90%] 2xl:max-w-[1600px]">
-          <div className="flex justify-center mb-6 lg:mb-8">
+      <div className="blog-detail-container">
+        {/* Breadcrumbs Section */}
+        <nav aria-label="Breadcrumb" className="w-full bg-[#F8F9FC]">
+          <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <Breadcrumbs
               items={[
                 { name: 'Home', url: '/' },
                 { name: 'Resources', url: '/resources' },
-                { name: blog.title, url: `/resources/${breadcrumbsSlug}` }
+                { name: blog.title, url: `/resources/${canonicalSlug}` }
               ]}
             />
           </div>
+        </nav>
 
-          <div
-            className="text-center mb-10 lg:mb-14 transition-all duration-700 opacity-100 translate-y-0"
-          >
-            <h1
-              className="font-semibold text-[28px] md:text-[40px] lg:text-[52px] leading-tight mb-3"
-              style={{
-                fontFamily: 'Poppins',
-                background: 'linear-gradient(120deg, #0C2756 0%, #0E5AD0 45%, #007AFF 90%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text'
-              }}
-            >
-              {blog.title}
-            </h1>
-
-            {blog.subtitle && (
-              <p
-                className="max-w-3xl mx-auto text-sm md:text-base lg:text-lg mb-4"
-                style={{
-                  color: 'rgba(12, 39, 86, 0.75)',
-                  fontFamily: 'Poppins',
-                  fontWeight: 400,
-                  lineHeight: 1.6
-                }}
-              >
-                {blog.subtitle}
-              </p>
-            )}
-
-            <div className="flex flex-wrap items-center justify-center gap-3 text-xs md:text-sm">
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-sky-900/10 bg-white/70 backdrop-blur">
-                <i className="fas fa-calendar-alt text-[#007AFF]" aria-hidden="true"></i>
-                <span
-              style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins'
-              }}
-            >
-              {blog.date}
-                </span>
-              </div>
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-sky-900/10 bg-white/70 backdrop-blur">
-                <i className="fas fa-bookmark text-[#007AFF]" aria-hidden="true"></i>
-                <span
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins'
-                  }}
-                >
-                  {blog.slug.replace(/-/g, ' ')}
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {blog.image && (
-            <div
-              className="relative mx-auto mb-10 lg:mb-16 overflow-hidden rounded-[26px] shadow-lg transition duration-700 opacity-100 translate-y-0"
-              style={{ aspectRatio: '16/9', maxWidth: '960px' }}
-            >
-              <Image
-                src={blog.image || '/sample.png'}
-                alt={blog.title}
-                fill
-                sizes="(min-width: 1024px) 60vw, (min-width: 768px) 80vw, 100vw"
-                className="object-cover"
-                priority
-                placeholder="blur"
-                blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
-                unoptimized
-              />
-            </div>
-          )}
-
-          {headings.length > 0 && (
-            <div className="mb-10 lg:hidden">
-                <TableOfContents headings={headings} />
-            </div>
-          )}
-
-          <div className="flex flex-col lg:flex-row gap-8">
-            {/* Left Column - Sticky TOC */}
-            <div className="lg:w-1/6 hidden lg:block">
-              <div className="sticky top-24 space-y-4">
-                 {headings.length > 0 && (
-                   <div className="bg-white/90 backdrop-blur p-5 rounded-2xl shadow-[0_8px_30px_rgba(12,39,86,0.04)] border border-sky-900/10">
-                      <h3 className="font-semibold text-sm text-[#0C2756] mb-4 border-b border-sky-900/10 pb-2">
-                         On this page
-                      </h3>
-                      <nav className="space-y-1">
-                         {headings.map((heading) => (
-                            <a
-                               key={heading.id}
-                               href={`#${heading.id}`}
-                               onClick={(e) => {
-                                  e.preventDefault();
-                                  document.querySelector(`#${heading.id}`)?.scrollIntoView({ behavior: 'smooth' });
-                                  setActiveId(heading.id);
-                               }}
-                               className={`block text-[13px] leading-snug transition-all duration-200 pl-3 border-l-2 py-1.5 ${
-                                  activeId === heading.id
-                                     ? 'border-[#007AFF] text-[#007AFF] font-medium bg-blue-50/50 rounded-r'
-                                     : 'border-transparent text-gray-500 hover:text-[#007AFF] hover:pl-4'
-                               }`}
-                            >
-                               {heading.text}
-                            </a>
-                         ))}
-                      </nav>
-                   </div>
-                 )}
-              </div>
-            </div>
-
-            <div
-              className="lg:w-2/3 w-full transition duration-700 opacity-100 translate-y-0"
-            >
-              <div
-                className="rounded-3xl p-6 md:p-8 lg:p-10 shadow-[0_18px_60px_rgba(12,39,86,0.08)] border border-sky-900/10 backdrop-blur-xl"
-                style={{
-                  background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(231, 243, 255, 0.8) 100%)'
-                }}
-              >
-                <div
-                  className="blog-content"
-                dangerouslySetInnerHTML={{
-                  __html: processedHtml || blog.description || ''
-                }}
-              />
-              </div>
-
-              <div
-                className="mt-8 rounded-2xl border border-sky-900/10 bg-white/90 backdrop-blur px-6 py-5 shadow-[0_10px_35px_rgba(12,39,86,0.08)]"
-                style={{
-                  background: 'linear-gradient(135deg, rgba(0, 178, 241, 0.12) 0%, rgba(255, 255, 255, 0.9) 100%)'
-                }}
-              >
-                <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-[#007AFF]/10 flex items-center justify-center text-[#007AFF]">
-                      <i className="fas fa-share-alt" aria-hidden="true"></i>
-                    </div>
-                    <div>
-                      <p
-                        className="text-sm font-semibold"
-                        style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                      >
-                        Share this insight
-                      </p>
-                      <p
-                        className="text-xs"
-                        style={{ color: 'rgba(12, 39, 86, 0.65)', fontFamily: 'Poppins' }}
-                      >
-                        Help someone else stay informed about debt relief
-                      </p>
-                    </div>
-                  </div>
-                  {shareLinks && (
-                    <div className="flex gap-2">
-                      <a
-                        href={shareLinks.facebook}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#1877F2] transition hover:bg-[#1877F2] hover:text-white flex items-center justify-center"
-                        aria-label="Share on Facebook"
-                      >
-                        <i className="fab fa-facebook-f" aria-hidden="true"></i>
-                      </a>
-                      <a
-                        href={shareLinks.twitter}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#1DA1F2] transition hover:bg-[#1DA1F2] hover:text-white flex items-center justify-center"
-                        aria-label="Share on X"
-                      >
-                        <i className="fab fa-twitter" aria-hidden="true"></i>
-                      </a>
-                      <a
-                        href={shareLinks.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#0A66C2] transition hover:bg-[#0A66C2] hover:text-white flex items-center justify-center"
-                        aria-label="Share on LinkedIn"
-                      >
-                        <i className="fab fa-linkedin-in" aria-hidden="true"></i>
-                      </a>
-                      <a
-                        href={shareLinks.whatsapp}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-10 h-10 rounded-full border border-sky-900/10 bg-white text-[#128C7E] transition hover:bg-[#128C7E] hover:text-white flex items-center justify-center"
-                        aria-label="Share on WhatsApp"
-                      >
-                        <i className="fab fa-whatsapp" aria-hidden="true"></i>
-                      </a>
-                    </div>
-                  )}
-            </div>
-          </div>
-
-            <div
-                className="mt-8 rounded-3xl border border-sky-900/10 bg-white/90 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
-              style={{
-                  background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(239, 247, 255, 0.85) 100%)'
-              }}
-            >
-                <div className="flex flex-col gap-5 sm:flex-row sm:gap-6">
-                <div className="flex-shrink-0">
-                  <Image
-                    src={author.image}
-                    alt={author.name}
-                    width={96}
-                    height={96}
-                    className="w-20 h-20 md:w-24 md:h-24 rounded-2xl border border-sky-900/10 object-contain bg-white p-2"
-                    priority={false}
-                    placeholder="blur"
-                    blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
-                  />
-                </div>
-                  <div>
-                    <h3
-                      className="text-lg md:text-xl font-semibold mb-1"
-                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                  >
-                    {author.name} 
-                  </h3>
-                  <p
-                      className="text-sm font-medium mb-3"
-                      style={{ color: '#007AFF', fontFamily: 'Poppins' }}
-                  >
-                    {author.title}
-                  </p>
-                  <p
-                      className="text-sm leading-relaxed mb-4"
-                      style={{ color: 'rgba(12, 39, 86, 0.75)', fontFamily: 'Poppins' }}
-                  >
-                    {author.bio}
-                  </p>
-                    <Link
-                      href="/contact"
-                      className="inline-flex items-center gap-2 text-[#007AFF] font-medium transition hover:text-[#0E5AD0]"
-                      style={{ fontFamily: 'Poppins' }}
+        {/* Mobile TOC - simplified slider */}
+        {headings.length > 0 && (
+          <nav aria-label="In this article" className="lg:hidden w-full bg-[#EEF5FB]">
+            <div className="w-full max-w-[1440px] mx-auto px-4 py-2.5">
+              <ul className="m-0 flex list-none items-center gap-2 overflow-x-auto p-0 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                {headings.map((heading) => (
+                  <li key={heading.id} className="shrink-0">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        document.querySelector(`#${heading.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                        setActiveId(heading.id);
+                      }}
+                      className={`inline-flex h-9 items-center whitespace-nowrap rounded-[8px] border bg-white px-3 text-[12px] font-bold transition-colors ${
+                        activeId === heading.id
+                          ? 'border-[#004479] text-[#004479]'
+                          : 'border-[#CBD5E1] text-[#3F3F3F] hover:border-[#94A3B8]'
+                      }`}
                     >
-                      Talk to our legal desk <i className="fas fa-arrow-right text-xs" aria-hidden="true"></i>
+                      {heading.text}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </nav>
+        )}
+
+        {/* Hero Section */}
+        <section className="bg-white pb-6 pt-8 md:pb-8 md:pt-10" aria-label="Article hero">
+          <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-12 md:gap-10 lg:gap-12 md:items-center">
+              
+              {/* Left Column */}
+              <div className="flex min-w-0 flex-col gap-5 md:col-span-6 md:gap-7">
+
+                <h1 className="max-w-2xl break-words text-[34px] font-bold leading-[1.18] text-[#004479] sm:text-[38px] md:text-[44px] lg:text-[48px] font-serif tracking-tight">
+                  {blog.title}
+                </h1>
+                
+                {blog.subtitle && (
+                  <p className="max-w-[680px] text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] text-[#4E4E4E]">
+                    {blog.subtitle}
+                  </p>
+                )}
+                
+                <div className="flex flex-col items-start gap-3.5 pt-2 md:flex-row md:items-center md:gap-5 md:pt-3">
+                  <div className="flex min-w-0 items-center gap-3">
+                    <Link href={author.href} className="flex aspect-square h-11 w-11 flex-none items-center justify-center rounded-full bg-[#004479] text-[16px] font-bold text-white overflow-hidden transition-transform hover:scale-105 shadow-sm">
+                      AJ
                     </Link>
+                    <div className="min-w-0">
+                      <Link href={author.href} className="group flex items-center gap-1">
+                        <p className="truncate text-[15px] font-bold leading-tight text-[#004479] md:text-[16px] group-hover:text-[#007AFF] transition-colors">{author.name}</p>
+                        <i className="fas fa-external-link-alt text-[10px] text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity"></i>
+                      </Link>
+                      <p className="mt-0.5 break-words text-[12px] font-medium leading-snug text-[#8C8C8C] md:text-[13px]">
+                        Reviewed by CredSettle Team
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex shrink-0 flex-wrap items-center gap-2">
+                    <div className="inline-flex h-8 items-center gap-1.5 rounded-full border border-neutral-200 bg-[#F8FAFC] px-3.5 md:h-9 md:px-4">
+                      <i className="fas fa-calendar-alt text-[12px] text-[#4A5568]"></i>
+                      <span className="text-[12px] font-bold md:text-[13px] text-[#4A5568]">{formatDate(blog.date)}</span>
+                    </div>
+                    <div className="inline-flex h-8 items-center gap-1.5 rounded-full border border-neutral-200 bg-[#F8FAFC] px-3.5 md:h-9 md:px-4">
+                      <i className="fas fa-clock text-[12px] text-[#4A5568]"></i>
+                      <span className="text-[12px] font-bold md:text-[13px] text-[#4A5568]">{calculateReadTime(blog.description)} min read</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div
-                className="mt-8 rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
-                style={{
-                  background: 'linear-gradient(180deg, rgba(239, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%)'
-                }}
-              >
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="w-11 h-11 rounded-xl bg-[#007AFF]/12 text-[#007AFF] flex items-center justify-center">
-                    <i className="fas fa-question-circle text-lg" aria-hidden="true"></i>
+              {/* Right Column */}
+              {blog.image && (
+                <div className="flex md:col-span-6 md:justify-center lg:justify-start lg:pl-8">
+                  <div className="relative aspect-4/3 w-full max-w-[560px] overflow-hidden rounded-2xl bg-[#E8E8E8] lg:aspect-4/3">
+                    <Image
+                      src={blog.image || '/sample.png'}
+                      alt={blog.title}
+                      fill
+                      sizes="(min-width: 1024px) 50vw, 100vw"
+                      className="h-full w-full object-cover"
+                      priority
+                      placeholder="blur"
+                      blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
+                      unoptimized
+                    />
+                  </div>
+                </div>
+              )}
             </div>
-                  <div>
-                    <h2
-                      className="text-xl font-semibold"
-                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                    >
-                      Frequently Asked Questions
-                    </h2>
-                    <p
-                      className="text-xs"
-                      style={{ color: 'rgba(12, 39, 86, 0.65)', fontFamily: 'Poppins' }}
-                    >
-                      Answers from RBI-compliant debt settlement experts
-                    </p>
-                  </div>
-                  </div>
+          </div>
+        </section>
 
-                <div className="space-y-3">
-                  {faqs.map((faq) => {
-                    const isOpen = expandedFaqs.includes(faq.question);
-                    return (
-                      <div
-                        key={faq.question}
-                        className="rounded-2xl border border-sky-900/10 bg-white/90 shadow-sm transition hover:shadow-md"
-                      >
+        {/* Stats Strip */}
+        <div className="w-full py-4 lg:py-6 bg-[#EEF5FB]">
+          <div className="hidden xl:flex w-full max-w-[1440px] mx-auto justify-center gap-8 lg:gap-10 w-fit">
+            <div className="flex flex-col items-center justify-center">
+              <div className="flex gap-3 items-center">
+                <i className="fas fa-star text-[32px] text-[#007AFF]"></i>
+                <span className="text-[#004479] text-[36px] font-medium tracking-tight">
+                  <AnimatedCounter end={4.8} decimals={1} suffix="/5" duration={1500} />
+                </span>
+              </div>
+              <div className="text-[#4F4F4F] text-[15px] mt-1 text-center">Client Rating</div>
+            </div>
+            <div className="border-r mx-4 lg:mx-6 border-white"></div>
+            <div className="flex flex-col items-center justify-center">
+              <div className="flex gap-2 items-center">
+                <span className="text-[36px] font-medium text-[#007AFF]">₹</span>
+                <span className="text-[#004479] text-[36px] font-medium tracking-tight">
+                  <AnimatedCounter end={200} suffix="Cr+" duration={1800} />
+                </span>
+              </div>
+              <div className="text-[#4F4F4F] text-[15px] mt-1 text-center">Debt Settled</div>
+            </div>
+            <div className="border-r mx-4 lg:mx-6 border-white"></div>
+            <div className="flex flex-col items-center justify-center">
+              <div className="flex gap-3 items-center">
+                <i className="fas fa-users text-[32px] text-[#007AFF]"></i>
+                <span className="text-[#004479] text-[36px] font-medium tracking-tight">
+                  <AnimatedCounter end={5000} useLocale suffix="+" duration={2000} />
+                </span>
+              </div>
+              <div className="text-[#4F4F4F] text-[15px] mt-1 text-center">Happy Clients</div>
+            </div>
+            <div className="border-r mx-4 lg:mx-6 border-white"></div>
+            <div className="flex flex-col items-center justify-center">
+              <div className="flex gap-3 items-center">
+                <i className="fas fa-shield-alt text-[32px] text-[#007AFF]"></i>
+                <span className="text-[#004479] text-[36px] font-medium tracking-tight">
+                  <AnimatedCounter end={100} suffix="%" duration={1600} />
+                </span>
+              </div>
+              <div className="text-[#4F4F4F] text-[15px] mt-1 text-center">Legal Protection</div>
+            </div>
+          </div>
+          <div className="w-full xl:hidden overflow-hidden overflow-x-auto px-4 py-2 flex gap-8 whitespace-nowrap [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+             {/* Mobile simplified view */}
+             <div className="flex flex-col items-center">
+                <div className="flex items-center gap-2 justify-center">
+                  <span className="text-[#004479] text-[24px] font-bold">
+                    <AnimatedCounter end={4.8} decimals={1} suffix="/5" duration={1500} />
+                  </span>
+                </div>
+                <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Client Rating</div>
+             </div>
+             <div className="flex flex-col items-center">
+                <div className="flex items-center gap-1 justify-center">
+                  <span className="text-[#007AFF] text-[24px] font-bold">₹</span>
+                  <span className="text-[#004479] text-[24px] font-bold">
+                    <AnimatedCounter end={200} suffix="Cr+" duration={1800} />
+                  </span>
+                </div>
+                <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Debt Settled</div>
+             </div>
+             <div className="flex flex-col items-center">
+                <div className="flex items-center gap-2 justify-center">
+                  <span className="text-[#004479] text-[24px] font-bold">
+                    <AnimatedCounter end={5000} useLocale suffix="+" duration={2000} />
+                  </span>
+                </div>
+                <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Happy Clients</div>
+             </div>
+          </div>
+        </div>
+
+        {/* Main Content Area */}
+        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+          <div className="grid w-full grid-cols-1 lg:grid-cols-12 lg:items-start gap-8 lg:gap-12">
+            
+            {/* Left Sidebar - TOC */}
+            <aside className="hidden lg:block lg:col-span-3 lg:sticky lg:top-24 lg:self-start z-10 w-full min-w-0">
+              {headings.length > 0 && (
+                <nav className="hidden lg:block w-full max-w-[320px] overflow-hidden rounded-[10px] border border-[#e0e0e0] bg-white shadow-[0_6px_20px_rgba(0,0,0,0.08)]" aria-label="In this article">
+                  <div className="bg-[#004a80] px-4 py-3">
+                    <p className="text-[12px] font-bold uppercase leading-none tracking-[0.14em] text-white">In this article</p>
+                  </div>
+                  <ol className="m-0 max-h-[calc(100vh-180px)] list-none overflow-y-auto p-0">
+                    {headings.map((heading, index) => (
+                      <li key={heading.id}>
                         <button
                           type="button"
-                          onClick={() => toggleFAQ(faq.question)}
-                          className="w-full flex items-start justify-between gap-4 px-5 py-4 text-left"
-                        >
-                          <span
-                            className="text-sm font-medium"
-                            style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: 1.5 }}
-                          >
-                            {faq.question}
-                          </span>
-                          <span
-                            className={`mt-1 inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border border-sky-900/10 bg-blue-50/80 text-[#007AFF] transition-transform ${
-                              isOpen ? 'rotate-45' : ''
-                            }`}
-                          >
-                            <i className="fas fa-plus" aria-hidden="true"></i>
-                          </span>
-                        </button>
-                        <div
-                          className={`px-5 pb-5 overflow-hidden transition-[max-height,opacity] duration-300 ${
-                            isOpen ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0'
+                          onClick={() => {
+                            document.querySelector(`#${heading.id}`)?.scrollIntoView({ behavior: 'smooth' });
+                            setActiveId(heading.id);
+                          }}
+                          className={`flex w-full cursor-pointer items-center gap-2.5 py-2.5 pl-[calc(1rem-5px)] pr-3 text-left transition-colors border-l-[5px] ${
+                            activeId === heading.id
+                              ? 'border-[#007AFF] bg-[#F0F7FF]'
+                              : 'border-transparent bg-white hover:bg-gray-50'
                           }`}
                         >
-                          <div className="border-t border-sky-900/10 pt-4">
-                            <p
-                              className="text-sm leading-relaxed"
-                              style={{ color: 'rgba(12, 39, 86, 0.7)', fontFamily: 'Poppins' }}
-                            >
-                              {faq.answer}
-                            </p>
-                          </div>
-                        </div>
-                    </div>
-                    );
-                  })}
-                </div>
-              </div>
-
-               {/* Reviews Section */}
-                <div
-                  className="mt-8 rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur shadow-[0_18px_60px_rgba(12,39,86,0.08)] p-6 md:p-8"
-                  style={{
-                    background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(239, 247, 255, 0.9) 100%)'
-                  }}
-                >
-                  <h2
-                    className="text-2xl font-semibold mb-6"
-                    style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                  >
-                    Client Reviews
-                  </h2>
-
-                  {/* Reviews List */}
-                  <div className="space-y-6 mb-10">
-                    {reviews.map((review) => (
-                      <div key={review.id || review.date} className="p-5 rounded-2xl bg-white border border-sky-900/10 shadow-sm">
-                         <div className="flex items-center justify-between mb-3">
-                            <h4 className="font-semibold text-[#0C2756]">{review.author}</h4>
-                            <span className="text-xs text-gray-400">{new Date(review.date).toLocaleDateString()}</span>
-                         </div>
-                         <div className="flex items-center mb-3">
-                            {[...Array(5)].map((_, i) => (
-                              <i 
-                                key={i}
-                                className={`fas fa-star text-sm ${i < review.rating ? 'text-yellow-400' : 'text-gray-200'}`}
-                                aria-hidden="true"
-                              ></i>
-                            ))}
-                         </div>
-                         <p className="text-sm text-gray-600 italic">
-                            &quot;{review.comment}&quot;
-                         </p>
-                      </div>
+                          <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-[12px] font-bold ${
+                            activeId === heading.id ? 'bg-[#007AFF] text-white' : 'bg-[#eeeeee] text-[#555555]'
+                          }`}>
+                            {index + 1}
+                          </span>
+                          <span className={`flex-1 min-w-0 break-words text-[12px] font-bold leading-snug ${
+                            activeId === heading.id ? 'text-[#007AFF]' : 'text-[#004479]'
+                          }`}>
+                            {heading.text}
+                          </span>
+                        </button>
+                      </li>
                     ))}
-                    {reviews.length === 0 && (
-                      <p className="text-center text-gray-500 py-4">No reviews yet. Be the first to share your experience!</p>
+                  </ol>
+                </nav>
+              )}
+            </aside>
+
+            {/* Content Column */}
+            <div className="w-full min-w-0 lg:col-span-6 pb-8 lg:pb-0">
+              
+              {/* Share Block styled as CTA */}
+              <section className="mb-8 md:mb-10" aria-label="Call to action">
+                <div className="relative overflow-hidden rounded-xl px-5 py-4 md:px-10 md:py-6" style={{ backgroundColor: '#EEF5FB' }}>
+                  <div className="relative z-10 max-w-3xl flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                    <div>
+                      <h3 className="leading-tight text-[20px] md:text-[24px] font-bold" style={{ color: '#004479' }}>
+                        Share this insight
+                      </h3>
+                      <p className="mt-2 text-[14px] leading-[1.6] text-[#4E4E4E]">
+                        Help someone else stay informed about debt relief.
+                      </p>
+                    </div>
+                    {shareLinks && (
+                      <div className="flex gap-2 shrink-0">
+                        <a href={shareLinks.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#004479]/10 bg-white text-[#1877F2] transition hover:bg-[#1877F2] hover:text-white flex items-center justify-center shadow-sm">
+                          <i className="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href={shareLinks.twitter} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#004479]/10 bg-white text-black transition hover:bg-black hover:text-white flex items-center justify-center shadow-sm">
+                          <i className="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href={shareLinks.linkedin} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#004479]/10 bg-white text-[#0A66C2] transition hover:bg-[#0A66C2] hover:text-white flex items-center justify-center shadow-sm">
+                          <i className="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a href={shareLinks.whatsapp} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-[#004479]/10 bg-white text-[#128C7E] transition hover:bg-[#128C7E] hover:text-white flex items-center justify-center shadow-sm">
+                          <i className="fab fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                      </div>
                     )}
                   </div>
-
-                 
                 </div>
+              </section>
+
+              {/* Key Takeaways */}
+              {blog.keyTakeaways && blog.keyTakeaways.length > 0 && (
+                <section className="mb-8 md:mb-10 rounded-[20px] bg-[#F0F7FF] p-6 md:p-8 shadow-sm border border-[#CBE0F5]">
+                  <div className="flex items-center gap-2.5 mb-6">
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#007AFF]"></span>
+                    <h2 className="text-[17px] font-bold uppercase tracking-[0.05em] text-[#004479] md:text-[19px] m-0">
+                      KEY TAKEAWAYS
+                    </h2>
+                  </div>
+                  <div className="flex flex-col gap-5">
+                    {blog.keyTakeaways.map((takeaway, index) => (
+                      <div key={index} className="flex gap-3.5 items-start pb-5 border-b border-dashed border-[#007AFF]/25 last:border-0 last:pb-0">
+                        <div className="w-5 h-5 rounded-full bg-[#007AFF]/15 text-[#007AFF] flex items-center justify-center shrink-0 mt-0.5">
+                          <i className="fas fa-check text-[10px]"></i>
+                        </div>
+                        <p className="text-[#1E293B] text-[15px] md:text-[16px] leading-[1.65] m-0 font-normal">
+                          {takeaway}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* Main HTML Content - Split to allow middle infographic */}
+              <div className="w-full">
+                <div
+                  className="blog-content"
+                  dangerouslySetInnerHTML={{
+                    __html: part1 || blog.description || ''
+                  }}
+                />
+
+                {blog.infographic && part2 && (
+                  <section className="my-10" aria-labelledby="cms-key-takeaways-heading">
+                    <div className="rounded-[20px] bg-[#F0F7FF] p-4 md:rounded-3xl md:p-6 shadow-sm border border-[#BFE0FF]">
+                      <h2 id="cms-key-takeaways-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
+                        KEY TAKEAWAYS
+                      </h2>
+                      <div className="relative w-full overflow-hidden rounded-xl">
+                        <Image
+                          src={blog.infographic}
+                          alt="Infographic summary"
+                          width={800}
+                          height={600}
+                          className="w-full h-auto object-contain bg-white/50"
+                          unoptimized
+                        />
+                      </div>
+                    </div>
+                  </section>
+                )}
+
+                {part2 && (
+                  <div
+                    className="blog-content"
+                    dangerouslySetInnerHTML={{
+                      __html: part2
+                    }}
+                  />
+                )}
+                
+                {blog.infographic && !part2 && (
+                  <section className="my-10" aria-labelledby="cms-key-takeaways-heading">
+                    <div className="rounded-[20px] bg-[#F0F7FF] p-4 md:rounded-3xl md:p-6 shadow-sm border border-[#BFE0FF]">
+                      <h2 id="cms-key-takeaways-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
+                        KEY TAKEAWAYS
+                      </h2>
+                      <div className="relative w-full overflow-hidden rounded-xl">
+                        <Image
+                          src={blog.infographic}
+                          alt="Infographic summary"
+                          width={800}
+                          height={600}
+                          className="w-full h-auto object-contain bg-white/50"
+                          unoptimized
+                        />
+                      </div>
+                    </div>
+                  </section>
+                )}
               </div>
 
-            <div
-              className="lg:w-1/6 hidden lg:block transition duration-700 opacity-100 translate-y-0"
-            >
-              <div className="sticky top-24 space-y-6">
-                <div
-                  className="rounded-3xl border border-sky-900/10 bg-white/90 backdrop-blur p-6 shadow-[0_16px_40px_rgba(12,39,86,0.08)]"
-                style={{
-                    background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(239, 247, 255, 0.9) 100%)'
-                  }}
-                >
-                  <h3
-                    className="text-xl font-semibold mb-2"
-                      style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                    >
-                    Need urgent legal help?
+              {/* Popular Searches */}
+              {blog.popularSearches && blog.popularSearches.length > 0 && (
+                <section className="mt-10 md:mt-12 mb-8">
+                  <h3 className="text-[18px] md:text-[20px] font-bold text-[#004479] uppercase tracking-wide mb-6">
+                    POPULAR SEARCHES
                   </h3>
-                  <p
-                    className="text-sm mb-5"
-                    style={{ color: 'rgba(12, 39, 86, 0.7)', fontFamily: 'Poppins' }}
-                  >
-                    Our RBI-compliant legal experts negotiate with lenders, stop harassment, and secure faster
-                    settlements.
-                  </p>
-                  <div className="flex flex-col gap-3 text-sm" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>
-                    <div className="flex items-center gap-3">
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#007AFF]/12 text-[#007AFF]">
-                        <i className="fas fa-headset" aria-hidden="true"></i>
-                      </span>
-                      Speak to an RBI-compliant negotiator
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#007AFF]/12 text-[#007AFF]">
-                        <i className="fas fa-shield-alt" aria-hidden="true"></i>
-                      </span>
-                      Get legal protection from recovery agents
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#007AFF]/12 text-[#007AFF]">
-                        <i className="fas fa-file-signature" aria-hidden="true"></i>
-                      </span>
-                      Custom settlement plan within 24 hours
-                    </div>
+                  <div className="flex flex-wrap gap-3">
+                    {blog.popularSearches.map((search, index) => {
+                      const href = getSolutionUrlForSearch(search);
+                      return (
+                        <Link
+                          key={index}
+                          href={href}
+                          className="group inline-flex items-center gap-2 rounded-full border border-[#E2E8F0] bg-[#F8FAFC] px-4 py-2 text-[14px] font-semibold text-[#1E293B] shadow-sm transition-all duration-200 hover:bg-[#007AFF] hover:text-white hover:border-[#007AFF] hover:shadow-md hover:-translate-y-0.5 cursor-pointer"
+                        >
+                          <span>{search}</span>
+                          <i className="fas fa-arrow-right text-[10px] opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200"></i>
+                        </Link>
+                      );
+                    })}
                   </div>
-                  <div className="mt-6">
-                    <CTAButton className="w-full justify-center py-3">
-                      Book your free consultation
-                  </CTAButton>
+                </section>
+              )}
+
+
+
+              {/* FAQs Section */}
+              {faqs.length > 0 && (
+                <div className="mt-12 md:mt-16">
+                  <h2 className="text-[22px] font-bold leading-tight text-[#004479] md:text-[28px] mb-6">
+                    Frequently Asked Questions
+                  </h2>
+                  <div className="space-y-4">
+                    {faqs.map((faq, index) => (
+                      <div
+                        key={index}
+                        className="rounded-xl border border-gray-200 bg-white overflow-hidden"
+                      >
+                        <button
+                          className="flex w-full items-center justify-between p-4 text-left font-semibold text-[#004479] hover:bg-gray-50 focus:outline-none transition"
+                          onClick={() => toggleFAQ(faq.question)}
+                        >
+                          <span className="pr-4">{faq.question}</span>
+                          <i
+                            className={`fas fa-chevron-down text-[#007AFF] transition-transform duration-300 ${
+                              expandedFaqs.includes(faq.question) ? 'rotate-180' : ''
+                            }`}
+                          ></i>
+                        </button>
+                        <div
+                          className={`px-4 text-sm text-[#3F4A56] transition-all duration-300 ease-in-out ${
+                            expandedFaqs.includes(faq.question)
+                              ? 'max-h-96 pb-4 opacity-100'
+                              : 'max-h-0 py-0 opacity-0'
+                          }`}
+                        >
+                          <p>{faq.answer}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Company Profile Component */}
+              <div className="mt-10">
+                <CompanyProfile />
+              </div>
+
+            </div>
+            
+            {/* Right Sidebar - Sticky Cards (Cols 10-12) */}
+            <div className="hidden lg:block lg:col-span-3 lg:sticky lg:top-24 lg:self-start z-10 w-full min-w-0">
+              <div className="flex flex-col gap-6">
+                
+                {/* Card 1: CTA */}
+                <div className="rounded-[16px] bg-[#004479] text-white p-5 shadow-md flex flex-col items-center text-center">
+                  <div className="w-10 h-10 mb-2.5 rounded-full bg-white/10 border border-white/15 flex items-center justify-center shadow-inner">
+                    <i className="fas fa-headset text-lg text-white"></i>
+                  </div>
+                  <h3 className="text-[15px] font-bold mb-1.5 leading-tight">Talk to a CredSettle Expert Free!</h3>
+                  <p className="text-[12px] text-blue-50/90 mb-3.5 leading-relaxed font-medium">
+                    Get a personal debt assessment.<br/>
+                    One call. No pressure.<br/>
+                    Clear answers.
+                  </p>
+                  <Link href="/contact" className="w-full bg-[#007AFF] hover:bg-[#0056b3] text-white font-bold py-2.5 px-4 rounded-[10px] transition-colors duration-200 flex items-center justify-center gap-2 shadow text-[13px]">
+                    <i className="fas fa-phone-alt"></i>
+                    <span>Book My Free Call</span>
+                  </Link>
+                </div>
+
+                {/* Card 2: Trust Badges */}
+                <div className="rounded-[16px] border border-gray-200 bg-white p-4 shadow-sm">
+                  <h3 className="text-[11px] font-bold text-gray-500 uppercase tracking-widest mb-4">Why People Trust CredSettle</h3>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-7 h-7 rounded-full bg-[#EEF5FB] text-[#004479] flex items-center justify-center shrink-0">
+                        <i className="fas fa-handshake text-[11px]"></i>
+                      </div>
+                      <span className="font-bold text-[#004479] text-[13px]">5,000+ Helped</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-7 h-7 rounded-full bg-[#EEF5FB] text-[#004479] flex items-center justify-center shrink-0">
+                        <i className="fas fa-gavel text-[11px]"></i>
+                      </div>
+                      <span className="font-bold text-[#004479] text-[13px]">100% Legal</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-7 h-7 rounded-full bg-[#EEF5FB] text-[#004479] flex items-center justify-center shrink-0">
+                        <i className="fas fa-ban text-[11px]"></i>
+                      </div>
+                      <span className="font-bold text-[#004479] text-[13px]">No Hidden Fees</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-7 h-7 rounded-full bg-[#EEF5FB] text-[#004479] flex items-center justify-center shrink-0">
+                        <i className="fas fa-balance-scale text-[11px]"></i>
+                      </div>
+                      <span className="font-bold text-[#004479] text-[13px]">RBI Compliant</span>
+                    </div>
                   </div>
                 </div>
 
-                {related.length > 0 && (
-                  <div
-                    className="rounded-3xl border border-sky-900/10 bg-white/95 backdrop-blur p-6 shadow-[0_16px_40px_rgba(12,39,86,0.08)]"
-                    style={{
-                      background: 'linear-gradient(180deg, rgba(239, 247, 255, 0.95) 0%, rgba(255, 255, 255, 0.92) 100%)'
-                    }}
-                  >
-                    <div className="flex items-center gap-3 mb-5">
-                      <div className="w-10 h-10 rounded-full bg-[#007AFF]/12 text-[#007AFF] flex items-center justify-center">
-                        <i className="fas fa-newspaper" aria-hidden="true"></i>
-                      </div>
-                      <h3
-                        className="text-lg font-semibold"
-                        style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                      >
-                        Related Articles
-                      </h3>
-                    </div>
-                    <div className="space-y-4">
-                      {related.map((relatedBlog) => (
-                        <Link
-                          key={relatedBlog.slug}
-                          href={`/resources/${relatedBlog.slug}`}
-                          className="block group"
-                          prefetch={false}
-                        >
-                          <div className="rounded-2xl border border-transparent bg-white/80 p-4 transition group-hover:border-[#007AFF]/40 group-hover:shadow-md">
-                            <h4
-                              className="text-sm font-semibold mb-2 transition"
-                              style={{ color: '#0C2756', fontFamily: 'Poppins' }}
-                            >
-                              {relatedBlog.title}
-                            </h4>
-                            <p
-                              className="text-xs"
-                              style={{ color: 'rgba(12, 39, 86, 0.6)', fontFamily: 'Poppins' }}
-                            >
-                              {relatedBlog.date}
-                            </p>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )}
               </div>
             </div>
           </div>
         </div>
       </div>
 
-        <Footer />
+      <Footer />
 
       <style jsx global>{`
         .blog-content {
-          color: rgba(12, 39, 86, 0.85);
+          color: #3F4A56;
           line-height: 1.8;
           font-family: 'Poppins', sans-serif;
         }
@@ -855,79 +988,55 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         .blog-content h4,
         .blog-content h5,
         .blog-content h6 {
-          color: #0c2756;
-          font-weight: 600;
-          margin-top: 2.5rem;
-          margin-bottom: 1.25rem;
+          color: #004479;
+          font-weight: 700;
+          margin-top: 2rem;
+          margin-bottom: 0.75rem;
           scroll-margin-top: 150px;
+          line-height: 1.25;
         }
 
         .blog-content h2 {
-          font-size: clamp(1.75rem, 2.2vw, 2rem);
-          border-bottom: 2px solid rgba(0, 122, 255, 0.2);
-          padding-bottom: 0.75rem;
+          font-size: 28px;
         }
 
         .blog-content h3 {
-          font-size: clamp(1.35rem, 2vw, 1.6rem);
+          font-size: 22px;
         }
 
         .blog-content p {
-          margin: 1.5rem 0;
-          color: rgba(12, 39, 86, 0.78);
+          margin: 1.25rem 0;
+          color: #3F4A56;
+          font-size: 16px;
         }
 
         .blog-content a {
-          color: #007aff;
+          color: #007AFF;
           text-decoration: underline;
-          text-decoration-color: rgba(0, 122, 255, 0.25);
+          text-decoration-color: rgba(0, 122, 255, 0.4);
+          text-underline-offset: 2px;
           transition: all 0.2s ease;
         }
 
         .blog-content a:hover {
-          color: #0e5ad0;
-          text-decoration-color: rgba(14, 90, 208, 0.6);
+          color: #0056b3;
+          text-decoration-color: #0056b3;
         }
 
         .blog-content blockquote {
-          border-left: 4px solid rgba(0, 122, 255, 0.35);
+          border-left: 4px solid #007AFF;
           margin: 2rem 0;
           padding: 1rem 1.5rem;
-          background: rgba(239, 247, 255, 0.8);
-          border-radius: 0.75rem;
+          background: #F0F7FF;
+          border-radius: 0.5rem;
           font-style: italic;
-          color: rgba(12, 39, 86, 0.8);
-        }
-
-        .blog-content code {
-          background: rgba(0, 122, 255, 0.08);
-          color: #0c2756;
-          padding: 0.2rem 0.45rem;
-          border-radius: 0.35rem;
-          font-size: 0.9em;
-          font-family: 'Fira Code', 'Courier New', monospace;
-        }
-
-        .blog-content pre {
-          background: rgba(12, 39, 86, 0.88);
-          color: #eff7ff;
-          padding: 1.75rem;
-          border-radius: 1rem;
-          overflow-x: auto;
-          margin: 2rem 0;
-          border: 1px solid rgba(0, 122, 255, 0.25);
-        }
-
-        .blog-content pre code {
-          background: transparent;
-          color: inherit;
-          padding: 0;
+          color: #4E4E4E;
         }
 
         .blog-content ul,
         .blog-content ol {
-          margin: 1.75rem 0;
-          padding-left: 1.75rem;
+          margin: 1.5rem 0;
+          padding-left: 1.5rem;
         }
 
         .blog-content ul {
@@ -939,58 +1048,65 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         }
 
         .blog-content li {
-          margin: 0.75rem 0;
-          color: rgba(12, 39, 86, 0.78);
+          margin: 0.5rem 0;
+          color: #3F4A56;
+          font-size: 16px;
         }
 
         .blog-content li::marker {
-          color: #007aff;
+          color: #007AFF;
         }
 
         .blog-content img {
           max-width: 100%;
           height: auto;
-          border-radius: 1.25rem;
-          margin: 2.5rem 0;
-          box-shadow: 0 18px 40px rgba(12, 39, 86, 0.12);
+          border-radius: 1rem;
+          margin: 2rem 0;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
         }
 
         .blog-content table {
           width: 100%;
-          border-collapse: collapse;
-          margin: 2.5rem 0;
-          border-radius: 1rem;
+          border-collapse: separate !important;
+          border-spacing: 0 !important;
+          margin: 2rem 0;
+          border-radius: 12px;
           overflow: hidden;
-          background: rgba(255, 255, 255, 0.9);
+          background: #ffffff;
+          border: 1px solid #CBD5E1 !important;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
         }
 
         .blog-content table th,
         .blog-content table td {
-          padding: 0.9rem 1.1rem;
-          border: 1px solid rgba(0, 122, 255, 0.12);
+          padding: 0.875rem 1.25rem;
+          border-right: 1px solid #E2E8F0 !important;
+          border-bottom: 1px solid #E2E8F0 !important;
           text-align: left;
+          font-size: 14.5px;
+          line-height: 1.5;
+        }
+
+        .blog-content table th:last-child,
+        .blog-content table td:last-child {
+          border-right: none !important;
+        }
+
+        .blog-content table tr:last-child td {
+          border-bottom: none !important;
         }
 
         .blog-content table th {
-          background: rgba(0, 122, 255, 0.08);
-          color: #0c2756;
-          font-weight: 600;
-        }
-
-        .blog-content table tbody tr:hover {
-          background: rgba(239, 247, 255, 0.7);
+          background: #F8FAFC;
+          color: #004479;
+          font-weight: 700;
+          font-size: 14.5px;
+          letter-spacing: 0.02em;
         }
 
         .blog-content strong {
-          color: #0c2756;
+          color: #004479;
           font-weight: 600;
-        }
-
-        .blog-content hr {
-          border: none;
-          height: 1px;
-          background: linear-gradient(90deg, transparent, rgba(0, 122, 255, 0.3), transparent);
-          margin: 3rem 0;
         }
       `}</style>
     </div>
