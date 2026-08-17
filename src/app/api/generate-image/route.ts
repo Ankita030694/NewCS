@@ -1,108 +1,153 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 export const maxDuration = 60;
 
 export async function POST(request: NextRequest) {
-  const apiKey = process.env.HELLO_DROP_CHOO;
+  const logs: string[] = [];
+  const addLog = (msg: string) => {
+    const timestamp = new Date().toISOString().split("T")[1].slice(0, 8);
+    const formatted = `[${timestamp}] ${msg}`;
+    logs.push(formatted);
+    console.log(`[AI Image Generator] ${formatted}`);
+  };
 
-  // Captured outside the try block so the fallback can access it even if request.json() crashes
-  let parsedPrompt = "Legal money recovery professional illustration";
+  const apiKey = process.env.HELLO_DROP_CHOO || process.env.OPENAI_API_KEY;
 
   try {
     const body = await request.json();
-    const prompt = typeof body.prompt === "string" ? body.prompt : undefined;
+    const prompt = typeof body.prompt === "string" ? body.prompt.trim() : undefined;
 
     if (!prompt) {
-      return NextResponse.json({ error: 'Prompt is required' }, { status: 400 });
-    }
-
-    parsedPrompt = prompt;
-
-    if (!apiKey) {
+      addLog("Validation Error: 'prompt' field is missing or empty.");
       return NextResponse.json(
-        { error: "OpenAI API configuration secret (HELLO_DROP_CHOO) is not set." },
-        { status: 500 }
+        { success: false, error: "Prompt is required", logs },
+        { status: 400 }
       );
     }
 
-    console.log("[AI Image Generator] Attempting generation with gpt-image-2 model (1024x1024 resolution)...");
+    addLog(`Received prompt (${prompt.length} chars): "${prompt.slice(0, 100)}..."`);
 
-    // Add a 280 second timeout to stay just under Vercel Premium's 300s limit
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 280000);
+    // STRATEGY 1: OpenAI Image API with gpt-image-2
+    if (apiKey) {
+      addLog("OpenAI API key detected. Attempting generation with gpt-image-2...");
 
-    const openAiResponse = await fetch("https://api.openai.com/v1/images/generations", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify({
-        model: "gpt-image-2",
-        prompt: prompt,
-        n: 1,
-        size: "1024x1024",
-      }),
-      signal: controller.signal
-    });
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 45000);
 
-    clearTimeout(timeoutId);
+        const response = await fetch("https://api.openai.com/v1/images/generations", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${apiKey}`,
+          },
+          body: JSON.stringify({
+            model: "gpt-image-2",
+            prompt: prompt,
+            n: 1,
+            size: "1024x1024",
+          }),
+          signal: controller.signal,
+        });
 
-    const data = await openAiResponse.json();
+        clearTimeout(timeoutId);
+        const data = await response.json();
 
-    if (!openAiResponse.ok) {
-      console.warn(`[AI Image Generator] OpenAI gpt-image-2 generation failed: ${data.error?.message || "empty response"}. Falling back to dynamic prompt-based Pollinations AI (FLUX) generation...`);
+        if (response.ok && data.data?.[0]) {
+          const firstItem = data.data[0];
+          const imageUrl = firstItem.b64_json
+            ? `data:image/png;base64,${firstItem.b64_json}`
+            : firstItem.url;
 
-      const encodedPrompt = encodeURIComponent(prompt);
-      const dynamicFallbackUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+          if (imageUrl) {
+            addLog("gpt-image-2 generation succeeded.");
+            return NextResponse.json({
+              success: true,
+              url: imageUrl,
+              imageUrl: imageUrl,
+              model: "gpt-image-2",
+              logs,
+            });
+          }
+        }
 
-      return NextResponse.json({
-        success: true,
-        url: dynamicFallbackUrl,
-        imageUrl: dynamicFallbackUrl,
-        isFallback: true,
-        warning: `OpenAI gpt-image-2 generation failed: ${data.error?.message || "empty response"}. Resolved via Pollinations AI (FLUX) fallback.`
-      });
+        const errMsg = data.error?.message || response.statusText || "Empty or invalid response from OpenAI";
+        addLog(`gpt-image-2 returned status ${response.status}: ${errMsg}`);
+      } catch (openaiErr: any) {
+        addLog(`gpt-image-2 request error: ${openaiErr.message || String(openaiErr)}`);
+      }
+    } else {
+      addLog("OpenAI API secret (HELLO_DROP_CHOO / OPENAI_API_KEY) is not configured.");
     }
 
-    const firstItem = data.data?.[0];
-    if (!firstItem) {
-      throw new Error("No data returned from OpenAI");
-    }
-
-    const imageUrl = firstItem.b64_json
-      ? `data:image/png;base64,${firstItem.b64_json}`
-      : firstItem.url;
-
-    if (!imageUrl) {
-      throw new Error("No image URL or base64 data returned from OpenAI");
-    }
-
-    return NextResponse.json({ success: true, url: imageUrl, imageUrl: imageUrl });
-  } catch (error: any) {
-    console.error("Critical Image API Route Error:", error);
-
+    // STRATEGY 2: Server-side Pollinations AI (FLUX) Generation & Buffer Proxy
+    addLog("Initiating high-resolution Pollinations AI (FLUX) generation...");
     try {
-      const encodedPrompt = encodeURIComponent(parsedPrompt);
-      const dynamicFallbackUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&nologo=true&seed=${Math.floor(Math.random() * 1000000)}`;
+      const encodedPrompt = encodeURIComponent(prompt);
+      const seed = Math.floor(Math.random() * 1000000);
+      const pollinationsUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&nologo=true&seed=${seed}&model=flux`;
 
-      return NextResponse.json({
-        success: true,
-        url: dynamicFallbackUrl,
-        imageUrl: dynamicFallbackUrl,
-        isFallback: true,
-        warning: `Critical crash: ${error.message}. Successfully resolved via dynamic Pollinations AI (FLUX) fallback.`
+      addLog(`Fetching image buffer from Pollinations AI (seed: ${seed})...`);
+      const imgFetch = await fetch(pollinationsUrl, {
+        headers: {
+          "User-Agent": "CredSettle-BlogGenerator/1.0",
+        },
       });
-    } catch (fallbackErr: any) {
-      console.error("Critical fallback failed:", fallbackErr);
-      const defaultFallbackUrl = "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1024&h=1024&q=80";
-      return NextResponse.json({
-        success: true,
-        url: defaultFallbackUrl,
-        imageUrl: defaultFallbackUrl,
-        isFallback: true,
-        warning: `All attempts crashed. Loaded default external legal balance vector.`
-      });
+
+      if (imgFetch.ok) {
+        const arrayBuffer = await imgFetch.arrayBuffer();
+        const buffer = Buffer.from(arrayBuffer);
+        const contentType = imgFetch.headers.get("content-type") || "image/jpeg";
+        const b64DataUrl = `data:${contentType};base64,${buffer.toString("base64")}`;
+
+        addLog(`Pollinations AI generation successful (${(buffer.length / 1024).toFixed(1)} KB converted to base64).`);
+        return NextResponse.json({
+          success: true,
+          url: b64DataUrl,
+          imageUrl: b64DataUrl,
+          isFallback: true,
+          model: "pollinations-flux",
+          logs,
+        });
+      } else {
+        addLog(`Pollinations AI returned HTTP status ${imgFetch.status}. Returning direct URL.`);
+        return NextResponse.json({
+          success: true,
+          url: pollinationsUrl,
+          imageUrl: pollinationsUrl,
+          isFallback: true,
+          model: "pollinations-flux-url",
+          logs,
+        });
+      }
+    } catch (pollinationsError: any) {
+      addLog(`Pollinations AI generation error: ${pollinationsError.message || String(pollinationsError)}`);
     }
+
+    // STRATEGY 3: Final Corporate Stock Legal Asset
+    addLog("All dynamic generators failed. Using high-quality verified legal placeholder asset.");
+    const defaultFallbackUrl = "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1024&h=1024&q=80";
+
+    return NextResponse.json({
+      success: true,
+      url: defaultFallbackUrl,
+      imageUrl: defaultFallbackUrl,
+      isFallback: true,
+      model: "static-fallback",
+      warning: "Loaded default legal balance asset.",
+      logs,
+    });
+  } catch (criticalError: any) {
+    addLog(`Critical API crash: ${criticalError.message || String(criticalError)}`);
+    return NextResponse.json(
+      {
+        success: false,
+        error: criticalError.message || "Internal server error during image generation",
+        logs,
+      },
+      { status: 500 }
+    );
   }
 }

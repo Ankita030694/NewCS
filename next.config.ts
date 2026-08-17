@@ -20,12 +20,47 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "**.firebasestorage.app",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "storage.googleapis.com",
         pathname: "/**",
       },
       {
         protocol: "https",
+        hostname: "**.googleapis.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "lh3.googleusercontent.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "**.googleusercontent.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "image.pollinations.ai",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "**.pollinations.ai",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "oaidalleapiprodscus.blob.core.windows.net",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
         pathname: "/**",
       },
     ],

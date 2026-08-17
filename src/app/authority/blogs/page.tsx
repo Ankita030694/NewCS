@@ -117,6 +117,8 @@ const BlogsDashboard = () => {
   const [isGeneratingImage, setIsGeneratingImage] = useState(false);
   const [infographicPrompt, setInfographicPrompt] = useState('');
   const [isGeneratingInfographic, setIsGeneratingInfographic] = useState(false);
+  const [imageLogs, setImageLogs] = useState<string[]>([]);
+  const [showImageLogs, setShowImageLogs] = useState(false);
   const [expansionPrompt, setExpansionPrompt] = useState('');
   const [isExpanding, setIsExpanding] = useState(false);
   const [isChecking, setIsChecking] = useState(true);
@@ -821,14 +823,40 @@ const BlogsDashboard = () => {
     }
   };
 
+  const dataUrlToBlob = async (urlOrDataUri: string): Promise<Blob> => {
+    if (urlOrDataUri.startsWith('data:')) {
+      const arr = urlOrDataUri.split(',');
+      const mimeMatch = arr[0].match(/:(.*?);/);
+      const mime = mimeMatch ? mimeMatch[1] : 'image/png';
+      const bstr = atob(arr[1]);
+      let n = bstr.length;
+      const u8arr = new Uint8Array(n);
+      while (n--) {
+        u8arr[n] = bstr.charCodeAt(n);
+      }
+      return new Blob([u8arr], { type: mime });
+    }
+    const res = await fetch(urlOrDataUri);
+    if (!res.ok) {
+      throw new Error(`Failed to fetch image binary from URL (${res.status} ${res.statusText})`);
+    }
+    return await res.blob();
+  };
+
   const handleGenerateImage = async () => {
     if (!imagePrompt) {
       alert('Please enter an image prompt');
       return;
     }
 
+    const currentLogs: string[] = [`[${new Date().toLocaleTimeString()}] Starting Cover Image Generation...`];
+    setImageLogs(currentLogs);
+
     try {
       setIsGeneratingImage(true);
+      currentLogs.push(`[${new Date().toLocaleTimeString()}] Calling /api/generate-image with prompt...`);
+      setImageLogs([...currentLogs]);
+
       const response = await fetch('/api/generate-image', {
         method: 'POST',
         headers: {
@@ -837,36 +865,52 @@ const BlogsDashboard = () => {
         body: JSON.stringify({ prompt: imagePrompt }),
       });
 
-      if (!response.ok) {
-        throw new Error('Failed to generate image');
+      const data = await response.json().catch(() => ({}));
+      if (Array.isArray(data.logs)) {
+        currentLogs.push(...data.logs);
       }
 
-      const data = await response.json();
+      if (!response.ok || !data.success || !data.url) {
+        const errorMsg = data.error || `HTTP ${response.status}: Failed to generate image`;
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] ERROR: ${errorMsg}`);
+        setImageLogs([...currentLogs]);
+        setShowImageLogs(true);
+        throw new Error(errorMsg);
+      }
+
+      currentLogs.push(`[${new Date().toLocaleTimeString()}] Image generation succeeded (${data.model || 'AI Model'}). Preparing storage upload...`);
+      setImageLogs([...currentLogs]);
 
       try {
-        const imageRes = await fetch(data.url);
-        const imageBlob = await imageRes.blob();
+        const imageBlob = await dataUrlToBlob(data.url);
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] Image Blob prepared (${(imageBlob.size / 1024).toFixed(1)} KB). Uploading to Firebase Storage...`);
+        setImageLogs([...currentLogs]);
         
         const storageRef = ref(storage, `blog-images/ai_generated_${Date.now()}.png`);
         const snapshot = await uploadBytes(storageRef, imageBlob);
         const downloadURL = await getDownloadURL(snapshot.ref);
         
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] Successfully uploaded to Firebase: ${downloadURL.slice(0, 60)}...`);
+        setImageLogs([...currentLogs]);
+
         setNewBlog((prev) => ({
           ...prev,
           image: downloadURL,
         }));
         setImagePreview(downloadURL);
-      } catch (uploadError) {
-        console.error('Failed to upload AI image to Firebase:', uploadError);
+      } catch (uploadError: any) {
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] Firebase upload warning: ${uploadError.message || String(uploadError)}. Falling back to direct URL.`);
+        setImageLogs([...currentLogs]);
         setNewBlog((prev) => ({
           ...prev,
           image: data.url,
         }));
         setImagePreview(data.url);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('Image generation failed:', error);
-      alert('Failed to generate image. Please try again.');
+      alert(`Image generation error: ${error.message || 'Please check error log below.'}`);
+      setShowImageLogs(true);
     } finally {
       setIsGeneratingImage(false);
     }
@@ -878,8 +922,14 @@ const BlogsDashboard = () => {
       return;
     }
 
+    const currentLogs: string[] = [`[${new Date().toLocaleTimeString()}] Starting Infographic Generation...`];
+    setImageLogs(currentLogs);
+
     try {
       setIsGeneratingInfographic(true);
+      currentLogs.push(`[${new Date().toLocaleTimeString()}] Calling /api/generate-image with infographic prompt...`);
+      setImageLogs([...currentLogs]);
+
       const response = await fetch('/api/generate-image', {
         method: 'POST',
         headers: {
@@ -888,34 +938,50 @@ const BlogsDashboard = () => {
         body: JSON.stringify({ prompt: infographicPrompt }),
       });
 
-      if (!response.ok) {
-        throw new Error('Failed to generate infographic');
+      const data = await response.json().catch(() => ({}));
+      if (Array.isArray(data.logs)) {
+        currentLogs.push(...data.logs);
       }
 
-      const data = await response.json();
+      if (!response.ok || !data.success || !data.url) {
+        const errorMsg = data.error || `HTTP ${response.status}: Failed to generate infographic`;
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] ERROR: ${errorMsg}`);
+        setImageLogs([...currentLogs]);
+        setShowImageLogs(true);
+        throw new Error(errorMsg);
+      }
+
+      currentLogs.push(`[${new Date().toLocaleTimeString()}] Infographic generation succeeded (${data.model || 'AI Model'}). Preparing storage upload...`);
+      setImageLogs([...currentLogs]);
 
       try {
-        const imageRes = await fetch(data.url);
-        const imageBlob = await imageRes.blob();
+        const imageBlob = await dataUrlToBlob(data.url);
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] Infographic Blob prepared (${(imageBlob.size / 1024).toFixed(1)} KB). Uploading to Firebase Storage...`);
+        setImageLogs([...currentLogs]);
         
         const storageRef = ref(storage, `blog-images/ai_infographic_${Date.now()}.png`);
         const snapshot = await uploadBytes(storageRef, imageBlob);
         const downloadURL = await getDownloadURL(snapshot.ref);
         
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] Successfully uploaded infographic to Firebase.`);
+        setImageLogs([...currentLogs]);
+
         setNewBlog((prev) => ({
           ...prev,
           infographic: downloadURL,
         }));
-      } catch (uploadError) {
-        console.error('Failed to upload AI infographic to Firebase:', uploadError);
+      } catch (uploadError: any) {
+        currentLogs.push(`[${new Date().toLocaleTimeString()}] Firebase upload warning: ${uploadError.message || String(uploadError)}. Falling back to direct URL.`);
+        setImageLogs([...currentLogs]);
         setNewBlog((prev) => ({
           ...prev,
           infographic: data.url,
         }));
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('Infographic generation failed:', error);
-      alert('Failed to generate infographic. Please try again.');
+      alert(`Infographic generation error: ${error.message || 'Please check error log below.'}`);
+      setShowImageLogs(true);
     } finally {
       setIsGeneratingInfographic(false);
     }
@@ -1513,6 +1579,46 @@ const BlogsDashboard = () => {
                 </div>
               </div>
             </div>
+
+            {/* Image Generation Diagnostic & Error Log Console */}
+            {imageLogs.length > 0 && (
+              <div className="rounded-2xl border border-slate-200 bg-slate-900 text-slate-100 p-4 shadow-sm">
+                <div className="flex items-center justify-between pb-2 border-b border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span className="text-xs font-mono font-bold uppercase tracking-wider text-slate-300">
+                      Image Generator Live Diagnostics & Logs ({imageLogs.length} events)
+                    </span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setShowImageLogs((prev) => !prev)}
+                    className="text-[11px] font-mono font-semibold text-blue-400 hover:text-blue-300 cursor-pointer"
+                  >
+                    {showImageLogs ? 'Hide Console [ - ]' : 'Expand Console [ + ]'}
+                  </button>
+                </div>
+
+                {showImageLogs && (
+                  <div className="mt-3 max-h-48 overflow-y-auto font-mono text-[11px] leading-relaxed space-y-1 bg-black/50 p-3 rounded-lg border border-slate-800 select-text">
+                    {imageLogs.map((log, idx) => (
+                      <div
+                        key={idx}
+                        className={
+                          log.includes('ERROR') || log.includes('warning') || log.includes('failed')
+                            ? 'text-amber-400'
+                            : log.includes('Successfully') || log.includes('succeeded')
+                            ? 'text-emerald-400'
+                            : 'text-slate-300'
+                        }
+                      >
+                        {log}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Image Preview Block */}
             {(imagePreview || newBlog.image || newBlog.infographic) && (
