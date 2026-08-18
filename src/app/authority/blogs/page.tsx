@@ -870,7 +870,8 @@ const BlogsDashboard = () => {
         currentLogs.push(...data.logs);
       }
 
-      if (!response.ok || !data.success || !data.url) {
+      const generatedUrl = data.url || data.imageUrl;
+      if (!response.ok || !data.success || !generatedUrl) {
         const errorMsg = data.error || `HTTP ${response.status}: Failed to generate image`;
         currentLogs.push(`[${new Date().toLocaleTimeString()}] ERROR: ${errorMsg}`);
         setImageLogs([...currentLogs]);
@@ -882,7 +883,7 @@ const BlogsDashboard = () => {
       setImageLogs([...currentLogs]);
 
       try {
-        const imageBlob = await dataUrlToBlob(data.url);
+        const imageBlob = await dataUrlToBlob(generatedUrl);
         currentLogs.push(`[${new Date().toLocaleTimeString()}] Image Blob prepared (${(imageBlob.size / 1024).toFixed(1)} KB). Uploading to Firebase Storage...`);
         setImageLogs([...currentLogs]);
         
@@ -903,9 +904,9 @@ const BlogsDashboard = () => {
         setImageLogs([...currentLogs]);
         setNewBlog((prev) => ({
           ...prev,
-          image: data.url,
+          image: generatedUrl,
         }));
-        setImagePreview(data.url);
+        setImagePreview(generatedUrl);
       }
     } catch (error: any) {
       console.error('Image generation failed:', error);
@@ -943,7 +944,8 @@ const BlogsDashboard = () => {
         currentLogs.push(...data.logs);
       }
 
-      if (!response.ok || !data.success || !data.url) {
+      const generatedInfographicUrl = data.url || data.imageUrl;
+      if (!response.ok || !data.success || !generatedInfographicUrl) {
         const errorMsg = data.error || `HTTP ${response.status}: Failed to generate infographic`;
         currentLogs.push(`[${new Date().toLocaleTimeString()}] ERROR: ${errorMsg}`);
         setImageLogs([...currentLogs]);
@@ -955,7 +957,7 @@ const BlogsDashboard = () => {
       setImageLogs([...currentLogs]);
 
       try {
-        const imageBlob = await dataUrlToBlob(data.url);
+        const imageBlob = await dataUrlToBlob(generatedInfographicUrl);
         currentLogs.push(`[${new Date().toLocaleTimeString()}] Infographic Blob prepared (${(imageBlob.size / 1024).toFixed(1)} KB). Uploading to Firebase Storage...`);
         setImageLogs([...currentLogs]);
         
@@ -975,7 +977,7 @@ const BlogsDashboard = () => {
         setImageLogs([...currentLogs]);
         setNewBlog((prev) => ({
           ...prev,
-          infographic: data.url,
+          infographic: generatedInfographicUrl,
         }));
       }
     } catch (error: any) {

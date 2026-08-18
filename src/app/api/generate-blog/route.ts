@@ -178,25 +178,55 @@ Dive deep into legal precedents, procedures, pitfalls, historical context, or ca
     console.log(`[AI Generator Flow] Step 2 complete. Total description length: ${cleanedDescription.split(/\s+/).length} words.`);
     console.log(`[AI Generator Flow] Step 3: Generating FAQs, reviews, and image prompt...`);
 
-    // STEP 3: Generate FAQs and Reviews
+    // Dynamic fallback prompt builders adhering to strict 70% white light mode, #007AFF blue, CredSettle branding, and high-impact layout
+    const buildDynamicCoverImagePrompt = (title: string, keyword: string) => {
+      return `Clean bright light mode corporate editorial graphic banner set in an Indian urban landscape with modern Mumbai BKC glass high-rise towers in soft daylight. Prominently featuring the brand name "CredSettle" and the exact blog title text clearly written on the image: "${title}" in bold, modern, legible typography in shades of #007AFF blue and charcoal. Color balance strictly composed of 70% bright white background, 20% vibrant #007AFF blue text/accents, and 10% crisp black/charcoal contrast. Clean studio lighting, minimal aesthetic, sharp focus, 8k resolution, ultra-professional legal-tech banner. NO black background, NO fake random law firm names.`;
+    };
+
+    const buildDynamicInfographicPrompt = (title: string, takeaways: string[], headings: string[]) => {
+      const step1 = headings[0] ? headings[0].replace(/<\/?[^>]+(>|$)/g, "").slice(0, 30) : "1. Notice Audit";
+      const step2 = headings[1] ? headings[1].replace(/<\/?[^>]+(>|$)/g, "").slice(0, 30) : "2. Legal Protection";
+      const step3 = headings[2] ? headings[2].replace(/<\/?[^>]+(>|$)/g, "").slice(0, 30) : "3. Bank Settlement";
+      const step4 = headings[3] ? headings[3].replace(/<\/?[^>]+(>|$)/g, "").slice(0, 30) : "4. No Dues Certificate";
+      const heroStat = takeaways && takeaways[0] ? takeaways[0].slice(0, 45) : "Up to 70% Debt Waiver";
+
+      return `Clean, minimalist, high-impact visual process infographic poster for CredSettle titled "${title}". 70% clean white background, 20% #007AFF blue cards and badges, 10% black typography. Featuring 4 bold punchy milestone cards connected by directional arrows: [${step1}] -> [${step2}] -> [${step3}] -> [${step4}], with one large hero highlight badge "${heroStat}". Sleek 3D glassmorphic icons (legal shield, scales, verified certificate), uncluttered spacious layout, zero tiny noisy text, high CTR modern graphic design.`;
+    };
+
+    // STEP 3: Generate FAQs, Reviews, Cover Image Prompt, and Infographic Prompt
     let faqs = [];
     let reviews = [];
-    let suggestedImagePrompt = "Professional legal recovery illustration";
-    let infographicPrompt = "Infographic detailing the crux of the blog";
+    let suggestedImagePrompt = buildDynamicCoverImagePrompt(step1Result.title, primaryKeyword);
+    let infographicPrompt = buildDynamicInfographicPrompt(step1Result.title, step1Result.keyTakeaways || [], outline);
 
     if (totalInputTokens + totalOutputTokens >= MAX_TOTAL_TOKENS) {
-      console.warn(`[AI Generator Flow] Hard token limit (${MAX_TOTAL_TOKENS}) reached. Skipping FAQs and Reviews to prevent quota overuse.`);
+      console.warn(`[AI Generator Flow] Hard token limit (${MAX_TOTAL_TOKENS}) reached. Using dynamic fallback prompts for image and infographic.`);
     } else {
       try {
-      const step3SystemPrompt = `
-You are a legal content strategist, creative visual director, and SEO expert for CredSettle.
-Analyze the following generated article Title, Subtitle, and HTML Description, and generate:
-1. At least 8-10 highly relevant, detailed FAQs (frequently asked questions) that directly relate to the article content.
-2. 5 realistic customer review snippets (with Indian names) expressing high satisfaction with the recovery service.
-3. suggestedImagePrompt: A highly compelling, eye-catching, and slightly "clickbaity" editorial photographic scene that instantly hints at what this specific blog is about. It should visually contrast the core financial distress/conflict with the winning legal solution (e.g., an Indian borrower looking relieved alongside their advocate holding an official stamped settlement letter, or high-interest penalty notices being replaced by a clean debt-free certificate on an executive desk with dramatic lighting). Must be crisp, cinematic 8k photorealistic.
-4. infographicPrompt: A tailored 3D isometric visual flowchart/infographic that directly and pictorially represents the EXACT problem and step-by-step solution explained in this specific blog. It must visually depict the journey: (Phase 1: The specific problem e.g. tangled multi-bank debts or harassment -> Phase 2: Legal assessment -> Phase 3: Bank negotiation -> Phase 4: Full settlement waiver & No Dues Certificate). Style: 3D glassmorphic cards, glowing connecting directional arrows, vibrant 3D corporate icons (shield, legal scales, stamped NOC document), clean white studio background, polished 3D render. STRICT NEGATIVE INSTRUCTION: NO small paragraphs, NO tiny illegible pseudo-text.
+        const step3SystemPrompt = `
+You are a legal content strategist, master visual prompt engineer, and creative director for CredSettle (www.credsettle.com).
+Analyze the generated article Title, Subtitle, Key Takeaways, Outline, and HTML Description, and generate:
+
+1. faqs: At least 8-10 highly relevant, exhaustive FAQs (frequently asked questions) that directly answer specific practical, procedural, and legal questions addressed in the article.
+2. reviews: 5 realistic customer review snippets (with authentic Indian full names) expressing relief and high satisfaction with CredSettle's legal debt settlement and anti-harassment services.
+
+3. suggestedImagePrompt: A dynamic, highly detailed image generation prompt for the FEATURED COVER IMAGE. Must follow these STRICT rules:
+   - LIGHT MODE BACKGROUND (70% White): The image MUST have a clean, bright, modern LIGHT MODE background with ample white space (e.g. sunlit modern Indian corporate office, floor-to-ceiling glass windows overlooking Mumbai BKC / Bangalore / Cyber City Gurgaon skyline in daylight). STRICT NEGATIVE: NO dark backgrounds, NO black backgrounds, NO night scenes.
+   - BRAND NAME & BLOG TITLE: MUST prominently mention "CredSettle" brand and the exact blog title text clearly written on the image: "Prominently feature 'CredSettle' and the exact blog title text clearly written in bold, modern, legible typography on the image: \\"${step1Result.title}\\"". STRICT NEGATIVE: DO NOT invent fake law firm names like 'Legal Shield Associates' or random advocate names. ONLY use 'CredSettle'.
+   - COLOR PALETTE RATIO: Strictly composed of 70% Pure White background, 20% #007AFF Electric Blue (for headline typography and brand accents), and 10% Crisp Black/Charcoal (for dark text accents and subtle contrast).
+   - TOPIC NUANCE: Dynamic narrative reflecting this specific article topic (e.g., credit card debt settlement, personal loan relief, bank recovery harassment defence, Sec 138 notice, OTS agreement).
+   - STYLE: Clean, bright, ultra-modern corporate legal-tech editorial banner, 8k resolution, minimalist layout.
+
+4. infographicPrompt: A dynamic, MINIMALIST, HIGH-IMPACT infographic prompt that is clean, uncluttered, and forces users to click. Must follow these STRICT rules:
+   - LESS IS MORE / HIGH IMPACT: DO NOT stuff the infographic with paragraphs or noisy micro-text. Focus ONLY on 3 to 4 bold, punchy milestone steps / cards (e.g., Step 1 -> Step 2 -> Step 3 -> Step 4) derived from the blog outline, plus 1 large high-impact hero statistic badge (e.g., "Up to 70% Debt Reduction" or "45-90 Days Resolution").
+   - VISUAL ELEMENTS: Large 3D glassmorphic cards with recognizable 3D corporate trust icons (shield, scales, verified stamp, agreement document), bold glowing #007AFF directional arrows, clean high-contrast stat badges.
+   - COLOR RATIO & BACKGROUND: 70% Crisp White studio background, 20% #007AFF Blue cards/accents, 10% Black typography for crystal-clear readability.
+   - INSTANT READABILITY: Clean spacious composition that can be understood in 3 seconds at a glance.
+
 Article Title: ${step1Result.title}
 Article Subtitle: ${step1Result.subtitle}
+Key Takeaways: ${JSON.stringify(step1Result.keyTakeaways || [])}
+Article Outline: ${JSON.stringify(outline)}
 
 Article Description:
 ${cleanedDescription.substring(0, 4000)}
@@ -212,35 +242,35 @@ Return ONLY a JSON object with this exact structure:
   "reviews": [
     { "name": "Reviewer Full Name", "rating": 5, "review": "Detailed review text..." }
   ],
-  "suggestedImagePrompt": "Compelling editorial scene description visually teasing the exact topic",
-  "infographicPrompt": "Topic-specific 3D isometric step-by-step problem-solving diagram with 3D icons on clean white background, no tiny illegible text"
+  "suggestedImagePrompt": "Detailed prompt for light mode featured cover image (70% white, 20% #007AFF blue, 10% black) with CredSettle brand and title on image in Indian landscape",
+  "infographicPrompt": "Detailed prompt for clean, uncluttered, high-impact 4-step infographic with hero stat badge on 70% white background with #007AFF blue accents"
 }`;
 
-      const step3Completion = await openai.chat.completions.create({
-        model: "gpt-4o",
-        messages: [
-          { role: "system", content: step3SystemPrompt }
-        ],
-        response_format: { type: "json_object" },
-        temperature: 0.8,
-      });
+        const step3Completion = await openai.chat.completions.create({
+          model: "gpt-4o",
+          messages: [
+            { role: "system", content: step3SystemPrompt }
+          ],
+          response_format: { type: "json_object" },
+          temperature: 0.7,
+        });
 
-      const step3ResultStr = sanitizeText(step3Completion.choices[0]?.message?.content || "{}");
-      
-      if (step3Completion.usage) {
-        totalInputTokens += step3Completion.usage.prompt_tokens;
-        totalOutputTokens += step3Completion.usage.completion_tokens;
-        console.log(`[Token Usage] Step 3: ${step3Completion.usage.total_tokens} tokens (${step3Completion.usage.prompt_tokens} in, ${step3Completion.usage.completion_tokens} out)`);
-      }
+        const step3ResultStr = sanitizeText(step3Completion.choices[0]?.message?.content || "{}");
+        
+        if (step3Completion.usage) {
+          totalInputTokens += step3Completion.usage.prompt_tokens;
+          totalOutputTokens += step3Completion.usage.completion_tokens;
+          console.log(`[Token Usage] Step 3: ${step3Completion.usage.total_tokens} tokens (${step3Completion.usage.prompt_tokens} in, ${step3Completion.usage.completion_tokens} out)`);
+        }
 
-      const step3Result = JSON.parse(step3ResultStr);
+        const step3Result = JSON.parse(step3ResultStr);
 
-      faqs = step3Result.faqs || [];
-      reviews = step3Result.reviews || [];
-      suggestedImagePrompt = step3Result.suggestedImagePrompt || suggestedImagePrompt;
-      infographicPrompt = step3Result.infographicPrompt || infographicPrompt;
+        faqs = Array.isArray(step3Result.faqs) && step3Result.faqs.length > 0 ? step3Result.faqs : [];
+        reviews = Array.isArray(step3Result.reviews) && step3Result.reviews.length > 0 ? step3Result.reviews : [];
+        suggestedImagePrompt = step3Result.suggestedImagePrompt || suggestedImagePrompt;
+        infographicPrompt = step3Result.infographicPrompt || infographicPrompt;
 
-      console.log(`[AI Generator Flow] Step 3 complete. FAQs: ${faqs.length}, Reviews: ${reviews.length}`);
+        console.log(`[AI Generator Flow] Step 3 complete. FAQs: ${faqs.length}, Reviews: ${reviews.length}`);
       } catch (step3Error) {
         console.error("[AI Generator Flow] Error in Step 3:", step3Error);
       }
