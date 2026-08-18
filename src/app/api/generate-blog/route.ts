@@ -189,12 +189,12 @@ Dive deep into legal precedents, procedures, pitfalls, historical context, or ca
     } else {
       try {
       const step3SystemPrompt = `
-You are a legal content strategist and SEO expert for CredSettle.
+You are a legal content strategist, creative visual director, and SEO expert for CredSettle.
 Analyze the following generated article Title, Subtitle, and HTML Description, and generate:
 1. At least 8-10 highly relevant, detailed FAQs (frequently asked questions) that directly relate to the article content.
 2. 5 realistic customer review snippets (with Indian names) expressing high satisfaction with the recovery service.
-3. A suggested image prompt describing a clean, professional, modern photorealistic corporate editorial scene suitable for the article's main hero section.
-4. An infographic prompt: Formulate a prompt optimized for AI image generators (DALL-E / FLUX). It MUST specify a "modern 3D isometric visual flowchart diagram with 4 clear numbered stage cards (1, 2, 3, 4), vibrant blue & gold corporate 3D icons, clean white background, connecting glowing arrows, studio lighting, highly polished 3D render". Explicitly instruct NO tiny paragraphs or blurry text so the AI image model generates crisp, beautiful 3D visual icons and clean flowchart cards instead of illegible gibberish text.
+3. suggestedImagePrompt: A highly compelling, eye-catching, and slightly "clickbaity" editorial photographic scene that instantly hints at what this specific blog is about. It should visually contrast the core financial distress/conflict with the winning legal solution (e.g., an Indian borrower looking relieved alongside their advocate holding an official stamped settlement letter, or high-interest penalty notices being replaced by a clean debt-free certificate on an executive desk with dramatic lighting). Must be crisp, cinematic 8k photorealistic.
+4. infographicPrompt: A tailored 3D isometric visual flowchart/infographic that directly and pictorially represents the EXACT problem and step-by-step solution explained in this specific blog. It must visually depict the journey: (Phase 1: The specific problem e.g. tangled multi-bank debts or harassment -> Phase 2: Legal assessment -> Phase 3: Bank negotiation -> Phase 4: Full settlement waiver & No Dues Certificate). Style: 3D glassmorphic cards, glowing connecting directional arrows, vibrant 3D corporate icons (shield, legal scales, stamped NOC document), clean white studio background, polished 3D render. STRICT NEGATIVE INSTRUCTION: NO small paragraphs, NO tiny illegible pseudo-text.
 Article Title: ${step1Result.title}
 Article Subtitle: ${step1Result.subtitle}
 
@@ -212,8 +212,8 @@ Return ONLY a JSON object with this exact structure:
   "reviews": [
     { "name": "Reviewer Full Name", "rating": 5, "review": "Detailed review text..." }
   ],
-  "suggestedImagePrompt": "Visual description for the article's featured hero image",
-  "infographicPrompt": "Clean 3D isometric visual workflow diagram prompt with numbered cards and 3D icons, clean white studio background, no tiny illegible text"
+  "suggestedImagePrompt": "Compelling editorial scene description visually teasing the exact topic",
+  "infographicPrompt": "Topic-specific 3D isometric step-by-step problem-solving diagram with 3D icons on clean white background, no tiny illegible text"
 }`;
 
       const step3Completion = await openai.chat.completions.create({

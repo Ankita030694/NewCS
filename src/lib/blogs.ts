@@ -124,9 +124,14 @@ function mapDocToBlogDocument(
 
 function sortBlogsByDateDesc(blogs: BlogDocument[]): BlogDocument[] {
   return [...blogs].sort((a, b) => {
-    const dateA = a.date ? new Date(a.date).getTime() : (a.created || 0);
-    const dateB = b.date ? new Date(b.date).getTime() : (b.created || 0);
-    return dateB - dateA;
+    const dateA = a.date ? new Date(a.date).getTime() : 0;
+    const dateB = b.date ? new Date(b.date).getTime() : 0;
+    if (dateB !== dateA && !isNaN(dateB) && !isNaN(dateA)) {
+      return dateB - dateA;
+    }
+    const createdA = a.created || 0;
+    const createdB = b.created || 0;
+    return createdB - createdA;
   });
 }
 
