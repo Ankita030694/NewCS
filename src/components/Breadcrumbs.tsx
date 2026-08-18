@@ -8,9 +8,11 @@ interface BreadcrumbItem {
 
 interface BreadcrumbsProps {
   items: BreadcrumbItem[];
+  className?: string;
+  align?: 'left' | 'center';
 }
 
-export default function Breadcrumbs({ items }: BreadcrumbsProps) {
+export default function Breadcrumbs({ items, className, align = 'center' }: BreadcrumbsProps) {
   // Generate breadcrumb schema
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -23,6 +25,8 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
     }))
   };
 
+  const justifyClass = align === 'left' ? 'justify-start' : 'justify-center';
+
   return (
     <>
       {/* Breadcrumb Schema */}
@@ -33,12 +37,12 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
       />
 
       {/* Breadcrumb UI */}
-      <nav aria-label="Breadcrumb" className="mb-4 md:mb-6">
-        <ol className="flex flex-wrap items-center justify-center gap-2 text-sm" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
+      <nav aria-label="Breadcrumb" className={className ?? "mb-4 md:mb-6"}>
+        <ol className={`flex flex-wrap items-center ${justifyClass} gap-1.5 md:gap-2 text-[13px] md:text-sm`} style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
           {items.map((item, index) => (
             <li key={index} className="flex items-center">
               {index > 0 && (
-                <span className="mx-2" style={{ color: 'rgba(12, 39, 86, 0.5)' }}>/</span>
+                <span className="mx-1.5 md:mx-2 text-gray-400">/</span>
               )}
               {index === items.length - 1 ? (
                 <span className="font-medium" style={{ color: '#0C2756' }}>{item.name}</span>

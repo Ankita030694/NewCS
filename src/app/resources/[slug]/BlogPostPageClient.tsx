@@ -500,19 +500,6 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
       <Navbar />
 
       <div className="blog-detail-container">
-        {/* Breadcrumbs Section */}
-        <nav aria-label="Breadcrumb" className="w-full bg-[#F8F9FC]">
-          <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <Breadcrumbs
-              items={[
-                { name: 'Home', url: '/' },
-                { name: 'Resources', url: '/resources' },
-                { name: blog.title, url: `/resources/${canonicalSlug}` }
-              ]}
-            />
-          </div>
-        </nav>
-
         {/* Mobile TOC - simplified slider */}
         {headings.length > 0 && (
           <nav aria-label="In this article" className="lg:hidden w-full bg-[#EEF5FB]">
@@ -542,16 +529,27 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         )}
 
         {/* Hero Section */}
-        <section className="bg-white pb-6 pt-8 md:pb-8 md:pt-10" aria-label="Article hero">
+        <section className="bg-white pb-6 pt-6 md:pb-8 md:pt-8" aria-label="Article hero">
           <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-12 md:gap-10 lg:gap-12 md:items-center">
               
               {/* Left Column */}
-              <div className="flex min-w-0 flex-col gap-5 md:col-span-6 md:gap-7">
+              <div className="flex min-w-0 flex-col gap-4 md:col-span-6 md:gap-6">
+                <div>
+                  <Breadcrumbs
+                    align="left"
+                    className="mb-6 md:mb-7"
+                    items={[
+                      { name: 'Home', url: '/' },
+                      { name: 'Resources', url: '/resources' },
+                      { name: blog.title, url: `/resources/${breadcrumbsSlug}` }
+                    ]}
+                  />
 
-                <h1 className="max-w-2xl break-words text-[34px] font-bold leading-[1.18] text-[#004479] sm:text-[38px] md:text-[44px] lg:text-[48px] font-serif tracking-tight">
-                  {blog.title}
-                </h1>
+                  <h1 className="max-w-2xl break-words text-[34px] font-bold leading-[1.18] text-[#004479] sm:text-[38px] md:text-[44px] lg:text-[48px] tracking-tight">
+                    {blog.title}
+                  </h1>
+                </div>
                 
                 {blog.subtitle && (
                   <p className="max-w-[680px] text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] text-[#4E4E4E]">
@@ -590,13 +588,14 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
               {/* Right Column */}
               {blog.image && (
                 <div className="flex md:col-span-6 md:justify-center lg:justify-start lg:pl-8">
-                  <div className="relative aspect-4/3 w-full max-w-[560px] overflow-hidden rounded-2xl bg-[#E8E8E8] lg:aspect-4/3">
+                  <div className="relative w-full max-w-[560px] overflow-hidden rounded-2xl bg-[#E8E8E8] shadow-sm">
                     <Image
                       src={blog.image || '/sample.png'}
                       alt={blog.title}
-                      fill
+                      width={1200}
+                      height={800}
                       sizes="(min-width: 1024px) 50vw, 100vw"
-                      className="h-full w-full object-cover"
+                      className="w-full h-auto object-contain rounded-2xl block"
                       priority
                       placeholder="blur"
                       blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
@@ -614,7 +613,24 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
           <div className="hidden xl:flex w-full max-w-[1440px] mx-auto justify-center gap-8 lg:gap-10 w-fit">
             <div className="flex flex-col items-center justify-center">
               <div className="flex gap-3 items-center">
-                <i className="fas fa-star text-[32px] text-[#007AFF]"></i>
+                <svg className="w-8 h-8 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="#4285F4"
+                    d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"
+                  />
+                  <path
+                    fill="#34A853"
+                    d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.35 24 12 24z"
+                  />
+                  <path
+                    fill="#FBBC05"
+                    d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.98 0 12s.45 3.82 1.25 5.42l4.03-3.15z"
+                  />
+                  <path
+                    fill="#EA4335"
+                    d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.35 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"
+                  />
+                </svg>
                 <span className="text-[#004479] text-[36px] font-medium tracking-tight">
                   <AnimatedCounter end={4.8} decimals={1} suffix="/5" duration={1500} />
                 </span>
@@ -656,6 +672,24 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
              {/* Mobile simplified view */}
              <div className="flex flex-col items-center">
                 <div className="flex items-center gap-2 justify-center">
+                  <svg className="w-6 h-6 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="#4285F4"
+                      d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.35 24 12 24z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.98 0 12s.45 3.82 1.25 5.42l4.03-3.15z"
+                    />
+                    <path
+                      fill="#EA4335"
+                      d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.35 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"
+                    />
+                  </svg>
                   <span className="text-[#004479] text-[24px] font-bold">
                     <AnimatedCounter end={4.8} decimals={1} suffix="/5" duration={1500} />
                   </span>
