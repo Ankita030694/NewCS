@@ -193,8 +193,8 @@ You are a legal content strategist and SEO expert for CredSettle.
 Analyze the following generated article Title, Subtitle, and HTML Description, and generate:
 1. At least 8-10 highly relevant, detailed FAQs (frequently asked questions) that directly relate to the article content.
 2. 5 realistic customer review snippets (with Indian names) expressing high satisfaction with the recovery service.
-3. A suggested image prompt describing a clean, professional, modern corporate illustration suitable for the article's main hero section.
-4. An infographic prompt describing a highly detailed, data-driven infographic visually explaining the crux of the article.
+3. A suggested image prompt describing a clean, professional, modern photorealistic corporate editorial scene suitable for the article's main hero section.
+4. An infographic prompt: Formulate a prompt optimized for AI image generators (DALL-E / FLUX). It MUST specify a "modern 3D isometric visual flowchart diagram with 4 clear numbered stage cards (1, 2, 3, 4), vibrant blue & gold corporate 3D icons, clean white background, connecting glowing arrows, studio lighting, highly polished 3D render". Explicitly instruct NO tiny paragraphs or blurry text so the AI image model generates crisp, beautiful 3D visual icons and clean flowchart cards instead of illegible gibberish text.
 Article Title: ${step1Result.title}
 Article Subtitle: ${step1Result.subtitle}
 
@@ -212,8 +212,8 @@ Return ONLY a JSON object with this exact structure:
   "reviews": [
     { "name": "Reviewer Full Name", "rating": 5, "review": "Detailed review text..." }
   ],
-  "suggestedImagePrompt": "Visual description for the article's featured image",
-  "infographicPrompt": "Visual description for the article's crux infographic"
+  "suggestedImagePrompt": "Visual description for the article's featured hero image",
+  "infographicPrompt": "Clean 3D isometric visual workflow diagram prompt with numbered cards and 3D icons, clean white studio background, no tiny illegible text"
 }`;
 
       const step3Completion = await openai.chat.completions.create({

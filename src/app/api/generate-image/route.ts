@@ -27,7 +27,12 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    addLog(`Received prompt (${prompt.length} chars): "${prompt.slice(0, 100)}..."`);
+    let finalPrompt = prompt;
+    if (/infographic|diagram|flowchart|workflow|step-by-step|procedure/i.test(prompt)) {
+      finalPrompt = `${prompt}. Modern 3D isometric visual workflow render, clean white studio background, polished 3D glassmorphic cards with vibrant icons, professional corporate design, sharp focus, 8k resolution, no blurry small text, no fake gibberish words.`;
+    }
+
+    addLog(`Prepared prompt (${finalPrompt.length} chars): "${finalPrompt.slice(0, 100)}..."`);
 
     // STRATEGY 1: OpenAI Image API with gpt-image-2
     if (apiKey) {
@@ -45,7 +50,7 @@ export async function POST(request: NextRequest) {
           },
           body: JSON.stringify({
             model: "gpt-image-2",
-            prompt: prompt,
+            prompt: finalPrompt,
             n: 1,
             size: "1024x1024",
           }),
