@@ -829,10 +829,10 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 />
 
                 {blog.infographic && part2 && (
-                  <section className="my-10" aria-labelledby="cms-key-takeaways-heading">
+                  <section className="my-10" aria-labelledby="cms-infographic-heading">
                     <div className="rounded-[20px] bg-[#F0F7FF] p-4 md:rounded-3xl md:p-6 shadow-sm border border-[#BFE0FF]">
-                      <h2 id="cms-key-takeaways-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
-                        KEY TAKEAWAYS
+                      <h2 id="cms-infographic-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
+                        INFOGRAPHIC
                       </h2>
                       <div className="relative w-full overflow-hidden rounded-xl">
                         <Image
@@ -858,10 +858,10 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 )}
                 
                 {blog.infographic && !part2 && (
-                  <section className="my-10" aria-labelledby="cms-key-takeaways-heading">
+                  <section className="my-10" aria-labelledby="cms-infographic-heading">
                     <div className="rounded-[20px] bg-[#F0F7FF] p-4 md:rounded-3xl md:p-6 shadow-sm border border-[#BFE0FF]">
-                      <h2 id="cms-key-takeaways-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
-                        KEY TAKEAWAYS
+                      <h2 id="cms-infographic-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
+                        INFOGRAPHIC
                       </h2>
                       <div className="relative w-full overflow-hidden rounded-xl">
                         <Image
