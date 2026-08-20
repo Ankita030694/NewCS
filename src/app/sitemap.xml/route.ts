@@ -382,6 +382,13 @@ async function generateSitemap(): Promise<string> {
   // ========================================================================
   // SECTION 1: MAIN STATIC PAGES
   urls.push({
+    loc: `${baseUrl}/convert-settled-status-to-closed`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
     loc: `${baseUrl}/rbi-guidelines-for-recovery-agents-2026`,
     priority: 0.95,
     changefreq: 'weekly',

@@ -7,6 +7,11 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "How to Convert a Settled Loan to Closed Status (Step-by-Step)",
+    href: "/convert-settled-status-to-closed",
+    date: "20-08-2026",
+  },
+  {
     title: "Settle Your ₹20 Lakh Personal Loan (Process & Negotiation)",
     href: "/settle-20-lakh-personal-loan",
     date: "17-08-2026",
