@@ -395,7 +395,7 @@ export default function RightsClient() {
                 </p>
                 <ul className="list-disc pl-6 space-y-3">
                   <li>
-                    <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-India" className="text-blue-600 hover:underline">
+                    <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-india" className="text-blue-600 hover:underline">
                       How to Negotiate a Debt Settlement with Creditors in India
                     </Link>
                   </li>

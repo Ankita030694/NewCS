@@ -504,7 +504,7 @@ export default function BlockCallsClient() {
                 <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
                 <ul className="space-y-4">
                   <li>
-                    <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-India" className="group flex items-start">
+                    <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-india" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Negotiation Guide</span>
                     </Link>

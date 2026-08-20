@@ -505,7 +505,7 @@ export default function RiskClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="text-blue-600 hover:underline">How Settlement Impacts CIBIL</Link>
                 <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="text-blue-600 hover:underline">What is Loan Settlement?</Link>
-                <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-India" className="text-blue-600 hover:underline">Negotiation Guide</Link>
+                <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-india" className="text-blue-600 hover:underline">Negotiation Guide</Link>
                 <Link href="/best-companies-for-debt-settlement-services-in-india" className="text-blue-600 hover:underline">Best Settlement Companies</Link>
                 <Link href="/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy" className="text-blue-600 hover:underline">Check Company Legitimacy</Link>
               </div>

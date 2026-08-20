@@ -82,13 +82,23 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/services/businessloan/:path*",
-        destination: "/services/business-loan-settlement/:path*",
+        source: "/services/businessloan",
+        destination: "/services/business-loan-settlement",
         permanent: true,
       },
       {
-        source: "/services/personalloan/:path*",
-        destination: "/services/personal-loan-settlement/:path*",
+        source: "/services/businessloan/:path+",
+        destination: "/services/business-loan-settlement/:path+",
+        permanent: true,
+      },
+      {
+        source: "/services/personalloan",
+        destination: "/services/personal-loan-settlement",
+        permanent: true,
+      },
+      {
+        source: "/services/personalloan/:path+",
+        destination: "/services/personal-loan-settlement/:path+",
         permanent: true,
       },
       {
@@ -97,28 +107,48 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/nbfc-loan-settlement/:path*",
-        destination: "/services/nbfc-loan-settlement/:path*",
+        source: "/nbfc-loan-settlement/:path+",
+        destination: "/services/nbfc-loan-settlement/:path+",
         permanent: true,
       },
       {
-        source: "/services/creditloan/:path*",
-        destination: "/services/credit-card-settlement/:path*",
+        source: "/services/creditloan",
+        destination: "/services/credit-card-settlement",
         permanent: true,
       },
       {
-        source: "/services/carloan/:path*",
-        destination: "/services/car-loan-settlement/:path*",
+        source: "/services/creditloan/:path+",
+        destination: "/services/credit-card-settlement/:path+",
         permanent: true,
       },
       {
-        source: "/services/antiharassement/:path*",
-        destination: "/services/anti-harassment/:path*",
+        source: "/services/carloan",
+        destination: "/services/car-loan-settlement",
         permanent: true,
       },
       {
-        source: "/services/creditscore/:path*",
-        destination: "/services/credit-score-builder/:path*",
+        source: "/services/carloan/:path+",
+        destination: "/services/car-loan-settlement/:path+",
+        permanent: true,
+      },
+      {
+        source: "/services/antiharassement",
+        destination: "/services/anti-harassment",
+        permanent: true,
+      },
+      {
+        source: "/services/antiharassement/:path+",
+        destination: "/services/anti-harassment/:path+",
+        permanent: true,
+      },
+      {
+        source: "/services/creditscore",
+        destination: "/services/credit-score-builder",
+        permanent: true,
+      },
+      {
+        source: "/services/creditscore/:path+",
+        destination: "/services/credit-score-builder/:path+",
         permanent: true,
       },
       {
@@ -143,7 +173,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/testimonials",
-        destination: "/",
+        destination: "/reviews-of-popular-debt-settlement-services-available-to-indian-consumers",
         permanent: true,
       },
       {
@@ -188,12 +218,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/best-apps-for-managing-loan-settlement-offers-in-India",
-        destination: "/resources",
+        destination: "/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps",
         permanent: true,
       },
       {
         source: "/best-apps-for-managing-loan-settlement-offers-in-india",
-        destination: "/resources",
+        destination: "/available-loan-settlement-plans-for-salaried-individuals-via-fintech-apps",
         permanent: true,
       },
       {
@@ -203,7 +233,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/legal-services-near-me",
-        destination: "/",
+        destination: "/loan-settlement",
         permanent: true,
       },
       {
@@ -382,8 +412,8 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/compare-different-debt-management-and-settlement-programs-available-to-Indian-consumers",
-        destination: "/compare-different-debt-management-and-settlement-programs-available-to-indian-consumers",
+        source: "/services/how-to-check-your-loan-status-without-visiting-the-bank",
+        destination: "/how-to-check-your-loan-status-without-visiting-the-bank",
         permanent: true,
       },
       {
@@ -414,11 +444,6 @@ const nextConfig: NextConfig = {
       {
         source: "/anti-harassment",
         destination: "/services/anti-harassment",
-        permanent: true,
-      },
-      {
-        source: "/how-to-negotiate-a-debt-settlement-with-creditors-in-india",
-        destination: "/how-to-negotiate-a-debt-settlement-with-creditors-in-India",
         permanent: true,
       },
       {

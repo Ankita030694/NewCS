@@ -1426,7 +1426,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/how-to-negotiate-a-debt-settlement-with-creditors-in-India`,
+    loc: `${baseUrl}/how-to-negotiate-a-debt-settlement-with-creditors-in-india`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

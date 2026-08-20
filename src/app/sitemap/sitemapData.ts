@@ -908,7 +908,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "How to Negotiate a Debt Settlement with Creditors in India",
-    href: "/how-to-negotiate-a-debt-settlement-with-creditors-in-India",
+    href: "/how-to-negotiate-a-debt-settlement-with-creditors-in-india",
     date: "12-05-2026",
   },
   {

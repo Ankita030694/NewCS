@@ -397,7 +397,7 @@ export default function HowToImproveCibilScoreClient() {
                                 Consumer durable loans, often used to purchase smartphones or home appliances, are sometimes approved for individuals with recovering scores, provided the down payment is substantial. You can walk into a large retail store, select an appliance, offer a fifty percent down payment, and finance the rest through a non-banking financial company.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                This creates a new installment loan on your profile. By ensuring every EMI is paid on time, you prove to future lenders that you can handle fixed monthly obligations responsibly. If you previously defaulted due to unforeseen circumstances and lack the negotiation skills to clear past hurdles, reading our guide on <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-India" className="text-blue-600 font-semibold hover:underline">how to negotiate a debt settlement</Link> might provide retrospective clarity on securing a better starting point.
+                                This creates a new installment loan on your profile. By ensuring every EMI is paid on time, you prove to future lenders that you can handle fixed monthly obligations responsibly. If you previously defaulted due to unforeseen circumstances and lack the negotiation skills to clear past hurdles, reading our guide on <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-india" className="text-blue-600 font-semibold hover:underline">how to negotiate a debt settlement</Link> might provide retrospective clarity on securing a better starting point.
                             </p>
 
                             <h2 id="settled-vs-closed" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 6: Dealing with "Settled" vs "Closed" Status</h2>
@@ -524,7 +524,7 @@ export default function HowToImproveCibilScoreClient() {
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">Loan Settlement Guide</Link>
                                     <Link href="/impact-of-loan-settlement-on-cibil-score" className="block text-sm text-blue-600 hover:underline">Settlement Impact</Link>
-                                    <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-India" className="block text-sm text-blue-600 hover:underline">Negotiation Tactics</Link>
+                                    <Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-india" className="block text-sm text-blue-600 hover:underline">Negotiation Tactics</Link>
                                     <Link href="/best-time-for-loan-settlement" className="block text-sm text-blue-600 hover:underline">Best Settlement Timing</Link>
                                 </nav>
                             </div>

@@ -390,7 +390,7 @@ export default function OnlineDebtSettlementClient() {
                   <li><Link href="/rbi-new-recovery-guidelines-july-2026" className="text-blue-600 hover:underline">New RBI Recovery Guidelines for 2026</Link></li>
                   <li><Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="text-blue-600 hover:underline">Impact of Loan Settlement on CIBIL Score</Link></li>
                   <li><Link href="/best-companies-for-debt-settlement-services-in-india" className="text-blue-600 hover:underline">Best Debt Settlement Companies in India</Link></li>
-                  <li><Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-India" className="text-blue-600 hover:underline">How to Negotiate a Debt Settlement with Creditors</Link></li>
+                  <li><Link href="/how-to-negotiate-a-debt-settlement-with-creditors-in-india" className="text-blue-600 hover:underline">How to Negotiate a Debt Settlement with Creditors</Link></li>
                   <li><Link href="/can-i-go-to-jail-for-loan-default-in-india" className="text-blue-600 hover:underline">Legal Consequences of Loan Default in India</Link></li>
                 </ul>
               </div>
