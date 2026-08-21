@@ -325,7 +325,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 231; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
+  const mainStaticPages = 240; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -383,6 +383,27 @@ async function generateSitemap(): Promise<string> {
   // SECTION 1: MAIN STATIC PAGES
   urls.push({
     loc: `${baseUrl}/convert-settled-status-to-closed`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/remove-settled-status-from-cibil`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/improve-cibil-after-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/get-loan-after-settlement`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -3722,6 +3743,63 @@ async function generateSitemap(): Promise<string> {
   });
   urls.push({
     loc: `${baseUrl}/should-i-settle-or-restructure-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+
+  // --- AUTO-ADDED NEW BATCH ---
+  urls.push({
+    loc: `${baseUrl}/documents-needed-for-loan-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/full-and-final-settlement-meaning`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/verify-loan-settlement-letter`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/get-noc-after-loan-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/get-home-loan-after-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/dispute-wrong-settled-status-cibil`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/settle-20-lakh-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/settle-15-lakh-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/negotiate-multiple-loans-together`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today

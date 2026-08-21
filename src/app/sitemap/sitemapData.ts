@@ -7,6 +7,21 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "How to Remove \"Settled\" Status from CIBIL (2026 Legal Guide)",
+    href: "/remove-settled-status-from-cibil",
+    date: "21-08-2026",
+  },
+  {
+    title: "How to Rebuild & Improve CIBIL After a Loan Settlement",
+    href: "/improve-cibil-after-loan-settlement",
+    date: "21-08-2026",
+  },
+  {
+    title: "How to Get a Loan After Settlement (Approval Guide 2026)",
+    href: "/get-loan-after-settlement",
+    date: "21-08-2026",
+  },
+  {
     title: "How to Convert a Settled Loan to Closed Status (Step-by-Step)",
     href: "/convert-settled-status-to-closed",
     date: "20-08-2026",

@@ -25,7 +25,8 @@ import {
   AlertCircle,
   CreditCard,
   Briefcase,
-  Bookmark
+  Bookmark,
+  ArrowRight
 } from 'lucide-react';
 
 export default function ConvertSettledStatusClient() {
@@ -894,7 +895,7 @@ Place: [City, State]`}
                 Frequently Asked Questions on Converting Settled Status to Closed
               </h2>
               <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal and banking answers verified by our senior debt advocates:
+                Click on any question below to view detailed legal and banking answers verified by our debt settlement experts:
               </p>
 
               <div className="space-y-3 pt-2">
@@ -1070,21 +1071,36 @@ Place: [City, State]`}
             {/* Card 1: Author Bio Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-extrabold text-sm">
+                <Link
+                  href="/author/ashish-jhangra"
+                  className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-extrabold text-sm hover:bg-blue-200 transition-colors flex-shrink-0"
+                  title="View Ashish Jhangra Profile"
+                >
                   AJ
-                </div>
+                </Link>
                 <div>
-                  <h3 className="text-sm font-bold text-slate-900">Ashish Jhangra</h3>
+                  <Link
+                    href="/author/ashish-jhangra"
+                    className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block"
+                  >
+                    Ashish Jhangra
+                  </Link>
                   <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Senior Debt Settlement Legal Advocate
+                    Legal &amp; Debt Resolution Professional
                   </p>
                 </div>
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking law, DRT proceedings, SARFAESI defenses, and CIBIL rectification with over 11 years of experience resolving complex NPA defaults across Indian banks.
+                Specialized in banking compliance, debt resolution strategies, loan dispute negotiations, and CIBIL rectification with extensive experience resolving complex NPA defaults across Indian banks.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
-                <span>Verified Author</span>
+                <Link
+                  href="/author/ashish-jhangra"
+                  className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1"
+                >
+                  <span>View Author Profile</span>
+                  <ArrowRight className="w-3 h-3" />
+                </Link>
                 <span className="text-emerald-600 font-bold flex items-center gap-1">
                   <ShieldCheck className="w-3 h-3" /> CredSettle Panel
                 </span>
@@ -1102,7 +1118,7 @@ Place: [City, State]`}
                   Stuck with a &quot;Settled&quot; Tag on CIBIL?
                 </h3>
                 <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
-                  Our legal advocates negotiate directly with your bank to freeze penalties, calculate the true principal differential, and secure your unconditional No Dues Certificate.
+                  Our debt resolution experts negotiate directly with your bank to freeze penalties, calculate the true principal differential, and secure your unconditional No Dues Certificate.
                 </p>
               </div>
               <Link
@@ -1131,19 +1147,19 @@ Place: [City, State]`}
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Zero Upfront Risk:</strong> Legal fees linked to successful resolution.</span>
+                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Direct Bank Remittance:</strong> No middleman wallets or funds pooling.</span>
+                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute advocacy.</span>
+                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Pan-India Representation:</strong> High Court &amp; DRT panel advocates.</span>
+                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
                 </li>
               </ul>
             </div>

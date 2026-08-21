@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { FaWhatsapp, FaLinkedin, FaTwitter, FaChevronRight } from "react-line-icons";
 
 export default function Settle15LakhClient() {
   const [activeSection, setActiveSection] = useState("");
