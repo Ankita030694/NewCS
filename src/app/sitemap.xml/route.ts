@@ -325,7 +325,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 240; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
+  const mainStaticPages = 250; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -3800,6 +3800,69 @@ async function generateSitemap(): Promise<string> {
   });
   urls.push({
     loc: `${baseUrl}/negotiate-multiple-loans-together`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+
+  // --- AUTO-ADDED NEW BATCH ---
+  urls.push({
+    loc: `${baseUrl}/mental-harassment-by-recovery-agents-legal-action`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/guarantor-liability-personal-loan-default`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/personal-loan-after-death-of-borrower`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/can-recovery-agents-seize-property`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/salary-deduction-personal-loan-default`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/fake-loan-app-harassment-cyber-crime`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/ecs-nach-bounce-legal-notice-section-25`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/section-138-cheque-bounce-personal-loan`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/lok-adalat-personal-loan-settlement`,
+    priority: 0.8,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+  urls.push({
+    loc: `${baseUrl}/arbitration-notice-personal-loan-default`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today

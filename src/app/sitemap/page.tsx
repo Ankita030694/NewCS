@@ -12,8 +12,47 @@ export const metadata: Metadata = {
     },
 };
 
-// Auto-generated list of all pages on the site (Newest first)
 const sitemapLinks = [
+  {
+    "title": "Mental Harassment By Recovery Agents Legal Action",
+    "href": "/mental-harassment-by-recovery-agents-legal-action"
+  },
+  {
+    "title": "Guarantor Liability Personal Loan Default",
+    "href": "/guarantor-liability-personal-loan-default"
+  },
+  {
+    "title": "Personal Loan After Death Of Borrower",
+    "href": "/personal-loan-after-death-of-borrower"
+  },
+  {
+    "title": "Can Recovery Agents Seize Property",
+    "href": "/can-recovery-agents-seize-property"
+  },
+  {
+    "title": "Salary Deduction Personal Loan Default",
+    "href": "/salary-deduction-personal-loan-default"
+  },
+  {
+    "title": "Fake Loan App Harassment Cyber Crime",
+    "href": "/fake-loan-app-harassment-cyber-crime"
+  },
+  {
+    "title": "Ecs Nach Bounce Legal Notice Section 25",
+    "href": "/ecs-nach-bounce-legal-notice-section-25"
+  },
+  {
+    "title": "Section 138 Cheque Bounce Personal Loan",
+    "href": "/section-138-cheque-bounce-personal-loan"
+  },
+  {
+    "title": "Lok Adalat Personal Loan Settlement",
+    "href": "/lok-adalat-personal-loan-settlement"
+  },
+  {
+    "title": "Arbitration Notice Personal Loan Default",
+    "href": "/arbitration-notice-personal-loan-default"
+  },
   {
     "title": "Documents Needed For Loan Settlement",
     "href": "/documents-needed-for-loan-settlement"

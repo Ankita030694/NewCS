@@ -7,6 +7,11 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Mental Harassment by Recovery Agents: Legal Action & Compensation",
+    href: "/mental-harassment-by-recovery-agents-legal-action",
+    date: "21-08-2026",
+  },
+  {
     title: "How to Remove \"Settled\" Status from CIBIL (2026 Legal Guide)",
     href: "/remove-settled-status-from-cibil",
     date: "21-08-2026",
