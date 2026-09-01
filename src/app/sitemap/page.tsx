@@ -14,6 +14,86 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "Business Loan Settlement Process in India | Legal & OTS Guide",
+    "href": "/business-loan-settlement-process"
+  },
+  {
+    "title": "MSME Loan Default Legal Action: Defense Under MSMED Act, CGTMSE & RBI",
+    "href": "/msme-loan-default-legal-action"
+  },
+  {
+    "title": "Gold Loan Default: Can Bank Auction My Gold? (Borrower Legal Rights)",
+    "href": "/gold-loan-default-auction"
+  },
+  {
+    "title": "Car Loan Default & Vehicle Seizure by Bank: Legal Rights & Protection",
+    "href": "/car-loan-default-vehicle-seizure"
+  },
+  {
+    "title": "Two Wheeler & Bike Loan Settlement: Stop Harassment & Seizure",
+    "href": "/two-wheeler-bike-loan-settlement"
+  },
+  {
+    "title": "Education Loan Settlement in India | Legal OTS & Co-Borrower Protection",
+    "href": "/education-loan-settlement"
+  },
+  {
+    "title": "Mudra Loan Default Consequences in India | Legal Realities & OTS Guide",
+    "href": "/mudra-loan-default-consequences"
+  },
+  {
+    "title": "Home Loan Default: How to Stop SARFAESI Property Auctions",
+    "href": "/home-loan-default-sarfaesi-act"
+  },
+  {
+    "title": "NRI Credit Card Debt Settlement India | Remote Legal Defense & Loan Resolution",
+    "href": "/nri-credit-card-debt-settlement"
+  },
+  {
+    "title": "Consumer Durable Mobile Loan Default: Legal Rights & Settlement",
+    "href": "/consumer-durable-loan-default"
+  },
+  {
+    "title": "Can I Go to Jail for Credit Card Debt in India? Legal Rights & Protection",
+    "href": "/can-i-go-to-jail-for-credit-card-debt"
+  },
+  {
+    "title": "How to File a Police Complaint Against a Bank Recovery Agent",
+    "href": "/police-complaint-against-bank-recovery-agent"
+  },
+  {
+    "title": "Is It Legal to Record Recovery Agent Calls in India? (Evidence Rules)",
+    "href": "/is-it-legal-to-record-recovery-agent-calls"
+  },
+  {
+    "title": "Does Loan Settlement Affect Government Job? UPSC, SSC & Bank Rules",
+    "href": "/does-loan-settlement-affect-government-job"
+  },
+  {
+    "title": "Loan Settlement Fraud Alert: Spot Fake Agencies & Scam Red Flags",
+    "href": "/loan-settlement-fraud-alert"
+  },
+  {
+    "title": "Personal Loan Na Chukane Par Kya Hota Hai? (Legal Rights & OTS Guide)",
+    "href": "/personal-loan-na-chukane-par-kya-hota-hai"
+  },
+  {
+    "title": "Bank Recovery Agent Harassment Rules in Hindi: RBI Guidelines & Legal Rights",
+    "href": "/bank-recovery-agent-harassment-rules-in-hindi"
+  },
+  {
+    "title": "Lok Adalat Notice Kya Hota Hai? Loan Settlement & Legal Rights",
+    "href": "/lok-adalat-notice-kya-hota-hai"
+  },
+  {
+    "title": "Credit Card Settlement Kaise Hota Hai? Step-by-Step Legal Guide & Math",
+    "href": "/credit-card-settlement-kaise-hota-hai"
+  },
+  {
+    "title": "CIBIL Score Kaise Badhaye After Settlement? (Full 750+ Guide)",
+    "href": "/cibil-score-kaise-badhaye-after-settlement"
+  },
+  {
     "title": "Mental Harassment By Recovery Agents Legal Action",
     "href": "/mental-harassment-by-recovery-agents-legal-action"
   },

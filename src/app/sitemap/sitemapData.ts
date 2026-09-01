@@ -7,6 +7,106 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Business Loan Settlement Process in India | Legal & OTS Guide",
+    href: "/business-loan-settlement-process",
+    date: "01-09-2026",
+  },
+  {
+    title: "MSME Loan Default Legal Action: Defense Under MSMED Act, CGTMSE & RBI",
+    href: "/msme-loan-default-legal-action",
+    date: "01-09-2026",
+  },
+  {
+    title: "Gold Loan Default: Can Bank Auction My Gold? (Borrower Legal Rights)",
+    href: "/gold-loan-default-auction",
+    date: "01-09-2026",
+  },
+  {
+    title: "Car Loan Default & Vehicle Seizure by Bank: Legal Rights & Protection",
+    href: "/car-loan-default-vehicle-seizure",
+    date: "01-09-2026",
+  },
+  {
+    title: "Two Wheeler & Bike Loan Settlement: Stop Harassment & Seizure",
+    href: "/two-wheeler-bike-loan-settlement",
+    date: "01-09-2026",
+  },
+  {
+    title: "Education Loan Settlement in India | Legal OTS & Co-Borrower Protection",
+    href: "/education-loan-settlement",
+    date: "01-09-2026",
+  },
+  {
+    title: "Mudra Loan Default Consequences in India | Legal Realities & OTS Guide",
+    href: "/mudra-loan-default-consequences",
+    date: "01-09-2026",
+  },
+  {
+    title: "Home Loan Default: How to Stop SARFAESI Property Auctions",
+    href: "/home-loan-default-sarfaesi-act",
+    date: "01-09-2026",
+  },
+  {
+    title: "NRI Credit Card Debt Settlement India | Remote Legal Defense & Loan Resolution",
+    href: "/nri-credit-card-debt-settlement",
+    date: "01-09-2026",
+  },
+  {
+    title: "Consumer Durable Mobile Loan Default: Legal Rights & Settlement",
+    href: "/consumer-durable-loan-default",
+    date: "01-09-2026",
+  },
+  {
+    title: "Can I Go to Jail for Credit Card Debt in India? Legal Rights & Protection",
+    href: "/can-i-go-to-jail-for-credit-card-debt",
+    date: "01-09-2026",
+  },
+  {
+    title: "How to File a Police Complaint Against a Bank Recovery Agent",
+    href: "/police-complaint-against-bank-recovery-agent",
+    date: "01-09-2026",
+  },
+  {
+    title: "Is It Legal to Record Recovery Agent Calls in India? (Evidence Rules)",
+    href: "/is-it-legal-to-record-recovery-agent-calls",
+    date: "01-09-2026",
+  },
+  {
+    title: "Does Loan Settlement Affect Government Job? UPSC, SSC & Bank Rules",
+    href: "/does-loan-settlement-affect-government-job",
+    date: "01-09-2026",
+  },
+  {
+    title: "Loan Settlement Fraud Alert: Spot Fake Agencies & Scam Red Flags",
+    href: "/loan-settlement-fraud-alert",
+    date: "01-09-2026",
+  },
+  {
+    title: "Personal Loan Na Chukane Par Kya Hota Hai? (Legal Rights & OTS Guide)",
+    href: "/personal-loan-na-chukane-par-kya-hota-hai",
+    date: "01-09-2026",
+  },
+  {
+    title: "Bank Recovery Agent Harassment Rules in Hindi: RBI Guidelines & Legal Rights",
+    href: "/bank-recovery-agent-harassment-rules-in-hindi",
+    date: "01-09-2026",
+  },
+  {
+    title: "Lok Adalat Notice Kya Hota Hai? Loan Settlement & Legal Rights",
+    href: "/lok-adalat-notice-kya-hota-hai",
+    date: "01-09-2026",
+  },
+  {
+    title: "Credit Card Settlement Kaise Hota Hai? Step-by-Step Legal Guide & Math",
+    href: "/credit-card-settlement-kaise-hota-hai",
+    date: "01-09-2026",
+  },
+  {
+    title: "CIBIL Score Kaise Badhaye After Settlement? (Full 750+ Guide)",
+    href: "/cibil-score-kaise-badhaye-after-settlement",
+    date: "01-09-2026",
+  },
+  {
     title: "Mental Harassment by Recovery Agents: Legal Action & Compensation",
     href: "/mental-harassment-by-recovery-agents-legal-action",
     date: "21-08-2026",
