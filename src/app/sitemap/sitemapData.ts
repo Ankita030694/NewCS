@@ -7,6 +7,66 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Navi Loan Default Harassment: Stop Recovery Threats & Settle Legally",
+    href: "/navi-loan-default-harassment",
+    date: "02-09-2026",
+  },
+  {
+    title: "KreditBee Recovery Agent Harassment: Complaint, RBI Rules & Settlement",
+    href: "/kreditbee-recovery-agent-harassment",
+    date: "02-09-2026",
+  },
+  {
+    title: "How to Escape Credit Card Minimum Due Trap (Debt Settlement Guide)",
+    href: "/credit-card-minimum-due-trap",
+    date: "02-09-2026",
+  },
+  {
+    title: "Credit Card Settlement Process in India: Step-by-Step Legal Guide",
+    href: "/credit-card-settlement-process",
+    date: "02-09-2026",
+  },
+  {
+    title: "Credit Card Legal Notice Format and Reply: Complete Legal Defense Guide",
+    href: "/credit-card-legal-notice-format",
+    date: "02-09-2026",
+  },
+  {
+    title: "How to Settle Multiple Credit Cards at Once: Multi-Bank Legal Strategy",
+    href: "/settle-multiple-credit-cards",
+    date: "02-09-2026",
+  },
+  {
+    title: "Credit Card Default After 5 Years: Limitation Act & Legal Settlement",
+    href: "/credit-card-default-after-5-years",
+    date: "02-09-2026",
+  },
+  {
+    title: "How to Stop Credit Card Recovery Calls Immediately (Legal Guide)",
+    href: "/stop-credit-card-recovery-calls",
+    date: "02-09-2026",
+  },
+  {
+    title: "How Much Discount Can I Get on Credit Card Settlement? (50% to 75% Waiver Guide)",
+    href: "/credit-card-settlement-discount",
+    date: "02-09-2026",
+  },
+  {
+    title: "When Does a Credit Card Become NPA? Delinquency Stages & Settlement Timeline",
+    href: "/credit-card-npa-timeline",
+    date: "02-09-2026",
+  },
+  {
+    title: "Credit Card Settlement Calculator: Estimate Waiver & Payout in India",
+    href: "/credit-card-settlement-calculator",
+    date: "02-09-2026",
+  },
+  {
+    title: "Credit Card Debt Consolidation in India: Loans vs Settlement Guide",
+    href: "/credit-card-debt-consolidation",
+    date: "02-09-2026",
+  },
+  {
     title: "Business Loan Settlement Process in India | Legal & OTS Guide",
     href: "/business-loan-settlement-process",
     date: "01-09-2026",

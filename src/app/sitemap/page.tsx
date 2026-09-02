@@ -14,6 +14,54 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "Navi Loan Default Harassment: Stop Recovery Threats & Settle Legally",
+    "href": "/navi-loan-default-harassment"
+  },
+  {
+    "title": "KreditBee Recovery Agent Harassment: Complaint, RBI Rules & Settlement",
+    "href": "/kreditbee-recovery-agent-harassment"
+  },
+  {
+    "title": "How to Escape Credit Card Minimum Due Trap (Debt Settlement Guide)",
+    "href": "/credit-card-minimum-due-trap"
+  },
+  {
+    "title": "Credit Card Settlement Process in India: Step-by-Step Legal Guide",
+    "href": "/credit-card-settlement-process"
+  },
+  {
+    "title": "Credit Card Legal Notice Format and Reply: Complete Legal Defense Guide",
+    "href": "/credit-card-legal-notice-format"
+  },
+  {
+    "title": "How to Settle Multiple Credit Cards at Once: Multi-Bank Legal Strategy",
+    "href": "/settle-multiple-credit-cards"
+  },
+  {
+    "title": "Credit Card Default After 5 Years: Limitation Act & Legal Settlement",
+    "href": "/credit-card-default-after-5-years"
+  },
+  {
+    "title": "How to Stop Credit Card Recovery Calls Immediately (Legal Guide)",
+    "href": "/stop-credit-card-recovery-calls"
+  },
+  {
+    "title": "How Much Discount Can I Get on Credit Card Settlement? (50% to 75% Waiver Guide)",
+    "href": "/credit-card-settlement-discount"
+  },
+  {
+    "title": "When Does a Credit Card Become NPA? Delinquency Stages & Settlement Timeline",
+    "href": "/credit-card-npa-timeline"
+  },
+  {
+    "title": "Credit Card Settlement Calculator: Estimate Waiver & Payout in India",
+    "href": "/credit-card-settlement-calculator"
+  },
+  {
+    "title": "Credit Card Debt Consolidation in India: Loans vs Settlement Guide",
+    "href": "/credit-card-debt-consolidation"
+  },
+  {
     "title": "Business Loan Settlement Process in India | Legal & OTS Guide",
     "href": "/business-loan-settlement-process"
   },
