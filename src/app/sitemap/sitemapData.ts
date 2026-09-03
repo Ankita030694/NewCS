@@ -7,6 +7,56 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "How to Convince Bank for One Time Settlement: Complete OTS Negotiation Guide",
+    href: "/how-to-convince-bank-for-one-time-settlement",
+    date: "03-09-2026",
+  },
+  {
+    title: "Can I Pay Settlement Amount in EMI? Staged OTS Guide",
+    href: "/can-i-pay-settlement-amount-in-emi",
+    date: "03-09-2026",
+  },
+  {
+    title: "What Happens If You Default on a Settlement Agreement? (OTS Guide)",
+    href: "/what-happens-if-i-default-on-settlement-agreement",
+    date: "03-09-2026",
+  },
+  {
+    title: "Can Loan Defaulter Go Abroad? Legal Rights & Airport Rules",
+    href: "/can-loan-defaulter-go-abroad",
+    date: "03-09-2026",
+  },
+  {
+    title: "Bank Demanding Full Payment for Loan Closure? (How to Settle)",
+    href: "/bank-demanding-full-payment-for-loan-closure",
+    date: "03-09-2026",
+  },
+  {
+    title: "Will Bank Waive Off Interest on Personal Loan? (Legal Waiver Guide)",
+    href: "/will-bank-waive-off-interest-on-personal-loan",
+    date: "03-09-2026",
+  },
+  {
+    title: "Does Loan Settlement Mean Debt is Forgiven? Legal Finality & NDC Guide",
+    href: "/does-loan-settlement-mean-debt-is-forgiven",
+    date: "03-09-2026",
+  },
+  {
+    title: "Can I Settle Loan Before NPA? (SMA Stages & Settlement Rules)",
+    href: "/can-i-settle-loan-before-npa",
+    date: "03-09-2026",
+  },
+  {
+    title: "How to Write a Hardship Letter for Loan Settlement (Bank Guide)",
+    href: "/how-to-write-a-hardship-letter-for-loan-settlement",
+    date: "03-09-2026",
+  },
+  {
+    title: "Can Bank Deduct Money from Another Account? (Legal Rules & Set-Off Defense)",
+    href: "/can-bank-deduct-money-from-another-account",
+    date: "03-09-2026",
+  },
+  {
     title: "Navi Loan Default Harassment: Stop Recovery Threats & Settle Legally",
     href: "/navi-loan-default-harassment",
     date: "02-09-2026",

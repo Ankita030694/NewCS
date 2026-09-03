@@ -14,6 +14,46 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "How to Convince Bank for One Time Settlement: Complete OTS Negotiation Guide",
+    "href": "/how-to-convince-bank-for-one-time-settlement"
+  },
+  {
+    "title": "Can I Pay Settlement Amount in EMI? Staged OTS Guide",
+    "href": "/can-i-pay-settlement-amount-in-emi"
+  },
+  {
+    "title": "What Happens If You Default on a Settlement Agreement? (OTS Guide)",
+    "href": "/what-happens-if-i-default-on-settlement-agreement"
+  },
+  {
+    "title": "Can Loan Defaulter Go Abroad? Legal Rights & Airport Rules",
+    "href": "/can-loan-defaulter-go-abroad"
+  },
+  {
+    "title": "Bank Demanding Full Payment for Loan Closure? (How to Settle)",
+    "href": "/bank-demanding-full-payment-for-loan-closure"
+  },
+  {
+    "title": "Will Bank Waive Off Interest on Personal Loan? (Legal Waiver Guide)",
+    "href": "/will-bank-waive-off-interest-on-personal-loan"
+  },
+  {
+    "title": "Does Loan Settlement Mean Debt is Forgiven? Legal Finality & NDC Guide",
+    "href": "/does-loan-settlement-mean-debt-is-forgiven"
+  },
+  {
+    "title": "Can I Settle Loan Before NPA? (SMA Stages & Settlement Rules)",
+    "href": "/can-i-settle-loan-before-npa"
+  },
+  {
+    "title": "How to Write a Hardship Letter for Loan Settlement (Bank Guide)",
+    "href": "/how-to-write-a-hardship-letter-for-loan-settlement"
+  },
+  {
+    "title": "Can Bank Deduct Money from Another Account? (Legal Rules & Set-Off Defense)",
+    "href": "/can-bank-deduct-money-from-another-account"
+  },
+  {
     "title": "Navi Loan Default Harassment: Stop Recovery Threats & Settle Legally",
     "href": "/navi-loan-default-harassment"
   },
