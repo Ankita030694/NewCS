@@ -584,12 +584,6 @@ async function generateSitemap(): Promise<string> {
     lastmod: today
   });
 
-  urls.push({
-    loc: `${baseUrl}/home-loan-default-sarfaesi-act`,
-    priority: 0.95,
-    changefreq: 'weekly',
-    lastmod: today
-  });
 
   urls.push({
     loc: `${baseUrl}/nri-credit-card-debt-settlement`,

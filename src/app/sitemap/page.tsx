@@ -128,10 +128,7 @@ const sitemapLinks = [
   {
     "title": "Mudra Loan Default Consequences in India | Legal Realities & OTS Guide",
     "href": "/mudra-loan-default-consequences"
-  },
-  {
-    "title": "Home Loan Default: How to Stop SARFAESI Property Auctions",
-    "href": "/home-loan-default-sarfaesi-act"
+
   },
   {
     "title": "NRI Credit Card Debt Settlement India | Remote Legal Defense & Loan Resolution",
