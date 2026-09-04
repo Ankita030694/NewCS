@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardDefaultAfter5YearsClient from './CreditCardDefaultAfter5YearsClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Default After 5 Years: Limitation Act & Legal Settlement',
+  title: 'Credit Card Default After 5 Years Rules',
   description:
     'Defaulted on credit card debt for 5+ years? Learn how the Limitation Act 1963 bars civil recovery after 3 years, how to handle ARC zombie debt, and how to settle legally.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'stop credit card recovery harassment after 5 years'
   ],
   openGraph: {
-    title: 'Credit Card Default After 5 Years: Limitation Act & Settlement Guide | CredSettle',
+    title: 'Credit Card Default After 5 Years Rules',
     description:
       'Defaulted on credit card debt for 5+ years? Learn how the Limitation Act 1963 bars civil recovery after 3 years, how to handle ARC zombie debt, and how to settle legally.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credit Card Default After 5 Years: Limitation Act & Legal Settlement',
+    title: 'Credit Card Default After 5 Years Rules',
     description:
       'Defaulted on credit card debt for 5+ years? Learn how the Limitation Act 1963 bars civil recovery after 3 years, how to handle ARC zombie debt, and how to settle legally.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-default-after-5-years.jpg']

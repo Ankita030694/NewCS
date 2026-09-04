@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardNpaTimelineClient from './CreditCardNpaTimelineClient';
 
 export const metadata: Metadata = {
-  title: 'When Does a Credit Card Become NPA? Delinquency Stages & Settlement Timeline',
+  title: 'When Does a Credit Card Become NPA in India?',
   description:
     'Understand when a credit card becomes an NPA in India. Complete chronological timeline of SMA-0, SMA-1, SMA-2, and Substandard NPA stages, bank recovery escalation, and OTS settlement timing.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credsettle credit card npa resolution'
   ],
   openGraph: {
-    title: 'When Does a Credit Card Become NPA? Delinquency Stages & Settlement Timeline | CredSettle',
+    title: 'When Does a Credit Card Become NPA in India?',
     description:
       'Understand when a credit card becomes an NPA in India. Complete chronological timeline of SMA-0, SMA-1, SMA-2, and Substandard NPA stages, bank recovery escalation, and OTS settlement timing.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'When Does a Credit Card Become NPA? Delinquency Stages & Settlement Timeline',
+    title: 'When Does a Credit Card Become NPA in India?',
     description:
       'Understand when a credit card becomes an NPA in India. Complete chronological timeline of SMA-0, SMA-1, SMA-2, and Substandard NPA stages, bank recovery escalation, and OTS settlement timing.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-npa-timeline.jpg']

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import TwoWheelerBikeLoanSettlementClient from './TwoWheelerBikeLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Two Wheeler & Bike Loan Settlement: Stop Harassment & Seizure',
+  title: 'Two Wheeler & Bike Loan Settlement Guide',
   description: 'Facing bike loan default, aggressive recovery agent visits, or illegal two-wheeler repossession? Learn Supreme Court protections, RBI rules, and 40% to 55% OTS settlement options.',
   keywords: [
     'two wheeler loan settlement',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/two-wheeler-bike-loan-settlement',
   },
   openGraph: {
-    title: 'Two Wheeler & Bike Loan Settlement: Stop Harassment & Seizure',
+    title: 'Two Wheeler & Bike Loan Settlement Guide',
     description: 'Protect your motorcycle or scooter from unlawful recovery agent seizure. Understand Supreme Court guidelines, pre-sale valuation notices, and institutional debt settlement.',
     url: 'https://www.credsettle.com/two-wheeler-bike-loan-settlement',
     siteName: 'CredSettle',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Two Wheeler & Bike Loan Settlement: Stop Harassment & Seizure',
+    title: 'Two Wheeler & Bike Loan Settlement Guide',
     description: 'Protect your two-wheeler from illegal street repossession and recovery harassment. Learn statutory rights, RBI rules, and institutional compromise settlement options.',
     images: ['https://www.credsettle.com/images/infographics/two-wheeler-bike-loan-settlement.jpg'],
   },

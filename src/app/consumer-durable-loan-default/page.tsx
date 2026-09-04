@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import ConsumerDurableLoanDefaultClient from './ConsumerDurableLoanDefaultClient';
 
 export const metadata: Metadata = {
-  title: 'Consumer Durable Mobile Loan Default: Legal Rights & Settlement',
+  title: 'Consumer Durable Mobile Loan Default Guide',
   description:
     'Defaulted on NBFC EMI cards or mobile BNPL loans? Learn your legal rights against auto-dialer harassment, NACH bounce charges, and how to settle small-ticket debt.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'small ticket personal loan settlement'
   ],
   openGraph: {
-    title: 'Consumer Durable Mobile Loan Default: Legal Rights & Settlement | CredSettle',
+    title: 'Consumer Durable Mobile Loan Default Guide',
     description:
       'Defaulted on NBFC EMI cards or mobile BNPL loans? Learn your legal rights against auto-dialer harassment, NACH bounce charges, and how to settle small-ticket debt.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Consumer Durable Mobile Loan Default: Legal Rights & Settlement',
+    title: 'Consumer Durable Mobile Loan Default Guide',
     description:
       'Defaulted on NBFC EMI cards or mobile BNPL loans? Learn your legal rights against auto-dialer harassment, NACH bounce charges, and how to settle small-ticket debt.',
     images: ['https://www.credsettle.com/images/infographics/consumer-durable-loan-default.jpg']

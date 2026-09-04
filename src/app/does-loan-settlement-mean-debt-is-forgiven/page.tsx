@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import DoesLoanSettlementMeanDebtIsForgivenClient from './DoesLoanSettlementMeanDebtIsForgivenClient';
 
 export const metadata: Metadata = {
-  title: 'Does Loan Settlement Mean Debt is Forgiven? Legal Finality & NDC Guide',
+  title: 'Does Loan Settlement Mean Debt is Forgiven?',
   description: 'Does loan settlement mean debt is forgiven in India? Understand the legal difference between debt waiver and forgiveness, Right of Recompense, ARC assignment risks, and securing an unconditional No Dues Certificate.',
   keywords: [
     'does loan settlement mean debt is forgiven',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/does-loan-settlement-mean-debt-is-forgiven'
   },
   openGraph: {
-    title: 'Does Loan Settlement Mean Debt is Forgiven? Legal Finality & NDC Guide | CredSettle',
+    title: 'Does Loan Settlement Mean Debt is Forgiven?',
     description: 'Learn the legal reality of loan settlements in India. Demystify the Right of Recompense, prevent ARC harassment post-settlement, and ensure formal No Dues Certificate issuance.',
     url: 'https://www.credsettle.com/does-loan-settlement-mean-debt-is-forgiven',
     siteName: 'CredSettle',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Does Loan Settlement Mean Debt is Forgiven? Legal Finality & NDC Guide',
+    title: 'Does Loan Settlement Mean Debt is Forgiven?',
     description: 'Understand debt waiver vs forgiveness, Right of Recompense, ARC assignment protections, and No Dues Certificates in India.',
     images: ['https://www.credsettle.com/images/infographics/does-loan-settlement-mean-debt-is-forgiven.jpg']
   },

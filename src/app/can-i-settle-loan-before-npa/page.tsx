@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CanISettleLoanBeforeNpaClient from './CanISettleLoanBeforeNpaClient';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle Loan Before NPA? (SMA Stages & Settlement Rules)',
+  title: 'Can I Settle Loan Before NPA? SMA Stages',
   description:
     'Wondering if you can settle your loan before it becomes an NPA? Learn how pre-NPA compromise settlements work during SMA-1 and SMA-2 stages, RBI rules, and negotiation steps.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'settling loan in sma 2 stage'
   ],
   openGraph: {
-    title: 'Can I Settle Loan Before NPA? (SMA Stages & Settlement Rules) | CredSettle',
+    title: 'Can I Settle Loan Before NPA? SMA Stages',
     description:
       'Wondering if you can settle your loan before it becomes an NPA? Learn how pre-NPA compromise settlements work during SMA-1 and SMA-2 stages, RBI rules, and negotiation steps.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Can I Settle Loan Before NPA? (SMA Stages & Settlement Rules)',
+    title: 'Can I Settle Loan Before NPA? SMA Stages',
     description:
       'Wondering if you can settle your loan before it becomes an NPA? Learn how pre-NPA compromise settlements work during SMA-1 and SMA-2 stages, RBI rules, and negotiation steps.',
     images: ['https://www.credsettle.com/images/infographics/can-i-settle-loan-before-npa.jpg']

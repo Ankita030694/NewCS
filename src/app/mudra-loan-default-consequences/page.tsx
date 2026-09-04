@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import MudraLoanDefaultConsequencesClient from './MudraLoanDefaultConsequencesClient';
 
 export const metadata: Metadata = {
-  title: 'Mudra Loan Default Consequences in India | Legal Realities & OTS Guide',
+  title: 'Mudra Loan Default Consequences & OTS',
   description:
     'Facing Mudra loan default? Learn about PMMY legal realities, arrest myths, CGFMU credit guarantee rules, replying to bank notices, and negotiating an official OTS.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'pmmy loan compromise settlement'
   ],
   openGraph: {
-    title: 'Mudra Loan Default Consequences in India: Legal Realities & OTS Guide',
+    title: 'Mudra Loan Default Consequences & OTS',
     description:
       'Facing Mudra loan default? Learn about PMMY legal realities, arrest myths, CGFMU credit guarantee rules, replying to bank notices, and negotiating an official OTS.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mudra Loan Default Consequences in India | Legal Realities & OTS Guide',
+    title: 'Mudra Loan Default Consequences & OTS',
     description:
       'Facing Mudra loan default? Learn about PMMY legal realities, arrest myths, CGFMU credit guarantee rules, replying to bank notices, and negotiating an official OTS.',
     images: ['https://www.credsettle.com/images/infographics/mudra-loan-default-consequences.jpg']

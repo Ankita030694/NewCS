@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import LokAdalatNoticeKyaHotaHaiClient from './LokAdalatNoticeKyaHotaHaiClient';
 
 export const metadata: Metadata = {
-  title: 'Lok Adalat Notice Kya Hota Hai? Loan Settlement & Legal Rights',
+  title: 'Lok Adalat Notice Kya Hota Hai? Legal Guide',
   description:
     'Bank ya NBFC se Lok Adalat notice mila hai? Janein Lok Adalat notice kya hota hai, NALSA settlement process, 50% se 70% loan waiver aur legal rights.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credsettle lok adalat defense'
   ],
   openGraph: {
-    title: 'Lok Adalat Notice Kya Hota Hai? Loan Settlement & Legal Rights | CredSettle',
+    title: 'Lok Adalat Notice Kya Hota Hai? Legal Guide',
     description:
       'Bank ya NBFC se Lok Adalat notice mila hai? Janein Lok Adalat notice kya hota hai, NALSA settlement process, 50% se 70% loan waiver aur legal rights.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Lok Adalat Notice Kya Hota Hai? Loan Settlement & Legal Rights',
+    title: 'Lok Adalat Notice Kya Hota Hai? Legal Guide',
     description:
       'Bank ya NBFC se Lok Adalat notice mila hai? Janein Lok Adalat notice kya hota hai, NALSA settlement process, 50% se 70% loan waiver aur legal rights.',
     images: ['https://www.credsettle.com/images/infographics/lok-adalat-notice-kya-hota-hai.jpg']

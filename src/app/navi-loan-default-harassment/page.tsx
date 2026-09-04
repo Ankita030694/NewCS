@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import NaviLoanDefaultHarassmentClient from './NaviLoanDefaultHarassmentClient';
 
 export const metadata: Metadata = {
-  title: 'Navi Loan Default Harassment: Stop Recovery Threats & Settle Legally',
+  title: 'Navi Loan Default Harassment: Stop Threats',
   description:
     'Facing harassment from Navi loan recovery agents? Learn your legal rights under RBI Digital Lending Guidelines, stop illegal calls & visits, and negotiate a formal OTS.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'rbi ombudsman complaint navi finserv'
   ],
   openGraph: {
-    title: 'Navi Loan Default Harassment: Stop Recovery Threats & Settle Legally | CredSettle',
+    title: 'Navi Loan Default Harassment: Stop Threats',
     description:
       'Facing harassment from Navi loan recovery agents? Learn your legal rights under RBI Digital Lending Guidelines, stop illegal calls & visits, and negotiate a formal OTS.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Navi Loan Default Harassment: Stop Recovery Threats & Settle Legally',
+    title: 'Navi Loan Default Harassment: Stop Threats',
     description:
       'Facing harassment from Navi loan recovery agents? Learn your legal rights under RBI Digital Lending Guidelines, stop illegal calls & visits, and negotiate a formal OTS.',
     images: ['https://www.credsettle.com/images/infographics/navi-loan-default-harassment.jpg']

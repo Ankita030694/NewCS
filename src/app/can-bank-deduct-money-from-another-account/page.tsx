@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CanBankDeductMoneyFromAnotherAccountClient from './CanBankDeductMoneyFromAnotherAccountClient';
 
 export const metadata: Metadata = {
-  title: 'Can Bank Deduct Money from Another Account? (Legal Rules & Set-Off Defense)',
+  title: 'Can Bank Deduct Money from Another Account',
   description:
     'Can a bank deduct money from another account for loan default? Understand Section 171 Banker’s Right of Set-Off, inter-branch rules, third-party bank limits, and salary account protection.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'how to protect salary account from bank lien'
   ],
   openGraph: {
-    title: 'Can Bank Deduct Money from Another Account? (Legal Rules & Set-Off Defense) | CredSettle',
+    title: 'Can Bank Deduct Money from Another Account',
     description:
       'Can a bank deduct money from another account for loan default? Understand Section 171 Banker’s Right of Set-Off, inter-branch rules, third-party bank limits, and salary account protection.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Can Bank Deduct Money from Another Account? (Legal Rules & Set-Off Defense)',
+    title: 'Can Bank Deduct Money from Another Account',
     description:
       'Can a bank deduct money from another account for loan default? Understand Section 171 Banker’s Right of Set-Off, inter-branch rules, third-party bank limits, and salary account protection.',
     images: ['https://www.credsettle.com/images/infographics/can-bank-deduct-money-from-another-account.jpg']

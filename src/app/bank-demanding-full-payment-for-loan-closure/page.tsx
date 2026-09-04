@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import BankDemandingFullPaymentForLoanClosureClient from './BankDemandingFullPaymentForLoanClosureClient';
 
 export const metadata: Metadata = {
-  title: 'Bank Demanding Full Payment for Loan Closure? (How to Settle)',
+  title: 'Bank Demanding Full Payment for Loan Closure?',
   description:
     'Is your bank or recovery agency demanding 100% full payment for loan closure? Learn how to bypass third-party agents, invoke RBI OTS guidelines, and settle for 40%-55%.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'loan closure after default in india'
   ],
   openGraph: {
-    title: 'Bank Demanding Full Payment for Loan Closure? (How to Settle) | CredSettle',
+    title: 'Bank Demanding Full Payment for Loan Closure?',
     description:
       'Is your bank or recovery agency demanding 100% full payment for loan closure? Learn how to bypass third-party agents, invoke RBI OTS guidelines, and settle for 40%-55%.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bank Demanding Full Payment for Loan Closure? (How to Settle)',
+    title: 'Bank Demanding Full Payment for Loan Closure?',
     description:
       'Is your bank or recovery agency demanding 100% full payment for loan closure? Learn how to bypass third-party agents, invoke RBI OTS guidelines, and settle for 40%-55%.',
     images: ['https://www.credsettle.com/images/infographics/bank-demanding-full-payment-for-loan-closure.jpg']

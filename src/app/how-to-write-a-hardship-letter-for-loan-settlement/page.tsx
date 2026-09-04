@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import HowToWriteAHardshipLetterForLoanSettlementClient from './HowToWriteAHardshipLetterForLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'How to Write a Hardship Letter for Loan Settlement (Bank Guide)',
+  title: 'Write a Hardship Letter for Loan Settlement',
   description:
     'Master the legal and financial framework for submitting a persuasive hardship letter to bank credit committees. Learn essential documentary proofs, NPA math, and settlement strategies.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'stressed assets resolution branch hardship dossier'
   ],
   openGraph: {
-    title: 'How to Write a Hardship Letter for Loan Settlement (Bank Guide) | CredSettle',
+    title: 'Write a Hardship Letter for Loan Settlement',
     description:
       'Master the legal and financial framework for submitting a persuasive hardship letter to bank credit committees. Learn essential documentary proofs, NPA math, and settlement strategies.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Write a Hardship Letter for Loan Settlement (Bank Guide)',
+    title: 'Write a Hardship Letter for Loan Settlement',
     description:
       'Master the legal and financial framework for submitting a persuasive hardship letter to bank credit committees. Learn essential documentary proofs, NPA math, and settlement strategies.',
     images: ['https://www.credsettle.com/images/infographics/how-to-write-a-hardship-letter-for-loan-settlement.jpg']

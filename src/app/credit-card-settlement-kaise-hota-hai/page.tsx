@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardSettlementKaiseHotaHaiClient from './CreditCardSettlementKaiseHotaHaiClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Kaise Hota Hai? Step-by-Step Legal Guide & Math',
+  title: 'Credit Card Settlement Kaise Hota Hai',
   description:
     'Credit card settlement kaise hota hai in India? Learn how to escape the minimum amount due trap, calculate principal waivers, draft hardship letters, and secure an authentic No Dues Certificate.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credit card recovery agent harassment complaint'
   ],
   openGraph: {
-    title: 'Credit Card Settlement Kaise Hota Hai? Legal Blueprint & Math | CredSettle',
+    title: 'Credit Card Settlement Kaise Hota Hai',
     description:
       'Credit card settlement kaise hota hai in India? Learn how to escape the minimum amount due trap, calculate principal waivers, draft hardship letters, and secure an authentic No Dues Certificate.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credit Card Settlement Kaise Hota Hai? Step-by-Step Legal Guide & Math',
+    title: 'Credit Card Settlement Kaise Hota Hai',
     description:
       'Credit card settlement kaise hota hai in India? Learn how to escape the minimum amount due trap, calculate principal waivers, draft hardship letters, and secure an authentic No Dues Certificate.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-settlement-kaise-hota-hai.jpg']

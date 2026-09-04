@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import IsItLegalToRecordRecoveryAgentCallsClient from './IsItLegalToRecordRecoveryAgentCallsClient';
 
 export const metadata: Metadata = {
-  title: 'Is It Legal to Record Recovery Agent Calls in India? (Evidence Rules)',
+  title: 'Is it Legal to Record Recovery Agent Calls',
   description:
     'Can you legally record recovery agent calls in India? Understand single-party consent rules, Section 65B/BSA 63 electronic certificates, and debt settlement defense.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'one time settlement personal loan dispute resolution'
   ],
   openGraph: {
-    title: 'Is It Legal to Record Recovery Agent Calls in India? | CredSettle',
+    title: 'Is it Legal to Record Recovery Agent Calls',
     description:
       'Can you legally record recovery agent calls in India? Understand single-party consent rules, Section 65B/BSA 63 electronic certificates, and debt settlement defense.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Is It Legal to Record Recovery Agent Calls in India? (Evidence Rules)',
+    title: 'Is it Legal to Record Recovery Agent Calls',
     description:
       'Can you legally record recovery agent calls in India? Understand single-party consent rules, Section 65B/BSA 63 electronic certificates, and debt settlement defense.',
     images: ['https://www.credsettle.com/images/infographics/is-it-legal-to-record-recovery-agent-calls.jpg']

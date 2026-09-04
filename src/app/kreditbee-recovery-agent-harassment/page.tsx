@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import KreditbeeRecoveryAgentHarassmentClient from './KreditbeeRecoveryAgentHarassmentClient';
 
 export const metadata: Metadata = {
-  title: 'KreditBee Recovery Agent Harassment: Complaint, RBI Rules & Settlement',
+  title: 'KreditBee Recovery Harassment: RBI Rules',
   description:
     'Facing harassment from KreditBee (Krazybee Services) recovery agents? Learn how to halt relative calling, file RBI and Cyber Crime complaints, and settle defaulted digital loans.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'digital lending harassment legal defense'
   ],
   openGraph: {
-    title: 'KreditBee Recovery Agent Harassment: Complaint, RBI Rules & Legal Settlement | CredSettle',
+    title: 'KreditBee Recovery Harassment: RBI Rules',
     description:
       'Facing harassment from KreditBee (Krazybee Services) recovery agents? Learn how to halt relative calling, file RBI and Cyber Crime complaints, and settle defaulted digital loans.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'KreditBee Recovery Agent Harassment: Complaint, RBI Rules & Settlement',
+    title: 'KreditBee Recovery Harassment: RBI Rules',
     description:
       'Facing harassment from KreditBee (Krazybee Services) recovery agents? Learn how to halt relative calling, file RBI and Cyber Crime complaints, and settle defaulted digital loans.',
     images: ['https://www.credsettle.com/images/infographics/kreditbee-recovery-agent-harassment.jpg']

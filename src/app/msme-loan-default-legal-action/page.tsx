@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import MsmeLoanDefaultLegalActionClient from './MsmeLoanDefaultLegalActionClient';
 
 export const metadata: Metadata = {
-  title: 'MSME Loan Default Legal Action: Defense Under MSMED Act, CGTMSE & RBI',
+  title: 'MSME Loan Default Legal Action & Defense',
   description:
     'Facing legal action for MSME loan default? Learn statutory defense protocols under the MSMED Act, CGTMSE guarantee rules, RBI revival framework, and Section 138 defense.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'commercial cibil score drop business default'
   ],
   openGraph: {
-    title: 'MSME Loan Default Legal Action: Defense Under MSMED Act, CGTMSE & RBI | CredSettle',
+    title: 'MSME Loan Default Legal Action & Defense',
     description:
       'Facing legal action for MSME loan default? Learn statutory defense protocols under the MSMED Act, CGTMSE guarantee rules, RBI revival framework, and Section 138 defense.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MSME Loan Default Legal Action: Defense Under MSMED Act, CGTMSE & RBI',
+    title: 'MSME Loan Default Legal Action & Defense',
     description:
       'Facing legal action for MSME loan default? Learn statutory defense protocols under the MSMED Act, CGTMSE guarantee rules, RBI revival framework, and Section 138 defense.',
     images: ['https://www.credsettle.com/images/infographics/msme-loan-default-legal-action.jpg']

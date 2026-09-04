@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import NriCreditCardDebtSettlementClient from './NriCreditCardDebtSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'NRI Credit Card Debt Settlement India | Remote Legal Defense & Loan Resolution',
+  title: 'NRI Credit Card Debt Settlement in India',
   description: 'Complete legal guide for Non-Resident Indians (NRIs) to settle credit card and personal loan dues remotely. Learn Special PoA execution, LOC myths, immigration rights, and bank nodal OTS negotiation without traveling to India.',
   keywords: [
     'nri credit card debt settlement india',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/nri-credit-card-debt-settlement',
   },
   openGraph: {
-    title: 'NRI Credit Card Debt Settlement India | Remote Legal Defense & Resolution',
+    title: 'NRI Credit Card Debt Settlement in India',
     description: 'Resolve Indian credit card defaults and personal loans remotely. Protect resident family, execute consular Special PoA, and secure official No Dues Certificates.',
     url: 'https://www.credsettle.com/nri-credit-card-debt-settlement',
     siteName: 'CredSettle',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NRI Credit Card Debt Settlement India | Remote Legal Defense',
+    title: 'NRI Credit Card Debt Settlement in India',
     description: 'Complete cross-border legal roadmap for NRIs to settle legacy credit cards and personal loans without traveling to India.',
     images: ['https://www.credsettle.com/images/infographics/nri-credit-card-debt-settlement.jpg'],
   },

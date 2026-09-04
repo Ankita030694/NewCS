@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import GoldLoanDefaultAuctionClient from './GoldLoanDefaultAuctionClient';
 
 export const metadata: Metadata = {
-  title: 'Gold Loan Default: Can Bank Auction My Gold? (Borrower Legal Rights)',
+  title: 'Gold Loan Default: Can Banks Auction Gold?',
   description:
     'Facing gold loan default? Learn your legal rights against unfair gold auctions by NBFCs and banks, Section 176 30-day notice rules, auction surplus refunds, and interest waivers.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'how to recover pledged gold after default'
   ],
   openGraph: {
-    title: 'Gold Loan Default: Can Bank Auction My Gold? (Borrower Legal Rights) | CredSettle',
+    title: 'Gold Loan Default: Can Banks Auction Gold?',
     description:
       'Facing gold loan default? Learn your legal rights against unfair gold auctions by NBFCs and banks, Section 176 30-day notice rules, auction surplus refunds, and interest waivers.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gold Loan Default: Can Bank Auction My Gold? (Borrower Legal Rights)',
+    title: 'Gold Loan Default: Can Banks Auction Gold?',
     description:
       'Facing gold loan default? Learn your legal rights against unfair gold auctions by NBFCs and banks, Section 176 30-day notice rules, auction surplus refunds, and interest waivers.',
     images: ['https://www.credsettle.com/images/infographics/gold-loan-default-auction.jpg']

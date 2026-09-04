@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import SettleMultipleCreditCardsClient from './SettleMultipleCreditCardsClient';
 
 export const metadata: Metadata = {
-  title: 'How to Settle Multiple Credit Cards at Once: Multi-Bank Legal Strategy',
+  title: 'How to Settle Multiple Credit Cards',
   description:
     'Learn how to settle multiple credit cards across HDFC, SBI Card, ICICI, Axis, Amex, and StanChart. Priority sequencing, anti-harassment legal defense, and 45% to 65% waivers.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credsettle multi bank debt resolution'
   ],
   openGraph: {
-    title: 'How to Settle Multiple Credit Cards at Once: Multi-Bank Legal Strategy | CredSettle',
+    title: 'How to Settle Multiple Credit Cards',
     description:
       'Learn how to settle multiple credit cards across HDFC, SBI Card, ICICI, Axis, Amex, and StanChart. Priority sequencing, anti-harassment legal defense, and 45% to 65% waivers.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Settle Multiple Credit Cards at Once: Multi-Bank Legal Strategy',
+    title: 'How to Settle Multiple Credit Cards',
     description:
       'Learn how to settle multiple credit cards across HDFC, SBI Card, ICICI, Axis, Amex, and StanChart. Priority sequencing, anti-harassment legal defense, and 45% to 65% waivers.',
     images: ['https://www.credsettle.com/images/infographics/settle-multiple-credit-cards.jpg']

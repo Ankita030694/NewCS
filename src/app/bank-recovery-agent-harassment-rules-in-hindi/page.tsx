@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import BankRecoveryAgentHarassmentRulesInHindiClient from './BankRecoveryAgentHarassmentRulesInHindiClient';
 
 export const metadata: Metadata = {
-  title: 'Bank Recovery Agent Harassment Rules in Hindi: RBI Guidelines & Legal Rights',
+  title: 'Bank Recovery Agent Harassment Rules (Hindi)',
   description:
     'Bank recovery agent harassment rules in hindi: Jane RBI recovery guidelines (8 AM to 7 PM), abusive calls par legal action, PNO complaint, aur RBI CMS portal process.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credsettle debt settlement legal protection'
   ],
   openGraph: {
-    title: 'Bank Recovery Agent Harassment Rules in Hindi: RBI Guidelines & Legal Rights | CredSettle',
+    title: 'Bank Recovery Agent Harassment Rules (Hindi)',
     description:
       'Bank recovery agent harassment rules in hindi: Jane RBI recovery guidelines (8 AM to 7 PM), abusive calls par legal action, PNO complaint, aur RBI CMS portal process.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bank Recovery Agent Harassment Rules in Hindi: RBI Guidelines & Legal Rights',
+    title: 'Bank Recovery Agent Harassment Rules (Hindi)',
     description:
       'Bank recovery agent harassment rules in hindi: Jane RBI recovery guidelines (8 AM to 7 PM), abusive calls par legal action, PNO complaint, aur RBI CMS portal process.',
     images: ['https://www.credsettle.com/images/infographics/bank-recovery-agent-harassment-rules-in-hindi.jpg']

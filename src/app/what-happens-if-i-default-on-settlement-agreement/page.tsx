@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import WhatHappensIfIDefaultOnSettlementAgreementClient from './WhatHappensIfIDefaultOnSettlementAgreementClient';
 
 export const metadata: Metadata = {
-  title: 'What Happens If You Default on a Settlement Agreement? (OTS Guide)',
+  title: 'Settlement Agreement Default: What to Do',
   description:
     'Defaulted on your loan settlement agreement? Understand revocation clauses, revival of original debt, penal interest risks, Section 138 defense, and renegotiation steps.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'credsettle debt resolution'
   ],
   openGraph: {
-    title: 'What Happens If You Default on a Settlement Agreement? (OTS Guide) | CredSettle',
+    title: 'Settlement Agreement Default: What to Do',
     description:
       'Defaulted on your loan settlement agreement? Understand revocation clauses, revival of original debt, penal interest risks, Section 138 defense, and renegotiation steps.',
     type: 'article',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'What Happens If You Default on a Settlement Agreement? (OTS Guide)',
+    title: 'Settlement Agreement Default: What to Do',
     description:
       'Defaulted on your loan settlement agreement? Understand revocation clauses, revival of original debt, penal interest risks, Section 138 defense, and renegotiation steps.',
     images: ['https://www.credsettle.com/images/infographics/what-happens-if-i-default-on-settlement-agreement.jpg']

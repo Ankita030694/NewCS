@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import HowToConvinceBankForOneTimeSettlementClient from './HowToConvinceBankForOneTimeSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'How to Convince Bank for One Time Settlement: Complete OTS Negotiation Guide',
+  title: 'Convince Bank for One Time Settlement (OTS)',
   description:
     'Learn how to convince your bank for a One Time Settlement (OTS). Master credit committee hierarchies, RBI June 2023 compromise norms, hardship proof, and legal defense.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'willful default vs genuine financial hardship ots'
   ],
   openGraph: {
-    title: 'How to Convince Bank for One Time Settlement: Complete OTS Negotiation Guide',
+    title: 'Convince Bank for One Time Settlement (OTS)',
     description:
       'Master the strategic blueprint to convince banks for an OTS. Learn internal committee approvals, RBI June 2023 compromise circulars, and legal negotiation.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Convince Bank for One Time Settlement: Complete OTS Guide',
+    title: 'Convince Bank for One Time Settlement (OTS)',
     description:
       'Learn how to convince your bank for an OTS settlement. Master internal credit committee hierarchies, RBI June 2023 norms, and legal negotiation blueprints.',
     images: ['https://www.credsettle.com/images/infographics/how-to-convince-bank-for-one-time-settlement.jpg']

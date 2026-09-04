@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CanIGoToJailForCreditCardDebtClient from './CanIGoToJailForCreditCardDebtClient';
 
 export const metadata: Metadata = {
-  title: 'Can I Go to Jail for Credit Card Debt in India? Legal Rights & Protection',
+  title: 'Can I Go to Jail for Credit Card Debt?',
   description:
     'Can you go to jail for credit card debt in India? Learn why credit card default is purely a civil dispute, how to defeat fake arrest notices, and how to settle legally.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credit card settlement process india'
   ],
   openGraph: {
-    title: 'Can I Go to Jail for Credit Card Debt in India? Legal Rights & Protection | CredSettle',
+    title: 'Can I Go to Jail for Credit Card Debt?',
     description:
       'Can you go to jail for credit card debt in India? Learn why credit card default is purely a civil dispute, how to defeat fake arrest notices, and how to settle legally.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Can I Go to Jail for Credit Card Debt in India? Legal Rights & Protection',
+    title: 'Can I Go to Jail for Credit Card Debt?',
     description:
       'Can you go to jail for credit card debt in India? Learn why credit card default is purely a civil dispute, how to defeat fake arrest notices, and how to settle legally.',
     images: ['https://www.credsettle.com/images/infographics/can-i-go-to-jail-for-credit-card-debt.jpg']

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import WillBankWaiveOffInterestOnPersonalLoanClient from './WillBankWaiveOffInterestOnPersonalLoanClient';
 
 export const metadata: Metadata = {
-  title: 'Will Bank Waive Off Interest on Personal Loan? (Legal Waiver Guide)',
+  title: 'Bank Interest Waiver on Personal Loans',
   description:
     'Learn how to get interest, penal charges, and bounce fees waived on your personal loan. Enforce RBI Fair Lending Practices and secure up to 100% penal interest write-offs.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'can bank waive off interest during financial hardship'
   ],
   openGraph: {
-    title: 'Will Bank Waive Off Interest on Personal Loan? (Legal Waiver Guide) | CredSettle',
+    title: 'Bank Interest Waiver on Personal Loans',
     description:
       'Learn how to get interest, penal charges, and bounce fees waived on your personal loan. Enforce RBI Fair Lending Practices and secure up to 100% penal interest write-offs.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Will Bank Waive Off Interest on Personal Loan? (Legal Waiver Guide)',
+    title: 'Bank Interest Waiver on Personal Loans',
     description:
       'Learn how to get interest, penal charges, and bounce fees waived on your personal loan. Enforce RBI Fair Lending Practices and secure up to 100% penal interest write-offs.',
     images: ['https://www.credsettle.com/images/infographics/will-bank-waive-off-interest-on-personal-loan.jpg']

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardSettlementCalculatorClient from './CreditCardSettlementCalculatorClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Calculator: Estimate Waiver & Payout in India',
+  title: 'Credit Card Settlement Calculator in India',
   description:
     'Use our credit card settlement calculator to estimate your settlement payout in India. Unbundle 42% APR finance charges, calculate principal waivers, and explore RBI compromise settlement norms.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credit card no dues certificate settlement'
   ],
   openGraph: {
-    title: 'Credit Card Settlement Calculator: Estimate Waiver & Payout in India | CredSettle',
+    title: 'Credit Card Settlement Calculator in India',
     description:
       'Use our credit card settlement calculator to estimate your settlement payout in India. Unbundle 42% APR finance charges, calculate principal waivers, and explore RBI compromise settlement norms.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credit Card Settlement Calculator: Estimate Waiver & Payout in India',
+    title: 'Credit Card Settlement Calculator in India',
     description:
       'Use our credit card settlement calculator to estimate your settlement payout in India. Unbundle 42% APR finance charges, calculate principal waivers, and explore RBI compromise settlement norms.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-settlement-calculator.jpg']

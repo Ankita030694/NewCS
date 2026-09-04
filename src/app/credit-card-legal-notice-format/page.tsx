@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardLegalNoticeFormatClient from './CreditCardLegalNoticeFormatClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Legal Notice Format and Reply: Complete Legal Defense Guide',
+  title: 'Credit Card Legal Notice Format and Reply',
   description:
     'Received a credit card legal notice from a bank lawyer? Learn how to reply, challenge inflated 40%+ finance charges, stop recovery threats, and settle your debt.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'rbi guidelines on credit card legal notice'
   ],
   openGraph: {
-    title: 'Credit Card Legal Notice Format and Reply: Complete Legal Defense Guide | CredSettle',
+    title: 'Credit Card Legal Notice Format and Reply',
     description:
       'Received a credit card legal notice from a bank lawyer? Learn how to reply, challenge inflated 40%+ finance charges, stop recovery threats, and settle your debt.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credit Card Legal Notice Format and Reply: Complete Legal Defense Guide',
+    title: 'Credit Card Legal Notice Format and Reply',
     description:
       'Received a credit card legal notice from a bank lawyer? Learn how to reply, challenge inflated 40%+ finance charges, stop recovery threats, and settle your debt.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-legal-notice-format.jpg']

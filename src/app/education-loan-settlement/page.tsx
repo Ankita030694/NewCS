@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import EducationLoanSettlementClient from './EducationLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Education Loan Settlement in India | Legal OTS & Co-Borrower Protection',
+  title: 'Education Loan Settlement & Co-Borrowers',
   description:
     'Settle defaulted education loans in India under IBA & CGFSEL guidelines. Protect parent co-borrowers from CIBIL damage, stop recovery harassment, and negotiate 35%-55% OTS waivers.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'education loan compromise settlement'
   ],
   openGraph: {
-    title: 'Education Loan Settlement in India: Legal OTS & Co-Borrower Guide',
+    title: 'Education Loan Settlement & Co-Borrowers',
     description:
       'Settle defaulted education loans in India under IBA & CGFSEL guidelines. Protect parent co-borrowers from CIBIL damage, stop recovery harassment, and negotiate 35%-55% OTS waivers.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Education Loan Settlement in India | Legal OTS & Co-Borrower Protection',
+    title: 'Education Loan Settlement & Co-Borrowers',
     description:
       'Settle defaulted education loans in India under IBA & CGFSEL guidelines. Protect parent co-borrowers from CIBIL damage, stop recovery harassment, and negotiate 35%-55% OTS waivers.',
     images: ['https://www.credsettle.com/images/infographics/education-loan-settlement.jpg']

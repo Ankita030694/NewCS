@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardSettlementDiscountClient from './CreditCardSettlementDiscountClient';
 
 export const metadata: Metadata = {
-  title: 'How Much Discount Can I Get on Credit Card Settlement? (50% to 75% Waiver Guide)',
+  title: 'Discount on Credit Card Settlement in India',
   description:
     'Discover how much discount you can negotiate on credit card settlement in India. Master the math behind 50% to 75% waivers, principal haircuts, 42% APR unbundling, and RBI-compliant debt relief.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credit card no dues certificate settlement'
   ],
   openGraph: {
-    title: 'How Much Discount Can I Get on Credit Card Settlement? (50% to 75% Waiver Guide) | CredSettle',
+    title: 'Discount on Credit Card Settlement in India',
     description:
       'Discover how much discount you can negotiate on credit card settlement in India. Master the math behind 50% to 75% waivers, principal haircuts, 42% APR unbundling, and RBI-compliant debt relief.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How Much Discount Can I Get on Credit Card Settlement? (50% to 75% Waiver Guide)',
+    title: 'Discount on Credit Card Settlement in India',
     description:
       'Discover how much discount you can negotiate on credit card settlement in India. Master the math behind 50% to 75% waivers, principal haircuts, 42% APR unbundling, and RBI-compliant debt relief.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-settlement-discount.jpg']

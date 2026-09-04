@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardDebtConsolidationClient from './CreditCardDebtConsolidationClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Debt Consolidation in India: Loans vs Settlement Guide',
+  title: 'Credit Card Debt Consolidation in India',
   description:
     'Comprehensive guide to credit card debt consolidation in India. Compare debt consolidation personal loans, balance transfer cards, and legal settlement (OTS).',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'stop credit card recovery harassment'
   ],
   openGraph: {
-    title: 'Credit Card Debt Consolidation in India: Personal Loans vs Settlement | CredSettle',
+    title: 'Credit Card Debt Consolidation in India',
     description:
       'Explore objective comparative analysis: Debt Consolidation Personal Loans vs Balance Transfer Cards vs Legal Debt Settlement under RBI frameworks.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credit Card Debt Consolidation in India: Loans vs Settlement Guide',
+    title: 'Credit Card Debt Consolidation in India',
     description:
       'Compare debt consolidation personal loans, balance transfer cards, and legal settlement to escape high APR credit card debt in India.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-debt-consolidation.jpg']

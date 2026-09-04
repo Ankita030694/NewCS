@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CreditCardMinimumDueTrapClient from './CreditCardMinimumDueTrapClient';
 
 export const metadata: Metadata = {
-  title: 'How to Escape Credit Card Minimum Due Trap (Debt Settlement Guide)',
+  title: 'How to Escape Credit Card Minimum Due Trap',
   description:
     'Stuck paying 5% minimum amount due? Discover how compounding 42% APR keeps you in debt, your legal rights under RBI Master Directions, and how to settle credit card debt.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'how to close credit card with outstanding balance'
   ],
   openGraph: {
-    title: 'How to Escape the Credit Card Minimum Due Trap (Legal & Financial Guide) | CredSettle',
+    title: 'How to Escape Credit Card Minimum Due Trap',
     description:
       'Stuck paying 5% minimum amount due? Discover how compounding 42% APR keeps you in debt, your legal rights under RBI Master Directions, and how to settle credit card debt.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Escape the Credit Card Minimum Due Trap (Debt Settlement Guide)',
+    title: 'How to Escape Credit Card Minimum Due Trap',
     description:
       'Stuck paying 5% minimum amount due? Discover how compounding 42% APR keeps you in debt, your legal rights under RBI Master Directions, and how to settle credit card debt.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-minimum-due-trap.jpg']

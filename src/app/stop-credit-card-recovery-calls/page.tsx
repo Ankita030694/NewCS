@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import StopCreditCardRecoveryCallsClient from './StopCreditCardRecoveryCallsClient';
 
 export const metadata: Metadata = {
-  title: 'How to Stop Credit Card Recovery Calls Immediately (Legal Guide)',
+  title: 'Stop Credit Card Recovery Calls Immediately',
   description:
     'Relentless credit card collection calls? Learn your statutory rights under RBI Fair Practices Code, enforce calling hours (8 AM to 7 PM), and stop agent harassment.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credit card one time settlement rbi rules'
   ],
   openGraph: {
-    title: 'How to Stop Credit Card Recovery Calls Immediately (Legal Guide) | CredSettle',
+    title: 'Stop Credit Card Recovery Calls Immediately',
     description:
       'Relentless credit card collection calls? Learn your statutory rights under RBI Fair Practices Code, enforce calling hours (8 AM to 7 PM), and stop agent harassment.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Stop Credit Card Recovery Calls Immediately (Legal Guide)',
+    title: 'Stop Credit Card Recovery Calls Immediately',
     description:
       'Relentless credit card collection calls? Learn your statutory rights under RBI Fair Practices Code, enforce calling hours (8 AM to 7 PM), and stop agent harassment.',
     images: ['https://www.credsettle.com/images/infographics/stop-credit-card-recovery-calls.jpg']

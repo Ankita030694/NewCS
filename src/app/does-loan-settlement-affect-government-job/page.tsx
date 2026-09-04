@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import DoesLoanSettlementAffectGovernmentJobClient from './DoesLoanSettlementAffectGovernmentJobClient';
 
 export const metadata: Metadata = {
-  title: 'Does Loan Settlement Affect Government Job? UPSC, SSC & Bank Rules',
+  title: 'Does Loan Settlement Affect Government Jobs?',
   description:
     'Comprehensive legal guide on whether loan default or settlement affects government jobs in India. Learn UPSC, SSC, Banking, and CCS Conduct Rules verification.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'loan default civil dispute government employment'
   ],
   openGraph: {
-    title: 'Does Loan Settlement Affect Government Job? UPSC, SSC & Bank Rules | CredSettle',
+    title: 'Does Loan Settlement Affect Government Jobs?',
     description:
       'Explore how loan default or settlement impacts government jobs, police verification, and character checks under Central Civil Services Conduct Rules.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Does Loan Settlement Affect Government Job? UPSC, SSC & Bank Rules',
+    title: 'Does Loan Settlement Affect Government Jobs?',
     description:
       'Comprehensive legal analysis on loan settlement impact on UPSC, SSC, SBI, IBPS, and State PSC character verifications.',
     images: ['https://www.credsettle.com/images/infographics/does-loan-settlement-affect-government-job.jpg']

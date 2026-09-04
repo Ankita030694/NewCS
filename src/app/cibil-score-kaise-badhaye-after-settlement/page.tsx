@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CibilScoreKaiseBadhayeAfterSettlementClient from './CibilScoreKaiseBadhayeAfterSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'CIBIL Score Kaise Badhaye After Settlement? (Full 750+ Guide)',
+  title: 'CIBIL Score Kaise Badhaye After Settlement?',
   description:
     'Loan settlement ke baad CIBIL score kaise badhaye? Step-by-step credit repair roadmap, convert settled status to closed, secured credit cards, aur 750+ score guide.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'no dues certificate after settlement cibil update'
   ],
   openGraph: {
-    title: 'CIBIL Score Kaise Badhaye After Settlement? (Full 750+ Guide) | CredSettle',
+    title: 'CIBIL Score Kaise Badhaye After Settlement?',
     description:
       'Loan settlement ke baad CIBIL score kaise badhaye? Step-by-step credit repair roadmap, convert settled status to closed, secured credit cards, aur 750+ score guide.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'CIBIL Score Kaise Badhaye After Settlement? (Full 750+ Guide)',
+    title: 'CIBIL Score Kaise Badhaye After Settlement?',
     description:
       'Loan settlement ke baad CIBIL score kaise badhaye? Step-by-step credit repair roadmap, convert settled status to closed, secured credit cards, aur 750+ score guide.',
     images: ['https://www.credsettle.com/images/infographics/cibil-score-kaise-badhaye-after-settlement.jpg']

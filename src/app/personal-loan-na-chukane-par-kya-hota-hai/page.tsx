@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import PersonalLoanNaChukaneParKyaHotaHaiClient from './PersonalLoanNaChukaneParKyaHotaHaiClient';
 
 export const metadata: Metadata = {
-  title: 'Personal Loan Na Chukane Par Kya Hota Hai? (Legal Rights & OTS Guide)',
+  title: 'Personal Loan Na Chukane Par Kya Hota Hai',
   description:
     'Personal loan na chukane par kya hota hai? Jane 90 days NPA process, bank recovery rules, legal notice defense (Sec 138, Sec 25), aur One Time Settlement (OTS) process.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'personal loan settlement cibil impact'
   ],
   openGraph: {
-    title: 'Personal Loan Na Chukane Par Kya Hota Hai? (Legal Rights & OTS Guide) | CredSettle',
+    title: 'Personal Loan Na Chukane Par Kya Hota Hai',
     description:
       'Personal loan na chukane par kya hota hai? Jane 90 days NPA process, bank recovery rules, legal notice defense (Sec 138, Sec 25), aur One Time Settlement (OTS) process.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Personal Loan Na Chukane Par Kya Hota Hai? (Legal Rights & OTS Guide)',
+    title: 'Personal Loan Na Chukane Par Kya Hota Hai',
     description:
       'Personal loan na chukane par kya hota hai? Jane 90 days NPA process, bank recovery rules, legal notice defense, aur One Time Settlement (OTS) process.',
     images: ['https://www.credsettle.com/images/infographics/personal-loan-na-chukane-par-kya-hota-hai.jpg']

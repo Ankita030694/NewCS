@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CarLoanDefaultVehicleSeizureClient from './CarLoanDefaultVehicleSeizureClient';
 
 export const metadata: Metadata = {
-  title: 'Car Loan Default & Vehicle Seizure by Bank: Legal Rights & Protection',
+  title: 'Car Loan Default & Vehicle Seizure by Bank',
   description: 'Facing auto loan default or vehicle repossession by bank recovery agents? Learn Supreme Court protections under ICICI Bank vs Prakash Kaur, pre-sale notice mandates, and legal settlement options.',
   keywords: [
     'car loan default and vehicle seizure by bank',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/car-loan-default-vehicle-seizure',
   },
   openGraph: {
-    title: 'Car Loan Default & Vehicle Seizure by Bank: Legal Rights & Protection',
+    title: 'Car Loan Default & Vehicle Seizure by Bank',
     description: 'Learn your legal rights against unlawful vehicle repossession by recovery agents. Understand Supreme Court guidelines, pre-sale valuation notices, and debt settlement.',
     url: 'https://www.credsettle.com/car-loan-default-vehicle-seizure',
     siteName: 'CredSettle',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Car Loan Default & Vehicle Seizure by Bank: Legal Rights & Protection',
+    title: 'Car Loan Default & Vehicle Seizure by Bank',
     description: 'Protect your vehicle from unlawful recovery agent seizure. Understand landmark Supreme Court judgments and institutional debt settlement options.',
     images: ['https://www.credsettle.com/images/infographics/car-loan-default-vehicle-seizure.jpg'],
   },
