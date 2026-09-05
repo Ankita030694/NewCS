@@ -775,13 +775,13 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               </h2>
 
               <ul className="space-y-1.5 text-xs text-slate-700 leading-relaxed list-disc pl-5">
-                <li><a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">Reserve Bank of India (RBI):</a> Master Direction on Fair Practices Code for Lenders.</li>
-                <li><a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">RBI Integrated Ombudsman Scheme, 2021:</a> Statutory dispute mechanism on cms.rbi.org.in.</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">CICRA 2005 (Section 21):</a> Credit dispute resolution and bureau remark rectification.</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">PSSA 2007 (Section 25):</a> Dishonour of electronic funds transfer / NACH mandates.</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">RDB Act 1993 (Section 19):</a> Original Applications before Debt Recovery Tribunals (DRT).</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">Indian Contract Act 1872:</a> Sections 73 &amp; 74 regarding civil contractual damages.</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">NI Act 1881 (Section 138 &amp; 147):</a> Cheque dishonour defense and compounding of offenses.</li>
+                <li><strong className="text-slate-900 font-bold">Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Lenders.</li>
+                <li><strong className="text-slate-900 font-bold">RBI Integrated Ombudsman Scheme, 2021:</strong> Statutory dispute mechanism on cms.rbi.org.in.</li>
+                <li><strong className="text-slate-900 font-bold">CICRA 2005 (Section 21):</strong> Credit dispute resolution and bureau remark rectification.</li>
+                <li><strong className="text-slate-900 font-bold">PSSA 2007 (Section 25):</strong> Dishonour of electronic funds transfer / NACH mandates.</li>
+                <li><strong className="text-slate-900 font-bold">RDB Act 1993 (Section 19):</strong> Original Applications before Debt Recovery Tribunals (DRT).</li>
+                <li><strong className="text-slate-900 font-bold">Indian Contract Act 1872:</strong> Sections 73 &amp; 74 regarding civil contractual damages.</li>
+                <li><strong className="text-slate-900 font-bold">NI Act 1881 (Section 138 &amp; 147):</strong> Cheque dishonour defense and compounding of offenses.</li>
               </ul>
 
               {/* 6 Official Outbound Authority Link Badges */}

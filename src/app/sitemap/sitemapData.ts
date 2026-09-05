@@ -152,6 +152,11 @@ export const sitemapLinks: SitemapLink[] = [
     date: "01-09-2026",
   },
   {
+    title: "Home Loan Default: Stop SARFAESI Property Auction",
+    href: "/home-loan-default-sarfaesi-act",
+    date: "05-09-2026",
+  },
+  {
     title: "NRI Credit Card Debt Settlement India | Remote Legal Defense & Loan Resolution",
     href: "/nri-credit-card-debt-settlement",
     date: "01-09-2026",

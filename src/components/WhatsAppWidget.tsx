@@ -22,7 +22,7 @@ export default function WhatsAppWidget() {
         Chat with us on WhatsApp
       </div>
       <Link
-        href={WHATSAPP_URL}
+        href="/whatsapp"
         aria-label="Chat with CredSettle on WhatsApp"
         target="_blank"
         rel="noopener noreferrer"

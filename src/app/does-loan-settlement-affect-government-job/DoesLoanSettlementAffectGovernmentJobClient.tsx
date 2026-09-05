@@ -794,12 +794,12 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
               </h2>
 
               <ul className="space-y-1.5 text-xs text-slate-700 leading-relaxed list-disc pl-5">
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">CCS (Conduct) Rules 1964 (Rule 16):</a> Insolvency and indebtedness provisions for civil servants.</li>
-                <li><a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">Reserve Bank of India (RBI):</a> Master Direction on Fair Practices Code for Lenders.</li>
-                <li><a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">RBI Integrated Ombudsman 2021:</a> Dispute mechanism on cms.rbi.org.in.</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">CICRA 2005 (Section 21):</a> Bureau dispute resolution and status conversion.</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">PSSA 2007 (Section 25) &amp; NI Act 1881 (Section 138):</a> Mandate and cheque dishonour defenses.</li>
-                <li><a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold">Indian Contract Act 1872 (Section 73):</a> Civil contractual breach framework.</li>
+                <li><strong className="text-slate-900 font-bold">CCS (Conduct) Rules 1964 (Rule 16):</strong> Insolvency and indebtedness provisions for civil servants.</li>
+                <li><strong className="text-slate-900 font-bold">Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Lenders.</li>
+                <li><strong className="text-slate-900 font-bold">RBI Integrated Ombudsman 2021:</strong> Dispute mechanism on cms.rbi.org.in.</li>
+                <li><strong className="text-slate-900 font-bold">CICRA 2005 (Section 21):</strong> Bureau dispute resolution and status conversion.</li>
+                <li><strong className="text-slate-900 font-bold">PSSA 2007 (Section 25) &amp; NI Act 1881 (Section 138):</strong> Mandate and cheque dishonour defenses.</li>
+                <li><strong className="text-slate-900 font-bold">Indian Contract Act 1872 (Section 73):</strong> Civil contractual breach framework.</li>
               </ul>
 
               {/* 6 Official Outbound Authority Link Badges */}

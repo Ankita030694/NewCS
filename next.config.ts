@@ -82,9 +82,24 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/home-loan-default-sarfaesi-act",
-        destination: "/sarfaesi-act-section-13-2-notice-stop-auction",
-        permanent: true,
+        source: "/social/linkedin",
+        destination: "https://www.linkedin.com/company/credsettle/",
+        permanent: false,
+      },
+      {
+        source: "/social/facebook",
+        destination: "https://www.facebook.com/people/CredSettle/61572589389799/",
+        permanent: false,
+      },
+      {
+        source: "/social/instagram",
+        destination: "https://www.instagram.com/credsettle/",
+        permanent: false,
+      },
+      {
+        source: "/whatsapp",
+        destination: "https://wa.me/918800226635?text=I%20want%20to%20settle%20my%20loans",
+        permanent: false,
       },
       {
         source: "/services/businessloan",

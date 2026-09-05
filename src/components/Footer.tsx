@@ -13,19 +13,19 @@ export default function Footer() {
                 Settle your loans and credit card debt easily with CredSettle. Get debt relief, loan waivers & protection from harassment by recovery agents in India.
               </p>
               <div className="flex items-center gap-3 md:gap-4">
-                <a href="https://www.linkedin.com/company/credsettle/" target="_blank" rel="noopener noreferrer">
+                <a href="/social/linkedin" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on LinkedIn">
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
                   />
                 </a>
-                <a href="https://www.facebook.com/people/CredSettle/61572589389799/">
+                <a href="/social/facebook" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on Facebook">
                   <FontAwesomeIcon
                     icon={faFacebook}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
                   />
                 </a>
-                <a href="https://www.instagram.com/credsettle/" target="_blank" rel="noopener noreferrer">
+                <a href="/social/instagram" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on Instagram">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
@@ -72,7 +72,7 @@ export default function Footer() {
                 </h3>
 
                 <div className="flex flex-col gap-2 md:gap-3">
-                  <a href="https://maps.app.goo.gl/Uqcz1TTYyiqjcQC7A" target="_blank" rel="noopener noreferrer">
+                  <a href="/contact">
                     <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm font-normal leading-relaxed hover:text-[#0C2756] transition-colors">
                       4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001
                     </p>
