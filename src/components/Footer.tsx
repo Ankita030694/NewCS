@@ -14,18 +14,21 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-3 md:gap-4">
                 <a href="/social/linkedin" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on LinkedIn">
+                  <span className="sr-only">CredSettle on LinkedIn</span>
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
                   />
                 </a>
                 <a href="/social/facebook" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on Facebook">
+                  <span className="sr-only">CredSettle on Facebook</span>
                   <FontAwesomeIcon
                     icon={faFacebook}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
                   />
                 </a>
                 <a href="/social/instagram" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on Instagram">
+                  <span className="sr-only">CredSettle on Instagram</span>
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"

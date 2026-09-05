@@ -66,7 +66,8 @@ export default function ContactNavbar() {
             <div className="flex justify-between items-center">
               {/* Left Column - Logo */}
               <div className="flex-shrink-0">
-                <a href="/" onClick={closeMenu}>
+                <a href="/" onClick={closeMenu} aria-label="CredSettle Home">
+                  <span className="sr-only">CredSettle Home</span>
                   <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" className="h-8 md:h-[38.88px]" />
                 </a>
               </div>
@@ -123,7 +124,8 @@ export default function ContactNavbar() {
           <div className={`flex justify-between items-center px-6 pt-6 pb-8 transition-all duration-500 delay-100 ${
             isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
           }`}>
-            <a href="/" onClick={closeMenu}>
+            <a href="/" onClick={closeMenu} aria-label="CredSettle Home">
+              <span className="sr-only">CredSettle Home</span>
               <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" className="h-8 brightness-0 invert" />
             </a>
             <button
