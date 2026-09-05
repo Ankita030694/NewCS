@@ -7,7 +7,7 @@ import IsItLegalToRecordRecoveryAgentCallsClient from './IsItLegalToRecordRecove
 export const metadata: Metadata = {
   title: 'Is it Legal to Record Recovery Agent Calls',
   description:
-    'Can you legally record recovery agent calls in India? Understand single-party consent rules, Section 65B/BSA 63 electronic certificates, and debt settlement defense.',
+    'Can you legally record recovery agent calls in India? Learn consent rules, Section 65B evidence certificates, and harassment defense.',
   keywords: [
     'is it legal to record recovery agent calls in india',
     'record debt recovery agent calls legal india',

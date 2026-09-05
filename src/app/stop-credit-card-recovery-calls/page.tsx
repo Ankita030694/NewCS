@@ -7,7 +7,7 @@ import StopCreditCardRecoveryCallsClient from './StopCreditCardRecoveryCallsClie
 export const metadata: Metadata = {
   title: 'Stop Credit Card Recovery Calls Immediately',
   description:
-    'Relentless credit card collection calls? Learn your statutory rights under RBI Fair Practices Code, enforce calling hours (8 AM to 7 PM), and stop agent harassment.',
+    'Stop credit card recovery calls and agent harassment. Enforce RBI calling hours (8 AM to 7 PM) and resolve debt legally.',
   keywords: [
     'how to stop credit card recovery calls immediately',
     'stop credit card recovery agent harassment',

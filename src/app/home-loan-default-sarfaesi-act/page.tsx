@@ -7,7 +7,7 @@ import HomeLoanSarfaesiClient from './HomeLoanSarfaesiClient';
 export const metadata: Metadata = {
   title: 'Home Loan Default: Stop SARFAESI Property Auction',
   description:
-    'Defaulted on your home loan? Learn how to legally stop bank SARFAESI property auctions, file 13(3A) objections, secure DRT stays, and negotiate OTS settlement.',
+    'Defaulted on your home loan? Learn how to stop SARFAESI auctions, file 13(3A) objections, obtain DRT stays, and settle your debt.',
   keywords: [
     'home loan default sarfaesi act',
     'stop home loan auction India',

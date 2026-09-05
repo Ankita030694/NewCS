@@ -7,7 +7,7 @@ import ConsumerDurableLoanDefaultClient from './ConsumerDurableLoanDefaultClient
 export const metadata: Metadata = {
   title: 'Consumer Durable Mobile Loan Default Guide',
   description:
-    'Defaulted on NBFC EMI cards or mobile BNPL loans? Learn your legal rights against auto-dialer harassment, NACH bounce charges, and how to settle small-ticket debt.',
+    'Defaulted on NBFC EMI cards or BNPL loans? Learn your rights against agent harassment, NACH bounce charges, and settle small debt.',
   keywords: [
     'consumer durable mobile loan default',
     'nbfc emi card default',

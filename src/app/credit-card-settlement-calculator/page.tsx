@@ -7,7 +7,7 @@ import CreditCardSettlementCalculatorClient from './CreditCardSettlementCalculat
 export const metadata: Metadata = {
   title: 'Credit Card Settlement Calculator in India',
   description:
-    'Use our credit card settlement calculator to estimate your settlement payout in India. Unbundle 42% APR finance charges, calculate principal waivers, and explore RBI compromise settlement norms.',
+    'Calculate your credit card settlement payout in India. Unbundle 42% APR finance charges, plan principal waivers, and explore an OTS.',
   keywords: [
     'credit card settlement calculator',
     'credit card debt settlement calculator india',

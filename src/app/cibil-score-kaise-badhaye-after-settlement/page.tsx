@@ -7,7 +7,7 @@ import CibilScoreKaiseBadhayeAfterSettlementClient from './CibilScoreKaiseBadhay
 export const metadata: Metadata = {
   title: 'CIBIL Score Kaise Badhaye After Settlement?',
   description:
-    'Loan settlement ke baad CIBIL score kaise badhaye? Step-by-step credit repair roadmap, convert settled status to closed, secured credit cards, aur 750+ score guide.',
+    'Loan settlement ke baad CIBIL score kaise badhaye? Jane credit repair roadmap, settled to closed conversion, aur 750+ score guide.',
   keywords: [
     'cibil score kaise badhaye after loan settlement',
     'cibil score improve kaise kare settlement ke baad',

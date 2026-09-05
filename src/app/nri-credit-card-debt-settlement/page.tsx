@@ -4,7 +4,8 @@ import NriCreditCardDebtSettlementClient from './NriCreditCardDebtSettlementClie
 
 export const metadata: Metadata = {
   title: 'NRI Credit Card Debt Settlement in India',
-  description: 'Complete legal guide for Non-Resident Indians (NRIs) to settle credit card and personal loan dues remotely. Learn Special PoA execution, LOC myths, immigration rights, and bank nodal OTS negotiation without traveling to India.',
+  description:
+    'Complete NRI credit card debt settlement guide. Learn Power of Attorney rules, travel rights, LOC myths, and remote settlement.',
   keywords: [
     'nri credit card debt settlement india',
     'nri loan settlement india',

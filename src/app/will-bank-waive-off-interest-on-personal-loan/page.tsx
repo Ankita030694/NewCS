@@ -7,7 +7,7 @@ import WillBankWaiveOffInterestOnPersonalLoanClient from './WillBankWaiveOffInte
 export const metadata: Metadata = {
   title: 'Bank Interest Waiver on Personal Loans',
   description:
-    'Learn how to get interest, penal charges, and bounce fees waived on your personal loan. Enforce RBI Fair Lending Practices and secure up to 100% penal interest write-offs.',
+    'Get interest and penal charges waived on your personal loan. Enforce RBI rules and secure up to 100% penal interest write-offs.',
   keywords: [
     'will bank waive off interest on personal loan',
     'rbi guidelines on loan interest waiver',

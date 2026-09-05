@@ -7,7 +7,7 @@ import CreditCardSettlementKaiseHotaHaiClient from './CreditCardSettlementKaiseH
 export const metadata: Metadata = {
   title: 'Credit Card Settlement Kaise Hota Hai',
   description:
-    'Credit card settlement kaise hota hai in India? Learn how to escape the minimum amount due trap, calculate principal waivers, draft hardship letters, and secure an authentic No Dues Certificate.',
+    'Credit card settlement kaise hota hai? Jane step-by-step process, minimum due trap se nikalne ke tarike, aur No Dues Certificate.',
   keywords: [
     'credit card settlement kaise hota hai',
     'credit card debt settlement process india',

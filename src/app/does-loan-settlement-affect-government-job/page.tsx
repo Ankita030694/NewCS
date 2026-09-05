@@ -7,7 +7,7 @@ import DoesLoanSettlementAffectGovernmentJobClient from './DoesLoanSettlementAff
 export const metadata: Metadata = {
   title: 'Does Loan Settlement Affect Government Jobs?',
   description:
-    'Comprehensive legal guide on whether loan default or settlement affects government jobs in India. Learn UPSC, SSC, Banking, and CCS Conduct Rules verification.',
+    'Does loan settlement affect government jobs in India? Learn UPSC, SSC, banking, and CCS Conduct Rules on debt default and checks.',
   keywords: [
     'does loan default or settlement affect government job',
     'loan settlement impact on UPSC SSC banking',

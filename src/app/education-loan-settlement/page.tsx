@@ -7,7 +7,7 @@ import EducationLoanSettlementClient from './EducationLoanSettlementClient';
 export const metadata: Metadata = {
   title: 'Education Loan Settlement & Co-Borrowers',
   description:
-    'Settle defaulted education loans in India under IBA & CGFSEL guidelines. Protect parent co-borrowers from CIBIL damage, stop recovery harassment, and negotiate 35%-55% OTS waivers.',
+    'Settle education loans under IBA and CGFSEL rules. Protect parent co-borrowers, stop harassment, and get 35% to 55% waivers.',
   keywords: [
     'education loan settlement in india',
     'student loan ots scheme',

@@ -7,7 +7,7 @@ import LoanSettlementFraudAlertClient from './LoanSettlementFraudAlertClient';
 export const metadata: Metadata = {
   title: 'Loan Settlement Fraud Alert & Red Flags',
   description:
-    'Anti-scam advisory on identifying fake loan settlement agencies in India. Spot 100% waiver traps, upfront fee scams, fake NOCs, and verify legal debt resolution.',
+    'Protect yourself from loan settlement fraud in India. Spot 100% waiver scams, upfront fee traps, and fake NOCs with our official anti-fraud advisory.',
   keywords: [
     'how to identify loan settlement frauds and fake agencies',
     'loan settlement scam red flags',

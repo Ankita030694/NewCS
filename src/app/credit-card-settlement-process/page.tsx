@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import CreditCardSettlementProcessClient from './CreditCardSettlementProcessClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Process in India',
+  title: 'Credit Card Settlement Guide: Settle Debt in India',
   description:
-    'Comprehensive legal guide to the credit card settlement process in India. Learn how to negotiate 50% to 75% waivers, halt recovery agent harassment, defend against legal notices, and secure an official No Dues Certificate.',
+    'Master the credit card settlement process in India. Learn how to negotiate 50% to 75% waivers, stop harassment, and secure an NOC.',
   keywords: [
     'credit card settlement process in india',
     'how to settle credit card debt in india',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'credit card legal notice reply'
   ],
   openGraph: {
-    title: 'Credit Card Settlement Process in India',
+    title: 'Credit Card Settlement Guide: Settle Debt in India',
     description:
       'Comprehensive legal guide to the credit card settlement process in India. Learn how to negotiate 50% to 75% waivers, halt recovery agent harassment, defend against legal notices, and secure an official No Dues Certificate.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credit Card Settlement Process in India',
+    title: 'Credit Card Settlement Guide: Settle Debt in India',
     description:
       'Comprehensive legal guide to the credit card settlement process in India. Learn how to negotiate 50% to 75% waivers, halt recovery agent harassment, defend against legal notices, and secure an official No Dues Certificate.',
     images: ['https://www.credsettle.com/images/infographics/credit-card-settlement-process.jpg']

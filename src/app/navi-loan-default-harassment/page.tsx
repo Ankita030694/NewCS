@@ -7,7 +7,7 @@ import NaviLoanDefaultHarassmentClient from './NaviLoanDefaultHarassmentClient';
 export const metadata: Metadata = {
   title: 'Navi Loan Default Harassment: Stop Threats',
   description:
-    'Facing harassment from Navi loan recovery agents? Learn your legal rights under RBI Digital Lending Guidelines, stop illegal calls & visits, and negotiate a formal OTS.',
+    'Facing Navi loan recovery harassment? Learn your legal rights under RBI digital lending rules, stop calls, and negotiate an OTS.',
   keywords: [
     'navi loan default harassment',
     'stop navi recovery agent',

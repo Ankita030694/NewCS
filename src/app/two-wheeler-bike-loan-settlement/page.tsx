@@ -6,7 +6,8 @@ import TwoWheelerBikeLoanSettlementClient from './TwoWheelerBikeLoanSettlementCl
 
 export const metadata: Metadata = {
   title: 'Two Wheeler & Bike Loan Settlement Guide',
-  description: 'Facing bike loan default, aggressive recovery agent visits, or illegal two-wheeler repossession? Learn Supreme Court protections, RBI rules, and 40% to 55% OTS settlement options.',
+  description:
+    'Facing bike loan default? Learn Supreme Court rules against repossession, stop agent harassment, and settle for 40% to 55% less.',
   keywords: [
     'two wheeler loan settlement',
     'bike loan settlement process',

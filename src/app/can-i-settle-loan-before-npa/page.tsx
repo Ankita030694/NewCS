@@ -7,7 +7,7 @@ import CanISettleLoanBeforeNpaClient from './CanISettleLoanBeforeNpaClient';
 export const metadata: Metadata = {
   title: 'Can I Settle Loan Before NPA? SMA Stages',
   description:
-    'Wondering if you can settle your loan before it becomes an NPA? Learn how pre-NPA compromise settlements work during SMA-1 and SMA-2 stages, RBI rules, and negotiation steps.',
+    'Can you settle a loan before it becomes an NPA? Learn how pre-NPA compromise settlements work in SMA-1 and SMA-2 stages under RBI.',
   keywords: [
     'can i settle loan before npa',
     'settle loan before 90 days default',

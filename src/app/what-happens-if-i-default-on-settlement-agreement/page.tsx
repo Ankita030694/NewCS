@@ -7,7 +7,7 @@ import WhatHappensIfIDefaultOnSettlementAgreementClient from './WhatHappensIfIDe
 export const metadata: Metadata = {
   title: 'Settlement Agreement Default: What to Do',
   description:
-    'Defaulted on your loan settlement agreement? Understand revocation clauses, revival of original debt, penal interest risks, Section 138 defense, and renegotiation steps.',
+    'Defaulted on your loan settlement agreement? Understand revocation terms, debt revival, Section 138 defense, and renegotiation.',
   keywords: [
     'what happens if i default on settlement agreement',
     'defaulting on loan settlement agreement',

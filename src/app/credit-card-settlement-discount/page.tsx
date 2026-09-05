@@ -7,7 +7,7 @@ import CreditCardSettlementDiscountClient from './CreditCardSettlementDiscountCl
 export const metadata: Metadata = {
   title: 'Discount on Credit Card Settlement in India',
   description:
-    'Discover how much discount you can negotiate on credit card settlement in India. Master the math behind 50% to 75% waivers, principal haircuts, 42% APR unbundling, and RBI-compliant debt relief.',
+    'Discover how much discount you can negotiate on credit card settlement in India. Learn the math behind 50% to 75% principal waivers.',
   keywords: [
     'how much discount can i get on credit card settlement',
     'credit card settlement discount percentage in india',

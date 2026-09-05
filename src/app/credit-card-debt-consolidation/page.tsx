@@ -7,7 +7,7 @@ import CreditCardDebtConsolidationClient from './CreditCardDebtConsolidationClie
 export const metadata: Metadata = {
   title: 'Credit Card Debt Consolidation in India',
   description:
-    'Comprehensive guide to credit card debt consolidation in India. Compare debt consolidation personal loans, balance transfer cards, and legal settlement (OTS).',
+    'Compare credit card debt consolidation in India. Evaluate consolidation personal loans, balance transfer cards, and legal one-time settlement (OTS).',
   keywords: [
     'credit card debt consolidation in india',
     'credit card debt consolidation loans',

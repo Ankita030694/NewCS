@@ -7,7 +7,7 @@ import PersonalLoanNaChukaneParKyaHotaHaiClient from './PersonalLoanNaChukanePar
 export const metadata: Metadata = {
   title: 'Personal Loan Na Chukane Par Kya Hota Hai',
   description:
-    'Personal loan na chukane par kya hota hai? Jane 90 days NPA process, bank recovery rules, legal notice defense (Sec 138, Sec 25), aur One Time Settlement (OTS) process.',
+    'Personal loan na chukane par kya hota hai? Jane 90 days NPA rules, recovery agent guidelines, legal notice defense, aur OTS process.',
   keywords: [
     'personal loan na chukane par kya hota hai',
     'loan na chukane par kya hoga',

@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import CanIPaySettlementAmountInEmiClient from './CanIPaySettlementAmountInEmiClient';
 
 export const metadata: Metadata = {
-  title: 'Can I Pay Settlement Amount in EMI? Staged OTS Guide',
+  title: 'Paying Loan Settlement in EMI: Staged OTS Guide',
   description:
-    'Learn how to structure loan settlement in multi-month EMI installments (2 to 6 months). Negotiate staged OTS terms, prevent clause cancellation, and secure NDC.',
+    'Can you pay a loan settlement in EMIs? Learn how to structure staged OTS installments over 2 to 6 months and secure your clean NOC.',
   keywords: [
     'can i pay settlement amount in emi',
     'loan settlement in installments',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'debt settlement emi plan india'
   ],
   openGraph: {
-    title: 'Can I Pay Settlement Amount in EMI? Staged OTS Guide | CredSettle',
+    title: 'Paying Loan Settlement in EMI: Staged OTS Guide',
     description:
       'Learn how to structure loan settlement in multi-month EMI installments (2 to 6 months). Negotiate staged OTS terms, prevent clause cancellation, and secure NDC.',
     type: 'article',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Can I Pay Settlement Amount in EMI? Staged OTS Guide',
+    title: 'Paying Loan Settlement in EMI: Staged OTS Guide',
     description:
       'Learn how to structure loan settlement in multi-month EMI installments (2 to 6 months). Negotiate staged OTS terms, prevent clause cancellation, and secure NDC.',
     images: ['https://www.credsettle.com/images/infographics/can-i-pay-settlement-amount-in-emi.jpg']

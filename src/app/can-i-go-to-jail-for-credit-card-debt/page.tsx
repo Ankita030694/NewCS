@@ -7,7 +7,7 @@ import CanIGoToJailForCreditCardDebtClient from './CanIGoToJailForCreditCardDebt
 export const metadata: Metadata = {
   title: 'Can I Go to Jail for Credit Card Debt?',
   description:
-    'Can you go to jail for credit card debt in India? Learn why credit card default is purely a civil dispute, how to defeat fake arrest notices, and how to settle legally.',
+    'Can you go to jail for credit card debt in India? Learn why card default is a civil dispute, how to defeat fake arrest notices, and settle legally.',
   keywords: [
     'can i go to jail for credit card debt in india',
     'can police arrest for credit card debt in india',

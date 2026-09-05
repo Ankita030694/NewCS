@@ -7,7 +7,7 @@ import HowToConvinceBankForOneTimeSettlementClient from './HowToConvinceBankForO
 export const metadata: Metadata = {
   title: 'Convince Bank for One Time Settlement (OTS)',
   description:
-    'Learn how to convince your bank for a One Time Settlement (OTS). Master credit committee hierarchies, RBI June 2023 compromise norms, hardship proof, and legal defense.',
+    'Learn how to convince your bank for an OTS. Master credit committee approvals, RBI June 2023 compromise norms, and debt waivers.',
   keywords: [
     'how to convince bank for one time settlement',
     'how to convince branch manager for loan settlement',

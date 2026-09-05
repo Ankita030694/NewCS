@@ -6,7 +6,8 @@ import CarLoanDefaultVehicleSeizureClient from './CarLoanDefaultVehicleSeizureCl
 
 export const metadata: Metadata = {
   title: 'Car Loan Default & Vehicle Seizure by Bank',
-  description: 'Facing auto loan default or vehicle repossession by bank recovery agents? Learn Supreme Court protections under ICICI Bank vs Prakash Kaur, pre-sale notice mandates, and legal settlement options.',
+  description:
+    'Facing car loan default or repossession? Learn Supreme Court protections against illegal seizure, pre-sale notice rules, and an OTS.',
   keywords: [
     'car loan default and vehicle seizure by bank',
     'illegal car repossession by recovery agents',

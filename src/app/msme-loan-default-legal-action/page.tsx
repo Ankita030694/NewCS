@@ -7,7 +7,7 @@ import MsmeLoanDefaultLegalActionClient from './MsmeLoanDefaultLegalActionClient
 export const metadata: Metadata = {
   title: 'MSME Loan Default Legal Action & Defense',
   description:
-    'Facing legal action for MSME loan default? Learn statutory defense protocols under the MSMED Act, CGTMSE guarantee rules, RBI revival framework, and Section 138 defense.',
+    'Facing legal action for MSME loan default? Learn statutory defense under MSMED Act, CGTMSE rules, RBI norms, and Section 138 relief.',
   keywords: [
     'msme loan default legal action',
     'msmed act loan default defense',

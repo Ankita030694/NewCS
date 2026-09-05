@@ -7,7 +7,7 @@ import CreditCardNpaTimelineClient from './CreditCardNpaTimelineClient';
 export const metadata: Metadata = {
   title: 'When Does a Credit Card Become NPA in India?',
   description:
-    'Understand when a credit card becomes an NPA in India. Complete chronological timeline of SMA-0, SMA-1, SMA-2, and Substandard NPA stages, bank recovery escalation, and OTS settlement timing.',
+    'When does a credit card become an NPA in India? Timeline of SMA stages, 90-day NPA classification, recovery, and OTS timing.',
   keywords: [
     'when does a credit card become npa',
     'credit card npa timeline',

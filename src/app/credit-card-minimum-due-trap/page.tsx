@@ -7,7 +7,7 @@ import CreditCardMinimumDueTrapClient from './CreditCardMinimumDueTrapClient';
 export const metadata: Metadata = {
   title: 'How to Escape Credit Card Minimum Due Trap',
   description:
-    'Stuck paying 5% minimum amount due? Discover how compounding 42% APR keeps you in debt, your legal rights under RBI Master Directions, and how to settle credit card debt.',
+    'Stuck paying 5% minimum amount due? Learn how 42% APR compounding keeps you in debt, your legal rights under RBI, and how to settle.',
   keywords: [
     'how to escape the credit card minimum due trap',
     'credit card minimum amount due trap',

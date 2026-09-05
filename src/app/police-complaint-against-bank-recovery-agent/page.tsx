@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import PoliceComplaintAgainstBankRecoveryAgentClient from './PoliceComplaintAgainstBankRecoveryAgentClient';
 
 export const metadata: Metadata = {
-  title: 'How to File a Police Complaint Against a Bank Recovery Agent',
+  title: 'File Police Complaint Against Bank Recovery Agent',
   description:
     'Facing illegal harassment or intimidation? Learn how to file a police complaint and FIR against bank recovery agents under BNS/IPC, IT Act, and RBI norms.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'credsettle debt harassment legal protection'
   ],
   openGraph: {
-    title: 'How to File a Police Complaint Against a Bank Recovery Agent | CredSettle',
+    title: 'File Police Complaint Against Bank Recovery Agent',
     description:
       'Facing illegal harassment or intimidation? Learn how to file a police complaint and FIR against bank recovery agents under BNS/IPC, IT Act, and RBI norms.',
     type: 'article',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to File a Police Complaint Against a Bank Recovery Agent',
+    title: 'File Police Complaint Against Bank Recovery Agent',
     description:
       'Facing illegal harassment or intimidation? Learn how to file a police complaint and FIR against bank recovery agents under BNS/IPC, IT Act, and RBI norms.',
     images: ['https://www.credsettle.com/images/infographics/police-complaint-against-bank-recovery-agent.jpg']

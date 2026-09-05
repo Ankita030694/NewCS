@@ -7,7 +7,7 @@ import CanBankDeductMoneyFromAnotherAccountClient from './CanBankDeductMoneyFrom
 export const metadata: Metadata = {
   title: 'Can Bank Deduct Money from Another Account',
   description:
-    'Can a bank deduct money from another account for loan default? Understand Section 171 Banker’s Right of Set-Off, inter-branch rules, third-party bank limits, and salary account protection.',
+    'Can a bank deduct money from another account for loan default? Learn Section 171 Banker Right of Set-Off rules and salary protection.',
   keywords: [
     'can bank deduct money from another account',
     'bankers right of set off section 171 indian contract act',

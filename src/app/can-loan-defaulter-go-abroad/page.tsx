@@ -7,7 +7,7 @@ import CanLoanDefaulterGoAbroadClient from './CanLoanDefaulterGoAbroadClient';
 export const metadata: Metadata = {
   title: 'Can Loan Defaulter Go Abroad? Legal Rights & Airport Rules',
   description:
-    'Can a loan defaulter travel or work abroad from India? Understand your constitutional travel rights, airport immigration checks, Lookout Circular (LOC) rules, and remote settlement.',
+    'Can a loan defaulter travel or work abroad from India? Learn your constitutional travel rights, Lookout Circular rules, and an OTS.',
   keywords: [
     'can loan defaulter go abroad',
     'can personal loan defaulter travel abroad from india',

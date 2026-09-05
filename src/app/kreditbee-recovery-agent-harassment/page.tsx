@@ -7,7 +7,7 @@ import KreditbeeRecoveryAgentHarassmentClient from './KreditbeeRecoveryAgentHara
 export const metadata: Metadata = {
   title: 'KreditBee Recovery Harassment: RBI Rules',
   description:
-    'Facing harassment from KreditBee (Krazybee Services) recovery agents? Learn how to halt relative calling, file RBI and Cyber Crime complaints, and settle defaulted digital loans.',
+    'Facing KreditBee recovery agent harassment? Stop calls to family and contacts, file RBI complaints, and settle your loan legally.',
   keywords: [
     'kreditbee recovery agent harassment complaint',
     'krazybee services recovery harassment',

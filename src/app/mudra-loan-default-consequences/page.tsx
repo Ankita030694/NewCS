@@ -7,7 +7,7 @@ import MudraLoanDefaultConsequencesClient from './MudraLoanDefaultConsequencesCl
 export const metadata: Metadata = {
   title: 'Mudra Loan Default Consequences & OTS',
   description:
-    'Facing Mudra loan default? Learn about PMMY legal realities, arrest myths, CGFMU credit guarantee rules, replying to bank notices, and negotiating an official OTS.',
+    'Facing Mudra loan default? Learn PMMY legal realities, arrest myths, CGFMU guarantee rules, notice replies, and settlement options.',
   keywords: [
     'mudra loan default consequences',
     'pradhan mantri mudra yojana default',

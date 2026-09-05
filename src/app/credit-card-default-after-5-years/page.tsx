@@ -7,7 +7,7 @@ import CreditCardDefaultAfter5YearsClient from './CreditCardDefaultAfter5YearsCl
 export const metadata: Metadata = {
   title: 'Credit Card Default After 5 Years Rules',
   description:
-    'Defaulted on credit card debt for 5+ years? Learn how the Limitation Act 1963 bars civil recovery after 3 years, how to handle ARC zombie debt, and how to settle legally.',
+    'Defaulted on credit card debt for 5+ years? Learn how the Limitation Act bars recovery after 3 years, and handle ARC zombie debt.',
   keywords: [
     'credit card default after 5 years limitation act',
     'credit card default 5 years limitation period',

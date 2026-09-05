@@ -7,7 +7,7 @@ import GoldLoanDefaultAuctionClient from './GoldLoanDefaultAuctionClient';
 export const metadata: Metadata = {
   title: 'Gold Loan Default: Can Banks Auction Gold?',
   description:
-    'Facing gold loan default? Learn your legal rights against unfair gold auctions by NBFCs and banks, Section 176 30-day notice rules, auction surplus refunds, and interest waivers.',
+    'Facing gold loan default? Learn your rights against unfair auctions, Section 176 30-day notice rules, surplus refunds, and waivers.',
   keywords: [
     'gold loan default can bank auction my gold',
     'bank auctioning gold loan legal rights',

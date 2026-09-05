@@ -7,7 +7,7 @@ import HowToWriteAHardshipLetterForLoanSettlementClient from './HowToWriteAHards
 export const metadata: Metadata = {
   title: 'Write a Hardship Letter for Loan Settlement',
   description:
-    'Master the legal and financial framework for submitting a persuasive hardship letter to bank credit committees. Learn essential documentary proofs, NPA math, and settlement strategies.',
+    'How to write a persuasive hardship letter for loan settlement. Master essential financial proofs, NPA math, and committee approval.',
   keywords: [
     'how to write a hardship letter for loan settlement',
     'financial hardship letter for bank loan',

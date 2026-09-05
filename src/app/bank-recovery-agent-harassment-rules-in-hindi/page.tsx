@@ -7,7 +7,7 @@ import BankRecoveryAgentHarassmentRulesInHindiClient from './BankRecoveryAgentHa
 export const metadata: Metadata = {
   title: 'Bank Recovery Agent Harassment Rules (Hindi)',
   description:
-    'Bank recovery agent harassment rules in hindi: Jane RBI recovery guidelines (8 AM to 7 PM), abusive calls par legal action, PNO complaint, aur RBI CMS portal process.',
+    'Bank recovery agent rules in Hindi: Jane RBI calling hours (8 AM - 7 PM), abusive calls par legal action, aur RBI complaint process.',
   keywords: [
     'bank recovery agent harassment rules in hindi',
     'rbi recovery agent guidelines in hindi',

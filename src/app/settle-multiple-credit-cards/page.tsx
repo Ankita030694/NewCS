@@ -7,7 +7,7 @@ import SettleMultipleCreditCardsClient from './SettleMultipleCreditCardsClient';
 export const metadata: Metadata = {
   title: 'How to Settle Multiple Credit Cards',
   description:
-    'Learn how to settle multiple credit cards across HDFC, SBI Card, ICICI, Axis, Amex, and StanChart. Priority sequencing, anti-harassment legal defense, and 45% to 65% waivers.',
+    'Learn how to settle multiple credit cards in India. Master card priority sequencing, stop harassment, and secure 45% to 65% waivers.',
   keywords: [
     'how to settle multiple credit cards at once',
     'settle multiple credit card debts in india',

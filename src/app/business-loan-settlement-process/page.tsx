@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import BusinessLoanSettlementProcessClient from './BusinessLoanSettlementProcessClient';
 
 export const metadata: Metadata = {
-  title: 'Business Loan Settlement Process in India',
+  title: 'Business Loan Settlement Guide: MSME & Commercial OTS',
   description:
-    'Master the business loan settlement process in India. Learn MSME OTS procedures, how to protect personal assets and director guarantees, and negotiate 40%-60% waivers.',
+    'Master the business loan settlement process in India. Learn MSME OTS procedures, protect personal assets, and get 40% to 60% waivers.',
   keywords: [
     'business loan settlement process in india',
     'unsecured business loan settlement',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'commercial loan settlement procedure'
   ],
   openGraph: {
-    title: 'Business Loan Settlement Process in India',
+    title: 'Business Loan Settlement Guide: MSME & Commercial OTS',
     description:
       'Master the business loan settlement process in India. Learn MSME OTS procedures, how to protect personal assets and director guarantees, and negotiate 40%-60% waivers.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Business Loan Settlement Process in India',
+    title: 'Business Loan Settlement Guide: MSME & Commercial OTS',
     description:
       'Master the business loan settlement process in India. Learn MSME OTS procedures, how to protect personal assets and director guarantees, and negotiate 40%-60% waivers.',
     images: ['https://www.credsettle.com/images/infographics/business-loan-settlement-process.jpg']

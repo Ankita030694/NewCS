@@ -7,7 +7,7 @@ import BankDemandingFullPaymentForLoanClosureClient from './BankDemandingFullPay
 export const metadata: Metadata = {
   title: 'Bank Demanding Full Payment for Loan Closure?',
   description:
-    'Is your bank or recovery agency demanding 100% full payment for loan closure? Learn how to bypass third-party agents, invoke RBI OTS guidelines, and settle for 40%-55%.',
+    'Bank demanding full payment for loan closure? Bypass third-party collection agents, invoke RBI OTS guidelines, and settle for less.',
   keywords: [
     'bank demanding full payment for loan closure',
     'how to negotiate full payment demand with bank',
