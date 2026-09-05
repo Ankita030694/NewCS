@@ -68,13 +68,13 @@ export default function TwoWheelerBikeLoanSettlementClient() {
   const navLinks = [
     { id: 'quick-crux', label: 'Executive Brief & Crux' },
     { id: 'debt-economics-npa', label: '1. Debt Economics & NPA Dynamics' },
-    { id: 'financial-settlement-math', label: '2. Settlement Math & Penal Inflation' },
-    { id: 'comparison-matrix-grid', label: '3. Comparative Resolution Matrix' },
-    { id: 'cibil-algorithm-impact', label: '4. CIBIL Algorithm & Credit Recovery' },
+    { id: 'financial-settlement-math', label: '2. Bike Settlement Math & Penal Inflation' },
+    { id: 'comparison-matrix-grid', label: '3. Two-Wheeler Resolution Matrix' },
+    { id: 'cibil-algorithm-impact', label: '4. Two-Wheeler CIBIL Scoring Math' },
     { id: 'infographic-roadmap', label: 'Visual 6-Stage Defense Blueprint' },
     { id: 'step-by-step-sop', label: '5. 6-Stage Legal Resolution SOP' },
     { id: 'statutory-notice-defense', label: '6. Statutory Notice Defense Grid' },
-    { id: 'escalation-redressal-matrix', label: '7. 3-Tier Grievance Redressal' },
+    { id: 'escalation-redressal-matrix', label: '7. Two-Wheeler Grievance Redressal' },
     { id: 'chronological-milestones', label: '8. Procedural Timeline Table' },
     { id: 'specialized-scenarios', label: '9. Specialized Real-World Scenarios' },
     { id: 'company-profile', label: 'About CredSettle' },
@@ -304,7 +304,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Financial Forensics &amp; Settlement Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: Deconstructing Penal Inflation
+                2. Two-Wheeler Settlement Math: Deconstructing Bike Loan Penal Inflation
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -392,7 +392,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Comparative Strategic Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Evaluating Borrower Options
+                3. Two-Wheeler Resolution Matrix: Comparing Bike Settlement vs Surrender
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -465,7 +465,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Algorithm: Scoring Math &amp; Credit Rebuilding
+                4. Technical CIBIL Algorithm: Two-Wheeler Scoring Math &amp; Credit Restoration
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -658,7 +658,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Grievance Escalation Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. 3-Tier Grievance Redressal Matrix: Enforcing Institutional Accountability
+                7. 3-Tier Grievance Redressal Matrix: Two-Wheeler Lender Accountability
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">

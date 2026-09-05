@@ -68,13 +68,13 @@ export default function CarLoanDefaultVehicleSeizureClient() {
   const navLinks = [
     { id: 'quick-crux', label: 'Executive Brief & Crux' },
     { id: 'debt-economics-npa', label: '1. Debt Economics & NPA Dynamics' },
-    { id: 'financial-settlement-math', label: '2. Settlement Math & Penal Inflation' },
-    { id: 'comparison-matrix-grid', label: '3. Comparative Resolution Matrix' },
-    { id: 'cibil-algorithm-impact', label: '4. CIBIL Algorithm & Credit Recovery' },
+    { id: 'financial-settlement-math', label: '2. Auto Loan Math & Penal Charges' },
+    { id: 'comparison-matrix-grid', label: '3. Vehicle Resolution Matrix' },
+    { id: 'cibil-algorithm-impact', label: '4. Auto Loan CIBIL Scoring Math' },
     { id: 'infographic-roadmap', label: 'Visual 6-Stage Defense Blueprint' },
     { id: 'step-by-step-sop', label: '5. 6-Stage Legal Resolution SOP' },
     { id: 'statutory-notice-defense', label: '6. Statutory Notice Defense Grid' },
-    { id: 'escalation-redressal-matrix', label: '7. 3-Tier Grievance Redressal' },
+    { id: 'escalation-redressal-matrix', label: '7. Auto Lender Grievance Redressal' },
     { id: 'chronological-milestones', label: '8. Procedural Timeline Table' },
     { id: 'specialized-scenarios', label: '9. Specialized Real-World Scenarios' },
     { id: 'company-profile', label: 'About CredSettle' },
@@ -302,7 +302,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Financial Forensics &amp; Settlement Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: Deconstructing Penal Inflation
+                2. Auto Loan Settlement Math: Deconstructing Car Loan Penal Charges
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When auto loans default, gross bank claims swell from compounding interest, NACH bounce charges, legal fees, and yard parking costs. A forensic audit isolates genuine principal from ancillary penalties, enabling deep waivers during One-Time Settlement (OTS) negotiations:
@@ -389,7 +389,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Comparative Strategic Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Evaluating Borrower Options
+                3. Vehicle Resolution Matrix: Comparing Car Loan Settlement vs Repossession
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Evaluating available auto loan resolution routes is critical to prevent distress asset loss. This matrix compares key trade-offs across five avenues:
@@ -461,7 +461,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Algorithm: Scoring Math &amp; Credit Rebuilding
+                4. Technical CIBIL Algorithm: Auto Loan Scoring Math &amp; Credit Recovery
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Credit bureaus calculate scores across five pillars: Repayment History (35%), Credit Utilization (30%), Credit Age (15%), Credit Mix (10%), and Inquiries (10%). Defaulting triggers cascading 30 to 90+ DPD notations, lowering scores by 80 to 140 points.
@@ -661,7 +661,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Grievance Escalation Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. 3-Tier Grievance Redressal Matrix: Enforcing Institutional Accountability
+                7. 3-Tier Grievance Redressal Matrix: Auto Lender &amp; Recovery Agent Accountability
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If recovery agents violate RBI guidelines through harassment, abusive calls, or repossession threats, borrowers can escalate through three regulatory tiers:

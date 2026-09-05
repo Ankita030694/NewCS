@@ -145,7 +145,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            Can a Loan Defaulter Go Abroad? Legal Rights, Airport Immigration &amp; LOC Rules
+            Can a Loan Defaulter Go Abroad? Airport Immigration and LOC Rules
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">

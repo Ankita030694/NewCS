@@ -141,7 +141,7 @@ export default function LoanSettlementFraudAlertClient() {
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            Loan Settlement Fraud Alert: How to Identify Fake Agencies and Scam Red Flags
+            Loan Settlement Fraud Alert: How to Identify Fake Agencies
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
