@@ -82,6 +82,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/home-loan-default-sarfaesi-act",
+        destination: "/sarfaesi-act-section-13-2-notice-stop-auction",
+        permanent: true,
+      },
+      {
         source: "/services/businessloan",
         destination: "/services/business-loan-settlement",
         permanent: true,
