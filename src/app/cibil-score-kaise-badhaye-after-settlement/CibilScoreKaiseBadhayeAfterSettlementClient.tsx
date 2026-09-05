@@ -310,7 +310,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 <span>Financial Analysis &amp; Conversion Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs Penal Interest &amp; Status Conversion Math
+                2. Financial Breakdown: Status Conversion Math
               </h2>
               
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-5 text-slate-700 leading-relaxed text-sm md:text-base">
@@ -365,7 +365,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 <span>Strategic Comparison Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparison Matrix: Debt Resolution Routes &amp; CIBIL Rebuilding Trajectory
+                3. Comparison Matrix: CIBIL Rebuilding Trajectory
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Alag-alag debt resolution options, unke reporting status aur CIBIL recovery timeframe ki tulna:
@@ -431,7 +431,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 <span>Algorithm Engineering &amp; Weights</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. CIBIL Algorithm Scoring Math: 5 Core Factors &amp; Recovery Mechanics
+                4. CIBIL Scoring Math: 5 Factors &amp; Recovery Steps
               </h2>
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
                 <p>

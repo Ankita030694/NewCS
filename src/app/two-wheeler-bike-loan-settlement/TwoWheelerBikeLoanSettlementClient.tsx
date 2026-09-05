@@ -285,7 +285,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Statutory Foundations &amp; Banking Economics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Dynamics: The Anatomy of Two-Wheeler Loan Default
+                1. Debt Economics: Two-Wheeler Loan Default Anatomy
               </h2>
               
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -304,7 +304,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Financial Forensics &amp; Settlement Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Two-Wheeler Settlement Math: Deconstructing Bike Loan Penal Inflation
+                2. Bike Settlement Math: Penal Inflation Breakdown
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -392,7 +392,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Comparative Strategic Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Two-Wheeler Resolution Matrix: Comparing Bike Settlement vs Surrender
+                3. Resolution Matrix: Bike Settlement vs Surrender
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -465,7 +465,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Algorithm: Two-Wheeler Scoring Math &amp; Credit Restoration
+                4. CIBIL Algorithm: Bike Loan Credit Restoration
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -484,7 +484,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Visual Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: 6-Stage Two-Wheeler Protection &amp; Settlement Roadmap
+                Visual Blueprint: 6-Stage Bike Settlement Roadmap
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -524,7 +524,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Step-by-Step SOP: 6-Stage Two-Wheeler Protection &amp; Settlement Workflow
+                5. SOP: 6-Stage Bike Protection &amp; Settlement
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -601,7 +601,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Statutory Defense &amp; Procedural Safeguards</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Statutory Notice Defense: Analyzing Legal Provisions &amp; Borrower Remedies
+                6. Statutory Notice Defense: Bike Borrower Remedies
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -658,7 +658,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Grievance Escalation Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. 3-Tier Grievance Redressal Matrix: Two-Wheeler Lender Accountability
+                7. 3-Tier Grievance Matrix: Bike Lender Accountability
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -699,7 +699,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timeline Table: The 6-Month Two-Wheeler Resolution Lifecycle
+                8. Procedural Timeline: 6-Month Bike Loan Lifecycle
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -760,7 +760,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Specialized Real-World Case Studies</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Real-World Scenarios: Navigating Complex Two-Wheeler Defaults
+                9. Real-World Scenarios: Complex Bike Loan Defaults
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -822,7 +822,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions: Two-Wheeler Loan Default &amp; Settlement
+                Frequently Asked Questions: Bike Loan Settlement
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">

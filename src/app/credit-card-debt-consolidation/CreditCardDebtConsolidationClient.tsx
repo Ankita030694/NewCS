@@ -260,7 +260,7 @@ export default function CreditCardDebtConsolidationClient() {
                 <span>1. Debt Economics &amp; NPA Dynamics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                The Economics of Multi-Card Delinquency and Institutional NPA Provisioning
+                Economics of Multi-Card Delinquency and NPA Reserves
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -279,7 +279,7 @@ export default function CreditCardDebtConsolidationClient() {
                 <span>2. Financial Math &amp; Settlement Comparison</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Quantitative Comparison: Revolving Dues vs Loan vs Balance Transfer vs Legal Settlement
+                Comparison: Revolving Dues vs Loan vs Settlement
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -694,7 +694,7 @@ export default function CreditCardDebtConsolidationClient() {
                 <span>9. Specialized Real-World Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Case Analysis Across Specialized Card Consolidation &amp; Default Scenarios
+                Case Analysis: Card Consolidation &amp; Default Scenarios
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">

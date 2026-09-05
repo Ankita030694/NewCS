@@ -285,7 +285,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 <span>Prudential Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. MSME Debt Economics, Regulatory Stress &amp; NPA Classification Dynamics
+                1. MSME Debt Economics: Regulatory Stress &amp; NPA Dynamics
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Micro, Small, and Medium Enterprises operate on tight working capital cycles where delayed buyer payments or macroeconomic downturns trigger sudden liquidity distress. When an enterprise defaults on commercial cash credit, overdraft, or term loan facilities, lenders evaluate the debt under strict Reserve Bank of India prudential norms. Accounts transition through Special Mention Account stages: SMA-0 (1 to 30 days overdue), SMA-1 (31 to 60 days), and SMA-2 (61 to 90 days).
@@ -302,7 +302,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 <span>Financial Forensics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs. Penal Inflation &amp; Settlement Math
+                2. Financial Breakdown: MSME Debt &amp; Settlement Math
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Following default, bank claims escalate rapidly due to compounding penal interest, monthly commitment surcharges, cheque return fees, and administrative recovery costs. Under RBI Fair Lending Practice circulars, lenders are strictly prohibited from capitalizing penal charges or compounding penalty rates into loan principal. A forensic ledger audit under the Bankers&apos; Books Evidence Act strips away these unapproved additions, establishing the true baseline principal liability for compromise negotiations.
@@ -360,7 +360,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 <span>Comparison Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Legal &amp; Institutional Resolution Comparison Matrix for Stressed MSMEs
+                3. Resolution Matrix: Legal Pathways for Stressed MSMEs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Stressed MSMEs must evaluate business continuity, legal timelines, and financial outcomes across available recovery and settlement avenues:
@@ -426,7 +426,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 <span>Credit Bureau Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Commercial Algorithm, Scoring Math &amp; Rectification
+                4. CIBIL Commercial Algorithm: Scoring Math &amp; Rectification
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Commercial credit reporting in India operates under CICRA 2005 across two dimensions: the enterprise Company Credit Report (CCR) ranked from CMR-1 to CMR-10 (high risk) and the personal credit scores of directors and guarantors (300 to 900).
@@ -599,7 +599,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 <span>Notice Defense</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Statutory Notice Defense: Analyzing Legal Actions &amp; Institutional Rights
+                6. Statutory Notice Defense: MSME Legal Protections
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Lenders issue notices across criminal, quasi-criminal, and civil forums. Enterprise leadership must address each action under its governing statute:
@@ -708,7 +708,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 <span>Resolution Timelines</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timeline &amp; Procedural Milestones (Day 1 to Month 6)
+                8. Procedural Timeline: Default to Resolution Milestones
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Understand regulatory milestones from initial delinquency to final debt discharge:
@@ -768,7 +768,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 <span>Business Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Business Scenarios: Consortium, Corporate Shocks &amp; ARCs
+                9. Specialized Business Scenarios: Shocks &amp; ARCs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Legal strategies must adapt to the corporate structure and facility architecture:

@@ -293,7 +293,7 @@ export default function DoesLoanSettlementMeanDebtIsForgivenClient() {
                 <span>Financial Analytics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: Principal vs. Penal Inflation
+                2. Financial Breakdown: Principal vs Penal Inflation
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When a borrower defaults on an unsecured personal loan or revolving credit card, the total claimed balance escalates exponentially due to compounding penal charges, overdue interest, and administrative processing fees. Understanding how this balance is constructed is essential to evaluating a genuine compromise settlement.
@@ -441,7 +441,7 @@ export default function DoesLoanSettlementMeanDebtIsForgivenClient() {
                 <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Algorithm, Scoring Weights &amp; Bureau Status Upgrade
+                4. CIBIL Algorithm: Bureau Status Upgrade Dynamics
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Under the Credit Information Companies (Regulation) Act, 2005 (CICRA), all commercial banks and non-banking financial companies operating in India are statutorily required to submit monthly account updates to the four authorized credit information companies: TransUnion CIBIL, Experian India, CRIF High Mark, and Equifax. Understanding how credit scoring algorithms treat a settled loan clarifies why settlement is not recorded as clean debt forgiveness.
@@ -500,7 +500,7 @@ export default function DoesLoanSettlementMeanDebtIsForgivenClient() {
                 <span>Step-by-Step Defense SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure: 6 Stages to Secure Unchallengeable Legal Finality
+                5. SOP: 6 Stages to Secure Legal Finality
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 To guarantee that your loan settlement achieves permanent legal closure and cannot be reopened by future collection agencies or asset reconstruction companies, follow this sequential 6-stage protocol:
@@ -729,7 +729,7 @@ export default function DoesLoanSettlementMeanDebtIsForgivenClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Resolution Timeline: From Initial Default to Legal Closure
+                8. Procedural Timeline: Initial Default to Legal Closure
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Understanding the chronological milestones of debt resolution allows borrowers to execute defenses and negotiate compromise settlements at optimal intervention points:
@@ -788,7 +788,7 @@ export default function DoesLoanSettlementMeanDebtIsForgivenClient() {
                 <span>Specialized Case Studies</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Multi-Lender Portfolios, Layoffs &amp; ARC Assignments
+                9. Specialized Scenarios: Layoffs &amp; ARC Assignments
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Settlement mechanics and legal protections adapt to specific debt structures and distress scenarios:

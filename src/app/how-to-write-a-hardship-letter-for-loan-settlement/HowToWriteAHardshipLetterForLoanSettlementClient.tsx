@@ -281,7 +281,7 @@ export default function HowToWriteAHardshipLetterForLoanSettlementClient() {
               <div className="flex items-center gap-2">
                 <Landmark className="w-5 h-5 text-[#1886ff]" />
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  1. Debt Economics &amp; NPA Dynamics: The Rationale Behind Bank Settlements
+                  1. Debt Economics: Rationale Behind Bank Settlements
                 </h2>
               </div>
 

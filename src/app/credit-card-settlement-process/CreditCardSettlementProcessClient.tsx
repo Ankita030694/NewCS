@@ -289,7 +289,7 @@ export default function CreditCardSettlementProcessClient() {
                 <span>Macro Banking Dynamics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Dynamics: The Anatomy of the Credit Card Trap
+                1. Debt Economics: Anatomy of the Credit Card Trap
               </h2>
               
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -312,7 +312,7 @@ export default function CreditCardSettlementProcessClient() {
                 <span>Financial Forensics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: True Principal vs. Inflated Dues
+                2. Financial Breakdown: True Principal vs Inflated Dues
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -391,7 +391,7 @@ export default function CreditCardSettlementProcessClient() {
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Strategic Resolution Comparison: Evaluating Your Debt Relief Pathways
+                3. Resolution Comparison: Debt Relief Pathways
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -457,7 +457,7 @@ export default function CreditCardSettlementProcessClient() {
                 <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Algorithm &amp; Scoring Math: Navigating Post-Settlement Credit
+                4. CIBIL Algorithm: Post-Settlement Credit Rebuilding
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -684,7 +684,7 @@ export default function CreditCardSettlementProcessClient() {
                 <span>Regulatory Grievance Redressal</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. The 3-Tier Grievance Escalation Matrix: Institutional Redressal Hierarchy
+                7. 3-Tier Escalation Matrix: Institutional Redressal
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">

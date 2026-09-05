@@ -286,7 +286,7 @@ export default function LoanSettlementFraudAlertClient() {
                 <span>NPA Dynamics &amp; Scam Origins</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics, NPA Provisioning &amp; The Rise of Fake Settlement Syndicates
+                1. Debt Economics: Rise of Fake Settlement Syndicates
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 The massive expansion of unsecured credit cards and digital personal loans in India has led to a sharp increase in non-performing assets (NPAs). When a borrower experiences severe income loss or medical distress and misses three consecutive monthly EMIs (90 days past due), the loan transitions into NPA status under Reserve Bank of India prudential norms. This classification obligates lending institutions to allocate 15% to 100% Tier-1 capital provisioning against the defaulted account.
@@ -303,7 +303,7 @@ export default function LoanSettlementFraudAlertClient() {
                 <span>Financial Analysis &amp; Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: Scam Promises vs. Authentic OTS
+                2. Settlement Math: Scam Promises vs Authentic OTS
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Evaluating whether a settlement offer is legitimate requires understanding the mathematical anatomy of loan defaults. When an account defaults, lenders add compounding penal interest (24% to 36% p.a.), cheque bounce penalties, and administrative charges, inflating the demand substantially. Fake agencies manipulate these figures, promising an impossible 90% to 100% total waiver while extracting upfront fees.
@@ -372,7 +372,7 @@ export default function LoanSettlementFraudAlertClient() {
                 <span>Comparative Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Matrix: Verified Legal OTS vs. Fraudulent Agencies vs. Inaction
+                3. Comparative Matrix: Legal OTS vs Scam Agencies
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Compare legitimate debt resolution against fraudulent agencies, bank restructuring, Lok Adalats, and borrower inaction:
@@ -443,7 +443,7 @@ export default function LoanSettlementFraudAlertClient() {
                 <span>CIBIL Mechanics &amp; Scams</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Mechanics &amp; Fake Credit Repair Scams Debunked
+                4. CIBIL Scoring Mechanics: Fake Credit Repair Scams
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 A frequent scam involves agencies promising to delete default remarks or boost CIBIL scores to 750+ within 48 hours for upfront cash. TransUnion CIBIL and credit bureaus calculate scores using a strict 5-factor model: Payment History (35%), Credit Exposure (30%), Credit Mix (15%), Credit History Length (10%), and Recent Enquiries (10%). Under the Credit Information Companies (Regulation) Act 2005, modifying bureau records without encrypted bank authorization is illegal.
@@ -499,7 +499,7 @@ export default function LoanSettlementFraudAlertClient() {
                 <span>6-Stage Anti-Fraud SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Step-by-Step SOP: 6 Stages of Verified Debt Resolution &amp; Anti-Fraud Protocol
+                6. Step-by-Step SOP: Verified Debt Resolution Protocol
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Follow this sequential standard operating procedure to verify legitimate debt advisory and negotiate an authorized bank compromise:
@@ -778,7 +778,7 @@ export default function LoanSettlementFraudAlertClient() {
                 <span>Specialized Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Specialized Fraud Scenarios: Fintech Apps, Layoffs, Business Debt &amp; ARCs
+                10. Real-World Fraud Scenarios: Fintech Apps &amp; ARCs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Fraud schemes manifest across multiple credit channels and borrower profiles:
@@ -839,7 +839,7 @@ export default function LoanSettlementFraudAlertClient() {
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions on Loan Settlement Frauds &amp; Agency Verification
+                Frequently Asked Questions: Loan Settlement Frauds
               </h2>
               <p className="text-xs md:text-sm text-slate-600">
                 Click on any question below to view detailed legal answers verified by our debt resolution professionals:

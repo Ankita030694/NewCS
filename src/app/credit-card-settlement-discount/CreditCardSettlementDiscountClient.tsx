@@ -296,7 +296,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Macro Banking Dynamics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Dynamics: The Structural Driver of Credit Card Waivers
+                1. Debt Economics: Structural Driver of Card Waivers
               </h2>
               
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -319,7 +319,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Financial Forensics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: Unbundling Core Principal vs. Inflated Dues
+                2. Financial Breakdown: Core Principal vs Inflated Dues
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -464,7 +464,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Algorithm &amp; Scoring Math: Navigating Post-Settlement Credit Recovery
+                4. CIBIL Algorithm: Post-Settlement Credit Recovery
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -487,7 +487,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Visual Process Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Blueprint: The Credit Card Settlement Discount &amp; Waiver Framework
+                Visual Blueprint: Card Settlement Discount Framework
               </h2>
               
               <div className="bg-white rounded-2xl border border-slate-200/80 p-3 sm:p-4 shadow-xs">
@@ -523,7 +523,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Step-by-Step Settlement SOP: 6 Stages to Securing Maximum Debt Waivers
+                5. Settlement SOP: 6 Stages to Maximum Debt Waivers
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -630,7 +630,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Statutory Protections</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Statutory Notice Defense: Legal Protections &amp; Strategic Responses
+                6. Statutory Notice Defense: Legal Protections
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -691,7 +691,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Regulatory Grievance Redressal</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. The 3-Tier Grievance Escalation Matrix: Institutional Redressal Hierarchy
+                7. Grievance Escalation Hierarchy: 3-Tier Matrix
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -807,7 +807,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Specialized Situations</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Real-World Scenarios in Credit Card Settlement Negotiations
+                9. Real-World Scenarios: Card Settlement Negotiations
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -873,7 +873,7 @@ export default function CreditCardSettlementDiscountClient() {
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions: Credit Card Settlement Discounts &amp; Waivers
+                Frequently Asked Questions: Card Settlement Discounts
               </h2>
               <p className="text-xs sm:text-sm text-slate-600">
                 Authoritative legal and financial answers regarding credit card settlements, waivers, CIBIL score implications, and statutory protections:

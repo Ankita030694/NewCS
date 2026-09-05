@@ -286,7 +286,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Statutory Debt Mechanics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Dynamics: The Structural Driver of Aggressive Recovery
+                1. Debt Economics: Recovery Agency Aggression Drivers
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When borrowers suffer genuine financial distress due to sudden job loss, business downturns, or medical emergencies and default on unsecured personal loan EMIs, lenders execute a strict classification sequence. Under RBI prudential norms, delinquent accounts advance through Special Mention Account tiers: SMA-0 (1 to 30 days overdue), SMA-1 (31 to 60 days overdue), and SMA-2 (61 to 90 days overdue). Upon crossing 90 days default, the loan becomes a Non-Performing Asset (NPA).
@@ -335,7 +335,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Financial Analysis</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: Principal vs. Inflated Penalties
+                2. Financial Breakdown: Principal vs Inflated Penalties
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When a borrower defaults, financial institutions inflate the ledger balance by compounding contractual interest with penal interest rates (often 24% to 36% per annum), bounce fees, and recovery charges. This accounting practice often swells the claimed liability by 35% to 65% above the genuine principal balance, creating psychological panic designed to force distressed borrowers into hasty payments.
@@ -412,7 +412,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Strategic Comparison</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Evaluating Your Legal &amp; Financial Pathways
+                3. Comparative Resolution Matrix: Legal &amp; Financial Paths
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When facing recovery pressure, borrowers must choose the right legal strategy to protect their assets, halt harassment, and minimize total payout. This comparative table outlines the five standard debt dispute pathways available under Indian law:
@@ -478,7 +478,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Algorithm &amp; Section 21 CICRA Conversion Remedy
+                4. CIBIL Algorithm: Section 21 CICRA Conversion Remedy
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Credit Information Companies in India (TransUnion CIBIL, Experian, Equifax, CRIF High Mark) evaluate borrower creditworthiness using a strict 5-factor mathematical weighting model:
@@ -566,7 +566,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Actionable Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. 6-Stage Actionable SOP: Filing a Police Complaint &amp; FIR Against Recovery Agents
+                6. Actionable SOP: Filing Police Complaint &amp; FIR
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If third-party collection agents violate legal boundaries or threaten you, follow this step-by-step Standard Operating Procedure to enforce your statutory rights:
@@ -672,7 +672,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Statutory Legal Defense</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. Statutory Notice Defense: Section 25 PSSA, Section 138 NI Act &amp; Arbitration Protections
+                7. Statutory Notice Defense: PSSA, NI Act &amp; Arbitration
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Collection agencies frequently deploy automated legal notices under Section 25 of the Payment and Settlement Systems Act (PSSA), 2007 or Section 138 of the Negotiable Instruments Act, 1881 to intimidate borrowers. Understanding your exact statutory defense rights neutralizes these intimidation tactics:
@@ -817,7 +817,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Chronological Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Chronological Resolution Timeline: From Loan Default to No Dues Certificate
+                9. Procedural Timeline: Loan Default to No Dues Certificate
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 The progression of a defaulted loan from early delinquency to final debt settlement follows a predictable banking lifecycle. Milestones and defense strategies from Day 1 to Month 6:
@@ -975,7 +975,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions About Recovery Agent Harassment &amp; Police Complaints
+                Frequently Asked Questions: Recovery Harassment &amp; FIRs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Review authoritative legal answers to the most common questions regarding loan recovery harassment, police FIR procedures, and borrower protections in India:

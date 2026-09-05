@@ -239,7 +239,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Debt Economics &amp; NPA Dynamics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; Lok Adalat: Why Banks Send Pre-Litigation Notices
+                1. Debt Economics: Why Banks Send Lok Adalat Notices
               </h2>
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
                 <p>
@@ -258,7 +258,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Settlement Economics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown &amp; Settlement Math: 50% to 70% Lok Adalat Waivers
+                2. Settlement Math: 50% to 70% Lok Adalat Waivers
               </h2>
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
                 <p>
@@ -329,7 +329,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Dispute Resolution Matrix: Lok Adalat vs Regular Court vs Arbitration vs Inaction
+                3. Resolution Matrix: Lok Adalat vs Court vs Arbitration
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Compare how National Lok Adalat compares against conventional recovery routes for unsecured personal loan defaults:
@@ -400,7 +400,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Credit Bureau Analytics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. CIBIL Algorithm Dynamics, DPD Tracking &amp; CICRA Section 21 Upgrades
+                4. CIBIL Dynamics: DPD Tracking &amp; Bureau Upgrades
               </h2>
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
                 <p>
@@ -419,7 +419,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Visual Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Visual Roadmap: 6-Stage Lok Adalat Notice Defense &amp; Settlement Workflow
+                5. Visual Roadmap: Lok Adalat Settlement Workflow
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Refer to this visual roadmap illustrating the procedural workflow to handle Lok Adalat notices, challenge excessive interest claims, and secure binding Section 21 consent awards:
@@ -458,7 +458,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Step-by-Step SOP: 6 Stages to Handle Lok Adalat Notices &amp; Secure Waivers
+                6. Step-by-Step SOP: Handling Lok Adalat Notices
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Successfully resolving a defaulted personal loan through Lok Adalat requires following a structured six-stage procedural workflow:
@@ -552,7 +552,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Statutory Notice Defense</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. Statutory Notice Defense &amp; Legal Rights: PSSA, NI Act, Arbitration &amp; DRT
+                7. Notice Defense: PSSA, NI Act &amp; DRT Provisions
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Borrowers managing defaulted debt often receive parallel statutory notices. Understanding each framework ensures a robust defense:
@@ -620,7 +620,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Escalation Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. 3-Tier Escalation Matrix: Defending Borrower Rights Against Coercion
+                8. 3-Tier Escalation Matrix: Defending Borrower Rights
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If lenders or collection agencies violate statutory guidelines, escalate through this structured three-tier grievance redressal mechanism:
@@ -675,7 +675,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Procedural Timelines</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Chronological Procedural Timeline: Notice Receipt to Final Closure (Day 1 to Month 6)
+                9. Procedural Timeline: Notice Receipt to Final Closure
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Understanding chronological milestones enables systematic defense planning:
@@ -734,7 +734,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 <span>Case Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Specialized Real-World Scenarios: Multi-Lender, Layoffs, Business &amp; ARCs
+                10. Real-World Scenarios: Layoffs, Business &amp; ARCs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Lok Adalat conciliation mechanics provide versatile debt resolution pathways across diverse borrower hardship scenarios:

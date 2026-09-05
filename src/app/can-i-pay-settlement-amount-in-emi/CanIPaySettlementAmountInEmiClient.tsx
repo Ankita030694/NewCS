@@ -266,7 +266,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Banking Economics &amp; NPA Provisions</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Dynamics: Why Banks Permit Settlement Payouts in Installments
+                1. Debt Economics: Why Banks Permit Installment Settlements
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 When severe financial hardship strikes, such as corporate downsizing, enterprise cash-flow disruption, or critical medical emergencies, continuing full debt servicing on unsecured personal loans and credit cards becomes mathematically unviable. After 90 consecutive days of missed EMIs, the facility transitions from Special Mention Account status (SMA-0, SMA-1, SMA-2) into a formal Non-Performing Asset (NPA) under Reserve Bank of India prudential guidelines. Once classified as an NPA, commercial banks and NBFCs must set aside mandatory Tier-1 capital provisioning, scaling from 15% up to 100% of the exposure, locking institutional liquidity.
@@ -283,7 +283,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Financial Analysis &amp; Settlement Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Structuring Settlement Math into Structured Monthly Tranches
+                2. Settlement Math: Structuring Monthly Tranches
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Following default, lenders rapidly inflate account balances by levying 24% to 36% compound penal interest and repeated mandate bounce surcharges. Within 12 months, an original principal balance of ₹8 Lakhs can artificially escalate to over ₹12.5 Lakhs. Strategic negotiation strips away these punitive levies, isolates the net principal, and establishes a sustainable 40% to 55% settlement split into manageable monthly tranches.
@@ -353,7 +353,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Resolution Pathways Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Staged Settlement vs. Lump Sum vs. Restructuring
+                3. Comparative Matrix: Staged Settlement vs Lump Sum
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Borrowers evaluating debt resolution options can compare five primary avenues across cash flow impact, legal exposure, and credit recovery:
@@ -424,7 +424,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>CIBIL Algorithm &amp; Bureau Analytics</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Math: Credit Impact of Paying a Settlement in Installments
+                4. CIBIL Scoring Math: Installment Settlement Credit Impact
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Credit bureaus calculate CIBIL scores across five parameters: Payment History (35%), Credit Exposure (30%), Credit Longevity (15%), Credit Mix (10%), and Recent Inquiries (10%). During the months you pay staged settlement installments, the account remains marked in default, but DPD accumulation freezes under the approved sanction agreement.
@@ -485,7 +485,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Visual Resolution Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: Multi-Tranche Debt Resolution &amp; EMI Settlement Roadmap
+                Visual Blueprint: Multi-Tranche Settlement Roadmap
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Study this 6-stage infographic detailing the end-to-end journey from initial default analysis and cash flow modeling to credit committee negotiation, tranche remittances, and final No Dues Certificate delivery:
@@ -524,7 +524,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Step-by-Step Resolution SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure (SOP): 6 Stages to Structure an Installment Settlement
+                5. SOP: 6 Stages to Structure an Installment Settlement
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Executing an installment settlement requires adhering to a rigorous 6-stage standard operating procedure to avoid default clause triggers and ensure binding legal closure:
@@ -576,7 +576,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Statutory Notice Defense &amp; Borrower Rights</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Statutory Notice Defense &amp; Legal Rights Under Indian Banking Law
+                6. Statutory Notice Defense Under Indian Banking Law
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Unsecured loan default is strictly a civil contractual breach under the Indian Contract Act, 1872, with zero risk of police arrest. However, institutional lenders issue statutory notices to exert recovery pressure. Understanding your legal rights ensures protected negotiations:
@@ -665,7 +665,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timeline &amp; Milestone Resolution Table (Month 1 to Month 6)
+                8. Procedural Timeline: Month 1 to Month 6 Resolution
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Follow the chronological progression from initial loan default to final installment clearance and official No Dues Certificate delivery:
@@ -724,7 +724,7 @@ export default function CanIPaySettlementAmountInEmiClient() {
                 <span>Real-World Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Multi-Lender Portfolios, Layoffs &amp; ARC Assignments
+                9. Real-World Installment Scenarios: Layoffs &amp; ARCs
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Structuring an installment settlement depends on borrower profiles and creditor structures. Consider these four distinct scenarios:

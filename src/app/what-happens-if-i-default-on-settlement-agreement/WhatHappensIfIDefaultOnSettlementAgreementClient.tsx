@@ -174,7 +174,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-[#1886ff] flex-shrink-0" />
                 <h2 className="text-base sm:text-lg font-bold text-slate-900">
-                  Executive Summary: What Happens If You Default on a Settlement Agreement?
+                  Executive Summary: Settlement Agreement Default Risks
                 </h2>
               </div>
 
@@ -225,7 +225,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Banking Economics &amp; NPA Provisions</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; Banking Dynamics: Mechanics of a Settlement Default
+                1. Debt Economics: Mechanics of a Settlement Default
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 When a borrower executes a One-Time Settlement (OTS) with a bank or NBFC, the agreement operates as a conditional compromise governed by the Indian Contract Act, 1872. The lending institution agrees to waive substantial interest and principal only on the strict condition that all installment tranches are paid exactly on schedule. If an agreed date is missed, the conditional agreement is breached, triggering the automatic revocation clause embedded in the sanction letter.
@@ -242,7 +242,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Financial Analysis &amp; Settlement Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Cost of Settlement Default &amp; Revocation Math
+                2. Financial Breakdown: Settlement Revocation Math
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Defaulting on an OTS exposes borrowers to immediate balance inflation. Lenders retroactively reinstate waived penal interest (24% to 36% compound annual rates), mandate bounce surcharges, and legal recovery costs. Furthermore, money paid in prior tranches is reallocated toward interest rather than reducing settlement principal.
@@ -301,7 +301,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Strategic Options Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Strategic Resolution Options: Settlement Default vs. Alternative Paths
+                3. Strategic Options: Settlement Default vs Alternatives
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Evaluating the optimal legal path after a settlement default requires comparing costs and timelines:
@@ -377,7 +377,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Visual Process Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Consequences of Defaulting on a Settlement Agreement &amp; Cure Roadmap
+                Settlement Default Consequences &amp; Cure Roadmap
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Review the 6 core pillars of settlement default consequences, statutory notice risks, and step-by-step cure procedures:
@@ -416,7 +416,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Step-by-Step Resolution SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure: 6 Stages to Cure a Default and Renegotiate Settlement
+                5. SOP: 6 Stages to Cure Default &amp; Renegotiate Terms
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Execute this disciplined 6-stage SOP to cure default triggers, protect prior payments, and revive your settlement agreement:
@@ -468,7 +468,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Statutory Notice Defense &amp; Legal Rights</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Statutory Notice Defense: Responding to Legal Action After Settlement Default
+                6. Statutory Notice Defense: Post-Default Legal Action
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Loan settlement default is strictly a civil contractual dispute. Knowing your legal protections ensures secure negotiation:
@@ -557,7 +557,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timeline: From Settlement Default to Re-Settlement Closure
+                8. Chronological Timeline: Default to Re-Settlement
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Follow chronological milestones and legal deadlines from initial installment default to final NDC delivery:
@@ -657,7 +657,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions on Defaulting on a Loan Settlement Agreement
+                Frequently Asked Questions: Settlement Agreement Defaults
               </h2>
 
               <div className="space-y-2.5 pt-1">

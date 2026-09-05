@@ -216,7 +216,7 @@ export default function HomeLoanSarfaesiClient() {
               <div className="flex items-center gap-2.5 text-[#1886ff]">
                 <Briefcase className="w-5 h-5 flex-shrink-0" />
                 <h2 className="text-lg md:text-xl font-extrabold text-slate-900">
-                  Executive Summary: Strategic Machinery of SARFAESI Defense &amp; Property Protection
+                  Executive Summary: SARFAESI Defense &amp; Property Rights
                 </h2>
               </div>
               <ul className="space-y-2.5 text-xs md:text-sm text-slate-700 font-medium">

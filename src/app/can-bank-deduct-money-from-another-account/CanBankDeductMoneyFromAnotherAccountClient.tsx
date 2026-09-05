@@ -293,7 +293,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span>Statutory Foundations &amp; NPA Dynamics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; The Banker’s Right of Set-Off Under Section 171
+                1. Debt Economics: Banker’s Set-Off Under Section 171
               </h2>
               
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -320,7 +320,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span>Financial Analysis &amp; Debt Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs. Penal Interest Inflation &amp; Settlement Math
+                2. Financial Breakdown: Settlement Math &amp; Penal Dues
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -386,7 +386,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span>Comparative Legal Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Legal Deduction Comparison: Same Bank vs. Third-Party Bank vs. Court Attachment
+                3. Legal Comparison: Same Bank vs Third-Party Account
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -501,7 +501,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
               <div className="flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-[#1886ff]" />
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  Visual Blueprint: Banker’s Right of Set-Off &amp; Account Protection Rules
+                  Visual Blueprint: Banker’s Set-Off Defense Rules
                 </h2>
               </div>
 
@@ -543,7 +543,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span>Procedural Action Plan</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Step-by-Step SOP: The 6-Stage Defense &amp; Account Protection Blueprint
+                5. Step-by-Step SOP: 6-Stage Account Defense Blueprint
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -778,7 +778,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span>Specialized Real-World Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Account Scenarios: Joint Accounts, Overdrafts &amp; Statutory Deposits
+                9. Specialized Scenarios: Joint Accounts &amp; Overdrafts
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">

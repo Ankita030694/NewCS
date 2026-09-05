@@ -267,7 +267,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>1. Debt Economics &amp; NPA Dynamics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Aged Credit Card Portfolios, Technical Write-Offs, and ARC Debt Assignments
+                Aged Credit Card Portfolios and ARC Debt Assignments
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -337,7 +337,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>3. Debt Relief Options Comparison</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Evaluating Strategic Resolution Pathways for 5-Year Credit Card Defaults
+                Strategic Pathways for 5-Year Credit Card Defaults
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -403,7 +403,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>4. Technical CIBIL Scoring &amp; CICRA Rectification</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                CIBIL Scoring Algorithms, 5-Year Default Decay, and Section 21 CICRA Remedies
+                CIBIL Scoring: 5-Year Default Decay &amp; CICRA Remedies
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -462,7 +462,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>5. Step-by-Step SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                6-Stage Standard Operating Procedure for Resolving 5-Year-Old Credit Card Debts
+                6-Stage SOP for Resolving 5-Year-Old Credit Card Debts
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -527,7 +527,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>6. Statutory Notice Defense &amp; Borrower Rights</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Statutory Defense Mechanisms Against Aged Debt Claims and Unlawful Notices
+                Statutory Defense Against Aged Debt Claims &amp; Notices
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -584,7 +584,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>7. 3-Tier Grievance &amp; Ombudsman Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Statutory Escalation Hierarchy for Stopping Unlawful Recovery Harassment
+                Statutory Escalation: Stopping Unlawful Harassment
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -625,7 +625,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>8. Chronological Timeline to Resolution</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Procedural Lifecycle of a Credit Card Default from Day 1 to Year 5+ Resolution
+                Procedural Lifecycle: Default to Year 5+ Resolution
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -679,7 +679,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>9. Specialized Real-World Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Case Study Profiles: Resolving Aged Credit Card Debts Across Diverse Situations
+                Case Study Profiles: Resolving Aged Credit Card Debts
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
@@ -741,7 +741,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-tight">
-                Frequently Asked Questions on 5-Year Credit Card Defaults &amp; Limitation Law
+                Frequently Asked Questions: 5-Year Card Defaults
               </h2>
 
               <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
