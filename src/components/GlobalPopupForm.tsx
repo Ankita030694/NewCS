@@ -246,7 +246,7 @@ export default function GlobalPopupForm() {
         </button>
 
         <div className="flex flex-col gap-2 mb-6">
-          <h2
+          <h3
             className="text-2xl md:text-3xl font-semibold leading-tight pr-8"
             style={{
               color: '#0C2756',
@@ -254,7 +254,7 @@ export default function GlobalPopupForm() {
             }}
           >
             Get Expert Help Today
-          </h2>
+          </h3>
           <p
             className="text-sm md:text-base leading-relaxed opacity-80"
             style={{

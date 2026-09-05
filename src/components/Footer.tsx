@@ -94,7 +94,7 @@ export default function Footer() {
       </div>
 
       <div className="w-full mt-4 md:mt-8 mb-0 pb-0 relative overflow-hidden">
-        <h2
+        <div
           className="text-center text-[clamp(58px,16vw,350px)] font-normal leading-none -mb-5 md:-mb-12 lg:-mb-[50px] overflow-hidden whitespace-normal break-words w-full max-w-full mx-auto px-4 select-none"
           style={{
             background: 'linear-gradient(180deg, #007AFF 0%, #EFF7FF 72.39%)',
@@ -109,9 +109,10 @@ export default function Footer() {
             overflowWrap: 'anywhere',
             overflow: 'hidden'
           }}
+          aria-hidden="true"
         >
           CredSettle
-        </h2>
+        </div>
       </div>
     </footer>
   );
