@@ -325,7 +325,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 260; // Updated for 10 new legal defense & court summons pages.
+  const mainStaticPages = 270; // Updated for 10 new harassment & banking rights pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -381,6 +381,76 @@ async function generateSitemap(): Promise<string> {
 
   // ========================================================================
   // SECTION 1: MAIN STATIC PAGES
+  urls.push({
+    loc: `${baseUrl}/fake-legal-notice-from-advocate-whatsapp`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-recovery-agents-visit-my-office`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-bank-call-relatives-for-loan-recovery`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/stop-auto-debit-ecs-bounce-charges`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/job-loss-insurance-for-personal-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/business-loss-personal-loan-default`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/legal-notice-to-bank-for-mental-harassment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/consumer-court-against-bank-harassment`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/suicide-threats-by-recovery-agents`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/rbi-circular-on-loan-settlement-ots`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   urls.push({
     loc: `${baseUrl}/summons-from-court-for-personal-loan`,
     priority: 0.95,

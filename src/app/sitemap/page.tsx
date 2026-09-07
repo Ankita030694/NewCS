@@ -14,6 +14,46 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "Fake Legal Notice on WhatsApp? How to Verify & Reply",
+    "href": "/fake-legal-notice-from-advocate-whatsapp"
+  },
+  {
+    "title": "Can Recovery Agents Visit Your Office? (Stop Them Legally)",
+    "href": "/can-recovery-agents-visit-my-office"
+  },
+  {
+    "title": "Stop Banks & Loan Apps from Calling Your Relatives",
+    "href": "/can-bank-call-relatives-for-loan-recovery"
+  },
+  {
+    "title": "How to Stop Auto-Debit (NACH/ECS) & Avoid Bounce Charges",
+    "href": "/stop-auto-debit-ecs-bounce-charges"
+  },
+  {
+    "title": "Job Loss? How to Use Credit Shield Insurance for Your Loan",
+    "href": "/job-loss-insurance-for-personal-loan"
+  },
+  {
+    "title": "Defaulted on Personal Loan Due to Business Failure: Guide",
+    "href": "/business-loss-personal-loan-default"
+  },
+  {
+    "title": "Legal Notice to Bank for Mental Harassment by Agents",
+    "href": "/legal-notice-to-bank-for-mental-harassment"
+  },
+  {
+    "title": "File a Consumer Court Case Against Your Bank for Harassment",
+    "href": "/consumer-court-against-bank-harassment"
+  },
+  {
+    "title": "Extreme Harassment? Take Immediate Legal & Police Action",
+    "href": "/suicide-threats-by-recovery-agents"
+  },
+  {
+    "title": "Official RBI Circular on Loan Settlement & OTS (2026 Guide)",
+    "href": "/rbi-circular-on-loan-settlement-ots"
+  },
+  {
     "title": "Court Summons for Personal Loan: Legal Steps & Defense",
     "href": "/summons-from-court-for-personal-loan"
   },
