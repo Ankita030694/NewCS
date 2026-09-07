@@ -141,7 +141,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            File a Consumer Court Case Against Your Bank for Harassment
+            How to Sue Your Bank in Consumer Court for Harassment
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">

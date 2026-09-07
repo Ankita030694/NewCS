@@ -144,7 +144,7 @@ export default function FakeLegalNoticeFromAdvocateWhatsappClient() {
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            Fake Legal Notice on WhatsApp? How to Verify &amp; Reply
+            Received a Fake Legal Notice on WhatsApp? What to Do
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
@@ -261,7 +261,7 @@ export default function FakeLegalNoticeFromAdvocateWhatsappClient() {
               <div className="flex items-center gap-2 pb-2 border-b border-slate-200">
                 <Scale className="w-5 h-5 text-[#1886ff]" />
                 <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
-                  1. The WhatsApp Legal Notice Scam: Why Recovery Agents Use Digital Deception
+                  1. WhatsApp Legal Notice Scam: Digital Deception Tactics
                 </h2>
               </div>
 
@@ -658,7 +658,7 @@ export default function FakeLegalNoticeFromAdvocateWhatsappClient() {
               <div className="flex items-center gap-2 pb-2 border-b border-slate-200">
                 <Briefcase className="w-5 h-5 text-[#1886ff]" />
                 <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
-                  9. Specialized Real-World Scenarios: 7-Day Loan Apps &amp; Arbitrations
+                  9. Real-World Scenarios: 7-Day Loan Apps &amp; Arbitrations
                 </h2>
               </div>
 

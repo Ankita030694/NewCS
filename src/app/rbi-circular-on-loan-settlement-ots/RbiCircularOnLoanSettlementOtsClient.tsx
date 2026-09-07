@@ -138,8 +138,8 @@ export default function RbiCircularOnLoanSettlementOtsClient() {
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight leading-tight drop-shadow-sm">
-            Official RBI Circular on Loan <br className="hidden sm:inline" />
-            <span className="text-blue-200">Settlement &amp; OTS (2026 Guide)</span>
+            RBI Guidelines &amp; Circular for <br className="hidden sm:inline" />
+            <span className="text-blue-200">Bank Loan OTS Settlements</span>
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">

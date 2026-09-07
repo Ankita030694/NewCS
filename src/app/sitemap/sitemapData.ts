@@ -42,7 +42,7 @@ export const sitemapLinks: SitemapLink[] = [
     date: "07-09-2026",
   },
   {
-    title: "File a Consumer Court Case Against Your Bank for Harassment",
+    title: "File Consumer Court Case Against Bank for Harassment",
     href: "/consumer-court-against-bank-harassment",
     date: "07-09-2026",
   },

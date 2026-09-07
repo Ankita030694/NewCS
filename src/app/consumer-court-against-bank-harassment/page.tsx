@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import ConsumerCourtAgainstBankHarassmentClient from './ConsumerCourtAgainstBankHarassmentClient';
 
 export const metadata: Metadata = {
-  title: 'File a Consumer Court Case Against Your Bank for Harassment',
+  title: 'File Consumer Court Case Against Bank for Harassment',
   description:
     'Facing unlawful debt collection or unfair practices? Learn how to file a deficiency of service complaint in Consumer Court and win damages with CredSettle.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'wrongful cibil reporting consumer court'
   ],
   openGraph: {
-    title: 'File a Consumer Court Case Against Your Bank for Harassment',
+    title: 'File Consumer Court Case Against Bank for Harassment',
     description:
       'Facing unlawful debt collection or unfair practices? Learn how to file a deficiency of service complaint in Consumer Court and win damages with CredSettle.',
     type: 'article',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'File a Consumer Court Case Against Your Bank for Harassment',
+    title: 'File Consumer Court Case Against Bank for Harassment',
     description:
       'Facing unlawful debt collection or unfair practices? Learn how to file a deficiency of service complaint in Consumer Court and win damages with CredSettle.',
     images: ['https://www.credsettle.com/images/infographics/consumer-court-against-bank-harassment-v2.jpg']
@@ -64,7 +64,7 @@ export default function ConsumerCourtAgainstBankHarassmentPage() {
           '@type': 'WebPage',
           '@id': 'https://www.credsettle.com/consumer-court-against-bank-harassment'
         },
-        headline: 'File a Consumer Court Case Against Your Bank for Harassment',
+        headline: 'File Consumer Court Case Against Bank for Harassment',
         description:
           'Facing unlawful debt collection or unfair practices? Learn how to file a deficiency of service complaint in Consumer Court and win damages with CredSettle.',
         inLanguage: 'en-IN',

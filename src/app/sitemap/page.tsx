@@ -42,7 +42,7 @@ const sitemapLinks = [
     "href": "/legal-notice-to-bank-for-mental-harassment"
   },
   {
-    "title": "File a Consumer Court Case Against Your Bank for Harassment",
+    "title": "File Consumer Court Case Against Bank for Harassment",
     "href": "/consumer-court-against-bank-harassment"
   },
   {

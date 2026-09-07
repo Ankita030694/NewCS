@@ -140,7 +140,7 @@ export default function CanRecoveryAgentsVisitMyOfficeClient() {
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            Can Recovery Agents Visit Your Office? (Stop Them Legally)
+            Can Bank Recovery Agents Visit Your Office or HR?
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
@@ -264,7 +264,7 @@ export default function CanRecoveryAgentsVisitMyOfficeClient() {
                 <span>Banking Mechanics &amp; NPA Physics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics, Non-Performing Assets &amp; Workplace Pressure Dynamics
+                1. Debt Economics, NPA Physics &amp; Workplace Recovery Pressure
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When an unsecured personal loan or credit card defaults past 90 days, the lending institution must classify the asset as a Non-Performing Asset (NPA) under Reserve Bank of India prudential norms. This classification triggers mandatory Tier-1 capital provisioning, which restricts the bank's lending capacity and directly impacts its balance sheet profitability. Because unsecured consumer debts lack physical collateral, mortgages, or hypothecated property, lenders cannot invoke the SARFAESI Act to seize assets or enforce summary recovery.
@@ -413,7 +413,7 @@ export default function CanRecoveryAgentsVisitMyOfficeClient() {
                 <span>Visual Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: Anti-Harassment &amp; Settlement Architecture
+                Visual Defense Blueprint: Anti-Harassment Architecture
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Review this visual blueprint illustrating statutory workplace visiting boundaries, evidence logging protocols, 3-tier grievance escalation pathways, and formal compromise settlement workflows:
@@ -452,7 +452,7 @@ export default function CanRecoveryAgentsVisitMyOfficeClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure (SOP): 6 Stages of Workplace Recovery Defense
+                5. Step-by-Step SOP: Workplace Recovery Defense Strategy
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Follow this comprehensive operating procedure to neutralize workplace collection intimidation, enforce your statutory privacy rights, and achieve an unconditional settlement:
@@ -740,7 +740,7 @@ export default function CanRecoveryAgentsVisitMyOfficeClient() {
                 <span>Real-World Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Workplace Threats, Executive Layoffs &amp; ARC Transfers
+                9. Specialized Scenarios: Layoffs, Threats &amp; ARC Transfers
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Workplace recovery challenges occur in diverse professional settings, each demanding a customized legal defense approach:

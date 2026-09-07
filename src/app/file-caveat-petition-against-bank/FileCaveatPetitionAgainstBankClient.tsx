@@ -559,7 +559,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                 <span>Statutory Legal Grid</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. Statutory Notice Defense &amp; Borrower Legal Rights Under Indian Law
+                7. Statutory Notice Defense &amp; Borrower Legal Rights
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Indian civil and banking jurisprudence provides multiple statutory safeguards that protect borrowers from unilateral lender actions. Review the core statutory defense provisions below:

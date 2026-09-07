@@ -14,6 +14,7 @@
 | **H1 Tag** | **Strictly 1 per page** | **30 – 65 characters** | `H1: Missing`, `H1: Multiple`, `H1: Over 70 Characters` |
 | **H2 Tags (`<h2>`)** | **Max 70 characters** (both raw & decoded) | **45 – 65 characters** | `H2: Over 70 Characters`, `H2: Duplicate`, `H2: Missing` |
 | **Punctuation in Headings** | **STRICTLY ZERO EM-DASHES (`—`)** | Use colons (`:`), hyphens (`-`), `&` | Broken SERP rendering, parsing quirks, stylistic inconsistency |
+| **Title vs H1 Distinction** | **Must NOT be identical** | Distinct SERP Title vs on-page H1 | `Page Titles: Same as H1` |
 | **H2 Duplication** | **100% unique per page** | Distinct descriptive headings | `H2: Duplicate` |
 | **Canonical URL** | **100% self-referencing absolute URL** | `https://www.credsettle.com/[slug]` | `Canonical: Missing`, `Canonical: Relative URL` |
 | **TypeScript / Build** | **0 compilation errors** | `npx tsc --noEmit` must pass | Next.js build failure |
@@ -70,6 +71,7 @@
 - **Quantity:** Strictly **ONE** `<h1>` tag per page (Screaming Frog flags `H1: Missing` or `H1: Multiple`).
 - **Length:** 30 to 65 characters (never exceed 70 characters).
 - **Placement:** Placed at the top of the main hero section.
+- **Differentiation from Page Title:** The `<h1>` MUST NOT be 100% identical to `metadata.title` (Screaming Frog flags `Page Titles: Same as H1`). Tailor `<title>` for SERP CTR (with secondary hooks/brackets) and `<h1>` for on-page conversion and clear user intent.
 
 ### H2 Tag Rules (`<h2>`) — High Priority Audit Focus
 1. **Length Limit:** Every single `<h2>` MUST BE **≤ 70 characters**.

@@ -135,7 +135,7 @@ export default function JobLossInsurancePersonalLoanClient() {
               <span>Credit Shield &amp; Loan Insurance Advisory</span>
             </div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight mb-4">
-              Job Loss? How to Use Credit Shield Insurance for Your Loan
+              How to Claim Credit Shield Loan Insurance on Job Loss
             </h1>
             <p className="text-base md:text-lg text-blue-100 font-normal leading-relaxed">
               Discover whether your personal loan includes hidden credit shield protection. Learn how to invoke involuntary unemployment clauses, secure 3-month EMI payouts, and halt aggressive debt recovery legally.
