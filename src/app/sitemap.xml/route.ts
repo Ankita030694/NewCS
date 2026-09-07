@@ -325,7 +325,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 250; // Updated for new loan management services page & comparison page & what is line of credit & loan partial payment.
+  const mainStaticPages = 260; // Updated for 10 new legal defense & court summons pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -381,6 +381,76 @@ async function generateSitemap(): Promise<string> {
 
   // ========================================================================
   // SECTION 1: MAIN STATIC PAGES
+  urls.push({
+    loc: `${baseUrl}/summons-from-court-for-personal-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/bailable-warrant-for-loan-default`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/non-bailable-warrant-cheque-bounce-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-bank-freeze-my-savings-account-for-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/garnishee-order-bank-account-freeze-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/drt-notice-for-personal-loan-default`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/civil-suit-for-recovery-of-money-by-bank`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/ex-parte-decree-bank-loan-case`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/file-caveat-petition-against-bank`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/lok-adalat-vs-drt-for-loan-settlement`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   urls.push({
     loc: `${baseUrl}/how-to-convince-bank-for-one-time-settlement`,
     priority: 0.95,

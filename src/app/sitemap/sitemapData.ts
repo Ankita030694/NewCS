@@ -7,6 +7,56 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Court Summons for Personal Loan: Legal Steps & Defense",
+    href: "/summons-from-court-for-personal-loan",
+    date: "07-09-2026",
+  },
+  {
+    title: "Bailable Warrant for Loan Default: How to Recall & Bail",
+    href: "/bailable-warrant-for-loan-default",
+    date: "07-09-2026",
+  },
+  {
+    title: "Non-Bailable Warrant in Cheque Bounce: How to Cancel NBW",
+    href: "/non-bailable-warrant-cheque-bounce-loan",
+    date: "07-09-2026",
+  },
+  {
+    title: "Can a Bank Freeze Your Savings Account for Loan Default?",
+    href: "/can-bank-freeze-my-savings-account-for-loan",
+    date: "07-09-2026",
+  },
+  {
+    title: "Garnishee Order for Loan Default: Stop Salary Attachment",
+    href: "/garnishee-order-bank-account-freeze-loan",
+    date: "07-09-2026",
+  },
+  {
+    title: "Received a DRT Notice for Loan Default? How to File Reply",
+    href: "/drt-notice-for-personal-loan-default",
+    date: "07-09-2026",
+  },
+  {
+    title: "Civil Recovery Suit by Bank (Order 37): Legal Defense Guide",
+    href: "/civil-suit-for-recovery-of-money-by-bank",
+    date: "07-09-2026",
+  },
+  {
+    title: "Ex-Parte Decree in Bank Loan Case: How to Set it Aside",
+    href: "/ex-parte-decree-bank-loan-case",
+    date: "07-09-2026",
+  },
+  {
+    title: "File a Caveat Petition Against Bank: Section 148A Defense",
+    href: "/file-caveat-petition-against-bank",
+    date: "07-09-2026",
+  },
+  {
+    title: "Lok Adalat vs DRT for Loan Settlement: Which Is Better?",
+    href: "/lok-adalat-vs-drt-for-loan-settlement",
+    date: "07-09-2026",
+  },
+  {
     title: "How to Convince Bank for One Time Settlement: Complete OTS Negotiation Guide",
     href: "/how-to-convince-bank-for-one-time-settlement",
     date: "03-09-2026",
