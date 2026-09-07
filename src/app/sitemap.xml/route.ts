@@ -325,7 +325,7 @@ async function countSitemapPages(): Promise<{
   }
 
   // Calculate counts
-  const mainStaticPages = 270; // Updated for 10 new harassment & banking rights pages.
+  const mainStaticPages = 280; // Updated for 10 new profession & demographic specific cluster pages.
   const simpleServicePages = simpleServices.length; // 2
   const loanSettlementMainPages = loanSettlementServices.length; // 6
 
@@ -381,6 +381,76 @@ async function generateSitemap(): Promise<string> {
 
   // ========================================================================
   // SECTION 1: MAIN STATIC PAGES
+  urls.push({
+    loc: `${baseUrl}/loan-default-by-government-employee`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/background-verification-for-it-job-loan-default`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/can-bank-contact-my-employer-for-loan-recovery`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/credit-card-default-by-housewife`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/pension-attachment-for-loan-recovery`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/defense-personnel-loan-default-action`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/nri-returning-to-india-with-unpaid-debt`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/student-loan-default-parents-liability`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/company-director-liability-for-business-loan`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
+  urls.push({
+    loc: `${baseUrl}/agricultural-loan-default-sarfaesi-act`,
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: today
+  });
+
   urls.push({
     loc: `${baseUrl}/fake-legal-notice-from-advocate-whatsapp`,
     priority: 0.95,

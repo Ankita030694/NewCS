@@ -7,6 +7,56 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Loan Default by Govt Employee: Service Rules & Defense",
+    href: "/loan-default-by-government-employee",
+    date: "07-09-2026",
+  },
+  {
+    title: "Does Loan Default Ruin IT MNC Background Verification?",
+    href: "/background-verification-for-it-job-loan-default",
+    date: "07-09-2026",
+  },
+  {
+    title: "Can Bank Contact Your Employer for Loan Recovery? Rules",
+    href: "/can-bank-contact-my-employer-for-loan-recovery",
+    date: "07-09-2026",
+  },
+  {
+    title: "Credit Card Default by a Housewife: Is Husband Liable?",
+    href: "/credit-card-default-by-housewife",
+    date: "07-09-2026",
+  },
+  {
+    title: "Can Bank Attach Your Pension for Loan Recovery in India?",
+    href: "/pension-attachment-for-loan-recovery",
+    date: "07-09-2026",
+  },
+  {
+    title: "Defense Personnel Loan Default: Military Rules & Defense",
+    href: "/defense-personnel-loan-default-action",
+    date: "07-09-2026",
+  },
+  {
+    title: "NRI Returning to India with Unpaid Debt: Arrest & LOC",
+    href: "/nri-returning-to-india-with-unpaid-debt",
+    date: "07-09-2026",
+  },
+  {
+    title: "Education Loan Default: Are Parents Liable to Pay Debt?",
+    href: "/student-loan-default-parents-liability",
+    date: "07-09-2026",
+  },
+  {
+    title: "Company Director Liability for Business Loan Defaults",
+    href: "/company-director-liability-for-business-loan",
+    date: "07-09-2026",
+  },
+  {
+    title: "Agricultural Loan Default: Can Banks Auction Farm Land?",
+    href: "/agricultural-loan-default-sarfaesi-act",
+    date: "07-09-2026",
+  },
+  {
     title: "Fake Legal Notice on WhatsApp? How to Verify & Reply",
     href: "/fake-legal-notice-from-advocate-whatsapp",
     date: "07-09-2026",
