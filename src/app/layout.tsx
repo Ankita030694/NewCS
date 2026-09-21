@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   publisher: "CredSettle",
   metadataBase: new URL("https://www.credsettle.com"),
   alternates: {
-    canonical: "https://www.credsettle.com",
+    canonical: "https://www.credsettle.com/",
   },
   icons: {
     icon: [

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Home Loan Eligibility After Loan Settlement',
-  description: 'Can you get a home loan after a loan settlement? Learn how to improve your CIBIL score, the credit cleanup strategy.',
+  description: 'Can you get a home loan after a loan settlement? Learn how to improve your CIBIL score and restore your creditworthiness in India.',
   keywords: 'home loan eligibility after settlement, CIBIL score after loan settlement, get home loan with settled status, credit cleanup strategy, SBI home loan after settlement',
   alternates: {
     canonical: 'https://www.credsettle.com/home-loan-eligibility-after-settlement',

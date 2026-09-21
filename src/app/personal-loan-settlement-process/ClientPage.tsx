@@ -11,11 +11,18 @@ export default function ClientPage() {
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/pattern-bg.svg')] bg-repeat opacity-20"></div>
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Personal Loan Settlement Guide</h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8">Learn the legal steps to protect yourself and negotiate a debt settlement.</p>
+          <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
+            End-to-End Legal Process
+          </span>
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+            Personal Loan Settlement Process in India (Step-by-Step)
+          </h1>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
+            A comprehensive overview of the complete loan settlement lifecycle from default notice to receiving your official No Dues Certificate.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
-              Get Free Consultation
+              Begin Settlement Process
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
               Call +91 8800226635
@@ -25,32 +32,90 @@ export default function ClientPage() {
       </section>
 
       <section className="py-16 px-4 md:px-8 bg-gray-50">
-        <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#0C2756] mb-6">Expert Legal Solutions for Your Debt</h2>
-          <div className="prose prose-lg max-w-none text-gray-700">
-            <p className="mb-6">At CredSettle, we understand that financial hardship can happen to anyone. Job loss, medical emergencies, or business downturns can make it impossible to keep up with high-interest personal loans.</p>
-            
-            <h3 className="text-xl font-semibold text-[#0C2756] mt-8 mb-4">Why Choose CredSettle?</h3>
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                <span><strong>100% RBI Compliant:</strong> Our legal team strictly follows Reserve Bank of India guidelines.</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                <span><strong>Stop Harassment:</strong> We shield you from aggressive recovery agents and legal notices.</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                <span><strong>Maximum Waivers:</strong> Our experts negotiate the lowest possible settlement amount on your behalf.</span>
-              </li>
-            </ul>
+        <div className="max-w-4xl mx-auto space-y-10">
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#0C2756] mb-6">
+              The 5 Crucial Stages of Personal Loan Settlement
+            </h2>
+            <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
+              <p>
+                Settling an unsecured personal loan follows a well-defined statutory trajectory governed by Reserve Bank of India guidelines. Understanding each stage empowers borrowers to avoid legal pitfalls and achieve maximum financial relief.
+              </p>
+
+              <div className="space-y-6 my-6">
+                <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 1: Delinquency to NPA Classification (0 to 90 Days)</h3>
+                  <p className="text-sm text-gray-600">
+                    When consecutive installments are missed, the account enters Special Mention Account (SMA) categories. At 90 days of continuous non-payment, the loan is formally classified as a Non-Performing Asset (NPA).
+                  </p>
+                </div>
+
+                <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 2: Hardship Documentation & Grievance Representation</h3>
+                  <p className="text-sm text-gray-600">
+                    The borrower submits a formal written petition detailing valid financial catastrophe (medical incapacity, job termination, business insolvency) directly to the bank&apos;s Circle Recovery Cell.
+                  </p>
+                </div>
+
+                <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 3: Bilateral Committee Negotiation</h3>
+                  <p className="text-sm text-gray-600">
+                    Legal representatives negotiate with the bank&apos;s internal compromise settlement committee. Discussion centers on principal haircut percentage, waiver of penal interest, and payment timeframe.
+                  </p>
+                </div>
+
+                <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 4: Issuance of Formal Settlement Sanction Letter</h3>
+                  <p className="text-sm text-gray-600">
+                    The bank generates a legally binding OTS letter on letterhead specifying: the agreed settlement sum, installment schedule (if staggered), and commitment to discharge all claims.
+                  </p>
+                </div>
+
+                <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 5: Payment & No Dues Certificate (NDC) Issuance</h3>
+                  <p className="text-sm text-gray-600">
+                    Upon deposit of the settled sum directly into the loan account, the bank issues a final NDC within 30 days and notifies credit bureaus (CIBIL/Experian) to reflect the status as &apos;Settled&apos;.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-r-xl mt-8">
+              <h4 className="font-bold text-emerald-950 mb-2">Notice Verification Guarantee</h4>
+              <p className="text-sm text-emerald-800 leading-relaxed">
+                Always ensure payment is made directly to the bank&apos;s designated account number through official banking channels (NEFT/RTGS/Cheque). Never hand cash to collection agents or transfer funds into third-party accounts.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 md:p-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#0C2756] mb-8 border-b pb-4">
+              Frequently Asked Questions About the Settlement Process
+            </h2>
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  How long does the entire loan settlement process take?
+                </h3>
+                <p className="text-gray-600 leading-relaxed text-sm">
+                  Typically between 30 and 60 days from formal representation to final sanction letter issuance, depending on the speed of the bank&apos;s credit committee approvals.
+                </p>
+              </div>
+              <div className="border-t pt-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  Can a settlement be paid in multiple installments?
+                </h3>
+                <p className="text-gray-600 leading-relaxed text-sm">
+                  Yes, banks frequently approve structured settlements split over 2 to 4 monthly installments for borrowers unable to raise a single lump sum.
+                </p>
+              </div>
+            </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Take the First Step to Financial Freedom</h4>
-              <p className="mb-4">Don't let debt control your life. Speak to our legal advisors today to understand your options.</p>
-              <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2 px-6 rounded-lg hover:bg-blue-900 transition-colors">
-                Start Your Settlement
+              <h4 className="font-semibold text-[#0C2756] mb-2">Need Professional Assistance Through the Process?</h4>
+              <p className="mb-4 text-sm text-gray-600">CredSettle manages every stage of your settlement process with complete legal transparency and RBI compliance.</p>
+              <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
+                Get Expert Process Guidance
               </Link>
             </div>
           </div>

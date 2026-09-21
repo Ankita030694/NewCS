@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Which Companies Offer Professional Debt Settlement Services',
-  description: 'Looking for professional debt settlement services for personal loans in India? Explore top companies like CredSettle.',
+  description: 'Looking for professional debt settlement services for personal loans in India? Explore top companies and get legal debt relief with CredSettle.',
   keywords: [
     'professional debt settlement services',
     'debt settlement for personal loans',

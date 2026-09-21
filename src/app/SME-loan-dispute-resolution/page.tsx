@@ -5,7 +5,7 @@ import SmeLoanDisputeResolutionClient from './SmeLoanDisputeResolutionClient';
 
 export const metadata: Metadata = {
     title: 'Best Lawyer for SME Loan Dispute Resolution in India',
-    description: 'Expert legal defense for SME and MSME loan disputes. We help businesses navigate delayed payments, MSEFC arbitration.',
+    description: 'Expert legal defense for SME and MSME loan disputes. We help businesses navigate delayed payments, MSEFC arbitration, and loan restructuring.',
     keywords: 'SME loan dispute resolution, MSME loan legal help India, MSEFC arbitration for delayed payments, RBI MSME revival framework, professional SME debt defense',
     alternates: {
         canonical: 'https://www.credsettle.com/SME-loan-dispute-resolution'

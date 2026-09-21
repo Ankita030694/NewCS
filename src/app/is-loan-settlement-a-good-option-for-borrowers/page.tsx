@@ -7,7 +7,7 @@ import IsLoanSettlementGoodOptionBorrowersClient from './IsLoanSettlementGoodOpt
 
 export const metadata: Metadata = {
     title: "Is Loan Settlement a Good Option for Borrowers?",
-    description: "Expert analysis on whether loan settlement is a good option for borrowers in India. Explore pros, cons, CIBIL impact.",
+    description: "Expert analysis on whether loan settlement is a good option for borrowers in India. Explore pros, cons, CIBIL impact, and OTS alternatives.",
     keywords: [
         "is loan settlement a good option for borrowers",
         "loan settlement pros and cons India",

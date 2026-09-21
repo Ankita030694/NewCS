@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Can I Waive Off 100 Percent of My Loan?',
-  description: 'Wondering if you can waive off 100% of your loan? Learn about legitimate loan settlement, government waiver schemes.',
+  description: 'Wondering if you can waive off 100% of your loan? Learn about legitimate loan settlement, RBI rules, and debt waiver schemes in India.',
   keywords: [
     'can i waive off 100 percent of my loan',
     '100 percent loan waiver india',

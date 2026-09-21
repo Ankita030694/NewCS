@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Cheque Bounce Lawyer India: Sect 138 NI Act Consulation',
-  description: 'Expert Cheque Bounce Lawyers for Section 138 NI Act cases. Legal defense, notice drafting, and settlement services.',
+  description: 'Expert Cheque Bounce Lawyers for Section 138 NI Act cases in India. Legal defense, notice drafting, and dispute settlement services.',
   alternates: {
     canonical: 'https://www.credsettle.com/services/cheque-bounce-lawyer',
   },

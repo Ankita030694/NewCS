@@ -7,7 +7,7 @@ import NoticeDefaultMortgageClient from './NoticeDefaultMortgageClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Loan & Mortgage Default Notices (2025)",
-    description: "Received a Section 13(2) SARFAESI notice or a loan default notice? Get expert legal help for mortgage default notices.",
+    description: "Received a Section 13(2) SARFAESI notice or a loan default notice? Get expert legal help and reply to bank recovery notices effectively.",
     keywords: [
         "best lawyer for notice for default on mortgage",
         "loan repayment default notice lawyer",

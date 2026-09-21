@@ -90,19 +90,10 @@ export default function LawyerByCity() {
                 <Link
                   key={index}
                   href={`/loan-settlement-by-city/${loc.slug}`}
-                  className="group flex items-center p-4 border border-gray-100 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all duration-200"
+                  className="group flex items-center justify-between p-3 border border-gray-100 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all duration-200 text-sm font-medium text-gray-700 hover:text-blue-700"
                 >
-                  <span className="text-sm font-medium text-gray-700 group-hover:text-blue-700 truncate">
-                    Settlement in {loc.name}
-                  </span>
-                  <svg 
-                    className="w-4 h-4 ml-auto text-gray-300 group-hover:text-blue-500 transition-colors flex-shrink-0" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+                  <span className="truncate">{loc.name}</span>
+                  <span className="text-gray-300 group-hover:text-blue-500 transition-colors ml-1.5 flex-shrink-0 font-bold">&rarr;</span>
                 </Link>
               );
             })}

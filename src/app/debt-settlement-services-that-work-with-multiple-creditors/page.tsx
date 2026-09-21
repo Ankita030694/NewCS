@@ -9,7 +9,7 @@ const canonicalUrl = 'https://www.credsettle.com/debt-settlement-services-that-w
 
 export const metadata: Metadata = {
     title: "Debt Settlement for Multiple Creditors | 2025 Guide",
-    description: "Learn how to manage and settle debts across multiple banks and NBFCs. Explore multi-creditor debt relief strategies.",
+    description: "Learn how to manage and settle debts across multiple banks and NBFCs. Explore multi-creditor debt relief strategies and OTS negotiations.",
     keywords: [
         "debt settlement services that work with multiple creditors",
         "settling multiple bank loans",

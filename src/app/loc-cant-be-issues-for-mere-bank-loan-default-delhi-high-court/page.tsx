@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'LOC Cannot Be Issued for Mere Bank Loan Default',
-  description: 'Delhi High Court rules that Look Out Circulars (LOC) cannot be issued against citizens for mere bank loan defaults.',
+  description: 'Delhi High Court rules that Look Out Circulars (LOC) cannot be issued against citizens for mere bank loan defaults. Know your travel rights.',
   keywords: [
     'loc delhi high court ruling',
     'look out circular bank loan default',

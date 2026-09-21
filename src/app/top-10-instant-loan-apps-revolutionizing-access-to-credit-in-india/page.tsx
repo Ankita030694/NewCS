@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Top 10 Instant Loan Apps in India 2026',
-  description: 'Explore the top 10 instant loan apps in India that are revolutionizing credit access. Compare features, interest rates.',
+  description: 'Explore the top 10 instant loan apps in India that are revolutionizing credit access. Compare features, interest rates, and loan terms.',
   keywords: [
     'top 10 instant loan apps in india',
     'instant loan apps revolutionizing credit',

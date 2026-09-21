@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Defaulting on a ₹15 Lakh personal loan? Discover how much discount you can get, the negotiation timeline, and the legal steps required to settle it.",
   alternates: {
-    canonical: "https://www.credsettle.com/settle-15-lakh-personal-loan/",
+    canonical: "https://www.credsettle.com/settle-15-lakh-personal-loan",
   },
   openGraph: {
     title: "How to Settle a ₹15 Lakh Personal Loan in India",
     description:
       "Defaulting on a ₹15 Lakh personal loan? Discover how much discount you can get, the negotiation timeline, and the legal steps required to settle it.",
-    url: "https://www.credsettle.com/settle-15-lakh-personal-loan/",
+    url: "https://www.credsettle.com/settle-15-lakh-personal-loan",
     type: "article",
     siteName: "CredSettle",
   },

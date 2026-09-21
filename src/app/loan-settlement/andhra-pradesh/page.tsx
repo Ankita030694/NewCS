@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement in Andhra Pradesh: Legal Guide',
-  description: 'Struggling with debt in Visakhapatnam, Vijayawada or anywhere in Andhra Pradesh? Learn how to legally settle loans.',
+  description: 'Struggling with debt in Visakhapatnam, Vijayawada or anywhere in Andhra Pradesh? Learn how to legally settle loans with RBI guidelines.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/andhra-pradesh',
   },

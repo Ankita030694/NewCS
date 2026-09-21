@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Debt Management Services in India',
-  description: 'Struggling with debt? Get professional debt management services in India. We help with debt settlement, consolidation.',
+  description: 'Struggling with debt? Get professional debt management services in India. We help with debt settlement, consolidation, and legal harassment protection.',
   keywords: [
     'debt management services india',
     'debt settlement companies',

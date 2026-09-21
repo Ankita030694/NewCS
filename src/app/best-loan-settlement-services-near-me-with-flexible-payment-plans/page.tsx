@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Best Loan Settlement Services Near Me with Flexible Payment',
-  description: 'Looking for the best loan settlement services near you with flexible payment plans? CredSettle, Ama Legal Solutions.',
+  description: 'Looking for the best loan settlement services near you with flexible payment plans? Get trusted legal debt relief across India with CredSettle.',
   keywords: [
     'best loan settlement services near me',
     'flexible payment plans for loan settlement',

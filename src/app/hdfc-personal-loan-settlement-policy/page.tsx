@@ -7,7 +7,7 @@ import HdfcPersonalLoanSettlementPolicyClient from './HdfcPersonalLoanSettlement
 export const metadata: Metadata = {
   title: 'HDFC Personal Loan Settlement Policy',
   description:
-    'Understand HDFC Bank personal loan settlement policy. Learn how to negotiate 40%-55% waivers, resolve legal notices.',
+    'Understand HDFC Bank personal loan settlement policy. Learn how to negotiate 40%-55% waivers and resolve recovery notices legally.',
   keywords: [
     'hdfc personal loan settlement policy',
     'hdfc bank loan settlement process',

@@ -132,6 +132,80 @@ export default function LoanSettlementPage() {
         </div>
       </section>
 
+      {/* Guide Section */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12 mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+            Understanding Bank Loan Settlement in India
+          </h2>
+          <div className="prose max-w-none text-gray-700 leading-relaxed space-y-4">
+            <p>
+              When unforeseen financial hardships—such as job loss, critical medical emergencies, or severe business downturns—prevent a borrower from servicing their monthly EMIs, an official <strong>One-Time Settlement (OTS)</strong> provides a legal mechanism to close outstanding unsecured debts. Under Reserve Bank of India (RBI) prudential guidelines, commercial banks and Non-Banking Financial Companies (NBFCs) possess structured policies to negotiate reduced lump-sum or staggered settlements.
+            </p>
+            <p>
+              The settlement parameters differ significantly based on the lender category. <strong>Public Sector Banks (such as SBI, PNB, and Bank of Baroda)</strong> primarily operate under strict board-approved compromise settlement schemes or statutory Lok Adalats, often requiring concrete proof of insolvency or genuine distress. Conversely, <strong>Private Banks (such as HDFC, ICICI, and Axis Bank)</strong> and digital NBFCs frequently empower internal delinquent asset divisions to approve customized waiver percentages on accrued interest and penal charges, typically concluding negotiations within 30 to 60 days.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">
+            Critical Steps in Securing a Bank Loan Settlement
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
+            <div className="p-5 bg-blue-50/60 rounded-xl border border-blue-100">
+              <h4 className="font-semibold text-blue-950 mb-2">1. Default & Hardship Proof</h4>
+              <p className="text-sm text-gray-600">
+                Lenders consider settlement once an account slips into Non-Performing Asset (NPA) status (90+ days past due). Documenting income disruption, medical records, or business losses is vital.
+              </p>
+            </div>
+            <div className="p-5 bg-blue-50/60 rounded-xl border border-blue-100">
+              <h4 className="font-semibold text-blue-950 mb-2">2. Bilateral Negotiation</h4>
+              <p className="text-sm text-gray-600">
+                Legal representatives negotiate directly with bank recovery managers, bypassing unauthorized third-party recovery agencies to seek 40% to 60% principal waivers.
+              </p>
+            </div>
+            <div className="p-5 bg-blue-50/60 rounded-xl border border-blue-100">
+              <h4 className="font-semibold text-blue-950 mb-2">3. Sanction Letter & NDC</h4>
+              <p className="text-sm text-gray-600">
+                Never pay without an official settlement letter issued on the bank&apos;s formal letterhead. Upon paying the agreed sum, always demand a final No Dues Certificate (NDC).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                Can banks initiate criminal proceedings for personal loan default?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                No. In India, defaulting on an unsecured personal loan or credit card is fundamentally a civil dispute, not a criminal offence. Banks cannot file police complaints for non-payment unless there is substantiated evidence of fraud, forgery, or willful absconding with hypothecated assets.
+              </p>
+            </div>
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                How much waiver can I reasonably expect from my lender?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Waiver percentages vary widely depending on the age of default, nature of collateral (unsecured vs secured), and the borrower&apos;s verifiable financial condition. For unsecured personal loans and credit cards in deep default (over 180 days), settlements commonly settle between 40% and 60% of the total outstanding balance.
+              </p>
+            </div>
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                What is the impact of an OTS on my CIBIL credit score?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                When a loan is settled for less than the full contracted amount, the lending institution reports the account status to credit bureaus as &quot;Settled&quot; rather than &quot;Closed&quot;. This leads to a temporary credit score drop. However, borrowers can later upgrade the status to &quot;Closed&quot; by paying the differential waiver amount once their finances stabilize.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );

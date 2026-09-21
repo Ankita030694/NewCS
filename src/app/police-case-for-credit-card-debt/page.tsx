@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
     title: 'Police Case for Credit Card Debt',
-    description: 'Learn the truth about police involvement in credit card debt. Discover your rights, how to handle fake police threats.',
+    description: 'Learn the truth about police involvement in credit card debt. Discover your legal rights and how to handle fake police threats and notices.',
     alternates: {
         canonical: 'https://www.credsettle.com/police-case-for-credit-card-debt',
     },

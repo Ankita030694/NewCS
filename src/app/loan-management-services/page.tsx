@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Top Loan Management Services in India',
-  description: 'Looking for professional loan management services in India? CredSettle offers expert debt consolidation, refinancing.',
+  description: 'Looking for professional loan management services in India? CredSettle offers expert debt consolidation, refinancing, and loan settlement.',
   keywords: [
     'loan management services',
     'debt management india',

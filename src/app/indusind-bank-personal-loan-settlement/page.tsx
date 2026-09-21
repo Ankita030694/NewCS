@@ -7,7 +7,7 @@ import IndusindBankPersonalLoanSettlementClient from './IndusindBankPersonalLoan
 export const metadata: Metadata = {
   title: 'IndusInd Bank Personal Loan Settlement',
   description:
-    'Navigate IndusInd Bank personal loan and credit card settlement. Bypass recovery agencies, reply to advocate notices.',
+    'Navigate IndusInd Bank personal loan and credit card settlement. Bypass recovery agencies and resolve legal notices with expert advice.',
   keywords: [
     'indusind bank personal loan settlement',
     'indusind bank loan settlement process',
