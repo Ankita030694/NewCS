@@ -6,35 +6,23 @@ export async function POST(request: NextRequest) {
     // Parse the request body
     const body = await request.json();
 
-    // Validate required fields
-    const requiredFields = [
-      'name',
-      'number',
-      'email',
-      'city',
-      'employmentStatus',
-      'monthlyIncome',
-      'harassment',
-      'creditCardDues',
-      'personalLoanDues',
-      'canPay',
-    ];
+    // Validate required fields (name, phone/number, email, state/city)
+    const name = typeof body.name === 'string' ? body.name.trim() : '';
+    const number = typeof (body.number || body.phone) === 'string' ? (body.number || body.phone).trim() : '';
+    const email = typeof body.email === 'string' ? body.email.trim() : '';
+    const stateOrCity = typeof (body.state || body.city) === 'string' ? (body.state || body.city).trim() : '';
 
-    // Check if all required fields are present
-    for (const field of requiredFields) {
-      const value = body[field];
-      const isMissing =
-        value === undefined ||
-        value === null ||
-        (typeof value === 'string' && value.trim() === '') ||
-        (typeof value === 'number' && Number.isNaN(value));
-
-      if (isMissing) {
-        return NextResponse.json(
-          { error: `Missing required field: ${field}` },
-          { status: 400 }
-        );
-      }
+    if (!name) {
+      return NextResponse.json({ error: 'Missing required field: name' }, { status: 400 });
+    }
+    if (!number) {
+      return NextResponse.json({ error: 'Missing required field: phone number' }, { status: 400 });
+    }
+    if (!email) {
+      return NextResponse.json({ error: 'Missing required field: email' }, { status: 400 });
+    }
+    if (!stateOrCity) {
+      return NextResponse.json({ error: 'Missing required field: state' }, { status: 400 });
     }
 
     // Verify reCAPTCHA token
@@ -83,7 +71,7 @@ export async function POST(request: NextRequest) {
     }).replace(/\//g, '-');
 
     const querySnapshot = await adminDb.collection('Form')
-      .where('number', '==', body.number)
+      .where('number', '==', number)
       .where('date', '==', today)
       .limit(1)
       .get();
@@ -98,21 +86,25 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Prepare the data structure matching the provided format
+    const messageVal = typeof (body.message || body.queries) === 'string' ? (body.message || body.queries).trim() : '';
+
+    // Prepare the data structure matching the provided format, saving unused fields as empty
     const formData = {
-      canPay: body.canPay,
-      city: body.city,
+      canPay: body.canPay || '',
+      city: stateOrCity,
+      state: stateOrCity,
       created: body.created || Date.now(),
-      creditCardDues: body.creditCardDues,
+      creditCardDues: body.creditCardDues || '',
       date: body.date || today,
-      email: body.email,
-      employmentStatus: body.employmentStatus,
-      harassment: body.harassment,
-      monthlyIncome: body.monthlyIncome,
-      name: body.name,
-      number: body.number,
-      personalLoanDues: body.personalLoanDues,
-      queries: body.queries || '',
+      email: email,
+      employmentStatus: body.employmentStatus || '',
+      harassment: body.harassment || '',
+      monthlyIncome: body.monthlyIncome || '',
+      name: name,
+      number: number,
+      personalLoanDues: body.personalLoanDues || '',
+      queries: messageVal,
+      message: messageVal,
       submissionUrl: body.submissionUrl || '',
       utmParams: body.utmParams || {},
     };

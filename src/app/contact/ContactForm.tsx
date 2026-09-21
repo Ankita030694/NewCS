@@ -15,14 +15,8 @@ export default function ContactForm() {
     name: '',
     number: '',
     email: '',
-    city: '',
-    employmentStatus: '',
-    monthlyIncome: '',
-    harassment: '',
-    creditCardDues: '',
-    personalLoanDues: '',
-    canPay: '',
-    queries: ''
+    state: '',
+    message: ''
   });
 
   const [alreadySubmittedToday, setAlreadySubmittedToday] = useState(false);
@@ -88,15 +82,6 @@ export default function ContactForm() {
     }
   };
 
-  const getDebtRange = (amount: number) => {
-    if (amount >= 1000000) return "10,00,000 or above";
-    if (amount >= 500000) return "5,00,000 - 10,00,000";
-    if (amount >= 400000) return "4,00,000 - 5,00,000";
-    if (amount >= 300000) return "3,00,000 - 4,00,000";
-    if (amount >= 200000) return "2,00,000 - 3,00,000";
-    return "1,00,000 - 2,00,000";
-  };
-
   const validateForm = () => {
     const newErrors: Record<string, string> = {};
 
@@ -123,32 +108,8 @@ export default function ContactForm() {
       }
     }
 
-    if (!formData.city) {
-      newErrors.city = 'City is required';
-    }
-
-    if (!formData.employmentStatus) {
-      newErrors.employmentStatus = 'Employment status is required';
-    }
-
-    if (!formData.monthlyIncome) {
-      newErrors.monthlyIncome = 'Monthly income is required';
-    }
-
-    if (!formData.harassment) {
-      newErrors.harassment = 'Harassment status is required';
-    }
-
-    if (!formData.creditCardDues) {
-      newErrors.creditCardDues = 'Credit card dues are required';
-    }
-
-    if (!formData.personalLoanDues) {
-      newErrors.personalLoanDues = 'Personal loan dues are required';
-    }
-
-    if (!formData.canPay) {
-      newErrors.canPay = 'This field is required';
+    if (!formData.state) {
+      newErrors.state = 'State is required';
     }
 
     setErrors(newErrors);
@@ -183,7 +144,21 @@ export default function ContactForm() {
     }
 
     const submitData = {
-      ...formData,
+      name: formData.name,
+      number: formData.number,
+      phone: formData.number,
+      email: formData.email,
+      state: formData.state,
+      city: formData.state,
+      message: formData.message,
+      queries: formData.message,
+      // Save other fields as empty in DB
+      employmentStatus: '',
+      monthlyIncome: '',
+      harassment: '',
+      creditCardDues: '',
+      personalLoanDues: '',
+      canPay: '',
       created: Date.now(),
       date: formattedDate,
       captchaToken,
@@ -345,7 +320,7 @@ export default function ContactForm() {
             onChange={handleInputChange}
             className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
           >
-            <option value="">Select City</option>
+            <option value="">Select State</option>
             {[
               'Andaman and Nicobar Islands',
               'Andhra Pradesh',
@@ -381,191 +356,29 @@ export default function ContactForm() {
               'Uttar Pradesh',
               'Uttarakhand',
               'West Bengal',
-              'Mumbai',
-              'Pune',
-              'Bangalore',
-              'Chennai',
-              'Hyderabad',
               'Other',
-            ].map((city) => (
-              <option key={city} value={city}>
-                {city}
+            ].map((state) => (
+              <option key={state} value={state}>
+                {state}
               </option>
             ))}
           </select>
-          {errors.city && (
-            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.city}</p>
+          {errors.state && (
+            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.state}</p>
           )}
         </div>
         <div>
-          <label htmlFor="employmentStatus" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            <span style={{ color: 'red' }}>*</span> Employment Status
-          </label>
-          <select
-            id="employmentStatus"
-            name="employmentStatus"
-            value={formData.employmentStatus}
-            onChange={handleInputChange}
-            className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
-          >
-            <option value="">Select</option>
-            {[
-              'Not employed',
-              'Working as salaried employee',
-              'Self employed',
-              'Business with more than 10 employees',
-            ].map((status) => (
-              <option key={status} value={status}>
-                {status}
-              </option>
-            ))}
-          </select>
-          {errors.employmentStatus && (
-            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.employmentStatus}</p>
-          )}
-        </div>
-        <div>
-          <label htmlFor="monthlyIncome" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            <span style={{ color: 'red' }}>*</span> Monthly Income
-          </label>
-          <select
-            id="monthlyIncome"
-            name="monthlyIncome"
-            value={formData.monthlyIncome}
-            onChange={handleInputChange}
-            className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
-          >
-            <option value="">Select</option>
-            {[
-              '₹10,000 - ₹50,000',
-              '₹50,000 - ₹1,00,000',
-              '₹1,00,000 - ₹3,00,000',
-              '₹3,00,000 - ₹5,00,000',
-              '₹5,00,000 or above',
-            ].map((status) => (
-              <option key={status} value={status}>
-                {status}
-              </option>
-            ))}
-          </select>
-          {errors.monthlyIncome && (
-            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.monthlyIncome}</p>
-          )}
-        </div>
-        <div>
-          <label htmlFor="harassment" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            <span style={{ color: 'red' }}>*</span> Facing Harassment?
-          </label>
-          <select
-            id="harassment"
-            name="harassment"
-            value={formData.harassment}
-            onChange={handleInputChange}
-            className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
-          >
-            <option value="">Select</option>
-            {['Yes', 'No'].map((harassment) => (
-              <option key={harassment} value={harassment}>
-                {harassment}
-              </option>
-            ))}
-          </select>
-          {errors.harassment && (
-            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.harassment}</p>
-          )}
-        </div>
-        <div>
-          <label htmlFor="creditCardDues" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            <span style={{ color: 'red' }}>*</span> Total Credit Card Dues?
-          </label>
-          <select
-            id="creditCardDues"
-            name="creditCardDues"
-            value={formData.creditCardDues}
-            onChange={handleInputChange}
-            className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
-          >
-            <option value="">Select</option>
-            {[
-              '₹1,00,000 - ₹2,00,000',
-              '₹2,00,000 - ₹3,00,000',
-              '₹3,00,000 - ₹4,00,000',
-              '₹4,00,000 - ₹5,00,000',
-              '₹5,00,000 - ₹10,00,000',
-              '₹10,00,000 or above',
-            ].map((status) => (
-              <option key={status} value={status}>
-                {status}
-              </option>
-            ))}
-          </select>
-          {errors.creditCardDues && (
-            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.creditCardDues}</p>
-          )}
-        </div>
-        <div>
-          <label htmlFor="personalLoanDues" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            <span style={{ color: 'red' }}>*</span> Total Personal Loan Dues?
-          </label>
-          <select
-            id="personalLoanDues"
-            name="personalLoanDues"
-            value={formData.personalLoanDues}
-            onChange={handleInputChange}
-            className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
-          >
-            <option value="">Select</option>
-            {[
-              '₹1,00,000 - ₹2,00,000',
-              '₹2,00,000 - ₹3,00,000',
-              '₹3,00,000 - ₹4,00,000',
-              '₹4,00,000 - ₹5,00,000',
-              '₹5,00,000 - ₹10,00,000',
-              '₹10,00,000 or above',
-            ].map((status) => (
-              <option key={status} value={status}>
-                {status}
-              </option>
-            ))}
-          </select>
-          {errors.personalLoanDues && (
-            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.personalLoanDues}</p>
-          )}
-        </div>
-        <div>
-          <label htmlFor="canPay" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            <span style={{ color: 'red' }}>*</span> Can you pay ₹2,000 to ₹5,000 to start the process?
-          </label>
-          <select
-            id="canPay"
-            name="canPay"
-            value={formData.canPay}
-            onChange={handleInputChange}
-            className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
-          >
-            <option value="">Select</option>
-            {['Yes', 'No'].map((option) => (
-              <option key={option} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-          {errors.canPay && (
-            <p className="text-[10px] md:text-xs mt-1 md:mt-[4px]" style={{ color: 'red' }}>{errors.canPay}</p>
-          )}
-        </div>
-        <div>
-          <label htmlFor="queries" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            Your Queries
+          <label htmlFor="message" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
+            Message
           </label>
           <textarea 
-            id="queries"
-            name="queries"
-            value={formData.queries}
+            id="message"
+            name="message"
+            value={formData.message}
             onChange={handleInputChange}
             rows={3}
             className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 resize-none placeholder-[rgba(12,39,86,0.70)] text-black text-xs md:text-sm"
-            placeholder="Your Queries"
+            placeholder="Your message or query (optional)"
           />
         </div>
         <p className="text-center text-[10px] md:text-[11px] text-[#0C2756] font-medium leading-snug mt-1 mb-2">

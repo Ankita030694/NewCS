@@ -17,14 +17,8 @@ export default function GlobalPopupForm() {
     name: '',
     number: '',
     email: '',
-    city: '',
-    employmentStatus: '',
-    monthlyIncome: '',
-    harassment: '',
-    creditCardDues: '',
-    personalLoanDues: '',
-    canPay: '',
-    queries: ''
+    state: '',
+    message: ''
   });
 
   useEffect(() => {
@@ -133,32 +127,8 @@ export default function GlobalPopupForm() {
       }
     }
 
-    if (!formData.city) {
-      newErrors.city = 'City is required';
-    }
-
-    if (!formData.employmentStatus) {
-      newErrors.employmentStatus = 'Employment status is required';
-    }
-
-    if (!formData.monthlyIncome) {
-      newErrors.monthlyIncome = 'Monthly income is required';
-    }
-
-    if (!formData.harassment) {
-      newErrors.harassment = 'Harassment status is required';
-    }
-
-    if (!formData.creditCardDues) {
-      newErrors.creditCardDues = 'Credit card dues are required';
-    }
-
-    if (!formData.personalLoanDues) {
-      newErrors.personalLoanDues = 'Personal loan dues are required';
-    }
-
-    if (!formData.canPay) {
-      newErrors.canPay = 'This field is required';
+    if (!formData.state) {
+      newErrors.state = 'State is required';
     }
 
     setErrors(newErrors);
@@ -188,7 +158,21 @@ export default function GlobalPopupForm() {
     }
 
     const submitData = {
-      ...formData,
+      name: formData.name,
+      number: formData.number,
+      phone: formData.number,
+      email: formData.email,
+      state: formData.state,
+      city: formData.state,
+      message: formData.message,
+      queries: formData.message,
+      // Save other fields as empty in DB
+      employmentStatus: '',
+      monthlyIncome: '',
+      harassment: '',
+      creditCardDues: '',
+      personalLoanDues: '',
+      canPay: '',
       created: Date.now(),
       date: formattedDate,
       captchaToken,
@@ -305,175 +289,60 @@ export default function GlobalPopupForm() {
             </div>
           </div>
 
-          <div>
-            <label htmlFor="pemail" className="block mb-1 text-xs font-medium text-[#0C2756]">
-              <span className="text-red-500">*</span> Email ID
-            </label>
-            <input 
-              type="email"
-              id="pemail"
-              name="email"
-              value={formData.email}
-              onChange={handleEmailInput}
-              className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm"
-              placeholder="example@email.com"
-            />
-            {errors.email && <p className="text-[10px] text-red-500 mt-1">{errors.email}</p>}
-          </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label htmlFor="pcity" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> City
+              <label htmlFor="pemail" className="block mb-1 text-xs font-medium text-[#0C2756]">
+                <span className="text-red-500">*</span> Email ID
+              </label>
+              <input 
+                type="email"
+                id="pemail"
+                name="email"
+                value={formData.email}
+                onChange={handleEmailInput}
+                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm"
+                placeholder="example@email.com"
+              />
+              {errors.email && <p className="text-[10px] text-red-500 mt-1">{errors.email}</p>}
+            </div>
+
+            <div>
+              <label htmlFor="pstate" className="block mb-1 text-xs font-medium text-[#0C2756]">
+                <span className="text-red-500">*</span> State
               </label>
               <select
-                id="pcity"
-                name="city"
-                value={formData.city}
+                id="pstate"
+                name="state"
+                value={formData.state}
                 onChange={handleInputChange}
                 className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
               >
-                <option value="">Select City</option>
+                <option value="">Select State</option>
                 {[
                   'Andaman and Nicobar Islands', 'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar',
                   'Chandigarh', 'Chhattisgarh', 'Dadra and Nagar Haveli and Daman and Diu', 'Delhi', 'Goa',
                   'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jharkhand', 'Karnataka', 'Kerala', 'Lakshadweep',
                   'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha',
                   'Puducherry', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu', 'Telangana', 'Tripura',
-                  'Uttar Pradesh', 'Uttarakhand', 'West Bengal', 'Mumbai', 'Pune', 'Bangalore', 'Chennai',
-                  'Hyderabad', 'Other',
-                ].map((city) => <option key={city} value={city}>{city}</option>)}
+                  'Uttar Pradesh', 'Uttarakhand', 'West Bengal', 'Other',
+                ].map((st) => <option key={st} value={st}>{st}</option>)}
               </select>
-              {errors.city && <p className="text-[10px] text-red-500 mt-1">{errors.city}</p>}
-            </div>
-
-            <div>
-              <label htmlFor="pemployment" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Employment Status
-              </label>
-              <select
-                id="pemployment"
-                name="employmentStatus"
-                value={formData.employmentStatus}
-                onChange={handleInputChange}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
-              >
-                <option value="">Select</option>
-                {[
-                  'Not employed', 'Working as salaried employee', 'Self employed', 'Business with more than 10 employees',
-                ].map((status) => <option key={status} value={status}>{status}</option>)}
-              </select>
-              {errors.employmentStatus && <p className="text-[10px] text-red-500 mt-1">{errors.employmentStatus}</p>}
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label htmlFor="pincome" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Monthly Income
-              </label>
-              <select
-                id="pincome"
-                name="monthlyIncome"
-                value={formData.monthlyIncome}
-                onChange={handleInputChange}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
-              >
-                <option value="">Select</option>
-                {[
-                  '₹10,000 - ₹50,000', '₹50,000 - ₹1,00,000', '₹1,00,000 - ₹3,00,000', '₹3,00,000 - ₹5,00,000', '₹5,00,000 or above',
-                ].map((status) => <option key={status} value={status}>{status}</option>)}
-              </select>
-              {errors.monthlyIncome && <p className="text-[10px] text-red-500 mt-1">{errors.monthlyIncome}</p>}
-            </div>
-
-            <div>
-              <label htmlFor="pharassment" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Facing Harassment?
-              </label>
-              <select
-                id="pharassment"
-                name="harassment"
-                value={formData.harassment}
-                onChange={handleInputChange}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
-              >
-                <option value="">Select</option>
-                {['Yes', 'No'].map((option) => <option key={option} value={option}>{option}</option>)}
-              </select>
-              {errors.harassment && <p className="text-[10px] text-red-500 mt-1">{errors.harassment}</p>}
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label htmlFor="pccdues" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Credit Card Dues
-              </label>
-              <select
-                id="pccdues"
-                name="creditCardDues"
-                value={formData.creditCardDues}
-                onChange={handleInputChange}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
-              >
-                <option value="">Select</option>
-                {[
-                  '₹1,00,000 - ₹2,00,000', '₹2,00,000 - ₹3,00,000', '₹3,00,000 - ₹4,00,000', '₹4,00,000 - ₹5,00,000', '₹5,00,000 - ₹10,00,000', '₹10,00,000 or above',
-                ].map((status) => <option key={status} value={status}>{status}</option>)}
-              </select>
-              {errors.creditCardDues && <p className="text-[10px] text-red-500 mt-1">{errors.creditCardDues}</p>}
-            </div>
-
-            <div>
-              <label htmlFor="ppldues" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Personal Loan Dues
-              </label>
-              <select
-                id="ppldues"
-                name="personalLoanDues"
-                value={formData.personalLoanDues}
-                onChange={handleInputChange}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
-              >
-                <option value="">Select</option>
-                {[
-                  '₹1,00,000 - ₹2,00,000', '₹2,00,000 - ₹3,00,000', '₹3,00,000 - ₹4,00,000', '₹4,00,000 - ₹5,00,000', '₹5,00,000 - ₹10,00,000', '₹10,00,000 or above',
-                ].map((status) => <option key={status} value={status}>{status}</option>)}
-              </select>
-              {errors.personalLoanDues && <p className="text-[10px] text-red-500 mt-1">{errors.personalLoanDues}</p>}
+              {errors.state && <p className="text-[10px] text-red-500 mt-1">{errors.state}</p>}
             </div>
           </div>
 
           <div>
-            <label htmlFor="pcanpay" className="block mb-1 text-xs font-medium text-[#0C2756]">
-              <span className="text-red-500">*</span> Can pay ₹2,000 to ₹5,000 to start?
-            </label>
-            <select
-              id="pcanpay"
-              name="canPay"
-              value={formData.canPay}
-              onChange={handleInputChange}
-              className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
-            >
-              <option value="">Select</option>
-              {['Yes', 'No'].map((option) => <option key={option} value={option}>{option}</option>)}
-            </select>
-            {errors.canPay && <p className="text-[10px] text-red-500 mt-1">{errors.canPay}</p>}
-          </div>
-
-          <div>
-            <label htmlFor="pqueries" className="block mb-1 text-xs font-medium text-[#0C2756]">
-              Your Queries
+            <label htmlFor="pmessage" className="block mb-1 text-xs font-medium text-[#0C2756]">
+              Message
             </label>
             <textarea 
-              id="pqueries"
-              name="queries"
-              value={formData.queries}
+              id="pmessage"
+              name="message"
+              value={formData.message}
               onChange={handleInputChange}
-              rows={2}
+              rows={3}
               className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm resize-none"
-              placeholder="Any specific questions?"
+              placeholder="Your message or query (optional)"
             />
           </div>
 
