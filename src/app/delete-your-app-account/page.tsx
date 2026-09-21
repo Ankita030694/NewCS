@@ -6,37 +6,57 @@ import Navbar from '@/components/Navbar';
 const SECTIONS = [
   {
     icon: 'fa-mobile-screen-button',
-    title: 'Option 1: In-App Deletion',
+    title: 'Option 1: In-App Deletion Request',
+    description: 'You can initiate an immediate deletion request directly within the CredSettle Android or iOS mobile application by following these quick steps:',
     bullets: [
-      'Open the CredSettle app',
-      'Tap on the profile icon (top-left corner)',
-      'Go to the Account section',
-      'Scroll down and tap on "Delete Account"',
-      'Confirm your request',
+      'Open the CredSettle application on your mobile device and log in to your account.',
+      'Tap on the Profile avatar located at the top-left corner of the dashboard.',
+      'Navigate to the Account Settings and Security section.',
+      'Scroll down to the bottom and select "Delete My Account & Personal Data".',
+      'Read the confirmation prompt, verify with OTP if prompted, and confirm your request.',
     ],
   },
   {
     icon: 'fa-envelope',
-    title: 'Option 2: Request via Email',
-    description: 'You can also request account deletion by contacting us at:',
+    title: 'Option 2: Formal Request via Email',
+    description: 'If you are unable to access the mobile application or prefer submitting a formal written request, you can contact our dedicated Data Protection and Grievance Team directly:',
     bullets: [
-      'Email: info@credsettle.com',
-      'Please include your registered email address.',
+      'Send an email to: info@credsettle.com with the subject line "Request for CredSettle Account and Data Deletion".',
+      'Provide your registered full name, registered mobile phone number, and registered email address.',
+      'State clearly if you have any active loan settlement agreements or if all your previous legal disputes are resolved.',
+      'Our compliance team will acknowledge your request within 24–48 business hours.',
     ],
   },
   {
     icon: 'fa-trash-can',
-    title: 'Data Deletion Details',
+    title: 'Data Deletion Scope & What Happens to Your Data',
+    description: 'Upon confirmation and identity verification, CredSettle takes immediate action on your profile according to India\'s Digital Personal Data Protection (DPDP) Act 2023:',
     bullets: [
-      'Your personal information (name, email, phone) will be deleted',
-      'Your account will be permanently removed',
-      'Some data may be retained if required for legal or regulatory compliance',
+      'Personal Identification Information (PII) including your profile photo, residential address, contact number, and personal email will be permanently wiped from active servers.',
+      'Uploaded financial documents (such as bank statements, income proof, and settlement proposals) will be securely purged from operational cloud storage.',
+      'Active login sessions, auth tokens, device identifiers, and notification push credentials will be permanently invalidated.',
+      'You will cease to receive automated newsletters, promotional updates, and case status communications.',
+    ],
+  },
+  {
+    icon: 'fa-scale-balanced',
+    title: 'Regulatory Data Retention Obligations',
+    description: 'Please note that as a legal advisory and financial resolution service provider, certain historical records must be maintained in accordance with Indian statutory and regulatory laws:',
+    bullets: [
+      'Accounting, taxation, and billing invoice records must be maintained for the mandatory statutory period under the Income Tax Act and GST regulations.',
+      'Formal legal notices, settlement agreements, and No Due Certificates (NDCs) executed between you and banking institutions may be archived in encrypted offline cold storage for auditing compliance.',
+      'Audit trails regarding borrower consent and terms acceptance are retained as required by the Information Technology Act, 2000.',
     ],
   },
   {
     icon: 'fa-clock',
-    title: 'Processing Time',
-    description: 'Deletion requests are processed within a reasonable timeframe after verification.',
+    title: 'Verification and Processing Timeline',
+    description: 'Your account deletion request undergoes a structured verification process to safeguard you from unauthorized account termination:',
+    bullets: [
+      'Initial verification is conducted within 48 hours of submission to prevent fraud or accidental deletion.',
+      'Once verified, complete data deletion across active database instances is executed within 7 to 14 business days.',
+      'A final formal confirmation email will be delivered to your registered email address verifying that the account and all associated personal data have been purged.',
+    ],
   },
 ];
 

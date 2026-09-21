@@ -656,6 +656,21 @@ const nextConfig: NextConfig = {
         destination: "/reviews-of-popular-debt-settlement-services-available-to-indian-consumers",
         permanent: true,
       },
+      {
+        source: "/loan-settlement-by-city/ganganagar",
+        destination: "/loan-settlement-by-city/sri-ganganagar",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-city/sector-:num(1|2|3|4|5|6|7|8|9|10|11)-vasundhara",
+        destination: "/loan-settlement-by-city/vasundhara-sector-:num",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-city/:foreign(geelong|dhaka|barisal|tonkolili|alamdanga)",
+        destination: "/loan-settlement-by-city",
+        permanent: true,
+      },
     ];
   },
   async headers() {

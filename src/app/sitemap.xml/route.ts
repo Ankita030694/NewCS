@@ -4134,31 +4134,7 @@ async function generateSitemap(): Promise<string> {
 
   // --- AUTO-ADDED NEW BATCH ---
   urls.push({
-    loc: `${baseUrl}/success`,
-    priority: 0.8,
-    changefreq: 'weekly',
-    lastmod: today
-  });
-  urls.push({
-    loc: `${baseUrl}/thank-you`,
-    priority: 0.8,
-    changefreq: 'weekly',
-    lastmod: today
-  });
-  urls.push({
     loc: `${baseUrl}/delete-your-app-account`,
-    priority: 0.8,
-    changefreq: 'weekly',
-    lastmod: today
-  });
-  urls.push({
-    loc: `${baseUrl}/nullify`,
-    priority: 0.8,
-    changefreq: 'weekly',
-    lastmod: today
-  });
-  urls.push({
-    loc: `${baseUrl}/login`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today

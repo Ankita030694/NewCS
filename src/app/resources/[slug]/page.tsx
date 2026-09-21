@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import BlogPostPageClient from './BlogPostPageClient';
 import { canonicaliseSlug, generateSlugFromTitle } from '@/lib/slug';
 import { getBlogBySlug, getRelatedBlogs, getBlogReviews, type Review } from '@/lib/blogs';
@@ -31,6 +31,7 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "how-to-lodge-a-complaint-against-a-credit-card-collection-agency-in-india": "Complaint Against Collection Agency in India",
   "how-to-negotiate-a-credit-card-settlement-in-india-a-step-by-step-guide": "Negotiate Credit Card Settlement in India",
   "how-to-negotiate-a-loan-settlement-without-affecting-your-cibil-score": "Loan Settlement Without Affecting CIBIL Score",
+  "how-to-settle-your-bank-loan-in-india": "How to Settle Bank Loan in India | Legal Guide",
   "icici-bank-credit-card-settlement-a-complete-guide-to-resolving-your-debt": "ICICI Credit Card Settlement Guide",
   "indusind-bank-credit-card-settlement-the-smart-way-to-reduce-your-debt": "IndusInd Bank Credit Card Settlement Guide",
   "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours | Fast & Legal",
@@ -40,23 +41,64 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Ultimate Guide to Loan Settlement"
 };
 
-const getValidDescription = (blog: { metaDescription?: string; subtitle?: string; description: string }) => {
+const getValidDescription = (blog: { metaDescription?: string; subtitle?: string; description: string; title: string }) => {
   const isInvalid = (text: string | undefined) => 
     !text || 
     IGNORED_DESCRIPTIONS.some(ignored => text.trim() === ignored.trim()) ||
     text.startsWith("Loan Settlement Services | Credit Card Loan Settlement");
 
-  const clampDesc = (desc: string) => {
-    const cleaned = desc.trim();
-    if (cleaned.length <= 155) return cleaned;
-    return cleaned.slice(0, 152).trim() + '...';
-  };
+  let baseDesc = '';
+  if (!isInvalid(blog.metaDescription)) {
+    baseDesc = blog.metaDescription!.trim();
+  } else if (!isInvalid(blog.subtitle)) {
+    baseDesc = blog.subtitle!.trim();
+  }
 
-  if (!isInvalid(blog.metaDescription)) return clampDesc(blog.metaDescription!);
-  if (!isInvalid(blog.subtitle)) return clampDesc(blog.subtitle!);
+  // If baseDesc is present and already within optimal range (120-155 characters)
+  if (baseDesc && baseDesc.length >= 120 && baseDesc.length <= 155) {
+    return baseDesc;
+  }
 
+  // If baseDesc is under 120 characters, enrich it intelligently
+  if (baseDesc && baseDesc.length > 0 && baseDesc.length < 120) {
+    const punctuated = baseDesc.endsWith('.') ? baseDesc : `${baseDesc}.`;
+    const legalSuffix = ' Settle your debt legally with CredSettle and stop bank harassment today.';
+    const combined = (punctuated + legalSuffix).trim();
+    if (combined.length <= 155 && combined.length >= 120) {
+      return combined;
+    }
+    const fullSuffix = ' CredSettle provides legal debt resolution to stop recovery harassment and settle bank loans with waivers.';
+    const combinedFull = (punctuated + fullSuffix).trim();
+    if (combinedFull.length <= 155 && combinedFull.length >= 120) {
+      return combinedFull;
+    }
+    const shorterSuffix = ' Settle debt legally with CredSettle.';
+    const combinedShort = (punctuated + shorterSuffix).trim();
+    if (combinedShort.length <= 155 && combinedShort.length >= 120) {
+      return combinedShort;
+    }
+  }
+
+  // Fallback to body content if available
   const content = stripHtml(blog.description);
-  return clampDesc(content);
+  if (content && content.length >= 120) {
+    const sentenceEnd = content.indexOf('.', 120);
+    if (sentenceEnd !== -1 && sentenceEnd <= 155) {
+      return content.slice(0, sentenceEnd + 1).trim();
+    }
+    const candidate = content.slice(0, 150);
+    const lastSpace = candidate.lastIndexOf(' ');
+    if (lastSpace > 120) {
+      return candidate.slice(0, lastSpace).trim() + '...';
+    }
+    return candidate.trim() + '...';
+  }
+
+  if (baseDesc && baseDesc.length > 155) {
+    return baseDesc.slice(0, 152).trim() + '...';
+  }
+
+  return baseDesc || 'Get expert legal loan settlement and debt relief services in India with CredSettle. Stop bank harassment and resolve outstanding debt legally.';
 };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -87,7 +129,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ? blog.metaTitle
       : blog.title);
 
-  const effectiveTitle = rawTitle.length <= 60 ? rawTitle : (rawTitle.slice(0, 57).trim() + '...');
+  let effectiveTitle = rawTitle.trim();
+  if (effectiveTitle.length < 30) {
+    const withBrand = `${effectiveTitle} | CredSettle`;
+    if (withBrand.length <= 60) {
+      effectiveTitle = withBrand;
+    }
+  }
+  if (effectiveTitle.length > 60) {
+    effectiveTitle = effectiveTitle.slice(0, 57).trim() + '...';
+  }
 
   return {
     title: effectiveTitle,
@@ -125,6 +176,11 @@ export default async function BlogPostPage({ params }: PageProps) {
     canonicaliseSlug(slug) ||
     canonicaliseSlug(blog.id) ||
     blog.id;
+
+  if (slug !== canonicalSlug) {
+    permanentRedirect(`/resources/${canonicalSlug}`);
+  }
+
   const relatedBlogs = await getRelatedBlogs(canonicalSlug, 3);
   const reviews = await getBlogReviews(blog.id);
 

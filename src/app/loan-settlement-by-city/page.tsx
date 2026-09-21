@@ -4,6 +4,7 @@ import { locationData } from "./locationData";
 import { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CityDirectoryClient from "./CityDirectoryClient";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.credsettle.com/loan-settlement-by-city' },
@@ -71,34 +72,9 @@ export default function LawyerByCity() {
         </div>
       </section>
 
-      {/* City Grid Section */}
+      {/* City Directory Section */}
       <section className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
-        <div className="bg-white rounded-2xl shadow-sm p-8 md:p-12">
-          <div className="flex flex-col md:flex-row items-center justify-between mb-8 border-b pb-4">
-            <h2 className="text-2xl font-bold text-gray-800">
-              Select Your Location
-            </h2>
-            <div className="flex items-center gap-2 mt-4 md:mt-0 px-4 py-2 bg-blue-50 rounded-full text-xs font-bold text-blue-700 border border-blue-100">
-               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-               {locationData.length} ACTIVE CITIES
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-            {locationData.map((loc, index) => {
-              return (
-                <Link
-                  key={index}
-                  href={`/loan-settlement-by-city/${loc.slug}`}
-                  className="group flex items-center justify-between p-3 border border-gray-100 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all duration-200 text-sm font-medium text-gray-700 hover:text-blue-700"
-                >
-                  <span className="truncate">{loc.name}</span>
-                  <span className="text-gray-300 group-hover:text-blue-500 transition-colors ml-1.5 flex-shrink-0 font-bold">&rarr;</span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
+        <CityDirectoryClient locations={locationData} />
       </section>
 
       {/* Bottom CTA */}
