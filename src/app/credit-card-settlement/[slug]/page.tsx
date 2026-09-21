@@ -22,11 +22,25 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
   }
 
+  const metaTitle = `${bank.name} Credit Card Settlement | CredSettle`;
+  const metaDescription = `Settle ${bank.name} credit card dues legally with CredSettle. Stop recovery agent harassment, reduce debt & get NOC closure. Free consultation.`;
+
   return {
-    title: `${bank.name} Credit Card Settlement: Stop Harassment & Clear Dues`,
-    description: `Struggling with ${bank.name} credit card debt? Learn the exact process for ${bank.name} credit card settlement with CredSettle, stop recovery agents, and secure a NOC.`,
+    title: metaTitle,
+    description: metaDescription,
     alternates: {
       canonical: `https://www.credsettle.com/credit-card-settlement/${bank.slug}`,
+    },
+    openGraph: {
+      title: metaTitle,
+      description: metaDescription,
+      url: `https://www.credsettle.com/credit-card-settlement/${bank.slug}`,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: metaTitle,
+      description: metaDescription,
     },
     robots: {
       index: true,

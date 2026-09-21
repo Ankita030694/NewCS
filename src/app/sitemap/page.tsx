@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: "HTML Sitemap | CredSettle",
+    title: "CredSettle HTML Sitemap | Complete Directory",
     description: "Navigate through CredSettle's complete directory of legal and financial services, debt settlement guides, and resources.",
     alternates: {
         canonical: 'https://www.credsettle.com/sitemap',

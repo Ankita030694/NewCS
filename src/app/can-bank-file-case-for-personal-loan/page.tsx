@@ -7,7 +7,7 @@ import CanBankFileCaseClient from './CanBankFileCaseClient';
 
 export const metadata: Metadata = {
     title: "Can Bank File Case for Personal Loan in India?",
-    description: "Wondering if a bank can file a case for a personal loan default in India? Discover the legal recovery process, civil suits, Section 138 NI Act, and your rights as a borrower.",
+    description: "Wondering if a bank can file a case for a personal loan default in India? Discover the legal recovery process, civil suits.",
     keywords: [
         "can bank file case for personal loan",
         "personal loan recovery process in India",

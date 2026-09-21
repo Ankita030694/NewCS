@@ -7,7 +7,7 @@ import WhatsACreditLineClient from './WhatsACreditLineClient';
 
 export const metadata: Metadata = {
     title: "What is a Credit Line and Who Should Consider One in India?",
-    description: "Discover the line of credit meaning in India, how does a credit line work, and the key differences of personal line of credit vs personal loan for managing unpredictable cash crunches.",
+    description: "Discover the line of credit meaning in India, how does a credit line work, and the key differences of personal line of credit vs personal loan.",
     keywords: [
         "line of credit meaning India",
         "personal line of credit vs personal loan",

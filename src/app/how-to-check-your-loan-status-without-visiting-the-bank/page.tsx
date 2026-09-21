@@ -7,7 +7,7 @@ import HowToCheckYourLoanStatusClient from './HowToCheckYourLoanStatusClient';
 
 export const metadata: Metadata = {
     title: "How to Check Your Loan Status Without Visiting the Bank",
-    description: "Borrowers waste hours standing in bank queues just to check if their loan was approved or disbursed. Learn how to track loan status without branch visit using net banking, WhatsApp, and PAN.",
+    description: "Borrowers waste hours standing in bank queues just to check if their loan was approved or disbursed. Learn how to track loan status without branch visit.",
     keywords: [
         "check loan application status online",
         "how to track loan status without branch visit",

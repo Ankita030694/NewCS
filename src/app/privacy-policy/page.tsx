@@ -224,9 +224,9 @@ const SECTIONS = [
 ];
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | CredSettle Data Protection & Confidentiality',
+  title: 'Privacy Policy | CredSettle Data Protection &',
   description:
-    'Understand how CredSettle collects, safeguards, and utilises personal information for debt settlement support services in India. Review cookies, data sharing, security, and contact details.',
+    'Understand how CredSettle collects, safeguards, and utilises personal information for debt settlement support services in India.',
   alternates: {
     canonical: 'https://www.credsettle.com/privacy-policy',
   },

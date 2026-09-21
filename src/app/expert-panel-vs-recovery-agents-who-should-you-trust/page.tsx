@@ -7,7 +7,7 @@ import ExpertPanelClient from './ExpertPanelClient';
 
 export const metadata: Metadata = {
     title: "Expert Panel vs. Recovery Agents: Who Should You Trust?",
-    description: "Learn the difference between predatory recovery agents and a dedicated legal expert panel. Discover how to handle recovery agents and get legal help for loan default in India.",
+    description: "Learn the difference between predatory recovery agents and a dedicated legal expert panel. Discover how to handle recovery agents and get legal help.",
     keywords: [
         "recovery agents vs lawyers",
         "how to handle recovery agents",

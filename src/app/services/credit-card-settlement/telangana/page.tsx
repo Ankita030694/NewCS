@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import TelanganaPageClient from './TelanganaPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Hyderabad Telangana | Save 60% | CredSettle',
-  description: 'Credit card settlement in Hyderabad, Secunderabad, Warangal. IT corridor lifestyle, startup spending, family obligations. Reduce debt 40-75%. Legal RBI-compliant. 5,100+ Telangana clients debt-free.',
+  title: 'Credit Card Settlement Hyderabad Telangana',
+  description: 'Credit card settlement in Hyderabad, Secunderabad, Warangal. IT corridor lifestyle, startup spending, family obligations. Reduce debt 40-75%.',
   keywords: [
     'credit card settlement Hyderabad',
     'credit card debt relief Telangana',

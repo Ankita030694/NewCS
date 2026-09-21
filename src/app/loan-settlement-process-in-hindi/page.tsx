@@ -7,7 +7,7 @@ import LoanSettlementHindiClient from './LoanSettlementHindiClient';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement Process in Hindi (RBI Rules 2025)',
-  description: 'लोन सेटलमेंट प्रक्रिया (Loan Settlement Process in Hindi) 2025. जानें स्टेप-बाय-स्टेप गाइड, RBI के नियम, सिबिल (CIBIL) पर असर और कानूनी अधिकार। 5000+ शब्दों की विस्तृत गाइड।',
+  description: 'लोन सेटलमेंट प्रक्रिया (Loan Settlement Process in Hindi) 2025. जानें स्टेप-बाय-स्टेप गाइड, RBI के नियम, सिबिल (CIBIL) पर असर और कानूनी अधिकार। 5000+.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement-process-in-hindi',
   },

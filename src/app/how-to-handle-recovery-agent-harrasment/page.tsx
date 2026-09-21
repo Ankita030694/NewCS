@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Handle Recovery Harassment: RBI Rules 2025',
-  description: 'Learn how to handle recovery agent harassment with RBI rules 2024-2025. Know your legal rights, how to file a complaint, and stop illegal collection calls today.',
+  description: 'Learn how to handle recovery agent harassment with RBI rules 2024-2025. Know your legal rights, how to file a complaint, and stop illegal collection calls.',
   keywords: [
     'how to handle recovery agent harassment',
     'RBI rules for recovery agents 2024',

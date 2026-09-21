@@ -519,22 +519,22 @@ export default function CannotPayPersonalLoanEmiClient() {
                             <h4 className="font-black text-gray-900 text-lg border-b border-gray-200 pb-2 mb-4">Related Expertise</h4>
                             <ul className="space-y-4 text-left font-medium text-sm">
                                 <li>
-                                    <Link href="/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                    <Link href="/services/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 transition-colors">
                                         Personal Loan Settlement Guide
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/how-to-deal-with-recovery-agents" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                    <Link href="/how-to-stop-recovery-agent-harassment" className="text-blue-600 hover:text-blue-800 transition-colors">
                                         Handling Recovery Agents
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/loan-restructuring-vs-settlement" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                    <Link href="/should-i-settle-or-restructure-personal-loan" className="text-blue-600 hover:text-blue-800 transition-colors">
                                         Restructuring vs Settlement
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/impact-of-loan-default-on-cibil" className="text-blue-600 hover:text-blue-800 transition-colors">
+                                    <Link href="/understanding-90-day-loan-default-india" className="text-blue-600 hover:text-blue-800 transition-colors">
                                         Impact on CIBIL Score
                                     </Link>
                                 </li>

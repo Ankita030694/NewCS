@@ -7,8 +7,8 @@ import FastestLoanSettlementClient from './FastestLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Fastest Loan Settlement Service for Personal Loans in India | Expert Guide',
-  description: 'Looking for the fastest resolution for personal loan settlement? Compare top services, understand timelines, and discover how to settle your debt quickly in India.',
+  title: 'Fastest Loan Settlement Service for Personal Loans in India',
+  description: 'Looking for the fastest resolution for personal loan settlement? Compare top services, understand timelines, and discover how to settle your debt quickly.',
   keywords: [
     'fastest loan settlement service',
     'personal loan settlement india',

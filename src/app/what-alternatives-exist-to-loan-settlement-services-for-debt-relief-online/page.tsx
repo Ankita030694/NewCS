@@ -7,7 +7,7 @@ import DebtReliefAlternativesClient from './DebtReliefAlternativesClient';
 
 export const metadata: Metadata = {
     title: "Debt Relief Alternatives to Loan Settlement (2025)",
-    description: "Discover effective alternatives to loan settlement for debt relief in India. Explore debt consolidation, loan restructuring, credit counseling, and legal options.",
+    description: "Discover effective alternatives to loan settlement for debt relief in India. Explore debt consolidation, loan restructuring, credit counseling.",
     keywords: [
         "alternatives to loan settlement India",
         "debt relief services online India",

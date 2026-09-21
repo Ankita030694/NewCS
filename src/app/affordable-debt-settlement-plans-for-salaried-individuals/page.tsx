@@ -7,8 +7,8 @@ import AffordableDebtSettlementClient from './AffordableDebtSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Affordable Debt Settlement Plans for Salaried Individuals in India',
-  description: 'Explore affordable debt settlement plans for salaried individuals. Learn how to manage credit card debt, personal loans, and achieve financial freedom with CredSettle.',
+  title: 'Affordable Debt Settlement Plans for Salaried Individuals',
+  description: 'Explore affordable debt settlement plans for salaried individuals. Learn how to manage credit card debt, personal loans.',
   keywords: [
     'affordable debt settlement plans for salaried individuals',
     'debt settlement for salaried employees',

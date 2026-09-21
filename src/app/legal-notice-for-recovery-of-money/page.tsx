@@ -7,8 +7,8 @@ import LegalNoticeClient from './LegalNoticeClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Legal Notice for Recovery of Money in India | Expert Guidance & Procedure',
-  description: 'Need to recover money? Learn how to send a professional legal notice for recovery of money in India. Expert guide on procedure, timelines, and legal action.',
+  title: 'Legal Notice for Recovery of Money in India',
+  description: 'Need to recover money? Learn how to send a professional legal notice for recovery of money in India. Expert guide on procedure, timelines.',
   keywords: [
     'legal notice for recovery of money',
     'money recovery legal notice format India',

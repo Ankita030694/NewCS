@@ -7,7 +7,7 @@ import PersonalLoanAfterDeathClient from './PersonalLoanAfterDeathClient';
 export const metadata: Metadata = {
   title: 'Does Family Have to Repay a Personal Loan After Death?',
   description:
-    'If a borrower passes away, who pays their unsecured personal loan? Discover the legal liability of legal heirs and how to handle bank recovery agents respectfully.',
+    'If a borrower passes away, who pays their unsecured personal loan? Discover the legal liability of legal heirs and how to handle bank recovery agents.',
   keywords: [
     'what happens to personal loan after death',
     'does family have to pay personal loan after death',

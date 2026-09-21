@@ -7,7 +7,7 @@ import Settle10LakhClient from './Settle10LakhClient';
 
 export const metadata: Metadata = {
     title: "Settle 10 Lakh Credit Card Loan: Negotiation & Legal Guide",
-    description: "Learn how to legally negotiate a ₹10 Lakh credit card settlement in India. Avoid Section 138 cheque bounce cases and secure up to a 50% waiver with our guide.",
+    description: "Learn how to legally negotiate a ₹10 Lakh credit card settlement in India. Avoid Section 138 cheque bounce cases and secure up to a 50% waiver.",
     keywords: [
         "settle 10 lakh credit card loan",
         "credit card settlement waiver India",

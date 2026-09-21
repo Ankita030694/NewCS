@@ -4,9 +4,9 @@ import HaryanaPageClient from './HaryanaPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/haryana';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Haryana | CredSettle NCR Industrial Desk',
+  title: 'NBFC Loan Settlement Haryana | CredSettle',
   description:
-    'Resolve NBFC loans across Haryana with CredSettle. Gurugram, Manesar, Faridabad, Panipat, and Hisar borrowers receive RBI compliant negotiation, harassment defence, and structured repayment planning.',
+    'Resolve NBFC loans across Haryana with CredSettle. Gurugram, Manesar, Faridabad, Panipat, and Hisar borrowers receive RBI compliant negotiation.',
   keywords: [
     'NBFC loan settlement Haryana',
     'NBFC settlement Gurugram',

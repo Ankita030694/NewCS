@@ -7,7 +7,7 @@ import CanIPayExtraEmiClient from './CanIPayExtraEmiClient';
 
 export const metadata: Metadata = {
     title: "Can I Pay Extra EMI for Personal Loan? | Part-Payment Guide",
-    description: "Learn the mechanical difference between advance EMI and part-payment. Find out how to correctly use your bonus to pay extra EMI on your personal loan and save on interest.",
+    description: "Learn the mechanical difference between advance EMI and part-payment. Find out how to correctly use your bonus to pay extra EMI on your personal loan.",
     keywords: [
         "pay extra EMI personal loan",
         "how to make advance EMI payment",

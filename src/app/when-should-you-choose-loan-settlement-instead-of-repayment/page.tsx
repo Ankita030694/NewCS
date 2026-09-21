@@ -7,7 +7,7 @@ import WhenToChooseSettlementClient from './WhenToChooseSettlementClient';
 
 export const metadata: Metadata = {
     title: "When to Choose Settlement vs Repayment?",
-    description: "Evaluate when to settle a loan vs full repayment. Learn about RBI 2025 guidelines, debt traps, and the precise mathematical points for choosing settlement in India.",
+    description: "Evaluate when to settle a loan vs full repayment. Learn about RBI 2025 guidelines, debt traps, and the precise mathematical points for choosing settlement.",
     keywords: [
         "when should you choose loan settlement instead of repayment",
         "loan settlement vs repayment India",

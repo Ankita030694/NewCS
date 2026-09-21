@@ -7,8 +7,8 @@ import LoanSettlementPageClient from './LoanSettlementPageClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Services | Debt Relief & Consolidation | CredSettle',
-  description: 'Expert loan settlement services to help you become debt free. We handle credit card debt, personal loans, and debt collectors. Get relief from bad debts today.',
+  title: 'Loan Settlement Services | Debt Relief & Consolidation ',
+  description: 'Expert loan settlement services to help you become debt free. We handle credit card debt, personal loans, and debt collectors.',
   keywords: [
     'loan settlement',
     'debt settlement',

@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import IdfcFirstBankLoanSettlementClient from './IdfcFirstBankLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'IDFC FIRST Bank Loan Settlement: Process, Waivers & Legal Protection',
+  title: 'IDFC FIRST Bank Loan Settlement',
   description:
-    'Resolve delinquent IDFC FIRST Bank personal loans and digital consumer loans. Counter digital legal notices, eliminate compounding penal charges, negotiate up to 60% debt write-offs, and obtain an official No Dues Certificate.',
+    'Resolve delinquent IDFC FIRST Bank personal loans and digital consumer loans. Counter digital legal notices, eliminate compounding penal charges.',
   keywords: [
     'idfc first bank loan settlement',
     'idfc personal loan settlement',

@@ -7,7 +7,7 @@ import EconomicDownturnSettlementClient from './EconomicDownturnSettlementClient
 
 export const metadata: Metadata = {
     title: "Loan Settlement: Economic Downturn Guide (2026)",
-    description: "Are you struggling with debt during an economic downturn? Learn how loan settlement can be a strategic exit for borrowers in financial distress. Explore 2026 RBI rules, legal rights, and expert negotiation tactics to reclaim your financial freedom.",
+    description: "Are you struggling with debt during an economic downturn? Learn how loan settlement can be a strategic exit for borrowers in financial distress.",
     keywords: [
         "loan settlement for borrowers facing economic downturn",
         "debt relief during recession India",

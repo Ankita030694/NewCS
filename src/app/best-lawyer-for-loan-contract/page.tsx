@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
     title: 'Best Lawyer for Loan Contracts in India',
-    description: 'Looking for the best lawyer for loan contract review or drafting in India? Get expert legal advice on loan agreements, Section 138, and borrower rights. 5000+ words of legal guidance.',
+    description: 'Looking for the best lawyer for loan contract review or drafting in India? Get expert legal advice on loan agreements, Section 138, and borrower rights.',
     keywords: 'best lawyer for loan contract, loan agreement lawyer India, loan document review, legal advice for loan contracts, Section 138 NI Act lawyer, bank loan contract expert',
     alternates: {
         canonical: 'https://www.credsettle.com/best-lawyer-for-loan-contract',

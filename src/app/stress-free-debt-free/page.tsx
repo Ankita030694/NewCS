@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Stress Free Debt Free Guide India',
-  description: 'Learn how to become completely debt free without the overwhelming stress, harassment, and legal threats. A complete guide to legally protected negotiations.',
+  description: 'Learn how to become completely debt free without the overwhelming stress, harassment, and legal threats. A complete guide to legally protected.',
   keywords: [
     'stress free debt free',
     'debt free journey india',

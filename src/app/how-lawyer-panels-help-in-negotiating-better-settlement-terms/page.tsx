@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import HowLawyerPanelsHelpClient from './HowLawyerPanelsHelpClient';
 
 export const metadata: Metadata = {
-    title: "How Lawyer Panels Help in Negotiating Better Settlement Terms",
-    description: "Learn how a specialized lawyer panel uses RBI guidelines and DRT precedents to negotiate massive principal haircuts (up to 50-70%) and secure formal No Dues Certificates.",
+    title: "How Lawyer Panels Help in Negotiating Better Settlement",
+    description: "Learn how a specialized lawyer panel uses RBI guidelines and DRT precedents to negotiate massive principal haircuts (up to 50-70%) and secure formal No.",
     keywords: [
         "lawyer for loan settlement",
         "negotiate settlement with bank",

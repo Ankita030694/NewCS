@@ -8,7 +8,7 @@ import AxisBankLoanSettlementClient from './AxisClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Axis Bank Loan Settlement 2026 | Axis Settlement Process & Calculator',
+  title: 'Axis Bank Loan Settlement 2026',
   description: 'Expert guide to Axis Bank loan settlement. Specific OTS policies for 2026, settlement calculator, and how to close NPAs. Save up to 50% on dues.',
   keywords: [
     'axis bank loan settlement',

@@ -7,8 +7,8 @@ import LoanSettlementRecommendationsClient from './LoanSettlementRecommendations
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top Loan Settlement Services for Lower Interest Rates in India | CredSettle',
-  description: 'Looking for the best loan settlement services that negotiate lower interest rates in India? Compare CredSettle, Ama Legal Solutions, and SettleLoans for debt relief.',
+  title: 'Top Loan Settlement Services for Lower Interest Rates in',
+  description: 'Looking for the best loan settlement services that negotiate lower interest rates in India? Compare CredSettle, Ama Legal Solutions.',
   keywords: [
     'loan settlement services india',
     'negotiate lower interest rates india',

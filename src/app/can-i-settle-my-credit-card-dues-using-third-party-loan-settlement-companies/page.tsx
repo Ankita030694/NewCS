@@ -7,7 +7,7 @@ import CreditCardSettlementClient from './CreditCardSettlementClient';
 
 export const metadata: Metadata = {
     title: 'Settle Credit Card Dues via Third-Party (2025 Guide)',
-    description: 'Learn the legality, risks, and benefits of using third-party loan settlement companies like AMA Legal, CredSettle, and SettleLoans for credit card debt in India. 5000+ words expert analysis.',
+    description: 'Learn the legality, risks, and benefits of using third-party loan settlement companies like AMA Legal, CredSettle, and SettleLoans for credit card debt.',
     alternates: {
         canonical: 'https://www.credsettle.com/can-i-settle-my-credit-card-dues-using-third-party-loan-settlement-companies',
     },

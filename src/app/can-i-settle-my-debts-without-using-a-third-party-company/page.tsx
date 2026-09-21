@@ -7,8 +7,8 @@ import SettleSelfClient from './SettleSelfClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle My Debts Without a Third-Party Company? | DIY Debt Settlement Guide',
-  description: 'Learn how to settle your debts without a third-party company. A comprehensive guide on DIY debt settlement, negotiation strategies, and how CredSettle can help.',
+  title: 'Can I Settle My Debts Without a Third-Party Company?',
+  description: 'Learn how to settle your debts without a third-party company. A comprehensive guide on DIY debt settlement, negotiation strategies.',
   keywords: [
     'settle debts without third party company',
     'DIY debt settlement india',

@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import LoanDefaultRecoveryFreezeDefenseClient from './LoanDefaultRecoveryFreezeDefenseClient';
 
 export const metadata: Metadata = {
-    title: 'Loan Default & Recovery Freeze Defense | Expert Legal Protection 2025',
-    description: 'Facing loan recovery freeze or harassment? Learn your legal rights under SARFAESI Act, DRT defense strategies, and how to stop illegal bank actions and seizures in India.',
+    title: 'Loan Default & Recovery Freeze Defense',
+    description: 'Facing loan recovery freeze or harassment? Learn your legal rights under SARFAESI Act, DRT defense strategies, and how to stop illegal bank actions.',
     keywords: 'loan default recovery defense, debt recovery freeze legal help India, SARFAESI Act section 17 defense, illegal NPA classification help, DRT lawyer loan recovery',
     alternates: {
         canonical: 'https://www.credsettle.com/loan-default-recovery-freeze-defense'

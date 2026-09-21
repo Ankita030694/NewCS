@@ -7,7 +7,7 @@ import MSMEPersonalLoanClient from './MSMEPersonalLoanClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for MSME Personal Loan (2025)",
-    description: "Expert legal help for MSME personal loans and promoter personal guarantees. Defend against SARFAESI and IBC proceedings. Navigate debt relief with top India law experts.",
+    description: "Expert legal help for MSME personal loans and promoter personal guarantees. Defend against SARFAESI and IBC proceedings.",
     keywords: [
         "best lawyer for MSME personal loan",
         "MSME personal loan recovery defence",

@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import HaryanaPageClient from './HaryanaPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Haryana Gurgaon Faridabad | Save 60% | CredSettle',
-  description: 'Credit card settlement in Gurgaon, Faridabad, Panipat. Corporate debt, real estate investments, multiple cards. Reduce debt 40-75%. Legal RBI-compliant. 4,800+ Haryana clients debt-free.',
+  title: 'Credit Card Settlement Haryana Gurgaon Faridabad',
+  description: 'Credit card settlement in Gurgaon, Faridabad, Panipat. Corporate debt, real estate investments, multiple cards. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Haryana',
     'credit card debt relief Gurgaon',

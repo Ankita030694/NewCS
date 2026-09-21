@@ -6,7 +6,7 @@ import BankRecoveryHarassmentComplaintClient from './BankRecoveryHarassmentCompl
 
 export const metadata: Metadata = {
     title: "Bank Recovery Harassment Complaint | How to File & Win",
-    description: "Facing harassment from bank recovery agents? Follow our expert guide to file effective complaints with the Bank, RBI Ombudsman, and Police. Reclaim your rights today.",
+    description: "Facing harassment from bank recovery agents? Follow our expert guide to file effective complaints with the Bank, RBI Ombudsman, and Police.",
     keywords: [
         "bank recovery harassment complaint India",
         "how to file complaint against bank recovery agent",

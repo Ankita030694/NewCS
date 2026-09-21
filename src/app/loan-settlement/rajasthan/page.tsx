@@ -7,7 +7,7 @@ import RajasthanLoanSettlementClient from './RajasthanLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Rajasthan: Legal Process & Lok Adalat Guide',
+  title: 'Loan Settlement in Rajasthan | CredSettle',
   description: 'Struggling with debt in Jaipur, Jodhpur or Kota? Learn how to settle loans legally in Rajasthan. Stop harassment & save up to 50%.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/rajasthan',

@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { getStateContentWithFallback, getAllStateSlugs } from '../states-content';
+import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import StatePageClient from './StatePageClient';
 
 // List of all Indian states and UTs
@@ -60,21 +61,23 @@ export async function generateMetadata({
   // Await params if it’s a Promise (Next.js 15+)
   const resolvedParams = await Promise.resolve(params);
   const stateData = getStateContentWithFallback(resolvedParams.state);
+  const metaTitle = sanitizeMetaTitle(stateData.metaTitle || stateData.title);
+  const metaDescription = sanitizeMetaDescription(stateData.metaDescription);
   
   return {
     alternates: { canonical: `https://www.credsettle.com/services/car-loan-settlement/${resolvedParams.state}` },
-    title: stateData.metaTitle || stateData.title,
-    description: stateData.metaDescription,
+    title: metaTitle,
+    description: metaDescription,
     keywords: stateData.keywords?.join(', '),
     openGraph: {
-      title: stateData.metaTitle || stateData.title,
-      description: stateData.metaDescription,
+      title: metaTitle,
+      description: metaDescription,
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
-      title: stateData.metaTitle || stateData.title,
-      description: stateData.metaDescription,
+      title: metaTitle,
+      description: metaDescription,
     },
   };
 }

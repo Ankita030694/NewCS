@@ -2,16 +2,43 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Ashish Jhangra - Author & Legal Expert | CredSettle",
-  description: "Ashish is a legal and debt resolution professional at AMA Legal Solutions, passionate about helping individuals and businesses overcome financial challenges.",
+  description: "Ashish is a legal and debt resolution professional at AMA Legal Solutions, passionate about helping individuals and businesses overcome financial.",
+  alternates: { canonical: "https://www.credsettle.com/author/ashish-jhangra" },
 };
 
 export default function AshishJhangraAuthorPage() {
+  const authorSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Ashish Jhangra",
+      "jobTitle": "Legal & Debt Resolution Professional",
+      "description": "Legal and debt resolution professional at AMA Legal Solutions and CredSettle, specializing in RBI compromise settlement frameworks and consumer protection.",
+      "url": "https://www.credsettle.com/author/ashish-jhangra",
+      "sameAs": [
+        "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "AMA Legal Solutions",
+        "url": "https://www.credsettle.com"
+      }
+    }
+  };
+
   return (
     <div className="flex min-h-screen flex-col bg-[#F8FAFC]">
+      <Script
+        id="author-person-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(authorSchema) }}
+      />
       <Navbar />
       <main className="flex-1 pb-16">
         {/* Author Header */}

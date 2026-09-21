@@ -7,7 +7,7 @@ import InterestSavingsClient from './InterestSavingsClient';
 
 export const metadata: Metadata = {
     title: "Interest Savings via Early Loan Settlement",
-    description: "Discover the massive interest savings from early loan settlement via digital platforms. Learn about foreclosure vs. settlement, RBI rules, and how to use digital apps to close debt.",
+    description: "Discover the massive interest savings from early loan settlement via digital platforms. Learn about foreclosure vs.",
     keywords: [
         "what are the interest savings by settling loans early through digital services",
         "loan foreclosure interest savings India",

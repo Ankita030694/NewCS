@@ -7,7 +7,7 @@ import BestNbfcLoanSettlementLawyerClient from './BestNbfcLoanSettlementLawyerCl
 
 export const metadata: Metadata = {
     title: "Best NBFC Loan Settlement Lawyer in India (2025)",
-    description: "Connect with the best NBFC loan settlement lawyers in India. Expert legal help to settle your NBFC loans, stop harassment, and achieve a fair one-time settlement (OTS).",
+    description: "Connect with the best NBFC loan settlement lawyers in India. Expert legal help to settle your NBFC loans, stop harassment.",
     keywords: [
         "best NBFC loan settlement lawyer",
         "NBFC loan settlement legal help India",

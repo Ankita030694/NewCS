@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement in Maharashtra: Legal Guide',
-  description: 'Struggling with debt in Mumbai or Pune? Learn how to legally settle loans in Maharashtra through Lok Adalat & DRT. Stop harassment and save up to 50% on dues.',
+  description: 'Struggling with debt in Mumbai or Pune? Learn how to legally settle loans in Maharashtra through Lok Adalat & DRT. Stop harassment and save up to 50%.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/maharashtra',
   },

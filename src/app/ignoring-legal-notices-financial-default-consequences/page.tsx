@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import IgnoringLegalNoticesClient from './IgnoringLegalNoticesClient';
 
 export const metadata: Metadata = {
-    title: "Ignoring Legal Notices for Financial Default: The Consequences",
+    title: "Ignoring Legal Notices for Financial Default",
     description: "What happens if you don't reply to a legal notice from a bank? Discover the timeline from fake lawyer notices to real ex-parte court judgments.",
     keywords: [
         "ignoring bank legal notice",

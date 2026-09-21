@@ -7,7 +7,7 @@ import HowExpertPanelsHelpClient from './HowExpertPanelsHelpClient';
 
 export const metadata: Metadata = {
     title: "How Expert Panels Help in Reconstructing High-Interest Loans",
-    description: "Learn how expert legal panels force banks to restructure high-interest 30%+ loans, convert them to low-interest EMIs, and waive penal charges. Debt settlement alternative to bankruptcy.",
+    description: "Learn how expert legal panels force banks to restructure high-interest 30%+ loans, convert them to low-interest EMIs, and waive penal charges.",
     keywords: [
         "loan restructuring lawyers",
         "how to restructure high interest loan",

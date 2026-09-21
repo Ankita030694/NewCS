@@ -7,7 +7,7 @@ import WestBengalLoanSettlementClient from './WestBengalLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in West Bengal: Legal Process & Lok Adalat Guide',
+  title: 'Loan Settlement in West Bengal',
   description: 'Struggling with debt in Kolkata or West Bengal? Learn how to settle loans legally using the Bengal Money Lenders Act. Stop harassment & save 50%.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/west-bengal',

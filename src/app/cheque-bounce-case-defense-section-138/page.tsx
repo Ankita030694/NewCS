@@ -7,7 +7,7 @@ import ChequeBounceClient from './ChequeBounceClient';
 
 export const metadata: Metadata = {
     title: "Defending a Cheque Bounce Case (Section 138) in India",
-    description: "Learn how to defend against fake Section 138 cheque bounce legal notices for personal loan defaults. Expert legal roadmap for avoiding jail time and handling DRT.",
+    description: "Learn how to defend against fake Section 138 cheque bounce legal notices for personal loan defaults. Expert legal roadmap for avoiding jail time.",
     keywords: [
         "cheque bounce case section 138",
         "legal notice for loan default",

@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import AxisBankPersonalLoanSettlementClient from './AxisBankPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Axis Bank Personal Loan Settlement: Procedure, Waivers & Legal Defense',
+  title: 'Axis Bank Personal Loan Settlement',
   description:
-    'Navigate Axis Bank personal loan settlement. Learn how to bypass collection agencies, approach regional debt desks, negotiate 40%-55% waivers, and secure an official NDC.',
+    'Navigate Axis Bank personal loan settlement. Learn how to bypass collection agencies, approach regional debt desks, negotiate 40%-55% waivers.',
   keywords: [
     'axis bank personal loan settlement',
     'axis bank loan settlement process',

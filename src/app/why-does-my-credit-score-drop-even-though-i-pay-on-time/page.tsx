@@ -7,7 +7,7 @@ import CreditScoreDropClient from './CreditScoreDropClient';
 
 export const metadata: Metadata = {
     title: "Why Does My Credit Score Drop Even If I Pay on Time?",
-    description: "Confused why your credit score is dropping despite making timely payments? Discover the hidden reasons including CUR, hard inquiries, and errors on your CIBIL report.",
+    description: "Confused why your credit score is dropping despite making timely payments? Discover the hidden reasons including CUR, hard inquiries.",
     keywords: [
         "why does my credit score drop even though i pay on time",
         "credit score dropping despite on time payments",

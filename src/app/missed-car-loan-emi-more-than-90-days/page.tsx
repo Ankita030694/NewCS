@@ -7,7 +7,7 @@ import MissedCarLoanEmiMoreThan90DaysClient from './MissedCarLoanEmiMoreThan90Da
 
 export const metadata: Metadata = {
   title: "Missed Car Loan EMI for More Than 90 Days: Seizure Rules",
-  description: "Learn the legal RBI guidelines for vehicle repossession, pre-seizure notices, and how to stop auto loan repossession when a car loan becomes an NPA after 90 days.",
+  description: "Learn the legal RBI guidelines for vehicle repossession, pre-seizure notices, and how to stop auto loan repossession when a car loan becomes an NPA after.",
   keywords: [
       "missed car loan emi 90 days",
       "vehicle seizure rules India",

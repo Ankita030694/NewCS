@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import BankArbitrationNoticeClient from './BankArbitrationNoticeClient';
 
 export const metadata: Metadata = {
-    title: 'Bank Arbitration Notice for Loan: Process, Rights & Legal Defense',
-    description: 'Received a bank arbitration notice for an unpaid loan? Learn about the Arbitration Act 1996, your legal rights, how to challenge an arbitrator, and effective defense strategies to resolve debt.',
+    title: 'Bank Arbitration Notice for Loan',
+    description: 'Received a bank arbitration notice for an unpaid loan? Learn about the Arbitration Act 1996, your legal rights, how to challenge an arbitrator.',
     keywords: [
         'bank arbitration notice loan',
         'arbitral award for loan default',

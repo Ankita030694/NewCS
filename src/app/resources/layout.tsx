@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CredSettle Resources - Debt Settlement & Legal Guides",
-  description: "Access free resources on loan settlement, debt resolution, RBI guidelines, and legal information. Expert guides, articles, and FAQs to help you understand debt settlement in India.",
+  description: "Access free resources on loan settlement, debt resolution, RBI guidelines, and legal information. Expert guides, articles.",
   keywords: [
     "loan settlement guides",
     "debt settlement articles",

@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import GuarantorRecoveryClient from './GuarantorRecoveryClient';
 
 export const metadata: Metadata = {
-    title: "Can the Bank Contact Your Guarantor for Recovery? Legal Rights",
-    description: "Understand the concept of co-extensive liability under Section 128 of the Indian Contract Act. Learn if banks can harass a guarantor for loan default and how to stop it.",
+    title: "Can the Bank Contact Your Guarantor for Recovery? Legal",
+    description: "Understand the concept of co-extensive liability under Section 128 of the Indian Contract Act. Learn if banks can harass a guarantor for loan default.",
     keywords: [
         "bank recovery from guarantor",
         "guarantor liability in loan default",

@@ -7,8 +7,8 @@ import RiskClient from './RiskClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What Are the Risks of Entering a Debt Settlement Agreement in India?',
-  description: 'Understand the potential risks of debt settlement including CIBIL score impact, legal consequences, and tax implications. Expert guide on settling loans safely.',
+  title: 'What Are the Risks of Entering a Debt Settlement Agreement',
+  description: 'Understand the potential risks of debt settlement including CIBIL score impact, legal consequences, and tax implications.',
   keywords: [
     'risks of debt settlement agreement',
     'debt settlement risks india',

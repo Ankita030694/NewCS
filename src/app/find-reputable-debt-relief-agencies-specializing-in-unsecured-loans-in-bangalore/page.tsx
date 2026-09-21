@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-    title: 'Find Reputable Debt Relief Agencies in Bangalore | Unsecured Loans',
-    description: 'Discover the top reputable debt relief agencies specializing in unsecured loans in Bangalore. Compare firms, understand RBI frameworks, and stop recovery agent harassment today.',
+    title: 'Find Reputable Debt Relief Agencies in Bangalore',
+    description: 'Discover the top reputable debt relief agencies specializing in unsecured loans in Bangalore. Compare firms, understand RBI frameworks.',
     keywords: [
         'reputable debt relief agencies specializing in unsecured loans in bangalore',
         'loan settlement bangalore',

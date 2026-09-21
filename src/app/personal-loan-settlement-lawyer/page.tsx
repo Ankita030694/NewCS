@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import LawyerClient from './LawyerClient';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement Lawyer Near Me | CredSettle Advocate",
-    description: "Facing a Section 138 cheque bounce or civil recovery notice? A personal loan settlement lawyer near me can neutralize bank threats and negotiate watertight settlements.",
+    title: "Personal Loan Settlement Lawyer Near Me",
+    description: "Facing a Section 138 cheque bounce or civil recovery notice? A personal loan settlement lawyer near me can neutralize bank threats and negotiate.",
     keywords: [
         "personal loan settlement lawyer near me",
         "advocate for bank loan default",

@@ -4,7 +4,7 @@ import Script from 'next/script';
 import AppComparisonClient from './AppComparisonClient';
 
 export const metadata: Metadata = {
-  title: 'Compare Feature-Rich Loan Settlement Services in India (2025)',
+  title: 'Compare Feature-Rich Loan Settlement Services in India',
   description: 'Finding the right digital tool to resolve your debt. From legal-centric advocacy to tech-enabled savings models, we compare the top players in the market.',
   keywords: 'loan settlement apps India, debt settlement services compare, AMA Connect app review, FREED vs SingleDebt, digital debt resolution India 2025, RBI digital lending guidelines apps',
   alternates: {

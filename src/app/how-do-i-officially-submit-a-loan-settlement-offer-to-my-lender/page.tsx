@@ -7,8 +7,8 @@ import SubmitOfferClient from './SubmitOfferClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Officially Submit a Loan Settlement Offer to Your Lender | Expert Guide',
-  description: 'Learn the official process to submit a loan settlement offer to your lender. Step-by-step guide on drafting a settlement letter, legal requirements, and negotiation tips.',
+  title: 'How to Officially Submit a Loan Settlement Offer to Your',
+  description: 'Learn the official process to submit a loan settlement offer to your lender. Step-by-step guide on drafting a settlement letter.',
   keywords: [
     'how to submit loan settlement offer',
     'loan settlement offer letter format',

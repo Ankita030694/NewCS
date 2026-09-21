@@ -7,7 +7,7 @@ import CarLoanLawyerClient from './CarLoanLawyerClient';
 
 export const metadata: Metadata = {
     title: 'Best Lawyer for Car Loan Settlement in India | Experts 2025',
-    description: 'Stop vehicle repossession and recovery agent harassment. Get expert legal aid for car loan settlement under RBI rules 2025. Secure OTS and protect your rights.',
+    description: 'Stop vehicle repossession and recovery agent harassment. Get expert legal aid for car loan settlement under RBI rules 2025.',
     keywords: [
         "best lawyer for car loan settlement",
         "car loan settlement lawyer India",

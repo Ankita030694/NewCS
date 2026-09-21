@@ -7,8 +7,8 @@ import ProtectFamilyClient from './ProtectFamilyClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Protect Family Members from Debt Collector Calls in India',
-  description: 'Learn how to protect your family from debt collector harassment. Understand RBI guidelines on recovery agents, legal rights, and how CredSettle can shield your loved ones.',
+  title: 'How to Protect Family Members from Debt Collector Calls in',
+  description: 'Learn how to protect your family from debt collector harassment. Understand RBI guidelines on recovery agents, legal rights.',
   keywords: [
     'protect family from debt collectors',
     'how to stop recovery agent calls to family',

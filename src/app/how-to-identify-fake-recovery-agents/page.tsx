@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import IdentifyFakeAgentsClient from './IdentifyFakeAgentsClient';
 
 export const metadata: Metadata = {
-    title: "How to Identify Fake Recovery Agents in India: RBI Rules (2025)",
-    description: "Learn how to identify fake recovery agents and protect yourself from loan harassment. Explore RBI rules 2024-2025, verification steps, and legal rights for borrowers in India.",
+    title: "How to Identify Fake Recovery Agents in India",
+    description: "Learn how to identify fake recovery agents and protect yourself from loan harassment. Explore RBI rules 2024-2025, verification steps.",
     keywords: [
         "how to identify fake recovery agents",
         "fake recovery agent identification India",

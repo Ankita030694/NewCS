@@ -56,7 +56,7 @@ export default function Settle15LakhPage() {
     "author": {
       "@type": "Person",
       "name": "Ashish Sharma",
-      "url": "https://www.credsettle.com/authors/ashish",
+      "url": "https://www.credsettle.com/author/ashish-jhangra",
     },
     "publisher": {
       "@type": "Organization",

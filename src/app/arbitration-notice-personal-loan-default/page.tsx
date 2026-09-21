@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import ArbitrationNoticePersonalLoanClient from './ArbitrationNoticePersonalLoanClient';
 
 export const metadata: Metadata = {
-  title: 'Received an Arbitration Notice for Loan Default? (How to Reply)',
+  title: 'Received an Arbitration Notice for Loan Default? (How to',
   description:
-    'Did your bank send an Arbitration Notice for a personal loan default? Learn your legal rights, how to challenge the arbitrator, and how to negotiate a settlement.',
+    'Did your bank send an Arbitration Notice for a personal loan default? Learn your legal rights, how to challenge the arbitrator.',
   keywords: [
     'received arbitration notice for personal loan default',
     'how to reply to arbitration notice',

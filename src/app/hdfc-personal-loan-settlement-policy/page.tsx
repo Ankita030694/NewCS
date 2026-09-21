@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import HdfcPersonalLoanSettlementPolicyClient from './HdfcPersonalLoanSettlementPolicyClient';
 
 export const metadata: Metadata = {
-  title: 'HDFC Personal Loan Settlement Policy: Process, Waivers & Legal Rights',
+  title: 'HDFC Personal Loan Settlement Policy',
   description:
-    'Understand HDFC Bank personal loan settlement policy. Learn how to negotiate 40%-55% waivers, resolve legal notices, and secure an official No Dues Certificate.',
+    'Understand HDFC Bank personal loan settlement policy. Learn how to negotiate 40%-55% waivers, resolve legal notices.',
   keywords: [
     'hdfc personal loan settlement policy',
     'hdfc bank loan settlement process',

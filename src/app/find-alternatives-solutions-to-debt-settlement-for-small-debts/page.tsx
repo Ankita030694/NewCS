@@ -7,7 +7,7 @@ import SmallDebtsClient from './SmallDebtsClient';
 
 export const metadata: Metadata = {
     title: "Alternatives to Debt Settlement for Small Debts India 2025",
-    description: "Explore effective alternatives to debt settlement for small debts in India. Learn about Debt Management Plans (DMPs), Snowball vs Avalanche, and loan restructuring.",
+    description: "Explore effective alternatives to debt settlement for small debts in India. Learn about Debt Management Plans (DMPs), Snowball vs Avalanche.",
     keywords: [
         "alternatives to debt settlement for small debts",
         "solutions to debt settlement for small loans",

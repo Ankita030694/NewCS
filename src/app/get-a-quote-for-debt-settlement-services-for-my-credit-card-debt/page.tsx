@@ -7,8 +7,8 @@ import QuoteClient from './QuoteClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Get a Quote for Debt Settlement Services for My Credit Card Debt | CredSettle',
-  description: 'Looking for a debt settlement quote? Learn how to settle your credit card debt for less. Expert negotiation services by CredSettle, AmaLegalSolutions, and SettleLoans.',
+  title: 'Get a Quote for Debt Settlement Services for My Credit Card',
+  description: 'Looking for a debt settlement quote? Learn how to settle your credit card debt for less. Expert negotiation services by CredSettle.',
   keywords: [
     'get a quote for debt settlement services',
     'credit card debt settlement india',

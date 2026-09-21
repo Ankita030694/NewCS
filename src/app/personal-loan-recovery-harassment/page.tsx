@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PersonalLoanRecoveryHarassmentClient from './PersonalLoanRecoveryHarassmentClient';
 
 export const metadata: Metadata = {
-    title: "Stop Personal Loan Recovery Harassment | RBI Rules & Complaints",
-    description: "Learn how to stop personal loan recovery harassment immediately. Know RBI rules for loan recovery agents, file a complaint against bank recovery agents, and protect yourself.",
+    title: "Stop Personal Loan Recovery Harassment",
+    description: "Learn how to stop personal loan recovery harassment immediately. Know RBI rules for loan recovery agents, file a complaint against bank recovery agents.",
     keywords: [
         "stop personal loan recovery harassment",
         "RBI rules for loan recovery agents",

@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import IciciBankPersonalLoanSettlementClient from './IciciBankPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'ICICI Bank Personal Loan Settlement: Legal Process, Waivers & OTS',
+  title: 'ICICI Bank Personal Loan Settlement',
   description:
-    'Settle your defaulted ICICI Bank personal loan legally. Learn how to stop recovery harassment, respond to Section 25 notices, and negotiate 45%-65% OTS waivers directly.',
+    'Settle your defaulted ICICI Bank personal loan legally. Learn how to stop recovery harassment, respond to Section 25 notices.',
   keywords: [
     'icici bank personal loan settlement',
     'icici loan settlement process',

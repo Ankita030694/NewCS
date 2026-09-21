@@ -7,8 +7,8 @@ import LoanSettlementTruthClient from './LoanSettlementTruthClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Is Loan Settlement Illegal in India? The Truth & RBI Guidelines 2024',
-  description: 'The definitive truth about loan settlement legality in India. Is it a crime? RBI guidelines on One-Time Settlement (OTS), your legal rights, and how to settle safely.',
+  title: 'Is Loan Settlement Illegal in India? The Truth & RBI',
+  description: 'The definitive truth about loan settlement legality in India. Is it a crime? RBI guidelines on One-Time Settlement (OTS), your legal rights.',
   keywords: [
     'is loan settlement illegal in india',
     'loan settlement reality india',

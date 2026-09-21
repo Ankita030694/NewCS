@@ -7,8 +7,8 @@ import HowToSettle7DaysLoanAppClient from './HowToSettle7DaysLoanAppClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Settle 7-Days Loan App | Stop Harassment & Debt Relief | CredSettle',
-  description: 'Learn how to settle illegal 7-day loan apps in India. Stop harassment from recovery agents, report cybercrime, and reclaim your financial dignity. Expert legal guide.',
+  title: 'How to Settle 7-Days Loan App | CredSettle',
+  description: 'Learn how to settle illegal 7-day loan apps in India. Stop harassment from recovery agents, report cybercrime, and reclaim your financial dignity.',
   keywords: [
     'how to settle 7 days loan app',
     '7 day loan app harassment',

@@ -7,8 +7,8 @@ import LoanSettlementVsDebtConsolidationClient from './LoanSettlementVsDebtConso
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement vs Debt Consolidation: Which reduces EMI better?',
-  description: 'Struggling with high EMIs? Compare loan settlement services and debt consolidation companies. Find out which is better for reducing your monthly debt burden in India.',
+  title: 'Loan Settlement vs Debt Consolidation',
+  description: 'Struggling with high EMIs? Compare loan settlement services and debt consolidation companies. Find out which is better for reducing your monthly debt.',
   keywords: [
     'loan settlement vs debt consolidation',
     'reducing emi',

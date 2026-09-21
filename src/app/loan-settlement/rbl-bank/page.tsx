@@ -7,8 +7,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'RBL Bank Loan Settlement Process 2026 | OTS & Credit Card Relief',
-  description: 'Expert guide on RBL Bank loan settlement and credit card default resolution. Learn about the OTS scheme, arbitration process, and how to save up to 50% on dues legally.',
+  title: 'RBL Bank Loan Settlement Process 2026',
+  description: 'Expert guide on RBL Bank loan settlement and credit card default resolution. Learn about the OTS scheme, arbitration process.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/rbl-bank',
   },

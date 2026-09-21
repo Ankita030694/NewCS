@@ -7,7 +7,7 @@ import ShouldISettleClient from './ShouldISettleClient';
 
 export const metadata: Metadata = {
     title: "Should I Settle or Restructure My Personal Loan?",
-    description: "Confused between loan settlement and EMI restructuring? Learn the difference, the impact on your CIBIL score, and which option provides better financial relief.",
+    description: "Confused between loan settlement and EMI restructuring? Learn the difference, the impact on your CIBIL score, and which option provides better financial.",
     keywords: [
         "Should I settle or restructure my personal loan",
         "Personal loan settlement vs EMI restructuring",

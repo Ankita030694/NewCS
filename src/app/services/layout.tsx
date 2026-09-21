@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CredSettle Services - Loan Settlement for All Debts",
-  description: "Get comprehensive loan settlement services from CredSettle. Settle credit cards, personal loans, business loans, car loans, app loans & NBFC loans. RBI-compliant settlements with harassment protection.",
+  description: "Get comprehensive loan settlement services from CredSettle. Settle credit cards, personal loans, business loans, car loans, app loans & NBFC loans.",
   keywords: [
     "loan settlement services",
     "debt settlement services",

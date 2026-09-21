@@ -7,8 +7,8 @@ import DebtSettlementClient from './DebtSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Debt Settlement Companies in India for Loan and Credit Card Relief',
-  description: 'Looking for the best debt settlement companies in India? Compare top agencies for loan and credit card debt relief. Expert negotiation and legal protection.',
+  title: 'Best Debt Settlement Companies in India for Loan and Credit',
+  description: 'Looking for the best debt settlement companies in India? Compare top agencies for loan and credit card debt relief.',
   keywords: [
     'best debt settlement companies in india',
     'credit card debt relief india',

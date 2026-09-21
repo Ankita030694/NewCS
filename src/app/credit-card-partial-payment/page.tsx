@@ -7,7 +7,7 @@ import CreditCardPartialPaymentClient from './CreditCardPartialPaymentClient';
 
 export const metadata: Metadata = {
     title: "The Hidden Dangers of Credit Card Partial Payments",
-    description: "Learn what happens when you pay a partial credit card bill. Discover the rules of credit card partial payments vs minimum due, and how they affect compounding interest.",
+    description: "Learn what happens when you pay a partial credit card bill. Discover the rules of credit card partial payments vs minimum due.",
     keywords: [
         "credit card partial payment rules",
         "what happens if you pay partial credit card bill",

@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PrepayingLoanImpactOnCreditScoreClient from './PrepayingLoanImpactOnCreditScoreClient';
 
 export const metadata: Metadata = {
-    title: "Does Prepaying a Loan Improve or Hurt Your Credit Score? (2025)",
-    description: "Discover the nuanced algorithm behind loan pre-closure and how early payoff impacts your CIBIL score. Learn how to mitigate temporary score drops when closing a credit line.",
+    title: "Does Prepaying a Loan Improve or Hurt Your Credit Score?",
+    description: "Discover the nuanced algorithm behind loan pre-closure and how early payoff impacts your CIBIL score. Learn how to mitigate temporary score drops when.",
     keywords: [
         "does prepaying loan improve CIBIL score",
         "early loan payoff impact on credit score",

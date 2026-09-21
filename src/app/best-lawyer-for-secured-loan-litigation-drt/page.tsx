@@ -7,7 +7,7 @@ import SecuredLoanLitigationDRTClient from './SecuredLoanLitigationDRTClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Secured Loan Litigation & DRT India",
-    description: "Expert legal representation for secured loan litigation in DRT. Challenge SARFAESI notices, stop auctions, and defend against illegal possessions with top DRT lawyers in India.",
+    description: "Expert legal representation for secured loan litigation in DRT. Challenge SARFAESI notices, stop auctions, and defend against illegal possessions.",
     keywords: [
         "best lawyer for secured loan litigation drt",
         "best lawyer for secured loan litigation drt india",

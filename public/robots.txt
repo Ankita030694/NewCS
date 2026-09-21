@@ -3,12 +3,13 @@
 
 User-agent: *
 Allow: /
+Disallow: /social/
+Disallow: /whatsapp
+Disallow: /nullify
+Disallow: /authority/
+Disallow: /api/
+Disallow: /success
+Disallow: /thank-you
 
 # Sitemap location
 Sitemap: https://www.credsettle.com/sitemap.xml
-
-
-
-
-
-

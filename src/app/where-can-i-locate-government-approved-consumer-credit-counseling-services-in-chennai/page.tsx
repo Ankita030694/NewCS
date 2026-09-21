@@ -5,7 +5,7 @@ import ChennaiCounselingClient from './ChennaiCounselingClient';
 
 export const metadata: Metadata = {
   title: 'Credit Counseling in Chennai | CredSettle',
-  description: 'Find free, RBI-recognized consumer credit counseling services in Chennai. Locations for Indian Bank FLCC, Disha Financial Counselling, and more. Get expert debt help.',
+  description: 'Find free, RBI-recognized consumer credit counseling services in Chennai. Locations for Indian Bank FLCC, Disha Financial Counselling, and more.',
   keywords: 'credit counseling Chennai, free debt help Chennai, Indian Bank FLCC Chennai, Disha Financial Counselling Chennai, RBI approved credit centers Chennai, debt relief services South India, consumer credit counseling Chennai, government approved debt help Chennai',
   alternates: {
     canonical: 'https://www.credsettle.com/where-can-i-locate-government-approved-consumer-credit-counseling-services-in-chennai',

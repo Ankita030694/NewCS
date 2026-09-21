@@ -7,8 +7,8 @@ import VehicleLoanSettlementClient from './VehicleLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Get the Best Settlement Deal on a Vehicle Loan Using Online Services',
-  description: 'Learn how to negotiate the best vehicle loan settlement deal using online services. Expert tips on OTS letters, debt resolution, and protecting your credit score.',
+  title: 'How to Get the Best Settlement Deal on a Vehicle Loan Using',
+  description: 'Learn how to negotiate the best vehicle loan settlement deal using online services. Expert tips on OTS letters, debt resolution.',
   keywords: [
     'vehicle loan settlement online',
     'best settlement deal on car loan',

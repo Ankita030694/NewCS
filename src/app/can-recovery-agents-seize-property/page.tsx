@@ -7,7 +7,7 @@ import CanRecoveryAgentsSeizePropertyClient from './CanRecoveryAgentsSeizeProper
 export const metadata: Metadata = {
   title: 'Can a Bank Seize Your Property for a Personal Loan Default?',
   description:
-    'Worried that recovery agents will seize your house or assets for an unsecured personal loan? Understand your legal protections and what banks are actually allowed to do.',
+    'Worried that recovery agents will seize your house or assets for an unsecured personal loan? Understand your legal protections and what banks.',
   keywords: [
     'can bank seize property for unsecured personal loan',
     'property attachment for personal loan default',

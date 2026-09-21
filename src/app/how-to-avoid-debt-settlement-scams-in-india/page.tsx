@@ -7,7 +7,7 @@ import AvoidScamsClient from './AvoidScamsClient';
 
 export const metadata: Metadata = {
     title: "Avoid Debt Settlement Scams in India | RBI 2025 Guide",
-    description: "Learn how to identify and avoid debt settlement scams in India. 2025 RBI guidelines, red flags for fake agencies, and a verification checklist for borrowers.",
+    description: "Learn how to identify and avoid debt settlement scams in India. 2025 RBI guidelines, red flags for fake agencies, and a verification checklist.",
     keywords: [
         "how to avoid debt settlement scams in India",
         "fake debt relief companies red flags",

@@ -7,7 +7,7 @@ import PersonalLoanSettlementVsClosureClient from './PersonalLoanSettlementVsClo
 
 export const metadata: Metadata = {
     title: "Loan Settlement vs Closure: Differences & CIBIL Impact",
-    description: "Understand the exact difference between loan settlement vs loan closure. Learn how to convert settled to closed CIBIL status and protect your future credit.",
+    description: "Understand the exact difference between loan settlement vs loan closure. Learn how to convert settled to closed CIBIL status and protect your future.",
     keywords: [
         "loan settlement vs loan closure",
         "difference between settled and closed account",

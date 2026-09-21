@@ -7,7 +7,7 @@ import BestTimeSettlementClient from './BestTimeSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Time for Loan Settlement in India: Expert Strategy & Guidelines',
+  title: 'Best Time for Loan Settlement in India',
   description: 'Discover the best time for loan settlement in India. Learn when to negotiate, the 90-day NPA rule, impact on CIBIL, and expert strategies for debt relief.',
   keywords: [
     'best time for loan settlement',

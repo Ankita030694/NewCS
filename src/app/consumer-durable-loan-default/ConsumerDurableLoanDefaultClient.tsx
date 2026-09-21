@@ -969,7 +969,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </div>
                 <div className="flex flex-wrap gap-2">
                   <Link
-                    href="/settle-personal-loan"
+                    href="/services/personal-loan-settlement"
                     className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] text-xs font-semibold border border-slate-200/80 transition-all"
                   >
                     Personal Loan Settlement
@@ -1118,7 +1118,7 @@ export default function ConsumerDurableLoanDefaultClient() {
               </h4>
               <div className="space-y-1 text-xs">
                 <Link
-                  href="/settle-personal-loan"
+                  href="/services/personal-loan-settlement"
                   className="block text-slate-600 hover:text-[#1886ff] font-medium transition-colors"
                 >
                   &bull; Personal Loan OTS Guide

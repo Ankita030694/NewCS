@@ -5,7 +5,7 @@ import LoanPartiesDisputeResolutionClient from './LoanPartiesDisputeResolutionCl
 
 export const metadata: Metadata = {
     title: 'Loan Parties Dispute Resolution | Expert Legal Help 2025',
-    description: 'Resolve disputes between borrowers, co-applicants, and guarantors. Learn about the Arbitration Act 1996, Mediation Act 2023, and modern ways to settle loan disagreements in India.',
+    description: 'Resolve disputes between borrowers, co-applicants, and guarantors. Learn about the Arbitration Act 1996, Mediation Act 2023.',
     keywords: 'loan parties dispute resolution, multi-party loan agreement litigation, arbitration for loan disputes India, mediation for loans 2025, guarantor vs borrower legal help',
     alternates: {
         canonical: 'https://www.credsettle.com/loan-parties-dispute-resolution'

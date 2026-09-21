@@ -7,7 +7,7 @@ import FindAgenciesClient from './FindAgenciesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Find Reputable Agencies to Settle Credit Card Debt in India | Expert Help',
+  title: 'Find Reputable Agencies to Settle Credit Card Debt in India',
   description: 'Looking for reputable agencies that help settle credit card debt in India? Learn how to choose the best debt settlement company and get debt-free legally.',
   keywords: [
     'Find reputable agencies that help settle credit card debt in India',

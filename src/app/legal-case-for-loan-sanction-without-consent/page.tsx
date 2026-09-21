@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import LoanSanctionWithoutConsentClient from './LoanSanctionWithoutConsentClient';
 
 export const metadata: Metadata = {
-    title: 'Legal Case for Loan Sanction Without Consent | Expert Fraud Defense',
-    description: 'Was a loan sanctioned without your consent? Learn about your legal rights, RBI Ombudsman complaints, and how to stop unauthorized EMI deductions and fix your credit score.',
+    title: 'Legal Case for Loan Sanction Without Consent',
+    description: 'Was a loan sanctioned without your consent? Learn about your legal rights, RBI Ombudsman complaints, and how to stop unauthorized EMI deductions and fix.',
     keywords: 'loan sanction without consent, unauthorized loan disbursement India, illegal loan sanction legal action, RBI Ombudsman loan fraud, credit score rectification for fraud',
     alternates: {
         canonical: 'https://www.credsettle.com/legal-case-for-loan-sanction-without-consent'

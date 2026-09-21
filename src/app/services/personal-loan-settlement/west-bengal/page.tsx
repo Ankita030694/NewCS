@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import WestBengalPageClient from './WestBengalPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Kolkata West Bengal | Howrah Durgapur | Save 70% Debt | CredSettle',
-  description: 'Personal loan settlement in Kolkata, Howrah, Durgapur, Siliguri. Reduce debt 30-70%. IT sector, traders, salaried class. RBI legal process. 13000+ West Bengal clients. Free consultation.',
+  title: 'Loan Settlement Kolkata West Bengal',
+  description: 'Personal loan settlement in Kolkata, Howrah, Durgapur, Siliguri. Reduce debt 30-70%. IT sector, traders, salaried class. RBI legal process.',
   keywords: [
     'loan settlement Kolkata',
     'personal loan settlement West Bengal',

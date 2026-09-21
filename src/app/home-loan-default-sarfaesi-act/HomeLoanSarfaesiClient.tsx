@@ -959,7 +959,7 @@ export default function HomeLoanSarfaesiClient() {
                   <Link href="/how-to-convince-bank-for-one-time-settlement" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
                     Convince Bank for OTS
                   </Link>
-                  <Link href="/best-lawyer-for-personal-loan-settlement" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
+                  <Link href="/services/personal-loan-settlement" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
                     Loan Settlement Lawyer
                   </Link>
                   <Link href="/business-loan-settlement-process" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
@@ -1108,7 +1108,7 @@ export default function HomeLoanSarfaesiClient() {
                 </Link>
 
                 <Link
-                  href="/best-lawyer-for-personal-loan-settlement"
+                  href="/services/personal-loan-settlement"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">

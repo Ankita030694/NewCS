@@ -7,8 +7,8 @@ import PersonalLoanCibilClient from './PersonalLoanCibilClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Bank Provide Personal Loan for CIBIL Defaulters? | 2026 Expert Guide',
-  description: 'Looking for a personal loan with a low CIBIL score? Discover which banks and NBFCs provide personal loans for CIBIL defaulters, eligibility criteria, and quick approval tips.',
+  title: 'Which Bank Provide Personal Loan for CIBIL Defaulters?',
+  description: 'Looking for a personal loan with a low CIBIL score? Discover which banks and NBFCs provide personal loans for CIBIL defaulters.',
   keywords: [
     'which bank provide personal loan for cibil defaulters',
     'personal loan for low cibil score',

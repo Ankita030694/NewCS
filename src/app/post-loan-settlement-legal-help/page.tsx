@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import PostLoanSettlementLegalHelpClient from './PostLoanSettlementLegalHelpClient';
 
 export const metadata: Metadata = {
-    title: 'Post-Loan Settlement Legal Help | Expert CIBIL & NOC Support 2025',
-    description: 'Finished your loan settlement? Ensure your credit score is updated, obtain your NOC, and protect yourself from future harassment with expert legal help in India.',
+    title: 'Post-Loan Settlement Legal Help',
+    description: 'Finished your loan settlement? Ensure your credit score is updated, obtain your NOC, and protect yourself from future harassment with expert legal help.',
     keywords: 'post loan settlement legal help, CIBIL update after settlement India, loan settlement NOC legal notice, RBI settlement guidelines 2025, credit score rectification post-debt',
     alternates: {
         canonical: 'https://www.credsettle.com/post-loan-settlement-legal-help'

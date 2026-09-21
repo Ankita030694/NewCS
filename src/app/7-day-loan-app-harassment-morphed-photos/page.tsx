@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import SevenDayLoanClient from './SevenDayLoanClient';
 
 export const metadata: Metadata = {
-    title: '7 Day Loan App Harassment: Fake Morphed Photos & Cyber Complaint',
-    description: 'Stop fake loan app blackmail. A critical guide on handling morphed photos, blocking 7-day loan app harassment, and filing an immediate cybercrime complaint (1930).',
+    title: '7 Day Loan App Harassment | CredSettle',
+    description: 'Stop fake loan app blackmail. A critical guide on handling morphed photos, blocking 7-day loan app harassment, and filing an immediate cybercrime.',
     alternates: {
         canonical: 'https://www.credsettle.com/7-day-loan-app-harassment-morphed-photos',
     }

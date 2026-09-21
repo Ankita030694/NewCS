@@ -7,7 +7,7 @@ import PersonalLoanClient from './PersonalLoanClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Personal Loans | Expert Debt Defense 2025",
-    description: "Expert legal protection for personal loan defaults. Defend against recovery harassment, Section 138 cases, and aggressive bank notices. Top India debt relief experts.",
+    description: "Expert legal protection for personal loan defaults. Defend against recovery harassment, Section 138 cases, and aggressive bank notices.",
     keywords: [
         "best lawyer for personal loans",
         "personal loan recovery defence",

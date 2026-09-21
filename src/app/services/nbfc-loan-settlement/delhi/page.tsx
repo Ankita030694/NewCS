@@ -4,9 +4,9 @@ import DelhiPageClient from './DelhiPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/delhi';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Delhi NCR | CredSettle Legal Negotiators',
+  title: 'NBFC Loan Settlement Delhi NCR',
   description:
-    'Resolve NBFC loans across Delhi NCR with CredSettle. RBI-compliant settlements, harassment defence, and structured repayment plans for borrowers in Connaught Place, Gurugram, Noida, Ghaziabad, and Faridabad.',
+    'Resolve NBFC loans across Delhi NCR with CredSettle. RBI-compliant settlements, harassment defence, and structured repayment plans for borrowers.',
   keywords: [
     'NBFC loan settlement Delhi',
     'settle NBFC loan NCR',

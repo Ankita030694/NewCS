@@ -7,7 +7,7 @@ import PersonalLoanSettlementAfterDefaultClient from './PersonalLoanSettlementAf
 
 export const metadata: Metadata = {
     title: "Personal Loan Settlement After Default | 2025 Guide",
-    description: "Learn how to settle a personal loan after default. Discover what happens after a personal loan default, the 90-day window, and bank settlement offers after 3 missed EMIs.",
+    description: "Learn how to settle a personal loan after default. Discover what happens after a personal loan default, the 90-day window.",
     keywords: [
         "settle personal loan after default",
         "what happens after personal loan default",

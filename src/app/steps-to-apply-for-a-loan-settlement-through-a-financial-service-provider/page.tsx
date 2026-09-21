@@ -7,8 +7,8 @@ import LoanSettlementStepsClient from './LoanSettlementStepsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Steps to Apply for Loan Settlement via Financial Service Providers',
-  description: 'Learn the exact steps to apply for a loan settlement through a financial service provider. A comprehensive guide on negotiation, documentation, and credit recovery.',
+  title: 'Steps to Apply for Loan Settlement via Financial Service',
+  description: 'Learn the exact steps to apply for a loan settlement through a financial service provider. A comprehensive guide on negotiation.',
   keywords: [
     'steps to apply for a loan settlement',
     'loan settlement process india',

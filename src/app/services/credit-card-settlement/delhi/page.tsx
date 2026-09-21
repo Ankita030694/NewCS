@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import DelhiPageClient from './DelhiPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Delhi NCR Gurgaon Noida | Save 60% | Stop Calls | CredSettle',
-  description: 'Credit card settlement in Delhi, Gurgaon, Noida, Faridabad. Multiple card debt, EMI trap, lifestyle spending. Reduce debt 40-75%. Legal RBI-compliant. 7,800+ Delhi NCR clients debt-free.',
+  title: 'Credit Card Settlement Delhi NCR Gurgaon Noida',
+  description: 'Credit card settlement in Delhi, Gurgaon, Noida, Faridabad. Multiple card debt, EMI trap, lifestyle spending. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Delhi',
     'credit card debt relief NCR',

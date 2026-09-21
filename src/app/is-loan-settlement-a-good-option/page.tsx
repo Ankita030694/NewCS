@@ -7,7 +7,7 @@ import LoanSettlementGoodOptionClient from './LoanSettlementGoodOptionClient';
 
 export const metadata: Metadata = {
     title: "Is Loan Settlement a Good Option? Pros, Cons & Rules",
-    description: "Discover if loan settlement is a good option for your financial situation. Explore the pros, cons, impact on credit score, and 2025 RBI guidelines for debt relief in India.",
+    description: "Discover if loan settlement is a good option for your financial situation. Explore the pros, cons, impact on credit score.",
     keywords: [
         "is loan settlement a good option",
         "loan settlement pros and cons India",

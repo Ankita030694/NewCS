@@ -310,13 +310,13 @@ export default function ContactForm() {
           )}
         </div>
         <div>
-          <label htmlFor="city" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
-            <span style={{ color: 'red' }}>*</span> City
+          <label htmlFor="state" className="block mb-1 text-xs md:text-sm" style={{ color: '#0C2756' }}>
+            <span style={{ color: 'red' }}>*</span> State
           </label>
           <select
-            id="city"
-            name="city"
-            value={formData.city}
+            id="state"
+            name="state"
+            value={formData.state}
             onChange={handleInputChange}
             className="w-full px-1 py-1 md:py-1.5 bg-transparent border-0 border-b-2 border-[#0C2756] focus:outline-none focus:ring-0 text-black text-xs md:text-sm"
           >

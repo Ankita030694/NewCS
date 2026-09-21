@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import KarnatakaPageClient from './KarnatakaPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Bangalore Karnataka | Reduce Debt 70% | IT Professionals | CredSettle',
-  description: 'Personal loan settlement in Bangalore, Mysore, Mangalore, Hubli. Save 30-70% on debt. Bangalore IT sector specialists. RBI legal process. 10000+ Karnataka clients. Free consultation.',
+  title: 'Loan Settlement Bangalore Karnataka',
+  description: 'Personal loan settlement in Bangalore, Mysore, Mangalore, Hubli. Save 30-70% on debt. Bangalore IT sector specialists. RBI legal process.',
   keywords: [
     'loan settlement Bangalore',
     'personal loan settlement Bengaluru',

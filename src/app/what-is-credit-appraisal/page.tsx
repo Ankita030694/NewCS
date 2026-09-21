@@ -7,7 +7,7 @@ import WhatIsCreditAppraisalClient from './WhatIsCreditAppraisalClient';
 
 export const metadata: Metadata = {
     title: "What is a Credit Appraisal Process? | Bank Loan Underwriting",
-    description: "Business owners get rejected for loans repeatedly without understanding why. Demystify the underwriter's desk, and learn how banks evaluate the 5 C's of credit.",
+    description: "Business owners get rejected for loans repeatedly without understanding why. Demystify the underwriter's desk, and learn how banks evaluate the 5 C's.",
     keywords: [
         "what is credit appraisal process",
         "how bank evaluates loan application",

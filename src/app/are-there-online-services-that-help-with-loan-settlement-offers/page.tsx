@@ -7,7 +7,7 @@ import OnlineServicesClient from './OnlineServicesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Are There Online Services That Help With Loan Settlement Offers?',
+  title: 'Are There Online Services That Help With Loan Settlement',
   description: 'Discover how legitimate online loan settlement services work in India. A step-by-step guide to digital debt relief, avoiding scams, and negotiating safely.',
   keywords: [
     'online loan settlement services',

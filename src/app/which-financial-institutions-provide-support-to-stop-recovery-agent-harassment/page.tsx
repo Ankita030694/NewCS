@@ -7,7 +7,7 @@ import SupportClient from './SupportClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Financial Institutions Provide Support to Stop Recovery Agent Harassment?',
+  title: 'Which Financial Institutions Provide Support to Stop',
   description: 'Learn which financial institutions and organizations help stop recovery agent harassment. Know your rights under RBI guidelines and how to file complaints.',
   keywords: [
     'recovery agent harassment',

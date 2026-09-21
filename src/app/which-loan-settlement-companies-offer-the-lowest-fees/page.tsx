@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Which Loan Settlement Company Offers Lowest Fees?',
-  description: 'Discover which loan settlement companies offer the lowest fees in India. Compare success rates, avoid upfront fee scams, and find transparent flat-rate services.',
+  description: 'Discover which loan settlement companies offer the lowest fees in India. Compare success rates, avoid upfront fee scams.',
   keywords: [
     'loan settlement companies lowest fees',
     'debt settlement company fees in India',

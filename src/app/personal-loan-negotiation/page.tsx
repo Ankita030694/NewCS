@@ -7,7 +7,7 @@ import PersonalLoanNegotiationClient from './PersonalLoanNegotiationClient';
 
 export const metadata: Metadata = {
     title: "Personal Loan Negotiation with Bank: Bypass Branch Managers",
-    description: "Learn how to negotiate a personal loan settlement directly with bank decision-makers. Get the escalation matrix and scripts to bypass local branch managers.",
+    description: "Learn how to negotiate a personal loan settlement directly with bank decision-makers. Get the escalation matrix and scripts to bypass local branch.",
     keywords: [
         "personal loan negotiation with bank",
         "how to negotiate loan settlement",

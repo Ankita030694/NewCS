@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PersonalLoanSettlementCalculatorClient from './PersonalLoanSettlementCalculatorClient';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement Calculator 2025 | Estimate Amount in India",
-    description: "Use our personal loan settlement calculator to estimate your loan settlement amount in India. Learn exactly how much to pay based on Principal, DPD, and hardship.",
+    title: "Personal Loan Settlement Calculator 2025",
+    description: "Use our personal loan settlement calculator to estimate your loan settlement amount in India. Learn exactly how much to pay based on Principal.",
     keywords: [
         "personal loan settlement calculator",
         "how much to pay for loan settlement",

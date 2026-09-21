@@ -7,7 +7,7 @@ import ReceiveDocumentsClient from './ReceiveDocumentsClient';
 
 export const metadata: Metadata = {
     title: "Receiving Original Documents After Loan Pre-Closure",
-    description: "Learn the RBI rules regarding the return of original property documents after loan closure. Find out about the 30-day mandate and the Rs. 5000 per day penalty.",
+    description: "Learn the RBI rules regarding the return of original property documents after loan closure. Find out about the 30-day mandate and the Rs.",
     keywords: [
         "original property documents return time",
         "receive documents after loan pre-closure",

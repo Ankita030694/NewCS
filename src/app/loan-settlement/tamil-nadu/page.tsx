@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import TamilNaduLoanSettlementClient from './TamilNaduLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Tamil Nadu: Process, Laws & Lok Adalat Guide',
+  title: 'Loan Settlement in Tamil Nadu | CredSettle',
   description: 'Struggling with debt in Chennai or Tamil Nadu? Learn how to settle loans legally using the Kandhu Vatti Act & Lok Adalat. Stop harassment & save 50%.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/tamil-nadu',

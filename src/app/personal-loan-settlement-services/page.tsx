@@ -7,7 +7,7 @@ import PersonalLoanSettlementServicesClient from './PersonalLoanSettlementServic
 
 export const metadata: Metadata = {
     title: "Best Personal Loan Settlement Services & Agency in India",
-    description: "Looking for professional loan settlement help? Learn how our debt settlement agency in India protects you from DRT litigation, drafts legal notices, and secures your NOC without upfront fee scams.",
+    description: "Looking for professional loan settlement help? Learn how our debt settlement agency in India protects you from DRT litigation.",
     keywords: [
         "best personal loan settlement services",
         "debt settlement agency India",

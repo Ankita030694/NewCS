@@ -7,7 +7,7 @@ import MsmeRestructuringClient from './MsmeRestructuringClient';
 
 export const metadata: Metadata = {
     title: "MSME Business Loan Restructuring vs Settlement in India",
-    description: "Learn the critical differences between MSME loan restructuring and One Time Settlement (OTS). Save your business from NPA status and preserve commercial credit.",
+    description: "Learn the critical differences between MSME loan restructuring and One Time Settlement (OTS). Save your business from NPA status and preserve commercial.",
     keywords: [
         "msme loan restructuring",
         "business loan settlement India",

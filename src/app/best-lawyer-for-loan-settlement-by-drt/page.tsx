@@ -7,7 +7,7 @@ import DRTLoanSettlementClient from './DRTLoanSettlementClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Loan Settlement by DRT (2025)",
-    description: "Find the best lawyer for loan settlement by DRT (Debt Recovery Tribunal) in India. Expert legal help for OTS negotiation, DRT defence, DRAT appeals and bank loan settlements.",
+    description: "Find the best lawyer for loan settlement by DRT (Debt Recovery Tribunal) in India. Expert legal help for OTS negotiation, DRT defence.",
     keywords: [
         "best lawyer for loan settlement by DRT",
         "DRT loan settlement lawyer India",

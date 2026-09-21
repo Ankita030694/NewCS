@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ContactBankingOmbudsmanClient from './ContactBankingOmbudsmanClient';
 
 export const metadata: Metadata = {
-    title: "How to Contact the Banking Ombudsman Regarding Harassment Complaints",
+    title: "How to Contact the Banking Ombudsman Regarding Harassment",
     description: "Learn the exact escalation matrix for filing a formal complaint with the RBI Banking Ombudsman to penalize the bank for harassment by recovery agents.",
     keywords: [
         "RBI banking ombudsman complaint online",

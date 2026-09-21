@@ -7,8 +7,8 @@ import LoanRecoveryClient from './LoanRecoveryClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Recovery Agent Near Me | Protection from Harassment & Legal Help',
-  description: 'Searching for a loan recovery agent near me? Learn about your rights against recovery agent harassment, RBI guidelines, and how to settle your debt legally.',
+  title: 'Loan Recovery Agent Near Me | CredSettle',
+  description: 'Searching for a loan recovery agent near me? Learn about your rights against recovery agent harassment, RBI guidelines, and how to settle your debt.',
   keywords: [
     'loan recovery agent near me',
     'bank recovery agent harassment',

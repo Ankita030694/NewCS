@@ -7,7 +7,7 @@ import ChargesClient from './ChargesClient';
 
 export const metadata: Metadata = {
     title: "Charges for Loan Settlement Services (2025 Guide)",
-    description: "An in-depth analysis of the fees, structures, and exact charges for loan settlement services provided by India’s top ranking financial and legal firms including amalegalsolutions.com.",
+    description: "An in-depth analysis of the fees, structures, and exact charges for loan settlement services provided by India’s top ranking financial and legal firms.",
     keywords: [
         "charges for loan settlement services by top financial firms",
         "amalegalsolutions.com review",

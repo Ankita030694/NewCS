@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import LoanRecoveryNoticeClient from './LoanRecoveryNoticeClient';
 
 export const metadata: Metadata = {
-    title: "Loan Recovery Notice Received: What It Means & How to Respond",
-    description: "Received a loan recovery notice from your bank? Don't panic. Learn the difference between a demand letter and a court summons, and get a legal reply format.",
+    title: "Loan Recovery Notice Received | CredSettle",
+    description: "Received a loan recovery notice from your bank? Don't panic. Learn the difference between a demand letter and a court summons.",
     keywords: [
         "loan recovery notice format",
         "legal notice for bank loan default",

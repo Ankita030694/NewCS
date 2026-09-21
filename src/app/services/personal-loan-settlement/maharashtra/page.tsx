@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import MaharashtraPageClient from './MaharashtraPageClient';
 
 export const metadata: Metadata = {
-  title: 'Personal Loan Settlement Mumbai Pune Maharashtra | Reduce Debt 70% | CredSettle',
-  description: 'Personal loan settlement in Mumbai, Pune, Nagpur. Reduce debt 30-70%, stop recovery calls. Legal RBI process, 8500+ clients, Lok Adalat support. Free consultation 24/7.',
+  title: 'Personal Loan Settlement Mumbai Pune Maharashtra',
+  description: 'Personal loan settlement in Mumbai, Pune, Nagpur. Reduce debt 30-70%, stop recovery calls. Legal RBI process, 8500+ clients, Lok Adalat support.',
   keywords: [
     'personal loan settlement Mumbai',
     'loan settlement Pune',

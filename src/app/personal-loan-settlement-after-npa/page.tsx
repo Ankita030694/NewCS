@@ -7,7 +7,7 @@ import PersonalLoanSettlementAfterNpaClient from './PersonalLoanSettlementAfterN
 
 export const metadata: Metadata = {
     title: "Personal Loan Settlement After NPA | Secret Bank Rules 2025",
-    description: "Discover the hidden advantage of the NPA classification during negotiations. Learn how to settle a personal loan after it hits NPA status with up to 70% waivers.",
+    description: "Discover the hidden advantage of the NPA classification during negotiations. Learn how to settle a personal loan after it hits NPA status with up to 70%.",
     keywords: [
         "personal loan settlement after NPA",
         "NPA loan settlement rules",

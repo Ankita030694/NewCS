@@ -7,7 +7,7 @@ import PersonalLoanSettlementCostClient from './PersonalLoanSettlementCostClient
 
 export const metadata: Metadata = {
     title: "Personal Loan Settlement Company Fees & Costs in India",
-    description: "Understand the true cost of debt settlement in India. Learn how much loan settlement companies charge, how to avoid upfront fee scams, and how legitimate legal fees work.",
+    description: "Understand the true cost of debt settlement in India. Learn how much loan settlement companies charge, how to avoid upfront fee scams.",
     keywords: [
         "personal loan settlement company fees",
         "how much do loan settlement companies charge",

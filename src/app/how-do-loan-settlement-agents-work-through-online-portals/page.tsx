@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'How Online Portals For Loan Settlement Agents Work',
-  description: 'Learn how to engage loan settlement agents through secure online portals. Discover the digital process, verify agents, and negotiate debt relief effectively.',
+  description: 'Learn how to engage loan settlement agents through secure online portals. Discover the digital process, verify agents.',
   keywords: [
     'loan settlement agents',
     'online portals for debt settlement',

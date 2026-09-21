@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
     title: 'Settle Home Loan Faster via Online Platforms',
-    description: 'Learn how modern online platforms can legally expedite your home loan settlement in India. Understand SARFAESI Act implications, DRT procedures, and top debt relief firms.',
+    description: 'Learn how modern online platforms can legally expedite your home loan settlement in India. Understand SARFAESI Act implications, DRT procedures.',
     keywords: [
         'online platforms settle home loan faster',
         'home loan settlement india',

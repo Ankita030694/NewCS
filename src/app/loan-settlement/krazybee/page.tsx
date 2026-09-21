@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'KrazyBee Loan Settlement | Fake Notice Check',
-  description: 'Expert guide to settling KrazyBee / KreditBee loans. Check if your legal notice is FAKE or REAL. Download settlement letter format and stop harassment today.',
+  description: 'Expert guide to settling KrazyBee / KreditBee loans. Check if your legal notice is FAKE or REAL. Download settlement letter format and stop harassment.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/krazybee',
   },

@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Kisetsu Saison Loan Settlement | Privo OTS',
-  description: 'Complete guide to Kisetsu Saison Finance (Credit Saison) & Privo App loan settlement. Download NOC, find customer care email, and stop harassment. Save 50%.',
+  description: 'Complete guide to Kisetsu Saison Finance (Credit Saison) & Privo App loan settlement. Download NOC, find customer care email, and stop harassment.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/kisetsu',
   },

@@ -7,7 +7,7 @@ import DocumentEvidenceClient from './DocumentEvidenceClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Document Evidence of Debt Collector Harassment | Legal Guide',
+  title: 'How to Document Evidence of Debt Collector Harassment',
   description: 'Learn how to document evidence of debt collector harassment effectively. Step-by-step guide on logs, recordings, and legal proof to stop harassment.',
   keywords: [
     'how to document debt collector harassment',

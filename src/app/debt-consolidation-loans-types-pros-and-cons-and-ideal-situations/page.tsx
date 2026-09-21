@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import DebtConsolidationLoansClient from './DebtConsolidationLoansClient';
 
 export const metadata: Metadata = {
-    title: "Debt Consolidation Loans: Types, Pros & Cons, and Ideal Situations",
-    description: "Understand the types of debt consolidation loans available. Discover the pros and cons of debt consolidation and when a personal loan for debt consolidation is the right choice.",
+    title: "Debt Consolidation Loans: Types, Pros & Cons, and Ideal",
+    description: "Understand the types of debt consolidation loans available. Discover the pros and cons of debt consolidation and when a personal loan for debt.",
     keywords: [
         "types of debt consolidation loans",
         "pros and cons of debt consolidation",

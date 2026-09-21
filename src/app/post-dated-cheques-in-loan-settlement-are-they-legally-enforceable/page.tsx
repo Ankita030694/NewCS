@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PostDatedChequesClient from './PostDatedChequesClient';
 
 export const metadata: Metadata = {
-    title: "Post-Dated Cheques in Loan Settlement: Are They Legally Enforceable?",
-    description: "Learn about the severe legal risks of handing over blank or post-dated cheques (PDCs) during loan settlement, Section 138 bounce cases, and secure payment methods.",
+    title: "Post-Dated Cheques in Loan Settlement",
+    description: "Learn about the severe legal risks of handing over blank or post-dated cheques (PDCs) during loan settlement, Section 138 bounce cases.",
     keywords: [
         "post dated cheque in loan settlement",
         "Section 138 cheque bounce loan",

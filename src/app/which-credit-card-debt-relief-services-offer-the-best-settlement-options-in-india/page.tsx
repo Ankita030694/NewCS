@@ -7,8 +7,8 @@ import DebtReliefClient from './DebtReliefClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Credit Card Debt Relief Services in India 2026 | Expert Settlement Options',
-  description: 'Looking for the best credit card debt relief services in India? Compare top settlement options, understand the OTS process, and stop recovery harassment today.',
+  title: 'Best Credit Card Debt Relief Services in India 2026',
+  description: 'Looking for the best credit card debt relief services in India? Compare top settlement options, understand the OTS process, and stop recovery harassment.',
   keywords: [
     'credit card debt relief services india',
     'best debt settlement companies india',

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.credsettle.com/loan-settlement-by-city' },
   title: "Lawyers for Loan Settlement & Debt Relief by City",
   description:
-    "Find expert advocates and lawyers for loan settlement across 1,500+ cities in India. Professional legal assistance to settle your debts and stop bank harassment.",
+    "Find expert advocates and lawyers for loan settlement across 1,500+ Indian cities. Legal assistance to settle debts and stop recovery agent harassment.",
 };
 
 export default function LawyerByCity() {

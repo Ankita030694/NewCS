@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import WhatToDoIfYourBankSendsLegalNoticesRepeatedlyClient from './WhatToDoIfYourBankSendsLegalNoticesRepeatedlyClient';
 
 export const metadata: Metadata = {
-    title: "What to Do If Your Bank Sends Legal Notices Repeatedly (2025)",
-    description: "Are you suffering from notice fatigue? Learn how to distinguish fake WhatsApp notices from genuine DRT and Section 138 summons. Formally reply and build your defense.",
+    title: "What to Do If Your Bank Sends Legal Notices Repeatedly",
+    description: "Are you suffering from notice fatigue? Learn how to distinguish fake WhatsApp notices from genuine DRT and Section 138 summons.",
     keywords: [
         "bank sending legal notice repeatedly",
         "how to reply to bank legal notice",

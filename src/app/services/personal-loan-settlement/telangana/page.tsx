@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import TelanganaPageClient from './TelanganaPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Hyderabad Telangana | IT Pharma Tech | Save 70% | CredSettle',
-  description: 'Personal loan settlement in Hyderabad, Warangal, Nizamabad. IT sector, pharma professionals, tech workers. HITEC City, Gachibowli focus. Reduce debt 30-70%. 11,000+ Telangana clients.',
+  title: 'Loan Settlement Hyderabad Telangana',
+  description: 'Personal loan settlement in Hyderabad, Warangal, Nizamabad. IT sector, pharma professionals, tech workers. HITEC City, Gachibowli focus.',
   keywords: [
     'loan settlement Hyderabad',
     'personal loan settlement Telangana',

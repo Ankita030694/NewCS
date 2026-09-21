@@ -7,7 +7,7 @@ import BestBusinessLoanClient from './BestBusinessLoanClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Business Loan Settlement in India",
-    description: "Connect with the best lawyer for business loan settlement. Expert legal aid for MSMEs, SARFAESI defense, and RBI 2026 compliant debt resolution. Protect your company today.",
+    description: "Connect with the best lawyer for business loan settlement. Expert legal aid for MSMEs, SARFAESI defense, and RBI 2026 compliant debt resolution.",
     keywords: [
         "best lawyer for business loan settlement",
         "business loan settlement lawyer India",

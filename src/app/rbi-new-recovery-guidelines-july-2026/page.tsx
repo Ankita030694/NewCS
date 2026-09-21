@@ -7,7 +7,7 @@ import RBIRecoveryGuidelinesClient from './RBIRecoveryGuidelinesClient';
 
 export const metadata: Metadata = {
     title: "RBI New Recovery Guidelines July 2026",
-    description: "Explore the comprehensive RBI new recovery guidelines effective July 2026. Understand the new rules for debt recovery, borrower protection, and agent conduct in India.",
+    description: "Explore the comprehensive RBI new recovery guidelines effective July 2026. Understand the new rules for debt recovery, borrower protection.",
     keywords: [
         "RBI new recovery guidelines July 2026",
         "RBI recovery agent rules 2026",

@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import ExperianCreditHistoryClient from './ExperianCreditHistoryClient';
 
 export const metadata: Metadata = {
-    title: "Experian Credit History Check vs CIBIL | Why Banks Reject Loans",
-    description: "Understand the key differences between CIBIL and Experian credit history. Find out why banks reject loans when your Experian score is lower than your CIBIL score.",
+    title: "Experian Credit History Check vs CIBIL",
+    description: "Understand the key differences between CIBIL and Experian credit history. Find out why banks reject loans when your Experian score is lower than.",
     keywords: [
         "Experian credit history check",
         "difference between CIBIL and Experian",

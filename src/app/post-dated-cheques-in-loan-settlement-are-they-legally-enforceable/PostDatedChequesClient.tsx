@@ -291,7 +291,7 @@ export default function PostDatedChequesClient() {
                                 </div>
                                 <p className="text-red-700 m-0">
                                     If an agent asks <strong>is blank cheque required for settlement</strong>, your answer must be an unequivocal NO. There is absolutely no RBI guideline that mandates a borrower to provide a cheque for a One Time Settlement (OTS). 
-                                    If you are facing illegal collection practices, read our guide on <Link href="/best-lawyer-for-illegal-loan-recovery-harassment" className="text-red-800 underline font-semibold">stopping illegal loan recovery harassment</Link>.
+                                    If you are facing illegal collection practices, read our guide on <Link href="/services/anti-harassment" className="text-red-800 underline font-semibold">stopping illegal loan recovery harassment</Link>.
                                 </p>
                             </div>
 
@@ -595,7 +595,7 @@ export default function PostDatedChequesClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
-                                    <Link href="/best-lawyer-for-illegal-loan-recovery-harassment" className="block text-sm text-blue-600 hover:underline">Stop Recovery Harassment</Link>
+                                    <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Stop Recovery Harassment</Link>
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Shield</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>
                                 </nav>

@@ -7,7 +7,7 @@ import ChooseProviderClient from './ChooseProviderClient';
 
 export const metadata: Metadata = {
     title: "Choose a Trustworthy Debt Settlement Provider (2025)",
-    description: "Expert tips on selecting a legitimate debt settlement company in India. Check MCA registration, legal expertise, anti-harassment services, and fee transparency 2025.",
+    description: "Expert tips on selecting a legitimate debt settlement company in India. Check MCA registration, legal expertise, anti-harassment services.",
     keywords: [
         "how to choose a debt settlement provider",
         "trustworthy debt relief agency India",

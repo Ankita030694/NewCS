@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import SettleLoanPageClient from './SettleLoanPageClient';
 
 export const metadata: Metadata = {
-  title: 'How to Settle Loan Online | Best Loan Settlement Services India',
+  title: 'How to Settle Loan Online | CredSettle',
   description: 'Learn how to settle loan accounts legally. Avoid harassment, reduce debt by up to 50%, and get legal protection. Expert guide to loan settlement.',
   keywords: [
     'how to settle loan',

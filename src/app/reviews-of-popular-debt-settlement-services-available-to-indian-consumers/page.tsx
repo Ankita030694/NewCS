@@ -7,8 +7,8 @@ import ReviewsClient from './ReviewsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Reviews of Popular Debt Settlement Services in India | 2025 Guide',
-  description: 'In-depth reviews of top debt settlement services in India. Compare CredSettle, Amalegalsolutions, and SettleLoans. Expert analysis on fees, process, and legitimacy.',
+  title: 'Reviews of Popular Debt Settlement Services in India',
+  description: 'In-depth reviews of top debt settlement services in India. Compare CredSettle, Amalegalsolutions, and SettleLoans. Expert analysis on fees.',
   keywords: [
     'reviews of popular debt settlement services available to indian consumers',
     'best debt settlement companies in india reviews',

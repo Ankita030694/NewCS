@@ -7,8 +7,8 @@ import LoanSettlementCIBILClient from './LoanSettlementCIBILClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Does Loan Settlement Affect CIBIL? Impact & Hidden Rules 2025',
-  description: 'Understand how loan settlement affects CIBIL score. Learn why your score drops, the 7-year reporting rule, and how to recover your credit rating after settling debt.',
+  title: 'Does Loan Settlement Affect CIBIL? Impact & Hidden Rules',
+  description: 'Understand how loan settlement affects CIBIL score. Learn why your score drops, the 7-year reporting rule, and how to recover your credit rating after.',
   keywords: [
     'does loan settlement affect cibil',
     'impact of loan settlement on credit score',

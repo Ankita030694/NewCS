@@ -7,7 +7,7 @@ import DoesForeclosureClient from './DoesForeclosureClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Does Foreclosure of Loan Affect CIBIL? | Improve Score After Settlement',
+  title: 'Does Foreclosure of Loan Affect CIBIL?',
   description: 'Learn how loan foreclosure and settlement impact your CIBIL score. Discover expert strategies to improve your credit score after settling a loan in India.',
   keywords: [
     'does foreclosure of loan affect cibil',

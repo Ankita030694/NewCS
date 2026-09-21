@@ -7,8 +7,8 @@ import DebtConsolidationBadCreditClient from './DebtConsolidationBadCreditClient
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Banks Offer Debt Consolidation Loans for Bad Credit in India?',
-  description: 'Looking for debt consolidation loans with bad credit? Discover which banks and NBFCs in India offer flexible options to consolidate your debt and improve your CIBIL score.',
+  title: 'Which Banks Offer Debt Consolidation Loans for Bad Credit',
+  description: 'Looking for debt consolidation loans with bad credit? Discover which banks and NBFCs in India offer flexible options to consolidate your debt and improve.',
   keywords: [
     'debt consolidation loans for bad credit india',
     'which banks offer debt consolidation for bad credit',

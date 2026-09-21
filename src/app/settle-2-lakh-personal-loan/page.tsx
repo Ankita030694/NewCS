@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import SettleTwoLakhPersonalLoanClient from './SettleTwoLakhPersonalLoanClient';
 
 export const metadata: Metadata = {
-  title: 'Settle Your ₹2 Lakh Personal Loan: Process & Expected Waivers',
+  title: 'Settle Your ₹2 Lakh Personal Loan',
   description:
     'Have an outstanding personal loan of ₹2 Lakhs? Learn the exact timeline, legal steps, and how much you can save through a negotiated settlement.',
   keywords: [

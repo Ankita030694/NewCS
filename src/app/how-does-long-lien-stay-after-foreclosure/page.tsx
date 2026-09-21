@@ -7,7 +7,7 @@ import HowDoesLongLienStayClient from './HowDoesLongLienStayClient';
 
 export const metadata: Metadata = {
     title: "How Long Does a Lien Stay After Loan Foreclosure? (2025)",
-    description: "Discover the legal timelines for hypothecation cancellation, bank NOC validity, and steps to remove a lien at the RTO or property registrar after loan foreclosure.",
+    description: "Discover the legal timelines for hypothecation cancellation, bank NOC validity, and steps to remove a lien at the RTO or property registrar after loan.",
     keywords: [
         "lien removal after loan foreclosure",
         "how long does bank take to remove lien",

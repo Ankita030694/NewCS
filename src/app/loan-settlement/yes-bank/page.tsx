@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Yes Bank Loan Settlement Process 2026 | Guide',
-  description: 'Expert guide on Yes Bank loan settlement. Learn how to settle Yes Bank personal loan and credit card dues with up to 50% waiver. Stop harassment and get legal protection.',
+  description: 'Expert guide on Yes Bank loan settlement. Learn how to settle Yes Bank personal loan and credit card dues with up to 50% waiver.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/yes-bank',
   },

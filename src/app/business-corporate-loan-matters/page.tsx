@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import BusinessCorporateLoanMattersClient from './BusinessCorporateLoanMattersClient';
 
 export const metadata: Metadata = {
-    title: 'Business & Corporate Loan Matters | Expert IBC & Debt Recovery 2025',
-    description: 'Expert legal support for corporate loan disputes in India. Navigate the IBC Amendment Bill 2025, NCLT insolvency processes, and strategic corporate debt restructuring.',
+    title: 'Business & Corporate Loan Matters',
+    description: 'Expert legal support for corporate loan disputes in India. Navigate the IBC Amendment Bill 2025, NCLT insolvency processes.',
     keywords: 'business corporate loan matters, corporate debt recovery India, IBC 2025 legal help, NCLT insolvency lawyer, corporate loan restructuring legal support',
     alternates: {
         canonical: 'https://www.credsettle.com/business-corporate-loan-matters'

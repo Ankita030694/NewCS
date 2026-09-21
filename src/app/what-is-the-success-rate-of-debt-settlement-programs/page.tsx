@@ -7,8 +7,8 @@ import SuccessRateClient from './SuccessRateClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Success Rate of Debt Settlement Programs: Real Statistics & Data (2025)',
-  description: 'What is the actual success rate of debt settlement programs? Discover industry statistics, completion rates, and factors that influence success in debt relief.',
+  title: 'Success Rate of Debt Settlement Programs',
+  description: 'What is the actual success rate of debt settlement programs? Discover industry statistics, completion rates, and factors that influence success in debt.',
   keywords: [
     'success rate of debt settlement programs',
     'debt settlement success statistics',

@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import MinimumDebtAmountClient from './MinimumDebtAmountClient';
 
 export const metadata: Metadata = {
-  title: 'Minimum Debt Amount for Settlement | Eligibility & RBI Rules 2025',
-  description: 'What is the minimum debt amount required for debt settlement programs in India? Learn about the ₹1 Lakh threshold, RBI ARC rules 2025, and eligibility for personal, credit card, and business loan settlements.',
+  title: 'Minimum Debt Amount for Settlement',
+  description: 'What is the minimum debt amount required for debt settlement programs in India? Learn about the ₹1 Lakh threshold, RBI ARC rules 2025.',
   keywords: 'minimum debt amount for settlement, debt settlement eligibility india, rbi settlement rules 2025, loan settlement threshold, credit card settlement minimum amount',
   alternates: {
     canonical: 'https://www.credsettle.com/what-is-minimun-debt-amount-required-for-settlement-programs',

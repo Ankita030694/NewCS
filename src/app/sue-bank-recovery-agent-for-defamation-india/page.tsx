@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import DefamationSuitClient from './DefamationSuitClient';
 
 export const metadata: Metadata = {
-    title: 'Can You Sue a Bank or Recovery Agent for Defamation in India?',
-    description: 'Learn how to aggressively counter-attack recovery agent harassment. A complete legal guide to filing defamation suits and claiming compensation for mental agony.',
+    title: 'Can You Sue a Bank or Recovery Agent for Defamation in',
+    description: 'Learn how to aggressively counter-attack recovery agent harassment. A complete legal guide to filing defamation suits and claiming compensation.',
     alternates: {
         canonical: 'https://www.credsettle.com/sue-bank-recovery-agent-for-defamation-india',
     }

@@ -7,8 +7,8 @@ import LoanSettlementClient from './LoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '#1 Loan Settlement Services in India | Expert Debt Resolution & Recovery',
-  description: 'Looking for the best loan settlement services in India? Get expert legal help to settle your personal loans, credit cards, and business debts. RBI compliant recovery protection.',
+  title: '#1 Loan Settlement Services in India',
+  description: 'Looking for the best loan settlement services in India? Get expert legal help to settle your personal loans, credit cards, and business debts.',
   keywords: [
     'loan settlement services in india',
     'best loan settlement company india',

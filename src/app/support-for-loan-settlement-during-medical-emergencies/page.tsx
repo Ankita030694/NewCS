@@ -7,7 +7,7 @@ import MedicalEmergencySettlementClient from './MedicalEmergencySettlementClient
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Support for Medical Emergencies | Debt Relief India',
+  title: 'Loan Settlement Support for Medical Emergencies',
   description: 'Facing financial distress due to medical emergencies? Get expert support for loan settlement and debt relief. Understand RBI guidelines and your rights.',
   keywords: [
     'support for loan settlement during medical emergencies',

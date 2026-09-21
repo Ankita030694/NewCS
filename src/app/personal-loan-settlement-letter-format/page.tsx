@@ -7,7 +7,7 @@ import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
     title: "Personal Loan Settlement Letter Format (Free Template)",
-    description: "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt settlement.",
+    description: "Download our free, professionally drafted personal loan settlement letter format. Learn exactly what to write to your bank manager to initiate debt.",
     alternates: {
         canonical: 'https://www.credsettle.com/personal-loan-settlement-letter-format',
     },

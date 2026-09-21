@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import AndhraPradeshPageClient from './AndhraPradeshPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Visakhapatnam Vijayawada Andhra Pradesh | Save 60% | CredSettle',
-  description: 'Credit card settlement in Visakhapatnam, Vijayawada, Guntur, Tirupati. Business expansion debt, IT park expenses, family obligations. Reduce debt 40-75%. Legal RBI-compliant. 3,900+ Andhra Pradesh clients debt-free.',
+  title: 'Credit Card Settlement Visakhapatnam Vijayawada Andhra',
+  description: 'Credit card settlement in Visakhapatnam, Vijayawada, Guntur, Tirupati. Business expansion debt, IT park expenses, family obligations. Reduce debt 40-75%.',
   keywords: [
     'credit card settlement Visakhapatnam',
     'credit card debt relief Andhra Pradesh',

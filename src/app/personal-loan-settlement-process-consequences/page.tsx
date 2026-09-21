@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import PersonalLoanSettlementProcessConsequencesClient from './PersonalLoanSettlementProcessConsequencesClient';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement Process and Its Long-Term Consequences",
+    title: "Personal Loan Settlement Process and Its Long-Term",
     description: "Learn the step-by-step personal loan settlement process and understand the brutal 7-year aftermath of a 'Settled' status on your CIBIL score.",
     keywords: [
         "personal loan settlement process",

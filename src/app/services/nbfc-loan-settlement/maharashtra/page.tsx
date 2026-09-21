@@ -4,9 +4,9 @@ import MaharashtraPageClient from './MaharashtraPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/maharashtra';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Maharashtra | CredSettle Legal Debt Relief',
+  title: 'NBFC Loan Settlement Maharashtra',
   description:
-    'Work with CredSettle to close NBFC loans across Maharashtra. Legal RBI-compliant settlements, harassment protection, 40-70% reductions. Specialists for Mumbai, Pune, Nagpur, Nashik borrowers.',
+    'Work with CredSettle to close NBFC loans across Maharashtra. Legal RBI-compliant settlements, harassment protection, 40-70% reductions.',
   keywords: [
     'NBFC loan settlement Maharashtra',
     'NBFC settlement Mumbai',

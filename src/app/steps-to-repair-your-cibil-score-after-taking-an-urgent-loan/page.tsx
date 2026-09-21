@@ -7,7 +7,7 @@ import StepsToRepairCibilClient from './StepsToRepairCibilClient';
 
 export const metadata: Metadata = {
     title: "Steps to Repair Your CIBIL Score After Taking an Urgent Loan",
-    description: "Urgent loans damage your CIBIL score. Learn how to fix your CIBIL score fast and repair credit after taking instant personal loans with our step-by-step guide.",
+    description: "Urgent loans damage your CIBIL score. Learn how to fix your CIBIL score fast and repair credit after taking instant personal loans with our step-by-step.",
     keywords: [
         "how to improve CIBIL after taking instant loan",
         "fix CIBIL score fast",

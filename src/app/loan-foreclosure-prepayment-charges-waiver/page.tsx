@@ -7,7 +7,7 @@ import LoanForeclosurePrepaymentChargesWaiverClient from './LoanForeclosurePrepa
 
 export const metadata: Metadata = {
     title: "Loan Foreclosure & Prepayment Charges Waiver Letter",
-    description: "Learn how to request a waiver of foreclosure charges on your loan. Discover the RBI guidelines on prepayment penalties and get free waiver letter formats for banks.",
+    description: "Learn how to request a waiver of foreclosure charges on your loan. Discover the RBI guidelines on prepayment penalties and get free waiver letter formats.",
     keywords: [
         "foreclosure charges waiver letter format",
         "waive prepayment penalty bank",

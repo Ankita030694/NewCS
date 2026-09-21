@@ -7,7 +7,7 @@ import CibilDisputeClient from './CibilDisputeClient';
 
 export const metadata: Metadata = {
     title: "CIBIL Dispute: How to Fix Wrong Overdue Entries",
-    description: "Paid your loan but the bank reported it as overdue? Discover the exact escalation matrix for filing a formal CIBIL dispute and resolving credit score errors.",
+    description: "Paid your loan but the bank reported it as overdue? Discover the exact escalation matrix for filing a formal CIBIL dispute and resolving credit score.",
     keywords: [
         "CIBIL dispute resolution process",
         "wrong overdue entry in CIBIL",

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
     title: 'Best Lawyer for Trading Loan Settlement in India',
-    description: 'Looking for the best lawyer for trading loan or margin funding settlement in India? Expert legal aid for MTF, LAS, and stock market debt resolution. Stop harassment today.',
+    description: 'Looking for the best lawyer for trading loan or margin funding settlement in India? Expert legal aid for MTF, LAS, and stock market debt resolution.',
     keywords: 'best lawyer for trading loan settlement, margin funding settlement India, trading debt resolution, SEBI ODR portal lawyer, MTF loan settlement, LAS settlement India',
     alternates: {
         canonical: 'https://www.credsettle.com/best-lawyer-for-trading-loan-settlement',

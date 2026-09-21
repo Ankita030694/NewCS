@@ -4,9 +4,9 @@ import AndhraPradeshPageClient from './AndhraPradeshPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/andhra-pradesh';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Andhra Pradesh | CredSettle Legal Solutions',
+  title: 'NBFC Loan Settlement Andhra Pradesh',
   description:
-    'Resolve NBFC loans in Andhra Pradesh with CredSettle. Andhra-specific negotiation strategies, RBI compliance, harassment defence, and structured settlements for borrowers in Visakhapatnam, Vijayawada, Tirupati, and beyond.',
+    'Resolve NBFC loans in Andhra Pradesh with CredSettle. Andhra-specific negotiation strategies, RBI compliance, harassment defence.',
   keywords: [
     'NBFC loan settlement Andhra Pradesh',
     'NBFC settlement Visakhapatnam',

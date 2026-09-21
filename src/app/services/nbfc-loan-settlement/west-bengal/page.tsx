@@ -4,9 +4,9 @@ import WestBengalPageClient from './WestBengalPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/west-bengal';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement West Bengal | CredSettle Port and Tea Belt Desk',
+  title: 'NBFC Loan Settlement West Bengal',
   description:
-    'Resolve NBFC loans across West Bengal with CredSettle. Kolkata, Howrah, Siliguri, Durgapur, and Haldia borrowers receive RBI-compliant negotiation, harassment defence, and structured repayment planning.',
+    'Resolve NBFC loans across West Bengal with CredSettle. Kolkata, Howrah, Siliguri, Durgapur, and Haldia borrowers receive RBI-compliant negotiation.',
   keywords: [
     'NBFC loan settlement West Bengal',
     'NBFC settlement Kolkata',

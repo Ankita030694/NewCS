@@ -7,8 +7,8 @@ import LoanSettlementAgenciesClient from './LoanSettlementAgenciesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top-Rated Loan Settlement Agencies in India for Reducing Credit Card Debt',
-  description: 'Looking for the best loan settlement agencies in India? Compare top-rated companies for credit card debt relief and learn how to reduce your debt effectively.',
+  title: 'Top-Rated Loan Settlement Agencies in India for Reducing',
+  description: 'Looking for the best loan settlement agencies in India? Compare top-rated companies for credit card debt relief and learn how to reduce your debt.',
   keywords: [
     'top-rated loan settlement agencies in india',
     'credit card debt reduction india',

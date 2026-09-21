@@ -17,6 +17,26 @@ export async function generateStaticParams() {
   return params;
 }
 
+function getCCStateMetaTitle(bankName: string, stateName: string): string {
+  const full = `${bankName} Settlement in ${stateName} | CredSettle`;
+  if (full.length <= 60) return full;
+  const short = `${bankName} Card Settlement in ${stateName}`;
+  if (short.length <= 60) return short;
+  return `${bankName} Settlement - ${stateName}`.slice(0, 60);
+}
+
+function getCCStateMetaDescription(bankName: string, stateName: string): string {
+  let desc = `Facing ${bankName} credit card harassment in ${stateName}? CredSettle provides legal debt resolution & protection. Free consultation.`;
+  if (desc.length <= 155 && desc.length >= 130) return desc;
+  if (desc.length > 155) {
+    desc = `Facing ${bankName} harassment in ${stateName}? CredSettle negotiates credit card settlements legally. Free consultation.`;
+  }
+  if (desc.length < 130) {
+    desc = `Facing ${bankName} credit card debt harassment in ${stateName}? CredSettle negotiates settlements legally and protects your rights. Free consultation.`;
+  }
+  return desc;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; "state-slug": string }> }) {
   const { slug, "state-slug": stateSlug } = await params;
   const bank = creditCardBanks.find((b) => b.slug === slug);
@@ -24,9 +44,23 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!bank || !state) return {};
 
+  const metaTitle = getCCStateMetaTitle(bank.name, state.name);
+  const metaDescription = getCCStateMetaDescription(bank.name, state.name);
+
   return {
-    title: `${bank.name} Credit Card Settlement Lawyers in ${state.name} | CredSettle`,
-    description: `Facing harassment from ${bank.name} in ${state.name}? CredSettle negotiates credit card settlements legally, leveraging ${state.highCourt} precedents to protect you.`,
+    title: metaTitle,
+    description: metaDescription,
+    openGraph: {
+      title: metaTitle,
+      description: metaDescription,
+      url: `https://www.credsettle.com/credit-card-settlement/${bank.slug}/${state.slug}`,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: metaTitle,
+      description: metaDescription,
+    },
     robots: {
       index: true,
       follow: true,

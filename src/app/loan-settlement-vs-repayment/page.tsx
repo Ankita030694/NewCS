@@ -7,8 +7,8 @@ import LoanSettlementVsRepaymentClient from './LoanSettlementVsRepaymentClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement vs Repayment: Which is Better for Your Credit Score?',
-  description: 'Understand the critical differences between loan settlement vs repayment in India. Learn about CIBIL impact, future loan eligibility, and the best way to clear your debt.',
+  title: 'Loan Settlement vs Repayment | CredSettle',
+  description: 'Understand the critical differences between loan settlement vs repayment in India. Learn about CIBIL impact, future loan eligibility.',
   keywords: [
     'loan settlement vs repayment',
     'impact of loan settlement on cibil',

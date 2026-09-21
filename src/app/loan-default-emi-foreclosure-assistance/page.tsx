@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import LoanDefaultEmiForeclosureAssistanceClient from './LoanDefaultEmiForeclosureAssistanceClient';
 
 export const metadata: Metadata = {
-    title: 'Loan Default & EMI Foreclosure Assistance | Legal Defense 2025',
-    description: 'Stop home loan foreclosure and save your property. Learn about SARFAESI Act rights, Sec 13(2) and 13(4) notices, and expert DRT defense strategies to prevent auctions in India.',
+    title: 'Loan Default & EMI Foreclosure Assistance',
+    description: 'Stop home loan foreclosure and save your property. Learn about SARFAESI Act rights, Sec 13(2) and 13(4) notices, and expert DRT defense strategies.',
     keywords: 'loan default EMI assistance, foreclosure legal help India, SARFAESI Act notice defense, save home from loan auction, DRT lawyer for foreclosure',
     alternates: {
         canonical: 'https://www.credsettle.com/loan-default-emi-foreclosure-assistance'

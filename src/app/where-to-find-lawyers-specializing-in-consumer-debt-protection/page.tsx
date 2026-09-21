@@ -7,8 +7,8 @@ import LawyersClient from './LawyersClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Where to Find Lawyers Specializing in Consumer Debt Protection in India',
-  description: 'Looking for legal help with debt harassment? Discover where to find top lawyers specializing in consumer debt protection and learn your rights against recovery agents.',
+  title: 'Where to Find Lawyers Specializing in Consumer Debt',
+  description: 'Looking for legal help with debt harassment? Discover where to find top lawyers specializing in consumer debt protection and learn your rights against.',
   keywords: [
     'consumer debt protection lawyers',
     'debt collection defense attorney',

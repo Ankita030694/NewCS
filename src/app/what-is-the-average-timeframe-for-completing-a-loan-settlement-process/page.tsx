@@ -7,7 +7,7 @@ import TimeframeClient from './TimeframeClient';
 
 export const metadata: Metadata = {
     title: "Average Timeframe for Loan Settlement in India (2025)",
-    description: "How long does loan settlement take? Discover the average timeframe, key stages from default to 'No Dues Certificate', and factors affecting the duration in 2025.",
+    description: "How long does loan settlement take? Discover the average timeframe, key stages from default to 'No Dues Certificate'.",
     keywords: [
         "average timeframe for loan settlement",
         "how long does it take to settle a loan",

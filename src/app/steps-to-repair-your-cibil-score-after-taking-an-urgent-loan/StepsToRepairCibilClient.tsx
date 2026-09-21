@@ -205,7 +205,7 @@ export default function StepsToRepairCibilClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
 
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Steps to Repair Your CIBIL Score After Taking an Urgent Loan</h2>
+              <h1 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Steps to Repair Your CIBIL Score After Taking an Urgent Loan</h1>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Imagine checking your credit report after resolving a minor financial emergency, only to find that your CIBIL score has completely crashed. This is the reality for thousands of borrowers who use instant 7 day loan apps. A quick cash advance is never just a simple transaction; in our current financial ecosystem, it rapidly transforms into a credit destroying mechanism that can feel as suffocating as the debt itself. The psychological weight of a ruined credit score while you are trying to stabilize your finances is a burden that no one should carry alone.

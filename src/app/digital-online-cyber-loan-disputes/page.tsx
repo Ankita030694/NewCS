@@ -5,7 +5,7 @@ import DigitalOnlineCyberLoanDisputesClient from './DigitalOnlineCyberLoanDisput
 
 export const metadata: Metadata = {
     title: 'Digital Online & Cyber Loan Disputes | Legal Defense 2025',
-    description: 'Victim of digital loan fraud or illegal app harassment? Learn your rights under RBI 2025 guidelines, file cybercrime FIRs, and protect your privacy from predatory lenders.',
+    description: 'Victim of digital loan fraud or illegal app harassment? Learn your rights under RBI 2025 guidelines, file cybercrime FIRs.',
     keywords: 'digital loan disputes India, cyber loan fraud legal help, RBI digital lending guidelines 2025, stop illegal loan app harassment, cybercrime FIR loan app',
     alternates: {
         canonical: 'https://www.credsettle.com/digital-online-cyber-loan-disputes'

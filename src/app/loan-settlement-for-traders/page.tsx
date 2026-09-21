@@ -7,7 +7,7 @@ import TradersSettlementClient from './TradersSettlementClient';
 
 export const metadata: Metadata = {
     title: "Loan Settlement for Traders (2025 Recovery Guide)",
-    description: "Expert guide on loan settlement for traders in India. Learn about RBI rules, debt negotiation for trading losses, and how to settle MTF or business loans while protecting your assets.",
+    description: "Expert guide on loan settlement for traders in India. Learn about RBI rules, debt negotiation for trading losses, and how to settle MTF or business loans.",
     keywords: [
         "loan settlement for traders",
         "trader debt recovery India",

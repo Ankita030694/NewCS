@@ -7,7 +7,7 @@ import CreditScoreClient from './CreditScoreClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Get 800 Credit Score in India | Step-by-Step Guide 2026',
+  title: 'How to Get 800 Credit Score in India',
   description: 'Master the art of reaching an 800+ credit score in India. Expert tips on CIBIL improvement, credit utilization, repayment discipline, and error correction.',
   keywords: [
     'how to get 800 credit score in india',

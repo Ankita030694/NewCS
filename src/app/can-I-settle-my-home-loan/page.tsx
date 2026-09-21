@@ -9,8 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faCheckCircle, faExclamationTriangle, faFileAlt, faMoneyBillWave, faPhone, faBalanceScale, faGavel, faLandmark, faCalculator } from '@fortawesome/free-solid-svg-icons';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle My Home Loan in India? | Process, NPA & SARFAESI Guide',
-  description: 'Wondering "Can I settle my home loan?" Learn the complete process, RBI guidelines, NPA classification, SARFAESI Act rights, tax implications, and how to negotiate a one-time settlement (OTS).',
+  title: 'Can I Settle My Home Loan in India?',
+  description: 'Wondering "Can I settle my home loan?" Learn the complete process, RBI guidelines, NPA classification, SARFAESI Act rights, tax implications.',
   keywords: [
     'can I settle my home loan',
     'home loan settlement process india',

@@ -7,7 +7,7 @@ import LoanPaymentNotReflectedClient from './LoanPaymentNotReflectedClient';
 
 export const metadata: Metadata = {
     title: "Loan Payment Not Reflected on Time: Prevent Penalties",
-    description: "Learn what to do when NEFT/RTGS glitches or NACH mandate delays cause EMIs to bounce despite sufficient funds. Force banks to reverse unfair penal interest.",
+    description: "Learn what to do when NEFT/RTGS glitches or NACH mandate delays cause EMIs to bounce despite sufficient funds. Force banks to reverse unfair penal.",
     keywords: [
         "loan payment not reflected on time",
         "EMI deducted but not showing",

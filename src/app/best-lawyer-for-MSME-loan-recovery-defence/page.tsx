@@ -7,7 +7,7 @@ import MSMELoanRecoveryClient from './MSMELoanRecoveryClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for MSME Loan Recovery Defence (2025)",
-    description: "Facing MSME loan recovery? Get expert legal defence against SARFAESI Act, DRT proceedings, and recovery harassment. Navigate MSME Samadhaan for debt relief in India.",
+    description: "Facing MSME loan recovery? Get expert legal defence against SARFAESI Act, DRT proceedings, and recovery harassment.",
     keywords: [
         "best lawyer for MSME loan recovery defence",
         "MSME loan debt relief India",

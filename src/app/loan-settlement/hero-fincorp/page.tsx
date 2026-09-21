@@ -5,8 +5,8 @@ import Footer from '@/components/Footer';
 import HeroFincorpLoanSettlementClient from './HeroFincorpLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Hero Fincorp Loan Settlement | Close Two-Wheeler & Personal Loans',
-  description: 'Can’t pay your Hero Fincorp loan? Stop EMI bounce charges and arbitration notices. Expert legal help for One Time Settlement (OTS) of bike and personal loans.',
+  title: 'Hero Fincorp Loan Settlement | CredSettle',
+  description: 'Can’t pay your Hero Fincorp loan? Stop EMI bounce charges and arbitration notices. Expert legal help for One Time Settlement (OTS) of bike and personal.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/hero-fincorp',
   },

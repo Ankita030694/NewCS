@@ -7,8 +7,8 @@ import DebtManagementClient from './DebtManagementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '#1 Debt Management Services in India | Expert Debt Relief & Settlement',
-  description: 'Struggling with debt? Get the #1 debt management services in India. We help you consolidate loans, negotiate settlements, and stop recovery agent harassment legally.',
+  title: '#1 Debt Management Services in India',
+  description: 'Struggling with debt? Get the #1 debt management services in India. We help you consolidate loans, negotiate settlements.',
   keywords: [
     'debt management services in india',
     'best debt settlement companies in india',

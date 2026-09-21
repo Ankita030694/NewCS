@@ -46,11 +46,17 @@ const getValidDescription = (blog: { metaDescription?: string; subtitle?: string
     IGNORED_DESCRIPTIONS.some(ignored => text.trim() === ignored.trim()) ||
     text.startsWith("Loan Settlement Services | Credit Card Loan Settlement");
 
-  if (!isInvalid(blog.metaDescription)) return blog.metaDescription!;
-  if (!isInvalid(blog.subtitle)) return blog.subtitle!;
+  const clampDesc = (desc: string) => {
+    const cleaned = desc.trim();
+    if (cleaned.length <= 155) return cleaned;
+    return cleaned.slice(0, 152).trim() + '...';
+  };
+
+  if (!isInvalid(blog.metaDescription)) return clampDesc(blog.metaDescription!);
+  if (!isInvalid(blog.subtitle)) return clampDesc(blog.subtitle!);
 
   const content = stripHtml(blog.description);
-  return content.slice(0, 160) + (content.length > 160 ? '...' : '');
+  return clampDesc(content);
 };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -75,11 +81,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const DEFAULT_META_TITLE = 'CredSettle Blog | Expert Debt Relief Insights';
   const optimizedTitle = OPTIMIZED_TITLES[canonicalSlug] || OPTIMIZED_TITLES[slug];
 
-  const effectiveTitle =
+  const rawTitle =
     optimizedTitle ||
     (blog.metaTitle && blog.metaTitle.trim() !== '' && blog.metaTitle !== DEFAULT_META_TITLE
       ? blog.metaTitle
       : blog.title);
+
+  const effectiveTitle = rawTitle.length <= 60 ? rawTitle : (rawTitle.slice(0, 57).trim() + '...');
 
   return {
     title: effectiveTitle,

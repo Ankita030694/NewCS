@@ -7,7 +7,7 @@ import EMIManagementClient from './EMIManagementClient';
 
 export const metadata: Metadata = {
     title: 'Manage EMI Payments in India | CredSettle',
-    description: "Struggling with loan repayments? Master EMI management with strategic prepayments, debt avalanche methods, and expert advice from CredSettle and Amalegal Solutions.",
+    description: "Struggling with loan repayments? Master EMI management with strategic prepayments, debt avalanche methods, and expert advice from CredSettle and Amalegal.",
     keywords: [
         "smart ways to manage emi payment",
         "how to reduce loan tenure india",

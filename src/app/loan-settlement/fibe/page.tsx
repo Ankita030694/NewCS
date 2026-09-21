@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Fibe (EarlySalary) Loan Settlement | NPA Help',
-  description: 'Settle Fibe loan (Social Worth Technologies) with up to 50% waiver. Expert legal help for EarlySalary default, harassment complaints (020-67639797), and NPA settlement.',
+  description: 'Settle Fibe loan (Social Worth Technologies) with up to 50% waiver. Expert legal help for EarlySalary default, harassment complaints (020-67639797).',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/fibe',
   },

@@ -7,7 +7,7 @@ import StartupSettlementClient from './StartupSettlementClient';
 
 export const metadata: Metadata = {
     title: "Loan Settlement for Startup Founders (2025 Guide)",
-    description: "Discover the detailed legalities and processes of loan settlement for Indian startup founders. Understand personal guarantees, RBI guidelines, and IBC implications to achieve debt freedom.",
+    description: "Discover the detailed legalities and processes of loan settlement for Indian startup founders. Understand personal guarantees, RBI guidelines.",
     keywords: [
         "loan settlement for startup founders",
         "startup debt settlement India",

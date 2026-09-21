@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PersonalLoanDebtSettlementClient from './PersonalLoanDebtSettlementClient';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Debt Settlement India | Write Off Unsecured Debt",
-    description: "Learn the financial mechanics of personal loan debt settlement in India. Understand the difference between consolidation and settlement, CIBIL impact, and how to write off personal loan debt legally.",
+    title: "Personal Loan Debt Settlement India",
+    description: "Learn the financial mechanics of personal loan debt settlement in India. Understand the difference between consolidation and settlement.",
     keywords: [
         "personal loan debt settlement India",
         "debt relief for personal loans",

@@ -7,7 +7,7 @@ import DRTLoanAssignmentDisputeClient from './DRTLoanAssignmentDisputeClient';
 
 export const metadata: Metadata = {
     title: "DRT Loan Assignment Dispute Defence Lawyer (2025)",
-    description: "Looking for the best lawyer for DRT loan assignment dispute defence? Get expert legal help to challenge loan assignment to ARC, fight SARFAESI notices and defend your rights in DRT proceedings across India.",
+    description: "Looking for the best lawyer for DRT loan assignment dispute defence? Get expert legal help to challenge loan assignment to ARC.",
     keywords: [
         "best lawyer for DRT loan assignment dispute defence in DRT",
         "DRT loan assignment dispute lawyer India",

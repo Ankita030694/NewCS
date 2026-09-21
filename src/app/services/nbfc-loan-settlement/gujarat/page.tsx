@@ -4,9 +4,9 @@ import GujaratPageClient from './GujaratPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/gujarat';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Gujarat | CredSettle Industrial Corridor Desk',
+  title: 'NBFC Loan Settlement Gujarat | CredSettle',
   description:
-    'Resolve NBFC loans across Gujarat with CredSettle. Ahmedabad, Surat, Vadodara, Rajkot, and Kutch borrowers receive RBI compliant negotiation, harassment defence, and structured repayment planning.',
+    'Resolve NBFC loans across Gujarat with CredSettle. Ahmedabad, Surat, Vadodara, Rajkot, and Kutch borrowers receive RBI compliant negotiation.',
   keywords: [
     'NBFC loan settlement Gujarat',
     'NBFC settlement Ahmedabad',

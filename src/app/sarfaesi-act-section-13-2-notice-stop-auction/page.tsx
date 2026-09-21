@@ -7,7 +7,7 @@ import SarfaesiAuctionClient from './SarfaesiAuctionClient';
 
 export const metadata: Metadata = {
     title: "SARFAESI Act Section 13(2) Notice: Stop Bank Auction",
-    description: "Received a SARFAESI Act Section 13(2) notice? Learn how to stop bank property auctions, file 13(3A) objections, and secure DRT stay orders for your home loan.",
+    description: "Received a SARFAESI Act Section 13(2) notice? Learn how to stop bank property auctions, file 13(3A) objections, and secure DRT stay orders for your home.",
     keywords: [
         "sarfaesi act notice section 13(2)",
         "stop bank auction property India",

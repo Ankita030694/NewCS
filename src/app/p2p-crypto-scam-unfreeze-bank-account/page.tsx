@@ -7,7 +7,7 @@ import P2PCryptoScamClient from './P2PCryptoScamClient';
 
 export const metadata: Metadata = {
     title: 'Unfreeze Bank Account After P2P Crypto Scam | CredSettle',
-    description: "Your bank account frozen due to a P2P crypto scam? Learn how to unfreeze it, navigate Section 91 CrPC/BNSS notices, and clear your name with our 2025 expert guide.",
+    description: "Your bank account frozen due to a P2P crypto scam? Learn how to unfreeze it, navigate Section 91 CrPC/BNSS notices, and clear your name with our 2025.",
     keywords: [
         "p2p crypto scam unfreeze bank account",
         "how to unfreeze bank account for crypto p2p in india",

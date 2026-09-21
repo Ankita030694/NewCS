@@ -7,7 +7,7 @@ import TataCapitalLoanSettlementClient from './TataCapitalLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Tata Capital Loan Settlement Process 2026 | Guide to OTS & NOC',
+  title: 'Tata Capital Loan Settlement Process 2026',
   description: 'Complete guide to Tata Capital loan settlement. Learn how to settle personal and business loans, format your settlement letter, and save up to 50% on dues.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/tata-capital',

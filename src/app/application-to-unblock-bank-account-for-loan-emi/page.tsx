@@ -7,7 +7,7 @@ import ApplicationToUnblockBankAccountForLoanEmiClient from './ApplicationToUnbl
 
 export const metadata: Metadata = {
     title: "Unblock Bank Account for Loan EMI (Template & Guide)",
-    description: "Learn how to write an application to unblock your bank account frozen for a loan EMI default. Download the exact legal letter template to submit to your bank manager.",
+    description: "Learn how to write an application to unblock your bank account frozen for a loan EMI default. Download the exact legal letter template to submit.",
     keywords: [
         "application to unblock bank account",
         "bank frozen account for loan default",

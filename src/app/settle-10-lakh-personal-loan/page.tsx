@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import Settle10LakhClient from './Settle10LakhClient';
 
 export const metadata: Metadata = {
-    title: "Settle a ₹10 Lakh Personal Loan in India: Legal & Strategy Guide",
-    description: "Discover how to safely negotiate a settlement for a ₹10 Lakh unsecured personal loan in India. Learn legal strategies to stop harassment and avoid severe escalation.",
+    title: "Settle a ₹10 Lakh Personal Loan in India",
+    description: "Discover how to safely negotiate a settlement for a ₹10 Lakh unsecured personal loan in India. Learn legal strategies to stop harassment and avoid severe.",
     keywords: [
         "10 lakh personal loan settlement",
         "high value loan default india",

@@ -7,7 +7,7 @@ import MentalHarassmentRecoveryAgentsClient from './MentalHarassmentRecoveryAgen
 export const metadata: Metadata = {
   title: 'Sue Your Bank: Legal Action for Recovery Agent Harassment',
   description:
-    'Facing extreme mental trauma, abuse, or public shaming by recovery agents? Learn how to file a lawsuit against the bank and claim compensation for emotional distress.',
+    'Facing extreme mental trauma, abuse, or public shaming by recovery agents? Learn how to file a lawsuit against the bank and claim compensation.',
   keywords: [
     'mental harassment by recovery agents legal action',
     'sue bank for emotional distress india',

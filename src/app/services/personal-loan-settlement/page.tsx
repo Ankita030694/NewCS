@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PersonalLoanSettlementPageClient from "./PersonalLoanSettlementPageClient";
 
 export const metadata: Metadata = {
-  title: "Personal Loan Settlement India | RBI Compliant OTS | CredSettle",
+  title: "Personal Loan Settlement India",
   description: "Expert personal loan settlement services in India. Stop harassment, reduce principal by up to 50%, and get legal closure. 100% RBI compliant process.",
   alternates: {
     canonical: "https://www.credsettle.com/services/personal-loan-settlement",

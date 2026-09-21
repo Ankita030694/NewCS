@@ -7,7 +7,7 @@ import MSMESettlementClient from './MSMESettlementClient';
 
 export const metadata: Metadata = {
     title: "Loan Settlement for MSME Owners: The Definitive 2025 Guide",
-    description: "Navigate MSME loan defaults with our comprehensive guide for Indian business owners. Learn about the MSMED Act, RBI rehabilitation frameworks, and strategic settlement tactics.",
+    description: "Navigate MSME loan defaults with our comprehensive guide for Indian business owners. Learn about the MSMED Act, RBI rehabilitation frameworks.",
     keywords: [
         "loan settlement for MSME owners",
         "MSME debt relief India",

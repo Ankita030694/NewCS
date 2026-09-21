@@ -7,8 +7,8 @@ import WhichLoanSettlementClient from './WhichLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Loan Settlement Service Should I Use for Settling Multiple Credit Card Debts?',
-  description: 'Comparing the best loan settlement services in India for multiple credit card debts. Expert advice on choosing between CredSettle, Ama Legal Solutions, and SettleLoans.',
+  title: 'Which Loan Settlement Service Should I Use for Settling',
+  description: 'Comparing the best loan settlement services in India for multiple credit card debts. Expert advice on choosing between CredSettle.',
   keywords: [
     'best loan settlement service india',
     'settle multiple credit card debts',

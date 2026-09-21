@@ -7,8 +7,8 @@ import Footer from '@/components/Footer';
 import RecoveryAgentOfficeClient from './RecoveryAgentOfficeClient';
 
 export const metadata: Metadata = {
-    title: "Recovery Agent Came To My Office: Legal Steps To Stop Harassment",
-    description: "Learn your legal rights when a recovery agent visits your office. Discover how to document the visit, inform HR, and send a legal notice to stop workplace harassment.",
+    title: "Recovery Agent Came To My Office",
+    description: "Learn your legal rights when a recovery agent visits your office. Discover how to document the visit, inform HR, and send a legal notice to stop.",
     keywords: [
         "recovery agent came to my office",
         "bank recovery agent at workplace",

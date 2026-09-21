@@ -7,7 +7,7 @@ import MicrofinanceLoanSettlementLawyerClient from './MicrofinanceLoanSettlement
 
 export const metadata: Metadata = {
     title: "Best Microfinance Loan Settlement Lawyer India (2025)",
-    description: "Expert legal help for microfinance loan settlement in India. Navigate RBI 2024-2025 MFI guidelines, state-specific debt relief laws, and protection from coercive recovery.",
+    description: "Expert legal help for microfinance loan settlement in India. Navigate RBI 2024-2025 MFI guidelines, state-specific debt relief laws.",
     keywords: [
         "best microfinance loan settlement lawyer India",
         "MFI debt relief legal assistance 2025",

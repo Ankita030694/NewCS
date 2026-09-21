@@ -7,7 +7,7 @@ import CibilDefaulterListClient from './CibilDefaulterListClient';
 
 export const metadata: Metadata = {
     title: "How to Check the CIBIL Defaulter List (2026 Guide)",
-    description: "Looking for the CIBIL defaulter list? Learn why public defaulter lists don't exist, understand Suit-Filed accounts, and discover how to safely check your credit report.",
+    description: "Looking for the CIBIL defaulter list? Learn why public defaulter lists don't exist, understand Suit-Filed accounts, and discover how to safely check.",
     keywords: [
         "CIBIL defaulter list check online",
         "RBI defaulters list check",

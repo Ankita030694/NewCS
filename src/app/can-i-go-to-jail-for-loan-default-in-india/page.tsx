@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-    title: 'Can I Go To Jail for Loan Default in India? Truth and Laws 2025',
-    description: 'Stop being intimidated by jail threats. Learn the legal reality of loan defaults in India, Supreme Court rulings, and the difference between civil and criminal liability.',
+    title: 'Can I Go To Jail for Loan Default in India? Truth and Laws',
+    description: 'Stop being intimidated by jail threats. Learn the legal reality of loan defaults in India, Supreme Court rulings, and the difference between civil.',
     alternates: {
         canonical: 'https://www.credsettle.com/can-i-go-to-jail-for-loan-default-in-india',
     },

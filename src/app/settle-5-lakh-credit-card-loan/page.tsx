@@ -7,7 +7,7 @@ import Settle5LakhClient from './Settle5LakhClient';
 
 export const metadata: Metadata = {
     title: "Settle a 5 Lakh Credit Card Loan: Negotiation Guide",
-    description: "Learn the exact strategy to negotiate and settle a 5 Lakh credit card loan in India. Stop agent harassment, secure waivers, and legally close your high debt.",
+    description: "Learn the exact strategy to negotiate and settle a 5 Lakh credit card loan in India. Stop agent harassment, secure waivers.",
     keywords: [
         "settle 5 lakh credit card loan",
         "5 lakh credit card debt settlement",

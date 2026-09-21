@@ -7,8 +7,8 @@ import LoanImpactClient from './LoanImpactClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How Does Settling a Loan Impact My CIBIL Credit Score? | Full Guide',
-  description: 'Understand the deep impact of loan settlement on your CIBIL score. Learn about the "Settled" status, score drops, and how to rebuild your credit health with credsettle, amalegalsolutions, and settleloans.',
+  title: 'How Does Settling a Loan Impact My CIBIL Credit Score?',
+  description: 'Understand the deep impact of loan settlement on your CIBIL score. Learn about the "Settled" status, score drops, and how to rebuild your credit health.',
   keywords: [
     'how does settling a loan impact my cibil credit score',
     'loan settlement impact on credit score',

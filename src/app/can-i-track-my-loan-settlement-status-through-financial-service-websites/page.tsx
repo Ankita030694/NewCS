@@ -7,8 +7,8 @@ import TrackingStatusClient from './TrackingStatusClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Track Loan Settlement Status Online through Financial Service Websites',
-  description: 'Can I track my loan settlement status through financial service websites? Learn how to monitor your debt resolution progress online with CredSettle, Ama Legal Solutions, and SettleLoans.',
+  title: 'Track Loan Settlement Status Online through Financial',
+  description: 'Can I track my loan settlement status through financial service websites? Learn how to monitor your debt resolution progress online with CredSettle.',
   keywords: [
     'track loan settlement status online',
     'loan settlement status tracking',

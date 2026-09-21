@@ -7,7 +7,7 @@ import StartupLoanLegalAdvisoryClient from './StartupLoanLegalAdvisoryClient';
 
 export const metadata: Metadata = {
     title: "Startup Loan Legal Advisory India (2025)",
-    description: "Navigate the complexities of startup financing in India. Expert legal advisory on DPIIT recognition, government loan schemes (Mudra, Stand-Up India), and equity funding compliance for 2025.",
+    description: "Navigate the complexities of startup financing in India. Expert legal advisory on DPIIT recognition, government loan schemes (Mudra.",
     keywords: [
         "startup loan legal advisory India",
         "legal requirements for startup loans 2025",

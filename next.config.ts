@@ -102,6 +102,71 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
+        source: "/credit-score-repair",
+        destination: "/services/credit-score-builder",
+        permanent: true,
+      },
+      {
+        source: "/authors/:slug*",
+        destination: "/author/ashish-jhangra",
+        permanent: true,
+      },
+      {
+        source: "/consultation",
+        destination: "/contact",
+        permanent: true,
+      },
+      {
+        source: "/settle-personal-loan",
+        destination: "/services/personal-loan-settlement",
+        permanent: true,
+      },
+      {
+        source: "/best-lawyer-for-personal-loan-settlement",
+        destination: "/services/personal-loan-settlement",
+        permanent: true,
+      },
+      {
+        source: "/recovery-agent-harassment-legal-protection",
+        destination: "/services/anti-harassment",
+        permanent: true,
+      },
+      {
+        source: "/best-lawyer-for-illegal-loan-recovery-harassment",
+        destination: "/services/anti-harassment",
+        permanent: true,
+      },
+      {
+        source: "/how-to-deal-with-recovery-agents",
+        destination: "/how-to-stop-recovery-agent-harassment",
+        permanent: true,
+      },
+      {
+        source: "/loan-restructuring-vs-settlement",
+        destination: "/should-i-settle-or-restructure-personal-loan",
+        permanent: true,
+      },
+      {
+        source: "/bank-sent-legal-notice-for-loan-default",
+        destination: "/legal-notice-for-loan-settlement-harassment",
+        permanent: true,
+      },
+      {
+        source: "/convert-settled-loan-to-closed",
+        destination: "/legal-help-for-non-closure-of-settled-loan",
+        permanent: true,
+      },
+      {
+        source: "/impact-of-loan-default-on-cibil",
+        destination: "/understanding-90-day-loan-default-india",
+        permanent: true,
+      },
+      {
+        source: "/bajaj-finance-recovery-agent-harrasement-home-visit",
+        destination: "/bajaj-finance-recovery-agent-harassment-home-visit",
+        permanent: true,
+      },
+      {
         source: "/services/businessloan",
         destination: "/services/business-loan-settlement",
         permanent: true,

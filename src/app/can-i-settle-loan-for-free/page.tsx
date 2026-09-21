@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import SettleFreeClient from './SettleFreeClient';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle My Loan for Free? | Expert Guide to Debt Relief | CredSettle',
-  description: 'Wondering if you can settle your loan for free? Learn about RBI 2025 guidelines, zero-fee settlement options for vulnerable groups, and how to negotiate debt legally in India.',
+  title: 'Can I Settle My Loan for Free?',
+  description: 'Wondering if you can settle your loan for free? Learn about RBI 2025 guidelines, zero-fee settlement options for vulnerable groups.',
   keywords: [
     'can i settle loan for free',
     'loan settlement for free',

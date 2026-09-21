@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import PersonalLoanSettlementVsDebtConsolidationClient from './PersonalLoanSettlementVsDebtConsolidationClient';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement vs Debt Consolidation: Which is Better?",
+    title: "Personal Loan Settlement vs Debt Consolidation",
     description: "Should you settle your personal loan or consolidate it? Compare the pros, cons, and CIBIL impact of debt settlement versus debt consolidation in India.",
     keywords: [
         "Personal loan settlement vs debt consolidation",

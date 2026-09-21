@@ -7,7 +7,7 @@ import LoanDefaultNoticeClient from './LoanDefaultNoticeClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Loan Default Notices India (2025)",
-    description: "Received a loan default notice from a bank? Find the best lawyer for notice for loan default in India. Expert legal guidance on reply, SARFAESI rights, DRT defence and settlement options.",
+    description: "Received a loan default notice from a bank? Find the best lawyer for notice for loan default in India. Expert legal guidance on reply.",
     keywords: [
         "best lawyer for notice for loan default",
         "loan default notice reply lawyer India",

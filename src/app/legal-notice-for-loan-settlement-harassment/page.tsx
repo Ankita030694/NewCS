@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Legal Notice for Loan Settlement Harassment: Expert Guide 2025',
-  description: 'Facing harassment from loan recovery agents? Learn how to send a legal notice for loan settlement harassment, your rights under RBI, and how to claim damages.',
+  title: 'Legal Notice for Loan Settlement Harassment',
+  description: 'Facing harassment from loan recovery agents? Learn how to send a legal notice for loan settlement harassment, your rights under RBI.',
   keywords: 'legal notice for loan settlement harassment, RBI recovery guidelines, debt collection harassment India, stop recovery agent calls, loan settlement legal help',
   alternates: {
     canonical: 'https://www.credsettle.com/legal-notice-for-loan-settlement-harassment',

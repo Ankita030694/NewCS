@@ -6,7 +6,7 @@ import RecoveryAgentsThreateningMeClient from './RecoveryAgentsThreateningMeClie
 
 export const metadata: Metadata = {
     title: "Recovery Agents Threatening Me? Legal Rights & Plan",
-    description: "Are recovery agents harassing you for a bank loan? Learn the 2025 RBI guidelines, your legal rights against threats, and how to stop harassment immediately. Expert legal advice for borrowers.",
+    description: "Are recovery agents harassing you for a bank loan? Learn the 2025 RBI guidelines, your legal rights against threats.",
     keywords: [
         "recovery agents threatening me what to do",
         "bank recovery harassment India 2025",

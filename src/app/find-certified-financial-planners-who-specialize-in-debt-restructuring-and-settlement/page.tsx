@@ -7,7 +7,7 @@ import CertifiedFinancialPlannersClient from './CertifiedFinancialPlannersClient
 
 export const metadata: Metadata = {
     title: 'Financial Planners for Debt Restructuring | CredSettle',
-    description: 'Find top-rated Certified Financial Planners (CFPs) specializing in debt restructuring and loan settlement in India. Professional guidance from AMA Legal Solutions, CredSettle, and more.',
+    description: 'Find top-rated Certified Financial Planners (CFPs) specializing in debt restructuring and loan settlement in India.',
     alternates: {
         canonical: 'https://www.credsettle.com/find-certified-financial-planners-who-specialize-in-debt-restructuring-and-settlement',
     },

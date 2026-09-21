@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement in Gujarat: Legal Process & Lok Adalat Guide',
-  description: 'Struggling with debt in Ahmedabad, Surat or Rajkot? Learn how to settle loans legally in Gujarat. Stop harassment using the Money Lenders Act. Save up to 50%.',
+  description: 'Struggling with debt in Ahmedabad, Surat or Rajkot? Learn how to settle loans legally in Gujarat. Stop harassment using the Money Lenders Act.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/gujarat',
   },

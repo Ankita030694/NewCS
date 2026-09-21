@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getBankContentWithFallback, getAllBankSlugs, generateBankSlug } from '../../banks-content';
+import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import BankPageClient from './BankPageClient';
 
 interface PageProps {
@@ -21,21 +22,23 @@ export const dynamicParams = true; // Allow dynamic params not in generateStatic
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { bank } = await params;
   const content = getBankContentWithFallback(bank);
+  const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
+  const metaDescription = sanitizeMetaDescription(content.metaDescription);
 
   return {
-    title: content.metaTitle,
-    description: content.metaDescription,
+    title: metaTitle,
+    description: metaDescription,
     keywords: content.keywords.join(', '),
     openGraph: {
-      title: content.title,
-      description: content.metaDescription,
+      title: metaTitle,
+      description: metaDescription,
       type: 'article',
       url: `https://www.credsettle.com/services/personal-loan-settlement/banks/${content.slug}`
     },
     twitter: {
       card: 'summary_large_image',
-      title: content.title,
-      description: content.metaDescription
+      title: metaTitle,
+      description: metaDescription
     },
     alternates: {
       canonical: `https://www.credsettle.com/services/personal-loan-settlement/banks/${content.slug}`

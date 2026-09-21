@@ -7,7 +7,7 @@ import QuickLoanReliefClient from './QuickLoanReliefClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Quick Loan Relief Action Plan',
+  title: 'Quick Loan Relief Action Plan | CredSettle',
   description: 'Secure immediate relief from predatory quick loan applications, stop unauthorized contacts in 24 hours, and negotiate settlements legally.',
   keywords: [
     'quick loan relief',

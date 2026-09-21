@@ -7,7 +7,7 @@ import GovernmentApprovedServicesClient from './GovernmentApprovedServicesClient
 
 export const metadata: Metadata = {
     title: 'Government-Approved Loan Settlement Services Online (2025)',
-    description: 'Explore government-approved loan settlement channels in India, including RBI guidelines, Lok Adalats, and the Ombudsman scheme. Expert analysis on legal debt relief.',
+    description: 'Explore government-approved loan settlement channels in India, including RBI guidelines, Lok Adalats, and the Ombudsman scheme.',
     alternates: {
         canonical: 'https://www.credsettle.com/are-there-any-government-approved-loan-settlement-services-available-online',
     },

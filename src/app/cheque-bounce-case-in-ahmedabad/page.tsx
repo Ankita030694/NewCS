@@ -7,8 +7,8 @@ import ChequeBounceAhmedabadClient from './ChequeBounceAhmedabadClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top Cheque Bounce Case Lawyers in Ahmedabad | Section 138 NI Act Experts',
-  description: 'Facing a cheque bounce case in Ahmedabad? Get expert legal help from top Section 138 NI Act lawyers. We handle legal notices, court representation, and recovery in Mirzapur and Gheekanta courts.',
+  title: 'Top Cheque Bounce Case Lawyers in Ahmedabad',
+  description: 'Facing a cheque bounce case in Ahmedabad? Get expert legal help from top Section 138 NI Act lawyers. We handle legal notices.',
   keywords: [
     'cheque bounce case in ahmedabad',
     'cheque bounce lawyer ahmedabad',

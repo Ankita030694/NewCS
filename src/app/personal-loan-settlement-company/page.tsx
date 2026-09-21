@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import PersonalLoanSettlementCompanyClient from './PersonalLoanSettlementCompanyClient';
 
 export const metadata: Metadata = {
-    title: 'Top Personal Loan Settlement Company in India | Verified & Genuine',
-    description: 'Looking for a verified debt settlement company in India? Discover how genuine loan settlement agencies can help you negotiate with banks, stop harassment, and become debt-free.',
+    title: 'Top Personal Loan Settlement Company in India',
+    description: 'Looking for a verified debt settlement company in India? Discover how genuine loan settlement agencies can help you negotiate with banks.',
     alternates: {
         canonical: 'https://www.credsettle.com/personal-loan-settlement-company',
     },

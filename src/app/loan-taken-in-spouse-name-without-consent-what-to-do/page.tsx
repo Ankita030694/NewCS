@@ -7,7 +7,7 @@ import SpouseLoanConsentClient from './SpouseLoanConsentClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Spouse Took Loan Without Consent | Stop Harassment | CredSettle',
+  title: 'Spouse Took Loan Without Consent',
   description: 'Discover legal steps to take if your husband or wife took a loan in your name using your Aadhaar or PAN card without consent. Stop bank harassment today.',
   keywords: [
     'husband took loan in my name without telling me',

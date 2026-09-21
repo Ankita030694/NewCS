@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import GujaratPageClient from './GujaratPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Ahmedabad Gujarat | Save 60% | Stop Calls | CredSettle',
-  description: 'Credit card settlement in Ahmedabad, Surat, Vadodara. Business debt, diamond trade, textile industry. Reduce debt 40-75%. Legal RBI-compliant. 5,600+ Gujarat clients debt-free.',
+  title: 'Credit Card Settlement Ahmedabad Gujarat',
+  description: 'Credit card settlement in Ahmedabad, Surat, Vadodara. Business debt, diamond trade, textile industry. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Ahmedabad',
     'credit card debt relief Gujarat',

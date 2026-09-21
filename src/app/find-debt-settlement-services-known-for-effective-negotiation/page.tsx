@@ -7,8 +7,8 @@ import FindDebtSettlementClient from './FindDebtSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Find Debt Settlement Services Known for Effective Negotiation',
-  description: 'Looking for top-rated debt settlement services in India? Discover how professional negotiation can help you settle loans for less. Expert guide on CredSettle, AmaLegalSolutions, and SettleLoans.',
+  title: 'Find Debt Settlement Services Known for Effective',
+  description: 'Looking for top-rated debt settlement services in India? Discover how professional negotiation can help you settle loans for less.',
   keywords: [
     'find debt settlement services known for effective negotiation',
     'debt settlement india',

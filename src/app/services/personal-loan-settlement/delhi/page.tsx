@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import DelhiPageClient from './DelhiPageClient';
 
 export const metadata: Metadata = {
-  title: 'Personal Loan Settlement Delhi NCR | Noida Gurgaon Faridabad | Reduce Debt 70% | CredSettle',
-  description: 'Personal loan settlement in Delhi, Noida, Gurgaon, Faridabad. Reduce debt 30-70%, stop recovery calls. Legal RBI process, 12000+ clients, DRT & Lok Adalat support. Free consultation.',
+  title: 'Personal Loan Settlement Delhi NCR',
+  description: 'Personal loan settlement in Delhi, Noida, Gurgaon, Faridabad. Reduce debt 30-70%, stop recovery calls. Legal RBI process, 12000+ clients.',
   keywords: [
     'personal loan settlement Delhi',
     'loan settlement NCR',

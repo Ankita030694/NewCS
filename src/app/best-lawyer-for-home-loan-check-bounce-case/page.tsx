@@ -7,7 +7,7 @@ import HomeLoanCheckBounceClient from './HomeLoanCheckBounceClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Home Loan Cheque Bounce Case (2025)",
-    description: "Find the best lawyer for home loan cheque bounce cases in India. Expert legal defence under Section 138 NI Act, strategic representation, and proven results. Protect your rights today.",
+    description: "Find the best lawyer for home loan cheque bounce cases in India. Expert legal defence under Section 138 NI Act, strategic representation.",
     keywords: [
         "best lawyer for home loan check bounce case",
         "home loan cheque bounce lawyer India",

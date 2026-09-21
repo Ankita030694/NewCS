@@ -7,8 +7,8 @@ import RBLHomeVisitClient from './RBLHomeVisitClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Stop RBL Bank Harassment Home Visit | Debt Recovery Rules 2025',
-  description: 'Proved legal strategies to stop RBL bank recovery agent harassment home visit. Learn RBI guidelines, your rights, and how to file a complaint against an RBL collection agent.',
+  title: 'Stop RBL Bank Harassment Home Visit',
+  description: 'Proved legal strategies to stop RBL bank recovery agent harassment home visit. Learn RBI guidelines, your rights, and how to file a complaint against.',
   keywords: [
     'rbl bank harassment home visit',
     'rbl bank recovery agent harassment',

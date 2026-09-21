@@ -7,7 +7,7 @@ import IsPersonalLoanSettlementSafeClient from './IsPersonalLoanSettlementSafeCl
 
 export const metadata: Metadata = {
     title: "Is Personal Loan Settlement Safe and Legal in India?",
-    description: "Is it safe to settle a personal loan? Understand the RBI guidelines, legal framework, and how to safely and legally negotiate a debt settlement with your bank.",
+    description: "Is it safe to settle a personal loan? Understand the RBI guidelines, legal framework, and how to safely and legally negotiate a debt settlement.",
     keywords: [
         "is personal loan settlement safe",
         "are loan settlement companies legitimate",

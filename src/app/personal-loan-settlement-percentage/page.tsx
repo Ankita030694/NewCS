@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PersonalLoanPercentageClient from './PersonalLoanPercentageClient';
 
 export const metadata: Metadata = {
-    title: "What Percentage is Personal Loan Settlement? (Bank Internal Math)",
-    description: "Discover the average personal loan settlement amount and how much a bank will waive. Learn how Days Past Due (DPD) and NPA provisioning dictate your discount.",
+    title: "What Percentage is Personal Loan Settlement? (Bank Internal",
+    description: "Discover the average personal loan settlement amount and how much a bank will waive. Learn how Days Past Due (DPD) and NPA provisioning dictate.",
     keywords: [
         "what percentage is personal loan settlement",
         "average personal loan settlement amount",

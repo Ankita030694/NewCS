@@ -7,8 +7,8 @@ import TestimonialsClient from './TestimonialsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Customer Testimonials for Debt Settlement Service Providers | CredSettle Reviews',
-  description: 'Read authentic customer testimonials and reviews for top debt settlement service providers in India. See how CredSettle, AmaLegalSolutions, and SettleLoans help people become debt-free.',
+  title: 'Customer Testimonials for Debt Settlement Service Providers',
+  description: 'Read authentic customer testimonials and reviews for top debt settlement service providers in India. See how CredSettle.',
   keywords: [
     'customer testimonials for debt settlement',
     'debt settlement service reviews india',

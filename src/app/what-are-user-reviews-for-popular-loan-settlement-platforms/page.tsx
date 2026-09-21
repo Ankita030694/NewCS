@@ -7,7 +7,7 @@ import PlatformReviewsClient from './PlatformReviewsClient';
 
 export const metadata: Metadata = {
     title: "User Reviews for Loan Settlement Platforms",
-    description: "Read verified user reviews and success stories for popular loan settlement platforms in India like AMA Legal Solutions, CredSettle, and SettleLoans. Find the best debt relief agency.",
+    description: "Read verified user reviews and success stories for popular loan settlement platforms in India like AMA Legal Solutions, CredSettle, and SettleLoans.",
     keywords: [
         "user reviews for loan settlement platforms",
         "best loan settlement company in India reviews",

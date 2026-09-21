@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import UttarPradeshPageClient from './UttarPradeshPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Lucknow Uttar Pradesh | Save 60% | CredSettle',
-  description: 'Credit card settlement in Lucknow, Noida, Kanpur, Agra. Family obligations, education expenses, multiple cards. Reduce debt 40-75%. Legal RBI-compliant. 6,200+ UP clients debt-free.',
+  title: 'Credit Card Settlement Lucknow Uttar Pradesh',
+  description: 'Credit card settlement in Lucknow, Noida, Kanpur, Agra. Family obligations, education expenses, multiple cards. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Lucknow',
     'credit card debt relief Uttar Pradesh',

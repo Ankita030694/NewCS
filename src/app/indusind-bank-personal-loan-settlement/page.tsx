@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import IndusindBankPersonalLoanSettlementClient from './IndusindBankPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'IndusInd Bank Personal Loan Settlement: Procedure, Waivers & Legal Defense',
+  title: 'IndusInd Bank Personal Loan Settlement',
   description:
-    'Navigate IndusInd Bank personal loan and credit card settlement. Bypass recovery agencies, reply to advocate notices, resolve Lok Adalat summons, negotiate 40%-55% waivers, and secure an official NOC.',
+    'Navigate IndusInd Bank personal loan and credit card settlement. Bypass recovery agencies, reply to advocate notices.',
   keywords: [
     'indusind bank personal loan settlement',
     'indusind bank loan settlement process',

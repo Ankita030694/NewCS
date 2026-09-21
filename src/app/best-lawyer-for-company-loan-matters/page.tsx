@@ -7,7 +7,7 @@ import CompanyLoanMattersClient from './CompanyLoanMattersClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Company Loan Matters India (2025)",
-    description: "Looking for the best lawyer for company loan matters? Expert legal help for corporate loan disputes, SARFAESI defence, DRT proceedings, IBC insolvency resolution, and company loan settlement across India.",
+    description: "Looking for the best lawyer for company loan matters? Expert legal help for corporate loan disputes, SARFAESI defence, DRT proceedings.",
     keywords: [
         "best lawyer for company loan matters",
         "company loan lawyer India",

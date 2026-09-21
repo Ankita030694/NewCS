@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import WestBengalPageClient from './WestBengalPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Kolkata West Bengal | Save 60% | CredSettle',
-  description: 'Credit card settlement in Kolkata, Siliguri, Durgapur. Dual household spending, education abroad, creative lifestyle needs. Reduce debt 40-75%. Legal RBI-compliant. 4,400+ West Bengal clients debt-free.',
+  title: 'Credit Card Settlement Kolkata West Bengal',
+  description: 'Credit card settlement in Kolkata, Siliguri, Durgapur. Dual household spending, education abroad, creative lifestyle needs. Reduce debt 40-75%.',
   keywords: [
     'credit card settlement Kolkata',
     'credit card debt relief West Bengal',

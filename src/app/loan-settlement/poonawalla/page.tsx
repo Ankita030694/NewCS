@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Poonawalla Fincorp (Magma) Loan Settlement | Waive 50% Dues',
-  description: 'Settle Poonawalla Fincorp (Magma) loan with up to 50% discount. Expert legal help for Section 138 notices, harassment complaints (customercare@poonawallafincorp.com), and NPA resolution.',
+  description: 'Settle Poonawalla Fincorp (Magma) loan with up to 50% discount. Expert legal help for Section 138 notices, harassment complaints.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/poonawalla',
   },

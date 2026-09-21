@@ -7,7 +7,7 @@ import CreditCardLegalNoticeProcessClient from './CreditCardLegalNoticeProcessCl
 
 export const metadata: Metadata = {
     title: "Credit Card Legal Notice Received: Process and Next Steps",
-    description: "Received an aggressive legal notice for credit card default via email or WhatsApp? Learn to spot fake notices, understand the legal escalation process, and negotiate a settlement.",
+    description: "Received an aggressive legal notice for credit card default via email or WhatsApp? Learn to spot fake notices, understand the legal escalation process.",
     keywords: [
         "credit card legal notice format",
         "legal notice for credit card default",

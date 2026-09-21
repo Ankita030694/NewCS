@@ -7,7 +7,7 @@ import SmfgLoanSettlementClient from './SmfgLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'SMFG Loan Settlement Guide',
+  title: 'SMFG Loan Settlement Guide | CredSettle',
   description: 'Learn how to negotiate a structured One-Time Settlement (OTS) for an SMFG personal loan. Stop recovery agent harassment and resolve your debt safely.',
   keywords: [
     'SMFG loan settlement',

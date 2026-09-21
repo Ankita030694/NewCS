@@ -7,7 +7,7 @@ import BestLawyerLoanMortgageClient from './BestLawyerLoanMortgageClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Loan and Mortgage Agreements India",
-    description: "Hire the absolute best lawyer for loan and mortgage agreements in India. We provide expert drafting, rigorous legal review, SARFAESI defense, and property due diligence to protect your financial assets.",
+    description: "Hire the absolute best lawyer for loan and mortgage agreements in India. We provide expert drafting, rigorous legal review.",
     keywords: [
         "best lawyer for loan and mortgage agreements",
         "loan agreement drafting lawyer",

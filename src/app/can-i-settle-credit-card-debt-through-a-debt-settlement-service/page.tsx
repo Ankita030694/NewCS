@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import SettleCreditCardClient from './SettleCreditCardClient';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle Credit Card Debt Through a Debt Settlement Service in India?',
-  description: 'Wondering if you can settle credit card debt through a debt settlement service? Learn how CredSettle helps you negotiate with banks for a legal debt settlement.',
+  title: 'Can I Settle Credit Card Debt Through a Debt Settlement',
+  description: 'Wondering if you can settle credit card debt through a debt settlement service? Learn how CredSettle helps you negotiate with banks for a legal debt.',
   keywords: [
     'settle credit card debt',
     'debt settlement service india',

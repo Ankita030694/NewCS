@@ -7,8 +7,8 @@ import TradingLoanSettlementClient from './TradingLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Trading Loan Settlement India | Expert Debt Relief for Traders',
-  description: 'Struggling with debt from trading losses? Get expert trading loan settlement services in India. We help with bank negotiations, OTS, and protection from harassment.',
+  title: 'Trading Loan Settlement India | CredSettle',
+  description: 'Struggling with debt from trading losses? Get expert trading loan settlement services in India. We help with bank negotiations, OTS.',
   keywords: [
     'trading loan settlement',
     'debt relief for traders india',

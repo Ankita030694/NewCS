@@ -7,8 +7,8 @@ import ProfessionalServicesClient from './ProfessionalServicesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Companies Offer Professional Debt Settlement Services for Personal Loans?',
-  description: 'Looking for professional debt settlement services for personal loans in India? Explore top companies like CredSettle, Ama Legal Solutions, and SettleLoans to settle your debt legally.',
+  title: 'Which Companies Offer Professional Debt Settlement Services',
+  description: 'Looking for professional debt settlement services for personal loans in India? Explore top companies like CredSettle.',
   keywords: [
     'professional debt settlement services',
     'debt settlement for personal loans',

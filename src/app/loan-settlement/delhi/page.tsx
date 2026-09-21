@@ -7,7 +7,7 @@ import DelhiLoanSettlementClient from './DelhiLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Delhi NCR: Legal Process & Lok Adalat Guide',
+  title: 'Loan Settlement in Delhi NCR | CredSettle',
   description: 'Struggling with debt in Delhi, Noida or Gurgaon? Learn how to legally settle loans in Delhi NCR. Stop harassment, save up to 50% & avoid legal action.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/delhi',

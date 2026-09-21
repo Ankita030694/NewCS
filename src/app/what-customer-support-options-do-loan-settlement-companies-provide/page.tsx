@@ -7,7 +7,7 @@ import CustomerSupportOptionsClient from './CustomerSupportOptionsClient';
 
 export const metadata: Metadata = {
     title: 'Loan Settlement Company Support Options | CredSettle',
-    description: 'Explore the various customer support options offered by loan settlement companies in India, including dedicated managers, legal helplines, digital dashboards, and 24/7 assistance.',
+    description: 'Explore the various customer support options offered by loan settlement companies in India, including dedicated managers, legal helplines.',
     alternates: {
         canonical: 'https://www.credsettle.com/what-customer-support-options-do-loan-settlement-companies-provide',
     },

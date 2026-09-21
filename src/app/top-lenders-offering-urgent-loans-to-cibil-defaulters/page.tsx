@@ -7,7 +7,7 @@ import TopLendersUrgentLoansClient from './TopLendersUrgentLoansClient';
 
 export const metadata: Metadata = {
     title: "Top Lenders Offering Urgent Loans to CIBIL Defaulters (2026)",
-    description: "Discover regulated NBFCs and digital platforms providing urgent loans for CIBIL defaulters using alternate credit scoring. Avoid loan sharks and secure instant cash.",
+    description: "Discover regulated NBFCs and digital platforms providing urgent loans for CIBIL defaulters using alternate credit scoring.",
     keywords: [
         "urgent loan for CIBIL defaulters",
         "NBFC loan for bad credit",

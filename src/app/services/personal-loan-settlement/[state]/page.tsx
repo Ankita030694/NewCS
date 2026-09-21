@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
 import { getStateContentWithFallback, generateSlug } from '../states-content';
+import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import StatePageClient from './StatePageClient';
 
 // List of all valid state slugs
@@ -64,21 +65,23 @@ export const dynamicParams = true; // Allow dynamic params not in generateStatic
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { state } = await params;
   const content = getStateContentWithFallback(state);
+  const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
+  const metaDescription = sanitizeMetaDescription(content.metaDescription);
 
   return {
     alternates: { canonical: `https://www.credsettle.com/services/personal-loan-settlement/${state}` },
-    title: content.metaTitle || content.title,
-    description: content.metaDescription,
+    title: metaTitle,
+    description: metaDescription,
     keywords: content.keywords.join(', '),
     openGraph: {
-      title: content.title,
-      description: content.metaDescription,
+      title: metaTitle,
+      description: metaDescription,
       type: 'website'
     },
     twitter: {
       card: 'summary_large_image',
-      title: content.title,
-      description: content.metaDescription
+      title: metaTitle,
+      description: metaDescription
     }
   };
 }

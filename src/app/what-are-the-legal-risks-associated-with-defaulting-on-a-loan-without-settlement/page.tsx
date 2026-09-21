@@ -7,7 +7,7 @@ import LegalRisksClient from './LegalRisksClient';
 
 export const metadata: Metadata = {
     title: "Legal Risks of Loan Default Without Settlement",
-    description: "Understand the severe legal risks associated with defaulting on a loan without settlement in India, including RBI rules, Sections 138 & 25, SARFAESI Act, and more.",
+    description: "Understand the severe legal risks associated with defaulting on a loan without settlement in India, including RBI rules, Sections 138 & 25.",
     keywords: [
         "legal risks of loan default India",
         "defaulting on loan without settlement",

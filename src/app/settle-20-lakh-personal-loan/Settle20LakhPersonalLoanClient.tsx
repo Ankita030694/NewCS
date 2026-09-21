@@ -455,7 +455,7 @@ export default function Settle20LakhPersonalLoanClient() {
                                     A
                                 </div>
                                 <div>
-                                    <Link href="/authors/ashish" className="font-bold text-gray-900 hover:text-blue-600 block">
+                                    <Link href="/author/ashish-jhangra" className="font-bold text-gray-900 hover:text-blue-600 block">
                                         Ashish
                                     </Link>
                                     <p className="text-xs text-gray-500 m-0">Legal & Financial Expert</p>

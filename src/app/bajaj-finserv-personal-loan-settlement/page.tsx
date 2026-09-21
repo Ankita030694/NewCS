@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import BajajFinservPersonalLoanSettlementClient from './BajajFinservPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Bajaj Finserv Personal Loan Settlement: Procedure, Waivers & Legal Defense',
+  title: 'Bajaj Finserv Personal Loan Settlement',
   description:
-    'Navigate Bajaj Finserv personal loan settlement. Halt collection agency intimidation, stop workplace visits, waive compounding penal bounce fees, and secure a 40%-55% OTS haircut with an official NDC.',
+    'Navigate Bajaj Finserv personal loan settlement. Halt collection agency intimidation, stop workplace visits, waive compounding penal bounce fees.',
   keywords: [
     'bajaj finserv personal loan settlement',
     'bajaj finance loan settlement process',

@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PersonalLoanSettlementCibilImpactClient from './PersonalLoanSettlementCibilImpactClient';
 
 export const metadata: Metadata = {
-    title: "Does Personal Loan Settlement Affect CIBIL Forever? 2025 Guide",
-    description: "Discover the exact loan settlement CIBIL impact. Learn the critical difference between settled status and active default, and how to rebuild your credit score.",
+    title: "Does Personal Loan Settlement Affect CIBIL Forever? 2025",
+    description: "Discover the exact loan settlement CIBIL impact. Learn the critical difference between settled status and active default.",
     keywords: [
         "does personal loan settlement affect CIBIL",
         "loan settlement CIBIL impact",

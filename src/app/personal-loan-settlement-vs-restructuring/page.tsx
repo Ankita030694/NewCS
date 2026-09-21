@@ -7,7 +7,7 @@ import PersonalLoanClient from './PersonalLoanClient';
 
 export const metadata: Metadata = {
     title: "Personal Loan Settlement vs Restructuring | Which is Better?",
-    description: "Confused between personal loan settlement vs restructuring? Learn how to reduce personal loan EMI, understand the impact on CIBIL, and decide if you should settle or restructure your loan.",
+    description: "Confused between personal loan settlement vs restructuring? Learn how to reduce personal loan EMI, understand the impact on CIBIL.",
     keywords: [
         "personal loan settlement vs restructuring",
         "reduce personal loan EMI",

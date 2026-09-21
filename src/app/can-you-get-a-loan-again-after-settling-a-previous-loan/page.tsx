@@ -7,7 +7,7 @@ import CanYouGetLoanAgainClient from './CanYouGetLoanAgainClient';
 
 export const metadata: Metadata = {
     title: "Get a Loan Again After Settling Previous Loan?",
-    description: "Discover the truth about getting a new loan after settlement in India. Learn about CIBIL recovery timelines, RBI 2025 rules, and how to rebuild credit eligibility.",
+    description: "Discover the truth about getting a new loan after settlement in India. Learn about CIBIL recovery timelines, RBI 2025 rules.",
     keywords: [
         "can you get a loan again after settling a previous loan",
         "loan after settlement India 2025",

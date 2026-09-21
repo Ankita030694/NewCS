@@ -7,8 +7,8 @@ import IDFCLoanSettlementClient from './IDFCLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'IDFC Loan Settlement Process 2026 | Settle IDFC First Bank Loans',
-  description: 'Expert guide on IDFC First Bank loan settlement. Learn how to settle IDFC personal loans and credit card dues. Stop harassment and save up to 50% with legal help.',
+  title: 'IDFC Loan Settlement Process 2026',
+  description: 'Expert guide on IDFC First Bank loan settlement. Learn how to settle IDFC personal loans and credit card dues. Stop harassment and save up to 50%.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/idfc',
   },

@@ -7,8 +7,8 @@ import TelanganaLoanSettlementClient from './TelanganaLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement in Telangana: Legal Process, Laws & Guidelines',
-  description: 'Struggling with debt in Hyderabad, Warangal or anywhere in Telangana? Learn how to legally settle loans. Stop harassment, save up to 50% & avoid legal action.',
+  title: 'Loan Settlement in Telangana | CredSettle',
+  description: 'Struggling with debt in Hyderabad, Warangal or anywhere in Telangana? Learn how to legally settle loans. Stop harassment.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/telangana',
   },

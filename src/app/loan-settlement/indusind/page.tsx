@@ -7,8 +7,8 @@ import IndusIndLoanSettlementClient from './IndusIndLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'IndusInd Bank Loan Settlement Process | OTS Scheme 2026 Guide',
-  description: 'Complete guide to IndusInd Bank loan settlement. Learn how to settle credit card & personal loan dues with up to 50% waiver. Stop recovery agent harassment.',
+  title: 'IndusInd Bank Loan Settlement Process',
+  description: 'Complete guide to IndusInd Bank loan settlement. Learn how to settle credit card & personal loan dues with up to 50% waiver.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/indusind',
   },

@@ -7,7 +7,7 @@ import DrtJurisdictionClient from './DrtJurisdictionClient';
 
 export const metadata: Metadata = {
     title: "DRT Jurisdiction Limit India: Min Amount for Loan Recovery",
-    description: "Learn the exact DRT jurisdiction limit in India. Can a bank sue you for a 5 Lakh default? We expose fake recovery threats and explain the 20 Lakh minimum limit.",
+    description: "Learn the exact DRT jurisdiction limit in India. Can a bank sue you for a 5 Lakh default? We expose fake recovery threats and explain the 20 Lakh minimum.",
     keywords: [
         "drt jurisdiction limit India",
         "minimum amount for drt case",

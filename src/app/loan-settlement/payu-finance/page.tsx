@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.credsettle.com/loan-settlement/payu-finance' },
-  title: 'PayU Finance / LazyPay Loan Settlement | Stop Harassment | CredSettle',
-  description: 'Expert PayU Finance & LazyPay loan settlement services. Stop agent harassment, waive penal interest, and settle your digital loans legally. Get the Nodal Officer details and process guide.',
+  title: 'PayU Finance / LazyPay Loan Settlement',
+  description: 'Expert PayU Finance & LazyPay loan settlement services. Stop agent harassment, waive penal interest, and settle your digital loans legally.',
   keywords: [
     'PayU Finance Loan Settlement',
     'LazyPay Settlement Process',

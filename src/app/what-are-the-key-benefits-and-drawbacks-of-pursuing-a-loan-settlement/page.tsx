@@ -7,7 +7,7 @@ import BenefitsAndDrawbacksClient from './BenefitsAndDrawbacksClient';
 
 export const metadata: Metadata = {
     title: "Key Benefits and Drawbacks of Pursuing a Loan Settlement",
-    description: "Explore the comprehensive guide on the key benefits and drawbacks of pursuing a loan settlement. Understand the impact on credit scores, legal options, and whether it is the right choice for financial relief.",
+    description: "Explore the comprehensive guide on the key benefits and drawbacks of pursuing a loan settlement. Understand the impact on credit scores.",
     keywords: [
         "key benefits and drawbacks of pursuing a loan settlement",
         "benefits of loan settlement",

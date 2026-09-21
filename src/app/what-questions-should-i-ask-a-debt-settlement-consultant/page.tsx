@@ -7,8 +7,8 @@ import ConsultantQuestionsClient from './ConsultantQuestionsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What Questions Should I Ask a Debt Settlement Consultant? | Expert Guide',
-  description: 'Thinking of hiring a debt settlement consultant? Here are the top questions you must ask to ensure you choose a legitimate service and protect your financial future.',
+  title: 'What Questions Should I Ask a Debt Settlement Consultant?',
+  description: 'Thinking of hiring a debt settlement consultant? Here are the top questions you must ask to ensure you choose a legitimate service and protect.',
   keywords: [
     'what questions should i ask a debt settlement consultant',
     'debt settlement consultant questions',

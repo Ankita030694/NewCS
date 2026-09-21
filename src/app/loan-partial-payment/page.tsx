@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import LoanPartialPaymentClient from './LoanPartialPaymentClient';
 
 export const metadata: Metadata = {
-    title: "Loan Partial Payment Rules: When Does It Make Financial Sense?",
+    title: "Loan Partial Payment Rules | CredSettle",
     description: "Strategic guide on personal loan part payment rules, avoiding 2-3% part-payment fees, and navigating bank caps on partial prepayments.",
     keywords: [
         "personal loan part payment rules",

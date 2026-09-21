@@ -7,8 +7,8 @@ import BankCallingReferencesClient from './BankCallingReferencesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Bank Calling References & Family Members? Stop Harassment Today | CredSettle',
-  description: 'Are banks calling your family or references? Learn your rights under RBI Rules 2025. Stop recovery agent harassment and protect your privacy legally. Get expert debt settlement help.',
+  title: 'Bank Calling References & Family Members? Stop Harassment',
+  description: 'Are banks calling your family or references? Learn your rights under RBI Rules 2025. Stop recovery agent harassment and protect your privacy legally.',
   keywords: [
     'bank calling references',
     'bank calling family members',

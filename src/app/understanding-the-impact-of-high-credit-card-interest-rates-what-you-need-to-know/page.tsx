@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import UnderstandingCCInterestClient from './UnderstandingCCInterestClient';
 
 export const metadata: Metadata = {
-    title: "Understanding the Impact of High Credit Card Interest Rates: What You Need to Know",
-    description: "Consumers carry forward credit card balances paying the Minimum Due, blind to the 36-42% APR compounding daily. Learn credit card interest rate calculation and how to escape credit card debt.",
+    title: "Understanding the Impact of High Credit Card Interest Rates",
+    description: "Consumers carry forward credit card balances paying the Minimum Due, blind to the 36-42% APR compounding daily. Learn credit card interest rate.",
     keywords: [
         "credit card interest rate calculation",
         "credit card APR explained",

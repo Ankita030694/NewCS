@@ -801,16 +801,16 @@ export default function NriCreditCardDebtSettlementClient() {
                 <div className="pt-2 border-t border-slate-100">
                   <h3 className="font-bold text-slate-800 mb-2">Related Guides</h3>
                   <div className="flex flex-wrap gap-2">
-                    <Link href="/bank-sent-legal-notice-for-loan-default" className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] transition-colors">
+                    <Link href="/legal-notice-for-loan-settlement-harassment" className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] transition-colors">
                       Bank Sent Legal Notice
                     </Link>
                     <Link href="/arbitration-notice-personal-loan-default" className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] transition-colors">
                       Arbitration Notice Defense
                     </Link>
-                    <Link href="/recovery-agent-harassment-legal-protection" className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] transition-colors">
+                    <Link href="/services/anti-harassment" className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] transition-colors">
                       Anti-Harassment Protection
                     </Link>
-                    <Link href="/convert-settled-loan-to-closed" className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] transition-colors">
+                    <Link href="/legal-help-for-non-closure-of-settled-loan" className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] transition-colors">
                       Convert Settled to Closed
                     </Link>
                   </div>
@@ -838,7 +838,7 @@ export default function NriCreditCardDebtSettlementClient() {
                 Specialized in cross-border banking dispute resolution and NPA settlement negotiations.
               </p>
               <Link
-                href="/authors/ashish-jhangra"
+                href="/author/ashish-jhangra"
                 className="text-xs font-bold text-[#1886ff] hover:underline inline-flex items-center gap-1"
               >
                 View Author Profile

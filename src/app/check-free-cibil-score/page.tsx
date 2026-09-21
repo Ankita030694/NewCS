@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import CheckFreeCibilScoreClient from './CheckFreeCibilScoreClient';
 
 export const metadata: Metadata = {
-    title: "Check Free CIBIL Score Official | Free Credit Report RBI Mandate",
-    description: "Learn how to check your free CIBIL score accurately without spam. Get your RBI mandated free annual credit report directly from official bureaus without data harvesting.",
+    title: "Check Free CIBIL Score Official",
+    description: "Learn how to check your free CIBIL score accurately without spam. Get your RBI mandated free annual credit report directly from official bureaus without.",
     keywords: [
         "check free CIBIL score official",
         "free credit report RBI mandate",

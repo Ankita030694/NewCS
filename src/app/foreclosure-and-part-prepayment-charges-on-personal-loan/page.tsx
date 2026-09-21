@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ForeclosureAndPartPrepaymentChargesClient from './ForeclosureAndPartPrepaymentChargesClient';
 
 export const metadata: Metadata = {
-    title: "Foreclosure and Part-Prepayment Charges on Personal Loans (2025)",
+    title: "Foreclosure and Part-Prepayment Charges on Personal Loans",
     description: "Understand the RBI rules on foreclosure charges and personal loan prepayment penalties. Learn how to strategically prepay and minimize hidden bank fees.",
     keywords: [
         "foreclosure charges on personal loan",

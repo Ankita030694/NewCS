@@ -7,7 +7,7 @@ import StudentLoanSettlementClient from './StudentLoanSettlementClient';
 
 export const metadata: Metadata = {
     title: "Student Loan Default Settlement Programs in India",
-    description: "Are there specialized programs for settling student loan defaults in India? Explore RBI guidelines, bank-specific OTS schemes, and legal-tech solutions for education debt.",
+    description: "Are there specialized programs for settling student loan defaults in India? Explore RBI guidelines, bank-specific OTS schemes.",
     keywords: [
         "specialized programs for settling student loan defaults in India",
         "student loan settlement India 2025",

@@ -7,7 +7,7 @@ import CibilImprovementClient from './CibilImprovementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Improve CIBIL Score After Loan Settlement | Rebuild Credit Fast',
+  title: 'How to Improve CIBIL Score After Loan Settlement',
   description: 'Learn the exact steps to improve your CIBIL score after a loan settlement in India. From converting settled to closed to rebuilding with secured credit.',
   keywords: [
     'how to improve cibil score after loan settlement',

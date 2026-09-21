@@ -7,7 +7,7 @@ import BestLawyerLoanAgreementClient from './BestLawyerLoanAgreementClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Loan Agreement Drafting & Vetting India",
-    description: "Looking for the best lawyer for loan agreement? Get expert legal drafting and vetting services for business, personal, and secured loans. 100% legally sound & protected.",
+    description: "Looking for the best lawyer for loan agreement? Get expert legal drafting and vetting services for business, personal, and secured loans.",
     keywords: [
         "best lawyer for loan agreement",
         "loan agreement drafting lawyer India",

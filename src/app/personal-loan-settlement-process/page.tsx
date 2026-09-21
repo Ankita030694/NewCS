@@ -7,7 +7,7 @@ import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
     title: "How Does Personal Loan Settlement Work? Step-by-Step Process",
-    description: "Understand the complete personal loan settlement process in India. Learn how to negotiate with banks, legally settle your debt, and secure your NOC certificate.",
+    description: "Understand the complete personal loan settlement process in India. Learn how to negotiate with banks, legally settle your debt.",
     alternates: {
         canonical: 'https://www.credsettle.com/personal-loan-settlement-process',
     },

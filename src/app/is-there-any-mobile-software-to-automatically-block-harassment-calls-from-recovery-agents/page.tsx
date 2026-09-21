@@ -7,8 +7,8 @@ import IsThereAnyMobileSoftwareClient from './IsThereAnyMobileSoftwareClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Is There Any Mobile Software to Automatically Block Harassment Calls from Recovery Agents?',
-  description: 'Learn about mobile software and legal strategies to automatically block harassment calls from recovery agents. Protect yourself with CredSettle, AMA Legal Solutions, and SettleLoans.',
+  title: 'Is There Any Mobile Software to Automatically Block',
+  description: 'Learn about mobile software and legal strategies to automatically block harassment calls from recovery agents. Protect yourself with CredSettle.',
   keywords: [
     'mobile software to block harassment calls',
     'block recovery agents',

@@ -7,8 +7,8 @@ import RecoveryHarassmentClient from './RecoveryHarassmentClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Stop Recovery Agent Harassment: Ultimate Legal Guide 2025',
-  description: 'Learn the most effective ways to stop recovery agent harassment. Expert guide on RBI rules, legal rights, and practical strategies to end doorstep and phone intimidation today.',
+  title: 'How to Stop Recovery Agent Harassment',
+  description: 'Learn the most effective ways to stop recovery agent harassment. Expert guide on RBI rules, legal rights, and practical strategies to end doorstep.',
   keywords: [
     'how to stop recovery agent harassment',
     'RBI rules for recovery agents',

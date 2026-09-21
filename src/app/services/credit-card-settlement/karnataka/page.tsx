@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import KarnatakaPageClient from './KarnatakaPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Bangalore Karnataka | Save 60% | Stop Calls | CredSettle',
-  description: 'Credit card settlement in Bangalore, Mysore, Mangalore. Startup debt, tech spending, multiple cards. Reduce debt 40-75%. Legal RBI-compliant. 6,500+ Karnataka clients debt-free.',
+  title: 'Credit Card Settlement Bangalore Karnataka',
+  description: 'Credit card settlement in Bangalore, Mysore, Mangalore. Startup debt, tech spending, multiple cards. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Bangalore',
     'credit card debt relief Karnataka',

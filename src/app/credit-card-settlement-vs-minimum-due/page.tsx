@@ -7,7 +7,7 @@ import CreditCardSettlementClient from './CreditCardSettlementClient';
 
 export const metadata: Metadata = {
     title: "Credit Card Settlement vs Minimum Due Payments India",
-    description: "Discover how the minimum amount due trap works on credit cards in India. Learn when a formal debt settlement is the only viable exit strategy to clear your debt.",
+    description: "Discover how the minimum amount due trap works on credit cards in India. Learn when a formal debt settlement is the only viable exit strategy to clear.",
     keywords: [
         "credit card settlement vs minimum due",
         "how to clear credit card debt India",

@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import MaharashtraPageClient from './MaharashtraPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Mumbai Pune Maharashtra | Save 60% | Stop Calls | CredSettle',
-  description: 'Credit card settlement in Mumbai, Pune, Nagpur. Multiple card debt, minimum payment trap, lifestyle spending. Reduce debt 40-75%. Legal RBI-compliant. 9,200+ Maharashtra clients debt-free.',
+  title: 'Credit Card Settlement Mumbai Pune Maharashtra',
+  description: 'Credit card settlement in Mumbai, Pune, Nagpur. Multiple card debt, minimum payment trap, lifestyle spending. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Mumbai',
     'credit card debt relief Pune',

@@ -7,7 +7,7 @@ import P2PLendingSettlementClient from './P2PLendingSettlementClient';
 
 export const metadata: Metadata = {
   title: 'P2P Lending & Loan Settlements in India | CredSettle',
-  description: 'Learn the legal and procedural steps for loan settlement on Indian P2P lending platforms. Detailed guide on RBI NBFC-P2P rules, recovery, and debt resolution.',
+  description: 'Learn the legal and procedural steps for loan settlement on Indian P2P lending platforms. Detailed guide on RBI NBFC-P2P rules, recovery.',
   keywords: 'p2p lending settlement india, nbfc-p2p loan settlement, rbi guidelines for p2p platforms, faircent settlement, lendenclub debt recovery, p2p loan default resolution',
   alternates: {
     canonical: 'https://www.credsettle.com/how-do-peer-to-peer-lending-platforms-handle-loan-settlements',

@@ -4,8 +4,8 @@ import Footer from '@/components/Footer';
 import TimeBarredLoanClient from './TimeBarredLoanClient';
 
 export const metadata: Metadata = {
-    title: 'Is a Personal Loan Time-Barred After 3 Years? | Limitation Act',
-    description: 'Under the Limitation Act of 1963, bank debts expire after 3 years if no legal action is taken. Learn how to use this loophole to settle time-barred personal loans.',
+    title: 'Is a Personal Loan Time-Barred After 3 Years?',
+    description: 'Under the Limitation Act of 1963, bank debts expire after 3 years if no legal action is taken. Learn how to use this loophole to settle time-barred.',
     alternates: {
         canonical: 'https://www.credsettle.com/personal-loan-time-barred-after-3-years-limitation-act',
     }

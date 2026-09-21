@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import GujaratPageClient from './GujaratPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Ahmedabad Surat Gujarat | Diamond Traders Textile | Save 70% | CredSettle',
-  description: 'Personal loan settlement in Ahmedabad, Surat, Vadodara, Rajkot. Business loans, diamond traders, textile MSME. Reduce debt 30-70%. RBI legal. 11000+ Gujarat clients. Free consultation.',
+  title: 'Loan Settlement Ahmedabad Surat Gujarat',
+  description: 'Personal loan settlement in Ahmedabad, Surat, Vadodara, Rajkot. Business loans, diamond traders, textile MSME. Reduce debt 30-70%. RBI legal.',
   keywords: [
     'loan settlement Ahmedabad',
     'personal loan settlement Surat',

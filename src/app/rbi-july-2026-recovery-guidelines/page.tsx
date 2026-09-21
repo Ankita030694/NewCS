@@ -7,8 +7,8 @@ import RbiGuidelinesClient from './RbiGuidelinesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'RBI July 2026 Recovery Guidelines | Complete Rules for Banks & NBFCs',
-  description: 'A comprehensive, detailed guide on the latest RBI July 2026 recovery guidelines. Learn how these new rules protect borrowers from harassment and regulate debt recovery agents in India.',
+  title: 'RBI July 2026 Recovery Guidelines',
+  description: 'A comprehensive, detailed guide on the latest RBI July 2026 recovery guidelines. Learn how these new rules protect borrowers from harassment and regulate.',
   keywords: [
     'rbi july 2026 recovery guidelines',
     'rbi new guidelines for recovery agents 2026',

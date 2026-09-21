@@ -7,7 +7,7 @@ import SecuredLoanSettlementClient from './SecuredLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle a Secured Loan Like a Home Loan in India? | Expert Guide',
+  title: 'Can I Settle a Secured Loan Like a Home Loan in India?',
   description: 'Learn if you can settle secured loans like home loans or vehicle loans in India. Compare secured vs unsecured loan settlement processes and impacts.',
   keywords: [
     'settle secured loan india',

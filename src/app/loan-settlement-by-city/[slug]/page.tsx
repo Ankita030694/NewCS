@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!location) return { title: "Not Found" };
 
   return {
-    title: `${location.title} | CredSettle`,
+    title: location.title,
     description: location.description,
     keywords: [
       `loan settlement ${location.name}`,
@@ -51,6 +51,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
           alt: `Loan Settlement Services in ${location.name}`,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: location.title,
+      description: location.description,
+      images: ["/services/3.png"],
     },
   };
 }

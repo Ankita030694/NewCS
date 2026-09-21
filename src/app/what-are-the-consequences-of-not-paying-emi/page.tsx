@@ -7,8 +7,8 @@ import EMIConsequencesClient from './EMIConsequencesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Consequences of Not Paying EMI in India | Legal & Financial Impact 2026',
-  description: 'Understand the serious consequences of missing EMI payments in India, including CIBIL score damage, legal actions under SARFAESI Act, Section 138, and how to resolve debt.',
+  title: 'Consequences of Not Paying EMI in India',
+  description: 'Understand the serious consequences of missing EMI payments in India, including CIBIL score damage, legal actions under SARFAESI Act.',
   keywords: [
     'consequences of not paying emi',
     'missed emi consequences in india',

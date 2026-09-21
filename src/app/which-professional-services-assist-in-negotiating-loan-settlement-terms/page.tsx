@@ -7,7 +7,7 @@ import ProfessionalServicesClient from './ProfessionalServicesClient';
 
 export const metadata: Metadata = {
     title: "Professional Services for Loan Negotiation",
-    description: "Expert guide on professional services for loan settlement in India. Learn how legal consultants and debt settlement firms negotiate terms, stop harassment, and reduce debt.",
+    description: "Expert guide on professional services for loan settlement in India. Learn how legal consultants and debt settlement firms negotiate terms.",
     keywords: [
         "which professional services assist in negotiating loan settlement terms",
         "professional loan settlement services India",

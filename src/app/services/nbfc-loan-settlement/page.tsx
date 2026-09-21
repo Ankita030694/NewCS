@@ -3,7 +3,7 @@ import NBFCLoanSettlementPageClient from "./NBFCLoanSettlementPageClient";
 
 export const metadata: Metadata = {
   title: "NBFC Loan Settlement | Close Debt Legally | CredSettle",
-  description: "Expert NBFC loan settlement services. Navigate complex NBFC policies, stop harassment, and secure RBI-compliant OTS with legal protection. Settle for less today.",
+  description: "Expert NBFC loan settlement services. Navigate complex NBFC policies, stop harassment, and secure RBI-compliant OTS with legal protection.",
   alternates: {
     canonical: "https://www.credsettle.com/services/nbfc-loan-settlement",
   },

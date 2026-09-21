@@ -7,7 +7,7 @@ import DiySettlementClient from './DiySettlementClient';
 
 export const metadata: Metadata = {
     title: "Can I Settle Debt Without a Third-Party Agency in India?",
-    description: "Learn how to negotiate a DIY loan settlement directly with your bank. Discover when you need a law firm instead of paying massive upfront fees to settlement agencies.",
+    description: "Learn how to negotiate a DIY loan settlement directly with your bank. Discover when you need a law firm instead of paying massive upfront fees.",
     keywords: [
         "diy loan settlement India",
         "can I settle my debt without an agency",

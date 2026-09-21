@@ -7,8 +7,8 @@ import RecommendationsClient from './RecommendationsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top Debt Settlement Services in India with Low Processing Fees | 2026 Guide',
-  description: 'Looking for affordable debt settlement in India? Discover recommendations for services with low processing fees. Expert negotiation for credit cards and personal loans.',
+  title: 'Top Debt Settlement Services in India with Low Processing',
+  description: 'Looking for affordable debt settlement in India? Discover recommendations for services with low processing fees. Expert negotiation for credit cards.',
   keywords: [
     'debt settlement services india',
     'low processing fee debt settlement',

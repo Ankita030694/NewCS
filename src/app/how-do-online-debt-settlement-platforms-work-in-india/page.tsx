@@ -7,8 +7,8 @@ import OnlineDebtSettlementClient from './OnlineDebtSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How Do Online Debt Settlement Platforms Work in India? | Expert Guide 2026',
-  description: 'Understand the mechanism of online debt settlement platforms in India. Learn about the process, legal framework, and how platforms like CredSettle help you settle debts.',
+  title: 'How Do Online Debt Settlement Platforms Work in India?',
+  description: 'Understand the mechanism of online debt settlement platforms in India. Learn about the process, legal framework, and how platforms like CredSettle help.',
   keywords: [
     'how do online debt settlement platforms work in India',
     'debt settlement process india',

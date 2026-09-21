@@ -7,8 +7,8 @@ import DebtConsolidationClient from './DebtConsolidationClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Banks Offer Debt Consolidation Loans in India? | Expert Guide 2026',
-  description: 'Looking for debt consolidation loans in India? Discover which banks offer the best options, eligibility criteria, interest rates, and how to simplify your EMIs.',
+  title: 'Which Banks Offer Debt Consolidation Loans in India?',
+  description: 'Looking for debt consolidation loans in India? Discover which banks offer the best options, eligibility criteria, interest rates.',
   keywords: [
     'which banks offer debt consolidation loans in india',
     'best debt consolidation loans india',

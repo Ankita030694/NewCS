@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import MultipleLoanClient from './MultipleLoanClient';
 
 export const metadata: Metadata = {
-    title: "How to Settle Multiple Personal Loans | Consolidated Negotiation",
-    description: "Learn how to settle multiple personal loans simultaneously. Discover the difference between debt consolidation vs settlement and how to negotiate multiple loans with banks effectively.",
+    title: "How to Settle Multiple Personal Loans",
+    description: "Learn how to settle multiple personal loans simultaneously. Discover the difference between debt consolidation vs settlement and how to negotiate.",
     keywords: [
         "how to settle multiple personal loans",
         "debt consolidation vs settlement",

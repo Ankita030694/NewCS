@@ -7,8 +7,8 @@ import DefaultIndiaClient from './DefaultIndiaClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Understanding 90 Day Loan Default in India | RBI NPA Guidelines & Rules',
-  description: 'Everything you need to know about 90 day loan default in India. Learn about NPA classification, RBI guidelines, SARFAESI Act, and how to settle loans with CredSettle.',
+  title: 'Understanding 90 Day Loan Default in India',
+  description: 'Everything you need to know about 90 day loan default in India. Learn about NPA classification, RBI guidelines, SARFAESI Act.',
   keywords: [
     'understanding 90 day loan default india',
     '90 day loan default consequences',

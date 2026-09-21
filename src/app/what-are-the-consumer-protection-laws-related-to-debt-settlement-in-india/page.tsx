@@ -7,7 +7,7 @@ import ConsumerProtectionLawsClient from './ConsumerProtectionLawsClient';
 
 export const metadata: Metadata = {
     title: "Consumer Protection Laws for Debt Settlement India",
-    description: "Learn about your legal rights under the Consumer Protection Act 2019 and RBI 2025 guidelines for debt settlement. Protect yourself from harassment and unfair bank practices.",
+    description: "Learn about your legal rights under the Consumer Protection Act 2019 and RBI 2025 guidelines for debt settlement. Protect yourself from harassment.",
     keywords: [
         "consumer protection laws debt settlement india",
         "rights against recovery agents RBI 2025",

@@ -7,8 +7,8 @@ import ChequeBounceDelhiClient from './ChequeBounceDelhiClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top Cheque Bounce Case Lawyers in Delhi | Section 138 NI Act Experts',
-  description: 'Facing a cheque bounce case in Delhi NCR? Get expert legal help from top Section 138 NI Act lawyers. We handle legal notices, court representation, and recovery in Saket, Tis Hazari, and more.',
+  title: 'Top Cheque Bounce Case Lawyers in Delhi',
+  description: 'Facing a cheque bounce case in Delhi NCR? Get expert legal help from top Section 138 NI Act lawyers. We handle legal notices.',
   keywords: [
     'cheque bounce case in delhi',
     'cheque bounce lawyer delhi',

@@ -17,21 +17,52 @@ const getBankBySlug = (slug: string) => {
   );
 };
 
+function getBankMetaTitle(company: string): string {
+  const full = `${company} Loan Settlement | CredSettle`;
+  if (full.length <= 60) return full;
+  const short = `${company} Loan Settlement`;
+  if (short.length <= 60) return short;
+  return `Loan Settlement - ${company}`.slice(0, 60);
+}
+
+function getBankMetaDescription(company: string): string {
+  let desc = `Settle your ${company} loans legally with CredSettle. Stop recovery harassment, protect your rights, and resolve debt. Free legal consultation.`;
+  if (desc.length <= 155 && desc.length >= 130) return desc;
+  if (desc.length > 155) {
+    desc = `Settle ${company} loans legally with CredSettle. Stop recovery harassment, protect your rights & resolve debt. Free consultation.`;
+  }
+  if (desc.length > 155) {
+    desc = `Settle ${company} loans legally with CredSettle. Stop harassment and resolve debt under RBI guidelines.`;
+  }
+  if (desc.length < 130) {
+    desc = `Settle your ${company} loans legally with CredSettle. Stop recovery agent harassment, protect your rights, and resolve debt under RBI guidelines today.`;
+  }
+  return desc;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const bank = getBankBySlug(slug);
   if (!bank) return { title: 'Bank Not Found | CredSettle' };
 
+  const metaTitle = getBankMetaTitle(bank.company);
+  const metaDescription = getBankMetaDescription(bank.company);
+
   return {
-    title: `${bank.company} Loan Settlement Guide 2026 - Reduce Debt Legally | CredSettle`,
-    description: `Comprehensive 2026 guide to settling your ${bank.company} credit card and personal loans. Learn your legal rights, stop recovery agent harassment, and reduce your debt by up to 50%.`,
+    title: metaTitle,
+    description: metaDescription,
     keywords: `${bank.company} loan settlement, ${bank.company} credit card settlement, ${bank.company} debt relief, stop ${bank.company} recovery agents, ${bank.company} NPA settlement, legal debt settlement India`,
     alternates: { canonical: `https://www.credsettle.com/loan-settlement-by-bank/${slug}` },
     openGraph: {
-      title: `${bank.company} Loan Settlement Guide - Reduce Debt Legally`,
-      description: `Struggling with ${bank.company} defaults? Master the settlement process, protect yourself from recovery harassment, and get your financial freedom back.`,
+      title: metaTitle,
+      description: metaDescription,
       url: `https://www.credsettle.com/loan-settlement-by-bank/${slug}`,
       type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: metaTitle,
+      description: metaDescription,
     }
   };
 }

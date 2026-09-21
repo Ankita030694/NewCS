@@ -7,8 +7,8 @@ import NegotiationGuideClient from './NegotiationGuideClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Way to Negotiate Loan Settlement in India | Expert Guide 2026',
-  description: 'Master the art of loan settlement negotiation. Learn proven strategies to settle your bank loans for up to 50-70% less while protecting your legal rights and credit score.',
+  title: 'Best Way to Negotiate Loan Settlement in India',
+  description: 'Master the art of loan settlement negotiation. Learn proven strategies to settle your bank loans for up to 50-70% less while protecting your legal rights.',
   keywords: [
     'best way to negotiate loan settlement',
     'loan settlement negotiation strategies india',

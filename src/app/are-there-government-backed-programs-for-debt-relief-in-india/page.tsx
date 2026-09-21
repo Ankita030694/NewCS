@@ -7,7 +7,7 @@ import GovernmentDebtReliefClient from './GovernmentDebtReliefClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Government-Backed Debt Relief Programs in India: Comprehensive Guide (2025)',
+  title: 'Government-Backed Debt Relief Programs in India',
   description: 'Are there government-backed programs for debt relief in India? Explore RBI guidelines, OTS schemes, loan restructuring, and the IBC Fresh Start process.',
   keywords: [
     'government backed debt relief india',

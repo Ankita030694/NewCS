@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'SBI Loan Settlement Process 2026 | Guide',
-  description: 'Complete guide on State Bank of India (SBI) loan settlement. Learn about SBI OTS schemes 2026, arbitration, and how to settle credit card dues with up to 50% waiver.',
+  description: 'Complete guide on State Bank of India (SBI) loan settlement. Learn about SBI OTS schemes 2026, arbitration, and how to settle credit card dues with up.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/sbi',
   },

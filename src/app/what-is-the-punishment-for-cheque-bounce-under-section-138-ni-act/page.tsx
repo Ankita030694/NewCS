@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PunishmentChequeBounceSection138Client from './PunishmentChequeBounceSection138Client';
 
 export const metadata: Metadata = {
-    title: "What is the Punishment for Cheque Bounce Under Section 138 NI Act? (2026 Guide)",
-    description: "Understand the legal nuances of Section 138 NI Act. Learn why cheque bounce is a bailable offense, the 15-day statutory notice timeline, and your protection rights.",
+    title: "What is the Punishment for Cheque Bounce Under Section 138",
+    description: "Understand the legal nuances of Section 138 NI Act. Learn why cheque bounce is a bailable offense, the 15-day statutory notice timeline.",
     keywords: [
         "section 138 cheque bounce punishment",
         "jail for cheque bounce India",

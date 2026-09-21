@@ -7,7 +7,7 @@ import DebtResolutionClient from './DebtResolutionClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Contact Details for Top-Rated Debt Resolution Companies in India',
+  title: 'Contact Details for Top-Rated Debt Resolution Companies in',
   description: 'Looking for debt resolution experts? Get contact details for top-rated debt resolution companies in India. Expert help for loan settlement and debt relief.',
   keywords: [
     'debt resolution companies in india',

@@ -7,7 +7,7 @@ import BankRecoveryCaseClient from './BankRecoveryCaseClient';
 
 export const metadata: Metadata = {
     title: 'Bank Recovery Court Cases: Civil Suits & Borrower Rights',
-    description: 'Facing a bank recovery case in civil court? Understand the difference between regular suits and Order 37 summary suits, learn about Leave to Defend, and discover your legal rights against recovery litigation.',
+    description: 'Facing a bank recovery case in civil court? Understand the difference between regular suits and Order 37 summary suits.',
     keywords: [
         'bank recovery case in court',
         'civil suit for debt recovery India',

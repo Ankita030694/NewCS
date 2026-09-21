@@ -7,7 +7,7 @@ import HandleLoanDefaultClient from './HandleLoanDefaultClient';
 
 export const metadata: Metadata = {
     title: 'How to Handle Loan Default Without Panicking | CredSettle',
-    description: "Are you facing a loan default? Learn how to handle loan default without panicking. Explore RBI guidelines, your legal rights, and actionable steps to resolve debt in 2025.",
+    description: "Are you facing a loan default? Learn how to handle loan default without panicking. Explore RBI guidelines, your legal rights.",
     keywords: [
         "handle loan default without panicking",
         "loan default consequences India",

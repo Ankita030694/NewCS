@@ -7,7 +7,7 @@ import LoanAgreementDraftingReviewClient from './LoanAgreementDraftingReviewClie
 
 export const metadata: Metadata = {
     title: "Loan Agreement Drafting & Review Services in India",
-    description: "Professional loan agreement drafting and review services in India. Ensure your loan contracts are legally binding, fair, and RBI compliant. Book a legal review today.",
+    description: "Professional loan agreement drafting and review services in India. Ensure your loan contracts are legally binding, fair, and RBI compliant.",
     keywords: [
         "loan agreement drafting review",
         "legal review of loan agreement India",

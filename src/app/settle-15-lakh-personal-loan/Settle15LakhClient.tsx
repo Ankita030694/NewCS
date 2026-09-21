@@ -346,7 +346,7 @@ export default function Settle15LakhClient() {
             {/* Author Card */}
             <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
               <span className="text-xs uppercase tracking-wider text-gray-500 font-semibold mb-3">Written By</span>
-              <Link href="/authors/ashish" className="text-lg font-bold text-gray-900 hover:text-blue-600 transition-colors">
+              <Link href="/author/ashish-jhangra" className="text-lg font-bold text-gray-900 hover:text-blue-600 transition-colors">
                 Ashish Sharma
               </Link>
               <p className="text-sm text-gray-600 mt-1 mb-4">Financial & Legal Strategist, Debt Relief Expert</p>
@@ -368,7 +368,7 @@ export default function Settle15LakhClient() {
               <p className="text-blue-100 text-sm mb-6 relative z-10">
                 Get a legal shield against recovery agents and negotiate a settlement of up to 50% waiver on your ₹15 Lakh loan.
               </p>
-              <Link href="/consultation" className="block w-full bg-white text-blue-900 text-center font-bold py-3 px-4 rounded-xl shadow-md hover:bg-blue-50 transition-colors relative z-10">
+              <Link href="/contact" className="block w-full bg-white text-blue-900 text-center font-bold py-3 px-4 rounded-xl shadow-md hover:bg-blue-50 transition-colors relative z-10">
                 Book Free Consultation
               </Link>
             </div>

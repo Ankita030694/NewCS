@@ -7,7 +7,7 @@ import MSMEBusinessLoanDisputeClient from './MSMEBusinessLoanDisputeClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for MSME Business Loan Disputes (2025)",
-    description: "Looking for the best lawyer for MSME business loan dispute? Expert legal help for MSME NPA defence, SARFAESI notices, MSEFC arbitration and bank harassment. Free consultation.",
+    description: "Looking for the best lawyer for MSME business loan dispute? Expert legal help for MSME NPA defence, SARFAESI notices.",
     keywords: [
         "best lawyer for MSME business loan dispute",
         "MSME business loan dispute lawyer India",

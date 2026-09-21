@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import LoanWaiveoffVsWriteoffClient from './LoanWaiveoffVsWriteoffClient';
 
 export const metadata: Metadata = {
-    title: "Loan Waive-Off vs. Loan Write-Off Explained: Know the Difference",
-    description: "When a borrower sees Written Off on their CIBIL report, they often celebrate, thinking the bank has forgiven their debt. Understand the real difference between a loan waive off and a loan write off.",
+    title: "Loan Waive-Off vs. Loan Write-Off Explained",
+    description: "When a borrower sees Written Off on their CIBIL report, they often celebrate, thinking the bank has forgiven their debt.",
     keywords: [
         "difference between loan waive off and write off",
         "written off account in CIBIL",

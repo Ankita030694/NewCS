@@ -7,7 +7,7 @@ import CannotPayPersonalLoanEmiClient from './CannotPayPersonalLoanEmiClient';
 
 export const metadata: Metadata = {
     title: "I Cannot Pay My Personal Loan EMI: What Should I Do?",
-    description: "Unable to pay your personal loan EMI? Discover your legal rights, how to stop recovery agent harassment, and how to negotiate a debt settlement with your bank.",
+    description: "Unable to pay your personal loan EMI? Discover your legal rights, how to stop recovery agent harassment, and how to negotiate a debt settlement.",
     keywords: [
         "Cannot afford personal loan EMI",
         "no money to pay personal loan",

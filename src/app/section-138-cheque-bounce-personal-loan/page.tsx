@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import Section138ChequeBounceClient from './Section138ChequeBounceClient';
 
 export const metadata: Metadata = {
-  title: 'Section 138 Cheque Bounce Case for Personal Loans (Legal Guide)',
+  title: 'Section 138 Cheque Bounce Case for Personal Loans (Legal',
   description:
-    'Is your bank threatening jail time under Section 138 for a bounced security cheque? Learn how to get bail, fight the case, and settle the debt out of court.',
+    'Is your bank threatening jail time under Section 138 for a bounced security cheque? Learn how to get bail, fight the case.',
   keywords: [
     'Section 138 NI Act for personal loan cheque bounce',
     'Can I go to jail for cheque bounce loan',

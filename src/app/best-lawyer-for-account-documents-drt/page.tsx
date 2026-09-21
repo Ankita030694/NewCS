@@ -7,7 +7,7 @@ import AccountDocumentsDRTClient from './AccountDocumentsDRTClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Account Documents in DRT Cases (2025)",
-    description: "Find the best lawyer for challenging account documents in DRT loan recovery cases. Expert in bank statement analysis, NPA classification disputes, and document-based defence strategies.",
+    description: "Find the best lawyer for challenging account documents in DRT loan recovery cases. Expert in bank statement analysis.",
     keywords: [
         "best lawyer for account documents DRT",
         "DRT case bank statement lawyer",

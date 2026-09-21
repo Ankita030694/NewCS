@@ -34,7 +34,7 @@ export default function NegotiateMultipleLoansTogetherPage() {
             "@type": "Person",
             "name": "Ashish",
             "jobTitle": "Legal and Debt Resolution Professional",
-            "url": "https://www.credsettle.com/authors/ashish"
+            "url": "https://www.credsettle.com/author/ashish-jhangra"
         },
         "reviewedBy": {
             "@type": "Organization",

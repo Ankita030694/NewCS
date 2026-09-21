@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import KotakMahindraBankLoanSettlementClient from './KotakMahindraBankLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Kotak Mahindra Bank Loan Settlement: Process, Waivers & Legal Protection',
+  title: 'Kotak Mahindra Bank Loan Settlement',
   description:
-    'Navigate Kotak Mahindra Bank personal loan and 811 credit settlement. Learn how to handle recovery agents, counter sole arbitration, halt Phoenix ARC assignment, and secure 40%-55% waivers with an authentic NDC.',
+    'Navigate Kotak Mahindra Bank personal loan and 811 credit settlement. Learn how to handle recovery agents, counter sole arbitration.',
   keywords: [
     'kotak mahindra bank loan settlement',
     'kotak personal loan settlement',

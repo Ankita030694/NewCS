@@ -7,7 +7,7 @@ import LoanAgreementDocReviewClient from './LoanAgreementDocReviewClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for Loan Agreement Document Review (2025)",
-    description: "Find the best lawyer for documentation review of loan agreements in India. Expert legal analysis of hidden clauses, arbitration terms, interest conditions, and RBI compliance checks before signing.",
+    description: "Find the best lawyer for documentation review of loan agreements in India. Expert legal analysis of hidden clauses, arbitration terms.",
     keywords: [
         "best lawyer for documentation review loan agreement",
         "loan agreement review lawyer India",

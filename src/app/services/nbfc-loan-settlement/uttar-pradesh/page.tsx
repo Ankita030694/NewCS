@@ -4,9 +4,9 @@ import UttarPradeshPageClient from './UttarPradeshPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/uttar-pradesh';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Uttar Pradesh | CredSettle Legal Relief Desk',
+  title: 'NBFC Loan Settlement Uttar Pradesh',
   description:
-    'Resolve NBFC loans across Uttar Pradesh with CredSettle. Lucknow, Kanpur, Noida, Ghaziabad, and Gorakhpur borrowers receive RBI-compliant negotiation, harassment protection, and structured closure plans.',
+    'Resolve NBFC loans across Uttar Pradesh with CredSettle. Lucknow, Kanpur, Noida, Ghaziabad, and Gorakhpur borrowers receive RBI-compliant negotiation.',
   keywords: [
     'NBFC loan settlement Uttar Pradesh',
     'NBFC settlement Lucknow',

@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Stop Bajaj Finance Recovery Agent Harassment Home Visit 2025',
-  description: 'Practical guide to handle and stop Bajaj Finance recovery agent harassment home visit. Stop illegal debt collection agents today using RBI rules and legal remedies.',
+  description: 'Practical guide to handle and stop Bajaj Finance recovery agent harassment home visit. Stop illegal debt collection agents today using RBI rules.',
   keywords: [
     'bajaj finance recovery agent harassment home visit',
     'stop bajaj finance recovery',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://www.credsettle.com/bajaj-finance-recovery-agent-harrasement-home-visit'
+    url: 'https://www.credsettle.com/bajaj-finance-recovery-agent-harassment-home-visit'
   },
   twitter: {
     card: 'summary_large_image',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Expert advice on stopping Bajaj Finance recovery agents. Stop doorstep harassment entirely.'
   },
   alternates: {
-    canonical: 'https://www.credsettle.com/bajaj-finance-recovery-agent-harrasement-home-visit'
+    canonical: 'https://www.credsettle.com/bajaj-finance-recovery-agent-harassment-home-visit'
   },
   robots: {
     index: true,

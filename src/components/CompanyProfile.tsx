@@ -15,7 +15,7 @@ export default function CompanyProfile() {
     { title: 'Reduce your EMIs', href: '/services/personal-loan-settlement' },
     { title: 'Eliminate your loans', href: '/services/credit-card-settlement' },
     { title: 'Support against Harassment', href: '/services/anti-harassment' },
-    { title: 'Improve your Credit Score', href: '/credit-score-repair' },
+    { title: 'Improve your Credit Score', href: '/services/credit-score-builder' },
     { title: 'Business Loan Relief', href: '/services/business-loan-settlement' },
   ];
 

@@ -7,7 +7,7 @@ import DRTDefenceClient from './DRTDefenceClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for DRT Case Defence (2025) | CredSettle",
-    description: "Expert legal defence for DRT cases and SARFAESI Act notices. Hire the best lawyers for bank loan recovery disputes, NPA settlement, and Debt Recovery Tribunal litigation in India.",
+    description: "Expert legal defence for DRT cases and SARFAESI Act notices. Hire the best lawyers for bank loan recovery disputes, NPA settlement.",
     keywords: [
         "best lawyer for drt case defence for bank loan recovery",
         "DRT case defence lawyer India",

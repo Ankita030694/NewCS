@@ -7,7 +7,7 @@ import WhatIsDebtConsolidationClient from './WhatIsDebtConsolidationClient';
 
 export const metadata: Metadata = {
     title: "What is Debt Consolidation & How It Works | CredSettle",
-    description: "Learn what is debt consolidation and how debt consolidation works to help you consolidate multiple EMIs into one, reducing monthly financial stress and avoiding defaults.",
+    description: "Learn what is debt consolidation and how debt consolidation works to help you consolidate multiple EMIs into one, reducing monthly financial stress.",
     keywords: [
         "what is debt consolidation",
         "how debt consolidation works",

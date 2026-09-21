@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import AndhraPradeshPageClient from './AndhraPradeshPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Visakhapatnam Vijayawada AP | Port City Coastal | Save 70% | CredSettle',
-  description: 'Personal loan settlement in Visakhapatnam, Vijayawada, Guntur, Tirupati. Port workers, IT sector, agricultural traders. Reduce debt 30-70%. RBI legal. 8000+ AP clients. Free consultation.',
+  title: 'Loan Settlement Visakhapatnam Vijayawada AP',
+  description: 'Personal loan settlement in Visakhapatnam, Vijayawada, Guntur, Tirupati. Port workers, IT sector, agricultural traders. Reduce debt 30-70%. RBI legal.',
   keywords: [
     'loan settlement Visakhapatnam',
     'personal loan settlement Vizag',

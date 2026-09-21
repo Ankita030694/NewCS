@@ -5,7 +5,7 @@ import VoluntarySurrenderClient from './VoluntarySurrenderClient';
 
 export const metadata: Metadata = {
     title: 'Voluntary Surrender of Vehicle for Car Loan Default',
-    description: 'Thinking of giving your financed car back to the bank to clear your debt? Learn about the dangerous "shortfall" trap, auction losses, and how to protect yourself legally.',
+    description: 'Thinking of giving your financed car back to the bank to clear your debt? Learn about the dangerous "shortfall" trap, auction losses.',
     alternates: {
         canonical: 'https://www.credsettle.com/voluntary-surrender-vehicle-car-loan-shortfall',
     }

@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import PrepaymentReflectionClient from './PrepaymentReflectionClient';
 
 export const metadata: Metadata = {
-    title: "How Long Does Prepayment Reflection Take in Your Loan Account?",
-    description: "Learn about prepayment reflection time, why your loan part payment is not reflecting immediately, NEFT/RTGS clearing cycles, and how long for loan payment to update.",
+    title: "How Long Does Prepayment Reflection Take in Your Loan",
+    description: "Learn about prepayment reflection time, why your loan part payment is not reflecting immediately, NEFT/RTGS clearing cycles.",
     keywords: [
         "loan part payment not reflecting",
         "prepayment reflection time",

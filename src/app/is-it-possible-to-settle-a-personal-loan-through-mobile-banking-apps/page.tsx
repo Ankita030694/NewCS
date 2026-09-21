@@ -7,7 +7,7 @@ import MobileAppSettlementClient from './MobileAppSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Settle Personal Loan via Mobile Banking Apps | Expert Guide 2026',
+  title: 'Settle Personal Loan via Mobile Banking Apps',
   description: 'Can you settle a personal loan through mobile banking apps in India? Learn the process, legalities, and how CredSettle can help you negotiate digitally.',
   keywords: [
     'settle personal loan via mobile app',

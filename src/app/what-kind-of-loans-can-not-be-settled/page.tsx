@@ -7,8 +7,8 @@ import Link from 'next/link';
 import LoansNotSettledClient from './LoansNotSettledClient';
 
 export const metadata: Metadata = {
-  title: 'What Kind of Loans Can Not Be Settled? | Expert Guide | CredSettle',
-  description: 'Not all loans can be settled. Learn why secured loans like home and car loans are difficult to settle, understand RBI guidelines, and find out which debts are eligible for settlement.',
+  title: 'What Kind of Loans Can Not Be Settled?',
+  description: 'Not all loans can be settled. Learn why secured loans like home and car loans are difficult to settle, understand RBI guidelines.',
   keywords: [
     'what kind of loans can not be settled',
     'what kind of loans can not be settled in India',

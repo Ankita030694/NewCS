@@ -7,7 +7,7 @@ import ARCLoanAssignmentClient from './ARCLoanAssignmentClient';
 
 export const metadata: Metadata = {
     title: "Best Lawyer for ARC Loan Assignment Disputes (2025)",
-    description: "Find the best lawyer for ARC loan assignment disputes in India. Expert legal defence against Asset Reconstruction Companies, invalid assignment challenges, SARFAESI ARC actions, and borrower rights protection.",
+    description: "Find the best lawyer for ARC loan assignment disputes in India. Expert legal defence against Asset Reconstruction Companies.",
     keywords: [
         "best lawyer for ARC loan assignment dispute",
         "ARC loan assignment dispute lawyer India",

@@ -15,7 +15,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "CredSettle - India’s Trusted Loan Settlement Company",
-  description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop harassment, get RBI-compliant OTS solutions. Achieve debt freedom legally.",
+  description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more.",
   keywords: [
     "loan settlement",
     "debt settlement",

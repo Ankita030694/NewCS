@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import LoanAuctionNoticeClient from './LoanAuctionNoticeClient';
 
 export const metadata: Metadata = {
-    title: "Loan Auction Notice: Stop, Postpone, or Cancel Options (2025)",
-    description: "Learn how to stop, postpone, or cancel a property auction after receiving a SARFAESI notice. Discover your legal rights, Section 13(8) options, and DRT stays.",
+    title: "Loan Auction Notice: Stop, Postpone, or Cancel Options",
+    description: "Learn how to stop, postpone, or cancel a property auction after receiving a SARFAESI notice. Discover your legal rights, Section 13(8) options.",
     keywords: [
         "stop bank auction of property",
         "postpone SARFAESI auction",

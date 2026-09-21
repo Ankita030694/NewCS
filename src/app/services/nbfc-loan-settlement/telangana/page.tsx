@@ -4,9 +4,9 @@ import TelanganaPageClient from './TelanganaPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/telangana';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Telangana | CredSettle HITEC and Heartland Desk',
+  title: 'NBFC Loan Settlement Telangana',
   description:
-    'Resolve NBFC loans across Telangana with CredSettle. Hyderabad, Warangal, Karimnagar, Nizamabad, and Khammam borrowers receive RBI compliant negotiation, harassment defence, and structured repayment planning.',
+    'Resolve NBFC loans across Telangana with CredSettle. Hyderabad, Warangal, Karimnagar, Nizamabad, and Khammam borrowers receive RBI compliant negotiation.',
   keywords: [
     'NBFC loan settlement Telangana',
     'NBFC settlement Hyderabad',

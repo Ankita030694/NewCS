@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import UttarPradeshPageClient from './UttarPradeshPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Lucknow Kanpur UP | Agra Varanasi | Save 70% Debt | CredSettle',
-  description: 'Personal loan settlement in Lucknow, Kanpur, Agra, Varanasi, Meerut. Reduce debt 30-70%. UP government employees, traders, MSME owners. RBI legal, 15000+ clients. Free consultation.',
+  title: 'Loan Settlement Lucknow Kanpur UP',
+  description: 'Personal loan settlement in Lucknow, Kanpur, Agra, Varanasi, Meerut. Reduce debt 30-70%. UP government employees, traders, MSME owners.',
   keywords: [
     'loan settlement Lucknow',
     'personal loan settlement Kanpur',

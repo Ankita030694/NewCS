@@ -7,8 +7,8 @@ import ChequeBounceClient from './ChequeBounceClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top Cheque Bounce Case Lawyers in Kolkata | Section 138 NI Act Experts',
-  description: 'Facing a cheque bounce case in Kolkata? Get expert legal help from top Section 138 NI Act lawyers. We handle legal notices, court representation, and recovery.',
+  title: 'Top Cheque Bounce Case Lawyers in Kolkata',
+  description: 'Facing a cheque bounce case in Kolkata? Get expert legal help from top Section 138 NI Act lawyers. We handle legal notices.',
   keywords: [
     'cheque bounce case in kolkata',
     'cheque bounce lawyer kolkata',

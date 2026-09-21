@@ -7,8 +7,8 @@ import CibilSettlementClient from './CibilSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Is CIBIL Ruined Forever After Settlement? Full Truth & Recovery Guide',
-  description: 'Worried about CIBIL after settlement? Learn if your credit score is ruined forever. Expert guide on rebuilding credit after loan settlement and legal rights in India.',
+  title: 'Is CIBIL Ruined Forever After Settlement? Full Truth &',
+  description: 'Worried about CIBIL after settlement? Learn if your credit score is ruined forever. Expert guide on rebuilding credit after loan settlement and legal.',
   keywords: [
     'is cibil ruined forever after settlement',
     'cibil score after loan settlement',

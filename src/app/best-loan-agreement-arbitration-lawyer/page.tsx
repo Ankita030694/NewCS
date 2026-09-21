@@ -7,7 +7,7 @@ import LoanArbitrationClient from './LoanArbitrationClient';
 
 export const metadata: Metadata = {
     title: "Best Loan Agreement Arbitration Lawyer (2025)",
-    description: "Facing loan arbitration? Get expert legal representation for arbitration notices, Section 9 interim relief, and challenging arbitral awards. Professional ADR for loan disputes.",
+    description: "Facing loan arbitration? Get expert legal representation for arbitration notices, Section 9 interim relief, and challenging arbitral awards.",
     keywords: [
         "best loan agreement arbitration lawyer",
         "loan arbitration notice legal help",

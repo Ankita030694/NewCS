@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'Terms and Conditions | CredSettle Legal Engagement Policy',
   description:
-    'Read the legal terms governing your use of CredSettle’s RBI-compliant debt settlement services, including acceptable use, liability, fees, and refund policies.',
+    'Read the legal terms governing your use of CredSettle’s RBI-compliant debt settlement services, including acceptable use, liability, fees.',
   alternates: {
     canonical: 'https://www.credsettle.com/terms-and-conditions',
   },

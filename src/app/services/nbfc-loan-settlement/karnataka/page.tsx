@@ -4,9 +4,9 @@ import KarnatakaPageClient from './KarnatakaPageClient';
 const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/karnataka';
 
 export const metadata: Metadata = {
-  title: 'NBFC Loan Settlement Karnataka | CredSettle Legal Debt Strategy',
+  title: 'NBFC Loan Settlement Karnataka',
   description:
-    'Negotiate NBFC loan settlements across Karnataka with CredSettle. Bengaluru, Mysuru, Hubballi borrowers get RBI-compliant negotiations, harassment protection, and structured repayment solutions.',
+    'Negotiate NBFC loan settlements across Karnataka with CredSettle. Bengaluru, Mysuru, Hubballi borrowers get RBI-compliant negotiations.',
   keywords: [
     'NBFC loan settlement Karnataka',
     'NBFC settlement Bengaluru',

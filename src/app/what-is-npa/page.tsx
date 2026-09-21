@@ -7,8 +7,8 @@ import WhatIsNpaClient from './WhatIsNpaClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What is NPA? Meaning, Types, Impact & Resolution Guide | CredSettle',
-  description: 'Detailed guide on Non-Performing Assets (NPA). Learn NPA meaning in banking, full form, npa kya hota hai, types, causes, and how to resolve NPA through settlement.',
+  title: 'What is NPA? Meaning, Types, Impact & Resolution Guide',
+  description: 'Detailed guide on Non-Performing Assets (NPA). Learn NPA meaning in banking, full form, npa kya hota hai, types, causes.',
   keywords: [
     'what is npa',
     'npa kya hota hai',

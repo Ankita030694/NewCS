@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Settlement RBI Guidelines 2026: Know Your Rights",
-    description: "Is loan settlement legal? Read the latest RBI guidelines on personal loan settlement, NPA classification, and your legal rights against recovery harassment.",
+    title: "Personal Loan Settlement RBI Guidelines 2026",
+    description: "Is loan settlement legal? Read the latest RBI guidelines on personal loan settlement, NPA classification, and your legal rights against recovery.",
     alternates: {
         canonical: 'https://www.credsettle.com/personal-loan-settlement-rbi-guidelines',
     },

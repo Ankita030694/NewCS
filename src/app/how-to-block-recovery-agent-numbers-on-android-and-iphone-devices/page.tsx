@@ -7,7 +7,7 @@ import HowToBlockClient from './HowToBlockClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Block Recovery Agent Numbers on Android and iPhone Devices',
+  title: 'How to Block Recovery Agent Numbers on Android and iPhone',
   description: 'Learn how to block recovery agent calls on Android and iPhone. Discover your rights under RBI guidelines and stop harassment from debt collectors today.',
   keywords: [
     'block recovery agent numbers',

@@ -7,7 +7,7 @@ import SalaryAccountFreezeClient from './SalaryAccountFreezeClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Bank Froze Salary Account for Loan Default? Here is How to Get Your Salary',
+  title: 'Bank Froze Salary Account for Loan Default? Here is How to',
   description: 'Emergency guide for when your bank exercises right of set-off and deducts your entire salary. Learn how to file an RBI complaint and open a new account.',
   keywords: [
     'bank froze my salary account for loan default',

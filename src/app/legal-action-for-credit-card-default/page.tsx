@@ -7,7 +7,7 @@ import CreditCardDefaultLegalActionClient from './CreditCardDefaultLegalActionCl
 
 export const metadata: Metadata = {
     title: "Legal Action for Credit Card Default in India",
-    description: "What legal action can banks take for credit card default in India? Learn about the recovery process, CIBIL impact, arbitration, and your rights against harassment.",
+    description: "What legal action can banks take for credit card default in India? Learn about the recovery process, CIBIL impact, arbitration.",
     keywords: [
         "legal action for credit card default India",
         "credit card recovery process in India",

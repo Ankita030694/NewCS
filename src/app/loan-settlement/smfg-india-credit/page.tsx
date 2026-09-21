@@ -7,8 +7,8 @@ import Footer from '@/components/Footer';
 import SMFGLoanSettlementClient from './SMFGLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'SMFG India Credit Loan Settlement | Formerly Fullerton India OTS',
-  description: 'Complete guide to SMFG India Credit (Fullerton India) loan settlement. Learn about Instaloan app settlement, stopping harassment, and getting NOC. Save 50%.',
+  title: 'SMFG India Credit Loan Settlement',
+  description: 'Complete guide to SMFG India Credit (Fullerton India) loan settlement. Learn about Instaloan app settlement, stopping harassment, and getting NOC.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/smfg-india-credit',
   },

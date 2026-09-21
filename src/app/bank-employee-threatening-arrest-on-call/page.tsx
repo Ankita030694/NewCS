@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import ThreateningArrestClient from './ThreateningArrestClient';
 
 export const metadata: Metadata = {
-    title: "Bank Employee Threatening Arrest on Call? Legal Steps & Rights",
-    description: "Learn your legal rights and actionable steps if a bank employee or recovery agent falsely threatens you with arrest over a phone call for loan default in India.",
+    title: "Bank Employee Threatening Arrest on Call? Legal Steps &",
+    description: "Learn your legal rights and actionable steps if a bank employee or recovery agent falsely threatens you with arrest over a phone call for loan default.",
     keywords: [
         "bank employee threatening arrest on call",
         "loan default arrest in India",

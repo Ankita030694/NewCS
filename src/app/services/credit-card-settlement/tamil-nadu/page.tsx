@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import TamilNaduPageClient from './TamilNaduPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Chennai Tamil Nadu | Save 60% | Stop Calls | CredSettle',
-  description: 'Credit card settlement in Chennai, Coimbatore, Madurai. Auto industry debt, IT spending, multiple cards. Reduce debt 40-75%. Legal RBI-compliant. 5,900+ Tamil Nadu clients debt-free.',
+  title: 'Credit Card Settlement Chennai Tamil Nadu',
+  description: 'Credit card settlement in Chennai, Coimbatore, Madurai. Auto industry debt, IT spending, multiple cards. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Chennai',
     'credit card debt relief Tamil Nadu',

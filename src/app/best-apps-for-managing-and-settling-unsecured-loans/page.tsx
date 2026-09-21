@@ -7,8 +7,8 @@ import BestAppsClient from './BestAppsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Apps for Managing and Settling Unsecured Loans in India (2026)',
-  description: 'Looking for the best apps for managing and settling unsecured loans? Explore top-rated debt settlement platforms like CredSettle to reduce your debt and regain financial control.',
+  title: 'Best Apps for Managing and Settling Unsecured Loans in',
+  description: 'Looking for the best apps for managing and settling unsecured loans? Explore top-rated debt settlement platforms like CredSettle to reduce your debt.',
   keywords: [
     'best apps for managing unsecured loans',
     'loan settlement apps india',

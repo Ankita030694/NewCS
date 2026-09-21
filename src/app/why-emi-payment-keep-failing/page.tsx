@@ -7,7 +7,7 @@ import WhyEmiPaymentKeepFailingClient from './WhyEmiPaymentKeepFailingClient';
 
 export const metadata: Metadata = {
     title: "Why Does My EMI Payment Keep Failing? (2025 Guide)",
-    description: "Diagnose chronic EMI failures, signature mismatches, and defunct NACH mandates. Learn how to switch payment modes without triggering CIBIL drops or accidental defaults.",
+    description: "Diagnose chronic EMI failures, signature mismatches, and defunct NACH mandates. Learn how to switch payment modes without triggering CIBIL drops.",
     keywords: [
         "why EMI payment keeps failing",
         "NACH mandate failure reasons",

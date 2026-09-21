@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import RajasthanPageClient from './RajasthanPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Jaipur Jodhpur Rajasthan | Tourism Handicraft | Save 70% | CredSettle',
-  description: 'Personal loan settlement in Jaipur, Jodhpur, Udaipur, Kota. Tourism sector, handicraft, mining, MSME. Rajasthan OTS Scheme support. Reduce debt 30-70%. 7500+ Rajasthan clients.',
+  title: 'Loan Settlement Jaipur Jodhpur Rajasthan',
+  description: 'Personal loan settlement in Jaipur, Jodhpur, Udaipur, Kota. Tourism sector, handicraft, mining, MSME. Rajasthan OTS Scheme support. Reduce debt 30-70%.',
   keywords: [
     'loan settlement Jaipur',
     'personal loan settlement Jodhpur',

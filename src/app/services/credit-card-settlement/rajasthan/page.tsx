@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import RajasthanPageClient from './RajasthanPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement Jaipur Rajasthan | Save 60% | Stop Calls | CredSettle',
-  description: 'Credit card settlement in Jaipur, Udaipur, Jodhpur. Business debt, tourism spending, multiple cards. Reduce debt 40-75%. Legal RBI-compliant. 4,200+ Rajasthan clients debt-free.',
+  title: 'Credit Card Settlement Jaipur Rajasthan',
+  description: 'Credit card settlement in Jaipur, Udaipur, Jodhpur. Business debt, tourism spending, multiple cards. Reduce debt 40-75%. Legal RBI-compliant.',
   keywords: [
     'credit card settlement Jaipur',
     'credit card debt relief Rajasthan',

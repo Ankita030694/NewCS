@@ -7,7 +7,7 @@ import DRTLawyerMumbaiClient from './DRTLawyerMumbaiClient';
 
 export const metadata: Metadata = {
     title: "DRT Lawyer in Mumbai for Loan Recovery (2025)",
-    description: "Connect with the best DRT lawyer in Mumbai for loan recovery cases. Expert representation before DRT-I, DRT-II, DRT-III Mumbai. SARFAESI defence, stay orders, and NPA resolution.",
+    description: "Connect with the best DRT lawyer in Mumbai for loan recovery cases. Expert representation before DRT-I, DRT-II, DRT-III Mumbai.",
     keywords: [
         "DRT lawyer in Mumbai loan recovery",
         "debt recovery tribunal lawyer Mumbai",

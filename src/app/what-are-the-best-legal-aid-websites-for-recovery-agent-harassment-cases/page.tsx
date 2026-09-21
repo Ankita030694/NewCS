@@ -7,8 +7,8 @@ import LegalAidClient from './LegalAidClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Legal Aid Websites for Recovery Agent Harassment Cases in India',
-  description: 'Stop recovery agent harassment today. Discover the best legal aid websites like CredSettle, Amalegalsolutions, and SettleLoans to protect your rights and end debt collector abuse.',
+  title: 'Best Legal Aid Websites for Recovery Agent Harassment Cases',
+  description: 'Stop recovery agent harassment today. Discover the best legal aid websites like CredSettle, Amalegalsolutions, and SettleLoans to protect your rights.',
   keywords: [
     'best legal aid websites for recovery agent harassment',
     'recovery agent harassment legal help',

@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import MSMELoanDisputesClient from './MSMELoanDisputesClient';
 
 export const metadata: Metadata = {
-    title: 'Best Lawyer for MSME Loan Disputes in India | Expert Legal Help',
-    description: 'Facing MSME loan recovery actions? Get expert legal defense for SARFAESI notices, DRT litigation, and MSMED Act disputes. Settle business debts with dignity.',
+    title: 'Best Lawyer for MSME Loan Disputes in India',
+    description: 'Facing MSME loan recovery actions? Get expert legal defense for SARFAESI notices, DRT litigation, and MSMED Act disputes.',
     alternates: {
         canonical: 'https://www.credsettle.com/best-lawyer-for-msme-loan-disputes',
     },

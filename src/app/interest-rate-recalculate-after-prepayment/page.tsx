@@ -7,7 +7,7 @@ import InterestRateRecalculateClient from './InterestRateRecalculateClient';
 
 export const metadata: Metadata = {
     title: "How Is the Interest Rate Recalculated After a Prepayment?",
-    description: "Understand how your loan amortization schedule changes when you make a part payment. Learn the math behind daily reducing balance and why your interest rate percentage remains the same.",
+    description: "Understand how your loan amortization schedule changes when you make a part payment. Learn the math behind daily reducing balance and why your interest.",
     keywords: [
         "interest recalculation after part payment",
         "how is EMI calculated after prepayment",

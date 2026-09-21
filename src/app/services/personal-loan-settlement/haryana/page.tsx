@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import HaryanaPageClient from './HaryanaPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Gurgaon Faridabad Haryana | Corporate Professionals | Save 70% | CredSettle',
-  description: 'Personal loan settlement in Gurgaon, Faridabad, Panipat, Ambala. Corporate employees, industrial workers, MSME. Reduce debt 30-70%. RBI legal. 9500+ Haryana clients. Free consultation.',
+  title: 'Loan Settlement Gurgaon Faridabad Haryana',
+  description: 'Personal loan settlement in Gurgaon, Faridabad, Panipat, Ambala. Corporate employees, industrial workers, MSME. Reduce debt 30-70%. RBI legal.',
   keywords: [
     'loan settlement Gurgaon',
     'personal loan settlement Gurugram',

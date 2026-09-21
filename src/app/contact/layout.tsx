@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact CredSettle - Free Loan Settlement Consultation",
-  description: "Contact CredSettle for free consultation on loan settlement. Get expert help with credit card, personal loan, business loan settlement. Call +91 8800226635 or email info@credsettle.com",
+  description: "Contact CredSettle for free consultation on loan settlement. Get expert help with credit card, personal loan, business loan settlement.",
   keywords: [
     "contact CredSettle",
     "loan settlement consultation",

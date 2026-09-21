@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import SbiPersonalLoanSettlementProcessClient from './SbiPersonalLoanSettlementProcessClient';
 
 export const metadata: Metadata = {
-  title: 'SBI Personal Loan Settlement Process: SARB, OTS & Legal Guide',
+  title: 'SBI Personal Loan Settlement Process',
   description:
-    'Comprehensive guide to SBI personal loan settlement. Learn how to navigate SARB branch transfers, SBI Rinn Samadhan OTS schemes, Lok Adalat concessions, and secure official No Dues Certificates.',
+    'Comprehensive guide to SBI personal loan settlement. Learn how to navigate SARB branch transfers, SBI Rinn Samadhan OTS schemes.',
   keywords: [
     'sbi personal loan settlement process',
     'sbi xpress credit loan settlement',

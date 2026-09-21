@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: 'Login | CredSettle',
   description:
     'Securely access your CredSettle account to manage your loan settlement journey, track progress, and connect with our legal experts.',
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function LoginPage() {

@@ -7,8 +7,8 @@ import InstantLoanAppsClient from '@/app/top-10-instant-loan-apps-revolutionizin
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top 10 Instant Loan Apps in India 2026 | Revolutionizing Credit Access',
-  description: 'Explore the top 10 instant loan apps in India that are revolutionizing credit access. Compare features, interest rates, and eligibility for quick personal loans.',
+  title: 'Top 10 Instant Loan Apps in India 2026',
+  description: 'Explore the top 10 instant loan apps in India that are revolutionizing credit access. Compare features, interest rates.',
   keywords: [
     'top 10 instant loan apps in india',
     'instant loan apps revolutionizing credit',

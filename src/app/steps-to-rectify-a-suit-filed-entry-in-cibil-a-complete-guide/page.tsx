@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import StepsToRectifyASuitFiledEntryInCibilACompleteGuideClient from './StepsToRectifyASuitFiledEntryInCibilACompleteGuideClient';
 
 export const metadata: Metadata = {
-    title: "Steps to Rectify a Suit Filed Entry in CIBIL: A Complete Guide",
-    description: "A 'Suit Filed' entry in CIBIL is a financial death sentence, completely blocking future loans. Learn the legal steps to force the bank to remove the 'Suit Filed' tag post-settlement.",
+    title: "Steps to Rectify a Suit Filed Entry in CIBIL",
+    description: "A 'Suit Filed' entry in CIBIL is a financial death sentence, completely blocking future loans. Learn the legal steps to force the bank to remove.",
     keywords: [
         "suit filed CIBIL meaning",
         "how to remove suit filed from CIBIL",

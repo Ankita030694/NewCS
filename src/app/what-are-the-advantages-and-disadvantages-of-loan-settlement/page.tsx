@@ -7,7 +7,7 @@ import AdvantagesDisadvantagesClient from './AdvantagesDisadvantagesClient';
 
 export const metadata: Metadata = {
     title: "Pros & Cons of Loan Settlement in India (2025)",
-    description: "Explore the comprehensive pros and cons of loan settlement in India. Understand RBI rules for 2025, impact on CIBIL score, and expert debt relief strategies.",
+    description: "Explore the comprehensive pros and cons of loan settlement in India. Understand RBI rules for 2025, impact on CIBIL score.",
     keywords: [
         "advantages and disadvantages of loan settlement",
         "pros and cons of debt settlement India",

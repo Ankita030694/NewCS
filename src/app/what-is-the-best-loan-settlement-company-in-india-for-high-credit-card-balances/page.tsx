@@ -7,7 +7,7 @@ import BestLoanSettlementClient from './BestLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What is the Best Loan Settlement Company in India for High Credit Card Balances?',
+  title: 'What is the Best Loan Settlement Company in India for High',
   description: 'Looking for the best loan settlement company in India to handle high credit card debt? Compare top debt relief agencies and learn how to settle for less.',
   keywords: [
     'best loan settlement company in india',

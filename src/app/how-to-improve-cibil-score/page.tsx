@@ -7,7 +7,7 @@ import HowToImproveCibilScoreClient from './HowToImproveCibilScoreClient';
 
 export const metadata: Metadata = {
     title: "How to Improve Your CIBIL Score After a Loan Default",
-    description: "Expert strategies to rebuild your credit score after an NPA settlement. Discover advanced techniques like FD-backed secured cards and strategic micro-loans.",
+    description: "Expert strategies to rebuild your credit score after an NPA settlement. Discover advanced techniques like FD-backed secured cards and strategic.",
     keywords: [
         "how to improve CIBIL score after settlement",
         "rebuild credit score after default",

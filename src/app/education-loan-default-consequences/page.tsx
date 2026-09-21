@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import EducationLoanDefaultConsequencesClient from './EducationLoanDefaultConsequencesClient';
 
 export const metadata: Metadata = {
-    title: "Education Loan Default Consequences: Will It Ruin Your Career?",
+    title: "Education Loan Default Consequences",
     description: "Understand the civil vs criminal liability of student loan NPA. Learn how government subsidy schemes delay NPA and protect co-borrower parents.",
     keywords: [
         "education loan default consequences",

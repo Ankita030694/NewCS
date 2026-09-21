@@ -7,7 +7,7 @@ import WhatHappensAfter3MissedEmisClient from './WhatHappensAfter3MissedEmisClie
 
 export const metadata: Metadata = {
     title: "What Happens After 3 Missed EMIs on a Personal Loan?",
-    description: "If you miss 3 EMIs, your personal loan is classified as an NPA. Learn about NPA status, bank legal notices, and how to negotiate a settlement after default.",
+    description: "If you miss 3 EMIs, your personal loan is classified as an NPA. Learn about NPA status, bank legal notices, and how to negotiate a settlement after.",
     keywords: [
         "What happens after 3 missed EMIs",
         "Loan NPA after 90 days",

@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Instant Loan Settlement Quote From Online Services',
-  description: 'Discover how to get an instant loan settlement quote online. Learn the exact algorithmic mechanics, avoid deceptive scams, and secure the highest possible waiver.',
+  description: 'Discover how to get an instant loan settlement quote online. Learn the exact algorithmic mechanics, avoid deceptive scams.',
   keywords: [
     'instant loan settlement quote',
     'online loan settlement calculator',

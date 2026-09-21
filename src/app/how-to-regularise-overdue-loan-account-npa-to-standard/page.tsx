@@ -7,7 +7,7 @@ import HowToRegulariseClient from './HowToRegulariseClient';
 
 export const metadata: Metadata = {
     title: "How to Regularise an Overdue Loan Account (NPA to Standard)",
-    description: "Learn the legal steps to regularise your loan account and upgrade from NPA to Standard. Discover how to clear overdue arrears for loan accounts under RBI norms.",
+    description: "Learn the legal steps to regularise your loan account and upgrade from NPA to Standard. Discover how to clear overdue arrears for loan accounts under RBI.",
     keywords: [
         "regularise loan account",
         "upgrade NPA to standard account",

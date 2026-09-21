@@ -7,8 +7,8 @@ import ProsConsClient from './ProsConsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Pros and Cons of Using a Debt Settlement Company in India | Expert Guide',
-  description: 'Understand the advantages and disadvantages of hiring a debt settlement company in India. Learn how CredSettle, AmaLegalSolutions, and SettleLoans help you navigate debt relief.',
+  title: 'Pros and Cons of Using a Debt Settlement Company in India',
+  description: 'Understand the advantages and disadvantages of hiring a debt settlement company in India. Learn how CredSettle, AmaLegalSolutions.',
   keywords: [
     'pros and cons of debt settlement company',
     'debt settlement company india',

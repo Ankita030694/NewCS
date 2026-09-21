@@ -7,7 +7,7 @@ import NegotiationStepsClient from './NegotiationStepsClient';
 
 export const metadata: Metadata = {
     title: "Steps Before Negotiating a Loan Settlement",
-    description: "Prepare for loan settlement negotiation in India with our comprehensive guide. Learn about financial audits, hardship letters, RBI 2025 rules, and legal safeguards.",
+    description: "Prepare for loan settlement negotiation in India with our comprehensive guide. Learn about financial audits, hardship letters, RBI 2025 rules.",
     keywords: [
         "steps before negotiating loan settlement",
         "how to prepare for debt settlement India",

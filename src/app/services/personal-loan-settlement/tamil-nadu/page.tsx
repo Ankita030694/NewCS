@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import TamilNaduPageClient from './TamilNaduPageClient';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement Chennai Coimbatore Tamil Nadu | IT Auto Textile | Save 70% | CredSettle',
-  description: 'Personal loan settlement in Chennai, Coimbatore, Madurai, Salem. IT professionals, auto sector, textile manufacturing. Protected by TN Anti-Harassment Law. Reduce debt 30-70%. 14000+ TN clients.',
+  title: 'Loan Settlement Chennai Coimbatore Tamil Nadu',
+  description: 'Personal loan settlement in Chennai, Coimbatore, Madurai, Salem. IT professionals, auto sector, textile manufacturing. Protected by TN Anti-Harassment Law.',
   keywords: [
     'loan settlement Chennai',
     'personal loan settlement Coimbatore',

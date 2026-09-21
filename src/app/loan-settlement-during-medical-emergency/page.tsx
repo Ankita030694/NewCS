@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MedicalEmergencyClient from './MedicalEmergencyClient';
 
 export const metadata: Metadata = {
-    title: "Loan Settlement During Medical Emergencies: Compassionate Grounds",
+    title: "Loan Settlement During Medical Emergencies",
     description: "Learn how to formally request a bank moratorium or deep loan settlement on compassionate grounds using your medical records and RBI guidelines.",
     keywords: [
         "loan settlement medical emergency",
