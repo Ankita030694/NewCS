@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
@@ -8,6 +8,7 @@ export default function ContactForm() {
   const searchParams = useSearchParams();
   const { executeRecaptcha } = useGoogleReCaptcha();
 
+  const isSubmittingRef = useRef(false);
   const [loading, setLoading] = useState(false);
   const [numberError, setNumberError] = useState('');
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -119,7 +120,8 @@ export default function ContactForm() {
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (loading) return;
+    // Immediate synchronous lock to prevent rapid double-clicks and duplicate requests
+    if (isSubmittingRef.current || loading) return;
 
     if (alreadySubmittedToday) {
       alert('You have already submitted a form today. Our team will contact you soon.');
@@ -130,6 +132,7 @@ export default function ContactForm() {
       return;
     }
 
+    isSubmittingRef.current = true;
     setNumberError('');
     setLoading(true);
 
@@ -191,13 +194,13 @@ export default function ContactForm() {
       localStorage.setItem('credsettle:last_submission_date', formattedDate);
       setAlreadySubmittedToday(true);
       
-      // Redirect to thank-you page on successful submission
+      // Redirect to thank-you page on successful submission (keep isSubmittingRef locked)
       router.push('/thank-you');
     } catch (error: any) {
+      isSubmittingRef.current = false;
+      setLoading(false);
       console.error('Error Submitting form:', error);
       alert(error.message || 'Failed to submit the form!');
-    } finally {
-      setTimeout(() => setLoading(false), 10000); // Enable button after 10 seconds
     }
   };
 

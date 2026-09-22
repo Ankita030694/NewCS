@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 export default function GlobalPopupForm() {
   const [isOpen, setIsOpen] = useState(false);
+  const isSubmittingRef = useRef(false);
   const [loading, setLoading] = useState(false);
   const [numberError, setNumberError] = useState('');
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -138,12 +139,14 @@ export default function GlobalPopupForm() {
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (loading) return;
+    // Immediate synchronous lock to prevent rapid double-clicks and duplicate requests
+    if (isSubmittingRef.current || loading) return;
 
     if (!validateForm()) {
       return;
     }
 
+    isSubmittingRef.current = true;
     setNumberError('');
     setLoading(true);
 
@@ -201,12 +204,13 @@ export default function GlobalPopupForm() {
       localStorage.setItem('credsettle:last_submission_date', formattedDate);
       
       setIsOpen(false);
+      // Redirect to thank-you page on successful submission (keep isSubmittingRef locked)
       router.push('/thank-you');
     } catch (error: any) {
+      isSubmittingRef.current = false;
+      setLoading(false);
       console.error('Error Submitting form:', error);
       alert(error.message || 'Failed to submit the form!');
-    } finally {
-      setLoading(false);
     }
   };
 

@@ -1,7 +1,20 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { adminDb } from '@/lib/firebaseAdmin';
 
+// In-memory debounce against rapid concurrent duplicate requests (within 15 seconds)
+const recentSubmissions = new Map<string, number>();
+
+function cleanRecentSubmissions() {
+  const now = Date.now();
+  for (const [key, timestamp] of recentSubmissions.entries()) {
+    if (now - timestamp > 30000) {
+      recentSubmissions.delete(key);
+    }
+  }
+}
+
 export async function POST(request: NextRequest) {
+  let userNumber = '';
   try {
     // Parse the request body
     const body = await request.json();
@@ -9,6 +22,7 @@ export async function POST(request: NextRequest) {
     // Validate required fields (name, phone/number, email, state/city)
     const name = typeof body.name === 'string' ? body.name.trim() : '';
     const number = typeof (body.number || body.phone) === 'string' ? (body.number || body.phone).trim() : '';
+    userNumber = number;
     const email = typeof body.email === 'string' ? body.email.trim() : '';
     const stateOrCity = typeof (body.state || body.city) === 'string' ? (body.state || body.city).trim() : '';
 
@@ -25,9 +39,25 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Missing required field: state' }, { status: 400 });
     }
 
+    // In-memory debounce against rapid concurrent duplicate requests
+    cleanRecentSubmissions();
+    const now = Date.now();
+    const lastAttempt = recentSubmissions.get(number);
+    if (lastAttempt && now - lastAttempt < 15000) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: 'Your submission is already being processed. Please wait.'
+        },
+        { status: 429 }
+      );
+    }
+    recentSubmissions.set(number, now);
+
     // Verify reCAPTCHA token
     const captchaToken = body.captchaToken;
     if (!captchaToken) {
+      recentSubmissions.delete(number);
       return NextResponse.json(
         { error: 'reCAPTCHA token is missing.' },
         { status: 400 }
@@ -36,6 +66,7 @@ export async function POST(request: NextRequest) {
 
     const secretKey = process.env.RECAPTCHA_SECRET_KEY;
     if (!secretKey) {
+      recentSubmissions.delete(number);
       throw new Error('RECAPTCHA_SECRET_KEY is not defined in environment variables.');
     }
     const verifyUrl = `https://www.google.com/recaptcha/api/siteverify`;
@@ -56,6 +87,7 @@ export async function POST(request: NextRequest) {
     console.log('reCAPTCHA Verification Score:', recaptchaData.score);
 
     if (!recaptchaData.success || recaptchaData.score < 0.5) {
+      recentSubmissions.delete(number);
       console.error('reCAPTCHA verification failed:', recaptchaData);
       return NextResponse.json(
         { error: 'reCAPTCHA verification failed. Please try again.' },
@@ -122,6 +154,9 @@ export async function POST(request: NextRequest) {
       { status: 200 }
     );
   } catch (error: any) {
+    if (userNumber) {
+      recentSubmissions.delete(userNumber);
+    }
     console.error('Detailed error saving form data:', {
       message: error.message,
       code: error.code,
