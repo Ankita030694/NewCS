@@ -204,8 +204,8 @@ export default function GlobalPopupForm() {
       localStorage.setItem('credsettle:last_submission_date', formattedDate);
       
       setIsOpen(false);
-      // Redirect to thank-you page on successful submission (keep isSubmittingRef locked)
-      router.push('/thank-you');
+      // Redirect to thank-you page on successful submission using hard navigation to prevent Next.js double-RSC fetch
+      window.location.href = '/thank-you';
     } catch (error: any) {
       isSubmittingRef.current = false;
       setLoading(false);
