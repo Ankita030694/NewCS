@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function RbiGuidelinesClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -436,6 +437,8 @@ export default function RbiGuidelinesClient() {
                   </div>
                 ))}
               </div>
+
+              <AuthorBioBox />
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">

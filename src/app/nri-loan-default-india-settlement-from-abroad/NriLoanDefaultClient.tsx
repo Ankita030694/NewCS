@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function NriLoanDefaultClient() {
   const [activeId, setActiveId] = useState('');
@@ -212,7 +214,7 @@ export default function NriLoanDefaultClient() {
                   Because the bank cannot easily serve legal summons or conduct field visits at your foreign residence, they pivot their strategy. They target what is accessible: your local emergency contacts, your parents residing in India, or any local address associated with your account. This is not a legal recovery process; it is a psychological pressure tactic designed to coerce a settlement out of court.
                 </p>
                 <p className="text-xl mb-12 text-black">
-                  It is crucial to understand that defaulting on an unsecured loan is a civil matter under Indian law, not a criminal offense. The fear of being arrested at the airport upon arrival in India for a simple personal loan default is entirely unfounded. Arrests and look out circulars (LOCs) are reserved for massive corporate frauds, willful defaulters in the hundreds of crores, or cases involving forged documents (criminal breach of trust under Section 406 or cheating under Section 420 of the IPC). If your default is genuine due to job loss, medical emergencies, or financial hardship abroad, you are facing a civil dispute, nothing more.
+                  It is crucial to understand that defaulting on an unsecured loan is a civil breach of contract under Indian law, not a criminal offense. The fear of being detained at immigration upon arrival in India for a simple personal loan default is completely unfounded. Look Out Circulars (LOCs) and passport impounding under the Passports Act, 1967 are strictly reserved for economic offenders facing grave criminal investigations (such as willful corporate fraud or forgery under Section 316 and Section 318 of the Bharatiya Nyaya Sanhita, 2023, which replaced IPC Sections 406 and 420). If your default arose from genuine overseas employment loss, currency devaluation, or unforeseen health crises, you are involved solely in a civil contract dispute.
                 </p>
               </section>
 
@@ -365,13 +367,13 @@ export default function NriLoanDefaultClient() {
                       <div className="relative border-l-4 border-blue-600 pl-8 space-y-12 py-4">
                         <div className="relative">
                           <span className="absolute -left-11 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">1</span>
-                          <h4 className="text-xl font-bold text-black mb-2">Issue a Legal Notice</h4>
-                          <p className="text-black">A legal advocate issues a formal cease and desist notice to the bank's grievance redressal officer and the recovery agency, citing RBI guidelines and threatening legal action for criminal intimidation (Section 503 IPC) and trespassing.</p>
+                          <h4 className="text-xl font-bold text-black mb-2">Issue a Formal Legal Notice (BNS 2023)</h4>
+                          <p className="text-black">An authorized legal advocate dispatches a formal cease-and-desist notice to the bank's Principal Nodal Officer and recovery head. The notice cites the RBI Fair Practices Code and statutory criminal intimidation under Sections 351 & 352 of the Bharatiya Nyaya Sanhita (BNS) 2023 (replacing IPC 503/506) and Section 308 BNS (extortion).</p>
                         </div>
                         <div className="relative">
                           <span className="absolute -left-11 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">2</span>
-                          <h4 className="text-xl font-bold text-black mb-2">File an RBI Ombudsman Complaint</h4>
-                          <p className="text-black">If the harassment continues, a formal complaint is escalated to the Banking Ombudsman (CMS Portal) detailing the violation of the Fair Practices Code. The RBI takes third party harassment very seriously and can impose hefty fines on the bank.</p>
+                          <h4 className="text-xl font-bold text-black mb-2">File an RBI Ombudsman Complaint (July 2026 Directives)</h4>
+                          <p className="text-black">If calls persist, an escalation is lodged on the RBI Banking Ombudsman (CMS Portal). Under the July 2026 Master Guidelines, contacting family members or calling outside 8:00 AM – 7:00 PM constitutes a severe regulatory violation, exposing the bank to institutional penalties of up to ₹20 Lakhs per proven offense.</p>
                         </div>
                         <div className="relative">
                           <span className="absolute -left-11 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">3</span>
@@ -460,6 +462,8 @@ export default function NriLoanDefaultClient() {
                 </div>
               </section>
 
+              <AuthorBioBox />
+
               <div className="mt-16 p-8 bg-black text-white rounded-3xl text-center">
                 <h2 className="text-3xl font-bold mb-6">Take Control from Abroad</h2>
                 <p className="text-gray-300 mb-8 max-w-2xl mx-auto">Protect your family and settle your Indian debt with full legal compliance without leaving your resident country. Consult CredSettle today.</p>
@@ -476,15 +480,27 @@ export default function NriLoanDefaultClient() {
 
           <aside className="lg:w-1/4 w-full">
             <div className="bg-white p-6 rounded-3xl shadow-lg border border-blue-100 flex flex-col items-center text-center">
-              <div className="w-28 h-28 mx-auto bg-gray-200 rounded-full overflow-hidden mb-5 border-4 border-white shadow-md relative">
-                <img src="/default-user.svg" alt="Vikram Desai - Legal Expert" className="w-full h-full object-cover" />
+              <div className="w-28 h-28 mx-auto bg-gray-200 rounded-full overflow-hidden mb-5 border-4 border-[#007AFF] shadow-md relative">
+                <Image 
+                  src="/ashishjhangra.png" 
+                  alt="Ashish Jhangra - Legal & Debt Resolution Professional" 
+                  fill 
+                  className="object-cover object-top" 
+                />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-2">Vikram Desai</h3>
-              <p className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-4">Senior Legal Advocate</p>
-              <p className="text-black text-sm leading-relaxed mb-6 italic">Expert in cross border financial disputes, FEMA compliance, and NRI debt settlement strategies. Vikram has successfully represented hundreds of clients in resolving complex NPA accounts with Indian financial institutions.</p>
-              <Link href="/contact" className="block w-full py-3 bg-gray-50 hover:bg-gray-100 text-blue-900 font-bold rounded-xl transition-colors border border-gray-200">
-                Contact Vikram
-              </Link>
+              <h3 className="text-2xl font-bold text-black mb-1">Ashish Jhangra</h3>
+              <p className="text-[#007AFF] font-bold uppercase tracking-wider text-xs mb-3">Legal &amp; Debt Resolution Professional</p>
+              <p className="text-gray-700 text-xs leading-relaxed mb-5">
+                Specialist in cross-border loan negotiations, RBI borrower protection frameworks, and remote settlement execution for Non-Resident Indians. Ashish advises clients on complex NPA disputes with Indian banks.
+              </p>
+              <div className="w-full space-y-2">
+                <Link href="/contact" className="block w-full py-2.5 bg-[#007AFF] hover:bg-blue-700 text-white font-bold rounded-xl transition-colors text-sm shadow-sm">
+                  Consult With Us
+                </Link>
+                <Link href="/author/ashish-jhangra" className="block w-full py-2 bg-gray-50 hover:bg-gray-100 text-gray-700 font-semibold rounded-xl transition-colors border border-gray-200 text-xs">
+                  View Author Profile &rarr;
+                </Link>
+              </div>
             </div>
           </aside>
 

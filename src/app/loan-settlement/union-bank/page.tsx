@@ -63,11 +63,22 @@ export default function UnionBankLoanSettlementPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Union Bank Loan Settlement: Rinn Samadhan Scheme 2026",
-    "description": "A comprehensive guide on settling Union Bank of India loans through the Rinn Samadhan OTS scheme and Lok Adalat.",
+    "headline": "Union Bank Loan Settlement 2026 | Rinn Samadhan OTS Scheme",
+    "description": "Complete guide to Union Bank of India loan settlement. Learn about the 2026 Rinn Samadhan OTS scheme, Lok Adalat process for personal & agri loans.",
     "author": {
-      "@type": "Organization",
-      "name": "CredSettle Legal Team"
+      "@type": "Person",
+      "name": "Ashish Jhangra",
+      "url": "https://www.credsettle.com/author/ashish-jhangra",
+      "image": "https://www.credsettle.com/ashishjhangra.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
+      ],
+      "jobTitle": "Legal & Debt Resolution Professional",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "CredSettle",
+        "url": "https://www.credsettle.com"
+      }
     },
     "publisher": {
       "@type": "Organization",
@@ -77,8 +88,8 @@ export default function UnionBankLoanSettlementPage() {
         "url": "https://www.credsettle.com/credsettle-logo.svg"
       }
     },
-    "datePublished": "2026-01-15",
-    "dateModified": "2026-01-15",
+    "datePublished": "2026-01-15T08:00:00+05:30",
+    "dateModified": new Date().toISOString(),
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.credsettle.com/loan-settlement/union-bank"
@@ -133,40 +144,6 @@ export default function UnionBankLoanSettlementPage() {
     ]
   };
 
-  // Schema for Review
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Union Bank Loan Settlement Services",
-    "description": "Legal settlement services for Union Bank Rinn Samadhan and Lok Adalat cases.",
-    "brand": {
-      "@type": "Brand",
-      "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "180",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Amit Deshmukh"
-        },
-        "datePublished": "2025-10-12",
-        "reviewBody": "CredSettle helped me use the Rinn Samadhan scheme to close my father’s old business loan. Very professional.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      }
-    ]
-  };
-
   return (
     <main className="min-h-screen bg-[#F8FAFC]">
       <script
@@ -184,10 +161,6 @@ export default function UnionBankLoanSettlementPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       
       <Navbar />

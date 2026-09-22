@@ -8,7 +8,7 @@ import AxisBankLoanSettlementClient from './AxisClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Axis Bank Loan Settlement 2026',
+  title: 'Axis Bank Loan Settlement 2026: OTS Policy & Legal Defense',
   description: 'Expert guide to Axis Bank loan settlement. Specific OTS policies for 2026, settlement calculator, and how to close NPAs. Save up to 50% on dues.',
   keywords: [
     'axis bank loan settlement',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'how to settle axis bank personal loan'
   ],
   openGraph: {
-    title: 'Axis Bank Loan Settlement | Save up to 50% | CredSettle',
+    title: 'Axis Bank Loan Settlement 2026: OTS Policy & Legal Defense',
     description: 'Struggling with Axis Bank dues? Learn the official settlement process, negotiate huge waivers, and become debt-free legally.',
     url: 'https://www.credsettle.com/loan-settlement/axis-bank',
     type: 'article',
@@ -84,11 +84,22 @@ export default function AxisBankLoanSettlementPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Axis Bank Loan Settlement Process & OTS Scheme 2026',
+    'headline': 'Axis Bank Loan Settlement 2026: OTS Policy & Legal Defense',
     'description': 'A comprehensive 2026 guide to settling Axis Bank loans. Understand the One Time Settlement (OTS) policy, legal rights, and negotiation tactics.',
     'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle'
+      '@type': 'Person',
+      'name': 'Ashish Jhangra',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'image': 'https://www.credsettle.com/ashishjhangra.png',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
     },
     'publisher': {
       '@type': 'Organization',
@@ -98,8 +109,8 @@ export default function AxisBankLoanSettlementPage() {
         'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
-    'datePublished': '2025-01-14',
-    'dateModified': '2026-01-14'
+    'datePublished': '2026-01-14T08:00:00+05:30',
+    'dateModified': new Date().toISOString()
   };
 
   const faqSchema = {

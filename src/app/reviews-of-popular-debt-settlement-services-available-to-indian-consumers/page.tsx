@@ -7,13 +7,13 @@ import ReviewsClient from './ReviewsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Reviews of Popular Debt Settlement Services in India',
-  description: 'In-depth reviews of top debt settlement services in India. Compare CredSettle, Amalegalsolutions, and SettleLoans. Expert analysis on fees.',
+  title: 'Reviews of Popular Debt Settlement Services in India (2026)',
+  description: 'Read comprehensive 2026 reviews of popular debt settlement services in India. Compare fees, legal protection, success rates, and RBI compliance for relief.',
   keywords: [
     'reviews of popular debt settlement services available to indian consumers',
     'best debt settlement companies in india reviews',
     'credsettle reviews',
-    'amalegalsolutions reviews',
+    'legal debt settlement reviews',
     'settleloans reviews',
     'debt settlement india comparison',
     'is debt settlement legal in india',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'debt settlement vs management india'
   ],
   openGraph: {
-    title: 'Comprehensive Reviews of Popular Debt Settlement Services in India',
-    description: 'Find the most trustworthy debt settlement services in India. Our experts review CredSettle, Amalegalsolutions, and others to help you settle debt legally.',
+    title: 'Comprehensive Reviews of Popular Debt Settlement Services in India (2026)',
+    description: 'Read comprehensive 2026 reviews of popular debt settlement services in India. Compare fees, legal protection, success rates, and RBI compliance for relief.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
@@ -49,13 +49,6 @@ export default function ReviewsPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -81,14 +74,32 @@ export default function ReviewsPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Reviews of Popular Debt Settlement Services Available to Indian Consumers: A Comprehensive 2025 Guide',
+    'headline': 'Reviews of Popular Debt Settlement Services Available to Indian Consumers (2026)',
     'description': 'An exhaustive analysis and review of debt settlement platforms in India, helping consumers make informed choices for debt relief.',
     'author': {
+      '@type': 'Person',
+      'name': 'Ashish Jhangra',
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
+    },
+    'publisher': {
       '@type': 'Organization',
-      'name': 'CredSettle'
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
+      }
     },
     'datePublished': '2025-02-10',
-    'dateModified': '2026-05-12',
+    'dateModified': '2026-09-22',
     'mainEntityOfPage': {
       '@type': 'WebPage',
       '@id': 'https://www.credsettle.com/reviews-of-popular-debt-settlement-services-available-to-indian-consumers'

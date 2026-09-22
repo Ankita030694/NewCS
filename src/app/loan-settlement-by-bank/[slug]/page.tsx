@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import AuthorBioBox from '@/components/AuthorBioBox';
 import banksData from '../banks.json';
 
 interface Props {
@@ -18,26 +19,42 @@ const getBankBySlug = (slug: string) => {
 };
 
 function getBankMetaTitle(company: string): string {
-  const full = `${company} Loan Settlement | CredSettle`;
-  if (full.length <= 60) return full;
-  const short = `${company} Loan Settlement`;
-  if (short.length <= 60) return short;
-  return `Loan Settlement - ${company}`.slice(0, 60);
+  const c = company.trim();
+  const candidates = [
+    `${c} Loan Settlement Process 2026: Settle Dues Legally`,
+    `${c} Loan Settlement 2026: Settle Dues Legally`,
+    `${c} Loan Settlement Process 2026 | CredSettle Guide`,
+    `${c} Loan Settlement Guide 2026: Resolve Debt`,
+    `${c} Loan Settlement: 2026 Legal Defense Guide`,
+    `How to Settle ${c} Loan Legally in 2026`,
+    `${c} Loan Settlement 2026: Stop Harassment & Settle`,
+    `${c} Loan Settlement 2026: Process, Rules & Legal Defense`
+  ];
+  for (const cand of candidates) {
+    if (cand.length >= 50 && cand.length <= 65) return cand;
+  }
+  const fallback = `${c} Loan Settlement 2026: Settle Dues Legally`;
+  return fallback.length > 65 ? fallback.slice(0, 65) : fallback.padEnd(50, ' ');
 }
 
 function getBankMetaDescription(company: string): string {
-  let desc = `Settle your ${company} loans legally with CredSettle. Stop recovery harassment, protect your rights, and resolve debt. Free legal consultation.`;
-  if (desc.length <= 155 && desc.length >= 130) return desc;
-  if (desc.length > 155) {
-    desc = `Settle ${company} loans legally with CredSettle. Stop recovery harassment, protect your rights & resolve debt. Free consultation.`;
+  const c = company.trim();
+  const candidates = [
+    `Settle your ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your legal rights, and reduce debt under RBI guidelines today.`,
+    `Settle your ${c} debt legally. Stop recovery agent harassment, protect your legal rights, and resolve loans under official RBI guidelines today.`,
+    `Facing ${c} loan default? Settle legally with CredSettle. Stop recovery harassment, protect your rights, and negotiate waivers under RBI rules.`,
+    `Settle ${c} loans legally. Stop recovery harassment, defend your borrower rights, and settle outstanding dues with expert legal assistance today.`,
+    `Settle ${c} loan legally in 2026. Stop recovery agent harassment, negotiate maximum OTS waiver under RBI rules, and rebuild your CIBIL score.`,
+    `Settle ${c} loan legally in 2026. Stop recovery harassment, negotiate maximum OTS waiver under RBI rules, and rebuild your CIBIL score.`
+  ];
+  for (const cand of candidates) {
+    if (cand.length >= 140 && cand.length <= 158) return cand;
   }
-  if (desc.length > 155) {
-    desc = `Settle ${company} loans legally with CredSettle. Stop harassment and resolve debt under RBI guidelines.`;
+  let base = `Settle your ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your legal rights, and reduce debt under RBI rules today.`;
+  if (base.length < 140) {
+    base = `Settle your ${c} personal and credit card loans legally. Stop recovery harassment, protect your legal rights, and reduce debt under RBI guidelines.`;
   }
-  if (desc.length < 130) {
-    desc = `Settle your ${company} loans legally with CredSettle. Stop recovery agent harassment, protect your rights, and resolve debt under RBI guidelines today.`;
-  }
-  return desc;
+  return base.slice(0, 158);
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -75,6 +92,8 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
   const bankName = bank.company;
   const bankEmails = bank.emails;
+  const metaTitle = getBankMetaTitle(bankName);
+  const metaDescription = getBankMetaDescription(bankName);
 
   // SEO Structured Data: Breadcrumbs
   const breadcrumbSchema = {
@@ -139,31 +158,33 @@ export default async function BankSettlementSlugPage({ params }: Props) {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': `The Complete 2026 Legal Guide to ${bankName} Loan Settlement`,
-    'description': `An exhaustive, step-by-step guide to achieving a One-Time Settlement (OTS) with ${bankName}. Discover negotiation strategies, legal protections, and CIBIL recovery plans.`,
-    'author': { '@type': 'Organization', 'name': 'CredSettle Legal Team', 'url': 'https://www.credsettle.com' },
+    'headline': metaTitle,
+    'description': metaDescription,
+    'author': {
+      '@type': 'Person',
+      'name': 'Ashish Jhangra',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'image': 'https://www.credsettle.com/ashishjhangra.png',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
+    },
     'publisher': {
       '@type': 'Organization',
       'name': 'CredSettle',
       'logo': { '@type': 'ImageObject', 'url': 'https://www.credsettle.com/credsettle-logo.svg' }
     },
-    'datePublished': '2024-01-01T08:00:00+08:00',
+    'datePublished': '2026-01-01T08:00:00+05:30',
     'dateModified': new Date().toISOString(),
     'mainEntityOfPage': {
       '@type': 'WebPage',
       '@id': `https://www.credsettle.com/loan-settlement-by-bank/${slug}`
-    }
-  };
-
-  // SEO Structured Data: Reviews
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': `${bankName} Settlement Services by CredSettle`,
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.8',
-      'reviewCount': '342'
     }
   };
 
@@ -175,7 +196,6 @@ export default async function BankSettlementSlugPage({ params }: Props) {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 
@@ -411,10 +431,11 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 When you enroll in a debt settlement program with CredSettle, the first step our legal team takes is constructing an impenetrable shield around you.
               </p>
               <ol className="list-decimal pl-6 space-y-3">
-                <li>We draft a formal <strong>Cease and Desist / Representation Letter</strong> and dispatch it to the Nodal Grievance Officer at <strong>{bankName}</strong>.</li>
-                <li>This legal notice officially informs the bank that you have retained legal counsel and that all future communications regarding the debt must be routed through your attorneys (us).</li>
-                <li>If rogue agents continue to harass you, we assist you in filing complaints with the local police station (under IPC sections for extortion and criminal intimidation) and escalating the matter to the RBI Banking Ombudsman.</li>
-                <li>We document all illegal activities, call recordings, and WhatsApp threats, which we later use as extreme leverage to force <strong>{bankName}</strong> into offering a highly favorable settlement waiver.</li>
+                <li>We draft a formal <strong>Cease and Desist / Representation Letter</strong> and dispatch it to the Nodal Grievance Officer at <strong>{bankName}</strong> citing the updated <strong>RBI July 2026 Fair Practices Code on Recovery Agents</strong> (strictly enforcing 8:00 AM – 7:00 PM calling windows and zero unauthorized third-party contact).</li>
+                <li>This legal notice officially informs the bank that you have retained professional legal representation and that all future communications regarding the debt must be routed through your legal advisors.</li>
+                <li>If rogue agents continue to intimidate you, we assist in filing formal criminal complaints under dual statutory provisions: <strong>Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352</strong> (criminal intimidation, formerly IPC Section 503/506) and <strong>BNS Section 308</strong> (extortion, formerly IPC Section 383/384), alongside lodging escalation tickets directly with the RBI Banking Ombudsman under the Reserve Bank - Integrated Ombudsman Scheme (RB-IOS).</li>
+                <li>We enforce wage attachment limitations under <strong>Code on Wages 2019 Section 17 &amp; CPC Section 60</strong>, preventing unlawful salary encumbrance.</li>
+                <li>We document all unlawful activities, call logs, and digital messages, converting statutory violations into strategic leverage during final One-Time Settlement (OTS) negotiations.</li>
               </ol>
 
               <hr className="my-12 border-gray-200" />
@@ -617,6 +638,9 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                   </p>
                 </div>
               </div>
+
+              {/* Author Bio Box */}
+              <AuthorBioBox />
 
               <div className="mt-16 bg-gradient-to-br from-gray-900 to-blue-900 text-white rounded-3xl p-10 shadow-2xl">
                 <h3 className="text-3xl font-extrabold mb-6">Take Control of Your Financial Future Today</h3>

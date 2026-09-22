@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import CertifiedFinancialPlannersClient from './CertifiedFinancialPlannersClient';
 
 export const metadata: Metadata = {
-    title: 'Financial Planners for Debt Restructuring | CredSettle',
-    description: 'Find top-rated Certified Financial Planners (CFPs) specializing in debt restructuring and loan settlement across India with CredSettle.',
+    title: 'Find Certified Financial Planners for Debt Restructuring',
+    description: 'Compare certified financial planners and legal experts for debt restructuring, loan settlement, and RBI OTS negotiations across India with CredSettle.',
     alternates: {
         canonical: 'https://www.credsettle.com/find-certified-financial-planners-who-specialize-in-debt-restructuring-and-settlement',
     },
@@ -17,12 +17,22 @@ export default function CertifiedFinancialPlannersPage() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Certified Financial Planners for Debt Restructuring and Settlement in India: A 2025 Expert Guide",
+        "headline": "Certified Financial Planners for Debt Restructuring and Settlement in India: 2026 Expert Guide",
         "description": "An in-depth guide on finding and working with certified financial planners who specialize in debt relief, loan settlement, and financial restructuring in the Indian market.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
-            "@type": "Organization",
-            "name": "CredSettle"
+            "@type": "Person",
+            "name": "Ashish Jhangra",
+            "jobTitle": "Legal & Debt Resolution Professional",
+            "url": "https://www.credsettle.com/author/ashish-jhangra",
+            "sameAs": [
+                "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
+            ],
+            "worksFor": {
+                "@type": "Organization",
+                "name": "CredSettle",
+                "url": "https://www.credsettle.com"
+            }
         },
         "publisher": {
             "@type": "Organization",
@@ -33,7 +43,7 @@ export default function CertifiedFinancialPlannersPage() {
             }
         },
         "datePublished": "2025-03-21",
-        "dateModified": "2025-03-21"
+        "dateModified": "2026-09-22"
     };
 
     const breadcrumbLd = {

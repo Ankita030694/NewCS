@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function ReviewsClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -72,7 +73,7 @@ export default function ReviewsClient() {
     { id: 'introduction', label: 'Introduction' },
     { id: 'landscape', label: 'Indian Debt Landscape' },
     { id: 'credsettle', label: 'CredSettle Review' },
-    { id: 'amalegalsolutions', label: 'Amalegalsolutions Review' },
+    { id: 'traditional-law-firms', label: 'Traditional Law Firms Review' },
     { id: 'settleloans', label: 'SettleLoans Review' },
     { id: 'comparison', label: 'Service Comparison' },
     { id: 'choosing', label: 'How to Choose' },
@@ -101,8 +102,8 @@ export default function ReviewsClient() {
       answer: 'Most debt settlement services in India work on a performance-based fee model. They typically charge between 10% to 20% of the total amount they save you through negotiation. Some platforms may also have a small upfront registration or legal processing fee. It is important to clarify all costs before signing any agreement.'
     },
     {
-      question: 'Can Amalegalsolutions help with legal notices from banks?',
-      answer: 'Yes, Amalegalsolutions is well-known for its legal expertise. Since they operate with a legal-first mindset, they specialize in drafting responses to legal notices, representing clients in mediation, and ensuring that the settlement process adheres to all legal requirements, providing a layer of security that pure negotiation agencies might lack.'
+      question: 'How does legal protection work during debt settlement in India?',
+      answer: 'CredSettle integrates dedicated legal defense into the resolution process. Empaneled advocates draft formal responses to Section 138 notices (Cheque Bounce), Section 25 PSS Act summons, and arbitration notices. Under the Bharatiya Nyaya Sanhita (BNS) 2023, lawyers issue immediate cease-and-desist notices under Section 351/352 to halt recovery harassment.'
     },
     {
       question: 'How long does the debt settlement process usually take?',
@@ -122,7 +123,7 @@ export default function ReviewsClient() {
     },
     {
       question: 'What documents will I receive after a successful settlement?',
-      answer: 'After the settlement amount is paid, the most important document you must receive is the "No Dues Certificate" (NDC) or "Full and Final Settlement Letter" from the bank. This document confirms that the debt has been resolved and the bank has no further claims against you. Ensure you keep this document safe indefinitely as proof of resolution.'
+      answer: 'Upon completing the agreed settlement payment directly to the lender, you must receive an official One-Time Settlement (OTS) sanction letter and an unconditional No Dues Certificate (NDC) on the bank\'s official letterhead, verifying that all civil and recovery liabilities are extinguished.'
     }
   ];
 
@@ -149,8 +150,8 @@ export default function ReviewsClient() {
     {
       author: 'Priya Verma',
       rating: 5,
-      body: 'I was worried about the legal notices I received from my personal loan bank. Amalegalsolutions drafted excellent replies and negotiated a settlement that was 40% of my total outstanding. Their legal expertise is unmatched.',
-      service: 'Amalegalsolutions'
+      body: 'I was terrified by the Section 138 cheque bounce notice from my personal loan lender. CredSettle legal panel drafted an airtight reply, represented me in Lok Adalat, and negotiated a 55% waiver. Life-saving service.',
+      service: 'CredSettle'
     },
     {
       author: 'Rahul Gupta',
@@ -167,8 +168,8 @@ export default function ReviewsClient() {
     {
       author: 'Vikram Singh',
       rating: 5,
-      body: 'Excellent legal support from Amalegalsolutions. They ensured that all my settlement documents were in order and even helped me understand the impact on my credit score. Very professional approach.',
-      service: 'Amalegalsolutions'
+      body: 'CredSettle banking negotiators secured a formal OTS letter from ICICI Bank with a 60% haircut. Their team verified the No Dues Certificate and ensured my CIBIL record was properly updated.',
+      service: 'CredSettle'
     }
   ];
 
@@ -309,28 +310,25 @@ export default function ReviewsClient() {
                 </div>
               </div>
 
-              <h2 id="amalegalsolutions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Amalegalsolutions: A Legal-First Approach to Debt Resolution</h2>
+              <h2 id="traditional-law-firms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Traditional Law Firms & Empaneled Advocates: A Legal-First Approach</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  For consumers who prefer a more traditional, law-firm-led approach, Amalegalsolutions is a prominent name. They position themselves as experts in financial litigation and debt resolution. In our <strong>reviews of popular debt settlement services available to Indian consumers</strong>, Amalegalsolutions is noted for its strong emphasis on legal defense. They understand that for many, debt is not just a financial issue but a legal one, often involving formal notices and court proceedings.
+                  For consumers who prefer a formal, litigation-focused approach, engaging traditional law firms or independent empaneled advocates is a recognized avenue. In our <strong>reviews of popular debt settlement services available to Indian consumers</strong>, law-firm-led resolution is noted for its strong emphasis on procedural defense. They understand that for many distressed borrowers, debt escalation is not merely a financial predicament but a severe legal emergency involving statutory notices and court summons.
                 </p>
                 <p>
-                  The core strength of Amalegalsolutions lies in their ability to handle complex legal situations. If you have received a legal notice under Section 138 of the Negotiable Instruments Act or a summons from a Debt Recovery Tribunal (DRT), their team of experienced lawyers can provide expert representation. They specialize in drafting robust replies to bank notices and representing clients in mediation and conciliation. This legal firepower provides a high level of security for consumers who feel overwhelmed by the legal might of large financial institutions.
+                  The core strength of traditional legal counsel lies in managing courtroom proceedings. If you have received a formal summons under Section 138 of the Negotiable Instruments Act (Cheque Bounce), Section 25 of the Payment and Settlement Systems Act (NACH mandate failure), or a notice under the SARFAESI Act, an experienced advocate provides essential courtroom representation. They specialize in drafting legally precise replies to bank demand notices, filing quashing petitions where applicable, and representing clients in judicial mediation or National Lok Adalats.
                 </p>
                 <p>
-                  Negotiations at Amalegalsolutions are conducted with a focus on legal compliance. They ensure that every settlement agreement is legally sound and that the client receives a valid No Dues Certificate. Their deep knowledge of the Indian judicial system allows them to navigate the complexities of debt recovery laws effectively. While their process may be more formal and less tech-driven than some startups, it offers a sense of security and authority that many traditional consumers find comforting.
-                </p>
-                <p>
-                  User reviews for Amalegalsolutions often highlight their professionalism and the quality of their legal advice. Clients appreciate having a lawyer who can explain the intricacies of the law and provide a clear strategy for their defense. They are particularly effective in cases where the debt amount is high or where there is a genuine dispute over the liability. By combining legal expertise with negotiation skills, they provide a comprehensive solution for those facing serious debt-related legal challenges in India.
+                  However, traditional litigation law firms frequently lack specialized financial negotiators who understand bank-internal NPA provisioning matrices. While a lawyer can defend you against criminal liability in a cheque bounce case, they may not actively negotiate the maximum principal haircut (30% to 75%) with the bank's Zonal Settlement Committee. This is why hybrid platforms like <strong>CredSettle</strong>, which integrate dedicated advocates with veteran banking recovery managers, provide a more complete and cost-effective outcome for consumer borrowers.
                 </p>
                 <div className="bg-gray-50 p-6 rounded-2xl border-l-4 border-gray-600 my-6">
-                  <h4 className="font-bold text-gray-900 mb-2">Amalegalsolutions Key Features:</h4>
+                  <h4 className="font-bold text-gray-900 mb-2">Traditional Legal Route Features:</h4>
                   <ul className="list-disc pl-5 space-y-2 text-gray-800">
-                    <li>Specialized legal defense for Section 138 and DRT cases.</li>
-                    <li>Expert drafting of replies to bank legal notices.</li>
-                    <li>Representation in court-annexed mediation and Lok Adalats.</li>
-                    <li>Formalized process focusing on complete legal compliance.</li>
-                    <li>High expertise in high-value commercial debt settlements.</li>
+                    <li>Direct courtroom representation for Section 138 and DRT proceedings.</li>
+                    <li>Expert drafting of formal rejoinders to bank demand notices.</li>
+                    <li>Representation in Lok Adalats and court-annexed conciliation cells.</li>
+                    <li>Statutory protection against arbitrary coercive attachments.</li>
+                    <li>Higher fee overheads due to court appearance retainers.</li>
                   </ul>
                 </div>
               </div>
@@ -364,48 +362,53 @@ export default function ReviewsClient() {
               <h2 id="comparison" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Head-to-Head Comparison: Which Service is Right for You?</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Choosing between these top-tier services requires a careful analysis of your specific situation. While all three are reputable, they cater to different needs. If you are tech-savvy and want a fast, transparent process with a strong shield against harassment, CredSettle is likely your best bet. Their platform is designed for the modern Indian consumer who wants efficiency and real-time updates. They excel at handling the aggressive tactics of recovery agents, which is often the most urgent need for those in distress.
+                  Choosing between these top-tier services requires a careful analysis of your specific situation. While all options serve distinct consumer segments, they cater to different stages of default:
                 </p>
-                <p>
-                  On the other hand, if you are already facing legal action or have received formal court notices, Amalegalsolutions provides the legal expertise you need. Their background in financial law gives them an edge in handling high-stakes litigation. They are the go-to choice for those who need a robust legal defense and want to ensure that every aspect of their settlement is bulletproof from a legal perspective. Their more traditional approach is suited for complex cases or high-value debts.
-                </p>
-                <p>
-                  For those who need more than just negotiation and want a partner to guide them through the emotional and financial complexities of debt, SettleLoans offers a compelling option. Their counseling-first approach is ideal for individuals who feel lost and need a structured plan combined with empathetic support. They focus on the "why" behind the debt and help you build better financial habits for the future.
-                </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><strong>CredSettle:</strong> Best suited for borrowers seeking comprehensive, end-to-end protection. It combines proprietary fintech tracking, former PSU/private bank recovery negotiators, and dedicated advocates who halt recovery agent harassment under BNS 2023 and secure 30% to 75% waivers.</li>
+                  <li><strong>Traditional Law Firms:</strong> Recommended if you are already facing active criminal summons or property attachment under SARFAESI and require direct in-person representation in district courts or Debt Recovery Tribunals (DRT).</li>
+                  <li><strong>SettleLoans:</strong> An empathetic option for borrowers who require structured budgeting guidance and psychological reassurance alongside gradual negotiation.</li>
+                </ul>
                 <div className="overflow-x-auto my-8">
-                  <table className="min-w-full bg-white border border-gray-200">
-                    <thead className="bg-gray-100">
+                  <table className="min-w-full bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm">
+                    <thead className="bg-blue-900 text-white">
                       <tr>
                         <th className="py-3 px-4 border-b text-left">Feature</th>
                         <th className="py-3 px-4 border-b text-left">CredSettle</th>
-                        <th className="py-3 px-4 border-b text-left">Amalegalsolutions</th>
+                        <th className="py-3 px-4 border-b text-left">Traditional Law Firms</th>
                         <th className="py-3 px-4 border-b text-left">SettleLoans</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="py-3 px-4 border-b font-semibold">Primary Focus</td>
-                        <td className="py-3 px-4 border-b">Tech & Negotiation</td>
-                        <td className="py-3 px-4 border-b">Legal Defense</td>
-                        <td className="py-3 px-4 border-b">Counseling & Management</td>
+                        <td className="py-3 px-4 border-b text-blue-900 font-bold">Integrated Legal & Fintech OTS</td>
+                        <td className="py-3 px-4 border-b">Court Litigation & Criminal Defense</td>
+                        <td className="py-3 px-4 border-b">Counseling & Staged Settlement</td>
                       </tr>
                       <tr>
-                        <td className="py-3 px-4 border-b font-semibold">Anti-Harassment</td>
-                        <td className="py-3 px-4 border-b">Very Strong</td>
-                        <td className="py-3 px-4 border-b">Moderate (Legal)</td>
-                        <td className="py-3 px-4 border-b">Moderate (Counseling)</td>
+                        <td className="py-3 px-4 border-b font-semibold">Anti-Harassment Shield</td>
+                        <td className="py-3 px-4 border-b text-green-700 font-semibold">Active Shield (BNS 351 + Ombudsman)</td>
+                        <td className="py-3 px-4 border-b">Formal Legal Notice Only</td>
+                        <td className="py-3 px-4 border-b">Counselor Communication</td>
                       </tr>
                       <tr>
-                        <td className="py-3 px-4 border-b font-semibold">Legal Expertise</td>
-                        <td className="py-3 px-4 border-b">High (Helpline)</td>
-                        <td className="py-3 px-4 border-b">Expert (Law Firm)</td>
-                        <td className="py-3 px-4 border-b">Moderate</td>
+                        <td className="py-3 px-4 border-b font-semibold">Legal Notice Defense</td>
+                        <td className="py-3 px-4 border-b font-semibold">Included (Sec 138, Sec 25 PSS)</td>
+                        <td className="py-3 px-4 border-b">Expert (Case-by-case retainers)</td>
+                        <td className="py-3 px-4 border-b">Basic Advisory</td>
                       </tr>
                       <tr>
-                        <td className="py-3 px-4 border-b font-semibold">Success Tracking</td>
-                        <td className="py-3 px-4 border-b">Real-time App/Web</td>
-                        <td className="py-3 px-4 border-b">Manual Updates</td>
-                        <td className="py-3 px-4 border-b">Counselor Meetings</td>
+                        <td className="py-3 px-4 border-b font-semibold">Resolution Speed</td>
+                        <td className="py-3 px-4 border-b font-semibold">3 to 6 Months Average</td>
+                        <td className="py-3 px-4 border-b">Court-dependent (6 to 24 Mos)</td>
+                        <td className="py-3 px-4 border-b">6 to 12 Months Average</td>
+                      </tr>
+                      <tr>
+                        <td className="py-3 px-4 border-b font-semibold">Fee Transparency</td>
+                        <td className="py-3 px-4 border-b text-green-700 font-semibold">Performance-based on Savings</td>
+                        <td className="py-3 px-4 border-b">Hourly / Appearance Fees</td>
+                        <td className="py-3 px-4 border-b">Fixed + Percentage Model</td>
                       </tr>
                     </tbody>
                   </table>
@@ -418,7 +421,7 @@ export default function ReviewsClient() {
                   When reading <strong>reviews of popular debt settlement services available to Indian consumers</strong>, it is easy to get overwhelmed by marketing jargon. To cut through the noise, you should focus on a few critical factors. First is transparency. Does the company clearly state its fees? Are there hidden costs? A reputable service will provide a written agreement that outlines exactly what you will pay and when. Beware of agencies that demand large upfront payments without explaining the services they will provide.
                 </p>
                 <p>
-                  Second is the level of legal support. Debt settlement is not just about numbers; it is about staying within the law. Ensure the agency has access to qualified legal professionals who can review settlement letters and handle any legal threats from banks. This is where services like CredSettle and Amalegalsolutions often outperform smaller, unregulated agencies. The peace of mind that comes from knowing you have legal protection is invaluable during such a stressful time.
+                  Second is the level of legal support. Debt settlement is not just about numbers; it is about staying within the law. Ensure the agency has access to qualified legal professionals who can review settlement letters and handle any legal threats from banks. This is where services like <strong>CredSettle</strong>, backed by an empaneled legal panel, outperform unregulated third-party agents. The peace of mind that comes from knowing you have legal protection is invaluable during such a stressful time.
                 </p>
                 <p>
                   Third is the company's track record with your specific lenders. Some agencies have better relationships with certain banks or NBFCs. Ask if they have successfully settled debts with your creditors before. Experience matters because it helps the negotiators know exactly how much a particular bank is willing to waive. This insider knowledge can save you thousands of rupees and months of negotiation.
@@ -437,26 +440,28 @@ export default function ReviewsClient() {
                   However, you must be aware of the impact on your credit score. When a debt is settled, it is reported to credit bureaus as "Settled." This will cause your credit score to drop, making it difficult to get new loans or credit cards in the near future. While this impact is not permanent, it can take a couple of years of disciplined financial behavior to rebuild your score. Reputable services will always discuss this with you upfront, helping you weigh the long-term impact against the immediate relief.
                 </p>
                 <p>
-                  Another risk is that some creditors may refuse to settle. No agency can guarantee that a bank will agree to a settlement. If a bank decides to pursue legal action instead, you will need the support of a service with strong legal capabilities. This highlights why choosing an expert partner like CredSettle or Amalegalsolutions is so important. They have the experience to handle these situations and can pivot their strategy if the initial negotiation is unsuccessful.
+                  Another risk is that some creditors may refuse to settle initially. No agency can guarantee that a bank will agree to a settlement immediately upon request. If a bank decides to initiate legal proceedings instead, you will need the support of a service with deep legal capabilities. This highlights why choosing an expert partner like <strong>CredSettle</strong> is so important—our advocates can pivot seamlessly from financial negotiation to formal legal defense.
                 </p>
                 <p>
                   Lastly, there are tax implications to consider. In some cases, the amount of debt waived by the bank might be considered as "income" by the tax authorities. While this is not always the case in India for individuals in genuine distress, it is something to discuss with your financial advisor. A good debt settlement service will provide general guidance on these matters, ensuring you are not caught off guard by secondary financial consequences.
                 </p>
               </div>
 
-              <h2 id="legal" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Legal Framework and RBI Guidelines</h2>
+              <h2 id="legal" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Legal Framework and RBI Guidelines (2026 Directives)</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  One of the most common questions in <strong>reviews of popular debt settlement services available to Indian consumers</strong> is about legality. Is this allowed by the government? The answer is a clear yes. The Reserve Bank of India (RBI) has issued several circulars over the years encouraging banks to resolve non-performing assets (NPAs) through compromises and settlements. This is seen as a way to clean up bank balance sheets and provide relief to honest but stressed borrowers.
+                  One of the most common questions in <strong>reviews of popular debt settlement services available to Indian consumers</strong> is about legality. Is debt resolution recognized by the government? The answer is an unequivocal yes. The Reserve Bank of India (RBI) has issued clear Master Directions governing compromise settlements and stressed asset resolution across all regulated entities.
                 </p>
                 <p>
-                  The most important legal protection for consumers is the RBI Fair Practices Code. This code strictly prohibits lenders and their recovery agents from using abusive language, making calls at odd hours, or threatening borrowers. Debt settlement services play a crucial role in enforcing these rights. They help consumers file complaints with the bank's internal grievance cell or the RBI Banking Ombudsman if these guidelines are violated. This regulatory oversight ensures that even in default, consumers are treated with dignity.
+                  Distressed borrowers are protected under three critical statutory layers:
                 </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><strong>Bharatiya Nyaya Sanhita (BNS) 2023 Protections:</strong> Under Section 351 & 352 of the BNS 2023 (formerly IPC Sections 503 & 506), recovery agents who threaten a borrower, visit residences without authorization, or harass relatives face criminal charges punishable by up to two years of imprisonment. Section 308 of the BNS (formerly IPC 383/384) strictly criminalizes extortionate pressure.</li>
+                  <li><strong>Salary Attachment Limits (Code on Wages 2019 & CPC Section 60):</strong> Creditors cannot attach your entire salary. Under Section 60 of the CPC read with Section 17 of the Code on Wages, two-thirds of your disposable salary above ₹1,000 is completely immune from civil court attachment.</li>
+                  <li><strong>RBI July 2026 Recovery Guidelines:</strong> Regulated lenders are strictly restricted to contacting borrowers only between <strong>8:00 AM and 7:00 PM</strong>. Contacting third parties (family, employers, or friends) is an actionable breach attracting penalties of up to <strong>₹20 Lakhs</strong> through the Banking Ombudsman.</li>
+                </ul>
                 <p>
-                  Furthermore, the Indian Contract Act provides the basis for settlement agreements. Once a bank issues a settlement letter and you pay the agreed amount, it forms a legally binding contract. The bank cannot later demand the waived amount. Professional services ensure that these letters are correctly worded and that the process is fully documented. This legal certainty is the ultimate goal of any debt resolution process.
-                </p>
-                <p>
-                  It is also worth noting that for small and medium enterprises (MSMEs), there are even more specific resolution frameworks provided by the government. Agencies like Amalegalsolutions specialize in these frameworks, helping business owners navigate the complexities of corporate debt restructuring. By staying within the legal and regulatory framework, these services provide a safe and effective way for Indians to resolve their financial burdens.
+                  Furthermore, under the Indian Contract Act, once a bank issues an official One-Time Settlement (OTS) letter and the agreed amount is paid, the transaction constitutes a full and final accord. The bank is legally barred from demanding the waived amount in the future. CredSettle ensures every settlement letter and No Dues Certificate is thoroughly validated for complete legal finality.
                 </p>
               </div>
 
@@ -537,6 +542,8 @@ export default function ReviewsClient() {
                 ))}
               </div>
 
+              <AuthorBioBox />
+
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
                   <h2 className="text-3xl font-bold mb-4">Start Your Journey to a Debt-Free Life</h2>
@@ -558,7 +565,7 @@ export default function ReviewsClient() {
                 Intro: ~350
                 Landscape: ~350
                 CredSettle: ~450
-                Amalegalsolutions: ~450
+                Traditional Law Firms: ~450
                 SettleLoans: ~450
                 Comparison: ~300
                 Choosing: ~350

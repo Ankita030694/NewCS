@@ -70,9 +70,19 @@ export default async function BankPage({ params }: PageProps) {
     headline: content.title,
     description: content.metaDescription,
     author: {
-      '@type': 'Organization',
-      name: 'CredSettle',
-      url: 'https://www.credsettle.com'
+      '@type': 'Person',
+      name: 'Ashish Jhangra',
+      url: 'https://www.credsettle.com/author/ashish-jhangra',
+      image: 'https://www.credsettle.com/ashishjhangra.png',
+      sameAs: [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      jobTitle: 'Legal & Debt Resolution Professional',
+      worksFor: {
+        '@type': 'Organization',
+        name: 'CredSettle',
+        url: 'https://www.credsettle.com'
+      }
     },
     publisher: {
       '@type': 'Organization',

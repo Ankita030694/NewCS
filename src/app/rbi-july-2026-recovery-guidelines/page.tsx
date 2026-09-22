@@ -7,8 +7,8 @@ import RbiGuidelinesClient from './RbiGuidelinesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'RBI July 2026 Recovery Guidelines',
-  description: 'A comprehensive, detailed guide on the latest RBI July 2026 recovery guidelines. Learn how these new rules protect borrowers from harassment and regulate.',
+  title: 'RBI July 2026 Recovery Guidelines: Rules & Borrower Legal Rights',
+  description: 'A complete guide to the RBI July 2026 recovery guidelines. Understand your legal rights against harassment, calling time limits, and unlawful debt recovery.',
   keywords: [
     'rbi july 2026 recovery guidelines',
     'rbi new guidelines for recovery agents 2026',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'rbi debt collection rules'
   ],
   openGraph: {
-    title: 'RBI July 2026 Recovery Guidelines | Complete Analysis & Borrower Rights',
+    title: 'RBI July 2026 Recovery Guidelines: Rules & Borrower Legal Rights',
     description: 'Understand the sweeping changes introduced in the RBI July 2026 recovery guidelines. Stop harassment and know your legal rights against unlawful debt collection.',
     type: 'article',
     locale: 'en_IN',
@@ -33,6 +33,42 @@ export const metadata: Metadata = {
 };
 
 export default function RbiGuidelinesPage() {
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': 'RBI July 2026 Recovery Guidelines: Rules & Borrower Legal Rights',
+    'description': 'A complete guide to the RBI July 2026 recovery guidelines. Understand your legal rights against harassment, calling time limits, and unlawful debt recovery.',
+    'author': {
+      '@type': 'Person',
+      'name': 'Ashish Jhangra',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'image': 'https://www.credsettle.com/ashishjhangra.png',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
+      }
+    },
+    'datePublished': '2026-07-01T08:00:00+05:30',
+    'dateModified': new Date().toISOString(),
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines'
+    }
+  };
+
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
@@ -111,23 +147,6 @@ export default function RbiGuidelinesPage() {
         'item': 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines'
       }
     ]
-  };
-
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    'headline': 'Complete Guide to the RBI July 2026 Recovery Guidelines: Protecting Borrower Rights',
-    'description': 'An in depth analysis of the RBI July 2026 recovery guidelines. Discover how the Reserve Bank of India has updated the rules for loan recovery, agent conduct, and borrower protection.',
-    'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle'
-    },
-    'datePublished': '2026-05-01',
-    'dateModified': '2026-05-07',
-    'mainEntityOfPage': {
-      '@type': 'WebPage',
-      '@id': 'https://www.credsettle.com/rbi-july-2026-recovery-guidelines'
-    }
   };
 
   return (

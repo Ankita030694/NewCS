@@ -1514,40 +1514,80 @@ export default function ServicesPageClient() {
             </div>
           </section>
 
-          {/* Quick Links Section */}
+          {/* Bank & NBFC Settlement Hub Links */}
           <section className="w-full pb-12">
-             <div className="w-full max-w-7xl mx-auto px-4">
-                <h3 className="text-xl font-medium text-[#0C2756] mb-6 text-center">Explore More Guides</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                    {/* How to Get Freed Card */}
-                    <a href="/how-to-get-freed-from-debt" className="group block no-underline">
-                        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col items-center text-center group-hover:-translate-y-1">
-                            <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mb-4 text-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                            </div>
-                            <h4 className="text-lg font-medium text-[#0C2756] mb-2 group-hover:text-[#007AFF] transition-colors">How to Get Freed from Debt</h4>
-                            <p className="text-sm text-gray-600 mb-4 px-4">Understand the legal ways to break free from debt traps and harassment.</p>
-                            <span className="text-[#007AFF] text-sm font-medium mt-auto flex items-center gap-1 group-hover:gap-2 transition-all">
-                                Read Guide <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                            </span>
-                        </div>
-                    </a>
-
-                    {/* How to Settle Loan Card */}
-                    <a href="/how-to-settle-loan" className="group block no-underline">
-                        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col items-center text-center group-hover:-translate-y-1">
-                            <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mb-4 text-blue-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1v22m-9-9h18m-9-9a9 9 0 0 1 0 18"></path></svg>
-                            </div>
-                            <h4 className="text-lg font-medium text-[#0C2756] mb-2 group-hover:text-[#007AFF] transition-colors">How to Settle Loan Online</h4>
-                            <p className="text-sm text-gray-600 mb-4 px-4">A complete step-by-step guide to loan settlement, timeline, and process.</p>
-                            <span className="text-[#007AFF] text-sm font-medium mt-auto flex items-center gap-1 group-hover:gap-2 transition-all">
-                                Read Guide <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                            </span>
-                        </div>
-                    </a>
+            <div className="w-full max-w-7xl mx-auto px-4">
+              <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-8 md:p-10">
+                <div className="text-center max-w-3xl mx-auto mb-8">
+                  <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+                    2026 Resolution Hubs
+                  </span>
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#0C2756] mt-3 mb-2">
+                    Popular Bank &amp; NBFC Loan Settlement Portals
+                  </h3>
+                  <p className="text-sm text-gray-600">
+                    Direct legal representation and RBI-compliant one-time settlement (OTS) procedures across major Indian lenders.
+                  </p>
                 </div>
-             </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 text-center mb-8">
+                  <a href="/loan-settlement/sbi" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    SBI Settlement
+                  </a>
+                  <a href="/loan-settlement/axis-bank" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    Axis Bank Settlement
+                  </a>
+                  <a href="/loan-settlement/union-bank" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    Union Bank OTS
+                  </a>
+                  <a href="/loan-settlement/piramal-finance" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    Piramal Finance
+                  </a>
+                  <a href="/loan-settlement-by-bank/mpokket" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    mPokket Relief
+                  </a>
+                  <a href="/loan-settlement-by-bank/snapmint" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    Snapmint Settlement
+                  </a>
+                  <a href="/loan-settlement-by-bank/true-balance" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    True Balance
+                  </a>
+                  <a href="/loan-settlement-by-bank/muthoot-finance" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    Muthoot Finance
+                  </a>
+                  <a href="/services/nbfc-loan-settlement/banks/navi" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    Navi Finserv
+                  </a>
+                  <a href="/services/credit-card-settlement/banks/dmi-finance-pvt-ltd" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    DMI Finance
+                  </a>
+                  <a href="/loan-settlement-by-bank/rupee-112" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    Rupee112 Relief
+                  </a>
+                  <a href="/loan-settlement-by-bank/incred" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
+                    InCred Settlement
+                  </a>
+                </div>
+
+                <div className="pt-6 border-t border-gray-200 flex flex-wrap justify-center gap-4 text-xs font-medium text-gray-600">
+                  <a href="/which-bank-provide-personal-loan-for-cibil-defaulters" className="text-[#007AFF] hover:underline flex items-center gap-1">
+                    <span>Loans for CIBIL Defaulters</span> &rarr;
+                  </a>
+                  <span className="text-gray-300">•</span>
+                  <a href="/rbi-july-2026-recovery-guidelines" className="text-[#007AFF] hover:underline flex items-center gap-1">
+                    <span>RBI July 2026 Recovery Guidelines</span> &rarr;
+                  </a>
+                  <span className="text-gray-300">•</span>
+                  <a href="/mudra-loan-settlement-legal-help" className="text-[#007AFF] hover:underline flex items-center gap-1">
+                    <span>Mudra Loan Settlement Legal Help</span> &rarr;
+                  </a>
+                  <span className="text-gray-300">•</span>
+                  <a href="/nri-loan-default-india-settlement-from-abroad" className="text-[#007AFF] hover:underline flex items-center gap-1">
+                    <span>NRI Loan Default Settlement</span> &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>

@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Which Bank Provide Personal Loan for CIBIL Defaulters?',
-  description: 'Looking for a personal loan with a low CIBIL score? Discover which banks and NBFCs provide personal loans for CIBIL defaulters.',
+  description: 'Looking for a personal loan with a low CIBIL score? Discover which banks and NBFCs provide personal loans for CIBIL defaulters in 2026 and apply today.',
   keywords: [
     'which bank provide personal loan for cibil defaulters',
     'personal loan for low cibil score',
@@ -35,6 +35,42 @@ export const metadata: Metadata = {
 };
 
 export default function PersonalLoanCibilPage() {
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    'headline': 'Which Bank Provide Personal Loan for CIBIL Defaulters?',
+    'description': 'Looking for a personal loan with a low CIBIL score? Discover which banks and NBFCs provide personal loans for CIBIL defaulters in 2026 and apply today.',
+    'author': {
+      '@type': 'Person',
+      'name': 'Ashish Jhangra',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'image': 'https://www.credsettle.com/ashishjhangra.png',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
+      }
+    },
+    'datePublished': '2026-01-10T08:00:00+05:30',
+    'dateModified': new Date().toISOString(),
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
+    }
+  };
+
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
@@ -49,48 +85,7 @@ export default function PersonalLoanCibilPage() {
       addressLocality: 'Kolkata',
       addressRegion: 'West Bengal',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'I was rejected by 4 banks due to a past default. CredSettle helped me find an NBFC that approved my loan within 48 hours. Life saver!',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Excellent advice on how to get a loan with a low CIBIL score. Their co-applicant strategy worked perfectly for my personal loan application.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {
@@ -110,24 +105,6 @@ export default function PersonalLoanCibilPage() {
         'item': 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
       }
     ]
-  };
-
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    'headline': 'Which Bank Provide Personal Loan for CIBIL Defaulters? (3000+ Words Ultimate Guide)',
-    'description': 'A comprehensive exploration of the Indian lending landscape for individuals with low credit scores, featuring banks, NBFCs, and alternative lending options.',
-    'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle Financial Team'
-    },
-    'datePublished': '2025-05-15',
-    'dateModified': '2026-05-07',
-    'image': 'https://www.credsettle.com/images/cibil-loan-guide.jpg',
-    'mainEntityOfPage': {
-      '@type': 'WebPage',
-      '@id': 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
-    }
   };
 
   return (

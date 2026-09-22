@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import BanksGrid from '@/components/BanksGrid';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
+import AuthorBioBox from '@/components/AuthorBioBox';
 import { useEffect, useState } from 'react';
 
 const nbfcFaqs = [
@@ -602,6 +603,8 @@ export default function NBFCLoanSettlementPage() {
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex flex-col items-center gap-8 md:gap-14">
               <FAQWithSchema faqs={nbfcFaqs} title="NBFC Loan Settlement" />
+
+              <AuthorBioBox className="w-full max-w-4xl" />
 
               <div
                 className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"

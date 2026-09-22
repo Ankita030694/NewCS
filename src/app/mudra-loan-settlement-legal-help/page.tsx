@@ -5,9 +5,9 @@ import MudraLoanSettlementClient from './MudraLoanSettlementClient';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.credsettle.com/mudra-loan-settlement-legal-help' },
-    title: 'Mudra Loan Settlement Legal Help 2025',
-    description: 'Expert legal help for Mudra loan settlement in India. Understand RBI 2025 guidelines for PMMY Tarun Plus settlement, stop recovery harassment.',
-    keywords: 'mudra loan settlement legal help, sbi mudra loan ots 2025, pmmy loan recovery defense, tarun plus loan settlement india, msme loan legal assistance rbi',
+  title: 'Mudra Loan Settlement Legal Help 2026: PMMY Debt Relief Guide',
+  description: 'Get expert legal help for Mudra loan settlement in India. Understand RBI 2026 OTS rules for PMMY Shishu, Kishore, and Tarun, and stop recovery harassment.',
+  keywords: 'mudra loan settlement legal help, sbi mudra loan ots 2026, pmmy loan recovery defense, tarun plus loan settlement india, msme loan legal assistance rbi',
 };
 
 export default function Page() {
@@ -15,12 +15,21 @@ export default function Page() {
         {
             '@context': 'https://schema.org',
             '@type': 'Article',
-            'headline': 'Mudra Loan Settlement Legal Help: A 2025-26 Guide to PMMY Debt Resolution',
+            'headline': 'Mudra Loan Settlement Legal Help: 2026 Guide to PMMY Debt Resolution',
             'description': 'A comprehensive legal guide on settling Mudra loans under PMMY, exploring RBI MSME settlement norms, recovery defense, and one-time settlement strategies.',
             'author': {
-                '@type': 'Organization',
-                'name': 'CredSettle',
-                'url': 'https://www.credsettle.com'
+                '@type': 'Person',
+                'name': 'Ashish Jhangra',
+                'jobTitle': 'Legal & Debt Resolution Professional',
+                'url': 'https://www.credsettle.com/author/ashish-jhangra',
+                'sameAs': [
+                    'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+                ],
+                'worksFor': {
+                    '@type': 'Organization',
+                    'name': 'CredSettle',
+                    'url': 'https://www.credsettle.com'
+                }
             },
             'publisher': {
                 '@type': 'Organization',
@@ -31,7 +40,7 @@ export default function Page() {
                 }
             },
             'datePublished': '2025-03-07',
-            'dateModified': '2026-03-07'
+            'dateModified': '2026-09-22'
         },
         {
             '@context': 'https://schema.org',

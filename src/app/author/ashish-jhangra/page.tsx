@@ -6,8 +6,8 @@ import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ashish Jhangra - Author & Legal Expert | CredSettle",
-  description: "Ashish is a legal and debt resolution professional at AMA Legal Solutions, passionate about helping individuals and businesses overcome financial.",
+  title: "Ashish Jhangra - Legal & Debt Resolution Expert | CredSettle",
+  description: "Ashish Jhangra is a legal and debt resolution professional at CredSettle, specializing in RBI loan settlements, anti-harassment defense, and debt relief.",
   alternates: { canonical: "https://www.credsettle.com/author/ashish-jhangra" },
 };
 
@@ -19,14 +19,15 @@ export default function AshishJhangraAuthorPage() {
       "@type": "Person",
       "name": "Ashish Jhangra",
       "jobTitle": "Legal & Debt Resolution Professional",
-      "description": "Legal and debt resolution professional at AMA Legal Solutions and CredSettle, specializing in RBI compromise settlement frameworks and consumer protection.",
+      "description": "Legal and debt resolution professional at CredSettle, specializing in RBI compromise settlement frameworks, borrower rights, and consumer protection.",
       "url": "https://www.credsettle.com/author/ashish-jhangra",
+      "image": "https://www.credsettle.com/ashishjhangra.png",
       "sameAs": [
         "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
       ],
       "worksFor": {
         "@type": "Organization",
-        "name": "AMA Legal Solutions",
+        "name": "CredSettle",
         "url": "https://www.credsettle.com"
       }
     }
@@ -45,13 +46,12 @@ export default function AshishJhangraAuthorPage() {
         <div className="w-full bg-[#004479] py-16 md:py-24 text-white">
           <div className="w-full max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-              <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shrink-0 bg-white shadow-xl flex items-center justify-center">
+              <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shrink-0 bg-white shadow-xl flex items-center justify-center relative">
                 <Image 
-                  src="/credsettle-logo-black.png" 
+                  src="/ashishjhangra.png" 
                   alt="Ashish Jhangra" 
-                  width={200} 
-                  height={200} 
-                  className="object-contain w-3/4 h-3/4" 
+                  fill
+                  className="object-cover object-top" 
                 />
               </div>
               <div className="text-center md:text-left flex flex-col justify-center pt-2 md:pt-4">
@@ -80,13 +80,13 @@ export default function AshishJhangraAuthorPage() {
               <h2 className="text-3xl font-bold text-[#004479] mb-8">About Me</h2>
               <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
                 <p>
-                  Hi, I&apos;m Ashish, a legal and debt resolution professional at <strong className="text-[#004479]">AMA Legal Solutions</strong>.
+                  Hi, I&apos;m Ashish, a legal and debt resolution professional at <strong className="text-[#004479]">CredSettle</strong>.
                 </p>
                 <p>
                   I am passionate about helping individuals and businesses overcome financial challenges through legal guidance, debt resolution, and financial recovery solutions.
                 </p>
                 <p>
-                  At AMA Legal Solutions, I work closely with clients who are facing financial stress due to personal loans, credit cards, business loans, and recovery-related issues. My role is to understand each client&apos;s situation, provide practical legal support, and help them explore lawful debt resolution options while protecting their rights.
+                  At CredSettle, I work closely with clients who are facing financial stress due to personal loans, credit cards, business loans, and recovery-related issues. My role is to understand each client&apos;s situation, provide practical legal support, and help them explore lawful debt resolution options while protecting their rights.
                 </p>
                 
                 <h3 className="text-2xl font-bold text-[#004479] mt-12 mb-6">My Areas of Expertise</h3>

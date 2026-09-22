@@ -62,11 +62,22 @@ export default function PiramalFinanceLoanSettlementPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Piramal Finance Loan Settlement Process: 2026 Guide",
-    "description": "Complete guide on Piramal Finance OTS policy, SARFAESI defense, and grievance redressal for distressed borrowers.",
+    "headline": "Piramal Finance Loan Settlement: Stop Legal Action & Save",
+    "description": "Settle your Piramal Finance loan with expert legal help. Learn about OTS policy, SARFAESI defense, and fake notice checks. Save up to 50% waiver.",
     "author": {
-      "@type": "Organization",
-      "name": "CredSettle Legal Team"
+      "@type": "Person",
+      "name": "Ashish Jhangra",
+      "url": "https://www.credsettle.com/author/ashish-jhangra",
+      "image": "https://www.credsettle.com/ashishjhangra.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
+      ],
+      "jobTitle": "Legal & Debt Resolution Professional",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "CredSettle",
+        "url": "https://www.credsettle.com"
+      }
     },
     "publisher": {
       "@type": "Organization",
@@ -76,8 +87,8 @@ export default function PiramalFinanceLoanSettlementPage() {
         "url": "https://www.credsettle.com/credsettle-logo.svg"
       }
     },
-    "datePublished": "2026-01-15",
-    "dateModified": "2026-01-15",
+    "datePublished": "2026-01-15T08:00:00+05:30",
+    "dateModified": new Date().toISOString(),
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.credsettle.com/loan-settlement/piramal-finance"
@@ -120,26 +131,6 @@ export default function PiramalFinanceLoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Piramal Finance Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "112"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Rakesh K." },
-        "datePublished": "2025-11-05",
-        "reviewBody": "I defaulted on a 5 Lakh loan. CredSettle stepped in, stopped the visits, and settled it for 2.8 Lakhs.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -147,7 +138,6 @@ export default function PiramalFinanceLoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

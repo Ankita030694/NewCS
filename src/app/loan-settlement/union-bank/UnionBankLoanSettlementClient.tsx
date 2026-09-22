@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function UnionBankLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -199,10 +200,10 @@ export default function UnionBankLoanSettlementClient() {
                   As one of India’s leading Public Sector Banks (PSBs), Union Bank of India operates under strict CVC (Central Vigilance Commission) guidelines. Unlike private banks that can offer discretionary waivers based on a 15-minute call, Union Bank follows a rigid, documented process. This is both a challenge and an opportunity.
                 </p>
                 <p className="mb-4">
-                  In 2025-26, Union Bank has aggressively pushed for the reduction of its NPA (Non-Performing Asset) portfolio, especially in the <strong>MSME and Retail Agricultural</strong> sectors. With the recent integration of "online OTS" portals and the updated <strong>MSME Policy 2025</strong>, the bank is striving to close old bad debts efficiently.
+                  In 2026-27, Union Bank has aggressively pushed for the reduction of its NPA (Non-Performing Asset) portfolio, especially in the <strong>MSME and Retail Agricultural</strong> sectors. With the integration of "online OTS" portals and the updated <strong>MSME Policy 2026</strong>, the bank is striving to close aged bad debts efficiently.
                 </p>
                 <p className="mb-4">
-                  This guide is not a generic overview. It delves into the specific <strong>three-tier approval hierarchy (Branch &rarr; Region &rarr; Zone)</strong> that makes Union Bank settlements unique. We explore why the "Rinn Samadhan" logic applies here and how recent corporate settlements (like the Jalan Transolutions case) set a precedent for retail borrowers.
+                  This guide is not a generic overview. It delves into the specific <strong>three-tier approval hierarchy (Branch &rarr; Region &rarr; Zone)</strong> that makes Union Bank settlements unique. We explore why the "Rinn Samadhan" logic applies here and how statutory borrower protections under <strong>Bharatiya Nyaya Sanhita (BNS) 2023</strong> and the <strong>July 2026 RBI Master Directions</strong> ensure your dignity remains intact throughout the process.
                 </p>
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded-r-lg">
                   <p className="text-sm text-blue-900 font-medium">
@@ -225,7 +226,7 @@ export default function UnionBankLoanSettlementClient() {
                     <strong>The 'Upfront' Requirement:</strong> Unlike private banks that might accept a token amount to start, Union Bank policies typically require a deposit of <strong>5-10% of the proposed settlement amount</strong> just to process the application file. This is non-refundable if you default on the settlement but adjustable if the settlement is approved.
                   </li>
                   <li>
-                    <strong>MSME Special Dispensation:</strong> Under the MSME Policy 2025, small business loans under ₹2 Crores often have a simplified settlement track. If the unit is non-viable, the bank prefers a quick OTS over a long DRT (Debt Recovery Tribunal) battle.
+                    <strong>MSME Special Dispensation:</strong> Under the MSME Policy 2026, small business loans under ₹2 Crores often have a simplified settlement track. If the unit is non-viable, the bank prefers a quick OTS over a long DRT (Debt Recovery Tribunal) battle.
                   </li>
                 </ul>
               </div>
@@ -245,7 +246,7 @@ export default function UnionBankLoanSettlementClient() {
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
                     <h4 className="font-bold text-gray-800 mb-2">Permanent Lok Adalat (PLA)</h4>
                     <p className="text-sm text-gray-600">
-                      Since July 2025, banking disputes are Public Utility Services. This means you can proactively approach a PLA for settlement even before the bank files a case against you. This is a powerful preemptive strike strategy.
+                      Under statutory consumer and banking guidelines, banking disputes fall under Public Utility Services. This means you can proactively approach a PLA for settlement even before the bank files a case against you. This is a powerful preemptive strike strategy.
                     </p>
                   </div>
                 </div>
@@ -289,9 +290,12 @@ export default function UnionBankLoanSettlementClient() {
                     </tbody>
                   </table>
                 </div>
-                <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4">
-                  <p className="text-yellow-800 font-medium">
-                    <strong>CredSettle Pro Tip:</strong> Never argue with the Branch Manager about the waiver amount. They usually don’t have the power. The proposal must be structured to pass the scrutiny of the <strong>Regional Office Credit Committee</strong>. We write proposals that "tick the boxes" of their internal audit checklists.
+                <div className="bg-yellow-50 border-l-4 border-yellow-500 p-5 rounded-r-xl space-y-2">
+                  <p className="text-yellow-900 font-semibold">
+                    <strong>CredSettle Legal Defense Insight:</strong>
+                  </p>
+                  <p className="text-sm text-yellow-800">
+                    Never argue with the Branch Manager about the waiver amount—they operate under strict CVC thresholds. Proposals must be structured to satisfy the <strong>Regional Office Credit Committee</strong> audit criteria. Furthermore, if Union Bank collection agents use coercive tactics, borrowers are shielded by <strong>Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352</strong> (criminal intimidation) and <strong>BNS Section 308</strong> (extortion), alongside strict salary attachment caps under <strong>Code on Wages 2019 Section 17 &amp; CPC Section 60</strong>.
                   </p>
                 </div>
               </div>
@@ -358,6 +362,9 @@ export default function UnionBankLoanSettlementClient() {
                   </div>
                 ))}
               </div>
+
+              {/* Author Bio Box */}
+              <AuthorBioBox />
 
             </article>
           </div>

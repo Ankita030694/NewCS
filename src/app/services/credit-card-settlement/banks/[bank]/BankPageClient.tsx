@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
+import AuthorBioBox from '@/components/AuthorBioBox';
 import { BankContent } from '../../banks-content';
 
 interface BankPageClientProps {
@@ -355,6 +356,9 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     title={`${content.bankName} Credit Card Settlement`}
                   />
                 </div>
+
+                {/* Author Bio Box */}
+                <AuthorBioBox className="w-full" />
 
                 {/* CTA Section */}
                 <div

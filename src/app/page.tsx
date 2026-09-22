@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CredSettle - India’s Trusted Loan Settlement Company",
-  description: "Get legal loan settlement services in India. CredSettle helps you settle credit cards, personal loans, business loans & more. Stop recovery harassment legally.",
+  description: "Get legal loan settlement services in India. CredSettle helps settle credit cards, personal loans, business loans & more. Stop recovery harassment legally.",
   alternates: {
     canonical: "https://www.credsettle.com",
   },

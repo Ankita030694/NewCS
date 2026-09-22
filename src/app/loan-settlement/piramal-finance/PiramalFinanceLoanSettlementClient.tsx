@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function PiramalFinanceLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -303,19 +304,25 @@ export default function PiramalFinanceLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-white border-l-4 border-purple-600 shadow-sm p-6 ml-0">
-                  <h4 className="font-bold text-gray-900">Secured Loans (Home/LAP)</h4>
-                  <p className="text-gray-600 mt-2 text-sm">
-                    Piramal uses the **SARFAESI Act, 2002**. This allows them to seize your property **without going to court** if loan is NPA.
+                  <h4 className="font-bold text-gray-900">Secured Loans (Home / LAP / Business)</h4>
+                  <p className="text-gray-600 mt-2 text-sm leading-relaxed">
+                    Piramal invokes the <strong>SARFAESI Act, 2002</strong> for secured defaults once the account crosses 90 days NPA.
                     <br/><br/>
-                    <strong>Defense:</strong> You can file an appeal in the DRT (Debt Recovery Tribunal) within 45 days of receiving the possession notice.
+                    <strong>Key Statutory Stages:</strong>
+                    <br/>
+                    1. <strong>Section 13(2) Notice:</strong> 60-day statutory demand notice. Borrowers have the right to file formal legal objections under <strong>Section 13(3A)</strong>, which the lender must respond to within 15 days before taking coercive action.
+                    <br/>
+                    2. <strong>Section 13(4) Notice:</strong> Symbolic possession. You have an absolute statutory right to file a Securitisation Application (SA) under <strong>Section 17 before the Debt Recovery Tribunal (DRT)</strong> within 45 days.
                   </p>
                 </div>
                 <div className="bg-white border-l-4 border-orange-500 shadow-sm p-6 ml-0">
-                  <h4 className="font-bold text-gray-900">Unsecured Loans (Personal)</h4>
-                  <p className="text-gray-600 mt-2 text-sm">
-                    They use **Arbitration** proceedings. An arbitrator is appointed to pass an award against you for the full amount.
-                     <br/><br/>
-                    <strong>Defense:</strong> Attend the arbitration (online/offline). Submit hardship proofs. An arbitrator cannot jail you, only order repayment.
+                  <h4 className="font-bold text-gray-900">Unsecured Loans (Personal / Digital)</h4>
+                  <p className="text-gray-600 mt-2 text-sm leading-relaxed">
+                    For unsecured defaults, Piramal typically initiates <strong>Arbitration proceedings under the Arbitration &amp; Conciliation Act, 1996</strong> or sends legal demand notices.
+                    <br/><br/>
+                    <strong>Legal Safeguards &amp; BNS 2023:</strong>
+                    <br/>
+                    Arbitrators do not possess criminal enforcement powers—they can never issue arrest warrants or police orders. If collection agencies use abusive tactics or threaten your family, they violate <strong>Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352</strong> (criminal intimidation) and <strong>BNS Section 308</strong> (extortion), and face <strong>RBI Banking Ombudsman penalties up to ₹20 Lakhs</strong> under July 2026 directives.
                   </p>
                 </div>
               </div>
@@ -396,7 +403,7 @@ export default function PiramalFinanceLoanSettlementClient() {
                       <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Rakesh K., Mumbai</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"I defautled on a 5 Lakh loan. Piramal agents were visiting my office. CredSettle stepped in, stopped the visits, and settled it for 2.8 Lakhs."</p>
+                    <p className="italic text-gray-200 text-sm">"I defaulted on a 5 Lakh loan. Piramal agents were visiting my office. CredSettle stepped in, stopped the visits, and settled it for 2.8 Lakhs."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
@@ -417,6 +424,9 @@ export default function PiramalFinanceLoanSettlementClient() {
                   </div>
                 ))}
               </div>
+
+              {/* Author Bio Box */}
+              <AuthorBioBox />
 
             </article>
           </div>

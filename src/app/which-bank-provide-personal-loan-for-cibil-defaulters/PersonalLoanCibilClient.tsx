@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function PersonalLoanCibilClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -310,9 +311,9 @@ export default function PersonalLoanCibilClient() {
                         <td className="py-3 px-4">Fast processing and digital journey.</td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-bold">Fullerton India</td>
+                        <td className="py-3 px-4 font-bold">SMFG India Credit (formerly Fullerton)</td>
                         <td className="py-3 px-4">650+</td>
-                        <td className="py-3 px-4">Strong presence in rural and semi-urban areas.</td>
+                        <td className="py-3 px-4">Strong semi-urban footprint & customized underwriting.</td>
                       </tr>
                       <tr className="border-b">
                         <td className="py-3 px-4 font-bold">Tata Capital</td>
@@ -326,10 +327,10 @@ export default function PersonalLoanCibilClient() {
                   <strong>AU Small Finance Bank</strong> has gained a reputation for being one of the more progressive lenders in the Indian market. They offer various customized loan products that look beyond the traditional salary slip. If you are a self employed individual with a low credit score but a healthy business turnover, they might be willing to lend to you at a competitive rate.
                 </p>
                 <p>
-                  <strong>Fullerton India</strong> is another excellent option for those with sub-prime scores. They have a wide network across the country and specialized teams that deal with individuals who might have had past credit issues. Their interest rates might be slightly higher than HDFC or ICICI, but their approval rates for low CIBIL applicants are significantly better.
+                  <strong>SMFG India Credit</strong> (formerly Fullerton India) is another proven option for those with sub-prime scores. They have a wide network across the country and specialized underwriting teams that evaluate individuals who have resolved past credit issues under an RBI One-Time Settlement. Their interest rates might be slightly higher than prime Tier-1 banks, but their approval rates for low CIBIL applicants are significantly better.
                 </p>
                 <p>
-                  It is important to note that even these lenders will look for signs of current stability. If you have a default that is only three months old, even an NBFC will hesitate. However, if your default happened two years ago and you have had a steady job for the last twelve months, your chances of approval with these institutions are quite high.
+                  Under the 2026 RBI and CICRA (Credit Information Companies Regulation Act) guidelines, credit bureaus are required to resolve data inaccuracies within 30 days of a dispute filing, with a statutory compensation of ₹100 per day payable to the borrower for unresolved delays. If your CIBIL score is artificially depressed due to delayed bank reporting of a completed settlement, filing a formal dispute can swiftly lift your score into an approvable bracket.
                 </p>
               </div>
 
@@ -508,6 +509,9 @@ export default function PersonalLoanCibilClient() {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-slate-800 rounded-full -mr-16 -mt-16 opacity-50"></div>
                 <div className="absolute bottom-0 left-0 w-32 h-32 bg-slate-800 rounded-full -ml-16 -mb-16 opacity-50"></div>
               </div>
+
+              {/* Author Bio Box */}
+              <AuthorBioBox />
 
             </article>
 

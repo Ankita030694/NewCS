@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 
 export default function AxisBankLoanSettlementClient() {
@@ -54,7 +55,7 @@ export default function AxisBankLoanSettlementClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
-    { id: 'default-timeline', label: 'Default Timeline 2025' },
+    { id: 'default-timeline', label: 'Default Timeline 2026' },
     { id: 'ots-policy', label: 'OTS Policy Guidelines' },
     { id: 'credit-card-specifics', label: 'Credit Card Settlement' },
     { id: 'arbitration', label: 'Arbitration & Legal' },
@@ -454,6 +455,9 @@ export default function AxisBankLoanSettlementClient() {
                   </div>
                 ))}
               </div>
+
+              {/* Author Bio Box */}
+              <AuthorBioBox />
 
             </article>
           </div>

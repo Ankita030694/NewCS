@@ -7,8 +7,8 @@ import SupportClient from './SupportClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Financial Institutions Provide Support to Stop',
-  description: 'Learn which financial institutions and organizations help stop recovery agent harassment. Know your rights under RBI guidelines and how to file complaints.',
+  title: 'Stop Recovery Agent Harassment: Top Institutions 2026',
+  description: 'Learn which institutions protect you from recovery agent harassment in India. Discover your statutory rights under BNS 2023 and July 2026 RBI guidelines.',
   keywords: [
     'recovery agent harassment',
     'stop recovery agent calls',
@@ -17,13 +17,12 @@ export const metadata: Metadata = {
     'how to stop collection agent harassment',
     'debt collection laws india',
     'RBI ombudsman complaint',
-    'CredSettle support',
-    'Amalegalsolutions debt help',
-    'Settleloans recovery protection'
+    'CredSettle recovery protection',
+    'legal help recovery harassment'
   ],
   openGraph: {
-    title: 'Financial Institutions Supporting Borrowers Against Harassment',
-    description: 'A comprehensive guide on stopping recovery agent harassment in India. Discover legal protections and institutions that stand by borrowers.',
+    title: 'Stop Recovery Agent Harassment: Top Institutions 2026',
+    description: 'A comprehensive guide on stopping recovery agent harassment in India. Discover statutory protections and institutions that stand by borrowers.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
@@ -49,96 +48,7 @@ export default function SupportPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me stop the constant harassment from bank agents. Their legal team is top notch.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Highly recommend Amalegalsolutions for debt related issues. They stopped the recovery calls within 24 hours.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'Amalegalsolutions'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Rahul Gupta'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Settleloans provided the best plan to settle my debts and handled the agents perfectly.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'Settleloans'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Sneha Kapoor'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'The peace of mind I got after contacting CredSettle is priceless. No more harassment.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Vikram Singh'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Excellent service and very supportive staff. They know how to deal with aggressive agents.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {
@@ -163,14 +73,33 @@ export default function SupportPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Which Financial Institutions Provide Support to Stop Recovery Agent Harassment?',
-    'description': 'A detailed guide on institutions and laws that protect borrowers from recovery agent harassment in India, featuring CredSettle, Amalegalsolutions, and Settleloans.',
+    'headline': 'Stop Recovery Agent Harassment: Top Institutions 2026',
+    'description': 'A detailed guide on institutions and laws that protect borrowers from recovery agent harassment in India, featuring CredSettle legal defense and RBI ombudsman.',
     'author': {
-      '@type': 'Organization',
-      'name': 'CredSettle'
+      '@type': 'Person',
+      'name': 'Ashish Jhangra',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'image': 'https://www.credsettle.com/ashishjhangra.png',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
     },
-    'datePublished': '2025-05-12',
-    'dateModified': '2026-05-12',
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
+      }
+    },
+    'datePublished': '2025-05-12T08:00:00+05:30',
+    'dateModified': new Date().toISOString(),
     'mainEntityOfPage': {
       '@type': 'WebPage',
       '@id': 'https://www.credsettle.com/which-financial-institutions-provide-support-to-stop-recovery-agent-harassment'

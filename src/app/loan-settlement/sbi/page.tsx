@@ -7,13 +7,13 @@ import SBILoanSettlementClient from '@/app/loan-settlement/sbi/SBILoanSettlement
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'SBI Loan Settlement Process 2026 | Guide',
-  description: 'Complete guide on State Bank of India (SBI) loan settlement. Learn about SBI OTS schemes 2026, arbitration, and how to settle credit card dues with up.',
+  title: 'SBI Loan Settlement Process 2026: OTS Scheme & Legal Guide',
+  description: 'Settle SBI personal loans and credit cards legally under 2026 OTS schemes. Stop recovery agent harassment and negotiate debt waivers with CredSettle experts.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/sbi',
   },
   openGraph: {
-    title: 'SBI Loan Settlement Process: Save 50% on Dues',
+    title: 'SBI Loan Settlement Process 2026: OTS Scheme & Legal Guide',
     description: 'Struggling with SBI debt? Our expert legal team helps you settle SBI loans and credit cards. Stop harassment and arbitration today.',
     url: 'https://www.credsettle.com/loan-settlement/sbi',
     type: 'article',
@@ -63,11 +63,22 @@ export default function SBILoanSettlementPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "SBI Loan Settlement Process: The Complete 2026 Guide",
-    "description": "Comprehensive guide on how to settle State Bank of India personal loans and credit cards. Learn about OTS schemes, arbitration process, and how to stop recovery agent harassment.",
+    "headline": "SBI Loan Settlement Process 2026: OTS Scheme & Legal Guide",
+    "description": "Settle SBI personal loans and credit cards legally under 2026 OTS schemes. Stop recovery agent harassment and negotiate debt waivers with CredSettle experts.",
     "author": {
-      "@type": "Organization",
-      "name": "CredSettle Legal Team"
+      "@type": "Person",
+      "name": "Ashish Jhangra",
+      "url": "https://www.credsettle.com/author/ashish-jhangra",
+      "image": "https://www.credsettle.com/ashishjhangra.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
+      ],
+      "jobTitle": "Legal & Debt Resolution Professional",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "CredSettle",
+        "url": "https://www.credsettle.com"
+      }
     },
     "publisher": {
       "@type": "Organization",
@@ -77,8 +88,8 @@ export default function SBILoanSettlementPage() {
         "url": "https://www.credsettle.com/credsettle-logo.svg"
       }
     },
-    "datePublished": "2026-01-15",
-    "dateModified": "2026-01-15",
+    "datePublished": "2026-01-15T08:00:00+05:30",
+    "dateModified": new Date().toISOString(),
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://www.credsettle.com/loan-settlement/sbi"
@@ -141,33 +152,6 @@ export default function SBILoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "SBI Loan Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "1850"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Vikram Singh" },
-        "datePublished": "2025-12-10",
-        "reviewBody": "I had a huge SBI personal loan and lost my job. SBI started arbitration. CredSettle handled the arbitration and settled the loan. Very professional.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Meera Joshi" },
-        "datePublished": "2025-11-22",
-        "reviewBody": "My husband’s SBI credit card debt was spiraling. We settled it for 40% of the value thanks to the CredSettle team.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -175,7 +159,6 @@ export default function SBILoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

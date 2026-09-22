@@ -7,7 +7,7 @@ import NriLoanDefaultClient from './NriLoanDefaultClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'NRI Loan Default in India: Settle From Abroad',
+  title: 'NRI Loan Default in India: Settle Debt Remotely from Abroad',
   description: 'Defaulted on a loan in India while residing abroad? Learn how NRIs can stop bank harassment and settle debt remotely using a Power of Attorney.',
   keywords: [
     'NRI loan default India what happens',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'FEMA guidelines loan default'
   ],
   openGraph: {
-    title: 'NRI Loan Default in India: Settle From Abroad',
+    title: 'NRI Loan Default in India: Settle Debt Remotely from Abroad',
     description: 'Defaulted on a loan in India while residing abroad? Learn how NRIs can stop bank harassment and settle debt remotely using a Power of Attorney.',
     type: 'article',
     locale: 'en_IN',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NRI Loan Default in India: Settle From Abroad',
+    title: 'NRI Loan Default in India: Settle Debt Remotely from Abroad',
     description: 'Learn how NRIs can stop bank harassment and settle debt remotely using a Power of Attorney.'
   },
   alternates: {
@@ -40,12 +40,21 @@ export default function NriLoanDefaultPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'NRI Loan Default in India: Settle From Abroad',
+    'headline': 'NRI Loan Default in India: Settle Debt Remotely from Abroad',
     'description': 'Defaulted on a loan in India while residing abroad? Learn how NRIs can stop bank harassment and settle debt remotely using a Power of Attorney.',
     'author': {
       '@type': 'Person',
-      'name': 'Vikram Desai',
-      'image': 'https://www.credsettle.com/default-user.svg'
+      'name': 'Ashish Jhangra',
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
     },
     'publisher': {
       '@type': 'Organization',
@@ -55,8 +64,8 @@ export default function NriLoanDefaultPage() {
         'url': 'https://www.credsettle.com/credsettle-logo.svg'
       }
     },
-    'datePublished': new Date().toISOString().split('T')[0],
-    'dateModified': new Date().toISOString().split('T')[0],
+    'datePublished': '2025-04-10',
+    'dateModified': '2026-09-22',
     'mainEntityOfPage': {
       '@type': 'WebPage',
       '@id': 'https://www.credsettle.com/nri-loan-default-india-settlement-from-abroad'

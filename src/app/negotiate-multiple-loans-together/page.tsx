@@ -32,14 +32,17 @@ export default function NegotiateMultipleLoansTogetherPage() {
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
             "@type": "Person",
-            "name": "Ashish",
+            "name": "Ashish Jhangra",
             "jobTitle": "Legal and Debt Resolution Professional",
-            "url": "https://www.credsettle.com/author/ashish-jhangra"
-        },
-        "reviewedBy": {
-            "@type": "Organization",
-            "name": "AMA Legal Solutions",
-            "description": "Debt Resolution Specialists"
+            "url": "https://www.credsettle.com/author/ashish-jhangra",
+            "sameAs": [
+                "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
+            ],
+            "worksFor": {
+                "@type": "Organization",
+                "name": "CredSettle",
+                "url": "https://www.credsettle.com"
+            }
         },
         "publisher": {
             "@type": "Organization",

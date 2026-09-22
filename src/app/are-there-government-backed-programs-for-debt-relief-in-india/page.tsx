@@ -7,7 +7,7 @@ import GovernmentDebtReliefClient from './GovernmentDebtReliefClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Government-Backed Debt Relief Programs in India',
+  title: 'Government Debt Relief Programs in India: 2026 Legal Guide',
   description: 'Are there government-backed programs for debt relief in India? Explore RBI guidelines, OTS schemes, loan restructuring, and the IBC Fresh Start process.',
   keywords: [
     'government backed debt relief india',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'farmer loan waiver india'
   ],
   openGraph: {
-    title: 'Government-Backed Debt Relief Programs in India: What You Need to Know',
+    title: 'Government Debt Relief Programs in India: 2026 Legal Guide',
     description: 'A detailed look into the legal and regulatory frameworks for debt relief in India, including RBI settlements and the Bankruptcy Code.',
     type: 'website',
     locale: 'en_IN',
@@ -49,96 +49,7 @@ export default function GovernmentDebtReliefPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me understand the RBI guidelines for settlement. I was able to settle my personal loan for a fraction of the amount.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Highly recommend AmaLegalSolutions for handling the legal aspects of my debt resolution. They are very professional.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'AmaLegalSolutions'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Rahul Gupta'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'SettleLoans provided a clear roadmap for my credit card debt. The process was transparent and effective.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'SettleLoans'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Suresh Menon'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'The team at CredSettle explained the IBC Fresh Start process so clearly. It gave me hope during a very tough financial period.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Megha Iyer'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'If you are looking for reliable debt settlement advice in India, CredSettle and SettleLoans are the names to trust.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'SettleLoans'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {
@@ -163,15 +74,33 @@ export default function GovernmentDebtReliefPage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Are There Government-Backed Programs for Debt Relief in India? A Deep Dive into 2025 Frameworks',
+    'headline': 'Are There Government-Backed Programs for Debt Relief in India? 2026 Legal Guide',
     'description': 'A comprehensive analysis of debt relief options in India, covering RBI guidelines, the Insolvency and Bankruptcy Code, and professional resolution services.',
     'author': {
+      '@type': 'Person',
+      'name': 'Ashish Jhangra',
+      'jobTitle': 'Legal & Debt Resolution Professional',
+      'url': 'https://www.credsettle.com/author/ashish-jhangra',
+      'sameAs': [
+        'https://www.linkedin.com/in/ashish-jhangra-ab1a54127/'
+      ],
+      'worksFor': {
+        '@type': 'Organization',
+        'name': 'CredSettle',
+        'url': 'https://www.credsettle.com'
+      }
+    },
+    'publisher': {
       '@type': 'Organization',
-      'name': 'CredSettle'
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
+      }
     },
     'image': 'https://www.credsettle.com/images/debt-relief-india.jpg',
     'datePublished': '2025-02-15',
-    'dateModified': '2026-05-12',
+    'dateModified': '2026-09-22',
     'mainEntityOfPage': {
       '@type': 'WebPage',
       '@id': 'https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india'

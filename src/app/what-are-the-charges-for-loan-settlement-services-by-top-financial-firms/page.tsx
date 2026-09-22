@@ -6,11 +6,11 @@ import Footer from '@/components/Footer';
 import ChargesClient from './ChargesClient';
 
 export const metadata: Metadata = {
-    title: "Charges for Loan Settlement Services (2025 Guide)",
-    description: "An in-depth analysis of the fees, structures, and exact charges for loan settlement services provided by India’s top ranking financial and legal firms.",
+    title: "Loan Settlement Charges & Fees 2026: Compare Top Firms",
+    description: "Compare loan settlement fees and charges across top debt relief firms in India. Learn fee models, hidden costs, and how to maximize your OTS savings.",
     keywords: [
         "charges for loan settlement services by top financial firms",
-        "amalegalsolutions.com review",
+        "loan settlement company fee comparison",
         "credsettle.com fees",
         "settleloans.in charges",
         "how much does a debt settlement company charge",
@@ -26,12 +26,23 @@ export default function ChargesPage() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "What Are the Charges for Loan Settlement Services by Top Financial Firms?",
-        "description": "An exhaustive manual detailing exactly how much the premier financial and legal debt settlement firms charge, structured around specific industry comparisons and cost-to-benefit calculations.",
+        "headline": "Loan Settlement Charges & Fees 2026: Compare Top Firms",
+        "description": "An exhaustive manual detailing exactly how much premier financial and legal debt settlement firms charge, structured around specific industry comparisons and cost-to-benefit calculations.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {
-            "@type": "Organization",
-            "name": "CredSettle"
+            "@type": "Person",
+            "name": "Ashish Jhangra",
+            "url": "https://www.credsettle.com/author/ashish-jhangra",
+            "image": "https://www.credsettle.com/ashishjhangra.png",
+            "sameAs": [
+                "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
+            ],
+            "jobTitle": "Legal & Debt Resolution Professional",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "CredSettle",
+                "url": "https://www.credsettle.com"
+            }
         },
         "publisher": {
             "@type": "Organization",
@@ -41,8 +52,8 @@ export default function ChargesPage() {
                 "url": "https://www.credsettle.com/credsettle-logo.svg"
             }
         },
-        "datePublished": "2025-03-18",
-        "dateModified": "2025-03-18"
+        "datePublished": "2025-03-18T08:00:00+05:30",
+        "dateModified": new Date().toISOString()
     };
 
     const breadcrumbLd = {

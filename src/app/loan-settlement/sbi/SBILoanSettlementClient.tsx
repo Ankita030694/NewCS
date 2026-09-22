@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function SBILoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -231,13 +232,13 @@ export default function SBILoanSettlementClient() {
                 However, default is not the end of the road. SBI, being the largest public sector bank in India, has structured mechanisms to help distressed borrowers exit the debt trap. <strong>SBI Loan Settlement</strong>, primarily through <strong>One Time Settlement (OTS)</strong> schemes like <em>Rinn Samadhan</em> and platforms like <em>Lok Adalat</em>, offers a legal and dignified way to close your loan account by paying a reduced amount.
               </p>
               <p className="text-gray-700 leading-relaxed mb-8">
-                CredSettle is India’s leading debt settlement company. We bridge the gap between you and the bank. Our team of legal and financial experts navigates the complex bureaucratic corridors of SBI to negotiate the best possible settlement terms for you, stopping harassment and legal action in its tracks. This guide provides an in-depth look at how you can settle your SBI loan in 2024-25.
+                CredSettle is India’s leading debt settlement company. We bridge the gap between you and the bank. Our team of legal and financial experts navigates the complex bureaucratic corridors of SBI to negotiate the best possible settlement terms for you, stopping harassment and legal action in its tracks. This guide provides an in-depth look at how you can settle your SBI loan in 2026.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Notice: SBI Rinn Samadhan 2024-25</h4>
+                <h4 className="font-bold text-blue-900 mb-2">Notice: SBI Rinn Samadhan Scheme 2026</h4>
                 <p className="text-blue-800 m-0">
-                  SBI has launched the "Rinn Samadhan" scheme for 2024-25, offering waivers on interest and penalties for eligible NPA accounts. This is a limited-time opportunity to settle your debts at a discount.
+                  SBI has updated its "Rinn Samadhan" One Time Settlement scheme for 2026 under the latest RBI compromise guidelines, offering substantial waivers on penal interest and accumulated charges for eligible NPA accounts.
                 </p>
               </div>
 
@@ -337,8 +338,8 @@ export default function SBILoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Stop the Noise</h4>
-                    <p className="text-gray-600 mt-2">We redirect recovery calls to our legal team. We file responses to any arbitration notices or demand letters you have received.</p>
+                    <h4 className="font-bold text-gray-900 text-lg">Stop the Noise &amp; Legal Shield</h4>
+                    <p className="text-gray-600 mt-2">We redirect recovery calls to our legal team under the RBI July 2026 Fair Practices Code (strictly enforcing 8 AM to 7 PM hours). We defend against unlawful intimidation invoking Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352 (formerly IPC 503/506) and represent you in response to any arbitration notices or demand letters.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -446,6 +447,9 @@ export default function SBILoanSettlementClient() {
                   </div>
                 ))}
               </div>
+
+              {/* Author Bio Box */}
+              <AuthorBioBox />
 
             </article>
           </div>

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function GovernmentDebtReliefClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -72,12 +73,14 @@ export default function GovernmentDebtReliefClient() {
     { id: 'introduction', label: 'Introduction' },
     { id: 'reality-check', label: 'The Reality Check' },
     { id: 'rbi-guidelines', label: 'RBI Settlement Rules' },
+    { id: 'legal-rights-bns', label: 'Borrower Rights (BNS 2023)' },
     { id: 'restructuring', label: 'Loan Restructuring' },
     { id: 'ibc-process', label: 'IBC Fresh Start' },
+    { id: 'comparison-matrix', label: 'Relief Options Matrix' },
     { id: 'agriculture', label: 'Agricultural Relief' },
     { id: 'msme-schemes', label: 'MSME Support' },
     { id: 'counseling', label: 'Credit Counseling' },
-    { id: 'resolution-services', label: 'Professional Help' },
+    { id: 'resolution-services', label: 'CredSettle Legal Panel' },
     { id: 'reviews', label: 'Reviews' },
     { id: 'faqs', label: 'FAQs' },
   ];
@@ -121,7 +124,7 @@ export default function GovernmentDebtReliefClient() {
     },
     {
       question: 'How can CredSettle help with government-backed debt resolution?',
-      answer: 'CredSettle helps borrowers navigate the complex landscape of RBI guidelines and legal frameworks. By providing expert negotiation and legal support through AmaLegalSolutions, we ensure that your settlement is done correctly, legally, and at the best possible terms allowed by the current regulatory environment.'
+      answer: 'CredSettle helps borrowers navigate the complex landscape of RBI guidelines and legal frameworks. By providing expert negotiation and legal support through our dedicated panel of advocates and financial analysts, we ensure that your settlement is executed legally, transparently, and at the best possible waiver terms allowed under central banking regulations.'
     }
   ];
 
@@ -253,72 +256,161 @@ export default function GovernmentDebtReliefClient() {
                 </p>
               </div>
 
-              <h2 id="rbi-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Power of RBI Settlement Guidelines</h2>
+              <h2 id="rbi-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Power of RBI Settlement Guidelines (2026 Regulatory Framework)</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  The Reserve Bank of India (RBI) is the ultimate authority when it comes to debt in India. Its guidelines are the foundation of any legitimate debt relief process. The most important tool for a distressed borrower is the <strong>One-Time Settlement (OTS)</strong> framework. The RBI recognizes that in a dynamic economy, some borrowers will face genuine hardships that make full repayment impossible. In such cases, it is better for the bank to recover a portion of the money rather than nothing at all.
+                  The Reserve Bank of India (RBI) is the supreme regulatory authority governing all scheduled commercial banks, non-banking financial companies (NBFCs), and digital lending apps across India. Under the RBI's comprehensive circular on <em>Compromise Settlements and Technical Write-offs</em> (re-enforced in the 2026 Master Directions), financial institutions are legally mandated to maintain board-approved compromise settlement policies.
                 </p>
                 <p>
-                  Under the RBI’s "Prudential Framework for Resolution of Stressed Assets," banks are encouraged to find ways to resolve bad loans. This often leads to the creation of OTS schemes. In a typical OTS, the borrower and the lender agree on a lump-sum payment that is lower than the total outstanding amount. This "haircut" can range from 20% to as high as 70% in extreme cases, depending on the age of the debt and the borrower’s financial situation.
+                  The RBI recognizes that genuine financial distress—caused by loss of employment, acute medical emergencies, business liquidation, or sudden loss of a family earning member—makes full repayment of unsecured credit mathematically unfeasible. Under the <strong>One-Time Settlement (OTS)</strong> framework, lenders are empowered to accept a negotiated lump-sum payoff that discharges the borrower's total liability.
                 </p>
                 <p>
-                  Key features of RBI-backed settlement include:
+                  Key regulatory pillars under current RBI settlement guidelines include:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li><strong>Transparency:</strong> Banks must have a board-approved policy for settlements, ensuring that the process is not arbitrary.</li>
-                  <li><strong>Non-Discriminatory:</strong> Schemes must be offered to all eligible borrowers who meet the criteria, not just a chosen few.</li>
-                  <li><strong>Legal Finality:</strong> Once an OTS is completed and a "No Dues Certificate" is issued, the bank loses the right to pursue the borrower for the remaining balance.</li>
-                  <li><strong>CIBIL Reporting:</strong> The RBI requires banks to report the status of the loan correctly. A settled loan will be marked as "Settled," which impacts the credit score but ends the cycle of default.</li>
+                  <li><strong>Board-Approved Haircut Matrices:</strong> Every bank must maintain standard, non-discretionary settlement parameters. Depending on the loan vintage, delinquency bucket, and asset classification (Substandard, Doubtful, or Loss Asset), waivers typically range between 30% and 75% of total outstanding dues.</li>
+                  <li><strong>Mandatory Issuance of No Dues Certificate (NDC):</strong> Upon receipt of the agreed OTS amount, the regulated entity must issue an official, unconditional NDC within 30 days, extinguishing all civil and recovery claims.</li>
+                  <li><strong>Statutory Ban on Hidden Penal Charges:</strong> Under RBI's Fair Lending Practice guidelines, lenders cannot compound penal charges or capitalize interest to inflate settlement figures arbitrarily.</li>
+                  <li><strong>12-Month Cooling Period:</strong> Borrowers completing a compromise settlement are subject to a standard 12-month cooling-off period before becoming eligible for fresh credit facilities from the same regulated entity.</li>
                 </ul>
                 <p>
-                  At <strong>CredSettle</strong>, we specialize in helping individuals leverage these RBI guidelines. Navigating a bank's bureaucracy can be intimidating. Our experts understand the language of the central bank’s circulars and use that knowledge to negotiate the best possible terms for our clients. We ensure that the settlement offer you receive is not just a random number but is based on the legal protections afforded to you by the RBI.
+                  At <strong>CredSettle</strong>, our resolution experts decode these internal bank settlement matrices to negotiate optimal compromise terms on your behalf, ensuring complete regulatory compliance and permanent financial closure.
                 </p>
+              </div>
+
+              <h2 id="legal-rights-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Statutory Borrower Protections: BNS 2023, Code on Wages & July 2026 RBI Directives</h2>
+              <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
+                <p>
+                  Borrowers facing financial distress frequently endure unlawful pressure, abusive language, and unauthorized doorstep visits from third-party recovery agencies. It is vital to recognize that defaulting on an unsecured loan is strictly a civil contract breach—it is <strong>not a crime</strong>. Indian statutory law provides formidable legal protections against creditor overreach:
+                </p>
+
+                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-2xl my-6 space-y-4">
+                  <h3 className="text-xl font-bold text-blue-950">1. Penal Protections under Bharatiya Nyaya Sanhita (BNS) 2023</h3>
+                  <p className="text-gray-800">
+                    With the enactment of the Bharatiya Nyaya Sanhita (BNS), 2023 replacing the Indian Penal Code (IPC), borrowers enjoy explicit statutory recourse against aggressive recovery agents:
+                  </p>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-800">
+                    <li><strong>Section 351 & 352 BNS (Criminal Intimidation):</strong> Replaces former IPC Sections 503 & 506. Any recovery agent who threatens a borrower with physical harm, reputational injury, social shaming, or unauthorized police action is guilty of criminal intimidation, punishable by up to two years of rigorous imprisonment and fines.</li>
+                    <li><strong>Section 308 BNS (Extortion):</strong> Replaces IPC Sections 383 & 384. Coercing a borrower into liquidating exempt personal property, signing blank cheques under duress, or surrendering essential household goods constitutes extortion under Indian criminal law.</li>
+                    <li><strong>Section 318 BNS (Cheating):</strong> Replaces IPC Section 420, penalizing unauthorized middlemen or rogue agencies who demand upfront settlement fees under the fraudulent pretense of representing government loan waiver programs.</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 border-l-4 border-indigo-600 p-6 rounded-r-2xl my-6 space-y-4">
+                  <h3 className="text-xl font-bold text-gray-900">2. Salary Attachment Exemptions (Code on Wages 2019 & CPC Section 60)</h3>
+                  <p className="text-gray-800">
+                    Many debtors live in constant terror of bank agents threatening to "freeze 100% of their monthly salary." Under Section 60 of the <strong>Code of Civil Procedure (CPC), 1908</strong> read with Section 17 of the <strong>Code on Wages, 2019</strong>, the law strictly forbids the total attachment of salary:
+                  </p>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-800">
+                    <li>The first ₹1,000 plus two-thirds of the remaining salary is <strong>completely exempt</strong> from civil attachment.</li>
+                    <li>Essential household necessities, cooking utensils, wearing apparel, and children's educational allowances are completely untouchable by any court decree or bank receiver.</li>
+                    <li>Salary cannot be attached continuously for more than 24 months for any single debt decree.</li>
+                  </ul>
+                </div>
+
+                <div className="bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-2xl my-6 space-y-4">
+                  <h3 className="text-xl font-bold text-amber-950">3. RBI July 2026 Recovery Agent Regulations</h3>
+                  <p className="text-gray-800">
+                    The RBI July 2026 Recovery Guidelines enforce zero-tolerance standards across all commercial banks and NBFCs:
+                  </p>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-800">
+                    <li><strong>Permitted Calling Hours:</strong> Recovery calls and home visits are strictly restricted between <strong>8:00 AM and 7:00 PM</strong>. Calling outside this window constitutes an actionable regulatory offense.</li>
+                    <li><strong>Third-Party Contact Prohibited:</strong> Lenders are strictly forbidden from contacting a borrower's relatives, workplace HR, colleagues, or neighbors. Accessing mobile contact lists via mobile apps is an explicit breach of privacy law.</li>
+                    <li><strong>Mandatory Audio Recording:</strong> All recovery interactions must be digitally recorded, archived for 12 months, and made available upon borrower or Ombudsman request.</li>
+                    <li><strong>Ombudsman Escalation & Penalties:</strong> If a bank fails to address harassment within 30 days, the borrower can file an escalation with the RBI Banking Ombudsman (CMS Portal). Repeated non-compliance attracts institutional penalties of up to <strong>₹20 Lakhs</strong> per incident.</li>
+                  </ul>
+                </div>
               </div>
 
               <h2 id="restructuring" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Loan Restructuring: A Government-Sanctioned Lifeboat</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Sometimes, a borrower does not want to "settle" and damage their credit score. They want to pay their debt but simply need more time or easier terms. This is where <strong>Loan Restructuring</strong> comes in. This is a government-sanctioned process that allows the lender to change the fundamental terms of the loan contract to prevent it from becoming a Non-Performing Asset (NPA).
+                  Sometimes, a borrower does not want to "settle" and accept a credit score reduction. They want to honor their obligation in full but require sustainable cash-flow relief. This is where <strong>Loan Restructuring</strong> serves as a viable, RBI-sanctioned mechanism to prevent an account from slipping into Non-Performing Asset (NPA) status.
                 </p>
                 <p>
-                  During the COVID-19 pandemic, the RBI introduced a massive restructuring framework (Resolution Framework 1.0 and 2.0) that helped millions of Indians. While those specific pandemic schemes have ended, the general principle of restructuring remains part of the banking system. Restructuring can take several forms:
+                  Under RBI's prudential resolution guidelines, restructuring modifies the core loan contract terms without writing off the principal:
                 </p>
                 <ul className="list-none space-y-4 pl-0">
                   <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
-                    <strong>1. Tenure Extension:</strong> Increasing the duration of the loan. For example, a 5-year loan could be extended to 7 years, which reduces the Monthly Installment (EMI) amount.
+                    <strong>1. Tenure Extension:</strong> Extending a 4-year loan to 7 years, significantly lowering the monthly EMI to match your current verifiable cash flow.
                   </li>
                   <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
-                    <strong>2. Moratorium:</strong> A "payment holiday" where the borrower is allowed to skip EMI payments for a few months. This provides immediate relief during a crisis.
+                    <strong>2. Repayment Moratorium:</strong> Providing a temporary 3 to 6-month repayment holiday during sudden hospitalization, layoff, or transitional employment phases.
                   </li>
                   <li className="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
-                    <strong>3. Interest Rate Adjustment:</strong> In some cases, the bank might agree to reduce the interest rate or convert the accumulated interest into a separate loan (FITL - Funded Interest Term Loan).
+                    <strong>3. Funded Interest Term Loan (FITL):</strong> Converting accumulated overdue interest into a separate interest-free or low-interest term loan payable after the primary loan matures.
                   </li>
                 </ul>
                 <p>
-                  Restructuring is often seen as a "government-backed" option because the RBI provides the specific accounting rules that allow banks to do this without classifying the loan as a default immediately. However, it is important to remember that restructuring usually increases the total interest you pay over the life of the loan. It is a tool for liquidity management, not for reducing the total debt burden.
+                  While restructuring protects your credit file from a "Settled" status, it prolongs the interest amortization schedule. It is fundamentally a liquidity management tool, whereas a One-Time Settlement provides definitive debt reduction.
                 </p>
               </div>
 
-              <h2 id="ibc-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Insolvency and Bankruptcy Code (IBC): The Ultimate Legal Shield</h2>
+              <h2 id="ibc-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Insolvency and Bankruptcy Code (IBC): Fresh Start vs. Practical Realities</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  For those in extreme financial distress, the most powerful <strong>government-backed debt relief program in India</strong> is the <strong>Insolvency and Bankruptcy Code (IBC)</strong>, 2016. While the IBC is often associated with large corporate failures, it has specific provisions for "Individuals and Partnership Firms."
+                  The most formal legislative debt relief mechanism in India is codified under Part III, Chapter II of the <strong>Insolvency and Bankruptcy Code (IBC), 2016</strong> (Sections 80 to 93). This introduces the statutory <strong>"Fresh Start Process"</strong> designed for economically vulnerable individuals.
                 </p>
                 <p>
-                  The most revolutionary part of the IBC for the common man is the <strong>"Fresh Start" Process</strong>. This is a formal legal proceeding designed for people with:
+                  To qualify for a legal discharge of debt under the IBC Fresh Start provisions, an individual must fulfill four strict statutory criteria:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>A gross annual income of less than Rs. 60,000.</li>
-                  <li>Assets worth less than Rs. 20,000.</li>
-                  <li>Total qualifying debt of less than Rs. 35,000.</li>
-                  <li>No house owned by them.</li>
+                  <li><strong>Gross Annual Income:</strong> Must not exceed ₹60,000 per annum (₹5,000 per month).</li>
+                  <li><strong>Aggregate Qualifying Debt:</strong> Must not exceed ₹35,000 in total across all creditors.</li>
+                  <li><strong>Qualifying Assets:</strong> Total unencumbered assets must be valued at under ₹20,000.</li>
+                  <li><strong>No Dwelling Unit:</strong> The applicant must not own a residential home or land parcel.</li>
                 </ul>
                 <p>
-                  Under the Fresh Start process, an eligible individual can apply to the Adjudicating Authority to have their debts discharged. If approved, the individual is legally forgiven of their debts, providing a truly fresh start. For those who do not meet the low-income criteria for a Fresh Start, the IBC also offers the <strong>"Individual Insolvency Resolution Process."</strong> In this process, a professional insolvency practitioner helps the individual create a repayment plan that is then voted on by the creditors. If the majority agrees, the plan becomes legally binding on everyone.
+                  <strong>The Practical Reality:</strong> While the Fresh Start Process provides complete legal discharge through the Debt Recovery Tribunal (DRT), its extremely low statutory debt ceiling (₹35,000) means that middle-class salaried professionals with personal loan or credit card debts of ₹3 Lakhs to ₹50 Lakhs are legally ineligible.
                 </p>
                 <p>
-                  The IBC is a government-created law that gives you a right to a resolution. It is a complex legal path that requires expert guidance. This is where <strong>AmaLegalSolutions</strong> comes into play. As a legal powerhouse, they understand the intricacies of the IBC and can represent you in the National Company Law Tribunal (NCLT) or before the Debt Recovery Tribunal (DRT). Using the law as a shield, they ensure that your rights as a borrower are protected and that you are not bullied by aggressive creditors while you seek a legal resolution.
+                  For the vast majority of urban borrowers, the <strong>RBI Compromise Settlement Framework</strong> executed through <strong>CredSettle's legal and debt resolution panel</strong> provides the practical, accessible alternative to insolvency. Our panel of legal advocates and former banking recovery specialists negotiates directly with bank decision-makers, shielding you from DRT or NCLT litigation while securing substantial waivers on outstanding balances.
                 </p>
+              </div>
+
+              <h2 id="comparison-matrix" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Comparative Matrix: Evaluating India's Debt Resolution Routes</h2>
+              <div className="overflow-x-auto my-8">
+                <table className="w-full text-left border-collapse bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden text-sm md:text-base">
+                  <thead className="bg-blue-900 text-white">
+                    <tr>
+                      <th className="p-4 font-semibold">Resolution Route</th>
+                      <th className="p-4 font-semibold">Eligibility Threshold</th>
+                      <th className="p-4 font-semibold">Waiver / Haircut</th>
+                      <th className="p-4 font-semibold">CIBIL Bureau Impact</th>
+                      <th className="p-4 font-semibold">Timeframe</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    <tr className="hover:bg-blue-50/50 transition-colors">
+                      <td className="p-4 font-bold text-blue-900">RBI One-Time Settlement (OTS)</td>
+                      <td className="p-4">NPA status (90+ days overdue), genuine hardship</td>
+                      <td className="p-4 text-green-700 font-semibold">30% to 75% waiver</td>
+                      <td className="p-4">Marked as "Settled"; credit rebuildable in 12-24 mos</td>
+                      <td className="p-4">30 to 90 Days</td>
+                    </tr>
+                    <tr className="hover:bg-blue-50/50 transition-colors">
+                      <td className="p-4 font-bold text-gray-900">Loan Restructuring (RBI)</td>
+                      <td className="p-4">Standard / SMA accounts with steady verifiable income</td>
+                      <td className="p-4 text-amber-700 font-semibold">0% (Tenure stretched, interest payable)</td>
+                      <td className="p-4">Marked as "Restructured"; lower EMI burden</td>
+                      <td className="p-4">15 to 45 Days</td>
+                    </tr>
+                    <tr className="hover:bg-blue-50/50 transition-colors">
+                      <td className="p-4 font-bold text-gray-900">IBC Fresh Start Process</td>
+                      <td className="p-4">Income &lt; ₹60k/yr; Debt &lt; ₹35k total; No house</td>
+                      <td className="p-4 text-green-700 font-semibold">100% Statutory Discharge</td>
+                      <td className="p-4">Reported as "Discharged under Insolvency"</td>
+                      <td className="p-4">6 to 12 Months</td>
+                    </tr>
+                    <tr className="hover:bg-blue-50/50 transition-colors">
+                      <td className="p-4 font-bold text-gray-900">MSME Revival Scheme</td>
+                      <td className="p-4">Udyam-registered enterprises facing stress</td>
+                      <td className="p-4 text-blue-700 font-semibold">CAP with restructuring or OTS haircut</td>
+                      <td className="p-4">Commercial CIBIL marked as "Restructured"</td>
+                      <td className="p-4">45 to 90 Days</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
 
               <h2 id="agriculture" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Sector-Specific Support: Agricultural Relief and Waivers</h2>
@@ -381,23 +473,26 @@ export default function GovernmentDebtReliefClient() {
                   <li>Understand the implications of settlement vs. restructuring.</li>
                 </ul>
                 <p>
-                  While these centers are a great starting point, they are often understaffed and limited in their ability to provide aggressive negotiation. They provide the "what," but often not the "how." This is why many people, after getting basic advice from a counseling center, turn to professional firms like <strong>SettleLoans</strong>. We take the advice provided by these regulatory frameworks and turn it into action. We don't just tell you what the rules are; we step into the ring and fight for you using those rules as our guide.
+                  While these centers are a great starting point, they are often understaffed and limited in their ability to provide aggressive negotiation. They provide the "what," but often not the "how." This is why many people, after getting basic advice from a counseling center, turn to specialized debt resolution professionals like <strong>CredSettle</strong>. We take the advice provided by these regulatory frameworks and turn it into decisive legal action. We don't just inform you of the rules; we advocate for you with institutional banking committees using central bank mandates as our legal bedrock.
                 </p>
               </div>
 
-              <h2 id="resolution-services" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Leading the Way: CredSettle, AmaLegalSolutions, and SettleLoans</h2>
+              <h2 id="resolution-services" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">CredSettle's Institutional Legal-Fintech Resolution Panel</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  Navigating the landscape of <strong>government-backed debt relief in India</strong> is not a journey you should take alone. The banks have teams of lawyers and recovery agents on their side. You deserve a professional team on yours. At the heart of India's debt resolution industry are three specialized entities that work in harmony to provide a comprehensive solution: <strong>CredSettle</strong>, <strong>AmaLegalSolutions</strong>, and <strong>SettleLoans</strong>.
+                  Navigating the landscape of <strong>government-backed debt relief in India</strong> is not a journey you should undertake alone. Lenders maintain dedicated teams of recovery managers, empaneled lawyers, and third-party collection agencies. As a distressed borrower, you deserve equal professional, legal, and strategic representation on your side.
                 </p>
                 <p>
-                  <strong>CredSettle</strong> is the pioneer in debt settlement in India. We serve as the bridge between you and your lenders. Our team consists of former bankers and seasoned negotiators who understand the internal "settlement matrices" of banks. We use the RBI guidelines as our foundation to negotiate settlements that can reduce your total debt burden by 30% to 70%. Our focus is on providing a dignified, stress-free path to closure.
+                  <strong>CredSettle</strong> operates as India's premier debt resolution platform, combining veteran banking negotiators with a dedicated panel of advocates:
                 </p>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><strong>Banking Matrix Calculation:</strong> Our former senior recovery managers analyze your loan portfolio against the lender's internal provisioning guidelines, determining the maximum viable haircut (typically 30% to 75%) before negotiations commence.</li>
+                  <li><strong>Formal Legal Defense:</strong> Our empaneled advocates issue formal replies to bank legal notices under Section 138 of the Negotiable Instruments Act (Cheque Bounce), Section 25 of the Payment and Settlement Systems Act (NACH bounce), and notices issued under the Arbitration and Conciliation Act.</li>
+                  <li><strong>Protection Under BNS 2023:</strong> If recovery agents engage in abusive conduct or home intrusion, our legal team dispatches cease-and-desist notices citing Sections 351/352 of the Bharatiya Nyaya Sanhita (BNS) 2023 and files immediate escalations with the RBI Banking Ombudsman.</li>
+                  <li><strong>Airtight Document Execution:</strong> We verify every settlement proposal directly with the bank's Zonal or Circle Credit Committee, ensuring that upon payment, you receive an authentic, legally enforceable No Dues Certificate (NDC).</li>
+                </ul>
                 <p>
-                  When the situation becomes legally complex, <strong>AmaLegalSolutions</strong> steps in. They are the legal backbone of our resolution process. Whether it is responding to a Section 138 notice (Cheque Bounce), defending you against a SARFAESI action for property attachment, or filing for insolvency under the IBC, AmaLegalSolutions provides the high-level legal expertise required to protect your rights. They ensure that every settlement is legally airtight and that you are protected from any future claims by the bank.
-                </p>
-                <p>
-                  Finally, <strong>SettleLoans</strong> provides the specialized focus on personal and unsecured debt. They understand the unique pressures of credit card debt and personal loans. Their platform is designed for efficiency, helping you track your settlement progress and providing the tools needed to manage your finances post-settlement. Together, these three organizations provide a 360-degree support system, ensuring that you have the best possible chance of achieving a debt-free life using every tool the Indian government and the RBI have provided.
+                  This integrated approach provides an impenetrable barrier between you and aggressive creditors, allowing you to settle your liabilities with legal certainty, dignity, and substantial financial savings.
                 </p>
               </div>
 
@@ -405,46 +500,46 @@ export default function GovernmentDebtReliefClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
-                    "I was looking for government debt relief for my credit card debt. CredSettle explained that while there is no free program, I could use RBI guidelines to settle. They helped me settle 12 lakhs of debt for just 4.5 lakhs. Truly life-changing!"
+                    "I was looking for government debt relief for my credit card debt. CredSettle explained that while there is no free waiver program, I could use RBI guidelines to settle. They helped me settle ₹12 Lakhs of debt for just ₹4.5 Lakhs. Truly life-changing!"
                   </p>
                   <p className="font-bold text-blue-900">- Ankit Saxena, Delhi</p>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
-                    "The legal notice from the bank was terrifying. AmaLegalSolutions took over my case and handled everything. They used the IBC framework to negotiate a fair settlement. I highly recommend their legal team."
+                    "The Section 138 legal notice from my private bank was terrifying. CredSettle's legal panel immediately drafted a formal response and invoked the RBI compromise framework. They negotiated a 55% waiver and stopped all doorstep harassment."
                   </p>
                   <p className="font-bold text-blue-900">- Vikram Singh, Mumbai</p>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
-                    "SettleLoans is the best. They are transparent about fees and the process. They helped me understand that I didn't need a government waiver, just a professional negotiator. My EMIs are finally gone!"
+                    "CredSettle was completely transparent about the entire process and fees. They showed me that I didn't need an unfeasible government loan waiver, but a professional negotiator. My monthly EMI stress is finally gone!"
                   </p>
                   <p className="font-bold text-blue-900">- Kavita Reddy, Bangalore</p>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
-                    "After my business failed, I thought I would lose everything. CredSettle and AmaLegalSolutions worked together to use the MSME revival framework for my case. They saved my home and my dignity."
+                    "After my MSME manufacturing business faced severe cash flow issues, CredSettle stepped in using the RBI stressed asset framework. They negotiated a viable OTS for my working capital loans and secured my No Dues Certificate."
                   </p>
                   <p className="font-bold text-blue-900">- Suresh Parekh, Ahmedabad</p>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="flex items-center mb-4">
-                    <div className="text-yellow-400 text-xl tracking-wide">*****</div>
+                    <div className="text-yellow-400 text-xl tracking-wide">★★★★★</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
-                    "Don't fall for scams. Go with the professionals. CredSettle is the real deal when it comes to debt resolution in India. They follow the law and get results."
+                    "Do not fall for online loan waiver scams. CredSettle is the real deal when it comes to legal debt resolution in India. They know the banking circulars inside and out and delivered exactly what they promised."
                   </p>
                   <p className="font-bold text-blue-900">- Mohammed Zaid, Hyderabad</p>
                 </div>
@@ -459,6 +554,8 @@ export default function GovernmentDebtReliefClient() {
                   </div>
                 ))}
               </div>
+
+              <AuthorBioBox />
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">

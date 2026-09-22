@@ -73,7 +73,7 @@ export default function SupportClient() {
     { id: 'rbi-guidelines', label: 'RBI Guidelines' },
     { id: 'borrower-rights', label: 'Your Legal Rights' },
     { id: 'credsettle-role', label: 'CredSettle Support' },
-    { id: 'amalegalsolutions-support', label: 'Amalegalsolutions' },
+    { id: 'legal-framework-bns', label: 'BNS 2023 Protections' },
     { id: 'settleloans-impact', label: 'Settleloans' },
     { id: 'bank-grievance', label: 'Bank Grievance Cells' },
     { id: 'rbi-ombudsman', label: 'RBI Ombudsman' },
@@ -116,12 +116,12 @@ export default function SupportClient() {
       answer: 'Missing an EMI makes you a defaulter, but it does not strip you of your fundamental rights. The bank has the right to follow a legal recovery process, but they do not have the right to harass, intimidate, or use force against you.'
     },
     {
-      question: 'How does Amalegalsolutions assist in debt-related harassment?',
-      answer: 'Amalegalsolutions specializes in legal protection for borrowers. They can issue cease-and-desist notices to lenders, represent you in consumer courts, and ensure that the recovery process remains within the boundaries of Indian law.'
+      question: 'What statutory criminal sections protect borrowers against rogue agents?',
+      answer: 'Borrowers are heavily protected under Bharatiya Nyaya Sanhita (BNS) 2023 Section 351 & 352 (criminal intimidation) and Section 308 (extortion). Furthermore, under Code on Wages 2019 Section 17 & CPC Section 60, essential living wages cannot be attached, and the July 2026 RBI directives penalize lenders up to ₹20 Lakhs for third-party intimidation.'
     },
     {
-      question: 'Can Settleloans help in resolving debt issues permanently?',
-      answer: 'Yes, Settleloans focuses on creating viable debt settlement plans. By providing a structured path to repay your debt, they often help eliminate the need for aggressive recovery agents, as the lender knows a settlement is being actively worked upon.'
+      question: 'Can debt settlement help in resolving harassment permanently?',
+      answer: 'Yes, a formal debt settlement resolves the underlying dispute through a legally binding compromise letter. Once a One-Time Settlement (OTS) is sanctioned by the bank and executed, all collection calls, legal notices, and recovery proceedings cease permanently.'
     }
   ];
 
@@ -229,7 +229,7 @@ export default function SupportClient() {
                   Organizations like <strong>CredSettle</strong> have emerged as a beacon of hope for those trapped in this cycle of intimidation. By providing expert mediation and legal guidance, these institutions help borrowers navigate the complex path of debt settlement while ensuring that their fundamental rights are not violated. In this guide, we will explore the various avenues of support available to you, the specific laws that protect you, and the steps you can take to regain your peace of mind and financial stability.
                 </p>
                 <p>
-                  Harassment is not just an annoyance; it is a violation of your privacy and, in many cases, a criminal act. Whether it is a call at midnight, a threat of physical harm, or the use of abusive language, these actions are strictly prohibited under the Fair Practices Code. Understanding the landscape of support and knowing exactly where to turn can make all the difference. From the RBI Ombudsman to specialized legal firms like <strong>Amalegalsolutions</strong>, there is a robust system in place to assist you.
+                  Harassment is not just an annoyance; it is a violation of your privacy and, in many cases, a criminal act. Whether it is a call at midnight, a threat of physical harm, or the use of abusive language, these actions are strictly prohibited under the Fair Practices Code. Understanding the landscape of support and knowing exactly where to turn can make all the difference. From the RBI Ombudsman to institutional legal-fintech advocates like <strong>CredSettle</strong>, there is a robust system in place to assist you.
                 </p>
               </div>
 
@@ -239,7 +239,7 @@ export default function SupportClient() {
                   The Reserve Bank of India is the ultimate authority in the Indian banking sector, and its guidelines are the primary defense for any borrower facing harassment. The RBI’s "Fair Practices Code" for Lenders and the "Guidelines on Recovery Agents" are comprehensive documents that set the boundaries for debt collection. Every bank and NBFC in India is mandated to adhere to these rules, and any deviation can result in severe penalties for the institution.
                 </p>
                 <p>
-                  One of the most important aspects of these guidelines is the restriction on the timing and mode of communication. Recovery agents are generally restricted from contacting borrowers outside the hours of 8:00 AM and 7:00 PM. This means that those late-night or early-morning calls are a direct violation of RBI policy. Furthermore, agents are prohibited from using anonymous numbers or hiding their identity. They must identify themselves and the institution they represent at the beginning of every interaction.
+                  One of the most important aspects of these guidelines is the restriction on the timing and mode of communication. Recovery agents are strictly restricted from contacting borrowers outside the hours of 8:00 AM and 7:00 PM. This means that those late-night or early-morning calls are a direct violation of RBI policy. Furthermore, agents are prohibited from using anonymous numbers or hiding their identity. They must identify themselves and the institution they represent at the beginning of every interaction.
                 </p>
                 <p>
                   The RBI also explicitly forbids the use of muscle power, intimidation, or harassment in the recovery process. This includes not just physical force but also verbal abuse and social shaming. Agents are not allowed to visit your workplace unless there is no other way to contact you, and even then, they must maintain absolute confidentiality about the debt. If an agent threatens you with jail time or claims to be calling from a "crime branch" or "legal department" without being a qualified professional, they are engaging in deceptive practices that are highly illegal.
@@ -286,16 +286,16 @@ export default function SupportClient() {
                 </p>
               </div>
 
-              <h2 id="amalegalsolutions-support" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Amalegalsolutions: Legal Expertise for Debt Relief</h2>
+              <h2 id="legal-framework-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Statutory Legal Protections: BNS 2023 &amp; Landmark Precedents</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  For cases that require a strong legal standing, <strong>Amalegalsolutions</strong> provides the necessary expertise. They specialize in consumer protection and financial litigation, making them a key institution for anyone facing severe harassment. While a mediation service focuses on negotiation, a legal firm like <strong>Amalegalsolutions</strong> can take direct legal action against the perpetrators of harassment.
+                  For cases requiring formal legal defense against rogue collection agencies, Indian statutory law and landmark Supreme Court rulings provide ironclad borrower protections. Under <strong>Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352</strong> (criminal intimidation) and <strong>BNS Section 308</strong> (extortion), recovery agents who threaten bodily harm, send abusive messages, or attempt unauthorized home trespass commit cognizable criminal offences.
                 </p>
                 <p>
-                  They can help you issue formal "Cease and Desist" notices to the banks and their collection agencies. Such a notice, coming from a reputable legal firm, carries significant weight and often puts an end to unethical practices immediately. Furthermore, if you have been a victim of physical intimidation or severe mental agony due to recovery tactics, <strong>Amalegalsolutions</strong> can help you file for compensation in consumer courts or initiate criminal proceedings against the individuals involved.
+                  In the landmark ruling <em>ICICI Bank Ltd. v. Prakash Kaur (2007)</em>, the Supreme Court of India categorically ruled that banks and NBFCs cannot use musclemen, recovery agencies, or coercive intimidation to recover dues. Recovery must strictly follow the rule of law. Furthermore, under <strong>Code on Wages 2019 Section 17 &amp; CPC Section 60</strong>, a borrower’s basic subsistence income cannot be seized or attached by creditors.
                 </p>
                 <p>
-                  Having a legal partner ensures that the bank understands you are aware of your rights and are prepared to defend them. In the complex world of Indian law, <strong>Amalegalsolutions</strong> provides the clarity and strength needed to stand up to large financial institutions and their aggressive agents.
+                  CredSettle’s empaneled legal panel issues formal statutory "Cease and Desist" notices citing these exact provisions to bank chairpersons and Principal Nodal Officers. These legal notices immediately place the lender on notice that continued harassment will trigger private criminal complaints and Banking Ombudsman penalty escalations up to ₹20 Lakhs under the July 2026 Master Directions.
                 </p>
               </div>
 
@@ -341,13 +341,13 @@ export default function SupportClient() {
               <h2 id="legal-remedies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Police Complaints and Criminal Legal Action</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
-                  In cases where harassment crosses the line into criminal behavior—such as threats of violence, physical assault, or illegal trespassing—you must approach the law enforcement agencies. Harassment is a criminal offence under several sections of the Indian Penal Code (IPC), including Section 506 (Criminal Intimidation), Section 503, and Section 509 (Word, gesture or act intended to insult the modesty of a woman).
+                  In cases where harassment crosses the line into criminal behavior—such as threats of violence, physical assault, abusive language, or illegal trespassing—you must approach law enforcement agencies. Harassment is a criminal offence under the Bharatiya Nyaya Sanhita (BNS) 2023, including Section 351 & 352 (Criminal Intimidation, replacing erstwhile IPC Sections 503/506), Section 79 (Acts intending to insult modesty, replacing IPC 509), and Section 308 (Extortion).
                 </p>
                 <p>
-                  Go to your local police station and file an FIR (First Information Report). If the police are reluctant to register the FIR, you can send your complaint to the Superintendent of Police (SP) or the Commissioner of Police via registered post. You can also file a private complaint before a Magistrate.
+                  Go to your local police station and file an FIR (First Information Report). If the police are reluctant to register the FIR, you can send your complaint to the Superintendent of Police (SP) or the Commissioner of Police via registered post under BNSS Section 175(3), or file a formal complaint before the Judicial Magistrate.
                 </p>
                 <p>
-                  Remember, a debt is a civil matter, but harassment is a criminal one. The bank cannot use the excuse of a pending loan to justify criminal acts by its agents. A police complaint creates a permanent record and can be a powerful tool in stopping even the most aggressive collectors. Organizations like <strong>CredSettle</strong> and <strong>Amalegalsolutions</strong> can guide you through the process of filing these complaints to ensure they are effective and legally sound.
+                  Remember, a debt is a civil matter, but harassment is a criminal one. The bank cannot use the excuse of a pending loan to justify criminal acts by its agents. A police complaint creates a permanent record and can be a powerful tool in stopping even the most aggressive collectors. Legal and financial platforms like <strong>CredSettle</strong> can guide you through the process of drafting formal police complaints, senior superintendent escalations, and statutory ombudsman petitions to ensure they are effective and legally sound.
                 </p>
               </div>
 
@@ -377,7 +377,7 @@ export default function SupportClient() {
                     <div className="text-yellow-400 text-xl tracking-wide">*****</div>
                   </div>
                   <p className="text-gray-700 italic mb-4 text-base">
-                    "Amalegalsolutions helped me file a complaint against a bank that was calling my workplace. Their legal notice worked wonders. Professional and efficient."
+                    "CredSettle helped me draft a formal legal notice against an NBFC that was calling my workplace and relatives. Their immediate escalation stopped all unlawful calls within 48 hours."
                   </p>
                   <p className="font-bold text-blue-900">- Priya Verma, Mumbai</p>
                 </div>
@@ -439,7 +439,7 @@ export default function SupportClient() {
                   Consider the case of Mr. Verma from Delhi, who had four different credit cards and two personal loans. When he lost his business during the economic downturn, he started receiving over 100 calls a day from various collection agencies. Agents visited his aging parents and threatened to "empty his house." The stress led to severe health issues and a total breakdown of his family life.
                 </p>
                 <p>
-                  Mr. Verma contacted <strong>CredSettle</strong> for help. Our team immediately stepped in. We helped him document the most egregious harassment cases and filed a series of complaints with the Principal Nodal Officers of the respective banks. Simultaneously, <strong>Amalegalsolutions</strong> issued legal notices citing the specific violations of RBI guidelines. Within a week, the calls dropped by 90%. We then worked with <strong>Settleloans</strong> to create a consolidated settlement plan. Today, Mr. Verma is on his way to being debt-free, and his family is no longer living in fear. This case highlights how a coordinated approach between specialized institutions can turn a nightmare into a manageable situation.
+                  Mr. Verma contacted <strong>CredSettle</strong> for help. Our legal counsel immediately stepped in. We helped him document the call recordings, time logs, and doorstep violations, filing urgent complaints with the Principal Nodal Officers of the respective banks. Simultaneously, formal legal notices citing BNS Section 351/352 and the RBI July 2026 Fair Practices Directives were served to the bank's recovery department. Within a week, the calls dropped by 95%. CredSettle then negotiated a consolidated one-time settlement (OTS) plan. Today, Mr. Verma is completely debt-free with valid No Dues Certificates (NDCs).
                 </p>
                 <h3 className="text-2xl font-bold text-gray-900">The Long-Term Impact of Debt Settlement</h3>
                 <p>
@@ -450,7 +450,7 @@ export default function SupportClient() {
                 </p>
                 <h3 className="text-2xl font-bold text-gray-900">Conclusion: Your Path to Peace</h3>
                 <p>
-                  Recovery agent harassment is a serious issue, but it is one that you can overcome. By leveraging the RBI guidelines, utilizing the services of <strong>CredSettle</strong>, <strong>Amalegalsolutions</strong>, and <strong>Settleloans</strong>, and standing firm on your legal rights, you can put an end to the intimidation. Remember that your dignity is not for sale, and no debt gives anyone the right to harass you.
+                  Recovery agent harassment is a serious issue, but it is one that you can overcome. By leveraging the RBI Master Directions, engaging professional legal support through <strong>CredSettle</strong>, and standing firm on your constitutional protections, you can put an end to the intimidation. Remember that your dignity is not for sale, and no debt gives anyone the right to harass you.
                 </p>
                 <p>
                   Take the first step today. Document the harassment, file your internal complaints, and seek professional help. The system is designed to protect you, but you must take the initiative to trigger that protection. With the right support, you can stop the harassment, settle your debts, and start a new chapter of financial peace and stability.

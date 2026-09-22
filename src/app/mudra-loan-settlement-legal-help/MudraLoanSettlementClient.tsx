@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import AuthorBioBox from '@/components/AuthorBioBox';
 import {
     ChevronRight,
     TableOfContents,
@@ -67,11 +68,11 @@ export default function MudraLoanSettlementClient() {
 
     const navLinks = [
         { id: 'overview', label: 'Section 1: Mudra Overview' },
-        { id: 'pmmy-guidelines', label: 'Section 2: PMMY 2025 Guidelines' },
+        { id: 'pmmy-guidelines', label: 'Section 2: PMMY 2026 Guidelines' },
         { id: 'shishu-kishor-tarun', label: 'Section 3: Category Insights' },
         { id: 'rbi-settlement-norms', label: 'Section 4: RBI Settlement Norms' },
         { id: 'recovery-harassment', label: 'Section 5: Recovery Harassment' },
-        { id: 'ots-strategy', label: 'Section 6: The 2025 OTS Strategy' },
+        { id: 'ots-strategy', label: 'Section 6: The 2026 OTS Strategy' },
         { id: 'cibil-repair', label: 'Section 7: CIBIL Score Recovery' },
         { id: 'pmmy-schemes-2026', label: 'Section 8: Mudra 2.0 & Tarun Plus' },
         { id: 'legal-defenses-2026', label: 'Section 9: MSME Act Defenses' },
@@ -83,7 +84,7 @@ export default function MudraLoanSettlementClient() {
 
     const faqData = [
         {
-            question: "Can Mudra loans be settled legally in 2025?",
+            question: "Can Mudra loans be settled legally in 2026?",
             answer: "Yes, Mudra loans (including Shishu, Kishor, and Tarun categories) can be settled legally through the One-Time Settlement (OTS) mechanism. Since these are collateral-free loans up to ₹10-20 Lakhs, banks are often open to settlements when the borrower faces genuine financial hardship and the account turns into an NPA (Non-Performing Asset)."
         },
         {
@@ -91,8 +92,8 @@ export default function MudraLoanSettlementClient() {
             answer: "No. Mudra loans are inherently collateral-free under the PMMY scheme. The absence of collateral actually gives the borrower a stronger negotiation position, as the bank cannot easily seize physical assets like property or gold without a lengthy court process. Settlement is often the bank’s preferred way to recover at least the principal amount."
         },
         {
-            question: "What is the new 'Tarun Plus' category in 2025?",
-            answer: "Announced in the 2024-25 Union Budget, the Tarun Plus category increases the Mudra loan limit from ₹10 Lakhs to ₹20 Lakhs for entrepreneurs who have successfully repaid their previous Tarun loans. Settling a Tarun Plus loan requires careful legal documentation to ensure the 'Write-off' doesn’t permanently bar you from future MSME schemes."
+            question: "What is the new 'Tarun Plus' category under Mudra 2.0?",
+            answer: "Under the expanded Mudra 2.0 framework, the Tarun Plus category increases the Mudra loan limit from ₹10 Lakhs to ₹20 Lakhs for entrepreneurs who have successfully repaid previous facilities. Settling a Tarun Plus loan requires careful legal documentation to ensure the 'Write-off' doesn’t permanently bar you from future MSME credit guarantee programs."
         },
         {
             question: "How much 'haircut' can I expect in a Mudra loan settlement?",
@@ -104,7 +105,7 @@ export default function MudraLoanSettlementClient() {
         },
         {
             question: "Does the RBI Ombudsman help with Mudra loan harassment?",
-            answer: "Absolutely. If recovery agents use illegal tactics like calls after 7 PM, entering your home without notice, or using threats, you can file a complaint with the RBI Integrated Ombudsman. Banks face significant penalties for 'Service Deficiencies' in Mudra loan recovery."
+            answer: "Absolutely. Under the July 2026 RBI Recovery Guidelines, if recovery agents use illegal tactics like calls outside 8 AM to 7 PM, entering your home without notice, or intimidating family members, you can file an immediate complaint with the RBI Integrated Ombudsman. Banks face significant institutional penalties of up to ₹20 Lakhs."
         },
         {
             question: "Will settling a Mudra loan affect my CIBIL score?",
@@ -120,7 +121,7 @@ export default function MudraLoanSettlementClient() {
         },
         {
             question: "Are there any hidden charges in Mudra loan settlement?",
-            answer: "Banks often try to include 'Legal Fees' and 'Penal Interest' in the settlement amount. A lawyer ensures that the settlement is based on the 'Ledger Balance' and that all future interests are waived as per the RBI’s 2025 Fair Lending Practices."
+            answer: "Banks often try to include 'Legal Fees' and 'Penal Interest' in the settlement amount. A lawyer ensures that the settlement is based on the 'Ledger Balance' and that all future interests are waived as per the RBI’s 2026 Fair Lending Practices."
         }
     ];
 
@@ -179,34 +180,14 @@ export default function MudraLoanSettlementClient() {
             name: 'Suresh Iyer',
             location: 'Chennai',
             stars: 5,
-            comment: "The recovery agents stopped calling the day I hired CredSettle. Their understanding of RBI 2025 guidelines is top-notch. I got my No Dues Certificate in 45 days."
+            comment: "The recovery agents stopped calling the day I hired CredSettle. Their understanding of RBI 2026 guidelines is top-notch. I got my No Dues Certificate in 45 days."
         }
     ];
-
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Mudra Loan Settlement Legal Help',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3215',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        "description": "Professional legal defense and one-time settlement advocacy for Mudra (PMMY) loans in India.",
-        "sku": "CRED-MUDRA-001",
-        "brand": {
-            "@type": "Brand",
-            "name": "CredSettle"
-        }
-    };
 
     return (
         <div className="bg-white min-h-screen">
             <Script id="breadcrumb-schema-mudra" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             <Script id="faq-schema-mudra" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-mudra" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section
@@ -222,10 +203,10 @@ export default function MudraLoanSettlementClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Mudra Loan Settlement <br />
-                        <span className="text-blue-300">Legal Help & Defense 2025</span>
+                        <span className="text-blue-300">Legal Help & Defense 2026</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Expert legal help for Mudra loan settlement in India. Understand RBI 2025 guidelines for PMMY Tarun Plus settlement and stop recovery harassment.
+                        Expert legal help for Mudra loan settlement in India. Understand RBI 2026 guidelines for PMMY Tarun Plus settlement and stop recovery harassment.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
@@ -345,9 +326,9 @@ export default function MudraLoanSettlementClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="overview" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 1: Mudra Loan Settlement in the 2025 Legal Landscape</h2>
+                            <h2 id="overview" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 1: Mudra Loan Settlement in the 2026 Legal Landscape</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Pradhan Mantri Mudra Yojana (PMMY) has been a cornerstone of India’s micro-entrepreneurship growth since 2015. However, as we move into 2025, a significant portion of Mudra borrowers find themselves in financial distress. According to recent reports, Non-Performing Assets (NPAs) in the Mudra category have reached nearly 9.8%, prompting the Reserve Bank of India (RBI) and the Government to streamline the **Mudra Loan Settlement** process.
+                                The Pradhan Mantri Mudra Yojana (PMMY) has been a cornerstone of India’s micro-entrepreneurship growth since 2015. However, as we move through 2026, a significant portion of Mudra borrowers find themselves in financial distress. According to recent reports, Non-Performing Assets (NPAs) in the Mudra category have reached nearly 9.8%, prompting the Reserve Bank of India (RBI) and the Government to streamline the **Mudra Loan Settlement** process.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6 italic font-medium">
                                 "Collateral-free does not mean consequence-free. While the bank cannot seize your house for a Shishu loan, legal defaults still lead to civil litigation, frozen bank accounts, and a destroyed CIBIL history."
@@ -356,14 +337,14 @@ export default function MudraLoanSettlementClient() {
                                 At CredSettle, we specialize in helping small business owners navigate the complexities of PMMY debt resolution. Whether you have a Shishu, Kishor, or the new Tarun Plus loan, understanding your legal rights is the first step toward debt freedom.
                             </p>
 
-                            <h2 id="pmmy-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 2: PMMY 2025-26 Guidelines: What Borrowers Must Know</h2>
+                            <h2 id="pmmy-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 2: PMMY 2026 Guidelines: What Borrowers Must Know</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The Union Budget 2024-25 introduced landmark changes to the Mudra scheme, including the 'Tarun Plus' category which doubles the loan limit to ₹20 Lakhs. With increased limits comes increased scrutiny.
+                                The expanded Mudra 2.0 framework introduced landmark changes to the scheme, including the 'Tarun Plus' category which doubles the loan limit to ₹20 Lakhs. With increased limits comes increased scrutiny.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 not-prose">
                                 <div className="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
                                     <h4 className="font-bold text-blue-900 mb-2">Extended Moratorium</h4>
-                                    <p className="text-sm text-gray-600">RBI has encouraged banks to offer extended moratorium periods for Mudra borrowers who have suffered due to regional economic shifts in 2025.</p>
+                                    <p className="text-sm text-gray-600">RBI has encouraged banks to offer extended moratorium periods for Mudra borrowers who have suffered due to regional economic shifts in 2026.</p>
                                 </div>
                                 <div className="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
                                     <h4 className="font-bold text-blue-900 mb-2">Digital Settlement Portals</h4>
@@ -371,7 +352,7 @@ export default function MudraLoanSettlementClient() {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                The 2025 guidelines emphasize that Mudra loans are covered by the **Credit Guarantee Fund for Micro Units (CGFMU)**. This means the bank is partially insured by the Government for your default. Our lawyers use this fact to negotiate better settlements, as the bank can recover a portion of their loss from the government while you pay the remaining negotiated principal.
+                                The 2026 guidelines emphasize that Mudra loans are covered by the **Credit Guarantee Fund for Micro Units (CGFMU)**. This means the bank is partially insured by the Government for your default. Our lawyers use this fact to negotiate better settlements, as the bank can recover a portion of their loss from the government while you pay the remaining negotiated principal.
                             </p>
 
                             <h2 id="shishu-kishor-tarun" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 3: Category Specific Insights: From Shishu to Tarun Plus</h2>
@@ -387,15 +368,15 @@ export default function MudraLoanSettlementClient() {
                             <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">3. Tarun & Tarun Plus (₹5 Lakh to ₹20 Lakh)</h4>
                             <p className="text-gray-700 mb-10">These are technical business loans. The bank will likely review your GST filings and bank statements for the last 3 years before agreeing to a settlement. If you are a Tarun Plus borrower, the presence of a lawyer is mandatory to counter the bank’s aggressive legal department.</p>
 
-                            <h2 id="rbi-settlement-norms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 4: RBI Settlement Norms for MSMEs in 2025</h2>
+                            <h2 id="rbi-settlement-norms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 4: RBI Settlement Norms for MSMEs in 2026</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI’s 2025 **Fair Lending Conduct** norms prohibit banks from charging penal interest on top of penal interest. For Mudra loans specifically, the "Technical Write-off" policy has been redefined.
+                                The RBI’s 2026 **Fair Lending Conduct** norms prohibit banks from charging penal interest on top of penal interest. For Mudra loans specifically, the "Technical Write-off" policy has been redefined.
                             </p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-10 not-prose">
                                 <h4 className="text-lg font-bold mb-4 text-blue-900">The "Sacrifice" Matrix:</h4>
                                 <ul className="list-disc pl-6 space-y-3 font-light text-gray-700 italic">
                                     <li><strong>Principal Waiver:</strong> Allowed if the business is non-operational for 12+ months.</li>
-                                    <li><strong>Interest Waiver:</strong> 100% waiver of penal interest is a borrower’s right under the 2025 MSME framework.</li>
+                                    <li><strong>Interest Waiver:</strong> 100% waiver of penal interest is a borrower’s right under the 2026 MSME framework.</li>
                                     <li><strong>Repayment Window:</strong> Once an OTS (One-Time Settlement) is signed, you usually get 30 to 90 days to pay. We negotiate for a "Structured Settlement" over 6 months if needed.</li>
                                 </ul>
                             </div>
@@ -407,7 +388,7 @@ export default function MudraLoanSettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Despite strict RBI regulations, Mudra loan recovery remains aggressive. Agents often target micro-borrowers who are unaware of their legal rights.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">What counts as illegal harassment in 2025?</h4>
+                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">What counts as illegal harassment in 2026?</h4>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 not-prose">
                                 <div className="flex items-start gap-3 p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
                                     <CheckCircle2 className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
@@ -427,10 +408,10 @@ export default function MudraLoanSettlementClient() {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10">
-                                If you are facing any of the above, we help you file an immediate **F.I.R.** and a complaint with the Banking Ombudsman. Under the 2025 RBI penalty framework, banks can be fined up to ₹20 Lakhs for third-party recovery agent violations. Often, just the threat of this fine is enough to make the bank offer a favorable Mudra loan settlement.
+                                If you are facing any of the above, we help you file an immediate **F.I.R.** and a complaint with the Banking Ombudsman. Under the 2026 RBI penalty framework, banks can be fined up to ₹20 Lakhs for third-party recovery agent violations. Often, just the threat of this fine is enough to make the bank offer a favorable Mudra loan settlement.
                             </p>
 
-                            <h2 id="ots-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 6: The 2025 OTS Strategy: Scaling the Haircut</h2>
+                            <h2 id="ots-strategy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 6: The 2026 OTS Strategy: Scaling the Haircut</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A One-Time Settlement (OTS) is a chess game. You cannot simply ask for one; you must prove that the bank’s alternative (litigation) is more expensive and less fruitful than your offer.
                             </p>
@@ -463,7 +444,7 @@ export default function MudraLoanSettlementClient() {
                                 A major concern for Mudra borrowers is: "Can I ever take a loan again?" In 2026, CIBIL reporting has become real-time. A settlement will be reported within 15 days of your final payment.
                             </p>
                             <div className="p-8 bg-indigo-50 rounded-3xl mb-10 not-prose border border-indigo-100 font-serif">
-                                <h4 className="text-xl font-bold text-indigo-950 mb-4 tracking-tighter uppercase italic underline decoration-indigo-200">The CIBIL Transformation Journey (2025-26):</h4>
+                                <h4 className="text-xl font-bold text-indigo-950 mb-4 tracking-tighter uppercase italic underline decoration-indigo-200">The CIBIL Transformation Journey (2026-27):</h4>
                                 <ol className="list-decimal pl-6 space-y-4 font-medium text-slate-800">
                                     <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 1: Verification (Days 1-15)</strong> - We verify the 'No Dues Certificate' is accurately reflected in the bank’s internal portal before they report to bureaus.</li>
                                     <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 2: Bureau Update (Days 15-45)</strong> - We verify the account is marked 'Settled' across all 4 credit bureaus (CIBIL, Experian, Equifax, CRIF). If 'Written-off' is mentioned, we file a Data Inaccuracy dispute.</li>
@@ -474,7 +455,7 @@ export default function MudraLoanSettlementClient() {
 
                             <h2 id="pmmy-schemes-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 8: Mudra 2.0 and the 2026 'Tarun Plus' Settlement Matrix</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The evolution of PMMY into the **Mudra 2.0** framework in late 2025 has changed the risk profile of Kishor and Tarun loans. With the ceiling now at ₹20 Lakhs, banks are no longer treating these as 'priority sector write-offs' but as technical commercial debts.
+                                The evolution of PMMY into the **Mudra 2.0** framework in 2026 has changed the risk profile of Kishor and Tarun loans. With the ceiling now at ₹20 Lakhs, banks are no longer treating these as 'priority sector write-offs' but as technical commercial debts.
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] shadow-2xl mb-10 not-prose border-4 border-blue-600/20">
                                 <h4 className="text-2xl font-black mb-6 text-blue-400 italic uppercase tracking-widest text-center">Settlement Probability by Category:</h4>
@@ -501,7 +482,7 @@ export default function MudraLoanSettlementClient() {
                                 Note: For Tarun Plus borrowers, the bank will often check 'connected party' transactions. If funds were diverted to other businesses, settlement is denied. We help you present a clean 'Business Loss' narrative that satisfies the bank’s vigilance department.
                             </p>
 
-                            <h2 id="legal-defenses-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 9: Advanced Legal Defenses: Using the 2025 MSME Act</h2>
+                            <h2 id="legal-defenses-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 9: Advanced Legal Defenses: Using the 2026 MSME Framework</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a bank threatens to take your Mudra case to the **Debt Recovery Tribunal (DRT)** or files a recovery suit, you have several counter-strikes available under the latest MSME frameworks.
                             </p>
@@ -509,7 +490,7 @@ export default function MudraLoanSettlementClient() {
                                 <div className="p-8 bg-white border-2 border-slate-900 rounded-[2rem] shadow-xl hover:bg-slate-50 transition-colors group">
                                     <Building2 className="w-12 h-12 text-blue-600 mb-6 group-hover:rotate-12 transition-transform" />
                                     <h5 className="text-xl font-bold text-slate-950 mb-4 uppercase tracking-tighter">Section 45: Priority Rights</h5>
-                                    <p className="text-sm text-gray-600 leading-relaxed">Under the 2025 MSME Priority Lending guidelines, banks MUST offer a restructuring window before marking an account as a 'Wilful Defaulter.' We leverage this to force a settlement dialogue.</p>
+                                    <p className="text-sm text-gray-600 leading-relaxed">Under the 2026 MSME Priority Lending guidelines, banks MUST offer a restructuring window before marking an account as a 'Wilful Defaulter.' We leverage this to force a settlement dialogue.</p>
                                 </div>
                                 <div className="p-8 bg-white border-2 border-slate-900 rounded-[2rem] shadow-xl hover:bg-slate-50 transition-colors group">
                                     <Scale className="w-12 h-12 text-blue-600 mb-6 group-hover:-rotate-12 transition-transform" />
@@ -579,7 +560,7 @@ export default function MudraLoanSettlementClient() {
 
                             <h2 id="gst-taxation-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 12: GST Compliance and Taxation in Mudra Settlements</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                A common oversight in Mudra loan settlements is the **Tax treatment of the waived amount**. Under the Income Tax Act (and relevant 2025 GST clarifications), a waiver of a business loan can sometimes be treated as 'Deemed Income' under Section 28(iv).
+                                A common oversight in Mudra loan settlements is the **Tax treatment of the waived amount**. Under the Income Tax Act (and relevant 2026 GST clarifications), a waiver of a business loan can sometimes be treated as 'Deemed Income' under Section 28(iv).
                             </p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-10 not-prose">
                                 <h4 className="text-lg font-bold mb-4">The MSME Tax Shield:</h4>
@@ -624,6 +605,8 @@ export default function MudraLoanSettlementClient() {
                                     </div>
                                 ))}
                             </div>
+
+                            <AuthorBioBox />
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Let Experts Handle Your Debt</h3>
