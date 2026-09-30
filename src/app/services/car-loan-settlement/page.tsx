@@ -16,29 +16,49 @@ export default function CarLoanSettlementPage() {
 
   const carLoanFaqs = [
     {
-      question: 'Can a secured car loan be settled without losing the vehicle?',
+      question: 'What is the typical car loan settlement percentage in India?',
       answer:
-        'Yes, provided we align with the lender’s asset recovery policy. We negotiate for settlements that prioritize legal closure while working to retain possession wherever feasible.'
+        'Car loan settlement percentages typically range between 40% and 55% of the total outstanding balance, depending on the age of the NPA, accumulated penal interest, and vehicle market depreciation. For older defaults where the vehicle market value is substantially lower than the loan principal, waivers can reach up to 60-70% through structured One-Time Settlements (OTS).'
     },
     {
-      question: 'What happens once a car loan OTS is executed?',
+      question: 'Why hire a professional car loan settlement agency instead of negotiating alone?',
       answer:
-        'Collections stop and you receive the sanctioned OTS letter, payment receipts, and the lender’s closure/NOC. If the vehicle was hypothecated, we ensure the lien is removed promptly.'
+        'Unlike unsecured personal loans, car loans involve hypothecated movable property. Banks and NBFCs employ aggressive third-party recovery teams and threaten vehicle seizure. A dedicated car loan settlement agency like CredSettle provides legal representation, stops recovery harassment under RBI fair practice codes, prevents unlawful vehicle repossession, and executes legally binding OTS agreements with full Form 35 NOC clearance.'
+    },
+    {
+      question: 'Car loan settlement kaise kare (How to settle a car loan in India)?',
+      answer:
+        'Car loan settlement requires four legal steps: (1) Conduct a secured loan audit to compute the principal vs depreciated vehicle value (LTV deficit); (2) Issue a formal representation to the lender’s NPA recovery division citing genuine financial hardship; (3) Negotiate a formal One-Time Settlement (OTS) letter with full interest waiver; and (4) Pay the agreed settlement amount directly to the bank account and obtain an official No Dues Certificate along with RTO Form 35.'
+    },
+    {
+      question: 'Can a secured car loan be settled without losing the vehicle?',
+      answer:
+        'Yes. When the settlement amount negotiated is comparable to or higher than what the lender would realize after paying towing, yard storage, auctioneer commissions, and legal fees, banks readily accept a cash settlement while allowing the borrower to retain possession of the car.'
+    },
+    {
+      question: 'Will a bank settle on a car loan if the vehicle is hypothecated?',
+      answer:
+        'Yes. Hypothecation merely creates a financial charge in favor of the lender. Upon payment of the agreed settlement sum, the lender is legally obligated under RBI guidelines to release the hypothecation charge, return all original documents, and issue RTO Form 35 within 30 days.'
+    },
+    {
+      question: 'Can recovery agents seize my vehicle without court notice or police presence?',
+      answer:
+        'No. The Supreme Court of India in ICICI Bank v. Shanti Devi Sharma held that lenders and recovery agents cannot use muscle power, intimidation, or street seizure to take possession of hypothecated vehicles. Lenders must issue a mandatory 60-day demand notice under SARFAESI rules and follow due judicial process. Any forceful repossession without notice is illegal.'
     },
     {
       question: 'How quickly can harassment from field agents be stopped?',
       answer:
-        'Immediately after engagement. We route communication through our legal team, log violations, and escalate to compliance officers so coercive visits cease.'
+        'Immediately after engagement. We route communication through our legal team, log violations, and escalate to bank compliance officers and the RBI Ombudsman so coercive visits cease.'
     },
     {
       question: 'Do I still owe interest or penalties after settlement?',
       answer:
-        'No. Once the OTS amount is paid within the agreed timeline, waived interest and penalties cannot be revived. We verify the account reflects zero balance.'
+        'No. Once the OTS amount is paid within the agreed timeline, waived interest and penalties cannot be revived. We verify the account reflects zero balance with an official No Dues Certificate.'
     },
     {
-      question: 'Will settlement damage my credit long term?',
+      question: 'Will car loan settlement affect my CIBIL score?',
       answer:
-        'A short-term credit impact is expected, but it is preferable to repossession or charge-off. We provide a credit rebuild strategy to restore your score over the next 12-24 months.'
+        'The loan status will be marked as "Settled" on your credit bureau report. While this temporarily impacts your credit score, it is far less damaging than having a vehicle repossessed, auctioned at distress value, or facing criminal litigation. CredSettle also provides a step-by-step credit rebuilding blueprint.'
     }
   ];
 
@@ -63,14 +83,18 @@ export default function CarLoanSettlementPage() {
             </div>
             {/* Left copy - comes second on mobile */}
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
-              <h1 className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[65px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '400', marginBottom: '12px' }}>
-                Car Loan Settlement: Keep Your Vehicle, Regain Control
+              <div className="inline-flex items-center gap-2 px-3 py-1 mb-3 rounded-full text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200">
+                <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+                India’s Trusted Car Loan Settlement Agency
+              </div>
+              <h1 className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[58px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '600', marginBottom: '14px' }}>
+                Car Loan Settlement: Settle Auto Loans & Protect Your Vehicle
               </h1>
-              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '28px', marginBottom: '12px' }}>
-                We negotiate reduced balances and legal settlements to minimize asset risk and stress. Car loan settlement is a legitimate debt resolution process in India that helps vehicle owners resolve outstanding car loan debt through RBI-compliant settlement solutions.
+              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.80)', fontFamily: 'Poppins', lineHeight: '26px', marginBottom: '12px' }}>
+                Facing missed car loan EMIs or aggressive recovery agents? As India’s premier car loan settlement agency, CredSettle negotiates directly with major banks and NBFCs to secure <strong>40% to 55% settlement waivers</strong> through legally sanctioned One-Time Settlements (OTS).
               </p>
-              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '28px', marginBottom: '12px' }}>
-                At CredSettle, our expert legal team specializes in car loan settlement services, working directly with banks and NBFCs to negotiate reduced payoff amounts for car loans. Our debt settlement company ensures all car loan settlements follow RBI guidelines and Indian banking regulations, providing complete legal protection.
+              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.80)', fontFamily: 'Poppins', lineHeight: '26px', marginBottom: '16px' }}>
+                We protect your vehicle from unlawful seizure, halt recovery harassment under RBI guidelines, and ensure end-to-end legal closure with Form 35 hypothecation release from your RTO registration.
               </p>
               
               <a href="/contact" className='cursor-pointer' style={{ textDecoration: 'none', cursor: 'pointer' }}>    
@@ -259,6 +283,84 @@ export default function CarLoanSettlementPage() {
               >
                 At CredSettle, our car loan settlement specialists understand these technical nuances. We leverage the depreciated vehicle value, your financial hardship documentation, and the lender’s provisioning requirements (cost of repossession, storage, auction, and potential loss) to negotiate settlements that typically reduce your payoff obligation by 30-70%. Our legal team ensures all settlements comply with RBI guidelines and properly address the <strong>hypothecation release process</strong>, ensuring you receive a clear Registration Certificate (RC) with the lender’s charge mark removed.
               </p>
+            </div>
+
+            {/* Car Loan Settlement Percentage & Calculation Matrix */}
+            <div style={{ marginBottom: '36px' }}>
+              <h3
+                style={{
+                  color: '#0C2756',
+                  fontFamily: 'Poppins',
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  lineHeight: '32px',
+                  marginBottom: '16px'
+                }}
+              >
+                Car Loan Settlement Percentage & Calculation: How Much Can You Save?
+              </h3>
+              <p
+                style={{
+                  color: 'rgba(12, 39, 86, 0.80)',
+                  fontFamily: 'Poppins',
+                  fontSize: '16px',
+                  lineHeight: '28px',
+                  marginBottom: '18px'
+                }}
+              >
+                A common question from distressed vehicle owners is: <em>"What percentage do banks accept in car loan settlement?"</em> Unlike unsecured personal loans, car loan settlement percentages are directly dictated by <strong>vehicle market depreciation</strong>, <strong>auction recovery costs</strong>, and the <strong>NPA duration</strong>. Lenders realize that towing a vehicle, paying daily yard holding fees, hiring auctioneers, and selling at forced distress value often results in a 40%–50% loss. CredSettle uses this exact financial reality to negotiate steep settlement waivers:
+              </p>
+
+              <div className="overflow-x-auto my-6 rounded-2xl border border-blue-100 shadow-sm">
+                <table className="w-full text-left border-collapse" style={{ fontFamily: 'Poppins' }}>
+                  <thead>
+                    <tr className="bg-blue-600 text-white text-xs md:text-sm">
+                      <th className="p-3 md:p-4 font-semibold">Overdue Duration</th>
+                      <th className="p-3 md:p-4 font-semibold">NPA Classification</th>
+                      <th className="p-3 md:p-4 font-semibold">Typical Settlement Waiver</th>
+                      <th className="p-3 md:p-4 font-semibold">Primary Negotiation Leverage</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-xs md:text-sm text-gray-700 divide-y divide-gray-100">
+                    <tr className="bg-white hover:bg-blue-50/40 transition-colors">
+                      <td className="p-3 md:p-4 font-medium text-[#0C2756]">90 – 180 Days</td>
+                      <td className="p-3 md:p-4">Sub-Standard Asset</td>
+                      <td className="p-3 md:p-4 font-semibold text-emerald-600">30% – 45% Waiver</td>
+                      <td className="p-3 md:p-4">Complete waiver of penal interest, bounce charges, and late fees.</td>
+                    </tr>
+                    <tr className="bg-gray-50/50 hover:bg-blue-50/40 transition-colors">
+                      <td className="p-3 md:p-4 font-medium text-[#0C2756]">180 – 360 Days</td>
+                      <td className="p-3 md:p-4">Doubtful Asset (D1)</td>
+                      <td className="p-3 md:p-4 font-semibold text-emerald-600">45% – 55% Waiver</td>
+                      <td className="p-3 md:p-4">Lender provisions 25%-40% loss; negative equity (loan &gt; car value).</td>
+                    </tr>
+                    <tr className="bg-white hover:bg-blue-50/40 transition-colors">
+                      <td className="p-3 md:p-4 font-medium text-[#0C2756]">1 Year+ (360+ Days)</td>
+                      <td className="p-3 md:p-4">Doubtful (D2 / Loss)</td>
+                      <td className="p-3 md:p-4 font-semibold text-emerald-600">55% – 70% Waiver</td>
+                      <td className="p-3 md:p-4">Heavy vehicle depreciation, yard auction unviability, 100% loss write-off risk.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              {/* Two-Wheeler / Bike Loan Callout Box */}
+              <div className="mt-5 p-4 md:p-5 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50/60 border border-blue-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div>
+                  <h4 className="text-sm md:text-base font-semibold text-[#0C2756] mb-1">
+                    Defaulting on a Motorcycle, Scooter, or 2-Wheeler Loan?
+                  </h4>
+                  <p className="text-xs md:text-sm text-gray-600">
+                    Two-wheeler loan recovery involves aggressive street repossession and distinct RBI guidelines. Explore our specialized bike loan resolution service.
+                  </p>
+                </div>
+                <a
+                  href="/two-wheeler-bike-loan-settlement"
+                  className="inline-flex items-center text-xs md:text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-xl transition-all shadow-sm flex-shrink-0"
+                >
+                  Bike Loan Settlement Guide →
+                </a>
+              </div>
             </div>
 
             {/* How Car Loan Settlement Process Works */}

@@ -5,17 +5,22 @@ import Footer from '@/components/Footer';
 import CarLoanDefaultVehicleSeizureClient from './CarLoanDefaultVehicleSeizureClient';
 
 export const metadata: Metadata = {
-  title: 'Car Loan Default & Vehicle Seizure by Bank',
+  title: 'Vehicle Seizure & Repossession Rules: RBI Guidelines & Rights - CredSettle',
   description:
-    'Facing car loan default or repossession? Learn Supreme Court protections against illegal seizure, pre-sale notice rules, and an OTS.',
+    'Vehicle seized by finance company or facing recovery agent threats? Learn RBI guidelines on vehicle seizure, Supreme Court protections against illegal repossession, and legal settlement remedies.',
   keywords: [
-    'car loan default and vehicle seizure by bank',
-    'illegal car repossession by recovery agents',
+    'rbi guidelines for vehicle seizure pdf',
+    'procedure for seizure of hypothecated vehicle',
+    'vehicle seized by finance company',
+    'vehicle repossession laws in india',
+    'overdue loan vehicle seizure rules',
+    'illegal repossession of vehicle',
+    'supreme court judgement on repossession of vehicle',
+    'vehicle seizing procedure by finance company',
     'ICICI Bank vs Prakash Kaur supreme court judgment',
     'car loan recovery rules RBI',
     'can bank seize car without court order',
     'car loan settlement process India',
-    'vehicle repossession notice period',
     'how to stop car seizure by bank',
     'car hypothecation removal after settlement'
   ],

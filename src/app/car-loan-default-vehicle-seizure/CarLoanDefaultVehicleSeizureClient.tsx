@@ -67,6 +67,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
 
   const navLinks = [
     { id: 'quick-crux', label: 'Executive Brief & Crux' },
+    { id: 'rbi-vehicle-seizure-procedure', label: 'RBI Guidelines & Seizure Rules' },
     { id: 'debt-economics-npa', label: '1. Debt Economics & NPA Dynamics' },
     { id: 'financial-settlement-math', label: '2. Auto Loan Math & Penal Charges' },
     { id: 'comparison-matrix-grid', label: '3. Vehicle Resolution Matrix' },
@@ -277,6 +278,97 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 </li>
               </ul>
             </div>
+
+            {/* NEW SECTION: RBI Guidelines & Statutory Procedure for Hypothecated Asset Seizure */}
+            <section
+              id="rbi-vehicle-seizure-procedure"
+              className="scroll-target rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 md:p-8 shadow-xs space-y-6"
+            >
+              <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
+                <ShieldAlert className="w-4 h-4 text-[#1886ff]" />
+                <span>Statutory Authority &amp; Mandatory SOP</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
+                RBI Guidelines on Vehicle Seizure &amp; Statutory Procedure for Hypothecated Assets
+              </h2>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
+                When a borrower defaults on an auto loan, banks and NBFCs frequently deploy third-party collection agencies that unlawfully threaten on-the-spot vehicle lifting or intercept drivers on highways. Under the <strong>RBI Master Circular on Loans and Advances</strong> and the <strong>Fair Practices Code for Lenders</strong>, financiers are bound by strict statutory procedures before taking possession of any hypothecated movable property.
+              </p>
+
+              {/* 5-STEP MANDATORY PROCEDURE */}
+              <div className="space-y-4">
+                <h3 className="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2">
+                  <FileText className="w-5 h-5 text-[#1886ff]" />
+                  <span>The 5 Mandatory Steps Lenders Must Follow to Seize a Vehicle</span>
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                  <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <span className="text-xs font-black text-[#1886ff] uppercase">Step 1</span>
+                    <h4 className="text-sm font-bold text-slate-900 mt-1">Formal 30–60 Day Demand Notice</h4>
+                    <p className="text-xs text-slate-600 mt-1">
+                      The lender must serve a registered demand cure notice giving 15 to 30 days (or 60 days under Section 13(2) SARFAESI Act for eligible NBFCs) detailing the exact overdue principal and default computation.
+                    </p>
+                  </div>
+                  <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <span className="text-xs font-black text-[#1886ff] uppercase">Step 2</span>
+                    <h4 className="text-sm font-bold text-slate-900 mt-1">Police &amp; Local Authority Intimation</h4>
+                    <p className="text-xs text-slate-600 mt-1">
+                      Before touching the asset, recovery agents must provide written intimation to the local police station having jurisdiction over the vehicle’s location to avoid criminal breach of peace.
+                    </p>
+                  </div>
+                  <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <span className="text-xs font-black text-[#1886ff] uppercase">Step 3</span>
+                    <h4 className="text-sm font-bold text-slate-900 mt-1">Restricted Daylight Hours Only</h4>
+                    <p className="text-xs text-slate-600 mt-1">
+                      Visits and seizure actions can only occur between <strong>7:00 AM and 7:00 PM</strong> at the borrower’s residence or workplace. Seizing a car on the highway or in transit is strictly illegal.
+                    </p>
+                  </div>
+                  <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                    <span className="text-xs font-black text-[#1886ff] uppercase">Step 4</span>
+                    <h4 className="text-sm font-bold text-slate-900 mt-1">Mandatory Signed Inventory Sheet</h4>
+                    <p className="text-xs text-slate-600 mt-1">
+                      Officers must produce an on-spot inventory report detailing odometer reading, exterior body scratches, fuel level, and personal belongings, signed by the borrower and witnessing agents.
+                    </p>
+                  </div>
+                </div>
+                <div className="p-4 rounded-xl bg-blue-50/70 border border-blue-200/80">
+                  <span className="text-xs font-black text-[#1886ff] uppercase">Step 5</span>
+                  <h4 className="text-sm font-bold text-slate-900 mt-1">Pre-Sale Valuation &amp; 14-Day Redemption Period</h4>
+                  <p className="text-xs text-slate-700 mt-1">
+                    Once in yard custody, the vehicle cannot be auctioned immediately. Lenders must issue a certified surveyor valuation report and allow the borrower at least 14 to 30 days to redeem the vehicle or settle the debt before any public auction.
+                  </p>
+                </div>
+              </div>
+
+              {/* Landmark Judicial Precedents */}
+              <div className="p-4 md:p-5 rounded-2xl bg-slate-900 text-white space-y-3">
+                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-blue-400">
+                  <Gavel className="w-4 h-4" />
+                  <span>Landmark Supreme Court Precedents on Vehicle Repossession</span>
+                </div>
+                <div className="space-y-2 text-xs md:text-sm text-slate-300">
+                  <p>
+                    <strong className="text-white">ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711:</strong> The Hon'ble Supreme Court reprimanded banks for hiring recovery musclemen and held: <em>&quot;Banks should resort to procedure recognized by law to take possession of vehicles... the practice of hiring musclemen must be stopped.&quot;</em>
+                  </p>
+                  <p>
+                    <strong className="text-white">Citigroup Inc. v. Gopalakrishna (2009):</strong> The High Court affirmed that taking possession by force, road interception, or without providing an inventory copy amounts to criminal trespass and theft under penal law.
+                  </p>
+                </div>
+              </div>
+
+              {/* Cross-Link & Bike Loan Defense */}
+              <div className="p-4 rounded-xl bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                <div className="text-xs md:text-sm text-amber-900">
+                  <strong>Facing Two-Wheeler / Bike Repossession?</strong> Motorcycles and scooters face even higher street seizure aggression. Learn specific rights for two-wheeler owners.
+                </div>
+                <Link
+                  href="/two-wheeler-bike-loan-settlement"
+                  className="inline-flex items-center text-xs font-bold text-amber-900 hover:text-black bg-amber-200/80 hover:bg-amber-300 px-3.5 py-1.5 rounded-lg transition-colors flex-shrink-0"
+                >
+                  Bike Repossession Rules →
+                </Link>
+              </div>
+            </section>
 
             {/* SECTION 1: Debt Economics & NPA Dynamics */}
             <section id="debt-economics-npa" className="scroll-target space-y-3">
