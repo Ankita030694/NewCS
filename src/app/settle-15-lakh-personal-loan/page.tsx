@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import Footer from "@/components/Footer";
 import Settle15LakhClient from "./Settle15LakhClient";
 
 // SEO Metadata
@@ -87,6 +88,7 @@ export default function Settle15LakhPage() {
         strategy="beforeInteractive"
       />
       <Settle15LakhClient />
+      <Footer />
     </>
   );
 }

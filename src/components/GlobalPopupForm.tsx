@@ -23,11 +23,23 @@ export default function GlobalPopupForm() {
   });
 
   useEffect(() => {
+    const handleFunnelActive = () => {
+      setIsOpen(false);
+    };
+
+    window.addEventListener('credsettle:funnel_active', handleFunnelActive);
+    return () => {
+      window.removeEventListener('credsettle:funnel_active', handleFunnelActive);
+    };
+  }, []);
+
+  useEffect(() => {
     const timer = setTimeout(() => {
       const excludedPaths = ['/contact', '/nullify', '/authority', '/login', '/thank-you', '/success'];
       const isExcluded = excludedPaths.some(path => pathname?.startsWith(path));
+      const isFunnelActive = typeof window !== 'undefined' && Boolean((window as any).__credsettle_funnel_active);
       
-      if (!isExcluded) {
+      if (!isExcluded && !isFunnelActive) {
         setIsOpen(true);
       }
     }, 5000);

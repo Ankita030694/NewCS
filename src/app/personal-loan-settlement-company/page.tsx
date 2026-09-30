@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Footer from '@/components/Footer';
 import PersonalLoanSettlementCompanyClient from './PersonalLoanSettlementCompanyClient';
 
 export const metadata: Metadata = {
@@ -74,6 +75,7 @@ export default function PersonalLoanSettlementCompanyPage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
             />
             <PersonalLoanSettlementCompanyClient />
+            <Footer />
         </>
     );
 }

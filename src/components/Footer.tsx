@@ -1,9 +1,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import InteractiveLeadFunnel from './InteractiveLeadFunnel';
 
-export default function Footer() {
+interface FooterProps {
+  hideFunnel?: boolean;
+}
+
+export default function Footer({ hideFunnel = false }: FooterProps = {}) {
   return (
-    <footer className="w-full bg-[#EFF7FF] pt-8 md:pt-[60px] px-4 md:px-[50px] pb-0 mb-0 rounded-t-[20px] md:rounded-t-[40px] overflow-hidden overflow-x-hidden max-w-full">
+    <>
+      {!hideFunnel && <InteractiveLeadFunnel isFooterPlacement />}
+      <footer className="w-full bg-[#EFF7FF] pt-8 md:pt-[60px] px-4 md:px-[50px] pb-0 mb-0 rounded-t-[20px] md:rounded-t-[40px] overflow-hidden overflow-x-hidden max-w-full">
       <div className="w-full max-w-7xl mx-auto">
         <div className="bg-white rounded-[15px] md:rounded-[30px] border border-[rgba(12,39,86,0.20)] shadow-[0_0_23.5px_0_rgba(0,0,0,0.10)] p-6 md:p-10 lg:p-[40px]">
           <div className="flex flex-col lg:flex-row justify-between gap-8 md:gap-12 lg:gap-[60px] mb-8 md:mb-12 lg:mb-[45px]">
@@ -118,5 +125,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </>
   );
 }

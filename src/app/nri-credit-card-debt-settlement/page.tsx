@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Footer from '@/components/Footer';
 import NriCreditCardDebtSettlementClient from './NriCreditCardDebtSettlementClient';
 
 export const metadata: Metadata = {
@@ -294,6 +295,7 @@ export default function NriCreditCardDebtSettlementPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <NriCreditCardDebtSettlementClient />
+      <Footer />
     </>
   );
 }

@@ -13,6 +13,7 @@ import { defaultBlogFaqs } from '@/data/blogDefaults';
 import { addBlogReview, type Review } from '@/lib/blogs';
 import { useTransition } from 'react';
 import CompanyProfile from '@/components/CompanyProfile';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 
 type BlogPost = {
   id: string;
@@ -849,12 +850,17 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 )}
 
                 {part2 && (
-                  <div
-                    className="blog-content"
-                    dangerouslySetInnerHTML={{
-                      __html: part2
-                    }}
-                  />
+                  <>
+                    <div className="my-10">
+                      <InteractiveLeadFunnel />
+                    </div>
+                    <div
+                      className="blog-content"
+                      dangerouslySetInnerHTML={{
+                        __html: part2
+                      }}
+                    />
+                  </>
                 )}
                 
                 {blog.infographic && !part2 && (
@@ -875,6 +881,12 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                       </div>
                     </div>
                   </section>
+                )}
+
+                {!part2 && (
+                  <div className="my-10">
+                    <InteractiveLeadFunnel />
+                  </div>
                 )}
               </div>
 

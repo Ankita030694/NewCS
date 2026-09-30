@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import Footer from '@/components/Footer';
 import TaxImplicationsClient from './TaxImplicationsClient';
 
 export const metadata: Metadata = {
@@ -210,6 +211,7 @@ export default function TaxImplicationsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <TaxImplicationsClient />
+      <Footer />
     </div>
   );
 }

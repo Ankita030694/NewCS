@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Footer from '@/components/Footer';
 import HowToSettleACreditCardDebtClient from './HowToSettleACreditCardDebtClient';
 
 export const metadata: Metadata = {
@@ -176,6 +177,7 @@ export default function HowToSettleACreditCardDebtPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrgJSONLD) }}
       />
       <HowToSettleACreditCardDebtClient />
+      <Footer />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { locationData, getLocationBySlug } from "../locationData";
+import InteractiveLeadFunnel from "@/components/InteractiveLeadFunnel";
 
 // Generate all static params at build time for SSG
 export async function generateStaticParams() {
@@ -409,6 +410,11 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                   </ol>
                 </section>
 
+                {/* Interactive Assessment Funnel - Mid-Content Placement */}
+                <div className="my-10 not-prose">
+                  <InteractiveLeadFunnel />
+                </div>
+
                 <section id="harassment-protection" className="mb-12 scroll-mt-32">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6">Protecting Your Reputation and Peace</h2>
                   <p>
@@ -583,7 +589,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
         </div>
 
         {/* Footer */}
-        <Footer />
+        <Footer hideFunnel />
       </div>
     </>
   );

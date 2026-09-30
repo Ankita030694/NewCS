@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import AboutUsSection from "@/components/AboutUs";
 import WhyCredSettle from "@/components/WhyCredSettle";
+import InteractiveLeadFunnel from "@/components/InteractiveLeadFunnel";
 import Services from "@/components/Services";
 import Settlements from "@/components/Settlements";
 import Testimonials from "@/components/Testimonials";
@@ -134,6 +135,7 @@ export default function Home() {
       <HeroSection />
       <AboutUsSection />
       <WhyCredSettle />
+      <InteractiveLeadFunnel />
       <Settlements />
       <Services />
       <Testimonials />
