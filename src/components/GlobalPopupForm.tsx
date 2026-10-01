@@ -68,27 +68,11 @@ export default function GlobalPopupForm() {
     };
   }, [isExcluded]);
 
-  // Timed engagement trigger (6 seconds) on SEO & lead gen pages
+  // Modal opens only on explicit programmatic trigger (e.g. CTA click event) and never automatically pops up
   useEffect(() => {
     if (isExcluded) {
       setIsOpen(false);
-      return;
     }
-
-    const timer = setTimeout(() => {
-      const isFunnelActive =
-        typeof window !== 'undefined' &&
-        Boolean((window as any).__credsettle_funnel_active);
-      const isDismissed =
-        typeof window !== 'undefined' &&
-        sessionStorage.getItem('credsettle:modal_dismissed') === 'true';
-
-      if (!isExcluded && !isFunnelActive && !isDismissed) {
-        setIsOpen(true);
-      }
-    }, 6000);
-
-    return () => clearTimeout(timer);
   }, [pathname, isExcluded]);
 
   // Lock body scroll when modal is open

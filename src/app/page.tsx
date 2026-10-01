@@ -141,7 +141,7 @@ export default function Home() {
       <Testimonials />
       <Blogs />
       <FAQ />
-      <Footer />
+      <Footer hideFunnel />
     </div>
   );
 }

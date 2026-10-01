@@ -1019,7 +1019,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         </div>
       </div>
 
-      <Footer />
+      <Footer hideFunnel />
 
       <style jsx global>{`
         .blog-content {

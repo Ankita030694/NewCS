@@ -270,20 +270,29 @@ export default function InteractiveLeadFunnel({
   const { executeRecaptcha } = useGoogleReCaptcha();
   const isSubmittingRef = useRef(false);
 
-  // Exclude thank-you, success, and administrative paths
+  // Exclude utility, legal policy, thank-you, success, and administrative paths
   const excludedPaths = [
     '/thank-you',
-    '/thank-you/',
     '/success',
     '/login',
     '/authority',
     '/nullify',
     '/contact',
-    '/contact/',
+    '/privacy-policy',
+    '/terms-and-conditions',
+    '/delete-your-app-account',
+    '/authors',
+    '/author',
   ];
   const isExcluded =
-    excludedPaths.some(p => pathname?.startsWith(p)) ||
-    (isFooterPlacement && (pathname === '/' || pathname?.startsWith('/resources/') || pathname?.startsWith('/loan-settlement-by-city/')));
+    excludedPaths.some(p => pathname === p || pathname?.startsWith(p + '/') || pathname?.startsWith(p)) ||
+    (isFooterPlacement && (
+      pathname === '/' ||
+      pathname?.startsWith('/resources/') ||
+      pathname?.startsWith('/loan-settlement-by-city/') ||
+      pathname?.startsWith('/loan-settlement-by-bank/') ||
+      pathname?.startsWith('/services/')
+    ));
 
   const nuance = getNuanceForPath(pathname || '');
 

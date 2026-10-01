@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import AuthorBioBox from '@/components/AuthorBioBox';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import banksData from '../banks.json';
 
 interface Props {
@@ -279,6 +280,13 @@ export default async function BankSettlementSlugPage({ params }: Props) {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Interactive Assessment Funnel - Near Hero Placement */}
+      <section className="relative z-20 -mt-10 px-4 mb-8">
+        <div className="max-w-4xl mx-auto">
+          <InteractiveLeadFunnel />
         </div>
       </section>
 
@@ -744,7 +752,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
         </Link>
       </div>
 
-      <Footer />
+      <Footer hideFunnel />
     </div>
   );
 }

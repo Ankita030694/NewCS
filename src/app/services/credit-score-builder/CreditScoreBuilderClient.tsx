@@ -42,6 +42,7 @@ import Footer from '@/components/Footer';
 import TableOfContents from '@/components/TableOfContents';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import Script from 'next/script';
 
 export default function CreditScoreBuilderClient() {
@@ -864,6 +865,11 @@ export default function CreditScoreBuilderClient() {
               </div>
             </section>
 
+            {/* Interactive Assessment Funnel - Near Hero Placement */}
+            <div className="mb-8">
+              <InteractiveLeadFunnel />
+            </div>
+
             {/* Table of Contents */}
             {headings.length > 0 && (
               <section className="mb-8">
@@ -1150,7 +1156,7 @@ export default function CreditScoreBuilderClient() {
         </div>
 
         <div style={{ marginTop: '100px' }}>
-          <Footer />
+          <Footer hideFunnel />
         </div>
       </div>
     </>

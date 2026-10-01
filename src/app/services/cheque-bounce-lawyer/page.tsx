@@ -4,6 +4,7 @@ import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ChequeBounceClient from './ChequeBounceClient';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -241,9 +242,16 @@ export default function ChequeBouncePage() {
         </div>
       </section>
 
+      {/* Interactive Assessment Funnel - Near Hero Placement */}
+      <section className="relative z-20 -mt-10 px-4 md:px-8 mb-8">
+        <div className="max-w-4xl mx-auto">
+          <InteractiveLeadFunnel />
+        </div>
+      </section>
+
       <ChequeBounceClient />
       
-      <Footer />
+      <Footer hideFunnel />
     </div>
   );
 }

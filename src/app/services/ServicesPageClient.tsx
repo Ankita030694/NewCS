@@ -2,6 +2,7 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import CTAButton from '@/components/CTAButton';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { useEffect, useState } from 'react';
 
 export default function ServicesPageClient() {
@@ -102,6 +103,11 @@ export default function ServicesPageClient() {
             >
               Our High-Impact Services
             </h1>
+          </div>
+
+          {/* Interactive Assessment Funnel - Near Hero Placement */}
+          <div className="w-full max-w-4xl mx-auto mb-10">
+            <InteractiveLeadFunnel />
           </div>
 
           {/* Services Content */}
@@ -1593,7 +1599,7 @@ export default function ServicesPageClient() {
       </div>
       
       <div style={{marginTop: '100px'}}>
-        <Footer />
+        <Footer hideFunnel />
       </div>
     </div>
   );

@@ -277,6 +277,13 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
           </div>
         </section>
 
+        {/* Interactive Assessment Funnel - Near Hero Placement */}
+        <section className="relative z-20 -mt-10 px-4 md:px-8 mb-8">
+          <div className="max-w-4xl mx-auto">
+            <InteractiveLeadFunnel />
+          </div>
+        </section>
+
         {/* Breadcrumbs */}
         <div className="bg-white border-b border-gray-100">
           <div className="max-w-8xl mx-auto px-4 md:px-8 py-4">
@@ -409,11 +416,6 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                     </li>
                   </ol>
                 </section>
-
-                {/* Interactive Assessment Funnel - Mid-Content Placement */}
-                <div className="my-10 not-prose">
-                  <InteractiveLeadFunnel />
-                </div>
 
                 <section id="harassment-protection" className="mb-12 scroll-mt-32">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6">Protecting Your Reputation and Peace</h2>

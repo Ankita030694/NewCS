@@ -7,6 +7,7 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
 import AuthorBioBox from '@/components/AuthorBioBox';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { BankContent } from '../../banks-content';
 
 interface BankPageClientProps {
@@ -122,6 +123,14 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
               </button>
             </div>
           </div>
+        </section>
+
+        {/* Interactive Assessment Funnel - Near Hero Placement */}
+        <section
+          className="w-full mx-auto px-4 md:px-6 lg:px-4"
+          style={{ maxWidth: '1280px', marginBottom: '48px' }}
+        >
+          <InteractiveLeadFunnel />
         </section>
 
         {/* Table of Contents Section */}
@@ -400,7 +409,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
       </div>
 
       <div style={{ marginTop: '100px' }}>
-        <Footer />
+        <Footer hideFunnel />
       </div>
     </div>
   );
