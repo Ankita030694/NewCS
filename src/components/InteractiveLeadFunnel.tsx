@@ -13,7 +13,7 @@ interface FunnelDraft {
   step: number;
 }
 
-interface PageNuance {
+export interface PageNuance {
   badge: string;
   title: string;
   subtitle: string;
@@ -21,7 +21,7 @@ interface PageNuance {
   options1: string[];
 }
 
-const LENDER_MAP: Record<string, string> = {
+export const LENDER_MAP: Record<string, string> = {
   'true-balance': 'True Balance',
   'muthoot-finance': 'Muthoot Finance',
   'muthoot': 'Muthoot Finance',
@@ -84,14 +84,14 @@ const LENDER_MAP: Record<string, string> = {
   'au-bank': 'AU Small Finance Bank',
 };
 
-const DEBT_BRACKETS = [
+export const DEBT_BRACKETS = [
   '₹3 Lakhs - ₹15 Lakhs',
   '₹15 Lakhs - ₹30 Lakhs',
   '₹30 Lakhs - ₹50 Lakhs',
   'Above ₹50 Lakhs',
 ];
 
-function getNuanceForPath(pathname: string): PageNuance {
+export function getNuanceForPath(pathname: string): PageNuance {
   const p = (pathname || '').toLowerCase();
 
   // 0. City specific routes (e.g. /loan-settlement-by-city/delhi)
@@ -239,7 +239,7 @@ function getNuanceForPath(pathname: string): PageNuance {
  * Mobile autofill resilient phone normalizer.
  * Detects and strips +91, 91, or leading 0, spaces, dashes down to 10 digits.
  */
-function normalizePhoneNumber(raw: string): string {
+export function normalizePhoneNumber(raw: string): string {
   let digits = raw.replace(/\D/g, '');
 
   if (digits.startsWith('91') && digits.length > 10) {

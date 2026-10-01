@@ -1,61 +1,97 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import React, { useState, useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import {
+  getNuanceForPath,
+  DEBT_BRACKETS,
+  normalizePhoneNumber,
+  type PageNuance,
+} from './InteractiveLeadFunnel';
+
+const UTILITY_EXCLUDED_PATHS = [
+  '/contact',
+  '/thank-you',
+  '/privacy-policy',
+  '/terms-and-conditions',
+  '/delete-your-app-account',
+  '/login',
+  '/authority',
+  '/nullify',
+  '/success',
+  '/authors',
+  '/author',
+];
 
 export default function GlobalPopupForm() {
   const [isOpen, setIsOpen] = useState(false);
   const isSubmittingRef = useRef(false);
   const [loading, setLoading] = useState(false);
-  const [numberError, setNumberError] = useState('');
+  const [phoneError, setPhoneError] = useState('');
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const router = useRouter();
   const pathname = usePathname();
   const { executeRecaptcha } = useGoogleReCaptcha();
 
-  const [formData, setFormData] = useState({
-    name: '',
-    number: '',
-    email: '',
-    state: '',
-    message: ''
-  });
+  const [step, setStep] = useState<1 | 2 | 3>(1);
+  const [legalIssue, setLegalIssue] = useState('');
+  const [debtBracket, setDebtBracket] = useState('');
+  const [name, setName] = useState('');
+  const [number, setNumber] = useState('');
+  const [email, setEmail] = useState('');
 
+  const nuance: PageNuance = getNuanceForPath(pathname || '');
+
+  // Check if current page is in utility exclusions
+  const isExcluded = UTILITY_EXCLUDED_PATHS.some(
+    (prefix) => pathname === prefix || pathname?.startsWith(prefix + '/')
+  );
+
+  // Close when an inline funnel on the page becomes active
   useEffect(() => {
     const handleFunnelActive = () => {
       setIsOpen(false);
     };
 
-    window.addEventListener('credsettle:funnel_active', handleFunnelActive);
-    return () => {
-      window.removeEventListener('credsettle:funnel_active', handleFunnelActive);
-    };
-  }, []);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      const excludedPaths = ['/contact', '/nullify', '/authority', '/login', '/thank-you', '/success'];
-      const isExcluded = excludedPaths.some(path => pathname?.startsWith(path));
-      const isFunnelActive = typeof window !== 'undefined' && Boolean((window as any).__credsettle_funnel_active);
-      
-      if (!isExcluded && !isFunnelActive) {
+    const handleOpenModal = () => {
+      if (!isExcluded) {
         setIsOpen(true);
       }
-    }, 5000);
+    };
+
+    window.addEventListener('credsettle:funnel_active', handleFunnelActive);
+    window.addEventListener('credsettle:open_modal', handleOpenModal);
+
+    return () => {
+      window.removeEventListener('credsettle:funnel_active', handleFunnelActive);
+      window.removeEventListener('credsettle:open_modal', handleOpenModal);
+    };
+  }, [isExcluded]);
+
+  // Timed engagement trigger (6 seconds) on SEO & lead gen pages
+  useEffect(() => {
+    if (isExcluded) {
+      setIsOpen(false);
+      return;
+    }
+
+    const timer = setTimeout(() => {
+      const isFunnelActive =
+        typeof window !== 'undefined' &&
+        Boolean((window as any).__credsettle_funnel_active);
+      const isDismissed =
+        typeof window !== 'undefined' &&
+        sessionStorage.getItem('credsettle:modal_dismissed') === 'true';
+
+      if (!isExcluded && !isFunnelActive && !isDismissed) {
+        setIsOpen(true);
+      }
+    }, 6000);
 
     return () => clearTimeout(timer);
-  }, [pathname]);
+  }, [pathname, isExcluded]);
 
-  useEffect(() => {
-    const excludedPaths = ['/contact', '/nullify', '/authority', '/login', '/thank-you', '/success'];
-    const isExcluded = excludedPaths.some(path => pathname?.startsWith(path));
-    
-    if (isExcluded && isOpen) {
-      setIsOpen(false);
-    }
-  }, [pathname, isOpen]);
-
+  // Lock body scroll when modal is open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -67,99 +103,80 @@ export default function GlobalPopupForm() {
     };
   }, [isOpen]);
 
-  const handleNameInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setFormData(prev => ({ ...prev, name: value }));
-    if (errors.name) {
-      setErrors(prev => ({ ...prev, name: '' }));
+  const handleClose = () => {
+    setIsOpen(false);
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('credsettle:modal_dismissed', 'true');
     }
   };
 
-  const handleNumberInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    let value = e.target.value.replace(/\D/g, ''); 
-    
-    if (value.startsWith('0')) {
-      value = value.slice(1);
-    }
-
-    if (value.length > 10) {
-      value = value.slice(0, 10);
-    }
-    
-    setFormData(prev => ({ ...prev, number: value }));
-    setNumberError('');
-    if (errors.number) {
-      setErrors(prev => ({ ...prev, number: '' }));
-    }
+  const handleSelectIssue = (issue: string) => {
+    setLegalIssue(issue);
+    setErrors((prev) => ({ ...prev, legalIssue: '' }));
+    setTimeout(() => {
+      setStep(2);
+    }, 180);
   };
 
-  const handleEmailInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    
-    setFormData(prev => ({ ...prev, email: value }));
-    
-    if (value === '' || emailRegex.test(value)) {
-      setErrors(prev => ({ ...prev, email: '' }));
-    } else {
-      setErrors(prev => ({ ...prev, email: 'Please enter a valid email address.' }));
-    }
+  const handleSelectBracket = (bracket: string) => {
+    setDebtBracket(bracket);
+    setErrors((prev) => ({ ...prev, debtBracket: '' }));
+    setTimeout(() => {
+      setStep(3);
+    }, 180);
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-    if (errors[name]) {
-      setErrors(prev => ({ ...prev, [name]: '' }));
-    }
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const cleaned = normalizePhoneNumber(e.target.value);
+    setNumber(cleaned);
+    setPhoneError('');
+    if (errors.number) setErrors((prev) => ({ ...prev, number: '' }));
   };
 
-  const validateForm = () => {
-    const newErrors: Record<string, string> = {};
+  const handlePhonePaste = (e: React.ClipboardEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    const pasteText = e.clipboardData.getData('text');
+    const cleaned = normalizePhoneNumber(pasteText);
+    setNumber(cleaned);
+    setPhoneError('');
+    if (errors.number) setErrors((prev) => ({ ...prev, number: '' }));
+  };
 
-    if (!formData.name.trim()) {
-      newErrors.name = 'Name is required';
+  const validateStep3 = () => {
+    const errs: Record<string, string> = {};
+
+    if (!name.trim()) {
+      errs.name = 'Please enter your full name';
     }
 
-    if (!formData.number) {
-      newErrors.number = 'Mobile number is required';
-    } else if (formData.number.startsWith('0')) {
-      setNumberError('Mobile number cannot start with 0.');
-      return false;
-    } else if (formData.number.length !== 10) {
-      setNumberError('Please enter a valid 10-digit number.');
-      return false;
+    if (!number.trim()) {
+      errs.number = 'Please enter your mobile number';
+    } else if (number.length !== 10) {
+      errs.number = 'Please enter a valid 10-digit mobile number';
+    } else if (number.startsWith('0')) {
+      errs.number = 'Mobile number cannot start with 0';
     }
 
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
+    if (!email.trim()) {
+      errs.email = 'Please enter your email address';
     } else {
       const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-      if (!emailRegex.test(formData.email)) {
-        newErrors.email = 'Please enter a valid email address.';
+      if (!emailRegex.test(email)) {
+        errs.email = 'Please enter a valid email address';
       }
     }
 
-    if (!formData.state) {
-      newErrors.state = 'State is required';
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+    setErrors(errs);
+    return Object.keys(errs).length === 0;
   };
 
-  const onSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Immediate synchronous lock to prevent rapid double-clicks and duplicate requests
-    if (isSubmittingRef.current || loading) return;
 
-    if (!validateForm()) {
-      return;
-    }
+    if (isSubmittingRef.current || loading) return;
+    if (!validateStep3()) return;
 
     isSubmittingRef.current = true;
-    setNumberError('');
     setLoading(true);
 
     const today = new Date();
@@ -169,215 +186,376 @@ export default function GlobalPopupForm() {
 
     let captchaToken = '';
     if (executeRecaptcha) {
-      captchaToken = await executeRecaptcha('global_popup_submit');
+      try {
+        captchaToken = await executeRecaptcha('global_popup_submit');
+      } catch (err) {
+        console.error('reCAPTCHA execution error:', err);
+      }
     }
 
-    const submitData = {
-      name: formData.name,
-      number: formData.number,
-      phone: formData.number,
-      email: formData.email,
-      state: formData.state,
-      city: formData.state,
-      message: formData.message,
-      queries: formData.message,
-      // Save other fields as empty in DB
+    const compiledMessage = `[Interactive Assessment Modal] Issue: ${legalIssue || 'Not Specified'} | Debt Bracket: ${debtBracket || 'Not Specified'}`;
+
+    const payload = {
+      name: name.trim(),
+      number: number.trim(),
+      phone: number.trim(),
+      email: email.trim().toLowerCase(),
+      state: 'India',
+      city: 'India',
+      message: compiledMessage,
+      queries: compiledMessage,
       employmentStatus: '',
       monthlyIncome: '',
-      harassment: '',
+      harassment: legalIssue || '',
       creditCardDues: '',
       personalLoanDues: '',
-      canPay: '',
+      canPay: debtBracket || '',
       created: Date.now(),
       date: formattedDate,
       captchaToken,
       submissionUrl: typeof window !== 'undefined' ? window.location.href : '',
-      utmParams: typeof window !== 'undefined' ? (new URLSearchParams(window.location.search).toString() ? Object.fromEntries(new URLSearchParams(window.location.search)) : {}) : {}
+      utmParams:
+        typeof window !== 'undefined'
+          ? Object.fromEntries(new URLSearchParams(window.location.search))
+          : {},
     };
 
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(submitData),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
       });
 
-      const result = await response.json();
+      const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(result.error || 'Failed to submit form');
+        throw new Error(data.error || 'Failed to submit your details. Please try again.');
       }
 
-      // Save user data for Meta Pixel Advanced Matching
-      localStorage.setItem('credsettle:user_email', formData.email.trim().toLowerCase());
-      localStorage.setItem('credsettle:user_phone', formData.number.trim());
-      localStorage.setItem('credsettle:last_submission_date', formattedDate);
-      
+      // Meta Pixel advanced matching parameters
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('credsettle:user_email', email.trim().toLowerCase());
+        localStorage.setItem('credsettle:user_phone', number.trim());
+        localStorage.setItem('credsettle:last_submission_date', formattedDate);
+        sessionStorage.setItem('credsettle:modal_dismissed', 'true');
+      }
+
       setIsOpen(false);
-      // Redirect to thank-you page on successful submission using hard navigation to prevent Next.js double-RSC fetch
       window.location.href = '/thank-you';
-    } catch (error: any) {
+    } catch (err: any) {
       isSubmittingRef.current = false;
       setLoading(false);
-      console.error('Error Submitting form:', error);
-      alert(error.message || 'Failed to submit the form!');
+      console.error('Modal submission error:', err);
+      alert(err.message || 'Something went wrong while submitting. Please try again.');
     }
   };
 
-  if (!isOpen) return null;
+  // If excluded page or modal not open, return null
+  if (isExcluded || !isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-in fade-in duration-300">
-      <div 
-        className="relative w-full max-w-[500px] max-h-[90vh] overflow-y-auto rounded-[32px] p-6 md:p-8 shadow-2xl animate-in zoom-in-95 duration-300"
-        style={{
-          background: '#EFF7FF',
-          boxShadow: '0 3px 8.2px 0 rgba(255, 255, 255, 0.25) inset, 3px 3px 12.3px 0 rgba(0, 0, 0, 0.10)',
-        }}
-      >
-        <button 
-          onClick={() => setIsOpen(false)}
-          className="absolute right-6 top-6 p-2 rounded-full hover:bg-black/5 transition-colors"
-          aria-label="Close"
+    <div
+      className="fixed inset-0 z-[9999] flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"
+      onClick={(e) => {
+        if (e.target === e.currentTarget) handleClose();
+      }}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-funnel-heading"
+    >
+      <div className="relative w-full max-w-xl bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-2xl p-5 sm:p-7 md:p-8 max-h-[92vh] overflow-y-auto animate-in zoom-in-95 duration-200">
+        {/* Close Button */}
+        <button
+          onClick={handleClose}
+          className="absolute right-4 top-4 w-9 h-9 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 text-gray-500 hover:text-gray-700 transition-colors cursor-pointer"
+          aria-label="Close Assessment Modal"
         >
-          <i className="fa-solid fa-xmark text-xl text-[#0C2756]"></i>
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
         </button>
 
-        <div className="flex flex-col gap-2 mb-6">
-          <h3
-            className="text-2xl md:text-3xl font-semibold leading-tight pr-8"
-            style={{
-              color: '#0C2756',
-              fontFamily: 'Poppins'
-            }}
-          >
-            Get Expert Help Today
-          </h3>
-          <p
-            className="text-sm md:text-base leading-relaxed opacity-80"
-            style={{
-              color: '#0C2756',
-              fontFamily: 'Poppins'
-            }}
-          >
-            Fill the form below to get a callback from our loan settlement experts.
-          </p>
-          <p className="text-xs font-medium text-[#0C2756]">
-            <span className="text-red-500">*</span> We do not provide loans. We only help in settlement.
+        {/* Header with Dynamic Nuance */}
+        <div className="mb-5 pr-8">
+          <span className="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold tracking-wide bg-blue-50 text-blue-700 border border-blue-100 mb-2">
+            {nuance.badge}
+          </span>
+          <h2 id="modal-funnel-heading" className="text-lg sm:text-2xl font-bold text-gray-900 leading-tight">
+            {nuance.title}
+          </h2>
+          <p className="text-xs sm:text-sm text-gray-600 mt-1">
+            {nuance.subtitle}
           </p>
         </div>
 
-        <form onSubmit={onSubmit} className="space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label htmlFor="pname" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Name
-              </label>
-              <input 
-                type="text"
-                id="pname"
-                name="name"
-                value={formData.name}
-                onChange={handleNameInput}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm"
-                placeholder="Enter your name"
-              />
-              {errors.name && <p className="text-[10px] text-red-500 mt-1">{errors.name}</p>}
-            </div>
-
-            <div>
-              <label htmlFor="pnumber" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Mobile Number
-              </label>
-              <input 
-                type="text"
-                id="pnumber"
-                name="number"
-                value={formData.number}
-                onChange={handleNumberInput}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm"
-                placeholder="10-digit mobile number"
-              />
-              {errors.number && <p className="text-[10px] text-red-500 mt-1">{errors.number}</p>}
-              {numberError && <p className="text-[10px] text-red-500 mt-1">{numberError}</p>}
-            </div>
+        {/* Step Progress Tracker */}
+        <div className="mb-5">
+          <div className="flex items-center justify-between text-xs font-semibold text-gray-600 mb-1.5">
+            <span>Step {step} of 3</span>
+            <span className="text-blue-600 font-medium">
+              {step === 1 ? 'Question 1' : step === 2 ? 'Question 2' : 'Final Step'}
+            </span>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label htmlFor="pemail" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> Email ID
-              </label>
-              <input 
-                type="email"
-                id="pemail"
-                name="email"
-                value={formData.email}
-                onChange={handleEmailInput}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm"
-                placeholder="example@email.com"
-              />
-              {errors.email && <p className="text-[10px] text-red-500 mt-1">{errors.email}</p>}
-            </div>
-
-            <div>
-              <label htmlFor="pstate" className="block mb-1 text-xs font-medium text-[#0C2756]">
-                <span className="text-red-500">*</span> State
-              </label>
-              <select
-                id="pstate"
-                name="state"
-                value={formData.state}
-                onChange={handleInputChange}
-                className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm appearance-none"
-              >
-                <option value="">Select State</option>
-                {[
-                  'Andaman and Nicobar Islands', 'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar',
-                  'Chandigarh', 'Chhattisgarh', 'Dadra and Nagar Haveli and Daman and Diu', 'Delhi', 'Goa',
-                  'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jharkhand', 'Karnataka', 'Kerala', 'Lakshadweep',
-                  'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha',
-                  'Puducherry', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu', 'Telangana', 'Tripura',
-                  'Uttar Pradesh', 'Uttarakhand', 'West Bengal', 'Other',
-                ].map((st) => <option key={st} value={st}>{st}</option>)}
-              </select>
-              {errors.state && <p className="text-[10px] text-red-500 mt-1">{errors.state}</p>}
-            </div>
-          </div>
-
-          <div>
-            <label htmlFor="pmessage" className="block mb-1 text-xs font-medium text-[#0C2756]">
-              Message
-            </label>
-            <textarea 
-              id="pmessage"
-              name="message"
-              value={formData.message}
-              onChange={handleInputChange}
-              rows={3}
-              className="w-full px-1 py-2 bg-transparent border-0 border-b-2 border-[#0C2756]/30 focus:border-[#0C2756] focus:outline-none transition-colors text-black text-sm resize-none"
-              placeholder="Your message or query (optional)"
+          <div className="w-full bg-gray-100 h-2 rounded-full overflow-hidden">
+            <div
+              className="bg-blue-600 h-full transition-all duration-300 rounded-full"
+              style={{ width: step === 1 ? '33.33%' : step === 2 ? '66.66%' : '100%' }}
             />
           </div>
+        </div>
 
-          <p className="text-center text-[10px] md:text-[11px] text-[#0C2756] font-medium leading-snug mt-1 mb-2">
-            By clicking submit, you agree to share these details with us for the purpose of contacting you regarding our services. Please read our <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" style={{ color: '#D97706' }} className="hover:underline">Privacy Policy</a> for more details.
-          </p>
+        {/* STEP 1: Nuance-Matched Issue */}
+        {step === 1 && (
+          <div className="space-y-4">
+            <fieldset>
+              <legend className="text-xs sm:text-sm font-semibold text-gray-900 mb-2.5 block">
+                {nuance.question1}
+              </legend>
 
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full mt-2 text-white font-semibold py-3 px-4 rounded-full transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-[1.02] active:scale-[0.98]"
-            style={{
-              background: '#007AFF',
-              boxShadow: '0 4px 14px 0 rgba(0, 122, 255, 0.39)',
-            }}
-          >
-            {loading ? 'Processing...' : 'Submit Now'}
-          </button>
-        </form>
+              <div className="space-y-2">
+                {nuance.options1.map((issue) => {
+                  const isSelected = legalIssue === issue;
+                  return (
+                    <label
+                      key={issue}
+                      onClick={() => handleSelectIssue(issue)}
+                      className={`flex items-center gap-3 p-3 sm:p-3.5 rounded-xl border cursor-pointer transition-colors min-h-[46px] select-none ${
+                        isSelected
+                          ? 'border-blue-600 bg-blue-50/60 text-gray-900'
+                          : 'border-gray-200 bg-white hover:bg-gray-50 text-gray-800'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name="modalLegalIssue"
+                        value={issue}
+                        checked={isSelected}
+                        onChange={() => handleSelectIssue(issue)}
+                        className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 flex-shrink-0 cursor-pointer"
+                      />
+                      <span className="text-xs sm:text-sm font-medium leading-relaxed">
+                        {issue}
+                      </span>
+                    </label>
+                  );
+                })}
+              </div>
+            </fieldset>
+
+            {errors.legalIssue && (
+              <p className="text-xs text-red-600 font-medium">{errors.legalIssue}</p>
+            )}
+
+            <div className="pt-2 flex justify-end">
+              <button
+                type="button"
+                onClick={() => {
+                  if (!legalIssue) {
+                    setErrors((prev) => ({
+                      ...prev,
+                      legalIssue: 'Please select an option to continue',
+                    }));
+                    return;
+                  }
+                  setStep(2);
+                }}
+                disabled={!legalIssue}
+                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-medium text-xs sm:text-sm transition-colors cursor-pointer"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* STEP 2: Debt Liability Bracket */}
+        {step === 2 && (
+          <div className="space-y-4">
+            <fieldset>
+              <legend className="text-xs sm:text-sm font-semibold text-gray-900 mb-2.5 block">
+                2. What is your approximate total debt or loan amount?
+              </legend>
+
+              <div className="space-y-2">
+                {DEBT_BRACKETS.map((bracket) => {
+                  const isSelected = debtBracket === bracket;
+                  return (
+                    <label
+                      key={bracket}
+                      onClick={() => handleSelectBracket(bracket)}
+                      className={`flex items-center gap-3 p-3 sm:p-3.5 rounded-xl border cursor-pointer transition-colors min-h-[46px] select-none ${
+                        isSelected
+                          ? 'border-blue-600 bg-blue-50/60 text-gray-900'
+                          : 'border-gray-200 bg-white hover:bg-gray-50 text-gray-800'
+                      }`}
+                    >
+                      <input
+                        type="radio"
+                        name="modalDebtBracket"
+                        value={bracket}
+                        checked={isSelected}
+                        onChange={() => handleSelectBracket(bracket)}
+                        className="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 flex-shrink-0 cursor-pointer"
+                      />
+                      <span className="text-xs sm:text-sm font-medium leading-relaxed">
+                        {bracket}
+                      </span>
+                    </label>
+                  );
+                })}
+              </div>
+            </fieldset>
+
+            {errors.debtBracket && (
+              <p className="text-xs text-red-600 font-medium">{errors.debtBracket}</p>
+            )}
+
+            <div className="pt-2 flex items-center justify-between gap-3">
+              <button
+                type="button"
+                onClick={() => setStep(1)}
+                className="px-4 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-50 font-medium text-xs sm:text-sm transition-colors cursor-pointer"
+              >
+                Back
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  if (!debtBracket) {
+                    setErrors((prev) => ({
+                      ...prev,
+                      debtBracket: 'Please select an option to continue',
+                    }));
+                    return;
+                  }
+                  setStep(3);
+                }}
+                disabled={!debtBracket}
+                className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-medium text-xs sm:text-sm transition-colors cursor-pointer"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* STEP 3: Consumer-First Contact Details */}
+        {step === 3 && (
+          <form onSubmit={handleSubmit} className="space-y-3.5">
+            <div>
+              <h3 className="text-xs sm:text-sm font-semibold text-gray-900 mb-1">
+                Let us help you resolve your loan issue
+              </h3>
+              <p className="text-xs text-gray-600 leading-relaxed">
+                Share your contact details so our legal team can connect with you, explain your relief options, and help protect you from harassment.
+              </p>
+            </div>
+
+            <div className="space-y-3 pt-1">
+              {/* Full Name */}
+              <div>
+                <label htmlFor="modal-name" className="block text-xs font-medium text-gray-700 mb-1">
+                  Full Name <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="modal-name"
+                  name="name"
+                  autoComplete="name"
+                  value={name}
+                  onChange={(e) => {
+                    setName(e.target.value);
+                    if (errors.name) setErrors((prev) => ({ ...prev, name: '' }));
+                  }}
+                  placeholder="Enter your full name"
+                  className="w-full px-3 py-2.5 rounded-lg border border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 outline-none text-xs sm:text-sm text-gray-900 bg-white"
+                />
+                {errors.name && <p className="text-[11px] text-red-600 mt-1">{errors.name}</p>}
+              </div>
+
+              {/* Mobile Number */}
+              <div>
+                <label htmlFor="modal-phone" className="block text-xs font-medium text-gray-700 mb-1">
+                  Mobile Number <span className="text-red-500">*</span>
+                </label>
+                <div className="relative flex items-center">
+                  <span className="absolute left-3 text-xs text-gray-500 select-none border-r border-gray-300 pr-2">
+                    +91
+                  </span>
+                  <input
+                    type="tel"
+                    inputMode="tel"
+                    id="modal-phone"
+                    name="number"
+                    autoComplete="tel"
+                    value={number}
+                    onChange={handlePhoneChange}
+                    onPaste={handlePhonePaste}
+                    placeholder="10-digit number"
+                    maxLength={10}
+                    className="w-full pl-12 pr-3 py-2.5 rounded-lg border border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 outline-none text-xs sm:text-sm text-gray-900 bg-white font-medium"
+                  />
+                </div>
+                {errors.number && <p className="text-[11px] text-red-600 mt-1">{errors.number}</p>}
+                {phoneError && <p className="text-[11px] text-red-600 mt-1">{phoneError}</p>}
+              </div>
+
+              {/* Email Address */}
+              <div>
+                <label htmlFor="modal-email" className="block text-xs font-medium text-gray-700 mb-1">
+                  Email Address <span className="text-red-500">*</span>
+                </label>
+                <input
+                  type="email"
+                  inputMode="email"
+                  id="modal-email"
+                  name="email"
+                  autoComplete="email"
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    if (errors.email) setErrors((prev) => ({ ...prev, email: '' }));
+                  }}
+                  placeholder="name@example.com"
+                  className="w-full px-3 py-2.5 rounded-lg border border-gray-300 focus:border-blue-600 focus:ring-1 focus:ring-blue-600 outline-none text-xs sm:text-sm text-gray-900 bg-white"
+                />
+                {errors.email && <p className="text-[11px] text-red-600 mt-1">{errors.email}</p>}
+              </div>
+            </div>
+
+            <p className="text-[10px] text-gray-500 leading-snug pt-1">
+              By submitting, you agree to receive a confidential evaluation from CredSettle regarding your loan settlement options under advocate-client privilege.
+            </p>
+
+            <div className="pt-2 flex items-center justify-between gap-3">
+              <button
+                type="button"
+                onClick={() => setStep(2)}
+                className="px-4 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-50 font-medium text-xs sm:text-sm transition-colors cursor-pointer"
+              >
+                Back
+              </button>
+              <button
+                type="submit"
+                disabled={loading}
+                className="flex-1 py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-semibold text-xs sm:text-sm transition-colors shadow-sm cursor-pointer flex items-center justify-center gap-2"
+              >
+                {loading ? (
+                  <>
+                    <svg className="animate-spin h-4 w-4 text-white" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span>Submitting...</span>
+                  </>
+                ) : (
+                  <span>Get Confidential Assessment</span>
+                )}
+              </button>
+            </div>
+          </form>
+        )}
       </div>
     </div>
   );
