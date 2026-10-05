@@ -615,7 +615,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                         { href: "/how-to-settle-loan", text: "Step-by-Step Settlement Guide" },
                                         { href: "/rbi-rules-for-recovery-agents", text: "RBI Recovery Agent Laws" },
                                         { href: "/best-lawyer-for-personal-loans", text: "Hire a Professional Negotiator" },
-                                        { href: "/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose", text: "Settlement vs. Restructuring Guide" }
+                                        { href: "/debt-settlement-vs-loan-restructuring-credit-card", text: "Settlement vs. Restructuring Guide" }
                                     ].map((link, idx) => (
                                         <Link key={idx} href={link.href} className="flex group items-start">
                                             <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>

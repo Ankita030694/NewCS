@@ -671,6 +671,21 @@ const nextConfig: NextConfig = {
         destination: "/loan-settlement-by-city",
         permanent: true,
       },
+      {
+        source: "/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose",
+        destination: "/debt-settlement-vs-loan-restructuring-credit-card",
+        permanent: true,
+      },
+      {
+        source: "/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents",
+        destination: "/block-harassment-calls-from-recovery-agents",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi",
+        destination: "/loan-settlement-vs-debt-consolidation",
+        permanent: true,
+      },
     ];
   },
   async headers() {

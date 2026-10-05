@@ -532,7 +532,7 @@ export default function ProfessionalServicesClient() {
                     <Link href="/best-apps-for-managing-and-settling-unsecured-loans" className="text-blue-600 font-medium">Best Apps for Managing Unsecured Loans</Link>
                   </li>
                   <li className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 hover:border-blue-300 transition-colors">
-                    <Link href="/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi" className="text-blue-600 font-medium">Settlement vs Consolidation</Link>
+                    <Link href="/loan-settlement-vs-debt-consolidation" className="text-blue-600 font-medium">Settlement vs Consolidation</Link>
                   </li>
                   <li className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 hover:border-blue-300 transition-colors">
                     <Link href="/does-foreclosure-of-loan-affect-cibil" className="text-blue-600 font-medium">Foreclosure and CIBIL Impact</Link>

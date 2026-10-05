@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ignore local text lists / audit notes
+SEO Issues solved url.txt
+urls.txt

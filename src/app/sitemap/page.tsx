@@ -559,7 +559,7 @@ const sitemapLinks = [
   },
   {
     "title": "Debt Settlement Vs Loan Restructuring For Credit Card Debt Relief In India Which Should I Choose",
-    "href": "/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose"
+    "href": "/debt-settlement-vs-loan-restructuring-credit-card"
   },
   {
     "title": "Digital Online Cyber Loan Disputes",
@@ -627,7 +627,7 @@ const sitemapLinks = [
   },
   {
     "title": "Loan Settlement Services Vs Debt Consolidation Companies Which Is Better For Reducing Emi",
-    "href": "/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi"
+    "href": "/loan-settlement-vs-debt-consolidation"
   },
   {
     "title": "Loan Settlement Process In Hindi",
@@ -1603,7 +1603,7 @@ const sitemapLinks = [
   },
   {
     "title": "Is There Any Mobile Software To Automatically Block Harassment Calls From Recovery Agents",
-    "href": "/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents"
+    "href": "/block-harassment-calls-from-recovery-agents"
   },
   {
     "title": "Credit Card Settlement",

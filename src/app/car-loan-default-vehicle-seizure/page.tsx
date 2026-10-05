@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import CarLoanDefaultVehicleSeizureClient from './CarLoanDefaultVehicleSeizureClient';
 
 export const metadata: Metadata = {
-  title: 'Vehicle Seizure & Repossession Rules: RBI Guidelines & Rights - CredSettle',
+  title: 'Vehicle Seizure Rules: RBI Guidelines & Borrower Rights',
   description:
     'Vehicle seized by finance company or facing recovery agent threats? Learn RBI guidelines on vehicle seizure, Supreme Court protections against illegal repossession, and legal settlement remedies.',
   keywords: [

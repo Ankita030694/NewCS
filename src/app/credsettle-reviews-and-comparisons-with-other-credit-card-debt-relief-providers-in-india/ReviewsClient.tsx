@@ -548,7 +548,7 @@ export default function ReviewsClient() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose" className="group flex items-start">
+                    <Link href="/debt-settlement-vs-loan-restructuring-credit-card" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Settlement vs Restructuring</span>
                     </Link>

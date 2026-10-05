@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import CheckBankAccountBlockedClient from './CheckBankAccountBlockedClient';
 
 export const metadata: Metadata = {
-    title: "How to Check if Bank Account is Blocked Before EMI Deduction",
+    title: "Check if Bank Account is Blocked Before EMI Deduction",
     description: "Learn how to check for bank account liens online to avoid EMI bounce penalties. Discover the signs of a frozen account and what steps to take next.",
     keywords: [
         "check if bank account is blocked",

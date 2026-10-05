@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import SettlementTimelineClient from './SettlementTimelineClient';
 
 export const metadata: Metadata = {
-    title: 'How Long Does Debt Settlement Take? | 2025 Timeline Analysis',
+    title: 'How Long Does Debt Settlement Take? Process & Timeline',
     description: 'Discover the typical timeline for debt settlement in India. Learn about the 2-4 month procedural window, bank vs NBFC speed.',
     keywords: 'how long does debt settlement typically take, debt settlement timeline india, loan settlement duration, bank settlement speed vs nbfc, debt resolution stages',
     alternates: {

@@ -7,7 +7,7 @@ import RbiGuidelinesClient from './RbiGuidelinesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'RBI July 2026 Recovery Guidelines: Rules & Borrower Legal Rights',
+  title: 'RBI July 2026 Recovery Guidelines & Borrower Rights',
   description: 'A complete guide to the RBI July 2026 recovery guidelines. Understand your legal rights against harassment, calling time limits, and unlawful debt recovery.',
   keywords: [
     'rbi july 2026 recovery guidelines',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'rbi debt collection rules'
   ],
   openGraph: {
-    title: 'RBI July 2026 Recovery Guidelines: Rules & Borrower Legal Rights',
+    title: 'RBI July 2026 Recovery Guidelines & Borrower Rights',
     description: 'Understand the sweeping changes introduced in the RBI July 2026 recovery guidelines. Stop harassment and know your legal rights against unlawful debt collection.',
     type: 'article',
     locale: 'en_IN',

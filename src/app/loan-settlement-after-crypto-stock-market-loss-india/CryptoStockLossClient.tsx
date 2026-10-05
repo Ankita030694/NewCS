@@ -194,7 +194,7 @@ export default function CryptoStockLossClient() {
               <article className="prose prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
                 
                 <section id="introduction" className="mb-16 scroll-mt-28">
-                  <h1 className="text-3xl font-bold text-gray-900 mb-6">Loan Settlement After Crypto & Stock Market Loss</h1>
+                  <h2 className="text-3xl font-bold text-gray-900 mb-6">Loan Settlement After Crypto & Stock Market Loss</h2>
                   <div className="text-gray-700 leading-relaxed text-2xl mb-10 space-y-10 font-light italic opacity-90 border-l-4 border-blue-600 pl-8">
                     <p>
                       Over 89% of retail equity traders lose money in India, and an alarming number are funding these losses through high interest personal loans or credit card cash advances. If you are facing loan default because a crypto crash or stock market margin call wiped out your borrowed capital, you need an immediate, emotionless strategy to handle the banks.

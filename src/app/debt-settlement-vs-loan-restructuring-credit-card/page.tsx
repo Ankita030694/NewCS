@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose'
+    url: 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-credit-card'
   },
   alternates: {
-    canonical: 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose'
+    canonical: 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-credit-card'
   }
 };
 
@@ -64,7 +64,7 @@ export default function RestructuringPage() {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Debt Settlement vs Loan Restructuring',
-        'item': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose'
+        'item': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-credit-card'
       }
     ]
   };
@@ -90,7 +90,7 @@ export default function RestructuringPage() {
     'dateModified': '2026-06-10',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose'
+      '@id': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-credit-card'
     }
   };
 

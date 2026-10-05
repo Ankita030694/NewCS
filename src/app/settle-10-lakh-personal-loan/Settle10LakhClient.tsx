@@ -212,7 +212,7 @@ export default function Settle10LakhClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         
 <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
-    <h1 className="text-3xl font-bold text-gray-900 mb-6">Settling a ₹10 Lakh Personal Loan in India</h1>
+    <h2 className="text-3xl font-bold text-gray-900 mb-6">Settling a ₹10 Lakh Personal Loan in India</h2>
     <p className="text-gray-700 leading-relaxed mb-6 font-medium">Defaulting on a ₹10 Lakh personal loan triggers a specialized high-value recovery protocol in most Indian banks, frequently escalating to pre-litigation notices and arbitration within 90 days. Unlike smaller unsecured debts, crossing the seven-figure threshold means automated collection calls are quickly replaced by specialized legal teams and field recovery agents.</p>
     
     <p className="text-gray-700 leading-relaxed mb-6">When you borrow a significant amount, the lender assesses the risk differently. A ₹10 Lakh unsecured personal loan represents a substantial exposure for any financial institution. The moment you miss an EMI, the clock starts ticking not just on late fees, but on a highly structured recovery process designed to secure the lenders interests. Understanding this process is the key to successfully navigating a settlement without facing severe legal repercussions. The stakes are much higher here compared to a simple credit card default, and the strategies you employ must be equally robust and well planned.</p>

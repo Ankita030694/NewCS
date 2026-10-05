@@ -5,13 +5,13 @@ import Footer from '@/components/Footer';
 import UnionBankLoanSettlementClient from './UnionBankLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Union Bank Loan Settlement 2026 | Rinn Samadhan OTS Scheme',
+  title: 'Union Bank Loan Settlement: Rinn Samadhan OTS Scheme',
   description: 'Complete guide to Union Bank of India loan settlement. Learn about the 2026 Rinn Samadhan OTS scheme, Lok Adalat process for personal & agri loans.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/union-bank',
   },
   openGraph: {
-    title: 'Union Bank Loan Settlement 2026 | Rinn Samadhan OTS Scheme',
+    title: 'Union Bank Loan Settlement: Rinn Samadhan OTS Scheme',
     description: 'Expert legal help to settle Union Bank loans. Save up to 50% through Rinn Samadhan OTS or Lok Adalat. Stop harassment today.',
     url: 'https://www.credsettle.com/loan-settlement/union-bank',
     type: 'website',

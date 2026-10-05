@@ -5,13 +5,13 @@ import Footer from '@/components/Footer';
 import BankOfBarodaLoanSettlementClient from './BankOfBarodaLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Bank of Baroda Loan Settlement 2026 | OTS & Lok Adalat Guide',
+  title: 'Bank of Baroda Loan Settlement: OTS & Lok Adalat Guide',
   description: 'Complete guide to Bank of Baroda loan settlement. Learn about the 2026 OTS Scheme, Lok Adalat process for agriculture loans.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/bank-of-baroda',
   },
   openGraph: {
-    title: 'Bank of Baroda Loan Settlement 2026 | OTS & Lok Adalat Guide',
+    title: 'Bank of Baroda Loan Settlement: OTS & Lok Adalat Guide',
     description: 'Expert legal help to settle Bank of Baroda agriculture, MSME, and personal loans. Save up to 50% through Lok Adalat or One Time Settlement schemes.',
     url: 'https://www.credsettle.com/loan-settlement/bank-of-baroda',
     type: 'website',

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Car Loan Settlement Agency in India | Settle Auto Loans - CredSettle',
+  title: 'Car Loan Settlement Agency in India | CredSettle',
   description:
     'Settle car loans and auto loans for 40% to 55% less with CredSettle, India’s premier car loan settlement agency. Prevent vehicle seizure, stop recovery harassment, and secure RBI-compliant debt relief.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/services/car-loan-settlement',
   },
   openGraph: {
-    title: 'Car Loan Settlement Agency in India | Settle Auto Loans - CredSettle',
+    title: 'Car Loan Settlement Agency in India | CredSettle',
     description:
       'Negotiate reduced lump-sum settlements on car and auto loans. Protect your vehicle from illegal repossession and get Form 35 hypothecation release.',
     url: 'https://www.credsettle.com/services/car-loan-settlement',

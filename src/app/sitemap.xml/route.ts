@@ -2920,7 +2920,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi`,
+    loc: `${baseUrl}/loan-settlement-vs-debt-consolidation`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -3355,7 +3355,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose`,
+    loc: `${baseUrl}/debt-settlement-vs-loan-restructuring-credit-card`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -3523,7 +3523,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents`,
+    loc: `${baseUrl}/block-harassment-calls-from-recovery-agents`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

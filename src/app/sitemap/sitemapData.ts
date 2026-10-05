@@ -1188,7 +1188,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Debt Settlement vs Restructuring: Credit Card Debt Guide",
-    href: "/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose",
+    href: "/debt-settlement-vs-loan-restructuring-credit-card",
     date: "10-06-2026",
   },
   {
@@ -1253,7 +1253,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Is There Any Mobile Software to Automatically Block Harassment Calls from Recovery Agents?",
-    href: "/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents",
+    href: "/block-harassment-calls-from-recovery-agents",
     date: "12-05-2026",
   },
   {
@@ -1393,7 +1393,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Loan Settlement vs Debt Consolidation: Which reduces EMI better?",
-    href: "/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi",
+    href: "/loan-settlement-vs-debt-consolidation",
     date: "11-05-2026",
   },
   {

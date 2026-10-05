@@ -7,7 +7,7 @@ import BajajHomeVisitClient from './BajajHomeVisitClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Stop Bajaj Finance Recovery Agent Harassment Home Visit 2025',
+  title: 'Bajaj Finance Recovery Agent Harassment: Legal Guide',
   description: 'Practical guide to handle and stop Bajaj Finance recovery agent harassment home visit. Stop illegal debt collection agents today using RBI rules.',
   keywords: [
     'bajaj finance recovery agent harassment home visit',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'bajaj finserv recovery harassment'
   ],
   openGraph: {
-    title: 'Stop Bajaj Finance Recovery Agent Harassment Home Visit | Legal Guide',
+    title: 'Bajaj Finance Recovery Agent Harassment: Legal Guide',
     description: 'Learn how to stop Bajaj Finance recovery agent harassment home visits permanently. Know the RBI rules and your borrower rights today.',
     type: 'website',
     locale: 'en_IN',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Stop Bajaj Finance Recovery Agent Harassment Home Visit',
+    title: 'Bajaj Finance Recovery Agent Harassment: Legal Guide',
     description: 'Expert advice on stopping Bajaj Finance recovery agents. Stop doorstep harassment entirely.'
   },
   alternates: {

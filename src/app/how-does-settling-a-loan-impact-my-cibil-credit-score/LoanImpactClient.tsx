@@ -554,7 +554,7 @@ export default function LoanImpactClient() {
                   <Link href="/can-i-convert-settled-to-closed-later" className="text-blue-600 hover:underline">Convert Settled to Closed Status</Link>
                   <Link href="/is-cibil-ruined-forever-after-settlement" className="text-blue-600 hover:underline">Is CIBIL Ruined Forever?</Link>
                   <Link href="/what-are-the-advantages-and-disadvantages-of-loan-settlement" className="text-blue-600 hover:underline">Pros and Cons of Settlement</Link>
-                  <Link href="/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose" className="text-blue-600 hover:underline">Settlement vs. Restructuring Guide</Link>
+                  <Link href="/debt-settlement-vs-loan-restructuring-credit-card" className="text-blue-600 hover:underline">Settlement vs. Restructuring Guide</Link>
                 </div>
               </div>
 
@@ -596,7 +596,7 @@ export default function LoanImpactClient() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose" className="group flex items-start">
+                    <Link href="/debt-settlement-vs-loan-restructuring-credit-card" className="group flex items-start">
                       <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 group-hover:scale-125 transition-transform"></div>
                       <span className="text-gray-600 group-hover:text-blue-600 transition-colors">Settlement vs Restructuring</span>
                     </Link>

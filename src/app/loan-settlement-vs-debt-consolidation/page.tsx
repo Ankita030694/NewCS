@@ -3,56 +3,56 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import IsThereAnyMobileSoftwareClient from './IsThereAnyMobileSoftwareClient';
+import LoanSettlementVsDebtConsolidationClient from './LoanSettlementVsDebtConsolidationClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Is There Any Mobile Software to Automatically Block',
-  description: 'Learn about mobile software and legal strategies to automatically block harassment calls from recovery agents. Protect yourself with CredSettle.',
+  title: 'Loan Settlement vs Debt Consolidation',
+  description: 'Struggling with high EMIs? Compare loan settlement services and debt consolidation companies. Find out which is better for reducing your monthly debt.',
   keywords: [
-    'mobile software to block harassment calls',
-    'block recovery agents',
-    'loan recovery harassment',
-    'RBI guidelines recovery agents',
-    'stop recovery agent calls',
-    'best apps to block recovery agents',
-    'legal rights against recovery agents',
-    'AMA Legal Solutions app',
-    'CredSettle',
-    'SettleLoans'
+    'loan settlement vs debt consolidation',
+    'reducing emi',
+    'debt relief india',
+    'loan settlement services',
+    'debt consolidation companies',
+    'how to reduce loan emi',
+    'debt management plan',
+    'credit card debt settlement',
+    'personal loan consolidation',
+    'financial distress solutions'
   ],
   openGraph: {
-    title: 'Stop Recovery Agent Harassment: Mobile Software and Legal Rights',
-    description: 'Stop unwanted calls today. Explore the best mobile apps and legal steps to block harassment from recovery agents in India.',
+    title: 'Loan Settlement vs Debt Consolidation: Best for EMI Reduction',
+    description: 'A comprehensive guide comparing loan settlement and debt consolidation for reducing monthly EMIs and achieving debt freedom.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+    url: 'https://www.credsettle.com/loan-settlement-vs-debt-consolidation'
   },
   alternates: {
-    canonical: 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+    canonical: 'https://www.credsettle.com/loan-settlement-vs-debt-consolidation'
   }
 };
 
-export default function IsThereAnyMobileSoftwarePage() {
+export default function LoanSettlementVsDebtConsolidationPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LegalService',
-    '@id': 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents',
-    name: 'CredSettle Debt Protection Services',
+    '@type': 'FinancialService',
+    '@id': 'https://www.credsettle.com/loan-settlement-vs-debt-consolidation',
+    name: 'CredSettle Debt Advisory Services',
     url: 'https://www.credsettle.com',
     logo: 'https://www.credsettle.com/credsettle-logo.svg',
-    description: 'Expert legal and technological solutions to stop harassment from recovery agents and settle debts honorably.',
+    description: 'Expert guidance on loan settlement and debt consolidation to help you reduce EMIs and manage debt effectively.',
     telephone: '+91-8800226635',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'New Delhi',
-      addressRegion: 'Delhi',
+      addressLocality: 'Gurugram',
+      addressRegion: 'Haryana',
       addressCountry: 'IN'
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.9',
+      ratingValue: '4.8',
       reviewCount: '1250',
       bestRating: '5',
       worstRating: '1'
@@ -62,15 +62,15 @@ export default function IsThereAnyMobileSoftwarePage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Amit Sharma'
+          'name': 'Amit Verma'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'CredSettle helped me stop the constant harassment from recovery agents. Their legal approach is very effective.',
+        'reviewBody': 'CredSettle helped me understand the difference between settlement and consolidation. Their advice on reducing my EMI was life-changing.',
         'itemReviewed': {
-          '@type': 'LegalService',
+          '@type': 'FinancialService',
           'name': 'CredSettle'
         }
       },
@@ -78,47 +78,47 @@ export default function IsThereAnyMobileSoftwarePage() {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Priya Verma'
+          'name': 'Priya Sharma'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'The AMA Legal Solutions app is a lifesaver. It helped me understand my rights and block unwanted calls.',
+        'reviewBody': 'I was confused between a consolidation loan and settlement. CredSettle provided a clear roadmap that helped me reduce my monthly burden significantly.',
         'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'AMA Legal Solutions'
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
         }
       },
       {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Suresh Gupta'
+          'name': 'Sandeep Gupta'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'SettleLoans provided a clear path to debt freedom. No more harassment calls!',
+        'reviewBody': 'The best consultancy for anyone struggling with multiple EMIs. They actually care about your financial health.',
         'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'SettleLoans'
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
         }
       },
       {
         '@type': 'Review',
         'author': {
           '@type': 'Person',
-          'name': 'Megha Iyer'
+          'name': 'Meera Nair'
         },
         'reviewRating': {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'I was terrified of recovery agents until I contacted CredSettle. They took over all communications and stopped the harassment.',
+        'reviewBody': 'Very professional team. They explained the legal risks and benefits of both options very clearly.',
         'itemReviewed': {
-          '@type': 'LegalService',
+          '@type': 'FinancialService',
           'name': 'CredSettle'
         }
       },
@@ -132,10 +132,10 @@ export default function IsThereAnyMobileSoftwarePage() {
           '@type': 'Rating',
           'ratingValue': '5'
         },
-        'reviewBody': 'Excellent guidance on using technology to block spam. The combination of apps and legal advice worked wonders.',
+        'reviewBody': 'Highly recommend their services for debt relief. They saved me from a lot of mental stress.',
         'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'AMA Legal Solutions'
+          '@type': 'FinancialService',
+          'name': 'CredSettle'
         }
       }
     ]
@@ -154,8 +154,8 @@ export default function IsThereAnyMobileSoftwarePage() {
       {
         '@type': 'ListItem',
         'position': 2,
-        'name': 'Block Recovery Harassment',
-        'item': 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+        'name': 'Loan Settlement vs Debt Consolidation',
+        'item': 'https://www.credsettle.com/loan-settlement-vs-debt-consolidation'
       }
     ]
   };
@@ -163,17 +163,25 @@ export default function IsThereAnyMobileSoftwarePage() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    'headline': 'Is There Any Mobile Software to Automatically Block Harassment Calls from Recovery Agents? A Complete Guide',
-    'description': 'Discover the best mobile software and legal methods to stop harassment from loan recovery agents. Learn your rights and how to protect your privacy.',
+    'headline': 'Loan Settlement vs Debt Consolidation: Which is Better for Reducing EMI?',
+    'description': 'A detailed comparison between loan settlement services and debt consolidation companies to help you decide the best path for EMI reduction.',
     'author': {
       '@type': 'Organization',
       'name': 'CredSettle'
     },
-    'datePublished': '2025-05-12',
-    'dateModified': '2026-05-12',
+    'datePublished': '2025-05-11',
+    'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://www.credsettle.com/is-there-any-mobile-software-to-automatically-block-harassment-calls-from-recovery-agents'
+      '@id': 'https://www.credsettle.com/loan-settlement-vs-debt-consolidation'
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'CredSettle',
+      'logo': {
+        '@type': 'ImageObject',
+        'url': 'https://www.credsettle.com/credsettle-logo.svg'
+      }
     }
   };
 
@@ -184,11 +192,10 @@ export default function IsThereAnyMobileSoftwarePage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-      {/* Hero Section */}
-      <section 
+      <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"
         style={{
-          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #1a365d 0%, #001235 100%)',
+          background: 'radial-gradient(136.19% 254.89% at -1.53% 10.35%, #0c2756 0%, #001235 100%)',
           minHeight: '50vh',
           display: 'flex',
           alignItems: 'center',
@@ -197,25 +204,25 @@ export default function IsThereAnyMobileSoftwarePage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Stop Recovery Agent<br />
-            <span className="text-blue-400">Harassment Calls Automatically</span>
+            Loan Settlement vs Debt Consolidation:<br />
+            <span className="text-blue-400">Which is Better for Reducing EMI?</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
-            Tired of constant threats? Explore the best mobile software and legal frameworks to block harassment and regain your peace of mind today.
+            Struggling with multiple loan payments? Discover whether settling your debts or consolidating them into one loan is the most effective way to lower your monthly EMI burden.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
-            <Link 
+            <Link
               href="/contact"
               className="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Get Expert Legal Help
+              Get Free Debt Assessment
             </Link>
           </div>
         </div>
       </section>
 
-      <IsThereAnyMobileSoftwareClient />
-      
+      <LoanSettlementVsDebtConsolidationClient />
+
       <Footer />
     </div>
   );

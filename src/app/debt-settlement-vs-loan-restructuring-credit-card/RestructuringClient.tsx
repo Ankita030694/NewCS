@@ -192,19 +192,19 @@ export default function RestructuringClient() {
         '@type': 'HowToStep',
         'name': 'Perform Hardship Audit',
         'text': 'Analyze your total outstanding balance across all cards, your current monthly cash flow, and gather proof of financial distress such as medical logs or salary slips.',
-        'url': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose#step1'
+        'url': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-credit-card#step1'
       },
       {
         '@type': 'HowToStep',
         'name': 'Contact the Bank\'s Recovery Division',
         'text': 'Reach out to the grievance cell or credit card recovery division of your bank to request restructuring (before 90-day default) or a one-time settlement proposal.',
-        'url': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose#step2'
+        'url': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-credit-card#step2'
       },
       {
         '@type': 'HowToStep',
         'name': 'Secure Written Sanction',
         'text': 'Obtain a formal written approval or compromise settlement sanction letter on the bank\'s letterhead before paying any negotiated amount.',
-        'url': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose#step3'
+        'url': 'https://www.credsettle.com/debt-settlement-vs-loan-restructuring-credit-card#step3'
       }
     ]
   };

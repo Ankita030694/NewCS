@@ -428,7 +428,7 @@ export default function UnderstandingCCInterestClient() {
                             </div>
                             
                             <p className="text-gray-700 leading-relaxed mb-10 font-normal">
-                                When applying for a personal loan for this purpose, it is vital to ensure that the EMI is affordable within your monthly budget to prevent defaulting on the new loan. To compare restructuring strategies, read about <Link href="/debt-settlement-vs-loan-restructuring-for-credit-card-debt-relief-in-india-which-should-i-choose" className="text-blue-600 font-bold underline">debt settlement vs loan restructuring</Link>.
+                                When applying for a personal loan for this purpose, it is vital to ensure that the EMI is affordable within your monthly budget to prevent defaulting on the new loan. To compare restructuring strategies, read about <Link href="/debt-settlement-vs-loan-restructuring-credit-card" className="text-blue-600 font-bold underline">debt settlement vs loan restructuring</Link>.
                             </p>
 
                             <h2 id="lifestyle-changes" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 8: Budgeting and Lifestyle Adjustments</h2>

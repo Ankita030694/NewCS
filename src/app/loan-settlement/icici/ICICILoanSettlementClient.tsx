@@ -223,7 +223,7 @@ export default function ICICILoanSettlementClient() {
           <div className="lg:w-2/3 w-full">
             <article className="prose prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
               
-              <h1 className="text-4xl font-bold text-gray-900 mb-2">ICICI Loan Settlement Services</h1>
+              <h2 className="text-4xl font-bold text-gray-900 mb-2">ICICI Loan Settlement Services</h2>
               <p className="text-xl text-gray-500 mb-8 font-light">
                 Resolve your ICICI Bank Personal Loan and Credit Card defaults legally. Save up to 50% on outstanding dues with our RBI-compliant settlement process.
               </p>

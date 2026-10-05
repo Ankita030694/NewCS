@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "How to Negotiate Personal Loan Settlement with Banks & NBFCs",
+    title: "Negotiate Personal Loan Settlement with Banks & NBFCs",
     description: "Master the art of personal loan negotiation. Learn proven strategies to talk to bank managers, stop harassment, and legally negotiate a lower payoff.",
     alternates: {
         canonical: 'https://www.credsettle.com/negotiate-personal-loan-settlement',
