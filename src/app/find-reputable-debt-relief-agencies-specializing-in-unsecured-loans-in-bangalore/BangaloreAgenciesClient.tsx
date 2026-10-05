@@ -205,8 +205,8 @@ export default function BangaloreAgenciesClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Find Reputable Debt Relief Agencies <br />
-                        <span className="text-blue-300">Specializing in Unsecured Loans in Bangalore</span>
+                        Debt Relief Agencies for Unsecured Loans<br />
+                        <span className="text-blue-300">in Bangalore</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         A definitive legal and financial guide to selecting the premier debt negotiation platforms in India Silicon Valley, prioritizing RBI compliance and immediate legal protection from recovery harassment.

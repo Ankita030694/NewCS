@@ -7,7 +7,7 @@ import DebtManagementClient from './DebtManagementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '#1 Debt Management Services in India',
+  title: 'Top Debt Management Services in India | CredSettle',
   description: 'Struggling with debt? Get the #1 debt management services in India. We help you consolidate loans, negotiate settlements.',
   keywords: [
     'debt management services in india',

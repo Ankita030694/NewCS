@@ -289,7 +289,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Statutory Authority &amp; Mandatory SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                RBI Guidelines on Vehicle Seizure &amp; Statutory Procedure for Hypothecated Assets
+                RBI Guidelines on Vehicle Seizure for Hypothecated Assets
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When a borrower defaults on an auto loan, banks and NBFCs frequently deploy third-party collection agencies that unlawfully threaten on-the-spot vehicle lifting or intercept drivers on highways. Under the <strong>RBI Master Circular on Loans and Advances</strong> and the <strong>Fair Practices Code for Lenders</strong>, financiers are bound by strict statutory procedures before taking possession of any hypothecated movable property.
@@ -481,7 +481,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Comparative Strategic Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Vehicle Resolution Matrix: Comparing Car Loan Settlement vs Repossession
+                3. Vehicle Resolution Matrix: Loan Settlement vs Repossession
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Evaluating available auto loan resolution routes is critical to prevent distress asset loss. This matrix compares key trade-offs across five avenues:
@@ -753,7 +753,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Grievance Escalation Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. 3-Tier Grievance Redressal Matrix: Auto Lender &amp; Recovery Agent Accountability
+                7. 3-Tier Grievance Redressal Matrix for Auto Loan Defaults
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If recovery agents violate RBI guidelines through harassment, abusive calls, or repossession threats, borrowers can escalate through three regulatory tiers:

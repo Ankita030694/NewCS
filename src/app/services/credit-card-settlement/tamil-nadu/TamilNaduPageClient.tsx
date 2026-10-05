@@ -136,8 +136,9 @@ export default function TamilNaduPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Chennai Tamil Nadu - Break Free From Auto Industry Debt
-              </h1>
+                        Credit Card Settlement in Chennai,<br />
+                        <span className="text-blue-200">Coimbatore &amp; Tamil Nadu</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

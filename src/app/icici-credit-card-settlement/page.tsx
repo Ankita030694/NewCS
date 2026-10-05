@@ -7,7 +7,7 @@ import IciciCreditCardSettlementClient from './IciciCreditCardSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'ICICI Credit Card Settlement Guide',
+  title: 'ICICI Credit Card Settlement Process & Guide | CredSettle',
   description: 'Learn how to negotiate an ICICI credit card settlement effectively. Discover RBI guidelines, stop recovery agent harassment, and protect your legal rights.',
   keywords: [
     'ICICI credit card settlement',

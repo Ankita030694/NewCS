@@ -116,8 +116,8 @@ export default function JailForLoanClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Can You Go to Jail for Not Paying a Personal Loan?<br />
-                        <span className="text-blue-300">The Truth About Arrest Threats</span>
+                        Can You Go to Jail for Not Paying Personal Loan?<br />
+                        <span className="text-blue-300">The Legal Reality</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expose the fake FIRs and forged arrest warrants used by recovery agents. Learn why an unsecured loan default is a civil dispute, not a crime.

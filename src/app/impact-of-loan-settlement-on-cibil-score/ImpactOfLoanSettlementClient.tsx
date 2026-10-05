@@ -129,7 +129,7 @@ export default function ImpactOfLoanSettlementClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Impact of Loan Settlement on CIBIL Score<br />
-                        <span className="text-blue-300">The Hidden Cost of Debt Relief</span>
+                        <span className="text-blue-300">&amp; Credit Health Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         People jump into loan settlements just to stop the calls, without realizing it tags their credit report as "Settled", severely tanking their score.

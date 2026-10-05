@@ -7,7 +7,7 @@ import FullFinalSettlementClient from './FullFinalSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Initiate Full and Final Settlement with Your Bank',
+  title: 'Initiate Full & Final Settlement with Banks | CredSettle',
   description: 'Learn the exact steps to initiate a full and final settlement discussion with your bank. Negotiate debt relief, handle recovery agents.',
   keywords: [
     'how to initiate full and final settlement with bank',

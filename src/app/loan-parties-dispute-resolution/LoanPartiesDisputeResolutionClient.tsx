@@ -297,7 +297,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
                             <section className="mb-16">
-                                <h2 id="introduction" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-24">Mediating the Multi-Party Loan Maze: Expert Resolution Strategies for 2025</h2>
+                                <h2 id="introduction" className="text-3xl font-bold text-slate-900 mb-6 scroll-mt-24">Multi-Party Loan Disputes: Expert Resolution Strategies</h2>
                                 <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-8 font-medium">
                                     Loan agreements are rarely isolated contracts between a single person and a bank. In reality, they are complex webs of inter-dependence involving co-applicants, secondary borrowers, corporate guarantors, and sometimes even sub-lessors. When defaults occur or business partnerships dissolve, these inter-twined liabilities can lead to explosive legal disputes.
                                 </div>

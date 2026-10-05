@@ -7,7 +7,7 @@ import CompareClient from './CompareClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'CredSettle vs Other Debt Settlement Companies in India',
+  title: 'CredSettle vs Other Debt Settlement Companies Comparison',
   description: 'CredSettle vs other debt settlement companies in India: Compare features, success rates, and legal protections. Secure your financial freedom now!',
   keywords: [
     'credsettle vs other debt settlement companies',

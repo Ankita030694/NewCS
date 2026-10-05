@@ -288,7 +288,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
                 <span>Financial Analysis &amp; Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: How Much to Pay to Settle a ₹25 Lakh Personal Loan?
+                2. How Much to Pay to Settle a ₹25 Lakh Personal Loan?
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Following default, lenders rapidly inflate the claimed balance with compounded penal interest rates (24% to 36% per annum), overdue late charges, and mandate bounce fees. Within 12 months, an original principal balance of ₹20.5 Lakhs escalates into an inflated recovery demand claiming ₹33 Lakhs to ₹38 Lakhs. Strategic debt settlement isolates the true net principal and eliminates all non-contractual penal levies:
@@ -351,7 +351,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
                 <span>Resolution Pathways Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Settlement vs. DRT Litigation vs. Default
+                3. Resolution Matrix: Settlement vs DRT vs Default
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Borrowers confronting a defaulted ₹25 Lakh personal loan have five primary resolution pathways available under Indian law:
@@ -422,7 +422,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
                 <span>CIBIL Algorithm &amp; Scoring Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Math: Impact of a ₹25 Lakh Personal Loan Settlement
+                4. CIBIL Score Impact of a ₹25 Lakh Loan Settlement
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Credit bureaus calculate CIBIL scores across five weighted parameters: Payment History (35%), Credit Exposure (30%), Credit Longevity (15%), Credit Mix (10%), and Recent Inquiries (10%).
@@ -519,7 +519,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
                 <span>Step-by-Step Resolution SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure (SOP): 6 Stages to Settle a ₹25 Lakh Personal Loan
+                5. 6-Stage SOP to Settle a ₹25 Lakh Personal Loan
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Settling a high-stakes ₹25 Lakh loan requires adhering to a structured 6-stage standard operating procedure to counter litigation, eliminate harassment, and maximize principal waiver:
@@ -635,7 +635,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timelines &amp; Milestone Resolution Table (Day 0 to Month 6)
+                8. Settlement Timelines & Milestone Table (Day 0 to Month 6)
               </h2>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
@@ -691,7 +691,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
                 <span>High-Value Real-World Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Multi-Lender Portfolios, Business Debt &amp; ARCs
+                9. Special Scenarios: Multi-Lender Portfolios & ARCs
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">

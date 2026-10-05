@@ -7,7 +7,7 @@ import SettleSelfClient from './SettleSelfClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Can I Settle My Debts Without a Third-Party Company?',
+  title: 'How to Settle Debts Without a Third Party | CredSettle',
   description: 'Learn how to settle your debts without a third-party company. A comprehensive guide on DIY debt settlement, negotiation strategies.',
   keywords: [
     'settle debts without third party company',

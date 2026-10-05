@@ -316,7 +316,7 @@ export default function RestructuringClient() {
               </div>
 
               {/* SECTION 1 */}
-              <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">What is credit card debt settlement?</h2>
+              <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Understanding Credit Card Debt Settlement Mechanics</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-6">
                 <p className="font-semibold text-blue-900 bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
                   Credit card debt settlement is a negotiated agreement where a lender agrees to accept a one-time lump sum payment that is less than the total outstanding balance to close the account. In India, banks typically write off a significant portion of interest and penalty charges, allowing defaults to be settled for 30% to 70% of the total amount.
@@ -337,7 +337,7 @@ export default function RestructuringClient() {
               </div>
 
               {/* SECTION 2 */}
-              <h2 id="what-is-restructuring" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">What is credit card loan restructuring?</h2>
+              <h2 id="what-is-restructuring" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Understanding Credit Card Loan Restructuring Terms</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-6">
                 <p className="font-semibold text-blue-900 bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500">
                   Credit card loan restructuring is a formal process where a lender modifies the terms of your existing credit card debt, such as extending the repayment tenure, lowering the interest rate, or converting the outstanding balance into structured monthly installments (EMIs). This helps borrowers avoid default by making monthly payments more affordable.

@@ -263,7 +263,7 @@ export default function LokAdalatPersonalLoanClient() {
                 <span>Statutory Dispute Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. What is a Lok Adalat Personal Loan Notice? (Legal Services Authorities Act, 1987)
+                1. What is a Lok Adalat Personal Loan Notice? (LSA Act 1987)
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When an individual defaults on unsecured personal loan Equated Monthly Installments (EMIs) due to involuntary financial distress—such as acute medical emergencies, business loss, or sudden unemployment—scheduled commercial banks, cooperative banks, and Non-Banking Financial Companies (NBFCs) frequently issue notices referring the matter to a <strong>Lok Adalat</strong> (People&apos;s Court).
@@ -318,7 +318,7 @@ export default function LokAdalatPersonalLoanClient() {
                 <span>Legal Rights &amp; Civil Protection</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Is a Lok Adalat Notice Mandatory? (Debunking Arrest, Warrant &amp; Police Myths)
+                2. Is a Lok Adalat Notice Mandatory? Legal Realities & Rights
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Receiving an official-looking notice stamped with &quot;District Legal Services Authority&quot; or &quot;Pre-Litigation Case Summons&quot; often induces extreme panic among borrowers. Aggressive recovery agencies frequently exploit this confusion by falsely claiming that ignoring the notice will lead to non-bailable arrest warrants, police detention, or immediate home attachment.
@@ -646,7 +646,7 @@ export default function LokAdalatPersonalLoanClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Standard Operating Procedure (SOP): 6 Stages of Lok Adalat Settlement
+                6. 6 Stages of Lok Adalat Personal Loan Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Execute this rigorous, institutional step-by-step operating procedure to navigate the Lok Adalat settlement process and secure optimal financial waivers:

@@ -183,7 +183,7 @@ export default function LegalHelpNonClosureClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Legal Help for Non-Closure of Settled Loan<br />
-                        <span className="text-blue-300">Enforce Your Rights under RBI 2025 Norms</span>
+                        <span className="text-blue-300">Rights Under RBI Norms</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Paid your settlement but the loan remains open? Dealing with CIBIL discrepancies or missing NOC? Get expert legal help to clear your record and claim mandated penalties.

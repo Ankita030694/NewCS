@@ -264,7 +264,7 @@ export default function EcsNachBounceSection25Client() {
                 <span>Statutory Foundations</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. What is a Section 25 Notice under the Payment and Settlement Systems Act, 2007?
+                1. What is a Section 25 Notice Under the PSS Act, 2007?
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 In India&apos;s digital banking ecosystem, the vast majority of retail credit facilities—including personal loans, digital credit lines, vehicle loans, and business term loans—rely on automated electronic clearing instructions rather than paper cheques. When a borrower authorizes an <strong>Electronic Clearing Service (ECS)</strong>, <strong>National Automated Clearing House (NACH)</strong>, or <strong>e-NACH mandate</strong>, the lending institution presents scheduled monthly debits directly to the borrower&apos;s savings or current account.
@@ -319,7 +319,7 @@ export default function EcsNachBounceSection25Client() {
                 <span>Criminal Penalties &amp; Constitutional Realities</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Is an ECS/NACH Bounce a Criminal Offense? Punishment, Bail &amp; Legal Realities
+                2. Is an ECS/NACH Bounce a Criminal Offense? Legal Realities
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Borrowers receiving a Section 25 notice are often subjected to aggressive threats by third-party recovery agencies claiming that an auto-debit bounce leads to immediate police arrest, non-bailable warrants, and jail time. It is vital to separate statutory reality from unlawful recovery intimidation.
@@ -426,7 +426,7 @@ export default function EcsNachBounceSection25Client() {
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Legal Forum Comparison: Section 25 PSS Act vs. Section 138 NI Act vs. Other Forums
+                4. Section 25 PSS Act vs Section 138 NI Act Comparison
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Understand how a Section 25 NACH bounce notice compares against physical cheque bounce cases, private arbitration, civil suits, and Lok Adalat settlements:
@@ -610,7 +610,7 @@ export default function EcsNachBounceSection25Client() {
                 <span>Step-by-Step Defense SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Standard Operating Procedure (SOP): 6 Stages of Section 25 Notice Defense
+                6. 6-Stage Defense Process for Section 25 PSS Act Notices
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Follow this battle-tested, sequential protocol to defend your rights upon receiving a Section 25 legal notice:

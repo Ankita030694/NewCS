@@ -196,9 +196,9 @@ export default function NriLoanDefaultPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            NRI Loan Default in India: Settle From Abroad<br />
-            <span className="text-blue-300">Stop Harassment & Protect Assets</span>
-          </h1>
+                        NRI Loan Default in India: Settle Abroad<br />
+            <span className="text-blue-300">&amp; Protect Your Assets</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
             Defaulted on a loan in India while living overseas? Learn how to legally halt recovery agent harassment and settle your debt remotely using a Power of Attorney.
           </p>

@@ -136,8 +136,9 @@ export default function HaryanaPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Loan Settlement Gurgaon Faridabad Haryana - Corporate and Industrial Focus
-              </h1>
+                        Personal Loan Settlement in Gurgaon,<br />
+                        <span className="text-blue-200">Faridabad &amp; Haryana</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

@@ -136,9 +136,9 @@ export default function FullAndFinalSettlementMeaningClient() {
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           {/* Title / H1 */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-sm">
-            What Does &quot;Full and Final Settlement&quot; <br />
-            <span className="text-blue-100">Actually Mean? Legal &amp; CIBIL Guide</span>
-          </h1>
+                        What Does Full and Final Settlement Mean?<br />
+                        <span className="text-blue-300">Legal &amp; CIBIL Guide</span>
+                    </h1>
 
           {/* Subtitle */}
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal md:font-medium text-white/95 leading-relaxed">
@@ -379,7 +379,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>Documentation &amp; Evidentiary Hierarchy</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                2. Critical Distinction: Settlement Sanction Letter vs. No Dues Certificate (NOC/NDC)
+                2. Settlement Sanction Letter vs No Dues Certificate (NDC)
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 One of the most catastrophic mistakes borrowers make is assuming that receiving an OTS Sanction Letter means their debt is closed. In legal reality, the Settlement Sanction Letter and the No Dues Certificate occupy diametrically opposed positions in the debt resolution lifecycle:
@@ -629,7 +629,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                5. 6-Stage Standard Operating Procedure (SOP) to Execute an Airtight F&amp;F Settlement
+                5. 6-Stage SOP to Execute a Full and Final Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 To prevent post-settlement legal disputes, unauthorized balance revival, or perpetual bureau default tags, follow this strict 6-stage operational protocol developed by CredSettle debt resolution professionals:
@@ -735,7 +735,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>Statutory Enactments &amp; Contractual Mechanics</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                6. Contract Act §63 &amp; Statutory Legal Protections: Why Lenders Cannot Revive Settled Debt
+                6. Section 63 Contract Act: Why Lenders Cannot Revive Settled Debt
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Many borrowers fear that years after settling a loan, the bank or an aggressive collection agency might resurface to demand the waived balance. Under Indian jurisprudence, a properly executed Full and Final Settlement is fortified by foundational statutory protections that legally extinguish the creditor&apos;s claims.
@@ -795,7 +795,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>Grievance Redressal Architecture</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                7. 3-Tier Escalation Matrix: Enforcing Compliance &amp; Resolving Grievances
+                7. 3-Tier Escalation Matrix for Settlement Compliance
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If your lending institution delays issuing your No Dues Certificate, continues recovery harassment post-settlement, or fails to update TransUnion CIBIL, execute this structured 3-tier escalation hierarchy:
@@ -956,7 +956,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>Specialized Domain Scenarios</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                9. Specialized Scenarios: Credit Cards, ARCs, and Digital Fintech Loan Apps
+                9. Special Scenarios: Credit Cards, ARCs & Fintech Apps
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

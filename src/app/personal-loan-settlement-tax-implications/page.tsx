@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "Tax Implications of Personal Loan Settlement in India",
+    title: 'Tax Implications of Loan Settlement in India | CredSettle',
     description: "Do you have to pay taxes on a settled loan? Understand the income tax implications of personal loan settlement and debt waivers in India.",
     alternates: {
         canonical: 'https://www.credsettle.com/personal-loan-settlement-tax-implications',

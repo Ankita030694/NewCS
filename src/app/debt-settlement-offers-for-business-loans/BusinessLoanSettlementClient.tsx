@@ -199,8 +199,8 @@ export default function BusinessLoanSettlementClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Strategic Debt Settlement Offers for Business Loans<br />
-                        <span className="text-blue-400">The 2025 MSME Resolution Roadmap</span>
+                        Debt Settlement Offers for Business Loans:<br />
+                        <span className="text-blue-300">MSME Resolution Roadmap</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
                         Facing an NPA classified business loan? Leverage the latest RBI compromise settlement frameworks and NBFC OTS schemes to resolve your corporate debt and restart your business journey.

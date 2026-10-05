@@ -212,7 +212,7 @@ export default function NegotiationLowerPrincipalClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         How to Negotiate a Lower Principal Amount<br />
-                        <span className="text-blue-300">for Creditors - 2025 Master Class</span>
+                        <span className="text-blue-300">With Creditors</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Don’t just settle for interest waivers. Learn the exact legal frameworks and psychological anchors needed to slash your principal balance and walk away debt-free.

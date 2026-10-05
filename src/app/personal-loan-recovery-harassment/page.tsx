@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import PersonalLoanRecoveryHarassmentClient from './PersonalLoanRecoveryHarassmentClient';
 
 export const metadata: Metadata = {
-    title: "Stop Personal Loan Recovery Harassment",
+    title: 'How to Stop Personal Loan Recovery Harassment | CredSettle',
     description: "Learn how to stop personal loan recovery harassment immediately. Know RBI rules for loan recovery agents, file a complaint against bank recovery agents.",
     keywords: [
         "stop personal loan recovery harassment",

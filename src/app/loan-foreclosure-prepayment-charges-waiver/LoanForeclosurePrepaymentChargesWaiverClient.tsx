@@ -147,8 +147,8 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Loan Foreclosure & Prepayment Charges Waiver 2025<br />
-                        <span className="text-blue-300">Stop Paying Hidden Bank Penalties</span>
+                        Loan Foreclosure &amp; Prepayment Charges Waiver<br />
+                        <span className="text-blue-300">Legal Rules &amp; Guidelines</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Banks impose massive, hidden foreclosure penalties on business and personal loans. Learn how to negotiate, use RBI guidelines, and write legally precise hardship letters to get 100% of these charges waived.

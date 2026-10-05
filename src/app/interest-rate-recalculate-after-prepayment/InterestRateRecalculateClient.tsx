@@ -119,8 +119,8 @@ export default function InterestRateRecalculateClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How Is the Interest Rate Recalculated After a Prepayment?<br />
-                        <span className="text-blue-300">The Ultimate Amortization Guide</span>
+                        How Interest Is Recalculated After Prepayment<br />
+                        <span className="text-blue-300">Amortization Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Demystifying the daily reducing balance method, EMI restructuring, and the mathematical truth behind loan part payments. Learn how reducing your principal changes everything.

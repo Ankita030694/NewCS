@@ -242,7 +242,7 @@ export default function TrackingStatusClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Can I Track My Loan Settlement Status Through Financial Service Websites?</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Tracking Loan Settlement Status on Financial Websites</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the modern era of digital finance, transparency has become a cornerstone of the borrower and lender relationship. For individuals navigating the complex path of debt resolution, the question "<strong>Can I track my loan settlement status through financial service websites?</strong>" is more relevant than ever. The answer is a resounding yes, but the method and depth of information available depend significantly on the platform you choose to partner with. Traditionally, loan settlement was a black box where borrowers waited for weeks for a physical letter or a phone call that might never come. Today, the landscape has shifted toward real-time dashboards and digital accountability.

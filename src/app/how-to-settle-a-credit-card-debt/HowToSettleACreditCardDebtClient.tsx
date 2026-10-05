@@ -158,7 +158,7 @@ export default function HowToSettleACreditCardDebtClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 

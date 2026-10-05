@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import CreditCardFIRClient from './CreditCardFIRClient';
 
 export const metadata: Metadata = {
-  title: 'Do Banks File FIR for Credit Card Dues?',
+  title: 'Can Banks File an FIR for Credit Card Dues? | CredSettle',
   description: 'Worried about FIR for credit card default? Learn if banks can file police cases for non-payment of credit card dues in India.',
   keywords: [
     'FIR for credit card dues',

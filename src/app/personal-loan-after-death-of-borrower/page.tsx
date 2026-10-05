@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import PersonalLoanAfterDeathClient from './PersonalLoanAfterDeathClient';
 
 export const metadata: Metadata = {
-  title: 'Does Family Have to Repay a Personal Loan After Death?',
+  title: 'Who Pays Personal Loan After Borrower Death? | CredSettle',
   description:
     'If a borrower passes away, who pays their unsecured personal loan? Discover the legal liability of legal heirs and how to handle bank recovery agents.',
   keywords: [

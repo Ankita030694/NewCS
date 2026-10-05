@@ -336,7 +336,7 @@ export default function AffordableDebtSettlementClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Affordable Debt Settlement Plans for Salaried Individuals: Navigating Your Path to Financial Freedom</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Affordable Debt Settlement Plans for Salaried Individuals</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   For many salaried individuals in India, the dream of a stable financial future often gets clouded by the mounting pressure of debt. Whether it is an unexpected medical emergency, a sudden loss of income in the family, or simply the compounding interest of multiple credit cards, the weight of financial obligations can become unbearable. An <strong>affordable debt settlement plan for salaried individuals</strong> is not just a financial tool; it is a lifeline designed to restore peace of mind and provide a realistic exit strategy from the cycle of debt.

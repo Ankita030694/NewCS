@@ -136,8 +136,9 @@ export default function WestBengalPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Personal Loan Settlement Kolkata West Bengal - Howrah Durgapur Siliguri
-              </h1>
+                        Personal Loan Settlement in Kolkata,<br />
+                        <span className="text-blue-200">Howrah &amp; West Bengal</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

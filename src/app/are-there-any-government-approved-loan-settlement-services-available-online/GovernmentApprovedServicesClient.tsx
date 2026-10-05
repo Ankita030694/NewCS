@@ -215,7 +215,7 @@ export default function GovernmentApprovedServicesClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Government-Approved Loan Settlement?<br />
-                        <span className="text-blue-300">The 2025 Reality for Indian Borrowers</span>
+                        <span className="text-blue-300">The Reality for Indian Borrowers</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Discover the official channels, RBI mandates, and legitimate legal paths to resolve your debt without falling for online scams.

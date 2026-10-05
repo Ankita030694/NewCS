@@ -228,9 +228,9 @@ export default function RecoveryVisitPage() {
       >
         <div className="max-w-8xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            How to Stop Recovery Agent Home Visit<br />
-            <span className="text-blue-300">Your Legal Rights & RBI Rules 2025</span>
-          </h1>
+                        How to Stop Recovery Agent Home Visits<br />
+                        <span className="text-blue-300">Legal Rights &amp; RBI Rules</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
             Tired of unannounced doorstep harassment? Discover the powerful RBI guidelines
             and legal strategies to stop recovery visits forever. Protect your family’s

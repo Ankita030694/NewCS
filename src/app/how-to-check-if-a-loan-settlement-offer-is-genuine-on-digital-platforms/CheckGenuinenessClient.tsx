@@ -160,8 +160,8 @@ export default function CheckGenuinenessClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How to Check if a Loan Settlement Offer is<br />
-                        <span className="text-blue-300">Genuine on Digital Platforms?</span>
+                        How to Verify Genuine Loan Settlement Offers<br />
+                        <span className="text-blue-300">on Digital Platforms</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Protect yourself from debt settlement fraud. A comprehensive 5000+ word guide to verifying bank offers and choosing trusted platforms in 2025.

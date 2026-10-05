@@ -263,7 +263,7 @@ export default function SettleOneLakhPersonalLoanClient() {
                 <span>Small-Ticket Debt Economics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Can You Settle a ₹1 Lakh Personal Loan? The Small-Ticket Debt Reality
+                1. Can You Settle a ₹1 Lakh Personal Loan in India?
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Many borrowers in India mistakenly assume that debt settlement is a mechanism reserved exclusively for massive corporate insolvencies or multi-crore business defaults. In reality, <strong>small-ticket unsecured personal loans—specifically in the ₹50,000 to ₹1,50,000 range—represent the single largest volume of One-Time Settlements (OTS) processed by commercial banks and Non-Banking Financial Companies (NBFCs) across India</strong>.
@@ -399,7 +399,7 @@ export default function SettleOneLakhPersonalLoanClient() {
                 <span>Resolution Pathways Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Settlement vs. Restructuring vs. Default
+                3. Resolution Matrix: Settlement vs Restructuring vs Default
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Evaluate the five primary legal and financial routes available when managing a defaulted ₹1 Lakh personal loan in India:
@@ -470,7 +470,7 @@ export default function SettleOneLakhPersonalLoanClient() {
                 <span>CIBIL Algorithm &amp; Scoring Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Math: The Mathematical Impact of ₹1 Lakh Settlement
+                4. CIBIL Score Impact of a ₹1 Lakh Loan Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 How exactly does credit bureau scoring work when a ₹1 Lakh loan is settled versus left in default? Credit bureaus in India (TransUnion CIBIL, Experian, CRIF High Mark, Equifax) compute credit scores using proprietary algorithms weighted across specific parameters:
@@ -593,7 +593,7 @@ export default function SettleOneLakhPersonalLoanClient() {
                 <span>Step-by-Step Resolution SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure (SOP): 6 Stages to Settle a ₹1 Lakh Personal Loan
+                5. 6-Stage SOP to Settle a ₹1 Lakh Personal Loan
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Follow this sequential, battle-tested standard operating procedure executed by CredSettle professionals to ensure maximum waiver and complete legal safety:
@@ -772,7 +772,7 @@ export default function SettleOneLakhPersonalLoanClient() {
                 <span>Grievance Redressal</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. The 3-Tier Escalation Matrix for Unfair Recovery &amp; Dispute Resolution
+                7. 3-Tier Escalation Matrix for Recovery Disputes
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If the lending bank or its collection agents ignore your hardship notices or engage in coercive recovery tactics for a ₹1 Lakh loan, escalate through this structured 3-tier hierarchy:
@@ -833,7 +833,7 @@ export default function SettleOneLakhPersonalLoanClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timelines &amp; Milestone Resolution Table (Day 0 to Month 6)
+                8. Settlement Timelines & Milestone Table (Day 0 to Month 6)
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Understanding the chronological milestones of a ₹1 Lakh loan default allows you to plan your defense, manage cash reserves, and time your settlement negotiations for maximum discount:
@@ -1008,72 +1008,23 @@ export default function SettleOneLakhPersonalLoanClient() {
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed list-disc pl-5">
                 <li>
-                  <a
-                    href="https://www.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Reserve Bank of India (RBI):</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Reserve Bank of India (RBI):</strong>{' '}
                   Master Direction on Fair Practices Code for Lenders (Guidelines on Recovery Agents and Grievance Redressal, Updated 2026).
                 </li>
                 <li>
-                  <a
-                    href="https://cms.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Reserve Bank - Integrated Ombudsman Scheme, 2021:</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
-                  Statutory Grievance Redressal Mechanism for Commercial Banks and NBFCs (
-                  <a
-                    href="https://cms.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-mono text-xs"
-                  >
-                    cms.rbi.org.in
-                  </a>
-                  ).
+                  <strong className="text-slate-900 font-bold">Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong>{' '}
+                  Statutory Grievance Redressal Mechanism for Commercial Banks and NBFCs (<span className="font-mono text-xs">cms.rbi.org.in</span>).
                 </li>
                 <li>
-                  <a
-                    href="https://www.indiacode.nic.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Credit Information Companies (Regulation) Act, 2005 (CICRA):</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong>{' '}
                   Section 21 regarding Borrower Rights, Credit Dispute Resolution, and Bureau Reporting.
                 </li>
                 <li>
-                  <a
-                    href="https://www.indiacode.nic.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Payments and Settlement Systems Act, 2007 (PSSA):</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Payments and Settlement Systems Act, 2007 (PSSA):</strong>{' '}
                   Section 25 regarding Dishonour of Electronic Funds Transfer and NACH Mandates.
                 </li>
                 <li>
-                  <a
-                    href="https://www.indiacode.nic.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Indian Contract Act, 1872:</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Indian Contract Act, 1872:</strong>{' '}
                   Sections 73 and 74 regarding Breach of Contract and Civil Monetary Compensation.
                 </li>
               </ul>

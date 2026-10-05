@@ -250,8 +250,9 @@ function AndhraPradeshPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                {heroCopy.title}
-              </h1>
+                        NBFC Loan Settlement in Andhra Pradesh:<br />
+                        <span className="text-blue-200">Legal Debt Resolution</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

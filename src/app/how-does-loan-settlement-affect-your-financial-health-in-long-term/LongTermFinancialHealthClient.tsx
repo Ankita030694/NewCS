@@ -222,8 +222,8 @@ export default function LongTermFinancialHealthClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How Does Loan Settlement Affect Your Financial Health in the Long Term?<br />
-                        <span className="text-blue-300">The 2025 Deep-Dive Analysis</span>
+                        How Loan Settlement Affects Your<br />
+                        <span className="text-blue-300">Long-Term Financial Health</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Understand the multi-year consequences of debt relief on your credit, career, and borrowing capacity. Navigate the path to financial recovery.

@@ -182,8 +182,8 @@ export default function LoanSettlementNocFormatClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Loan Settlement Letter Format & NOC Guide:<br />
-                        <span className="text-blue-300">Secure Your Financial Freedom Today</span>
+                        Loan Settlement Letter Format<br />
+                        <span className="text-blue-300">&amp; Bank NOC Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Download technical, bank-approved templates for settlement requests and No Objection Certificates. Protect your credit and legal rights in 2025.
@@ -269,7 +269,7 @@ export default function LoanSettlementNocFormatClient() {
                                 In this comprehensive 5000 word guide, we will provide you with the exact technical templates used by legal experts at CredSettle to negotiate with nationalized and private banks. We will deep-dive into the structure of a hardship letter, the "Red Flags" to look for in a bank's offer letter, and the precise No Objection Certificate (NOC) format required to clean up your CIBIL report. Whether you are dealing with a personal loan, a credit card default, or a business loan, this roadmap ensures your settlement is "Final, Binding, and Legally Sound."
                             </p>
 
-                            <h2 id="settlement-request-format" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Loan Settlement Request Letter: How to Initiate the Negotiating Battle</h2>
+                            <h2 id="settlement-request-format" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Loan Settlement Request Letter: Format and Guide</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The journey to a debt-free life starts with your "Settlement Proposal." This is a formal letter sent to the Branch Manager or the Head of Recovery. It must be professional, factual, and legally grounded. A casual email or a WhatsApp message to an agent is NOT a proposal.
                             </p>

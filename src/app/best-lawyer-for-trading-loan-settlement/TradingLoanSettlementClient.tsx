@@ -218,7 +218,7 @@ export default function TradingLoanSettlementClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Best Lawyer for Trading Loan Settlement<br />
-                        <span className="text-blue-300">Expert Debt Resolution in India</span>
+                        <span className="text-blue-300">&amp; Expert Debt Resolution</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Overcome your trading debt with strategic legal defense. Expert negotiation for margin funding and LAS settlement.

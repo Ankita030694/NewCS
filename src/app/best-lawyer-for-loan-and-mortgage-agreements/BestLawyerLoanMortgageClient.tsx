@@ -187,7 +187,7 @@ export default function BestLawyerLoanMortgageClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Best Lawyer for Loan and Mortgage Agreements<br />
-                        <span className="text-blue-300">Protect Your Financial Assets Today</span>
+                        <span className="text-blue-300">&amp; Asset Protection</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expert legal counsel to draft, review, and negotiate complex financial contracts. Secure your property and commercial interests with India’s top banking law advocates.

@@ -7,7 +7,7 @@ import KyaMaiApnaLoanSettleKrSktaHuClient from './KyaMaiApnaLoanSettleKrSktaHuCl
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Kya Mai Apna Loan Settle Kr Skta Hu?',
+  title: 'Kya Mai Apna Loan Settle Kar Sakta Hu? | CredSettle',
   description: 'Wondering kya mai apna loan settle kr skta hu? Learn about unsecured loan settlement, RBI rules, the step by step process, and CIBIL impact.',
   keywords: [
     'kya mai apna loan settle kr skta hu',

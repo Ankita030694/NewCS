@@ -209,7 +209,7 @@ export default function BankLoanRecoveryDefenceClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Best Lawyer for Bank Loan Recovery Defence<br />
-                        <span className="text-blue-300">Protect Your Assets & Rights 2026</span>
+                        <span className="text-blue-300">Protect Your Legal Rights</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed text-blue-50">
                         Expert legal strategies to fight SARFAESI actions, DRT cases, and bank harassment. Our specialized banking advocates provide the shield you need.

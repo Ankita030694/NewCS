@@ -148,8 +148,8 @@ export default function LoanAuctionNoticeClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Stop, Postpone, or Cancel a Property Auction<br />
-                        <span className="text-blue-300">Your Last-Minute Legal Guide</span>
+                        Stop, Postpone, or Cancel a Property Auction:<br />
+                        <span className="text-blue-300">Legal Options</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Received a SARFAESI Auction Notice? You still have options. Discover the powerful legal maneuvers to protect your home and secure your financial future.

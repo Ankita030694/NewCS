@@ -245,7 +245,7 @@ export default function RecoveryHarassmentClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Defeating Debt Stress: The Ultimate Resource on How to Stop Recovery Agent Harassment</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">How to Stop Recovery Agent Harassment in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Financial struggles are a reality for millions of hardworking Indians. However, owing money to a bank or a credit card company does not mean you have surrendered your human rights. In recent years, the aggressive nature of debt collection has reached alarming levels. Many borrowers find themselves trapped in a cycle of fear, receiving hundreds of calls a day and facing unannounced visits at their homes or offices. This guide is designed to empower you with the exact knowledge of <strong>how to stop recovery agent harassment</strong> by utilizing the robust legal and regulatory framework available in our country.

@@ -267,9 +267,9 @@ export default function LoanSettlementCIBILPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            Does Loan Settlement Affect CIBIL?<br />
-            <span className="text-blue-300">The Hard Truth & Recovery Guide 2025</span>
-          </h1>
+                        Does Loan Settlement Affect CIBIL Score?<br />
+                        <span className="text-blue-300">Credit Recovery Guide</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
             Considering a settlement? Understand the massive impact on your CIBIL score, 
             the "Settled" vs "Closed" debate, and how to protect your financial future. 

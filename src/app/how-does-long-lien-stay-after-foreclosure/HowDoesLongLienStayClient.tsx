@@ -149,8 +149,8 @@ export default function HowDoesLongLienStayClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How Long Does a Lien Stay After Loan Foreclosure?<br />
-                        <span className="text-blue-300">The Legal Guide to Hypothecation Removal</span>
+                        How Long Does a Lien Stay After Foreclosure?<br />
+                        <span className="text-blue-300">Removal &amp; NOC Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Paid off your loan but the bank won't release your asset? Discover the exact legal timelines, RBI guidelines, and actionable steps to force your bank to remove the lien immediately.

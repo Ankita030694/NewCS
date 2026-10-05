@@ -188,7 +188,7 @@ export default function P2PCryptoScamClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         P2P Crypto Scam: Unfreeze Bank Account<br />
-                        <span className="text-blue-300">The 2025 Comprehensive Legal Guide</span>
+                        <span className="text-blue-300">Comprehensive Legal Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expert strategies to handle Section 91 notices, negotiate with cyber cells, and move the court to release your frozen funds in record time.

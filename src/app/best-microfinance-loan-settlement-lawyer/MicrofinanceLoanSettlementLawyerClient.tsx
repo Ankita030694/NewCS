@@ -183,8 +183,8 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Best Microfinance Loan Settlement Lawyer 2025<br />
-                        <span className="text-blue-300">Debt Relief for the Common Man</span>
+                        Best Microfinance Loan Settlement Lawyer<br />
+                        <span className="text-blue-300">Legal Debt Relief in India</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expert legal protection against MFI harassment. Navigate RBI 2025 guidelines and state-specific debt relief laws to settle your micro-loans with dignity.

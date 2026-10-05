@@ -136,8 +136,9 @@ export default function UttarPradeshPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Personal Loan Settlement Lucknow Kanpur Agra Varanasi - UP Wide Service
-              </h1>
+                        Personal Loan Settlement in Lucknow,<br />
+                        <span className="text-blue-200">Kanpur &amp; Uttar Pradesh</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

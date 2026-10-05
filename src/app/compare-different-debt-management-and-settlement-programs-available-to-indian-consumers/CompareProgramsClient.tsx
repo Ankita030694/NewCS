@@ -288,7 +288,7 @@ export default function CompareProgramsClient() {
                 </p>
               </div>
 
-              <h2 id="debt-management-operational" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">2. The Mechanics and Operational Reality of Debt Management Plans (DMPs)</h2>
+              <h2 id="debt-management-operational" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">2. How Debt Management Plans (DMPs) Work in India</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   A Debt Management Plan is a structured repayment program designed for individuals who have a steady monthly income but are overwhelmed by high interest rates and multiple payment dates. The core philosophy of a DMP is the full repayment of the principal amount you borrowed, but under modified, negotiated terms. Instead of paying multiple lenders on different dates, you make a single consolidated payment to the debt management agency, which then distributes the funds to your creditors.

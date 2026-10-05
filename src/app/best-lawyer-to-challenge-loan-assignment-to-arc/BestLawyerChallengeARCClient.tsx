@@ -200,8 +200,8 @@ export default function BestLawyerChallengeARCClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Best Lawyer to Challenge Loan Assignment to ARC<br />
-                        <span className="text-blue-300">Legal Defense Against Asset Reconstruction Companies</span>
+                        Lawyer to Challenge Loan Assignment to ARC<br />
+                        <span className="text-blue-300">Legal Defense Against ARCs</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expert legal counsel to contest improper loan assignments, defend SARFAESI actions, and negotiate optimized settlements with ARCs in India.

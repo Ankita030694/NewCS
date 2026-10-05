@@ -204,7 +204,7 @@ export default function LoanRecoveryClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
 
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Loan Recovery Agent Near Me: Your Comprehensive Guide to Legal Rights and Harassment Protection</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Loan Recovery Agent Near Me: Legal Rights & Protection</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   When financial circumstances become difficult, many individuals find themselves searching for a "loan recovery agent near me." This search usually stems from one of two scenarios. Either you are a lender looking to recover outstanding dues from a borrower, or more commonly, you are a borrower who is already being contacted by these agents and you want to understand who they are, where they operate from, and what your rights are.

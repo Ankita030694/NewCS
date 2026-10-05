@@ -225,7 +225,7 @@ export default function LegalNoticeClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Use a Legal Notice for Recovery of Money: A Comprehensive Indian Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Send a Legal Notice for Recovery of Money</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the dynamic financial landscape of India, lending money or providing services on credit is a common practice. However, the challenge arises when payments are delayed or debtors refuse to fulfill their obligations. A <strong>legal notice for recovery of money</strong> is the most professional and effective first step in resolving such disputes. It acts as a formal communication that warns the debtor of impending legal action, often prompting them to settle the matter outside of court.

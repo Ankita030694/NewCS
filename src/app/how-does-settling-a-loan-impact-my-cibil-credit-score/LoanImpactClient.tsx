@@ -308,7 +308,7 @@ export default function LoanImpactClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How Does Settling a Loan Impact My CIBIL Credit Score? The Unfiltered Truth</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How Settling a Loan Impacts Your CIBIL Credit Score</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   If you are currently facing a mountain of debt and considering a settlement, the most pressing question on your mind is likely: <strong>how does settling a loan impact my CIBIL credit score?</strong> This is a valid concern because your credit score is the gateway to your financial future in India. A single decision today can echo through your credit report for the next decade. While loan settlement offers an immediate escape from the crushing weight of monthly installments, it is not a "get out of jail free" card. It comes with a significant price tag that is paid in credit points.

@@ -136,8 +136,9 @@ export default function GujaratPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Ahmedabad Surat Gujarat - Break Free From Business Debt
-              </h1>
+                        Credit Card Settlement in Ahmedabad<br />
+                        <span className="text-blue-200">&amp; Surat, Gujarat</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

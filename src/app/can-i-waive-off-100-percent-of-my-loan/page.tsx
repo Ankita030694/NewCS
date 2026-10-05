@@ -7,7 +7,7 @@ import LoanWaiverClient from './LoanWaiverClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Can I Waive Off 100 Percent of My Loan?',
+  title: 'Can You Waive Off 100% of a Loan in India? | CredSettle',
   description: 'Wondering if you can waive off 100% of your loan? Learn about legitimate loan settlement, RBI rules, and debt waiver schemes in India.',
   keywords: [
     'can i waive off 100 percent of my loan',

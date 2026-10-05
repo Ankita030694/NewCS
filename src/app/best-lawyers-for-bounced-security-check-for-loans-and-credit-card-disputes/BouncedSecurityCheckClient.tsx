@@ -251,8 +251,8 @@ export default function BouncedSecurityCheckClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Best Lawyers for Bounced Security Check<br />
-                        <span className="text-blue-300">for Loans & Credit Card Disputes</span>
+                        Best Lawyers for Bounced Security Cheque<br />
+                        <span className="text-blue-300">&amp; Card Loan Disputes</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Expert Defense Against Section 138 NI Act Cases. Protect Your Rights, Challenge Misuse, and Resolve Financial Legal Hurdles with 2025 Expert Guidance.

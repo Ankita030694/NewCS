@@ -230,7 +230,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Is Loan Settlement a Good Option for Borrowers?<br />
-                        <span className="text-blue-300">The Definitive 2025 Guide</span>
+                        <span className="text-blue-300">Pros, Cons &amp; Impact</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
                         Navigate the complex landscape of debt relief in India. A deep dive for every borrower into the pros, cons, CIBIL impact, and expert strategies for a fresh start.

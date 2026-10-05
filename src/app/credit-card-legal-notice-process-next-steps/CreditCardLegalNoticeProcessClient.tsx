@@ -118,8 +118,8 @@ export default function CreditCardLegalNoticeProcessClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Credit Card Legal Notice Received: Process and Next Steps<br />
-                        <span className="text-blue-300">Don't Panic, Prepare Your Defense</span>
+                        Credit Card Legal Notice Received:<br />
+                        <span className="text-blue-300">Process and Defense Steps</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Received an aggressive legal notice for a credit card default via email or WhatsApp? Learn to spot fake notices, understand the legal escalation matrix, and negotiate a smart settlement before it hits the civil court.

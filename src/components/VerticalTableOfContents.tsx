@@ -81,7 +81,7 @@ export default function VerticalTableOfContents({ headings }: TableOfContentsPro
 
   return (
     <nav className="w-full bg-white rounded-xl border border-gray-200 shadow-sm p-6 max-h-[calc(100vh-120px)] overflow-y-auto custom-scrollbar">
-      <h3 className="text-[#0C2756] font-bold mb-4 font-poppins text-lg">Table of Contents</h3>
+      <p className="text-[#0C2756] font-bold mb-4 font-poppins text-lg">Table of Contents</p>
       <ul className="space-y-3">
         {headings.map((heading) => (
           <li key={heading.id} 

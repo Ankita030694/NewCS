@@ -219,7 +219,7 @@ export default function DocumentEvidenceClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">The Ultimate Guide: How to Document Evidence of Debt Collector Harassment</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Document Evidence of Debt Collector Harassment</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the modern financial landscape, debt collection has become an increasingly aggressive industry. While lenders have a right to recover their dues, they do not have the right to violate your fundamental dignity or break the law in the process. When you find yourself at the receiving end of relentless calls, threats, and intimidation, your most powerful weapon is not just your voice, but your evidence. Understanding <strong>how to document evidence of debt collector harassment</strong> is the first and most critical step towards reclaiming your peace of mind and protecting your legal rights.

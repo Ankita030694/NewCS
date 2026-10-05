@@ -204,9 +204,9 @@ export default function LoanSettlementVsDebtConsolidationPage() {
       >
         <div className="max-w-5xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Loan Settlement vs Debt Consolidation:<br />
-            <span className="text-blue-400">Which is Better for Reducing EMI?</span>
-          </h1>
+                        Loan Settlement vs Debt Consolidation:<br />
+            <span className="text-blue-400">Reducing Your EMI</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
             Struggling with multiple loan payments? Discover whether settling your debts or consolidating them into one loan is the most effective way to lower your monthly EMI burden.
           </p>

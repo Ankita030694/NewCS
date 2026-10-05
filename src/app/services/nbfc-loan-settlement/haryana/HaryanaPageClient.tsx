@@ -8,7 +8,7 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 
 const heroCopy = {
-  title: 'NBFC Loan Settlement in Haryana Built for NCR, Industrial Corridors, and Agri Belts',
+  title: 'NBFC Loan Settlement in Haryana: NCR & Agri Belts',
   description:
     'CredSettle’s Haryana desk supports borrowers from Gurugram technology parks and Manesar auto vendors to Panipat textile exporters and Hisar agro enterprises. We blend RBI compliant negotiation, Haryana Lok Adalat coordination, and scam-risk monitoring so that every NBFC settlement restores cash flow and protects long term compliance.'
 };
@@ -44,7 +44,7 @@ const faqs = [
 const sections = [
   {
     id: 'haryana-credit-landscape',
-    title: 'Haryana Credit Landscape Connecting NCR, Industrial Corridors, and Farm Districts',
+    title: 'Haryana Credit Landscape: NCR & Industrial Corridors',
     level: 2,
     content: [
       'Haryana reported more than two lakh registered micro, small, and medium enterprises by FY24 according to state industry bulletins, driven by the Gurugram-Manesar-Bawal investment corridor, Faridabad’s engineering base, Panipat’s textile processing, and Rohtak’s agro logistics. NBFC credit underpins automotive vendor upgrades, IT services expansion, warehouse construction, and dairy cooperative scaling. Agricultural belts in Hisar, Sirsa, and Karnal depend on NBFC equipment finance to modernise irrigation and post harvest storage.',
@@ -268,8 +268,9 @@ function HaryanaPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                {heroCopy.title}
-              </h1>
+                        NBFC Loan Settlement in Gurgaon,<br />
+                        <span className="text-blue-200">Faridabad &amp; Haryana</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

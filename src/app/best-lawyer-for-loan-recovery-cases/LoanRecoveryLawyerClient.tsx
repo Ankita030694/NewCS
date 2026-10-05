@@ -151,8 +151,8 @@ export default function LoanRecoveryLawyerClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Best Lawyer for Loan Recovery Cases <br />
-                        <span className="text-blue-300">Efficient Legal Retrieval of Your Dues</span>
+                        Best Lawyer for Loan Recovery Cases<br />
+                        <span className="text-blue-300">&amp; Legal Debt Resolution</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Struggling with bad debts or NPAs? Deploy the most powerful legal frameworks in India including SARFAESI, IBC, and Summary Suits to recover your funds.

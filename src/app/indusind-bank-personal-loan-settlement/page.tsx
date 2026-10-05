@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import IndusindBankPersonalLoanSettlementClient from './IndusindBankPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'IndusInd Bank Personal Loan Settlement',
+  title: 'IndusInd Bank Personal Loan Settlement Process | CredSettle',
   description:
     'Navigate IndusInd Bank personal loan and credit card settlement. Bypass recovery agencies and resolve legal notices with expert advice.',
   keywords: [

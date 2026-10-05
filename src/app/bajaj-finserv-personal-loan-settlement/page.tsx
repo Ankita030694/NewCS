@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import BajajFinservPersonalLoanSettlementClient from './BajajFinservPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Bajaj Finserv Personal Loan Settlement',
+  title: 'Bajaj Finserv Personal Loan Settlement Process | CredSettle',
   description:
     'Navigate Bajaj Finserv personal loan settlement. Halt collection agency intimidation, stop workplace visits, waive compounding penal bounce fees.',
   keywords: [

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import KotakMahindraBankLoanSettlementClient from './KotakMahindraBankLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Kotak Mahindra Bank Loan Settlement',
+  title: 'Kotak Mahindra Bank Loan Settlement Process | CredSettle',
   description:
     'Navigate Kotak Mahindra Bank personal loan and 811 credit settlement. Learn how to handle recovery agents, counter sole arbitration.',
   keywords: [

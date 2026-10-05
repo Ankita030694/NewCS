@@ -247,7 +247,7 @@ export default function BajajHomeVisitClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
 
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Mastering Your Defense Against Bajaj Finance Recovery Agent Harassment Home Visit</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Defense Against Bajaj Finance Recovery Agent Home Visits</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Living under the pressure of outstanding debt from a lender is an immensely stressful experience. When that financial strain is compounded by unexpected knocks on your door, the situation becomes an absolute nightmare. Many individuals facing a bajaj finance recovery agent harassment home visit assume they have lost all their rights simply because they defaulted on a loan or credit card payment. This assumption is completely false and can leave you vulnerable to extreme emotional distress and intimidation. The objective of this comprehensive resource is to empower you with the exact knowledge required to halt these illegal practices immediately.

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import ConvertSettledStatusClient from "./ConvertSettledStatusClient";
 
 export const metadata: Metadata = {
-  title: "Convert a Settled Loan to \"Closed\" Status (Step-by-Step)",
+  title: 'How to Convert a Settled Loan to Closed Status | CredSettle',
   description: "Want to clean up your credit report? Discover how paying your outstanding waiver amount can upgrade your loan status from Settled to Closed.",
   keywords: [
     "how to change settled status to closed",

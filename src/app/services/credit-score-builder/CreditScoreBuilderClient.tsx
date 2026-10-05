@@ -836,8 +836,9 @@ export default function CreditScoreBuilderClient() {
                       marginBottom: '20px'
                     }}
                   >
-                    Complete Guide to CIBIL Credit Score Builder: Improve Your Credit Score in India
-                  </h1>
+                        CIBIL Credit Score Builder:<br />
+                        <span className="text-blue-200">Improve Your Score in India</span>
+                    </h1>
                   <p
                     style={{
                       color: 'rgba(12, 39, 86, 0.70)',

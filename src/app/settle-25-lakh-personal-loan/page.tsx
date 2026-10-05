@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import SettleTwentyFiveLakhPersonalLoanClient from './SettleTwentyFiveLakhPersonalLoanClient';
 
 export const metadata: Metadata = {
-  title: 'High-Value Default: Settle a ₹25 Lakh Personal Loan',
+  title: 'Settle a ₹25 Lakh Personal Loan in India | CredSettle',
   description:
     'Defaulting on a ₹25 Lakh personal loan requires strategic legal defense. Learn how to handle bank litigation and secure a massive settlement discount.',
   keywords: [

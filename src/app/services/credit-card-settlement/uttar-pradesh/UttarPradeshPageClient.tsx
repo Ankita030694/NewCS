@@ -136,8 +136,9 @@ export default function UttarPradeshPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Lucknow Uttar Pradesh - Break Free From Family Obligation Debt
-              </h1>
+                        Credit Card Settlement in Lucknow<br />
+                        <span className="text-blue-200">&amp; Uttar Pradesh</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

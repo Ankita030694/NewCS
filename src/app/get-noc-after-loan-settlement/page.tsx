@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import GetNocAfterLoanSettlementClient from './GetNocAfterLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'How to Get Your NOC & No Dues Certificate After Settlement',
+  title: 'How to Get Bank NOC After Loan Settlement | CredSettle',
   description: "Your settlement isn't complete until you receive an NOC. Learn how to legally force your bank to issue a No Dues Certificate after a settlement.",
   keywords: [
     'how to get a no dues certificate after settlement',

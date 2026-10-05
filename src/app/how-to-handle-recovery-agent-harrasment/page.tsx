@@ -140,9 +140,9 @@ export default function RecoveryAgentHarassmentPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            How to Handle Recovery Agent Harassment<br />
-            <span className="text-blue-300">Know Your Rights & RBI Rules 2025</span>
-          </h1>
+                        How to Handle Recovery Agent Harassment<br />
+                        <span className="text-blue-300">Know Your Rights &amp; RBI Rules</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
             Are you being threatened by debt collectors? Learn the legal ways to stop harassment,
             understand RBI guidelines, and reclaim your peace of mind. Highly optimized guidance

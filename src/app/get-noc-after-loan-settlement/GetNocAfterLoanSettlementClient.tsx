@@ -264,7 +264,7 @@ export default function GetNocAfterLoanSettlementClient() {
                 <span>Banking Documentation Hierarchy</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                1. The Anatomy of Debt Discharge: NDC vs. OTS Letter vs. Account Statement
+                1. Debt Discharge Documents: NDC vs OTS Letter vs Statement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Thousands of Indian borrowers fall into a dangerous legal trap: they negotiate a One-Time Settlement (OTS), remit the agreed amount to the bank, and mistakenly assume their debt is extinguished. Months or years later, they are shocked to discover active recovery notices, legal threats, or wrecked credit scores.
@@ -371,7 +371,7 @@ export default function GetNocAfterLoanSettlementClient() {
                 <span>Risk &amp; Vulnerability Analysis</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                2. Why Banks Delay NOCs &amp; The Lethal Risks of an Unresolved Loan Ledger
+                2. Why Banks Delay NOCs and the Risks of Unresolved Ledgers
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Why do Indian banks and NBFCs frequently delay or withhold No Dues Certificates after receiving settlement funds? The root cause lies in bureaucratic friction, internal accounting bottlenecks, and structural banking incentives:
@@ -425,7 +425,7 @@ export default function GetNocAfterLoanSettlementClient() {
                 <span>Statutory Enactments &amp; RBI Master Directions</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                3. Statutory &amp; Regulatory Protections: Section 63 Contract Act &amp; RBI Mandates
+                3. Legal Protections: Section 63 Contract Act & RBI Norms
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Borrowers in India are shielded by robust statutory protections. When a bank attempts to stall or deny your NDC after receiving full settlement payments, they violate core statutory provisions:
@@ -609,7 +609,7 @@ export default function GetNocAfterLoanSettlementClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                5. 6-Stage Standard Operating Procedure (SOP) to Secure &amp; Enforce Your NDC
+                5. 6-Stage SOP to Secure and Enforce Your NDC
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 To guarantee that your loan settlement is completed without legal vulnerabilities, follow this rigorous 6-stage operational roadmap established by our debt resolution professionals:
@@ -783,7 +783,7 @@ Place: [City, State]`}
                 <span>Grievance Redressal Architecture</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                7. 3-Tier Escalation Matrix: How to Legally Force Your Bank to Issue the NDC
+                7. 3-Tier Escalation Matrix to Obtain Your Bank NDC
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When a local branch manager stalls your request by citing &quot;system maintenance&quot; or &quot;head office approvals,&quot; do not waste months arguing at branch counters. Execute this formal 3-tier escalation hierarchy:
@@ -944,7 +944,7 @@ Place: [City, State]`}
                 <span>Specialized Domain Scenarios</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                9. Specialized Scenarios: Credit Cards, ARCs, and Digital Fintech Loan Apps
+                9. Special Scenarios: Credit Cards, ARCs & Fintech Apps
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

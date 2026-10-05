@@ -224,7 +224,7 @@ export default function ChequeBounceAhmedabadClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 italic-none">Navigating Cheque Bounce Cases in Ahmedabad: A Comprehensive Legal Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 italic-none">Cheque Bounce Cases in Ahmedabad: Complete Legal Guide</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Ahmedabad, the financial powerhouse of Gujarat, thrives on commerce and trade. From the traditional markets of Manek Chowk to the modern business hubs along SG Highway, the flow of credit and payments is constant. However, this commercial vibrancy often leads to disputes, specifically those involving the dishonour of cheques. If you are dealing with a <strong>cheque bounce case in Ahmedabad</strong>, you are part of a legal landscape that is both fast-paced and technically demanding. A bounced cheque is more than a financial hurdle; it is a breach of trust and a violation of the law under Section 138 of the Negotiable Instruments Act, 1881.
@@ -237,7 +237,7 @@ export default function ChequeBounceAhmedabadClient() {
                 </p>
               </div>
 
-              <h2 id="section-138" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4 italic-none">Legal Foundation: Section 138 of the Negotiable Instruments Act in Gujarat</h2>
+              <h2 id="section-138" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4 italic-none">Section 138 NI Act Legal Framework in Gujarat Courts</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   The Negotiable Instruments Act of 1881 governs the use of cheques, promissory notes, and bills of exchange in India. Section 138 is the specific provision that deals with the "dishonour of cheque for insufficiency, etc., of funds in the account." In Ahmedabad, this law is applied strictly to ensure that cheques remain a reliable medium of exchange. The primary objective is to punish the dishonest drawer and provide a speedy remedy for the payee.

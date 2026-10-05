@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import HowToCheckYourLoanStatusClient from './HowToCheckYourLoanStatusClient';
 
 export const metadata: Metadata = {
-    title: "How to Check Your Loan Status Without Visiting the Bank",
+    title: 'Check Loan Status Online Without Visiting Bank | CredSettle',
     description: "Borrowers waste hours standing in bank queues just to check if their loan was approved or disbursed. Learn how to track loan status without branch visit.",
     keywords: [
         "check loan application status online",

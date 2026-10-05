@@ -159,9 +159,9 @@ export default function CibilSettlementPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            Is Your CIBIL Score Ruined Forever?<br />
-            <span className="text-blue-300">The Hard Truth About Loan Settlement</span>
-          </h1>
+                        Is CIBIL Ruined Forever After Settlement?<br />
+                        <span className="text-blue-300">Credit Truth &amp; Recovery</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
             Stop living in fear of your credit report. Discover how to rebuild your score, stop recovery agent harassment, and regain your financial freedom legally in India.
           </p>

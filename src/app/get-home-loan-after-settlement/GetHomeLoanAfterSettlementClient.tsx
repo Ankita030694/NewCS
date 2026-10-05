@@ -256,7 +256,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                 <span>Mortgage Underwriting Principles</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                1. Can You Get a Home Loan After Settlement? The Legal &amp; Banking Reality
+                1. Can You Get a Home Loan After Loan Settlement?
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 The unequivocal answer is <strong>yes</strong>. While a historical debt settlement complicates retail mortgage applications, it does not permanently extinguish your legal right or financial ability to buy a home. In Indian banking jurisprudence, a One-Time Settlement (OTS) executed with a bank or NBFC is a legally binding compromise agreement that fully discharges your civil debt obligation upon payment of the agreed settlement consideration.
@@ -383,7 +383,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                 <span>Underwriting System Architecture</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                2. Bank vs. HFC Underwriting: Why Algorithms Auto-Reject &amp; How Manual Underwriters Decide
+                2. Bank vs HFC Underwriting for Post-Settlement Home Loans
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 To successfully navigate a mortgage application following a debt settlement, borrowers must understand the technical divide between algorithmic retail bank screening and manual housing finance underwriting. When an individual submits a digital loan application to a scheduled commercial bank (such as SBI, HDFC, or ICICI), the application is processed by an automated Loan Origination System (LOS).
@@ -426,7 +426,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                 <span>Mortgage Mathematics &amp; Risk Metrics</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                3. Mortgage Scoring Breakdown &amp; Financial Math Calculations (FOIR &amp; LTV)
+                3. Mortgage Scoring Breakdown: FOIR and LTV Calculations
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When a borrower with a past settlement applies for a mortgage, underwriters rely on mathematical risk formulas to determine whether the credit risk is acceptable. Mastering two fundamental formulas—<strong>FOIR (Fixed Obligation to Income Ratio)</strong> and <strong>LTV (Loan to Value Ratio)</strong>—enables you to structure an unassailable loan proposal:
@@ -559,7 +559,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                 <span>Institutional Landscape</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                4. The 4 Categories of Mortgage Lenders in India &amp; Their Post-Settlement Policies
+                4. Mortgage Lender Categories & Post-Settlement Policies
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Indian housing finance is segmented into four distinct institutional categories, each operating under specific regulatory frameworks and risk tolerances:
@@ -691,7 +691,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                5. The 7-Stage Qualification SOP for Home Loan Approval After Settlement
+                5. 7-Stage SOP for Home Loan Approval After Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Securing a mortgage sanction after a settlement requires methodical execution of this 7-stage standard operating procedure recognized by banking risk committees and housing finance underwriters:
@@ -812,7 +812,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                 <span>Ready-to-Use Underwriting Template</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                6. Formal Legal Representation Draft: Mitigating Circumstances &amp; Mortgage Appraisal Letter
+                6. Legal Representation Draft & Mortgage Appraisal Letter
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Submit this formal legal representation letter to the Credit Appraisal Committee, Head of Retail Mortgages, and Branch Credit Manager when submitting your housing loan file:
@@ -883,7 +883,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                 <span>Grievance Redressal Architecture</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                7. 3-Tier Escalation Matrix When Lenders Improperly Reject Applications
+                7. 3-Tier Escalation Matrix for Rejected Loan Applications
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Under the RBI Charter of Customer Rights and National Housing Bank (NHB) Fair Lending Guidelines, every mortgage applicant has the statutory right to fair appraisal and transparent communication. If your home loan is improperly rejected due to outdated bureau data despite valid NDC submission, follow this 3-tier escalation framework:
@@ -936,7 +936,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                 <span>Credit Rebuilding &amp; Mortgage Roadmap</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                8. 18-Month Chronological Milestone Roadmap to Prime Mortgage Sanctions
+                8. 18-Month Roadmap to Prime Home Loan Sanctions
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Securing a home loan at prime interest rates following a debt settlement is a structured chronological progression across three distinct financial milestones:
@@ -1010,7 +1010,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                 <span>Complex Scenarios &amp; Case Studies</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                9. Complex Scenarios: Credit Cards, ARCs under SARFAESI §5, &amp; Joint Mortgages
+                9. Complex Scenarios: ARCs under SARFAESI & Joint Mortgages
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

@@ -952,72 +952,23 @@ export default function SettleTwoLakhPersonalLoanClient() {
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed list-disc pl-5">
                 <li>
-                  <a
-                    href="https://www.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Reserve Bank of India (RBI):</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Reserve Bank of India (RBI):</strong>{' '}
                   Master Direction on Fair Practices Code for Lenders (Guidelines on Recovery Agents and Grievance Redressal, Updated 2026).
                 </li>
                 <li>
-                  <a
-                    href="https://cms.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Reserve Bank - Integrated Ombudsman Scheme, 2021:</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
-                  Statutory Grievance Redressal Mechanism for Commercial Banks and NBFCs (
-                  <a
-                    href="https://cms.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-mono text-xs"
-                  >
-                    cms.rbi.org.in
-                  </a>
-                  ).
+                  <strong className="text-slate-900 font-bold">Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong>{' '}
+                  Statutory Grievance Redressal Mechanism for Commercial Banks and NBFCs (<span className="font-mono text-xs">cms.rbi.org.in</span>).
                 </li>
                 <li>
-                  <a
-                    href="https://www.indiacode.nic.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Credit Information Companies (Regulation) Act, 2005 (CICRA):</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong>{' '}
                   Section 21 regarding Borrower Rights, Credit Dispute Resolution, and Bureau Reporting.
                 </li>
                 <li>
-                  <a
-                    href="https://www.indiacode.nic.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Payments and Settlement Systems Act, 2007 (PSSA):</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Payments and Settlement Systems Act, 2007 (PSSA):</strong>{' '}
                   Section 25 regarding Dishonour of Electronic Funds Transfer and NACH Mandates.
                 </li>
                 <li>
-                  <a
-                    href="https://www.indiacode.nic.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1"
-                  >
-                    <span>Indian Contract Act, 1872:</span>
-                    <ExternalLink className="w-3 h-3 flex-shrink-0" />
-                  </a>{' '}
+                  <strong className="text-slate-900 font-bold">Indian Contract Act, 1872:</strong>{' '}
                   Sections 73 and 74 regarding Breach of Contract and Civil Monetary Compensation.
                 </li>
               </ul>

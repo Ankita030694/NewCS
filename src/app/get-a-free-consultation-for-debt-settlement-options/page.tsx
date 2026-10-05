@@ -7,7 +7,7 @@ import ConsultationClient from './ConsultationClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Get a Free Consultation for Debt Settlement Options',
+  title: 'Free Debt Settlement Consultation & Options | CredSettle',
   description: 'Looking for debt relief? Get a free consultation for debt settlement options. Learn how to negotiate with creditors, reduce your total debt.',
   keywords: [
     'free consultation for debt settlement',

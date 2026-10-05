@@ -7,7 +7,7 @@ import HowToNegotiateClient from './HowToNegotiateClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Negotiate a Debt Settlement with Creditors in India',
+  title: 'How to Negotiate Debt Settlement with Creditors | CredSettle',
   description: 'Learn how to negotiate a debt settlement with creditors in India. Expert tips on reducing your debt, RBI guidelines, and legal protection for borrowers.',
   keywords: [
     'how to negotiate debt settlement in india',

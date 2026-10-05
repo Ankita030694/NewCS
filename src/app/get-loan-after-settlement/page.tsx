@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import GetLoanAfterSettlementClient from "./GetLoanAfterSettlementClient";
 
 export const metadata: Metadata = {
-  title: "Can You Get a Loan or Credit Card After Settlement?",
+  title: 'Can You Get a Loan After Debt Settlement? | CredSettle',
   description: "Worried you will never get a loan again? Learn which banks offer loans to individuals with a past settlement and how to qualify for them.",
   keywords: [
     "can I get a loan after settlement",

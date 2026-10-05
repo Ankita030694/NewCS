@@ -148,8 +148,8 @@ export default function ForeclosureAndPartPrepaymentChargesClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Foreclosure Charges on Personal Loans<br />
-                        <span className="text-blue-300">Stop Paying Hidden Bank Penalties</span>
+                        Foreclosure Charges on Personal Loans:<br />
+                        <span className="text-blue-300">Part-Prepayment Rules</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Borrowers get a bonus and try to pay off their loan, only to be hit with absurd 4 to 5 percent foreclosure penalties. Master the RBI rules and learn how to prepay strategically.
@@ -272,7 +272,7 @@ export default function ForeclosureAndPartPrepaymentChargesClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: The Prepayment Trap: Why Banks Penalize You for Being Responsible</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: Prepayment Charges on Personal Loans Explained</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Imagine working hard all year, receiving your annual performance bonus, and deciding to make the responsible financial choice. You want to pay off your high interest personal loan to become debt free. You log into your banking portal, expecting a smooth transaction, only to discover that the bank wants to charge you an extra 4 to 5 percent as a penalty just for giving them their money back early. This is the reality of foreclosure charges on personal loans, a hidden fee that traps millions of borrowers every year.
                             </p>

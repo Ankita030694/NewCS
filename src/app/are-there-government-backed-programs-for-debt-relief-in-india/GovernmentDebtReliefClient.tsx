@@ -224,7 +224,7 @@ export default function GovernmentDebtReliefClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Are There Government-Backed Programs for Debt Relief in India? Understanding Your Options</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Government-Backed Debt Relief Programs in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the rapidly evolving financial landscape of India, many individuals find themselves grappling with the weight of overwhelming debt. Whether it is due to a sudden medical emergency, job loss, or a business downturn, the burden of credit card balances and personal loans can become insurmountable. A common question that arises in these times of distress is: <strong>"Are there government-backed programs for debt relief in India?"</strong> This question reflects a desperate search for a safety net in a system that often feels unforgiving to the borrower.
@@ -278,7 +278,7 @@ export default function GovernmentDebtReliefClient() {
                 </p>
               </div>
 
-              <h2 id="legal-rights-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Statutory Borrower Protections: BNS 2023, Code on Wages & July 2026 RBI Directives</h2>
+              <h2 id="legal-rights-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Borrower Protections Under BNS 2023, Wages Code & RBI Norms</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   Borrowers facing financial distress frequently endure unlawful pressure, abusive language, and unauthorized doorstep visits from third-party recovery agencies. It is vital to recognize that defaulting on an unsecured loan is strictly a civil contract breach—it is <strong>not a crime</strong>. Indian statutory law provides formidable legal protections against creditor overreach:
@@ -346,7 +346,7 @@ export default function GovernmentDebtReliefClient() {
                 </p>
               </div>
 
-              <h2 id="ibc-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Insolvency and Bankruptcy Code (IBC): Fresh Start vs. Practical Realities</h2>
+              <h2 id="ibc-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Insolvency & Bankruptcy Code (IBC): Fresh Start Process</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   The most formal legislative debt relief mechanism in India is codified under Part III, Chapter II of the <strong>Insolvency and Bankruptcy Code (IBC), 2016</strong> (Sections 80 to 93). This introduces the statutory <strong>"Fresh Start Process"</strong> designed for economically vulnerable individuals.

@@ -150,8 +150,8 @@ export default function WhatToDoIfYourBankSendsLegalNoticesRepeatedlyClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What to Do If Your Bank Sends Legal Notices Repeatedly<br />
-                        <span className="text-blue-300">Beat Notice Fatigue Today</span>
+                        What to Do If Your Bank Sends<br />
+                        <span className="text-blue-300">Repeated Legal Notices</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-normal">
                         Learn how to categorize fake WhatsApp summons, formally reply to genuine threats, and build a solid paper trail for your defense against aggressive recovery tactics.

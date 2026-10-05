@@ -199,7 +199,7 @@ export default function LOCClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">The Landmark Delhi High Court Ruling: Why Mere Bank Loan Default Cannot Trigger an LOC</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Delhi High Court Ruling: Bank Defaults Cannot Trigger an LOC</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In a decision that resonates through the corridors of financial institutions and legal chambers alike, the Delhi High Court has recently delivered a powerful judgment regarding the issuance of Look Out Circulars (LOCs). This ruling clarifies a critical boundary between civil debt recovery and the state's power to restrict personal liberty. For years, borrowers facing financial distress have lived under the looming threat of being stopped at international borders due to bank loan defaults. The court has now made it clear: <strong>a mere bank loan default is not sufficient grounds for issuing an LOC.</strong>

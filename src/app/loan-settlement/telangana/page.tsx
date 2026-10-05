@@ -248,9 +248,9 @@ export default function TelanganaLoanSettlementPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            Telangana Loan Settlement Services<br />
-            <span className="text-blue-200">Legal Debt Relief in Hyderabad & Warangal</span>
-          </h1>
+                        Loan Settlement Services in Hyderabad<br />
+            <span className="text-blue-200">&amp; Telangana</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
             Stop harassment and settle your personal loans & credit cards legally. Expert support for Lok Adalat settlements and DRT Hyderabad cases.
           </p>

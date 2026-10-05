@@ -147,7 +147,7 @@ export default function ExperianCreditHistoryClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Understanding Your Experian Credit History vs CIBIL<br />
+                        Experian Credit History vs CIBIL:<br />
                         <span className="text-blue-300">Why Banks Reject Your Loan</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">

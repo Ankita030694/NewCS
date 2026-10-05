@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MultipleLoanClient from './MultipleLoanClient';
 
 export const metadata: Metadata = {
-    title: "How to Settle Multiple Personal Loans",
+    title: 'How to Settle Multiple Personal Loans in India | CredSettle',
     description: "Learn how to settle multiple personal loans simultaneously. Discover the difference between debt consolidation vs settlement and how to negotiate.",
     keywords: [
         "how to settle multiple personal loans",

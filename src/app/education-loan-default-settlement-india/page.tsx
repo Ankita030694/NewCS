@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import EducationLoanClient from './EducationLoanClient';
 
 export const metadata: Metadata = {
-    title: "Education Loan Default in India: Settlement vs Restructuring",
+    title: 'Education Loan Default Settlement Guide India | CredSettle',
     description: "Manage education loan defaults in India. Learn how to protect co-signers, request moratorium relief, and negotiate an RBI-compliant settlement.",
     keywords: [
         "education loan default India",

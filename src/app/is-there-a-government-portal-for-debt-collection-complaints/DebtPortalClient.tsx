@@ -300,7 +300,7 @@ export default function DebtPortalClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Is There a Government Portal for Debt Collection Complaints in India? A Comprehensive Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Government Portals for Debt Collection Complaints in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Facing aggressive debt collection practices can be an overwhelming experience. Many borrowers in India find themselves trapped in a cycle of harassment, where recovery agents use unethical tactics like calling at odd hours, using abusive language, or threatening family members. If you are in this situation, you might be wondering: <strong>is there a government portal for debt collection complaints?</strong> The answer is a resounding yes. The Indian regulatory framework, primarily led by the Reserve Bank of India (RBI), provides several official channels for citizens to report such behavior and seek justice.

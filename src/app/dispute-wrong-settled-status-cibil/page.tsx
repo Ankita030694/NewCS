@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import DisputeWrongSettledStatusClient from './DisputeWrongSettledStatusClient';
 
 export const metadata: Metadata = {
-  title: 'Dispute an Incorrect "Settled" Status on Your CIBIL Report',
+  title: 'Dispute Wrong Settled Status on CIBIL Report | CredSettle',
   description: 'Did the bank wrongly mark your fully paid loan as "Settled"? Learn how to file a formal dispute with CIBIL and send a legal notice to the bank.',
   keywords: [
     'how to dispute settled status on cibil',

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import IciciBankPersonalLoanSettlementClient from './IciciBankPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'ICICI Bank Personal Loan Settlement',
+  title: 'ICICI Bank Personal Loan Settlement Process | CredSettle',
   description:
     'Settle your defaulted ICICI Bank personal loan legally. Learn how to stop recovery harassment, respond to Section 25 notices.',
   keywords: [

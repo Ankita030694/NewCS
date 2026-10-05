@@ -200,8 +200,8 @@ export default function SalariedFintechSettlementClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Available Loan Settlement Plans for<br />
-                        <span className="text-blue-400">Salaried Individuals via Fintech Apps</span>
+                        Loan Settlement Plans for<br />
+                        <span className="text-blue-300">Salaried Individuals via Fintech Apps</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Master your debt with modern digital solutions. Explore AI driven settlement plans, legal shields, and restructuring strategies tailored for India’s workforce.

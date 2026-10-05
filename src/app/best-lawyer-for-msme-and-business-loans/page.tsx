@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import MSMEBusinessLoansClient from './MSMEBusinessLoansClient';
 
 export const metadata: Metadata = {
-    title: "Best Lawyer for MSME and Business Loans in India",
+    title: 'MSME & Business Loan Lawyers in India | CredSettle',
     description: "Looking for the best lawyer for MSME and business loans? Get expert legal help for MSME loan disputes, SARFAESI defence, MSEFC arbitration.",
     keywords: [
         "best lawyer for MSME and business loans",

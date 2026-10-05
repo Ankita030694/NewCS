@@ -208,8 +208,8 @@ export default function CanBankFileCaseClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Can Bank File Case For Personal Loan?<br />
-                        <span className="text-blue-300">Complete Legal Guide for Borrowers</span>
+                        Can Bank File Case for Personal Loan Default?<br />
+                        <span className="text-blue-300">Legal Defense Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Understand the legal recovery process in India, the difference between civil and criminal action, and how to defend your rights.

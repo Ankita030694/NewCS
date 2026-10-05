@@ -267,9 +267,9 @@ export default function RecoveryHarassmentPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            How to Stop Recovery Agent Harassment<br />
-            <span className="text-blue-300">Know Your Legal Rights & RBI Guidelines 2025</span>
-          </h1>
+                        How to Stop Recovery Agent Harassment<br />
+                        <span className="text-blue-300">Rights &amp; RBI Guidelines</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
             Stop the endless calls and doorstep intimidation. Our comprehensive guide 
             reveals exactly how to use Indian laws to protect your family and 

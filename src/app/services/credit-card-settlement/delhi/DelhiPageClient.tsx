@@ -136,8 +136,9 @@ export default function DelhiPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Delhi Gurgaon Noida NCR - Break Free From EMI Trap
-              </h1>
+                        Credit Card Settlement in Delhi NCR<br />
+                        <span className="text-blue-200">(Gurgaon &amp; Noida)</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

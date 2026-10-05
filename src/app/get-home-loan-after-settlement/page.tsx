@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import GetHomeLoanAfterSettlementClient from "./GetHomeLoanAfterSettlementClient";
 
 export const metadata: Metadata = {
-  title: "Can You Get a Home Loan with a \"Settled\" Status?",
+  title: 'Can You Get a Home Loan After Loan Settlement? | CredSettle',
   description:
     "A settled personal loan can make getting a mortgage difficult, but not impossible. Discover how to secure a home loan despite a past debt settlement.",
   keywords: [

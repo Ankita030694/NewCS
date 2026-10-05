@@ -158,8 +158,8 @@ export default function HowExpertPanelsHelpClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How Expert Panels Help in Reconstructing High-Interest Loans<br />
-                        <span className="text-blue-300">Your Alternative to Bankruptcy</span>
+                        How Expert Panels Help in Restructuring<br />
+                        <span className="text-blue-300">High-Interest Loans in India</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Trapped in 30%+ interest rate loans? Discover how elite legal experts force banks to the negotiation table, restructure your debt into low-interest EMIs, and waive penal charges entirely.

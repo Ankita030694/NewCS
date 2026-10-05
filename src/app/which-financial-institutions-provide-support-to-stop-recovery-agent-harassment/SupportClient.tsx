@@ -217,7 +217,7 @@ export default function SupportClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Standing Up Against Recovery Agent Harassment: Your Comprehensive Support Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Financial Institutions Supporting Recovery Harassment Relief</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the current financial climate of India, many individuals find themselves struggling with debt. While borrowing is a common part of modern life, the aftermath of missed payments can often lead to a nightmare that no one anticipates. The aggressive tactics employed by some debt recovery agents have become a significant concern for both regulators and the public. If you are reading this, you might be facing the relentless pressure of phone calls, the fear of unexpected visits, or the humiliation of your debt being discussed with your neighbors. It is crucial to understand that you are not alone, and more importantly, you have rights.

@@ -215,8 +215,8 @@ export default function CreditCardSettlementClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Can I Settle My Credit Card Dues Using<br />
-                        <span className="text-blue-300">Third-Party Loan Settlement Companies?</span>
+                        Can You Settle Credit Card Dues<br />
+                        <span className="text-blue-300">Using Settlement Companies?</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         A detailed 2025 guide on the legality, risks, and RBI rules for credit card debt resolution through professional agencies.

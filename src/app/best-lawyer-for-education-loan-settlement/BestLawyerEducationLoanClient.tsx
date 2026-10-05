@@ -213,7 +213,7 @@ export default function BestLawyerEducationLoanClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Best Lawyer for Education Loan Settlement<br />
-                        <span className="text-blue-300">Strategic Defense Against Student Debt</span>
+                        <span className="text-blue-300">&amp; Student Debt Defense</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Safeguard your career, protect your parents from aggressive recovery agencies, and orchestrate a highly strategic legal settlement to eliminate your burdensome student debt.

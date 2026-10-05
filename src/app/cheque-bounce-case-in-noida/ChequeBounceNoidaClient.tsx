@@ -224,7 +224,7 @@ export default function ChequeBounceNoidaClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Cheque Bounce Cases in Noida: The Definitive Legal Guide for 2025</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Cheque Bounce Cases in Noida: Complete Legal Guide</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the rapidly expanding industrial and commercial landscape of Noida, financial transactions are the lifeblood of business growth. From the corporate hubs in Sector 62 to the manufacturing units in Phase 2, the use of cheques remains a standard practice for high value payments. However, when a transaction goes south and a cheque is returned by the bank, it creates a ripple effect of financial instability. A <strong>cheque bounce case in Noida</strong> is not merely a breach of contract; it is a serious legal matter that requires immediate and strategic intervention.

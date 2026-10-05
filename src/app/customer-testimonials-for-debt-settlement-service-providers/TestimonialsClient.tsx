@@ -263,7 +263,7 @@ export default function TestimonialsClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">The Power of Shared Experiences: Customer Testimonials for Debt Settlement Service Providers</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Customer Testimonials for Debt Settlement Service Providers</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the complex world of financial recovery, nothing carries more weight than the real world experiences of those who have walked the path before you. When searching for <strong>customer testimonials for debt settlement service providers</strong>, you are looking for more than just success stories; you are looking for a roadmap to financial freedom. In India, where debt carries a significant social and emotional burden, these testimonials serve as a beacon of hope for thousands of individuals struggling with mounting credit card bills and personal loans.

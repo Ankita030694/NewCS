@@ -621,8 +621,9 @@ export default function AntiHarassmentClient() {
                       marginBottom: '20px'
                     }}
                   >
-                    Stop Loan Recovery Agent Harassment: Complete Guide to Anti-Harassment Protection in India
-                  </h1>
+                        Stop Loan Recovery Agent Harassment:<br />
+                        <span className="text-blue-200">Legal Protection in India</span>
+                    </h1>
                   <p
                     style={{
                       color: 'rgba(12, 39, 86, 0.70)',

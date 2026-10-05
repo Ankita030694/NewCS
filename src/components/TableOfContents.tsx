@@ -105,7 +105,7 @@ export default function TableOfContents({ headings }: TableOfContentsProps) {
     <div className="toc-wrapper">
       <div className="toc-container">
         <div style={{ width: '100%' }}>
-          <h3 className="toc-title">Table of Contents</h3>
+          <p className="toc-title">Table of Contents</p>
           <div className="w-full overflow-x-auto">
             <nav className="flex gap-3 px-4" style={{ minWidth: 'max-content' }}>
               {headings

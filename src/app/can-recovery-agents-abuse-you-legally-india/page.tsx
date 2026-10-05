@@ -7,7 +7,7 @@ import RecoveryAbuseClient from './RecoveryAbuseClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Can Recovery Agents Abuse You Legally in India?',
+  title: 'Is Recovery Agent Harassment Legal in India? | CredSettle',
   description: 'Confused if debt collectors can legally harass you? Explore the truth about recovery agent abuse in India, RBI guidelines.',
   keywords: [
     'can recovery agents abuse you legally india',

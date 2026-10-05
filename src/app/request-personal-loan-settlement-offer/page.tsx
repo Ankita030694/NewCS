@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
-    title: "How to Request a Personal Loan Settlement Offer from Banks",
+    title: 'Request a Personal Loan Settlement Offer | CredSettle',
     description: "Get expert tips on how to approach your bank for a personal loan settlement offer. Learn how to draft the request, negotiate terms, and get debt relief.",
     alternates: {
         canonical: 'https://www.credsettle.com/request-personal-loan-settlement-offer',

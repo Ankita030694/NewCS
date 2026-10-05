@@ -217,7 +217,7 @@ export default function LegalAidClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating the Best Legal Aid Websites for Recovery Agent Harassment Cases</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Best Legal Aid Websites for Recovery Agent Harassment Cases</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   The modern financial landscape in India has brought about a significant increase in consumer credit. While this has empowered millions to achieve their dreams, it has also led to a rise in debt collection challenges. For many borrowers, the most distressing part of financial hardship is not the debt itself, but the aggressive tactics used by recovery agents. If you find yourself in such a situation, knowing where to turn for help is crucial. This guide explores the <strong>best legal aid websites for recovery agent harassment cases</strong>, providing you with the tools to reclaim your peace of mind and protect your legal rights.

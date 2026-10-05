@@ -204,7 +204,7 @@ export default function StartupSettlementClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Loan Settlement for Startup Founders:<br />
-                        <span className="text-blue-300">A Strategic Guide to Debt Freedom</span>
+                        <span className="text-blue-300">Debt Resolution Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Navigate personal guarantees, protect your personal assets, and discover the legal pathways to professional debt resolution for your startup.

@@ -225,7 +225,7 @@ export default function HowToBlockClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Block Recovery Agent Numbers on Android and iPhone Devices: A Comprehensive Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Block Recovery Agent Numbers on Android and iPhone</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the modern financial landscape, the pressure of debt can often lead to an overwhelming influx of calls from recovery agents. While debt collection is a legitimate business process, it frequently crosses the line into harassment. Understanding how to manage these unwanted communications is the first step toward regaining your peace of mind. Whether you use an Android device or an iPhone, there are several robust methods to block these numbers and stop the constant ringing that disrupts your daily life.

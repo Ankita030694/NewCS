@@ -147,8 +147,8 @@ export default function CanIPayExtraEmiClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Can You Pay an Extra EMI Towards Your Personal Loan?<br />
-                        <span className="text-blue-300">The Ultimate Part-Payment Guide</span>
+                        Can You Pay an Extra EMI for a Personal Loan?<br />
+                        <span className="text-blue-300">Part-Payment Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Discover the mechanical difference between advance EMI and part-payment. Learn how to execute a bonus payment correctly to reduce your debt and save on interest.

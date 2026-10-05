@@ -118,7 +118,7 @@ export default function ChequeBounceClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Defending a Cheque Bounce Case (Section 138):<br />
-                        <span className="text-blue-300">How to Beat Unjust Loan Recovery</span>
+                        <span className="text-blue-300">Legal Defense Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Discover the precise legal roadmap to defend against Section 138 notices stemming from misused security cheques in personal loan defaults.

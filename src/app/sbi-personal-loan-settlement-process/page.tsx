@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import SbiPersonalLoanSettlementProcessClient from './SbiPersonalLoanSettlementProcessClient';
 
 export const metadata: Metadata = {
-  title: 'SBI Personal Loan Settlement Process',
+  title: 'SBI Personal Loan Settlement Process & OTS | CredSettle',
   description:
     'Comprehensive guide to SBI personal loan settlement. Learn how to navigate SARB branch transfers, SBI Rinn Samadhan OTS schemes.',
   keywords: [

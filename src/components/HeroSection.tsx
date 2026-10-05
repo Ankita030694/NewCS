@@ -230,7 +230,7 @@ export default function HeroSection() {
             <div className={`w-full px-6 -pb-12 mt-auto overflow-hidden overflow-x-hidden -mb-4 transition-all duration-700 delay-300 ${
               isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}>
-              <h2 
+              <div 
                 className="text-center text-5xl md:text-7xl lg:text-[200px] font-normal leading-none text-white -mb-12 md:-mb-16 lg:-mb-20 overflow-x-hidden"
                 style={{ 
                   margin: 0,
@@ -244,7 +244,7 @@ export default function HeroSection() {
                 }}
               >
                 CredSettle
-              </h2>
+              </div>
             </div>
           </div>
         </div>
@@ -376,7 +376,6 @@ export default function HeroSection() {
           </a>
           
           {/* Second Review Row */}
-          <a href="https://www.trustpilot.com/" target="_blank" rel="noopener noreferrer">
           <div className="bg-white flex" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
             <div className="w-1/2 flex justify-center items-center">
                 <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{height: '29.16px'}} />
@@ -391,7 +390,6 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          </a>
           </div>
 
 

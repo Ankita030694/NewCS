@@ -136,8 +136,9 @@ export default function RajasthanPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Jaipur Rajasthan - Break Free From Business Debt Trap
-              </h1>
+                        Credit Card Settlement in Jaipur,<br />
+                        <span className="text-blue-200">Jodhpur &amp; Rajasthan</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

@@ -266,7 +266,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                 <span>Statutory Foundations</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. What Powers Do Debt Recovery Agents Actually Have? (Debunking Seizure Myths)
+                1. What Legal Powers Do Debt Recovery Agents Actually Have?
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When borrowers experience genuine financial distress due to medical emergencies, business downturns, or sudden job loss and default on unsecured personal loan Equated Monthly Installments (EMIs), third-party debt recovery agencies often resort to aggressive, intimidating tactics. One of the most terrifying threats used by these agents is claiming that they will arrive with a &quot;seizure squad&quot;, confiscate your vehicle, take away household furniture and electronics, or seal your residential premises.
@@ -325,7 +325,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                 <span>SARFAESI Act Demystified</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. The SARFAESI Act Myth: Why Section 13 Possession Does NOT Apply to Personal Loans
+                2. Why SARFAESI Section 13 Does Not Apply to Personal Loans
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 A common scare tactic used by unethical collection agencies is sending notices bearing threatening legal jargon such as &quot;Notice under Section 13(2) of SARFAESI Act&quot; or &quot;Imminent Auction of Residential House under SARFAESI Rules&quot;. Many borrowers panic because they know the SARFAESI Act enables banks to seize mortgaged properties without going through a civil court.
@@ -380,7 +380,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                 <span>Statutory Civil Shield</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. The Section 60 CPC Shield: What Assets the Law Protects From Court Attachment
+                3. Section 60 CPC: Assets Protected From Court Attachment
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 To understand the limits of what a bank can do even if they decide to litigate in a regular civil court, one must examine the <strong>Code of Civil Procedure, 1908 (CPC)</strong>. If a bank files a civil money suit (or arbitration) and after years of litigation wins a money decree, it must file an <em>Execution Petition under Order 21 of the CPC</em> to attach the judgment-debtor&apos;s property.
@@ -429,7 +429,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Asset Attachment Comparison Grid: Secured vs. Unsecured Loan Recovery
+                4. Asset Attachment Comparison: Secured vs Unsecured Loans
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Understanding the vast statutory distinction between secured collateral and unsecured personal debt is crucial for evaluating your exposure. This comparative grid details how property rights and recovery powers differ across loan categories in India:
@@ -501,7 +501,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                 <span>Financial &amp; Legal Economics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Technical Financial Risk Analytics: Why Banks Rarely Attach Property for Personal Loans
+                5. Why Banks Rarely Attach Property for Personal Loans
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Borrowers often wonder: <em>&quot;If banks technically have the right to file a civil suit and seek execution, why do recovery agents make empty seizure threats instead of filing cases immediately?&quot;</em> The answer lies in the rigorous cost-benefit mathematics of institutional litigation in India.

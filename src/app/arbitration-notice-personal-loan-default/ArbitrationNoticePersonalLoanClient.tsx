@@ -316,7 +316,7 @@ export default function ArbitrationNoticePersonalLoanClient() {
                 <span>Civil vs. Criminal Realities</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Is an Arbitration Notice Legally Binding? (Debunking Arrest &amp; Jail Threats)
+                2. Is a Personal Loan Arbitration Notice Legally Binding?
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 One of the most widespread tactics employed by unethical third-party debt recovery agencies is fabricating threats of immediate police intervention, arrest warrants, and criminal detention upon the issuance of an arbitration notice. Borrowers receiving these intimidating communications often experience severe distress.

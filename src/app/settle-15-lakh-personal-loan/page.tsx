@@ -5,7 +5,7 @@ import Settle15LakhClient from "./Settle15LakhClient";
 
 // SEO Metadata
 export const metadata: Metadata = {
-  title: "How to Settle a ₹15 Lakh Personal Loan in India",
+  title: 'Settle a ₹15 Lakh Personal Loan in India | CredSettle',
   description:
     "Defaulting on a ₹15 Lakh personal loan? Discover how much discount you can get, the negotiation timeline, and the legal steps required to settle it.",
   alternates: {

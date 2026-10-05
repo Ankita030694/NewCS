@@ -147,7 +147,7 @@ export default function GuarantorRecoveryClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Can the Bank Contact Your Guarantor for Recovery?<br />
+                        Can Bank Contact Guarantor for Loan Recovery?<br />
                         <span className="text-blue-300">Know Your Legal Rights</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">

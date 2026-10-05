@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import PersonalLoanDebtSettlementClient from './PersonalLoanDebtSettlementClient';
 
 export const metadata: Metadata = {
-    title: "Personal Loan Debt Settlement India",
+    title: 'Personal Loan Debt Settlement in India | CredSettle',
     description: "Learn the financial mechanics of personal loan debt settlement in India. Understand the difference between consolidation and settlement.",
     keywords: [
         "personal loan debt settlement India",

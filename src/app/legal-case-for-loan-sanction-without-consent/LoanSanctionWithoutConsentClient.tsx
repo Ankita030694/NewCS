@@ -196,8 +196,8 @@ export default function LoanSanctionWithoutConsentClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Loan Sanctioned Without Your Consent?<br />
-                        <span className="text-blue-300">Fight Back Against Lending Fraud in 2025</span>
+                        Loan Sanctioned Without Consent?<br />
+                        <span className="text-blue-300">Legal Defense Against Lending Fraud</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Discover your legal rights against unauthorized disbursements, identity theft, and bank negligence. Stop illegal EMIs, fix your credit score, and claim compensation today.
@@ -309,7 +309,7 @@ export default function LoanSanctionWithoutConsentClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Introduction: The Rising Threat of Unauthorized Loan Sanctions in India</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Unauthorized Loan Sanctions in India: Legal Overview</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Imagine waking up to find a message from your bank: "Congratulations! Your personal loan of 5,00,000 INR has been successfully disbursed." You never applied for a loan. You never signed a document. You never gave a digital consent. Yet, within minutes, your bank account shows a massive credit, followed by the activation of an EMI cycle that will drain your savings for years. This is not a hypothetical scenario; it is a clinical reality for thousands of Indians in 2025. As India leads the global revolution in digital lending, it has also inadvertently created a playground for sophisticated identity thieves and negligent lending platforms.
                             </p>

@@ -270,7 +270,7 @@ export default function RecoveryVisitClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
 
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Mastering Your Defense: The Ultimate Guide on How to Stop Recovery Agent Home Visit</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">How to Stop Recovery Agent Home Visits: Legal Rights</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Living under the shadow of debt is stressful enough without the added fear of a stranger showing up at your doorstep to intimidate you. In India, thousands of borrowers face the daily anxiety of unannounced visits from debt collection agencies. Many people believe that because they owe money, they have lost their right to privacy and dignity. This is completely false. Learning <strong>how to stop recovery agent home visit</strong> is not about avoiding your debt; it is about ensuring that the recovery process follows the law of the land and respects your human rights.

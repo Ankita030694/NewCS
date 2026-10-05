@@ -266,7 +266,7 @@ export default function DoesForeclosureClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Does Foreclosure of Loan Affect CIBIL? Understanding the Impact and Path to Recovery</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Does Foreclosure of a Loan Affect Your CIBIL Score?</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   When you take a loan in India, whether it is for a car, a home, or a personal need, your primary goal is to pay it back on time. However, life often takes unexpected turns. Financial difficulties might lead you to consider closing your loan early or, in worse cases, result in the bank taking over your property. Many borrowers frequently ask, <strong>does foreclosure of loan affect CIBIL</strong> scores? The answer is not a simple yes or no, as it depends entirely on the nature of the foreclosure and your overall repayment behavior.

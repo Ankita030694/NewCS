@@ -268,8 +268,9 @@ function WestBengalPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                {heroCopy.title}
-              </h1>
+                        NBFC Loan Settlement in Kolkata,<br />
+                        <span className="text-blue-200">Siliguri &amp; West Bengal</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

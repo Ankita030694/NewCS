@@ -228,7 +228,7 @@ export default function FindAgenciesClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Find Reputable Agencies That Help Settle Credit Card Debt in India</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Finding Reputable Credit Card Debt Settlement Agencies</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the modern financial landscape of India, credit cards have become an essential tool for many. They offer convenience, rewards, and a financial cushion during emergencies. However, when not managed carefully, credit card debt can quickly spiral out of control due to high interest rates and compounding penalties. For those finding themselves in a cycle of debt where they are only paying the minimum due, the situation can feel hopeless. This is where the quest to <strong>find reputable agencies that help settle credit card debt in India</strong> begins.

@@ -314,7 +314,7 @@ export default function LoanDefaultNoticeClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Overview: What a Loan Default Notice Really Means and What You Should Do</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">What a Loan Default Notice Means and What You Should Do</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Receiving a loan default notice from a bank is one of those moments that freezes a borrower mid-breath. Whether it is a letter that arrives by registered post, a physical notice served at your home or office, or a formal communication handed over by a bank official, the words "loan default notice" carry an immediate weight of anxiety and uncertainty. The very first question most borrowers ask is: what do I do now?
                             </p>
@@ -380,7 +380,7 @@ export default function LoanDefaultNoticeClient() {
                                 The most legally significant notice in the SARFAESI framework is the Section 13(2) Demand Notice. This notice formally informs you that your account has been classified as NPA and that the bank intends to exercise its SARFAESI powers to recover the outstanding dues. The 60-day window following this notice is your single most important opportunity to assert your rights, challenge the bank’s claims, and propose a resolution before the bank takes physical possession of your secured assets.
                             </p>
 
-                            <h2 id="first-steps" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">First Steps After Receiving a Loan Default Notice: The Critical 72 Hours</h2>
+                            <h2 id="first-steps" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">First Steps After Receiving a Loan Default Notice</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The actions you take in the first 72 hours after receiving a loan default notice set the tone for everything that follows. Here is a structured approach that maximises your options and preserves your legal position.
                             </p>
@@ -457,7 +457,7 @@ export default function LoanDefaultNoticeClient() {
                                 The moment you receive DRT summons, your defence strategy must shift into a higher gear. You now have not just a negotiation challenge but a formal legal proceeding running in parallel. Your lawyer must: file a written statement within 30 days raising all your defences, simultaneously apply for a stay on any auction proceedings pending under SARFAESI, and open structured OTS discussions with the bank at the right moment during the proceedings. The DRT track and the OTS track should run simultaneously under your lawyer’s coordination.
                             </p>
 
-                            <h2 id="settlement-options" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Settlement Options After a Loan Default Notice: What Is Available to You</h2>
+                            <h2 id="settlement-options" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Settlement Options Available After a Loan Default Notice</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Receiving a loan default notice does not necessarily mean you must fight a prolonged legal battle. In many cases, the right response to the notice opens up settlement and restructuring options that were not formally on the table before the notice was received. Here are the main settlement pathways available after a loan default notice.
                             </p>
@@ -469,7 +469,7 @@ export default function LoanDefaultNoticeClient() {
                                 <li><strong>Debt Consolidation:</strong> If you have multiple defaulted loans, consolidating all of them into a single restructured loan (possibly with a different lender) can simplify your obligations and potentially reduce your overall interest burden. This requires both a DRT-experienced lawyer and a financial advisor who understands banking products.</li>
                             </ul>
 
-                            <h2 id="harassment-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Protecting Yourself from Recovery Agent Harassment After a Default Notice</h2>
+                            <h2 id="harassment-protection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Protecting Yourself from Harassment After a Default Notice</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In the period immediately following a loan default notice, banks often step up contact through recovery agents. While legitimate contact by recovery agents is allowed, there is a significant and clear boundary between lawful recovery efforts and illegal harassment. Knowing this boundary allows you to take firm action against violations, which in turn gives you additional leverage in settlement negotiations.
                             </p>
@@ -486,7 +486,7 @@ export default function LoanDefaultNoticeClient() {
                                 </ul>
                             </div>
 
-                            <h2 id="choosing-lawyer" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Choosing the Best Lawyer for Your Loan Default Notice: The Key Questions to Ask</h2>
+                            <h2 id="choosing-lawyer" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">How to Choose the Best Lawyer for a Loan Default Notice</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The quality of your legal representation determines whether a loan default notice becomes a manageable situation or a financial catastrophe. Here is how to evaluate potential lawyers before making a decision.
                             </p>
@@ -500,7 +500,7 @@ export default function LoanDefaultNoticeClient() {
                                 </ul>
                             </div>
 
-                            <h2 id="npa-defence" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Fighting NPA Status: How a Lawyer Can Challenge an Improper NPA Classification</h2>
+                            <h2 id="npa-defence" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">How a Lawyer Can Challenge Improper NPA Classification</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most consequential aspects of a loan default notice is that it typically accompanies or immediately follows the bank classifying your loan as a Non-Performing Asset. NPA status triggers the bank’s right to invoke SARFAESI, file DRT cases, and report your account to credit bureaus as a defaulter. Challenging an improper NPA classification, or preventing one from occurring, is therefore a high-priority legal objective.
                             </p>

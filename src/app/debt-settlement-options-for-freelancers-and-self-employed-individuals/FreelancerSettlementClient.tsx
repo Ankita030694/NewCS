@@ -218,7 +218,7 @@ export default function FreelancerSettlementClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Debt Settlement Options for Freelancers and Self-Employed Individuals</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Debt Settlement Options for Freelancers and Self-Employed</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the rapidly evolving economic landscape of modern India, the gig economy has emerged as a significant force. Millions of professionals are choosing the path of freelancing and self-employment, seeking autonomy and the freedom to build their own professional destiny. However, this path is often paved with financial unpredictability. Unlike salaried professionals who receive a steady paycheck at the end of every month, freelancers face a rollercoaster of "feast or famine" cycles. One month might bring a surplus of high-paying projects, while the next might see a total drying up of client work.

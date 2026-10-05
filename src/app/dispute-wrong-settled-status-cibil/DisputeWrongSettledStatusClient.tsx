@@ -264,7 +264,7 @@ export default function DisputeWrongSettledStatusClient() {
                 <span>Operational Vulnerabilities</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                1. The Anatomy of Erroneous Reporting: Why Banks Misclassify Fully Paid Loans
+                1. Why Banks Misclassify Fully Paid Loans in CIBIL Reports
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 To effectively dismantle a wrongful settlement entry, one must first understand how modern scheduled commercial banks (such as HDFC Bank, ICICI Bank, State Bank of India, Axis Bank, and Kotak Mahindra Bank) and Non-Banking Financial Companies (NBFCs) manage credit data transmission. The Indian retail credit ecosystem relies on monthly batch uploads where massive database extracts are transmitted to the four licensed Credit Information Companies: TransUnion CIBIL, Experian India, Equifax India, and CRIF High Mark.
@@ -317,7 +317,7 @@ export default function DisputeWrongSettledStatusClient() {
                 <span>Credit Bureau Status Taxonomy</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                2. Erroneous Settled vs. Closed vs. Written-Off: The Legal Distinctions
+                2. Settled vs Closed vs Written-Off: Legal Distinctions
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Credit underwriters and automated Loan Origination Systems (LOS) categorize credit report flags using strict risk weight algorithms. The table below delineates the profound legal, financial, and credit differences between these distinct reporting flags:
@@ -536,7 +536,7 @@ export default function DisputeWrongSettledStatusClient() {
                 <span>Documentary Pre-Requisites</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                5. Crucial Documentary Evidence: Building an Irrefutable Dispute Dossier
+                5. Documentary Evidence for Filing a CIBIL Dispute
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Before serving formal legal notices or filing bureau disputes, you must assemble a comprehensive evidentiary dossier. Bank compliance desks and the RBI Ombudsman evaluate disputes based on tangible transaction documentation rather than verbal assertions. Ensure your dossier contains:
@@ -749,7 +749,7 @@ export default function DisputeWrongSettledStatusClient() {
                 <span>Statutory Notice Draft</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                7. Formal Legal Notice Draft: Demand for Immediate Rectification under CICRA §21
+                7. Legal Notice for CIBIL Rectification Under CICRA §21
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Use this battle-tested formal legal notice template when serving representation to the Principal Nodal Officer and Central Credit Bureau Operations desk of the lending bank:
@@ -942,7 +942,7 @@ Enclosures:
                 <span>Specialized Banking Scenarios</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                10. Complex Scenarios: Credit Cards, Asset Reconstruction Companies &amp; Fintech Apps
+                10. Complex Scenarios: Credit Cards, ARCs & Fintech Apps
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Certain retail lending structures involve third-party entities, securitization, or digital intermediaries that complicate the dispute resolution pathway:

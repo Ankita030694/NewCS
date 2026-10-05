@@ -136,8 +136,9 @@ export default function KarnatakaPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Bangalore Karnataka - Break Free From Tech Lifestyle Debt
-              </h1>
+                        Credit Card Settlement in Bangalore<br />
+                        <span className="text-blue-200">&amp; Karnataka State</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

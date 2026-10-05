@@ -7,7 +7,7 @@ import ScamAvoidanceClient from './ScamAvoidanceClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Avoid Scams in the Debt Settlement Industry',
+  title: 'How to Avoid Debt Settlement Scams in India | CredSettle',
   description: 'Learn how to identify and avoid debt settlement scams. Discover the red flags, legal rights, and how to choose a legitimate debt relief partner like.',
   keywords: [
     'avoid debt settlement scams',

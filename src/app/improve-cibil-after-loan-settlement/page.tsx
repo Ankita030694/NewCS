@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import ImproveCibilAfterLoanSettlementClient from './ImproveCibilAfterLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'How to Rebuild & Improve CIBIL After a Loan Settlement',
+  title: 'How to Rebuild CIBIL After a Loan Settlement | CredSettle',
   description: "A loan settlement drops your credit score, but it isn't permanent. Follow our proven blueprint to rebuild your CIBIL score quickly post-settlement.",
   keywords: [
     'how to rebuild cibil after settlement',

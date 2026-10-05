@@ -338,7 +338,7 @@ export default function SelfEmployedSettlementClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-xl max-w-none bg-white p-8 md:p-16 rounded-[40px] shadow-sm border border-gray-50">
 
-                            <h2 id="introduction" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24">Introduction: The Unique Debt Challenges of Business Owners in India 2025</h2>
+                            <h2 id="introduction" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24">Debt Challenges Faced by Business Owners in India</h2>
                             <div id="intro-content">
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     The life of an entrepreneur in India is often characterized by extreme volatility, fluctuating cash flows, and the constant pressure of maintaining a viable business model in a rapidly shifting economy. As we move into 2025, the challenges faced by self-employed individuals and MSME owners regarding debt management have become increasingly complex. While the government and the Reserve Bank of India have introduced several measures to support small businesses, the reality on the ground often involves a desperate struggle to balance operational costs with mounting loan obligations. The debt trap for a business owner is fundamentally different from that of a salaried employee. For a salaried person, debt is usually a fixed percentage of a predictable income. For the self-employed, debt is often an unpredictable monster fueled by vendor delays, market shifts, and the high cost of working capital.

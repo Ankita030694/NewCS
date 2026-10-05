@@ -199,8 +199,8 @@ export default function SettlementTimelineClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How Long Does a Debt Settlement Typically Take? <br />
-                        <span className="text-blue-300">The 2025 Comprehensive Roadmap</span>
+                        How Long Does Debt Settlement Take?<br />
+                        <span className="text-blue-300">Timeline &amp; Process Guide</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
                         Navigate the stages of debt resolution. From the 90-day NPA countdown to the 48-hour NOC issuance. Understand the factors that speed up or delay your path to debt freedom.

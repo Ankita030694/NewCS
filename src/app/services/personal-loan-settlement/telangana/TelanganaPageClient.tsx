@@ -136,8 +136,9 @@ export default function TelanganaPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Loan Settlement Hyderabad Telangana - IT Pharma Tech Professionals Focus
-              </h1>
+                        Personal Loan Settlement in Hyderabad,<br />
+                        <span className="text-blue-200">Warangal &amp; Telangana</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

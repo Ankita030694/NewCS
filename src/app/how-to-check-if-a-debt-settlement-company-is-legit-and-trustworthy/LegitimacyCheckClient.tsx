@@ -218,7 +218,7 @@ export default function LegitimacyCheckClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Check if a Debt Settlement Company is Legit and Trustworthy: A Comprehensive Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Check if a Debt Settlement Company is Legit and Trustworthy</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In recent years, the Indian financial landscape has witnessed a significant rise in household debt. From credit cards to personal loans, many individuals find themselves struggling to keep up with monthly payments. This has led to the emergence of the debt settlement industry. While many of these companies offer a lifeline to those in financial distress, the lack of a specific regulatory framework has also allowed predatory scammers to enter the market. If you are searching for <strong>how to check if a debt settlement company is legit and trustworthy</strong>, you are taking a crucial step toward protecting your financial future.

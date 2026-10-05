@@ -128,9 +128,9 @@ export default function DocumentsNeededForLoanSettlementClient() {
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           {/* Title / H1 */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            Documents Needed for Loan Settlement <br />
-            <span className="text-blue-100">(Hardship Proof &amp; Essential Checklist)</span>
-          </h1>
+                        Documents Needed for Loan Settlement:<br />
+                        <span className="text-blue-300">Hardship Proof &amp; Checklist</span>
+                    </h1>
 
           {/* Subtitle */}
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal md:font-medium text-white/95 leading-relaxed">

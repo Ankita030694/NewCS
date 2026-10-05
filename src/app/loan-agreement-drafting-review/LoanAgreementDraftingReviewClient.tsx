@@ -197,8 +197,8 @@ export default function LoanAgreementDraftingReviewClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Expert Loan Agreement Drafting & Review<br />
-                        <span className="text-blue-300">Secure Your Financial Future in 2025</span>
+                        Expert Loan Agreement Drafting &amp; Review:<br />
+                        <span className="text-blue-300">Legal Contract Services</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Don’t sign blindly. Get a professional legal review of your loan documents to protect your rights, identify hidden traps, and ensure full compliance with Indian laws.

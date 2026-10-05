@@ -183,7 +183,7 @@ export default function PersonalLoanDefaulterClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -205,7 +205,10 @@ export default function PersonalLoanDefaulterClient() {
           </aside>
 
           <article className="lg:w-3/5 w-full prose prose max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
-            <h1 className="text-3xl font-bold text-gray-900 mb-8">Personal Loan Defaulter for 10 Years: The Complete Legal & Financial Reality</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-8">
+                        Personal Loan Defaulter for 10 Years:<br />
+                        <span className="text-blue-300">Legal &amp; Financial Reality</span>
+                    </h1>
 
             <section className="mb-10 p-6 bg-blue-50 border border-blue-100 rounded-2xl shadow-sm">
               <h2 className="text-xl font-bold text-blue-900 mb-3">Key Takeaways: Legal Realities of a 10-Year Loan Default</h2>

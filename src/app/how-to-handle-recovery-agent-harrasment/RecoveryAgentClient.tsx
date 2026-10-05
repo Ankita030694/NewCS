@@ -260,7 +260,7 @@ export default function RecoveryAgentClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
 
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Navigating the Storm: A Master Class on How to Handle Recovery Agent Harassment</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">How to Handle Recovery Agent Harassment in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Financial instability is a harsh reality that can strike anyone, anywhere. In the high-pressure economic environment of modern India, falling behind on a loan installment or a credit card payment is not just a financial hurdle; it often becomes a psychological and social battle. When you default on a payment, you might expect a polite reminder call or a formal letter. However, the reality for millions of borrowers is the sudden onset of aggressive, unrelenting, and often illegal tactics used by third-party collection agencies. Knowing <strong>how to handle recovery agent harassment</strong> is a survival skill in today’s financial world. It is about more than just numbers; it is about reclaiming your constitutional right to live with dignity and peace of mind.
@@ -276,7 +276,7 @@ export default function RecoveryAgentClient() {
                 </p>
               </div>
 
-              <h2 id="rbi-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Fundamental Law: RBI Guidelines for Recovery Agents (Revised 2022-2025)</h2>
+              <h2 id="rbi-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">RBI Guidelines for Recovery Agents: Legal Framework</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   The cornerstone of your defense against illegal collection practices is the RBI Circular <strong>RBI/2022-23/108</strong>, titled "Outsourcing of Financial Services - Responsibilities of Regulated Entities and Recovery Agents." This document is the bible of recovery ethics in India. If you truly want to learn <strong>how to handle recovery agent harassment</strong>, you must understand the weight of this regulation. For the years 2024 and 2025, these rules serve as the primary compliance check for every bank and NBFC in the country.

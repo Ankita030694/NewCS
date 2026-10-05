@@ -316,7 +316,7 @@ export default function Section138ChequeBounceClient() {
                 <span>Civil vs. Criminal Realities</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Can You Go to Jail for a Cheque Bounce? (Bail Rights &amp; Debunking Arrest Myths)
+                2. Can You Go to Jail for a Cheque Bounce? Bail Rights & Law
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 The single most common fear among borrowers facing loan default is that the local police will arrive at their doorstep with handcuffs to arrest them for a bounced personal loan cheque. Aggressive recovery telecallers routinely exploit this anxiety by sending forged arrest notices, fake police station summons, and fabricated warrant threats on WhatsApp.
@@ -364,7 +364,7 @@ export default function Section138ChequeBounceClient() {
                 <span>Supreme Court Jurisprudence</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Supreme Court Landmark Rulings on Security Cheques &amp; Presumption Rebuttal
+                3. Supreme Court Rulings on Security Cheques & Section 139
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 The Supreme Court of India has established authoritative legal principles governing blank security cheques, unendorsed part-payments, and the statutory presumption of debt under Section 139 of the Negotiable Instruments Act. These landmark precedents form the core artillery of your legal defense:
@@ -502,7 +502,7 @@ export default function Section138ChequeBounceClient() {
                 <span>Financial &amp; Scoring Analytics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Technical Penalties, Section 143A Interim Compensation &amp; Credit Score Math
+                5. Section 143A Interim Compensation & Legal Penalties
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 A Section 138 prosecution carries both statutory judicial financial exposure and severe credit bureau impairment across TransUnion CIBIL, Experian, CRIF High Mark, and Equifax:
@@ -576,7 +576,7 @@ export default function Section138ChequeBounceClient() {
                 <span>Visual Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: 6-Step Section 138 Defense &amp; Settlement Roadmap
+                6-Step Section 138 Defense & Settlement Roadmap
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Refer to this high-resolution visual roadmap outlining the strategic 6-stage workflow to defend against personal loan cheque bounce cases, secure same-day bail, assert statutory objections, and achieve out-of-court compounding:
@@ -615,7 +615,7 @@ export default function Section138ChequeBounceClient() {
                 <span>Step-by-Step Defense SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Standard Operating Procedure (SOP): 6 Stages of Cheque Bounce Defense
+                6. 6-Stage SOP for Section 138 Cheque Bounce Defense
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Follow this sequential, institutional procedure to navigate a Section 138 cheque bounce case from the receipt of the initial statutory notice to full judicial acquittal and debt closure:
@@ -727,7 +727,7 @@ export default function Section138ChequeBounceClient() {
                 <span>Substantive Legal Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. Substantive Legal Defense Strategy &amp; Section 139 Presumption Rebuttal
+                7. Legal Defense Strategy & Section 139 Presumption Rebuttal
               </h2>
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-5 text-slate-700 leading-relaxed text-sm md:text-base">
                 <p>
@@ -878,7 +878,7 @@ export default function Section138ChequeBounceClient() {
                 <span>Specialized Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Special Scenarios: NACH Bounces (Sec 25 PSS), Fintech Apps &amp; Guarantors
+                10. Special Scenarios: NACH Bounces, Fintech Apps & Guarantors
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Cheque bounce and digital mandate defaults involve nuanced statutory dynamics across various retail credit products:

@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import HowToSettleACreditCardDebtClient from './HowToSettleACreditCardDebtClient';
 
 export const metadata: Metadata = {
-  title: 'How to Settle a Credit Card Debt',
+  title: 'How to Settle Credit Card Debt in India | CredSettle',
   description: 'Learn exactly how to settle a credit card debt in India. We provide a step by step timeline, cost breakdown, and negotiation strategies to reduce balance.',
   alternates: {
     canonical: 'https://www.credsettle.com/how-to-settle-a-credit-card-debt',

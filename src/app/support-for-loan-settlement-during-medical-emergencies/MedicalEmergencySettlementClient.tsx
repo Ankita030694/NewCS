@@ -223,7 +223,7 @@ export default function MedicalEmergencySettlementClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
 
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Loan Settlement During Medical Emergencies: A Comprehensive Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Loan Settlement Options During Medical Emergencies</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Imagine waking up in a hospital bed, still groggy from a life saving procedure, only to find your phone buzzing with aggressive calls from a collection agency. This is the reality for thousands of Indian borrowers every month. A medical emergency is never just a health crisis; in our current financial ecosystem, it rapidly transforms into a "Debt Trap" that can feel as suffocating as the illness itself. The psychological weight of mounting EMIs while you are fighting for your life or caring for a loved one is a burden that no one should carry alone.

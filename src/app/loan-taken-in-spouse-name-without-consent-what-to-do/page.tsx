@@ -183,9 +183,9 @@ export default function LoanTakenInSpouseNamePage() {
           >
             <div className="max-w-6xl mx-auto text-center z-10">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-                Spouse Took Loan in My Name Without Consent:<br />
-                <span className="text-blue-300">Legal Steps & Settlement Guide</span>
-              </h1>
+                        Spouse Took Loan in My Name Without Consent:<br />
+                <span className="text-blue-300">Legal Action Guide</span>
+                    </h1>
               <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                 Victim of spousal identity theft? Learn the legal steps to stop bank harassment, file an FIR, and protect your credit score from unauthorized debt.
               </p>

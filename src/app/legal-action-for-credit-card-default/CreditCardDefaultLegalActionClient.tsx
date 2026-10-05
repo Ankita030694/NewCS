@@ -207,8 +207,8 @@ export default function CreditCardDefaultLegalActionClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Legal Action For Credit Card Default?<br />
-                        <span className="text-blue-300">Defend Your Rights & Resolve Debt</span>
+                        Legal Action for Credit Card Default:<br />
+                        <span className="text-blue-300">Rights &amp; Debt Defense</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expert roadmap for handling credit card recovery, protecting your CIBIL score, and negotiating a legal settlement with banks.

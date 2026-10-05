@@ -155,8 +155,8 @@ export default function PunishmentChequeBounceSection138Client() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What is the Punishment for Cheque Bounce Under Section 138 NI Act?<br />
-                        <span className="text-blue-300">Know Your Rights</span>
+                        Punishment for Cheque Bounce<br />
+                        <span className="text-blue-300">Under Section 138 NI Act</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Stop living in fear of recovery agents. Discover the legal truth about bailable offenses, statutory notice periods, and how to defend yourself against illegal arrest threats.

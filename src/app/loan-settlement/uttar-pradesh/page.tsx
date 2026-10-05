@@ -259,9 +259,9 @@ export default function UttarPradeshLoanSettlementPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Uttar Pradesh Loan Settlement Services<br />
-            <span className="text-blue-200">Legal Debt Relief in Noida, Lucknow & Beyond</span>
-          </h1>
+                        Loan Settlement Services in Uttar Pradesh<br />
+            <span className="text-blue-200">(Noida &amp; Lucknow)</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
             Stop harassment from recovery agents. Settle personal loans and credit cards legally through Lok Adalat and DRT. Save up to 50% on your debt.
           </p>

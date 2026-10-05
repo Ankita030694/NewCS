@@ -205,8 +205,8 @@ export default function StudentLoanSettlementClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Are there Specialized Programs for Settling<br />
-                        <span className="text-blue-300">Student Loan Defaults in India?</span>
+                        Settling Student Loan Defaults:<br />
+                        <span className="text-blue-300">Specialized Programs in India</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Navigate the complexities of education debt with expert insights into government schemes, RBI rules, and professional settlement programs.

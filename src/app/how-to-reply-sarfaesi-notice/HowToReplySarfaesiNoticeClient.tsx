@@ -148,8 +148,8 @@ export default function HowToReplySarfaesiNoticeClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How to Legally Reply to a SARFAESI Notice<br />
-                        <span className="text-blue-300">Stop Bank Property Possession</span>
+                        How to Reply to a SARFAESI Notice<br />
+                        <span className="text-blue-300">Stop Property Possession</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Ignoring a 60 day Section 13(2) notice guarantees the loss of your property. Learn exactly how to file a statutory objection to stall the auction timeline.

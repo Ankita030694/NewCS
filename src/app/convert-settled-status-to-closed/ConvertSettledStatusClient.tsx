@@ -257,7 +257,7 @@ export default function ConvertSettledStatusClient() {
                 <span>Credit Bureau Anatomy</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                1. The Critical Difference Between &quot;Settled&quot;, &quot;Closed&quot;, and &quot;Written Off&quot;
+                1. Difference Between "Settled", "Closed", and "Written Off"
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When you check your credit report across India&apos;s four RBI-licensed credit information companies (TransUnion CIBIL, Experian India, Equifax India, and CRIF High Mark), loan accounts are categorized by distinct legal status flags. Understanding the exact banking terminology is essential before initiating any dispute or payoff.
@@ -844,7 +844,7 @@ Place: [City, State]`}
                 <span>Complex Cases</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                9. Special Scenarios: Credit Cards, ARCs, and Digital Fintech Loan Apps
+                9. Special Scenarios: Credit Cards, ARCs & Fintech Loan Apps
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

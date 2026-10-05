@@ -150,8 +150,8 @@ export default function CreditCardPartialPaymentClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        The Hidden Dangers of Credit Card Partial Payments<br />
-                        <span className="text-blue-300">Stop Throwing Money into the Void</span>
+                        Hidden Dangers of Credit Card Partial Payments<br />
+                        <span className="text-blue-300">&amp; Minimum Due Traps</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Discover exactly how banks allocate your funds, why paying slightly above the minimum due keeps you trapped, and how to restructure your debt legally.

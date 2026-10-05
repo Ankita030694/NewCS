@@ -251,9 +251,9 @@ export default function HaryanaLoanSettlementPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Haryana Loan Settlement Services<br />
-            <span className="text-blue-200">Legal Debt Relief in Gurugram, Faridabad & Beyond</span>
-          </h1>
+                        Loan Settlement Services in Gurugram<br />
+            <span className="text-blue-200">&amp; Haryana</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
             Stop harassment from recovery agents. Settle personal & business loans legally through Lok Adalat. Save up to 50% on your debt.
           </p>

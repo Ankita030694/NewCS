@@ -85,8 +85,8 @@ export default function ContactPage() {
                   background: '#BFEEFF'
                 }}
               >
-                <h2 
-                  className="text-[9px] md:text-[11px]"
+                <span 
+                  className="block text-[9px] md:text-[11px]"
                   style={{
                     color: '#0C2756',
                     fontFamily: 'Poppins',
@@ -96,7 +96,7 @@ export default function ContactPage() {
                   }}
                 >
                   Contact Us
-                </h2>
+                </span>
               </div>
               <h1 
                 className="mb-2.5 md:mb-3 text-xl md:text-2xl lg:text-[36px] leading-tight md:leading-tight lg:leading-[52px]"
@@ -120,7 +120,7 @@ export default function ContactPage() {
               >
                 Or just reach out manually at info@credsettle.com
               </p>
-              <h4 
+              <h2 
                 className="mb-2.5 md:mb-3 text-lg md:text-xl lg:text-[22px] leading-tight"
                 style={{
                   color: '#0C2756',
@@ -130,7 +130,7 @@ export default function ContactPage() {
                 }}
               >
                 Reach Out to us
-              </h4>
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                 <div 
                   className="relative overflow-hidden flex gap-3 md:gap-4 p-4 md:p-6 rounded-[24px] min-h-[128px]"

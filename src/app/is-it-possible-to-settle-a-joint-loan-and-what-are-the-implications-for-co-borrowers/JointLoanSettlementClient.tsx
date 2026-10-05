@@ -224,7 +224,7 @@ export default function JointLoanSettlementClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Joint Loan Settlement: A Comprehensive Guide for Co-Borrowers</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Joint Loan Settlement: Rules and Co-Borrower Implications</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Entering into a joint loan agreement is often a decision born out of necessity or mutual trust. Whether it is a husband and wife buying their dream home or business partners securing capital for a new venture, the shared responsibility can make large financial goals achievable. However, when financial tides turn and repayment becomes a struggle, the complexity of a joint liability becomes starkly apparent. One of the most frequent questions we encounter at <strong>credsettle</strong> is whether it is possible to settle a joint loan and what that means for everyone involved.

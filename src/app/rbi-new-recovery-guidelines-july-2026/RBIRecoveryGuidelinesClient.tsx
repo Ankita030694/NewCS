@@ -209,7 +209,7 @@ export default function RBIRecoveryGuidelinesClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         RBI New Recovery Guidelines July 2026<br />
-                        <span className="text-blue-300">Absolute Protection for Borrowers</span>
+                        <span className="text-blue-300">Protection for Borrowers</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         A deep dive into the revolutionary 2026 RBI rules designed to end harassment and ensure ethical debt recovery in India.

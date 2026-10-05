@@ -226,7 +226,7 @@ export default function ProtectFamilyClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Protect Family Members from Debt Collector Calls: A Shield for Your Loved Ones</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">How to Protect Family Members from Debt Collector Calls</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Financial distress is a heavy burden to carry, but it becomes exponentially more painful when it starts affecting your family members. In the competitive landscape of debt recovery in India, some collectors resort to aggressive and often illegal tactics to pressure borrowers. One of the most distressing methods is the persistent calling of family members, friends, or even neighbors. This practice is not just a nuisance; it is a calculated attempt to use social shame and domestic pressure as a lever for repayment. If you are wondering <strong>how to protect family members from debt collector calls</strong>, you are taking the first vital step toward reclaiming your peace and dignity.

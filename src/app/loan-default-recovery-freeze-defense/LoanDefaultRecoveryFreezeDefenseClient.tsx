@@ -309,7 +309,7 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Crisis Management: Why Defensive Strategy is Vital During a Loan Default</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Loan Default Defense: Why Strategic Action is Vital</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A loan default is not just a financial failure; in India’s high pressure lending environment, it is often treated as a criminal act by banks and recovery agents. When a borrower hits a rough patch due to business loss, medical emergency, or unexpected job cuts, they are immediately met with a wall of aggressive recovery tactics. From account freezes to threatening SARFAESI notices, the system is designed to induce panic. However, in 2025, the law has shifted significantly toward borrower protection.
                             </p>

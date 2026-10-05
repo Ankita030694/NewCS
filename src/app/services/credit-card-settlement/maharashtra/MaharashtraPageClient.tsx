@@ -136,8 +136,9 @@ export default function MaharashtraPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Mumbai Pune Maharashtra - Break The Minimum Payment Trap
-              </h1>
+                        Credit Card Settlement in Mumbai<br />
+                        <span className="text-blue-200">&amp; Pune, Maharashtra</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

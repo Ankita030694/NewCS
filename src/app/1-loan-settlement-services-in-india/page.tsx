@@ -7,7 +7,7 @@ import LoanSettlementClient from './LoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '#1 Loan Settlement Services in India',
+  title: 'Top Loan Settlement Services in India | CredSettle',
   description: 'Looking for the best loan settlement services in India? Get expert legal help to settle your personal loans, credit cards, and business debts.',
   keywords: [
     'loan settlement services in india',

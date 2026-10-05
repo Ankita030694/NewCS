@@ -252,19 +252,14 @@ export default function AboutPage() {
                     Our media coverages
                   </h3>
                   <div className="flex flex-row items-center justify-center gap-2 w-full" style={{ flexWrap: 'wrap' }}>
+                    <div>
+                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
+                    </div>
                     <a
                       href="https://yourstory.com/companies/credsettle"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="CredSettle on YourStory"
-                    >
-                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
-                    </a>
-                    <a
-                      href="https://yourstory.com/companies/credsettle"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="CredSettle on Medium"
                     >
                       <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
                     </a>
@@ -272,23 +267,17 @@ export default function AboutPage() {
                       href="https://medium.com/@credsettle/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="CredSettle on YourStory"
+                      aria-label="CredSettle on Medium"
                     >
                       <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
                     </a>
-                    <a
-                      href="https://medium.com/@credsettle/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="CredSettle on Medium"
-                    >
+                    <div>
                       <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
-                    </a>
+                    </div>
                   </div>
                 </div>
 
                 {/* Trustpilot Review Card */}
-                <a href="https://www.trustpilot.com/" target="_blank" rel="noopener noreferrer">
                 <div className="flex mx-auto" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '10px', gap: '8px', maxWidth: '320px', width: '100%' }}>
                   <div className="w-1/2 flex justify-center items-center">
                       <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{ height: '32px' }} />
@@ -313,7 +302,6 @@ export default function AboutPage() {
                     </div>
                   </div>
                 </div>
-                </a>
               </div>
             </div>
 
@@ -377,15 +365,9 @@ export default function AboutPage() {
                     Our media <br /> coverages
                   </h3>
                   <div className="flex flex-col w-full mt-5" style={{ gap: '9.72px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingBottom: '12.96px' }}>
-                    <a
-                      href="https://yourstory.com/companies/credsettle"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="CredSettle Media Coverage - YourStory"
-                      className="flex items-center justify-center mb-5"
-                    >
+                    <div className="flex items-center justify-center mb-5">
                       <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '35.92px' }} />
-                    </a>
+                    </div>
                     <a
                       href="https://yourstory.com/companies/credsettle"
                       target="_blank"
@@ -404,24 +386,15 @@ export default function AboutPage() {
                     >
                       <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '35.92px' }} />
                     </a>
-                    <a
-                      href="https://medium.com/@credsettle"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="CredSettle Media Coverage - Medium"
-                      className="flex items-center justify-center mb-5"
-                    >
+                    <div className="flex items-center justify-center mb-5">
                       <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '35.92px' }} />
-                    </a>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Trustpilot Review Card */}
-              <a
-                href="https://www.trustpilot.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <div
                 style={{ width: '100%', display: 'flex', justifyContent: 'end', textDecoration: 'none' }}
               >
                 <div className="flex" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '12.96px', gap: '9.72px', width: '70%' }}>
@@ -451,7 +424,7 @@ export default function AboutPage() {
                     </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>

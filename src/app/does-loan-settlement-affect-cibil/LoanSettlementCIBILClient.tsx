@@ -250,7 +250,7 @@ export default function LoanSettlementCIBILClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Mastering Your Credit Future: Does Loan Settlement Affect CIBIL Score and Financial Health?</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28 leading-tight">Does Loan Settlement Affect CIBIL Score & Financial Health?</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the complex landscape of Indian finance, nothing causes as much anxiety as the question: <strong>does loan settlement affect CIBIL</strong>? For millions of borrowers struggling with debt, settlement appears as a beacon of hope: a way to escape the crushing weight of interest and recovery calls. However, this hope often comes with a hidden price tag that can haunt your financial records for nearly a decade. Understanding the intricate relationship between a debt settlement and your credit report is not just important: it is critical for anyone planning a future that involves home loans, credit cards, or business expansion.

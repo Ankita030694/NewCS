@@ -209,7 +209,7 @@ export default function CibilSettlementClient() {
           <div className="lg:w-2/4 w-full">
             <article className="prose prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-lg border border-gray-100">
               
-              <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Is CIBIL Ruined Forever After Settlement? The Honest Truth About Your Credit Future</h2>
+              <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Is CIBIL Ruined Forever After Loan Settlement?</h2>
               <div className="text-gray-700 leading-relaxed space-y-6">
                 <p>
                   One of the most persistent fears among borrowers in India is that opting for a loan settlement is a financial death sentence. There is a widespread misconception that once you settle a loan or a credit card debt, your CIBIL score is ruined forever. This fear often prevents people from seeking necessary debt relief and keeps them trapped in a cycle of high interest payments and harassment from recovery agents.

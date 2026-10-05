@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import HdfcPersonalLoanSettlementPolicyClient from './HdfcPersonalLoanSettlementPolicyClient';
 
 export const metadata: Metadata = {
-  title: 'HDFC Personal Loan Settlement Policy',
+  title: 'HDFC Personal Loan Settlement Policy & Process | CredSettle',
   description:
     'Understand HDFC Bank personal loan settlement policy. Learn how to negotiate 40%-55% waivers and resolve recovery notices legally.',
   keywords: [

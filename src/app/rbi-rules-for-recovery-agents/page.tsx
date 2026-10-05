@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import RBIRulesClient from './RBIRulesClient';
 
 export const metadata: Metadata = {
-    title: "RBI Rules for Recovery Agents 2026: Know Your Rights",
+    title: 'RBI Rules for Loan Recovery Agents 2026 | CredSettle',
     description: "Understand the strict RBI rules for recovery agents. Learn how to identify illegal recovery tactics and when to take legal action against your bank.",
     keywords: [
         "What are RBI rules for recovery agents",

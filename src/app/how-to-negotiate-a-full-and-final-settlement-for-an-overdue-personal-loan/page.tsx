@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import PersonalLoanSettlementClient from './PersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Personal Loan Settlement Guide',
+  title: 'Negotiate Overdue Personal Loan Settlement | CredSettle',
   description: 'Learn how to negotiate a full and final personal loan settlement. Understand NPA rules, calculate your lump sum, and avoid predatory debt scams.',
   keywords: [
     'personal loan settlement',

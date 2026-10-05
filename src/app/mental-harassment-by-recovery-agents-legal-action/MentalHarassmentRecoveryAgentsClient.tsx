@@ -145,8 +145,9 @@ export default function MentalHarassmentRecoveryAgentsClient() {
         <div className="absolute inset-0 bg-black/5 z-0 pointer-events-none" />
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            Mental Harassment by Recovery Agents: Legal Action &amp; Suing Banks for Compensation
-          </h1>
+                        Mental Harassment by Recovery Agents:<br />
+                        <span className="text-blue-300">Legal Action &amp; Compensation</span>
+                    </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
             Facing extreme mental trauma, abusive calls, or public shaming by recovery agents? Understand your legal rights under RBI Master Directions, BNS/IPC criminal provisions, and how to sue your bank for emotional distress.
@@ -269,7 +270,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
                 <span>Constitutional &amp; Judicial Mandate</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. The Supreme Court Stance: Why Banks Cannot Deploy Musclemen or Harass Borrowers
+                1. Supreme Court Rulings: Banks Cannot Harass Borrowers
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Defaulting on a bank loan, credit card balance, or personal finance installment in India is fundamentally a <strong>civil contractual dispute</strong>, never a criminal offense. However, commercial banks, Non-Banking Financial Companies (NBFCs), and predatory fintech apps routinely outsource recovery operations to aggressive third-party agencies that employ coercion, verbal abuse, workplace visits, and unlawful public shaming to force repayments.
@@ -328,7 +329,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
                 <span>Statutory Criminal Codes</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Criminal Penalties under Bharatiya Nyaya Sanhita (BNS) &amp; IPC for Abusive Debt Collection
+                2. Criminal Penalties for Abusive Debt Collection Under BNS & IPC
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When debt collection crosses the line from polite institutional reminders into threats of violence, social humiliation, unauthorized home intrusions, or cyber blackmail, it ceases to be a civil matter. Under the <strong>Bharatiya Nyaya Sanhita, 2023 (BNS)</strong> and the corresponding provisions of the <strong>Indian Penal Code, 1860 (IPC)</strong>, recovery agents and bank executives commit severe, cognizable criminal offenses:
@@ -450,7 +451,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Lawful Recovery Actions vs. Unlawful Harassment: Legal Remedies &amp; Penalties
+                4. Lawful Recovery vs Harassment: Remedies & Penalties
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 This comprehensive matrix highlights the exact boundary between lawful banking communication and illegal recovery harassment, along with the precise legal remedies available to borrowers:
@@ -522,7 +523,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
                 <span>Damages &amp; Compensation Analytics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Suing for Damages: The Mathematical Formula for Mental Agony Compensation
+                5. Suing for Damages: Compensation for Mental Agony
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When filing a lawsuit before a District Consumer Commission (DCDRC) under Section 35 of the Consumer Protection Act, 2019 or a Civil Suit under the Law of Torts for Intentional Infliction of Emotional Distress (IIED), Indian courts utilize an objective multiplier framework to assess monetary compensation:
@@ -594,7 +595,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
                 <span>Visual Legal Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: 6-Stage Roadmap to Sue Banks &amp; Claim Compensation
+                6-Stage Roadmap to Sue Banks & Claim Compensation
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Review this high-level visual roadmap illustrating the complete legal procedure to preserve evidence, serve statutory notices, register police complaints, petition the RBI Ombudsman, and obtain a debt waiver or damages:
@@ -932,7 +933,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
                 <span>Practical Edge Cases</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Specialized Scenarios: Digital App Blackmail, Workplace Shaming &amp; Doorstep Bouncers
+                10. Special Scenarios: App Blackmail & Doorstep Threats
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Different loan products and lenders employ distinct pressure points. Here is how to handle complex real-world situations:
@@ -1001,7 +1002,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions About Recovery Agent Harassment &amp; Legal Action
+                FAQs About Recovery Agent Harassment & Legal Action
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Review exhaustive legal answers to the most critical questions regarding suing banks, criminal complaints, and statutory borrower rights in India:

@@ -225,7 +225,7 @@ export default function LoanWaiverClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">The Comprehensive Guide to Understanding 100 Percent Loan Waivers in India</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Understanding 100 Percent Loan Waivers in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Understanding the possibility of a <strong>100 percent loan waiver</strong> is a common query among individuals facing significant financial stress in India. The dream of having a mounting debt completely wiped out is understandable, especially during times of economic instability or personal crisis. However, the reality of the Indian financial landscape is more complex than a simple yes or no. While the term loan waiver is frequently heard in political discourse and news headlines, its application to individual personal loans, credit card debts, or home loans is often misunderstood by the general public.

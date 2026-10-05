@@ -176,9 +176,9 @@ export default function SeniorCitizenLoanPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            Loan Settlement for Senior Citizens & Pension Holders<br />
-            <span className="text-blue-300">Protect Your Pension legally</span>
-          </h1>
+                        Loan Settlement for Senior Citizens<br />
+            <span className="text-blue-300">&amp; Pension Holders in India</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
             Retired and defaulted on a loan in India? Learn how to legally stop recovery harassment and negotiate an affordable settlement on a fixed pension.
           </p>

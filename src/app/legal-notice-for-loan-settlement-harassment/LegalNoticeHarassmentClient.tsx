@@ -183,8 +183,8 @@ export default function LegalNoticeHarassmentClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Legal Notice for Loan Settlement Harassment:<br />
-                        <span className="text-blue-300">Stop Recovery Agent Abuse Today</span>
+                        Legal Notice for Loan Harassment:<br />
+                        <span className="text-blue-300">Stop Recovery Agent Abuse</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Send a powerful legal notice to stop threatening calls and home visits. Reclaim your dignity and negotiate the best loan settlement on your own terms.

@@ -346,7 +346,7 @@ export default function ImproveCibilAfterLoanSettlementClient() {
                 <span>Section 2</span>
               </div>
               <h2 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tight leading-snug">
-                2. Credit Bureau Scoring Impact &amp; Bank Risk Provisioning Under RBI Norms
+                2. CIBIL Scoring Impact & Bank Provisioning Under RBI Norms
               </h2>
 
               <p className="text-base text-slate-700 leading-relaxed">
@@ -425,7 +425,7 @@ export default function ImproveCibilAfterLoanSettlementClient() {
                 <span>Section 4</span>
               </div>
               <h2 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tight leading-snug">
-                4. Financial Strategy: Credit Scoring Mathematics &amp; Utilization Architecture
+                4. Financial Strategy: Credit Scoring Math & Utilization
               </h2>
 
               <p className="text-base text-slate-700 leading-relaxed">
@@ -681,7 +681,7 @@ export default function ImproveCibilAfterLoanSettlementClient() {
                 <span>Section 6</span>
               </div>
               <h2 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tight leading-snug">
-                6. Formal Legal Rectification Notice: Application for Bureau Ledger Correction
+                6. Legal Rectification Notice for CIBIL Ledger Correction
               </h2>
 
               <p className="text-base text-slate-700 leading-relaxed">
@@ -879,7 +879,7 @@ Place: [City, State]`}
                 <span>Section 9</span>
               </div>
               <h2 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tight leading-snug">
-                9. Navigating Complex Scenarios: Credit Cards, ARCs, and Digital Instant Loans
+                9. Complex Scenarios: Credit Cards, ARCs & Instant Loans
               </h2>
 
               <p className="text-base text-slate-700 leading-relaxed">

@@ -210,9 +210,9 @@ export default function SalaryAccountFreezePage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            Bank Froze Salary Account for Loan Default? <br />
-            <span className="text-blue-300">Here is How to Get Your Salary</span>
-          </h1>
+                        Bank Froze Salary Account for Loan Default?<br />
+                        <span className="text-blue-300">How to Access Your Salary</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
             An emergency action plan to claim subsistence allowance, open a new account legally, and negotiate an urgent loan settlement.
           </p>

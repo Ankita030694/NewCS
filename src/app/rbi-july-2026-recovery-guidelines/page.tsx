@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'RBI July 2026 Recovery Guidelines & Borrower Rights',
-  description: 'A complete guide to the RBI July 2026 recovery guidelines. Understand your legal rights against harassment, calling time limits, and unlawful debt recovery.',
+  description: 'Complete guide to RBI July 2026 recovery guidelines. Understand your legal rights against harassment, calling time limits, and unlawful debt recovery.',
   keywords: [
     'rbi july 2026 recovery guidelines',
     'rbi new guidelines for recovery agents 2026',
@@ -37,7 +37,7 @@ export default function RbiGuidelinesPage() {
     '@context': 'https://schema.org',
     '@type': 'Article',
     'headline': 'RBI July 2026 Recovery Guidelines: Rules & Borrower Legal Rights',
-    'description': 'A complete guide to the RBI July 2026 recovery guidelines. Understand your legal rights against harassment, calling time limits, and unlawful debt recovery.',
+    'description': 'Complete guide to RBI July 2026 recovery guidelines. Understand your legal rights against harassment, calling time limits, and unlawful debt recovery.',
     'author': {
       '@type': 'Person',
       'name': 'Ashish Jhangra',

@@ -124,8 +124,9 @@ export default function AndhraPradeshPageClient() {
                   marginBottom: '12px'
                 }}
               >
-                Credit Card Settlement Visakhapatnam Vijayawada Tirupati Andhra Pradesh
-              </h1>
+                        Credit Card Settlement in Vizag,<br />
+                        <span className="text-blue-200">Vijayawada &amp; Andhra Pradesh</span>
+                    </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
                 style={{

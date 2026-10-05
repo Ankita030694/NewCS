@@ -217,7 +217,7 @@ export default function DebtResolutionClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Debt Resolution in India: Finding the Right Experts for Financial Freedom</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Finding the Right Debt Resolution Experts in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the modern financial landscape of India, the availability of easy credit has empowered millions to fulfill their dreams, from buying homes to starting businesses. However, this convenience often comes with a hidden risk. Unforeseen circumstances such as job loss, medical emergencies, or business downturns can quickly turn manageable loans into an overwhelming burden. When debt spirals out of control, it affects not just your wallet but also your mental peace and family stability. This is where professional <strong>debt resolution companies in India</strong> play a pivotal role.

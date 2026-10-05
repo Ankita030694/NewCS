@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import AxisBankPersonalLoanSettlementClient from './AxisBankPersonalLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Axis Bank Personal Loan Settlement',
+  title: 'Axis Bank Personal Loan Settlement Process | CredSettle',
   description:
     'Navigate Axis Bank personal loan settlement. Learn how to bypass collection agencies, approach regional debt desks, negotiate 40%-55% waivers.',
   keywords: [

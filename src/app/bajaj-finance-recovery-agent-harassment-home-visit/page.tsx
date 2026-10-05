@@ -224,9 +224,9 @@ export default function BajajRecoveryVisitPage() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            Stop Bajaj Finance Recovery Agent <br /> Harassment Home Visit<br />
-            <span className="text-blue-300">Your Legal Rights & Action Plan</span>
-          </h1>
+                        Stop Bajaj Finance Harassment<br />
+                        <span className="text-blue-300">&amp; Home Visits: Legal Rights</span>
+                    </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light">
             Experiencing harassment from a Bajaj Finance recovery agent during a home visit?
             Know your rights under RBI guidelines and take swift legal action to stop the doorstep threats permanently.

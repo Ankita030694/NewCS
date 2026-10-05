@@ -148,8 +148,8 @@ export default function LoanPartialPaymentClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Loan Partial Payment Rules: When Does It Make Financial Sense?<br />
-                        <span className="text-blue-300">Maximize Savings, Minimize Fees</span>
+                        Loan Partial Payment Rules:<br />
+                        <span className="text-blue-300">When Does It Make Financial Sense?</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Borrowers often throw spare cash at their loans indiscriminately without checking their bank lock in periods or part payment fees. This strategic guide will help you optimize your debt repayment.
