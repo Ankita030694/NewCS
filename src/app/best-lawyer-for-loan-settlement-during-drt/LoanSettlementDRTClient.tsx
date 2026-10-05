@@ -299,7 +299,7 @@ export default function LoanSettlementDRTClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -557,7 +557,7 @@ export default function LoanSettlementDRTClient() {
 
                             {/* Primary CTA Container */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing DRT Case?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing DRT Case?</p>
                                 <p className="text-sm text-gray-600 mb-6">Don’t wait for the final recovery certificate. Act now to protect your assets with a professional legal plan.</p>
                                 <Link
                                     href="/contact"
@@ -574,7 +574,7 @@ export default function LoanSettlementDRTClient() {
 
                             {/* Related Pages Container */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">
                                         DRT Case Defence

@@ -226,7 +226,7 @@ export default function RBIRulesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Protection Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Protection Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -284,12 +284,12 @@ export default function RBIRulesClient() {
                             {/* Alert Banner for Protections */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Mandatory Compliance Standards:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Strict Timing Protocols:</strong> All communication regarding recovery, whether via phone calls, messages, or physical visits, is strictly restricted to the hours between 8:00 AM and 7:00 PM.</li>
                                     <li><strong>Privacy and Confidentiality:</strong> Absolute prohibition on discussing the borrower's debt status with friends, relatives, colleagues, or neighbors. Public shaming is a punishable offense.</li>
@@ -315,22 +315,22 @@ export default function RBIRulesClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Right One</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">The Right to Due Process</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">The Right to Due Process</p>
                                     <p className="text-sm text-gray-600 m-0">You are entitled to receive formal written notices regarding your default status before any drastic recovery measures are initiated.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Right Two</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">The Right to Privacy</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">The Right to Privacy</p>
                                     <p className="text-sm text-gray-600 m-0">Your financial matters are strictly confidential. Agents cannot broadcast your default to your social or professional circles.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Right Three</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">The Right to Verify</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">The Right to Verify</p>
                                     <p className="text-sm text-gray-600 m-0">You can unconditionally demand to see the identification and authorization letter of anyone claiming to represent the bank.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Right Four</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">The Right to Complain</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">The Right to Complain</p>
                                     <p className="text-sm text-gray-600 m-0">You have unimpeded access to the bank's internal grievance system and the national ombudsman for resolving harassment issues.</p>
                                 </div>
                             </div>
@@ -381,14 +381,14 @@ export default function RBIRulesClient() {
                             </p>
 
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Legal Escalation Path</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Legal Escalation Path</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">Step 1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">The Cease and Desist Notice</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">The Cease and Desist Notice</h3>
                                             <p className="text-sm text-gray-600 m-0">A formal legal notice drafted by an advocate is sent to the bank's headquarters. This document clearly lists the regulatory violations, demands an immediate halt to all harassment, and threatens civil and criminal litigation if the demands are not met.</p>
                                         </div>
                                     </li>
@@ -397,7 +397,7 @@ export default function RBIRulesClient() {
                                             <span className="font-bold text-blue-600 text-sm">Step 2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Filing a Police Complaint</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Filing a Police Complaint</h3>
                                             <p className="text-sm text-gray-600 m-0">If threats of violence, extortion, or extreme defamation occur, an FIR can be filed at the local police station under relevant sections of the criminal code pertaining to criminal intimidation and outrage of modesty.</p>
                                         </div>
                                     </li>
@@ -406,7 +406,7 @@ export default function RBIRulesClient() {
                                             <span className="font-bold text-blue-600 text-sm">Step 3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Consumer Court Petition</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Consumer Court Petition</h3>
                                             <p className="text-sm text-gray-600 m-0">Borrowers can approach the consumer disputes redressal commissions seeking substantial compensation for the mental agony and loss of reputation caused by the deficient and abusive service provided by the bank's agents.</p>
                                         </div>
                                     </li>
@@ -511,7 +511,7 @@ export default function RBIRulesClient() {
                         <div className="space-y-6">
                             {/* Card 1: Primary CTA Card */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-lg mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-lg mb-2 mt-1 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-xs mb-4 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -531,7 +531,7 @@ export default function RBIRulesClient() {
 
                             {/* Card 2: Related Expertise Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-4">
-                                <h4 className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

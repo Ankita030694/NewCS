@@ -157,7 +157,7 @@ export default function OnlineServicesClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -243,7 +243,7 @@ export default function OnlineServicesClient() {
                 </p>
 
                 <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 my-8">
-                  <h4 className="font-bold text-blue-900 text-lg mb-6">Your Enrollment Checklist</h4>
+                  <h3 className="font-bold text-blue-900 text-lg mb-6">Your Enrollment Checklist</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -377,12 +377,12 @@ export default function OnlineServicesClient() {
                 </p>
 
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 my-8">
-                  <h4 className="font-bold text-red-900 text-lg mb-6 flex items-center">
+                  <h3 className="font-bold text-red-900 text-lg mb-6 flex items-center">
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                     </svg>
                     Critical Warning Signs
-                  </h4>
+                  </h3>
                   
                   <div className="space-y-6">
                     <div className="bg-white p-6 rounded-xl shadow-sm">
@@ -468,7 +468,7 @@ export default function OnlineServicesClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Financial Analyst & Debt Strategist</p>
                 <p className="text-xs text-gray-400">Expert in evaluating digital debt relief platforms and advocating for consumer rights in complex financial disputes.</p>
               </div>

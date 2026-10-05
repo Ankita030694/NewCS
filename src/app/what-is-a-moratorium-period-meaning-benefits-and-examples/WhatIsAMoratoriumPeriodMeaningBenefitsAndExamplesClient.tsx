@@ -244,7 +244,7 @@ export default function WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient(
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -308,10 +308,10 @@ export default function WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient(
                             {/* Visual Element 1: Alert Banner */}
                             <div className="bg-red-50 text-red-900 p-8 rounded-3xl mb-10 shadow-md relative overflow-hidden border border-red-200">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/10 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-bold mb-4 flex items-center gap-3">
+                                <p className="text-2xl font-bold mb-4 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-red-600 inline-block rounded-full"></span>
                                     Critical Warning: The Capitalization Trap
-                                </h4>
+                                </p>
                                 <p className="font-medium text-red-800 leading-relaxed">
                                     Do not treat a moratorium as free money. If you choose not to pay the interest during the moratorium period, the bank will add that unpaid interest to your principal balance. This triggers compounding interest on a larger base amount. Over a twenty year home loan, a six month moratorium can add several years to your repayment schedule and cost you hundreds of thousands of rupees in additional interest.
                                 </p>
@@ -430,7 +430,7 @@ export default function WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient(
                             </p>
 
                             <div className="bg-gray-50 border border-gray-200 rounded-3xl p-8 mb-10 shadow-sm">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-4">The Moratorium Application Checklist</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-4">The Moratorium Application Checklist</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-blue-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -576,7 +576,7 @@ export default function WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient(
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Unfair Interest Applied?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Unfair Interest Applied?</p>
                                 <p className="text-sm text-gray-600 mb-6 font-medium">We can send a legal notice to your bank to reverse illegal compound interest charges during a moratorium.</p>
                                 <Link
                                     href="/contact"
@@ -594,7 +594,7 @@ export default function WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient(
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/loan-settlement" className="block text-sm text-blue-600 hover:underline font-medium">Loan Settlement Process</Link>
                                     <Link href="/what-is-npa" className="block text-sm text-blue-600 hover:underline font-medium">NPA Classification Rules</Link>

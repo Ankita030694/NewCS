@@ -959,7 +959,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-slate-900">Ashish Jhangra</h3>
+                  <p className="text-sm font-bold text-slate-900">Ashish Jhangra</p>
                   <p className="text-[11px] font-semibold text-[#1886ff]">
                     Legal &amp; Debt Resolution Professional
                   </p>
@@ -988,9 +988,9 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Urgent Recovery Defense</span>
               </div>
 
-              <h3 className="text-base font-extrabold leading-snug">
+              <p className="text-base font-extrabold leading-snug">
                 Receiving Kotak Legal Notices or Telecaller Threats?
-              </h3>
+              </p>
 
               <p className="text-xs text-white/90 leading-relaxed font-normal">
                 Speak directly with senior debt settlement negotiators. Halt recovery harassment, dispute unilateral arbitration, and secure an official OTS waiver before court filings.

@@ -178,7 +178,7 @@ export default function SettlingDebtInIndiaClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -268,12 +268,12 @@ export default function SettlingDebtInIndiaClient() {
                 
                 <div className="my-12 bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm">
                   <div className="bg-gray-50 border-b border-gray-200 px-6 py-4">
-                    <h4 className="font-bold text-gray-900 text-lg flex items-center gap-2">
+                    <h3 className="font-bold text-gray-900 text-lg flex items-center gap-2">
                       <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                       </svg>
                       Legal Process Map Checklist
-                    </h4>
+                    </h3>
                   </div>
                   
                   <div className="divide-y divide-gray-100">
@@ -281,7 +281,7 @@ export default function SettlingDebtInIndiaClient() {
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                         <div>
-                          <h5 className="font-bold text-gray-900 mb-1">Financial Assessment</h5>
+                          <h3 className="font-bold text-gray-900 mb-1">Financial Assessment</h3>
                           <p className="text-sm text-gray-600">Calculate your exact disposable income and liquidate minor assets to build a lump sum settlement fund. Never enter negotiations without capital in hand.</p>
                         </div>
                       </div>
@@ -291,7 +291,7 @@ export default function SettlingDebtInIndiaClient() {
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                         <div>
-                          <h5 className="font-bold text-gray-900 mb-1">Evidentiary Documentation</h5>
+                          <h3 className="font-bold text-gray-900 mb-1">Evidentiary Documentation</h3>
                           <p className="text-sm text-gray-600">Gather unassailable proof of your financial hardship, including termination letters, medical bills, and bank statements showing depleted savings.</p>
                         </div>
                       </div>
@@ -301,7 +301,7 @@ export default function SettlingDebtInIndiaClient() {
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                         <div>
-                          <h5 className="font-bold text-gray-900 mb-1">Drafting the Hardship Letter</h5>
+                          <h3 className="font-bold text-gray-900 mb-1">Drafting the Hardship Letter</h3>
                           <p className="text-sm text-gray-600">Compose a formal legal communication to the bank's grievance officer explicitly detailing your insolvency and proposing a final OTS amount.</p>
                         </div>
                       </div>
@@ -311,7 +311,7 @@ export default function SettlingDebtInIndiaClient() {
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                         <div>
-                          <h5 className="font-bold text-gray-900 mb-1">Aggressive Negotiation</h5>
+                          <h3 className="font-bold text-gray-900 mb-1">Aggressive Negotiation</h3>
                           <p className="text-sm text-gray-600">Reject the bank's initial counteroffers. Maintain your stance on the proposed lump sum, leveraging your documented inability to pay more.</p>
                         </div>
                       </div>
@@ -321,7 +321,7 @@ export default function SettlingDebtInIndiaClient() {
                       <div className="flex items-start gap-4">
                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">5</div>
                         <div>
-                          <h5 className="font-bold text-gray-900 mb-1">Securing the Agreement</h5>
+                          <h3 className="font-bold text-gray-900 mb-1">Securing the Agreement</h3>
                           <p className="text-sm text-gray-600">Demand a formal Settlement Letter on official bank letterhead containing the account number, waiver details, and payment deadlines before transferring any funds.</p>
                         </div>
                       </div>
@@ -372,7 +372,7 @@ export default function SettlingDebtInIndiaClient() {
                 </p>
                 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base mb-6 border-b-2 border-blue-100 pb-2">Financial Anatomy of an NPA Settlement</h4>
+                  <h3 className="font-bold text-blue-900 text-base mb-6 border-b-2 border-blue-100 pb-2">Financial Anatomy of an NPA Settlement</h3>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm flex flex-col items-center text-center">
                       <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-4">
@@ -380,7 +380,7 @@ export default function SettlingDebtInIndiaClient() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                       </div>
-                      <h5 className="font-bold text-gray-900 mb-2">Penalties (100% Waived)</h5>
+                      <h3 className="font-bold text-gray-900 mb-2">Penalties (100% Waived)</h3>
                       <p className="text-sm text-gray-600">Late payment fees, over-limit charges, and compounding interest penalties are almost always entirely waived during a successful negotiation.</p>
                     </div>
                     
@@ -390,7 +390,7 @@ export default function SettlingDebtInIndiaClient() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                         </svg>
                       </div>
-                      <h5 className="font-bold text-gray-900 mb-2">Interest (50-80% Waived)</h5>
+                      <h3 className="font-bold text-gray-900 mb-2">Interest (50-80% Waived)</h3>
                       <p className="text-sm text-gray-600">The standard interest applied to the principal balance is heavily discounted, depending on the age of the non-performing asset.</p>
                     </div>
 
@@ -400,7 +400,7 @@ export default function SettlingDebtInIndiaClient() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                       </div>
-                      <h5 className="font-bold text-gray-900 mb-2">Principal (20-60% Waived)</h5>
+                      <h3 className="font-bold text-gray-900 mb-2">Principal (20-60% Waived)</h3>
                       <p className="text-sm text-gray-600">The actual amount you borrowed. Securing a haircut on the principal requires demonstrating absolute insolvency and severe financial hardship.</p>
                     </div>
                   </div>
@@ -445,7 +445,7 @@ export default function SettlingDebtInIndiaClient() {
                           <svg className="w-6 h-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
-                          <h4 className="font-bold text-red-900 text-lg">The Myth</h4>
+                          <h3 className="font-bold text-red-900 text-lg">The Myth</h3>
                         </div>
                         <p className="text-gray-800 font-medium">"If you do not pay the full amount immediately, we will issue a warrant and the police will arrest you from your office today."</p>
                       </div>
@@ -454,7 +454,7 @@ export default function SettlingDebtInIndiaClient() {
                           <svg className="w-6 h-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
-                          <h4 className="font-bold text-green-900 text-lg">The Fact</h4>
+                          <h3 className="font-bold text-green-900 text-lg">The Fact</h3>
                         </div>
                         <p className="text-gray-800 font-medium">Defaulting on an unsecured loan is a civil breach, not a crime. The police have absolutely no jurisdiction in civil debt matters and cannot arrest you for failing to pay a credit card bill.</p>
                       </div>
@@ -537,7 +537,7 @@ export default function SettlingDebtInIndiaClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rajesh Kumar Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Rajesh Kumar</h4>
+                <p className="font-bold text-gray-900">Rajesh Kumar</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, debt restructuring, and protecting consumer rights in financial disputes.</p>
               </div>

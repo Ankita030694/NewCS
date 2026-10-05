@@ -156,7 +156,7 @@ export default function NBFCLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>NBFC Policy Mastery</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>NBFC Policy Mastery</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We navigate NBFC-specific frameworks to secure compliant, favorable settlements.</p>
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function NBFCLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Reduced Principal Focus</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Reduced Principal Focus</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We aim for a significantly reduced principal and complete legal closure.</p>
               </div>
             </div>

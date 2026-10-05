@@ -163,7 +163,7 @@ export default function FullFormOfOtsClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -223,7 +223,7 @@ export default function FullFormOfOtsClient() {
                 <h3 id="eligibility" className="text-lg font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">Eligibility for an OTS Offer</h3>
                 
                 <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm">
-                  <h4 className="font-bold text-gray-900 text-lg mb-4">Core Eligibility Criteria</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-4">Core Eligibility Criteria</h3>
                   <ul className="list-disc pl-6 space-y-4 text-gray-700">
                     <li><strong>Account Classification:</strong> The loan must be classified as a Non Performing Asset. This usually occurs after ninety days of continuous non payment. Current accounts or those with only minor delays are ineligible.</li>
                     <li><strong>Genuine Financial Hardship:</strong> The borrower must provide concrete proof of an inability to pay. Acceptable proof includes medical discharge summaries indicating prolonged hospitalization, official termination letters from employers, or audited financial statements demonstrating severe business losses.</li>
@@ -272,7 +272,7 @@ export default function FullFormOfOtsClient() {
                 </p>
 
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 mt-8 mb-8">
-                  <h4 className="font-bold text-red-900 text-lg mb-4">The Credit Score Devastation</h4>
+                  <h3 className="font-bold text-red-900 text-lg mb-4">The Credit Score Devastation</h3>
                   <p className="text-gray-800 text-base mb-4">
                     When you settle an account, the bank reports the event to credit bureaus like TransUnion CIBIL, Equifax, and Experian. Instead of marking the account as Closed, which happens when you pay in full, they mark it as Settled. 
                   </p>
@@ -299,25 +299,25 @@ export default function FullFormOfOtsClient() {
                 <div className="relative border-l-4 border-blue-200 ml-6 mt-12 mb-12">
                   <div className="mb-10 ml-8 relative">
                     <span className="absolute -left-11 top-1 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow"></span>
-                    <h4 className="font-bold text-gray-900 text-lg mb-2">Month 1 to 3: The Collection Phase</h4>
+                    <h3 className="font-bold text-gray-900 text-lg mb-2">Month 1 to 3: The Collection Phase</h3>
                     <p className="text-gray-700">You miss your first payments. The bank relies on automated systems, sending SMS reminders and emails. As the default ages, human telecallers take over, calling multiple times a day. By day ninety, the account is classified as a Non Performing Asset. The bank is not interested in settlement at this stage; they want full payment with penalties.</p>
                   </div>
                   
                   <div className="mb-10 ml-8 relative">
                     <span className="absolute -left-11 top-1 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow"></span>
-                    <h4 className="font-bold text-gray-900 text-lg mb-2">Month 4 to 6: The Escalation Phase</h4>
+                    <h3 className="font-bold text-gray-900 text-lg mb-2">Month 4 to 6: The Escalation Phase</h3>
                     <p className="text-gray-700">Third party recovery agencies are assigned to your case. Field visits to your registered address may begin. Legal notices demanding full repayment are dispatched. The psychological pressure reaches its peak. This is the period where the borrower must stand firm, accumulate settlement funds, and prepare hardship documentation.</p>
                   </div>
 
                   <div className="mb-10 ml-8 relative">
                     <span className="absolute -left-11 top-1 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow"></span>
-                    <h4 className="font-bold text-gray-900 text-lg mb-2">Month 7 to 9: The Negotiation Phase</h4>
+                    <h3 className="font-bold text-gray-900 text-lg mb-2">Month 7 to 9: The Negotiation Phase</h3>
                     <p className="text-gray-700">The bank realizes that full recovery is unlikely. They become open to dialogue. You or your representative submit the hardship letter and the initial settlement offer. The bank counters with a high demand. Back and forth negotiation ensues over several weeks until a mutually agreeable figure is reached.</p>
                   </div>
 
                   <div className="ml-8 relative">
                     <span className="absolute -left-11 top-1 w-6 h-6 bg-green-500 rounded-full border-4 border-white shadow"></span>
-                    <h4 className="font-bold text-gray-900 text-lg mb-2">Month 10: Execution and Closure</h4>
+                    <h3 className="font-bold text-gray-900 text-lg mb-2">Month 10: Execution and Closure</h3>
                     <p className="text-gray-700">The formal settlement letter is issued. You verify its authenticity and make the payment strictly within the deadline via traceable channels. The bank acknowledges receipt, updates the credit bureaus with the Settled status, and ceases all recovery activities permanently.</p>
                   </div>
                 </div>
@@ -363,7 +363,7 @@ export default function FullFormOfOtsClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rohan Sharma Author Bio" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Rohan Sharma</h4>
+                <p className="font-bold text-gray-900">Rohan Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Financial Analyst & Debt Strategist</p>
                 <p className="text-xs text-gray-400">Specializing in legal debt resolution, credit rehabilitation, and consumer protection against unfair banking practices.</p>
               </div>

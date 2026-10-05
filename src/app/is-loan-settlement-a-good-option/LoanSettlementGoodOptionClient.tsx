@@ -294,7 +294,7 @@ export default function LoanSettlementGoodOptionClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -566,7 +566,7 @@ export default function LoanSettlementGoodOptionClient() {
                                 To bring these concepts to life, let us look at two real world examples from our consulting files at CredSettle.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The Personal Loan Settlement (Good Choice)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The Personal Loan Settlement (Good Choice)</p>
                                 <p className="text-gray-700 mb-4">
                                     A 45 year old banker lost his job during a recession and simultaneously faced a major family health crisis. He had 15 lakhs in personal debt. With zero income and mounting penalties, he was facing severe depression and legal notices.
                                 </p>
@@ -575,7 +575,7 @@ export default function LoanSettlementGoodOptionClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The Credit Card Panic (Bad Choice)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The Credit Card Panic (Bad Choice)</p>
                                 <p className="text-gray-700 mb-4">
                                     A 28 year old tech professional had 2 lakhs in credit card debt. He had a stable salary but was annoyed by the high interest. He chose to settle for 80,000 just to "save money."
                                 </p>
@@ -674,7 +674,7 @@ export default function LoanSettlementGoodOptionClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
                                     href="/contact"
@@ -691,7 +691,7 @@ export default function LoanSettlementGoodOptionClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">Loan Settlement Guide</Link>
                                     <Link href="/can-i-settle-loan-for-free" className="block text-sm text-blue-600 hover:underline">Settle for Free?</Link>

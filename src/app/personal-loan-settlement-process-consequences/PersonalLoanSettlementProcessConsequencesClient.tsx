@@ -232,7 +232,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -348,7 +348,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                                         </svg>
                                     </div>
                                     <div className="ml-4">
-                                        <h3 className="text-lg font-bold text-red-800 mb-2">Critical Warning: Total Credit Freeze</h3>
+                                        <p className="text-lg font-bold text-red-800 mb-2">Critical Warning: Total Credit Freeze</p>
                                         <p className="text-red-700 leading-relaxed">
                                             Once your CIBIL report updates with a "Settled" status, you will enter a de facto credit freeze. Mainstream banks, housing finance companies, and premium credit card issuers have strict automated algorithms that instantly reject applications containing a settled account within the last 36 to 48 months. You will be entirely locked out of the prime lending market.
                                         </p>
@@ -375,7 +375,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                             <div className="relative border-l-4 border-blue-200 ml-6 mb-12 mt-8 space-y-10">
                                 <div className="relative pl-8">
                                     <div className="absolute w-8 h-8 bg-blue-600 rounded-full text-white font-bold flex items-center justify-center -left-4 top-0 border-4 border-white shadow-md">1</div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Acknowledge Default and Stop EMIs</h4>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Acknowledge Default and Stop EMIs</h3>
                                     <p className="text-gray-600 leading-relaxed">
                                         Banks rarely offer settlements to accounts that are currently paying on time. The settlement process only begins when the account becomes a Non Performing Asset (NPA), typically after 90 days of continuous non payment. This period is highly stressful and involves constant collection calls.
                                     </p>
@@ -383,7 +383,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                                 
                                 <div className="relative pl-8">
                                     <div className="absolute w-8 h-8 bg-blue-600 rounded-full text-white font-bold flex items-center justify-center -left-4 top-0 border-4 border-white shadow-md">2</div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Build a Hardship File</h4>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Build a Hardship File</h3>
                                     <p className="text-gray-600 leading-relaxed">
                                         You must prove to the bank that you genuinely cannot pay, not that you simply do not want to pay. Gather medical bills, termination letters from employers, business loss statements, or divorce decrees. This evidence forms the foundation of your negotiation strategy.
                                     </p>
@@ -391,7 +391,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
 
                                 <div className="relative pl-8">
                                     <div className="absolute w-8 h-8 bg-blue-600 rounded-full text-white font-bold flex items-center justify-center -left-4 top-0 border-4 border-white shadow-md">3</div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Initiate Communication in Writing</h4>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Initiate Communication in Writing</h3>
                                     <p className="text-gray-600 leading-relaxed">
                                         Do not rely on verbal agreements with phone agents. Send a formal letter or email to the bank nodal officer or collection manager outlining your financial hardship and requesting a one time settlement. State clearly what you can afford to pay.
                                     </p>
@@ -399,7 +399,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
 
                                 <div className="relative pl-8">
                                     <div className="absolute w-8 h-8 bg-blue-600 rounded-full text-white font-bold flex items-center justify-center -left-4 top-0 border-4 border-white shadow-md">4</div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Survive the Negotiation Phase</h4>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Survive the Negotiation Phase</h3>
                                     <p className="text-gray-600 leading-relaxed">
                                         The bank will initially reject your offer and demand the full amount. They will use aggressive tactics, threats of legal action, and intimidation. You must stand your ground, reiterate your hardship, and refuse to agree to terms you cannot fulfill.
                                     </p>
@@ -407,7 +407,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
 
                                 <div className="relative pl-8">
                                     <div className="absolute w-8 h-8 bg-blue-600 rounded-full text-white font-bold flex items-center justify-center -left-4 top-0 border-4 border-white shadow-md">5</div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Demand a Written Settlement Letter</h4>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Demand a Written Settlement Letter</h3>
                                     <p className="text-gray-600 leading-relaxed">
                                         Never make a payment based on a verbal promise. Demand an official settlement letter printed on the bank letterhead. This document must state the exact settlement amount, the payment deadline, and explicitly mention that upon payment, the account will be closed and no further legal action will be taken.
                                     </p>
@@ -415,7 +415,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
 
                                 <div className="relative pl-8">
                                     <div className="absolute w-8 h-8 bg-blue-600 rounded-full text-white font-bold flex items-center justify-center -left-4 top-0 border-4 border-white shadow-md">6</div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Execute Payment and Retain Proof</h4>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Execute Payment and Retain Proof</h3>
                                     <p className="text-gray-600 leading-relaxed">
                                         Make the payment exactly as stipulated in the settlement letter before the deadline expires. Obtain a No Objection Certificate (NOC) or closure letter from the bank. Keep this document safe forever, as settled accounts occasionally resurface due to administrative errors.
                                     </p>
@@ -438,7 +438,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                             </p>
                             
                             <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl mb-10 shadow-inner">
-                                <h4 className="text-2xl font-bold text-gray-800 mb-4 font-mono">Negotiation Script Example</h4>
+                                <h3 className="text-2xl font-bold text-gray-800 mb-4 font-mono">Negotiation Script Example</h3>
                                 <p className="text-gray-600 italic mb-4">
                                     "I understand that I owe the bank Rs. 5 Lakhs, and I fully intended to repay it. Unfortunately, due to my recent job loss and medical expenses, I am currently entirely insolvent. I have managed to borrow Rs. 1.5 Lakhs from my relatives, and this is the absolute maximum capital I have access to. I am offering this as a one time full and final settlement. If this is unacceptable, I will have no choice but to file for insolvency, and you will likely recover nothing. Please let me know your decision."
                                 </p>
@@ -519,9 +519,9 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                         <div className="space-y-8">
                             {/* Primary CTA Card */}
                             <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-3xl p-6 shadow-xl text-white">
-                            <h3 className="text-xl font-bold mb-4 leading-snug">
+                            <p className="text-xl font-bold mb-4 leading-snug">
                                 Drowning in Personal Loan Debt?
-                            </h3>
+                            </p>
                             <p className="text-blue-100 text-sm mb-6 leading-relaxed">
                                 Don't let recovery agents bully you into a bad deal. Our experts help you negotiate maximum waivers with proper legal documentation. Protect your future today.
                             </p>
@@ -538,7 +538,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
 
                         {/* Related Expertise Card */}
                         <div className="bg-white rounded-3xl p-6 shadow-sm border border-gray-100">
-                            <h3 className="text-lg font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h3>
+                            <p className="text-lg font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                             <ul className="space-y-4">
                                 <li>
                                     <Link href="/best-microfinance-loan-settlement-lawyer" className="group flex items-start gap-3">
@@ -548,7 +548,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">Microfinance Settlement</h4>
+                                            <p className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">Microfinance Settlement</p>
                                             <p className="text-xs text-gray-500 mt-1">Navigate RBI norms and state laws</p>
                                         </div>
                                     </Link>
@@ -561,7 +561,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">Credit Card Debt Strategy</h4>
+                                            <p className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">Credit Card Debt Strategy</p>
                                             <p className="text-xs text-gray-500 mt-1">Stop compounding interest traps</p>
                                         </div>
                                     </Link>
@@ -571,7 +571,7 @@ export default function PersonalLoanSettlementProcessConsequencesClient() {
 
                         {/* Client Reviews Snippet */}
                         <div className="bg-gray-50 rounded-3xl p-6 border border-gray-100">
-                            <h3 className="text-lg font-bold text-gray-900 mb-4 border-b pb-2">Client Success</h3>
+                            <p className="text-lg font-bold text-gray-900 mb-4 border-b pb-2">Client Success</p>
                             <div className="space-y-6">
                                 {reviews.map((review, idx) => (
                                     <div key={idx} className="bg-white p-4 rounded-xl shadow-sm border border-gray-100">

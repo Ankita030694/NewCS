@@ -168,7 +168,7 @@ export default function CryptoStockLossClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -489,7 +489,7 @@ export default function CryptoStockLossClient() {
                             {review.name.charAt(0)}
                           </div>
                           <div>
-                            <h4 className="font-bold text-gray-900 uppercase tracking-tight text-sm">{review.name}</h4>
+                            <p className="font-bold text-gray-900 uppercase tracking-tight text-sm">{review.name}</p>
                             <p className="text-xs text-blue-600 uppercase font-bold">{review.location} • {review.date}</p>
                           </div>
                         </div>
@@ -519,7 +519,7 @@ export default function CryptoStockLossClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don&apos;t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"

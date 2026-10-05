@@ -288,7 +288,7 @@ export default function MSMELoanRecoveryClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 max-h-[80vh] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defence Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defence Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -537,7 +537,7 @@ export default function MSMELoanRecoveryClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop MSME Recovery</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop MSME Recovery</p>
                                 <p className="text-sm text-gray-600 mb-6">Protect your factory and shop from illegal seizure. Expert legal shield for MSMEs.</p>
                                 <Link
                                     href="/contact"
@@ -563,7 +563,7 @@ export default function MSMELoanRecoveryClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Business Debt Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Business Debt Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-loan-disputes" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">MSME Disputes Help</Link>
                                     <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Business Loan Relief</Link>
@@ -575,7 +575,7 @@ export default function MSMELoanRecoveryClient() {
 
                             {/* Trust Badge */}
                             <div className="bg-blue-900 p-6 rounded-2xl text-white">
-                                <h5 className="font-bold text-sm mb-2 opacity-80 uppercase tracking-wider text-blue-100">Why CredSettle?</h5>
+                                <p className="font-bold text-sm mb-2 opacity-80 uppercase tracking-wider text-blue-100">Why CredSettle?</p>
                                 <p className="text-xs leading-relaxed opacity-90">
                                     We specialize in "Tactical Litigation" and strategic debt meditation for MSMEs. Our team includes former banking professionals and senior DRT advocates who understand the "System" from the inside.
                                 </p>

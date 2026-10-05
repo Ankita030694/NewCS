@@ -180,7 +180,7 @@ export default function RecoveryAgentOfficeClient() {
                 
                 <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                     <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                        <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</h3>
+                        <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</p>
                         <nav className="space-y-1 text-sm">
                             {navLinks.map((link) => (
                                 <a
@@ -219,7 +219,7 @@ export default function RecoveryAgentOfficeClient() {
                             To build a strong defense against these tactics, you must first understand the foundation of your rights. The laws in India are designed to ensure that debt recovery is conducted with dignity. No matter the size of your default, you do not lose your fundamental right to a peaceful work environment. Understanding this gives you the psychological upper hand when a confrontation occurs.
                         </p>
 
-                        <h3 id="rbi-stance-workplace-harassment" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">The RBI Stance on Workplace Harassment</h3>
+                        <h2 id="rbi-stance-workplace-harassment" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">The RBI Stance on Workplace Harassment</h2>
                         <p className="text-gray-700 leading-relaxed mb-6">
                             The Reserve Bank of India has issued categorical guidelines regarding where and how a borrower can be contacted. The RBI mandates that recovery agents must ordinarily contact the borrower only at the place of their choice. If the borrower has not specified a place, the agent may visit the borrower's residence. An agent is explicitly forbidden from visiting the borrower's workplace unless the borrower has actively given consent for them to do so, or if all other avenues of communication at the residence have completely failed and the borrower is willfully evading contact. Furthermore, the guidelines clearly state that agents must not resort to intimidation, public humiliation, or breach of privacy. 
                         </p>
@@ -238,7 +238,7 @@ export default function RecoveryAgentOfficeClient() {
                             Second, demand their identification. You have the absolute right to know who is confronting you. Ask for their official bank ID card and the authorization letter that specifically permits them to visit your workplace on that date. If they refuse to provide this, or if they only show a generic agency ID, you must immediately tell them that they are trespassing and must leave the premises. If they argue, do not debate your loan details. Simply state that you only discuss financial matters via official email and that their presence here is illegal.
                         </p>
                         
-                        <h3 id="documenting-interaction-safely" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Documenting the Interaction Safely</h3>
+                        <h2 id="documenting-interaction-safely" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Documenting the Interaction Safely</h2>
                         <p className="text-gray-700 leading-relaxed mb-6">
                             Evidence is the only language that the police and the RBI Ombudsman understand. If an agent visits your office, you must document it meticulously. Take out your smartphone and start recording a video. You do not need their permission to record in a public or semi-public lobby space when you are the victim of harassment. State clearly on the video the date, the time, and the fact that this person has arrived at your workplace without your consent, causing an intentional disturbance.
                         </p>
@@ -246,7 +246,7 @@ export default function RecoveryAgentOfficeClient() {
                             Ask them their name and which bank they represent on camera. Most rogue agents will instantly hide their faces and run away when a camera is pointed at them because they know their actions are illegal and their agency will terminate them if they are caught on video breaking RBI rules. If they continue to shout, let them. The louder they yell on camera, the stronger your criminal case for defamation and criminal intimidation becomes. For more strategies on handling aggressive behavior, explore our comprehensive resource on <Link href="/how-to-handle-recovery-agent-harrasment" className="text-blue-600 hover:underline">how to handle recovery agent harassment</Link>.
                         </p>
 
-                        <h3 id="involving-hr-security" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Involving Your HR and Security Teams</h3>
+                        <h2 id="involving-hr-security" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Involving Your HR and Security Teams</h2>
                         <p className="text-gray-700 leading-relaxed mb-6">
                             The biggest mistake borrowers make is trying to hide the situation from their employer. Secrecy creates vulnerability. Fraudsters rely on the fact that you are terrified of your boss finding out. If you take away that fear, the scammers lose all their leverage. It is always better to proactively inform your Human Resources department about the situation before the agents arrive, if you suspect they might.
                         </p>
@@ -261,12 +261,12 @@ export default function RecoveryAgentOfficeClient() {
                         
                         {/* SECTION TYPE: Legal Process Map */}
                         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 mb-8 shadow-sm">
-                            <h4 className="font-bold text-xl text-slate-800 mb-4">Step-by-Step Defense Protocol</h4>
+                            <p className="font-bold text-xl text-slate-800 mb-4">Step-by-Step Defense Protocol</p>
                             <div className="space-y-4">
                                 <div className="flex items-start">
                                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-1">1</div>
                                     <div className="ml-4">
-                                        <h5 className="font-bold text-lg text-slate-800">The Ground Defense</h5>
+                                        <p className="font-bold text-lg text-slate-800">The Ground Defense</p>
                                         <p className="text-slate-600">Instruct office security to deny entry. Record the incident on your phone. Refuse to discuss the loan terms in the lobby. Do not engage in any financial negotiations while they are physically present at your workplace.</p>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@ export default function RecoveryAgentOfficeClient() {
                                 <div className="flex items-start">
                                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-1">2</div>
                                     <div className="ml-4">
-                                        <h5 className="font-bold text-lg text-slate-800">The Bank Escalation</h5>
+                                        <h3 className="font-bold text-lg text-slate-800">The Bank Escalation</h3>
                                         <p className="text-slate-600">Send an official email to the bank's Grievance Redressal Officer (GRO) attaching the video evidence. Cite RBI guidelines on workplace harassment and demand immediate intervention to stop the specific collection agency assigned to you.</p>
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@ export default function RecoveryAgentOfficeClient() {
                                 <div className="flex items-start">
                                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-1">3</div>
                                     <div className="ml-4">
-                                        <h5 className="font-bold text-lg text-slate-800">The Legal Perimeter</h5>
+                                        <h3 className="font-bold text-lg text-slate-800">The Legal Perimeter</h3>
                                         <p className="text-slate-600">Draft and dispatch a formal Legal Notice for Defamation to the bank's head office via registered post, demanding a written apology and a halt to all physical visits, under threat of civil litigation for damages.</p>
                                     </div>
                                 </div>
@@ -290,7 +290,7 @@ export default function RecoveryAgentOfficeClient() {
                                 <div className="flex items-start">
                                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-1">4</div>
                                     <div className="ml-4">
-                                        <h5 className="font-bold text-lg text-slate-800">The Regulatory Strike</h5>
+                                        <h3 className="font-bold text-lg text-slate-800">The Regulatory Strike</h3>
                                         <p className="text-slate-600">If the bank fails to respond within 30 days, file a comprehensive complaint on the RBI CMS (Complaint Management System) portal, uploading the legal notice and video evidence for stringent regulatory action.</p>
                                     </div>
                                 </div>
@@ -308,7 +308,7 @@ export default function RecoveryAgentOfficeClient() {
 
                         {/* SECTION TYPE: Data Callout */}
                         <div className="bg-blue-900 text-white p-8 rounded-2xl mb-8 shadow-lg">
-                            <h4 className="font-bold text-2xl mb-6 border-b border-blue-700 pb-2">2025 Consumer Debt Harassment Insights</h4>
+                            <h3 className="font-bold text-2xl mb-6 border-b border-blue-700 pb-2">2025 Consumer Debt Harassment Insights</h3>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 <div className="text-center p-4 bg-blue-800 rounded-xl border border-blue-700">
                                     <div className="text-4xl font-extrabold text-yellow-400 mb-2">45%</div>
@@ -336,10 +336,10 @@ export default function RecoveryAgentOfficeClient() {
 
                         {/* SECTION TYPE: Red Flags List */}
                         <div className="bg-red-50 p-6 rounded-2xl border border-red-200 mb-8">
-                            <h4 className="font-bold text-xl text-red-800 mb-4 flex items-center">
+                            <h3 className="font-bold text-xl text-red-800 mb-4 flex items-center">
                                 <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                 The Rogue Agent Red Flags
-                            </h4>
+                            </h3>
                             <ul className="space-y-3 text-red-900">
                                 <li className="flex items-start">
                                     <span className="font-bold mr-2">•</span>
@@ -431,7 +431,7 @@ export default function RecoveryAgentOfficeClient() {
                                     className="w-full h-full object-cover"
                                 />
                             </div>
-                            <h3 className="font-bold text-xl text-gray-900 mb-1">Vikram Sharma</h3>
+                            <p className="font-bold text-xl text-gray-900 mb-1">Vikram Sharma</p>
                             <p className="text-sm font-semibold text-blue-600 mb-3">Senior Legal Strategist</p>
                             <p className="text-gray-600 text-sm leading-relaxed mb-4">
                                 Specializing in consumer rights, debt settlement negotiation, and protection against illegal recovery harassment. Dedicated to empowering borrowers with actionable legal frameworks.

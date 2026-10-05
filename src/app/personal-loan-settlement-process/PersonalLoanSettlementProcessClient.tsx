@@ -249,7 +249,7 @@ export default function PersonalLoanSettlementProcessClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Process Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Process Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -309,12 +309,12 @@ export default function PersonalLoanSettlementProcessClient() {
 
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Crucial Distinction: Closure vs Settlement
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Standard Closure:</strong> This occurs when you repay the entire principal amount, all accrued interest, and any associated late penalties in full. This reflects positively on your credit report.</li>
                                     <li><strong>Settlement:</strong> This occurs when the bank takes a financial loss by waiving off a portion of your debt. Consequently, this reflects negatively on your credit report and significantly lowers your CIBIL score.</li>
@@ -351,14 +351,14 @@ export default function PersonalLoanSettlementProcessClient() {
                             </p>
 
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Actions to Handle Recovery Agents</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Actions to Handle Recovery Agents</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">A</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Demand Official Identification</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Demand Official Identification</p>
                                             <p className="text-sm text-gray-600 m-0">Always ask agents for their official ID card and authorization letter from the bank. Do not engage with unverified individuals who refuse to present proper credentials.</p>
                                         </div>
                                     </li>
@@ -367,7 +367,7 @@ export default function PersonalLoanSettlementProcessClient() {
                                             <span className="font-bold text-blue-600 text-sm">B</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Enforce Communication Boundaries</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Enforce Communication Boundaries</p>
                                             <p className="text-sm text-gray-600 m-0">Remind agents that Reserve Bank of India guidelines strictly prohibit calls or visits before 8 AM and after 7 PM. Any violation is grounds for a formal legal complaint.</p>
                                         </div>
                                     </li>
@@ -376,7 +376,7 @@ export default function PersonalLoanSettlementProcessClient() {
                                             <span className="font-bold text-blue-600 text-sm">C</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Document Every Interaction</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Document Every Interaction</p>
                                             <p className="text-sm text-gray-600 m-0">Record all phone calls and keep a detailed log of all home visits. This evidence is vital if you need to file a harassment complaint with the banking ombudsman.</p>
                                         </div>
                                     </li>
@@ -457,7 +457,7 @@ export default function PersonalLoanSettlementProcessClient() {
 
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Real World Case Studies</h2>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4">Case Study 1: Resolving Debt After a Medical Emergency</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4">Case Study 1: Resolving Debt After a Medical Emergency</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Vikram, an IT professional based in Bangalore, had an outstanding personal loan of eight lakh rupees. Following a severe medical emergency involving his spouse, Vikram depleted his savings and missed four consecutive EMI payments. The bank initiated intense recovery efforts, causing massive stress. Vikram began the personal loan settlement process by formally submitting a hardship letter accompanied by comprehensive medical bills and hospitalization records.
                             </p>
@@ -465,7 +465,7 @@ export default function PersonalLoanSettlementProcessClient() {
                                 The bank initially demanded the full amount, threatening immediate legal action. Vikram stood his ground, clearly stating that bankruptcy was his only other option. After three months of intense negotiation, emphasizing the medical catastrophe, the bank agreed to a settlement of three point five lakh rupees. Vikram obtained the official settlement letter, paid the amount using a loan from his brother, and successfully secured the NOC, closing the traumatic chapter.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4">Case Study 2: Managing Multiple Defaults Post Job Loss</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4">Case Study 2: Managing Multiple Defaults Post Job Loss</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Sneha lost her managerial job during a corporate restructuring and subsequently defaulted on three separate personal loans totaling fifteen lakh rupees. The continuous harassment from multiple recovery agencies severely impacted her ability to search for new employment. Realizing the complexity of the situation, she engaged a professional debt resolution agency to handle the debt settlement procedure in India on her behalf.
                             </p>
@@ -492,7 +492,7 @@ export default function PersonalLoanSettlementProcessClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -529,7 +529,7 @@ export default function PersonalLoanSettlementProcessClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-6 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -548,7 +548,7 @@ export default function PersonalLoanSettlementProcessClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-6">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-6">Related Expertise</p>
                                 <ul className="space-y-5 text-left font-medium">
                                     <li>
                                         <Link href="/services/anti-harassment" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

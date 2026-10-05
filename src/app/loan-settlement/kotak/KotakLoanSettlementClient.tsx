@@ -197,7 +197,7 @@ export default function KotakLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -231,7 +231,7 @@ export default function KotakLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Did You Know?</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
                 <p className="text-blue-800 m-0">
                   A loan settlement is not a favor from the bank; it is a standard banking procedure for recovering Non-Performing Assets (NPAs). You have the right to propose a settlement if you can prove financial hardship.
                 </p>
@@ -261,19 +261,19 @@ export default function KotakLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 text-lg">1. Proven Financial Hardship</h4>
+                  <h3 className="font-bold text-gray-900 mb-2 text-lg">1. Proven Financial Hardship</h3>
                   <p className="text-gray-600">This is the most critical factor. You must demonstrate that your inability to pay is due to valid reasons like loss of employment, severe illness, accident, or significant business failure.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 text-lg">2. NPA Status</h4>
+                  <h3 className="font-bold text-gray-900 mb-2 text-lg">2. NPA Status</h3>
                   <p className="text-gray-600">Typically, banks entertain settlement offers only after the loan has been in default for a specific period (usually 90 days) and has been tagged as an NPA.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 text-lg">3. Non-Wilful Defaulter</h4>
+                  <h3 className="font-bold text-gray-900 mb-2 text-lg">3. Non-Wilful Defaulter</h3>
                   <p className="text-gray-600">You should not be a 'wilful defaulter'-someone who has the capacity to repay but deliberately chooses not to. The bank will assess your current income and assets.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 text-lg">4. Repayment History</h4>
+                  <h3 className="font-bold text-gray-900 mb-2 text-lg">4. Repayment History</h3>
                   <p className="text-gray-600">While you are currently defaulting, your past relationship with the bank and intent to pay can influence the negotiation process positively.</p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function KotakLoanSettlementClient() {
                     1
                   </div>
                   <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-1">Consultation & Analysis</h4>
+                    <h3 className="font-bold text-gray-900 mb-1">Consultation & Analysis</h3>
                     <p className="text-gray-600 text-sm">We assess your total debt liability and financial capability. We listen to your story to frame the hardship application effectively.</p>
                   </div>
                 </div>
@@ -302,7 +302,7 @@ export default function KotakLoanSettlementClient() {
                     2
                   </div>
                   <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-1">Legal Protection</h4>
+                    <h3 className="font-bold text-gray-900 mb-1">Legal Protection</h3>
                     <p className="text-gray-600 text-sm">Once onboarded, we redirect all harassment calls to our legal team. We handle notices and ensure you are not intimidated by recovery agents.</p>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ export default function KotakLoanSettlementClient() {
                     3
                   </div>
                   <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-1">Negotiation Strategy</h4>
+                    <h3 className="font-bold text-gray-900 mb-1">Negotiation Strategy</h3>
                     <p className="text-gray-600 text-sm">We initiate the One-Time Settlement (OTS) proposal with Kotak’s settlement officers, aiming for maximum waiver on interest and principal.</p>
                   </div>
                 </div>
@@ -324,7 +324,7 @@ export default function KotakLoanSettlementClient() {
                     4
                   </div>
                   <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-1">Settlement Letter</h4>
+                    <h3 className="font-bold text-gray-900 mb-1">Settlement Letter</h3>
                     <p className="text-gray-600 text-sm">We scrutinize the final Settlement Letter issued by the bank to ensure there are no hidden clauses. Payment is made only after this verification.</p>
                   </div>
                 </div>
@@ -335,7 +335,7 @@ export default function KotakLoanSettlementClient() {
                     5
                   </div>
                   <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-1">Financial Freedom</h4>
+                    <h3 className="font-bold text-gray-900 mb-1">Financial Freedom</h3>
                     <p className="text-gray-600 text-sm">Upon payment, we ensure you receive the 'No Dues Certificate'. You are now legally debt-free from this loan!</p>
                   </div>
                 </div>
@@ -384,7 +384,7 @@ export default function KotakLoanSettlementClient() {
                 This status implies that full repayment was not made. It will lower your credit score and stay on your report for about 7 years, making new credit harder to access initially.
               </p>
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-xl mb-10">
-                <h5 className="font-bold text-yellow-800 mb-2">The Better Evil?</h5>
+                <h3 className="font-bold text-yellow-800 mb-2">The Better Evil?</h3>
                 <p className="text-yellow-700 m-0">
                   While "Settled" affects your score, it is significantly better than a "Written Off" status, which indicates a complete loss for the bank and severe default. A settlement stops the negative reporting cycle, allowing you to eventually rebuild your score through secured cards and good financial habits.
                 </p>
@@ -398,22 +398,22 @@ export default function KotakLoanSettlementClient() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
                   <div className="text-blue-600 text-3xl mb-3">[Protection]</div>
-                  <h5 className="font-bold text-gray-900 mb-2">Anti-Harassment Shield</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Anti-Harassment Shield</h3>
                   <p className="text-sm text-gray-600">We take over agent calls so you can focus on your life and work.</p>
                 </div>
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
                   <div className="text-blue-600 text-3xl mb-3">[Money]</div>
-                  <h5 className="font-bold text-gray-900 mb-2">Proven Savings</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Proven Savings</h3>
                   <p className="text-sm text-gray-600">Our expertise allows us to secure up to 50% waivers regularly.</p>
                 </div>
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
                   <div className="text-blue-600 text-3xl mb-3">[Scale]</div>
-                  <h5 className="font-bold text-gray-900 mb-2">Legal Expertise</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Legal Expertise</h3>
                   <p className="text-sm text-gray-600">Our lawyers handle arbitration and legal notices professionally.</p>
                 </div>
                 <div className="p-5 bg-white border border-gray-100 shadow-sm rounded-xl">
                   <div className="text-blue-600 text-3xl mb-3">[Deal]</div>
-                  <h5 className="font-bold text-gray-900 mb-2">Client First</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Client First</h3>
                   <p className="text-sm text-gray-600">Transparent fees, no false promises, and genuine support.</p>
                 </div>
               </div>
@@ -461,7 +461,7 @@ export default function KotakLoanSettlementClient() {
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 text-2xl">
                   [Phone]
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Distressed?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Distressed?</p>
                 <p className="text-sm text-gray-600 mb-6">Don’t fight the bank alone. Get expert legal support.</p>
                 <Link 
                   href="/contact"
@@ -477,7 +477,7 @@ export default function KotakLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2 text-sm uppercase tracking-wide">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2 text-sm uppercase tracking-wide">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center group">

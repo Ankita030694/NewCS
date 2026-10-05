@@ -376,27 +376,27 @@ export default function CanISettleHomeLoanPage() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
                   <div className="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-200">
-                    <h4 className="font-bold text-lg mb-2 text-red-600 flex items-center">
+                    <h3 className="font-bold text-lg mb-2 text-red-600 flex items-center">
                        <FontAwesomeIcon icon={faExclamationTriangle} className="mr-2" /> Job Loss or Business Failure
-                    </h4>
+                    </h3>
                     <p className="text-sm">You have lost your primary source of income and have been unable to find employment for a significant period (6 months or more).</p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-200">
-                    <h4 className="font-bold text-lg mb-2 text-red-600 flex items-center">
+                    <h3 className="font-bold text-lg mb-2 text-red-600 flex items-center">
                        <FontAwesomeIcon icon={faExclamationTriangle} className="mr-2" /> Medical Emergency
-                    </h4>
+                    </h3>
                     <p className="text-sm">A severe illness or accident has drained your savings and impacted your ability to earn, making EMI payments impossible.</p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-200">
-                    <h4 className="font-bold text-lg mb-2 text-red-600 flex items-center">
+                    <h3 className="font-bold text-lg mb-2 text-red-600 flex items-center">
                        <FontAwesomeIcon icon={faExclamationTriangle} className="mr-2" /> Death of Co-borrower
-                    </h4>
+                    </h3>
                     <p className="text-sm">The demise of a primary earning member in a joint loan can severely impact repayment capacity.</p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-200">
-                    <h4 className="font-bold text-lg mb-2 text-red-600 flex items-center">
+                    <h3 className="font-bold text-lg mb-2 text-red-600 flex items-center">
                        <FontAwesomeIcon icon={faExclamationTriangle} className="mr-2" /> Asset Depreciation
-                    </h4>
+                    </h3>
                     <p className="text-sm">In rare cases where the property value has fallen significantly below the outstanding loan amount, and you cannot continue servicing the debt.</p>
                   </div>
                 </div>
@@ -451,18 +451,18 @@ export default function CanISettleHomeLoanPage() {
                 
                 <div className="space-y-4 mt-6">
                   <div className="border border-red-100 bg-red-50 p-4 rounded-lg">
-                    <h4 className="font-bold text-red-800 mb-2 flex items-center">
+                    <h3 className="font-bold text-red-800 mb-2 flex items-center">
                        <FontAwesomeIcon icon={faGavel} className="mr-2" /> Section 13(2) Notice (Demand Notice)
-                    </h4>
+                    </h3>
                     <p className="text-sm text-red-800">
                       Once your loan is NPA, the bank sends this notice giving you <strong>60 days</strong> to clear the dues. You have the right to raise objections or make a representation against this notice. The bank <em>must</em> reply to your objection within 15 days. This is often the best time to propose a settlement.
                     </p>
                   </div>
                   
                   <div className="border border-red-200 bg-red-100 p-4 rounded-lg">
-                    <h4 className="font-bold text-red-900 mb-2 flex items-center">
+                    <h3 className="font-bold text-red-900 mb-2 flex items-center">
                        <FontAwesomeIcon icon={faLandmark} className="mr-2" /> Section 13(4) Notice (Possession Notice)
-                    </h4>
+                    </h3>
                     <p className="text-sm text-red-900">
                       If you fail to pay within 60 days, the bank can take <strong>symbolic possession</strong> or <strong>physical possession</strong> of your property. They will publish an auction notice giving you 30 more days to pay.
                     </p>
@@ -484,7 +484,7 @@ export default function CanISettleHomeLoanPage() {
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-lg">1</div>
                     <div>
-                      <h4 className="text-xl font-bold mb-2">Assess Your Outstanding Dues</h4>
+                      <h3 className="text-xl font-bold mb-2">Assess Your Outstanding Dues</h3>
                       <p>Check your latest loan statement. Calculate exactly how much principal and interest is pending. Ideally, in a settlement, banks waive off the penal interest and other charges, and you negotiate on the principal amount.</p>
                     </div>
                   </div>
@@ -492,7 +492,7 @@ export default function CanISettleHomeLoanPage() {
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-lg">2</div>
                     <div>
-                      <h4 className="text-xl font-bold mb-2">Communicate with the Lender</h4>
+                      <h3 className="text-xl font-bold mb-2">Communicate with the Lender</h3>
                       <p>Write a formal letter or email to the branch manager or the recovery department. Clearly explain your financial hardship. Attach proof such as termination letters, medical reports, or bank statements showing lack of funds.</p>
                     </div>
                   </div>
@@ -500,7 +500,7 @@ export default function CanISettleHomeLoanPage() {
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-lg">3</div>
                     <div>
-                      <h4 className="text-xl font-bold mb-2">The Negotiation Phase</h4>
+                      <h3 className="text-xl font-bold mb-2">The Negotiation Phase</h3>
                       <p>The bank will initially ask for the full amount. You need to negotiate. Start with a lower offer (e.g., 40-50% of the principal). The bank will counter. This back-and-forth can take weeks. Professional debt settlement companies can often handle this negotiation for you.</p>
                     </div>
                   </div>
@@ -508,7 +508,7 @@ export default function CanISettleHomeLoanPage() {
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-lg">4</div>
                     <div>
-                      <h4 className="text-xl font-bold mb-2">Get the Settlement Letter</h4>
+                      <h3 className="text-xl font-bold mb-2">Get the Settlement Letter</h3>
                       <p className="text-orange-700 font-medium">This is the most crucial step.</p>
                       <p>Once an amount is agreed upon, <strong>do not pay a single rupee</strong> until you receive an official Settlement Letter (or OTS Letter) from the bank. This letter must state:</p>
                       <ul className="list-disc pl-5 mt-2 text-sm text-gray-600">
@@ -523,7 +523,7 @@ export default function CanISettleHomeLoanPage() {
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-lg">5</div>
                     <div>
-                      <h4 className="text-xl font-bold mb-2">Make the Payment</h4>
+                      <h3 className="text-xl font-bold mb-2">Make the Payment</h3>
                       <p>Pay the settlement amount via Cheque or DD or NEFT. Keep the transaction receipt safe.</p>
                     </div>
                   </div>
@@ -531,7 +531,7 @@ export default function CanISettleHomeLoanPage() {
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-lg">6</div>
                     <div>
-                      <h4 className="text-xl font-bold mb-2">Collect Closing Documents</h4>
+                      <h3 className="text-xl font-bold mb-2">Collect Closing Documents</h3>
                       <p>After payment, ensure you receive the <strong>No Objection Certificate (NOC)</strong> and a <strong>Loan Closure Certificate</strong>. Verify that the bank initiates the return of your original property deeds (Sale Deed, Mother Deed, etc.).</p>
                     </div>
                   </div>
@@ -562,11 +562,11 @@ export default function CanISettleHomeLoanPage() {
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mt-4">
                    <div className="bg-white p-5 rounded-lg border border-gray-200 shadow-sm">
-                      <h4 className="font-bold text-gray-800 mb-2">Co-Borrowers</h4>
+                      <h3 className="font-bold text-gray-800 mb-2">Co-Borrowers</h3>
                       <p className="text-sm text-gray-600">They are jointly and equally liable. If the primary applicant defaults, the bank will pursue the co-borrower. A settlement will negatively impact the Credit/CIBIL score of <strong>both</strong> the primary borrower and the co-borrower.</p>
                    </div>
                    <div className="bg-white p-5 rounded-lg border border-gray-200 shadow-sm">
-                      <h4 className="font-bold text-gray-800 mb-2">Guarantors</h4>
+                      <h3 className="font-bold text-gray-800 mb-2">Guarantors</h3>
                       <p className="text-sm text-gray-600">A guarantor’s liability is co-extensive with the borrower. If you settle, ensure the settlement letter explicitly releases the guarantor from all future liabilities. Otherwise, the bank might chase the guarantor for the remaining balance.</p>
                    </div>
                 </div>
@@ -578,15 +578,15 @@ export default function CanISettleHomeLoanPage() {
                   The Reserve Bank of India (RBI) has laid down specific guidelines to protect borrowers during the settlement process.
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#0C2756] my-4">
-                  <h5 className="font-bold text-lg mb-2">Fair Practices Code</h5>
+                  <h3 className="font-bold text-lg mb-2">Fair Practices Code</h3>
                   <p>Banks must follow a Fair Practices Code. They cannot use abusive language, call at odd hours, or harass your family members for recovery. If they do, you have the right to file a complaint with the Banking Ombudsman.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#0C2756] my-4">
-                  <h5 className="font-bold text-lg mb-2">Rights to Documents</h5>
+                  <h3 className="font-bold text-lg mb-2">Rights to Documents</h3>
                   <p>Recently, the RBI has mandated that banks must release original property documents within <strong>30 days</strong> of full repayment/settlement of the loan. Failure to do so attracts a penalty for the bank.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#0C2756] my-4">
-                  <h5 className="font-bold text-lg mb-2">Transparent Settlement</h5>
+                  <h3 className="font-bold text-lg mb-2">Transparent Settlement</h3>
                   <p>The settlement terms must be transparent. The bank cannot hide charges or spring surprise fees after the settlement letter is issued.</p>
                 </div>
               </div>
@@ -600,7 +600,7 @@ export default function CanISettleHomeLoanPage() {
                   Instead of marking the account as <strong>"Closed"</strong> (which means paid in full), they mark it as <strong>"Settled"</strong>. This flag indicates that the borrower did not pay the full amount and the lender took a loss.
                 </p>
                 
-                <h4 className="font-bold text-lg mt-4 mb-2">Consequences:</h4>
+                <h3 className="font-bold text-lg mt-4 mb-2">Consequences:</h3>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><strong>Score Drop:</strong> Your credit score can drop by 70 to 100 points or more.</li>
                   <li><strong>Future Loans:</strong> Getting a new loan (personal, car, or home) becomes extremely difficult for the next 7 years. Most banks automatically reject applications with a "Settled" tag.</li>
@@ -695,7 +695,7 @@ export default function CanISettleHomeLoanPage() {
                     <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
                        <div className="flex items-center mb-3">
                           <div className="bg-blue-100 p-2 rounded-full mr-3"><FontAwesomeIcon icon={faFileAlt} className="text-blue-600" /></div>
-                          <h4 className="font-bold text-gray-800">Case 1: Job Loss</h4>
+                          <h3 className="font-bold text-gray-800">Case 1: Job Loss</h3>
                        </div>
                        <p className="text-sm text-gray-600 italic mb-2">"Ravi lost his IT job and couldn’t pay EMI for 6 months. Loan outstanding: ₹60 Lakhs."</p>
                        <p className="text-sm text-gray-700"><strong>Outcome:</strong> Ravi approached the bank with proof of termination. He offered to settle using his PF withdrawal. The bank agreed to settle at ₹38 Lakhs (waiving interest and part principal). Status: "Settled".</p>
@@ -703,7 +703,7 @@ export default function CanISettleHomeLoanPage() {
                     <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
                        <div className="flex items-center mb-3">
                           <div className="bg-blue-100 p-2 rounded-full mr-3"><FontAwesomeIcon icon={faFileAlt} className="text-blue-600" /></div>
-                          <h4 className="font-bold text-gray-800">Case 2: Medical Crisis</h4>
+                          <h3 className="font-bold text-gray-800">Case 2: Medical Crisis</h3>
                        </div>
                        <p className="text-sm text-gray-600 italic mb-2">"Suresh faced a severe accident, leading to huge hospital bills. Loan outstanding: ₹45 Lakhs."</p>
                        <p className="text-sm text-gray-700"><strong>Outcome:</strong> Bank recognized the hardship. Instead of full settlement, they offered 12-month moratorium and restructured the loan to lower EMIs, avoiding the "Settled" tag.</p>
@@ -790,7 +790,7 @@ export default function CanISettleHomeLoanPage() {
                          <circle cx="100" cy="100" r="100" fill="white" />
                       </svg>
                    </div>
-                   <h3 className="text-xl font-bold mb-3 relative z-10">Struggling with Home Loan?</h3>
+                   <p className="text-xl font-bold mb-3 relative z-10">Struggling with Home Loan?</p>
                    <p className="text-blue-100 text-sm mb-6 relative z-10">Don’t let debt take over your life. Get expert legal advice on settlement today.</p>
                    <Link href="/contact" className="block w-full text-center bg-white text-[#0C2756] font-bold py-3 rounded-lg hover:bg-blue-50 transition-colors relative z-10">
                       Get Free Consultation

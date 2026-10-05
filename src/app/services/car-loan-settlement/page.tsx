@@ -179,7 +179,7 @@ export default function CarLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Compliance With Asset Security</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Compliance With Asset Security</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We negotiate within RBI norms to limit risk of repossession and ensure dignity.</p>
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function CarLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Reduced Liability Outcomes</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Reduced Liability Outcomes</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Target significant reductions and final legal closure for true peace of mind.</p>
               </div>
             </div>

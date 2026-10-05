@@ -183,7 +183,7 @@ export default function LoanSettlementDivorceClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -241,7 +241,7 @@ export default function LoanSettlementDivorceClient() {
                 </p>
                 
                 <div className="bg-red-50 p-10 rounded-3xl border border-red-100 my-12 shadow-sm">
-                  <h4 className="font-bold text-red-900 text-2xl uppercase mb-6 tracking-tight">Myth vs Fact: The Divorce Decree Illusion</h4>
+                  <h3 className="font-bold text-red-900 text-2xl uppercase mb-6 tracking-tight">Myth vs Fact: The Divorce Decree Illusion</h3>
                   <div className="grid md:grid-cols-2 gap-8">
                     <div className="bg-white p-6 rounded-2xl border-t-4 border-red-500 shadow-sm">
                       <strong className="block text-red-700 text-lg uppercase mb-2">The Myth</strong>
@@ -351,7 +351,7 @@ export default function LoanSettlementDivorceClient() {
 
               <h3 id="legal-notice" className="text-2xl font-bold text-black mb-4 mt-12 scroll-mt-28">Protecting Yourself with a Legal Notice</h3>
               <div className="bg-gray-50 p-10 rounded-3xl border border-gray-200 my-10 shadow-inner">
-                <h4 className="font-bold text-black text-2xl uppercase mb-6 tracking-tight">Step-by-Step Defense Checklist</h4>
+                <h3 className="font-bold text-black text-2xl uppercase mb-6 tracking-tight">Step-by-Step Defense Checklist</h3>
                 <ul className="space-y-6 text-lg font-medium text-black">
                   <li className="flex items-start">
                     <span className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 shrink-0 mt-1">1</span>
@@ -416,7 +416,7 @@ export default function LoanSettlementDivorceClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-black text-sm">{review.name}</h4>
+                        <p className="font-bold text-black text-sm">{review.name}</p>
                         <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
                       </div>
                     </div>
@@ -446,7 +446,7 @@ export default function LoanSettlementDivorceClient() {
                 <div className="w-24 h-24 mx-auto bg-gray-200 rounded-full mb-4 overflow-hidden border-4 border-white shadow-lg">
                    <img src="/default-user.svg" alt="Vikram Desai - Legal Expert" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2NjYyI+PHBhdGggZD0iTTEyIDJDMi4xMiAyIDAgNC4xMiAwIDEyczQuMTIgMTAgMTAgMTAgMTAtNC4xMiAxMC0xMFMyMS44OCAyIDEyIDJ6bTAgMTZjLTIuNTEgMC00LjY4LTEuMjItNi4wMy0zLjAxLjk2LTEuOSAzLjktMi45OSA2LjAzLTIuOTlzNS4wNyAxLjA5IDYuMDMgMi45OUMxNi42OCAxNi43OCAxNC41MSAxOCAxMiAxOHptMC03LjVjLTEuOTMgMC0zLjUtMS41Ny0zLjUtMy41UzEwLjA3IDMuNSAxMiAzLjVzMy41IDEuNTcgMy41IDMuNS0xLjU3IDMuNS0zLjUgMy41eiIvPjwvc3ZnPg==' }} />
                 </div>
-                <h4 className="font-bold text-xl text-black mb-1">Vikram Desai</h4>
+                <p className="font-bold text-xl text-black mb-1">Vikram Desai</p>
                 <p className="text-xs font-bold text-blue-600 uppercase tracking-widest mb-4">Senior Legal Editor</p>
                 <p className="text-sm text-black mb-6 italic leading-relaxed">Specializing in family law disputes, asset liquidation, and complex banking mediation.</p>
                 <Link 

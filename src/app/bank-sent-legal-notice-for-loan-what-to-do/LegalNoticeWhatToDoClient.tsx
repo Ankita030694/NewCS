@@ -294,7 +294,7 @@ export default function LegalNoticeWhatToDoClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Navigation</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Navigation</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -379,13 +379,13 @@ export default function LegalNoticeWhatToDoClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                                 <div className="bg-green-50 p-6 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Civil Route (Most Common)</h4>
+                                    <p className="font-bold text-green-900 mb-2">Civil Route (Most Common)</p>
                                     <p className="text-sm text-green-800 leading-relaxed">
                                         Focuses on money recovery. Includes Civil Suits, Summary Suits (Order 37), Arbitration, and Lok Adalats. The result is a 'decree' or 'award' directing payment. Failure to pay can lead to asset attachment.
                                     </p>
                                 </div>
                                 <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                                    <h4 className="font-bold text-red-900 mb-2">Criminal/Quasi-Criminal</h4>
+                                    <p className="font-bold text-red-900 mb-2">Criminal/Quasi-Criminal</p>
                                     <p className="text-sm text-red-800 leading-relaxed">
                                         Triggered only by specific actions like a <strong>Cheque Bounce (Section 138)</strong> or forgery. If you didn’t cheat or give a bad cheque, the criminal route is virtually non-existent for standard defaults.
                                     </p>
@@ -572,7 +572,7 @@ export default function LegalNoticeWhatToDoClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Emergency?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Emergency?</p>
                                 <p className="text-sm text-gray-600 mb-6">If you have received a court summons or a Summary Suit notice, act now. Procrastination is the bank’s biggest ally.</p>
                                 <Link
                                     href="/contact"
@@ -589,7 +589,7 @@ export default function LegalNoticeWhatToDoClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/rbi-new-recovery-guidelines-july-2026" className="block text-sm text-blue-600 hover:underline">New RBI Rules 2026</Link>
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Agent Harassment</Link>

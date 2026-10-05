@@ -213,7 +213,7 @@ export default function HowToSettle7DaysLoanAppClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -259,11 +259,11 @@ export default function HowToSettle7DaysLoanAppClient() {
                 <p>
                   The "7-Day Loan" is a masterpiece of psychological manipulation. It targets those in urgent need: a medical emergency, a missed bill, or a temporary cash crunch. The process is deceptively simple: download an app, give permissions, and receive money in 5 minutes.
                 </p>
-                <h4 className="font-bold text-gray-900 text-xl mb-4">The Permission Robbery</h4>
+                <h3 className="font-bold text-gray-900 text-xl mb-4">The Permission Robbery</h3>
                 <p>
                   When you install a 7-day loan app, it asks for permission to access your "Contacts," "SMS," "Gallery," and "Location." To most users, this seems like a standard requirement for "KYC." In reality, the app instantly uploads your entire phonebook to their servers. They now possess the phone numbers of your boss, your children&apos;s teachers, and your elderly parents.
                 </p>
-                <h4 className="font-bold text-gray-900 text-xl mb-4">The Mathematical Extortion</h4>
+                <h3 className="font-bold text-gray-900 text-xl mb-4">The Mathematical Extortion</h3>
                 <p>
                   If you borrow 5,000 rupees, you might only receive 3,200 rupees in your bank account. The remaining 1,800 is deducted as "Processing Fees" and "GST." You are then required to pay back the full 5,000 rupees in exactly 7 days. This effectively translates to an interest rate of over 3000% per annum.
                 </p>
@@ -271,7 +271,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                    If you miss the deadline by even one hour, the harassment begins. They don&apos;t just ask for the money: they demand "late fees" that double every 24 hours. The goal is not just to get the principal back: the goal is to trap you in a cycle of "extension payments" where you pay thousands of rupees every few days just to buy a little bit of silence.
                 </p>
                 <div className="bg-red-50 p-12 rounded-3xl border-2 border-red-100 my-16 shadow-inner relative overflow-hidden">
-                  <h4 className="font-bold text-red-900 mb-6 text-2xl uppercase italic">WARNING: The Double-Pay Scam</h4>
+                  <h3 className="font-bold text-red-900 mb-6 text-2xl uppercase italic">WARNING: The Double-Pay Scam</h3>
                   <p className="text-red-800 text-lg font-medium leading-relaxed">
                     Many victims report that even after they pay the full amount, the app does not update the status. The recovery agents claim they never received the money and demand payment again. Or worse, the app automatically disurbs another small loan into your account without your consent and starts the harassment cycle all over again. This is why "paying them off" as a solution often fails.
                   </p>
@@ -290,21 +290,21 @@ export default function HowToSettle7DaysLoanAppClient() {
                   <li className="flex items-start">
                     <div className="bg-blue-600 text-white rounded-2xl w-12 h-12 flex items-center justify-center font-bold mr-6 flex-shrink-0 shadow-lg transform rotate-3">01</div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-2xl uppercase mb-2">No RBI Registration</h5>
+                      <h3 className="font-bold text-gray-900 text-2xl uppercase mb-2">No RBI Registration</h3>
                       <p>If an app is not listed in the RBI&apos;s directory of regulated entities, it has no legal right to collect interest or principal. They are operating as criminal syndicates, not as financial institutions.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <div className="bg-blue-600 text-white rounded-2xl w-12 h-12 flex items-center justify-center font-bold mr-6 flex-shrink-0 shadow-lg transform -rotate-3">02</div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-2xl uppercase mb-2">Data Privacy Violations</h5>
+                      <h3 className="font-bold text-gray-900 text-2xl uppercase mb-2">Data Privacy Violations</h3>
                       <p>Accessing your contacts and gallery for loan recovery is a criminal offense under Section 66E and Section 72 of the Information Technology Act. This is a non-bailable offense in many jurisdictions.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <div className="bg-blue-600 text-white rounded-2xl w-12 h-12 flex items-center justify-center font-bold mr-6 flex-shrink-0 shadow-lg transform rotate-6">03</div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-2xl uppercase mb-2">Criminal Intimidation</h5>
+                      <h3 className="font-bold text-gray-900 text-2xl uppercase mb-2">Criminal Intimidation</h3>
                       <p>Threatening to shame you publicly or morph your images is a violation of Section 503 and Section 506 of the Indian Penal Code (IPC). This is extortion, plain and simple.</p>
                     </div>
                   </li>
@@ -319,19 +319,19 @@ export default function HowToSettle7DaysLoanAppClient() {
                 <p>To defeat your enemy, you must understand their weapons. Illegal loan apps don&apos;t use legal notices: they use shame.</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-8">
                   <div className="p-10 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-xl transition-all">
-                    <h5 className="font-bold text-blue-900 text-2xl uppercase mb-4">The WhatsApp Blast</h5>
+                    <h3 className="font-bold text-blue-900 text-2xl uppercase mb-4">The WhatsApp Blast</h3>
                     <p className="font-light leading-relaxed">The harshest weapon. They create a WhatsApp group with your boss, your parents, and your friends. They name the group "FRAUDSTER [YOUR NAME]" and post your photo with a caption claiming you have run away with thousands of rupees.</p>
                   </div>
                   <div className="p-10 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-xl transition-all">
-                    <h5 className="font-bold text-blue-900 text-2xl uppercase mb-4">Morphing/Deepfakes</h5>
+                    <h3 className="font-bold text-blue-900 text-2xl uppercase mb-4">Morphing/Deepfakes</h3>
                     <p className="font-light leading-relaxed">They take your profile picture and use basic AI to morph it onto explicit or obscene images. They then send these to you and threaten to blast them to your contacts if you don&apos;t pay within 15 minutes.</p>
                   </div>
                   <div className="p-10 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-xl transition-all">
-                    <h5 className="font-bold text-blue-900 text-2xl uppercase mb-4">Fake Legal Notices</h5>
+                    <h3 className="font-bold text-blue-900 text-2xl uppercase mb-4">Fake Legal Notices</h3>
                     <p className="font-light leading-relaxed">They send high-quality PDF "Summons" or "FIRs" with fake signatures of actual police officers or judges. These are 100% fake. No court in India sends notices via WhatsApp for a 5,000 rupee dispute.</p>
                   </div>
                   <div className="p-10 bg-gray-50 rounded-3xl border border-gray-100 hover:shadow-xl transition-all">
-                    <h5 className="font-bold text-blue-900 text-2xl uppercase mb-4">The Suicide Push</h5>
+                    <h3 className="font-bold text-blue-900 text-2xl uppercase mb-4">The Suicide Push</h3>
                     <p className="font-light leading-relaxed">They are trained to push victims to the brink of despair. They use highly abusive language, call you "impotent," "thief," or "shameless," hoping that your shame will force you to borrow from another app to pay them off.</p>
                   </div>
                 </div>
@@ -372,7 +372,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                 </p>
                 <div className="bg-black text-white p-12 rounded-3xl my-10 relative overflow-hidden">
                   <div className="relative z-10">
-                    <h4 className="text-3xl font-bold uppercase italic mb-6 text-blue-500">The "Sucker" List</h4>
+                    <h3 className="text-3xl font-bold uppercase italic mb-6 text-blue-500">The "Sucker" List</h3>
                     <p className="opacity-80 leading-relaxed text-lg">
                       Once you pay an illegal app out of fear, your name goes onto a "Sucker List" shared by global crime syndicates. They know you are someone who has the money and can be bullied. Five minutes after you pay App A, you will receive a message from App B saying you owe them money too. If you haven&apos;t even downloaded App B, they will claim you did. It is a bottomless pit. 
                     </p>
@@ -430,7 +430,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                   <li><strong>3. Physical Police Station:</strong> While online filing is good, visiting your local station and getting an FIR or an "Application Acknowledgment" is even better. It is a powerful legal document that you can send to the loan app thugs to show them you are fighting back.</li>
                 </ul>
 
-                <h4 className="font-bold text-gray-900 text-3xl uppercase italic tracking-tight mt-16 mb-8">The RBI Sachet Portal: A Consumer's Shield</h4>
+                <h3 className="font-bold text-gray-900 text-3xl uppercase italic tracking-tight mt-16 mb-8">The RBI Sachet Portal: A Consumer's Shield</h3>
                 <p className="font-light text-xl leading-relaxed">
                   The Reserve Bank of India (RBI) has launched the Sachet portal specifically to address illegal lending. When you file a complaint on Sachet, it is directed to the State Level Coordination Committee (SLCC), which includes members from the RBI, SEBI, and the state police. This ensures that your complaint isn't just sitting in a file: it is being seen by the highest authorities in the financial ecosystem.
                 </p>
@@ -438,7 +438,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                   When filing on Sachet, make sure to provide the bank account details into which you transferred any money. This is the most critical piece of information. The RBI works with the receiving banks to freeze these accounts, cutting off the oxygen supply for these criminal syndicates.
                 </p>
 
-                <h4 className="font-bold text-gray-900 text-3xl uppercase italic tracking-tight mt-16 mb-8">Legal Precedent: The Fight Against Digital Extortion</h4>
+                <h3 className="font-bold text-gray-900 text-3xl uppercase italic tracking-tight mt-16 mb-8">Legal Precedent: The Fight Against Digital Extortion</h3>
                 <p className="font-light text-xl leading-relaxed">
                   Indian courts have taken a very stern view of illegal loan apps. In recent years, several High Courts have directed the police to take proactive measures against the "China-linked" loan app ecosystem. The courts have clarified that "Right to Privacy" is a fundamental right under Article 21 of the Indian Constitution, as established in the landmark Justice K.S. Puttaswamy (Retd.) vs Union of India case.
                 </p>
@@ -446,7 +446,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                    By accessing your contacts and gallery without a legitimate "financial need" related to credit assessment, these apps are in direct violation of your fundamental rights. No contract you "signed" digitally can override the Constitution of India. This means any "permission" you gave for them to use your contacts for recovery is legally void because you cannot consent to a criminal act.
                 </p>
 
-                <h4 className="font-bold text-gray-900 text-3xl uppercase italic tracking-tight mt-16 mb-8">Employer Notification: Protecting Your Professional Reputation</h4>
+                <h3 className="font-bold text-gray-900 text-3xl uppercase italic tracking-tight mt-16 mb-8">Employer Notification: Protecting Your Professional Reputation</h3>
                 <p className="font-light text-xl leading-relaxed">
                   Many victims fear losing their jobs because the recovery agents call their office or HR. The best approach is to be proactive. Use the following template to inform your HR department:
                 </p>
@@ -465,11 +465,11 @@ export default function HowToSettle7DaysLoanAppClient() {
                  <p>Once the immediate harassment stops, you need to clean up your digital environment.</p>
                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="p-8 bg-blue-50 rounded-[32px]">
-                      <h5 className="font-bold text-blue-900 mb-4 uppercase">Identity Reset</h5>
+                      <h3 className="font-bold text-blue-900 mb-4 uppercase">Identity Reset</h3>
                       <p>Consider changing your phone number if the calls persist. It is a small price to pay for peace. Format your phone to "Factory Settings" to ensure any hidden spyware from the app is completely removed.</p>
                     </div>
                     <div className="p-8 bg-blue-50 rounded-[32px]">
-                      <h5 className="font-bold text-blue-900 mb-4 uppercase">CIBIL Monitoring</h5>
+                      <h3 className="font-bold text-blue-900 mb-4 uppercase">CIBIL Monitoring</h3>
                       <p>Check your CIBIL report after 60 days. If an illegal app has falsely reported a default, use the CIBIL Dispute Resolution system to get it removed. Provide your police complaint copy as evidence.</p>
                     </div>
                  </div>
@@ -490,7 +490,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 text-lg uppercase tracking-tight">{review.name}</h4>
+                        <p className="font-bold text-gray-900 text-lg uppercase tracking-tight">{review.name}</p>
                         <p className="text-xs text-blue-600 tracking-widest uppercase font-bold">{review.location} • {review.date}</p>
                       </div>
                     </div>
@@ -498,7 +498,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                 ))}
               </div>
 
-              <h4 className="font-bold text-gray-900 text-xl mb-4">The National Context: India's War on Illegal Apps</h4>
+              <h3 className="font-bold text-gray-900 text-xl mb-4">The National Context: India's War on Illegal Apps</h3>
               <p className="font-light text-xl leading-relaxed mb-8">
                 The problem of 7-day loan apps is not just an individual struggle: it is a national security concern. In 2024 and 2025, the Ministry of Home Affairs (MHA) through the Indian Cyber Crime Coordination Centre (I4C) identified thousands of domains and hundreds of apps that were funneling money out of India through sophisticated Hawala networks. 
               </p>
@@ -509,7 +509,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                  India has also been working with international agencies to tackle the "Chinese Loan App Model," where servers are hosted in third-party countries but targets are exclusively Indian citizens. The banning of over 200 such apps in 2023 was just the beginning. The battle continues in 2026 with stricter KYC norms for UPI and fintech players.
               </p>
 
-              <h4 className="font-bold text-gray-900 text-xl mb-4">Financial Rehabilitation: Cleaning Your Credit History</h4>
+              <h3 className="font-bold text-gray-900 text-xl mb-4">Financial Rehabilitation: Cleaning Your Credit History</h3>
               <p className="font-light text-xl leading-relaxed mb-8">
                 One of the biggest concerns for victims is whether their credit score will be ruined. If the app you used was 100% illegal (not linked to any NBFC), they cannot report to CIBIL. Your score is safe. However, some "hybrid" apps do have a legitimate NBFC partner but use illegal recovery methods. In these cases, a default will show up on your report.
               </p>
@@ -517,7 +517,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                 CredSettle specializes in "Score Rehabilitation." We help you file disputes with TransUnion CIBIL, Experian, and Equifax. We provide the documentation of harassment and the police complaint as grounds for removing the "Written Off" or "Defaulter" status. Our legal team argues that a debt obtained through fraud and processed through extortion cannot be treated as a standard financial default.
               </p>
               <div className="bg-blue-900 text-white p-12 rounded-3xl my-16 shadow-2xl">
-                <h4 className="text-3xl font-bold uppercase italic mb-8 tracking-tighter underline decoration-blue-400">The 2026 Survivor's Checklist</h4>
+                <h3 className="text-3xl font-bold uppercase italic mb-8 tracking-tighter underline decoration-blue-400">The 2026 Survivor's Checklist</h3>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-8 text-lg font-bold italic tracking-tight">
                   <li className="flex items-center"><span className="w-4 h-4 bg-blue-400 rounded-full mr-4"></span>Revoke all permissions on Google Account</li>
                   <li className="flex items-center"><span className="w-4 h-4 bg-blue-400 rounded-full mr-4"></span>Enable Two-Factor Authentication on WhatsApp</li>
@@ -528,7 +528,7 @@ export default function HowToSettle7DaysLoanAppClient() {
                 </ul>
               </div>
 
-              <h4 className="font-bold text-gray-900 text-xl mb-4">Crisis Support: You Are Not Alone</h4>
+              <h3 className="font-bold text-gray-900 text-xl mb-4">Crisis Support: You Are Not Alone</h3>
               <p className="font-light text-xl leading-relaxed mb-8">
                 The mental health impact of cyber-extortion is profound. If you are feeling overwhelmed, please reach out to professional counselors or helplines. In India, you can call the **Kiran Mental Health Helpline (1800-599-0019)**, which is a government-run initiative for those in distress. The shame you feel is the weapon of the criminal: by seeking help, you are disarming them.
               </p>
@@ -574,7 +574,7 @@ export default function HowToSettle7DaysLoanAppClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don&apos;t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"

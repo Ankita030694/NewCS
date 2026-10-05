@@ -191,7 +191,7 @@ export default function PunishmentForNonPaymentClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -257,7 +257,7 @@ export default function PunishmentForNonPaymentClient() {
                 </p>
                 
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 my-10">
-                  <h4 className="font-bold text-red-900 text-base mb-4">Red Flags List: Illegal Collection Practices</h4>
+                  <h3 className="font-bold text-red-900 text-base mb-4">Red Flags List: Illegal Collection Practices</h3>
                   <ul className="list-disc pl-5 space-y-3 text-red-800">
                     <li>Calling you outside the legally permitted window of 8:00 AM to 7:00 PM.</li>
                     <li>Using profanity, abusive language, or shouting during telephone conversations.</li>
@@ -310,7 +310,7 @@ export default function PunishmentForNonPaymentClient() {
                 </p>
                 
                 <div className="bg-gray-900 p-8 rounded-3xl text-white shadow-lg my-12">
-                  <h4 className="font-bold text-yellow-400 text-base mb-6 border-b border-gray-700 pb-2">Legal Process Map: The Anatomy of Bank Action</h4>
+                  <h3 className="font-bold text-yellow-400 text-base mb-6 border-b border-gray-700 pb-2">Legal Process Map: The Anatomy of Bank Action</h3>
                   <div className="space-y-6">
                     <div className="flex">
                       <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold mr-4">1</div>
@@ -363,7 +363,7 @@ export default function PunishmentForNonPaymentClient() {
                 
                 <div className="bg-white border-2 border-gray-200 p-8 rounded-2xl my-10 shadow-sm relative overflow-hidden">
                   <div className="absolute top-0 right-0 bg-blue-100 text-blue-800 font-bold px-4 py-1 rounded-bl-xl text-sm">Truth Bomb</div>
-                  <h4 className="font-bold text-gray-900 text-base mb-4">Myth vs Fact: The Debt Collection Reality</h4>
+                  <h3 className="font-bold text-gray-900 text-base mb-4">Myth vs Fact: The Debt Collection Reality</h3>
                   <div className="space-y-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 border-b border-gray-100 pb-4">
                       <div>
@@ -463,7 +463,7 @@ export default function PunishmentForNonPaymentClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

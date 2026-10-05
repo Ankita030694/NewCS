@@ -284,7 +284,7 @@ export default function LoanImpactClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -487,13 +487,13 @@ export default function LoanImpactClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="p-6 bg-red-50 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-900 mb-3">Case A: The Rash Settlement</h4>
+                    <h3 className="font-bold text-red-900 mb-3">Case A: The Rash Settlement</h3>
                     <p className="text-sm">
                       Rahul had a 5-lakh personal loan. After losing his job, he missed 4 EMIs. Panicking, he settled with the bank for 2 lakhs without seeking advice. His CIBIL score dropped from 740 to 610. Two years later, when he wanted to buy a home for his family, every bank rejected his application despite his new high-paying job. He is now forced to live in a rented apartment for the next 5 years until the settled status clears.
                     </p>
                   </div>
                   <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                    <h4 className="font-bold text-green-900 mb-3">Case B: The Strategic Negotiation</h4>
+                    <h3 className="font-bold text-green-900 mb-3">Case B: The Strategic Negotiation</h3>
                     <p className="text-sm">
                       Suresh was in a similar situation but reached out to <strong>credsettle</strong>. Instead of a settlement, they negotiated a "Waiver of Penalties" and an "Extension of Tenure." Suresh managed to pay the full principal over an extra 12 months. His status remained "Closed." While his score dipped slightly due to initial missed payments, it bounced back to 780 within 18 months. He successfully secured a home loan at a competitive rate just two years after his financial crisis.
                     </p>
@@ -564,7 +564,7 @@ export default function LoanImpactClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Debt Analysis</h4>
+                <p className="font-bold text-2xl mb-4">Free Debt Analysis</p>
                 <p className="text-blue-100 mb-6 text-sm">Understand exactly how your specific loans are impacting your CIBIL score today.</p>
                 <Link 
                   href="/contact"
@@ -575,7 +575,7 @@ export default function LoanImpactClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Recommended Reads</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Recommended Reads</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

@@ -215,7 +215,7 @@ export default function ShouldIStopPayingEmiClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Content</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Content</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -292,12 +292,12 @@ export default function ShouldIStopPayingEmiClient() {
 
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Downward Spiral of Default
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>The First Missed Payment:</strong> A single missed EMI drops your score significantly. It marks your account with a Days Past Due flag.</li>
                                     <li><strong>The Accumulating Damage:</strong> As you miss the second and third EMIs, the DPD status worsens. The damage accelerates.</li>
@@ -420,7 +420,7 @@ export default function ShouldIStopPayingEmiClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -469,7 +469,7 @@ export default function ShouldIStopPayingEmiClient() {
 
                         {/* Card 1: CTA */}
                         <div className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm text-center flex flex-col items-center">
-                            <h3 className="font-black text-gray-900 text-lg mb-2 tracking-tight">Facing Harassment?</h3>
+                            <p className="font-black text-gray-900 text-lg mb-2 tracking-tight">Facing Harassment?</p>
                             <p className="text-gray-600 text-[13px] mb-3 leading-tight px-1">
                                 We can send an immediate Legal Notice to stop agents today.
                             </p>
@@ -488,7 +488,7 @@ export default function ShouldIStopPayingEmiClient() {
 
                         {/* Card 2: Links */}
                         <div className="bg-gray-50/80 p-4 rounded-2xl border border-gray-100 shadow-sm">
-                            <h4 className="font-black text-gray-900 text-[15px] border-b border-gray-200 pb-2 mb-3">Related Expertise</h4>
+                            <p className="font-black text-gray-900 text-[15px] border-b border-gray-200 pb-2 mb-3">Related Expertise</p>
                             <ul className="space-y-3 text-left font-medium">
                                 <li>
                                     <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-[13px] transition-colors block">

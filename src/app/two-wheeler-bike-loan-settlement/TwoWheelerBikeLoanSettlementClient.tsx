@@ -1031,9 +1031,9 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="font-extrabold text-slate-900 text-sm">
+                  <p className="font-extrabold text-slate-900 text-sm">
                     Ashish Jhangra
-                  </h3>
+                  </p>
                   <p className="text-xs text-[#1886ff] font-semibold">
                     Legal &amp; Debt Resolution Professional
                   </p>
@@ -1059,9 +1059,9 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               <div className="inline-flex p-3 rounded-full bg-white/10 mx-auto">
                 <Phone className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-extrabold leading-snug">
+              <p className="text-lg font-extrabold leading-snug">
                 Facing Illegal Bike Repossession?
-              </h3>
+              </p>
               <p className="text-xs text-white/90 leading-relaxed">
                 Our legal team intervenes swiftly to halt unauthorized recovery visits, issue cease-and-desist notices, and protect your vehicle.
               </p>

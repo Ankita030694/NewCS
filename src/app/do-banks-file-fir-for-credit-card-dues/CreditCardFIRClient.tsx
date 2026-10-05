@@ -186,7 +186,7 @@ export default function CreditCardFIRClient() {
           <div className="lg:w-1/4 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -527,7 +527,7 @@ export default function CreditCardFIRClient() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
                   </svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Protection</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Legal Protection</p>
                 <p className="text-sm text-gray-600 mb-6">Are you facing FIR threats or recovery harassment? Get instant legal support from our experts.</p>
                 <Link 
                   href="/contact"
@@ -549,7 +549,7 @@ export default function CreditCardFIRClient() {
 
               {/* Related Pages Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</p>
                 <div className="space-y-3">
                   <Link href="/loan-settlement" className="block text-sm text-blue-600 hover:font-semibold transition-all">• How to Settle Any Personal Loan</Link>
                   <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:font-semibold transition-all">• Rights against Recovery Agents</Link>
@@ -560,7 +560,7 @@ export default function CreditCardFIRClient() {
 
               {/* Contact Card */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-2xl text-white shadow-lg">
-                <h4 className="font-bold mb-2">Speak to a Lawyer</h4>
+                <p className="font-bold mb-2">Speak to a Lawyer</p>
                 <p className="text-xs opacity-80 mb-4">Immediate assistance for emergency legal situations.</p>
                 <a href="tel:+918800226635" className="flex items-center gap-2 font-bold text-lg">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.47 5.47l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>

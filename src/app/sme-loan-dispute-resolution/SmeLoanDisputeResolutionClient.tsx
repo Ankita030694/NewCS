@@ -282,7 +282,7 @@ export default function SmeLoanDisputeResolutionClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 h-screen overflow-y-auto no-scrollbar pb-24">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Business Masterclass</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Business Masterclass</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -442,7 +442,7 @@ export default function SmeLoanDisputeResolutionClient() {
 
                             <h2 id="msme-case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Case Studies: Real Stories of India’s MSME Loan Victories</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">Case 1: The Forged Signature Defense</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-2">Case 1: The Forged Signature Defense</p>
                                 <p className="text-gray-700 mb-4">
                                     A small logistics company founded in Noida discovered that a "Top-up Loan" of 50 lakhs had been disbursed to their account based on forged signatures of the directors. The money was then immediately transferred out via a fraudulent KYC change.
                                 </p>
@@ -452,7 +452,7 @@ export default function SmeLoanDisputeResolutionClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">Case 2: The Samadhaan Recovery Reset</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-2">Case 2: The Samadhaan Recovery Reset</p>
                                 <p className="text-gray-700 mb-4">
                                     A component manufacturer for the auto industry defaulted on their 5 crore bank loan because their primary buyer (a Tier 1 supplier) hadn’t paid them for 180 days.
                                 </p>
@@ -541,7 +541,7 @@ export default function SmeLoanDisputeResolutionClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">SME Defense</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">SME Defense</p>
                                 <p className="text-sm text-gray-600 mb-6">Professional MSME legal intervention to stop asset seizure and resolve disputes.</p>
                                 <Link
                                     href="/contact"
@@ -553,7 +553,7 @@ export default function SmeLoanDisputeResolutionClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Business Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Business Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/sme-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Dispute Resolution</Link>
                                     <Link href="/best-lawyer-for-msme-personal-loan" className="block text-sm text-blue-600 hover:underline">MSME Personal Loan Help</Link>

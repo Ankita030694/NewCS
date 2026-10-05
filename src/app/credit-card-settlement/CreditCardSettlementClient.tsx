@@ -178,7 +178,7 @@ export default function CreditCardSettlementClient() {
 
                     <aside className="lg:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                             <nav className="space-y-1 text-sm max-h-[70vh] overflow-y-auto pr-2">
                                 {navLinks.map((link) => (
                                     <a
@@ -212,7 +212,7 @@ export default function CreditCardSettlementClient() {
                             </p>
 
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h3 className="font-bold text-gray-900 mb-2">Data Callout: The Rise of Credit Card Defaults</h3>
+                                <p className="font-bold text-gray-900 mb-2">Data Callout: The Rise of Credit Card Defaults</p>
                                 <p className="text-gray-800">
                                     Recent data from financial regulatory bodies indicates that the unsecured credit sector, particularly credit cards, has seen unprecedented growth. Alongside this growth, the non performing asset (NPA) ratio for credit cards has climbed sharply. This surge in defaults has created a massive secondary market for debt collection agencies and, unfortunately, fraudulent settlement consultants. Understanding these market dynamics is crucial because it explains why banks like Yes Bank, HDFC, and SBI are currently more willing to negotiate, yet simultaneously bound by stricter RBI 2026 recovery guidelines (such as the prohibition of calls before 8 AM and after 7 PM).
                                 </p>
@@ -235,7 +235,7 @@ export default function CreditCardSettlementClient() {
                                 Furthermore, the term "settlement" itself carries specific legal weight. It means the bank is agreeing to waive a portion of the principal, interest, or late fees. This waiver is reported directly to the Credit Information Bureau (India) Limited (CIBIL) and other credit bureaus like Experian and Equifax. Your account status is updated from "Standard" to "Settled." This single word acts as a massive red flag to all future lenders. It signals that you are a high risk borrower who has previously caused a financial loss to a bank. This reality must be accepted before you proceed. It is a financial triage, saving you from immediate bankruptcy but requiring significant rehabilitation afterward.
                             </p>
 
-                            <h3 id="when-do-banks-agree" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">When Do Banks Agree to Settle?</h3>
+                            <h2 id="when-do-banks-agree" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">When Do Banks Agree to Settle?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Banks do not entertain settlement requests the moment you miss a single payment. During the first 90 days of delinquency, the bank's primary goal is full recovery. They will deploy their internal collections team to remind you, persuade you, and eventually pressure you into paying the minimum due. It is only after the account crosses the 90 day mark and is officially classified as a Non Performing Asset (NPA) that the window for settlement begins to open. Even then, major institutions like Yes Bank do not publish universal settlement policies; instead, they treat each settlement on a strict case-by-case basis. The bank will first attempt to recover the full amount using third party collection agencies before considering a One-Time Settlement (OTS).
                             </p>
@@ -248,7 +248,7 @@ export default function CreditCardSettlementClient() {
                                 It is a delicate game of chicken. If you show eagerness to settle too early, the bank will demand a higher percentage. If you wait too long, you risk aggressive legal action, such as the filing of a civil suit for recovery or proceedings under the Payment and Settlement Systems Act if a cheque or mandate bounces. Timing your settlement proposal is an art that requires patience and a clear understanding of the bank's internal NPA cycle.
                             </p>
 
-                            <h3 id="hidden-costs" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">The Hidden Costs You Aren't Told About</h3>
+                            <h2 id="hidden-costs" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">The Hidden Costs You Aren't Told About</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A settlement offer of "pay 50% of your outstanding" often sounds appealing until you realize what constitutes the "outstanding" amount. By the time an account reaches the settlement stage, the original principal balance has usually ballooned due to exorbitant late payment fees, over limit charges, and compounding interest rates that can exceed 40% annually. The bank will often calculate the settlement percentage based on this inflated figure, not your original principal. This is the first hidden cost.
                             </p>
@@ -267,7 +267,7 @@ export default function CreditCardSettlementClient() {
                             </p>
 
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
-                                <h3 className="font-bold text-gray-900 mb-4">Red Flags List: Spotting the Scammers</h3>
+                                <p className="font-bold text-gray-900 mb-4">Red Flags List: Spotting the Scammers</p>
                                 <ul className="space-y-4 text-gray-800 list-disc pl-6">
                                     <li><strong>Guaranteed CIBIL Repair:</strong> Anyone promising to "erase" the settlement from your CIBIL report or boost your score instantly is lying. CIBIL records are factual and legally mandated; they cannot be altered by third party agencies.</li>
                                     <li><strong>Refusal to Put Promises in Writing:</strong> If an agency or a bank recovery agent promises a specific settlement amount over the phone but refuses to send an official letter on bank letterhead from a corporate email domain, it is a trap.</li>
@@ -276,7 +276,7 @@ export default function CreditCardSettlementClient() {
                                 </ul>
                             </div>
 
-                            <h3 id="unrealistic-promises" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Unrealistic Promises (The "7-Day" Myth)</h3>
+                            <h2 id="unrealistic-promises" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Unrealistic Promises (The "7-Day" Myth)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most common scam tactics is the promise of a lightning fast resolution. Advertisements claiming "Settle your credit card in 7 days" or "Instant Debt Relief" are universally false. The internal bureaucracy of a major Indian bank moves slowly. A settlement proposal must pass through multiple levels of approval, from the field recovery officer to the regional collections manager, and sometimes up to a central credit committee. This process inherently takes time, often several weeks to a few months.
                             </p>
@@ -289,7 +289,7 @@ export default function CreditCardSettlementClient() {
                                 A realistic timeline for a complex credit card settlement, from the initial proposal submission to the receipt of the final No Dues Certificate, is typically between 45 to 90 days. During this period, there will be multiple rounds of negotiation, document verification, and internal bank approvals. Anyone circumventing this timeline is likely bypassing the legitimate banking process altogether.
                             </p>
 
-                            <h3 id="upfront-fee-demands" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Upfront Fee Demands</h3>
+                            <h2 id="upfront-fee-demands" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">Upfront Fee Demands</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The most glaring red flag of a debt settlement scam is the demand for a massive upfront fee before any services are rendered or any settlement is agreed upon. Fraudulent agencies will claim this fee is necessary for "file initiation," "legal retainer," or "priority processing." They will assure you that this fee is fully refundable if they fail, but getting that refund is virtually impossible.
                             </p>
@@ -308,7 +308,7 @@ export default function CreditCardSettlementClient() {
                             </p>
 
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200 mb-6">
-                                <h3 className="font-bold text-gray-900 mb-4">Timeline: The Settlement Lifecycle</h3>
+                                <p className="font-bold text-gray-900 mb-4">Timeline: The Settlement Lifecycle</p>
                                 <div className="space-y-4">
                                     <div className="flex border-l-4 border-blue-500 pl-4 py-2">
                                         <div className="w-24 font-bold text-blue-700">Days 1-90</div>
@@ -462,7 +462,7 @@ export default function CreditCardSettlementClient() {
                                 alt="Rahul Verma - Legal Expert" 
                                 className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md object-cover"
                             />
-                            <h3 className="font-bold text-gray-900 text-lg">Rahul Verma</h3>
+                            <p className="font-bold text-gray-900 text-lg">Rahul Verma</p>
                             <p className="text-blue-600 text-sm font-semibold mb-4">Consumer Debt Specialist</p>
                             <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                                 Rahul specializes in consumer debt protection and financial dispute resolution. With over 10 years of experience navigating the Indian banking sector, he helps borrowers secure legally binding settlements and defend against recovery harassment.

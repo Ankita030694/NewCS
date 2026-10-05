@@ -180,7 +180,7 @@ export default function MorphedImagesClient() {
                 
                 <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                     <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                        <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</h3>
+                        <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</p>
                         <nav className="space-y-1 text-sm">
                             {navLinks.map((link) => (
                                 <a
@@ -233,7 +233,7 @@ export default function MorphedImagesClient() {
 
                         {/* SECTION TYPE: Data Callout */}
                         <div className="bg-blue-900 text-white p-8 rounded-2xl mb-8 shadow-lg">
-                            <h4 className="font-bold text-2xl mb-6 border-b border-blue-700 pb-2">Digital Extortion Landscape 2025</h4>
+                            <p className="font-bold text-2xl mb-6 border-b border-blue-700 pb-2">Digital Extortion Landscape 2025</p>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 <div className="text-center p-4 bg-blue-800 rounded-xl border border-blue-700">
                                     <div className="text-4xl font-extrabold text-yellow-400 mb-2">90%</div>
@@ -263,7 +263,7 @@ export default function MorphedImagesClient() {
 
                         {/* SECTION TYPE: Step Checklist */}
                         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 mb-8 shadow-sm">
-                            <h4 className="font-bold text-xl text-slate-800 mb-4">Immediate Containment Protocol</h4>
+                            <h3 className="font-bold text-xl text-slate-800 mb-4">Immediate Containment Protocol</h3>
                             <ul className="space-y-4">
                                 <li className="flex items-start">
                                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center border border-blue-300 mt-0.5">
@@ -329,12 +329,12 @@ export default function MorphedImagesClient() {
 
                         {/* SECTION TYPE: Legal Process Map */}
                         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 mb-8 shadow-sm">
-                            <h4 className="font-bold text-xl text-slate-800 mb-4">Dual Escalation Framework</h4>
+                            <h3 className="font-bold text-xl text-slate-800 mb-4">Dual Escalation Framework</h3>
                             <div className="space-y-4">
                                 <div className="flex items-start">
                                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-1">1</div>
                                     <div className="ml-4">
-                                        <h5 className="font-bold text-lg text-slate-800">National Cyber Crime Portal</h5>
+                                        <h3 className="font-bold text-lg text-slate-800">National Cyber Crime Portal</h3>
                                         <p className="text-slate-600">Register a formal complaint on cybercrime.gov.in. Categorize the complaint under cyberbullying, harassment, and extortion. Upload all screenshots, phone numbers, and payment details. Generate and save the acknowledgment number for future reference.</p>
                                     </div>
                                 </div>
@@ -342,7 +342,7 @@ export default function MorphedImagesClient() {
                                 <div className="flex items-start">
                                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-1">2</div>
                                     <div className="ml-4">
-                                        <h5 className="font-bold text-lg text-slate-800">Local Police Station FIR</h5>
+                                        <h3 className="font-bold text-lg text-slate-800">Local Police Station FIR</h3>
                                         <p className="text-slate-600">Visit your local police station with a printed copy of your complaint citing the specific IT Act and IPC sections. Insist on filing a First Information Report (FIR). If the local station refuses, escalate to the office of the Commissioner of Police or the specialized Cyber Crime Branch.</p>
                                     </div>
                                 </div>
@@ -350,7 +350,7 @@ export default function MorphedImagesClient() {
                                 <div className="flex items-start">
                                     <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0 mt-1">3</div>
                                     <div className="ml-4">
-                                        <h5 className="font-bold text-lg text-slate-800">RBI Sachet Portal</h5>
+                                        <h3 className="font-bold text-lg text-slate-800">RBI Sachet Portal</h3>
                                         <p className="text-slate-600">If the entity claims to be a registered NBFC, file a complaint on the RBI Sachet portal (sachet.rbi.org.in). The RBI uses this data to identify and blacklist rogue digital lenders, permanently shutting down their payment gateways and app store listings.</p>
                                     </div>
                                 </div>
@@ -415,7 +415,7 @@ export default function MorphedImagesClient() {
                                     className="w-full h-full object-cover"
                                 />
                             </div>
-                            <h3 className="font-bold text-xl text-gray-900 mb-1">Rahul Verma</h3>
+                            <p className="font-bold text-xl text-gray-900 mb-1">Rahul Verma</p>
                             <p className="text-sm font-semibold text-blue-600 mb-3">Senior Legal Strategist</p>
                             <p className="text-gray-600 text-sm leading-relaxed mb-4">
                                 Specializing in consumer rights, debt settlement negotiation, and protection against illegal recovery harassment. Dedicated to empowering borrowers with actionable legal frameworks.

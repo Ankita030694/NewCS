@@ -211,7 +211,7 @@ export default function DigitalLendingClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Digital Debt Kit</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Digital Debt Kit</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -310,7 +310,7 @@ export default function DigitalLendingClient() {
                                 Digital fraud is rampant. Scammers often pose as fintech recovery agents and offer "Fake Settlements" via WhatsApp.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light text-gray-700">
-                                <h4 className="font-bold mb-4">Verification Checklist for Digital Settlements:</h4>
+                                <p className="font-bold mb-4">Verification Checklist for Digital Settlements:</p>
                                 <ul className="space-y-3">
                                     <li><strong>The Source:</strong> Ensure the offer email comes from the official domain (e.g., info@credsettle.com).</li>
                                     <li><strong>The QR Code:</strong> Most legitimate settlement letters in 2025 have a QR code. Scan it and ensure it leads to the lender’s secure portal.</li>
@@ -333,7 +333,7 @@ export default function DigitalLendingClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -383,7 +383,7 @@ export default function DigitalLendingClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Fintech Guard</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Fintech Guard</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop digital loan harassment. We use RBI’s 2025 Fair Practice codes to shield you and negotiate a legal settlement with any DLA/NBFC.</p>
                                 <Link
                                     href="/contact"
@@ -400,7 +400,7 @@ export default function DigitalLendingClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms" className="block text-sm text-blue-600 hover:underline">Verify digital offers</Link>
                                     <Link href="/services/credit-card-settlement" className="block text-sm text-blue-600 hover:underline">Credit Card Settlement</Link>

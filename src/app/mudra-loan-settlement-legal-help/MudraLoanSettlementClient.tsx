@@ -287,10 +287,10 @@ export default function MudraLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-6 flex items-center gap-2 border-b pb-2">
+                            <p className="font-bold text-gray-900 mb-6 flex items-center gap-2 border-b pb-2">
                                 <TableOfContents className="w-5 h-5 text-blue-600" />
                                 Guide Outline
-                            </h3>
+                            </p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -308,7 +308,7 @@ export default function MudraLoanSettlementClient() {
                         </div>
 
                         <div className="mt-8 p-8 bg-slate-950 rounded-3xl text-white shadow-xl shadow-slate-200">
-                            <h4 className="text-xl font-bold mb-4 tracking-tight leading-tight">Expert MSME Case Review</h4>
+                            <p className="text-xl font-bold mb-4 tracking-tight leading-tight">Expert MSME Case Review</p>
                             <p className="text-slate-300 text-sm mb-6 leading-relaxed">
                                 Get a detailed legal analysis of your Mudra loan status within 24 hours.
                             </p>
@@ -343,11 +343,11 @@ export default function MudraLoanSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 not-prose">
                                 <div className="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Extended Moratorium</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Extended Moratorium</p>
                                     <p className="text-sm text-gray-600">RBI has encouraged banks to offer extended moratorium periods for Mudra borrowers who have suffered due to regional economic shifts in 2026.</p>
                                 </div>
                                 <div className="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Digital Settlement Portals</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Digital Settlement Portals</p>
                                     <p className="text-sm text-gray-600">Major banks like SBI and PNB have launched AI-driven settlement portals, but these often bypass the borrower’s right to negotiate a higher waiver.</p>
                                 </div>
                             </div>
@@ -359,13 +359,13 @@ export default function MudraLoanSettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Not all Mudra loans are treated equally in a settlement negotiation. The "Category DNA" determines the bank’s willingness to grant a waiver.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">1. Shishu (Up to ₹50,000)</h4>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">1. Shishu (Up to ₹50,000)</h3>
                             <p className="text-gray-700 mb-6">Banks often treat Shishu loans as "Social Lending." If you are facing extreme poverty, many PSU banks have a "Simplified Write-off" policy for Shishu loans. Legal help ensures that your Shishu settlement does not result in a 'Willful Defaulter' tag.</p>
 
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">2. Kishor (₹50,001 to ₹5 Lakh)</h4>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">2. Kishor (₹50,001 to ₹5 Lakh)</h3>
                             <p className="text-gray-700 mb-6">Kishor loans are the most common in India. Settlement here usually requires a "Hardship Proof" (e.g., business closure certificate, medical bills). Our team helps you document this proof to secure a 40-60% waiver.</p>
 
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">3. Tarun & Tarun Plus (₹5 Lakh to ₹20 Lakh)</h4>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">3. Tarun & Tarun Plus (₹5 Lakh to ₹20 Lakh)</h3>
                             <p className="text-gray-700 mb-10">These are technical business loans. The bank will likely review your GST filings and bank statements for the last 3 years before agreeing to a settlement. If you are a Tarun Plus borrower, the presence of a lawyer is mandatory to counter the bank’s aggressive legal department.</p>
 
                             <h2 id="rbi-settlement-norms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 4: RBI Settlement Norms for MSMEs in 2026</h2>
@@ -373,7 +373,7 @@ export default function MudraLoanSettlementClient() {
                                 The RBI’s 2026 **Fair Lending Conduct** norms prohibit banks from charging penal interest on top of penal interest. For Mudra loans specifically, the "Technical Write-off" policy has been redefined.
                             </p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-10 not-prose">
-                                <h4 className="text-lg font-bold mb-4 text-blue-900">The "Sacrifice" Matrix:</h4>
+                                <h3 className="text-lg font-bold mb-4 text-blue-900">The "Sacrifice" Matrix:</h3>
                                 <ul className="list-disc pl-6 space-y-3 font-light text-gray-700 italic">
                                     <li><strong>Principal Waiver:</strong> Allowed if the business is non-operational for 12+ months.</li>
                                     <li><strong>Interest Waiver:</strong> 100% waiver of penal interest is a borrower’s right under the 2026 MSME framework.</li>
@@ -388,7 +388,7 @@ export default function MudraLoanSettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Despite strict RBI regulations, Mudra loan recovery remains aggressive. Agents often target micro-borrowers who are unaware of their legal rights.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">What counts as illegal harassment in 2026?</h4>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">What counts as illegal harassment in 2026?</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 not-prose">
                                 <div className="flex items-start gap-3 p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
                                     <CheckCircle2 className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
@@ -415,26 +415,26 @@ export default function MudraLoanSettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A One-Time Settlement (OTS) is a chess game. You cannot simply ask for one; you must prove that the bank’s alternative (litigation) is more expensive and less fruitful than your offer.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">Our 4-Step Mudra Settlement Process:</h4>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">Our 4-Step Mudra Settlement Process:</h3>
                             <div className="space-y-6 mb-10 not-prose">
                                 <div className="relative pl-12">
                                     <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
-                                    <h5 className="font-bold text-slate-950 mb-1 text-lg">Financial Autopsy</h5>
+                                    <h3 className="font-bold text-slate-950 mb-1 text-lg">Financial Autopsy</h3>
                                     <p className="text-sm text-gray-600">We analyze your business cash flow and bank statements to create a "Genuine Financial Inability" report.</p>
                                 </div>
                                 <div className="relative pl-12">
                                     <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
-                                    <h5 className="font-bold text-slate-950 mb-1 text-lg">Legal Notice (Fairness Request)</h5>
+                                    <h3 className="font-bold text-slate-950 mb-1 text-lg">Legal Notice (Fairness Request)</h3>
                                     <p className="text-sm text-gray-600">Instead of a begging letter, we send a legal notice citing MSME rights and asking for the Board-Approved OTS policy.</p>
                                 </div>
                                 <div className="relative pl-12">
                                     <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
-                                    <h5 className="font-bold text-slate-950 mb-1 text-lg">Verification of Haircut</h5>
+                                    <h3 className="font-bold text-slate-950 mb-1 text-lg">Verification of Haircut</h3>
                                     <p className="text-sm text-gray-600">We ensure the waiver applies to the principal as well as interest, targeting a 50-70% total debt reduction.</p>
                                 </div>
                                 <div className="relative pl-12">
                                     <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
-                                    <h5 className="font-bold text-slate-950 mb-1 text-lg">Closure Legality</h5>
+                                    <h3 className="font-bold text-slate-950 mb-1 text-lg">Closure Legality</h3>
                                     <p className="text-sm text-gray-600">We validate the 'No Dues Certificate' to ensure it mentions the account as 'Settled' with no balance remaining for future collection.</p>
                                 </div>
                             </div>
@@ -444,7 +444,7 @@ export default function MudraLoanSettlementClient() {
                                 A major concern for Mudra borrowers is: "Can I ever take a loan again?" In 2026, CIBIL reporting has become real-time. A settlement will be reported within 15 days of your final payment.
                             </p>
                             <div className="p-8 bg-indigo-50 rounded-3xl mb-10 not-prose border border-indigo-100 font-serif">
-                                <h4 className="text-xl font-bold text-indigo-950 mb-4 tracking-tighter uppercase italic underline decoration-indigo-200">The CIBIL Transformation Journey (2026-27):</h4>
+                                <h3 className="text-xl font-bold text-indigo-950 mb-4 tracking-tighter uppercase italic underline decoration-indigo-200">The CIBIL Transformation Journey (2026-27):</h3>
                                 <ol className="list-decimal pl-6 space-y-4 font-medium text-slate-800">
                                     <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 1: Verification (Days 1-15)</strong> - We verify the 'No Dues Certificate' is accurately reflected in the bank’s internal portal before they report to bureaus.</li>
                                     <li><strong className="text-indigo-900 uppercase tracking-tighter">Phase 2: Bureau Update (Days 15-45)</strong> - We verify the account is marked 'Settled' across all 4 credit bureaus (CIBIL, Experian, Equifax, CRIF). If 'Written-off' is mentioned, we file a Data Inaccuracy dispute.</li>
@@ -458,7 +458,7 @@ export default function MudraLoanSettlementClient() {
                                 The evolution of PMMY into the **Mudra 2.0** framework in 2026 has changed the risk profile of Kishor and Tarun loans. With the ceiling now at ₹20 Lakhs, banks are no longer treating these as 'priority sector write-offs' but as technical commercial debts.
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] shadow-2xl mb-10 not-prose border-4 border-blue-600/20">
-                                <h4 className="text-2xl font-black mb-6 text-blue-400 italic uppercase tracking-widest text-center">Settlement Probability by Category:</h4>
+                                <h3 className="text-2xl font-black mb-6 text-blue-400 italic uppercase tracking-widest text-center">Settlement Probability by Category:</h3>
                                 <div className="space-y-6">
                                     <div className="flex justify-between items-center border-b border-white/10 pb-4">
                                         <span className="font-bold uppercase tracking-tighter">Shishu (Up to ₹50k)</span>
@@ -489,12 +489,12 @@ export default function MudraLoanSettlementClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 not-prose">
                                 <div className="p-8 bg-white border-2 border-slate-900 rounded-[2rem] shadow-xl hover:bg-slate-50 transition-colors group">
                                     <Building2 className="w-12 h-12 text-blue-600 mb-6 group-hover:rotate-12 transition-transform" />
-                                    <h5 className="text-xl font-bold text-slate-950 mb-4 uppercase tracking-tighter">Section 45: Priority Rights</h5>
+                                    <h3 className="text-xl font-bold text-slate-950 mb-4 uppercase tracking-tighter">Section 45: Priority Rights</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">Under the 2026 MSME Priority Lending guidelines, banks MUST offer a restructuring window before marking an account as a 'Wilful Defaulter.' We leverage this to force a settlement dialogue.</p>
                                 </div>
                                 <div className="p-8 bg-white border-2 border-slate-900 rounded-[2rem] shadow-xl hover:bg-slate-50 transition-colors group">
                                     <Scale className="w-12 h-12 text-blue-600 mb-6 group-hover:-rotate-12 transition-transform" />
-                                    <h5 className="text-xl font-bold text-slate-950 mb-4 uppercase tracking-tighter">Ombudsman Counter-Claim</h5>
+                                    <h3 className="text-xl font-bold text-slate-950 mb-4 uppercase tracking-tighter">Ombudsman Counter-Claim</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">If the bank has charged 'Compound Interest' on your Mudra loan (which is prohibited for micro-units), we file a refund claim that often offsets the principal owed.</p>
                                 </div>
                             </div>
@@ -507,10 +507,10 @@ export default function MudraLoanSettlementClient() {
                                 Many borrowers settle their Mudra loans only to receive recovery notices 3 years later from independent debt collection agencies. This happens because the bank didn’t truly 'Close' the loan but only 'Settled' it in their internal records.
                             </p>
                             <div className="bg-amber-50 p-8 rounded-3xl border border-amber-200 mb-10 not-prose">
-                                <h4 className="text-lg font-black text-amber-900 mb-4 uppercase tracking-widest italic flex items-center gap-3">
+                                <h3 className="text-lg font-black text-amber-900 mb-4 uppercase tracking-widest italic flex items-center gap-3">
                                     <ShieldCheck className="w-6 h-6" />
                                     The CredSettle Closure Checklist:
-                                </h4>
+                                </h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-3">
                                         <div className="p-1 bg-amber-200 rounded-full mt-1"></div>
@@ -542,14 +542,14 @@ export default function MudraLoanSettlementClient() {
                                 <div className="p-6 bg-white rounded-2xl border border-slate-100 shadow-sm flex gap-4">
                                     <Gavel className="w-8 h-8 text-blue-600 shrink-0" />
                                     <div>
-                                        <h5 className="font-bold text-slate-900 text-lg">MSME Samadhaan Filing</h5>
+                                        <h3 className="font-bold text-slate-900 text-lg">MSME Samadhaan Filing</h3>
                                         <p className="text-sm text-gray-600">If your default is because your own buyers haven’t paid you, we file a case on the MSME Samadhaan portal to recover your funds first.</p>
                                     </div>
                                 </div>
                                 <div className="p-6 bg-white rounded-2xl border border-slate-100 shadow-sm flex gap-4">
                                     <Scale className="w-8 h-8 text-blue-600 shrink-0" />
                                     <div>
-                                        <h5 className="font-bold text-slate-900 text-lg">Challenging the NPA Classification</h5>
+                                        <h3 className="font-bold text-slate-900 text-lg">Challenging the NPA Classification</h3>
                                         <p className="text-sm text-gray-600">Often, banks incorrectly mark Mudra accounts as NPA before the 90-day period. This is a procedural flaw we use to stay any recovery action.</p>
                                     </div>
                                 </div>
@@ -563,7 +563,7 @@ export default function MudraLoanSettlementClient() {
                                 A common oversight in Mudra loan settlements is the **Tax treatment of the waived amount**. Under the Income Tax Act (and relevant 2026 GST clarifications), a waiver of a business loan can sometimes be treated as 'Deemed Income' under Section 28(iv).
                             </p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-10 not-prose">
-                                <h4 className="text-lg font-bold mb-4">The MSME Tax Shield:</h4>
+                                <h3 className="text-lg font-bold mb-4">The MSME Tax Shield:</h3>
                                 <ul className="list-disc pl-6 space-y-3 font-light text-gray-700 italic">
                                     <li><strong>Capital vs Revenue Receipt:</strong> If the Mudra loan was used for 'Capital Assets' (like machinery for a Kishor loan), the waiver may not be taxable. We provide a legal certificate to your CA to ensure you don’t get a huge tax bill post-settlement.</li>
                                     <li><strong>GST on Legal Fees:</strong> Banks often try to charge 18% GST on the settlement amount itself. This is illegal. GST is only applicable on processing fees, not on the principal or interest waiver.</li>
@@ -632,7 +632,7 @@ export default function MudraLoanSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Mudra Debt Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Mudra Debt Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every small business deserves a second chance. Start your legal settlement process today.</p>
                                 <Link
                                     href="/contact"
@@ -649,7 +649,7 @@ export default function MudraLoanSettlementClient() {
 
                             {/* Related Links */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/sme-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Dispute Help</Link>
                                     <Link href="/working-capital-loan-legal-help" className="block text-sm text-blue-600 hover:underline">Working Capital Help</Link>

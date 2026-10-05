@@ -162,7 +162,7 @@ export default function NriLoanDefaultClient() {
           <div className="lg:w-1/4 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -367,22 +367,22 @@ export default function NriLoanDefaultClient() {
                       <div className="relative border-l-4 border-blue-600 pl-8 space-y-12 py-4">
                         <div className="relative">
                           <span className="absolute -left-11 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">1</span>
-                          <h4 className="text-xl font-bold text-black mb-2">Issue a Formal Legal Notice (BNS 2023)</h4>
+                          <h3 className="text-xl font-bold text-black mb-2">Issue a Formal Legal Notice (BNS 2023)</h3>
                           <p className="text-black">An authorized legal advocate dispatches a formal cease-and-desist notice to the bank's Principal Nodal Officer and recovery head. The notice cites the RBI Fair Practices Code and statutory criminal intimidation under Sections 351 & 352 of the Bharatiya Nyaya Sanhita (BNS) 2023 (replacing IPC 503/506) and Section 308 BNS (extortion).</p>
                         </div>
                         <div className="relative">
                           <span className="absolute -left-11 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">2</span>
-                          <h4 className="text-xl font-bold text-black mb-2">File an RBI Ombudsman Complaint (July 2026 Directives)</h4>
+                          <h3 className="text-xl font-bold text-black mb-2">File an RBI Ombudsman Complaint (July 2026 Directives)</h3>
                           <p className="text-black">If calls persist, an escalation is lodged on the RBI Banking Ombudsman (CMS Portal). Under the July 2026 Master Guidelines, contacting family members or calling outside 8:00 AM – 7:00 PM constitutes a severe regulatory violation, exposing the bank to institutional penalties of up to ₹20 Lakhs per proven offense.</p>
                         </div>
                         <div className="relative">
                           <span className="absolute -left-11 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">3</span>
-                          <h4 className="text-xl font-bold text-black mb-2">Local Police Intervention</h4>
+                          <h3 className="text-xl font-bold text-black mb-2">Local Police Intervention</h3>
                           <p className="text-black">In extreme cases, a police complaint (NC or FIR) is filed at the local police station where the parents reside, citing harassment and disturbance of peace. A copy of this complaint is sent to the bank, which usually halts all field visits immediately.</p>
                         </div>
                         <div className="relative">
                           <span className="absolute -left-11 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">4</span>
-                          <h4 className="text-xl font-bold text-black mb-2">Channelize Communication</h4>
+                          <h3 className="text-xl font-bold text-black mb-2">Channelize Communication</h3>
                           <p className="text-black">The legal advocate formally assumes the role of the authorized representative. The bank is legally mandated to direct all future correspondence and negotiations exclusively to the advocate, entirely shielding the family.</p>
                         </div>
                       </div>
@@ -453,7 +453,7 @@ export default function NriLoanDefaultClient() {
                           {review.name.charAt(0)}
                         </div>
                         <div>
-                          <h4 className="font-bold text-black text-sm">{review.name}</h4>
+                          <p className="font-bold text-black text-sm">{review.name}</p>
                           <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
                         </div>
                       </div>
@@ -488,7 +488,7 @@ export default function NriLoanDefaultClient() {
                   className="object-cover object-top" 
                 />
               </div>
-              <h3 className="text-2xl font-bold text-black mb-1">Ashish Jhangra</h3>
+              <p className="text-2xl font-bold text-black mb-1">Ashish Jhangra</p>
               <p className="text-[#007AFF] font-bold uppercase tracking-wider text-xs mb-3">Legal &amp; Debt Resolution Professional</p>
               <p className="text-gray-700 text-xs leading-relaxed mb-5">
                 Specialist in cross-border loan negotiations, RBI borrower protection frameworks, and remote settlement execution for Non-Resident Indians. Ashish advises clients on complex NPA disputes with Indian banks.

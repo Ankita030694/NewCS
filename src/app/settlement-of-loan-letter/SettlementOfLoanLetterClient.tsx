@@ -161,7 +161,7 @@ export default function SettlementOfLoanLetterClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -235,7 +235,7 @@ export default function SettlementOfLoanLetterClient() {
                 </p>
 
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 my-10">
-                  <h4 className="font-bold text-red-900 text-base mb-6 border-b border-red-200 pb-2">Red Flags List: Fatal Errors in Settlement Drafting</h4>
+                  <h3 className="font-bold text-red-900 text-base mb-6 border-b border-red-200 pb-2">Red Flags List: Fatal Errors in Settlement Drafting</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-red-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -288,7 +288,7 @@ export default function SettlementOfLoanLetterClient() {
 
                 <div className="my-12 bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 overflow-hidden">
                   <div className="bg-blue-600 p-6 text-white">
-                    <h4 className="font-bold text-lg m-0">Step Checklist: Preparing Your Proposal</h4>
+                    <h3 className="font-bold text-lg m-0">Step Checklist: Preparing Your Proposal</h3>
                   </div>
                   <div className="p-8">
                     <div className="flex mb-8">
@@ -297,7 +297,7 @@ export default function SettlementOfLoanLetterClient() {
                         <div className="w-px bg-gray-200 h-full mt-2"></div>
                       </div>
                       <div className="pb-8">
-                        <h5 className="font-bold text-gray-900 text-base mb-2">Secure the Settlement Funds</h5>
+                        <h3 className="font-bold text-gray-900 text-base mb-2">Secure the Settlement Funds</h3>
                         <p className="text-gray-700">Before typing a single word, verify that your proposed lump sum amount is sitting safely in a bank account. If you offer two lakh rupees, you must have two lakh rupees ready to transfer the moment the bank issues the NOC. Borrowing from relatives or liquidating small assets must happen before the negotiation, not after.</p>
                       </div>
                     </div>
@@ -307,7 +307,7 @@ export default function SettlementOfLoanLetterClient() {
                         <div className="w-px bg-gray-200 h-full mt-2"></div>
                       </div>
                       <div className="pb-8">
-                        <h5 className="font-bold text-gray-900 text-base mb-2">Determine the Right Department</h5>
+                        <h3 className="font-bold text-gray-900 text-base mb-2">Determine the Right Department</h3>
                         <p className="text-gray-700">Sending your letter to generic customer care emails will result in automated replies. You must identify the Grievance Redressal Officer, the Nodal Officer, or the specific debt resolution email for your lending institution. This ensures your proposal reaches decision makers, not entry level call center agents.</p>
                       </div>
                     </div>
@@ -316,7 +316,7 @@ export default function SettlementOfLoanLetterClient() {
                         <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-base shadow-sm z-10 border border-blue-200">3</div>
                       </div>
                       <div>
-                        <h5 className="font-bold text-gray-900 text-base mb-2">Compile Hardship Evidence</h5>
+                        <h3 className="font-bold text-gray-900 text-base mb-2">Compile Hardship Evidence</h3>
                         <p className="text-gray-700">Gather every document that proves your insolvency. If you lost your job, obtain the termination letter and bank statements showing zero salary credits. If you suffered a medical crisis, compile the discharge summaries and pharmacy bills. Scan these into a single, neat PDF file.</p>
                       </div>
                     </div>
@@ -446,26 +446,26 @@ Sincerely,
                 </p>
 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base mb-6 border-b border-blue-100 pb-2">Legal Process Map: The Resolution Trajectory</h4>
+                  <h3 className="font-bold text-blue-900 text-base mb-6 border-b border-blue-100 pb-2">Legal Process Map: The Resolution Trajectory</h3>
                   <div className="relative border-l-4 border-blue-200 ml-6 pl-8 space-y-10 py-4">
                     <div className="relative">
                       <div className="absolute -left-[44px] bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">1</div>
-                      <h5 className="font-bold text-gray-900 text-lg mb-2">The Evaluation Phase</h5>
+                      <h3 className="font-bold text-gray-900 text-lg mb-2">The Evaluation Phase</h3>
                       <p className="text-gray-700 text-base">Upon receipt, the settlement department evaluates your account age, loan type, and hardship evidence. If the account is an NPA and the hardship is verified, the file moves to the negotiation tier. If the account is too fresh (under 90 days), they will reject it and resume aggressive collections.</p>
                     </div>
                     <div className="relative">
                       <div className="absolute -left-[44px] bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">2</div>
-                      <h5 className="font-bold text-gray-900 text-lg mb-2">The Counter Offer</h5>
+                      <h3 className="font-bold text-gray-900 text-lg mb-2">The Counter Offer</h3>
                       <p className="text-gray-700 text-base">The bank contacts you, usually by phone, stating they cannot accept your offer of 25 percent of the outstanding balance. They will propose a counter offer, typically demanding 75 percent or 80 percent. They will use aggressive tactics, claiming legal action is imminent if you refuse.</p>
                     </div>
                     <div className="relative">
                       <div className="absolute -left-[44px] bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">3</div>
-                      <h5 className="font-bold text-gray-900 text-lg mb-2">The Deadlock and Compromise</h5>
+                      <h3 className="font-bold text-gray-900 text-lg mb-2">The Deadlock and Compromise</h3>
                       <p className="text-gray-700 text-base">You must firmly reject their high counter offer, reiterating your exact lump sum limit. This leads to a deadlock. Over the next few weeks, as month end targets approach for the bank executives, they will lower their demand. A compromise is usually struck between 40 percent to 60 percent of the total outstanding amount.</p>
                     </div>
                     <div className="relative">
                       <div className="absolute -left-[44px] bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shadow-md">4</div>
-                      <h5 className="font-bold text-gray-900 text-lg mb-2">Official Sanction and NOC</h5>
+                      <h3 className="font-bold text-gray-900 text-lg mb-2">Official Sanction and NOC</h3>
                       <p className="text-gray-700 text-base">Once a verbal agreement is reached, the bank issues a formal settlement letter. You transfer the funds before the deadline. The bank clears the account and issues a No Objection Certificate. Your CIBIL status is updated to Settled.</p>
                     </div>
                   </div>
@@ -507,7 +507,7 @@ Sincerely,
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate &amp; Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

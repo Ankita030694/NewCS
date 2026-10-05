@@ -227,7 +227,7 @@ export default function CompareProgramsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -510,7 +510,7 @@ export default function CompareProgramsClient() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h3>
                 {faqs.map((faq, index) => (
                   <div key={index} className="bg-gray-50 p-6 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
-                    <h4 className="font-bold text-lg text-gray-900 mb-3">{faq.question}</h4>
+                    <h3 className="font-bold text-lg text-gray-900 mb-3">{faq.question}</h3>
                     <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </div>
                 ))}
@@ -518,7 +518,7 @@ export default function CompareProgramsClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Stop worrying about debt and start living your life again. Connect with CredSettle today for a confidential consultation and a personalized debt relief plan.</p>
                   <Link 
                     href="/contact"
@@ -538,7 +538,7 @@ export default function CompareProgramsClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Expert Debt Help</h4>
+                <p className="font-bold text-2xl mb-4">Expert Debt Help</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing aggressive lenders or high interest debt? Get professional negotiation help today.</p>
                 <Link 
                   href="/contact"
@@ -563,7 +563,7 @@ export default function CompareProgramsClient() {
               </div>
 
               <div id="helpful-resources" className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 font-normal">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

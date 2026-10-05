@@ -258,7 +258,7 @@ export default function TaxImplicationsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Tax Guide Overview</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Tax Guide Overview</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -318,12 +318,12 @@ export default function TaxImplicationsClient() {
 
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Capital vs Revenue Receipt:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Capital Receipt:</strong> A capital receipt generally relates to fixed assets or liabilities. If a loan was taken for personal purposes (like a marriage, vacation, or medical emergency), the receipt of the loan and its subsequent waiver are typically viewed as capital transactions. In the eyes of the tax law, a capital receipt is generally not taxable unless specifically stated otherwise.</li>
                                     <li><strong>Revenue Receipt:</strong> A revenue receipt relates to the day to day operations of a business or profession. If a loan was taken for business purposes, working capital, or trading operations, the waiver of that loan might be treated as a revenue receipt and consequently taxed as income.</li>
@@ -366,11 +366,11 @@ export default function TaxImplicationsClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most confusing aspects of the income tax on loan waiver is differentiating between the principal component and the interest component of the waived amount. The tax treatment for these two elements is distinctly different.
                             </p>
-                            <h5 className="font-bold text-gray-900 text-xl mb-3 mt-4">Waiver of Principal Amount</h5>
+                            <p className="font-bold text-gray-900 text-xl mb-3 mt-4">Waiver of Principal Amount</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 As discussed extensively, if the loan was taken for personal purposes, the waiver of the principal amount is classified as a capital receipt. A capital receipt does not constitute income and is therefore completely exempt from tax. You do not need to report the waived principal as income in your tax returns.
                             </p>
-                            <h5 className="font-bold text-gray-900 text-xl mb-3 mt-4">Waiver of Interest Amount</h5>
+                            <p className="font-bold text-gray-900 text-xl mb-3 mt-4">Waiver of Interest Amount</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The waiver of interest is where many borrowers stumble into a tax trap. The taxability of the waived interest depends entirely on whether you have previously claimed a tax deduction for that interest. Section 41(1) of the Income Tax Act stipulates that if an allowance or deduction has been made in any assessment year for any loss, expenditure, or trading liability, and subsequently the taxpayer obtains some benefit in respect of such trading liability by way of remission or cessation thereof, the value of such benefit shall be deemed to be profits and gains of business or profession and accordingly chargeable to income tax.
                             </p>
@@ -411,7 +411,7 @@ export default function TaxImplicationsClient() {
                                         <span className="font-bold text-blue-600 text-sm">A</span>
                                     </div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 mt-0">The Principal Waiver (₹5 Lakhs)</h5>
+                                        <p className="font-bold text-gray-900 mt-0">The Principal Waiver (₹5 Lakhs)</p>
                                         <p className="text-sm text-gray-600 m-0">The loan was purely for personal consumption (a wedding). It was not used for any business. Therefore, the waiver of the ₹5 Lakhs principal is a capital receipt. It is not taxable. Arun does not need to declare this as income.</p>
                                     </div>
                                 </li>
@@ -420,7 +420,7 @@ export default function TaxImplicationsClient() {
                                         <span className="font-bold text-blue-600 text-sm">B</span>
                                     </div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 mt-0">The Interest Waiver (₹2 Lakhs)</h5>
+                                        <p className="font-bold text-gray-900 mt-0">The Interest Waiver (₹2 Lakhs)</p>
                                         <p className="text-sm text-gray-600 m-0">As a salaried individual, Arun could not and did not claim any tax deduction for the personal loan interest payments in previous years. Because no prior deduction was claimed, the reversal of this liability does not trigger Section 41(1). The ₹2 Lakhs interest waiver is also not taxable.</p>
                                     </div>
                                 </li>
@@ -445,7 +445,7 @@ export default function TaxImplicationsClient() {
                                         <span className="font-bold text-blue-600 text-sm">A</span>
                                     </div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 mt-0">The Interest Waiver (₹2 Lakhs)</h5>
+                                        <p className="font-bold text-gray-900 mt-0">The Interest Waiver (₹2 Lakhs)</p>
                                         <p className="text-sm text-gray-600 m-0">Because Priya previously claimed the interest as a business deduction, the waiver of this ₹2 Lakhs triggers Section 41(1). This amount is now deemed as business profit and is fully taxable in the year of settlement.</p>
                                     </div>
                                 </li>
@@ -454,7 +454,7 @@ export default function TaxImplicationsClient() {
                                         <span className="font-bold text-blue-600 text-sm">B</span>
                                     </div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 mt-0">The Principal Waiver (₹3 Lakhs)</h5>
+                                        <p className="font-bold text-gray-900 mt-0">The Principal Waiver (₹3 Lakhs)</p>
                                         <p className="text-sm text-gray-600 m-0">Since the funds were used entirely for business operations (working capital and assets), the waiver is a benefit arising from business. Under the newly amended Section 28(iv), this ₹3 Lakhs waiver is also considered a taxable business receipt.</p>
                                     </div>
                                 </li>
@@ -578,7 +578,7 @@ export default function TaxImplicationsClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-xs mb-5 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -597,7 +597,7 @@ export default function TaxImplicationsClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-5">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-5">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">

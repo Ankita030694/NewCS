@@ -157,7 +157,7 @@ export default function OnlinePortalSettlementClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -263,7 +263,7 @@ export default function OnlinePortalSettlementClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-green-400">The Anatomy of a Digital Resolution</h4>
+                    <h3 className="text-base font-bold mb-8 text-green-400">The Anatomy of a Digital Resolution</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-green-400">The Subject:</strong> Mr. Anil Kumar, an independent logistics contractor based in Jaipur.</p>
@@ -370,7 +370,7 @@ export default function OnlinePortalSettlementClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Amit Patel Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Amit Patel</h4>
+                <p className="font-bold text-gray-900">Amit Patel</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Digital Resolution Strategist</p>
                 <p className="text-xs text-gray-400">Expert in navigating digital dispute resolution frameworks and online banking negotiations.</p>
               </div>

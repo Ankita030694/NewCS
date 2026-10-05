@@ -241,7 +241,7 @@ export default function StepsToRectifyASuitFiledEntryInCibilACompleteGuideClient
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -289,7 +289,7 @@ export default function StepsToRectifyASuitFiledEntryInCibilACompleteGuideClient
                             
                             {/* Alert Banner 1 */}
                             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8">
-                                <h4 className="text-red-800 font-bold text-lg mb-2">Critical Warning</h4>
+                                <p className="text-red-800 font-bold text-lg mb-2">Critical Warning</p>
                                 <p className="text-red-700 font-normal m-0">
                                     Do not assume that paying your settlement amount automatically clears your legal record. Unless the bank actively withdraws the case from the court and updates CIBIL, the "Suit Filed" status will remain indefinitely, blocking all future credit applications.
                                 </p>
@@ -381,10 +381,10 @@ export default function StepsToRectifyASuitFiledEntryInCibilACompleteGuideClient
                             
                             {/* Checklist Visual Element */}
                             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 mb-10 shadow-sm">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                <p className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                                     <svg className="w-8 h-8 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                                     CIBIL Dispute for Suit Filed Checklist
-                                </h3>
+                                </p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center border border-blue-300 mt-1 mr-4">
@@ -552,7 +552,7 @@ export default function StepsToRectifyASuitFiledEntryInCibilACompleteGuideClient
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">CIBIL Blocked?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">CIBIL Blocked?</p>
                                 <p className="text-sm text-gray-600 mb-6 font-normal">We draft stringent legal notices to force banks to remove the suit filed status.</p>
                                 <Link
                                     href="/contact"
@@ -570,7 +570,7 @@ export default function StepsToRectifyASuitFiledEntryInCibilACompleteGuideClient
 
                             {/* Related Pages (Replaces Author Card) */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-loan-settlement-by-drt" className="block text-sm text-blue-600 hover:underline font-semibold">DRT Settlement Lawyer</Link>
                                     <Link href="/best-lawyer-for-business-loan-settlement" className="block text-sm text-blue-600 hover:underline font-semibold">Business Loan Relief</Link>

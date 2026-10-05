@@ -47,19 +47,19 @@ export default function ClientPage() {
               </h3>
               <div className="space-y-4 my-6">
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                  <h4 className="font-semibold text-[#0C2756]">1. Assess Your Capital Availability</h4>
+                  <h3 className="font-semibold text-[#0C2756]">1. Assess Your Capital Availability</h3>
                   <p className="text-sm text-gray-600 mt-1">
                     Before requesting an offer, ascertain exactly how much lump sum capital you can arrange from personal savings, friends, or family. An offer without payment capacity weakens your negotiating leverage.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                  <h4 className="font-semibold text-[#0C2756]">2. Draft a Formal Hardship Application</h4>
+                  <h3 className="font-semibold text-[#0C2756]">2. Draft a Formal Hardship Application</h3>
                   <p className="text-sm text-gray-600 mt-1">
                     Submit a comprehensive letter to the Bank&apos;s Delinquent Asset Department stating your loan account number, financial hardship reasons, and a concrete proposed settlement amount.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                  <h4 className="font-semibold text-[#0C2756]">3. Demand an Official Letterhead Sanction</h4>
+                  <h3 className="font-semibold text-[#0C2756]">3. Demand an Official Letterhead Sanction</h3>
                   <p className="text-sm text-gray-600 mt-1">
                     Ensure the bank provides an authorized OTS sanction letter detailing the waived amount, payment date, and specific waiver clauses before any deposit is made.
                   </p>
@@ -68,7 +68,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-emerald-950 mb-2">Legal Shield Against Harassment</h4>
+              <h3 className="font-bold text-emerald-950 mb-2">Legal Shield Against Harassment</h3>
               <p className="text-sm text-emerald-800 leading-relaxed">
                 When you initiate an official settlement through CredSettle, our legal notice to the bank immediately halts unauthorized collection agent visits and ensures negotiations are conducted directly with bank officials.
               </p>
@@ -99,7 +99,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Initiate Your Settlement with Professional Advocates</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Initiate Your Settlement with Professional Advocates</h3>
               <p className="mb-4 text-sm text-gray-600">CredSettle prepares and files your formal OTS application with complete legal rigor, maximizing your discount.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Request an OTS Proposal

@@ -120,7 +120,7 @@ export default function SitemapClient({ initialLinks }: SitemapClientProps) {
                   />
                 </svg>
               </div>
-              <h3 className="text-lg font-bold text-gray-800 mb-1">No guides found</h3>
+              <p className="text-lg font-bold text-gray-800 mb-1">No guides found</p>
               <p className="text-sm text-gray-500 max-w-sm mx-auto mb-4">
                 We couldn&apos;t find any query matching &quot;{searchQuery}&quot;. Try a different keyword or clear the search.
               </p>

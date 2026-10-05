@@ -235,7 +235,7 @@ export default function ApplicationToUnblockBankAccountForLoanEmiClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -289,7 +289,7 @@ export default function ApplicationToUnblockBankAccountForLoanEmiClient() {
                             </p>
 
                             <div className="bg-red-50 border-l-8 border-red-600 p-8 rounded-xl shadow-md mb-10">
-                                <h4 className="text-xl font-bold text-red-900 mb-2 uppercase tracking-wide">Critical Legal Alert: The Total Freeze Fallacy</h4>
+                                <p className="text-xl font-bold text-red-900 mb-2 uppercase tracking-wide">Critical Legal Alert: The Total Freeze Fallacy</p>
                                 <p className="text-red-800 font-medium">It is a common intimidation tactic for collections departments to place a complete debit freeze on your salary account for a minor default. This action violates the fundamental principles of proportional recovery and fair practice codes mandated by the central banking authority. Do not accept this as a standard procedure. You have every right to challenge an arbitrary freeze that blocks access to funds exceeding your actual overdue amount.</p>
                             </div>
 
@@ -338,7 +338,7 @@ export default function ApplicationToUnblockBankAccountForLoanEmiClient() {
                             </p>
 
                             <div className="bg-blue-50 p-10 rounded-[2rem] border border-blue-200 shadow-inner mb-10">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-6 border-b border-blue-200 pb-4">Draft Template: Application to Unblock Bank Account</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-6 border-b border-blue-200 pb-4">Draft Template: Application to Unblock Bank Account</p>
                                 <div className="font-mono text-sm text-gray-800 space-y-4 whitespace-pre-wrap leading-relaxed">
 {`To,
 The Branch Manager,
@@ -392,10 +392,10 @@ Yours sincerely,
 
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <h3 className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Application Attachment Checklist:
-                                </h4>
+                                </h3>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li className="flex items-start gap-3">
                                         <svg className="w-6 h-6 text-blue-400 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -445,7 +445,7 @@ Yours sincerely,
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 9: Real World Case Studies of Successful Unblocks</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 1: The Corporate Employee in Bengaluru</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 1: The Corporate Employee in Bengaluru</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         An IT professional missed one credit card payment due to a delayed salary credit. The bank immediately placed a total debit freeze on his primary account, trapping over two lakhs in funds to recover a minimum due of just five thousand rupees. He could not pay his daughter's school fees.
                                     </p>
@@ -454,7 +454,7 @@ Yours sincerely,
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 2: The Small Business Owner in Delhi</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 2: The Small Business Owner in Delhi</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A shop owner defaulted on a business loan installment during a severe market downturn. The lender illegally instructed his savings bank to freeze all transactions, paralyzing his daily operations and preventing him from paying his suppliers.
                                     </p>
@@ -531,7 +531,7 @@ Yours sincerely,
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Account Frozen?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Account Frozen?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to compel the bank manager to release your funds today.</p>
                                 <Link
                                     href="/contact"
@@ -549,7 +549,7 @@ Yours sincerely,
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

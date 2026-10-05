@@ -240,7 +240,7 @@ export default function WhatIsDebtConsolidationClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Financial Strategy Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Financial Strategy Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -298,12 +298,12 @@ export default function WhatIsDebtConsolidationClient() {
                             {/* Alert Banner */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-2 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Warning: Beware of Predatory Consolidation Scams
-                                </h4>
+                                </p>
                                 <p className="text-red-800 font-normal m-0 text-sm">
                                     When searching for debt relief, you may encounter unregistered entities promising instant loan approvals regardless of your credit score. These predatory lenders often charge hidden upfront processing fees or mandate exorbitant interest rates hidden in the fine print. Always verify the lender is registered with the Reserve Bank of India before sharing any personal financial documents or signing agreements.
                                 </p>
@@ -328,7 +328,7 @@ export default function WhatIsDebtConsolidationClient() {
                             
                             {/* Visual Element: Checklist */}
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Readiness Assessment Checklist</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Readiness Assessment Checklist</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4 mt-1">
@@ -337,7 +337,7 @@ export default function WhatIsDebtConsolidationClient() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900">Stable Employment and Income Source</h5>
+                                            <p className="font-bold text-gray-900">Stable Employment and Income Source</p>
                                             <p className="text-sm text-gray-600">You have a documented, consistent monthly income from a salaried position or a stable business that comfortably covers the proposed new EMI.</p>
                                         </div>
                                     </li>
@@ -348,7 +348,7 @@ export default function WhatIsDebtConsolidationClient() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900">Credit Score Above 700</h5>
+                                            <p className="font-bold text-gray-900">Credit Score Above 700</p>
                                             <p className="text-sm text-gray-600">Your CIBIL or Experian score demonstrates a history of responsible borrowing, even if you are currently feeling the strain of high utilization.</p>
                                         </div>
                                     </li>
@@ -359,7 +359,7 @@ export default function WhatIsDebtConsolidationClient() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900">Manageable Debt to Income Ratio</h5>
+                                            <p className="font-bold text-gray-900">Manageable Debt to Income Ratio</p>
                                             <p className="text-sm text-gray-600">Your total proposed new EMI obligations do not exceed fifty percent of your net monthly take home salary.</p>
                                         </div>
                                     </li>
@@ -370,7 +370,7 @@ export default function WhatIsDebtConsolidationClient() {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900">No Recent Severe Defaults</h5>
+                                            <p className="font-bold text-gray-900">No Recent Severe Defaults</p>
                                             <p className="text-sm text-gray-600">Your credit report does not show recent accounts marked as written off, settled, or subjected to legal recovery proceedings.</p>
                                         </div>
                                     </li>
@@ -457,7 +457,7 @@ export default function WhatIsDebtConsolidationClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 10: Real World Application and Case Studies</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Success Scenario: The IT Professional</h4>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Success Scenario: The IT Professional</p>
                                     <p className="text-gray-800 mb-4 font-normal">
                                         An IT professional in Pune had accumulated 8 Lakhs across four credit cards, paying roughly 45,000 rupees monthly just to cover the minimum dues. The principal was never decreasing.
                                     </p>
@@ -548,7 +548,7 @@ export default function WhatIsDebtConsolidationClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Overwhelmed by EMIs?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Overwhelmed by EMIs?</p>
                                 <p className="text-sm text-gray-600 mb-6 font-normal">We can evaluate your portfolio to see if consolidation is the right path for you today.</p>
                                 <Link
                                     href="/contact"
@@ -566,7 +566,7 @@ export default function WhatIsDebtConsolidationClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3 font-normal">
                                     <Link href="/debt-settlement-vs-debt-consolidation" className="block text-sm text-blue-600 hover:underline">Consolidation vs Settlement</Link>
                                     <Link href="/how-to-improve-cibil-score" className="block text-sm text-blue-600 hover:underline">Rebuilding Credit Score</Link>

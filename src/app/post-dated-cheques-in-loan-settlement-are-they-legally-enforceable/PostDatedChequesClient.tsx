@@ -235,7 +235,7 @@ export default function PostDatedChequesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -287,7 +287,7 @@ export default function PostDatedChequesClient() {
                                     <svg className="w-6 h-6 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
                                     </svg>
-                                    <h4 className="text-xl font-bold text-red-800 m-0">Critical Legal Alert</h4>
+                                    <p className="text-xl font-bold text-red-800 m-0">Critical Legal Alert</p>
                                 </div>
                                 <p className="text-red-700 m-0">
                                     If an agent asks <strong>is blank cheque required for settlement</strong>, your answer must be an unequivocal NO. There is absolutely no RBI guideline that mandates a borrower to provide a cheque for a One Time Settlement (OTS). 
@@ -340,10 +340,10 @@ export default function PostDatedChequesClient() {
                             
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     The 4 Pillars of PDC Danger:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Alteration of Amount:</strong> If you provide a blank cheque, the agent can fill in the entire outstanding loan amount instead of the agreed settlement amount. They will claim you gave it voluntarily for the full debt.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Presentation Before Time:</strong> The agent may deposit the cheque before the agreed settlement date or before you have arranged the funds, triggering a deliberate bounce.</li>
@@ -430,28 +430,28 @@ export default function PostDatedChequesClient() {
                                 <div className="flex items-start">
                                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">1</div>
                                     <div>
-                                        <h5 className="text-lg font-bold text-gray-900 mb-2">Demand the Official Letter First</h5>
+                                        <p className="text-lg font-bold text-gray-900 mb-2">Demand the Official Letter First</p>
                                         <p className="text-gray-600">Never pay a single rupee before receiving the official One Time Settlement letter from the bank. It must be on official letterhead, state your loan account number, the exact settlement amount, the payment timeline, and a clear clause that upon payment, the account will be closed and an NOC issued.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
                                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">2</div>
                                     <div>
-                                        <h5 className="text-lg font-bold text-gray-900 mb-2">Pay Directly to the Loan Account</h5>
+                                        <h3 className="text-lg font-bold text-gray-900 mb-2">Pay Directly to the Loan Account</h3>
                                         <p className="text-gray-600">Make the digital transfer (NEFT/RTGS) directly into your specific loan account. Do not transfer money to a suspense account, a recovery agency account, or certainly not a personal account of an agent.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
                                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">3</div>
                                     <div>
-                                        <h5 className="text-lg font-bold text-gray-900 mb-2">Document the UTR Number</h5>
+                                        <h3 className="text-lg font-bold text-gray-900 mb-2">Document the UTR Number</h3>
                                         <p className="text-gray-600">Once the transfer is successful, save the transaction receipt containing the UTR (Unique Transaction Reference) number. Email this receipt immediately to the bank manager and the nodal officer, referencing the settlement letter.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
                                     <div className="flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">4</div>
                                     <div>
-                                        <h5 className="text-lg font-bold text-gray-900 mb-2">Follow up for the NOC</h5>
+                                        <h3 className="text-lg font-bold text-gray-900 mb-2">Follow up for the NOC</h3>
                                         <p className="text-gray-600">Do not assume the process is complete just because you paid. Aggressively follow up for the No Objection Certificate (NOC) or No Dues Certificate (NDC). If it is delayed beyond 15 days, escalate the matter.</p>
                                     </div>
                                 </div>
@@ -478,7 +478,7 @@ export default function PostDatedChequesClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 9: Real Case Studies: The PDC Trap</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 1: The Extortion Attempt</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 1: The Extortion Attempt</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         Ramesh, a small business owner, agreed to a settlement of Rs 3 Lakhs on a 5 Lakh loan. The agent demanded a PDC for the 3 Lakhs before giving the letter. Ramesh complied. The agent never provided the letter, deposited the cheque, and when it bounced (as Ramesh hadn't funded the account pending the letter), demanded Rs 4.5 Lakhs to drop the Section 138 case.
                                     </p>
@@ -487,7 +487,7 @@ export default function PostDatedChequesClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 2: The Successful Refusal</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 2: The Successful Refusal</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         Sunita was offered a settlement on her personal loan. The bank manager insisted on three blank PDCs. Sunita, aware of her rights, categorically refused and emailed the nodal officer stating she would only pay via RTGS upon receiving the letter. 
                                     </p>
@@ -574,7 +574,7 @@ export default function PostDatedChequesClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">PDC Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">PDC Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can intervene legally to stop agents from demanding blank cheques today.</p>
                                 <Link
                                     href="/contact"
@@ -592,7 +592,7 @@ export default function PostDatedChequesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Stop Recovery Harassment</Link>

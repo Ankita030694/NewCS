@@ -304,28 +304,28 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 1</span>
-                    <h4 className="text-sm font-bold text-slate-900 mt-1">Formal 30–60 Day Demand Notice</h4>
+                    <h3 className="text-sm font-bold text-slate-900 mt-1">Formal 30–60 Day Demand Notice</h3>
                     <p className="text-xs text-slate-600 mt-1">
                       The lender must serve a registered demand cure notice giving 15 to 30 days (or 60 days under Section 13(2) SARFAESI Act for eligible NBFCs) detailing the exact overdue principal and default computation.
                     </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 2</span>
-                    <h4 className="text-sm font-bold text-slate-900 mt-1">Police &amp; Local Authority Intimation</h4>
+                    <h3 className="text-sm font-bold text-slate-900 mt-1">Police &amp; Local Authority Intimation</h3>
                     <p className="text-xs text-slate-600 mt-1">
                       Before touching the asset, recovery agents must provide written intimation to the local police station having jurisdiction over the vehicle’s location to avoid criminal breach of peace.
                     </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 3</span>
-                    <h4 className="text-sm font-bold text-slate-900 mt-1">Restricted Daylight Hours Only</h4>
+                    <h3 className="text-sm font-bold text-slate-900 mt-1">Restricted Daylight Hours Only</h3>
                     <p className="text-xs text-slate-600 mt-1">
                       Visits and seizure actions can only occur between <strong>7:00 AM and 7:00 PM</strong> at the borrower’s residence or workplace. Seizing a car on the highway or in transit is strictly illegal.
                     </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 4</span>
-                    <h4 className="text-sm font-bold text-slate-900 mt-1">Mandatory Signed Inventory Sheet</h4>
+                    <h3 className="text-sm font-bold text-slate-900 mt-1">Mandatory Signed Inventory Sheet</h3>
                     <p className="text-xs text-slate-600 mt-1">
                       Officers must produce an on-spot inventory report detailing odometer reading, exterior body scratches, fuel level, and personal belongings, signed by the borrower and witnessing agents.
                     </p>
@@ -333,7 +333,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 </div>
                 <div className="p-4 rounded-xl bg-blue-50/70 border border-blue-200/80">
                   <span className="text-xs font-black text-[#1886ff] uppercase">Step 5</span>
-                  <h4 className="text-sm font-bold text-slate-900 mt-1">Pre-Sale Valuation &amp; 14-Day Redemption Period</h4>
+                  <h3 className="text-sm font-bold text-slate-900 mt-1">Pre-Sale Valuation &amp; 14-Day Redemption Period</h3>
                   <p className="text-xs text-slate-700 mt-1">
                     Once in yard custody, the vehicle cannot be auctioned immediately. Lenders must issue a certified surveyor valuation report and allow the borrower at least 14 to 30 days to redeem the vehicle or settle the debt before any public auction.
                   </p>
@@ -1121,9 +1121,9 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="font-extrabold text-slate-900 text-sm">
+                  <p className="font-extrabold text-slate-900 text-sm">
                     Ashish Jhangra
-                  </h3>
+                  </p>
                   <p className="text-xs text-[#1886ff] font-semibold">
                     Legal &amp; Debt Resolution Professional
                   </p>
@@ -1149,9 +1149,9 @@ export default function CarLoanDefaultVehicleSeizureClient() {
               <div className="inline-flex p-3 rounded-full bg-white/10 mx-auto">
                 <Phone className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-extrabold leading-snug">
+              <p className="text-lg font-extrabold leading-snug">
                 Facing Illegal Vehicle Repossession?
-              </h3>
+              </p>
               <p className="text-xs text-white/90 leading-relaxed">
                 Our legal team intervenes within hours to halt unauthorized towing, issue cease-and-desist notices, and protect your vehicle.
               </p>

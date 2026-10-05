@@ -248,7 +248,7 @@ export default function BankArbitrationNoticeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
-                            <h3 className="font-bold text-slate-900 mb-4 text-lg border-b pb-2">Arbitration Guide</h3>
+                            <p className="font-bold text-slate-900 mb-4 text-lg border-b pb-2">Arbitration Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -393,13 +393,13 @@ export default function BankArbitrationNoticeClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                                    <h4 className="font-bold text-slate-900 mb-2">Procedural Defense</h4>
+                                    <p className="font-bold text-slate-900 mb-2">Procedural Defense</p>
                                     <p className="text-sm text-slate-600 leading-relaxed font-light">
                                         We check if the Section 21 notice was served properly. We challenge any unilateral appointment. We ensure the arbitrator follows the mandatory disclosure rules.
                                     </p>
                                 </div>
                                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                                    <h4 className="font-bold text-slate-900 mb-2">Merit-Based Defense</h4>
+                                    <p className="font-bold text-slate-900 mb-2">Merit-Based Defense</p>
                                     <p className="text-sm text-slate-600 leading-relaxed font-light">
                                         We argue against USURIOUS interest rates (anything above 24%). we point out compounding errors and demand the waiver of penal charges due to "Genuine Hardship."
                                     </p>
@@ -490,7 +490,7 @@ export default function BankArbitrationNoticeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-slate-900 mb-2">Legal Crisis?</h4>
+                                <p className="font-bold text-xl text-slate-900 mb-2">Legal Crisis?</p>
                                 <p className="text-sm text-slate-600 mb-6">If you have received an arbitration notice specifically mentioning Section 21 or an Ex-Parte award, act now. Deadlines are non-negotiable.</p>
                                 <Link
                                     href="/contact"
@@ -507,7 +507,7 @@ export default function BankArbitrationNoticeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
-                                <h4 className="font-bold text-slate-900 mb-4 border-b pb-2">Arbitration Links</h4>
+                                <p className="font-bold text-slate-900 mb-4 border-b pb-2">Arbitration Links</p>
                                 <nav className="space-y-3">
                                     <Link href="/bank-recovery-case-in-court" className="block text-sm text-blue-600 hover:underline">Court Recovery Case</Link>
                                     <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Dealing with Notices</Link>

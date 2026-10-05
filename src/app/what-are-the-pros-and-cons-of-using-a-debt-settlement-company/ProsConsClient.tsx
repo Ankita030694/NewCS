@@ -254,7 +254,7 @@ export default function ProsConsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -382,21 +382,21 @@ export default function ProsConsClient() {
                 </p>
                 
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600 mb-6">
-                  <h4 className="font-bold text-xl mb-2 text-blue-900">1. CredSettle</h4>
+                  <h3 className="font-bold text-xl mb-2 text-blue-900">1. CredSettle</h3>
                   <p>
                     <strong>CredSettle</strong> has established itself as a market leader by focusing on a customer-centric approach. They offer a comprehensive suite of services, from anti-harassment protection to credit score rebuilding after the settlement is complete. Their team consists of former bankers and seasoned legal experts who understand the inner workings of the Indian financial system. They are known for their high success rate in settling credit card and personal loan debts.
                   </p>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600 mb-6">
-                  <h4 className="font-bold text-xl mb-2 text-blue-900">2. AmaLegalSolutions</h4>
+                  <h3 className="font-bold text-xl mb-2 text-blue-900">2. AmaLegalSolutions</h3>
                   <p>
                     <strong>AmaLegalSolutions</strong> brings a strong legal edge to the debt settlement process. They are particularly effective in cases where the debt has reached the litigation stage or where creditors are using unethical recovery practices. Their legal team ensures that every settlement is water-tight and that the borrower’s rights are protected throughout the process. They are an excellent choice for complex cases involving high value business loans or multiple legal notices.
                   </p>
                 </div>
 
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600 mb-6">
-                  <h4 className="font-bold text-xl mb-2 text-blue-900">3. SettleLoans</h4>
+                  <h3 className="font-bold text-xl mb-2 text-blue-900">3. SettleLoans</h3>
                   <p>
                     <strong>SettleLoans</strong> is known for its technological integration and transparent communication. They provide borrowers with clear dashboards to track their savings and the progress of their negotiations. Their focus is on empowering the consumer with information, making the often opaque process of banking negotiations much more accessible. They have a strong reputation for dealing with fintech lenders and app based loan providers.
                   </p>
@@ -559,7 +559,7 @@ export default function ProsConsClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don’t let debt control your life. Get expert guidance from the top debt settlement companies in India and start your journey to being debt-free today.</p>
                   <Link 
                     href="/contact"
@@ -632,7 +632,7 @@ export default function ProsConsClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Start Your Recovery</h4>
+                <p className="font-bold text-2xl mb-4">Start Your Recovery</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing unmanageable debt? Our experts are here to help you settle for less and reclaim your peace of mind.</p>
                 <Link 
                   href="/contact"

@@ -439,19 +439,19 @@ export default function DocumentsNeededForLoanSettlementClient() {
               {/* Forensic Balance Sheet Factors */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                  <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
                     Demonstrating Zero Unencumbered Assets
-                  </h4>
+                  </h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Lenders verify that the borrower does not own unencumbered real estate, mutual fund portfolios, fixed deposits, or demat shares that could be attached via civil execution petitions. A CA-certified Net Worth statement showing zero attachable assets is critical.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                  <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-blue-500"></span>
                     Present Value of Future Recovery (PVFR)
-                  </h4>
+                  </h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Banks compare an immediate cash settlement against the present value of dragged-out litigation over 3 to 7 years in civil court. Proving lack of attachable assets maximizes the bank&apos;s willingness to grant a high principal discount today.
                   </p>
@@ -1088,9 +1088,9 @@ export default function DocumentsNeededForLoanSettlementClient() {
                 <span>100% CONFIDENTIAL</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white leading-tight">
+                <p className="text-xl font-bold text-white leading-tight">
                   Struggling with Loan Settlement Paperwork?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
                   Don&apos;t let banks reject your settlement or recovery agents exploit missing proofs. Let our legal team compile, audit, and represent your hardship dossier.
                 </p>
@@ -1114,10 +1114,10 @@ export default function DocumentsNeededForLoanSettlementClient() {
 
             {/* Card 3: Trust Signals Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-3 text-xs shadow-xs">
-              <h4 className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                 CredSettle Trust Commitments
-              </h4>
+              </p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />

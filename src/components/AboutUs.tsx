@@ -12,7 +12,7 @@ export default function AboutUsSection() {
           About Us
         </h2>
           {/* Bottom Heading */}
-          <h5
+          <p
             style={{
               color: 'rgba(12, 39, 86, 0.70)',
               textAlign: 'center',
@@ -26,7 +26,7 @@ export default function AboutUsSection() {
             className="mb-4 sm:mb-6 md:mb-8 lg:mb-10 text-base"
           >
             See How <span className="font-bold">CredSettle</span>  Turns Debt into a Done Deal.
-          </h5>
+          </p>
 
         {/* 3 Cards Grid - CURRENT VERSION (COMMENTED) */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-4 sm:mb-5 md:mb-6 -mt-2 sm:-mt-3">
@@ -380,19 +380,16 @@ export default function AboutUsSection() {
             </h3>
             <div className="grid grid-cols-3 grid-rows-2 md:grid-cols-6 md:grid-rows-1 gap-6 sm:gap-7 md:gap-8 place-items-center">
               {[
-                { src: '/guideline1.svg', alt: 'Bar Council of India', href: 'http://www.barcouncilofindia.org/' },
-                { src: '/guideline2.svg', alt: 'Banking Codes and Standards Board of India', href: 'http://www.bcsbi.org.in/' },
-                { src: '/guideline3.svg', alt: 'Ministry of Law and Justice', href: 'https://lawmin.gov.in/' },
-                { src: '/guideline4.svg', alt: 'Ministry of Micro, Small and Medium Enterprises', href: 'https://msme.gov.in/' },
-                { src: '/guideline5.svg', alt: 'National Human Rights Commission', href: 'https://nhrc.nic.in/' },
-                { src: '/guideline6.svg', alt: 'Telecom Regulatory Authority of India', href: 'https://www.trai.gov.in/' },
+                { src: '/guideline1.svg', alt: 'Bar Council of India' },
+                { src: '/guideline2.svg', alt: 'Banking Codes and Standards Board of India' },
+                { src: '/guideline3.svg', alt: 'Ministry of Law and Justice' },
+                { src: '/guideline4.svg', alt: 'Ministry of Micro, Small and Medium Enterprises' },
+                { src: '/guideline5.svg', alt: 'National Human Rights Commission' },
+                { src: '/guideline6.svg', alt: 'Telecom Regulatory Authority of India' },
               ].map((item, index) => (
-                <a 
+                <div 
                   key={index}
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition-all duration-300 hover:scale-110 block"
+                  className="transition-all duration-300 hover:scale-110 flex items-center justify-center cursor-default"
                   style={{ filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))' }}
                 >
                   <img 
@@ -400,7 +397,7 @@ export default function AboutUsSection() {
                     alt={item.alt} 
                     className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto transition-all duration-300"
                   />
-                </a>
+                </div>
               ))}
             </div>
           </div>

@@ -236,7 +236,7 @@ export default function P2PCryptoScamClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -471,7 +471,7 @@ export default function P2PCryptoScamClient() {
                                 Lawyers in 2025 rely heavily on specific High Court judgments to argue for crypto P2P cases. You should be aware of these names so you can discuss them with your legal counsel:
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4 font-light">Significant Precedents:</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4 font-light">Significant Precedents:</p>
                                 <ul className="space-y-4 text-gray-700">
                                     <li><strong>Madras High Court (P. Surendran vs. State):</strong> The court held that police cannot freeze the entire account when a smaller amount is in question. It ordered that the bank should hanya freeze the "Lien" and let the customer use the rest. This is the "Gold Standard" for unfreezing cases.</li>
                                     <li><strong>Karnataka High Court (Various Rulings):</strong> The court has criticized the "Indefinite Freeze" practice, stating that it amounts to a violation of Article 21 (Right to Life) and Article 19 (Right to Trade) of the Constitution if the investigation is not moving forward.</li>
@@ -584,7 +584,7 @@ export default function P2PCryptoScamClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Frozen Account?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Frozen Account?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every hour counts. Get your Ack Number ready and talk to our specialized unfreeze experts today.</p>
                                 <Link
                                     href="/contact"
@@ -601,7 +601,7 @@ export default function P2PCryptoScamClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-handle-recovery-agent-harrasment" className="block text-sm text-blue-600 hover:underline">Handling Harassment</Link>
                                     <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Legal Notice Help</Link>

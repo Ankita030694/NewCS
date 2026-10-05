@@ -43,3 +43,10 @@ next-env.d.ts
 # ignore local text lists / audit notes
 SEO Issues solved url.txt
 urls.txt
+
+# scripts and scratch directories
+scripts/
+scratch/
+script/
+__pycache__/
+*.pyc

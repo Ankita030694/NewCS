@@ -165,7 +165,7 @@ export default function SettleLoanPageClient() {
                 
                 {/* Introduction */}
                 <section id="introduction" className="mb-12 scroll-mt-24">
-                    <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">How to Settle Loan Online: The Definitive Guide</h2>
+                    <p className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">How to Settle Loan Online: The Definitive Guide</p>
                     <div className="prose prose-lg text-gray-700 font-poppins text-base leading-7">
                         <p className="mb-4">
                             If you are drowning in debt, the term "Loan Settlement" or "OTS" (One-Time Settlement) is your lifeline. But the internet is full of "<strong>settle loan</strong> apps" that promise magical waivers. This guide cuts through the noise.
@@ -181,13 +181,13 @@ export default function SettleLoanPageClient() {
 
                 {/* Eligibility */}
                 <section id="eligibility" className="mb-12 scroll-mt-24">
-                    <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Who Can Settle Loans? (Eligibility)</h2>
+                    <p className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Who Can Settle Loans? (Eligibility)</p>
                     <div className="space-y-6 text-gray-700 font-poppins text-base leading-7">
                         <p>
                             Not everyone qualifies for settlement. Banks strictly analyze "Intention to Pay" vs "Ability to Pay".
                         </p>
                         <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                             <h3 className="text-xl font-bold text-[#0C2756] mb-4">You QUALIFY if:</h3>
+                             <p className="text-xl font-bold text-[#0C2756] mb-4">You QUALIFY if:</p>
                              <ul className="list-disc pl-6 space-y-2">
                                  <li><strong>Job Loss:</strong> You have been laid off or your business has shut down (proven over 3-6 months).</li>
                                  <li><strong>Medical Emergency:</strong> Severe illness in the family that drained savings.</li>
@@ -203,7 +203,7 @@ export default function SettleLoanPageClient() {
 
                 {/* Settlement Timeline */}
                 <section id="settlement-timeline" className="mb-12 scroll-mt-24">
-                    <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">The Settlement Timeline (0-90 Days)</h2>
+                    <p className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">The Settlement Timeline (0-90 Days)</p>
                     <div className="prose prose-lg text-gray-700 font-poppins text-base leading-7">
                         <p className="mb-6">
                             Understanding the banking cycle is crucial. If you try to <strong>settle loan</strong> too early, you get a bad deal. If you wait too long without legal protection, you get sued.
@@ -213,7 +213,7 @@ export default function SettleLoanPageClient() {
                             {/* Phase 1 */}
                             <div className="relative">
                                 <div className="absolute -left-[41px] bg-white border-4 border-[#007AFF] w-6 h-6 rounded-full"></div>
-                                <h3 className="text-lg font-bold text-[#0C2756]">Days 1-30: SMA-0 & SMA-1</h3>
+                                <p className="text-lg font-bold text-[#0C2756]">Days 1-30: SMA-0 & SMA-1</p>
                                 <p className="text-sm mt-1">
                                     <strong>Status:</strong> Special Mention Account.
                                     <br/><strong>Bank Action:</strong> Soft reminders, SMS, automated calls.
@@ -224,7 +224,7 @@ export default function SettleLoanPageClient() {
                             {/* Phase 2 */}
                             <div className="relative">
                                 <div className="absolute -left-[41px] bg-white border-4 border-yellow-500 w-6 h-6 rounded-full"></div>
-                                <h3 className="text-lg font-bold text-[#0C2756]">Days 31-60: SMA-2 (The Pressure Zone)</h3>
+                                <p className="text-lg font-bold text-[#0C2756]">Days 31-60: SMA-2 (The Pressure Zone)</p>
                                 <p className="text-sm mt-1">
                                     <strong>Status:</strong> High risk.
                                     <br/><strong>Bank Action:</strong> Aggressive recovery agents start visiting. Call intensity peaks. Section 138 notices may be drafted.
@@ -235,7 +235,7 @@ export default function SettleLoanPageClient() {
                              {/* Phase 3 */}
                             <div className="relative">
                                 <div className="absolute -left-[41px] bg-white border-4 border-red-600 w-6 h-6 rounded-full"></div>
-                                <h3 className="text-lg font-bold text-[#0C2756]">Days 61-90: NPA Definition</h3>
+                                <p className="text-lg font-bold text-[#0C2756]">Days 61-90: NPA Definition</p>
                                 <p className="text-sm mt-1">
                                     <strong>Status:</strong> Non-Performing Asset (NPA).
                                     <br/><strong>Bank Action:</strong> The loan becomes a "loss" on their books. They are desperate to clean it up before the quarter ends.
@@ -376,7 +376,7 @@ export default function SettleLoanPageClient() {
              <div className="lg:col-span-3 hidden lg:block sticky top-24 space-y-6">
                  {/* Consultation Card */}
                 <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100">
-                    <h3 className="text-xl font-bold text-[#0C2756] mb-2">Debt-Free in 90 Days?</h3>
+                    <p className="text-xl font-bold text-[#0C2756] mb-2">Debt-Free in 90 Days?</p>
                     <p className="text-sm text-gray-600 mb-4">Check your eligibility for settlement allowance.</p>
                     <CTAButton>
                         Check Eligibility
@@ -386,7 +386,7 @@ export default function SettleLoanPageClient() {
 
                 {/* Quick Links */}
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200">
-                     <h3 className="text-lg font-bold text-[#0C2756] mb-4">Compare More</h3>
+                     <p className="text-lg font-bold text-[#0C2756] mb-4">Compare More</p>
                      <ul className="space-y-3 text-sm font-medium text-gray-600">
                          <li><Link href="/how-to-get-freed-from-debt" className="hover:text-[#007AFF] transition-colors">How to Get Freed</Link></li>
                          <li><Link href="/loan-settlement/hdfc" className="hover:text-[#007AFF] transition-colors">HDFC Settlement Guide</Link></li>
@@ -397,7 +397,7 @@ export default function SettleLoanPageClient() {
                  
                  {/* Trust Badge */}
                  <div className="bg-blue-600 p-6 rounded-2xl text-white text-center">
-                    <h3 className="text-xl font-bold mb-2">4.9/5</h3>
+                    <p className="text-xl font-bold mb-2">4.9/5</p>
                     <p className="text-sm opacity-90">Google Rating</p>
                  </div>
             </div>

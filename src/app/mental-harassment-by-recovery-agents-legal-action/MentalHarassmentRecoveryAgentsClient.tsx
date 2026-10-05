@@ -1261,9 +1261,9 @@ export default function MentalHarassmentRecoveryAgentsClient() {
               </div>
 
               <div className="space-y-1">
-                <h3 className="text-base font-extrabold tracking-tight leading-snug">
+                <p className="text-base font-extrabold tracking-tight leading-snug">
                   Facing Recovery Harassment?
-                </h3>
+                </p>
                 <p className="text-xs text-blue-100 leading-relaxed">
                   Stop illegal agent abuse, protect your dignity, and sue the bank for emotional distress. Get expert representation today.
                 </p>
@@ -1289,10 +1289,10 @@ export default function MentalHarassmentRecoveryAgentsClient() {
 
             {/* 3. CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3">
-              <h4 className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
+              <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-600" />
                 <span>CredSettle Trust Commitments</span>
-              </h4>
+              </p>
 
               <ul className="space-y-2.5 text-xs text-slate-600">
                 <li className="flex items-start gap-2">

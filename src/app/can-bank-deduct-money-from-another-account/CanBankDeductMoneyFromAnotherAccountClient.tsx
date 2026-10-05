@@ -1056,9 +1056,9 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Bank Freezing Your Account?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Our debt resolution experts challenge unauthorized liens, protect your salary account, stop recovery harassment, and negotiate a 40% to 55% settlement.
                 </p>
@@ -1085,7 +1085,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -1108,7 +1108,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related Legal Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related Legal Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/application-to-unblock-bank-account-for-loan-emi"

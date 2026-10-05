@@ -193,7 +193,7 @@ export default function MsmeRestructuringClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -244,7 +244,7 @@ export default function MsmeRestructuringClient() {
                             </p>
 
                             {/* Section Type: Eligibility Checklist */}
-                            <h3 id="eligibility-criteria" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Eligibility Criteria for Restructuring</h3>
+                            <h2 id="eligibility-criteria" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Eligibility Criteria for Restructuring</h2>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200 mb-6">
                                 <p className="text-gray-700 mb-4 font-semibold">To qualify for most RBI mandated MSME restructuring schemes, a business must typically meet the following criteria:</p>
                                 <ul className="space-y-3">
@@ -270,7 +270,7 @@ export default function MsmeRestructuringClient() {
                                 Crafting the viability plan is the most complex part of this process. Banks will heavily scrutinize the projected cash flows. This is where engaging financial consultants alongside legal experts specializing in <Link href="/sme-loan-dispute-resolution" className="text-blue-600 hover:underline">SME loan dispute resolution</Link> becomes vital. If the bank rejects the restructuring proposal, the account will inevitably slip into NPA status, leaving settlement as the only alternative.
                             </p>
 
-                            <h3 id="impact-on-cmr" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Impact on Business Credit Score (CMR)</h3>
+                            <h2 id="impact-on-cmr" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Impact on Business Credit Score (CMR)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Preserving the Company Credit Report (CMR) ranking is the primary reason promoters fight for restructuring. The CMR rank (ranging from CMR-1, which is excellent, to CMR-10, which is high risk) determines an MSME's ability to secure future working capital, participate in government tenders, and negotiate credit terms with large suppliers. 
                             </p>
@@ -286,7 +286,7 @@ export default function MsmeRestructuringClient() {
                                 An OTS is a legally binding compromise between the borrower and the bank. The borrower agrees to pay a lump sum amount (or a scheduled payment over a few months) that is significantly lower than the total outstanding dues. In return, the bank agrees to write off the remaining balance, release the mortgaged collaterals, and issue a No Dues Certificate (NDC). The bank accepts the loss to quickly clean up its non performing assets and free up capital, while the borrower gets a permanent release from the crushing debt trap.
                             </p>
 
-                            <h3 id="when-is-ots-viable" className="text-2xl font-bold text-gray-800 mt-8 mb-4">When is OTS the Only Viable Option?</h3>
+                            <h2 id="when-is-ots-viable" className="text-2xl font-bold text-gray-800 mt-8 mb-4">When is OTS the Only Viable Option?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 An OTS becomes the mandatory strategy when the business has suffered irreversible damage. This could be due to a complete technological shift rendering the product obsolete, a devastating fire or natural disaster not fully covered by insurance, or the sudden loss of the single largest client that accounted for 80% of revenue. In these cases, there is no future cash flow to project for a restructuring plan.
                             </p>
@@ -294,7 +294,7 @@ export default function MsmeRestructuringClient() {
                                 Furthermore, if the bank has already initiated intense recovery proceedings under SARFAESI, and the DRT has declined to grant a stay order, the physical possession of the factory or the promoter's home is imminent. At this crisis point, arranging funds from family, friends, or private investors to offer an aggressive OTS is the only way to save the core assets from being sold at a heavily discounted auction price. If you need assistance navigating this, consulting an expert in <Link href="/working-capital-loan-legal-help" className="text-blue-600 hover:underline">working capital loan legal help</Link> is essential to ensure the bank does not backtrack on verbal promises.
                             </p>
 
-                            <h3 id="negotiation-process" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Negotiation Process with Banks</h3>
+                            <h2 id="negotiation-process" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Negotiation Process with Banks</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Negotiating a commercial OTS is not for the faint of heart. Banks will initially demand the full principal plus a portion of the interest. They will use the threat of declaring the promoter a "willful defaulter" or initiating insolvency proceedings under the IBC (Insolvency and Bankruptcy Code) to extract maximum value. 
                             </p>
@@ -349,7 +349,7 @@ export default function MsmeRestructuringClient() {
                             {/* Section Type: Case Study */}
                             <h2 id="success-story" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Success Story: Rescuing an MSME from NPA Status</h2>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 mb-8">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Case Study: The Textile Exporter's Dilemma</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">Case Study: The Textile Exporter's Dilemma</p>
                                 <p className="text-gray-700 leading-relaxed mb-4"><strong>The Crisis:</strong> A Tirupur based textile exporting MSME had a working capital facility of INR 4.5 Crores. Due to a sudden cancellation of orders from Europe, inventory piled up, and the company missed three consecutive EMI cycles. The bank swiftly classified the account as an NPA and issued a Section 13(2) notice under the SARFAESI Act, threatening to auction the manufacturing unit.</p>
                                 <p className="text-gray-700 leading-relaxed mb-4"><strong>The Strategy:</strong> The promoters were terrified and considered liquidating personal assets to offer an OTS. However, the legal and financial advisory team at CredSettle intervened. They analyzed the order book and realized new domestic contracts were signed that would generate strong cash flow in six months. The business was fundamentally viable, just facing a severe liquidity mismatch.</p>
                                 <p className="text-gray-700 leading-relaxed"><strong>The Execution:</strong> Instead of surrendering to an OTS, the team drafted a comprehensive Techno Economic Viability report and submitted a formal restructuring proposal under the RBI's MSME framework. They simultaneously filed a representation halting the SARFAESI proceedings. The bank, seeing the data backed domestic orders, agreed to restructure. They granted a 12 month moratorium on principal payments and converted the accrued interest into a FITL. The factory was saved, production resumed, and the company's CMR rating was protected from a permanent 'Settled' tag.</p>
@@ -359,14 +359,14 @@ export default function MsmeRestructuringClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Save Your Business Before It's Too Late</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">Save Your Business Before It's Too Late</p>
                                 <p className="text-blue-800 mb-6">If your MSME is facing working capital stress, do not wait for the bank to take control of your assets. Our specialized legal and financial team can evaluate your viability, halt aggressive recovery actions, and negotiate a restructuring plan or an OTS that protects your interests.</p>
                                 <Link
                                     href="/contact"
@@ -387,7 +387,7 @@ export default function MsmeRestructuringClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Business in Danger?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Business in Danger?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop the bank from auctioning your commercial property. Get a resolution strategy now.</p>
                                 <Link
                                     href="/contact"
@@ -404,7 +404,7 @@ export default function MsmeRestructuringClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

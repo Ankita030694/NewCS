@@ -268,7 +268,7 @@ export default function PersonalLoanSettlementVsBankruptcyClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -325,12 +325,12 @@ export default function PersonalLoanSettlementVsBankruptcyClient() {
                             
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Harsh Legal Reality:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Loss of Control:</strong> The court appoints an Official Receiver or Assignee who takes complete control of your estate and financial affairs.</li>
                                     <li><strong>Asset Liquidation:</strong> Your property, vehicles, and valuable investments can be forcibly sold to pay back your lenders.</li>
@@ -373,22 +373,22 @@ export default function PersonalLoanSettlementVsBankruptcyClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 1</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Establish Hardship</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Establish Hardship</p>
                                     <p className="text-sm text-gray-600 m-0">You must formally document why you cannot pay. Job loss, medical emergencies, or severe business downturns are valid reasons. Banks need proof that you are genuinely broke, not just avoiding payment.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 2</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Stop the EMI Cycle</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Stop the EMI Cycle</p>
                                     <p className="text-sm text-gray-600 m-0">Banks will not negotiate a major waiver if you are still making partial payments. The loan must typically reach NPA status (90 days overdue) before the serious negotiation windows open.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 3</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Gather a Lump Sum</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Gather a Lump Sum</p>
                                     <p className="text-sm text-gray-600 m-0">To negotiate settlement instead of bankruptcy effectively, you need leverage. Having 30 to 40 percent of the outstanding amount ready in cash allows you to make an immediate, tempting offer.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 4</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Get Everything in Writing</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Get Everything in Writing</p>
                                     <p className="text-sm text-gray-600 m-0">Never pay a single rupee based on a verbal promise from a recovery agent. Always demand an official settlement letter issued on the bank's letterhead with an authorized signature.</p>
                                 </div>
                             </div>
@@ -560,7 +560,7 @@ export default function PersonalLoanSettlementVsBankruptcyClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-xs mb-4 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop recovery agents from threatening your family today.
                                 </p>
@@ -580,7 +580,7 @@ export default function PersonalLoanSettlementVsBankruptcyClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-5">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-3 text-left font-medium">
                                     <li>
                                         <Link href="/services/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

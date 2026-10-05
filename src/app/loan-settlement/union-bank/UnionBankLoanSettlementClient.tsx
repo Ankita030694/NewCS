@@ -170,7 +170,7 @@ export default function UnionBankLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -217,7 +217,7 @@ export default function UnionBankLoanSettlementClient() {
                 <p className="mb-4">
                   While "Rinn Samadhan" is a term often used across PSUs (including SBI), Union Bank’s version has distinct characteristics when active. It is technically a "Non-Discretionary / Non-Discriminatory" scheme.
                 </p>
-                <h4 className="font-bold text-lg mb-2">The "Algorithm" of Union Bank Settlements:</h4>
+                <h3 className="font-bold text-lg mb-2">The "Algorithm" of Union Bank Settlements:</h3>
                 <ul className="list-disc pl-6 space-y-4 mb-6">
                   <li>
                     <strong>Focus on 'Doubtful' Assets:</strong> The sweet spot for Union Bank settlements is the <strong>'Drought Period'</strong> (12-24 months post-NPA). If your account is in this bucket, the Regional Office has pre-approved mandates to waive 100% of the Penal Interest.
@@ -238,13 +238,13 @@ export default function UnionBankLoanSettlementClient() {
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="bg-green-50 p-5 rounded-lg border border-green-100">
-                    <h4 className="font-bold text-green-800 mb-2">The "Target Pressure" Advantage</h4>
+                    <h3 className="font-bold text-green-800 mb-2">The "Target Pressure" Advantage</h3>
                     <p className="text-sm text-green-900">
                       As the Lok Adalat date approaches (usually quarterly), Branch Managers are under immense pressure to show "files closed". This is the <strong>best time to negotiate</strong>. A proposal rejected in March might be accepted in June just to meet the Adalat target.
                     </p>
                   </div>
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-                    <h4 className="font-bold text-gray-800 mb-2">Permanent Lok Adalat (PLA)</h4>
+                    <h3 className="font-bold text-gray-800 mb-2">Permanent Lok Adalat (PLA)</h3>
                     <p className="text-sm text-gray-600">
                       Under statutory consumer and banking guidelines, banking disputes fall under Public Utility Services. This means you can proactively approach a PLA for settlement even before the bank files a case against you. This is a powerful preemptive strike strategy.
                     </p>
@@ -325,15 +325,15 @@ export default function UnionBankLoanSettlementClient() {
                 </p>
                 <div className="space-y-4">
                   <div className="border border-blue-100 rounded-lg p-4">
-                    <h5 className="font-bold text-blue-700">Detailed asset declaration (Statement of Means)</h5>
+                    <h3 className="font-bold text-blue-700">Detailed asset declaration (Statement of Means)</h3>
                     <p className="text-sm text-gray-600">We help you prepare a truthful yet strategic Statement of Means. This document proves to the Release Committee that you genuinely <em>cannot</em> pay more. One mistake here (like showing a luxury asset) can kill the deal.</p>
                   </div>
                   <div className="border border-blue-100 rounded-lg p-4">
-                    <h5 className="font-bold text-blue-700">The "Source of Funds" Letter</h5>
+                    <h3 className="font-bold text-blue-700">The "Source of Funds" Letter</h3>
                     <p className="text-sm text-gray-600">PSU banks are terrified of "Willful Defaulters". We must prove the settlement money is coming from a legitimate, external source (like a relative loan or asset sale), not from hidden income you were hoarding.</p>
                   </div>
                   <div className="border border-blue-100 rounded-lg p-4">
-                    <h5 className="font-bold text-blue-700">Auditing the Sanction Letter</h5>
+                    <h3 className="font-bold text-blue-700">Auditing the Sanction Letter</h3>
                     <p className="text-sm text-gray-600">Union Bank sanction letters often have clauses like "Right to Recompense" (booking the loss to you later). We fight to ensure the "No Dues" clause is absolute and unconditional.</p>
                   </div>
                 </div>
@@ -373,7 +373,7 @@ export default function UnionBankLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Union Bank OTS Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Union Bank OTS Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Get expert guidance on Rinn Samadhan & Lok Adalat settlements.</p>
                 <Link 
                   href="/contact"

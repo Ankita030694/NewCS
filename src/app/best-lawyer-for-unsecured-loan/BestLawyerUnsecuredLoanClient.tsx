@@ -249,7 +249,7 @@ export default function BestLawyerUnsecuredLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -459,7 +459,7 @@ export default function BestLawyerUnsecuredLoanClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                                 <div className="p-4 border border-gray-200 rounded-xl">
-                                    <h4 className="font-bold text-blue-900 mb-2">Loan & Bank Docs</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Loan & Bank Docs</p>
                                     <ul className="text-sm space-y-2 text-gray-600">
                                         <li>Original Loan Agreement (if available)</li>
                                         <li>Statement of Account (SOA) for the last 2 years</li>
@@ -468,7 +468,7 @@ export default function BestLawyerUnsecuredLoanClient() {
                                     </ul>
                                 </div>
                                 <div className="p-4 border border-gray-200 rounded-xl">
-                                    <h4 className="font-bold text-blue-900 mb-2">Hardship Proof</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Hardship Proof</p>
                                     <ul className="text-sm space-y-2 text-gray-600">
                                         <li>Medical reports/hospital discharge summaries</li>
                                         <li>Termination letter or business closure notice</li>
@@ -477,7 +477,7 @@ export default function BestLawyerUnsecuredLoanClient() {
                                     </ul>
                                 </div>
                                 <div className="p-4 border border-gray-200 rounded-xl">
-                                    <h4 className="font-bold text-blue-900 mb-2">Notice History</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Notice History</p>
                                     <ul className="text-sm space-y-2 text-gray-600">
                                         <li>Copies of any legal notices received from the bank</li>
                                         <li>Summons from any court or tribunal</li>
@@ -485,7 +485,7 @@ export default function BestLawyerUnsecuredLoanClient() {
                                     </ul>
                                 </div>
                                 <div className="p-4 border border-gray-200 rounded-xl">
-                                    <h4 className="font-bold text-blue-900 mb-2">Harassment Log</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Harassment Log</p>
                                     <ul className="text-sm space-y-2 text-gray-600">
                                         <li>Call recordings and screenshots of messages</li>
                                         <li>Visitor logs if agents visited your home</li>
@@ -524,28 +524,28 @@ export default function BestLawyerUnsecuredLoanClient() {
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 flex items-start gap-4">
                                 <div className="text-3xl text-blue-600 font-bold">1</div>
                                 <div>
-                                    <h4 className="font-bold text-gray-900 mb-1">Audit Your Reports</h4>
+                                    <h3 className="font-bold text-gray-900 mb-1">Audit Your Reports</h3>
                                     <p className="text-sm text-gray-700">One month after your settlement, check all four credit bureaus. Ensure the "Settled" tag is present and the outstanding balance is marked as ZERO. Any mismatch here will keep dragging your score down.</p>
                                 </div>
                             </div>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 flex items-start gap-4">
                                 <div className="text-3xl text-blue-600 font-bold">2</div>
                                 <div>
-                                    <h4 className="font-bold text-gray-900 mb-1">Adopt Secured Credit</h4>
+                                    <h3 className="font-bold text-gray-900 mb-1">Adopt Secured Credit</h3>
                                     <p className="text-sm text-gray-700">Since you won’t get a regular credit card, take a "Secured Card" against a fixed deposit. Use it for small purchases and pay the full bill every month. This creates a fresh, positive repayment history on top of your old default record.</p>
                                 </div>
                             </div>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 flex items-start gap-4">
                                 <div className="text-3xl text-blue-600 font-bold">3</div>
                                 <div>
-                                    <h4 className="font-bold text-gray-900 mb-1">Micro-Repayments</h4>
+                                    <h3 className="font-bold text-gray-900 mb-1">Micro-Repayments</h3>
                                     <p className="text-sm text-gray-700">Small "Consumer Durable" loans for appliances are easier to get even with a settled status. Use these (ensure they are 100% on-time) to show a "Diversified Credit Mix."</p>
                                 </div>
                             </div>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 flex items-start gap-4">
                                 <div className="text-3xl text-blue-600 font-bold">4</div>
                                 <div>
-                                    <h4 className="font-bold text-gray-900 mb-1">Patience and Discipline</h4>
+                                    <h3 className="font-bold text-gray-900 mb-1">Patience and Discipline</h3>
                                     <p className="text-sm text-gray-700">It takes 18 to 24 months of "Perfect Behavior" to start getting mainstream credit again. During this time, set up Auto-Pay for all your utilities and small EMIs. A single late payment now will be much more damaging than it would be for a normal borrower.</p>
                                 </div>
                             </div>
@@ -624,7 +624,7 @@ export default function BestLawyerUnsecuredLoanClient() {
 
                             {/* Sticky CTA Container */}
                             <div className="bg-white p-6 rounded-2xl shadow-xl border border-blue-100 text-center animate-pulse-subtle">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Help Now?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Help Now?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop the harassment Today. Get a professional legal plan within 24 hours.</p>
                                 <Link
                                     href="/contact"
@@ -641,7 +641,7 @@ export default function BestLawyerUnsecuredLoanClient() {
 
                             {/* Related Pages Container */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2 text-sm uppercase tracking-wider">Related Services</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2 text-sm uppercase tracking-wider">Related Services</p>
                                 <nav className="space-y-3">
                                     <Link href="/services/personal-loan-settlement" className="group flex items-center text-sm text-gray-600 hover:text-blue-700 transition-colors">
                                         <span className="w-1.5 h-1.5 rounded-full bg-blue-400 mr-2 group-hover:scale-125 transition-transform"></span>

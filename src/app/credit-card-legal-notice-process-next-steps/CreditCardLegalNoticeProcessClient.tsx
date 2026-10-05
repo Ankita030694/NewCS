@@ -203,7 +203,7 @@ export default function CreditCardLegalNoticeProcessClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -252,10 +252,10 @@ export default function CreditCardLegalNoticeProcessClient() {
                             
                             {/* Visual Element 1: Alert Banner */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-8">
-                                <h4 className="text-red-800 font-bold text-xl mb-2 flex items-center gap-2">
+                                <p className="text-red-800 font-bold text-xl mb-2 flex items-center gap-2">
                                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd"></path></svg>
                                     Urgent Warning
-                                </h4>
+                                </p>
                                 <p className="text-red-700 font-medium m-0 text-base">
                                     Do not make any partial payments to personal UPI IDs or unknown bank accounts mentioned in a WhatsApp notice. Legitimate payments should only be made directly to your specific credit card account number through official bank channels.
                                 </p>
@@ -361,36 +361,36 @@ export default function CreditCardLegalNoticeProcessClient() {
 
                             {/* Visual Element 3: Action Checklist */}
                             <div className="bg-white border-2 border-blue-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-bold text-blue-900 mb-6 flex items-center gap-3">
                                     <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                                     48 Hour Action Checklist
-                                </h3>
+                                </p>
                                 <ul className="space-y-5">
                                     <li className="flex items-start gap-4">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold">1</div>
                                         <div>
-                                            <h4 className="font-bold text-gray-900 text-lg">Verify the Authenticity</h4>
+                                            <p className="font-bold text-gray-900 text-lg">Verify the Authenticity</p>
                                             <p className="text-gray-600 text-sm mt-1">Check the sender's credentials. Is it a registered post from a real law firm? Cross check the advocate's details online. Do not trust WhatsApp PDF files blindly.</p>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-4">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold">2</div>
                                         <div>
-                                            <h4 className="font-bold text-gray-900 text-lg">Analyze the Financial Demand</h4>
+                                            <p className="font-bold text-gray-900 text-lg">Analyze the Financial Demand</p>
                                             <p className="text-gray-600 text-sm mt-1">Compare the demanded amount against your last official bank statement. Notice how much of the demand is principal versus compounded penal interest and late fees. This discrepancy is your negotiation leverage.</p>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-4">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold">3</div>
                                         <div>
-                                            <h4 className="font-bold text-gray-900 text-lg">Identify the Legal Provision</h4>
+                                            <p className="font-bold text-gray-900 text-lg">Identify the Legal Provision</p>
                                             <p className="text-gray-600 text-sm mt-1">Read the notice carefully to see which laws are invoked. Is it a general demand, an arbitration invocation under Section 21 of the A&C Act, or a cheque bounce notice under Section 138?</p>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-4">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold">4</div>
                                         <div>
-                                            <h4 className="font-bold text-gray-900 text-lg">Draft a Holding Reply</h4>
+                                            <p className="font-bold text-gray-900 text-lg">Draft a Holding Reply</p>
                                             <p className="text-gray-600 text-sm mt-1">Never ignore the timeline. If they give you 7 days, you must reply within 7 days. Even a preliminary email stating that you are reviewing the matter and require a detailed statement of accounts legally protects you from being declared unresponsive.</p>
                                         </div>
                                     </li>
@@ -504,7 +504,7 @@ export default function CreditCardLegalNoticeProcessClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Notice Received?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Notice Received?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can draft a powerful legal reply to protect your rights and initiate settlement talks.</p>
                                 <Link
                                     href="/contact"
@@ -522,7 +522,7 @@ export default function CreditCardLegalNoticeProcessClient() {
 
                             {/* Related Pages (Required by Constraint) */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Default Defense</Link>
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-sm text-blue-600 hover:underline">Standard Default Notices</Link>

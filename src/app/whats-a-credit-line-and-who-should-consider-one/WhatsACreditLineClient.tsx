@@ -260,7 +260,7 @@ export default function WhatsACreditLineClient() {
                     {/* Left Column: Desktop TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start">
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 uppercase tracking-wider text-sm border-b pb-2">Table of Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 uppercase tracking-wider text-sm border-b pb-2">Table of Contents</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -299,10 +299,10 @@ export default function WhatsACreditLineClient() {
 
                             {/* Visual Element 1: Alert Banner */}
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm">
-                                <h4 className="text-blue-900 font-bold text-lg mb-2 flex items-center">
+                                <p className="text-blue-900 font-bold text-lg mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd"></path></svg>
                                     Financial Insight
-                                </h4>
+                                </p>
                                 <p className="text-blue-800 m-0 text-sm font-medium">Never take a lump sum term loan if your expenses are going to occur in stages over several months. You will end up paying substantial idle interest. Always secure a credit line for staggered cash flow needs.</p>
                             </div>
 
@@ -364,7 +364,7 @@ export default function WhatsACreditLineClient() {
                             
                             {/* Visual Element 3: Checklist */}
                             <div className="bg-gray-50 p-8 rounded-2xl border border-gray-200 mb-10 shadow-sm">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-4">Readiness Checklist for Credit Line Approval</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-4">Readiness Checklist for Credit Line Approval</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-green-500 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -465,7 +465,7 @@ export default function WhatsACreditLineClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Financial Advice?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Financial Advice?</p>
                                 <p className="text-sm text-gray-600 mb-6">Our experts can help you analyze your financial standing and choose the optimal borrowing product.</p>
                                 <Link
                                     href="/contact"
@@ -483,7 +483,7 @@ export default function WhatsACreditLineClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Guidance</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">Business Cash Flow Solutions</Link>

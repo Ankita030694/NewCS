@@ -225,7 +225,7 @@ export default function LoanSettlementCIBILClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -329,11 +329,11 @@ export default function LoanSettlementCIBILClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                   <div className="bg-green-50 p-6 rounded-2xl border border-green-100">
-                    <h4 className="font-bold text-green-800 mb-3 text-lg underline">CLOSED Status</h4>
+                    <h3 className="font-bold text-green-800 mb-3 text-lg underline">CLOSED Status</h3>
                     <p className="text-sm">Paid 100% of the dues. Positive impact on score. Signifies reliability. Future loans are easy to get. No flags for lenders.</p>
                   </div>
                   <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-800 mb-3 text-lg underline">SETTLED Status</h4>
+                    <h3 className="font-bold text-red-800 mb-3 text-lg underline">SETTLED Status</h3>
                     <p className="text-sm">Paid only part of the dues. Negative impact on score. Signifies default. Future loans are extremely difficult. Remains as a red flag.</p>
                   </div>
                 </div>
@@ -542,7 +542,7 @@ export default function LoanSettlementCIBILClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900">{review.name}</h4>
+                        <p className="font-bold text-gray-900">{review.name}</p>
                         <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
@@ -619,7 +619,7 @@ export default function LoanSettlementCIBILClient() {
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white relative overflow-hidden group">
                 <div className="relative z-10">
                   <div className="bg-red-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-4 animate-pulse">Expert Advice</div>
-                  <h4 className="font-bold text-2xl mb-4 leading-tight">Plan Your Settlement?</h4>
+                  <p className="font-bold text-2xl mb-4 leading-tight">Plan Your Settlement?</p>
                   <p className="text-blue-100 mb-8 text-sm leading-relaxed">Let our legal experts analyze your CIBIL and get you the best deal with minimum damage.</p>
                   <Link 
                     href="/contact"
@@ -634,7 +634,7 @@ export default function LoanSettlementCIBILClient() {
 
               {/* Related Pages */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Related Guides</p>
                 <ul className="space-y-5">
                   <li>
                     <Link href="/how-to-stop-recovery-agent-home-visit" className="group flex items-start">

@@ -229,7 +229,7 @@ export default function LawyerPersonalLoanDefaultClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -287,12 +287,12 @@ export default function LawyerPersonalLoanDefaultClient() {
                             {/* Alert Banner */}
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-blue-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Strategic Legal Advantages:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-blue-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Expert Negotiation Power:</strong> Lawyers understand the legal vulnerabilities of the bank and leverage them to secure significantly lower settlement amounts.</li>
                                     <li><strong>Protection from Legal Action:</strong> If the bank files a civil suit or an arbitration claim, your lawyer will draft a compelling defense and represent you in the proceedings.</li>
@@ -316,7 +316,7 @@ export default function LawyerPersonalLoanDefaultClient() {
                                 When you hire a lawyer, the first strategic move is often the issuance of a formal legal notice to the bank and its recovery agencies. This notice serves as a powerful deterrent. It explicitly informs the institution that you are now legally represented and that all future communications must be routed exclusively through your legal counsel. The notice will detail the specific violations of the Reserve Bank of India guidelines committed by the recovery agents, serving as a formal warning that any continuation of such behavior will result in severe legal consequences, including the filing of criminal complaints for criminal intimidation, extortion, and defamation.
                             </p>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-8">
-                                <h5 className="font-bold text-gray-900 mb-3 text-lg">Key Actions Taken by the Lawyer:</h5>
+                                <p className="font-bold text-gray-900 mb-3 text-lg">Key Actions Taken by the Lawyer:</p>
                                 <ul className="list-disc pl-5 space-y-2 text-gray-700">
                                     <li>Drafting and sending a Cease and Desist Legal Notice to the bank.</li>
                                     <li>Filing complaints with the banking ombudsman regarding the harassment.</li>
@@ -402,7 +402,7 @@ export default function LawyerPersonalLoanDefaultClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-5 leading-relaxed px-1">
                                     Our lawyers can send an immediate Legal Notice to stop agents from harassing you today.
                                 </p>
@@ -422,7 +422,7 @@ export default function LawyerPersonalLoanDefaultClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-3 text-left font-medium">
                                     <li>
                                         <Link href="/loan-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">

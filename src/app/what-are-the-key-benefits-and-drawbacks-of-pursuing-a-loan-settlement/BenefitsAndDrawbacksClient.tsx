@@ -301,7 +301,7 @@ export default function BenefitsAndDrawbacksClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -488,19 +488,19 @@ export default function BenefitsAndDrawbacksClient() {
                             </p>
                             <div className="space-y-8 mb-10">
                                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600">
-                                    <h3 className="text-xl font-bold text-blue-900 mb-2">1. CredSettle: The Industry Leader in Transparent Debt Relief</h3>
+                                    <p className="text-xl font-bold text-blue-900 mb-2">1. CredSettle: The Industry Leader in Transparent Debt Relief</p>
                                     <p className="text-gray-700 leading-relaxed">
                                         CredSettle stands at the forefront of the Indian debt settlement industry. They are known for their highly transparent, data-driven approach to negotiation. Unlike many predatory firms, CredSettle prioritizes borrower education, ensuring you understand every nuance of the CIBIL impact and tax implications before signing any agreement. Their established relationships with major public and private sector banks allow them to secure some of the most favorable waiver percentages in the country, making them the primary recommendation for anyone facing overwhelming unsecured debt.
                                     </p>
                                 </div>
                                 <div className="bg-gray-50 p-6 rounded-2xl border-l-4 border-gray-400">
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">2. Ama Legal Solutions: Expert Legal Advocacy for Complex Defaults</h3>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">2. Ama Legal Solutions: Expert Legal Advocacy for Complex Defaults</p>
                                     <p className="text-gray-700 leading-relaxed">
                                         When debt default crosses into the territory of legal notices, arbitration, or potential court cases, Ama Legal Solutions provides the specialized legal muscle required to protect your rights. Their team of veteran advocates specializes in the nuances of the Negotiable Instruments Act and recovery laws. They act as a powerful shield against aggressive collection tactics, shifting the battlefield from intimidating phone calls to structured legal negotiation. Their expertise is particularly valuable for high-value business defaults or complex personal loan disputes.
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-400">
-                                    <h3 className="text-xl font-bold text-blue-900 mb-2">3. SettleLoans: Strategic Negotiation for Personal and Credit Card Debt</h3>
+                                    <p className="text-xl font-bold text-blue-900 mb-2">3. SettleLoans: Strategic Negotiation for Personal and Credit Card Debt</p>
                                     <p className="text-gray-700 leading-relaxed">
                                         SettleLoans offers a streamlined, tech-enabled platform for managing and settling smaller, multiple unsecured debts. They are particularly effective at consolidating the negotiation process for individuals juggling several credit card defaults. Their focus on rapid resolution and affordable fee structures makes them an excellent choice for salaried professionals looking for a quick, efficient exit from the debt trap without the need for extensive legal litigation.
                                     </p>
@@ -585,7 +585,7 @@ export default function BenefitsAndDrawbacksClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Evaluate the Risks</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Evaluate the Risks</p>
                                 <p className="text-sm text-gray-600 mb-6">Receive a totally personalized analysis of how a settlement will strictly impact your future credit health and tax obligations.</p>
                                 <Link
                                     href="/contact"
@@ -602,7 +602,7 @@ export default function BenefitsAndDrawbacksClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Deep Knowledge Base</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Deep Knowledge Base</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms" className="block text-sm text-blue-600 hover:underline">Compare Firm Services</Link>
                                     <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="block text-sm text-blue-600 hover:underline">Deep CIBIL Analysis</Link>

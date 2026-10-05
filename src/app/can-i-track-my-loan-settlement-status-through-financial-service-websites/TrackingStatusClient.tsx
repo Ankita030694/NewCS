@@ -217,7 +217,7 @@ export default function TrackingStatusClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -438,7 +438,7 @@ export default function TrackingStatusClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Live Case Tracking</h4>
+                <p className="font-bold text-2xl mb-4">Live Case Tracking</p>
                 <p className="text-blue-100 mb-6 text-sm">Don\'t wait in the dark. Get a professional dashboard for your settlement today.</p>
                 <Link 
                   href="/contact"
@@ -464,7 +464,7 @@ export default function TrackingStatusClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

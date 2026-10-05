@@ -269,7 +269,7 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -331,10 +331,10 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     RBI Protections in 2025:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Limit on Household Debt:</strong> An MFI cannot lend if the borrower’s total monthly EMI outflow exceeds 50% of their monthly income. This "Irresponsible Lending" rule is our primary weapon in cases where borrowers are drowning in 5-6 different MFI loans.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Transparent Pricing:</strong> The MFI must provide a "Simplified Fact Sheet" showing the final interest rate, fees, and penalties in a large, readable font. If they hide charges, they cannot legally recover them.</li>
@@ -369,19 +369,19 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Karnataka 2025</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Karnataka 2025</p>
                                     <p className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light">The "Coercive Action Prevention Bill" bans all group-liability pressure and limits recovery visits to twice a month. Violations lead to immediate license suspension for the MFI.</p>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Bihar 2026</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Bihar 2026</p>
                                     <p className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light">Proposed legal ceiling on total interest (Principal + Interest cannot more than double). This is designed to stop the "Usury Trap" for Bihar’s rural poor.</p>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Assam 2024-25</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Assam 2024-25</p>
                                     <p className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light">The "Microfinance Incentive and Relief Scheme" provides waivers for distressed women borrowers. This remains one of the most proactive state-led relief models in the world.</p>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Kerala 2025</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Kerala 2025</p>
                                     <p className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light">Strong Kudumbashree-led intervention models that prevent private MFIs from using aggressive agents in rural clusters.</p>
                                 </div>
                             </div>
@@ -487,7 +487,7 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 11: Case Studies: MFI Debt Triumphs</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 1: The "Widowed Weaver" Case (Varanasi)</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 1: The "Widowed Weaver" Case (Varanasi)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A woman weaver in Varanasi had 4 MFI loans totaling 2.5 lakhs. After her husband passed, the repayment became impossible. Agents were taking her finished silk sarees as "security."
                                     </p>
@@ -496,7 +496,7 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
                                     </p>
                                 </div>
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 2: The "Over-Indebted Vendor" (Bangalore)</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 2: The "Over-Indebted Vendor" (Bangalore)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A fruit vendor had a monthly income of 15,000 but EMIs of 12,000. This was a clear violation of the RBI’s "50% EMI to Income" rule.
                                     </p>
@@ -576,7 +576,7 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">MFI Harassed?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">MFI Harassed?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to stop agents from visiting your house today.</p>
                                 <Link
                                     href="/contact"
@@ -594,7 +594,7 @@ export default function MicrofinanceLoanSettlementLawyerClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">MFI Relief Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">MFI Relief Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

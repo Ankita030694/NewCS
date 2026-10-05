@@ -259,7 +259,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
                     alt="Rahul Verma - Legal Expert" 
                     className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-white shadow-sm object-cover"
                 />
-                <h3 className="font-bold text-gray-900 text-lg">Rahul Verma</h3>
+                <p className="font-bold text-gray-900 text-lg">Rahul Verma</p>
                 <p className="text-blue-600 text-sm font-semibold mb-4">Lead Consumer Advocate</p>
                 <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                     Rahul oversees complex settlement cases in {state.name}, ensuring that {bank.name} recovery agents adhere strictly to regional laws and RBI guidelines while securing the best possible financial outcome.

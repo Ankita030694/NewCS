@@ -207,7 +207,7 @@ export default function Settle20LakhPersonalLoanClient() {
                     {/* Left Sidebar: Sticky Table of Contents */}
                     <aside className="lg:w-1/4 hidden lg:block sticky top-14 h-fit">
                         <div className="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">In This Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">In This Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -341,15 +341,15 @@ export default function Settle20LakhPersonalLoanClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="bg-gray-50 p-5 rounded-xl border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">No Arrest Warrants for Default</h4>
+                                    <p className="font-bold text-gray-900 mb-2">No Arrest Warrants for Default</p>
                                     <p className="text-gray-700 text-sm m-0">Inability to pay a loan is a civil breach of contract, not a criminal offense. The police cannot arrest you for defaulting on a loan, nor can they file an FIR for cheating (unless you submitted fraudulent documents to obtain the loan).</p>
                                 </div>
                                 <div className="bg-gray-50 p-5 rounded-xl border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">Arbitration Notices</h4>
+                                    <p className="font-bold text-gray-900 mb-2">Arbitration Notices</p>
                                     <p className="text-gray-700 text-sm m-0">You may receive an arbitration notice from a lawyer appointed by the bank. This is a private dispute resolution mechanism, not a court order. You have the right to challenge it legally.</p>
                                 </div>
                                 <div className="bg-gray-50 p-5 rounded-xl border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">Cheque Bounce (Section 138)</h4>
+                                    <p className="font-bold text-gray-900 mb-2">Cheque Bounce (Section 138)</p>
                                     <p className="text-gray-700 text-sm m-0">If you provided post-dated cheques as security that bounced, the bank can file a case under Section 138 of the Negotiable Instruments Act. This is a criminal offense, but it is bailable, and courts usually encourage out-of-court settlements.</p>
                                 </div>
                             </div>
@@ -371,7 +371,7 @@ export default function Settle20LakhPersonalLoanClient() {
                             </p>
                             
                             <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-600 mb-8">
-                                <h4 className="font-bold text-green-900 mb-3 text-lg">The Golden Rules of Settlement</h4>
+                                <h3 className="font-bold text-green-900 mb-3 text-lg">The Golden Rules of Settlement</h3>
                                 <ul className="space-y-3 text-green-800 text-sm">
                                     <li><strong>Start Low:</strong> Never accept the first offer. If they offer ₹15 Lakhs, counter with ₹5 Lakhs. Meet in the middle.</li>
                                     <li><strong>Demand Written Proof:</strong> Never pay a single rupee based on a verbal promise or WhatsApp message from a recovery agent. Always demand a formal settlement letter on official bank letterhead.</li>
@@ -390,7 +390,7 @@ export default function Settle20LakhPersonalLoanClient() {
 
                             {/* Share this Guide */}
                             <div className="border-t border-gray-200 pt-8 mt-12">
-                                <h4 className="font-bold text-gray-900 mb-4">Share this Guide</h4>
+                                <h3 className="font-bold text-gray-900 mb-4">Share this Guide</h3>
                                 <div className="flex gap-4">
                                     <a 
                                         href={`https://api.whatsapp.com/send?text=Check out this guide on settling a 20 Lakh personal loan: ${currentUrl}`} 
@@ -421,7 +421,7 @@ export default function Settle20LakhPersonalLoanClient() {
 
                             {/* Sources & References */}
                             <div className="border-t border-gray-200 pt-8 mt-12" id="references">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Sources & References</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Sources & References</p>
                                 <ul className="space-y-3 text-sm text-gray-600">
                                     <li>
                                         <a href="https://rbi.org.in/Scripts/NotificationUser.aspx?Id=12373" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
@@ -476,7 +476,7 @@ export default function Settle20LakhPersonalLoanClient() {
 
                         {/* CTA Card */}
                         <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-3xl shadow-md text-white">
-                            <h4 className="font-bold text-xl mb-3">Stop Recovery Agents</h4>
+                            <p className="font-bold text-xl mb-3">Stop Recovery Agents</p>
                             <p className="text-blue-100 text-sm mb-6 leading-relaxed">
                                 Constant calls and threats? Our legal experts can stop harassment immediately and negotiate your high-value loan settlement.
                             </p>
@@ -487,7 +487,7 @@ export default function Settle20LakhPersonalLoanClient() {
 
                         {/* Related Articles Card */}
                         <div className="bg-white p-6 rounded-3xl border border-gray-100 shadow-sm">
-                            <h4 className="font-bold text-gray-900 mb-3 pb-2 border-b">Related Guides</h4>
+                            <p className="font-bold text-gray-900 mb-3 pb-2 border-b">Related Guides</p>
                             <ul className="space-y-3">
                                 <li>
                                     <Link href="/personal-loan-settlement" className="group block">

@@ -225,7 +225,7 @@ export default function ConvertSettledToClosedClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl shadow-blue-900/5">
-                            <h3 className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">Conversion Map</h3>
+                            <p className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">Conversion Map</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -272,7 +272,7 @@ export default function ConvertSettledToClosedClient() {
                                 Before you start the process, you must understand the deep psychological difference between these two words from a bank's perspective.
                             </p>
                             <div className="bg-blue-50 p-10 rounded-[2rem] border-2 border-blue-100 mb-10 shadow-inner">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-6">The Definition Duel:</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-6">The Definition Duel:</p>
                                 <ul className="space-y-6 text-gray-800 text-lg">
                                     <li><strong>1. Closed Status:</strong> This is the "Gold Standard." It means you paid every single rupee of the principal, the interest, and the charges as per the original contract. The bank had zero loss. You are seen as a man or woman of your word.</li>
                                     <li><strong>2. Settled Status:</strong> This is a "Compromise." It means that after months of non-payment, the bank realized they might get nothing, so they accepted a partial amount (say 40% or 50%) to close the file. The bank took a "Loss." In the system, you are marked as someone who doesn't fulfill their full commitment.</li>
@@ -314,7 +314,7 @@ export default function ConvertSettledToClosedClient() {
                                 This is not a standard recovery call. You are now in the driver's seat by choice. Here is the CredSettle playbook for status conversion:
                             </p>
                             <div className="bg-gray-900 text-white p-12 rounded-[2.5rem] mb-10 shadow-2xl">
-                                <h3 className="text-3xl font-bold mb-8 text-blue-300">The Conversion Playbook:</h3>
+                                <p className="text-3xl font-bold mb-8 text-blue-300">The Conversion Playbook:</p>
                                 <div className="space-y-8">
                                     <div className="flex gap-6">
                                         <div className="w-12 h-12 bg-blue-600 rounded-full flex-shrink-0 flex items-center justify-center font-bold">1</div>
@@ -435,14 +435,14 @@ export default function ConvertSettledToClosedClient() {
                             <div className="space-y-8 mb-10">
                                 <div className="p-10 bg-blue-50/50 rounded-[2.5rem] border border-blue-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-blue-600 font-bold text-white rounded-bl-3xl">SUCCESS 1</div>
-                                    <h4 className="text-2xl font-bold text-blue-900 mb-4">The Mumbai IT Professional</h4>
+                                    <h3 className="text-2xl font-bold text-blue-900 mb-4">The Mumbai IT Professional</h3>
                                     <p className="text-gray-700 italic border-l-4 border-blue-600 pl-6 text-lg">
                                         "Rajesh had a credit card settlement from 2018. His home loan for a 2BHK in Thane was rejected by 3 major banks. We helped him negotiate a principal payment of 65,000 to the bank. After receiving the NOC and updating CIBIL to 'Closed,' his score jumped to 788. Within 60 days, HDFC approved his home loan at 8.4%. He saved nearly 12 Lakhs in interest compared to a 'Settled' loan offer he had from a high-interest lender."
                                     </p>
                                 </div>
                                 <div className="p-10 bg-blue-50/50 rounded-[2.5rem] border border-blue-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-blue-600 font-bold text-white rounded-bl-3xl">SUCCESS 2</div>
-                                    <h4 className="text-2xl font-bold text-blue-900 mb-4">The Entrepreneur in Bangalore</h4>
+                                    <h3 className="text-2xl font-bold text-blue-900 mb-4">The Entrepreneur in Bangalore</h3>
                                     <p className="text-gray-700 italic border-l-4 border-blue-600 pl-6 text-lg">
                                         "Sunita's startup was ready for venture debt, but a settled personal loan from her college days was showing up in the due diligence. We guided her to convert it to CLOSED. The VCs saw her persistence in clearing her past as a major trait of integrity. Not only did she clear her CIBIL, she secured the funding for her company. That 'Upgrade' was the biggest investment she made in her career."
                                     </p>
@@ -533,7 +533,7 @@ export default function ConvertSettledToClosedClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                 </div>
-                                <h4 className="font-black text-2xl text-gray-900 mb-3">Upgrade Status</h4>
+                                <p className="font-black text-2xl text-gray-900 mb-3">Upgrade Status</p>
                                 <p className="text-base text-gray-600 mb-8 leading-relaxed">Turn your 'Settled' mark into 'Closed'. Get the legal support needed to win back the banks trust.</p>
                                 <Link
                                     href="/contact"
@@ -550,7 +550,7 @@ export default function ConvertSettledToClosedClient() {
 
                             {/* Relevant Deep Dives */}
                             <div className="bg-white p-8 rounded-[2rem] border border-gray-100 shadow-xl shadow-blue-900/5">
-                                <h4 className="font-black text-blue-900 mb-6 border-b border-blue-50 pb-3 text-lg">Authority Guides</h4>
+                                <p className="font-black text-blue-900 mb-6 border-b border-blue-50 pb-3 text-lg">Authority Guides</p>
                                 <nav className="space-y-4">
                                     <Link href="/how-to-get-800-credit-score-in-india" className="group flex items-center text-sm text-gray-600 hover:text-blue-600">
                                         <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span> High Score Roadmap

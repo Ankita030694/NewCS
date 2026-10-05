@@ -193,7 +193,7 @@ export default function SpouseLoanConsentClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -277,7 +277,7 @@ export default function SpouseLoanConsentClient() {
                 {/* SECTION TYPE 2: Data Callout */}
                 <div className="bg-gray-900 p-10 rounded-3xl text-white shadow-2xl my-10 relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 transform translate-x-1/2 -translate-y-1/2"></div>
-                  <h4 className="text-2xl font-bold uppercase tracking-widest text-blue-400 mb-6 border-b border-gray-700 pb-4">Data Callout: Resolution Paths in India</h4>
+                  <h3 className="text-2xl font-bold uppercase tracking-widest text-blue-400 mb-6 border-b border-gray-700 pb-4">Data Callout: Resolution Paths in India</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                     <div>
                       <div className="text-5xl font-bold text-white mb-2">68%</div>
@@ -311,14 +311,14 @@ export default function SpouseLoanConsentClient() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
                   <div className="bg-red-50 p-8 rounded-3xl border border-red-100 shadow-sm relative">
                     <div className="absolute -top-4 -left-4 w-12 h-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-lg">X</div>
-                    <h4 className="text-xl font-bold text-red-900 mb-4 uppercase tracking-wider">The Myth</h4>
+                    <h3 className="text-xl font-bold text-red-900 mb-4 uppercase tracking-wider">The Myth</h3>
                     <p className="text-red-800 font-light leading-relaxed">
                       "If I simply tell the bank that my husband took the loan without my permission, they will remove the default from my CIBIL report because I am innocent."
                     </p>
                   </div>
                   <div className="bg-green-50 p-8 rounded-3xl border border-green-100 shadow-sm relative">
                     <div className="absolute -top-4 -left-4 w-12 h-12 bg-green-500 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-lg">✓</div>
-                    <h4 className="text-xl font-bold text-green-900 mb-4 uppercase tracking-wider">The Fact</h4>
+                    <h3 className="text-xl font-bold text-green-900 mb-4 uppercase tracking-wider">The Fact</h3>
                     <p className="text-green-800 font-light leading-relaxed">
                       Banks will not alter CIBIL records based on verbal or informal claims. To remove a fraudulent loan from your CIBIL, you must provide the credit bureaus with an FIR and a formal dispute acknowledgment from the bank proving identity theft.
                     </p>
@@ -373,7 +373,7 @@ export default function SpouseLoanConsentClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900 text-lg uppercase tracking-tight">{review.name}</h4>
+                        <p className="font-bold text-gray-900 text-lg uppercase tracking-tight">{review.name}</p>
                         <p className="text-xs text-blue-600 tracking-widest uppercase font-bold">{review.location} • {review.date}</p>
                       </div>
                     </div>
@@ -413,7 +413,7 @@ export default function SpouseLoanConsentClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"

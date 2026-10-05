@@ -330,7 +330,7 @@ export default function ThankYouPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                 {/* Guidelines Section */}
                 <div>
-                  <h3
+                  <p
                     className="text-center mb-3 md:mb-4 text-lg md:text-xl lg:text-2xl"
                     style={{
                       color: '#0C2756',
@@ -340,7 +340,7 @@ export default function ThankYouPage() {
                     }}
                   >
                     We work with guidelines of:
-                  </h3>
+                  </p>
                   <div className="marquee-container">
                     <div className="marquee-content">
                       <a href="https://msme.gov.in/" target="_blank" rel="noopener noreferrer" className="marquee-item">
@@ -377,7 +377,7 @@ export default function ThankYouPage() {
 
                 {/* Media Coverage Section */}
                 <div>
-                  <h3
+                  <p
                     className="text-center mb-3 md:mb-4 text-lg md:text-xl lg:text-2xl"
                     style={{
                       color: '#0C2756',
@@ -387,7 +387,7 @@ export default function ThankYouPage() {
                     }}
                   >
                     Our media coverages:
-                  </h3>
+                  </p>
                   <div className="marquee-container">
                     <div className="marquee-content marquee-reverse">
                       <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">

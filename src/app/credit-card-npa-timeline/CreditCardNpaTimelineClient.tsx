@@ -614,7 +614,7 @@ export default function CreditCardNpaTimelineClient() {
                     L1
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900">Level 1: Bank Grievance Redressal Officer (GRO)</h4>
+                    <h3 className="font-bold text-slate-900">Level 1: Bank Grievance Redressal Officer (GRO)</h3>
                     <p className="text-slate-600 leading-relaxed text-xs">
                       Submit a formal written complaint detailing agent harassment and call logs. The GRO must provide a formal resolution within 7-10 working days.
                     </p>
@@ -626,7 +626,7 @@ export default function CreditCardNpaTimelineClient() {
                     L2
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900">Level 2: Principal Nodal Officer (PNO)</h4>
+                    <h3 className="font-bold text-slate-900">Level 2: Principal Nodal Officer (PNO)</h3>
                     <p className="text-slate-600 leading-relaxed text-xs">
                       If unresolved, escalate to the bank Principal Nodal Officer and Head of Collections to restrain agencies and initiate settlement talks.
                     </p>
@@ -638,7 +638,7 @@ export default function CreditCardNpaTimelineClient() {
                     L3
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900">Level 3: RBI Integrated Ombudsman</h4>
+                    <h3 className="font-bold text-slate-900">Level 3: RBI Integrated Ombudsman</h3>
                     <p className="text-slate-600 leading-relaxed text-xs">
                       If the bank does not resolve complaints within 30 days, lodge an online complaint via the RBI portal at <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] font-bold hover:underline">cms.rbi.org.in</a>.
                     </p>
@@ -944,9 +944,9 @@ export default function CreditCardNpaTimelineClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Facing Credit Card NPA Escalation?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Our legal debt resolution specialists halt aggressive collection calls, respond to statutory notices, and negotiate a 40% to 55% compromise settlement directly with bank credit desks.
                 </p>
@@ -973,7 +973,7 @@ export default function CreditCardNpaTimelineClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -996,7 +996,7 @@ export default function CreditCardNpaTimelineClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related Debt Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related Debt Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/settle-multiple-credit-cards"

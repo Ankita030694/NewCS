@@ -283,7 +283,7 @@ export default function LoanAgreementDraftingReviewClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -447,7 +447,7 @@ export default function LoanAgreementDraftingReviewClient() {
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Case Studies: Lessons from Real-World Drafting Errors</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The Hidden Prepayment Trap</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The Hidden Prepayment Trap</p>
                                 <p className="text-gray-700 mb-4">
                                     A tech entrepreneur took a 5 crore business loan. He wanted to prepayment early because his company got acquired. The bank demanded a 4% "Prepayment Penalty." The borrower argued he was never told this.
                                 </p>
@@ -457,7 +457,7 @@ export default function LoanAgreementDraftingReviewClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The Personal Guarantee Nightmare</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The Personal Guarantee Nightmare</p>
                                 <p className="text-gray-700 mb-4">
                                     A garment exporter signed a working capital agreement. He thought he was signing as a "Director." In reality, the document had a "Joint and Several Liability" clause that made him a "Personal Guarantor."
                                 </p>
@@ -552,7 +552,7 @@ export default function LoanAgreementDraftingReviewClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Review</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Review</p>
                                 <p className="text-sm text-gray-600 mb-6">Expert analysis of your loan documents to ensure fairness and compliance.</p>
                                 <Link
                                     href="/contact"
@@ -564,7 +564,7 @@ export default function LoanAgreementDraftingReviewClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-documentation-review-of-loan-agreement" className="block text-sm text-blue-600 hover:underline">Drafting Checklist</Link>
                                     <Link href="/best-lawyer-for-loan-agreement" className="block text-sm text-blue-600 hover:underline">Best Agreement Lawyer</Link>

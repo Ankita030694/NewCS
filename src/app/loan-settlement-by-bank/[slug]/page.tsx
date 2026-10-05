@@ -255,7 +255,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
             <div className="hidden lg:block relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-indigo-500 rounded-3xl transform rotate-3 opacity-20 blur-lg"></div>
               <div className="bg-slate-800/80 backdrop-blur-xl border border-slate-700 p-8 rounded-3xl relative shadow-2xl">
-                <h3 className="text-2xl font-bold mb-6 text-white border-b border-slate-600 pb-4">Is {bankName} Settlement Right For You?</h3>
+                <p className="text-2xl font-bold mb-6 text-white border-b border-slate-600 pb-4">Is {bankName} Settlement Right For You?</p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3">
                     <svg className="w-6 h-6 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -297,7 +297,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
           {/* Left Sticky Sidebar: Navigation (25%) */}
           <aside className="lg:col-span-3 hidden lg:block">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 sticky top-24">
-              <h3 className="font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm border-b pb-4">Table of Contents</h3>
+              <p className="font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm border-b pb-4">Table of Contents</p>
               <nav className="space-y-3 text-sm font-medium text-gray-600">
                 <a href="#understanding-debt" className="block hover:text-blue-600 transition-colors py-1">1. Understanding {bankName} Debt Cycle</a>
                 <a href="#what-is-settlement" className="block hover:text-blue-600 transition-colors py-1">2. What is a One-Time Settlement (OTS)?</a>
@@ -369,10 +369,10 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <div className="my-10 p-8 bg-blue-900 text-white rounded-2xl shadow-lg relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white opacity-5 rounded-full -mr-10 -mt-10"></div>
-                <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
+                <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
                   <svg className="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                   Crucial Insight for Borrowers
-                </h4>
+                </h3>
                 <p className="text-blue-100 mb-0">
                   <strong>{bankName}</strong> will almost never offer you a true, deep-discount settlement while your account is in the SMA-0 or SMA-1 phase. If you ask for a settlement too early, they will simply offer to restructure the loan (increase the tenure, reduce the EMI, but charge you more interest over time). True settlement waivers (principal reduction) only unlock after the 90-180 day mark when the debt becomes heavily aged.
                 </p>
@@ -458,28 +458,28 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <div className="space-y-8 mt-8">
                 <div className="bg-white border-l-4 border-blue-600 p-6 shadow-sm">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 1: Financial Hardship Documentation</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 1: Financial Hardship Documentation</h3>
                   <p className="text-gray-600">
                     To convince the credit risk department at <strong>{bankName}</strong> to waive 50% of your debt, you must prove that you genuinely cannot pay it. We help you compile a robust "Hardship Dossier." This includes termination letters, medical bills, bank statements showing depleted savings, or business closure documents. The goal is to prove to the bank that accepting a settlement is their best-case scenario.
                   </p>
                 </div>
 
                 <div className="bg-white border-l-4 border-blue-600 p-6 shadow-sm">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 2: The Initial Proposal via Official Channels</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 2: The Initial Proposal via Official Channels</h3>
                   <p className="text-gray-600">
                     We bypass the low-level recovery agents. They do not have the authority to approve deep waivers. Instead, we initiate formal correspondence via email and registered post to the official channels: <strong>{bankEmails[0] || 'grievance.redressal@bank.com'}</strong> and the specific regional Nodal Officer for <strong>{bankName}</strong>. Our proposal outlines your financial situation and makes a formal, legally structured offer for an OTS.
                   </p>
                 </div>
 
                 <div className="bg-white border-l-4 border-blue-600 p-6 shadow-sm">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 3: The Attrition and Negotiation Stage</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 3: The Attrition and Negotiation Stage</h3>
                   <p className="text-gray-600">
                     <strong>{bankName}</strong> will naturally reject the first offer. They will counter-offer with a much higher amount (e.g., asking for 80% of the total due). This phase requires immense patience. It is a game of financial attrition. Our negotiators, drawing from years of banking experience, push back, citing RBI guidelines and your proven inability to pay. This back-and-forth can take anywhere from 30 to 90 days.
                   </p>
                 </div>
 
                 <div className="bg-white border-l-4 border-green-500 p-6 shadow-sm">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 4: Securing the Official Settlement Letter</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 4: Securing the Official Settlement Letter</h3>
                   <p className="text-gray-600">
                     Once an agreement is reached (e.g., settling a ₹5,000,000 debt for ₹2,000,000), <strong>{bankName}</strong> must issue a formal <strong>Settlement Letter</strong> on their official letterhead. We meticulously review this document to ensure there are no hidden clauses. The letter MUST clearly state:
                   </p>
@@ -492,7 +492,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 </div>
 
                 <div className="bg-white border-l-4 border-green-600 p-6 shadow-sm">
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 5: Payment and Receipt of NOC</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 5: Payment and Receipt of NOC</h3>
                   <p className="text-gray-600">
                     You make the payment directly to your <strong>{bankName}</strong> loan account (never to an agent's personal account). Within 30 to 45 days of the final payment, the bank issues a <strong>No Dues Certificate (NDC)</strong> or No Objection Certificate (NOC). This piece of paper is your ultimate proof of freedom. Keep it safe forever.
                   </p>
@@ -522,7 +522,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <div className="grid md:grid-cols-2 gap-8 mt-8">
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200">
-                  <h4 className="text-xl font-bold text-blue-900 mb-3">{bankName} Credit Cards</h4>
+                  <h3 className="text-xl font-bold text-blue-900 mb-3">{bankName} Credit Cards</h3>
                   <p className="text-gray-700 mb-4">
                     Credit card debt compounds incredibly fast. With interest rates hovering between 36% to 42% annually, plus GST, late fees, and over-limit charges, a small default can quadruple in two years.
                   </p>
@@ -532,7 +532,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200">
-                  <h4 className="text-xl font-bold text-blue-900 mb-3">{bankName} Personal Loans</h4>
+                  <h3 className="text-xl font-bold text-blue-900 mb-3">{bankName} Personal Loans</h3>
                   <p className="text-gray-700 mb-4">
                     Personal loans have a fixed term, a set interest rate (usually 11% to 18%), and a clear amortization schedule. The bank has already given you the hard cash upfront.
                   </p>
@@ -574,7 +574,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-8">
-                <h4 className="text-lg font-bold text-blue-900 mb-2">The CredSettle Credit Rebuilding Roadmap</h4>
+                <h3 className="text-lg font-bold text-blue-900 mb-2">The CredSettle Credit Rebuilding Roadmap</h3>
                 <p className="text-sm text-blue-800">
                   Your financial life does not end with a settlement. Once you receive your NOC from <strong>{bankName}</strong>, we guide you on how to rebuild. The most effective strategy is taking a Fixed Deposit (FD) backed credit card. By using this secured card for daily expenses and paying the bill in full exactly on time every month, you can rebuild your CIBIL score back to the 750+ range within 18 to 24 months, making you eligible for prime loans once again.
                 </p>
@@ -612,35 +612,35 @@ export default async function BankSettlementSlugPage({ params }: Props) {
               
               <div className="space-y-6">
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Can {bankName} deduct money directly from my salary account?</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: Can {bankName} deduct money directly from my salary account?</h3>
                   <p className="text-gray-600">
                     If your salary account and your loan/credit card are with the same institution (i.e., you have a <strong>{bankName}</strong> salary account and a <strong>{bankName}</strong> loan), the bank holds the "Right of Set-Off." They can legally deduct your outstanding dues directly from your incoming salary without prior permission. If you are facing default, we strongly advise immediately shifting your salary to a different bank to protect your livelihood during negotiations.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Will {bankName} send police to my house for unpaid loans?</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: Will {bankName} send police to my house for unpaid loans?</h3>
                   <p className="text-gray-600">
                     Absolutely not. This is the most common scare tactic used by rogue collection agents. Non-payment of a civil debt is not a criminal offense in India. The police have no jurisdiction over bank recovery matters. The only exception is if a court has issued a Non-Bailable Warrant (NBW) because you repeatedly ignored court summons for a cheque bounce case. Even then, it is the court issuing the warrant, not the bank sending the police.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: What happens if I accept a settlement offer but fail to pay the final installment?</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: What happens if I accept a settlement offer but fail to pay the final installment?</h3>
                   <p className="text-gray-600">
                     If you enter into an OTS agreement with <strong>{bankName}</strong> and default on any agreed-upon installment, the entire settlement is instantly revoked. The bank will re-apply all waived interest and penalties to your account, and you will be back at square one. Never agree to a settlement amount unless you are 100% certain you can arrange the funds by the deadline.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: How long does the entire settlement process take?</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: How long does the entire settlement process take?</h3>
                   <p className="text-gray-600">
                     The timeline varies based on how old the debt is. If the debt is relatively fresh (just hit 90 days past due), negotiations can take 2 to 3 months to reach an acceptable waiver percentage. If the debt is much older (1 to 2 years), the bank is usually more desperate to close the account, and a settlement can often be finalized within 30 to 45 days.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Is the forgiven debt considered taxable income?</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: Is the forgiven debt considered taxable income?</h3>
                   <p className="text-gray-600">
                     In some jurisdictions, forgiven debt is considered a "benefit" and may have tax implications under the Income Tax Act. However, for retail individual loans in India, practical enforcement of tax on waived principal is rare. It is always advisable to consult with a Chartered Accountant regarding the specific tax implications of your settled amount.
                   </p>
@@ -677,7 +677,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-inner">
                   <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Secure Your Legal Shield</h3>
+                <p className="text-2xl font-bold mb-3">Secure Your Legal Shield</p>
                 <p className="text-sm mb-8 text-blue-100 leading-relaxed">
                   Stop the harassment today. Engage our lawyers to formally represent you against {bankName} recovery tactics.
                 </p>
@@ -696,7 +696,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
               <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
                 <div className="flex items-center gap-2 mb-4">
                   <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                  <h4 className="font-bold text-gray-800 uppercase text-xs tracking-wider">Official {bankName} Desks</h4>
+                  <p className="font-bold text-gray-800 uppercase text-xs tracking-wider">Official {bankName} Desks</p>
                 </div>
                 <p className="text-xs text-gray-500 mb-4 leading-relaxed">
                   Use these official Nodal/Grievance IDs for written communication. Always keep a digital paper trail of your hardship requests.
@@ -718,7 +718,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               {/* Trust Indicators */}
               <div className="bg-slate-900 text-white p-6 rounded-2xl shadow-lg">
-                <h4 className="font-bold mb-4 text-sm uppercase tracking-wider text-slate-400">Why Trust CredSettle?</h4>
+                <p className="font-bold mb-4 text-sm uppercase tracking-wider text-slate-400">Why Trust CredSettle?</p>
                 <ul className="space-y-4 text-sm text-slate-300">
                   <li className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>

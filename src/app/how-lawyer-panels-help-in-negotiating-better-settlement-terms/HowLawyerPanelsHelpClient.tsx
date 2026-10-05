@@ -210,7 +210,7 @@ export default function HowLawyerPanelsHelpClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -347,10 +347,10 @@ export default function HowLawyerPanelsHelpClient() {
                             
                             <div className="bg-amber-50 border border-amber-200 rounded-3xl p-8 mb-10 relative overflow-hidden shadow-md">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 text-amber-900 uppercase tracking-tight flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 text-amber-900 uppercase tracking-tight flex items-center gap-3">
                                     <span className="w-3 h-8 bg-amber-500 inline-block rounded-full"></span>
                                     The Deception Checklist
-                                </h4>
+                                </p>
                                 <ul className="space-y-4 text-amber-900 font-medium">
                                     <li className="flex items-start gap-3">
                                         <svg className="w-6 h-6 text-amber-600 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -416,13 +416,13 @@ export default function HowLawyerPanelsHelpClient() {
                             
                             <div className="bg-gray-900 text-white p-8 rounded-[2rem] shadow-2xl mb-10 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 blur-[100px] rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-8 text-blue-300 uppercase tracking-widest text-center">The Tactical Resolution Workflow</h4>
+                                <p className="text-2xl font-black mb-8 text-blue-300 uppercase tracking-widest text-center">The Tactical Resolution Workflow</p>
                                 
                                 <div className="space-y-6 relative z-10">
                                     <div className="flex gap-4 items-start">
                                         <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-black text-xl flex-shrink-0 shadow-lg border-2 border-gray-900">1</div>
                                         <div className="bg-gray-800/80 p-5 rounded-2xl border border-gray-700 flex-grow">
-                                            <h5 className="font-bold text-lg mb-1">Immediate Intervention Notice</h5>
+                                            <p className="font-bold text-lg mb-1">Immediate Intervention Notice</p>
                                             <p className="text-gray-400 text-sm leading-relaxed">Lawyers send formal Cease and Desist notices to the bank, explicitly prohibiting any further contact by third party recovery agents and mandating all communication pass through the legal counsel.</p>
                                         </div>
                                     </div>
@@ -432,7 +432,7 @@ export default function HowLawyerPanelsHelpClient() {
                                     <div className="flex gap-4 items-start">
                                         <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-black text-xl flex-shrink-0 shadow-lg border-2 border-gray-900">2</div>
                                         <div className="bg-gray-800/80 p-5 rounded-2xl border border-gray-700 flex-grow">
-                                            <h5 className="font-bold text-lg mb-1">Forensic Account Audit</h5>
+                                            <h3 className="font-bold text-lg mb-1">Forensic Account Audit</h3>
                                             <p className="text-gray-400 text-sm leading-relaxed">The panel legally demands a complete statement of account and dissects it to identify illegal penal interest, unauthorized charges, and unconscionable fees that can be challenged in a tribunal.</p>
                                         </div>
                                     </div>
@@ -442,7 +442,7 @@ export default function HowLawyerPanelsHelpClient() {
                                     <div className="flex gap-4 items-start">
                                         <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-black text-xl flex-shrink-0 shadow-lg border-2 border-gray-900">3</div>
                                         <div className="bg-gray-800/80 p-5 rounded-2xl border border-gray-700 flex-grow">
-                                            <h5 className="font-bold text-lg mb-1">Strategic Hardship Representation</h5>
+                                            <h3 className="font-bold text-lg mb-1">Strategic Hardship Representation</h3>
                                             <p className="text-gray-400 text-sm leading-relaxed">Lawyers draft a highly technical representation letter detailing the borrower\'s financial collapse, backed by ironclad documentation, forcing the bank to acknowledge the impossibility of full recovery.</p>
                                         </div>
                                     </div>
@@ -452,7 +452,7 @@ export default function HowLawyerPanelsHelpClient() {
                                     <div className="flex gap-4 items-start">
                                         <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-black text-xl flex-shrink-0 shadow-lg border-2 border-gray-900">4</div>
                                         <div className="bg-gray-800/80 p-5 rounded-2xl border border-gray-700 flex-grow">
-                                            <h5 className="font-bold text-lg mb-1">Aggressive Haircut Negotiation</h5>
+                                            <h3 className="font-bold text-lg mb-1">Aggressive Haircut Negotiation</h3>
                                             <p className="text-gray-400 text-sm leading-relaxed">Utilizing the threat of regulatory escalation and protracted litigation, the panel systematically drives the settlement figure down, often achieving a massive 50 to 70 percent reduction on the principal.</p>
                                         </div>
                                     </div>
@@ -462,7 +462,7 @@ export default function HowLawyerPanelsHelpClient() {
                                     <div className="flex gap-4 items-start">
                                         <div className="w-12 h-12 rounded-full bg-blue-500 text-white flex items-center justify-center font-black text-xl flex-shrink-0 shadow-[0_0_15px_rgba(59,130,246,0.5)] border-2 border-gray-900">5</div>
                                         <div className="bg-blue-900/30 p-5 rounded-2xl border border-blue-800 flex-grow">
-                                            <h5 className="font-bold text-lg mb-1 text-blue-100">Drafting and NDC Verification</h5>
+                                            <h3 className="font-bold text-lg mb-1 text-blue-100">Drafting and NDC Verification</h3>
                                             <p className="text-gray-300 text-sm leading-relaxed">The panel meticulously reviews the final settlement agreement to eliminate hidden traps, oversees the secure payment process, and legally enforces the mandatory issuance of the final No Dues Certificate.</p>
                                         </div>
                                     </div>
@@ -555,7 +555,7 @@ export default function HowLawyerPanelsHelpClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Default?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Default?</p>
                                 <p className="text-sm text-gray-600 mb-6">Our Lawyer Panel can send an immediate Legal Notice to stop harassment and start negotiation.</p>
                                 <Link
                                     href="/contact"
@@ -573,7 +573,7 @@ export default function HowLawyerPanelsHelpClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Default Defense</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Business Loan Dispute</Link>

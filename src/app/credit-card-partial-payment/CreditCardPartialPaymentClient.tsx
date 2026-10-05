@@ -235,7 +235,7 @@ export default function CreditCardPartialPaymentClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -298,7 +298,7 @@ export default function CreditCardPartialPaymentClient() {
                             
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-2xl mb-8 shadow-sm relative">
                                 <div className="absolute -top-4 -right-4 bg-red-600 text-white px-4 py-1 rounded-full font-bold text-xs uppercase tracking-wider shadow-md">Critical Alert</div>
-                                <h4 className="text-xl font-bold text-red-900 mb-2">Warning: The Minimum Due Trap</h4>
+                                <p className="text-xl font-bold text-red-900 mb-2">Warning: The Minimum Due Trap</p>
                                 <p className="text-red-800 text-sm md:text-base font-light">
                                     When you pay anything less than the total outstanding balance by the due date, you immediately lose your "interest free grace period." From that moment on, every single transaction you have made, and every new transaction you will make, begins accruing interest daily. Paying slightly above the minimum due provides a false sense of security while the bank quietly capitalizes the unbilled interest.
                                 </p>
@@ -318,10 +318,10 @@ export default function CreditCardPartialPaymentClient() {
                             
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     The Payment Allocation Hierarchy:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">Tier 1: Taxes and Government Levies.</strong> The very first slice of your payment goes toward paying any applicable GST or state taxes that were applied to your fees and interest.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">Tier 2: Fees and Penalties.</strong> Next, the bank deducts money to cover late payment fees, overlimit fees, bounce charges, and annual maintenance charges.</li>
@@ -394,10 +394,10 @@ export default function CreditCardPartialPaymentClient() {
                             </p>
                             
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 shadow-md mb-10">
-                                <h4 className="text-xl font-bold mb-4 text-blue-900 flex items-center gap-2">
+                                <p className="text-xl font-bold mb-4 text-blue-900 flex items-center gap-2">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
                                     The Daily Calculation Nightmare
-                                </h4>
+                                </p>
                                 <ul className="list-disc pl-5 space-y-3 text-gray-800 font-light">
                                     <li>The bank takes your APR (e.g., 42%) and divides it by 365 days to get your Daily Periodic Rate.</li>
                                     <li>They track your exact balance at the end of every single day in the billing cycle.</li>
@@ -428,7 +428,7 @@ export default function CreditCardPartialPaymentClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 EMI conversion is mathematically superior to revolving debt because it halts the compounding interest. The bank takes your total outstanding, applies a fixed interest rate (usually lower than the card APR, around 14% to 18%), and spreads it over 12, 24, or 36 months. You now have a clear endpoint.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The Hidden Costs of EMIs:</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The Hidden Costs of EMIs:</p>
                             <ul className="list-decimal pl-6 mb-8 space-y-4 text-gray-700 font-light">
                                 <li><strong>Processing Fees:</strong> Banks charge a substantial processing fee upfront, often 1% to 2% of the converted amount, plus GST.</li>
                                 <li><strong>Pre-closure Penalties:</strong> If you receive a bonus and want to pay off the EMI early, the bank will penalize you, usually charging 3% of the outstanding principal.</li>
@@ -476,7 +476,7 @@ export default function CreditCardPartialPaymentClient() {
                             </p>
                             
                             <div className="bg-gray-50 p-8 rounded-2xl border-l-4 border-blue-500 mb-10">
-                                <h4 className="font-bold text-gray-900 mb-4 uppercase tracking-wider text-sm">Professional Response Script</h4>
+                                <p className="font-bold text-gray-900 mb-4 uppercase tracking-wider text-sm">Professional Response Script</p>
                                 <p className="font-mono text-sm text-gray-800 bg-white p-4 rounded border border-gray-200">
                                     "I am answering this call to officially inform you that due to severe financial hardship, I am unable to maintain the minimum payments on this account. I have stopped making partial payments because they are not resolving the debt. I am formally requesting a restructuring or a full and final settlement based on my current ability to pay. Please register this hardship request in your system and route my file to the settlement desk. I will only communicate in writing via email moving forward."
                                 </p>
@@ -553,7 +553,7 @@ export default function CreditCardPartialPaymentClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Drowning in Debt?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Drowning in Debt?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop making useless partial payments. Let our legal team restructure your obligations.</p>
                                 <Link
                                     href="/contact"
@@ -571,7 +571,7 @@ export default function CreditCardPartialPaymentClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Card Relief Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Card Relief Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/credit-card-settlement-vs-minimum-due" className="block text-sm text-blue-600 hover:underline">Settlement vs Minimum Due</Link>
                                     <Link href="/credit-card-legal-notice-process-next-steps" className="block text-sm text-blue-600 hover:underline">Legal Notice Defense</Link>

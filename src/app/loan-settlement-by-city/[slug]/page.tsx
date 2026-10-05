@@ -256,7 +256,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
               </div>
               <div className="hidden lg:block relative">
                 <div className="bg-slate-800/80 backdrop-blur-xl border border-slate-700 p-8 rounded-3xl relative shadow-2xl">
-                  <h3 className="text-2xl font-bold mb-6 text-white border-b border-slate-600 pb-4">Is Settlement Right For You?</h3>
+                  <p className="text-2xl font-bold mb-6 text-white border-b border-slate-600 pb-4">Is Settlement Right For You?</p>
                   <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                       <svg className="w-6 h-6 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -303,7 +303,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
             {/* Sidebar Navigation */}
             <aside className="lg:col-span-3 hidden lg:block">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 sticky top-24">
-                <h3 className="font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm border-b pb-4">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm border-b pb-4">Table of Contents</p>
                 <nav className="space-y-3 text-sm font-medium text-gray-600">
                   <a href="#introduction" className="block hover:text-blue-600 transition-colors">1. Loan Settlement Overview</a>
                   <a href="#legal-rights" className="block hover:text-blue-600 transition-colors">2. Your Legal Rights</a>
@@ -329,7 +329,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
             <main className="lg:col-span-6 min-w-0">
               <article className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 md:p-12 prose prose-lg prose-blue max-w-none text-gray-700 leading-relaxed">
                 <section id="introduction" className="mb-12 scroll-mt-32">
-                  <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Expert Loan Settlement in {locationName}</h2>
+                  <p className="text-3xl font-extrabold text-gray-900 mb-6">Expert Loan Settlement in {locationName}</p>
                   <p>
                     Facing mounting debt in <strong>{locationName}</strong>? CredSettle provides expert legal representation to help you negotiate with banks and NBFCs. We understand the mental and financial toll of debt, and we are here to fight for your financial freedom. The demand for specialized <strong>loan settlement in {locationName}</strong> has seen a significant rise as more individuals seek legal ways to escape the debt trap of high-interest personal loans and credit cards.
                   </p>
@@ -342,7 +342,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="legal-rights" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Your Rights Against Harassment</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Your Rights Against Harassment</p>
                   <p>
                     Banks and recovery agents must follow the RBI Fair Practices Code. They cannot harass you, use abusive language, or visit your workplace illegally. Once you hire CredSettle for <strong>loan settlement in {locationName}</strong>, we formally notify the bank, and all communication is routed through our legal team, putting an immediate stop to harassment.
                   </p>
@@ -355,7 +355,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="rbi-guidelines" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">RBI Guidelines for Loan Settlement</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">RBI Guidelines for Loan Settlement</p>
                   <p>
                     The Reserve Bank of India has clear frameworks regarding One Time Settlement (OTS). These guidelines are meant to provide a path for recovery of bad loans while offering relief to genuine defaulters. Our expertise in <strong>loan settlement in {locationName}</strong> involves leveraging these very guidelines to ensure that our clients get the most favorable terms possible.
                   </p>
@@ -368,7 +368,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="credit-card-settlement" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Credit Card Settlement in {locationName}</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Credit Card Settlement in {locationName}</p>
                   <p>
                     Credit card debt is often the most stressful due to its compounding interest rates, sometimes exceeding 40% per annum. If you are struggling with a mountain of card debt, <strong>loan settlement in {locationName}</strong> specifically tailored for credit cards can be your lifeline. We work to freeze further interest accumulation and negotiate a lump-sum payment that usually covers only a fraction of the total outstanding amount.
                   </p>
@@ -381,7 +381,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="personal-loan-settlement" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Personal Loan Settlement Strategies</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Personal Loan Settlement Strategies</p>
                   <p>
                     Personal loans, much like credit cards, are unsecured and often have high-interest rates. Whether you took a loan for a wedding, medical emergency, or travel, if you can no longer afford the EMIs, <strong>loan settlement in {locationName}</strong> is a viable legal option. We analyze your loan agreement and repayment history to build a strong case for financial hardship.
                   </p>
@@ -394,7 +394,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="process" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">The CredSettle Settlement Process</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">The CredSettle Settlement Process</p>
                   <p>
                     Our systematic approach to <strong>loan settlement in {locationName}</strong> is designed to be transparent, efficient, and legally sound. We understand that every financial situation is unique, which is why we provide personalized strategies for each of our clients.
                   </p>
@@ -418,7 +418,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="harassment-protection" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Protecting Your Reputation and Peace</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Protecting Your Reputation and Peace</p>
                   <p>
                     Debt often brings social stigma, but it shouldn't. Financial setbacks can happen to anyone. Our <strong>loan settlement in {locationName}</strong> services are discreet and professional. We ensure that the settlement process doesn't disrupt your daily life or your social standing in the city.
                   </p>
@@ -431,7 +431,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="cibil-impact" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Understanding CIBIL Post-Settlement</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Understanding CIBIL Post-Settlement</p>
                   <p>
                     A major concern for anyone seeking <strong>loan settlement in {locationName}</strong> is the impact on their credit score. It's important to be honest: a settlement will reflect as 'Settled' on your CIBIL report, which initially lowers your score. However, this is far better than having multiple 'Default' or 'Written Off' entries that stay for even longer.
                   </p>
@@ -444,7 +444,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="why-choose-us" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Why CredSettle for Loan Settlement in {locationName}?</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Why CredSettle for Loan Settlement in {locationName}?</p>
                   <p>
                     Choosing the right partner for <strong>loan settlement in {locationName}</strong> is crucial. CredSettle stands out due to our legal heritage and our dedicated focus on borrower rights. We are not just a negotiation firm; we are a legal advocacy group committed to financial justice.
                   </p>
@@ -460,7 +460,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="sarfaesi-act" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Navigating SARFAESI and Sec 138 in {locationName}</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Navigating SARFAESI and Sec 138 in {locationName}</p>
                   <p>
                     Many residents seeking <strong>loan settlement in {locationName}</strong> are often already facing legal threats. The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002, and Section 138 of the Negotiable Instruments Act are common legal tools used by banks. Understanding these is vital for any borrower in default.
                   </p>
@@ -476,7 +476,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="diy-risks" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">The Risks of DIY Loan Settlement</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">The Risks of DIY Loan Settlement</p>
                   <p>
                     Some individuals attempt to negotiate <strong>loan settlement in {locationName}</strong> on their own. While this is possible, it comes with significant risks. Banks are experienced negotiators with massive legal departments. An individual borrower often lacks the knowledge of 'benchmark settlement rates' and might end up paying much more than necessary.
                   </p>
@@ -492,7 +492,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="management-vs-settlement" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Debt Management vs. Loan Settlement in {locationName}</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Debt Management vs. Loan Settlement in {locationName}</p>
                   <p>
                     It is important to distinguish between debt management and <strong>loan settlement in {locationName}</strong>. Debt management involves restructuring your loans—perhaps by extending the tenure or slightly reducing the interest rate—to make the monthly payments more affordable. This is often a good option for those who still have a regular income but are temporarily over-leveraged.
                   </p>
@@ -508,7 +508,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="success-stories" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Recent Success Stories in {locationName}</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Recent Success Stories in {locationName}</p>
                   <p>
                     To understand the impact of professional <strong>loan settlement in {locationName}</strong>, consider these real-world examples (names changed for privacy). Last month, we helped a small business owner in {locationName} who was struggling with ₹25 Lakhs in unsecured debt across five different banks. After our intervention, we secured settlements for a total of ₹11 Lakhs, a 56% waiver.
                   </p>
@@ -521,7 +521,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="future-planning" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Life After Loan Settlement in {locationName}</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-6">Life After Loan Settlement in {locationName}</p>
                   <p>
                     Once the <strong>loan settlement in {locationName}</strong> is complete, a new chapter begins. Many worry that they will never get credit again. While it takes time, it is entirely possible to regain creditworthiness. The key is to demonstrate a new, disciplined approach to finances.
                   </p>
@@ -537,7 +537,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="reviews" className="mb-12 scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-8">Client Experiences in {locationName}</h2>
+                  <p className="text-2xl font-bold text-gray-900 mb-8">Client Experiences in {locationName}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
                       <div className="flex items-center gap-1 mb-3">
@@ -565,7 +565,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                   <div className="space-y-6">
                     {faqs.map((faq, index) => (
                       <div key={index} className="border-b border-gray-100 pb-6 last:border-0 hover:bg-gray-50 p-4 rounded-xl transition-colors">
-                        <h4 className="font-bold text-gray-900 mb-2">{faq.question}</h4>
+                        <h3 className="font-bold text-gray-900 mb-2">{faq.question}</h3>
                         <p className="text-gray-600 m-0">{faq.answer}</p>
                       </div>
                     ))}
@@ -579,7 +579,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
             <aside className="lg:col-span-3">
               <div className="sticky top-24 space-y-6">
                 <div className="bg-slate-900 text-white p-8 rounded-3xl shadow-xl relative overflow-hidden">
-                  <h3 className="text-2xl font-bold mb-4">Urgent Help?</h3>
+                  <p className="text-2xl font-bold mb-4">Urgent Help?</p>
                   <p className="text-gray-400 mb-8 text-sm">Speak with our senior debt advisor in {locationName} now.</p>
                   <a href="tel:+918800226635" className="block w-full bg-blue-600 text-center py-4 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg">
                     Call +91-8800226635

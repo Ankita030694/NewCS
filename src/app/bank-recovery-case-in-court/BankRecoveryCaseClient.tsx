@@ -248,7 +248,7 @@ export default function BankRecoveryCaseClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
-                            <h3 className="font-bold text-slate-900 mb-4 text-lg border-b pb-2">Court Navigation</h3>
+                            <p className="font-bold text-slate-900 mb-4 text-lg border-b pb-2">Court Navigation</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -411,7 +411,7 @@ export default function BankRecoveryCaseClient() {
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Under Pressure from a Bank Court Case?</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">Under Pressure from a Bank Court Case?</p>
                                 <p className="text-blue-800 mb-6">Received a summons or an Order 37 notice? Our expert legal team can draft your Leave to Defend, represent you in court, and negotiate a final settlement. Don’t let the bank get an ex-parte decree.</p>
                                 <Link
                                     href="/contact"
@@ -429,7 +429,7 @@ export default function BankRecoveryCaseClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-slate-100 pb-4 last:border-0 hover:bg-slate-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-slate-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-slate-900 mb-2">{faq.question}</p>
                                         <p className="text-slate-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -466,7 +466,7 @@ export default function BankRecoveryCaseClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-slate-900 mb-2">Notice Served?</h4>
+                                <p className="font-bold text-xl text-slate-900 mb-2">Notice Served?</p>
                                 <p className="text-sm text-slate-600 mb-6">If you have been served a court summons, the 10-90 day legal clock has started. Procrastination is the bank’s biggest ally.</p>
                                 <Link
                                     href="/contact"
@@ -483,7 +483,7 @@ export default function BankRecoveryCaseClient() {
 
                             {/* Related Pages */}
                             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
-                                <h4 className="font-bold text-slate-900 mb-4 border-b pb-2">Litigation Links</h4>
+                                <p className="font-bold text-slate-900 mb-4 border-b pb-2">Litigation Links</p>
                                 <nav className="space-y-3">
                                     <Link href="/bank-arbitration-notice-loan" className="block text-sm text-blue-600 hover:underline">Arbitration Notice</Link>
                                     <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Dealing with Notices</Link>

@@ -235,7 +235,7 @@ export default function LoanSettlementHindiClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl shadow-blue-900/5">
-                            <h3 className="font-extrabold text-gray-900 mb-6 text-xl border-b border-blue-100 pb-3">विषय सूची</h3>
+                            <p className="font-extrabold text-gray-900 mb-6 text-xl border-b border-blue-100 pb-3">विषय सूची</p>
                             <nav className="space-y-2 text-sm font-medium">
                                 {navLinks.map((link) => (
                                     <a
@@ -279,7 +279,7 @@ export default function LoanSettlementHindiClient() {
                                 जब एक कर्जदार (Borrower) अपनी वित्तीय तंगी के कारण समय पर ईएमआई (EMI) नहीं दे पाता, तो बैंक लंबी कानूनी लड़ाई के बजाय एक "एकमुश्त समझौते" (One Time Settlement) की पेशकश करता है। इसमें बैंक आपसे कुल बकाया (ब्याज और पेनाल्टी समेत) से बहुत कम राशि लेकर खाता बंद कर देता है।
                             </p>
                             <div className="bg-blue-50 p-10 rounded-[2.5rem] border-2 border-blue-100 mb-10 shadow-inner">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6">मुख्य बातें:</h3>
+                                <p className="text-2xl font-bold text-gray-900 mb-6">मुख्य बातें:</p>
                                 <ul className="space-y-6 text-gray-800 text-lg">
                                     <li><strong>1. आपसी सहमति:</strong> यह बैंक और आपके बीच का एक कॉन्ट्रैक्ट है।</li>
                                     <li><strong>2. छूट (Haircut):</strong> बैंक आपके ब्याज और कभी-कभी मूलधन (Principal) का हिस्सा भी माफ कर देता है।</li>
@@ -351,21 +351,21 @@ export default function LoanSettlementHindiClient() {
                                 <div className="flex gap-6 items-start">
                                     <div className="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-3xl flex-shrink-0 shadow-lg">1</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold mb-4">वित्तीय विश्लेषण (Financial Audit)</h4>
+                                        <p className="text-2xl font-bold mb-4">वित्तीय विश्लेषण (Financial Audit)</p>
                                         <p className="text-gray-600 text-lg leading-relaxed">सबसे पहले तय करें कि आप कितनी राशि एक बार में दे सकते हैं। इसे अपनी आय और खर्चों के आधार पर निकालें।</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 items-start">
                                     <div className="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-3xl flex-shrink-0 shadow-lg">2</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold mb-4">हार्डशिप लेटर (Hardship Letter)</h4>
+                                        <h3 className="text-2xl font-bold mb-4">हार्डशिप लेटर (Hardship Letter)</h3>
                                         <p className="text-gray-600 text-lg leading-relaxed">बैंक शाखा के प्रबंधक को एक पत्र लिखें जिसमें अपनी आर्थिक तंगी (जैसे मेडिकल बिल या नौकरी खोने के दस्तावेज) का जिक्र करें और सेटलमेंट की मांग करें।</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 items-start">
                                     <div className="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-3xl flex-shrink-0 shadow-lg">3</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold mb-4">मोलभाव (Negotiation)</h4>
+                                        <h3 className="text-2xl font-bold mb-4">मोलभाव (Negotiation)</h3>
                                         <p className="text-gray-600 text-lg leading-relaxed">बैंक शुरुआत में बहुत ज्यादा राशि मांगेगा। आपको अपनी मजबूरी बताते हुए अपनी कम राशि पर टिके रहना है। यह प्रक्रिया 2-3 महीने ले सकती है।</p>
                                     </div>
                                 </div>
@@ -379,11 +379,11 @@ export default function LoanSettlementHindiClient() {
                             </p>
                             <div className="space-y-6 mb-10">
                                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
-                                    <h4 className="text-2xl font-bold text-blue-900 mb-2">1. बिज़नेस लोन (Business Loan)</h4>
+                                    <h3 className="text-2xl font-bold text-blue-900 mb-2">1. बिज़नेस लोन (Business Loan)</h3>
                                     <p className="text-gray-700 leading-relaxed">अगर आपका बिज़नेस बंद हो गया है, तो आप GST सरेंडर सर्टिफिकेट या इनकम टैक्स रिटर्न (ITR) दिखाकर बैंक से भारी छूट मांग सकते हैं। पार्टनरशिप लोन में सभी पार्टनर्स की सहमति ज़रूरी होती है।</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
-                                    <h4 className="text-2xl font-bold text-blue-900 mb-2">2. एजुकेशन लोन (Education Loan)</h4>
+                                    <h3 className="text-2xl font-bold text-blue-900 mb-2">2. एजुकेशन लोन (Education Loan)</h3>
                                     <p className="text-gray-700 leading-relaxed">आरबीआई के अनुसार, एजुकेशन लोन को प्राथमिकता वाले क्षेत्र (Priority Sector) में रखा गया है। अगर छात्र की नौकरी नहीं लगी है, तो बैंक सेटलमेंट के बजाय "मोराटोरियम" या "रीपेमेंट हॉलिडे" देने के लिए भी तैयार हो जाते हैं।</p>
                                 </div>
                             </div>
@@ -395,7 +395,7 @@ export default function LoanSettlementHindiClient() {
                                 सुरक्षित लोन का सेटलमेंट अनसिक्योर्ड लोन से बहुत कठिन होता है क्योंकि बैंक के पास आपकी संपत्ति (घर, जेवर, कार) गिरवी होती है।
                             </p>
                             <div className="bg-red-50 p-8 rounded-3xl border border-red-100 mb-10">
-                                <h4 className="text-xl font-bold text-red-900 mb-4">जरूरी चेतावनी:</h4>
+                                <h3 className="text-xl font-bold text-red-900 mb-4">जरूरी चेतावनी:</h3>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. सरफेसी एक्ट (SARFAESI Act):</strong> होम लोन डीफॉल्ट करने पर बैंक इस कानून के तहत आपकी प्रॉपर्टी को सीज कर सकता है।</li>
                                     <li><strong>2. गोल्ड लोन:</strong> अगर आप 90 दिनों तक ब्याज नहीं देते, तो बैंक आपके सोने की नीलामी (Auction) करने का अधिकार रखता है।</li>
@@ -448,21 +448,21 @@ export default function LoanSettlementHindiClient() {
                                 <div className="flex gap-6 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
                                     <div className="w-16 h-16 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">PSU</div>
                                     <div>
-                                        <h4 className="text-xl font-bold mb-2">सरकारी बैंक (SBI, PNB आदि)</h4>
+                                        <h3 className="text-xl font-bold mb-2">सरकारी बैंक (SBI, PNB आदि)</h3>
                                         <p className="text-gray-600 text-base">इनमें नियम बहुत सख्त होते हैं। वे आमतौर पर लोक अदालत या मार्च एंडिंग में ही भारी छूट देते हैं। यहाँ प्रक्रिया धीमी हो सकती है।</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
                                     <div className="w-16 h-16 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">PVT</div>
                                     <div>
-                                        <h4 className="text-xl font-bold mb-2">प्राइवेट बैंक (HDFC, ICICI, Kotak)</h4>
+                                        <h3 className="text-xl font-bold mb-2">प्राइवेट बैंक (HDFC, ICICI, Kotak)</h3>
                                         <p className="text-gray-600 text-base">ये बैंक तेजी से निर्णय लेते हैं। अगर आपका लोन 180 दिनों से ऊपर NPA है, तो ये 20-30% में भी क्लोजर के लिए तैयार हो सकते हैं।</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 p-6 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
                                     <div className="w-16 h-16 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">NBFC</div>
                                     <div>
-                                        <h4 className="text-xl font-bold mb-2">NBFCs (Bajaj Finance, Muthoot आदि)</h4>
+                                        <h3 className="text-xl font-bold mb-2">NBFCs (Bajaj Finance, Muthoot आदि)</h3>
                                         <p className="text-gray-600 text-base">इनके रिकवरी एजेंट बहुत आक्रामक हो सकते हैं, लेकिन ये "Haircut" देने में सबसे ज्यादा उदार होते हैं। यहाँ 80% तक छूट संभव है।</p>
                                     </div>
                                 </div>
@@ -544,7 +544,7 @@ export default function LoanSettlementHindiClient() {
                             </h2>
                             <div className="space-y-8 mb-10">
                                 <div className="p-10 bg-blue-50/50 rounded-[2.5rem] border border-blue-100 shadow-sm">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4">कहानी 1: दिल्ली के सोहन</h4>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-4">कहानी 1: दिल्ली के सोहन</h3>
                                     <p className="text-gray-700 italic border-l-4 border-blue-600 pl-6 text-lg">
                                         "मेरे 3 क्रेडिट कार्ड्स पर 12 लाख का कर्ज था। बैंक मुझे दिन भर डराते थे। मैंने यहाँ से नियम समझे और बैंक को ईमेल करना शुरू किया। आखिरकार, 11 महीने बाद मेरा सेटलमेंट केवल 3.2 लाख में हो गया।"
                                     </p>
@@ -621,11 +621,11 @@ export default function LoanSettlementHindiClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-white border border-gray-100 shadow-md rounded-2xl">
-                                    <h4 className="font-bold text-blue-600 mb-2">क्रेडिट कार्ड</h4>
+                                    <h3 className="font-bold text-blue-600 mb-2">क्रेडिट कार्ड</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">छूट: 70% से 85% तक मुमकिन।<br/>बातचीत का समय: 3-6 महीने बाद।</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 shadow-md rounded-2xl">
-                                    <h4 className="font-bold text-blue-600 mb-2">पर्सनल लोन</h4>
+                                    <h3 className="font-bold text-blue-600 mb-2">पर्सनल लोन</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">छूट: 40% से 60% तक मुमकिन।<br/>बातचीत का समय: 6-9 महीने बाद।</p>
                                 </div>
                             </div>
@@ -680,7 +680,7 @@ export default function LoanSettlementHindiClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                 </div>
-                                <h4 className="font-extrabold text-2xl mb-3">कर्ज मुक्त भारत</h4>
+                                <p className="font-extrabold text-2xl mb-3">कर्ज मुक्त भारत</p>
                                 <p className="text-sm text-blue-100 mb-8 leading-relaxed opacity-90 font-light">बिना किसी डर के बैंक से बातचीत करें और भारी डिस्काउंट पाएं। हम आपके साथ हैं।</p>
                                 <Link
                                     href="/contact"
@@ -692,7 +692,7 @@ export default function LoanSettlementHindiClient() {
 
                             {/* Related Links in Hindi labels */}
                             <div className="bg-white p-8 rounded-[2rem] border border-gray-100 shadow-xl shadow-blue-900/5">
-                                <h4 className="font-black text-gray-900 mb-6 border-b border-blue-50 pb-3 text-lg">महत्वपूर्ण लेख</h4>
+                                <p className="font-black text-gray-900 mb-6 border-b border-blue-50 pb-3 text-lg">महत्वपूर्ण लेख</p>
                                 <nav className="space-y-4 text-sm font-bold">
                                     <Link href="/is-loan-settlement-a-good-option" className="group flex items-center text-gray-600 hover:text-blue-600">
                                         <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span> सेटलमेंट के फायदे-नुकसान

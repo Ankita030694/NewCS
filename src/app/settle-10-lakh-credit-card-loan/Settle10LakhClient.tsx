@@ -140,7 +140,7 @@ export default function Settle10LakhClient() {
                     
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <nav className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm mb-6" aria-label="Table of Contents">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">On This Page</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">On This Page</p>
                             <ul className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <li key={link.id}>
@@ -165,7 +165,7 @@ export default function Settle10LakhClient() {
                         
                         <article className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex flex-col items-center text-center">
                             <Image src="/default-user.svg" alt="Rajesh Kumar Author Profile" width={100} height={100} className="rounded-full mb-4 object-cover opacity-70" />
-                            <h3 className="font-bold text-gray-900 text-lg">Rajesh Kumar</h3>
+                            <p className="font-bold text-gray-900 text-lg">Rajesh Kumar</p>
                             <p className="text-sm text-gray-500 mb-4">Senior Financial & Legal Expert</p>
                             <p className="text-xs text-gray-600">With over a decade of experience resolving high-value debt disputes, Rajesh specializes in securing favorable settlement waivers while shielding clients from recovery harassment.</p>
                         </article>

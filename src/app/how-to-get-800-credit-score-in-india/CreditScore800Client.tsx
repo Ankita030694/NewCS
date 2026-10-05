@@ -225,7 +225,7 @@ export default function CreditScore800Client() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl shadow-blue-900/5">
-                            <h3 className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">The 800 Map</h3>
+                            <p className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">The 800 Map</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -272,7 +272,7 @@ export default function CreditScore800Client() {
                                 To win the game, you must understand the rules. CIBIL and Experian don't pull these numbers out of thin air. They use complex algorithms that weight different aspects of your financial history. In 2025, while the exact formulas remain secret, the weightage distribution has become clear through thousands of data points.
                             </p>
                             <div className="bg-blue-50 p-10 rounded-[2rem] border-2 border-blue-100 mb-10 shadow-inner">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-6">The 800 Algorithm Breakdown:</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-6">The 800 Algorithm Breakdown:</p>
                                 <ul className="space-y-6 text-gray-800 text-lg">
                                     <li><strong>1. Payment History (35%):</strong> This is the giant of the algorithm. Every single on time payment is a "green tick" for your score. Every late payment, even if it is just by 24 hours, is a massive red flag that can take 6 months to recover from.</li>
                                     <li><strong>2. Credit Utilization Ratio (30%):</strong> How much of your credit limit are you using? High utilization signals "Credit Hunger" and stress, even if you pay in full. Low utilization signals control and abundance.</li>
@@ -311,7 +311,7 @@ export default function CreditScore800Client() {
                                 To the CIBIL algorithm, a 75% usage looks like someone who is living on the edge of their means. To get that 800 score, you need your CUR to be <strong>under 30%</strong>, and ideally <strong>under 10%.</strong>
                             </p>
                             <div className="bg-gray-900 text-white p-12 rounded-[2.5rem] mb-10 shadow-2xl">
-                                <h3 className="text-3xl font-bold mb-8 text-blue-300">The 800 Score Utilization Hacks:</h3>
+                                <p className="text-3xl font-bold mb-8 text-blue-300">The 800 Score Utilization Hacks:</p>
                                 <div className="space-y-8">
                                     <div className="flex gap-6">
                                         <div className="w-12 h-12 bg-blue-600 rounded-full flex-shrink-0 flex items-center justify-center font-bold">1</div>
@@ -458,21 +458,21 @@ export default function CreditScore800Client() {
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-100 flex gap-6">
                                     <div className="text-4xl font-black text-blue-300">01</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold text-blue-900 mb-2">Month 1: The Audit</h4>
+                                        <h3 className="text-2xl font-bold text-blue-900 mb-2">Month 1: The Audit</h3>
                                         <p className="text-gray-700 mb-4">Download your full CIBIL and Experian reports. Identify every single account. Dispute any errors. Set up Autopay for everything. Make mid-month payments to bring all card utilization below 10%.</p>
                                     </div>
                                 </div>
                                 <div className="p-8 bg-emerald-50 rounded-3xl border border-emerald-100 flex gap-6">
                                     <div className="text-4xl font-black text-emerald-300">02</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold text-emerald-900 mb-2">Month 2: The Silence</h4>
+                                        <h3 className="text-2xl font-bold text-emerald-900 mb-2">Month 2: The Silence</h3>
                                         <p className="text-gray-700 mb-4">Zero new applications. No hard enquiries. Continue mid-month payments. If you have any small high interest personal loans, try to pre-close one. This improves your debt to income perception.</p>
                                     </div>
                                 </div>
                                 <div className="p-8 bg-purple-50 rounded-3xl border border-purple-100 flex gap-6">
                                     <div className="text-4xl font-black text-purple-300">03</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold text-purple-900 mb-2">Month 3: The verification</h4>
+                                        <h3 className="text-2xl font-bold text-purple-900 mb-2">Month 3: The verification</h3>
                                         <p className="text-gray-700 mb-4">Check if the disputes from Month 1 are resolved. You should see a significant jump by now. Request a credit limit increase on your oldest card. By the end of this month, your "new" behavior will have been reported 3 times, giving the algorithm enough data to trust you more.</p>
                                     </div>
                                 </div>
@@ -494,14 +494,14 @@ export default function CreditScore800Client() {
                             <div className="space-y-8 mb-10">
                                 <div className="p-10 bg-blue-50/50 rounded-[2.5rem] border border-blue-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-blue-600 font-bold text-white rounded-bl-3xl">STORY 1</div>
-                                    <h4 className="text-2xl font-bold text-blue-900 mb-4">The "Utilization" Fix in Pune</h4>
+                                    <h3 className="text-2xl font-bold text-blue-900 mb-4">The "Utilization" Fix in Pune</h3>
                                     <p className="text-gray-700 italic border-l-4 border-blue-600 pl-6 text-lg">
                                         "Rahul had a 745 score and was always paying in full. But he was using 80% of his small 50k limit card every month for fuel and groceries. We told him to start paying the bank 10,000 every week instead of waiting for the bill. His utilization dropped to 5% on the statement. Within 90 days, his score hit 802. He just got a premium metal card with zero joining fee."
                                     </p>
                                 </div>
                                 <div className="p-10 bg-blue-50/50 rounded-[2.5rem] border border-blue-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-blue-600 font-bold text-white rounded-bl-3xl">STORY 2</div>
-                                    <h4 className="text-2xl font-bold text-blue-900 mb-4">The "Error" Recovery in Delhi</h4>
+                                    <h3 className="text-2xl font-bold text-blue-900 mb-4">The "Error" Recovery in Delhi</h3>
                                     <p className="text-gray-700 italic border-l-4 border-blue-600 pl-6 text-lg">
                                         "Sunita found her score stuck at 680 despite no defaults. We checked her report and found a card she closed 4 years ago was still showing as 'Active with Overdue' because of a 100 rupee service charge she didn't know about. We helped her file a dispute and pay that small amount. The bank corrected the status to 'Closed.' Her score shot up to 770 in two months and reached 805 a year later after she added a home loan."
                                     </p>
@@ -594,7 +594,7 @@ export default function CreditScore800Client() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                                     </svg>
                                 </div>
-                                <h4 className="font-black text-2xl text-gray-900 mb-3">Goal: 800+</h4>
+                                <p className="font-black text-2xl text-gray-900 mb-3">Goal: 800+</p>
                                 <p className="text-base text-gray-600 mb-8 leading-relaxed">Stop guessing your score. Get a professional audit and a 12 month roadmap to excellence.</p>
                                 <Link
                                     href="/contact"
@@ -611,7 +611,7 @@ export default function CreditScore800Client() {
 
                             {/* Relevant Deep Dives */}
                             <div className="bg-white p-8 rounded-[2rem] border border-gray-100 shadow-xl shadow-emerald-900/5">
-                                <h4 className="font-black text-emerald-900 mb-6 border-b border-emerald-50 pb-3 text-lg">Essential Reading</h4>
+                                <p className="font-black text-emerald-900 mb-6 border-b border-emerald-50 pb-3 text-lg">Essential Reading</p>
                                 <nav className="space-y-4">
                                     <Link href="/does-loan-settlement-affect-cibil" className="group flex items-center text-sm text-gray-600 hover:text-blue-600">
                                         <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span> Settlement vs. CIBIL

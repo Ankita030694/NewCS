@@ -270,7 +270,7 @@ export default function CheckActiveLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Audit Trail</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Audit Trail</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -551,7 +551,7 @@ export default function CheckActiveLoanClient() {
 
                             {/* Primary Sidebar CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Audit Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Audit Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Don't let ghost loans haunt your future. Engage the 2026 detection pros now.</p>
                                 <Link
                                     href="/contact"
@@ -568,7 +568,7 @@ export default function CheckActiveLoanClient() {
 
                             {/* Related Pages Sidebar */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Steps</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Steps</p>
                                 <nav className="space-y-3">
                                     <Link href="/loan-settlement-for-borrowers-planning-financial-reset" className="block text-sm text-blue-600 hover:underline">Financial Reset Guide</Link>
                                     <Link href="/cred-settle-support-for-avoiding-aggressive-recovery-practices" className="block text-sm text-blue-600 hover:underline">Avoid Harassment</Link>

@@ -265,7 +265,7 @@ export default function CallingGuidelinesClient() {
                     {/* Left ToC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -448,7 +448,7 @@ export default function CallingGuidelinesClient() {
                                 Let us look at two real-world examples from our files where the 7 PM rule changed the life of a borrower.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The Midnight Bot Siege</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The Midnight Bot Siege</p>
                                 <p className="text-gray-700 mb-4">
                                     A borrower from NCR was receiving automated WhatsApp messages at 2 AM for a small personal loan. The messages were threatening and constant.
                                 </p>
@@ -457,7 +457,7 @@ export default function CallingGuidelinesClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The Sunday Night House Visit</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The Sunday Night House Visit</p>
                                 <p className="text-gray-700 mb-4">
                                     In a small town in Karnataka, a recovery agent visited a borrower’s home at 8:30 PM on a Sunday. He was shouting in the street, causing a scene.
                                 </p>
@@ -536,7 +536,7 @@ export default function CallingGuidelinesClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop Night Calls</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop Night Calls</p>
                                 <p className="text-sm text-gray-600 mb-6">Receiving calls after 7 PM? Get a professional analysis of your situation and stop the illegal harassment today.</p>
                                 <Link
                                     href="/contact"
@@ -553,7 +553,7 @@ export default function CallingGuidelinesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-identify-fake-recovery-agents" className="block text-sm text-blue-600 hover:underline">Identify Fake Agents</Link>
                                     <Link href="/rbi-rules-for-recovery-agents" className="block text-sm text-blue-600 hover:underline">Full RBI Rulebook</Link>

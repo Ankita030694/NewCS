@@ -340,7 +340,7 @@ export default function PoliceCaseCreditCardClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Defense TOC</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Defense TOC</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -389,7 +389,7 @@ export default function PoliceCaseCreditCardClient() {
                                 To understand why a police case for credit card debt is so rare, you must understand the two Parallel tracks of the Indian legal system.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h4 className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The Two Tracks:</h4>
+                                <p className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The Two Tracks:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. The Civil Track (Breach of Contract):</strong> A credit card is a contract. If you don’t pay, you "Breach" that contract. The remedy is financial. The bank can sue you for the money, but they cannot ask for your arrest.</li>
                                     <li><strong>2. The Criminal Track (Offenses against the State):</strong> Criminal law is triggered only when there is an Element of Crime (Mens Rea). This includes cheating, forgery, or theft. defaulting on a loan because you lost your job is NOT a crime.</li>
@@ -457,7 +457,7 @@ export default function PoliceCaseCreditCardClient() {
                                 For an FIR to be registered (under BNS 318 / old IPC 420), the bank must provide prima facie evidence of fraud.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
-                                <h4 className="font-bold text-blue-900 mb-4">Valid Grounds for a Criminal FIR:</h4>
+                                <p className="font-bold text-blue-900 mb-4">Valid Grounds for a Criminal FIR:</p>
                                 <ul className="space-y-3 text-gray-800">
                                     <li>1. **Fake Identity:** Using someone else’s PAN or Aadhaar to get the card.</li>
                                     <li>2. **Forged Documents:** Giving a fake salary slip or IT return.</li>
@@ -519,7 +519,7 @@ export default function PoliceCaseCreditCardClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -582,7 +582,7 @@ export default function PoliceCaseCreditCardClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop all illegal police threats and FIR intimidation within 24 hours. Our lawyers handle all bank communication.</p>
                                 <Link
                                     href="/contact"
@@ -599,7 +599,7 @@ export default function PoliceCaseCreditCardClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</p>
                                 <nav className="space-y-3">
                                     <Link href="/bank-filed-fir-for-loan-default" className="block text-sm text-blue-600 hover:underline">FIR for Loan Default</Link>
                                     <Link href="/can-i-go-to-jail-for-loan-default-in-india" className="block text-sm text-blue-600 hover:underline">Jail Risk Realities</Link>

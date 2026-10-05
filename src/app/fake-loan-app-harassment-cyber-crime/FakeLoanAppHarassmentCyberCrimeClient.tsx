@@ -1124,7 +1124,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">Ashish Jhangra</h3>
+                  <p className="font-bold text-slate-900 text-sm sm:text-base">Ashish Jhangra</p>
                   <p className="text-xs text-slate-500 font-medium">Legal &amp; Debt Resolution Professional</p>
                 </div>
               </div>
@@ -1139,9 +1139,9 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <Lock className="w-3 h-3 text-white" />
                 <span>100% Confidential Support</span>
               </div>
-              <h3 className="text-lg sm:text-xl font-black leading-tight">
+              <p className="text-lg sm:text-xl font-black leading-tight">
                 Facing Fake Loan App Blackmail?
-              </h3>
+              </p>
               <p className="text-xs text-white/90 leading-relaxed">
                 Do not pay extortion money. Get instant institutional legal protection, cyber FIR filing assistance, and stop harassment calls permanently.
               </p>
@@ -1164,7 +1164,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
 
             {/* Card 3: CredSettle Trust Commitments */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs text-slate-600">
-              <h4 className="font-bold text-slate-900 text-sm">CredSettle Trust Commitments</h4>
+              <p className="font-bold text-slate-900 text-sm">CredSettle Trust Commitments</p>
               <ul className="space-y-2.5">
                 <li className="flex items-start gap-2">
                   <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -1187,7 +1187,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related Legal Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related Legal Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/7-day-loan-app-harassment-morphed-photos"

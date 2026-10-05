@@ -299,7 +299,7 @@ export default function CanYouGetLoanAgainClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -348,11 +348,11 @@ export default function CanYouGetLoanAgainClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-100 shadow-sm group hover:bg-white transition-all">
-                                    <h4 className="font-bold text-blue-900 mb-3 text-lg uppercase tracking-wider italic">1. The Numerical Score</h4>
+                                    <p className="font-bold text-blue-900 mb-3 text-lg uppercase tracking-wider italic">1. The Numerical Score</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">This is the 300 to 900 range. After a settlement, your score might crash to 600 or less. However, this is the easiest part to fix. By following specific "Score Pushing" steps, you can get back to 750+ within 18 to 24 months.</p>
                                 </div>
                                 <div className="p-8 bg-red-50 rounded-3xl border border-red-100 shadow-sm group hover:bg-white transition-all">
-                                    <h4 className="font-bold text-red-900 mb-3 text-lg uppercase tracking-wider italic">2. The Account Status</h4>
+                                    <p className="font-bold text-red-900 mb-3 text-lg uppercase tracking-wider italic">2. The Account Status</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">This is the qualitative mark. The word "Settled" stays in your detailed history for 7 years. Even if your score is 800, an underwriter might reject you because the "Status" tells them you caused a past loss.</p>
                                 </div>
                             </div>
@@ -364,15 +364,15 @@ export default function CanYouGetLoanAgainClient() {
                             <div className="space-y-8 mb-12">
                                 <div className="p-10 bg-slate-900 text-white rounded-[2rem] shadow-xl relative overflow-hidden group">
                                     <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-1000"></div>
-                                    <h4 className="text-2xl font-bold mb-4 text-blue-400 font-serif">Year 1: The "Cooling-Off" Phase</h4>
+                                    <h3 className="text-2xl font-bold mb-4 text-blue-400 font-serif">Year 1: The "Cooling-Off" Phase</h3>
                                     <p className="font-light opacity-80 leading-relaxed">Zero chance of any unsecured loan. Total exclusion from the formal banking system. Your only goal this year is to reach 12 months of zero missed payments on anything else.</p>
                                 </div>
                                 <div className="p-10 bg-gray-50 border border-gray-200 rounded-[2rem] shadow-sm relative overflow-hidden group hover:bg-white hover:border-blue-200 transition-all">
-                                    <h4 className="text-2xl font-bold mb-4 text-gray-900 font-serif">Year 2-3: The "Rebuilder" Phase</h4>
+                                    <h3 className="text-2xl font-bold mb-4 text-gray-900 font-serif">Year 2-3: The "Rebuilder" Phase</h3>
                                     <p className="text-gray-600 font-light leading-relaxed">Eligibility for Secured Credit Cards and Small Micro-loans (like Buy Now Pay Later or small cash loans from Fintechs). Your score starts moving toward 700.</p>
                                 </div>
                                 <div className="p-10 bg-blue-600 text-white rounded-[2rem] shadow-xl relative overflow-hidden group">
-                                    <h4 className="text-2xl font-bold mb-4 text-white font-serif">Year 4-5: The "Mainstream RE-entry" Phase</h4>
+                                    <h3 className="text-2xl font-bold mb-4 text-white font-serif">Year 4-5: The "Mainstream RE-entry" Phase</h3>
                                     <p className="font-light opacity-90 leading-relaxed">If your income is strong and your rebuilder history is perfect, NBFCs and even some private banks will consider you for Home Loans or Car Loans, though at a slightly higher interest rate.</p>
                                 </div>
                             </div>
@@ -409,7 +409,7 @@ export default function CanYouGetLoanAgainClient() {
                             </p>
                             <div className="bg-blue-900 text-white p-10 rounded-[2.5rem] mb-12 shadow-2xl relative overflow-hidden group">
                                 <div className="absolute bottom-0 right-0 w-48 h-48 bg-white/5 rounded-full -mb-20 -mr-20 group-hover:scale-150 transition-transform duration-1000"></div>
-                                <h4 className="text-2xl font-bold mb-6 italic underline decoration-blue-400">Survival Checklist for Home Loans:</h4>
+                                <h3 className="text-2xl font-bold mb-6 italic underline decoration-blue-400">Survival Checklist for Home Loans:</h3>
                                 <ul className="space-y-4 font-light leading-relaxed">
                                     <li>1. <strong>The "Clean 36":</strong> Have at least 36 months of perfect repayment on other small debts after the settlement date.</li>
                                     <li>2. <strong>High LTV Sacrifice:</strong> You will likely only get 70% of the property value as a loan, requiring a 30% down payment.</li>
@@ -469,7 +469,7 @@ export default function CanYouGetLoanAgainClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
                                     href="/contact"
@@ -486,7 +486,7 @@ export default function CanYouGetLoanAgainClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/does-loan-settlement-affect-cibil", text: "Deep CIBIL Impact Analysis" },

@@ -299,7 +299,7 @@ export default function SettlementVsConsolidationClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-blue-50/50 p-6 rounded-3xl border border-blue-100/50 shadow-sm backdrop-blur-sm">
-                            <h3 className="font-black text-blue-900 mb-6 text-lg tracking-tight">Comparison Map</h3>
+                            <p className="font-black text-blue-900 mb-6 text-lg tracking-tight">Comparison Map</p>
                             <nav className="space-y-3 text-[13px]">
                                 {navLinks.map((link) => (
                                     <a
@@ -354,11 +354,11 @@ export default function SettlementVsConsolidationClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                 <div className="p-8 bg-white rounded-[2.5rem] border border-blue-50 shadow-md">
-                                    <h4 className="font-black text-blue-900 mb-4 underline decoration-blue-200">The Power of the Haircut</h4>
+                                    <p className="font-black text-blue-900 mb-4 underline decoration-blue-200">The Power of the Haircut</p>
                                     <p className="text-sm text-gray-600 font-light leading-relaxed">Imagine owing 10 lakhs and walking away by paying just 4 lakhs. That is the mathematical allure of settlement. For those with zero savings, it is the only way out.</p>
                                 </div>
                                 <div className="p-8 bg-white rounded-[2.5rem] border border-blue-50 shadow-md">
-                                    <h4 className="font-black text-blue-900 mb-4 underline decoration-blue-200">The Price of the Future</h4>
+                                    <p className="font-black text-blue-900 mb-4 underline decoration-blue-200">The Price of the Future</p>
                                     <p className="text-sm text-gray-600 font-light leading-relaxed">The cost is your reputation. A "Settled" tag is a scarlet letter in the banking world. It tells every future lender that you are a "Loss Maker" for the industry.</p>
                                 </div>
                             </div>
@@ -436,7 +436,7 @@ export default function SettlementVsConsolidationClient() {
 
                             <h2 id="cost-comparison" className="text-3xl md:text-4xl font-black text-blue-950 mb-8 scroll-mt-24">The Math of Savings: A Real-World Example</h2>
                             <div className="bg-gray-50 p-10 rounded-[3rem] border border-gray-100 mb-12">
-                                <h4 className="text-2xl font-black text-blue-900 mb-6 underline decoration-blue-200">Scenario: Owing ₹10 Lakhs in Debt</h4>
+                                <h3 className="text-2xl font-black text-blue-900 mb-6 underline decoration-blue-200">Scenario: Owing ₹10 Lakhs in Debt</h3>
                                 <div className="space-y-8">
                                     <div>
                                         <p className="font-bold text-red-700 mb-2">Path A: Settlement</p>
@@ -539,7 +539,7 @@ export default function SettlementVsConsolidationClient() {
                              <h2 id="comparison-case-studies" className="text-3xl md:text-4xl font-black text-blue-950 mb-8 scroll-mt-24">Victory Stories: Real Comparisons</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 font-light">
                                 <div className="p-10 bg-white rounded-[3rem] border border-blue-50 shadow-xl">
-                                    <h4 className="text-xl font-black text-blue-900 mb-4 italic">The 'Consolidation' Winner</h4>
+                                    <h3 className="text-xl font-black text-blue-900 mb-4 italic">The 'Consolidation' Winner</h3>
                                     <p className="text-gray-600 leading-relaxed mb-4 leading-loose">
                                         Rajesh had 6 credit cards with a total balance of ₹15 Lakhs. His monthly minimum was ₹75,000. He took a 12% consolidation loan for 5 years. His EMI dropped to ₹33,000. 
                                     </p>
@@ -548,7 +548,7 @@ export default function SettlementVsConsolidationClient() {
                                     </p>
                                 </div>
                                 <div className="p-10 bg-white rounded-[3rem] border border-blue-50 shadow-xl">
-                                    <h4 className="text-xl font-black text-blue-900 mb-4 italic">The 'Settlement' Winner</h4>
+                                    <h3 className="text-xl font-black text-blue-900 mb-4 italic">The 'Settlement' Winner</h3>
                                     <p className="text-gray-600 leading-relaxed mb-4 leading-loose">
                                         Priya lost her job during the 2023 tech layoffs. She owed ₹8 Lakhs. Consolidation was rejected by all banks. She settled for a total of ₹3.2 Lakhs using her EPF savings.
                                     </p>
@@ -621,7 +621,7 @@ export default function SettlementVsConsolidationClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
                                 </div>
-                                <h4 className="font-black text-2xl text-blue-950 mb-4">Decision Support</h4>
+                                <p className="font-black text-2xl text-blue-950 mb-4">Decision Support</p>
                                 <p className="text-sm text-gray-500 mb-8 font-light leading-relaxed">Stuck between two choices? Let us run the numbers for you. We provide a custom "Relief Projection" based on your actual data.</p>
                                 <Link
                                     href="/contact"
@@ -633,10 +633,10 @@ export default function SettlementVsConsolidationClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-slate-50 p-8 rounded-[2.5rem] border border-slate-100 shadow-sm">
-                                <h4 className="font-black text-slate-900 mb-6 border-b border-slate-200 pb-2 flex items-center">
+                                <p className="font-black text-slate-900 mb-6 border-b border-slate-200 pb-2 flex items-center">
                                     <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
                                     Deeper Learning
-                                </h4>
+                                </p>
                                 <nav className="space-y-4">
                                     {[
                                         { href: "/personal-loan-settlement", text: "Personal Loan Exit Strategy" },

@@ -200,7 +200,7 @@ export default function LoanRecoveryDocumentationClient() {
                     {/* Left TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a key={link.id} href={`#${link.id}`}
@@ -256,23 +256,23 @@ export default function LoanRecoveryDocumentationClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">1. Primary Loan Documents</h4>
+                                    <p className="font-bold text-gray-900 mb-2">1. Primary Loan Documents</p>
                                     <p className="text-gray-600 text-sm">The original loan application, sanction letter, loan agreement, security creation documents (mortgage deed, hypothecation deed, pledge agreement), guarantee deeds, and insurance documents. These form the foundation of any recovery action.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">2. Account Records</h4>
+                                    <p className="font-bold text-gray-900 mb-2">2. Account Records</p>
                                     <p className="text-gray-600 text-sm">Loan account statements, interest computation sheets, NPA classification memos, and repayment history records generated from the bank Core Banking System. These are submitted as certified copies under the Bankers Books Evidence Act.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">3. Statutory Recovery Notices</h4>
+                                    <p className="font-bold text-gray-900 mb-2">3. Statutory Recovery Notices</p>
                                     <p className="text-gray-600 text-sm">Section 13(2) SARFAESI demand notices, Section 13(4) possession notices, Section 13(8) sale notices, and demand notices under the RDDBFI Act. Each has strict content and service requirements.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">4. Court Pleadings and Applications</h4>
+                                    <p className="font-bold text-gray-900 mb-2">4. Court Pleadings and Applications</p>
                                     <p className="text-gray-600 text-sm">Original Applications (OA) in DRT, Written Statements, Counter-Claims, Section 17 Securitization Applications, Interim Applications for stay orders, Affidavits of Evidence, and Appeals before DRAT.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">5. Expert Reports and Forensic Documents</h4>
+                                    <p className="font-bold text-gray-900 mb-2">5. Expert Reports and Forensic Documents</p>
                                     <p className="text-gray-600 text-sm">Chartered Accountant forensic audit reports, independent property valuation reports, expert witness affidavits, and technical reports challenging bank account computations. These are supplementary evidence documents with significant impact.</p>
                                 </div>
                             </div>
@@ -368,19 +368,19 @@ export default function LoanRecoveryDocumentationClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-5 bg-red-50 border border-red-100 rounded-2xl">
-                                    <h4 className="font-bold text-red-900 mb-2">Error Category 1: Defective Bankers Books Certification</h4>
+                                    <h3 className="font-bold text-red-900 mb-2">Error Category 1: Defective Bankers Books Certification</h3>
                                     <p className="text-gray-700 text-sm">The most frequent challenge to bank account statements. The Section 2A certificate must be signed by a specifically authorized officer (Manager level or above as per RBI guidelines), must contain a specific declaration about the accuracy of the copy, and must identify the original book from which the extract is taken. Missing any element makes the certificate invalid.</p>
                                 </div>
                                 <div className="p-5 bg-amber-50 border border-amber-100 rounded-2xl">
-                                    <h4 className="font-bold text-amber-900 mb-2">Error Category 2: Wrong Outstanding Amount in Section 13(2) Notice</h4>
+                                    <h3 className="font-bold text-amber-900 mb-2">Error Category 2: Wrong Outstanding Amount in Section 13(2) Notice</h3>
                                     <p className="text-gray-700 text-sm">Banks sometimes issue SARFAESI demand notices with an outstanding amount that includes future interest not yet accrued, or excludes credits that were received and not applied. If the amount in the notice does not match the account statement on that date, the entire notice is potentially void.</p>
                                 </div>
                                 <div className="p-5 bg-blue-50 border border-blue-100 rounded-2xl">
-                                    <h4 className="font-bold text-blue-900 mb-2">Error Category 3: Service Issues with Demand Notices</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Error Category 3: Service Issues with Demand Notices</h3>
                                     <p className="text-gray-700 text-sm">Sending the Section 13(2) notice to an outdated address, failing to serve all co-borrowers and guarantors separately, or not following the prescribed mode of service (registered post, speed post, or personal service) are service-related defects that can invalidate the notice.</p>
                                 </div>
                                 <div className="p-5 bg-green-50 border border-green-100 rounded-2xl">
-                                    <h4 className="font-bold text-green-900 mb-2">Error Category 4: Limitation Period Lapses</h4>
+                                    <h3 className="font-bold text-green-900 mb-2">Error Category 4: Limitation Period Lapses</h3>
                                     <p className="text-gray-700 text-sm">Filing a DRT Original Application after the three-year limitation period from the date the debt became due, or filing a Section 17 SA after the 45-day window from the SARFAESI action being challenged, are fatal technical defects that courts strictly enforce.</p>
                                 </div>
                             </div>
@@ -450,15 +450,15 @@ export default function LoanRecoveryDocumentationClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">1. Section 13(2) SARFAESI Demand Notice</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">1. Section 13(2) SARFAESI Demand Notice</h3>
                                     <p className="text-gray-600 text-sm">This is the most formal notice in loan recovery. It must be issued by an officer designated as "Authorized Officer" under the bank SARFAESI policy, must be in the format specified under the Security Interest (Enforcement) Rules, 2002, must clearly specify the outstanding amount and security details, and must demand repayment within 60 days. It must be served on every borrower and guarantor at their last known address.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">2. Section 138 NI Act Demand Notice (Cheque Bounce)</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">2. Section 138 NI Act Demand Notice (Cheque Bounce)</h3>
                                     <p className="text-gray-600 text-sm">This notice must be sent within 30 days of the cheque return memo, must demand the cheque amount within 15 days, and must be sent by registered/speed post. The borrower counter-notice in response is equally important and must be sent within 15 days to preserve defences.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">3. General Demand Notice Before DRT Filing</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">3. General Demand Notice Before DRT Filing</h3>
                                     <p className="text-gray-600 text-sm">While not strictly required by statute before every DRT OA filing, many banks send a general demand notice. This notice helps establish the date of "accrual of cause of action" for limitation purposes. A lawyer ensures this notice is served properly and that it sets the limitation clock running correctly for both the bank and the borrower.</p>
                                 </div>
                             </div>
@@ -466,11 +466,11 @@ export default function LoanRecoveryDocumentationClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Case Studies: Documentation Making the Difference</h2>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Case 1: Defective Bankers Books Certificate in Ahmedabad DRT</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Case 1: Defective Bankers Books Certificate in Ahmedabad DRT</h3>
                                     <p className="text-gray-700">A textile trader in Ahmedabad faced a Rs. 1.1 crore DRT claim. The bank account statement was the primary evidence. The borrower lawyer examined the Bankers Books Evidence Act certificate and found that it was signed by an Assistant Manager, while the RBI circular required at minimum a Manager-level officer. The certificate was challenged as defective. The DRT ruled that the certified account statement was inadmissible without a valid certificate. The bank was compelled to file fresh documents with correct certification, causing a 4-month delay. During this period, the borrower negotiated and settled the matter for Rs. 73 lakhs, saving approximately 33 percent.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Case 2: Missing Section 13(3A) Reply Stayed SARFAESI in Hyderabad</h4>
+                                    <h3 className="font-bold text-green-900 mb-2">Case 2: Missing Section 13(3A) Reply Stayed SARFAESI in Hyderabad</h3>
                                     <p className="text-gray-700">A pharmaceutical company in Hyderabad received a Section 13(2) SARFAESI notice and immediately filed a written representation challenging the outstanding amount calculation. The bank did not respond within 15 days as required. When the bank subsequently issued a Section 13(4) possession notice, the borrower filed a Section 17 SA. The DRT granted an immediate stay on possession, holding that the bank failure to respond to the representation was a procedural lapse that made the subsequent SARFAESI actions premature. The bank ultimately entered settlement discussions and accepted a One-Time Settlement at 68 paise on the rupee.</p>
                                 </div>
                             </div>
@@ -528,7 +528,7 @@ export default function LoanRecoveryDocumentationClient() {
                     {/* Right Column */}
                     <aside className="lg:w-1/4 xl:w-1/5 flex flex-col gap-6 sticky top-14 self-start">
                         <div className="bg-gradient-to-br from-blue-600 to-blue-900 text-white rounded-2xl p-6 shadow-lg">
-                            <h3 className="font-bold text-xl mb-3">Free Documentation Review</h3>
+                            <p className="font-bold text-xl mb-3">Free Documentation Review</p>
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Get expert legal review of all bank recovery documents and DRT filings. Identify defects that can change your case outcome.</p>
                             <ul className="space-y-2 mb-5">
                                 {['DRT Application Preparation', 'SARFAESI Notice Analysis', 'Bankers Books Certification', 'Affidavit Drafting'].map((item, i) => (
@@ -540,7 +540,7 @@ export default function LoanRecoveryDocumentationClient() {
                             </Link>
                         </div>
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</p>
                             <nav className="space-y-2">
                                 {relatedPages.map((page, i) => (
                                     <Link key={i} href={page.href} className="block text-sm text-blue-600 hover:text-blue-800 hover:underline py-1 transition-colors">{page.label}</Link>

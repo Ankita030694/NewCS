@@ -193,7 +193,7 @@ export default function SalaryAccountFrozenClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -266,10 +266,10 @@ export default function SalaryAccountFrozenClient() {
 
             <section className="my-12">
               <div className="bg-white rounded-3xl border-2 border-blue-100 shadow-md p-8">
-                <h4 className="text-2xl font-bold text-blue-900 mb-6 flex items-center">
+                <h3 className="text-2xl font-bold text-blue-900 mb-6 flex items-center">
                   <svg className="w-8 h-8 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                   Emergency Step Checklist
-                </h4>
+                </h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-bold mr-4">1</span>
@@ -356,7 +356,7 @@ export default function SalaryAccountFrozenClient() {
             <section className="my-12">
               <div className="bg-white rounded-3xl border border-gray-200 shadow-sm overflow-hidden">
                 <div className="bg-gray-900 text-white p-6">
-                  <h4 className="text-2xl font-bold uppercase tracking-wide text-center">Legal Action Cost Breakdown</h4>
+                  <h3 className="text-2xl font-bold uppercase tracking-wide text-center">Legal Action Cost Breakdown</h3>
                 </div>
                 <div className="p-0">
                   <table className="w-full text-left border-collapse">
@@ -405,21 +405,21 @@ export default function SalaryAccountFrozenClient() {
 
             <section className="my-12">
               <div className="bg-red-50 rounded-3xl border-2 border-red-200 p-8">
-                <h4 className="text-2xl font-bold text-red-900 mb-6 flex items-center">
+                <h3 className="text-2xl font-bold text-red-900 mb-6 flex items-center">
                   <svg className="w-8 h-8 mr-3 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                   Critical Red Flags
-                </h4>
+                </h3>
                 <div className="space-y-6">
                   <div className="p-6 bg-white rounded-2xl shadow-sm border border-red-100">
-                    <h5 className="font-bold text-xl text-red-800 mb-2">Creating Forged Documents</h5>
+                    <h3 className="font-bold text-xl text-red-800 mb-2">Creating Forged Documents</h3>
                     <p className="text-black">Never attempt to submit fake invoices, forged NOCs, or fabricated emails to the bank or police to explain a suspicious transaction. If caught, this will instantly convert a civil dispute into a serious criminal forgery case.</p>
                   </div>
                   <div className="p-6 bg-white rounded-2xl shadow-sm border border-red-100">
-                    <h5 className="font-bold text-xl text-red-800 mb-2">Abusing Bank Staff</h5>
+                    <h3 className="font-bold text-xl text-red-800 mb-2">Abusing Bank Staff</h3>
                     <p className="text-black">The teller or branch manager did not freeze your account personally. Screaming at bank employees will only result in them calling security and documenting your behavior, which hurts your credibility in any future ombudsman hearing.</p>
                   </div>
                   <div className="p-6 bg-white rounded-2xl shadow-sm border border-red-100">
-                    <h5 className="font-bold text-xl text-red-800 mb-2">Paying Bribes to Unknown Agents</h5>
+                    <h3 className="font-bold text-xl text-red-800 mb-2">Paying Bribes to Unknown Agents</h3>
                     <p className="text-black">Do not pay money to individuals claiming they have "inside contacts" in the cyber cell who can unfreeze your account for a fee. This is almost always a scam, and participating in bribery is illegal.</p>
                   </div>
                 </div>
@@ -468,7 +468,7 @@ export default function SalaryAccountFrozenClient() {
                       {review.name.charAt(0)}
                     </div>
                     <div>
-                      <h4 className="font-bold text-black text-md uppercase tracking-tight">{review.name}</h4>
+                      <p className="font-bold text-black text-md uppercase tracking-tight">{review.name}</p>
                       <p className="text-xs text-blue-600 tracking-widest uppercase font-bold">{review.location} • {review.date}</p>
                     </div>
                   </div>
@@ -501,7 +501,7 @@ export default function SalaryAccountFrozenClient() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="font-bold text-xl text-black mb-2">Vikram Desai</h3>
+                <p className="font-bold text-xl text-black mb-2">Vikram Desai</p>
                 <p className="text-blue-600 text-sm font-semibold uppercase tracking-widest mb-4">Senior Legal Counsel</p>
                 <p className="text-black text-sm leading-relaxed mb-6">
                   Specializing in banking disputes, cybercrime account freezes, and consumer protection rights. Fighting for the financial dignity of salaried professionals across India.

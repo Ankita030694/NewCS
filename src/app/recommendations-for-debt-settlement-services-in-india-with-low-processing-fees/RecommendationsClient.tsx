@@ -247,7 +247,7 @@ export default function RecommendationsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -577,7 +577,7 @@ export default function RecommendationsClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Start Your Journey to Debt Freedom Today</h2>
+                  <h3 className="text-3xl font-bold mb-4">Start Your Journey to Debt Freedom Today</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don’t let overwhelming debt control your life. Get expert recommendations and a free assessment with our low processing fee service.</p>
                   <Link 
                     href="/contact"
@@ -600,7 +600,7 @@ export default function RecommendationsClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Need Help Now?</h4>
+                <p className="font-bold text-2xl mb-4">Need Help Now?</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing calls from recovery agents? Get legal protection and expert negotiation today.</p>
                 <Link 
                   href="/contact"
@@ -626,7 +626,7 @@ export default function RecommendationsClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Quick Links</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

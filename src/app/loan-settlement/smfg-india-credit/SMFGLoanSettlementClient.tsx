@@ -127,7 +127,7 @@ export default function SMFGLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -167,7 +167,7 @@ export default function SMFGLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Why CredSettle?</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Why CredSettle?</h3>
                 <p className="text-blue-800 m-0">
                   We bridge the gap between you and the lender. By handling all communication legally and professionally, we stop the harassment and negotiate the best possible settlement terms for you, allowing you to focus on rebuilding your life.
                 </p>
@@ -196,11 +196,11 @@ export default function SMFGLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">Loan Type</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Loan Type</h3>
                   <p className="text-gray-600 text-sm">Settlement is applicable primarily to unsecured loans like <strong>Personal Loans</strong> (Instaloan) and unsecured Business Loans. Secured loans (Against Property/Gold) are harder to settle as they have collateral.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">Default Duration</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Default Duration</h3>
                   <p className="text-gray-600 text-sm">Accounts that are in default for more than 90 days (NPA) are prime candidates. It is very difficult to settle a "Standard" account that is up to date.</p>
                 </div>
               </div>
@@ -208,15 +208,15 @@ export default function SMFGLoanSettlementClient() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Acceptable Hardship Reasons</h3>
               <div className="space-y-6 mb-10">
                 <div className="bg-white border-l-4 border-yellow-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Job Loss / Pay Cuts</h4>
+                  <h3 className="font-bold text-gray-900">Job Loss / Pay Cuts</h3>
                   <p className="text-gray-700 mt-1">Termination letters or bank statements showing a drop in salary are strong evidence.</p>
                 </div>
                 <div className="bg-white border-l-4 border-yellow-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Medical Emergencies</h4>
+                  <h3 className="font-bold text-gray-900">Medical Emergencies</h3>
                   <p className="text-gray-700 mt-1">Hospital bills or medical reports for yourself or immediate family members.</p>
                 </div>
                 <div className="bg-white border-l-4 border-yellow-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Business Loss</h4>
+                  <h3 className="font-bold text-gray-900">Business Loss</h3>
                   <p className="text-gray-700 mt-1">GST returns or balance sheets showing a significant dip in revenue/profitability.</p>
                 </div>
               </div>
@@ -229,7 +229,7 @@ export default function SMFGLoanSettlementClient() {
               <div className="space-y-8 mb-12">
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Stop the Panic</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Stop the Panic</h3>
                   <p className="text-gray-700">
                     First, we advise clients to stop engaging in verbal arguments with recovery agents. Direct all communication through legal channels. We help you draft a representation letter to the lender.
                   </p>
@@ -237,7 +237,7 @@ export default function SMFGLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Submit Settlement Proposal</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Submit Settlement Proposal</h3>
                   <p className="text-gray-700">
                     We formally submit a proposal to SMFG India Credit’s authorized officers. This can be done physically at the branch or via their official channels (e.g., emailing <strong>namaste@smfgindia.com</strong> with legal cc). The proposal highlights your hardship and offers a realistic settlement amount.
                   </p>
@@ -245,7 +245,7 @@ export default function SMFGLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Negotiation</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Negotiation</h3>
                   <p className="text-gray-700">
                    This is the toughest phase. The bank will demand near-full payment. Our experts negotiate back and forth, citing RBI guidelines and your proven inability to pay, to bring the amount down to 30-50% of the outstanding.
                   </p>
@@ -253,7 +253,7 @@ export default function SMFGLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">The Settlement Letter</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">The Settlement Letter</h3>
                   <p className="text-gray-700">
                     Once terms are agreed, SMFG India Credit will issue a formal <strong>Settlement Letter</strong>. This document is crucial. It must clearly state the settlement amount, date of payment, and that the loan will be fully extinguished upon payment. *Never pay without this letter.*
                   </p>
@@ -261,7 +261,7 @@ export default function SMFGLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Payment & NOC</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Payment & NOC</h3>
                   <p className="text-gray-700">
                     You pay the agreed amount directly to your loan account (via NEFT/RTGS or the mConnect app). Do not pay cash to agents. After payment, the <strong>No Dues Certificate (NOC)</strong> is issued within 2-3 weeks.
                   </p>
@@ -292,7 +292,7 @@ export default function SMFGLoanSettlementClient() {
               
               <div className="grid gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">Arbitration Proceedings</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">Arbitration Proceedings</h3>
                   <p className="text-gray-700">
                     Your agreement likely has an arbitration clause. The lender may appoint an arbitrator to get a swift decree for recovery. If you receive an arbitration notice, <strong>do not ignore it</strong>. An <em>ex-parte</em> order (passed in your absence) can lead to attachment of bank accounts.
                     <br/><span className="text-blue-600 font-semibold">Our Role:</span> We provide legal representation to attend these hearings (physically or virtually) to contest the claims and push for a mutual settlement.
@@ -361,7 +361,7 @@ export default function SMFGLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Settle SMFG Loan</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Settle SMFG Loan</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal help to save up to 50% on dues.</p>
                 <Link 
                   href="/contact"

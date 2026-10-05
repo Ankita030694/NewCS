@@ -143,7 +143,7 @@ export default function Settle15LakhClient() {
         {/* Left Sidebar (Sticky TOC) */}
         <aside className="hidden lg:block lg:w-1/4">
           <div className="sticky top-28 h-fit bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
-            <h3 className="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-3">Table of Contents</h3>
+            <p className="text-lg font-bold text-gray-900 mb-4 border-b border-gray-100 pb-3">Table of Contents</p>
             <nav className="flex flex-col space-y-3">
               {sections.map((section) => (
                 <button
@@ -170,9 +170,9 @@ export default function Settle15LakhClient() {
           >
             {/* Quick Answer Block */}
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-2xl mb-10">
-              <h3 className="text-blue-900 font-bold text-lg mt-0 mb-2 flex items-center">
+              <p className="text-blue-900 font-bold text-lg mt-0 mb-2 flex items-center">
                 <span className="text-2xl mr-2">💡</span> Quick Answer
-              </h3>
+              </p>
               <p className="mb-0">
                 <strong>Yes, you can settle a ₹15 Lakh personal loan in India.</strong> When faced with genuine financial hardship (like job loss or a medical emergency), banks may agree to a one-time settlement (OTS). For an unsecured loan of this size, settlement amounts typically range from <strong>30% to 50%</strong> of the outstanding principal, depending on how long the loan has been in default and your negotiation leverage.
               </p>
@@ -282,7 +282,7 @@ export default function Settle15LakhClient() {
 
             {/* Social Sharing Block */}
             <div className="mt-16 pt-8 border-t border-gray-200">
-              <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">Share this Guide</h3>
+              <p className="text-lg font-bold text-gray-900 mb-4 text-center">Share this Guide</p>
               <div className="flex justify-center space-x-4">
                 <a 
                   href={`https://api.whatsapp.com/send?text=${encodeURIComponent(shareTitle + " " + shareUrl)}`}
@@ -316,7 +316,7 @@ export default function Settle15LakhClient() {
 
             {/* Sources & References */}
             <div className="mt-12 bg-gray-50 p-6 rounded-2xl border border-gray-100">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">Sources & References</h3>
+              <p className="text-lg font-bold text-gray-900 mb-3">Sources & References</p>
               <ul className="text-sm space-y-2 text-gray-600 list-disc pl-5">
                 <li>
                   <a href="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12513" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
@@ -364,7 +364,7 @@ export default function Settle15LakhClient() {
             {/* CTA Card */}
             <div id="calculate" className="bg-gradient-to-b from-blue-900 to-blue-800 p-6 rounded-3xl shadow-lg border border-blue-700 text-white relative overflow-hidden group">
               <div className="absolute -right-6 -top-6 w-24 h-24 bg-white opacity-10 rounded-full blur-xl group-hover:scale-150 transition-transform duration-500"></div>
-              <h3 className="text-xl font-bold mb-3 relative z-10">Stop Harassment Today</h3>
+              <p className="text-xl font-bold mb-3 relative z-10">Stop Harassment Today</p>
               <p className="text-blue-100 text-sm mb-6 relative z-10">
                 Get a legal shield against recovery agents and negotiate a settlement of up to 50% waiver on your ₹15 Lakh loan.
               </p>

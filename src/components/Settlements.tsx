@@ -466,12 +466,12 @@ export default function Settlements() {
                 >
                   💳
                 </div>
-                <h3 
+                <p 
                   className="font-semibold text-lg mb-2"
                   style={{ color: '#0C2756' }}
                 >
                   View Settlement
-                </h3>
+                </p>
                 <p 
                   className="text-sm leading-relaxed"
                   style={{ color: '#64748b' }}
@@ -859,12 +859,12 @@ export default function Settlements() {
                   >
                     💳
                   </div>
-                  <h3
+                  <p
                     className="font-semibold text-sm mb-2"
                     style={{ color: '#0C2756' }}
                   >
                     View Settlement
-                  </h3>
+                  </p>
                   <p
                     className="text-xs leading-relaxed"
                     style={{ color: '#64748b' }}

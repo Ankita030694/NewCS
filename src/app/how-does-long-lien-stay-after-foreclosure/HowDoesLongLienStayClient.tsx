@@ -235,7 +235,7 @@ export default function HowDoesLongLienStayClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Lien Removal Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Lien Removal Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -298,10 +298,10 @@ export default function HowDoesLongLienStayClient() {
                             
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     Legal Warning: Unreleased Liens
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. The 30 Day RBI Mandate:</strong> Under the RBI's Fair Practices Code and recent circulars regarding the release of property documents, regulated entities (banks and NBFCs) must release all original movable or immovable property documents and remove charges registered with any registry within 30 days after full repayment or settlement of the loan account.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Compensation for Delay:</strong> If the bank fails to release the original documents or the NOC within the 30 day window, the RBI mandates that the bank shall compensate the borrower at the rate of Rupees 5,000 for each day of delay. This is a powerful rule that borrowers rarely enforce due to a lack of awareness.</li>
@@ -322,7 +322,7 @@ export default function HowDoesLongLienStayClient() {
                                 Securing the NOC from the bank is the first major hurdle. The second phase involves navigating the bureaucracy of government registries to finalize the hypothecation cancellation. The process differs significantly between a vehicle loan (handled by the RTO) and a property loan (handled by the sub registrar of assurances).
                             </p>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The RTO Process for Auto Loans</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The RTO Process for Auto Loans</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When you buy a vehicle on a loan, the RTO registers the vehicle in your name but marks a hypothecation endorsement in favor of the financing bank on the Registration Certificate (RC). To remove this, follow these steps meticulously:
                             </p>
@@ -333,7 +333,7 @@ export default function HowDoesLongLienStayClient() {
                                 <li><strong>Physical Submission:</strong> After online payment, print the fee receipt and the application form. Visit the RTO physically with all original documents and submit the file to the hypothecation desk. The RTO will cancel the old RC and dispatch a new, clean smart card RC to your registered address within 15 to 30 days.</li>
                             </ul>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The Registrar Process for Home Loans</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The Registrar Process for Home Loans</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For property loans, the bank registers a mortgage deed (often a Memorandum of Deposit of Title Deeds or MODT) with the sub registrar. To clear your property title, the registered mortgage must be officially released.
                             </p>
@@ -365,7 +365,7 @@ export default function HowDoesLongLienStayClient() {
                             
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Bank Verification Checklist</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Bank Verification Checklist</p>
                                     <ul className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light space-y-2 list-disc pl-4">
                                         <li>Final payment receipt or Foreclosure Letter acknowledgment.</li>
                                         <li>Loan Account Closure Statement showing a zero balance.</li>
@@ -375,7 +375,7 @@ export default function HowDoesLongLienStayClient() {
                                     </ul>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Property Registry Checklist</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Property Registry Checklist</p>
                                     <ul className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light space-y-2 list-disc pl-4">
                                         <li>All original chain documents returned by the bank.</li>
                                         <li>Drafted and vetted Deed of Reconveyance or Release Deed.</li>
@@ -385,7 +385,7 @@ export default function HowDoesLongLienStayClient() {
                                     </ul>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Vehicle RTO Checklist</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Vehicle RTO Checklist</p>
                                     <ul className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light space-y-2 list-disc pl-4">
                                         <li>Original smart card Registration Certificate (RC).</li>
                                         <li>Valid vehicle insurance policy covering the current date.</li>
@@ -395,7 +395,7 @@ export default function HowDoesLongLienStayClient() {
                                     </ul>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg group hover:bg-green-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Escalation Checklist</h4>
+                                    <p className="text-xl font-bold mb-3 text-green-800 group-hover:text-white transition-all tracking-tight uppercase">Escalation Checklist</p>
                                     <ul className="text-sm text-gray-600 group-hover:text-green-50 transition-all font-light space-y-2 list-disc pl-4">
                                         <li>Written complaint to Branch Manager (Day 1 of delay).</li>
                                         <li>Email to Bank Principal Nodal Officer (Day 15 of delay).</li>
@@ -416,7 +416,7 @@ export default function HowDoesLongLienStayClient() {
 
                             <div className="space-y-8 mb-12">
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Script 1: Addressing the 30 Day RBI Violation</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Script 1: Addressing the 30 Day RBI Violation</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         Use this script when the bank has delayed the NOC issuance beyond 30 days after the final foreclosure payment.
                                     </p>
@@ -425,7 +425,7 @@ export default function HowDoesLongLienStayClient() {
                                     </p>
                                 </div>
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Script 2: Countering the Cross Default Excuse</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Script 2: Countering the Cross Default Excuse</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         Use this script when the bank refuses to issue a car loan NOC because of a separate pending credit card bill or personal loan.
                                     </p>
@@ -464,7 +464,7 @@ export default function HowDoesLongLienStayClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 9: Case Studies: Breaking the Lien Trap</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Case Study 1: The Expired NOC Dilemma (Pune)</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Case Study 1: The Expired NOC Dilemma (Pune)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A software engineer foreclosed his car loan but kept the bank NOC in his drawer for 6 months, unaware of the 90 day validity rule. When he attempted to sell the car, the RTO rejected the expired NOC. The bank refused to issue a duplicate NOC, demanding a fresh processing fee and an updated police verification report, delaying the process by months.
                                     </p>
@@ -473,7 +473,7 @@ export default function HowDoesLongLienStayClient() {
                                     </p>
                                 </div>
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Case Study 2: The Hostage Property Deed (Chennai)</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Case Study 2: The Hostage Property Deed (Chennai)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A business owner cleared his 50 Lakh home loan, but the private bank refused to release the original title deeds or register the release deed. The bank claimed he had defaulted on a separate unsecured business loan and was invoking the general lien clause to hold the residential property as collateral.
                                     </p>
@@ -550,7 +550,7 @@ export default function HowDoesLongLienStayClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">NOC Delayed?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">NOC Delayed?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to force the bank to release your hypothecation.</p>
                                 <Link
                                     href="/contact"
@@ -568,7 +568,7 @@ export default function HowDoesLongLienStayClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/loan-settlement" className="block text-sm text-blue-600 hover:underline">Loan Settlement Guide</Link>
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-sm text-blue-600 hover:underline">Default Notice Defense</Link>

@@ -239,7 +239,7 @@ export default function TopLendersUrgentLoansClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defaulters Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defaulters Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -298,10 +298,10 @@ export default function TopLendersUrgentLoansClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     Cash Flow Based Underwriting Explained:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Bank Account Analytics:</strong> Advanced algorithms analyze your bank statements over the past six to twelve months. They look for consistent income deposits, average monthly balances, and the ratio of inflows to outflows. A healthy bank account can completely overshadow a poor credit score.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Utility and Bill Payments:</strong> Regular payment of electricity bills, mobile phone subscriptions, and rent indicates financial responsibility. Digital lenders often request permission to scan your SMS data to verify these timely payments.</li>
@@ -588,7 +588,7 @@ export default function TopLendersUrgentLoansClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can intervene legally to stop abusive recovery agents and illegal loan apps today.</p>
                                 <Link
                                     href="/contact"
@@ -606,7 +606,7 @@ export default function TopLendersUrgentLoansClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Debt Relief Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Debt Relief Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/personal-loan-settlement" className="block text-sm text-blue-600 hover:underline">Personal Loan Settlement</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">Business Debt Disputes</Link>

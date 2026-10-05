@@ -233,7 +233,7 @@ export default function HowToReplySarfaesiNoticeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -288,12 +288,12 @@ export default function HowToReplySarfaesiNoticeClient() {
                             
                             {/* Visual Section 1: Alert Banner */}
                             <div className="bg-red-50 border-l-8 border-red-600 p-8 rounded-2xl mb-10 shadow-md">
-                                <h4 className="text-2xl font-black text-red-900 mb-4 uppercase tracking-tight flex items-center">
+                                <p className="text-2xl font-black text-red-900 mb-4 uppercase tracking-tight flex items-center">
                                     <svg className="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
                                     </svg>
                                     Critical Deadline Alert
-                                </h4>
+                                </p>
                                 <p className="text-red-800 font-medium leading-relaxed mb-4">
                                     The 60 day countdown begins from the date of the notice, not the date you choose to open the envelope. Every single day counts. If you miss this window without filing a valid Section 13(3A) objection, your options to stop the subsequent possession action are severely restricted. 
                                 </p>
@@ -326,10 +326,10 @@ export default function HowToReplySarfaesiNoticeClient() {
                             {/* Visual Section 2: Checklist */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     The Section 13(3A) Objection Checklist
-                                </h4>
+                                </p>
                                 <p className="text-gray-300 font-light mb-6">To ensure your reply carries maximum legal force, it must include these critical elements:</p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li className="flex items-start">
@@ -410,7 +410,7 @@ export default function HowToReplySarfaesiNoticeClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The format and presentation of your Section 13(3A) objection are just as important as the content. The reply should not be written as a casual letter. It must be structured as a formal legal notice, drafted on the letterhead of an experienced advocate, and dispatched via Registered Post with Acknowledgment Due (RPAD) to ensure you have irrefutable proof of delivery.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">Essential Components of the Format:</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">Essential Components of the Format:</p>
                             <ol className="list-decimal pl-6 mb-8 space-y-4 text-gray-700 font-light">
                                 <li><strong>The Header:</strong> Clearly state "Representation/Objection under Section 13(3A) of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002".</li>
                                 <li><strong>Reference Details:</strong> Accurately quote the loan account number, branch name, the date of the bank's Section 13(2) notice, and the date you actually received it.</li>
@@ -453,7 +453,7 @@ export default function HowToReplySarfaesiNoticeClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 8: Case Studies: Protecting Homes from Auction</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 1: Halting an Illegal Possession in Pune</h4>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 1: Halting an Illegal Possession in Pune</p>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A small business owner received a SARFAESI notice demanding 1.5 Crores. The bank had blatantly capitalized penal interest, violating RBI norms. 
                                     </p>
@@ -462,7 +462,7 @@ export default function HowToReplySarfaesiNoticeClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 2: Protecting Agricultural Land in Punjab</h4>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 2: Protecting Agricultural Land in Punjab</p>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A farmer was served a Section 13(2) notice threatening to auction his ancestral land against an overdue tractor loan. 
                                     </p>
@@ -539,7 +539,7 @@ export default function HowToReplySarfaesiNoticeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Notice Received?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Notice Received?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can draft a legally binding objection to stall the bank's 60 day possession timeline.</p>
                                 <Link
                                     href="/contact"
@@ -557,7 +557,7 @@ export default function HowToReplySarfaesiNoticeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-loan-recovery-cases" className="block text-sm text-blue-600 hover:underline">Loan Recovery Defense</Link>
                                     <Link href="/best-lawyer-for-home-loan-settlement" className="block text-sm text-blue-600 hover:underline">Home Loan Settlement</Link>

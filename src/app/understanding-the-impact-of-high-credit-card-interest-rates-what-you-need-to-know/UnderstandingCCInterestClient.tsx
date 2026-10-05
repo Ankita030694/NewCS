@@ -210,7 +210,7 @@ export default function UnderstandingCCInterestClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -265,7 +265,7 @@ export default function UnderstandingCCInterestClient() {
                                     <svg className="w-6 h-6 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
                                     </svg>
-                                    <h4 className="text-xl font-bold text-red-800 m-0">Critical Warning: The Compounding Debt Trap</h4>
+                                    <p className="text-xl font-bold text-red-800 m-0">Critical Warning: The Compounding Debt Trap</p>
                                 </div>
                                 <p className="text-red-700 m-0 font-normal">
                                     Paying only the minimum due on a high balance credit card is a direct path to financial ruin. The minimum payment is structured by the bank to maximize their interest revenue, not to help you clear your debt. You must act decisively to break this cycle.
@@ -293,7 +293,7 @@ export default function UnderstandingCCInterestClient() {
                             </p>
                             
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-sm my-8">
-                                <h4 className="font-bold text-gray-900 mb-3">The Illusion of the Monthly Rate</h4>
+                                <p className="font-bold text-gray-900 mb-3">The Illusion of the Monthly Rate</p>
                                 <p className="text-gray-700 font-normal m-0">
                                     Credit card statements often display a seemingly benign "Monthly Interest Rate" of 3.5 percent or 4 percent. Do not be fooled. A 3.5 percent monthly rate translates to an APR of 42 percent. When compounded daily, the effective annual cost is even higher.
                                 </p>
@@ -386,10 +386,10 @@ export default function UnderstandingCCInterestClient() {
                             {/* Visual 3: Checklist */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Balance Transfer Checklist
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-normal text-gray-300">
                                     <li className="flex items-start gap-3">
                                         <svg className="w-6 h-6 text-green-400 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -421,7 +421,7 @@ export default function UnderstandingCCInterestClient() {
                             </p>
                             
                             <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 shadow-sm mb-8">
-                                <h4 className="font-bold text-xl text-blue-900 mb-3">The Psychological Benefit of Consolidation</h4>
+                                <p className="font-bold text-xl text-blue-900 mb-3">The Psychological Benefit of Consolidation</p>
                                 <p className="text-gray-700 font-normal m-0">
                                     More importantly, it stops the daily compounding of credit card interest. You regain control over your repayment schedule, knowing exactly when the debt will be fully cleared.
                                 </p>
@@ -527,7 +527,7 @@ export default function UnderstandingCCInterestClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-sm text-gray-600 mb-6 font-normal">Stop the compounding interest trap. Get professional legal intervention today.</p>
                                 <Link
                                     href="/contact"
@@ -544,7 +544,7 @@ export default function UnderstandingCCInterestClient() {
 
                             {/* Related Expertise Link Card */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3 font-normal">
                                     <Link href="/credit-card-settlement" className="block text-sm text-blue-600 hover:underline">Credit Card Settlement Guide</Link>
                                     <Link href="/how-to-settle-loan" className="block text-sm text-blue-600 hover:underline">Loan Settlement Process</Link>

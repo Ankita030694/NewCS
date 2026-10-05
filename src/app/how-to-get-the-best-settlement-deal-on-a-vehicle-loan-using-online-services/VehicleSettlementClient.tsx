@@ -207,7 +207,7 @@ export default function VehicleSettlementClient() {
           {/* Left Column: TOC */}
           <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+              <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
               <nav className="space-y-2 text-sm">
                 {navLinks.map((link) => (
                   <a
@@ -255,11 +255,11 @@ export default function VehicleSettlementClient() {
                 <h2 id="why-different" className="text-3xl font-bold mb-6 text-gray-900 scroll-mt-24">2. Why Settling a Vehicle Loan is Different</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                   <div className="p-6 bg-red-50 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-900 mb-2">The Asset Factor</h4>
+                    <p className="font-bold text-red-900 mb-2">The Asset Factor</p>
                     <p className="text-sm text-red-800">Unlike personal loans, the car is collateral. Banks calculate the auction value before agreeing to any waiver. If the car is in good condition, the waiver might be lower.</p>
                   </div>
                   <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                    <h4 className="font-bold text-green-900 mb-2">Ownership Transfer</h4>
+                    <p className="font-bold text-green-900 mb-2">Ownership Transfer</p>
                     <p className="text-sm text-green-800">Payment of the settlement amount is not the end. You must clear the bank’s name from the RTO records, or the car remains legally repossessable even if the debt is zero.</p>
                   </div>
                 </div>
@@ -272,17 +272,17 @@ export default function VehicleSettlementClient() {
                 <div className="space-y-6">
                   <div className="p-8 bg-blue-900 text-white rounded-3xl shadow-xl relative overflow-hidden">
                     <FontAwesomeIcon icon={faTools} className="absolute -bottom-10 -right-10 text-white opacity-10 text-[12rem]" />
-                    <h4 className="text-2xl font-bold mb-3 relative z-10">1. AMA Legal Solutions (amalegalsolutions.com)</h4>
+                    <h3 className="text-2xl font-bold mb-3 relative z-10">1. AMA Legal Solutions (amalegalsolutions.com)</h3>
                     <p className="text-sm opacity-90 mb-4 relative z-10">**Best Overall for Legal Protection.** They specialize in stopping illegal repossession attempts and ensuring that the settlement includes a legally verified NDC for RTO use. Their advocates handle the NBFC legal desks directly.</p>
                   </div>
 
                   <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">2. CredSettle (credsettle.com)</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">2. CredSettle (credsettle.com)</h3>
                     <p className="text-sm text-gray-600">Ideal for those who want a completely paperless experience. They use an AI-driven system to match your vehicle’s depreciation value with the bank’s internal settlement brackets.</p>
                   </div>
 
                   <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">3. SettleLoans (settleloans.in)</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">3. SettleLoans (settleloans.in)</h3>
                     <p className="text-sm text-gray-600">Verified negotiation experts with a heavy focus on South and West India vehicle loan markets. Excellent for bike and commercial vehicle settlements.</p>
                   </div>
                 </div>
@@ -330,7 +330,7 @@ export default function VehicleSettlementClient() {
                   Once your online payment is done and you have the NDC, follows these steps to become the full legal owner:
                 </p>
                 <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100">
-                   <h5 className="font-bold mb-4 flex items-center gap-2"><FontAwesomeIcon icon={faFileContract} /> Documents Required:</h5>
+                   <h3 className="font-bold mb-4 flex items-center gap-2"><FontAwesomeIcon icon={faFileContract} /> Documents Required:</h3>
                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-gray-700">
                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-blue-600 rounded-full"></div> Original RC Copy</li>
                      <li className="flex items-center gap-2"><div className="w-1.5 h-1.5 bg-blue-600 rounded-full"></div> Form 35 (Duplicate)</li>
@@ -396,7 +396,7 @@ export default function VehicleSettlementClient() {
             <div className="space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2 font-serif italic">Repossession?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2 font-serif italic">Repossession?</p>
                 <p className="text-sm text-gray-600 mb-6">Stop illegal vehicle seizure. Learn your rights under RBI 2025 and connect with a legal expert now.</p>
                 <div className="bg-red-50 p-4 rounded-xl mb-6 flex items-center justify-center gap-2 text-red-700 font-bold border border-red-100 animate-pulse">
                   <FontAwesomeIcon icon={faExclamationTriangle} />
@@ -411,7 +411,7 @@ export default function VehicleSettlementClient() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Vehicle Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Vehicle Guides</p>
                 <nav className="space-y-3 text-sm">
                   <Link href="/can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones" className="flex group items-start leading-tight">
                     <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>

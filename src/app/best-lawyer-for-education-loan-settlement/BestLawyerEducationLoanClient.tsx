@@ -298,7 +298,7 @@ export default function BestLawyerEducationLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -433,7 +433,7 @@ export default function BestLawyerEducationLoanClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Illuminating Case Studies of Student Debt Resolution</h2>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The Total Unemployment Disaster</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The Total Unemployment Disaster</p>
                                 <p className="text-gray-700 mb-4">
                                     A recent engineering graduate accrued massive debt assuming a high algorithmic starting salary. An unexpected macroeconomic tech sector contraction resulted in zero employment offers for eighteen months. The bank immediately harassed his elderly retired parents.
                                 </p>
@@ -442,7 +442,7 @@ export default function BestLawyerEducationLoanClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The SARFAESI Threat</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The SARFAESI Threat</p>
                                 <p className="text-gray-700 mb-4">
                                     A family secured a massive international education loan by pledging their only residential flat. The student faced an extreme medical emergency abroad, failed to complete the degree, and returned to India facing terrifying medical bills and immediate NPA status. The bank initiated fast-track SARFAESI protocols to auction the family home.
                                 </p>
@@ -523,7 +523,7 @@ export default function BestLawyerEducationLoanClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
                                     href="/contact"
@@ -540,7 +540,7 @@ export default function BestLawyerEducationLoanClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-loan-recovery-cases" className="block text-sm text-blue-600 hover:underline">Loan Recovery Lawyers</Link>
                                     <Link href="/does-loan-settlement-affect-cibil" className="block text-sm text-blue-600 hover:underline">CIBIL Impact</Link>

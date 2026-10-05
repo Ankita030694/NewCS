@@ -148,7 +148,7 @@ export default function DmiFinanceLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -192,7 +192,7 @@ export default function DmiFinanceLoanSettlementClient() {
                 <p className="mb-4">
                   For loans taken to purchase Samsung devices, DMI Finance uses <strong>Knox Guard</strong> technology. If you miss an EMI, your phone is locked remotely. This is often the biggest stressor for borrowers.
                 </p>
-                <h4 className="font-bold text-lg mb-2">The Settlement & Unlock Process:</h4>
+                <h3 className="font-bold text-lg mb-2">The Settlement & Unlock Process:</h3>
                 <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -225,7 +225,7 @@ export default function DmiFinanceLoanSettlementClient() {
                 <p className="mb-4">
                   Many users take "Pre-approved Loans" on Google Pay, not realizing DMI Finance is the actual lender.
                 </p>
-                <h4 className="font-bold text-lg mb-2 text-gray-800">Common Issues:</h4>
+                <h3 className="font-bold text-lg mb-2 text-gray-800">Common Issues:</h3>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
                   <li><strong>"Ghost" EMIs:</strong> You pay via GPay, but DMI’s system doesn’t update, showing it as overdue.</li>
                   <li><strong>Settlement Confusion:</strong> Users try to contact Google support, but Google has no authority to settle. You MUST deal with DMI.</li>
@@ -259,16 +259,16 @@ export default function DmiFinanceLoanSettlementClient() {
                   Despite being digital-first, DMI uses physical collection agents. Strategies to stop harassment include:
                 </p>
                 
-                <h4 className="font-bold text-lg mb-4 text-gray-800">Direct Escalation Matrix (Research Verified):</h4>
+                <h3 className="font-bold text-lg mb-4 text-gray-800">Direct Escalation Matrix (Research Verified):</h3>
                 <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h5 className="font-bold text-blue-800 mb-1">Level 1: Grievance Officer</h5>
+                      <h3 className="font-bold text-blue-800 mb-1">Level 1: Grievance Officer</h3>
                       <p className="text-sm text-gray-600 mb-1">Mr. Ashish Sarin</p>
                       <p className="text-xs font-mono text-gray-500">grievance@dmifinance.in</p>
                     </div>
                     <div>
-                      <h5 className="font-bold text-blue-800 mb-1">Level 2: Principal Nodal Officer</h5>
+                      <h3 className="font-bold text-blue-800 mb-1">Level 2: Principal Nodal Officer</h3>
                       <p className="text-sm text-gray-600 mb-1">Mr. Ashish Sarin (Head Services)</p>
                       <p className="text-xs font-mono text-gray-500">head.services@dmifinance.in</p>
                     </div>
@@ -325,7 +325,7 @@ export default function DmiFinanceLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Phone Locked?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Phone Locked?</p>
                 <p className="text-sm text-gray-600 mb-6">Get it unlocked legally through settlement. Don’t pay illegal agents.</p>
                 <Link 
                   href="/contact"

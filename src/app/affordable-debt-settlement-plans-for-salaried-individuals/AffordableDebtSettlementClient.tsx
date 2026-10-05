@@ -311,7 +311,7 @@ export default function AffordableDebtSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -438,19 +438,19 @@ export default function AffordableDebtSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                   <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                    <h4 className="font-bold text-blue-900 mb-3">Expertise and Leverage</h4>
+                    <h3 className="font-bold text-blue-900 mb-3">Expertise and Leverage</h3>
                     <p className="text-sm">Agencies have settled thousands of cases. They know which banks are currently more open to settlements and what the "floor price" for a settlement is.</p>
                   </div>
                   <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                    <h4 className="font-bold text-blue-900 mb-3">Single Point of Contact</h4>
+                    <h3 className="font-bold text-blue-900 mb-3">Single Point of Contact</h3>
                     <p className="text-sm">Instead of dealing with five different banks, you deal with one program coordinator. This simplifies your life and reduces the daily stress of debt management.</p>
                   </div>
                   <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                    <h4 className="font-bold text-blue-900 mb-3">Legal Safeguards</h4>
+                    <h3 className="font-bold text-blue-900 mb-3">Legal Safeguards</h3>
                     <p className="text-sm">With legal support included, you are much better equipped to handle the legal notices and recovery tactics that banks inevitably use.</p>
                   </div>
                   <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                    <h4 className="font-bold text-blue-900 mb-3">Structured Savings</h4>
+                    <h3 className="font-bold text-blue-900 mb-3">Structured Savings</h3>
                     <p className="text-sm">The program forces a level of financial discipline that is often missing. The monthly contribution ensures that you are slowly but surely building the "war chest" needed for settlements.</p>
                   </div>
                 </div>
@@ -575,7 +575,7 @@ export default function AffordableDebtSettlementClient() {
 
               <div className="mt-16 p-8 bg-slate-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Start Your Journey to Financial Freedom?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Start Your Journey to Financial Freedom?</h3>
                   <p className="text-slate-300 mb-8 max-w-2xl mx-auto">Don’t let another month of debt stress go by. Contact us today for a confidential and affordable debt settlement assessment.</p>
                   <Link 
                     href="/contact"
@@ -615,7 +615,7 @@ export default function AffordableDebtSettlementClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-700 to-slate-900 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Get Help Now</h4>
+                <p className="font-bold text-2xl mb-4">Get Help Now</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing aggressive recovery calls? Our legal team is ready to protect you.</p>
                 <Link 
                   href="/contact"
@@ -641,7 +641,7 @@ export default function AffordableDebtSettlementClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/what-are-the-pros-and-cons-of-using-a-debt-settlement-company" className="group flex items-start">

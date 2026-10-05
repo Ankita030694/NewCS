@@ -231,7 +231,7 @@ export default function SecuredVsUnsecuredClient() {
           {/* Left Column: TOC */}
           <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+              <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
               <nav className="space-y-2 text-sm">
                 {navLinks.map((link) => (
                   <a
@@ -272,11 +272,11 @@ export default function SecuredVsUnsecuredClient() {
                 <p className="text-gray-700 leading-relaxed">
                   To understand why settlement is possible for a home loan, we must first understand the fundamental differences in how banks view their risk.
                 </p>
-                <h3 className="text-2xl font-semibold mt-8 mb-4">Unsecured Debt: The Nothing to Lose Scenario</h3>
+                <p className="text-2xl font-semibold mt-8 mb-4">Unsecured Debt: The Nothing to Lose Scenario</p>
                 <p className="text-gray-700 leading-relaxed">
                   For a credit card or a personal loan, the bank has no collateral. If you stop paying, the bank has to go through a long, expensive court process (civil suit) to get a decree against you. Because recovery is uncertain and costly, banks are often willing to accept 20% to 30% of the total outstanding amount just to get something rather than nothing.
                 </p>
-                <h3 className="text-2xl font-semibold mt-8 mb-4">Secured Debt: The Collateral Comfort</h3>
+                <p className="text-2xl font-semibold mt-8 mb-4">Secured Debt: The Collateral Comfort</p>
                 <p className="text-gray-700 leading-relaxed">
                   For a home loan or a car loan, the bank is in a position of strength. They hold the Title Deeds or the Registration Papers. Under the SARFAESI Act, they don’t even need a court’s permission to take over the property if you default. They can simply issue a notice, take possession, and auction it off. Because of this, the waiver (discount) on a secured loan is much lower, typically ranging from 10% to 35%, rarely exceeding 40% unless the property is practically unsellable.
                 </p>
@@ -287,15 +287,15 @@ export default function SecuredVsUnsecuredClient() {
                 <p className="text-gray-700 leading-relaxed font-medium text-blue-900 bg-blue-50 p-6 rounded-xl border-l-4 border-blue-500 mb-6">
                   The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act is the primary law governing secured debt recovery in India. Understanding its timeline is crucial because the best time to settle is often between the legal notices.
                 </p>
-                <h3 className="text-2xl font-semibold mt-8 mb-4">The Default and the 13(2) Notice</h3>
+                <p className="text-2xl font-semibold mt-8 mb-4">The Default and the 13(2) Notice</p>
                 <p className="text-gray-700 leading-relaxed mb-6">
                   When you miss three consecutive EMIs, your loan becomes a Non Performing Asset (NPA). The bank then issues a notice under Section 13(2). This is a 60 Day Demand Notice. It tells you that you have 60 days to pay the entire outstanding amount or the bank will exercise its right to take the property. This is your primary window for a "Soft Negotiation."
                 </p>
-                <h3 className="text-2xl font-semibold mt-8 mb-4">The 13(4) Notice: Symbolic Possession</h3>
+                <p className="text-2xl font-semibold mt-8 mb-4">The 13(4) Notice: Symbolic Possession</p>
                 <p className="text-gray-700 leading-relaxed mb-6">
                   If the 60-day period expires without payment, the bank issues a notice under Section 13(4). They physically put a "Possession Notice" on your property. This is <strong>Symbolic Possession</strong>. You can still live in the house, but you cannot sell it. The bank usually begins the process of appointing an authorized officer for auction at this stage.
                 </p>
-                <h3 className="text-2xl font-semibold mt-8 mb-4">Section 14: Physical Possession</h3>
+                <p className="text-2xl font-semibold mt-8 mb-4">Section 14: Physical Possession</p>
                 <p className="text-gray-700 leading-relaxed">
                   The final stage is when the bank approaches the District Magistrate (DM) or Chief Metropolitan Magistrate (CMM) under Section 14 to get police assistance for <strong>Physical Possession</strong>. Once you are evicted, your leverage for a settlement drops significantly as the bank now has full control of the asset.
                 </p>
@@ -307,7 +307,7 @@ export default function SecuredVsUnsecuredClient() {
                   Banks are under immense pressure to recover NPAs, and in their haste, they often make procedural errors that can be used as leverage in settlement negotiations.
                 </p>
                 <div className="bg-orange-50 p-6 rounded-2xl border border-orange-100 mb-6">
-                  <h4 className="font-bold text-orange-900 mb-4">Common Leverage Points:</h4>
+                  <p className="font-bold text-orange-900 mb-4">Common Leverage Points:</p>
                   <ul className="space-y-3 text-gray-700">
                     <li><strong>Improper Service of Notice:</strong> If the 13(2) notice was not delivered to all co-borrowers or not published in two newspapers (one in vernacular language), the entire proceeding can be stayed in the DRT.</li>
                     <li><strong>Incorrect Outstanding Amount:</strong> If the bank has included penal interest or charges that were not part of the original agreement, the notice is legally flawed.</li>
@@ -324,11 +324,11 @@ export default function SecuredVsUnsecuredClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                   <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
-                    <h4 className="font-bold text-blue-900 mb-2">The Yard Cost Factor</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">The Yard Cost Factor</h3>
                     <p className="text-sm text-gray-700">Banks pay ₹500 to ₹1,500 per day for yard storage and security. Over 6 months, this cost can exceed ₹2 Lakhs, often making it cheaper for the bank to settle for the principal amount than to auction the car.</p>
                   </div>
                   <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
-                    <h4 className="font-bold text-blue-900 mb-2">Auction Realities</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Auction Realities</h3>
                     <p className="text-sm text-gray-700">Second-hand vehicles sold through bank auctions rarely fetch more than 60% of the market value. This gives the borrower a strong position to negotiate an OTS that matches the auction’s expected net recovery.</p>
                   </div>
                 </div>
@@ -361,14 +361,14 @@ export default function SecuredVsUnsecuredClient() {
                   <div className="flex gap-4 items-start">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">1</div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Better Waivers</h4>
+                      <h3 className="font-bold text-gray-900">Better Waivers</h3>
                       <p className="text-gray-700 text-sm leading-relaxed">Since the ARC bought your ₹1 Crore loan for ₹50 Lakhs, if you offer them ₹70 Lakhs as a settlement, they make a ₹20 Lakh profit. A bank, on the other hand, would see that same ₹70 Lakhs as a ₹30 Lakh loss.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 items-start">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 mt-1">2</div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Flexible Structures</h4>
+                      <h3 className="font-bold text-gray-900">Flexible Structures</h3>
                       <p className="text-gray-700 text-sm leading-relaxed">Unlike PSU banks that require rigid committee approvals, ARCs are private entities. They can agree to longer installment plans (up to 12 months) and custom waiver structures that suit your specific cash flow.</p>
                     </div>
                   </div>
@@ -435,7 +435,7 @@ export default function SecuredVsUnsecuredClient() {
                   Most PSU banks (SBI, PNB, Canara) release periodic <strong>Special OTS Schemes</strong> (often during the March or September closing). These schemes usually follow a mathematical formula:
                 </p>
                 <div className="bg-blue-900 text-white p-8 rounded-3xl mb-8 shadow-xl">
-                  <h4 className="font-bold text-xl mb-4 border-b border-blue-700 pb-2">Common OTS Formulae:</h4>
+                  <h3 className="font-bold text-xl mb-4 border-b border-blue-700 pb-2">Common OTS Formulae:</h3>
                   <ul className="space-y-4">
                     <li className="flex items-center gap-3">
                       <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
@@ -543,7 +543,7 @@ export default function SecuredVsUnsecuredClient() {
           <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Start Resolution</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Start Resolution</p>
                 <p className="text-sm text-gray-600 mb-6">Facing a SARFAESI notice? Get professional help today to negotiate the best OTS terms.</p>
                 <button 
                   onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20want%20to%20settle%20my%20loan', '_blank')}
@@ -554,7 +554,7 @@ export default function SecuredVsUnsecuredClient() {
               </div>
 
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                  <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Pieces</h4>
+                  <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Pieces</p>
                   <nav className="space-y-3">
                     <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="flex group items-start">
                       <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>

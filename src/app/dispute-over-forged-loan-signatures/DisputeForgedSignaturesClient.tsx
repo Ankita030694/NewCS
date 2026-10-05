@@ -275,10 +275,10 @@ const DisputeForgedSignaturesClient = () => {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2 border-b pb-2">
+                            <p className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2 border-b pb-2">
                                 <TableOfContents className="w-5 h-5 text-blue-600" />
                                 Guide Outline
-                            </h3>
+                            </p>
                             <nav className="space-y-1">
                                 {[
                                     { id: 'overview', label: 'Section 1: Forgery in Lending' },
@@ -310,7 +310,7 @@ const DisputeForgedSignaturesClient = () => {
                         </div>
 
                         <div className="mt-8 p-8 bg-slate-950 rounded-3xl text-white shadow-xl shadow-slate-200">
-                            <h4 className="text-xl font-bold mb-4 tracking-tight leading-tight italic">Forensic Case Audit</h4>
+                            <p className="text-xl font-bold mb-4 tracking-tight leading-tight italic">Forensic Case Audit</p>
                             <p className="text-slate-300 text-sm mb-6 leading-relaxed">
                                 Have your disputed signatures analyzed by our retired government forensic experts.
                             </p>
@@ -343,7 +343,7 @@ const DisputeForgedSignaturesClient = () => {
                                 The Indian legal system treats the forgery of a loan document as a 'Serious Offense' because a loan agreement qualifies as a **Valuable Security**.
                             </p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-10">
-                                <h4 className="text-lg font-bold mb-4 text-blue-900">Key Statutes Governing Forgery:</h4>
+                                <p className="text-lg font-bold mb-4 text-blue-900">Key Statutes Governing Forgery:</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-4">
                                         <Gavel className="w-5 h-5 text-blue-600 shrink-0 mt-1" />
@@ -408,26 +408,26 @@ const DisputeForgedSignaturesClient = () => {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A forgery dispute is won or lost on the report of the **Handwriting Expert**. Contrary to popular belief, forgery detection is a technical science, not a visual 'matching' game.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic underline decoration-blue-200">What Experts Look For:</h4>
+                            <p className="text-xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic underline decoration-blue-200">What Experts Look For:</p>
                             <div className="space-y-6 mb-10">
                                 <div className="p-6 bg-white border border-slate-100 rounded-2xl shadow-sm flex gap-4 transition-all hover:border-blue-200">
                                     <Fingerprint className="w-8 h-8 text-blue-600 shrink-0" />
                                     <div>
-                                        <h5 className="font-bold text-slate-900 italic underline decoration-slate-100 underline-offset-4">Line Quality & Pen Pressure</h5>
+                                        <p className="font-bold text-slate-900 italic underline decoration-slate-100 underline-offset-4">Line Quality & Pen Pressure</p>
                                         <p className="text-sm text-gray-600">A genuine signature has varying pressure. A forged one is often 'drawn' slowly, showing tremors or constant pressure.</p>
                                     </div>
                                 </div>
                                 <div className="p-6 bg-white border border-slate-100 rounded-2xl shadow-sm flex gap-4 transition-all hover:border-blue-200">
                                     <Search className="w-8 h-8 text-blue-600 shrink-0" />
                                     <div>
-                                        <h5 className="font-bold text-slate-900 italic underline decoration-slate-100 underline-offset-4">Rhythm & Slant</h5>
+                                        <h3 className="font-bold text-slate-900 italic underline decoration-slate-100 underline-offset-4">Rhythm & Slant</h3>
                                         <p className="text-sm text-gray-600">Every person has a biological rhythm in their writing. Forgers rarely replicate the specific angle (slant) and spacing of initial strokes.</p>
                                     </div>
                                 </div>
                                 <div className="p-6 bg-white border border-slate-100 rounded-2xl shadow-sm flex gap-4 transition-all hover:border-blue-200">
                                     <FileText className="w-8 h-8 text-blue-600 shrink-0" />
                                     <div>
-                                        <h5 className="font-bold text-slate-900 italic underline decoration-slate-100 underline-offset-4">Start and Finish Strokes</h5>
+                                        <h3 className="font-bold text-slate-900 italic underline decoration-slate-100 underline-offset-4">Start and Finish Strokes</h3>
                                         <p className="text-sm text-gray-600">How you place the pen down and lift it up is unique. Experts use high-resolution microscopes to detect 'blunts' or 'hooks' that indicate forgery.</p>
                                     </div>
                                 </div>
@@ -441,7 +441,7 @@ const DisputeForgedSignaturesClient = () => {
                                 In multi-crore loan frauds or consortium loan disputes, the police often send the documents to the **Forensic Science Laboratory (FSL)** or the **CBI’s Forensic Division**.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 mb-10">
-                                <h4 className="text-lg font-bold text-blue-900 mb-4 tracking-tighter italic uppercase text-center">The Evidentiary Weight of FSL:</h4>
+                                <h3 className="text-lg font-bold text-blue-900 mb-4 tracking-tighter italic uppercase text-center">The Evidentiary Weight of FSL:</h3>
                                 <ul className="list-disc pl-6 space-y-3 font-light text-gray-800 tracking-tight">
                                     <li><strong>Admissibility:</strong> FSL reports are admissible directly under Section 293 of CrPC (now BNSS 2023).</li>
                                     <li><strong>Ink Analysis:</strong> FSL can determine the age of the ink to prove if a 'Back-dated' agreement was signed recently.</li>
@@ -458,7 +458,7 @@ const DisputeForgedSignaturesClient = () => {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                                 <div className="bg-slate-950 text-white p-8 rounded-[2rem] shadow-xl">
-                                    <h4 className="font-black text-xl mb-4 italic uppercase tracking-tighter text-blue-400">The Criminal Route</h4>
+                                    <h3 className="font-black text-xl mb-4 italic uppercase tracking-tighter text-blue-400">The Criminal Route</h3>
                                     <p className="text-sm opacity-80 mb-6 font-light">Purpose: Punishment and arrest of the fraudsters (including bank staff).</p>
                                     <ul className="text-xs space-y-2 font-bold italic tracking-wider uppercase opacity-90">
                                         <li>- FIR under BNS 338/318</li>
@@ -467,7 +467,7 @@ const DisputeForgedSignaturesClient = () => {
                                     </ul>
                                 </div>
                                 <div className="bg-white border-2 border-slate-950 p-8 rounded-[2rem] shadow-xl">
-                                    <h4 className="font-black text-xl mb-4 italic uppercase tracking-tighter text-blue-900">The Civil Route</h4>
+                                    <h3 className="font-black text-xl mb-4 italic uppercase tracking-tighter text-blue-900">The Civil Route</h3>
                                     <p className="text-sm text-gray-600 mb-6 font-light">Purpose: Obtaining a 'Declaration' that the loan is void and stopping recovery.</p>
                                     <ul className="text-xs space-y-2 font-bold italic tracking-wider uppercase text-slate-900 opacity-80">
                                         <li>- Suit for Declaration & Injunction</li>
@@ -484,21 +484,21 @@ const DisputeForgedSignaturesClient = () => {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The most immediate damage of a forged loan is financial. The bank will deduct EMIs and report 'Defaults' to CIBIL, destroying your future borrowability.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The CredSettle "Clean Sweep" Protocol:</h4>
+                            <h3 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The CredSettle "Clean Sweep" Protocol:</h3>
                             <div className="space-y-6 mb-10">
                                 <div className="relative pl-12 border-l-2 border-slate-100 ml-4 pb-4">
                                     <div className="absolute -left-[17px] top-0 w-8 h-8 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black">01</div>
-                                    <h5 className="font-bold text-slate-900 uppercase tracking-tighter italic">Bank Internal Fraud Unit Notice</h5>
+                                    <h3 className="font-bold text-slate-900 uppercase tracking-tighter italic">Bank Internal Fraud Unit Notice</h3>
                                     <p className="text-sm text-gray-600">We send a technical notice to the bank’s 'Fraud Monitoring Group' (FMG). By law, they must investigate and 'Mark' the account as disputed.</p>
                                 </div>
                                 <div className="relative pl-12 border-l-2 border-slate-100 ml-4 pb-4">
                                     <div className="absolute -left-[17px] top-0 w-8 h-8 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black">02</div>
-                                    <h5 className="font-bold text-slate-900 uppercase tracking-tighter italic">CIBIL Dispute Upload</h5>
+                                    <h3 className="font-bold text-slate-900 uppercase tracking-tighter italic">CIBIL Dispute Upload</h3>
                                     <p className="text-sm text-gray-600">We raise a dispute with CIBIL using the FIR copy. In 2026, CIBIL holds the reporting from the bank 'In Abeyance' if a forgery FIR is provided.</p>
                                 </div>
                                 <div className="relative pl-12 border-l-2 border-slate-100 ml-4">
                                     <div className="absolute -left-[17px] top-0 w-8 h-8 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black">03</div>
-                                    <h5 className="font-bold text-slate-900 uppercase tracking-tighter italic">Cyber Cell Engagement</h5>
+                                    <h3 className="font-bold text-slate-900 uppercase tracking-tighter italic">Cyber Cell Engagement</h3>
                                     <p className="text-sm text-gray-600">If the loan was digital, we engage the Cyber Police to trace the IP address and device ID used, proving you were miles away from the transaction.</p>
                                 </div>
                             </div>
@@ -508,7 +508,7 @@ const DisputeForgedSignaturesClient = () => {
                                 As we enter 2026, banks are increasingly using 'Automated Recovery.' You need an equally automated legal defense.
                             </p>
                             <div className="p-8 bg-blue-50 rounded-[3rem] border border-blue-100 mb-10">
-                                <h4 className="text-lg font-black text-blue-900 mb-4 italic uppercase text-center leading-none">The 2026 Legal Shield:</h4>
+                                <h3 className="text-lg font-black text-blue-900 mb-4 italic uppercase text-center leading-none">The 2026 Legal Shield:</h3>
                                 <ul className="space-y-4">
                                     <li className="flex gap-4">
                                         <ShieldCheck className="w-6 h-6 text-blue-600 shrink-0" />
@@ -533,7 +533,7 @@ const DisputeForgedSignaturesClient = () => {
                                 As paper-based loans diminish, fraudsters have shifted to **Digital Identity Theft**. In 2025-26, we are seeing a surge in 'Deepfake Signatures' where a borrower’s video KYC is manipulated to sign digital contracts.
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] shadow-2xl mb-10 not-prose border-l-8 border-blue-500 font-mono">
-                                <h4 className="text-xl font-bold mb-6 text-blue-400 uppercase tracking-[0.2em] italic underline decoration-white/20">Digital Forensic Indicators:</h4>
+                                <h3 className="text-xl font-bold mb-6 text-blue-400 uppercase tracking-[0.2em] italic underline decoration-white/20">Digital Forensic Indicators:</h3>
                                 <div className="space-y-6 text-sm">
                                     <div className="border-b border-white/10 pb-4">
                                         <span className="text-blue-400 font-bold tracking-tighter uppercase">[IP Metadata Analysis]</span>
@@ -560,12 +560,12 @@ const DisputeForgedSignaturesClient = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 not-prose">
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-200 shadow-sm relative overflow-hidden group">
                                     <div className="absolute top-0 right-0 w-16 h-16 bg-blue-200/30 rounded-bl-full group-hover:bg-blue-200/50 transition-colors"></div>
-                                    <h4 className="text-xl font-black text-slate-950 mb-3 uppercase tracking-tighter italic">Right to Fair Probe</h4>
+                                    <h3 className="text-xl font-black text-slate-950 mb-3 uppercase tracking-tighter italic">Right to Fair Probe</h3>
                                     <p className="text-xs text-slate-900/80 leading-relaxed">Under BNS, the police MUST involve a forensic expert for financial frauds exceeding specified limits, ensuring the bank’s internal report isn’t the final word.</p>
                                 </div>
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-200 shadow-sm relative overflow-hidden group text-right">
                                     <div className="absolute top-0 left-0 w-16 h-16 bg-blue-200/30 rounded-br-full group-hover:bg-blue-200/50 transition-colors"></div>
-                                    <h4 className="text-xl font-black text-slate-950 mb-3 uppercase tracking-tighter italic">Protection from Arrest</h4>
+                                    <h3 className="text-xl font-black text-slate-950 mb-3 uppercase tracking-tighter italic">Protection from Arrest</h3>
                                     <p className="text-xs text-slate-900/80 leading-relaxed">Victims of 'Identity Theft' forgery are now protected from immediate arrest or coercive recovery while the forensic audit is 'Sub-judice' (under court review).</p>
                                 </div>
                             </div>
@@ -578,7 +578,7 @@ const DisputeForgedSignaturesClient = () => {
                                 If a bank manager ignores your forgery complaint and continues to deduct EMIs, they are legally liable for **Vicarious Negligence**.
                             </p>
                             <div className="bg-slate-50 p-10 rounded-[4rem] border border-slate-200 mb-10 not-prose">
-                                <h4 className="text-2xl font-black text-slate-900 mb-6 italic uppercase tracking-tighter text-center leading-none">The Compensation Matrix 2026:</h4>
+                                <h3 className="text-2xl font-black text-slate-900 mb-6 italic uppercase tracking-tighter text-center leading-none">The Compensation Matrix 2026:</h3>
                                 <ul className="space-y-6">
                                     <li className="flex items-center gap-4 border-b border-slate-200 pb-4">
                                         <div className="w-4 h-4 rounded-full bg-blue-600"></div>
@@ -604,7 +604,7 @@ const DisputeForgedSignaturesClient = () => {
                                 Discovering a forgery is not just a financial blow; it is a violation of personal trust. Many victims feel a sense of 'Digital Vulnerability' that persists long after the loan is canceled.
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] shadow-2xl mb-10 not-prose border-4 border-blue-500/20">
-                                <h4 className="text-2xl font-black mb-6 text-blue-400 italic uppercase tracking-widest text-center">Path to Recovery:</h4>
+                                <h3 className="text-2xl font-black mb-6 text-blue-400 italic uppercase tracking-widest text-center">Path to Recovery:</h3>
                                 <div className="space-y-6">
                                     <div className="flex items-start gap-4 border-b border-white/10 pb-4">
                                         <CheckCircle2 className="w-5 h-5 text-blue-400 mt-1" />
@@ -675,7 +675,7 @@ const DisputeForgedSignaturesClient = () => {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop Forgery Fraud</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop Forgery Fraud</p>
                                 <p className="text-sm text-gray-600 mb-6">Don’t let fraudsters ruin your life. Get a professional forensic audit and legal stay today.</p>
                                 <Link
                                     href="/contact"
@@ -692,7 +692,7 @@ const DisputeForgedSignaturesClient = () => {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/legal-case-for-loan-sanction-without-consent" className="block text-sm text-blue-600 hover:underline">Loan Sanction Without Consent</Link>
                                     <div className="block text-sm text-gray-400 ">Cyber Loan Dispute Help</div>

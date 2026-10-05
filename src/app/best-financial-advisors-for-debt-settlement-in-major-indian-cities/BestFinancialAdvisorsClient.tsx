@@ -160,7 +160,7 @@ export default function BestFinancialAdvisorsClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -327,48 +327,48 @@ export default function BestFinancialAdvisorsClient() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                   <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-900 text-base mb-3 flex items-center">
+                    <h3 className="font-bold text-red-900 text-base mb-3 flex items-center">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"/>
                       </svg>
                       Guaranteed Outcome Promises
-                    </h4>
+                    </h3>
                     <p className="text-gray-800 text-sm">
                       No legitimate lawyer or advisor can guarantee a specific waiver percentage or a specific timeline. The final decision rests entirely with the bank's internal credit committee. Any promise of a guaranteed seventy percent waiver is a blatant lie designed to secure your enrollment.
                     </p>
                   </div>
                   
                   <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-900 text-base mb-3 flex items-center">
+                    <h3 className="font-bold text-red-900 text-base mb-3 flex items-center">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"/>
                       </svg>
                       Massive Upfront Fee Demands
-                    </h4>
+                    </h3>
                     <p className="text-gray-800 text-sm">
                       If an agency demands twenty percent of your total debt upfront before performing any actual work, they are likely a scam. While a small retainer for legal documentation is normal, the bulk of their compensation must be tied to their performance in reducing your debt.
                     </p>
                   </div>
 
                   <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-900 text-base mb-3 flex items-center">
+                    <h3 className="font-bold text-red-900 text-base mb-3 flex items-center">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"/>
                       </svg>
                       Instructions to Cease Payment
-                    </h4>
+                    </h3>
                     <p className="text-gray-800 text-sm">
                       Unethical agencies will instruct you to stop paying your creditors entirely in order to force a default and build leverage. A legitimate advisor assesses your situation and explains the consequences of default, but they never instruct you to intentionally breach a financial contract.
                     </p>
                   </div>
 
                   <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-900 text-base mb-3 flex items-center">
+                    <h3 className="font-bold text-red-900 text-base mb-3 flex items-center">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"/>
                       </svg>
                       Lack of Legal Counsel
-                    </h4>
+                    </h3>
                     <p className="text-gray-800 text-sm">
                       Resolving debt is a legal procedure requiring expertise in contract law and RBI guidelines. If the agency operates merely as a call center without qualified advocates on staff to issue legal notices and handle court summons, they cannot protect you effectively.
                     </p>
@@ -393,7 +393,7 @@ export default function BestFinancialAdvisorsClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-green-400">The Anatomy of a Major Resolution</h4>
+                    <h3 className="text-base font-bold mb-8 text-green-400">The Anatomy of a Major Resolution</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-green-400">The Subject:</strong> Priya K., a senior marketing executive residing in Bangalore.</p>
@@ -454,7 +454,7 @@ export default function BestFinancialAdvisorsClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rohan Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Rohan Sharma</h4>
+                <p className="font-bold text-gray-900">Rohan Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

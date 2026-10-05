@@ -180,7 +180,7 @@ export default function StepsToRepairCibilClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a
@@ -230,7 +230,7 @@ export default function StepsToRepairCibilClient() {
                   Their reporting mechanisms are equally hostile. Legitimate lenders update credit bureaus on a strictly monthly cycle. Predatory apps often employ erratic reporting practices. They might report a default the very day a payment is missed, or worse, they might report a hard inquiry for every single click you make on their application. This chaotic reporting creates a volatile and severely degraded credit profile that is incredibly difficult for an algorithm to interpret favorably.
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
-                  <h4 className="font-bold text-blue-900 mb-2 text-lg">Key Predatory Tactics:</h4>
+                  <h3 className="font-bold text-blue-900 mb-2 text-lg">Key Predatory Tactics:</h3>
                   <ul className="list-disc pl-5 space-y-2">
                     <li><strong>Invasive Data Access:</strong> Demanding phone contact access before displaying loan terms.</li>
                     <li><strong>Hyper Short Tenures:</strong> Repayment windows of less than thirty days, causing rapid defaults.</li>
@@ -428,7 +428,7 @@ export default function StepsToRepairCibilClient() {
 
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">CIBIL Destroyed?</h4>
+                <p className="font-bold text-2xl mb-4">CIBIL Destroyed?</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing an algorithmic penalty due to a loan app crisis? We can help you repair your score.</p>
                 <Link
                   href="/contact"
@@ -454,7 +454,7 @@ export default function StepsToRepairCibilClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/best-lawyer-for-personal-loans" className="group flex items-start">

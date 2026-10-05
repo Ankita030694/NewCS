@@ -227,7 +227,7 @@ export default function RequiredDocumentsClient() {
 
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -344,7 +344,7 @@ export default function RequiredDocumentsClient() {
                             <div className="space-y-8 my-10">
                                 <div className="relative pl-8 border-l-2 border-blue-200">
                                     <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-sm"></div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 1: Legal Authorization & Protection</h4>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">Phase 1: Legal Authorization & Protection</p>
                                     <ul className="space-y-3 text-gray-700 list-none p-0">
                                         <li className="flex items-start gap-2">
                                             <span className="text-blue-600 font-bold">v</span>
@@ -359,7 +359,7 @@ export default function RequiredDocumentsClient() {
 
                                 <div className="relative pl-8 border-l-2 border-blue-200">
                                     <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-sm"></div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 2: Case Analysis & Hardship Building</h4>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">Phase 2: Case Analysis & Hardship Building</p>
                                     <ul className="space-y-3 text-gray-700 list-none p-0">
                                         <li className="flex items-start gap-2">
                                             <span className="text-blue-600 font-bold">v</span>
@@ -374,7 +374,7 @@ export default function RequiredDocumentsClient() {
 
                                 <div className="relative pl-8 border-l-2 border-blue-200">
                                     <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-sm"></div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 3: Tactical Negotiation & Closure</h4>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">Phase 3: Tactical Negotiation & Closure</p>
                                     <ul className="space-y-3 text-gray-700 list-none p-0">
                                         <li className="flex items-start gap-2">
                                             <span className="text-blue-600 font-bold">v</span>
@@ -455,7 +455,7 @@ export default function RequiredDocumentsClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="space-y-6">
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need a Document Checklist?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need a Document Checklist?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every bank has different requirements. Get a personalized list for your lender today.</p>
                                 <Link
                                     href="/contact"
@@ -471,7 +471,7 @@ export default function RequiredDocumentsClient() {
                             </div>
 
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Pros & Cons Guide</Link>

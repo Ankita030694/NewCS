@@ -146,9 +146,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       CIBIL Rebuilding
                     </span>
-                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Rebuild &amp; Improve CIBIL After a Loan Settlement
-                    </h4>
+                    </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       A comprehensive step-by-step blueprint to recover credit scores to 750+ after executing an OTS.
                     </p>
@@ -167,9 +167,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       Credit Repair &amp; Closure
                     </span>
-                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       Convert a Settled Loan to &quot;Closed&quot; Status (Step-by-Step)
-                    </h4>
+                    </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       How paying the remaining waiver balance upgrades your loan status from Settled to Closed.
                     </p>
@@ -188,9 +188,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       Bureau Compliance
                     </span>
-                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Remove Settled Status from CIBIL
-                    </h4>
+                    </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       The official banking and legal mechanisms to dispute and update bureau records under CICRA 2005.
                     </p>
@@ -209,9 +209,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       Post-Settlement Borrowing
                     </span>
-                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Get a Loan After Settlement (Approval Guide 2026)
-                    </h4>
+                    </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       Detailed eligibility criteria, cooling-off periods, and lender approval strategies for fresh credit.
                     </p>
@@ -230,9 +230,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       CredSettle Knowledge Base
                     </span>
-                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       Explore All Legal &amp; Debt Resolution Resources
-                    </h4>
+                    </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       Access our entire library of borrower rights guides, RBI rules, and settlement strategies.
                     </p>

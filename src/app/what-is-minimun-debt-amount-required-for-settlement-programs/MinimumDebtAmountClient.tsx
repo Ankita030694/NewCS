@@ -255,7 +255,7 @@ export default function MinimumDebtAmountClient() {
                     {/* Left: Sticky TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
-                            <h3 className="font-black text-gray-900 mb-6 uppercase tracking-widest text-xs">Navigation</h3>
+                            <p className="font-black text-gray-900 mb-6 uppercase tracking-widest text-xs">Navigation</p>
                             <nav className="space-y-3">
                                 {navLinks.map((link) => (
                                     <a
@@ -293,7 +293,7 @@ export default function MinimumDebtAmountClient() {
                             </p>
                             <div className="bg-blue-900 text-white p-10 rounded-3xl mb-12 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 opacity-20 rounded-full blur-3xl"></div>
-                                <h3 className="text-2xl font-bold mb-6 border-l-4 border-blue-400 pl-4">The Standard Eligibility Tiers:</h3>
+                                <p className="text-2xl font-bold mb-6 border-l-4 border-blue-400 pl-4">The Standard Eligibility Tiers:</p>
                                 <ul className="space-y-6">
                                     <li className="flex gap-4">
                                         <div className="bg-blue-700 w-12 h-12 rounded-full flex items-center justify-center font-black flex-shrink-0">1</div>
@@ -340,7 +340,7 @@ export default function MinimumDebtAmountClient() {
                                 Debt amount alone is not enough. You must also prove <strong>Inability to Pay.</strong> If you have ₹10 Lakhs in debt but earn ₹2 Lakhs per month and own three cars, the bank will not settle. They will view you as a "Wilful Defaulter" and use every legal tool to recover 100% of the money plus interest and penalties.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-10">
-                                <h4 className="font-black text-gray-900 mb-4">The "Hardship Triangle":</h4>
+                                <p className="font-black text-gray-900 mb-4">The "Hardship Triangle":</p>
                                 <ol className="space-y-4 text-sm text-gray-600 list-decimal pl-5 leading-loose">
                                     <li><strong>The Mathematical Gap:</strong> Your monthly non-discretionary expenses plus the new EMI burden exceed 60% of your take-home pay.</li>
                                     <li><strong>The Sudden Catalyst:</strong> Proof of job loss, business closure (zero GST filing), or medical bills exceeding six months of salary.</li>
@@ -444,7 +444,7 @@ export default function MinimumDebtAmountClient() {
                             
                             {/* CTA Box */}
                             <div className="bg-blue-900 p-8 rounded-3xl shadow-2xl text-white">
-                                <h4 className="font-black text-xl mb-4 border-b border-blue-800 pb-2">Settlement Scan</h4>
+                                <p className="font-black text-xl mb-4 border-b border-blue-800 pb-2">Settlement Scan</p>
                                 <p className="text-sm text-blue-200 mb-8 font-light">Analyze your debt portfolio across multiple banks for settlement eligibility.</p>
                                 <Link
                                     href="/contact"
@@ -456,7 +456,7 @@ export default function MinimumDebtAmountClient() {
 
                             {/* Related Pages */}
                             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
-                                <h4 className="font-black text-gray-900 mb-6 uppercase tracking-widest text-xs border-b pb-2">Related Resources</h4>
+                                <p className="font-black text-gray-900 mb-6 uppercase tracking-widest text-xs border-b pb-2">Related Resources</p>
                                 <nav className="space-y-4">
                                     {[
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Is Settlement Good for You?" },

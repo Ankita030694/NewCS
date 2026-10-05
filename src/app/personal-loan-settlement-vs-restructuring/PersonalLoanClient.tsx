@@ -247,7 +247,7 @@ export default function PersonalLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -304,12 +304,12 @@ export default function PersonalLoanClient() {
                             
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Core Distinction:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Cash Flow Issue:</strong> You have a steady income, but sudden expenses (like a medical emergency) or a slight salary reduction have made the current EMI unaffordable. You can still pay the total debt, just not as fast.</li>
                                     <li><strong>Total Insolvency:</strong> You have lost your primary source of income entirely, your business has failed, or you are buried under multiple loans whose combined EMIs exceed your total monthly income. You mathematically cannot repay the principal.</li>
@@ -382,14 +382,14 @@ export default function PersonalLoanClient() {
                             </p>
                             
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Credit Score Implications</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Credit Score Implications</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">A</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Restructuring Impact</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Restructuring Impact</p>
                                             <p className="text-sm text-gray-600 m-0">When a loan is restructured, the bank reports it to CIBIL with a specific flag, often termed Restructured. Your score will drop, typically between fifty to eighty points. Lenders will see that you could not handle the original terms. However, as you make the new, lower EMI payments consistently over the next year, your score will gradually begin to recover. It shows responsibility despite hardship.</p>
                                         </div>
                                     </li>
@@ -398,7 +398,7 @@ export default function PersonalLoanClient() {
                                             <span className="font-bold text-blue-600 text-sm">B</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Settlement Impact</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Settlement Impact</p>
                                             <p className="text-sm text-gray-600 m-0">Settlement is a major derogatory mark. The account status will be permanently marked as Settled. Your CIBIL score will drop drastically, often by more than one hundred points, pushing you into the high risk category. The Settled status remains on your report for up to seven years. During this time, standard banks and NBFCs will almost certainly automatically reject any applications for personal loans, credit cards, or unsecured business loans.</p>
                                         </div>
                                     </li>
@@ -487,7 +487,7 @@ export default function PersonalLoanClient() {
                         <div className="sticky top-24 self-start space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-xs mb-4 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -506,7 +506,7 @@ export default function PersonalLoanClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/services/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

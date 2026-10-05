@@ -294,7 +294,7 @@ export default function BankLoanRecoveryDefenceClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defence Roadmap</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defence Roadmap</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -349,7 +349,7 @@ export default function BankLoanRecoveryDefenceClient() {
                                 Once the 60 day period expires, the bank issues a Section 13(4) notice, which allows them to take symbolic or physical possession of the asset. This is the stage where many borrowers panic. But it is precisely at this stage that Section 17 of the Act comes into play. You have the right to file a Securitization Application (SA) before the Debt Recovery Tribunal within 45 days of the bank’s action. This application allows the tribunal to examine whether the bank followed the law. If a skilled lawyer can prove that the bank failed to properly serve notices or that they did not adequately respond to your objections, the DRT has the power to restore possession to the borrower.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-10">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Critical SARFAESI Safeguards for Borrowers:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Critical SARFAESI Safeguards for Borrowers:</p>
                                 <ul className="space-y-4 text-slate-800 text-lg list-none pl-0">
                                     <li className="flex gap-3"><span className="text-blue-600 font-bold">*</span> <strong>Representation and Objections:</strong> Under Section 13(3A), the bank must respond to your objections within 15 days. If they fail to provide a reasoned response, their subsequent actions can be challenged.</li>
                                     <li className="flex gap-3"><span className="text-blue-600 font-bold">*</span> <strong>Valuation of Assets:</strong> Banks often undervalue property to ensure a quick sale. A lawyer can challenge the reserve price by bringing in an independent government approved valuer.</li>
@@ -382,19 +382,19 @@ export default function BankLoanRecoveryDefenceClient() {
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 mb-10 shadow-sm">
                                 <ul className="space-y-6 text-slate-800 text-lg list-none pl-0">
                                     <li className="border-b border-slate-200 pb-4">
-                                        <h4 className="font-bold text-blue-900 mb-2">1. The Limitation Act Strategy</h4>
+                                        <p className="font-bold text-blue-900 mb-2">1. The Limitation Act Strategy</p>
                                         <p>Every recovery action must be initiated within three years of the account being classified as an NPA or from the date of the last payment/acknowledgment. Banks often lose track of time or try to use "re-characterization" to extend the period. If the debt is time barred, it is legally unrecoverable.</p>
                                     </li>
                                     <li className="border-b border-slate-200 pb-4">
-                                        <h4 className="font-bold text-blue-900 mb-2">2. Challenging the Loan Documentation</h4>
+                                        <p className="font-bold text-blue-900 mb-2">2. Challenging the Loan Documentation</p>
                                         <p>In many old accounts, original loan documents are lost or poorly executed. If the bank cannot produce the original mortgaged deed or the guarantee agreements, their case in the DRT is significantly weakened. A lawyer can demand the production of original documents and challenge anything that looks forged or altered.</p>
                                     </li>
                                     <li className="border-b border-slate-200 pb-4">
-                                        <h4 className="font-bold text-blue-900 mb-2">3. Interest and Charges Audit</h4>
+                                        <p className="font-bold text-blue-900 mb-2">3. Interest and Charges Audit</p>
                                         <p>Banks often charge penal interest inconsistently. We have seen cases where "interest on interest" was charged despite a zero default history. A legal audit of the bank’s ledger can reveal inflated claims of lakhs of rupees. Forcing the bank to submit a revised, accurate statement of account is a powerful defensive move.</p>
                                     </li>
                                     <li>
-                                        <h4 className="font-bold text-blue-900 mb-2">4. Procedural Lapses in SARFAESI</h4>
+                                        <p className="font-bold text-blue-900 mb-2">4. Procedural Lapses in SARFAESI</p>
                                         <p>This includes the failure to serve notices on all co-borrowers, failing to publish the auction notice in two leading newspapers, or not using the services of a certified valuer. Each lapse is a potential ground for a stay order.</p>
                                     </li>
                                 </ul>
@@ -459,12 +459,12 @@ export default function BankLoanRecoveryDefenceClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-slate-900 mb-8 scroll-mt-24">Real Case Studies: Lessons from the Ground</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
-                                    <h4 className="text-xl font-bold text-slate-900 mb-4">Case Study A: The Faulty Valuation Stay</h4>
+                                    <p className="text-xl font-bold text-slate-900 mb-4">Case Study A: The Faulty Valuation Stay</p>
                                     <p className="text-slate-700 mb-4">A factory owner in Pune was facing an auction by a private bank. The bank valued the property at 5 crore, whilst the market value was 12 crore. A specialized lawyer challenged the valuation in the DRT under Section 17.</p>
                                     <p className="text-slate-700 italic">Result: The DRT stayed the auction and ordered a fresh valuation by a court commissioner. The bank, seeing their flawed process, eventually agreed to a 7 crore OTS, saving the owner’s business.</p>
                                 </div>
                                 <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
-                                    <h4 className="text-xl font-bold text-slate-900 mb-4">Case Study B: The Limitation Act Victory</h4>
+                                    <p className="text-xl font-bold text-slate-900 mb-4">Case Study B: The Limitation Act Victory</p>
                                     <p className="text-slate-700 mb-4">A credit card holder was sued by an NBFC for a debt from 2018. No payments or acknowledgments were made since 2019. The bank filed in the DRT in 2024.</p>
                                     <p className="text-slate-700 italic">Result: The lawyer successfully argued that the OA was time barred under the Limitation Act. The entire case was dismissed with costs, and the borrower was freed of the 15 lakh liability.</p>
                                 </div>
@@ -544,7 +544,7 @@ export default function BankLoanRecoveryDefenceClient() {
 
                             {/* Primary CTA Container */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center relative overflow-hidden group">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Bank Recovery?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Bank Recovery?</p>
                                 <p className="text-sm text-gray-600 mb-6">Don’t wait for the auction notice. Act now to protect your assets with a professional legal defence plan.</p>
                                 <Link
                                     href="/contact"
@@ -561,7 +561,7 @@ export default function BankLoanRecoveryDefenceClient() {
 
                             {/* Related Pages Container */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">
                                         DRT Case Defence

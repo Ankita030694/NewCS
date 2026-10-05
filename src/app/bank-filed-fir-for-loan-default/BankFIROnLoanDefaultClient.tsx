@@ -340,7 +340,7 @@ export default function BankFIROnLoanDefaultClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">FIR Legal TOC</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">FIR Legal TOC</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -389,7 +389,7 @@ export default function BankFIROnLoanDefaultClient() {
                                 A banking FIR does not happen overnight. It is a slow, multi-stage process that gives the borrower multiple "Warning Signs."
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h4 className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The FIR Journey:</h4>
+                                <p className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The FIR Journey:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Internal Fraud Report:</strong> The bank’s internal compliance team labels the account as "Doubtful" or "Fraudulent" based on suspicious activity.</li>
                                     <li><strong>2. Police Complaint:</strong> The bank’s Nodal Officer files a formal complaint at the Economic Offences Wing (EOW) or local station.</li>
@@ -507,7 +507,7 @@ export default function BankFIROnLoanDefaultClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -570,7 +570,7 @@ export default function BankFIROnLoanDefaultClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Defense Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Defense Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">We provide expert legal defense for Section 318/316 BNS (Cheating/Breach of Trust) cases filed by banks. Protect your liberty.</p>
                                 <Link
                                     href="/contact"
@@ -587,7 +587,7 @@ export default function BankFIROnLoanDefaultClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</p>
                                 <nav className="space-y-3">
                                     <Link href="/police-case-for-credit-card-debt" className="block text-sm text-blue-600 hover:underline">Police Case Realities</Link>
                                     <Link href="/can-i-go-to-jail-for-loan-default-in-india" className="block text-sm text-blue-600 hover:underline">Jail Risk Laws</Link>

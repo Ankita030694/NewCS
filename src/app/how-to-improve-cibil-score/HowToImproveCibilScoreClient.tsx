@@ -234,7 +234,7 @@ export default function HowToImproveCibilScoreClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -284,7 +284,7 @@ export default function HowToImproveCibilScoreClient() {
                             {/* Visual Element 1: Comparison Table */}
                             <div className="my-10 bg-white rounded-2xl border border-blue-100 shadow-md overflow-hidden">
                                 <div className="bg-blue-900 text-white p-4">
-                                    <h3 className="text-xl font-bold text-white m-0 text-center uppercase tracking-wider">Traditional Advice vs. Post-Default Reality</h3>
+                                    <p className="text-xl font-bold text-white m-0 text-center uppercase tracking-wider">Traditional Advice vs. Post-Default Reality</p>
                                 </div>
                                 <div className="overflow-x-auto">
                                     <table className="w-full text-left border-collapse">
@@ -361,10 +361,10 @@ export default function HowToImproveCibilScoreClient() {
                             {/* Visual Element 2: Action Checklist */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <h3 className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     The Perfect Secured Card Execution Plan:
-                                </h4>
+                                </h3>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-blue-400 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -420,7 +420,7 @@ export default function HowToImproveCibilScoreClient() {
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm">
                                 <div className="flex items-center mb-3">
                                     <svg className="w-8 h-8 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                                    <h4 className="text-xl font-bold text-red-900 m-0">Critical Scam Warning</h4>
+                                    <h3 className="text-xl font-bold text-red-900 m-0">Critical Scam Warning</h3>
                                 </div>
                                 <p className="text-red-800 leading-relaxed text-sm">
                                     No agency, lawyer, or consultant has the legal authority to erase a legitimate, factual "Settled" status from your credit report. Agencies that claim they have "insider access" to bureau databases are lying. If you pay them, they will simply take your money and vanish, or worse, engage in identity fraud on your behalf which could lead to severe legal consequences.
@@ -502,7 +502,7 @@ export default function HowToImproveCibilScoreClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">We provide personalized legal and financial strategies to clean up errors on your report.</p>
                                 <Link
                                     href="/contact"
@@ -520,7 +520,7 @@ export default function HowToImproveCibilScoreClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">Loan Settlement Guide</Link>
                                     <Link href="/impact-of-loan-settlement-on-cibil-score" className="block text-sm text-blue-600 hover:underline">Settlement Impact</Link>

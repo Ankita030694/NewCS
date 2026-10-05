@@ -299,7 +299,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -342,7 +342,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                 No borrower starts a loan with the intention to settle. It is almost always a result of what we call "Systemic Hardship." In the volatile economic climate of 2025, these drivers have become more prevalent. Recognizing these drivers is the first step in proving "Repayment Incapacity" to your lender.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-[1.5rem] border border-blue-100 mb-10 shadow-inner">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Common Triggers for Settlement:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Common Triggers for Settlement:</p>
                                 <ul className="space-y-4 text-gray-700">
                                     <li className="flex items-start">
                                         <span className="text-blue-600 mr-2 font-bold">*</span>
@@ -372,19 +372,19 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2 underline decoration-green-300">Significant Haircut</h4>
+                                    <p className="font-bold text-green-900 mb-2 underline decoration-green-300">Significant Haircut</p>
                                     <p className="text-sm text-green-800 font-light">The ability to pay 40 to 60% less than what is owed. This can amount to lakhs of rupees saved in principal and interest.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2 underline decoration-green-300">Harassment Cessation</h4>
+                                    <p className="font-bold text-green-900 mb-2 underline decoration-green-300">Harassment Cessation</p>
                                     <p className="text-sm text-green-800 font-light">Legal finality forces recovery agents to stop calling or visiting. It provides immediate mental peace for you and your family.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2 underline decoration-green-300">Legal Immunity</h4>
+                                    <p className="font-bold text-green-900 mb-2 underline decoration-green-300">Legal Immunity</p>
                                     <p className="text-sm text-green-800 font-light">With a formal settlement, all pending legal notices and cases filed by the bank are withdrawn. No more fear of courts.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2 underline decoration-green-300">One-Time Exit</h4>
+                                    <p className="font-bold text-green-900 mb-2 underline decoration-green-300">One-Time Exit</p>
                                     <p className="text-sm text-green-800 font-light">Clear your record with a single payment. No more worrying about monthly EMIs or fluctuating interest rates.</p>
                                 </div>
                             </div>
@@ -497,7 +497,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
                                     <div key={item.step} className="flex gap-4 p-5 bg-gray-50 rounded-2xl border border-gray-100 items-center hover:bg-white hover:shadow-md transition-all">
                                         <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">{item.step}</div>
                                         <div>
-                                            <h4 className="font-bold text-gray-900">{item.title}</h4>
+                                            <h3 className="font-bold text-gray-900">{item.title}</h3>
                                             <p className="text-sm text-gray-600">{item.desc}</p>
                                         </div>
                                     </div>
@@ -591,7 +591,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
                                     href="/contact"
@@ -608,7 +608,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/does-loan-settlement-affect-cibil", text: "Link between Settlement & CIBIL" },

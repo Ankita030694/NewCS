@@ -183,7 +183,7 @@ export default function DelhiLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -219,7 +219,7 @@ export default function DelhiLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Important for Delhi Residents</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Important for Delhi Residents</h3>
                 <p className="text-blue-800 m-0">
                   The Delhi State Legal Services Authority (DSLSA) actively promotes pre-litigation settlement through Lok Adalats. This is often the fastest way to get a legally binding settlement decree in the capital.
                 </p>
@@ -333,35 +333,35 @@ export default function DelhiLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">1</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Analysis & Protection</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Analysis & Protection</h3>
                     <p className="text-gray-700">We analyze your loan documents and immediate financial state. We take over communication with the bank to stop the daily harassment calls.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Delinquency Management</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Delinquency Management</h3>
                     <p className="text-gray-700">The loan must be in default (NPA) to be eligible for deep discounts. We guide you through this period, handling legal notices and ensuring you don’t panic.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Negotiation</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Negotiation</h3>
                     <p className="text-gray-700">Our legal team negotiates with the bank’s regional collection managers in Delhi. We aim for the lowest possible amount, often achieving waivers of 50-70% depending on the case.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Documentation & Payment</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Documentation & Payment</h3>
                     <p className="text-gray-700">Once the amount is agreed, the bank issues a Settlement Letter. You pay the agreed amount directly to the bank. We verify the letter before you pay a single rupee.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">5</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Closure</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Closure</h3>
                     <p className="text-gray-700">The bank issues a No Dues Certificate (NDC). The loan is closed in your credit report.</p>
                   </div>
                 </div>
@@ -415,7 +415,7 @@ export default function DelhiLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Delhi Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Delhi Support</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal team for Delhi NCR residents.</p>
                 <Link 
                   href="/contact"

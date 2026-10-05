@@ -158,7 +158,7 @@ export default function FreedAlternativePageClient() {
             <div className="lg:col-span-7 w-full min-h-screen">
                 {/* Introduction */}
                 <section id="introduction" className="mb-12 scroll-mt-24">
-                    <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">How to Get Freed from Debt: The Honest Truth</h2>
+                    <p className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">How to Get Freed from Debt: The Honest Truth</p>
                     <div className="prose prose-lg text-gray-700 font-poppins text-base leading-7">
                         <p className="mb-4">
                             Being trapped in a cycle of EMI defaults and relentless recovery agent calls is terrifying. It affects your sleep, your job, and your family relations. Many borrowers constantly search for "<strong>how to get freed from debt</strong>" or "<strong>freed reviews</strong>" of services that promise instant relief. The truth is, there is no magic app that dissolves debt overnight. Debt is a legal obligation, and it must be dissolved legally.
@@ -174,20 +174,20 @@ export default function FreedAlternativePageClient() {
 
                 {/* Anatomy of Debt Trap */}
                 <section id="debt-trap-anatomy" className="mb-12 scroll-mt-24">
-                    <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Anatomy of the Debt Trap</h2>
+                    <p className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Anatomy of the Debt Trap</p>
                     <div className="prose prose-lg text-gray-700 font-poppins text-base leading-7">
                         <p className="mb-4">
                             Before you can get <strong>freed</strong>, you must understand how you got trapped. The Indian credit system is designed to keep you paying interest forever.
                         </p>
-                        <h3 className="text-xl font-bold text-[#0C2756] mt-4 mb-2">1. The Minimum Due Trap</h3>
+                        <p className="text-xl font-bold text-[#0C2756] mt-4 mb-2">1. The Minimum Due Trap</p>
                         <p className="mb-4">
                             Credit card companies encourage you to pay only the "Minimum Amount Due" (MAD). This is usually just 5% of your total outstanding. The remaining 95% attracts an interest rate of 3.5% to 4% per month (42-48% annually). If you only pay the minimum, it can take over 20 years to clear a simple ₹1 Lakh debt, and you would have paid ₹5 Lakhs in interest. This is modern-day slavery.
                         </p>
-                        <h3 className="text-xl font-bold text-[#0C2756] mt-4 mb-2">2. The Loan-to-Pay-Loan Cycle</h3>
+                        <p className="text-xl font-bold text-[#0C2756] mt-4 mb-2">2. The Loan-to-Pay-Loan Cycle</p>
                         <p className="mb-4">
                             Many borrowers take a personal loan to pay off a credit card, then use the card again for expenses. Then they take a "fintech loan" (from apps like Navi, KreditBee, Kissht) to pay the personal loan EMI. Soon, nearly 100% of your salary goes into EMIs. You are technically insolvent but still struggling to pay.
                         </p>
-                         <h3 className="text-xl font-bold text-[#0C2756] mt-4 mb-2">3. The Over-Leverage Trap</h3>
+                         <p className="text-xl font-bold text-[#0C2756] mt-4 mb-2">3. The Over-Leverage Trap</p>
                         <p className="mb-4">
                             Banks often give loans up to 60-70% of your net income. One medical emergency or job loss topples this precarious balance. Once you miss one EMI, the late fees, cheque bounce charges, and penal interest pile up so fast that the debt grows even if you stop spending.
                         </p>
@@ -196,13 +196,13 @@ export default function FreedAlternativePageClient() {
 
                 {/* Why Legal */}
                 <section id="why-legal" className="mb-12 scroll-mt-24">
-                     <h2 className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Why Legal Intervention is Key</h2>
+                     <p className="text-2xl lg:text-3xl font-bold text-[#0C2756] mb-6">Why Legal Intervention is Key</p>
                      <div className="space-y-6 text-gray-700 font-poppins text-base leading-7">
                         <p>
                             Many apps promise to help you get <strong>freed</strong> from your dues. But when a bank sends a <strong>legal notice for loan default</strong>, an app cannot represent you. This is where the difference between a "tech" solution and a "legal" solution becomes life-saving.
                         </p>
                         <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-[#007AFF]">
-                            <h3 className="text-xl font-bold text-[#007AFF] mb-2">Protection from Harassment</h3>
+                            <p className="text-xl font-bold text-[#007AFF] mb-2">Protection from Harassment</p>
                             <p className="mb-2">
                                 To be truly <strong>freed from harassment</strong>, you need a lawyer to send a Cease & Desist notice. This legally compels the agents to back off.
                             </p>
@@ -211,7 +211,7 @@ export default function FreedAlternativePageClient() {
                             </p>
                         </div>
                         <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-                            <h3 className="text-xl font-bold text-[#0C2756] mb-2">Negotiation Power</h3>
+                            <p className="text-xl font-bold text-[#0C2756] mb-2">Negotiation Power</p>
                             <p>
                                 Banks take lawyers seriously. When you call customer care, you are a "defaulter." When a lawyer writes to the collections head, you are a "legal liability." We present your financial hardship case, verified by legal documents (affidavits of insolvency, job loss proof), which increases the chances of getting a high-value settlement (OTS), ensuring you are <strong>freed from the debt trap</strong> faster and cheaper.
                             </p>
@@ -441,7 +441,7 @@ export default function FreedAlternativePageClient() {
              <div className="lg:col-span-3 hidden lg:block sticky top-24 space-y-6">
                  {/* Consultation Card */}
                 <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100">
-                    <h3 className="text-xl font-bold text-[#0C2756] mb-2">Get Freed Today</h3>
+                    <p className="text-xl font-bold text-[#0C2756] mb-2">Get Freed Today</p>
                     <p className="text-sm text-gray-600 mb-4">Speak to a lawyer. Start your journey to being debt-free.</p>
                     <CTAButton>
                         Book Free Call
@@ -451,7 +451,7 @@ export default function FreedAlternativePageClient() {
 
                 {/* Quick Links */}
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200">
-                     <h3 className="text-lg font-bold text-[#0C2756] mb-4">Popular Guides</h3>
+                     <p className="text-lg font-bold text-[#0C2756] mb-4">Popular Guides</p>
                      <ul className="space-y-3 text-sm font-medium text-gray-600">
                          <li><Link href="/how-to-settle-loan" className="hover:text-[#007AFF] transition-colors">How to Settle Loan</Link></li>
                          <li><Link href="/loan-settlement/hdfc" className="hover:text-[#007AFF] transition-colors">HDFC Settlement</Link></li>
@@ -462,7 +462,7 @@ export default function FreedAlternativePageClient() {
                  
                  {/* Trust Badge */}
                  <div className="bg-blue-600 p-6 rounded-2xl text-white text-center">
-                    <h3 className="text-xl font-bold mb-2">12,500+</h3>
+                    <p className="text-xl font-bold mb-2">12,500+</p>
                     <p className="text-sm opacity-90">Clients Freed from Debt</p>
                  </div>
             </div>

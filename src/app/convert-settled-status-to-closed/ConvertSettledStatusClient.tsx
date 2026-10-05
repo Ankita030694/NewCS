@@ -1114,9 +1114,9 @@ Place: [City, State]`}
                 <span>100% CONFIDENTIAL</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white leading-tight">
+                <p className="text-xl font-bold text-white leading-tight">
                   Stuck with a &quot;Settled&quot; Tag on CIBIL?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
                   Our debt resolution experts negotiate directly with your bank to freeze penalties, calculate the true principal differential, and secure your unconditional No Dues Certificate.
                 </p>
@@ -1140,10 +1140,10 @@ Place: [City, State]`}
 
             {/* Card 3: Trust Signals Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-3 text-xs shadow-xs">
-              <h4 className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                 CredSettle Trust Commitments
-              </h4>
+              </p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />

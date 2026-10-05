@@ -199,7 +199,7 @@ export default function ChequeBounceNoidaClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -328,27 +328,27 @@ export default function ChequeBounceNoidaClient() {
                 </p>
                 <div className="bg-gray-100 p-8 rounded-3xl space-y-6">
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">1. Filing and Verification</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">1. Filing and Verification</h3>
                     <p>The complaint is filed through an advocate. The Magistrate examines the complaint and the accompanying documents. The complainant’s statement is often recorded via an affidavit (Section 145 NI Act).</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">2. Issuance of Summons</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">2. Issuance of Summons</h3>
                     <p>If the court finds a prima facie case, it issues a summons to the accused drawer. This is the formal order for the accused to appear in the Noida court.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">3. Appearance and Bail</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">3. Appearance and Bail</h3>
                     <p>The accused appears in court, either voluntarily or upon the issuance of warrants (if they ignore summons). Since the offence is bailable, they are usually granted bail upon providing a bond.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">4. Framing of Notice</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">4. Framing of Notice</h3>
                     <p>The court explains the charges to the accused. If the accused pleads not guilty, the matter proceeds to trial. This is also the stage where <strong>interim compensation</strong> is usually discussed.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">5. Evidence and Cross-Examination</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">5. Evidence and Cross-Examination</h3>
                     <p>The complainant and their witnesses are cross-examined by the defence. Subsequently, the accused provides their evidence. The focus remains on the "legally enforceable debt."</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">6. Judgment</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">6. Judgment</h3>
                     <p>After hearing final arguments, the Magistrate delivers the judgment. If convicted, the accused might face jail time and a heavy fine, which is typically awarded as compensation to the complainant.</p>
                   </div>
                 </div>
@@ -479,7 +479,7 @@ export default function ChequeBounceNoidaClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Need Urgent Help?</h4>
+                <p className="font-bold text-2xl mb-4">Need Urgent Help?</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing a fresh cheque bounce in Noida? The clock is running. Our lawyers can dispatch your legal notice within 24 hours.</p>
                 <Link 
                   href="/contact"
@@ -505,7 +505,7 @@ export default function ChequeBounceNoidaClient() {
 
               {/* Related Pages container */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">More Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">More Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

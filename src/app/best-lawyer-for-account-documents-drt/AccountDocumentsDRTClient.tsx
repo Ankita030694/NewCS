@@ -225,7 +225,7 @@ export default function AccountDocumentsDRTClient() {
                     {/* Left TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a key={link.id} href={`#${link.id}`}
@@ -322,15 +322,15 @@ export default function AccountDocumentsDRTClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Defective Bankers Books Certification</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Defective Bankers Books Certification</p>
                                     <p className="text-gray-700 text-sm">The statutory certification under Section 2A of the Bankers Books Evidence Act must be made by an officer of the bank specifically authorized for this purpose and must contain specific declarations about the accuracy of the copy. Missing or incorrect certification makes the document inadmissible.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Completeness and Accuracy of Account Extracts</h4>
+                                    <p className="font-bold text-green-900 mb-2">Completeness and Accuracy of Account Extracts</p>
                                     <p className="text-gray-700 text-sm">Banks sometimes submit only partial account extracts covering the period just after default, rather than the entire loan account from disbursement. An extract that does not show the full history prevents the DRT from seeing whether prior payments reduced the principal balance correctly.</p>
                                 </div>
                                 <div className="p-6 bg-purple-50 rounded-2xl border border-purple-100">
-                                    <h4 className="font-bold text-purple-900 mb-2">Deviation from RBI Master Directions</h4>
+                                    <p className="font-bold text-purple-900 mb-2">Deviation from RBI Master Directions</p>
                                     <p className="text-gray-700 text-sm">RBI Master Directions on interest rates, penal charges, and NPA classification are binding instructions on all banks. Any interest computation or NPA classification that deviates from these directions is not just erroneous; it is a regulatory violation that the DRT can and should take cognisance of.</p>
                                 </div>
                             </div>
@@ -431,11 +431,11 @@ export default function AccountDocumentsDRTClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Case Studies: Document Analysis Changing DRT Outcomes</h2>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Case 1: Rs. 48 Lakh Saved Through Forensic Audit in Hyderabad</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Case 1: Rs. 48 Lakh Saved Through Forensic Audit in Hyderabad</h3>
                                     <p className="text-gray-700">A food processing company in Hyderabad had a DRT case with a claimed amount of Rs. 1.87 crore. A forensic CA hired by the borrower’s DRT lawyer found that the bank had applied a 22% penal rate on the entire outstanding balance from the date of first default, instead of the contractually specified 2% over the regular rate on the overdue EMI amounts only. The correct computation reduced the claim by Rs. 48 lakhs. After the Written Statement and forensic report were filed, the bank settled the case for Rs. 1.31 crore, preserving the company’s manufacturing unit and 140 jobs.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Case 2: Inadmissible Bank Certificate Derails DRT Case in Delhi</h4>
+                                    <h3 className="font-bold text-green-900 mb-2">Case 2: Inadmissible Bank Certificate Derails DRT Case in Delhi</h3>
                                     <p className="text-gray-700">A retail trader in Delhi was facing an OA at DRT-III Delhi for Rs. 72 lakhs. The borrower’s specialized DRT lawyer identified that the Bankers Books Evidence Act certificate attached to the account statements was signed by a bank officer who had retired three months before the date of signing, making the certification invalid. The lawyer raised this objection at the evidence stage. The DRT ruled the primary documentary evidence inadmissible. Faced with this setback, the bank agreed to a settlement at Rs. 44 lakhs in full and final settlement.</p>
                                 </div>
                             </div>
@@ -496,7 +496,7 @@ export default function AccountDocumentsDRTClient() {
                     {/* Right Column */}
                     <aside className="lg:w-1/4 xl:w-1/5 flex flex-col gap-6 sticky top-14 self-start">
                         <div className="bg-gradient-to-br from-blue-600 to-blue-900 text-white rounded-2xl p-6 shadow-lg">
-                            <h3 className="font-bold text-xl mb-3">Free Document Review</h3>
+                            <p className="font-bold text-xl mb-3">Free Document Review</p>
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Let our specialist lawyers and forensic accountants review your bank account documents and identify errors before your DRT hearing.</p>
                             <ul className="space-y-2 mb-5">
                                 {['Forensic Account Audit', 'Interest Recalculation', 'NPA Date Challenge', 'Expert Witness Reports'].map((item, i) => (
@@ -508,7 +508,7 @@ export default function AccountDocumentsDRTClient() {
                             </Link>
                         </div>
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</p>
                             <nav className="space-y-2">
                                 {relatedPages.map((page, i) => (
                                     <Link key={i} href={page.href} className="block text-sm text-blue-600 hover:text-blue-800 hover:underline py-1 transition-colors">{page.label}</Link>

@@ -239,7 +239,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -280,7 +280,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
 
                             {/* Quick Answer Block */}
                             <div id="quick-answer" className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm scroll-mt-24">
-                                <h2 className="text-xl font-bold text-blue-900 mt-0 mb-3">Key Summary: Negotiating Multiple Loans Together</h2>
+                                <p className="text-xl font-bold text-blue-900 mt-0 mb-3">Key Summary: Negotiating Multiple Loans Together</p>
                                 <p className="text-blue-900 m-0 font-normal leading-relaxed">
                                     Yes, you can absolutely negotiate multiple personal loans together by appointing a single legal representative to handle all your lenders simultaneously. This consolidated approach allows your representative to present a unified picture of your financial hardship across all institutions. As a result, you prevent one aggressive lender from taking all your available funds, ensuring that settlements are reached at highly reduced amounts across the board.
                                 </p>
@@ -316,12 +316,12 @@ export default function NegotiateMultipleLoansTogetherClient() {
 
                             {/* Infographic Section */}
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg flex flex-col items-center justify-center">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 w-full text-left border-b pb-4">The Synchronized Negotiation Process</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 w-full text-left border-b pb-4">The Synchronized Negotiation Process</p>
                                 <div className="w-full bg-blue-50 border border-blue-200 rounded-xl p-8 text-center flex flex-col items-center justify-center min-h-[300px]">
                                     <svg className="w-24 h-24 text-blue-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                                     </svg>
-                                    <h5 className="font-bold text-blue-900 text-xl mb-2">Centralized Command Center</h5>
+                                    <p className="font-bold text-blue-900 text-xl mb-2">Centralized Command Center</p>
                                     <p className="text-blue-800 text-sm max-w-md">1. Halt all direct communication with banks.<br/>2. Deploy uniform financial hardship evidence.<br/>3. Secure concurrent settlement approvals.<br/>4. Execute final bank transfers securely.</p>
                                 </div>
                                 <p className="text-xs text-gray-500 mt-4 text-center">Visual representation of how a single legal team channels multiple lender communications into one streamlined process.</p>
@@ -468,7 +468,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
 
                             {/* Share Article Section */}
                             <div className="mt-12 mb-8 pt-8 border-t border-gray-100">
-                                <h4 className="text-sm font-bold text-gray-900 mb-4 uppercase tracking-wider">Share this Guide</h4>
+                                <h3 className="text-sm font-bold text-gray-900 mb-4 uppercase tracking-wider">Share this Guide</h3>
                                 <div className="flex gap-3">
                                     <a 
                                         href={`https://api.whatsapp.com/send?text=How%20to%20Negotiate%20Multiple%20Loans%20Together%20-%20https://www.credsettle.com/negotiate-multiple-loans-together`} 
@@ -508,7 +508,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
 
                             {/* Evidence Sources */}
                             <div className="mt-8 pt-8 border-t border-gray-200 text-xs text-gray-500">
-                                <h4 className="font-bold text-gray-700 mb-2">Sources & References</h4>
+                                <h3 className="font-bold text-gray-700 mb-2">Sources & References</h3>
                                 <ol className="list-decimal pl-4 space-y-1">
                                     <li>
                                         <a href="https://rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
@@ -537,7 +537,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
                                 </div>
                                 <div>
                                     <p className="text-xs text-gray-400 mb-0.5 uppercase tracking-wide font-bold">Written by</p>
-                                    <h4 className="font-bold text-gray-900 m-0 text-base">Ashish</h4>
+                                    <p className="font-bold text-gray-900 m-0 text-base">Ashish</p>
                                     <div className="flex items-center gap-2 mt-0.5">
                                         <Link href="/author/ashish-jhangra" className="text-blue-600 text-xs hover:underline font-medium">Legal Professional</Link>
                                         <a href="https://www.linkedin.com/in/ashish-jhangra-ab1a54127/" target="_blank" rel="noopener noreferrer" className="text-[#0077b5] hover:text-[#005e93] transition-colors" aria-label="LinkedIn Profile">
@@ -551,7 +551,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
 
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-6 leading-relaxed px-1">
                                     Our team can consolidate your negotiations and send legal notices to stop agent visits immediately.
                                 </p>
@@ -570,7 +570,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
 
                             {/* Card 2: Related Articles */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-200 pb-3 mb-4">Related Articles</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-200 pb-3 mb-4">Related Articles</p>
                                 <ul className="space-y-4 text-left font-medium text-sm">
                                     <li>
                                         <Link href="/loan-settlement" className="text-blue-600 hover:text-blue-800 transition-colors">

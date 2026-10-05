@@ -154,7 +154,7 @@ export default function BusinessLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Enterprise-Grade Compliance</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Enterprise-Grade Compliance</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We structure every negotiation within RBI rules and lender policies to protect assets and directors.</p>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function BusinessLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Cash-Flow Focused Outcomes</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Cash-Flow Focused Outcomes</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Reduce principal, restructure dues, and restore working capital for business continuity.</p>
               </div>
             </div>

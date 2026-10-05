@@ -122,7 +122,7 @@ export default function LoanSettlementClient() {
             <div className="lg:w-1/4 hidden lg:block">
               <div className="sticky top-24 space-y-4">
                 <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                  <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                   <nav className="space-y-1">
                     {tocItems.map((item) => (
                       <a 
@@ -156,7 +156,7 @@ export default function LoanSettlementClient() {
                 </p>
 
                 <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                  <h4 className="font-bold text-blue-900 mb-2 mt-0">Key Takeaway</h4>
+                  <h3 className="font-bold text-blue-900 mb-2 mt-0">Key Takeaway</h3>
                   <p className="text-blue-800 m-0">
                     Loan settlement is a legal and regulated process. It allows you to close your loan account by paying a reduced lump sum amount when you are genuinely unable to pay the full dues.
                   </p>
@@ -184,19 +184,19 @@ export default function LoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                   <div className="bg-gray-50 p-6 rounded-xl">
-                    <h4 className="font-bold text-gray-900 mb-2 mt-0">1. Default Status</h4>
+                    <h3 className="font-bold text-gray-900 mb-2 mt-0">1. Default Status</h3>
                     <p className="text-gray-600 text-sm m-0">Your loan account must be in default, typically for more than 90 days, and classified as an NPA.</p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-xl">
-                    <h4 className="font-bold text-gray-900 mb-2 mt-0">2. Financial Hardship</h4>
+                    <h3 className="font-bold text-gray-900 mb-2 mt-0">2. Financial Hardship</h3>
                     <p className="text-gray-600 text-sm m-0">You must prove genuine financial inability to pay, such as job loss, critical illness, or bankruptcy.</p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-xl">
-                    <h4 className="font-bold text-gray-900 mb-2 mt-0">3. Unsecured Nature</h4>
+                    <h3 className="font-bold text-gray-900 mb-2 mt-0">3. Unsecured Nature</h3>
                     <p className="text-gray-600 text-sm m-0">Settlements are primarily for unsecured loans. Secured loans (like Home/Car loans) are rarely settled as the bank can seize the asset.</p>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-xl">
-                    <h4 className="font-bold text-gray-900 mb-2 mt-0">4. No Wilful Default</h4>
+                    <h3 className="font-bold text-gray-900 mb-2 mt-0">4. No Wilful Default</h3>
                     <p className="text-gray-600 text-sm m-0">You must not be a 'wilful defaulter' (someone who has the means to pay but chooses not to).</p>
                   </div>
                 </div>
@@ -210,35 +210,35 @@ export default function LoanSettlementClient() {
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                     <div>
-                      <h4 className="font-bold text-gray-900 mt-0 mb-1">Case Analysis & Enrollment</h4>
+                      <h3 className="font-bold text-gray-900 mt-0 mb-1">Case Analysis & Enrollment</h3>
                       <p className="text-gray-600 m-0">We analyze your debt portfolio, current financial status, and harassment levels. Once enrolled, we take over all communication with the bank.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                     <div>
-                      <h4 className="font-bold text-gray-900 mt-0 mb-1">Legal Notice Management</h4>
+                      <h3 className="font-bold text-gray-900 mt-0 mb-1">Legal Notice Management</h3>
                       <p className="text-gray-600 m-0">Our legal team responds to any notices from the bank or arbitration courts, ensuring your rights are protected throughout the default period.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                     <div>
-                      <h4 className="font-bold text-gray-900 mt-0 mb-1">Negotiation</h4>
+                      <h3 className="font-bold text-gray-900 mt-0 mb-1">Negotiation</h3>
                       <p className="text-gray-600 m-0">We initiate discussions with HDFC’s settlement officers. We leverage our industry relationships to negotiate for the maximum possible waiver.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                     <div>
-                      <h4 className="font-bold text-gray-900 mt-0 mb-1">Settlement Letter</h4>
+                      <h3 className="font-bold text-gray-900 mt-0 mb-1">Settlement Letter</h3>
                       <p className="text-gray-600 m-0">Once a deal is reached, we ensure you receive an official settlement letter from HDFC Bank on their letterhead, stating the terms clearly.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">5</div>
                     <div>
-                      <h4 className="font-bold text-gray-900 mt-0 mb-1">Closure & NOC</h4>
+                      <h3 className="font-bold text-gray-900 mt-0 mb-1">Closure & NOC</h3>
                       <p className="text-gray-600 m-0">After you make the payment, we follow up to obtain the No Dues Certificate (NOC), formally closing the chapter.</p>
                     </div>
                   </div>
@@ -272,19 +272,19 @@ export default function LoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1 mt-0">Stop Harassment</h5>
+                    <h3 className="font-bold text-gray-900 mb-1 mt-0">Stop Harassment</h3>
                     <p className="text-sm text-gray-600 m-0">We take over calls and deal with recovery agents legally.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1 mt-0">Max Savings</h5>
+                    <h3 className="font-bold text-gray-900 mb-1 mt-0">Max Savings</h3>
                     <p className="text-sm text-gray-600 m-0">Our skilled negotiators often secure 40-50% waivers.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1 mt-0">Legal Armour</h5>
+                    <h3 className="font-bold text-gray-900 mb-1 mt-0">Legal Armour</h3>
                     <p className="text-sm text-gray-600 m-0">Verified lawyers to handle legal notices and arbitration.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1 mt-0">Transparent</h5>
+                    <h3 className="font-bold text-gray-900 mb-1 mt-0">Transparent</h3>
                     <p className="text-sm text-gray-600 m-0">No hidden fees. You pay our success fee only when the job is done.</p>
                   </div>
                 </div>
@@ -370,7 +370,7 @@ export default function LoanSettlementClient() {
                 
                 {/* Main CTA Card */}
                 <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                  <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                   <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                   <Link 
                     href="/contact"
@@ -386,7 +386,7 @@ export default function LoanSettlementClient() {
 
                 {/* Related Pages Info */}
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                  <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                   <ul className="space-y-3 text-sm">
                     <li>
                       <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">

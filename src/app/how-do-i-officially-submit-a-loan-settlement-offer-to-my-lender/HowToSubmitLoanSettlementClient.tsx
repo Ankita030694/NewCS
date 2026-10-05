@@ -325,7 +325,7 @@ export default function HowToSubmitLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -368,7 +368,7 @@ export default function HowToSubmitLoanSettlementClient() {
                                 One of the most common mistakes distressed borrowers make is engaging in long, emotional phone calls with collection agents. While these conversations might feel like progress, they are often a trap. Collection agents are incentivized by immediate recovery; they have zero authority to grant permanent interest waivers or principal haircuts. Any "deal" they offer over the phone is technically a "token payment" strategy intended to reset the NPA clock or prevent the account from moving to a higher bucket of default.
                             </p>
                             <div className="bg-red-50 p-10 rounded-[2.5rem] border border-red-100 mb-12 shadow-sm">
-                                <h3 className="text-2xl font-black text-red-900 mb-6 uppercase tracking-tight">The Dangers of Non-Official Communication:</h3>
+                                <p className="text-2xl font-black text-red-900 mb-6 uppercase tracking-tight">The Dangers of Non-Official Communication:</p>
                                 <ul className="space-y-6 text-slate-800 font-medium">
                                     <li className="flex items-start">
                                         <span className="text-red-500 mr-4 font-black">X</span>
@@ -403,11 +403,11 @@ export default function HowToSubmitLoanSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-slate-50 rounded-3xl border border-slate-200 hover:shadow-lg transition-shadow">
-                                    <h4 className="font-black text-slate-900 mb-4 border-b-2 border-blue-500 pb-2">Identify Total Dues</h4>
+                                    <p className="font-black text-slate-900 mb-4 border-b-2 border-blue-500 pb-2">Identify Total Dues</p>
                                     <p className="text-sm text-slate-600 leading-relaxed">Download your latest Statement of Account (SOA). Look for: Original Loan Amount, Principal Paid, Principal Outstanding, Interest Overdue, and Penal Charges.</p>
                                 </div>
                                 <div className="p-8 bg-slate-50 rounded-3xl border border-slate-200 hover:shadow-lg transition-shadow">
-                                    <h4 className="font-black text-slate-900 mb-4 border-b-2 border-blue-500 pb-2">Assess Liquid Assets</h4>
+                                    <p className="font-black text-slate-900 mb-4 border-b-2 border-blue-500 pb-2">Assess Liquid Assets</p>
                                     <p className="text-sm text-slate-600 leading-relaxed">What do you have right now? Savings in PF, gold that can be sold, help from family, or a final settlement from a past employer. This is your "War Chest."</p>
                                 </div>
                             </div>
@@ -646,7 +646,7 @@ export default function HowToSubmitLoanSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Draft My Letter</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Draft My Letter</p>
                                 <p className="text-sm text-gray-600 mb-6">Don't risk rejection. Get a legally vetted, high-conversion hardship letter drafted by experts today.</p>
                                 <Link
                                     href="/contact"
@@ -663,7 +663,7 @@ export default function HowToSubmitLoanSettlementClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Next Steps</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Next Steps</p>
                                 <nav className="space-y-2">
                                     {[
                                         { href: "/what-are-the-eligibility-criteria-for-loan-settlement-programs-by-lending-platforms", text: "Check Your Eligibility" },

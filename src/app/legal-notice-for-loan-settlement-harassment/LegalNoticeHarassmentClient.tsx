@@ -232,7 +232,7 @@ export default function LegalNoticeHarassmentClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -275,7 +275,7 @@ export default function LegalNoticeHarassmentClient() {
                                 Many borrowers stay silent because they believe that "Since I owe money, I must accept whatever the bank does." This is a dangerous myth. Recovery is a regulated process, not a lawless raid. To send an effective legal notice, you must first identify which acts of the recovery agent qualify as "Illegal Harassment." In 2025, the legal definition of harassment has expanded to include both physical and digital intimidation.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h4 className="font-bold text-xl text-blue-900 mb-4">Examples of Illegal Recovery Practices:</h4>
+                                <p className="font-bold text-xl text-blue-900 mb-4">Examples of Illegal Recovery Practices:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Privacy Violations:</strong> Calling your HR department, neighbors, or relatives to inform them about your debt. Your relationship with the bank is a "Privacy Contract," and exposing it is a breach of trust.</li>
                                     <li><strong>Time Violations:</strong> Calls or visits before 8:00 AM or after 7:00 PM. This period is your "Right to Repose" and cannot be violated by financial institutions.</li>
@@ -477,7 +477,7 @@ export default function LegalNoticeHarassmentClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Notice Drafting</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Notice Drafting</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop the calls, visits, and threats. Let our lawyers draft your legal defense today.</p>
                                 <Link
                                     href="/contact"
@@ -494,7 +494,7 @@ export default function LegalNoticeHarassmentClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-handle-recovery-agent-harrasment" className="block text-sm text-blue-600 hover:underline">Handling Harassment</Link>
                                     <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Dealing with Notices</Link>

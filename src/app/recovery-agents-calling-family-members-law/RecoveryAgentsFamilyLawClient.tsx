@@ -340,7 +340,7 @@ export default function RecoveryAgentsFamilyLawClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Family Privacy Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Family Privacy Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -389,7 +389,7 @@ export default function RecoveryAgentsFamilyLawClient() {
                                 The Reserve Bank of India (RBI) is the primary regulator for all banking activities in India, and its guidelines are binding. The <strong className="font-bold text-gray-900">Master Direction - Reserve Bank of India (Internal Grievance Redressal Mechanism in Regulated Entities) Directions, 2024</strong> and the <strong className="font-bold text-gray-900">Fair Practices Code</strong> are very explicit about third-party interactions.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h4 className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The RBI Mandate:</h4>
+                                <p className="font-bold text-blue-900 mb-4 text-sm uppercase tracking-wider">The RBI Mandate:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Direct Communication Only:</strong> Recovery agents must only communicate with the borrower or the guarantor. They are strictly prohibited from contacting any third party.</li>
                                     <li><strong>2. Confidentiality:</strong> The existence and status of a loan are confidential financial data. Disclosing this to a relative or friend is a breach of the "Duty of Secrecy" that every bank owes its customers.</li>
@@ -512,7 +512,7 @@ export default function RecoveryAgentsFamilyLawClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -575,7 +575,7 @@ export default function RecoveryAgentsFamilyLawClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Build a Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Build a Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">We can issues a legal "Cease and Desist" regarding your family and employer within 6 hours. Stop the shaming today.</p>
                                 <Link
                                     href="/contact"
@@ -592,7 +592,7 @@ export default function RecoveryAgentsFamilyLawClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</p>
                                 <nav className="space-y-3">
                                     <Link href="/can-i-go-to-jail-for-loan-default-in-india" className="block text-sm text-blue-600 hover:underline">Jail Risk Realities</Link>
                                     <Link href="/rbi-rules-for-recovery-agents" className="block text-sm text-blue-600 hover:underline">RBI Agent Rules</Link>

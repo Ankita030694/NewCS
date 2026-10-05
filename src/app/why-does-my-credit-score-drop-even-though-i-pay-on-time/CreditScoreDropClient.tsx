@@ -248,7 +248,7 @@ export default function CreditScoreDropClient() {
 
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Index</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Index</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -287,7 +287,7 @@ export default function CreditScoreDropClient() {
                                 High CUR is the leading cause of sudden score drops for on-time payers. Even if you pay your bill in full every month, the "Statement Date" reporting can trip you up. Most banks report your balance to the credit bureau on the day your statement is generated, not after you pay it.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl mb-8 border border-blue-100 font-light text-sm">
-                                <h4 className="text-blue-900 font-bold mb-3">The Statement Date Trap</h4>
+                                <p className="text-blue-900 font-bold mb-3">The Statement Date Trap</p>
                                 <p className="text-blue-800 leading-relaxed mb-4">
                                     If your credit limit is ₹1,00,000 and you spend ₹80,000 during the month, your statement shows 80% utilization. If the bank reports this to CIBIL on the 15th, but you pay the bill on the 20th, the bureau only sees that you used 80% of your limit. 
                                 </p>
@@ -342,7 +342,7 @@ export default function CreditScoreDropClient() {
                             </p>
 
                             <div id="rectification" className="mt-12 p-8 bg-blue-900 text-white rounded-3xl shadow-xl">
-                                <h3 className="text-2xl font-bold mb-6 italic">The 2026 Rectification Roadmap</h3>
+                                <p className="text-2xl font-bold mb-6 italic">The 2026 Rectification Roadmap</p>
                                 <div className="space-y-6 text-sm font-light">
                                     <div className="flex gap-4">
                                         <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
@@ -416,7 +416,7 @@ export default function CreditScoreDropClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="space-y-6">
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Fix Your Score</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Fix Your Score</p>
                                 <p className="text-sm text-gray-600 mb-6">Let Amalegal and CredSettle fix your credit report errors.</p>
                                 <Link
                                     href="/contact"
@@ -426,7 +426,7 @@ export default function CreditScoreDropClient() {
                                 </Link>
                             </div>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Analysis</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Analysis</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-get-800-credit-score-in-india" className="block text-sm text-blue-600 hover:underline">Get 800+ Score</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>

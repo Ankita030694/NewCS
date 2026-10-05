@@ -226,7 +226,7 @@ export default function PersonalLoanSettlementVsClosureClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Status Upgrade Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Status Upgrade Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -312,14 +312,14 @@ export default function PersonalLoanSettlementVsClosureClient() {
                                 To truly understand the difference between settled and closed account statuses, we must look at the legal and accounting realities that dictate bank behavior. Banks are heavily regulated entities, and every rupee must be accounted for in their ledgers.
                             </p>
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Closure vs Settlement Analysis</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Closure vs Settlement Analysis</p>
                                 <ul className="space-y-6">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0 text-xl">The Financial Recovery</h5>
+                                            <p className="font-bold text-gray-900 mt-0 text-xl">The Financial Recovery</p>
                                             <p className="text-base text-gray-700 m-0 mt-2"><strong>In Closure:</strong> The bank recovers one hundred percent of the principal amount disbursed plus all expected interest revenue. <strong>In Settlement:</strong> The bank recovers only a fraction of the principal. They forfeit all interest and take a direct hit to their profitability.</p>
                                         </div>
                                     </li>
@@ -328,7 +328,7 @@ export default function PersonalLoanSettlementVsClosureClient() {
                                             <span className="font-bold text-blue-600 text-sm">2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0 text-xl">The Issuing Document</h5>
+                                            <p className="font-bold text-gray-900 mt-0 text-xl">The Issuing Document</p>
                                             <p className="text-base text-gray-700 m-0 mt-2"><strong>In Closure:</strong> You receive a legally binding No Objection Certificate. This certificate proves the contract is fulfilled entirely. <strong>In Settlement:</strong> You receive a Settlement Letter. This letter only proves that a specific compromise was reached and executed, but it inherently acknowledges a shortfall.</p>
                                         </div>
                                     </li>
@@ -337,7 +337,7 @@ export default function PersonalLoanSettlementVsClosureClient() {
                                             <span className="font-bold text-blue-600 text-sm">3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0 text-xl">The Bureau Reporting</h5>
+                                            <p className="font-bold text-gray-900 mt-0 text-xl">The Bureau Reporting</p>
                                             <p className="text-base text-gray-700 m-0 mt-2"><strong>In Closure:</strong> The credit bureaus receive a code indicating full payment and standard closure. This boosts your credit score. <strong>In Settlement:</strong> The credit bureaus receive a specific status code for settlement. This instantly drops your credit score, often by fifty to one hundred points depending on your prior history.</p>
                                         </div>
                                     </li>
@@ -346,7 +346,7 @@ export default function PersonalLoanSettlementVsClosureClient() {
                                             <span className="font-bold text-blue-600 text-sm">4</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0 text-xl">The Future Borrowing Impact</h5>
+                                            <p className="font-bold text-gray-900 mt-0 text-xl">The Future Borrowing Impact</p>
                                             <p className="text-base text-gray-700 m-0 mt-2"><strong>In Closure:</strong> You remain a highly desirable customer for all financial products. <strong>In Settlement:</strong> You are flagged as a subprime or high risk borrower. You will face automatic rejections for unsecured credit and extreme scrutiny for secured loans like mortgages.</p>
                                         </div>
                                     </li>
@@ -427,7 +427,7 @@ export default function PersonalLoanSettlementVsClosureClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -464,7 +464,7 @@ export default function PersonalLoanSettlementVsClosureClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-4 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -483,7 +483,7 @@ export default function PersonalLoanSettlementVsClosureClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/personal-loan-settlement-cibil-impact" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

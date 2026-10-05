@@ -182,7 +182,7 @@ export default function QuickLoanReliefClient() {
         <aside className="lg:w-1/6 hidden lg:block">
           <div className="sticky top-24 space-y-4">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-              <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+              <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
               <nav className="space-y-2 text-sm">
                 {navLinks.map((link) => (
                   <a 
@@ -272,7 +272,7 @@ export default function QuickLoanReliefClient() {
               </p>
               
               <div className="my-10 p-8 bg-red-50 border-l-4 border-red-600 rounded-r-xl">
-                <h4 className="font-bold text-red-900 text-lg mb-4">Red Flags List: Identifying Illegal Loan Operators</h4>
+                <h3 className="font-bold text-red-900 text-lg mb-4">Red Flags List: Identifying Illegal Loan Operators</h3>
                 <ul className="list-none space-y-3">
                   <li className="flex items-start">
                     <span className="text-red-500 mr-2 font-bold text-xl">!</span>
@@ -336,14 +336,14 @@ export default function QuickLoanReliefClient() {
               </p>
               
               <div className="my-10 bg-white p-8 rounded-xl border border-gray-200 shadow-sm">
-                <h4 className="font-bold text-blue-900 text-lg mb-6 text-center">Legal Process Map: The Path to Resolution</h4>
+                <h3 className="font-bold text-blue-900 text-lg mb-6 text-center">Legal Process Map: The Path to Resolution</h3>
                 
                 <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-4">
                   <div className="flex flex-col items-center text-center max-w-[200px]">
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 border-2 border-blue-500">
                       <span className="text-blue-600 font-bold text-xl">1</span>
                     </div>
-                    <h5 className="font-bold text-gray-800 mb-2">Verification</h5>
+                    <h3 className="font-bold text-gray-800 mb-2">Verification</h3>
                     <p className="text-sm text-gray-600">Confirm the lender is an RBI registered NBFC with legal standing.</p>
                   </div>
                   
@@ -355,7 +355,7 @@ export default function QuickLoanReliefClient() {
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 border-2 border-blue-500">
                       <span className="text-blue-600 font-bold text-xl">2</span>
                     </div>
-                    <h5 className="font-bold text-gray-800 mb-2">Communication</h5>
+                    <h3 className="font-bold text-gray-800 mb-2">Communication</h3>
                     <p className="text-sm text-gray-600">Send a formal hardship letter outlining your inability to pay full amount.</p>
                   </div>
                   
@@ -367,7 +367,7 @@ export default function QuickLoanReliefClient() {
                     <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 border-2 border-blue-500">
                       <span className="text-blue-600 font-bold text-xl">3</span>
                     </div>
-                    <h5 className="font-bold text-gray-800 mb-2">Execution</h5>
+                    <h3 className="font-bold text-gray-800 mb-2">Execution</h3>
                     <p className="text-sm text-gray-600">Receive formal NOC letter before making the final negotiated payment.</p>
                   </div>
                 </div>
@@ -394,26 +394,26 @@ export default function QuickLoanReliefClient() {
               </p>
               
               <div className="my-10">
-                <h4 className="font-bold text-gray-900 text-lg mb-6">Timeline of a Secure Payment Execution</h4>
+                <h3 className="font-bold text-gray-900 text-lg mb-6">Timeline of a Secure Payment Execution</h3>
                 <div className="relative border-l-4 border-blue-600 ml-4 space-y-8 pl-8 py-2">
                   <div className="relative">
                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[42px] top-1 border-4 border-white"></div>
                     <time className="text-sm font-bold text-blue-600 mb-1 block">Phase One: Agreement</time>
-                    <h5 className="font-bold text-gray-800 text-base mb-2">Verbal Consensus Reached</h5>
+                    <h3 className="font-bold text-gray-800 text-base mb-2">Verbal Consensus Reached</h3>
                     <p className="text-gray-600">Both parties agree on the final lump sum figure. You explicitly demand that this agreement be documented on official company letterhead before any funds are transferred.</p>
                   </div>
                   
                   <div className="relative">
                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[42px] top-1 border-4 border-white"></div>
                     <time className="text-sm font-bold text-blue-600 mb-1 block">Phase Two: Verification</time>
-                    <h5 className="font-bold text-gray-800 text-base mb-2">Reviewing the Settlement Document</h5>
+                    <h3 className="font-bold text-gray-800 text-base mb-2">Reviewing the Settlement Document</h3>
                     <p className="text-gray-600">The lender emails the settlement letter. You must verify that it contains your exact loan account number, the agreed payment amount, the payment deadline, and an unequivocal statement that this payment constitutes full and final settlement of the debt.</p>
                   </div>
                   
                   <div className="relative">
                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[42px] top-1 border-4 border-white"></div>
                     <time className="text-sm font-bold text-blue-600 mb-1 block">Phase Three: Execution</time>
-                    <h5 className="font-bold text-gray-800 text-base mb-2">Payment and Archival</h5>
+                    <h3 className="font-bold text-gray-800 text-base mb-2">Payment and Archival</h3>
                     <p className="text-gray-600">You transfer the exact amount via NEFT or RTGS to the corporate bank account listed in the letter. You save the transaction reference number alongside the settlement letter in multiple secure locations indefinitely.</p>
                   </div>
                 </div>
@@ -431,7 +431,7 @@ export default function QuickLoanReliefClient() {
           <div className="sticky top-24 space-y-4">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
               <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-              <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+              <p className="font-bold text-gray-900">Vikram Sharma</p>
               <p className="text-sm text-gray-500 mb-4">Cyber Law & Debt Resolution Specialist</p>
               <p className="text-xs text-gray-400">Expert in dismantling predatory lending operations, securing digital privacy, and executing complex corporate settlements.</p>
             </div>

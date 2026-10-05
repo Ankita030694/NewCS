@@ -249,7 +249,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">OTS Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">OTS Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -320,12 +320,12 @@ export default function PersonalLoanOneTimeSettlementClient() {
                             
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Key Hardship Indicators:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Loss of Employment:</strong> A formal termination letter or proof of prolonged unemployment is a very strong indicator of financial distress.</li>
                                     <li><strong>Medical Emergencies:</strong> Extensive hospital bills and medical reports demonstrating a severe health crisis that drained your financial resources.</li>
@@ -361,14 +361,14 @@ export default function PersonalLoanOneTimeSettlementClient() {
                             </p>
                             
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Negotiation Framework</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Negotiation Framework</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">Step 1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Financial Assessment and Preparation</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Financial Assessment and Preparation</p>
                                             <p className="text-sm text-gray-600 m-0">Thoroughly evaluate your current liquidity. Determine the absolute maximum lump sum amount you can realistically gather from savings, family, or asset liquidation. Never offer money you do not have in hand.</p>
                                         </div>
                                     </li>
@@ -377,7 +377,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">Step 2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Formal Communication of Hardship</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Formal Communication of Hardship</p>
                                             <p className="text-sm text-gray-600 m-0">Draft a formal, highly detailed hardship letter addressed to the bank manager or the specific recovery department head. Attach all supporting evidence such as medical bills or termination letters to prove your incapacity to pay.</p>
                                         </div>
                                     </li>
@@ -386,7 +386,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">Step 3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Initial Low Offer Strategy</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Initial Low Offer Strategy</p>
                                             <p className="text-sm text-gray-600 m-0">When the bank opens negotiations, counter with an exceptionally low initial offer, typically around 20 to 30 percent of the outstanding principal. The bank will categorically reject this, but it sets a low baseline for the ensuing negotiations.</p>
                                         </div>
                                     </li>
@@ -395,7 +395,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">Step 4</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Demand Official Documentation</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Demand Official Documentation</p>
                                             <p className="text-sm text-gray-600 m-0">Once a verbal agreement is reached, absolutely refuse to make any payment until you receive a formal, stamped settlement letter directly from the bank, detailing all terms and confirming the future issuance of a No Dues Certificate.</p>
                                         </div>
                                     </li>
@@ -528,7 +528,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start space-y-6">
                         {/* Card 1: CTA */}
                         <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                            <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                            <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                             <p className="text-gray-600 text-xs mb-5 leading-relaxed px-2">
                                 We can send an immediate Legal Notice to stop recovery agents from visiting your house today.
                             </p>
@@ -547,7 +547,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
 
                         {/* Card 2: Links */}
                         <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                            <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                            <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                             <ul className="space-y-4 text-left font-medium">
                                 <li>
                                     <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

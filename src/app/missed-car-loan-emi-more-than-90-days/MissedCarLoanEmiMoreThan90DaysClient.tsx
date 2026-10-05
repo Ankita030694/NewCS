@@ -241,7 +241,7 @@ export default function MissedCarLoanEmiMoreThan90DaysClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Survival Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Survival Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -312,10 +312,10 @@ export default function MissedCarLoanEmiMoreThan90DaysClient() {
                                 <div className="absolute top-4 right-4 bg-red-100 text-red-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider border border-red-200">
                                     Legal Warning
                                 </div>
-                                <h4 className="text-2xl font-black text-red-900 mb-4 flex items-center gap-3">
+                                <p className="text-2xl font-black text-red-900 mb-4 flex items-center gap-3">
                                     <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Spotting Illegal Repossession Attempts
-                                </h4>
+                                </p>
                                 <p className="text-red-800 font-medium mb-4">
                                     The Supreme Court of India has repeatedly ruled that banks and their agents cannot use force, intimidation, or coercion to seize vehicles. The following actions are strictly illegal:
                                 </p>
@@ -357,28 +357,28 @@ export default function MissedCarLoanEmiMoreThan90DaysClient() {
 
                             {/* VISUAL ELEMENT 2: Checklist */}
                             <div className="bg-gray-900 text-white p-8 rounded-3xl mb-10 shadow-2xl">
-                                <h4 className="text-2xl font-black mb-6 flex items-center text-blue-300">
+                                <p className="text-2xl font-black mb-6 flex items-center text-blue-300">
                                     Statutory Notice Checklist
-                                </h4>
+                                </p>
                                 <div className="space-y-6">
                                     <div className="flex items-start bg-gray-800 p-5 rounded-2xl border border-gray-700">
                                         <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0 mt-1">1</div>
                                         <div>
-                                            <h5 className="font-bold text-lg mb-1 text-white">The Section 13(2) Demand Notice</h5>
+                                            <p className="font-bold text-lg mb-1 text-white">The Section 13(2) Demand Notice</p>
                                             <p className="text-gray-300 text-sm font-light leading-relaxed">Once the account is an NPA, the bank issues a notice under Section 13(2) of the SARFAESI Act. This notice demands that you clear the entire outstanding liability within 60 days. You have the right to reply to this notice with your objections or settlement proposals within 15 days.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start bg-gray-800 p-5 rounded-2xl border border-gray-700">
                                         <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0 mt-1">2</div>
                                         <div>
-                                            <h5 className="font-bold text-lg mb-1 text-white">The Possession Notice</h5>
+                                            <h3 className="font-bold text-lg mb-1 text-white">The Possession Notice</h3>
                                             <p className="text-gray-300 text-sm font-light leading-relaxed">If you fail to pay within the 60 day period, the bank can proceed to take possession of the vehicle under Section 13(4). They must serve a specific possession notice stating their intent to seize the asset.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start bg-gray-800 p-5 rounded-2xl border border-gray-700">
                                         <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4 flex-shrink-0 mt-1">3</div>
                                         <div>
-                                            <h5 className="font-bold text-lg mb-1 text-white">The Pre-Sale Notice</h5>
+                                            <h3 className="font-bold text-lg mb-1 text-white">The Pre-Sale Notice</h3>
                                             <p className="text-gray-300 text-sm font-light leading-relaxed">Even after seizing the car, the bank cannot sell it secretly. They must issue a pre sale notice (usually giving you 7 to 30 days, depending on the specific loan agreement and vehicle type) allowing you a final chance to pay the dues and reclaim your car before it is auctioned.</p>
                                         </div>
                                     </div>
@@ -502,7 +502,7 @@ export default function MissedCarLoanEmiMoreThan90DaysClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to stop agents from visiting your house today.</p>
                                 <Link
                                     href="/contact"
@@ -520,7 +520,7 @@ export default function MissedCarLoanEmiMoreThan90DaysClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Seizure Relief Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Seizure Relief Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/rbi-guidelines-for-recovery-agents-2026" className="block text-sm text-blue-600 hover:underline">RBI Recovery Rules</Link>
                                     <Link href="/voluntary-surrender-vehicle-car-loan-shortfall" className="block text-sm text-blue-600 hover:underline">Voluntary Vehicle Surrender</Link>

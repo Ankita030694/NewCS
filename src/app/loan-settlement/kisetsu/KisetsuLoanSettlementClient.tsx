@@ -190,7 +190,7 @@ export default function KisetsuLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -230,7 +230,7 @@ export default function KisetsuLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">CredSettle’s Commitment</h4>
+                <h3 className="font-bold text-blue-900 mb-2">CredSettle’s Commitment</h3>
                 <p className="text-blue-800 m-0">
                   Your financial dignity matters. We specialize in intervening between you and lenders like Kisetsu Saison Finance to stop harassment and negotiate a fair settlement. Let us handle the legal complexities while you focus on rebuilding your life.
                 </p>
@@ -263,11 +263,11 @@ export default function KisetsuLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">Unsecured Loans</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Unsecured Loans</h3>
                   <p className="text-gray-600 text-sm">Settlement is primarily for unsecured debt like <strong>Privo App Personal Loans</strong> and Credit Saison Business Loans. Secured loans are rarely settled as the lender can seize the asset.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">NPA Status</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">NPA Status</h3>
                   <p className="text-gray-600 text-sm">Typically, serious negotiations begin after the account hits the 90-day overdue mark (NPA status). Pre-NPA settlements are exceptionally rare.</p>
                 </div>
               </div>
@@ -275,15 +275,15 @@ export default function KisetsuLoanSettlementClient() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Valid Grounds for Hardship</h3>
               <div className="space-y-6 mb-10">
                 <div className="bg-white border-l-4 border-green-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Loss of Employment</h4>
+                  <h3 className="font-bold text-gray-900">Loss of Employment</h3>
                   <p className="text-gray-700 mt-1">A sudden job loss or layoff is one of the most accepted reasons. Providing a termination letter strengthens your case significantly.</p>
                 </div>
                 <div className="bg-white border-l-4 border-green-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Medical Crisis</h4>
+                  <h3 className="font-bold text-gray-900">Medical Crisis</h3>
                   <p className="text-gray-700 mt-1">Severe illness for yourself or a dependent that has depleted your savings is a compassionate ground for settlement.</p>
                 </div>
                 <div className="bg-white border-l-4 border-green-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Business Insolvency</h4>
+                  <h3 className="font-bold text-gray-900">Business Insolvency</h3>
                   <p className="text-gray-700 mt-1">For self-employed individuals, proof of business closure or severe revenue loss (via GST returns or bank statements) is critical.</p>
                 </div>
               </div>
@@ -296,7 +296,7 @@ export default function KisetsuLoanSettlementClient() {
               <div className="space-y-8 mb-12">
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Assessment & Anti-Harassment</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Assessment & Anti-Harassment</h3>
                   <p className="text-gray-700">
                     We start by analyzing your loan documents to identify the actual principal versus inflated charges. Simultaneously, we take over communication with recovery agents to ensure you are not subjected to illegal harassment.
                   </p>
@@ -304,7 +304,7 @@ export default function KisetsuLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Proposal Submission</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Proposal Submission</h3>
                   <p className="text-gray-700">
                     We draft a formal settlement proposal detailing your hardship. This is submitted to the authorized officer at Kisetsu Saison Finance (often via <strong>grievance@creditsaison-in.com</strong>). We never start with the highest amount you can pay; we start low to leave room for negotiation.
                   </p>
@@ -312,7 +312,7 @@ export default function KisetsuLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">The Negotiation Phase</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">The Negotiation Phase</h3>
                   <p className="text-gray-700">
                     The lender will counter-offer, usually demanding 80-90% of the dues. Our legal experts engage in multiple rounds of discussion, citing RBI guidelines and your financial reality, to bring this figure down to a realistic 30-50% range.
                   </p>
@@ -320,7 +320,7 @@ export default function KisetsuLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Settlement Authorization</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Settlement Authorization</h3>
                   <p className="text-gray-700">
                     Success! The lender agrees to a figure. We ensure this is documented in an official <strong>Settlement Letter</strong>. This letter must clearly state the settlement amount, the due date, and the promise to close the loan upon payment.
                   </p>
@@ -328,7 +328,7 @@ export default function KisetsuLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Closure and NOC Download</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Closure and NOC Download</h3>
                   <p className="text-gray-700">
                     You make the payment directly to your loan account. Within 15-20 days, the bank issues a <strong>No Dues Certificate (NOC)</strong>. While there isn’t a direct "one-click download" for everyone, CredSettle ensures this is emailed to you directly from their official domain (@creditsaison-in.com).
                   </p>
@@ -359,7 +359,7 @@ export default function KisetsuLoanSettlementClient() {
               
               <div className="grid gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">Arbitration</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">Arbitration</h3>
                   <p className="text-gray-700">
                     Your loan agreement likely includes an arbitration clause. The lender may unilaterally appoint an arbitrator. Ignoring arbitration notices can lead to an <em>ex-parte</em> award against you.
                     <br/><span className="text-blue-600 font-semibold">Strategy:</span> We represent you in these proceedings to challenge the appointment or the claim, forcing the lender to come to the settlement table.
@@ -367,7 +367,7 @@ export default function KisetsuLoanSettlementClient() {
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">Legal Notices</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">Legal Notices</h3>
                   <p className="text-gray-700">
                     Receiving a legal notice can be scary, but it is often a pressure tactic. Most notices are invitations to pay. However, they must be responded to professionally to avoid escalation.
                   </p>
@@ -450,7 +450,7 @@ export default function KisetsuLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Settle Kisetsu Loan</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Settle Kisetsu Loan</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal help to save up to 50% on dues.</p>
                 <Link 
                   href="/contact"

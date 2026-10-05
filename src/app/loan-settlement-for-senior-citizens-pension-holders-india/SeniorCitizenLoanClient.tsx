@@ -192,7 +192,7 @@ export default function SeniorCitizenLoanClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -292,7 +292,7 @@ export default function SeniorCitizenLoanClient() {
                         <span className="text-red-600 font-bold text-lg">!</span>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-xl font-bold text-gray-900">Threats of Immediate Police Arrest</h4>
+                        <h3 className="text-xl font-bold text-gray-900">Threats of Immediate Police Arrest</h3>
                         <p className="text-gray-700 mt-1 text-lg">Agents falsely claiming they are calling from the local police station or threatening to arrive with officers to arrest you for an unsecured loan default. This is a complete fabrication.</p>
                       </div>
                     </li>
@@ -301,7 +301,7 @@ export default function SeniorCitizenLoanClient() {
                         <span className="text-red-600 font-bold text-lg">!</span>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-xl font-bold text-gray-900">Demanding Cash Payments</h4>
+                        <h3 className="text-xl font-bold text-gray-900">Demanding Cash Payments</h3>
                         <p className="text-gray-700 mt-1 text-lg">Agents insisting on collecting EMIs or settlement amounts in cash directly from your home, often refusing to provide official bank receipts. All payments must be made directly to the loan account through formal banking channels.</p>
                       </div>
                     </li>
@@ -310,7 +310,7 @@ export default function SeniorCitizenLoanClient() {
                         <span className="text-red-600 font-bold text-lg">!</span>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-xl font-bold text-gray-900">Calling Outside Permitted Hours</h4>
+                        <h3 className="text-xl font-bold text-gray-900">Calling Outside Permitted Hours</h3>
                         <p className="text-gray-700 mt-1 text-lg">Receiving collection calls before 8:00 AM or after 7:00 PM. The RBI strictly mandates that all recovery communications must occur during normal waking hours to respect the borrower's privacy.</p>
                       </div>
                     </li>
@@ -319,7 +319,7 @@ export default function SeniorCitizenLoanClient() {
                         <span className="text-red-600 font-bold text-lg">!</span>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-xl font-bold text-gray-900">Abusive or Profane Language</h4>
+                        <h3 className="text-xl font-bold text-gray-900">Abusive or Profane Language</h3>
                         <p className="text-gray-700 mt-1 text-lg">The use of insults, yelling, profanity, or any form of verbal abuse. Professional conduct is legally required, and abusive behavior is grounds for severe penalties against the bank.</p>
                       </div>
                     </li>
@@ -328,7 +328,7 @@ export default function SeniorCitizenLoanClient() {
                         <span className="text-red-600 font-bold text-lg">!</span>
                       </div>
                       <div className="ml-4">
-                        <h4 className="text-xl font-bold text-gray-900">Harassing Family Members</h4>
+                        <h3 className="text-xl font-bold text-gray-900">Harassing Family Members</h3>
                         <p className="text-gray-700 mt-1 text-lg">Contacting your children, relatives, or neighbors to discuss your debt and embarrass you into paying. Third-party disclosure of your financial situation is a massive privacy violation.</p>
                       </div>
                     </li>
@@ -353,7 +353,7 @@ export default function SeniorCitizenLoanClient() {
                     <div className="flex gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">1</div>
                       <div>
-                        <h4 className="text-xl font-bold text-gray-900 mb-2" id="evaluating-hardship">Evaluating Your Financial Hardship Level</h4>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2" id="evaluating-hardship">Evaluating Your Financial Hardship Level</h3>
                         <p className="text-gray-700 leading-relaxed text-lg">Before approaching the bank, conduct a brutally honest assessment of your finances. Calculate your exact monthly pension, deduct all essential living expenses, medical costs, and emergency buffers. The remaining amount, if any, dictates what you can realistically offer as a lump sum. Do not commit to a settlement amount that will require you to take another loan or sacrifice your basic needs. Document your medical bills and pension slips as proof of hardship.</p>
                       </div>
                     </div>
@@ -361,7 +361,7 @@ export default function SeniorCitizenLoanClient() {
                     <div className="flex gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">2</div>
                       <div>
-                        <h4 className="text-xl font-bold text-gray-900 mb-2">Halt Further Borrowing</h4>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Halt Further Borrowing</h3>
                         <p className="text-gray-700 leading-relaxed text-lg">The worst mistake you can make is taking a new high-interest loan to pay off an existing default. This creates an inescapable debt spiral. Accept the default status and focus entirely on saving whatever small amounts you can towards building a settlement corpus.</p>
                       </div>
                     </div>
@@ -369,7 +369,7 @@ export default function SeniorCitizenLoanClient() {
                     <div className="flex gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">3</div>
                       <div>
-                        <h4 className="text-xl font-bold text-gray-900 mb-2" id="proposing-offer">Proposing a Realistic Settlement Offer</h4>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2" id="proposing-offer">Proposing a Realistic Settlement Offer</h3>
                         <p className="text-gray-700 leading-relaxed text-lg">Draft a formal hardship letter addressed to the bank's grievance redressal officer or recovery head. Explain your status as a senior citizen, your fixed pension income, and any medical issues. Propose a specific, affordable lump sum amount to settle the account. It is highly recommended to seek professional help for this step. If you are wondering <Link href="/what-is-the-best-way-to-negotiate-loan-settlement" className="text-blue-600 underline">what is the best way to negotiate loan settlement</Link>, having legal representation significantly increases your leverage.</p>
                       </div>
                     </div>
@@ -377,7 +377,7 @@ export default function SeniorCitizenLoanClient() {
                     <div className="flex gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">4</div>
                       <div>
-                        <h4 className="text-xl font-bold text-gray-900 mb-2">Obtain the Official Settlement Letter</h4>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Obtain the Official Settlement Letter</h3>
                         <p className="text-gray-700 leading-relaxed text-lg">Never make a settlement payment based on a verbal promise or a WhatsApp message from a recovery agent. Insist on a formal, physically or digitally signed settlement letter originating from the bank's official domain. This letter must clearly state the agreed amount, the deadline, and explicitly confirm that upon payment, the account will be marked as settled with no further dues pending.</p>
                       </div>
                     </div>
@@ -385,7 +385,7 @@ export default function SeniorCitizenLoanClient() {
                     <div className="flex gap-4">
                       <div className="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">5</div>
                       <div>
-                        <h4 className="text-xl font-bold text-gray-900 mb-2" id="managing-tax">Managing the Tax Implications on Settled Debt</h4>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2" id="managing-tax">Managing the Tax Implications on Settled Debt</h3>
                         <p className="text-gray-700 leading-relaxed text-lg">Be aware that the amount waived by the bank during a settlement might be considered as taxable income under certain provisions of the Income Tax Act, depending on the nature of the loan. Consult with a tax advisor to understand if the waived amount needs to be declared in your annual returns to avoid any future surprises from the tax department.</p>
                       </div>
                     </div>
@@ -485,7 +485,7 @@ export default function SeniorCitizenLoanClient() {
                         <p className="text-gray-700 italic mb-6 leading-relaxed">"{review.text}"</p>
                       </div>
                       <div className="border-t border-gray-100 pt-4">
-                        <h4 className="font-bold text-gray-900 uppercase tracking-tight">{review.name}</h4>
+                        <p className="font-bold text-gray-900 uppercase tracking-tight">{review.name}</p>
                         <p className="text-sm text-blue-600 uppercase font-bold">{review.location} • {review.date}</p>
                       </div>
                     </div>
@@ -513,7 +513,7 @@ export default function SeniorCitizenLoanClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"

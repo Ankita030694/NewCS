@@ -293,7 +293,7 @@ export default function P2PLendingSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2 uppercase tracking-widest text-[10px] text-gray-400">Chapter List</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2 uppercase tracking-widest text-[10px] text-gray-400">Chapter List</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -340,7 +340,7 @@ export default function P2PLendingSettlementClient() {
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] mb-12 shadow-2xl relative overflow-hidden">
                                 <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-600 opacity-20 blur-3xl"></div>
-                                <h3 className="text-2xl font-black mb-6 italic tracking-widest text-blue-400">Key RBI Constraints & 2025 Mandates:</h3>
+                                <p className="text-2xl font-black mb-6 italic tracking-widest text-blue-400">Key RBI Constraints & 2025 Mandates:</p>
                                 <ul className="space-y-6 text-slate-300">
                                     <li className="flex items-start">
                                         <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 mr-4 shrink-0"></div>
@@ -369,21 +369,21 @@ export default function P2PLendingSettlementClient() {
                                 <div className="flex gap-6 p-8 bg-blue-50/30 rounded-3xl border border-blue-100">
                                     <div className="text-4xl font-black text-blue-400">01</div>
                                     <div>
-                                        <h4 className="text-lg font-bold mb-2 text-blue-400">Day 1 to 30: Automated Nudging</h4>
+                                        <p className="text-lg font-bold mb-2 text-blue-400">Day 1 to 30: Automated Nudging</p>
                                         <p className="text-sm text-gray-600">The platform uses digital "Bot" calls, WhatsApp nudges, and emails. The goal here is to catch temporary liquidity issues. If you communicate a hardship during this window, you might get a few days of grace.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 p-8 bg-blue-50/30 rounded-3xl border border-blue-100">
                                     <div className="text-4xl font-black text-blue-400">02</div>
                                     <div>
-                                        <h4 className="text-lg font-bold mb-2 text-blue-400">Day 31 to 90: In-House Resolution</h4>
+                                        <h3 className="text-lg font-bold mb-2 text-blue-400">Day 31 to 90: In-House Resolution</h3>
                                         <p className="text-sm text-gray-600">The "Soft Collections" team takes over. They will call your references (if authorized) and try to understand the nature of the default. This is the best time to propose a restructuring or a short-term moratorium.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 p-8 bg-blue-50/30 rounded-3xl border border-blue-100">
                                     <div className="text-4xl font-black text-blue-400">03</div>
                                     <div>
-                                        <h4 className="text-lg font-bold mb-2 text-blue-400">Day 91+: Hard Recovery & Legal Prep</h4>
+                                        <h3 className="text-lg font-bold mb-2 text-blue-400">Day 91+: Hard Recovery & Legal Prep</h3>
                                         <p className="text-sm text-gray-600">The debt is categorized as an NPA. External agencies are engaged. Legal notices under Section 138 (if a mandate/cheque failed) or Section 25 of the PSS Act are drafted. This is where the pressure peaks, and where formal settlement negotiation becomes critical.</p>
                                     </div>
                                 </div>
@@ -395,22 +395,22 @@ export default function P2PLendingSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 border border-gray-100 rounded-[2.5rem] bg-gray-50/50 hover:bg-white hover:shadow-xl transition-all">
-                                    <h4 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 01</h4>
+                                    <h3 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 01</h3>
                                     <h3 className="text-xl font-bold mb-3 text-blue-400">Hardship Identification</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">The borrower submits proof of distress (medical reports, loss of income) to the platform\'s resolution desk. The platform validates this evidence based on historical data.</p>
                                 </div>
                                 <div className="p-8 border border-gray-100 rounded-[2.5rem] bg-gray-50/50 hover:bg-white hover:shadow-xl transition-all">
-                                    <h4 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 02</h4>
+                                    <h3 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 02</h3>
                                     <h3 className="text-xl font-bold mb-3 text-blue-400">Lender Consensus</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">Since the platform is an intermediary, they present the settlement proposal to the lenders. Often, platforms have automated "Resolution Thresholds" pre-approved by lenders in their T&Cs, allowing for faster approvals.</p>
                                 </div>
                                 <div className="p-8 border border-gray-100 rounded-[2.5rem] bg-gray-50/50 hover:bg-white hover:shadow-xl transition-all">
-                                    <h4 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 03</h4>
+                                    <h3 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 03</h3>
                                     <h3 className="text-xl font-bold mb-3 text-blue-400">Lump-Sum Escrow Deposit</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">The negotiated amount is deposited by the borrower into the trustee-managed escrow account. This ensures the platform cannot misappropriate the funds and creates a bank-verified audit trail.</p>
                                 </div>
                                 <div className="p-8 border border-gray-100 rounded-[2.5rem] bg-gray-50/50 hover:bg-white hover:shadow-xl transition-all">
-                                    <h4 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 04</h4>
+                                    <h3 className="font-black text-xs uppercase mb-4 text-blue-600 tracking-widest">Stage 04</h3>
                                     <h3 className="text-xl font-bold mb-3 text-blue-400">Pro-Rata Distribution</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">The escrow trustee distributes the funds proportionally to each lender. If 50 people lent money, each gets their % share of the settlement amount. The platform takes a small recovery fee from this amount.</p>
                                 </div>
@@ -461,7 +461,7 @@ export default function P2PLendingSettlementClient() {
                                 Most major P2P apps in India (like Faircent, LenDenClub, or Liquiloans) use a combination of in-house teams and third-party recovery agencies. Under the **BCSBI Fair Practices Code**, these agencies are forbidden from using physical force or harassing you late at night.
                             </p>
                             <div className="p-10 border-4 border-blue-50 bg-blue-50/10 rounded-[4rem] mb-12">
-                                <h4 className="text-lg font-black mb-4 uppercase tracking-[0.2em] text-blue-900">Your Rights During Recovery:</h4>
+                                <h3 className="text-lg font-black mb-4 uppercase tracking-[0.2em] text-blue-900">Your Rights During Recovery:</h3>
                                 <ul className="space-y-4 text-gray-700 font-light">
                                     <li className="flex gap-4 items-center">
                                         <div className="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-[10px] text-white font-bold shrink-0">1</div>
@@ -545,7 +545,7 @@ export default function P2PLendingSettlementClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-8 rounded-[2.5rem] shadow-2xl border border-gray-50 text-center relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-20 h-20 bg-blue-600 opacity-5 rounded-full -mr-10 -mt-10 transition-transform group-hover:scale-150"></div>
-                                <h4 className="font-black text-xs uppercase tracking-widest text-gray-400 mb-4">P2P specialist</h4>
+                                <p className="font-black text-xs uppercase tracking-widest text-gray-400 mb-4">P2P specialist</p>
                                 <p className="text-sm text-gray-600 mb-8 font-medium italic">Struggling with Faircent, LenDenClub, or other P2P apps? Get a verified resolution strategy today.</p>
                                 <Link
                                     href="/contact"
@@ -562,7 +562,7 @@ export default function P2PLendingSettlementClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50/50 p-8 rounded-[2.5rem] border border-gray-100 shadow-inner">
-                                <h4 className="font-black text-[10px] uppercase tracking-[0.3em] text-gray-400 mb-6 border-b pb-4 border-gray-200">Knowledge Hub</h4>
+                                <p className="font-black text-[10px] uppercase tracking-[0.3em] text-gray-400 mb-6 border-b pb-4 border-gray-200">Knowledge Hub</p>
                                 <nav className="grid gap-4">
                                     {[
                                         { href: "/get-a-quote-for-debt-settlement-services-for-my-credit-card-debt", text: "Credit Card Quotes" },

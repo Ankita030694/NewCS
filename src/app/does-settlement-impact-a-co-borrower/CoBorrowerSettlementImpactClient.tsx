@@ -224,7 +224,7 @@ export default function CoBorrowerSettlementImpactClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl shadow-blue-900/5">
-                            <h3 className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">Impact Roadmap</h3>
+                            <p className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">Impact Roadmap</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -271,7 +271,7 @@ export default function CoBorrowerSettlementImpactClient() {
                                 To understand why a settlement impacts you, you must understand the "Joint and Several Liability" clause. This is a standard part of almost every loan agreement in India under the Indian Contract Act.
                             </p>
                             <div className="bg-indigo-50 p-10 rounded-[2rem] border-2 border-indigo-100 mb-10 shadow-inner">
-                                <h3 className="text-2xl font-bold text-indigo-900 mb-6">What "Joint and Several" Actually Means:</h3>
+                                <p className="text-2xl font-bold text-indigo-900 mb-6">What "Joint and Several" Actually Means:</p>
                                 <ul className="space-y-6 text-gray-800 text-lg">
                                     <li><strong>1. Joint Liability:</strong> You and the other borrower are collectively responsible for the debt. If you are two people, the bank views you as a single financial unit.</li>
                                     <li><strong>2. Several Liability:</strong> This is the tricky part. It means the bank can choose to recover the <strong>entire 100%</strong> from you alone if they wish. If your co-borrower vanishes or goes bankrupt, the bank doesn't ask you for 50%. They ask you for the full amount plus interest and penalties.</li>
@@ -379,7 +379,7 @@ export default function CoBorrowerSettlementImpactClient() {
                                         <path d="M12 2L1 21h22L12 2zm1 14h-2v-2h2v2zm0-4h-2V8h2v4z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-3xl font-bold mb-8 text-orange-300">Your Protection Shield (RBI Rules):</h3>
+                                <p className="text-3xl font-bold mb-8 text-orange-300">Your Protection Shield (RBI Rules):</p>
                                 <ul className="space-y-6 text-indigo-100">
                                     <li><strong>No Night Calls:</strong> Agents cannot call you before 8 AM or after 7 PM. If they do, it is a criminal intimidation case.</li>
                                     <li><strong>Privacy Rights:</strong> They cannot tell your neighbors, friends, or relatives about the debt. This is a massive violation of the right to privacy under Article 21.</li>
@@ -409,11 +409,11 @@ export default function CoBorrowerSettlementImpactClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-white rounded-3xl border border-gray-100 shadow-lg border-t-4 border-indigo-600">
-                                    <h4 className="text-xl font-bold mb-4">Step 1: The Secured Card</h4>
+                                    <p className="text-xl font-bold mb-4">Step 1: The Secured Card</p>
                                     <p className="text-gray-600">Both parties should get a credit card against a Fixed Deposit (FD). Use it for small amounts and pay in full. This creates new "Green Ticks" on your report.</p>
                                 </div>
                                 <div className="p-8 bg-white rounded-3xl border border-gray-100 shadow-lg border-t-4 border-indigo-600">
-                                    <h4 className="text-xl font-bold mb-4">Step 2: Utility Reporting</h4>
+                                    <p className="text-xl font-bold mb-4">Step 2: Utility Reporting</p>
                                     <p className="text-gray-600">In 2025, use apps that report your on-time rent and electricity payments to Experian. This adds positive data points to counteract the settlement.</p>
                                 </div>
                             </div>
@@ -447,14 +447,14 @@ export default function CoBorrowerSettlementImpactClient() {
                             <div className="space-y-8 mb-10">
                                 <div className="p-10 bg-indigo-50/50 rounded-[2.5rem] border border-indigo-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-indigo-600 font-bold text-white rounded-bl-3xl">STORY 1</div>
-                                    <h4 className="text-2xl font-bold text-indigo-900 mb-4">The "Silent" Partner in Pune</h4>
+                                    <h3 className="text-2xl font-bold text-indigo-900 mb-4">The "Silent" Partner in Pune</h3>
                                     <p className="text-gray-700 italic border-l-4 border-indigo-600 pl-6 text-lg">
                                         "Anjali was a co-borrower for her husband's car loan. When their business failed, he settled the loan secretly. Anjali only found out when her own personal loan for a Masters degree was rejected. She had to use her savings to 'de-settle' the loan (conversion to closed) to fix her credit. It cost her 1.5 Lakhs, but it saved her future career."
                                     </p>
                                 </div>
                                 <div className="p-10 bg-indigo-50/50 rounded-[2.5rem] border border-indigo-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-indigo-600 font-bold text-white rounded-bl-3xl">STORY 2</div>
-                                    <h4 className="text-2xl font-bold text-indigo-900 mb-4">The Business Partnership Exit</h4>
+                                    <h3 className="text-2xl font-bold text-indigo-900 mb-4">The Business Partnership Exit</h3>
                                     <p className="text-gray-700 italic border-l-4 border-indigo-600 pl-6 text-lg">
                                         "Two partners had a joint overdraft facility. One partner left and settled their portion with the bank without a formal co-borrower release. The second partner's credit score crashed by 120 points overnight. They had to take the bank to the Ombudsman for failing to provide notice to all partners. It took 6 months, but the bank eventually corrected the second partner's report."
                                     </p>
@@ -547,7 +547,7 @@ export default function CoBorrowerSettlementImpactClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                                     </svg>
                                 </div>
-                                <h4 className="font-black text-2xl text-gray-900 mb-3">Co-Borrower Help</h4>
+                                <p className="font-black text-2xl text-gray-900 mb-3">Co-Borrower Help</p>
                                 <p className="text-base text-gray-600 mb-8 leading-relaxed">Stop recovery harassment and negotiate a 'Closure' instead of a 'Settlement' to save your credit score.</p>
                                 <Link
                                     href="/contact"
@@ -564,7 +564,7 @@ export default function CoBorrowerSettlementImpactClient() {
 
                             {/* Relevant Deep Dives */}
                             <div className="bg-white p-8 rounded-[2rem] border border-gray-100 shadow-xl shadow-blue-900/5">
-                                <h4 className="font-black text-blue-900 mb-6 border-b border-blue-50 pb-3 text-lg">Authority Reads</h4>
+                                <p className="font-black text-blue-900 mb-6 border-b border-blue-50 pb-3 text-lg">Authority Reads</p>
                                 <nav className="space-y-4 text-sm">
                                     <Link href="/can-i-convert-settled-to-closed-later" className="group flex items-center text-gray-600 hover:text-blue-600">
                                         <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span> Upgrade to Closed

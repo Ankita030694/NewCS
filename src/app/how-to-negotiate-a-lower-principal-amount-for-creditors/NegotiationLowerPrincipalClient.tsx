@@ -297,7 +297,7 @@ export default function NegotiationLowerPrincipalClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Expert Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Expert Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -332,7 +332,7 @@ export default function NegotiationLowerPrincipalClient() {
                                 To negotiate a lower principal amount, you must first shed the guilt. Banks are for-profit institutions that build in a "Risk Buffer" into Every interest rate they charge. When a bank lends to you at 24% for a personal loan, they have already factored in a certain percentage of defaults. When you settle, you are helping the bank recover their capital so they can re-deploy it at a higher rate. You are helping them clear their Non-Performing Asset (NPA) status, which is a massive headache for their board of directors.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h3 className="text-xl font-bold text-blue-900 mb-3">The Golden Rule of Negotiation</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-3">The Golden Rule of Negotiation</p>
                                 <p className="text-gray-800 leading-relaxed">
                                     A bank will never give you what you deserve; they will only give you what you negotiate. If you don’t ask for a principal reduction specifically, they will keep the discussion centered around "waiving interest" - which is essentially just cutting off the surplus while keeping your core liability intact.
                                 </p>
@@ -394,7 +394,7 @@ export default function NegotiationLowerPrincipalClient() {
                                 The Reserve Bank of India has clear guidelines for "Compromise Settlements." The 2023-2025 framework mandates that every Regulated Entity (RE) must have a board-approved policy for settlements. This policy must cover the minimum cooling off period, the delegation of power for waivers, and the reporting process.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h4 className="text-xl font-bold mb-4">Key Legal Lever: The "Fair Practices" Code</h4>
+                                <p className="text-xl font-bold mb-4">Key Legal Lever: The "Fair Practices" Code</p>
                                 <p className="text-sm text-gray-600 mb-0 leading-relaxed font-light">
                                     If a bank is offering a settlement to some borrowers but denying it to you despite similar hardship, they may be in violation of equitable treatment rules. Reminding the bank that you are aware of their "Board Approved One Time Settlement Policy" often changes the tone of the conversation from denial to calculation.
                                 </p>
@@ -406,19 +406,19 @@ export default function NegotiationLowerPrincipalClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 text-sm">
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-blue-900 mb-2 underline decoration-blue-200">RBI Circular 2023-OTS</h5>
+                                    <p className="font-bold text-blue-900 mb-2 underline decoration-blue-200">RBI Circular 2023-OTS</p>
                                     <p className="text-gray-600 font-light">Allows banks to enter into compromise settlements even with wilful defaulters and fraud accounts, prioritizing the return of liquidity over penalty. This removes the 'Policy Bar' that many managers use as an excuse.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Integrated Ombudsman Scheme 2021</h5>
+                                    <p className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Integrated Ombudsman Scheme 2021</p>
                                     <p className="text-gray-600 font-light">Mandates that banks must resolve grievances within 30 days. If the bank ignores your settlement request without a valid policy reason, you can escalate it as a case of 'Deficiency in Service'.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Fair Recovery Guidelines 2022</h5>
+                                    <p className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Fair Recovery Guidelines 2022</p>
                                     <p className="text-gray-600 font-light">Explicitly forbids recovery agents from using intimidation. Any use of such tactics invalidates the bank’s moral standing and can be used as leverage to demand a deeper principal reduction as compensation.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Asset Classification Norms</h5>
+                                    <p className="font-bold text-blue-900 mb-2 underline decoration-blue-200">Asset Classification Norms</p>
                                     <p className="text-gray-600 font-light">Once an account is an NPA for over 12 months (Doubtful Category), the bank has to 'provision' 100% of the debt. At this stage, they are more desperate to settle because it cleans their balance sheet immediately.</p>
                                 </div>
                             </div>
@@ -438,15 +438,15 @@ export default function NegotiationLowerPrincipalClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-6 bg-gray-50 border-l-4 border-blue-600 rounded-r-2xl">
-                                    <h5 className="font-bold text-gray-900 mb-2">HDFC & ICICI (The Data Driven giants)</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">HDFC & ICICI (The Data Driven giants)</h3>
                                     <p className="text-sm text-gray-600 font-light">These banks use automated scoring systems. They prefer structured settlements. Show them 3 months of low bank balances, and their algorithm will trigger a settlement flag. They rarely negotiate on verbal promises; everything must be on their portal.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border-l-4 border-blue-600 rounded-r-2xl">
-                                    <h5 className="font-bold text-gray-900 mb-2">SBI & Public Sector Banks (The Board Driven approach)</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">SBI & Public Sector Banks (The Board Driven approach)</h3>
                                     <p className="text-sm text-gray-600 font-light">PSU banks are conservative. They need a 'Reasonable Basis' to justify a waiver to their auditors. Focus on 'Agricultural Distress' or 'Medical Crisis'. They prefer 'Rinn Samadhan' schemes which happen periodically. Patience is the key here.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border-l-4 border-blue-600 rounded-r-2xl">
-                                    <h5 className="font-bold text-gray-900 mb-2">Bajaj Finserv & NBFCs (The Aggressive Recoverers)</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">Bajaj Finserv & NBFCs (The Aggressive Recoverers)</h3>
                                     <p className="text-sm text-gray-600 font-light">NBFCs are very aggressive initially. However, they are also the fastest to settle once they realize legal action will take too long. They are highly responsive to 'Quart-End' pressures. Use the last 5 days of March or September to close deals with them.</p>
                                 </div>
                             </div>
@@ -458,19 +458,19 @@ export default function NegotiationLowerPrincipalClient() {
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
                                 <ul className="space-y-6 text-gray-800">
                                     <li>
-                                        <h6 className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "Full & Final" Clause</h6>
+                                        <p className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "Full & Final" Clause</p>
                                         <p className="text-sm text-gray-600 leading-relaxed">The letter must use the exact phrase "Full and Final Settlement". This ensures that the bank cannot later say that the payment was just a "Partial Payment" against the interest.</p>
                                     </li>
                                     <li>
-                                        <h6 className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "CIBIL Reporting" Protocol</h6>
+                                        <p className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "CIBIL Reporting" Protocol</p>
                                         <p className="text-sm text-gray-600 leading-relaxed">The bank should explicitly state that they will report the account as "Settled" with a Zero balance. If they don’t mention this, they might leave the balance showing, which ruins your score indefinitely.</p>
                                     </li>
                                     <li>
-                                        <h6 className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "Legal Withdrawal" Mandate</h6>
+                                        <p className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "Legal Withdrawal" Mandate</p>
                                         <p className="text-sm text-gray-600 leading-relaxed">If there is an ongoing court case or a Section 138 (cheque bounce) notice, the letter must state that the bank will file a withdrawal memo in the relevant court within 30 days of payment.</p>
                                     </li>
                                     <li>
-                                        <h6 className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "Validity Period"</h6>
+                                        <p className="text-blue-900 font-bold mb-2 uppercase text-xs tracking-widest">The "Validity Period"</p>
                                         <p className="text-sm text-gray-600 leading-relaxed">Every offer expires. Ensure the validity period gives you at least 3-5 days to arrange the funds. Never pay if the validity date has already passed.</p>
                                     </li>
                                 </ul>
@@ -482,19 +482,19 @@ export default function NegotiationLowerPrincipalClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
                                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-200">
-                                    <h5 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Maharashtra & Gujarat</h5>
+                                    <h3 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Maharashtra & Gujarat</h3>
                                     <p className="text-sm text-gray-600 leading-loose font-light">Lenders here are very litigious. They use the 'Summary Suit' process (Order 37) frequently. Your negotiation should focus on 'Litigation Avoidance'. Remind them that the backlog in city civil courts means a settlement is a better outcome for their legal department.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-200">
-                                    <h5 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Delhi & NCR</h5>
+                                    <h3 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Delhi & NCR</h3>
                                     <p className="text-sm text-gray-600 leading-loose font-light">The recovery agencies in this region are known for aggressive ground visits. Your negotiation should lead with 'RBI Violation' notices if you face harassment. NBFCs in NCR are highly responsive to 'Social Media Escalations' if their agents cross the line.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-200">
-                                    <h5 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Karnataka & Tamil Nadu</h5>
+                                    <h3 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Karnataka & Tamil Nadu</h3>
                                     <p className="text-sm text-gray-600 leading-loose font-light">Banks here value 'Long Term Relationships'. If you have had a savings account with them for 10 years, use it as leverage. They are more likely to offer a 'Soft Settlement' (Restructuring + Waiver) to keep you as a customer for the future.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-200">
-                                    <h5 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Eastern India (WB, Odisha)</h5>
+                                    <h3 className="font-bold text-gray-900 mb-4 underline decoration-blue-500">Eastern India (WB, Odisha)</h3>
                                     <p className="text-sm text-gray-600 leading-loose font-light">Negotiations often move slower here. Collective settlements through 'Lok Adalats' (Peoples Courts) are very common. If you can wait for a Lok Adalat session, you can often get up to 70% waivers through these judicial mediation forums.</p>
                                 </div>
                             </div>
@@ -586,23 +586,23 @@ export default function NegotiationLowerPrincipalClient() {
                             </p>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-gray-900 mb-2">Write-Off vs. Settlement</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">Write-Off vs. Settlement</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed font-light">A 'Write-Off' is an internal accounting entry the bank makes to clean its balance sheet. It does NOT mean you are free from the debt. A 'Settlement' is a legal agreement where the borrower pays a portion and the bank waives the rest. Never confuse the two; ensure your letter says 'Settlement'.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-gray-900 mb-2">Recall Notice</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">Recall Notice</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed font-light">When a bank sends a 'Recall Notice', they are officially demanding the ENTIRE loan amount at once. This is actually the best time to start negotiating a principal reduction, as the bank has already admitted they don’t expect regular EMIs anymore.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-gray-900 mb-2">Doubtful Asset (D1, D2, D3)</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">Doubtful Asset (D1, D2, D3)</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed font-light">Banks categorize NPAs by age. D1 (up to 1 year), D2 (1-3 years), and D3 (over 3 years). As your account moves from D1 to D3, the bank’s 'Provisioning' requirement increases from 25% to 100%. A D3 account is the easiest to negotiate for a 70%+ principal waiver.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-gray-900 mb-2">Account-Specific Provisioning</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">Account-Specific Provisioning</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed font-light">Did you know banks must set aside money (provisions) for your bad loan? This money is blocked capital. By settling, they 'unblock' this capital. Use this term in your letters: "I am offering a settlement to assist the bank in provision reversal and balance sheet optimization." It shows you know their internal pain points.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-200 rounded-2xl shadow-sm">
-                                    <h5 className="font-bold text-gray-900 mb-2">Legal Cost-Benefit Analysis (CBA)</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">Legal Cost-Benefit Analysis (CBA)</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed font-light">Every lawsuit costs the bank between ₹50,000 to ₹2 Lakhs in lawyer fees and court costs. If your total debt is ₹3 Lakhs, spending ₹2 Lakhs to recover it is bad business. Pointing this out politely to the manager often leads to a quick principal reduction settlement.</p>
                                 </div>
                             </div>
@@ -641,7 +641,7 @@ export default function NegotiationLowerPrincipalClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Can You Negotiate Successfully?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Can You Negotiate Successfully?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Take our 2-minute 'Negotiation Power Score' test and see if your case qualifies for a principal reduction.</p>
                                 <Link
                                     href="/contact"
@@ -658,7 +658,7 @@ export default function NegotiationLowerPrincipalClient() {
 
                             {/* Resource List */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-percentage-do-banks-accept-in-loan-settlement" className="block text-sm text-blue-600 hover:underline">Typical Waiver Percentages</Link>
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Finding Legal Help</Link>

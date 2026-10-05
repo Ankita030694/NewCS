@@ -183,7 +183,7 @@ function FeatureCard({ icon, title, description }: FeatureCardProps) {
       <div className="mb-3 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-[rgba(50,194,122,0.15)] text-[#7cf0b0]">
         <FontAwesomeIcon icon={icon} className="w-5 h-5" />
       </div>
-      <h3 className="text-lg font-semibold text-[rgba(229,255,244,0.95)]">{title}</h3>
+      <p className="text-lg font-semibold text-[rgba(229,255,244,0.95)]">{title}</p>
       <p className="mt-2 text-sm text-[rgba(210,255,231,0.72)] leading-relaxed">{description}</p>
     </div>
   );

@@ -225,7 +225,7 @@ export default function LoansNotSettledClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -332,19 +332,19 @@ export default function LoansNotSettledClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
-                    <h4 className="font-bold text-green-800">SMA-0 (0-30 Days)</h4>
+                    <h3 className="font-bold text-green-800">SMA-0 (0-30 Days)</h3>
                     <p className="text-sm text-green-700">Payment is overdue by up to 30 days. The bank will send gentle reminders.</p>
                   </div>
                   <div className="p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
-                    <h4 className="font-bold text-yellow-800">SMA-1 (31-60 Days)</h4>
+                    <h3 className="font-bold text-yellow-800">SMA-1 (31-60 Days)</h3>
                     <p className="text-sm text-yellow-700">Overdue by 31-60 days. Collection calls become more frequent.</p>
                   </div>
                   <div className="p-4 bg-orange-50 border border-orange-200 rounded-lg">
-                    <h4 className="font-bold text-orange-800">SMA-2 (61-90 Days)</h4>
+                    <h3 className="font-bold text-orange-800">SMA-2 (61-90 Days)</h3>
                     <p className="text-sm text-orange-700">The danger zone. If you cross 90 days, your account becomes NPA.</p>
                   </div>
                   <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
-                    <h4 className="font-bold text-red-800">NPA ({'>'}90 Days)</h4>
+                    <h3 className="font-bold text-red-800">NPA ({'>'}90 Days)</h3>
                     <p className="text-sm text-red-700">The loan is officially a "Non-Performing Asset". Legal recovery proceedings can begin. Settlement discussions usually start here.</p>
                   </div>
                 </div>
@@ -683,13 +683,13 @@ export default function LoansNotSettledClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                   <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                    <h4 className="font-bold text-blue-900 mb-2">Debt Consolidation</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Debt Consolidation</h3>
                     <p className="text-sm text-blue-800 mb-2"><strong>What is it?</strong> Taking a single new loan (usually low-interest) to pay off multiple high-interest loans.</p>
                     <p className="text-sm text-blue-800 mb-2"><strong>Credit Score:</strong> Requires a GOOD credit score (700+). It helps improve your score over time.</p>
                     <p className="text-sm text-blue-800"><strong>Outcome:</strong> You pay the full amount but with lower EMIs.</p>
                   </div>
                   <div className="bg-orange-50 p-6 rounded-xl border border-orange-100">
-                    <h4 className="font-bold text-orange-900 mb-2">Loan Settlement</h4>
+                    <h3 className="font-bold text-orange-900 mb-2">Loan Settlement</h3>
                     <p className="text-sm text-orange-800 mb-2"><strong>What is it?</strong> Negotiating with the lender to pay less than what you owe to close the account.</p>
                     <p className="text-sm text-orange-800 mb-2"><strong>Credit Score:</strong> Done when credit score is already damaged or you are in default. It lowers your score further.</p>
                     <p className="text-sm text-orange-800"><strong>Outcome:</strong> You become debt-free by paying 50-60% of the value.</p>
@@ -702,9 +702,9 @@ export default function LoansNotSettledClient() {
               <div className="text-gray-700 leading-relaxed mb-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="flex items-center font-bold text-green-700 mb-4 text-xl">
+                    <h3 className="flex items-center font-bold text-green-700 mb-4 text-xl">
                       <span className="bg-green-100 p-2 rounded-full mr-2">v</span> Dos
-                    </h4>
+                    </h3>
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <span className="text-green-500 mr-2 font-bold">v</span>
@@ -725,9 +725,9 @@ export default function LoansNotSettledClient() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="flex items-center font-bold text-red-700 mb-4 text-xl">
+                    <h3 className="flex items-center font-bold text-red-700 mb-4 text-xl">
                       <span className="bg-red-100 p-2 rounded-full mr-2">X</span> Don’ts
-                    </h4>
+                    </h3>
                     <ul className="space-y-3">
                       <li className="flex items-start">
                         <span className="text-red-500 mr-2 font-bold">X</span>
@@ -801,7 +801,7 @@ export default function LoansNotSettledClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Struggling with Debt?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Struggling with Debt?</p>
                 <p className="text-sm text-gray-600 mb-6">Know which loans can be settled and save up to 50%.</p>
                 <Link 
                   href="/contact"
@@ -817,7 +817,7 @@ export default function LoansNotSettledClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-3 text-sm">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-3 text-sm">Related Guides</p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li>
                     <span>

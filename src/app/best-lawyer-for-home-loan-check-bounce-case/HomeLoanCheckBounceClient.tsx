@@ -272,7 +272,7 @@ export default function HomeLoanCheckBounceClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -364,19 +364,19 @@ export default function HomeLoanCheckBounceClient() {
                             </p>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">1. Procedural Challenges</h4>
+                                    <p className="font-bold text-blue-900 mb-2">1. Procedural Challenges</p>
                                     <p className="text-gray-700">The legal notice was sent to a wrong address, was sent after the 30-day deadline, the complaint was filed before the 15-day window expired, or the complaint was not filed by the authorized signatory. Each of these defects can lead to acquittal.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">2. No Legally Enforceable Debt</h4>
+                                    <p className="font-bold text-green-900 mb-2">2. No Legally Enforceable Debt</p>
                                     <p className="text-gray-700">Proving that the cheque was issued as a security deposit, a blank cheque, or against a disputed liability that is not yet determined by a court. In home loan cases, a counterclaim that the bank wrongfully classified the account as NPA or failed to credit a payment can support this defence.</p>
                                 </div>
                                 <div className="p-6 bg-purple-50 rounded-2xl border border-purple-100">
-                                    <h4 className="font-bold text-purple-900 mb-2">3. Bank Failed Its Own Obligations</h4>
+                                    <p className="font-bold text-purple-900 mb-2">3. Bank Failed Its Own Obligations</p>
                                     <p className="text-gray-700">If the bank failed to disburse the sanctioned home loan amount in time, leading to financial stress and the eventual bounce, the bank itself contributed to the default. This is a powerful equitable argument in court.</p>
                                 </div>
                                 <div className="p-6 bg-orange-50 rounded-2xl border border-orange-100">
-                                    <h4 className="font-bold text-orange-900 mb-2">4. Cheque Was Presented After Limitation Period</h4>
+                                    <p className="font-bold text-orange-900 mb-2">4. Cheque Was Presented After Limitation Period</p>
                                     <p className="text-gray-700">A cheque is valid for only three months from its date. If the bank presented a PDC after this validity period and it bounced, this creates a strong procedural defence regarding the nature of the debt at the time of presentation.</p>
                                 </div>
                             </div>
@@ -494,11 +494,11 @@ export default function HomeLoanCheckBounceClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Real Case Studies: Legal Strategy in Action</h2>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Case 1: The Security Cheque Trap in Gurgaon</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Case 1: The Security Cheque Trap in Gurgaon</h3>
                                     <p className="text-gray-700">A homebuyer in Gurgaon took a home loan in 2018 and submitted a security cheque covering the full outstanding amount. When the borrower developed financial difficulties in 2023 and the loan was classified as NPA, the bank presented the security cheque. It bounced. The lawyer successfully argued that the security cheque was not drawn towards a "present" legally enforceable debt at the time of issue and that its presentation after the NPA classification was an abuse of process. The Magistrate discharged the accused.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Case 2: Notice Sent to Wrong Address in Hyderabad</h4>
+                                    <h3 className="font-bold text-green-900 mb-2">Case 2: Notice Sent to Wrong Address in Hyderabad</h3>
                                     <p className="text-gray-700">A homebuyer in Hyderabad had relocated to a different address after purchasing the property. The bank sent the Section 138 notice to the old address mentioned in the loan agreement. When the borrower did not respond (because they never received the notice), the bank filed a complaint. The lawyer successfully showed that the notice was defective as it was not received. The court dismissed the complaint at the threshold stage. The client ultimately compounded the matter with a 30 percent reduction in the outstanding amount.</p>
                                 </div>
                             </div>
@@ -559,7 +559,7 @@ export default function HomeLoanCheckBounceClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 flex flex-col gap-6 sticky top-14 self-start">
                         {/* CTA Box */}
                         <div className="bg-gradient-to-br from-blue-600 to-blue-900 text-white rounded-2xl p-6 shadow-lg">
-                            <h3 className="font-bold text-xl mb-3">Free Legal Consultation</h3>
+                            <p className="font-bold text-xl mb-3">Free Legal Consultation</p>
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Facing a home loan cheque bounce case? Our expert lawyers can assess your position immediately and guide your defence strategy.</p>
                             <ul className="space-y-2 mb-5">
                                 {['Expert Section 138 Defence', 'Negotiated Settlements', 'Court Representation', 'Pan-India Coverage'].map((item, i) => (
@@ -575,7 +575,7 @@ export default function HomeLoanCheckBounceClient() {
 
                         {/* Related Pages */}
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</p>
                             <nav className="space-y-2">
                                 {relatedPages.map((page, i) => (
                                     <Link key={i} href={page.href} className="block text-sm text-blue-600 hover:text-blue-800 hover:underline py-1 transition-colors">

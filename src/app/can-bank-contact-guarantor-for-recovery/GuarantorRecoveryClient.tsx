@@ -233,7 +233,7 @@ export default function GuarantorRecoveryClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -288,10 +288,10 @@ export default function GuarantorRecoveryClient() {
 
                             {/* Alert Banner 1 */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-5 rounded-r-lg shadow-sm my-8">
-                                <h4 className="text-red-800 font-bold flex items-center gap-2 mb-2">
+                                <p className="text-red-800 font-bold flex items-center gap-2 mb-2">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     CRITICAL WARNING: The Legal Reality
-                                </h4>
+                                </p>
                                 <p className="text-red-700 text-sm m-0">
                                     The Supreme Court of India has repeatedly held that a creditor (the bank) is not bound to exhaust its remedies against the principal borrower before initiating action against the guarantor. The bank can choose to sue the guarantor directly if it believes recovering from the guarantor is easier or faster.
                                 </p>
@@ -313,9 +313,9 @@ export default function GuarantorRecoveryClient() {
 
                             {/* Comparison Table */}
                             <div className="my-10 bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200">
-                                <h3 className="bg-blue-900 text-white p-4 m-0 font-bold text-lg">
+                                <p className="bg-blue-900 text-white p-4 m-0 font-bold text-lg">
                                     Primary Borrower vs. Guarantor Liability Check
-                                </h3>
+                                </p>
                                 <div className="overflow-x-auto">
                                     <table className="w-full text-left border-collapse">
                                         <thead>
@@ -482,10 +482,10 @@ export default function GuarantorRecoveryClient() {
                                 {faqs.map((faq, idx) => (
                                     <div key={idx} className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
                                         <div className="p-5">
-                                            <h4 className="font-bold text-gray-900 text-lg mb-2 flex items-start">
+                                            <h3 className="font-bold text-gray-900 text-lg mb-2 flex items-start">
                                                 <span className="text-blue-600 mr-2">Q.</span>
                                                 {faq.question}
-                                            </h4>
+                                            </h3>
                                             <p className="text-gray-700 leading-relaxed text-sm ml-6 mb-0">
                                                 <span className="font-semibold text-gray-900 mr-1">A:</span>
                                                 {faq.answer}
@@ -518,7 +518,7 @@ export default function GuarantorRecoveryClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Notice Received?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Notice Received?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can defend your rights as a guarantor and stop the recovery harassment immediately.</p>
                                 <Link
                                     href="/contact"
@@ -536,7 +536,7 @@ export default function GuarantorRecoveryClient() {
 
                             {/* Related Expertise Card (Replaces Author Card) */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Default Defense</Link>
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Loan Recovery Shield</Link>

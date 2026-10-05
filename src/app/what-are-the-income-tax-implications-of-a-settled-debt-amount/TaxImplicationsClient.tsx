@@ -226,7 +226,7 @@ export default function TaxImplicationsClient() {
 
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -440,7 +440,7 @@ export default function TaxImplicationsClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="space-y-6">
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Worried About Tax?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Worried About Tax?</p>
                                 <p className="text-sm text-gray-600 mb-6">Get a personalized analysis of your settlement and its tax impact today.</p>
                                 <Link
                                     href="/contact"
@@ -451,7 +451,7 @@ export default function TaxImplicationsClient() {
                             </div>
 
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is settlement good?</Link>
                                     <Link href="/can-i-settle-loan-for-free" className="block text-sm text-blue-600 hover:underline">Settle for Free?</Link>

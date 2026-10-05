@@ -193,7 +193,7 @@ export default function DebtResolutionClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -351,35 +351,35 @@ export default function DebtResolutionClient() {
                   <div className="flex gap-4">
                     <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Financial Assessment</h4>
+                      <h3 className="font-bold text-xl mb-2">Financial Assessment</h3>
                       <p>The process begins with a thorough analysis of your financial situation. The resolution company will look at your total outstanding debt, your current income, your essential monthly expenses, and the reasons for your financial hardship. This step is critical for determining if you are a good candidate for settlement.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">2</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Strategic Planning</h4>
+                      <h3 className="font-bold text-xl mb-2">Strategic Planning</h3>
                       <p>Based on the assessment, the experts create a personalized resolution plan. This includes identifying which debts to prioritize, setting a target settlement amount for each, and establishing a savings plan to accumulate the funds needed for the settlement payouts.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">3</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Legal and Communication Takeover</h4>
+                      <h3 className="font-bold text-xl mb-2">Legal and Communication Takeover</h3>
                       <p>Once you enroll, the company formally notifies your creditors that you are under professional representation. This is when the anti-harassment measures kick in. The company takes over all communication, providing you with immediate relief from the stress of recovery calls.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">4</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Active Negotiation</h4>
+                      <h3 className="font-bold text-xl mb-2">Active Negotiation</h3>
                       <p>The core of the process. The company negotiators engage with your creditors to reach a settlement agreement. This often involves multiple rounds of negotiation to ensure the best possible terms. They present your case of financial hardship and advocate for a sustainable settlement.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 font-bold">5</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Settlement Approval and Payout</h4>
+                      <h3 className="font-bold text-xl mb-2">Settlement Approval and Payout</h3>
                       <p>Once an agreement is reached, the bank issues a formal "Settlement Offer Letter." The resolution company reviews this letter to ensure all terms are correct. You then make the agreed payment directly to the bank. After the payment, the bank issues a "No Dues Certificate" or a "Settlement Letter," marking the official resolution of that debt.</p>
                     </div>
                   </div>
@@ -501,7 +501,7 @@ export default function DebtResolutionClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Start Your Debt-Free Journey?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Start Your Debt-Free Journey?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don’t wait for the debt to grow further. Contact India's top debt resolution experts today for a free consultation.</p>
                   <Link 
                     href="/contact"
@@ -534,7 +534,7 @@ export default function DebtResolutionClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Case Review</h4>
+                <p className="font-bold text-2xl mb-4">Free Case Review</p>
                 <p className="text-blue-100 mb-6 text-sm">Talk to our debt experts and find out how much you can save on your loans today.</p>
                 <Link 
                   href="/contact"

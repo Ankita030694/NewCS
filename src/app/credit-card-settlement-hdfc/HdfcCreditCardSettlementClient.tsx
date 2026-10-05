@@ -152,7 +152,7 @@ export default function HdfcCreditCardSettlementClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -220,21 +220,21 @@ export default function HdfcCreditCardSettlementClient() {
     <div className="flex gap-4">
       <div className="flex-shrink-0 w-16 h-16 bg-red-100 text-red-600 rounded-full flex items-center justify-center font-bold text-lg shadow-sm">Myth</div>
       <div>
-        <h4 className="font-bold text-gray-900">You can go to jail for not paying your credit card bill.</h4>
+        <h3 className="font-bold text-gray-900">You can go to jail for not paying your credit card bill.</h3>
         <p className="text-gray-700">Failing to pay an unsecured debt is a civil breach of contract, not a criminal offense. You cannot be imprisoned solely for being unable to pay your credit card balance. Threats of immediate arrest from collection agents are illegal intimidation tactics.</p>
       </div>
     </div>
     <div className="flex gap-4">
       <div className="flex-shrink-0 w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center font-bold text-lg shadow-sm">Fact</div>
       <div>
-        <h4 className="font-bold text-gray-900">Settling your debt stops all legal action and harassment immediately.</h4>
+        <h3 className="font-bold text-gray-900">Settling your debt stops all legal action and harassment immediately.</h3>
         <p className="text-gray-700">Once a formal settlement agreement is reached and the payment is made, the bank is legally obligated to cease all collection efforts and terminate any ongoing civil recovery proceedings. It provides a definitive resolution to the conflict.</p>
       </div>
     </div>
     <div className="flex gap-4">
       <div className="flex-shrink-0 w-16 h-16 bg-red-100 text-red-600 rounded-full flex items-center justify-center font-bold text-lg shadow-sm">Myth</div>
       <div>
-        <h4 className="font-bold text-gray-900">You must accept the first settlement amount the bank offers.</h4>
+        <h3 className="font-bold text-gray-900">You must accept the first settlement amount the bank offers.</h3>
         <p className="text-gray-700">The initial offer from the bank is always skewed heavily in their favor. It is merely a starting point for negotiation. You have the right to reject their offer and present a counter offer based on your actual financial capacity and verifiable hardship.</p>
       </div>
     </div>
@@ -268,7 +268,7 @@ export default function HdfcCreditCardSettlementClient() {
                 <p>Negotiating a settlement requires strict adherence to a strategic process. Haphazard communication will only damage your position.</p>
                 
 <div className="my-12">
-  <h4 className="font-bold text-blue-900 text-xl mb-8 border-b-2 border-blue-100 pb-2">The Ultimate Settlement Checklist</h4>
+  <h3 className="font-bold text-blue-900 text-xl mb-8 border-b-2 border-blue-100 pb-2">The Ultimate Settlement Checklist</h3>
   
   <div className="flex mb-8">
     <div className="flex flex-col items-center mr-6">
@@ -276,7 +276,7 @@ export default function HdfcCreditCardSettlementClient() {
       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
     </div>
     <div className="pb-8">
-      <h5 className="font-bold text-gray-900 text-lg mb-2">Halt All Minimum Payments</h5>
+      <h3 className="font-bold text-gray-900 text-lg mb-2">Halt All Minimum Payments</h3>
       <p className="text-gray-700">Continuing to make small payments resets the aging clock on your debt and signals to the bank that you still have the capacity to pay. A settlement is only possible when the bank believes you have absolutely exhausted your resources. Ceasing payments is the first necessary step to trigger the hardship protocols.</p>
     </div>
   </div>
@@ -287,7 +287,7 @@ export default function HdfcCreditCardSettlementClient() {
       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
     </div>
     <div className="pb-8">
-      <h5 className="font-bold text-gray-900 text-lg mb-2">Consolidate Your Settlement Capital</h5>
+      <h3 className="font-bold text-gray-900 text-lg mb-2">Consolidate Your Settlement Capital</h3>
       <p className="text-gray-700">Determine exactly how much liquid cash you can realistically gather. This is your ammunition for the negotiation. Do not rely on anticipated future income. The bank will demand a lump sum payment shortly after an agreement is reached. Having this capital ready is non negotiable for a successful resolution.</p>
     </div>
   </div>
@@ -298,7 +298,7 @@ export default function HdfcCreditCardSettlementClient() {
       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
     </div>
     <div className="pb-8">
-      <h5 className="font-bold text-gray-900 text-lg mb-2">Compile Hardship Evidence</h5>
+      <h3 className="font-bold text-gray-900 text-lg mb-2">Compile Hardship Evidence</h3>
       <p className="text-gray-700">Gather every document that proves your inability to pay. This includes medical records, termination letters, bank statements showing depleted savings, or business closure certificates. Organize these documents methodically. You will need to present this evidence to justify your request for a substantial waiver on the outstanding balance. See <Link href="/what-documents-are-required-for-loan-settlement-with-a-professional-service" className="text-blue-600 font-bold hover:underline">what documents are required for loan settlement with a professional service</Link> for a complete list.</p>
     </div>
   </div>
@@ -309,7 +309,7 @@ export default function HdfcCreditCardSettlementClient() {
       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
     </div>
     <div className="pb-8">
-      <h5 className="font-bold text-gray-900 text-lg mb-2">Initiate Formal Communication</h5>
+      <h3 className="font-bold text-gray-900 text-lg mb-2">Initiate Formal Communication</h3>
       <p className="text-gray-700">Bypass the low level call center agents and send a formal hardship letter via registered email to the grievance redressal officer or nodal officer of the bank. State your situation clearly, attach your evidence, and make your initial settlement offer based on your available capital. Keep the tone professional and objective.</p>
     </div>
   </div>
@@ -319,7 +319,7 @@ export default function HdfcCreditCardSettlementClient() {
       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg z-10">5</div>
     </div>
     <div>
-      <h5 className="font-bold text-gray-900 text-lg mb-2">Demand a Formal Written Agreement</h5>
+      <h3 className="font-bold text-gray-900 text-lg mb-2">Demand a Formal Written Agreement</h3>
       <p className="text-gray-700">Never transfer any funds based on a verbal promise or an informal email from a collection agent. You must demand a formal Settlement Letter issued on official bank letterhead. This letter must explicitly state the agreed amount, the payment deadline, and confirm that upon receipt, the account will be closed and marked as settled.</p>
     </div>
   </div>
@@ -340,7 +340,7 @@ export default function HdfcCreditCardSettlementClient() {
                 
                 <div className="my-12 relative overflow-hidden bg-gray-900 rounded-3xl p-10 text-white">
                   <div className="relative z-10">
-                    <h4 className="text-xl font-bold text-yellow-400 mb-6">Timeline of a Recovery Escalation</h4>
+                    <h3 className="text-xl font-bold text-yellow-400 mb-6">Timeline of a Recovery Escalation</h3>
                     <ul className="space-y-6">
                       <li className="flex gap-4 items-start">
                         <time className="font-mono text-sm text-gray-400 mt-1">Days 1 to 30</time>
@@ -406,7 +406,7 @@ export default function HdfcCreditCardSettlementClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rohan Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Rohan Sharma</h4>
+                <p className="font-bold text-gray-900">Rohan Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

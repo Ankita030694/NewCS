@@ -200,7 +200,7 @@ export default function TataCapitalLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -237,7 +237,7 @@ export default function TataCapitalLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Did You Know?</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
                 <p className="text-blue-800 m-0">
                   Tata Capital is regulated by the RBI. They are bound by the "Fair Practices Code" which mandates them to treat borrowers with dignity and offer settlement options (OTS) to those in genuine distress. You have rights that protect you during this process.
                 </p>
@@ -265,19 +265,19 @@ export default function TataCapitalLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">1. Default Status</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">1. Default Status</h3>
                   <p className="text-gray-600 text-sm">Your loan must be in default, ideally classified as an NPA (90+ days overdue). Accounts that are regular or only slightly delayed are usually not considered for OTS.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">2. Unsecured Loans</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">2. Unsecured Loans</h3>
                   <p className="text-gray-600 text-sm">Settlement is most common for <strong>Personal Loans</strong>, <strong>Business Loans</strong>, and <strong>Credit Cards</strong>. Secured loans (Home/Car) differ as the asset can be repossessed.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">3. Proven Hardship</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">3. Proven Hardship</h3>
                   <p className="text-gray-600 text-sm">You must demonstrate "unintentional default". Reasons include job loss, pay cuts, business failure, divorce, or medical emergencies.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">4. Repayment Intent</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">4. Repayment Intent</h3>
                   <p className="text-gray-600 text-sm">You must show the intent to settle by offering a realistic lump sum amount, even if it is lower than the total due.</p>
                 </div>
               </div>
@@ -291,35 +291,35 @@ export default function TataCapitalLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Financial Analysis</h4>
+                    <h3 className="font-bold text-gray-900">Financial Analysis</h3>
                     <p className="text-gray-600 mt-1">We review your loan documents, total outstanding, and current financial capacity. We help you gather evidence of hardship (termination letters, medical bills).</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Communication Takeover</h4>
+                    <h3 className="font-bold text-gray-900">Communication Takeover</h3>
                     <p className="text-gray-600 mt-1">We inform Tata Capital that you are legally represented by CredSettle. This routes all communication through us, significantly reducing harassment from recovery agents.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">The Hard Negotiation</h4>
+                    <h3 className="font-bold text-gray-900">The Hard Negotiation</h3>
                     <p className="text-gray-600 mt-1">We submit a formal settlement proposal. The bank will counter-offer. our experts negotiate aggressively, using RBI guidelines and your hardship proofs, to bring the amount down to 30-50%.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Settlement Letter & Payment</h4>
+                    <h3 className="font-bold text-gray-900">Settlement Letter & Payment</h3>
                     <p className="text-gray-600 mt-1">We ensure a valid Settlement Letter is issued. You make the payment directly to your account. <strong>Never pay cash to agents.</strong></p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">5</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">No Dues Certificate (NOC)</h4>
+                    <h3 className="font-bold text-gray-900">No Dues Certificate (NOC)</h3>
                     <p className="text-gray-600 mt-1">We follow up to ensure the NOC is issued within 21 days, confirming the loan is closed and your obligation is over.</p>
                   </div>
                 </div>
@@ -331,7 +331,7 @@ export default function TataCapitalLoanSettlementClient() {
               </p>
               
               <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 mb-10">
-                <h4 className="font-bold text-gray-900 mb-4 text-center border-b pb-4">Essential Components of a Valid Settlement Letter</h4>
+                <h3 className="font-bold text-gray-900 mb-4 text-center border-b pb-4">Essential Components of a Valid Settlement Letter</h3>
                 <ul className="space-y-3 text-sm md:text-base text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">v</span>
@@ -366,15 +366,15 @@ export default function TataCapitalLoanSettlementClient() {
               </p>
               <div className="grid gap-6 mb-10">
                 <div className="bg-white border-l-4 border-indigo-500 shadow-sm p-6 ml-4">
-                  <h4 className="font-bold text-gray-900">Fair Practices Code</h4>
+                  <h3 className="font-bold text-gray-900">Fair Practices Code</h3>
                   <p className="text-gray-600 mt-2 text-sm">NBFCs must disclose all terms and conditions. They cannot resort to undue harassment or coercion. Recovery agents must follow a code of conduct-no calling before 8 AM or after 7 PM.</p>
                 </div>
                 <div className="bg-white border-l-4 border-indigo-500 shadow-sm p-6 ml-4">
-                  <h4 className="font-bold text-gray-900">Right to Privacy</h4>
+                  <h3 className="font-bold text-gray-900">Right to Privacy</h3>
                   <p className="text-gray-600 mt-2 text-sm">Recovery agents cannot visit your workplace to humiliate you or contact family members who are not co-borrowers/guarantors. They must respect your privacy.</p>
                 </div>
                 <div className="bg-white border-l-4 border-indigo-500 shadow-sm p-6 ml-4">
-                  <h4 className="font-bold text-gray-900">Document Release</h4>
+                  <h3 className="font-bold text-gray-900">Document Release</h3>
                   <p className="text-gray-600 mt-2 text-sm">Current RBI norms state that upon closure of a loan (settlement or full repayment), the lender must release all original property/security documents within 30 days, failing which they are liable to pay compensation.</p>
                 </div>
               </div>
@@ -439,19 +439,19 @@ export default function TataCapitalLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Protection</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Protection</h3>
                   <p className="text-sm text-gray-600">We shield you from recovery agents. All calls are routed to our legal team.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Savings</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Savings</h3>
                   <p className="text-sm text-gray-600">Our data-driven negotiation strategies save clients an average of 45-50%.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Compliance</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Compliance</h3>
                   <p className="text-sm text-gray-600">We ensure every step follows RBI guidelines and the settlement is 100% legal.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Success Fee</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Success Fee</h3>
                   <p className="text-sm text-gray-600">Zero upfront fees for negotiation. You pay us only when you save.</p>
                 </div>
               </div>
@@ -496,7 +496,7 @@ export default function TataCapitalLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
@@ -512,7 +512,7 @@ export default function TataCapitalLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/personal-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">

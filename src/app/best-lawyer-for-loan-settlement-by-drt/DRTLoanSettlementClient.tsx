@@ -287,7 +287,7 @@ export default function DRTLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -484,7 +484,7 @@ export default function DRTLoanSettlementClient() {
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Case Studies: DRT Loan Settlements Done Right</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: 85 Lakh Business Loan Settled at 38 Lakhs During DRT Proceedings</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: 85 Lakh Business Loan Settled at 38 Lakhs During DRT Proceedings</p>
                                 <p className="text-gray-700 mb-4">
                                     A Delhi-based trading company had an 85 lakh rupee outstanding amount from a business loan that had been NPA for 3 years. The bank filed an OA before DRT Delhi and simultaneously initiated SARFAESI proceedings on the company’s mortgaged commercial property valued at 60 lakhs.
                                 </p>
@@ -493,7 +493,7 @@ export default function DRTLoanSettlementClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: Credit Card and Personal Loan Settlement via DRT Mechanism</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: Credit Card and Personal Loan Settlement via DRT Mechanism</p>
                                 <p className="text-gray-700 mb-4">
                                     A Mumbai professional had accumulated 32 lakh rupees in credit card and personal loan dues across two banks following a medical emergency and job loss. One bank had filed DRT proceedings while the other was threatening to do the same.
                                 </p>
@@ -579,7 +579,7 @@ export default function DRTLoanSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">DRT Case Pending?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">DRT Case Pending?</p>
                                 <p className="text-sm text-gray-600 mb-6">Get specialist DRT lawyers to negotiate a settlement and protect your assets from bank recovery action. Free first consultation.</p>
                                 <Link
                                     href="/contact"
@@ -596,7 +596,7 @@ export default function DRTLoanSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Business Loan Dispute</Link>
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-sm text-blue-600 hover:underline">Loan Default Notice Lawyer</Link>

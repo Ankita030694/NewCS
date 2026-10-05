@@ -298,7 +298,7 @@ export default function WhatIsLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -423,7 +423,7 @@ export default function WhatIsLoanSettlementClient() {
                                 Not all loans are settled the same way. The strategy for a credit card settlement is very different from that of a car loan or a business loan.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Unsecured vs. Secured Loans</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Unsecured vs. Secured Loans</p>
                                 <ul className="list-disc pl-5 space-y-3 text-gray-700">
                                     <li><strong>Credit Cards:</strong> These have the highest interest rates and are considered unsecured. Banks are often most willing to offer deep discounts here because they have no collateral to seize. Waiver can sometimes reach 70-80% of the total outstanding.</li>
                                     <li><strong>Personal Loans:</strong> Similar to credit cards, these are unsecured. The settlement usually happens for 30-50% of the outstanding amount. The strength of your hardship case is the primary driver for the discount.</li>
@@ -491,7 +491,7 @@ export default function WhatIsLoanSettlementClient() {
                                 To truly understand the power and pitfalls of loan settlement, let us look at two more detailed case studies from the past year. These examples highlight the importance of patience, documentation, and staying informed throughout the process.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study 3: The Medical Emergency Recovery</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case Study 3: The Medical Emergency Recovery</p>
                                 <p className="text-gray-700 mb-4 italic">
                                     "I was a software engineer with a stable income until a major health crisis in my family wiped out my savings and forced me to default on my 20 lakh home renovation loan."
                                 </p>
@@ -503,7 +503,7 @@ export default function WhatIsLoanSettlementClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study 4: The Small Business Reset</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case Study 4: The Small Business Reset</p>
                                 <p className="text-gray-700 mb-4 italic">
                                     "My textile manufacturing unit was hit by a sudden change in export regulations, leaving me with 50 lakhs in business debt across three different banks."
                                 </p>
@@ -579,7 +579,7 @@ export default function WhatIsLoanSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need a Fresh Start?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need a Fresh Start?</p>
                                 <p className="text-sm text-gray-600 mb-6">Join thousands who have settled their loans legally. Get a free assessment now.</p>
                                 <Link
                                     href="/contact"
@@ -596,7 +596,7 @@ export default function WhatIsLoanSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Deep Dive Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Deep Dive Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/can-i-settle-loan-for-free" className="block text-sm text-blue-600 hover:underline">Settle for Free Guide</Link>
                                     <Link href="/what-is-npa" className="block text-sm text-blue-600 hover:underline">Understanding NPA Rules</Link>

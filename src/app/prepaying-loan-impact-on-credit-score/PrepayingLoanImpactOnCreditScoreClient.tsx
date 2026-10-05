@@ -233,7 +233,7 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -291,7 +291,7 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
 
                             {/* ALERT BANNER 1 */}
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-200 shadow-sm mb-10">
-                                <h4 className="text-xl font-bold text-red-900 mb-2 uppercase tracking-wide">Myth Buster Alert</h4>
+                                <p className="text-xl font-bold text-red-900 mb-2 uppercase tracking-wide">Myth Buster Alert</p>
                                 <p className="text-red-800 leading-relaxed">
                                     <strong>Myth:</strong> Prepaying a personal loan will instantly boost your credit score by fifty points.
                                     <br /><br />
@@ -319,10 +319,10 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     The Credit Mix Disruption:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">Diverse Portfolio:</strong> A borrower has two credit cards and one installment loan. This represents an excellent, diversified credit mix.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">The Pre-closure Action:</strong> The borrower pays off the installment loan completely, closing the account.</li>
@@ -421,7 +421,7 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
                                 When you are finally ready to extinguish your debt and pre-close your loan, precision in execution is critical. You must ensure that the bank processes the closure flawlessly and reports it accurately to the bureaus.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 shadow-md mb-10">
-                                <h4 className="text-2xl font-bold text-blue-900 mb-6 uppercase tracking-tight">The Pre-Closure Protocol:</h4>
+                                <p className="text-2xl font-bold text-blue-900 mb-6 uppercase tracking-tight">The Pre-Closure Protocol:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-green-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -506,7 +506,7 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">We provide comprehensive guidance on loan closures, credit rehabilitation, and defense against unlawful recovery.</p>
                                 <Link
                                     href="/contact"
@@ -524,7 +524,7 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-improve-cibil-score" className="block text-sm text-blue-600 hover:underline">Improve CIBIL Score Guide</Link>
                                     <Link href="/loan-written-off-vs-settled-cibil-impact" className="block text-sm text-blue-600 hover:underline">Write-off vs Settlement Impact</Link>

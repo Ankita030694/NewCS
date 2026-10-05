@@ -186,7 +186,7 @@ export default function PiramalFinanceLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -270,28 +270,28 @@ export default function PiramalFinanceLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Stop Paying "On Account"</h4>
+                    <h3 className="font-bold text-gray-900">Stop Paying "On Account"</h3>
                     <p className="text-gray-600 mt-1">Do not pay small random amounts to agents. Save money for a lump-sum settlement offer.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Submit Proposal</h4>
+                    <h3 className="font-bold text-gray-900">Submit Proposal</h3>
                     <p className="text-gray-600 mt-1">Send a settlement proposal email to **customercare@piramal.com**. Clearly state your hardship and offer amount.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Negotiation</h4>
+                    <h3 className="font-bold text-gray-900">Negotiation</h3>
                     <p className="text-gray-600 mt-1">The collection team will reject your first offer. Negotiate hard. If you have legal representation (like CredSettle), this becomes easier.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Get Settlement Letter</h4>
+                    <h3 className="font-bold text-gray-900">Get Settlement Letter</h3>
                     <p className="text-gray-600 mt-1">Once agreed, pay ONLY after receiving the official settlement letter on Piramal letterhead. Verify it before paying.</p>
                   </div>
                 </div>
@@ -304,7 +304,7 @@ export default function PiramalFinanceLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-white border-l-4 border-purple-600 shadow-sm p-6 ml-0">
-                  <h4 className="font-bold text-gray-900">Secured Loans (Home / LAP / Business)</h4>
+                  <h3 className="font-bold text-gray-900">Secured Loans (Home / LAP / Business)</h3>
                   <p className="text-gray-600 mt-2 text-sm leading-relaxed">
                     Piramal invokes the <strong>SARFAESI Act, 2002</strong> for secured defaults once the account crosses 90 days NPA.
                     <br/><br/>
@@ -316,7 +316,7 @@ export default function PiramalFinanceLoanSettlementClient() {
                   </p>
                 </div>
                 <div className="bg-white border-l-4 border-orange-500 shadow-sm p-6 ml-0">
-                  <h4 className="font-bold text-gray-900">Unsecured Loans (Personal / Digital)</h4>
+                  <h3 className="font-bold text-gray-900">Unsecured Loans (Personal / Digital)</h3>
                   <p className="text-gray-600 mt-2 text-sm leading-relaxed">
                     For unsecured defaults, Piramal typically initiates <strong>Arbitration proceedings under the Arbitration &amp; Conciliation Act, 1996</strong> or sends legal demand notices.
                     <br/><br/>
@@ -377,19 +377,19 @@ export default function PiramalFinanceLoanSettlementClient() {
               <h2 id="why-choose-us" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why Choose CredSettle?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Stop Harassment</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Stop Harassment</h3>
                   <p className="text-sm text-gray-600">We take over all communication. No more abusive calls.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Legal Defense</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Legal Defense</h3>
                   <p className="text-sm text-gray-600">Our lawyers handle SARFAESI responses and Arbitration hearings.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Max Savings</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Max Savings</h3>
                   <p className="text-sm text-gray-600">We negotiate professionally to get up to 50% waiver.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Success Fee</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Success Fee</h3>
                   <p className="text-sm text-gray-600">You pay us only when you save money.</p>
                 </div>
               </div>
@@ -437,7 +437,7 @@ export default function PiramalFinanceLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-purple-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop Piramal Legal Action</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Stop Piramal Legal Action</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal support to settle your loan.</p>
                 <Link 
                   href="/contact"
@@ -453,7 +453,7 @@ export default function PiramalFinanceLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                    <li>
                     <Link href="/loan-settlement/bajaj-finserv" className="text-gray-600 hover:text-blue-600 flex items-center">

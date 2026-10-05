@@ -231,10 +231,10 @@ const FindAgencyNearMeClient = () => {
                     <aside className="lg:w-1/4 xl:w-1/5 w-full order-2 lg:order-1">
                         <div className="sticky top-32 bg-white p-8 rounded-[2.5rem] shadow-sm border border-gray-100 overflow-hidden relative group">
                             <div className="absolute top-0 right-0 w-24 h-24 bg-blue-50/50 rounded-full blur-3xl -mr-12 -mt-12 group-hover:bg-blue-100 transition-colors"></div>
-                            <h3 className="text-lg font-black text-gray-900 mb-6 flex items-center gap-2 relative z-10">
+                            <p className="text-lg font-black text-gray-900 mb-6 flex items-center gap-2 relative z-10">
                                 <div className="w-1.5 h-6 bg-blue-600 rounded-full"></div>
                                 Search Parameters
-                            </h3>
+                            </p>
                             <nav className="space-y-1 relative z-10">
                                 {sections.map((section) => (
                                     <a
@@ -270,11 +270,11 @@ const FindAgencyNearMeClient = () => {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-blue-50/50 border border-blue-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The National Advantage</h4>
+                                    <p className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The National Advantage</p>
                                     <p className="text-sm text-blue-800/80 leading-relaxed font-light">Large agencies deal with the central settlement verticals of banks like HDFC, ICICI, and SBI. They negotiate thousands of cases, giving them leverage that a local agent simply doesn’t have.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 border border-indigo-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
-                                    <h4 className="text-xl font-bold text-indigo-900 mb-4 tracking-tight">The Local Necessity</h4>
+                                    <p className="text-xl font-bold text-indigo-900 mb-4 tracking-tight">The Local Necessity</p>
                                     <p className="text-sm text-indigo-800/80 leading-relaxed font-light">Local expertise is vital for handling city magistrates and preventing illegal home visits. You need a provider who understands the specific recovery culture of your city.</p>
                                 </div>
                             </div>
@@ -296,7 +296,7 @@ const FindAgencyNearMeClient = () => {
                             </p>
                             <div className="my-12 p-10 bg-gradient-to-br from-gray-900 to-blue-900 rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
-                                <h4 className="text-2xl font-black mb-6 italic tracking-widest text-blue-400 uppercase">THE GROUND DEFENSE TEST:</h4>
+                                <h3 className="text-2xl font-black mb-6 italic tracking-widest text-blue-400 uppercase">THE GROUND DEFENSE TEST:</h3>
                                 <p className="text-lg opacity-90 leading-relaxed font-light italic">
                                     Ask the provider: "If a recovery agent from [Your Bank] comes to my house in [Your City] tomorrow morning, what is your immediate process for stopping them?" A trustworthy firm will offer to send an immediate legal warning or handle the agent via a dedicated hotline.
                                 </p>
@@ -329,14 +329,14 @@ const FindAgencyNearMeClient = () => {
                                 <li className="p-6 bg-gray-50 rounded-2xl border border-gray-100 flex gap-4">
                                     <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold flex-shrink-0 italic">Tier 1</div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 mb-2 italic">Metro Hubs (Mumbai, Delhi, Bengaluru)</h5>
+                                        <h3 className="font-bold text-gray-900 mb-2 italic">Metro Hubs (Mumbai, Delhi, Bengaluru)</h3>
                                         <p className="text-sm text-gray-600 font-light italic leading-relaxed">High volume of cases leads to standardized but rigid settlement windows. Legal harassment defense is critical here as recovery agencies are highly organized.</p>
                                     </div>
                                 </li>
                                 <li className="p-6 bg-gray-50 rounded-2xl border border-gray-100 flex gap-4">
                                     <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold flex-shrink-0 italic">Tier 2</div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 mb-2 italic">Commercial Hubs (Ahmedabad, Pune, Hyderabad)</h5>
+                                        <h3 className="font-bold text-gray-900 mb-2 italic">Commercial Hubs (Ahmedabad, Pune, Hyderabad)</h3>
                                         <p className="text-sm text-gray-600 font-light italic leading-relaxed">Often see more flexible settlements for business loans (MSME) due to localized OTS schemes.</p>
                                     </div>
                                 </li>
@@ -362,15 +362,15 @@ const FindAgencyNearMeClient = () => {
                             </p>
                             <div className="space-y-6 mb-12">
                                 <div className="p-8 bg-gray-50 border border-gray-100 rounded-3xl">
-                                    <h4 className="font-bold text-gray-900 mb-2 italic">Phase 1: The Summons Reach</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2 italic">Phase 1: The Summons Reach</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">The summons arrives at your local police station or home. Your 'near me' legal team immediately reviews the document for technical errors.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 border border-gray-100 rounded-3xl">
-                                    <h4 className="font-bold text-gray-900 mb-2 italic">Phase 2: Formal Representation</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2 italic">Phase 2: Formal Representation</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">On the hearing date, an empanelled advocate from the agency’s local network represents you. They handle the talk with the magistrate, ensuring your side of the story is heard.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 border border-gray-100 rounded-3xl">
-                                    <h4 className="font-bold text-gray-900 mb-2 italic">Phase 3: Mediation and Closure</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2 italic">Phase 3: Mediation and Closure</h3>
                                     <p className="text-sm text-gray-600 leading-relaxed">The court often suggests mediation. This is where the agency’s negotiation power shines, turning a court case into a beneficial settlement opportunity.</p>
                                 </div>
                             </div>
@@ -402,15 +402,15 @@ const FindAgencyNearMeClient = () => {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 italic">
                                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h5 className="font-bold text-gray-900 mb-2">West India</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">West India</h3>
                                     <p className="text-xs text-gray-600 leading-relaxed">Mumbai, Pune, Ahmedabad, Surat, Nagpur.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h5 className="font-bold text-gray-900 mb-2">South India</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">South India</h3>
                                     <p className="text-xs text-gray-600 leading-relaxed">Bengaluru, Hyderabad, Chennai, Kochi, Mysore.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h5 className="font-bold text-gray-900 mb-2">North & East</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">North & East</h3>
                                     <p className="text-xs text-gray-600 leading-relaxed">Delhi-NCR, Kolkata, Lucknow, Jaipur, Patna.</p>
                                 </div>
                             </div>
@@ -442,11 +442,11 @@ const FindAgencyNearMeClient = () => {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-blue-50/50 border border-blue-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The North Indian Context</h4>
+                                    <h3 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The North Indian Context</h3>
                                     <p className="text-sm text-blue-800/80 leading-relaxed font-light italic">In regions like Delhi and Gurugram, recovery agents are often more aggressive in their verbal communication. A local agency needs to have immediate access to 'Police Complaint' templates and legal notices to counter this behavior early.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 border border-indigo-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
-                                    <h4 className="text-xl font-bold text-indigo-900 mb-4 tracking-tight">The South Indian Context</h4>
+                                    <h3 className="text-xl font-bold text-indigo-900 mb-4 tracking-tight">The South Indian Context</h3>
                                     <p className="text-sm text-indigo-800/80 leading-relaxed font-light italic">In cities like Bengaluru or Hyderabad, recovery is often handled through more persistent, repetitive calling and visits to your workplace. Your provider should focus on 'Employer Defense' and stopping workplace harassment.</p>
                                 </div>
                             </div>
@@ -500,7 +500,7 @@ const FindAgencyNearMeClient = () => {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="p-8 bg-gray-50 rounded-3xl border border-gray-100 group hover:border-blue-200 transition-colors">
-                                        <h4 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-700 transition-colors">{faq.question}</h4>
+                                        <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-700 transition-colors">{faq.question}</h3>
                             <p className="text-gray-700 leading-relaxed font-light italic">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -522,7 +522,7 @@ const FindAgencyNearMeClient = () => {
                     <aside className="lg:w-1/4 xl:w-1/5 w-full order-3">
                         <div className="sticky top-32 space-y-8">
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Ready to Settle?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Ready to Settle?</p>
                                 <p className="text-sm text-gray-600 mb-6">Our experts are ready to negotiate your 2025 debt settlement. Get a free quote today.</p>
                                 <Link
                                     href="/contact"
@@ -538,10 +538,10 @@ const FindAgencyNearMeClient = () => {
                             </div>
 
                             <div className="p-8 bg-white rounded-[2.5rem] shadow-sm border border-gray-100 group">
-                                <h3 className="text-xl font-black text-gray-900 mb-6 flex items-center gap-2 uppercase tracking-tighter italic">
+                                <p className="text-xl font-black text-gray-900 mb-6 flex items-center gap-2 uppercase tracking-tighter italic">
                                     <div className="w-1.5 h-6 bg-blue-600 rounded-full group-hover:w-3 transition-all"></div>
                                     Must Read
-                                </h3>
+                                </p>
                                 <ul className="space-y-5">
                                     <li>
                                         <Link href="/how-to-choose-a-trustworthy-debt-settlement-provider" className="group flex items-start gap-4">

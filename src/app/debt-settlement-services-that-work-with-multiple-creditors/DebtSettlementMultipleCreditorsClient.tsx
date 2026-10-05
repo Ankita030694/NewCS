@@ -244,7 +244,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100 shadow-sm">
-                            <h3 className="font-extrabold text-gray-900 mb-6 text-xl tracking-tight border-b-4 border-purple-500 pb-3">Resolution Plan</h3>
+                            <p className="font-extrabold text-gray-900 mb-6 text-xl tracking-tight border-b-4 border-purple-500 pb-3">Resolution Plan</p>
                             <nav className="space-y-4 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -284,19 +284,19 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 Before diving into settlement, you must ask if consolidation is still an option. Many people confuse the two, but in 2025, the distinction is critical for your credit health.
                             </p>
                             <div className="bg-purple-50 p-10 rounded-[2.5rem] border border-purple-100 mb-12 shadow-inner">
-                                <h3 className="text-2xl font-bold text-purple-900 mb-6">The Decision Matrix:</h3>
+                                <p className="text-2xl font-bold text-purple-900 mb-6">The Decision Matrix:</p>
                                 <div className="space-y-6">
                                     <div className="flex items-start bg-white p-6 rounded-2xl shadow-sm">
                                         <div className="bg-purple-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">C</div>
                                         <div>
-                                            <h4 className="font-extrabold text-blue-900">Consolidation</h4>
+                                            <p className="font-extrabold text-blue-900">Consolidation</p>
                                             <p className="text-sm text-gray-600">Taking one large loan to pay off all smaller ones. Best if your total debt-to-income ratio is under 40% and your credit score is still above 700. It preserves your financial reputation.</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start bg-white p-6 rounded-2xl shadow-sm">
                                         <div className="bg-purple-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">S</div>
                                         <div>
-                                            <h4 className="font-extrabold text-blue-900">Settlement</h4>
+                                            <h3 className="font-extrabold text-blue-900">Settlement</h3>
                                             <p className="text-sm text-gray-600">Negotiating a reduced lump sum payment for each debt. This is for the "Deep Distress" phase where EMIs exceed 70% of income and default is inevitable or already happened.</p>
                                         </div>
                                     </div>
@@ -330,21 +330,21 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 <li className="flex gap-4 items-center p-6 bg-gray-50 rounded-3xl border border-gray-100 hover:bg-white hover:shadow-xl transition-all">
                                     <span className="text-3xl">[Scale]</span>
                                     <div>
-                                        <h4 className="font-bold text-gray-900">Legal Escalation</h4>
+                                        <h3 className="font-bold text-gray-900">Legal Escalation</h3>
                                         <p className="text-sm text-gray-600">Creditors who have already filed a case under Section 138 or Section 25. These have criminal implications and must be handled immediately.</p>
                                     </div>
                                 </li>
                                 <li className="flex gap-4 items-center p-6 bg-gray-50 rounded-3xl border border-gray-100 hover:bg-white hover:shadow-xl transition-all">
                                     <span className="text-3xl">🔊</span>
                                     <div>
-                                        <h4 className="font-bold text-gray-900">Harassment Level</h4>
+                                        <h3 className="font-bold text-gray-900">Harassment Level</h3>
                                         <p className="text-sm text-gray-600">Lenders who use aggressive, illegal recovery tactics that disrupt your job or family life. Settling these buys you the mental bandwidth to handle others.</p>
                                     </div>
                                 </li>
                                 <li className="flex gap-4 items-center p-6 bg-gray-50 rounded-3xl border border-gray-100 hover:bg-white hover:shadow-xl transition-all">
                                     <span className="text-3xl">📉</span>
                                     <div>
-                                        <h4 className="font-bold text-gray-900">Asset Risk</h4>
+                                        <h3 className="font-bold text-gray-900">Asset Risk</h3>
                                         <p className="text-sm text-gray-600">If you have a co-signer who is a senior citizen or a family member, settling those debts first protects your social and familial relationships.</p>
                                     </div>
                                 </li>
@@ -378,11 +378,11 @@ export default function DebtSettlementMultipleCreditorsClient() {
                             <p className="text-gray-700 leading-relaxed mb-8 italic text-gray-500">Note: Names have been changed for privacy.</p>
                             <div className="space-y-8 mb-12">
                                 <div className="p-8 bg-blue-900 text-white rounded-[2rem] shadow-xl">
-                                    <h4 className="text-2xl font-bold mb-4 font-serif">The "14-Lender" Resolution</h4>
+                                    <h3 className="text-2xl font-bold mb-4 font-serif">The "14-Lender" Resolution</h3>
                                     <p className="font-light leading-relaxed">Mr. Sharma had 14 different fintech and bank loans totaling 18 Lakhs. His EMIs were 1.2 Lakhs against a salary of 85,000. He was on the verge of a breakdown. We synchronized his defaults, prioritized the 3 most aggressive lenders, and within 11 months, he settled 12 of the 14 loans for a total of 7 Lakhs. He is now paying the remaining two from his monthly savings and will be debt-free by December 2025.</p>
                                 </div>
                                 <div className="p-8 bg-purple-900 text-white rounded-[2rem] shadow-xl">
-                                    <h4 className="text-2xl font-bold mb-4 font-serif">Stopping the Court Cascade</h4>
+                                    <h3 className="text-2xl font-bold mb-4 font-serif">Stopping the Court Cascade</h3>
                                     <p className="font-light leading-relaxed">Ms. Verma faced three simultaneous court cases from three different banks. Our legal team coordinated the responses and used the "Lok Adalat" window to settle all three cases for 45% of the principal amount in a single session. The banks agreed to withdraw the criminal complaints as part of the settlement contract.</p>
                                 </div>
                             </div>
@@ -415,11 +415,11 @@ export default function DebtSettlementMultipleCreditorsClient() {
                             <p className="text-gray-700 leading-relaxed mb-8 italic text-gray-500">Note: Names and specific locations have been altered to protect client confidentiality.</p>
                             <div className="space-y-10 mb-16">
                                 <div className="p-10 bg-slate-900 text-white rounded-[3rem] shadow-2xl transition-transform hover:scale-[1.02]">
-                                    <h4 className="text-2xl font-black mb-6 border-b border-slate-700 pb-4 tracking-tighter">Case Study: The "Domino" Resolution</h4>
+                                    <h3 className="text-2xl font-black mb-6 border-b border-slate-700 pb-4 tracking-tighter">Case Study: The "Domino" Resolution</h3>
                                     <p className="font-light leading-relaxed mb-6">Mr. Reddy, a software engineer, had 9 different personal loans and 3 credit cards. He was paying 1.4 Lakhs in EMI against a 90k salary. He was borrowing from one to pay the other. We stopped all EMIs, focused his 2 Lakhs of savings on his most aggressive lender (a fintech NBFC), and secured a 65% waiver in 45 days. We then used that <strong>Settlement Letter</strong> to convince the other 8 lenders that Mr. Reddy was in deep distress but sincere about closing debts. By month 12, all 12 debts were resolved for a total of 8.5 Lakhs. He saved over 15 Lakhs in interest and penalties.</p>
                                 </div>
                                 <div className="p-10 bg-indigo-900 text-white rounded-[3rem] shadow-2xl transition-transform hover:scale-[1.02]">
-                                    <h4 className="text-2xl font-black mb-6 border-b border-indigo-700 pb-4 tracking-tighter">Case Study: The Lok Adalat Tri-Settlement</h4>
+                                    <h3 className="text-2xl font-black mb-6 border-b border-indigo-700 pb-4 tracking-tighter">Case Study: The Lok Adalat Tri-Settlement</h3>
                                     <p className="font-light leading-relaxed mb-6">Ms. Kapoor had 3 major banks taking her to court. Our legal team coordinated with the DLSA (District Legal Services Authority) and arranged for all three cases to be heard in the same Lok Adalat session. We presented a unified "Net Worth Statement" showing she couldn’t pay everyone in full but had a 5 Lakh lump sum (from jewelry sale). The judge mediated, and all three banks agreed to split the 5 Lakhs proportionally, withdrawing all criminal complaints instantly. This synchronized legal victory would have been impossible if she had tried to handle each bank separately.</p>
                                 </div>
                             </div>
@@ -436,7 +436,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 ].map((step, i) => (
                                     <div key={i} className="p-8 bg-purple-50 rounded-3xl border border-purple-100 relative group overflow-hidden">
                                         <div className="absolute top-0 right-0 p-4 opacity-10 font-black text-6xl group-hover:opacity-20 transition-opacity">0{i+1}</div>
-                                        <h4 className="font-extrabold text-gray-900 text-xl mb-2">{step.title}</h4>
+                                        <h3 className="font-extrabold text-gray-900 text-xl mb-2">{step.title}</h3>
                                         <p className="text-sm text-gray-600 leading-relaxed font-light">{step.desc}</p>
                                     </div>
                                 ))}
@@ -498,7 +498,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-8 rounded-[2rem] shadow-2xl border border-purple-50 text-center">
-                                <h4 className="font-black text-2xl text-gray-900 mb-4">The Priority Audit</h4>
+                                <p className="font-black text-2xl text-gray-900 mb-4">The Priority Audit</p>
                                 <p className="text-sm text-gray-600 mb-8 leading-relaxed">Got 5+ creditors? Get a free "Priority Audit" to know which bank to settle first and which one to put on hold.</p>
                                 <Link
                                     href="/contact"
@@ -515,7 +515,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100 shadow-sm">
-                                <h4 className="font-black text-gray-900 mb-6 border-b-2 border-purple-200 pb-3">Strategy Guides</h4>
+                                <p className="font-black text-gray-900 mb-6 border-b-2 border-purple-200 pb-3">Strategy Guides</p>
                                 <nav className="space-y-5">
                                     {[
                                         { href: "/debt-settlement-vs-debt-consolidation", text: "Comparison Deep Dive" },

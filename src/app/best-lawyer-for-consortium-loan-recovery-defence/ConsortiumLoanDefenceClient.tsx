@@ -290,7 +290,7 @@ export default function ConsortiumLoanDefenceClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -418,7 +418,7 @@ export default function ConsortiumLoanDefenceClient() {
                                 A consortium OTS is a "Package Deal." It is not finalized until the lead bank and the required majority under the ICA agree.
                             </p>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-8">
-                                <h3 className="font-bold text-lg mb-4">Steps to a Successful Consortium OTS:</h3>
+                                <p className="font-bold text-lg mb-4">Steps to a Successful Consortium OTS:</p>
                                 <ul className="space-y-4 text-gray-700">
                                     <li><strong>1. Simultaneous Proposals:</strong> While the lead bank is the primary contact, send copies of your OTS proposal to the CMD/Chairman offices of all member banks to ensure visibility.</li>
                                     <li><strong>2. Forensic Audit:</strong> Present an independent forensic audit showing that the forced sale value of assets is lower than your OTS offer.</li>
@@ -500,7 +500,7 @@ export default function ConsortiumLoanDefenceClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Multi-Bank Dispute?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Multi-Bank Dispute?</p>
                                 <p className="text-sm text-gray-600 mb-6">Is a consortium lead bank threatening recovery? Get a specialized legal assessment of your ICA and DRT options today.</p>
                                 <Link
                                     href="/contact"
@@ -517,7 +517,7 @@ export default function ConsortiumLoanDefenceClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-company-loan-matters" className="block text-sm text-blue-600 hover:underline">Company Loan Matters</Link>
                                     <Link href="/best-lawyer-for-msme-and-business-loans" className="block text-sm text-blue-600 hover:underline">MSME Loan Legal Help</Link>

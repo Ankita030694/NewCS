@@ -276,7 +276,7 @@ export default function BestCompaniesClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -440,35 +440,35 @@ export default function BestCompaniesClient() {
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Enrolment and Assessment</h4>
+                      <h3 className="font-bold text-gray-900">Enrolment and Assessment</h3>
                       <p>You provide details of all your outstanding debts, income, and expenses. The agency performs a detailed audit to determine your eligibility for settlement.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">2</div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Ceasing Communication</h4>
+                      <h3 className="font-bold text-gray-900">Ceasing Communication</h3>
                       <p>The agency advises you on how to handle calls from creditors. In many cases, they take over all communication, providing you with immediate relief from harassment.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">3</div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Accumulating Funds</h4>
+                      <h3 className="font-bold text-gray-900">Accumulating Funds</h3>
                       <p>Instead of making small payments to the bank (which mostly go toward interest), you save money in a dedicated "settlement fund" or personal account. This builds the "lump sum" needed for a settlement offer.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">4</div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Negotiation</h4>
+                      <h3 className="font-bold text-gray-900">Negotiation</h3>
                       <p>Once you have enough saved, the agency initiates formal negotiations with the bank. They leverage their expertise to secure the lowest possible payout amount.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 font-bold">5</div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Approval and Payment</h4>
+                      <h3 className="font-bold text-gray-900">Approval and Payment</h3>
                       <p>The bank issues a formal "Settlement Letter" outlining the terms. Once you verify the letter, you pay the agreed amount directly to the bank. The bank then issues a "No Dues Certificate" (NDC).</p>
                     </div>
                   </div>
@@ -647,7 +647,7 @@ export default function BestCompaniesClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Debt Analysis</h4>
+                <p className="font-bold text-2xl mb-4">Free Debt Analysis</p>
                 <p className="text-slate-300 mb-6 text-sm">Find out how much you can save through professional debt settlement today.</p>
                 <Link 
                   href="/contact"
@@ -673,7 +673,7 @@ export default function BestCompaniesClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Quick Links</p>
                 <ul className="space-y-4 text-sm">
                   <li>
                     <Link href="/services" className="group flex items-start">

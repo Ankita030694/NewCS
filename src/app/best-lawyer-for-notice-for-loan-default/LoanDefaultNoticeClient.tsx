@@ -287,7 +287,7 @@ export default function LoanDefaultNoticeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -516,7 +516,7 @@ export default function LoanDefaultNoticeClient() {
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Real Case Studies: Loan Default Notices Successfully Challenged</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: SARFAESI Notice Killed by Procedural Challenge, Restructuring Achieved</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: SARFAESI Notice Killed by Procedural Challenge, Restructuring Achieved</p>
                                 <p className="text-gray-700 mb-4">
                                     A self-employed professional in Bangalore received a Section 13(2) SARFAESI notice for a 55 lakh home loan. The bank had classified the account as NPA 10 days before the mandatory 90-day completion period. The lawyer identified this error immediately.
                                 </p>
@@ -525,7 +525,7 @@ export default function LoanDefaultNoticeClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: Harassment Documentation Led to 60% OTS Waiver</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: Harassment Documentation Led to 60% OTS Waiver</p>
                                 <p className="text-gray-700 mb-4">
                                     A small business owner in Hyderabad received a demand notice for a 22 lakh business loan and was subjected to aggressive recovery agent harassment, including calls to his suppliers and threats of consequences that were legally false.
                                 </p>
@@ -601,7 +601,7 @@ export default function LoanDefaultNoticeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Got a Default Notice?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Got a Default Notice?</p>
                                 <p className="text-sm text-gray-600 mb-6">Get an expert banking lawyer to review your notice, draft a reply, and protect your assets from bank recovery action. Free first consultation.</p>
                                 <Link
                                     href="/contact"
@@ -618,7 +618,7 @@ export default function LoanDefaultNoticeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Business Loan Dispute</Link>
                                     <Link href="/best-lawyer-for-loan-settlement-by-drt" className="block text-sm text-blue-600 hover:underline">DRT Loan Settlement Lawyer</Link>

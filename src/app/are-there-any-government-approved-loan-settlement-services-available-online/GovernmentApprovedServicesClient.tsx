@@ -287,7 +287,7 @@ export default function GovernmentApprovedServicesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 max-h-[calc(100vh-120px)] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -390,7 +390,7 @@ export default function GovernmentApprovedServicesClient() {
                                 However, OTS schemes usually have very tight deadlines-often just 30 to 60 days. Missing the deadline means the offer expires, and the bank may proceed with legal action. This is why staying updated with banking news or working with a consultancy that tracks these schemes is crucial for any borrower looking for an official resolution. Furthermore, the 2025 guidelines emphasize that once an OTS is accepted, the bank must provide a 'No Dues Certificate' within 15 working days of final payment, a rule that protects borrowers from lingering administrative delays.
                             </p>
 
-                            <h3 id="pss-act-vs-ni-act" className="text-2xl font-bold text-gray-900 mb-4 mt-8">Legal Deep Dive: Section 25 of the PSS Act vs. Section 138 of the NI Act</h3>
+                            <h2 id="pss-act-vs-ni-act" className="text-2xl font-bold text-gray-900 mb-4 mt-8">Legal Deep Dive: Section 25 of the PSS Act vs. Section 138 of the NI Act</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To truly understand the "government-approved" legal landscape, one must understand the two primary legal hammers used by banks: Section 138 of the Negotiable Instruments (NI) Act and Section 25 of the Payment and Settlement Systems (PSS) Act. While both relate to payment failure, they operate differently and offer different paths to settlement.
                             </p>
@@ -401,7 +401,7 @@ export default function GovernmentApprovedServicesClient() {
                                 <strong>Section 25 (e-NACH/ECS Failure):</strong> In the digital age, most EMIs are deducted via electronic mandates. If these fail due to insufficient funds, it is a violation of Section 25 of the PSS Act. While similar to a cheque bounce, Section 25 cases are often handled by Metropolitan Magistrates or Judicial Magistrates. The official path to resolution here involves moving an application for compromise before the magistrate, which then records the settlement and closes the case. Understanding these sections allows a borrower to approach the "official" court system with a clear strategy for closure.
                             </p>
 
-                            <h3 id="sarfaesi-rights" className="text-2xl font-bold text-gray-900 mb-4 mt-8">The SARFAESI Act and Your Right to a Compromise</h3>
+                            <h2 id="sarfaesi-rights" className="text-2xl font-bold text-gray-900 mb-4 mt-8">The SARFAESI Act and Your Right to a Compromise</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For borrowers with secured loans, the SARFAESI Act (Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002) is a formidable piece of legislation. It allows banks to take possession of collateral without going to court. However, even under the shadow of SARFAESI, there is an official path to settlement.
                             </p>
@@ -460,7 +460,7 @@ export default function GovernmentApprovedServicesClient() {
                                 Regardless of the lender type, the 2025 "Fair Conduct Guide" from the RBI ensures that no lender can ignore a legitimate settlement request if the borrower is in genuine financial distress. The role of companies like CredSettle is to ensure that your request is framed in the exact terminology that these different types of lenders understand and respond to.
                             </p>
 
-                            <h3 id="nbfc-scooter" className="text-2xl font-bold text-gray-900 mb-4 mt-8">The Rise of Digital Lending and RBI’s 'Digital Lending Guidelines'</h3>
+                            <h2 id="nbfc-scooter" className="text-2xl font-bold text-gray-900 mb-4 mt-8">The Rise of Digital Lending and RBI’s 'Digital Lending Guidelines'</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, a significant portion of defaults comes from "Instant Loan Apps." Many of these apps operate in a grey area, but if they are tied to a registered NBFC (Non-Banking Financial Company), they are bound by the RBI’s Digital Lending Guidelines. These guidelines are a form of "government-approved" protection that prevents these apps from accessing your contacts or using aggressive social shaming.
                             </p>
@@ -471,19 +471,19 @@ export default function GovernmentApprovedServicesClient() {
                             <h2 id="glossary" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Glossary of Official Settlement Terms</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
-                                    <h4 className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">Compromise Settlement</h4>
+                                    <p className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">Compromise Settlement</p>
                                     <p className="text-sm text-gray-600">A board-approved arrangement where the lender agrees to accept less than the full amount due in satisfaction of the debt, usually for NPA accounts.</p>
                                 </div>
                                 <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
-                                    <h4 className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">Technical Write-Off</h4>
+                                    <p className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">Technical Write-Off</p>
                                     <p className="text-sm text-gray-600">When a bank removes a bad loan from its balance sheet for accounting reasons but still retains the right to recover the money from the borrower manually.</p>
                                 </div>
                                 <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
-                                    <h4 className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">Nodal Officer</h4>
+                                    <p className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">Nodal Officer</p>
                                     <p className="text-sm text-gray-600">A high-ranking bank official appointed specifically to handle customer grievances and high-value settlement negotiations.</p>
                                 </div>
                                 <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
-                                    <h4 className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">No Dues Certificate (NDC)</h4>
+                                    <p className="font-bold text-blue-900 mb-2 underline whitespace-nowrap overflow-hidden text-ellipsis">No Dues Certificate (NDC)</p>
                                     <p className="text-sm text-gray-600">The ultimate official document issued by a bank certifying that a loan has been closed and the borrower has no further liability.</p>
                                 </div>
                             </div>
@@ -572,7 +572,7 @@ export default function GovernmentApprovedServicesClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center scale-100 hover:scale-[1.02] transition-transform">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need a Legal Shield?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need a Legal Shield?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop harassment and negotiate through official channels with expert help.</p>
                                 <Link
                                     href="/contact"
@@ -600,7 +600,7 @@ export default function GovernmentApprovedServicesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Resource Center</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Resource Center</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Pros & Cons of Settlement</Link>

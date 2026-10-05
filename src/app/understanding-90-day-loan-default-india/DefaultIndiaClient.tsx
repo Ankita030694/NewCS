@@ -200,7 +200,7 @@ export default function DefaultIndiaClient() {
           <div className="lg:w-[20%] hidden lg:block border-r border-gray-100 px-6">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-50">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -284,11 +284,11 @@ export default function DefaultIndiaClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8">
                   <div className="bg-blue-50 p-6 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-4">Secured Loan Defaults</h4>
+                    <h3 className="font-bold text-blue-900 mb-4">Secured Loan Defaults</h3>
                     <p className="text-sm">These include home loans, car loans, and loans against property. The bank has a charge on your asset. They can use the SARFAESI Act to take possession and auction the asset without even going to court. This is a very powerful tool that requires expert legal defense from <strong>credsettle.com</strong>.</p>
                   </div>
                   <div className="bg-purple-50 p-6 rounded-2xl">
-                    <h4 className="font-bold text-purple-900 mb-4">Unsecured Loan Defaults</h4>
+                    <h3 className="font-bold text-purple-900 mb-4">Unsecured Loan Defaults</h3>
                     <p className="text-sm">These include personal loans, credit cards, and some business loans. Since there is no collateral, the bank cannot take your property directly. They must file a civil suit for recovery or use arbitration. While less immediate than SARFAESI, these can lead to attachment of other assets or salaries over time.</p>
                   </div>
                 </div>
@@ -479,7 +479,7 @@ export default function DefaultIndiaClient() {
           <div className="lg:w-[20%] hidden lg:block border-l border-gray-100 px-6">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-indigo-700 p-8 rounded-3xl shadow-xl text-white text-center">
-                <h4 className="font-bold text-2xl mb-4">Need Help Now?</h4>
+                <p className="font-bold text-2xl mb-4">Need Help Now?</p>
                 <p className="text-sm opacity-90 mb-8">Speak directly with the professional team at <strong>CredSettle</strong>.</p>
                 <a 
                   href="tel:8800226635"
@@ -491,7 +491,7 @@ export default function DefaultIndiaClient() {
               </div>
 
               <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Content</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Content</p>
                 <nav className="space-y-4">
                   <Link href="/loan-settlement" className="block text-sm text-blue-600 hover:underline">Full Range of Services</Link>
                   <Link href="/can-i-go-to-jail-for-loan-default-in-india" className="block text-sm text-blue-600 hover:underline">Is Default Criminal?</Link>
@@ -501,7 +501,7 @@ export default function DefaultIndiaClient() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-3xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-2">Contact Us</h4>
+                <p className="font-bold text-gray-900 mb-2">Contact Us</p>
                 <p className="text-sm text-gray-600 leading-relaxed">
                   <strong>CredSettle</strong><br />
                   Professional Loan Settlement Services<br />

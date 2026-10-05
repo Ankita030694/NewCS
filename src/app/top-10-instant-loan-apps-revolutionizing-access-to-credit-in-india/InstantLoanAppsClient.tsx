@@ -214,7 +214,7 @@ export default function InstantLoanAppsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -461,7 +461,7 @@ export default function InstantLoanAppsClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                    <h4 className="font-bold text-lg mb-4 text-blue-900">Standard Eligibility</h4>
+                    <h3 className="font-bold text-lg mb-4 text-blue-900">Standard Eligibility</h3>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>Indian citizenship.</li>
                       <li>Age between 21 and 60 years.</li>
@@ -471,7 +471,7 @@ export default function InstantLoanAppsClient() {
                     </ul>
                   </div>
                   <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                    <h4 className="font-bold text-lg mb-4 text-blue-900">Required Documents</h4>
+                    <h3 className="font-bold text-lg mb-4 text-blue-900">Required Documents</h3>
                     <ul className="list-disc pl-5 space-y-2">
                       <li>PAN Card (Mandatory for all).</li>
                       <li>Aadhaar Card (For address and identity).</li>
@@ -580,7 +580,7 @@ export default function InstantLoanAppsClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Financial Health Check</h4>
+                <p className="font-bold text-2xl mb-4">Financial Health Check</p>
                 <p className="text-blue-100 mb-6 text-sm">Concerned about your credit score or debt levels? Get a professional evaluation today.</p>
                 <Link 
                   href="/contact"
@@ -606,7 +606,7 @@ export default function InstantLoanAppsClient() {
 
               {/* Helpful Resources Section - Links from sitemap */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement-vs-repayment" className="group flex items-start">

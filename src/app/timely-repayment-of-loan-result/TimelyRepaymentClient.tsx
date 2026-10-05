@@ -151,7 +151,7 @@ export default function TimelyRepaymentClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -220,7 +220,7 @@ export default function TimelyRepaymentClient() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                    <h4 className="font-bold text-red-900 text-base mb-4">The Settlement Path (Before)</h4>
+                    <h3 className="font-bold text-red-900 text-base mb-4">The Settlement Path (Before)</h3>
                     <p className="text-gray-800 text-base mb-4">
                       When you settle a loan, the bank accepts a partial payment and writes off the remainder. The credit bureau updates your file with the status tag Settled. This tag is a permanent red flag.
                     </p>
@@ -232,7 +232,7 @@ export default function TimelyRepaymentClient() {
                     </ul>
                   </div>
                   <div className="bg-green-50 p-8 rounded-2xl border border-green-200">
-                    <h4 className="font-bold text-green-900 text-base mb-4">The Timely Repayment Path (After)</h4>
+                    <h3 className="font-bold text-green-900 text-base mb-4">The Timely Repayment Path (After)</h3>
                     <p className="text-gray-800 text-base mb-4">
                       When you complete your payments on time, the bank reports the account as Closed with zero outstanding dues. This is the optimal outcome for any credit profile.
                     </p>
@@ -290,7 +290,7 @@ export default function TimelyRepaymentClient() {
                 </p>
 
                 <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 mt-8 mb-8 overflow-x-auto">
-                  <h4 className="font-bold text-gray-900 text-base mb-6 text-center">Ten Year Cost Comparison Analysis</h4>
+                  <h3 className="font-bold text-gray-900 text-base mb-6 text-center">Ten Year Cost Comparison Analysis</h3>
                   <table className="w-full text-left border-collapse min-w-[600px]">
                     <thead>
                       <tr className="bg-gray-100">
@@ -356,21 +356,21 @@ export default function TimelyRepaymentClient() {
 
                 <div className="space-y-6 mt-8">
                   <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-red-500">
-                    <h4 className="font-bold text-gray-900 text-base mb-2">Myth: Paying off a loan early damages your credit score because banks lose interest income.</h4>
+                    <h3 className="font-bold text-gray-900 text-base mb-2">Myth: Paying off a loan early damages your credit score because banks lose interest income.</h3>
                     <p className="text-gray-700">
                       <strong>Fact:</strong> Prepaying or closing a loan early unequivocally improves your credit profile. Credit bureaus prioritize your ability to clear debt over the bank profit margins. Closing an account reduces your overall credit utilization ratio and demonstrates immense financial stability, which immediately boosts your CIBIL score.
                     </p>
                   </div>
                   
                   <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-red-500">
-                    <h4 className="font-bold text-gray-900 text-base mb-2">Myth: Once you settle a loan, it completely disappears from your credit report after one year.</h4>
+                    <h3 className="font-bold text-gray-900 text-base mb-2">Myth: Once you settle a loan, it completely disappears from your credit report after one year.</h3>
                     <p className="text-gray-700">
                       <strong>Fact:</strong> A settled status remains visible on your CIBIL report for up to seven years. It does not vanish quickly. It serves as a persistent, long term warning to all future lenders, severely restricting your borrowing capacity for the better part of a decade.
                     </p>
                   </div>
 
                   <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-red-500">
-                    <h4 className="font-bold text-gray-900 text-base mb-2">Myth: A No Objection Certificate is just a formality and is not really necessary if the loan shows closed online.</h4>
+                    <h3 className="font-bold text-gray-900 text-base mb-2">Myth: A No Objection Certificate is just a formality and is not really necessary if the loan shows closed online.</h3>
                     <p className="text-gray-700">
                       <strong>Fact:</strong> The NOC is the most critical legal document in the entire lending process. Online portals can experience glitches, and bank databases can be corrupted or merged during acquisitions. A physical or digitally signed NOC is your absolute legal defense against any future erroneous claims or zombie debt collections.
                     </p>
@@ -427,7 +427,7 @@ export default function TimelyRepaymentClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Financial Analyst</p>
                 <p className="text-xs text-gray-400">Expert in debt restructuring, credit score optimization, and banking protocols. Dedicated to helping borrowers achieve permanent financial freedom.</p>
               </div>

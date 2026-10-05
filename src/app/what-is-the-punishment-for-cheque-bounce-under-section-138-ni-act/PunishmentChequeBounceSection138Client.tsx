@@ -240,7 +240,7 @@ export default function PunishmentChequeBounceSection138Client() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -297,7 +297,7 @@ export default function PunishmentChequeBounceSection138Client() {
                                         </svg>
                                     </div>
                                     <div className="ml-3">
-                                        <h3 className="text-lg font-bold text-red-800 m-0 p-0 mb-2">Critical Legal Warning</h3>
+                                        <p className="text-lg font-bold text-red-800 m-0 p-0 mb-2">Critical Legal Warning</p>
                                         <p className="text-red-700 text-base m-0 font-normal">
                                             No recovery agent, collection agency, or bank employee has the authority to arrest you. Immediate arrest for a bounced cheque without a prior court summons and magistrate warrant is absolutely illegal. If someone is standing outside your door threatening arrest, call the local police helpline immediately.
                                         </p>
@@ -456,7 +456,7 @@ export default function PunishmentChequeBounceSection138Client() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 10: Real Case Studies of Legal Triumphs</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-8 rounded-[2rem] border border-blue-100 shadow-md border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 1: The Defective Notice</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 1: The Defective Notice</h3>
                                     <p className="text-gray-800 mb-4 font-normal">
                                         A borrower in Pune defaulted on a personal loan, and a security cheque was deposited and bounced. The bank sent a legal notice, but due to administrative delays, it was dispatched 35 days after they received the return memo from the bank.
                                     </p>
@@ -465,7 +465,7 @@ export default function PunishmentChequeBounceSection138Client() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-8 rounded-[2rem] border border-blue-100 shadow-md border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 2: The Security Cheque Defense</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight">Case Study 2: The Security Cheque Defense</h3>
                                     <p className="text-gray-800 mb-4 font-normal">
                                         A small business owner had handed over five blank, signed cheques when securing a business loan. Years later, after paying half the loan, business slowed down. The NBFC filled an arbitrary inflated amount on a blank cheque and deposited it.
                                     </p>
@@ -558,7 +558,7 @@ export default function PunishmentChequeBounceSection138Client() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Notice Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Notice Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6 font-normal">We draft strong replies to statutory notices to protect you from Section 138 proceedings.</p>
                                 <Link
                                     href="/contact"
@@ -576,7 +576,7 @@ export default function PunishmentChequeBounceSection138Client() {
 
                             {/* Related Expertise Link Card */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-check-bounce-lawyer-for-loan-case" className="block text-sm text-blue-600 hover:underline font-bold">Cheque Bounce Legal Defense</Link>
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline font-bold">Stop Harassment Instantly</Link>

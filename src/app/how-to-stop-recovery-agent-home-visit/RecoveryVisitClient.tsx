@@ -245,7 +245,7 @@ export default function RecoveryVisitClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a
@@ -563,7 +563,7 @@ export default function RecoveryVisitClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900">{review.name}</h4>
+                        <p className="font-bold text-gray-900">{review.name}</p>
                         <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
@@ -620,7 +620,7 @@ export default function RecoveryVisitClient() {
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white relative overflow-hidden group">
                 <div className="relative z-10">
                   <div className="bg-red-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-4 animate-pulse">24/7 Protection</div>
-                  <h4 className="font-bold text-2xl mb-4 leading-tight">Home Visit Expected?</h4>
+                  <p className="font-bold text-2xl mb-4 leading-tight">Home Visit Expected?</p>
                   <p className="text-blue-100 mb-8 text-sm leading-relaxed">Don’t wait for the doorbell to ring. Get our legal team to stop the agents now.</p>
                   <Link
                     href="/contact"
@@ -635,7 +635,7 @@ export default function RecoveryVisitClient() {
 
               {/* Related Pages */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Related Guides</p>
                 <ul className="space-y-5">
                   <li>
                     <Link href="/how-to-stop-recovery-agent-harassment" className="group flex items-start">

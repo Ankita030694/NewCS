@@ -224,7 +224,7 @@ export default function ProjectFinanceBuilderClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -335,7 +335,7 @@ export default function ProjectFinanceBuilderClient() {
                                 If you are facing loan recovery, a purely defensive "court-only" strategy is bound to fail. You need a mix of legal pressure and commercial negotiation.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">The 4-Pillar Defence Strategy</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4 text-center">The 4-Pillar Defence Strategy</p>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
                                     <div className="p-4 bg-white rounded-xl shadow-sm border border-gray-100 italic">
                                         <strong>1. Procedural Scrutiny:</strong> Identifying every error the bank made in the NPA classification process. Tiny mistakes in interest compounding can invalidate a SARFAESI notice.
@@ -373,11 +373,11 @@ export default function ProjectFinanceBuilderClient() {
                             </p>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Scenario 1: Stall and Restructure</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Scenario 1: Stall and Restructure</h3>
                                     <p className="text-gray-700">A mid-sized builder in Pune faced a 50 Crore SARFAESI notice. The bank had failed to disburse the final tranche of construction finance. The lawyer successfully argued "Lender Fault" in the DRT, obtaining a stay on the auction. This forced the bank to the table, resulting in a three-year extension and a 2% reduction in interest rates. The project is now 90% complete.</p>
                                 </div>
                                 <div className="p-6 bg-red-50 rounded-2xl border border-red-100">
-                                    <h4 className="font-bold text-red-900 mb-2">Scenario 2: The IBC Lifeline</h4>
+                                    <h3 className="font-bold text-red-900 mb-2">Scenario 2: The IBC Lifeline</h3>
                                     <p className="text-gray-700">A Gurgaon-based developer was hit by an IBC petition from a group of 50 homebuyers. Instead of fighting the homebuyers, the builder worked with a specialized IBC lawyer to propose a "Reverse CIRP" plan. This plan allowed the builder to stay as a project consultant under the supervision of the IRP, ensuring project completion while the debt was settled over time. Litigation was avoided, and homes were delivered.</p>
                                 </div>
                             </div>
@@ -452,7 +452,7 @@ export default function ProjectFinanceBuilderClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop The Auction</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop The Auction</p>
                                 <p className="text-sm text-gray-600 mb-6">Facing a SARFAESI possession? We offer immediate legal intervention strategies.</p>
                                 <Link
                                     href="/contact"
@@ -469,7 +469,7 @@ export default function ProjectFinanceBuilderClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

@@ -1028,9 +1028,9 @@ export default function LoanSettlementFraudAlertClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL DEFENSE
                 </span>
-                <h3 className="text-base font-bold text-white leading-snug">
+                <p className="text-base font-bold text-white leading-snug">
                   Suspicious Settlement Offer?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal">
                   Authenticate bank settlement letters, stop recovery harassment, and negotiate legitimate 40% to 55% waivers.
                 </p>
@@ -1054,7 +1054,7 @@ export default function LoanSettlementFraudAlertClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-xs">The CredSettle Advantage</p>
               <ul className="space-y-1.5 text-slate-600 text-[11px]">
                 <li className="flex items-start gap-1.5">
                   <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -1077,7 +1077,7 @@ export default function LoanSettlementFraudAlertClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs">Related Guides</h4>
+              <p className="font-bold text-slate-900 text-xs">Related Guides</p>
               <div className="space-y-1.5">
                 <Link
                   href="/verify-loan-settlement-letter"

@@ -177,7 +177,7 @@ export default function OnlineToolsClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -323,7 +323,7 @@ export default function OnlineToolsClient() {
                 
                 <div className="bg-blue-900 p-10 md:p-14 rounded-3xl text-white shadow-xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-xl font-bold mb-8 text-blue-200 border-b border-blue-700 pb-4">The Mathematical Penalty of Inaction</h4>
+                    <h3 className="text-xl font-bold mb-8 text-blue-200 border-b border-blue-700 pb-4">The Mathematical Penalty of Inaction</h3>
                     
                     <div className="space-y-6 text-lg">
                       <p><strong className="text-blue-300">Base Scenario:</strong> A borrower defaults on a ₹5,000,000 unsecured personal loan with an annualized interest rate of 18% and standard late payment penalties.</p>
@@ -420,7 +420,7 @@ export default function OnlineToolsClient() {
                 </p>
 
                 <div className="my-10 bg-white p-8 rounded-2xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-gray-900 text-lg mb-6 border-b pb-4">Standard Industry Fee Anatomy vs. CredSettle</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-6 border-b pb-4">Standard Industry Fee Anatomy vs. CredSettle</h3>
                   
                   <div className="space-y-6">
                     <div className="flex justify-between items-center p-4 bg-red-50 rounded-lg border border-red-100">
@@ -528,7 +528,7 @@ export default function OnlineToolsClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="/default-user.svg" alt="Arun Sharma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover bg-gray-200" />
-                <h4 className="font-bold text-gray-900">Arun Sharma</h4>
+                <p className="font-bold text-gray-900">Arun Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Lead Fintech Analyst</p>
                 <p className="text-xs text-gray-400">Specializes in algorithmic debt modeling, financial risk assessment, and leveraging data for consumer protection in the debt settlement sector.</p>
               </div>

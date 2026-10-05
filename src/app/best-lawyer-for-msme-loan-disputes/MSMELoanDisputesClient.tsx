@@ -294,7 +294,7 @@ export default function MSMELoanDisputesClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Contents</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -441,7 +441,7 @@ export default function MSMELoanDisputesClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">MSME Dispute Help</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">MSME Dispute Help</p>
                                 <p className="text-sm text-gray-600 mb-6">Expert negotiation for delayed payments and bank recovery disputes.</p>
                                 <Link
                                     href="/contact"
@@ -458,7 +458,7 @@ export default function MSMELoanDisputesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Business Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Business Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Business Loan Experts</Link>
                                     <Link href="/best-lawyer-for-loan-agreement" className="block text-sm text-blue-600 hover:underline">Loan Agreement Guide</Link>

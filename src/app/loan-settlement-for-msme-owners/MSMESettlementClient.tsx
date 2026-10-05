@@ -267,7 +267,7 @@ export default function MSMESettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Resource Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Resource Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -445,19 +445,19 @@ export default function MSMESettlementClient() {
                                 Resolving MSME debt is a multi dimensional challenge that requires a combination of legal, financial, and strategic expert knowledge. Most business owners are too stressed and too close to the situation to negotiate effectively. This is where professional partners make the difference between a failed recovery and a successful reset.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></p>
                                 <p className="text-gray-800 mb-4">
                                     They provide the legal defense. From challenging SARFAESI notices in DRT to defending against wilful defaulter classification, AMA Legal Solutions ensures that the bank respects every inch of your rights under the MSMED Act and RBI guidelines.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></p>
                                 <p className="text-gray-800 mb-4">
                                     They are your professional negotiators. CredSettle speaks the "Bank language." They bypass recovery agents and talk directly to the decision makers in the bank’s settlement committees, using data to secure the lowest possible payout amount.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></p>
                                 <p className="text-gray-800 mb-4">
                                     They provide the digital roadmap. SettleLoans helps you build your Hardship Dossier and identifies bank errors in interest calculation, giving you the arithmetic leverage needed to demand a better deal.
                                 </p>
@@ -468,7 +468,7 @@ export default function MSMESettlementClient() {
                                 Real world examples demonstrate that even in the most difficult situations, a settlement is possible.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study 1: The Manufacturing Unit Reset</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case Study 1: The Manufacturing Unit Reset</p>
                                 <p className="text-gray-700 mb-4">
                                     A plastics manufacturer in Pune faced a liquidity trap due to raw material price hikes. The bank had issued a symbolic possession notice for his residence.
                                 </p>
@@ -477,7 +477,7 @@ export default function MSMESettlementClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study 2: The Retailer’s Redemption</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case Study 2: The Retailer’s Redemption</p>
                                 <p className="text-gray-700 mb-4">
                                     A retail shop owner had multiple business loans that he could no longer service after a competitor move.
                                 </p>
@@ -552,7 +552,7 @@ export default function MSMESettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Settle Your MSME Debt!</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Settle Your MSME Debt!</p>
                                 <p className="text-sm text-gray-600 mb-6">Protect your business assets and negotiate a clean exit from debt with expert professional help.</p>
                                 <Link
                                     href="/contact"
@@ -569,7 +569,7 @@ export default function MSMESettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Business Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Business Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/loan-settlement-for-startup-founders" className="block text-sm text-blue-600 hover:underline">Startup Debt Resolution</Link>
                                     <Link href="/best-lawyer-for-msme-loan-disputes" className="block text-sm text-blue-600 hover:underline">MSME Dispute Help</Link>

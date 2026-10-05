@@ -231,7 +231,7 @@ export default function LoanSettlementNocFormatClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -274,7 +274,7 @@ export default function LoanSettlementNocFormatClient() {
                                 The journey to a debt-free life starts with your "Settlement Proposal." This is a formal letter sent to the Branch Manager or the Head of Recovery. It must be professional, factual, and legally grounded. A casual email or a WhatsApp message to an agent is NOT a proposal.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-mono text-sm leading-relaxed text-blue-900">
-                                <h4 className="font-bold text-lg mb-4 text-center border-b border-blue-200 pb-2">Technical Template: Settlement Request</h4>
+                                <p className="font-bold text-lg mb-4 text-center border-b border-blue-200 pb-2">Technical Template: Settlement Request</p>
                                 <p className="mb-2">To,</p>
                                 <p className="mb-2">The Branch Manager / Nodal Officer,</p>
                                 <p className="mb-2">[Bank Name], [Branch Address]</p>
@@ -426,7 +426,7 @@ export default function LoanSettlementNocFormatClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Technical Drafting</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Technical Drafting</p>
                                 <p className="text-sm text-gray-600 mb-6">Expert drafting for hardship letters, closure requests, and NOC verification.</p>
                                 <Link
                                     href="/contact"
@@ -443,7 +443,7 @@ export default function LoanSettlementNocFormatClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/legal-notice-for-loan-settlement-harassment" className="block text-sm text-blue-600 hover:underline">Harassment Notice</Link>
                                     <Link href="/can-bank-file-case-for-personal-loan" className="block text-sm text-blue-600 hover:underline">Loan Cases in Court</Link>

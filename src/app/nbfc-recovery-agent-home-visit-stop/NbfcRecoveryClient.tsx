@@ -188,7 +188,7 @@ export default function NbfcRecoveryClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -235,7 +235,7 @@ export default function NbfcRecoveryClient() {
                                 To curb these widespread abuses, the Reserve Bank of India (RBI) has issued a comprehensive Fair Practices Code (FPC) alongside stringent guidelines specifically regulating the conduct of Debt Recovery Agents. These rules apply universally to all banks and registered NBFCs operating within Indian jurisdiction. A fundamental principle of these guidelines is that while the lender has the legal right to recover their dues, this recovery must strictly adhere to due process and cannot infringe upon the fundamental rights to privacy and dignity guaranteed by the Constitution.
                             </p>
 
-                            <h3 id="mandatory-intimation" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Mandatory Intimation and Consent</h3>
+                            <h2 id="mandatory-intimation" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Mandatory Intimation and Consent</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most frequently violated rules is the requirement for prior intimation. The RBI guidelines explicitly state that a recovery agent cannot simply appear unannounced at your doorstep. They are legally mandated to contact you beforehand, preferably via a recorded phone line or formal written communication, to request a meeting. More importantly, the time and place of this meeting must be mutually agreed upon. 
                             </p>
@@ -243,7 +243,7 @@ export default function NbfcRecoveryClient() {
                                 If you state that you are only available to meet on Saturday afternoons at a specific coffee shop, the agent cannot legally force their way into your home on a Tuesday morning. If an agent violates this rule, they are committing trespassing. Knowing <Link href="/rbi-rules-for-recovery-agents" className="text-blue-600 hover:underline">rbi rules for recovery agents</Link> is your strongest shield against such intrusions.
                             </p>
 
-                            <h3 id="legal-visiting-hours" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Legal Visiting Hours</h3>
+                            <h2 id="legal-visiting-hours" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Legal Visiting Hours</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To prevent harassment during unreasonable hours, the RBI has defined a strict window for all recovery related communications. Recovery agents are strictly prohibited from making phone calls or conducting physical visits before 07:00 AM and after 07:00 PM. Any contact outside these hours, especially late at night or during the early hours of the morning, is a severe violation. 
                             </p>
@@ -254,33 +254,33 @@ export default function NbfcRecoveryClient() {
                             {/* Section Type: Action Plan */}
                             <h2 id="how-to-handle" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">How to Handle an Unannounced Agent at Your Door</h2>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 mb-8 overflow-hidden">
-                                <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">Your 4-Step Legal Action Plan</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-6 text-center">Your 4-Step Legal Action Plan</p>
                                 <div className="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-blue-300 before:to-transparent">
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">1</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Do Not Allow Entry</h4>
+                                            <p className="font-bold text-gray-900 mb-1">Do Not Allow Entry</p>
                                             <p className="text-sm text-gray-600">Keep the security door closed or speak through a window. An agent has zero legal authority to enter your private property without a court order or your explicit permission.</p>
                                         </div>
                                     </div>
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">2</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Start Video Recording</h4>
+                                            <h3 className="font-bold text-gray-900 mb-1">Start Video Recording</h3>
                                             <p className="text-sm text-gray-600">Immediately turn on your phone camera. Clearly state that you are recording the interaction for legal documentation and your own safety. This instantly changes their aggressive behavior.</p>
                                         </div>
                                     </div>
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">3</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Demand Official Credentials</h4>
+                                            <h3 className="font-bold text-gray-900 mb-1">Demand Official Credentials</h3>
                                             <p className="text-sm text-gray-600">Politely but firmly ask them to hold up their official ID and authorization letter to the camera. Refuse to discuss any financial matters until these documents are verified.</p>
                                         </div>
                                     </div>
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">4</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Call Emergency Services</h4>
+                                            <h3 className="font-bold text-gray-900 mb-1">Call Emergency Services</h3>
                                             <p className="text-sm text-gray-600">If they refuse to leave, start banging on the door, or use abusive language, dial 112 immediately and report an attempted trespass and criminal intimidation by unknown individuals.</p>
                                         </div>
                                     </div>
@@ -374,7 +374,7 @@ export default function NbfcRecoveryClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Are Agents at Your Door?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Are Agents at Your Door?</p>
                                 <p className="text-sm text-gray-600 mb-6">Do not let illegal collection agencies terrorize your family. We can stop them legally.</p>
                                 <Link
                                     href="/contact"
@@ -391,7 +391,7 @@ export default function NbfcRecoveryClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

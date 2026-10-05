@@ -182,7 +182,7 @@ export default function ChequeBounceClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -218,7 +218,7 @@ export default function ChequeBounceClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Did You Know?</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
                 <p className="text-blue-800 m-0">
                   Mere bouncing of a cheque is not an offense. The offense is committed only when the drawer fails to pay the money within 15 days of receiving a formal Legal Demand Notice. This 15 day window is your critical opportunity for settlement.
                 </p>
@@ -233,35 +233,35 @@ export default function ChequeBounceClient() {
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">1</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Presentation & Dishonour</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Presentation & Dishonour</h3>
                     <p className="text-gray-700">The cheque is presented to the bank within 3 months of issue. The bank returns it unpaid with a "Return Memo" stating reasons like "Funds Insufficient" or "Account Closed".</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Legal Demand Notice</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Legal Demand Notice</h3>
                     <p className="text-gray-700">This is the most critical step. The payee MUST send a legal notice to the drawer within 30 days of receiving the Return Memo. The notice must demand the exact cheque amount.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">15-Day Waiting Period</h4>
+                    <h3 className="text-lg font-bold text-gray-900">15-Day Waiting Period</h3>
                     <p className="text-gray-700">The law grants the drawer a grace period of 15 days from the receipt of notice to make the payment and avoid criminal liability.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Filing the Complaint</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Filing the Complaint</h3>
                     <p className="text-gray-700">If payment is not made, a criminal complaint must be filed before the Magistrate within 30 days (now extendable to 3 months) after the 15 day period expires.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">5</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Summons & Evidence</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Summons & Evidence</h3>
                     <p className="text-gray-700">The court issues summons to the accused. If they appear, plea is recorded. Evidence is led by way of affidavit. Cross examination follows.</p>
                   </div>
                 </div>
@@ -305,7 +305,7 @@ export default function ChequeBounceClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="text-blue-600 font-bold mb-2">For Complainants (Payees)</h4>
+                  <h3 className="text-blue-600 font-bold mb-2">For Complainants (Payees)</h3>
                   <ul className="text-sm text-gray-700 space-y-2">
                     <li>v Drafting precise Legal Notices.</li>
                     <li>v Tracing the accused’s assets.</li>
@@ -314,7 +314,7 @@ export default function ChequeBounceClient() {
                   </ul>
                 </div>
                 <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="text-blue-600 font-bold mb-2">For Accused (Drawers)</h4>
+                  <h3 className="text-blue-600 font-bold mb-2">For Accused (Drawers)</h3>
                   <ul className="text-sm text-gray-700 space-y-2">
                     <li>v Analysis of notice defects.</li>
                     <li>v Representation for bail and exemption.</li>
@@ -391,7 +391,7 @@ export default function ChequeBounceClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need a Lawyer?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need a Lawyer?</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal defense for Section 138 cases.</p>
                 <Link 
                   href="/contact"
@@ -406,7 +406,7 @@ export default function ChequeBounceClient() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/anti-harassment" className="text-gray-600 hover:text-blue-600 flex items-center">

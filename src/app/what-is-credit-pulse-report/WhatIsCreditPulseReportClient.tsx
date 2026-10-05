@@ -234,7 +234,7 @@ export default function WhatIsCreditPulseReportClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -323,7 +323,7 @@ export default function WhatIsCreditPulseReportClient() {
                             {/* Comparison Table / Cards Visual Section */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="bg-white p-8 rounded-3xl border border-blue-100 shadow-lg group hover:bg-blue-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-blue-800 group-hover:text-white transition-all tracking-tight uppercase">Traditional Credit Score</h4>
+                                    <p className="text-xl font-bold mb-3 text-blue-800 group-hover:text-white transition-all tracking-tight uppercase">Traditional Credit Score</p>
                                     <ul className="space-y-3 text-sm text-gray-600 group-hover:text-blue-50 transition-all font-light list-disc pl-4">
                                         <li><strong>Frequency:</strong> Updates every 30 to 45 days based on batch reporting.</li>
                                         <li><strong>Nature of Data:</strong> Historical. Focuses exclusively on past payment behavior.</li>
@@ -332,7 +332,7 @@ export default function WhatIsCreditPulseReportClient() {
                                     </ul>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-red-100 shadow-lg group hover:bg-red-700 transition-all duration-500">
-                                    <h4 className="text-xl font-bold mb-3 text-red-800 group-hover:text-white transition-all tracking-tight uppercase">Credit Pulse Report</h4>
+                                    <p className="text-xl font-bold mb-3 text-red-800 group-hover:text-white transition-all tracking-tight uppercase">Credit Pulse Report</p>
                                     <ul className="space-y-3 text-sm text-gray-600 group-hover:text-red-50 transition-all font-light list-disc pl-4">
                                         <li><strong>Frequency:</strong> Real time continuous monitoring and instant alerts.</li>
                                         <li><strong>Nature of Data:</strong> Predictive. Analyzes behavioral shifts and transactional velocity.</li>
@@ -385,10 +385,10 @@ export default function WhatIsCreditPulseReportClient() {
                             {/* Checklist Visual Section */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <h3 className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Preemptive Action Checklist:
-                                </h4>
+                                </h3>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Spread the Utilization:</strong> If you need to make a large purchase, spread the balance across multiple credit cards rather than maximizing a single card. The algorithm penalizes one card at ninety percent utilization far more harshly than three cards at thirty percent.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Avoid the Cash Advance Trap:</strong> Never use a credit card for ATM cash withdrawals. If liquidity is required, opt for a formal personal loan or liquidating an investment. The cash advance is the ultimate red flag.</li>
@@ -415,7 +415,7 @@ export default function WhatIsCreditPulseReportClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 9: Case Studies: Real-Time Monitoring Interventions</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The Business Owner's Frozen Line</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The Business Owner's Frozen Line</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A small business owner in Delhi utilized a personal credit card to fund a temporary supply chain gap, maxing out the card. Within forty eight hours, his primary business bank, sensing extreme risk via the Credit Pulse network, froze his critical working capital overdraft facility.
                                     </p>
@@ -424,7 +424,7 @@ export default function WhatIsCreditPulseReportClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Cascading Default Prevention</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Cascading Default Prevention</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A salaried professional missed a minor utility payment due to a technical glitch. The pulse report flagged this, and her primary bank subsequently rejected a pre approved car loan application, citing "recent behavioral delinquency."
                                     </p>
@@ -504,7 +504,7 @@ export default function WhatIsCreditPulseReportClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Algorithm Unfair?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Algorithm Unfair?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can intervene legally to stop automated credit limit reductions today.</p>
                                 <Link
                                     href="/contact"
@@ -522,7 +522,7 @@ export default function WhatIsCreditPulseReportClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/check-free-cibil-score" className="block text-sm text-blue-600 hover:underline">Monitor CIBIL Score</Link>
                                     <Link href="/how-to-improve-cibil-score" className="block text-sm text-blue-600 hover:underline">Improve Your Credit</Link>

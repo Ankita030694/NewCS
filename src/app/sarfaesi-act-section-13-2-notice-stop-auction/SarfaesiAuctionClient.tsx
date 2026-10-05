@@ -204,7 +204,7 @@ export default function SarfaesiAuctionClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -243,7 +243,7 @@ export default function SarfaesiAuctionClient() {
                             </p>
                             
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Legal Timeline: The SARFAESI Process</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4 text-center">Legal Timeline: The SARFAESI Process</p>
                                 <div className="space-y-4">
                                     <div className="flex flex-col md:flex-row bg-white p-4 rounded-xl shadow-sm border border-gray-200">
                                         <div className="md:w-1/4 font-bold text-blue-900 mb-2 md:mb-0">Day 1 to 90</div>
@@ -331,10 +331,10 @@ export default function SarfaesiAuctionClient() {
                                 <h3 className="text-xl font-bold text-gray-900 mb-6">Do's and Don'ts During SARFAESI Action</h3>
                                 
                                 <div className="mb-6">
-                                    <h4 className="text-lg font-bold text-green-700 mb-3 flex items-center">
+                                    <h3 className="text-lg font-bold text-green-700 mb-3 flex items-center">
                                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                                         Do's (Crucial Actions)
-                                    </h4>
+                                    </h3>
                                     <ul className="list-disc pl-6 space-y-2 text-gray-700">
                                         <li>Always accept the 13(2) notice from the postman. Refusing delivery is considered legally valid service by the courts.</li>
                                         <li>Note the exact date of receipt and keep the envelope safe.</li>
@@ -345,10 +345,10 @@ export default function SarfaesiAuctionClient() {
                                 </div>
                                 
                                 <div>
-                                    <h4 className="text-lg font-bold text-red-700 mb-3 flex items-center">
+                                    <h3 className="text-lg font-bold text-red-700 mb-3 flex items-center">
                                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" /></svg>
                                         Don'ts (Fatal Mistakes)
-                                    </h4>
+                                    </h3>
                                     <ul className="list-disc pl-6 space-y-2 text-gray-700">
                                         <li>Do not ignore the notice hoping the bank will forget about it. They will not.</li>
                                         <li>Do not file a case in a regular civil court; it will be dismissed, wasting precious time and money.</li>
@@ -436,7 +436,7 @@ export default function SarfaesiAuctionClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Urgent DRT Stay</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Urgent DRT Stay</p>
                                 <p className="text-sm text-gray-600 mb-6">Has the bank issued a possession notice? We file Section 17 applications swiftly.</p>
                                 <Link
                                     href="/contact"
@@ -453,7 +453,7 @@ export default function SarfaesiAuctionClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-the-success-rate-of-debt-settlement-programs" className="block text-sm text-blue-600 hover:underline">Settlement Success Rate</Link>
                                     <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="block text-sm text-blue-600 hover:underline">Is Settlement Right?</Link>

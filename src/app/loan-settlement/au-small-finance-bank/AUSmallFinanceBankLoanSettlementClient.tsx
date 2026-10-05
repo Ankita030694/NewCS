@@ -186,7 +186,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -275,7 +275,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
               </ul>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                 <h4 className="font-bold text-blue-900 mb-2">MSME Loan Settlement</h4>
+                 <h3 className="font-bold text-blue-900 mb-2">MSME Loan Settlement</h3>
                  <p className="text-blue-800 m-0">
                    AU Bank has a specific Board-approved policy for MSME settlements. They may require an upfront payment of **25%** of the settlement amount to process the proposal. The remaining balance typically needs to be paid within 3 months.
                  </p>
@@ -286,28 +286,28 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Case Evaluation</h4>
+                    <h3 className="font-bold text-gray-900">Case Evaluation</h3>
                     <p className="text-gray-600 mt-1">Review your total outstanding, including penalties. Gather proofs of your financial hardship (termination letter, medical reports).</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Legal Shielding</h4>
+                    <h3 className="font-bold text-gray-900">Legal Shielding</h3>
                     <p className="text-gray-600 mt-1">If recovery agents are harassing you, engage a legal firm like CredSettle. We inform the bank that we represent you, which stops direct harassment.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Proposal Submission</h4>
+                    <h3 className="font-bold text-gray-900">Proposal Submission</h3>
                     <p className="text-gray-600 mt-1">Submit a formal written proposal. Do not rely on verbal negotiations with field agents. The proposal must go to the Credit Manager.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Negotiation & Approval</h4>
+                    <h3 className="font-bold text-gray-900">Negotiation & Approval</h3>
                     <p className="text-gray-600 mt-1">The bank will counter-offer. Skilled negotiation is key here to maximize waivers. Once agreed, get the <strong>Settlement Letter</strong>.</p>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-gray-200 rounded-xl overflow-hidden mb-10">
                 <div className="bg-gray-50 p-6 border-b md:border-b-0 md:border-r border-gray-200">
-                  <h4 className="font-bold text-red-600 mb-2 text-xl">Written Off</h4>
+                  <h3 className="font-bold text-red-600 mb-2 text-xl">Written Off</h3>
                   <p className="text-gray-900 font-medium mb-4">(Dangerous)</p>
                   <ul className="list-disc pl-5 space-y-2 text-sm text-gray-600">
                     <li>Bank considers money "unrecoverable" but <strong>keeps legal rights</strong>.</li>
@@ -346,7 +346,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
                   </ul>
                 </div>
                 <div className="bg-blue-50 p-6">
-                  <h4 className="font-bold text-blue-600 mb-2 text-xl">Settled</h4>
+                  <h3 className="font-bold text-blue-600 mb-2 text-xl">Settled</h3>
                   <p className="text-gray-900 font-medium mb-4">(Safe Exit)</p>
                   <ul className="list-disc pl-5 space-y-2 text-sm text-gray-600">
                     <li>Loan is officially <strong>CLOSED</strong>.</li>
@@ -408,19 +408,19 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
               <h2 id="why-choose-us" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why Choose CredSettle?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Bank-Level Negotiation</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Bank-Level Negotiation</h3>
                   <p className="text-sm text-gray-600">We deal directly with the credit and legal teams, not just the call center.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Arbitration Defense</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Arbitration Defense</h3>
                   <p className="text-sm text-gray-600">Our lawyers handle the online arbitration hearings for you.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">No Harassment</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">No Harassment</h3>
                   <p className="text-sm text-gray-600">We legally mandate all communication to be routed through us.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Pay Only If You save</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Pay Only If You save</h3>
                   <p className="text-sm text-gray-600">Our success fee matches your savings. No risk to you.</p>
                 </div>
               </div>
@@ -465,7 +465,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-purple-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop AU Bank Action?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Stop AU Bank Action?</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal support to settle your loan.</p>
                 <Link 
                   href="/contact"
@@ -481,7 +481,7 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/business-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">

@@ -233,7 +233,7 @@ export default function AuctionSettlementProcessClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -290,7 +290,7 @@ export default function AuctionSettlementProcessClient() {
                             <div className="bg-red-50 border-l-8 border-red-600 p-6 rounded-r-2xl mb-10 shadow-lg">
                                 <div className="flex items-center mb-4">
                                     <svg className="w-8 h-8 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
-                                    <h3 className="text-2xl font-bold text-red-900 m-0">Emergency Action Required: Have You Received an E Auction Notice?</h3>
+                                    <p className="text-2xl font-bold text-red-900 m-0">Emergency Action Required: Have You Received an E Auction Notice?</p>
                                 </div>
                                 <p className="text-red-800 mb-4 font-medium">
                                     If your property has been listed for an e auction, the clock is ticking. You must act immediately. Ignoring the notice will result in the loss of your asset at a severely discounted price.
@@ -314,10 +314,10 @@ export default function AuctionSettlementProcessClient() {
                             {/* VISUAL SECTION 2: FLOWCHART TIMELINE */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h3 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     The SARFAESI Timeline:
-                                </h3>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. NPA Declaration:</strong> 90 Days Default. The beginning of the legal classification.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Sec 13(2) Notice:</strong> 60 Days to Pay. The formal demand from the bank.</li>
@@ -345,7 +345,7 @@ export default function AuctionSettlementProcessClient() {
 
                             {/* VISUAL SECTION 3: COMPARISON TABLE */}
                             <div className="mb-12 overflow-x-auto">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Bank Perspective: Auction vs. One Time Settlement (OTS)</h3>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 text-center">Bank Perspective: Auction vs. One Time Settlement (OTS)</p>
                                 <table className="w-full text-left border-collapse bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-200">
                                     <thead>
                                         <tr className="bg-gray-100">
@@ -424,7 +424,7 @@ export default function AuctionSettlementProcessClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 7: Client Triumphs: Stopping the Hammer</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 1: The Commercial Property Rescue</h4>
+                                    <p className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 1: The Commercial Property Rescue</p>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A logistics company had defaulted on a 3 Crore loan against their warehouse. The bank issued the e auction notice with a reserve price of 2.5 Crores. The auction was just 12 days away. The client was paralyzed with fear.
                                     </p>
@@ -433,7 +433,7 @@ export default function AuctionSettlementProcessClient() {
                                     </p>
                                 </div>
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Family Home Saved</h4>
+                                    <p className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Family Home Saved</p>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A family had received a physical possession notice for their residential home due to a business failure. The bank was threatening to throw their belongings on the street within a week to prepare for the auction.
                                     </p>
@@ -513,7 +513,7 @@ export default function AuctionSettlementProcessClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-3xl shadow-md border border-gray-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Auction?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Auction?</p>
                                 <p className="text-sm text-gray-600 mb-6 leading-relaxed px-2">We can secure a DRT stay and force the bank into a settlement negotiation.</p>
                                 <Link
                                     href="/contact"
@@ -531,7 +531,7 @@ export default function AuctionSettlementProcessClient() {
 
                             {/* Related Expertise Card */}
                             <div className="bg-gray-50 p-6 rounded-3xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-4 text-center">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-4 text-center">Related Expertise</p>
                                 <nav className="space-y-4 mt-4">
                                     <Link href="/best-lawyer-for-home-loan-settlement" className="block text-sm text-blue-500 hover:text-blue-700 transition-colors">Home Loan Defense</Link>
                                     <Link href="/best-lawyer-for-loan-against-property-settlement" className="block text-sm text-blue-500 hover:text-blue-700 transition-colors">LAP Settlement</Link>

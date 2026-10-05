@@ -70,7 +70,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-blue-950 mb-2">The Golden Rule: Written Approval First</h4>
+              <h3 className="font-bold text-blue-950 mb-2">The Golden Rule: Written Approval First</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Never transfer money based on verbal promises or WhatsApp messages. Ensure you hold a physical or cryptographically signed One-Time Settlement (OTS) sanction letter on the bank&apos;s official letterhead with the authorized signatory&apos;s employee code.
               </p>
@@ -101,7 +101,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Let Senior Advocates Negotiate Your Debt</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Let Senior Advocates Negotiate Your Debt</h3>
               <p className="mb-4 text-sm text-gray-600">CredSettle provides institutional legal backing to stop harassment and achieve maximum waivers on your personal loans.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get a Free Negotiation Evaluation

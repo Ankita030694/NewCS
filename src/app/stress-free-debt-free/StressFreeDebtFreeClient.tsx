@@ -177,7 +177,7 @@ export default function StressFreeDebtFreeClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -312,7 +312,7 @@ export default function StressFreeDebtFreeClient() {
                 </p>
 
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 my-10">
-                  <h4 className="font-bold text-red-900 text-base mb-6">The Red Flags List: Tactics to Avoid at All Costs</h4>
+                  <h3 className="font-bold text-red-900 text-base mb-6">The Red Flags List: Tactics to Avoid at All Costs</h3>
                   <ul className="list-none space-y-6">
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-red-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path></svg>
@@ -380,7 +380,7 @@ export default function StressFreeDebtFreeClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-yellow-400">Success Story: Breaking the Cycle of Fear</h4>
+                    <h3 className="text-base font-bold mb-8 text-yellow-400">Success Story: Breaking the Cycle of Fear</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-yellow-400">The Situation:</strong> Anjali, a freelance designer from Bangalore, accumulated massive credit card debt across four different banks to sustain her family during the pandemic lockdowns. By 2024, her total outstanding reached eight lakhs, and the compound interest made the minimum payments impossible.</p>
@@ -436,7 +436,7 @@ export default function StressFreeDebtFreeClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Kunal Verma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Kunal Verma</h4>
+                <p className="font-bold text-gray-900">Kunal Verma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior SEO Specialist & Debt Advisor</p>
                 <p className="text-xs text-gray-400">Expert in structuring legal pathways for distressed borrowers to achieve complete financial freedom without harassment.</p>
               </div>

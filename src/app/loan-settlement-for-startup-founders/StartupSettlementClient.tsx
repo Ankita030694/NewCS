@@ -283,7 +283,7 @@ export default function StartupSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Founder Roadmap</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Founder Roadmap</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -346,7 +346,7 @@ export default function StartupSettlementClient() {
                                 A personal guarantee effectively bypasses the limited liability of your company. It turns a business debt into a personal obligation. This is why founders often find their personal assets under threat even if the startup was a legitimate Private Limited entity. Lenders prefer PGs because they provide a powerful psychological leverage. They know a founder will go to any length to protect their family home or personal credit score.
                             </p>
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-6 font-light">
-                                <h3 className="text-xl font-bold text-gray-900 mb-3">Understanding the Risks of Personal Guarantees:</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-3">Understanding the Risks of Personal Guarantees:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Direct Recovery:</strong> Under Indian law, the lender does not necessarily have to finish selling all company assets before coming after you. They can pursue the guarantor and the principal debtor simultaneously.</li>
                                     <li><strong>The CIBIL Link:</strong> Once you sign a guarantee, the loan is linked to your personal PAN card. Any default by the startup reflects on your personal credit history, making it impossible for you to even take a home loan.</li>
@@ -485,19 +485,19 @@ export default function StartupSettlementClient() {
                                 Managing a startup default is a full time job that requires legal, financial, and psychological expertise. Most founders are too emotionally involved to negotiate effectively. This is where professional partners become invaluable.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></p>
                                 <p className="text-gray-800 mb-4">
                                     AMA Legal Solutions provides the "Legal Fortress." They defend founders against "Wilful Defaulter" tags, challenge unlawful recovery practices, and conduct the legal audits that identify unauthorized bank charges. They ensure that your settlement is legally watertight and that you are protected from any "Double Jeopardy" where a bank tries to recover again after a settlement.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></p>
                                 <p className="text-gray-800 mb-4">
                                     CredSettle provides the "Negotiation Command." They act as your proxy, dealing with the bank’s recovery agents and senior managers. They know which bank is more likely to accept a waiver and how to structure a payment plan that fits your current financial reality. They take the "Stigma" and the "Stress" out of the room, allowing for a pure financial negotiation.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></p>
                                 <p className="text-gray-800 mb-4">
                                     SettleLoans provides the "Digital Transparency." Their tools help you build your Hardship Dossier and track your settlement progress in real time. They provide the "Data Evidence" that bridges the gap between your story and the bank’s spreadsheet. They ensure that every step of your reset is documented and verifiable.
                                 </p>
@@ -508,7 +508,7 @@ export default function StartupSettlementClient() {
                                 Here are two real world examples of founders who managed a strategic reset:
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The E-commerce Pivot</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The E-commerce Pivot</p>
                                 <p className="text-gray-700 mb-4">
                                     An e-commerce founder had 1.5 crores in debt. When the warehouse fire wasn’t fully covered by insurance, the company folded. The banks were pursuing her personal apartment through a Personal Guarantee.
                                 </p>
@@ -517,7 +517,7 @@ export default function StartupSettlementClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The Tech-Ed Reset</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The Tech-Ed Reset</p>
                                 <p className="text-gray-700 mb-4">
                                     A founder of a tech ed platform found himself with 80 lakhs of personal debt taken to pay employee salaries during a pivot. When the pivot failed, he was in a debt trap.
                                 </p>
@@ -595,7 +595,7 @@ export default function StartupSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Settle Startup Debt!</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Settle Startup Debt!</p>
                                 <p className="text-sm text-gray-600 mb-6">Protect your personal assets and negotiate a clean exit from business debt with expert help.</p>
                                 <Link
                                     href="/contact"
@@ -612,7 +612,7 @@ export default function StartupSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Resource Center</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Resource Center</p>
                                 <nav className="space-y-3">
                                     <Link href="/loan-settlement-for-self-employed" className="block text-sm text-blue-600 hover:underline">Self-Employed Debt</Link>
                                     <Link href="/best-lawyer-for-msme-loan-disputes" className="block text-sm text-blue-600 hover:underline">MSME Dispute Help</Link>

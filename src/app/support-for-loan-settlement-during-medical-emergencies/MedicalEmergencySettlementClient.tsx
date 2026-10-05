@@ -198,7 +198,7 @@ export default function MedicalEmergencySettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a
@@ -248,7 +248,7 @@ export default function MedicalEmergencySettlementClient() {
                   This legal foundation is critical because it gives you leverage. In any negotiation, the "Moral High Ground" is a strategic asset. By reminding a lender that your current inability to pay is a result of a medical catastrophe, you are invoking a level of protection that transcends the fine print of a loan agreement. The courts have often stepped in to protect borrowers whose lives were being endangered by the stress of illegal recovery tactics during illness.
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
-                  <h4 className="font-bold text-blue-900 mb-2 text-lg">Key Legal Principles:</h4>
+                  <h3 className="font-bold text-blue-900 mb-2 text-lg">Key Legal Principles:</h3>
                   <ul className="list-disc pl-5 space-y-2">
                     <li><strong>Doctrine of Necessity:</strong> Law recognizes that physical survival takes precedence over contractual obligations in extremes.</li>
                     <li><strong>Consumer Protection Act 2019:</strong> Ignoring a genuine medical plea can be seen as an "Unfair Trade Practice."</li>
@@ -468,7 +468,7 @@ export default function MedicalEmergencySettlementClient() {
 
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Medical Debt Relief</h4>
+                <p className="font-bold text-2xl mb-4">Medical Debt Relief</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing overwhelming bills due to a health crisis? We can help you negotiate.</p>
                 <Link
                   href="/contact"
@@ -494,7 +494,7 @@ export default function MedicalEmergencySettlementClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/how-to-handle-recovery-agent-harrasment" className="group flex items-start">

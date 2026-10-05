@@ -343,7 +343,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Complaint Engine</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Complaint Engine</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -418,7 +418,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
                                 While the RBI handles the "Banking Audit" part, the police handle the "Criminality" part. If an agent threatens you physically, uses abusive language, or enters your house without permission, it moves from a banking dispute to a crime.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4 font-bold uppercase tracking-wider">Crucial IPC Sections for Harassment:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4 font-bold uppercase tracking-wider">Crucial IPC Sections for Harassment:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex gap-3">
                                         <span className="text-blue-600 font-bold">!</span>
@@ -567,7 +567,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Fight Back Legally</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Fight Back Legally</p>
                                 <p className="text-sm text-gray-600 mb-6">We draft your complaints to Banks and the RBI. Force a fair settlement now.</p>
                                 <Link
                                     href="/contact"
@@ -584,7 +584,7 @@ export default function BankRecoveryHarassmentComplaintClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Emergency Hub</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Emergency Hub</p>
                                 <nav className="space-y-3">
                                     <Link href="/recovery-agents-threatening-me-what-to-do" className="block text-sm text-blue-600 hover:underline">Agents at My Door?</Link>
                                     <Link href="/rbi-new-recovery-guidelines-july-2026" className="block text-sm text-blue-600 hover:underline">New RBI Rules 2026</Link>

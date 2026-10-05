@@ -189,7 +189,7 @@ export default function IciciCreditCardSettlementClient() {
 
             
 
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -268,13 +268,13 @@ export default function IciciCreditCardSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                   <div className="bg-green-50 p-8 rounded-2xl border border-green-200">
-                    <h4 className="font-bold text-green-900 text-base mb-4">Account Closure</h4>
+                    <h3 className="font-bold text-green-900 text-base mb-4">Account Closure</h3>
                     <p className="text-gray-800 text-base">
                       Closure occurs when you repay the entire outstanding balance, including the principal, all accrued interest, and any associated late fees. The bank issues a No Objection Certificate (NOC), and your credit report marks the account as "Closed" with a zero balance. This positive status maintains or improves your credit score, indicating to future lenders that you honor your financial commitments fully.
                     </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                    <h4 className="font-bold text-red-900 text-base mb-4">Account Settlement</h4>
+                    <h3 className="font-bold text-red-900 text-base mb-4">Account Settlement</h3>
                     <p className="text-gray-800 text-base">
                       Settlement occurs when the bank agrees to accept a lesser amount than what is actually owed, forgiving the remaining balance. While this relieves your immediate financial burden and stops the collection calls, the bank reports this event to the credit bureaus. Your credit report will reflect a "Settled" status. This acts as a severe red flag to future lenders, dramatically lowering your credit score and making it extremely difficult to obtain loans or credit cards for several years.
                     </p>
@@ -291,7 +291,7 @@ export default function IciciCreditCardSettlementClient() {
                 </p>
                 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base   mb-8 border-b-2 border-blue-100 pb-2">The Resolution Timeline Checklist</h4>
+                  <h3 className="font-bold text-blue-900 text-base   mb-8 border-b-2 border-blue-100 pb-2">The Resolution Timeline Checklist</h3>
                   
                   <div className="flex mb-8">
                     <div className="flex flex-col items-center mr-6">
@@ -299,7 +299,7 @@ export default function IciciCreditCardSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Assess and Accumulate</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Assess and Accumulate</h3>
                       <p className="text-gray-700">Before initiating any dialogue, you must calculate exactly how much you can afford to pay in a lump sum. Do not offer money you do not possess. Begin setting aside funds immediately. A One-Time Settlement requires you to make a significant payment promptly once the agreement is signed.</p>
                     </div>
                   </div>
@@ -310,7 +310,7 @@ export default function IciciCreditCardSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Draft the Hardship Letter</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Draft the Hardship Letter</h3>
                       <p className="text-gray-700">Write a formal letter or email to the bank's grievance redressal department. Detail your financial situation explicitly. Attach verifiable proof, such as medical records or a termination letter. State clearly that you intend to resolve the debt but are currently incapacitated by your financial circumstances.</p>
                     </div>
                   </div>
@@ -321,7 +321,7 @@ export default function IciciCreditCardSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Engage in Negotiation</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Engage in Negotiation</h3>
                       <p className="text-gray-700">The bank will respond with an initial counteroffer, which will likely demand a very high percentage of the outstanding balance. Do not accept the first offer. Counter their proposal by reiterating your inability to pay and offering your accumulated lump sum. This back and forth process can take several weeks.</p>
                     </div>
                   </div>
@@ -332,7 +332,7 @@ export default function IciciCreditCardSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Secure Written Confirmation</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Secure Written Confirmation</h3>
                       <p className="text-gray-700">Never make a payment based on a verbal promise from a collection agent. You must demand a formal Settlement Letter issued on the bank's official letterhead. This document must clearly state your account number, the agreed settlement amount, the payment deadline, and an explicit promise that the account will be marked as settled upon receipt of funds.</p>
                     </div>
                   </div>
@@ -342,7 +342,7 @@ export default function IciciCreditCardSettlementClient() {
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-base shadow-lg z-10">5</div>
                     </div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Execute Payment and Retain Records</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Execute Payment and Retain Records</h3>
                       <p className="text-gray-700">Make the payment strictly through traceable banking channels like NEFT or RTGS before the stipulated deadline. Retain the transaction reference number. Store the Settlement Letter and the payment receipt in a secure location indefinitely, as you may need to produce them if the debt is accidentally sold to another collection agency in the future.</p>
                     </div>
                   </div>
@@ -399,7 +399,7 @@ export default function IciciCreditCardSettlementClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold   mb-8  text-yellow-400">The Anatomy of a 70% Waiver</h4>
+                    <h3 className="text-base font-bold   mb-8  text-yellow-400">The Anatomy of a 70% Waiver</h3>
                     
                     <div className="space-y-6 text-base ">
                       <p><strong className="text-yellow-400">The Subject:</strong> Mr. Rajesh Desai, a mid-level IT professional in Pune.</p>
@@ -493,7 +493,7 @@ export default function IciciCreditCardSettlementClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rohan Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Rohan Sharma</h4>
+                <p className="font-bold text-gray-900">Rohan Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400 ">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

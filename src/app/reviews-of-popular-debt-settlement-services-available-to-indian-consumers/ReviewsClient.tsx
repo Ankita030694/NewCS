@@ -228,7 +228,7 @@ export default function ReviewsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Review Index</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Review Index</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -299,7 +299,7 @@ export default function ReviewsClient() {
                   Customer support at CredSettle is another area where they excel. They assign a dedicated case manager to each client, providing a single point of contact for all queries. This personalized attention in a digital environment is highly valued by users. Their reviews often mention the patience and professionalism of the staff. While no service can guarantee a specific outcome, CredSettle’s structured approach minimizes uncertainty and provides a clear roadmap to a debt-free life.
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600 my-6">
-                  <h4 className="font-bold text-blue-900 mb-2">Why CredSettle Ranks Top:</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Why CredSettle Ranks Top:</h3>
                   <ul className="list-disc pl-5 space-y-2 text-gray-800">
                     <li>Advanced tech platform for real-time tracking of negotiations.</li>
                     <li>Powerful legal shield against recovery agent harassment.</li>
@@ -322,7 +322,7 @@ export default function ReviewsClient() {
                   However, traditional litigation law firms frequently lack specialized financial negotiators who understand bank-internal NPA provisioning matrices. While a lawyer can defend you against criminal liability in a cheque bounce case, they may not actively negotiate the maximum principal haircut (30% to 75%) with the bank's Zonal Settlement Committee. This is why hybrid platforms like <strong>CredSettle</strong>, which integrate dedicated advocates with veteran banking recovery managers, provide a more complete and cost-effective outcome for consumer borrowers.
                 </p>
                 <div className="bg-gray-50 p-6 rounded-2xl border-l-4 border-gray-600 my-6">
-                  <h4 className="font-bold text-gray-900 mb-2">Traditional Legal Route Features:</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Traditional Legal Route Features:</h3>
                   <ul className="list-disc pl-5 space-y-2 text-gray-800">
                     <li>Direct courtroom representation for Section 138 and DRT proceedings.</li>
                     <li>Expert drafting of formal rejoinders to bank demand notices.</li>
@@ -348,7 +348,7 @@ export default function ReviewsClient() {
                   Reviews for SettleLoans often mention the kindness and supportiveness of the counselors. Clients feel heard and understood, which is a rare experience when dealing with debt. They are particularly popular among middle-class families who are struggling with multiple small-to-medium loans. By providing a clear plan and emotional support, SettleLoans helps these families navigate the difficult journey to debt freedom with dignity and confidence.
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-400 my-6">
-                  <h4 className="font-bold text-blue-900 mb-2">SettleLoans Highlights:</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">SettleLoans Highlights:</h3>
                   <ul className="list-disc pl-5 space-y-2 text-gray-800">
                     <li>Empathetic, counselor-led approach to debt relief.</li>
                     <li>Customized debt management and budgeting plans.</li>
@@ -546,7 +546,7 @@ export default function ReviewsClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Start Your Journey to a Debt-Free Life</h2>
+                  <h3 className="text-3xl font-bold mb-4">Start Your Journey to a Debt-Free Life</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don’t let overwhelming debt control your future. Get a free consultation from our experts and find the best settlement path for your situation.</p>
                   <Link 
                     href="/contact"
@@ -581,7 +581,7 @@ export default function ReviewsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Debt Relief Help</h4>
+                <p className="font-bold text-2xl mb-4">Debt Relief Help</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing harassment from banks? We can help you settle your debt for up to 50% less.</p>
                 <Link 
                   href="/contact"
@@ -606,7 +606,7 @@ export default function ReviewsClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Our Key Services</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Our Key Services</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/services/credit-card-settlement" className="group flex items-start">

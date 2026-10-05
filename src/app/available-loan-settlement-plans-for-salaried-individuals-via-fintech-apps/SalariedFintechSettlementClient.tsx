@@ -279,7 +279,7 @@ export default function SalariedFintechSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Salaried Shield</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Salaried Shield</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -386,21 +386,21 @@ export default function SalariedFintechSettlementClient() {
                             </p>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">1. <Link href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AMA Legal Solutions</Link></h3>
+                                <p className="text-2xl font-bold text-gray-900 mb-4">1. <Link href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AMA Legal Solutions</Link></p>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
                                     AMA Legal Solutions provides the legal muscle required to deal with recalcitrant banks. They handle "Legal Responses," represent you in Lok Adalats, and ensure that the bank doesn’t use "Unfair Practices" during the settlement journey. Their involvement often leads to faster approvals as banks treat legal firms with more respect than individual borrowers.
                                 </p>
                             </div>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">2. <Link href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">CredSettle</Link></h3>
+                                <p className="text-2xl font-bold text-gray-900 mb-4">2. <Link href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">CredSettle</Link></p>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
                                     CredSettle offers a data driven approach to settlement. They provide a "Unified Dashboard" that helps salaried professionals track their progress, see potential savings, and communicate with expert negotiators in real time. Their platform is designed for the modern, tech savvy employee who wants transparency and efficiency.
                                 </p>
                             </div>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">3. <Link href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">SettleLoans</Link></h3>
+                                <p className="text-2xl font-bold text-gray-900 mb-4">3. <Link href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">SettleLoans</Link></p>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
                                     SettleLoans focuses on personalized settlement strategies. They understand that a software engineer’s debt crisis is different from a retail employee’s crisis. They tailor the "Hardship Narrative" to fit your specific professional background, ensuring the most favorable outcome from the bank.
                                 </p>
@@ -525,7 +525,7 @@ export default function SalariedFintechSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Salaried Debt Relief</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Salaried Debt Relief</p>
                                 <p className="text-sm text-gray-600 mb-6">Expert digital plans for professionals in debt.</p>
                                 <Link
                                     href="/contact"
@@ -542,7 +542,7 @@ export default function SalariedFintechSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-are-the-interest-savings-by-settling-loans-early-through-digital-services" className="block text-sm text-blue-600 hover:underline">Interest Savings Guide</Link>
                                     <Link href="/are-there-specialized-programs-for-settling-student-loan-defaults-in-india" className="block text-sm text-blue-600 hover:underline">Student Loan Guide</Link>

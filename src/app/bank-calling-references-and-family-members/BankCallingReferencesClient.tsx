@@ -186,7 +186,7 @@ export default function BankCallingReferencesClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -696,7 +696,7 @@ export default function BankCallingReferencesClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-6">
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Harassment Protection</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Harassment Protection</p>
                 <p className="text-sm text-gray-600 mb-6">Stop illegal phone calls to your loved ones within 24 hours.</p>
                 <Link 
                   href="/contact"

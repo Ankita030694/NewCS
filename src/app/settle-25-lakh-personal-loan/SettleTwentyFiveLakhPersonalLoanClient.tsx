@@ -884,9 +884,9 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
                 <span className="text-[10px] font-black uppercase text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL DEBT RELIEF
                 </span>
-                <h3 className="text-base font-bold text-white leading-snug">
+                <p className="text-base font-bold text-white leading-snug">
                   Defaulting on a ₹25 Lakh Personal Loan?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs leading-relaxed font-normal">
                   Our debt resolution experts negotiate directly with bank credit committees to stop litigation, secure a 45% to 60% loan waiver, and protect your assets.
                 </p>
@@ -907,7 +907,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-xs">The CredSettle Advantage</p>
               <ul className="space-y-1.5 text-slate-600 text-[11px]">
                 <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>Zero Upfront Risk:</strong> Success-linked fee model.</span></li>
                 <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>Direct Remittance:</strong> Zero middleman fund holding.</span></li>
@@ -918,7 +918,7 @@ export default function SettleTwentyFiveLakhPersonalLoanClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs">Related Debt Guides</h4>
+              <p className="font-bold text-slate-900 text-xs">Related Debt Guides</p>
               <div className="space-y-1.5">
                 <Link href="/services/personal-loan-settlement" className="block p-2 rounded-xl border border-slate-100 hover:bg-blue-50/50 text-[11px] font-bold text-slate-800 hover:text-[#1886ff]">
                   Personal Loan Settlement Services &rarr;

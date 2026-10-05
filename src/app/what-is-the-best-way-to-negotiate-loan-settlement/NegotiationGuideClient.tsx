@@ -292,7 +292,7 @@ export default function NegotiationGuideClient() {
           <aside className="lg:w-[15%] hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-[0_4px_16px_-8px_rgba(0,0,0,0.1)]">
-                <h3 className="font-bold text-gray-900 mb-5 text-xs uppercase tracking-widest text-blue-600">Guide Index</h3>
+                <p className="font-bold text-gray-900 mb-5 text-xs uppercase tracking-widest text-blue-600">Guide Index</p>
                 <nav className="space-y-2">
                   {navLinks.map((link) => (
                     <a 
@@ -355,11 +355,11 @@ export default function NegotiationGuideClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                   <div className="p-6 bg-red-50 rounded-3xl border border-red-100">
-                    <h4 className="font-bold text-red-900 mb-4 uppercase tracking-wider text-xs">Worst Time to Settle</h4>
+                    <h3 className="font-bold text-red-900 mb-4 uppercase tracking-wider text-xs">Worst Time to Settle</h3>
                     <p className="text-red-800 text-lg">Before missed payments or during the first 30 days. The bank still has hope for full recovery.</p>
                   </div>
                   <div className="p-6 bg-green-50 rounded-3xl border border-green-100">
-                    <h4 className="font-bold text-green-900 mb-4 uppercase tracking-wider text-xs">Best Time to Settle</h4>
+                    <h3 className="font-bold text-green-900 mb-4 uppercase tracking-wider text-xs">Best Time to Settle</h3>
                     <p className="text-green-800 text-lg">Between 90 to 180 days (NPA status). The bank’s provisioning pressure makes them flexible.</p>
                   </div>
                 </div>
@@ -431,7 +431,7 @@ export default function NegotiationGuideClient() {
                     <strong>Section 13(2) - The 60-Day Opportunity:</strong> When you receive this notice, the bank is giving you 60 days to pay or record your objection. The best way to negotiate loan settlement is to file a formal "Representation and Objection" within 15 days of receiving the notice. By law, the bank MUST respond to your objection within 15 days. If they don’t, the entire recovery process can be challenged in the DRT. Use this time to propose a One-Time Settlement (OTS).
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
-                    <h4 className="font-bold text-blue-900 mb-3">Critical Tip:</h4>
+                    <h3 className="font-bold text-blue-900 mb-3">Critical Tip:</h3>
                     <p className="text-lg">Never ignore a Section 13(2) notice. It is the 'Point of No Return.' If you don’t respond, the bank can move to Section 13(4) and take physical possession of your property. Negotiation is 10 times harder once the locks are changed.</p>
                 </div>
               </div>
@@ -455,7 +455,7 @@ export default function NegotiationGuideClient() {
                     If you want to win a negotiation, you must think like a Chief Financial Officer. The bank manager is not evaluating your "Life Story;" they are evaluating the "Opportunity Cost" of your debt. This is where the concept of Net Present Value (NPV) comes in.
                 </p>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 my-10">
-                    <h4 className="font-bold text-blue-900 mb-4">The CFO’s Calculation:</h4>
+                    <h3 className="font-bold text-blue-900 mb-4">The CFO’s Calculation:</h3>
                     <p className="mb-2"><strong>Option A:</strong> Full recovery of ₹10 lakhs over 5 years via court. Adjusted for 10% inflation and ₹1 lakh legal cost, the "Present Value" of this ₹10 lakhs is only about ₹5.5 lakhs.</p>
                     <p className="mb-2"><strong>Option B:</strong> Immediate payment of ₹4.5 lakhs via settlement today. The bank gets the cash NOW and can lend it again at 12% interest.</p>
                 </div>
@@ -606,7 +606,7 @@ export default function NegotiationGuideClient() {
                     Once you have your evidence and you’ve hit the right timing, it’s time to communicate. The best way to negotiate loan settlement is through a formal, written "Hardship Letter" addressed to the Nodal Officer of the bank. Email is better than a phone call as it creates a permanent audit trail.
                 </p>
                 <div className="p-8 bg-blue-900 text-white rounded-[1.5rem] my-8 shadow-xl overflow-hidden relative">
-                    <h4 className="font-bold text-xl mb-4 text-blue-200">The Power of Choice:</h4>
+                    <h3 className="font-bold text-xl mb-4 text-blue-200">The Power of Choice:</h3>
                     <p className="opacity-90 leading-relaxed">
                         In your letter, offer two options: (A) A small lump sum today or (B) A structured plan over 6 months with half the discount. Banks almost always choose Option A, but giving them a choice makes them feel in control of the negotiation.
                     </p>
@@ -620,7 +620,7 @@ export default function NegotiationGuideClient() {
                 </p>
                 <div className="p-8 bg-blue-900 text-white rounded-[2rem] my-10 shadow-xl overflow-hidden relative">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full translate-x-16 -translate-y-16"></div>
-                    <h4 className="font-bold text-2xl mb-4">Pro Negotiator Tip:</h4>
+                    <h3 className="font-bold text-2xl mb-4">Pro Negotiator Tip:</h3>
                     <p className="text-lg opacity-90 leading-relaxed">
                         Never mention "Settlement" first if possible. Ask for a "Full and Final Closure" or "Debt Resolution." Mentioning settlement too early can signal that you are desperate to clear your CIBIL, which reduces your bargaining power.
                     </p>
@@ -707,25 +707,25 @@ export default function NegotiationGuideClient() {
               <h2 id="success-stories" className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 scroll-mt-28 uppercase tracking-tighter">Case Studies: Real Transformations</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
                 <div className="p-8 bg-white rounded-[2rem] border border-gray-100 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.1)] hover:scale-[1.01] transition-transform">
-                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The ₹15 Lakh Turnaround</h4>
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The ₹15 Lakh Turnaround</h3>
                   <p className="text-gray-600 mb-4 leading-relaxed italic text-lg">
                     "I had an unsecured business loan of ₹15 lakhs with an NBFC. Due to market shifts, my revenue dropped. The bank wanted ₹18 lakhs with penalties. CredSettle intervened, presented my losses, and negotiated a closure at ₹6.5 lakhs. I saved ₹11.5 lakhs and got my life back." - Rajesh K., Bangalore
                   </p>
                 </div>
                 <div className="p-8 bg-white rounded-[2rem] border border-gray-100 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.1)] hover:scale-[1.01] transition-transform">
-                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The Credit Card Rescue</h4>
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The Credit Card Rescue</h3>
                   <p className="text-gray-600 mb-4 leading-relaxed italic text-lg">
                     "My credit card dues ballooned from ₹4 lakhs to ₹7 lakhs due to compound interest. The recovery calls were taking a toll on my family. The experts at CredSettle stopped the calls within 48 hours and settled the entire debt for ₹1.8 lakhs in just one month." - Anita S., Pune
                   </p>
                 </div>
                 <div className="p-8 bg-white rounded-[2rem] border border-gray-100 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.1)] hover:scale-[1.01] transition-transform">
-                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The Home Loan Salvation</h4>
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The Home Loan Salvation</h3>
                   <p className="text-gray-600 mb-4 leading-relaxed italic text-lg">
                     "A Section 13(2) notice had shattered my peace. My house was on the verge of auction. CredSettle used the NPV math to show the bank that a settlement of ₹45 lakhs was better than a delayed auction of ₹40 lakhs. We saved our family home." - Vikram M., Mumbai
                   </p>
                 </div>
                 <div className="p-8 bg-white rounded-[2rem] border border-gray-100 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.1)] hover:scale-[1.01] transition-transform">
-                  <h4 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The Student Loan Relief</h4>
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">The Student Loan Relief</h3>
                   <p className="text-gray-600 mb-4 leading-relaxed italic text-lg">
                     "I was struggling to pay my MBA loan with a entry-level salary. The bank was threatening my father (guarantor). CredSettle negotiated a stay on penal interest and a 12-month payment plan that fit my salary perfectly." - Priya R., Delhi
                   </p>
@@ -845,7 +845,7 @@ export default function NegotiationGuideClient() {
               {/* Primary CTA */}
               <div className="bg-gradient-to-b from-blue-600 to-blue-800 p-8 rounded-[2rem] shadow-2xl text-center text-white relative overflow-hidden hover:scale-[1.03] transition-transform duration-500 group">
                 <div className="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
-                <h4 className="font-bold text-2xl mb-3 leading-tight">Fast Debt Relief</h4>
+                <p className="font-bold text-2xl mb-3 leading-tight">Fast Debt Relief</p>
                 <p className="text-blue-100 mb-8 text-base opacity-90 italic">Analyze your loans and get a settlement roadmap in 24 hours.</p>
                 <Link 
                   href="/contact"
@@ -863,7 +863,7 @@ export default function NegotiationGuideClient() {
 
               {/* Related Pages Container */}
               <div className="bg-white p-8 rounded-[2rem] border border-gray-100 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.08)]">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg border-b border-gray-50 pb-3 tracking-tight">Knowledge Hub</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b border-gray-50 pb-3 tracking-tight">Knowledge Hub</p>
                 <nav className="space-y-6">
                   <Link href="/loan-settlement" className="group block">
                     <span className="block text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-1">Service</span>
@@ -887,7 +887,7 @@ export default function NegotiationGuideClient() {
               {/* Trust Badge */}
               <div className="bg-gray-50 p-6 rounded-[1.5rem] border border-gray-100 text-center">
                 <div className="text-3xl mb-3">[Scale]</div>
-                <h5 className="font-bold text-gray-900 mb-2 text-sm">Legal Verification</h5>
+                <p className="font-bold text-gray-900 mb-2 text-sm">Legal Verification</p>
                 <p className="text-[10px] text-gray-500 leading-relaxed">All content is reviewed by senior legal consultants specializing in Indian banking laws.</p>
               </div>
 

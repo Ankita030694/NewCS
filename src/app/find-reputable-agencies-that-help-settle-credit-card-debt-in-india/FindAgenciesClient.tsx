@@ -203,7 +203,7 @@ export default function FindAgenciesClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -336,42 +336,42 @@ export default function FindAgenciesClient() {
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Initial Assessment</h4>
+                      <h3 className="font-bold text-xl mb-2">Initial Assessment</h3>
                       <p>The agency reviews your total debt, income, and expenses. They determine if you are a good candidate for settlement. This usually involves checking how old the debt is and if you have any genuine financial hardship like job loss or medical emergency.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Enrolment and Legal Shield</h4>
+                      <h3 className="font-bold text-xl mb-2">Enrolment and Legal Shield</h3>
                       <p>Once you sign the contract, the agency issues a legal notice to the bank informing them that they are now representing you. This is the stage where you stop all communication with the bank and the agency takes over. They also provide protection against illegal recovery tactics.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Saving Period</h4>
+                      <h3 className="font-bold text-xl mb-2">Saving Period</h3>
                       <p>Since the bank will only settle for a lump sum or a few installments, you will need to save up the settlement amount. During this period, which can last 3 to 6 months, the agency builds your case and waits for the right time to approach the bank for negotiation.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">4</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Negotiation Phase</h4>
+                      <h3 className="font-bold text-xl mb-2">Negotiation Phase</h3>
                       <p>The agency’s expert negotiators contact the bank’s settlement department. They present your case, highlighting your financial distress and offering a lump sum payment. This involves multiple rounds of discussions to reach the lowest possible amount.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">5</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">Settlement Letter and Payment</h4>
+                      <h3 className="font-bold text-xl mb-2">Settlement Letter and Payment</h3>
                       <p>Once an agreement is reached, the bank issues a formal "Settlement Letter." This is a crucial document that outlines the final amount and the payment deadline. The agency verifies the letter for authenticity before you make the payment directly to the bank.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold flex-shrink-0">6</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-2">No Dues Certificate (NDC)</h4>
+                      <h3 className="font-bold text-xl mb-2">No Dues Certificate (NDC)</h3>
                       <p>After you make the full payment, the bank is required to issue a No Dues Certificate. This proves that you have fulfilled your obligation as per the settlement agreement. The agency ensures that the bank also updates your status with credit bureaus like CIBIL.</p>
                     </div>
                   </div>
@@ -564,7 +564,7 @@ export default function FindAgenciesClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Debt Consultation</h4>
+                <p className="font-bold text-2xl mb-4">Free Debt Consultation</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing aggressive recovery calls? We can help you stop them today.</p>
                 <Link 
                   href="/contact"
@@ -589,7 +589,7 @@ export default function FindAgenciesClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Related Services</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Related Services</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/services/credit-card-settlement" className="group flex items-start">

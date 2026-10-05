@@ -212,9 +212,9 @@ export default function CanLoanDefaulterGoAbroadClient() {
             >
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-[#1886ff]" />
-                <h2 className="text-base sm:text-lg font-bold text-slate-900">
+                <p className="text-base sm:text-lg font-bold text-slate-900">
                   Executive Summary: Can a Loan Defaulter Travel or Relocate Abroad?
-                </h2>
+                </p>
               </div>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Thousands of Indian professionals and students face aggressive recovery agent intimidation claiming that unpaid personal loans or credit cards will result in airport arrest or passport confiscation. Indian jurisprudence and immigration protocols establish unambiguous safeguards for cross-border travelers:
@@ -968,9 +968,9 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Traveling Abroad with Active Debt?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Our debt resolution experts protect your travel rights, stop recovery harassment, represent your case in India, and negotiate a 40% to 70% loan waiver.
                 </p>
@@ -997,7 +997,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -1020,7 +1020,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related Legal Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related Legal Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/bank-sent-legal-notice-for-loan-what-to-do"

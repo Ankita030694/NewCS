@@ -171,7 +171,7 @@ export default function MedicalEmergencyClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -220,10 +220,10 @@ export default function MedicalEmergencyClient() {
 
                             {/* Data Callout Section Type */}
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200 mb-8 mt-6">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                                     BCSBI Code of Bank's Commitment
-                                </h4>
+                                </p>
                                 <ul className="space-y-4 text-blue-800">
                                     <li className="flex justify-between border-b border-blue-200 pb-2">
                                         <span className="font-semibold">Sympathetic Consideration:</span>
@@ -243,7 +243,7 @@ export default function MedicalEmergencyClient() {
                                 </p>
                             </div>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">What Constitutes a Valid Medical Emergency?</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">What Constitutes a Valid Medical Emergency?</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Banks will not grant concessions based on a verbal claim of a minor ailment. To successfully invoke compassionate grounds, the medical emergency must be severe, verifiable, and financially debilitating. Valid emergencies typically include a diagnosis of a critical illness (such as cancer, kidney failure, or severe cardiac conditions), major surgical interventions requiring prolonged hospitalization, or catastrophic accidents resulting in long term disability or loss of income. 
                             </p>
@@ -251,7 +251,7 @@ export default function MedicalEmergencyClient() {
                                 Furthermore, the emergency does not strictly need to apply to the borrower alone. If the borrower is the primary financial provider for a spouse, child, or dependent parent who is undergoing severe medical treatment, the resultant financial drain is equally valid grounds for seeking a settlement or restructuring.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">RBI Guidelines on Humane Recovery Practices</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">RBI Guidelines on Humane Recovery Practices</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The RBI's Fair Practices Code dictates the boundaries of acceptable recovery behavior. Agents cannot call at ungodly hours, they cannot discuss your debt with neighbors or colleagues, and most importantly, they must respect a borrower's explicit request for privacy during a medical crisis. When a borrower formally informs the bank of a severe hospitalization, the bank's internal compliance protocols should ideally halt outbound recovery calls temporarily. The failure of banks to implement this pause is a systemic flaw, which is why borrowers must take proactive, documented steps to enforce their rights and establish a strong <Link href="/loan-default-recovery-freeze-defense" className="text-blue-600 hover:underline">loan default recovery freeze defense</Link>.
                             </p>
@@ -263,7 +263,7 @@ export default function MedicalEmergencyClient() {
 
                             {/* Step Checklist Section Type */}
                             <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm mb-8 mt-6">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4">Steps to Apply for a Medical Hardship Concession</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4">Steps to Apply for a Medical Hardship Concession</p>
                                 <div className="space-y-4">
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">1</div>
@@ -372,7 +372,7 @@ export default function MedicalEmergencyClient() {
                         <div className="space-y-6">
                             {/* CTA Card Widget */}
                             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                                <h4 className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     Stop paying high interest and start negotiating. We protect your rights.
                                 </p>
@@ -400,7 +400,7 @@ export default function MedicalEmergencyClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</p>
                                 <nav className="space-y-4 mt-2">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>

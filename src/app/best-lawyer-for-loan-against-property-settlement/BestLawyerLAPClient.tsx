@@ -299,7 +299,7 @@ export default function BestLawyerLAPClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -461,7 +461,7 @@ export default function BestLawyerLAPClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Illuminating Case Studies of LAP and Mortgage Resolution</h2>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The Commercial Factory Defense</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The Commercial Factory Defense</p>
                                 <p className="text-gray-700 mb-4">
                                     A mid-sized manufacturing enterprise suffered total supply chain collapse during an international crisis, causing a massive default regarding their three-crore Loan Against Property utilizing the main production facility as collateral. The bank initiated lightning-fast SARFAESI proceedings, aiming to quickly auction the vital factory to a rival competitor.
                                 </p>
@@ -470,7 +470,7 @@ export default function BestLawyerLAPClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: Protecting the Ancestral Residence</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: Protecting the Ancestral Residence</p>
                                 <p className="text-gray-700 mb-4">
                                     A desperate son forged signatures to pledge the ancestral family home for an incredibly high-risk business venture that subsequently failed catastrophically. The elderly parents were suddenly confronted by hostile bank officials attempting to forcibly evict them utilizing orders procured from the Chief Metropolitan Magistrate.
                                 </p>
@@ -551,7 +551,7 @@ export default function BestLawyerLAPClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Save Your Property</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Save Your Property</p>
                                 <p className="text-sm text-gray-600 mb-6">Do not let the bank auction your assets. Secure a professional strategy aggressively defending your wealth today.</p>
                                 <Link
                                     href="/contact"
@@ -568,7 +568,7 @@ export default function BestLawyerLAPClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-loan-recovery-cases" className="block text-sm text-blue-600 hover:underline">Loan Recovery Lawyers</Link>
                                     <Link href="/does-loan-settlement-affect-cibil" className="block text-sm text-blue-600 hover:underline">CIBIL Impact Analyzed</Link>

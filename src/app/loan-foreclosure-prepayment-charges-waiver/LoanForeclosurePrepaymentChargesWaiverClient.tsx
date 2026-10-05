@@ -232,7 +232,7 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -299,7 +299,7 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                             {/* Visual Element 1: Comparison Table */}
                             <div className="my-10 bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
                                 <div className="bg-blue-900 text-white px-6 py-4">
-                                    <h4 className="text-xl font-bold mb-0">Legal Protection Matrix: RBI Rules vs. Bank Practices</h4>
+                                    <p className="text-xl font-bold mb-0">Legal Protection Matrix: RBI Rules vs. Bank Practices</p>
                                 </div>
                                 <div className="overflow-x-auto">
                                     <table className="w-full text-left border-collapse">
@@ -376,10 +376,10 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                             {/* Visual Element 2: Visual Checklist */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <h3 className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Foreclosure Waiver Checklist:
-                                </h4>
+                                </h3>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-blue-400 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -433,10 +433,10 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                             
                             {/* Visual Element 3: Negotiation Scripts Box */}
                             <div className="bg-amber-50 border-l-8 border-amber-500 p-8 rounded-r-2xl shadow-md mb-10">
-                                <h4 className="text-xl font-bold text-amber-900 mb-4 flex items-center gap-2">
+                                <h3 className="text-xl font-bold text-amber-900 mb-4 flex items-center gap-2">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Live Negotiation Scripts (Copy-Paste)
-                                </h4>
+                                </h3>
                                 <div className="space-y-6">
                                     <div>
                                         <p className="text-sm font-bold text-gray-600 uppercase tracking-wide mb-1">When the Manager says: "The system automatically calculates it, I cannot change it."</p>
@@ -486,7 +486,7 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                             </p>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The MSME Manufacturer (Ludhiana)</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The MSME Manufacturer (Ludhiana)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A small automotive parts manufacturer had a 75 Lakh business loan with a private NBFC. Due to a factory fire, he received an insurance payout and wanted to close the loan to reduce his debt burden. The NBFC demanded a 4% foreclosure charge (3 Lakhs). They flatly refused his initial verbal request.
                                     </p>
@@ -495,7 +495,7 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Floating Rate Violation (Chennai)</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Floating Rate Violation (Chennai)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         An IT professional tried to pre-close her floating-rate personal loan of 15 Lakhs. The bank attempted to classify it as a "business loan" because she had a side consultancy registered at her home address, demanding a 3% penalty (45,000 Rupees). This was a clear violation of the rules.
                                     </p>
@@ -509,7 +509,7 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                             <div className="space-y-6 mb-10">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
-                                        <h4 className="text-lg font-bold text-gray-900 mb-2">{faq.question}</h4>
+                                        <h3 className="text-lg font-bold text-gray-900 mb-2">{faq.question}</h3>
                                         <p className="text-gray-700 font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -532,7 +532,7 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white rounded-2xl border border-gray-100 shadow-lg p-6 mb-8 text-center relative overflow-hidden">
                             <div className="absolute top-0 left-0 w-full h-2 bg-blue-600"></div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-2">Need Immediate Help?</h3>
+                            <p className="text-xl font-bold text-gray-900 mb-2">Need Immediate Help?</p>
                             <p className="text-sm text-gray-600 mb-6 font-light">Our legal experts can draft your foreclosure waiver letter today.</p>
                             <Link href="/contact" className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-all shadow-md mb-2">
                                 Consult a Lawyer
@@ -542,7 +542,7 @@ export default function LoanForeclosurePrepaymentChargesWaiverClient() {
 
                         {/* Related Expertise Link Card - Included as per constraints */}
                         <div className="bg-gray-50 rounded-2xl border border-gray-200 p-6 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Expertise</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Expertise</p>
                             <ul className="space-y-3">
                                 <li>
                                     <Link href="/msme-business-loan-restructuring-vs-settlement" className="group flex items-start">

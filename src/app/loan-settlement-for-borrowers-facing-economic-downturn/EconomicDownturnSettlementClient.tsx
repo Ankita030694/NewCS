@@ -234,7 +234,7 @@ export default function EconomicDownturnSettlementClient() {
                 {/* Left Column: Table of Contents */}
                 <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-0 h-screen overflow-y-auto border-r border-gray-100 bg-gray-50/50 p-8">
                     <div className="space-y-6">
-                        <h3 className="font-black text-gray-900 mb-4 text-xl tracking-wide border-b-4 border-blue-600 pb-2 inline-block">NAVIGATOR</h3>
+                        <p className="font-black text-gray-900 mb-4 text-xl tracking-wide border-b-4 border-blue-600 pb-2 inline-block">NAVIGATOR</p>
                         <nav className="space-y-2">
                             {navLinks.map((link) => (
                                 <a
@@ -380,15 +380,15 @@ export default function EconomicDownturnSettlementClient() {
                         <p>
                             The way you approach a settlement depends heavily on your professional background and the nature of your hardship. In 2026, we see three distinct categories of distressed borrowers, each requiring a tailored negotiation blueprint.
                         </p>
-                        <h3 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The IT and Tech Professional</h3>
+                        <p className="text-2xl font-bold text-gray-900 mt-10 mb-4">The IT and Tech Professional</p>
                         <p>
                             With the ongoing "AI-Driven Structural Rebalancing," many mid-to-senior tech professionals are finding themselves in a difficult job market. If you have been laid off, your leverage is your "Repayment Intent." By showing your severance details and job application logs, you prove to the bank that your default is involuntary. CredSettle has successfully negotiated 60-70% waivers for IT professionals by emphasizing that a settle-now deal is better for the bank than waiting for a career restart that might take years.
                         </p>
-                        <h3 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The SME and Small Business Owner</h3>
+                        <p className="text-2xl font-bold text-gray-900 mt-10 mb-4">The SME and Small Business Owner</p>
                         <p>
                             Small businesses are the hardest hit by supply chain disruptions and inflation. For business loans, the negotiation often centers on "Salvageable Assets." If your business is insolvent, AMA Legal Solutions can help you file for a formal closure, which gives you massive leverage in settling the associated business or personal debts. Banks are more likely to settle with a closed business than an active one.
                         </p>
-                        <h3 className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Salaried Middle-Class Borrower</h3>
+                        <p className="text-2xl font-bold text-gray-900 mt-10 mb-4">The Salaried Middle-Class Borrower</p>
                         <p>
                             For those in stable industries but with reduced real income, the strategy is "EMI Exhaustion." By proving that your essential expenses (rent, school fees) leave zero room for debt servicing, you can push for an interest-free repayment plan or a partial settlement. CredSettle specializes in proving this "Social Hardship" to bank managers to get sympathetic waiver terms.
                         </p>
@@ -595,7 +595,7 @@ export default function EconomicDownturnSettlementClient() {
                     
                     {/* Primary Sidebar CTA */}
                     <div className="bg-gradient-to-b from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white text-center">
-                        <h4 className="font-black text-2xl mb-4 leading-tight">RESILIENCE<br/>CHECK</h4>
+                        <p className="font-black text-2xl mb-4 leading-tight">RESILIENCE<br/>CHECK</p>
                         <p className="text-sm opacity-90 mb-8 font-medium">Is settlement the right move for your specific downturn crisis? Find out now.</p>
                         <Link
                             href="/contact"
@@ -612,7 +612,7 @@ export default function EconomicDownturnSettlementClient() {
 
                     {/* Related Pages Sidebar Container */}
                     <div className="bg-white p-8 rounded-3xl border-2 border-gray-50 shadow-sm">
-                        <h4 className="font-black text-gray-900 mb-6 text-sm uppercase tracking-widest border-b pb-4">Knowledge Base</h4>
+                        <p className="font-black text-gray-900 mb-6 text-sm uppercase tracking-widest border-b pb-4">Knowledge Base</p>
                         <nav className="space-y-4">
                             <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="group block">
                                 <span className="text-sm font-bold text-gray-500 group-hover:text-blue-600 transition-colors uppercase block mb-1">Guide 01</span>

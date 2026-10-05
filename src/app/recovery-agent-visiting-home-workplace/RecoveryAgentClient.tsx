@@ -249,7 +249,7 @@ export default function RecoveryAgentClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Your Legal Rights</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Your Legal Rights</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -306,12 +306,12 @@ export default function RecoveryAgentClient() {
 
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Crucial RBI Rules for Agents:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Time Restrictions:</strong> Recovery agents cannot contact you or visit you between 7:00 PM and 8:00 AM. Any contact during these hours is strictly illegal.</li>
                                     <li><strong>Identification is Mandatory:</strong> An agent must present a valid ID card issued by the agency and an authorization letter from the bank. If they fail to provide these, you can refuse to speak with them.</li>
@@ -348,12 +348,12 @@ export default function RecoveryAgentClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Rule 1</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">No Third-Party Disclosure</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">No Third-Party Disclosure</p>
                                     <p className="text-sm text-gray-600 m-0">Agents cannot inform the reception, HR department, or your colleagues that they are there to collect a debt. They must maintain strict confidentiality.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Rule 2</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">No Disruption of Work</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">No Disruption of Work</p>
                                     <p className="text-sm text-gray-600 m-0">They cannot create a scene in the office lobby, shout at you in front of coworkers, or do anything that disrupts your professional duties.</p>
                                 </div>
                             </div>
@@ -406,14 +406,14 @@ export default function RecoveryAgentClient() {
                             </p>
                             
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Your Action Plan</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Your Action Plan</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Gather Evidence</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Gather Evidence</h3>
                                             <p className="text-sm text-gray-600 m-0">Always record phone calls using a call recording app. If agents visit your home, record them on video. Save all threatening WhatsApp messages or text messages. Evidence is everything.</p>
                                         </div>
                                     </li>
@@ -422,7 +422,7 @@ export default function RecoveryAgentClient() {
                                             <span className="font-bold text-blue-600 text-sm">2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">File a Bank Complaint</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">File a Bank Complaint</h3>
                                             <p className="text-sm text-gray-600 m-0">Send a written complaint via email to the bank's Grievance Redressal Officer or Nodal Officer. Attach your evidence and clearly state that the agents are violating RBI guidelines.</p>
                                         </div>
                                     </li>
@@ -431,7 +431,7 @@ export default function RecoveryAgentClient() {
                                             <span className="font-bold text-blue-600 text-sm">3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Send a Legal Notice</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Send a Legal Notice</h3>
                                             <p className="text-sm text-gray-600 m-0">Hire a lawyer to send a formal legal notice to the bank for mental harassment and breach of privacy. A notice drafted on a lawyer's letterhead usually forces the bank to take immediate corrective action.</p>
                                         </div>
                                     </li>
@@ -440,7 +440,7 @@ export default function RecoveryAgentClient() {
                                             <span className="font-bold text-blue-600 text-sm">4</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Approach the RBI Ombudsman</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Approach the RBI Ombudsman</h3>
                                             <p className="text-sm text-gray-600 m-0">If the bank does not resolve your complaint within 30 days, file a complaint on the RBI Integrated Ombudsman portal. The Ombudsman has the power to penalize the bank and award you compensation.</p>
                                         </div>
                                     </li>
@@ -500,7 +500,7 @@ export default function RecoveryAgentClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Agent at Your Door?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Agent at Your Door?</p>
                                 <p className="text-gray-600 text-sm mb-6 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -519,7 +519,7 @@ export default function RecoveryAgentClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/how-to-handle-recovery-agent-harrasment" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

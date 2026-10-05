@@ -240,7 +240,7 @@ export default function ContactBankingOmbudsmanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -302,10 +302,10 @@ export default function ContactBankingOmbudsmanClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Ombudsman Jurisdiction Parameters:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Abusive Practices:</strong> The Ombudsman possesses direct authority to penalize banks for using agents who resort to foul language, physical threats, or psychological intimidation.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Timing Violations:</strong> Recovery calls or visits outside the legally mandated window (typically between 8 AM and 7 PM) are strict violations that the Ombudsman tracks meticulously.</li>
@@ -330,7 +330,7 @@ export default function ContactBankingOmbudsmanClient() {
                                         1
                                     </div>
                                     <div>
-                                        <h4 className="text-xl font-bold text-blue-900 mb-2 uppercase tracking-tight">The Branch Manager & Nodal Officer</h4>
+                                        <p className="text-xl font-bold text-blue-900 mb-2 uppercase tracking-tight">The Branch Manager & Nodal Officer</p>
                                         <p className="text-gray-700 font-light">
                                             The clock starts ticking the moment you send a formal, written complaint via registered post with acknowledgment due or via official email to the bank's Grievance Redressal Officer. Your complaint must explicitly state the dates, times, and nature of the harassment. You must demand the immediate suspension of the specific recovery agency assigned to your account.
                                         </p>
@@ -348,7 +348,7 @@ export default function ContactBankingOmbudsmanClient() {
                                         2
                                     </div>
                                     <div>
-                                        <h4 className="text-xl font-bold text-blue-900 mb-2 uppercase tracking-tight">The 30-Day Waiting Period</h4>
+                                        <h3 className="text-xl font-bold text-blue-900 mb-2 uppercase tracking-tight">The 30-Day Waiting Period</h3>
                                         <p className="text-gray-700 font-light">
                                             Once the bank receives your complaint, statutory guidelines grant them a maximum of 30 days to resolve the issue to your satisfaction. During this period, if the harassment continues, you must document every new incident. If the bank ignores your letter, sends an unsatisfactory boilerplate reply, or blatantly denies the allegations without investigation, the legal door to the RBI opens.
                                         </p>
@@ -367,7 +367,7 @@ export default function ContactBankingOmbudsmanClient() {
                                         3
                                     </div>
                                     <div className="z-10">
-                                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight text-white">Escalation to the RBI Ombudsman</h4>
+                                        <h3 className="text-xl font-bold mb-2 uppercase tracking-tight text-white">Escalation to the RBI Ombudsman</h3>
                                         <p className="text-blue-100 font-light">
                                             Upon the expiry of the 30 days, or immediately after receiving an unsatisfactory reply, you file your grievance on the RBI Complaint Management System portal. You will upload your initial complaint to the bank, their reply (if any), and your comprehensive evidence file. This triggers a mandatory regulatory audit of the bank's recovery actions on your specific loan account.
                                         </p>
@@ -386,7 +386,7 @@ export default function ContactBankingOmbudsmanClient() {
                             </p>
                             
                             <div className="bg-white border-2 border-gray-200 rounded-3xl p-8 mb-10 shadow-sm">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Harassment Evidence Checklist</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Harassment Evidence Checklist</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-4">
                                         <div className="mt-1 w-6 h-6 rounded-md bg-blue-100 text-blue-600 flex flex-shrink-0 items-center justify-center font-bold">✓</div>
@@ -440,7 +440,7 @@ export default function ContactBankingOmbudsmanClient() {
                                     <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
                                     </svg>
-                                    <h4 className="text-xl font-bold text-red-900">Critical Warning: Cash Payments</h4>
+                                    <h3 className="text-xl font-bold text-red-900">Critical Warning: Cash Payments</h3>
                                 </div>
                                 <p className="text-red-800 font-medium mb-2">
                                     Under no circumstances should you ever pay recovery agents in cash during a field visit, especially to stop immediate harassment.
@@ -621,7 +621,7 @@ export default function ContactBankingOmbudsmanClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Harassment Defense</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Harassment Defense</p>
                                 <p className="text-sm text-gray-600 mb-6">Let us trigger the RBI escalation matrix for you and halt the abuse immediately.</p>
                                 <Link
                                     href="/contact"
@@ -639,7 +639,7 @@ export default function ContactBankingOmbudsmanClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/rbi-guidelines-for-recovery-agents-2026" className="block text-sm text-blue-600 hover:underline">RBI Recovery Guidelines</Link>
                                     <Link href="/nbfc-recovery-agent-home-visit-stop" className="block text-sm text-blue-600 hover:underline">Stop NBFC Home Visits</Link>

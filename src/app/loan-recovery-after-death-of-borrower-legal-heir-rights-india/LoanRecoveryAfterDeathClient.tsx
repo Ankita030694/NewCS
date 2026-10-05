@@ -187,7 +187,7 @@ export default function LoanRecoveryAfterDeathClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -274,11 +274,11 @@ export default function LoanRecoveryAfterDeathClient() {
                   The methodology of loan recovery differs drastically based on the nature of the credit facility. The law treats unsecured and secured loans entirely differently when the primary borrower passes away.
                 </p>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-200">
-                  <h4 className="font-bold text-black text-xl mb-4">Unsecured Loans (Personal Loans, Credit Cards, Microfinance)</h4>
+                  <h3 className="font-bold text-black text-xl mb-4">Unsecured Loans (Personal Loans, Credit Cards, Microfinance)</h3>
                   <p className="mb-4 text-black">
                     These loans are granted based on the borrower's credit history and income, without any collateral or asset backing. When the borrower dies, the bank has no specific asset to seize. The bank must petition the legal heirs to settle the dues from the deceased's estate. If the estate is insufficient or non-existent, the debt dies with the borrower. Recovery agents often try to blur this line, misleading heirs into believing that credit card debt transfers to a spouse automatically. This is legally false. If an heir has not inherited any assets, they should firmly inform the bank in writing that the estate is nil, effectively closing the matter.
                   </p>
-                  <h4 className="font-bold text-black text-xl mb-4 mt-8">Secured Loans (Home Loans, Auto Loans, Loan Against Property)</h4>
+                  <h3 className="font-bold text-black text-xl mb-4 mt-8">Secured Loans (Home Loans, Auto Loans, Loan Against Property)</h3>
                   <p className="text-black">
                     Secured loans are backed by tangible collateral. If the borrower dies and the loan EMIs stop, the bank retains the legal right to take possession of the collateral (the house or the car) and sell it to recover the outstanding dues. The bank's charge on the property survives the death of the borrower. However, before proceeding with the seizure, the bank must give the legal heirs a fair opportunity to step into the shoes of the borrower, regularize the account, and continue paying the EMIs to save the property. 
                   </p>
@@ -340,7 +340,7 @@ export default function LoanRecoveryAfterDeathClient() {
               </p>
 
                 <div className="bg-red-50 p-10 rounded-3xl border-2 border-red-100 my-10 shadow-inner relative overflow-hidden">
-                  <h4 className="font-bold text-red-900 mb-6 text-2xl ">Red Flags List: Signs of Illegal Recovery Actions</h4>
+                  <h3 className="font-bold text-red-900 mb-6 text-2xl ">Red Flags List: Signs of Illegal Recovery Actions</h3>
                   <ul className="space-y-4 text-red-800 text-lg font-medium">
                     <li className="flex items-start">
                       <span className="text-red-500 mr-3 text-2xl leading-none">⚠</span>
@@ -369,7 +369,7 @@ export default function LoanRecoveryAfterDeathClient() {
                   </ul>
                 </div>
 
-                <h4 className="font-bold text-blue-900 text-2xl uppercase mt-12 mb-6">Legal Process Map</h4>
+                <h3 className="font-bold text-blue-900 text-2xl uppercase mt-12 mb-6">Legal Process Map</h3>
                 <div className="space-y-6">
                   <div className="flex items-center p-8 bg-blue-900 text-white rounded-3xl shadow-lg">
                     <span className="text-5xl font-bold mr-8 opacity-40 italic">01</span>
@@ -483,7 +483,7 @@ export default function LoanRecoveryAfterDeathClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-black text-sm">{review.name}</h4>
+                        <p className="font-bold text-black text-sm">{review.name}</p>
                         <p className="text-xs text-gray-500">{review.location} • {review.date}</p>
                       </div>
                     </div>
@@ -523,7 +523,7 @@ export default function LoanRecoveryAfterDeathClient() {
                 <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-lg">
                   <img src="/default-user.svg" alt="Vikram Desai" className="w-full h-full object-cover" />
                 </div>
-                <h3 className="font-bold text-xl text-black mb-1">Vikram Desai</h3>
+                <p className="font-bold text-xl text-black mb-1">Vikram Desai</p>
                 <p className="text-blue-600 font-semibold text-sm mb-4">Senior Legal Advocate</p>
                 <p className="text-black text-sm leading-relaxed mb-6">
                   Vikram specializes in consumer protection and DRT litigation. With over a decade of experience fighting illegal banking practices, he leads the charge at CredSettle to protect grieving families from predatory recovery agents.

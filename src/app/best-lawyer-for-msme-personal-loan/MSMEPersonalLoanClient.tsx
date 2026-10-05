@@ -274,7 +274,7 @@ export default function MSMEPersonalLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 max-h-[80vh] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Individual Rights</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Individual Rights</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -493,7 +493,7 @@ export default function MSMEPersonalLoanClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Individual Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Individual Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop promoter guarantee invocation. Protect your family home and investments.</p>
                                 <Link
                                     href="/contact"
@@ -519,7 +519,7 @@ export default function MSMEPersonalLoanClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">MSME Recovery Defence</Link>
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Stop Agent Harassment</Link>
@@ -531,7 +531,7 @@ export default function MSMEPersonalLoanClient() {
 
                             {/* Fact Box */}
                             <div className="bg-gray-900 p-6 rounded-2xl text-white">
-                                <h5 className="font-bold text-xs mb-3 uppercase tracking-widest text-blue-300">Strategy Tip</h5>
+                                <p className="font-bold text-xs mb-3 uppercase tracking-widest text-blue-300">Strategy Tip</p>
                                 <p className="text-xs leading-relaxed opacity-80 italic">
                                     "Individual insolvency proceedings under IBC are legally distinct from corporate ones. Strategic delays and pre-litigation mediation can often force banks to accept settlements at 30-50% of the principal."
                                 </p>

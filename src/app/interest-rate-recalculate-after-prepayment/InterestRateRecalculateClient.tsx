@@ -204,7 +204,7 @@ export default function InterestRateRecalculateClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Prepayment Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Prepayment Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -269,7 +269,7 @@ export default function InterestRateRecalculateClient() {
                                         <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                                     </svg>
                                 </div>
-                                <h4 className="text-xl font-bold text-yellow-800 mb-2">Crucial Financial Principle</h4>
+                                <p className="text-xl font-bold text-yellow-800 mb-2">Crucial Financial Principle</p>
                                 <p className="text-yellow-900 font-medium">When you make a part prepayment, 100% of that money goes directly towards reducing your principal balance. There is no interest deduction from a part payment. It is a direct strike at the heart of your debt.</p>
                             </div>
 
@@ -339,11 +339,11 @@ export default function InterestRateRecalculateClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 After you make a part payment and your principal balance drops, the bank must restructure your amortization schedule. Because the debt is smaller, the math must balance out. The bank will typically offer you two choices:
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">Option A: Reduce the Loan Tenure (The Wealth Builder)</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">Option A: Reduce the Loan Tenure (The Wealth Builder)</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you select this option, you continue paying the exact same EMI amount every month. However, because your principal is smaller, a much larger chunk of that EMI goes towards paying off the principal rather than interest. As a result, your loan finishes much faster. A 20-year loan might suddenly finish in 15 years. This option guarantees the absolute highest interest savings over the lifetime of the loan. It is the financially optimal choice.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">Option B: Reduce the EMI (The Cash Flow Reliever)</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">Option B: Reduce the EMI (The Cash Flow Reliever)</p>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 If you select this option, the bank keeps your original end date (tenure) exactly the same, but recalculates the monthly payment required to hit that date with the new, lower principal. Your EMI will drop. While this feels great because you have more cash in your pocket every month, you are stretching a smaller loan over a long period, which means the bank continues to accumulate interest over many years. Your overall interest savings will be significantly lower.
                             </p>
@@ -413,7 +413,7 @@ export default function InterestRateRecalculateClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 9: The Mathematics of Time: Case Studies</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 1: The Early Prepayment</h4>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 1: The Early Prepayment</p>
                                     <p className="text-gray-800 mb-4 font-light">
                                         Rahul takes a 20-year home loan of Rs. 50 Lakhs at 8.5%. His EMI is Rs. 43,391. Total interest payable over 20 years is Rs. 54 Lakhs. After just 3 years, Rahul receives a massive bonus and prepays Rs. 5 Lakhs.
                                     </p>
@@ -422,7 +422,7 @@ export default function InterestRateRecalculateClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 2: The Late Prepayment</h4>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Study 2: The Late Prepayment</p>
                                     <p className="text-gray-800 mb-4 font-light">
                                         Anita has the same loan parameters. However, she waits until year 15 to make a Rs. 5 Lakh prepayment. By this time, the majority of the interest on her loan has already been paid to the bank (front-loaded interest).
                                     </p>
@@ -485,7 +485,7 @@ export default function InterestRateRecalculateClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Loan Restructuring?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Loan Restructuring?</p>
                                 <p className="text-sm text-gray-600 mb-6">Let our experts analyze your amortization schedule to maximize your savings.</p>
                                 <Link
                                     href="/contact"
@@ -502,7 +502,7 @@ export default function InterestRateRecalculateClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/prepaying-loan-impact-on-credit-score" className="block text-sm text-blue-600 hover:underline">Credit Score Impact</Link>
                                     <Link href="/foreclosure-and-part-prepayment-charges-on-personal-loan" className="block text-sm text-blue-600 hover:underline">Foreclosure Charges</Link>

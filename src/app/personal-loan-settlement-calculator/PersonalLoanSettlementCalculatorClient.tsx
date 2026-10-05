@@ -266,7 +266,7 @@ export default function PersonalLoanSettlementCalculatorClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Calculation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Calculation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -323,12 +323,12 @@ export default function PersonalLoanSettlementCalculatorClient() {
 
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-blue-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Three Pillars of Defaulted Debt:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-blue-800 font-normal list-disc pl-5 m-0 text-base">
                                     <li><strong>The Principal Outstanding:</strong> This is the actual money you still owe from the amount originally disbursed to you. This is the core number that banks care about most. Banks are extremely reluctant to take a massive loss on the principal, but they will compromise if your hardship is genuine.</li>
                                     <li><strong>Accrued Regular Interest:</strong> This is the standard interest that continues to apply to the outstanding principal every month. As long as the account is not written off, this number slowly climbs.</li>
@@ -348,22 +348,22 @@ export default function PersonalLoanSettlementCalculatorClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">DPD 1 to 89 Days</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Standard Asset Phase</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Standard Asset Phase</p>
                                     <p className="text-sm text-gray-600 m-0">The bank still considers this a standard loan. Recovery agents will harass you intensely, but the bank will not entertain any settlement offers. They want the full amount, plus all late fees. Your leverage is zero.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">DPD 90 to 180 Days</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Sub Standard NPA Phase</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Sub Standard NPA Phase</p>
                                     <p className="text-sm text-gray-600 m-0">At 90 days, the loan becomes a Non Performing Asset. The bank must set aside provisioning capital. Settlement talks can begin, but the bank will demand 70 to 80 percent of the principal outstanding.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">DPD 180 to 365 Days</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Doubtful Asset Phase</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Doubtful Asset Phase</p>
                                     <p className="text-sm text-gray-600 m-0">The bank recognizes that recovering the full amount is highly unlikely. Provisioning requirements increase significantly. This is the optimal window for settlement. You can secure waivers bringing the settlement down to 40 to 60 percent of the principal.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">DPD 365+ Days</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Loss Asset Phase</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Loss Asset Phase</p>
                                     <p className="text-sm text-gray-600 m-0">The bank has largely written off the account. While legal action is possible, the bank is desperate to recover any cash value. Settlements can sometimes drop below 30 percent of the principal, depending heavily on the borrower hardship.</p>
                                 </div>
                             </div>
@@ -514,7 +514,7 @@ export default function PersonalLoanSettlementCalculatorClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-6 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -533,7 +533,7 @@ export default function PersonalLoanSettlementCalculatorClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium text-sm">
                                     <li>
                                         <Link href="/services/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 transition-colors">

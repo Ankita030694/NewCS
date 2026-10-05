@@ -235,7 +235,7 @@ export default function CibilDefaulterListClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -306,7 +306,7 @@ export default function CibilDefaulterListClient() {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h4 className="text-2xl font-black text-red-900 mb-3 tracking-tight">SCAM ALERT: The WhatsApp PDF Threat</h4>
+                                        <p className="text-2xl font-black text-red-900 mb-3 tracking-tight">SCAM ALERT: The WhatsApp PDF Threat</p>
                                         <p className="text-red-800 font-light leading-relaxed mb-4">
                                             If a recovery agent sends you a PDF file claiming it is the "CIBIL Defaulter List," do not open it. This is a manufactured scam designed to inflict psychological trauma. 
                                         </p>
@@ -417,12 +417,12 @@ export default function CibilDefaulterListClient() {
 
                             {/* Visual Section 3: Checklist */}
                             <div className="bg-white p-8 rounded-3xl border border-blue-100 shadow-xl mb-10">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                                     <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
                                     Official CIBIL Download Checklist
-                                </h4>
+                                </h3>
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors border border-gray-50">
                                         <div className="bg-blue-100 text-blue-800 w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0 mt-0.5">1</div>
@@ -506,7 +506,7 @@ export default function CibilDefaulterListClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 11: Case Studies: Triumphs in Debt Resolution</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The WhatsApp Extortion Attempt</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The WhatsApp Extortion Attempt</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A software developer missed three payments on a massive personal loan after losing his job. An aggressive agency sent a forged PDF document titled "All India Defaulters Registry 2026," threatening to circulate it among his LinkedIn connections.
                                     </p>
@@ -515,7 +515,7 @@ export default function CibilDefaulterListClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Phantom Credit Card Default</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Phantom Credit Card Default</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A young professional applied for her first home loan, only to be rejected. Upon pulling her CIBIL report, she found a massive default on a credit card she had never applied for, belonging to a bank she had never visited.
                                     </p>
@@ -592,7 +592,7 @@ export default function CibilDefaulterListClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to stop agents from using fake lists to intimidate you today.</p>
                                 <Link
                                     href="/contact"
@@ -610,7 +610,7 @@ export default function CibilDefaulterListClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

@@ -285,7 +285,7 @@ export default function PlatformReviewsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -333,7 +333,7 @@ export default function PlatformReviewsClient() {
                                 At the forefront of the debt resolution industry stands <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, a platform that has become synonymous with a "Legal First" approach to debt settlement. Led by the prominent legal expert **Amit Lathigara**, AMA Legal Solutions differentiates itself by positioned as a legal shield rather than just a negotiation firm. Amit Lathigara has built a significant reputation online through educational videos where he empowers borrowers with knowledge about their rights under RBI rules and Indian law.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Key Strengths based on Reviews:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Key Strengths based on Reviews:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Strong Legal Expertise:</strong> Many users highlight their success in handling complex cases involving Section 138 (Cheque Bounce) and SARFAESI notices. Their ability to represent clients in legal proceedings is a major advantage for those already facing court cases.</li>
                                     <li><strong>2. Stopping Harassment:</strong> Success stories often mention how recovery agent visits and calls stopped almost immediately after hiring AMA Legal. Their strategy of sending formal legal notices to the bank’s nodal officer is highly effective.</li>
@@ -442,19 +442,19 @@ export default function PlatformReviewsClient() {
                                 Reviews are powerful, but success stories provide the details that help you relate. Here are three aggregated examples from our analysis of the top settlement platforms:
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Story 1: The Business Owner Shield (AMA Legal)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Story 1: The Business Owner Shield (AMA Legal)</p>
                                 <p className="text-gray-700 mb-4">
                                     Mr. Rajesh from Ludhiana had a defaulted MSME loan of 45 lakhs. He was facing a SARFAESI notice and constant threats of asset seizure. After hiring <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, they identified a procedural error in the bank’s notice. Using this as leverage, Amit Lathigara’s team negotiated a 50% waiver, payable over 12 months. Rajesh says, "They didn’t just save my business; they saved my dignity."
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Story 2: The Credit Card Debt Escape (CredSettle)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Story 2: The Credit Card Debt Escape (CredSettle)</p>
                                 <p className="text-gray-700 mb-4">
                                     Ananya, a junior IT professional in Bengaluru, had accumulated 8 lakhs in debt across four credit cards. The interest was more than her salary. Through <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link>, all four banks were brought to the table. They achieved a total settlement of 2.8 lakhs. Ananya used her savings and a small borrow from her father to close everything in one go. "The digital dashboard kept me calm during the whole process," she notes in her 5 star review.
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Story 3: The App Loan Resolution (SettleLoans)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Story 3: The App Loan Resolution (SettleLoans)</p>
                                 <p className="text-gray-700 mb-4">
                                     Vikas had taken 10 different "Fast App Loans" during a family emergency. The harassment was brutal, with agents calling his contacts. <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link> stepped in, coached him on identifying registered vs. illegal apps, and handled the negotiation with the legitimate ones. They helped him map out a 6 month plan to clear everyone sequentially. Vikas’s review emphasizes the "emotional support" he felt from his counselor.
                                 </p>
@@ -486,7 +486,7 @@ export default function PlatformReviewsClient() {
                                 For every genuine platform like <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, there are a dozen "scam" agents operating through WhatsApp and local ads. These unregulated entities often have "glowing reviews" that are entirely fake. They promise a "90% waiver" if you pay an upfront fee and then disappear.
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
-                                <h3 className="text-xl font-bold text-red-900 mb-4">Warning Signs from Fake Reviews:</h3>
+                                <p className="text-xl font-bold text-red-900 mb-4">Warning Signs from Fake Reviews:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Guaranteeing Results:</strong> No one can guarantee a bank’s internal decision.</li>
                                     <li><strong>2. Asking for UPI to a Personal Account:</strong> Professional firms always have business accounts.</li>
@@ -574,7 +574,7 @@ export default function PlatformReviewsClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Compare the Top 3 Platforms?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Compare the Top 3 Platforms?</p>
                                 <p className="text-sm text-gray-600 mb-6">Get a side-by-side comparison of fees, legal coverage, and success rates for your specific debt amount.</p>
                                 <Link
                                     href="/contact"
@@ -591,7 +591,7 @@ export default function PlatformReviewsClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Research</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Research</p>
                                 <nav className="space-y-3">
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Worth It?</Link>
                                     <Link href="/how-to-avoid-debt-settlement-scams-in-india" className="block text-sm text-blue-600 hover:underline">Avoid Scams Guide</Link>

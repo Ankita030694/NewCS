@@ -197,7 +197,7 @@ export default function IDFCLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -231,7 +231,7 @@ export default function IDFCLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">The CredSettle Advantage</h4>
+                <h3 className="font-bold text-blue-900 mb-2">The CredSettle Advantage</h3>
                 <p className="text-blue-800 m-0">
                   Did you know IDFC settlements often involve a &quot;Without Prejudice&quot; clause? We ensure you understand every legal term before you sign, protecting you from future liability.
                 </p>
@@ -244,17 +244,17 @@ export default function IDFCLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-100 text-center">
-                  <h5 className="font-bold text-yellow-800 text-lg">SMA-0</h5>
+                  <h3 className="font-bold text-yellow-800 text-lg">SMA-0</h3>
                   <p className="text-sm text-yellow-700 font-medium">1-30 Days Overdue</p>
                   <p className="text-xs text-gray-500 mt-2">Early warning. Hard to get settlement here.</p>
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg border border-orange-100 text-center">
-                  <h5 className="font-bold text-orange-800 text-lg">SMA-1</h5>
+                  <h3 className="font-bold text-orange-800 text-lg">SMA-1</h3>
                   <p className="text-sm text-orange-700 font-medium">31-60 Days Overdue</p>
                   <p className="text-xs text-gray-500 mt-2">Collections intensify. Legal notices may start.</p>
                 </div>
                 <div className="bg-red-50 p-4 rounded-lg border border-red-100 text-center">
-                  <h5 className="font-bold text-red-800 text-lg">SMA-2 / NPA</h5>
+                  <h3 className="font-bold text-red-800 text-lg">SMA-2 / NPA</h3>
                   <p className="text-sm text-red-700 font-medium">61-90+ Days Overdue</p>
                   <p className="text-xs text-gray-500 mt-2">Prime time for OTS negotiation.</p>
                 </div>
@@ -280,7 +280,7 @@ export default function IDFCLoanSettlementClient() {
               </p>
               <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-50 p-6 rounded-2xl mb-10 border border-gray-200">
                 <div className="flex-1">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">Why Card Settlements Offer Higher Waivers</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">Why Card Settlements Offer Higher Waivers</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     Since a large portion of your credit card outstanding is often &quot;inflated&quot; by 40-42% annualized interest, IDFC First Bank has more flexibility to waive these components. It is not uncommon for us to negotiate waivers of up to 70-80% on the *total outstanding* (which includes interest), effectively bringing the payment down to near-principal levels.
                   </p>
@@ -294,31 +294,31 @@ export default function IDFCLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                     Unsecured Nature
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">Personal Loans, Jumbo Loans (Loan on Card), and Credit Card balances. Secured loans (Home/LAP) are rarely eligible.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                     Source of Hardship
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">Documented events like job loss (pink slip), business closure (GST surrender), or medical emergencies (hospital bills).</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                     Asset Tracing
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">The bank checks if you have other substantial relationships (FDs, Savings) with them. Funds in these can be lien-marked.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                     Wilful Default Clearance
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">You must not be categorized as a wilful defaulter-someone who *can* pay but *won&apos;t*.</p>
                 </div>
               </div>
@@ -331,22 +331,22 @@ export default function IDFCLoanSettlementClient() {
               <div className="relative border-l-2 border-gray-200 ml-4 space-y-10 mb-12">
                 <div className="relative pl-8">
                   <span className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-600 border-4 border-white shadow-sm"></span>
-                  <h4 className="font-bold text-gray-900 text-lg">Phase 1: Shielding & Analysis (Week 1)</h4>
+                  <h3 className="font-bold text-gray-900 text-lg">Phase 1: Shielding & Analysis (Week 1)</h3>
                   <p className="text-gray-600 mt-2">We analyze your loan agreements and current SMA status. We take over communication, directing collection agents to speak with our legal team, instantly reducing your mental stress.</p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-600 border-4 border-white shadow-sm"></span>
-                  <h4 className="font-bold text-gray-900 text-lg">Phase 2: The Proposal (Week 2-3)</h4>
+                  <h3 className="font-bold text-gray-900 text-lg">Phase 2: The Proposal (Week 2-3)</h3>
                   <p className="text-gray-600 mt-2">We draft a hardship letter supported by evidence. We submit a counter-offer to the bank&apos;s initial demand, often starting at 25-30% of the principal to leave room for negotiation.</p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-600 border-4 border-white shadow-sm"></span>
-                  <h4 className="font-bold text-gray-900 text-lg">Phase 3: The Negotiation Table (Week 4)</h4>
+                  <h3 className="font-bold text-gray-900 text-lg">Phase 3: The Negotiation Table (Week 4)</h3>
                   <p className="text-gray-600 mt-2">This is where experience counts. We negotiate with IDFC&apos;s regional collection managers, pushing for maximum waivers on interest and penalties, leveraging regulatory guidelines.</p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-green-500 border-4 border-white shadow-sm"></span>
-                  <h4 className="font-bold text-gray-900 text-lg">Phase 4: Closure (Week 5-6)</h4>
+                  <h3 className="font-bold text-gray-900 text-lg">Phase 4: Closure (Week 5-6)</h3>
                   <p className="text-gray-600 mt-2">Payment is made *only* after verifying the Settlement Letter. We then follow up rigorously until the No Dues Certificate is issued and your CIBIL is updated.</p>
                 </div>
               </div>
@@ -373,19 +373,19 @@ export default function IDFCLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-5 bg-white border border-blue-100 rounded-xl hover:bg-blue-50 transition-colors">
-                  <h5 className="font-bold text-gray-900 mb-2">Anti-Harassment Shield</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Anti-Harassment Shield</h3>
                   <p className="text-sm text-gray-600">We enforce RBI&apos;s harassment laws. No more threatening calls to your relatives or office.</p>
                 </div>
                 <div className="p-5 bg-white border border-blue-100 rounded-xl hover:bg-blue-50 transition-colors">
-                  <h5 className="font-bold text-gray-900 mb-2">Legal Verification</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Legal Verification</h3>
                   <p className="text-sm text-gray-600">Our lawyers vet every document IDFC sends, ensuring you are not signing a trap.</p>
                 </div>
                 <div className="p-5 bg-white border border-blue-100 rounded-xl hover:bg-blue-50 transition-colors">
-                  <h5 className="font-bold text-gray-900 mb-2">Data-Driven Negotiation</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Data-Driven Negotiation</h3>
                   <p className="text-sm text-gray-600">We use data from thousands of past settlements to know exactly how low IDFC can go.</p>
                 </div>
                 <div className="p-5 bg-white border border-blue-100 rounded-xl hover:bg-blue-50 transition-colors">
-                  <h5 className="font-bold text-gray-900 mb-2">Success-Based Fees</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">Success-Based Fees</h3>
                   <p className="text-sm text-gray-600">You pay our success fee only when the settlement letter is in your hand.</p>
                 </div>
               </div>
@@ -437,7 +437,7 @@ export default function IDFCLoanSettlementClient() {
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center relative overflow-hidden group">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Hounded by Agents?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Hounded by Agents?</p>
                 <p className="text-sm text-gray-600 mb-6">Stop the calls today. Get legal protection now.</p>
                 <Link 
                   href="/contact"

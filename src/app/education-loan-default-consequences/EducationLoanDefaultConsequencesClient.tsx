@@ -232,7 +232,7 @@ export default function EducationLoanDefaultConsequencesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -292,7 +292,7 @@ export default function EducationLoanDefaultConsequencesClient() {
                                 <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl shadow-sm">
                                     <div className="flex items-center gap-3 mb-2">
                                         <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                                        <h4 className="text-lg font-bold text-red-900 m-0">Myth: Your Passport Will Be Confiscated</h4>
+                                        <p className="text-lg font-bold text-red-900 m-0">Myth: Your Passport Will Be Confiscated</p>
                                     </div>
                                     <p className="text-red-800 font-medium">
                                         Fact: The Regional Passport Office does not confiscate passports for civil debt defaults. A bank cannot simply call the passport authority and demand a block. Passport revocation is reserved for serious criminal offenses or cases involving massive economic fraud where the individual is a declared flight risk. Your ability to travel abroad for work or further studies remains intact despite an education loan default.
@@ -302,7 +302,7 @@ export default function EducationLoanDefaultConsequencesClient() {
                                 <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl shadow-sm">
                                     <div className="flex items-center gap-3 mb-2">
                                         <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                                        <h4 className="text-lg font-bold text-red-900 m-0">Myth: You Will Face Criminal Charges</h4>
+                                        <p className="text-lg font-bold text-red-900 m-0">Myth: You Will Face Criminal Charges</p>
                                     </div>
                                     <p className="text-red-800 font-medium">
                                         Fact: Defaulting on a loan is a civil breach of contract, not a criminal act. You cannot be sent to jail for lacking the funds to repay a bank. As long as the loan was obtained using genuine documents, the bank can only pursue civil remedies. If an agent threatens you with <Link href="/can-i-go-to-jail-for-loan-default-in-india" className="text-blue-700 underline font-bold hover:text-blue-900">jail for loan default</Link>, they are committing an offense of criminal intimidation.
@@ -379,10 +379,10 @@ export default function EducationLoanDefaultConsequencesClient() {
 
                             {/* Visual Element 3: Checklist */}
                             <div className="bg-white border-2 border-green-500 p-8 rounded-2xl mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-green-800 mb-6 flex items-center gap-2">
+                                <h3 className="text-2xl font-bold text-green-800 mb-6 flex items-center gap-2">
                                     <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                                     Action Checklist: Delaying NPA Status
-                                </h4>
+                                </h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-4">
                                         <div className="flex-shrink-0 mt-1">
@@ -458,7 +458,7 @@ export default function EducationLoanDefaultConsequencesClient() {
                                                 {review.name.charAt(0)}
                                             </div>
                                             <div>
-                                                <h4 className="font-bold text-gray-900 m-0">{review.name}</h4>
+                                                <p className="font-bold text-gray-900 m-0">{review.name}</p>
                                                 <p className="text-sm text-gray-500 m-0">{review.location}</p>
                                             </div>
                                             <div className="ml-auto flex text-yellow-400">
@@ -476,7 +476,7 @@ export default function EducationLoanDefaultConsequencesClient() {
                             <div className="space-y-6 mb-12">
                                 {faqs.map((faq, idx) => (
                                     <div key={idx} className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                                        <h4 className="text-lg font-bold text-gray-900 mb-3">{faq.question}</h4>
+                                        <h3 className="text-lg font-bold text-gray-900 mb-3">{faq.question}</h3>
                                         <p className="text-gray-700 font-light leading-relaxed">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -497,7 +497,7 @@ export default function EducationLoanDefaultConsequencesClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 space-y-6">
                         {/* Primary CTA */}
                         <div className="bg-gradient-to-br from-blue-900 to-blue-700 p-6 rounded-2xl shadow-lg text-white text-center">
-                            <h3 className="font-bold text-xl mb-4">Facing Recovery Harassment?</h3>
+                            <p className="font-bold text-xl mb-4">Facing Recovery Harassment?</p>
                             <p className="text-sm opacity-90 mb-6">Our legal experts can stop the calls and negotiate a fair settlement for your education loan.</p>
                             <Link href="/contact" className="inline-block bg-white text-blue-900 font-bold py-3 px-6 rounded-xl w-full hover:bg-gray-50 transition-colors shadow-sm">
                                 Talk to a Lawyer
@@ -506,7 +506,7 @@ export default function EducationLoanDefaultConsequencesClient() {
 
                         {/* Related Expertise */}
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Expertise</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Expertise</p>
                             <ul className="space-y-3">
                                 <li>
                                     <Link href="/services/personal-loan-settlement" className="text-blue-700 hover:text-blue-900 font-medium text-sm flex items-center gap-2">

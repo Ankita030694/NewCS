@@ -283,7 +283,7 @@ export default function BestNbfcLoanSettlementLawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -454,7 +454,7 @@ export default function BestNbfcLoanSettlementLawyerClient() {
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Case Studies: Real Stories of NBFC Debt Relief</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The App Harassment Defended</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The App Harassment Defended</p>
                                 <p className="text-gray-700 mb-4">
                                     A young professional took 10 separate small loans from fintech apps, totaling 5 lakhs. The interest rates were over 60%, and the harassment was intense. She was suicidal.
                                 </p>
@@ -464,7 +464,7 @@ export default function BestNbfcLoanSettlementLawyerClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The SME Business Reset</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The SME Business Reset</p>
                                 <p className="text-gray-700 mb-4">
                                     A small garment exporter defaulted on a 40 lakh NBFC loan during a supply chain crisis. The bank initiated SARFAESI proceedings on his factory.
                                 </p>
@@ -544,7 +544,7 @@ export default function BestNbfcLoanSettlementLawyerClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Professional legal intervention to stop NBFC harassment immediately.</p>
                                 <Link
                                     href="/contact"
@@ -556,7 +556,7 @@ export default function BestNbfcLoanSettlementLawyerClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/services/anti-harassment" className="block text-sm text-blue-600 hover:underline">Stopping Harassment</Link>
                                     <Link href="/best-lawyer-for-bank-harassment-for-loan" className="block text-sm text-blue-600 hover:underline">Bank Harassment Help</Link>

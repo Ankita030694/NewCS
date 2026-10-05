@@ -70,7 +70,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-amber-900 mb-2">Important Advice for Salaried Borrowers</h4>
+              <h3 className="font-bold text-amber-900 mb-2">Important Advice for Salaried Borrowers</h3>
               <p className="text-sm text-amber-800 leading-relaxed">
                 If you are a salaried individual settling an unsecured personal loan or credit card, the amount waived by the bank is generally non-taxable. However, you must preserve your official settlement sanction letter and No Dues Certificate (NDC) to substantiate the capital nature of the transaction in the event of an automated inquiry under Section 133(6) from the Income Tax department.
               </p>
@@ -110,7 +110,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Have Specific Questions About Your Loan Default?</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Have Specific Questions About Your Loan Default?</h3>
               <p className="mb-4 text-sm text-gray-600">Our financial lawyers ensure your settlement is legally watertight and shielded against future tax and civil recovery disputes.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Speak with a Financial Legal Expert

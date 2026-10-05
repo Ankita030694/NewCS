@@ -81,7 +81,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-emerald-950 mb-2">Notice Verification Guarantee</h4>
+              <h3 className="font-bold text-emerald-950 mb-2">Notice Verification Guarantee</h3>
               <p className="text-sm text-emerald-800 leading-relaxed">
                 Always ensure payment is made directly to the bank&apos;s designated account number through official banking channels (NEFT/RTGS/Cheque). Never hand cash to collection agents or transfer funds into third-party accounts.
               </p>
@@ -112,7 +112,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Need Professional Assistance Through the Process?</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Need Professional Assistance Through the Process?</h3>
               <p className="mb-4 text-sm text-gray-600">CredSettle manages every stage of your settlement process with complete legal transparency and RBI compliance.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get Expert Process Guidance

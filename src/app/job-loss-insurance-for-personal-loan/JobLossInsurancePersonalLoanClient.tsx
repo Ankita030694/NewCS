@@ -502,7 +502,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
                     <Landmark className="w-4 h-4 text-[#1886ff]" />
-                    <h4>IRDAI Policyholder Protection</h4>
+                    <h3>IRDAI Policyholder Protection</h3>
                   </div>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     The IRDAI (Protection of Policyholders' Interests) Regulations mandate that general insurers decide on claims within 30 days of receiving the final survey report. Unreasonable rejections or delays attract statutory penal interest at 2% above prevailing bank rate.
@@ -512,7 +512,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
                     <BadgeAlert className="w-4 h-4 text-[#1886ff]" />
-                    <h4>Section 25 PSSA &amp; NI Act Defense</h4>
+                    <h3>Section 25 PSSA &amp; NI Act Defense</h3>
                   </div>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Bounced NACH mandates during active insurance processing do not constitute criminal fraud. Involuntary job loss and active claim filing establish a complete lack of criminal intention (mens rea), providing a solid legal defense before Magistrate Courts.
@@ -522,7 +522,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
                     <Scale className="w-4 h-4 text-[#1886ff]" />
-                    <h4>RBI Fair Practices Code Protections</h4>
+                    <h3>RBI Fair Practices Code Protections</h3>
                   </div>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Under RBI Master Directions, recovery agents are strictly prohibited from visiting borrowers outside 8:00 AM to 7:00 PM, calling references or employers, or engaging in public humiliation. Violations permit immediate police FIRs and RBI Ombudsman complaints.
@@ -532,7 +532,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
                     <FileText className="w-4 h-4 text-[#1886ff]" />
-                    <h4>Consumer Protection Act Remedies</h4>
+                    <h3>Consumer Protection Act Remedies</h3>
                   </div>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Under the Consumer Protection Act, 2019, arbitrary repudiation of a valid credit shield claim constitutes actionable "Deficiency of Service" and "Unfair Trade Practice", allowing borrowers to claim full compensation and emotional distress damages.
@@ -662,28 +662,28 @@ export default function JobLossInsurancePersonalLoanClient() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm">Corporate Restructuring &amp; IT Layoffs</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Corporate Restructuring &amp; IT Layoffs</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Tech professionals impacted by mass global or domestic downsizing easily qualify for credit shield payouts provided the severance letter explicitly states organizational redundancy rather than voluntary separation or performance termination.
                   </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm">Probationary &amp; Contractual Staff</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Probationary &amp; Contractual Staff</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Fixed-term contract completions or probation non-confirmations are often excluded under standard general insurance riders. In such instances, CredSettle directly engages the bank credit committee to structure an immediate One-Time Settlement.
                   </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm">Multiple Loans with Partial Insurance</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Multiple Loans with Partial Insurance</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Borrowers holding personal loans across multiple banks where only one carries insurance require a dual strategy: claiming EMIs on the insured account while proactively negotiating moratoriums or OTS on uninsured lines.
                   </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm">Loans Assigned to ARCs</h4>
+                  <h3 className="font-bold text-slate-900 text-sm">Loans Assigned to ARCs</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     If an unpaid loan has already been sold to an Asset Reconstruction Company (ARC), past insurance claims can no longer be triggered. However, ARCs purchase portfolios at deep discounts, enabling CredSettle to negotiate substantial 50% to 70% waivers.
                   </p>
@@ -859,9 +859,9 @@ export default function JobLossInsurancePersonalLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
                   <span>Confidential Assessment</span>
                 </div>
-                <h3 className="text-lg md:text-xl font-bold leading-snug">
+                <p className="text-lg md:text-xl font-bold leading-snug">
                   Struggling with Loan EMIs After Job Loss?
-                </h3>
+                </p>
                 <p className="text-xs md:text-sm text-blue-100 leading-relaxed">
                   Let CredSettle legal and debt specialists audit your loan policy, file your insurance claim, or negotiate an official compromise settlement.
                 </p>
@@ -890,7 +890,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                     />
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900 text-sm">Ashish Jhangra</h4>
+                    <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
                     <p className="text-xs text-slate-500 font-medium">Legal &amp; Debt Resolution Professional</p>
                   </div>
                 </div>
@@ -907,9 +907,9 @@ export default function JobLossInsurancePersonalLoanClient() {
 
               {/* CredSettle Trust Badges */}
               <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-3">
-                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider text-slate-400">
+                <p className="font-bold text-slate-900 text-xs uppercase tracking-wider text-slate-400">
                   CredSettle Trust Metrics
-                </h4>
+                </p>
                 <div className="space-y-2.5 text-xs text-slate-700">
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-500 flex-shrink-0" />

@@ -178,7 +178,7 @@ export default function CibilImprovementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Content</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Content</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -416,7 +416,7 @@ export default function CibilImprovementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Start Rebuilding Today</h4>
+                <p className="font-bold text-2xl mb-4">Start Rebuilding Today</p>
                 <p className="text-blue-100 mb-6 text-sm">Don't let a past mistake define your financial future. Take the first step now.</p>
                 <Link 
                   href="/contact"
@@ -441,7 +441,7 @@ export default function CibilImprovementClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Key Tips</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Key Tips</p>
                 <ul className="space-y-4">
                   <li className="text-gray-600 text-sm flex items-start">
                     <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-1.5 mr-2 shrink-0"></div>

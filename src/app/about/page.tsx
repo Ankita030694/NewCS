@@ -245,12 +245,12 @@ export default function AboutPage() {
                     padding: '12.96px'
                   }}
                 >
-                  <h3
+                  <p
                     className="font-semibold text-gray-800 text-center mb-4"
                     style={{ fontSize: '18.58px' }}
                   >
                     Our media coverages
-                  </h3>
+                  </p>
                   <div className="flex flex-row items-center justify-center gap-2 w-full" style={{ flexWrap: 'wrap' }}>
                     <div>
                       <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }} />
@@ -358,12 +358,12 @@ export default function AboutPage() {
                     maxWidth: '296px'
                   }}
                 >
-                  <h3
+                  <p
                     className="font-semibold text-gray-800 text-center"
                     style={{ fontSize: '18.58px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingTop: '12.96px' }}
                   >
                     Our media <br /> coverages
-                  </h3>
+                  </p>
                   <div className="flex flex-col w-full mt-5" style={{ gap: '9.72px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingBottom: '12.96px' }}>
                     <div className="flex items-center justify-center mb-5">
                       <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '35.92px' }} />
@@ -958,12 +958,12 @@ export default function AboutPage() {
               <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                 {/* Text Content */}
                 <div className="flex flex-col items-center gap-[28px] w-full">
-                  <h2
+                  <h3
                     className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
                     style={{ color: '#0C2756', fontFamily: 'Poppins' }}
                   >
                     Ready to Start Your Journey to Financial Freedom?
-                  </h2>
+                  </h3>
                   <p
                     className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full"
                     style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins' }}

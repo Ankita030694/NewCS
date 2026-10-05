@@ -256,7 +256,7 @@ export default function LoanSettlementServicesClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -419,7 +419,7 @@ export default function LoanSettlementServicesClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-500">
-                    <h4 className="font-bold text-green-800 mb-3">The Pros</h4>
+                    <h3 className="font-bold text-green-800 mb-3">The Pros</h3>
                     <ul className="list-disc pl-5 space-y-2 text-sm text-green-900">
                       <li>Debt reduction: Pay significantly less than what you owe.</li>
                       <li>Stress relief: Stop the calls and the legal threats.</li>
@@ -428,7 +428,7 @@ export default function LoanSettlementServicesClient() {
                     </ul>
                   </div>
                   <div className="bg-red-50 p-6 rounded-2xl border-l-4 border-red-500">
-                    <h4 className="font-bold text-red-800 mb-3">The Cons</h4>
+                    <h3 className="font-bold text-red-800 mb-3">The Cons</h3>
                     <ul className="list-disc pl-5 space-y-2 text-sm text-red-900">
                       <li>Credit impact: Your CIBIL score will decrease.</li>
                       <li>Future borrowing: Difficult to get new loans for 3 to 7 years.</li>
@@ -501,7 +501,7 @@ export default function LoanSettlementServicesClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Get Relief Today</h4>
+                <p className="font-bold text-2xl mb-4">Get Relief Today</p>
                 <p className="text-blue-100 mb-6 text-sm">Don't wait for the debt to grow. Take the first step toward a settled future now.</p>
                 <Link 
                   href="/contact"
@@ -526,7 +526,7 @@ export default function LoanSettlementServicesClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Quick Links</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

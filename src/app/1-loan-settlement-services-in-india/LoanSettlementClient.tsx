@@ -264,7 +264,7 @@ export default function LoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -446,19 +446,19 @@ export default function LoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-blue-50 p-5 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-2">Myth: Loan settlement is illegal or a scam.</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Myth: Loan settlement is illegal or a scam.</h3>
                     <p className="text-sm"><strong>Reality:</strong> It is a perfectly legal and widely recognized financial process used by banks globally to manage NPAs. It is a contractual agreement between two parties.</p>
                   </div>
                   <div className="bg-blue-50 p-5 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-2">Myth: You will go to jail for not paying a personal loan.</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Myth: You will go to jail for not paying a personal loan.</h3>
                     <p className="text-sm"><strong>Reality:</strong> Defaulting on a loan is a civil matter, not a criminal one. Unless there is fraud or a bounced cheque involved, there is no provision for imprisonment for simple inability to pay.</p>
                   </div>
                   <div className="bg-blue-50 p-5 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-2">Myth: You can never get a loan again after settlement.</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Myth: You can never get a loan again after settlement.</h3>
                     <p className="text-sm"><strong>Reality:</strong> While it is difficult in the short term, you can rebuild your credit score over 2 to 3 years and become eligible for credit again through responsible behavior.</p>
                   </div>
                   <div className="bg-blue-50 p-5 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-2">Myth: The bank will settle for 10 percent of the amount.</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Myth: The bank will settle for 10 percent of the amount.</h3>
                     <p className="text-sm"><strong>Reality:</strong> While high discounts are possible, expecting a 90 percent waiver is unrealistic. Most settlements happen between 30 and 70 percent of the total outstanding.</p>
                   </div>
                 </div>
@@ -570,7 +570,7 @@ export default function LoanSettlementClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don't let debt define your future. Get in touch with India's top loan settlement experts and start your journey toward a debt-free life today.</p>
                   <Link 
                     href="/contact"
@@ -597,7 +597,7 @@ export default function LoanSettlementClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Expert Debt Help</h4>
+                <p className="font-bold text-2xl mb-4">Expert Debt Help</p>
                 <p className="text-blue-100 mb-6 text-sm">Struggling with multiple loans? Our experts can help you settle and save.</p>
                 <Link 
                   href="/contact"
@@ -623,7 +623,7 @@ export default function LoanSettlementClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Related Services</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Related Services</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/services/personal-loan-settlement" className="group flex items-start">

@@ -199,7 +199,7 @@ export default function ProfessionalDocumentsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -419,7 +419,7 @@ export default function ProfessionalDocumentsClient() {
                   To make things easy for you, here is a quick summary checklist of the documents you should start gathering today. Check off each item as you find it and place it in a dedicated folder (both physical and digital).
                 </p>
                 <div className="bg-gray-100 p-8 rounded-3xl border border-gray-200">
-                  <h4 className="font-bold text-xl mb-4 text-blue-900">Mandatory Documents</h4>
+                  <h3 className="font-bold text-xl mb-4 text-blue-900">Mandatory Documents</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2">✓</span>
@@ -442,7 +442,7 @@ export default function ProfessionalDocumentsClient() {
                       <span>ITR for the last 2 to 3 financial years</span>
                     </li>
                   </ul>
-                  <h4 className="font-bold text-xl mt-6 mb-4 text-blue-900">Hardship-Specific (Gather as applicable)</h4>
+                  <h3 className="font-bold text-xl mt-6 mb-4 text-blue-900">Hardship-Specific (Gather as applicable)</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="text-blue-600 mr-2">→</span>
@@ -528,7 +528,7 @@ export default function ProfessionalDocumentsClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Settle Your Debt?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Settle Your Debt?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don’t let missing paperwork stand in the way of your financial freedom. Let our experts guide you through the process.</p>
                   <Link 
                     href="/contact"
@@ -552,7 +552,7 @@ export default function ProfessionalDocumentsClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Debt Evaluation</h4>
+                <p className="font-bold text-2xl mb-4">Free Debt Evaluation</p>
                 <p className="text-blue-100 mb-6 text-sm">Upload your statement and get a free analysis of your settlement chances.</p>
                 <Link 
                   href="/contact"
@@ -578,7 +578,7 @@ export default function ProfessionalDocumentsClient() {
 
               {/* Helpful Resources Section */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="group flex items-start">

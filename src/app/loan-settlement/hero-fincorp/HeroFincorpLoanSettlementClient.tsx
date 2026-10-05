@@ -201,7 +201,7 @@ export default function HeroFincorpLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -246,19 +246,19 @@ export default function HeroFincorpLoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-bold text-gray-900">Retail & Vehicle Loans</h4>
+                      <h3 className="font-bold text-gray-900">Retail & Vehicle Loans</h3>
                       <p className="text-sm text-gray-600">Secured loans (Two-wheelers, Used Cars). Here, the lender has leverage because they can seize the asset.</p>
                    </div>
                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-bold text-gray-900">Digital Lending (Fintech)</h4>
+                      <h3 className="font-bold text-gray-900">Digital Lending (Fintech)</h3>
                       <p className="text-sm text-gray-600">Unsecured personal loans (SimplyCash). High interest, low ticket size. Lender has low leverage but uses high harassment.</p>
                    </div>
                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-bold text-gray-900">SME & Business Loans</h4>
+                      <h3 className="font-bold text-gray-900">SME & Business Loans</h3>
                       <p className="text-sm text-gray-600">Unnati loans. Can be secured or unsecured. Settlement depends on proving business failure.</p>
                    </div>
                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-bold text-gray-900">Corporate & LAP</h4>
+                      <h3 className="font-bold text-gray-900">Corporate & LAP</h3>
                       <p className="text-sm text-gray-600">Loan Against Property. Very hard to settle without selling the property, but restructuring is possible.</p>
                    </div>
                 </div>
@@ -269,7 +269,7 @@ export default function HeroFincorpLoanSettlementClient() {
                 <p className="mb-4">
                   <strong>SimplyCash</strong> is Hero Fincorp’s instant personal loan app. These loans are disbursed quickly, often with minimal documentation, but carry high interest rates (up to 25-30% annualized).
                 </p>
-                <h4 className="font-bold text-gray-800 text-lg mb-2">Why Settlement is Highly Probable</h4>
+                <h3 className="font-bold text-gray-800 text-lg mb-2">Why Settlement is Highly Probable</h3>
                 <p className="mb-4">
                    Since SimplyCash loans are <strong>unsecured</strong>, Hero Fincorp has no asset to sell to recover their money. Their only tools are:
                 </p>
@@ -294,7 +294,7 @@ export default function HeroFincorpLoanSettlementClient() {
                     <strong>Hero Unnati</strong> loans are designed for MSMEs and self-employed individuals. If your business has shut down or suffered severe losses, you have a strong case for One Time Settlement (OTS).
                  </p>
                  <div className="bg-green-50 p-6 rounded-xl border border-green-100 mb-6">
-                    <h5 className="font-bold text-green-900 mb-2">The "Business Loss" Defense</h5>
+                    <h3 className="font-bold text-green-900 mb-2">The "Business Loss" Defense</h3>
                     <p className="text-green-800 text-sm mb-2">
                        Unlike personal reasons which can be subjective, business loss is documentable. To settle a Unnati loan, you must produce:
                     </p>
@@ -314,11 +314,11 @@ export default function HeroFincorpLoanSettlementClient() {
                 <p className="mb-4">
                   For many Indian families, a two-wheeler is not a luxury; it’s a livelihood tool. Losing it means losing the ability to travel to work, worsening the financial crisis.
                 </p>
-                <h4 className="font-bold text-gray-800 text-lg mb-2">The Hypothecation Reality</h4>
+                <h3 className="font-bold text-gray-800 text-lg mb-2">The Hypothecation Reality</h3>
                 <p className="mb-4">
                    Your bike’s Registration Certificate (RC) has a "Hypothecation" stamp in favor of Hero Fincorp. This gives them ownership rights until the loan is closed.
                 </p>
-                <h4 className="font-bold text-gray-800 text-lg mb-2">The Danger of "Voluntary Surrender"</h4>
+                <h3 className="font-bold text-gray-800 text-lg mb-2">The Danger of "Voluntary Surrender"</h3>
                 <p className="mb-4">
                    Recovery agents often say, <em>"Hand over the bike, and your loan will be closed."</em> <strong>This is often a lie.</strong> Here is what actually happens:
                 </p>
@@ -328,7 +328,7 @@ export default function HeroFincorpLoanSettlementClient() {
                    <li>They then send you a legal notice for the remaining ₹25,000 (the shortfall).</li>
                    <li>You have lost the bike and you still have debt.</li>
                 </ol>
-                <h4 className="font-bold text-gray-800 text-lg mb-2">How to Settle Correctly</h4>
+                <h3 className="font-bold text-gray-800 text-lg mb-2">How to Settle Correctly</h3>
                 <p>
                    The goal is a <strong>"Possession-Retained Settlement"</strong>. We negotiate with the regional manager. We argue that the auction process is costly and time-consuming for them. We offer a lump sum (often close to the principal outstanding) to close the loan <em>without</em> surrendering the bike. Once paid, you get the NOC, and you remove the hypothecation at the RTO.
                 </p>
@@ -344,15 +344,15 @@ export default function HeroFincorpLoanSettlementClient() {
                 </p>
                 <div className="space-y-4 mb-6">
                    <div className="border-l-4 border-blue-500 pl-4 py-2 bg-gray-50">
-                      <h5 className="font-bold text-gray-900">Stage 1: The Notice</h5>
+                      <h3 className="font-bold text-gray-900">Stage 1: The Notice</h3>
                       <p className="text-sm text-gray-600">You receive a registered post from an arbitrator (usually an advocate appointed by Hero) setting a hearing date.</p>
                    </div>
                    <div className="border-l-4 border-yellow-500 pl-4 py-2 bg-gray-50">
-                      <h5 className="font-bold text-gray-900">Stage 2: Non-Appearance</h5>
+                      <h3 className="font-bold text-gray-900">Stage 2: Non-Appearance</h3>
                       <p className="text-sm text-gray-600">You ignore it because you can’t travel to Delhi. The arbitrator records your absence.</p>
                    </div>
                    <div className="border-l-4 border-red-500 pl-4 py-2 bg-gray-50">
-                      <h5 className="font-bold text-gray-900">Stage 3: Ex-Parte Award</h5>
+                      <h3 className="font-bold text-gray-900">Stage 3: Ex-Parte Award</h3>
                       <p className="text-sm text-gray-600">The arbitrator passes an order claiming you owe the full amount + 18% interest + legal costs. This award is enforceable as a court decree.</p>
                    </div>
                 </div>
@@ -391,35 +391,35 @@ export default function HeroFincorpLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xl">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Detailed Case Assessment</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Detailed Case Assessment</h3>
                     <p className="text-gray-600 mt-2">We start by analyzing your loan statement. We separate the "Principal" from the "Interest" and "Penalties" (Bouncing charges, overdue interest). Our goal is to pay only a portion of the Principal.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xl">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Legal Shielding</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Legal Shielding</h3>
                     <p className="text-gray-600 mt-2">We issue a formal representation to Hero Fincorp’s legal team. This notifies them that you have engaged legal counsel, which typically reduces the frequency of abusive collection calls.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xl">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Hardship Validation</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Hardship Validation</h3>
                     <p className="text-gray-600 mt-2">We collate your proofs (medical reports, termination letters, bank statements). We construct a narrative that proves to the settlement officer that <em>"This is all the money the borrower has. Take it or lose everything."</em></p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xl">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">The Negotiation Rounds</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">The Negotiation Rounds</h3>
                     <p className="text-gray-600 mt-2">Settlement is rarely agreed to in the first call. It involves 3-4 rounds of offers and counter-offers. We handle this friction for you, ensuring you don’t succumb to pressure.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-xl">5</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Verification & Payment</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Verification & Payment</h3>
                     <p className="text-gray-600 mt-2">Once Hero Fincorp issues the settlement letter on their official letterhead, we verify every clause. Only then do you make the payment directly to their account.</p>
                   </div>
                 </div>
@@ -459,19 +459,19 @@ export default function HeroFincorpLoanSettlementClient() {
               <h2 id="mistakes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Common Mistakes to Avoid</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">1. Paying without a Letter</h5>
+                    <h3 className="font-bold text-red-900 mb-2">1. Paying without a Letter</h3>
                     <p className="text-sm text-red-800">Never pay an agent based on a WhatsApp promise or oral assurance. Without an official email/letter, that money will just be adjusted against "interest" and your loan will remain active.</p>
                  </div>
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">2. Ignoring Court Summons</h5>
+                    <h3 className="font-bold text-red-900 mb-2">2. Ignoring Court Summons</h3>
                     <p className="text-sm text-red-800">Ignoring a Section 138 summons leads to a non-bailable warrant. You must respect the court process while negotiation is ongoing.</p>
                  </div>
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">3. Fresh Loans to Pay Old</h5>
+                    <h3 className="font-bold text-red-900 mb-2">3. Fresh Loans to Pay Old</h3>
                     <p className="text-sm text-red-800">Taking a new SimplyCash loan to pay a bike EMI is a debt trap. Only borrow to invest or build assets, never to service debt.</p>
                  </div>
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">4. Panicking at "Police" Threats</h5>
+                    <h3 className="font-bold text-red-900 mb-2">4. Panicking at "Police" Threats</h3>
                     <p className="text-sm text-red-800">Recovery agents often impersonate police. Remember: Police do not get involved in civil loan disputes.</p>
                  </div>
               </div>
@@ -481,7 +481,7 @@ export default function HeroFincorpLoanSettlementClient() {
                  <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
                     <div className="flex justify-between items-start mb-4">
                        <div>
-                          <h5 className="font-bold text-gray-900">SimplyCash Loan Settled</h5>
+                          <h3 className="font-bold text-gray-900">SimplyCash Loan Settled</h3>
                           <p className="text-xs text-gray-500">Client: Rajesh K. (Software Engineer, Bangalore)</p>
                        </div>
                        <span className="bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full">Saved 55%</span>
@@ -492,7 +492,7 @@ export default function HeroFincorpLoanSettlementClient() {
                  <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
                     <div className="flex justify-between items-start mb-4">
                        <div>
-                          <h5 className="font-bold text-gray-900">Bike Repossession Stopped</h5>
+                          <h3 className="font-bold text-gray-900">Bike Repossession Stopped</h3>
                           <p className="text-xs text-gray-500">Client: Amit S. (Delivery Partner, Delhi)</p>
                        </div>
                        <span className="bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full">Bike Saved</span>
@@ -520,7 +520,7 @@ export default function HeroFincorpLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform hover:-translate-y-1 transition-transform duration-300">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Arbitration Notice?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Arbitration Notice?</p>
                 <p className="text-sm text-gray-600 mb-6">Don’t ignore the Delhi arbitrator. We can respond for you.</p>
                 <Link 
                   href="/contact"
@@ -536,7 +536,7 @@ export default function HeroFincorpLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/loan-settlement/bajaj-finserv" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">

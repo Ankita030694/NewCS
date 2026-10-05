@@ -231,7 +231,7 @@ export default function HandleLoanDefaultClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20 h-[calc(100vh-100px)] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -505,7 +505,7 @@ export default function HandleLoanDefaultClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop the Panic!</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop the Panic!</p>
                                 <p className="text-sm text-gray-600 mb-6">Get a professional debt resolution plan and stop agent harassment today.</p>
                                 <Link
                                     href="/contact"
@@ -522,7 +522,7 @@ export default function HandleLoanDefaultClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Content</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Content</p>
                                 <nav className="space-y-3">
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>
                                     <Link href="/can-i-settle-my-loan-without-a-lawyer" className="block text-sm text-blue-600 hover:underline">Settle Without Lawyer</Link>

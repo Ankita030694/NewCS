@@ -254,7 +254,7 @@ export default function SettlementTimelineClient() {
                     {/* Left: Sticky TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
-                            <h3 className="font-black text-gray-900 mb-6 uppercase tracking-widest text-[10px] border-b pb-2 border-gray-50">Timeline Guide</h3>
+                            <p className="font-black text-gray-900 mb-6 uppercase tracking-widest text-[10px] border-b pb-2 border-gray-50">Timeline Guide</p>
                             <nav className="space-y-3">
                                 {navLinks.map((link) => (
                                     <a
@@ -294,7 +294,7 @@ export default function SettlementTimelineClient() {
                                 Banks in India follow a strict regulatory framework for classifying loans. You cannot simply walk into a bank and ask for a settlement on a loan you are paying regularly. The "Settlement Clock" effectively starts only after your account is classified as a <strong>Non-Performing Asset (NPA).</strong> This occurs when the interest or principal has remained overdue for a period of more than 90 days.
                             </p>
                             <div className="bg-blue-50 p-10 rounded-3xl border border-blue-100 mb-12 shadow-sm">
-                                <h4 className="text-blue-900 font-black text-xl mb-4 border-l-4 border-blue-600 pl-4">The 90-Day Structural Breakdown:</h4>
+                                <p className="text-blue-900 font-black text-xl mb-4 border-l-4 border-blue-600 pl-4">The 90-Day Structural Breakdown:</p>
                                 <ul className="space-y-4 text-blue-800 font-light list-disc pl-5">
                                     <li><strong>Day 1-30 (SMA-0):</strong> The account is in default. Automated SMS and IVR calls begin. The focus is on "Curing" the default.</li>
                                     <li><strong>Day 31-60 (SMA-1):</strong> The intensity of calls increases. Third-party collection agencies are often assigned. Home visits might occur.</li>
@@ -460,7 +460,7 @@ export default function SettlementTimelineClient() {
                             
                             {/* Timeline CTA */}
                             <div className="bg-gradient-to-tr from-blue-700 to-blue-900 p-10 rounded-[2.5rem] shadow-2xl text-white border border-blue-600">
-                                <h4 className="font-bold text-2xl mb-4 border-b border-blue-400 pb-2">March Special</h4>
+                                <p className="font-bold text-2xl mb-4 border-b border-blue-400 pb-2">March Special</p>
                                 <p className="text-xs text-blue-100 mb-8 font-light italic">"Final 2 weeks of March are the fastest for approvals. Let’s close your debt now!"</p>
                                 <Link
                                     href="/contact"
@@ -472,7 +472,7 @@ export default function SettlementTimelineClient() {
 
                             {/* Essential Reads */}
                             <div className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-xl">
-                                <h4 className="font-black text-gray-900 mb-8 uppercase tracking-widest text-[10px] border-b pb-4">Essential Reads</h4>
+                                <p className="font-black text-gray-900 mb-8 uppercase tracking-widest text-[10px] border-b pb-4">Essential Reads</p>
                                 <nav className="space-y-6">
                                     {[
                                         { href: "/are-there-legal-implecations-or-non-payment-during-debt-settlement", text: "Legal Risks Analysis" },

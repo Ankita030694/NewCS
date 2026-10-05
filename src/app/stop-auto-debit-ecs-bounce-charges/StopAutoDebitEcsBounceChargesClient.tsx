@@ -936,7 +936,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Ashish Jhangra</h3>
+                  <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
                   <p className="text-[11px] text-slate-500 font-medium">Legal &amp; Debt Resolution Professional</p>
                 </div>
               </div>
@@ -958,9 +958,9 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 <Phone className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h3 className="font-extrabold text-base sm:text-lg tracking-tight">
+                <p className="font-extrabold text-base sm:text-lg tracking-tight">
                   Stop Illegal Deductions Now
-                </h3>
+                </p>
                 <p className="text-xs text-white/90 mt-1.5 leading-relaxed">
                   Are loan apps repeatedly hitting your account with unlawful bounce penalties? Speak with our legal resolution team today.
                 </p>

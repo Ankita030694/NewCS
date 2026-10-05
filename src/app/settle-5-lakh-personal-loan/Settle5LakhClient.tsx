@@ -131,7 +131,7 @@ export default function Settle5LakhClient() {
                     
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                            <p className="font-bold text-black mb-4 text-lg border-b pb-2">Table of Contents</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -175,12 +175,12 @@ export default function Settle5LakhClient() {
                                 To negotiate effectively, you must understand how your ₹5,00,000 debt is structured and how the bank views it internally. A loan outstanding is not just a single block of money; it is composed of the principal amount disbursed to you, the interest accrued over time, and various penal charges applied due to missed payments.
                             </p>
 
-                            <h3 id="calculating-components" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Calculating the Principal vs Interest Component</h3>
+                            <h2 id="calculating-components" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Calculating the Principal vs Interest Component</h2>
                             <p className="text-black leading-relaxed mb-6">
                                 When you receive a demand notice for a defaulted ₹5,00,000 loan, the total amount claimed might actually be ₹6,50,000 or more. This inflated figure includes the original principal, standard interest, penal interest for late payments, bounce charges for failed auto-debits, and potentially legal notice charges. The key to a successful negotiation is focusing on the principal amount.</p><p className="text-black leading-relaxed mb-6"></p><p className="text-black leading-relaxed mb-6">Banks are generally willing to waive 100% of the penal charges and a significant portion of the accrued interest. Their absolute bottom line is recovering as much of the principal as possible. If your original principal was ₹5,00,000 and you have already paid ₹1,50,000 towards the principal before defaulting, the bank's actual "loss" is ₹3,50,000. Your settlement negotiations should ideally be anchored around this remaining principal figure, not the artificially inflated total outstanding balance shown on your statement.
                             </p>
 
-                            <h3 id="bank-perspective" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Understanding the Bank's Perspective on a 5 Lakh Default</h3>
+                            <h2 id="bank-perspective" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Understanding the Bank's Perspective on a 5 Lakh Default</h2>
                             <p className="text-black leading-relaxed mb-6">
                                 From the bank's perspective, a defaulted ₹5,00,000 loan represents a specific risk category. It is a substantial amount, meaning they will assign experienced recovery officers to your case. However, it is not a multi-crore corporate default that warrants immediate action through the Debt Recovery Tribunal (DRT).</p><p className="text-black leading-relaxed mb-6"></p><p className="text-black leading-relaxed mb-6">The bank uses predictive models to assess the probability of recovery. If you have lost your job, suffered a severe medical emergency, or experienced a total business failure, the bank's model will flag your account as a "high risk of total loss." In such scenarios, the bank is far more receptive to a substantial discount, sometimes agreeing to settle for 30% to 40% of the outstanding principal, simply to close the file and minimize their losses. Understanding this internal calculus empowers you to present your financial hardship convincingly.
                             </p>
@@ -190,29 +190,29 @@ export default function Settle5LakhClient() {
                                 Settling a loan is not a single event; it is a phased process that requires patience, documentation, and a clear understanding of your financial limits. Rushing the process or showing desperation will only result in a higher settlement amount. Here is a structured approach to negotiating a settlement for your ₹5,00,000 personal loan.
                             </p>
 
-                            <h3 id="step-1" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 1: Assess Your True Financial Capacity</h3>
+                            <h2 id="step-1" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 1: Assess Your True Financial Capacity</h2>
                             <p className="text-black leading-relaxed mb-6">
                                 Before you even speak to the bank, you must conduct a ruthless assessment of your finances. Calculate exactly how much money you can raise for a lump-sum settlement. Can you liquidate an investment, borrow from a family member, or sell a non-essential asset? You must arrive at a hard limit. If your maximum capacity is ₹2,00,000, that becomes your absolute ceiling during negotiations. Never offer or agree to an amount that you cannot pay within the stipulated deadline, as breaking a settlement agreement will severely damage your credibility and lead to harsher recovery measures.
                             </p>
 
-                            <h3 id="step-2" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 2: Stop Payment and Wait for the Right Moment</h3>
+                            <h2 id="step-2" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 2: Stop Payment and Wait for the Right Moment</h2>
                             <p className="text-black leading-relaxed mb-6">
                                 This is often the most counterintuitive and difficult step. To qualify for a substantial settlement discount, your account must age. Banks rarely offer deep discounts on accounts that are only 30 or 60 days overdue. Typically, the best settlement offers are unlocked after the account has been an NPA for 180 days or more. During this waiting period, you will endure intense recovery calls. You must remain calm, state your financial inability to pay the EMI, and resist the urge to make small, token payments, as these payments reset the aging clock and weaken your negotiating position.
                             </p>
 
-                            <h3 id="step-3" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 3: Initiate the Settlement Dialogue</h3>
+                            <h2 id="step-3" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 3: Initiate the Settlement Dialogue</h2>
                             <p className="text-black leading-relaxed mb-6">
                                 Once your account is adequately aged, formally initiate the dialogue. Write a detailed hardship letter to the bank's nodal officer or the head of collections. Clearly explain the legitimate reasons for your default, such as a medical crisis or prolonged unemployment. Attach supporting documents, like medical bills or a termination letter. State clearly that you intend to resolve the debt but lack the financial capacity to pay the full amount. Offer a realistic initial settlement figure, usually significantly lower than your actual maximum capacity, to leave room for negotiation.
                             </p>
 
-                            <h3 id="step-4" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 4: Negotiating the Settlement Amount (Target: 40-50%)</h3>
+                            <h2 id="step-4" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 4: Negotiating the Settlement Amount (Target: 40-50%)</h2>
                             <p className="text-black leading-relaxed mb-6">
                                 <span dangerouslySetInnerHTML={{__html: `This is where the actual bargaining happens. The bank will initially reject your low offer and demand the full amount or a minor discount. You must hold your ground. If you are aiming to <a href="/what-percentage-do-banks-accept-in-loan-settlement" class="text-blue-600 hover:underline">settle for 40% to 50%</a> of the outstanding, your initial offer should be around 25%. Expect multiple rounds of counter-offers. The recovery agents will use aggressive tactics to test your limits. Stay polite, reiterate your genuine financial hardship, and slowly increase your offer only if absolutely necessary. The key is persistence; the bank wants to close the file just as much as you do.`}} />
                             </p>
                             
                             <div dangerouslySetInnerHTML={{__html: `
 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-8 mt-6">
-    <h4 className="font-bold text-black mb-4 text-xl">Cost Breakdown: Typical ₹5 Lakh Settlement</h4>
+    <p className="font-bold text-black mb-4 text-xl">Cost Breakdown: Typical ₹5 Lakh Settlement</p>
     <div className="overflow-x-auto">
         <table className="w-full text-left border-collapse">
             <thead>
@@ -248,14 +248,14 @@ export default function Settle5LakhClient() {
 </div>
 `}} />
 
-                            <h3 id="step-5" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 5: Getting the Formal Settlement Letter</h3>
+                            <h2 id="step-5" className="text-2xl font-bold text-black mb-4 mt-8 scroll-mt-14">Step 5: Getting the Formal Settlement Letter</h2>
                             <p className="text-black leading-relaxed mb-6">
                                 Once a verbal agreement is reached, do not make any payment until you receive a formal, written settlement letter from the bank. This document is your only legal protection. The letter must be on the bank's official letterhead and clearly state the total outstanding, the agreed settlement amount, the payment deadline, and crucially, a statement that upon receipt of this payment, the loan account will be permanently closed and a No Dues Certificate will be issued. Verify the authenticity of this letter through the bank's official customer care before transferring any funds.
                             </p>
                             
                             <div dangerouslySetInnerHTML={{__html: `
 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 mb-8 mt-6">
-    <h4 className="font-bold text-black mb-4 text-xl">Verification Checklist Before Paying</h4>
+    <h2 className="font-bold text-black mb-4 text-xl">Verification Checklist Before Paying</h2>
     <ul className="space-y-3 text-black">
         <li className="flex items-start">
             
@@ -315,7 +315,7 @@ export default function Settle5LakhClient() {
                             <h2 id="success-stories" className="text-3xl font-bold text-black mb-8 mt-12 scroll-mt-14">Client Success Stories</h2>
                             <div dangerouslySetInnerHTML={{__html: `
 <div className="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm mb-8 mt-6">
-    <h4 className="font-bold text-black mb-4 text-xl">Case Study: Settling a ₹5 Lakh Loan After Job Loss</h4>
+    <h3 className="font-bold text-black mb-4 text-xl">Case Study: Settling a ₹5 Lakh Loan After Job Loss</h3>
     <p className="text-black mb-4"><strong>Background:</strong> Ramesh, a marketing executive, took a ₹5,00,000 personal loan in 2023. After losing his job in 2024, he defaulted on payments. By month 6, his outstanding balance including penalties reached ₹5,80,000.</p>
     <p className="text-black mb-4"><strong>The Strategy:</strong> Ramesh communicated his job loss in writing but stopped taking aggressive recovery calls. He waited until the account aged past 180 days (deep NPA). When the bank offered a settlement at ₹4,00,000, he countered with ₹1,50,000, citing total illiquidity.</p>
     <p className="text-black"><strong>The Result:</strong> After 4 weeks of back-and-forth negotiation, the bank agreed to a final settlement of ₹2,10,000 (42% of original principal). Ramesh liquidated a fixed deposit, paid directly into the loan account, and received his official NOC 15 days later, accepting the CIBIL impact in exchange for zero debt.</p>
@@ -344,7 +344,7 @@ export default function Settle5LakhClient() {
                             <div className="flex items-center space-x-4 mb-4">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="CredSettle Expert Author" className="w-16 h-16 rounded-full object-cover border-2 border-blue-100" />
                                 <div>
-                                    <h4 className="font-bold text-black">CredSettle Expert</h4>
+                                    <p className="font-bold text-black">CredSettle Expert</p>
                                     <p className="text-sm text-black">Legal & Financial Advisor</p>
                                 </div>
                             </div>

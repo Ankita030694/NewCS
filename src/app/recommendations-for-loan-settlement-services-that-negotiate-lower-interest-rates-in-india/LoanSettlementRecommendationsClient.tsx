@@ -202,7 +202,7 @@ export default function LoanSettlementRecommendationsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -490,7 +490,7 @@ export default function LoanSettlementRecommendationsClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Take the First Step Toward Financial Freedom</h2>
+                  <h3 className="text-3xl font-bold mb-4">Take the First Step Toward Financial Freedom</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Stop worrying about high interest rates and unmanageable debt. Get a free consultation with our expert advisors today and find the best path for your recovery.</p>
                   <Link 
                     href="/contact"
@@ -510,7 +510,7 @@ export default function LoanSettlementRecommendationsClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Need Immediate Relief?</h4>
+                <p className="font-bold text-2xl mb-4">Need Immediate Relief?</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing calls from recovery agents or struggling with high interest? We can help you settle or consolidate today.</p>
                 <Link 
                   href="/contact"

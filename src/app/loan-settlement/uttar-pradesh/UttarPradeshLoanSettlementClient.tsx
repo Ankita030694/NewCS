@@ -187,7 +187,7 @@ export default function UttarPradeshLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -224,7 +224,7 @@ export default function UttarPradeshLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Did You Know?</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
                 <p className="text-blue-800 m-0">
                   The Uttar Pradesh Police have become increasingly strict about harassment by recovery agents. Using services like "Dial 112" or the "UPCOP" app gives you immediate access to police assistance if you are being threatened.
                 </p>
@@ -255,35 +255,35 @@ export default function UttarPradeshLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">1</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Case Assessment & Shielding</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Case Assessment & Shielding</h3>
                     <p className="text-gray-700">We analyze your debt profile. Once you authorize us, we take over the burden of communication. We direct all recovery calls to our legal team. In aggressive markets like Ghaziabad or Meerut, this shield is vital for your mental peace.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">2</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">NPA Management</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">NPA Management</h3>
                     <p className="text-gray-700">Settlement is usually entertained only after the loan becomes a Non Performing Asset (90 days overdue). We guide you through this period, helping you reply to legal notices and avoiding mistakes that could weaken your position.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Negotiation with Regional Offices</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Negotiation with Regional Offices</h3>
                     <p className="text-gray-700">We negotiate directly with the bank’s Zonal or Regional offices in Lucknow or Noida. Our goal is to get a waiver on all interest and penalties, and a substantial reduction on the principal amount.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Written Settlement Letter</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Written Settlement Letter</h3>
                     <p className="text-gray-700">We secure a formal settlement offer on the bank’s letterhead. We verify the authenticity of this document to ensure you are not falling for a scam.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">5</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Closure</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Closure</h3>
                     <p className="text-gray-700">You pay the agreed amount directly to your loan account. We then ensure the bank issues a "No Dues Certificate" or closure letter, formally ending the debt.</p>
                   </div>
                 </div>
@@ -322,11 +322,11 @@ export default function UttarPradeshLoanSettlementClient() {
               </p>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-lg text-gray-900 mb-2">DRT Lucknow</h4>
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">DRT Lucknow</h3>
                   <p className="text-gray-600 text-sm">Located in the state capital, this tribunal handles cases from Lucknow and central UP districts. It is a busy tribunal, and having expert representation here is crucial.</p>
                 </div>
                 <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-lg text-gray-900 mb-2">DRT Allahabad (Prayagraj)</h4>
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">DRT Allahabad (Prayagraj)</h3>
                   <p className="text-gray-600 text-sm">Situated in the judicial heart of the state, this tribunal covers eastern UP and surrounding areas. It handles a significant volume of cases from cities like Varanasi and Gorakhpur.</p>
                 </div>
               </div>
@@ -397,7 +397,7 @@ export default function UttarPradeshLoanSettlementClient() {
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                    <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Uttar Pradesh Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Uttar Pradesh Support</p>
                 <p className="text-sm text-gray-600 mb-6">Legal aid for Noida, Lucknow & Kanpur residents.</p>
                 <Link 
                   href="/contact"

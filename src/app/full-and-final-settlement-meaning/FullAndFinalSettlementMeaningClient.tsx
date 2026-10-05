@@ -767,19 +767,19 @@ export default function FullAndFinalSettlementMeaningClient() {
                 {/* Statutory Penalties Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
-                    <h4 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5 mb-1.5">
+                    <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5 mb-1.5">
                       <Landmark className="w-4 h-4 text-blue-600" />
                       <span>RBI Directive RBI/2023-24/60 (₹5,000/Day Delay Penalty)</span>
-                    </h4>
+                    </h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
                       Lenders failing to issue the No Dues Certificate and release original property/movable documents within 30 days of settlement payment must pay the borrower ₹5,000 compensation for every day of unexcused delay.
                     </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
-                    <h4 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5 mb-1.5">
+                    <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5 mb-1.5">
                       <Building2 className="w-4 h-4 text-emerald-600" />
                       <span>RBI Circular RBI/2023-24/72 (₹100/Day Bureau Penalty)</span>
-                    </h4>
+                    </h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
                       Lenders and credit bureaus that fail to update or rectify credit bureau reporting within 30 days of receiving valid settlement proof must pay ₹100 per day compensation to the aggrieved borrower.
                     </p>
@@ -1229,9 +1229,9 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>100% CONFIDENTIAL</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white leading-tight">
+                <p className="text-xl font-bold text-white leading-tight">
                   Need Help Negotiating an F&amp;F Settlement?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
                   Our debt resolution professionals negotiate directly with Bank Principal Nodal Officers, eliminate unfair interest &amp; penal fees, verify settlement letters, and enforce 30-day NDC delivery.
                 </p>
@@ -1255,10 +1255,10 @@ export default function FullAndFinalSettlementMeaningClient() {
 
             {/* Card 3: Trust Signals Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-3 text-xs shadow-xs">
-              <h4 className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                 CredSettle Trust Commitments
-              </h4>
+              </p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />

@@ -206,7 +206,7 @@ export default function HowToRegulariseClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -273,7 +273,7 @@ export default function HowToRegulariseClient() {
                                         </svg>
                                     </div>
                                     <div className="ml-4">
-                                        <h3 className="text-lg font-bold text-red-900 mb-1">CRITICAL WARNING: Partial Payments Do Not Upgrade Your Status</h3>
+                                        <p className="text-lg font-bold text-red-900 mb-1">CRITICAL WARNING: Partial Payments Do Not Upgrade Your Status</p>
                                         <p className="text-sm text-red-800 font-medium">
                                             Never pay a random partial amount based on verbal promises from recovery agents. To successfully upgrade an NPA to a standard account, the RBI strictly mandates that the ENTIRE overdue arrears amount must be cleared in full. Partial payments will simply be absorbed into the interest ledger while the account remains an active NPA.
                                         </p>
@@ -444,7 +444,7 @@ export default function HowToRegulariseClient() {
                             
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 shadow-sm">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-3">Case Study 1: The Commercial Property Rescue</h4>
+                                    <h3 className="text-xl font-bold text-blue-900 mb-3">Case Study 1: The Commercial Property Rescue</h3>
                                     <p className="text-gray-800 mb-4 text-sm leading-relaxed">
                                         A small manufacturing unit suffered a major cash flow crisis due to delayed payments from a primary client. Their commercial loan became an NPA, and the bank initiated SARFAESI proceedings, aiming to auction the factory. The bank demanded a full closure of the 1.2 Crore outstanding principal.
                                     </p>
@@ -453,7 +453,7 @@ export default function HowToRegulariseClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-8 rounded-2xl border border-blue-100 shadow-sm">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-3">Case Study 2: The Personal Loan Trap</h4>
+                                    <h3 className="text-xl font-bold text-blue-900 mb-3">Case Study 2: The Personal Loan Trap</h3>
                                     <p className="text-gray-800 mb-4 text-sm leading-relaxed">
                                         An IT professional missed four months of personal loan EMIs due to a medical emergency. The account was classified as an NPA, and recovery agents began harassing him at his workplace. The bank refused to accept his offer to pay the missed EMIs, demanding he close the entire loan to stop the harassment.
                                     </p>
@@ -527,7 +527,7 @@ export default function HowToRegulariseClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing SARFAESI?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing SARFAESI?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop asset seizure by legally regularising your account. We can guide your exact next steps.</p>
                                 <Link
                                     href="/contact"
@@ -545,7 +545,7 @@ export default function HowToRegulariseClient() {
 
                             {/* Related Expertise - Replacing Author Card */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Default Defense</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME NPA Management</Link>

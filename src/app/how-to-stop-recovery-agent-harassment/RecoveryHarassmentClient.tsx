@@ -220,7 +220,7 @@ export default function RecoveryHarassmentClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Segments</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Segments</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -668,7 +668,7 @@ export default function RecoveryHarassmentClient() {
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white relative overflow-hidden group">
                 <div className="relative z-10">
                   <div className="bg-red-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-4 animate-pulse">24/7 Shield</div>
-                  <h4 className="font-bold text-2xl mb-4 leading-tight">Being Harassed?</h4>
+                  <p className="font-bold text-2xl mb-4 leading-tight">Being Harassed?</p>
                   <p className="text-blue-100 mb-8 text-sm leading-relaxed">Get our legal experts to stand between you and the agents. We stop the calls so you can live.</p>
                   <Link 
                     href="/contact"
@@ -680,7 +680,7 @@ export default function RecoveryHarassmentClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Essential Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Essential Resources</p>
                 <ul className="space-y-5">
                   <li>
                     <Link href="/how-to-stop-recovery-agent-home-visit" className="group flex items-start">

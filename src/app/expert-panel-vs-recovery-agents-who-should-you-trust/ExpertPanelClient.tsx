@@ -235,7 +235,7 @@ export default function ExpertPanelClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -308,7 +308,7 @@ export default function ExpertPanelClient() {
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-8 shadow-sm">
                                 <div className="flex items-center mb-3">
                                     <svg className="w-6 h-6 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                                    <h4 className="text-xl font-bold text-red-900">Critical Warning: Fake Settlement Traps</h4>
+                                    <p className="text-xl font-bold text-red-900">Critical Warning: Fake Settlement Traps</p>
                                 </div>
                                 <p className="text-red-800 font-medium">
                                     Agents use fake settlements to extract partial payments and reset the limitation period of your loan. They will demand cash or ask you to transfer funds to a "special legal account." Once paid, they disappear, and the bank continues to demand the full outstanding balance. Always verify offers independently!
@@ -396,10 +396,10 @@ export default function ExpertPanelClient() {
 
                             {/* Negotiation Script Visual Element */}
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 mb-10 shadow-inner">
-                                <h4 className="text-2xl font-bold text-blue-900 mb-6 flex items-center">
+                                <p className="text-2xl font-bold text-blue-900 mb-6 flex items-center">
                                     <svg className="w-8 h-8 mr-3 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
                                     Agent Deflection Scripts
-                                </h4>
+                                </p>
                                 <div className="space-y-5">
                                     <div className="bg-white p-5 rounded-xl shadow-sm border border-blue-100">
                                         <p className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-2">Scenario: Agent demands immediate cash payment</p>
@@ -424,7 +424,7 @@ export default function ExpertPanelClient() {
                             {/* Checklist Visual Element */}
                             <div className="bg-white border-2 border-green-100 p-8 rounded-3xl mb-10 shadow-lg relative">
                                 <div className="absolute top-0 right-0 bg-green-600 text-white px-4 py-1 rounded-bl-xl rounded-tr-xl font-bold text-sm uppercase">Must Do</div>
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6">Immediate Action Protocol</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6">Immediate Action Protocol</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -455,7 +455,7 @@ export default function ExpertPanelClient() {
                             </p>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Observation: The Corporate Deflection</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case Observation: The Corporate Deflection</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A mid level executive defaulted on two personal loans after a medical crisis. Agents began calling his HR department, threatening his employment. The borrower was panicked and about to take a high interest loan from an unregulated app to pay the agents.
                                     </p>
@@ -543,7 +543,7 @@ export default function ExpertPanelClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can dispatch an immediate Legal Notice to halt collection agents from visiting your home or office.</p>
                                 <Link
                                     href="/contact"
@@ -561,7 +561,7 @@ export default function ExpertPanelClient() {
 
                             {/* Related Expertise Link Card */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defense</Link>

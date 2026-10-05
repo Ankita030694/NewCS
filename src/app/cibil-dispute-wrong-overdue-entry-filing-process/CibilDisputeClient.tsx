@@ -233,7 +233,7 @@ export default function CibilDisputeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -285,10 +285,10 @@ export default function CibilDisputeClient() {
                             
                             {/* Visual Element 1: Alert Banner */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-md">
-                                <h4 className="text-red-900 font-bold text-xl mb-2 flex items-center gap-2">
+                                <p className="text-red-900 font-bold text-xl mb-2 flex items-center gap-2">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     CRITICAL WARNING: The Compounding Damage of Silence
-                                </h4>
+                                </p>
                                 <p className="text-red-800 text-sm md:text-base mb-0">
                                     Ignoring a wrong overdue entry is the most dangerous financial mistake you can make. Every month that passes with an incorrect default status compounds the damage to your score. The longer the error remains undisputed, the harder it becomes to secure future credit. Taking immediate, documented action is mandatory.
                                 </p>
@@ -307,10 +307,10 @@ export default function CibilDisputeClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     The Anatomy of a Credit Bureau Error:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Phantom Balances:</strong> The bank clears the principal but leaves trivial penalty charges active, which snowball into a massive overdue status.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Data Synchronization Failures:</strong> The local branch closes your loan file, but the central reporting server continues transmitting default codes to CIBIL automatically.</li>
@@ -395,7 +395,7 @@ export default function CibilDisputeClient() {
                             
                             {/* Visual Element 3: Checklist */}
                             <div className="bg-white border-2 border-gray-800 p-8 rounded-xl mb-10 shadow-lg">
-                                <h4 className="text-2xl font-black text-gray-900 mb-6 uppercase tracking-widest border-b-2 border-gray-800 pb-2">The Ultimate Dispute Checklist</h4>
+                                <p className="text-2xl font-black text-gray-900 mb-6 uppercase tracking-widest border-b-2 border-gray-800 pb-2">The Ultimate Dispute Checklist</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-3">
                                         <svg className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -538,7 +538,7 @@ export default function CibilDisputeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">CIBIL Destroyed?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">CIBIL Destroyed?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can draft an immediate legal notice to the Nodal Officer to force an emergency correction today.</p>
                                 <Link
                                     href="/contact"
@@ -556,7 +556,7 @@ export default function CibilDisputeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Repair Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Repair Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-improve-cibil-score" className="block text-sm text-blue-600 hover:underline">Improve CIBIL Tactics</Link>
                                     <Link href="/loan-written-off-vs-settled-cibil-impact" className="block text-sm text-blue-600 hover:underline">Written-Off vs Settled</Link>

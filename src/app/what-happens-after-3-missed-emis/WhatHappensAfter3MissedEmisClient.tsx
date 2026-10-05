@@ -235,7 +235,7 @@ export default function WhatHappensAfter3MissedEmisClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -351,12 +351,12 @@ export default function WhatHappensAfter3MissedEmisClient() {
                             {/* Alert Banner for Protections */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Essential Borrower Rights:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Right to Privacy:</strong> Recovery agents cannot contact your friends, family members, or colleagues to discuss your debt or humiliate you. This is a severe violation of privacy laws.</li>
                                     <li><strong>Restricted Contact Hours:</strong> Agents are strictly prohibited from calling or visiting you before 8:00 AM or after 7:00 PM. Any contact outside these hours is illegal.</li>
@@ -402,7 +402,7 @@ export default function WhatHappensAfter3MissedEmisClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-5 leading-relaxed">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -421,7 +421,7 @@ export default function WhatHappensAfter3MissedEmisClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

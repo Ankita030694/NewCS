@@ -769,9 +769,9 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 <div className="relative overflow-hidden rounded-xl px-5 py-4 md:px-10 md:py-6" style={{ backgroundColor: '#EEF5FB' }}>
                   <div className="relative z-10 max-w-3xl flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                     <div>
-                      <h3 className="leading-tight text-[20px] md:text-[24px] font-bold" style={{ color: '#004479' }}>
+                      <p className="leading-tight text-[20px] md:text-[24px] font-bold" style={{ color: '#004479' }}>
                         Share this insight
-                      </h3>
+                      </p>
                       <p className="mt-2 text-[14px] leading-[1.6] text-[#4E4E4E]">
                         Help someone else stay informed about debt relief.
                       </p>
@@ -970,7 +970,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                   <div className="w-10 h-10 mb-2.5 rounded-full bg-white/10 border border-white/15 flex items-center justify-center shadow-inner">
                     <i className="fas fa-headset text-lg text-white"></i>
                   </div>
-                  <h3 className="text-[15px] font-bold mb-1.5 leading-tight">Talk to a CredSettle Expert Free!</h3>
+                  <p className="text-[15px] font-bold mb-1.5 leading-tight">Talk to a CredSettle Expert Free!</p>
                   <p className="text-[12px] text-blue-50/90 mb-3.5 leading-relaxed font-medium">
                     Get a personal debt assessment.<br/>
                     One call. No pressure.<br/>
@@ -984,7 +984,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
                 {/* Card 2: Trust Badges */}
                 <div className="rounded-[16px] border border-gray-200 bg-white p-4 shadow-sm">
-                  <h3 className="text-[11px] font-bold text-gray-500 uppercase tracking-widest mb-4">Why People Trust CredSettle</h3>
+                  <p className="text-[11px] font-bold text-gray-500 uppercase tracking-widest mb-4">Why People Trust CredSettle</p>
                   <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-3">
                       <div className="w-7 h-7 rounded-full bg-[#EEF5FB] text-[#004479] flex items-center justify-center shrink-0">

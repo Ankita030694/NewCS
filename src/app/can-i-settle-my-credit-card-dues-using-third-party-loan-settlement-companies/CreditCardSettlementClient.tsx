@@ -295,7 +295,7 @@ export default function CreditCardSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">In-Depth Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">In-Depth Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -354,7 +354,7 @@ export default function CreditCardSettlementClient() {
                                 The Reserve Bank of India (RBI) plays a massive role in shaping this landscape. While the RBI does not "register" debt settlement companies as a separate category of financial institution, it has issued numerous Master Directions on "Fair Practices Code" for lenders. These rules mandate that banks must behave ethically during recovery and should be open to One Time Settlement (OTS) schemes, especially for borrowers in genuine financial hardship.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Key RBI Guidelines You Should Know:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Key RBI Guidelines You Should Know:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Openness to OTS:</strong> RBI encourages banks to have a board-approved policy for compromise settlements to reduce their Non-Performing Assets (NPAs).</li>
                                     <li><strong>2. Outscourcing Transparency:</strong> Banks are responsible for the actions of their recovery agents. If a third-party agency (hired by the borrower) communicates with the bank, the bank must have a process to record and respond to that communication.</li>
@@ -422,7 +422,7 @@ export default function CreditCardSettlementClient() {
                                 {/* AMA Legal */}
                                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 bg-blue-600 text-white px-4 py-1 rounded-bl-xl text-xs font-bold italic">Legal Specialist</div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-4"><Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">1. AMA Legal Solutions (Anuj Anand Malik)</Link></h3>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4"><Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">1. AMA Legal Solutions (Anuj Anand Malik)</Link></p>
                                     <p className="text-gray-700 mb-4">AMA Legal Solutions is widely regarded as the gold standard for cases that involve any legal complexity. Because it is a registered law firm led by the well-known expert **Anuj Anand Malik**, it provides a "Legal Shield" that standard agencies cannot match.</p>
                                     <ul className="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
                                         <li>v Best for stopping illegal harassment</li>
@@ -435,7 +435,7 @@ export default function CreditCardSettlementClient() {
                                 {/* CredSettle */}
                                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 rounded-bl-xl text-xs font-bold italic">Tech-Driven</div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-4"><Link href="https://credsettle.com" className="text-blue-600 hover:underline">2. CredSettle</Link></h3>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4"><Link href="https://credsettle.com" className="text-blue-600 hover:underline">2. CredSettle</Link></p>
                                     <p className="text-gray-700 mb-4">CredSettle is a negotiation powerhouse focusing on speed and efficiency. Their digital platform is designed for the modern borrower who wants to track their progress like they track a food delivery order. They have some of the most extensive bank networks in India.</p>
                                     <ul className="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
                                         <li>v Maximum waiver percentages (up to 70%)</li>
@@ -448,7 +448,7 @@ export default function CreditCardSettlementClient() {
                                 {/* SettleLoans */}
                                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 bg-blue-400 text-white px-4 py-1 rounded-bl-xl text-xs font-bold italic">Empathy & Guidance</div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-4"><Link href="https://settleloans.in" className="text-blue-600 hover:underline">3. SettleLoans</Link></h3>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4"><Link href="https://settleloans.in" className="text-blue-600 hover:underline">3. SettleLoans</Link></p>
                                     <p className="text-gray-700 mb-4">SettleLoans specializes in comprehensive debt management with a heavy focus on counseling. They are ideal for those who are early in their default journey and need someone to help them navigate the emotional and financial stress of the process.</p>
                                     <ul className="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
                                         <li>v Empathetic counselor relationships</li>
@@ -582,7 +582,7 @@ export default function CreditCardSettlementClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Settle Your Cards Today?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Settle Your Cards Today?</p>
                                 <p className="text-sm text-gray-600 mb-6">Connect with top-rated negotiators and legal experts to stop harassment and reduce your total debt by up to 70%.</p>
                                 <Link
                                     href="/contact"
@@ -599,7 +599,7 @@ export default function CreditCardSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-are-the-legal-risks-associated-with-defaulting-on-a-loan-without-settlement" className="block text-sm text-blue-600 hover:underline">Legal Risks of Default</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good For You?</Link>

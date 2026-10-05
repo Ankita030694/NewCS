@@ -184,7 +184,7 @@ export default function CibilSettlementClient() {
           <div className="lg:w-1/4 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -480,7 +480,7 @@ export default function CibilSettlementClient() {
 
               {/* Bottom CTA */}
               <div className="mt-16 bg-blue-900 text-white p-8 md:p-12 rounded-3xl text-center">
-                <h2 className="text-3xl font-bold mb-4">Start Your Journey to Financial Freedom Today</h2>
+                <h3 className="text-3xl font-bold mb-4">Start Your Journey to Financial Freedom Today</h3>
                 <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
                   Don't let debt and harassment hold you back. Get a free consultation for your CIBIL restoration and loan settlement.
                 </p>
@@ -513,7 +513,7 @@ export default function CibilSettlementClient() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                   </svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">CIBIL Protection</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">CIBIL Protection</p>
                 <p className="text-sm text-gray-600 mb-6">Facing aggressive recovery or high CIBIL damage? Get expert legal advice on how to settle safely.</p>
                 <Link 
                   href="/contact"
@@ -535,7 +535,7 @@ export default function CibilSettlementClient() {
 
               {/* Related Pages Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</p>
                 <div className="space-y-3">
                   <Link href="/loan-settlement" className="block text-sm text-blue-600 hover:font-semibold transition-all">• Master Guide to Loan Settlement</Link>
                   <Link href="/is-loan-settlement-illegal-in-india-truth" className="block text-sm text-blue-600 hover:font-semibold transition-all">• Is Settlement Illegal? (The Truth)</Link>
@@ -546,7 +546,7 @@ export default function CibilSettlementClient() {
 
               {/* Contact Card */}
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-6 rounded-2xl text-white shadow-lg">
-                <h4 className="font-bold mb-2">Speak to a Lawyer</h4>
+                <p className="font-bold mb-2">Speak to a Lawyer</p>
                 <p className="text-xs opacity-80 mb-4">Immediate assistance for recovery agent harassment.</p>
                 <a href="tel:+918800226635" className="flex items-center gap-2 font-bold text-lg">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 005.47 5.47l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>

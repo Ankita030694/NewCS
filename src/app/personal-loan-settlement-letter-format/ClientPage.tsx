@@ -120,7 +120,7 @@ Yours sincerely,
 
             {/* CTA Box */}
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Need Professional Legal Assistance?</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Need Professional Legal Assistance?</h3>
               <p className="mb-4 text-sm text-gray-600">Our senior advocates negotiate directly with regional bank decision-makers, shielding you from collection agents and securing the highest possible waiver.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get a Lawyer to Draft Your Settlement

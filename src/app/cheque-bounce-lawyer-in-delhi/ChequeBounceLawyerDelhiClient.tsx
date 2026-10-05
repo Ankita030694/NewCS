@@ -242,7 +242,7 @@ export default function ChequeBounceLawyerDelhiClient() {
                 </p>
                 
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 my-8">
-                  <h3 className="font-bold text-red-900 text-xl mb-4">Critical Warning Signs</h3>
+                  <p className="font-bold text-red-900 text-xl mb-4">Critical Warning Signs</p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
                       <svg className="w-6 h-6 text-red-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
@@ -363,10 +363,10 @@ export default function ChequeBounceLawyerDelhiClient() {
                 </p>
 
                 <div className="bg-white border-2 border-blue-100 p-8 rounded-2xl shadow-sm my-8">
-                  <h3 className="font-bold text-blue-900 text-xl mb-6 flex items-center">
+                  <p className="font-bold text-blue-900 text-xl mb-6 flex items-center">
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                     The Pre-Consultation Preparation Checklist
-                  </h3>
+                  </p>
                   <div className="space-y-4">
                     <label className="flex items-start p-4 hover:bg-blue-50 rounded-lg transition-colors cursor-pointer group border border-gray-100">
                       <input type="checkbox" className="mt-1 w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500 cursor-pointer" />
@@ -517,7 +517,7 @@ export default function ChequeBounceLawyerDelhiClient() {
             <div className="sticky top-24 space-y-4">
               <section className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rajesh Sharma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Rajesh Sharma</h4>
+                <p className="font-bold text-gray-900">Rajesh Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Writer & Advocate</p>
                 <p className="text-xs text-gray-400">Specializing in financial litigation, Negotiable Instruments Act, and corporate debt recovery strategies across Delhi NCR.</p>
               </section>

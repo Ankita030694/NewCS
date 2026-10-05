@@ -305,7 +305,7 @@ export default function SelfEmployedSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl overflow-y-auto max-h-[80vh] custom-scrollbar">
-                            <h3 className="font-bold text-gray-900 mb-6 text-xl border-b border-blue-100 pb-3">Entrepreneur Guide</h3>
+                            <p className="font-bold text-gray-900 mb-6 text-xl border-b border-blue-100 pb-3">Entrepreneur Guide</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -364,7 +364,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Finally, we will look at the role of professional debt settlement services. Why do you need an expert? For a business owner, time is money. Spending months arguing with bank managers can take your focus away from your business, leading to further losses. Professional negotiators like CredSettle or AMA Legal Solutions act as a buffer, handling the legal paperwork and the intense negotiations while you focus on rebuilding your revenue. We will compare the costs and benefits of these services, helping you make an informed choice that protects your long-term interests.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">The Entrepreneurial Debt Trap: Why It Is Different</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">The Entrepreneurial Debt Trap: Why It Is Different</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     The "Entrepreneurial Debt Trap" is a term used to describe the cycle of borrowing to cover interest payments, often leading to a situation where the principal amount never decreases while the business's capital is drained. In India, this is particularly prevalent among self-employed professional such as doctors, architects, and small-scale manufacturers. Unlike a salaried person who knows their next paycheck is coming, an entrepreneur faces "variable risk." A delayed payment from a government contract or a sudden change in import duties can turn a profitable business into a loss-making one overnight.
                                 </p>
@@ -405,7 +405,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Finally, the question of "Reputation" and "Legal standing" must be addressed. Many business owners worry that settling a loan will prevent them from ever starting another company or opening a bank account. This is a myth. While your CIBIL score will take a hit, your legal right to conduct business remains intact. Once you have your "No Dues Certificate" (NDC), you are legally free from that specific liability. In fact, many successful entrepreneurs see settlement as a way to "reset" their financial life, allowing them to focus on new, more profitable ventures without the ghost of old debts haunting them.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Why Negotiate? The Power of Proactive Closure</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Why Negotiate? The Power of Proactive Closure</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Negotiating a settlement is not a sign of failure; it is a sign of financial intelligence. If your business is struggling, every rupee spent on high-interest loan repayments is a rupee taken away from your recovery. By settling, you are effectively "buying back" your financial freedom at a discount. In the modern business world, this is called "De-leveraging." Successful entrepreneurs know when to cut their losses. Continuing to pay "interest only" on a loan you can never fully repay is the quickest way to bankruptcy.
                                 </p>
@@ -443,7 +443,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Finally, we must talk about the "Right to a No Dues Certificate" (NDC). The RBI guidelines mandate that once a settlement amount is paid in full, the bank must issue the NDC and release any original documents (like property deeds or registration papers) within a specified timeframe, usually 30 days. Many banks used to delay this process as a way to keep pressure on the borrower, but the new rules have put a stop to this. For a self-employed person, getting those original documents back is the final step in reclaiming their business and their peace of mind.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Navigating the "Non-Discretionary" Matrix</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Navigating the "Non-Discretionary" Matrix</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     While the policy is "non-discretionary," it is still your responsibility to present your case within the parameters of the matrix. This means your settlement proposal must be data-driven. You cannot just say "I don't have money." You must show, through your bank statements and tax filings, that your business has reached a point where the settlement amount is the maximum the bank can realistically recover. When you speak the bank's language of "realizable value" and "present value of cash flows," you move from being a "defaulter" to a "negotiator."
                                 </p>
@@ -478,7 +478,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Another factor to consider is the "Guarantor" or "Co-applicant." In many self-employed loans, family members are added as co-applicants. Both restructuring and settlement will affect their credit scores as well. If you choose restructuring, you must ensure that the co-applicants are willing to stay on the loan for the extended tenure. If you choose settlement, you must negotiate a deal that includes the release of the co-applicants from all future liabilities. This is a critical legal detail that many people overlook, leading to their family members being harassed even after the primary borrower has settled.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Deciding the Future of Your Enterprise</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Deciding the Future of Your Enterprise</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     To decide which path is yours, ask yourself three questions: Is my business's core problem temporary (like a market dip) or structural (like a dying industry)? Do I have the physical and mental energy to keep running this specific enterprise for another 5 to 7 years? Do I have access to a lump sum amount for a settlement, or do I only have a small monthly cash flow? Your answers will point you toward the right strategy.
                                 </p>
@@ -513,7 +513,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Finally, there is the "Partnership Dispute" scenario. Many small firms are run by partners. When a dispute leads to one partner leaving or the freezing of bank accounts, the defaults are inevitable. This is a "Legal-Financial Default." Banks realize that a fragmented management cannot recover the business. They often prefer a settlement that allows both partners to exit the debt and move on separately. Documentation of the legal dispute or the dissolution of the partnership deed is essential here.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Building Your "Hardship Narrative"</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Building Your "Hardship Narrative"</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Whether your situation is one of these or a combination of several, your goal is to build a "Hardship Narrative." This is a chronological story of your business that clearly shows where the external shocks occurred. Bankers are humans, and they are also bound by audit requirements. They need a "Paper Trail of Hardship" to justify a settlement to their superiors. In the next section, we will look at the exact step-by-step process of how to move from a default situation to a final settlement agreement.
                                 </p>
@@ -545,7 +545,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     **Phase 6: Fulfillment and Final Closure.** Once the payment is made according to the sanction letter, your journey is almost complete. However, the final legal step is the issuance of the **"No Dues Certificate" (NDC).** This certificate is your proof to the world that you are no longer a debtor to that bank. You must also ensure that the bank updates your status on the CIBIL portal as "Settled." While this is not as good as "Closed," it is infinitely better than "Default" or "Suit Filed." It marks the end of the legal dispute and allows you to begin the long-term process of rebuilding your credit worthiness.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">The Importance of Independent Witnessing</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">The Importance of Independent Witnessing</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     During the settlement process, especially the negotiation phase, it is highly advisable to keep records of all communications. If you have a meeting at the bank, send a "Minutes of Meeting" email afterward to the bank manager, summarizing what was discussed. This creates a contemporaneous record that can be used if the bank later tries to change the terms of the verbal agreement. Transparency and documentation are your best friends in a business settlement.
                                 </p>
@@ -580,7 +580,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     **7. Real Estate Valuation Reports.** If your loan is secured by property, the bank will have its own valuation. However, you should get an "Independent Valuation Report" from a government-approved valuer. Often, bank valuations are inflated to show a higher recovery potential. An independent report might show the real market condition, especially in a depressed real estate market. If you can prove that the property value has dropped or that there are legal disputes on the property (like tribal land issues or lack of clear title), the bank's appetite for an OTS will increase dramatically.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Presenting the Package: The "Hardship Portfolio"</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Presenting the Package: The "Hardship Portfolio"</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     Do not just hand over a pile of loose papers to the bank. Your "Hardship Portfolio" should be bound and should have a "Cover Letter" that references every document. You should explain in the cover letter how Document A leads to Conclusion B. For example, "As seen in Annexure 4 (GSTR-3B), our sales dropped 60 percent in Q3, which explains the inability to service the interest as shown in the Bank Statement (Annexure 3)." This level of professionalism shows the bank that you are serious and that any legal battle they initiate will be met with a well-prepared defense.
                                 </p>
@@ -615,7 +615,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     **Communicating with Future Lenders.** When you are ready to borrow again, say 5 years from now, do not try to hide the settlement. Instead, prepare a "Credit Explanation Letter." Explain the circumstances of the 2024 failure (the market shift, the health crisis, the client default) and show your current, healthy balance sheets. Banks are increasingly moving toward "Data-Driven Lending" where they look at your GST data and current cash flow more than just a historical CIBIL status. A successful business that is generating cash is always an attractive prospect for a bank, regardless of past settlement history.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Focusing on Survival Over Score</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Focusing on Survival Over Score</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     In summary, while the CIBIL impact is real and long-lasting, it should not be the primary factor in your decision if your business survival is at stake. Your credit score is a tool, not your entire financial identity. A "Live" entrepreneur with a "Poor" credit score is many times better off than a "Bankrupt" entrepreneur with a "Good" credit score. In the next section, we will discuss the legal safeguards you have as a business owner and how you can protect your office, your shop, and your reputation from the aggressive tactics of recovery departments.
                                 </p>
@@ -650,7 +650,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     **Right to an Informed Settlement.** You have the right to a transparent settlement process. The bank cannot hide the breakdown of your outstanding amount. You have the right to know exactly how much is principal, how much is interest, and how much is penalties. If the bank refuses to provide a "Statement of Account," they are blocking your right to a fair resolution. Always demand this statement before you begin any negotiation, as it will highlight the "unjust enrichment" the bank might be attempting through unfair penal charges.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Standing Your Ground</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Standing Your Ground</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     In summary, your legal rights are not just fine print; they are active tools that can protect your business and your mental peace. The key is to never stay silent. When you respond to the bank with legal citations and a clear understanding of RBI guidelines, you Shift the Power Dynamics. You are no longer a "helpless borrower," but a "knowledgeable citizen." 
                                 </p>
@@ -685,7 +685,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     **7. Post-Settlement Support.** The journey doesn't end with the final payment. A professional firm will ensure that you get the "No Dues Certificate" in the correct format and that the bank updates the credit bureaus. They also provide advice on how to start rebuilding your credit score immediately. This "End-to-End" service is invaluable for a busy entrepreneur who doesn't have the time to follow up with bank clerks for months just to get a piece of paper.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Choosing the Right Partner</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Choosing the Right Partner</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     When choosing a debt settlement partner, look for transparency. Avoid firms that make "guarantees" of specific waivers, as settlement is always at the bank's ultimate discretion. Look for firms that have a clear legal arm and a history of working with MSMEs. Read reviews from other business owners who have used their services. A good partner will be honest with you about the strengths and weaknesses of your case from day one.
                                 </p>
@@ -720,7 +720,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     **7. The "Time Value of Money" in Settlement.** Banks use the NPV (Net Present Value) method to evaluate settlement offers. They calculate the value of getting 20 lakhs today versus the value of potentially getting 40 lakhs after 5 years of litigation. Because of inflation and the cost of capital, the 20 lakhs today is often more attractive to the bank. When you understand this, you realize that you aren't "begging" for a waiver; you are offering the bank a superior financial deal. This shift in mindset is what allows for the most successful negotiations.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Mastering the Numbers</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Mastering the Numbers</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     In summary, the math of settlement is heavily tilted in favor of the borrower who has access to a lump sum amount. By resolving the liability now, you are freeing up your future cash flow for expansion, diversification, and wealth creation. A "Settled" status is a temporary accounting remark, but the "Saved Capital" is a permanent asset that you can use to build your next success story.
                                 </p>
@@ -755,7 +755,7 @@ export default function SelfEmployedSettlementClient() {
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     **7. Global Integration and Multi-Currency Debt.** As Indian MSMEs become more integrated with global supply chains, they are also exposed to currency risks. A small manufacturer exporting to Europe might face a debt crisis due to a sudden drop in the Euro. Future debt management will involve sophisticated "Hedging" and "Resolution" mechanisms that account for these global factors. Settlement negotiations will become multi-dimensional, involving a deeper understanding of macro-economics and international trade laws.
                                 </p>
-                                <h3 className="text-2xl font-bold text-gray-800 mt-10 mb-4">Adapting to the New Reality</h3>
+                                <p className="text-2xl font-bold text-gray-800 mt-10 mb-4">Adapting to the New Reality</p>
                                 <p className="mb-6 leading-relaxed text-gray-700">
                                     In summary, the digital economy is making debt management more complex but also more transparent. For the modern entrepreneur, the key to success is "Digital Literacy." By understanding your own financial data and how the banking system uses it, you can navigate your debt challenges with confidence. The future belongs to those who view their debt not as a burden to be hidden, but as a strategic element to be managed with precision and professionalism.
                                 </p>
@@ -851,7 +851,7 @@ export default function SelfEmployedSettlementClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-8 rounded-3xl shadow-[0_20px_50px_rgba(8,112,184,0.07)] border border-blue-50 text-center transform transition-all hover:scale-[1.02]">
                                 <img src="/credsettle-logo-black.svg" alt="CredSettle" className="w-32 mx-auto mb-6 opacity-30" />
-                                <h4 className="font-extrabold text-2xl text-gray-900 mb-4">Protect Your Shop</h4>
+                                <p className="font-extrabold text-2xl text-gray-900 mb-4">Protect Your Shop</p>
                                 <p className="text-sm text-gray-600 mb-8 leading-relaxed">Stop recovery calls to your office or clients. Get a legal settlement strategy today.</p>
                                 <Link
                                     href="/contact"
@@ -877,7 +877,7 @@ export default function SelfEmployedSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">Entrepreneur Toolbox</h4>
+                                <p className="font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">Entrepreneur Toolbox</p>
                                 <nav className="space-y-4">
                                     <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">Business Loan Guide</Link>
                                     <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">MSME Legal Defence</Link>

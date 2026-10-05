@@ -241,7 +241,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -298,12 +298,12 @@ export default function NegotiatePersonalLoanSettlementClient() {
 
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Critical Preparation Steps:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Document Everything:</strong> Gather your termination letters, medical bills, business loss statements, and bank statements showing depleted savings. The bank needs concrete proof, not just a sad story over the phone.</li>
                                     <li><strong>Determine Your Maximum Capability:</strong> Look closely at your finances and determine the absolute maximum lumpsum you can arrange from family or friends. Never offer more than you can actually deliver within a week.</li>
@@ -338,7 +338,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
                                         <span className="font-bold text-blue-600">1</span>
                                     </div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 text-xl mt-0 mb-2">The Initial Written Request</h5>
+                                        <p className="font-bold text-gray-900 text-xl mt-0 mb-2">The Initial Written Request</p>
                                         <p className="text-gray-700 leading-relaxed m-0">Send a formal email and a physical registered letter to the branch manager and the grievance redressal cell. State your loan account number clearly, explain your financial hardship comprehensively, and officially request a compromise settlement. Attach all your proofs of hardship. This creates an undeniable paper trail showing your willingness to resolve the issue legally and transparently.</p>
                                     </div>
                                 </div>
@@ -347,7 +347,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
                                         <span className="font-bold text-blue-600">2</span>
                                     </div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 text-xl mt-0 mb-2">The Lowball Anchor</h5>
+                                        <h3 className="font-bold text-gray-900 text-xl mt-0 mb-2">The Lowball Anchor</h3>
                                         <p className="text-gray-700 leading-relaxed m-0">When the bank finally calls back to discuss a settlement, they will usually demand 80 percent or more of the outstanding amount. You must forcefully counter with a very low anchor, typically around 20 to 25 percent of the principal amount. Explain that you are borrowing this money from a relative strictly for a one time closure. This sets the psychological stage for a middle ground agreement later.</p>
                                     </div>
                                 </div>
@@ -356,7 +356,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
                                         <span className="font-bold text-blue-600">3</span>
                                     </div>
                                     <div>
-                                        <h5 className="font-bold text-gray-900 text-xl mt-0 mb-2">The Waiting Game</h5>
+                                        <h3 className="font-bold text-gray-900 text-xl mt-0 mb-2">The Waiting Game</h3>
                                         <p className="text-gray-700 leading-relaxed m-0">After making your lowball offer, the manager will likely act deeply insulted and threaten immediate legal action. Stay perfectly calm and reiterate that this is all the money you have access to. Then, be prepared to wait. Do not call them back the next day. The intense pressure of month end targets often forces managers to reconsider low offers they previously rejected with extreme prejudice.</p>
                                     </div>
                                 </div>
@@ -380,19 +380,19 @@ export default function NegotiatePersonalLoanSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Never Show Desperation</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2 mt-0">Never Show Desperation</h3>
                                     <p className="text-sm text-gray-600 m-0">If you say, "Please settle this, I cannot sleep at night," you have just given them all the power. Instead calmly state, "This is my financial reality. I have arranged 30 percent from my brother. Take it or I will have to default entirely."</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Silence is Powerful</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2 mt-0">Silence is Powerful</h3>
                                     <p className="text-sm text-gray-600 m-0">When they offer a ridiculously high settlement figure, do not immediately argue. Let a long, uncomfortable silence hang in the air, then simply say, "That is completely impossible given my current circumstances."</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">End the Conversation</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2 mt-0">End the Conversation</h3>
                                     <p className="text-sm text-gray-600 m-0">If the agent becomes abusive or outright refuses to listen to reason, politely state that you are terminating the call due to their unprofessional behavior and hang up immediately. You must dictate the terms of communication.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Leverage Month End Pressure</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2 mt-0">Leverage Month End Pressure</h3>
                                     <p className="text-sm text-gray-600 m-0">Banks have intensely aggressive monthly recovery targets. Pushing your final negotiation calls to the 28th or 29th of the month almost always yields much better waivers as managers scramble desperately to meet quotas.</p>
                                 </div>
                             </div>
@@ -413,14 +413,14 @@ export default function NegotiatePersonalLoanSettlementClient() {
                                 Harassment is a deliberate tool used by agencies to bypass rational negotiation and force you to pay out of pure fear. You cannot negotiate effectively if you are terrified of your phone ringing. The RBI has laid down very clear guidelines regarding fair practice codes for lenders. Recovery agents are strictly prohibited from using abusive language, visiting your workplace without explicit permission, or contacting your relatives and friends to humiliate you.
                             </p>
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Anti-Harassment Protocol</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Anti-Harassment Protocol</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Record Everything</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Record Everything</h3>
                                             <p className="text-sm text-gray-600 m-0">Install a robust call recording application on your phone immediately. Inform the agent calmly that the call is being recorded for legal purposes. Often, this single sentence alone changes their tone dramatically.</p>
                                         </div>
                                     </li>
@@ -429,7 +429,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Demand Clear Identification</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Demand Clear Identification</h3>
                                             <p className="text-sm text-gray-600 m-0">Do not speak to anyone who refuses to provide their full name, employee ID, and the name of the specific agency they represent. Vigorously ask for their authorization letter from the bank.</p>
                                         </div>
                                     </li>
@@ -438,7 +438,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">File Formal RBI Complaints</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">File Formal RBI Complaints</h3>
                                             <p className="text-sm text-gray-600 m-0">If abuse absolutely occurs, file a formal complaint with the RBI Integrated Ombudsman Scheme without delay. Attach your call recordings as concrete proof. Banks are heavily penalized for severe violations of the code of conduct.</p>
                                         </div>
                                     </li>
@@ -536,7 +536,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
                         <div className="space-y-4">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-5 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop agents from threatening you today.
                                 </p>
@@ -555,7 +555,7 @@ export default function NegotiatePersonalLoanSettlementClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-4">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/personal-loan-settlement-percentage" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">

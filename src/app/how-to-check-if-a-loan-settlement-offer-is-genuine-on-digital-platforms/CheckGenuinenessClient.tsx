@@ -208,7 +208,7 @@ export default function CheckGenuinenessClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Verification Pack</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Verification Pack</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -416,7 +416,7 @@ export default function CheckGenuinenessClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -463,7 +463,7 @@ export default function CheckGenuinenessClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Check Your Deal</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Check Your Deal</p>
                                 <p className="text-sm text-gray-600 mb-6">Is that discount letter real or a trap? Let our legal and tech experts verify it for you today.</p>
                                 <Link
                                     href="/contact"
@@ -480,7 +480,7 @@ export default function CheckGenuinenessClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Genuineness Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Genuineness Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-avoid-debt-settlement-scams-in-india" className="block text-sm text-blue-600 hover:underline">Avoid Scams Guide</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>

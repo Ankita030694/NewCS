@@ -200,7 +200,7 @@ export default function BankOfBarodaLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -245,13 +245,13 @@ export default function BankOfBarodaLoanSettlementClient() {
                  </p>
                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600">
-                       <h5 className="font-bold text-blue-900 mb-2">Standardized Policies</h5>
+                       <h3 className="font-bold text-blue-900 mb-2">Standardized Policies</h3>
                        <p className="text-sm text-blue-800">
                           Settlement offers are often driven by circulars (like the 'Lakshya' scheme). If you meet the criteria (e.g., loan is &gt;2 years NPA), the discount percentage is often pre-decided, leaving less room for arbitrary rejection.
                        </p>
                     </div>
                     <div className="bg-green-50 p-6 rounded-xl border-l-4 border-green-600">
-                       <h5 className="font-bold text-green-900 mb-2">Lok Adalat Focus</h5>
+                       <h3 className="font-bold text-green-900 mb-2">Lok Adalat Focus</h3>
                        <p className="text-sm text-green-800">
                           PSU banks are mandated to reduce their NPA lists. They actively participate in Lok Adalats to close huge volumes of small-ticket loans quickly. This is the easiest settlement route.
                        </p>
@@ -264,13 +264,13 @@ export default function BankOfBarodaLoanSettlementClient() {
                 <p className="mb-4">
                   The National Lok Adalat is a highly effective forum for settling Bank of Baroda loans, especially for amounts up to ₹20 Lakhs. It is a "People’s Court" organized by the legal services authority to settle disputes amicably.
                 </p>
-                <h4 className="font-bold text-gray-800 text-lg mb-2">Why it works for BoB Loans:</h4>
+                <h3 className="font-bold text-gray-800 text-lg mb-2">Why it works for BoB Loans:</h3>
                 <ul className="list-disc pl-6 space-y-2 mb-4">
                    <li><strong>Official Mandate:</strong> BoB branch managers are given targets to close cases in Lok Adalats. They are more willing to offer deep discounts (waiver of all interest + part principal) to meet these targets.</li>
                    <li><strong>Legal Immunity:</strong> Once a settlement award is signed in the Lok Adalat, it has the force of a court decree. The bank cannot reopen the case, and you cannot be harassed further.</li>
                    <li><strong>Cost-Effective:</strong> There are no court fees. It is a single-day process.</li>
                 </ul>
-                <h4 className="font-bold text-gray-800 text-lg mb-2">How to participate:</h4>
+                <h3 className="font-bold text-gray-800 text-lg mb-2">How to participate:</h3>
                 <ol className="list-decimal pl-6 space-y-2 mb-4">
                    <li>Wait for a Lok Adalat notice (usually holds quarterly).</li>
                    <li>Or, proactively approach the bank branch and ask to refer your case to the upcoming Lok Adalat.</li>
@@ -284,7 +284,7 @@ export default function BankOfBarodaLoanSettlementClient() {
                     Agricultural loans form a huge chunk of Bank of Baroda’s portfolio. If you are a farmer facing crop turnover failure, you have specific protections.
                  </p>
                  <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200 mb-6">
-                    <h5 className="font-bold text-yellow-900 mb-2">Settlement Policies for Farmers</h5>
+                    <h3 className="font-bold text-yellow-900 mb-2">Settlement Policies for Farmers</h3>
                     <ul className="list-disc pl-6 text-yellow-800 text-sm space-y-2">
                        <li><strong>Penal Interest Waiver:</strong> In almost all agri-settlements, 100% of the penal interest is waived off.</li>
                        <li><strong>Natural Calamity Clause:</strong> If your area was declared drought/flood-hit, you are eligible for restructuring (converting short-term loan to term loan) rather than just settlement.</li>
@@ -303,11 +303,11 @@ export default function BankOfBarodaLoanSettlementClient() {
                 </p>
                 <div className="space-y-4">
                   <div className="border border-gray-200 p-4 rounded-lg">
-                     <h4 className="font-bold text-gray-900">1. Restructuring (The First Choice)</h4>
+                     <h3 className="font-bold text-gray-900">1. Restructuring (The First Choice)</h3>
                      <p className="text-sm text-gray-600 mt-1">Before settlement, check if you qualify for the "Asset Restructuring Module". This allows you to extend the loan tenure or get a moratorium (interest holiday) without classifying the loan as NPA. This saves your CIBIL.</p>
                   </div>
                   <div className="border border-gray-200 p-4 rounded-lg">
-                     <h4 className="font-bold text-gray-900">2. Nondiscretionary OTS</h4>
+                     <h3 className="font-bold text-gray-900">2. Nondiscretionary OTS</h3>
                      <p className="text-sm text-gray-600 mt-1">If the loan is NPA for &gt;2 years and classified as "Doubtful", BoB often has a non-discretionary OTS policy. This means if you offer X% of the outstanding, the system <em>automatically</em> approves it, removing manager bias.</p>
                   </div>
                 </div>
@@ -329,28 +329,28 @@ export default function BankOfBarodaLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-xl">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Scheme Identification</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Scheme Identification</h3>
                     <p className="text-gray-600 mt-2">We check if there is an active general OTS scheme (like Lakshya) applicable to your account. Applying under a scheme guarantees better terms than an ad-hoc proposal.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-xl">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Proposal Drafting</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Proposal Drafting</h3>
                     <p className="text-gray-600 mt-2">We draft a formal settlement proposal addressing the Branch Manager and the Regional Office. We cite valid reasons (Crop loss, Business closure) compliant with their internal circulars.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-xl">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Escalation & Liaison</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Escalation & Liaison</h3>
                     <p className="text-gray-600 mt-2">PSU decisions move slow. Our team physically follows up or escalates to the Regional/Zonal manager if the local branch sits on the file. We push for the "Sanction Letter".</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-xl">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Lok Adalat Closing</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Lok Adalat Closing</h3>
                     <p className="text-gray-600 mt-2">Whenever possible, we route the final closure through the Lok Adalat to give you a court-stamped immunity against future claims.</p>
                   </div>
                 </div>
@@ -360,7 +360,7 @@ export default function BankOfBarodaLoanSettlementClient() {
               <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100 mb-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-4 text-lg">For Individuals</h4>
+                    <h3 className="font-bold text-gray-900 mb-4 text-lg">For Individuals</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> PAN & Aadhar Card</li>
                       <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> Salary Slips / Termination Letter</li>
@@ -369,7 +369,7 @@ export default function BankOfBarodaLoanSettlementClient() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-4 text-lg">For Agri & MSME</h4>
+                    <h3 className="font-bold text-gray-900 mb-4 text-lg">For Agri & MSME</h3>
                     <ul className="space-y-3 text-gray-700">
                       <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> UDYAM Registration (for MSME)</li>
                       <li className="flex items-start"><span className="text-orange-500 mr-2">*</span> GST Returns showing turnover drop</li>
@@ -383,19 +383,19 @@ export default function BankOfBarodaLoanSettlementClient() {
               <h2 id="mistakes" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Mistakes to Avoid</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">1. Bribing Officials</h5>
+                    <h3 className="font-bold text-red-900 mb-2">1. Bribing Officials</h3>
                     <p className="text-sm text-red-800">Never attempt to bribe a PSU bank official for settlement. This can lead to a CBI case. Stick to formal, written OTS proposals.</p>
                  </div>
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">2. Missing Lok Adalat Dates</h5>
+                    <h3 className="font-bold text-red-900 mb-2">2. Missing Lok Adalat Dates</h3>
                     <p className="text-sm text-red-800">If you get a Lok Adalat notice, DO NOT ignore it. It is your best chance for a cheap, clean settlement.</p>
                  </div>
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">3. Ignoring 'Wilful Defaulter' Notices</h5>
+                    <h3 className="font-bold text-red-900 mb-2">3. Ignoring 'Wilful Defaulter' Notices</h3>
                     <p className="text-sm text-red-800">If BoB tags you as specific "Wilful Defaulter", you lose access to all future banking services. Contest this tag immediately.</p>
                  </div>
                  <div className="bg-red-50 p-6 rounded-xl border-t-4 border-red-500">
-                    <h5 className="font-bold text-red-900 mb-2">4. Diverting Stock (MSME)</h5>
+                    <h3 className="font-bold text-red-900 mb-2">4. Diverting Stock (MSME)</h3>
                     <p className="text-sm text-red-800">For Cash Credit (CC) limits, if you sell stock and don’t route money to the CC account, it’s a criminal diversion of funds. Avoid this.</p>
                  </div>
               </div>
@@ -405,7 +405,7 @@ export default function BankOfBarodaLoanSettlementClient() {
                  <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm">
                     <div className="flex justify-between items-start mb-4">
                        <div>
-                          <h5 className="font-bold text-gray-900">Education Loan Settlement</h5>
+                          <h3 className="font-bold text-gray-900">Education Loan Settlement</h3>
                           <p className="text-xs text-gray-500">Client: Rahul T. (Indore)</p>
                        </div>
                        <span className="bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full">Active Lok Adalat</span>
@@ -416,7 +416,7 @@ export default function BankOfBarodaLoanSettlementClient() {
                  <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm">
                     <div className="flex justify-between items-start mb-4">
                        <div>
-                          <h5 className="font-bold text-gray-900">MSME Cash Credit Closure</h5>
+                          <h3 className="font-bold text-gray-900">MSME Cash Credit Closure</h3>
                           <p className="text-xs text-gray-500">Client: Textile Unit (Surat)</p>
                        </div>
                        <span className="bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full">OTS Scheme</span>
@@ -444,7 +444,7 @@ export default function BankOfBarodaLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-orange-100 text-center transform hover:-translate-y-1 transition-transform duration-300">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Got a Notice?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Got a Notice?</p>
                 <p className="text-sm text-gray-600 mb-6">Lok Adalat or SARFAESI notice from Bank of Baroda? Act now.</p>
                 <Link 
                   href="/contact"
@@ -460,7 +460,7 @@ export default function BankOfBarodaLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/loan-settlement/sbi" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">

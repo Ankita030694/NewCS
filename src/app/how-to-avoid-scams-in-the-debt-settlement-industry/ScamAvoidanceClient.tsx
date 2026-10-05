@@ -193,7 +193,7 @@ export default function ScamAvoidanceClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Protection Guide</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Protection Guide</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -469,7 +469,7 @@ export default function ScamAvoidanceClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Immediate Scam Check</h4>
+                <p className="font-bold text-2xl mb-4">Immediate Scam Check</p>
                 <p className="text-blue-100 mb-6 text-sm">Have you been asked for money upfront? Are you unsure about a debt relief offer? Get a professional second opinion today.</p>
                 <Link 
                   href="/contact"
@@ -494,7 +494,7 @@ export default function ScamAvoidanceClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   
                   <li>

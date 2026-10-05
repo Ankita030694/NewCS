@@ -293,7 +293,7 @@ export default function AggressiveRecoverySupportClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -358,17 +358,17 @@ export default function AggressiveRecoverySupportClient() {
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 text-center">
                                     <span className="text-4xl mb-4 block">🕗</span>
-                                    <h4 className="font-bold text-blue-900 mb-2">Clock Rule</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Clock Rule</p>
                                     <p className="text-sm text-blue-800">Contact allowed only between 8:00 AM and 7:00 PM.</p>
                                 </div>
                                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 text-center">
                                     <span className="text-4xl mb-4 block">🔇</span>
-                                    <h4 className="font-bold text-blue-900 mb-2">Privacy Rule</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Privacy Rule</p>
                                     <p className="text-sm text-blue-800">No calls to friends, family, or workplace.</p>
                                 </div>
                                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 text-center">
                                     <span className="text-4xl mb-4 block">🆔</span>
-                                    <h4 className="font-bold text-blue-900 mb-2">ID Rule</h4>
+                                    <p className="font-bold text-blue-900 mb-2">ID Rule</p>
                                     <p className="text-sm text-blue-800">Agents must carry ID and Bank authorization.</p>
                                 </div>
                             </div>
@@ -525,7 +525,7 @@ export default function AggressiveRecoverySupportClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Protocol Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Protocol Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Activate your legal and mediation shield against aggressive recovery today.</p>
                                 <Link
                                     href="/contact"
@@ -542,7 +542,7 @@ export default function AggressiveRecoverySupportClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/cred-settle-plan-for-building-debt-free-future-after-settlement" className="block text-sm text-blue-600 hover:underline">Debt-Free Future Plan</Link>
                                     <Link href="/loan-settlement-for-borrowers-facing-economic-downturn" className="block text-sm text-blue-600 hover:underline">Economic Downturn Help</Link>

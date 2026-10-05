@@ -202,7 +202,7 @@ export default function MobileAppSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -458,7 +458,7 @@ export default function MobileAppSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Debt Relief Now</h4>
+                <p className="font-bold text-2xl mb-4">Debt Relief Now</p>
                 <p className="text-blue-100 mb-6 text-sm">Are you drowning in loan app debt? Let our experts help you settle for less.</p>
                 <Link 
                   href="/contact"
@@ -469,7 +469,7 @@ export default function MobileAppSettlementClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Quick Links</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/services/personal-loan-settlement" className="group flex items-start">

@@ -201,7 +201,7 @@ export default function LoanSettlementVsRepaymentClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -431,35 +431,35 @@ export default function LoanSettlementVsRepaymentClient() {
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold">1</div>
                     <div>
-                      <h4 className="font-bold text-lg mb-1">Initiate Communication</h4>
+                      <h3 className="font-bold text-lg mb-1">Initiate Communication</h3>
                       <p>Don't wait for the bank to call you. Write a formal letter or email to the bank's Nodal Officer explaining your financial hardship and requesting a "One-Time Settlement" (OTS).</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold">2</div>
                     <div>
-                      <h4 className="font-bold text-lg mb-1">Get the Settlement Letter</h4>
+                      <h3 className="font-bold text-lg mb-1">Get the Settlement Letter</h3>
                       <p>Never pay a single rupee based on a verbal promise. Demand a formal "Settlement Offer Letter" on the bank's official letterhead. It must clearly state the settlement amount, the waiver amount, and the payment deadline.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold">3</div>
                     <div>
-                      <h4 className="font-bold text-lg mb-1">Verify and Pay</h4>
+                      <h3 className="font-bold text-lg mb-1">Verify and Pay</h3>
                       <p>Check the details on the letter carefully. Ensure the payment is made via traceable methods like Net Banking, DD, or Cheque directly to the bank. Keep the payment receipt safe forever.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold">4</div>
                     <div>
-                      <h4 className="font-bold text-lg mb-1">Obtain the NOC/NDC</h4>
+                      <h3 className="font-bold text-lg mb-1">Obtain the NOC/NDC</h3>
                       <p>Within 30 days of payment, the bank must issue a No Dues Certificate. This is your proof that the account is legally resolved. If they don't send it, follow up aggressively.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold">5</div>
                     <div>
-                      <h4 className="font-bold text-lg mb-1">Monitor Your Credit Report</h4>
+                      <h3 className="font-bold text-lg mb-1">Monitor Your Credit Report</h3>
                       <p>Wait for 45-60 days and then check your CIBIL report. Ensure the account status is updated to "Settled." If it still shows "Default" or "Overdue," raise a dispute with CIBIL using your NOC.</p>
                     </div>
                   </div>
@@ -561,7 +561,7 @@ export default function LoanSettlementVsRepaymentClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Debt Relief Help</h4>
+                <p className="font-bold text-2xl mb-4">Debt Relief Help</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing harassment from recovery agents? Get expert legal protection today.</p>
                 <Link 
                   href="/contact"
@@ -586,7 +586,7 @@ export default function LoanSettlementVsRepaymentClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/how-to-improve-cibil-score-after-loan-settlement" className="group flex items-start">

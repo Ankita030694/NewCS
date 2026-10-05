@@ -297,7 +297,7 @@ const DocsNeededClient = () => {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -449,17 +449,17 @@ const DocsNeededClient = () => {
                             <h2 id="common-errors" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-red-700 uppercase">Section 8: Common Errors - Why Folders Get Rejected by Audit</h2>
                             <div className="space-y-8 mb-16">
                                 <div className="p-10 bg-white rounded-[2.5rem] border border-gray-100 shadow-xl group hover:border-blue-200 transition-all">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
+                                    <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
                                         Error A: Digital Forgeries & Metadata
                                         <span className="text-red-500 text-xs uppercase tracking-widest font-black">Rejection Risk: Fatal</span>
-                                    </h4>
+                                    </p>
                                     <p className="text-gray-600 leading-[1.8] font-light">In 2025, banks use "Digital Forensic Tools" to check the metadata of your PDFs. If you edited a bank statement using an online tool to hide an expense, the software will flag the "Modification Date" and "Authoring Tool." A single detection of forgery leads to a lifetime blacklist and potential criminal charges under Section 420 of the IPC. Always provide original digital downloads, never "Scans of Scans."</p>
                                 </div>
                                 <div className="p-10 bg-white rounded-[2.5rem] border border-gray-100 shadow-xl group hover:border-blue-200 transition-all">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
+                                    <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
                                         Error B: Incomplete "Debt Universe"
                                         <span className="text-amber-500 text-xs uppercase tracking-widest font-black">Rejection Risk: High</span>
-                                    </h4>
+                                    </p>
                                     <p className="text-gray-600 leading-[1.8] font-light">Hiding other active loans is a critical mistake. The bank’s internal system is linked to the RBI’s "Central Repository of Information on Large Credits" (CRILC). If you claim hardship but your CIBIL shows you are regularly paying a luxury car EMI to another bank, your settlement request will be laughed out of the room. Transparency across all debts is mandatory for a compassionate waiver.</p>
                                 </div>
                             </div>
@@ -625,15 +625,15 @@ const DocsNeededClient = () => {
                             </p>
                             <div className="space-y-6 mb-12">
                                 <div className="p-8 bg-gray-50 border-s-4 border-blue-600 rounded-e-2xl shadow-sm">
-                                    <h4 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 1-3: The Crisis Phase (SMA 0-2)</h4>
+                                    <h3 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 1-3: The Crisis Phase (SMA 0-2)</h3>
                                     <p className="text-gray-600 leading-relaxed font-light italic">Collect termination letters, medical bills, and police FIRs. Start a "Recovery Log"-record every call, take screenshots of every threatening WhatsApp, and save every email. This is your "Legal Protection Layer."</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 border-s-4 border-blue-600 rounded-e-2xl shadow-sm">
-                                    <h4 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 4-7: The Default Phase (NPA Entry)</h4>
+                                    <h3 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 4-7: The Default Phase (NPA Entry)</h3>
                                     <p className="text-gray-600 leading-relaxed font-light italic">Compile 12 months of bank statements. Draft your formal hardship letter. Send your first "Intent to Settle" notice via Registered Post. The "Proof of Delivery" of this document is your shield against "Willful Defaulter" tags in the future.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 border-s-4 border-blue-600 rounded-e-2xl shadow-sm">
-                                    <h4 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 8-12: The Negotiation Phase (Stage 3)</h4>
+                                    <h3 className="font-bold text-gray-900 text-xl mb-2 italic uppercase tracking-tighter text-blue-800">Month 8-12: The Negotiation Phase (Stage 3)</h3>
                                     <p className="text-gray-600 leading-relaxed font-light italic">Submit the full 50-page "Hardship Folder" to the bank’s internal legal or settlement team. This is when high-value waivers (60% to 80%) are typically finalized because the bank’s "Loss Provisioning" is at its peak.</p>
                                 </div>
                             </div>
@@ -730,7 +730,7 @@ const DocsNeededClient = () => {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Legal Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Legal Shield</p>
                                 <p className="text-sm text-gray-600 mb-6 font-light italic">"Documentation is your only defense against aggressive recovery. Build your shield now."</p>
                                 <Link
                                     href="/contact"
@@ -747,7 +747,7 @@ const DocsNeededClient = () => {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/debt-settlement-vs-bankruptcy", text: "Settlement vs Bankruptcy" },

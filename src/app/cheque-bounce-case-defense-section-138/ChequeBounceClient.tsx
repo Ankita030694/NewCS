@@ -189,7 +189,7 @@ export default function ChequeBounceClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -237,40 +237,40 @@ export default function ChequeBounceClient() {
                             {/* Section Type: Legal Process Map */}
                             <h2 id="legal-process-map" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Step-by-Step Legal Process Map for Defending a Cheque Bounce</h2>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 mb-8 overflow-hidden">
-                                <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">The Chronology of a Section 138 Defence</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-6 text-center">The Chronology of a Section 138 Defence</p>
                                 <div className="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-blue-300 before:to-transparent">
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">1</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Cheque Dishonor & Return Memo</h4>
+                                            <p className="font-bold text-gray-900 mb-1">Cheque Dishonor & Return Memo</p>
                                             <p className="text-sm text-gray-600">The bank presents the cheque, it bounces due to insufficient funds, and the drawee bank issues a return memo citing the specific reason.</p>
                                         </div>
                                     </div>
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">2</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Issuance of Statutory Notice</h4>
+                                            <h3 className="font-bold text-gray-900 mb-1">Issuance of Statutory Notice</h3>
                                             <p className="text-sm text-gray-600">Within 30 days of receiving the memo, the bank must send a legal notice demanding payment of the cheque amount within 15 days.</p>
                                         </div>
                                     </div>
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">3</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Drafting the Legal Reply</h4>
+                                            <h3 className="font-bold text-gray-900 mb-1">Drafting the Legal Reply</h3>
                                             <p className="text-sm text-gray-600">The borrower must send a robust reply denying liability and outlining defenses like misuse of a blank security cheque.</p>
                                         </div>
                                     </div>
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">4</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Filing of the Complaint & Summons</h4>
+                                            <h3 className="font-bold text-gray-900 mb-1">Filing of the Complaint & Summons</h3>
                                             <p className="text-sm text-gray-600">If payment is not made, the bank files a criminal complaint within 30 days. The magistrate then issues a summons for appearance.</p>
                                         </div>
                                     </div>
                                     <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                                         <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-blue-500 text-white font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">5</div>
                                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-blue-200 bg-white shadow">
-                                            <h4 className="font-bold text-gray-900 mb-1">Appearance and Bail</h4>
+                                            <h3 className="font-bold text-gray-900 mb-1">Appearance and Bail</h3>
                                             <p className="text-sm text-gray-600">The accused appears in court, applies for bail (a routine procedure in bailable offenses), and pleads not guilty to trigger the trial phase.</p>
                                         </div>
                                     </div>
@@ -321,7 +321,7 @@ export default function ChequeBounceClient() {
                                         <div className="bg-red-500 text-white p-2 rounded-full">
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                         </div>
-                                        <h4 className="font-bold text-gray-900">Delivery via WhatsApp Only</h4>
+                                        <h3 className="font-bold text-gray-900">Delivery via WhatsApp Only</h3>
                                     </div>
                                     <p className="text-gray-700 text-sm flex-grow">Genuine statutory notices under Section 138 must be sent via Registered Post with Acknowledgment Due (RPAD) or Speed Post to ensure proof of delivery. A PDF document sent exclusively over WhatsApp by an unknown number is almost certainly a pressure tactic by a recovery agent, not a valid legal step.</p>
                                 </div>
@@ -331,7 +331,7 @@ export default function ChequeBounceClient() {
                                         <div className="bg-red-500 text-white p-2 rounded-full">
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                         </div>
-                                        <h4 className="font-bold text-gray-900">Missing Court Details</h4>
+                                        <h3 className="font-bold text-gray-900">Missing Court Details</h3>
                                     </div>
                                     <p className="text-gray-700 text-sm flex-grow">A genuine court summons will always contain the precise name of the court, the presiding judge's designation, the Case Number (CNR Number), and the exact date and time for appearance. Forged summons often lack these specific details or invent fake court names like "High Court Recovery Tribunal."</p>
                                 </div>
@@ -341,7 +341,7 @@ export default function ChequeBounceClient() {
                                         <div className="bg-red-500 text-white p-2 rounded-full">
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                         </div>
-                                        <h4 className="font-bold text-gray-900">Threats of Immediate Arrest</h4>
+                                        <h3 className="font-bold text-gray-900">Threats of Immediate Arrest</h3>
                                     </div>
                                     <p className="text-gray-700 text-sm flex-grow">Legal notices are formal documents demanding payment. They do not contain aggressive threats like "Police will arrive at your home tomorrow to arrest you" or "Your property will be auctioned within 24 hours." Such dramatic language is the hallmark of a fake notice designed to exploit a borrower's ignorance of the law.</p>
                                 </div>
@@ -351,7 +351,7 @@ export default function ChequeBounceClient() {
                                         <div className="bg-red-500 text-white p-2 rounded-full">
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                         </div>
-                                        <h4 className="font-bold text-gray-900">Fake FIR Copies</h4>
+                                        <h3 className="font-bold text-gray-900">Fake FIR Copies</h3>
                                     </div>
                                     <p className="text-gray-700 text-sm flex-grow">A cheque bounce is a bailable, non cognizable offense. The police generally do not register an FIR for a simple Section 138 matter; the complaint is filed directly before a magistrate. If you receive a PDF claiming to be an FIR for loan default, it is highly likely a forgery intended for extortion. Understand <Link href="/how-to-handle-recovery-agent-harrasment" className="text-blue-600 hover:underline">how to handle recovery agent harrasment</Link> when confronted with such fake documents.</p>
                                 </div>
@@ -417,7 +417,7 @@ export default function ChequeBounceClient() {
                         <div className="space-y-6">
                             {/* CTA Card Widget */}
                             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                                <h4 className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     Stop paying high interest and start negotiating. We protect your rights.
                                 </p>
@@ -445,7 +445,7 @@ export default function ChequeBounceClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</p>
                                 <nav className="space-y-4 mt-2">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>

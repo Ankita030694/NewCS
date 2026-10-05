@@ -183,7 +183,7 @@ export default function VoluntarySurrenderClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -253,14 +253,14 @@ export default function VoluntarySurrenderClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Don't Hand Over the Keys Just Yet!</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">Don't Hand Over the Keys Just Yet!</p>
                                 <p className="text-blue-800 mb-6">Before you surrender your car, or if you've already received a shortfall notice, contact our expert lawyers. We can negotiate a proper settlement or legally challenge the bank's auction valuation to protect your assets.</p>
                                 <Link
                                     href="/contact"
@@ -281,7 +281,7 @@ export default function VoluntarySurrenderClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Shortfall Notice?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Shortfall Notice?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop bank attachments and fight bogus auction values.</p>
                                 <Link
                                     href="/contact"
@@ -298,7 +298,7 @@ export default function VoluntarySurrenderClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Agent Harassment</Link>
                                     <Link href="/legal-notice-to-loan-guarantor-liability" className="block text-sm text-blue-600 hover:underline">Guarantor Liability</Link>

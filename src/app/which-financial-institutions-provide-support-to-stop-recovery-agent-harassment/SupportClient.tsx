@@ -193,7 +193,7 @@ export default function SupportClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Navigation</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -463,7 +463,7 @@ export default function SupportClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Immediate Help</h4>
+                <p className="font-bold text-2xl mb-4">Immediate Help</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing harassment right now? Our experts are ready to help you stop the calls and visits.</p>
                 <Link 
                   href="/contact"
@@ -488,7 +488,7 @@ export default function SupportClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/is-there-a-government-portal-for-debt-collection-complaints" className="group flex items-start">

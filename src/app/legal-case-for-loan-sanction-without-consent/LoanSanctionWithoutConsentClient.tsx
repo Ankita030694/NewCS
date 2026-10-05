@@ -282,7 +282,7 @@ export default function LoanSanctionWithoutConsentClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 h-screen overflow-y-auto no-scrollbar pb-24">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Fraud Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Fraud Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -496,7 +496,7 @@ export default function LoanSanctionWithoutConsentClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Fraud Defense</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Fraud Defense</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop illegal EMI deductions and wipe unauthorized loans from your record.</p>
                                 <Link
                                     href="/contact"
@@ -508,7 +508,7 @@ export default function LoanSanctionWithoutConsentClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/legal-case-for-loan-sanction-without-consent" className="block text-sm text-blue-600 hover:underline">Loan Sanction Fraud</Link>
                                     <Link href="/bank-calling-references-and-family-members" className="block text-sm text-blue-600 hover:underline">Harassment Protection</Link>

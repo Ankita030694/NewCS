@@ -231,7 +231,7 @@ export default function PersonalLoanNegotiationClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -313,28 +313,28 @@ export default function PersonalLoanNegotiationClient() {
                             </p>
                             
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4">Tier 1: The Formal Grievance Initiation</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Tier 1: The Formal Grievance Initiation</p>
                                 <p className="text-blue-800 font-normal m-0 mb-4">
                                     The process begins by officially logging your hardship. You must send a detailed email to the primary customer grievance email address listed on the bank portal. This communication must clearly state your loan account number, the nature of your financial distress, and your request to initiate a settlement discussion. This step generates a formal ticket number. The local branch will likely attempt to close this ticket with a generic response demanding full payment. Do not be discouraged. Generating this ticket is merely the prerequisite for escalation.
                                 </p>
                             </div>
                             
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4">Tier 2: The Nodal Officer Escalation</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Tier 2: The Nodal Officer Escalation</p>
                                 <p className="text-blue-800 font-normal m-0 mb-4">
                                     Once the standard grievance channel fails to provide a settlement offer, you escalate the matter to the Nodal Officer. The Nodal Officer is a senior executive specifically appointed to ensure compliance and handle complex customer disputes. You must send an email to the designated Nodal Officer for your region, referencing the previously generated ticket number. In this communication, you explicitly state that the local branch is refusing to negotiate and that you require the intervention of the central recovery department. The Nodal Officer has the authority to pull the file away from the external collection agencies.
                                 </p>
                             </div>
                             
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4">Tier 3: The Principal Nodal Officer</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Tier 3: The Principal Nodal Officer</p>
                                 <p className="text-blue-800 font-normal m-0 mb-4">
                                     If the regional Nodal Officer does not facilitate a direct line to the decision makers within a reasonable timeframe, the next step is the Principal Nodal Officer. This individual operates at the national headquarters level. Escalating to this tier demonstrates that you are highly educated about banking protocols. A communication at this level often triggers an internal review of the account, prompting the Stressed Assets Management group to finally reach out to you directly with a realistic settlement proposal.
                                 </p>
                             </div>
                             
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4">Tier 4: The RBI Integrated Ombudsman</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Tier 4: The RBI Integrated Ombudsman</p>
                                 <p className="text-blue-800 font-normal m-0 mb-4">
                                     The final tier is external to the bank. If the bank management entirely refuses to entertain a legitimate settlement request while simultaneously allowing recovery agents to subject you to harassment, you file a comprehensive complaint with the Reserve Bank of India Integrated Ombudsman. This action forces the bank to respond to the central regulator. Banks are extremely averse to regulatory scrutiny. The mere filing of an Ombudsman complaint is frequently the catalyst that forces the bank to suddenly offer a highly favorable settlement simply to close the regulatory inquiry.
                                 </p>
@@ -355,7 +355,7 @@ export default function PersonalLoanNegotiationClient() {
                             </p>
                             
                             <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-8 mb-10 shadow-inner">
-                                <h4 className="text-xl font-bold text-gray-900 mb-4 border-b pb-2">Script Template: The Hardship Declaration</h4>
+                                <p className="text-xl font-bold text-gray-900 mb-4 border-b pb-2">Script Template: The Hardship Declaration</p>
                                 <p className="text-gray-700 font-mono text-sm leading-relaxed whitespace-pre-wrap m-0">
                                     Subject: Formal Request for Hardship Settlement - Loan Account [Insert Account Number]
                                     
@@ -382,7 +382,7 @@ export default function PersonalLoanNegotiationClient() {
                             </p>
                             
                             <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-8 mb-10 shadow-inner">
-                                <h4 className="text-xl font-bold text-gray-900 mb-4 border-b pb-2">Script Template: The Firm Counter Offer</h4>
+                                <p className="text-xl font-bold text-gray-900 mb-4 border-b pb-2">Script Template: The Firm Counter Offer</p>
                                 <p className="text-gray-700 font-mono text-sm leading-relaxed whitespace-pre-wrap m-0">
                                     Subject: Response to Settlement Counter Offer - Loan Account [Insert Account Number]
                                     
@@ -513,7 +513,7 @@ export default function PersonalLoanNegotiationClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -550,7 +550,7 @@ export default function PersonalLoanNegotiationClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-xs mb-4 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -570,7 +570,7 @@ export default function PersonalLoanNegotiationClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-3 text-left font-medium">
                                     <li>
                                         <Link href="/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

@@ -232,7 +232,7 @@ export default function WhyEmiPaymentKeepFailingClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -293,27 +293,27 @@ export default function WhyEmiPaymentKeepFailingClient() {
                                 Understanding why an auto debit fails is the first step toward finding a lasting solution. Here are the most common culprits behind recurring NACH mandate failure reasons.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">1. NACH Mandate Rejection and Defunct Authorizations</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">1. NACH Mandate Rejection and Defunct Authorizations</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The most frequent cause of an EMI bounce is a defunct or rejected NACH mandate. When you sign a NACH form during loan origination, it authorizes your bank to release funds to the lender automatically. However, if the mandate expires, is mapped to an incorrect account number, or is canceled due to administrative errors, the auto debit request will be rejected. Sometimes, lenders fail to renew the mandate if the loan tenure is extended, leaving the borrower with a defunct authorization.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">2. Signature Mismatch Issues</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">2. Signature Mismatch Issues</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A signature mismatch is a surprisingly common issue that halts auto debit processing. Banks employ strict verification protocols to prevent unauthorized debits. If the signature on your physical NACH mandate form slightly deviates from the specimen signature recorded in the bank database, the mandate will be rejected. This is particularly problematic for individuals whose signatures have naturally evolved over the years. Resolving a signature mismatch often requires visiting your home branch to update your specimen signature or opting for a digital e mandate.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">3. Bank Server Downtimes and Payment Gateways</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">3. Bank Server Downtimes and Payment Gateways</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Technical glitches are an unfortunate reality of the digital banking ecosystem. If your bank server is experiencing downtime or undergoing scheduled maintenance exactly when the lender initiates the auto debit request, the transaction will fail. Similarly, errors in the payment gateway facilitating the transaction between the lender and your bank can result in an EMI bounce. These technical failures are entirely outside your control but still result in penalty charges if not addressed promptly.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">4. Insufficient Funds and Overdraft Limits</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">4. Insufficient Funds and Overdraft Limits</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 While it may seem obvious, insufficient funds remain a primary cause of EMI failures. It is essential to ensure that your account has adequate balance at least twenty four hours before the scheduled debit date. Additionally, if your account operates with an overdraft limit, ensure that the EMI amount does not exceed the available limit. Some banks also charge mandate bounce fees, which can deplete your balance and cause subsequent payments to fail.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">5. Account Freezes or KYC Non Compliance</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">5. Account Freezes or KYC Non Compliance</p>
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 Banks occasionally freeze accounts due to suspected fraudulent activity, pending legal disputes, or failure to complete periodic Know Your Customer (KYC) updates. If your account is frozen or flagged as dormant, all debit transactions, including NACH mandates, will be blocked. Regular compliance with your bank KYC requirements is essential to ensure uninterrupted auto debit processing.
                             </p>
@@ -325,36 +325,36 @@ export default function WhyEmiPaymentKeepFailingClient() {
 
                             {/* Visual Element 1: Troubleshooting Flowchart (Styled Steps) */}
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 shadow-md mb-10">
-                                <h4 className="text-2xl font-bold text-blue-900 mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-bold text-blue-900 mb-6 flex items-center gap-3">
                                     <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
                                     Diagnosis Protocol for EMI Failures
-                                </h4>
+                                </p>
                                 <div className="space-y-6">
                                     <div className="flex flex-col md:flex-row gap-4 items-start md:items-center bg-white p-4 rounded-xl border border-blue-200">
                                         <div className="bg-blue-600 text-white font-black text-xl w-12 h-12 flex items-center justify-center rounded-full shrink-0">1</div>
                                         <div>
-                                            <h5 className="font-bold text-lg text-gray-900">Verify Account Balance</h5>
+                                            <p className="font-bold text-lg text-gray-900">Verify Account Balance</p>
                                             <p className="text-gray-600 text-sm">Check your bank statement to ensure sufficient funds were available at midnight on the due date. Account for minimum balance requirements.</p>
                                         </div>
                                     </div>
                                     <div className="flex flex-col md:flex-row gap-4 items-start md:items-center bg-white p-4 rounded-xl border border-blue-200">
                                         <div className="bg-blue-600 text-white font-black text-xl w-12 h-12 flex items-center justify-center rounded-full shrink-0">2</div>
                                         <div>
-                                            <h5 className="font-bold text-lg text-gray-900">Examine the Bounce Reason Code</h5>
+                                            <h3 className="font-bold text-lg text-gray-900">Examine the Bounce Reason Code</h3>
                                             <p className="text-gray-600 text-sm">Request the specific NACH rejection reason code from your bank or lender. Codes like 'Signature Mismatch' or 'Mandate Not Found' pinpoint the exact issue.</p>
                                         </div>
                                     </div>
                                     <div className="flex flex-col md:flex-row gap-4 items-start md:items-center bg-white p-4 rounded-xl border border-blue-200">
                                         <div className="bg-blue-600 text-white font-black text-xl w-12 h-12 flex items-center justify-center rounded-full shrink-0">3</div>
                                         <div>
-                                            <h5 className="font-bold text-lg text-gray-900">Check Mandate Status on NetBanking</h5>
+                                            <h3 className="font-bold text-lg text-gray-900">Check Mandate Status on NetBanking</h3>
                                             <p className="text-gray-600 text-sm">Log into your bank portal and navigate to the 'Mandates' section. Verify if the mandate for the specific lender is active, suspended, or expired.</p>
                                         </div>
                                     </div>
                                     <div className="flex flex-col md:flex-row gap-4 items-start md:items-center bg-white p-4 rounded-xl border border-blue-200">
                                         <div className="bg-blue-600 text-white font-black text-xl w-12 h-12 flex items-center justify-center rounded-full shrink-0">4</div>
                                         <div>
-                                            <h5 className="font-bold text-lg text-gray-900">Confirm KYC Compliance</h5>
+                                            <h3 className="font-bold text-lg text-gray-900">Confirm KYC Compliance</h3>
                                             <p className="text-gray-600 text-sm">Ensure your bank account is not subjected to a temporary debit freeze due to pending KYC updates or unusual transaction patterns.</p>
                                         </div>
                                     </div>
@@ -372,10 +372,10 @@ export default function WhyEmiPaymentKeepFailingClient() {
                             {/* Visual Element 2: Alert Banner detailing penalty charges and CIBIL drops */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-2xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-200 blur-2xl rounded-full opacity-50"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-3 flex items-center gap-2">
+                                <h3 className="text-xl font-bold text-red-900 mb-3 flex items-center gap-2">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Critical Warning: The Compounding Cost of Bounces
-                                </h4>
+                                </h3>
                                 <ul className="list-disc pl-5 space-y-2 text-red-800 font-medium">
                                     <li><strong>Bank Bounce Fee:</strong> Your bank will charge you anywhere from ₹250 to ₹500 for every failed NACH mandate due to insufficient funds.</li>
                                     <li><strong>Lender Penalty:</strong> The lender will impose a late payment fee and overdue interest, which compounds daily.</li>
@@ -457,7 +457,7 @@ export default function WhyEmiPaymentKeepFailingClient() {
                                 Switching your payment mode safely is essential to ensure that you do not inadvertently trigger a double debit or face mandate cancellation penalties.
                             </p>
                             <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-lg mb-10">
-                                <h4 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wider border-b pb-4">Checklist for Transitioning Payment Methods</h4>
+                                <h3 className="text-xl font-bold text-gray-900 mb-6 uppercase tracking-wider border-b pb-4">Checklist for Transitioning Payment Methods</h3>
                                 <ul className="space-y-4 text-gray-700">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-green-500 mr-3 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -545,7 +545,7 @@ export default function WhyEmiPaymentKeepFailingClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">EMI Bounce Stress?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">EMI Bounce Stress?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can help you navigate technical failures and prevent unjust legal action today.</p>
                                 <Link
                                     href="/contact"
@@ -563,7 +563,7 @@ export default function WhyEmiPaymentKeepFailingClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

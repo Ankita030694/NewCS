@@ -130,7 +130,7 @@ export default function WhatIsMinimumAmountDueClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -201,30 +201,30 @@ export default function WhatIsMinimumAmountDueClient() {
                 </p>
 
                 <div className="bg-red-50 p-8 rounded-2xl border-l-4 border-red-600 mb-8 shadow-sm">
-                  <h4 className="font-bold text-red-900 text-lg mb-4 flex items-center">
+                  <h3 className="font-bold text-red-900 text-lg mb-4 flex items-center">
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                     Red Flag 1: The Balance Transfer Shuffle
-                  </h4>
+                  </h3>
                   <p className="text-gray-800 text-base">
                     If you are systematically opening new credit cards solely for the purpose of transferring the balance from an existing card, or if you are withdrawing cash from one credit card to pay the minimum amount due on another, you are in a severe debt trap. This behavior is called credit kiting. It does not solve the underlying insolvency problem. It merely delays the inevitable collapse while incurring additional processing fees and balance transfer charges, making the final debt significantly larger.
                   </p>
                 </div>
 
                 <div className="bg-red-50 p-8 rounded-2xl border-l-4 border-red-600 mb-8 shadow-sm">
-                  <h4 className="font-bold text-red-900 text-lg mb-4 flex items-center">
+                  <h3 className="font-bold text-red-900 text-lg mb-4 flex items-center">
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                     Red Flag 2: Maxed Out Credit Utilization
-                  </h4>
+                  </h3>
                   <p className="text-gray-800 text-base">
                     Your credit utilization ratio is the percentage of your total available credit that you are currently using. If your credit cards are consistently hovering at ninety to one hundred percent of their maximum limit, you have zero financial buffer. Any unexpected expense, such as a medical bill or a vehicle repair, will immediately push you over the limit. This triggers exorbitant over limit fees, which are added to your minimum due, often causing your next payment to bounce and initiating the default sequence.
                   </p>
                 </div>
 
                 <div className="bg-red-50 p-8 rounded-2xl border-l-4 border-red-600 shadow-sm">
-                  <h4 className="font-bold text-red-900 text-lg mb-4 flex items-center">
+                  <h3 className="font-bold text-red-900 text-lg mb-4 flex items-center">
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                     Red Flag 3: Declining Principal Balance Illusion
-                  </h4>
+                  </h3>
                   <p className="text-gray-800 text-base">
                     Take out your credit card statements from six months ago and compare them to your current statement. Look strictly at the total outstanding principal balance. If you have been making regular payments every month, yet the total outstanding principal balance has barely decreased by a few thousand rupees, you are trapped in the interest cycle. You are essentially renting the bank's money at a staggering premium without ever actually purchasing your freedom from the debt.
                   </p>
@@ -265,7 +265,7 @@ export default function WhatIsMinimumAmountDueClient() {
 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-blue-400">The Anatomy of a Strategic Default</h4>
+                    <h3 className="text-base font-bold mb-8 text-blue-400">The Anatomy of a Strategic Default</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-blue-400">The Subject:</strong> Mr. Anil Kapoor, a logistics manager based in Chennai.</p>
@@ -398,7 +398,7 @@ export default function WhatIsMinimumAmountDueClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Financial Strategist & Debt Resolution Expert</p>
                 <p className="text-xs text-gray-400">Specializing in credit card law, banking policies, and protecting consumers from predatory financial practices in India.</p>
               </div>

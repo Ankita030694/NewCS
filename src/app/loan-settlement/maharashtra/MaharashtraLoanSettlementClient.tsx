@@ -199,7 +199,7 @@ export default function MaharashtraLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -236,7 +236,7 @@ export default function MaharashtraLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Key Update for 2026</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Key Update for 2026</h3>
                 <p className="text-blue-800 m-0">
                   The Maharashtra State Legal Services Authority has announced the dates for remaining National Lok Adalats in 2026. This is the fastest, cheapest, and most secure way to settle your bank disputes in a single day.
                 </p>
@@ -338,7 +338,7 @@ export default function MaharashtraLoanSettlementClient() {
                 If the bank fails to resolve your grievance within 30 days, or if you are not satisfied with their reply, you must escalate it to the RBI Ombudsman.
               </p>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                <h4 className="font-bold text-gray-900 mb-2">Contact Details for Maharashtra:</h4>
+                <h3 className="font-bold text-gray-900 mb-2">Contact Details for Maharashtra:</h3>
                 <p className="text-gray-700 mb-1"><strong>Address:</strong> C/o Reserve Bank of India, Garment House, Ground Floor, Dr. Annie Besant Road, Worli, Mumbai 400 018.</p>
                 <p className="text-gray-700 mb-1"><strong>Phone:</strong> 022-24924607 / 24960893</p>
                 <p className="text-gray-700 mb-1"><strong>Online Portal:</strong> <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">cms.rbi.org.in</a></p>
@@ -457,7 +457,7 @@ export default function MaharashtraLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Live in Maharashtra?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Live in Maharashtra?</p>
                 <p className="text-sm text-gray-600 mb-6">Get local legal support for your loan settlement.</p>
                 <Link 
                   href="/contact"
@@ -473,7 +473,7 @@ export default function MaharashtraLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">

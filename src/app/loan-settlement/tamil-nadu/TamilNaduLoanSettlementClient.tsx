@@ -218,7 +218,7 @@ export default function TamilNaduLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -255,7 +255,7 @@ export default function TamilNaduLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Crucial Local Protection</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Crucial Local Protection</h3>
                 <p className="text-blue-800 m-0">
                   Tamil Nadu has historically strong laws against usury. The "Kandhu Vatti Act" is a unique legal shield that protects borrowers in the state from harassment and exorbitant interest demands, even from unregulated agents.
                 </p>
@@ -286,35 +286,35 @@ export default function TamilNaduLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">1</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Case Assessment & Legal Shielding</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Case Assessment & Legal Shielding</h3>
                     <p className="text-gray-700">We begin by analyzing your loan documents. Once engaged, we take over communications. In a city like Chennai where recovery agents can be persistent, we direct all calls to our legal team, citing your representation.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">2</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Handling the NPA Stage</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Handling the NPA Stage</h3>
                     <p className="text-gray-700">Settlement usually becomes an option after the loan is classified as an NPA (90 days overdue). We guide you through this period, helping you handle legal notices under the SARFAESI Act or arbitration notices.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Strategic Negotiation</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Strategic Negotiation</h3>
                     <p className="text-gray-700">We negotiate directly with the Regional Collection Managers of banks in Chennai, Coimbatore, or Madurai. Our goal is to waive off all penal charges and interest, often reducing the principal amount significantly.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Official Settlement Letter</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Official Settlement Letter</h3>
                     <p className="text-gray-700">We never ask you to pay without written proof. We ensure the bank issues an official Settlement Letter on their letterhead, clearly stating the reduced amount and the closure terms.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-5 rounded-xl border border-gray-100">
                   <div className="flex-shrink-0 h-12 w-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">5</div>
                   <div className="ml-5">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">Closure & Peace of Mind</h4>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Closure & Peace of Mind</h3>
                     <p className="text-gray-700">After you make the payment directly to the bank, we ensure you receive the No Dues Certificate. Your liability ends forever.</p>
                   </div>
                 </div>
@@ -354,15 +354,15 @@ export default function TamilNaduLoanSettlementClient() {
               </p>
               <div className="grid md:grid-cols-2 gap-4 mb-8">
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
-                    <h4 className="font-bold text-blue-900">DRT-1, DRT-2 & DRT-3 Chennai</h4>
+                    <h3 className="font-bold text-blue-900">DRT-1, DRT-2 & DRT-3 Chennai</h3>
                     <p className="text-sm text-gray-600 mt-1">Located in Chennai, these tribunals handle cases from the metropolitan area and northern districts like Kancheepuram and Tiruvallur.</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
-                    <h4 className="font-bold text-blue-900">DRT Coimbatore</h4>
+                    <h3 className="font-bold text-blue-900">DRT Coimbatore</h3>
                     <p className="text-sm text-gray-600 mt-1">Serves the western industrial belt including Coimbatore, Tirupur, Erode, Salem, and Namakkal.</p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
-                    <h4 className="font-bold text-blue-900">DRT Madurai</h4>
+                    <h3 className="font-bold text-blue-900">DRT Madurai</h3>
                     <p className="text-sm text-gray-600 mt-1">Handles cases from the southern districts like Madurai, Tirunelveli, Thoothukudi, and Kanyakumari.</p>
                 </div>
               </div>
@@ -439,7 +439,7 @@ export default function TamilNaduLoanSettlementClient() {
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Tamil Nadu Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Tamil Nadu Support</p>
                 <p className="text-sm text-gray-600 mb-6">Specialized legal aid for Chennai & TN residents.</p>
                 <Link 
                   href="/contact"

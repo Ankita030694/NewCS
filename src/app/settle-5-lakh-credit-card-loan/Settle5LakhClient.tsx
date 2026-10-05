@@ -186,7 +186,7 @@ export default function Settle5LakhClient() {
 
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Map</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Map</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -220,12 +220,12 @@ export default function Settle5LakhClient() {
                                 Understanding this anatomy is crucial for survival. When you default on a personal loan, the bank has a fixed EMI schedule to reference. With a credit card, the balance is a moving target. Every passing month without a payment triggers not just late fees, but overlimit fees, GST on those fees, and interest applied not just to the principal, but to the previously accumulated interest. This compounding effect is what makes a 5 Lakh card debt significantly more dangerous than a 5 Lakh personal loan. Borrowers often try to pay just the <Link href="/what-is-minimum-amount-due-for-credit-card" className="text-blue-600 underline">minimum amount due</Link>, but when the principal is this high, the minimum payment barely covers the new interest, leaving the core debt completely untouched.
                             </p>
 
-                            <h3 id="compounding-interest" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">How Compounding Interest Inflates the Balance</h3>
+                            <h2 id="compounding-interest" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">How Compounding Interest Inflates the Balance</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Let us look at a stark reality. If you owe 5 Lakhs on a premium credit card and stop making payments, the math works relentlessly against you. At an average annual percentage rate of 40%, the monthly interest is roughly 3.33%. In the first month of default, you are hit with 16,650 rupees in interest, plus a late payment fee of around 1,000 rupees, plus 18% GST on all charges. Your balance instantly jumps to nearly 5.2 Lakhs.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h4 className="font-bold text-lg mb-4">The 6 Month Cost Breakdown (Approximate)</h4>
+                                <p className="font-bold text-lg mb-4">The 6 Month Cost Breakdown (Approximate)</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Month 1:</strong> Principal ₹5,00,000. Interest + Fees + GST ≈ ₹20,000. New Balance: ₹5,20,000.</li>
                                     <li><strong>Month 2:</strong> Interest calculated on ₹5,20,000. Total added ≈ ₹21,000. New Balance: ₹5,41,000.</li>
@@ -242,7 +242,7 @@ export default function Settle5LakhClient() {
                                 Lenders do not behave randomly. They follow a highly structured, data driven collection matrix. Knowing exactly where you are in this cycle gives you a massive advantage when it comes to negotiating a settlement. If you try to negotiate a steep discount in week two, you will be rejected. If you wait until month eight, you might face a legal notice. Timing is everything. Let us break down exactly what happens and when.
                             </p>
 
-                            <h3 id="month-1-to-3" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Month 1 to 3: Internal Recovery Tactics</h3>
+                            <h2 id="month-1-to-3" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Month 1 to 3: Internal Recovery Tactics</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The first ninety days are handled directly by the banks internal telecalling teams. Their primary goal is "cure rate", getting the account back to a current status by forcing you to pay the minimum due.
                             </p>
@@ -253,7 +253,7 @@ export default function Settle5LakhClient() {
                                 This is also the period where your credit card privileges are permanently suspended. Once you cross the 60 day mark without payment, the card is hotlisted, and the bank registers a major negative marker on your credit report. It is vital to stay calm here. Do not make a tiny, token payment of 2000 rupees. A token payment resets the delinquency clock, meaning the bank will just restart the 90 day cycle of internal pressure instead of moving your file to the settlement queue.
                             </p>
 
-                            <h3 id="month-4-to-6" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Month 4 to 6: Third-Party Agency Assignment</h3>
+                            <h2 id="month-4-to-6" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Month 4 to 6: Third-Party Agency Assignment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When an account crosses 90 days past due, it is classified as a Non Performing Asset (NPA). The bank realizes that internal calls are not working. The account is now handed over to external, third party recovery agencies. This is when the real pressure begins, and ironically, it is also when the window for a profitable settlement opens.
                             </p>
@@ -266,7 +266,7 @@ export default function Settle5LakhClient() {
                                 You cannot just call the bank and say, "I want to settle." A successful settlement requires building a compelling case of financial hardship. The bank needs to believe that if they do not take your offer now, they will never see a single rupee. You must present yourself as a borrower who wants to pay but mathematically cannot.
                             </p>
 
-                            <h3 id="repayment-capacity" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Assessing True Repayment Capacity</h3>
+                            <h2 id="repayment-capacity" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Assessing True Repayment Capacity</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Before you open dialogue, you need to know exactly how much cash you can access. A settlement is usually a lump sum payment. If you owe 5 Lakhs, and the bank eventually agrees to settle for 2 Lakhs, you need to have that 2 Lakhs ready within a few days of the agreement. If you negotiate a deal and then fail to pay, the bank will cancel the offer, add all the waived penalties back to your account, and refuse to negotiate with you for months.
                             </p>
@@ -274,7 +274,7 @@ export default function Settle5LakhClient() {
                                 Audit your liquid assets. Can you break a fixed deposit? Can you borrow a lump sum from a trusted family member? Do you have provident fund savings you can withdraw? Calculate your absolute maximum limit. Let us say your limit is 2.2 Lakhs. Your opening offer to the bank should be around 1.5 Lakhs, giving you room to negotiate upward without crossing your breaking point.
                             </p>
 
-                            <h3 id="dialogue-before-charge-off" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Initiating Dialogue Before Charge-Off</h3>
+                            <h2 id="dialogue-before-charge-off" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Initiating Dialogue Before Charge-Off</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The best time to strike is usually between day 120 and day 180 of default. By this time, the debt is heavily provisioned by the bank, but it has not yet been sold completely to an Asset Reconstruction Company (ARC). Write a formal email to the banks nodal officer and the credit card grievance redressal department.
                             </p>
@@ -287,7 +287,7 @@ export default function Settle5LakhClient() {
                                 Negotiation is an art, especially when dealing with trained recovery managers. They will employ tactics to make you feel guilty, they will use silence to make you nervous, and they will always reject your first offer. Your job is to stay entirely unemotional and stick to your numbers.
                             </p>
 
-                            <h3 id="principal-vs-interest" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Pushing for Principal Waivers vs Interest Waivers</h3>
+                            <h2 id="principal-vs-interest" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Pushing for Principal Waivers vs Interest Waivers</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A critical mistake borrowers make is accepting a deal that only waives the penalty fees. Remember, your 5 Lakh balance has probably grown to 6.5 Lakhs due to interest and penalties. If the bank says, "We will waive all penalties, just pay the original 5 Lakhs," that is NOT a good settlement for a defaulted credit card.
                             </p>
@@ -295,12 +295,12 @@ export default function Settle5LakhClient() {
                                 A true <Link href="/credit-card-settlement" className="text-blue-600 underline">credit card settlement</Link> involves a haircut on the principal amount as well. You must insist that your hardship is so severe that even the original principal is unpayable. A strong negotiator will aim to settle a 5 Lakh card for anywhere between 1.75 Lakhs to 2.5 Lakhs, depending on the age of the debt and the specific bank policies. Always focus the conversation on the lump sum amount you have in hand, ignoring their breakdown of what is principal and what is interest. Tell them, "I have exactly 2 Lakhs today. Take it and close the account, or I will have to use it for my medical bills."
                             </p>
 
-                            <h3 id="securing-agreement" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Securing the Written Settlement Agreement</h3>
+                            <h2 id="securing-agreement" className="text-2xl font-bold text-gray-900 mt-8 mb-4 scroll-mt-14">Securing the Written Settlement Agreement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This is where scams and miscommunications ruin lives. Never, ever make a payment based on a phone call or a WhatsApp message. You must receive a formal "Settlement Offer Letter" or "One Time Settlement (OTS)" letter from the banks official email domain.
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
-                                <h4 className="font-bold text-lg mb-4">Before vs After The Agreement</h4>
+                                <p className="font-bold text-lg mb-4">Before vs After The Agreement</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Before Payment:</strong> Ensure the letter has your correct 16 digit card number, your exact name, and explicitly states the final amount as "Full and Final Settlement."</li>
                                     <li><strong>Before Payment:</strong> Ensure the letter mentions that upon receipt of the funds, the bank will issue a No Dues Certificate and update the credit bureaus.</li>
@@ -324,7 +324,7 @@ export default function Settle5LakhClient() {
                             <div className="space-y-6 mb-12">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -357,7 +357,7 @@ export default function Settle5LakhClient() {
                                     alt="Vikram Sharma - Legal Expert"
                                     className="w-24 h-24 rounded-full border-4 border-blue-50 mb-4 object-cover"
                                 />
-                                <h3 className="text-xl font-bold text-gray-900 mb-1">Vikram Sharma</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-1">Vikram Sharma</p>
                                 <p className="text-sm text-blue-600 font-medium mb-4">Legal Resolution Expert</p>
                                 <p className="text-gray-600 text-sm leading-relaxed mb-6 font-light">
                                     Specializing in high value debt negotiation and borrower rights protection under the Indian legal framework.

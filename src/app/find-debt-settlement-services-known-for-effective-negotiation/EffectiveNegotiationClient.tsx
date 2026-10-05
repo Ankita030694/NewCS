@@ -213,7 +213,7 @@ export default function EffectiveNegotiationClient() {
           {/* Left Column: TOC */}
           <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+              <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
               <nav className="space-y-2 text-sm">
                 {navLinks.map((link) => (
                   <a
@@ -249,7 +249,7 @@ export default function EffectiveNegotiationClient() {
                   In 2025, a successful negotiation is about more than just numbers; it’s about shifting the power dynamics. It’s about demonstrating to the bank that a controlled loss is better than a total default. But how do you find the right service? In an industry where trust is everything, choosing a company that is legally sound, transparent, and effective is critical. This guide explores the top debt resolution firms in India and the expert techniques they use to secure massive waivers, while ensuring you stay protected under the latest RBI (Reserve Bank of India) guidelines.
                 </p>
                 <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border-l-4 border-blue-600">
-                  <h4 className="font-bold text-blue-900 mb-2">The 2025 Context</h4>
+                  <p className="font-bold text-blue-900 mb-2">The 2025 Context</p>
                   <p className="text-sm text-blue-800 leading-relaxed font-light">
                     With the introduction of the new Unified Lending Interface (ULI) and stricter RBI supervision on recovery practices, the "wait and watch" approach is being replaced by proactive settlement strategies. Banks are now increasingly using "Settlement Camps" and Lok Adalats to clear old books, providing a perfect window for professional negotiators to strike.
                   </p>
@@ -355,7 +355,7 @@ export default function EffectiveNegotiationClient() {
                     <div key={item.step} className="flex gap-4 p-5 bg-white border border-gray-100 rounded-2xl hover:border-blue-200 transition-colors shadow-sm">
                       <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">{item.step}</div>
                       <div>
-                        <h4 className="font-bold text-gray-900 mb-1">{item.title}</h4>
+                        <h3 className="font-bold text-gray-900 mb-1">{item.title}</h3>
                         <p className="text-sm text-gray-600 leading-relaxed font-light">{item.desc}</p>
                       </div>
                     </div>
@@ -432,7 +432,7 @@ export default function EffectiveNegotiationClient() {
                   A bank doesn’t settle because they are "nice." They settle because their "Recovery Probability Model" tells them that you are a high-risk default. To prove this, you need a professional Hardship File.
                 </p>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-4 tracking-wide uppercase text-sm">Mandatory 2025 Documentation Checklist:</h4>
+                  <h3 className="font-bold text-gray-900 mb-4 tracking-wide uppercase text-sm">Mandatory 2025 Documentation Checklist:</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-3">
                       <p className="flex items-center text-sm text-gray-700"><FontAwesomeIcon icon={faCheckCircle} className="text-green-600 mr-2" /> 6 Months Bank Statement (Proof of low balance)</p>
@@ -483,7 +483,7 @@ export default function EffectiveNegotiationClient() {
                       { title: "Bureau Monitoring", desc: "Ensure the bank reports the account as 'Settled' and not 'Written-off'. This is a minor but vital distinction." }
                     ].map((item, idx) => (
                       <div key={idx} className="p-5 bg-blue-50 rounded-2xl border border-blue-100">
-                        <h4 className="font-bold text-blue-900 mb-2 text-sm">{item.title}</h4>
+                        <h3 className="font-bold text-blue-900 mb-2 text-sm">{item.title}</h3>
                         <p className="text-xs text-blue-800 leading-relaxed">{item.desc}</p>
                       </div>
                     ))}
@@ -541,7 +541,7 @@ export default function EffectiveNegotiationClient() {
             <div className="space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Effective Negotiation?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Effective Negotiation?</p>
                 <p className="text-sm text-gray-600 mb-6">Learn how professional mediators can settle your debt for 50-75% less and stop collection harassment today.</p>
                 <button 
                   onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20negotiate%20my%20loan', '_blank')}
@@ -552,7 +552,7 @@ export default function EffectiveNegotiationClient() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                 <nav className="space-y-3">
                   <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="flex group items-start">
                     <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>

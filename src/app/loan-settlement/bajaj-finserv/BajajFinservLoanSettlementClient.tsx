@@ -201,7 +201,7 @@ export default function BajajFinservLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -237,7 +237,7 @@ export default function BajajFinservLoanSettlementClient() {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Key Insight</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Key Insight</h3>
                 <p className="text-blue-800 m-0">
                   Loan settlement is a financial lifeline, not a crime. If your intention to repay is genuine but your capability is currently compromised by valid hardships, Bajaj Finserv may agree to settle your outstanding dues for as low as 50% of the total liability, helping you avoid long-term legal complications.
                 </p>
@@ -312,35 +312,35 @@ export default function BajajFinservLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Financial Analysis & Enrollment</h4>
+                    <h3 className="font-bold text-gray-900">Financial Analysis & Enrollment</h3>
                     <p className="text-gray-600 mt-1">We assess your total liability across all Bajaj Finserv products. We verify if your accounts are eligible for settlement based on their NPA status and your hardship evidence.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Legal Representation</h4>
+                    <h3 className="font-bold text-gray-900">Legal Representation</h3>
                     <p className="text-gray-600 mt-1">We formally notify Bajaj Finserv that CredSettle is representing you. This is a crucial step to channel all recovery calls and legal notices to us, providing you with immediate mental relief.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Negotiation Strategy</h4>
+                    <h3 className="font-bold text-gray-900">Negotiation Strategy</h3>
                     <p className="text-gray-600 mt-1">Our team negotiates with the settlement officers. We use your hardship proof to demand a waiver on all penal interest and a significant reduction in the principal amount.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Issuance of Settlement Letter</h4>
+                    <h3 className="font-bold text-gray-900">Issuance of Settlement Letter</h3>
                     <p className="text-gray-600 mt-1">Once terms are agreed, we ensure Bajaj Finserv generates an official Settlement Letter. We verify the authenticity of this letter to ensure it includes all necessary clauses protecting you from future claims.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">5</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Payment & Closure</h4>
+                    <h3 className="font-bold text-gray-900">Payment & Closure</h3>
                     <p className="text-gray-600 mt-1">You make the payment directly to Bajaj Finserv (never to us). We then follow up to ensure your loan account status is updated to 'Settled' and obtain the No Dues Certificate.</p>
                   </div>
                 </div>
@@ -369,7 +369,7 @@ export default function BajajFinservLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-2">Hardship Proof</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Hardship Proof</h3>
                   <ul className="list-disc pl-5 text-sm text-gray-600 space-y-1">
                     <li>Termination/Layoff Letter</li>
                     <li>Medical Reports/Hospital Bills</li>
@@ -378,7 +378,7 @@ export default function BajajFinservLoanSettlementClient() {
                   </ul>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-2">KYC & Financials</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">KYC & Financials</h3>
                   <ul className="list-disc pl-5 text-sm text-gray-600 space-y-1">
                     <li>PAN Card & Aadhar Card</li>
                     <li>Last 3-6 months Bank Statements</li>
@@ -426,19 +426,19 @@ export default function BajajFinservLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg hover:shadow-md transition-shadow">
-                  <h5 className="font-bold text-gray-900 mb-1">Domain Expertise</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Domain Expertise</h3>
                   <p className="text-sm text-gray-600">We understand the specific settlement cycles of Bajaj Finance, EMI Cards, and RBL SuperCards.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg hover:shadow-md transition-shadow">
-                  <h5 className="font-bold text-gray-900 mb-1">Legal Shield</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Legal Shield</h3>
                   <p className="text-sm text-gray-600">We handle the legal notices (Section 138, Arbitration) so you don’t have to face the courts alone.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg hover:shadow-md transition-shadow">
-                  <h5 className="font-bold text-gray-900 mb-1">Max Savings</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Max Savings</h3>
                   <p className="text-sm text-gray-600">Our bulk settlement volume gives us leverage to negotiate deeper discounts (up to 50%) for our clients.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg hover:shadow-md transition-shadow">
-                  <h5 className="font-bold text-gray-900 mb-1">Success Fee Model</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Success Fee Model</h3>
                   <p className="text-sm text-gray-600">We are performance-driven. You pay our fee only when we successfully generate a settlement letter for you.</p>
                 </div>
               </div>
@@ -483,7 +483,7 @@ export default function BajajFinservLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform hover:-translate-y-1 transition-transform duration-300">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
@@ -499,7 +499,7 @@ export default function BajajFinservLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">

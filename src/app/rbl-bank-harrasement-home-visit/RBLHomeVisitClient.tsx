@@ -224,7 +224,7 @@ export default function RBLHomeVisitClient() {
           <div className="hidden lg:block lg:col-span-3">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a
@@ -383,7 +383,7 @@ export default function RBLHomeVisitClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900">{review.name}</h4>
+                        <p className="font-bold text-gray-900">{review.name}</p>
                         <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
@@ -431,7 +431,7 @@ export default function RBLHomeVisitClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Essential Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Essential Resources</p>
                 <ul className="space-y-5">
                   <li>
                     <Link href="/how-to-stop-recovery-agent-harassment" className="group flex items-start">

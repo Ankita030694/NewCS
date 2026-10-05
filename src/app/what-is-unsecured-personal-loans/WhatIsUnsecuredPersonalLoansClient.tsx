@@ -179,7 +179,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -267,7 +267,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                 </p>
 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The 90 Day Default Trajectory</h4>
+                  <h3 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The 90 Day Default Trajectory</h3>
                   
                   <div className="flex mb-8">
                     <div className="flex flex-col items-center mr-6">
@@ -275,7 +275,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Days 1 to 30: The Reminder Phase</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Days 1 to 30: The Reminder Phase</h3>
                       <p className="text-gray-700">The moment your EMI bounces, your account is flagged as Special Mention Account 0 (SMA-0). You will receive automated SMS alerts and emails regarding the missed payment. Late payment penalty fees and bounce charges are added to your outstanding principal. The bank's internal telecalling team will begin making polite but firm reminder calls, urging immediate payment to avoid further penalties.</p>
                     </div>
                   </div>
@@ -286,7 +286,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Days 31 to 60: The Escalation Phase</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Days 31 to 60: The Escalation Phase</h3>
                       <p className="text-gray-700">If the debt remains unpaid, the account moves to SMA-1 status. The frequency and intensity of the calls increase significantly. The bank may outsource the initial calling process to third party collection agencies. You may receive the first formal legal warning letter via email or post. The tone shifts from a reminder to a demand, often highlighting potential damage to your credit score.</p>
                     </div>
                   </div>
@@ -297,7 +297,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Days 61 to 90: The Pre NPA Phase</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Days 61 to 90: The Pre NPA Phase</h3>
                       <p className="text-gray-700">At SMA-2, the situation becomes critical. Field recovery agents may be dispatched to your registered residential or official address. The psychological pressure reaches its peak. The bank will issue a formal loan recall notice, demanding the entire outstanding loan amount rather than just the missed EMIs. The threat of legal action becomes imminent.</p>
                     </div>
                   </div>
@@ -307,7 +307,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-base shadow-lg z-10">4</div>
                     </div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Day 90 and Beyond: Non Performing Asset (NPA)</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Day 90 and Beyond: Non Performing Asset (NPA)</h3>
                       <p className="text-gray-700">Once 90 days have elapsed without a payment covering the overdue amount, the account is officially classified as a Non Performing Asset. For a detailed breakdown of this critical phase, it is vital to read about <Link href="/understanding-90-day-loan-default-india" className="text-blue-600 font-bold hover:underline">understanding 90 day loan default India</Link>. The bank must now provision for this bad debt on their balance sheet. It is at this stage that the bank becomes genuinely open to discussing a One Time Settlement (OTS) to recover whatever fraction of the debt they can salvage.</p>
                     </div>
                   </div>
@@ -323,25 +323,25 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                    <h4 className="font-bold text-red-900 text-base mb-4">Fake Police Threats</h4>
+                    <h3 className="font-bold text-red-900 text-base mb-4">Fake Police Threats</h3>
                     <p className="text-gray-800 text-base">
                       A common red flag is receiving calls from individuals claiming to be police officers or court officials, stating that an arrest warrant has been issued against you for failing to pay the personal loan. The police do not call to mediate civil loan disputes or warn you of impending arrests over the phone.
                     </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                    <h4 className="font-bold text-red-900 text-base mb-4">Workplace Defamation</h4>
+                    <h3 className="font-bold text-red-900 text-base mb-4">Workplace Defamation</h3>
                     <p className="text-gray-800 text-base">
                       Recovery agents may threaten to visit your office to publicly shame you in front of your colleagues and superiors, or they may send emails to your HR department detailing your debt. This is a severe violation of privacy laws and RBI guidelines regarding third party disclosure.
                     </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                    <h4 className="font-bold text-red-900 text-base mb-4">Abusive Language and Timings</h4>
+                    <h3 className="font-bold text-red-900 text-base mb-4">Abusive Language and Timings</h3>
                     <p className="text-gray-800 text-base">
                       Receiving calls before 8:00 AM or after 7:00 PM is strictly prohibited. Furthermore, the use of foul language, insults, or physical threats by any agent is a criminal offense. You have the absolute right to record these interactions and file a police complaint for criminal intimidation.
                     </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                    <h4 className="font-bold text-red-900 text-base mb-4">Fabricated Legal Notices</h4>
+                    <h3 className="font-bold text-red-900 text-base mb-4">Fabricated Legal Notices</h3>
                     <p className="text-gray-800 text-base">
                       Agencies often send documents formatted to look like official court summons, complete with fake stamps and seals. A genuine court summons will have a valid case number, the signature of a judge or court registrar, and proper jurisdictional details. Always verify legal documents with a qualified advocate.
                     </p>
@@ -359,7 +359,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of Strategic Resolution</h4>
+                    <h3 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of Strategic Resolution</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-yellow-400">The Onset of Harassment:</strong> By the second month of default, Mr. Sharma was receiving over forty calls a day. A recovery agent visited his apartment complex and loudly informed the security guard that Mr. Sharma was a fraudster attempting to abscond.</p>
@@ -426,7 +426,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="/default-user.svg" alt="Rajesh Kumar" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Rajesh Kumar</h4>
+                <p className="font-bold text-gray-900">Rajesh Kumar</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Consultant</p>
                 <p className="text-xs text-gray-400">Expert in debt management and providing strategic legal resolution for retail borrowers in India.</p>
               </div>

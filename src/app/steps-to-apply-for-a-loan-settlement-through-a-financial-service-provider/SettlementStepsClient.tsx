@@ -293,7 +293,7 @@ export default function SettlementStepsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -337,7 +337,7 @@ export default function SettlementStepsClient() {
                                 Before you send a single email to your bank, you must conduct a forensic audit of your own finances. A professional application fails if it is built on inconsistent data. You must identify exactly which loans have entered the 'NPA' (Non-Performing Asset) zone.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-[1.5rem] border border-blue-100 mb-10 shadow-inner">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 underline decoration-blue-300">The "Insolvency Test"</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4 underline decoration-blue-300">The "Insolvency Test"</p>
                                 <p className="text-gray-700 leading-relaxed font-light">Can your current income cover your EMIs + Basic Living Expenses? If the answer is No, and has been No for 3 months, you are a candidate for settlement. Professional providers use this data to build your 'Hardship Case.'</p>
                             </div>
 
@@ -490,7 +490,7 @@ export default function SettlementStepsClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Hardship Check</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Hardship Check</p>
                                 <p className="text-sm text-gray-600 mb-6">Do you qualify for the 2025 RBI settlement framework? Find out in 60 seconds.</p>
                                 <Link
                                     href="/contact"
@@ -507,7 +507,7 @@ export default function SettlementStepsClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Resources</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/which-companies-offer-professional-debt-settlement-services-for-personal-loans", text: "Top 10 Settlement Firms" },

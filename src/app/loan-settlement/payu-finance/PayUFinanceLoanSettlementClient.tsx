@@ -219,7 +219,7 @@ export default function PayUFinanceLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -256,7 +256,7 @@ export default function PayUFinanceLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">The CredSettle Assurance</h4>
+                <h3 className="font-bold text-blue-900 mb-2">The CredSettle Assurance</h3>
                 <p className="text-blue-800 m-0">
                   Navigating the "100% online" collections ecosystem of digital lenders like PayU can be confusing. CredSettle bridges the gap. We don’t just negotiate; we protect your rights against digital harassment and ensure that every document you receive-from the Settlement Letter to the No Dues Certificate-is legally watertight.
                 </p>
@@ -278,19 +278,19 @@ export default function PayUFinanceLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
-                  <h5 className="font-bold text-red-600 mb-2">High Penal Interest</h5>
+                  <h3 className="font-bold text-red-600 mb-2">High Penal Interest</h3>
                   <p className="text-sm text-gray-600">Late fees are often charged daily (e.g., ₹10-₹50 per day) alongside penal interest, causing small dues to double in months.</p>
                 </div>
                 <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
-                  <h5 className="font-bold text-red-600 mb-2">Algorithmic Harassment</h5>
+                  <h3 className="font-bold text-red-600 mb-2">Algorithmic Harassment</h3>
                   <p className="text-sm text-gray-600">Recovery is often managed by automated systems and third-party tele-calling agencies that use aggressive scripts and repeated calling.</p>
                 </div>
                 <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
-                  <h5 className="font-bold text-red-600 mb-2">Credit Stacking</h5>
+                  <h3 className="font-bold text-red-600 mb-2">Credit Stacking</h3>
                   <p className="text-sm text-gray-600">Users often have multiple "BNPL" lines (LazyPay, Simpl, etc.) active simultaneously, leading to an aggregate debt that exceeds repayment capacity.</p>
                 </div>
                 <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
-                  <h5 className="font-bold text-red-600 mb-2">Illegal Bill Generation</h5>
+                  <h3 className="font-bold text-red-600 mb-2">Illegal Bill Generation</h3>
                   <p className="text-sm text-gray-600">Some users have reported instances where bills were generated for failed transactions or unauthorized usage, leading to disputes that turn into defaults.</p>
                 </div>
               </div>
@@ -308,7 +308,7 @@ export default function PayUFinanceLoanSettlementClient() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">1. Non-Performing Asset (NPA) Status</h4>
+                    <h3 className="text-lg font-bold text-gray-900">1. Non-Performing Asset (NPA) Status</h3>
                     <p className="mt-2 text-gray-600">
                       Ideally, your account should be in the NPA category, which generally happens after <strong>90 days of non-payment</strong>. Before this period, the lender’s primary focus is full recovery and regularization of the account. Once it crosses 90 days (or sometimes 60 days for digital lenders), they are more open to "salvaging" the principal through settlement.
                     </p>
@@ -322,7 +322,7 @@ export default function PayUFinanceLoanSettlementClient() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">2. Demonstrable Financial Hardship</h4>
+                    <h3 className="text-lg font-bold text-gray-900">2. Demonstrable Financial Hardship</h3>
                     <p className="mt-2 text-gray-600">
                       You cannot settle just because you "don’t want" to pay. You must prove inability to pay. Valid hardships include:
                     </p>
@@ -342,7 +342,7 @@ export default function PayUFinanceLoanSettlementClient() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">3. Unsecured Nature of Loan</h4>
+                    <h3 className="text-lg font-bold text-gray-900">3. Unsecured Nature of Loan</h3>
                     <p className="mt-2 text-gray-600">
                       Settlement is primarily for <strong>unsecured loans</strong> (Personal Loans, BNPL, Credit Lines). If you have a secured loan (like a car loan against collateral), PayU is less likely to settle as they have the option to repossess the asset. However, even for car loans, settlements are possible if the vehicle value has depreciated significantly.
                     </p>
@@ -358,27 +358,27 @@ export default function PayUFinanceLoanSettlementClient() {
               <div className="relative border-l-2 border-blue-200 ml-4 space-y-10 my-10">
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-blue-600 rounded-full border-4 border-white"></span>
-                  <h4 className="font-bold text-gray-900">Step 1: Authorization & Analysis</h4>
+                  <h3 className="font-bold text-gray-900">Step 1: Authorization & Analysis</h3>
                   <p className="text-sm text-gray-600 mt-1">We begin by analyzing your total outstanding across LazyPay and PayU loans. You sign a Letter of Authority (LoA) allowing CredSettle to represent you legally. This is the first shield against harassment.</p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-gray-300 rounded-full border-4 border-white"></span>
-                  <h4 className="font-bold text-gray-900">Step 2: Legal Representation Notice</h4>
+                  <h3 className="font-bold text-gray-900">Step 2: Legal Representation Notice</h3>
                   <p className="text-sm text-gray-600 mt-1">We send a formal notice to PayU Finance’s collections department and Nodal Officer, informing them of your hardship and our representation. This formally requests them to direct all communication to us.</p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-gray-300 rounded-full border-4 border-white"></span>
-                  <h4 className="font-bold text-gray-900">Step 3: The Negotiation Phase</h4>
+                  <h3 className="font-bold text-gray-900">Step 3: The Negotiation Phase</h3>
                   <p className="text-sm text-gray-600 mt-1">This is the core. For digital loans, we negotiate with the central team. We aim for a waiver of all penal interest, late fees, and a percentage of the principal. <strong>Target Settlement: 40% - 60% of the principal + interest.</strong></p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-gray-300 rounded-full border-4 border-white"></span>
-                  <h4 className="font-bold text-gray-900">Step 4: Settlement Letter Issuance</h4>
+                  <h3 className="font-bold text-gray-900">Step 4: Settlement Letter Issuance</h3>
                   <p className="text-sm text-gray-600 mt-1">Once a figure is agreed, PayU will issue a formal <strong>Settlement Letter</strong> via email. We scrutinize this letter to ensure it mentions "Full and Final Settlement" and has no hidden clauses.</p>
                 </div>
                 <div className="relative pl-8">
                   <span className="absolute -left-2.5 top-0 w-5 h-5 bg-gray-300 rounded-full border-4 border-white"></span>
-                  <h4 className="font-bold text-gray-900">Step 5: Payment & Closure</h4>
+                  <h3 className="font-bold text-gray-900">Step 5: Payment & Closure</h3>
                   <p className="text-sm text-gray-600 mt-1">You make the payment directly to PayU’s official bank account (NEVER to a UPI ID sent by an agent). Within 15-20 days, a <strong>No Dues Certificate (NDC)</strong> is issued, confirming the loan is closed.</p>
                 </div>
               </div>
@@ -423,13 +423,13 @@ export default function PayUFinanceLoanSettlementClient() {
               
               <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm mb-10">
                 <div className="bg-gray-900 p-4 border-b border-gray-200">
-                  <h4 className="font-bold text-white">Authorized Escalation Matrix (2024-25)</h4>
+                  <h3 className="font-bold text-white">Authorized Escalation Matrix (2024-25)</h3>
                 </div>
                 <div className="p-6 space-y-6">
                   
                   <div className="grid md:grid-cols-2 gap-8">
                     <div>
-                      <h5 className="font-bold text-blue-800 mb-2 border-b pb-1">For General Complaints (Level 1)</h5>
+                      <h3 className="font-bold text-blue-800 mb-2 border-b pb-1">For General Complaints (Level 1)</h3>
                       <ul className="space-y-2 text-sm text-gray-600">
                         <li><strong>LazyPay Support:</strong> <a href="mailto:wecare@lazypay.in" className="text-blue-600 hover:underline">wecare@lazypay.in</a></li>
                         <li><strong>PayU Finance Support:</strong> <a href="mailto:wecare@payufin.com" className="text-blue-600 hover:underline">wecare@payufin.com</a></li>
@@ -437,7 +437,7 @@ export default function PayUFinanceLoanSettlementClient() {
                       </ul>
                     </div>
                     <div>
-                      <h5 className="font-bold text-blue-800 mb-2 border-b pb-1">Grievance Redressal Officer (Level 2)</h5>
+                      <h3 className="font-bold text-blue-800 mb-2 border-b pb-1">Grievance Redressal Officer (Level 2)</h3>
                        <ul className="space-y-2 text-sm text-gray-600">
                         <li><strong>Officer Name:</strong> Mr. Suraj Sapte / Ms. Bharathi Sarilla</li>
                         <li><strong>LazyPay Email:</strong> <a href="mailto:grievanceredressalofficer@lazypay.in" className="text-blue-600 hover:underline">grievanceredressalofficer@lazypay.in</a></li>
@@ -447,7 +447,7 @@ export default function PayUFinanceLoanSettlementClient() {
                   </div>
 
                   <div className="bg-red-50 p-4 rounded-lg border border-red-100 mt-4">
-                    <h5 className="font-bold text-red-900 mb-2">Principal Nodal Officer (Level 3 - Final Escalation)</h5>
+                    <h3 className="font-bold text-red-900 mb-2">Principal Nodal Officer (Level 3 - Final Escalation)</h3>
                     <p className="text-sm text-gray-700 mb-3">If your complaint is not resolved within 30 days, or if harassment persists, contact the Principal Nodal Officer directly. This is the highest level of internal escalation.</p>
                     <div className="grid md:grid-cols-2 gap-4 text-sm">
                       <div>
@@ -481,19 +481,19 @@ export default function PayUFinanceLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">[Protection] Shield Against Harassment</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">[Protection] Shield Against Harassment</h3>
                   <p className="text-sm text-gray-600">We redirect agent calls to our legal team. We file official grievances for every instance of abuse, forcing the lender to back down.</p>
                 </div>
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">[Money] Institutional Negotiation</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">[Money] Institutional Negotiation</h3>
                   <p className="text-sm text-gray-600">We settle hundreds of cases monthly. Lenders know us. We often secure waivers (40-60%) that individual borrowers rarely get.</p>
                 </div>
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">[Scale] Legal Verification</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">[Scale] Legal Verification</h3>
                   <p className="text-sm text-gray-600">PayU’s settlement letters can be technical. We verify every clause to ensure you are legally protected from future claims.</p>
                 </div>
                 <div className="p-6 bg-white border border-gray-100 shadow-sm rounded-xl">
-                  <h5 className="font-bold text-gray-900 mb-2">[Deal] Success-Fee Model</h5>
+                  <h3 className="font-bold text-gray-900 mb-2">[Deal] Success-Fee Model</h3>
                   <p className="text-sm text-gray-600">We are partners in your freedom. A significant portion of our fee is payable <strong>only</strong> when you receive the settlement letter.</p>
                 </div>
               </div>
@@ -545,7 +545,7 @@ export default function PayUFinanceLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
@@ -561,7 +561,7 @@ export default function PayUFinanceLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">

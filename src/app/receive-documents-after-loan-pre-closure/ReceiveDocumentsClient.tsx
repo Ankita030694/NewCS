@@ -233,7 +233,7 @@ export default function ReceiveDocumentsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -297,10 +297,10 @@ export default function ReceiveDocumentsClient() {
                             {/* Alert Banner 1 */}
                             <div className="bg-blue-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     The Core Rule
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-blue-50">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">Release Timeline:</strong> Regulated Entities shall release all the original movable and immovable property documents within 30 days of receiving full repayment or settlement of the loan account.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">Choice of Location:</strong> The borrower has the option to collect the original documents either from the banking outlet where the loan account was serviced or from any other office of the bank where the documents are physically stored.</li>
@@ -322,7 +322,7 @@ export default function ReceiveDocumentsClient() {
 
                             {/* Visual Section: Flowchart/Timeline */}
                             <div className="bg-gray-50 border border-gray-200 rounded-3xl p-8 mb-10 shadow-inner">
-                                <h4 className="font-bold text-xl text-gray-800 mb-6 text-center uppercase tracking-wide">The Strict 30-Day Countdown</h4>
+                                <p className="font-bold text-xl text-gray-800 mb-6 text-center uppercase tracking-wide">The Strict 30-Day Countdown</p>
                                 <div className="space-y-6">
                                     <div className="flex items-start">
                                         <div className="bg-blue-600 text-white font-bold rounded-full w-14 h-14 flex flex-col items-center justify-center flex-shrink-0 mt-1 shadow-md leading-none">
@@ -330,7 +330,7 @@ export default function ReceiveDocumentsClient() {
                                             <span className="text-lg">1</span>
                                         </div>
                                         <div className="ml-6">
-                                            <h5 className="font-bold text-lg text-gray-900">Final Payment Cleared</h5>
+                                            <p className="font-bold text-lg text-gray-900">Final Payment Cleared</p>
                                             <p className="text-gray-600 text-sm mt-1">You make the final payment for pre-closure or settlement. The funds hit the bank account, and the ledger shows a zero balance. The countdown begins today.</p>
                                         </div>
                                     </div>
@@ -341,7 +341,7 @@ export default function ReceiveDocumentsClient() {
                                             <span className="text-lg">10</span>
                                         </div>
                                         <div className="ml-6">
-                                            <h5 className="font-bold text-lg text-gray-900">No Dues Certificate Issued</h5>
+                                            <h3 className="font-bold text-lg text-gray-900">No Dues Certificate Issued</h3>
                                             <p className="text-gray-600 text-sm mt-1">The bank should have formally issued your No Dues Certificate or Closure Letter by this date. They must also initiate the retrieval of documents from their central hub.</p>
                                         </div>
                                     </div>
@@ -352,7 +352,7 @@ export default function ReceiveDocumentsClient() {
                                             <span className="text-lg">20</span>
                                         </div>
                                         <div className="ml-6">
-                                            <h5 className="font-bold text-lg text-gray-900">Branch Level Transit</h5>
+                                            <h3 className="font-bold text-lg text-gray-900">Branch Level Transit</h3>
                                             <p className="text-gray-600 text-sm mt-1">Documents should have arrived at your designated local branch. You should receive an SMS or email notification regarding their availability.</p>
                                         </div>
                                     </div>
@@ -363,7 +363,7 @@ export default function ReceiveDocumentsClient() {
                                             <span className="text-lg">30</span>
                                         </div>
                                         <div className="ml-6">
-                                            <h5 className="font-bold text-lg text-green-800">Final Deadline</h5>
+                                            <h3 className="font-bold text-lg text-green-800">Final Deadline</h3>
                                             <p className="text-gray-600 text-sm mt-1">This is the absolute deadline. If you do not have the original property documents in your hand by the end of business hours on Day 30, the bank is in legal default.</p>
                                         </div>
                                     </div>
@@ -374,7 +374,7 @@ export default function ReceiveDocumentsClient() {
                                             <span className="text-lg">31+</span>
                                         </div>
                                         <div className="ml-6">
-                                            <h5 className="font-bold text-lg text-red-800">Penalty Phase Begins</h5>
+                                            <h3 className="font-bold text-lg text-red-800">Penalty Phase Begins</h3>
                                             <p className="text-gray-600 text-sm mt-1">For every single day the bank delays from here onwards, they owe you a strict monetary penalty. No exceptions.</p>
                                         </div>
                                     </div>
@@ -394,10 +394,10 @@ export default function ReceiveDocumentsClient() {
                             
                             {/* Alert Banner 2 */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10">
-                                <h4 className="text-red-800 font-bold text-lg mb-2 flex items-center">
+                                <h3 className="text-red-800 font-bold text-lg mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd"></path></svg>
                                     Crucial Calculation Example
-                                </h4>
+                                </h3>
                                 <p className="text-gray-800 font-light text-sm">
                                     If your loan was fully settled on January 1st, the deadline is January 31st. If the bank hands over the documents to you on February 10th, they are exactly 10 days late. They owe you Rs. 50,000 in immediate compensation. You do not need to prove damages in court to claim this money. It is a strict liability penalty.
                                 </p>
@@ -487,7 +487,7 @@ export default function ReceiveDocumentsClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 8: Case Studies and Legal Precedents</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">The Pre-Closure Delay (Mumbai)</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">The Pre-Closure Delay (Mumbai)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A businessman pre-closed his massive loan against property to sell his warehouse. The private bank delayed returning the documents for 45 days, citing "misplaced files in transit." The buyer threatened to cancel the deal.
                                     </p>
@@ -496,7 +496,7 @@ export default function ReceiveDocumentsClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">The Negotiated Settlement (Delhi)</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">The Negotiated Settlement (Delhi)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A family settled their overdue home loan for 70 percent of the outstanding amount. The Non-Banking Financial Company refused to return the property papers, claiming the waiver amount needed further board approval even after the settlement money was paid.
                                     </p>
@@ -573,7 +573,7 @@ export default function ReceiveDocumentsClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Documents Delayed?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Documents Delayed?</p>
                                 <p className="text-sm text-gray-600 mb-6">Send an immediate Legal Notice citing RBI guidelines to force the release of your property papers.</p>
                                 <Link
                                     href="/contact"
@@ -591,7 +591,7 @@ export default function ReceiveDocumentsClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-home-loan-settlement" className="block text-sm text-blue-600 hover:underline">Home Loan Relief</Link>
                                     <Link href="/best-lawyer-for-loan-against-property-settlement" className="block text-sm text-blue-600 hover:underline">LAP Settlement Defense</Link>

@@ -183,7 +183,7 @@ export default function OtsKyaHotaHaiClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -321,7 +321,7 @@ export default function OtsKyaHotaHaiClient() {
                 </p>
                 
                 <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 my-8 shadow-sm">
-                  <h4 className="font-bold text-gray-900 text-lg mb-6 border-b pb-4">Standard Negotiation Trajectory (Example on 10 Lakh Debt)</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-6 border-b pb-4">Standard Negotiation Trajectory (Example on 10 Lakh Debt)</h3>
                   <div className="space-y-6">
                     <div className="flex justify-between items-center border-b border-gray-200 pb-4">
                       <span className="font-semibold text-gray-700">Original Principal:</span>
@@ -364,7 +364,7 @@ export default function OtsKyaHotaHaiClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of a 75% Waiver</h4>
+                    <h3 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of a 75% Waiver</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-yellow-400">The Subject:</strong> Mr. Vikram Singh, an operations manager in Bangalore whose company shut down unexpectedly.</p>
@@ -407,7 +407,7 @@ export default function OtsKyaHotaHaiClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rohan Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Rohan Sharma</h4>
+                <p className="font-bold text-gray-900">Rohan Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

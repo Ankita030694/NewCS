@@ -205,7 +205,7 @@ export default function BankHarassmentLawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <button
@@ -265,15 +265,15 @@ export default function BankHarassmentLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Reserve Bank of India has been proactive in updating its "Guiding Principles for Recovery Agents." Significant updates in 2024 and 2025 have made the following rules mandatory for all regulated financial institutions:
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Identification Protocol</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Identification Protocol</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Every recovery agent must carry a valid ID card issued by the bank and an authorization letter. If you ask for these and they fail to provide them, you have the legal right to ask them to leave immediately and call the police if they persist.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Privacy Safeguard</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Privacy Safeguard</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The RBI has clarified that recovery agents cannot use social media to contact borrowers or disclose their debt status. "Digital Harassment" is now a specific category of violation that carries heavy penalties for the bank.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Timing Restriction</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Timing Restriction</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 While previous versions allowed some flexibility, the 2025 standard is strict: No interaction of any kind between 7 PM and 7 AM. This includes phone calls, SMS, WhatsApp messages, and physical visits.
                             </p>
@@ -286,19 +286,19 @@ export default function BankHarassmentLawyerClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">1. Internal Grievance Redressal</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">1. Internal Grievance Redressal</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">Every bank has a Principal Nodal Officer. A formal, lawyer drafted complaint to this officer is often the fastest way to stop harassment because the bank’s internal audits flag these records.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">2. RBI Integrated Ombudsman</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">2. RBI Integrated Ombudsman</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">If the bank doesn’t respond in 30 days, the Ombudsman is a free, powerful quasi judicial body that can penalize the bank and award compensation to the borrower.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">3. Consumer Court</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">3. Consumer Court</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">You can file a case under the Consumer Protection Act for "deficiency in service." Consumer courts in India are notorious for awarding large damages for mental agony caused by recovery agents.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">4. Police Action (IPC)</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">4. Police Action (IPC)</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">In cases involving threats or violence, an FIR under Sections 503 (Criminal Intimidation), 506 (Punishment), and 441 (Criminal Trespass) is necessary.</p>
                                 </div>
                             </div>
@@ -405,7 +405,7 @@ export default function BankHarassmentLawyerClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Threats?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Threats?</p>
                                 <p className="text-sm text-gray-600 mb-6">Talk to a legal expert who can stop agents from harassing you within 24 hours.</p>
                                 <Link
                                     href="/contact"
@@ -422,7 +422,7 @@ export default function BankHarassmentLawyerClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Support</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Support</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Handling Agents</Link>
                                     <Link href="/how-to-stop-recovery-agent-home-visit" className="block text-sm text-blue-600 hover:underline">Stop Home Visits</Link>

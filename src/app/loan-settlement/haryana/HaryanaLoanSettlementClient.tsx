@@ -187,7 +187,7 @@ export default function HaryanaLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -224,7 +224,7 @@ export default function HaryanaLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Did You Know?</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
                 <p className="text-blue-800 m-0">
                   Haryana has specialized police initiatives, especially in Gurugram and Faridabad, to tackle harassment by recovery agents. The "Dial 112" emergency response system is highly effective in curbing illegal recovery tactics at your doorstep.
                 </p>
@@ -258,7 +258,7 @@ export default function HaryanaLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">1</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Debt Assessment</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Debt Assessment</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We start by reviewing your loan portfolio. In Gurugram, we often see high-value personal loans and credit card debts. In industrial zones like Panipat, business loans are common. We identify which loans are unsecured and eligible for settlement.
                     </p>
@@ -268,7 +268,7 @@ export default function HaryanaLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">2</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Legal Shield & Communication Takeover</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Legal Shield & Communication Takeover</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Recovery agents in NCR can be aggressive. We immediately direct you to divert all calls to our legal team. We notify the bank of our representation, which helps stop the harassment of your family and colleagues.
                     </p>
@@ -278,7 +278,7 @@ export default function HaryanaLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Handling NPA & Notices</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Handling NPA & Notices</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Settlement discussions typically begin after the account is classified as NPA (90 days). We guide you through this period, handling any legal notices (Section 138, Arbitration, or Lok Adalat summons) to ensure your legal standing remains strong.
                     </p>
@@ -288,7 +288,7 @@ export default function HaryanaLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Regional Offices</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Regional Offices</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We negotiate directly with the bank’s Regional Collection Managers (often based in Delhi, Gurugram, or Chandigarh). Our objective is to waive 100% of the penal interest and significantly reduce the principal, often achieving savings of 40-50%.
                     </p>
@@ -298,7 +298,7 @@ export default function HaryanaLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">5</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Closure & NDC</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Closure & NDC</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We secure a formal Settlement Letter on the bank’s letterhead. You pay the settlement amount directly to your loan account. We then ensure the bank issues a "No Dues Certificate" (NDC), formally closing the chapter.
                     </p>
@@ -329,15 +329,15 @@ export default function HaryanaLoanSettlementClient() {
               <h3 className="text-xl font-bold text-gray-800 mb-4">How to Report Harassment</h3>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Dial 112 (ERSS)</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Dial 112 (ERSS)</h3>
                   <p className="text-sm text-gray-600">This is the unified emergency number. If recovery agents are at your home or office creating a nuisance, dial 112. Police Response Vehicles (Durga Shakti in some areas) arrive quickly to handle the situation.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Local Police Station</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Local Police Station</h3>
                   <p className="text-sm text-gray-600">You can file a written complaint at your local police station. Mention the details of the harassment, abusive language, and threats. This creates an official record.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Cyber Crime Portal</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Cyber Crime Portal</h3>
                   <p className="text-sm text-gray-600">For harassment via WhatsApp, email, or fake loan apps, file a complaint on the National Cyber Crime Reporting Portal. Gurugram has a dedicated Cyber City police station for such matters.</p>
                 </div>
               </div>
@@ -435,7 +435,7 @@ export default function HaryanaLoanSettlementClient() {
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                    <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Haryana Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Haryana Support</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal aid for Gurugram & HR residents.</p>
                 <Link 
                   href="/contact"

@@ -223,7 +223,7 @@ export default function SettleLoanWithoutLawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl shadow-indigo-900/5">
-                            <h3 className="font-extrabold text-indigo-900 mb-6 text-xl border-b border-indigo-50 pb-3 text-lg leading-tight">DIY Navigator</h3>
+                            <p className="font-extrabold text-indigo-900 mb-6 text-xl border-b border-indigo-50 pb-3 text-lg leading-tight">DIY Navigator</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -270,7 +270,7 @@ export default function SettleLoanWithoutLawyerClient() {
                                 Loan settlement in India is primarily governed by the <strong>Indian Contract Act, 1872</strong>. Specifically,Section 63 of the Act allows for "Remission of Performance." This means that if a bank voluntarily agrees to accept a smaller amount to close a debt, the contract is legally fulfilled.
                             </p>
                             <div className="bg-indigo-50 p-10 rounded-[2rem] border-2 border-indigo-100 mb-10 shadow-inner">
-                                <h3 className="text-2xl font-bold text-indigo-900 mb-6">Key Legal Realities:</h3>
+                                <p className="text-2xl font-bold text-indigo-900 mb-6">Key Legal Realities:</p>
                                 <ul className="space-y-6 text-gray-800 text-lg">
                                     <li><strong>1. No Mandatory Counsel:</strong> No Indian law requires a lawyer for out-of-court negotiations. You are legally competent to represent yourself.</li>
                                     <li><strong>2. Civil vs. Criminal:</strong> Defaulting on a loan is a civil matter. It is not a crime to be poor or unable to pay. Lawyers only become essential when "Criminal Color" is added, such as Section 138 (Cheque Bounce) or Section 420 (Fraud) cases.</li>
@@ -284,13 +284,13 @@ export default function SettleLoanWithoutLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-8 text-lg">
                                 If you decide to go it alone, you must follow a disciplined process. Improvising with bank managers usually leads to higher settlements or failed talks.
                             </p>
-                            <h3 className="text-2xl font-bold text-indigo-900 mb-4">Step 1: The Hardship Dossier</h3>
+                            <p className="text-2xl font-bold text-indigo-900 mb-4">Step 1: The Hardship Dossier</p>
                             <p className="text-gray-700 mb-6">Before you call the bank, gather your proof. Banks do not settle because they are "nice." They settle because they believe they can't get any more money from you. Gather medical bills, pink slips (job loss), bank statements showing zero balance, and any other evidence of financial ruin.</p>
 
-                            <h3 className="text-2xl font-bold text-indigo-900 mb-4">Step 2: The Written Offer</h3>
+                            <p className="text-2xl font-bold text-indigo-900 mb-4">Step 2: The Written Offer</p>
                             <p className="text-gray-700 mb-6">Never negotiate exclusively over the phone. Send a formal "Hardship Letter" to the bank's Nodal Officer or the Settlement Manager. Clearly state your inability to pay the full amount and offer a specific lump sum (start low, around 20-30% of the principal).</p>
 
-                            <h3 className="text-2xl font-bold text-indigo-900 mb-4">Step 3: The Verification Phase</h3>
+                            <p className="text-2xl font-bold text-indigo-900 mb-4">Step 3: The Verification Phase</p>
                             <p className="text-gray-700 mb-6">Once the bank agrees to a number (usually after 3-4 rounds of "No"), do not pay. Demand a <strong>Settlement Offer Letter</strong>. This letter must have a validity date and clearly state that the account will be closed "Full and Final." Verify this letter by calling the bank\'s centralized customer care number mentioned on their official website.</p>
 
                             <h2 id="lawyer-vs-expert" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
@@ -358,11 +358,11 @@ export default function SettleLoanWithoutLawyerClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-white rounded-3xl border border-red-100 shadow-lg border-t-4 border-red-500">
-                                    <h4 className="text-xl font-bold mb-4 text-red-700">The "Token" Payment Trap</h4>
+                                    <p className="text-xl font-bold mb-4 text-red-700">The "Token" Payment Trap</p>
                                     <p className="text-gray-600">Agents often say "Pay 10,000 now to show interest, and we will get the settlement letter in 2 days." Once you pay, the 10,000 is adjusted against "Interest Penalties" and no settlement happens. Never pay without the letter.</p>
                                 </div>
                                 <div className="p-8 bg-white rounded-3xl border border-red-100 shadow-lg border-t-4 border-red-500">
-                                    <h4 className="text-xl font-bold mb-4 text-red-700">The "Part-Settlement" Trap</h4>
+                                    <p className="text-xl font-bold mb-4 text-red-700">The "Part-Settlement" Trap</p>
                                     <p className="text-gray-600">Some letters state that you are settling "for now." This means the balance is not waived, only deferred. Ensure your letter says "Account Closure" or "Full and Final waiver of the balance."</p>
                                 </div>
                             </div>
@@ -425,14 +425,14 @@ export default function SettleLoanWithoutLawyerClient() {
                             <div className="space-y-8 mb-10">
                                 <div className="p-10 bg-indigo-50/50 rounded-[2.5rem] border border-indigo-100 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-indigo-600 font-bold text-white rounded-bl-3xl">DIY SUCCESS</div>
-                                    <h4 className="text-2xl font-bold text-indigo-900 mb-4">The "Persistent" IT Manager</h4>
+                                    <h3 className="text-2xl font-bold text-indigo-900 mb-4">The "Persistent" IT Manager</h3>
                                     <p className="text-gray-700 italic border-l-4 border-indigo-600 pl-6 text-lg">
                                         "Rahul handled his own credit card settlement. He sent 12 emails over 4 months. He refused to pay 50% multiple times. Finally, in March, the bank sent a 25% settlement letter. Total savings: 3 Lakhs. High patience, high reward."
                                     </p>
                                 </div>
                                 <div className="p-10 bg-indigo-100/30 rounded-[2.5rem] border border-indigo-200 shadow-sm relative overflow-hidden">
                                     <div className="absolute top-0 right-0 p-4 bg-gray-600 font-bold text-white rounded-bl-3xl">ASSISTED WIN</div>
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4">The "Complex" Business Debt</h4>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-4">The "Complex" Business Debt</h3>
                                     <p className="text-gray-700 italic border-l-4 border-gray-600 pl-6 text-lg">
                                         "A factory owner tried to settle a 50 Lakh debt himself. The bank demanded 45 Lakhs. He hired a debt resolution agency. The agency found errors in the bank\'s NPA calculation and interest compounding. They settled for 22 Lakhs in 45 days. Legal and financial expertise saved him 23 Lakhs."
                                     </p>
@@ -518,7 +518,7 @@ export default function SettleLoanWithoutLawyerClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                 </div>
-                                <h4 className="font-black text-2xl mb-3">DIY Survival Kit</h4>
+                                <p className="font-black text-2xl mb-3">DIY Survival Kit</p>
                                 <p className="text-sm text-indigo-100 mb-8 leading-relaxed opacity-80 font-light">Get sample hardship letters and the 'Agent Defense' script to handle bank negotiations on your own.</p>
                                 <Link
                                     href="/contact"
@@ -530,7 +530,7 @@ export default function SettleLoanWithoutLawyerClient() {
 
                             {/* Expert Reads */}
                             <div className="bg-white p-8 rounded-[2rem] border border-gray-100 shadow-xl shadow-indigo-900/5">
-                                <h4 className="font-extrabold text-indigo-900 mb-6 border-b border-indigo-50 pb-3 text-lg leading-tight">Mastery Guides</h4>
+                                <p className="font-extrabold text-indigo-900 mb-6 border-b border-indigo-50 pb-3 text-lg leading-tight">Mastery Guides</p>
                                 <nav className="space-y-4 text-sm font-medium">
                                     <Link href="/is-loan-settlement-a-good-option" className="group flex items-center text-gray-600 hover:text-indigo-600">
                                         <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span> Should You Settle?

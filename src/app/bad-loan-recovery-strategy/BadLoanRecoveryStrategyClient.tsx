@@ -268,7 +268,7 @@ export default function BadLoanRecoveryStrategyClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
                         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm">
-                            <h3 className="font-extrabold text-slate-800 mb-5 text-lg uppercase tracking-wider border-b border-slate-200 pb-3">Strategy Guide</h3>
+                            <p className="font-extrabold text-slate-800 mb-5 text-lg uppercase tracking-wider border-b border-slate-200 pb-3">Strategy Guide</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -332,10 +332,10 @@ export default function BadLoanRecoveryStrategyClient() {
                                 Perhaps the most significant development in 2025 is the full activation of the <strong>Securitisation of Stressed Assets Framework (SSAF)</strong>. For years, the only way for a bank to clear NPAs was to sell them to an Asset Reconstruction Company (ARC). While effective, this created a bottleneck and often resulted in "Asset Hoarding" where ARCs sat on bad debt for years without resolution. The SSAF 2025 changes everything by allowing non-ARC entities, including institutional investors and dedicated stressed-debt funds, to buy bad loans directly.
                             </p>
                             <div className="bg-slate-900 text-white p-8 rounded-3xl mb-8 shadow-2xl">
-                                <h4 className="text-xl font-bold mb-4 flex items-center gap-2">
+                                <p className="text-xl font-bold mb-4 flex items-center gap-2">
                                     <span className="w-2 h-8 bg-blue-500 inline-block rounded-full"></span>
                                     Key Mechanisms of SSAF 2025:
-                                </h4>
+                                </p>
                                 <ul className="space-y-4 font-light text-slate-300">
                                     <li><strong className="text-white">Direct Transfer to Investors:</strong> Bad loans are no longer trapped in the banking-ARC loop. They can be auctioned to global distressed-debt specialists who bring high-tech resolution expertise.</li>
                                     <li><strong className="text-white">Standardized Valuation:</strong> SSAF mandates a 2025-standardized valuation model, preventing banks from selling loans at "hidden prices." This ensures that the recovery amount is fair and market-linked.</li>
@@ -358,7 +358,7 @@ export default function BadLoanRecoveryStrategyClient() {
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 The <strong>Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act (SARFAESI)</strong> remains the most feared tool in a banker’s arsenal. It allows a lender to take possession of your home, office, or factory without filing a suit in a civil court. However, the SARFAESI process is governed by strict procedural laws. Any "Procedural Irregularity" by the bank can be used to quash the entire recovery action.
                             </p>
-                            <h3 id="sarfaesi-step-by-step" className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">The 3-Step SARFAESI Trap:</h3>
+                            <h2 id="sarfaesi-step-by-step" className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">The 3-Step SARFAESI Trap:</h2>
                             <ul className="list-decimal pl-6 mb-8 space-y-4 text-slate-700">
                                 <li><strong>The Section 13(2) Notice (The 60-Day Clock):</strong> Once an account is classified as an NPA, the bank issues a 60-day notice demanding full payment. You have the Right to Object within 15 days. The bank is legally obligated to respond to your objection in writing. If they ignore your objection or give a generic "vague" reply, their subsequent actions can be challenged.</li>
                                 <li><strong>The Section 13(4) Notice (Symbolic Possession):</strong> If you don’t pay within 60 days, the bank can take "Symbolic Possession." They will place a notice on your property and publish it in two newspapers. This is the stage where your credit-shaming begins. This action must be appealed at the Debt Recovery Tribunal (DRT) within 45 days.</li>
@@ -446,7 +446,7 @@ export default function BadLoanRecoveryStrategyClient() {
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 For most bad loans, an <strong>OTS (One-Time Settlement)</strong> is the ultimate goal. An OTS is not a "Right," it is a "Discretionary Offer" by the bank. To get the best OTS terms (often called a "Golden Haircut"), you must timing your offer with the bank’s internal "Write-Off Cycle."
                             </p>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">The CredSettle OTS Blueprint:</h3>
+                            <p className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">The CredSettle OTS Blueprint:</p>
                             <ul className="list-disc pl-6 mb-8 space-y-4 text-slate-700">
                                 <li><strong>The March-End Strategy:</strong> Banks are most desperate to settle in the last two weeks of March (end of the financial year). This is when the highest haircuts are approved.</li>
                                 <li><strong>The "Source of Funds" Proof:</strong> Show the bank that the settlement money is coming from a relative or a property sale, not from your own "hidden wealth." If the bank thinks you have the money, they won’t settle. If they see you are borrowing from family to pay them, they will take what they can get.</li>
@@ -484,7 +484,7 @@ export default function BadLoanRecoveryStrategyClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-slate-900 mb-8 scroll-mt-24 tracking-tight">Section 12: Case Studies: Triumphs in Debt Resolution</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The "Farming vs. Housing" Exemption:</h4>
+                                    <p className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The "Farming vs. Housing" Exemption:</p>
                                     <p className="text-slate-700 mb-4">
                                         A Punjab-based businessman built a warehouse on land that was still marked as "Agricultural" in village records. The bank issued a SARFAESI notice to auction the warehouse.
                                     </p>
@@ -493,7 +493,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                     </p>
                                 </div>
                                 <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The "Micro-Haircut" Victory:</h4>
+                                    <p className="text-xl font-bold text-blue-900 mb-4 tracking-tight">The "Micro-Haircut" Victory:</p>
                                     <p className="text-slate-700 mb-4">
                                         An MSME in Bangalore was dragged to the NCLT under IBC for a 1.5 crore default. The bank refused to negotiate, wanting the company liquidated.
                                     </p>
@@ -574,7 +574,7 @@ export default function BadLoanRecoveryStrategyClient() {
                             {/* Primary CTA */}
                             <div className="bg-slate-900 p-8 rounded-3xl shadow-2xl border border-slate-800 text-center relative overflow-hidden group">
                                 <div className="absolute inset-0 bg-blue-600/5 group-hover:bg-blue-600/10 transition-colors"></div>
-                                <h4 className="font-black text-2xl text-white mb-3 relative z-10 tracking-tight leading-tight uppercase italic">Facing Auction?</h4>
+                                <p className="font-black text-2xl text-white mb-3 relative z-10 tracking-tight leading-tight uppercase italic">Facing Auction?</p>
                                 <p className="text-sm text-slate-400 mb-8 relative z-10 font-light">We can help you stay auction proceedings and negotiate a formal OTS with your bank or ARC.</p>
                                 <Link
                                     href="/contact"
@@ -591,7 +591,7 @@ export default function BadLoanRecoveryStrategyClient() {
 
                             {/* Related Pages */}
                             <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm ring-1 ring-slate-100">
-                                <h4 className="font-extrabold text-slate-900 mb-6 border-b border-slate-100 pb-3 uppercase text-xs tracking-[0.2em]">Strategy Vault</h4>
+                                <p className="font-extrabold text-slate-900 mb-6 border-b border-slate-100 pb-3 uppercase text-xs tracking-[0.2em]">Strategy Vault</p>
                                 <nav className="space-y-4">
                                     <Link href="/best-lawyer-for-secured-loan-litigation-drt" className="block text-xs font-bold text-slate-600 hover:text-blue-600 transition-colors uppercase tracking-widest">DRT Litigation Help</Link>
                                     <Link href="/best-lawyer-for-loan-recovery-cases" className="block text-xs font-bold text-slate-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Recovery Case Defense</Link>

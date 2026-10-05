@@ -234,7 +234,7 @@ export default function HowToCheckYourLoanStatusClient() {
                     {/* Left Column: Desktop TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block">
                         <div className="sticky top-24 bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                            <h3 className="font-black text-gray-900 mb-6 uppercase tracking-wider text-sm">Table of Contents</h3>
+                            <p className="font-black text-gray-900 mb-6 uppercase tracking-wider text-sm">Table of Contents</p>
                             <nav className="space-y-3">
                                 {navLinks.map((link) => (
                                     <a
@@ -284,10 +284,10 @@ export default function HowToCheckYourLoanStatusClient() {
 
                             {/* VISUAL ELEMENT 1: ALERT BANNER */}
                             <div className="my-10 p-6 bg-red-50 border-l-4 border-red-500 rounded-r-lg">
-                                <h3 className="text-red-800 font-bold text-xl mb-2 flex items-center">
+                                <p className="text-red-800 font-bold text-xl mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Scam Warning: Fake Customer Care
-                                </h3>
+                                </p>
                                 <p className="text-red-700 mb-0">
                                     Never search for bank customer care numbers on Google Images or social media comments. Scammers post fake numbers to steal your banking credentials. Always use the number printed on the back of your debit card or on the official bank website. Banks will never ask for your PIN, OTP, or CVV to check your loan status.
                                 </p>
@@ -377,10 +377,10 @@ export default function HowToCheckYourLoanStatusClient() {
                             <h2 id="checklist" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-600 pl-6">Verification Checklist</h2>
                             <div className="bg-white border-2 border-blue-100 rounded-2xl p-8 mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 left-0 w-2 h-full bg-blue-500"></div>
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                <p className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                                     <svg className="w-8 h-8 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                                     Before Checking Your Status Online
-                                </h3>
+                                </p>
                                 <p className="text-gray-600 mb-6 italic">Ensure you have the following information ready to avoid session timeouts.</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
@@ -507,7 +507,7 @@ export default function HowToCheckYourLoanStatusClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Delays?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Delays?</p>
                                 <p className="text-sm text-gray-600 mb-6">If your loan is stuck in processing without a valid reason, our experts can intervene directly with bank management.</p>
                                 <Link
                                     href="/contact"
@@ -525,7 +525,7 @@ export default function HowToCheckYourLoanStatusClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Rights</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">Business Loan Support</Link>

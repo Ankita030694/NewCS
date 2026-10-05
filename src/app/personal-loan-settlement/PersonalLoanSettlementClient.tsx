@@ -246,7 +246,7 @@ export default function PersonalLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Settlement Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Settlement Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -304,12 +304,12 @@ export default function PersonalLoanSettlementClient() {
                             {/* Alert Banner for Protections */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Critical Legal Warning:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Never Pay Cash:</strong> Never pay cash to any collection agent promising a "discount settlement". Fraudulent agents often collect cash and disappear, leaving your loan account fully active.</li>
                                     <li><strong>Demand Official Letters:</strong> Always demand an official settlement letter on the bank letterhead before transferring a single rupee.</li>
@@ -331,12 +331,12 @@ export default function PersonalLoanSettlementClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 1</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Suspense Account Transfer</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Suspense Account Transfer</p>
                                     <p className="text-sm text-gray-600 m-0">When you make a settlement payment, it goes into a suspense account or a centralized collection pool first. It does not hit your specific loan ledger instantly.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 2</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Reconciliation</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Reconciliation</p>
                                     <p className="text-sm text-gray-600 m-0">The bank undergoes an internal reconciliation process. The settlement letter usually specifies a timeline for this. Do not panic during this window.</p>
                                 </div>
                             </div>
@@ -419,14 +419,14 @@ export default function PersonalLoanSettlementClient() {
 
                             {/* Visual Element 3: Checklist */}
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Essential Documents Checklist</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Essential Documents Checklist</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Hardship Letter</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Hardship Letter</h3>
                                             <p className="text-sm text-gray-600 m-0">A detailed letter explaining your job loss, medical issue, or business failure, backed by proof (termination letter, hospital bills).</p>
                                         </div>
                                     </li>
@@ -435,7 +435,7 @@ export default function PersonalLoanSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Official Settlement Offer Letter</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Official Settlement Offer Letter</h3>
                                             <p className="text-sm text-gray-600 m-0">Issued on bank letterhead, stating the exact settlement amount, the timeline for payment, and explicitly mentioning "Full and Final Settlement".</p>
                                         </div>
                                     </li>
@@ -444,7 +444,7 @@ export default function PersonalLoanSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Payment Receipts</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Payment Receipts</h3>
                                             <p className="text-sm text-gray-600 m-0">Bank statements or transaction reference numbers proving the money was sent directly to your loan account.</p>
                                         </div>
                                     </li>
@@ -453,7 +453,7 @@ export default function PersonalLoanSettlementClient() {
                                             <span className="font-bold text-blue-600 text-sm">4</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">No Dues Certificate (NDC)</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">No Dues Certificate (NDC)</h3>
                                             <p className="text-sm text-gray-600 m-0">The final victory document. Issued by the bank 15 to 30 days after payment, confirming zero outstanding balance.</p>
                                         </div>
                                     </li>
@@ -488,7 +488,7 @@ export default function PersonalLoanSettlementClient() {
                             </p>
                             
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm mb-6">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Case Study 1: The Job Loss Crisis</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Case Study 1: The Job Loss Crisis</h3>
                                 <p className="text-gray-700 leading-relaxed mb-4">
                                     <strong>The Scenario:</strong> A software engineer in Bengaluru had a personal loan of ₹15 Lakhs. After a sudden tech industry layoff, he could not pay the ₹45,000 monthly EMI. Within three months, aggressive recovery agents began visiting his apartment, causing immense social embarrassment.
                                 </p>
@@ -501,7 +501,7 @@ export default function PersonalLoanSettlementClient() {
                             </div>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm mb-10">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Case Study 2: Medical Emergency Debt Trap</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-0">Case Study 2: Medical Emergency Debt Trap</h3>
                                 <p className="text-gray-700 leading-relaxed mb-4">
                                     <strong>The Scenario:</strong> A small business owner in Delhi took a ₹8 Lakh personal loan to cover emergency hospital bills for a family member. The business subsequently suffered due to his absence, and he defaulted. The bank filed a Section 138 cheque bounce case against him.
                                 </p>
@@ -584,7 +584,7 @@ export default function PersonalLoanSettlementClient() {
                         <div className="space-y-4">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-2 mt-1 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-4 leading-relaxed px-1">
                                     We can dispatch a powerful Legal Notice to stop aggressive agents from coming to your home.
                                 </p>
@@ -603,7 +603,7 @@ export default function PersonalLoanSettlementClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-4">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-3 text-left font-medium">
                                     <li>
                                         <Link href="/best-microfinance-loan-settlement-lawyer" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">

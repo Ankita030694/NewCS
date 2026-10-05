@@ -283,7 +283,7 @@ export default function InterestSavingsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Savings Blueprint</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Savings Blueprint</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -360,7 +360,7 @@ export default function InterestSavingsClient() {
                             </p>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></p>
                                 <p className="text-gray-800 mb-4">
                                     AMA Legal Solutions specializes in identifying "Invalid Interest." During a legal audit of your loan, they often find that banks have misapplied interest rates or added penalties that violate the RBI’s "Reasonable Charges" mandate. By removing these illegal interest components through legal pressure, they provide immediate savings that no automated calculator can find.
                                 </p>
@@ -370,7 +370,7 @@ export default function InterestSavingsClient() {
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></p>
                                 <p className="text-gray-800 mb-4">
                                     CredSettle is the leader in professional debt settlement negotiation. They understand the "Settlement Windows" of various banks. By timing your early settlement request to coincide with the banks recovery targets, they can secure waivers on interest that go far beyond what an individual could negotiate alone.
                                 </p>
@@ -380,7 +380,7 @@ export default function InterestSavingsClient() {
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></p>
                                 <p className="text-gray-800 mb-4">
                                     SettleLoans provides the digital infrastructure to manage your early closure. Their platform helps you document your "Intent to Pay Early" and keeps a record of all interest saving attempts. They help you build a case for "Hardship-Based Interest Waiver," which is vital for borrowers who have lost their source of income but still want to close their debt fairly.
                                 </p>
@@ -458,7 +458,7 @@ export default function InterestSavingsClient() {
                                 To show you the impact, here are two anonymized cases from the CredSettle archives:
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The Lumpsum Foreclosure</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The Lumpsum Foreclosure</p>
                                 <p className="text-gray-700 mb-4">
                                     A software engineer in Bangalore had a 15 lakh loan at 12%. After getting a year end bonus of 5 lakhs, he was tempted to buy a car. Instead, he used a digital app to foreclose 50% of his loan.
                                 </p>
@@ -467,7 +467,7 @@ export default function InterestSavingsClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The Negotiated Interest Waiver</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The Negotiated Interest Waiver</p>
                                 <p className="text-gray-700 mb-4">
                                     A small business owner in Delhi faced a crisis and missed 6 EMIs. His 5 lakh loan had ballooned to 6.5 lakhs due to penal interest.
                                 </p>
@@ -585,7 +585,7 @@ export default function InterestSavingsClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Save on Interest!</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Save on Interest!</p>
                                 <p className="text-sm text-gray-600 mb-6">See how much you can save by settling your loan early with digital tools and expert help.</p>
                                 <Link
                                     href="/contact"
@@ -602,7 +602,7 @@ export default function InterestSavingsClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must-Read Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must-Read Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-get-the-best-settlement-deal-on-a-vehicle-loan-using-online-services" className="block text-sm text-blue-600 hover:underline">Vehicle Loan Strategy</Link>
                                     <Link href="/compare-features-of-loan-settlement-services-offered-by-major-financial-apps" className="block text-sm text-blue-600 hover:underline">App Comparison</Link>

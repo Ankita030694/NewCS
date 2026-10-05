@@ -189,7 +189,7 @@ export default function KarnatakaLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -226,7 +226,7 @@ export default function KarnatakaLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Key Insight for Karnataka Borrowers</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Key Insight for Karnataka Borrowers</h3>
                 <p className="text-blue-800 m-0">
                   Karnataka has a robust legal aid system. The Karnataka State Legal Services Authority (KSLSA) is very active in mediating financial disputes. Utilizing forums like the Lok Adalat can expedite your settlement process effectively.
                 </p>
@@ -261,35 +261,35 @@ export default function KarnatakaLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">1</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Case Assessment & Shielding</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Case Assessment & Shielding</h3>
                     <p className="text-gray-700">We begin by thoroughly analyzing your financial situation and loan documents. Once you engage us, we take over all communication with the bank. This immediately reduces the stress of dealing with daily recovery calls.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Strategic Default Management</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Strategic Default Management</h3>
                     <p className="text-gray-700">For a settlement to be possible, the loan typically needs to be classified as an NPA. We guide you through this sensitive period, advising you on how to handle legal notices and ensuring you remain legally compliant while we prepare for negotiation.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Expert Negotiation</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Expert Negotiation</h3>
                     <p className="text-gray-700">Our team negotiates directly with the bank’s regional offices in Bengaluru and other Karnataka hubs. Our goal is to secure a settlement amount that is affordable for you, potentially saving you 40-50% or more on the outstanding dues.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Settlement Agreement</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Settlement Agreement</h3>
                     <p className="text-gray-700">We ensure that the settlement offer is documented in writing on the bank’s official letterhead. This is critical. We verify every clause to ensure there are no hidden terms before advising you to make the payment.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">5</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Closure & Freedom</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Closure & Freedom</h3>
                     <p className="text-gray-700">After payment, we ensure you receive the "No Dues Certificate" (NDC). Your loan account is officially closed, and you are free to begin your journey of financial rebuilding.</p>
                   </div>
                 </div>
@@ -462,7 +462,7 @@ export default function KarnatakaLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Karnataka Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Karnataka Support</p>
                 <p className="text-sm text-gray-600 mb-6">Specialized legal aid for Karnataka residents.</p>
                 <Link 
                   href="/contact"

@@ -163,7 +163,7 @@ export default function InstantQuoteClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -255,7 +255,7 @@ export default function InstantQuoteClient() {
                 </p>
 
                 <div className="my-12">
-                  <h4 className="font-bold text-red-900 text-base mb-8 border-b-2 border-red-100 pb-2">Critical Red Flags to Avoid</h4>
+                  <h3 className="font-bold text-red-900 text-base mb-8 border-b-2 border-red-100 pb-2">Critical Red Flags to Avoid</h3>
                   
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200 mb-6">
                     <h3 id="guarantees-too-good" className="font-bold text-red-900 text-base mb-4 scroll-mt-28">Guarantees That Are Too Good to Be True</h3>
@@ -299,7 +299,7 @@ export default function InstantQuoteClient() {
                 </p>
 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Verification Protocol</h4>
+                  <h3 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Verification Protocol</h3>
                   
                   <div className="flex mb-8">
                     <div className="flex flex-col items-center mr-6">
@@ -359,7 +359,7 @@ export default function InstantQuoteClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of a Data-Driven Victory</h4>
+                    <h3 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of a Data-Driven Victory</h3>
                     
                     <div className="space-y-6 text-base ">
                       <p><strong className="text-yellow-400">The Subject:</strong> Ananya Sharma, an independent marketing consultant based in Bangalore.</p>
@@ -422,7 +422,7 @@ export default function InstantQuoteClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Author Profile Image" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Arjun Reddy</h4>
+                <p className="font-bold text-gray-900">Arjun Reddy</p>
                 <p className="text-sm text-gray-500 mb-4">Financial Technology Analyst</p>
                 <p className="text-xs text-gray-400">Specializing in algorithmic debt assessment and consumer protection rights in the digital lending ecosystem.</p>
               </div>

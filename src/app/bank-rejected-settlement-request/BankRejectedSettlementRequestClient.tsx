@@ -247,7 +247,7 @@ export default function BankRejectedSettlementRequestClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -305,22 +305,22 @@ export default function BankRejectedSettlementRequestClient() {
                                 Before you can draft a counter offer or escalate your grievance, you must diagnose the root cause of the rejection. Banks do not act randomly. Their decisions are based on data, risk assessment algorithms, and internal recovery manuals. If your request was denied, it almost certainly falls into one of the following four categories. Understanding which category applies to you is the first step in formulating your comeback strategy.
                             </p>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 1: The Premature Application</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 1: The Premature Application</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This is the single most common reason for an immediate rejection. Many borrowers panic as soon as they miss their first or second Equated Monthly Installment. They preemptively write to the bank, explaining their job loss or medical emergency, and ask for a waiver of fifty percent of the principal amount. The bank will categorically reject this. Why? Because according to RBI guidelines, an account is not classified as a Non Performing Asset until payments have been overdue for ninety days. Until that ninety day threshold is crossed, the bank classifies your account as a standard asset. Their internal systems do not even allow the front line staff to entertain a compromise on a standard asset. They will simply demand full payment and direct you to the collections department. Asking for a settlement before the account turns NPA is like asking for a discount on a product before you have even walked into the store. You have zero leverage. 
                             </p>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 2: You Displayed Financial Capacity</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 2: You Displayed Financial Capacity</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Banks conduct thorough background checks before approving a settlement. They look at your credit report, your linked savings accounts, and your transaction history. If you claim severe financial hardship but you are still making timely payments on other credit cards, maintaining a healthy balance in a linked account, or recently purchased a high value asset, the bank will call your bluff. Furthermore, if your initial offer is too high, the bank senses weakness. For instance, if you owe ten lakhs and you immediately offer to pay eight lakhs as a one time settlement, the bank assumes you have access to substantial funds. They will reject the eight lakh offer, confident that with a little more pressure, they can extract the full ten lakhs plus penal interest. You must project absolute insolvency for a settlement to be viable. 
                             </p>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 3: Procedural Errors and Poor Documentation</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 3: Procedural Errors and Poor Documentation</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A verbal request for a settlement over a phone call with a recovery agent holds absolutely no weight. The agent's only job is to collect the full amount, and they will invariably reject any plea for compromise. Even if you write an email, if it lacks the proper legal terminology and supporting evidence, it will be ignored by the senior management who actually have the authority to approve waivers. A proper settlement request must be a formal letter, supported by irrefutable proof of hardship. This means attaching termination letters, medical bills, bank statements showing zero balance, or official documents proving the closure of a business. Without this paper trail, the bank's internal audit committee cannot justify writing off a portion of your debt. They need a documented rationale to explain the loss on their balance sheet. 
                             </p>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 4: Misjudging the Value of Collateral</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Reason 4: Misjudging the Value of Collateral</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you are negotiating a secured loan, such as a home loan or a car loan, the dynamics are entirely different. The bank holds a physical asset that they can liquidate to recover their money. If the current market value of your property or vehicle is higher than your outstanding loan balance, the bank has zero incentive to offer you a discount. They will simply reject your settlement, initiate proceedings under the SARFAESI Act, auction the asset, recover their dues, and hand you the remainder. Settlements are primarily effective for unsecured loans like personal loans and credit cards, where the bank has no physical asset to seize and must rely on costly and time consuming civil litigation to recover their funds.
                             </p>
@@ -332,12 +332,12 @@ export default function BankRejectedSettlementRequestClient() {
 
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Escalation Timeline
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Days 1 to 30:</strong> Soft reminders via SMS and automated calls. The bank hopes you just forgot to pay.</li>
                                     <li><strong>Days 31 to 60:</strong> Telecalling intensifies. The tone becomes aggressive. Field agents may be assigned to visit your home or workplace to create social pressure.</li>
@@ -358,22 +358,22 @@ export default function BankRejectedSettlementRequestClient() {
                                 You have waited for the correct time. The account is an NPA. You have endured the harassment. Now it is time to pivot to the offensive. If the bank has formally rejected your offer, or if the recovery agents are refusing to forward your request to their managers, you must bypass the standard channels and force the bank's senior management to acknowledge your hardship.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 1: Demand the Rejection in Writing</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 1: Demand the Rejection in Writing</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Never accept a verbal rejection from a collection agent. If an agent tells you that the bank has denied your request, demand that they send the rejection on the bank's official letterhead via email or registered post. In most cases, the agent never even submitted your offer to the approval committee because accepting a settlement reduces their personal commission. By demanding it in writing, you force the agent to either process the request properly or admit they lack the authority. If they refuse to provide a written rejection, document this refusal. Note the time, date, and name of the agent. This documentation will be crucial when you escalate the matter.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 2: Escalate to the Nodal Officer</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 2: Escalate to the Nodal Officer</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Every financial institution in India has a designated Grievance Redressal Officer or Nodal Officer. Their contact information is mandated by the RBI to be publicly available on the bank's website. If the collection department is acting unreasonably, you must bypass them entirely. Draft a comprehensive email to the Nodal Officer. In this communication, you must clearly state your loan account number, chronicle the timeline of your financial hardship, detail your previous attempts to settle the account, and explicitly mention the uncooperative behavior of the recovery staff. Attach all your proof of hardship documents again. The Nodal Officer operates independently of the collection department and is focused on compliance and risk management. They are far more likely to view a settlement proposal objectively.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 3: The Hardship Documentation Packet</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 3: The Hardship Documentation Packet</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Your second attempt at a settlement must be bulletproof. You cannot simply say you have no money. You must prove it beyond any reasonable doubt. Create a comprehensive hardship packet. This should include your termination letter, medical reports indicating prolonged illness, six months of bank statements showing minimal balances, and an affidavit declaring your insolvency. If you have other loans that have already been settled, include those settlement letters as well. This demonstrates a pattern of genuine distress and proves that other financial institutions have already accepted your inability to pay the full amount. The more evidence you provide, the harder it is for the bank's audit committee to justify a rejection.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 4: Deploying Legal Representation</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">Step 4: Deploying Legal Representation</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you are navigating a high value loan and the bank remains stubborn, it is time to bring in professional legal counsel. When a bank receives a settlement proposal drafted by an advocate on official legal letterhead, the dynamic changes instantly. It signals that you are not a clueless borrower who can be bullied into submission. It shows that you understand your rights and are prepared to defend yourself in court if necessary. A specialized debt resolution lawyer knows exactly which RBI guidelines to cite, how to highlight the procedural flaws in the bank's recovery process, and how to negotiate directly with the bank's own legal department. The cost of hiring a professional is often negligible compared to the massive waivers they can secure on your behalf.
                             </p>
@@ -430,7 +430,7 @@ export default function BankRejectedSettlementRequestClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -467,7 +467,7 @@ export default function BankRejectedSettlementRequestClient() {
                         <div className="space-y-6">
                             {/* Card 1: Primary CTA Card */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-lg mb-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-lg mb-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-xs mb-4 leading-relaxed px-1">
                                     Bank Refused Settlement? Let Us Negotiate. We can send a legal notice to stop agents.
                                 </p>
@@ -486,7 +486,7 @@ export default function BankRejectedSettlementRequestClient() {
 
                             {/* Card 2: Related Expertise */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-sm border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-3 text-left font-medium">
                                     <li>
                                         <Link href="/loan-settlement" className="text-blue-600 hover:text-blue-800 text-xs transition-colors block">

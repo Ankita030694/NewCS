@@ -225,7 +225,7 @@ export default function ChennaiCounselingClient() {
           {/* Left Column: TOC */}
           <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
-              <h3 className="font-extrabold text-gray-900 mb-6 text-xl border-b pb-4">Guide Sections</h3>
+              <p className="font-extrabold text-gray-900 mb-6 text-xl border-b pb-4">Guide Sections</p>
               <nav className="space-y-3 text-[15px]">
                 {navLinks.map((link) => (
                   <a
@@ -246,7 +246,7 @@ export default function ChennaiCounselingClient() {
             
             {/* Sidebar CTA */}
             <div className="mt-8 bg-blue-900 p-8 rounded-3xl text-white shadow-xl">
-              <h4 className="font-bold text-xl mb-4 leading-tight">Need Urgent Help?</h4>
+              <p className="font-bold text-xl mb-4 leading-tight">Need Urgent Help?</p>
               <p className="text-blue-100 text-sm mb-6 leading-relaxed">Our experts can help you navigate the complex world of debt settlement and legal notices.</p>
               <Link href="/contact" className="block w-full bg-white text-blue-900 text-center font-bold py-4 rounded-2xl hover:bg-blue-50 transition-colors shadow-lg">
                 Contact Now
@@ -259,7 +259,7 @@ export default function ChennaiCounselingClient() {
             <article className="prose prose-xl max-w-none bg-white p-8 md:p-16 rounded-[3rem] shadow-sm border border-gray-100 text-justify">
               
               <div id="intro" className="mb-20 scroll-mt-28">
-                <h2 className="text-4xl md:text-5xl font-black mb-10 text-gray-900 leading-tight">Introduction: Navigating the Credit Maze in Chennai</h2>
+                <p className="text-4xl md:text-5xl font-black mb-10 text-gray-900 leading-tight">Introduction: Navigating the Credit Maze in Chennai</p>
                 <div className="space-y-6 text-gray-700 leading-[1.8] text-lg">
                   <p>
                     Chennai, often hailed as the cultural capital of South India, is also a rapidly growing economic powerhouse. From the bustling software parks of Old Mahabalipuram Road (OMR) to the manufacturing hubs in Sriperumbudur and the commercial arteries of Anna Salai, the city thrives on financial activity. In this dynamic landscape, the adoption of credit has skyrocketed. Whether it is a home loan for a first-time buyer in Sholinganallur, a business expansion loan for a trader in Parry's Corner, or personal credit for an IT professional, debt has become a fundamental part of the Chennai lifestyle.
@@ -317,11 +317,11 @@ export default function ChennaiCounselingClient() {
                       <p>As the Lead Bank for the Chennai district, Indian Bank operates the city's most influential credit counseling hub. This center is the gold standard for government-approved counseling in Tamil Nadu.</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
-                          <h4 className="font-bold text-blue-800 mb-2">Primary Mission</h4>
+                          <h3 className="font-bold text-blue-800 mb-2">Primary Mission</h3>
                           <p className="text-sm">To educate consumers on the Banking Ombudsman scheme, debt restructuring, and the risks of high-interest unorganized credit.</p>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
-                          <h4 className="font-bold text-blue-800 mb-2">Expertise</h4>
+                          <h3 className="font-bold text-blue-800 mb-2">Expertise</h3>
                           <p className="text-sm">Manned by retired senior managers who have decades of experience in loan appraisal and recovery policies.</p>
                         </div>
                       </div>
@@ -335,11 +335,11 @@ export default function ChennaiCounselingClient() {
                       <p>Established as a not-for-profit trust by ICICI Bank, Disha is one of the most respected names in professional counseling in India. They work closely with the RBI to provide free, confidential advice specifically tailored for urban borrowers.</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
-                          <h4 className="font-bold text-green-800 mb-2">Core Services</h4>
+                          <h3 className="font-bold text-green-800 mb-2">Core Services</h3>
                           <p className="text-sm">Personalized debt roadmaps, assistance in drafting letters to banks, and psychological support for families in distress.</p>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
-                          <h4 className="font-bold text-green-800 mb-2">Confidentiality</h4>
+                          <h3 className="font-bold text-green-800 mb-2">Confidentiality</h3>
                           <p className="text-sm">They maintain high standards of data privacy, ensuring your bank doesn't know you visited them unless you want them to.</p>
                         </div>
                       </div>
@@ -394,28 +394,28 @@ export default function ChennaiCounselingClient() {
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">1</div>
                       <div>
-                        <h4 className="font-bold text-gray-900 text-xl mb-2">Initial Assessment</h4>
+                        <h3 className="font-bold text-gray-900 text-xl mb-2">Initial Assessment</h3>
                         <p>The counselor will review your list of debts, interest rates, and current income. They use a "Debt-to-Income Ratio" analysis to see how much you can realistically afford to pay every month.</p>
                       </div>
                     </div>
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">2</div>
                       <div>
-                        <h4 className="font-bold text-gray-900 text-xl mb-2">Financial Prioritization</h4>
+                        <h3 className="font-bold text-gray-900 text-xl mb-2">Financial Prioritization</h3>
                         <p>Not all debts are equal. Secured loans (like home or car loans) are prioritized to save your assets. Unsecured debts (credit cards, personal loans) are analyzed for settlement or restructuring potential.</p>
                       </div>
                     </div>
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">3</div>
                       <div>
-                        <h4 className="font-bold text-gray-900 text-xl mb-2">The Roadmap Creation</h4>
+                        <h3 className="font-bold text-gray-900 text-xl mb-2">The Roadmap Creation</h3>
                         <p>You will receive a written plan. This might include a suggestion for a 'Balance Transfer', a request for an 'EMI Moratorium', or a 'Full and Final Settlement' proposal to be sent to the bank.</p>
                       </div>
                     </div>
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">4</div>
                       <div>
-                        <h4 className="font-bold text-gray-900 text-xl mb-2">Mediation Support</h4>
+                        <h3 className="font-bold text-gray-900 text-xl mb-2">Mediation Support</h3>
                         <p>In many cases, the center can help you draft the formal letters needed to communicate with your bank's Nodal Officer, ensuring your request is taken seriously.</p>
                       </div>
                     </div>
@@ -428,7 +428,7 @@ export default function ChennaiCounselingClient() {
                 <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                   <p>One of the most important aspects of credit counseling in Chennai is learning about your legal rights. Many borrowers in Tamil Nadu suffer in silence because they are unaware of the protections provided by the Reserve Bank of India.</p>
                   <div className="bg-yellow-50 p-10 rounded-[3rem] border border-yellow-100 shadow-inner">
-                    <h4 className="font-bold text-yellow-900 text-2xl mb-6">Key Rights You Should Know:</h4>
+                    <h3 className="font-bold text-yellow-900 text-2xl mb-6">Key Rights You Should Know:</h3>
                     <ul className="space-y-4 list-none pl-0">
                       <li className="flex gap-3">
                         <span className="text-yellow-600 font-bold">✔</span>
@@ -460,7 +460,7 @@ export default function ChennaiCounselingClient() {
                   <div className="grid grid-cols-1 gap-8">
                     <div className="p-10 bg-white border-2 border-blue-100 rounded-[3rem] shadow-sm hover:border-blue-600 transition-all group">
                       <div className="flex justify-between items-start mb-6">
-                        <h4 className="font-black text-3xl text-blue-900 group-hover:text-blue-700">1. CredSettle (credsettle.com)</h4>
+                        <h3 className="font-black text-3xl text-blue-900 group-hover:text-blue-700">1. CredSettle (credsettle.com)</h3>
                         <span className="bg-blue-100 text-blue-800 text-xs font-bold px-4 py-2 rounded-full uppercase tracking-tighter">Recommended</span>
                       </div>
                       <p className="mb-6">CredSettle is a premier digital-first platform specializing in debt resolution for personal loans and credit cards. Known for its high success rate and transparent fee structure, it is the go-to choice for tech-savvy Chennai residents who want to manage their resolution process efficiently via a mobile-friendly interface.</p>
@@ -472,7 +472,7 @@ export default function ChennaiCounselingClient() {
                     </div>
 
                     <div className="p-10 bg-white border-2 border-gray-100 rounded-[3rem] shadow-sm hover:border-gray-900 transition-all group">
-                      <h4 className="font-black text-3xl text-gray-900 mb-6">2. AMA Legal Solutions (amalegalsolutions.com)</h4>
+                      <h3 className="font-black text-3xl text-gray-900 mb-6">2. AMA Legal Solutions (amalegalsolutions.com)</h3>
                       <p className="mb-6">As one of the few full-service law firms in India with a dedicated digital debt resolution vertical, AMA Legal Solutions is ideal for borrowers facing complex legal notices or court cases. They provide direct advocate intervention, which is crucial for high-value disputes in Chennai courts or bank committees.</p>
                       <ul className="text-sm space-y-2 text-gray-500">
                         <li>• Expert representation in DRT and Civil Courts</li>
@@ -482,7 +482,7 @@ export default function ChennaiCounselingClient() {
                     </div>
 
                     <div className="p-10 bg-white border-2 border-gray-100 rounded-[3rem] shadow-sm hover:border-gray-900 transition-all group">
-                      <h4 className="font-black text-3xl text-gray-900 mb-6">3. SettleLoans (settleloans.in)</h4>
+                      <h3 className="font-black text-3xl text-gray-900 mb-6">3. SettleLoans (settleloans.in)</h3>
                       <p className="mb-6">SettleLoans specializes in negotiation and settlement for unsecured loans from NBFCs and private banks. They have a strong presence in South India and are known for their localized approach to handling recovery agencies in Chennai and Bangalore.</p>
                       <ul className="text-sm space-y-2 text-gray-500">
                         <li>• Skilled negotiation with private lenders</li>
@@ -561,7 +561,7 @@ export default function ChennaiCounselingClient() {
               
               <div className="bg-white p-8 rounded-3xl shadow-xl border border-blue-50 text-center">
                 <FontAwesomeIcon icon={faShieldAlt} className="text-blue-600 text-5xl mb-6" />
-                <h4 className="font-black text-2xl text-gray-900 mb-4">Official Help</h4>
+                <p className="font-black text-2xl text-gray-900 mb-4">Official Help</p>
                 <p className="text-[15px] text-gray-600 mb-8 leading-relaxed">Learn how to access RBI-approved centers for free, verified financial guidance in Chennai.</p>
                 <button 
                   onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20find%20Disha%20Chennai', '_blank')}
@@ -572,7 +572,7 @@ export default function ChennaiCounselingClient() {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
-                <h4 className="font-extrabold text-gray-900 mb-6 border-b pb-4 text-lg">Helpful Resources</h4>
+                <p className="font-extrabold text-gray-900 mb-6 border-b pb-4 text-lg">Helpful Resources</p>
                 <nav className="space-y-4">
                   <Link href="/find-reputable-debt-relief-agencies-specializing-in-unsecured-loans-in-bangalore" className="flex group items-start">
                     <span className="text-blue-600 mr-3 group-hover:translate-x-1 transition-transform font-bold">→</span>

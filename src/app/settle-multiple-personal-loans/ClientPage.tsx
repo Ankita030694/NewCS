@@ -50,25 +50,25 @@ export default function ClientPage() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-2">1. Prioritize by Legal Exposure</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-2">1. Prioritize by Legal Exposure</h3>
                   <p className="text-xs text-gray-600">
                     Differentiate between unsecured personal loans and loans with cheque-bounce exposure (Section 138 NI Act) or NACH failure (Section 25 PSS Act). Address accounts with active statutory notices first.
                   </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-2">2. Centralize Harassment Protection</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-2">2. Centralize Harassment Protection</h3>
                   <p className="text-xs text-gray-600">
                     Having 5 different recovery agencies calling daily creates severe psychological stress. By assigning legal representation, all communications are routed through your advocate desk.
                   </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-2">3. Build a Staggered OTS Pool</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-2">3. Build a Staggered OTS Pool</h3>
                   <p className="text-xs text-gray-600">
                     Instead of paying small amounts across all lenders, accumulate funds into a dedicated settlement reserve. Settle with one bank at a time in full, securing 45% to 65% waivers.
                   </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-2">4. Individual No Dues Certificates</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-2">4. Individual No Dues Certificates</h3>
                   <p className="text-xs text-gray-600">
                     Never execute a settlement without an official, individually signed sanction letter. Ensure each creditor updates CIBIL and issues an unencumbered NDC.
                   </p>
@@ -77,7 +77,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-emerald-900 mb-2">Can Banks Seize Funds from Other Bank Accounts?</h4>
+              <h3 className="font-bold text-emerald-900 mb-2">Can Banks Seize Funds from Other Bank Accounts?</h3>
               <p className="text-sm text-emerald-800 leading-relaxed">
                 Banks only have the &apos;Right of Set-Off&apos; over accounts maintained within the exact same banking institution. A lender cannot unilaterally freeze or debit your savings account in another bank without a decree from a competent civil court or DRT.
               </p>
@@ -117,7 +117,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Get Complete Relief from Multiple Debts</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Get Complete Relief from Multiple Debts</h3>
               <p className="mb-4 text-sm text-gray-600">Our senior negotiators coordinate with multiple banks simultaneously to secure maximum waivers and protect your peace of mind.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get a Customized Multi-Debt Plan

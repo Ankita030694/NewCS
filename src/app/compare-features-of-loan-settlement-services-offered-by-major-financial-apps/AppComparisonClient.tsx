@@ -208,7 +208,7 @@ export default function AppComparisonClient() {
           {/* Left Column: TOC */}
           <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+              <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
               <nav className="space-y-2 text-sm">
                 {navLinks.map((link) => (
                   <a
@@ -233,7 +233,7 @@ export default function AppComparisonClient() {
             <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
               
               <div id="intro" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">Introduction: The Rise of Digital Debt Resolution</h2>
+                <p className="text-3xl font-bold mb-6 text-gray-900">Introduction: The Rise of Digital Debt Resolution</p>
                 <p className="text-gray-700 leading-relaxed">
                   As we move deeper into 2025, the way Indian consumers handle financial distress is undergoing a digital revolution. Gone are the days when a borrower had to sit in a bank branch for hours, pleading for a settlement. Today, the power to resolve a defaulted loan has shifted to dedicated mobile platforms.
                 </p>
@@ -243,17 +243,17 @@ export default function AppComparisonClient() {
               </div>
 
               <div id="bank-vs-app" className="mb-16 scroll-mt-24">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900">1. Why Your Banking App is Not Enough</h2>
+                <p className="text-3xl font-bold mb-6 text-gray-900">1. Why Your Banking App is Not Enough</p>
                 <p className="text-gray-700 leading-relaxed">
                   While major bank apps like HDFC MobileBanking, SBI YONO, and ICICI iMobile are excellent for tracking balances, they are inherently limited when it comes to settlement.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                   <div className="p-6 bg-red-50 rounded-2xl border border-red-100">
-                    <h4 className="font-bold text-red-900 mb-2 underline">Banking Apps (HDFC/SBI/etc)</h4>
+                    <p className="font-bold text-red-900 mb-2 underline">Banking Apps (HDFC/SBI/etc)</p>
                     <p className="text-sm text-red-800">Only promote 'Full Repayment' or 'Foreclosure'. Settlements are hidden or not negotiated. No legal protection against harassment provided.</p>
                   </div>
                   <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                    <h4 className="font-bold text-green-900 mb-2 underline">Resolution Apps (AMA Connect/etc)</h4>
+                    <p className="font-bold text-green-900 mb-2 underline">Resolution Apps (AMA Connect/etc)</p>
                     <p className="text-sm text-green-800">Focus on 'Compromise Settlements' (40-75% off). Direct legal advocacy and harassment shields. Multi-bank dashboard for all your debts.</p>
                   </div>
                 </div>
@@ -360,10 +360,10 @@ export default function AppComparisonClient() {
               <div id="how-to-choose" className="mb-16 scroll-mt-24">
                 <h2 className="text-3xl font-bold mb-6 text-gray-900">6. How to Choose the Right App for You</h2>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
-                  <h4 className="font-bold text-gray-900 mb-6 flex items-center gap-2">
+                  <h3 className="font-bold text-gray-900 mb-6 flex items-center gap-2">
                     <FontAwesomeIcon icon={faSearchDollar} className="text-blue-600" />
                     Our Expert Recommendation Model:
-                  </h4>
+                  </h3>
                   <div className="space-y-4 text-sm font-light">
                     <p className="border-b pb-2"><strong className="text-blue-900">Scenario A:</strong> You are facing legal notices or severe recovery harassment. <br/> ➔ **Choice: AMA Connect.**</p>
                     <p className="border-b pb-2"><strong className="text-blue-900">Scenario B:</strong> You have no income but can save small amounts monthly. <br/> ➔ **Choice: FREED.**</p>
@@ -425,7 +425,7 @@ export default function AppComparisonClient() {
             <div className="space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Compare & Choose</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Compare & Choose</p>
                 <p className="text-sm text-gray-600 mb-6">Unsure which app is right for you? Consult with our experts to find the perfect debt resolution match.</p>
                 <button 
                   onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20choose%20the%20right%20settlement%20app', '_blank')}
@@ -436,7 +436,7 @@ export default function AppComparisonClient() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Resources</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Resources</p>
                 <nav className="space-y-3">
                   <Link href="/is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps" className="flex group items-start">
                     <span className="text-blue-600 mr-2 group-hover:translate-x-1 transition-transform">&rarr;</span>

@@ -262,7 +262,7 @@ export default function HowToSettleACreditCardDebtClient() {
                 </p>
                 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Settlement Execution Protocol</h4>
+                  <h3 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Settlement Execution Protocol</h3>
                   
                   <div className="flex mb-8">
                     <div className="flex flex-col items-center mr-6">
@@ -270,7 +270,7 @@ export default function HowToSettleACreditCardDebtClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Draft the Hardship Application</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Draft the Hardship Application</h3>
                       <p className="text-gray-700">Write a formal letter addressed to the nodal officer or grievance redressal department of the bank. State your credit card number, clearly explain the reason for your financial distress, and attach copies of your documentary evidence. State that you intend to resolve the matter but require a significant waiver due to absolute insolvency.</p>
                     </div>
                   </div>
@@ -281,7 +281,7 @@ export default function HowToSettleACreditCardDebtClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Anchor the Negotiation Low</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Anchor the Negotiation Low</h3>
                       <p className="text-gray-700">When the bank responds, their first offer will be terrible. They might offer to waive only the late fees. You must reject this immediately. Counteroffer with a very low number, perhaps twenty percent of the principal amount. Emphasize that this small amount is all you can borrow from relatives, and if they reject it, you will have no choice but to declare bankruptcy.</p>
                     </div>
                   </div>
@@ -292,7 +292,7 @@ export default function HowToSettleACreditCardDebtClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Demand a Written Settlement Letter</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Demand a Written Settlement Letter</h3>
                       <p className="text-gray-700">After weeks of haggling, when you finally agree on a number, absolutely refuse to pay a single rupee until you receive a formal settlement letter. This letter must be on the official bank letterhead. It must contain your account number, the agreed amount, the payment date, and a specific clause stating the account will be fully settled with no further dues pending upon payment.</p>
                     </div>
                   </div>
@@ -303,7 +303,7 @@ export default function HowToSettleACreditCardDebtClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Execute Payment Securely</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Execute Payment Securely</h3>
                       <p className="text-gray-700">Never hand cash to a collection agent. Never deposit money into a personal account. Transfer the funds strictly via NEFT, RTGS, or a Demand Draft drawn directly in favor of your specific credit card account number. Keep the transaction reference number perfectly safe.</p>
                     </div>
                   </div>
@@ -313,7 +313,7 @@ export default function HowToSettleACreditCardDebtClient() {
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-base shadow-lg z-10">5</div>
                     </div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Obtain the No Objection Certificate</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Obtain the No Objection Certificate</h3>
                       <p className="text-gray-700">Approximately thirty days after the payment clears, you must aggressively follow up with the bank to issue a final No Objection Certificate. Check your CIBIL report forty five days later to verify that the account status has been officially updated to Settled. Keep these physical and digital records forever.</p>
                     </div>
                   </div>
@@ -407,7 +407,7 @@ export default function HowToSettleACreditCardDebtClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-yellow-400">From Harassment to a 65% Waiver</h4>
+                    <h3 className="text-base font-bold mb-8 text-yellow-400">From Harassment to a 65% Waiver</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-yellow-400">The Escalation:</strong> By the sixth month of non payment, Amits outstanding balance had exploded to five lakh thirty thousand rupees. He was receiving over forty calls a day. Recovery agents visited his apartment twice, loudly demanding payment and humiliating him in front of his neighbors.</p>
@@ -477,7 +477,7 @@ export default function HowToSettleACreditCardDebtClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

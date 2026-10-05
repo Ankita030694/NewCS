@@ -162,7 +162,7 @@ export default function SalaryAccountFreezeClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -238,7 +238,7 @@ export default function SalaryAccountFreezeClient() {
                     </p>
                     
                     <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 my-8">
-                      <h4 className="text-xl font-bold text-blue-900 mb-4">Emergency Survival Step Checklist</h4>
+                      <h3 className="text-xl font-bold text-blue-900 mb-4">Emergency Survival Step Checklist</h3>
                       <ul className="space-y-3">
                         <li className="flex items-start">
                           <span className="text-blue-600 font-bold mr-2">Step 1:</span>
@@ -326,12 +326,12 @@ export default function SalaryAccountFreezeClient() {
                     </p>
 
                     <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 my-8">
-                      <h4 className="text-xl font-bold text-gray-900 mb-4">Legal Process Map: Handling NACH Bounces</h4>
+                      <h3 className="text-xl font-bold text-gray-900 mb-4">Legal Process Map: Handling NACH Bounces</h3>
                       <div className="flex flex-col space-y-4">
                         <div className="flex items-center">
                           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">1</div>
                           <div className="ml-4">
-                            <h5 className="font-bold text-gray-900">Mandate Bounce Occurs</h5>
+                            <h3 className="font-bold text-gray-900">Mandate Bounce Occurs</h3>
                             <p className="text-sm text-gray-600">Account lacks funds or is frozen, causing the auto-debit to fail.</p>
                           </div>
                         </div>
@@ -339,7 +339,7 @@ export default function SalaryAccountFreezeClient() {
                         <div className="flex items-center">
                           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">2</div>
                           <div className="ml-4">
-                            <h5 className="font-bold text-gray-900">Bank Issues Section 25 Notice</h5>
+                            <h3 className="font-bold text-gray-900">Bank Issues Section 25 Notice</h3>
                             <p className="text-sm text-gray-600">A formal legal notice is sent demanding payment within 15 days to avoid criminal charges.</p>
                           </div>
                         </div>
@@ -347,7 +347,7 @@ export default function SalaryAccountFreezeClient() {
                         <div className="flex items-center">
                           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">3</div>
                           <div className="ml-4">
-                            <h5 className="font-bold text-gray-900">Borrower Responds Legally</h5>
+                            <h3 className="font-bold text-gray-900">Borrower Responds Legally</h3>
                             <p className="text-sm text-gray-600">Reply to the notice citing the arbitrary account freeze and financial hardship, offering to settle.</p>
                           </div>
                         </div>
@@ -355,7 +355,7 @@ export default function SalaryAccountFreezeClient() {
                         <div className="flex items-center">
                           <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600 font-bold">4</div>
                           <div className="ml-4">
-                            <h5 className="font-bold text-gray-900">Negotiation and Closure</h5>
+                            <h3 className="font-bold text-gray-900">Negotiation and Closure</h3>
                             <p className="text-sm text-gray-600">Enter into an OTS agreement; the bank withdraws the Section 25 proceedings upon payment.</p>
                           </div>
                         </div>
@@ -380,7 +380,7 @@ export default function SalaryAccountFreezeClient() {
                     </p>
 
                     <div className="bg-white p-6 rounded-xl border border-gray-200 my-8 shadow-sm">
-                      <h4 className="text-xl font-bold text-gray-900 mb-6">Timeline of an Account Freeze Crisis</h4>
+                      <h3 className="text-xl font-bold text-gray-900 mb-6">Timeline of an Account Freeze Crisis</h3>
                       <div className="relative border-l-2 border-blue-500 pl-6 space-y-8">
                         <div className="relative">
                           <div className="absolute -left-[31px] bg-blue-500 w-4 h-4 rounded-full border-4 border-white"></div>
@@ -473,7 +473,7 @@ export default function SalaryAccountFreezeClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"

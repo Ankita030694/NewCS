@@ -183,7 +183,7 @@ export default function DebtConsolidationClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -497,7 +497,7 @@ export default function DebtConsolidationClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Consolidate Today</h4>
+                <p className="font-bold text-2xl mb-4">Consolidate Today</p>
                 <p className="text-blue-100 mb-6 text-sm">Reduce your interest burden and simplify your life with a single EMI. Our experts can help you choose the right path.</p>
                 <Link 
                   href="/contact"
@@ -522,7 +522,7 @@ export default function DebtConsolidationClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="group flex items-start">

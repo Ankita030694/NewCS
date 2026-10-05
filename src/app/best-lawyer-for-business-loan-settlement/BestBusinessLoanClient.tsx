@@ -215,7 +215,7 @@ export default function BestBusinessLoanClient() {
                     {/* Left: Table of Contents (Sticky) */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start max-h-[80vh] overflow-y-auto pr-4 scrollbar-thin">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -389,7 +389,7 @@ export default function BestBusinessLoanClient() {
                     {/* Right: CTA and Related (Sticky) */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start space-y-6">
                         <div className="bg-white p-8 rounded-3xl shadow-2xl border border-blue-50 text-center">
-                            <h4 className="font-bold text-2xl text-gray-900 mb-4">Legal Help Now</h4>
+                            <p className="font-bold text-2xl text-gray-900 mb-4">Legal Help Now</p>
                             <p className="text-sm text-gray-600 mb-8">Connect with India’s top banking lawyers to stop recovery actions and auctions immediately.</p>
                             <Link href="/contact" className="block w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition-all shadow-md">
                                 Get Legal Aid Now
@@ -403,7 +403,7 @@ export default function BestBusinessLoanClient() {
                         </div>
 
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                            <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Technical Guides</h4>
+                            <p className="font-bold text-gray-900 mb-4 border-b pb-2">Technical Guides</p>
                             <nav className="space-y-3">
                                 <Link href="/best-lawyer-for-msme-and-business-loans" className="block text-sm text-blue-600 hover:underline font-medium">MSME Settlement Guide</Link>
                                 <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline font-medium">Is Settlement Good?</Link>

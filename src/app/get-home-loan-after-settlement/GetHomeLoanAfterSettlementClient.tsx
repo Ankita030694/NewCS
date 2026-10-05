@@ -484,9 +484,9 @@ export default function GetHomeLoanAfterSettlementClient() {
 
                 {/* Weights Grid */}
                 <div className="border-t border-slate-100 pt-4">
-                  <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3">
+                  <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3">
                     TransUnion CIBIL Scoring Engine V3.0 Weight Architecture:
-                  </h4>
+                  </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
                     <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
                       <div className="flex justify-between items-center mb-1">
@@ -1280,9 +1280,9 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                 <span>100% CONFIDENTIAL</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white leading-tight">
+                <p className="text-xl font-bold text-white leading-tight">
                   Worried a Past Settlement Blocks Your Home Loan?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
                   Our mortgage and credit resolution experts structure your home loan application, optimize your FOIR, and negotiate differential upgrades to secure approvals from leading HFCs and banks.
                 </p>
@@ -1306,10 +1306,10 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
 
             {/* Card 3: CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-3 text-xs shadow-xs">
-              <h4 className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                 CredSettle Trust Commitments
-              </h4>
+              </p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />

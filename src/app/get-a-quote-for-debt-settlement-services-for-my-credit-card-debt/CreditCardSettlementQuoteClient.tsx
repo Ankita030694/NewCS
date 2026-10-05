@@ -289,7 +289,7 @@ export default function CreditCardSettlementQuoteClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Index</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Analysis Index</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -478,7 +478,7 @@ export default function CreditCardSettlementQuoteClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Quote Analyzer</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Quote Analyzer</p>
                                 <p className="text-sm text-gray-600 mb-6 italic">Estimate your potential waivers in seconds.</p>
                                 <Link
                                     href="/contact"
@@ -495,7 +495,7 @@ export default function CreditCardSettlementQuoteClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">More Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">More Resources</p>
                                 <nav className="grid gap-3">
                                     {[
                                         { href: "/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender", text: "Submit Your Offer" },

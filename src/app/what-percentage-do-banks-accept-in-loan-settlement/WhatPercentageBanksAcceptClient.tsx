@@ -299,7 +299,7 @@ export default function WhatPercentageBanksAcceptClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -340,12 +340,12 @@ export default function WhatPercentageBanksAcceptClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-100">
-                                    <h4 className="font-black text-blue-900 mb-4 uppercase tracking-widest text-sm italic">Credit Cards</h4>
+                                    <p className="font-black text-blue-900 mb-4 uppercase tracking-widest text-sm italic">Credit Cards</p>
                                     <p className="text-3xl font-black text-blue-600 mb-2">30% to 50%</p>
                                     <p className="text-slate-600 text-sm font-medium">Of the total outstanding. Often goes lower for very old accounts.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50 rounded-3xl border border-indigo-100">
-                                    <h4 className="font-black text-indigo-900 mb-4 uppercase tracking-widest text-sm italic">Personal Loans</h4>
+                                    <p className="font-black text-indigo-900 mb-4 uppercase tracking-widest text-sm italic">Personal Loans</p>
                                     <p className="text-3xl font-black text-indigo-600 mb-2">40% to 60%</p>
                                     <p className="text-slate-600 text-sm font-medium">Harder to push down than cards, but high waivers possible with hardship proof.</p>
                                 </div>
@@ -357,7 +357,7 @@ export default function WhatPercentageBanksAcceptClient() {
                             </p>
                             <div className="bg-slate-900 text-white p-12 rounded-[3.5rem] mb-12 shadow-2xl relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 rounded-full blur-[80px]"></div>
-                                <h4 className="text-2xl font-black mb-6 text-blue-400">The CredSettle Benchmarking Formula</h4>
+                                <h3 className="text-2xl font-black mb-6 text-blue-400">The CredSettle Benchmarking Formula</h3>
                                 <p className="text-lg opacity-70 mb-8 font-medium">A "Fair" settlement in 2025 usually follows this logic:</p>
                                 <div className="space-y-4">
                                     <p className="flex justify-between border-b border-white/10 pb-2"><span>Penal Charges waiver</span> <span className="text-blue-400 font-bold">100%</span></p>
@@ -467,7 +467,7 @@ export default function WhatPercentageBanksAcceptClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
                                     href="/contact"
@@ -484,7 +484,7 @@ export default function WhatPercentageBanksAcceptClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/loan-settlement", text: "The Master Guide to OTS" },

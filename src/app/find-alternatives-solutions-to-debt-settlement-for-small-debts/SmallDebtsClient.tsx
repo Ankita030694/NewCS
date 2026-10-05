@@ -287,7 +287,7 @@ const SmallDebtsClient = () => {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -339,12 +339,12 @@ const SmallDebtsClient = () => {
                             <h2 id="debt-consolidation" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Debt Consolidation: Merging the Chaos into Clarity</h2>
                             <div className="bg-blue-600 text-white p-10 rounded-[2.5rem] mb-12 shadow-xl relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16 blur-3xl group-hover:bg-white/20 transition-all"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3 uppercase tracking-widest text-xs italic">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3 uppercase tracking-widest text-xs italic">
                                     <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     Consolidation Benefit Analysis
-                                </h4>
+                                </p>
                                 <p className="text-4xl md:text-5xl font-black mb-6 tracking-tighter italic whitespace-nowrap">Single EMI - Lower ROI</p>
                                 <p className="opacity-90 leading-relaxed font-light text-lg">
                                     If you have 4 credit cards with 40% interest, taking a single personal loan at 14% to pay them all off isn’t just a convenience; it is a mathematical necessity. You simplify your life and reduce your interest burden by 65%. 
@@ -432,7 +432,7 @@ const SmallDebtsClient = () => {
                                 ))}
                             </div>
 
-                            <h2 className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4 uppercase">Conclusion: Choosing the Right Path</h2>
+                            <p className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4 uppercase">Conclusion: Choosing the Right Path</p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-light text-2xl italic leading-relaxed">
                                 Don’t let a small debt cast a long shadow.
                             </p>
@@ -440,7 +440,7 @@ const SmallDebtsClient = () => {
                                 The 5000+ words above prove one thing: Settlement is not your only choice. For debts under ₹2 Lakhs, the world of DMPs, Avalanches, and Restructuring offers a way out that keeps your financial integrity intact. At CredSettle, we advocate for the most sustainable path for our clients. Sometimes that means settlement, but often for small debts, it means smarter management. Analyze your cash flow, pick a method, and start today.
                             </p>
 
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
+                            <p className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                 {[
                                     { name: 'Preethi Srinivas', location: 'Coimbatore', stars: 5, comment: 'I had four small credit card debts under ₹50,000 each. Instead of settlement, CredSettle advised a consolidation. My EMI dropped by 40% and my CIBIL score is already recovering. Best advice I ever got.' },
@@ -486,7 +486,7 @@ const SmallDebtsClient = () => {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Audit Your Debt</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Audit Your Debt</p>
                                 <p className="text-sm text-gray-600 mb-6 font-light italic">"A ₹1 Lakh mistake can cost you a ₹50 Lakh home loan tomorrow. Choose your recovery path wisely."</p>
                                 <Link
                                     href="/contact"
@@ -498,7 +498,7 @@ const SmallDebtsClient = () => {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Financial Tools</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Financial Tools</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/debt-settlement-vs-bankruptcy", text: "Settlement vs Bankruptcy" },

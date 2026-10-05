@@ -701,9 +701,9 @@ export default function InteractiveLeadFunnel({
           {step === 3 && (
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <h3 className="text-sm sm:text-base font-semibold text-gray-900 mb-1">
+                <p className="text-sm sm:text-base font-semibold text-gray-900 mb-1">
                   Let us help you resolve your loan issue
-                </h3>
+                </p>
                 <p className="text-xs text-gray-600">
                   Share your contact details so our legal team can connect with you, explain your relief options, and help protect you from harassment.
                 </p>

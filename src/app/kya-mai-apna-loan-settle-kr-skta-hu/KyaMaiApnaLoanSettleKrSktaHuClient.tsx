@@ -160,7 +160,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -303,7 +303,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
                 </p>
                 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Settlement Action Plan Checklist</h4>
+                  <h3 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Settlement Action Plan Checklist</h3>
                   
                   <div className="flex mb-8">
                     <div className="flex flex-col items-center mr-6">
@@ -311,7 +311,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Fund Accumulation</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Fund Accumulation</h3>
                       <p className="text-gray-700">Aapko ek lump sum amount jama karna hoga. Settlement EMI me bahut kam hota hai. Bank ko ek bar me paisa dekar account close karna padega. Apni salary ka ek hissa save karein ya family se udhar lekar ek corpus ready karein (kam se kam outstanding amount ka 30% to 50%).</p>
                     </div>
                   </div>
@@ -322,7 +322,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Hardship Letter Drafting</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Hardship Letter Drafting</h3>
                       <p className="text-gray-700">Bank ke nodal officer ya grievance department ko ek detailed letter likhein. Unhe batayein ki aapke paas income source nahi hai. Saath me proofs attach karein. Unhe wada karein ki aap apna paisa clear karna chahte hain, bas halaat apke khilaf hain.</p>
                     </div>
                   </div>
@@ -333,7 +333,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Initiate Negotiation Rounds</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Initiate Negotiation Rounds</h3>
                       <p className="text-gray-700">Bank aapki pehli offer reject karega aur apko ek high amount demand karega. Ghabrayein nahi. Yeh ek bargaining process hai. Apne stance par tike rahein. Baar baar batayein ki aapke paas iske alawa aur paisa nahi hai. Yeh process हफ्तों (weeks) tak chal sakta hai.</p>
                     </div>
                   </div>
@@ -344,7 +344,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Demand a Written Settlement Letter</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Demand a Written Settlement Letter</h3>
                       <p className="text-gray-700">Jab ek final figure tay ho jaye, toh bank se official letter head par Settlement Letter maange. Bina is letter ke ₹1 bhi pay na karein. Letter me explicitly likha hona chahiye ki itne paise milne ke baad account settle mana jayega aur CIBIL ko report kiya jayega.</p>
                     </div>
                   </div>
@@ -354,14 +354,14 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-base shadow-lg z-10">5</div>
                     </div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Make Payment and Preserve the NOC</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Make Payment and Preserve the NOC</h3>
                       <p className="text-gray-700">Paisa online NEFT ya RTGS ke zariye bharein. Koi personal check third party agent ko na dein. Payment ke baad final Settlement NOC prapt karein. Is document ko life time safe rakhein kyunki bhavishya me purana bank dobara aapse paisa maangne ki koshish kar sakta hai due to clerical errors.</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 mt-12">
-                  <h4 className="font-bold text-red-900 text-base mb-4">Red Flags: Avoid Fake Settlement Scams</h4>
+                  <h3 className="font-bold text-red-900 text-base mb-4">Red Flags: Avoid Fake Settlement Scams</h3>
                   <ul className="list-disc pl-5 text-gray-800 space-y-3">
                     <li><strong>Upfront Fees Demand:</strong> Agar koi agency aapse kaam shuru hone se pehle hajaro rupaye fees maangti hai, toh woh scam ho sakta hai.</li>
                     <li><strong>Personal Account Transfers:</strong> Kabhi bhi kisi agent ke personal account me settlement amount na transfer karein. Paisa hamesha bank ke official loan account me jana chahiye.</li>
@@ -406,7 +406,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Aditya Singhal Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Aditya Singhal</h4>
+                <p className="font-bold text-gray-900">Aditya Singhal</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

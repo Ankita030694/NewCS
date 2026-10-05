@@ -265,7 +265,7 @@ export default function IdentifyFakeAgentsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -481,7 +481,7 @@ export default function IdentifyFakeAgentsClient() {
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Real Case Studies: Lessons from the Ground</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: The WhatsApp "Warrant" (A Near Miss)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: The WhatsApp "Warrant" (A Near Miss)</p>
                                 <p className="text-gray-700 mb-4">
                                     A young professional in Bangalore received a PDF warrant on WhatsApp with a "CBI" logo and his photo. The agent on the phone told him he would be arrested at his office by evening unless he paid 30,000 to an "official court UPI ID."
                                 </p>
@@ -490,7 +490,7 @@ export default function IdentifyFakeAgentsClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: The Late Night Visitor (Know Your Rights)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: The Late Night Visitor (Know Your Rights)</p>
                                 <p className="text-gray-700 mb-4">
                                     A woman in Pune had an agent visit her home at 8:30 PM. He was aggressive and tried to push into the house. He claimed the "standard rules" didn't apply because she hadn't responded to emails.
                                 </p>
@@ -570,7 +570,7 @@ export default function IdentifyFakeAgentsClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6">Get professional help to stop illegal calls and verify agent legitimacy according to latest guidelines.</p>
                                 <Link
                                     href="/contact"
@@ -587,7 +587,7 @@ export default function IdentifyFakeAgentsClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</p>
                                 <nav className="space-y-3">
                                     <Link href="/rbi-rules-for-recovery-agents" className="block text-sm text-blue-600 hover:underline">Official RBI Rules</Link>
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Harassment Guide</Link>

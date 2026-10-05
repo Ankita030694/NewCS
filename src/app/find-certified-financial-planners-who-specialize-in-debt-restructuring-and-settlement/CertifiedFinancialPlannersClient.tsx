@@ -256,7 +256,7 @@ export default function CertifiedFinancialPlannersClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start max-h-[calc(100vh-100px)] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -299,7 +299,7 @@ export default function CertifiedFinancialPlannersClient() {
                                 A Certified Financial Planner who specializes in debt is essentially a "Financial Emergency Doctor." Their job is to stabilize your situation before it leads to insolvency. In India, debt restructuring involves modifying the terms of an existing debt to provide the borrower with more favorable conditions, while loan settlement involves a formal agreement with the lender under RBI compromise settlement frameworks to pay a reduced lump sum to close the account forever.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl mb-8 border border-blue-100">
-                                <h4 className="font-bold text-blue-900 mb-3 text-xl italic uppercase">Primary Responsibilities of a Debt CFP:</h4>
+                                <p className="font-bold text-blue-900 mb-3 text-xl italic uppercase">Primary Responsibilities of a Debt CFP:</p>
                                 <ul className="space-y-3 text-gray-800">
                                     <li><strong>1. Holistic Financial Audit:</strong> Analyzing every single rupee of income, expense, and debt to understand your "Ability to Pay" versus your "Willingness to Pay."</li>
                                     <li><strong>2. Debt Prioritization:</strong> Determining which loans are "High Impact" (secured creditors or aggressive recovery apps) and which can wait for negotiation.</li>
@@ -350,23 +350,23 @@ export default function CertifiedFinancialPlannersClient() {
                             </p>
                             <div className="space-y-6 mb-10">
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                                    <h4 className="font-bold text-blue-900 mb-2">Step 1: Holistic Financial Audit</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Step 1: Holistic Financial Audit</p>
                                     <p className="text-gray-700 text-sm italic">The CFP reviews your debt-to-income ratio, living expenses, and categorizes loans by legal exposure and creditor type.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                                    <h4 className="font-bold text-blue-900 mb-2">Step 2: Hardship Evidence Dossier</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Step 2: Hardship Evidence Dossier</p>
                                     <p className="text-gray-700 text-sm italic">Compiling formal verification of distress (hospitalization records, termination notices, business balance sheets) to satisfy RBI compromise criteria.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                                    <h4 className="font-bold text-blue-900 mb-2">Step 3: NPA Aging & Write-Off Strategy</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Step 3: NPA Aging & Write-Off Strategy</p>
                                     <p className="text-gray-700 text-sm italic">Aligning negotiations with the bank's quarterly NPA cycles and statutory provisioning benchmarks.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                                    <h4 className="font-bold text-blue-900 mb-2">Step 4: Formal Legal Representation Notice</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Step 4: Formal Legal Representation Notice</p>
                                     <p className="text-gray-700 text-sm italic">Notifying lender nodal officers that you have retained professional representation and mandating all recovery contact follow statutory hours.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-                                    <h4 className="font-bold text-blue-900 mb-2">Step 5: Written OTS Offer & Counter-Negotiation</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Step 5: Written OTS Offer & Counter-Negotiation</p>
                                     <p className="text-gray-700 text-sm italic">Submitting a data-backed One-Time Settlement offer with verifiable payment milestones to the competent approval committee.</p>
                                 </div>
                             </div>
@@ -478,7 +478,7 @@ export default function CertifiedFinancialPlannersClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop Harassment Now</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop Harassment Now</p>
                                 <p className="text-sm text-gray-600 mb-6">Get legal protection and a professional debt restructuring plan from India\'s top experts.</p>
                                 <Link
                                     href="/contact"
@@ -490,7 +490,7 @@ export default function CertifiedFinancialPlannersClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Resources</p>
                                 <nav className="space-y-3">
                                     <div className="block text-sm text-gray-400 ">Best Settlement Lawyers</div>
                                     <Link href="/how-to-ask-bank-for-settlement" className="block text-sm text-blue-600 hover:underline">Negotiation Steps</Link>

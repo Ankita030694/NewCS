@@ -189,7 +189,7 @@ export default function WrittenOffClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -227,10 +227,10 @@ export default function WrittenOffClient() {
                             
                             {/* Section Type: Alert Box */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-2xl mb-8">
-                                <h4 className="text-xl font-bold text-red-900 mb-2 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Legal Warning: Never Ignore a Write-Off
-                                </h4>
+                                </p>
                                 <p className="text-red-800 text-sm leading-relaxed">
                                     A loan write-off is NOT a debt waiver. The bank has not forgiven a single rupee of your debt. They have merely moved the bad debt off their active balance sheet for tax and regulatory purposes. The legal contract remains entirely valid, and you are still legally obligated to repay the full amount.
                                 </p>
@@ -247,21 +247,21 @@ export default function WrittenOffClient() {
 
                             {/* Section Type: Insight Block */}
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200 mb-8">
-                                <h4 className="font-bold text-blue-900 text-lg mb-3 flex items-center">
+                                <p className="font-bold text-blue-900 text-lg mb-3 flex items-center">
                                     <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd"></path></svg>
                                     The Bank's Perspective: Why Do They Write Off Loans?
-                                </h4>
+                                </p>
                                 <p className="text-blue-800 text-sm leading-relaxed">
                                     When an account remains unpaid for 90 days, it becomes a Non-Performing Asset (NPA). As the default stretches past 180 days or a year, RBI regulations require the bank to provision (set aside) capital from their profits to cover the expected loss. Carrying high NPA numbers looks terrible to investors and regulators. Therefore, banks "write off" these toxic assets, removing them from the active balance sheet. This allows the bank to claim a tax deduction on the loss and instantly cleans up their public NPA ratios. It is entirely a financial engineering tactic.
                                 </p>
                             </div>
 
-                            <h3 id="accounting-maneuver" className="text-2xl font-bold text-gray-800 mt-8 mb-4">It Is Merely an Accounting and Tax Maneuver</h3>
+                            <h2 id="accounting-maneuver" className="text-2xl font-bold text-gray-800 mt-8 mb-4">It Is Merely an Accounting and Tax Maneuver</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The crucial takeaway is that a write-off happens between the bank and the tax authorities, not between the bank and you. The bank tells the government, "We don't expect to recover this soon, let us take a tax break." The underlying contract between the bank and the borrower is completely unaffected by this internal ledger adjustment.
                             </p>
 
-                            <h3 id="legal-right-to-sue" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Bank Still Has the Legal Right to Sue</h3>
+                            <h2 id="legal-right-to-sue" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Bank Still Has the Legal Right to Sue</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 After writing off the loan, the bank moves the account to a specialized legal recovery division or sells the debt portfolio entirely to an Asset Reconstruction Company (ARC). These entities are ruthless. Because the bank has already taken the tax benefit, any future recovery is pure profit.
                             </p>
@@ -274,19 +274,19 @@ export default function WrittenOffClient() {
                                 A "Settled" status is fundamentally different. It is a mutually agreed-upon modification of the original loan contract. When you face genuine financial hardship, you approach the bank and state that you cannot pay the full outstanding amount. The bank agrees to accept a lesser amount (a lump sum) as full and final payment.
                             </p>
 
-                            <h3 id="legal-closure" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Legal Closure of the Debt Contract</h3>
+                            <h2 id="legal-closure" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Legal Closure of the Debt Contract</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Once the settlement amount is paid, the bank legally closes the account. Unlike a write-off, a settlement permanently terminates the bank's right to pursue future legal action or recovery efforts for that specific debt. The contract is resolved. If the bank ever attempts to sue you later, you simply present the settlement agreement to the judge, and the case is immediately dismissed.
                             </p>
 
-                            <h3 id="the-noc-shield" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The NOC (No Objection Certificate) Shield</h3>
+                            <h2 id="the-noc-shield" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The NOC (No Objection Certificate) Shield</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The ultimate proof of a settlement is the No Objection Certificate (NOC) or No Dues Certificate. This is a formal document on bank letterhead explicitly stating that you owe them nothing further and that the loan account is officially closed. A borrower whose loan is merely "written off" will never receive an NOC, leaving them vulnerable to future extortion.
                             </p>
 
                             {/* Section Type: Side-by-Side Comparison List */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200 mb-8 overflow-x-auto">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Written-Off vs. Settled: Quick Comparison</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4 text-center">Written-Off vs. Settled: Quick Comparison</p>
                                 <table className="w-full text-left border-collapse min-w-[600px]">
                                     <thead>
                                         <tr className="bg-blue-100 text-blue-900">
@@ -325,7 +325,7 @@ export default function WrittenOffClient() {
                                 Both statuses are negative markers on your credit report. Neither is a "good" outcome for your CIBIL score. However, there is a distinct hierarchy of damage.
                             </p>
 
-                            <h3 id="which-is-worse" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Which is Worse for Your Credit Future?</h3>
+                            <h2 id="which-is-worse" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Which is Worse for Your Credit Future?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A <strong>Written-Off</strong> status is significantly worse for your CIBIL score. It tells future lenders that you completely abandoned your financial obligations, forcing the bank to internally absorb the loss without any cooperation from you. It signals total financial irresponsibility. Almost no reputable bank will issue a fresh loan or credit card to an individual with an active write-off on their file.
                             </p>
@@ -340,14 +340,14 @@ export default function WrittenOffClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Don't Leave Yourself Legally Vulnerable</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">Don't Leave Yourself Legally Vulnerable</p>
                                 <p className="text-blue-800 mb-6">A write-off is a ticking time bomb. Our expert lawyers can negotiate with the bank to convert your written-off account into a formal, legally binding settlement with a guaranteed NOC, protecting you from future lawsuits.</p>
                                 <Link
                                     href="/contact"
@@ -368,7 +368,7 @@ export default function WrittenOffClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Secure Your NOC</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Secure Your NOC</p>
                                 <p className="text-sm text-gray-600 mb-6">A write-off offers no legal protection. Hire a lawyer to secure a formal settlement today.</p>
                                 <Link
                                     href="/contact"
@@ -385,7 +385,7 @@ export default function WrittenOffClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

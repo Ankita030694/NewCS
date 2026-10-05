@@ -200,7 +200,7 @@ export default function BestLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3 text-wrap">Guide Navigation</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3 text-wrap">Guide Navigation</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -320,19 +320,19 @@ export default function BestLoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
                   <div className="p-4 border border-blue-100 rounded-xl bg-blue-50/50">
-                    <h4 className="font-bold text-blue-900 mb-2">Legal-First Approach</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Legal-First Approach</h3>
                     <p className="text-sm">We don't just talk to banks; we represent you legally. Our team of advocates ensures that all settlements are documented correctly and that you are protected from any future litigation by the lender.</p>
                   </div>
                   <div className="p-4 border border-blue-100 rounded-xl bg-blue-50/50">
-                    <h4 className="font-bold text-blue-900 mb-2">Transparent Fee Structure</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Transparent Fee Structure</h3>
                     <p className="text-sm">At CredSettle, there are no hidden charges. We provide a clear breakdown of our fees upfront, ensuring you know exactly what you are paying for and what results to expect.</p>
                   </div>
                   <div className="p-4 border border-blue-100 rounded-xl bg-blue-50/50">
-                    <h4 className="font-bold text-blue-900 mb-2">High Success Rate</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">High Success Rate</h3>
                     <p className="text-sm">With years of experience and deep-rooted relationships with bank settlement departments, we consistently achieve some of the highest discounts for our clients, often saving them over 60% of their debt.</p>
                   </div>
                   <div className="p-4 border border-blue-100 rounded-xl bg-blue-50/50">
-                    <h4 className="font-bold text-blue-900 mb-2">Comprehensive Support</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Comprehensive Support</h3>
                     <p className="text-sm">From stopping harassment calls on day one to providing guidance on how to rebuild your credit score after the settlement, we are with you at every step of the journey.</p>
                   </div>
                 </div>
@@ -526,7 +526,7 @@ export default function BestLoanSettlementClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Take the First Step Toward a Debt-Free Life</h2>
+                  <h3 className="text-3xl font-bold mb-4">Take the First Step Toward a Debt-Free Life</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Stop the stress of high-interest debt today. Join the thousands who have found financial freedom with CredSettle.</p>
                   <Link 
                     href="/contact"
@@ -549,7 +549,7 @@ export default function BestLoanSettlementClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Debt Relief Now</h4>
+                <p className="font-bold text-2xl mb-4">Debt Relief Now</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing high credit card balances? Our experts are here to help you settle for less.</p>
                 <Link 
                   href="/contact"
@@ -575,7 +575,7 @@ export default function BestLoanSettlementClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Quick Links</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

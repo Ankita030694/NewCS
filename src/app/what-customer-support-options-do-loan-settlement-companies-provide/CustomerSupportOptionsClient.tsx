@@ -291,7 +291,7 @@ export default function CustomerSupportOptionsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start max-h-[calc(100vh-100px)] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -342,7 +342,7 @@ export default function CustomerSupportOptionsClient() {
                                 The most fundamental support option is the Dedicated Case Manager. When you enter a debt relief program, your file is assigned to a specific expert. This person is your advocate. They understand your bank statements, your medical history, your business losses, and your family commitments.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl mb-8 border border-blue-100">
-                                <h4 className="font-bold text-blue-900 mb-3 text-xl italic uppercase font-semibold">Value of a Dedicated Manager:</h4>
+                                <p className="font-bold text-blue-900 mb-3 text-xl italic uppercase font-semibold">Value of a Dedicated Manager:</p>
                                 <ul className="space-y-3 text-gray-800">
                                     <li><strong>Consistency:</strong> You dont have to re-explain your trauma to a new person every time you call.</li>
                                     <li><strong>Strategic Alignment:</strong> The manager knows the progress of all 5 of your loans and ensures one settlement doesn\'t jeopardize the next.</li>
@@ -501,7 +501,7 @@ export default function CustomerSupportOptionsClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Help Now?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Help Now?</p>
                                 <p className="text-sm text-gray-600 mb-6">Access our emergency legal helpline and dedicated support team today.</p>
                                 <Link
                                     href="/contact"
@@ -513,7 +513,7 @@ export default function CustomerSupportOptionsClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-handle-recovery-agent-harrasment" className="block text-sm text-blue-600 hover:underline">Handling Harassment</Link>
                                     <Link href="/rbi-rules-for-recovery-agents" className="block text-sm text-blue-600 hover:underline">RBI Recovery Rules</Link>

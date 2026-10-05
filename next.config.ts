@@ -707,6 +707,16 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/can-i-get-a-loan-settlement-quote-instantly-from-online-services",
+        destination: "/can-i-get-a-loan-settlement-quote-instantly-from-online-services-",
+        permanent: true,
+      },
+      {
+        source: "/can-I-get-a-loan-settlement-quote-instantly-from-online-services",
+        destination: "/can-i-get-a-loan-settlement-quote-instantly-from-online-services-",
+        permanent: true,
+      },
+      {
         source: "/can-I-settle-my-home-loan",
         destination: "/can-i-settle-my-home-loan",
         permanent: true,

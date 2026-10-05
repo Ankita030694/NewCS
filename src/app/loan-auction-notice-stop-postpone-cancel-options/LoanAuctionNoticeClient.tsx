@@ -234,7 +234,7 @@ export default function LoanAuctionNoticeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -315,7 +315,7 @@ export default function LoanAuctionNoticeClient() {
                                     <svg className="w-6 h-6 text-red-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
                                     </svg>
-                                    <h4 className="text-xl font-bold text-red-900 uppercase">Critical Deadline Alert</h4>
+                                    <p className="text-xl font-bold text-red-900 uppercase">Critical Deadline Alert</p>
                                 </div>
                                 <p className="text-red-800 text-sm md:text-base leading-relaxed">
                                     <strong>The Section 13(8) Cutoff:</strong> You have the absolute right to redeem your property by paying the total dues, plus all costs and expenses incurred by the bank, <strong>at any time before the bank transfers the property or executes a sale agreement</strong>. If you pay this amount even one day before the auction, the bank is legally obligated to stop bank auction of property proceedings immediately.
@@ -396,10 +396,10 @@ export default function LoanAuctionNoticeClient() {
                             {/* Visual Type 3: Checklist */}
                             <div className="bg-gray-900 text-white p-8 md:p-10 rounded-[2rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-40 h-40 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Pre-Auction Defense Checklist:
-                                </h4>
+                                </p>
                                 <p className="text-gray-300 mb-6 font-light italic">Cross-verify your bank notice against these mandatory legal requirements. A single "NO" is grounds for a DRT challenge.</p>
                                 
                                 <div className="space-y-4 font-medium">
@@ -520,7 +520,7 @@ export default function LoanAuctionNoticeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Auction Looms?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Auction Looms?</p>
                                 <p className="text-sm text-gray-600 mb-6">Our experts can file an immediate DRT stay application if we find procedural flaws in your notice.</p>
                                 <Link
                                     href="/contact"
@@ -538,7 +538,7 @@ export default function LoanAuctionNoticeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-regularise-overdue-loan-account-npa-to-standard" className="block text-sm text-blue-600 hover:underline">Fixing NPA Accounts</Link>
                                     <Link href="/personal-loan-settlement-process-consequences" className="block text-sm text-blue-600 hover:underline">Settlement Process Overview</Link>

@@ -139,7 +139,7 @@ export default function ConsultantQuestionsClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -196,13 +196,13 @@ export default function ConsultantQuestionsClient() {
                   The first and most critical area of inquiry involves money. You are already in financial distress, so the last thing you need is a consultant who adds to your burden with hidden costs.
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-500 mb-6">
-                  <h4 className="font-bold text-xl mb-2">Do you charge any upfront fees before settling my debt?</h4>
+                  <h3 className="font-bold text-xl mb-2">Do you charge any upfront fees before settling my debt?</h3>
                   <p>
                     This is the single most important question. Under best practices followed by top tier firms like <strong>CredSettle</strong>, fees should only be charged after a successful settlement has been reached. If a company asks for a "processing fee" or "enrollment fee" before they have even spoken to your bank, you should consider it a major red flag.
                   </p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-500">
-                  <h4 className="font-bold text-xl mb-2">How exactly are your fees calculated?</h4>
+                  <h3 className="font-bold text-xl mb-2">How exactly are your fees calculated?</h3>
                   <p>
                     Are they a percentage of the total debt enrolled, or a percentage of the amount saved? A percentage of savings is generally more client friendly, as it incentivizes the consultant to negotiate the lowest possible settlement amount for you. For example, if you owe 10 lakh and they settle it for 4 lakh, their fee would be based on the 6 lakh saved.
                   </p>
@@ -431,7 +431,7 @@ export default function ConsultantQuestionsClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Debt Review</h4>
+                <p className="font-bold text-2xl mb-4">Free Debt Review</p>
                 <p className="text-blue-100 mb-6 text-sm">Overwhelmed by debt? Get a free confidential assessment from our consultants.</p>
                 <Link 
                   href="/contact"
@@ -457,7 +457,7 @@ export default function ConsultantQuestionsClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="group flex items-start">

@@ -243,7 +243,7 @@ const SettlementVsBankruptcyClient = () => {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -365,17 +365,17 @@ const SettlementVsBankruptcyClient = () => {
                             <h2 id="case-studies-2025" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">2025 Case Studies: Real-World Lessons</h2>
                             <div className="space-y-8 mb-16">
                                 <div className="p-10 bg-white rounded-[2.5rem] border border-gray-100 shadow-xl group hover:border-blue-200 transition-all">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
+                                    <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
                                         Case A: The IT Professional (Settlement)
                                         <span className="text-green-500 text-xs uppercase tracking-widest font-black">Outcome: Successful Restoration</span>
-                                    </h4>
+                                    </p>
                                     <p className="text-gray-600 leading-[1.8] font-light">An individual with ₹40 Lakh in credit card debt. They chose a professional settlement program. Their ancestral home was protected. They settled the entire debt for ₹14 Lakh over 10 months. Today, they have kept their job and are rebuilding their credit. Total time: 10 months.</p>
                                 </div>
                                 <div className="p-10 bg-white rounded-[2.5rem] border border-gray-100 shadow-xl group hover:border-blue-200 transition-all">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
+                                    <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight flex justify-between items-center italic">
                                         Case B: The Small Merchant (Bankruptcy)
                                         <span className="text-red-500 text-xs uppercase tracking-widest font-black">Outcome: Total Liquidation</span>
-                                    </h4>
+                                    </p>
                                     <p className="text-gray-600 leading-[1.8] font-light">A business owner with ₹2 Crore in liabilities. They filed for bankruptcy hoping for a "Clean Slate." The RP liquidated their warehouse and secondary plot. While the ₹2 Crore was discharged, they lost their primary source of future income and have been blacklisted by every bank in India. Total time: 24 months and counting.</p>
                                 </div>
                             </div>
@@ -462,7 +462,7 @@ const SettlementVsBankruptcyClient = () => {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Settlement Strategy</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Settlement Strategy</p>
                                 <p className="text-sm text-gray-600 mb-6 font-light italic">"Avoid the DRT. Negotiate from a position of legal strength and institutional expertise."</p>
                                 <Link
                                     href="/contact"
@@ -479,7 +479,7 @@ const SettlementVsBankruptcyClient = () => {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/what-is-the-success-rate-of-debt-settlement-programs", text: "Latest Success Stats" },

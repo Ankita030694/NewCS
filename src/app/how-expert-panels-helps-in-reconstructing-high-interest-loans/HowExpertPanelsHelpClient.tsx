@@ -243,7 +243,7 @@ export default function HowExpertPanelsHelpClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -301,10 +301,10 @@ export default function HowExpertPanelsHelpClient() {
                                 A critical knowledge gap exists among borrowers trapped in exorbitant debt. When facing mounting pressure from banks and payday apps, many individuals incorrectly assume that declaring bankruptcy is their sole remaining option. This misconception is often fueled by a lack of financial literacy and the intimidating tactics employed by recovery agencies.
                             </p>
                             <div className="bg-red-50 text-red-900 p-8 rounded-3xl mb-10 shadow-sm border border-red-200">
-                                <h4 className="text-xl font-bold mb-4 flex items-center gap-2 uppercase tracking-wide">
+                                <p className="text-xl font-bold mb-4 flex items-center gap-2 uppercase tracking-wide">
                                     <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     The Bankruptcy Trap Alert
-                                </h4>
+                                </p>
                                 <p className="text-red-800 font-light leading-relaxed">
                                     Filing for insolvency or bankruptcy carries devastating, long-term consequences. It annihilates your credit score, making it virtually impossible to secure future financing, rent premium property, or sometimes even clear background checks for corporate employment. It is an extreme measure that surrenders all financial autonomy. Do not accept this fate without first consulting an expert legal panel for debt restructuring.
                                 </p>
@@ -336,10 +336,10 @@ export default function HowExpertPanelsHelpClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     The Interest Rate Conversion Strategy:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 1: Freezing the Compounding:</strong> The immediate legal priority is to freeze the account status, preventing further interest from compounding while negotiations are underway.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 2: Proving Financial Hardship:</strong> Lawyers present documented evidence of the borrower's financial distress, such as job loss, medical emergencies, or severe business downturns, establishing that the current EMI is objectively unpayable.</li>
@@ -428,7 +428,7 @@ export default function HowExpertPanelsHelpClient() {
                                 If you are ready to break free from the high-interest debt trap, it is essential to understand the structured approach taken by an expert legal panel.
                             </p>
                             <div className="bg-white p-8 rounded-3xl border border-blue-100 shadow-xl mb-10">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-6 border-b pb-4">Your Legal Checklist for Debt Freedom:</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-6 border-b pb-4">Your Legal Checklist for Debt Freedom:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex items-start gap-4">
                                         <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1">
@@ -557,7 +557,7 @@ export default function HowExpertPanelsHelpClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to stop agents and start restructuring your loan.</p>
                                 <Link
                                     href="/contact"
@@ -575,7 +575,7 @@ export default function HowExpertPanelsHelpClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Restructuring</Link>
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defense</Link>

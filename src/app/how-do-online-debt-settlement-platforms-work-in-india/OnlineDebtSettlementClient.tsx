@@ -200,7 +200,7 @@ export default function OnlineDebtSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -456,7 +456,7 @@ export default function OnlineDebtSettlementClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Resolve Your Debt?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Resolve Your Debt?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Join thousands of Indians who have reclaimed their financial freedom through our platform. Get a free assessment today.</p>
                   <Link 
                     href="/contact"
@@ -495,7 +495,7 @@ export default function OnlineDebtSettlementClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Debt Relief Now</h4>
+                <p className="font-bold text-2xl mb-4">Debt Relief Now</p>
                 <p className="text-blue-100 mb-6 text-sm">Stop the harassment and start your journey to a debt-free life today.</p>
                 <Link 
                   href="/contact"

@@ -193,7 +193,7 @@ export default function EducationLoanClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -242,7 +242,7 @@ export default function EducationLoanClient() {
 
                             {/* Section Type: Impact Matrix */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200 mb-8 overflow-x-auto">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Default Consequence Matrix</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4 text-center">Default Consequence Matrix</p>
                                 <table className="w-full text-left border-collapse min-w-[600px]">
                                     <thead>
                                         <tr className="bg-blue-100 text-blue-900">
@@ -271,7 +271,7 @@ export default function EducationLoanClient() {
                                 </table>
                             </div>
 
-                            <h3 id="career-impact" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Impact on the Student's Career Prospects</h3>
+                            <h2 id="career-impact" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Impact on the Student's Career Prospects</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For the graduate, the most immediate invisible consequence is the destruction of their credit history. A ruined CIBIL score effectively locks them out of the formal credit system for years. This means they will struggle to get a basic credit card, an auto loan to buy a vehicle for their commute, or a housing loan when they eventually decide to settle down. 
                             </p>
@@ -279,7 +279,7 @@ export default function EducationLoanClient() {
                                 More alarmingly, the corporate world is increasingly integrating financial background checks into their hiring processes. While a tech company might not care about a loan default, major multinational banks, financial services firms, and insurance companies strictly scrutinize credit reports. A candidate with a severe default or an NPA tag may be deemed a financial risk and disqualified from handling sensitive fiduciary roles.
                             </p>
 
-                            <h3 id="legal-action-parents" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Legal Action Against Parent Co-Signers</h3>
+                            <h2 id="legal-action-parents" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Legal Action Against Parent Co-Signers</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The burden on parents is often far heavier. Because the student usually lacks assets, the bank aggressively targets the co-signer. Legally, the co-signer is equally liable for the debt. The bank does not have to exhaust all options against the student before pursuing the parents. Understanding <Link href="/can-bank-contact-guarantor-for-recovery" className="text-blue-600 hover:underline">co-signer legal rights loan default</Link> is crucial for families navigating this crisis.
                             </p>
@@ -293,14 +293,14 @@ export default function EducationLoanClient() {
                             </p>
 
                             {/* Section Type: Information Cards */}
-                            <h3 id="csis-scheme" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Understanding the CSIS Scheme</h3>
+                            <h2 id="csis-scheme" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Understanding the CSIS Scheme</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-green-50 p-6 rounded-2xl border border-green-200 shadow-sm">
-                                    <h4 className="font-bold text-green-900 text-lg mb-3">What is CSIS?</h4>
+                                    <p className="font-bold text-green-900 text-lg mb-3">What is CSIS?</p>
                                     <p className="text-green-800 text-sm leading-relaxed">The Central Sector Interest Subsidy (CSIS) scheme is a government initiative where the Ministry of Education pays the full interest accrued on the education loan during the moratorium period (course duration + 1 year).</p>
                                 </div>
                                 <div className="bg-green-50 p-6 rounded-2xl border border-green-200 shadow-sm">
-                                    <h4 className="font-bold text-green-900 text-lg mb-3">Who is Eligible?</h4>
+                                    <p className="font-bold text-green-900 text-lg mb-3">Who is Eligible?</p>
                                     <p className="text-green-800 text-sm leading-relaxed">Students belonging to Economically Weaker Sections (EWS) with an annual gross parental family income with a specific upper limit (traditionally INR 4.5 Lakhs) pursuing technical or professional courses in India.</p>
                                 </div>
                             </div>
@@ -315,7 +315,7 @@ export default function EducationLoanClient() {
                             
                             {/* Section Type: Step-by-Step Guide */}
                             <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm mb-8">
-                                <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">How to Apply for a Moratorium Extension</h4>
+                                <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">How to Apply for a Moratorium Extension</h3>
                                 <ol className="list-decimal list-inside space-y-4 text-gray-700">
                                     <li className="pl-2 pb-2 border-b border-gray-100">
                                         <span className="font-semibold text-blue-800">Draft a Formal Representation:</span> Write a detailed letter to the branch manager explaining the exact reasons for unemployment (e.g., rescinded job offers, industry downturns).
@@ -377,7 +377,7 @@ export default function EducationLoanClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing NPA Threats?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing NPA Threats?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop harassment against your parents and negotiate a legal extension or settlement.</p>
                                 <Link
                                     href="/contact"
@@ -394,7 +394,7 @@ export default function EducationLoanClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

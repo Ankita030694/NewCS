@@ -270,7 +270,7 @@ export default function FinancialResetSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -386,22 +386,22 @@ export default function FinancialResetSettlementClient() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 mt-8">
                              <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 text-center">
                                  <span className="text-4xl mb-4 block">🚀</span>
-                                 <h4 className="font-bold text-blue-900 mb-2">Instant Solvency</h4>
+                                 <p className="font-bold text-blue-900 mb-2">Instant Solvency</p>
                                  <p className="text-sm text-blue-800">You move from -40 Lakhs to 0 overnight. This is the only way to achieve instant net worth growth.</p>
                              </div>
                              <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 text-center">
                                  <span className="text-4xl mb-4 block">🛑</span>
-                                 <h4 className="font-bold text-blue-900 mb-2">Interest Kill</h4>
+                                 <p className="font-bold text-blue-900 mb-2">Interest Kill</p>
                                  <p className="text-sm text-blue-800">No more compound interest eating your salary. Every rupee you earn from now on belongs to you.</p>
                              </div>
                              <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 text-center">
                                  <span className="text-4xl mb-4 block">🛡️</span>
-                                 <h4 className="font-bold text-blue-900 mb-2">Legal Shield</h4>
+                                 <p className="font-bold text-blue-900 mb-2">Legal Shield</p>
                                  <p className="text-sm text-blue-800">A valid OTS ends all active and future legal claims by the bank. Your reset is permanent.</p>
                              </div>
                              <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 text-center">
                                  <span className="text-4xl mb-4 block">🕊️</span>
-                                 <h4 className="font-bold text-blue-900 mb-2">Mental Peace</h4>
+                                 <p className="font-bold text-blue-900 mb-2">Mental Peace</p>
                                  <p className="text-sm text-blue-800">The elimination of debt-anxiety is the greatest benefit. You can sleep, work, and thrive again.</p>
                              </div>
                         </div>
@@ -574,7 +574,7 @@ export default function FinancialResetSettlementClient() {
 
                             {/* Primary Sidebar CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Reset Protocol</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Reset Protocol</p>
                                 <p className="text-sm text-gray-600 mb-6">Initiate your 2026 financial fresh start with India's most trusted reset mediation team.</p>
                                 <Link
                                     href="/contact"
@@ -591,7 +591,7 @@ export default function FinancialResetSettlementClient() {
 
                             {/* Related Pages Sidebar */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Navigator</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Navigator</p>
                                 <nav className="space-y-3">
                                     <Link href="/cred-settle-support-for-avoiding-aggressive-recovery-practices" className="block text-sm text-blue-600 hover:underline">Avoiding Harassment Support</Link>
                                     <Link href="/loan-settlement-for-borrowers-facing-economic-downturn" className="block text-sm text-blue-600 hover:underline">Economic Downturn Settle</Link>

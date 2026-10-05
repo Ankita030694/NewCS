@@ -291,7 +291,7 @@ export default function OnlinePortalInitiationClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -337,7 +337,7 @@ export default function OnlinePortalInitiationClient() {
                                 Before you even log into your bank portal, you must have your "Digital Arsenal" ready. The most common reason for an online request to be ignored is incorrect or incomplete information. The bank's internal database relies on specific identifiers to link your request to your account.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
-                                <h3 className="text-lg font-bold text-blue-900 mb-4">Required Information for Digital Initiation:</h3>
+                                <p className="text-lg font-bold text-blue-900 mb-4">Required Information for Digital Initiation:</p>
                                 <ul className="space-y-3 text-blue-800">
                                     <li><strong>1. Loan Account Number (LAN):</strong> This is NOT your bank account number. It is the unique 10-15 digit code assigned to your specific loan.</li>
                                     <li><strong>2. Registered Mobile Number and Email:</strong> Ensure you have access to the ones linked to the bank. All OTPs and formal letters will go there.</li>
@@ -434,7 +434,7 @@ export default function OnlinePortalInitiationClient() {
                                 Do not celebrate yet. You must verify its authenticity.
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6">
-                                <h4 className="text-lg font-bold text-red-900 mb-4">Verification Checklist:</h4>
+                                <p className="text-lg font-bold text-red-900 mb-4">Verification Checklist:</p>
                                 <ul className="space-y-3 text-red-800 font-light">
                                     <li><strong>1. The Domain:</strong> Is the email from an official bank domain (e.g., @hdfcbank.com)? Watch out for fake domains like @hdfc-settlement.in.</li>
                                     <li><strong>2. The Loan ID:</strong> Does it match your LAN exactly?</li>
@@ -547,7 +547,7 @@ export default function OnlinePortalInitiationClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Initiate Faster?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Initiate Faster?</p>
                                 <p className="text-sm text-gray-600 mb-6">Our lawyers have direct access to most bank settlement portals. We can save you weeks of clicking and waiting.</p>
                                 <Link
                                     href="/contact"
@@ -559,7 +559,7 @@ export default function OnlinePortalInitiationClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Digital Debt Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-apps-for-managing-and-settling-unsecured-loans" className="block text-sm text-blue-600 hover:underline">Top Settlement Apps</Link>
                                     <Link href="/how-to-check-if-a-loan-settlement-offer-is-genuine-on-digital-platforms" className="block text-sm text-blue-600 hover:underline">Verify Offer Legitimacy</Link>

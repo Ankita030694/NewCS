@@ -250,7 +250,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Content</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Content</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -328,7 +328,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
                             </p>
 
                             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 mb-10 shadow-sm">
-                                <h4 className="text-xl font-bold text-gray-900 mb-4 border-b pb-2">At a Glance Comparison</h4>
+                                <p className="text-xl font-bold text-gray-900 mb-4 border-b pb-2">At a Glance Comparison</p>
                                 <ul className="space-y-4">
                                     <li className="flex flex-col md:flex-row gap-4 border-b border-gray-100 pb-4">
                                         <div className="md:w-1/3 font-bold text-blue-900">Total Amount Paid</div>
@@ -360,7 +360,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-green-50 border border-green-100 rounded-xl shadow-sm">
-                                    <h5 className="font-bold text-green-900 mb-4 text-lg">Pros of Settlement</h5>
+                                    <p className="font-bold text-green-900 mb-4 text-lg">Pros of Settlement</p>
                                     <ul className="space-y-3 text-green-800 text-sm list-disc pl-5">
                                         <li><strong>Significant Debt Reduction:</strong> You can eliminate a large portion of your total debt, saving you a substantial amount of money compared to paying it off in full.</li>
                                         <li><strong>Avoid Bankruptcy:</strong> It provides a legal way to clear unmanageable debt without going through the formal and public process of declaring insolvency.</li>
@@ -369,7 +369,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
                                     </ul>
                                 </div>
                                 <div className="p-6 bg-red-50 border border-red-100 rounded-xl shadow-sm">
-                                    <h5 className="font-bold text-red-900 mb-4 text-lg">Cons of Settlement</h5>
+                                    <p className="font-bold text-red-900 mb-4 text-lg">Cons of Settlement</p>
                                     <ul className="space-y-3 text-red-800 text-sm list-disc pl-5">
                                         <li><strong>Severe Credit Damage:</strong> Your CIBIL score will plummet. The 'Settled' status makes it nearly impossible to get new credit cards, personal loans, or home loans for several years.</li>
                                         <li><strong>Requires a Lump Sum:</strong> You need to have a significant amount of cash available upfront to offer the bank during negotiations.</li>
@@ -386,7 +386,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-green-50 border border-green-100 rounded-xl shadow-sm">
-                                    <h5 className="font-bold text-green-900 mb-4 text-lg">Pros of Consolidation</h5>
+                                    <h3 className="font-bold text-green-900 mb-4 text-lg">Pros of Consolidation</h3>
                                     <ul className="space-y-3 text-green-800 text-sm list-disc pl-5">
                                         <li><strong>Simplified Finances:</strong> You only have to worry about one monthly payment and one due date, vastly reducing the chance of accidental missed payments.</li>
                                         <li><strong>Potential Interest Savings:</strong> If you secure a lower interest rate on the new loan, you can save thousands of rupees in interest charges over the life of the loan.</li>
@@ -395,7 +395,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
                                     </ul>
                                 </div>
                                 <div className="p-6 bg-red-50 border border-red-100 rounded-xl shadow-sm">
-                                    <h5 className="font-bold text-red-900 mb-4 text-lg">Cons of Consolidation</h5>
+                                    <h3 className="font-bold text-red-900 mb-4 text-lg">Cons of Consolidation</h3>
                                     <ul className="space-y-3 text-red-800 text-sm list-disc pl-5">
                                         <li><strong>Strict Eligibility:</strong> You must have a good credit score and stable income to get approved. If you are already struggling, you will likely be rejected.</li>
                                         <li><strong>Risk of More Debt:</strong> If you consolidate your credit card balances but continue to use the cards for new purchases, you will end up in twice as much debt.</li>
@@ -512,7 +512,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
                         <div className="space-y-6">
                             {/* Card 1: Primary CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-4 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -531,7 +531,7 @@ export default function PersonalLoanSettlementVsDebtConsolidationClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">

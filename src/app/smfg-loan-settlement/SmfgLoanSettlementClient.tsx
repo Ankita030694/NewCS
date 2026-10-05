@@ -197,7 +197,7 @@ export default function SmfgLoanSettlementClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -316,7 +316,7 @@ export default function SmfgLoanSettlementClient() {
                 </p>
 
                 <div className="my-12">
-                  <h4 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Settlement Timeline</h4>
+                  <h3 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The Settlement Timeline</h3>
                   
                   <div className="flex mb-8">
                     <div className="flex flex-col items-center mr-6">
@@ -324,7 +324,7 @@ export default function SmfgLoanSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Month 1 to 3: The Silence Protocol</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Month 1 to 3: The Silence Protocol</h3>
                       <p className="text-gray-700">During the initial default period, the bank will not offer a reasonable settlement. Focus entirely on hoarding cash. Cut all non-essential expenses and try to borrow a lump sum from trusted family members. Do not make erratic small payments; save the funds for the final negotiation strike.</p>
                     </div>
                   </div>
@@ -335,7 +335,7 @@ export default function SmfgLoanSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Month 4: The Hardship Declaration</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Month 4: The Hardship Declaration</h3>
                       <p className="text-gray-700">Once the account reaches NPA status, dispatch a formal hardship letter to the grievance redressal officer. Explicitly detail your financial catastrophe. Attach solid proof like medical bills or termination letters. Request a One-Time Settlement based on your absolute inability to service the debt.</p>
                     </div>
                   </div>
@@ -346,7 +346,7 @@ export default function SmfgLoanSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Month 5: The Negotiation Dance</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Month 5: The Negotiation Dance</h3>
                       <p className="text-gray-700">SMFG will counter your request with an exorbitant demand, often asking for eighty percent of the inflated balance. Hold your ground. Reject the offer firmly. Propose a lower lump sum amount. This back and forth is normal and tests your resolve. Engaging a <Link href="/best-nbfc-loan-settlement-lawyer" className="text-blue-600 font-bold hover:underline">specialized NBFC settlement lawyer</Link> at this stage can drastically improve your leverage.</p>
                     </div>
                   </div>
@@ -356,7 +356,7 @@ export default function SmfgLoanSettlementClient() {
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-base shadow-lg z-10">M6</div>
                     </div>
                     <div>
-                      <h5 className="font-bold text-gray-900 text-base mb-2">Month 6: Execution and Documentation</h5>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Month 6: Execution and Documentation</h3>
                       <p className="text-gray-700">When a verbal agreement is finally reached, demand it in writing. Do not transfer a single rupee until you possess a formal Settlement Letter on official company letterhead detailing the exact terms. Make the payment via NEFT and retain all receipts securely for future reference.</p>
                     </div>
                   </div>
@@ -376,10 +376,10 @@ export default function SmfgLoanSettlementClient() {
                   The central banking authority of India has laid down strict regulations governing how financial institutions and their agents can interact with defaulted borrowers. Knowing <Link href="/how-to-stop-recovery-agent-harassment" className="text-blue-600 font-bold hover:underline">how to legally stop recovery agent harassment</Link> involves understanding and enforcing these specific rights.
                 </p>
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200 my-8">
-                  <h4 className="font-bold text-red-900 text-base mb-4 flex items-center">
+                  <h3 className="font-bold text-red-900 text-base mb-4 flex items-center">
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                     The Red Flags of Illegal Collection
-                  </h4>
+                  </h3>
                   <ul className="list-disc pl-5 text-gray-800 space-y-3">
                     <li><strong>Calling Outside Permitted Hours:</strong> Any calls made before 8:00 AM or after 7:00 PM are strictly prohibited.</li>
                     <li><strong>Use of Abusive Language:</strong> Agents using foul, threatening, or coercive language are committing a criminal offense.</li>
@@ -413,7 +413,7 @@ export default function SmfgLoanSettlementClient() {
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h4 className="text-base font-bold mb-8 text-yellow-400">Securing a Sixty-Five Percent Waiver</h4>
+                    <h3 className="text-base font-bold mb-8 text-yellow-400">Securing a Sixty-Five Percent Waiver</h3>
                     
                     <div className="space-y-6 text-base">
                       <p><strong className="text-yellow-400">The Profile:</strong> Mr. Karthik S., a logistics manager in Bangalore.</p>
@@ -482,7 +482,7 @@ export default function SmfgLoanSettlementClient() {
             </section>
 
             <section>
-              <h2 id="reclaim-freedom" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Reclaim Your Financial Freedom</h2>
+              <h3 id="reclaim-freedom" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Reclaim Your Financial Freedom</h3>
               <div className="mt-16 p-16 md:p-24 bg-black text-white rounded-3xl text-center shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] relative overflow-hidden">
                 <div className="relative z-10">
                   <h2 className="text-base md:text-base font-bold mb-10 leading-[1]">End The <span className="text-blue-500 underline underline-offset-[16px]">Harassment</span> Today</h2>
@@ -507,7 +507,7 @@ export default function SmfgLoanSettlementClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Vikram Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Financial Strategist & Debt Relief Expert</p>
                 <p className="text-xs text-gray-400">Specializes in NBFC settlements, preventing recovery agent harassment, and protecting consumer rights in India.</p>
               </div>

@@ -147,7 +147,7 @@ export default function FederalBankLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -193,16 +193,16 @@ export default function FederalBankLoanSettlementClient() {
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-8">
-                  <h4 className="flex items-center text-blue-900 font-bold text-lg mb-2">
+                  <h3 className="flex items-center text-blue-900 font-bold text-lg mb-2">
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     New Regulation Alert: Jan 1, 2026
-                  </h4>
+                  </h3>
                   <p className="text-blue-800 text-sm">
                    <strong>Effective Jan 1, 2026:</strong> Under new RBI directives, Federal Bank <strong>cannot levy foreclosure/prepayment charges</strong> on floating-rate term loans sanctioned to individuals for non-business purposes. If your settlement officer adds "foreclosure penalties" to your dues for a home or education loan, we can legally dispute it immediately.
                   </p>
                 </div>
 
-                <h4 className="font-bold text-lg mb-2">The Standard OTS Framework:</h4>
+                <h3 className="font-bold text-lg mb-2">The Standard OTS Framework:</h3>
                 <ul className="list-disc pl-6 space-y-4 mb-6">
                   <li>
                     <strong>Eligibility:</strong> Accounts classified as NPA for at least <strong>6 months</strong>. Pre-NPA (SMA-1/2) accounts are generally steered towards restructuring, not settlement.
@@ -220,7 +220,7 @@ export default function FederalBankLoanSettlementClient() {
                   </li>
                 </ul>
 
-                <h4 className="font-bold text-lg mb-4 mt-8">Hidden Charges: What to Watch For</h4>
+                <h3 className="font-bold text-lg mb-4 mt-8">Hidden Charges: What to Watch For</h3>
                 <div className="overflow-x-auto">
                   <table className="min-w-full text-sm text-left text-gray-600 border border-gray-200 rounded-lg">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-50">
@@ -257,14 +257,14 @@ export default function FederalBankLoanSettlementClient() {
                   Federal Bank has a massive portfolio lending to small businesses and farmers. Their policies here are softer.
                 </p>
 
-                <h4 className="font-bold text-lg mb-2 text-gray-800">1. MSME (Micro & Small Enterprises)</h4>
+                <h3 className="font-bold text-lg mb-2 text-gray-800">1. MSME (Micro & Small Enterprises)</h3>
                 <p className="mb-4">
                   Under the MSMED Act 2006, the bank has a mandate to rehabilitate sick units. If your business has failed, we can apply for a "Non-Discretionary" OTS based on a formula (usually Outstanding Principal + Minimal Simple Interest).
                   <br/>
                   <em>Pro Tip:</em> While they are aiming for 18-19% growth in MSME books in 2025, they are equally keen to clean up "legacy" bad loans to keep their NPA ratios healthy for investors.
                 </p>
 
-                <h4 className="font-bold text-lg mb-2 text-gray-800">2. Agricultural Loans (KCC / Green Plus)</h4>
+                <h3 className="font-bold text-lg mb-2 text-gray-800">2. Agricultural Loans (KCC / Green Plus)</h3>
                 <p className="mb-4">
                   For 'Federal Kisan Suvidha' or 'Green Plus' loans:
                 </p>
@@ -354,7 +354,7 @@ export default function FederalBankLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-amber-100 text-center transform transition hover:-translate-y-1">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Federal Bank Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Federal Bank Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don’t lose your 5% deposit. Get expert advice first.</p>
                 <Link 
                   href="/contact"

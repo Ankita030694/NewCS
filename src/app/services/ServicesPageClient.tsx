@@ -130,12 +130,12 @@ export default function ServicesPageClient() {
                   }}
                 >
                   <div className="flex-1">
-                    <h3 
+                    <p 
                       className="font-medium text-left text-2xl mb-4" 
                       style={{ color: '#0C2756' }}
                     >
                       Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
-                    </h3>
+                    </p>
                     <p 
                       className="text-left text-sm mb-4" 
                       style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
@@ -177,12 +177,12 @@ export default function ServicesPageClient() {
                       padding: '12px'
                     }}
                   >
-                    <h4 
+                    <p 
                       className="font-medium text-left mb-1" 
                       style={{ color: '#0C2756', fontSize: '14px' }}
                     >
                       Call Forwarding Services
-                    </h4>
+                    </p>
                     <p 
                       className="text-left" 
                       style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
@@ -201,12 +201,12 @@ export default function ServicesPageClient() {
                       padding: '12px'
                     }}
                   >
-                    <h4 
+                    <p 
                       className="font-medium text-left mb-1" 
                       style={{ color: '#0C2756', fontSize: '14px' }}
                     >
                       Complaint Filing
-                    </h4>
+                    </p>
                     <p 
                       className="text-left" 
                       style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
@@ -225,12 +225,12 @@ export default function ServicesPageClient() {
                       padding: '12px'
                     }}
                   >
-                    <h4 
+                    <p 
                       className="font-medium text-left mb-1" 
                       style={{ color: '#0C2756', fontSize: '14px' }}
                     >
                       Cease & Desist Notices
-                    </h4>
+                    </p>
                     <p 
                       className="text-left" 
                       style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
@@ -315,7 +315,7 @@ export default function ServicesPageClient() {
                         minHeight: '279px'
                       }}
                     >
-                      <h3
+                      <p
                         className="font-medium w-full"
                         style={{
                           color: '#0C2756',
@@ -327,7 +327,7 @@ export default function ServicesPageClient() {
                         }}
                       >
                         Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
-                      </h3>
+                      </p>
                       <p
                         className="w-full"
                         style={{
@@ -499,12 +499,12 @@ export default function ServicesPageClient() {
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h4 
+                  <h2 
                     className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Personal Loan Settlement
-                  </h4>
+                  </h2>
                   
                   {/* Left aligned description */}
                   <p 
@@ -560,12 +560,12 @@ export default function ServicesPageClient() {
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h4 
+                  <h2 
                     className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Credit Card Settlement
-                  </h4>
+                  </h2>
                   
                   {/* Left aligned description */}
                   <p 
@@ -621,12 +621,12 @@ export default function ServicesPageClient() {
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h4 
+                  <h2 
                     className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Business Loan Settlement
-                  </h4>
+                  </h2>
                   
                   {/* Left aligned description */}
                   <p 
@@ -682,12 +682,12 @@ export default function ServicesPageClient() {
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h4 
+                  <h2 
                     className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     Car Loan Settlement
-                  </h4>
+                  </h2>
                   
                   {/* Left aligned description */}
                   <p 
@@ -743,12 +743,12 @@ export default function ServicesPageClient() {
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h4 
+                  <h2 
                     className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     App Loan Settlement
-                  </h4>
+                  </h2>
                   
                   {/* Left aligned description */}
                   <p 
@@ -804,12 +804,12 @@ export default function ServicesPageClient() {
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h4 
+                  <h2 
                     className="font-medium text-left mb-2" 
                     style={{ color: '#0C2756', fontSize: '24px' }}
                   >
                     NBFC Loan Settlement
-                  </h4>
+                  </h2>
                   
                   {/* Left aligned description */}
                   <p 
@@ -868,12 +868,12 @@ export default function ServicesPageClient() {
                     </div>
                     
                     {/* Heading */}
-                    <h4 
+                    <h2 
                       className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Personal Loan Settlement
-                    </h4>
+                    </h2>
                     
                     {/* Description */}
                     <p 
@@ -941,12 +941,12 @@ export default function ServicesPageClient() {
                     </div>
                     
                     {/* Heading */}
-                    <h4 
+                    <h2 
                       className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Credit Card Settlement
-                    </h4>
+                    </h2>
                     
                     {/* Description */}
                     <p 
@@ -1014,12 +1014,12 @@ export default function ServicesPageClient() {
                     </div>
                     
                     {/* Heading */}
-                    <h4 
+                    <h2 
                       className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Business Loan Settlement
-                    </h4>
+                    </h2>
                     
                     {/* Description */}
                     <p 
@@ -1087,12 +1087,12 @@ export default function ServicesPageClient() {
                     </div>
                     
                     {/* Heading */}
-                    <h4 
+                    <h2 
                       className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Car Loan Settlement
-                    </h4>
+                    </h2>
                     
                     {/* Description */}
                     <p 
@@ -1160,12 +1160,12 @@ export default function ServicesPageClient() {
                     </div>
                     
                     {/* Heading */}
-                    <h4 
+                    <h2 
                       className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       App Loan Settlement
-                    </h4>
+                    </h2>
                     
                     {/* Description */}
                     <p 
@@ -1233,12 +1233,12 @@ export default function ServicesPageClient() {
                     </div>
                     
                     {/* Heading */}
-                    <h4 
+                    <h2 
                       className="font-medium text-left mb-2" 
                       style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       NBFC Loan Settlement
-                    </h4>
+                    </h2>
                     
                     {/* Description */}
                     <p 
@@ -1486,12 +1486,12 @@ export default function ServicesPageClient() {
                   <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                     {/* Text Content */}
                     <div className="flex flex-col items-center gap-[28px] w-full">
-                      <h2
+                      <h3
                         className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
                         style={{ color: '#0C2756' }}
                       >
                         Ready to Take Control of Your Debt?
-                      </h2>
+                      </h3>
                       <p
                         className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}

@@ -193,7 +193,7 @@ export default function LegalAidClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -334,23 +334,23 @@ export default function LegalAidClient() {
                 </p>
                 <div className="bg-gray-100 p-8 rounded-3xl space-y-6">
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">Step 1: Written Complaint to the Bank</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Step 1: Written Complaint to the Bank</h3>
                     <p>Always start with the source. Send a formal written complaint to the banks Grievance Redressal Officer or Nodal Officer. Clearly describe the harassment, including dates, times, and the names of the agents involved. Demand that the harassment stop immediately. Ensure you get an acknowledgement of your complaint.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">Step 2: Collect and Preserve Evidence</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Step 2: Collect and Preserve Evidence</h3>
                     <p>While waiting for the banks response, continue to collect evidence. Save every threatening message, record every abusive call, and take photos of any unauthorized visitors. This evidence will be vital if you need to escalate the matter.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">Step 3: Escalate to the RBI Ombudsman</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Step 3: Escalate to the RBI Ombudsman</h3>
                     <p>If the bank does not resolve your complaint within 30 days, or if the harassment continues, file a complaint on the RBI CMS portal (cms.rbi.org.in). The Ombudsman is an independent authority that can investigate the bank and order relief.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">Step 4: File a Police Complaint (FIR)</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Step 4: File a Police Complaint (FIR)</h3>
                     <p>If the harassment involves physical threats, trespassing, or extreme verbal abuse, do not hesitate to go to the police. File an FIR for criminal intimidation or harassment. A police record is a very powerful piece of evidence in any legal battle.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-blue-900 mb-2">Step 5: Seek Help from Legal Aid Websites</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Step 5: Seek Help from Legal Aid Websites</h3>
                     <p>At any stage of this process, you can engage a platform like CredSettle. They can handle all the drafting and communication for you, ensuring that your complaints are professionally presented and legally sound. This takes the pressure off you and often leads to faster results.</p>
                   </div>
                 </div>
@@ -404,15 +404,15 @@ export default function LegalAidClient() {
                 </p>
                 <div className="space-y-6">
                   <div className="bg-blue-50 p-6 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-2">Case Study 1: The Small Business Owner</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Case Study 1: The Small Business Owner</h3>
                     <p>A small business owner in Mumbai was facing relentless harassment from three different banks for business loan defaults. Agents were visiting his shop daily, shouting in front of customers. He approached a legal aid platform that sent immediate notices to all three banks citing RBI violations. Within a week, the home and shop visits stopped. The platform then negotiated a structured settlement plan, allowing him to pay off his debts in manageable installments while continuing his business.</p>
                   </div>
                   <div className="bg-blue-50 p-6 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-2">Case Study 2: The Salaried Professional</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Case Study 2: The Salaried Professional</h3>
                     <p>A software engineer in Bangalore had credit card debt and was being shamed by agents who called her office HR. This led to a disciplinary warning. She engaged a professional legal aid service that filed a formal complaint with the RBI Ombudsman for third-party disclosure. The bank was forced to apologize, the agents were suspended, and the bank offered a 50% waiver on the total outstanding amount as a settlement. Her job was saved, and her debt was resolved.</p>
                   </div>
                   <div className="bg-blue-50 p-6 rounded-2xl">
-                    <h4 className="font-bold text-blue-900 mb-2">Case Study 3: The Single Parent</h4>
+                    <h3 className="font-bold text-blue-900 mb-2">Case Study 3: The Single Parent</h3>
                     <p>A single mother was terrified by late-night calls and threats to involve the police for her personal loan default. She joined a debt relief program that provided her with a dedicated case manager. They handled all the recovery calls and educated her on her rights. When an agent showed up at her house without identification, she knew exactly how to handle the situation. The confidence she gained from the legal support allowed her to stand her ground, eventually leading to a fair settlement that she could afford.</p>
                   </div>
                 </div>
@@ -517,7 +517,7 @@ export default function LegalAidClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Stop The Harassment</h4>
+                <p className="font-bold text-2xl mb-4">Stop The Harassment</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing aggressive recovery agents? Let our legal experts handle the calls for you.</p>
                 <Link 
                   href="/contact"
@@ -542,7 +542,7 @@ export default function LegalAidClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/how-to-stop-recovery-agent-harassment" className="group flex items-start">

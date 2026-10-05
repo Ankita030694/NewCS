@@ -188,7 +188,7 @@ export default function LoanContractLawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {tocLinks.map((link) => (
                                     <button
@@ -249,16 +249,16 @@ export default function LoanContractLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Not all clauses in a loan contract are created equal. Some are administrative, while others are existentially dangerous. The best lawyers for loan contracts focus on these high impact "Power Clauses":
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Arbitration Clause</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Arbitration Clause</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2024, almost every private bank and NBFC in India includes an arbitration clause. This removes your right to go to a civil court and instead forces the dispute into a private room with an "Arbitrator." While arbitration is marketed as faster, some banks appoint biased arbitrators. A good lawyer will ensure the clause provides for a neutral appointing authority and a convenient location for the hearings.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Acceleration Clause</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Acceleration Clause</p>
                             <p className="text-gray-800 font-bold mb-4 italic">This is the most dangerous clause in any loan contract.</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 It states that upon the occurrence of any "Event of Default," the entire outstanding amount becomes due immediately. Without a lawyer negotiating "Grace Periods" or "Cure Periods" into this clause, a simple oversight like a delayed payment by a few days could legally allow the bank to demand the full 15 year balance of your home loan tomorrow.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Right of Set-Off</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Right of Set-Off</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This clause gives the bank the right to seize money from your other accounts with the same bank if you default on your loan. If you have your life savings in a fixed deposit at the same bank where you have a business loan, a default in the business could lead to your personal savings being wiped out instantly. A strategic lawyer might advise you to keep your savings and your loans in different banking institutions.
                             </p>
@@ -270,7 +270,7 @@ export default function LoanContractLawyerClient() {
                                 Under Indian law, specifically the RBI’s Fair Practices Code and various Supreme Court judgments, borrowers are not powerless. The contract you sign exists within a broader legal ecosystem that grants you inherent rights, even if they aren’t explicitly written in the bank’s document.
                             </p>
                             <div className="bg-[#f9fafb] p-10 rounded-3xl border border-gray-100 mb-10 font-light text-lg">
-                                <h4 className="font-bold text-gray-900 mb-6">Current Indian Legal Framework (2025 Updates)</h4>
+                                <p className="font-bold text-gray-900 mb-6">Current Indian Legal Framework (2025 Updates)</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex gap-4">
                                         <span className="text-blue-600 font-bold">v</span>
@@ -336,17 +336,17 @@ export default function LoanContractLawyerClient() {
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm text-center">
                                     <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
-                                    <h5 className="font-bold text-gray-900 mb-2">Technical Knowledge</h5>
+                                    <p className="font-bold text-gray-900 mb-2">Technical Knowledge</p>
                                     <p className="text-sm text-gray-600">Deep understanding of RBI circulars and banking regulations that change every few months.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm text-center">
                                     <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
-                                    <h5 className="font-bold text-gray-900 mb-2">Commercial Acumen</h5>
+                                    <p className="font-bold text-gray-900 mb-2">Commercial Acumen</p>
                                     <p className="text-sm text-gray-600">The ability to speak the bank’s language and understand the financial implications of legal terms.</p>
                                 </div>
                                 <div className="p-6 bg-white border border-gray-100 rounded-2xl shadow-sm text-center">
                                     <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
-                                    <h5 className="font-bold text-gray-900 mb-2">Litigation Experience</h5>
+                                    <p className="font-bold text-gray-900 mb-2">Litigation Experience</p>
                                     <p className="text-sm text-gray-600">The best contract drafters are those who have seen how these contracts break in court.</p>
                                 </div>
                             </div>
@@ -424,7 +424,7 @@ export default function LoanContractLawyerClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">Receive a personalized legal roadmap for your loan contract and protect your rights today.</p>
                                 <Link
                                     href="/contact"
@@ -441,7 +441,7 @@ export default function LoanContractLawyerClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Intelligence</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Intelligence</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-check-bounce-lawyer-for-loan-case" className="block text-sm text-blue-600 hover:underline">Check Bounce Defense</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Settle or Fight?</Link>

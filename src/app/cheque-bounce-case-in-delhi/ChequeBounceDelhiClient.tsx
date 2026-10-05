@@ -200,7 +200,7 @@ export default function ChequeBounceDelhiClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -480,7 +480,7 @@ export default function ChequeBounceDelhiClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-[32px] shadow-2xl text-white transform hover:scale-[1.02] transition-transform">
-                <h4 className="font-bold text-2xl mb-4 leading-tight">Fast-Track Recovery</h4>
+                <p className="font-bold text-2xl mb-4 leading-tight">Fast-Track Recovery</p>
                 <p className="text-blue-100 mb-8 text-sm leading-relaxed">Cheque bounced in Delhi? The 30-day deadline is crucial. Let our experts handle the legal complexity for you.</p>
                 <Link 
                   href="/contact"
@@ -506,7 +506,7 @@ export default function ChequeBounceDelhiClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">More Services</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">More Services</p>
                 <ul className="space-y-5">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

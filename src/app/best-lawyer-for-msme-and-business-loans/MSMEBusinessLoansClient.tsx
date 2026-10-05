@@ -290,7 +290,7 @@ export default function MSMEBusinessLoansClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -569,7 +569,7 @@ export default function MSMEBusinessLoansClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">MSME Loan Legal Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">MSME Loan Legal Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">Facing a SARFAESI notice or DRT case for your business loan? Get a free expert assessment of your MSME legal options today.</p>
                                 <Link
                                     href="/contact"
@@ -586,7 +586,7 @@ export default function MSMEBusinessLoansClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Services</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Services</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">MSME Loan Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Business Loan Dispute</Link>

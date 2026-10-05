@@ -1017,7 +1017,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   AJ
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-900 text-sm">Ashish Jhangra</h4>
+                  <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
                   <p className="text-[11px] text-slate-500 font-medium">
                     Legal &amp; Debt Resolution Professional
                   </p>
@@ -1049,9 +1049,9 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   CAREER &amp; DEBT PROTECTION
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Loan Default Worrying Your IT Career?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Halt recovery agent harassment at your workplace, safeguard your background verification status, and settle debts with up to 55% waivers and official No Dues Certificates.
                 </p>
@@ -1078,7 +1078,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -1101,7 +1101,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related IT &amp; Debt Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related IT &amp; Debt Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/can-recovery-agents-visit-my-office"

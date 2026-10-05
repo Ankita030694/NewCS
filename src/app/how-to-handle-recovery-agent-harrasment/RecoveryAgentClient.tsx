@@ -236,7 +236,7 @@ export default function RecoveryAgentClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a
@@ -357,28 +357,28 @@ export default function RecoveryAgentClient() {
                   <div className="flex gap-6">
                     <div className="w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center shrink-0 font-extrabold text-xl shadow-lg">01</div>
                     <div>
-                      <h4 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Verification Lockdown</h4>
+                      <h3 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Verification Lockdown</h3>
                       <p className="text-gray-800">Immediately ask for the caller’s name, agency, and bank letter. If they are at your door, keep the door closed until they show proof. Inform them the conversation is being recorded for legal evidence. This "Professional Boundary" often scares away part-time bullies.</p>
                     </div>
                   </div>
                   <div className="flex gap-6">
                     <div className="w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center shrink-0 font-extrabold text-xl shadow-lg">02</div>
                     <div>
-                      <h4 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Evidence Vault</h4>
+                      <h3 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Evidence Vault</h3>
                       <p className="text-gray-800">Save every piece of data. Screenshot WhatsApp threats. Record audio of abusive calls. Take photos of agents at your door. Save the metadata (date and time). Without evidence, it is your word against theirs. With evidence, it is a regulatory violation.</p>
                     </div>
                   </div>
                   <div className="flex gap-6">
                     <div className="w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center shrink-0 font-extrabold text-xl shadow-lg">03</div>
                     <div>
-                      <h4 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Cease and Desist</h4>
+                      <h3 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Cease and Desist</h3>
                       <p className="text-gray-800">Clearly state: "I acknowledge the debt but I will only communicate through official bank channels during RBI hours. I will not tolerate harassment. Any further illegal contact will be reported to the Nodal Officer and the RBI."</p>
                     </div>
                   </div>
                   <div className="flex gap-6">
                     <div className="w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center shrink-0 font-extrabold text-xl shadow-lg">04</div>
                     <div>
-                      <h4 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Formal Escalation</h4>
+                      <h3 className="font-extrabold text-2xl mb-2 text-blue-900 uppercase tracking-wide">The Formal Escalation</h3>
                       <p className="text-gray-800">Most people forget this step. You MUST email the bank’s "Grievance Redressal Officer" (GRO) or "Nodal Officer." Banks are legally required to provide an acknowledgment and a response within 30 days. This creates a paper trail for the Ombudsman.</p>
                     </div>
                   </div>
@@ -521,13 +521,13 @@ export default function RecoveryAgentClient() {
               <h2 id="success-stories" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">From Fear to Freedom: Real Success Stories</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-6">
                 <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-500">
-                  <h4 className="font-bold text-xl mb-2">Case Study: The Workplace Harassment Stop</h4>
+                  <h3 className="font-bold text-xl mb-2">Case Study: The Workplace Harassment Stop</h3>
                   <p><strong>The Problem:</strong> A young professional in Pune was being hounded by credit card agents at her office. Her manager was starting to question her professionalism.</p>
                   <p><strong>The Action:</strong> CredSettle drafted a "Cease and Desist" notice to the bank’s Nodal Officer and a copy to the agency. We cited the defamation laws and RBI shaming rules.</p>
                   <p><strong>The Result:</strong> The bank immediately apologized, withdrew the file from that agency, and negotiated a 45% settlement with a 12-month EMI plan. She kept her job and her peace.</p>
                 </div>
                 <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-500">
-                  <h4 className="font-bold text-xl mb-2">Case Study: The Digital Shaming Rescue</h4>
+                  <h3 className="font-bold text-xl mb-2">Case Study: The Digital Shaming Rescue</h3>
                   <p><strong>The Problem:</strong> A small business owner in Chennai had his photos circulated on a WhatsApp group of his neighbors by a fintech app agent.</p>
                   <p><strong>The Action:</strong> We helped him file an FIR under the IT Act and an Ombudsman complaint with the screenshots. The RBI awarded him a compensation of ₹50,000 for mental agony.</p>
                   <p><strong>The Result:</strong> The bank waived off the entire interest and late fees as a gesture of goodwill to avoid further legal action. He is now successfully rebuilding his business.</p>
@@ -585,7 +585,7 @@ export default function RecoveryAgentClient() {
 
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white transform hover:rotate-1 transition-transform">
                 <div className="absolute top-4 right-4 bg-red-500 text-[10px] font-extrabold px-2 py-1 rounded uppercase tracking-tighter animate-pulse">Urgent Service</div>
-                <h4 className="font-bold text-2xl mb-4">Under Pressure?</h4>
+                <p className="font-bold text-2xl mb-4">Under Pressure?</p>
                 <p className="text-blue-100 mb-6 text-sm">Don’t wait for another abusive call. Our legal shield starts protecting you in under 4 hours.</p>
                 <Link
                   href="/contact"
@@ -610,7 +610,7 @@ export default function RecoveryAgentClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Top Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Top Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

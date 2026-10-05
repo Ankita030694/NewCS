@@ -179,7 +179,7 @@ export default function LoanRecoveryClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a
@@ -292,15 +292,15 @@ export default function LoanRecoveryClient() {
                   To demystify the search for a loan recovery agent near me, it is helpful to understand the formal stages of debt recovery used by banks.
                 </p>
                 <div className="bg-gray-100 p-6 rounded-2xl mb-6">
-                  <h4 className="font-bold mb-3">1. Soft Recovery Stage (Days 1-90)</h4>
+                  <h3 className="font-bold mb-3">1. Soft Recovery Stage (Days 1-90)</h3>
                   <p className="text-sm">SMS reminders and polite calls from the bank's internal collection team.</p>
                 </div>
                 <div className="bg-gray-100 p-6 rounded-2xl mb-6">
-                  <h4 className="font-bold mb-3">2. Hard Recovery Stage (90+ Days)</h4>
+                  <h3 className="font-bold mb-3">2. Hard Recovery Stage (90+ Days)</h3>
                   <p className="text-sm">Account is marked as NPA. Third-party agents are assigned. Frequency of calls and home visits increases.</p>
                 </div>
                 <div className="bg-gray-100 p-6 rounded-2xl">
-                  <h4 className="font-bold mb-3">3. Legal Action Stage</h4>
+                  <h3 className="font-bold mb-3">3. Legal Action Stage</h3>
                   <p className="text-sm">Filing cases under Section 138 (Cheque Bounce), DRT proceedings, or SARFAESI Act actions.</p>
                 </div>
               </div>
@@ -321,11 +321,11 @@ export default function LoanRecoveryClient() {
               <h2 id="myths-vs-reality" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Common Myths About Loan Recovery Agents</h2>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-blue-900 mb-2">Myth: They can arrest you.</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Myth: They can arrest you.</h3>
                   <p className="text-sm">Reality: Recovery agents have zero legal authority to arrest anyone. Only the police, with a court warrant, can make an arrest.</p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-blue-900 mb-2">Myth: They can enter your house.</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Myth: They can enter your house.</h3>
                   <p className="text-sm">Reality: Entering your home without permission is trespassing. They must stay at the entrance unless invited.</p>
                 </div>
               </div>
@@ -405,7 +405,7 @@ export default function LoanRecoveryClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4 text-white">Ready to Stop the Harassment?</h2>
+                  <h3 className="text-3xl font-bold mb-4 text-white">Ready to Stop the Harassment?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Join thousands of satisfied clients who have found relief and legal protection with CredSettle.</p>
                   <Link
                     href="/contact"
@@ -428,7 +428,7 @@ export default function LoanRecoveryClient() {
 
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4 text-white">Stop Harassment Now</h4>
+                <p className="font-bold text-2xl mb-4 text-white">Stop Harassment Now</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing illegal recovery visits? Our legal experts can protect you today.</p>
                 <Link
                   href="/contact"
@@ -454,7 +454,7 @@ export default function LoanRecoveryClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/how-to-stop-recovery-agent-harassment" className="group flex items-start">

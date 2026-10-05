@@ -303,7 +303,7 @@ export default function BestLawyerLoanAgreementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -518,7 +518,7 @@ export default function BestLawyerLoanAgreementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need a Lawyer?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need a Lawyer?</p>
                                 <p className="text-sm text-gray-600 mb-6">Get your loan agreement vetted by Indias top banking and finance experts today.</p>
                                 <Link
                                     href="/contact"
@@ -535,7 +535,7 @@ export default function BestLawyerLoanAgreementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</p>
                                 <nav className="space-y-3">
                                     <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Business Loan Settlement</Link>
                                     <Link href="/services/personal-loan-settlement" className="block text-sm text-blue-600 hover:underline">Personal Loan Settlement</Link>

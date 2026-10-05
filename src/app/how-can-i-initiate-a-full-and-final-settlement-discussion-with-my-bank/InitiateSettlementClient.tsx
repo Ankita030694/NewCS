@@ -246,7 +246,7 @@ export default function InitiateSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Roadmap</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Roadmap</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -311,7 +311,7 @@ export default function InitiateSettlementClient() {
                                 The Hardship Letter is the soul of your proposal. It is a formal document that explains why you cannot pay the full amount. A generic "I have no money" is not enough. You must prove <strong>genuine financial distress</strong>.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light text-gray-700">
-                                <h4 className="font-bold mb-4">Elements of a Powerful Hardship Letter:</h4>
+                                <p className="font-bold mb-4">Elements of a Powerful Hardship Letter:</p>
                                 <ul className="space-y-3">
                                     <li><strong>The Timeline:</strong> Briefly state when the financial trouble started and the specific cause (e.g., medical emergency in July 2024).</li>
                                     <li><strong>The Proof:</strong> Mention the documents you are attaching (Salary slips showing deduction, medical reports, business bank statements).</li>
@@ -388,7 +388,7 @@ export default function InitiateSettlementClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -439,7 +439,7 @@ export default function InitiateSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Settle Smart</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Settle Smart</p>
                                 <p className="text-sm text-gray-600 mb-6">Don’t guess your settlement chances. Let our advisors analyze your loan and create a winning negotiation strategy.</p>
                                 <Link
                                     href="/contact"
@@ -456,7 +456,7 @@ export default function InitiateSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Initiation Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Initiation Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Pros & Cons</Link>

@@ -154,7 +154,7 @@ export default function AppLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Legal Shield From Day One</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Legal Shield From Day One</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We stop illegal recovery tactics and negotiate within RBI norms for final closure.</p>
               </div>
             </div>
@@ -185,7 +185,7 @@ export default function AppLoanSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Closure With Dignity</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Closure With Dignity</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We prioritize your privacy and rights while securing a legal OTS.</p>
               </div>
             </div>
@@ -674,7 +674,7 @@ export default function AppLoanSettlementPage() {
               <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{ background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)', boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)' }}>
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">
-                    <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>Ready to End App Loan Harassment?</h2>
+                    <h3 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>Ready to End App Loan Harassment?</h3>
                     <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Start an RBI-compliant settlement and reclaim your peace today.</p>
                   </div>
                   <CTAButton>

@@ -206,7 +206,7 @@ export default function PoonawallaLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -243,7 +243,7 @@ export default function PoonawallaLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Important Clarity</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Important Clarity</h3>
                 <p className="text-blue-800 m-0">
                   Loan settlement is a legitimate financial tool recognized by the RBI for resolving Non-Performing Assets (NPAs). It is not "running away" from your debt; it is a negotiated closure based on your current inability to pay the full amount.
                 </p>
@@ -268,15 +268,15 @@ export default function PoonawallaLoanSettlementClient() {
               
               <div className="space-y-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                  <h4 className="font-bold text-gray-900 mb-2">1. Total Loss of Income</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">1. Total Loss of Income</h3>
                   <p className="text-gray-600">You have lost your job or your business has shut down, and you have zero visibility on when you will have a steady income again to service the full EMI.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                  <h4 className="font-bold text-gray-900 mb-2">2. The Interest Spiral</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">2. The Interest Spiral</h3>
                   <p className="text-gray-600">You have missed 3-4 EMIs. The late payment charges, bounce charges, and penal interest have piled up to such an extent that your outstanding balance is now *higher* than what it was six months ago, despite you making small payments.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                  <h4 className="font-bold text-gray-900 mb-2">3. Borrowing to Pay</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">3. Borrowing to Pay</h3>
                   <p className="text-gray-600">You are taking high-interest loans from instant loan apps just to pay the EMI of your Poonawalla loan. This is the classic "debt trap"-digging a new hole to fill an old one.</p>
                 </div>
               </div>
@@ -315,7 +315,7 @@ export default function PoonawallaLoanSettlementClient() {
                 
                 <div className="relative">
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">1</span>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Step 1: Legal Assessment & Notice Reply</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 1: Legal Assessment & Notice Reply</h3>
                   <p className="text-gray-600">
                     We start by analyzing your loan documents. Have you received a **Section 138 Notice** (Cheque Bounce) or an **Arbitration Notice**? These are critical. Our legal team drafts immediate, professional responses to these notices, stating your intent to settle and disputing any inflated charges. This prevents the lender from obtaining an ex-parte order against you.
                   </p>
@@ -323,7 +323,7 @@ export default function PoonawallaLoanSettlementClient() {
 
                 <div className="relative">
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">2</span>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Step 2: Buffer Against Harassment</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 2: Buffer Against Harassment</h3>
                   <p className="text-gray-600">
                     Once you appoint us, we notify Poonawalla Fincorp’s collections department. We redirect all recovery calls to our team. If agents continue to harass you, we escalate the matter to the **Principal Nodal Officer (pno@poonawallafincorp.com)** and, if needed, the **RBI Ombudsman**. We ensure your peace of mind is restored.
                   </p>
@@ -331,7 +331,7 @@ export default function PoonawallaLoanSettlementClient() {
 
                 <div className="relative">
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">3</span>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Step 3: Strategic Negotiation</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 3: Strategic Negotiation</h3>
                   <p className="text-gray-600">
                     Our financial experts engage with the settlement officers. We don’t just ask for a discount; we build a case. We present your hardship evidence and highlight the cost-benefit analysis to the lender (i.e., immediate settlement vs. long, expensive litigation). We typically aim to waive off all penal interest and negotiate a principal haircut ranging from **30% to 50%**.
                   </p>
@@ -339,7 +339,7 @@ export default function PoonawallaLoanSettlementClient() {
 
                 <div className="relative">
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">4</span>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Step 4: The Official Settlement Letter</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 4: The Official Settlement Letter</h3>
                   <p className="text-gray-600">
                     This is non-negotiable. We ensure you receive a formal **Settlement Letter** from an official Poonawalla Fincorp email ID. We verify every clause: the final amount, the payment schedule, and the explicit promise to close the loan upon payment. We protect you from "fake settlements" offered by rogue agents.
                   </p>
@@ -347,7 +347,7 @@ export default function PoonawallaLoanSettlementClient() {
 
                 <div className="relative">
                   <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white font-bold text-sm">5</span>
-                  <h4 className="text-xl font-bold text-gray-900 mb-2">Step 5: Closing & NDC</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 5: Closing & NDC</h3>
                   <p className="text-gray-600">
                     You make the payment directly to the Poonawalla Fincorp loan account. We then chase the operations team to update the records and issue the **No Dues Certificate (NDC)**. This document is your proof of freedom.
                   </p>
@@ -359,7 +359,7 @@ export default function PoonawallaLoanSettlementClient() {
               <div className="bg-white border border-gray-200 rounded-xl p-8 mb-10 shadow-sm">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-12">
                   <div>
-                    <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">KYC & Loan Info</h5>
+                    <h3 className="font-bold text-gray-900 mb-2 border-b pb-2">KYC & Loan Info</h3>
                     <ul className="space-y-2 text-sm text-gray-600">
                       <li>* PAN Card & Aadhaar Card</li>
                       <li>* Loan Account Number (Poonawalla/Magma)</li>
@@ -367,7 +367,7 @@ export default function PoonawallaLoanSettlementClient() {
                     </ul>
                   </div>
                   <div>
-                    <h5 className="font-bold text-gray-900 mb-2 border-b pb-2">Financial Hardship</h5>
+                    <h3 className="font-bold text-gray-900 mb-2 border-b pb-2">Financial Hardship</h3>
                     <ul className="space-y-2 text-sm text-gray-600">
                       <li>* Last 6 months Bank Statement</li>
                       <li>* Termination Letter / Salary Slips</li>
@@ -388,7 +388,7 @@ export default function PoonawallaLoanSettlementClient() {
               </p>
               
               <div className="bg-green-50 p-6 rounded-xl border-t-4 border-green-500 mb-8 shadow-sm">
-                <h4 className="font-bold text-green-900 mb-2">The Recovery Path</h4>
+                <h3 className="font-bold text-green-900 mb-2">The Recovery Path</h3>
                 <p className="text-green-800 m-0">
                   Despite the drop, settling is infinitely better than a **"Write-Off"** or **"Suit Filed"** status. A "Write-Off" is a permanent black mark. With a "Settled" status, you can rebuild. By systematically using secured credit instruments (like an FD-backed credit card) and paying bills on time, you can restore your CIBIL score to 750+ within 18-24 months. CredSettle offers a dedicated **Credit Builder Plan** to assist you post-settlement.
                 </p>
@@ -457,7 +457,7 @@ export default function PoonawallaLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Harassed by Agents?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Harassed by Agents?</p>
                 <p className="text-sm text-gray-600 mb-6">Stop Poonawalla Fincorp / Magma recovery harassment now.</p>
                 <Link 
                   href="/contact"

@@ -299,7 +299,7 @@ export default function WhenToChooseSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -342,7 +342,7 @@ export default function WhenToChooseSettlementClient() {
                             <h2 id="math-of-debt-trap" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Math of the Debt Trap: The Tipping Point</h2>
                             <div className="bg-slate-900 text-white p-12 rounded-[3.5rem] mb-12 shadow-2xl relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 rounded-full blur-[80px] group-hover:bg-blue-600/40 transition-all duration-1000"></div>
-                                <h4 className="text-3xl font-black mb-8 text-blue-400 uppercase tracking-tighter">The "Impossible Ratio"</h4>
+                                <p className="text-3xl font-black mb-8 text-blue-400 uppercase tracking-tighter">The "Impossible Ratio"</p>
                                 <p className="text-xl font-light mb-8 leading-relaxed italic">You are in a mathematical debt trap if:</p>
                                 <div className="space-y-6 text-2xl font-black">
                                     <div className="flex items-center gap-6">
@@ -378,11 +378,11 @@ export default function WhenToChooseSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-blue-50/50 rounded-3xl border border-blue-100 flex flex-col justify-center">
-                                    <h5 className="font-extrabold text-blue-900 mb-3 uppercase text-sm tracking-widest">Board Approval</h5>
+                                    <h3 className="font-extrabold text-blue-900 mb-3 uppercase text-sm tracking-widest">Board Approval</h3>
                                     <p className="text-sm text-gray-600 font-medium">Every bank must have a written, transparent policy for settlement. They cannot "make it up" on the fly.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 rounded-3xl border border-indigo-100 flex flex-col justify-center">
-                                    <h5 className="font-extrabold text-indigo-900 mb-3 uppercase text-sm tracking-widest">Wilful Default Check</h5>
+                                    <h3 className="font-extrabold text-indigo-900 mb-3 uppercase text-sm tracking-widest">Wilful Default Check</h3>
                                     <p className="text-sm text-gray-600 font-medium">Lenders must perform a thorough check to ensure you aren’t hiding assets before agreeing to a loss.</p>
                                 </div>
                             </div>
@@ -403,7 +403,7 @@ export default function WhenToChooseSettlementClient() {
                                 We don’t sugarcoat the facts at CredSettle. Settlement has teeth.
                             </p>
                             <div className="bg-red-50 p-10 rounded-[3rem] border-2 border-red-100 mb-12">
-                                <h4 className="text-red-900 font-black text-2xl mb-6">The "Settled" Mark: A 7-Year Shadow</h4>
+                                <h3 className="text-red-900 font-black text-2xl mb-6">The "Settled" Mark: A 7-Year Shadow</h3>
                                 <p className="text-gray-700 text-lg font-medium leading-relaxed mb-6">
                                     Even if you settle tomorrow, the record stays for 7 years. You will face immediate rejection for credit cards and unsecured loans from all major banks for at least 24 to 36 months.
                                 </p>
@@ -418,21 +418,21 @@ export default function WhenToChooseSettlementClient() {
                                 <div className="flex gap-8 items-start group">
                                     <span className="text-6xl font-black text-slate-100 group-hover:text-blue-100 transition-colors">01</span>
                                     <div>
-                                        <h5 className="font-black text-xl text-slate-900">Immediate Liquidity Crisis</h5>
+                                        <h3 className="font-black text-xl text-slate-900">Immediate Liquidity Crisis</h3>
                                         <p className="text-slate-500 font-medium">You cannot afford basic necessities after paying EMIs.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-8 items-start group">
                                     <span className="text-6xl font-black text-slate-100 group-hover:text-blue-100 transition-colors">02</span>
                                     <div>
-                                        <h5 className="font-black text-xl text-slate-900">Zero Future Borrowing Need</h5>
+                                        <h3 className="font-black text-xl text-slate-900">Zero Future Borrowing Need</h3>
                                         <p className="text-slate-500 font-medium">You do not plan to take a major loan for at least the next 3 to 4 years.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-8 items-start group">
                                     <span className="text-6xl font-black text-slate-100 group-hover:text-blue-100 transition-colors">03</span>
                                     <div>
-                                        <h5 className="font-black text-xl text-slate-900">Aggressive Collection Harassment</h5>
+                                        <h3 className="font-black text-xl text-slate-900">Aggressive Collection Harassment</h3>
                                         <p className="text-slate-500 font-medium">The recovery process is destroying your family life or professional performance.</p>
                                     </div>
                                 </div>
@@ -497,7 +497,7 @@ export default function WhenToChooseSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
                                     href="/contact"
@@ -514,7 +514,7 @@ export default function WhenToChooseSettlementClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Expert Resources</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/loan-settlement", text: "The Master Settlement Guide" },

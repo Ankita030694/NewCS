@@ -211,7 +211,7 @@ export default function LoanRecoveryLawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Recovery Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Recovery Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <button
@@ -267,14 +267,14 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act (SARFAESI) is arguably the most powerful tool for banks and financial institutions. It allows them to bypass the civil courts and take possession of mortgaged assets directly. This legislation was enacted to address the significant delays in the traditional judicial system, which often paralyzed the banking sector’s ability to recycle capital.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Detailed Procedure under Section 13</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Detailed Procedure under Section 13</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The heart of the SARFAESI Act lies in Section 13. The process begins under Section 13(2) when a borrower’s account is classified as a Non-Performing Asset (NPA). The secured creditor issues a demand notice giving the borrower 60 days to discharge their full liability. It is crucial to note that during this 60 day period, the borrower has a statutory right to submit a representation or an objection. According to the landmark Supreme Court judgment in Mardia Chemicals Ltd. v. Union of India, the creditor is legally bound to consider these objections and, if rejecting them, must communicate the reasons for rejection within 15 days.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If the borrower fails to comply with the 13(2) notice, the creditor can move to Section 13(4) measures. These include taking possession of the secured assets, taking over the management of the business, or appointing a manager to oversee the assets. Crucially, the law allows for the "symbolic possession" of property, where the bank officially claims ownership and marks the property with a notice, or "physical possession" where the borrower is actually removed from the premises.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Assistance of Magistrate under Section 14</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Assistance of Magistrate under Section 14</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a creditor faces resistance in taking physical possession, they invoke Section 14. This involves an application to the Chief Metropolitan Magistrate (CMM) or the District Magistrate (DM). The role of the Magistrate here is purely ministerial. They are not required to adjudicate on the merits of the debt but simply to verify if the bank has followed the procedural requirements of Section 13(2) and 13(4). In the Phoenix ARC Private Limited v. State of Maharashtra case, the Supreme Court emphasized that Magistrates must decide these applications within a 30 to 60 day window to prevent recovery from being stalled by tactical delays.
                             </p>
@@ -288,7 +288,7 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Debt Recovery Tribunals (DRTs) were established specifically to handle bank recovery cases above 20 lakh rupees. Unlike civil courts, which handle everything from family disputes to property crimes, DRTs focus exclusively on financial recovery cases. The Recovery of Debts and Bankruptcy Act, 1993 (formerly RDDBFI) provides the procedural framework for these tribunals.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Original Application (OA) vs. TSA</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Original Application (OA) vs. TSA</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a bank wants to recover money without necessarily enforcing a mortgage, or if the mortgaged property is not sufficient to cover the debt, they file an Original Application (OA). The DRT has the power to pass interim orders, such as an injunction against the borrower from selling any of their assets or even a direction to deposit a certain amount in court. The final outcome of an OA is a "Recovery Certificate." This certificate is handed over to the Recovery Officer of the DRT, who has equivalent powers of a civil court to attach bank accounts, arrest the defaulter, or sell any property belonging to the borrower.
                             </p>
@@ -302,15 +302,15 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Insolvency and Bankruptcy Code (IBC) has revolutionized corporate debt recovery. If a corporate debtor defaults on a debt of 1 crore or more, a financial creditor or even an operational creditor (vendor/supplier) can file for insolvency in the National Company Law Tribunal (NCLT).
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Section 7: Financial Creditor Action</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Section 7: Financial Creditor Action</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Financial creditors (Banks, NBFCs, Bondholders) file under Section 7. The NCLT only needs to be satisfied that a default has occurred. Once the petition is admitted, the "Corporate Insolvency Resolution Process" (CIRP) begins. A moratorium is placed on all other legal proceedings against the company, and a Resolution Professional takes over. For the owners of the company, this is the ultimate "death penalty" for their control over the business. Consequently, most companies find a way to settle the debt before the petition is even admitted.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Section 9: Operational Creditor Action</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Section 9: Operational Creditor Action</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you are a vendor or a service provider and a company is not paying your bills, you file under Section 9. However, you must first send a Demand Notice under Section 8. If the company does not show a "pre-existing dispute" within 10 days, you can move the NCLT. This is a highly effective way for MSMEs to recover their dues from large corporations that use their size to delay payments.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">2024 and 2025 Amendments</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">2024 and 2025 Amendments</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The latest amendments have introduced the Pre-Packaged Insolvency Resolution Process (PPIRP) for larger corporates, not just MSMEs. This allows for a faster, negotiated settlement that is then blessed by the NCLT. Furthermore, the role of the Committee of Creditors (CoC) has been strengthened, giving secured creditors a dominant say in whether to accept a resolution plan or go for liquidation. A top loan recovery lawyer will navigate these CoC meetings to maximize the "haircut" reduction and ensure the highest possible recovery for their client.
                             </p>
@@ -321,7 +321,7 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 What if you are not a bank? Or what if the loan is unsecured? In these cases, the standard path is a civil recovery suit. While civil suits have a reputation for being slow, the Code of Civil Procedure (CPC) offers a "Summary Suit" under Order 37 that is specifically designed for debt retrieval.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Order 37: The Fast Track Procedure</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Order 37: The Fast Track Procedure</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In a Summary Suit, the procedure is different from a regular suit. After filing, a special summons is issued to the defendant. They have only 10 days to enter an appearance. Once they appear, the plaintiff serves a "Summons for Judgment." The defendant then has 10 days to file an "Application for Leave to Defend."
                             </p>
@@ -338,14 +338,14 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 While a loan default is primarily a civil matter, the Indian legal system provides powerful criminal triggers that can be used to compel a default. The most common and effective is Section 138 of the Negotiable Instruments Act, 1881, which deals with the dishonour of cheques.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Section 138 Timeline: A Strict Clock</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The Section 138 Timeline: A Strict Clock</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Success in a cheque bounce case depends entirely on adhering to a strict legal timeline. Once a cheque is returned by the bank with a "Cheque Return Memo" (stating reasons like insufficient funds or account closed), the creditor must issue a formal legal demand notice within 30 days. This notice must give the drawer 15 days to pay the amount. If the payment is not made within those 15 days, the creditor has a final window of 30 days to file a criminal complaint in the relevant magistrate’s court.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The 2024 Supreme Court guidelines in cases like Ajitsinh Chehuji Rathod v. State of Gujarat have further strengthened the position of the payee. The court clarified that the burden of proof is on the accused to disprove the existence of a legally enforceable debt. Furthermore, the court has directed that trials should be summary in nature and completed within 6 months. Under Section 143A, the court can even order the drawer to pay up to 20 percent of the cheque amount as interim compensation to the creditor during the trial, providing immediate financial relief.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Cheating and Criminal Breach of Trust</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Cheating and Criminal Breach of Trust</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In cases where no cheque was issued, or where the borrower intentionally defrauded the lender (for example, by providing forged documents or siphoning off the loan amount for purposes other than what was agreed), an FIR under Section 420 (Cheating) and Section 406 (Criminal Breach of Trust) of the Indian Penal Code (now under the relevant sections of the Bharatiya Nyaya Sanhita) can be registered. The threat of arrest and the requirement for the borrower to seek anticipatory bail often acts as a massive catalyst for a settlement.
                             </p>
@@ -356,11 +356,11 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you are a Micro, Small, or Medium Enterprise (MSME) registered under the MSMED Act, 2006, you have a unique and powerful path for recovery known as MSME Samadhaan. This portal and the associated legal framework are designed to protect small businesses from the "Big Corporate" tactic of delaying payments to maintain their own cash flow.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">The 45-Day Rule</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">The 45-Day Rule</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Under Section 15 of the MSMED Act, a buyer is legally obligated to pay the MSME supplier within 45 days of the acceptance of goods or services (if there is a written agreement) or within 15 days (if there is no agreement). If the payment is delayed beyond 45 days, the buyer is liable to pay compound interest at three times the bank rate notified by the RBI. This interest is mandatory and cannot be waived by any private agreement between the parties.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">MSEFC Facilitation and Arbitration</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">MSEFC Facilitation and Arbitration</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a payment is delayed, the MSME can file a reference on the Samadhaan portal. The Micro and Small Enterprise Facilitation Council (MSEFC) first initiates conciliation. If conciliation fails, the council moves to arbitration. A significant benefit of this process is that if the buyer wants to appeal an award passed by the Council, they must first deposit 75 percent of the award amount in court. This "pay to play" rule effectively prevents corporate buyers from using the appeal process as a delay tactic.
                             </p>
@@ -374,7 +374,7 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 For high-value commercial disputes (above 3 lakh rupees), the Commercial Courts Act, 2015, provides a dedicated judicial infrastructure. These courts follow a strict timeline for filing evidence, cross-examination, and final arguments, aiming to resolve cases within 6 to 12 months.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Mandatory Pre-Institution Mediation (PIMS)</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Mandatory Pre-Institution Mediation (PIMS)</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Under Section 12A of the Act, a plaintiff cannot file a commercial suit unless they have first exhausted the remedy of "Pre-Institution Mediation." This is mandatory unless the plaintiff is seeking urgent interim relief (like a stay or an attachment). The mediation is conducted through the District Legal Services Authority (DLSA) and must be completed within 3 to 5 months.
                             </p>
@@ -388,7 +388,7 @@ export default function LoanRecoveryLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A common question in loan recovery is what happens if the borrower passes away. Under Indian law (specifically Section 50 of the CPC), the debt does not die with the person, but the liability of the legal heirs is limited.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Recovery from the Estate</h3>
+                            <p className="text-2xl font-bold text-gray-800 mt-8 mb-4">Recovery from the Estate</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Legal heirs are not personally liable for the loans of the deceased unless they were co-applicants or guarantors. However, they are liable to the extent of the assets they inherit from the deceased. If a son inherits a house worth 1 crore from his father, and the father had a debt of 50 lakhs, the bank can recover that 50 lakhs from the house.
                             </p>
@@ -401,19 +401,19 @@ export default function LoanRecoveryLawyerClient() {
                             </h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">Phase 1: Informal & Legal Notice</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">Phase 1: Informal & Legal Notice</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">It starts with formal notices demanding payment and warning of legal consequences. Often, a lawyer’s letterhead is enough to bring the borrower to the table.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">Phase 2: Initiation of Suits/Notices</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">Phase 2: Initiation of Suits/Notices</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">Depending on the loan, we issue Section 13(2) SARFAESI notices or file a Summary Suit in civil court.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">Phase 3: Interim Orders</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">Phase 3: Interim Orders</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">We seek court orders to 'freeze' the borrower’s bank accounts or restrain them from selling their property while the case is ongoing.</p>
                                 </div>
                                 <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-xl mb-4 text-blue-800">Phase 4: Decree and Execution</h4>
+                                    <p className="font-bold text-xl mb-4 text-blue-800">Phase 4: Decree and Execution</p>
                                     <p className="text-sm text-gray-600 leading-relaxed">Once the court passes a judgment (decree), we enter the execution phase where the court bailiff helps in the actual recovery through attachment and sale.</p>
                                 </div>
                             </div>
@@ -501,7 +501,7 @@ export default function LoanRecoveryLawyerClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">Our recovery experts have a success rate of over 85% in retrieval of dues.</p>
                                 <Link
                                     href="/contact"
@@ -518,7 +518,7 @@ export default function LoanRecoveryLawyerClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Support</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Support</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-loan-contract" className="block text-sm text-blue-600 hover:underline">Loan Contract Review</Link>
                                     <Link href="/best-check-bounce-lawyer-for-loan-case" className="block text-sm text-blue-600 hover:underline">Check Bounce Defense</Link>

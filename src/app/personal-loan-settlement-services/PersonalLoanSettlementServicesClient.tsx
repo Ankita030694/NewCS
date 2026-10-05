@@ -227,7 +227,7 @@ export default function PersonalLoanSettlementServicesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Service Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Service Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -288,12 +288,12 @@ export default function PersonalLoanSettlementServicesClient() {
                             {/* Alert Banner for Protections */}
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-blue-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Four Pillars of Professional Help:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-blue-800 font-medium list-disc pl-5 m-0 text-sm">
                                     <li><strong>Legal Documentation:</strong> Precision drafting of notices and responses.</li>
                                     <li><strong>High Level Escalation:</strong> Bypassing low level recovery agents to deal with decision makers.</li>
@@ -314,17 +314,17 @@ export default function PersonalLoanSettlementServicesClient() {
                                 The best personal loan settlement services take the offensive. The moment you engage them, their legal team begins drafting legal notices tailored to your specific situation. This involves:
                             </p>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. The Anti Harassment Notice</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. The Anti Harassment Notice</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If recovery agents are calling your family, visiting your workplace, or using abusive language, the agency drafts a stringent legal notice citing specific RBI guidelines from 2025 regarding fair practice codes. This notice is sent directly to the bank's compliance officer. This action immediately forces the bank to rein in their third party agencies, as ignoring it exposes them to heavy penalties from the Ombudsman.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. The Hardship Declaration</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. The Hardship Declaration</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Banks do not offer settlements out of the goodness of their hearts. They offer them when they realize that recovering the full amount is statistically impossible. Professional loan settlement help involves drafting a highly detailed Hardship Declaration. This document outlines your exact financial constraints, supported by evidence, clearly stating your inability to service the current EMI structure. This sets the legal groundwork for a compromise settlement.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Responding to Recall Notices</h3>
+                            <p className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Responding to Recall Notices</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a bank sends a Loan Recall Notice, demanding the entire principal amount immediately, silence is legally interpreted as acceptance of the debt's validity and immediacy. The agency drafts a calculated response, disputing arbitrary penal charges and reiterating the intent to settle reasonably, thus slowing down the bank's momentum toward DRT litigation.
                             </p>
@@ -355,14 +355,14 @@ export default function PersonalLoanSettlementServicesClient() {
                             </p>
                             
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The NOC Protocol</h4>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The NOC Protocol</p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">Step 1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">The Settlement Letter</h5>
+                                            <p className="font-bold text-gray-900 mt-0">The Settlement Letter</p>
                                             <p className="text-sm text-gray-600 m-0">We demand a formal Settlement Letter on the bank's official letterhead, signed by an authorized signatory. It must explicitly state the agreed settlement amount, the payment schedule, and confirm that upon payment, the account will be permanently closed.</p>
                                         </div>
                                     </li>
@@ -371,7 +371,7 @@ export default function PersonalLoanSettlementServicesClient() {
                                             <span className="font-bold text-blue-600 text-sm">Step 2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Verification and Payment</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Verification and Payment</p>
                                             <p className="text-sm text-gray-600 m-0">Our legal team verifies the authenticity of the document. Only then do you make the payment, and you make it directly to the bank's official loan account, never to an agent's personal account.</p>
                                         </div>
                                     </li>
@@ -380,7 +380,7 @@ export default function PersonalLoanSettlementServicesClient() {
                                             <span className="font-bold text-blue-600 text-sm">Step 3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Securing the NOC</h5>
+                                            <p className="font-bold text-gray-900 mt-0">Securing the NOC</p>
                                             <p className="text-sm text-gray-600 m-0">After payment, we aggressively follow up with the Nodal Officers to issue the final No Objection Certificate (NOC) and No Dues Certificate (NDC). We ensure this document is legally flawless.</p>
                                         </div>
                                     </li>
@@ -464,7 +464,7 @@ export default function PersonalLoanSettlementServicesClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -501,7 +501,7 @@ export default function PersonalLoanSettlementServicesClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-xs mb-5 leading-relaxed px-1">
                                     We issue immediate legal notices to stop illegal recovery practices and protect your dignity.
                                 </p>
@@ -521,7 +521,7 @@ export default function PersonalLoanSettlementServicesClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-5">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

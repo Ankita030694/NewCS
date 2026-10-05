@@ -195,7 +195,7 @@ export default function DebtSettlementTrustClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -403,11 +403,11 @@ export default function DebtSettlementTrustClient() {
                   To help you understand the difference between a legit company and a scam, let’s look at two hypothetical but realistic case studies. These stories illustrate the markers of trust and the warning signs of fraud in the Indian debt relief market.
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-500 mb-6">
-                  <h4 className="font-bold text-xl mb-3">Case Study 1: The CredSettle Success</h4>
+                  <h3 className="font-bold text-xl mb-3">Case Study 1: The CredSettle Success</h3>
                   <p>Mr. Patel had credit card debt of 10 lakhs across three banks. He was facing constant calls from agents. He contacted <strong>CredSettle</strong>. During the free consultation, they explained the 12 month timeline and the impact on his credit score. They did not ask for any money upfront. Over the next few months, their negotiators worked with the banks. They eventually settled all three cards for a total of 4.5 lakhs. Mr. Patel paid the success fee only after the settlements were finalized and he received his No Dues Certificates. This is how a legit process works.</p>
                 </div>
                 <div className="bg-red-50 p-6 rounded-2xl border-l-4 border-red-500">
-                  <h4 className="font-bold text-xl mb-3">Case Study 2: The Upfront Fee Scam</h4>
+                  <h3 className="font-bold text-xl mb-3">Case Study 2: The Upfront Fee Scam</h3>
                   <p>Ms. Kaur found an ad on social media promising to "wipe away all debt in 30 days." She called them, and they pressured her to pay 50,000 rupees as an "activation fee" immediately. They told her to stop all contact with her bank. After she paid, the company became hard to reach. The bank filed a case against her, and the company provided no legal help. She lost her 50,000 rupees and her debt situation became even worse. This is a classic scam.</p>
                 </div>
                 <p>
@@ -489,7 +489,7 @@ export default function DebtSettlementTrustClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Start Your Debt Free Journey?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Start Your Debt Free Journey?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Talk to a verified expert at CredSettle today and find out how we can help you resolve your debts legally and safely.</p>
                   <Link 
                     href="/contact"
@@ -508,7 +508,7 @@ export default function DebtSettlementTrustClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Need a Trustworthy Expert?</h4>
+                <p className="font-bold text-2xl mb-4">Need a Trustworthy Expert?</p>
                 <p className="text-blue-100 mb-6 text-sm">Don't risk your money with unverified companies. Get a free consultation from India's most trusted debt relief agency.</p>
                 <Link 
                   href="/contact"
@@ -533,7 +533,7 @@ export default function DebtSettlementTrustClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="group flex items-start">

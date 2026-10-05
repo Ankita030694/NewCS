@@ -270,7 +270,7 @@ export default function WhatQuestionsDebtConsultantClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Vetting Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Vetting Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -310,7 +310,7 @@ export default function WhatQuestionsDebtConsultantClient() {
                                 Before you discuss your personal financial details, you must establish if the company actually exists and has a right to operate. Legitimacy is the foundation of trust.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-[1.5rem] border border-blue-100 mb-10 shadow-inner">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Questions for the Agency:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Questions for the Agency:</p>
                                 <ul className="space-y-4 text-gray-700">
                                     <li className="flex items-start">
                                         <span className="text-blue-600 mr-2 font-bold">1.</span>
@@ -335,7 +335,7 @@ export default function WhatQuestionsDebtConsultantClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Many agencies are vague about their methods. A professional firm will have a clear, documented workflow. If their answer is "don’t worry, we have contacts," walk away. Contacts are not a strategy; legal frameworks are.
                             </p>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4">The Negotiation Lifecycle: What Happens Behind the Scenes?</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4">The Negotiation Lifecycle: What Happens Behind the Scenes?</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To truly vet a consultant, you must understand the "Banker’s Mindset." A professional consultant doesn’t just call and ask for a discount. They time their moves based on the bank’s internal reporting cycles. Ask them: <strong>"How do you time your settlement offers?"</strong> 
                             </p>
@@ -355,11 +355,11 @@ export default function WhatQuestionsDebtConsultantClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">The "Success Fee" Model</h4>
+                                    <p className="font-bold text-green-900 mb-2">The "Success Fee" Model</p>
                                     <p className="text-sm text-green-800 font-light">The most ethical consultants charge a percentage of the amount saved or a percentage of the debt enrolled, payable only when a settlement is achieved. This aligns their goals with yours.</p>
                                 </div>
                                 <div className="p-6 bg-red-50 rounded-2xl border border-red-100">
-                                    <h4 className="font-bold text-red-900 mb-2">The "Upfront Trap"</h4>
+                                    <p className="font-bold text-red-900 mb-2">The "Upfront Trap"</p>
                                     <p className="text-sm text-red-800 font-light">If an agency asks for 5% of your total debt as a "setup fee" before they even contact the bank, they have no incentive to actually finish the job. Many clients lose this money and get no settlement.</p>
                                 </div>
                             </div>
@@ -526,7 +526,7 @@ export default function WhatQuestionsDebtConsultantClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-xl border border-blue-50 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Agency Background Check</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Agency Background Check</p>
                                 <p className="text-sm text-gray-600 mb-6">Need help verifying if a debt relief agency is legitimate? Our experts can help you audit their contract.</p>
                                 <Link
                                     href="/contact"
@@ -543,7 +543,7 @@ export default function WhatQuestionsDebtConsultantClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/how-to-choose-a-trustworthy-debt-settlement-provider", text: "Choose Trustworthy Providers" },

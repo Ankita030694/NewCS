@@ -205,7 +205,7 @@ export default function RBLBankLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -255,22 +255,22 @@ export default function RBLBankLoanSettlementClient() {
                 <div className="space-y-6">
                   <div className="relative border-l-4 border-gray-200 pl-6 ml-2">
                     <span className="absolute -left-3 top-0 w-6 h-6 bg-green-500 rounded-full border-4 border-white"></span>
-                    <h4 className="font-bold text-gray-900 text-lg">Days 1-30 (SMA-0)</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Days 1-30 (SMA-0)</h3>
                     <p className="text-sm text-gray-600 mt-1">Soft reminders via SMS and automated IVR calls. Late payment fees are added. <span className="text-green-600 font-bold">Settlement Chance: 0%</span></p>
                   </div>
                   <div className="relative border-l-4 border-gray-200 pl-6 ml-2">
                     <span className="absolute -left-3 top-0 w-6 h-6 bg-yellow-400 rounded-full border-4 border-white"></span>
-                    <h4 className="font-bold text-gray-900 text-lg">Days 31-89 (SMA-1 & SMA-2)</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Days 31-89 (SMA-1 & SMA-2)</h3>
                     <p className="text-sm text-gray-600 mt-1">Human collection agents start calling. Intensity increases. They will push for "Minimum Due" payment to regularize the account. <span className="text-yellow-600 font-bold">Settlement Chance: 5% (Only in extreme cases)</span></p>
                   </div>
                   <div className="relative border-l-4 border-gray-200 pl-6 ml-2">
                     <span className="absolute -left-3 top-0 w-6 h-6 bg-red-500 rounded-full border-4 border-white"></span>
-                    <h4 className="font-bold text-gray-900 text-lg">Day 90+ (NPA Classification)</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Day 90+ (NPA Classification)</h3>
                     <p className="text-sm text-gray-600 mt-1">Your account is marked as <strong>Non-Performing Asset (NPA)</strong>. The full loan amount is recalled. The bank must now "provision" (set aside money) for this loss. <span className="text-red-600 font-bold">Settlement Chance: High</span></p>
                   </div>
                   <div className="relative border-l-4 border-gray-200 pl-6 ml-2">
                     <span className="absolute -left-3 top-0 w-6 h-6 bg-purple-600 rounded-full border-4 border-white"></span>
-                    <h4 className="font-bold text-gray-900 text-lg">Day 180+ (Write-Off / Charge-Off)</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Day 180+ (Write-Off / Charge-Off)</h3>
                     <p className="text-sm text-gray-600 mt-1">The bank deems the debt "uncollectible" for accounting purposes. It may be sold to an Asset Reconstruction Company (ARC) or assigned to aggressive hard-recovery agencies. <span className="text-purple-600 font-bold">Settlement Chance: Very High (Best Discounts)</span></p>
                   </div>
                 </div>
@@ -283,11 +283,11 @@ export default function RBLBankLoanSettlementClient() {
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-                    <h4 className="font-bold text-blue-800 mb-2">Who owns the debt?</h4>
+                    <h3 className="font-bold text-blue-800 mb-2">Who owns the debt?</h3>
                     <p className="text-sm">Legally, the credit facility is extended by <strong>RBL Bank</strong>. Bajaj Finserv is merely the sourcing partner. Therefore, your settlement agreement (and the NOC) must come from RBL Bank.</p>
                   </div>
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-                    <h4 className="font-bold text-blue-800 mb-2">Double Whammy Calls</h4>
+                    <h3 className="font-bold text-blue-800 mb-2">Double Whammy Calls</h3>
                     <p className="text-sm">You might receive calls from agencies representing Bajaj regarding your EMI card and separate agencies for the RBL card. It feels like a coordinated attack, but they are often separate silos. Don’t let the volume of calls intimidate you.</p>
                   </div>
                 </div>
@@ -320,7 +320,7 @@ export default function RBLBankLoanSettlementClient() {
                   RBL Bank, like Axis Bank and HDFC, includes an arbitration clause in its cardholder agreement. They often invoke this to expedite recovery efficiently.
                 </p>
                 <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mb-6">
-                  <h5 className="font-bold text-yellow-800 mb-1">Warning: Do Not Ignore Arbitration</h5>
+                  <h3 className="font-bold text-yellow-800 mb-1">Warning: Do Not Ignore Arbitration</h3>
                   <p className="text-sm text-yellow-900">
                      If you ignore the arbitration notice, the arbitrator will pass an <strong>Ex-Parte Award</strong> (judgment in your absence) against you. This award has the power of a court decree. The bank can then file for execution in a civil court to attach your assets.
                   </p>
@@ -364,15 +364,15 @@ export default function RBLBankLoanSettlementClient() {
                 </p>
                 <div className="grid md:grid-cols-3 gap-4 mb-6 text-center">
                   <div className="p-4 border rounded-xl bg-red-50 border-red-100">
-                    <h5 className="font-bold text-red-700 text-2xl mb-1">-90 pts</h5>
+                    <h3 className="font-bold text-red-700 text-2xl mb-1">-90 pts</h3>
                     <p className="text-xs text-gray-600">Average CIBIL Drop</p>
                   </div>
                   <div className="p-4 border rounded-xl bg-orange-50 border-orange-100">
-                    <h5 className="font-bold text-orange-700 text-2xl mb-1">7 Years</h5>
+                    <h3 className="font-bold text-orange-700 text-2xl mb-1">7 Years</h3>
                     <p className="text-xs text-gray-600">Remark Retention</p>
                   </div>
                   <div className="p-4 border rounded-xl bg-green-50 border-green-100">
-                    <h5 className="font-bold text-green-700 text-2xl mb-1">2 Years</h5>
+                    <h3 className="font-bold text-green-700 text-2xl mb-1">2 Years</h3>
                     <p className="text-xs text-gray-600">Time to Rebuild</p>
                   </div>
                 </div>
@@ -398,7 +398,7 @@ export default function RBLBankLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">RBL Bank Issues?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">RBL Bank Issues?</p>
                 <p className="text-sm text-gray-600 mb-6">End the stress. Save up to 50%. Get legal protection.</p>
                 <Link 
                   href="/contact"

@@ -201,7 +201,7 @@ export default function CreditCardSettlementClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -254,7 +254,7 @@ export default function CreditCardSettlementClient() {
                                 Settlement becomes absolutely necessary when your total monthly debt obligations exceed 60% of your net monthly income. At this threshold, basic living expenses are compromised, and the borrower inevitably resorts to "rolling over" debt, using one credit card to pay the minimum due on another, or taking high interest digital loans to plug the gaps. This borrowing to pay borrowing is the final stage before a complete financial collapse. At this juncture, continuing to struggle with minimum payments is akin to throwing money into a black hole; it depletes whatever meager savings remain without bringing the borrower any closer to being debt free.
                             </p>
 
-                            <h3 id="90-day-cycle" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The 90-Day Default Cycle (SMA to NPA)</h3>
+                            <h2 id="90-day-cycle" className="text-2xl font-bold text-gray-800 mt-8 mb-4">The 90-Day Default Cycle (SMA to NPA)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To navigate a settlement, you must understand the banking timeline. When you miss your first payment entirely (failing to pay even the minimum due), your account enters the Special Mention Account (SMA) category. Specifically, it becomes SMA-0 for the first 30 days of default. During this period, the bank's internal collections team will begin sending reminders, emails, and making polite but persistent phone calls. 
                             </p>
@@ -265,7 +265,7 @@ export default function CreditCardSettlementClient() {
                                 Once the default crosses the 90 day threshold, the account officially becomes a Non Performing Asset (NPA). Understanding <Link href="/what-is-npa" className="text-blue-600 hover:underline">what is NPA</Link> is vital, because it changes the legal standing of your debt. At this stage, the bank must provision for the loss on its balance sheet. Ironically, it is only after the account is classified as an NPA that the bank becomes truly open to negotiating a formal settlement, as recovering a portion of the debt is now preferable to a total write-off.
                             </p>
 
-                            <h3 id="harassment-vs-settlement" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Harassment by Recovery Agents vs. Legal Settlement</h3>
+                            <h2 id="harassment-vs-settlement" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Harassment by Recovery Agents vs. Legal Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The journey from SMA-1 to NPA is often accompanied by intense psychological pressure. Banks employ recovery agencies whose agents are heavily incentivized to extract payments. Unfortunately, despite RBI regulations, these agents frequently cross the line into illegal harassment. They may call your relatives, visit your workplace to publicly humiliate you, or use abusive language over the phone. The fear of this harassment is exactly what drives people to keep paying the minimum due at all costs, even if it means starving their families.
                             </p>
@@ -276,7 +276,7 @@ export default function CreditCardSettlementClient() {
                             {/* Section Type: Cost Breakdown */}
                             <h2 id="cost-breakdown" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Credit Card Settlement vs Minimum Due: A Cost Breakdown</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-200 mb-8 overflow-x-auto">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Financial Projection: INR 5,00,000 Debt Balance</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4 text-center">Financial Projection: INR 5,00,000 Debt Balance</p>
                                 <table className="w-full text-left border-collapse">
                                     <thead>
                                         <tr className="bg-blue-100 text-blue-900">
@@ -326,7 +326,7 @@ export default function CreditCardSettlementClient() {
                                 The first step involves a comprehensive financial audit. You must document your income, essential expenses, and total liabilities to conclusively prove financial hardship. Banks will not offer a significant haircut to a borrower who appears capable of paying. This hardship evidence forms the foundation of the negotiation strategy. Following this, the borrower officially ceases payments to build the corpus required for a lump sum offer. During this "strategic default" phase, legal counsel takes over all communication with the bank, intercepting notices and managing the collection pressure.
                             </p>
 
-                            <h3 id="ots-negotiations" className="text-2xl font-bold text-gray-800 mt-8 mb-4">One-Time Settlement (OTS) Negotiations</h3>
+                            <h2 id="ots-negotiations" className="text-2xl font-bold text-gray-800 mt-8 mb-4">One-Time Settlement (OTS) Negotiations</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Once the account reaches the NPA classification (post 90 days of default), the formal One Time Settlement negotiations begin. The bank will typically start with an aggressive demand, perhaps offering to waive only the late fees and penalty interest, insisting on the full principal plus standard interest. This is merely the opening gambit. A skilled negotiator knows the bank's internal recovery metrics and provisioning requirements. They will counter offer with a realistic figure, often starting at 20% to 25% of the outstanding balance.
                             </p>
@@ -337,7 +337,7 @@ export default function CreditCardSettlementClient() {
                                 Crucially, the process is never complete upon verbal agreement. The bank must issue a formal settlement letter detailing the exact terms, the agreed amount, the payment schedule, and a clear clause stating that upon receipt of these funds, the account will be closed and a No Dues Certificate (NDC) will be issued. Payments should only be made after this letter is thoroughly reviewed and verified by a legal professional.
                             </p>
 
-                            <h3 id="cibil-impact" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Impact of Settlement on CIBIL Score</h3>
+                            <h2 id="cibil-impact" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Impact of Settlement on CIBIL Score</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The most significant deterrent for borrowers considering debt relief is the fear of ruining their CIBIL score. It is vital to separate facts from fearmongering. When you complete an OTS, the bank updates your credit report status to "Settled" rather than "Closed." This specific tag informs future lenders that while you resolved the debt, you did not pay the full original amount. As a direct consequence, your CIBIL score will drop noticeably, and your ability to secure unsecured loans (like new credit cards or personal loans) will be severely restricted for a period of time.
                             </p>
@@ -428,7 +428,7 @@ export default function CreditCardSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop paying high interest and start negotiating. We protect your rights.</p>
                                 <Link
                                     href="/contact"
@@ -445,7 +445,7 @@ export default function CreditCardSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

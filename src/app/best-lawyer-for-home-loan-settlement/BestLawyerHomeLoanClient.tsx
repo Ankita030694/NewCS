@@ -310,7 +310,7 @@ export default function BestLawyerHomeLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Navigation</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Navigation</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -555,7 +555,7 @@ export default function BestLawyerHomeLoanClient() {
                                 To truly understand the power of specialized legal representation, one must look at real world results. These case studies (with names and locations changed for confidentiality) demonstrate how the right lawyer can turn a hopeless property auction into a victorious financial reset.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 shadow-inner">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study 1: The "Impossible" 11th Hour SARFAESI Stay</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case Study 1: The "Impossible" 11th Hour SARFAESI Stay</p>
                                 <p className="mb-4">
                                     <strong>The Challenge:</strong> Mr. Rajesh, a small business owner in Mumbai, had a 1.2 Crore home loan that had turned NPA after the pandemic. The bank had already taken physical possession and the final auction was scheduled for Monday morning. He contacted a specialized DRT lawyer on Saturday evening.
                                 </p>
@@ -567,7 +567,7 @@ export default function BestLawyerHomeLoanClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 shadow-inner">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study 2: The "Compassionate Grounds" RBI Win</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case Study 2: The "Compassionate Grounds" RBI Win</p>
                                 <p className="mb-4">
                                     <strong>The Challenge:</strong> Mrs. Kapoor, a widow in Bengaluru, was being harassed by recovery agents for a 40 Lakh home loan taken by her late husband. She had no income and the bank was refusing to talk about a settlement, demanding the full 55 Lakhs (including interest).
                                 </p>
@@ -579,7 +579,7 @@ export default function BestLawyerHomeLoanClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 shadow-inner">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study 3: The "Provisioning Deadline" Leverage</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case Study 3: The "Provisioning Deadline" Leverage</p>
                                 <p className="mb-4">
                                     <strong>The Challenge:</strong> A software engineer in Hyderabad had a 80 Lakh loan with a nationalized bank. The property value was around 90 Lakhs, so the bank felt they had enough "Collateral Cushion" and was playing hardball, refusing any settlement below 75 Lakhs.
                                 </p>
@@ -756,7 +756,7 @@ export default function BestLawyerHomeLoanClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Help Now</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Help Now</p>
                                 <p className="text-sm text-gray-600 mb-6">Connect with India’s top banking lawyers to stop recovery actions and auctions immediately.</p>
                                 <Link
                                     href="/contact"
@@ -774,7 +774,7 @@ export default function BestLawyerHomeLoanClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Technical Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Technical Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is it a Good Option?</Link>

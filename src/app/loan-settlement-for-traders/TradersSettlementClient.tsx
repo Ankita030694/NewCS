@@ -262,7 +262,7 @@ export default function TradersSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
-                            <h3 className="font-extrabold text-gray-900 mb-6 text-xl border-b pb-3">The Recovery Map</h3>
+                            <p className="font-extrabold text-gray-900 mb-6 text-xl border-b pb-3">The Recovery Map</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -339,15 +339,15 @@ export default function TradersSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                                 <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-4">1. Asset Backed Shortfalls</h4>
+                                    <p className="font-bold text-blue-900 mb-4">1. Asset Backed Shortfalls</p>
                                     <p className="text-sm text-gray-700 leading-loose">This is what happens after a Margin Trading Facility (MTF) or a Loan Against Property (LAP) is partially liquidated. The bank sells the asset but stays hungry for the "Shortfall." This is a tricky area where legal audits are vital.</p>
                                 </div>
                                 <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-4">2. Unsecured Working Capital</h4>
+                                    <p className="font-bold text-blue-900 mb-4">2. Unsecured Working Capital</p>
                                     <p className="text-sm text-gray-700 leading-loose">These are the Business Loans and Overdrafts (OD) taken purely on the strength of "Bank Statements." Since there is no collateral, these are the best candidates for sharp, deep settlements of up to 70% waivers.</p>
                                 </div>
                                 <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-4">3. Consumer Debt Overlap</h4>
+                                    <p className="font-bold text-blue-900 mb-4">3. Consumer Debt Overlap</p>
                                     <p className="text-sm text-gray-700 leading-loose">Many traders use personal credit cards to fund their trading accounts during emergencies. This is the most dangerous debt due to 40% plus interest rates. Settling these early is the highest priority for financial reset.</p>
                                 </div>
                             </div>
@@ -403,21 +403,21 @@ export default function TradersSettlementClient() {
                                     <li className="flex gap-6">
                                         <div className="w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black flex-shrink-0">1</div>
                                         <div>
-                                            <h5 className="text-xl font-bold text-gray-900 mb-2">CredSettle (Negotiation Specialists)</h5>
+                                            <h3 className="text-xl font-bold text-gray-900 mb-2">CredSettle (Negotiation Specialists)</h3>
                                             <p className="text-gray-600">They provide the expert negotiators who speak the "Bank’s Language." They know the specific settlement targets of private banks vs public banks and time the offer for maximum impact.</p>
                                         </div>
                                     </li>
                                     <li className="flex gap-6">
                                         <div className="w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black flex-shrink-0">2</div>
                                         <div>
-                                            <h5 className="text-xl font-bold text-gray-900 mb-2">AMA Legal Solutions (Legal Defense)</h5>
+                                            <h3 className="text-xl font-bold text-gray-900 mb-2">AMA Legal Solutions (Legal Defense)</h3>
                                             <p className="text-gray-600">They handle the "Hard Shield." If a recovery agent is harassing you or a court notice arrives, their team of lawyers provides an immediate response, ensuring your rights are never walked over.</p>
                                         </div>
                                     </li>
                                     <li className="flex gap-6">
                                         <div className="w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-black flex-shrink-0">3</div>
                                         <div>
-                                            <h5 className="text-xl font-bold text-gray-900 mb-2">SettleLoans (Digital Infrastructure)</h5>
+                                            <h3 className="text-xl font-bold text-gray-900 mb-2">SettleLoans (Digital Infrastructure)</h3>
                                             <p className="text-gray-600">They provide the "Process Transparency." You can see your calculation of interest savings, track your payment milestones, and ensure you receive the "No Dues Certificate" (NDC) correctly.</p>
                                         </div>
                                     </li>
@@ -430,19 +430,19 @@ export default function TradersSettlementClient() {
                             </p>
                             <div className="space-y-6 mb-12">
                                 <div className="border-l-4 border-blue-200 pl-6 py-2">
-                                    <h6 className="font-bold text-gray-900">Month 1: Audit and Documentation</h6>
+                                    <p className="font-bold text-gray-900">Month 1: Audit and Documentation</p>
                                     <p className="text-gray-600">Reviewing all loan agreements, finding illegal charges, and building the "Hardship File."</p>
                                 </div>
                                 <div className="border-l-4 border-blue-200 pl-6 py-2">
-                                    <h6 className="font-bold text-gray-900">Month 2: Initial Outreach and Soft Negotiations</h6>
+                                    <p className="font-bold text-gray-900">Month 2: Initial Outreach and Soft Negotiations</p>
                                     <p className="text-gray-600">Sending formal legal responses to collections and opening a channel for a "Settlement Dialogue."</p>
                                 </div>
                                 <div className="border-l-4 border-blue-200 pl-6 py-2">
-                                    <h6 className="font-bold text-gray-900">Month 3-4: Hard Negotiation and Value Benchmarking</h6>
+                                    <p className="font-bold text-gray-900">Month 3-4: Hard Negotiation and Value Benchmarking</p>
                                     <p className="text-gray-600">Engaging with senior recovery managers. Trading "immediate payment" for "deep waivers."</p>
                                 </div>
                                 <div className="border-l-4 border-blue-200 pl-6 py-2">
-                                    <h6 className="font-bold text-gray-900">Month 5-6: Final Agreement and Closure</h6>
+                                    <p className="font-bold text-gray-900">Month 5-6: Final Agreement and Closure</p>
                                     <p className="text-gray-600">Obtaining the "Settlement Letter," making the payment, and securing the "No Dues Certificate."</p>
                                 </div>
                             </div>
@@ -554,7 +554,7 @@ export default function TradersSettlementClient() {
                             {/* Main Sidebar CTA */}
                             <div className="bg-white p-8 rounded-3xl shadow-2xl border border-blue-50 text-center relative overflow-hidden group">
                                 <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-[0.02] transition-opacity duration-300"></div>
-                                <h4 className="font-extrabold text-2xl text-gray-900 mb-4">Struggling with Trading Debt?</h4>
+                                <p className="font-extrabold text-2xl text-gray-900 mb-4">Struggling with Trading Debt?</p>
                                 <p className="text-sm text-gray-600 mb-8 leading-relaxed">Join 4,000+ traders who have reset their finances through our expert settlement ecosystem.</p>
                                 <Link
                                     href="/contact"
@@ -571,7 +571,7 @@ export default function TradersSettlementClient() {
 
                             {/* Related Guides */}
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
-                                <h4 className="font-extrabold text-gray-900 mb-6 border-b pb-3 uppercase tracking-wider text-xs">Sector Expert Guides</h4>
+                                <p className="font-extrabold text-gray-900 mb-6 border-b pb-3 uppercase tracking-wider text-xs">Sector Expert Guides</p>
                                 <nav className="space-y-4">
                                     <Link href="/loan-settlement-for-msme-owners" className="group flex flex-col">
                                         <span className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Small Business Strategy</span>

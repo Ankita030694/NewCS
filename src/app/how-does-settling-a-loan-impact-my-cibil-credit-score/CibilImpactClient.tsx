@@ -313,7 +313,7 @@ export default function CibilImpactClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 h-[calc(100vh-100px)] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Analysis</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Analysis</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -445,19 +445,19 @@ export default function CibilImpactClient() {
                                 Repairing a score after settlement is a marathon, not a sprint. Follow this path meticulously.
                             </p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100 mb-8 font-light">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Phase 1: Zero Inquiry Zone (Months 0 to 6)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Phase 1: Zero Inquiry Zone (Months 0 to 6)</p>
                                 <p className="text-gray-700 mb-4">
                                     After a settlement, do not apply for any loan or credit card for six months. Every rejection (Hard Inquiry) further damages your score. Use this time to clean up your bank statement and ensure high average monthly balances.
                                 </p>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Phase 2: The Secured Anchor (Months 6 to 12)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Phase 2: The Secured Anchor (Months 6 to 12)</p>
                                 <p className="text-gray-700 mb-4">
                                     Take a "Credit Card against Fixed Deposit." Put 50,000 rupees in an FD and get a card with a 40,000 limit. Spend only 10% of this limit (4,000 rupees) every month and pay the "Total Due Amount" (not the minimum) three days before the due date. This creates the first "Positive Payment Thread" on your report post-settlement.
                                 </p>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Phase 3: The Consumer Durable Step (Months 12 to 18)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Phase 3: The Consumer Durable Step (Months 12 to 18)</p>
                                 <p className="text-gray-700 mb-4">
                                     Once your score crosses 650, go to a physical store (like Reliance Digital or Croma) and take a small consumer loan (for a phone or appliance) through a company like Bajaj Finserv or Home Credit. These lenders are often more willing to take a chance on "repairing" profiles. Pay the EMIs religiously.
                                 </p>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Phase 4: Settlement to Closure (The Final Step)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Phase 4: Settlement to Closure (The Final Step)</p>
                                 <p className="text-gray-700 mb-4">
                                     If you have the funds after 18 months, approach your original bank. Offer to pay the remaining "Waived Balance" to convert the status from 'Settled' to 'Closed.' This is the ultimate "Credit Reset" button.
                                 </p>
@@ -578,7 +578,7 @@ export default function CibilImpactClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 h-[calc(100vh-100px)] overflow-y-auto no-scrollbar">
                         <div className="space-y-6">
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-slate-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Check Your Damage</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Check Your Damage</p>
                                 <p className="text-sm text-gray-600 mb-6">Calculate exactly how much a settlement will impact your future borrowing power in 60 seconds.</p>
                                 <Link
                                     href="/contact"
@@ -594,7 +594,7 @@ export default function CibilImpactClient() {
                             </div>
 
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/does-loan-settlement-affect-cibil" className="block text-sm text-blue-600 hover:underline">Settlement & CIBIL</Link>
                                     <Link href="/how-does-loan-settlement-affect-your-financial-health-in-long-term" className="block text-sm text-blue-600 hover:underline">Long-Term Impact</Link>

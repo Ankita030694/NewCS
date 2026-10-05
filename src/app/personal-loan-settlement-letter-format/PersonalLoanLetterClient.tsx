@@ -226,7 +226,7 @@ export default function PersonalLoanLetterClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Letter Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Letter Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -280,12 +280,12 @@ export default function PersonalLoanLetterClient() {
 
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Harsh Reality
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Zero Legal Validity:</strong> A WhatsApp message from a third party agency holds absolutely zero legal weight in a court of law against the actual bank.</li>
                                     <li><strong>The Missing Waiver:</strong> Without a formal document stating that the remaining balance is waived, the money you pay is simply treated as a regular EMI or part payment, not a settlement.</li>
@@ -316,27 +316,27 @@ export default function PersonalLoanLetterClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Clause 1</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Total Outstanding & Settled Amount</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Total Outstanding & Settled Amount</p>
                                     <p className="text-sm text-gray-600 m-0">The letter must clearly state the total outstanding amount as of the current date and the exact reduced amount agreed upon for the settlement.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Clause 2</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Full and Final Settlement Clause</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Full and Final Settlement Clause</p>
                                     <p className="text-sm text-gray-600 m-0">It must state that upon payment of the agreed amount, the account will be considered 'Settled in Full' and no further dues will be claimed.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Clause 3</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Payment Schedule</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Payment Schedule</p>
                                     <p className="text-sm text-gray-600 m-0">The exact date by which the payment must be credited to the loan account. If it is a staggered settlement, dates for all tranches must be listed.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Clause 4</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Legal Withdrawal Clause</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Legal Withdrawal Clause</p>
                                     <p className="text-sm text-gray-600 m-0">If there are ongoing legal cases (e.g. Section 138), the letter must explicitly state that the bank will withdraw these cases upon realization of funds.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors md:col-span-2">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Clause 5</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">NOC Issuance Timeline</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">NOC Issuance Timeline</p>
                                     <p className="text-sm text-gray-600 m-0">A commitment stating that a No Objection Certificate (NOC) or No Dues Certificate (NDC) will be issued within a specific timeframe (usually 15 to 30 days) after the payment is successfully processed.</p>
                                 </div>
                             </div>
@@ -424,7 +424,7 @@ export default function PersonalLoanLetterClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-2 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-2 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-5 leading-relaxed px-1">
                                     Are recovery agents threatening you? Let our legal experts intervene today.
                                 </p>
@@ -443,7 +443,7 @@ export default function PersonalLoanLetterClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium text-sm">
                                     <li>
                                         <Link href="/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 transition-colors block">

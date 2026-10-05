@@ -265,9 +265,9 @@ export default function GlobalPopupForm() {
           <span className="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold tracking-wide bg-blue-50 text-blue-700 border border-blue-100 mb-2">
             {nuance.badge}
           </span>
-          <h2 id="modal-funnel-heading" className="text-lg sm:text-2xl font-bold text-gray-900 leading-tight">
+          <p id="modal-funnel-heading" className="text-lg sm:text-2xl font-bold text-gray-900 leading-tight">
             {nuance.title}
-          </h2>
+          </p>
           <p className="text-xs sm:text-sm text-gray-600 mt-1">
             {nuance.subtitle}
           </p>
@@ -428,9 +428,9 @@ export default function GlobalPopupForm() {
         {step === 3 && (
           <form onSubmit={handleSubmit} className="space-y-3.5">
             <div>
-              <h3 className="text-xs sm:text-sm font-semibold text-gray-900 mb-1">
+              <p className="text-xs sm:text-sm font-semibold text-gray-900 mb-1">
                 Let us help you resolve your loan issue
-              </h3>
+              </p>
               <p className="text-xs text-gray-600 leading-relaxed">
                 Share your contact details so our legal team can connect with you, explain your relief options, and help protect you from harassment.
               </p>

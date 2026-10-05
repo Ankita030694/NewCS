@@ -249,7 +249,7 @@ export default function BestLawyerChallengeARCClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">ARC Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">ARC Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -292,7 +292,7 @@ export default function BestLawyerChallengeARCClient() {
                                 ARCs are specialized financial institutions registered under the SARFAESI Act 2002 and regulated by the Reserve Bank of India. Their primary function is to "reconstruct" distressed assets, which in simple terms means buying bad loans from banks and then attempting to recover the money through various means. They buy these loans at a significant discount, often as low as 30% or 40% of the original value. This "discounted purchase" is the core of their business model and also provides a unique opportunity for borrowers to settle their debts.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 transition-all hover:shadow-md">
-                                <h4 className="font-bold text-blue-900 mb-3 text-lg">Key Facts About ARCs:</h4>
+                                <p className="font-bold text-blue-900 mb-3 text-lg">Key Facts About ARCs:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>The "Deeming Provision":</strong> Under Section 5 of the SARFAESI Act, once a loan is assigned, the ARC "steps into the shoes" of the original bank. They inherit all the rights, including the power to issue notices, take possession of assets, and file recovery suits.</li>
                                     <li><strong>Resolution, Not Lending:</strong> Unlike banks, ARCs do not take deposits or give new loans. Their entire existence is dedicated to the resolution of existing bad debts.</li>
@@ -443,7 +443,7 @@ export default function BestLawyerChallengeARCClient() {
                             </p>
 
                             <div className="mt-12 p-10 bg-blue-50 rounded-3xl border border-blue-100 text-center shadow-xl">
-                                <h3 className="text-3xl font-bold text-blue-900 mb-4">Protect Your Life’s Assets</h3>
+                                <p className="text-3xl font-bold text-blue-900 mb-4">Protect Your Life’s Assets</p>
                                 <p className="text-blue-800 mb-8 max-w-3xl mx-auto">Don’t let an ARC take away what you’ve worked for years to build. Our specialized legal team is ready to challenge their assignment, find procedural errors, and negotiate the best possible exit for you.</p>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <Link
@@ -510,7 +510,7 @@ export default function BestLawyerChallengeARCClient() {
 
                             {/* Sticky CTA Container */}
                             <div className="bg-white p-6 rounded-2xl shadow-xl border border-blue-100 text-center animate-pulse-subtle">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Auction Coming?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Auction Coming?</p>
                                 <p className="text-sm text-gray-600 mb-6">If an ARC has issued a Section 13(4) notice or an auction date, you must act NOW. Legal stays are time-sensitive.</p>
                                 <Link
                                     href="/contact"
@@ -527,7 +527,7 @@ export default function BestLawyerChallengeARCClient() {
 
                             {/* Related Pages Container */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2 text-xs uppercase tracking-widest">DRT Services</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2 text-xs uppercase tracking-widest">DRT Services</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-secured-loan-litigation-drt" className="group flex items-center text-xs text-gray-600 hover:text-blue-800 transition-colors">
                                         <span className="w-1 h-1 rounded-full bg-blue-400 mr-2"></span>

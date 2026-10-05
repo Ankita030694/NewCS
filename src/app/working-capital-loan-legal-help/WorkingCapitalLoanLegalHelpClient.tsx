@@ -269,7 +269,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:width-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -499,7 +499,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Liquidity Risk Review</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Liquidity Risk Review</p>
                                 <p className="text-sm text-gray-600 mb-6">Is your current credit limit optimized? Get a legal audit of your CC/OD agreements to ensure fair terms.</p>
                                 <Link
                                     href="/contact"
@@ -516,7 +516,7 @@ export default function WorkingCapitalLoanLegalHelpClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Explore Related</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Explore Related</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Business Loan Help</Link>
                                     <Link href="/best-lawyer-for-msme-and-business-loans" className="block text-sm text-blue-600 hover:underline">MSME Legal Services</Link>

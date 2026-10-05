@@ -78,7 +78,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-red-900 mb-2">Beware of Fake Recovery Agent Notices</h4>
+              <h3 className="font-bold text-red-900 mb-2">Beware of Fake Recovery Agent Notices</h3>
               <p className="text-sm text-red-800 leading-relaxed">
                 Collection agencies frequently circulate fraudulent letters titled &apos;Court Warrant&apos;, &apos;Police Arrest Notice&apos;, or &apos;Immediate Seizure Order&apos; via WhatsApp or unverified email. Police cannot arrest you for personal loan or credit card default without a direct warrant from a competent judicial magistrate.
               </p>
@@ -118,7 +118,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Stop Harassment and Legal Threats Today</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Stop Harassment and Legal Threats Today</h3>
               <p className="mb-4 text-sm text-gray-600">Our advocates represent you legally, stop abusive phone calls, and negotiate a clean debt settlement on your behalf.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get Immediate Legal Protection

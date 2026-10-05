@@ -223,7 +223,7 @@ export default function BajajHomeVisitClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a
@@ -458,7 +458,7 @@ export default function BajajHomeVisitClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-bold text-gray-900">{review.name}</h4>
+                        <p className="font-bold text-gray-900">{review.name}</p>
                         <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                       </div>
                     </div>
@@ -511,7 +511,7 @@ export default function BajajHomeVisitClient() {
               <div className="bg-gradient-to-br from-blue-700 to-blue-900 p-8 rounded-3xl shadow-xl text-white relative overflow-hidden group">
                 <div className="relative z-10">
                   <div className="bg-red-500 text-[10px] font-bold px-2 py-1 rounded w-fit mb-4 animate-pulse">Immediate Protection</div>
-                  <h4 className="font-bold text-2xl mb-4 leading-tight">Anticipating a Doorstep Visit?</h4>
+                  <p className="font-bold text-2xl mb-4 leading-tight">Anticipating a Doorstep Visit?</p>
                   <p className="text-blue-100 mb-8 text-sm leading-relaxed">Do not remain passive and wait for the hostile knocking. Instruct our elite legal forces to neutralize the collection agents right now.</p>
                   <Link
                     href="/contact"
@@ -524,7 +524,7 @@ export default function BajajHomeVisitClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Supplementary Legal Guides</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Supplementary Legal Guides</p>
                 <ul className="space-y-5">
                   
                   <li>

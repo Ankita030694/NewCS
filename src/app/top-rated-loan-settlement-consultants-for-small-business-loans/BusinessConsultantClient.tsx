@@ -210,7 +210,7 @@ export default function BusinessConsultantClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Business Debt Kit</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Business Debt Kit</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -332,7 +332,7 @@ export default function BusinessConsultantClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -343,7 +343,7 @@ export default function BusinessConsultantClient() {
                                 The journey from debt distress to financial freedom is a marathon, not a sprint. For a small business owner in India, your choice of consultant can be the difference between losing your life’s work and securing a second chance.
                             </p>
                             <div className="bg-gray-900 text-white p-8 rounded-3xl mb-8">
-                                <h4 className="text-xl font-bold mb-4 text-blue-300">Quick Guide to Selection:</h4>
+                                <p className="text-xl font-bold mb-4 text-blue-300">Quick Guide to Selection:</p>
                                 <ul className="space-y-3">
                                     <li>If you have <strong>collateral/SARFAESI</strong> issues: Choose <strong>Amalegal Solutions</strong>.</li>
                                     <li>If you have <strong>multiple credit lines/tech focus</strong>: Choose <strong>CredSettle</strong>.</li>
@@ -391,7 +391,7 @@ export default function BusinessConsultantClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Business Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Business Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop SARFAESI and DRT threats. Our legal team specializes in protecting MSME assets through expert settlement negotiation.</p>
                                 <Link
                                     href="/contact"
@@ -408,7 +408,7 @@ export default function BusinessConsultantClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">MSME Debt Links</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">MSME Debt Links</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-loan-disputes" className="block text-sm text-blue-600 hover:underline">MSME Dispute Lawyer</Link>
                                     <Link href="/debt-settlement-offers-for-business-loans" className="block text-sm text-blue-600 hover:underline">Settlement Offer Guide</Link>

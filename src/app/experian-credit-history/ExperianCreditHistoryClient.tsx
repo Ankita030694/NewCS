@@ -232,7 +232,7 @@ export default function ExperianCreditHistoryClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Analysis</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Analysis</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -281,12 +281,12 @@ export default function ExperianCreditHistoryClient() {
                             
                             {/* Visual Element 1: Alert Banner */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-8 shadow-sm">
-                                <h4 className="text-red-800 font-bold text-xl mb-2 flex items-center">
+                                <p className="text-red-800 font-bold text-xl mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
                                     </svg>
                                     Critical Banking Alert
-                                </h4>
+                                </p>
                                 <p className="text-red-900 font-medium">
                                     Banks prioritize the LOWEST score when evaluating risk. If your primary score is 780 but your Experian score is 610, the bank algorithm will treat you as a 610 risk profile applicant. This is the primary reason for unexplained loan rejections.
                                 </p>
@@ -389,12 +389,12 @@ export default function ExperianCreditHistoryClient() {
                             {/* Visual Element 3: Checklist */}
                             <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl mb-10 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-blue-500/10 rounded-full -mr-4 -mt-4"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center text-gray-900">
+                                <p className="text-2xl font-black mb-6 flex items-center text-gray-900">
                                     <svg className="w-8 h-8 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                                     </svg>
                                     Experian Score Recovery Checklist
-                                </h4>
+                                </p>
                                 <ul className="space-y-4 text-gray-700">
                                     <li className="flex items-start">
                                         <span className="flex-shrink-0 h-6 w-6 rounded-full bg-blue-100 flex items-center justify-center border border-blue-300 mt-0.5">
@@ -517,7 +517,7 @@ export default function ExperianCreditHistoryClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Score Dropping?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Score Dropping?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can help identify toxic debt and structure a legal settlement plan to restore your profile.</p>
                                 <Link
                                     href="/contact"
@@ -535,7 +535,7 @@ export default function ExperianCreditHistoryClient() {
 
                             {/* Related Pages - MFI Relief Vault equivalent */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Repair Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Credit Repair Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-check-the-cibil-defaulter-list" className="block text-sm text-blue-600 hover:underline">Defaulter List Guide</Link>
                                     <Link href="/credit-card-settlement-vs-minimum-due" className="block text-sm text-blue-600 hover:underline">Credit Card Exit Plan</Link>

@@ -182,7 +182,7 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -304,7 +304,7 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 className="text-red-800 font-bold text-lg mb-2 uppercase tracking-wide">Critical Warning: The Revolving Trap</h4>
+                                    <p className="text-red-800 font-bold text-lg mb-2 uppercase tracking-wide">Critical Warning: The Revolving Trap</p>
                                     <p className="text-red-700 font-medium">
                                         Do not treat a Line of Credit like free money. If you only pay the "Minimum Amount Due" each month, you will remain perpetually in debt, paying exorbitant amounts of interest over time. An LOC is a cash flow management tool, not a substitute for permanent income. Always aim to clear the utilized principal rapidly.
                                     </p>
@@ -330,7 +330,7 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="bg-white p-8 rounded-3xl border border-green-100 shadow-lg relative overflow-hidden">
                                     <div className="absolute top-0 right-0 w-16 h-16 bg-green-100 rounded-bl-full z-0"></div>
-                                    <h4 className="text-xl font-bold mb-4 text-green-800 relative z-10">Advantages of LOC</h4>
+                                    <h3 className="text-xl font-bold mb-4 text-green-800 relative z-10">Advantages of LOC</h3>
                                     <ul className="space-y-3 font-light text-gray-700 relative z-10 list-disc pl-5">
                                         <li>Pay interest strictly on utilized funds.</li>
                                         <li>Continuous access to funds without reapplying.</li>
@@ -340,7 +340,7 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-red-100 shadow-lg relative overflow-hidden">
                                     <div className="absolute top-0 right-0 w-16 h-16 bg-red-100 rounded-bl-full z-0"></div>
-                                    <h4 className="text-xl font-bold mb-4 text-red-800 relative z-10">Disadvantages of LOC</h4>
+                                    <h3 className="text-xl font-bold mb-4 text-red-800 relative z-10">Disadvantages of LOC</h3>
                                     <ul className="space-y-3 font-light text-gray-700 relative z-10 list-disc pl-5">
                                         <li>Interest rates can be slightly higher than traditional secured loans.</li>
                                         <li>Risk of overspending due to constant access to funds.</li>
@@ -364,7 +364,7 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
 
                             {/* Visual Element 3: Checklist */}
                             <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8 mb-10 shadow-inner">
-                                <h4 className="text-2xl font-bold text-blue-900 mb-6 text-center uppercase tracking-wide">Interactive Checklist: Is an LOC Right For You?</h4>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center uppercase tracking-wide">Interactive Checklist: Is an LOC Right For You?</h3>
                                 <div className="space-y-4">
                                     <label className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm cursor-pointer hover:bg-gray-50 transition-colors border border-transparent hover:border-blue-300">
                                         <input type="checkbox" className="mt-1 w-5 h-5 text-blue-600 rounded border-gray-300 focus:ring-blue-500" />
@@ -466,7 +466,7 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-sm text-gray-600 mb-6">If multiple personal loans and credit lines have become unmanageable, we can help you restructure and settle.</p>
                                 <Link
                                     href="/contact"
@@ -484,7 +484,7 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Default Help</Link>
                                     <Link href="/debt-settlement-vs-debt-consolidation" className="block text-sm text-blue-600 hover:underline">Consolidation vs Settlement</Link>

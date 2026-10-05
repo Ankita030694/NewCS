@@ -213,7 +213,7 @@ export default function WhatDocumentsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Preparation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Preparation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -343,7 +343,7 @@ export default function WhatDocumentsClient() {
                                 Your hardship letter is the "Closing Argument" of your proposal. It is where you weave all your documents into a compelling story. A good hardship letter is professional, concise, and focused on solutions rather than just problems.
                             </p>
                             <div className="bg-gray-100 p-8 rounded-3xl border border-gray-200 mb-8 font-light">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Structure of a Winning Proposal Letter:</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Structure of a Winning Proposal Letter:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Identification:</strong> Clearly state your name, loan account number, and contact details at the top.</li>
                                     <li><strong>2. The Narrative:</strong> Briefly describe your financial journey. When did you take the loan? When did you start defaulting? What was the specific life event that caused the default?</li>
@@ -466,7 +466,7 @@ export default function WhatDocumentsClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -513,7 +513,7 @@ export default function WhatDocumentsClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Build Your File</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Build Your File</p>
                                 <p className="text-sm text-gray-600 mb-6">Need a template for your hardship letter or a personalized checklist? Let us help you prepare.</p>
                                 <Link
                                     href="/contact"
@@ -530,7 +530,7 @@ export default function WhatDocumentsClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-ask-bank-for-settlement" className="block text-sm text-blue-600 hover:underline">Asking for Settlement</Link>
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>

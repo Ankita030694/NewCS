@@ -202,7 +202,7 @@ export default function PersonalLoanCibilClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -523,7 +523,7 @@ export default function PersonalLoanCibilClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Urgent Loan Need?</h4>
+                <p className="font-bold text-2xl mb-4">Urgent Loan Need?</p>
                 <p className="text-slate-300 mb-6 text-sm">Low CIBIL score? Don't worry. We help you find the right lender and settle old debts.</p>
                 <Link 
                   href="/contact"
@@ -549,7 +549,7 @@ export default function PersonalLoanCibilClient() {
 
               {/* Related Pages Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

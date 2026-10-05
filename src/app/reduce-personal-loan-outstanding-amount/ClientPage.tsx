@@ -74,7 +74,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-blue-950 mb-2">Stop Unchecked Accumulation</h4>
+              <h3 className="font-bold text-blue-950 mb-2">Stop Unchecked Accumulation</h3>
               <p className="text-sm text-gray-700 leading-relaxed">
                 The longer an unpaid account lingers without formal representation, the more penal charges accumulate. Freezing interest growth through formal settlement negotiations is essential to protect your assets.
               </p>
@@ -105,7 +105,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Ready to Reduce Your Debt Burden?</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Ready to Reduce Your Debt Burden?</h3>
               <p className="mb-4 text-sm text-gray-600">Connect with our debt reduction specialists to review your bank statements and negotiate immediate waivers.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get a Free Debt Audit

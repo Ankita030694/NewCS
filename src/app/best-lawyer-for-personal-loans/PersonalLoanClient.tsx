@@ -284,7 +284,7 @@ export default function PersonalLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 max-h-[80vh] overflow-y-auto no-scrollbar">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Borrower Handbook</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Borrower Handbook</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -518,7 +518,7 @@ export default function PersonalLoanClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop recovery harassment and negotiate a fair settlement today.</p>
                                 <Link
                                     href="/contact"
@@ -544,7 +544,7 @@ export default function PersonalLoanClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Settlement Pros/Cons</Link>
                                     <Link href="/best-lawyer-for-unsecured-loan" className="block text-sm text-blue-600 hover:underline hover:text-blue-800 transition-colors font-medium">Unsecured Debt Help</Link>
@@ -556,7 +556,7 @@ export default function PersonalLoanClient() {
 
                             {/* Fact Box */}
                             <div className="bg-blue-900 p-6 rounded-2xl text-white">
-                                <h5 className="font-bold text-xs mb-3 uppercase tracking-widest text-blue-300">Expert Tip</h5>
+                                <p className="font-bold text-xs mb-3 uppercase tracking-widest text-blue-300">Expert Tip</p>
                                 <p className="text-xs leading-relaxed opacity-80 italic">
                                     "Unsecured personal loans cannot lead to property seizure without a decree from a civil court, a process that can take 3-5 years. This delay is your primary leverage for a 50%+ principal waiver."
                                 </p>

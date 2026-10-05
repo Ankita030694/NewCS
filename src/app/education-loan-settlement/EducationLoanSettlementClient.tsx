@@ -952,9 +952,9 @@ export default function EducationLoanSettlementClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL STUDENT DEBT DEFENSE
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Facing Education Loan Default?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Our debt specialists protect parent co-borrowers from harassment, represent your case before bank committees, and negotiate 35% to 55% principal waivers.
                 </p>
@@ -981,10 +981,10 @@ export default function EducationLoanSettlementClient() {
 
             {/* Card 3: Trust Badges Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3">
-              <h4 className="font-bold text-xs uppercase tracking-wider text-slate-800 flex items-center gap-2">
+              <p className="font-bold text-xs uppercase tracking-wider text-slate-800 flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-emerald-600" />
                 <span>CredSettle Protection Standards</span>
-              </h4>
+              </p>
               <div className="space-y-2 text-xs text-slate-600">
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0" />

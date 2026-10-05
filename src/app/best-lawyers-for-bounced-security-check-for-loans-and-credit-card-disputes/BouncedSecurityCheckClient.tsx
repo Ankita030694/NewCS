@@ -326,7 +326,7 @@ export default function BouncedSecurityCheckClient() {
                         {/* Left Column: TOC */}
                         <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 max-h-[80vh] overflow-y-auto no-scrollbar">
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defence Guide</h3>
+                                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defence Guide</p>
                                 <nav className="space-y-1 text-sm">
                                     {navLinks.map((link) => (
                                         <a
@@ -369,7 +369,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="distinction" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Security Cheque vs. Debt Discharge Cheque: The Legal Distinction</h3>
+                                    <h2 id="distinction" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Security Cheque vs. Debt Discharge Cheque: The Legal Distinction</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         To effectively defend a Section 138 case, one must first grasp the technical difference between a security cheque and a cheque for debt discharge. A debt discharge cheque is issued to clear a specific, pre existing liability. For example, if you owe someone ten thousand rupees and you give them a cheque for that amount today, you are discharging a debt.
                                     </p>
@@ -388,7 +388,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="defences" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Top Defences for Bounced Security Cheques in 2025</h3>
+                                    <h2 id="defences" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Top Defences for Bounced Security Cheques in 2025</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         The defense strategy in a cheque bounce case is multi layered. In 2025, the most effective defenses include:
                                     </p>
@@ -411,7 +411,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="credit-card" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Replying to Section 138 Legal Notices for Credit Cards</h3>
+                                    <h2 id="credit-card" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Replying to Section 138 Legal Notices for Credit Cards</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         Credit card disputes often involve security cheques that were taken at the time of card issuance or during a debt restructuring phase. Because credit card debt is unsecured and often involves complex interest calculations, these cases are ripe for legal challenge.
                                     </p>
@@ -433,7 +433,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="court" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Handling Court Summons and Warrant Situations</h3>
+                                    <h2 id="court" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Handling Court Summons and Warrant Situations</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         If a bank proceeds to file a complaint after the notice period, the Magistrate may issue a summons. Receiving a court summons does not mean you are a criminal; it is an invitation to present your side of the story. In 2025, many of these summons are being delivered through digital channels including email and WhatsApp, following recent judicial approvals.
                                     </p>
@@ -452,7 +452,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="rbi" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">RBI Guidelines on Recovery and Security Instruments</h3>
+                                    <h2 id="rbi" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">RBI Guidelines on Recovery and Security Instruments</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         The Reserve Bank of India has clear guidelines on how banks and NBFCs can use security cheques. The Fair Practice Code for Lenders explicitly prohibits the use of coercive recovery methods. Presenting a security cheque while a dispute is pending, or using it as a threat to force a borrower into an unfair settlement, can be reported to the Banking Ombudsman.
                                     </p>
@@ -471,7 +471,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="supreme-court" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Supreme Court Judgments on Security Cheque Liability</h3>
+                                    <h2 id="supreme-court" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Supreme Court Judgments on Security Cheque Liability</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         The Supreme Court of India has been at the forefront of protecting citizens from the misuse of Section 138. Some of the most influential judgments that every borrower should know include:
                                     </p>
@@ -489,7 +489,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="finance-impact" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Impact of Cheque Bounce Cases on Personal Finances</h3>
+                                    <h2 id="finance-impact" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Impact of Cheque Bounce Cases on Personal Finances</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         Beyond the physical courtroom, a Section 138 case has lasting impacts on your financial health. Once a bank files a case, they report it to CIBIL and other credit bureaus as 'Legal Suit Filed'. This status effectively freezes your ability to get any new loans or credit cards from any organized lender in India.
                                     </p>
@@ -505,7 +505,7 @@ export default function BouncedSecurityCheckClient() {
                                 </section>
 
                                 <section className="mb-16">
-                                    <h3 id="strategy" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Step-by-Step Legal Strategy for Loan Security Cheques</h3>
+                                    <h2 id="strategy" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Step-by-Step Legal Strategy for Loan Security Cheques</h2>
                                     <p className="text-gray-700 leading-relaxed mb-6">
                                         If you are facing a potential or active cheque bounce case, follow this battle tested strategy:
                                     </p>
@@ -556,43 +556,43 @@ export default function BouncedSecurityCheckClient() {
                                     <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Frequently Asked Questions</h2>
                                     <div className="space-y-6">
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">Is a security cheque legally valid under Section 138 of the NI Act?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">Is a security cheque legally valid under Section 138 of the NI Act?</h3>
                                             <p className="text-gray-700 leading-relaxed">Yes, but with conditions. The Supreme Court has clarified that if a legally enforceable debt exists at the time the cheque is presented, Section 138 applies even if the cheque was initially issued as security. If the debt is not due, the case can be quashed.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">Can I be arrested for a security cheque bounce?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">Can I be arrested for a security cheque bounce?</h3>
                                             <p className="text-gray-700 leading-relaxed">Section 138 is a bailable offense. While a court can issue a warrant if you fail to appear, you are generally entitled to bail upon appearance. Working with an expert lawyer ensures proper representation and avoidance of coercive measures.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">What is the difference between a security cheque and a post dated cheque?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">What is the difference between a security cheque and a post dated cheque?</h3>
                                             <p className="text-gray-700 leading-relaxed">A security cheque is issued to guarantee future performance (often left blank or undated), while a post dated cheque (PDC) is intended for payment on a specific future date. Legally, both can attract Section 138 if they dishonor against an active debt.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">How do I reply to a legal notice for a bounced security cheque?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">How do I reply to a legal notice for a bounced security cheque?</h3>
                                             <p className="text-gray-700 leading-relaxed">You must reply within 15 days, clearly stating that the cheque was for security and challenging the existence of the debt or liability claimed by the lender or bank. This reply is your first and most important legal defense.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">Can a bank file a criminal case for a credit card security cheque?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">Can a bank file a criminal case for a credit card security cheque?</h3>
                                             <p className="text-gray-700 leading-relaxed">Yes, banks often use Section 138 as a recovery tactic. However, you can defend yourself by proving that the amount claimed exceeds the actual liability or that the cheque was misused contrary to the terms of service.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">What are the new cheque bounce rules for 2025?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">What are the new cheque bounce rules for 2025?</h3>
                                             <p className="text-gray-700 leading-relaxed">The 2025 updates focus on mandatory e filing for faster processing, trials aimed at 90 day resolution, and stricter penalties for repeat offenders, alongside the implementation of the Digital Positive Pay verification system.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">What happens if a security cheque bounces due to 'Stop Payment'?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">What happens if a security cheque bounces due to 'Stop Payment'?</h3>
                                             <p className="text-gray-700 leading-relaxed">If 'Stop Payment' was issued for valid reasons (like the debt being cleared or a dispute being raised) and there were sufficient funds, Section 138 may not apply. However, if it was to evade payment, it is treated as a crime.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">Does a cheque bounce case affect my CIBIL score?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">Does a cheque bounce case affect my CIBIL score?</h3>
                                             <p className="text-gray-700 leading-relaxed">Yes, banks report defaults and active legal suits to credit bureaus. This can lower your score by hundreds of points and make you ineligible for future financial products until the case is settled and cleared.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">How can I win a security cheque bounce case?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">How can I win a security cheque bounce case?</h3>
                                             <p className="text-gray-700 leading-relaxed">Winning requires proving that no 'legally enforceable debt' existed at the time of presentation, identifying procedural lapses like a defective legal notice, or proving that the cheque was a security instrument misused for inflated claims.</p>
                                         </div>
                                         <div className="border-b border-blue-200 pb-4">
-                                            <h4 className="font-bold text-lg text-gray-900 mb-2">What is the penalty for a Section 138 conviction?</h4>
+                                            <h3 className="font-bold text-lg text-gray-900 mb-2">What is the penalty for a Section 138 conviction?</h3>
                                             <p className="text-gray-700 leading-relaxed">Penalties include imprisonment for up to two years, a fine of up to double the cheque amount, or both. However, modern courts strongly encourage settlements and fines over imprisonment for first time offenders.</p>
                                         </div>
                                     </div>
@@ -605,7 +605,7 @@ export default function BouncedSecurityCheckClient() {
                             {/* CTA Container */}
                             <div className="bg-[#001235] p-8 rounded-3xl text-white shadow-2xl relative overflow-hidden group">
                                 <div className="relative z-10">
-                                    <h3 className="text-2xl font-bold mb-4">Facing a Case?</h3>
+                                    <p className="text-2xl font-bold mb-4">Facing a Case?</p>
                                     <p className="text-blue-100 mb-6 text-sm leading-relaxed opacity-90">
                                         Connect with India’s leading legal experts specializing in Section 138 NI Act and loan disputes. Get a strategic defense plan today.
                                     </p>
@@ -621,7 +621,7 @@ export default function BouncedSecurityCheckClient() {
 
                             {/* Related Pages */}
                             <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm">
-                                <h4 className="text-lg font-bold text-gray-900 mb-4 border-b pb-2">Related Support</h4>
+                                <p className="text-lg font-bold text-gray-900 mb-4 border-b pb-2">Related Support</p>
                                 <div className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors group">
                                         <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2 group-hover:scale-125 transition-transform"></span>

@@ -185,7 +185,7 @@ export default function StashfinLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -273,28 +273,28 @@ export default function StashfinLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Stop "Micro-Payments"</h4>
+                    <h3 className="font-bold text-gray-900">Stop "Micro-Payments"</h3>
                     <p className="text-gray-600 mt-1">Agents will ask for ₹500 or ₹2000 to "hold" your file. Do not pay this. It is wasted money and does not reduce your principal.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Ignore Harassment</h4>
+                    <h3 className="font-bold text-gray-900">Ignore Harassment</h3>
                     <p className="text-gray-600 mt-1">If they call your relatives, tell your relatives it is a scam/fraud call. Do not engage with abusers. Record the calls.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Email Proposal</h4>
+                    <h3 className="font-bold text-gray-900">Email Proposal</h3>
                     <p className="text-gray-600 mt-1">Send a formal settlement offer to **cofficer@akaracap.com**. State your financial inability clearly.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Close & Get NDC</h4>
+                    <h3 className="font-bold text-gray-900">Close & Get NDC</h3>
                     <p className="text-gray-600 mt-1">Upon payment, ensure the loan is marked closed on the app within 48 hours and get the No Dues Certificate.</p>
                   </div>
                 </div>
@@ -307,7 +307,7 @@ export default function StashfinLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-red-50 p-6 rounded-xl">
-                   <h4 className="font-bold text-red-700 mb-2">What They THREATEN (Fake)</h4>
+                   <h3 className="font-bold text-red-700 mb-2">What They THREATEN (Fake)</h3>
                    <ul className="list-disc pl-5 space-y-2 text-sm text-red-800">
                      <li>Immediate Police Arrest.</li>
                      <li>Freezing all your bank accounts today.</li>
@@ -316,7 +316,7 @@ export default function StashfinLoanSettlementClient() {
                    </ul>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl">
-                   <h4 className="font-bold text-blue-700 mb-2">What They Can ACTUALLY Do</h4>
+                   <h3 className="font-bold text-blue-700 mb-2">What They Can ACTUALLY Do</h3>
                    <ul className="list-disc pl-5 space-y-2 text-sm text-blue-800">
                      <li>Send a legal demand notice.</li>
                      <li>Start **Arbitration** proceedings (rare for small amounts, used for larger loans).</li>
@@ -377,19 +377,19 @@ export default function StashfinLoanSettlementClient() {
               <h2 id="why-choose-us" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why Choose CredSettle?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Stop Calls</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Stop Calls</h3>
                   <p className="text-sm text-gray-600">We redirect all agent calls to our legal team.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Contact List Protection</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Contact List Protection</h3>
                   <p className="text-sm text-gray-600">We take legal action if they harass your references.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Authentic Settlement</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Authentic Settlement</h3>
                   <p className="text-sm text-gray-600">We ensure you get a valid Akara Capital letter, not a fake one.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Zero Risk</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Zero Risk</h3>
                   <p className="text-sm text-gray-600">Pay our fee only after you receive the settlement letter.</p>
                 </div>
               </div>
@@ -434,7 +434,7 @@ export default function StashfinLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-purple-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop Stashfin Harassment</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Stop Stashfin Harassment</p>
                 <p className="text-sm text-gray-600 mb-6">Legal protection against App Loan agents.</p>
                 <Link 
                   href="/contact"
@@ -450,7 +450,7 @@ export default function StashfinLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                    <li>
                     <Link href="/loan-settlement/krazybee" className="text-gray-600 hover:text-blue-600 flex items-center">

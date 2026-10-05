@@ -198,7 +198,7 @@ export default function ICICILoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -237,7 +237,7 @@ export default function ICICILoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Important Update for 2026</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Important Update for 2026</h3>
                 <p className="text-blue-800 m-0">
                   Under the new RBI guidelines for 2025-26, banks are mandated to have a clear, board-approved policy for compromise settlements. This means more transparency for you and a standardized process for closing "Technical Write-Off" accounts.
                 </p>
@@ -250,19 +250,19 @@ export default function ICICILoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">1. Stop the Interest Spiral</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">1. Stop the Interest Spiral</h3>
                   <p className="text-gray-600 text-sm">ICICI Credit Cards can charge upward of 3.5% interest per month. Settlement freezes this growth instantly.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">2. Halt Legal Action</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">2. Halt Legal Action</h3>
                   <p className="text-gray-600 text-sm">Banks may initiate arbitration or civil recovery suits for large dues. A settlement agreement legally pauses and eventually closes these proceedings.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">3. Protection from Harassment</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">3. Protection from Harassment</h3>
                   <p className="text-gray-600 text-sm">Professional representation puts a barrier between you and the recovery agents, ensuring communication remains civil and legal.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">4. Financial Reset</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">4. Financial Reset</h3>
                   <p className="text-gray-600 text-sm">Become debt-free in a matter of weeks rather than struggling for years with minimum due payments.</p>
                 </div>
               </div>
@@ -290,28 +290,28 @@ export default function ICICILoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Financial Assessment</h4>
+                    <h3 className="font-bold text-gray-900">Financial Assessment</h3>
                     <p className="text-gray-600 mt-1">We evaluate your current 'Disposable Income'. This helps us calculate a realistic repayment offer that you can actually afford, ensuring the negotiation doesn’t fail later.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Communication Takeover</h4>
+                    <h3 className="font-bold text-gray-900">Communication Takeover</h3>
                     <p className="text-gray-600 mt-1">We formally notify ICICI Bank that we represent you. This redirects the bulk of the collection calls to our legal team, giving you efficient mental relief.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Hard Negotiation</h4>
+                    <h3 className="font-bold text-gray-900">Hard Negotiation</h3>
                     <p className="text-gray-600 mt-1">Our experts negotiate with the Regional Collection Managers. We leverage provisions for 'Technical Write-offs' to get waivers on Interest, Late Fees, and even a portion of the Principal.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Closure & Documentation</h4>
+                    <h3 className="font-bold text-gray-900">Closure & Documentation</h3>
                     <p className="text-gray-600 mt-1">We verify the settlement letter for accuracy, ensure the payment goes to the correct loan account, and follow up until the 'No Dues Certificate' is issued.</p>
                   </div>
                 </div>
@@ -368,7 +368,7 @@ export default function ICICILoanSettlementClient() {
               
               {/* CTA Widget */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don’t face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
@@ -384,7 +384,7 @@ export default function ICICILoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/loan-settlement/hdfc" className="text-gray-600 hover:text-blue-600 flex items-center">

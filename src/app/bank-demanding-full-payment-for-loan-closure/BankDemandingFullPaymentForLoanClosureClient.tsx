@@ -917,9 +917,9 @@ export default function BankDemandingFullPaymentForLoanClosureClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
-                <h3 className="text-base sm:text-lg font-bold text-white leading-snug">
+                <p className="text-base sm:text-lg font-bold text-white leading-snug">
                   Bank Demanding Full Repayment?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal">
                   Our experts bypass aggressive recovery agents, represent your hardship to bank leadership, and negotiate a 40% to 55% settlement.
                 </p>
@@ -946,7 +946,7 @@ export default function BankDemandingFullPaymentForLoanClosureClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2.5 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs sm:text-sm">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-xs sm:text-sm">The CredSettle Advantage</p>
               <ul className="space-y-1.5 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -969,7 +969,7 @@ export default function BankDemandingFullPaymentForLoanClosureClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2.5 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs sm:text-sm">Related Legal Guides</h4>
+              <p className="font-bold text-slate-900 text-xs sm:text-sm">Related Legal Guides</p>
               <div className="space-y-2">
                 <Link
                   href="/bank-sent-legal-notice-for-loan-what-to-do"

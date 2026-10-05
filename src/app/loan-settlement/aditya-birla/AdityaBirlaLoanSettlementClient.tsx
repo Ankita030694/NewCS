@@ -147,7 +147,7 @@ export default function AdityaBirlaLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -191,7 +191,7 @@ export default function AdityaBirlaLoanSettlementClient() {
                 <p className="mb-4">
                   Most borrowers ignore arbitration notices, thinking they are just "threats". This is a fatal mistake with NBFCs like Aditya Birla. Their loan agreements explicitly designate <strong>Delhi or Mumbai</strong> as the seat of arbitration, regardless of where you live.
                 </p>
-                <h4 className="font-bold text-lg mb-2">How It Works:</h4>
+                <h3 className="font-bold text-lg mb-2">How It Works:</h3>
                 <ol className="list-decimal pl-6 space-y-4 mb-6">
                   <li>
                     <strong>Unilateral Appointment:</strong> They often invoke a clause appointing a "Sole Arbitrator" (e.g., formerly appointed by ABFL unilaterally). While recent Supreme Court rulings challenge this, they still use it to get ex-parte awards.
@@ -215,7 +215,7 @@ export default function AdityaBirlaLoanSettlementClient() {
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-8">
-                  <h5 className="font-bold text-blue-900 text-lg mb-2">Escalate Immediately</h5>
+                  <h3 className="font-bold text-blue-900 text-lg mb-2">Escalate Immediately</h3>
                   <p className="text-blue-800 text-sm mb-2">
                     If agents are abusive, email the <strong>Principal Nodal Officer</strong> directly (Level 3 Escalation):
                   </p>
@@ -228,10 +228,10 @@ export default function AdityaBirlaLoanSettlementClient() {
                   </p>
                 </div>
 
-                <h4 className="font-bold text-lg mb-2 text-gray-800">Your Legal Rights (RBI Circular 2024/25):</h4>
+                <h3 className="font-bold text-lg mb-2 text-gray-800">Your Legal Rights (RBI Circular 2024/25):</h3>
                 <div className="grid md:grid-cols-2 gap-4 mt-4">
                   <div className="bg-gray-50 p-4 rounded-xl border border-gray-200">
-                    <h5 className="font-bold text-red-700 mb-1">Forbidden Actions</h5>
+                    <h3 className="font-bold text-red-700 mb-1">Forbidden Actions</h3>
                     <ul className="text-sm space-y-1 list-disc pl-4">
                       <li>Calling before 8 AM or after 7 PM.</li>
                       <li>Contacting non-guarantor family members.</li>
@@ -240,7 +240,7 @@ export default function AdityaBirlaLoanSettlementClient() {
                     </ul>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-xl border border-gray-200">
-                    <h5 className="font-bold text-green-700 mb-1">Our Counter-Action</h5>
+                    <h3 className="font-bold text-green-700 mb-1">Our Counter-Action</h3>
                     <ul className="text-sm space-y-1 list-disc pl-4">
                       <li>Legal Notice to Compliance Head.</li>
                       <li>Complaint to RBI Ombudsman (CMS).</li>
@@ -346,7 +346,7 @@ export default function AdityaBirlaLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Notice from Arbitrator?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Notice from Arbitrator?</p>
                 <p className="text-sm text-gray-600 mb-6">Do not ignore it. They can freeze your accounts. Get a legal reply drafted now.</p>
                 <Link 
                   href="/contact"

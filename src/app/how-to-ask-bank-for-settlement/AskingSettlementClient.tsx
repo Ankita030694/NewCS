@@ -200,7 +200,7 @@ export default function AskingSettlementClient() {
           <aside className="lg:w-1/4 hidden lg:block pr-8">
             <div className="sticky top-10">
               <div className="p-0">
-                <h3 className="font-bold text-gray-900 mb-4 text-xs uppercase tracking-widest text-blue-600">Guide Sections</h3>
+                <p className="font-bold text-gray-900 mb-4 text-xs uppercase tracking-widest text-blue-600">Guide Sections</p>
                 <nav className="space-y-2">
                   {navLinks.map((link) => (
                     <a 
@@ -237,7 +237,7 @@ export default function AskingSettlementClient() {
                 </p>
                 <div className="bg-gradient-to-r from-blue-600 to-indigo-700 p-6 rounded-2xl text-white my-8 shadow-xl relative overflow-hidden text-center">
                   <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-                  <h4 className="text-xl font-bold mb-3 relative z-10">Strategic Insight</h4>
+                  <h3 className="text-xl font-bold mb-3 relative z-10">Strategic Insight</h3>
                   <p className="text-base opacity-90 relative z-10 font-light italic">
                     "A settlement is a business decision for the bank. Your goal is to make the bank manager see your default as a risk they need to hedge, not a moral failure they need to punish."
                   </p>
@@ -269,28 +269,28 @@ export default function AskingSettlementClient() {
                     <div className="flex gap-3">
                         <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center font-black text-blue-600 text-lg flex-shrink-0">SMA-0</div>
                         <div>
-                            <h4 className="text-lg font-bold text-gray-900 mb-0.5">1 to 30 Days Overdue</h4>
+                            <h3 className="text-lg font-bold text-gray-900 mb-0.5">1 to 30 Days Overdue</h3>
                             <p className="text-sm">The "Special Mention Account 0" stage. This is where you receive automated reminders. The bank still expects full payment and will not talk about settlement here.</p>
                         </div>
                     </div>
                     <div className="flex gap-3">
                         <div className="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center font-black text-indigo-600 text-lg flex-shrink-0">SMA-1</div>
                         <div>
-                            <h4 className="text-lg font-bold text-gray-900 mb-0.5">31 to 60 Days Overdue</h4>
+                            <h3 className="text-lg font-bold text-gray-900 mb-0.5">31 to 60 Days Overdue</h3>
                             <p className="text-sm">Intense recovery agent follow-ups begin. Your credit score starts to take its first major dip. The bank’s internal recovery team is now tracking you as a high risk.</p>
                         </div>
                     </div>
                     <div className="flex gap-3">
                         <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center font-black text-purple-600 text-lg flex-shrink-0">SMA-2</div>
                         <div>
-                            <h4 className="text-lg font-bold text-gray-900 mb-0.5">61 to 90 Days Overdue</h4>
+                            <h3 className="text-lg font-bold text-gray-900 mb-0.5">61 to 90 Days Overdue</h3>
                             <p className="text-sm">The "Danger Zone." At 91 days, you reach NPA status. This is the optimal time to prepare your hardship file. The bank is now mentally preparing to lose money on your account.</p>
                         </div>
                     </div>
                     <div className="flex gap-3">
                         <div className="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center font-black text-red-600 text-lg flex-shrink-0">NPA</div>
                         <div>
-                            <h4 className="text-lg font-bold text-gray-900 mb-0.5">91+ Days: Non-Performing Asset</h4>
+                            <h3 className="text-lg font-bold text-gray-900 mb-0.5">91+ Days: Non-Performing Asset</h3>
                             <p className="text-sm">The account is officially a loss for the bank. Legal notices (Section 138, Arbitration, or SARFAESI) are triggered here. This is also where the maximum waivers reside.</p>
                         </div>
                     </div>
@@ -307,7 +307,7 @@ export default function AskingSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
                   <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 h-full">
-                    <h4 className="font-bold text-blue-900 mb-3 uppercase tracking-wider text-xs">Key Eligibility Markers</h4>
+                    <h3 className="font-bold text-blue-900 mb-3 uppercase tracking-wider text-xs">Key Eligibility Markers</h3>
                     <ul className="space-y-2 text-gray-700 text-base">
                       <li>* Default period of at least 90-180 days.</li>
                       <li>* Documented proof of income loss or business failure.</li>
@@ -316,7 +316,7 @@ export default function AskingSettlementClient() {
                     </ul>
                   </div>
                   <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100 h-full">
-                    <h4 className="font-bold text-blue-900 mb-3 uppercase tracking-wider text-xs">Documentation Required</h4>
+                    <h3 className="font-bold text-blue-900 mb-3 uppercase tracking-wider text-xs">Documentation Required</h3>
                     <ul className="space-y-2 text-gray-700 text-base">
                       <li>* Last 6 months bank statements showing low balance.</li>
                       <li>* Termination letters or P&L statements.</li>
@@ -358,7 +358,7 @@ export default function AskingSettlementClient() {
                     The "Best Way to Negotiate Loan Settlement" for a secured asset is to challenge the bank’s "Symbolic Possession" in the Debt Recovery Tribunal (DRT). By filing a Securitisation Application (SA), you can often get a stay on the auction. Once a stay is granted, the bank’s recovery process is frozen. This is the moment they become most open to a settlement. They realize that a fast settlement is better than a 3 year legal battle in the DRT where the property value might stagnate or fall.
                 </p>
                 <div className="bg-blue-900 text-white p-6 rounded-2xl my-6 shadow-xl">
-                    <h4 className="text-xl font-black mb-3 text-blue-400">Critical SARFAESI Tip</h4>
+                    <h3 className="text-xl font-black mb-3 text-blue-400">Critical SARFAESI Tip</h3>
                     <p className="text-base opacity-90 leading-relaxed">
                         If you receive a Section 13(4) notice (Possession Notice), do not lose hope. You can still settle even 5 minutes before the auction starts. The law protects your "Right of Redemption" as long as the sale certificate is not issued.
                     </p>
@@ -374,28 +374,28 @@ export default function AskingSettlementClient() {
                   <div className="flex gap-4 items-start">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">1</div>
                     <div>
-                      <h4 className="text-xl font-bold text-gray-900 mb-1">Internal Assessment</h4>
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">Internal Assessment</h3>
                       <p className="text-base">Calculate exactly how much you can afford to pay in a single lump sum. Look at your savings, potential loans from family, or liquidating small assets. A lump sum is your biggest bargaining chip.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 items-start">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">2</div>
                     <div>
-                      <h4 className="text-xl font-bold text-gray-900 mb-1">Build Your Hardship File</h4>
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">Build Your Hardship File</h3>
                       <p className="text-base">Gather every document that proves your financial situation. This includes hospital bills, job termination letters, or a CA-certified P&L statement showing business loss. Emotion is good, but data is better.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 items-start">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">3</div>
                     <div>
-                      <h4 className="text-xl font-bold text-gray-900 mb-1">Identify the Right Contact</h4>
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">Identify the Right Contact</h3>
                       <p className="text-base">Don’t talk to the local branch cashier. You need to reach the 'Recovery Manager' or the 'Nodal Officer' of the bank. Email is the best medium as it creates an audit trail that the bank cannot deny later.</p>
                     </div>
                   </div>
                   <div className="flex gap-4 items-start">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">4</div>
                     <div>
-                      <h4 className="text-xl font-bold text-gray-900 mb-1">The Negotiation Phase</h4>
+                      <h3 className="text-xl font-bold text-gray-900 mb-1">The Negotiation Phase</h3>
                       <p className="text-base">Start with an offer that is lower than what you can actually pay. If you want a 50% waiver, start the offer at 30%. This gives you room to 'compromise' during the back-and-forth.</p>
                     </div>
                   </div>
@@ -427,19 +427,19 @@ export default function AskingSettlementClient() {
                   Winning a settlement is about psychology as much as mathematics. Use these field-tested tactics to gain the upper hand.
                 </p>
                 <div className="space-y-4">
-                  <h4 className="text-xl font-bold text-gray-900">1. The Anchor Bias</h4>
+                  <h3 className="text-xl font-bold text-gray-900">1. The Anchor Bias</h3>
                   <p>Start with a very low offer. This "anchors" the negotiation at a low point. Even when the bank counters, the final agreed amount will be closer to your low anchor than their high starting point.</p>
                   
-                  <h4 className="text-xl font-bold text-gray-900">2. Net Present Value (NPV) Logic</h4>
+                  <h3 className="text-xl font-bold text-gray-900">2. Net Present Value (NPV) Logic</h3>
                   <p>Tell the bank manager: "Sir, if you take my 40% offer today, you can lend that cash out 4 times over the next 5 years it would take you to sue me. In NPV terms, my offer is actually 100% of the loan value." This language shows you are financially literate and cannot be bluffed.</p>
 
-                  <h4 className="text-xl font-bold text-gray-900">3. The End-of-Quarter Push</h4>
+                  <h3 className="text-xl font-bold text-gray-900">3. The End-of-Quarter Push</h3>
                   <p>Banks have targets for March, June, September, and December. Approaching them 10 days before the quarter ends is the best time to get a 'desperate' manager to sign off on a high waiver just to hit their targets.</p>
 
-                  <h4 className="text-xl font-bold text-gray-900">4. The Silence Tactic</h4>
+                  <h3 className="text-xl font-bold text-gray-900">4. The Silence Tactic</h3>
                   <p>After making an offer, wait. Do not call them every day. Let the bank’s internal 'Provisioning' clock tick. The longer the loan stays as an NPA, the more it costs them, and the more likely they are to accept your terms.</p>
 
-                  <h4 className="text-xl font-bold text-gray-900">5. Always Demand the Letter First</h4>
+                  <h3 className="text-xl font-bold text-gray-900">5. Always Demand the Letter First</h3>
                   <p>Never pay based on a verbal promise. Demand a formal "Settlement Approval Letter" on the bank’s official letterhead. This letter must state the exact amount, the deadline, and the phrase "Full and Final Discharge of Liability."</p>
                 </div>
               </div>
@@ -454,15 +454,15 @@ export default function AskingSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
                     <div className="p-6 border-2 border-dashed border-gray-200 rounded-2xl">
-                        <h4 className="text-lg font-bold text-gray-900 mb-2">What agents say:</h4>
+                        <h3 className="text-lg font-bold text-gray-900 mb-2">What agents say:</h3>
                         <p className="text-gray-600 mb-2 leading-relaxed">"We are coming to your office to arrest you."</p>
-                        <h4 className="text-lg font-bold text-red-600 mb-1">The Truth:</h4>
+                        <h3 className="text-lg font-bold text-red-600 mb-1">The Truth:</h3>
                         <p className="text-red-900 font-medium text-sm">Debt is a civil matter. Civil arrest for debt is virtually impossible in India unless there is fraud involved. They are bluffing.</p>
                     </div>
                     <div className="p-6 border-2 border-dashed border-gray-200 rounded-2xl">
-                        <h4 className="text-lg font-bold text-gray-900 mb-2">What agents say:</h4>
+                        <h3 className="text-lg font-bold text-gray-900 mb-2">What agents say:</h3>
                         <p className="text-gray-600 mb-2 leading-relaxed">"You will never get a job again."</p>
-                        <h4 className="text-lg font-bold text-red-600 mb-1">The Truth:</h4>
+                        <h3 className="text-lg font-bold text-red-600 mb-1">The Truth:</h3>
                         <p className="text-red-900 font-medium text-sm">Most private employers don’t check CIBIL. Only financial sector jobs do. A settlement actually helps you clear the background check better than an active default.</p>
                     </div>
                 </div>
@@ -504,7 +504,7 @@ export default function AskingSettlementClient() {
                   We must be honest: settlement is not a 'free' exit. It has a significant impact on your credit history. When you settle, the status on your CIBIL report changes from "Active/Default" to "Settled." 
                 </p>
                 <div className="bg-amber-50 p-10 rounded-3xl border border-amber-100 my-10">
-                  <h4 className="text-2xl font-bold text-amber-900 mb-4">"Settled" vs "Closed"</h4>
+                  <h3 className="text-2xl font-bold text-amber-900 mb-4">"Settled" vs "Closed"</h3>
                   <p className="text-xl text-amber-800 leading-relaxed">
                     "Closed" means you paid the full amount. This is a green flag for lenders. "Settled" means the bank took a loss. This is a red flag. For the next 3 to 7 years, getting a standard loan from a Tier-1 bank will be difficult.
                   </p>
@@ -534,14 +534,14 @@ export default function AskingSettlementClient() {
               <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">From Default to Freedom: Case Studies</h2>
               <div className="text-gray-700 leading-relaxed mb-10 space-y-6 text-lg text-justify">
                 <div className="bg-gray-50 p-8 rounded-[2.5rem] border border-gray-100 mb-10">
-                    <h4 className="text-xl font-bold text-blue-900 mb-3">Case Study 1: The Credit Card Trap</h4>
+                    <h3 className="text-xl font-bold text-blue-900 mb-3">Case Study 1: The Credit Card Trap</h3>
                     <p className="mb-3"><strong>Client:</strong> Rajesh K. (Software Engineer)</p>
                     <p className="mb-3"><strong>Debt:</strong> ₹12,00,000 across 3 credit cards.</p>
                     <p className="mb-3"><strong>Situation:</strong> Interest was 42% per annum. Rajesh was paying only the minimum due, which meant the debt was never ending.</p>
                     <p className="mb-0"><strong>Outcome:</strong> We stopped the interest cycle, waited for the 90 day NPA mark, and settled all 3 cards for a total of ₹4.5 lakhs. Rajesh saved ₹7.5 lakhs and regained his financial life.</p>
                 </div>
                 <div className="bg-blue-50 p-8 rounded-[2.5rem] border border-blue-100 mb-10">
-                    <h4 className="text-xl font-bold text-blue-900 mb-3">Case Study 2: The Business Failure</h4>
+                    <h3 className="text-xl font-bold text-blue-900 mb-3">Case Study 2: The Business Failure</h3>
                     <p className="mb-3"><strong>Client:</strong> Ananya M. (Small Business Owner)</p>
                     <p className="mb-3"><strong>Debt:</strong> ₹50,00,000 Business Loan (Unsecured).</p>
                     <p className="mb-3"><strong>Situation:</strong> During the 2024 slowdown, her retail business collapsed. The bank sent an arbitration notice.</p>
@@ -595,7 +595,7 @@ export default function AskingSettlementClient() {
                     </div>
                     <p className="text-gray-700 italic mb-4 text-sm leading-relaxed">"{review.review}"</p>
                     <div className="border-t border-gray-50 pt-3">
-                      <h5 className="font-bold text-gray-900 text-sm">{review.name}</h5>
+                      <h3 className="font-bold text-gray-900 text-sm">{review.name}</h3>
                       <p className="text-xs text-gray-500">{review.location} * {review.date}</p>
                     </div>
                   </div>
@@ -661,7 +661,7 @@ export default function AskingSettlementClient() {
               {/* CTA Widget */}
               <div className="bg-gradient-to-br from-blue-700 to-indigo-900 p-6 md:p-8 rounded-2xl text-white shadow-lg relative overflow-hidden group">
                 <div className="absolute -right-4 -top-4 w-20 h-20 bg-white/10 rounded-full group-hover:scale-150 transition-transform duration-500"></div>
-                <h4 className="text-lg font-bold mb-3 relative z-10">Stop Harassment Today</h4>
+                <p className="text-lg font-bold mb-3 relative z-10">Stop Harassment Today</p>
                 <p className="text-sm text-blue-100 mb-6 relative z-10 font-light leading-relaxed">
                   Our legal shield stops recovery calls within 48 hours and negotiates your waivers professionally.
                 </p>
@@ -675,7 +675,7 @@ export default function AskingSettlementClient() {
 
               {/* Related Pages Widget */}
               <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                <h4 className="font-bold text-gray-900 mb-4 text-[10px] uppercase tracking-widest text-blue-600">Essential Reading</h4>
+                <p className="font-bold text-gray-900 mb-4 text-[10px] uppercase tracking-widest text-blue-600">Essential Reading</p>
                 <nav className="flex flex-col gap-3">
                   {[
                     { title: "What Kind of Loans Can’t be Settled?", url: "/what-kind-of-loans-can-not-be-settled" },

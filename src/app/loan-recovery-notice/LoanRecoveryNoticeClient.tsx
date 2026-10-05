@@ -203,7 +203,7 @@ export default function LoanRecoveryNoticeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -318,7 +318,7 @@ export default function LoanRecoveryNoticeClient() {
                                 <div className="flex items-start">
                                     <svg className="w-8 h-8 text-red-600 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     <div>
-                                        <h4 className="text-xl font-bold text-red-900 mb-2">Critical Warning: SARFAESI Act Notices</h4>
+                                        <p className="text-xl font-bold text-red-900 mb-2">Critical Warning: SARFAESI Act Notices</p>
                                         <p className="text-red-800 text-sm font-medium">
                                             If your notice explicitly mentions Section 13(2) of the SARFAESI Act (applicable only for secured loans like home or property loans), you must respond within the strict statutory period. The bank is legally required to reply to your objections within 15 days under Section 13(3A). Failing to object formally gives the bank the right to proceed with symbolic or physical possession of your asset.
                                         </p>
@@ -355,7 +355,7 @@ export default function LoanRecoveryNoticeClient() {
                             <div className="bg-gray-900 text-gray-100 p-8 rounded-2xl mb-10 font-mono text-sm shadow-2xl relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
                                 <div className="flex justify-between items-center mb-6 border-b border-gray-700 pb-4">
-                                    <h4 className="text-xl font-bold text-blue-400 font-sans tracking-wide">Reply Template</h4>
+                                    <h3 className="text-xl font-bold text-blue-400 font-sans tracking-wide">Reply Template</h3>
                                     <span className="text-xs uppercase tracking-widest bg-gray-800 px-3 py-1 rounded-full text-gray-400">Copy Format</span>
                                 </div>
                                 <div className="space-y-4">
@@ -449,7 +449,7 @@ export default function LoanRecoveryNoticeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Got a Notice?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Got a Notice?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can draft a legally binding reply within 24 hours to protect your assets.</p>
                                 <Link
                                     href="/contact"
@@ -466,7 +466,7 @@ export default function LoanRecoveryNoticeClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-sm text-blue-600 hover:underline">Notice for Loan Default</Link>
                                     <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Bank Legal Notice Help</Link>

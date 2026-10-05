@@ -200,7 +200,7 @@ export default function ImpactOfLoanSettlementClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -245,7 +245,7 @@ export default function ImpactOfLoanSettlementClient() {
                                 A loan settlement occurs when you and your lender agree to close a loan account for a lump sum payment that is significantly less than the total outstanding amount. This usually happens when a borrower has defaulted for several months (usually beyond 90 days, classifying the account as a Non Performing Asset or NPA). The lender concludes that recovering the full amount is impossible and agrees to take a haircut. But this concession comes with a permanent asterisk on your financial record.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">How the "Settled" Status is Reported to CIBIL</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">How the "Settled" Status is Reported to CIBIL</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When a lender accepts your compromised payment, they do not just delete the debt from their systems. They are legally required to report the resolution of this account to the four major credit bureaus in India (CIBIL, Experian, Equifax, and CRIF High Mark). Because you did not pay the full principal and interest originally agreed upon in your loan contract, the lender reports the account status specifically as "Settled" rather than "Closed". This single word change is catastrophic for your credit health.
                             </p>
@@ -254,14 +254,14 @@ export default function ImpactOfLoanSettlementClient() {
                                 Every time a future lender pulls your credit report to evaluate a new application, their automated underwriting systems scan for this exact keyword. A "Settled" tag acts as a glaring neon warning sign that reads: "This borrower previously failed to honor a financial commitment and caused a loss to a lending institution." Consequently, the automated system usually triggers an immediate rejection, regardless of your current income or job stability.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Expected Point Drop After a Settlement</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">Expected Point Drop After a Settlement</p>
                             
                             {/* Data Callout Section Type */}
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-200 mb-8">
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                                     CIBIL Score Impact Data
-                                </h4>
+                                </p>
                                 <ul className="space-y-4 text-red-800">
                                     <li className="flex justify-between border-b border-red-200 pb-2">
                                         <span className="font-semibold">Average Initial Drop:</span>
@@ -330,12 +330,12 @@ export default function ImpactOfLoanSettlementClient() {
                                 </table>
                             </div>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">What a "Closed" Status Means for Lenders</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">What a "Closed" Status Means for Lenders</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A "Closed" status is the gold standard of credit reporting. It indicates that a borrower has fulfilled every single obligation outlined in the original loan agreement. Even if the borrower was occasionally late with payments, paying off the full amount eventually results in a Closed status. This demonstrates a fundamental willingness to repay debt, which future lenders view highly favorably.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Why "Settled" Remains a Red Flag for 7 Years</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">Why "Settled" Remains a Red Flag for 7 Years</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The "Settled" remark serves as a historical record of credit failure. Under the current data retention policies of major credit bureaus in India, this remark is not erased after a few months. It persists in your credit history for up to seven years. During this entire period, any bank that pulls your report will clearly see that you previously caused a financial institution to write off a portion of their capital.
                             </p>
@@ -354,7 +354,7 @@ export default function ImpactOfLoanSettlementClient() {
                                 
                                 <div className="relative pl-8">
                                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full left-[-9px] top-1 border-2 border-white"></div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Month 1 to 3: The Immediate Aftermath</h4>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">Month 1 to 3: The Immediate Aftermath</p>
                                     <p className="text-gray-700 leading-relaxed">
                                         This is the period immediately following your final settlement payment. Your primary task is to obtain the official Settlement Letter or NOC from the bank. Do not apply for any new credit during this phase, as your score has just taken its maximum hit. Check your CIBIL report 45 days after payment to ensure the status has been accurately updated to "Settled" and that the outstanding balance reflects exactly zero.
                                     </p>
@@ -362,7 +362,7 @@ export default function ImpactOfLoanSettlementClient() {
 
                                 <div className="relative pl-8">
                                     <div className="absolute w-4 h-4 bg-blue-500 rounded-full left-[-9px] top-1 border-2 border-white"></div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Month 4 to 12: Establishing a New Baseline</h4>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">Month 4 to 12: Establishing a New Baseline</p>
                                     <p className="text-gray-700 leading-relaxed">
                                         During this window, you must begin the active rebuilding process. Traditional banks will reject you, so you must opt for a secured credit card (a card issued against a fixed deposit). By using this card for small, routine purchases and paying the bill in full three days before the due date, you start generating fresh, positive reporting data. Your score will slowly begin to crawl upwards.
                                     </p>
@@ -370,7 +370,7 @@ export default function ImpactOfLoanSettlementClient() {
 
                                 <div className="relative pl-8">
                                     <div className="absolute w-4 h-4 bg-blue-400 rounded-full left-[-9px] top-1 border-2 border-white"></div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Year 2 to 3: Gaining Momentum</h4>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">Year 2 to 3: Gaining Momentum</p>
                                     <p className="text-gray-700 leading-relaxed">
                                         If you have maintained a flawless payment record on your secured card for 24 months, the negative weight of the "Settled" remark begins to dilute. Your score might cross the 700 threshold. At this stage, you may become eligible for small consumer durable loans (like financing a smartphone) or entry level unsecured credit cards from aggressive NBFCs.
                                     </p>
@@ -378,7 +378,7 @@ export default function ImpactOfLoanSettlementClient() {
 
                                 <div className="relative pl-8">
                                     <div className="absolute w-4 h-4 bg-blue-300 rounded-full left-[-9px] top-1 border-2 border-white"></div>
-                                    <h4 className="text-xl font-bold text-gray-900 mb-2">Year 4 to 7: Full Rehabilitation</h4>
+                                    <p className="text-xl font-bold text-gray-900 mb-2">Year 4 to 7: Full Rehabilitation</p>
                                     <p className="text-gray-700 leading-relaxed">
                                         As the settlement ages beyond 36 months, its impact on underwriting algorithms diminishes drastically. Provided you have built a thick file of positive repayment history across multiple credit products, traditional lenders will start entertaining your applications again. While the remark remains visible until year seven, you can successfully negotiate home loans and car loans by demonstrating strong current income and a pristine recent repayment track record.
                                     </p>
@@ -471,7 +471,7 @@ export default function ImpactOfLoanSettlementClient() {
                         <div className="space-y-6">
                             {/* CTA Card Widget */}
                             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                                <h4 className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     Stop paying high interest and start negotiating. We protect your rights.
                                 </p>
@@ -499,7 +499,7 @@ export default function ImpactOfLoanSettlementClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</p>
                                 <nav className="space-y-4 mt-2">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>

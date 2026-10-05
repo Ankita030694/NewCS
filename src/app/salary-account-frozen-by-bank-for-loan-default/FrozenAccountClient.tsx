@@ -171,7 +171,7 @@ export default function FrozenAccountClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -221,17 +221,17 @@ export default function FrozenAccountClient() {
                                 Essentially, if you owe Bank A fifty thousand rupees for a defaulted credit card, and you simultaneously have one lakh rupees sitting in a savings account with Bank A, the bank has the legal right to unilaterally transfer fifty thousand rupees from your savings account to clear the credit card debt. They do not need to ask for your permission, they do not need to wait for a court order, and they do not need to send you a polite request. They simply execute the transfer internally.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Is it Legal to Auto Debit My Entire Salary?</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">Is it Legal to Auto Debit My Entire Salary?</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This is the critical question where the legal framework becomes nuanced. While the Right of Set Off is a recognized legal principle, it is not an absolute, unchecked power. The application of this right must comply with the overarching guidelines established by the Reserve Bank of India (RBI) and basic principles of equity. 
                             </p>
 
                             {/* Data Callout Section Type */}
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200 mb-8 mt-6">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                                     RBI Guidelines on Subsistence Allowances
-                                </h4>
+                                </p>
                                 <ul className="space-y-4 text-blue-800">
                                     <li className="flex justify-between border-b border-blue-200 pb-2">
                                         <span className="font-semibold">Minimum Living Expenses:</span>
@@ -255,7 +255,7 @@ export default function FrozenAccountClient() {
                                 Despite these legal nuances, branch managers frequently operate on aggressive monthly targets. They often instruct their systems to auto debit any incoming funds until the overdue amount, including exorbitant penal interest and late fees, is completely satisfied. They operate on the assumption that the average borrower is ignorant of their rights and will simply accept the financial wipeout.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">How "Right of Set-Off" Ruins Your Finances</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">How "Right of Set-Off" Ruins Your Finances</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The destruction caused by an unchecked Right of Set Off cascades rapidly. First, it causes a severe liquidity crisis. Without your salary, you will inevitably default on your rent, your utility bills, and potentially your children's school fees. Second, it causes a domino effect on your other debt obligations. If your salary account is drained, the NACH mandates (National Automated Clearing House mandates) you have set up for loans with other banks will systematically bounce. 
                             </p>
@@ -268,7 +268,7 @@ export default function FrozenAccountClient() {
                                 When dealing with a hostile lending institution, speed is your primary advantage. You cannot afford to wait and hope that the bank will act benevolently next month. You must take immediate, decisive action to firewall your future income from their automated recovery systems.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Changing Your Salary Account Immediately</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">Changing Your Salary Account Immediately</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This is the single most important piece of advice in this entire guide. If your salary account is held with the bank where you have defaulted, you must change it immediately. You cannot negotiate from a position of weakness where the bank physically controls your cash.
                             </p>
@@ -276,14 +276,14 @@ export default function FrozenAccountClient() {
                                 Approach your HR department or payroll administrator the very same day. Request them to update your salary credit details to an account held in a completely unaffiliated banking institution. This new bank should be one where you have absolutely zero credit cards, zero personal loans, and zero outstanding debt. By routing your salary to a neutral third party bank, you instantly neutralize the lending bank's Right of Lien. They cannot reach across institutional boundaries to freeze an account in a different bank without a highly specific court order, which is rarely pursued for unsecured retail loans.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">How to Stop Auto Debit for Personal Loans</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">How to Stop Auto Debit for Personal Loans</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In addition to changing your salary account, you must systematically dismantle the automated debit instructions that allow the bank to pull funds. Even if you change your salary account, old NACH mandates might still trigger bounce fees on the old account, pushing it further into a negative balance.
                             </p>
 
                             {/* Step Checklist Section Type */}
                             <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm mb-8 mt-6">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4">Steps to Revoke NACH and Auto Debits</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4">Steps to Revoke NACH and Auto Debits</p>
                                 <div className="space-y-4">
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">1</div>
@@ -388,7 +388,7 @@ export default function FrozenAccountClient() {
                         <div className="space-y-6">
                             {/* CTA Card Widget */}
                             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                                <h4 className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     Stop paying high interest and start negotiating. We protect your rights.
                                 </p>
@@ -416,7 +416,7 @@ export default function FrozenAccountClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</p>
                                 <nav className="space-y-4 mt-2">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>

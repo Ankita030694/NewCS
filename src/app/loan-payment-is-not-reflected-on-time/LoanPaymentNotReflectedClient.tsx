@@ -203,7 +203,7 @@ export default function LoanPaymentNotReflectedClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -315,7 +315,7 @@ export default function LoanPaymentNotReflectedClient() {
                                         </svg>
                                     </div>
                                     <div className="ml-3">
-                                        <h3 className="text-lg font-medium text-red-800">Critical Deadline: 72 Hours</h3>
+                                        <p className="text-lg font-medium text-red-800">Critical Deadline: 72 Hours</p>
                                         <p className="mt-2 text-sm text-red-700">
                                             You must formally report the technical glitch and the unfair penalty to the lender's grievance redressal email within 72 hours of receiving the bounce notification. Delaying your complaint weakens your case and gives the bank an excuse to deny the penalty reversal.
                                         </p>
@@ -353,7 +353,7 @@ export default function LoanPaymentNotReflectedClient() {
                             {/* Visual Element 3: Negotiation Script / Complaint Template */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-xl font-bold mb-4 border-b border-gray-700 pb-2">Email Template to Nodal Officer</h4>
+                                <h3 className="text-xl font-bold mb-4 border-b border-gray-700 pb-2">Email Template to Nodal Officer</h3>
                                 <div className="font-mono text-sm text-gray-300 whitespace-pre-wrap leading-relaxed">
                                     Subject: Urgent: Unfair Bounce Penalty Levied Due to Bank Technical Glitch [Loan Account Number]<br/><br/>
                                     Dear Nodal Officer,<br/><br/>
@@ -389,7 +389,7 @@ export default function LoanPaymentNotReflectedClient() {
                             </p>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">The Unjustified NACH Bounce</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">The Unjustified NACH Bounce</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A software engineer in Pune maintained a balance of fifty thousand rupees for a twenty thousand rupee EMI. The NACH mandate failed, and the bank slapped a penalty of one thousand rupees. Customer care refused to refund it, claiming the system was automated.
                                     </p>
@@ -398,7 +398,7 @@ export default function LoanPaymentNotReflectedClient() {
                                     </p>
                                 </div>
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">The Missing NEFT Transfer</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">The Missing NEFT Transfer</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A small business owner transferred his loan EMI via NEFT two days before the due date. The money was debited but the loan account showed overdue status, racking up daily penal interest.
                                     </p>
@@ -467,7 +467,7 @@ export default function LoanPaymentNotReflectedClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Unfair Penalties?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Unfair Penalties?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can help you force the bank to reverse bounce charges and penal interest.</p>
                                 <Link
                                     href="/contact"
@@ -485,7 +485,7 @@ export default function LoanPaymentNotReflectedClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

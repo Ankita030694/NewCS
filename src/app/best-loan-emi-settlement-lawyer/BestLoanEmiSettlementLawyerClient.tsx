@@ -269,7 +269,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -326,14 +326,14 @@ export default function BestLoanEmiSettlementLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Many borrowers ask: "Can’t I just talk to the bank myself?" You can, but you’ll be speaking to a wall. Bank managers are incentivized to recover 100% plus penalties. They are trained to use guilt and fear. A lawyer, however, changes the dynamic.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The "Lawyer Advantage" in 2025:</h4>
+                            <p className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The "Lawyer Advantage" in 2025:</p>
                             <ul className="list-disc pl-6 mb-8 space-y-4 text-gray-700 font-light">
                                 <li><strong>Procedural Audits:</strong> A lawyer audits your loan file for "Pre-disbursement violations." Did the bank follow the RBI’s Digital Lending Guidelines? Did they disclose the true APR? If not, the loan contract itself can be challenged.</li>
                                 <li><strong>Legal Shield from Harassment:</strong> The moment a lawyer issues a Vakalatnama (representation), the bank’s recovery agents are legally barred from contacting you directly. They must speak to your counsel. This provides immediate psychological relief.</li>
                                 <li><strong>Technical Negotiation:</strong> Banks have "Write-off Buckets." A lawyer knows when the bank’s fiscal year is ending and when they are most desperate to clear NPAs from their books to show "Clean Assets" to investors.</li>
                                 <li><strong>Defense against "Section 138" and "SARFAESI":</strong> If you are facing criminal cases for cheque bounce or auction notices for home loans, a lawyer is non-negotiable. They can secure "Stays" and buy you the time needed to negotiate a settlement.</li>
                             </ul>
-                            <h3 className="text-2xl font-black text-gray-900 mb-4 mt-8 uppercase tracking-widest border-b-4 border-blue-600 inline-block">The "Vakalatnama" Power 2026</h3>
+                            <p className="text-2xl font-black text-gray-900 mb-4 mt-8 uppercase tracking-widest border-b-4 border-blue-600 inline-block">The "Vakalatnama" Power 2026</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2026, the legal weight of a registered advocate’s presence in a banking negotiation has increased. Under the new "Representation Protocols," once a bank is officially notified that a borrower is represented by a member of the Bar Council, all "Direct Collection" attempts must be suspended. Any breach of this protocol is seen as an "Interference with the Legal Process," giving your lawyer the grounds to file a contempt of sorts or a grievance with the High Court.
                             </p>
@@ -346,7 +346,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
                                 Settlement is a process, not a singular event. In 2025, the process has become more structured due to the RBI’s "Prompt Corrective Action" (PCA) framework for banks.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-[2.5rem] border border-blue-100 mb-10 shadow-sm">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4">The 5-Stage Resolution Cycle:</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4">The 5-Stage Resolution Cycle:</p>
                                 <ol className="space-y-4 text-gray-800 font-light">
                                     <li><strong>1. The Default phase (0-90 days):</strong> Usually SMA-0, 1, and 2. This is the "Harassment Phase." A lawyer initiates the "Hardship Notification" during this period to prevent the account from being flagged as a "Willful Default."</li>
                                     <li><strong>2. The NPA Phase (91+ days):</strong> The loan becomes a Non-Performing Asset. This is when the bank’s "Settlement Committee" takes interest. This is the optimal time for the first settlement offer.</li>
@@ -360,10 +360,10 @@ export default function BestLoanEmiSettlementLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Effective October 1, 2025, the RBI has mandated a <strong>"Standardized Fact Sheet" (SFS)</strong> for all personal loans. This is part of the broader "Truth-in-Lending" framework which aims to eliminate hidden charges.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The "Compliance Audit" approach:</h4>
+                            <p className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The "Compliance Audit" approach:</p>
                             <p className="text-gray-700 mb-6 italic">When our lawyers take over a case, the first thing we do is a compliance audit of the SFS. If the bank has charged a penny more than what was disclosed in the SFS, or if they have buried the "Default Penalty" in fine print without a specific numeric disclosure, the whole loan agreement can be challenged as a "Restraint of Trade" or "Unconscionable Contract."</p>
                             <div className="bg-amber-50 p-8 rounded-3xl border-l-8 border-amber-500 mb-10 shadow-sm">
-                                <h4 className="text-xl font-bold text-amber-900 mb-4 uppercase tracking-tighter">The "Hidden Fee" Discovery:</h4>
+                                <p className="text-xl font-bold text-amber-900 mb-4 uppercase tracking-tighter">The "Hidden Fee" Discovery:</p>
                                 <p className="text-gray-800 mb-4">Did you know that in 2025, many "App-based" lenders are still charging "Technology Convenience Fees" that aren’t part of the disclosed interest? These are technically illegal. A specialized lawyer uses these specific violations to force the bank into a "Settlement as a Correction" mode.</p>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
@@ -382,7 +382,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, banks don’t just take your word for it. They use "Data Verification" companies to check your social media, your other bank accounts, and your lifestyle. If you say you’re broke but your Instagram shows you on a vacation, the settlement will be rejected.
                             </p>
-                            <h4 className="text-lg font-bold mb-4">What constitutes "Verified Hardship" in 2025-26:</h4>
+                            <p className="text-lg font-bold mb-4">What constitutes "Verified Hardship" in 2025-26:</p>
                             <ul className="list-disc pl-6 space-y-4 mb-8 text-gray-700">
                                 <li><strong>Medical Crisis:</strong> Specifically, chronic illnesses or major surgeries that depleted your savings. (Insurance claim rejection letters are excellent proof).</li>
                                 <li><strong>Employment Volatility:</strong> Termination letters, proof of salary cuts, or the closing of a business entity (GST surrender certificates).</li>
@@ -403,15 +403,15 @@ export default function BestLoanEmiSettlementLawyerClient() {
                             <p className="text-gray-700 mb-6">This policy is the "Bible" for any settlement lawyer. It contains the "Categorization of Borrowers":</p>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                                 <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
-                                    <h5 className="font-bold text-sm mb-2 text-blue-900">Category A: Genuine Stress</h5>
+                                    <p className="font-bold text-sm mb-2 text-blue-900">Category A: Genuine Stress</p>
                                     <p className="text-[10px] text-gray-600 leading-normal">Borrowers who have lost income and have no property. Eligible for maximum haircut (60-80%).</p>
                                 </div>
                                 <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
-                                    <h5 className="font-bold text-sm mb-2 text-blue-900">Category B: Secured with Weak Value</h5>
+                                    <p className="font-bold text-sm mb-2 text-blue-900">Category B: Secured with Weak Value</p>
                                     <p className="text-[10px] text-gray-600 leading-normal">Borrowers with mortgaged property where the market value has dropped. Eligible for 40-50% haircut.</p>
                                 </div>
                                 <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
-                                    <h5 className="font-bold text-sm mb-2 text-blue-900">Category C: Willful Defaulters</h5>
+                                    <p className="font-bold text-sm mb-2 text-blue-900">Category C: Willful Defaulters</p>
                                     <p className="text-[10px] text-gray-600 leading-normal">Borrowers who have funds but won’t pay. NOT eligible for settlement. Banks will litigation to the end here.</p>
                                 </div>
                             </div>
@@ -482,7 +482,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
                                 Don’t let a lawyer become another source of debt. In 2025, the market for debt relief lawyers is transparent.
                             </p>
                             <div className="bg-slate-900 text-white p-8 rounded-2xl mb-10">
-                                <h4 className="text-xl font-bold mb-4 italic underline decoration-blue-500 underline-offset-4">The "CredSettle" Standard:</h4>
+                                <h3 className="text-xl font-bold mb-4 italic underline decoration-blue-500 underline-offset-4">The "CredSettle" Standard:</h3>
                                 <ul className="space-y-4 font-light text-slate-300">
                                     <li><strong className="text-white">Analysis Fee:</strong> A one-time fee to review your documents and provide a "Settlement feasibility report."</li>
                                     <li><strong className="text-white">Litigation Fee:</strong> Per-hearing or per-filing fee for court/DRT cases.</li>
@@ -494,7 +494,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 Avoid "Generalist" lawyers who handle everything from divorce to property disputes. You need a **Banking & Finance Litigation Specialist**.
                             </p>
-                            <h4 className="text-lg font-bold mb-4">The Selection Checklist:</h4>
+                            <h3 className="text-lg font-bold mb-4">The Selection Checklist:</h3>
                             <ul className="list-disc pl-6 space-y-3 mb-10 text-gray-700">
                                 <li>Do they have experience specifically in DRT/NCLT?</li>
                                 <li>Do they understand the difference between "SMA-2" and "NPA"?</li>
@@ -505,7 +505,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 11: Case Studies: EMI Settlement Triumphs</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-white p-8 rounded-3xl border border-blue-100 shadow-xl border-l-8 border-blue-600">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case 1: The "Digital App" Trap (Delhi)</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case 1: The "Digital App" Trap (Delhi)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A client had 12 small app loans totaling 8 Lakhs. The interest rates were effectively 45% once fees were included. Harassment was extreme.
                                     </p>
@@ -514,7 +514,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
                                     </p>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl border border-blue-100 shadow-xl border-l-8 border-blue-600">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case 2: The "MSME Mortgaged" Recovery (Hyderabad)</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Case 2: The "MSME Mortgaged" Recovery (Hyderabad)</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A small factory owner was facing auction under SARFAESI for a 2 Crore loan.
                                     </p>
@@ -591,7 +591,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2 uppercase italic">Debt Shield 2025</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2 uppercase italic">Debt Shield 2025</p>
                                 <p className="text-sm text-gray-600 mb-6">We stop recovery agents and criminal notices within 24 hours of engagement.</p>
                                 <Link
                                     href="/contact"
@@ -608,7 +608,7 @@ export default function BestLoanEmiSettlementLawyerClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2 text-[10px] tracking-widest">Resolution Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2 text-[10px] tracking-widest">Resolution Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-xs font-bold text-gray-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Personal Loan Help</Link>
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-xs font-bold text-gray-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Recovery Shield</Link>

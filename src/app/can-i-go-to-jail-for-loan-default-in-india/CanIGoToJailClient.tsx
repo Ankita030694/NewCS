@@ -340,7 +340,7 @@ export default function CanIGoToJailClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Jail Risk Truths</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Jail Risk Truths</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -445,7 +445,7 @@ export default function CanIGoToJailClient() {
                                 If you have the money but intentionally refuse to pay, the bank may declare you a <strong className="font-bold text-gray-900">"Wilful Defaulter."</strong>
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
-                                <h4 className="font-bold text-red-900 mb-4 text-sm uppercase tracking-wider">Consequences of Wilful Default:</h4>
+                                <p className="font-bold text-red-900 mb-4 text-sm uppercase tracking-wider">Consequences of Wilful Default:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li>❌ <strong>No Future Credit:</strong> Permanent ban from taking loans from any Indian bank.</li>
                                     <li>❌ <strong>Director Ban:</strong> You cannot be a director of any company.</li>
@@ -515,7 +515,7 @@ export default function CanIGoToJailClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -578,7 +578,7 @@ export default function CanIGoToJailClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Immunity</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Immunity</p>
                                 <p className="text-sm text-gray-600 mb-6">We provide expert representation for Debt Recovery cases, ensuring you never face illegal arrest or harassment.</p>
                                 <Link
                                     href="/contact"
@@ -595,7 +595,7 @@ export default function CanIGoToJailClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</p>
                                 <nav className="space-y-3">
                                     <Link href="/recovery-agents-calling-family-members-law" className="block text-sm text-blue-600 hover:underline">Family Privacy Law</Link>
                                     <Link href="/rbi-rules-for-recovery-agents" className="block text-sm text-blue-600 hover:underline">RBI Agent Guidelines</Link>

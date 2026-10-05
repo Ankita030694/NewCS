@@ -499,12 +499,12 @@ export default function ResourcesClient({
                         />
                       </div>
                       <div className="flex flex-col gap-2">
-                        <h3
+                        <p
                           className="text-[#0C2756] font-semibold text-base md:text-lg leading-tight text-left"
                           style={{ fontFamily: 'Poppins' }}
                         >
                           {post.title}
-                        </h3>
+                        </p>
                         <p
                           className="text-[rgba(12,39,86,0.7)] text-xs md:text-sm text-left"
                           style={{ fontFamily: 'Poppins' }}

@@ -310,9 +310,9 @@ export default function HeroSection() {
           padding: '16px'
         }}
       >
-        <h2 className="font-bold text-center text-gray-800 mb-4" style={{fontSize: '16px'}}>
+        <p className="font-bold text-center text-gray-800 mb-4" style={{fontSize: '16px'}}>
           Settlements Achieved With Banks
-        </h2>
+        </p>
         
         {/* Sliding Bank Logos using Splide */}
         <div className="w-full">
@@ -402,9 +402,9 @@ export default function HeroSection() {
             boxShadow: '3.6px 3.6px 22.41px 0 rgba(12, 39, 86, 0.25)'
           }}
         >
-          <h2 className="font-bold text-center text-gray-800" style={{fontSize: '19.44px', paddingLeft: '25.92px', paddingRight: '25.92px', marginBottom: '19.44px'}}>
+          <p className="font-bold text-center text-gray-800" style={{fontSize: '19.44px', paddingLeft: '25.92px', paddingRight: '25.92px', marginBottom: '19.44px'}}>
             Settlements Achieved With Banks
-          </h2>
+          </p>
           
           {/* Sliding Bank Logos using Splide */}
           <div className="w-full" style={{paddingLeft: '12.96px', paddingRight: '12.96px'}}>

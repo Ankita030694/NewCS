@@ -467,19 +467,19 @@ export default function VerifyLoanSettlementLetterClient() {
               {/* Tax Implications Breakdown */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                  <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
                     Retail Loans: Zero TDS Under Section 194R
-                  </h4>
+                  </h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Under CBDT Circular No. 12/2022, waivers granted on personal loans, consumer loans, and credit cards for personal use are <strong>completely exempt from Section 194R TDS</strong>. The bank cannot deduct 10% TDS or withhold your No Dues Certificate on tax grounds.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs">
-                  <h4 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-slate-900 mb-2 flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-amber-500"></span>
                     Commercial &amp; MSME Loans: Section 41(1) / 28(iv)
-                  </h4>
+                  </h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     For corporate borrowers and proprietorship firms where interest was previously claimed as a business tax deduction, the waived interest component may be treated as remission of liability under Section 41(1). Ensure your settlement letter categorizes the waiver accurately.
                   </p>
@@ -1124,9 +1124,9 @@ Place: [City, State]`}
                 <span>100% CONFIDENTIAL</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white leading-tight">
+                <p className="text-xl font-bold text-white leading-tight">
                   Received a Loan Settlement Letter?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
                   Don&apos;t risk paying into fake accounts or revocable proposals. Our legal professionals verify your letterhead, CBS codes, and discharge clauses before you pay.
                 </p>
@@ -1150,10 +1150,10 @@ Place: [City, State]`}
 
             {/* Card 3: Trust Signals Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-3 text-xs shadow-xs">
-              <h4 className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                 CredSettle Trust Commitments
-              </h4>
+              </p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />

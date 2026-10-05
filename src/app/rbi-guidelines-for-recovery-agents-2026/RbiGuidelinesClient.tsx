@@ -195,7 +195,7 @@ export default function RbiGuidelinesClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -254,7 +254,7 @@ export default function RbiGuidelinesClient() {
                                 Moreover, defaulters possess the right to adequate notice before any drastic recovery action is initiated. Lenders cannot arbitrarily seize your property or freeze your accounts without following the due process of law. This involves issuing formal notices, providing a reasonable window for repayment or negotiation, and obtaining necessary orders from competent legal authorities such as the Debt Recovery Tribunal (DRT) or civil courts. Any attempt to bypass these procedures constitutes an illegal act of coercion.
                             </p>
                             
-                            <h3 id="harassment-vs-legal" className="text-2xl font-bold text-gray-900 mb-4 mt-8 scroll-mt-20">Harassment vs. Legal Recovery</h3>
+                            <h2 id="harassment-vs-legal" className="text-2xl font-bold text-gray-900 mb-4 mt-8 scroll-mt-20">Harassment vs. Legal Recovery</h2>
                             
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Distinguishing between legitimate debt recovery efforts and unlawful harassment is vital. Legal recovery involves formal written communications, standardized reminder calls during permitted hours, and the initiation of proper legal proceedings in a court of law or tribunal. It is a process bound by rules, documentation, and respect for the borrower's rights. It seeks to resolve the financial dispute through established civic mechanisms. For more details on proper legal channels, review our guide on <Link href="/rbi-rules-for-recovery-agents" className="text-blue-600 hover:underline">RBI rules for recovery agents</Link>.
@@ -264,7 +264,7 @@ export default function RbiGuidelinesClient() {
                                 Harassment, conversely, is defined by intimidation and coercion. It includes using abusive or profane language, making continuous and repeated phone calls designed to annoy, threatening physical violence, or attempting to publicly shame the borrower. Showing up at a borrower's workplace unannounced to create a scene is harassment. Sending fabricated legal notices designed to look like police warrants is harassment. These actions are criminal in nature and move the situation from a civil debt matter to a police matter.
                             </p>
                             
-                            <h3 id="working-hours" className="text-2xl font-bold text-gray-900 mb-4 mt-8 scroll-mt-20">Working Hours and Contact Rules</h3>
+                            <h2 id="working-hours" className="text-2xl font-bold text-gray-900 mb-4 mt-8 scroll-mt-20">Working Hours and Contact Rules</h2>
                             
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The most explicit and easily verifiable regulation concerns contact hours. The rbi guidelines for recovery agents 2026 unequivocally state that agents may only contact borrowers between 8:00 AM and 7:00 PM. A phone call at 7:05 PM is a violation. A visit at 7:30 AM is a violation. These boundaries are non negotiable. They are designed to ensure that individuals have peaceful mornings and evenings, free from the stress of financial collection.
@@ -277,7 +277,7 @@ export default function RbiGuidelinesClient() {
                             </p>
 
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
-                                <h4 className="font-bold text-blue-900 mb-4 text-xl">The Major Red Flags of Illegal Collection</h4>
+                                <p className="font-bold text-blue-900 mb-4 text-xl">The Major Red Flags of Illegal Collection</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
@@ -307,27 +307,27 @@ export default function RbiGuidelinesClient() {
                             <div className="relative border-l-4 border-blue-600 ml-4 py-2 mb-8 space-y-8">
                                 <div className="pl-6 relative">
                                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] top-1"></div>
-                                    <h4 className="font-bold text-xl text-gray-900 mb-2">Step 1: Gather and Organize Evidence</h4>
+                                    <p className="font-bold text-xl text-gray-900 mb-2">Step 1: Gather and Organize Evidence</p>
                                     <p className="text-gray-700">Before approaching the authorities, compile all your proof. Take screenshots of call logs showing calls outside permitted hours. Save abusive WhatsApp messages. Download call recordings. Write down the names, phone numbers, and agency names of the offending individuals. Solid evidence is necessary for the police to register a First Information Report (FIR).</p>
                                 </div>
                                 <div className="pl-6 relative">
                                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] top-1"></div>
-                                    <h4 className="font-bold text-xl text-gray-900 mb-2">Step 2: Send a Formal Legal Notice to the Bank</h4>
+                                    <p className="font-bold text-xl text-gray-900 mb-2">Step 2: Send a Formal Legal Notice to the Bank</p>
                                     <p className="text-gray-700">Send a legal notice to the Grievance Redressal Officer of the lending institution. Inform them that their agents are violating the RBI guidelines and committing criminal acts. Give them a strict deadline (e.g. 7 days) to halt the harassment. Often, this formal legal threat is enough to make the bank withdraw the aggressive agents. Consider using a template like the <Link href="/legal-notice-for-loan-settlement-harassment" className="text-blue-600 hover:underline">legal notice for loan settlement harassment</Link>.</p>
                                 </div>
                                 <div className="pl-6 relative">
                                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] top-1"></div>
-                                    <h4 className="font-bold text-xl text-gray-900 mb-2">Step 3: Register a Police Complaint (FIR)</h4>
+                                    <p className="font-bold text-xl text-gray-900 mb-2">Step 3: Register a Police Complaint (FIR)</p>
                                     <p className="text-gray-700">If the harassment continues, visit your local police station. Submit a written complaint detailing the harassment, attaching your evidence. Request the police to file an FIR under relevant sections of the Indian Penal Code, such as Section 503 (Criminal Intimidation), Section 504 (Intentional Insult with intent to provoke breach of the peace), and Section 506 (Punishment for criminal intimidation). Ensure you get a stamped copy of your complaint.</p>
                                 </div>
                                 <div className="pl-6 relative">
                                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] top-1"></div>
-                                    <h4 className="font-bold text-xl text-gray-900 mb-2">Step 4: Escalate to the RBI Ombudsman</h4>
+                                    <p className="font-bold text-xl text-gray-900 mb-2">Step 4: Escalate to the RBI Ombudsman</p>
                                     <p className="text-gray-700">If the bank ignores your legal notice and the harassment persists, file a formal complaint with the Banking Ombudsman through the RBI Complaint Management System (CMS) portal. The Ombudsman has the power to heavily penalize the bank and mandate compensation for the mental agony caused by their recovery agents. This is a highly effective, free mechanism for dispute resolution.</p>
                                 </div>
                                 <div className="pl-6 relative">
                                     <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] top-1"></div>
-                                    <h4 className="font-bold text-xl text-gray-900 mb-2">Step 5: Approach the Consumer Court or Civil Court</h4>
+                                    <p className="font-bold text-xl text-gray-900 mb-2">Step 5: Approach the Consumer Court or Civil Court</p>
                                     <p className="text-gray-700">For severe cases involving significant mental trauma or financial loss due to defamation, you can file a suit in the Consumer Dispute Redressal Forum for deficiency in service, or file a civil suit for injunction (to legally ban the agents from contacting you) and claim financial damages for defamation and harassment.</p>
                                 </div>
                             </div>
@@ -340,15 +340,15 @@ export default function RbiGuidelinesClient() {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2 flex items-center text-lg">
+                                    <h3 className="font-bold text-gray-900 mb-2 flex items-center text-lg">
                                         <span className="text-blue-600 mr-2 text-2xl font-black">X</span> Myth
-                                    </h4>
+                                    </h3>
                                     <p className="text-gray-700 italic">"We have a warrant for your arrest because you bounced an EMI check."</p>
                                 </div>
                                 <div className="bg-green-50 p-6 rounded-2xl border border-green-200">
-                                    <h4 className="font-bold text-green-900 mb-2 flex items-center text-lg">
+                                    <h3 className="font-bold text-green-900 mb-2 flex items-center text-lg">
                                         <span className="text-green-600 mr-2 text-2xl font-black">✓</span> Fact
-                                    </h4>
+                                    </h3>
                                     <p className="text-gray-800">Only a judge can issue an arrest warrant. An EMI bounce is a civil matter. Even under Section 138 (cheque bounce), a formal court process is required, and agents cannot arrest you.</p>
                                 </div>
                             </div>
@@ -403,7 +403,7 @@ export default function RbiGuidelinesClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6">Do not ignore illegal recovery tactics. Secure your rights and build a strong defense.</p>
                                 <Link
                                     href="/contact"
@@ -420,7 +420,7 @@ export default function RbiGuidelinesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

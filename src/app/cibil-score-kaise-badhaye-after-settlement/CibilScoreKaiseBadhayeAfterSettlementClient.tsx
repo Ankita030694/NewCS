@@ -669,7 +669,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
                     <span className="text-xs font-black text-[#1886ff] uppercase tracking-wider block">Level 1: GRO</span>
-                    <h4 className="font-bold text-slate-900 text-sm">Grievance Redressal Officer</h4>
+                    <h3 className="font-bold text-slate-900 text-sm">Grievance Redressal Officer</h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
                       Bank ke dedicated GRO desk ko formal grievance submit karein. Turnaround: 7-10 working days.
                     </p>
@@ -677,7 +677,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
 
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
                     <span className="text-xs font-black text-[#1886ff] uppercase tracking-wider block">Level 2: PNO</span>
-                    <h4 className="font-bold text-slate-900 text-sm">Principal Nodal Officer</h4>
+                    <h3 className="font-bold text-slate-900 text-sm">Principal Nodal Officer</h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
                       Resolution na milne par matter bank PNO desk ko escalate karein. Turnaround: 14-21 days.
                     </p>
@@ -685,7 +685,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
 
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
                     <span className="text-xs font-black text-[#1886ff] uppercase tracking-wider block">Level 3: RBI Ombudsman</span>
-                    <h4 className="font-bold text-slate-900 text-sm">Integrated Ombudsman</h4>
+                    <h3 className="font-bold text-slate-900 text-sm">Integrated Ombudsman</h3>
                     <p className="text-xs text-slate-600 leading-relaxed">
                       30 dino mein satisfactory resolution na milne par RBI Portal cms.rbi.org.in par complaint darj karein.
                     </p>
@@ -767,7 +767,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 {/* Scenario 1 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm md:text-base">Multiple Settled Accounts</h4>
+                  <h3 className="font-bold text-slate-900 text-sm md:text-base">Multiple Settled Accounts</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Agar multiple accounts settle hue hain, toh sabhi ke NDCs collect karein. Rebuilding phase mein ek central secured card se positive payment frequency establish karein.
                   </p>
@@ -775,7 +775,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
 
                 {/* Scenario 2 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm md:text-base">Salaried Corporate Verification</h4>
+                  <h3 className="font-bold text-slate-900 text-sm md:text-base">Salaried Corporate Verification</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     MNCs pre-employment checks mein CIBIL check karti hain. Settled loan par valid NDC aur zero balance show karne par employment check smoothly clear ho jata hai.
                   </p>
@@ -783,7 +783,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
 
                 {/* Scenario 3 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm md:text-base">Business MSME Capital</h4>
+                  <h3 className="font-bold text-slate-900 text-sm md:text-base">Business MSME Capital</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     Proprietors jinke personal loans settle hue hain, unhe business credit ke liye GST turnover based loans ya CGTMSE schemes use karni chahiye jab tak CIBIL 720+ na ho.
                   </p>
@@ -791,7 +791,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
 
                 {/* Scenario 4 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm md:text-base">ARC-Assigned Debt</h4>
+                  <h3 className="font-bold text-slate-900 text-sm md:text-base">ARC-Assigned Debt</h3>
                   <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
                     ARCs ko assign hue loans mein settlement agreement aur Section 5 SARFAESI compliance confirmation letter lena bureau updation ke liye mandatory hota hai.
                   </p>
@@ -995,9 +995,9 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL CREDIT REPAIR
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   CIBIL Score Rebuild Karna Chahte Hain?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Hamare experts se settlement, NDC verification aur CIBIL restoration par personalized guidance lein.
                 </p>
@@ -1024,7 +1024,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">The CredSettle Advantage</h4>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -1047,7 +1047,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related Credit Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related Credit Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/convert-settled-status-to-closed"

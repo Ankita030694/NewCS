@@ -233,7 +233,7 @@ export default function LoanPartialPaymentClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -300,7 +300,7 @@ export default function LoanPartialPaymentClient() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                                 </svg>
                                 <div>
-                                    <h4 className="text-xl font-bold mb-2">Critical Rule: The Timing Factor</h4>
+                                    <p className="text-xl font-bold mb-2">Critical Rule: The Timing Factor</p>
                                     <p className="text-yellow-800 font-light">
                                         Making a part payment makes the most financial sense during the first half of your loan tenure. If you make a part payment towards the very end of your loan, you have already paid the majority of the interest. In such cases, the penalties and fees might actually exceed the minor interest savings you achieve.
                                     </p>
@@ -396,12 +396,12 @@ export default function LoanPartialPaymentClient() {
                             
                             {/* Checklist Visual Element */}
                             <div className="bg-gray-50 border border-gray-200 rounded-3xl p-8 mb-10 shadow-sm">
-                                <h4 className="text-2xl font-black text-gray-900 mb-6 flex items-center gap-3">
+                                <h3 className="text-2xl font-black text-gray-900 mb-6 flex items-center gap-3">
                                     <svg className="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     The Optimal Timing Checklist
-                                </h4>
+                                </h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-3">
                                         <div className="mt-1 bg-blue-100 text-blue-700 p-1 rounded-full"><svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg></div>
@@ -518,7 +518,7 @@ export default function LoanPartialPaymentClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Loan Advice?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Loan Advice?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can help you analyze your loan agreement and build an optimal repayment strategy today.</p>
                                 <Link
                                     href="/contact"
@@ -536,7 +536,7 @@ export default function LoanPartialPaymentClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/foreclosure-and-part-prepayment-charges-on-personal-loan" className="block text-sm text-blue-600 hover:underline">Prepayment Charges Guide</Link>
                                     <Link href="/loan-foreclosure-prepayment-charges-waiver" className="block text-sm text-blue-600 hover:underline">Fee Waiver Strategies</Link>

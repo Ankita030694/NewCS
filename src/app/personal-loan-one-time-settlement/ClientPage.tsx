@@ -47,25 +47,25 @@ export default function ClientPage() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-1">Total Liability Discharge</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-1">Total Liability Discharge</h3>
                   <p className="text-xs text-gray-600">
                     Once the agreed OTS sum is deposited, the bank cannot pursue any civil recovery suits, arbitration claims, or execution petitions against you.
                   </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-1">Substantial Financial Waivers</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-1">Substantial Financial Waivers</h3>
                   <p className="text-xs text-gray-600">
                     OTS agreements routinely waive 100% of accumulated penal interest, overdue charges, legal expenses, and a major proportion of outstanding principal.
                   </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-1">Immediate Cessation of Harassment</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-1">Immediate Cessation of Harassment</h3>
                   <p className="text-xs text-gray-600">
                     Signing an OTS permanently halts collection agency communications, home visits, and automated tele-calling campaigns.
                   </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
-                  <h4 className="font-bold text-[#0C2756] mb-1">Issuance of No Dues Certificate</h4>
+                  <h3 className="font-bold text-[#0C2756] mb-1">Issuance of No Dues Certificate</h3>
                   <p className="text-xs text-gray-600">
                     The bank provides a formal NDC within 30 days, officially certifying that you hold no further liabilities under the loan facility.
                   </p>
@@ -74,7 +74,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-amber-950 mb-2">Upgrading Settled to Closed</h4>
+              <h3 className="font-bold text-amber-950 mb-2">Upgrading Settled to Closed</h3>
               <p className="text-sm text-amber-800 leading-relaxed">
                 When an OTS is executed, credit bureaus reflect the status as &apos;Settled&apos;. Later, when your financial position improves, you can upgrade the status to &apos;Closed&apos; by paying the differential waiver amount to restore your CIBIL score to 750+.
               </p>
@@ -105,7 +105,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Secure Your One-Time Settlement Today</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Secure Your One-Time Settlement Today</h3>
               <p className="mb-4 text-sm text-gray-600">Our advocates represent you before top banks across India to finalize legally watertight OTS agreements.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get an OTS Consultation

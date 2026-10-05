@@ -343,7 +343,7 @@ export default function RecoveryAgentsThreateningMeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Survival Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Survival Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -411,7 +411,7 @@ export default function RecoveryAgentsThreateningMeClient() {
                                 The banking regulator, RBI, has been remarkably proactive in the last 24 months. The 2025 guidelines have placed the responsibility for agent behavior directly on the bank’s board. This means you no longer just fight the agent; you hold the entire multi-billion dollar bank accountable for that agent’s actions.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4 font-bold uppercase tracking-wider">Key Provisions of the 2025 Master Directions:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4 font-bold uppercase tracking-wider">Key Provisions of the 2025 Master Directions:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex gap-3">
                                         <span className="text-blue-600 font-bold">v</span>
@@ -452,19 +452,19 @@ export default function RecoveryAgentsThreateningMeClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-gray-900 mb-3">Daily Harassment Log</h4>
+                                    <p className="font-bold text-gray-900 mb-3">Daily Harassment Log</p>
                                     <p className="text-sm text-gray-600">Keep a diary. Note the time of every call, the number it came from, the name of the caller (if given), and a summary of what was said. This log itself is evidence of "Repetitive Harassment."</p>
                                 </div>
                                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-gray-900 mb-3">Digital Preservation</h4>
+                                    <p className="font-bold text-gray-900 mb-3">Digital Preservation</p>
                                     <p className="text-sm text-gray-600">Never delete a threatening SMS or WhatsApp message. Take screenshots and email them to yourself so they are backed up on a server. Record every phone call. Modern smartphones have built-in recorders, so use them.</p>
                                 </div>
                                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-gray-900 mb-3">Video Proof</h4>
+                                    <p className="font-bold text-gray-900 mb-3">Video Proof</p>
                                     <p className="text-sm text-gray-600">If agents visit your home, use your doorbell camera or your mobile phone to record them. Ensure the video captures their lack of ID or their aggressive gestures. A 30-second video of a shouting agent is more powerful than a 50-page legal brief.</p>
                                 </div>
                                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-gray-900 mb-3">Witness Statements</h4>
+                                    <p className="font-bold text-gray-900 mb-3">Witness Statements</p>
                                     <p className="text-sm text-gray-600">If an agent creates a scene in your society or office, ask a friend or neighbor if they would be willing to testify or write a short note about what they saw. External validation of harassment is the "Nail in the Coffin" for a bank’s defense.</p>
                                 </div>
                             </div>
@@ -517,15 +517,15 @@ export default function RecoveryAgentsThreateningMeClient() {
                             </p>
                             <div className="space-y-4 mb-8 ">
                                 <div className="border-l-4 border-blue-600 pl-6 py-2">
-                                    <h5 className="font-bold text-gray-900">Level 1: The Bank’s Nodal Officer</h5>
+                                    <h3 className="font-bold text-gray-900">Level 1: The Bank’s Nodal Officer</h3>
                                     <p className="text-gray-600 italic ">Don’t call the customer care; they are often the ones hiring the agents. Email the <strong>Principal Nodal Officer (PNO)</strong> of the bank. Their details are mandatorily listed on the bank’s website. Use the term "Breach of RBI Fair Practices Code."</p>
                                 </div>
                                 <div className="border-l-4 border-blue-600 pl-6 py-2">
-                                    <h5 className="font-bold text-gray-900">Level 2: The Integrated Ombudsman</h5>
+                                    <h3 className="font-bold text-gray-900">Level 2: The Integrated Ombudsman</h3>
                                     <p className="text-gray-600 italic ">If the PNO doesn’t resolve the issue in 30 days, or if the harassment continues, file a complaint at <strong>cms.rbi.org.in</strong>. This is the "Nuclear Option." The Ombudsman has the power to stop the bank in its tracks.</p>
                                 </div>
                                 <div className="border-l-4 border-blue-600 pl-6 py-2">
-                                    <h5 className="font-bold text-gray-900">Level 3: The Police (For Criminality)</h5>
+                                    <h3 className="font-bold text-gray-900">Level 3: The Police (For Criminality)</h3>
                                     <p className="text-gray-600 italic">If there is a threat of death, rape, or physical violence, skip the bank and call 112/100 immediately. Inform the police that "An unauthorized person is threatening my life for a civil debt."</p>
                                 </div>
                             </div>
@@ -627,7 +627,7 @@ export default function RecoveryAgentsThreateningMeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop the Stress</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop the Stress</p>
                                 <p className="text-sm text-gray-600 mb-6">Our experts handle the agents so you don’t have to. 100% legal protection.</p>
                                 <Link
                                     href="/contact"
@@ -644,7 +644,7 @@ export default function RecoveryAgentsThreateningMeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Know More</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Know More</p>
                                 <nav className="space-y-3">
                                     <Link href="/bank-recovery-harassment-complaint" className="block text-sm text-blue-600 hover:underline">How to File a Complaint</Link>
                                     <Link href="/can-bank-file-case-for-personal-loan" className="block text-sm text-blue-600 hover:underline">Legal Action Risks</Link>

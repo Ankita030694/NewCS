@@ -417,7 +417,7 @@ export default function LegalRisksClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Roadmap</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Roadmap</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -468,7 +468,7 @@ export default function LegalRisksClient() {
                                 One of the most common and feared legal actions in the world of loan default is a case under Section 138 of the Negotiable Instruments Act, 1881. When you take a loan, lenders typically ask for post dated cheques as security. If you default on an EMI and the bank deposits one of these cheques, it will likely bounce due to "insufficient funds." This act of a cheque bouncing is not just a banking error; it is a criminal offense in the eyes of Indian law.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">The Section 138 Process:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">The Section 138 Process:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. The Dishonor:</strong> The bank presents the cheque and it is returned with a "Memo" stating the reason for dishonor, usually "insufficient funds" or "account closed."</li>
                                     <li><strong>2. The Statutory Notice:</strong> Within 30 days of receiving the memo, the lender must send a formal legal notice to the borrower, demanding payment of the cheque amount within 15 days.</li>
@@ -680,7 +680,7 @@ export default function LegalRisksClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Worried About Legal Action?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Worried About Legal Action?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop the notices and the calls. Let our negotiators build your legal defense and settlement plan.</p>
                                 <Link
                                     href="/contact"
@@ -696,7 +696,7 @@ export default function LegalRisksClient() {
                             </div>
 
                                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                    <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                    <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                     <nav className="space-y-3">
                                         <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
                                         <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>

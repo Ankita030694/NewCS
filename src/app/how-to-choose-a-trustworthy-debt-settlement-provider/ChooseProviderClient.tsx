@@ -231,10 +231,10 @@ const ChooseProviderClient = () => {
                     <aside className="lg:w-1/4 xl:w-1/5 w-full order-2 lg:order-1">
                         <div className="sticky top-32 bg-white p-8 rounded-[2.5rem] shadow-sm border border-gray-100 overflow-hidden relative group">
                             <div className="absolute top-0 right-0 w-24 h-24 bg-blue-50/50 rounded-full blur-3xl -mr-12 -mt-12 group-hover:bg-blue-100 transition-colors"></div>
-                            <h3 className="text-lg font-black text-gray-900 mb-6 flex items-center gap-2 relative z-10">
+                            <p className="text-lg font-black text-gray-900 mb-6 flex items-center gap-2 relative z-10">
                                 <div className="w-1.5 h-6 bg-blue-600 rounded-full"></div>
                                 Roadmap to Relief
-                            </h3>
+                            </p>
                             <nav className="space-y-1 relative z-10">
                                 {sections.map((section) => (
                                     <a
@@ -270,15 +270,15 @@ const ChooseProviderClient = () => {
                             </p>
                             <div className="space-y-6 mb-12">
                                 <div className="p-8 bg-red-50 border border-red-100 rounded-3xl">
-                                    <h4 className="font-bold text-red-900 mb-2 italic tracking-tight">1. Guaranteed 100% Success</h4>
+                                    <p className="font-bold text-red-900 mb-2 italic tracking-tight">1. Guaranteed 100% Success</p>
                                     <p className="text-sm text-red-800 opacity-90 leading-relaxed">No agency can guarantee a settlement. Banks have the final say. If an agency promises a 100% success rate, they are likely misleading you or hiding the fact that some banks simply do not settle certain types of loans.</p>
                                 </div>
                                 <div className="p-8 bg-red-50 border border-red-100 rounded-3xl">
-                                    <h4 className="font-bold text-red-900 mb-2 italic tracking-tight">2. Upfront Settlement Fee</h4>
+                                    <p className="font-bold text-red-900 mb-2 italic tracking-tight">2. Upfront Settlement Fee</p>
                                     <p className="text-sm text-red-800 opacity-90 leading-relaxed">RBI guidelines and global best practices suggest that the majority of fees should be success-based. Be extremely wary of agencies that demand the entire settlement fee before they even begin negotiations.</p>
                                 </div>
                                 <div className="p-8 bg-red-50 border border-red-100 rounded-3xl">
-                                    <h4 className="font-bold text-red-900 mb-2 italic tracking-tight">3. Encouraging Default Without Cause</h4>
+                                    <p className="font-bold text-red-900 mb-2 italic tracking-tight">3. Encouraging Default Without Cause</p>
                                     <p className="text-sm text-red-800 opacity-90 leading-relaxed">A trustworthy provider handles delinquency that has *already* happened or looks inevitable. They should never encourage a borrower who can comfortably pay their EMIs to intentionally default just to get a settlement.</p>
                                 </div>
                             </div>
@@ -344,7 +344,7 @@ const ChooseProviderClient = () => {
                                 Let’s look at a hypothetical (but representative) case study to understand what a trustworthy process looks like.
                             </p>
                             <div className="p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 mb-12 italic">
-                                <h4 className="text-xl font-bold text-gray-900 mb-4">Case Study A: The Multi-Bank Challenge</h4>
+                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study A: The Multi-Bank Challenge</h3>
                                 <p className="text-sm text-gray-600 leading-relaxed mb-4">A client had 12L in unsecured debt across 4 different banks. They were facing constant harassment. A trustworthy provider stepped in, consolidated the communication, and within 6 months, secured settlements for all 4 banks at an average of 35% of the principal.</p>
                                 <p className="text-sm text-blue-700 font-bold uppercase tracking-widest">The Result: Saved 7.8L and eliminated all harassment legalities.</p>
                             </div>
@@ -358,7 +358,7 @@ const ChooseProviderClient = () => {
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                                         </svg>
                                     </div>
-                                    <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">MCA Verification</h4>
+                                    <h3 className="text-xl font-bold text-blue-900 mb-4 tracking-tight">MCA Verification</h3>
                                     <p className="text-sm text-blue-800/80 leading-relaxed font-light">Ask for the company’s CIN (Corporate Identity Number). Verify it on the MCA.gov.in portal. Check the date of incorporation; a firm that has survived 5+ years is significantly more trustworthy than one six months old.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 border border-indigo-100 rounded-3xl group hover:bg-white hover:shadow-lg transition-all">
@@ -367,7 +367,7 @@ const ChooseProviderClient = () => {
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                                         </svg>
                                     </div>
-                                    <h4 className="text-xl font-bold text-indigo-900 mb-4 tracking-tight">Legal Professional Team</h4>
+                                    <h3 className="text-xl font-bold text-indigo-900 mb-4 tracking-tight">Legal Professional Team</h3>
                                     <p className="text-sm text-indigo-800/80 leading-relaxed font-light">Debt recovery involves Section 138 (Cheque Bounce) and legal notices. A trustworthy firm should have advocates on its board or as full-time employees. Pure 'call center' firms cannot provide legal protection.</p>
                                 </div>
                             </div>
@@ -381,7 +381,7 @@ const ChooseProviderClient = () => {
                             </p>
                             <div className="my-12 p-10 bg-gradient-to-br from-gray-900 to-blue-900 rounded-[2.5rem] text-white shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
-                                <h4 className="text-2xl font-black mb-6 italic tracking-widest text-blue-400">THE EXPERTISE TEST:</h4>
+                                <h3 className="text-2xl font-black mb-6 italic tracking-widest text-blue-400">THE EXPERTISE TEST:</h3>
                                 <p className="text-lg opacity-90 leading-relaxed font-light italic">
                                     Ask the provider: "What is the typical provisioned loss threshold for my specific bank’s credit card portfolio in 2025?" If they give you a vague answer, they haven’t done enough high-level institutional negotiations.
                                 </p>
@@ -410,17 +410,17 @@ const ChooseProviderClient = () => {
                             <h2 id="red-flags-to-watch" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-red-600 italic">Red Flags: The Non-Negotiables</h2>
                             <div className="space-y-6 mb-12">
                                 <div className="p-8 bg-red-50 border-l-4 border-red-500 rounded-r-3xl shadow-sm">
-                                    <h5 className="font-bold text-red-900 mb-3 flex items-center gap-2 uppercase text-xs tracking-widest">RED FLAG #1</h5>
+                                    <h3 className="font-bold text-red-900 mb-3 flex items-center gap-2 uppercase text-xs tracking-widest">RED FLAG #1</h3>
                                     <p className="text-gray-800 font-semibold mb-2">Guaranteed Credit Score Restoration</p>
                                     <p className="text-sm text-gray-600 leading-relaxed italic">"We will delete the settlement mark from CIBIL." No company can unilaterally delete records from CIBIL. This is a blatant lie to secure a sale.</p>
                                 </div>
                                 <div className="p-8 bg-red-50 border-l-4 border-red-500 rounded-r-3xl shadow-sm">
-                                    <h5 className="font-bold text-red-900 mb-3 flex items-center gap-2 uppercase text-xs tracking-widest">RED FLAG #2</h5>
+                                    <h3 className="font-bold text-red-900 mb-3 flex items-center gap-2 uppercase text-xs tracking-widest">RED FLAG #2</h3>
                                     <p className="text-gray-800 font-semibold mb-2">Asking for Bank Logins/OTPs</p>
                                     <p className="text-sm text-gray-600 leading-relaxed italic">A negotiator only needs your 'Statement of Account'. They never need active control of your banking portal.</p>
                                 </div>
                                 <div className="p-8 bg-red-50 border-l-4 border-red-500 rounded-r-3xl shadow-sm">
-                                    <h5 className="font-bold text-red-900 mb-3 flex items-center gap-2 uppercase text-xs tracking-widest">RED FLAG #3</h5>
+                                    <h3 className="font-bold text-red-900 mb-3 flex items-center gap-2 uppercase text-xs tracking-widest">RED FLAG #3</h3>
                                     <p className="text-gray-800 font-semibold mb-2">Personal UPI/Account Payments</p>
                                     <p className="text-sm text-gray-600 leading-relaxed italic">All service fees must be paid to the company’s GST-registered current account, never to a personal name.</p>
                                 </div>
@@ -495,11 +495,11 @@ const ChooseProviderClient = () => {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 italic">
                                 <div className="p-8 bg-blue-50/50 border border-blue-100 rounded-3xl">
-                                    <h4 className="font-bold text-blue-900 mb-2">The Enrollment Fee</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">The Enrollment Fee</h3>
                                     <p className="text-sm text-blue-800 opacity-90 leading-relaxed">This covers the immediate legal protection, the drafting of 'Power of Attorney' documents, and the initial analysis of your debt portfolio. It should be a reasonable, one-time or monthly fee.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50/50 border border-indigo-100 rounded-3xl">
-                                    <h4 className="font-bold text-indigo-900 mb-2">The Success Fee</h4>
+                                    <h3 className="font-bold text-indigo-900 mb-2">The Success Fee</h3>
                                     <p className="text-sm text-indigo-800 opacity-90 leading-relaxed">This is only earned when a settlement letter is issued by the bank and accepted by you. Typically 10 to 15 percent of the total savings (or the total debt). This ensures the agency is motivated to get you the lowest possible amount.</p>
                                 </div>
                             </div>
@@ -511,7 +511,7 @@ const ChooseProviderClient = () => {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="p-8 bg-gray-50 rounded-3xl border border-gray-100 group hover:border-blue-200 transition-colors">
-                                        <h4 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-700 transition-colors">{faq.question}</h4>
+                                        <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-700 transition-colors">{faq.question}</h3>
                                         <p className="text-gray-700 leading-relaxed font-light italic">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -533,7 +533,7 @@ const ChooseProviderClient = () => {
                     <aside className="lg:w-1/4 xl:w-1/5 w-full order-3">
                         <div className="sticky top-32 space-y-8">
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Your Agency Legit?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Your Agency Legit?</p>
                                 <p className="text-sm text-gray-600 mb-6">Submit your existing debt relief agreement for a free professional audit for red flags.</p>
                                 <Link
                                     href="/contact"
@@ -549,10 +549,10 @@ const ChooseProviderClient = () => {
                             </div>
 
                             <div className="p-8 bg-white rounded-[2.5rem] shadow-sm border border-gray-100 group">
-                                <h3 className="text-xl font-black text-gray-900 mb-6 flex items-center gap-2">
+                                <p className="text-xl font-black text-gray-900 mb-6 flex items-center gap-2">
                                     <div className="w-1.5 h-6 bg-blue-600 rounded-full group-hover:w-3 transition-all"></div>
                                     Related Guides
-                                </h3>
+                                </p>
                                 <ul className="space-y-5">
                                     <li>
                                         <Link href="/how-to-find-a-trustworthy-debt-settlement-agency-near-me" className="group flex items-start gap-4">

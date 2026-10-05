@@ -304,7 +304,7 @@ export default function SalariedSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl overflow-y-auto max-h-[80vh] custom-scrollbar">
-                            <h3 className="font-bold text-gray-900 mb-6 text-xl border-b border-blue-100 pb-3">Guide Chapters</h3>
+                            <p className="font-bold text-gray-900 mb-6 text-xl border-b border-blue-100 pb-3">Guide Chapters</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -370,7 +370,7 @@ export default function SalariedSettlementClient() {
                                 The Reserve Bank of India has been very proactive in 2023, 2024, and now in 2025 to protect the rights of individual borrowers. One of the most significant shifts has been the mandate on "Fair Recovery Practices." Banks and NBFCs are now strictly regulated on how they can interact with you.
                             </p>
                             <div className="bg-blue-50 p-10 rounded-[40px] border border-blue-100 mb-10">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-6 underline">Key 2025 RBI Protections for Borrowers:</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-6 underline">Key 2025 RBI Protections for Borrowers:</p>
                                 <ul className="space-y-6 text-gray-800">
                                     <li className="flex gap-4">
                                         <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</span>
@@ -424,23 +424,23 @@ export default function SalariedSettlementClient() {
                             </p>
                             <div className="space-y-12 mb-12">
                                 <div className="bg-gray-50 p-10 rounded-[40px] border border-gray-100">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4">Step 1: Financial Self-Audit</h4>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4">Step 1: Financial Self-Audit</p>
                                     <p className="text-gray-700">Make an exhaustive list of all your debts. Include the principal, the interest rate, the current outstanding, and any penalties. Also, list your current monthly expenses. This gives you a clear picture of your "Gap." It is essential to be honest with yourself during this stage.</p>
                                 </div>
                                 <div className="bg-gray-50 p-10 rounded-[40px] border border-gray-100">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4">Step 2: Proactive Communication</h4>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4">Step 2: Proactive Communication</p>
                                     <p className="text-gray-700">Do not wait for the bank to call you. If you know you cannot pay next month’s EMI, write a formal email to the bank’s Nodal Officer. State your genuine hardship with evidence (like a medical report or termination letter). This builds a paper trail of your "Intent to Pay" and shows you are not a willful defaulter.</p>
                                 </div>
                                 <div className="bg-gray-50 p-10 rounded-[40px] border border-gray-100">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4">Step 3: Managing the Recovery Phase</h4>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4">Step 3: Managing the Recovery Phase</p>
                                     <p className="text-gray-700">Between 3 months and 6 months of default, you will face intense collection pressure. Stay calm. Respond to calls politely but firmly. Remind them of your financial situation and your intent to settle. If they cross the line into harassment, record the calls and messages as evidence for future legal action.</p>
                                 </div>
                                 <div className="bg-gray-50 p-10 rounded-[40px] border border-gray-100">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4">Step 4: The Negotiation Phase</h4>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4">Step 4: The Negotiation Phase</p>
                                     <p className="text-gray-700">Once your account is classified as an NPA, the bank will be more open to settlement. This is the time to make an offer. Start low (perhaps at 25% of the outstanding) and negotiate toward a mutually acceptable number. Do not rush this phase; the bank’s desperation often increases as time goes by.</p>
                                 </div>
                                 <div className="bg-gray-50 p-10 rounded-[40px] border border-gray-100">
-                                    <h4 className="text-2xl font-bold text-gray-900 mb-4">Step 5: The Settlement Letter</h4>
+                                    <p className="text-2xl font-bold text-gray-900 mb-4">Step 5: The Settlement Letter</p>
                                     <p className="text-gray-700"><strong>CRITICAL:</strong> Never pay a single rupee until you have a formal settlement letter on the bank’s official letterhead. The letter must state the "One Time Settlement" (OTS) amount, the payment deadline, and clearly mention that the account will be closed with no further dues.</p>
                                 </div>
                             </div>
@@ -485,15 +485,15 @@ export default function SalariedSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
                                 <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 flex flex-col items-center text-center">
-                                    <h5 className="font-bold text-blue-900 text-xl mb-4 underline">CredSettle</h5>
+                                    <h3 className="font-bold text-blue-900 text-xl mb-4 underline">CredSettle</h3>
                                     <p className="text-sm text-gray-700 leading-relaxed">Experts in negotiation. They act as a professional buffer, dealing with the bank directly and securing discounts based on your actual repayment capacity. Their role is to turn a "Conflict" into a "Settlement."</p>
                                 </div>
                                 <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 flex flex-col items-center text-center">
-                                    <h5 className="font-bold text-blue-900 text-xl mb-4 underline">SettleLoans</h5>
+                                    <h3 className="font-bold text-blue-900 text-xl mb-4 underline">SettleLoans</h3>
                                     <p className="text-sm text-gray-700 leading-relaxed">Specializing in structured debt programs, they help individuals consolidate their chaos into a clear roadmap. They provide the psychological and financial scaffolding needed for a successful exit from debt.</p>
                                 </div>
                                 <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 flex flex-col items-center text-center">
-                                    <h5 className="font-bold text-blue-900 text-xl mb-4 underline">AMA Legal Solutions</h5>
+                                    <h3 className="font-bold text-blue-900 text-xl mb-4 underline">AMA Legal Solutions</h3>
                                     <p className="text-sm text-gray-700 leading-relaxed">The legal experts. They audit your loan account for illegal interest and penalities. Their legal intervention often forces banks to adhere to RBI standards and stop abusive recovery instantly.</p>
                                 </div>
                             </div>
@@ -607,7 +607,7 @@ export default function SalariedSettlementClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-8 rounded-3xl shadow-[0_20px_50px_rgba(8,112,184,0.07)] border border-blue-50 text-center transform transition-all hover:scale-[1.02]">
                                 <img src="/credsettle-logo-black.svg" alt="CredSettle" className="w-32 mx-auto mb-6 opacity-30" />
-                                <h4 className="font-extrabold text-2xl text-gray-900 mb-4">Reclaim Your Paycheck</h4>
+                                <p className="font-extrabold text-2xl text-gray-900 mb-4">Reclaim Your Paycheck</p>
                                 <p className="text-sm text-gray-600 mb-8 leading-relaxed">Stop letting EMIs consume 70% of your income. Get a strategic settlement plan now.</p>
                                 <Link
                                     href="/contact"
@@ -633,7 +633,7 @@ export default function SalariedSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">Essential Reading</h4>
+                                <p className="font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">Essential Reading</p>
                                 <nav className="space-y-4">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">How Settlement Works</Link>
                                     <Link href="/does-loan-settlement-affect-cibil" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">CIBIL Impact Guide</Link>

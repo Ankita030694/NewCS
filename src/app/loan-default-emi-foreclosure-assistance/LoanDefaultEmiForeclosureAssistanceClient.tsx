@@ -299,7 +299,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -354,9 +354,9 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                 </p>
                                 <div className="grid md:grid-cols-2 gap-6 my-8">
                                     <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm transition-all hover:shadow-md">
-                                        <h4 className="font-bold text-red-600 mb-2 flex items-center">
+                                        <p className="font-bold text-red-600 mb-2 flex items-center">
                                             <FontAwesomeIcon icon={faShield} className="w-5 h-5 mr-2" /> Immediate Risks
-                                        </h4>
+                                        </p>
                                         <ul className="space-y-3 text-slate-600">
                                             <li className="flex items-start"><FontAwesomeIcon icon={faCheckCircle} className="w-4 h-4 mr-2 text-red-500 mt-1 flex-shrink-0" /> Negative CIBIL score reporting</li>
                                             <li className="flex items-start"><FontAwesomeIcon icon={faCheckCircle} className="w-4 h-4 mr-2 text-red-500 mt-1 flex-shrink-0" /> Accrual of penal interest</li>
@@ -364,9 +364,9 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                         </ul>
                                     </div>
                                     <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm transition-all hover:shadow-md">
-                                        <h4 className="font-bold text-green-600 mb-2 flex items-center">
+                                        <p className="font-bold text-green-600 mb-2 flex items-center">
                                             <FontAwesomeIcon icon={faZap} className="w-5 h-5 mr-2" /> Strategic Interventions
-                                        </h4>
+                                        </p>
                                         <ul className="space-y-3 text-slate-600">
                                             <li className="flex items-start"><FontAwesomeIcon icon={faCheckCircle} className="w-4 h-4 mr-2 text-green-500 mt-1 flex-shrink-0" /> Formal request for moratorium</li>
                                             <li className="flex items-start"><FontAwesomeIcon icon={faCheckCircle} className="w-4 h-4 mr-2 text-green-500 mt-1 flex-shrink-0" /> Loan restructuring proposals</li>
@@ -399,9 +399,9 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     <div className="absolute top-0 right-0 p-4 opacity-10">
                                         <FontAwesomeIcon icon={faScale} className="w-24 h-24" />
                                     </div>
-                                    <h4 className="text-xl font-bold mb-6 text-slate-800 flex items-center">
+                                    <h3 className="text-xl font-bold mb-6 text-slate-800 flex items-center">
                                         <FontAwesomeIcon icon={faShield} className="w-6 h-6 mr-2 text-blue-600" /> Mandatory Compliance Checklist for Banks
-                                    </h4>
+                                    </h3>
                                     <div className="grid md:grid-cols-2 gap-6">
                                         <div className="flex items-start bg-white p-4 rounded-xl shadow-sm">
                                             <div className="bg-blue-100 p-2 rounded-lg mr-4">
@@ -472,9 +472,9 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     A critical part of foreclosure assistance at this stage is preventing the auction. Once symbolic possession is taken, the bank will issue a "Sale Notice" or "Auction Notice." The rules require a clear 30-day notice for the first auction. If the bank tries to rush the sale or fails to widely publicize the auction, the sale can be challenged.
                                 </p>
                                 <div className="bg-red-50 border border-red-100 rounded-2xl p-6 mb-8">
-                                    <h5 className="font-bold text-red-800 mb-3 flex items-center">
+                                    <h3 className="font-bold text-red-800 mb-3 flex items-center">
                                         <FontAwesomeIcon icon={faAlertCircle} className="w-5 h-5 mr-2" /> Critical Deadline!
-                                    </h5>
+                                    </h3>
                                     <p className="text-red-700">
                                         You have exactly <strong>45 days</strong> from the date of symbolic possession to file a challenge in the DRT. If you miss this deadline, your right to challenge the bank’s measures may be forever barred. Immediate action is mandatory the moment a notice is pasted on your wall.
                                     </p>
@@ -655,7 +655,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                 <div className="space-y-6">
                                     {faqs.map((faq, index) => (
                                         <div key={index} className="bg-slate-50 rounded-2xl p-6 border border-slate-100 shadow-sm">
-                                            <h4 className="font-bold text-slate-900 mb-3 text-lg">{faq.question}</h4>
+                                            <h3 className="font-bold text-slate-900 mb-3 text-lg">{faq.question}</h3>
                                             <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
                                         </div>
                                     ))}
@@ -687,7 +687,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                             {/* Primary CTA */}
                             <div className="bg-slate-900 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/20 rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-110" />
-                                <h3 className="text-xl font-bold mb-4 relative z-10 text-white">Emergency Foreclosure Help</h3>
+                                <p className="text-xl font-bold mb-4 relative z-10 text-white">Emergency Foreclosure Help</p>
                                 <p className="text-slate-300 mb-6 text-sm relative z-10">
                                     Did you receive a 13(2) or 13(4) notice? Or is your home already listed for auction? Our lawyers can file an immediate DRT stay.
                                 </p>
@@ -701,7 +701,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
 
                             {/* Related Pages */}
                             <div className="border border-slate-200 rounded-3xl p-8 bg-white shadow-sm">
-                                <h3 className="text-xl font-bold mb-6 text-slate-800">Related Legal Guides</h3>
+                                <p className="text-xl font-bold mb-6 text-slate-800">Related Legal Guides</p>
                                 <div className="space-y-4">
                                     {[
                                         { title: 'SARFAESI Act Defense', icon: faShield, link: '#' },
@@ -731,7 +731,7 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
                                     <div className="bg-white/20 p-2 rounded-lg mr-3">
                                         <FontAwesomeIcon icon={faPhoneCall} className="w-5 h-5 text-white" />
                                     </div>
-                                    <h3 className="text-xl font-bold text-white">Talk to a Lawyer</h3>
+                                    <p className="text-xl font-bold text-white">Talk to a Lawyer</p>
                                 </div>
                                 <p className="text-blue-100 text-sm mb-6">
                                     Book a priority call with an expert foreclosure defense attorney.

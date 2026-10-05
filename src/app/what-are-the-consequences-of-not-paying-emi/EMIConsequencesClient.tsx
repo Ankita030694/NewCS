@@ -211,7 +211,7 @@ export default function EMIConsequencesClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -490,7 +490,7 @@ export default function EMIConsequencesClient() {
                     To understand why you should never ignore a default, you must look at the math. Let’s take a hypothetical scenario of an EMI of ₹50,000 that is missed.
                 </p>
                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-200">
-                    <h4 className="font-bold mb-4">The Cascading Debt Example:</h4>
+                    <h3 className="font-bold mb-4">The Cascading Debt Example:</h3>
                     <p className="mb-2"><strong>Month 1:</strong> Missed EMI ₹50,000 + Late Fee ₹1,000 + Bounce Charge ₹500 = ₹51,500.</p>
                     <p className="mb-2"><strong>Month 2:</strong> 2% Penal Interest on ₹51,500 = ₹1,030. The total overdue is now ₹51,500 + ₹1,030 + new EMI ₹50,000 = ₹1,02,530.</p>
                     <p className="mb-2"><strong>Month 3:</strong> 2% Penal Interest on ₹1,02,530 = ₹2,050. The total overdue is now ₹1,02,530 + ₹2,050 + new EMI ₹50,000 = ₹1,54,580.</p>
@@ -557,13 +557,13 @@ export default function EMIConsequencesClient() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6 font-display uppercase tracking-tight">Real Experiences: Stories of Recovery</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
-                  <h4 className="text-xl font-bold text-gray-900 mb-4">Case Study A: The Home Loan Redemption</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study A: The Home Loan Redemption</h3>
                   <p className="text-gray-700 mb-4">
                     Mr. Verma, a small businessman in Jaipur, defaulted on his home loan after his shop was damaged in a fire. After 4 months of default, the bank issued a 13(2) notice. Instead of hiding, he approached CredSettle. Our legal team analyzed the valuation report and found it was 40% below market rate. We challenged the notice and negotiated a restructuring plan that allowed him to pay only the interest for 6 months while he rebuilt his business. He saved his home.
                   </p>
                 </div>
                 <div className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
-                  <h4 className="text-xl font-bold text-gray-900 mb-4">Case Study B: The Section 138 Resolution</h4>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Case Study B: The Section 138 Resolution</h3>
                   <p className="text-gray-700 mb-4">
                     Ms. Anjali from Mumbai had three credit cards and a personal loan. When she lost her job, her NACH mandates bounced, and she received two summons from a Magistrate court. The psychological stress was immense. We represented her in the bank’s specialized settlement camp, consolidated all her dues into a single One-Time Settlement, and obtained a 'Withdrawal of Complaint' certificate from the bank for the 138 cases within 45 days.
                   </p>
@@ -637,7 +637,7 @@ export default function EMIConsequencesClient() {
               
               <div className="bg-white p-6 rounded-2xl shadow-xl border border-blue-50 text-center relative overflow-hidden group">
                 <div className="absolute top-0 left-0 w-full h-1 bg-blue-600"></div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Debt Relief Audit</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Debt Relief Audit</p>
                 <p className="text-sm text-gray-600 mb-6 italic">Discover your legal options and potential waiver amounts.</p>
                 <Link 
                   href="/contact"
@@ -657,7 +657,7 @@ export default function EMIConsequencesClient() {
               </div>
 
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Essential Reading</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Essential Reading</p>
                 <nav className="space-y-6">
                   <Link href="/loan-settlement" className="group block">
                     <p className="text-xs text-gray-400 uppercase tracking-widest mb-1">Process</p>
@@ -679,7 +679,7 @@ export default function EMIConsequencesClient() {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
-                <h4 className="font-bold text-blue-900 mb-2">Legal Support?</h4>
+                <p className="font-bold text-blue-900 mb-2">Legal Support?</p>
                 <p className="text-xs text-blue-800 opacity-80 mb-4">Our lawyers review all recovery notices for free.</p>
                 <Link href="/contact" className="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center gap-1">
                   Connect with Lawyers {'->'}

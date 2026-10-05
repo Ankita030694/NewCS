@@ -193,7 +193,7 @@ export default function WestBengalLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -230,7 +230,7 @@ export default function WestBengalLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Local Legal Advantage</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Local Legal Advantage</h3>
                 <p className="text-blue-800 m-0">
                   West Bengal offers borrowers a unique legal advantage not found in many other states: the <strong>Bengal Money-Lenders Act, 1940</strong>. This historical legislation is a powerful tool in the hands of a knowledgeable legal team, providing robust protection against predatory interest rates and harassment.
                 </p>
@@ -274,7 +274,7 @@ export default function WestBengalLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">1</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Detailed Portfolio Analysis</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Detailed Portfolio Analysis</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Every case starts with a deep dive. We analyze your loan agreements, payment history, and current financial standing. We determine which of your loans (Personal, Credit Card, or Business) are eligible for settlement and calculate a realistic settlement offer based on your disposable income.
                     </p>
@@ -284,7 +284,7 @@ export default function WestBengalLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">2</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">The Legal Shield (Stop Calls)</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">The Legal Shield (Stop Calls)</h3>
                     <p className="text-gray-700 leading-relaxed">
                       In Kolkata, recovery agents can be intrusive, often calling relatives or visiting workplaces. Once you engage us, we deploy our "Legal Shield." We formally notify the bank that you are represented by CredSettle. We direct you to forward all calls to our legal team. This significantly reduces the harassment and gives you the mental space to breathe.
                     </p>
@@ -294,7 +294,7 @@ export default function WestBengalLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Navigating the NPA Stage</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Navigating the NPA Stage</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Banks typically entertain settlement only after the loan is classified as a Non-Performing Asset (NPA), which happens after 90 days of non-payment. This is a critical window. We guide you on how to handle legal notices under the SARFAESI Act (for secured loans) or Arbitration notices. We ensure you do not make mistakes that could weaken your legal position.
                     </p>
@@ -304,7 +304,7 @@ export default function WestBengalLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Strategic Negotiation with Zonal Offices</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Strategic Negotiation with Zonal Offices</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Most major banks have their Zonal or Circle offices in Kolkata’s Central Business District (Dalhousie/BBD Bagh) or Salt Lake Sector V. We bypass the local branch level and negotiate directly with the authorized officers at the regional level. Our goal is to secure a waiver on 100% of the penal interest and legal charges, and a substantial reduction (often 40-60%) on the principal amount.
                     </p>
@@ -314,7 +314,7 @@ export default function WestBengalLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">5</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Settlement Letter & Closure</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Settlement Letter & Closure</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We never proceed without written confirmation. We secure a formal Settlement Letter on the bank’s official letterhead. We verify every clause-payment schedule, amount, and closure terms-to ensure there are no loopholes. Once you make the payment directly to the bank, we follow up to ensure the issuance of the "No Dues Certificate" (NDC).
                     </p>
@@ -346,19 +346,19 @@ export default function WestBengalLoanSettlementClient() {
               <h3 className="text-xl font-bold text-gray-800 mb-4">Effective Complaint Channels</h3>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Local Police Station (Thana)</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Local Police Station (Thana)</h3>
                   <p className="text-sm text-gray-600">Filing a General Diary (GD) entry at your local police station is the first and most important step. Detail the specific nature of the harassment, the phone numbers used, and the language spoken. This creates an official record.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Lalbazar Cyber Crime Cell</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Lalbazar Cyber Crime Cell</h3>
                   <p className="text-sm text-gray-600">For digital harassment-such as abusive WhatsApp messages, morphed photos, or fake legal notices-you can approach the Cyber Crime Police Station at the Kolkata Police Headquarters in Lalbazar. They are highly equipped to track digital footprints.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">The 'Bondhu' App</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">The 'Bondhu' App</h3>
                   <p className="text-sm text-gray-600">The Kolkata Police’s official citizen app, "Bondhu," allows you to report grievances digitally. It is a quick way to alert the authorities if you feel threatened.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h3>
                   <p className="text-sm text-gray-600">In case of immediate physical threat-for instance, if recovery agents are at your door creating a nuisance-dialing 100 ensures immediate police intervention. The police usually warn agents that civil recovery cannot involve public disorder.</p>
                 </div>
               </div>
@@ -456,7 +456,7 @@ export default function WestBengalLoanSettlementClient() {
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                    <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">West Bengal Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">West Bengal Support</p>
                 <p className="text-sm text-gray-600 mb-6">Specialized legal aid for Kolkata & WB residents.</p>
                 <Link 
                   href="/contact"

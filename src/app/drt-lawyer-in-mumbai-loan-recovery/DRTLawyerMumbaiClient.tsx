@@ -226,7 +226,7 @@ export default function DRTLawyerMumbaiClient() {
                     {/* Left TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a key={link.id} href={`#${link.id}`}
@@ -445,11 +445,11 @@ export default function DRTLawyerMumbaiClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Case Studies: Mumbai DRT Legal Wins</h2>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Case 1: Commercial Property Auction Stayed at DRT-II Mumbai</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Case 1: Commercial Property Auction Stayed at DRT-II Mumbai</h3>
                                     <p className="text-gray-700">A textile business in south Mumbai had a working capital loan of Rs. 4.5 crore that was classified as NPA after a business downturn. The bank issued a SARFAESI notice for their mortgaged commercial property and scheduled an auction. The DRT lawyer filed an urgent Section 17 SA highlighting that the bank had not given the mandatory 60-day window and had miscalculated the outstanding amount. DRT-II Mumbai granted an interim stay within one week. The case was settled at 65 percent of the claimed amount over six months.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Case 2: Interest Overcharge Challenge at DRT-III Mumbai</h4>
+                                    <h3 className="font-bold text-green-900 mb-2">Case 2: Interest Overcharge Challenge at DRT-III Mumbai</h3>
                                     <p className="text-gray-700">A small IT company in Thane had a term loan of Rs. 75 lakhs. When the bank filed an OA at DRT-III Mumbai, the claim amount stated was Rs. 1.23 crore. The borrower’s DRT lawyer engaged a forensic accountant who found that the bank had charged compound interest on penal charges, which was not permitted under the loan agreement. After filing a detailed Written Statement with the forensic report, the bank settled the matter at Rs. 83 lakhs, saving the client nearly Rs. 40 lakhs.</p>
                                 </div>
                             </div>
@@ -507,7 +507,7 @@ export default function DRTLawyerMumbaiClient() {
                     {/* Right Column */}
                     <aside className="lg:w-1/4 xl:w-1/5 flex flex-col gap-6 sticky top-14 self-start">
                         <div className="bg-gradient-to-br from-blue-600 to-blue-900 text-white rounded-2xl p-6 shadow-lg">
-                            <h3 className="font-bold text-xl mb-3">Free DRT Case Assessment</h3>
+                            <p className="font-bold text-xl mb-3">Free DRT Case Assessment</p>
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Facing DRT proceedings in Mumbai? Our expert lawyers can review your case, identify defences, and develop a strategy to protect your assets.</p>
                             <ul className="space-y-2 mb-5">
                                 {['DRT-I, II, III Mumbai Coverage', 'SARFAESI Defence', 'DRAT Appeals', 'OTS Negotiation'].map((item, i) => (
@@ -519,7 +519,7 @@ export default function DRTLawyerMumbaiClient() {
                             </Link>
                         </div>
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</p>
                             <nav className="space-y-2">
                                 {relatedPages.map((page, i) => (
                                     <Link key={i} href={page.href} className="block text-sm text-blue-600 hover:text-blue-800 hover:underline py-1 transition-colors">{page.label}</Link>

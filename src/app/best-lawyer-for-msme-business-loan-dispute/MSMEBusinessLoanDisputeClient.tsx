@@ -287,7 +287,7 @@ export default function MSMEBusinessLoanDisputeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -497,7 +497,7 @@ export default function MSMEBusinessLoanDisputeClient() {
 
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Real Case Studies: MSME Loan Disputes Resolved</h2>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 1: SARFAESI Challenged on Revival Framework Non-Compliance</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 1: SARFAESI Challenged on Revival Framework Non-Compliance</p>
                                 <p className="text-gray-700 mb-4">
                                     A small manufacturing MSME in Pune with a 40 lakh rupee machine loan received a Section 13(4) possession notice from their bank after the account went into SMA-2. The bank had never formed the mandatory revival committee.
                                 </p>
@@ -506,7 +506,7 @@ export default function MSMEBusinessLoanDisputeClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Case 2: MSEFC Recovery Enabled Bank Loan Regularisation</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Case 2: MSEFC Recovery Enabled Bank Loan Regularisation</p>
                                 <p className="text-gray-700 mb-4">
                                     A small garment exporter in Surat had 28 lakh rupees in outstanding dues from a large retail buyer. This delayed payment caused their bank working capital loan to become SMA-2, threatening NPA classification.
                                 </p>
@@ -596,7 +596,7 @@ export default function MSMEBusinessLoanDisputeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need MSME Legal Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need MSME Legal Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">Get a specialist MSME loan dispute lawyer to assess your case and protect your business from bank recovery actions.</p>
                                 <Link
                                     href="/contact"
@@ -613,7 +613,7 @@ export default function MSMEBusinessLoanDisputeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-loan-settlement-by-drt" className="block text-sm text-blue-600 hover:underline">DRT Loan Settlement Lawyer</Link>
                                     <Link href="/best-lawyer-for-notice-for-loan-default" className="block text-sm text-blue-600 hover:underline">Loan Default Notice Lawyer</Link>

@@ -199,7 +199,7 @@ export default function SBILoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -236,7 +236,7 @@ export default function SBILoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Notice: SBI Rinn Samadhan Scheme 2026</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Notice: SBI Rinn Samadhan Scheme 2026</h3>
                 <p className="text-blue-800 m-0">
                   SBI has updated its "Rinn Samadhan" One Time Settlement scheme for 2026 under the latest RBI compromise guidelines, offering substantial waivers on penal interest and accumulated charges for eligible NPA accounts.
                 </p>
@@ -301,7 +301,7 @@ export default function SBILoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white p-6 rounded-xl border border-red-100 shadow-sm">
-                  <h4 className="font-bold text-red-700 mb-2">The Impact</h4>
+                  <h3 className="font-bold text-red-700 mb-2">The Impact</h3>
                   <ul className="list-disc pl-5 text-sm text-gray-600 space-y-2">
                     <li>Score drops by 50-100 points.</li>
                     <li>Remark "Settled" stays for ~7 years.</li>
@@ -309,7 +309,7 @@ export default function SBILoanSettlementClient() {
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-xl border border-green-100 shadow-sm">
-                  <h4 className="font-bold text-green-700 mb-2">The Silver Lining</h4>
+                  <h3 className="font-bold text-green-700 mb-2">The Silver Lining</h3>
                   <ul className="list-disc pl-5 text-sm text-gray-600 space-y-2">
                     <li>Stops account from becoming "Written Off".</li>
                     <li>Stops "Suit Filed" status.</li>
@@ -331,42 +331,42 @@ export default function SBILoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Portfolio Analysis</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Portfolio Analysis</h3>
                     <p className="text-gray-600 mt-2">We analyze your loan statements to catch illegal charges or miscalculations. We assess your eligibility for current schemes like Rinn Samadhan.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Stop the Noise &amp; Legal Shield</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Stop the Noise &amp; Legal Shield</h3>
                     <p className="text-gray-600 mt-2">We redirect recovery calls to our legal team under the RBI July 2026 Fair Practices Code (strictly enforcing 8 AM to 7 PM hours). We defend against unlawful intimidation invoking Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352 (formerly IPC 503/506) and represent you in response to any arbitration notices or demand letters.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Proposal Submission</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Proposal Submission</h3>
                     <p className="text-gray-600 mt-2">We draft a formal settlement proposal highlighting your hardship (medical, job loss) and submit it to the Regional Manager or Recovery Officer.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Hard Negotiation</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Hard Negotiation</h3>
                     <p className="text-gray-600 mt-2">Our experts negotiate with bank officials. We push for maximum waivers on interest and penalties, aiming for a principal-only settlement where possible.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">5</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Settlement Letter (OTS)</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Settlement Letter (OTS)</h3>
                     <p className="text-gray-600 mt-2">We scrutinize the OTS letter issued by the bank to ensure there are no hidden clauses. You pay the amount directly to your loan account.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg">6</div>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-lg">Freedom & NOC</h4>
+                    <h3 className="font-bold text-gray-900 text-lg">Freedom & NOC</h3>
                     <p className="text-gray-600 mt-2">Within 2-3 weeks of payment, we follow up to obtain your No Dues Certificate. We also advise you on checking your CIBIL report after 45 days to ensure the status is updated.</p>
                   </div>
                 </div>
@@ -376,17 +376,17 @@ export default function SBILoanSettlementClient() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-md transition-shadow">
                   <div className="text-4xl mb-4">😌</div>
-                  <h4 className="font-bold text-gray-900 mb-2">Peace of Mind</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Peace of Mind</h3>
                   <p className="text-sm text-gray-600">Stop the daily harassment from recovery agents. Sleep peacefully knowing legal experts are handling your case.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-md transition-shadow">
                   <div className="text-4xl mb-4">[Money]</div>
-                  <h4 className="font-bold text-gray-900 mb-2">Huge Savings</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Huge Savings</h3>
                   <p className="text-sm text-gray-600">Save up to 50% or more on your total outstanding. Write off accumulated interest and penalties.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-md transition-shadow">
                   <div className="text-4xl mb-4">[Scale]</div>
-                  <h4 className="font-bold text-gray-900 mb-2">Legal Immunity</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">Legal Immunity</h3>
                   <p className="text-sm text-gray-600">Close the door on potential civil suits, arbitration awards, and Section 138 (Cheque Bounce) cases.</p>
                 </div>
               </div>
@@ -400,19 +400,19 @@ export default function SBILoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">PSU Expertise</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">PSU Expertise</h3>
                   <p className="text-sm text-gray-600">We know the hierarchy-from Branch Manager to Regional Manager-and who holds the power to approve your OTS.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Arbitration Defense</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Arbitration Defense</h3>
                   <p className="text-sm text-gray-600">Our lawyers regularly appear in arbitration proceedings to defend borrowers and force settlements.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Lok Adalat specialists</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Lok Adalat specialists</h3>
                   <p className="text-sm text-gray-600">We guide you through the Lok Adalat process to ensure you walk out with a binding settlement decree.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Transparent Fees</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Transparent Fees</h3>
                   <p className="text-sm text-gray-600">Our fee structure is transparent. We win when you save.</p>
                 </div>
               </div>
@@ -460,7 +460,7 @@ export default function SBILoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Got a Notice?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Got a Notice?</p>
                 <p className="text-sm text-gray-600 mb-6">Arbitration notice or recovery calls? We can help.</p>
                 <Link 
                   href="/contact"
@@ -476,7 +476,7 @@ export default function SBILoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/loan-settlement/hdfc" className="text-gray-600 hover:text-blue-600 flex items-center">

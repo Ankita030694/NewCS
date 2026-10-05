@@ -194,7 +194,7 @@ export default function SettleCreditCardClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -376,19 +376,19 @@ export default function SettleCreditCardClient() {
               <h2 id="helpful-resources" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Helpful Resources for Your Debt Journey</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="p-6 bg-blue-50 rounded-2xl border border-blue-100 hover:shadow-md transition-all group">
-                  <h4 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">The Basics of Loan Settlement</h4>
+                  <h3 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">The Basics of Loan Settlement</h3>
                   <p className="text-gray-600 text-sm">A foundational guide to how the settlement ecosystem works in India.</p>
                 </Link>
                 <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="p-6 bg-blue-50 rounded-2xl border border-blue-100 hover:shadow-md transition-all group">
-                  <h4 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">CIBIL Score Impact</h4>
+                  <h3 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">CIBIL Score Impact</h3>
                   <p className="text-gray-600 text-sm">Understand exactly how your credit report will change after a settlement.</p>
                 </Link>
                 <Link href="/is-loan-settlement-illegal-in-india-truth" className="p-6 bg-blue-50 rounded-2xl border border-blue-100 hover:shadow-md transition-all group">
-                  <h4 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">Is Settlement Legal?</h4>
+                  <h3 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">Is Settlement Legal?</h3>
                   <p className="text-gray-600 text-sm">Debunking myths and explaining the legal reality of debt relief in India.</p>
                 </Link>
                 <Link href="/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider" className="p-6 bg-blue-50 rounded-2xl border border-blue-100 hover:shadow-md transition-all group">
-                  <h4 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">Application Steps</h4>
+                  <h3 className="font-bold text-blue-900 mb-2 group-hover:text-blue-600">Application Steps</h3>
                   <p className="text-gray-600 text-sm">A practical guide on how to begin your journey with a professional service.</p>
                 </Link>
               </div>
@@ -434,7 +434,7 @@ export default function SettleCreditCardClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl relative overflow-hidden">
                 <div className="relative z-10">
-                  <h2 className="text-3xl font-bold mb-4">Take the First Step Toward Debt Freedom</h2>
+                  <h3 className="text-3xl font-bold mb-4">Take the First Step Toward Debt Freedom</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Don't let your credit card debt define your future. Join thousands of satisfied clients who have reclaimed their lives with our expert settlement services.</p>
                   <Link 
                     href="/contact"
@@ -470,7 +470,7 @@ export default function SettleCreditCardClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Debt Analysis</h4>
+                <p className="font-bold text-2xl mb-4">Free Debt Analysis</p>
                 <p className="text-blue-100 mb-6 text-sm">Speak with our experts today and find out how much you can save on your settlement.</p>
                 <Link 
                   href="/contact"
@@ -495,7 +495,7 @@ export default function SettleCreditCardClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Our Specialized Services</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Our Specialized Services</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/services/credit-card-settlement" className="group flex items-start">

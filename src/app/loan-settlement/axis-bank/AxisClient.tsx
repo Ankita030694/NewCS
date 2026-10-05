@@ -207,7 +207,7 @@ export default function AxisBankLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -334,11 +334,11 @@ export default function AxisBankLoanSettlementClient() {
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-                    <h4 className="font-bold text-blue-800 mb-2">The Limit Challenge</h4>
+                    <h3 className="font-bold text-blue-800 mb-2">The Limit Challenge</h3>
                     <p className="text-sm">Premium cards like <em>Magnus</em>, <em>Select</em>, or <em>Vistara Infinite</em> often come with limits of ₹5 Lakhs+. When you default, the "Total Due" can quickly balloon to ₹8-9 Lakhs due to the 52% annual interest. Negotiating a 50% settlement on ₹9 Lakhs still means paying ₹4.5 Lakhs.</p>
                   </div>
                   <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-                    <h4 className="font-bold text-blue-800 mb-2">The "Jumbo Loan" Trap</h4>
+                    <h3 className="font-bold text-blue-800 mb-2">The "Jumbo Loan" Trap</h3>
                     <p className="text-sm">Many users convert card limits to "Jumbo Loans". These are treated as separate loan accounts. You might settle the card, but the Jumbo Loan remains active. <strong>Ensure your settlement letter explicitly mentions all linked loan account numbers (LAA/LAN).</strong></p>
                   </div>
                 </div>
@@ -352,7 +352,7 @@ export default function AxisBankLoanSettlementClient() {
                 <p className="mb-4">
                   This is the most misunderstood part of debt collection. Axis Bank loan agreements invariably contain an <strong>Arbitration Clause</strong>.
                 </p>
-                <h4 className="font-bold text-lg mb-2">The Process:</h4>
+                <h3 className="font-bold text-lg mb-2">The Process:</h3>
                 <ol className="list-decimal pl-6 space-y-2 mb-6">
                   <li><strong>Notice:</strong> You receive a legal notice stating that an Arbitrator has been appointed.</li>
                   <li><strong>Hearing:</strong> An online or physical hearing is scheduled.</li>
@@ -374,22 +374,22 @@ export default function AxisBankLoanSettlementClient() {
                 <p className="mb-4">
                   Banks are financial institutions, not moral judges. They care about IRR (Internal Rate of Return). Our negotiation is based on proving that <em>Settlement &gt; Legal Cost + Recovery Uncertainty</em>.
                 </p>
-                <h4 className="font-bold text-lg mb-4 text-blue-900">Our 4-Phase Protocol:</h4>
+                <h3 className="font-bold text-lg mb-4 text-blue-900">Our 4-Phase Protocol:</h3>
                 <div className="space-y-4">
                   <div className="border border-blue-100 rounded-lg p-4 hover:shadow-md transition-shadow">
-                    <h5 className="font-bold text-blue-700">Phase 1: The "Hold" (Days 1-30 of Engagement)</h5>
+                    <h3 className="font-bold text-blue-700">Phase 1: The "Hold" (Days 1-30 of Engagement)</h3>
                     <p className="text-sm text-gray-600">We send a legal representation letter to the bank. We demand account statements, loan agreements, and proof of claim. This signals to the bank that this is not a naive borrower; it’s a legally represented case. Harassment typically drops by 80% here.</p>
                   </div>
                   <div className="border border-blue-100 rounded-lg p-4 hover:shadow-md transition-shadow">
-                    <h5 className="font-bold text-blue-700">Phase 2: The "Anchor" (First Offer)</h5>
+                    <h3 className="font-bold text-blue-700">Phase 2: The "Anchor" (First Offer)</h3>
                     <p className="text-sm text-gray-600">The bank will offer a "waiver" that is still too high (e.g., 80% of total). We reject it. We present your "Hardship Dossier"-medical reports, termination letters, bank statements showing low balance-to anchor the negotiation at your affordability (e.g., 25-30% of total).</p>
                   </div>
                   <div className="border border-blue-100 rounded-lg p-4 hover:shadow-md transition-shadow">
-                    <h5 className="font-bold text-blue-700">Phase 3: The "Squeeze" (Deep Negotiation)</h5>
+                    <h3 className="font-bold text-blue-700">Phase 3: The "Squeeze" (Deep Negotiation)</h3>
                     <p className="text-sm text-gray-600">This is the waiting game. As month-end or quarter-end approaches, pressure mounts on the bank officer to close cases. We leverage this timing. We might increase our offer slightly (e.g., to 35-40%) to close the deal.</p>
                   </div>
                   <div className="border border-blue-100 rounded-lg p-4 hover:shadow-md transition-shadow">
-                    <h5 className="font-bold text-blue-700">Phase 4: The "Close" (Settlement Letter)</h5>
+                    <h3 className="font-bold text-blue-700">Phase 4: The "Close" (Settlement Letter)</h3>
                     <p className="text-sm text-gray-600">We audit the draft settlement letter. It MUST include: Exact amount, Waiver amount, Date of payment, Account Number, and the clause "Full and Final Settlement". Only then do you pay.</p>
                   </div>
                 </div>
@@ -402,7 +402,7 @@ export default function AxisBankLoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
-                    <h5 className="font-bold text-gray-900 border-b pb-2 mb-3">Salaried Individuals</h5>
+                    <h3 className="font-bold text-gray-900 border-b pb-2 mb-3">Salaried Individuals</h3>
                     <ul className="list-disc pl-5 space-y-2 text-sm text-gray-600">
                       <li>Termination Letter / Resignation Acceptance.</li>
                       <li>Salary Slips (showing reduced pay).</li>
@@ -411,7 +411,7 @@ export default function AxisBankLoanSettlementClient() {
                     </ul>
                   </div>
                   <div>
-                    <h5 className="font-bold text-gray-900 border-b pb-2 mb-3">Self-Employed / Business</h5>
+                    <h3 className="font-bold text-gray-900 border-b pb-2 mb-3">Self-Employed / Business</h3>
                     <ul className="list-disc pl-5 space-y-2 text-sm text-gray-600">
                       <li>GST Returns (showing drop in turnover).</li>
                       <li>Shut Down notice (if business closed).</li>
@@ -428,14 +428,14 @@ export default function AxisBankLoanSettlementClient() {
                   This is the biggest worry for most clients. Let’s be transparent: <strong>Settlement damages your credit score.</strong>
                 </p>
                 <div className="bg-gray-100 p-6 rounded-xl mb-6">
-                  <h4 className="font-bold text-gray-800 mb-2">The Impact Matrix</h4>
+                  <h3 className="font-bold text-gray-800 mb-2">The Impact Matrix</h3>
                   <ul className="space-y-3 text-sm">
                     <li className="flex items-start"><span className="text-red-500 font-bold mr-2">📉</span> <strong>Score Drop:</strong> Expect a drop of 50-100 points immediately post-settlement.</li>
                     <li className="flex items-start"><span className="text-red-500 font-bold mr-2">🚩</span> <strong>The Tag:</strong> Your CIBIL report Status will change from 'Active' to 'Settled' or 'Post-Writeoff Settled'.</li>
                     <li className="flex items-start"><span className="text-red-500 font-bold mr-2">⏳</span> <strong>Duration:</strong> This remark stays visible for 7 years according to Credit Information Companies (CIC) Act.</li>
                   </ul>
                 </div>
-                <h4 className="font-bold text-lg mb-2">Can I rebuild my score?</h4>
+                <h3 className="font-bold text-lg mb-2">Can I rebuild my score?</h3>
                 <p className="mb-4">
                   <strong>Yes.</strong> The 'Settled' tag is not a life sentence.
                 </p>
@@ -466,7 +466,7 @@ export default function AxisBankLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Axis Bank Issues?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Axis Bank Issues?</p>
                 <p className="text-sm text-gray-600 mb-6">Stop the calls. Start the solution. Get legal help now.</p>
                 <Link 
                   href="/contact"

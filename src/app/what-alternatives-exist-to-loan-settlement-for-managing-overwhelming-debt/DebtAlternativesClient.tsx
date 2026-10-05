@@ -296,7 +296,7 @@ export default function DebtAlternativesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Financial Alternatives</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Financial Alternatives</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -355,7 +355,7 @@ export default function DebtAlternativesClient() {
                                 The biggest advantage of consolidation is the **Interest Rate Differential.** On a debt of 10 lakhs, moving from 40% to 15% interest can save you nearly 2.5 lakhs per year in interest alone. This "Saved Interest" is effectively more money in your pocket to pay down the principal faster. Additionally, consolidation protects your credit score. Since you use the new loan to pay off the old ones in full, your CIBIL report shows "Closed" status for all your debts, which is a massive positive signal to future lenders.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
-                                <h3 className="text-xl font-bold text-blue-900 mb-4">Methods of Debt Consolidation in India:</h3>
+                                <p className="text-xl font-bold text-blue-900 mb-4">Methods of Debt Consolidation in India:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>1. Personal Consolidation Loan:</strong> Unsecured loans specifically marketed for debt payoff. Requires a CIBIL score of 700+.</li>
                                     <li><strong>2. Top-up Home Loan:</strong> If you have an existing home loan, a top-up is the cheapest way to consolidate debt (approx. 9-10% interest).</li>
@@ -580,7 +580,7 @@ export default function DebtAlternativesClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Save Your CIBIL Score?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Save Your CIBIL Score?</p>
                                 <p className="text-sm text-gray-600 mb-6">Learn how to restructure or consolidate your debt to avoid the "Settled" tag and keep your credit identity clean.</p>
                                 <Link
                                     href="/contact"
@@ -597,7 +597,7 @@ export default function DebtAlternativesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Technical Guidance</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Technical Guidance</p>
                                 <nav className="space-y-3">
                                     <Link href="/can-i-settle-my-credit-card-dues-using-third-party-loan-settlement-companies" className="block text-sm text-blue-600 hover:underline">CC Settlement Guide 2025</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Better?</Link>

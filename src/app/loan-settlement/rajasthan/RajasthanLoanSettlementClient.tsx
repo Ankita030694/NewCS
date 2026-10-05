@@ -187,7 +187,7 @@ export default function RajasthanLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -224,7 +224,7 @@ export default function RajasthanLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Legal Shield for Rajasthan</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Legal Shield for Rajasthan</h3>
                 <p className="text-blue-800 m-0">
                   Rajasthan has specific laws to protect borrowers. The <strong>Rajasthan Money Lenders Act, 1963</strong> is a key statute that regulates interest rates and mandates licensing for private financiers, offering a strong defense against harassment by unregulated lenders.
                 </p>
@@ -258,7 +258,7 @@ export default function RajasthanLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">1</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Portfolio Assessment</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Portfolio Assessment</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We begin by analyzing your total debt. In cities like Jaipur, we see a mix of business loans (MSME) and personal credit. We identify which loans are unsecured and eligible for settlement based on your current financial hardship.
                     </p>
@@ -268,7 +268,7 @@ export default function RajasthanLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">2</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Legal Shield (Stop Harassment)</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Legal Shield (Stop Harassment)</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Once you hire us, we direct you to divert all recovery calls to our legal team. We inform the bank of our representation, which significantly reduces the daily harassment and protects your family from intrusive calls.
                     </p>
@@ -278,7 +278,7 @@ export default function RajasthanLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">NPA Management & Notices</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">NPA Management & Notices</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Settlement discussions usually start after the account becomes NPA (90 days overdue). We guide you through this period, drafting professional responses to legal notices (Section 138, Arbitration) to keep your legal defense strong.
                     </p>
@@ -288,7 +288,7 @@ export default function RajasthanLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Zonal Offices</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Zonal Offices</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We negotiate directly with the bank’s Zonal or Regional offices (often in Jaipur C-Scheme or Tonk Road). Our goal is to waive 100% of penal interest and legal charges, and secure a substantial reduction on the principal amount.
                     </p>
@@ -298,7 +298,7 @@ export default function RajasthanLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">5</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Formal Settlement & Closure</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Formal Settlement & Closure</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We secure a formal Settlement Letter on the bank’s official letterhead. You make the payment directly to your loan account. We then ensure the bank issues a "No Dues Certificate" (NDC), formally closing the loan.
                     </p>
@@ -329,19 +329,19 @@ export default function RajasthanLoanSettlementClient() {
               <h3 className="text-xl font-bold text-gray-800 mb-4">How to Report Harassment</h3>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Local Police Station</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Local Police Station</h3>
                   <p className="text-sm text-gray-600">Filing a written complaint (Parivad) at your local Thana is the first step. Mention the details of harassment, abusive language, and threats. This creates an official record.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">RajCop Citizen App</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">RajCop Citizen App</h3>
                   <p className="text-sm text-gray-600">You can use the official "RajCop" app to report incidents or seek assistance. It is a convenient digital tool provided by the Rajasthan Police.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Cyber Crime Portal</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Cyber Crime Portal</h3>
                   <p className="text-sm text-gray-600">For harassment via WhatsApp, email, or fake loan apps, file a complaint on the National Cyber Crime Reporting Portal. Jaipur has a dedicated Cyber Crime Police Station.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h3>
                   <p className="text-sm text-gray-600">In case of immediate physical threat or public nuisance by agents at your home, dial the emergency number for immediate police intervention.</p>
                 </div>
               </div>
@@ -439,7 +439,7 @@ export default function RajasthanLoanSettlementClient() {
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                    <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Rajasthan Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Rajasthan Support</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal aid for Jaipur & RJ residents.</p>
                 <Link 
                   href="/contact"

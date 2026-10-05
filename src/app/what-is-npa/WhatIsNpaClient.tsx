@@ -184,7 +184,7 @@ export default function WhatIsNpaClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -331,7 +331,7 @@ export default function WhatIsNpaClient() {
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="border border-blue-100 p-4 rounded-lg">
-                    <h4 className="font-bold text-lg mb-2">Gross NPA (GNPA)</h4>
+                    <h3 className="font-bold text-lg mb-2">Gross NPA (GNPA)</h3>
                     <p>
                       This is the absolute amount of all loans classified as NPA. It represents the total volume of bad loans on the bank&apos;s books. It is a gross measure of the quality of the loan book.
                       <br/>
@@ -339,7 +339,7 @@ export default function WhatIsNpaClient() {
                     </p>
                   </div>
                   <div className="border border-blue-100 p-4 rounded-lg">
-                    <h4 className="font-bold text-lg mb-2">Net NPA (NNPA)</h4>
+                    <h3 className="font-bold text-lg mb-2">Net NPA (NNPA)</h3>
                     <p>
                       This is the amount of bad loans remaining after deducting the provisions made by the bank. It represents the actual risk the bank is still carrying on its balance sheet.
                       <br/>
@@ -605,7 +605,7 @@ export default function WhatIsNpaClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing NPA Issues?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Facing NPA Issues?</p>
                 <p className="text-sm text-gray-600 mb-6">Stop the harassment and safeguard your assets. Talk to an expert today.</p>
                 <Link 
                   href="/contact"

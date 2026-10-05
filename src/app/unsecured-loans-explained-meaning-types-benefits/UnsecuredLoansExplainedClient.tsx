@@ -242,7 +242,7 @@ export default function UnsecuredLoansExplainedClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -305,7 +305,7 @@ export default function UnsecuredLoansExplainedClient() {
 
                             {/* Alert Banner 1 */}
                             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-10 shadow-sm">
-                                <h4 className="text-red-800 font-bold text-lg mb-2">Crucial Legal Fact</h4>
+                                <p className="text-red-800 font-bold text-lg mb-2">Crucial Legal Fact</p>
                                 <p className="text-red-700 font-normal m-0">
                                     The absence of collateral means the bank cannot seize your property directly upon default. They must follow standard civil court procedures. Do not succumb to empty threats from recovery agents claiming they will immediately auction your house for an unsecured personal loan default.
                                 </p>
@@ -422,10 +422,10 @@ export default function UnsecuredLoansExplainedClient() {
 
                             {/* Checklist Visual Element */}
                             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8 mb-10 shadow-sm font-sans not-italic">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                <p className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                                     <svg className="w-8 h-8 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                     Product Selection Checklist
-                                </h3>
+                                </p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center border border-blue-300 mt-1 mr-4">
@@ -576,7 +576,7 @@ export default function UnsecuredLoansExplainedClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Loan Harassment?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Loan Harassment?</p>
                                 <p className="text-sm text-gray-600 mb-6 font-normal">Our lawyers can issue a Cease and Desist notice to stop illegal recovery tactics instantly.</p>
                                 <Link
                                     href="/contact"
@@ -594,7 +594,7 @@ export default function UnsecuredLoansExplainedClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3 font-bold">
                                     <Link href="/what-is-unsecured-personal-loans" className="block text-sm text-blue-600 hover:underline">Understanding Personal Loans</Link>
                                     <Link href="/best-lawyer-for-unsecured-loan" className="block text-sm text-blue-600 hover:underline">Find an Unsecured Loan Lawyer</Link>

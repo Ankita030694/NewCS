@@ -1043,7 +1043,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                   AJ
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-slate-900">Ashish Jhangra</h4>
+                  <p className="text-sm font-bold text-slate-900">Ashish Jhangra</p>
                   <p className="text-[11px] font-semibold text-slate-500">Legal &amp; Debt Resolution Professional</p>
                 </div>
               </div>
@@ -1066,7 +1066,7 @@ export default function ConsumerDurableLoanDefaultClient() {
             >
               <div className="flex items-center gap-2">
                 <ShieldAlert className="w-5 h-5 text-sky-300 flex-shrink-0" />
-                <h4 className="text-sm font-bold tracking-tight">Facing Collection Harassment?</h4>
+                <p className="text-sm font-bold tracking-tight">Facing Collection Harassment?</p>
               </div>
               <p className="text-xs text-blue-100 leading-relaxed font-normal">
                 Stop illegal bot calls, contact scraping, and aggressive visits immediately with formal legal representation.
@@ -1113,9 +1113,9 @@ export default function ConsumerDurableLoanDefaultClient() {
 
             {/* Related Resolution Guides Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 space-y-2">
-              <h4 className="text-xs font-black uppercase tracking-wider text-slate-800 pb-2 border-b border-slate-100">
+              <p className="text-xs font-black uppercase tracking-wider text-slate-800 pb-2 border-b border-slate-100">
                 Related Legal Guides
-              </h4>
+              </p>
               <div className="space-y-1 text-xs">
                 <Link
                   href="/services/personal-loan-settlement"

@@ -294,7 +294,7 @@ export default function RBIRecoveryGuidelinesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Policy Sections</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Policy Sections</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -580,7 +580,7 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Know Your Rights?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Know Your Rights?</p>
                                 <p className="text-sm text-gray-600 mb-6">Download your personalized RBI 2026 Compliance Kit and stop recovery harassment today.</p>
                                 <Link
                                     href="/contact"
@@ -597,7 +597,7 @@ export default function RBIRecoveryGuidelinesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Agent Harassment</Link>
                                     <Link href="/bank-calling-references-and-family-members" className="block text-sm text-blue-600 hover:underline">Calls to Relatives?</Link>

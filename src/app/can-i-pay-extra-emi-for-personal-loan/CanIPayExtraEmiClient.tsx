@@ -232,7 +232,7 @@ export default function CanIPayExtraEmiClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Execution Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Execution Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -291,7 +291,7 @@ export default function CanIPayExtraEmiClient() {
                                         </svg>
                                     </div>
                                     <div className="ml-4">
-                                        <h3 className="text-lg font-bold text-blue-900 mt-0 mb-2">Crucial Banking Insight</h3>
+                                        <p className="text-lg font-bold text-blue-900 mt-0 mb-2">Crucial Banking Insight</p>
                                         <p className="text-blue-800 text-sm m-0 leading-relaxed">
                                             Banks are designed to maximize interest revenue. Unless you explicitly instruct the bank to allocate your extra funds as a "principal part payment," their automated systems will default to treating it as an advance installment. Always specify your intent to ensure your principal is reduced.
                                         </p>
@@ -514,7 +514,7 @@ export default function CanIPayExtraEmiClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Financial Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Financial Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">Connect with our experts to navigate complex bank portal issues and execute proper part payments today.</p>
                                 <Link
                                     href="/contact"
@@ -531,7 +531,7 @@ export default function CanIPayExtraEmiClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Default Relief</Link>
                                     <Link href="/loan-partial-payment" className="block text-sm text-blue-600 hover:underline">Partial Payment Guidelines</Link>

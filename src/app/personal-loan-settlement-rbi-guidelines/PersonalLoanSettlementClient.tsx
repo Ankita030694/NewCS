@@ -199,7 +199,7 @@ export default function PersonalLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -277,9 +277,9 @@ export default function PersonalLoanSettlementClient() {
                             </p>
 
                             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center">
                                     Key Mandates of the 2026 Guidelines:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-blue-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>Mandatory Board Approved Policies:</strong> Every bank and NBFC must formulate and publish a clear policy on compromise settlements, outlining the eligibility criteria and the delegation of power for approving waivers.</li>
                                     <li><strong>Transparency in Communication:</strong> All offers for settlement must be communicated in writing. Verbal promises made by recovery agents hold no validity and are considered a violation of the fair practices code.</li>
@@ -358,7 +358,7 @@ export default function PersonalLoanSettlementClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -395,7 +395,7 @@ export default function PersonalLoanSettlementClient() {
                         <div className="space-y-6">
                             {/* Primary CTA Card */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-lg mb-2">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-lg mb-2">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                                     We can send a Legal Notice to stop recovery agents immediately.
                                 </p>
@@ -414,7 +414,7 @@ export default function PersonalLoanSettlementClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-4">
-                                <h4 className="font-black text-gray-900 text-md border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-md border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-3 text-left font-medium">
                                     <li>
                                         <Link href="/credit-card-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

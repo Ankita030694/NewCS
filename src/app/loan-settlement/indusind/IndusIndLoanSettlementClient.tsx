@@ -204,7 +204,7 @@ export default function IndusIndLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -244,7 +244,7 @@ export default function IndusIndLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">The CredSettle Assurance</h4>
+                <h3 className="font-bold text-blue-900 mb-2">The CredSettle Assurance</h3>
                 <p className="text-blue-800 m-0">
                   Debt is not the end of the road. With the right legal strategy and negotiation, you can close your IndusInd loan account, stop the harassment immediately, and start rebuilding your financial life. We have handled thousands of such cases successfully.
                 </p>
@@ -286,11 +286,11 @@ export default function IndusIndLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">1. The NPA status</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">1. The NPA status</h3>
                   <p className="text-gray-600 text-sm">Usually, settlement discussions become viable only after the account has been classified as NPA (90 days overdue). Pre-NPA settlements are rare and offer lower discounts.</p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-2">2. Unsecured Loans Only</h4>
+                  <h3 className="font-bold text-gray-900 mb-2">2. Unsecured Loans Only</h3>
                   <p className="text-gray-600 text-sm">Personal Loans, Credit Cards, and unsecured Business Loans are eligible. Car Loans or Home Loans are usually not eligible as the bank can repossess the asset.</p>
                 </div>
               </div>
@@ -298,15 +298,15 @@ export default function IndusIndLoanSettlementClient() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Common Scenarios Accepted for Settlement</h3>
               <div className="space-y-6 mb-10">
                 <div className="bg-white border-l-4 border-green-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Scenario 1: Job Loss or Pay Cut</h4>
+                  <h3 className="font-bold text-gray-900">Scenario 1: Job Loss or Pay Cut</h3>
                   <p className="text-gray-700 mt-1">If you have lost your job and have been unemployed for months, or if you were forced to take a significant salary cut, you can use your termination letter or bank statements as proof. IndusInd Bank is generally receptive to these cases.</p>
                 </div>
                 <div className="bg-white border-l-4 border-green-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Scenario 2: Medical Emergency</h4>
+                  <h3 className="font-bold text-gray-900">Scenario 2: Medical Emergency</h3>
                   <p className="text-gray-700 mt-1">A severe illness in the family that drained your savings is a valid ground. Medical reports and hospital bills serve as strong evidence to justify your inability to pay.</p>
                 </div>
                 <div className="bg-white border-l-4 border-green-500 pl-6 py-2">
-                  <h4 className="font-bold text-gray-900">Scenario 3: Business Failure</h4>
+                  <h3 className="font-bold text-gray-900">Scenario 3: Business Failure</h3>
                   <p className="text-gray-700 mt-1">For self-employed individuals, a GST return showing a drop in turnover or closure of a shop/business is accepted as proof of hardship.</p>
                 </div>
               </div>
@@ -335,7 +335,7 @@ export default function IndusIndLoanSettlementClient() {
               <div className="space-y-8 mb-12">
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Stop the Bleeding & Handle Harassment</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Stop the Bleeding & Handle Harassment</h3>
                   <p className="text-gray-700">
                     The moment you default, recovery agents will start calling. They may use intimidation tactics.
                     <br/><strong>Your Right:</strong> As per RBI guidelines, agents cannot call before 8 AM or after 7 PM. They cannot use abusive language.
@@ -345,7 +345,7 @@ export default function IndusIndLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Analyzing the "True" Liability</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Analyzing the "True" Liability</h3>
                   <p className="text-gray-700">
                     The bank’s statement will show a highly inflated figure including penal interest, late fees, and cheque bounce charges.
                     <br/><strong>Our Action:</strong> We strip away these illegal or excessive charges to arrive at the real principal outstanding. This is our baseline for negotiation.
@@ -354,7 +354,7 @@ export default function IndusIndLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Submitting the Settlement Proposal</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Submitting the Settlement Proposal</h3>
                   <p className="text-gray-700">
                     We draft a formal proposal to IndusInd Bank’s regional collection manager. This letter clearly outlines your financial hardship with evidence and proposes a realistic settlement amount.
                     <br/><strong>Insider Tip:</strong> Never quote your best offer first. Negotiation is expected.
@@ -363,7 +363,7 @@ export default function IndusIndLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Negotiation Rounds</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Negotiation Rounds</h3>
                   <p className="text-gray-700">
                     The bank will reject the first offer and demand 80-90% of the dues. This is standard. We engage in multiple rounds of negotiation, leveraging the age of the NPA and your inability to pay.
                     <br/><strong>Target:</strong> We aim for a waiver of 100% of the interest/penalties and a discount on the principal, typically saving you 40-50% of the total claim.
@@ -372,7 +372,7 @@ export default function IndusIndLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">The Settlement Letter (Crucial Step)</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">The Settlement Letter (Crucial Step)</h3>
                   <p className="text-gray-700">
                     Once the amount is agreed, IndusInd Bank will issue an official <strong>Settlement Letter</strong>.
                     <br/><strong>Warning:</strong> Never pay a single rupee without this letter. We verify the letter to ensure it clearly states that upon payment of ₹X amount, the entire loan is "fully and finally settled" with no future liability.
@@ -381,7 +381,7 @@ export default function IndusIndLoanSettlementClient() {
 
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">6</div>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Closure and No Dues Certificate</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Closure and No Dues Certificate</h3>
                   <p className="text-gray-700">
                     You make the payment directly to your loan account (never to an agent’s personal account). Within 15-20 days, the bank issues a <strong>No Dues Certificate (NDC)</strong>. We ensure you get this document as it is your proof of freedom.
                   </p>
@@ -395,7 +395,7 @@ export default function IndusIndLoanSettlementClient() {
 
               <div className="grid gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">1. Section 138 (Cheque Bounce)</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">1. Section 138 (Cheque Bounce)</h3>
                   <p className="text-gray-700">
                     If you gave post-dated cheques or had an ECS setup that bounced, the bank can file a case under Section 138 of the Negotiable Instruments Act. This is a criminal offense but is <strong>bailable</strong>.
                     <br/><span className="text-blue-600 font-semibold">Our Strategy:</span> If a 138 notice is received, our lawyers can appear in court and request time or mediation. The court usually encourages settlement in these matters.
@@ -403,14 +403,14 @@ export default function IndusIndLoanSettlementClient() {
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">2. Payment and Settlement Systems Act (Section 25)</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">2. Payment and Settlement Systems Act (Section 25)</h3>
                   <p className="text-gray-700">
                     Similar to cheque bounce, this applies when electronic fund transfers (NACH/ECS) fail due to insufficient funds. It carries similar legal weight to Section 138 and is also compoundable (can be settled).
                   </p>
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">3. Arbitration Proceedings</h4>
+                  <h3 className="font-bold text-gray-900 text-lg mb-2">3. Arbitration Proceedings</h3>
                   <p className="text-gray-700">
                     Most loan agreements have an arbitration clause. IndusInd Bank may appoint an arbitrator to pass an award against you. These proceedings often happen in major cities like Mumbai or Delhi, making it hard for out-of-station borrowers to attend.
                     <br/><span className="text-blue-600 font-semibold">Our Strategy:</span> We represent you in these arbitration proceedings or challenge ex-parte awards, ensuring that the bank cannot get a one-sided order to attach your assets.
@@ -542,7 +542,7 @@ export default function IndusIndLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Struggling with IndusInd Loan?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Struggling with IndusInd Loan?</p>
                 <p className="text-sm text-gray-600 mb-6">Get expert legal advice and save up to 50% on dues.</p>
                 <Link 
                   href="/contact"

@@ -275,13 +275,13 @@ export default function PersonalLoanDefaulterClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 mb-12">
                 <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                  <h4 className="font-bold text-red-900 text-lg mb-4">Myth: A Written Off Account Means the Debt is Forgiven</h4>
+                  <h3 className="font-bold text-red-900 text-lg mb-4">Myth: A Written Off Account Means the Debt is Forgiven</h3>
                   <p className="text-gray-800 text-base">
                     Many borrowers check their credit reports, see the status marked as Written Off, and celebrate under the false assumption that the bank has forgiven the loan. They believe they are completely free from the financial obligation and can resume borrowing normally.
                   </p>
                 </div>
                 <div className="bg-green-50 p-8 rounded-2xl border border-green-200">
-                  <h4 className="font-bold text-green-900 text-lg mb-4">Fact: A Write Off is an Internal Accounting Procedure</h4>
+                  <h3 className="font-bold text-green-900 text-lg mb-4">Fact: A Write Off is an Internal Accounting Procedure</h3>
                   <p className="text-gray-800 text-base">
                     A write off simply means the bank has recognized the loan as a total loss on its balance sheet for tax and regulatory purposes. It does not extinguish your legal obligation to repay the money. The bank retains the absolute right to recover the written off amount indefinitely, using non judicial methods. A debt is only forgiven when the bank explicitly issues a No Objection Certificate stating the account is Closed or Waived Off.
                   </p>
@@ -313,7 +313,7 @@ export default function PersonalLoanDefaulterClient() {
               <h3 id="exceptions-to-limitation" className="text-xl font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">Exceptions to the Limitation Act</h3>
               
               <div className="my-12">
-                <h4 className="font-bold text-blue-900 text-lg mb-8 border-b-2 border-blue-100 pb-2">The Legal Process Map: How the Clock Restarts</h4>
+                <h3 className="font-bold text-blue-900 text-lg mb-8 border-b-2 border-blue-100 pb-2">The Legal Process Map: How the Clock Restarts</h3>
                 
                 <div className="flex mb-8">
                   <div className="flex flex-col items-center mr-6">
@@ -321,7 +321,7 @@ export default function PersonalLoanDefaulterClient() {
                     <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                   </div>
                   <div className="pb-8">
-                    <h5 className="font-bold text-gray-900 text-lg mb-2">Written Acknowledgment (Section 18)</h5>
+                    <h3 className="font-bold text-gray-900 text-lg mb-2">Written Acknowledgment (Section 18)</h3>
                     <p className="text-gray-700">If, at any point before the expiration of the original three year period, you write a letter or send an email to the bank acknowledging the existence of the debt, the three year clock instantly restarts from the date of that written communication. Recovery agents will often trick you into sending an email begging for more time just to secure this vital written acknowledgment.</p>
                   </div>
                 </div>
@@ -332,7 +332,7 @@ export default function PersonalLoanDefaulterClient() {
                     <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                   </div>
                   <div className="pb-8">
-                    <h5 className="font-bold text-gray-900 text-lg mb-2">Partial Payment (Section 19)</h5>
+                    <h3 className="font-bold text-gray-900 text-lg mb-2">Partial Payment (Section 19)</h3>
                     <p className="text-gray-700">This is the most common trap. If you make even a tiny partial payment towards the principal or interest of the debt before the limitation period expires, the three year clock is completely reset from the date of that payment. Agents will relentlessly pressure you to pay just five hundred rupees to "stop the calls," knowing fully well that this payment legally revives a massive debt that was about to become time barred.</p>
                   </div>
                 </div>
@@ -342,7 +342,7 @@ export default function PersonalLoanDefaulterClient() {
                     <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg z-10">C</div>
                   </div>
                   <div>
-                    <h5 className="font-bold text-gray-900 text-lg mb-2">Fresh Promise to Pay (Section 25 of Indian Contract Act)</h5>
+                    <h3 className="font-bold text-gray-900 text-lg mb-2">Fresh Promise to Pay (Section 25 of Indian Contract Act)</h3>
                     <p className="text-gray-700">This is the ultimate danger for a ten year old debt. Even if the three year limitation period has completely expired and the debt is officially time barred, if you make a fresh, written promise to pay the time barred debt, it constitutes a brand new, legally binding contract. The bank can now immediately file a lawsuit based on this new written promise, resurrecting a dead debt entirely.</p>
                   </div>
                 </div>
@@ -438,7 +438,7 @@ export default function PersonalLoanDefaulterClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="/default-user.svg" alt="Financial Strategist" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover bg-gray-50" />
-                <h4 className="font-bold text-gray-900">Vikram Sharma</h4>
+                <p className="font-bold text-gray-900">Vikram Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

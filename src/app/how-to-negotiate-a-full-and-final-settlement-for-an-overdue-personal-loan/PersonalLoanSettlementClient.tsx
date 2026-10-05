@@ -176,7 +176,7 @@ export default function PersonalLoanSettlementClient() {
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -233,31 +233,31 @@ export default function PersonalLoanSettlementClient() {
                 <h3 className="font-bold text-blue-900 text-base mb-6 border-b-2 border-blue-100 pb-2">Myth vs Fact: Personal Loan Default</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-red-50 p-6 rounded-xl border border-red-200">
-                    <h4 className="font-bold text-red-800 flex items-center mb-3">
+                    <h3 className="font-bold text-red-800 flex items-center mb-3">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path></svg>
                       The Myth
-                    </h4>
+                    </h3>
                     <p className="text-gray-800">You can be sent to prison for simply failing to pay your unsecured personal loan installments on time.</p>
                   </div>
                   <div className="bg-green-50 p-6 rounded-xl border border-green-200">
-                    <h4 className="font-bold text-green-800 flex items-center mb-3">
+                    <h3 className="font-bold text-green-800 flex items-center mb-3">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                       The Fact
-                    </h4>
+                    </h3>
                     <p className="text-gray-800">Defaulting on a loan is a civil breach of contract, not a criminal offense. Unless you committed deliberate, premeditated fraud with forged documents, you cannot be jailed for a standard loan default.</p>
                   </div>
                   <div className="bg-red-50 p-6 rounded-xl border border-red-200">
-                    <h4 className="font-bold text-red-800 flex items-center mb-3">
+                    <h3 className="font-bold text-red-800 flex items-center mb-3">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path></svg>
                       The Myth
-                    </h4>
+                    </h3>
                     <p className="text-gray-800">Banks will seize all your household goods and property immediately if you miss three loan payments.</p>
                   </div>
                   <div className="bg-green-50 p-6 rounded-xl border border-green-200">
-                    <h4 className="font-bold text-green-800 flex items-center mb-3">
+                    <h3 className="font-bold text-green-800 flex items-center mb-3">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                       The Fact
-                    </h4>
+                    </h3>
                     <p className="text-gray-800">Unsecured loans have no collateral. To attach your assets, the bank must file a civil suit, endure a lengthy trial, and win a decree from a judge. They cannot simply take your property without due legal process.</p>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ export default function PersonalLoanSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h4 className="font-bold text-gray-900 text-base mb-2">Submission of the Proposal</h4>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Submission of the Proposal</h3>
                       <p className="text-gray-700">You send the hardship letter and the initial lump sum offer via registered post and official email to the bank's designated nodal officer. You retain the delivery receipt as proof of submission.</p>
                     </div>
                   </div>
@@ -347,7 +347,7 @@ export default function PersonalLoanSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h4 className="font-bold text-gray-900 text-base mb-2">The First Counteroffer</h4>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">The First Counteroffer</h3>
                       <p className="text-gray-700">The bank formally replies, usually rejecting your offer as too low. They counter by demanding seventy to eighty percent of the outstanding amount. They may also apply pressure by mentioning potential legal action.</p>
                     </div>
                   </div>
@@ -358,7 +358,7 @@ export default function PersonalLoanSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h4 className="font-bold text-gray-900 text-base mb-2">Holding the Line</h4>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Holding the Line</h3>
                       <p className="text-gray-700">You reply in writing, reaffirming your absolute inability to pay their counteroffer. You remind them of your verifiable hardship documentation. You incrementally increase your offer slightly, perhaps moving from twenty five to thirty percent, demonstrating good faith.</p>
                     </div>
                   </div>
@@ -369,7 +369,7 @@ export default function PersonalLoanSettlementClient() {
                       <div className="w-1 bg-blue-200 h-full mt-2 rounded"></div>
                     </div>
                     <div className="pb-8">
-                      <h4 className="font-bold text-gray-900 text-base mb-2">Reaching the Compromise</h4>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Reaching the Compromise</h3>
                       <p className="text-gray-700">The bank realizes that dragging the process out is yielding diminishing returns. The recovery manager calls to finalize a number close to your hard ceiling. You verbally agree to the figure, usually around forty to fifty percent of the total outstanding.</p>
                     </div>
                   </div>
@@ -379,7 +379,7 @@ export default function PersonalLoanSettlementClient() {
                       <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-base shadow-lg z-10">Day 40</div>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900 text-base mb-2">Document Verification and Payment</h4>
+                      <h3 className="font-bold text-gray-900 text-base mb-2">Document Verification and Payment</h3>
                       <p className="text-gray-700">The bank issues the formal settlement letter. You review every word meticulously. Once verified, you execute the lump sum payment via traceable electronic transfer before the stated deadline.</p>
                     </div>
                   </div>
@@ -534,7 +534,7 @@ export default function PersonalLoanSettlementClient() {
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Rohan Sharma Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" />
-                <h4 className="font-bold text-gray-900">Rohan Sharma</h4>
+                <p className="font-bold text-gray-900">Rohan Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Advocate & Financial Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking regulations, recovery agent harassment, and complex debt restructuring matters.</p>
               </div>

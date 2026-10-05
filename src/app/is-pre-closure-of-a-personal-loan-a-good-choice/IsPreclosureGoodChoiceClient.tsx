@@ -234,7 +234,7 @@ export default function IsPreclosureGoodChoiceClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -298,10 +298,10 @@ export default function IsPreclosureGoodChoiceClient() {
                             {/* Visual Element 1: Alert Banner */}
                             <div className="bg-red-50 text-red-900 p-8 rounded-[2rem] mb-10 shadow-lg border border-red-200 relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-500/10 blur-2xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-4 flex items-center gap-2">
+                                <p className="text-2xl font-black mb-4 flex items-center gap-2">
                                     <span className="w-2 h-8 bg-red-600 inline-block rounded-full"></span>
                                     Warning: The Foreclosure Trap
-                                </h4>
+                                </p>
                                 <p className="mb-4 font-light text-red-800">
                                     Banks rarely let you walk away for free. The standard foreclosure penalty in India ranges from <strong>2% to 5%</strong> on the outstanding principal balance. This is not a flat fee; it scales with your debt.
                                 </p>
@@ -428,7 +428,7 @@ export default function IsPreclosureGoodChoiceClient() {
                                     <div className="flex items-start gap-4">
                                         <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-900 flex-shrink-0">1</div>
                                         <div>
-                                            <h5 className="font-bold text-lg">Are you using your Emergency Fund?</h5>
+                                            <p className="font-bold text-lg">Are you using your Emergency Fund?</p>
                                             <p className="text-sm font-light mt-1">If YES: Stop immediately. Do not prepay. Keep the cash and continue paying EMIs.</p>
                                             <p className="text-sm font-light">If NO (This is surplus cash): Proceed to Step 2.</p>
                                         </div>
@@ -437,7 +437,7 @@ export default function IsPreclosureGoodChoiceClient() {
                                     <div className="flex items-start gap-4">
                                         <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-900 flex-shrink-0">2</div>
                                         <div>
-                                            <h5 className="font-bold text-lg">Are you in the final year of the loan?</h5>
+                                            <h3 className="font-bold text-lg">Are you in the final year of the loan?</h3>
                                             <p className="text-sm font-light mt-1">If YES: Do not foreclose. You have already paid the interest. The penalty will wipe out any remaining benefit.</p>
                                             <p className="text-sm font-light">If NO (You are in early/mid tenure): Proceed to Step 3.</p>
                                         </div>
@@ -446,7 +446,7 @@ export default function IsPreclosureGoodChoiceClient() {
                                     <div className="flex items-start gap-4">
                                         <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-900 flex-shrink-0">3</div>
                                         <div>
-                                            <h5 className="font-bold text-lg">Does the bank charge a massive foreclosure penalty?</h5>
+                                            <h3 className="font-bold text-lg">Does the bank charge a massive foreclosure penalty?</h3>
                                             <p className="text-sm font-light mt-1">If YES: Check if they allow penalty free Partial Prepayment instead.</p>
                                             <p className="text-sm font-light">If NO (Zero or low penalty): Pre closure is highly viable. Proceed to Step 4.</p>
                                         </div>
@@ -455,7 +455,7 @@ export default function IsPreclosureGoodChoiceClient() {
                                     <div className="flex items-start gap-4">
                                         <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-900 flex-shrink-0">4</div>
                                         <div>
-                                            <h5 className="font-bold text-lg">Can you invest this cash to out earn the loan interest?</h5>
+                                            <h3 className="font-bold text-lg">Can you invest this cash to out earn the loan interest?</h3>
                                             <p className="text-sm font-light mt-1">If YES: Invest the surplus cash in compounding assets.</p>
                                             <p className="text-sm font-light">If NO (You prefer guaranteed savings): Execute the foreclosure and celebrate your debt free status.</p>
                                         </div>
@@ -470,7 +470,7 @@ export default function IsPreclosureGoodChoiceClient() {
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 8: Client Success Stories</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The IT Professional</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The IT Professional</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A software engineer in Pune received a massive year end bonus and immediately wanted to close his 8,00,000 personal loan. His bank hit him with a 5% foreclosure quote.
                                     </p>
@@ -479,7 +479,7 @@ export default function IsPreclosureGoodChoiceClient() {
                                     </p>
                                 </div>
                                 <div className="bg-blue-50 p-10 rounded-[3rem] border border-blue-100 shadow-xl border-l-8 border-blue-700">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Business Owner</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Business Owner</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A small business owner was sitting on idle cash and wanted to close a high interest unsecured loan from an aggressive NBFC. The NBFC demanded illegal pre closure fees that were not listed in the original sanction letter.
                                     </p>
@@ -559,7 +559,7 @@ export default function IsPreclosureGoodChoiceClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Trapped by Fees?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Trapped by Fees?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can audit your loan statement for illegal charges today.</p>
                                 <Link
                                     href="/contact"
@@ -577,7 +577,7 @@ export default function IsPreclosureGoodChoiceClient() {
 
                             {/* Related Pages (Replaces Author Card) */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Debt Strategy Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Debt Strategy Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

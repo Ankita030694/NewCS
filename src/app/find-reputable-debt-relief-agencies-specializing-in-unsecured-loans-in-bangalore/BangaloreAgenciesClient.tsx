@@ -296,7 +296,7 @@ export default function BangaloreAgenciesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm overflow-y-auto max-h-[85vh]">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Article Index</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Article Index</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -538,7 +538,7 @@ export default function BangaloreAgenciesClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Stop Harassment Today</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Stop Harassment Today</p>
                                 <p className="text-sm text-gray-600 mb-6">Engage top Bangalore legal advocates to instantly block recovery calls and start your settlement journey.</p>
                                 <Link
                                     href="/contact"
@@ -555,7 +555,7 @@ export default function BangaloreAgenciesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-are-the-charges-for-loan-settlement-services-by-top-financial-firms" className="block text-sm text-blue-600 hover:underline">Firm Fees Breakdown</Link>
                                     <Link href="/what-are-the-key-benefits-and-drawbacks-of-pursuing-a-loan-settlement" className="block text-sm text-blue-600 hover:underline">Pros and Cons of Settlement</Link>

@@ -248,7 +248,7 @@ export default function LegalImplicationsClient() {
                     {/* Left: Sticky TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
-                            <h3 className="font-black text-gray-900 mb-6 uppercase tracking-widest text-[10px] border-b pb-2 border-gray-50">Legal Roadmap</h3>
+                            <p className="font-black text-gray-900 mb-6 uppercase tracking-widest text-[10px] border-b pb-2 border-gray-50">Legal Roadmap</p>
                             <nav className="space-y-3">
                                 {navLinks.map((link) => (
                                     <a
@@ -288,7 +288,7 @@ export default function LegalImplicationsClient() {
                                 One of the most potent tools in a lender’s arsenal is <strong>Section 138 of the Negotiable Instruments Act.</strong> This handles the "Dishonor of Cheques." While loan default is a civil matter, a bounced cheque is a criminal offense. Banks often collect Post-Dated Cheques (PDCs) or ask for NACH mandates during the loan application process. In 2025, the digitalization of payments has led to the rise of Section 25 of the Payment and Settlement Systems Act, which mirrors the criminal implications of Section 138 but applies to electronic mandates (NACH/ECS).
                             </p>
                             <div className="bg-red-50 p-10 rounded-3xl border border-red-100 mb-12 shadow-sm">
-                                <h4 className="text-red-900 font-black text-xl mb-4 border-l-4 border-red-600 pl-4">Crucial Facts about Section 138 in 2025:</h4>
+                                <p className="text-red-900 font-black text-xl mb-4 border-l-4 border-red-600 pl-4">Crucial Facts about Section 138 in 2025:</p>
                                 <ul className="space-y-4 text-red-800 font-light list-disc pl-5">
                                     <li>It requires a proper <strong>Legal Demand Notice</strong> within 30 days of the cheque bounce. Failure to issue this notice within the timeframe makes the case legally void.</li>
                                     <li>The borrower has <strong>15 days</strong> to pay after receiving the notice. This is your "cooling-off" period where you can potentially resolve the matter before it hits the courts.</li>
@@ -311,7 +311,7 @@ export default function LegalImplicationsClient() {
                                 However, the law also provides the <strong>"Right of Redemption" (Section 13.8).</strong> As a borrower, you have the right to pay off the dues and stop an auction at any point before the sale is finalized. But what many don’t realize is the "Objection Phase." After receiving a 13(2) notice, you have the right to file an objection within those 60 days. The bank is legally mandated to respond to this objection within 15 days, explaining why they are rejecting or accepting your proposal.
                             </p>
                             <div className="bg-amber-50 p-10 rounded-3xl border border-amber-100 mb-12 shadow-sm">
-                                <h4 className="text-amber-900 font-black text-xl mb-4">Strategic Defense in SARFAESI Cases:</h4>
+                                <p className="text-amber-900 font-black text-xl mb-4">Strategic Defense in SARFAESI Cases:</p>
                                 <p className="text-amber-800 font-light mb-4">If the bank ignores your objection or fails to follow the strictly laid down procedure of the SARFAESI Act (like not serving the 30-day auction notice properly), you can approach the <strong>Debt Recovery Tribunal (DRT)</strong> to get a stay on the auction.</p>
                                 <p className="text-amber-800 font-light">Strategic non-payment in secured loans is a high-risk move and should only be done under expert supervision where a settlement offer is already being actively negotiated to bypass the auction through a "Compromise Settlement."</p>
                             </div>
@@ -338,7 +338,7 @@ export default function LegalImplicationsClient() {
                                 Under the new framework, lenders must provide "Reasonable Time" for the borrower to respond to any demand. The concept of "Digital Harassment"-sending repeated WhatsApp messages, using automated bots to call every 5 minutes, or tagging borrowers on social media-is now explicitly banned. Lenders found violating these norms face heavy penalties, sometimes exceeding the value of the loan being recovered.
                             </p>
                             <div className="bg-slate-900 text-white p-12 rounded-[2.5rem] mb-14 shadow-2xl overflow-hidden relative">
-                                <h3 className="text-2xl font-bold mb-8 text-blue-400 uppercase tracking-widest pl-4 border-l-4 border-blue-600">Your RBI-Protected Rights:</h3>
+                                <p className="text-2xl font-bold mb-8 text-blue-400 uppercase tracking-widest pl-4 border-l-4 border-blue-600">Your RBI-Protected Rights:</p>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                                     <div>
                                         <p className="font-bold text-blue-300 text-lg mb-2">Right to Privacy (Art. 21 Context)</p>
@@ -458,7 +458,7 @@ export default function LegalImplicationsClient() {
                             
                             {/* Legal CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Emergency Hub</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Emergency Hub</p>
                                 <p className="text-sm text-gray-600 mb-6">Received a summons or S.138 notice? Act within the next 48 hours for maximum protection.</p>
                                 <Link
                                     href="/contact"
@@ -475,7 +475,7 @@ export default function LegalImplicationsClient() {
 
                             {/* Related Guides */}
                             <div className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-xl">
-                                <h4 className="font-black text-gray-900 mb-8 uppercase tracking-widest text-[10px] border-b pb-4">Must Read Guides</h4>
+                                <p className="font-black text-gray-900 mb-8 uppercase tracking-widest text-[10px] border-b pb-4">Must Read Guides</p>
                                 <nav className="space-y-6">
                                     {[
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Is Settlement Legit?" },

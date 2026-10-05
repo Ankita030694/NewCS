@@ -293,7 +293,7 @@ export default function CreditCardDefaultLegalActionClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Navigation</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Credit Navigation</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -452,7 +452,7 @@ export default function CreditCardDefaultLegalActionClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -470,7 +470,7 @@ export default function CreditCardDefaultLegalActionClient() {
                             </p>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Under Pressure from Credit Card Debt?</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">Under Pressure from Credit Card Debt?</p>
                                 <p className="text-blue-800 mb-6">Don’t suffer in silence. Our legal team can stop the harassment, respond to legal notices, and negotiate a final settlement for you. Reclaim your peace of mind today.</p>
                                 <Link
                                     href="/contact"
@@ -493,7 +493,7 @@ export default function CreditCardDefaultLegalActionClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Debt Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Debt Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">Being hounded by credit card agents? We can legally block harassment and negotiate a settlement for you.</p>
                                 <Link
                                     href="/contact"
@@ -510,7 +510,7 @@ export default function CreditCardDefaultLegalActionClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must Read Guides</p>
                                 <nav className="space-y-3">
                                     <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block text-sm text-blue-600 hover:underline">Dealing with Notices</Link>
                                     <Link href="/can-bank-file-case-for-personal-loan" className="block text-sm text-blue-600 hover:underline">Personal Loan Action</Link>

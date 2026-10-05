@@ -244,7 +244,7 @@ const CollectionCallsClient = () => {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -290,12 +290,12 @@ const CollectionCallsClient = () => {
                             <h2 id="collection-timings" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Permitted Timings: The 8 AM to 7 PM Window</h2>
                             <div className="bg-blue-600 text-white p-10 rounded-[2.5rem] mb-12 shadow-xl relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16 blur-3xl group-hover:bg-white/20 transition-all"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3 uppercase tracking-widest text-xs italic">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3 uppercase tracking-widest text-xs italic">
                                     <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     Legal Calling Hours
-                                </h4>
+                                </p>
                                 <p className="text-4xl md:text-5xl font-black mb-6 tracking-tighter italic">08:00 AM - 07:00 PM</p>
                                 <p className="opacity-90 leading-relaxed font-light text-lg">
                                     Calls outside this window (late nights, early mornings, or public holidays) are not just annoying-they are illegal. Any call at 9 PM is a direct violation that you can record and use as a basis for a formal RBI complaint.
@@ -335,7 +335,7 @@ const CollectionCallsClient = () => {
                             </p>
                             <div className="p-10 bg-gray-900 text-blue-100 rounded-[2.5rem] mb-14 shadow-2xl relative overflow-hidden group">
                                 <div className="absolute bottom-0 left-0 w-48 h-48 bg-blue-500/10 rounded-full -ml-24 -mb-24 blur-3xl group-hover:bg-blue-500/20 transition-all"></div>
-                                <h5 className="text-xl font-black mb-6 text-blue-400 italic">The "CredSettle" Recommended Script:</h5>
+                                <p className="text-xl font-black mb-6 text-blue-400 italic">The "CredSettle" Recommended Script:</p>
                                 <p className="text-2xl font-light leading-relaxed mb-8 italic">
                                     "I am aware of my debt. I am currently in a formal resolution process with my advisors at CredSettle. Please note that I am recording this call. You are calling me at [Time], which is [Permissible/Not Permissible]. I request you to send all future communication in writing to my registered address as per RBI circular DBOD. No. BP. BC. 121. Good day."
                                 </p>
@@ -391,7 +391,7 @@ const CollectionCallsClient = () => {
                                 ))}
                             </div>
 
-                            <h2 className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4 uppercase">Conclusion: Reclaiming Your Peace of Mind</h2>
+                            <p className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 italic border-l-4 border-blue-600 pl-4 uppercase">Conclusion: Reclaiming Your Peace of Mind</p>
                             <p className="text-gray-700 leading-relaxed mb-10 font-light text-2xl italic leading-relaxed">
                                 Collection calls are temporary; your legal rights are permanent.
                             </p>
@@ -400,7 +400,7 @@ const CollectionCallsClient = () => {
                                 As you move through your debt settlement program, remember that the phone is a tool for communication, not a weapon of torture. By documenting misconduct, citing RBI rules, and seeking professional representation, you can neuter the threat of aggressive recovery. At CredSettle, we don’t just settle your debts; we protect your dignity. If you are being harassed, stand tall. The law is on your side.
                             </p>
 
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</h2>
+                            <p className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Client Success and Feedback</p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                                 {[
                                     { name: 'Ananya Sharma', location: 'Bangalore', stars: 5, comment: 'Recovery agents were calling me 20 times a day. After following this guide, I sent a formal complaint to the RBI Ombudsman and the calls stopped within 48 hours. I finally had peace to focus on my settlement.' },
@@ -446,7 +446,7 @@ const CollectionCallsClient = () => {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Legal Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2 italic uppercase tracking-tighter leading-normal">Legal Shield</p>
                                 <p className="text-sm text-gray-600 mb-6 font-light italic">"Stop the threats. Start the resolution. Your peace of mind is non-negotiable."</p>
                                 <Link
                                     href="/contact"
@@ -463,7 +463,7 @@ const CollectionCallsClient = () => {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Rights Directory</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Rights Directory</p>
                                 <nav className="space-y-3">
                                     {[
                                         { href: "/are-there-legal-implecations-or-non-payment-during-debt-settlement", text: "Legal Implications" },

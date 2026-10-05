@@ -68,7 +68,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mt-8">
-              <h4 className="font-bold text-red-950 mb-2">Escalation Mechanism for RBI Violations</h4>
+              <h3 className="font-bold text-red-950 mb-2">Escalation Mechanism for RBI Violations</h3>
               <p className="text-sm text-red-800 leading-relaxed">
                 If a lender or agent breaches these rules, borrowers have the legal right to file a formal complaint with the Bank&apos;s Principal Nodal Officer and escalate to the RBI Integrated Ombudsman via the Complaint Management System (CMS).
               </p>
@@ -99,7 +99,7 @@ export default function ClientPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h4 className="font-semibold text-[#0C2756] mb-2">Ensure Full RBI Compliance with CredSettle</h4>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Ensure Full RBI Compliance with CredSettle</h3>
               <p className="mb-4 text-sm text-gray-600">Our legal team holds lenders accountable to RBI directives, ensuring ethical debt resolution without unlawful harassment.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Consult an RBI Banking Lawyer

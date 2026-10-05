@@ -198,7 +198,7 @@ export default function KrazyBeeLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -232,7 +232,7 @@ export default function KrazyBeeLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Important Distinction</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Important Distinction</h3>
                 <p className="text-blue-800 m-0">
                   <strong>KreditBee</strong> is the platform (app) you used. <strong>KrazyBee Services Pvt Ltd</strong> is the NBFC (Non-Banking Financial Company) that actually lent you the money. Your legal obligation and settlement agreement will be with KrazyBee.
                 </p>
@@ -256,28 +256,28 @@ export default function KrazyBeeLoanSettlementClient() {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Stop the Harassment</h4>
+                    <h3 className="font-bold text-gray-900">Stop the Harassment</h3>
                     <p className="text-gray-600 mt-1">Digital lenders are notorious for calling contacts. We immediately revoke their authorization to contact third parties (referencing RBI’s digital lending guidelines) and demand all communication come to us.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Evaluate Hardship</h4>
+                    <h3 className="font-bold text-gray-900">Evaluate Hardship</h3>
                     <p className="text-gray-600 mt-1">We compile proofs of your financial inability to pay (job loss, medical emergency). This is crucial to justify the waiver request.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Negotiation</h4>
+                    <h3 className="font-bold text-gray-900">Negotiation</h3>
                     <p className="text-gray-600 mt-1">We propose a One Time Settlement (OTS) to KrazyBee’s recovery department. We aim to remove all penal charges and reduce the principal.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Formal Agreement</h4>
+                    <h3 className="font-bold text-gray-900">Formal Agreement</h3>
                     <p className="text-gray-600 mt-1">We secure a formal settlement letter. This step is non-negotiable. <strong>Never pay on a verbal promise.</strong></p>
                   </div>
                 </div>
@@ -330,7 +330,7 @@ export default function KrazyBeeLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-white border-l-4 border-red-500 shadow-sm p-6 ml-0">
-                  <h4 className="font-bold text-gray-900">1. Arbitration Notice</h4>
+                  <h3 className="font-bold text-gray-900">1. Arbitration Notice</h3>
                   <p className="text-gray-600 mt-2 text-sm">
                     Most loan agreements include an arbitration clause. You might receive a notice of an arbitration hearing (often online via Presolv360 or similar platforms). 
                     <br/><br/>
@@ -338,7 +338,7 @@ export default function KrazyBeeLoanSettlementClient() {
                   </p>
                 </div>
                 <div className="bg-white border-l-4 border-red-500 shadow-sm p-6 ml-0">
-                  <h4 className="font-bold text-gray-900">2. Section 138 / Section 25</h4>
+                  <h3 className="font-bold text-gray-900">2. Section 138 / Section 25</h3>
                   <p className="text-gray-600 mt-2 text-sm">
                     If your EMI auto-debit (NACH) bounces, it can be treated as a criminal offense (similar to a cheque bounce). They may file a case under Section 25 of the Payment and Settlement Systems Act.
                     <br/><br/>
@@ -367,7 +367,7 @@ export default function KrazyBeeLoanSettlementClient() {
                  Once they accept, they will issue an official **Settlement Letter**. Ensure it checks the following:
               </p>
               <div className="bg-gray-50 border border-gray-200 rounded-xl p-8 mb-10">
-                <h4 className="font-bold text-gray-900 mb-4 text-center border-b pb-4">Checklist for a Valid Settlement Letter</h4>
+                <h3 className="font-bold text-gray-900 mb-4 text-center border-b pb-4">Checklist for a Valid Settlement Letter</h3>
                 <ul className="space-y-3 text-sm md:text-base text-gray-700">
                   <li className="flex items-start">
                     <span className="text-green-500 mr-2">v</span>
@@ -395,7 +395,7 @@ export default function KrazyBeeLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-gray-200 rounded-xl overflow-hidden mb-10">
                 <div className="bg-gray-50 p-6 border-b md:border-b-0 md:border-r border-gray-200">
-                  <h4 className="font-bold text-red-600 mb-2 text-xl">Written Off</h4>
+                  <h3 className="font-bold text-red-600 mb-2 text-xl">Written Off</h3>
                   <p className="text-gray-900 font-medium mb-4">(Worst Case Scenario)</p>
                   <ul className="list-disc pl-5 space-y-2 text-sm text-gray-600">
                     <li>Means the lender has given up on recovery but <strong>still owns the debt</strong>.</li>
@@ -405,7 +405,7 @@ export default function KrazyBeeLoanSettlementClient() {
                   </ul>
                 </div>
                 <div className="bg-blue-50 p-6">
-                  <h4 className="font-bold text-blue-600 mb-2 text-xl">Settled</h4>
+                  <h3 className="font-bold text-blue-600 mb-2 text-xl">Settled</h3>
                   <p className="text-gray-900 font-medium mb-4">(Practical Solution)</p>
                   <ul className="list-disc pl-5 space-y-2 text-sm text-gray-600">
                     <li>Means the debt is <strong>closed</strong> by mutual agreement.</li>
@@ -456,19 +456,19 @@ export default function KrazyBeeLoanSettlementClient() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Anti-Harassment</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Anti-Harassment</h3>
                   <p className="text-sm text-gray-600">We leverage digital lending laws to stop agent calls to your contacts.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Arbitration Experts</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Arbitration Experts</h3>
                   <p className="text-sm text-gray-600">Our lawyers are experienced in handling digital arbitration notices.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Proven Results</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Proven Results</h3>
                   <p className="text-sm text-gray-600">Average savings of 40-50% on principal+interest.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h5 className="font-bold text-gray-900 mb-1">Success-Based</h5>
+                  <h3 className="font-bold text-gray-900 mb-1">Success-Based</h3>
                   <p className="text-sm text-gray-600">We don’t charge negotiation fees upfront. We win, you pay.</p>
                 </div>
               </div>
@@ -513,7 +513,7 @@ export default function KrazyBeeLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Stop the calls. Get legal protection now.</p>
                 <Link 
                   href="/contact"
@@ -529,7 +529,7 @@ export default function KrazyBeeLoanSettlementClient() {
 
               {/* Related Pages Info */}
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</h4>
+                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
                   <li>
                     <Link href="/services/personal-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">

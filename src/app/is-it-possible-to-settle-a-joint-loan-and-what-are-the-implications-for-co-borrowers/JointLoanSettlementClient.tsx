@@ -199,7 +199,7 @@ export default function JointLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -493,7 +493,7 @@ export default function JointLoanSettlementClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-[32px] shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Stuck in a Joint Loan?</h4>
+                <p className="font-bold text-2xl mb-4">Stuck in a Joint Loan?</p>
                 <p className="text-blue-100 mb-8 text-sm leading-relaxed">The bank can pursue either of you for the full amount. Protect yourself with professional negotiation.</p>
                 <Link 
                   href="/contact"
@@ -518,7 +518,7 @@ export default function JointLoanSettlementClient() {
               </div>
 
               <div className="bg-white p-8 rounded-[32px] shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Expert Knowledge</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Expert Knowledge</p>
                 <ul className="space-y-5">
                   <li>
                     <Link href="/loan-settlement" className="group flex items-start">

@@ -258,7 +258,7 @@ export default function DebtReliefClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -412,42 +412,42 @@ export default function DebtReliefClient() {
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold">1</div>
                     <div>
-                      <h4 className="font-bold text-lg">Initial Debt Assessment</h4>
+                      <h3 className="font-bold text-lg">Initial Debt Assessment</h3>
                       <p className="text-sm">The team reviews all your outstanding credit cards, personal loans, and other unsecured debts. They calculate your "Debt-to-Income" ratio and determine if you are a fit for settlement.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold">2</div>
                     <div>
-                      <h4 className="font-bold text-lg">Enrolment and Legal Shielding</h4>
+                      <h3 className="font-bold text-lg">Enrolment and Legal Shielding</h3>
                       <p className="text-sm">Once enrolled, the agency issues a formal communication to your creditors. This "Notice of Representation" informs the bank that you are undergoing a debt resolution program and that all communication should be routed through the agency.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold">3</div>
                     <div>
-                      <h4 className="font-bold text-lg">The Waiting and Saving Period</h4>
+                      <h3 className="font-bold text-lg">The Waiting and Saving Period</h3>
                       <p className="text-sm">Banks rarely settle immediately. They need to see that the account has aged and is genuinely distressed. During this time, the agency helps you save funds into a dedicated "Settlement Fund" so you are ready when the bank makes an offer.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold">4</div>
                     <div>
-                      <h4 className="font-bold text-lg">Active Negotiation</h4>
+                      <h3 className="font-bold text-lg">Active Negotiation</h3>
                       <p className="text-sm">Negotiators engage with the bank's recovery or settlement department. They present your financial hardship case, whether it be a medical bill, a business closure, or a job loss, to justify a significant waiver.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold">5</div>
                     <div>
-                      <h4 className="font-bold text-lg">Accepting the Settlement Offer</h4>
+                      <h3 className="font-bold text-lg">Accepting the Settlement Offer</h3>
                       <p className="text-sm">Once a favorable amount is reached, the bank issues an official "Settlement Letter." The agency reviews this letter to ensure there are no "trap clauses." You then pay the amount directly to the bank.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center shrink-0 font-bold">6</div>
                     <div>
-                      <h4 className="font-bold text-lg">Closing and NOC</h4>
+                      <h3 className="font-bold text-lg">Closing and NOC</h3>
                       <p className="text-sm">After payment, you must receive a "No Dues Certificate" (NDC) or a "No Objection Certificate" (NOC). The agency ensures the bank updates your status in their records and eventually with CIBIL.</p>
                     </div>
                   </div>
@@ -630,7 +630,7 @@ export default function DebtReliefClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Debt Analysis</h4>
+                <p className="font-bold text-2xl mb-4">Free Debt Analysis</p>
                 <p className="text-blue-100 mb-6 text-sm">Find out exactly how much you can save on your credit card debt today.</p>
                 <Link 
                   href="/contact"
@@ -655,7 +655,7 @@ export default function DebtReliefClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Quick Links</p>
                 <ul className="space-y-4">
                   
                   

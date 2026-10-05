@@ -62,12 +62,12 @@ export default function Services() {
 
           {/* Right Aligned Heading and Description */}
           <div className="w-full text-right">
-            <h2 
+            <h3 
               className="font-bold text-right text-3xl mb-3" 
               style={{ color: '#0C2756' }}
             >
               Our Comprehensive Debt Settlement Services
-            </h2>
+            </h3>
             <p 
               className="text-right text-base" 
               style={{ color: '#0C2756', opacity: 0.7 }}

@@ -204,7 +204,7 @@ export default function DrtJurisdictionClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -243,7 +243,7 @@ export default function DrtJurisdictionClient() {
                             </p>
 
                             <div className="bg-red-50 p-8 rounded-3xl border border-red-200 mb-8">
-                                <h3 className="text-xl font-bold text-red-900 mb-4 text-center">Exposing the Bluff: Fake DRT Notices</h3>
+                                <p className="text-xl font-bold text-red-900 mb-4 text-center">Exposing the Bluff: Fake DRT Notices</p>
                                 <div className="space-y-4">
                                     <div className="p-4 bg-white rounded-xl shadow-sm border border-red-100">
                                         <strong className="text-red-700 block mb-1">The Bluff:</strong> "Pay your 4 Lakh credit card bill today, or we are registering a case in the DRT tomorrow morning."
@@ -427,7 +427,7 @@ export default function DrtJurisdictionClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Notice Verification</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Notice Verification</p>
                                 <p className="text-sm text-gray-600 mb-6">Did you receive a suspicious legal notice? We can verify its authenticity.</p>
                                 <Link
                                     href="/contact"
@@ -444,7 +444,7 @@ export default function DrtJurisdictionClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-the-success-rate-of-debt-settlement-programs" className="block text-sm text-blue-600 hover:underline">Settlement Success</Link>
                                     <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="block text-sm text-blue-600 hover:underline">Is Settlement Right?</Link>

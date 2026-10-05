@@ -248,9 +248,9 @@ const LoanPartiesDisputeResolutionClient = () => {
                     <aside className="lg:w-1/4 xl:w-1/5 lg:block sticky top-24">
                         <div className="hidden lg:block">
                             <div className="border border-slate-200 rounded-3xl p-6 bg-white shadow-sm">
-                                <h3 className="text-lg font-bold mb-6 flex items-center text-slate-800 border-b pb-4">
+                                <p className="text-lg font-bold mb-6 flex items-center text-slate-800 border-b pb-4">
                                     <FontAwesomeIcon icon={faBookOpen} className="w-5 h-5 mr-3 text-blue-600" /> Table of Contents
-                                </h3>
+                                </p>
                                 <nav className="space-y-1">
                                     {navLinks.map((item) => (
                                         <a
@@ -321,9 +321,9 @@ const LoanPartiesDisputeResolutionClient = () => {
                                 </p>
                                 <div className="grid md:grid-cols-2 gap-6 my-8">
                                     <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm transition-all hover:shadow-md">
-                                        <h4 className="font-bold text-blue-800 mb-2 flex items-center">
+                                        <h3 className="font-bold text-blue-800 mb-2 flex items-center">
                                             <FontAwesomeIcon icon={faUsers} className="w-5 h-5 mr-2" /> Family & Matrimonial
-                                        </h4>
+                                        </h3>
                                         <p className="text-slate-600 text-sm mb-4">Joint home loans during divorce where one party refuses to pay or move out, leading to imminent bank foreclosure.</p>
                                         <ul className="space-y-2 text-slate-500 text-xs">
                                             <li className="flex items-start"><FontAwesomeIcon icon={faCheckCircle} className="w-3 h-3 mr-2 text-blue-500 mt-1" /> Contested equity shares</li>
@@ -331,9 +331,9 @@ const LoanPartiesDisputeResolutionClient = () => {
                                         </ul>
                                     </div>
                                     <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm transition-all hover:shadow-md">
-                                        <h4 className="font-bold text-slate-800 mb-2 flex items-center">
+                                        <h3 className="font-bold text-slate-800 mb-2 flex items-center">
                                             <FontAwesomeIcon icon={faBriefcase} className="w-5 h-5 mr-2" /> Business Partnership
-                                        </h4>
+                                        </h3>
                                         <p className="text-slate-600 text-sm mb-4">Directors who have given personal guarantees for a company loan but have since exited the firm or seen a change in control.</p>
                                         <ul className="space-y-2 text-slate-500 text-xs">
                                             <li className="flex items-start"><FontAwesomeIcon icon={faCheckCircle} className="w-3 h-3 mr-2 text-blue-500 mt-1" /> Indemnity clause breaches</li>
@@ -366,9 +366,9 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     <div className="absolute top-0 right-0 p-4 opacity-10">
                                         <FontAwesomeIcon icon={faScale} className="w-24 h-24" />
                                     </div>
-                                    <h4 className="text-xl font-bold mb-6 text-slate-800 flex items-center">
+                                    <h3 className="text-xl font-bold mb-6 text-slate-800 flex items-center">
                                         <FontAwesomeIcon icon={faShield} className="w-6 h-6 mr-2 text-blue-600" /> Key Statutory Provisions for Defending Parties
-                                    </h4>
+                                    </h3>
                                     <div className="grid md:grid-cols-2 gap-6">
                                         <div className="flex items-start bg-white p-4 rounded-xl shadow-sm">
                                             <div className="bg-blue-100 p-2 rounded-lg mr-4">
@@ -448,9 +448,9 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     Legal remedies for this include filing a suit for "Mandatory Injunction" or "Partition." The court can order the uncooperative co-applicant to either pay their share or sign the documents necessary to sell the property and discharge the debt. Furthermore, if you pay more than your share, you have a solid legal claim for "Contribution" against the other co-applicant, allowing you to seek a court order to attach their other assets or income.
                                 </p>
                                 <div className="bg-rose-50 border border-rose-100 rounded-2xl p-6 mb-8">
-                                    <h5 className="font-bold text-rose-800 mb-3 flex items-center">
+                                    <h3 className="font-bold text-rose-800 mb-3 flex items-center">
                                         <FontAwesomeIcon icon={faAlertCircle} className="w-5 h-5 mr-2" /> Beware the 'Joint' Trap
-                                    </h5>
+                                    </h3>
                                     <p className="text-rose-700 italic">
                                         "Your bank does not care what your private agreement with your co-applicant is. To the bank, you are both 100% liable for 100% of the loan. Dispute resolution must start with this cold legal reality."
                                     </p>
@@ -526,11 +526,11 @@ const LoanPartiesDisputeResolutionClient = () => {
                                 </h2>
                                 <div className="space-y-8">
                                     <div className="bg-slate-50 p-6 rounded-2xl border-l-4 border-blue-600 shadow-sm">
-                                        <h4 className="font-bold text-blue-900 mb-2">The 'Ex-Director' Dilemma</h4>
+                                        <h3 className="font-bold text-blue-900 mb-2">The 'Ex-Director' Dilemma</h3>
                                         <p className="text-slate-600 text-sm italic">"In a 2024 case defended by our senior associates, a director who had resigned 3 years ago was sued by a bank for the company’s ₹50 crore default. We successfully proved that the bank had significantly modified the loan terms after his resignation without his notice. The court set aside his ₹50 crore liability entirely based on Section 133 of the Contract Act."</p>
                                     </div>
                                     <div className="bg-slate-50 p-6 rounded-2xl border-l-4 border-blue-600 shadow-sm">
-                                        <h4 className="font-bold text-blue-900 mb-2">The 'Joint-Owner' Stalemate</h4>
+                                        <h3 className="font-bold text-blue-900 mb-2">The 'Joint-Owner' Stalemate</h3>
                                         <p className="text-slate-600 text-sm italic">"A separated couple could not agree on selling their joint-mortgaged apartment. The bank was 10 days away from auction. We initiated a fast-track mediation under the Commercial Courts Act. Within 7 days, we secured a three-way agreement where the husband bought out the wife’s share, the bank accepted an OTS, and a potential 5-year legal battle was resolved in a week."</p>
                                     </div>
                                 </div>
@@ -567,7 +567,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                 <div className="space-y-6">
                                     {faqs.map((faq, index) => (
                                         <div key={index} className="bg-slate-50 rounded-2xl p-6 border border-slate-100 shadow-sm">
-                                            <h4 className="font-bold text-slate-900 mb-3 text-lg">{faq.question}</h4>
+                                            <h3 className="font-bold text-slate-900 mb-3 text-lg">{faq.question}</h3>
                                             <p className="text-slate-700 leading-relaxed">{faq.answer}</p>
                                         </div>
                                     ))}
@@ -599,7 +599,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                             {/* Primary CTA */}
                             <div className="bg-slate-900 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden group">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/20 rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-110" />
-                                <h3 className="text-xl font-bold mb-4 relative z-10 text-white">Dispute Analysis</h3>
+                                <p className="text-xl font-bold mb-4 relative z-10 text-white">Dispute Analysis</p>
                                 <p className="text-slate-300 mb-6 text-sm relative z-10">
                                     Are you being held liable for someone else’s portion of a loan? Or is a co-applicant blocking a settlement? Get a professional legal audit of your liability.
                                 </p>
@@ -613,7 +613,7 @@ const LoanPartiesDisputeResolutionClient = () => {
 
                             {/* Related Pages */}
                             <div className="border border-slate-200 rounded-3xl p-8 bg-white shadow-sm">
-                                <h3 className="text-xl font-bold mb-6 text-slate-800">Related Pages</h3>
+                                <p className="text-xl font-bold mb-6 text-slate-800">Related Pages</p>
                                 <div className="space-y-4">
                                     {[
                                         { title: 'Guarantor Defense', icon: faShield, link: '#' },
@@ -643,7 +643,7 @@ const LoanPartiesDisputeResolutionClient = () => {
                                     <div className="bg-white/20 p-2 rounded-lg mr-3">
                                         <FontAwesomeIcon icon={faMessageCircle} className="w-5 h-5 text-white" />
                                     </div>
-                                    <h3 className="text-xl font-bold text-white">Resolution Chat</h3>
+                                    <p className="text-xl font-bold text-white">Resolution Chat</p>
                                 </div>
                                 <p className="text-blue-100 text-sm mb-6">
                                     Connect with our ADR specialists on WhatsApp for a quick discussion.

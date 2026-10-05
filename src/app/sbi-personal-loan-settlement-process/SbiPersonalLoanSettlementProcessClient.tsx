@@ -992,7 +992,7 @@ export default function SbiPersonalLoanSettlementProcessClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="text-sm font-extrabold text-slate-900 leading-tight">Ashish Jhangra</h3>
+                  <p className="text-sm font-extrabold text-slate-900 leading-tight">Ashish Jhangra</p>
                   <p className="text-[11px] text-slate-500 font-medium">
                     Legal &amp; Debt Resolution Professional
                   </p>
@@ -1016,9 +1016,9 @@ export default function SbiPersonalLoanSettlementProcessClient() {
                 <Phone className="w-4 h-4 text-blue-200" />
                 <span>Urgent Recovery Help</span>
               </div>
-              <h3 className="text-base font-extrabold leading-snug">
+              <p className="text-base font-extrabold leading-snug">
                 Facing Harassment or Notices from SBI?
-              </h3>
+              </p>
               <p className="text-xs text-blue-100/90 leading-relaxed">
                 Connect directly with our legal and resolution team to stop unauthorized recovery calls and negotiate pre-approved OTS terms.
               </p>

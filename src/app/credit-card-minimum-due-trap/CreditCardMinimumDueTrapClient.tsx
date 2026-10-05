@@ -628,7 +628,7 @@ export default function CreditCardMinimumDueTrapClient() {
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <BadgeAlert className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>Section 25 PSSA (Electronic Mandate Bounce)</h4>
+                    <h3>Section 25 PSSA (Electronic Mandate Bounce)</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Under Section 25 of the Payment and Settlement Systems Act, 2007, auto-debit bounces carry quasi-criminal liability. Serving a formal reply citing financial hardship and prior mandate revocation refutes fraudulent intent.
@@ -639,7 +639,7 @@ export default function CreditCardMinimumDueTrapClient() {
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <FileText className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>Section 138 NI Act (Cheque Dishonor Notice)</h4>
+                    <h3>Section 138 NI Act (Cheque Dishonor Notice)</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     If security cheques are presented and bounced, lenders issue Section 138 notices. Our defense establishes that undated security cheques cannot enforce arbitrary, compounding interest without audited reconciliation.
@@ -650,7 +650,7 @@ export default function CreditCardMinimumDueTrapClient() {
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <Scale className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>Unilateral Arbitration &amp; Perkins Eastman Defense</h4>
+                    <h3>Unilateral Arbitration &amp; Perkins Eastman Defense</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Under Supreme Court rulings in <em>TRF Ltd.</em> and <em>Perkins Eastman</em>, banks cannot unilaterally appoint sole arbitrators without mutual consent, rendering unilateral arbitral proceedings voidable under Section 12(5).
@@ -661,7 +661,7 @@ export default function CreditCardMinimumDueTrapClient() {
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <ShieldAlert className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>RBI Fair Practices Code &amp; Anti-Harassment Rights</h4>
+                    <h3>RBI Fair Practices Code &amp; Anti-Harassment Rights</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     RBI Master Directions prohibit recovery calls outside 8:00 AM to 7:00 PM, contacting employers, or abusive conduct, with violations punishable via the RBI Ombudsman.
@@ -792,28 +792,28 @@ export default function CreditCardMinimumDueTrapClient() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">Multiple Maxed-Out Credit Cards</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">Multiple Maxed-Out Credit Cards</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Borrowers rotating minimum payments across 3 to 6 cards face severe compounding. CredSettle halts interest across all issuers and coordinates strategic settlements based on NPA provisioning.
                   </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">Tech &amp; Corporate Layoffs</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">Tech &amp; Corporate Layoffs</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Salaried professionals facing sudden job loss cannot sustain 42% APR dues. We submit severance documentation to substantiate hardship, securing fast-track 50%+ principal waivers.
                   </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">Proprietorship Business Swipes</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">Proprietorship Business Swipes</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Business owners using personal cards for operational cash flow face personal liability. We decouple business revenues from personal debt, negotiating terms aligned with net cash flow.
                   </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">ARC Portfolio Debt Assignments</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">ARC Portfolio Debt Assignments</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     When banks assign written-off card portfolios to ARCs, collection pressure spikes. We verify assignment legality under SARFAESI Section 5, capping settlements at acquisition value.
                   </p>
@@ -1019,9 +1019,9 @@ export default function CreditCardMinimumDueTrapClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL DEBT RELIEF
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Trapped in Credit Card Dues?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Settle your credit card debt at a 45% to 65% principal discount with zero harassment.
                 </p>
@@ -1048,7 +1048,7 @@ export default function CreditCardMinimumDueTrapClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">The CredSettle Assurance</h4>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Assurance</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -1071,7 +1071,7 @@ export default function CreditCardMinimumDueTrapClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related Legal Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related Legal Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/credit-card-settlement-kaise-hota-hai"

@@ -233,7 +233,7 @@ export default function ForeclosureAndPartPrepaymentChargesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Prepayment Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Prepayment Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -296,10 +296,10 @@ export default function ForeclosureAndPartPrepaymentChargesClient() {
                             
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     Key RBI Mandates on Prepayment:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Zero Charges on Floating Rates:</strong> Banks and NBFCs cannot levy any foreclosure charges or prepayment penalties on any floating rate term loan sanctioned to individual borrowers for purposes other than business.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Clear Disclosure Requirements:</strong> Lenders must explicitly mention the applicable foreclosure charges, if any, in the Key Fact Statement provided to the borrower at the time of sanctioning the loan.</li>
@@ -390,7 +390,7 @@ export default function ForeclosureAndPartPrepaymentChargesClient() {
                                             </svg>
                                         </div>
                                         <div className="ml-4">
-                                            <h3 className="text-lg font-bold text-red-800">The Lock-In Period Trap</h3>
+                                            <p className="text-lg font-bold text-red-800">The Lock-In Period Trap</p>
                                             <p className="mt-2 text-sm text-red-700 leading-relaxed">
                                                 Almost all personal loans come with a non negotiable lock in period, usually lasting 6 to 12 months. During this time, the bank strictly prohibits any form of prepayment or foreclosure. If you receive a bonus in month three and want to close the loan, the bank will refuse the payment. You are forced to pay the high interest EMIs until the lock in period expires.
                                             </p>
@@ -480,7 +480,7 @@ Regards,
                             <h2 id="case-studies" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 8: Case Studies: Defeating the Penalty Traps</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 1: The Floating Rate Deception</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 1: The Floating Rate Deception</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         An IT professional in Bangalore received a substantial project bonus and decided to clear his 8 lakh personal loan. The bank system automatically generated a 35,000 rupee foreclosure penalty. The branch manager verbally claimed the loan was fixed.
                                     </p>
@@ -489,7 +489,7 @@ Regards,
                                     </p>
                                 </div>
                                 <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700">
-                                    <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Balance Transfer Threat</h4>
+                                    <h3 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">Success Story 2: The Balance Transfer Threat</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A borrower in Pune was stuck with a high interest fixed rate loan and a 5 percent penalty clause. He had an offer from a competing bank for a balance transfer at a significantly lower rate, but the penalty made the switch too expensive.
                                     </p>
@@ -569,7 +569,7 @@ Regards,
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Unfair Penalties?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Unfair Penalties?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can analyze your loan contract and send a legal notice to dispute illegal foreclosure charges today.</p>
                                 <Link
                                     href="/contact"
@@ -587,7 +587,7 @@ Regards,
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Defense</Link>
                                     <Link href="/personal-loan-settlement-process-consequences" className="block text-sm text-blue-600 hover:underline">Settlement Consequences</Link>

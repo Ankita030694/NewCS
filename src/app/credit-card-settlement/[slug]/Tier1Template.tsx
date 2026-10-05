@@ -200,7 +200,7 @@ export default function Tier1Template({ bankName, slug }: { bankName: string, sl
                     alt="Rahul Verma - Legal Expert" 
                     className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-white shadow-sm object-cover"
                 />
-                <h3 className="font-bold text-gray-900 text-lg">Rahul Verma</h3>
+                <p className="font-bold text-gray-900 text-lg">Rahul Verma</p>
                 <p className="text-blue-600 text-sm font-semibold mb-4">Consumer Debt Specialist</p>
                 <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                     Rahul specializes in consumer debt protection and financial dispute resolution. He helps borrowers secure legally binding settlements and defend against recovery harassment from major institutions.

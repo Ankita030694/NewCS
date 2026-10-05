@@ -268,7 +268,7 @@ export default function LegalHelpNonClosureClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Technical Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Technical Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -326,9 +326,9 @@ export default function LegalHelpNonClosureClient() {
                                 The Reserve Bank of India, under its latest "Fair Practices Code" updates for 2025-26, has taken a very stern view of banks that delay loan closures. The RBI recognizes that original property documents and clean credit records are essential for a citizen’s "Right to Livelihood" and "Right to Property."
                             </p>
                             <div className="bg-blue-50 p-8 rounded-2xl border-l-4 border-blue-600 mb-8 text-sm">
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tighter uppercase">The Technical definition of "Regulated Entity" (RE) in 2025:</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4 tracking-tighter uppercase">The Technical definition of "Regulated Entity" (RE) in 2025:</p>
                                 <p className="mb-4 text-gray-700">The 2025 guidelines apply to all Commercial Banks (including RRBs), Small Finance Banks, Local Area Banks, Primary (Urban) Co-operative Banks, State Co-operative Banks, Central Co-operative Banks, and all Non-Banking Financial Companies (including Housing Finance Companies). No institution is exempt from the 30-day mandate.</p>
-                                <h4 className="text-xl font-bold text-blue-900 mb-4 tracking-tighter uppercase">Key RBI Directives for 2025:</h4>
+                                <p className="text-xl font-bold text-blue-900 mb-4 tracking-tighter uppercase">Key RBI Directives for 2025:</p>
                                 <ul className="list-disc pl-6 space-y-3 text-gray-800 font-light">
                                     <li><strong>The 30-Day Hard Limit:</strong> Regulated Entities (REs) MUST release all original movable/immovable property documents and remove charges registered with any registry (like CERSAI) within 30 days of full repayment/settlement.</li>
                                     <li><strong>The "Location Option":</strong> Borrowers now have the option to collect documents either from the branch where the loan was serviced or from any other office of the bank where the documents are physically held. The bank CANNOT force you to travel to a zonal office.</li>
@@ -336,7 +336,7 @@ export default function LegalHelpNonClosureClient() {
                                     <li><strong>Automatic Credit Correction:</strong> Banks are mandated to update the Credit Information Companies (CICs) like CIBIL and Experian within the month of closure. Any delay beyond the next reporting cycle is a violation of the Credit Information Companies (Regulation) Act.</li>
                                 </ul>
                             </div>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">The "CERSAI" Charge Removal Process 2025</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">The "CERSAI" Charge Removal Process 2025</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most overlooked aspects of loan closure is the removal of the charge from CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest of India). In many settled cases, the bank gives you the papers but stays quiet on the CERSAI portal. In 2026, a "Dirty" CERSAI record is as bad as a "Defaulted" CIBIL score.
                             </p>
@@ -351,10 +351,10 @@ export default function LegalHelpNonClosureClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If the RBI Ombudsman process is slow, the **Consumer Protection Act, 2019** provides a parallel and often more "compensatory" route. Under the Act, a bank’s failure to provide an NDC is classified as both a "Deficiency in Service" and an "Unfair Trade Practice."
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The "Mental Agony" Compensation Matrix:</h4>
+                            <p className="text-xl font-bold text-gray-900 mb-4 tracking-tight">The "Mental Agony" Compensation Matrix:</p>
                             <p className="text-gray-700 mb-6">Recent judgments from State Consumer Commissions have awarded anywhere between ₹50,000 to ₹5,00,000 as compensation for "Mental Agony" caused by the withholding of property documents. The courts have noted that a home without title deeds is a "Dead Asset," preventing the owner from leveraging it for medical emergencies or children’s education.</p>
                             <div className="bg-slate-50 p-8 rounded-3xl border border-slate-200 mb-8">
-                                <h4 className="text-lg font-bold mb-4">The Litigation Checklist:</h4>
+                                <p className="text-lg font-bold mb-4">The Litigation Checklist:</p>
                                 <ul className="list-disc pl-6 space-y-3">
                                     <li><strong>The Final Notice:</strong> Send a 15-day "Peremptory Notice" to the bank’s Nodal Officer via speed post.</li>
                                     <li><strong>Quantifying Loss:</strong> If you lost a property sale deal due to missing papers, documentation of the "Agreement to Sell" and its termination is crucial evidence for claiming "Actual Damages."</li>
@@ -368,7 +368,7 @@ export default function LegalHelpNonClosureClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 **The Rule:** In cases where the delay in releasing original property documents is attributable to the Regulated Entity (RE), the RE shall compensate the borrower at the rate of **₹5,000 for each day of delay**.
                             </p>
-                            <h4 className="text-xl font-bold text-gray-900 mb-4 tracking-tight">How to calculate and claim your penalty:</h4>
+                            <p className="text-xl font-bold text-gray-900 mb-4 tracking-tight">How to calculate and claim your penalty:</p>
                             <ol className="list-decimal pl-6 mb-8 space-y-4 text-gray-700">
                                 <li><strong>Mark the Payment Date:</strong> Use the UTR number or the date the Demand Draft was handed over.</li>
                                 <li><strong>Add 30 Days:</strong> This is the "Grace Period" the bank is legally allowed. Day 31 is when the penalty starts accruing.</li>
@@ -386,13 +386,13 @@ export default function LegalHelpNonClosureClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2025, the reporting mechanism between banks and CIBIL is highly automated. However, entries marked as "Settled" often require manual intervention from a bank’s backend team. If they fail to do this, the algorithm will continue to flag the account as "Write-off" or "Past Due."
                             </p>
-                            <h4 className="text-lg font-bold mb-4">The 2025 Correction Workflow:</h4>
+                            <p className="text-lg font-bold mb-4">The 2025 Correction Workflow:</p>
                             <ul className="list-disc pl-6 space-y-3 mb-8 text-gray-700">
                                 <li><strong>The Dual Dispute Approach:</strong> Don’t just complain to the bank. Raise a formal dispute simultaneously with CIBIL. CIBIL has a legal mandate to verify the info with the bank within 30 days and provide you with a resolution.</li>
                                 <li><strong>Evidence Upload:</strong> In the CIBIL dispute portal, upload your No Dues Certificate (NDC). Since 2024, CIBIL’s automated matching system prioritizes NDCs over bank’s data if there is a conflict.</li>
                                 <li><strong>The "Credit Information Company" Notice:</strong> If CIBIL doesn’t fix it within 30 days, send them a legal notice under the Credit Information Companies (Regulation) Act. They are liable for damages if they continue to display inaccurate information after being provided with proof of closure.</li>
                             </ul>
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8 italic">The "Credit Builder" Strategy 2026</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8 italic">The "Credit Builder" Strategy 2026</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Once the account is corrected to "Settled" (which is better than "Default"), you need to move the needle. In 2026, new "Credit Builder" financial products are available that use alternative data (like your UPI transaction volume and utility bill payments) to provide small "Micro-credits." By repaying these punctually, you can raise your score from a 500-level (post-settlement) to a 750-level (prime) within 18 months.
                             </p>
@@ -406,19 +406,19 @@ export default function LegalHelpNonClosureClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 1: The Nodal Officer</h4>
+                                    <p className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 1: The Nodal Officer</p>
                                     <p className="text-sm text-gray-600 font-light">Skip the branch manager. Send a technical notice to the bank’s Principal Nodal Officer (PNO). This is a legal requirement before escalating to the Ombudsman.</p>
                                 </div>
                                 <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 2: Cease & Desist</h4>
+                                    <p className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 2: Cease & Desist</p>
                                     <p className="text-sm text-gray-600 font-light">If you are still getting calls for the settled amount, issue a Cease and Desist notice. This establishes "Harassment" on record, which is a powerful point for damage claims.</p>
                                 </div>
                                 <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 3: Writ Petition</h4>
+                                    <p className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 3: Writ Petition</p>
                                     <p className="text-sm text-gray-600 font-light">For public sector banks (PSBs), if they are withholding documents arbitrarily, a Writ Petition in the High Court can be filed for the enforcement of fundamental rights.</p>
                                 </div>
                                 <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all">
-                                    <h4 className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 4: Damage Suit</h4>
+                                    <p className="text-xl font-bold text-blue-900 mb-3 uppercase tracking-tighter">Level 4: Damage Suit</p>
                                     <p className="text-sm text-gray-600 font-light">If the non-closure resulted in a job loss or a failed business deal, file a civil suit for **Liquidated Damages**. The compensation can be many times the original loan amount.</p>
                                 </div>
                             </div>
@@ -464,7 +464,7 @@ export default function LegalHelpNonClosureClient() {
                                 Not all NOCs are created equal. A "Closure Letter" is not always a "No Dues Certificate."
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
-                                <h4 className="text-2xl font-black mb-6">What a Valid 2025 NOC Must Contain:</h4>
+                                <h3 className="text-2xl font-black mb-6">What a Valid 2025 NOC Must Contain:</h3>
                                 <ul className="space-y-4 font-light text-slate-300">
                                     <li><strong className="text-white uppercase tracking-wider text-sm italic mr-2">1. Full Legal Name & Account Number:</strong> Exactly as per the original loan document.</li>
                                     <li><strong className="text-white uppercase tracking-wider text-sm italic mr-2">2. Settlement Reference:</strong> Mentions the date of the settlement offer letter and the payment transaction details.</li>
@@ -477,7 +477,7 @@ export default function LegalHelpNonClosureClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 10: Case Studies: Wins in Post-Settlement Litigation</h2>
                             <div className="space-y-8 mb-12">
                                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-xl border-l-8 border-blue-600">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The ₹12 Lakh Car Loan NOC Battle</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 1: The ₹12 Lakh Car Loan NOC Battle</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A client in Bangalore settled his car loan but the bank wouldn’t release the NOC needed to remove the Hypothecation at the RTO. He couldn’t sell the car.
                                     </p>
@@ -486,7 +486,7 @@ export default function LegalHelpNonClosureClient() {
                                     </p>
                                 </div>
                                 <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-xl border-l-8 border-blue-600">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The "Ghost Debt" Credit Card Case</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-tight italic">Success Story 2: The "Ghost Debt" Credit Card Case</h3>
                                     <p className="text-gray-800 mb-4 font-light">
                                         A client found that a settled credit card from 2020 was still showing as "Active" in 2025 with a balance of ₹8 Lakhs (including interest).
                                     </p>
@@ -563,7 +563,7 @@ export default function LegalHelpNonClosureClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2 underline decoration-blue-500 underline-offset-4">NOC Pending?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2 underline decoration-blue-500 underline-offset-4">NOC Pending?</p>
                                 <p className="text-sm text-gray-600 mb-6">Claim ₹5,000 per day for document delays under the 2025 RBI Framework.</p>
                                 <Link
                                     href="/contact"
@@ -580,7 +580,7 @@ export default function LegalHelpNonClosureClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2 text-[10px] uppercase tracking-[0.2em]">Post-Settlement Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2 text-[10px] uppercase tracking-[0.2em]">Post-Settlement Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/post-loan-settlement-legal-help" className="block text-xs font-bold text-gray-600 hover:text-blue-600 transition-colors uppercase tracking-widest">Post-Settlement Help</Link>
                                     <span className="block text-xs font-bold text-gray-400 uppercase tracking-widest">Settlement Guide</span>

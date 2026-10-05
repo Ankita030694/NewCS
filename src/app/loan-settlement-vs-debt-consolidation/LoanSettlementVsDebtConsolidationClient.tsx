@@ -201,7 +201,7 @@ export default function LoanSettlementVsDebtConsolidationClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -511,7 +511,7 @@ export default function LoanSettlementVsDebtConsolidationClient() {
 
               <div className="mt-20 p-10 bg-blue-900 text-white rounded-[40px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-4xl font-bold mb-6">Ready to Take Control of Your Financial Future?</h2>
+                  <h3 className="text-4xl font-bold mb-6">Ready to Take Control of Your Financial Future?</h3>
                   <p className="text-blue-100 mb-10 max-w-2xl mx-auto text-lg">Whether you need to settle your debts or consolidate them, our experts are here to help. Get a free, no-obligation assessment of your debt situation today.</p>
                   <Link 
                     href="/contact"
@@ -546,7 +546,7 @@ export default function LoanSettlementVsDebtConsolidationClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Personalized Debt Plan</h4>
+                <p className="font-bold text-2xl mb-4">Personalized Debt Plan</p>
                 <p className="text-blue-100 mb-6 text-sm">Not sure which path to take? Let our experts create a custom debt relief plan for you.</p>
                 <Link 
                   href="/contact"
@@ -571,7 +571,7 @@ export default function LoanSettlementVsDebtConsolidationClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/services/personal-loan-settlement" className="group flex items-start">

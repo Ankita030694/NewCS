@@ -187,7 +187,7 @@ export default function LoanSettlementTruthClient() {
           <div className="lg:w-1/4 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -531,19 +531,19 @@ export default function LoanSettlementTruthClient() {
               {/* Verification and Final Notes for SEO/Length */}
               <div className="mt-20 text-gray-500 text-xs leading-loose space-y-8 bg-gray-50/30 p-8 rounded-3xl border border-gray-100">
                  <div className="space-y-4">
-                    <h5 className="font-bold text-gray-700 text-sm uppercase tracking-widest">Legal Truth and Disclaimer</h5>
+                    <h3 className="font-bold text-gray-700 text-sm uppercase tracking-widest">Legal Truth and Disclaimer</h3>
                     <p>
                         Disclaimer: The information provided on this comprehensive guide is intended for educational and informational purposes only. While every attempt has been made to ensure the accuracy and reliability of the legal truth presented regarding debt settlement, banking regulations in the Republic of India are complex and subject to frequent updates and amendments by the Reserve Bank of India and judicial rulings. This content does not constitute professional legal advice, financial advice, or a solicitor-client relationship. Every financial situation is unique, and we strongly advise all borrowers to consult with a qualified legal professional or a registered financial advisor before making any decisions that could affect their legal status or credit history. The legality of settlement as discussed here is based on the statutory framework and official RBI circulars available at the time of writing.
                     </p>
                  </div>
                  <div className="space-y-4">
-                    <h5 className="font-bold text-gray-700 text-sm uppercase tracking-widest">About the Authors of This Guide</h5>
+                    <h3 className="font-bold text-gray-700 text-sm uppercase tracking-widest">About the Authors of This Guide</h3>
                     <p>
                         CredSettle is India's premier legal advocacy firm specializing in debt resolution and loan settlement strategy. Our mission is to empower the average Indian borrower with the truth about their financial rights. We believe that no one should live in fear because of a financial failure. Our team consists of experienced lawyers, retired banking professionals, and expert negotiators who understand the inner workings of the Indian banking sector. We advocate for a fair, transparent, and legal process of compromise settlement, helping borrowers exit the cycle of debt without falling prey to illegal harassment or fraudulent scams. Our commitment to consumer protection and financial literacy has made us a trusted name in the industry, having helped thousands of families regain their financial dignity and start fresh.
                     </p>
                  </div>
                  <div className="space-y-4">
-                    <h5 className="font-bold text-gray-700 text-sm uppercase tracking-widest">Final Summary of The Truth</h5>
+                    <h3 className="font-bold text-gray-700 text-sm uppercase tracking-widest">Final Summary of The Truth</h3>
                     <p>
                         In summary, the idea that loan settlement is illegal is a malicious falsehood designed to keep borrowers in a state of perpetual fear. The legal truth is that One-Time Settlement is a board-approved, RBI-regulated, and judicially recognized process for resolving debt. It is a civil solution to a civil problem. By understanding your rights, demanding official documentation, and following the correct legal steps, you can settle your debts and walk away with a clean slate and an official No Dues Certificate. The path to financial freedom is paved with knowledge, not fear. We hope this guide has provided you with the clarity and courage to take the next step in your journey toward becoming debt-free and reclaiming your life.
                     </p>
@@ -577,7 +577,7 @@ export default function LoanSettlementTruthClient() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                   </svg>
                 </div>
-                <h4 className="font-bold text-3xl text-gray-900 mb-4 font-inter tracking-tight">Legal Shield</h4>
+                <p className="font-bold text-3xl text-gray-900 mb-4 font-inter tracking-tight">Legal Shield</p>
                 <p className="text-base text-gray-600 mb-10 font-outfit leading-relaxed">Are you being threatened with jail or FIR? Our legal experts will step in and protect you immediately using official RBI guidelines.</p>
                 <Link 
                   href="/contact"

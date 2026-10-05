@@ -234,7 +234,7 @@ export default function LoanEmiOverdueOneDayClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -295,7 +295,7 @@ export default function LoanEmiOverdueOneDayClient() {
                                 When the clock strikes midnight and your EMI remains unpaid, a series of automated events trigger within the lender core banking system. However, none of these events involve immediate drastic action. It is essential to separate the automated system notifications from actual human recovery efforts.
                             </p>
                             
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The Automated Cascade:</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 tracking-tight uppercase italic">The Automated Cascade:</p>
                             <ol className="list-decimal pl-6 mb-8 space-y-4 text-gray-700 font-light">
                                 <li><strong>The Bounce Registration:</strong> Your bank registers that the auto-debit (NACH/ECS) mandate has failed. This immediately triggers a "Bounce Charge" from your savings account bank (usually between Rs. 250 and Rs. 500), and a separate "Late Payment Fee" from the lending institution.</li>
                                 <li><strong>The SMS Reminder:</strong> You will almost certainly receive an automated SMS or email. The language in these messages is often stern and system generated. They are designed to create a sense of urgency, urging you to pay immediately via a provided link.</li>
@@ -319,10 +319,10 @@ export default function LoanEmiOverdueOneDayClient() {
                             
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Understanding DPD (Days Past Due):
-                                </h4>
+                                </p>
                                 <p className="text-gray-300 font-light mb-4">
                                     DPD is the exact metric used by credit bureaus like CIBIL and Experian to measure your repayment health. It is a literal count of how many days your payment is late.
                                 </p>
@@ -359,7 +359,7 @@ export default function LoanEmiOverdueOneDayClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                                     </svg>
                                     <div>
-                                        <h4 className="text-xl font-bold text-red-900 mb-2">CRITICAL WARNING: The Payday Loan Trap</h4>
+                                        <p className="text-xl font-bold text-red-900 mb-2">CRITICAL WARNING: The Payday Loan Trap</p>
                                         <p className="text-red-800 leading-relaxed font-light">
                                             Never, under any circumstances, download an unregulated 7-day instant loan app to cover a 1 day overdue EMI. These apps are entirely predatory. They will charge effective interest rates exceeding 300 percent. Furthermore, they will harvest your entire contact list and photo gallery upon installation. If you miss their 7 day deadline, they will resort to severe cyber harassment and send morphed images to your family. It is infinitely better to take a penalty fee from your primary bank than to invite these cyber criminals into your life.
                                         </p>
@@ -442,7 +442,7 @@ export default function LoanEmiOverdueOneDayClient() {
                                 <div className="absolute top-0 left-0 bg-blue-600 text-white px-4 py-1 rounded-br-xl rounded-tl-2xl font-bold text-xs tracking-wider">EXACT PHONE SCRIPT</div>
                                 
                                 <div className="mt-4 mb-6">
-                                    <h4 className="font-bold text-gray-900 mb-2">Scenario A: You can pay within 3 days (Salary Delay)</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">Scenario A: You can pay within 3 days (Salary Delay)</h3>
                                     <div className="bg-white p-4 rounded-xl border border-gray-200">
                                         <p className="text-sm font-bold text-gray-500 mb-1">Bank Agent:</p>
                                         <p className="text-gray-800 mb-3 italic">"Sir, your EMI of Rs. 20,000 has bounced. You need to pay it today otherwise severe late fees will apply and your CIBIL will drop."</p>
@@ -452,7 +452,7 @@ export default function LoanEmiOverdueOneDayClient() {
                                 </div>
 
                                 <div>
-                                    <h4 className="font-bold text-gray-900 mb-2">Scenario B: The agent uses aggressive language for a 2-day delay</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">Scenario B: The agent uses aggressive language for a 2-day delay</h3>
                                     <div className="bg-white p-4 rounded-xl border border-gray-200">
                                         <p className="text-sm font-bold text-gray-500 mb-1">Bank Agent:</p>
                                         <p className="text-gray-800 mb-3 italic">"If you don't pay in one hour, we are sending field agents to your office address."</p>
@@ -518,7 +518,7 @@ export default function LoanEmiOverdueOneDayClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Expert Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">If your financial situation is worsening, we can help you restructure or settle your debt legally.</p>
                                 <Link
                                     href="/contact"
@@ -536,7 +536,7 @@ export default function LoanEmiOverdueOneDayClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Agent Harassment</Link>

@@ -1057,9 +1057,9 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                   AJ
                 </div>
                 <div>
-                  <h4 className="font-extrabold text-xs sm:text-sm text-slate-900">
+                  <p className="font-extrabold text-xs sm:text-sm text-slate-900">
                     Ashish Jhangra
-                  </h4>
+                  </p>
                   <span className="text-[11px] text-slate-500 block">
                     Legal &amp; Debt Resolution Professional
                   </span>
@@ -1080,9 +1080,9 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 <span>Emergency Harassment Helpline</span>
               </div>
 
-              <h4 className="font-extrabold text-xs sm:text-sm leading-snug">
+              <p className="font-extrabold text-xs sm:text-sm leading-snug">
                 Facing Illegal Recovery Harassment Today?
-              </h4>
+              </p>
 
               <p className="text-xs text-blue-100 leading-relaxed">
                 Our legal team halts abusive calls and settles loans.

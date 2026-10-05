@@ -644,7 +644,7 @@ export default function MaharashtraPageClient() {
 
               {/* Final Thoughts */}
               <section id="final-thoughts" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
+                <h3
                   className="text-xl md:text-2xl lg:text-[32px] leading-tight"
                   style={{
                     color: '#0C2756',
@@ -655,7 +655,7 @@ export default function MaharashtraPageClient() {
                   }}
                 >
                   Take Control of Your Financial Future Today
-                </h2>
+                </h3>
                 <div
                   className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                   style={{

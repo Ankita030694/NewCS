@@ -232,7 +232,7 @@ export default function DebtConsolidationLoansClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -281,10 +281,10 @@ export default function DebtConsolidationLoansClient() {
                             
                             {/* Alert Banner Visual Element */}
                             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg mb-8 shadow-sm">
-                                <h4 className="text-red-800 font-bold text-xl mb-2 flex items-center">
+                                <p className="text-red-800 font-bold text-xl mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Critical Warning: The Consolidation Trap
-                                </h4>
+                                </p>
                                 <p className="text-red-700 m-0 font-medium">
                                     Consolidation does not eliminate debt, it simply moves it. If you consolidate your credit card balances and then continue to use those cards, you will end up with double the debt. Discipline is mandatory.
                                 </p>
@@ -300,7 +300,7 @@ export default function DebtConsolidationLoansClient() {
                             </p>
                             
                             <div className="bg-blue-50 text-gray-900 p-8 rounded-3xl mb-10 shadow-md border border-blue-100">
-                                <h4 className="text-2xl font-bold mb-4 text-blue-900">Key Characteristics of Personal Loans</h4>
+                                <p className="text-2xl font-bold mb-4 text-blue-900">Key Characteristics of Personal Loans</p>
                                 <ul className="space-y-4 font-medium text-gray-800">
                                     <li className="flex items-start">
                                         <svg className="w-6 h-6 text-blue-600 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -347,7 +347,7 @@ export default function DebtConsolidationLoansClient() {
                             
                             {/* Visual Element: Checklist */}
                             <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl mb-10">
-                                <h4 className="text-xl font-bold mb-4 text-gray-900">Balance Transfer Viability Checklist</h4>
+                                <p className="text-xl font-bold mb-4 text-gray-900">Balance Transfer Viability Checklist</p>
                                 <div className="space-y-3">
                                     <label className="flex items-center space-x-3 text-gray-700">
                                         <input type="checkbox" checked readOnly className="form-checkbox h-5 w-5 text-blue-600 rounded" />
@@ -376,10 +376,10 @@ export default function DebtConsolidationLoansClient() {
                             
                             <div className="grid md:grid-cols-2 gap-8 mb-10">
                                 <div className="bg-green-50 p-6 rounded-2xl border border-green-100">
-                                    <h3 className="text-xl font-bold text-green-900 mb-4 flex items-center">
+                                    <p className="text-xl font-bold text-green-900 mb-4 flex items-center">
                                         <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                                         The Pros
-                                    </h3>
+                                    </p>
                                     <ul className="space-y-3 text-gray-800">
                                         <li><strong>Streamlined Payments:</strong> One single EMI eliminates the chaos of tracking multiple due dates and avoiding late fees.</li>
                                         <li><strong>Interest Reduction:</strong> By securing a lower rate, you save a significant amount of money over the life of the loan.</li>
@@ -388,10 +388,10 @@ export default function DebtConsolidationLoansClient() {
                                     </ul>
                                 </div>
                                 <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                                    <h3 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                    <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                         <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                                         The Cons
-                                    </h3>
+                                    </p>
                                     <ul className="space-y-3 text-gray-800">
                                         <li><strong>Extended Costs:</strong> If you consolidate a three year debt into a ten year LAP, you might pay a lower EMI but more total interest.</li>
                                         <li><strong>Collateral Risk:</strong> Using a secured loan puts your house or property in direct jeopardy.</li>
@@ -532,7 +532,7 @@ export default function DebtConsolidationLoansClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Drowning in Debt?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Drowning in Debt?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can help you structure a legal and financial escape plan today.</p>
                                 <Link
                                     href="/contact"
@@ -550,7 +550,7 @@ export default function DebtConsolidationLoansClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Debt Relief Vault</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Debt Relief Vault</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

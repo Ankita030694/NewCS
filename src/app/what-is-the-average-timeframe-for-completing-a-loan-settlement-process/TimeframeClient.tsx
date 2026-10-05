@@ -292,7 +292,7 @@ export default function TimeframeClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -517,7 +517,7 @@ export default function TimeframeClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Want a Faster Exit?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Want a Faster Exit?</p>
                                 <p className="text-sm text-gray-600 mb-6">Our expert negotiators know the "Golden Windows" for every major bank. Let us speed up your settlement.</p>
                                 <Link
                                     href="/contact"
@@ -529,7 +529,7 @@ export default function TimeframeClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Must-Read Timelines</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Must-Read Timelines</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-long-does-a-debt-settlement-typically-take" className="block text-sm text-blue-600 hover:underline">Typical Debt Length</Link>
                                     <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="block text-sm text-blue-600 hover:underline">CIBIL Recovery Clock</Link>

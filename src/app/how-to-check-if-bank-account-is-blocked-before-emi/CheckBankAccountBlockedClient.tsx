@@ -247,7 +247,7 @@ export default function CheckBankAccountBlockedClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -309,10 +309,10 @@ export default function CheckBankAccountBlockedClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Common Triggers for Account Liens:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Unpaid Credit Card Dues:</strong> If you hold a credit card with the same bank where you maintain your savings account, the bank can exercise its "Right of General Lien" to recover unpaid dues by freezing your savings balance.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Loan Defaults:</strong> Similar to credit cards, if you default on a personal loan or overdraft facility, the bank will quickly move to secure any available funds in your linked accounts.</li>
@@ -358,10 +358,10 @@ export default function CheckBankAccountBlockedClient() {
                             </p>
 
                             <div className="bg-white p-8 rounded-3xl border-2 border-blue-100 shadow-lg mb-10">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                <p className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                                     <svg className="w-8 h-8 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                     5 Warning Signs of a Silent Account Block
-                                </h3>
+                                </p>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 h-6 w-6 rounded-full bg-red-100 flex items-center justify-center border border-red-300 mt-1">
@@ -421,7 +421,7 @@ export default function CheckBankAccountBlockedClient() {
                             </p>
 
                             <div className="bg-gray-50 p-6 md:p-8 rounded-3xl border border-gray-200 shadow-md mb-10">
-                                <h3 className="text-xl font-bold text-gray-900 mb-6 text-center uppercase tracking-widest border-b pb-4">Decision Tree: Frozen Account Protocol</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-6 text-center uppercase tracking-widest border-b pb-4">Decision Tree: Frozen Account Protocol</p>
                                 
                                 <div className="space-y-4">
                                     <div className="bg-white border-2 border-red-300 rounded-xl p-4 text-center shadow-sm relative z-10">
@@ -602,7 +602,7 @@ export default function CheckBankAccountBlockedClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Account Frozen?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Account Frozen?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can help you draft legal notices to banks and negotiate the release of unfair liens.</p>
                                 <Link
                                     href="/contact"
@@ -620,7 +620,7 @@ export default function CheckBankAccountBlockedClient() {
 
                             {/* Related Pages - Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

@@ -313,7 +313,7 @@ export default function NegotiatePersonalLoanClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Map</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Negotiation Map</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -423,23 +423,23 @@ export default function NegotiatePersonalLoanClient() {
                                 Once you have the mindset and the documents, it is time for the professional execution. Follow these steps meticulously to ensure your negotiation is successful and legally sound.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Step 1: The Initial Contact (Written over Verbal)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Step 1: The Initial Contact (Written over Verbal)</p>
                                 <p className="text-gray-700 mb-4">
                                     Never start a negotiation during a call from a recovery agent. These agents are usually third-party contractors and have zero power to sign off on a settlement. They will promise you anything just to get you to pay "something today," but that payment will not count towards a settlement. Instead, send a formal "Settlement Request Letter" to the bank’s Nodal Officer or the Recovery Vertical.
                                 </p>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Step 2: The Anchoring Offer</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Step 2: The Anchoring Offer</p>
                                 <p className="text-gray-700 mb-4">
                                     Your first offer should be low. If you owe 5 lakhs, start by offering 1 lakh (20%). This sets an "Anchor" in the negotiation. The bank will come back with 4 lakhs. You then slowly move to your "Maximum Limit" of, say, 1.75 lakhs. By starting low, you give the manager a "shovellable win" they can feel like they "negotiated you up," which makes it easier for them to approve the final deal.
                                 </p>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Step 3: Prove Your Intent (The "Limited Funds" Argument)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Step 3: Prove Your Intent (The "Limited Funds" Argument)</p>
                                 <p className="text-gray-700 mb-4">
                                     Emphasize that the money you are offering is a one-time lump sum being provided by a relative or through the sale of a small asset. Tell them that this "opportunity" for the bank is only open for 15 days. If the bank doesn’t accept, you will have to use that money for other emergencies (like medical bills). This creates a "Urgency" for the bank to close the file.
                                 </p>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Step 4: The Settlement Sanction Letter (CRITICAL)</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Step 4: The Settlement Sanction Letter (CRITICAL)</p>
                                 <p className="text-gray-700 mb-4">
                                     If the bank agrees to your amount, do not celebrate yet. **Do not pay a single rupee.** Wait for a formal "Settlement Sanction Letter" on the bank’s letterhead. This letter must have a reference number, the settled amount, the payment due date, and most importantly, a clause that once paid, the account will be considered fully settled and all legal cases will be withdrawn.
                                 </p>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Step 5: Execution and Documentation</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Step 5: Execution and Documentation</p>
                                 <p className="text-gray-700 mb-4">
                                     Pay the amount strictly within the deadline mentioned in the letter. Use traceable methods like NEFT or Demand Draft. Never pay in cash. Once paid, wait for 30 days and then demand your "No Dues Certificate" (NDC). The NDC is your final discharge from the debt. Keep this document safe forever.
                                 </p>
@@ -600,7 +600,7 @@ export default function NegotiatePersonalLoanClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Can You Settle?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Can You Settle?</p>
                                 <p className="text-sm text-gray-600 mb-6">Find out if you qualify for a 50% waiver on your personal loan debt in less than 2 minutes.</p>
                                 <Link
                                     href="/contact"
@@ -617,7 +617,7 @@ export default function NegotiatePersonalLoanClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Settlement Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Settlement Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="block text-sm text-blue-600 hover:underline">How Settlement Works</Link>
                                     <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="block text-sm text-blue-600 hover:underline">Is it Good for You?</Link>

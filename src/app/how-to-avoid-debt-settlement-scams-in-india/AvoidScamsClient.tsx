@@ -255,7 +255,7 @@ export default function AvoidScamsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Scam Detection Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Scam Detection Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -310,12 +310,12 @@ export default function AvoidScamsClient() {
                             {/* Alert Banner for Protections */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Your 2025 Protection Rights:
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li><strong>The Digital Audit Rule:</strong> Every recovery call and message must be digitally recorded and archived by the bank. Fake firms will often use unrecorded 'personal' numbers to make threats.</li>
                                     <li><strong>The 7-8 Window:</strong> No recovery communication is permitted between 7:00 PM and 8:00 AM. Any contact during these hours is a documented violation of RBI norms.</li>
@@ -335,22 +335,22 @@ export default function AvoidScamsClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Flag #1</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Large Upfront Fees</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Large Upfront Fees</p>
                                     <p className="text-sm text-gray-600 m-0">Asking for a percentage of the debt before doing any work is the most common sign of a scam.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Flag #2</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Guaranteed Outcomes</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Guaranteed Outcomes</p>
                                     <p className="text-sm text-gray-600 m-0">Claims like "We guarantee an 80% waiver" are fraudulent. Settlements are always at the bank’s discretion.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Flag #3</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Fake RBI Registration</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Fake RBI Registration</p>
                                     <p className="text-sm text-gray-600 m-0">Claiming to be "RBI Regulated" or "Government Approved" as a debt relief firm. No such license exists.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Flag #4</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Untraceable Payments</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Untraceable Payments</p>
                                     <p className="text-sm text-gray-600 m-0">Asking for fees via personal UPI IDs, Crypto, or untraceable wallets instead of a corporate bank account.</p>
                                 </div>
                             </div>
@@ -381,14 +381,14 @@ export default function AvoidScamsClient() {
 
                             {/* Visual Element: Checklist */}
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Verification Checklist</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Verification Checklist</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Physical Presence</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Physical Presence</h3>
                                             <p className="text-sm text-gray-600 m-0">Do they have a verifiable office address in a major Indian city? Can you visit them? Fake firms usually only have a website and a WhatsApp number.</p>
                                         </div>
                                     </li>
@@ -397,7 +397,7 @@ export default function AvoidScamsClient() {
                                             <span className="font-bold text-blue-600 text-sm">2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Payment for Settlement</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Payment for Settlement</h3>
                                             <p className="text-sm text-gray-600 m-0">Does the firm ask you to pay the 'settled amount' to THEIR account? Stop. The settlement money must ALWAYS go directly to the bank’s account with the Bank’s Loan Account Number as the beneficiary.</p>
                                         </div>
                                     </li>
@@ -406,7 +406,7 @@ export default function AvoidScamsClient() {
                                             <span className="font-bold text-blue-600 text-sm">3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Contractual Clarity</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Contractual Clarity</h3>
                                             <p className="text-sm text-gray-600 m-0">Is there a formal service agreement detailing the 'scope of work' and 'termination rights'? Vague verbal promises over the phone are a disaster waiting to happen.</p>
                                         </div>
                                     </li>
@@ -496,7 +496,7 @@ export default function AvoidScamsClient() {
                         <div className="sticky top-14 space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-6 rounded-3xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-2xl mb-3 mt-2 tracking-tight">MFI Harassed?</h3>
+                                <p className="font-black text-gray-900 text-2xl mb-3 mt-2 tracking-tight">MFI Harassed?</p>
                                 <p className="text-gray-600 text-[15px] mb-6 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -516,7 +516,7 @@ export default function AvoidScamsClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-8 rounded-3xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-xl border-b border-gray-900 pb-3 mb-6">MFI Relief Vault</h4>
+                                <p className="font-black text-gray-900 text-xl border-b border-gray-900 pb-3 mb-6">MFI Relief Vault</p>
                                 <ul className="space-y-5 text-left font-medium">
                                     <li>
                                         <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-lg transition-colors">

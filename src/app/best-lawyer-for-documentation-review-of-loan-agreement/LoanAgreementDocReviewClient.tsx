@@ -197,7 +197,7 @@ export default function LoanAgreementDocReviewClient() {
                     {/* Left TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a key={link.id} href={`#${link.id}`}
@@ -265,15 +265,15 @@ export default function LoanAgreementDocReviewClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-5 bg-red-50 border border-red-100 rounded-2xl">
-                                    <h4 className="font-bold text-red-900 mb-2">Material Adverse Change (MAC) Clause</h4>
+                                    <p className="font-bold text-red-900 mb-2">Material Adverse Change (MAC) Clause</p>
                                     <p className="text-gray-700 text-sm">This clause allows the bank to declare an event of default if there is a "material adverse change" in the financial condition of the borrower, business, or even the general economic environment. MAC clauses are often worded so broadly that a significant business downturn, a fall in property values, or even a sector-wide economic stress can trigger this clause. During the COVID pandemic, many borrowers faced bank actions based on broadly worded MAC clauses.</p>
                                 </div>
                                 <div className="p-5 bg-amber-50 border border-amber-100 rounded-2xl">
-                                    <h4 className="font-bold text-amber-900 mb-2">Cross-Default Clause</h4>
+                                    <p className="font-bold text-amber-900 mb-2">Cross-Default Clause</p>
                                     <p className="text-gray-700 text-sm">A default on any other loan with any other lender triggers a default under this agreement as well. This creates a dangerous cascade effect where a small default with one bank causes all other loan accounts to simultaneously become stressed, making recovery from financial difficulty nearly impossible once the cycle starts.</p>
                                 </div>
                                 <div className="p-5 bg-orange-50 border border-orange-100 rounded-2xl">
-                                    <h4 className="font-bold text-orange-900 mb-2">Unilateral Rate Change Provision</h4>
+                                    <p className="font-bold text-orange-900 mb-2">Unilateral Rate Change Provision</p>
                                     <p className="text-gray-700 text-sm">Some agreements, particularly from NBFCs and cooperative banks, contain clauses allowing the lender to increase the interest rate "at its sole discretion" or in response to market conditions, with only notice to the borrower and no right of the borrower to prepay without penalty. The RBI Fair Practices Code prohibits unreasonable interest rate changes, but enforcement requires proving the clause exists and challenging it proactively.</p>
                                 </div>
                             </div>
@@ -450,11 +450,11 @@ export default function LoanAgreementDocReviewClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Case Studies: Legal Review Changing the Outcome</h2>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Case 1: Unlimited Guarantee Withdrawn in Bengaluru</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Case 1: Unlimited Guarantee Withdrawn in Bengaluru</h3>
                                     <p className="text-gray-700">A technology startup founder in Bengaluru was asked to provide an unlimited personal guarantee for his company working capital credit facility of Rs. 2 crore. The legal review at CredSettle revealed that the guarantee form the bank had prepared was worded such that it covered all facilities the company might ever avail from that bank group, not just the Rs. 2 crore facility. After pointed negotiation backed by the legal review, the bank agreed to limit the guarantee to the specific facility amount of Rs. 2 crore only, protecting the founder personal assets from any future additional credit facilities the company might take.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Case 2: Unilateral Arbitration Clause Challenged in Delhi MSME Case</h4>
+                                    <h3 className="font-bold text-green-900 mb-2">Case 2: Unilateral Arbitration Clause Challenged in Delhi MSME Case</h3>
                                     <p className="text-gray-700">An MSME manufacturer in Delhi had a loan agreement with an NBFC that contained a clause allowing the NBFC to appoint a sole arbitrator from its own list of approved arbitrators. When a dispute arose about the outstanding amount, the NBFC invoked arbitration and appointed its own arbitrator. The borrower lawyer challenged the appointment under the Arbitration and Conciliation Act, 1996 and the Supreme Court precedent on unilateral appointments. The Delhi High Court nullified the existing arbitration proceedings and ordered a fresh appointment through the Arbitration Council of India. This gave the borrower leverage to settle the matter on more favorable terms.</p>
                                 </div>
                             </div>
@@ -515,7 +515,7 @@ export default function LoanAgreementDocReviewClient() {
                     {/* Right Column */}
                     <aside className="lg:w-1/4 xl:w-1/5 flex flex-col gap-6 sticky top-14 self-start">
                         <div className="bg-gradient-to-br from-blue-600 to-blue-900 text-white rounded-2xl p-6 shadow-lg">
-                            <h3 className="font-bold text-xl mb-3">Free Loan Agreement Review</h3>
+                            <p className="font-bold text-xl mb-3">Free Loan Agreement Review</p>
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Get expert legal review of your loan agreement before signing. Identify dangerous clauses and protect your rights.</p>
                             <ul className="space-y-2 mb-5">
                                 {['Dangerous Clause Identification', 'RBI Compliance Check', 'Arbitration Clause Review', 'Guarantee Document Analysis'].map((item, i) => (
@@ -527,7 +527,7 @@ export default function LoanAgreementDocReviewClient() {
                             </Link>
                         </div>
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</p>
                             <nav className="space-y-2">
                                 {relatedPages.map((page, i) => (
                                     <Link key={i} href={page.href} className="block text-sm text-blue-600 hover:text-blue-800 hover:underline py-1 transition-colors">{page.label}</Link>

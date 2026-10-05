@@ -272,7 +272,7 @@ export default function BestLawyerLoanMortgageClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -506,7 +506,7 @@ export default function BestLawyerLoanMortgageClient() {
                                 Examining abstract principles is helpful, but observing these legal strategies deployed in actual conflict scenarios provides extraordinary clarity. The following representative scenarios illustrate how elite legal intervention directly alters outcomes, preserving capital and defending fundamental property rights.
                             </p>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Scenario Alpha: The Illogical Default Covenant</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Scenario Alpha: The Illogical Default Covenant</p>
                                 <p className="text-gray-700 mb-4">
                                     A mid sized manufacturing entity sought comprehensive financing for a major expansion. The lead bank presented an agreement containing a severe cross default provision, stating that a delay of even a single day on any statutory payment, such as a minor municipal tax, would trigger an immediate recall of the multi million rupee facility.
                                 </p>
@@ -515,7 +515,7 @@ export default function BestLawyerLoanMortgageClient() {
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Scenario Beta: Combating the Abusive Valuation</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Scenario Beta: Combating the Abusive Valuation</p>
                                 <p className="text-gray-700 mb-4">
                                     An aggressive financial institution sought to seize a prime commercial property under the SARFAESI Act, citing continuous defaults. To expedite a rapid, lucrative auction for themselves, the bank obtained a ridiculously low valuation report from an incredibly biased empanelled valuer, setting the reserve price at a mere fraction of true market worth.
                                 </p>
@@ -602,7 +602,7 @@ export default function BestLawyerLoanMortgageClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Contract Review?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need Contract Review?</p>
                                 <p className="text-sm text-gray-600 mb-6">Ensure your loan agreements are legally sound and completely devoid of hidden bank traps.</p>
                                 <Link
                                     href="/contact"
@@ -619,7 +619,7 @@ export default function BestLawyerLoanMortgageClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Legal Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/loan-agreement-drafting-review" className="block text-sm text-blue-600 hover:underline">Expert Legal Drafting</Link>
                                     <Link href="/best-lawyer-for-home-loan-settlement" className="block text-sm text-blue-600 hover:underline">Home Loan Solutions</Link>

@@ -198,7 +198,7 @@ export default function HowToNegotiateClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -480,7 +480,7 @@ export default function HowToNegotiateClient() {
 
               <div className="mt-16 p-10 bg-blue-900 text-white rounded-[40px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-4xl font-bold mb-6">Take the First Step to a Debt-Free Life</h2>
+                  <h3 className="text-4xl font-bold mb-6">Take the First Step to a Debt-Free Life</h3>
                   <p className="text-blue-100 mb-10 text-lg max-w-2xl mx-auto">Don’t let debt define your future. Our expert negotiators and legal advisors are here to help you settle your dues and reclaim your freedom.</p>
                   <Link 
                     href="/contact"
@@ -517,7 +517,7 @@ export default function HowToNegotiateClient() {
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Need Urgent Help?</h4>
+                <p className="font-bold text-2xl mb-4">Need Urgent Help?</p>
                 <p className="text-blue-100 mb-6 text-sm">Facing harassment from recovery agents? Our legal team can help you stop it today.</p>
                 <Link 
                   href="/contact"
@@ -543,7 +543,7 @@ export default function HowToNegotiateClient() {
 
               {/* Helpful Resources Component */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="group flex items-start">

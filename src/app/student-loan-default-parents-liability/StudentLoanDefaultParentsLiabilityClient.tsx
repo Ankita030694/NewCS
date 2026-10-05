@@ -210,9 +210,9 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
             >
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-blue-100">
                 <ShieldCheck className="w-5 h-5 text-[#1886ff]" />
-                <h2 className="text-base sm:text-lg font-bold text-slate-900">
+                <p className="text-base sm:text-lg font-bold text-slate-900">
                   Executive Summary: Education Loan Default &amp; Parent Liability
-                </h2>
+                </p>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm text-slate-700">
@@ -905,7 +905,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Ashish Jhangra</h3>
+                  <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
                   <p className="text-[11px] font-semibold text-[#1886ff]">
                     Legal &amp; Debt Resolution Professional
                   </p>
@@ -928,9 +928,9 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                   Urgent Legal Defense
                 </span>
               </div>
-              <h3 className="text-base font-extrabold leading-snug">
+              <p className="text-base font-extrabold leading-snug">
                 Bank Demanding Education Loan Dues from Parents?
-              </h3>
+              </p>
               <p className="text-xs text-white/90 leading-relaxed">
                 Speak directly with CredSettle legal professionals to stop recovery agent harassment, defend mortgaged family property, and negotiate a 40% to 60% compromise waiver.
               </p>

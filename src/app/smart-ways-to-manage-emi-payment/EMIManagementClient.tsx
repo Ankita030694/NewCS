@@ -274,7 +274,7 @@ export default function EMIManagementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 h-[calc(100vh-100px)] overflow-y-auto no-scrollbar p-8 bg-white border-r border-gray-100">
                         <div className="rounded-3xl">
-                            <h3 className="font-bold text-gray-900 mb-8 text-xl tracking-tight border-b pb-6 uppercase text-center">In This Guide</h3>
+                            <p className="font-bold text-gray-900 mb-8 text-xl tracking-tight border-b pb-6 uppercase text-center">In This Guide</p>
                             <nav className="space-y-1">
                                 {navLinks.map((link) => (
                                     <a
@@ -511,7 +511,7 @@ export default function EMIManagementClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                     </svg>
                                 </div>
-                                <h4 className="font-black text-2xl text-gray-900 mb-4 tracking-tight">Debt Audit</h4>
+                                <p className="font-black text-2xl text-gray-900 mb-4 tracking-tight">Debt Audit</p>
                                 <p className="text-sm text-gray-500 mb-10 leading-relaxed font-medium">Let Amalegal and CredSettle review your EMI portfolio and find interest saving opportunities.</p>
                                 <Link
                                     href="/contact"
@@ -537,7 +537,7 @@ export default function EMIManagementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-white p-10 rounded-[40px] shadow-[0_10px_30px_rgba(0,0,0,0.03)] border border-gray-50">
-                                <h4 className="font-black text-gray-900 mb-8 border-b pb-6 text-xl tracking-tight uppercase">Essentials</h4>
+                                <p className="font-black text-gray-900 mb-8 border-b pb-6 text-xl tracking-tight uppercase">Essentials</p>
                                 <nav className="space-y-6">
                                     <Link href="/why-does-my-credit-score-drop-even-though-i-pay-on-time" className="flex items-center gap-4 text-sm text-gray-600 hover:text-blue-600 group font-bold transition-all">
                                         <div className="w-2 h-2 bg-gray-200 rounded-full group-hover:bg-blue-600 group-hover:scale-150 transition-all"></div>

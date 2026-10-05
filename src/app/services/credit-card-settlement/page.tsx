@@ -159,7 +159,7 @@ export default function CreditCardSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Legally Compliant Process</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Legally Compliant Process</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>
                   We operate with absolute integrity. Every negotiation is strategically executed by our
                   legal team, ensuring strict adherence to RBI guidelines and Indian financial law,
@@ -194,7 +194,7 @@ export default function CreditCardSettlementPage() {
                 }}
               />
               <div className="flex-1">
-                <h3 className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Reduced Principal Guarantee</h3>
+                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Reduced Principal Guarantee</p>
                 <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>
                   We focus exclusively on delivering a tangible result: a formal, legal One-Time
                   Settlement (OTS) that makes your debt a done deal. Our aim is always a significantly

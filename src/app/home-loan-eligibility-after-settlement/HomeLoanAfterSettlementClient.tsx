@@ -230,7 +230,7 @@ export default function HomeLoanAfterSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Sections</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -276,7 +276,7 @@ export default function HomeLoanAfterSettlementClient() {
                                 The immediate consequences of this remark are severe:
                             </p>
                             <div className="bg-red-50 p-8 rounded-3xl border border-red-100 mb-8 font-light">
-                                <h4 className="font-bold text-xl text-red-900 mb-4">The Mathematical Destruction:</h4>
+                                <p className="font-bold text-xl text-red-900 mb-4">The Mathematical Destruction:</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong>Score Crash:</strong> Your CIBIL score can drop by 100 to 150 points immediately after the settlement is reported. If you had a 750 score, you might find yourself in the "Danger Zone" of 600 or below.</li>
                                     <li><strong>Repayment History Damage:</strong> The "Days Past Due" (DPD) section of your report will show significant delays leading up to the settlement. This "Negative Trend" is often more damaging than the score itself.</li>
@@ -450,7 +450,7 @@ export default function HomeLoanAfterSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Home Loan Recovery</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Home Loan Recovery</p>
                                 <p className="text-sm text-gray-600 mb-6">Convert your "Settled" status to "Closed" and get your home loan approved by Tier-1 banks.</p>
                                 <Link
                                     href="/contact"
@@ -467,7 +467,7 @@ export default function HomeLoanAfterSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/does-loan-settlement-affect-cibil" className="block text-sm text-blue-600 hover:underline">Settlement vs CIBIL</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>

@@ -254,7 +254,7 @@ export default function BusinessLoanSettlementClient() {
                     {/* Left Column: Side TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24">
                         <div className="bg-slate-50 p-10 rounded-[2rem] border border-slate-100 shadow-sm">
-                            <h3 className="font-bold text-slate-900 mb-6 text-lg border-b border-slate-200 pb-3">Strategy Guide</h3>
+                            <p className="font-bold text-slate-900 mb-6 text-lg border-b border-slate-200 pb-3">Strategy Guide</p>
                             <nav className="space-y-3">
                                 {navLinks.map((link) => (
                                     <a
@@ -291,7 +291,7 @@ export default function BusinessLoanSettlementClient() {
                                 The most significant regulatory event for business debt in recent years was the RBI’s June 2023 <strong>"Framework for Compromise Settlements and Technical Write-offs."</strong> This framework was a game-changer because it mandated all regulated entities (Banks, NBFCs, and ARCs) to have board-approved policies for settlement. It effectively institutionalized the "Right to Negotiate" for every business borrower in India.
                             </p>
                             <div className="bg-slate-900 text-white p-12 rounded-[2.5rem] mb-14 shadow-2xl relative">
-                                <h3 className="text-2xl font-bold mb-8 border-l-4 border-blue-500 pl-6 uppercase tracking-widest text-blue-400">Key Pillars of the 2025 Framework:</h3>
+                                <p className="text-2xl font-bold mb-8 border-l-4 border-blue-500 pl-6 uppercase tracking-widest text-blue-400">Key Pillars of the 2025 Framework:</p>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                                     <div>
                                         <p className="font-bold text-xl mb-3 text-white">Board-Approved OTS</p>
@@ -328,14 +328,14 @@ export default function BusinessLoanSettlementClient() {
                                 <li className="flex items-start gap-6 p-8 bg-blue-50 rounded-3xl border border-blue-100 shadow-sm">
                                     <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-black flex-shrink-0">B</div>
                                     <div>
-                                        <h4 className="font-bold text-blue-900 text-xl mb-2">Public Sector Banks (The "Slow Giants")</h4>
+                                        <h3 className="font-bold text-blue-900 text-xl mb-2">Public Sector Banks (The "Slow Giants")</h3>
                                         <p className="text-slate-700 text-sm leading-relaxed">PSBs are petrified of "Vigilance." No officer wants to be accused of favoring a borrower. This is why they demand exhaustive documentation and often wait for a "Lok Adalat" or "SARFAESI" trigger before saying yes.</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start gap-6 p-8 bg-slate-50 rounded-3xl border border-slate-200 shadow-sm">
                                     <div className="bg-slate-800 text-white w-12 h-12 rounded-full flex items-center justify-center font-black flex-shrink-0">N</div>
                                     <div>
-                                        <h4 className="font-bold text-slate-900 text-xl mb-2">NBFCs (The "Agile Accountants")</h4>
+                                        <h3 className="font-bold text-slate-900 text-xl mb-2">NBFCs (The "Agile Accountants")</h3>
                                         <p className="text-slate-700 text-sm leading-relaxed">NBFCs are driven by quarterly ROC (Return on Capital). They hate holding NPAs on their books. If you offer a solid lump sum that cleans their balance sheet before the quarter-end, they are highly likely to accept even with minimal documentation.</p>
                                     </div>
                                 </li>
@@ -360,11 +360,11 @@ export default function BusinessLoanSettlementClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-14">
                                 <div className="p-8 bg-slate-50 border border-slate-100 rounded-3xl">
-                                    <h4 className="font-black text-slate-900 mb-4 uppercase text-xs tracking-widest">Phase 1: Friction</h4>
+                                    <h3 className="font-black text-slate-900 mb-4 uppercase text-xs tracking-widest">Phase 1: Friction</h3>
                                     <p className="text-sm text-slate-600">Use legal responses to stop SARFAESI or S.138 threats. Slow down the bank’s recovery process through procedural challenges. This shows the bank that a court battle will be long and expensive.</p>
                                 </div>
                                 <div className="p-8 bg-blue-900 text-white rounded-3xl shadow-xl">
-                                    <h4 className="font-black text-blue-400 mb-4 uppercase text-xs tracking-widest">Phase 2: The Offer</h4>
+                                    <h3 className="font-black text-blue-400 mb-4 uppercase text-xs tracking-widest">Phase 2: The Offer</h3>
                                     <p className="text-sm text-slate-200">Once friction is established, present a "Time-Bound Offer." Explain that the funds are being sourced from a friend or a third party and are only available for a limited window (say, 30 days).</p>
                                 </div>
                             </div>
@@ -450,7 +450,7 @@ export default function BusinessLoanSettlementClient() {
                             
                             {/* Primary Business CTA */}
                             <div className="bg-gradient-to-br from-blue-900 to-slate-900 p-10 rounded-[2.5rem] shadow-2xl text-white transform hover:-rotate-1 transition-transform border border-blue-800">
-                                <h4 className="font-bold text-2xl mb-4 text-blue-300">NPA Resolve</h4>
+                                <p className="font-bold text-2xl mb-4 text-blue-300">NPA Resolve</p>
                                 <p className="text-sm text-slate-300 mb-8 font-light italic">"Stop the legal hammer, start the negotiation."</p>
                                 <Link
                                     href="/contact"
@@ -467,7 +467,7 @@ export default function BusinessLoanSettlementClient() {
 
                             {/* Related Links */}
                             <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl">
-                                <h4 className="font-bold text-slate-900 mb-8 border-b border-slate-100 pb-4 text-xs uppercase tracking-widest">Business Insights</h4>
+                                <p className="font-bold text-slate-900 mb-8 border-b border-slate-100 pb-4 text-xs uppercase tracking-widest">Business Insights</p>
                                 <nav className="space-y-5">
                                     {[
                                         { href: "/debt-settlement-services-that-work-with-multiple-creditors", text: "Multi-Lender Business Debt" },

@@ -284,7 +284,7 @@ export default function StudentLoanSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Student Shield</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Student Shield</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -380,21 +380,21 @@ export default function StudentLoanSettlementClient() {
                             </p>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></p>
                                 <p className="text-gray-800 mb-4">
                                     AMA Legal Solutions provides a "Legal Audit" of your student loan. They check if the bank has followed the IBA’s moratorium rules and if the interest rates applied are RBI compliant. Often, their legal intervention reveals that the "Actual Debt" is lower than the bank claims, leading to immediate settlement savings.
                                 </p>
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></p>
                                 <p className="text-gray-800 mb-4">
                                     CredSettle act as professional mediators. They take over all communication with the bank, effectively creating a "Buffer" for the student. They negotiate "One Time Settlements" that are documented, legally binding, and reported correctly to credit bureaus like CIBIL.
                                 </p>
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></p>
                                 <p className="text-gray-800 mb-4">
                                     SettleLoans provides a digital platform where students can build their "Hardship Profile." By presenting a data driven case for why the loan cannot be repaid in full, they help secure the highest possible waivers on student loan defaults.
                                 </p>
@@ -576,7 +576,7 @@ export default function StudentLoanSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Student Debt Relief</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Student Debt Relief</p>
                                 <p className="text-sm text-gray-600 mb-6">Expert help for students facing NPA and default notices in India.</p>
                                 <Link
                                     href="/contact"
@@ -593,7 +593,7 @@ export default function StudentLoanSettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-documents-are-required-for-loan-settlement-with-a-professional-service" className="block text-sm text-blue-600 hover:underline">Document Checklist</Link>
                                     <Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="block text-sm text-blue-600 hover:underline">CIBIL Impact Guide</Link>

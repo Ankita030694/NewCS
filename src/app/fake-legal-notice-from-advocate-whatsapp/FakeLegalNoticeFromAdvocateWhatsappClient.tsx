@@ -215,9 +215,9 @@ export default function FakeLegalNoticeFromAdvocateWhatsappClient() {
             >
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-blue-100">
                 <ShieldCheck className="w-5 h-5 text-[#1886ff]" />
-                <h2 className="text-base sm:text-lg font-bold text-slate-900">
+                <p className="text-base sm:text-lg font-bold text-slate-900">
                   Executive Brief: WhatsApp Legal Notices
-                </h2>
+                </p>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm text-slate-700">
@@ -868,7 +868,7 @@ export default function FakeLegalNoticeFromAdvocateWhatsappClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Ashish Jhangra</h3>
+                  <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
                   <p className="text-[11px] font-semibold text-[#1886ff]">
                     Legal &amp; Debt Resolution Professional
                   </p>
@@ -891,9 +891,9 @@ export default function FakeLegalNoticeFromAdvocateWhatsappClient() {
                   Urgent Notice Defense
                 </span>
               </div>
-              <h3 className="text-base font-extrabold leading-snug">
+              <p className="text-base font-extrabold leading-snug">
                 Received a WhatsApp Legal Notice?
-              </h3>
+              </p>
               <p className="text-xs text-white/90 leading-relaxed">
                 Connect with CredSettle legal experts for instant Bar Council verification, e-Courts case checks, and cease-and-desist protection.
               </p>

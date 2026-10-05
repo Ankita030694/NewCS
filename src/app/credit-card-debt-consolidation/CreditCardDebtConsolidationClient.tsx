@@ -547,7 +547,7 @@ export default function CreditCardDebtConsolidationClient() {
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <BadgeAlert className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>Section 25 PSSA (Electronic Mandate Dishonour)</h4>
+                    <h3>Section 25 PSSA (Electronic Mandate Dishonour)</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Under Section 25 PSSA 2007, auto-debit bounces carry quasi-criminal liability. Serving a formal legal reply establishing financial distress and prior mandate revocation refutes fraudulent intent.
@@ -557,7 +557,7 @@ export default function CreditCardDebtConsolidationClient() {
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <FileText className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>Section 138 NI Act (Cheque Dishonour Notice)</h4>
+                    <h3>Section 138 NI Act (Cheque Dishonour Notice)</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     If banks present undated security cheques collected at card issuance, our defense establishes that blank security cheques cannot enforce arbitrary compounding interest without ledger reconciliation.
@@ -567,7 +567,7 @@ export default function CreditCardDebtConsolidationClient() {
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <Scale className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>Unilateral Arbitration &amp; Perkins Precedent</h4>
+                    <h3>Unilateral Arbitration &amp; Perkins Precedent</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Under Supreme Court precedents in <em>TRF Limited</em> and <em>Perkins Eastman</em>, lenders cannot unilaterally appoint sole arbitrators, rendering unilateral proceedings voidable under Section 12(5).
@@ -577,7 +577,7 @@ export default function CreditCardDebtConsolidationClient() {
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm sm:text-base">
                     <ShieldAlert className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                    <h4>DRT Jurisdiction &amp; Fair Practices Code</h4>
+                    <h3>DRT Jurisdiction &amp; Fair Practices Code</h3>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     DRT claims apply strictly to debts exceeding ₹20 Lakhs. The RBI Fair Practices Code strictly prohibits calls outside 8:00 AM to 7:00 PM, contacting employers, or abusive recovery conduct.
@@ -703,28 +703,28 @@ export default function CreditCardDebtConsolidationClient() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">Multiple Maxed-Out Credit Cards</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">Multiple Maxed-Out Credit Cards</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Borrowers rotating minimum dues across 4 to 7 credit cards face severe interest stacking. CredSettle halts compounding and coordinates structured multi-bank settlements aligned with cash flow.
                   </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">Corporate &amp; Tech Executive Layoffs</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">Corporate &amp; Tech Executive Layoffs</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Salaried corporate professionals experiencing sudden job termination cannot service 42% APR card debt. We submit severance documentation to substantiate hardship, securing fast-track 50%+ principal waivers.
                   </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">Proprietorship Working Capital Swipes</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">Proprietorship Working Capital Swipes</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     Business owners who used personal credit cards for commercial operations face personal liability. We decouple business stress from personal assets, negotiating structured compromise settlements.
                   </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
-                  <h4 className="font-bold text-slate-900 text-sm sm:text-base">ARC Portfolio Debt Assignments</h4>
+                  <h3 className="font-bold text-slate-900 text-sm sm:text-base">ARC Portfolio Debt Assignments</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     When banks assign written-off card portfolios to Asset Reconstruction Companies (ARCs), collection pressure spikes. We audit assignment validity under SARFAESI Section 5, securing deep 60%+ discounts.
                   </p>
@@ -918,9 +918,9 @@ export default function CreditCardDebtConsolidationClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL
                 </span>
-                <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Trapped in Multi-Card Debt?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
                   Settle credit card debt at 40%-60% principal discount with zero harassment.
                 </p>
@@ -947,7 +947,7 @@ export default function CreditCardDebtConsolidationClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">The CredSettle Assurance</h4>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Assurance</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -970,7 +970,7 @@ export default function CreditCardDebtConsolidationClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <h4 className="font-bold text-slate-900 text-sm">Related Debt Guides</h4>
+              <p className="font-bold text-slate-900 text-sm">Related Debt Guides</p>
               <div className="space-y-2.5">
                 <Link
                   href="/credit-card-minimum-due-trap"

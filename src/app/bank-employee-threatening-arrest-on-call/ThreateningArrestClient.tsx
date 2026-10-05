@@ -185,7 +185,7 @@ export default function ThreateningArrestClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Contents</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -239,7 +239,7 @@ export default function ThreateningArrestClient() {
 
                             <h2 id="why-threaten-arrest" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Why Do Bank Employees Threaten Arrest?</h2>
                             
-                            <h3 id="pressure-on-recovery-agents" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">The Pressure on Recovery Agents</h3>
+                            <h2 id="pressure-on-recovery-agents" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">The Pressure on Recovery Agents</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To understand why these illegal threats occur, we must look at the economics of the recovery industry. Banks rarely handle the gritty work of late stage debt collection themselves. They outsource this task to third party recovery agencies. These agencies operate on a commission basis. The more money they recover from defaulted accounts, the higher their commission. Furthermore, individual telecallers working in these agencies are given grueling daily targets and face the constant threat of losing their own jobs if they do not extract payments.
                             </p>
@@ -247,7 +247,7 @@ export default function ThreateningArrestClient() {
                                 This high pressure environment creates a perverse incentive structure. When logical persuasion and standard reminders fail, desperate agents resort to the most extreme psychological tool available to them, which is fear. They know that the average Indian citizen is deeply afraid of the police, public humiliation, and the legal system. By weaponizing this fear, they aim to force the borrower to beg, borrow, or sell assets to make an immediate payment, just to make the nightmare stop.
                             </p>
 
-                            <h3 id="psychological-tactics" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">Psychological Tactics Used Over the Phone</h3>
+                            <h2 id="psychological-tactics" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">Psychological Tactics Used Over the Phone</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Recovery agents employ a specific playbook designed to maximize panic. They will never speak calmly or professionally when executing this tactic. Instead, they will use aggressive, loud, and abusive language to immediately put the borrower on the defensive. They often utilize a technique called "impersonation." The caller will confidently introduce themselves as "Inspector Sharma from the Cyber Crime Cell" or "Advocate Verma from the Delhi High Court." They rely on the shock value of these titles to paralyze the borrower's critical thinking.
                             </p>
@@ -257,7 +257,7 @@ export default function ThreateningArrestClient() {
 
                             <h2 id="your-legal-rights" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Your Legal Rights Against Harassment</h2>
                             
-                            <h3 id="rbi-guidelines" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">RBI Guidelines on Recovery Practices</h3>
+                            <h2 id="rbi-guidelines" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">RBI Guidelines on Recovery Practices</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Reserve Bank of India (RBI) is acutely aware of these rogue practices and has established a robust framework of guidelines that all regulated entities must follow. The Fair Practices Code explicitly prohibits lenders and their agents from resorting to any form of intimidation or harassment. This includes verbal abuse, threats of physical violence, threats of illegal arrest, and calling borrowers at odd hours (typically before 8:00 AM or after 7:00 PM).
                             </p>
@@ -265,7 +265,7 @@ export default function ThreateningArrestClient() {
                                 Furthermore, the RBI mandates that banks must maintain a strict code of conduct for their recovery agents. Agents are required to undergo specific training and must carry proper identification. Most importantly, the RBI holds the bank vicariously liable for the actions of its recovery agents. This means a bank cannot simply wash its hands of the situation by blaming the third party agency. If an agent threatens you, the bank is legally responsible for that threat.
                             </p>
 
-                            <h3 id="ipc-protections" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">The Indian Penal Code (IPC) Protections</h3>
+                            <h2 id="ipc-protections" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">The Indian Penal Code (IPC) Protections</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Beyond the regulatory guidelines of the RBI, a borrower is protected by the criminal laws of the country. When a recovery agent crosses the line from demanding repayment to threatening illegal arrest, they are committing criminal offenses under the Indian Penal Code (IPC) or the Bharatiya Nyaya Sanhita (BNS).
                             </p>
@@ -279,7 +279,7 @@ export default function ThreateningArrestClient() {
                             </p>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
-                                <h4 className="text-xl font-bold text-gray-900 mb-4">Step Checklist: Neutralizing the Threat</h4>
+                                <p className="text-xl font-bold text-gray-900 mb-4">Step Checklist: Neutralizing the Threat</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li className="flex items-start">
                                         <span className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-blue-600 text-white rounded-full font-bold mr-3 mt-1">1</span>
@@ -319,22 +319,22 @@ export default function ThreateningArrestClient() {
                                 </ul>
                             </div>
 
-                            <h3 id="step-1" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">Deep Dive: The Importance of Recording</h3>
+                            <h2 id="step-1" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">Deep Dive: The Importance of Recording</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 We cannot stress enough the importance of the first step in the checklist. When you file a complaint with the bank or the RBI, the first thing the bank will do is contact the recovery agency. The agency will predictably deny all allegations, claiming their agent was polite and merely reminding you of the dues. Without an audio recording, the investigation becomes a dead end. An audio recording is an irrefutable piece of evidence that forces the bank to acknowledge the illegal activity and take punitive action against the agency.
                             </p>
 
                             <h2 id="case-study" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Case Study: Dealing with a Threatening Caller</h2>
                             <div className="bg-white border-l-4 border-indigo-600 p-6 rounded-r-2xl shadow-sm mb-8">
-                                <h4 className="text-xl font-bold text-gray-900 mb-3">The Scenario: The Fake Cyber Cell Officer</h4>
+                                <p className="text-xl font-bold text-gray-900 mb-3">The Scenario: The Fake Cyber Cell Officer</p>
                                 <p className="text-gray-700 leading-relaxed mb-4">
                                     Rahul, an IT professional from Pune, lost his job and defaulted on two personal loan EMIs. On a Tuesday morning, he received a call from an unknown number. The caller shouted, "I am Inspector Singh from the Cyber Crime branch. Your bank has filed an FIR for fraud. The police jeep is leaving for your office right now to arrest you. Transfer 50,000 rupees to this account number immediately to cancel the warrant."
                                 </p>
-                                <h4 className="text-lg font-bold text-gray-900 mb-2">The Reaction</h4>
+                                <p className="text-lg font-bold text-gray-900 mb-2">The Reaction</p>
                                 <p className="text-gray-700 leading-relaxed mb-4">
                                     Initially terrified, Rahul remembered reading about recovery scams. He quickly turned on his secondary phone's voice recorder. He took a deep breath and said, "Inspector Singh, please provide your batch number and the address of your Cyber Cell. I am recording this call and my lawyer is conference in."
                                 </p>
-                                <h4 className="text-lg font-bold text-gray-900 mb-2">The Resolution</h4>
+                                <p className="text-lg font-bold text-gray-900 mb-2">The Resolution</p>
                                 <p className="text-gray-700 leading-relaxed">
                                     The caller immediately started stammering, dropped the aggressive tone, hurled one final insult, and disconnected the call. Rahul emailed the recording to the bank's Nodal Officer and filed a complaint on the RBI Sachet portal. Within 48 hours, the bank apologized in writing, confirmed the caller was a rogue third party agent, and assigned a polite internal executive to help Rahul restructure his loan. The threat was entirely fabricated.
                                 </p>
@@ -345,12 +345,12 @@ export default function ThreateningArrestClient() {
                                 If the bank's Nodal Officer fails to resolve your grievance within 30 days, or if the harassment is particularly severe, you must escalate the matter to higher authorities. The regulatory framework in India is designed to support consumers who are victims of such malpractices, but you must use the correct channels to be heard.
                             </p>
 
-                            <h3 id="rbi-ombudsman" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">RBI Ombudsman Portal</h3>
+                            <h2 id="rbi-ombudsman" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">RBI Ombudsman Portal</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Reserve Bank of India has established the Complaint Management System (CMS) portal, managed by the Banking Ombudsman. This is a highly effective, free, and digital mechanism to resolve complaints against banks and NBFCs. You can log in to the portal, fill out the complaint form, and upload your audio recordings and email trails. The Ombudsman has the power to summon bank officials, demand explanations, and award compensation to the borrower for the mental agony caused by illegal recovery practices. Banks are extremely cautious about Ombudsman complaints because multiple complaints can lead to severe regulatory penalties and reputational damage.
                             </p>
 
-                            <h3 id="police-complaint" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">Police Complaint and Cyber Crime Portal</h3>
+                            <h2 id="police-complaint" className="text-2xl font-bold text-gray-800 mb-4 mt-8 scroll-mt-14">Police Complaint and Cyber Crime Portal</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If an agent impersonates a police officer or threatens physical harm, you should not hesitate to involve the actual law enforcement. You can file a complaint at your local police station citing criminal intimidation and impersonation. Additionally, if the threats are being made through digital calls, WhatsApp messages, or SMS, you can file a complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in). Providing the phone numbers used by the agents allows the cyber cell to track down the illegal call centers operating on behalf of these rogue agencies.
                             </p>
@@ -358,19 +358,19 @@ export default function ThreateningArrestClient() {
                             <h2 id="myth-vs-fact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Myth vs Fact: Loan Default Arrests</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                                 <div className="bg-red-50 p-6 rounded-2xl border border-red-100">
-                                    <h4 className="flex items-center text-red-700 font-bold text-xl mb-3">
+                                    <p className="flex items-center text-red-700 font-bold text-xl mb-3">
                                         <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                         The Myth
-                                    </h4>
+                                    </p>
                                     <p className="text-gray-700 font-light leading-relaxed">
                                         If I miss three EMIs, the bank will automatically send the police to my house, arrest me in front of my neighbors, and seize all my household belongings without any court order.
                                     </p>
                                 </div>
                                 <div className="bg-green-50 p-6 rounded-2xl border border-green-100">
-                                    <h4 className="flex items-center text-green-700 font-bold text-xl mb-3">
+                                    <p className="flex items-center text-green-700 font-bold text-xl mb-3">
                                         <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                         The Fact
-                                    </h4>
+                                    </p>
                                     <p className="text-gray-700 font-light leading-relaxed">
                                         Missing EMIs leads to a drop in your CIBIL score and standard recovery calls. It is a civil matter. The bank must follow a lengthy legal process involving notices and civil courts. Police cannot arrest you, and belongings cannot be seized without a specific judicial decree.
                                     </p>
@@ -426,7 +426,7 @@ export default function ThreateningArrestClient() {
                                     className="object-cover w-full h-full"
                                 />
                             </div>
-                            <h3 className="font-bold text-gray-900 text-lg mb-1">Rohan Kumar</h3>
+                            <p className="font-bold text-gray-900 text-lg mb-1">Rohan Kumar</p>
                             <p className="text-blue-600 text-sm font-medium mb-3">Senior Legal Strategist</p>
                             <p className="text-gray-600 text-sm leading-relaxed mb-4 font-light">
                                 Specializing in consumer rights, debt settlement negotiation, and protection against illegal recovery harassment. Dedicated to empowering borrowers with actionable legal frameworks.

@@ -196,7 +196,7 @@ export default function ARCLoanAssignmentClient() {
                     {/* Left TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 self-start">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a key={link.id} href={`#${link.id}`}
@@ -281,19 +281,19 @@ export default function ARCLoanAssignmentClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-5 bg-red-50 border border-red-100 rounded-2xl">
-                                    <h4 className="font-bold text-red-900 mb-2">Ground 1: Ineligibility of Original Lender</h4>
+                                    <p className="font-bold text-red-900 mb-2">Ground 1: Ineligibility of Original Lender</p>
                                     <p className="text-gray-700 text-sm">If the original loan was given by an entity not eligible to enforce under SARFAESI (such as an NBFC not specifically notified under SARFAESI, or a cooperative bank), the assignment to an ARC does not automatically give the ARC SARFAESI enforcement rights. The ARC can still pursue recovery through civil courts or DRT, but cannot use the expedited SARFAESI possession and sale mechanism.</p>
                                 </div>
                                 <div className="p-5 bg-amber-50 border border-amber-100 rounded-2xl">
-                                    <h4 className="font-bold text-amber-900 mb-2">Ground 2: Defective Assignment Documentation</h4>
+                                    <p className="font-bold text-amber-900 mb-2">Ground 2: Defective Assignment Documentation</p>
                                     <p className="text-gray-700 text-sm">The assignment of a secured debt requires not just the debt to be transferred but also the security interest. This requires a properly documented deed that may need to be registered if it involves immovable property security. Courts have held that an unregistered assignment of a mortgage does not transfer the mortgagee rights to the ARC, limiting the ARC enforcement options significantly.</p>
                                 </div>
                                 <div className="p-5 bg-blue-50 border border-blue-100 rounded-2xl">
-                                    <h4 className="font-bold text-blue-900 mb-2">Ground 3: Incorrect NPA Classification at Time of Assignment</h4>
+                                    <p className="font-bold text-blue-900 mb-2">Ground 3: Incorrect NPA Classification at Time of Assignment</p>
                                     <p className="text-gray-700 text-sm">If the loan account was not validly classified as NPA under RBI IRACP guidelines at the time of assignment (for example, because the NPA date was incorrectly determined), the assignment itself may be challenged as based on an incorrect premise. This challenge does not necessarily void the assignment but complicates the ARC enforcement rights and creates strong leverage for settlement.</p>
                                 </div>
                                 <div className="p-5 bg-green-50 border border-green-100 rounded-2xl">
-                                    <h4 className="font-bold text-green-900 mb-2">Ground 4: Overstatement of Assigned Outstanding Amount</h4>
+                                    <p className="font-bold text-green-900 mb-2">Ground 4: Overstatement of Assigned Outstanding Amount</p>
                                     <p className="text-gray-700 text-sm">If the bank overstated the outstanding amount in the documents provided to the ARC at the time of assignment, the ARC is enforcing rights based on an inflated figure. A forensic account analysis can identify this overstatement and challenge the ARC claimed amount in DRT or SARFAESI enforcement proceedings.</p>
                                 </div>
                             </div>
@@ -354,19 +354,19 @@ export default function ARCLoanAssignmentClient() {
                             </p>
                             <div className="space-y-4 mb-8">
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">Understanding the ARC Acquisition Cost</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">Understanding the ARC Acquisition Cost</h3>
                                     <p className="text-gray-600 text-sm">The ARC acquired the loan at a discount. The settlement amount, to be commercially viable, needs to cover the acquisition cost plus a reasonable return. An experienced lawyer knows the typical discount ranges for different types of stressed assets and uses this knowledge to calibrate realistic settlement proposals.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">Leveraging Legal Challenges</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">Leveraging Legal Challenges</h3>
                                     <p className="text-gray-600 text-sm">A strong preliminary legal challenge (such as a Section 17 SA with a stay on possession) significantly improves the borrower bargaining position. ARCs prefer a certain settlement over uncertain prolonged litigation, particularly when the resolution timeline pressures imposed by RBI regulations are approaching.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">Forensic Account Analysis</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">Forensic Account Analysis</h3>
                                     <p className="text-gray-600 text-sm">Presenting the ARC with a documented case of overcharging in the original bank account statement reduces the nominal claimed amount and creates pressure to settle at the corrected figure. ARCs are aware that their own due diligence at acquisition time may not have caught all the original bank accounting errors.</p>
                                 </div>
                                 <div className="p-5 bg-white rounded-xl shadow-sm border border-gray-200">
-                                    <h4 className="font-bold text-gray-900 mb-2">One-Time Settlement Proposal</h4>
+                                    <h3 className="font-bold text-gray-900 mb-2">One-Time Settlement Proposal</h3>
                                     <p className="text-gray-600 text-sm">A formal One-Time Settlement (OTS) proposal submitted to the ARC through the lawyer is more likely to be taken seriously than informal discussions. The OTS should be based on the corrected outstanding amount (post forensic analysis), offer a specific lump sum within a defined time period, and structure any asset retention in a way that the ARC can justify to its investors.</p>
                                 </div>
                             </div>
@@ -409,11 +409,11 @@ export default function ARCLoanAssignmentClient() {
                             <h2 id="case-studies" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Case Studies: ARC Disputes Won Through Expert Legal Intervention</h2>
                             <div className="space-y-6 mb-8">
                                 <div className="p-6 bg-blue-50 rounded-2xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-2">Case 1: Unregistered Assignment Deed Stops SARFAESI in Mumbai</h4>
+                                    <h3 className="font-bold text-blue-900 mb-2">Case 1: Unregistered Assignment Deed Stops SARFAESI in Mumbai</h3>
                                     <p className="text-gray-700">A commercial property owner in Mumbai was facing SARFAESI action by an ARC that had acquired his Rs. 4.2 crore business loan. The specialist lawyer identified that the assignment involved the transfer of a registered mortgage but the assignment deed itself had not been registered at the Sub-Registrar office. The lawyer filed a High Court petition challenging the SARFAESI action on this ground. The Bombay High Court granted a stay, holding that the unregistered assignment deed did not transfer the mortgage rights to the ARC, which accordingly had no SARFAESI enforcement authority. The ARC agreed to a settlement of Rs. 2.6 crores to avoid prolonged litigation.</p>
                                 </div>
                                 <div className="p-6 bg-green-50 rounded-2xl border border-green-100">
-                                    <h4 className="font-bold text-green-900 mb-2">Case 2: Limitation Defense Against ARC OA in Delhi</h4>
+                                    <h3 className="font-bold text-green-900 mb-2">Case 2: Limitation Defense Against ARC OA in Delhi</h3>
                                     <p className="text-gray-700">An MSME proprietor in Delhi had a loan that became NPA in 2017. The original bank did not file any recovery proceedings. The loan was assigned to an ARC in 2021. The ARC filed an OA in the DRT in 2024, claiming that its limitation period ran from the date of assignment. The specialist lawyer challenged this, arguing that the ARC steps into the shoes of the bank and is bound by the same three-year limitation period that the bank itself would have faced, which had long expired. The DRT accepted this argument on a preliminary hearing and dismissed the OA as time-barred, saving the borrower from a potential adverse ruling on Rs. 1.8 crore.</p>
                                 </div>
                             </div>
@@ -474,7 +474,7 @@ export default function ARCLoanAssignmentClient() {
                     {/* Right Column */}
                     <aside className="lg:w-1/4 xl:w-1/5 flex flex-col gap-6 sticky top-14 self-start">
                         <div className="bg-gradient-to-br from-blue-600 to-blue-900 text-white rounded-2xl p-6 shadow-lg">
-                            <h3 className="font-bold text-xl mb-3">Free ARC Case Review</h3>
+                            <p className="font-bold text-xl mb-3">Free ARC Case Review</p>
                             <p className="opacity-90 mb-5 text-sm leading-relaxed">Get expert legal guidance on challenging ARC loan assignments, their SARFAESI actions, and negotiating below-face-value settlements.</p>
                             <ul className="space-y-2 mb-5">
                                 {['Assignment Validity Review', 'SARFAESI Challenge Filing', 'ARC Settlement Negotiation', 'Auction Stay Applications'].map((item, i) => (
@@ -486,7 +486,7 @@ export default function ARCLoanAssignmentClient() {
                             </Link>
                         </div>
                         <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Related Pages</p>
                             <nav className="space-y-2">
                                 {relatedPages.map((page, i) => (
                                     <Link key={i} href={page.href} className="block text-sm text-blue-600 hover:text-blue-800 hover:underline py-1 transition-colors">{page.label}</Link>

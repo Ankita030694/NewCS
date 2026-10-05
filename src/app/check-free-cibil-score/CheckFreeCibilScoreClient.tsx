@@ -232,7 +232,7 @@ export default function CheckFreeCibilScoreClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Score Protection Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Score Protection Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -302,10 +302,10 @@ export default function CheckFreeCibilScoreClient() {
                             {/* Visual Section 1: Alert Banner */}
                             <div className="bg-red-50 p-8 rounded-3xl border border-red-200 shadow-sm mb-12 relative overflow-hidden">
                                 <div className="absolute top-0 left-0 w-2 h-full bg-red-600"></div>
-                                <h4 className="text-2xl font-black mb-4 text-red-900 flex items-center gap-2">
+                                <p className="text-2xl font-black mb-4 text-red-900 flex items-center gap-2">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     RBI Data Privacy Warning
-                                </h4>
+                                </p>
                                 <p className="text-red-800 leading-relaxed font-medium mb-0">
                                     The RBI has explicitly warned consumers against sharing sensitive credentials with unverified financial platforms. When you agree to the terms of service on a third party aggregator application, you are granting them a legal power of attorney to fetch your credit data on your behalf. This broad consent often includes clauses that permit them to sell your contact details to multiple lenders. To protect yourself from predatory lending practices and non stop telemarketing harassment, you must only fetch your report directly from the official websites of the four RBI authorized credit bureaus.
                                 </p>
@@ -386,10 +386,10 @@ export default function CheckFreeCibilScoreClient() {
                             {/* Visual Section 3: Checklist */}
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-12 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-40 h-40 bg-blue-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-blue-500 inline-block rounded-full"></span>
                                     Pre-Check Privacy Checklist
-                                </h4>
+                                </p>
                                 <p className="text-gray-300 font-light mb-6">Before typing your PAN card number into any website, verify these critical security points.</p>
                                 <ul className="space-y-4 font-light text-gray-200">
                                     <li className="flex items-start gap-3">
@@ -413,22 +413,22 @@ export default function CheckFreeCibilScoreClient() {
                             </p>
                             <div className="space-y-6 mb-10">
                                 <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition-shadow">
-                                    <h3 className="text-xl font-bold text-blue-900 mb-2">1. TransUnion CIBIL</h3>
+                                    <p className="text-xl font-bold text-blue-900 mb-2">1. TransUnion CIBIL</p>
                                     <p className="text-gray-600 font-light mb-4">The oldest and most widely recognized bureau in India. Most major banks refer to your CIBIL score when processing mortgage and personal loan applications. Their scoring model ranges from 300 to 900.</p>
                                     <p className="text-sm font-medium text-gray-800 bg-gray-50 inline-block px-3 py-1 rounded">Access portal: cibil.com/freecibilscore</p>
                                 </div>
                                 <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition-shadow">
-                                    <h3 className="text-xl font-bold text-blue-900 mb-2">2. Experian India</h3>
+                                    <p className="text-xl font-bold text-blue-900 mb-2">2. Experian India</p>
                                     <p className="text-gray-600 font-light mb-4">A global leader in consumer credit reporting. Experian provides a highly detailed report and their dispute resolution process is generally considered to be fast and user friendly.</p>
                                     <p className="text-sm font-medium text-gray-800 bg-gray-50 inline-block px-3 py-1 rounded">Access portal: experian.in/free-credit-report</p>
                                 </div>
                                 <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition-shadow">
-                                    <h3 className="text-xl font-bold text-blue-900 mb-2">3. Equifax India</h3>
+                                    <p className="text-xl font-bold text-blue-900 mb-2">3. Equifax India</p>
                                     <p className="text-gray-600 font-light mb-4">Another major global player. Equifax reports are highly valued by non banking financial companies and microfinance institutions. They have robust fraud detection mechanisms built into their reports.</p>
                                     <p className="text-sm font-medium text-gray-800 bg-gray-50 inline-block px-3 py-1 rounded">Access portal: equifax.co.in</p>
                                 </div>
                                 <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition-shadow">
-                                    <h3 className="text-xl font-bold text-blue-900 mb-2">4. CRIF High Mark</h3>
+                                    <p className="text-xl font-bold text-blue-900 mb-2">4. CRIF High Mark</p>
                                     <p className="text-gray-600 font-light mb-4">Particularly strong in capturing data from rural banking, cooperative banks, and microfinance sectors. If you have taken a small business loan or a rural agriculture loan, checking CRIF is essential.</p>
                                     <p className="text-sm font-medium text-gray-800 bg-gray-50 inline-block px-3 py-1 rounded">Access portal: crifhighmark.com/personal</p>
                                 </div>
@@ -521,7 +521,7 @@ export default function CheckFreeCibilScoreClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Harassed by Spammers?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Harassed by Spammers?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can help you draft legal notices to force data brokers to delete your financial information.</p>
                                 <Link
                                     href="/contact"
@@ -539,7 +539,7 @@ export default function CheckFreeCibilScoreClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:underline">MSME Dispute Defense</Link>

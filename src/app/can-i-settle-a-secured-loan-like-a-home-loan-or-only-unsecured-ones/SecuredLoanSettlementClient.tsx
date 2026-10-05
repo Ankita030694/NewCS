@@ -193,7 +193,7 @@ export default function SecuredLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Chapters</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -313,42 +313,42 @@ export default function SecuredLoanSettlementClient() {
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0 font-bold">1</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-1">Financial Assessment</h4>
+                      <h3 className="font-bold text-xl mb-1">Financial Assessment</h3>
                       <p>Before talking to the bank, you must know exactly how much you can afford to pay in a single lump sum. Gather all your financial documents to prove your hardship.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0 font-bold">2</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-1">Stop Payments and Default</h4>
+                      <h3 className="font-bold text-xl mb-1">Stop Payments and Default</h3>
                       <p>A settlement usually only happens after you have defaulted for at least 90 days. Banks will not talk about settlement if you are currently paying your EMIs.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0 font-bold">3</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-1">Initiating the Proposal</h4>
+                      <h3 className="font-bold text-xl mb-1">Initiating the Proposal</h3>
                       <p>Send a formal written proposal to the bank’s settlement or recovery department. This is where professional help from <strong>CredSettle</strong> makes a huge difference in getting a response.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0 font-bold">4</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-1">The Negotiation Phase</h4>
+                      <h3 className="font-bold text-xl mb-1">The Negotiation Phase</h3>
                       <p>Expect several rounds of back and forth. The bank will start with a high number, and you will need to stick to your budget while explaining your constraints.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0 font-bold">5</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-1">Getting the Settlement Letter</h4>
+                      <h3 className="font-bold text-xl mb-1">Getting the Settlement Letter</h3>
                       <p>NEVER pay a single rupee until you have a formal settlement letter on the bank’s official letterhead. This letter should specify the amount, the date, and the closure terms.</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
                     <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0 font-bold">6</div>
                     <div>
-                      <h4 className="font-bold text-xl mb-1">Payment and Closure</h4>
+                      <h3 className="font-bold text-xl mb-1">Payment and Closure</h3>
                       <p>Make the payment as per the letter. Once paid, ensure you receive a No Dues Certificate (NDC). For secured loans, this is also when the bank must return your original property documents.</p>
                     </div>
                   </div>
@@ -455,7 +455,7 @@ export default function SecuredLoanSettlementClient() {
 
               <div className="mt-16 p-8 bg-blue-900 text-white rounded-[30px] text-center shadow-2xl overflow-hidden relative">
                 <div className="z-10 relative">
-                  <h2 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h2>
+                  <h3 className="text-3xl font-bold mb-4">Ready to Reclaim Your Financial Freedom?</h3>
                   <p className="text-blue-100 mb-8 max-w-2xl mx-auto">Whether it is a secured home loan or unsecured credit card debt, our experts are here to help you find the best path forward.</p>
                   <Link 
                     href="/contact"
@@ -474,7 +474,7 @@ export default function SecuredLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Debt Recovery Help</h4>
+                <p className="font-bold text-2xl mb-4">Debt Recovery Help</p>
                 <p className="text-blue-100 mb-6 text-sm">Dealing with bank notices or recovery calls? We can help you stop the harassment and settle your debts.</p>
                 <Link 
                   href="/contact"
@@ -499,7 +499,7 @@ export default function SecuredLoanSettlementClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Helpful Resources</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="group flex items-start">

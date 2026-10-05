@@ -218,7 +218,7 @@ export default function DebtSettlementEraseDebtClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2 tracking-tight uppercase">Guide Sections</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2 tracking-tight uppercase">Guide Sections</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -279,7 +279,7 @@ export default function DebtSettlementEraseDebtClient() {
                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
                     </svg>
                   </div>
-                  <h4 className="font-black text-blue-900 mb-4 text-xl uppercase italic">The Legal Clause</h4>
+                  <h3 className="font-black text-blue-900 mb-4 text-xl uppercase italic">The Legal Clause</h3>
                   <p className="text-blue-800 font-medium">
                     This agreement is governed by Section 62 of the Indian Contract Act, 1872. It is essentially a "Novation" or an "Accord and Satisfaction" where the old contract is replaced by a new one where you pay a smaller amount to end the relationship.
                   </p>
@@ -308,19 +308,19 @@ export default function DebtSettlementEraseDebtClient() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="bg-green-50 p-8 rounded-[32px] border border-green-200">
-                    <h4 className="font-extrabold text-green-900 mb-4 text-lg underline uppercase">1. CLOSED</h4>
+                    <h3 className="font-extrabold text-green-900 mb-4 text-lg underline uppercase">1. CLOSED</h3>
                     <p className="text-sm text-green-800 leading-relaxed">
                       You paid every single rupee owed: principal plus all interest. This is the gold standard. Your credit score will increase, and you will be eligible for better loans in the future.
                     </p>
                   </div>
                   <div className="bg-yellow-50 p-8 rounded-[32px] border border-yellow-200">
-                    <h4 className="font-extrabold text-yellow-900 mb-4 text-lg underline uppercase">2. SETTLED</h4>
+                    <h3 className="font-extrabold text-yellow-900 mb-4 text-lg underline uppercase">2. SETTLED</h3>
                     <p className="text-sm text-yellow-800 leading-relaxed">
                       You and the bank agreed on a partial payment. The account is legally closed, but the "Settled" tag remains as a negative remark on your report for seven years.
                     </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-[32px] border border-red-200">
-                    <h4 className="font-extrabold text-red-900 mb-4 text-lg underline uppercase">3. WRITTEN OFF</h4>
+                    <h3 className="font-extrabold text-red-900 mb-4 text-lg underline uppercase">3. WRITTEN OFF</h3>
                     <p className="text-sm text-red-800 leading-relaxed">
                       The bank has given up on you and marked the debt as a total loss in their books. This is the worst possible status. It destroys your credit score for at least a decade.
                     </p>
@@ -423,15 +423,15 @@ export default function DebtSettlementEraseDebtClient() {
                 
                 <ul className="list-none space-y-6 pl-0">
                   <li className="p-8 bg-gray-50 border-r-8 border-blue-600 rounded-[32px] shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-3 uppercase tracking-widest text-sm">Step 1: Financial Disclosure</h4>
+                    <h3 className="font-bold text-gray-900 mb-3 uppercase tracking-widest text-sm">Step 1: Financial Disclosure</h3>
                     <p>Show the bank that you literally do not have the money. Share medical reports, job termination letters, or business loss statements. Banks only settle when they are convinced that you are "Insolvent."</p>
                   </li>
                   <li className="p-8 bg-gray-50 border-r-8 border-blue-600 rounded-[32px] shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-3 uppercase tracking-widest text-sm">Step 2: Start Low</h4>
+                    <h3 className="font-bold text-gray-900 mb-3 uppercase tracking-widest text-sm">Step 2: Start Low</h3>
                     <p>The bank will start at 80% or 90%. You should start at 20% or 30%. The goal is to meet somewhere around 40% to 50% for credit cards and 60% for personal loans.</p>
                   </li>
                   <li className="p-8 bg-gray-50 border-r-8 border-blue-600 rounded-[32px] shadow-sm">
-                    <h4 className="font-bold text-gray-900 mb-3 uppercase tracking-widest text-sm">Step 3: One-Time vs. Installments</h4>
+                    <h3 className="font-bold text-gray-900 mb-3 uppercase tracking-widest text-sm">Step 3: One-Time vs. Installments</h3>
                     <p>Banks give deeper discounts if you pay the full settled amount in one go. If you ask for installments (MTS - Multi-Time Settlement), the discount will be much smaller.</p>
                   </li>
                 </ul>
@@ -441,7 +441,7 @@ export default function DebtSettlementEraseDebtClient() {
               <div className="text-gray-700 leading-relaxed mb-10 space-y-10 text-lg font-light">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                   <div className="space-y-6">
-                    <h4 className="text-2xl font-black text-blue-900 uppercase">The Advantages</h4>
+                    <h3 className="text-2xl font-black text-blue-900 uppercase">The Advantages</h3>
                     <ul className="space-y-4">
                       <li className="flex items-center text-green-700 font-bold"><span className="mr-3 text-2xl">+</span> Immediate Financial Relief</li>
                       <li className="flex items-center text-green-700 font-bold"><span className="mr-3 text-2xl">+</span> End of Recovery Harassment</li>
@@ -451,7 +451,7 @@ export default function DebtSettlementEraseDebtClient() {
                     </ul>
                   </div>
                   <div className="space-y-6">
-                    <h4 className="text-2xl font-black text-red-900 uppercase">The Drawbacks</h4>
+                    <h3 className="text-2xl font-black text-red-900 uppercase">The Drawbacks</h3>
                     <ul className="space-y-4">
                       <li className="flex items-center text-red-700 font-bold"><span className="mr-3 text-2xl">-</span> Massive Credit Score Drop</li>
                       <li className="flex items-center text-red-700 font-bold"><span className="mr-3 text-2xl">-</span> 7-Year History of "Settled" Status</li>
@@ -468,11 +468,11 @@ export default function DebtSettlementEraseDebtClient() {
                 <p>Before you commit to a settlement, consider these alternatives that leave your credit history intact.</p>
                 <div className="space-y-6">
                   <div className="p-10 bg-white border-2 border-dashed border-blue-200 rounded-[40px] hover:border-blue-500 transition-colors group">
-                    <h4 className="font-black text-blue-900 group-hover:text-blue-600 mb-4 uppercase">1. Debt Restructuring</h4>
+                    <h3 className="font-black text-blue-900 group-hover:text-blue-600 mb-4 uppercase">1. Debt Restructuring</h3>
                     <p>Ask the bank to increase the tenure of the loan. This reduces your EMI to a level you can afford. The loan remains "Active" and "Standard," and your credit score continues to grow as you make small, regular payments.</p>
                   </div>
                   <div className="p-10 bg-white border-2 border-dashed border-blue-200 rounded-[40px] hover:border-blue-500 transition-colors group">
-                    <h4 className="font-black text-blue-900 group-hover:text-blue-600 mb-4 uppercase">2. Gold Loans / LAP</h4>
+                    <h3 className="font-black text-blue-900 group-hover:text-blue-600 mb-4 uppercase">2. Gold Loans / LAP</h3>
                     <p>If you have unencumbered assets like gold or self-acquired property, use them to take a secured loan at 9% to 11%. Use this money to pay off the high interest (40%) credit card debt in full. This marks the credit card as "Closed" (Positive) and replaces it with a manageable installment loan.</p>
                   </div>
                 </div>
@@ -501,7 +501,7 @@ export default function DebtSettlementEraseDebtClient() {
                 
                 <div className="bg-gradient-to-br from-blue-900 to-blue-700 p-12 rounded-[48px] text-white shadow-2xl relative overflow-hidden">
                   <div className="relative z-10 space-y-6">
-                    <h4 className="text-3xl font-black uppercase italic tracking-tighter">The CredSettle Advantage</h4>
+                    <h3 className="text-3xl font-black uppercase italic tracking-tighter">The CredSettle Advantage</h3>
                     <p className="opacity-90 leading-relaxed text-xl">We handle the bank's legal notices, stop the recovery agent visits to your home or office, and negotiate the deepest possible discounts for your settlement. Most importantly, we handle all the paperwork to ensure your CIBIL report is updated correctly and you receive a valid No Dues Certificate.</p>
                     <Link 
                       href="/contact"
@@ -524,7 +524,7 @@ export default function DebtSettlementEraseDebtClient() {
                         {review.name.charAt(0)}
                       </div>
                       <div>
-                        <h4 className="font-black text-gray-900 text-lg uppercase tracking-tight">{review.name}</h4>
+                        <p className="font-black text-gray-900 text-lg uppercase tracking-tight">{review.name}</p>
                         <p className="text-xs text-gray-500 tracking-widest uppercase font-bold">{review.location} • {review.date}</p>
                       </div>
                     </div>
@@ -579,7 +579,7 @@ export default function DebtSettlementEraseDebtClient() {
               
               {/* Main Sidebar CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>
                 <p className="text-sm text-gray-600 mb-6">Don't face the bank alone. Get expert legal support today.</p>
                 <Link 
                   href="/contact"
@@ -595,7 +595,7 @@ export default function DebtSettlementEraseDebtClient() {
 
               {/* Related Pages */}
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-4 text-base border-b pb-2 uppercase tracking-tight">Related Insights</h4>
+                <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2 uppercase tracking-tight">Related Insights</p>
                 <ul className="space-y-3">
                   <li>
                     <Link href="/how-to-stop-recovery-agent-harassment" className="group flex items-center">

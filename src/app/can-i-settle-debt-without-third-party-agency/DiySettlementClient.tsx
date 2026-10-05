@@ -187,7 +187,7 @@ export default function DiySettlementClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -225,10 +225,10 @@ export default function DiySettlementClient() {
 
                             {/* Section Type: Warning Banner */}
                             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-2xl mb-8">
-                                <h4 className="text-xl font-bold text-yellow-900 mb-2 flex items-center">
+                                <p className="text-xl font-bold text-yellow-900 mb-2 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Beware of Upfront Fee Scams
-                                </h4>
+                                </p>
                                 <p className="text-yellow-800 text-sm leading-relaxed">
                                     Many settlement agencies demand a "Registration Fee" or a non-refundable retainer equal to 10% to 15% of your total outstanding loan amount before they even contact the bank. If the bank refuses to settle, or if the agency fails to negotiate a favorable deal, you lose this massive upfront fee entirely, putting you deeper into the debt trap.
                                 </p>
@@ -248,7 +248,7 @@ export default function DiySettlementClient() {
                                 
                                 <div className="mb-10 ml-8 relative">
                                     <span className="absolute -left-11 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-xs ring-4 ring-white">1</span>
-                                    <h3 id="step-1-stopping-emi" className="text-2xl font-bold text-gray-800 mb-2">Step 1: Stopping EMI Payments and Saving Capital</h3>
+                                    <h2 id="step-1-stopping-emi" className="text-2xl font-bold text-gray-800 mb-2">Step 1: Stopping EMI Payments and Saving Capital</h2>
                                     <p className="text-gray-700 leading-relaxed mb-4">
                                         The most counterintuitive step of settlement is realizing you must stop paying partial EMIs. If you keep scraping together half an EMI every month, the bank classifies you as a "slow payer," not a defaulter. Banks do not offer settlements to active accounts. To force the bank to the negotiating table, the account must be classified as a Non-Performing Asset (NPA), which strictly requires 90 days of continuous non-payment. During this 90-day window, you must hoard cash in a separate account (preferably in a family member's name to avoid auto-debits) to build your lump-sum settlement corpus.
                                     </p>
@@ -256,7 +256,7 @@ export default function DiySettlementClient() {
 
                                 <div className="mb-10 ml-8 relative">
                                     <span className="absolute -left-11 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-xs ring-4 ring-white">2</span>
-                                    <h3 id="step-2-handling-recovery" className="text-2xl font-bold text-gray-800 mb-2">Step 2: Handling the Initial Recovery Agent Onslaught</h3>
+                                    <h2 id="step-2-handling-recovery" className="text-2xl font-bold text-gray-800 mb-2">Step 2: Handling the Initial Recovery Agent Onslaught</h2>
                                     <p className="text-gray-700 leading-relaxed mb-4">
                                         Between day 30 and day 120, the psychological warfare begins. The bank will deploy outsourced third-party telecallers who are trained to shout, abuse, and threaten you. They will threaten police arrest, claim they are coming to seize your furniture, and threaten to call your HR department. Your job during this phase is emotional detachment. Block numbers that are abusive, record all calls, and calmly reiterate a single sentence: <i>"I am facing severe financial hardship and I am communicating directly with the bank via email for a settlement."</i>
                                     </p>
@@ -264,7 +264,7 @@ export default function DiySettlementClient() {
 
                                 <div className="mb-2 ml-8 relative">
                                     <span className="absolute -left-11 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white font-bold text-xs ring-4 ring-white">3</span>
-                                    <h3 id="step-3-drafting-letter" className="text-2xl font-bold text-gray-800 mb-2">Step 3: Drafting the Hardship Letter to the Bank Manager</h3>
+                                    <h2 id="step-3-drafting-letter" className="text-2xl font-bold text-gray-800 mb-2">Step 3: Drafting the Hardship Letter to the Bank Manager</h2>
                                     <p className="text-gray-700 leading-relaxed mb-4">
                                         Around day 150, when the bank realizes the telecallers have failed, the account moves to the core collections team. This is your window. You must bypass the agents and draft a formal, physically mailed or emailed Hardship Letter directly to the Branch Manager and the Nodal Officer. This letter must outline the exact reason for insolvency (medical emergency, job loss) and explicitly offer a final lump sum amount (usually starting your negotiation at 25% to 30% of the principal). Understanding <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="text-blue-600 hover:underline">how to reply to legal notice for personal loan</Link> properly ensures you don't accidentally reset the limitation period.
                                     </p>
@@ -375,7 +375,7 @@ export default function DiySettlementClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need a Legal Shield?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need a Legal Shield?</p>
                                 <p className="text-sm text-gray-600 mb-6">Skip the 15% agency fees. Hire a real law firm to defend against DRT and harassment.</p>
                                 <Link
                                     href="/contact"
@@ -392,7 +392,7 @@ export default function DiySettlementClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

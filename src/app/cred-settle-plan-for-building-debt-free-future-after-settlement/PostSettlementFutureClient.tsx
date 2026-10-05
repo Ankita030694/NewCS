@@ -228,7 +228,7 @@ export default function PostSettlementFutureClient() {
                 <aside className="lg:w-[22%] hidden lg:block sticky top-0 h-screen overflow-y-auto border-r border-gray-50 bg-gray-50/30 p-10">
                     <div className="space-y-8">
                         <div className="relative">
-                            <h3 className="font-black text-gray-900 mb-6 text-sm uppercase tracking-[0.2em]">Strategy Map</h3>
+                            <p className="font-black text-gray-900 mb-6 text-sm uppercase tracking-[0.2em]">Strategy Map</p>
                             <div className="absolute -bottom-2 left-0 w-12 h-1 bg-blue-600"></div>
                         </div>
                         <nav className="space-y-1">
@@ -576,7 +576,7 @@ export default function PostSettlementFutureClient() {
                     {/* Primary Sidebar CTA */}
                     <div className="bg-slate-900 p-10 rounded-[40px] text-white text-center shadow-2xl relative overflow-hidden">
                         <div className="absolute -top-10 -right-10 w-32 h-32 bg-blue-600/20 rounded-full blur-3xl"></div>
-                        <h4 className="font-black text-2xl mb-6 leading-[1.1]">STRATEGY<br/>SESSION</h4>
+                        <p className="font-black text-2xl mb-6 leading-[1.1]">STRATEGY<br/>SESSION</p>
                         <p className="text-[13px] opacity-70 mb-10 font-bold leading-relaxed uppercase tracking-tighter">Personalized post-settlement restoration blueprint with a 2026 expert.</p>
                         <Link
                             href="/contact"
@@ -588,7 +588,7 @@ export default function PostSettlementFutureClient() {
 
                     {/* Related Pages Sidebar Container */}
                     <div className="bg-white p-10 rounded-[40px] border-2 border-slate-50">
-                        <h4 className="font-black text-slate-900 mb-8 text-[11px] uppercase tracking-[0.3em] border-b border-slate-50 pb-6 text-center">Resources</h4>
+                        <p className="font-black text-slate-900 mb-8 text-[11px] uppercase tracking-[0.3em] border-b border-slate-50 pb-6 text-center">Resources</p>
                         <nav className="space-y-8">
                             <Link href="/loan-settlement-for-borrowers-facing-economic-downturn" className="group block">
                                 <span className="text-[10px] font-black text-blue-500 group-hover:text-blue-700 transition-colors uppercase block mb-2 tracking-widest">Article 01</span>

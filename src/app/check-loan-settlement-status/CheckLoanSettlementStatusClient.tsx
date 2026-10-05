@@ -242,7 +242,7 @@ export default function CheckLoanSettlementStatusClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Tracking Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Tracking Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -301,10 +301,10 @@ export default function CheckLoanSettlementStatusClient() {
                             </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     Core Reasons to Track:
-                                </h4>
+                                </p>
                                 <ul className="space-y-5 font-light text-gray-300">
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">1. Confirm Payment Allocation:</strong> It ensures that your payment was actually credited to your loan account and not lost in a suspense account.</li>
                                     <li><strong className="text-white uppercase tracking-wider italic text-sm">2. Enforce Timelines:</strong> It holds the bank accountable to the timelines mentioned in your settlement letter.</li>
@@ -321,7 +321,7 @@ export default function CheckLoanSettlementStatusClient() {
                             </p>
                             <div className="bg-white p-8 rounded-3xl border border-red-200 shadow-xl mb-10 relative">
                                 <div className="absolute -top-4 -right-4 bg-red-700 text-white px-6 py-2 rounded-full font-bold text-xs uppercase tracking-[0.2em] shadow-lg animate-pulse">Critical Alert</div>
-                                <h4 className="text-xl font-bold mb-3 text-red-800 tracking-tight uppercase">Protect Your Data</h4>
+                                <p className="text-xl font-bold mb-3 text-red-800 tracking-tight uppercase">Protect Your Data</p>
                                 <ul className="space-y-4 text-gray-800">
                                     <li><strong className="text-red-800">Unverified Links:</strong> They send SMS links claiming your "Settlement NOC is ready for download." Do not click these.</li>
                                     <li><strong className="text-red-800">Processing Fees:</strong> Legitimate banks will never ask you to pay a "processing fee" or "NOC generation fee" on a third party website after the settlement amount is paid.</li>
@@ -392,7 +392,7 @@ export default function CheckLoanSettlementStatusClient() {
                                 The No Objection Certificate is your ultimate shield. It is a formal, legally binding document from the bank stating that you owe them absolutely nothing on that specific account. You must be proactive in securing this document.
                             </p>
                             <div className="bg-green-50 p-10 rounded-[3rem] border border-green-100 shadow-xl border-l-8 border-green-700 mb-10">
-                                <h4 className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">NOC Procurement Timeline</h4>
+                                <p className="text-2xl font-black text-green-900 mb-4 uppercase tracking-tight italic">NOC Procurement Timeline</p>
                                 <ul className="space-y-4 text-gray-800 font-light">
                                     <li><strong>Day 1:</strong> Ensure your settlement payment has been debited from your account and save the transaction reference number (UTR).</li>
                                     <li><strong>Day 5:</strong> Log into net banking and confirm the loan account balance is zero. Take a screenshot for your records.</li>
@@ -480,7 +480,7 @@ export default function CheckLoanSettlementStatusClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Need NOC Help?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Need NOC Help?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to force the bank to issue your NOC.</p>
                                 <Link
                                     href="/contact"
@@ -497,7 +497,7 @@ export default function CheckLoanSettlementStatusClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/post-loan-settlement-legal-help" className="block text-sm text-blue-600 hover:underline">Post Settlement Legal Help</Link>
                                     <Link href="/does-loan-settlement-affect-cibil" className="block text-sm text-blue-600 hover:underline">Impact on CIBIL</Link>

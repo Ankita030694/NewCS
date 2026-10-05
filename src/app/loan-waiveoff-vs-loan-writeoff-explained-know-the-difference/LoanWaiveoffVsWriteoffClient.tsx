@@ -246,7 +246,7 @@ export default function LoanWaiveoffVsWriteoffClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Index</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Index</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -289,7 +289,7 @@ export default function LoanWaiveoffVsWriteoffClient() {
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-10 shadow-sm">
                                 <div className="flex items-center mb-2">
                                     <svg className="w-6 h-6 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                                    <h4 className="text-red-800 font-bold m-0 text-xl">Important Legal Warning on Written Off Accounts</h4>
+                                    <p className="text-red-800 font-bold m-0 text-xl">Important Legal Warning on Written Off Accounts</p>
                                 </div>
                                 <p className="text-red-700 m-0 font-medium">
                                     If you see a written off status on your credit report, you are still legally bound to repay the debt. A write off is purely an internal banking procedure for tax benefits. Your liability remains active, and the lender can initiate legal action or deploy recovery agents against you at any time. Do not ignore a written off account.
@@ -426,10 +426,10 @@ export default function LoanWaiveoffVsWriteoffClient() {
 
                             {/* Checklist Section */}
                             <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                                     Checklist: How to Verify Your Loan Status
-                                </h3>
+                                </p>
                                 <ul className="space-y-3 font-light text-gray-700">
                                     <li className="flex items-start">
                                         <svg className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
@@ -559,7 +559,7 @@ export default function LoanWaiveoffVsWriteoffClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Facing Recovery Agents?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Facing Recovery Agents?</p>
                                 <p className="text-sm text-gray-600 mb-6 font-light">We can send an immediate Legal Notice to stop agents from harassing you over written off loans.</p>
                                 <Link
                                     href="/contact"
@@ -577,7 +577,7 @@ export default function LoanWaiveoffVsWriteoffClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/loan-written-off-vs-settled-cibil-impact" className="block text-sm text-blue-600 hover:underline">Written Off vs Settled Impact</Link>
                                     <Link href="/what-is-the-success-rate-of-debt-settlement-programs" className="block text-sm text-blue-600 hover:underline">Debt Settlement Success Rate</Link>

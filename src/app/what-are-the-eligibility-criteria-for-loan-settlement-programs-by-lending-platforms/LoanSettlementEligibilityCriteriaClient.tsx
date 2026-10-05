@@ -305,7 +305,7 @@ export default function LoanSettlementEligibilityCriteriaClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -347,17 +347,17 @@ export default function LoanSettlementEligibilityCriteriaClient() {
                             <div className="grid grid-cols-1 gap-10 mb-16">
                                 <div className="p-12 bg-blue-50/50 rounded-[3rem] border-2 border-blue-100 relative group overflow-hidden">
                                     <span className="absolute -top-10 -right-10 text-[10rem] font-black text-blue-600/5 select-none transition-transform group-hover:scale-125">1</span>
-                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase">Irreversible Financial Incapacity</h3>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase">Irreversible Financial Incapacity</p>
                                     <p className="text-slate-700 leading-relaxed">This is the heart of eligibility. You must show that your current income is insufficient to cover basic life necessities after EMI payments. The bank looks at your debt-to-income ratio. If it exceeds 70-80%, you are moving into the eligibility zone.</p>
                                 </div>
                                 <div className="p-12 bg-blue-50/50 rounded-[3rem] border-2 border-blue-100 relative group overflow-hidden">
                                     <span className="absolute -top-10 -right-10 text-[10rem] font-black text-blue-600/5 select-none transition-transform group-hover:scale-125">2</span>
-                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase">Lack of Realizable Assets</h3>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase">Lack of Realizable Assets</p>
                                     <p className="text-slate-700 leading-relaxed">If you have a home, a car, or significant investments, the bank will expect you to sell them to pay the debt. You are only "eligible" for a haircut when the lender realizes that there are no easy assets to seize or auction.</p>
                                 </div>
                                 <div className="p-12 bg-blue-50/50 rounded-[3rem] border-2 border-blue-100 relative group overflow-hidden">
                                     <span className="absolute -top-10 -right-10 text-[10rem] font-black text-blue-600/5 select-none transition-transform group-hover:scale-125">3</span>
-                                    <h3 className="text-2xl font-black text-blue-900 mb-4 uppercase">Account Classification (NPA Status)</h3>
+                                    <p className="text-2xl font-black text-blue-900 mb-4 uppercase">Account Classification (NPA Status)</p>
                                     <p className="text-slate-700 leading-relaxed">As per RBI norms, settlement negotiations usually only start after an account is classified as a Non-Performing Asset. This means a minimum of 90 days of continuous default. Some Fintechs might start earlier, but for banks, the 90-day mark is the eligibility gateway.</p>
                                 </div>
                             </div>
@@ -401,28 +401,28 @@ export default function LoanSettlementEligibilityCriteriaClient() {
                                     <div className="flex gap-6 items-center">
                                         <div className="w-20 h-20 rounded-2xl bg-slate-100 flex items-center justify-center font-black text-slate-400 shrink-0">0-30</div>
                                         <div>
-                                            <h4 className="font-black text-lg text-slate-900">SMA-0 Stage</h4>
+                                            <h3 className="font-black text-lg text-slate-900">SMA-0 Stage</h3>
                                             <p className="text-sm text-slate-500 italic">Not eligible for settlement. Focus on late fees and reminders.</p>
                                         </div>
                                     </div>
                                     <div className="flex gap-6 items-center">
                                         <div className="w-20 h-20 rounded-2xl bg-slate-200 flex items-center justify-center font-black text-slate-600 shrink-0">31-60</div>
                                         <div>
-                                            <h4 className="font-black text-lg text-slate-900">SMA-1 Stage</h4>
+                                            <h3 className="font-black text-lg text-slate-900">SMA-1 Stage</h3>
                                             <p className="text-sm text-slate-600 italic">Early warnings. Still not eligible for principal haircuts.</p>
                                         </div>
                                     </div>
                                     <div className="flex gap-6 items-center">
                                         <div className="w-20 h-20 rounded-2xl bg-slate-300 flex items-center justify-center font-black text-slate-800 shrink-0">61-90</div>
                                         <div>
-                                            <h4 className="font-black text-lg text-slate-900">SMA-2 Stage</h4>
+                                            <h3 className="font-black text-lg text-slate-900">SMA-2 Stage</h3>
                                             <p className="text-sm text-slate-700 italic">Critical stage. Legal notices trigger. Preliminary eligibility assessment starts.</p>
                                         </div>
                                     </div>
                                     <div className="flex gap-6 items-center">
                                         <div className="w-20 h-20 rounded-2xl bg-blue-600 flex items-center justify-center font-black text-white shrink-0">90+</div>
                                         <div>
-                                            <h4 className="font-black text-lg text-blue-700 uppercase">NPA Classification</h4>
+                                            <h3 className="font-black text-lg text-blue-700 uppercase">NPA Classification</h3>
                                             <p className="text-sm text-blue-900 font-bold underline decoration-blue-300">FULL ELIGIBILITY TRIGGERS. The bank now has a provisioned loss and is open to compromise.</p>
                                         </div>
                                     </div>
@@ -554,7 +554,7 @@ export default function LoanSettlementEligibilityCriteriaClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Qualify Today</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Qualify Today</p>
                                 <p className="text-sm text-gray-600 mb-6">Find out if you are eligible for a 40-70% principal waiver based on current RBI guidelines.</p>
                                 <Link
                                     href="/contact"
@@ -571,7 +571,7 @@ export default function LoanSettlementEligibilityCriteriaClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Read</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Essential Read</p>
                                 <nav className="space-y-2">
                                     {[
                                         { href: "/how-do-i-officially-submit-a-loan-settlement-offer-to-my-lender", text: "How to Submit Your Offer" },

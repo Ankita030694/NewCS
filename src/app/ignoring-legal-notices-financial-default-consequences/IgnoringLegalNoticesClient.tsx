@@ -235,7 +235,7 @@ export default function IgnoringLegalNoticesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Defense Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -296,17 +296,17 @@ export default function IgnoringLegalNoticesClient() {
                             {/* Visual Element 1: Alert Banner Comparison */}
                             <div className="bg-gray-900 text-white p-8 rounded-3xl mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <h4 className="text-2xl font-black mb-6 flex items-center gap-3">
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
                                     <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
                                     How to Spot the Difference:
-                                </h4>
+                                </p>
                                 <div className="space-y-6">
                                     <div className="bg-gray-800 p-5 rounded-xl border border-gray-700">
-                                        <h5 className="font-bold text-red-400 mb-2 uppercase tracking-wide">The Fake "Recovery" Notice</h5>
+                                        <p className="font-bold text-red-400 mb-2 uppercase tracking-wide">The Fake "Recovery" Notice</p>
                                         <p className="font-light text-gray-300">Often sent via WhatsApp or standard post. It uses words like "WARRANT OF ARREST" or "POLICE COMPLAINT FILED" for civil defaults. It rarely includes a legitimate advocate registration number. It demands payment to a third party account instead of your official loan account.</p>
                                     </div>
                                     <div className="bg-gray-800 p-5 rounded-xl border border-gray-700">
-                                        <h5 className="font-bold text-green-400 mb-2 uppercase tracking-wide">The Real Legal Notice</h5>
+                                        <p className="font-bold text-green-400 mb-2 uppercase tracking-wide">The Real Legal Notice</p>
                                         <p className="font-light text-gray-300">Sent via Registered Post with Acknowledgment Due or Speed Post. It clearly lists the advocate details, bar council registration number, and the specific section of the law (like Section 138 of NI Act or Section 13(2) of SARFAESI Act). It gives a clear timeline to reply, usually 15 or 60 days.</p>
                                     </div>
                                 </div>
@@ -323,34 +323,34 @@ export default function IgnoringLegalNoticesClient() {
 
                             {/* Visual Element 2: Flowchart Timeline */}
                             <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-md mb-10">
-                                <h4 className="text-xl font-bold text-gray-900 mb-6 text-center uppercase tracking-widest border-b pb-4">Anatomy of Legal Escalation</h4>
+                                <h3 className="text-xl font-bold text-gray-900 mb-6 text-center uppercase tracking-widest border-b pb-4">Anatomy of Legal Escalation</h3>
                                 
                                 <div className="relative border-l-4 border-green-200 ml-6 space-y-8 pb-4">
                                     <div className="relative">
                                         <div className="absolute w-8 h-8 bg-green-600 rounded-full -left-6 border-4 border-white top-0 shadow flex items-center justify-center text-white font-bold text-xs">1</div>
                                         <div className="pl-6">
-                                            <h5 className="font-bold text-lg text-gray-800">Days 1 to 90: The Reminder Phase</h5>
+                                            <h3 className="font-bold text-lg text-gray-800">Days 1 to 90: The Reminder Phase</h3>
                                             <p className="text-gray-600 text-sm mt-2">The bank sends SMS alerts, emails, and automated phone calls. Your account becomes a Non Performing Asset (NPA) on day 90. Ignoring these only hurts your CIBIL score.</p>
                                         </div>
                                     </div>
                                     <div className="relative">
                                         <div className="absolute w-8 h-8 bg-green-600 rounded-full -left-6 border-4 border-white top-0 shadow flex items-center justify-center text-white font-bold text-xs">2</div>
                                         <div className="pl-6">
-                                            <h5 className="font-bold text-lg text-gray-800">Days 90 to 120: The First Advocate Notice</h5>
+                                            <h3 className="font-bold text-lg text-gray-800">Days 90 to 120: The First Advocate Notice</h3>
                                             <p className="text-gray-600 text-sm mt-2">The bank hires a lawyer to send a formal demand notice asking for the entire outstanding amount. Ignoring this notice signals to the bank that you are not interested in an out of court settlement.</p>
                                         </div>
                                     </div>
                                     <div className="relative">
                                         <div className="absolute w-8 h-8 bg-green-600 rounded-full -left-6 border-4 border-white top-0 shadow flex items-center justify-center text-white font-bold text-xs">3</div>
                                         <div className="pl-6">
-                                            <h5 className="font-bold text-lg text-gray-800">Days 120 to 180: Specialized Legal Action</h5>
+                                            <h3 className="font-bold text-lg text-gray-800">Days 120 to 180: Specialized Legal Action</h3>
                                             <p className="text-gray-600 text-sm mt-2">Depending on the loan type, the bank sends a Section 138 notice for bounced cheques or a Section 13(2) notice under the SARFAESI act for secured loans. Ignoring these has severe, irreversible consequences.</p>
                                         </div>
                                     </div>
                                     <div className="relative">
                                         <div className="absolute w-8 h-8 bg-green-900 rounded-full -left-6 border-4 border-white top-0 shadow flex items-center justify-center text-white font-bold text-xs">4</div>
                                         <div className="pl-6">
-                                            <h5 className="font-bold text-lg text-gray-800">Days 180+: Court Summons and Decrees</h5>
+                                            <h3 className="font-bold text-lg text-gray-800">Days 180+: Court Summons and Decrees</h3>
                                             <p className="text-gray-600 text-sm mt-2">The matter reaches the courts or the Debt Recovery Tribunal. If you ignore the court summons, the judge will issue an ex-parte order authorizing asset seizure or issuing arrest warrants.</p>
                                         </div>
                                     </div>
@@ -412,10 +412,10 @@ export default function IgnoringLegalNoticesClient() {
 
                             {/* Visual Element 3: Checklist */}
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-200 shadow-md mb-10">
-                                <h4 className="text-xl font-bold text-blue-900 mb-6 flex items-center gap-2">
+                                <h3 className="text-xl font-bold text-blue-900 mb-6 flex items-center gap-2">
                                     <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                     The Notice Response Protocol
-                                </h4>
+                                </h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 h-6 w-6 rounded-full bg-blue-200 flex items-center justify-center mr-3 mt-0.5">
@@ -540,7 +540,7 @@ export default function IgnoringLegalNoticesClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Notice Arrived?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Notice Arrived?</p>
                                 <p className="text-sm text-gray-600 mb-6">We can draft an immediate Legal Reply to stop the bank from escalating the matter to court.</p>
                                 <Link
                                     href="/contact"
@@ -558,7 +558,7 @@ export default function IgnoringLegalNoticesClient() {
 
                             {/* Related Pages (Replaces Author Card) */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Default Defense</Link>
                                     <Link href="/cheque-bounce-case-defense-section-138" className="block text-sm text-blue-600 hover:underline">Section 138 Cheque Bounce Help</Link>

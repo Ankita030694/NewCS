@@ -187,7 +187,7 @@ export default function TelanganaLoanSettlementClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -224,7 +224,7 @@ export default function TelanganaLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Key Insight for Borrowers in Telangana</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Key Insight for Borrowers in Telangana</h3>
                 <p className="text-blue-800 m-0">
                   The state has a strong legal aid network. The Telangana State Legal Services Authority (TSLSA) actively promotes amicable settlements through Lok Adalats. Utilizing these forums is a highly effective way to resolve banking disputes swiftly and legally, ensuring a clear path to financial recovery.
                 </p>
@@ -256,7 +256,7 @@ export default function TelanganaLoanSettlementClient() {
               </p>
               
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8 rounded-r-xl">
-                <h4 className="text-lg font-bold text-gray-900 mb-2">Justice Nagesh Bheemapaka’s Directive (Sep 2025)</h4>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Justice Nagesh Bheemapaka’s Directive (Sep 2025)</h3>
                 <p className="text-gray-700 leading-relaxed">
                   In a significant ruling, the High Court directed banks to "scrupulously adhere" to RBI guidelines. The court explicitly stated that financial institutions cannot use "musclemen" or coercive tactics for recovery. This came after a petition highlighting privacy violations and harassment by agents.
                 </p>
@@ -268,7 +268,7 @@ export default function TelanganaLoanSettlementClient() {
                      [Scale]
                    </div>
                    <div>
-                     <h4 className="text-lg font-bold text-gray-900">Police Cannot Be Recovery Agents (July 2025)</h4>
+                     <h3 className="text-lg font-bold text-gray-900">Police Cannot Be Recovery Agents (July 2025)</h3>
                      <p className="text-gray-600">
                        Justice T. Vinod Kumar ruled that police forces must not intervene in civil financial disputes. If a lender attempts to use police connections to threaten you for repayment, they are violating this direct court order. Police are for law and order, not debt collection.
                      </p>
@@ -279,7 +279,7 @@ export default function TelanganaLoanSettlementClient() {
                      🚫
                    </div>
                    <div>
-                     <h4 className="text-lg font-bold text-gray-900">Zero Tolerance for "Naming and Shaming"</h4>
+                     <h3 className="text-lg font-bold text-gray-900">Zero Tolerance for "Naming and Shaming"</h3>
                      <p className="text-gray-600">
                        The court has reiterated that public humiliation-such as contacting relatives or posting on social media-is strictly prohibited. Any such action by loan apps or agents is grounds for immediate legal action against them.
                      </p>
@@ -338,35 +338,35 @@ export default function TelanganaLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">1</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Comprehensive Case Analysis</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Comprehensive Case Analysis</h3>
                     <p className="text-gray-700">We start by analyzing your financial documents and loan agreements. Once we represent you, we handle all communication with the bank, effectively shielding you from the daily stress of recovery calls.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">2</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Strategic Advisory</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Strategic Advisory</h3>
                     <p className="text-gray-700">Loans generally need to be classified as NPAs for settlement discussions to begin. We guide you through this phase, advising you on handling legal notices and ensuring you remain compliant while we prepare for negotiations.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">3</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Expert Negotiation</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Expert Negotiation</h3>
                     <p className="text-gray-700">Our skilled negotiators engage directly with the bank’s regional or zonal offices in Hyderabad or other major districts. We aim to secure a settlement amount that is realistic for you, potentially saving significantly on the outstanding dues.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">4</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Formal Settlement Agreement</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Formal Settlement Agreement</h3>
                     <p className="text-gray-700">We ensure that the settlement offer is officially documented on the bank’s letterhead. This is non-negotiable. We verify every term and condition to ensure your rights are protected before you make any payment.</p>
                   </div>
                 </div>
                 <div className="flex bg-gray-50 p-4 rounded-lg">
                   <div className="flex-shrink-0 h-10 w-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">5</div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-bold text-gray-900">Closure & No Dues Certificate</h4>
+                    <h3 className="text-lg font-bold text-gray-900">Closure & No Dues Certificate</h3>
                     <p className="text-gray-700">Upon payment, we ensure you receive the "No Dues Certificate" (NDC) or closure letter. Your loan account is formally closed, marking the end of your debt burden.</p>
                   </div>
                 </div>
@@ -446,7 +446,7 @@ export default function TelanganaLoanSettlementClient() {
             <div className="sticky top-24 space-y-6">
               
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Telangana Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Telangana Support</p>
                 <p className="text-sm text-gray-600 mb-6">Specialized legal aid for Telangana residents.</p>
                 <Link 
                   href="/contact"

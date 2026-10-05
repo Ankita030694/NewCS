@@ -188,7 +188,7 @@ export default function JailForLoanClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -229,7 +229,7 @@ export default function JailForLoanClient() {
 
                             {/* Section Type: Myth vs Fact Table */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200 mb-8 overflow-x-auto">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Debunking Collection Myths</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4 text-center">Debunking Collection Myths</p>
                                 <table className="w-full text-left border-collapse min-w-[600px]">
                                     <thead>
                                         <tr className="bg-red-50 text-red-900">
@@ -263,17 +263,17 @@ export default function JailForLoanClient() {
                                 If default is a civil matter, why are so many people terrified of being jailed? The answer lies in the highly sophisticated psychological manipulation and extortion tactics employed by rogue recovery agencies. These agencies operate on commission and know that fear is the most effective tool to extract payments from panicked citizens.
                             </p>
 
-                            <h3 id="fake-fir-copies" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Fake WhatsApp FIR Copies</h3>
+                            <h2 id="fake-fir-copies" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Fake WhatsApp FIR Copies</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 A classic tactic involves sending a PDF document via WhatsApp that closely resembles an official police FIR or a court issued arrest warrant. These documents are entirely fabricated using basic photo editing software. They will prominently feature the national emblem (Ashoka Chakra), a fake police stamp, and intimidating legal jargon citing sections like 420 (Cheating) and 406 (Criminal Breach of Trust). 
                             </p>
                             
                             {/* Section Type: Red Flag Box */}
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-2xl mb-8">
-                                <h4 className="text-xl font-bold text-red-900 mb-3 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-3 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                                     Red Flags of a Forged Legal Document
-                                </h4>
+                                </p>
                                 <ul className="space-y-2 text-red-800 text-sm">
                                     <li><strong>Delivery Method:</strong> Real warrants are served physically by police, never sent as a casual WhatsApp attachment by a private number.</li>
                                     <li><strong>Grammar & Spelling:</strong> Fake notices are often riddled with appalling grammatical errors and typos.</li>
@@ -285,7 +285,7 @@ export default function JailForLoanClient() {
                                 If you receive such a document, you must seek verification. Learning to identify a fake legal notice from bank check is your first line of defense against these scammers.
                             </p>
 
-                            <h3 id="fake-police-calls" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Threatening Calls from "Police Officers"</h3>
+                            <h2 id="fake-police-calls" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Threatening Calls from "Police Officers"</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Another terrifying strategy is the impersonation call. You will receive a call from someone loudly identifying themselves as "Inspector Sharma from the local Cyber Crime Branch" or a similar title. They will use abusive language, claim an FIR has been registered against you by the bank, and threaten to dispatch a patrol car to arrest you in front of your neighbors unless you immediately pay a specified "settlement amount" to the collection agency.
                             </p>
@@ -298,7 +298,7 @@ export default function JailForLoanClient() {
                                 While inability to pay a civil debt cannot lead to arrest, there are two highly specific circumstances where a borrower can face criminal charges. It is vital to differentiate these from a standard personal loan default.
                             </p>
 
-                            <h3 id="section-138-cheque" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Section 138 Cheque Bounce Exception</h3>
+                            <h2 id="section-138-cheque" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Section 138 Cheque Bounce Exception</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you provided blank security cheques to the bank at the time of loan disbursement, the bank might present them for clearing when you default. If the cheque bounces due to insufficient funds, the bank can initiate criminal proceedings under Section 138 of the Negotiable Instruments Act. A cheque bounce is a criminal offense in India, punishable by up to two years in prison.
                             </p>
@@ -306,7 +306,7 @@ export default function JailForLoanClient() {
                                 However, even a Section 138 case does not result in sudden police raids. The court must issue a formal summons, granting you multiple opportunities to appear before a judge, present your defense (such as proving the cheque was taken as security, not for debt discharge), or settle the amount. Arrest warrants are only issued if you continuously ignore the court summons and refuse to appear.
                             </p>
 
-                            <h3 id="fraud-diversion" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Fraud and Willful Diversion of Funds</h3>
+                            <h2 id="fraud-diversion" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Fraud and Willful Diversion of Funds</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The second exception involves actual criminal intent. If the bank can definitively prove that you obtained the loan using forged salary slips, fake identity documents, or by impersonating someone else, they can file an FIR for cheating and forgery (Sections 420, 467, 468 IPC). Similarly, if you take a business loan for machinery but use the funds to buy a personal luxury car (diversion of funds), you can face criminal charges. But simply losing your job and failing to pay an honestly acquired personal loan never qualifies as fraud.
                             </p>
@@ -318,7 +318,7 @@ export default function JailForLoanClient() {
                             
                             {/* Section Type: Evidence Collection List */}
                             <div className="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm mb-8">
-                                <h4 className="text-xl font-bold text-gray-900 mb-6">Extortion Evidence Checklist</h4>
+                                <p className="text-xl font-bold text-gray-900 mb-6">Extortion Evidence Checklist</p>
                                 <p className="text-gray-600 mb-4">Before taking legal action, your lawyer will need you to consolidate the following evidence:</p>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div className="flex items-center p-3 bg-gray-50 rounded-lg border border-gray-100">
@@ -375,7 +375,7 @@ export default function JailForLoanClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Fake Police Threats?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Fake Police Threats?</p>
                                 <p className="text-sm text-gray-600 mb-6">Upload your WhatsApp notices. We will verify them and stop the harassment legally.</p>
                                 <Link
                                     href="/contact"
@@ -392,7 +392,7 @@ export default function JailForLoanClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>

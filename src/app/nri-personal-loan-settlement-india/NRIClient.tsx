@@ -171,7 +171,7 @@ export default function NRIClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -220,10 +220,10 @@ export default function NRIClient() {
 
                             {/* Data Callout Section Type */}
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-200 mb-8 mt-6">
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
                                     MHA Guidelines on Look Out Circulars
-                                </h4>
+                                </p>
                                 <ul className="space-y-4 text-red-800">
                                     <li className="flex justify-between border-b border-red-200 pb-2">
                                         <span className="font-semibold">Issuing Authority:</span>
@@ -243,7 +243,7 @@ export default function NRIClient() {
                                 </p>
                             </div>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Can an NRI be Arrested in India for a Loan?</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">Can an NRI be Arrested in India for a Loan?</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 It is imperative to state clearly: defaulting on an unsecured personal loan or a credit card is fundamentally a civil breach of contract. It is not a criminal offense under the Indian Penal Code. The Indian constitution does not permit debtor's prisons. You cannot be arrested by the police simply because you do not have the financial liquidity to repay a bank. 
                             </p>
@@ -251,7 +251,7 @@ export default function NRIClient() {
                                 The only scenario where criminal liability arises is if the bank can definitively prove fraudulent intent at the very inception of the loan. For example, if you submitted forged salary slips, fake identity documents, or deliberately took a loan with the pre planned intention of absconding abroad without ever making a single payment, the bank could potentially register an FIR for cheating under Section 420. However, if you made EMIs for several months and subsequently faced genuine financial hardship, the courts view this strictly as a civil matter. Therefore, the threat of being handcuffed upon arrival in India for a standard default is a complete fabrication. If you want to know <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="text-blue-600 hover:underline">what is loan settlement and how does it work in India</Link>, the first lesson is distinguishing civil liability from criminal threats.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">The Threat of Passport Impounding at Airports</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">The Threat of Passport Impounding at Airports</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Another frequent tactic is the threat of impounding your passport. Recovery agents will assert that they have notified the passport authorities to revoke your travel document, effectively trapping you in India if you visit. This is legally impossible for a bank to execute unilaterally.
                             </p>
@@ -299,7 +299,7 @@ export default function NRIClient() {
                                 </table>
                             </div>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Cross Border Debt Recovery Reality</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">Cross Border Debt Recovery Reality</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The reality of cross border debt recovery for unsecured retail loans is governed by economics, not just law. If an NRI owes ten lakh rupees to an Indian bank, the bank has the theoretical right to file a civil recovery suit in an Indian court. However, even if they win an ex parte judgment (a judgment issued in the absence of the defendant), enforcing that judgment in the United States, the United Kingdom, or Canada requires initiating a fresh legal process in that foreign jurisdiction under the reciprocal arrangements of the Civil Procedure Code.
                             </p>
@@ -307,7 +307,7 @@ export default function NRIClient() {
                                 Engaging foreign law firms to execute an Indian civil judgment is astronomically expensive and time consuming. For a standard personal loan or credit card debt, the legal fees incurred by the bank to pursue you internationally would vastly exceed the total outstanding amount. Therefore, Indian banks do not pursue cross border litigation for retail debt. Their entire strategy relies on harassing your local contacts in India and threatening you digitally, hoping you surrender to the pressure. Knowing this gives you the power to dictate the terms of any <Link href="/loan-default-recovery-freeze-defense" className="text-blue-600 hover:underline">loan default recovery freeze defense</Link> you might need to mount.
                             </p>
 
-                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">When Interpol is Actually Involved</h3>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">When Interpol is Actually Involved</p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Recovery agents love to throw around the word "Interpol" to maximize panic. They will send forged documents with Interpol logos claiming an international arrest warrant has been issued. Interpol is an international police organization that facilitates worldwide police cooperation. They do not act as debt collectors for private Indian banks.
                             </p>
@@ -322,7 +322,7 @@ export default function NRIClient() {
 
                             {/* Step Checklist Section Type */}
                             <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm mb-8 mt-6">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4">Steps to Execute a Remote Loan Settlement</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4">Steps to Execute a Remote Loan Settlement</p>
                                 <div className="space-y-4">
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">1</div>
@@ -389,7 +389,7 @@ export default function NRIClient() {
                         <div className="space-y-6">
                             {/* CTA Card Widget */}
                             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                                <h4 className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</h4>
+                                <p className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</p>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
                                     Stop paying high interest and start negotiating. We protect your rights.
                                 </p>
@@ -417,7 +417,7 @@ export default function NRIClient() {
 
                             {/* Related Expertise */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-4 border-b border-gray-800 pb-2 inline-block w-full">Related Expertise</p>
                                 <nav className="space-y-4 mt-2">
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>

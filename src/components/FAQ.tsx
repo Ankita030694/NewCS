@@ -105,12 +105,12 @@ const FAQ = ({ items = homeFaqItems }: FAQProps) => {
             <div className="flex flex-col items-center gap-6 md:gap-[35px] w-full max-w-[644px] px-2 md:px-0">
               {/* Text Content */}
               <div className="flex flex-col items-center gap-4 md:gap-[28px] w-full">
-                <h2
+                <h3
                   className="text-center text-[18px] md:text-[21px] lg:text-[28px] leading-[22px] md:leading-[21px] lg:leading-[28px] font-normal w-full px-2 md:px-0"
                   style={{ color: '#0C2756' }}
                 >
                   Ready to End Your Debt Struggle?
-                </h2>
+                </h3>
                 <p
                   className="text-center text-[13px] md:text-[14px] lg:text-[18px] leading-[16px] md:leading-[14px] lg:leading-[18px] font-normal w-full px-2 md:px-0"
                   style={{ color: 'rgba(12, 39, 86, 0.70)' }}

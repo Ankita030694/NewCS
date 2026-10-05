@@ -300,7 +300,7 @@ export default function ConsumerProtectionLawsClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm">
-                            <h3 className="font-bold text-slate-900 mb-4 text-lg border-b border-slate-200 pb-2 cursor-default">In-Depth Guide</h3>
+                            <p className="font-bold text-slate-900 mb-4 text-lg border-b border-slate-200 pb-2 cursor-default">In-Depth Guide</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -344,26 +344,26 @@ export default function ConsumerProtectionLawsClient() {
                             </p>
                             <div className="bg-slate-900 text-white p-10 rounded-[3rem] mb-12 shadow-2xl relative">
                                 <span className="absolute -top-4 -left-4 bg-blue-600 text-white px-6 py-2 rounded-full font-bold text-sm">CRITICAL LAW</span>
-                                <h3 className="text-2xl font-bold mb-6 text-blue-400">Core Rights Under CPA 2019:</h3>
+                                <p className="text-2xl font-bold mb-6 text-blue-400">Core Rights Under CPA 2019:</p>
                                 <ul className="space-y-6">
                                     <li className="flex items-start">
                                         <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-4 mt-1 font-bold shrink-0">1</div>
                                         <div>
-                                            <h4 className="font-bold text-lg mb-1 underline decoration-blue-800">Protection Against Unfair Trade Practices</h4>
+                                            <p className="font-bold text-lg mb-1 underline decoration-blue-800">Protection Against Unfair Trade Practices</p>
                                             <p className="text-slate-300 font-light">Lenders cannot use deceptive or coercive methods to sell loans or collect dues. This includes hidden charges and aggressive collection tactics.</p>
                                         </div>
                                     </li>
                                     <li className="flex items-start">
                                         <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-4 mt-1 font-bold shrink-0">2</div>
                                         <div>
-                                            <h4 className="font-bold text-lg mb-1 underline decoration-blue-800">Right to be Informed</h4>
+                                            <p className="font-bold text-lg mb-1 underline decoration-blue-800">Right to be Informed</p>
                                             <p className="text-slate-300 font-light">You have the right to know the exact breakdown of your debt. Banks must provide clear statements without evasive behavior.</p>
                                         </div>
                                     </li>
                                     <li className="flex items-start">
                                         <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center mr-4 mt-1 font-bold shrink-0">3</div>
                                         <div>
-                                            <h4 className="font-bold text-lg mb-1 underline decoration-blue-800">Right to Seek Redressal</h4>
+                                            <p className="font-bold text-lg mb-1 underline decoration-blue-800">Right to Seek Redressal</p>
                                             <p className="text-slate-300 font-light">If you feel a bank has acted unfairly, you can approach the Consumer Courts. The 2025 updates have streamlined this process for faster resolution.</p>
                                         </div>
                                     </li>
@@ -393,19 +393,19 @@ export default function ConsumerProtectionLawsClient() {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                                 <div className="p-8 bg-white rounded-[2rem] border border-slate-100 shadow-md hover:shadow-xl transition-shadow bg-gradient-to-br from-white to-blue-50">
-                                    <h4 className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">The 8 AM - 7 PM Rule</h4>
+                                    <p className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">The 8 AM - 7 PM Rule</p>
                                     <p className="text-slate-600 font-light leading-relaxed">Agents can ONLY contact you within these hours. Any call at 9 PM or a visit at 7 AM is a breach of RBI rules and can be used as leverage in settlement talks.</p>
                                 </div>
                                 <div className="p-8 bg-white rounded-[2rem] border border-slate-100 shadow-md hover:shadow-xl transition-shadow bg-gradient-to-br from-white to-blue-50">
-                                    <h4 className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">Identity and Authorization</h4>
+                                    <p className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">Identity and Authorization</p>
                                     <p className="text-slate-600 font-light leading-relaxed">An agent must show an ID and an authorization letter. If they refuse, you are encouraged by regulators to stop the conversation and ask them to leave.</p>
                                 </div>
                                 <div className="p-8 bg-white rounded-[2rem] border border-slate-100 shadow-md hover:shadow-xl transition-shadow bg-gradient-to-br from-white to-blue-50">
-                                    <h4 className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">No Muscle Power</h4>
+                                    <p className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">No Muscle Power</p>
                                     <p className="text-slate-600 font-light leading-relaxed">The Supreme Court of India and the RBI have both ruled that banks cannot use "goons or musclemen" for recovery. Only civil interaction is permitted.</p>
                                 </div>
                                 <div className="p-8 bg-white rounded-[2rem] border border-slate-100 shadow-md hover:shadow-xl transition-shadow bg-gradient-to-br from-white to-blue-50">
-                                    <h4 className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">No Family Contact</h4>
+                                    <p className="text-xl font-bold text-slate-900 mb-4 underline decoration-blue-300">No Family Contact</p>
                                     <p className="text-slate-600 font-light leading-relaxed">Searching for your relatives on social media or calling your neighbors is "Social Shaming." This is a major violation and a ground for heavy penalties on the bank.</p>
                                 </div>
                             </div>
@@ -438,7 +438,7 @@ export default function ConsumerProtectionLawsClient() {
                                     <div key={step.step} className="flex gap-6 p-6 bg-slate-50 rounded-3xl border border-slate-100 items-center">
                                         <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-black flex-shrink-0 text-xl shadow-md">{step.step}</div>
                                         <div>
-                                            <h4 className="font-black text-slate-900 mb-1">{step.title}</h4>
+                                            <h3 className="font-black text-slate-900 mb-1">{step.title}</h3>
                                             <p className="text-slate-600 font-light">{step.content}</p>
                                         </div>
                                     </div>
@@ -528,7 +528,7 @@ export default function ConsumerProtectionLawsClient() {
                              <h2 id="case-studies" className="text-3xl md:text-4xl font-black text-slate-900 mb-8 scroll-mt-20">Real-World Case Studies: Law in Action</h2>
                             <div className="space-y-10 mb-16">
                                 <div className="p-10 bg-white rounded-[3rem] border-2 border-slate-50 shadow-lg">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4">Case 1: The 'Workplace Visit' Violation</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4">Case 1: The 'Workplace Visit' Violation</h3>
                                     <p className="text-slate-700 leading-relaxed font-light mb-4">
                                         Amit, a software engineer in Pune, was facing aggressive recovery for a personal loan. One day, two agents visited his office and started shouting in the reception area. Amit, having read the RBI guidelines, didn’t panic. He asked his office security to record the CCTV footage and filed a complaint with the bank’s Nodal Officer and the local police within 2 hours.
                                     </p>
@@ -537,7 +537,7 @@ export default function ConsumerProtectionLawsClient() {
                                     </p>
                                 </div>
                                 <div className="p-10 bg-white rounded-[3rem] border-2 border-slate-50 shadow-lg">
-                                    <h4 className="text-2xl font-black text-blue-900 mb-4">Case 2: The Digital Lending 'Privacy Breach'</h4>
+                                    <h3 className="text-2xl font-black text-blue-900 mb-4">Case 2: The Digital Lending 'Privacy Breach'</h3>
                                     <p className="text-slate-700 leading-relaxed font-light mb-4">
                                         Sunita used a popular lending app that accessed her contacts. When she delayed a payment, the app sent a group message to all her professional contacts. Sunita approached the Cyberspace Cell and the RBI Ombudsman simultaneously.
                                     </p>
@@ -604,7 +604,7 @@ export default function ConsumerProtectionLawsClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-gradient-to-b from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-center text-white">
-                                <h4 className="font-black text-2xl mb-4">Are You Being Harassed?</h4>
+                                <p className="font-black text-2xl mb-4">Are You Being Harassed?</p>
                                 <p className="text-sm text-blue-100 mb-8 font-light leading-relaxed">Stop the calls. Stop the fear. Our legal experts know every RBI rule in the book. Let us handle the bank for you.</p>
                                 <Link
                                     href="/contact"
@@ -621,7 +621,7 @@ export default function ConsumerProtectionLawsClient() {
 
                             {/* Related Pages Component */}
                             <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
-                                <h4 className="font-black text-slate-900 mb-6 border-b border-slate-100 pb-2">Resource Center</h4>
+                                <p className="font-black text-slate-900 mb-6 border-b border-slate-100 pb-2">Resource Center</p>
                                 <nav className="space-y-4">
                                     {[
                                         { href: "/is-loan-settlement-a-good-option-for-borrowers", text: "Is Settlement Right for You?" },

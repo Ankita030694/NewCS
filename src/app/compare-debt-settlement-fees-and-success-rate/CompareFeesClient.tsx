@@ -163,10 +163,10 @@ const CompareFeesClient = () => {
                     
                     <aside className="lg:w-1/4 xl:w-1/5 w-full order-2 lg:order-1">
                         <div className="sticky top-32 bg-white p-8 rounded-[2.5rem] shadow-sm border border-gray-100">
-                            <h3 className="text-lg font-black text-gray-900 mb-6 flex items-center gap-2">
+                            <p className="text-lg font-black text-gray-900 mb-6 flex items-center gap-2">
                                 <div className="w-1.5 h-6 bg-blue-600 rounded-full"></div>
                                 Table of Contents
-                            </h3>
+                            </p>
                             <nav className="space-y-1">
                                 {sections.map((section) => (
                                     <a
@@ -202,17 +202,17 @@ const CompareFeesClient = () => {
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                                 <div className="p-8 bg-blue-50 rounded-3xl border border-blue-100">
-                                    <h4 className="font-bold text-blue-900 mb-4">Total Debt %</h4>
+                                    <p className="font-bold text-blue-900 mb-4">Total Debt %</p>
                                     <p className="text-sm text-blue-800 leading-relaxed mb-4">A flat percentage (e.g., 15%) of your total outstanding debt. Usually paid in monthly installments.</p>
                                     <p className="text-xs italic text-blue-600">Benefit: Predictable costs regardless of waiver size.</p>
                                 </div>
                                 <div className="p-8 bg-indigo-50 rounded-3xl border border-indigo-100">
-                                    <h4 className="font-bold text-indigo-900 mb-4">Success Fee</h4>
+                                    <p className="font-bold text-indigo-900 mb-4">Success Fee</p>
                                     <p className="text-sm text-indigo-800 leading-relaxed mb-4">A percentage (e.g., 30%) of the actual amount saved. Only paid when the settlement letter arrives.</p>
                                     <p className="text-xs italic text-indigo-600">Benefit: Aligns agency interest with your savings.</p>
                                 </div>
                                 <div className="p-8 bg-emerald-50 rounded-3xl border border-emerald-100">
-                                    <h4 className="font-bold text-emerald-900 mb-4">Retainer Model</h4>
+                                    <p className="font-bold text-emerald-900 mb-4">Retainer Model</p>
                                     <p className="text-sm text-emerald-800 leading-relaxed mb-4">A fixed monthly or quarterly fee for legal protection and negotiation services. Common in legal firms.</p>
                                     <p className="text-xs italic text-emerald-600">Benefit: Minimizes conflict of interest for legal advice.</p>
                                 </div>
@@ -240,7 +240,7 @@ const CompareFeesClient = () => {
                                 Market data for 2025 shows that solo negotiators have a settlement closing rate of just <strong>15% to 25%.</strong> Why? Because banks view individuals as "easy targets" for harassment. When a borrower lacks a legal shield, the recovery agent’s job is to pressure them into paying 100%. Professional firms, however, have a closure rate of <strong>70% to 85%</strong>. This is because firms understand the bank’s internal loss thresholds (provisioning) and know exactly when the bank’s budget for "bad debt recovery" is open.
                             </p>
                             <div className="bg-amber-50 p-10 rounded-3xl border border-amber-100 mb-12 flex flex-col items-center text-center">
-                                <h4 className="text-amber-900 font-black text-2xl mb-4 italic">"The Negotiator’s Delta"</h4>
+                                <h3 className="text-amber-900 font-black text-2xl mb-4 italic">"The Negotiator’s Delta"</h3>
                                 <p className="text-amber-800 leading-relaxed max-w-2xl font-light">
                                     The difference between a 30% waiver (amateur) and a 70% waiver (expert) on a 5 Lakh loan is ₹2 Lakh in your pocket. This delta far exceeds the 15% fee charged by professionals. This is why paying for quality negotiation is a profit-positive move for the borrower.
                                 </p>
@@ -268,15 +268,15 @@ const CompareFeesClient = () => {
                             </p>
                             <div className="space-y-6 mb-12">
                                 <div className="p-6 bg-white border-l-4 border-blue-600 shadow-sm rounded-r-2xl">
-                                    <h5 className="font-bold text-gray-900 mb-2">1. Age of Default</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">1. Age of Default</h3>
                                     <p className="text-gray-600 text-sm">Loans that are 6-12 months overdue have the highest success rate (85%). Very fresh defaults (30 days) often fail to get a deep waiver.</p>
                                 </div>
                                 <div className="p-6 bg-white border-l-4 border-indigo-600 shadow-sm rounded-r-2xl">
-                                    <h5 className="font-bold text-gray-900 mb-2">2. Type of Lender</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">2. Type of Lender</h3>
                                     <p className="text-gray-600 text-sm">Fintechs and NBFCs settle fast but for less (30-40% waiver). Public Sector Banks settle slow but deep (60-75% waiver).</p>
                                 </div>
                                 <div className="p-6 bg-white border-l-4 border-emerald-600 shadow-sm rounded-r-2xl">
-                                    <h5 className="font-bold text-gray-900 mb-2">3. Hardship Documentation</h5>
+                                    <h3 className="font-bold text-gray-900 mb-2">3. Hardship Documentation</h3>
                                     <p className="text-gray-600 text-sm">A "Valid Medical Emergency" or "Job Loss Certificate" increases the waiver depth by an average of 15%.</p>
                                 </div>
                             </div>
@@ -348,7 +348,7 @@ const CompareFeesClient = () => {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="p-8 bg-gray-50 rounded-3xl border border-gray-100">
-                                        <h4 className="text-xl font-bold text-gray-900 mb-4">{faq.question}</h4>
+                                        <h3 className="text-xl font-bold text-gray-900 mb-4">{faq.question}</h3>
                                         <p className="text-gray-700 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
@@ -389,7 +389,7 @@ const CompareFeesClient = () => {
                     <aside className="lg:w-1/4 xl:w-1/5 w-full order-3">
                         <div className="sticky top-32 space-y-8">
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Is Settlement Right?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Get a personalized analysis of your debt and credit impact today.</p>
                                 <Link
                                     href="/contact"
@@ -405,10 +405,10 @@ const CompareFeesClient = () => {
                             </div>
 
                             <div className="p-8 bg-white rounded-[2.5rem] shadow-sm border border-gray-100">
-                                <h3 className="text-xl font-black text-gray-900 mb-6 flex items-center gap-2">
+                                <p className="text-xl font-black text-gray-900 mb-6 flex items-center gap-2">
                                     <div className="w-1.5 h-6 bg-blue-600 rounded-full"></div>
                                     Must Read Guides
-                                </h3>
+                                </p>
                                 <ul className="space-y-4">
                                     <li>
                                         <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="group flex items-start gap-4">

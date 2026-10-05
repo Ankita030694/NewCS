@@ -183,7 +183,7 @@ export default function GuarantorLiabilityClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -252,14 +252,14 @@ export default function GuarantorLiabilityClient() {
                             <div className="space-y-6">
                                 {faqs.map((faq, index) => (
                                     <div key={index} className="border-b border-gray-100 pb-4 last:border-0 hover:bg-gray-50 transition-colors p-2 rounded-lg">
-                                        <h3 className="font-bold text-lg text-gray-900 mb-2">{faq.question}</h3>
+                                        <p className="font-bold text-lg text-gray-900 mb-2">{faq.question}</p>
                                         <p className="text-gray-600 leading-relaxed font-light">{faq.answer}</p>
                                     </div>
                                 ))}
                             </div>
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Protect Your Assets</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-4">Protect Your Assets</p>
                                 <p className="text-blue-800 mb-6">Don't let someone else's default ruin your life. Our expert debt defense lawyers can help you challenge bank notices, stop asset attachment, and file a subrogation suit against the primary borrower.</p>
                                 <Link
                                     href="/contact"
@@ -280,7 +280,7 @@ export default function GuarantorLiabilityClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Assets at Risk?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Assets at Risk?</p>
                                 <p className="text-sm text-gray-600 mb-6">Stop bank attachments and recover your money from the defaulter.</p>
                                 <Link
                                     href="/contact"
@@ -297,7 +297,7 @@ export default function GuarantorLiabilityClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-stop-recovery-agent-harassment" className="block text-sm text-blue-600 hover:underline">Stop Agent Harassment</Link>
                                     <Link href="/cheque-bounce-case-defense-section-138" className="block text-sm text-blue-600 hover:underline">Cheque Bounce Defense</Link>

@@ -242,7 +242,7 @@ export default function DoesForeclosureClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Guide Sections</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -467,7 +467,7 @@ export default function DoesForeclosureClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Score Review</h4>
+                <p className="font-bold text-2xl mb-4">Free Score Review</p>
                 <p className="text-blue-100 mb-6 text-sm">Confused about your CIBIL report? Let our experts analyze it for you for free.</p>
                 <Link 
                   href="/contact"
@@ -492,7 +492,7 @@ export default function DoesForeclosureClient() {
               </div>
 
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
-                <h4 className="font-bold text-gray-900 mb-6 text-lg">Quick Links</h4>
+                <p className="font-bold text-gray-900 mb-6 text-lg">Quick Links</p>
                 <ul className="space-y-4">
                   <li>
                     <Link href="/services/credit-score-builder" className="group flex items-start">

@@ -897,9 +897,9 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL DEBT RELIEF
                 </span>
-                <h3 className="text-base sm:text-lg font-bold text-white leading-snug">
+                <p className="text-base sm:text-lg font-bold text-white leading-snug">
                   Harassed for a 5-Year Card Default?
-                </h3>
+                </p>
                 <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal">
                   Settle time-barred debt at up to 90% discount with legal protection and official NDC.
                 </p>
@@ -926,7 +926,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">The CredSettle Assurance</h4>
+              <p className="font-bold text-slate-900 text-xs uppercase tracking-wider">The CredSettle Assurance</p>
               <ul className="space-y-1.5 text-slate-600">
                 <li className="flex items-start gap-1.5">
                   <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
@@ -949,7 +949,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2.5 text-xs">
-              <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Related Legal Guides</h4>
+              <p className="font-bold text-slate-900 text-xs uppercase tracking-wider">Related Legal Guides</p>
               <div className="space-y-2">
                 <Link
                   href="/personal-loan-defaulter-for-10-years"

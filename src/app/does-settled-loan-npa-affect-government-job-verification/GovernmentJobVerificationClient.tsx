@@ -204,7 +204,7 @@ export default function GovernmentJobVerificationClient() {
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -243,7 +243,7 @@ export default function GovernmentJobVerificationClient() {
                             </p>
                             
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8">
-                                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Myth vs Fact: Loan Defaults and Government Jobs</h3>
+                                <p className="text-xl font-bold text-gray-900 mb-4 text-center">Myth vs Fact: Loan Defaults and Government Jobs</p>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
                                     <div className="p-4 bg-white rounded-xl shadow-sm border border-red-200">
                                         <strong className="text-red-700 block mb-2">Myth:</strong> 
@@ -325,10 +325,10 @@ export default function GovernmentJobVerificationClient() {
                                 <h3 className="text-xl font-bold text-gray-900 mb-6">Background Check Red Flags Matrix</h3>
                                 
                                 <div className="mb-6">
-                                    <h4 className="text-lg font-bold text-red-700 mb-3 flex items-center">
+                                    <h3 className="text-lg font-bold text-red-700 mb-3 flex items-center">
                                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" /></svg>
                                         Severe Red Flags (Will Fail Verification)
-                                    </h4>
+                                    </h3>
                                     <ul className="list-disc pl-6 space-y-2 text-gray-700">
                                         <li>An active FIR registered against you in any police station across India.</li>
                                         <li>A pending criminal trial in a district or high court.</li>
@@ -339,10 +339,10 @@ export default function GovernmentJobVerificationClient() {
                                 </div>
                                 
                                 <div>
-                                    <h4 className="text-lg font-bold text-green-700 mb-3 flex items-center">
+                                    <h3 className="text-lg font-bold text-green-700 mb-3 flex items-center">
                                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                                         Irrelevant Factors (Will NOT Affect Verification)
-                                    </h4>
+                                    </h3>
                                     <ul className="list-disc pl-6 space-y-2 text-gray-700">
                                         <li>Having a low CIBIL score (except for PSU banking jobs).</li>
                                         <li>Receiving legal demand notices from bank advocates for unpaid credit cards.</li>
@@ -431,7 +431,7 @@ export default function GovernmentJobVerificationClient() {
                         <div className="space-y-6">
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Legal Shield</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Legal Shield</p>
                                 <p className="text-sm text-gray-600 mb-6">Protect your career from illegal recovery threats and fake FIR claims.</p>
                                 <Link
                                     href="/contact"
@@ -448,7 +448,7 @@ export default function GovernmentJobVerificationClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Articles</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-is-the-success-rate-of-debt-settlement-programs" className="block text-sm text-blue-600 hover:underline">Debt Settlement Success</Link>
                                     <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="block text-sm text-blue-600 hover:underline">Is Settlement Good?</Link>

@@ -255,7 +255,7 @@ export default function LawyerClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Defense Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Legal Defense Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -312,12 +312,12 @@ export default function LawyerClient() {
                             
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     The Criminal Implication
-                                </h4>
+                                </p>
                                 <p className="text-red-800 font-normal m-0 text-sm">
                                     Unlike a civil dispute, a cheque bounce is a criminal offense in India. If you fail to respond appropriately within the 15 day window, the bank can file a criminal complaint. This can lead to court summons and, if ignored, non bailable warrants for your arrest. This is not a situation where you can afford amateur advice.
                                 </p>
@@ -343,22 +343,22 @@ export default function LawyerClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Limitation 1</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">No Courtroom Authority</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">No Courtroom Authority</p>
                                     <p className="text-sm text-gray-600 m-0">Standard agencies cannot represent you in court. If a civil suit is filed, they cannot file a vakalatnama (power of attorney) to stand before the judge and defend you.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Limitation 2</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Inability to Reply to Legal Notices</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Inability to Reply to Legal Notices</p>
                                     <p className="text-sm text-gray-600 m-0">Drafting a response to a legal notice requires a deep understanding of statutory law. Agencies lack the qualified personnel to draft replies that will hold up under judicial scrutiny.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Limitation 3</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Panic and Abandonment</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Panic and Abandonment</p>
                                     <p className="text-sm text-gray-600 m-0">When criminal threats like Section 138 emerge, many unlicensed agencies simply stop answering the borrower's calls, leaving them defenseless.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-red-200 transition-colors">
                                     <span className="text-red-600 font-bold mb-2 block text-xs uppercase tracking-wider">Limitation 4</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Poor Document Scrutiny</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Poor Document Scrutiny</p>
                                     <p className="text-sm text-gray-600 m-0">Agencies often miss critical loopholes in settlement letters, allowing banks to retain the right to pursue residual interest at a later date.</p>
                                 </div>
                             </div>
@@ -412,14 +412,14 @@ export default function LawyerClient() {
                             </p>
                             
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <h4 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Advocate's Checklist for a Watertight Letter</h4>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Advocate's Checklist for a Watertight Letter</h3>
                                 <ul className="space-y-4">
                                     <li className="flex items-start">
                                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
                                             <span className="font-bold text-blue-600 text-sm">1</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Full and Final Settlement Clause</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Full and Final Settlement Clause</h3>
                                             <p className="text-sm text-gray-600 m-0">The letter must explicitly state that the agreed amount is in 'full and final settlement' of the specific loan account number, leaving zero room for future claims.</p>
                                         </div>
                                     </li>
@@ -428,7 +428,7 @@ export default function LawyerClient() {
                                             <span className="font-bold text-blue-600 text-sm">2</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Withdrawal of Legal Cases</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Withdrawal of Legal Cases</h3>
                                             <p className="text-sm text-gray-600 m-0">If the bank has already initiated a Section 138 or civil suit, the letter must contain a mandatory clause requiring the bank to formally withdraw these cases upon receipt of payment.</p>
                                         </div>
                                     </li>
@@ -437,7 +437,7 @@ export default function LawyerClient() {
                                             <span className="font-bold text-blue-600 text-sm">3</span>
                                         </div>
                                         <div>
-                                            <h5 className="font-bold text-gray-900 mt-0">Return of Security Documents</h5>
+                                            <h3 className="font-bold text-gray-900 mt-0">Return of Security Documents</h3>
                                             <p className="text-sm text-gray-600 m-0">The settlement must mandate the return of all original documents and unused security cheques within a specified timeframe.</p>
                                         </div>
                                     </li>
@@ -518,7 +518,7 @@ export default function LawyerClient() {
                         <div className="sticky top-24 self-start space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-5 leading-relaxed px-1">
                                     We can send an immediate Legal Notice to stop bank agents from visiting your house today.
                                 </p>
@@ -538,7 +538,7 @@ export default function LawyerClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-5">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/services/personal-loan-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">

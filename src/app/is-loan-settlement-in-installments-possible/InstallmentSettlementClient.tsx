@@ -227,7 +227,7 @@ export default function InstallmentSettlementClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl shadow-blue-900/5">
-                            <h3 className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">Installment Guide</h3>
+                            <p className="font-extrabold text-blue-900 mb-6 text-xl border-b border-blue-50 pb-3">Installment Guide</p>
                             <nav className="space-y-2 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -274,7 +274,7 @@ export default function InstallmentSettlementClient() {
                                 A Structured Settlement is a contractual agreement that bridges the gap between a bank\'s desire for recovery and a borrower's limited liquidity. Unlike a standard OTS where you pay within 7-15 days, an SSA creates a <strong>Payment Schedule</strong>.
                             </p>
                             <div className="bg-blue-50 p-10 rounded-[2.5rem] border-2 border-blue-100 mb-10 shadow-inner">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-6">Core Components of an SSA:</h3>
+                                <p className="text-2xl font-bold text-blue-900 mb-6">Core Components of an SSA:</p>
                                 <ul className="space-y-6 text-gray-800 text-lg">
                                     <li><strong>1. The Haircut:</strong> The specific percentage of waiver the bank is granting (e.g., 50% waiver).</li>
                                     <li><strong>2. The Down Payment:</strong> Usually, banks demand 20-30% of the settled amount as a "Commitment Fee" upfront.</li>
@@ -350,21 +350,21 @@ export default function InstallmentSettlementClient() {
                                 <div className="flex gap-6 items-start">
                                     <div className="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-3xl flex-shrink-0 shadow-lg">1</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold mb-4">Hardship Disclosure</h4>
+                                        <p className="text-2xl font-bold mb-4">Hardship Disclosure</p>
                                         <p className="text-gray-600 text-lg leading-relaxed">Submit your "Cash-Flow Statement." Explain that while you have intent to pay, you lack "Lump Sum Liquidity." Attach your bank statement showing no major inflows.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 items-start">
                                     <div className="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-3xl flex-shrink-0 shadow-lg">2</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold mb-4">The "Structured Offer"</h4>
+                                        <h3 className="text-2xl font-bold mb-4">The "Structured Offer"</h3>
                                         <p className="text-gray-600 text-lg leading-relaxed">Instead of asking "Can I pay in parts?", propose a specific plan: "I will pay 30% on June 1st, 35% on July 1st, and 35% on August 1st." Specificity builds trust.</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6 items-start">
                                     <div className="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center font-black text-3xl flex-shrink-0 shadow-lg">3</div>
                                     <div>
-                                        <h4 className="text-2xl font-bold mb-4">Letter Verification</h4>
+                                        <h3 className="text-2xl font-bold mb-4">Letter Verification</h3>
                                         <p className="text-gray-600 text-lg leading-relaxed">Ensure the Settlement Letter mentions the <strong>exact dates</strong>. If the letter says "Lump sum due by July 1st" but you are paying in 3 parts, the bank can technically treat your July 1st partial payment as a default.</p>
                                     </div>
                                 </div>
@@ -397,7 +397,7 @@ export default function InstallmentSettlementClient() {
                                 Negotiation Scripts: Pivot to Installments
                             </h2>
                             <div className="bg-gray-100 p-10 rounded-[2.5rem] mb-10 shadow-lg border border-gray-200">
-                                <h4 className="text-2xl font-bold mb-6 text-blue-900">What to say to the Branch Manager:</h4>
+                                <h3 className="text-2xl font-bold mb-6 text-blue-900">What to say to the Branch Manager:</h3>
                                 <p className="text-gray-700 italic border-l-4 border-blue-600 pl-6 mb-8 text-lg">
                                     "I understand the bank prefers a One-Time payment. While I want to honor the commitment, my current medical obligations make an immediate lump-sum impossible. However, I can commit to a 3-part structured plan. I can give you the first 30% today as a gesture of good faith, followed by two installments. I am willing to provide Post-Dated Cheques as a guarantee of this timeline."
                                 </p>
@@ -425,7 +425,7 @@ export default function InstallmentSettlementClient() {
                             <div className="space-y-8 mb-10">
                                 <div className="p-10 bg-blue-50/50 rounded-[2.5rem] border border-blue-100 shadow-sm relative">
                                     <div className="absolute top-0 right-0 p-4 bg-blue-600 font-bold text-white rounded-bl-3xl">SUCCESS</div>
-                                    <h4 className="text-2xl font-bold text-blue-900 mb-4">Case 1: The Small Business Owner</h4>
+                                    <h3 className="text-2xl font-bold text-blue-900 mb-4">Case 1: The Small Business Owner</h3>
                                     <p className="text-gray-700 italic border-l-4 border-blue-600 pl-6 text-lg">
                                         "Amit had a 10 Lakh Loan. Bank wanted 8 Lakhs upfront. He showed his business loss statements and negotiated a 4.5 Lakh settlement paid over 3 months (1.5L x 3). Total savings: 5.5 Lakhs. He stayed disciplined and got his NDC 15 days after the final check cleared."
                                     </p>
@@ -475,7 +475,7 @@ export default function InstallmentSettlementClient() {
                                 Many borrowers are surprised to find that a large debt waiver (the "haircut") can sometimes be treated as taxable income under the Income Tax Act.
                             </p>
                             <div className="bg-blue-50 p-10 rounded-[2.5rem] border-2 border-blue-100 mb-10">
-                                <h4 className="text-2xl font-bold text-blue-900 mb-4">Section 194R Nuances:</h4>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">Section 194R Nuances:</h3>
                                 <p className="text-gray-700 text-lg leading-relaxed">
                                     Under recent amendments, if a business loan or a professional loan is settled, the waiver amount might trigger TDS (Tax Deducted at Source) under Section 194R if the benefit exceeds ₹20,000. For personal loans and credit cards, the tax impact is generally lower, but it is vital to check if the bank issues a Form 16A for the "Benefit" they provided you. Always ask your bank: "Will this settlement amount be reported as taxable income?"
                                 </p>
@@ -501,32 +501,32 @@ export default function InstallmentSettlementClient() {
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">01</div>
-                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Intent Filing</h5>
+                                    <h3 className="font-bold text-lg mb-2 text-blue-600">Intent Filing</h3>
                                     <p className="text-sm text-gray-500">Official email to the bank nodal officer expressing desire for compromise.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">02</div>
-                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Evidence Submission</h5>
+                                    <h3 className="font-bold text-lg mb-2 text-blue-600">Evidence Submission</h3>
                                     <p className="text-sm text-gray-500">Submitting hospital records, pink slips, or business loss audits.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">03</div>
-                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Counter-Offer</h5>
+                                    <h3 className="font-bold text-lg mb-2 text-blue-600">Counter-Offer</h3>
                                     <p className="text-sm text-gray-500">Rejecting the first bank offer of 90% and pushing for a 50% installment plan.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">04</div>
-                                    <h5 className="font-bold text-lg mb-2 text-blue-600">Structure Proofing</h5>
+                                    <h3 className="font-bold text-lg mb-2 text-blue-600">Structure Proofing</h3>
                                     <p className="text-sm text-gray-500">Ensuring the settlement letter has a specific 'Pay-by-Date' table.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">05</div>
-                                    <h5 className="font-bold text-lg mb-2 text-blue-600">PDC Deposition</h5>
+                                    <h3 className="font-bold text-lg mb-2 text-blue-600">PDC Deposition</h3>
                                     <p className="text-sm text-gray-500">Handing over guarantees only after the letter is verified as authentic.</p>
                                 </div>
                                 <div className="p-8 bg-white border border-gray-100 shadow-lg rounded-3xl">
                                     <div className="text-blue-600 font-black text-4xl mb-4">06</div>
-                                    <h5 className="font-bold text-lg mb-2 text-blue-600">NDC Harvest</h5>
+                                    <h3 className="font-bold text-lg mb-2 text-blue-600">NDC Harvest</h3>
                                     <p className="text-sm text-gray-500">Collecting the final closure documents 15 days after the last check clears.</p>
                                 </div>
                             </div>
@@ -584,7 +584,7 @@ export default function InstallmentSettlementClient() {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                                     </svg>
                                 </div>
-                                <h4 className="font-black text-2xl mb-3 uppercase tracking-tighter">Installment Eligibility</h4>
+                                <p className="font-black text-2xl mb-3 uppercase tracking-tighter">Installment Eligibility</p>
                                 <p className="text-sm text-blue-100 mb-8 leading-relaxed opacity-80 font-light">See if your bank allows 3 to 12 month structured plans based on your current loan active days.</p>
                                 <Link
                                     href="/contact"
@@ -596,7 +596,7 @@ export default function InstallmentSettlementClient() {
 
                             {/* Expert Reads */}
                             <div className="bg-white p-8 rounded-[2.5rem] border border-gray-100 shadow-xl shadow-blue-900/5">
-                                <h4 className="font-extrabold text-blue-900 mb-6 border-b border-blue-50 pb-3 text-lg leading-tight uppercase tracking-tight">Structured Reads</h4>
+                                <p className="font-extrabold text-blue-900 mb-6 border-b border-blue-50 pb-3 text-lg leading-tight uppercase tracking-tight">Structured Reads</p>
                                 <nav className="space-y-4 text-sm font-black">
                                     <Link href="/loan-settlement-process-in-hindi" className="group flex items-center text-gray-600 hover:text-blue-600 transition-colors">
                                         <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span> हिंदी गाइड (Hindi)

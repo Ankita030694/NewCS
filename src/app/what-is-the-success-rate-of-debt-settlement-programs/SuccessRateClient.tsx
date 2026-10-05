@@ -200,7 +200,7 @@ export default function SuccessRateClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-6 text-lg border-b pb-3">Table of Contents</p>
                 <nav className="space-y-3 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -287,7 +287,7 @@ export default function SuccessRateClient() {
                   Success in debt settlement is not an overnight event. It is a marathon that typically takes between 24 and 48 months. To get a true sense of the <strong>success rate of debt settlement programs</strong>, we must look at what happens at different milestones.
                 </p>
                 <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-500 my-6">
-                  <h4 className="font-bold text-blue-900 mb-4">The 36-Month Success Snapshot:</h4>
+                  <h3 className="font-bold text-blue-900 mb-4">The 36-Month Success Snapshot:</h3>
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <span className="font-bold text-blue-700 mr-2">74%</span> of participants settle at least one account within 36 months.
@@ -576,7 +576,7 @@ export default function SuccessRateClient() {
             <div className="sticky top-24 space-y-8">
               
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
-                <h4 className="font-bold text-2xl mb-4">Free Success Audit</h4>
+                <p className="font-bold text-2xl mb-4">Free Success Audit</p>
                 <p className="text-blue-100 mb-6 text-sm">Wondering if your debt can be settled? Get a free professional evaluation of your success odds today.</p>
                 <Link 
                   href="/contact"

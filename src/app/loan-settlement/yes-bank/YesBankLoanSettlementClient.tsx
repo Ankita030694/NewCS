@@ -196,7 +196,7 @@ export default function YesBankLoanSettlementClient() {
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -235,7 +235,7 @@ export default function YesBankLoanSettlementClient() {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Did You Know?</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
                 <p className="text-blue-800 m-0">
                   Yes Bank, like all commercial banks in India, has specific provisions for One Time Settlement (OTS) for stressed assets. This is not a "favor" but a standard banking practice to clean up balance sheets and recover stuck capital.
                 </p>
@@ -265,37 +265,37 @@ export default function YesBankLoanSettlementClient() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="bg-blue-100 text-blue-600 w-6 h-6 rounded-full flex items-center justify-center text-xs mr-2">1</span>
                     Unsecured Loans Only
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">
                     Settlement is primarily for <strong>unsecured debts</strong> like personal loans, credit cards, and unsecured business loans. Secured loans (home/car loans) are backed by collateral, so the bank prefers to seize the asset rather than settle.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="bg-blue-100 text-blue-600 w-6 h-6 rounded-full flex items-center justify-center text-xs mr-2">2</span>
                     Job Loss or Income Cut
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">
                     If you have lost your job or faced a significant salary reduction, you become a prime candidate. You will need to provide termination letters or salary slips as proof.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="bg-blue-100 text-blue-600 w-6 h-6 rounded-full flex items-center justify-center text-xs mr-2">3</span>
                     Medical Emergency
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">
                     Severe illness or medical emergencies in the family that have drained your savings are valid grounds for seeking a settlement. Medical reports will be required.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
-                  <h4 className="font-bold text-gray-900 mb-2 flex items-center">
+                  <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                     <span className="bg-blue-100 text-blue-600 w-6 h-6 rounded-full flex items-center justify-center text-xs mr-2">4</span>
                     Business Failure
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm">
                     For self employed individuals, proof of business closure or severe loss (GST returns, bank statements) can demonstrate inability to repay.
                   </p>
@@ -312,35 +312,35 @@ export default function YesBankLoanSettlementClient() {
               <div className="relative border-l-4 border-blue-200 ml-4 pl-8 space-y-10 mb-12">
                 <div className="relative">
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">1</span>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Enrollment & Analysis</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Enrollment & Analysis</h3>
                   <p className="text-gray-600">
                     We start by analyzing your <strong>Credit Report</strong> and loan documents. We calculate your <strong>Debt to Income Ratio</strong> and identify the "settlement window" - the ideal time to approach the bank for maximum discount.
                   </p>
                 </div>
                 <div className="relative">
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">2</span>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Handling Harassment</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Handling Harassment</h3>
                   <p className="text-gray-600">
                     Once you authorize us, we notify Yes Bank and their agencies that we are representing you. We demand that all future communication be routed through us. This acts as a shield, stopping the abusive calls and visits.
                   </p>
                 </div>
                 <div className="relative">
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">3</span>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Proposal & Negotiation</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Proposal & Negotiation</h3>
                   <p className="text-gray-600">
                     We draft a formal settlement proposal highlighting your financial hardship with evidence. We submit this to the bank’s central settlement team. We then engage in multiple rounds of negotiation to bring down the settlement figure.
                   </p>
                 </div>
                 <div className="relative">
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">4</span>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Verification & Payment</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Verification & Payment</h3>
                   <p className="text-gray-600">
                     Once a deal is struck, Yes Bank issues a settlement letter. We verify this letter for authenticity and terms using our legal expertise. Only after verification do you make the payment directly to your loan account.
                   </p>
                 </div>
                 <div className="relative">
                   <span className="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">5</span>
-                  <h4 className="font-bold text-xl text-gray-900 mb-2">Closure Certificate</h4>
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Closure Certificate</h3>
                   <p className="text-gray-600">
                     Post payment, we follow up to ensure your loan status is updated in the bank’s records and CIBIL. We obtain the "No Dues Certificate" for your permanent record.
                   </p>
@@ -410,7 +410,7 @@ export default function YesBankLoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 bg-yellow-50 rounded-lg border border-yellow-100">
-                    <h5 className="font-bold text-gray-900 mb-2">For Salaried</h5>
+                    <h3 className="font-bold text-gray-900 mb-2">For Salaried</h3>
                     <ul className="list-disc pl-4 text-sm text-gray-700 space-y-1">
                       <li>KYC (PAN, Aadhar)</li>
                       <li>Last 3 months salary slips (showing no/low salary)</li>
@@ -419,7 +419,7 @@ export default function YesBankLoanSettlementClient() {
                     </ul>
                   </div>
                   <div className="p-4 bg-green-50 rounded-lg border border-green-100">
-                    <h5 className="font-bold text-gray-900 mb-2">For Self Employed</h5>
+                    <h3 className="font-bold text-gray-900 mb-2">For Self Employed</h3>
                     <ul className="list-disc pl-4 text-sm text-gray-700 space-y-1">
                       <li>KYC (PAN, Aadhar)</li>
                       <li>GST Cancelation proof (if business closed)</li>
@@ -457,19 +457,19 @@ export default function YesBankLoanSettlementClient() {
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1">HumanShield Protection</h5>
+                    <h3 className="font-bold text-gray-900 mb-1">HumanShield Protection</h3>
                     <p className="text-sm text-gray-600">We take over your calls. You don’t have to talk to rude agents ever again.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1">Ex-Banker Negotiators</h5>
+                    <h3 className="font-bold text-gray-900 mb-1">Ex-Banker Negotiators</h3>
                     <p className="text-sm text-gray-600">Our team includes former bank managers who know exactly how OTS approvals work.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1">Legal Oversight</h5>
+                    <h3 className="font-bold text-gray-900 mb-1">Legal Oversight</h3>
                     <p className="text-sm text-gray-600">Every document is vetted by lawyers to ensure you don’t sign anything risky.</p>
                   </div>
                   <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                    <h5 className="font-bold text-gray-900 mb-1">Success Fee Model</h5>
+                    <h3 className="font-bold text-gray-900 mb-1">Success Fee Model</h3>
                     <p className="text-sm text-gray-600">You pay us a fee only on the Savings we generate for you. We win when you win.</p>
                   </div>
                 </div>
@@ -514,7 +514,7 @@ export default function YesBankLoanSettlementClient() {
               
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center transform transition hover:-translate-y-1">
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Debt Free in 2026?</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Debt Free in 2026?</p>
                 <p className="text-sm text-gray-600 mb-6">Let’s check your eligibility for a 50% waiver today.</p>
                 <Link 
                   href="/contact"

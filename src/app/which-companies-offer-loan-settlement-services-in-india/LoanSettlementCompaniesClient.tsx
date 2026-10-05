@@ -295,7 +295,7 @@ export default function LoanSettlementCompaniesClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Resource Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Resource Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -354,7 +354,7 @@ export default function LoanSettlementCompaniesClient() {
                                 The Indian debt relief market is diverse, ranging from tech-first apps to high-end law firms. Here is our detailed review of the top 10 companies offering loan settlement services in 2025.
                             </p>
 
-                            <h3 id="ama-legal" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">1. AMA Legal Solutions (The Legal Powerhouse)</h3>
+                            <h2 id="ama-legal" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">1. AMA Legal Solutions (The Legal Powerhouse)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 AMA Legal Solutions is widely regarded as one of the most prestigious and effective debt resolution firms in India. Unlike standard collection agencies, AMA operates as a full-service law firm. This gives them a significant advantage: they can represent you in court, handle SARFAESI cases, and defend you against criminal complaints under Section 138 of the Negotiable Instruments Act.
                             </p>
@@ -364,7 +364,7 @@ export default function LoanSettlementCompaniesClient() {
                                 <br />**Fee Structure:** They typically charge a retainer fee up front and a success-based commission upon final settlement.
                             </p>
 
-                            <h3 id="freed-care" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">2. FREED (Freedcare) - India’s First Debt Relief App</h3>
+                            <h2 id="freed-care" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">2. FREED (Freedcare) - India’s First Debt Relief App</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 FREED was a pioneer in bringing technology to the debt relief space. Their model is based on "Debt Consolidation and Settlement Through Savings." You contribute a specific amount into a "Special Purpose Account" every month. Once the account has enough funds, FREED uses that money to negotiate and settle your debts one by one.
                             </p>
@@ -374,7 +374,7 @@ export default function LoanSettlementCompaniesClient() {
                                 <br />**Fee Structure:** A combination of registration fees and a percentage of the debt resolved.
                             </p>
 
-                            <h3 id="settlemyloan" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">3. SettleMyLoan (Wide Network Coverage)</h3>
+                            <h2 id="settlemyloan" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">3. SettleMyLoan (Wide Network Coverage)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 SettleMyLoan has built a massive network across India, making them particularly effective for borrowers in Tier 2 and Tier 3 cities. They offer a range of services, including One-Time Settlements (OTS) and Term Settlements. They are known for their aggressive anti-harassment tactics, which provide immediate relief to distressed borrowers.
                             </p>
@@ -384,7 +384,7 @@ export default function LoanSettlementCompaniesClient() {
                                 <br />**Fee Structure:** Success-based fees with moderate upfront registration costs.
                             </p>
 
-                            <h3 id="credsettle" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">4. CredSettle (Expert-Led Mediation)</h3>
+                            <h2 id="credsettle" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">4. CredSettle (Expert-Led Mediation)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 CredSettle prides itself on being an expert-led mediation firm. Our founders and consultants come from deep banking and legal backgrounds, which allows us to "speak the language of the bank." We focus on data-backed negotiations, proving the borrower’s hardship with audited clarity. We also place a heavy emphasis on "Credit Score Education," helping our clients understand the long-term impact of their choices.
                             </p>
@@ -394,7 +394,7 @@ export default function LoanSettlementCompaniesClient() {
                                 <br />**Fee Structure:** Transparent, success-linked fees with zero hidden charges.
                             </p>
 
-                            <h3 id="debt-relief-india" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">5. Debt Relief India (Nationwide Coverage)</h3>
+                            <h2 id="debt-relief-india" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-14">5. Debt Relief India (Nationwide Coverage)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6 font-light">
                                 Debt Relief India offers a comprehensive legal process adhering to RBI guidelines. They claim to help reduce debt by up to 50-95% in extreme cases. Their service includes a dedicated legal helpline that you can forward your recovery calls to, which is a major relief for many.
                             </p>
@@ -543,7 +543,7 @@ export default function LoanSettlementCompaniesClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-purple-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Compare & Save</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Compare & Save</p>
                                 <p className="text-sm text-gray-600 mb-6">Analyze the top companies for your specific debt amount and bank profile.</p>
                                 <Link
                                     href="/contact"
@@ -560,7 +560,7 @@ export default function LoanSettlementCompaniesClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Top Debt Resouces</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Top Debt Resouces</p>
                                 <nav className="space-y-3">
                                     <Link href="/how-to-choose-a-trustworthy-debt-settlement-provider" className="block text-sm text-blue-600 hover:underline">Trustworthy Providers</Link>
                                     <Link href="/compare-debt-settlement-fees-and-success-rate" className="block text-sm text-blue-600 hover:underline">Fee Comparison Guide</Link>

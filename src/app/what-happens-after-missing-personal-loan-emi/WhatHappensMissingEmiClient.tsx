@@ -223,7 +223,7 @@ export default function WhatHappensMissingEmiClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Survival Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Survival Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -277,11 +277,11 @@ export default function WhatHappensMissingEmiClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Many borrowers mistakenly believe that banks offer a grace period for the first offense. This is a dangerous misconception. The question of What happens after 1 missed EMI? has a very specific and immediate answer. The repercussions begin on the exact day your mandate fails or your cheque bounces. The financial machinery of the lender activates instantly, prioritizing rapid recovery over customer relations.
                             </p>
-                            <h3 id="bounce-charges" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Immediate Bounce Charges</h3>
+                            <h2 id="bounce-charges" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Immediate Bounce Charges</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The very first consequence is the imposition of bounce charges. When your bank account lacks sufficient funds to honor the Electronic Clearing Service mandate or the National Automated Clearing House instruction, your own bank will levy an inward return charge. Simultaneously, your lender will levy an outward return charge. These fees typically range from five hundred to one thousand rupees per instance, plus applicable Goods and Services Tax. For a borrower already struggling with cash flow, this immediate deduction exacerbates the liquidity crisis. You are penalized twice for a single failure of funds.
                             </p>
-                            <h3 id="communication-phase" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">The Communication Phase</h3>
+                            <h2 id="communication-phase" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">The Communication Phase</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Within forty eight hours of the missed payment, the communication phase initiates. You will receive automated text messages and emails reminding you of the overdue amount. These initial communications are usually polite but firm, urging immediate payment to avoid further complications. If the payment is not made within a week, the situation escalates. Your file is transferred from the automated system to the early bucket collections department. You will begin receiving phone calls from telecallers. Their primary objective is to secure a promise to pay. They are trained to apply psychological pressure, highlighting the accumulating fees and the potential damage to your credit score. They will demand to know the exact date and time the payment will be realized.
                             </p>
@@ -316,11 +316,11 @@ export default function WhatHappensMissingEmiClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The deployment of field recovery agents marks a significant escalation. These agents conduct physical visits to your registered residential and official addresses. Their purpose is to assert pressure and compel payment through sheer persistence. While they are bound by regulatory guidelines prohibiting abuse and intimidation, the very presence of recovery agents at your doorstep or workplace causes immense distress and reputational damage. The fear of public humiliation frequently drives borrowers to make irrational financial decisions, such as liquidating essential assets or borrowing from unregulated, predatory lenders.
                             </p>
-                            <h3 id="legal-escalation" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Formal Legal Escalation</h3>
+                            <h2 id="legal-escalation" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Formal Legal Escalation</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Concurrently, the legal machinery is set in motion. The bank will issue a formal legal notice, typically a demand notice, requiring the borrower to clear the entire outstanding dues, including principal, interest, and all accumulated penalties, within a stipulated timeframe usually seven to fourteen days. This notice serves as the precursor to formal litigation. If the borrower had provided security cheques at the time of loan disbursement, the bank will present these cheques for clearance. When they inevitably bounce due to insufficient funds, the bank gains a powerful legal weapon. They can initiate criminal proceedings under Section 138 of the Negotiable Instruments Act or Section 25 of the Payment and Settlement Systems Act. A conviction under these sections carries severe penalties, including hefty fines and the distinct possibility of imprisonment. The civil dispute of an unpaid loan is thus transformed into a serious criminal liability.
                             </p>
-                            <h3 id="credit-score-damage" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Catastrophic Credit Damage</h3>
+                            <h2 id="credit-score-damage" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Catastrophic Credit Damage</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Throughout this period, the damage to the credit score becomes catastrophic and permanent. The continuous reporting of severe delinquency ensures that the CIBIL score plummets into the lowest percentiles. A borrower with an NPA status and a drastically reduced credit score is effectively blacklisted from the formal financial system. They will be denied credit cards, auto loans, mortgages, and even basic overdraft facilities for years to come. Rebuilding this shattered credit profile requires immense time, discipline, and financial stability, long after the original dispute is resolved. The long term missed EMI consequences represent a comprehensive systemic exclusion.
                             </p>
@@ -360,11 +360,11 @@ export default function WhatHappensMissingEmiClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 First, you must establish a clear, documented communication channel with your lender. Never rely solely on verbal discussions with telecallers. Submit a formal hardship letter to the branch manager and the grievance redressal cell. Detail the exact reasons for your inability to pay, whether it is job loss, medical emergencies, or business failure. Attach supporting documents. This written record proves your intent to resolve the matter and counters any claims that you are a willful defaulter avoiding contact.
                             </p>
-                            <h3 id="handling-harassment" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Handling Recovery Agent Harassment</h3>
+                            <h2 id="handling-harassment" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Handling Recovery Agent Harassment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you are subjected to abusive language, threats, or untimely visits by recovery agents, you must take immediate action. The Reserve Bank explicitly prohibits such conduct. Document every instance of harassment. Record phone calls, save threatening messages, and note the names and agency details of field agents. File a formal complaint with the bank nodal officer. If the bank fails to act within thirty days, escalate the complaint to the RBI Integrated Ombudsman. A well documented harassment complaint can force the bank to recall the aggressive agents and adopt a more conciliatory approach.
                             </p>
-                            <h3 id="restructuring-settlement" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Restructuring vs. Settlement</h3>
+                            <h2 id="restructuring-settlement" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24">Restructuring vs. Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When full repayment is impossible, exploring loan restructuring or settlement is the next logical step. Restructuring involves requesting the bank to extend the loan tenure, thereby reducing the monthly EMI to a manageable level. This requires demonstrating that your income has reduced but not completely stopped. If your income has collapsed entirely, a One Time Settlement is the definitive solution. In a settlement, the bank agrees to accept a lump sum payment that is significantly less than the total outstanding dues, writing off the remainder as a loss. Negotiating a settlement requires skill, patience, and a deep understanding of banking policies.
                             </p>
@@ -380,7 +380,7 @@ export default function WhatHappensMissingEmiClient() {
                                             onClick={() => toggleFaq(index)}
                                             className="w-full text-left p-4 focus:outline-none flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors"
                                         >
-                                            <h3 className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</h3>
+                                            <p className="font-bold text-lg text-gray-900 pr-4 m-0">{faq.question}</p>
                                             <svg 
                                                 className={`w-6 h-6 text-blue-600 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`} 
                                                 fill="none" 
@@ -406,7 +406,7 @@ export default function WhatHappensMissingEmiClient() {
                         <div className="space-y-6">
                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-6 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -425,7 +425,7 @@ export default function WhatHappensMissingEmiClient() {
 
                             {/* Card 2: Links */}
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-4">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-4">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors block">

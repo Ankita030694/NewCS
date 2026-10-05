@@ -309,7 +309,7 @@ export default function LongTermFinancialHealthClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block">
                         <div className="sticky top-20">
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">On This Page</h3>
+                                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">On This Page</p>
                                 <nav className="space-y-1 text-sm">
                                     {navLinks.map((link) => (
                                         <a
@@ -530,7 +530,7 @@ export default function LongTermFinancialHealthClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
-                                <h4 className="font-bold text-xl text-gray-900 mb-2">Worried About CIBIL?</h4>
+                                <p className="font-bold text-xl text-gray-900 mb-2">Worried About CIBIL?</p>
                                 <p className="text-sm text-gray-600 mb-6">We don’t just settle; we help you rebuild your financial reputation.</p>
                                 <Link
                                     href="/contact"
@@ -546,7 +546,7 @@ export default function LongTermFinancialHealthClient() {
 
                             {/* Related Pages */}
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                                <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</h4>
+                                <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Resources</p>
                                 <nav className="space-y-3">
                                     <Link href="/what-are-the-advantages-and-disadvantages-of-loan-settlement" className="block text-sm text-blue-600 hover:underline">Pros and Cons of Settlement</Link>
                                     <Link href="/is-loan-settlement-a-good-option" className="block text-sm text-blue-600 hover:underline">Is it Good for You?</Link>

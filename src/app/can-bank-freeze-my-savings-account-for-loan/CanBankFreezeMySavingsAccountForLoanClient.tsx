@@ -1095,9 +1095,9 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
               </div>
 
               <div className="space-y-1.5">
-                <h3 className="text-base font-extrabold leading-snug">
+                <p className="text-base font-extrabold leading-snug">
                   Account Frozen? Let Us Unblock It
-                </h3>
+                </p>
                 <p className="text-xs text-blue-100 leading-relaxed">
                   Has your lending bank blocked your savings balance or deducted living funds? Speak with CredSettle’s debt dispute specialists today.
                 </p>
@@ -1129,9 +1129,9 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                   AJ
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-slate-900">
+                  <p className="text-xs font-bold text-slate-900">
                     Ashish Jhangra
-                  </h4>
+                  </p>
                   <p className="text-[11px] text-slate-500">
                     Legal &amp; Debt Resolution Professional
                   </p>

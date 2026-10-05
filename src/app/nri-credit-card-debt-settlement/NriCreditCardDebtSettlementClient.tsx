@@ -828,7 +828,7 @@ export default function NriCreditCardDebtSettlementClient() {
                   AJ
                 </div>
                 <div>
-                  <h3 className="text-xs font-bold text-slate-900">Ashish Jhangra</h3>
+                  <p className="text-xs font-bold text-slate-900">Ashish Jhangra</p>
                   <p className="text-[11px] text-slate-500 font-medium leading-tight">
                     Legal & Debt Resolution Professional
                   </p>
@@ -854,9 +854,9 @@ export default function NriCreditCardDebtSettlementClient() {
                   100% Confidential
                 </span>
               </div>
-              <h3 className="text-sm font-bold mb-2 leading-tight">
+              <p className="text-sm font-bold mb-2 leading-tight">
                 Facing Indian Debt Abroad?
-              </h3>
+              </p>
               <p className="text-xs text-blue-100 leading-relaxed mb-4">
                 Our legal team handles PoA execution, stops harassment, and negotiates a 45%-60% waiver.
               </p>
@@ -877,9 +877,9 @@ export default function NriCreditCardDebtSettlementClient() {
 
             {/* CredSettle Advantage */}
             <div className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-sm space-y-3">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500">
+              <p className="text-xs font-bold uppercase tracking-wider text-slate-500">
                 CredSettle Advantage
-              </h3>
+              </p>
               <div className="space-y-2 text-xs text-slate-600">
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-[#1886ff] flex-shrink-0" />

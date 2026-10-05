@@ -188,7 +188,7 @@ export default function GujaratLoanSettlementClient() {
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</h3>
+                <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
                     <a 
@@ -225,7 +225,7 @@ export default function GujaratLoanSettlementClient() {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
-                <h4 className="font-bold text-blue-900 mb-2">Legal Fact for Gujarat</h4>
+                <h3 className="font-bold text-blue-900 mb-2">Legal Fact for Gujarat</h3>
                 <p className="text-blue-800 m-0">
                   Gujarat has stringent laws against predatory lending. The <strong>Gujarat Money Lenders Act, 2011</strong> is a powerful tool that protects borrowers from harassment by unregistered financiers, a common issue in cities like Surat and Rajkot.
                 </p>
@@ -259,7 +259,7 @@ export default function GujaratLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">1</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Financial Health Check</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Financial Health Check</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We analyze your debt portfolio. In Gujarat, it is common to have a mix of personal loans, business loans, and OD/CC limits. We identify which unsecured debts can be settled and calculate a viable offer based on your current cash flow.
                     </p>
@@ -269,7 +269,7 @@ export default function GujaratLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">2</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Anti-Harassment Shield</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Anti-Harassment Shield</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Recovery agents in cities like Ahmedabad and Surat can be aggressive. Once you hire us, we direct you to divert all calls to our legal team. We inform the bank of our representation, which usually stops the daily harassment calls to your family and workplace.
                     </p>
@@ -279,7 +279,7 @@ export default function GujaratLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">NPA Management & Legal Reply</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">NPA Management & Legal Reply</h3>
                     <p className="text-gray-700 leading-relaxed">
                       Settlement discussions typically open after the account turns NPA (90 days). During this time, you may receive legal notices (Section 138 or Arbitration). Our legal team drafts professional responses to these notices, keeping your legal defense strong while we prepare for negotiation.
                     </p>
@@ -289,7 +289,7 @@ export default function GujaratLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Circle Offices</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Circle Offices</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We negotiate directly with the bank’s Circle Offices or Recovery Departments in Ahmedabad, Vadodara, or Mumbai. We aim to waive off 100% of the penal interest and legal charges, and significantly reduce the principal amount, often saving clients 40-50% of the total outstanding.
                     </p>
@@ -299,7 +299,7 @@ export default function GujaratLoanSettlementClient() {
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">5</div>
                   <div className="ml-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">Closure & NDC</h4>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Closure & NDC</h3>
                     <p className="text-gray-700 leading-relaxed">
                       We ensure the settlement offer is documented on the bank’s official letterhead. You pay the agreed amount directly to your loan account. We then follow up to ensure you receive the "No Dues Certificate" (NDC), formally closing the loan.
                     </p>
@@ -330,19 +330,19 @@ export default function GujaratLoanSettlementClient() {
               <h3 className="text-xl font-bold text-gray-800 mb-4">How to Report Harassment</h3>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Local Police Station</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Local Police Station</h3>
                   <p className="text-sm text-gray-600">Filing a written complaint (Arzi) at your local police station is the first step. Detail the harassment, abusive language, and any threats made. The police often summon the agents for a warning.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Cyber Crime Cell</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Cyber Crime Cell</h3>
                   <p className="text-sm text-gray-600">For harassment via WhatsApp, fake legal notices, or loan apps, approach the Cyber Crime Cell. Gujarat has dedicated cyber stations in major cities like Ahmedabad and Surat.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">SHE Teams</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">SHE Teams</h3>
                   <p className="text-sm text-gray-600">If female borrowers or family members are being harassed, Gujarat Police’s "SHE Teams" provide immediate assistance and are very strict against harassment of women.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
-                  <h4 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h4>
+                  <h3 className="font-bold text-blue-900 mb-2">Dial 100 / 112</h3>
                   <p className="text-sm text-gray-600">In case of immediate threat or if agents are creating a public nuisance at your home or office, dialing the emergency number ensures police intervention.</p>
                 </div>
               </div>
@@ -438,7 +438,7 @@ export default function GujaratLoanSettlementClient() {
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                    <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                 </div>
-                <h4 className="font-bold text-xl text-gray-900 mb-2">Gujarat Support</h4>
+                <p className="font-bold text-xl text-gray-900 mb-2">Gujarat Support</p>
                 <p className="text-sm text-gray-600 mb-6">Expert legal aid for Ahmedabad & GJ residents.</p>
                 <Link 
                   href="/contact"

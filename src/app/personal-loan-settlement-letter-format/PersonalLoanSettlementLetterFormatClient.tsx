@@ -235,7 +235,7 @@ export default function PersonalLoanSettlementLetterFormatClient() {
 
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <h3 className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</h3>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (
                                     <a
@@ -296,12 +296,12 @@ export default function PersonalLoanSettlementLetterFormatClient() {
                             </p>
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <h4 className="text-xl font-bold text-red-900 mb-4 flex items-center">
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
                                     <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
                                     </svg>
                                     Critical Rule for Documentation
-                                </h4>
+                                </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
                                     <li>Never rely on verbal agreements. Everything must be in writing.</li>
                                     <li>Always send your application for loan settlement via registered post with acknowledgment due.</li>
@@ -354,22 +354,22 @@ export default function PersonalLoanSettlementLetterFormatClient() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 1</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Gather Your Documents</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Gather Your Documents</p>
                                     <p className="text-sm text-gray-600 m-0">Collect your loan account statement, previous EMI receipts, and irrefutable proof of your financial hardship, such as medical records or termination letters.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 2</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Determine Your Offer</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Determine Your Offer</p>
                                     <p className="text-sm text-gray-600 m-0">Calculate exactly how much you can afford to pay right now as a lump sum. Do not offer money you do not currently have access to.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 3</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Use the Formal Template</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Use the Formal Template</p>
                                     <p className="text-sm text-gray-600 m-0">Utilize the settlement letter template provided in Section 6. Do not use overly emotional language; stick entirely to the verifiable facts.</p>
                                 </div>
                                 <div className="p-6 bg-gray-50 border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition-colors">
                                     <span className="text-blue-600 font-bold mb-2 block text-xs uppercase tracking-wider">Step 4</span>
-                                    <h5 className="font-bold text-gray-900 mb-2 mt-0">Attach Evidence and Send</h5>
+                                    <p className="font-bold text-gray-900 mb-2 mt-0">Attach Evidence and Send</p>
                                     <p className="text-sm text-gray-600 m-0">Attach clear photocopies of your evidence. Send the complete package via Registered Post with Acknowledgment Due.</p>
                                 </div>
                             </div>
@@ -551,7 +551,7 @@ export default function PersonalLoanSettlementLetterFormatClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start">
                         <div className="space-y-6">
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                                <h3 className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</h3>
+                                <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-6 leading-relaxed px-2">
                                     We can send an immediate Legal Notice to stop agents from visiting your house today.
                                 </p>
@@ -569,7 +569,7 @@ export default function PersonalLoanSettlementLetterFormatClient() {
                             </div>
 
                             <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
-                                <h4 className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-6">Related Expertise</h4>
+                                <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-3 mb-6">Related Expertise</p>
                                 <ul className="space-y-4 text-left font-medium">
                                     <li>
                                         <Link href="/how-to-settle-loan" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">
