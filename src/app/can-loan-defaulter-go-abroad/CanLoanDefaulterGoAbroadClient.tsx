@@ -285,7 +285,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span>Airport Immigration Operations</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Airport Immigration Reality: How Bureau of Immigration (BOI) Actually Operates
+                2. Airport Immigration Reality: How the BOI Operates
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -373,7 +373,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span>Judicial Precedents &amp; LOC Rules</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Ministry of Home Affairs (MHA) Guidelines &amp; High Court LOC Precedents
+                4. MHA Guidelines &amp; High Court Lookout Circular Precedents
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
@@ -439,7 +439,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Step-by-Step SOP: Overseas Travel &amp; Remote Debt Settlement Architecture
+                5. 6-Stage SOP for Overseas Travel &amp; Remote Debt Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If you are planning to relocate overseas or are already living outside India with unresolved banking liabilities, adhering to a structured six-stage resolution roadmap safeguards your legal standing and financial future:
@@ -595,7 +595,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span>Grievance Redressal</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. 3-Tier Escalation Matrix Against Recovery Harassment &amp; Illegal Travel Threats
+                7. 3-Tier Escalation Matrix Against Harassment &amp; Travel Threats
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If collection agencies subject you or your family to illegal airport arrest threats or abusive communications, initiate formal grievance escalation through regulated statutory channels:
@@ -635,7 +635,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timeline: From Default to Remote Overseas Debt Resolution
+                8. Timeline: From Default to Remote Overseas Debt Resolution
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 The lifecycle of an unresolved debt transitioning into a successful remote settlement follows structured procedural milestones:

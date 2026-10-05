@@ -231,12 +231,12 @@ export default function WhyCredSettle() {
         {/* Mobile Version */}
         <div className="block md:hidden">
           {/* Main Heading - Left Aligned */}
-          <h3 
+          <h2 
             className="font-bold text-left text-3xl mb-2" 
             style={{color: '#0C2756'}}
           >
             Why CredSettle is India's Most Trusted Loan Settlement Company
-          </h3>
+          </h2>
           
           {/* Subheading */}
           <h3 

@@ -415,7 +415,13 @@ export default function ResourcesClient({
 
         <section ref={blogSectionRef} className="w-full mt-8 md:mt-12 lg:mt-[60px]">
           <div className="container mx-auto max-w-7xl">
-            <div className="mb-8 flex md:justify-end">
+            <div className="mb-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <h2
+                className="text-xl md:text-2xl font-bold"
+                style={{ color: '#0C2756', fontFamily: 'Poppins' }}
+              >
+                Financial & Legal Resolution Guides
+              </h2>
               <input
                 type="text"
                 placeholder="Search resources..."
@@ -642,9 +648,9 @@ export default function ResourcesClient({
       </div>
 
       <div id="faq" className="relative z-10">
-        <FAQ />
+        <FAQ items={resourcesFaqItems} title="Resources FAQ" />
       </div>
-      <Footer />
+      <Footer hideFunnel />
     </div>
   );
 }

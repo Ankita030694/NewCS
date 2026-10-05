@@ -219,6 +219,23 @@ export function getNuanceForPath(pathname: string): PageNuance {
     };
   }
 
+  // 7. Services Main Hub
+  if (p === '/services' || p === '/services/') {
+    return {
+      badge: 'Services Assessment',
+      title: 'Legal Debt Relief Assessment',
+      subtitle: 'Answer 2 simple questions to check your debt relief & settlement eligibility.',
+      question1: '1. What service or debt relief do you need assistance with?',
+      options1: [
+        'Recovery agent harassment & threatening calls',
+        'Personal or business loan settlement',
+        'Credit card debt settlement & waiver',
+        'Instant loan app harassment & closure',
+        'CIBIL score builder & credit repair',
+      ],
+    };
+  }
+
   // Default: General Loan Settlement
   return {
     badge: 'Loan Settlement',
@@ -288,10 +305,14 @@ export default function InteractiveLeadFunnel({
     excludedPaths.some(p => pathname === p || pathname?.startsWith(p + '/') || pathname?.startsWith(p)) ||
     (isFooterPlacement && (
       pathname === '/' ||
-      pathname?.startsWith('/resources/') ||
-      pathname?.startsWith('/loan-settlement-by-city/') ||
-      pathname?.startsWith('/loan-settlement-by-bank/') ||
-      pathname?.startsWith('/services/')
+      pathname === '/resources' ||
+      pathname?.startsWith('/resources') ||
+      pathname === '/services' ||
+      pathname?.startsWith('/services') ||
+      pathname === '/about' ||
+      pathname?.startsWith('/about') ||
+      pathname?.startsWith('/loan-settlement-by-city') ||
+      pathname?.startsWith('/loan-settlement-by-bank')
     ));
 
   const nuance = getNuanceForPath(pathname || '');

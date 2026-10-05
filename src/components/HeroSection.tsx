@@ -463,9 +463,9 @@ export default function HeroSection() {
             gap: '12.96px'
           }}
         >
-          <h3 className="font-semibold text-gray-800 text-center" style={{fontSize: '14.58px', paddingLeft: '12.96px', paddingRight: '12.96px'}}>
+          <p className="font-semibold text-gray-800 text-center" style={{fontSize: '14.58px', paddingLeft: '12.96px', paddingRight: '12.96px'}}>
             Our media coverages
-          </h3>
+          </p>
           <div className="grid grid-cols-2 w-full" style={{gap: '9.72px', paddingLeft: '12.96px', paddingRight: '12.96px', paddingBottom: '12.96px'}}>
             <div className="flex items-center justify-center">
               
