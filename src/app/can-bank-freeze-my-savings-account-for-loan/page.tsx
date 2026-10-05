@@ -7,7 +7,7 @@ import CanBankFreezeMySavingsAccountForLoanClient from './CanBankFreezeMySavings
 export const metadata: Metadata = {
   title: 'Can a Bank Freeze Your Savings Account for Loan Default?',
   description:
-    'Woke up to a frozen savings account or bank lien? Understand banker right of set-off under Section 171 and legal remedies to unblock funds with CredSettle.',
+    "Facing a frozen bank account or lien? Understand the banker's right of set-off under Section 171 and legal remedies to unblock your account funds.",
   keywords: [
     'Can bank block my savings account for loan default',
     'Lien on bank account for loan',

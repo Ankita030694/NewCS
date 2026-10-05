@@ -1686,7 +1686,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/how-can-I-negotiate-a-personal-loan-settlement-with-lenders`,
+    loc: `${baseUrl}/how-can-i-negotiate-a-personal-loan-settlement-with-lenders`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -1784,7 +1784,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/can-I-get-a-loan-settlement-quote-instantly-from-online-services-`,
+    loc: `${baseUrl}/can-i-get-a-loan-settlement-quote-instantly-from-online-services-`,
     priority: 0.8,
     changefreq: 'weekly',
     lastmod: today
@@ -2319,14 +2319,14 @@ async function generateSitemap(): Promise<string> {
 
   // MSME and Personal Loan Legal Defence Pages
   urls.push({
-    loc: `${baseUrl}/best-lawyer-for-MSME-loan-recovery-defence`,
+    loc: `${baseUrl}/best-lawyer-for-msme-loan-recovery-defence`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
   });
 
   urls.push({
-    loc: `${baseUrl}/best-lawyer-for-MSME-personal-loan`,
+    loc: `${baseUrl}/best-lawyer-for-msme-personal-loan`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -2495,7 +2495,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/SME-loan-dispute-resolution`,
+    loc: `${baseUrl}/sme-loan-dispute-resolution`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -3160,7 +3160,7 @@ async function generateSitemap(): Promise<string> {
 
   // Best Lawyer for MSME Loan Recovery Defence page
   urls.push({
-    loc: `${baseUrl}/best-lawyer-for-MSME-loan-recovery-defence`,
+    loc: `${baseUrl}/best-lawyer-for-msme-loan-recovery-defence`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -3168,7 +3168,7 @@ async function generateSitemap(): Promise<string> {
 
   // Best Lawyer for MSME Personal Loan page
   urls.push({
-    loc: `${baseUrl}/best-lawyer-for-MSME-personal-loan`,
+    loc: `${baseUrl}/best-lawyer-for-msme-personal-loan`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today
@@ -3453,7 +3453,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/can-I-settle-my-home-loan`,
+    loc: `${baseUrl}/can-i-settle-my-home-loan`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

@@ -175,7 +175,7 @@ export default function TimelyRepaymentClient() {
           <article className="lg:w-3/5 w-full prose prose max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
 
             <section className="mb-10 p-6 bg-blue-50 border border-blue-100 rounded-2xl shadow-sm">
-              <h2 className="text-xl font-bold text-blue-900 mb-3">TL;DR (Summary)</h2>
+              <h2 className="text-xl font-bold text-blue-900 mb-3">Key Takeaways: Timely Repayment vs Loan Settlement</h2>
               <ul className="list-disc pl-5 text-base text-gray-800 space-y-2">
                 <li><strong>CIBIL Preservation:</strong> Timely repayment keeps your CIBIL score intact and labels your account as closed instead of settled, a major distinction for lenders.</li>
                 <li><strong>Financial Savings:</strong> Avoiding settlement prevents massive future interest rate hikes on subsequent loans, saving significant money over decades.</li>

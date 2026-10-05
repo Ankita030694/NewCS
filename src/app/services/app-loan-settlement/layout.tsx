@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'App Loan Settlement Services | CredSettle',
   description:
-    'Settle instant and online app loans legally with CredSettle. Stop illegal recovery harassment, abusive collection calls, and resolve loan app debts safely.',
+    'Settle online loan apps legally with CredSettle. Stop illegal recovery harassment, block abusive calls, and resolve loan app debts safely.',
   keywords: [
     'app loan settlement',
     'instant app loan settlement',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'App Loan Settlement Services | CredSettle',
     description:
-      'Settle instant and online app loans legally with CredSettle. Stop illegal recovery harassment, abusive collection calls, and resolve loan app debts safely.',
+      'Settle online loan apps legally with CredSettle. Stop illegal recovery harassment, block abusive calls, and resolve loan app debts safely.',
     url: 'https://www.credsettle.com/services/app-loan-settlement',
     siteName: 'CredSettle',
     locale: 'en_IN',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'App Loan Settlement Services | CredSettle',
     description:
-      'Settle instant and online app loans legally with CredSettle. Stop illegal recovery harassment, abusive collection calls, and resolve loan app debts safely.',
+      'Settle online loan apps legally with CredSettle. Stop illegal recovery harassment, block abusive calls, and resolve loan app debts safely.',
   },
 };
 

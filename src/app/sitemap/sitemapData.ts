@@ -1038,7 +1038,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Instant Loan Settlement Quote From Online Services",
-    href: "/can-I-get-a-loan-settlement-quote-instantly-from-online-services-",
+    href: "/can-i-get-a-loan-settlement-quote-instantly-from-online-services-",
     date: "10-07-2026",
   },
   {
@@ -1863,7 +1863,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "How Can I Negotiate a Personal Loan Settlement with Lenders? (2025 Guide)",
-    href: "/how-can-I-negotiate-a-personal-loan-settlement-with-lenders",
+    href: "/how-can-i-negotiate-a-personal-loan-settlement-with-lenders",
     date: "18-03-2026",
   },
   {
@@ -2153,7 +2153,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Best Lawyer for SME Loan Dispute Resolution in India",
-    href: "/SME-loan-dispute-resolution",
+    href: "/sme-loan-dispute-resolution",
     date: "06-03-2026",
   },
   {
@@ -2263,12 +2263,12 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Best Lawyer for MSME Personal Loan (2025)",
-    href: "/best-lawyer-for-MSME-personal-loan",
+    href: "/best-lawyer-for-msme-personal-loan",
     date: "02-03-2026",
   },
   {
     title: "Best Lawyer for MSME Loan Recovery Defence (2025)",
-    href: "/best-lawyer-for-MSME-loan-recovery-defence",
+    href: "/best-lawyer-for-msme-loan-recovery-defence",
     date: "02-03-2026",
   },
   {
@@ -2428,7 +2428,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Can I Settle My Home Loan in India?",
-    href: "/can-I-settle-my-home-loan",
+    href: "/can-i-settle-my-home-loan",
     date: "10-02-2026",
   },
   {

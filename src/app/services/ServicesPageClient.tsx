@@ -1283,20 +1283,10 @@ export default function ServicesPageClient() {
                 </a>
               </div>
 
-              {/* Desktop Section Heading */}
-              <div className="hidden md:block mb-4">
+              {/* Section Heading */}
+              <div className="mb-4 md:mb-6">
                 <h2 
-                  className="font-medium text-center text-3xl py-4" 
-                  style={{ color: '#0C2756', fontWeight: 500 }}
-                >
-                  Improve your Credit Score
-                </h2>
-              </div>
-
-              {/* Mobile Section Heading */}
-              <div className="block md:hidden mb-6">
-                <h2 
-                  className="font-medium text-center text-2xl py-4" 
+                  className="font-medium text-center text-2xl md:text-3xl py-4" 
                   style={{ color: '#0C2756', fontWeight: 500 }}
                 >
                   Improve your Credit Score

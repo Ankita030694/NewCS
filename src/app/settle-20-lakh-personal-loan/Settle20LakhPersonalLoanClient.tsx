@@ -54,7 +54,7 @@ export default function Settle20LakhPersonalLoanClient() {
     }, []);
 
     const navLinks = [
-        { id: 'quick-answer', label: 'Quick Answer' },
+        { id: 'quick-answer', label: 'Key Summary' },
         { id: 'can-you-settle', label: 'Can You Settle ₹20 Lakhs?' },
         { id: 'settlement-timeline', label: 'Settlement Timeline' },
         { id: 'impact-on-cibil', label: 'CIBIL Impact' },
@@ -246,7 +246,7 @@ export default function Settle20LakhPersonalLoanClient() {
                     <main className="lg:w-2/4 w-full">
                         <article className="prose max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
                             
-                            <h2 id="quick-answer" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Quick Answer</h2>
+                            <h2 id="quick-answer" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Key Summary: Settling a ₹20 Lakh Loan in India</h2>
                             <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600 mb-8 shadow-sm">
                                 <p className="font-semibold text-blue-900 m-0 leading-relaxed">
                                     Yes, you can settle a ₹20 Lakh personal loan in India. When you face severe financial hardship (job loss, medical emergency, business failure), banks are often willing to accept a <Link href="/personal-loan-settlement" className="text-blue-700 hover:underline">one-time settlement (OTS)</Link> that is significantly lower than the principal outstanding. A ₹20 Lakh loan could potentially be settled for anywhere between ₹8 Lakhs to ₹12 Lakhs, depending on the days past due (DPD), the borrower's proving of hardship, and strategic legal negotiation to stop <Link href="/how-to-stop-recovery-agent-harassment" className="text-blue-700 hover:underline">recovery harassment</Link>.

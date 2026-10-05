@@ -7,7 +7,7 @@ import EducationLoanClient from './EducationLoanClient';
 
 export const metadata: Metadata = {
     title: "Education Loan Default in India: Settlement vs Restructuring",
-    description: "Learn how to handle education loan defaults in India. Protect co-signers, negotiate moratorium extensions, and understand the impact on a student's career.",
+    description: "Manage education loan defaults in India. Learn how to protect co-signers, request moratorium relief, and negotiate an RBI-compliant settlement.",
     keywords: [
         "education loan default India",
         "student loan settlement",

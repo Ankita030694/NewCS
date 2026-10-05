@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'SBI Loan Settlement Process 2026: OTS Scheme & Legal Guide',
-  description: 'Settle SBI personal loans and credit cards legally under 2026 OTS schemes. Stop recovery agent harassment and negotiate debt waivers with CredSettle experts.',
+  description: "Settle SBI personal loans and credit cards under OTS schemes. Stop recovery agent harassment and negotiate debt waivers with CredSettle experts.",
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/sbi',
   },

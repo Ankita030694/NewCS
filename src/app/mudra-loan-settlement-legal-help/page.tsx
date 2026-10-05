@@ -6,7 +6,7 @@ import MudraLoanSettlementClient from './MudraLoanSettlementClient';
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.credsettle.com/mudra-loan-settlement-legal-help' },
   title: 'Mudra Loan Settlement: PMMY Debt Relief Guide 2026',
-  description: 'Get expert legal help for Mudra loan settlement in India. Understand RBI 2026 OTS rules for PMMY Shishu, Kishore, and Tarun, and stop recovery harassment.',
+  description: "Get legal help for Mudra loan settlement in India. Understand OTS rules for PMMY Shishu, Kishore, and Tarun loans to stop debt collection abuse.",
   keywords: 'mudra loan settlement legal help, sbi mudra loan ots 2026, pmmy loan recovery defense, tarun plus loan settlement india, msme loan legal assistance rbi',
 };
 

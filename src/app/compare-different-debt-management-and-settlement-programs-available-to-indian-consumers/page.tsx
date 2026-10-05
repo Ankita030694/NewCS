@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Compare Debt Management vs. Debt Settlement Programs in',
-  description: 'Understand the difference between debt management plans and debt settlement. Compare features, benefits, and credit impact for Indian consumers to find.',
+  description: "Compare debt management plans vs debt settlement in India. Understand key differences, credit score impacts, and costs to choose the best option.",
   keywords: [
     'debt management vs debt settlement india',
     'debt relief programs india',

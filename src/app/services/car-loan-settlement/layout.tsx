@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Car Loan Settlement Agency in India | CredSettle',
   description:
-    'Settle car loans and auto loans for 40% to 55% less with CredSettle, India’s premier car loan settlement agency. Prevent vehicle seizure, stop recovery harassment, and secure RBI-compliant debt relief.',
+    "Settle car loans with CredSettle. Stop recovery harassment, prevent vehicle seizure, and explore RBI-compliant options for reducing your debt.",
   keywords: [
     'car loan settlement agency',
     'car loan settlement',

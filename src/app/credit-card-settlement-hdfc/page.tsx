@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'HDFC Credit Card Settlement Guide: Negotiate Waivers',
-  description: 'Navigate HDFC credit card defaults, stop recovery agent harassment, and negotiate maximum waivers. Learn the step by step process for a secure one time.',
+  description: "Settle HDFC credit card debt legally. Stop recovery harassment, negotiate maximum interest waivers, and secure an official one-time settlement.",
   keywords: [
     'HDFC credit card settlement',
     'HDFC bank settlement policy',

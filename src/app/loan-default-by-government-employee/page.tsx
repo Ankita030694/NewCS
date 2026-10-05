@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Loan Default by Govt Employee: Service Rules & Defense',
-  description: 'Government employee facing loan default? Learn how debt affects service records, CCS conduct rules, departmental inquiries, and safe settlement options.',
+  description: "Government employee facing loan default? Understand how debt impacts service records, CCS conduct rules, and legal options for safe settlement.",
   keywords: [
     'loan default consequences for government employees',
     'can a govt employee be suspended for loan default',

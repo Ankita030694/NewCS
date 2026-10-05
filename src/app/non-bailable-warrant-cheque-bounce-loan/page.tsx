@@ -7,7 +7,7 @@ import NonBailableWarrantChequeBounceLoanClient from './NonBailableWarrantCheque
 export const metadata: Metadata = {
   title: 'Non-Bailable Warrant in Cheque Bounce: How to Cancel NBW',
   description:
-    'Facing a Non-Bailable Warrant (NBW) under Section 138 for cheque bounce? Learn urgent legal procedures to recall the NBW and avoid arrest with CredSettle.',
+    "Facing a Non-Bailable Warrant under Section 138 for cheque bounce? Learn legal steps to recall the NBW in court and avoid arrest with CredSettle.",
   keywords: [
     'Non bailable warrant section 138 cheque bounce',
     'Cancel NBW in cheque bounce',

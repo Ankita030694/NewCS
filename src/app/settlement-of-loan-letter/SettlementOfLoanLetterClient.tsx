@@ -185,7 +185,7 @@ export default function SettlementOfLoanLetterClient() {
           <article className="lg:w-3/5 w-full prose prose max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
 
             <section className="mb-10 p-6 bg-blue-50 border border-blue-100 rounded-2xl shadow-sm">
-              <h2 className="text-xl font-bold text-blue-900 mb-3">TL;DR (Summary)</h2>
+              <h2 className="text-xl font-bold text-blue-900 mb-3">Key Takeaways: Loan Settlement Letter Essentials</h2>
               <ul className="list-disc pl-5 text-base text-gray-800 space-y-2">
                 <li><strong>Preparation is Key:</strong> Never send a letter without having a lump sum ready. Banks ignore offers with zero backing funds.</li>
                 <li><strong>Legal Caution:</strong> Drafting a settlement offer incorrectly can accidentally reset your limitation period, keeping old debts alive indefinitely.</li>

@@ -380,21 +380,21 @@ export default function StudentLoanSettlementClient() {
                             </p>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     AMA Legal Solutions provides a "Legal Audit" of your student loan. They check if the bank has followed the IBA’s moratorium rules and if the interest rates applied are RBI compliant. Often, their legal intervention reveals that the "Actual Debt" is lower than the bank claims, leading to immediate settlement savings.
                                 </p>
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     CredSettle act as professional mediators. They take over all communication with the bank, effectively creating a "Buffer" for the student. They negotiate "One Time Settlements" that are documented, legally binding, and reported correctly to credit bureaus like CIBIL.
                                 </p>
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     SettleLoans provides a digital platform where students can build their "Hardship Profile." By presenting a data driven case for why the loan cannot be repaid in full, they help secure the highest possible waivers on student loan defaults.
                                 </p>

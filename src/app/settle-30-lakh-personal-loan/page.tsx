@@ -7,7 +7,7 @@ import SettleThirtyLakhPersonalLoanClient from './SettleThirtyLakhPersonalLoanCl
 export const metadata: Metadata = {
   title: 'Settle a ₹30 Lakh Personal Loan (Process & Negotiation)',
   description:
-    'Overwhelmed by a ₹30 Lakh personal loan? Discover how our legal experts block recovery harassment and negotiate multi-lakh waivers for high-value loans.',
+    "Struggling with a ₹30 Lakh loan? Discover how legal experts stop harassment and negotiate substantial waivers for high-value unsecured debt.",
   keywords: [
     'Can I settle a ₹30 lakh personal loan',
     'settle 30 lakh personal loan',

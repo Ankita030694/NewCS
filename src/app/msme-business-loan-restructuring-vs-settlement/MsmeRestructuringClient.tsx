@@ -267,7 +267,7 @@ export default function MsmeRestructuringClient() {
                                 </ul>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Crafting the viability plan is the most complex part of this process. Banks will heavily scrutinize the projected cash flows. This is where engaging financial consultants alongside legal experts specializing in <Link href="/SME-loan-dispute-resolution" className="text-blue-600 hover:underline">SME loan dispute resolution</Link> becomes vital. If the bank rejects the restructuring proposal, the account will inevitably slip into NPA status, leaving settlement as the only alternative.
+                                Crafting the viability plan is the most complex part of this process. Banks will heavily scrutinize the projected cash flows. This is where engaging financial consultants alongside legal experts specializing in <Link href="/sme-loan-dispute-resolution" className="text-blue-600 hover:underline">SME loan dispute resolution</Link> becomes vital. If the bank rejects the restructuring proposal, the account will inevitably slip into NPA status, leaving settlement as the only alternative.
                             </p>
 
                             <h3 id="impact-on-cmr" className="text-2xl font-bold text-gray-800 mt-8 mb-4">Impact on Business Credit Score (CMR)</h3>
@@ -409,7 +409,7 @@ export default function MsmeRestructuringClient() {
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>
                                     <Link href="/best-lawyer-for-loan-settlement-during-drt" className="block text-sm text-blue-600 hover:underline">Settlement Strategies</Link>
-                                    <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">MSME Loan Defence</Link>
+                                    <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">MSME Loan Defence</Link>
                                 </nav>
                             </div>
                         </div>

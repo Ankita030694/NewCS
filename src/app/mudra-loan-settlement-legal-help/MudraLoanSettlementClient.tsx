@@ -651,7 +651,7 @@ export default function MudraLoanSettlementClient() {
                             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Deep Dives</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/SME-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Dispute Help</Link>
+                                    <Link href="/sme-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Dispute Help</Link>
                                     <Link href="/working-capital-loan-legal-help" className="block text-sm text-blue-600 hover:underline">Working Capital Help</Link>
                                     <Link href="/startup-loan-legal-advisory" className="block text-sm text-blue-600 hover:underline">Startup Advisory</Link>
                                 </nav>

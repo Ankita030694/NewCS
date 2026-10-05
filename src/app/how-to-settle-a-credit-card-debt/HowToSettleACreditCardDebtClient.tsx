@@ -184,7 +184,7 @@ export default function HowToSettleACreditCardDebtClient() {
             <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 leading-tight">How to Settle a Credit Card Debt</h1>
 
             <section className="mb-10 p-6 bg-blue-50 border border-blue-100 rounded-2xl shadow-sm">
-              <h2 className="text-xl font-bold text-blue-900 mb-3">TL;DR (Summary)</h2>
+              <h2 className="text-xl font-bold text-blue-900 mb-3">Key Takeaways: Settling Credit Card Debt in India</h2>
               <ul className="list-disc pl-5 text-base text-gray-800 space-y-2">
                 <li><strong>Preparation:</strong> Never ignore bank communications. Understand your financial limits and prepare documentary evidence of your hardship before starting negotiations.</li>
                 <li><strong>Execution:</strong> Stop paying the minimum due if you are insolvent. Wait for the account to become an NPA to unlock the best settlement offers.</li>

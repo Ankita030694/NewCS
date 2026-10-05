@@ -7,7 +7,7 @@ import CarLoanDefaultVehicleSeizureClient from './CarLoanDefaultVehicleSeizureCl
 export const metadata: Metadata = {
   title: 'Vehicle Seizure Rules: RBI Guidelines & Borrower Rights',
   description:
-    'Vehicle seized by finance company or facing recovery agent threats? Learn RBI guidelines on vehicle seizure, Supreme Court protections against illegal repossession, and legal settlement remedies.',
+    "Facing car loan default or vehicle seizure? Learn RBI rules, borrower rights, and legal options to stop illegal repossession and settle debt.",
   keywords: [
     'rbi guidelines for vehicle seizure pdf',
     'procedure for seizure of hypothecated vehicle',

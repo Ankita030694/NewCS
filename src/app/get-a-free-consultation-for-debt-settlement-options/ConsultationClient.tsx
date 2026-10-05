@@ -217,7 +217,7 @@ export default function ConsultationClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Your Path to Financial Freedom: A Complete Guide to Debt Settlement Consultations</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Guide to Debt Settlement Consultations in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Living with overwhelming debt is a burden that affects every aspect of your life, from your mental health to your physical well-being. When the monthly bills exceed your income and the phone never stops ringing with collection calls, it is easy to feel like there is no way out. However, financial recovery is possible through the right strategy. The first and most critical step in this journey is to <strong>get a free consultation for debt settlement options</strong>. This initial session is designed to provide you with clarity, hope, and a practical roadmap to resolve your liabilities without losing your peace of mind.
@@ -233,7 +233,7 @@ export default function ConsultationClient() {
                 </p>
               </div>
 
-              <h2 id="understanding-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">What Exactly is Debt Settlement?</h2>
+              <h2 id="understanding-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">How Debt Settlement Works for Distressed Borrowers</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   Before you sit down for a consultation, it is helpful to understand the core concept of debt settlement. In simple terms, debt settlement is a process where a borrower and a creditor agree to a one time payment that is less than the total amount owed. This agreement effectively "settles" the debt, and the creditor agrees to stop all collection efforts and mark the account as resolved. It is typically an option reserved for those who are in deep financial hardship and have reached a point where they can no longer make even the minimum payments.

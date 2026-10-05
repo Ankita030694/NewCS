@@ -6,7 +6,7 @@ import RbiCircularOnLoanSettlementOtsClient from "./RbiCircularOnLoanSettlementO
 
 export const metadata: Metadata = {
   title: "Official RBI Circular on Loan Settlement & OTS (2026 Guide)",
-  description: "Understand the official RBI compromise settlement framework. Learn how banks approve NPA waivers, negotiate OTS relief, and resolve debt with CredSettle.",
+  description: "Explore the official RBI compromise settlement framework. Learn how banks approve NPA waivers and negotiate One Time Settlement (OTS) relief.",
   keywords: [
     "RBI circular on loan settlement and OTS policy",
     "RBI guidelines for NPA settlement 2026",

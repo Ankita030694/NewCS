@@ -7,7 +7,7 @@ import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
     title: "Send Legal Notice to Bank for Recovery Agent Harassment",
-    description: "Facing abuse from recovery agents? Learn how to send a legal notice to your bank for personal loan harassment and protect your rights under RBI guidelines.",
+    description: "Facing recovery agent abuse? Learn how to send a legal notice to your bank for personal loan harassment and protect your rights under RBI norms.",
     alternates: {
         canonical: 'https://www.credsettle.com/legal-notice-bank-personal-loan-harassment',
     },

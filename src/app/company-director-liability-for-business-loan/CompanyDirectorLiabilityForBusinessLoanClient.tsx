@@ -850,7 +850,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   <Link href="/best-lawyer-for-company-loan-matters" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
                     Company Loan Legal Help
                   </Link>
-                  <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
+                  <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
                     MSME Loan Defense
                   </Link>
                   <Link href="/best-lawyer-for-arc-loan-assignment-dispute" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
@@ -1003,7 +1003,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                 </Link>
 
                 <Link
-                  href="/best-lawyer-for-MSME-loan-recovery-defence"
+                  href="/best-lawyer-for-msme-loan-recovery-defence"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">

@@ -278,7 +278,7 @@ export default function HdfcPersonalLoanSettlementPolicyClient() {
                 <span>Financial Forensics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs. Inflated Penal Charges
+                Understanding HDFC Loan Charges and Settlement Options
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When an HDFC personal loan defaults, automated banking software rapidly inflates the total outstanding balance by compounding penal interest at 24% to 36% per annum, imposing NACH bounce penalties of ₹500 to ₹750 per presentation, and adding late payment surcharges alongside 18% Goods and Services Tax. Over a six-month non-payment period, these artificial penal levies can swell the ledger balance by 30% to 40% above the genuine unamortized principal disbursed to the borrower.

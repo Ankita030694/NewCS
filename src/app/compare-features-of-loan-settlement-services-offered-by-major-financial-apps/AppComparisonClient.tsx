@@ -150,6 +150,7 @@ export default function AppComparisonClient() {
             <Link 
               href="https://play.google.com/store/apps/details?id=com.ama.ama_legal_solutions&hl=en_IN" 
               target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
                <FontAwesomeIcon icon={faMobileAlt} className="mr-2" />
@@ -328,6 +329,7 @@ export default function AppComparisonClient() {
                   <Link 
                     href="https://play.google.com/store/apps/details?id=com.ama.ama_legal_solutions&hl=en_IN" 
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="mt-8 inline-block bg-white text-blue-900 px-10 py-4 rounded-xl font-bold hover:bg-blue-50 transition-all transform hover:scale-105 shadow-lg"
                   >
                     Download from Play Store
@@ -407,6 +409,7 @@ export default function AppComparisonClient() {
                   <Link 
                     href="https://play.google.com/store/apps/details?id=com.ama.ama_legal_solutions&hl=en_IN" 
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-white text-blue-900 px-10 py-5 rounded-full font-bold text-xl hover:bg-blue-50 transition-all shadow-lg transform hover:-translate-y-1"
                   >
                     Download on Play Store

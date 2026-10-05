@@ -880,7 +880,7 @@ export default function SelfEmployedSettlementClient() {
                                 <h4 className="font-bold text-gray-900 mb-6 border-b border-gray-200 pb-3">Entrepreneur Toolbox</h4>
                                 <nav className="space-y-4">
                                     <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">Business Loan Guide</Link>
-                                    <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">MSME Legal Defence</Link>
+                                    <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">MSME Legal Defence</Link>
                                     <Link href="/what-kind-of-loans-can-not-be-settled" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">Settlement Exclusions</Link>
                                     <Link href="/can-recovery-agents-abuse-you-legally-india" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">Stop Agency Abuse</Link>
                                     <Link href="/best-lawyer-for-msme-business-loan-dispute" className="block text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">MSME Dispute Lawyer</Link>

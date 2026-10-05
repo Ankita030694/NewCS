@@ -627,7 +627,7 @@ export default function BouncedSecurityCheckClient() {
                                         <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2 group-hover:scale-125 transition-transform"></span>
                                         Personal Loan Legal Rights
                                     </Link>
-                                    <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors group">
+                                    <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors group">
                                         <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2 group-hover:scale-125 transition-transform"></span>
                                         MSME Recovery Defence
                                     </Link>

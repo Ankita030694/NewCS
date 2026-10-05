@@ -286,7 +286,7 @@ export default function CanBankContactMyEmployerForLoanRecoveryClient() {
                 <span>Financial Analysis &amp; Settlement Economics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Predatory Penalties vs Principal
+                2. Financial Breakdown: Salaried Debt Principal vs Penalties
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">

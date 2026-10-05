@@ -6,7 +6,7 @@ const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/telang
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement Telangana',
   description:
-    'Resolve NBFC loans across Telangana with CredSettle. Hyderabad, Warangal, Karimnagar, Nizamabad, and Khammam borrowers receive RBI compliant negotiation.',
+    "Resolve NBFC loans in Telangana with CredSettle. Legal, RBI-compliant debt settlement for borrowers in Hyderabad, Warangal, and Nizamabad.",
   keywords: [
     'NBFC loan settlement Telangana',
     'NBFC settlement Hyderabad',

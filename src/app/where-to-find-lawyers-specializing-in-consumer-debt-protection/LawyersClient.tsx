@@ -407,7 +407,7 @@ export default function LawyersClient() {
                     </Link> - A detailed look at what agents can and cannot do under the law.
                   </li>
                   <li>
-                    <Link href="/how-can-I-negotiate-a-personal-loan-settlement-with-lenders" className="text-blue-600 hover:underline">
+                    <Link href="/how-can-i-negotiate-a-personal-loan-settlement-with-lenders" className="text-blue-600 hover:underline">
                       Effective Negotiation Strategies for Personal Loans
                     </Link> - Tips and tricks for getting the best possible settlement deal.
                   </li>

@@ -7,7 +7,7 @@ import ConvertSettledToClosedClient from './ConvertSettledToClosedClient';
 
 export const metadata: Metadata = {
   title: 'Can I Convert Settled to Closed Later? | CIBIL Roadmap 2025',
-  description: 'The definitive 2025 guide on converting a Settled loan status to Closed in your CIBIL report. Step-by-step payment, NOC, and dispute process. No em-dashes!',
+  description: "Convert a Settled loan status to Closed in your CIBIL report. Follow our step-by-step guide on balance payments, bank NOCs, and credit disputes.",
   alternates: {
     canonical: 'https://www.credsettle.com/can-i-convert-settled-to-closed-later',
   },

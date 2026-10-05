@@ -6,7 +6,7 @@ const pageUrl = 'https://www.credsettle.com/services/nbfc-loan-settlement/uttar-
 export const metadata: Metadata = {
   title: 'NBFC Loan Settlement Uttar Pradesh',
   description:
-    'Resolve NBFC loans across Uttar Pradesh with CredSettle. Lucknow, Kanpur, Noida, Ghaziabad, and Gorakhpur borrowers receive RBI-compliant negotiation.',
+    "Resolve NBFC loans in Uttar Pradesh with CredSettle. Legal, RBI-compliant debt settlement for borrowers in Lucknow, Kanpur, Noida, and Ghaziabad.",
   keywords: [
     'NBFC loan settlement Uttar Pradesh',
     'NBFC settlement Lucknow',

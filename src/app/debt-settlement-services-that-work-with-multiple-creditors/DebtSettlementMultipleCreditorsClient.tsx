@@ -369,12 +369,12 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 <li>Verify that every single settlement ends with a formal "NOC" that explicitly states all legal cases will be withdrawn.</li>
                             </ul>
 
-                            <h2 id="rbi-framework-multi-debt" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">RBI Framework: Multi-Debt Protections 2025</h2>
+                            <h2 id="rbi-framework-multi-debt" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">RBI Regulatory Protections for Multi-Debt Borrowers</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 Under the latest RBI guidelines, banks are encouraged to find resolutions for distributive borrowers. If you have many debts, you can invoke the <strong>"Fair Practices Code"</strong> which mandates that lenders must treat borrowers with dignity regardless of the number of defaults. The 2025 rules also make it easier for ARCs to settle, which is often where multi-creditor debt eventually ends up.
                             </p>
 
-                            <h2 id="case-studies-multi-debt" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Real Case Studies: Synchronized Success</h2>
+                            <h2 id="case-studies-multi-debt" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Real Case Studies: Multi-Lender Debt Resolution</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 italic text-gray-500">Note: Names have been changed for privacy.</p>
                             <div className="space-y-8 mb-12">
                                 <div className="p-8 bg-blue-900 text-white rounded-[2rem] shadow-xl">
@@ -403,7 +403,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 In contrast, large private banks have rigid, board-approved policies. You cannot "negotiate" these policies; you must "qualify" for them. A multi-creditor service knows exactly which "Box" you need to fit into for each specific lender. They will help you present your financial story so that it meets the specific settlement criteria of a dozen different institutions simultaneously.
                             </p>
 
-                            <h2 id="rbi-framework-multi-debt" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">RBI Framework: Multi-Debt Protections 2025</h2>
+                            <h2 id="ombudsman-framework" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Integrated Ombudsman & Regulatory Relief Framework</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 The 2025 regulatory landscape, shaped by the RBI’s <strong>"Prudential Framework for Resolution of Stressed Assets,"</strong> is increasingly borrower-friendly for those in genuine distress. The RBI has mandated that banks must have a transparent "Restructuring Policy" or "Settlement Policy." If you have multiple lenders, you can also leverage the <strong>"Integrated Ombudsman Scheme."</strong>
                             </p>
@@ -411,7 +411,7 @@ export default function DebtSettlementMultipleCreditorsClient() {
                                 If multiple lenders are harassing you simultaneously, a professional mediator can file a collective complaint with the Ombudsman, arguing that the <strong>"Fair Practices Code"</strong> is being violated across the board. This often results in a "Ceasefire" where all lenders agree to stop recovery calls while a mediated settlement is discussed. This "Unified Legal Shield" is the ultimate benefit of using a specialized service.
                             </p>
 
-                            <h2 id="case-studies-multi-debt" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Real Case Studies: Synchronized Success</h2>
+                            <h2 id="additional-case-studies" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Case Studies: Synchronized Multi-Bank Settlements</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 italic text-gray-500">Note: Names and specific locations have been altered to protect client confidentiality.</p>
                             <div className="space-y-10 mb-16">
                                 <div className="p-10 bg-slate-900 text-white rounded-[3rem] shadow-2xl transition-transform hover:scale-[1.02]">

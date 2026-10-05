@@ -335,7 +335,7 @@ export default function PoliceComplaintAgainstBankRecoveryAgentClient() {
                 <span>Financial Analysis</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs Inflated Penalties
+                2. Financial Breakdown: Actual Principal vs Recovery Charges
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When a borrower defaults, financial institutions inflate the ledger balance by compounding contractual interest with penal interest rates (often 24% to 36% per annum), bounce fees, and recovery charges. This accounting practice often swells the claimed liability by 35% to 65% above the genuine principal balance, creating psychological panic designed to force distressed borrowers into hasty payments.

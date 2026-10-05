@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     description: 'Expert legal defense for SME and MSME loan disputes. We help businesses navigate delayed payments, MSEFC arbitration, and loan restructuring.',
     keywords: 'SME loan dispute resolution, MSME loan legal help India, MSEFC arbitration for delayed payments, RBI MSME revival framework, professional SME debt defense',
     alternates: {
-        canonical: 'https://www.credsettle.com/SME-loan-dispute-resolution'
+        canonical: 'https://www.credsettle.com/sme-loan-dispute-resolution'
     }
 };
 
@@ -49,7 +49,7 @@ export default function SmeLoanDisputeResolutionPage() {
                 '@type': 'ListItem',
                 'position': 2,
                 'name': 'SME Loan Dispute Resolution',
-                'item': 'https://www.credsettle.com/SME-loan-dispute-resolution'
+                'item': 'https://www.credsettle.com/sme-loan-dispute-resolution'
             }
         ]
     };

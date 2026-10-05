@@ -644,9 +644,7 @@ export default function PersonalLoanSettlementPageClient() {
                 lineHeight: '36px'
               }}
             >
-              Why CredSettle is Your Best Resolution
-              <br />
-              Partner
+              Why Choose CredSettle for Personal Loan Settlement
             </h2>
             <p
               className="text-xs md:text-sm lg:text-[14px]"
@@ -742,7 +740,7 @@ export default function PersonalLoanSettlementPageClient() {
                     lineHeight: '26px'
                   }}
                 >
-                  Why CredSettle is Your Best Resolution Partner
+                  Our Track Record in Personal Loan Settlement
                 </h2>
                 <p
                   className="text-xs md:text-sm lg:text-[14px] text-center"

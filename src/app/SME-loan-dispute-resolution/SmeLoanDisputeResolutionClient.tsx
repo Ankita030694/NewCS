@@ -555,8 +555,8 @@ export default function SmeLoanDisputeResolutionClient() {
                             <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Business Guides</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/SME-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Dispute Resolution</Link>
-                                    <Link href="/best-lawyer-for-MSME-personal-loan" className="block text-sm text-blue-600 hover:underline">MSME Personal Loan Help</Link>
+                                    <Link href="/sme-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Dispute Resolution</Link>
+                                    <Link href="/best-lawyer-for-msme-personal-loan" className="block text-sm text-blue-600 hover:underline">MSME Personal Loan Help</Link>
                                     <Link href="/services/business-loan-settlement" className="block text-sm text-blue-600 hover:underline">Settle My Business Loan</Link>
                                     <div className="block text-sm text-gray-400 ">Handling Recovery Notices</div>
                                 </nav>

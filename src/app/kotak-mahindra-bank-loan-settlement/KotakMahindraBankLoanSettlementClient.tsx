@@ -305,7 +305,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 2: Forensic Ledger Analysis</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Financial Breakdown and Settlement Mathematical Formulation
+                Understanding Kotak Mahindra Loan Charges & Settlement Options
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>
@@ -362,7 +362,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 3: Strategic Evaluation</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Resolution Pathways Comparison: OTS versus Alternate Mechanisms
+                Kotak Settlement vs Restructuring & Alternate Pathways
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Borrowers facing persistent loan distress frequently consider loan restructuring or Lok Adalat referrals without evaluating the long-term financial consequences. Restructuring merely extends the tenure while compounding base interest rates, whereas outright default neglect triggers legal notices and potential assignment to private debt buyers. The comparative matrix below outlines the critical parameters governing each resolution route.
@@ -427,7 +427,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 4: Credit Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Technical CIBIL Algorithm Breakdown and Section 21 CICRA Remediation
+                Kotak Default Impact on CIBIL & Section 21 CICRA Relief
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>
@@ -559,7 +559,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 7: Statutory Protections</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Statutory Notice Defense and Legal Rights under Indian Law
+                Kotak Legal Notices Defense & Borrower Rights in India
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Defaulting on unsecured personal loans is strictly a civil dispute, not a criminal offense. CredSettle ensures strict statutory defense against automated notices and recovery agency overreach.
@@ -616,7 +616,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 8: Regulatory Redressal</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Three-Tier Institutional Grievance and Escalation Matrix
+                3-Tier Grievance Escalation Matrix for Kotak Loans
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>
@@ -641,7 +641,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 9: Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Chronological Loan Default Milestones and Settlement Timeline
+                Kotak Loan Default Milestones & Resolution Timeline
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Navigating loan resolution requires understanding the sequential phases through which Kotak Mahindra Bank processes defaulted retail debt. The table below delineates the critical operational and legal milestones from initial missed installment to final credit bureau closure.
@@ -700,7 +700,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 10: Practical Case Studies</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Specialized Real-World Scenarios and Contextual Resolutions
+                Case Scenarios: Resolving Kotak Mahindra Loan Defaults
               </h2>
 
               {/* 4 REAL-WORLD SCENARIO CARDS */}
@@ -798,7 +798,7 @@ export default function KotakMahindraBankLoanSettlementClient() {
                 <span>Section 13: Legal Authority &amp; References</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Statutory Citations and Regulatory Reference Repositories
+                Statutory Citations & RBI Regulations for Kotak Borrowers
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2">
                 <p>

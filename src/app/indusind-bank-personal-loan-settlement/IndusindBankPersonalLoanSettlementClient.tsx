@@ -283,7 +283,7 @@ export default function IndusindBankPersonalLoanSettlementClient() {
                 <span>Banking Regulations &amp; Prudential Guidelines</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Classification in IndusInd Bank Personal Loans
+                1. Debt Economics &amp; NPA Classification in IndusInd Loans
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 IndusInd Bank actively disburses unsecured personal loans and premium credit cards to salaried executives and self-employed professionals. When unforeseen economic shocks arise, such as unexpected corporate layoffs, business cashflow contraction, or severe medical emergencies, servicing monthly equated installments becomes impossible, leading to rapid delinquency under Reserve Bank of India prudential norms.
@@ -303,7 +303,7 @@ export default function IndusindBankPersonalLoanSettlementClient() {
                 <span>Financial Forensics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs. Inflated Penal Charges
+                Understanding IndusInd Loan Charges and Settlement Options
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Upon loan default, IndusInd Bank automated banking systems compound ledger balances by levying 24% to 36% penal interest per annum, recurring NACH bounce charges of ₹500 plus GST, and progressive late fees. Within six months, these artificial non-statutory additions inflate the gross ledger claim by 30% to 45% above genuine unamortized principal.
@@ -737,7 +737,7 @@ export default function IndusindBankPersonalLoanSettlementClient() {
                 <span>Complex Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Handling Complex Scenarios: Combined Credit Cards, Layoffs &amp; ARCs
+                10. Handling Complex Scenarios: Credit Cards &amp; ARCs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Debt distress rarely follows a uniform pattern. Standard collection approaches fail to address complex multi-product liabilities and sudden economic shocks. Below are strategic resolution tactics for specialized IndusInd Bank loan scenarios.
@@ -798,7 +798,7 @@ export default function IndusindBankPersonalLoanSettlementClient() {
                 <span>Direct Answers</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions About IndusInd Bank Personal Loan Settlement
+                Frequently Asked Questions: IndusInd Bank Loan Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Clear, legally verified answers addressing the most common borrower inquiries regarding IndusInd Bank&apos;s personal loan settlement process, waiver expectations, advocate legal notices, Lok Adalat proceedings, and credit score rehabilitation.

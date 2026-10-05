@@ -7,7 +7,7 @@ import LoanOverdueNachBounceClient from './LoanOverdueNachBounceClient';
 
 export const metadata: Metadata = {
     title: "Loan Overdue Due to NACH Bounce: Immediate Steps to Take",
-    description: "A NACH bounce can trigger Section 25 criminal notices and severe penalties. Learn the immediate 48-hour steps to clear manual EMI payments before bank.",
+    description: "A NACH bounce can trigger Section 25 notices. Learn the critical 48-hour steps to make manual EMI payments and avoid criminal legal proceedings.",
     keywords: [
         "loan overdue NACH bounce",
         "Section 25 NACH dishonour",

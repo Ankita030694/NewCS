@@ -305,7 +305,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 2: Forensic Ledger Analysis</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Financial Breakdown and Settlement Mathematical Formulation
+                Understanding IDFC FIRST Bank Loan Charges & Settlement Math
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>
@@ -362,7 +362,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 3: Strategic Evaluation</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Resolution Pathways Comparison: OTS versus Alternate Mechanisms
+                IDFC Settlement vs Restructuring & Alternate Options
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 When borrowers experience severe debt distress on IDFC FIRST Bank personal loans, they are frequently presented with confusing alternatives ranging from tenure extensions to court appearances. Loan restructuring appears attractive initially but actually increases aggregate interest burdens without granting any principal relief. Conversely, unresolved defaults trigger aggressive digital summons, potential criminal complaints under payment statutes, and eventual debt assignment to private asset recovery entities. The comprehensive comparative matrix below objectively contrasts the legal, financial, and credit implications across every available resolution pathway.
@@ -427,7 +427,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 4: Credit Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Technical CIBIL Algorithm Breakdown and Section 21 CICRA Remediation
+                IDFC Default Impact on CIBIL & Section 21 CICRA Relief
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>
@@ -559,7 +559,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 7: Statutory Protections</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Statutory Notice Defense and Legal Rights under Indian Law
+                IDFC Legal Notices Defense & Borrower Rights in India
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>
@@ -621,7 +621,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 8: Regulatory Redressal</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Three-Tier Institutional Grievance and Escalation Matrix
+                3-Tier Grievance Escalation Matrix for IDFC Loans
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
                 <p>
@@ -646,7 +646,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 9: Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Chronological Loan Default Milestones and Settlement Timeline
+                IDFC Loan Default Milestones & Resolution Timeline
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
                 Effectively managing a delinquent loan requires understanding the exact procedural timeline through which IDFC FIRST Bank escalates recovery and evaluates compromise proposals. The chronological milestone table below delineates the transition from initial missed installment to final debt discharge.
@@ -705,7 +705,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 10: Practical Case Studies</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Specialized Real-World Scenarios and Contextual Resolutions
+                Case Scenarios: Resolving IDFC FIRST Bank Loan Defaults
               </h2>
 
               {/* 4 REAL-WORLD SCENARIO CARDS */}
@@ -803,7 +803,7 @@ export default function IdfcFirstBankLoanSettlementClient() {
                 <span>Section 13: Legal Authority &amp; References</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-                Statutory Citations and Regulatory Reference Repositories
+                Statutory Citations & RBI Regulations for IDFC Borrowers
               </h2>
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2">
                 <p>

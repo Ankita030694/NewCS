@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Govt Portal for Debt Complaints in India | CredSettle',
-  description: 'Searching for a government portal for debt collection complaints? Learn about RBI CMS, CPGRAMS, and NCH to report harassment and resolve debt disputes.',
+  description: "Report debt collection harassment on government portals. Learn how to file complaints via RBI CMS, CPGRAMS, and National Consumer Helpline.",
   keywords: [
     'government portal for debt collection complaints',
     'rbi complaint management system',

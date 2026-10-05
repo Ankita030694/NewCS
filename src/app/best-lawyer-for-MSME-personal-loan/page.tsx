@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         "debt relief for MSME promoters"
     ],
     alternates: {
-        canonical: 'https://www.credsettle.com/best-lawyer-for-MSME-personal-loan',
+        canonical: 'https://www.credsettle.com/best-lawyer-for-msme-personal-loan',
     },
 };
 
@@ -60,7 +60,7 @@ export default function MSMEPersonalLoanPage() {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Best Lawyer for MSME Personal Loan",
-                "item": "https://www.credsettle.com/best-lawyer-for-MSME-personal-loan"
+                "item": "https://www.credsettle.com/best-lawyer-for-msme-personal-loan"
             }
         ]
     };

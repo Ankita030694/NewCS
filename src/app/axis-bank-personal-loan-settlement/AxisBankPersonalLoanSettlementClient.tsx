@@ -292,7 +292,7 @@ export default function AxisBankPersonalLoanSettlementClient() {
                 <span>Financial Forensics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs. Inflated Penal Charges
+                Understanding Axis Bank Loan Charges and Settlement Amounts
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When an Axis personal loan defaults, automated banking software inflates the ledger balance by compounding penal interest at 24% to 36% per annum, imposing NACH bounce charges of ₹500 plus GST per presentation, and adding late payment surcharges. Over several months, these artificial non-statutory additions inflate the gross claim by 30% to 45% above the genuine unamortized principal.

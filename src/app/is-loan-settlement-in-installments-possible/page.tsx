@@ -7,7 +7,7 @@ import InstallmentSettlementClient from './InstallmentSettlementClient';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement in Installments in India | CredSettle',
-  description: 'Can you settle a bank loan in installments? Learn about structured debt settlement agreements, staged payments, RBI 2025 rules, and the 3-installment rule.',
+  description: "Can you settle a bank loan in installments? Learn about structured settlement agreements, staged payments, and RBI guidelines for split settlements.",
   alternates: {
     canonical: 'https://www.credsettle.com/is-loan-settlement-in-installments-possible',
   },

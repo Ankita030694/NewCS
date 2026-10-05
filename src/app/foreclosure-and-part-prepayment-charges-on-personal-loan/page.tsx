@@ -7,7 +7,7 @@ import ForeclosureAndPartPrepaymentChargesClient from './ForeclosureAndPartPrepa
 
 export const metadata: Metadata = {
     title: "Foreclosure and Part-Prepayment Charges on Personal Loans",
-    description: "Understand the RBI rules on foreclosure charges and personal loan prepayment penalties. Learn how to strategically prepay and minimize hidden bank fees.",
+    description: "Understand RBI rules on foreclosure and prepayment penalties for personal loans. Learn how to prepay strategically and avoid extra bank charges.",
     keywords: [
         "foreclosure charges on personal loan",
         "personal loan prepayment penalty",

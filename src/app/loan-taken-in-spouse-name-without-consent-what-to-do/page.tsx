@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Spouse Took Loan Without Consent',
-  description: 'Discover legal steps to take if your husband or wife took a loan in your name using your Aadhaar or PAN card without consent. Stop bank harassment today.',
+  description: "Spouse took a loan in your name without consent? Learn the legal steps to dispute unauthorized debt, stop bank harassment, and protect your credit.",
   keywords: [
     'husband took loan in my name without telling me',
     'wife took credit card loan without my knowledge India',

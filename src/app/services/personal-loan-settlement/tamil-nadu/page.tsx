@@ -3,7 +3,7 @@ import TamilNaduPageClient from './TamilNaduPageClient';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement Chennai Coimbatore Tamil Nadu',
-  description: 'Personal loan settlement in Chennai, Coimbatore, Madurai, Salem. IT professionals, auto sector, textile manufacturing. Protected by TN Anti-Harassment Law.',
+  description: "Personal loan settlement in Chennai, Coimbatore, and Madurai. Tailored legal debt relief for IT and manufacturing under TN Anti-Harassment laws.",
   keywords: [
     'loan settlement Chennai',
     'personal loan settlement Coimbatore',

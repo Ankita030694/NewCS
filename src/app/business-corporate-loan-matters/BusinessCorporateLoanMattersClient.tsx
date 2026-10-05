@@ -501,7 +501,7 @@ export default function BusinessCorporateLoanMattersClient() {
                             <div className="bg-gray-100 p-6 rounded-2xl border border-gray-200 shadow-sm">
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Expertise</h4>
                                 <nav className="space-y-3">
-                                    <Link href="/SME-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Disputes</Link>
+                                    <Link href="/sme-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Disputes</Link>
                                     <Link href="/best-lawyer-for-msme-and-business-loans" className="block text-sm text-blue-600 hover:underline">MSME Lawyers</Link>
                                     <Link href="/best-lawyer-for-loan-settlement-by-drt" className="block text-sm text-blue-600 hover:underline">DRT Settlement</Link>
                                     <Link href="/best-lawyer-for-company-loan-matters" className="block text-sm text-blue-600 hover:underline">Company Loan Law</Link>

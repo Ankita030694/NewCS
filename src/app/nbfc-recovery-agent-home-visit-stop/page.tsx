@@ -7,7 +7,7 @@ import NbfcRecoveryClient from './NbfcRecoveryClient';
 
 export const metadata: Metadata = {
     title: "How to Stop NBFC Recovery Agent Home Visits in India",
-    description: "Learn the exact legal protocols NBFCs like Bajaj Finance must follow for home visits. Stop recovery agent harassment and demand DRA authorization legally.",
+    description: "Learn the legal rules NBFCs must follow during home visits. Stop recovery agent harassment and demand valid DRA authorization under RBI rules.",
     keywords: [
         "nbfc recovery agent home visit",
         "bajaj finance recovery agent harassment",

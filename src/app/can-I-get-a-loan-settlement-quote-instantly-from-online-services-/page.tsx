@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://www.credsettle.com/can-I-get-a-loan-settlement-quote-instantly-from-online-services-'
+    url: 'https://www.credsettle.com/can-i-get-a-loan-settlement-quote-instantly-from-online-services-'
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: 'Discover how to get an instant loan settlement quote online and avoid deceptive scams.'
   },
   alternates: {
-    canonical: 'https://www.credsettle.com/can-I-get-a-loan-settlement-quote-instantly-from-online-services-'
+    canonical: 'https://www.credsettle.com/can-i-get-a-loan-settlement-quote-instantly-from-online-services-'
   },
   robots: {
     index: true,
@@ -61,7 +61,7 @@ export default function InstantQuotePage() {
     'dateModified': new Date().toISOString().split('T')[0],
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://www.credsettle.com/can-I-get-a-loan-settlement-quote-instantly-from-online-services-'
+      '@id': 'https://www.credsettle.com/can-i-get-a-loan-settlement-quote-instantly-from-online-services-'
     }
   };
 
@@ -150,7 +150,7 @@ export default function InstantQuotePage() {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Instant Loan Settlement Quote',
-        'item': 'https://www.credsettle.com/can-I-get-a-loan-settlement-quote-instantly-from-online-services-'
+        'item': 'https://www.credsettle.com/can-i-get-a-loan-settlement-quote-instantly-from-online-services-'
       }
     ]
   };

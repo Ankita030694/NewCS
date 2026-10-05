@@ -438,7 +438,7 @@ export default function FindDebtSettlementClient() {
                 <p>To help you further understand the landscape of debt settlement in India, we have curated a list of essential resources from our knowledge base:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li><Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="text-blue-600 hover:underline">Complete Guide: What is Loan Settlement and How Does it Work in India?</Link></li>
-                  <li><Link href="/how-can-I-negotiate-a-personal-loan-settlement-with-lenders" className="text-blue-600 hover:underline">Expert Tips: How to Negotiate a Personal Loan Settlement with Lenders</Link></li>
+                  <li><Link href="/how-can-i-negotiate-a-personal-loan-settlement-with-lenders" className="text-blue-600 hover:underline">Expert Tips: How to Negotiate a Personal Loan Settlement with Lenders</Link></li>
                   <li><Link href="/how-does-settling-a-loan-impact-my-cibil-credit-score" className="text-blue-600 hover:underline">Understanding the Impact: How Settling a Loan Affects Your CIBIL Score</Link></li>
                   <li><Link href="/steps-to-apply-for-a-loan-settlement-through-a-financial-service-provider" className="text-blue-600 hover:underline">Step by Step: Applying for Loan Settlement Through a Professional Service</Link></li>
                   <li><Link href="/what-are-the-key-benefits-and-drawbacks-of-pursuing-a-loan-settlement" className="text-blue-600 hover:underline">Pros and Cons: The Key Benefits and Drawbacks of Pursuing a Loan Settlement</Link></li>

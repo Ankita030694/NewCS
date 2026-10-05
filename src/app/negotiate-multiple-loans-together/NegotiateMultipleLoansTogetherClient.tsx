@@ -60,7 +60,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
     };
 
     const navLinks = [
-        { id: 'quick-answer', label: 'Quick Answer' },
+        { id: 'quick-answer', label: 'Key Summary' },
         { id: 'introduction', label: 'The Core Challenge' },
         { id: 'legal-strategy', label: 'Consolidated Strategy' },
         { id: 'timeline-sync', label: 'Syncing Timelines' },
@@ -280,7 +280,7 @@ export default function NegotiateMultipleLoansTogetherClient() {
 
                             {/* Quick Answer Block */}
                             <div id="quick-answer" className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10 shadow-sm scroll-mt-24">
-                                <h2 className="text-xl font-bold text-blue-900 mt-0 mb-3">Quick Answer</h2>
+                                <h2 className="text-xl font-bold text-blue-900 mt-0 mb-3">Key Summary: Negotiating Multiple Loans Together</h2>
                                 <p className="text-blue-900 m-0 font-normal leading-relaxed">
                                     Yes, you can absolutely negotiate multiple personal loans together by appointing a single legal representative to handle all your lenders simultaneously. This consolidated approach allows your representative to present a unified picture of your financial hardship across all institutions. As a result, you prevent one aggressive lender from taking all your available funds, ensuring that settlements are reached at highly reduced amounts across the board.
                                 </p>

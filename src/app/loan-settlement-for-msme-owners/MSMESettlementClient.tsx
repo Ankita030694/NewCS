@@ -445,19 +445,19 @@ export default function MSMESettlementClient() {
                                 Resolving MSME debt is a multi dimensional challenge that requires a combination of legal, financial, and strategic expert knowledge. Most business owners are too stressed and too close to the situation to negotiate effectively. This is where professional partners make the difference between a failed recovery and a successful reset.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     They provide the legal defense. From challenging SARFAESI notices in DRT to defending against wilful defaulter classification, AMA Legal Solutions ensures that the bank respects every inch of your rights under the MSMED Act and RBI guidelines.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     They are your professional negotiators. CredSettle speaks the "Bank language." They bypass recovery agents and talk directly to the decision makers in the bank’s settlement committees, using data to secure the lowest possible payout amount.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     They provide the digital roadmap. SettleLoans helps you build your Hardship Dossier and identifies bank errors in interest calculation, giving you the arithmetic leverage needed to demand a better deal.
                                 </p>

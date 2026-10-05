@@ -208,7 +208,7 @@ export default function PersonalLoanDefaulterClient() {
             <h1 className="text-3xl font-bold text-gray-900 mb-8">Personal Loan Defaulter for 10 Years: The Complete Legal & Financial Reality</h1>
 
             <section className="mb-10 p-6 bg-blue-50 border border-blue-100 rounded-2xl shadow-sm">
-              <h2 className="text-xl font-bold text-blue-900 mb-3">TL;DR (Summary)</h2>
+              <h2 className="text-xl font-bold text-blue-900 mb-3">Key Takeaways: Legal Realities of a 10-Year Loan Default</h2>
               <ul className="list-disc pl-5 text-base text-gray-800 space-y-2">
                 <li><strong>The Reality:</strong> In India, a staggering number of borrowers believe that avoiding repayment for an extended period magically erases their liability, but the legal reality of being a personal loan defaulter for 10 years is far more complex. While a debt may technically become time barred after 3 years under the Limitation Act of 1963, banks can still use sophisticated strategies like tricking you into a tiny payment to legally resurrect your liability a decade later.</li>
                 <li><strong>The Limitation Act:</strong> Unsecured debts generally become time barred after three years, preventing banks from filing fresh civil recovery suits.</li>

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         "MSME debt settlement legal expert"
     ],
     alternates: {
-        canonical: 'https://www.credsettle.com/best-lawyer-for-MSME-loan-recovery-defence',
+        canonical: 'https://www.credsettle.com/best-lawyer-for-msme-loan-recovery-defence',
     },
 };
 
@@ -60,7 +60,7 @@ export default function MSMELoanRecoveryPage() {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Best Lawyer for MSME Loan Recovery Defence",
-                "item": "https://www.credsettle.com/best-lawyer-for-MSME-loan-recovery-defence"
+                "item": "https://www.credsettle.com/best-lawyer-for-msme-loan-recovery-defence"
             }
         ]
     };

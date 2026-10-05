@@ -583,7 +583,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/how-to-negotiate-a-personal-loan-settlement-with-lenders",
-        destination: "/how-can-I-negotiate-a-personal-loan-settlement-with-lenders",
+        destination: "/how-can-i-negotiate-a-personal-loan-settlement-with-lenders",
         permanent: true,
       },
       {
@@ -684,6 +684,36 @@ const nextConfig: NextConfig = {
       {
         source: "/loan-settlement-services-vs-debt-consolidation-companies-which-is-better-for-reducing-emi",
         destination: "/loan-settlement-vs-debt-consolidation",
+        permanent: true,
+      },
+      {
+        source: "/SME-loan-dispute-resolution",
+        destination: "/sme-loan-dispute-resolution",
+        permanent: true,
+      },
+      {
+        source: "/best-lawyer-for-MSME-loan-recovery-defence",
+        destination: "/best-lawyer-for-msme-loan-recovery-defence",
+        permanent: true,
+      },
+      {
+        source: "/best-lawyer-for-MSME-personal-loan",
+        destination: "/best-lawyer-for-msme-personal-loan",
+        permanent: true,
+      },
+      {
+        source: "/can-I-get-a-loan-settlement-quote-instantly-from-online-services-",
+        destination: "/can-i-get-a-loan-settlement-quote-instantly-from-online-services-",
+        permanent: true,
+      },
+      {
+        source: "/can-I-settle-my-home-loan",
+        destination: "/can-i-settle-my-home-loan",
+        permanent: true,
+      },
+      {
+        source: "/how-can-I-negotiate-a-personal-loan-settlement-with-lenders",
+        destination: "/how-can-i-negotiate-a-personal-loan-settlement-with-lenders",
         permanent: true,
       },
     ];

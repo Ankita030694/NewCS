@@ -45,7 +45,7 @@ export default function CreditCardSettlementClient() {
     }, []);
 
     const navLinks = [
-        { id: 'introduction', label: 'Introduction' },
+        { id: 'introduction', label: 'Overview & Guide' },
         { id: 'reality-of-credit-card-settlement', label: 'The Reality' },
         { id: 'when-do-banks-agree', label: 'When Banks Settle' },
         { id: 'hidden-costs', label: 'Hidden Costs' },
@@ -203,7 +203,7 @@ export default function CreditCardSettlementClient() {
 
                     <main className="lg:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
-                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Introduction</h2>
+                            <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Understanding Credit Card Debt Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 In 2026, Indian banks reported a staggering increase in credit card defaults, leading thousands to seek settlement options. However, navigating a credit card settlement is a legally binding process, not a simple "get out of debt free" card. With the rapid expansion of digital lending and credit card issuance across tier two and tier three cities, the volume of consumers finding themselves trapped in revolving debt has skyrocketed. Many individuals facing sudden job losses, medical emergencies, or business downturns look toward credit card settlement as their only viable escape route from mounting compound interest and relentless recovery calls.
                             </p>

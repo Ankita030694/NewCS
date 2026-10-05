@@ -7,7 +7,7 @@ import AuctionSettlementProcessClient from './AuctionSettlementProcessClient';
 
 export const metadata: Metadata = {
     title: "Auction Settlement Process for Loan Recovery Explained",
-    description: "Stop bank auction by settlement. Learn the hidden pre auction settlement window under SARFAESI and how to negotiate a cash settlement before property.",
+    description: "Stop bank property auctions under SARFAESI. Learn how to negotiate a pre-auction cash settlement and protect your mortgaged assets legally.",
     keywords: [
         "loan auction settlement process",
         "stop bank auction by settlement",

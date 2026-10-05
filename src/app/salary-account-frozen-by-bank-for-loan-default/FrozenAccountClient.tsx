@@ -421,7 +421,7 @@ export default function FrozenAccountClient() {
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">Bank Recovery Defence</Link>
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-[#3b82f6] hover:underline text-lg">DRT Specialization</Link>
                                     <Link href="/what-is-the-best-way-to-negotiate-loan-settlement" className="block text-[#3b82f6] hover:underline text-lg">Settlement Strategies</Link>
-                                    <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">MSME Loan Defence</Link>
+                                    <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-[#3b82f6] hover:underline text-lg">MSME Loan Defence</Link>
                                 </nav>
                             </div>
                         </div>

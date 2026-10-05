@@ -113,6 +113,7 @@ const SECTIONS = [
             <Link
               href="https://policies.google.com/privacy"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity break-all"
             >
               https://policies.google.com/privacy
@@ -123,6 +124,7 @@ const SECTIONS = [
             <Link
               href="https://firebase.google.com/support/privacy"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity break-all"
             >
               https://firebase.google.com/support/privacy
@@ -133,6 +135,7 @@ const SECTIONS = [
             <Link
               href="https://cloud.google.com/terms/data-processing-terms"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity break-all"
             >
               https://cloud.google.com/terms/data-processing-terms

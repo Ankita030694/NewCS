@@ -485,19 +485,19 @@ export default function StartupSettlementClient() {
                                 Managing a startup default is a full time job that requires legal, financial, and psychological expertise. Most founders are too emotionally involved to negotiate effectively. This is where professional partners become invaluable.
                             </p>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     AMA Legal Solutions provides the "Legal Fortress." They defend founders against "Wilful Defaulter" tags, challenge unlawful recovery practices, and conduct the legal audits that identify unauthorized bank charges. They ensure that your settlement is legally watertight and that you are protected from any "Double Jeopardy" where a bank tries to recover again after a settlement.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     CredSettle provides the "Negotiation Command." They act as your proxy, dealing with the bank’s recovery agents and senior managers. They know which bank is more likely to accept a waiver and how to structure a payment plan that fits your current financial reality. They take the "Stigma" and the "Stress" out of the room, allowing for a pure financial negotiation.
                                 </p>
                             </div>
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     SettleLoans provides the "Digital Transparency." Their tools help you build your Hardship Dossier and track your settlement progress in real time. They provide the "Data Evidence" that bridges the gap between your story and the bank’s spreadsheet. They ensure that every step of your reset is documented and verifiable.
                                 </p>

@@ -624,7 +624,7 @@ export default function BestLawyerLoanMortgageClient() {
                                     <Link href="/loan-agreement-drafting-review" className="block text-sm text-blue-600 hover:underline">Expert Legal Drafting</Link>
                                     <Link href="/best-lawyer-for-home-loan-settlement" className="block text-sm text-blue-600 hover:underline">Home Loan Solutions</Link>
                                     <Link href="/best-lawyer-for-loan-settlement-by-drt" className="block text-sm text-blue-600 hover:underline">DRT Tribunal Representation</Link>
-                                    <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">SARFAESI Defense Tactics</Link>
+                                    <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">SARFAESI Defense Tactics</Link>
                                 </nav>
                             </div>
                         </div>

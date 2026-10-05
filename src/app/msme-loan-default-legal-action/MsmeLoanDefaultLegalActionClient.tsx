@@ -901,8 +901,8 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <div className="pt-2 border-t border-slate-100">
                 <span className="text-xs font-bold text-slate-700 block mb-1.5">Related CredSettle Guides:</span>
                 <div className="flex flex-wrap gap-1.5">
-                  <Link href="/SME-loan-dispute-resolution" className="text-[11px] px-2 py-0.5 rounded bg-slate-100 hover:text-[#1886ff] text-slate-700 border border-slate-200">SME Loan Dispute</Link>
-                  <Link href="/best-lawyer-for-MSME-loan-recovery-defence" className="text-[11px] px-2 py-0.5 rounded bg-slate-100 hover:text-[#1886ff] text-slate-700 border border-slate-200">MSME Recovery Defense</Link>
+                  <Link href="/sme-loan-dispute-resolution" className="text-[11px] px-2 py-0.5 rounded bg-slate-100 hover:text-[#1886ff] text-slate-700 border border-slate-200">SME Loan Dispute</Link>
+                  <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="text-[11px] px-2 py-0.5 rounded bg-slate-100 hover:text-[#1886ff] text-slate-700 border border-slate-200">MSME Recovery Defense</Link>
                   <Link href="/best-lawyer-for-business-loan-settlement" className="text-[11px] px-2 py-0.5 rounded bg-slate-100 hover:text-[#1886ff] text-slate-700 border border-slate-200">Business Loan Settlement</Link>
                   <Link href="/best-lawyer-for-company-loan-matters" className="text-[11px] px-2 py-0.5 rounded bg-slate-100 hover:text-[#1886ff] text-slate-700 border border-slate-200">Company Loan Matters</Link>
                   <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="text-[11px] px-2 py-0.5 rounded bg-slate-100 hover:text-[#1886ff] text-slate-700 border border-slate-200">DRT Defense</Link>
@@ -1019,7 +1019,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h4 className="font-bold text-slate-900 text-sm">Related Guides</h4>
               <div className="space-y-2">
                 <Link
-                  href="/SME-loan-dispute-resolution"
+                  href="/sme-loan-dispute-resolution"
                   className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors"
                 >
                   <p className="font-bold text-slate-800 leading-snug">SME Loan Dispute Resolution</p>

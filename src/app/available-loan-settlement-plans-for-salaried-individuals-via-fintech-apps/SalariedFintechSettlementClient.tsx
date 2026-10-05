@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -386,21 +386,21 @@ export default function SalariedFintechSettlementClient() {
                             </p>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">1. <Link href="https://amalegalsolutions.com" target="_blank" className="text-blue-600 underline hover:text-blue-800">AMA Legal Solutions</Link></h3>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-4">1. <Link href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">AMA Legal Solutions</Link></h3>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
                                     AMA Legal Solutions provides the legal muscle required to deal with recalcitrant banks. They handle "Legal Responses," represent you in Lok Adalats, and ensure that the bank doesn’t use "Unfair Practices" during the settlement journey. Their involvement often leads to faster approvals as banks treat legal firms with more respect than individual borrowers.
                                 </p>
                             </div>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">2. <Link href="https://credsettle.com" target="_blank" className="text-blue-600 underline hover:text-blue-800">CredSettle</Link></h3>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-4">2. <Link href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">CredSettle</Link></h3>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
                                     CredSettle offers a data driven approach to settlement. They provide a "Unified Dashboard" that helps salaried professionals track their progress, see potential savings, and communicate with expert negotiators in real time. Their platform is designed for the modern, tech savvy employee who wants transparency and efficiency.
                                 </p>
                             </div>
 
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-4">3. <Link href="https://settleloans.in" target="_blank" className="text-blue-600 underline hover:text-blue-800">SettleLoans</Link></h3>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-4">3. <Link href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">SettleLoans</Link></h3>
                                 <p className="text-gray-700 mb-4 font-light leading-relaxed">
                                     SettleLoans focuses on personalized settlement strategies. They understand that a software engineer’s debt crisis is different from a retail employee’s crisis. They tailor the "Hardship Narrative" to fit your specific professional background, ensuring the most favorable outcome from the bank.
                                 </p>

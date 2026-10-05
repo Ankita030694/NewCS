@@ -313,7 +313,7 @@ export default function NriReturningToIndiaWithUnpaidDebtClient() {
                 <span>Financial Analysis &amp; Settlement Economics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs Inflated Penalties
+                2. Financial Breakdown: NRI Principal vs Inflated Penalties
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">

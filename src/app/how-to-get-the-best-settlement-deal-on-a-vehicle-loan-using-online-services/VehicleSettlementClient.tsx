@@ -150,6 +150,7 @@ export default function VehicleSettlementClient() {
             <Link 
               href="https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20settle%20my%20vehicle%20loan" 
               target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
               Consult Vehicle Expert
@@ -379,6 +380,7 @@ export default function VehicleSettlementClient() {
                   <Link 
                     href="https://api.whatsapp.com/send?phone=919540003295&text=Start%20my%20vehicle%20loan%20settlement" 
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-white text-blue-900 px-10 py-5 rounded-full font-bold text-xl hover:bg-opacity-95 transition-all shadow-xl transform hover:-translate-y-1"
                   >
                     Start Online Settlement

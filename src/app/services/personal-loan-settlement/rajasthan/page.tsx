@@ -3,7 +3,7 @@ import RajasthanPageClient from './RajasthanPageClient';
 
 export const metadata: Metadata = {
   title: 'Loan Settlement Jaipur Jodhpur Rajasthan',
-  description: 'Personal loan settlement in Jaipur, Jodhpur, Udaipur, Kota. Tourism sector, handicraft, mining, MSME. Rajasthan OTS Scheme support. Reduce debt 30-70%.',
+  description: "Personal loan settlement across Jaipur, Jodhpur, and Udaipur. Get expert legal relief, Rajasthan OTS support, and reduce your debt by 30% to 70%.",
   keywords: [
     'loan settlement Jaipur',
     'personal loan settlement Jodhpur',

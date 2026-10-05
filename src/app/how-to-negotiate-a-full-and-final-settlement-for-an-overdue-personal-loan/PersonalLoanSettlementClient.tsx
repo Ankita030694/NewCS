@@ -524,7 +524,7 @@ export default function PersonalLoanSettlementClient() {
                 <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-900 rounded-full -ml-300 -mb-300 opacity-20 blur-[150px]"></div>
               </div>
               <p className="text-sm text-gray-500 mt-8 text-center">
-                For more information regarding regulatory guidelines, please consult the official portal of the <a href="https://rbi.org.in/" target="_blank" rel="nofollow" className="text-blue-600 hover:underline">Reserve Bank of India</a>.
+                For more information regarding regulatory guidelines, please consult the official portal of the <a href="https://rbi.org.in/" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">Reserve Bank of India</a>.
               </p>
             </section>
 

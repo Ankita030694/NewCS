@@ -343,7 +343,7 @@ export default function TamilNaduLoanSettlementClient() {
               
               <h3 className="text-xl font-bold text-gray-800 mb-3">How to File a Complaint</h3>
               <ul className="list-disc pl-6 space-y-2 mb-6 text-gray-700">
-                 <li><strong>TN Police Citizen Portal:</strong> You can file a complaint online at <a href="https://eservices.tnpolice.gov.in" target="_blank" rel="nofollow" className="text-blue-600 hover:underline">eservices.tnpolice.gov.in</a>. This generates a CSR (Community Service Register) receipt immediately, forcing the local station to investigate.</li>
+                 <li><strong>TN Police Citizen Portal:</strong> You can file a complaint online at <a href="https://eservices.tnpolice.gov.in" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">eservices.tnpolice.gov.in</a>. This generates a CSR (Community Service Register) receipt immediately, forcing the local station to investigate.</li>
                  <li><strong>Cyber Crime Wing:</strong> For harassment via WhatsApp, email, or instant loan apps, you can report to the Cyber Crime division. Tamil Nadu has specialized cyber cells in all major cities like Chennai, Coimbatore, and Madurai.</li>
                  <li><strong>Dial 100/112:</strong> In cases of immediate threat where agents are at your doorstep creating a nuisance, dialing the emergency number brings immediate police response.</li>
               </ul>

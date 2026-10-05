@@ -282,7 +282,7 @@ export default function IciciBankPersonalLoanSettlementClient() {
                 <span>Financial Forensics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs. Inflated Penal Charges
+                Understanding ICICI Loan Charges and Settlement Options
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Defaulted personal loans quickly inflate through penal interest compounding at 24% to 36% per annum, NACH bounce penalties of ₹500 to ₹750, and GST surcharges. Over six months, these automated levies can swell the outstanding balance by 30% to 40% above the genuine unamortized principal disbursed.

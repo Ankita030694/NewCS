@@ -52,7 +52,7 @@ export default function OnlineServicesClient() {
   }, [activeId, isMobile]);
 
   const navLinks = [
-    { id: 'introduction', label: 'Introduction' },
+    { id: 'introduction', label: 'Overview & Guide' },
     { id: 'how-it-works', label: 'How Online Loan Settlement Services Work' },
     { id: 'step-by-step', label: 'Step-by-Step Checklist' },
     { id: 'comparison', label: 'Comparison' },
@@ -181,7 +181,7 @@ export default function OnlineServicesClient() {
           <article className="lg:w-3/5 w-full prose prose max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
             
             <section>
-              <h2 id="introduction" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Introduction</h2>
+              <h2 id="introduction" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Understanding Online Loan Settlement Services</h2>
               <div className="text-gray-700 leading-relaxed text-base mb-16 space-y-10 opacity-90 border-l-4 border-blue-600 pl-8">
                 <p>
                   In 2025, over 3.2 million Indians actively searched for online loan settlement services after defaulting on unsecured personal loans. However, industry data reveals that nearly 40% of these distressed borrowers inadvertently engaged with unregulated agencies that charged exorbitant upfront fees without securing a valid bank settlement. When faced with financial ruin and constant calls from collection agents, it is easy to look for a quick fix online. Knowing how to identify legitimate online debt relief platforms is the most critical step you can take toward reclaiming your financial independence.

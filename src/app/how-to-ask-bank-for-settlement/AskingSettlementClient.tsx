@@ -680,7 +680,7 @@ export default function AskingSettlementClient() {
                   {[
                     { title: "What Kind of Loans Can’t be Settled?", url: "/what-kind-of-loans-can-not-be-settled" },
                     { title: "Understand NPA Classification", url: "/what-is-npa" },
-                    { title: "Home Loan Settlement Guide", url: "/can-I-settle-my-home-loan" },
+                    { title: "Home Loan Settlement Guide", url: "/can-i-settle-my-home-loan" },
                     { title: "Personal Loan Relief Steps", url: "/services/personal-loan-settlement" },
                     { title: "Harassment Protection Laws", url: "/services/anti-harassment" }
                   ].map((page, i) => (

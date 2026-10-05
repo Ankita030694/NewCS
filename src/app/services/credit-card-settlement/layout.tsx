@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Credit Card Settlement Services | CredSettle',
   description:
-    'Settle credit card debt legally with CredSettle. Stop recovery agent harassment, eliminate compounding interest, and get formal RBI-compliant debt closure.',
+    "Settle credit card debt legally with CredSettle. Stop collection harassment, waive penalty interest, and secure official RBI-compliant closure.",
   keywords: [
     'credit card settlement',
     'credit card debt settlement',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Credit Card Settlement Services | CredSettle',
     description:
-      'Settle credit card debt legally with CredSettle. Stop recovery agent harassment, eliminate compounding interest, and get formal RBI-compliant debt closure.',
+      'Settle credit card debt legally with CredSettle. Stop recovery harassment, eliminate compounding interest, and get formal RBI-compliant debt closure.',
     url: 'https://www.credsettle.com/services/credit-card-settlement',
     siteName: 'CredSettle',
     locale: 'en_IN',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Credit Card Settlement Services | CredSettle',
     description:
-      'Settle credit card debt legally with CredSettle. Stop recovery agent harassment, eliminate compounding interest, and get formal RBI-compliant debt closure.',
+      'Settle credit card debt legally with CredSettle. Stop recovery harassment, eliminate compounding interest, and get formal RBI-compliant debt closure.',
   },
 };
 

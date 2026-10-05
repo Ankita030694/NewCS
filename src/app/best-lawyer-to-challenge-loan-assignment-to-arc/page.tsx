@@ -7,7 +7,7 @@ import BestLawyerChallengeARCClient from './BestLawyerChallengeARCClient';
 
 export const metadata: Metadata = {
     title: "Lawyer to Challenge Loan Assignment to ARC (2025)",
-    description: "Contest improper loan transfers to Asset Reconstruction Companies. Expert legal defense for SARFAESI notices, auction stays, and ARC settlements in India.",
+    description: "Challenge improper loan assignments to ARCs. Get legal defense against SARFAESI notices, DRT auction stays, and structured debt settlements.",
     keywords: [
         "challenge loan assignment to ARC",
         "best lawyer for ARC disputes",

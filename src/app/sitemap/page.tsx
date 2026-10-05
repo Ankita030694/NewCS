@@ -539,7 +539,7 @@ const sitemapLinks = [
   },
   {
     "title": "How Can I Negotiate A Personal Loan Settlement With Lenders",
-    "href": "/how-can-I-negotiate-a-personal-loan-settlement-with-lenders"
+    "href": "/how-can-i-negotiate-a-personal-loan-settlement-with-lenders"
   },
   {
     "title": "Mudra Loan Settlement Legal Help",
@@ -647,7 +647,7 @@ const sitemapLinks = [
   },
   {
     "title": "Can I Get A Loan Settlement Quote Instantly From Online Services",
-    "href": "/can-I-get-a-loan-settlement-quote-instantly-from-online-services-"
+    "href": "/can-i-get-a-loan-settlement-quote-instantly-from-online-services-"
   },
   {
     "title": "Settlement Of Loan Letter",
@@ -691,7 +691,7 @@ const sitemapLinks = [
   },
   {
     "title": "Can I Settle My Home Loan",
-    "href": "/can-I-settle-my-home-loan"
+    "href": "/can-i-settle-my-home-loan"
   },
   {
     "title": "Which Loan Settlement Service Should I Use For Settling Multiple Credit Card Debts",
@@ -851,7 +851,7 @@ const sitemapLinks = [
   },
   {
     "title": "Sme Loan Dispute Resolution",
-    "href": "/SME-loan-dispute-resolution"
+    "href": "/sme-loan-dispute-resolution"
   },
   {
     "title": "Best Lawyer For Education Loan Settlement",
@@ -1143,7 +1143,7 @@ const sitemapLinks = [
   },
   {
     "title": "Best Lawyer For Msme Personal Loan",
-    "href": "/best-lawyer-for-MSME-personal-loan"
+    "href": "/best-lawyer-for-msme-personal-loan"
   },
   {
     "title": "Best Time For Loan Settlement",
@@ -1939,7 +1939,7 @@ const sitemapLinks = [
   },
   {
     "title": "Best Lawyer For Msme Loan Recovery Defence",
-    "href": "/best-lawyer-for-MSME-loan-recovery-defence"
+    "href": "/best-lawyer-for-msme-loan-recovery-defence"
   },
   {
     "title": "Settle 5 Lakh Personal Loan",

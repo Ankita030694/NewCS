@@ -540,7 +540,7 @@ export default function StartupLoanLegalAdvisoryClient() {
                                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Services</h4>
                                 <nav className="space-y-3">
                                     <Link href="/best-lawyer-for-msme-loan-disputes" className="block text-sm text-blue-600 hover:underline">MSME Loan Disputes</Link>
-                                    <Link href="/SME-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Resolution Help</Link>
+                                    <Link href="/sme-loan-dispute-resolution" className="block text-sm text-blue-600 hover:underline">SME Resolution Help</Link>
                                     <Link href="/best-lawyer-for-loan-agreement" className="block text-sm text-blue-600 hover:underline">Drafting Agreements</Link>
                                     <Link href="/business-corporate-loan-matters" className="block text-sm text-blue-600 hover:underline">Corporate Debt Help</Link>
                                 </nav>

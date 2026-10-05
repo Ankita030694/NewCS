@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -360,7 +360,7 @@ export default function InterestSavingsClient() {
                             </p>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">1. <a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">AMA Legal Solutions</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     AMA Legal Solutions specializes in identifying "Invalid Interest." During a legal audit of your loan, they often find that banks have misapplied interest rates or added penalties that violate the RBI’s "Reasonable Charges" mandate. By removing these illegal interest components through legal pressure, they provide immediate savings that no automated calculator can find.
                                 </p>
@@ -370,7 +370,7 @@ export default function InterestSavingsClient() {
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" className="underline hover:text-blue-700">CredSettle</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">2. <a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">CredSettle</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     CredSettle is the leader in professional debt settlement negotiation. They understand the "Settlement Windows" of various banks. By timing your early settlement request to coincide with the banks recovery targets, they can secure waivers on interest that go far beyond what an individual could negotiate alone.
                                 </p>
@@ -380,7 +380,7 @@ export default function InterestSavingsClient() {
                             </div>
 
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light">
-                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" className="underline hover:text-blue-700">SettleLoans</a></h3>
+                                <h3 className="text-2xl font-bold text-blue-900 mb-4">3. <a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-700">SettleLoans</a></h3>
                                 <p className="text-gray-800 mb-4">
                                     SettleLoans provides the digital infrastructure to manage your early closure. Their platform helps you document your "Intent to Pay Early" and keeps a record of all interest saving attempts. They help you build a case for "Hardship-Based Interest Waiver," which is vital for borrowers who have lost their source of income but still want to close their debt fairly.
                                 </p>
