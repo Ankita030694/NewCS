@@ -870,7 +870,7 @@ export default function ServicesPageClient() {
                     {/* Heading */}
                     <p
                       className="font-medium text-left mb-2"
-                      style={{ color: \'#0C2756\', fontSize: \'20px\' }}
+                      style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Personal Loan Settlement
                     </p>
@@ -943,7 +943,7 @@ export default function ServicesPageClient() {
                     {/* Heading */}
                     <p
                       className="font-medium text-left mb-2"
-                      style={{ color: \'#0C2756\', fontSize: \'20px\' }}
+                      style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Credit Card Settlement
                     </p>
@@ -1016,7 +1016,7 @@ export default function ServicesPageClient() {
                     {/* Heading */}
                     <p
                       className="font-medium text-left mb-2"
-                      style={{ color: \'#0C2756\', fontSize: \'20px\' }}
+                      style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Business Loan Settlement
                     </p>
@@ -1089,7 +1089,7 @@ export default function ServicesPageClient() {
                     {/* Heading */}
                     <p
                       className="font-medium text-left mb-2"
-                      style={{ color: \'#0C2756\', fontSize: \'20px\' }}
+                      style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       Car Loan Settlement
                     </p>
@@ -1162,7 +1162,7 @@ export default function ServicesPageClient() {
                     {/* Heading */}
                     <p
                       className="font-medium text-left mb-2"
-                      style={{ color: \'#0C2756\', fontSize: \'20px\' }}
+                      style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       App Loan Settlement
                     </p>
@@ -1235,7 +1235,7 @@ export default function ServicesPageClient() {
                     {/* Heading */}
                     <p
                       className="font-medium text-left mb-2"
-                      style={{ color: \'#0C2756\', fontSize: \'20px\' }}
+                      style={{ color: '#0C2756', fontSize: '20px' }}
                     >
                       NBFC Loan Settlement
                     </p>
